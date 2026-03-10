@@ -313,7 +313,7 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'Nuria'**
+  /// **'Ayara'**
   String get appTitle;
 
   /// No description provided for @languageSelectTitle.
@@ -529,7 +529,7 @@ abstract class AppLocalizations {
   /// No description provided for @promptDailyGuidance.
   ///
   /// In en, this message translates to:
-  /// **'Write a short, practical daily guidance rooted in Shia Islamic faith — grounded in the Quran, Hadith, and the teachings of the Prophet Muhammad. Choose a fresh angle each time: a virtue from Islamic ethics, a truth from the Sunnah, wisdom from the Companions of the Prophet, or a quiet practice from Islamic tradition. Include one Quran verse (Surah:Ayah) and a 1–2 sentence reflection to carry through the day. Optionally connect it to the Islamic calendar or an important date if relevant.'**
+  /// **'Write a short, practical daily guidance rooted in Shia Islamic faith — grounded in the Quran and the teachings of the Prophet Muhammad and the Ahl al-Bayt. Choose a fresh angle each time: a virtue from Islamic ethics, wisdom from one of the twelve Imams, a teaching from Nahj al-Balagha, or a quiet practice from the Shia tradition. Include one Quran verse (Surah:Ayah) and a 1-2 sentence reflection to carry through the day. Optionally connect it to the Islamic calendar or an important date if relevant.'**
   String get promptDailyGuidance;
 
   /// No description provided for @promptFaithTrust.
@@ -667,7 +667,7 @@ abstract class AppLocalizations {
   /// Email / share subject line including the category label.
   ///
   /// In en, this message translates to:
-  /// **'Nuria — {category}'**
+  /// **'Ayara — {category}'**
   String shareSubject(String category);
 
   /// No description provided for @regenerateErrorTitle.
@@ -1201,7 +1201,7 @@ abstract class AppLocalizations {
   /// No description provided for @premiumSubtitleBasic.
   ///
   /// In en, this message translates to:
-  /// **'Unlock the full Nuria experience.'**
+  /// **'Unlock the full Ayara experience.'**
   String get premiumSubtitleBasic;
 
   /// No description provided for @premiumSubtitleChampion.
@@ -1339,7 +1339,7 @@ abstract class AppLocalizations {
   /// No description provided for @blessedSubtitleGrace.
   ///
   /// In en, this message translates to:
-  /// **'Unlock the full Nuria experience.'**
+  /// **'Unlock the full Ayara experience.'**
   String get blessedSubtitleGrace;
 
   /// No description provided for @blessedSubtitleBlessed.
@@ -1537,7 +1537,7 @@ abstract class AppLocalizations {
   /// No description provided for @rateGuestMustSignIn.
   ///
   /// In en, this message translates to:
-  /// **'Sign in to use Nuria and your reflections.'**
+  /// **'Sign in to use Ayara and your reflections.'**
   String get rateGuestMustSignIn;
 
   /// No description provided for @guestNoCreditsTitle.
@@ -2311,7 +2311,7 @@ abstract class AppLocalizations {
   /// No description provided for @dailyRoleModel24.
   ///
   /// In en, this message translates to:
-  /// **'Imam Ja'far al-Sadiq (AS)'**
+  /// **'Imam Ja\'far al-Sadiq (AS)'**
   String get dailyRoleModel24;
 
   /// No description provided for @dailyRoleModel25.
@@ -2527,7 +2527,7 @@ abstract class AppLocalizations {
   /// No description provided for @locationConsentLabel.
   ///
   /// In en, this message translates to:
-  /// **'Allow Nuria to use my location for Qibla direction and prayer times'**
+  /// **'Allow Ayara to use my location for Qibla direction and prayer times'**
   String get locationConsentLabel;
 
   /// No description provided for @locationConsentHint.
@@ -2539,7 +2539,7 @@ abstract class AppLocalizations {
   /// No description provided for @askPageTitle.
   ///
   /// In en, this message translates to:
-  /// **'Ask Nuria'**
+  /// **'Ask Ayara'**
   String get askPageTitle;
 
   /// No description provided for @askPageDescription.
@@ -2623,7 +2623,7 @@ abstract class AppLocalizations {
   /// No description provided for @qiblaLocationNeededBody.
   ///
   /// In en, this message translates to:
-  /// **'Allow location access so Nuria can calculate the direction of the Kaaba in Makkah from wherever you are.'**
+  /// **'Allow location access so Ayara can calculate the direction of the Kaaba in Makkah from wherever you are.'**
   String get qiblaLocationNeededBody;
 
   /// No description provided for @qiblaOpenSettings.
@@ -2689,7 +2689,7 @@ abstract class AppLocalizations {
   /// No description provided for @prayerTimesLocationNeededBody.
   ///
   /// In en, this message translates to:
-  /// **'Allow location access so Nuria can calculate accurate prayer times for your city.'**
+  /// **'Allow location access so Ayara can calculate accurate prayer times for your city.'**
   String get prayerTimesLocationNeededBody;
 
   /// No description provided for @prayerTimesNextLabel.
@@ -2767,7 +2767,7 @@ abstract class AppLocalizations {
   /// No description provided for @prayerNotificationsDeniedHint.
   ///
   /// In en, this message translates to:
-  /// **'Go to Settings and allow notifications for Nuria to receive prayer time reminders.'**
+  /// **'Go to Settings and allow notifications for Ayara to receive prayer time reminders.'**
   String get prayerNotificationsDeniedHint;
 
   /// No description provided for @notificationsConsentLabel.
@@ -2887,7 +2887,7 @@ abstract class AppLocalizations {
   /// No description provided for @disclaimerBody.
   ///
   /// In en, this message translates to:
-  /// **'Nuria provides Islamic reflections, reminders, and spiritual content to support your personal journey of faith. This content is offered for general informational and inspirational purposes only.\n\nNuria does not replace qualified scholarship.\nThe guidance in this app is not a substitute for a learned Islamic scholar, imam, mufti, or theologically trained teacher. If you have questions about religious rulings, halal and haram matters, or personal religious obligations, please seek advice from a qualified religious authority in your community.\n\nThis app does not issue religious rulings.\nNuria does not make authoritative determinations on matters of fiqh (Islamic jurisprudence) or personal religious obligations. Nothing here should be treated as a fatwa or binding religious instruction.\n\nScholarly interpretations vary.\nIslam encompasses a rich diversity of traditions, schools of thought (madhabs), and scholarly opinions. Content in this app reflects general perspectives and may not represent every tradition or school equally.\n\nCommunity matters.\nThis app aims to encourage your engagement with faith traditions while deeply respecting the vital role of your local mosque, imam, and religious community. We encourage you to stay connected with and learn from qualified teachers near you.'**
+  /// **'Ayara provides Islamic reflections, reminders, and spiritual content to support your personal journey of faith. This content is offered for general informational and inspirational purposes only.\n\nAyara does not replace qualified scholarship.\nThe guidance in this app is not a substitute for a learned Islamic scholar, imam, mufti, or theologically trained teacher. If you have questions about religious rulings, halal and haram matters, or personal religious obligations, please seek advice from a qualified religious authority in your community.\n\nThis app does not issue religious rulings.\nAyara does not make authoritative determinations on matters of fiqh (Islamic jurisprudence) or personal religious obligations. Nothing here should be treated as a fatwa or binding religious instruction.\n\nScholarly interpretations vary.\nIslam encompasses a rich diversity of traditions, schools of thought (madhabs), and scholarly opinions. Content in this app reflects general perspectives and may not represent every tradition or school equally.\n\nCommunity matters.\nThis app aims to encourage your engagement with faith traditions while deeply respecting the vital role of your local mosque, imam, and religious community. We encourage you to stay connected with and learn from qualified teachers near you.'**
   String get disclaimerBody;
 
   /// No description provided for @disclaimerClose.
