@@ -207,3 +207,5 @@ lib/firebase_options.dart
 *service-account*.json
 *verification*.json
 *play*.json
+launch.json
+.vscode/launch.json
