@@ -77,7 +77,7 @@ function addTxDoc(txId: string, credits: number, alreadyRestoredToBindings: stri
     uidHash,
     type: 'consumable',
     status: 'granted',
-    productId: 'nuria_reflections_100',
+    productId: 'ayara_reflections_100',
     granted: { reflections: credits },
     restoredToBindings: alreadyRestoredToBindings,
   });
@@ -197,7 +197,7 @@ describe('restoreAccountPurchases: main/guest vs other routing', () => {
       uidHash: otherUidHash2,
       type: 'consumable',
       status: 'granted',
-      productId: 'nuria_reflections_100',
+      productId: 'ayara_reflections_100',
       granted: { reflections: 100 },
       restoredToBindings: [],
     });

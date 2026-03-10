@@ -14,7 +14,7 @@ async function fetchText(url: string, token: string) {
     headers: {
       Authorization: `Bearer ${token}`,
       Accept: "application/json",
-      "User-Agent": "nuria-iap/1.0",
+      "User-Agent": "ayara-iap/1.0",
     },
   });
 

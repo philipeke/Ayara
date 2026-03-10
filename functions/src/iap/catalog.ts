@@ -22,30 +22,30 @@ export type IapProduct =
  * This is a CLEAN catalog:
  * ❌ No legacy IDs
  * ❌ No migration support
- * ✅ New Nuria economy only
+ * ✅ New Ayara economy only
  */
 export const IAP_CATALOG: Record<string, IapProduct> = {
   // ─────────────────────────────
   // ✨ Reflections Top-Ups (consumables)
   // ─────────────────────────────
 
-  nuria_reflections_100: {
+  ayara_reflections_100: {
     kind: "consumable",
-    productId: "nuria_reflections_100",
+    productId: "ayara_reflections_100",
     reflections: 100,
     label: "100 Reflections",
   },
 
-  nuria_reflections_200: {
+  ayara_reflections_200: {
     kind: "consumable",
-    productId: "nuria_reflections_200",
+    productId: "ayara_reflections_200",
     reflections: 200,
     label: "200 Reflections",
   },
 
-  nuria_reflections_400: {
+  ayara_reflections_400: {
     kind: "consumable",
-    productId: "nuria_reflections_400",
+    productId: "ayara_reflections_400",
     reflections: 400,
     label: "400 Reflections",
   },

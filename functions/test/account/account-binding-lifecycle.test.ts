@@ -46,8 +46,8 @@ const uidHashA2     = sha256(`${UID_A2}::${IAP_LEDGER_SALT}`);
 const uidHashB      = sha256(`${UID_B}::${IAP_LEDGER_SALT}`);
 const emailHashA    = sha256(`${EMAIL_A}::${DEVICE_SALT}`);
 
-const ENTITLEMENT_PRODUCT = 'com.oakdev.nuria.premium';
-const CONSUMABLE_PRODUCT  = 'nuria_reflections_100';
+const ENTITLEMENT_PRODUCT = 'com.oakdev.ayara.premium';
+const CONSUMABLE_PRODUCT  = 'ayara_reflections_100';
 
 // ─── Mocks ──────────────────────────────────────────────────────────────────
 jest.mock('firebase-admin', () =>
@@ -137,7 +137,7 @@ beforeEach(() => {
   verify().verifyAppleOrThrow.mockResolvedValue({
     environment: 'Sandbox',
     originalTransactionId: 'orig-lifecycle-001',
-    bundleId: 'com.oakdev.nuria.test',
+    bundleId: 'com.oakdev.ayara.test',
     productId: ENTITLEMENT_PRODUCT,
   });
 });
@@ -518,7 +518,7 @@ describe('7–8. Re-created Account A (same email, new uid) reclaims entitlement
     verify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-lifecycle-ent-001',
-      bundleId: 'com.oakdev.nuria.test',
+      bundleId: 'com.oakdev.ayara.test',
       productId: ENTITLEMENT_PRODUCT,
     });
 
@@ -539,7 +539,7 @@ describe('7–8. Re-created Account A (same email, new uid) reclaims entitlement
     verify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-lifecycle-ent-001',
-      bundleId: 'com.oakdev.nuria.test',
+      bundleId: 'com.oakdev.ayara.test',
       productId: ENTITLEMENT_PRODUCT,
     });
 
@@ -565,7 +565,7 @@ describe('7–8. Re-created Account A (same email, new uid) reclaims entitlement
     verify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-lifecycle-ent-001',
-      bundleId: 'com.oakdev.nuria.test',
+      bundleId: 'com.oakdev.ayara.test',
       productId: ENTITLEMENT_PRODUCT,
     });
 
@@ -607,7 +607,7 @@ describe('7–8. Re-created Account A (same email, new uid) reclaims entitlement
     verify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-lifecycle-ent-001',
-      bundleId: 'com.oakdev.nuria.test',
+      bundleId: 'com.oakdev.ayara.test',
       productId: ENTITLEMENT_PRODUCT,
     });
 
@@ -1350,7 +1350,7 @@ describe('18. A2 reclaim: gets back the exact credits the pool had when A was de
     verify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-e2e-ent-001',
-      bundleId: 'com.oakdev.nuria.test',
+      bundleId: 'com.oakdev.ayara.test',
       productId: ENTITLEMENT_PRODUCT,
     });
 

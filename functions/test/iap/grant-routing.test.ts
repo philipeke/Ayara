@@ -117,8 +117,8 @@ beforeEach(() => {
   getVerify().verifyAppleOrThrow.mockResolvedValue({
     environment: 'Sandbox',
     originalTransactionId: 'orig-routing-001',
-    bundleId: 'com.oakdev.nuria.test',
-    productId: 'nuria_reflections_100',
+    bundleId: 'com.oakdev.ayara.test',
+    productId: 'ayara_reflections_100',
   });
 });
 
@@ -133,7 +133,7 @@ describe('Consumable grant routing', () => {
     setupDeviceBinding(UID_MAIN);
 
     const result = await (iapAcknowledgeAndGrant as any)(
-      makeReq(UID_MAIN, 'nuria_reflections_100', '001')
+      makeReq(UID_MAIN, 'ayara_reflections_100', '001')
     );
 
     expect(result.ok).toBe(true);
@@ -152,12 +152,12 @@ describe('Consumable grant routing', () => {
     getVerify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-routing-002',
-      bundleId: 'com.oakdev.nuria.test',
-      productId: 'nuria_reflections_100',
+      bundleId: 'com.oakdev.ayara.test',
+      productId: 'ayara_reflections_100',
     });
 
     const result = await (iapAcknowledgeAndGrant as any)(
-      makeReq(UID_OTHER, 'nuria_reflections_100', '002', 'password', 'other@test.com')
+      makeReq(UID_OTHER, 'ayara_reflections_100', '002', 'password', 'other@test.com')
     );
 
     expect(result.ok).toBe(true);
@@ -183,12 +183,12 @@ describe('Consumable grant routing', () => {
     getVerify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-routing-003',
-      bundleId: 'com.oakdev.nuria.test',
-      productId: 'nuria_reflections_100',
+      bundleId: 'com.oakdev.ayara.test',
+      productId: 'ayara_reflections_100',
     });
 
     const result = await (iapAcknowledgeAndGrant as any)(
-      makeReq(UID_GUEST, 'nuria_reflections_100', '003', 'anonymous', '')
+      makeReq(UID_GUEST, 'ayara_reflections_100', '003', 'anonymous', '')
     );
 
     expect(result.ok).toBe(true);
@@ -211,7 +211,7 @@ describe('Consumable guards', () => {
     // NO entitlement doc set
 
     await expect(
-      (iapAcknowledgeAndGrant as any)(makeReq(UID_MAIN, 'nuria_reflections_100'))
+      (iapAcknowledgeAndGrant as any)(makeReq(UID_MAIN, 'ayara_reflections_100'))
     ).rejects.toMatchObject({ code: 'failed-precondition', message: 'TOPUP_REQUIRES_BLESSED' });
   });
 
@@ -225,7 +225,7 @@ describe('Consumable guards', () => {
     setupDeviceBinding(UID_MAIN);
 
     await expect(
-      (iapAcknowledgeAndGrant as any)(makeReq(UID_MAIN, 'nuria_reflections_100'))
+      (iapAcknowledgeAndGrant as any)(makeReq(UID_MAIN, 'ayara_reflections_100'))
     ).rejects.toMatchObject({ code: 'failed-precondition', message: 'TOPUP_REQUIRES_BLESSED' });
   });
 });
@@ -243,7 +243,7 @@ describe('Already-granted transaction idempotency', () => {
     // txDoc already granted to this account (Firestore path = collection/docId)
     getAdmin().__setState('iap_transactions/ios:tx-routing-001', {
       uidHash: mainUidHash,
-      productId: 'nuria_reflections_100',
+      productId: 'ayara_reflections_100',
       status: 'granted',
       type: 'consumable',
       granted: { reflections: 100 },
@@ -251,7 +251,7 @@ describe('Already-granted transaction idempotency', () => {
     });
 
     const result = await (iapAcknowledgeAndGrant as any)(
-      makeReq(UID_MAIN, 'nuria_reflections_100')
+      makeReq(UID_MAIN, 'ayara_reflections_100')
     );
 
     expect(result.ok).toBe(true);
@@ -270,14 +270,14 @@ describe('Already-granted transaction idempotency', () => {
     // txDoc owned by OTHER account (Firestore path = collection/docId)
     getAdmin().__setState('iap_transactions/ios:tx-routing-001', {
       uidHash: otherUidHash, // different user
-      productId: 'nuria_reflections_100',
+      productId: 'ayara_reflections_100',
       status: 'granted',
       type: 'consumable',
       granted: { reflections: 100 },
     });
 
     await expect(
-      (iapAcknowledgeAndGrant as any)(makeReq(UID_MAIN, 'nuria_reflections_100'))
+      (iapAcknowledgeAndGrant as any)(makeReq(UID_MAIN, 'ayara_reflections_100'))
     ).rejects.toMatchObject({
       code: 'failed-precondition',
       message: 'TX_ALREADY_USED_BY_OTHER_ACCOUNT',
@@ -297,12 +297,12 @@ describe('Entitlement grant routing', () => {
     getVerify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-ent-001',
-      bundleId: 'com.oakdev.nuria.test',
-      productId: 'com.oakdev.nuria.premium',
+      bundleId: 'com.oakdev.ayara.test',
+      productId: 'com.oakdev.ayara.premium',
     });
 
     const result = await (iapAcknowledgeAndGrant as any)(
-      makeReq(UID_MAIN, 'com.oakdev.nuria.premium', '004')
+      makeReq(UID_MAIN, 'com.oakdev.ayara.premium', '004')
     );
 
     expect(result.ok).toBe(true);
@@ -323,12 +323,12 @@ describe('Entitlement grant routing', () => {
     getVerify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-ent-002',
-      bundleId: 'com.oakdev.nuria.test',
-      productId: 'com.oakdev.nuria.premium',
+      bundleId: 'com.oakdev.ayara.test',
+      productId: 'com.oakdev.ayara.premium',
     });
 
     const result = await (iapAcknowledgeAndGrant as any)(
-      makeReq(UID_OTHER, 'com.oakdev.nuria.premium', '005', 'password', 'other@test.com')
+      makeReq(UID_OTHER, 'com.oakdev.ayara.premium', '005', 'password', 'other@test.com')
     );
 
     expect(result.ok).toBe(true);
@@ -360,12 +360,12 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
     getVerify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-pool-001',
-      bundleId: 'com.oakdev.nuria.test',
-      productId: 'com.oakdev.nuria.premium',
+      bundleId: 'com.oakdev.ayara.test',
+      productId: 'com.oakdev.ayara.premium',
     });
 
     const result = await (iapAcknowledgeAndGrant as any)(
-      makeReq(UID_GUEST, 'com.oakdev.nuria.premium', 'pool-001', 'anonymous', '')
+      makeReq(UID_GUEST, 'com.oakdev.ayara.premium', 'pool-001', 'anonymous', '')
     );
 
     expect(result.ok).toBe(true);
@@ -384,12 +384,12 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
     getVerify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-pool-002',
-      bundleId: 'com.oakdev.nuria.test',
-      productId: 'com.oakdev.nuria.premium',
+      bundleId: 'com.oakdev.ayara.test',
+      productId: 'com.oakdev.ayara.premium',
     });
 
     const result = await (iapAcknowledgeAndGrant as any)(
-      makeReq(UID_MAIN, 'com.oakdev.nuria.premium', 'pool-002')
+      makeReq(UID_MAIN, 'com.oakdev.ayara.premium', 'pool-002')
     );
 
     expect(result.ok).toBe(true);
@@ -409,7 +409,7 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
 
     getAdmin().__setState('iap_transactions/ios:tx-routing-pool-003', {
       uidHash: mainUidHash,
-      productId: 'com.oakdev.nuria.premium',
+      productId: 'com.oakdev.ayara.premium',
       status: 'granted',
       type: 'entitlement',
       granted: { entitlement: 'blessed', bonusReflections: 300 },
@@ -418,12 +418,12 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
     getVerify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-pool-003',
-      bundleId: 'com.oakdev.nuria.test',
-      productId: 'com.oakdev.nuria.premium',
+      bundleId: 'com.oakdev.ayara.test',
+      productId: 'com.oakdev.ayara.premium',
     });
 
     const result = await (iapAcknowledgeAndGrant as any)(
-      makeReq(UID_MAIN, 'com.oakdev.nuria.premium', 'pool-003')
+      makeReq(UID_MAIN, 'com.oakdev.ayara.premium', 'pool-003')
     );
 
     expect(result.ok).toBe(true);
@@ -443,7 +443,7 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
 
     getAdmin().__setState('iap_transactions/ios:tx-routing-pool-004', {
       uidHash: otherUidHash,
-      productId: 'com.oakdev.nuria.premium',
+      productId: 'com.oakdev.ayara.premium',
       status: 'granted',
       type: 'entitlement',
       granted: { entitlement: 'blessed', bonusReflections: 300 },
@@ -452,12 +452,12 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
     getVerify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
       originalTransactionId: 'orig-pool-004',
-      bundleId: 'com.oakdev.nuria.test',
-      productId: 'com.oakdev.nuria.premium',
+      bundleId: 'com.oakdev.ayara.test',
+      productId: 'com.oakdev.ayara.premium',
     });
 
     const result = await (iapAcknowledgeAndGrant as any)(
-      makeReq(UID_OTHER, 'com.oakdev.nuria.premium', 'pool-004', 'password', 'other@test.com')
+      makeReq(UID_OTHER, 'com.oakdev.ayara.premium', 'pool-004', 'password', 'other@test.com')
     );
 
     expect(result.ok).toBe(true);

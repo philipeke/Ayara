@@ -122,7 +122,7 @@ async function callAppleTransactionEndpoint(
         headers: {
           Authorization: `Bearer ${token}`,
           // Cosmetic only (logs/diagnostics)
-          "User-Agent": "nuria-iap/1.0",
+          "User-Agent": "ayara-iap/1.0",
           Accept: "application/json",
         },
       },
