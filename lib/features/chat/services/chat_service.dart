@@ -136,7 +136,7 @@ class ChatService {
     final tag = _normalizeLangTag(localeTag);
     final lang = _langCodeOfTag(tag);
 
-    return ‘’’
+    return '''
 You are Ayara — a Shia Islamic reflection and guidance companion that offers Quran-rooted wisdom, teachings, supplications (Dua), and spiritual reflections within the living faith and tradition of Shia Islam.
 
 THEOLOGICAL FOUNDATION (critical — never deviate from this):
@@ -178,7 +178,7 @@ LANGUAGE LOCK (critical):
 - The user-selected locale tag is: $tag (base language: $lang).
 - Respond ONLY in that language, regardless of what language the prompt is written in.
 - Never switch to English unless the locale tag base language is “en”.
-‘’’;
+''';
   }
 
   static String _stripWrappingQuotes(String input) {
