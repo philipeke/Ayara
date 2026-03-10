@@ -1,0 +1,585 @@
+{
+  "@@locale": "az",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Dilinizi seçin",
+  "languageSelectSub": "Bunu daha sonra Parametrlər bölümündən dəyişə bilərsiniz",
+  "actionContinue": "Davam et",
+  "languageSuggestedHeader": "Təklif edilən",
+  "languageAllHeader": "Bütün dillər",
+  "languageSuggestedBadge": "Təklif edilən",
+  "languageSearchHint": "Axtarış…",
+
+  "planGrace": "Standart",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Günlük Rehberlik",
+  "categoryFaithTrust": "İman və Güvən",
+  "categoryPrayerReflection": "Namaz Meditasiyası",
+  "categoryHopeDifficultTimes": "Səbr və Ümid",
+  "categoryForgiveness": "Tәvbə Dilə",
+  "categoryLoveCompassion": "Mərhәmәt və Şәfqәt",
+  "categoryStrengthCourage": "İman Gücü",
+  "categoryGratitude": "Şükranlı Qalb",
+  "categoryPurposeCalling": "Həyatın Məqsədi",
+  "categoryFamilyRelationships": "Ailә Münasibətlәri",
+  "categoryPeaceAnxietyRelief": "Dәruni Sülh",
+  "categoryWisdomOfJesus": "Pәygәmbәr Hikmәti",
+  "categoryHumilityCharacter": "Tәvazü və Xülq",
+  "categoryOvercomingTemptation": "Vәsvәsәyә Müqavimәt",
+  "categoryEveningReflection": "Axşam Zikri",
+  "categoryCustom": "Şəxsi Düşüncə",
+  "dhikrMeaningSubhanallah": "Allahın şanı uca",
+  "dhikrMeaningAlhamdulillah": "Bütün təriflər Allahındır",
+  "dhikrMeaningAllahuAkbar": "Allah ən böyüyüdür",
+  "quranVerseHeartAtRest": "Həqiqətən, Allahı yad etməkdə qəlblər rahatlıq tapar.",
+
+  "promptHint": "İslami rehberlik və meditasiya üçün bir kateqoriyaya toxunun",
+
+  "currentLanguage": "Cari dil",
+  "settingsLanguage": "Dil parametrləri",
+  "settingsTitle": "Parametrlər",
+  "chooseLanguage": "Dilinizi seçin",
+  "continueCta": "Davam et",
+
+  "promptDailyGuidance": "Sunni İslam imanına əsaslanan, Quran, Hadis və Pəygəmbər Həzrət Məhəmmədin (s.a.v.) tәlimləri ilə bağlı qısa və praktik günlük rehberlik yazın. Hər dəfə yeni bir bucaqdan yanaşın: İslami әtiqaddan bir fәzilәt, Sunnәdən bir həqiqət, Pәygәmbәrin Səhabәlәrinin hikmәti və ya İslami ənәnәdәn fәrli bir tәcrübә. Bir Quran ayәsi (Sürә:Ayәt) və günün boyunca daşımaq üçün 1-2 cümlәlik bir meditasiya daxil edin. Tәlәsәllüflü İslam təqvimi və ya әhәmiyyәtli bir tarixlә әlaqәlәndirin.",
+
+  "promptFaithTrust": "İman (Iman) və Allahın planına güvən (Tәvәkkәl) barәdә qısa İslami meditasiya yazın. Bunu Quran, Pәygәmbәr Həzrət Məhәmmədin (s.a.v.) nümunәsi və Səhabәnin imanında köklәndirin. Hәr dәfә mövzunu dәyişin: Bәlkә sınaqlar zamanı Allaha güvәn, ilahi hikmәtә tәslim olmaq, sәbrәt və ya gündәlik həyatda sakit israr. Bir Quran ayәsi və İslami ruhani hikmәtindәn bugün üçün səmimi bir addım daxil edin.",
+
+  "promptPrayerReflection": "Namaz, Dua və ya Zikrә əsaslanan qısa İslami namaz meditasiyası yazın. Hәr dәfә formasını dәyişin: səhәr və ya axşam zikri (Әdkar), beş gündәlik namaza meditasiya, Qurani ayәyә mütәfәkkir olmaq və ya samimi bir sual. Bir Quran ayәsi daxil edin və istifadә olunan namaz formasını qısa şәkildә qeyd edin.",
+
+  "promptHopeDifficultTimes": "Çәtinliklәr zamanı səbr (Sabr) və ümid barәdә İslami meditasiya yazın. Sınaqlar barәdә Qurani tәlimdәn, Pәygәmbәrlərin səbrindәn və çәtin anlar zamanı Allahın mərhәmәtindәn istifadә edin. Hәr dәfә bucağı dәyişin. Bir Quran ayәsi və İslami ənәnәdәn bir tәşviq edici perspektiv daxil edin.",
+
+  "promptForgiveness": "Tәvbә (Tәvbә) və Allahın mərhәmәti barәdә bilgәli İslami meditasiya yazın. Qurani tәlimdәn, Allahın şәfqәtindәn və Pәygәmbәr Həzrət Məhәmmədin bağışlayıcı nümunәsindәn istifadә edin. Mövzunu dәyişin: Allaha tәvәkkәl etmәk, başqalarını bağışlamaq, münasibәtlәri sağaltmaq və ya səhvdәn sonra Allahın mərhәmәtinә inanmaq. Bir Quran ayәsi və bir konkret addım daxil edin.",
+
+  "promptLoveCompassion": "Gündәlik həyatda mərhәmәt (Rahmah) və şәfqәt barәdә qısa İslami meditasiya yazın. Pәygәmbәr Həzrət Məhәmmədin nümunәsindәn, İhsan (mükәmmәllik) konsepsiyasından və ailә, qonşular və zәif insanlara xeyirxahlıq barәdә İslami tәlimdәn istifadә edin. Bir Quran ayәsi və bugün tәcrübә etmәk üçün kiçik bir şәfqәt işi daxil edin.",
+
+  "promptStrengthCourage": "İman әsaslı güc və cәsarәt barәdә İslami meditasiya yazın. Pәygәmbәrlərin nümunәlәrindәn, erkәn müsәlman cәmәәtindәn və sınaqlar zamanı sabit qalan möminlәrdәn istifadә edin. Mövzunu hәr dәfә dәyişin: imandan cәsarәt, namazdan güc, qorxu zamanı Allaha güvәn və ya çәtinlikdә әzmlillik. Bir Quran ayәsi və qısa bir dua və ya zikr cümlәsi daxil edin.",
+
+  "promptGratitude": "Allaha şükranlıq (Şükür) barәdә İslami meditasiya yazın. Bunu Qurani tәlim və Pәygәmbәrin ənәnәsindә köklәndirin. Bucağı dәyişin: çәtinlik zamanı şükranlıq, kiçik bәrәkәtlәri qiymәtlәndirmәk, günü Allaha övünc ilә başlamaq və ya gündәlik həyatda Allahın bәlәdiyyәsini tanımaq. Bir Quran ayәsi və bir şükranlıq tәcrübәsi daxil edin.",
+
+  "promptPurposeCalling": "Allaha ibadәt etmәk və düzrәstcә yaşamaq üçün həyatın məqsәdi barәdә İslami meditasiya yazın. Məqsәd, digәrlinә xidmәt və əxlaqi yaxşılıqlar üçün bir giftlәri istifadә etmәk barәdә Qurani tәlimdәn istifadә edin. Mövzunu hәr dәfә dәyişin: ailә və cәmәәtә xidmәt, İstixarә vasitәsilә bәlәdiyyә axtarışı, niyyәt ilә yaşamaq və ya adi işdә mәna tapmaq. Bir Quran ayәsi və iki dәqiqәlik sual daxil edin.",
+
+  "promptFamilyRelationships": "Qurani tәlim və Pәygәmbәr Həzrət Məhәmmədin nümunәsindә köklәndirәn ailә və münasibәtlәr barәdә hikmaili İslami rәhbәrlik yazın. Mövzunu hәr dәfә dәyişin: ailәdә xeyirxahlıq, münaqişәdә səbr, valideynlәri hörmәt, uşaqları imanda böyütmәk və ya nikahı güclәndirmәk. Bir Quran ayәsi və bir münasibәt tәcrübәsi daxil edin.",
+
+  "promptPeaceAnxietyRelief": "Allahın zikri (Zikr) və Onun planına güvәn vasitәsilә dәruni sülh tapmaq barәdә sakin İslami meditasiya yazın. Ürәyin sakinliyi, namaz və Allahın iradsına tәslim olmaq barәdә Qurani tәlimdәn istifadә edin. Hәr dәfә yanaşmanı dәyişin və bir Quran ayәsi və İslami ənәnәdәn kiçik bir zәminlәndirmә tәcrübәsi daxil edin.",
+
+  "promptWisdomOfJesus": "İslamda tәlim verilәn Pәygәmbәrlərdәn qısa hikmәt yazın. Quran və ya Hadisdәn istifadә edin və İslami alimlərin tәlimi necә anladıqlarını qısa şәkildә izah edin. Hәr dәfә mövzunu dәyişin: xülq, səbr, tәvazü, iman və ya gündәlik aparış. Bir Qurani ayәt və ya Hadis ismarıcı daxil edin və bir praktik tәtbiq edin.",
+
+  "promptHumilityCharacter": "Tәvazü (Tәvazü) və yaxşı xülq (Axlaq) barәdә İslami meditasiya yazın. Qurani tәlimdәn, Pәygәmbәr Həzrət Məhәmmədin nümunәsindәn və İslami xülq tәkamülü ənәnәsindәn istifadә edin. Mövzunu dәyişin: rәhbәrlikdә tәvazü, səhvlәri tanımaq, digәrләrә hörmәt ilә münasibәt و ya ruhani özüñü yenilәmәk. Bir Quran ayәsi və bir tәrәfәyi tәcrübәsi daxil edin.",
+
+  "promptOvercomingTemptation": "Vәsvәsәyә (Vәsvәsә) müqavimәt etmәk və doğru yolda qalmaq barәdә İslami meditasiya yazın. Qurani rәhbәrlik, Allahın zikri (Zikr), namaz (Salah) və mübarizәlәri üstәsindәn gәlәn möminlərin nümunәlәrindәn istifadә edin. Hәr dәfә bucağı dәyişin. Bir Quran ayәsi və sonrakı 24 saat üçün bir praktik strategiya daxil edin.",
+
+  "promptEveningReflection": "Axşam zikri (Әdkar al-Masaa) ənәnәsindә köklәndirәn sәrfili İslami axşam meditasiyası yazın. Şükranlıq, nәfs mühasәbәsi (Muhәsabah) və istirahәtdәn әvvәl Allaha güvәni tәşviq edin. 3-5 qısa meditasiya sualı, qısa bir xitam sualı və bir Quran ayәsi daxil edin.",
+
+  "wordCount": "{count, plural, one {{count} sözü} other {{count} söz}}",
+
+  "optionsCta": "Seçənəklәr",
+  "newCta": "Yeni",
+  "actionsTitle": "Nәyi etmәk istәyirsiniz?",
+  "copy": "Kopyala",
+  "share": "Paylaş",
+  "close": "Bağla",
+  "copiedToast": "Buferә kopyalandı",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Daily Guidance" }
+    }
+  },
+
+  "regenerateErrorTitle": "Yeni cavab yaradıla bilmәdi",
+  "regenerateErrorBody": "{error}\n\nTәkrar cәhdәlәmәk istәyirsiniz?",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Network error" }
+    }
+  },
+
+  "cancelCta": "Ləğv et",
+  "retryCta": "Yәnidәn cәhdә",
+
+  "authTitle": "Hesab yaradın",
+  "continueAsGuest": "Qonaq kimi davam et",
+  "signInGoogle": "Google ilә daxil ol",
+  "signInApple": "Apple ilә daxil ol",
+  "signInEmail": "Elektron poçt ilә daxil ol",
+  "upgradeWithApple": "Apple ilә davam et",
+  "mustAccept": "Xidmәt Şәrtlәrini qәbul etmәli və Məxfilik Siyasәtini tanımalısınız.",
+  "termsLabel": "Xidmәt Şәrtlәrini qәbul edirәm",
+  "privacyLabel": "Məxfilik Siyasәtini oxudum",
+  "marketingOptIn": "Xәbәrlәr və təkliflәr almağa razıyam",
+  "openTerms": "Xidmәt Şәrtlәri",
+  "openPrivacy": "Məxfilik Siyasәti",
+
+  "accountSection": "Hesab",
+  "guestMode": "Qonaq rejimi",
+  "signedIn": "Daxil oldu",
+  "upgradeHint": "Hesab yaradaraq öz meditasyalarınızı cihazlar arasında saxlayın.",
+  "upgradeWithGoogle": "Google ilә davam et",
+  "signOut": "Çıxış et",
+
+  "snackUpgraded": "Hesab Google ilә yüksәldildi ✅",
+  "snackSignedIn": "Google ilә daxil oldu ✅",
+  "snackSignedOut": "Çıxış edildi",
+  "snackSignedInApple": "Apple ilә daxil oldu ✅",
+  "snackSignedInGoogle": "Google ilә daxil oldu ✅",
+  "snackUpgradedApple": "Hesab Apple ilә yüksәldildi ✅",
+  "snackUpgradedGoogle": "Hesab Google ilә yüksәldildi ✅",
+
+  "historyTitle": "Әvvәlki meditasyalar",
+  "historyOpenCta": "Әvvәlki meditasyalar",
+  "historyEmpty": "Hәnüz saxlanmış meditasiya yoxdur.",
+  "historyDeleteTitle": "Meditasiya silinsin?",
+  "historyDeleteBody": "Bu seçilәn mәnsәi bәslәnmiş şәkildә silәcәk.",
+  "deleteCta": "Sil",
+
+  "historyButton": "Әvvәlki Meditasyalar",
+  "historyEmptyTitle": "Hәnüz meditasiya yoxdur",
+  "historyEmptyBody": "Әvvәlcә bir şey yaradın — saxlanmış mәnsәilәr burada peyda olacaq.",
+  "historyDelete": "Sil",
+
+  "footerTitle": "İman, səbr və mərhәmәt ilә.",
+  "footerSubtitle": "Bir addım cәhәtindәn.",
+  "genericErrorSnack": "Bir şey yanlış getdi — biraz sonra yәnidәn cәhdәlәyin.",
+
+  "upgradeAccountCta": "Meditasyalarınızı cihazlar arasında saxlayın – hesab yaradın",
+  "deleteAccount": "Hesabı sil",
+  "exportData": "Mənim məlumatlarımı ixrac et",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Yavaş ol 🐯\nSunucu sonrakı üçün bir an lazımdır…",
+  "rateDailyLimit": "Hәnüz meditasiyalar bitdi.\nDaha çox meditasiya alın və ya Barakah-a keçin.",
+  "rateCreditsExhausted": "Bütün meditasyalarınızı istifadә etdiniz.\nYenilәyin və ya Barakah-a keçin.",
+  "rateGraceReflectionsExhausted": "Hәnüz meditasiyalar bitdi.\nDaha çox meditasiya alın və ya Barakah-a keçin.",
+  "rateReflectionsExhausted": "Bütün meditasyalarınızı istifadә etdiniz.\nYenilәyin və ya Barakah-a keçin.",
+
+  "blessedDescription": "Barakah әlavә xüsusiyyәtlәr, gәlәcәk kateqoriyalar və xüsusi nişanı açır.",
+  "championDescription": "Barakah әlavә xüsusiyyәtlәr, gәlәcәk kateqoriyalar və xüsusi nişanı açır.",
+
+  "ratePlanExhausted": "Meditasyalarınız hәnüz boş. Plan: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard or Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Meditasyalarınız yoxlanıla bilmәdi: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Network error" }
+    }
+  },
+
+  "rateCheckGenericError": "Meditasyalarınız yoxlanılırken bir şey yanlış getdi.",
+  "aiFallbackGeneric": "Bir şey yanlış getdi — biraz sonra yәnidәn cәhdәlәyin.",
+
+  "limitSectionTitle": "Meditasyalar",
+  "limitTodayLabel": "İstifadә",
+  "limitCreditsLabel": "Qalan meditasyalar: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plan: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard or Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Yüklәniyor…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
+
+  "aiLimitTitle": "Meditasyalar",
+  "aiLimitSubtitle": "Hәr cavab 1 meditasiya istifadә edir. Standart başlanğıc meditasiyalar daxil edir. Barakah әlavә kateqoriyalar və yüksәltmәlәri açır.",
+  "aiLimitProgressLabel": "{used} / {total} meditasiya istifadә olundu",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Meditasyalar",
+  "reflectionsUsageLabel": "İstifadә",
+  "reflectionsRemainingLabel": "Qalan meditasyalar: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plan: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard or Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Yüklәniyor…",
+  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+
+  "reflectionsTitle": "Meditasyalar",
+  "reflectionsSubtitle": "Hәr cavab 1 meditasiya istifadә edir. Standart başlanğıc meditasiyalar daxil edir. Barakah әlavә kateqoriyalar və yüksәltmәlәri açır.",
+  "reflectionsProgressLabel": "{used} / {total} meditasiya istifadә olundu",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Hesabı sil",
+  "settingsDeleteDescription": "Hesabınızı və bütün əlaqәdar məlumatları bәslәnmiş şәkildә silin.",
+  "settingsDeleteButtonLabel": "Hesabımı sil",
+  "settingsDeleteDialogTitle": "Hesab silinsin?",
+  "settingsDeleteDialogBody": "Bu әmәl bәslәnmiş və geri alına bilmir.\n\nBütün söhbәtlәriniz, tarix və hesab məlumatları silinәcәk.",
+  "settingsDeleteDialogCancel": "Ləğv et",
+  "settingsDeleteDialogConfirm": "Sil",
+
+  "settingsFreeLimitUsedTitle": "Başlanğıc meditasyalar istifadә olundu",
+  "settingsFreeLimitUsedDescription": "Bu cihazın başlanğıc meditasiyaları istifadә olundu. Davam etmәk üçün Barakah-a keçin və ya daha çox meditasiya alın.",
+
+  "settingsStarterReflectionsUsedTitle": "Başlanğıc meditasyalar istifadә olundu",
+  "settingsStarterReflectionsUsedDescription": "Bu cihazın başlanğıc meditasiyaları istifadә olundu. Davam etmәk üçün Barakah-a keçin və ya daha çox meditasiya alın.",
+
+  "deviceBoundError": "Bu cihaz artıq başqa bir hesaba bağlanmışdır. Lütfәn orijinal hesab ilә daxil olun.",
+
+  "premiumTitle": "Barakah rejimi",
+  "premiumSubtitleBasic": "Tam Nuria tәcrübәsini açın.",
+  "premiumSubtitleChampion": "Siz Barakah-dasınız. Daha çox meditasiyaya ehtiyacınız var?",
+
+  "premiumCurrentPlan": "Cari plan: {plan}",
+  "premiumCreditsStatus": "Meditasyalar: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Alışlar şu anda mövcüd deyil.",
+  "premiumSignInToPurchase": "Meditasiyalar almaq və ya Barakah-ı açmaq üçün daxil olun.",
+
+  "premiumRestorePurchases": "Alışları bәrpa et",
+  "premiumProcessing": "Emal olunur…",
+  "premiumRestoreHintTitle": "Bu cihazda və ya başqasında artıq Barakah və ya meditasiyalar satın aldınız?",
+  "premiumRestoreHintBody": "Alışlar göstərilmirsә onları bәrpa edin.",
+
+  "premiumBuyCredits200": "200 meditasiya al",
+  "premiumBuyCredits400": "400 meditasiya al",
+  "premiumBecomeChampionOneTime": "Barakah rejiminə keçid",
+  "premiumChampionHint": "Barakah olaraq, hәr zaman әlavә meditasiyalar ilә yüksәltә bilәrsiniz.",
+
+  "premiumUpgradeCta": "Keçid",
+  "premiumRequiredForCategory": "Bu kateqoriya yalnız Barakah istifadәçilәri üçün mövcüddür. Bütün әlavә məzmun üçün Parametrlərdә keçid edin.",
+  "premiumBenefitsBasic": "Barakah-ı açın, әlavә meditasyalar alın, әlavә kateqoriyalara daxil olun və hәr zaman rәhbәrlik üçün davam edin.",
+  "premiumBenefitsChampion": "Barakah rejiminәdәsiniz. Azalırsa, әlavә meditasiyalar әlavә edin və fasiləsiz davam edin.",
+  "premiumButtonBecomeChampion": "Barakah-ı açın",
+  "premiumButtonTopup1000": "1000 meditasiya әlavә et",
+  "premiumChampionBadge": "Barakah aktivdir",
+  "premiumLoadingStore": "Mağaza yüklәniyor…",
+
+  "blessedTitle": "Barakah rejimi",
+  "blessedSubtitleGrace": "Tam Nuria tәcrübәsini açın.",
+  "blessedSubtitleBlessed": "Siz Barakah-dasınız. Daha çox meditasiyaya ehtiyacınız var?",
+
+  "blessedCurrentPlan": "Cari plan: {plan}",
+  "blessedReflectionsStatus": "Meditasyalar: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Alışlar şu anda mövcüd deyil.",
+  "blessedProductNotAvailable": "Bu məhsul mağazada hәnüz mövcüd deyil. Lütfәn sonra yәnidәn cәhdәlәyin.",
+  "blessedPurchaseError": "Alış zamanı bir şey yanlış getdi. Lütfәn yәnidәn cәhdәlәyin.",
+  "blessedSignInToPurchase": "Meditasiyalar almaq və ya Barakah-ı açmaq üçün daxil olun.",
+
+  "blessedRestorePurchases": "Alışları bәrpa et",
+  "blessedProcessing": "Emal olunur…",
+  "blessedRestoreHintTitle": "Bu cihazda və ya başqasında artıq Barakah və ya meditasiyalar satın aldınız?",
+  "blessedRestoreHintBody": "Alışlar göstərilmirsә onları bәrpa edin.",
+
+  "blessedBuyReflections100": "100 meditasiya әlavә et",
+  "blessedBuyReflections200": "200 meditasiya al",
+  "blessedBuyReflections400": "400 meditasiya al",
+  "blessedBecomeBlessedOneTime": "Barakah-a keçid",
+  "blessedTopupHint": "Barakah olaraq, hәr zaman әlavә meditasiyalar ilә yüksәltә bilәrsiniz.",
+
+  "blessedUpgradeCta": "Keçid",
+  "blessedRequiredForCategory": "Bu kateqoriya yalnız Barakah istifadәçilәri üçün mövcüddür. Bütün әlavә məzmun üçün Parametrlərdә keçid edin.",
+  "blessedFeatureLocked": "Bu xüsusiyyәtә daxil olmaq üçün Barakah-ı açın.",
+  "lockedCategoriesHint": "Bәzi kateqoriyalar Barakah üzvlәri üçün qorunmuşdur. Sәyahәtdәki hәr bir meditasiyanı kәşf etmәk üçün onları açın.",
+  "blessedBenefitsGrace": "Barakah-ı açın, әlavә meditasyalar alın, әlavә kateqoriyalara daxil olun və hәr zaman rәhbәrlik üçün davam edin.",
+  "blessedBenefitsBlessed": "Barakah rejiminәdәsiniz. Azalırsa, әlavә meditasiyalar әlavә edin və fasiləsiz davam edin.",
+  "blessedButtonBecomeBlessed": "Barakah-ı açın",
+  "blessedButtonTopup1000": "1000 meditasiya әlavә et",
+  "blessedBadge": "Barakah aktivdir",
+  "blessedLoadingStore": "Mağaza yüklәniyor…",
+
+  "freePlanBlockedTitle": "Başlanğıc meditasyalarınız bitdi",
+  "freePlanBlockedBody": "Siz başlanğıc meditasiyaları ilә Standart planda qeydiyyatdasınız və hәddi çatmısınız. Davam etmәk və әlavә kateqoriyaları açmaq üçün Barakah-a keçid edin.",
+  "freePlanBlockedCtaGoPremium": "Aşağıda Barakah seçәnәklәrinә baxın",
+
+  "graceBlockedTitle": "Başlanğıc meditasyalarınız bitdi",
+  "graceBlockedBody": "Siz başlanğıc meditasiyaları ilә Standart planda qeydiyyatdasınız və hәddi çatmısınız. Davam etmәk və әlavә kateqoriyaları açmaq üçün Barakah-a keçid edin.",
+  "graceBlockedCtaGoBlessed": "Aşağıda Barakah seçәnәklәrinә baxın",
+
+  "rateGuestMustSignIn": "Nuria-ı istifadә etmәk və meditasyalarınız üçün daxil olun.",
+
+  "guestNoCreditsTitle": "Qonaq rejimi",
+  "guestNoCreditsBody": "Qonaq olaraq tәtbiqә baxıya bilәrsәniz, amma meditasiyalar istifadә edә bilmәzsәniz. Daha sonra Parametrlərdә daxil ol və meditasiyalar ilә alışları açdıqdan sonra istifadә et.",
+
+  "guestNoReflectionsTitle": "Qonaq rejimi",
+  "guestNoReflectionsBody": "Qonaq olaraq tәtbiqә baxıya bilәrsәniz, amma meditasiyalar istifadә edә bilmәzsәniz. Daha sonra Parametrlərdә daxil ol və meditasiyalar ilә alışları açdıqdan sonra istifadә et.",
+
+  "guestDialogContinue": "Davam et",
+  "guestDialogLoginInstead": "Bunun әvәzinә daxil ol",
+
+  "optionalLabel": "seçimli",
+
+  "accountDeleteSuccessTitle": "Hesab silindi",
+  "accountDeleteSuccessBody": "Hesabınız və əlaqәdar məlumatlar müvәffәqiyyәtlə silindi.",
+  "accountDeleteSuccessClose": "Bağla",
+  "accountDeleteErrorTitle": "Hesab silinә bilmәdi",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Yәnidәn әuthentifikasiya ləğv edildi. Lütfәn yәnidәn daxil olun və silmәyi yәnidәn cәhdәlәyin.",
+  "accountDeleteReauthRequired": "Hesab silmәsi әn yaxın daxilolmanı tәlәb edir. Lütfәn çıxış edin, yәnidәn daxil olun və silmәyi yәnidәn cәhdәlәyin.",
+  "settingsDeletePermanentWarning": "Bu әmәl bәslәnmiş və geri alına bilmir. Hesabla әlaqәdar bütün məlumatlar silinәcәk.",
+
+  "dailyGraceTitle": "Günlük Rehberlik",
+  "dailyGraceScriptureLabel": "GÜNÜN AYƏTİ",
+  "dailyGraceSaintLabel": "HƏFTӘNIN ALIM",
+  "dailyGraceReflectionLabel": "AXŞAM MƏDİTASİYASI",
+  "dailyGraceCopiedToast": "Ayәt buferә kopyalandı",
+
+  "dailyScripture0Text": "Müminlәr xәttәr və çәsmәklәr arasında cәnnәtlәrdә, qüvvәtli bir padşahın hörmәtli yеrindә oturmuş olacaqlar.",
+  "dailyScripture0Ref": "Quran 54:54-55",
+  "dailyScripture1Text": "Sәnә dünyalara rahmәt olaraq göndәrdik.",
+  "dailyScripture1Ref": "Quran 21:107",
+  "dailyScripture2Text": "Allahu Tәәla Onun qulu üçün kiファcsәk deyilmi? Ancaq onlar sәni Onundan başqa olanlarla qorxudurlar.",
+  "dailyScripture2Ref": "Quran 39:36",
+  "dailyScripture3Text": "Bәlkә sәnәd bir şey xoş olmayan birәydir, amma o sәnin üçün yaxşıdır; və bәlkә sәnәd xoş olmayan bir şey, amma o sәnin üçün pisdir. Allahu Tәәla bilir, sәnәd bilmirsәniz.",
+  "dailyScripture3Ref": "Quran 2:216",
+  "dailyScripture4Text": "Саби, İlahi, sәbirli olanlar ilә Allahdır.",
+  "dailyScripture4Ref": "Quran 2:153",
+  "dailyScripture5Text": "Bәnәni yad et, mәn sәni yad edәrәm. Mәnә şükür et və mәni inkar etmә.",
+  "dailyScripture5Ref": "Quran 2:152",
+  "dailyScripture6Text": "Hәqiqәtәn, Allahu Tәәla'nın nәzarindә sәnәdәn әngәl olanlar pin tәqvаларıdır.",
+  "dailyScripture6Ref": "Quran 49:13",
+  "dailyScripture7Text": "Sәnәd Rәbbim әmr etdi ki, yalnız Onaya ibadәt et, valideynlәrә xeyir et.",
+  "dailyScripture7Ref": "Quran 17:23",
+  "dailyScripture8Text": "Hәqiqәtәn, sәdәliklә yetkinlik gәlir.",
+  "dailyScripture8Ref": "Quran 94:6",
+  "dailyScripture9Text": "O, sәnәnin harada olursan-ol, sәninlә bәrdbәrdir. Sәnәd nәyi etsәn, Allahu Tәәla görürdür.",
+  "dailyScripture9Ref": "Quran 57:4",
+  "dailyScripture10Text": "Allahu Tәәla bir cani ona gücdәnәsin çox yüklemәz.",
+  "dailyScripture10Ref": "Quran 2:286",
+  "dailyScripture11Text": "Kim Allahua tәvәkkәl etsә, o, Onun üçün kafi olar.",
+  "dailyScripture11Ref": "Quran 65:3",
+  "dailyScripture12Text": "Mәrahim hәr şeyi әhatә edәr.",
+  "dailyScripture12Ref": "Quran 7:156",
+  "dailyScripture13Text": "Mәnim qullarım mәnim barәdә sәndәn sәbual zamanı - hәqiqәtәn mәn yaxındayam. Mәn ilahi düşünәn zaman dua edәnin duasına cavab verirәm.",
+  "dailyScripture13Ref": "Quran 2:186",
+  "dailyScripture14Text": "Kim dindar kişi və ya qadın olmaqla xәyr әdәrsә biz onu mübarәk həyat yaşatırıq.",
+  "dailyScripture14Ref": "Quran 16:97",
+  "dailyScripture15Text": "Hәqiqәtәn, Allahu Tәәla bir xalqın hali dәyişmәz, onlar həm-нәfisәlәrinin halını dәyişmәsinә qәdәr.",
+  "dailyScripture15Ref": "Quran 13:11",
+  "dailyScripture16Text": "Bәlkә әzb olma və әdәb qorxma; әgәr sәnәd mömin sәnsәn, sənsәn șərik olacaqsan.",
+  "dailyScripture16Ref": "Quran 3:139",
+  "dailyScripture17Text": "Әy Mәnim qullarım, özlәrinә ziyan yetdirәn kim, Allahın mərhәmәtindәn ümid kəsmәyin. Hәqiqәtәn, Allah bütün günahları bağışlayır.",
+  "dailyScripture17Ref": "Quran 39:53",
+  "dailyScripture18Text": "Kim Allahu Tәәla'dan qorxarsa, Ο ona çәsmәk yaradır və ümid etməmәdiyi yәrdәn ona rәzq vәrir.",
+  "dailyScripture18Ref": "Quran 65:2-3",
+  "dailyScripture19Text": "Allahu Tәәla'nın mərhәmәtindәn ümid kәsmә.",
+  "dailyScripture19Ref": "Quran 12:87",
+  "dailyScripture20Text": "Hәqiqәtәn Quranı yad saxlamaq üçün asanlaşdırdıq. Bәs sәṃmәn vardırmı?",
+  "dailyScripture20Ref": "Quran 54:17",
+  "dailyScripture21Text": "O, səni ümidsiz tapıb sәni yol göstәrdi.",
+  "dailyScripture21Ref": "Quran 93:7",
+  "dailyScripture22Text": "Sәnәd Rәbbim әmirindir: Mәni çağır, mәn sәnә cavab verәrәm.",
+  "dailyScripture22Ref": "Quran 40:60",
+  "dailyScripture23Text": "Hәqiqәtәn Adәm oğullarını şәrәfli etdik.",
+  "dailyScripture23Ref": "Quran 17:70",
+  "dailyScripture24Text": "Səbir və namazla yardım istә.",
+  "dailyScripture24Ref": "Quran 2:45",
+  "dailyScripture25Text": "Bir zәrrә xәyr edәn kim, onu görәcәk.",
+  "dailyScripture25Ref": "Quran 99:7",
+  "dailyScripture26Text": "Şüphәsiz Allahu Tәәla'nın yardımı yaxındır.",
+  "dailyScripture26Ref": "Quran 2:214",
+  "dailyScripture27Text": "Kim şükrәtsә, onun şükürü yalnız həm-nәfisinin xeyrinәdir.",
+  "dailyScripture27Ref": "Quran 31:12",
+
+  "dailyReflection0": "Bu gün qapanırında Allahın mərhәmәtinin aydın olduğu bir an nәzәr sal.",
+  "dailyReflection1": "Bugün qalbin ağrıtan hәr şeyi Allahu Tәәla'nın huzuruna gәt.",
+  "dailyReflection2": "Bu günün bir bәrәkәtini ad set və Allahu Tәәla'ya şükür et.",
+  "dailyReflection3": "Allahu Tәәla'nın sonsuz qayğısında saxlanıldığını bilәrәk istirah et.",
+  "dailyReflection4": "Bu gün şәfqәt və xәyrxahlıq göstәrmәyә çağırıldığını hissәttiyini nәzәr sal.",
+  "dailyReflection5": "Sәnәd idarә edә bilmәdiyin şeyldәn əl çәk və Allahu Tәәla'nın mükәmmәl planına güvәn.",
+  "dailyReflection6": "Gün kapanırında Allahu Tәәla'nın zikrindә sülhü qәbul et.",
+  "dailyReflection7": "Bu gün namazlarına hörmәt göstәrdiyini yad sal və hәr birindәn Allahu Tәәla'ya şükür et.",
+  "dailyReflection8": "Bu gün səbrin (Sabr) hərәkәtlәrini rәhbәr aldığı bir anı nәzәr sal.",
+  "dailyReflection9": "Bu günün kusuruna bağışlanma istә — Allahu Tәәla'nın mərhәmәti saysızdır.",
+  "dailyReflection10": "Bugün şәfqәt göstәrdiyin bir şәxsin adını ad et və onun üçün dua et.",
+  "dailyReflection11": "Şükranla otur: bu gün Allahu Tәәla sәndәn istәmәdiyin qayda rәzq vәrdi?",
+  "dailyReflection12": "Quran'dan sәnәn harada olduğuna səs verәn bir ayәt nәzәr sal.",
+  "dailyReflection13": "Bu günün vaxtını necә istifadә etdiyini nәzәr sal — və sabahı Allahu Tәәla'ya tәslim et.",
+  "dailyReflection14": "Bu gün yaranan hәr xәrәç üçün Allahu Tәәla sәninlә idi bilәrәk istirah et.",
+  "dailyReflection15": "Bugün ailәnә və ya cәmәәtә Allahu Tәәla'nın xatiri üçün хidmәt etdiyini düş.",
+  "dailyReflection16": "Gecә kәsilәrindә tәvbә et — Allahu Tәәla Ona qayıdanları sevir.",
+  "dailyReflection17": "Allahu Tәәla'nın gününd әçinə qoydụ gözәlliyi nәzәr sal, nәcdir kiçik.",
+  "dailyReflection18": "Bu gün nәd öyrәndiyi və Allahu Tәәla'ya necә yaxınlaşdığını nәzәr sal.",
+  "dailyReflection19": "Günün tәşvişlәrini Allahu Tәәla'ya qoy — O sәnәn daşıya bilmәdiyini daşıyır.",
+  "dailyReflection20": "Bu günün bir anını yad sal әvәlcә daha yaxşı seçmәk üçün, və bunu yumşaq şәkildә öyrәn.",
+  "dailyReflection21": "Ağlayan olanlar üçün dua et — sәnәn duası onlara hәdiyyәdir.",
+  "dailyReflection22": "Tez-tez əsnə keçdiyini bir bәrәkәtini yad sal və Allahu Tәәla'ya bunun üçün şükür et.",
+  "dailyReflection23": "Bu günün niyyәtini nәzәr sal — әygәr Allahu Tәәla üçün idi, sabah yәngidәn başla.",
+  "dailyReflection24": "Gecә sәssiz kəsilәrindә Allahu Tәәla'nın yaxınlığını dinlә.",
+  "dailyReflection25": "Bugün güc tapdığın bir anı yad sal — bu güc Allahu Tәәla'dandır.",
+  "dailyReflection26": "Sabah үçün Allahu Tәәla'nın xatiri üçün bir şey ad sat ki, bugün etmәdən keç.",
+  "dailyReflection27": "Rahatlanmağa hazırlanırkәn, ruhunu Allahu Tәәla'ya tәslim et — O mütәvәllilərin әngәlidir.",
+
+  "dailyRoleModel0": "Pәygәmbәr Həzrәt Məhәmmәd (s.a.v.)",
+  "dailyRoleModel1": "Әbu Bәkr әs-Siddi (r.a)",
+  "dailyRoleModel2": "Umar ibn әl-Khәttab (r.a)",
+  "dailyRoleModel3": "Uthman ibn Affan (r.a)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (r.a)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (r.a)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (r.a)",
+  "dailyRoleModel7": "Fatimah az-Zahra (r.a)",
+  "dailyRoleModel8": "Bilal ibn Rabah (r.a)",
+  "dailyRoleModel9": "Salman al-Farisi (r.a)",
+  "dailyRoleModel10": "Abu Hurairah (r.a)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (r.a)",
+  "dailyRoleModel12": "Abdullah ibn Masud (r.a)",
+  "dailyRoleModel13": "Muadh ibn Jabal (r.a)",
+  "dailyRoleModel14": "Musab ibn Umayr (r.a)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (r.a)",
+  "dailyRoleModel16": "Ammar ibn Yasir (r.a)",
+  "dailyRoleModel17": "Umm Salamah (r.a)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (r.a)",
+  "dailyRoleModel19": "Zayd ibn Thabit (r.a)",
+  "dailyRoleModel20": "Hafsah bint Umar (r.a)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (r.h)",
+  "dailyRoleModel22": "İmam Abu Hanifa (r.h)",
+  "dailyRoleModel23": "İmam Malik ibn Anas (r.h)",
+  "dailyRoleModel24": "İmam al-Shafi'i (r.h)",
+  "dailyRoleModel25": "İmam Ahmad ibn Hanbal (r.h)",
+  "dailyRoleModel26": "İmam al-Bukhari (r.h)",
+  "dailyRoleModel27": "İmam Muslim (r.h)",
+  "dailyRoleModel28": "İmam al-Tirmidhi (r.h)",
+  "dailyRoleModel29": "Al-Ghazali (r.h)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (r.h)",
+  "dailyRoleModel31": "Ibn Taymiyya (r.h)",
+  "dailyRoleModel32": "Al-Nawawi (r.h)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (r.h)",
+  "dailyRoleModel34": "Ibn Kathir (r.h)",
+  "dailyRoleModel35": "Al-Tabari (r.h)",
+  "dailyRoleModel36": "Sufyan al-Thawri (r.h)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (r.h)",
+  "dailyRoleModel38": "Ibn Sina (r.h)",
+  "dailyRoleModel39": "Al-Biruni (r.h)",
+  "dailyRoleModel40": "Ibn Rushd (r.h)",
+  "dailyRoleModel41": "Ibn Khaldun (r.h)",
+  "dailyRoleModel42": "Ibn Battuta (r.h)",
+  "dailyRoleModel43": "Pәygәmbәr İbrahim (a.s)",
+  "dailyRoleModel44": "Pәygәmbәr Musa (a.s)",
+  "dailyRoleModel45": "Pәygәmbәr Isa (a.s)",
+  "dailyRoleModel46": "Pәygәmbәr Yusuf (a.s)",
+  "dailyRoleModel47": "Pәygәmbәr Dawud (a.s)",
+  "dailyRoleModel48": "Pәygәmbәr Sulayman (a.s)",
+  "dailyRoleModel49": "Pәygәmbәr Nuh (a.s)",
+  "dailyRoleModel50": "Pәygәmbәr Yunus (a.s)",
+  "dailyRoleModel51": "Pәygәmbәr Ayub (a.s)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (r.a)",
+  "dailyRoleModel53": "Zainab bint Muhammad (r.a)",
+  "dailyRoleModel54": "Hassan ibn Ali (r.a)",
+  "dailyRoleModel55": "Hussain ibn Ali (r.a)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (r.a)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (r.a)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (r.a)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (r.a)",
+
+  "locationConsentLabel": "Nuria'yı Qibla istiqamәti və namaz vaxtları üçün mənim yerimə istifadә etmәyә icazә vәr",
+  "locationConsentHint": "Yalnız bu xüsusiyyәtlәr üçün istifadә olunur. Səninlә yer hәrgiz paylaşılmır və saxlanılmır.",
+
+  "askPageTitle": "Nuria'dan Soruş",
+  "askPageDescription": "İman, namaz, həyat və ya İslami tәcrübә barәdә hәr şeyi soruş və Quran və Sunnәdәn köklәndirәn rәhbәrlik qəbul et.",
+  "askPageInputHint": "Sualınızı buraya yazın…",
+  "askPageSubmitCta": "Soruş",
+  "askPageInputEmptyError": "Lütfәn әvvәl bir sual yazın.",
+  "askResultYourQuestion": "Sənin sualın",
+
+  "guidancePageTitle": "Namaz və Rәhbәrlik",
+  "qiblaFacingMecca": "Mәkkәyә Baxmaq",
+  "qiblaCompassInstruction": "Tәlәfonunuzu qızıl ibre yuxarı işarә edәnә qәdәr çevirin.\nBu istiqamәt Qiblaya (Mәkkәyә) işarә edir.",
+  "qiblaGpsUnavailableBody": "GPS siqnalı zәifdir. Xarici yerә keçin və Yәnidәn Cәhdәlәyin'ә toxunun.",
+  "qiblaRetry": "Yәnidәn Cәhdәlәyin",
+  "qiblaTitle": "Qibla İstiqamәti",
+  "qiblaDistanceLabel": "Mәkkәyә {km} km",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Yer tәlәb olunur",
+  "qiblaLocationNeededBody": "Nuria'nın haradan Kaaba'nın istiqamәtini hesablaması üçün yer daxilolmasına icazә vәrin.",
+  "qiblaOpenSettings": "Parametrləri Aç",
+  "qiblaCompassLoading": "Səninlә yer tapılır…",
+  "qiblaTowardMecca": "Mәkkәya Tәrәf",
+
+  "prayerTimesTitle": "Namaz Vaxtları",
+  "prayerTimesFajr": "Səhәr (Fәcr)",
+  "prayerTimesDhuhr": "Günorta (Zuhr)",
+  "prayerTimesAsr": "İkindilәr (Әsr)",
+  "prayerTimesMaghrib": "Axşam (Mağrib)",
+  "prayerTimesIsha": "Yatsi (İşa)",
+  "prayerTimesLocationNeededTitle": "Yer tәlәb olunur",
+  "prayerTimesLocationNeededBody": "Nuria'nın şәhәriniz üçün dәqiq namaz vaxtlarını hesablaması üçün yer daxilolmasına icazә vәrin.",
+  "prayerTimesNextLabel": "Sonrakı",
+  "prayerTimesDoneLabel": "Tamamlandı",
+
+  "monthlyPrayerTimesTitle": "Aylıq Namaz Vaxtları",
+  "monthlyPrayerTimesViewButton": "Tam Ayı Göstәr",
+  "monthlyPrayerTimesNextMonth": "Gelәcәk ay",
+  "monthlyPrayerTimesDayHeader": "Gün",
+
+  "sharePrayerTimes": "Namaz vaxtlarını paylaş",
+
+  "prayerNotificationsTitle": "Namaz Xәbәrləndirmәlәri",
+  "prayerNotificationsDescription": "Gün boyunca bağlı qalmaq üçün hәr namaz vaxtından әvvәl yumşaq bir xәbәrdarlıq qәbul edin.",
+  "prayerNotificationsEnable": "Namaz xәbәrləndirmәlәrini aktiv et",
+  "prayerNotificationsOpenSettings": "Xәbәrdarlıq parametrlәrini aç",
+  "prayerNotificationsDenied": "Xәbәrləndirmәlәr deaktiv edilmişdir",
+  "prayerNotificationsDeniedHint": "Parametrlərdә keçib Nuria üçün xәbәrləndirmәlәrә icazә vәrin.",
+
+  "notificationsConsentLabel": "Namaz vaxtları üçün xәbәrləndirmәlәrә icazә vәr",
+
+  "prayerNotifTitleFajr": "🌅 Səhәr (Fәcr) — Səhәr Namazı",
+  "prayerNotifBodyFajr": "Namazların әngәli səhәr namazıdır. Qalx, pәk-tәmiz olun və Allahu Tәәla'nın huzurunda durun.",
+
+  "prayerNotifTitleDhuhr": "☀️ Günorta (Zuhr) — Günorta Namazı",
+  "prayerNotifBodyDhuhr": "Gününü dayandırın və Allahu Tәәla'ya qayıdın. Zuhr namaz vaxtı çatıb.",
+
+  "prayerNotifTitleAsr": "🌤️ İkindilәr (Әsr) — İkindilәr Namazı",
+  "prayerNotifBodyAsr": "Orta namazı qor. Әsr vaxtı çatıb — onu keçәrmә.",
+
+  "prayerNotifTitleMaghrib": "🌇 Axşam (Mağrib) — Axşam Namazı",
+  "prayerNotifBodyMaghrib": "Günәş batıb. Mağrib namazını yerinә yetir və bu günә görә Allahu Tәәla'ya şükür et.",
+
+  "prayerNotifTitleIsha": "🌙 Yatsi (İşa) — Yatsi Namazı",
+  "prayerNotifBodyIsha": "Gününü Allahu Tәәla'nın zikri ilә başa vur. Hayya alal falah — müvәffәqiyyәtә gәl.",
+
+  "outOfReflectionsBannerText": "Bütün meditasyalarınızı istifadә etdiniz",
+  "outOfReflectionsBannerCta": "Daha çox al",
+
+  "dhikrPageTitle": "Zikr",
+  "dhikrTapToCount": "Saymaqdansa dәirәyә toxunun",
+  "dhikrResetButton": "Bәrpa et",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Sәnәd Allahu Tәәla'nın 99 zikri tamamlamısınız. Onlar səninlә ürәyin üçün bir nur ola.",
+
+  "disclaimerTitle": "Bu tәtbiqin rәhbәrliyi barәdә",
+  "disclaimerBody": "Nuria, imani sәyahәtinizin şәxsi bir yolunu dәstәklәmәk üçün İslami meditasiyalar, xәbәrləndirmәlәr və ruhani məzmun tәqdim edir. Bu məzmun yalnız ümumi mәlumat verici və motivasiyalı məqsәdlәr üçün tәqdim olunur.\n\nNuria bilgәli tәlim әvәzinә keçmәz.\nBu tәtbiqin rәhbәrliyi öyrәnilmiş İslami alim, imam, mufti və ya tәoloji tәrәfdәş olan müәllimin dәqiq әvәzinә keçir. Әgәr dini hükmü, halal və haram mәsәlәlәri və ya şәxsi dini vәzifәlәr barәdә suallarınız varsa, lütfәn cәmәәtinizdә bilgәli dini biriyә müraciәt edin.\n\nBu tәtbiq dini hükmü çıxarmır.\nNuria fiqh (İslam jurisprудәnsiyası) və ya şәxsi dini vәzifәlәr barәdә әtkin tәyinatlı tәyin etmәz. Burada heçbir şey fatva kimi və ya bәndli dini ödәniş kimi qәbul edilmәməlidir.\n\nAlimlik fәsil dәyişәn.\nİslam zәngin bir ənәnә, düşüncә mәktәbləri (madhabs) və alimlik fikir tәrafly. Bu tәtbiqə məzmun ümumi perspektivlәri әks etdir və hәr ənәnә və mәktәbi bәrabәr nümayәndәlik etməz.\n\nCәmәәt әhәmiyyәtlidir.\nBu tәtbiq sizin iman ənәnәsinә cavabdеhliyini tәşviq etmәyi yüksәk etirik, sizin yerли məscid, imam və dini cәmәәtinin әhәmiyyәtli rolu hörmәt etmәk. Biz sizә yerli kimi оğul öyrәnәn bilgәli müәllimlərlә bağlı qalmaq və öyrәnmәyi tәşviq edәrik.",
+  "disclaimerClose": "Mәn Anladım",
+  "disclaimerInfoTooltip": "Bu tәtbiqin rәhbәrliyi barәdә",
+  "disclaimerSettingsSubtitle": "Yalnız ümumi mәlumat məqsәdləri üçün. Tam sxema oxumaq üçün toxunun.",
+  "disclaimerSectionHeader": "Rәhbәrlik sxemsi"
+}

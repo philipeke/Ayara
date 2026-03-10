@@ -1,0 +1,105 @@
+name: nuria
+description: "Nuria is a Sunni Islamic guidance app for daily reflection, duʿāʾ, and wisdom inspired by the Qurʾan and Sunnah."
+publish_to: "none"
+
+version: 1.0.0+14
+
+environment:
+  sdk: ">=3.9.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+  # Animations
+  flutter_animate: ^4.5.0
+
+  # i18n / utils / UI
+  intl: ^0.20.2
+  shared_preferences: ^2.3.2
+  flutter_secure_storage: ^9.2.2
+  cupertino_icons: ^1.0.8
+  http: ^1.5.0
+  share_plus: ^12.0.0
+  flutter_dotenv: ^6.0.0
+  device_info_plus: ^10.1.2
+  url_launcher: ^6.3.0
+
+  # Location, compass & prayer times
+  geolocator: ^13.0.0
+  flutter_compass: ^0.8.0
+  adhan: ^2.0.0+1
+  hijri: ^3.0.0
+
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+
+  # Firebase (auth + db + app check + crash)
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.4
+  firebase_app_check: ^0.3.0
+  firebase_crashlytics: ^4.1.0
+  firebase_analytics: ^11.3.3
+
+  # Firebase (functions)
+  cloud_functions: ^5.0.3
+
+  # Providers för inloggning
+  google_sign_in: ^6.2.1
+  sign_in_with_apple: ^6.1.0
+
+  # In-app purchases
+  in_app_purchase: ^3.1.11
+  in_app_purchase_android: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  change_app_package_name: ^1.5.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    # Ikoner / bilder i appen
+    - assets/icon.png
+    - assets/logo.png
+    - assets/logo-launcher.png
+
+    # Miljöfiler — kept out of release bundle
+    # .env.dev is loaded only in kDebugMode; dotenv catches missing file gracefully
+    # - .env.dev
+    # - .env
+
+# 📱 App-ikon
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo-launcher.png"
+  adaptive_icon_background: "#040A06"
+  adaptive_icon_foreground: "assets/logo-launcher.png"
+  remove_alpha_ios: true
+
+# 🏁 Splash-skärm
+flutter_native_splash:
+  color: "#040A06"
+  color_dark: "#040A06"
+
+  android_12:
+    color: "#040A06"
+    color_dark: "#040A06"
+
+  android: true
+  ios: true
+  web: true

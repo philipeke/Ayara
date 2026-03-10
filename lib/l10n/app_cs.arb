@@ -1,0 +1,585 @@
+{
+  "@@locale": "cs",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Zvolte si svůj jazyk",
+  "languageSelectSub": "Později to můžete změnit v Nastavení",
+  "actionContinue": "Pokračovat",
+  "languageSuggestedHeader": "Doporučené",
+  "languageAllHeader": "Všechny jazyky",
+  "languageSuggestedBadge": "Doporučené",
+  "languageSearchHint": "Hledat…",
+
+  "planGrace": "Standardní",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Denní příručka",
+  "categoryFaithTrust": "Víra a důvěra",
+  "categoryPrayerReflection": "Modlitební reflexe",
+  "categoryHopeDifficultTimes": "Trpělivost a naději",
+  "categoryForgiveness": "Hledat odpuštění",
+  "categoryLoveCompassion": "Soucit a milosrdenství",
+  "categoryStrengthCourage": "Víra a síla",
+  "categoryGratitude": "Vděčné srdce",
+  "categoryPurposeCalling": "Životní účel",
+  "categoryFamilyRelationships": "Rodinné vztahy",
+  "categoryPeaceAnxietyRelief": "Vnitřní pokoj",
+  "categoryWisdomOfJesus": "Moudrost proroků",
+  "categoryHumilityCharacter": "Dobré chování",
+  "categoryOvercomingTemptation": "Vzdorovat pokušení",
+  "categoryEveningReflection": "Večerní dhikr",
+  "categoryCustom": "Osobní Reflexe",
+  "dhikrMeaningSubhanallah": "Sláva Alláhovi",
+  "dhikrMeaningAlhamdulillah": "Veškerá chvála náleží Alláhovi",
+  "dhikrMeaningAllahuAkbar": "Alláh je největší",
+  "quranVerseHeartAtRest": "Opravdu, v paměti Alláha nacházejí srdce klid.",
+
+  "promptHint": "Klepněte na kategorii a získejte islámské vedení a reflexi",
+
+  "currentLanguage": "Aktuální jazyk",
+  "settingsLanguage": "Nastavení jazyka",
+  "settingsTitle": "Nastavení",
+  "chooseLanguage": "Zvolte si svůj jazyk",
+  "continueCta": "Pokračovat",
+
+  "promptDailyGuidance": "Napište krátké, praktické denní vedení vycházející ze sunnitské islámské víry — založené na Koránu, Hadísu a učeních proroka Muhammada. Zvolte si pokaždé nový úhel: ctnost z islámské etiky, pravdu ze Sunny, moudrost od společníků Proroka nebo tichý zvyk z islámské tradice. Zahrňte jeden verš z Koránu (Súra:Verš) a 1–2 věty reflexe, kterou si můžete vzít do svého dne. Volitelně ji spojte s islámským kalendářem nebo důležitým datem, je-li to vhodné.",
+
+  "promptFaithTrust": "Napište krátkou islámskou reflexi o Imánu (víře) a důvěře v Alláhův plán (Tawakkul). Zakořeňte ji v Koránu, příkladu proroka Muhammada a víře Sahabů. Pokaždé se zaměřte jinak: důvěra v Alláha během nejistoty, opírání se o božskou moudrost, trpělivost v zkouškách nebo tichá vytrvalost v každodenním životě. Zahrňte jeden verš z Koránu a jeden upřímný krok na dnešek odvozený z islámské duchovní moudrosti.",
+
+  "promptPrayerReflection": "Napište krátkou islámskou reflexi o modlitbě vycházející ze Saláhu, Duáy nebo Dhikru. Pokaždě měňte formu: ranní nebo večerní vzpomínku (Adhkár), reflexi o pěti denních modlitbách, meditaci nad verší z Koránu nebo upřímnou prosbu. Zahrňte jeden verš z Koránu a stručně pojmenujte použitou formu modlitby.",
+
+  "promptHopeDifficultTimes": "Napište islámskou reflexi o trpělivosti (Sabr) a naději během těžkostí. Vycházejte z koránických učení o zkouškách, vytrvalosti proroků a milosrdenství Alláha v obtížných chvílích. Pokaždé se zaměřte jinak. Zahrňte jeden verš z Koránu a jeden povzbuzující pohled z islámské tradice.",
+
+  "promptForgiveness": "Napište moudrá islámská reflexe o hledání odpuštění (Tawbah) a Alláhově milosrdenství. Vycházejte z koránických učení o pokání, Alláhově soucitu a příkladě proroka Muhammada při odpouštění. Měňte téma: návratu k Alláhovi, odpouštění druhým, uzdravování vztahů nebo důvěře v Alláhovo milosrdenství po chybách. Zahrňte jeden verš z Koránu a jeden konkrétní krok.",
+
+  "promptLoveCompassion": "Napište krátkou islámskou reflexi o milosrdenství (Rahmah) a soucitu v každodenním životě. Vycházejte z příkladu proroka Muhammada, konceptu Ihsánu (dokonalosti) a islámských učení o laskavosti k rodině, sousedům a zranitelným. Zahrňte jeden verš z Koránu a jeden malý čin soucitu k praktikování dnes.",
+
+  "promptStrengthCourage": "Napište islámskou reflexi o síle a odvaze vycházející z víry. Vycházejte z příkladů proroků, rané muslimské komunity a věřících, kteří zůstali pevní v těžkostech. Měňte téma pokaždé: odvaha skrze víru, síla v modlitbě, důvěra v Alláha během strachu nebo odolnost v obtížích. Zahrňte jeden verš z Koránu a krátkou duáu nebo větu vzpomínky.",
+
+  "promptGratitude": "Napište islámskou reflexi o vděčnosti (Šukr) vůči Alláhovi. Zakořeňte ji v koránickém učení a prorockých tradicích. Měňte úhel: vděčnost v těžkostech, ocenění malých požehnání, začátek dne s chválou Alláha nebo rozpoznání Alláhova vedení v každodenním životě. Zahrňte jeden verš z Koránu a jednu praxi vděčnosti.",
+
+  "promptPurposeCalling": "Napište islámskou reflexi o životním účelu v uctívání Alláha a životě v spravedlnosti. Vycházejte z koránických učení o účelu, službě druhým a používání svých darů pro dobro. Měňte téma pokaždé: služba rodině a komunitě, hledání vedení skrze Istikháru, život se záměrem nebo hledání smyslu v běžné práci. Zahrňte jeden verš z Koránu a dvě reflexivní otázky.",
+
+  "promptFamilyRelationships": "Napište moudrá islámská vedení o rodině a vztazích vycházející z koránického učení a příkladu proroka Muhammada. Měňte téma pokaždě: laskavost v rodinném životě, trpělivost v konfliktu, čest rodičům, výchova dětí ve víře nebo posílení manželství. Zahrňte jeden verš z Koránu a jednu rodinnou praxi k vyzkoušení.",
+
+  "promptPeaceAnxietyRelief": "Napište uklidňující islámskou reflexi o nalezení vnitřního pokoje skrze vzpomínku na Alláha (Dhikr) a důvěru v jeho plán. Vycházejte z koránických učení o klidu srdce, modlitbě a podrobení se Alláhově vůli. Pokaždě měňte přístup a zahrňte jeden verš z Koránu a jednu jednoduchou praxi z islámské tradice.",
+
+  "promptWisdomOfJesus": "Napište krátký kus moudrosti od proroků, jak je vyučována v islámu. Vycházejte z Koránu či Hadísu a stručně vysvětlete, jak islámští učenci pochopili toto učení. Měňte téma pokaždé: charakter, trpělivost, pokorou, víru či každodenní chování. Zahrňte koránský verš či odkaz na Hadís a jednu praktickou aplikaci.",
+
+  "promptHumilityCharacter": "Napište islámskou reflexi o pokořenosti (Tawadhu) a dobrém chování (Akhlák). Vycházejte z koránických učení, příkladu proroka Muhammada a tradice islámského rozvoje charakteru. Měňte téma: pokořenost v přednestí, přiznání si chyb, respekt vůči ostatním nebo růst duchovně skrze sebereflexi. Zahrňte jeden verš z Koránu a jednu návyk k praktikování.",
+
+  "promptOvercomingTemptation": "Napište islámskou reflexi o odolání pokušení a setrvání na správné cestě. Vycházejte z koránického vedení, vzpomínky na Alláha (Dhikr), modlitby (Saláhu) a příkladů věřících, kteří překonali svá utrpení. Pokaždě měňte úhel. Zahrňte jeden verš z Koránu a jednu praktickou strategii na příštích 24 hodin.",
+
+  "promptEveningReflection": "Napište pokojnou islámskou večerní reflexi vycházející z tradice večerní vzpomínky (Adhkár al-Masáa). Podpořte vděčnost, sebereflexi (Muhásabah) a důvěru v Alláha před odpočinkem. Zahrňte 3–5 krátkých reflektivních podnětů o dni, krátkou závěrečnou duáu a jeden verš z Koránu.",
+
+  "wordCount": "{count, plural, one {{count} slovo} few {{count} slova} other {{count} slov}}",
+
+  "optionsCta": "Možnosti",
+  "newCta": "Nové",
+  "actionsTitle": "Co byste chtěli dělat?",
+  "copy": "Zkopírovat",
+  "share": "Sdílet",
+  "close": "Zavřít",
+  "copiedToast": "Zkopírováno do schránky",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Řádek předmětu e-mailu / sdílení včetně štítku kategorie.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Denní příručka" }
+    }
+  },
+
+  "regenerateErrorTitle": "Nepodařilo se vygenerovat novou odpověď",
+  "regenerateErrorBody": "{error}\n\nChcete to zkusit znovu?",
+  "@regenerateErrorBody": {
+    "description": "Zobrazeno, když generování odpovědi AI selže.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Chyba sítě" }
+    }
+  },
+
+  "cancelCta": "Zrušit",
+  "retryCta": "Zkusit znovu",
+
+  "authTitle": "Vytvořte si účet",
+  "continueAsGuest": "Pokračovat jako host",
+  "signInGoogle": "Přihlásit se přes Google",
+  "signInApple": "Přihlásit se přes Apple",
+  "signInEmail": "Přihlásit se e-mailem",
+  "upgradeWithApple": "Pokračovat s Apple",
+  "mustAccept": "Musíte přijmout Podmínky služby a vzít na vědomí Zásady ochrany osobních údajů.",
+  "termsLabel": "Přijímám Podmínky služby",
+  "privacyLabel": "Přečetl jsem si Zásady ochrany osobních údajů",
+  "marketingOptIn": "Souhlasím s přijímáním novinek a nabídek",
+  "openTerms": "Podmínky služby",
+  "openPrivacy": "Zásady ochrany osobních údajů",
+
+  "accountSection": "Účet",
+  "guestMode": "Režim hosta",
+  "signedIn": "Přihlášeno",
+  "upgradeHint": "Uložte si své reflexe na všech zařízeních vytvořením účtu.",
+  "upgradeWithGoogle": "Pokračovat přes Google",
+  "signOut": "Odhlásit se",
+
+  "snackUpgraded": "Účet upgradován přes Google ✅",
+  "snackSignedIn": "Přihlášeno přes Google ✅",
+  "snackSignedOut": "Odhlášeno",
+  "snackSignedInApple": "Přihlášeno přes Apple ✅",
+  "snackSignedInGoogle": "Přihlášeno přes Google ✅",
+  "snackUpgradedApple": "Účet upgradován přes Apple ✅",
+  "snackUpgradedGoogle": "Účet upgradován přes Google ✅",
+
+  "historyTitle": "Předchozí reflexe",
+  "historyOpenCta": "Předchozí reflexe",
+  "historyEmpty": "Zatím žádné uložené reflexe.",
+  "historyDeleteTitle": "Smazat reflexi?",
+  "historyDeleteBody": "Tím se trvale odstraní vybraná položka.",
+  "deleteCta": "Smazat",
+
+  "historyButton": "Předchozí reflexe",
+  "historyEmptyTitle": "Zatím žádné reflexe",
+  "historyEmptyBody": "Nejdřív něco vygenerujte — vaše uložené položky se tu budou objevovat.",
+  "historyDelete": "Smazat",
+
+  "footerTitle": "S Imánem, sabrem a rahmou.",
+  "footerSubtitle": "Jeden krok najednou.",
+  "genericErrorSnack": "Něco se nepovedlo — zkuste to za chvíli znovu.",
+
+  "upgradeAccountCta": "Uložte si reflexe na všech zařízeních – vytvořte si účet",
+  "deleteAccount": "Smazat účet",
+  "exportData": "Exportovat moje data",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Štítek před zobrazením interního Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Pózor na to 🐯\nUmělá inteligence si chvíli odpočine…",
+  "rateDailyLimit": "Na chvíli vám skončily reflexe.\nZískejte více reflexí nebo upgradujte na Barakah.",
+  "rateCreditsExhausted": "Využili jste všechny své reflexe.\nDoplňte si nebo upgradujte na Barakah a pokračujte.",
+  "rateGraceReflectionsExhausted": "Na chvíli vám skončily reflexe.\nZískejte více reflexí nebo upgradujte na Barakah.",
+  "rateReflectionsExhausted": "Využili jste všechny své reflexe.\nDoplňte si nebo upgradujte na Barakah a pokračujte.",
+
+  "blessedDescription": "Barakah odemyká prémiové funkce, budoucí kategorie a speciální odznak.",
+  "championDescription": "Barakah odemyká prémiové funkce, budoucí kategorie a speciální odznak.",
+
+  "ratePlanExhausted": "Reflexe vám právě skončily. Plán: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Zobrazeno, když se reflexím uživatele vypršel limit, ale důvod je obecný.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standardní nebo Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Nepodařilo se zkontrolovat vaše reflexe: {message}",
+  "@rateCheckFailed": {
+    "description": "Zobrazeno, když volatelná funkce vrátí chybovou zprávu.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Chyba sítě" }
+    }
+  },
+
+  "rateCheckGenericError": "Při kontrole vašich reflexí se něco pokazilo.",
+  "aiFallbackGeneric": "Něco se nepovedlo — zkuste to za chvíli znovu.",
+
+  "limitSectionTitle": "Reflexe",
+  "limitTodayLabel": "Používání",
+  "limitCreditsLabel": "Zbývajících reflexí: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plán: {plan}",
+  "@limitPlanLabel": {
+    "description": "Zobrazuje název aktuálního plánu předplatného.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standardní nebo Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Načítání…",
+  "limitLoadingLabelDescription": "Zobrazeno v kartě reflexí během načítání statistik používání.",
+
+  "aiLimitTitle": "Reflexe",
+  "aiLimitSubtitle": "Každá odpověď využívá 1 reflexi. Standardní verze obsahuje startovací reflexe. Barakah odemyká prémiové kategorie a umožňuje doplňování.",
+  "aiLimitProgressLabel": "{used} / {total} reflexí použito",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Reflexe",
+  "reflectionsUsageLabel": "Používání",
+  "reflectionsRemainingLabel": "Zbývajících reflexí: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plán: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Zobrazuje název aktuálního plánu.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standardní nebo Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Načítání…",
+  "reflectionsLoadingLabelDescription": "Zobrazeno během načítání statistik reflexí.",
+
+  "reflectionsTitle": "Reflexe",
+  "reflectionsSubtitle": "Každá odpověď využívá 1 reflexi. Standardní verze obsahuje startovací reflexe. Barakah odemyká prémiové kategorie a umožňuje doplňování.",
+  "reflectionsProgressLabel": "{used} / {total} reflexí použito",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Smazat účet",
+  "settingsDeleteDescription": "Trvale smažte svůj účet a všechna přidružená data.",
+  "settingsDeleteButtonLabel": "Smazat můj účet",
+  "settingsDeleteDialogTitle": "Smazat účet?",
+  "settingsDeleteDialogBody": "Tato akce je trvalá a nelze ji vrátit zpět.\n\nVšechny vaše chaty, historie a informace o účtu budou smazány.",
+  "settingsDeleteDialogCancel": "Zrušit",
+  "settingsDeleteDialogConfirm": "Smazat",
+
+  "settingsFreeLimitUsedTitle": "Startovací reflexe použity",
+  "settingsFreeLimitUsedDescription": "Startovací reflexe pro toto zařízení byly využity. Upgradujte na Barakah nebo si koupte více reflexí a pokračujte.",
+
+  "settingsStarterReflectionsUsedTitle": "Startovací reflexe použity",
+  "settingsStarterReflectionsUsedDescription": "Startovací reflexe pro toto zařízení byly využity. Upgradujte na Barakah nebo si koupte více reflexí a pokračujte.",
+
+  "deviceBoundError": "Toto zařízení je již propojeno s jiným účtem. Přihlaste se prosím původním účtem.",
+
+  "premiumTitle": "Režim Barakah",
+  "premiumSubtitleBasic": "Odemkněte plný zážitek Nuria.",
+  "premiumSubtitleChampion": "Jste v režimu Barakah. Potřebujete více reflexí?",
+
+  "premiumCurrentPlan": "Aktuální plán: {plan}",
+  "premiumCreditsStatus": "Reflexe: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Nákupy nejsou momentálně k dispozici.",
+  "premiumSignInToPurchase": "Přihlaste se, abyste si mohli koupit reflexe nebo odemknout Barakah.",
+
+  "premiumRestorePurchases": "Obnovit nákupy",
+  "premiumProcessing": "Zpracování…",
+  "premiumRestoreHintTitle": "Už jste si koupili Barakah nebo reflexe na tomto zařízení nebo na jiném?",
+  "premiumRestoreHintBody": "Obnovte své nákupy, pokud se nezobrazují.",
+
+  "premiumBuyCredits200": "Koupit 200 reflexí",
+  "premiumBuyCredits400": "Koupit 400 reflexí",
+  "premiumBecomeChampionOneTime": "Upgradovat na režim Barakah",
+  "premiumChampionHint": "V režimu Barakah si můžete kdykoli koupit další reflexe.",
+
+  "premiumUpgradeCta": "Upgradovat",
+  "premiumRequiredForCategory": "Tato kategorie je dostupná pouze pro uživatele Barakah. Upgradujte v Nastavení a odemkněte veškerý obsah.",
+  "premiumBenefitsBasic": "Odemkněte Barakah a získejte více reflexí, přístup k prémiových kategoriím a pokračujte kdykoli potřebujete vedení.",
+  "premiumBenefitsChampion": "Jste v režimu Barakah. Pokud vám reflexe dochází, přidejte si je a pokračujte bez přerušení.",
+  "premiumButtonBecomeChampion": "Odemknout Barakah",
+  "premiumButtonTopup1000": "Přidat 1000 reflexí",
+  "premiumChampionBadge": "Barakah aktivní",
+  "premiumLoadingStore": "Načítání obchodu…",
+
+  "blessedTitle": "Režim Barakah",
+  "blessedSubtitleGrace": "Odemkněte plný zážitek Nuria.",
+  "blessedSubtitleBlessed": "Jste v režimu Barakah. Potřebujete více reflexí?",
+
+  "blessedCurrentPlan": "Aktuální plán: {plan}",
+  "blessedReflectionsStatus": "Reflexe: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Nákupy nejsou momentálně k dispozici.",
+  "blessedProductNotAvailable": "Tento produkt není v obchodě zatím k dispozici. Zkuste to prosím později.",
+  "blessedPurchaseError": "Při nákupu se něco pokazilo. Zkuste to prosím znovu.",
+  "blessedSignInToPurchase": "Přihlaste se, abyste si mohli koupit reflexe nebo odemknout Barakah.",
+
+  "blessedRestorePurchases": "Obnovit nákupy",
+  "blessedProcessing": "Zpracování…",
+  "blessedRestoreHintTitle": "Už jste si koupili Barakah nebo reflexe na tomto zařízení nebo na jiném?",
+  "blessedRestoreHintBody": "Obnovte své nákupy, pokud se nezobrazují.",
+
+  "blessedBuyReflections100": "Přidat 100 reflexí",
+  "blessedBuyReflections200": "Koupit 200 reflexí",
+  "blessedBuyReflections400": "Koupit 400 reflexí",
+  "blessedBecomeBlessedOneTime": "Upgradovat na Barakah",
+  "blessedTopupHint": "V režimu Barakah si můžete kdykoli koupit další reflexe.",
+
+  "blessedUpgradeCta": "Upgradovat",
+  "blessedRequiredForCategory": "Tato kategorie je dostupná pouze pro uživatele Barakah. Upgradujte v Nastavení a odemkněte veškerý obsah.",
+  "blessedFeatureLocked": "Odemkněte Barakah a získejte přístup k této funkci.",
+  "lockedCategoriesHint": "Některé kategorie jsou vyhrazeny pro členy Barakah. Odemkněte je a prozkoumejte každou reflexi na své cestě.",
+  "blessedBenefitsGrace": "Odemkněte Barakah a získejte více reflexí, přístup k prémiových kategoriím a pokračujte kdykoli potřebujete vedení.",
+  "blessedBenefitsBlessed": "Jste v režimu Barakah. Pokud vám reflexe dochází, přidejte si je a pokračujte bez přerušení.",
+  "blessedButtonBecomeBlessed": "Odemknout Barakah",
+  "blessedButtonTopup1000": "Přidat 1000 reflexí",
+  "blessedBadge": "Barakah aktivní",
+  "blessedLoadingStore": "Načítání obchodu…",
+
+  "freePlanBlockedTitle": "Vyčerpali jste své startovací reflexe",
+  "freePlanBlockedBody": "Jste na plánu Standardní se startovacími reflexemi a dosáhli jste limitu. Chcete-li pokračovat a odemknout prémiové kategorie, upgradujte na Barakah.",
+  "freePlanBlockedCtaGoPremium": "Podívejte se na možnosti Barakah níže",
+
+  "graceBlockedTitle": "Vyčerpali jste své startovací reflexe",
+  "graceBlockedBody": "Jste na plánu Standardní se startovacími reflexemi a dosáhli jste limitu. Chcete-li pokračovat a odemknout prémiové kategorie, upgradujte na Barakah.",
+  "graceBlockedCtaGoBlessed": "Podívejte se na možnosti Barakah níže",
+
+  "rateGuestMustSignIn": "Přihlaste se a používejte Nuria a vaše reflexe.",
+
+  "guestNoCreditsTitle": "Režim hosta",
+  "guestNoCreditsBody": "Jako host můžete procházet aplikaci, ale nemůžete používat reflexe. Později se přihlaste v Nastavení a používejte reflexe a odemykejte nákupy.",
+
+  "guestNoReflectionsTitle": "Režim hosta",
+  "guestNoReflectionsBody": "Jako host můžete procházet aplikaci, ale nemůžete používat reflexe. Později se přihlaste v Nastavení a používejte reflexe a odemykejte nákupy.",
+
+  "guestDialogContinue": "Pokračovat",
+  "guestDialogLoginInstead": "Přihlásit se místo toho",
+
+  "optionalLabel": "volitelné",
+
+  "accountDeleteSuccessTitle": "Účet smazán",
+  "accountDeleteSuccessBody": "Váš účet a přidružená data byla úspěšně smazána.",
+  "accountDeleteSuccessClose": "Zavřít",
+  "accountDeleteErrorTitle": "Nepodařilo se smazat účet",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Opětovné ověření bylo zrušeno. Přihlaste se znovu a zkuste smazání znovu.",
+  "accountDeleteReauthRequired": "Smazání účtu vyžaduje nedávné přihlášení. Odhlaste se, přihlaste se znovu a zkuste smazání znovu.",
+  "settingsDeletePermanentWarning": "Tato akce je trvalá a nelze ji vrátit zpět. Všechna data přidružená k vašemu účtu budou smazána.",
+
+  "dailyGraceTitle": "Denní příručka",
+  "dailyGraceScriptureLabel": "VERŠ DNEŠNÍHO DNE",
+  "dailyGraceSaintLabel": "UČENEC TÝDNE",
+  "dailyGraceReflectionLabel": "VEČERNÍ REFLEXE",
+  "dailyGraceCopiedToast": "Verš zkopírován do schránky",
+
+  "dailyScripture0Text": "Vskutku, spravedliví budou mezi zahradami a řekami na místě cti u mocného Krále.",
+  "dailyScripture0Ref": "Korán 54:54-55",
+  "dailyScripture1Text": "A neposláli jsme tě, [ó Muhamade], jinak než jako milosrdenství pro světy.",
+  "dailyScripture1Ref": "Korán 21:107",
+  "dailyScripture2Text": "Není Alláh svému služebníku dost? Přesto tě straší jiní vedle Něj.",
+  "dailyScripture2Ref": "Korán 39:36",
+  "dailyScripture3Text": "Snad máte v nenávisti něco, ačkoli je to dobré pro vás; a snad milujete něco, ačkoli je to špatné pro vás. Alláh ví, zatímco vy nevíte.",
+  "dailyScripture3Ref": "Korán 2:216",
+  "dailyScripture4Text": "Alláh je vskutku s těmi, kteří jsou trpěliví.",
+  "dailyScripture4Ref": "Korán 2:153",
+  "dailyScripture5Text": "Vzpomeňte si tedy na Mne; já si vzpomenu na vás. A buďte Mi vděčni a nezapírejte Mne.",
+  "dailyScripture5Ref": "Korán 2:152",
+  "dailyScripture6Text": "Vskutku, nejčestnější z vás v očích Alláha je ten, který je nejzbožnější z vás.",
+  "dailyScripture6Ref": "Korán 49:13",
+  "dailyScripture7Text": "A váš Pán určil, že uctívejte nikoho jiného než Jeho a obracejte se s laskavostí ke svým rodičům.",
+  "dailyScripture7Ref": "Korán 17:23",
+  "dailyScripture8Text": "Vskutku, s těžkostí přichází snadnost.",
+  "dailyScripture8Ref": "Korán 94:6",
+  "dailyScripture9Text": "A On je s vámi, ať jste kdekoliv. A Alláh vidí vše, co děláte.",
+  "dailyScripture9Ref": "Korán 57:4",
+  "dailyScripture10Text": "Alláh neuchovává duši více, než může snést.",
+  "dailyScripture10Ref": "Korán 2:286",
+  "dailyScripture11Text": "A kdokoliv se spolehne na Alláha, pak mu Alláh stačí.",
+  "dailyScripture11Ref": "Korán 65:3",
+  "dailyScripture12Text": "Moje milosrdenství se vztahuje na všechny věci.",
+  "dailyScripture12Ref": "Korán 7:156",
+  "dailyScripture13Text": "A když tě Mí služebníci ptají na Mne — vskutku jsem blízko. Odpovídám těm, kdo volají na Mne.",
+  "dailyScripture13Ref": "Korán 2:186",
+  "dailyScripture14Text": "Kdokoliv dělá správné věci, ať muž nebo žena, a zároveň věří — určitě mu dáme čistý život.",
+  "dailyScripture14Ref": "Korán 16:97",
+  "dailyScripture15Text": "Alláh vskutku nezmění stav lidu, dokud nezmění lidu sami sebe.",
+  "dailyScripture15Ref": "Korán 13:11",
+  "dailyScripture16Text": "Tudíž nebuďte slabi a neutýchejte a budete vítězit, jste-li věřící.",
+  "dailyScripture16Ref": "Korán 3:139",
+  "dailyScripture17Text": "Ó Moji služebníci, kteří jste proti sobě provinili, nezoufejte v milosrdenství Alláha. Vskutku, Alláh odpouští všechny hříchy.",
+  "dailyScripture17Ref": "Korán 39:53",
+  "dailyScripture18Text": "A kdokoliv se bojí Alláha, ten mu učiní cestu a bude mu poskytovat, odkud by nečekal.",
+  "dailyScripture18Ref": "Korán 65:2-3",
+  "dailyScripture19Text": "Neztrácejte naději v milosrdenství Alláha.",
+  "dailyScripture19Ref": "Korán 12:87",
+  "dailyScripture20Text": "A vskutě jsme Korán učinili snadným na pamatování. Je tu tedy někdo, kdo se ponaučí?",
+  "dailyScripture20Ref": "Korán 54:17",
+  "dailyScripture21Text": "A našel tě zbloudilého a vedl tě.",
+  "dailyScripture21Ref": "Korán 93:7",
+  "dailyScripture22Text": "A váš Pán říká: Volejte Mne; odpovím vám.",
+  "dailyScripture22Ref": "Korán 40:60",
+  "dailyScripture23Text": "A vskutě jsme vyznamenali děti Adama.",
+  "dailyScripture23Ref": "Korán 17:70",
+  "dailyScripture24Text": "A hledejte pomoc skrze trpělivost a modlitbu.",
+  "dailyScripture24Ref": "Korán 2:45",
+  "dailyScripture25Text": "Kdokoliv dělá dobro v právu atomu, bude to vidět.",
+  "dailyScripture25Ref": "Korán 99:7",
+  "dailyScripture26Text": "Bezpochyby je Alláhova pomoc blízko.",
+  "dailyScripture26Ref": "Korán 2:214",
+  "dailyScripture27Text": "A kdokoliv je vděčný, jeho vděčnost je pouze pro jeho prospěch.",
+  "dailyScripture27Ref": "Korán 31:12",
+
+  "dailyReflection0": "Když tento den končí, vzpomeňte si na jeden okamžik, kde bylo Alláhovo milosrdenství zřejmé.",
+  "dailyReflection1": "Přines před Alláha vše, co tě dnes zatěžovalo.",
+  "dailyReflection2": "Jmenuj jedno požehnání z dnešního dne a vyjádři vděčnost Alláhovi.",
+  "dailyReflection3": "Odpočívej v tom vědomí, že ses nachází v Alláhově nekonečné péči.",
+  "dailyReflection4": "Zamysli se nad místy, kde tě dnes volalo soucit a laskavost.",
+  "dailyReflection5": "Pustí se toho, co nemůžeš kontrolovat, a důvěřuj Alláhovu dokonalému plánu.",
+  "dailyReflection6": "Když se den chýlí ke konci, obdrž pokoj v Alláhově vzpomínce.",
+  "dailyReflection7": "Zamysli se, jak jsi čtil své modlitby dnes a děkuj Alláhovi za každou.",
+  "dailyReflection8": "Zamysli se na moment, kdy tě trpělivost (Sabr) vedla v dnešních akcích.",
+  "dailyReflection9": "Hledej odpuštění za všechny dnešní chyby — Alláhovo milosrdenství je bezedno.",
+  "dailyReflection10": "Jmenuj jednu osobu, kterou ses dnes zaobíral laskavostí a modli se za ni.",
+  "dailyReflection11": "Posedni s vděčností: co ti Alláh dal dnes, co jsi si neřekl?",
+  "dailyReflection12": "Zamysli se na verš z Koránu, který mluví k místu, kde se nacházíš.",
+  "dailyReflection13": "Zamysli se, jak jsi používal svůj čas dnes — a zítra ho obětuj Alláhovi.",
+  "dailyReflection14": "Odpočívej v tom, že jakoukoli dnešní těžkost nesl s tebou Alláh.",
+  "dailyReflection15": "Pomysli na jeden způsob, jak jsi sloužil své rodině nebo komunitě dnes pro Alláha.",
+  "dailyReflection16": "Když přichází noc, čiň Tawbah — Alláh miluje ty, kteří se k Němu vracejí.",
+  "dailyReflection17": "Zamysli se na krásu, kterou Alláh v tvůj den umístil, i když je velmi malá.",
+  "dailyReflection18": "Pomysli na to, co ses dnes naučil a jak tě to přibližuje Alláhovi.",
+  "dailyReflection19": "Nech dnešní obavy s Alláhem — On nese, co ty nemůžeš.",
+  "dailyReflection20": "Pomysli na moment dnes, kdy sis mohl vybrat lépe, a se laskavostí se z toho nauč.",
+  "dailyReflection21": "Modli se za ty, kteří trpí — tvoje modlitba je jim darem.",
+  "dailyReflection22": "Vzpomínej na požehnání, které často přehlížíš a věnuj chvíli, aby jsi Alláhovi poděkoval.",
+  "dailyReflection23": "Zamysli se na své dnešní úmysly — byly pro Alláha? Zítra začínej znovu.",
+  "dailyReflection24": "Když noc ztiší, poslouchej Alláhovu blízkost v tichosti.",
+  "dailyReflection25": "Pomysli na místo, kde sis dnes našel sílu — ta síla je od Alláha.",
+  "dailyReflection26": "Jmenuj jednu věc, kterou zítra uděláš, pro Alláha, kterou jsi dnes neudělal.",
+  "dailyReflection27": "Jak se připravuješ na odpočinek, svěř svou duši Alláhovi — On je nejlepší strážce.",
+
+  "dailyRoleModel0": "Prorok Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Prorok Ibrahim (AS)",
+  "dailyRoleModel44": "Prorok Musa (AS)",
+  "dailyRoleModel45": "Prorok Isa (AS)",
+  "dailyRoleModel46": "Prorok Yusuf (AS)",
+  "dailyRoleModel47": "Prorok Dawud (AS)",
+  "dailyRoleModel48": "Prorok Sulayman (AS)",
+  "dailyRoleModel49": "Prorok Nuh (AS)",
+  "dailyRoleModel50": "Prorok Yunus (AS)",
+  "dailyRoleModel51": "Prorok Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Povolit Nuria používat mou polohu pro směr Qibly a doby modliteb",
+  "locationConsentHint": "Používáno pouze pro tyto funkce. Vaše poloha není nikdy sdílena ani ukládána.",
+
+  "askPageTitle": "Zeptej se Nuria",
+  "askPageDescription": "Zeptejte se cokoliv o víře, modlitbě, životě nebo islámských zvycích a obdržíte vedení vycházející z Koránu a Sunny.",
+  "askPageInputHint": "Napište svou otázku zde…",
+  "askPageSubmitCta": "Zeptat se",
+  "askPageInputEmptyError": "Nejdříve prosím napište otázku.",
+  "askResultYourQuestion": "Vaše otázka",
+
+  "guidancePageTitle": "Modlitba a vedení",
+  "qiblaFacingMecca": "Směrem na Mekku",
+  "qiblaCompassInstruction": "Otočte svůj telefon, dokud zlatá jehla neukazuje nahoru.\nTen směr ukazuje na Qiblu (Mekku).",
+  "qiblaGpsUnavailableBody": "Signál GPS je slabý. Vyjděte ven a klepněte na Zkusit znovu.",
+  "qiblaRetry": "Zkusit znovu",
+  "qiblaTitle": "Směr Qibly",
+  "qiblaDistanceLabel": "{km} km na Mekku",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Poloha požadována",
+  "qiblaLocationNeededBody": "Povolte přístup k poloze, aby Nuria mohla vypočítat směr Kaaby v Mekce z místa, kde se nacházíte.",
+  "qiblaOpenSettings": "Otevřít Nastavení",
+  "qiblaCompassLoading": "Hledání vaší polohy…",
+  "qiblaTowardMecca": "Směrem na Mekku",
+
+  "prayerTimesTitle": "Časy modliteb",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Poloha požadována",
+  "prayerTimesLocationNeededBody": "Povolte přístup k poloze, aby Nuria mohla vypočítat přesné časy modliteb pro vaše město.",
+  "prayerTimesNextLabel": "Příští",
+  "prayerTimesDoneLabel": "Hotovo",
+
+  "monthlyPrayerTimesTitle": "Měsíční časy modliteb",
+  "monthlyPrayerTimesViewButton": "Zobrazit celý měsíc",
+  "monthlyPrayerTimesNextMonth": "Příští měsíc",
+  "monthlyPrayerTimesDayHeader": "Den",
+
+  "sharePrayerTimes": "Sdílet časy modliteb",
+
+  "prayerNotificationsTitle": "Připomínky modliteb",
+  "prayerNotificationsDescription": "Obdržujte jemné připomenutí před každým časem modlitby, aby zůstal připojen během celého dne.",
+  "prayerNotificationsEnable": "Povolit připomínky modliteb",
+  "prayerNotificationsOpenSettings": "Otevřít nastavení oznámení",
+  "prayerNotificationsDenied": "Oznámení jsou vypnuta",
+  "prayerNotificationsDeniedHint": "Přejděte do Nastavení a povolte oznámení pro Nuria, abyste obdrželi připomenutí o časech modliteb.",
+
+  "notificationsConsentLabel": "Povolit oznámení pro časy modliteb",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Ranní modlitba",
+  "prayerNotifBodyFajr": "Nejlepší z modliteb je ranní modlitba. Vstaň, očisti se a stůj před Alláhem.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Poledňová modlitba",
+  "prayerNotifBodyDhuhr": "Pozastavte svůj den a vraťte se k Alláhovi. Čas modlitby Dhuhr přichází.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Odpolední modlitba",
+  "prayerNotifBodyAsr": "Střežte prostřední modlitbu. Přichází čas Asr — nechť vám neproběhne.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Soumračná modlitba",
+  "prayerNotifBodyMaghrib": "Slunce zapadlo. Oferuj Maghrib a buď vděčný Alláhovi za tento den.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Noční modlitba",
+  "prayerNotifBodyIsha": "Uzavři svůj den vzpomínkou na Alláha. Hayya 'alal falah — pojď k úspěchu.",
+
+  "outOfReflectionsBannerText": "Využili jste všechny své reflexe",
+  "outOfReflectionsBannerCta": "Získat více",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Klepněte na kruh pro počítání",
+  "dhikrResetButton": "Resetovat",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Dokončili jste 99 vzpomínek na Alláha. Nechť jsou světlem pro tvé srdce.",
+
+  "disclaimerTitle": "O vedení v této aplikaci",
+  "disclaimerBody": "Nuria poskytuje islámské reflexe, připomenutí a duchovní obsah na podporu vaší osobní cesty víry. Tento obsah je nabízen pouze pro obecné informační a inspirační účely.\n\nNuria nenahrazuje kvalifikované učení.\nVedení v této aplikaci není náhradou za učeného islámského učence, imáma, muftího nebo teologicky vyškoleného učitele. Pokud máte otázky ohledně náboženských norem, halálních a harámových záležitostí nebo osobních náboženských povinností, prosím vyhledejte radu kvalifikované náboženské autority ve své komunitě.\n\nTato aplikace nevydává náboženská rozhodnutí.\nNuria neprovádí autorizovaná rozhodnutí v otázkách fiqhu (islámské jurisprudence) nebo osobních náboženských povinností. Nic zde by nemělo být považováno za fatvu nebo závazný náboženský pokyn.\n\nUčené interpretace se liší.\nIslámu zahrnuje bohaté rozdělení tradic, škol myšlení (madhaby) a učených názorů. Obsah v této aplikaci odráží obecné perspektivy a nemusí rovnoměrně zastupovat každou tradici nebo školu.\n\nKomunita je důležitá.\nTato aplikace se snaží podporovat vaši angažovanost v tradičních věrách a hluboko respektuje důležitou roli vaší místní mešity, imáma a náboženské komunity. Vyzýváme vás, abyste zůstali připojeni a učili se od kvalifikovaných učitelů v blízkosti vás.",
+  "disclaimerClose": "Rozumím",
+  "disclaimerInfoTooltip": "O vedení v této aplikaci",
+  "disclaimerSettingsSubtitle": "Pouze pro obecné informační účely. Klepněte, abyste si přečetli úplný právní disclaimer.",
+  "disclaimerSectionHeader": "Disclaimer vedení"
+}

@@ -1,0 +1,585 @@
+{
+  "@@locale": "sq",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Zgjidhni gjuhën tuaj",
+  "languageSelectSub": "Mund ta ndryshoni këtë më vonë në Cilësimet",
+  "actionContinue": "Vazhdoni",
+  "languageSuggestedHeader": "Të Rekomanduara",
+  "languageAllHeader": "Të gjitha gjuhët",
+  "languageSuggestedBadge": "E Rekomanduar",
+  "languageSearchHint": "Kërkoni…",
+
+  "planGrace": "Standard",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Udhëzimi Ditor",
+  "categoryFaithTrust": "Imani dhe Besimi",
+  "categoryPrayerReflection": "Refleksion Në Lutje",
+  "categoryHopeDifficultTimes": "Durim dhe Shpresë",
+  "categoryForgiveness": "Kërko Falje",
+  "categoryLoveCompassion": "Mëshirë dhe Dhembsuri",
+  "categoryStrengthCourage": "Fuqia e Imanit",
+  "categoryGratitude": "Zemër Mirënjohëse",
+  "categoryPurposeCalling": "Qëllimi i Jetës",
+  "categoryFamilyRelationships": "Lidhjet Familjare",
+  "categoryPeaceAnxietyRelief": "Paqja e Brendshme",
+  "categoryWisdomOfJesus": "Urtësia e Profetëve",
+  "categoryHumilityCharacter": "Përulësi dhe Karakter",
+  "categoryOvercomingTemptation": "Rezisto Tundimit",
+  "categoryEveningReflection": "Dhikri i Mbrëmjes",
+  "categoryCustom": "Reflektim Personal",
+  "dhikrMeaningSubhanallah": "Lavdi Allahut",
+  "dhikrMeaningAlhamdulillah": "Të gjitha lavdërimet i takojnë Allahut",
+  "dhikrMeaningAllahuAkbar": "Allah është më i Madhi",
+  "quranVerseHeartAtRest": "Me të vërtetë, në kujtimin e Allahut zemrat gjejnë qetësi.",
+
+  "promptHint": "Prekni një kategori për udhëzim dhe refleksion islamik",
+
+  "currentLanguage": "Gjuha aktuale",
+  "settingsLanguage": "Cilësimet e gjuhës",
+  "settingsTitle": "Cilësimet",
+  "chooseLanguage": "Zgjidhni gjuhën tuaj",
+  "continueCta": "Vazhdoni",
+
+  "promptDailyGuidance": "Shkruani një udhëzim ditor të shkurtër dhe praktik i bazuar në fenë islamike Sunite — i rrënjosur në Kuranin Famëlartë, në Hadithin dhe në mësimet e Profetit Muhammad (paqja dhe bekimet e Allahut qofshin mbi të). Zgjidhni një këndvështrim të freskët çdo herë: një virtyt nga etika islamike, një e vërtetë nga Sunneti, urtësia nga Shoqërit e Profetit, ose një praktikë të qetë nga tradita islamike. Përfshini një ajet Kurani (Surah:Ajet) dhe një refleksion 1-2 fjali për të çuar përgjatë ditës. Nëse është e përshtatshme, lidheni atë me kalendarin islamik ose një datë të rëndësishme.",
+
+  "promptFaithTrust": "Shkruani një refleksion të shkurtër islamik mbi Imanin (fenë) dhe besimin në planin e Allahut (Tawakkul). Rrënjoseni atë në Kuran, në shembullin e Profetit Muhammad dhe në fenë të Shoqërve të tij. Ndryshoni temën çdo herë: besimi në Allahun gjatë pasigurisë, mbështetja në urtësinë hyjnore, durim në prova, ose përqetuesim të qetë në jetën e përditshme. Përfshini një ajet Kurani dhe një hap të sinqertë për sot i nxjerrë nga urtësia shpirtërore islamike.",
+
+  "promptPrayerReflection": "Shkruani një refleksion të shkurtër islamik në Lutje i rrënjosur në Salah, Dua, ose Dhikr. Ndryshoni formën çdo herë: një përmbaje mëngjesi ose mbrëmje (Adhkar), refleksion në pesë lutjet e përditshme, meditim i një ajeti Kurani, ose një lutje të sinqertë. Përfshini një ajet Kurani dhe shkruani shkurtimisht formën e lutjes të përdorur.",
+
+  "promptHopeDifficultTimes": "Shkruani një refleksion islamik mbi durimin (Sabr) dhe shpresën gjatë vështirësive. Merrni nga mësimet Kuranore për prova, në përqetuesimin e Profetëve, dhe në mëshirën e Allahut në momente të vështira. Ndryshoni këndvështrimin çdo herë. Përfshini një ajet Kurani dhe një perspektivë të nxitëse nga tradita islamike.",
+
+  "promptForgiveness": "Shkruani një refleksion të urtë islamik mbi kërkimin e falje (Tawbah) dhe mëshirën e Allahut. Merrni nga mësimet Kuranore mbi pendimin, dhembsuria e Allahut, dhe shembulli falës i Profetit Muhammad. Ndryshoni temën: kthesa në Allahun, falja e të tjerëve, shërim i marrëdhënieve, ose besim në mëshirën e Allahut pas gabimeve. Përfshini një ajet Kurani dhe një hap konkret.",
+
+  "promptLoveCompassion": "Shkruani një refleksion të shkurtër islamik mbi mëshirën (Rahmah) dhe dhembsurën në jetën e përditshme. Merrni nga shembulli i Profetit Muhammad, koncepti i Ihsan (përsosmëria), dhe mësimet islamike për mirësi ndaj familjes, fqinjëve, dhe të pabranisurve. Përfshini një ajet Kurani dhe një veprim të vogël të dhembsurës për të praktikuar sot.",
+
+  "promptStrengthCourage": "Shkruani një refleksion islamik mbi fuqinë e bazuar në iman dhe guximin. Merrni nga shembujt e Profetëve, komunitetit të hershëm mysliman, dhe të besimtarëve që qendruan të fortë në vështirësi. Ndryshoni temën çdo herë: guxim përmes imanit, fuqia në lutje, besim në Allahun gjatë frikës, ose aftësia për t'u zotëruar në vështirësi. Përfshini një ajet Kurani dhe një dua të shkurtër ose frazë përmbajte.",
+
+  "promptGratitude": "Shkruani një refleksion islamik mbi mirënjohjen (Shukr) ndaj Allahut. Rrënjoseni në mësim Kuranor dhe tradicën profetike. Ndryshoni këndvështrimin: mirënjohje në vështirësi, vlerësim i bekimeve të vogla, fillim i ditës me lëvdata të Allahut, ose njohje të udhëzimit të Allahut në jetën e përditshme. Përfshini një ajet Kurani dhe një praktikë mirënjohje.",
+
+  "promptPurposeCalling": "Shkruani një refleksion islamik mbi qëllimin e jetës në adhurimin e Allahut dhe jetesën e drejtë. Merrni nga mësimet Kuranore mbi qëllimin, shërbimin e të tjerëve, dhe përdorimin e dhuratave të dikujt për të mirë. Ndryshoni temën çdo herë: shërbim ndaj familjes dhe komunitetit, kërkim udhëzimi përmes Istikhara, jetesë me qëllim, ose gjetje kuptimi në punë të zakonshme. Përfshini një ajet Kurani dhe dy pyetje refleksive.",
+
+  "promptFamilyRelationships": "Shkruani udhëzim të urtë islamik mbi familjen dhe marrëdhëniet e rrënjosura në mësimet Kuranore dhe shembullin e Profetit Muhammad. Ndryshoni temën çdo herë: mirësi në jetën familjare, durim në konflikt, nderim të prindërve, rritje të fëmijëve në iman, ose forcim të martesës. Përfshini një ajet Kurani dhe një praktikë marredhenore për të provuar.",
+
+  "promptPeaceAnxietyRelief": "Shkruani një refleksion të qetësues islamik mbi gjetjen e paqes të brendshme përmes përmbajtes të Allahut (Dhikr) dhe besimit në planin e tij. Merrni nga mësimet Kuranore mbi qetësia e zemrës, lutja, dhe dorëzim në vullnetin e Allahut. Ndryshoni qasjen çdo herë dhe përfshini një ajet Kurani dhe një praktikë të thjeshtë të paragjykuara nga tradita islamike.",
+
+  "promptWisdomOfJesus": "Shkruani një pjesë të shkurtër urtësie nga Profetët siç mësohet në Islam. Merrni nga Kurani ose Haditi dhe shpjegoni shkurtimisht se si shkollat islamike e kanë kuptuar mësimin. Ndryshoni temën çdo herë: karakter, durim, përulësi, iman, ose sjellje të përditshme. Përfshini një referencë Kuranore ose Haditi dhe një zbatim praktik.",
+
+  "promptHumilityCharacter": "Shkruani një refleksion islamik mbi përulësinë (Tawadhu) dhe karakterin e mirë (Akhlaq). Merrni nga mësimet Kuranore, shembulli i Profetit Muhammad, dhe tradita e zhvillimit të karakterit islamik. Ndryshoni temën: përulësi në udhëheqje, prannim i gabimeve, trajtim të tjerëve me respekt, ose rritje shpirtërore përmes vetë-refleksioni. Përfshini një ajet Kurani dhe një zakon për të praktikuar.",
+
+  "promptOvercomingTemptation": "Shkruani një refleksion islamik mbi rezistimin ndaj tundimit dhe qëndrimin në rrugën e drejtë. Merrni nga udhëzimi Kuranor, përmbajte i Allahut (Dhikr), lutja (Salah), dhe shembuj të besimtarëve që kapërcyen luftëra. Ndryshoni këndvështrimin çdo herë. Përfshini një ajet Kurani dhe një strategji praktike për 24 orët e ardhshme.",
+
+  "promptEveningReflection": "Shkruani një refleksion të qetë islamik të mbrëmjes i rrënjosur në tradita e përmbajtes të mbrëmjes (Adhkar al-Masaa'). Nxiteni mirënjohjen, vetë-refleksionin (Muhasabah), dhe besimin në Allahun përpara pushimit. Përfshini 3-5 pyetje të shkurtra refleksive mbi ditën, një dua të shkurtër mbyllëse, dhe një ajet Kurani.",
+
+  "wordCount": "{count, plural, one {{count} fjalë} other {{count} fjalë}}",
+
+  "optionsCta": "Opsionet",
+  "newCta": "E Re",
+  "actionsTitle": "Çfarë dëshironi të bëni?",
+  "copy": "Kopjo",
+  "share": "Shpërndaje",
+  "close": "Mbyll",
+  "copiedToast": "Kopjuar në kujtesë",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Udhëzimi Ditor" }
+    }
+  },
+
+  "regenerateErrorTitle": "Nuk arriti të gjenerohej një përgjigje e re",
+  "regenerateErrorBody": "{error}\n\nDëshironi të provoni përsëri?",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Gabim i rrjetit" }
+    }
+  },
+
+  "cancelCta": "Anulo",
+  "retryCta": "Provo përsëri",
+
+  "authTitle": "Krijoni llogarinë tuaj",
+  "continueAsGuest": "Vazhdoni si mysafir",
+  "signInGoogle": "Hyni me Google",
+  "signInApple": "Hyni me Apple",
+  "signInEmail": "Hyni me Email",
+  "upgradeWithApple": "Vazhdoni me Apple",
+  "mustAccept": "Duhet të pranoni Termat dhe të merrni parasysh Politikën e Privatësisë.",
+  "termsLabel": "Pranoi Termat e Shërbimit",
+  "privacyLabel": "Lexova Politikën e Privatësisë",
+  "marketingOptIn": "Dakord të marr lajme dhe oferta",
+  "openTerms": "Termat e Shërbimit",
+  "openPrivacy": "Politika e Privatësisë",
+
+  "accountSection": "Llogaria",
+  "guestMode": "Modaliteti mysafir",
+  "signedIn": "I hyrë",
+  "upgradeHint": "Ruani refleksionet tuaja në të gjithë pajisjet duke krijuar një llogari.",
+  "upgradeWithGoogle": "Vazhdoni me Google",
+  "signOut": "Dilni",
+
+  "snackUpgraded": "Llogaria u përditësua me Google ✅",
+  "snackSignedIn": "U hyp me Google ✅",
+  "snackSignedOut": "U dilni",
+  "snackSignedInApple": "U hyp me Apple ✅",
+  "snackSignedInGoogle": "U hyp me Google ✅",
+  "snackUpgradedApple": "Llogaria u përditësua me Apple ✅",
+  "snackUpgradedGoogle": "Llogaria u përditësua me Google ✅",
+
+  "historyTitle": "Refleksionet e mëparshme",
+  "historyOpenCta": "Refleksionet e mëparshme",
+  "historyEmpty": "Asnjë refleksion i ruajtur akoma.",
+  "historyDeleteTitle": "Fshini refleksionin?",
+  "historyDeleteBody": "Kjo do të heqë përgjithmonë artikullin e zgjedhur.",
+  "deleteCta": "Fshij",
+
+  "historyButton": "Refleksionet e Mëparshme",
+  "historyEmptyTitle": "Asnjë refleksion akoma",
+  "historyEmptyBody": "Gjenerojeni diçka fillimisht — artikujt e ruajtur tuaj do të shfaqen këtu.",
+  "historyDelete": "Fshij",
+
+  "footerTitle": "Me Iman, durim dhe dhembsuri.",
+  "footerSubtitle": "Një hap në një kohë.",
+  "genericErrorSnack": "Diçka doli gabim — përpiquni përsëri në një moment.",
+
+  "upgradeAccountCta": "Ruani refleksionet tuaja në të gjithë pajisjet – krijoni një llogari",
+  "deleteAccount": "Fshini llogarinë",
+  "exportData": "Eksportoni të dhënat e mia",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Qetë tigër 🐯\nAI ka nevojë për një moment para se të ardhshmen…",
+  "rateDailyLimit": "Refleksionet tuaja kanë mbaruar për tani.\nMarrni më shumë refleksione ose përditësohuni në Barakah.",
+  "rateCreditsExhausted": "Keni përdorur të gjitha refleksionet tuaja.\nBlerje më shumë ose përditësohuni në Barakah për të vazhduar.",
+  "rateGraceReflectionsExhausted": "Refleksionet tuaja kanë mbaruar për tani.\nMarrni më shumë refleksione ose përditësohuni në Barakah.",
+  "rateReflectionsExhausted": "Keni përdorur të gjitha refleksionet tuaja.\nBlerje më shumë ose përditësohuni në Barakah për të vazhduar.",
+
+  "blessedDescription": "Barakah çlirohet tipet premium, kategori të ardhshme, dhe një badge të veçant.",
+  "championDescription": "Barakah çlirohet tipet premium, kategori të ardhshme, dhe një badge të veçant.",
+
+  "ratePlanExhausted": "Refleksionet tuaja janë bosh për tani. Plani: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard ose Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Nuk arriti të kontrolloheshin refleksionet tuaja: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Gabim i rrjetit" }
+    }
+  },
+
+  "rateCheckGenericError": "Diçka doli gabim gjatë kontrollimit të refleksioneve tuaja.",
+  "aiFallbackGeneric": "Diçka doli gabim — përpiquni përsëri në një moment.",
+
+  "limitSectionTitle": "Refleksionet",
+  "limitTodayLabel": "Përdorimi",
+  "limitCreditsLabel": "Refleksionet e mbetura: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plani: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard ose Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Po ngarkohet…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
+
+  "aiLimitTitle": "Refleksionet",
+  "aiLimitSubtitle": "Çdo përgjigje përdor 1 refleksion. Standard përfshin refleksionet e fillimit. Barakah çlirohet kategori premium dhe mundëson blerje të ardhshme.",
+  "aiLimitProgressLabel": "{used} / {total} refleksionet e përdorura",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Refleksionet",
+  "reflectionsUsageLabel": "Përdorimi",
+  "reflectionsRemainingLabel": "Refleksionet e mbetura: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plani: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard ose Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Po ngarkohet…",
+  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+
+  "reflectionsTitle": "Refleksionet",
+  "reflectionsSubtitle": "Çdo përgjigje përdor 1 refleksion. Standard përfshin refleksionet e fillimit. Barakah çlirohet kategori premium dhe mundëson blerje të ardhshme.",
+  "reflectionsProgressLabel": "{used} / {total} refleksionet e përdorura",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Fshini llogarinë",
+  "settingsDeleteDescription": "Fshini përgjithmonë llogarinë tuaj dhe të gjitha të dhënat shoqëruese.",
+  "settingsDeleteButtonLabel": "Fshini llogarinë time",
+  "settingsDeleteDialogTitle": "Fshini llogarinë?",
+  "settingsDeleteDialogBody": "Ky veprim është përgjithmonë dhe nuk mund të zhbëhet.\n\nTë gjitha bisedat, historia dhe informacioni i llogarisë tuaj do të fshihen.",
+  "settingsDeleteDialogCancel": "Anulo",
+  "settingsDeleteDialogConfirm": "Fshij",
+
+  "settingsFreeLimitUsedTitle": "Refleksionet e fillimit u përdorën",
+  "settingsFreeLimitUsedDescription": "Refleksionet e fillimit për këtë pajisje kanë përdorur. Përditësohuni në Barakah ose bleni më shumë refleksione për të vazhduar.",
+
+  "settingsStarterReflectionsUsedTitle": "Refleksionet e fillimit u përdorën",
+  "settingsStarterReflectionsUsedDescription": "Refleksionet e fillimit për këtë pajisje kanë përdorur. Përditësohuni në Barakah ose bleni më shumë refleksione për të vazhduar.",
+
+  "deviceBoundError": "Kjo pajisje është tashmë e lidhur me një llogari tjetër. Hyni me llogarinë origjinale.",
+
+  "premiumTitle": "Modaliteti Barakah",
+  "premiumSubtitleBasic": "Çlironi përvojën e plotë të Nuria.",
+  "premiumSubtitleChampion": "Jeni në Barakah. A keni nevojë për më shumë refleksione?",
+
+  "premiumCurrentPlan": "Plani aktual: {plan}",
+  "premiumCreditsStatus": "Refleksionet: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Blerjet nuk janë të disponueshme për tani.",
+  "premiumSignInToPurchase": "Hyni për të blerë refleksione ose për të çliruar Barakah.",
+
+  "premiumRestorePurchases": "Riktheni blerjet",
+  "premiumProcessing": "Po përpunohet…",
+  "premiumRestoreHintTitle": "Tashmë keni blerë Barakah ose refleksione në këtë pajisje ose në një tjetër?",
+  "premiumRestoreHintBody": "Riktheni blerjet tuaja nëse nuk shfaqen.",
+
+  "premiumBuyCredits200": "Blej 200 refleksione",
+  "premiumBuyCredits400": "Blej 400 refleksione",
+  "premiumBecomeChampionOneTime": "Përditësohuni në modalitetin Barakah",
+  "premiumChampionHint": "Si Barakah, mund të bleni më shumë refleksione sa herë që keni nevojë.",
+
+  "premiumUpgradeCta": "Përditëso",
+  "premiumRequiredForCategory": "Kjo kategori është vetëm për përdoruesit e Barakah. Përditësohuni në Cilësimet për të çliruar të gjithë përmbajtjen premium.",
+  "premiumBenefitsBasic": "Çlironi Barakah për të marrë refleksione të pastra, për t'u qasur kategorive premium, dhe për të vazhduar sa herë që keni nevojë për udhëzim.",
+  "premiumBenefitsChampion": "Jeni në modalitetin Barakah. Nëse keni nevojë, shtoni disa refleksione të pastra dhe vazhdoni pa ndërprerje.",
+  "premiumButtonBecomeChampion": "Çlironi Barakah",
+  "premiumButtonTopup1000": "Shtoni 1000 refleksione",
+  "premiumChampionBadge": "Barakah aktiv",
+  "premiumLoadingStore": "Po ngarkohet dyqani…",
+
+  "blessedTitle": "Modaliteti Barakah",
+  "blessedSubtitleGrace": "Çlironi përvojën e plotë të Nuria.",
+  "blessedSubtitleBlessed": "Jeni në Barakah. A keni nevojë për më shumë refleksione?",
+
+  "blessedCurrentPlan": "Plani aktual: {plan}",
+  "blessedReflectionsStatus": "Refleksionet: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Blerjet nuk janë të disponueshme për tani.",
+  "blessedProductNotAvailable": "Ky produkt nuk është i disponueshëm në dyqan ende. Përpiquni përsëri më vonë.",
+  "blessedPurchaseError": "Diçka doli gabim me blerjen. Përpiquni përsëri.",
+  "blessedSignInToPurchase": "Hyni për të blerë refleksione ose për të çliruar Barakah.",
+
+  "blessedRestorePurchases": "Riktheni blerjet",
+  "blessedProcessing": "Po përpunohet…",
+  "blessedRestoreHintTitle": "Tashmë keni blerë Barakah ose refleksione në këtë pajisje ose në një tjetër?",
+  "blessedRestoreHintBody": "Riktheni blerjet tuaja nëse nuk shfaqen.",
+
+  "blessedBuyReflections100": "Shtoni 100 refleksione",
+  "blessedBuyReflections200": "Blej 200 refleksione",
+  "blessedBuyReflections400": "Blej 400 refleksione",
+  "blessedBecomeBlessedOneTime": "Përditësohuni në Barakah",
+  "blessedTopupHint": "Si Barakah, mund të bleni më shumë refleksione sa herë që keni nevojë.",
+
+  "blessedUpgradeCta": "Përditëso",
+  "blessedRequiredForCategory": "Kjo kategori është vetëm për përdoruesit e Barakah. Përditësohuni në Cilësimet për të çliruar të gjithë përmbajtjen premium.",
+  "blessedFeatureLocked": "Çlironi Barakah për të qasur këtë veçori.",
+  "lockedCategoriesHint": "Disa kategori janë të rezervuara për anëtarët e Barakah. Çlironi ato për të eksploruar çdo refleksion në udhën tuaj.",
+  "blessedBenefitsGrace": "Çlironi Barakah për të marrë refleksione të pastra, për t'u qasur kategorive premium, dhe për të vazhduar sa herë që keni nevojë për udhëzim.",
+  "blessedBenefitsBlessed": "Jeni në modalitetin Barakah. Nëse keni nevojë, shtoni disa refleksione të pastra dhe vazhdoni pa ndërprerje.",
+  "blessedButtonBecomeBlessed": "Çlironi Barakah",
+  "blessedButtonTopup1000": "Shtoni 1000 refleksione",
+  "blessedBadge": "Barakah aktiv",
+  "blessedLoadingStore": "Po ngarkohet dyqani…",
+
+  "freePlanBlockedTitle": "Keni përdorur refleksionet e fillimit",
+  "freePlanBlockedBody": "Jeni në planin Standard me refleksionet e fillimit, dhe keni arritur limitin. Për të vazhduar — dhe për të çliruar kategori premium — përditësohuni në Barakah.",
+  "freePlanBlockedCtaGoPremium": "Shikoni opsionet e Barakah më poshtë",
+
+  "graceBlockedTitle": "Keni përdorur refleksionet e fillimit",
+  "graceBlockedBody": "Jeni në planin Standard me refleksionet e fillimit, dhe keni arritur limitin. Për të vazhduar — dhe për të çliruar kategori premium — përditësohuni në Barakah.",
+  "graceBlockedCtaGoBlessed": "Shikoni opsionet e Barakah më poshtë",
+
+  "rateGuestMustSignIn": "Hyni për të përdorur Nuria dhe refleksionet tuaja.",
+
+  "guestNoCreditsTitle": "Modaliteti mysafir",
+  "guestNoCreditsBody": "Si mysafir mund të shfletoni aplikacionin, por nuk mund të përdorni refleksione. Hyni më vonë në Cilësimet për të përdorur refleksione dhe për të çliruar blerje.",
+
+  "guestNoReflectionsTitle": "Modaliteti mysafir",
+  "guestNoReflectionsBody": "Si mysafir mund të shfletoni aplikacionin, por nuk mund të përdorni refleksione. Hyni më vonë në Cilësimet për të përdorur refleksione dhe për të çliruar blerje.",
+
+  "guestDialogContinue": "Vazhdoni",
+  "guestDialogLoginInstead": "Hyni në vend të kësaj",
+
+  "optionalLabel": "opsional",
+
+  "accountDeleteSuccessTitle": "Llogaria u fshi",
+  "accountDeleteSuccessBody": "Llogaria juaj dhe të dhënat shoqëruese janë fshirë me sukses.",
+  "accountDeleteSuccessClose": "Mbyll",
+  "accountDeleteErrorTitle": "Nuk arriti të fshihet llogaria",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Ribashkimi u anulua. Hyni përsëri dhe provoni fshirjen.",
+  "accountDeleteReauthRequired": "Fshirja e llogarisë kërkon një hyrje të freskët. Dilni, hyni përsëri, dhe provoni fshirjen.",
+  "settingsDeletePermanentWarning": "Ky veprim është përgjithmonë dhe nuk mund të zhbëhet. Të gjitha të dhënat shoqëruese llogarisë tuaj do të fshihen.",
+
+  "dailyGraceTitle": "Udhëzimi Ditor",
+  "dailyGraceScriptureLabel": "AJETI I DITËS",
+  "dailyGraceSaintLabel": "STUDIUESI I JAVËS",
+  "dailyGraceReflectionLabel": "REFLEKSIONI I MBRËMJES",
+  "dailyGraceCopiedToast": "Ajeti kopjuar në kujtesë",
+
+  "dailyScripture0Text": "Të drejtat do të jenë ndër kopshte dhe lumenj, në sediljen e nderit pranë Mbretit të Fuqishëm.",
+  "dailyScripture0Ref": "Kuran 54:54-55",
+  "dailyScripture1Text": "Dhe nuk ju dërguam, o Muhammad, përveç si mëshirë për botën.",
+  "dailyScripture1Ref": "Kuran 21:107",
+  "dailyScripture2Text": "A nuk mjafton Allahu për robërin e vet? Por ata ju frikësosin me të tjerë përveç tij.",
+  "dailyScripture2Ref": "Kuran 39:36",
+  "dailyScripture3Text": "Ndoshta përçoni diçka dhe ajo është e mirë për ju; dhe ndoshta pëlqeni diçka dhe ajo është e keqe për ju. Dhe Allahu e di, ndërsa ju nuk dini.",
+  "dailyScripture3Ref": "Kuran 2:216",
+  "dailyScripture4Text": "Në të vërtetë, Allahu është me të duruarit.",
+  "dailyScripture4Ref": "Kuran 2:153",
+  "dailyScripture5Text": "Pra përmenduni mua; do t'ju përmendem ju. Dhe jini mirënjohës ndaj meje dhe mos mohoni mua.",
+  "dailyScripture5Ref": "Kuran 2:152",
+  "dailyScripture6Text": "Në të vërtetë, më i ushtruar ndër ju në shikimin e Allahut është më i këqiri ndër ju.",
+  "dailyScripture6Ref": "Kuran 49:13",
+  "dailyScripture7Text": "Dhe Zoti juaj dekreton se mos adhuroni asgjë tjetër përveç tij, dhe të jeni të devotshëm ndaj prindërve tuaj.",
+  "dailyScripture7Ref": "Kuran 17:23",
+  "dailyScripture8Text": "Në të vërtetë, me vështirësi vjen lehtësi.",
+  "dailyScripture8Ref": "Kuran 94:6",
+  "dailyScripture9Text": "Dhe ai është me ju kudo që të jeni. Dhe Allahu, të atyre që bëni, është Shikues.",
+  "dailyScripture9Ref": "Kuran 57:4",
+  "dailyScripture10Text": "Allahu nuk ngarkesa një shpirt përveç se ajo mund ta bartë.",
+  "dailyScripture10Ref": "Kuran 2:286",
+  "dailyScripture11Text": "Dhe kush varet nga Allahu — atëherë ai është i mjaftueshëm për të.",
+  "dailyScripture11Ref": "Kuran 65:3",
+  "dailyScripture12Text": "Mëshira ime përfshin të gjitha gjërat.",
+  "dailyScripture12Ref": "Kuran 7:156",
+  "dailyScripture13Text": "Dhe kur robërit e mi ju pyesin për mua — në të vërtetë jam pranë. Unë përgjigjem kërkesës kur ai më dhuron.",
+  "dailyScripture13Ref": "Kuran 2:186",
+  "dailyScripture14Text": "Kush e bën drejtësinë, mashkull ose femër, ndërsa është besimtar — ne me siguri do ta bëjmë atë të jetojë mirë.",
+  "dailyScripture14Ref": "Kuran 16:97",
+  "dailyScripture15Text": "Në të vërtetë, Allahu nuk do të ndryshojë gjendjen e popullit derisa ata të ndryshojnë atë që është në veten e tyre.",
+  "dailyScripture15Ref": "Kuran 13:11",
+  "dailyScripture16Text": "Pra mos u dobësohuni dhe mos trishtohuni, dhe do të jeni superiore nëse jeni besimtar të vërtetë.",
+  "dailyScripture16Ref": "Kuran 3:139",
+  "dailyScripture17Text": "O robërit e mi që kanë shkelur ndaj vetes tuaj, mos desesperojuni nga mëshira e Allahut. Në të vërtetë, Allahu fal të gjitha mëkatet.",
+  "dailyScripture17Ref": "Kuran 39:53",
+  "dailyScripture18Text": "Dhe kush i frikësohet Allahut — ai do ta bëjë për të një rrugë jashtë, dhe do t'i japi atij nga ku nuk pret.",
+  "dailyScripture18Ref": "Kuran 65:2-3",
+  "dailyScripture19Text": "Mos humbni shpresën në mëshirën e Allahut.",
+  "dailyScripture19Ref": "Kuran 12:87",
+  "dailyScripture20Text": "Dhe ne patjetër e kemi bërë Kuranin të lehtë për të kujtuar. Pra, a ka kush që do të jetë i kujdesshëm?",
+  "dailyScripture20Ref": "Kuran 54:17",
+  "dailyScripture21Text": "Dhe ai ju gjeti të humbur dhe ju udhëzoi.",
+  "dailyScripture21Ref": "Kuran 93:7",
+  "dailyScripture22Text": "Dhe Zoti juaj thotë: Më adhurojeni mua; unë do t'ju përgjigjem.",
+  "dailyScripture22Ref": "Kuran 40:60",
+  "dailyScripture23Text": "Dhe ne patjetër kemi nderuar fëmijët e Adamit.",
+  "dailyScripture23Ref": "Kuran 17:70",
+  "dailyScripture24Text": "Dhe kërkoni ndihmë përmes durimit dhe lutjes.",
+  "dailyScripture24Ref": "Kuran 2:45",
+  "dailyScripture25Text": "Kush e bën një atomin peshë të të mirës do ta shohë atë.",
+  "dailyScripture25Ref": "Kuran 99:7",
+  "dailyScripture26Text": "Padiskutim, ndihma e Allahut është afër.",
+  "dailyScripture26Ref": "Kuran 2:214",
+  "dailyScripture27Text": "Dhe kush është mirënjohës — mirënjohja e tij është vetëm për përfitimin e tij.",
+  "dailyScripture27Ref": "Kuran 31:12",
+
+  "dailyReflection0": "Ndërsa kjo ditë mbyllet, mendoni për një moment kur mëshira e Allahut ishte e dukshme.",
+  "dailyReflection1": "Sjellni para Allahut kudo çfarë ishte e rëndë në zemrën tuaj sot.",
+  "dailyReflection2": "Emertoni një bekim nga kjo ditë dhe shprehni mirënjohjen ndaj Allahut.",
+  "dailyReflection3": "Pushohuni në njohurinë që jeni të mbajtën në kujdesin e pafund të Allahut.",
+  "dailyReflection4": "Reflektoni ku ndiheshit të thirrur të tregonit dhembsuri dhe mirësi sot.",
+  "dailyReflection5": "Lëshoni atë që nuk mund të kontrolloni dhe besoni në planin e përsosur të Allahut.",
+  "dailyReflection6": "Ndërsa dita përfundon, merrni paqe në përmbajten e Allahut.",
+  "dailyReflection7": "Konsideroni si nderuarit lutjet tuaja sot, dhe falenderoni Allahun për secilën.",
+  "dailyReflection8": "Reflektoni në një moment ku durim (Sabr) udhëzoi veprimet tuaja sot.",
+  "dailyReflection9": "Kërkoni falje për çdo mangësi sot — mëshira e Allahut është e pafund.",
+  "dailyReflection10": "Emertoni një person të cilit treguat mirësi sot dhe bëni dua për të.",
+  "dailyReflection11": "Uluni me mirënjohjen: çfarë Allahu furnizoi sot që nuk kërkuat?",
+  "dailyReflection12": "Reflektoni në një ajet nga Kurani që flet për atë ku jeni tani.",
+  "dailyReflection13": "Konsideroni si përdorët kohën tuaj sot — dhe ofroni nesërën e Allahut.",
+  "dailyReflection14": "Pushohuni duke ditur se çfarë vështirësie erdhi sot, Allahu ishte me ju.",
+  "dailyReflection15": "Mendoni në një mënyrë se ju shërbyet familjes ose komunitetit tuaj sot për hir të Allahut.",
+  "dailyReflection16": "Ndërsa nata kalon, bëni Tawbah — Allahu i do ata që kthehen në të.",
+  "dailyReflection17": "Reflektoni në bukurinë Allahu vendosi në ditën tuaj, madje edhe po aq e vogël.",
+  "dailyReflection18": "Konsideroni çfarë mësuat sot dhe si ju sjell më afër Allahut.",
+  "dailyReflection19": "Lejoni shqetësimet e ditës të pushojnë me Allahun — Ai mban atë që nuk mund ta bartni.",
+  "dailyReflection20": "Mendoni në një moment sot ku mund të keni zgjedhur më mirë, dhe mësoni nga ajo me butësi.",
+  "dailyReflection21": "Bëni dua për ata që vuajnë — lutja juaj është një dhuratë për ta.",
+  "dailyReflection22": "Rikujtoni një bekim që shpesh kaloni dhe merrni një moment për të falenderuar Allahun.",
+  "dailyReflection23": "Reflektoni në qëllimet tuaja sot — ishin ato për Allahun? Nesër, filloni përsëri.",
+  "dailyReflection24": "Ndërsa nata qetësohet, dëgjoni afërsinë e Allahut në heshtje.",
+  "dailyReflection25": "Konsideroni ku gjetët fuqinë sot — ajo fuqi është nga Allahu.",
+  "dailyReflection26": "Emertoni një gjë që do të bëni nesër, për hir të Allahut, që nuk e bënit sot.",
+  "dailyReflection27": "Ndërsa përgatiteni për pushim, dorëzoni shpirtën tuaj në Allahun — ai është përgjegjësi më i mirë.",
+
+  "dailyRoleModel0": "Profeti Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Profeti Ibrahim (AS)",
+  "dailyRoleModel44": "Profeti Musa (AS)",
+  "dailyRoleModel45": "Profeti Isa (AS)",
+  "dailyRoleModel46": "Profeti Yusuf (AS)",
+  "dailyRoleModel47": "Profeti Dawud (AS)",
+  "dailyRoleModel48": "Profeti Sulayman (AS)",
+  "dailyRoleModel49": "Profeti Nuh (AS)",
+  "dailyRoleModel50": "Profeti Yunus (AS)",
+  "dailyRoleModel51": "Profeti Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Lejoni Nuria të përdorë vendndodhjen time për drejtimin e Qiblah dhe kohët e lutjes",
+  "locationConsentHint": "Përdoret vetëm për këto veçori. Vendndodhja juaj nuk ndahet ose ruhet kurrë.",
+
+  "askPageTitle": "Pyetni Nuria",
+  "askPageDescription": "Pyetni çdo gjë mbi fenë, lutjen, jetën, ose praktikat islamike dhe merrni udhëzim i rrënjosur në Kuran dhe Sunnah.",
+  "askPageInputHint": "Shkruani pyetjen tuaj këtu…",
+  "askPageSubmitCta": "Pyetni",
+  "askPageInputEmptyError": "Ju lutemi shkruani një pyetje fillimisht.",
+  "askResultYourQuestion": "Pyetja juaj",
+
+  "guidancePageTitle": "Lutja dhe Udhëzimi",
+  "qiblaFacingMecca": "Përballë Makkës",
+  "qiblaCompassInstruction": "Rrotulloni telefonin tuaj derisa gjilpra e artë të tregojë lart.\nAjoja drejtim tregon në Qiblah (Makkah).",
+  "qiblaGpsUnavailableBody": "Sinjali i GPS-it është i dobët. Dilni jashtë dhe prekni Provo Përsëri.",
+  "qiblaRetry": "Provo Përsëri",
+  "qiblaTitle": "Drejtimi i Qibla",
+  "qiblaDistanceLabel": "{km} km në Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Vendndodhja e kërkuar",
+  "qiblaLocationNeededBody": "Lejoni qasjen e vendndodhjes në mënyrë që Nuria të mund të llogaritë drejtimin e Kaabës në Makkah nga kudo që jeni.",
+  "qiblaOpenSettings": "Hapni Cilësimet",
+  "qiblaCompassLoading": "Duke gjetur pozicionin tuaj…",
+  "qiblaTowardMecca": "Drejt Makkës",
+
+  "prayerTimesTitle": "Kohët e Lutjes",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Vendndodhja e kërkuar",
+  "prayerTimesLocationNeededBody": "Lejoni qasjen e vendndodhjes në mënyrë që Nuria të mund të llogaritë kohët e sakta të lutjes për qytetin tuaj.",
+  "prayerTimesNextLabel": "Tjetra",
+  "prayerTimesDoneLabel": "E Bërë",
+
+  "monthlyPrayerTimesTitle": "Kohët Mujore të Lutjes",
+  "monthlyPrayerTimesViewButton": "Shikoni Muajin E Plotë",
+  "monthlyPrayerTimesNextMonth": "Muaji pasues",
+  "monthlyPrayerTimesDayHeader": "Dita",
+
+  "sharePrayerTimes": "Shpërndani kohët e lutjes",
+
+  "prayerNotificationsTitle": "Përkujtesa të Lutjes",
+  "prayerNotificationsDescription": "Merrni një përkujtesë të butë para çdo kohe lutjeje për të mbetur të lidhur gjatë gjithë ditës.",
+  "prayerNotificationsEnable": "Aktivizoni përkujtesave të lutjes",
+  "prayerNotificationsOpenSettings": "Hapni cilësimet e njoftimeve",
+  "prayerNotificationsDenied": "Njoftimet janë të çaktivizuara",
+  "prayerNotificationsDeniedHint": "Shkoni në Cilësimet dhe lejoni njoftimet për Nuria për të marrë përkujtesa të kohëve të lutjes.",
+
+  "notificationsConsentLabel": "Lejoni njoftimet për kohët e lutjes",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Lutja e Zbardhjes",
+  "prayerNotifBodyFajr": "Më e mirë e lutjeve është lutja e zbardhjes. Zgjohuni, pastrojuni veten tuaj, dhe qëndroni para Allahut.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Lutja e Mesditës",
+  "prayerNotifBodyDhuhr": "Ndalo ditën tuaj dhe kthehu në Allahun. Ka ardhur koha e Dhuhr.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Lutja e Pasdites",
+  "prayerNotifBodyAsr": "Mbroni lutjen e mesit. Ka ardhur koha e Asr — mos e lejoni atë të kalojë.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Lutja e Perëndimit",
+  "prayerNotifBodyMaghrib": "Dielli ka perënduar. Ofroni Maghrib dhe jini mirënjohës ndaj Allahut për këtë ditë.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Lutja e Natës",
+  "prayerNotifBodyIsha": "Përfundoni ditën tuaj me përmbajte të Allahut. Hayya 'alal falah — ejani në sukses.",
+
+  "outOfReflectionsBannerText": "Keni përdorur të gjitha refleksionet tuaja",
+  "outOfReflectionsBannerCta": "Merrni më shumë",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Prekni rrethin për të numëruar",
+  "dhikrResetButton": "Riktheni",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Keni përfunduar 99 përmbajte të Allahut. Lejoni që ato të jenë një dritë për zemrën tuaj.",
+
+  "disclaimerTitle": "Mbi udhëzimin e këtij aplikacioni",
+  "disclaimerBody": "Nuria ofron refleksione islamike, përkujtesa, dhe përmbajtje shpirtërore për të mbështetur udhën tuaj të përsonalizuar të imanit. Kjo përmbajtje ofrohet vetëm në qëllim të informacionit të përgjithshëm dhe inspirimit.\n\nNuria nuk zëvendëson shkolaritete të kualifikuar.\nUdhëzimi në këtë aplikacion nuk zëvendëson një imam të mësuar, një imam, mufti, ose mësues i nivelit teologjik. Nëse keni pyetje mbi vendimet fetare, çështjet halal dhe haram, ose detyrat fetare personale, ju lutemi kërkoni këshillë nga një autoritet fetar i kualifikuar në komunitetin tuaj.\n\nKy aplikacion nuk jep vendime fetare.\nNuria nuk bën përcaktime autoritare në çështjet e fiqh-ut (jurisprudenca islamike) ose detyrat fetare personale. Asgjë këtu nuk duhet të trajtohet si fatwa ose udhëzim i përdhesë fetar.\n\nInterpretimi shkollor ndryshon.\nIslami përfshin një diversitet të pasur tradicionesh, shkolash të mendimit (madhabs), dhe opinionesh shkollore. Përmbajtja në këtë aplikacion pasqyron perspektiva të përgjithshme dhe mund të mos përfaqësojë çdo tradicion ose shkollë në mënyrë të barabartë.\n\nKomunja ka rëndësi.\nKy aplikacion synon të nxisë ndërlidhjen tuaj me traditat e imanit ndërsa respekton thellësisht rolin jetik të xhematës juaj lokale, imamit, dhe komunitetit fetar. Ne ju nxisim të qëndroni të lidhur me dhe të mësoni nga mësuesit e kualifikuar pranë jush.",
+  "disclaimerClose": "Kam kuptuar",
+  "disclaimerInfoTooltip": "Mbi udhëzimin e këtij aplikacioni",
+  "disclaimerSettingsSubtitle": "Për qëllime informacioni të përgjithshëm. Prekni për të lexuar përjashtimet e plota.",
+  "disclaimerSectionHeader": "Përjashtimet e udhëzimit"
+}

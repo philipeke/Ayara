@@ -1,0 +1,585 @@
+{
+  "@@locale": "min",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Piliah bahaso Minangkabau",
+  "languageSelectSub": "Kamu biso ubah nyo latar di Pangaturan",
+  "actionContinue": "Lanjuikkan",
+  "languageSuggestedHeader": "Disarankan",
+  "languageAllHeader": "Sakabeh bahaso",
+  "languageSuggestedBadge": "Disarankan",
+  "languageSearchHint": "Cari…",
+
+  "planGrace": "Standar",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Bimbingan Harian",
+  "categoryFaithTrust": "Iman & Tawakkal",
+  "categoryPrayerReflection": "Muhasabah Salat",
+  "categoryHopeDifficultTimes": "Sabar & Harapan",
+  "categoryForgiveness": "Minta Ampun",
+  "categoryLoveCompassion": "Rahmah & Belas Kasih",
+  "categoryStrengthCourage": "Kekuatan Iman",
+  "categoryGratitude": "Hati Bersyukur",
+  "categoryPurposeCalling": "Tujuan Hidup",
+  "categoryFamilyRelationships": "Ikatan Keluargo",
+  "categoryPeaceAnxietyRelief": "Ketenangan Batin",
+  "categoryWisdomOfJesus": "Kebijakan Nabi",
+  "categoryHumilityCharacter": "Akhlak Mulia",
+  "categoryOvercomingTemptation": "Tahan Godaan",
+  "categoryEveningReflection": "Dhikir Malam",
+  "categoryCustom": "Refleksi Pribadi",
+  "dhikrMeaningSubhanallah": "Kemuliaan Allah",
+  "dhikrMeaningAlhamdulillah": "Sakabeh puji ka Allah",
+  "dhikrMeaningAllahuAkbar": "Allah nu Pangagung",
+  "quranVerseHeartAtRest": "Sah, di ingetan ka Allah, hate manggih karasa.",
+
+  "promptHint": "Tap sabuah kategori untuak bimbingan Islam jo muhasabah",
+
+  "currentLanguage": "Bahaso saat nyo",
+  "settingsLanguage": "Pangaturan bahaso",
+  "settingsTitle": "Pangaturan",
+  "chooseLanguage": "Piliah bahaso Minangkabau",
+  "continueCta": "Lanjuikkan",
+
+  "promptDailyGuidance": "Tulih bimbingan harian yang praktis jo terasa nyata, berakar dalam iman Islam Sunni — berpadu pada Alquran, Hadist, jo ajoaran Nabi Muhammad. Cari sudut pandang baru tiap kali: sabuah kebajikan dari etika Islam, kebenaran dari Sunnah, kebijakan dari Para Sahabat Nabi, atau praktik tenang dari tradisi Islam. Sertakan sabuah ayat Alquran (Surah:Ayah) jo 1-2 kalimat muhasabah untuak dibawa sepanjang hari. Boleh jo hubungkan dengan kalender Islam atau tanggal penting jo relevan.",
+
+  "promptFaithTrust": "Tulih muhasabah Islam singkat tentang Iman jo kepercayaan pada rencana Allah (Tawakkal). Berakar dalam Alquran, teladan Nabi Muhammad, jo iman para Sahabat. Ubah tema tiap kali: mempercayai Allah di tengah ketidakpastian, bergantung pada kebijaksanaan Ilahi, sabar dalam ujian, atau ketekunan tenang dalam kehidupan sehari-hari. Sertakan sabuah ayat Alquran jo sabuah langkah nyata untuak hari ini dari kebijaksanaan spiritual Islam.",
+
+  "promptPrayerReflection": "Tulih muhasabah salat Islam singkat berakar dalam Salat, Doa, atau Dhikir. Ubah bentuk tiap kali: ingatan pagi atau malam (Adhkar), muhasabah tentang lima salat harian, renungan atas ayat Alquran, atau doa sungguh-sungguh. Sertakan sabuah ayat Alquran jo sebutkan singkat bentuk salat yang digunakan.",
+
+  "promptHopeDifficultTimes": "Tulih muhasabah Islam tentang sabar (Sabr) jo harapan di tengah kesukaran. Ambil dari ajoaran Alquran tentang ujian, ketabahan para Nabi, jo rahmat Allah dalam momen sulit. Ubah sudut pandang tiap kali. Sertakan sabuah ayat Alquran jo sabuah perspektif penyemangat dari tradisi Islam.",
+
+  "promptForgiveness": "Tulih muhasabah Islam bijak tentang minta ampun (Taubah) jo rahmat Allah. Ambil dari ajoaran Alquran tentang taubah, belas kasih Allah, jo teladan pemaaf Nabi Muhammad. Ubah tema: kembali kepada Allah, memaafkan orang lain, menyembuhkan hubungan, atau percaya pada rahmat Allah sesudah kesalahan. Sertakan sabuah ayat Alquran jo sabuah langkah konkret.",
+
+  "promptLoveCompassion": "Tulih muhasabah Islam singkat tentang rahmah (Rahmah) jo belas kasih dalam kehidupan sehari-hari. Ambil dari teladan Nabi Muhammad, konsep Ihsan (keunggulan), jo ajoaran Islam tentang budi baik kepada keluarga, tetangga, jo yang rentan. Sertakan sabuah ayat Alquran jo sabuah tindakan kecil belas kasih untuak dipraktik hari ini.",
+
+  "promptStrengthCourage": "Tulih muhasabah Islam tentang kekuatan jo keberanian yang berakar pada iman. Ambil dari contoh para Nabi, komunitas Muslim awal, jo orang-orang beriman yang tetap kokoh dalam kesukaran. Ubah tema tiap kali: keberanian melalui iman, kekuatan dalam salat, kepercayaan kepada Allah saat takut, atau ketahanan dalam kesulitan. Sertakan sabuah ayat Alquran jo doa singkat atau frasa ingatan.",
+
+  "promptGratitude": "Tulih muhasabah Islam tentang bersyukur (Syukur) kepada Allah. Berakar dalam ajoaran Alquran jo tradisi nabawi. Ubah sudut pandang: bersyukur dalam kesukaran, menghargai berkah kecil, memulai hari dengan pujian kepada Allah, atau mengenali bimbingan Allah dalam kehidupan sehari-hari. Sertakan sabuah ayat Alquran jo sabuah praktik syukur.",
+
+  "promptPurposeCalling": "Tulih muhasabah Islam tentang tujuan hidup dalam menyembah Allah jo hidup baik-baik. Ambil dari ajoaran Alquran tentang tujuan, melayani orang lain, jo gunakan karunia untuak kebaikan. Ubah tema tiap kali: melayani keluarga jo komunitas, mencari bimbingan melalui Istikharah, hidup dengan niat, atau menemukan makna dalam pekerjaan biasa. Sertakan sabuah ayat Alquran jo duo pertanyaan renungan.",
+
+  "promptFamilyRelationships": "Tulih bimbingan Islam bijak tentang keluarga jo hubungan berakar pada ajoaran Alquran jo teladan Nabi Muhammad. Ubah tema tiap kali: budi baik dalam keluarga, sabar dalam konflik, menghormati orang tua, membesarkan anak dalam iman, atau memperkuat pernikahan. Sertakan sabuah ayat Alquran jo sabuah praktik hubungan untuak dicoba.",
+
+  "promptPeaceAnxietyRelief": "Tulih muhasabah Islam yang menenangkan tentang menemukan ketenangan batin melalui ingatan Allah (Dhikir) jo percaya pada rencana-Nya. Ambil dari ajoaran Alquran tentang ketenangan hati, salat, jo pasrah kepada kehendak Allah. Ubah pendekatan tiap kali jo sertakan sabuah ayat Alquran jo sabuah praktik grounding sederhana dari tradisi Islam.",
+
+  "promptWisdomOfJesus": "Tulih sabuah kebijakan dari para Nabi sebagaimana diajarkan dalam Islam. Ambil dari Alquran atau Hadist jo jelaskan singkat bagaimana ulama Islam memahami ajoaran tersebut. Ubah topik tiap kali: akhlak, sabar, rendah hati, iman, atau tingkah laku sehari-hari. Sertakan referensi ayat Alquran atau Hadist jo sabuah aplikasi praktis.",
+
+  "promptHumilityCharacter": "Tulih muhasabah Islam tentang rendah hati (Tawadhu) jo akhlak baik (Akhlak). Ambil dari ajoaran Alquran, teladan Nabi Muhammad, jo tradisi pengembangan akhlak Islam. Ubah tema: kerendahan hati dalam kepemimpinan, mengakui kesalahan, memperlakukan orang lain dengan hormat, atau berkembang spiritual melalui introspeksi. Sertakan sabuah ayat Alquran jo sabuah kebiasaan untuak dipraktik.",
+
+  "promptOvercomingTemptation": "Tulih muhasabah Islam tentang tahan godaan jo tetap di jalan yang lurus. Ambil dari bimbingan Alquran, ingatan Allah (Dhikir), salat (Salat), jo contoh orang beriman yang mengatasi perjuangan. Ubah sudut pandang tiap kali. Sertakan sabuah ayat Alquran jo sabuah strategi praktis untuak 24 jam ke depan.",
+
+  "promptEveningReflection": "Tulih muhasabah Islam malam yang tenteram berakar dalam tradisi ingatan malam (Adhkar al-Masaa'). Dorong bersyukur, introspeksi diri (Muhasabah), jo percaya kepada Allah sebelum istirahat. Sertakan 3-5 pertanyaan renungan pendek tentang hari, sabuah doa penutup singkat, jo sabuah ayat Alquran.",
+
+  "wordCount": "{count, plural, one {{count} patah kato} other {{count} patah kato}}",
+
+  "optionsCta": "Pilihan",
+  "newCta": "Baru",
+  "actionsTitle": "Apa yang ingin kamu lakukan?",
+  "copy": "Salin",
+  "share": "Bagian",
+  "close": "Tutup",
+  "copiedToast": "Sudah disalin ke papan klip",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Baris subjek email / bagian termasuk label kategori.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Bimbingan Harian" }
+    }
+  },
+
+  "regenerateErrorTitle": "Indak bisa buat jawaban baru",
+  "regenerateErrorBody": "{error}\n\nKamu ingin coba lagi?",
+  "@regenerateErrorBody": {
+    "description": "Ditunjukkan ketika menghasilkan kembali jawaban AI gagal.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Kesalahan jaringan" }
+    }
+  },
+
+  "cancelCta": "Batal",
+  "retryCta": "Coba Lagi",
+
+  "authTitle": "Buat akun kamu",
+  "continueAsGuest": "Lanjut sebagai tamu",
+  "signInGoogle": "Masuk dengan Google",
+  "signInApple": "Masuk dengan Apple",
+  "signInEmail": "Masuk dengan Email",
+  "upgradeWithApple": "Lanjut dengan Apple",
+  "mustAccept": "Kamu mesti terima Syarat & baco Kebijakan Privasi.",
+  "termsLabel": "Sayo terima Syarat-syarat Layanan",
+  "privacyLabel": "Sayo sudah baco Kebijakan Privasi",
+  "marketingOptIn": "Sayo sepakat terimo kabar jo penawaran",
+  "openTerms": "Syarat-syarat Layanan",
+  "openPrivacy": "Kebijakan Privasi",
+
+  "accountSection": "Akun",
+  "guestMode": "Mode tamu",
+  "signedIn": "Sudah masuk",
+  "upgradeHint": "Simpon muhasabah kamu di berbagai perangkat dengan membuat akun.",
+  "upgradeWithGoogle": "Lanjut dengan Google",
+  "signOut": "Kaluar",
+
+  "snackUpgraded": "Akun ditingkatkan dengan Google ✅",
+  "snackSignedIn": "Masuk dengan Google ✅",
+  "snackSignedOut": "Sudah kaluar",
+  "snackSignedInApple": "Masuk dengan Apple ✅",
+  "snackSignedInGoogle": "Masuk dengan Google ✅",
+  "snackUpgradedApple": "Akun ditingkatkan dengan Apple ✅",
+  "snackUpgradedGoogle": "Akun ditingkatkan dengan Google ✅",
+
+  "historyTitle": "Muhasabah terdahulu",
+  "historyOpenCta": "Muhasabah terdahulu",
+  "historyEmpty": "Indak ado muhasabah yang disimpon.",
+  "historyDeleteTitle": "Hapuih muhasabah?",
+  "historyDeleteBody": "Nyo akan dihapuih permanen.",
+  "deleteCta": "Hapuih",
+
+  "historyButton": "Muhasabah Terdahulu",
+  "historyEmptyTitle": "Indak ado muhasabah",
+  "historyEmptyBody": "Buat sabuah muhasabah duluan — item yang disimpon akan muncul di sini.",
+  "historyDelete": "Hapuih",
+
+  "footerTitle": "Dengan Iman, Sabr jo Rahmah.",
+  "footerSubtitle": "Sabuah langkah pada sabuah waktu.",
+  "genericErrorSnack": "Ado yang salah — coba lagi nanti.",
+
+  "upgradeAccountCta": "Simpon muhasabah kamu di berbagai perangkat – buat akun",
+  "deleteAccount": "Hapuih akun",
+  "exportData": "Ekspor data sayo",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label sabalun nunjukan UID Firebase internal.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Sabar, sabar 🐯\nAI perlu istirahat sebentar sabalun yang berikuinya…",
+  "rateDailyLimit": "Muhasabah kamu habis untuak saat nyo.\nDapetkan muhasabah baru atau naik ke Barakah.",
+  "rateCreditsExhausted": "Muhasabah kamu sudah habis.\nTambah atau naik ke Barakah untuak lanjut.",
+  "rateGraceReflectionsExhausted": "Muhasabah kamu habis untuak saat nyo.\nDapetkan muhasabah baru atau naik ke Barakah.",
+  "rateReflectionsExhausted": "Muhasabah kamu sudah habis.\nTambah atau naik ke Barakah untuak lanjut.",
+
+  "blessedDescription": "Barakah membuka fitur premium, kategori baru, jo lencana spesial.",
+  "championDescription": "Barakah membuka fitur premium, kategori baru, jo lencana spesial.",
+
+  "ratePlanExhausted": "Muhasabah kamu kosong saat nyo. Paket: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Ditunjukkan ketika muhasabah habis tapi alasannyo umum.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standar atau Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Indak biso cek muhasabah kamu: {message}",
+  "@rateCheckFailed": {
+    "description": "Ditunjukkan ketika fungsi kembalian memberio pesan galat.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Kesalahan jaringan" }
+    }
+  },
+
+  "rateCheckGenericError": "Ado yang salah saat cek muhasabah kamu.",
+  "aiFallbackGeneric": "Ado yang salah — coba lagi nanti.",
+
+  "limitSectionTitle": "Muhasabah",
+  "limitTodayLabel": "Penggunaan",
+  "limitCreditsLabel": "Muhasabah sisa: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Paket: {plan}",
+  "@limitPlanLabel": {
+    "description": "Nunjukan nama paket langganan saat nyo.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standar atau Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Muatan…",
+  "limitLoadingLabelDescription": "Ditunjukkan dalam kad muhasabah sambil statistik penggunaan diambil.",
+
+  "aiLimitTitle": "Muhasabah",
+  "aiLimitSubtitle": "Tiap jawaban pakai 1 muhasabah. Standar termasuk muhasabah awal. Barakah buka kategori premium jo memungkinkan top-up.",
+  "aiLimitProgressLabel": "{used} / {total} muhasabah dipakai",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Muhasabah",
+  "reflectionsUsageLabel": "Penggunaan",
+  "reflectionsRemainingLabel": "Muhasabah sisa: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Paket: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Nunjukan nama paket saat nyo.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standar atau Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Muatan…",
+  "reflectionsLoadingLabelDescription": "Ditunjukkan sambil statistik muhasabah diambil.",
+
+  "reflectionsTitle": "Muhasabah",
+  "reflectionsSubtitle": "Tiap jawaban pakai 1 muhasabah. Standar termasuk muhasabah awal. Barakah buka kategori premium jo memungkinkan top-up.",
+  "reflectionsProgressLabel": "{used} / {total} muhasabah dipakai",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Hapuih akun",
+  "settingsDeleteDescription": "Hapuih akun jo semua data kamu selamanya.",
+  "settingsDeleteButtonLabel": "Hapuih akun sayo",
+  "settingsDeleteDialogTitle": "Hapuih akun?",
+  "settingsDeleteDialogBody": "Tindakan nyo permanen jo indak biso dibatalkan.\n\nSemua obrolan, riwayat jo informasi akun kamu akan dihapuih.",
+  "settingsDeleteDialogCancel": "Batal",
+  "settingsDeleteDialogConfirm": "Hapuih",
+
+  "settingsFreeLimitUsedTitle": "Muhasabah awal sudah dipakai",
+  "settingsFreeLimitUsedDescription": "Muhasabah awal untuak perangkat nyo sudah dipakai. Naik ke Barakah atau bali muhasabah untuak lanjut.",
+
+  "settingsStarterReflectionsUsedTitle": "Muhasabah awal sudah dipakai",
+  "settingsStarterReflectionsUsedDescription": "Muhasabah awal untuak perangkat nyo sudah dipakai. Naik ke Barakah atau bali muhasabah untuak lanjut.",
+
+  "deviceBoundError": "Perangkat nyo sudah terikat ke akun lain. Masuk dengan akun asli kamu.",
+
+  "premiumTitle": "Mode Barakah",
+  "premiumSubtitleBasic": "Buko pengalaman Nuria yang lengkap.",
+  "premiumSubtitleChampion": "Kamu Barakah. Perlu muhasabah baru?",
+
+  "premiumCurrentPlan": "Paket saat nyo: {plan}",
+  "premiumCreditsStatus": "Muhasabah: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Pembelian indak tersedia saat nyo.",
+  "premiumSignInToPurchase": "Masuk untuak bali muhasabah atau buko Barakah.",
+
+  "premiumRestorePurchases": "Kembalikan pembelian",
+  "premiumProcessing": "Memproses…",
+  "premiumRestoreHintTitle": "Sudah bali Barakah atau muhasabah di perangkat nyo atau yang lain?",
+  "premiumRestoreHintBody": "Kembalikan pembelian kamu jo tampil di sini.",
+
+  "premiumBuyCredits200": "Bali 200 muhasabah",
+  "premiumBuyCredits400": "Bali 400 muhasabah",
+  "premiumBecomeChampionOneTime": "Naik ke mode Barakah",
+  "premiumChampionHint": "Sebagai Barakah, kamu biso tambah muhasabah ekstra kapan pun perlu.",
+
+  "premiumUpgradeCta": "Naik",
+  "premiumRequiredForCategory": "Kategori nyo hanya untuak pengguna Barakah. Naik di Pangaturan untuak buko semua konten premium.",
+  "premiumBenefitsBasic": "Buko Barakah untuak dapat muhasabah ekstra, akses kategori premium, jo lanjut kapan pun butuh bimbingan.",
+  "premiumBenefitsChampion": "Kamu dalam mode Barakah. Jo kalu kurang, tambah muhasabah ekstra jo lanjut tanpa gangguan.",
+  "premiumButtonBecomeChampion": "Buko Barakah",
+  "premiumButtonTopup1000": "Tambah 1000 muhasabah",
+  "premiumChampionBadge": "Barakah aktif",
+  "premiumLoadingStore": "Muatan toko…",
+
+  "blessedTitle": "Mode Barakah",
+  "blessedSubtitleGrace": "Buko pengalaman Nuria yang lengkap.",
+  "blessedSubtitleBlessed": "Kamu Barakah. Perlu muhasabah baru?",
+
+  "blessedCurrentPlan": "Paket saat nyo: {plan}",
+  "blessedReflectionsStatus": "Muhasabah: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Pembelian indak tersedia saat nyo.",
+  "blessedProductNotAvailable": "Produk nyo belum ada di toko. Coba lagi nanti.",
+  "blessedPurchaseError": "Ado yang salah saat pembelian. Coba lagi.",
+  "blessedSignInToPurchase": "Masuk untuak bali muhasabah atau buko Barakah.",
+
+  "blessedRestorePurchases": "Kembalikan pembelian",
+  "blessedProcessing": "Memproses…",
+  "blessedRestoreHintTitle": "Sudah bali Barakah atau muhasabah di perangkat nyo atau yang lain?",
+  "blessedRestoreHintBody": "Kembalikan pembelian kamu jo tampil di sini.",
+
+  "blessedBuyReflections100": "Tambah 100 muhasabah",
+  "blessedBuyReflections200": "Bali 200 muhasabah",
+  "blessedBuyReflections400": "Bali 400 muhasabah",
+  "blessedBecomeBlessedOneTime": "Naik ke Barakah",
+  "blessedTopupHint": "Sebagai Barakah, kamu biso tambah muhasabah ekstra kapan pun perlu.",
+
+  "blessedUpgradeCta": "Naik",
+  "blessedRequiredForCategory": "Kategori nyo hanya untuak pengguna Barakah. Naik di Pangaturan untuak buko semua konten premium.",
+  "blessedFeatureLocked": "Buko Barakah untuak akses fitur nyo.",
+  "lockedCategoriesHint": "Sabuah kategori dicadangkan untuak anggota Barakah. Buko untuak jelajahi tiap muhasabah dalam perjalanan kamu.",
+  "blessedBenefitsGrace": "Buko Barakah untuak dapat muhasabah ekstra, akses kategori premium, jo lanjut kapan pun butuh bimbingan.",
+  "blessedBenefitsBlessed": "Kamu dalam mode Barakah. Jo kalu kurang, tambah muhasabah ekstra jo lanjut tanpa gangguan.",
+  "blessedButtonBecomeBlessed": "Buko Barakah",
+  "blessedButtonTopup1000": "Tambah 1000 muhasabah",
+  "blessedBadge": "Barakah aktif",
+  "blessedLoadingStore": "Muatan toko…",
+
+  "freePlanBlockedTitle": "Muhasabah awal kamu sudah habis",
+  "freePlanBlockedBody": "Kamu dalam paket Standar dengan muhasabah awal, jo sudah sampai batasan. Untuak lanjut — jo buko kategori premium — naik ke Barakah.",
+  "freePlanBlockedCtaGoPremium": "Lihat pilihan Barakah di bawah",
+
+  "graceBlockedTitle": "Muhasabah awal kamu sudah habis",
+  "graceBlockedBody": "Kamu dalam paket Standar dengan muhasabah awal, jo sudah sampai batasan. Untuak lanjut — jo buko kategori premium — naik ke Barakah.",
+  "graceBlockedCtaGoBlessed": "Lihat pilihan Barakah di bawah",
+
+  "rateGuestMustSignIn": "Masuk untuak gunakan Nuria jo muhasabah kamu.",
+
+  "guestNoCreditsTitle": "Mode tamu",
+  "guestNoCreditsBody": "Sebagai tamu kamu biso jelajahi aplikasi, tapi indak biso pakai muhasabah. Masuk nanti di Pangaturan untuak pakai muhasabah jo buko pembelian.",
+
+  "guestNoReflectionsTitle": "Mode tamu",
+  "guestNoReflectionsBody": "Sebagai tamu kamu biso jelajahi aplikasi, tapi indak biso pakai muhasabah. Masuk nanti di Pangaturan untuak pakai muhasabah jo buko pembelian.",
+
+  "guestDialogContinue": "Lanjut",
+  "guestDialogLoginInstead": "Masuk sajo",
+
+  "optionalLabel": "opsional",
+
+  "accountDeleteSuccessTitle": "Akun dihapuih",
+  "accountDeleteSuccessBody": "Akun jo data kamu sudah dihapuih dengan baik.",
+  "accountDeleteSuccessClose": "Tutup",
+  "accountDeleteErrorTitle": "Indak biso hapuih akun",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Autentikasi ulang dibatalkan. Masuk lagi jo coba hapuih.",
+  "accountDeleteReauthRequired": "Hapuih akun perlu masuk baru-baru nyo. Kaluar, masuk lagi, jo coba.",
+  "settingsDeletePermanentWarning": "Tindakan nyo permanen jo indak biso dibatalkan. Semua data akun kamu akan dihapuih.",
+
+  "dailyGraceTitle": "Bimbingan Harian",
+  "dailyGraceScriptureLabel": "AYAT HARI INI",
+  "dailyGraceSaintLabel": "ULAMA MINGGU INI",
+  "dailyGraceReflectionLabel": "MUHASABAH MALAM",
+  "dailyGraceCopiedToast": "Ayat disalin ke papan klip",
+
+  "dailyScripture0Text": "Sesungguhnya orang-orang yang takwa itu berada di dalam taman-taman dan sungai-sungai, di tempat kedudukan yang penuh kebenaran di sisi Raja yang Mahakuasa.",
+  "dailyScripture0Ref": "Alquran 54:54-55",
+  "dailyScripture1Text": "Jo Kami indak mengutus engkau, melainkan sebagai rahmat bagi semesta alam.",
+  "dailyScripture1Ref": "Alquran 21:107",
+  "dailyScripture2Text": "Apakah Allah tidak cukup bagi hamba-Nya? Padahal mereka menakut-nakuti engkau dengan [berhala-berhala] selain-Nya.",
+  "dailyScripture2Ref": "Alquran 39:36",
+  "dailyScripture3Text": "Boleh jadi kamu membenci sesuatu, padahal ia amat baik bagi kamu. Jo boleh jadi pula kamu menyukai sesuatu, padahal ia amat buruk bagi kamu. Allah mengetahui, sedangkan kamu tidak mengetahui.",
+  "dailyScripture3Ref": "Alquran 2:216",
+  "dailyScripture4Text": "Sesungguhnya Allah beserta orang-orang yang sabar.",
+  "dailyScripture4Ref": "Alquran 2:153",
+  "dailyScripture5Text": "Karena itu, ingatlah kamu kepada-Ku niscaya Aku ingat [pula] kepada kamu, jo bersyukurlah kepada-Ku, jo janganlah kamu mengingkari [nikmat]-Ku.",
+  "dailyScripture5Ref": "Alquran 2:152",
+  "dailyScripture6Text": "Sesungguhnya mulia di sisi Allah adalah orang yang paling takwa di antara kamu.",
+  "dailyScripture6Ref": "Alquran 49:13",
+  "dailyScripture7Text": "Jo Rabbmu telah memerintahkan supaya kamu jangan menyembah selain-Nya jo hendaklah berbuat baik kepada ibubapak.",
+  "dailyScripture7Ref": "Alquran 17:23",
+  "dailyScripture8Text": "Karena sesungguhnya sesudah kesulitan itu ada kemudahan.",
+  "dailyScripture8Ref": "Alquran 94:6",
+  "dailyScripture9Text": "Jo Dia bersama kamu di mana pun kamu berada. Jo Allah Maha Melihat apa yang kamu kerjakan.",
+  "dailyScripture9Ref": "Alquran 57:4",
+  "dailyScripture10Text": "Allah tidak membebani seseorang melainkan sesuai dengan kesanggupuannyo.",
+  "dailyScripture10Ref": "Alquran 2:286",
+  "dailyScripture11Text": "Barangsiapa yang bertawakal kepada Allah maka Allah akan mencukupi keperluannyo.",
+  "dailyScripture11Ref": "Alquran 65:3",
+  "dailyScripture12Text": "Rahmat-Ku meliputi segala sesuatu.",
+  "dailyScripture12Ref": "Alquran 7:156",
+  "dailyScripture13Text": "Jo apabila hamba-hamba-Ku bertanya kepadamu tentang Aku, maka [jawablah] bahwasanya Aku adalah dekat. Aku mengabulkan permohonan orang yang berdoa apabila dia berdoa kepada-Ku.",
+  "dailyScripture13Ref": "Alquran 2:186",
+  "dailyScripture14Text": "Barangsiapa yang mengerjakan amal saleh, baik laki-laki maupun perempuan dalam keadaan beriman, maka sesungguhnya akan Kami berikan kepadanya kehidupan yang baik.",
+  "dailyScripture14Ref": "Alquran 16:97",
+  "dailyScripture15Text": "Sesungguhnya Allah tidak merobah keadaan sesuatu kaum sehingga mereka merobah keadaan yang ada pada diri mereka sendiri.",
+  "dailyScripture15Ref": "Alquran 13:11",
+  "dailyScripture16Text": "Janganlah kamu bersikap lemah, jo janganlah pula kamu bersedih hati, padahal kamulah orang-orang yang paling tinggi derajatnya, jika kamu orang-orang yang beriman.",
+  "dailyScripture16Ref": "Alquran 3:139",
+  "dailyScripture17Text": "Katakanlah: Wahai hamba-hamba-Ku yang telah melampaui batas terhadap diri mereka sendiri, janganlah kamu putus asa dari rahmat Allah. Sesungguhnya Allah mengampuni dosa-dosa semuanya.",
+  "dailyScripture17Ref": "Alquran 39:53",
+  "dailyScripture18Text": "Jo barangsiapa yang bertakwa kepada Allah niscaya Dia akan menjadikan baginya jalan keluar, jo memberi rezeki kepadanya dari arah yang tiada disangka-sangkannyo.",
+  "dailyScripture18Ref": "Alquran 65:2-3",
+  "dailyScripture19Text": "Jo janganlah putus asa dari rahmat Allah.",
+  "dailyScripture19Ref": "Alquran 12:87",
+  "dailyScripture20Text": "Jo sesungguhnya telah Kami mudahkan Alquran itu untuk pelajaran, maka apakah ada yang mau mengambil pelajaran?",
+  "dailyScripture20Ref": "Alquran 54:17",
+  "dailyScripture21Text": "Jo Dia mendapati kamu dalam keadaan tidak mengetahui, lalu Dia memberi petunjuk.",
+  "dailyScripture21Ref": "Alquran 93:7",
+  "dailyScripture22Text": "Jo berkata Rabbmu: Berdoalah kepada-Ku, niscaya akan Aku perkenankan doamu.",
+  "dailyScripture22Ref": "Alquran 40:60",
+  "dailyScripture23Text": "Jo sesungguhnya telah Kami muliakan anak-anak Adam.",
+  "dailyScripture23Ref": "Alquran 17:70",
+  "dailyScripture24Text": "Jo mintalah pertolongan dengan sabar jo salat.",
+  "dailyScripture24Ref": "Alquran 2:45",
+  "dailyScripture25Text": "Barangsiapa yang mengerjakan kebaikan seberat atom, niscaya dia akan melihat balasannyo.",
+  "dailyScripture25Ref": "Alquran 99:7",
+  "dailyScripture26Text": "Tidak perlu diragukan bahwa pertolongan Allah itu amat dekat.",
+  "dailyScripture26Ref": "Alquran 2:214",
+  "dailyScripture27Text": "Jo barangsiapa yang bersyukur, maka sesungguhnya dia bersyukur untuk diri sendiri.",
+  "dailyScripture27Ref": "Alquran 31:12",
+
+  "dailyReflection0": "Sambil hari menutup, pikirkan sabuah momen di mano rahmat Allah nyato.",
+  "dailyReflection1": "Bao kepada Allah apapun yang memberat di hati kamu hari nyo.",
+  "dailyReflection2": "Sebuikkan sabuah berkah dari hari nyo jo ucapkan terimo kasih kepada Allah.",
+  "dailyReflection3": "Istirahat dalam pengertian bahwa kamu diagung-agungkan dalam perawatan Allah yang tak terbatas.",
+  "dailyReflection4": "Renungkan momen di mano kamu dipanggil untuak tunjuikkan belas kasih jo kebaikan.",
+  "dailyReflection5": "Lepaskan apa yang indak biso kamu kontrol jo percayo rencana Allah yang sempurno.",
+  "dailyReflection6": "Sambil hari berakhir, terimo ketenangan dalam ingatan kepada Allah.",
+  "dailyReflection7": "Pertimbangkan bagaimana kamu menghormati salat kamu hari nyo, jo ucapkan terimo kasih kepada Allah untuak masing-masing.",
+  "dailyReflection8": "Renungkan sabuah momen di mano sabar (Sabr) memandu tindakan kamu hari nyo.",
+  "dailyReflection9": "Minta ampun untuak kekurangan hari nyo — rahmat Allah indak ada batasan.",
+  "dailyReflection10": "Sebuikkan sabuah orang yang kamu tunjuikkan kebaikan hari nyo jo berdo'a untuak mereka.",
+  "dailyReflection11": "Duduk dengan bersyukur: apa yang Allah sediakan hari nyo yang indak kamu minta?",
+  "dailyReflection12": "Renungkan sabuah ayat dari Alquran yang berkata tentang tempat kamu saat nyo.",
+  "dailyReflection13": "Pertimbangkan bagaimana kamu gunakan waktu kamu hari nyo — jo tawahhon besok kepada Allah.",
+  "dailyReflection14": "Istirahat mengetahui bahwa apapun kesukaran datang hari nyo, Allah bersama kamu.",
+  "dailyReflection15": "Pikirkan sabuah cara kamu layani keluarga atau komunitas kamu hari nyo untuak kasih sayang Allah.",
+  "dailyReflection16": "Sambil malam datang, buat Taubah — Allah sayang mereka yang kembali kepada-Nya.",
+  "dailyReflection17": "Renungkan keindahan Allah ditempatkan dalam hari kamu, betapapun kecil.",
+  "dailyReflection18": "Pertimbangkan apa yang kamu pelajari hari nyo jo bagaimana nyo membao kamu lebih dekat kepada Allah.",
+  "dailyReflection19": "Biarkan kekhawatiran hari beristirahat dengan Allah — Dia membao apa yang kamu indak biso.",
+  "dailyReflection20": "Pikirkan sabuah momen hari nyo di mano kamu biso memilih lebih baik, jo pelajari dari nyo dengan lembut.",
+  "dailyReflection21": "Berdoa untuak mereka yang berjuang — doa kamu adalah pemberian untuak mereka.",
+  "dailyReflection22": "Ingat berkah yang sering kamu abaikan jo cari sabuah momen untuak terimo kasih kepada Allah untuak nyo.",
+  "dailyReflection23": "Renungkan niat kamu hari nyo — apakah mereka untuak Allah? Besok, mulai lagi.",
+  "dailyReflection24": "Sambil malam tenang, dengarkan kedekatan Allah dalam kesunyian.",
+  "dailyReflection25": "Pertimbangkan di mano kamu temukan kekuatan hari nyo — kekuatan itu dari Allah.",
+  "dailyReflection26": "Sebuikkan sabuah hal yang kamu lakukan besok, untuak Allah, yang indak kamu lakukan hari nyo.",
+  "dailyReflection27": "Sambil kamu siapkan istirahat, serahkan jiwa kamu kepada Allah — Dia adalah penjago terbaik.",
+
+  "dailyRoleModel0": "Nabi Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakar as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifah (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Nabi Ibrahim (AS)",
+  "dailyRoleModel44": "Nabi Musa (AS)",
+  "dailyRoleModel45": "Nabi Isa (AS)",
+  "dailyRoleModel46": "Nabi Yusuf (AS)",
+  "dailyRoleModel47": "Nabi Dawud (AS)",
+  "dailyRoleModel48": "Nabi Sulayman (AS)",
+  "dailyRoleModel49": "Nabi Nuh (AS)",
+  "dailyRoleModel50": "Nabi Yunus (AS)",
+  "dailyRoleModel51": "Nabi Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Izinkan Nuria gunakan lokasi sayo untuak arah Qibla jo wakto salat",
+  "locationConsentHint": "Dipakai hanya untuak fitur nyo. Lokasi kamu indak pernah dibagian atau disimpon.",
+
+  "askPageTitle": "Tanya Nuria",
+  "askPageDescription": "Tanya apapun tentang iman, salat, hidup, atau praktik Islam jo terimo bimbingan berakar pada Alquran jo Sunnah.",
+  "askPageInputHint": "Tulih pertanyaan kamu di sini…",
+  "askPageSubmitCta": "Tanya",
+  "askPageInputEmptyError": "Tulih pertanyaan duluan.",
+  "askResultYourQuestion": "Pertanyaan kamu",
+
+  "guidancePageTitle": "Salat & Bimbingan",
+  "qiblaFacingMecca": "Hadap Mekkah",
+  "qiblaCompassInstruction": "Putar ponsel kamu sampai jarum emas nunjuk ke atas.\nArah itu nunjuk ke Qibla (Mekkah).",
+  "qiblaGpsUnavailableBody": "Sinyal GPS lemah. Keluar di luar jo tap Coba Lagi.",
+  "qiblaRetry": "Coba Lagi",
+  "qiblaTitle": "Arah Qibla",
+  "qiblaDistanceLabel": "{km} km ke Mekkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Lokasi diperluakan",
+  "qiblaLocationNeededBody": "Izinkan akses lokasi supayo Nuria biso hitung arah Kaabah di Mekkah dari tempat kamu.",
+  "qiblaOpenSettings": "Buko Pengaturan",
+  "qiblaCompassLoading": "Cari posisi kamu…",
+  "qiblaTowardMecca": "Nunjuk Mekkah",
+
+  "prayerTimesTitle": "Wakto Salat",
+  "prayerTimesFajr": "Subuh",
+  "prayerTimesDhuhr": "Zuhur",
+  "prayerTimesAsr": "Asar",
+  "prayerTimesMaghrib": "Magrib",
+  "prayerTimesIsha": "Isya",
+  "prayerTimesLocationNeededTitle": "Lokasi diperluakan",
+  "prayerTimesLocationNeededBody": "Izinkan akses lokasi supayo Nuria biso hitung wakto salat yang akurat untuak kota kamu.",
+  "prayerTimesNextLabel": "Berikuinya",
+  "prayerTimesDoneLabel": "Sadiah",
+
+  "monthlyPrayerTimesTitle": "Wakto Salat Bulanan",
+  "monthlyPrayerTimesViewButton": "Lihat Bulan Lengkap",
+  "monthlyPrayerTimesNextMonth": "Bulan depan",
+  "monthlyPrayerTimesDayHeader": "Hari",
+
+  "sharePrayerTimes": "Bagian wakto salat",
+
+  "prayerNotificationsTitle": "Pengingat Salat",
+  "prayerNotificationsDescription": "Terimo pengingat lembut sabalun tiap wakto salat untuak bantu kamu tetap terkoneksi sepanjang hari.",
+  "prayerNotificationsEnable": "Aktifkan pengingat salat",
+  "prayerNotificationsOpenSettings": "Buko pengaturan notifikasi",
+  "prayerNotificationsDenied": "Notifikasi dinonaktifkan",
+  "prayerNotificationsDeniedHint": "Masuk Pengaturan jo izinkan notifikasi untuak Nuria untuak terimo pengingat wakto salat.",
+
+  "notificationsConsentLabel": "Izinkan notifikasi untuak wakto salat",
+
+  "prayerNotifTitleFajr": "🌅 Subuh — Salat Fajar",
+  "prayerNotifBodyFajr": "Salat terbaik adalah salat fajar. Bangun, bersihkan diri, jo berdiri di depan Allah.",
+
+  "prayerNotifTitleDhuhr": "☀️ Zuhur — Salat Siang",
+  "prayerNotifBodyDhuhr": "Henti kerja kamu jo kembali kepada Allah. Wakto salat Zuhur sudah tibo.",
+
+  "prayerNotifTitleAsr": "🌤️ Asar — Salat Sore",
+  "prayerNotifBodyAsr": "Jago salat tengah hari. Wakto Asar sudah datang — indak usah biarkan lalu.",
+
+  "prayerNotifTitleMaghrib": "🌇 Magrib — Salat Senja",
+  "prayerNotifBodyMaghrib": "Matahari sudah terbenam. Salat Magrib jo bersyukur kepada Allah untuak hari nyo.",
+
+  "prayerNotifTitleIsha": "🌙 Isya — Salat Malam",
+  "prayerNotifBodyIsha": "Tutup hari kamu dengan ingatan Allah. Hayya 'alal falah — datanglah ke kesuksesan.",
+
+  "outOfReflectionsBannerText": "Muhasabah kamu sudah habis",
+  "outOfReflectionsBannerCta": "Dapat muhasabah",
+
+  "dhikrPageTitle": "Dhikir",
+  "dhikrTapToCount": "Tap lingkaran untuak hitung",
+  "dhikrResetButton": "Atur Ulang",
+  "dhikrComplete": "Alhamdulillah",
+  "dhikrCompleteMessage": "Kamu sudah rampungkan 99 ingatan kepada Allah. Semogo mereka cahayo untuak hati kamu.",
+
+  "disclaimerTitle": "Tentang bimbingan aplikasi nyo",
+  "disclaimerBody": "Nuria sediakan muhasabah Islam, pengingat, jo konten spiritual untuak dukung perjalanan iman pribadi kamu. Konten nyo ditawarkan untuak tujuan informasi jo inspirasi umum sajo.\n\nNuria indak mengganti pembelajaran ulama.\nBimbingan dalam aplikasi nyo indak pengganti untuak ulama Islam terdidik, imam, mufti, atau guru yang terlatih secara teologis. Jo kamu punya pertanyaan tentang hukum agama, halal jo haram, atau kewajiban agama pribadi, cari nasihat dari otoritas agama terkualifikasi di komunitas kamu.\n\nAplikasi nyo indak mengeluarkan hukum agama.\nNuria indak buat penentuan otoritatif tentang masalah fiqh (jurisprudensi Islam) atau kewajiban agama pribadi. Indak apapun di sini harus diperlakukan sebagai fatwa atau instruksi agama yang mengikat.\n\nInterpretasi ulama berbeda.\nIslam merangkum kekayaan tradisi yang beragam, aliran pemikiran (madhabs), jo pendapat ulama. Konten dalam aplikasi nyo mencerminkan perspektif umum jo mungkin indak mewakili tiap tradisi atau aliran secara merata.\n\nKomunitas penting.\nAplikasi nyo bertujuan dorong keterlibatan kamu dengan tradisi iman sambil menghormati peran vital masjid lokal, imam, jo komunitas agama kamu. Kami dorong kamu tetap terhubung dengan jo belajar dari guru terkualifikasi di dekat kamu.",
+  "disclaimerClose": "Sayo paham",
+  "disclaimerInfoTooltip": "Tentang bimbingan aplikasi nyo",
+  "disclaimerSettingsSubtitle": "Untuak tujuan informasi umum sajo. Tap untuak baco disclaimer lengkap.",
+  "disclaimerSectionHeader": "Disclaimer bimbingan"
+}

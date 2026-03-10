@@ -1,0 +1,585 @@
+{
+  "@@locale": "ro",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Alege-ți limba",
+  "languageSelectSub": "Poți schimba aceasta mai târziu în Setări",
+  "actionContinue": "Continuă",
+  "languageSuggestedHeader": "Recomandate",
+  "languageAllHeader": "Toate limbile",
+  "languageSuggestedBadge": "Recomandat",
+  "languageSearchHint": "Caută…",
+
+  "planGrace": "Standard",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Îndrumări Zilnice",
+  "categoryFaithTrust": "Iman și Încredere",
+  "categoryPrayerReflection": "Reflecții asupra Rugăciunii",
+  "categoryHopeDifficultTimes": "Răbdare și Speranță",
+  "categoryForgiveness": "Căutare Iertării",
+  "categoryLoveCompassion": "Milă și Compasiune",
+  "categoryStrengthCourage": "Putere în Credință",
+  "categoryGratitude": "Inimă Recunoscătoare",
+  "categoryPurposeCalling": "Scop în Viață",
+  "categoryFamilyRelationships": "Legături Familiale",
+  "categoryPeaceAnxietyRelief": "Pace Interioară",
+  "categoryWisdomOfJesus": "Înțelepciunea Profeților",
+  "categoryHumilityCharacter": "Caracter Bun",
+  "categoryOvercomingTemptation": "Rezistă Ispitei",
+  "categoryEveningReflection": "Dhikr Seara",
+  "categoryCustom": "Reflecție Personală",
+  "dhikrMeaningSubhanallah": "Slavă lui Allah",
+  "dhikrMeaningAlhamdulillah": "Toată lauda este datorată lui Allah",
+  "dhikrMeaningAllahuAkbar": "Allah este Cel Mai Mare",
+  "quranVerseHeartAtRest": "Adevărat, în amintirea lui Allah inimile găsesc odihnă.",
+
+  "promptHint": "Atinge o categorie pentru îndrumări și reflecții islamice",
+
+  "currentLanguage": "Limba curentă",
+  "settingsLanguage": "Setări limbă",
+  "settingsTitle": "Setări",
+  "chooseLanguage": "Alege-ți limba",
+  "continueCta": "Continuă",
+
+  "promptDailyGuidance": "Scrie o scurtă îndrumă zilnică practică înrădăcinată în credința islamică Sunni — bazată pe Coran, Hadith și înțelepciunile Profetului Muhammad. Alege un unghi proaspăt de fiecare dată: o virtute din etica islamică, o adevăr din Sunnah, înțelepciune din Însoțitorii Profetului, sau o practică liniștitoare din tradiția islamică. Include un verset Coranic (Sura:Ayah) și o reflecție de 1–2 propoziții pe care să o poți duce mai departe în ziua respectivă. Conectează-o opțional la calendarul islamic sau la o dată importantă dacă e relevant.",
+
+  "promptFaithTrust": "Scrie o scurtă reflecție islamică despre Iman (credință) și încredere în planul lui Allah (Tawakkul). Înrădăcinează-o în Coran, exemplul Profetului Muhammad și credința Companionilor. Variază tema de fiecare dată: încredere în Allah în incertitudine, rezemare pe înțelepciunea divină, răbdare în încercări, sau perseverență liniștitoare în viața de zi cu zi. Include un verset Coranic și un pas cinstit pentru azi extras din înțelepciunea spirituală islamică.",
+
+  "promptPrayerReflection": "Scrie o scurtă reflecție islamică asupra rugăciunii înrădăcinată în Salah, Dua sau Dhikr. Variază forma de fiecare dată: o amintire a dimineții sau serii (Adhkar), reflecție asupra celor cinci rugăciuni zilnice, contemplare a unui verset Coranic, sau o rugăciune inimă. Include un verset Coranic și numește pe scurt forma de rugăciune folosită.",
+
+  "promptHopeDifficultTimes": "Scrie o reflecție islamică despre răbdare (Sabr) și speranță în vremuri grele. Trage din învățăturile Coranice despre încercări, perseverența Profeților și mila lui Allah în momente dificile. Variază unghiul de fiecare dată. Include un verset Coranic și o perspectivă încurajatoare din tradiția islamică.",
+
+  "promptForgiveness": "Scrie o reflecție islamică înțeleaptă despre căutarea iertării (Tawbah) și mila lui Allah. Trage din învățăturile Coranice despre pocăință, compasiunea lui Allah și exemplul iertător al Profetului Muhammad. Variază tema: întoarcere la Allah, iertare către alții, vindecare în relații, sau credință în mila lui Allah după greșeli. Include un verset Coranic și un pas concret.",
+
+  "promptLoveCompassion": "Scrie o scurtă reflecție islamică despre milă (Rahmah) și compasiune în viața de zi cu zi. Trage din exemplul Profetului Muhammad, conceptul de Ihsan (excelență) și învățăturile islamice despre bunătate către familie, vecini și vulnerabili. Include un verset Coranic și un mic act de compasiune de practicat astazi.",
+
+  "promptStrengthCourage": "Scrie o reflecție islamică despre putere bazată pe credință și curaj. Trage din exemple ale Profeților, comunității musulmane timpurii și credincioșilor care au rămas fermi în greutăți. Variază tema de fiecare dată: curaj prin credință, putere în rugăciune, încredere în Allah în timp de frică, sau rezistență în dificultăți. Include un verset Coranic și o scurtă rugăciune sau frază de amintire.",
+
+  "promptGratitude": "Scrie o reflecție islamică despre recunoștință (Shukr) către Allah. Înrădăcinează-o în învățăturile Coranice și în tradiția profetică. Variază unghiul: recunoștință în greutăți, apreciere pentru binecuvântări mici, început al zilei cu laude lui Allah, sau recunoaștere a ghidării lui Allah în viața de zi cu zi. Include un verset Coranic și o practică de recunoștință.",
+
+  "promptPurposeCalling": "Scrie o reflecție islamică despre scopul vieții în adorarea lui Allah și trăirea cu dreptate. Trage din învățăturile Coranice despre scop, servire altora și folosire a darurilor tale pentru bine. Variază tema de fiecare dată: servire familiei și comunității, căutare ghidării prin Istikhara, viață cu intenție, sau găsire de sens în munca ordinară. Include un verset Coranic și două întrebări reflective.",
+
+  "promptFamilyRelationships": "Scrie îndrumări islamice înțelepte asupra familiei și relațiilor înrădăcinată în învățăturile Coranice și exemplul Profetului Muhammad. Variază tema de fiecare dată: bunătate în viața familiei, răbdare în conflict, onorare părinților, creștere copiilor în credință, sau întărire căsniciei. Include un verset Coranic și o practică relațională de încercat.",
+
+  "promptPeaceAnxietyRelief": "Scrie o reflecție islamică liniștitoare despre găsire pace interioară prin amintire lui Allah (Dhikr) și încredere în planul Său. Trage din învățăturile Coranice despre liniștea inimii, rugăciune și supunere voinței lui Allah. Variază abordarea de fiecare dată și include un verset Coranic și o simplă practică de înrădăcinare din tradiția islamică.",
+
+  "promptWisdomOfJesus": "Scrie o bucată scurtă de înțelepciune din Profeții așa cum se învață în Islam. Trage din Coran sau Hadith și explică pe scurt cum au înțeles învățații islamici învățătura. Variază subiectul de fiecare dată: caracter, răbdare, umilință, credință sau conduită zilnică. Include o referință Coranică sau Hadith și o aplicare practică.",
+
+  "promptHumilityCharacter": "Scrie o reflecție islamică despre umilință (Tawadhu) și caracter bun (Akhlaq). Trage din învățăturile Coranice, exemplul Profetului Muhammad și tradiția dezvoltării caracterului islamic. Variază tema: umilință în conducere, recunoaștere greșeli, tratare altora cu respect, sau creștere spirituală prin auto-reflecție. Include un verset Coranic și o obicei de practicat.",
+
+  "promptOvercomingTemptation": "Scrie o reflecție islamică asupra rezistenței la ispită și rămânerii pe cărări dreapta. Trage din ghidarea Coranică, amintire lui Allah (Dhikr), rugăciune (Salah) și exemple de credincioși care au învins greutăți. Variază unghiul de fiecare dată. Include un verset Coranic și o strategie practică pentru următoarele 24 de ore.",
+
+  "promptEveningReflection": "Scrie o reflecție islamică pașnică pentru seară înrădăcinată în tradiția amintirii serii (Adhkar al-Masaa'). Încurajează recunoștință, auto-reflecție (Muhasabah) și încredere în Allah înainte de odihnă. Include 3–5 scurte indicații de reflecție despre zi, o scurtă rugăciune de închidere și un verset Coranic.",
+
+  "wordCount": "{count, plural, one {{count} cuvânt} other {{count} cuvinte}}",
+
+  "optionsCta": "Opțiuni",
+  "newCta": "Nou",
+  "actionsTitle": "Ce ai vrea să faci?",
+  "copy": "Copiază",
+  "share": "Partajează",
+  "close": "Închide",
+  "copiedToast": "Copiat în clipboard",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Linie de subiect email / partajare incluzând eticheta categoriei.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Îndrumări Zilnice" }
+    }
+  },
+
+  "regenerateErrorTitle": "Nu s-a putut genera un răspuns nou",
+  "regenerateErrorBody": "{error}\n\nVrei să încerci din nou?",
+  "@regenerateErrorBody": {
+    "description": "Afișat când regenerarea unui răspuns AI eșuează.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Eroare de rețea" }
+    }
+  },
+
+  "cancelCta": "Anulează",
+  "retryCta": "Încearcă din nou",
+
+  "authTitle": "Creează-ți contul",
+  "continueAsGuest": "Continuă ca oaspete",
+  "signInGoogle": "Conectează-te cu Google",
+  "signInApple": "Conectează-te cu Apple",
+  "signInEmail": "Conectează-te cu Email",
+  "upgradeWithApple": "Continuă cu Apple",
+  "mustAccept": "Trebuie să accepți Termenii și să recunoști Politica de Confidențialitate.",
+  "termsLabel": "Accept Termenii de Serviciu",
+  "privacyLabel": "Am citit Politica de Confidențialitate",
+  "marketingOptIn": "Accept să primesc știri și oferte",
+  "openTerms": "Termenii de Serviciu",
+  "openPrivacy": "Politica de Confidențialitate",
+
+  "accountSection": "Cont",
+  "guestMode": "Mod oaspete",
+  "signedIn": "Conectat",
+  "upgradeHint": "Salvează reflecțiile tale pe mai multe dispozitive prin crearea unui cont.",
+  "upgradeWithGoogle": "Continuă cu Google",
+  "signOut": "Deconectare",
+
+  "snackUpgraded": "Cont actualizat cu Google ✅",
+  "snackSignedIn": "Conectat cu Google ✅",
+  "snackSignedOut": "Deconectat",
+  "snackSignedInApple": "Conectat cu Apple ✅",
+  "snackSignedInGoogle": "Conectat cu Google ✅",
+  "snackUpgradedApple": "Cont actualizat cu Apple ✅",
+  "snackUpgradedGoogle": "Cont actualizat cu Google ✅",
+
+  "historyTitle": "Reflecții anterioare",
+  "historyOpenCta": "Reflecții anterioare",
+  "historyEmpty": "Nici o reflecție salvată încă.",
+  "historyDeleteTitle": "Șterge reflecția?",
+  "historyDeleteBody": "Aceasta va elimina permanent articolul selectat.",
+  "deleteCta": "Șterge",
+
+  "historyButton": "Reflecții Anterioare",
+  "historyEmptyTitle": "Nici o reflecție încă",
+  "historyEmptyBody": "Generează ceva mai întâi — elementele tale salvate vor apărea aici.",
+  "historyDelete": "Șterge",
+
+  "footerTitle": "Cu Iman, sabr și rahma.",
+  "footerSubtitle": "Pas după pas.",
+  "genericErrorSnack": "Ceva a mers greșit — încearcă din nou într-o clipă.",
+
+  "upgradeAccountCta": "Salvează reflecțiile tale pe mai multe dispozitive – creează un cont",
+  "deleteAccount": "Șterge contul",
+  "exportData": "Exportă datele mele",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Etichetă înainte de afișarea UID-ului intern Firebase.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Ușor tigru 🐯\nIA are nevoie de o clipă înainte de următoarea…",
+  "rateDailyLimit": "Ai epuizat reflecțiile pentru acum.\nObtine mai multe reflecții sau upgrade la Barakah.",
+  "rateCreditsExhausted": "Ți-ai folosit toate reflecțiile.\nReincarc sau upgrade la Barakah pentru a continua.",
+  "rateGraceReflectionsExhausted": "Ai epuizat reflecțiile pentru acum.\nObtine mai multe reflecții sau upgrade la Barakah.",
+  "rateReflectionsExhausted": "Ți-ai folosit toate reflecțiile.\nReincarc sau upgrade la Barakah pentru a continua.",
+
+  "blessedDescription": "Barakah deblochează funcții premium, categorii viitoare și un ecuson special.",
+  "championDescription": "Barakah deblochează funcții premium, categorii viitoare și un ecuson special.",
+
+  "ratePlanExhausted": "Reflecțiile tale sunt goale acum. Plan: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Afișat când reflecțiile utilizatorului sunt epuizate, dar motivul este generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard sau Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Nu s-a putut verifica reflecțiile tale: {message}",
+  "@rateCheckFailed": {
+    "description": "Afișat când funcția callable returnează un mesaj de eroare.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Eroare de rețea" }
+    }
+  },
+
+  "rateCheckGenericError": "Ceva a mers greșit în timp ce îți verificam reflecțiile.",
+  "aiFallbackGeneric": "Ceva a mers greșit — încearcă din nou într-o clipă.",
+
+  "limitSectionTitle": "Reflecții",
+  "limitTodayLabel": "Utilizare",
+  "limitCreditsLabel": "Reflecții rămase: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plan: {plan}",
+  "@limitPlanLabel": {
+    "description": "Afișează numele planului de abonament curent.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard sau Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Se încarcă…",
+  "limitLoadingLabelDescription": "Afișat în cardul reflecțiilor în timp ce statisticile de utilizare sunt preluate.",
+
+  "aiLimitTitle": "Reflecții",
+  "aiLimitSubtitle": "Fiecare răspuns folosește 1 reflecție. Standard include reflecții inițiale. Barakah deblochează categorii premium și permite reîncărcări.",
+  "aiLimitProgressLabel": "{used} / {total} reflecții folosite",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Reflecții",
+  "reflectionsUsageLabel": "Utilizare",
+  "reflectionsRemainingLabel": "Reflecții rămase: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plan: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Afișează numele planului curent.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard sau Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Se încarcă…",
+  "reflectionsLoadingLabelDescription": "Afișat în timp ce statisticile reflecțiilor sunt preluate.",
+
+  "reflectionsTitle": "Reflecții",
+  "reflectionsSubtitle": "Fiecare răspuns folosește 1 reflecție. Standard include reflecții inițiale. Barakah deblochează categorii premium și permite reîncărcări.",
+  "reflectionsProgressLabel": "{used} / {total} reflecții folosite",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Șterge contul",
+  "settingsDeleteDescription": "Șterge permanent contul și toate datele asociate.",
+  "settingsDeleteButtonLabel": "Șterge-mi contul",
+  "settingsDeleteDialogTitle": "Ștergi contul?",
+  "settingsDeleteDialogBody": "Această acțiune este permanentă și nu poate fi anulată.\n\nToate conversațiile, istoricul și informațiile contului vor fi șterse.",
+  "settingsDeleteDialogCancel": "Anulează",
+  "settingsDeleteDialogConfirm": "Șterge",
+
+  "settingsFreeLimitUsedTitle": "Reflecții inițiale folosite",
+  "settingsFreeLimitUsedDescription": "Reflecțiile inițiale pentru acest dispozitiv au fost folosite. Upgrade la Barakah sau cumpără mai multe reflecții pentru a continua.",
+
+  "settingsStarterReflectionsUsedTitle": "Reflecții inițiale folosite",
+  "settingsStarterReflectionsUsedDescription": "Reflecțiile inițiale pentru acest dispozitiv au fost folosite. Upgrade la Barakah sau cumpără mai multe reflecții pentru a continua.",
+
+  "deviceBoundError": "Acest dispozitiv este deja legat de alt cont. Conectează-te cu contul original.",
+
+  "premiumTitle": "Modul Barakah",
+  "premiumSubtitleBasic": "Deblochează experiența completă Nuria.",
+  "premiumSubtitleChampion": "Ești în Barakah. Ai nevoie de mai multe reflecții?",
+
+  "premiumCurrentPlan": "Plan curent: {plan}",
+  "premiumCreditsStatus": "Reflecții: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Cumpărăturile nu sunt disponibile acum.",
+  "premiumSignInToPurchase": "Conectează-te pentru a cumpăra reflecții sau a debloca Barakah.",
+
+  "premiumRestorePurchases": "Restabilește achizițiile",
+  "premiumProcessing": "Se procesează…",
+  "premiumRestoreHintTitle": "Ai cumpărat deja Barakah sau reflecții pe acest dispozitiv sau altul?",
+  "premiumRestoreHintBody": "Restabilește-ți achizițiile dacă nu se afișează.",
+
+  "premiumBuyCredits200": "Cumpără 200 reflecții",
+  "premiumBuyCredits400": "Cumpără 400 reflecții",
+  "premiumBecomeChampionOneTime": "Upgrade la modul Barakah",
+  "premiumChampionHint": "Ca Barakah, poți reîncărca cu reflecții suplimentare oricând ai nevoie.",
+
+  "premiumUpgradeCta": "Upgrade",
+  "premiumRequiredForCategory": "Această categorie este disponibilă doar pentru utilizatorii Barakah. Upgrade în Setări pentru a debloca tot conținutul premium.",
+  "premiumBenefitsBasic": "Deblochează Barakah pentru a obține reflecții suplimentare, acces la categorii premium și continuă oricând ai nevoie de îndrumări.",
+  "premiumBenefitsChampion": "Ești în modul Barakah. Dacă ți se termină, adaugă reflecții suplimentare și continuă fără întreruperi.",
+  "premiumButtonBecomeChampion": "Deblochează Barakah",
+  "premiumButtonTopup1000": "Adaugă 1000 reflecții",
+  "premiumChampionBadge": "Barakah activ",
+  "premiumLoadingStore": "Se încarcă magazinul…",
+
+  "blessedTitle": "Modul Barakah",
+  "blessedSubtitleGrace": "Deblochează experiența completă Nuria.",
+  "blessedSubtitleBlessed": "Ești în Barakah. Ai nevoie de mai multe reflecții?",
+
+  "blessedCurrentPlan": "Plan curent: {plan}",
+  "blessedReflectionsStatus": "Reflecții: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Cumpărăturile nu sunt disponibile acum.",
+  "blessedProductNotAvailable": "Acest produs nu este disponibil în magazin încă. Încearcă din nou mai târziu.",
+  "blessedPurchaseError": "Ceva a mers greșit cu cumpărarea. Încearcă din nou.",
+  "blessedSignInToPurchase": "Conectează-te pentru a cumpăra reflecții sau a debloca Barakah.",
+
+  "blessedRestorePurchases": "Restabilește achizițiile",
+  "blessedProcessing": "Se procesează…",
+  "blessedRestoreHintTitle": "Ai cumpărat deja Barakah sau reflecții pe acest dispozitiv sau altul?",
+  "blessedRestoreHintBody": "Restabilește-ți achizițiile dacă nu se afișează.",
+
+  "blessedBuyReflections100": "Adaugă 100 reflecții",
+  "blessedBuyReflections200": "Cumpără 200 reflecții",
+  "blessedBuyReflections400": "Cumpără 400 reflecții",
+  "blessedBecomeBlessedOneTime": "Upgrade la Barakah",
+  "blessedTopupHint": "Ca Barakah, poți reîncărca cu reflecții suplimentare oricând ai nevoie.",
+
+  "blessedUpgradeCta": "Upgrade",
+  "blessedRequiredForCategory": "Această categorie este disponibilă doar pentru utilizatorii Barakah. Upgrade în Setări pentru a debloca tot conținutul premium.",
+  "blessedFeatureLocked": "Deblochează Barakah pentru a accesa această funcție.",
+  "lockedCategoriesHint": "Unele categorii sunt rezervate pentru membrii Barakah. Deblochează-le pentru a explora fiecare reflecție pe parcursul călătoriei tale.",
+  "blessedBenefitsGrace": "Deblochează Barakah pentru a obține reflecții suplimentare, acces la categorii premium și continuă oricând ai nevoie de îndrumări.",
+  "blessedBenefitsBlessed": "Ești în modul Barakah. Dacă ți se termină, adaugă reflecții suplimentare și continuă fără întreruperi.",
+  "blessedButtonBecomeBlessed": "Deblochează Barakah",
+  "blessedButtonTopup1000": "Adaugă 1000 reflecții",
+  "blessedBadge": "Barakah activ",
+  "blessedLoadingStore": "Se încarcă magazinul…",
+
+  "freePlanBlockedTitle": "Ți-ai folosit reflecțiile inițiale",
+  "freePlanBlockedBody": "Ești pe planul Standard cu reflecții inițiale și ai atins limita. Pentru a continua — și debloca categoriile premium — upgrade la Barakah.",
+  "freePlanBlockedCtaGoPremium": "Vezi opțiunile Barakah mai jos",
+
+  "graceBlockedTitle": "Ți-ai folosit reflecțiile inițiale",
+  "graceBlockedBody": "Ești pe planul Standard cu reflecții inițiale și ai atins limita. Pentru a continua — și debloca categoriile premium — upgrade la Barakah.",
+  "graceBlockedCtaGoBlessed": "Vezi opțiunile Barakah mai jos",
+
+  "rateGuestMustSignIn": "Conectează-te pentru a folosi Nuria și reflecțiile tale.",
+
+  "guestNoCreditsTitle": "Mod oaspete",
+  "guestNoCreditsBody": "Ca oaspete poți răsfoi aplicația, dar nu poți folosi reflecții. Conectează-te mai târziu în Setări pentru a folosi reflecții și debloca cumpărături.",
+
+  "guestNoReflectionsTitle": "Mod oaspete",
+  "guestNoReflectionsBody": "Ca oaspete poți răsfoi aplicația, dar nu poți folosi reflecții. Conectează-te mai târziu în Setări pentru a folosi reflecții și debloca cumpărături.",
+
+  "guestDialogContinue": "Continuă",
+  "guestDialogLoginInstead": "Conectează-te în schimb",
+
+  "optionalLabel": "opțional",
+
+  "accountDeleteSuccessTitle": "Cont șters",
+  "accountDeleteSuccessBody": "Contul și datele asociate au fost șterse cu succes.",
+  "accountDeleteSuccessClose": "Închide",
+  "accountDeleteErrorTitle": "Nu s-a putut șterge contul",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Re-autentificarea a fost anulată. Conectează-te din nou și încearcă ștergerea.",
+  "accountDeleteReauthRequired": "Ștergerea contului necesită o conectare recentă. Deconectează-te, conectează-te din nou și încearcă.",
+  "settingsDeletePermanentWarning": "Această acțiune este permanentă și nu poate fi anulată. Toate datele asociate contului vor fi șterse.",
+
+  "dailyGraceTitle": "Îndrumări Zilnice",
+  "dailyGraceScriptureLabel": "VERSUL ZILEI",
+  "dailyGraceSaintLabel": "CĂRTURAR AL SĂPTĂMÂNII",
+  "dailyGraceReflectionLabel": "REFLECȚIE SEARA",
+  "dailyGraceCopiedToast": "Verset copiat în clipboard",
+
+  "dailyScripture0Text": "Într-adevăr, cei drepți vor fi în grădini și râuri, în locuri de onoare lângă un Rege Puternic.",
+  "dailyScripture0Ref": "Coran 54:54-55",
+  "dailyScripture1Text": "Și nu te-am trimis decât ca milă pentru lumi.",
+  "dailyScripture1Ref": "Coran 21:107",
+  "dailyScripture2Text": "Oare nu-i destul lui Allah pentru robul Său? Și totuși te-au frica cu alții lângă El.",
+  "dailyScripture2Ref": "Coran 39:36",
+  "dailyScripture3Text": "Poate urești o chestiune și ea este bună pentru tine; și poate iubești o chestiune și ea este rea pentru tine. Și Allah știe, în timp ce tu nu știi.",
+  "dailyScripture3Ref": "Coran 2:216",
+  "dailyScripture4Text": "Într-adevăr, Allah este cu cei răbdători.",
+  "dailyScripture4Ref": "Coran 2:153",
+  "dailyScripture5Text": "Deci ține-Mă minte; Mă voi ține minte pe tine. Și fii-Mi recunoscător și nu Mă nega.",
+  "dailyScripture5Ref": "Coran 2:152",
+  "dailyScripture6Text": "Într-adevăr, cei mai nobili dintre voi în privința lui Allah sunt cei mai drepți dintre voi.",
+  "dailyScripture6Ref": "Coran 49:13",
+  "dailyScripture7Text": "Și Domnul tău a decretat că să nu adorezi decât pe El, și să fii duțios părinților tăi.",
+  "dailyScripture7Ref": "Coran 17:23",
+  "dailyScripture8Text": "Într-adevăr, cu greutatea vine ușurință.",
+  "dailyScripture8Ref": "Coran 94:6",
+  "dailyScripture9Text": "Și El este cu tine oriunde ești tu. Și Allah, din ceea ce faci, vede tot.",
+  "dailyScripture9Ref": "Coran 57:4",
+  "dailyScripture10Text": "Allah nu pune pe o suflet povară peste ceea ce poate purta.",
+  "dailyScripture10Ref": "Coran 2:286",
+  "dailyScripture11Text": "Și cine se sprijină pe Allah — atunci El îi este destul.",
+  "dailyScripture11Ref": "Coran 65:3",
+  "dailyScripture12Text": "Mila Mea acoperă toate lucrurile.",
+  "dailyScripture12Ref": "Coran 7:156",
+  "dailyScripture13Text": "Și când robii Mei te întreabă despre Mine — într-adevăr eu sunt aproape. Îi răspund celui care se roagă când se roagă Mie.",
+  "dailyScripture13Ref": "Coran 2:186",
+  "dailyScripture14Text": "Oricine face dreapta, fie bărbat, fie femeie, în timp ce este credinciosul — cu siguranță îl vom face pe el să trăiască o viață bună.",
+  "dailyScripture14Ref": "Coran 16:97",
+  "dailyScripture15Text": "Într-adevăr, Allah nu va schimba starea unui popor până când nu schimbă ceea ce este în ei înșiși.",
+  "dailyScripture15Ref": "Coran 13:11",
+  "dailyScripture16Text": "Deci nu te slabi și nu te-ai întristă, și vei fi superior dacă ești credincioși adevărați.",
+  "dailyScripture16Ref": "Coran 3:139",
+  "dailyScripture17Text": "O robii Mei care ați depășit voi înșivă, nu-i deznădăjduiți de mila lui Allah. Într-adevăr, Allah iartă toate păcatele.",
+  "dailyScripture17Ref": "Coran 39:53",
+  "dailyScripture18Text": "Și oricine se teme de Allah — El va face pentru el o cale de ieșire și îl va aproviziona din unde nu se așteaptă.",
+  "dailyScripture18Ref": "Coran 65:2-3",
+  "dailyScripture19Text": "Nu pierde nădejdea în mila lui Allah.",
+  "dailyScripture19Ref": "Coran 12:87",
+  "dailyScripture20Text": "Și cu siguranță am ușurat Coranul pentru a fi amintit. Deci este cineva care va fi pios?",
+  "dailyScripture20Ref": "Coran 54:17",
+  "dailyScripture21Text": "Și te-a găsit rătăcitor și te-a ghidat.",
+  "dailyScripture21Ref": "Coran 93:7",
+  "dailyScripture22Text": "Și Domnul tău spune: Roagă-te Mie; Ți voi răspunde.",
+  "dailyScripture22Ref": "Coran 40:60",
+  "dailyScripture23Text": "Și cu sigurante, am onoran pe copiii lui Adam.",
+  "dailyScripture23Ref": "Coran 17:70",
+  "dailyScripture24Text": "Și caută ajutorul prin răbdare și rugăciune.",
+  "dailyScripture24Ref": "Coran 2:45",
+  "dailyScripture25Text": "Oricine face greutatea unui atom de bine o va vedea.",
+  "dailyScripture25Ref": "Coran 99:7",
+  "dailyScripture26Text": "Fără îndoială, ajutorul lui Allah este aproape.",
+  "dailyScripture26Ref": "Coran 2:214",
+  "dailyScripture27Text": "Și oricine este recunoscător — recunoștința lui este doar pentru beneficiul lui.",
+  "dailyScripture27Ref": "Coran 31:12",
+
+  "dailyReflection0": "Pe măsură ce această zi se închide, consideră un moment în care mila lui Allah a fost evidentă.",
+  "dailyReflection1": "Aduce în fața lui Allah orice te-a greu azi.",
+  "dailyReflection2": "Numește o binecuvântare din ziua aceasta și exprimă recunoștință lui Allah.",
+  "dailyReflection3": "Odihnește-te în știința că ești ținut în grija infinită a lui Allah.",
+  "dailyReflection4": "Reflectează asupra locului în care ți s-a apelat să arați compasiune și bunătate azi.",
+  "dailyReflection5": "Lasă deoparte ceea ce nu poți controla și încrede-te în planul perfect al lui Allah.",
+  "dailyReflection6": "Pe măsură ce ziua se apropie de final, primește pace în amintirea lui Allah.",
+  "dailyReflection7": "Consideră cum ți-ai onorat rugăciunile azi și mulțumește-i lui Allah pentru fiecare una.",
+  "dailyReflection8": "Reflectează asupra unui moment în care răbdarea (Sabr) a ghidat acțiunile tale azi.",
+  "dailyReflection9": "Cere iertare pentru orice scurtătură azi — mila lui Allah este nemărginită.",
+  "dailyReflection10": "Numește o persoană căreia i-ai arătat bunătate azi și fă dua pentru ea.",
+  "dailyReflection11": "Șezi cu recunoștință: ce a oferit Allah azi pe care nu l-ai cerut?",
+  "dailyReflection12": "Reflectează asupra unui verset din Coran care vorbește despre locul în care ești tu acum.",
+  "dailyReflection13": "Consideră cum ți-ai folosit timpul azi — și oferi mâine lui Allah.",
+  "dailyReflection14": "Odihnește-te știind că orice greutate a venit azi, Allah a fost cu tine prin ea.",
+  "dailyReflection15": "Gândește-te la un mod în care ți-ai servit familia sau comunitatea azi pentru Allah.",
+  "dailyReflection16": "Pe măsură ce noaptea se lasă, fă Tawbah — Allah iubește pe cei care se întorc la El.",
+  "dailyReflection17": "Reflectează asupra frumuseții pe care Allah o pusese în ziua ta, oricât de mică.",
+  "dailyReflection18": "Consideră ce ai învățat azi și cum te apropie mai mult de Allah.",
+  "dailyReflection19": "Lasă grijile zilei să se odihnească cu Allah — El poartă ceea ce tu nu poți.",
+  "dailyReflection20": "Gândește-te la un moment azi în care ai fi putut alege mai bine și învață din el ușor.",
+  "dailyReflection21": "Fă dua pentru cei care suferă — rugăciunea ta este un dar pentru ei.",
+  "dailyReflection22": "Adu aminte o binecuvântare pe care o ignori adesea și ia o clipă pentru a-i mulțumi lui Allah.",
+  "dailyReflection23": "Reflectează asupra intențiilor tale azi — au fost pentru Allah? Mâine, început din nou.",
+  "dailyReflection24": "Pe măsură ce noaptea se liniștește, ascultă apropierea lui Allah în liniștea asta.",
+  "dailyReflection25": "Consideră unde ai găsit putere azi — acea putere vine de la Allah.",
+  "dailyReflection26": "Numește o chestiune pe care o vei face mâine, pentru Allah, pe care nu ai făcut-o azi.",
+  "dailyReflection27": "Pe măsură ce te pregătești pentru odihnă, încredințează sufletul la Allah — El este cel mai bun gardian.",
+
+  "dailyRoleModel0": "Profetul Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Profetul Ibrahim (AS)",
+  "dailyRoleModel44": "Profetul Musa (AS)",
+  "dailyRoleModel45": "Profetul Isa (AS)",
+  "dailyRoleModel46": "Profetul Yusuf (AS)",
+  "dailyRoleModel47": "Profetul Dawud (AS)",
+  "dailyRoleModel48": "Profetul Sulayman (AS)",
+  "dailyRoleModel49": "Profetul Nuh (AS)",
+  "dailyRoleModel50": "Profetul Yunus (AS)",
+  "dailyRoleModel51": "Profetul Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Permite Nuria să-și folosească locația pentru direcția Qiblei și orele de rugăciune",
+  "locationConsentHint": "Utilizat doar pentru aceste funcții. Locația ta nu este niciodată partajată sau stocată.",
+
+  "askPageTitle": "Întreabă Nuria",
+  "askPageDescription": "Întreabă orice despre credință, rugăciune, viață sau practică islamică și primește îndrumări înrădăcinată în Coran și Sunnah.",
+  "askPageInputHint": "Scrie-ți întrebarea aici…",
+  "askPageSubmitCta": "Întreabă",
+  "askPageInputEmptyError": "Te rog scrie mai întâi o întrebare.",
+  "askResultYourQuestion": "Întrebarea ta",
+
+  "guidancePageTitle": "Rugăciune și Îndrumări",
+  "qiblaFacingMecca": "Către Makkah",
+  "qiblaCompassInstruction": "Rotește-ți telefonul până când acul de aur arată în sus.\nAcea direcție indică Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Semnalul GPS este slab. Ieși afară și apasă Încearcă din nou.",
+  "qiblaRetry": "Încearcă din nou",
+  "qiblaTitle": "Direcția Qiblei",
+  "qiblaDistanceLabel": "{km} km până la Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Locație necesară",
+  "qiblaLocationNeededBody": "Permite accesul la locație pentru ca Nuria să calculeze direcția Caabei în Makkah de la oriunde ești tu.",
+  "qiblaOpenSettings": "Deschide Setări",
+  "qiblaCompassLoading": "Căutând poziția ta…",
+  "qiblaTowardMecca": "Către Makkah",
+
+  "prayerTimesTitle": "Orele de Rugăciune",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Locație necesară",
+  "prayerTimesLocationNeededBody": "Permite accesul la locație pentru ca Nuria să calculeze orele exacte de rugăciune pentru orașul tău.",
+  "prayerTimesNextLabel": "Următoarea",
+  "prayerTimesDoneLabel": "Gata",
+
+  "monthlyPrayerTimesTitle": "Orele Lunare de Rugăciune",
+  "monthlyPrayerTimesViewButton": "Vezi Luna Completă",
+  "monthlyPrayerTimesNextMonth": "Luna viitoare",
+  "monthlyPrayerTimesDayHeader": "Ziua",
+
+  "sharePrayerTimes": "Partajează orele de rugăciune",
+
+  "prayerNotificationsTitle": "Reamintiri de Rugăciune",
+  "prayerNotificationsDescription": "Primește o reamintire blândă înainte de fiecare oră de rugăciune pentru a-ți ajuta să rămâi conectat pe tot parcursul zilei.",
+  "prayerNotificationsEnable": "Activează reamintiri de rugăciune",
+  "prayerNotificationsOpenSettings": "Deschide setările de notificări",
+  "prayerNotificationsDenied": "Notificările sunt dezactivate",
+  "prayerNotificationsDeniedHint": "Mergi la Setări și permite notificările pentru Nuria pentru a primi reamintiri de orele de rugăciune.",
+
+  "notificationsConsentLabel": "Permite notificări pentru orele de rugăciune",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Rugăciunea Făgetului",
+  "prayerNotifBodyFajr": "Cea mai bună dintre rugăciuni este rugăciunea făgetului. Ridică-te, purifică-te și stai în fața lui Allah.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Rugăciunea Amiezii",
+  "prayerNotifBodyDhuhr": "Oprește-te din ceea ce faci și întoarce-te la Allah. A venit ora Dhuhr.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Rugăciunea După-amiezii",
+  "prayerNotifBodyAsr": "Păzește rugăciunea din mijloc. A venit ora Asr — nu o lăsa să treacă.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Rugăciunea Apusului",
+  "prayerNotifBodyMaghrib": "Soarele a apus. Oferi Maghrib și fii recunoscător lui Allah pentru această zi.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Rugăciunea Nopții",
+  "prayerNotifBodyIsha": "Încheie ziua ta cu amintire lui Allah. Hayya 'alal falah — vino la izbândă.",
+
+  "outOfReflectionsBannerText": "Ți-ai folosit toate reflecțiile",
+  "outOfReflectionsBannerCta": "Obține mai multe",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Atinge cercul pentru a număra",
+  "dhikrResetButton": "Resetare",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Ai completat 99 de amintituri ale lui Allah. Să fie o lumină pentru inima ta.",
+
+  "disclaimerTitle": "Despre îndrumările acestei aplicații",
+  "disclaimerBody": "Nuria oferă reflecții islamice, reamintiri și conținut spiritual pentru a susține călătoria ta personală de credință. Acest conținut este oferit doar în scopuri informative și inspiraționale.\n\nNuria nu înlocuiește învățăturile calificate.\nÎndrumările din această aplicație nu sunt un substitut pentru un învățat islamic calificat, imam, mufti sau profesor cu pregătire teologică. Dacă ai întrebări despre hotărârile religioase, aspecte halal și haram, sau obligații religioase personale, te rugăm să ceri sfaturi de la o autoritate religioasă calificată în comunitatea ta.\n\nAceastă aplicație nu emite hotărâri religioase.\nNuria nu face determinări autoritare în probleme de fiqh (jurisprudență islamică) sau obligații religioase personale. Nimic din aceasta nu trebuie tratat ca fatwa sau instrucțiune religioasă obligatorie.\n\nInterpretările învățate variază.\nIslamul cuprinde o bogată diversitate de tradiții, școli de gândire (madhabs) și opinii învățate. Conținutul din această aplicație reflectă perspective generale și poate să nu reprezinte în mod egal fiecare tradiție sau școală.\n\nComunitatea contează.\nAceastă aplicație urmărește să-ți încurajeze implicarea în tradiții de credință, respectând profund rolul vital al moschei locale, imamului și comunității religioase. Te încurajez să rămâi conectat și să înveți de la învățații calificați din apropiere.",
+  "disclaimerClose": "Înțeleg",
+  "disclaimerInfoTooltip": "Despre îndrumările acestei aplicații",
+  "disclaimerSettingsSubtitle": "Doar în scopuri informative generale. Atinge pentru a citi disclaimer-ul complet.",
+  "disclaimerSectionHeader": "Disclaimer privind îndrumările"
+}

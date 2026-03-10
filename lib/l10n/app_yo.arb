@@ -1,0 +1,585 @@
+{
+  "@@locale": "yo",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Yan awọn ede",
+  "languageSelectSub": "O le yi eyi pada niwaju ninu Awọn eto",
+  "actionContinue": "Tẹle",
+  "languageSuggestedHeader": "A gbe han",
+  "languageAllHeader": "Gbogbo awọn ede",
+  "languageSuggestedBadge": "A gbe han",
+  "languageSearchHint": "Wa…",
+
+  "planGrace": "Olutọju Ipilẹ",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Itọsọna Ojo-ojo",
+  "categoryFaithTrust": "Iman ati Igbẹkẹle",
+  "categoryPrayerReflection": "Iponju Adura",
+  "categoryHopeDifficultTimes": "Suburu ati Aniyan",
+  "categoryForgiveness": "Gba Ẹtọ",
+  "categoryLoveCompassion": "Iyonu ati Iferan",
+  "categoryStrengthCourage": "Imọlẹ Iman",
+  "categoryGratitude": "Okan Dupe",
+  "categoryPurposeCalling": "Idi Ise Aye",
+  "categoryFamilyRelationships": "Ila Ebi",
+  "categoryPeaceAnxietyRelief": "Alafiaara Inu",
+  "categoryWisdomOfJesus": "Ogbon Nabii",
+  "categoryHumilityCharacter": "Ewa Ẹniyan",
+  "categoryOvercomingTemptation": "Kọ Itẹ",
+  "categoryEveningReflection": "Iponju Alẹ",
+  "categoryCustom": "Irohin Ti ara ẹni",
+  "dhikrMeaningSubhanallah": "Iyin fun Allah",
+  "dhikrMeaningAlhamdulillah": "Gbogbo iyin ni fun Allah",
+  "dhikrMeaningAllahuAkbar": "Allah ni Olokiki julo",
+  "quranVerseHeartAtRest": "Nítorí náà, ní ìrántí Allah, àwọn ọkàn ń rí ìsinmi.",
+
+  "promptHint": "Tẹ ẹka kan para ni itọsọna Iman ati iponju",
+
+  "currentLanguage": "Ede ti a lo",
+  "settingsLanguage": "Awọn eto ede",
+  "settingsTitle": "Awọn eto",
+  "chooseLanguage": "Yan ede rẹ",
+  "continueCta": "Tẹle",
+
+  "promptDailyGuidance": "Kọ itọsọna ojo-ojo ti o kurẹ, oloro, ti o ni ipilẹ ninu Iman Sunni — ti o ju ipilẹ ninu Qur'anu, Hadisi, ati ako ẹkọ Nabii Muhammad. Yan ọjọ tuntun kọọkan: ẹwa ewa Iman, otitọ ninu Sunnah, ogbon lati ọwọ Sahaba, tabi ise ti a gbe jade ninu ẹkọ Iman. Pele kan Adura Qur'anu (Surah:Ayah) ati iponju ọkọọkan - mejeeji ọkọ aiye igba ati irosun. Bawo ni o le ti sokan si Akalejọ Iman tabi ojo pataki ti o ba jẹ ohun ti o yẹ.",
+
+  "promptFaithTrust": "Kọ iponju Iman nipa Iman ati igbẹkẹle ninu ọna Allah (Tawakkul). Ju ipilẹ ninu Qur'anu, apẹrẹ Nabii Muhammad, ati Iman Sahaba. Yi ite kọọkan: igbẹkẹle Allah ni akoko airotẹlẹ, gbigba asiko Allah, suburu ninu idipọn, tabi suburu airotẹlẹ ninu ise ojo-ojo. Pele kan Adura Qur'anu ati ise ti a ba le ṣe loo lati ọwọ ogbon Iman.",
+
+  "promptPrayerReflection": "Kọ iponju adura ti o ju ipilẹ ninu Salat, Adura, tabi Dhikr. Yi ọna kọọkan: iponju owurọ tabi alẹ (Adhkar), iponju adura marun ojo-ojo, ifọkọ-iponju Adura Qur'anu, tabi itura alorinka. Pele kan Adura Qur'anu ati lo oruko ọna adura ti a lo.",
+
+  "promptHopeDifficultTimes": "Kọ iponju Iman nipa suburu (Sabr) ati aniyan ni akoko ẹlẹru. Gba ninu ẹkọ Qur'anu nipa idipọn, suburu Nabii, ati iyanu Allah ni akoko ẹlẹru. Yi itu kọọkan. Pele kan Adura Qur'anu ati ojulẹ ti o ba gba inu ninu ẹkọ Iman.",
+
+  "promptForgiveness": "Kọ iponju ogbon Iman nipa ẹtọ (Tawbah) ati iyanu Allah. Gba ninu ẹkọ Qur'anu nipa ipadabọ si Allah, iyanu Allah, ati apẹrẹ iṣalẹ Nabii Muhammad. Yi ite: yiyipada si Allah, fijiyan awọn ẹlọmọ, ituna onisokan, tabi gbigba ni iyanu Allah lẹhin aṣiṣe. Pele kan Adura Qur'anu ati ise ti o ba le ṣe.",
+
+  "promptLoveCompassion": "Kọ iponju Iman ti o kurẹ nipa iyonu (Rahmah) ati iferan ni ise ojo-ojo. Gba ninu apẹrẹ Nabii Muhammad, iṣe Ihsan (ewa), ati ẹkọ Iman nipa alaanu si ebi, aladugbo, ati awọn ti a ba lo. Pele kan Adura Qur'anu ati ise alaanu ti o ba le ṣe loni.",
+
+  "promptStrengthCourage": "Kọ iponju Iman nipa agbara ti o jẹ lati ọwọ Iman ati iwa agbara. Gba ninu apẹrẹ Nabii, awọn oludagba Iman, ati awọn olumọ ti o duro ni iro ni akoko ẹlẹru. Yi ite kọọkan: iwa agbara nipa Iman, agbara nipa adura, igbẹkẹle ni akoko ibẹru, tabi suburu ninu ẹlẹru. Pele kan Adura Qur'anu ati arosọ tabi ọkọ ẹkọ.",
+
+  "promptGratitude": "Kọ iponju Iman nipa dupe (Shukr) si Allah. Ju ipilẹ ninu ẹkọ Qur'anu ati ẹkọ Nabii. Yi itu: dupe nipa ẹlẹru, dupe fun awọn ẹbun kekere, gbigba owurọ pẹlu oyinbo Allah, tabi mọ ọna Allah ni ise ojo-ojo. Pele kan Adura Qur'anu ati ise dupe.",
+
+  "promptPurposeCalling": "Kọ iponju Iman nipa idi aye ninu gbigbonise Allah ati gbigbe ewa. Gba ninu ẹkọ Qur'anu nipa idi aye, ṣiṣẹ fun awọn miiran, ati lo ẹru fun ewa. Yi ite kọọkan: ṣiṣẹ fun ebi ati agbegbe, wọlẹ Istikhara, gbigbe pẹlu ero, tabi mọ ọna ninu ise ipinilẹ. Pele kan Adura Qur'anu ati ibeere meji ti o ba le ṣiyan.",
+
+  "promptFamilyRelationships": "Kọ itọsọna Iman ti o lagbara nipa ebi ati onisokan ti o ju ipilẹ ninu Qur'anu ati apẹrẹ Nabii Muhammad. Yi ite kọọkan: alaanutara ni ile, suburu nipa ariyanjiyan, ọya awọn baba, mẹkọrun awọn ọmọ ninu Iman, tabi mu iyalẹ dun. Pele kan Adura Qur'anu ati ise onisokan ti o ba le ṣe.",
+
+  "promptPeaceAnxietyRelief": "Kọ iponju Iman ti o dara para ni alafiaara inu nipa iṣẹ adura Allah (Dhikr) ati igbẹkẹle ninu ọna Allah. Gba ninu ẹkọ Qur'anu nipa aalafia ọkàn, adura, ati yinyinje si ero Allah. Yi ọna kọọkan ati pele kan Adura Qur'anu ati ise aalafia ninu ẹkọ Iman.",
+
+  "promptWisdomOfJesus": "Kọ ala ogbon lati ọwọ Nabii bi a ti kọ ninu Iman. Gba ninu Qur'anu tabi Hadisi ati ṣalaye iṣeganladuni awọn onimọ Iman. Yi ko nje: ewa, suburu, ibajanipa, Iman, tabi ṣiṣe ojo-ojo. Pele kan Qur'anu tabi Hadisi ati lo kan.",
+
+  "promptHumilityCharacter": "Kọ iponju Iman nipa ibajanipa (Tawadhu) ati ewa eniyan (Akhlaq). Gba ninu ẹkọ Qur'anu, apẹrẹ Nabii Muhammad, ati ẹkọ isọdipọ ewa eniyan ninu Iman. Yi ite: ibajanipa nipa ilana, ya aṣiṣe, tẹ awọn miiran pẹlu ọrọ-ọrọ, tabi iyika nipa iponju. Pele kan Adura Qur'anu ati ise ti o ba le ṣe.",
+
+  "promptOvercomingTemptation": "Kọ iponju Iman nipa kọ itẹ ati duro ninu ọna ti o dara. Gba ninu iṣagbonisọna Qur'anu, iṣẹ adura Allah (Dhikr), adura (Salah), ati apẹrẹ awọn olumọ ti o ja ẹlẹru. Yi itu kọọkan. Pele kan Adura Qur'anu ati ise aladilika fun ọdun-ọdu.",
+
+  "promptEveningReflection": "Kọ iponju Iman ti o dara fun alẹ ti o ju ipilẹ ninu ẹkọ iṣẹ adura alẹ (Adhkar al-Masaa'). Ṣokan dupe, iponju ara (Muhasabah), ati igbẹkẹle si Allah idaduro. Pele kan ibeere iponju mẹta tabi marun nipa ojo, adura oloro, ati Adura Qur'anu kan.",
+
+  "wordCount": "{count, plural, one {{count} ọkọ iponju} other {{count} awọn ọkọ iponju}}",
+
+  "optionsCta": "Awọn aiyipada",
+  "newCta": "Titun",
+  "actionsTitle": "Kilo lo yẹ ki o ṣe?",
+  "copy": "Daakọ",
+  "share": "Pin",
+  "close": "Tẹ", 
+  "copiedToast": "Daakọ si ọkọ iṣiro",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Ọrọ pin pẹlu akọsilẹ ẹka.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Itọsọna Ojo-ojo" }
+    }
+  },
+
+  "regenerateErrorTitle": "Ṣisẹ lẹhin idahun kan",
+  "regenerateErrorBody": "{error}\n\nSe o fẹ lilo igbiyanju?",
+  "@regenerateErrorBody": {
+    "description": "Ihan nigba ti idahun AI ṣiṣẹ.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Aṣise niwaju" }
+    }
+  },
+
+  "cancelCta": "Fagile",
+  "retryCta": "Igbiyanju",
+
+  "authTitle": "Ṣẹda akawọ rẹ",
+  "continueAsGuest": "Tẹle bi alabere",
+  "signInGoogle": "Wọle pẹlu Google",
+  "signInApple": "Wọle pẹlu Apple",
+  "signInEmail": "Wọle pẹlu Iyelopọ",
+  "upgradeWithApple": "Tẹle pẹlu Apple",
+  "mustAccept": "O gbọdọ gbagbọ Awọn Ofin ati mọ Imọlọ Asiri.",
+  "termsLabel": "Mo gbagbọ ninu Awọn Ofin Ṣe",
+  "privacyLabel": "Mo ti ka Imọlọ Asiri",
+  "marketingOptIn": "Mo gbagbọ lati gba akikọ ati awọn oniṣẹ",
+  "openTerms": "Awọn Ofin Ṣe",
+  "openPrivacy": "Imọlọ Asiri",
+
+  "accountSection": "Akawọ",
+  "guestMode": "Ọna alabere",
+  "signedIn": "Ẹ ti wọle",
+  "upgradeHint": "Gba awọn iponju rẹ taara lọwọ pẹlu ṣiṣẹda akawọ.",
+  "upgradeWithGoogle": "Tẹle pẹlu Google",
+  "signOut": "Jade",
+
+  "snackUpgraded": "Akawọ rẹ gbaradi pẹlu Google ✅",
+  "snackSignedIn": "Ẹ ti wọle pẹlu Google ✅",
+  "snackSignedOut": "Ẹ ti jade",
+  "snackSignedInApple": "Ẹ ti wọle pẹlu Apple ✅",
+  "snackSignedInGoogle": "Ẹ ti wọle pẹlu Google ✅",
+  "snackUpgradedApple": "Akawọ rẹ gbaradi pẹlu Apple ✅",
+  "snackUpgradedGoogle": "Akawọ rẹ gbaradi pẹlu Google ✅",
+
+  "historyTitle": "Awọn iponju tẹlẹ",
+  "historyOpenCta": "Awọn iponju tẹlẹ",
+  "historyEmpty": "Aini iponju ti a gba nwaye fun.",
+  "historyDeleteTitle": "Pa iponju kuro?",
+  "historyDeleteBody": "Eyi yoo yọ ohun ti a yan kuro ni patapata.",
+  "deleteCta": "Pa",
+
+  "historyButton": "Awọn Iponju Tẹlẹ",
+  "historyEmptyTitle": "Aini iponju",
+  "historyEmptyBody": "Ṣẹda nkan akokọ — awọn nkan ti a gba nwaye yoo han nibi.",
+  "historyDelete": "Pa",
+
+  "footerTitle": "Pẹlu Iman, suburu ati iyonu.",
+  "footerSubtitle": "Apa kan ni akoko.",
+  "genericErrorSnack": "Nkan lo ṣẹlẹ — jọwọ igbiyanju lẹhin akoko kekere.",
+
+  "upgradeAccountCta": "Gba awọn iponju rẹ taara lọwọ — ṣẹda akawọ",
+  "deleteAccount": "Pa akawọ",
+  "exportData": "Yi dati mi lọwọ",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Akọsilẹ ṣaaju iṣafihan Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Duro diẹ 🐯\nAI nilo akoko ṭinrin kan…",
+  "rateDailyLimit": "Awọn iponju rẹ ti lo kuro.\nGba diẹ sii tabi gbaradi si Barakah.",
+  "rateCreditsExhausted": "Ẹ ti lo gbogbo awọn iponju rẹ.\nFun lẹtọ tabi gbaradi si Barakah lati tẹle.",
+  "rateGraceReflectionsExhausted": "Awọn iponju rẹ ti lo kuro.\nGba diẹ sii tabi gbaradi si Barakah.",
+  "rateReflectionsExhausted": "Ẹ ti lo gbogbo awọn iponju rẹ.\nFun lẹtọ tabi gbaradi si Barakah lati tẹle.",
+
+  "blessedDescription": "Barakah tu awọn afikun, awọn ẹka ti o mẹtabọ, ati aami pataki.",
+  "championDescription": "Barakah tu awọn afikun, awọn ẹka ti o mẹtabọ, ati aami pataki.",
+
+  "ratePlanExhausted": "Awọn iponju rẹ ti lo kuro ni bayi. Eto: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Ihan nigba ti awọn iponju akawọ ti lo kuro.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Olutọju Ipilẹ tabi Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Ko ni le ṣayẹwo awọn iponju rẹ: {message}",
+  "@rateCheckFailed": {
+    "description": "Ihan nigba ti iṣẹ ọna yi ṣe aṣiṣe.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Aṣise niwaju" }
+    }
+  },
+
+  "rateCheckGenericError": "Nkan lo ṣẹlẹ nipa ayẹwo awọn iponju rẹ.",
+  "aiFallbackGeneric": "Nkan lo ṣẹlẹ — jọwọ igbiyanju lẹhin akoko kekere.",
+
+  "limitSectionTitle": "Awọn iponju",
+  "limitTodayLabel": "Lilo",
+  "limitCreditsLabel": "Awọn iponju ti o ku: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Eto: {plan}",
+  "@limitPlanLabel": {
+    "description": "Ihan oruko eto yiyipada ti a lo.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Olutọju Ipilẹ tabi Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Nlo…",
+  "limitLoadingLabelDescription": "Ihan nipa akoko ti a nlo awọn iṣiro.",
+
+  "aiLimitTitle": "Awọn iponju",
+  "aiLimitSubtitle": "Idahun kọọkan lo iponju kan. Olutọju Ipilẹ pẹlu awọn iponju ibẹrẹ. Barakah tu ọpọ diẹ ati gbagbọ.",
+  "aiLimitProgressLabel": "{used} / {total} awọn iponju ti a lo",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Awọn iponju",
+  "reflectionsUsageLabel": "Lilo",
+  "reflectionsRemainingLabel": "Awọn iponju ti o ku: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Eto: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Ihan oruko eto ti a lo.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Olutọju Ipilẹ tabi Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Nlo…",
+  "reflectionsLoadingLabelDescription": "Ihan nipa akoko ti a nlo awọn iṣiro.",
+
+  "reflectionsTitle": "Awọn iponju",
+  "reflectionsSubtitle": "Idahun kọọkan lo iponju kan. Olutọju Ipilẹ pẹlu awọn iponju ibẹrẹ. Barakah tu ọpọ diẹ ati gbagbọ.",
+  "reflectionsProgressLabel": "{used} / {total} awọn iponju ti a lo",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Pa akawọ",
+  "settingsDeleteDescription": "Pa akawọ rẹ ni patapata pẹlu gbogbo dati ti o ni.",
+  "settingsDeleteButtonLabel": "Pa akawọ mi",
+  "settingsDeleteDialogTitle": "Pa akawọ?",
+  "settingsDeleteDialogBody": "Eyi jẹ ohun ti ko le yipada.\n\nGbogbo awọn iponju, itan ati alaye akawọ yoo pa.",
+  "settingsDeleteDialogCancel": "Fagile",
+  "settingsDeleteDialogConfirm": "Pa",
+
+  "settingsFreeLimitUsedTitle": "Awọn iponju ibẹrẹ lo kuro",
+  "settingsFreeLimitUsedDescription": "Awọn iponju ibẹrẹ fun ẹrọ yii ti lo kuro. Gbaradi si Barakah tabi ra iponju diẹ sii.",
+
+  "settingsStarterReflectionsUsedTitle": "Awọn iponju ibẹrẹ lo kuro",
+  "settingsStarterReflectionsUsedDescription": "Awọn iponju ibẹrẹ fun ẹrọ yii ti lo kuro. Gbaradi si Barakah tabi ra iponju diẹ sii.",
+
+  "deviceBoundError": "Ẹrọ yii ti sokan si akawọ miiran. Jọwọ wọle pẹlu akawọ ibẹrẹ.",
+
+  "premiumTitle": "Ọna Barakah",
+  "premiumSubtitleBasic": "Tu ilana Nuria ti o ni.",
+  "premiumSubtitleChampion": "Ẹ wa Barakah. Se o nilo iponju diẹ sii?",
+
+  "premiumCurrentPlan": "Eto ti o lo: {plan}",
+  "premiumCreditsStatus": "Awọn iponju: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Awọn rira ko si ni bayi.",
+  "premiumSignInToPurchase": "Wọle lati ra iponju tabi tu Barakah.",
+
+  "premiumRestorePurchases": "Tu awọn rira",
+  "premiumProcessing": "Iṣẹ n lo…",
+  "premiumRestoreHintTitle": "Se ẹ ri Barakah tabi iponju ninu ẹrọ yii tabi miiran?",
+  "premiumRestoreHintBody": "Tu awọn rira rẹ ti won ko ihan.",
+
+  "premiumBuyCredits200": "Ra iponju 200",
+  "premiumBuyCredits400": "Ra iponju 400",
+  "premiumBecomeChampionOneTime": "Gbaradi si ọna Barakah",
+  "premiumChampionHint": "Bi Barakah, o le gba iponju diẹ sii nigbakugba ti o nilo.",
+
+  "premiumUpgradeCta": "Gbaradi",
+  "premiumRequiredForCategory": "Ẹka yii nilo Barakah. Gbaradi ninu Awọn eto lati tu gbogbo nkan.",
+  "premiumBenefitsBasic": "Tu Barakah lati gba iponju diẹ sii, wọ ẹka afikun, ati tẹle ni akoko ti o nilo iṣẹ adura.",
+  "premiumBenefitsChampion": "Ẹ wa ninu Barakah. Ti o ba nilo iponju, fun diẹ sii ati tẹle ni isẹ adura.",
+  "premiumButtonBecomeChampion": "Tu Barakah",
+  "premiumButtonTopup1000": "Fun iponju 1000",
+  "premiumChampionBadge": "Barakah ti tunli",
+  "premiumLoadingStore": "Nlo ile owo…",
+
+  "blessedTitle": "Ọna Barakah",
+  "blessedSubtitleGrace": "Tu ilana Nuria ti o ni.",
+  "blessedSubtitleBlessed": "Ẹ wa Barakah. Se o nilo iponju diẹ sii?",
+
+  "blessedCurrentPlan": "Eto ti o lo: {plan}",
+  "blessedReflectionsStatus": "Awọn iponju: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Awọn rira ko si ni bayi.",
+  "blessedProductNotAvailable": "Alaaye yii ko si ninu ile owo niwaju. Jọwọ igbiyanju nigbamii.",
+  "blessedPurchaseError": "Nkan lo ṣẹlẹ pẹlu rira. Jọwọ igbiyanju.",
+  "blessedSignInToPurchase": "Wọle lati ra iponju tabi tu Barakah.",
+
+  "blessedRestorePurchases": "Tu awọn rira",
+  "blessedProcessing": "Iṣẹ n lo…",
+  "blessedRestoreHintTitle": "Se ẹ ri Barakah tabi iponju ninu ẹrọ yii tabi miiran?",
+  "blessedRestoreHintBody": "Tu awọn rira rẹ ti won ko ihan.",
+
+  "blessedBuyReflections100": "Fun iponju 100",
+  "blessedBuyReflections200": "Ra iponju 200",
+  "blessedBuyReflections400": "Ra iponju 400",
+  "blessedBecomeBlessedOneTime": "Gbaradi si Barakah",
+  "blessedTopupHint": "Bi Barakah, o le gba iponju diẹ sii nigbakugba ti o nilo.",
+
+  "blessedUpgradeCta": "Gbaradi",
+  "blessedRequiredForCategory": "Ẹka yii nilo Barakah. Gbaradi ninu Awọn eto lati tu gbogbo nkan.",
+  "blessedFeatureLocked": "Tu Barakah lati lo afikun yii.",
+  "lockedCategoriesHint": "Awọn ẹka diẹ gba fun awọn ti o wa Barakah. Tu wọn lati wo iponju gbogbo.",
+  "blessedBenefitsGrace": "Tu Barakah lati gba iponju diẹ sii, wọ ẹka afikun, ati tẹle ni akoko ti o nilo iṣẹ adura.",
+  "blessedBenefitsBlessed": "Ẹ wa ninu Barakah. Ti o ba nilo iponju, fun diẹ sii ati tẹle ni isẹ adura.",
+  "blessedButtonBecomeBlessed": "Tu Barakah",
+  "blessedButtonTopup1000": "Fun iponju 1000",
+  "blessedBadge": "Barakah ti tunli",
+  "blessedLoadingStore": "Nlo ile owo…",
+
+  "freePlanBlockedTitle": "Ẹ ti lo awọn iponju ibẹrẹ rẹ",
+  "freePlanBlockedBody": "Ẹ wa ninu eto Olutọju Ipilẹ pẹlu awọn iponju ibẹrẹ, ẹ ti de opin. Lati tẹle — ati tu ẹka afikun — gbaradi si Barakah.",
+  "freePlanBlockedCtaGoPremium": "Wo awọn aiyipada Barakah ni isalẹ",
+
+  "graceBlockedTitle": "Ẹ ti lo awọn iponju ibẹrẹ rẹ",
+  "graceBlockedBody": "Ẹ wa ninu eto Olutọju Ipilẹ pẹlu awọn iponju ibẹrẹ, ẹ ti de opin. Lati tẹle — ati tu ẹka afikun — gbaradi si Barakah.",
+  "graceBlockedCtaGoBlessed": "Wo awọn aiyipada Barakah ni isalẹ",
+
+  "rateGuestMustSignIn": "Wọle lati lo Nuria ati awọn iponju rẹ.",
+
+  "guestNoCreditsTitle": "Ọna alabere",
+  "guestNoCreditsBody": "Bi alabere o le wo apẹ, ṣugbọn o kọ iponju lo. Wọle nigbamii ninu Awọn eto lati lo iponju ati gba awọn rira.",
+
+  "guestNoReflectionsTitle": "Ọna alabere",
+  "guestNoReflectionsBody": "Bi alabere o le wo apẹ, ṣugbọn o kọ iponju lo. Wọle nigbamii ninu Awọn eto lati lo iponju ati gba awọn rira.",
+
+  "guestDialogContinue": "Tẹle",
+  "guestDialogLoginInstead": "Wọle nikan",
+
+  "optionalLabel": "ǹjẹ ko gba",
+
+  "accountDeleteSuccessTitle": "Akawọ pa",
+  "accountDeleteSuccessBody": "Akawọ rẹ ati dati ti o pẹ ti pa ni itẹlọ.",
+  "accountDeleteSuccessClose": "Tẹ",
+  "accountDeleteErrorTitle": "Ko le pa akawọ",
+  "accountDeleteErrorClose": "Tun",
+  "accountDeleteReauthCancelled": "Ayẹwo akawọ fadaka. Jọwọ wọle lẹhin ati igbiyanju pa.",
+  "accountDeleteReauthRequired": "Pa akawọ nilo wọle ti o kere-kere. Jọwọ jade, wọle, ati igbiyanju pa.",
+  "settingsDeletePermanentWarning": "Eyi jẹ ohun ti ko le yipada. Gbogbo dati ti o ni ti akawọ yoo pa.",
+
+  "dailyGraceTitle": "Itọsọna Ojo-ojo",
+  "dailyGraceScriptureLabel": "ADURA ỌJỌ",
+  "dailyGraceSaintLabel": "OLIMỌ ỌSẸ",
+  "dailyGraceReflectionLabel": "IPONJU ALẸ",
+  "dailyGraceCopiedToast": "Adura daakọ si ọkọ iṣiro",
+
+  "dailyScripture0Text": "Lẹẹkan, awọn ti o daba wa ni awọn ibadandun ati awọn odo, ni apẹjọ ti ara ẹni laṭu ọba agbara.",
+  "dailyScripture0Ref": "Qur'anu 54:54-55",
+  "dailyScripture1Text": "Ati a ko ti ṣe iranlọwọ rẹ (Muhammad) ilẹ po ju bi iyanu si gbogbo aye.",
+  "dailyScripture1Ref": "Qur'anu 21:107",
+  "dailyScripture2Text": "Sẹ Allah ko tobi fun ara ẹni rẹ? Sibẹsibẹ wọn ba rẹ nipa awọn miiran lọwọ rẹ.",
+  "dailyScripture2Ref": "Qur'anu 39:36",
+  "dailyScripture3Text": "Bawo ni o ṣe fi agbara ijiyan ohun kan ti o jẹ bẹ fun rẹ; ati bawo ni o ṣe ni ifẹ ohun kan ti o jẹ bukun fun rẹ. Ati Allah mọ, ati ẹ ko mọ.",
+  "dailyScripture3Ref": "Qur'anu 2:216",
+  "dailyScripture4Text": "Lẹẹkan, Allah wa pẹlu awọn ti o suburu.",
+  "dailyScripture4Ref": "Qur'anu 2:153",
+  "dailyScripture5Text": "Nitorinaa ranti mi; emi naa yoo ranti yyin. Ati dupẹ mi ati o ma ṣe layọ.",
+  "dailyScripture5Ref": "Qur'anu 2:152",
+  "dailyScripture6Text": "Lẹẹkan, ti nla ju ti yyin ni ọwọ Allah ni ti o tọ ju ninu guningun.",
+  "dailyScripture6Ref": "Qur'anu 49:13",
+  "dailyScripture7Text": "Ati olurọ rẹ ti ṣe ẹkọ pe o orisa ẹka rẹ, ati pe e ṣe ọpẹ si awọn baba yyin.",
+  "dailyScripture7Ref": "Qur'anu 17:23",
+  "dailyScripture8Text": "Lẹẹkan, pẹlu ikole ọsẹ ti wa loore.",
+  "dailyScripture8Ref": "Qur'anu 94:6",
+  "dailyScripture9Text": "Ati o wa pẹlu yyin nibikibii ti yyin ba wa. Ati Allah ti ohun ti yyin ṣe jẹ olukani.",
+  "dailyScripture9Ref": "Qur'anu 57:4",
+  "dailyScripture10Text": "Allah ko fi iṣẹ lẹ ẹru ti o ju ohun ti o le gbẹ.",
+  "dailyScripture10Ref": "Qur'anu 2:286",
+  "dailyScripture11Text": "Ati sinaan ti o gbẹkẹle Allah — yii yalọ fun u.",
+  "dailyScripture11Ref": "Qur'anu 65:3",
+  "dailyScripture12Text": "Iyanu mi yo gbogbo nkan.",
+  "dailyScripture12Ref": "Qur'anu 7:156",
+  "dailyScripture13Text": "Ati nigba ti awọn iṣọ mi beere rẹ nipa mi — lẹẹkan, emi ni isunmọ. Emi gбa onibẹru nigba ti o pe mi.",
+  "dailyScripture13Ref": "Qur'anu 2:186",
+  "dailyScripture14Text": "Sinaan ti o ṣe ewa, boya obinrin tabi akọ, ni igbagbọ — a yoo yanlẹ kaa fun gbigbe aiye to dara.",
+  "dailyScripture14Ref": "Qur'anu 16:97",
+  "dailyScripture15Text": "Lẹẹkan, Allah ko yipada ẹdun ti awọn eniyan, akọtọ ti wọn yipada ohun ti o wa ninu awọn ara wọn.",
+  "dailyScripture15Ref": "Qur'anu 13:11",
+  "dailyScripture16Text": "Nitorinaa o ma ṣe dinku, o ma ṣe inurẹ, ati ẹ yoo ti niyiye ti ẹ ba jẹ olumọ ọtọtọ.",
+  "dailyScripture16Ref": "Qur'anu 3:139",
+  "dailyScripture17Text": "O awọ iṣọ mi ti o ti ṣe aṣiṣe fun wọn-ara wọn, o ma ṣe aironu nipa iyanu Allah. Lẹẹkan, Allah yoo fi ẹtọ gbogbo.",
+  "dailyScripture17Ref": "Qur'anu 39:53",
+  "dailyScripture18Text": "Ati sinaan ti o ba korira Allah — yii yalọ ọna fun u, ati yoo pese fun u nibo ti o ko ro.",
+  "dailyScripture18Ref": "Qur'anu 65:2-3",
+  "dailyScripture19Text": "O ma ṣe aironu nipa iyanu Allah.",
+  "dailyScripture19Ref": "Qur'anu 12:87",
+  "dailyScripture20Text": "Ati a ti jẹ ki Qur'anu rọrun lati ranti. Nitorinaa se akọ to ba ti gbe oju inu?",
+  "dailyScripture20Ref": "Qur'anu 54:17",
+  "dailyScripture21Text": "Ati o ri ẹ lọju, ati o ti gbaṣe yi.",
+  "dailyScripture21Ref": "Qur'anu 93:7",
+  "dailyScripture22Text": "Ati olurọ rẹ sọ: Pe mi; emi yoo gba iṣeji rẹ.",
+  "dailyScripture22Ref": "Qur'anu 40:60",
+  "dailyScripture23Text": "Ati a ti jẹ ki awọn ọmọ Adam, a gba ọlà.",
+  "dailyScripture23Ref": "Qur'anu 17:70",
+  "dailyScripture24Text": "Ati wa fun iranlọwọ nipẹ suburu ati adura.",
+  "dailyScripture24Ref": "Qur'anu 2:45",
+  "dailyScripture25Text": "Sinaan ti o ba ṣe iṣẹ ti iwọ oniwa si wi ọna.",
+  "dailyScripture25Ref": "Qur'anu 99:7",
+  "dailyScripture26Text": "Aribi ti iranlọwọ Allah wa ni isunmọ.",
+  "dailyScripture26Ref": "Qur'anu 2:214",
+  "dailyScripture27Text": "Ati sinaan ti o ba dupe — dupe rẹ nilo fun onire ara rẹ.",
+  "dailyScripture27Ref": "Qur'anu 31:12",
+
+  "dailyReflection0": "Bi ojo yii ba n pari, ka akoko kan nibo ti iyanu Allah ji han.",
+  "dailyReflection1": "Mu gbogbo ohun ti o na ọkan rẹ loni si ọdọ Allah.",
+  "dailyReflection2": "Yan bẹẹ ẹbun nikan loni ati dupẹ Allah.",
+  "dailyReflection3": "Subọ ninu imọ pe o wa ninu iyanu Allah.",
+  "dailyReflection4": "Ṣiyan nibo ti o ti ṣe iferan ati alaanutara loni.",
+  "dailyReflection5": "Yi awe ohun ti o kọ le ṣe ati gbẹkẹle ọna Allah.",
+  "dailyReflection6": "Bi alẹ ba n de, gba aalafia nipa iṣẹ adura Allah.",
+  "dailyReflection7": "Ṣiyan bawo ni o ti bọwọ adura rẹ loni.",
+  "dailyReflection8": "Ṣiyan nibo ti suburu (Sabr) ti faya iṣẹ rẹ loni.",
+  "dailyReflection9": "Beere ẹtọ fun ohun ti o ṣe kiko loni — iyanu Allah ko ni opin.",
+  "dailyReflection10": "Yan ẹnikan ti o ṣe alaanutara si loni, ati pe adura fun won.",
+  "dailyReflection11": "Jọka pẹlu dupe — kilo ni Allah ti fun rẹ loni ti o ko beere?",
+  "dailyReflection12": "Ṣiyan nipa adura Qur'anu kan ti o ba sọ ohun ti o wa ni.",
+  "dailyReflection13": "Ṣiyan bawo ni o ti lo akoko rẹ loni — ati fikan si Allah fun ola.",
+  "dailyReflection14": "Subọ ninu imọ pe idipọn nkan ti o ba de, Allah pẹ rẹ.",
+  "dailyReflection15": "Ṣiyan nipa ọna kan ti o ṣe ire si ebi tabi agbegbe fun Allah.",
+  "dailyReflection16": "Bi alẹ ba n de, ṣe ipadabọ — Allah nifẹ awọn ti o ba padabọ.",
+  "dailyReflection17": "Ṣiyan nipa ewa ti Allah fi ni ojo rẹ, paapaa ni kekere.",
+  "dailyReflection18": "Ṣiyan nipa ohun ti o ko ẹkọ loni ati bawo ni o ba sojumu si Allah.",
+  "dailyReflection19": "Yi awọn aniyan ojo rẹ si Allah — o lo ohun ti o kọ le lo.",
+  "dailyReflection20": "Ṣiyan nipa akoko ti o ṣe ọna ti o daru, ati ko ẹkọ rẹ.",
+  "dailyReflection21": "Pe adura fun awọn ti o n ja adura — ona yii jẹ ẹbun ti o fun wọn.",
+  "dailyReflection22": "Ranti ẹbun kan ti o ko ji ọkan rẹ ati dupe Allah.",
+  "dailyReflection23": "Ṣiyan nipa ero rẹ loni — sẹ wọn jẹ fun Allah? Jẹkọ lọla.",
+  "dailyReflection24": "Bi alẹ ba n pipo, gba jẹ isunmọ Allah ninu orotuú.",
+  "dailyReflection25": "Ṣiyan nibo ti o ri agbara loni — agbara yii ti wa ninu Allah.",
+  "dailyReflection26": "Yan ohun kan ti o yoo ṣe ola, fun Allah, ti o ko ṣe igbere.",
+  "dailyReflection27": "Bi o ba lo lati sinmi, fi ara rẹ si Allah — o jẹ olubere ti o ta ju.",
+
+  "dailyRoleModel0": "Nabii Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Nabii Ibrahim (AS)",
+  "dailyRoleModel44": "Nabii Musa (AS)",
+  "dailyRoleModel45": "Nabii Isa (AS)",
+  "dailyRoleModel46": "Nabii Yusuf (AS)",
+  "dailyRoleModel47": "Nabii Dawud (AS)",
+  "dailyRoleModel48": "Nabii Sulayman (AS)",
+  "dailyRoleModel49": "Nabii Nuh (AS)",
+  "dailyRoleModel50": "Nabii Yunus (AS)",
+  "dailyRoleModel51": "Nabii Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Jẹ ki Nuria lo ibadandun mi fun itọ Qibla ati akoko adura",
+  "locationConsentHint": "A lo fun awọn afikun yii nikan. Ibadandun rẹ ko si ife tabi wa ninu iyalẹrẹ.",
+
+  "askPageTitle": "Beere Nuria",
+  "askPageDescription": "Beere ohun nkan nipa Iman, adura, iye, tabi ise Iman ati gba itọsọna ti o ju ipilẹ ninu Qur'anu ati Sunnah.",
+  "askPageInputHint": "Kọ ibeere rẹ nibi…",
+  "askPageSubmitCta": "Beere",
+  "askPageInputEmptyError": "Jọwọ kọ ibeere kan.",
+  "askResultYourQuestion": "Ibeere rẹ",
+
+  "guidancePageTitle": "Adura ati Itọsọna",
+  "qiblaFacingMecca": "Niwaju Makkah",
+  "qiblaCompassInstruction": "Yi ẹrọ rẹ akọtọ akọtọ kii akika goolu to duro ga.\nItọ yii nso si Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Ibadandun GPS ko tara daadaa. Jade jade lọwọ ati tẹ Igbiyanju.",
+  "qiblaRetry": "Igbiyanju",
+  "qiblaTitle": "Itọ Qibla",
+  "qiblaDistanceLabel": "{km} km si Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Ibadandun yoo nilo",
+  "qiblaLocationNeededBody": "Jẹ ki Nuria lo ibadandun rẹ lati lo itọ Kaabah ni Makkah nibo rẹ ti wa.",
+  "qiblaOpenSettings": "Tu Awọn eto",
+  "qiblaCompassLoading": "N wa ibi rẹ…",
+  "qiblaTowardMecca": "Niwaju Makkah",
+
+  "prayerTimesTitle": "Akoko Adura",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Ibadandun yoo nilo",
+  "prayerTimesLocationNeededBody": "Jẹ ki Nuria lo ibadandun rẹ lati lo akoko adura ti o ka para ọta rẹ.",
+  "prayerTimesNextLabel": "Atẹle",
+  "prayerTimesDoneLabel": "Tẹ",
+
+  "monthlyPrayerTimesTitle": "Akoko Adura Oṣẹ",
+  "monthlyPrayerTimesViewButton": "Wo Oṣẹ Kaakiri",
+  "monthlyPrayerTimesNextMonth": "Oṣẹ atẹle",
+  "monthlyPrayerTimesDayHeader": "Ojo",
+
+  "sharePrayerTimes": "Pin akoko adura",
+
+  "prayerNotificationsTitle": "Ifitilẹ Adura",
+  "prayerNotificationsDescription": "Gba ifitilẹ boṣo ṣaaju akoko adura kọọkan lati ṣe iranlọwọ fun rẹ ni gbogbo ojo.",
+  "prayerNotificationsEnable": "Tunli ifitilẹ adura",
+  "prayerNotificationsOpenSettings": "Tu ifitilẹ iṣiro",
+  "prayerNotificationsDenied": "Awọn ifitilẹ ti ṣe ti e da",
+  "prayerNotificationsDeniedHint": "Lo si Awọn eto ati gba ifitilẹ fun Nuria lati gba ifitilẹ akoko adura.",
+
+  "notificationsConsentLabel": "Jẹ ki awọn ifitilẹ fun akoko adura",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Adura Owurọ",
+  "prayerNotifBodyFajr": "Adura ti o ta ju ni Fajr. Dide, fa ara rẹ, ati duro niwaju Allah.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Adura Owọ Ojo",
+  "prayerNotifBodyDhuhr": "Duro aaye ojo rẹ ti yipada si Allah. Akoko Dhuhr de.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Adura Osẹ",
+  "prayerNotifBodyAsr": "Ri adura ti o tobi. Akoko Asr de — o ma ṣe fi ṣe.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Adura Itẹlọ",
+  "prayerNotifBodyMaghrib": "Orun ti sona. Adura Maghrib ati dupẹ Allah fun ojo yii.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Adura Alẹ",
+  "prayerNotifBodyIsha": "Pari ojo rẹ pẹlu iṣẹ adura Allah. Hayya alal falah — wa si itẹsiwaju.",
+
+  "outOfReflectionsBannerText": "Ẹ ti lo gbogbo awọn iponju rẹ",
+  "outOfReflectionsBannerCta": "Gba diẹ sii",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Tẹ apá iriniyii lati lo",
+  "dhikrResetButton": "Tun",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Ẹ ti pari iṣẹ adura 99. Jẹ ki wọn jẹ ina fun ọkan rẹ.",
+
+  "disclaimerTitle": "Nipa itọsọna apẹ yii",
+  "disclaimerBody": "Nuria pese iponju Iman, ifitilẹ, ati nkan ti o kin wẹ lati ṣokan aye Iman rẹ. Nkan ti o ni nibi yii jẹ fun alaye ṣoṣo ati inudidun nikan.\n\nNuria ko gbi olimọ.\nItọsọna ninu apẹ yii ko jẹ iṣẹ fun onimọ Iman ti o kere, alhaji, mufti, tabi okọ onimọ Iman ti o ti kọ. Ti ẹ ba ni ibeere nipa ofin Iman, halal ati haram, tabi ose Iman ti o ba pelu, jọwọ wa olimọ Iman kan ti o gba iwe ninu agbegbe rẹ.\n\nApẹ yii ko se ofin Iman.\nNuria ko se iṣalaye ti o walẹ nipa ohun ti o ba de fiqh (ofin Iman) tabi ose Iman ti o ba pelu. Ohun ti o wa nibi yii ko gba se fatwa tabi iṣagbonisọna Iman ti o dini.\n\nAwọn onimọ nipa iṣa di.\nIman ni ọpọ ẹkọ, awọn ọna ti o yatọ (madhabs), ati awọn iṣagbonisọna onimọ ti o yatọ. Nkan ti o wa ninu apẹ yii jẹ ìfẹ awọn ọna ati o ṣeẹ jẹ ki o kọ gbogbo awọn ẹkọ tabi madhab.\n\nEbi nlo.\nApẹ yii fẹ atsẹ iranlọwọ rẹ pẹlu awọn ẹkọ Iman nígbà tí o ba gbẹkẹle papel ti o nila ti ile iṣoro, alhaji, ati awọn onimọ Iman ti o wa kun yyin. A ṣokan rẹ lati wa lọ sokan pẹlu ti yyin ji ati kọ ẹkọ ninu awọn okọ onimọ ti o wa run yyin.",
+  "disclaimerClose": "Mo ti mọ",
+  "disclaimerInfoTooltip": "Nipa itọsọna apẹ yii",
+  "disclaimerSettingsSubtitle": "Fun alaye ṣoṣo. Tẹ lati ka alaye ti o tobi.",
+  "disclaimerSectionHeader": "Ofin itọsọna"
+}

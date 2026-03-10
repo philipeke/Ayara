@@ -1,0 +1,585 @@
+{
+  "@@locale": "pl",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Wybierz swój język",
+  "languageSelectSub": "Możesz to zmienić później w Ustawieniach",
+  "actionContinue": "Dalej",
+  "languageSuggestedHeader": "Sugerowane",
+  "languageAllHeader": "Wszystkie języki",
+  "languageSuggestedBadge": "Sugerowane",
+  "languageSearchHint": "Szukaj…",
+
+  "planGrace": "Standard",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Codzienna Wskazówka",
+  "categoryFaithTrust": "Wiara i Ufność",
+  "categoryPrayerReflection": "Refleksja Modlitwy",
+  "categoryHopeDifficultTimes": "Cierpliwość i Nadzieja",
+  "categoryForgiveness": "Poszukaj Przebaczenia",
+  "categoryLoveCompassion": "Miłosierdzie i Współczucie",
+  "categoryStrengthCourage": "Wiara i Siła",
+  "categoryGratitude": "Wdzięczne Serce",
+  "categoryPurposeCalling": "Cel Życia",
+  "categoryFamilyRelationships": "Więzi Rodzinne",
+  "categoryPeaceAnxietyRelief": "Wewnętrzny Pokój",
+  "categoryWisdomOfJesus": "Mądrość Proroków",
+  "categoryHumilityCharacter": "Dobry Charakter",
+  "categoryOvercomingTemptation": "Opór wobec Pokusy",
+  "categoryEveningReflection": "Wieczorna Dhikr",
+  "categoryCustom": "Osobista Refleksja",
+  "dhikrMeaningSubhanallah": "Chwała Allahowi",
+  "dhikrMeaningAlhamdulillah": "Wszystkie pochwały należą do Allaha",
+  "dhikrMeaningAllahuAkbar": "Allah jest Największy",
+  "quranVerseHeartAtRest": "Zaprawdę, w pamięci o Allahu serca znajdują spokój.",
+
+  "promptHint": "Dotknij kategorię, aby otrzymać islamskie wskazówki i refleksję",
+
+  "currentLanguage": "Obecny język",
+  "settingsLanguage": "Ustawienia języka",
+  "settingsTitle": "Ustawienia",
+  "chooseLanguage": "Wybierz swój język",
+  "continueCta": "Dalej",
+
+  "promptDailyGuidance": "Napisz krótką, praktyczną codzienną wskazówkę zakorzenioną w suickiej wierze islamskiej — opartą na Koranie, Hadisie i nauczaniach Proroka Muhammada. Wybierz nowy kąt za każdym razem: cnotę z islamskiej etyki, prawdę ze Sunny, mądrość od Towarzyszy Proroka lub cichą praktykę z tradycji islamskiej. Dołącz jeden werset Koranu (Sura:Aja) i refleksję zdania czy dwóch zdań do noszenia przez cały dzień. Opcjonalnie połącz to z islamskim kalendarzem lub ważną datą, jeśli jest to istotne.",
+
+  "promptFaithTrust": "Napisz krótką islamską refleksję na temat Imanu (wiary) i ufności w plan Allaha (Tawakkul). Zakorzenij to w Koranie, przykładzie Proroka Muhammada i wierze Sahabów. Różnicuj temat za każdym razem: ufność Allahowi podczas niepewności, poleganie na boskiej mądrości, cierpliwość w próbach lub cichy wytrwałość w codziennym życiu. Dołącz jeden werset Koranu i jeden szczery krok na dzisiaj czerpany z islamskiej mądrości duchowej.",
+
+  "promptPrayerReflection": "Napisz krótką islamską refleksję modlitwy zakorzenioną w Salah, Dua lub Dhikr. Różnicuj formę za każdym razem: poranną lub wieczorną pamięć (Adhkar), refleksję o pięciu codziennych modlitwach, kontemplację wersetu Koranu lub szczerą suplikację. Dołącz jeden werset Koranu i krótko wymień używaną formę modlitwy.",
+
+  "promptHopeDifficultTimes": "Napisz islamską refleksję na temat cierpliwości (Sabr) i nadziei podczas trudności. Czerpij z nauczań Koranicznych o próbach, wytrwałości Proroków i miłosierdzia Allaha w trudnych momentach. Różnicuj kąt za każdym razem. Dołącz jeden werset Koranu i jedną zachęcającą perspektywę z tradycji islamskiej.",
+
+  "promptForgiveness": "Napisz mądrą islamską refleksję na temat poszukiwania przebaczenia (Tawbah) i miłosierdzia Allaha. Czerpij z nauczań Koranicznych na temat pokuty, współczucia Allaha i przebaczającego przykładu Proroka Muhammada. Różnicuj temat: powrót do Allaha, przebaczanie innym, uzdrawianie relacji lub wiara w miłosierdzie Allaha po błędach. Dołącz jeden werset Koranu i jeden konkretny krok.",
+
+  "promptLoveCompassion": "Napisz krótką islamską refleksję na temat miłosierdzia (Rahmah) i współczucia w codziennym życiu. Czerpij z przykładu Proroka Muhammada, koncepcji Ihsan (doskonałości) i islamskich nauczań na temat życzliwości dla rodziny, sąsiadów i podatnych na zranienia. Dołącz jeden werset Koranu i jeden mały akt współczucia do praktykowania dzisiaj.",
+
+  "promptStrengthCourage": "Napisz islamską refleksję na temat mocy opartej na wierze i odwagi. Czerpij z przykładów Proroków, wczesnej wspólnoty muzułmańskiej i wierzących, którzy pozostali mocni w trudności. Różnicuj temat za każdym razem: odwaga poprzez wiarę, siła w modlitwie, ufność Allahowi podczas strachu lub odporność w trudności. Dołącz jeden werset Koranu i krótką suplikację lub frazę pamięci.",
+
+  "promptGratitude": "Napisz islamską refleksję na temat wdzięczności (Shukr) wobec Allaha. Zakorzenij to w nauczaniu Koranicznym i tradycji prorocze. Różnicuj kąt: wdzięczność w trudności, uznawanie małych błogosławieństw, rozpoczynanie dnia pochwałą Allaha lub uznawanie boskiego przewodnictwa w życiu codziennym. Dołącz jeden werset Koranu i jedną praktykę wdzięczności.",
+
+  "promptPurposeCalling": "Napisz islamską refleksję na temat celu życia w adoracji Allaha i pobożnym życiu. Czerpij z nauczań Koranicznych na temat celu, służenia innym i używania swoich talentów dla dobra. Różnicuj temat za każdym razem: służenie rodzinie i społeczności, poszukiwanie przewodnictwa poprzez Istikhara, życie z intencją lub znalezienie znaczenia w zwykłej pracy. Dołącz jeden werset Koranu i dwa refleksyjne pytania.",
+
+  "promptFamilyRelationships": "Napisz mądrą islamską wskazówkę na temat rodziny i relacji zakorzenioną w nauczaniu Koranicznym i przykładzie Proroka Muhammada. Różnicuj temat za każdym razem: życzliwość w życiu rodzinnym, cierpliwość w konflikcie, uczczenie rodziców, wychowywanie dzieci w wierze lub wzmacnianie małżeństwa. Dołącz jeden werset Koranu i jedną praktykę relacyjną do wypróbowania.",
+
+  "promptPeaceAnxietyRelief": "Napisz uspokajającą islamską refleksję na temat znalezienia wewnętrznego pokoju poprzez pamięć Allaha (Dhikr) i ufność w Jego plan. Czerpij z nauczań Koranicznych na temat spokojności serca, modlitwy i poddania się woli Allaha. Różnicuj podejście za każdym razem i dołącz jeden werset Koranu i jedną prostą praktykę uziemiającą z tradycji islamskiej.",
+
+  "promptWisdomOfJesus": "Napisz krótki fragment mądrości od Proroków, jak nauczane w Islamie. Czerpij z Koranu lub Hadisu i krótko wyjaśnij, jak islamscy uczeni zrozumieli to nauczanie. Różnicuj temat za każdym razem: charakter, cierpliwość, pokora, wiara lub codzienne postępowanie. Dołącz odniesienie do wersetu Koranicznego lub Hadisu i jedną praktyczną aplikację.",
+
+  "promptHumilityCharacter": "Napisz islamską refleksję na temat pokory (Tawadhu) i dobrego charakteru (Akhlaq). Czerpij z nauczań Koranicznych, przykładu Proroka Muhammada i tradycji islamskiego rozwoju charakteru. Różnicuj temat: pokora w przywództwie, przyznawanie się do błędów, traktowanie innych z szacunkiem lub duchowy wzrost poprzez samorefleksję. Dołącz jeden werset Koranu i jeden nawyk do praktykowania.",
+
+  "promptOvercomingTemptation": "Napisz islamską refleksję na temat oporu wobec pokusy i pozostania na prostej ścieżce. Czerpij z boskiego przewodnictwa Koranicznego, pamięci Allaha (Dhikr), modlitwy (Salah) i przykładów wierzących, którzy przezwyciężyli zmagania. Różnicuj kąt za każdym razem. Dołącz jeden werset Koranu i jedną praktyczną strategię na następne 24 godziny.",
+
+  "promptEveningReflection": "Napisz spokojną islamską refleksję wieczorną zakorzenioną w tradycji wieczornej pamięci (Adhkar al-Masaa'). Zachęcaj do wdzięczności, samorefleksji (Muhasabah) i ufności Allahowi przed wypoczynkiem. Dołącz 3–5 krótkich wskazówek refleksji na temat dnia, krótką zamykającą suplikację i jeden werset Koranu.",
+
+  "wordCount": "{count, plural, one {{count} słowo} few {{count} słowa} other {{count} słów}}",
+
+  "optionsCta": "Opcje",
+  "newCta": "Nowe",
+  "actionsTitle": "Co chciałbyś zrobić?",
+  "copy": "Kopiuj",
+  "share": "Udostępnij",
+  "close": "Zamknij",
+  "copiedToast": "Skopiowano do schowka",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Codzienna Wskazówka" }
+    }
+  },
+
+  "regenerateErrorTitle": "Nie udało się wygenerować nową odpowiedź",
+  "regenerateErrorBody": "{error}\n\nChcesz spróbować ponownie?",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Błąd sieci" }
+    }
+  },
+
+  "cancelCta": "Anuluj",
+  "retryCta": "Spróbuj ponownie",
+
+  "authTitle": "Utwórz swoje konto",
+  "continueAsGuest": "Kontynuuj jako gość",
+  "signInGoogle": "Zaloguj się przez Google",
+  "signInApple": "Zaloguj się przez Apple",
+  "signInEmail": "Zaloguj się przez E-mail",
+  "upgradeWithApple": "Kontynuuj z Apple",
+  "mustAccept": "Musisz zaakceptować Warunki i potwierdzić Politykę Prywatności.",
+  "termsLabel": "Akceptuję Warunki Świadczenia Usług",
+  "privacyLabel": "Przeczytałem Politykę Prywatności",
+  "marketingOptIn": "Zgadzam się otrzymywać wiadomości i oferty",
+  "openTerms": "Warunki Świadczenia Usług",
+  "openPrivacy": "Polityka Prywatności",
+
+  "accountSection": "Konto",
+  "guestMode": "Tryb gościa",
+  "signedIn": "Zalogowany",
+  "upgradeHint": "Zapisz swoje refleksje na wszystkich urządzeniach, tworząc konto.",
+  "upgradeWithGoogle": "Kontynuuj z Google",
+  "signOut": "Wyloguj się",
+
+  "snackUpgraded": "Konto uaktualnione z Google ✅",
+  "snackSignedIn": "Zalogowany z Google ✅",
+  "snackSignedOut": "Wylogowany",
+  "snackSignedInApple": "Zalogowany z Apple ✅",
+  "snackSignedInGoogle": "Zalogowany z Google ✅",
+  "snackUpgradedApple": "Konto uaktualnione z Apple ✅",
+  "snackUpgradedGoogle": "Konto uaktualnione z Google ✅",
+
+  "historyTitle": "Poprzednie refleksje",
+  "historyOpenCta": "Poprzednie refleksje",
+  "historyEmpty": "Brak zapisanych refleksji.",
+  "historyDeleteTitle": "Usunąć refleksję?",
+  "historyDeleteBody": "Spowoduje to trwałe usunięcie wybranego elementu.",
+  "deleteCta": "Usuń",
+
+  "historyButton": "Poprzednie Refleksje",
+  "historyEmptyTitle": "Brak refleksji",
+  "historyEmptyBody": "Wygeneruj coś najpierw — zapisane elementy pojawią się tutaj.",
+  "historyDelete": "Usuń",
+
+  "footerTitle": "Z Imanem, Sabr i Rahmą.",
+  "footerSubtitle": "Krok po kroku.",
+  "genericErrorSnack": "Coś poszło nie tak — spróbuj za chwilę.",
+
+  "upgradeAccountCta": "Zapisz swoje refleksje na wszystkich urządzeniach – utwórz konto",
+  "deleteAccount": "Usuń konto",
+  "exportData": "Eksportuj moje dane",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Spokojnie 🐯\nAI potrzebuje chwili przed następnym…",
+  "rateDailyLimit": "Nie masz już refleksji na teraz.\nUzyskaj więcej refleksji lub przejdź na Barakah.",
+  "rateCreditsExhausted": "Wykorzystałeś wszystkie swoje refleksje.\nDopełnij lub przejdź na Barakah, aby kontynuować.",
+  "rateGraceReflectionsExhausted": "Nie masz już refleksji na teraz.\nUzyskaj więcej refleksji lub przejdź na Barakah.",
+  "rateReflectionsExhausted": "Wykorzystałeś wszystkie swoje refleksje.\nDopełnij lub przejdź na Barakah, aby kontynuować.",
+
+  "blessedDescription": "Barakah odblokowuje funkcje premium, przyszłe kategorie i specjalny znaczek.",
+  "championDescription": "Barakah odblokowuje funkcje premium, przyszłe kategorie i specjalny znaczek.",
+
+  "ratePlanExhausted": "Twoje refleksje są teraz puste. Plan: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard lub Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Nie udało się sprawdzić Twoich refleksji: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Błąd sieci" }
+    }
+  },
+
+  "rateCheckGenericError": "Coś poszło nie tak podczas sprawdzania Twoich refleksji.",
+  "aiFallbackGeneric": "Coś poszło nie tak — spróbuj ponownie za chwilę.",
+
+  "limitSectionTitle": "Refleksje",
+  "limitTodayLabel": "Użycie",
+  "limitCreditsLabel": "Pozostałe refleksje: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plan: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard lub Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Ładowanie…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
+
+  "aiLimitTitle": "Refleksje",
+  "aiLimitSubtitle": "Każda odpowiedź zużywa 1 refleksję. Standard zawiera refleksje początkujące. Barakah odblokowuje kategorie premium i umożliwia dopełnienia.",
+  "aiLimitProgressLabel": "{used} / {total} refleksji wykorzystane",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Refleksje",
+  "reflectionsUsageLabel": "Użycie",
+  "reflectionsRemainingLabel": "Pozostałe refleksje: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plan: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard lub Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Ładowanie…",
+  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+
+  "reflectionsTitle": "Refleksje",
+  "reflectionsSubtitle": "Każda odpowiedź zużywa 1 refleksję. Standard zawiera refleksje początkujące. Barakah odblokowuje kategorie premium i umożliwia dopełnienia.",
+  "reflectionsProgressLabel": "{used} / {total} refleksji wykorzystane",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Usuń konto",
+  "settingsDeleteDescription": "Trwale usuń swoje konto i wszystkie powiązane dane.",
+  "settingsDeleteButtonLabel": "Usuń moje konto",
+  "settingsDeleteDialogTitle": "Usunąć konto?",
+  "settingsDeleteDialogBody": "Ta akcja jest trwała i nie można jej cofnąć.\n\nWszystkie Twoje czaty, historia i informacje o koncie zostaną usunięte.",
+  "settingsDeleteDialogCancel": "Anuluj",
+  "settingsDeleteDialogConfirm": "Usuń",
+
+  "settingsFreeLimitUsedTitle": "Refleksje początkujące wykorzystane",
+  "settingsFreeLimitUsedDescription": "Refleksje początkujące dla tego urządzenia zostały wykorzystane. Przejdź na Barakah lub kup więcej refleksji, aby kontynuować.",
+
+  "settingsStarterReflectionsUsedTitle": "Refleksje początkujące wykorzystane",
+  "settingsStarterReflectionsUsedDescription": "Refleksje początkujące dla tego urządzenia zostały wykorzystane. Przejdź na Barakah lub kup więcej refleksji, aby kontynuować.",
+
+  "deviceBoundError": "To urządzenie jest już połączone z innym kontem. Zaloguj się oryginalnym kontem.",
+
+  "premiumTitle": "Tryb Barakah",
+  "premiumSubtitleBasic": "Odblokuj pełne doświadczenie Nuria.",
+  "premiumSubtitleChampion": "Jesteś w trybie Barakah. Potrzebujesz więcej refleksji?",
+
+  "premiumCurrentPlan": "Obecny plan: {plan}",
+  "premiumCreditsStatus": "Refleksje: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Zakupy są teraz niedostępne.",
+  "premiumSignInToPurchase": "Zaloguj się, aby kupić refleksje lub odblokować Barakah.",
+
+  "premiumRestorePurchases": "Przywróć zakupy",
+  "premiumProcessing": "Przetwarzanie…",
+  "premiumRestoreHintTitle": "Już kupiłeś Barakah lub refleksje na tym urządzeniu lub innym?",
+  "premiumRestoreHintBody": "Przywróć swoje zakupy, jeśli się nie pokazują.",
+
+  "premiumBuyCredits200": "Kup 200 refleksji",
+  "premiumBuyCredits400": "Kup 400 refleksji",
+  "premiumBecomeChampionOneTime": "Przejdź na tryb Barakah",
+  "premiumChampionHint": "W trybie Barakah możesz dodawać dodatkowe refleksje, gdy tylko ich potrzebujesz.",
+
+  "premiumUpgradeCta": "Przejdź na wersję premium",
+  "premiumRequiredForCategory": "Ta kategoria jest dostępna tylko dla użytkowników Barakah. Przejdź na wersję premium w Ustawieniach, aby odblokować całą zawartość premium.",
+  "premiumBenefitsBasic": "Odblokuj Barakah, aby uzyskać dodatkowe refleksje, dostęp do kategorii premium i kontynuuj, gdy potrzebujesz wskazówek.",
+  "premiumBenefitsChampion": "Jesteś w trybie Barakah. Jeśli Ci brakuje, dodaj kilka dodatkowych refleksji i kontynuuj bez przerw.",
+  "premiumButtonBecomeChampion": "Odblokuj Barakah",
+  "premiumButtonTopup1000": "Dodaj 1000 refleksji",
+  "premiumChampionBadge": "Barakah aktywny",
+  "premiumLoadingStore": "Ładowanie sklepu…",
+
+  "blessedTitle": "Tryb Barakah",
+  "blessedSubtitleGrace": "Odblokuj pełne doświadczenie Nuria.",
+  "blessedSubtitleBlessed": "Jesteś w trybie Barakah. Potrzebujesz więcej refleksji?",
+
+  "blessedCurrentPlan": "Obecny plan: {plan}",
+  "blessedReflectionsStatus": "Refleksje: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Zakupy są teraz niedostępne.",
+  "blessedProductNotAvailable": "Ten produkt nie jest jeszcze dostępny w sklepie. Spróbuj później.",
+  "blessedPurchaseError": "Coś poszło nie tak z zakupem. Spróbuj ponownie.",
+  "blessedSignInToPurchase": "Zaloguj się, aby kupić refleksje lub odblokować Barakah.",
+
+  "blessedRestorePurchases": "Przywróć zakupy",
+  "blessedProcessing": "Przetwarzanie…",
+  "blessedRestoreHintTitle": "Już kupiłeś Barakah lub refleksje na tym urządzeniu lub innym?",
+  "blessedRestoreHintBody": "Przywróć swoje zakupy, jeśli się nie pokazują.",
+
+  "blessedBuyReflections100": "Dodaj 100 refleksji",
+  "blessedBuyReflections200": "Kup 200 refleksji",
+  "blessedBuyReflections400": "Kup 400 refleksji",
+  "blessedBecomeBlessedOneTime": "Przejdź na Barakah",
+  "blessedTopupHint": "W trybie Barakah możesz dodawać dodatkowe refleksje, gdy tylko ich potrzebujesz.",
+
+  "blessedUpgradeCta": "Przejdź na wersję premium",
+  "blessedRequiredForCategory": "Ta kategoria jest dostępna tylko dla użytkowników Barakah. Przejdź na wersję premium w Ustawieniach, aby odblokować całą zawartość premium.",
+  "blessedFeatureLocked": "Odblokuj Barakah, aby uzyskać dostęp do tej funkcji.",
+  "lockedCategoriesHint": "Niektóre kategorie są zarezerwowane dla członków Barakah. Odblokuj je, aby odkryć każdą refleksję na swojej duchowej podróży.",
+  "blessedBenefitsGrace": "Odblokuj Barakah, aby uzyskać dodatkowe refleksje, dostęp do kategorii premium i kontynuuj, gdy potrzebujesz wskazówek.",
+  "blessedBenefitsBlessed": "Jesteś w trybie Barakah. Jeśli Ci brakuje, dodaj kilka dodatkowych refleksji i kontynuuj bez przerw.",
+  "blessedButtonBecomeBlessed": "Odblokuj Barakah",
+  "blessedButtonTopup1000": "Dodaj 1000 refleksji",
+  "blessedBadge": "Barakah aktywny",
+  "blessedLoadingStore": "Ładowanie sklepu…",
+
+  "freePlanBlockedTitle": "Wykorzystałeś refleksje początkujące",
+  "freePlanBlockedBody": "Jesteś na planie Standard z refleksjami początkującymi i osiągnąłeś limit. Aby kontynuować — i odblokować kategorie premium — przejdź na Barakah.",
+  "freePlanBlockedCtaGoPremium": "Sprawdź opcje Barakah poniżej",
+
+  "graceBlockedTitle": "Wykorzystałeś refleksje początkujące",
+  "graceBlockedBody": "Jesteś na planie Standard z refleksjami początkującymi i osiągnąłeś limit. Aby kontynuować — i odblokować kategorie premium — przejdź na Barakah.",
+  "graceBlockedCtaGoBlessed": "Sprawdź opcje Barakah poniżej",
+
+  "rateGuestMustSignIn": "Zaloguj się, aby używać Nuria i swoich refleksji.",
+
+  "guestNoCreditsTitle": "Tryb gościa",
+  "guestNoCreditsBody": "Jako gość możesz przeglądać aplikację, ale nie możesz używać refleksji. Zaloguj się później w Ustawieniach, aby używać refleksji i odblokowywać zakupy.",
+
+  "guestNoReflectionsTitle": "Tryb gościa",
+  "guestNoReflectionsBody": "Jako gość możesz przeglądać aplikację, ale nie możesz używać refleksji. Zaloguj się później w Ustawieniach, aby używać refleksji i odblokowywać zakupy.",
+
+  "guestDialogContinue": "Kontynuuj",
+  "guestDialogLoginInstead": "Zaloguj się zamiast tego",
+
+  "optionalLabel": "opcjonalne",
+
+  "accountDeleteSuccessTitle": "Konto usunięte",
+  "accountDeleteSuccessBody": "Twoje konto i powiązane dane zostały pomyślnie usunięte.",
+  "accountDeleteSuccessClose": "Zamknij",
+  "accountDeleteErrorTitle": "Nie udało się usunąć konta",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Ponowne uwierzytelnianie zostało anulowane. Zaloguj się ponownie i spróbuj usunięcia ponownie.",
+  "accountDeleteReauthRequired": "Usunięcie konta wymaga niedawnego logowania. Wyloguj się, zaloguj się ponownie i spróbuj usunięcia ponownie.",
+  "settingsDeletePermanentWarning": "Ta akcja jest trwała i nie można jej cofnąć. Wszystkie dane powiązane z Twoim kontem zostaną usunięte.",
+
+  "dailyGraceTitle": "Codzienna Wskazówka",
+  "dailyGraceScriptureLabel": "WERSET DNIA",
+  "dailyGraceSaintLabel": "UCZONY TYGODNIA",
+  "dailyGraceReflectionLabel": "WIECZORNA REFLEKSJA",
+  "dailyGraceCopiedToast": "Werset skopiowany do schowka",
+
+  "dailyScripture0Text": "Zaiste, sprawiedliwi będą w ogrodach i rzeczach, na honorowym miejscu u wszechmocnego Króla.",
+  "dailyScripture0Ref": "Koran 54:54-55",
+  "dailyScripture1Text": "I nie posłaliśmy ciebie, o Muhammadzie, inaczej niż jako miłość dla światów.",
+  "dailyScripture1Ref": "Koran 21:107",
+  "dailyScripture2Text": "Czyż Allah nie wystarczy dla swojego sługi? Jednak przestraszają cię innymi oprócz Niego.",
+  "dailyScripture2Ref": "Koran 39:36",
+  "dailyScripture3Text": "Być może nienawidzisz czegoś, a to jest dla ciebie dobre; i być może kochasz coś, a to jest dla ciebie złe. A Allah wie, podczas gdy ty nie wiesz.",
+  "dailyScripture3Ref": "Koran 2:216",
+  "dailyScripture4Text": "Zaiste, Allah jest z cierpliwymi.",
+  "dailyScripture4Ref": "Koran 2:153",
+  "dailyScripture5Text": "Pamiętaj o Mnie; będę pamiętać o tobie. I bądź wdzięczny Mnie i nie zaprzeczaj Mnie.",
+  "dailyScripture5Ref": "Koran 2:152",
+  "dailyScripture6Text": "Zaiste, najszlachetniejszy z was w oczach Allaha jest najbardziej bogobojny z was.",
+  "dailyScripture6Ref": "Koran 49:13",
+  "dailyScripture7Text": "I Twój Pan zarządził, że nie będziesz czcić nikogo poza Nim, i że będziesz pobożny wobec swoich rodziców.",
+  "dailyScripture7Ref": "Koran 17:23",
+  "dailyScripture8Text": "Zaiste, wraz z trudnością przychodzi łatwość.",
+  "dailyScripture8Ref": "Koran 94:6",
+  "dailyScripture9Text": "I jest z tobą gdziekolwiek jesteś. I Allah tego, co robisz, widzi.",
+  "dailyScripture9Ref": "Koran 57:4",
+  "dailyScripture10Text": "Allah nie obciąża duszy poza to, co może wydźwignąć.",
+  "dailyScripture10Ref": "Koran 2:286",
+  "dailyScripture11Text": "I ten, kto polega na Allachu — zatem On mu wystarczy.",
+  "dailyScripture11Ref": "Koran 65:3",
+  "dailyScripture12Text": "Moje miłosierdzie obejmuje wszystkie rzeczy.",
+  "dailyScripture12Ref": "Koran 7:156",
+  "dailyScripture13Text": "I gdy Moi słudzy pytają cię o Mnie — zaiste jestem blisko. Odpowiadam pytającemu, gdy mnie woła.",
+  "dailyScripture13Ref": "Koran 2:186",
+  "dailyScripture14Text": "Ktokolwiek czyni sprawiedliwość, czy mężczyzna czy kobieta, będąc wierzący — na pewno damy mu dobre życie.",
+  "dailyScripture14Ref": "Koran 16:97",
+  "dailyScripture15Text": "Zaiste, Allah nie zmieni stanu ludu, dopóki nie zmienią tego, co jest w sobie.",
+  "dailyScripture15Ref": "Koran 13:11",
+  "dailyScripture16Text": "Nie słabnij i nie smucz się, a będziesz zwycięski, jeśli jesteś wierzący.",
+  "dailyScripture16Ref": "Koran 3:139",
+  "dailyScripture17Text": "O Moi słudzy, którzy popełniliście zbrodnie przeciwko sobie, nie rozpaczajcie z powodu miłosierdzia Allaha. Zaiste, Allah przebacza wszystkie grzechy.",
+  "dailyScripture17Ref": "Koran 39:53",
+  "dailyScripture18Text": "I ten, kto boi się Allaha — On uczyni dla niego drogę wyjścia i zapewni mu z miejsca, gdzie się nie spodziewa.",
+  "dailyScripture18Ref": "Koran 65:2-3",
+  "dailyScripture19Text": "Nie trać nadzieję w miłosierdzie Allaha.",
+  "dailyScripture19Ref": "Koran 12:87",
+  "dailyScripture20Text": "I zaiste, uczyniliśmy Koran łatwym do zapamiętania. Czy więc jest ktoś, kto będzie pamiętać?",
+  "dailyScripture20Ref": "Koran 54:17",
+  "dailyScripture21Text": "I znalazł cię zagubionego i poprowadził cię.",
+  "dailyScripture21Ref": "Koran 93:7",
+  "dailyScripture22Text": "I twój Pan mówi: wzywacie Mnie; będę wam odpowiadać.",
+  "dailyScripture22Ref": "Koran 40:60",
+  "dailyScripture23Text": "I zaiste, czcimy synów Adama.",
+  "dailyScripture23Ref": "Koran 17:70",
+  "dailyScripture24Text": "I szukaj pomocy przez cierpliwość i modlitwę.",
+  "dailyScripture24Ref": "Koran 2:45",
+  "dailyScripture25Text": "Ktokolwiek czyni pondus dobra, zobaczy go.",
+  "dailyScripture25Ref": "Koran 99:7",
+  "dailyScripture26Text": "Bez wątpienia pomoc Allaha jest bliska.",
+  "dailyScripture26Ref": "Koran 2:214",
+  "dailyScripture27Text": "I ktokolwiek jest wdzięczny — jego wdzięczność jest tylko dla jego własnego dobra.",
+  "dailyScripture27Ref": "Koran 31:12",
+
+  "dailyReflection0": "Gdy dzień się kończy, rozważ jeden moment, w którym było widać miłosierdzie Allaha.",
+  "dailyReflection1": "Przynieś przed Allaha wszystko, co tym razem Ciebie w sercu",
+  "dailyReflection2": "Wymień jedno błogosławieństwo z tego dnia i wyraź wdzięczność Allahowi.",
+  "dailyReflection3": "Odpoczywaj w wiedzy, że jesteś trzymany w nieskończonej opiece Allaha.",
+  "dailyReflection4": "Zastanów się, gdzie czułeś wezwanie do okazania współczucia i życzliwości dzisiaj.",
+  "dailyReflection5": "Puść to, czego nie możesz kontrolować i ufaj doskonałemu planowi Allaha.",
+  "dailyReflection6": "Gdy dzień się kończy, przyjmij pokój w pamięci Allaha.",
+  "dailyReflection7": "Rozważ, jak czciłeś swoje modlitwy dzisiaj i dziękuj Allahowi za każdą.",
+  "dailyReflection8": "Zastanów się nad momentem, w którym cierpliwość (Sabr) kierowała Twoimi działaniami dzisiaj.",
+  "dailyReflection9": "Poproś przebaczenia za wszelkie niedostatki dzisiaj — miłosierdzie Allaha jest nieograniczone.",
+  "dailyReflection10": "Wymień jedną osobę, której pokazałeś życzliwość dzisiaj i módl się za nią.",
+  "dailyReflection11": "Siedź z wdzięcznością: co Allah Ci dzisiaj dał, czego nie prosiłeś?",
+  "dailyReflection12": "Zastanów się nad wersetem z Koranu, który przemawia do Twojej obecnej sytuacji.",
+  "dailyReflection13": "Rozważ, jak wykorzystałeś swój czas dzisiaj — i poświęć jutro Allahowi.",
+  "dailyReflection14": "Odpoczywaj wiedząc, że niezależnie od trudności, która przyszła dzisiaj, Allah był z Tobą.",
+  "dailyReflection15": "Pomyśl o jeden sposób, w jaki służyłeś swojej rodzinie lub społeczności dzisiaj dla Allaha.",
+  "dailyReflection16": "Gdy noc się zbliża, dokonaj Tawbah — Allah kocha tych, którzy się do Niego zwracają.",
+  "dailyReflection17": "Zastanów się nad pięknem, które Allah umieścił w Twoim dniu, bez względu na to, jak małe.",
+  "dailyReflection18": "Rozważ, co się nauczyłeś dzisiaj i jak to zbliża Cię do Allaha.",
+  "dailyReflection19": "Pozwól zmartwieniom dnia spocząć z Allahiem — On nosi to, czego nie możesz.",
+  "dailyReflection20": "Pomyśl o momencie dzisiaj, w którym mogłeś wybrać lepiej, i ucz się z tego delikatnie.",
+  "dailyReflection21": "Módl się za tych, którzy cierpią — Twoja modlitwa jest dla nich prezentem.",
+  "dailyReflection22": "Przypomnij sobie błogosławieństwo, które często pomijasz i poświęć chwilę na podziękowanie Allahowi.",
+  "dailyReflection23": "Zastanów się nad swoimi intencjami dzisiaj — były dla Allaha? Jutro zacznij od nowa.",
+  "dailyReflection24": "Gdy noc się ucisza, słuchaj bliskości Allaha w ciszy.",
+  "dailyReflection25": "Rozważ, gdzie dzisiaj znalazłeś siłę — ta siła pochodzi od Allaha.",
+  "dailyReflection26": "Wymień jedną rzecz, którą jutro zrobisz dla Allaha, której nie zrobiłeś dzisiaj.",
+  "dailyReflection27": "Gdy przygotowujesz się do wypoczynku, powierz swoją duszę Allahowi — On jest najlepszym opiekunem.",
+
+  "dailyRoleModel0": "Prorok Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Prorok Ibrahim (AS)",
+  "dailyRoleModel44": "Prorok Musa (AS)",
+  "dailyRoleModel45": "Prorok Isa (AS)",
+  "dailyRoleModel46": "Prorok Yusuf (AS)",
+  "dailyRoleModel47": "Prorok Dawud (AS)",
+  "dailyRoleModel48": "Prorok Sulayman (AS)",
+  "dailyRoleModel49": "Prorok Nuh (AS)",
+  "dailyRoleModel50": "Prorok Yunus (AS)",
+  "dailyRoleModel51": "Prorok Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Zezwól Nuria na używanie mojej lokalizacji do kierunku Qibli i czasów modlitwy",
+  "locationConsentHint": "Używane tylko do tych funkcji. Twoja lokalizacja nigdy nie jest udostępniana ani przechowywana.",
+
+  "askPageTitle": "Zapytaj Nuria",
+  "askPageDescription": "Zapytaj o wiarę, modlitwę, życie lub islamską praktykę i otrzymaj wskazówki zakorzenione w Koranie i Sunnie.",
+  "askPageInputHint": "Wpisz tutaj swoje pytanie…",
+  "askPageSubmitCta": "Zapytaj",
+  "askPageInputEmptyError": "Najpierw napisz pytanie.",
+  "askResultYourQuestion": "Twoje pytanie",
+
+  "guidancePageTitle": "Modlitwa i Wskazówka",
+  "qiblaFacingMecca": "W kierunku Mekki",
+  "qiblaCompassInstruction": "Obróć telefon, aż złota igła będzie skierowana do góry.\nTen kierunek wskazuje na Kibla (Mekka).",
+  "qiblaGpsUnavailableBody": "Sygnał GPS jest słaby. Wyjdź na zewnątrz i dotknij Ponów.",
+  "qiblaRetry": "Ponów",
+  "qiblaTitle": "Kierunek Kibli",
+  "qiblaDistanceLabel": "{km} km do Mekki",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Wymagana lokalizacja",
+  "qiblaLocationNeededBody": "Zezwól na dostęp do lokalizacji, aby Nuria mogła obliczyć kierunek Kaaby w Mekce z Twojej lokalizacji.",
+  "qiblaOpenSettings": "Otwórz Ustawienia",
+  "qiblaCompassLoading": "Lokalizowanie Twojej pozycji…",
+  "qiblaTowardMecca": "W kierunku Mekki",
+
+  "prayerTimesTitle": "Czasy Modlitwy",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Wymagana lokalizacja",
+  "prayerTimesLocationNeededBody": "Zezwól na dostęp do lokalizacji, aby Nuria mogła obliczyć dokładne czasy modlitwy dla Twojego miasta.",
+  "prayerTimesNextLabel": "Dalej",
+  "prayerTimesDoneLabel": "Gotowe",
+
+  "monthlyPrayerTimesTitle": "Miesięczne Czasy Modlitwy",
+  "monthlyPrayerTimesViewButton": "Wyświetl Cały Miesiąc",
+  "monthlyPrayerTimesNextMonth": "Następny miesiąc",
+  "monthlyPrayerTimesDayHeader": "Dzień",
+
+  "sharePrayerTimes": "Udostępnij czasy modlitwy",
+
+  "prayerNotificationsTitle": "Przypomnienia o Modlitwie",
+  "prayerNotificationsDescription": "Otrzymuj delikatne przypomnienie przed każdym czasem modlitwy, aby pozostać połączonym przez cały dzień.",
+  "prayerNotificationsEnable": "Włącz przypomnienia o modlitwie",
+  "prayerNotificationsOpenSettings": "Otwórz ustawienia powiadomień",
+  "prayerNotificationsDenied": "Powiadomienia są wyłączone",
+  "prayerNotificationsDeniedHint": "Przejdź do Ustawień i zezwól na powiadomienia dla Nuria, aby otrzymywać przypomnienia o czasie modlitwy.",
+
+  "notificationsConsentLabel": "Zezwól na powiadomienia o czasach modlitwy",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Modlitwa o Świcie",
+  "prayerNotifBodyFajr": "Najlepsza z modlitw to modlitwa świtu. Wstań, oczyść się i stań przed Allahiem.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Modlitwa Południowa",
+  "prayerNotifBodyDhuhr": "Wznów swój dzień i wróć do Allaha. Czas modlitwy Dhuhr się zbliża.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Modlitwa Popołudniowa",
+  "prayerNotifBodyAsr": "Strzeż środkową modlitwę. Czas Asr nadszedł — nie pozwól mu przejść.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Modlitwa o Zachodzie",
+  "prayerNotifBodyMaghrib": "Słońce zaszło. Ofiaruj Maghrib i bądź wdzięczny Allahowi za ten dzień.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Modlitwa Nocna",
+  "prayerNotifBodyIsha": "Zakończ swój dzień pamięcią o Allachu. Hayya 'alal falah — przyjdź do sukcesu.",
+
+  "outOfReflectionsBannerText": "Wykorzystałeś wszystkie swoje refleksje",
+  "outOfReflectionsBannerCta": "Uzyskaj więcej",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Dotknij koło, aby liczyć",
+  "dhikrResetButton": "Resetuj",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Ukończyłeś 99 wspominień Allaha. Niech będą światłem dla Twojego serca.",
+
+  "disclaimerTitle": "O wskazówkach tej aplikacji",
+  "disclaimerBody": "Nuria zapewnia islamskie refleksje, przypomnienia i duchową zawartość, aby wspierać Twoją osobistą podróż wiary. Ta zawartość jest oferowana wyłącznie w celach informacyjnych i inspirujących.\n\nNuria nie zastępuje uczonych.\nWskazówki w tej aplikacji nie są zamiennikiem nauczenia się od uczonego islamu, imama, muftiego lub nauczyciela wytrenowanego teologicznie. Jeśli masz pytania dotyczące wyroków religijnych, halal i haram lub osobistych zobowiązań religijnych, proszę zwrócić się do wykwalifikowanego religioznawcy w Twojej społeczności.\n\nTa aplikacja nie wydaje wyroków religijnych.\nNuria nie podejmuje autorytatywnych determinacji w sprawach fiqh (islamskiego ustawodawstwa) lub osobistych zobowiązań religijnych. Nic tutaj nie powinno być traktowane jako fatwa lub wiążąca instrukcja religijna.\n\nInterpretacje uczonych się różnią.\nIslam obejmuje bogatą różnorodność tradycji, szkół myśli (madhabs) i opinii uczonych. Zawartość w tej aplikacji odzwierciedla ogólne perspektywy i może nie reprezentować równomiernie każdej tradycji lub szkoły.\n\nSpołeczność ma znaczenie.\nTa aplikacja ma na celu zachęcenie do Twojego zaangażowania się w tradycje wiary, jednocześnie głęboko szanując witalną rolę Twojego lokalnego meczetu, imama i społeczności religijnej. Zachęcamy do pozostania w kontakcie z wykwalifikowanymi nauczycielami blisko Ciebie i uczenia się od nich.",
+  "disclaimerClose": "Rozumiem",
+  "disclaimerInfoTooltip": "O wskazówkach tej aplikacji",
+  "disclaimerSettingsSubtitle": "Wyłącznie w celach informacyjnych. Dotknij, aby przeczytać pełne zastrzeżenie.",
+  "disclaimerSectionHeader": "Zastrzeżenie wskazówek"
+}

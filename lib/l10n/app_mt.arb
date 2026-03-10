@@ -1,0 +1,585 @@
+{
+  "@@locale": "mt",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Agħżel il-lingwa tiegħek",
+  "languageSelectSub": "Tista' tbiddel dan aktar tard fl-Impostazzjonijiet",
+  "actionContinue": "Kompli",
+  "languageSuggestedHeader": "Suġġerit",
+  "languageAllHeader": "Il-lingwi kollha",
+  "languageSuggestedBadge": "Suġġerit",
+  "languageSearchHint": "Fittex…",
+
+  "planGrace": "Standard",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Il-Gwida Kuljum",
+  "categoryFaithTrust": "Il-Iman u l-Fidwa",
+  "categoryPrayerReflection": "Ir-Riflessjoni tal-Għana",
+  "categoryHopeDifficultTimes": "Is-Sabr u l-Eħel",
+  "categoryForgiveness": "It-Tawbah u r-Rahma",
+  "categoryLoveCompassion": "Ir-Rahmah u l-Komppassjoni",
+  "categoryStrengthCourage": "Il-Qawwa tal-Iman",
+  "categoryGratitude": "Il-Qalb Imla ta' Shukr",
+  "categoryPurposeCalling": "Il-Għan tal-Ħajja",
+  "categoryFamilyRelationships": "Il-Ħabriet tal-Familja",
+  "categoryPeaceAnxietyRelief": "Is-Salam fil-Qlub",
+  "categoryWisdomOfJesus": "Ħikma tal-Profeti",
+  "categoryHumilityCharacter": "Il-Humilta u l-Akhlaq",
+  "categoryOvercomingTemptation": "Irrid il-Fitna",
+  "categoryEveningReflection": "Adhkar il-Masaa'",
+  "categoryCustom": "Riflessjoni Personali",
+  "dhikrMeaningSubhanallah": "Glorja lil Allaħ",
+  "dhikrMeaningAlhamdulillah": "Il-lode kollha jmorru lil Allaħ",
+  "dhikrMeaningAllahuAkbar": "Allaħ huwa l-Ikbar",
+  "quranVerseHeartAtRest": "Verament, fil-ftakar f'Allaħ, il-qalb issib mistrieħ.",
+
+  "promptHint": "Agħfas il-kategorija għal gwida u riflessjoni Islamija",
+
+  "currentLanguage": "Il-lingwa attwali",
+  "settingsLanguage": "Impostazzjonijiet tal-lingwa",
+  "settingsTitle": "Impostazzjonijiet",
+  "chooseLanguage": "Agħżel il-lingwa tiegħek",
+  "continueCta": "Kompli",
+
+  "promptDailyGuidance": "Ikteb gwida qasira u prattika kuljum mirradia fil-Iman Sunni – miksuba fil-Qur'an, il-Hadith, u t-taghlim tal-Profeta Muhammad. Agħżel angolu ġdid kull darba: virtu mill-etica Islamija, verità mill-Sunnah, ħikma mill-Kompaniji tal-Profeta, jew prattika qatgħa mill-tradizzjoni Islamija. Inkludu vers wahda mill-Qur'an (Sura:Aya) u riflessjoni ta' sentenza 1–2 biex ddur matul il-ġurnata. Bħala għażla, ikkonnettja mal-kalendar Islamiku jew data importanti jekk relevanti.",
+
+  "promptFaithTrust": "Ikteb riflessjoni qasira Islamija dwar il-Iman u l-fidwa fl-plan ta' Allah (Tawakkul). Ssasaha fil-Qur'an, l-eżempju tal-Profeta Muhammad, u l-Iman tas-Sahaba. Ivarji t-tema kull darba: fiduċja ta' Allah matul l-insigurtà, imdgħad fuq il-ħikma divina, is-sabr fl-ittestjar, jew perseveranza qatgħa fil-ħajja kuljum. Inkludu vers wahda mill-Qur'an u passu onest għal illum maħruġ mill-ħikma spirwali Islamija.",
+
+  "promptPrayerReflection": "Ikteb riflessjoni qasira Islamija dwar il-Għana, id-Dua, jew id-Dhikr. Ivarji l-forma kull darba: adhkar tal-għodwa jew tal-lejl (Adhkar), riflessjoni dwar il-ħames għaniet kuljum, meditazzjoni ta' vers mill-Qur'an, jew suplit miċ-ċor. Inkludu vers wahda mill-Qur'an u ssemmi b'mod qasir il-forma ta' għana użata.",
+
+  "promptHopeDifficultTimes": "Ikteb riflessjoni Islamija dwar is-sabr u l-eħel matul ir-riskjul. Aqbad minn it-taghlim Qur'aniku dwar il-ittestjajiet, il-perseveranza tal-Profeti, u r-rahma ta' Allah fl-mumenti diffiċli. Ivarji l-angolu kull darba. Inkludu vers wahda mill-Qur'an u perspettiva waħda li tuaggja mill-tradizzjoni Islamija.",
+
+  "promptForgiveness": "Ikteb riflessjoni ħikmata Islamija dwar it-trawwieġ ta' tawbah u r-rahma ta' Allah. Aqbad minn it-taghlim Qur'aniku dwar it-tawbah, il-komppassjoni ta' Allah, u l-eżempju ta' trawwieġ tal-Profeta Muhammad. Ivarji t-tema: ritorn lejn Allah, ix-xitja lil oħrajn, liwwija ta' relazzjonijiet, jew immaġina fil-rahma ta' Allah wara żbalji. Inkludu vers wahda mill-Qur'an u passu konkrit.",
+
+  "promptLoveCompassion": "Ikteb riflessjoni qasira Islamija dwar ir-rahmah u l-komppassjoni fil-ħajja kuljum. Aqbad minn l-eżempju tal-Profeta Muhammad, il-kunċett ta' Ihsan (eċċellenza), u t-taghlim Islamiku dwar il-ġentilezza mal-familja, is-sjieda, u l-vulnerabbli. Inkludu vers wahda mill-Qur'an u azzjoni waħda żgħira ta' komppassjoni biex tipprattika illum.",
+
+  "promptStrengthCourage": "Ikteb riflessjoni Islamija dwar il-qawwa u l-koraġġ mirridiati mill-iman. Aqbad minn eżempji tal-Profeti, il-komunità Musulmana bikrija, u l-vierja li baqgħu fermi fl-ittestjar. Ivarji t-tema kull darba: koraġġ permezz tal-iman, qawwa fil-għana, fiduċja ta' Allah matul il-biża', jew reżiljenza fid-diffikultà. Inkludu vers wahda mill-Qur'an u suplit qasira jew frażi ta' dhikr.",
+
+  "promptGratitude": "Ikteb riflessjoni Islamija dwar il-gratitudni (Shukr) lejn Allah. Sassaha fl-it-taghlim Qur'aniku u t-tradizzjoni ta' profetija. Ivarji l-angolu: gratitudni fl-ittestjar, qadira ta' blessings żgħar, tibda' l-ġurnata bi sieh ta' Allah, jew rikonoxximent ta' gwida ta' Allah fil-ħajja kuljum. Inkludu vers wahda mill-Qur'an u prattika ta' gratitudni.",
+
+  "promptPurposeCalling": "Ikteb riflessjoni Islamija dwar għan il-ħajja fil-għana ta' Allah u l-għixien b'mod righteous. Aqbad minn it-taghlim Qur'aniku dwar il-għan, is-servizz ta' oħrajn, u l-użu ta' doni tiegħek għal ħaġa tajba. Ivarji t-tema kull darba: is-servizz tal-familja u l-komunità, it-talaħ ta' gwida permezz ta' Istikhara, l-għixien b'intenzjoni, jew is-sejba ta' signifu fil-ħidma ordinarji. Inkludu vers wahda mill-Qur'an u żewġ mistoqsijiet tal-ifkirra.",
+
+  "promptFamilyRelationships": "Ikteb gwida ħikmata Islamija dwar il-familja u r-relazzjonijiet mirradia fil-Qur'an u l-eżempju tal-Profeta Muhammad. Ivarji t-tema kull darba: ġentilezza fil-ħajja tal-familja, is-sabr fl-inkonfliktu, il-glorifikazzjoni tal-ġenituri, it-tarbija ta' tfal fil-iman, jew issaħħiħ il-ġieħ. Inkludu vers wahda mill-Qur'an u prattika relazzjonali waħda biex ttempta.",
+
+  "promptPeaceAnxietyRelief": "Ikteb riflessjoni qatgħa Islamija dwar is-salam tal-qlub permezz ta' dhikr ta' Allah u fiduċja fil-plan tiegħu. Aqbad minn it-taghlim Qur'aniku dwar it-tnatqil tal-qlub, il-għana, u s-surrendra tal-irjala ta' Allah. Ivarji l-approċċ kull darba u inkludu vers wahda mill-Qur'an u prattika waħda sempliċi mill-tradizzjoni Islamija.",
+
+  "promptWisdomOfJesus": "Ikteb biċċa ħikma qasira mill-Profeti kif insenjat fl-Islam. Aqbad mill-Qur'an jew il-Hadith u spjega b'mod qasir kif l-iskolari Islaiku huma fahmu t-taghlim. Ivarji t-topiċ kull darba: karattru, sabr, humilta, iman, jew kondotta kuljum. Inkludu referenza Qur'anika jew Hadith u applikazzjoni prattika waħda.",
+
+  "promptHumilityCharacter": "Ikteb riflessjoni Islamija dwar il-humilta (Tawadhu) u l-karattru tajjeb (Akhlaq). Aqbad minn it-taghlim Qur'aniku, l-eżempju tal-Profeta Muhammad, u t-tradizzjoni ta' żvilupp ta' karattru Islamiku. Ivarji t-tema: humilta fil-lideranza, aqbil ta' żbalji, it-trattament ta' oħrajn b'rispett, jew tkabbir spirwali permezz ta' aut-riflessjoni. Inkludu vers wahda mill-Qur'an u abit waħda biex tipprattika.",
+
+  "promptOvercomingTemptation": "Ikteb riflessjoni Islamija dwar ir-reżistenza ta' tentazzjoni u l-mixi fuq il-mogħdija dritta. Aqbad minn il-gwida Qur'anika, dhikr ta' Allah (Dhikr), għana (Salah), u eżempji ta' vierja li għalbu l-ispettakli. Ivarji l-angolu kull darba. Inkludu vers wahda mill-Qur'an u strateġija prattika waħda għall-24 saha li jmiss.",
+
+  "promptEveningReflection": "Ikteb riflessjoni qatgħa Islamija tal-lejl mirradia fit-tradizzjoni ta' dhikr tal-lejl (Adhkar al-Masaa'). Ċajta fil-gratitudni, aut-riflessjoni (Muhasabah), u fiduċja ta' Allah qabel ir-ripos. Inkludu 3–5 mistoqsijiet qasir tal-ifkirra dwar il-ġurnata, suplit qasira tal-għoti, u vers waħda mill-Qur'an.",
+
+  "wordCount": "{count, plural, one {{count} kelma} other {{count} kliem}}",
+
+  "optionsCta": "Għażliet",
+  "newCta": "Ġdid",
+  "actionsTitle": "Xi trid tagħmel?",
+  "copy": "Nسخ",
+  "share": "Aqsam",
+  "close": "Agħlaq",
+  "copiedToast": "Kopjat mal-clipboard",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Il-Gwida Kuljum" }
+    }
+  },
+
+  "regenerateErrorTitle": "Ma stajtx niġġenera risposta ġdida",
+  "regenerateErrorBody": "{error}\n\nTrid ttempta mill-ġdid?",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Żball tan-netwerk" }
+    }
+  },
+
+  "cancelCta": "Kanċella",
+  "retryCta": "Tempta mill-ġdid",
+
+  "authTitle": "Nħoloq il-kont tiegħek",
+  "continueAsGuest": "Kompli bħala għast",
+  "signInGoogle": "Idħol permezz ta' Google",
+  "signInApple": "Idħol permezz ta' Apple",
+  "signInEmail": "Idħol permezz ta' Email",
+  "upgradeWithApple": "Kompli permezz ta' Apple",
+  "mustAccept": "Trid taċċetta t-Termini u taċċetla l-Politika ta' Privacy.",
+  "termsLabel": "Naċċetta l-Kundizzjonijiet tas-Servizz",
+  "privacyLabel": "Aqrajt il-Politika ta' Privacy",
+  "marketingOptIn": "Nixtieq nikseb ħabbar u offerti",
+  "openTerms": "Kundizzjonijiet tas-Servizz",
+  "openPrivacy": "Politika ta' Privacy",
+
+  "accountSection": "Kont",
+  "guestMode": "Modalità għast",
+  "signedIn": "Idħalt",
+  "upgradeHint": "Iktaħżen ir-riflessjonijiet tiegħek fuq idevices billi nħoloq kont.",
+  "upgradeWithGoogle": "Kompli permezz ta' Google",
+  "signOut": "Oħroġ",
+
+  "snackUpgraded": "Kont modernizzat permezz ta' Google ✅",
+  "snackSignedIn": "Idħalt permezz ta' Google ✅",
+  "snackSignedOut": "Oħroġt",
+  "snackSignedInApple": "Idħalt permezz ta' Apple ✅",
+  "snackSignedInGoogle": "Idħalt permezz ta' Google ✅",
+  "snackUpgradedApple": "Kont modernizzat permezz ta' Apple ✅",
+  "snackUpgradedGoogle": "Kont modernizzat permezz ta' Google ✅",
+
+  "historyTitle": "Riflessjonijiet ta' qabel",
+  "historyOpenCta": "Riflessjonijiet ta' qabel",
+  "historyEmpty": "L-ebda riflessjonijiet iktaħżna sa issa.",
+  "historyDeleteTitle": "Ħassar ir-riflessjoni?",
+  "historyDeleteBody": "Dan jneħħi b'mod permanenti l-element magħżul.",
+  "deleteCta": "Ħassar",
+
+  "historyButton": "Riflessjonijiet ta' Qabel",
+  "historyEmptyTitle": "L-ebda riflessjonijiet sa issa",
+  "historyEmptyBody": "Iġġenera xi ħaġa l-ewwel — il-ħfadjiet iktaħżna yyompru hawn.",
+  "historyDelete": "Ħassar",
+
+  "footerTitle": "B'Iman, sabr u rahma.",
+  "footerSubtitle": "Pass waħda kull darba.",
+  "genericErrorSnack": "Xi ħaġa marret ħażina — jekk jogħġbok tempta mill-ġdid fi ftit mument.",
+
+  "upgradeAccountCta": "Iktaħżen ir-riflessjonijiet tiegħek fuq idevices – nħoloq kont",
+  "deleteAccount": "Ħassar il-kont",
+  "exportData": "Esporta d-data tiegħi",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Faċli, tala 🐯\nL-AI għandu jieħu mument qabel l-li jmiss…",
+  "rateDailyLimit": "Ħrejt ir-riflessjonijiet għal issa.\nIkxeb aktar riflessjonijiet jew modernizza għal Barakah.",
+  "rateCreditsExhausted": "Użajt ir-riflessjonijiet kollha tiegħek.\nImplulja jew modernizza għal Barakah biex tkompli.",
+  "rateGraceReflectionsExhausted": "Ħrejt ir-riflessjonijiet għal issa.\nIkxeb aktar riflessjonijiet jew modernizza għal Barakah.",
+  "rateReflectionsExhausted": "Użajt ir-riflessjonijiet kollha tiegħek.\nImplulja jew modernizza għal Barakah biex tkompli.",
+
+  "blessedDescription": "Barakah jiftaħ il-karatteristiċi premium, kategoriji futuri, u badge speċjali.",
+  "championDescription": "Barakah jiftaħ il-karatteristiċi premium, kategoriji futuri, u badge speċjali.",
+
+  "ratePlanExhausted": "Ir-riflessjonijiet tiegħek huma vojta issa. Plann: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard jew Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Ma stajtx niċċekkja r-riflessjonijiet tiegħek: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Żball tan-netwerk" }
+    }
+  },
+
+  "rateCheckGenericError": "Xi ħaġa marret ħażina biex tiċċekkja r-riflessjonijiet tiegħek.",
+  "aiFallbackGeneric": "Xi ħaġa marret ħażina — jekk jogħġbok tempta mill-ġdid fi ftit mument.",
+
+  "limitSectionTitle": "Riflessjonijiet",
+  "limitTodayLabel": "Użu",
+  "limitCreditsLabel": "Riflessjonijiet li jħallulu: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plann: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard jew Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Tistennew…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
+
+  "aiLimitTitle": "Riflessjonijiet",
+  "aiLimitSubtitle": "Kull risposta tuża 1 riflessjoni. Standard jinkludi riflessjonijiet starter. Barakah jiftaħ kategoriji premium u jwettaq top-ups.",
+  "aiLimitProgressLabel": "{used} / {total} riflessjonijiet użati",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Riflessjonijiet",
+  "reflectionsUsageLabel": "Użu",
+  "reflectionsRemainingLabel": "Riflessjonijiet li jħallulu: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plann: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard jew Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Tistennew…",
+  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+
+  "reflectionsTitle": "Riflessjonijiet",
+  "reflectionsSubtitle": "Kull risposta tuża 1 riflessjoni. Standard jinkludi riflessjonijiet starter. Barakah jiftaħ kategoriji premium u jwettaq top-ups.",
+  "reflectionsProgressLabel": "{used} / {total} riflessjonijiet użati",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Ħassar il-kont",
+  "settingsDeleteDescription": "Ħassar b'mod permanenti il-kont tiegħek u d-data assoċjata.",
+  "settingsDeleteButtonLabel": "Ħassar il-kont tiegħi",
+  "settingsDeleteDialogTitle": "Ħassar il-kont?",
+  "settingsDeleteDialogBody": "Din l-azzjoni hija permanenti u ma tistax tinħassar.\n\nIt-tfigħat, l-istorja u l-informazzjoni tal-kont tiegħek kollha tħassru.",
+  "settingsDeleteDialogCancel": "Kanċella",
+  "settingsDeleteDialogConfirm": "Ħassar",
+
+  "settingsFreeLimitUsedTitle": "Riflessjonijiet starter użati",
+  "settingsFreeLimitUsedDescription": "Ir-riflessjonijiet starter għal dan il-device ġew użati. Modernizza għal Barakah jew bix aktar riflessjonijiet biex tkompli.",
+
+  "settingsStarterReflectionsUsedTitle": "Riflessjonijiet starter użati",
+  "settingsStarterReflectionsUsedDescription": "Ir-riflessjonijiet starter għal dan il-device ġew użati. Modernizza għal Barakah jew bix aktar riflessjonijiet biex tkompli.",
+
+  "deviceBoundError": "Dan il-device huwa diġà marbut ma' kont ieħor. Jekk jogħġbok idħol b'il-kont oriġinali.",
+
+  "premiumTitle": "Modalità Barakah",
+  "premiumSubtitleBasic": "Aftaħ l-esperjenza sħiħa ta' Nuria.",
+  "premiumSubtitleChampion": "Inti Barakah. Għandek bżonn aktar riflessjonijiet?",
+
+  "premiumCurrentPlan": "Plann attwali: {plan}",
+  "premiumCreditsStatus": "Riflessjonijiet: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Il-mixi mhu disponibbli issa.",
+  "premiumSignInToPurchase": "Idħol biex bix riflessjonijiet jew tiftaħ Barakah.",
+
+  "premiumRestorePurchases": "Irrestawra l-mixi",
+  "premiumProcessing": "Qed nipproċessa…",
+  "premiumRestoreHintTitle": "Diġà bixet Barakah jew riflessjonijiet fuq dan il-device jew ieħor?",
+  "premiumRestoreHintBody": "Irrestawra l-mixi tiegħek jekk mhumiex jduru.",
+
+  "premiumBuyCredits200": "Bix 200 riflessjoni",
+  "premiumBuyCredits400": "Bix 400 riflessjoni",
+  "premiumBecomeChampionOneTime": "Modernizza għal modalità Barakah",
+  "premiumChampionHint": "Bħala Barakah, tista' timplulja b'riflessjonijiet żejda kull ħin li trid.",
+
+  "premiumUpgradeCta": "Modernizza",
+  "premiumRequiredForCategory": "Din il-kategorija hija disponibbli biss għall-utenti Barakah. Modernizza fl-Impostazzjonijiet biex tiftaħ il-kontenut premium kollha.",
+  "premiumBenefitsBasic": "Iftaħ Barakah biex tikseb riflessjonijiet żejda, aqbad kategoriji premium, u kompli kull ħin li għandek bżonn gwida.",
+  "premiumBenefitsChampion": "Inti f'modalità Barakah. Jekk qed ibajjad, żid xi riflessjonijiet żejda u kompli mingħajr interruzzjonijiet.",
+  "premiumButtonBecomeChampion": "Iftaħ Barakah",
+  "premiumButtonTopup1000": "Żid 1000 riflessjoni",
+  "premiumChampionBadge": "Barakah attiva",
+  "premiumLoadingStore": "Qed nitlifex il-maħżen…",
+
+  "blessedTitle": "Modalità Barakah",
+  "blessedSubtitleGrace": "Aftaħ l-esperjenza sħiħa ta' Nuria.",
+  "blessedSubtitleBlessed": "Inti Barakah. Għandek bżonn aktar riflessjonijiet?",
+
+  "blessedCurrentPlan": "Plann attwali: {plan}",
+  "blessedReflectionsStatus": "Riflessjonijiet: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Il-mixi mhu disponibbli issa.",
+  "blessedProductNotAvailable": "Dan il-prodott mhu disponibbli fil-maħżen għal issa. Jekk jogħġbok tempta aktar tard.",
+  "blessedPurchaseError": "Xi ħaġa marret ħażina ma' x-xiri. Jekk jogħġbok tempta mill-ġdid.",
+  "blessedSignInToPurchase": "Idħol biex bix riflessjonijiet jew tiftaħ Barakah.",
+
+  "blessedRestorePurchases": "Irrestawra l-mixi",
+  "blessedProcessing": "Qed nipproċessa…",
+  "blessedRestoreHintTitle": "Diġà bixet Barakah jew riflessjonijiet fuq dan il-device jew ieħor?",
+  "blessedRestoreHintBody": "Irrestawra l-mixi tiegħek jekk mhumiex jduru.",
+
+  "blessedBuyReflections100": "Żid 100 riflessjoni",
+  "blessedBuyReflections200": "Bix 200 riflessjoni",
+  "blessedBuyReflections400": "Bix 400 riflessjoni",
+  "blessedBecomeBlessedOneTime": "Modernizza għal Barakah",
+  "blessedTopupHint": "Bħala Barakah, tista' timplulja b'riflessjonijiet żejda kull ħin li trid.",
+
+  "blessedUpgradeCta": "Modernizza",
+  "blessedRequiredForCategory": "Din il-kategorija hija disponibbli biss għall-utenti Barakah. Modernizza fl-Impostazzjonijiet biex tiftaħ il-kontenut premium kollha.",
+  "blessedFeatureLocked": "Iftaħ Barakah biex taċċessa din il-karatteristika.",
+  "lockedCategoriesHint": "Xi kategoriji huma riżervati għall-membri Barakah. Iftaħhom biex tesplora kull riflessjoni fil-vjaġġ tiegħek.",
+  "blessedBenefitsGrace": "Iftaħ Barakah biex tikseb riflessjonijiet żejda, aqbad kategoriji premium, u kompli kull ħin li għandek bżonn gwida.",
+  "blessedBenefitsBlessed": "Inti f'modalità Barakah. Jekk qed ibajjad, żid xi riflessjonijiet żejda u kompli mingħajr interruzzjonijiet.",
+  "blessedButtonBecomeBlessed": "Iftaħ Barakah",
+  "blessedButtonTopup1000": "Żid 1000 riflessjoni",
+  "blessedBadge": "Barakah attiva",
+  "blessedLoadingStore": "Qed nitlifex il-maħżen…",
+
+  "freePlanBlockedTitle": "Ħrejt ir-riflessjonijiet starter tiegħek",
+  "freePlanBlockedBody": "Inti fuq il-plann Standard b'riflessjonijiet starter, u waslajt il-limitu. Biex tkompli — u tiftaħ kategoriji premium — modernizza għal Barakah.",
+  "freePlanBlockedCtaGoPremium": "Ara l-għażliet Barakah hawn taħt",
+
+  "graceBlockedTitle": "Ħrejt ir-riflessjonijiet starter tiegħek",
+  "graceBlockedBody": "Inti fuq il-plann Standard b'riflessjonijiet starter, u waslajt il-limitu. Biex tkompli — u tiftaħ kategoriji premium — modernizza għal Barakah.",
+  "graceBlockedCtaGoBlessed": "Ara l-għażliet Barakah hawn taħt",
+
+  "rateGuestMustSignIn": "Idħol biex tuża Nuria u r-riflessjonijiet tiegħek.",
+
+  "guestNoCreditsTitle": "Modalità għast",
+  "guestNoCreditsBody": "Bħala għast tista' tdur l-app, imma ma tistax tuża riflessjonijiet. Idħol aktar tard fl-Impostazzjonijiet biex tuża riflessjonijiet u tiftaħ mixi.",
+
+  "guestNoReflectionsTitle": "Modalità għast",
+  "guestNoReflectionsBody": "Bħala għast tista' tdur l-app, imma ma tistax tuża riflessjonijiet. Idħol aktar tard fl-Impostazzjonijiet biex tuża riflessjonijiet u tiftaħ mixi.",
+
+  "guestDialogContinue": "Kompli",
+  "guestDialogLoginInstead": "Idħol minflok",
+
+  "optionalLabel": "fakultattiv",
+
+  "accountDeleteSuccessTitle": "Il-kont tħassar",
+  "accountDeleteSuccessBody": "Il-kont tiegħek u d-data assoċjata tħassru b'suċċess.",
+  "accountDeleteSuccessClose": "Agħlaq",
+  "accountDeleteErrorTitle": "Ma stajtx niħassar il-kont",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "L-awtentikazzjoni mill-ġdid ittalat. Jekk jogħġbok idħol mill-ġdid u reattempta d-dħul.",
+  "accountDeleteReauthRequired": "Id-dħul tal-kont jeħtieġ login reċent. Jekk jogħġbok idħol mill-ġdid, idħol mill-ġdid, u reattempta.",
+  "settingsDeletePermanentWarning": "Din l-azzjoni hija permanenti u ma tistax tinħassar. Id-data kollha assoċjata mal-kont tiegħek tħassru.",
+
+  "dailyGraceTitle": "Il-Gwida Kuljum",
+  "dailyGraceScriptureLabel": "VER TAL-ĠURNATA",
+  "dailyGraceSaintLabel": "ALIM TAL-ĠIMGĦA",
+  "dailyGraceReflectionLabel": "RIFLESSJONI TAL-LEJL",
+  "dailyGraceCopiedToast": "Vers kopjat mal-clipboard",
+
+  "dailyScripture0Text": "Bejn verità, ir-righteous jkunu fost il-ġnani u l-xmajjar, f'post tal-onivar qrib lil Melħ Qawwi.",
+  "dailyScripture0Ref": "Quran 54:54-55",
+  "dailyScripture1Text": "U ma bixejna inti, ya Muhammad, għajr bħala rahma għall-worldi.",
+  "dailyScripture1Ref": "Quran 21:107",
+  "dailyScripture2Text": "Mixi la Allah suffiċjenti għas-servant tiegħu? Iżda jintimidawl permezz ta' oħrajn minflok Allah.",
+  "dailyScripture2Ref": "Quran 39:36",
+  "dailyScripture3Text": "Forsi tkarahx xi ħaġa u hija tajba għalik; u forsi tahbib xi ħaġa u hija ħażina għalik. U Allah jafu, filwaqt li inti ma tafu.",
+  "dailyScripture3Ref": "Quran 2:216",
+  "dailyScripture4Text": "Bejn verità, Allah huwa ma' l-patient.",
+  "dailyScripture4Ref": "Quran 2:153",
+  "dailyScripture5Text": "Għalhekk iftakkarni; nikrah iftakruk. U kun imniexxi li tagħmel, u ma tagħmilx tħaddux.",
+  "dailyScripture5Ref": "Quran 2:152",
+  "dailyScripture6Text": "Bejn verità, l-aktar nobilik ta' inti f'dawk il-lajn ta' Allah huwa l-aktar righteous ta' inti.",
+  "dailyScripture6Ref": "Quran 49:13",
+  "dailyScripture7Text": "U ir-Rab tiegħek idddeċieda li tgħaned l-ebda ħadd minflok tiegħu, u li tkun dutiful lit-ġenituri tiegħek.",
+  "dailyScripture7Ref": "Quran 17:23",
+  "dailyScripture8Text": "Verament, ma' d-diffikultà ġej ir-rieħ.",
+  "dailyScripture8Ref": "Quran 94:6",
+  "dailyScripture9Text": "U huwa ma' inti kullimkien li inti. U Allah, ta' dak li inti tagħmel, huwa jidhru.",
+  "dailyScripture9Ref": "Quran 57:4",
+  "dailyScripture10Text": "Allah ma jkun il-bess ta' psyche fuq da li tista' tibigħ.",
+  "dailyScripture10Ref": "Quran 2:286",
+  "dailyScripture11Text": "U min imdgħad fuq Allah — allura huwa sufficing għalih.",
+  "dailyScripture11Ref": "Quran 65:3",
+  "dailyScripture12Text": "Ir-rahma tiegħi tinkappa kulħaġa.",
+  "dailyScripture12Ref": "Quran 7:156",
+  "dailyScripture13Text": "U meta s-servants tiegħi staqsawk dwar jien — bejn verità jien qrib. Nireċiproku lill-suppliant meta jistqari fuqu.",
+  "dailyScripture13Ref": "Quran 2:186",
+  "dailyScripture14Text": "Min itagħmel righteousness, jew maskil jew fomm, filwaqt li jkun believer — saħartna sikur li jgħix ħajja tajba.",
+  "dailyScripture14Ref": "Quran 16:97",
+  "dailyScripture15Text": "Bejn verità, Allah mhux jinbidel il-kundizzjoni ta' poplu saħħ sakemm jibiddlu dak li huwa f'infushom.",
+  "dailyScripture15Ref": "Quran 13:11",
+  "dailyScripture16Text": "Għalhekk ma tridx titgħaqqad u ma tkunx inkuraġjata, u tkun superju jekk inti true believers.",
+  "dailyScripture16Ref": "Quran 3:139",
+  "dailyScripture17Text": "Ya servants tiegħi li traversed punti uffiċjali, ma despair tal-mercy ta' Allah. Bejn verità, Allah forgives kollha sins.",
+  "dailyScripture17Ref": "Quran 39:53",
+  "dailyScripture18Text": "U min iħossok Allah — huwa jagħmel għalih moħħa out, u provid għalih minn fejn ma jistennew.",
+  "dailyScripture18Ref": "Quran 65:2-3",
+  "dailyScripture19Text": "Ma despair fl-mercy ta' Allah.",
+  "dailyScripture19Ref": "Quran 12:87",
+  "dailyScripture20Text": "U bnina sewwa l-Quran faċli biex iftakkar. Għalhekk huwa hemm min ser ikun mindful?",
+  "dailyScripture20Ref": "Quran 54:17",
+  "dailyScripture21Text": "U huwa sabu inti ħasir u guidak.",
+  "dailyScripture21Ref": "Quran 93:7",
+  "dailyScripture22Text": "U r-Rab tiegħek jissuqu: Istqari fuqu; jireċiproku fuquq.",
+  "dailyScripture22Ref": "Quran 40:60",
+  "dailyScripture23Text": "U bnina sewwa ikonorna l-ħamsin ta' Adam.",
+  "dailyScripture23Ref": "Quran 17:70",
+  "dailyScripture24Text": "U tletta help permezz ta' sabr u għana.",
+  "dailyScripture24Ref": "Quran 2:45",
+  "dailyScripture25Text": "Min jagħmel atom tal-ħanin ta' ħaġa tajba se jidhir.",
+  "dailyScripture25Ref": "Quran 99:7",
+  "dailyScripture26Text": "Indisputabbli, l-gidda ta' Allah hija qrib.",
+  "dailyScripture26Ref": "Quran 2:214",
+  "dailyScripture27Text": "U min ikunx grateful — il-gratitudni tiegħu jkun biss għall-benefiċċju ta' nfusuh.",
+  "dailyScripture27Ref": "Quran 31:12",
+
+  "dailyReflection0": "Filwaqt li dan il-ġurnata tagħlaq, ikkunsidra mument waħda fejn il-mercy ta' Allah kienet evidenti.",
+  "dailyReflection1": "Ġib quddiemu Allah dak kollu li tqil fuq il-qlub tiegħek illum.",
+  "dailyReflection2": "Ismu waħda blessing minn dan il-ġurnata u esprimi gratitudni lil Allah.",
+  "dailyReflection3": "Arrelax fil-għarfien li inti tmexxija fil-mercy infinita ta' Allah.",
+  "dailyReflection4": "Riffletti fuq fejn inti tħasssu msejjeħ biex turi komppassjoni u ġentilezza illum.",
+  "dailyReflection5": "Ħalli lejn dak li inti ma tistax tikkontrolla u fiduċċja fl-plann perfett ta' Allah.",
+  "dailyReflection6": "Filwaqt li l-ġurnata tiskand għal-tgħaqqad, irċievi salam f'dhikr ta' Allah.",
+  "dailyReflection7": "Ikkunsidra kif inti ikhram il-għaniet tiegħek illum, u shukr Allah għal kull wieħed.",
+  "dailyReflection8": "Riffletti fuq mument fejn is-sabr (Sabr) guidak l-azioni tiegħek illum.",
+  "dailyReflection9": "Ittalab tajrif għal kwalunkwi shortcoming illum — il-mercy ta' Allah hija boundless.",
+  "dailyReflection10": "Ismu persuna waħda li inti turi ġentilezza għalhom illum u agħmel dua għalhom.",
+  "dailyReflection11": "Aqgħad b'gratitudni: xi tagħmel Allah ipprovda illum li inti ma stqarx?",
+  "dailyReflection12": "Riffletti fuq vers mill-Quran li jitkellem għal fejn inti issa.",
+  "dailyReflection13": "Ikkunsidra kif inti użajt il-ħin tiegħek illum — u offrih tomorrow lil Allah.",
+  "dailyReflection14": "Arrelax jaf li kwalunkwi ħasira li giet illum, Allah kienet ma' inti bih.",
+  "dailyReflection15": "Ħtieġ ta' mument waħda li inti servajt il-familja jew il-komunità illum għall-sake ta' Allah.",
+  "dailyReflection16": "Filwaqt li l-lejl jaqa', agħmel Tawbah — Allah jahbu dawk li jmorru lura għalih.",
+  "dailyReflection17": "Riffletti fuq il-ħmaria Allah poġġa f'lum, irrelevant kemm żgħira.",
+  "dailyReflection18": "Ikkunsidra xi tlmajt illum u kif tivvikka inti eqreb lil Allah.",
+  "dailyReflection19": "Ħalli l-worries ta' l-ġurnata irrepożi ma' Allah — huwa jkun il-ħajja ta' dak li inti ma tistax.",
+  "dailyReflection20": "Ħtieġ ta' mument fejn inti setgħet agħżel aħjar, u tgħallem mindu gently.",
+  "dailyReflection21": "Agħmel dua għal dawk li jistriedu — il-għana tiegħek hija gift għalhom.",
+  "dailyReflection22": "Ittakkar blessing li inti spiss taqbeż u ħu mument biex shukr Allah għaliha.",
+  "dailyReflection23": "Riffletti fuq il-intenzjonijiet tiegħek illum — kienu għal Allah? Bukra, ibda mill-ġdid.",
+  "dailyReflection24": "Filwaqt li l-lejl saken, istgħax għal qriblews ta' Allah fil-qatgħa.",
+  "dailyReflection25": "Ikkunsidra fejn inti sabu l-qawwa illum — il-qawwa hija minn Allah.",
+  "dailyReflection26": "Ismu waħda ħaġa li inti se tagħmel bukra, għal sake ta' Allah, li inti ma ġerġt illum.",
+  "dailyReflection27": "Filwaqt li inti tipprepara għar-ripos, entrisx il-psyche tiegħek lil Allah — huwa l-aħjar ta' guardians.",
+
+  "dailyRoleModel0": "Il-Profeta Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Il-Profeta Ibrahim (AS)",
+  "dailyRoleModel44": "Il-Profeta Musa (AS)",
+  "dailyRoleModel45": "Il-Profeta Isa (AS)",
+  "dailyRoleModel46": "Il-Profeta Yusuf (AS)",
+  "dailyRoleModel47": "Il-Profeta Dawud (AS)",
+  "dailyRoleModel48": "Il-Profeta Sulayman (AS)",
+  "dailyRoleModel49": "Il-Profeta Nuh (AS)",
+  "dailyRoleModel50": "Il-Profeta Yunus (AS)",
+  "dailyRoleModel51": "Il-Profeta Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Ippermetti Nuria juża il-lokazzjoni tiegħi għad-direzzjoni tal-Qibla u tal-ħinijiet ta' għana",
+  "locationConsentHint": "Użat biss għal dawn il-karatteristiċi. Il-lokazzjoni tiegħek qatt mhux aqsma jew iktaħżna.",
+
+  "askPageTitle": "Istqari Nuria",
+  "askPageDescription": "Istqari dwar il-iman, il-għana, il-ħajja, jew il-prattika Islamija u irċievi gwida mirradia fil-Quran u s-Sunnah.",
+  "askPageInputHint": "Ikteb il-mistoqsija tiegħek hawn…",
+  "askPageSubmitCta": "Istqari",
+  "askPageInputEmptyError": "Jekk jogħġbok ikteb mistoqsija l-ewwel.",
+  "askResultYourQuestion": "Il-mistoqsija tiegħek",
+
+  "guidancePageTitle": "Għana u Gwida",
+  "qiblaFacingMecca": "Maqbula lejn Makkah",
+  "qiblaCompassInstruction": "Iddir il-telefown tiegħek saħħ il-labra tad-dhahab tippunta 'il fuq.\nDin id-direzzjoni tippunta lejn il-Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Is-sinjal GPS huwa dgħajjef. Agħluq barra u agħfas Retry.",
+  "qiblaRetry": "Tempta Mill-Ġdid",
+  "qiblaTitle": "Direzzjoni tal-Qibla",
+  "qiblaDistanceLabel": "{km} km lejn Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Il-lokazzjoni hija meħtieġa",
+  "qiblaLocationNeededBody": "Ippermetti l-aċċess tal-lokazzjoni sabiex Nuria tistgħu tikkalcola d-direzzjoni tal-Kaaba f'Makkah minn fejn inti issa.",
+  "qiblaOpenSettings": "Iftaħ Impostazzjonijiet",
+  "qiblaCompassLoading": "Qed insibu l-pożizzjoni tiegħek…",
+  "qiblaTowardMecca": "Lejn Makkah",
+
+  "prayerTimesTitle": "Ħinijiet ta' Għana",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Il-lokazzjoni hija meħtieġa",
+  "prayerTimesLocationNeededBody": "Ippermetti l-aċċess tal-lokazzjoni sabiex Nuria tistgħu tikkalcola ħinijiet ta' għana preċiżi għall-belt tiegħek.",
+  "prayerTimesNextLabel": "Li jmiss",
+  "prayerTimesDoneLabel": "Lest",
+
+  "monthlyPrayerTimesTitle": "Ħinijiet Montlji ta' Għana",
+  "monthlyPrayerTimesViewButton": "Ara l-Xahar Sħiħ",
+  "monthlyPrayerTimesNextMonth": "L-xahar li jmiss",
+  "monthlyPrayerTimesDayHeader": "Ġurnata",
+
+  "sharePrayerTimes": "Aqsam il-ħinijiet tal-għana",
+
+  "prayerNotificationsTitle": "Twissiet tal-Għana",
+  "prayerNotificationsDescription": "Irċievi twissija lembiegħda qabel kull ħin ta' għana biex tħallik konnettut fil-ħinijiet kollha tal-ġurnata.",
+  "prayerNotificationsEnable": "Attiva twissiet tal-għana",
+  "prayerNotificationsOpenSettings": "Iftaħ settazzjonijiet ta' notifikazzjonijiet",
+  "prayerNotificationsDenied": "In-notifikazzjonijiet huma disabilitati",
+  "prayerNotificationsDeniedHint": "Imxi lejn Settings u ippermetti notifikazzjonijiet għal Nuria biex tirċievi twissiet tal-għana.",
+
+  "notificationsConsentLabel": "Ippermetti notifikazzjonijiet għal ħinijiet tal-għana",
+
+  "prayerNotifTitleFajr": "🌅 Фажр — Dagal Залбирал",
+  "prayerNotifBodyFajr": "Залбирлын хамгийн сайн нь бол дагалын залбирал юм. Сэргэ, өөрийгөө цэвэрлээд Аллахын өмнө зогсоо.",
+
+  "prayerNotifTitleDhuhr": "☀️ Зухур — Үд дорийн Залбирал",
+  "prayerNotifBodyDhuhr": "Өөрийн өдрөө зогсоож, Аллахруу буцаж ир. Зухур залбирлын цаг ирлээ.",
+
+  "prayerNotifTitleAsr": "🌤️ Асър — Орой хүртэлх Залбирал",
+  "prayerNotifBodyAsr": "Дунд залбирлыг сахиж байгаарай. Асър цаг ирлээ — үүнийг алдаж болохгүй.",
+
+  "prayerNotifTitleMaghrib": "🌇 Магрибь — Нарны жаргалтын Залбирал",
+  "prayerNotifBodyMaghrib": "Нар жаргалаа. Магрибь залбирлаж, энэ өдрөөр Аллахад талархаарай.",
+
+  "prayerNotifTitleIsha": "🌙 Ишаа — Шөнийн Залбирал",
+  "prayerNotifBodyIsha": "Өөрийн өдрөө Аллахыг сээргэж төгсгөрөө. Хайя 'алал фалах — амжилтанд яв.",
+
+  "outOfReflectionsBannerText": "Та бүх эргэцүүллээ ашигласан байна",
+  "outOfReflectionsBannerCta": "Илүү авах",
+
+  "dhikrPageTitle": "Зикр",
+  "dhikrTapToCount": "Тоолохын тулд тойргийг товшино уу",
+  "dhikrResetButton": "Дахин тохируулах",
+  "dhikrComplete": "Машаа'Аллах",
+  "dhikrCompleteMessage": "Та Аллахтай 99 удаа сээргэлдсэн байна. Эдгээр нь таны зүрхэнд гэрэл болтугай.",
+
+  "disclaimerTitle": "Энэ апп-ын чиглэлийн талаар",
+  "disclaimerBody": "Nuria нь таны итгэлийн хувийн аялалыг дэмжихийн тулд Ислам сургаал, сануулга, ба сүнслэг агуулгыг санал болгодог. Энэ агуулга нь ерөнхий мэдээлэл авах ба урам зоригтой зорилгоор л өгөгдөөс байна.\n\nNuria нь сургамжлагдсан ухаан сурлагын орлуур биш.\nЭнэ апп-д өгөгдсөн чиглэл нь мэргэжлийн Ислам сургаач, имам, мүфти, эсвэл богословиар сургагдсан багшийн сурталчилгаа биш юм. Хэрэв та шашны дүрэм, халал болон харам асуудал, эсвэл хувийн шашны үүргийн талаар асуулт авсан бол үндэсний чадвартай шашны эрх мэдлээс зөвлөгөө авна уу.\n\nЭнэ апп нь шашны дүрэм гаргадаггүй.\nNuria нь фикх (Исламын хуульч) болон хувийн шашны үүргийн асуудлуудаар эрхэмжүүлэх шийдвэрийг авч явдаггүй. Энд өгөгдсөн юу ч фатва эсвэл хүчинтэй шашны зөвлөмжийг авч явуулахгүй.\n\nСургаачийн тайлбар өөр өөр байдаг.\nИслам нь баялаг уламжлал, сэтгэлгээний сургууль (мадхаб) ба сургаачийн олон санал санаачидыг агуулдаг. Энэ апп-д байгаа агуулга нь ерөнхий үзэл баримтлалыг бүтээдэг ба аливаа уламжлал эсвэл сургуулийг адилхан төлөөлөх магадлал багатай.\n\nОрон нутгийн нийгэм чухал.\nЭнэ апп нь таны итгэлийн уламжлалтай холбогдохыг дэмжихийг зорилдоо өнөө орон нутгийн сүмэ, имам, ба шашны нийгмийн чухал үүрэг гүйцэтгэдэг. Бид танд орон нутагтаа сургамжлагдсан багшдаас сурах ба холбогдож байхыг урамшуулдаг.",
+  "disclaimerClose": "Би ойлголоо",
+  "disclaimerInfoTooltip": "Энэ апп-ын чиглэлийн талаар",
+  "disclaimerSettingsSubtitle": "Ерөнхий мэдээлэл авах зорилгоор л. Бүрэн үзэүүлэлтийг унших бол товшино уу.",
+  "disclaimerSectionHeader": "Чиглэлийн сэрэмжлүүлэг"
+}

@@ -1,0 +1,52 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "nuria-mobile-app",
+          "appId": "1:1040440859345:android:75be9355a9e405e8a703f0",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "nuria-mobile-app",
+          "configurations": {
+            "android": "1:1040440859345:android:75be9355a9e405e8a703f0",
+            "ios": "1:1040440859345:ios:fc68e4934b910f39a703f0",
+            "web": "1:1040440859345:web:e4ec4093edac453ca703f0"
+          }
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "nuria-mobile-app",
+          "appId": "1:1040440859345:ios:fc68e4934b910f39a703f0",
+          "uploadDebugSymbols": true,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix functions run lint",
+        "npm --prefix functions run build"
+      ]
+    }
+  ]
+}

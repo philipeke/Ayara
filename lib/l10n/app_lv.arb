@@ -1,0 +1,585 @@
+{
+  "@@locale": "lv",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Izvēlieties savu valodu",
+  "languageSelectSub": "Vēlāk to varat mainīt Iestatījumos",
+  "actionContinue": "Turpināt",
+  "languageSuggestedHeader": "Ieteiktais",
+  "languageAllHeader": "Visas valodas",
+  "languageSuggestedBadge": "Ieteiktais",
+  "languageSearchHint": "Meklēt…",
+
+  "planGrace": "Standarts",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Ikdienas Vadlīnijas",
+  "categoryFaithTrust": "Iman un Uzticēšanās",
+  "categoryPrayerReflection": "Lūgšanas Pārdomas",
+  "categoryHopeDifficultTimes": "Pacietība un Cerība",
+  "categoryForgiveness": "Meklēt Piedošanu",
+  "categoryLoveCompassion": "Žēlastība un Mīlestība",
+  "categoryStrengthCourage": "Ticības Spēks",
+  "categoryGratitude": "Pateicīga Sirds",
+  "categoryPurposeCalling": "Dzīves Jēga",
+  "categoryFamilyRelationships": "Ģimenes Saites",
+  "categoryPeaceAnxietyRelief": "Iekšējā Miers",
+  "categoryWisdomOfJesus": "Praviešu Gudrība",
+  "categoryHumilityCharacter": "Labais Raksturs",
+  "categoryOvercomingTemptation": "Pretestieties Kārdināšanai",
+  "categoryEveningReflection": "Vakara Dhikrs",
+  "categoryCustom": "Personīgā Atspoguļojums",
+  "dhikrMeaningSubhanallah": "Slava Allaham",
+  "dhikrMeaningAlhamdulillah": "Visas gods pieder Allaham",
+  "dhikrMeaningAllahuAkbar": "Allah ir Visvarenais",
+  "quranVerseHeartAtRest": "Patiesi, Allah atcerēšanās sirdis atrod mieru.",
+
+  "promptHint": "Pieskarieties kategorijai, lai saņemtu islāma vadlīnijas un pārdomas",
+
+  "currentLanguage": "Pašreizējā valoda",
+  "settingsLanguage": "Valodas iestatījumi",
+  "settingsTitle": "Iestatījumi",
+  "chooseLanguage": "Izvēlieties savu valodu",
+  "continueCta": "Turpināt",
+
+  "promptDailyGuidance": "Uzrakstiet īsu, praktisku ikdienas vadlīniju, kas iesakņota sunnītu islāma ticībā — grounded Korānā, hadītos un Praviete Muhamada (ﷺ) mācībās. Katru reizi izvēlieties svaigi leņķi: dūdu no islāma ētikas, patiesību no Sunnas, gudrību no Praviete biedriem vai klusu praksi islāma tradīcijā. Iekļaujiet vienu Korāna āju (Sūra:Āja) un 1-2 teikumu pārdomas, ko nēsāt caur dienu. Pēc iespējas savienojiet ar islāma kalendāru vai svarīgu datumu.",
+
+  "promptFaithTrust": "Uzrakstiet īsu islāma pārdomas par Imanu (ticību) un uzticēšanos Allāha plānam (Tavakkul). Pamatojiet to Korānā, Praviete Muhamada (ﷺ) piemērā un Sahābas ticībā. Katru reizi mainiet tēmu: uzticēšanās Allāham nenoteiktības laikā, paļaušanās uz dievišķo gudrību, pacietība bālamās vai klusā pārstāvēšanās ikdienas dzīvē. Iekļaujiet vienu Korāna āju un vienu patieso soli šodienai, kas iegūts no islāma garīgās gudrības.",
+
+  "promptPrayerReflection": "Uzrakstiet īsu islāma lūgšanas pārdomas, kas iesakņota Salāhā, Duā vai Dhikrā. Katru reizi mainiet formu: rīta vai vakara atcerēšanās (Adhkār), pārdomas par piecām ikdienas lūgšanām, Korāna ājas kontemplāciju vai sirsnīgu dūu. Iekļaujiet vienu Korāna āju un īsi nosauciet izmantoto lūgšanas formu.",
+
+  "promptHopeDifficultTimes": "Uzrakstiet islāma pārdomas par pacietību (Sabr) un cerību grūtības laikā. Čerpiet no Korāna mācības par bālamām, Praviešu pārstāvēšanās un Allāha žēlastības grūtos mirkļos. Katru reizi mainiet leņķi. Iekļaujiet vienu Korāna āju un vienu uzmundrinošu perspektīvu no islāma tradīcijas.",
+
+  "promptForgiveness": "Uzrakstiet gudrīgu islāma pārdomas par piedošanas meklēšanu (Tavabahs) un Allāha žēlastību. Čerpiet no Korāna mācības par pāriešanu, Allāha dusmu un Praviete Muhamada (ﷺ) piedošanas piemēra. Mainiet tēmu: atgriešanās pie Allāha, citu piedošana, attiecību dziedināšana vai ticība Allāha žēlastībai pēc kļūdām. Iekļaujiet vienu Korāna āju un vienu konkrētu soli.",
+
+  "promptLoveCompassion": "Uzrakstiet īsu islāma pārdomas par žēlastību (Rahmah) un dusmu ikdienas dzīvē. Čerpiet no Praviete Muhamada (ﷺ) piemēra, Ihsāna koncepcijas (izcilības) un islāma mācības par laipnību pret ģimeni, kaimiņiem un neaizsargātajiem. Iekļaujiet vienu Korāna āju un vienu nelielu dūmas aktu, ko praktizēt šodien.",
+
+  "promptStrengthCourage": "Uzrakstiet islāma pārdomas par ticības spēku un drosmi. Čerpiet no Praviešu piemēriem, agrīnās musulmaņu kopienas un ticīgajiem, kuri palika ticīgi grūtības laikā. Katru reizi mainiet tēmu: drosme caur ticību, spēks lūgšanā, uzticēšanās Allāham baiļu laikā vai izturība grūtībās. Iekļaujiet vienu Korāna āju un īsu dūu vai atcerēšanās frāzi.",
+
+  "promptGratitude": "Uzrakstiet islāma pārdomas par pateicību (Shukr) Allāham. Pamatojiet to Korāna mācībā un Praviešu tradīcijā. Mainiet leņķi: pateicība grūtības laikā, mazo svētību novērtēšana, dienas sākšana ar Allāha uzslavas vai Allāha vadības atzīšana ikdienas dzīvē. Iekļaujiet vienu Korāna āju un vienu pateicības praksi.",
+
+  "promptPurposeCalling": "Uzrakstiet islāma pārdomas par dzīves mērķi, nodomu Allāham un godīgu dzīvi. Čerpiet no Korāna mācības par mērķi, pienākumiem pret citiem un dāvanu izmantošanu labam. Mainiet tēmu katru reizi: pienākumi pret ģimeni un kopienu, vadības meklēšana caur Istikhāru, dzīve ar nodomu vai nozīmes atrašana parastā darbā. Iekļaujiet vienu Korāna āju un divas reflektīvas jautājumus.",
+
+  "promptFamilyRelationships": "Uzrakstiet gudrīgu islāma vadlīniju par ģimeni un attiecībām, kas iesakņota Korāna mācībā un Praviete Muhamada (ﷺ) piemērā. Mainiet tēmu katru reizi: laipnību ģimenē, pacietību konfliktā, vecāku cieņu, bērnu audzināšanu ticībā vai laulības stiprināšanu. Iekļaujiet vienu Korāna āju un vienu saistītu praksi, ko mēģināt.",
+
+  "promptPeaceAnxietyRelief": "Uzrakstiet mierīgu islāma pārdomas par iekšējā miera atrašanu caur Allāha atcerēšanu (Dhikr) un uzticēšanu Viņa plānam. Čerpiet no Korāna mācības par sirds mierinājumu, lūgšanu un padevību Allāha gribai. Katru reizi mainiet pieeju un iekļaujiet vienu Korāna āju un vienu vienkāršu grounding praksi no islāma tradīcijas.",
+
+  "promptWisdomOfJesus": "Uzrakstiet īsu gudrības gabalu no Praviešiem, kā tas tiek māts islāmā. Čerpiet no Korāna vai Hadīta un īsi paskaidrojiet, kā islāma atzinumu uztver mācību. Mainiet tēmu: raksturs, pacietība, pazemība, ticība vai ikdienas vadīšanās. Iekļaujiet Korāna āju vai Hadīta norādi un vienu praktisku pielietojumu.",
+
+  "promptHumilityCharacter": "Uzrakstiet islāma pārdomas par pazemību (Tavadhu) un labam raksturu (Akhlāk). Čerpiet no Korāna mācības, Praviete Muhamada (ﷺ) piemēra un islāma rakstura attīstības tradīcijas. Mainiet tēmu: pazemība vadībā, kļūdu atzīšanu, pēc citu cieņu vai garīgu augšanu caur pārdomas. Iekļaujiet vienu Korāna āju un vienu paradumu praksi.",
+
+  "promptOvercomingTemptation": "Uzrakstiet islāma pārdomas par kārdināšanas pretestību un taisnes ceļa turēšanu. Čerpiet no Korāna vadības, Allāha atcerēšanas (Dhikr), lūgšanas (Salāh) un ticīgo piemēriem, kuri pārvarēja cīņas. Mainiet leņķi katru reizi. Iekļaujiet vienu Korāna āju un vienu praktisku stratēģiju nākamajām 24 stundām.",
+
+  "promptEveningReflection": "Uzrakstiet mierīgu islāma vakara pārdomas, kas iesakņota vakara atcerēšanas tradīcijā (Adhkār al-Masāā). Uzmundriniet pateicību, pārdomas (Muhāsabah) un uzticēšanu Allāham pirms atpūtas. Iekļaujiet 3-5 īsas pārdomas jautājumus par dienu, īsu noslēguma dūu un vienu Korāna āju.",
+
+  "wordCount": "{count, plural, one {{count} vārds} other {{count} vārdi}}",
+
+  "optionsCta": "Iespējas",
+  "newCta": "Jauns",
+  "actionsTitle": "Ko jūs vēlētos darīt?",
+  "copy": "Kopēt",
+  "share": "Dalīties",
+  "close": "Aizvērt",
+  "copiedToast": "Nokopēts uz starpliktuvē",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Pasta ziņojuma/kopīgošanas virsraksts, iekļaujot kategorijas iezīmi.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Ikdienas Vadlīnijas" }
+    }
+  },
+
+  "regenerateErrorTitle": "Nevarēja ģenerēt jaunu atbildi",
+  "regenerateErrorBody": "{error}\n\nVai vēlaties mēģināt vēlreiz?",
+  "@regenerateErrorBody": {
+    "description": "Parādīts, kad AI atbildes ģenerēšana neizdodas.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Tīkla kļūda" }
+    }
+  },
+
+  "cancelCta": "Atcelt",
+  "retryCta": "Mēģināt vēlreiz",
+
+  "authTitle": "Izveidojiet savu kontu",
+  "continueAsGuest": "Turpināt kā viesis",
+  "signInGoogle": "Pierakstieties ar Google",
+  "signInApple": "Pierakstieties ar Apple",
+  "signInEmail": "Pierakstieties ar E-pastu",
+  "upgradeWithApple": "Turpināt ar Apple",
+  "mustAccept": "Jums jāpieņem Noteikumi un jāapzinās Privātuma politika.",
+  "termsLabel": "Piekrītu Pakalpojuma Noteikumiem",
+  "privacyLabel": "Esmu izlasījis Privātuma politiku",
+  "marketingOptIn": "Piekrītu saņemt jaunumus un piedāvājumus",
+  "openTerms": "Pakalpojuma Noteikumi",
+  "openPrivacy": "Privātuma politika",
+
+  "accountSection": "Konts",
+  "guestMode": "Viesa režīms",
+  "signedIn": "Pierakstījies",
+  "upgradeHint": "Saglabājiet savas pārdomas visās ierīcēs, izveidojot kontu.",
+  "upgradeWithGoogle": "Turpināt ar Google",
+  "signOut": "Izrakstīties",
+
+  "snackUpgraded": "Konts uzlaboots ar Google ✅",
+  "snackSignedIn": "Pierakstījies ar Google ✅",
+  "snackSignedOut": "Izrakstījies",
+  "snackSignedInApple": "Pierakstījies ar Apple ✅",
+  "snackSignedInGoogle": "Pierakstījies ar Google ✅",
+  "snackUpgradedApple": "Konts uzlaboots ar Apple ✅",
+  "snackUpgradedGoogle": "Konts uzlaboots ar Google ✅",
+
+  "historyTitle": "Iepriekšējās pārdomas",
+  "historyOpenCta": "Iepriekšējās pārdomas",
+  "historyEmpty": "Vēl nav saglabātu pārdomes.",
+  "historyDeleteTitle": "Dzēst pārdomi?",
+  "historyDeleteBody": "Tas neatgriezenski noņems atlasīto vienumu.",
+  "deleteCta": "Dzēst",
+
+  "historyButton": "Iepriekšējās Pārdomas",
+  "historyEmptyTitle": "Vēl nav pārdome",
+  "historyEmptyBody": "Vispirms ģenerējiet kaut ko — jūsu saglabātie elementi parādīsies šeit.",
+  "historyDelete": "Dzēst",
+
+  "footerTitle": "Ar Imanu, Sabru un Rahmu.",
+  "footerSubtitle": "Vienu soli pēc otra.",
+  "genericErrorSnack": "Kaut kas nogāja greizi — lūdzu mēģiniet vēlreiz pēc brīža.",
+
+  "upgradeAccountCta": "Saglabājiet savas pārdomas visās ierīcēs – izveidojiet kontu",
+  "deleteAccount": "Dzēst kontu",
+  "exportData": "Eksportēt manus datus",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Iezīme pirms iekšējā Firebase UID parādīšanas.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Viegli, tigre 🐯\nAI nepieciešams brīdis pirms nākamās…",
+  "rateDailyLimit": "Pagaidām vairs nav pārdome.\nIegūstiet vairāk pārdome vai jauniniet uz Barakah.",
+  "rateCreditsExhausted": "Jūs esat izmantojis visas savas pārdomes.\nToplināt vai jauniniet uz Barakah, lai turpinātu.",
+  "rateGraceReflectionsExhausted": "Pagaidām vairs nav pārdome.\nIegūstiet vairāk pārdome vai jauniniet uz Barakah.",
+  "rateReflectionsExhausted": "Jūs esat izmantojis visas savas pārdomes.\nToplināt vai jauniniet uz Barakah, lai turpinātu.",
+
+  "blessedDescription": "Barakah atslēdz prēmijas funkcijas, nākotnes kategorijas un īpašu žetonu.",
+  "championDescription": "Barakah atslēdz prēmijas funkcijas, nākotnes kategorijas un īpašu žetonu.",
+
+  "ratePlanExhausted": "Jūsu pārdome šobrīd ir tukšas. Plāns: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Parādīts, ja lietotāja pārdome ir izsmeltas, bet iemesls ir vispārīgs.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standarts vai Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Nevar pārbaudīt jūsu pārdomes: {message}",
+  "@rateCheckFailed": {
+    "description": "Parādīts, ja izpildāmā funkcija atgriež kļūdu ziņojumu.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Tīkla kļūda" }
+    }
+  },
+
+  "rateCheckGenericError": "Kaut kas nogāja greizi, pārbaudot jūsu pārdomes.",
+  "aiFallbackGeneric": "Kaut kas nogāja greizi — lūdzu mēģiniet vēlreiz pēc brīža.",
+
+  "limitSectionTitle": "Pārdomes",
+  "limitTodayLabel": "Lietojums",
+  "limitCreditsLabel": "Atlikušas pārdomes: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plāns: {plan}",
+  "@limitPlanLabel": {
+    "description": "Parāda pašreizējā abonēšanas plāna nosaukumu.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standarts vai Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Ielādē…",
+  "limitLoadingLabelDescription": "Parādīts pārdome kartē, kamēr tiek iegūta lietojuma statistika.",
+
+  "aiLimitTitle": "Pārdomes",
+  "aiLimitSubtitle": "Katra atbilde izmanto 1 pārdomi. Standarts ietver starta pārdomes. Barakah atslēdz prēmijas kategorijas un iespējo pārkraušanu.",
+  "aiLimitProgressLabel": "{used} / {total} pārdomes izmantota",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Pārdomes",
+  "reflectionsUsageLabel": "Lietojums",
+  "reflectionsRemainingLabel": "Atlikušas pārdomes: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plāns: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Parāda pašreizējā plāna nosaukumu.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standarts vai Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Ielādē…",
+  "reflectionsLoadingLabelDescription": "Parādīts, kamēr tiek iegūta pārdome statistika.",
+
+  "reflectionsTitle": "Pārdomes",
+  "reflectionsSubtitle": "Katra atbilde izmanto 1 pārdomi. Standarts ietver starta pārdomes. Barakah atslēdz prēmijas kategorijas un iespējo pārkraušanu.",
+  "reflectionsProgressLabel": "{used} / {total} pārdomes izmantota",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Dzēst kontu",
+  "settingsDeleteDescription": "Neatgriezenski dzēst savu kontu un visus saistītos datus.",
+  "settingsDeleteButtonLabel": "Dzēst manu kontu",
+  "settingsDeleteDialogTitle": "Dzēst kontu?",
+  "settingsDeleteDialogBody": "Šī darbība ir neatgriezeniska un nevar tikt atsaukta.\n\nVisas jūsu pārdomes, vēsture un konta informācija tiks izdzēsti.",
+  "settingsDeleteDialogCancel": "Atcelt",
+  "settingsDeleteDialogConfirm": "Dzēst",
+
+  "settingsFreeLimitUsedTitle": "Starta pārdomes izmantotas",
+  "settingsFreeLimitUsedDescription": "Šo ierīču starta pārdomes ir izmantotas. Jauniniet uz Barakah vai pērciet vairāk pārdome, lai turpinātu.",
+
+  "settingsStarterReflectionsUsedTitle": "Starta pārdomes izmantotas",
+  "settingsStarterReflectionsUsedDescription": "Šo ierīču starta pārdomes ir izmantotas. Jauniniet uz Barakah vai pērciet vairāk pārdome, lai turpinātu.",
+
+  "deviceBoundError": "Šī ierīce ir jau saistīta ar citu kontu. Lūdzu pierakstieties ar sākotnējo kontu.",
+
+  "premiumTitle": "Barakah režīms",
+  "premiumSubtitleBasic": "Atbloķējiet pilno Nuria pieredzi.",
+  "premiumSubtitleChampion": "Jūs esat Barakah. Nepieciešamas vairāk pārdome?",
+
+  "premiumCurrentPlan": "Pašreizējais plāns: {plan}",
+  "premiumCreditsStatus": "Pārdomes: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Pirkumi šobrīd nav pieejami.",
+  "premiumSignInToPurchase": "Pierakstieties, lai iegādātos pārdomes vai atbloķētu Barakah.",
+
+  "premiumRestorePurchases": "Atjaunot pirkumus",
+  "premiumProcessing": "Apstrāde…",
+  "premiumRestoreHintTitle": "Jau esat iegādājies Barakah vai pārdomes šajā vai citā ierīcē?",
+  "premiumRestoreHintBody": "Atjaunojiet savus pirkumus, ja tie netiek rādīti.",
+
+  "premiumBuyCredits200": "Pērciet 200 pārdomes",
+  "premiumBuyCredits400": "Pērciet 400 pārdomes",
+  "premiumBecomeChampionOneTime": "Jauniniet uz Barakah režīmu",
+  "premiumChampionHint": "Kā Barakah, jūs varat pārkraut ar papildu pārdome, kad tas nepieciešams.",
+
+  "premiumUpgradeCta": "Jauniniet",
+  "premiumRequiredForCategory": "Šī kategorija ir pieejama tikai Barakah lietotājiem. Jauniniet Iestatījumos, lai atbloķētu visu prēmijas saturu.",
+  "premiumBenefitsBasic": "Atbloķējiet Barakah, lai iegūtu papildu pārdomes, piekļūtu prēmijas kategorijām un turpinātu, kad nepieciešama vadlīnijas.",
+  "premiumBenefitsChampion": "Jūs esat Barakah režīmā. Ja jūs trūkst, pievienojiet papildu pārdomes un turpiniet bez pārtraukumiem.",
+  "premiumButtonBecomeChampion": "Atbloķējiet Barakah",
+  "premiumButtonTopup1000": "Pievienot 1000 pārdomes",
+  "premiumChampionBadge": "Barakah aktīvs",
+  "premiumLoadingStore": "Ielādē veikalu…",
+
+  "blessedTitle": "Barakah režīms",
+  "blessedSubtitleGrace": "Atbloķējiet pilno Nuria pieredzi.",
+  "blessedSubtitleBlessed": "Jūs esat Barakah. Nepieciešamas vairāk pārdome?",
+
+  "blessedCurrentPlan": "Pašreizējais plāns: {plan}",
+  "blessedReflectionsStatus": "Pārdomes: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Pirkumi šobrīd nav pieejami.",
+  "blessedProductNotAvailable": "Šis produkts vēl nav pieejams veikalā. Lūdzu mēģiniet vēlreiz vēlāk.",
+  "blessedPurchaseError": "Ar pirkumu notika kaut kas nepareizi. Lūdzu mēģiniet vēlreiz.",
+  "blessedSignInToPurchase": "Pierakstieties, lai iegādātos pārdomes vai atbloķētu Barakah.",
+
+  "blessedRestorePurchases": "Atjaunot pirkumus",
+  "blessedProcessing": "Apstrāde…",
+  "blessedRestoreHintTitle": "Jau esat iegādājies Barakah vai pārdomes šajā vai citā ierīcē?",
+  "blessedRestoreHintBody": "Atjaunojiet savus pirkumus, ja tie netiek rādīti.",
+
+  "blessedBuyReflections100": "Pievienot 100 pārdomes",
+  "blessedBuyReflections200": "Pērciet 200 pārdomes",
+  "blessedBuyReflections400": "Pērciet 400 pārdomes",
+  "blessedBecomeBlessedOneTime": "Jauniniet uz Barakah",
+  "blessedTopupHint": "Kā Barakah, jūs varat pārkraut ar papildu pārdome, kad tas nepieciešams.",
+
+  "blessedUpgradeCta": "Jauniniet",
+  "blessedRequiredForCategory": "Šī kategorija ir pieejama tikai Barakah lietotājiem. Jauniniet Iestatījumos, lai atbloķētu visu prēmijas saturu.",
+  "blessedFeatureLocked": "Atbloķējiet Barakah, lai piekļūtu šim līdzeklim.",
+  "lockedCategoriesHint": "Dažas kategorijas ir rezervētas Barakah dalībniekiem. Atbloķējiet tās, lai pārbaudītu katru pārdomi savā ceļojumā.",
+  "blessedBenefitsGrace": "Atbloķējiet Barakah, lai iegūtu papildu pārdomes, piekļūtu prēmijas kategorijām un turpinātu, kad nepieciešama vadlīnijas.",
+  "blessedBenefitsBlessed": "Jūs esat Barakah režīmā. Ja jūs trūkst, pievienojiet papildu pārdomes un turpiniet bez pārtraukumiem.",
+  "blessedButtonBecomeBlessed": "Atbloķējiet Barakah",
+  "blessedButtonTopup1000": "Pievienot 1000 pārdomes",
+  "blessedBadge": "Barakah aktīvs",
+  "blessedLoadingStore": "Ielādē veikalu…",
+
+  "freePlanBlockedTitle": "Jūs esat izmantojis savu starta pārdomes",
+  "freePlanBlockedBody": "Jūs esat Standarta plānā ar starta pārdomes, un jūs esat sasnieguši robežu. Lai turpinātu — un atbloķētu prēmijas kategorijas — jauniniet uz Barakah.",
+  "freePlanBlockedCtaGoPremium": "Skatīt Barakah iespējas tālāk",
+
+  "graceBlockedTitle": "Jūs esat izmantojis savu starta pārdomes",
+  "graceBlockedBody": "Jūs esat Standarta plānā ar starta pārdomes, un jūs esat sasnieguši robežu. Lai turpinātu — un atbloķētu prēmijas kategorijas — jauniniet uz Barakah.",
+  "graceBlockedCtaGoBlessed": "Skatīt Barakah iespējas tālāk",
+
+  "rateGuestMustSignIn": "Pierakstieties, lai izmantotu Nuria un savus pārdomes.",
+
+  "guestNoCreditsTitle": "Viesa režīms",
+  "guestNoCreditsBody": "Kā viesis, jūs varat pārlūkot lietotni, bet nevarat izmantot pārdomes. Pierakstieties vēlāk Iestatījumos, lai izmantotu pārdomes un atbloķētu pirkumus.",
+
+  "guestNoReflectionsTitle": "Viesa režīms",
+  "guestNoReflectionsBody": "Kā viesis, jūs varat pārlūkot lietotni, bet nevarat izmantot pārdomes. Pierakstieties vēlāk Iestatījumos, lai izmantotu pārdomes un atbloķētu pirkumus.",
+
+  "guestDialogContinue": "Turpināt",
+  "guestDialogLoginInstead": "Pierakstīties",
+
+  "optionalLabel": "nav obligāts",
+
+  "accountDeleteSuccessTitle": "Konts dzēsts",
+  "accountDeleteSuccessBody": "Jūsu konts un saistītie dati ir sekmīgi izdzēsti.",
+  "accountDeleteSuccessClose": "Aizvērt",
+  "accountDeleteErrorTitle": "Nevar dzēst kontu",
+  "accountDeleteErrorClose": "Labi",
+  "accountDeleteReauthCancelled": "Atkārtota autentifikācija tika atcelta. Lūdzu pierakstieties vēlreiz un mēģiniet dzēšanu vēlreiz.",
+  "accountDeleteReauthRequired": "Konta dzēšanai nepieciešams nesen pierakstīties. Lūdzu izrakstieties, pierakstieties vēlreiz un mēģiniet dzēšanu vēlreiz.",
+  "settingsDeletePermanentWarning": "Šī darbība ir neatgriezeniska un nevar tikt atsaukta. Visi dati, kas saistīti ar jūsu kontu, tiks izdzēsti.",
+
+  "dailyGraceTitle": "Ikdienas Vadlīnijas",
+  "dailyGraceScriptureLabel": "DIENAS ĀJA",
+  "dailyGraceSaintLabel": "NEDĒĻAS SKOLNIEKS",
+  "dailyGraceReflectionLabel": "VAKARA PĀRDOMA",
+  "dailyGraceCopiedToast": "Āja nokopēta uz starpliktuvē",
+
+  "dailyScripture0Text": "Patiesi, taisnīgie būs dārzos un upes, godas sēdekļa viņu tuvu Varens Ķēniņš.",
+  "dailyScripture0Ref": "Korāns 54:54-55",
+  "dailyScripture1Text": "Un Mēs nē sūtījuši tevi, [o Muhammad], izņemot žēlastību pasaulei.",
+  "dailyScripture1Ref": "Korāns 21:107",
+  "dailyScripture2Text": "Vai Allāhs nav pietiekams savs kalps? Tomēr viņi tevi nobiedē ar citiem Viņa pēc.",
+  "dailyScripture2Ref": "Korāns 39:36",
+  "dailyScripture3Text": "Iespējams, jūs nīstat kaut ko un tas ir jums par labu; un iespējams, jūs mīlat kaut ko un tas ir jums par kaitīgu. Un Allāhs zina, kamēr jūs nezināt.",
+  "dailyScripture3Ref": "Korāns 2:216",
+  "dailyScripture4Text": "Patiesi, Allāhs ir ar pacietīgajiem.",
+  "dailyScripture4Ref": "Korāns 2:153",
+  "dailyScripture5Text": "Tāpēc atcerieties Mani; Es atcerēšos jūs. Un esiet pateicīgi Manis un neliedziet Mani.",
+  "dailyScripture5Ref": "Korāns 2:152",
+  "dailyScripture6Text": "Patiesi, visvairāk cienīts jums Allāha acīs ir visvairāk taisns no jums.",
+  "dailyScripture6Ref": "Korāns 49:13",
+  "dailyScripture7Text": "Un jūsu Kungs dekrētējis, ka jūs cienītu ne vienu citu, kā Viņš, un ka jūs būtu pienīgs pret saviem vecākiem.",
+  "dailyScripture7Ref": "Korāns 17:23",
+  "dailyScripture8Text": "Patiesi, ar grūtībām nāk vieglums.",
+  "dailyScripture8Ref": "Korāns 94:6",
+  "dailyScripture9Text": "Un Viņš ir ar jums, kur vien jūs esat. Un Allāhs, no tā, ko jūs darāt, ir redzējis.",
+  "dailyScripture9Ref": "Korāns 57:4",
+  "dailyScripture10Text": "Allāhs neslog dvēseli vairāk, kā tas var paciest.",
+  "dailyScripture10Ref": "Korāns 2:286",
+  "dailyScripture11Text": "Un kas paļaujas uz Allāhu — tad Viņš viņam ir pietiekams.",
+  "dailyScripture11Ref": "Korāns 65:3",
+  "dailyScripture12Text": "Mana žēlastība pārklāj visas lietas.",
+  "dailyScripture12Ref": "Korāns 7:156",
+  "dailyScripture13Text": "Un kad Mani kalponi tev jautā par Mani — patiesi, Es esmu tuvu. Es atbildu lūgniecībai, kad viņš mani piesauc.",
+  "dailyScripture13Ref": "Korāns 2:186",
+  "dailyScripture14Text": "Kas dara taisnību, vai nu vīrs vai sieviete, kamēr viņš ir ticībnieks — Mēs noteikti padarīsim viņam dzīvi laba.",
+  "dailyScripture14Ref": "Korāns 16:97",
+  "dailyScripture15Text": "Patiesi, Allāhs nemainīs cilvēku stāvokli, kamēr viņi neizmainīs to, kas ir viņu paši.",
+  "dailyScripture15Ref": "Korāns 13:11",
+  "dailyScripture16Text": "Tātad neslāpē un nesēdi, un jūs būsiet pārākums, ja jūs esat patiess ticībnieki.",
+  "dailyScripture16Ref": "Korāns 3:139",
+  "dailyScripture17Text": "O Mani kalponi, kas ir pārkāpuši sevi, neapjuciet no Allāha žēlastības. Patiesi, Allāhs piedod visas grēkus.",
+  "dailyScripture17Ref": "Korāns 39:53",
+  "dailyScripture18Text": "Un kas baidās no Allāha — Viņš viņam padarīs ceļu ārā, un Viņš viņam sniegs no vietas, no kur viņš neizmanto.",
+  "dailyScripture18Ref": "Korāns 65:2-3",
+  "dailyScripture19Text": "Nepazaudējiet cerību Allāha žēlastībā.",
+  "dailyScripture19Ref": "Korāns 12:87",
+  "dailyScripture20Text": "Un Mēs noteikti esam atvieglojuši Korānu atcerēties. Vai tad nav nevienam, kas būtu apzinīgs?",
+  "dailyScripture20Ref": "Korāns 54:17",
+  "dailyScripture21Text": "Un Viņš atrada tevi pazaudētu un tevi vadīja.",
+  "dailyScripture21Ref": "Korāns 93:7",
+  "dailyScripture22Text": "Un jūsu Kungs saka: Piesauciet Mani; Es jums atbildēšu.",
+  "dailyScripture22Ref": "Korāns 40:60",
+  "dailyScripture23Text": "Un Mēs noteikti esam goda Ādama bērnus.",
+  "dailyScripture23Ref": "Korāns 17:70",
+  "dailyScripture24Text": "Un meklējiet palīdzību caur pacietību un lūgšanu.",
+  "dailyScripture24Ref": "Korāns 2:45",
+  "dailyScripture25Text": "Kas dara atoma svara labumu, redzēs to.",
+  "dailyScripture25Ref": "Korāns 99:7",
+  "dailyScripture26Text": "Neapšaubāmi, Allāha palīdzība ir tuvu.",
+  "dailyScripture26Ref": "Korāns 2:214",
+  "dailyScripture27Text": "Un kas izsaka pateicību — viņa pateicība ir tikai sev par labumu.",
+  "dailyScripture27Ref": "Korāns 31:12",
+
+  "dailyReflection0": "Kad šī diena beidzas, apsvērt vienu mirkli, kurā Allāha žēlastība bija redzama.",
+  "dailyReflection1": "Nes Allāham neatkarīgi no tā, kas tevi šodien slogoja.",
+  "dailyReflection2": "Nosauciet vienu svētību no šās dienas un izsakiet pateicību Allāham.",
+  "dailyReflection3": "Apģērbies mieru zinot, ka tu esi turēts Allāha bezgalīgajā aprūpē.",
+  "dailyReflection4": "Pārdomas par vietu, kur tev bija aicinājums parādīt žēlastību un laipnību šodien.",
+  "dailyReflection5": "Atlaist to, ko tu nevari kontrolēt un uzticēties Allāha pilnīgajam plānam.",
+  "dailyReflection6": "Kad diena beidzas, saņem mieru Allāha atcerēšanās.",
+  "dailyReflection7": "Pārdomas par to, kā tu godāji savas lūgšanas šodien, un pateikties Allāham par katru.",
+  "dailyReflection8": "Pārdomas par mirkli, kur pacietība (Sabr) vadīja tavi rīcības šodien.",
+  "dailyReflection9": "Lūdz piedošanu par jebkādu trūkumu šodien — Allāha žēlastība ir bezgalīga.",
+  "dailyReflection10": "Nosauciet vienu cilvēku, kuram parādīji laipnību šodien, un sūti tiem duā.",
+  "dailyReflection11": "Sēdi ar pateicību: kas Allāhs sev šodien, ko tu neljauji?",
+  "dailyReflection12": "Pārdomas par Korāna āju, kas runā par vietu, kur tu esi tikai tagad.",
+  "dailyReflection13": "Apsvērt, kā tu izmantoji savu laiku šodien — un noda rīt Allāham.",
+  "dailyReflection14": "Apģērbies zinot, ka neatkarīgi no tā, kāda grūtība nāca šodien, Allāhs bija ar tevi.",
+  "dailyReflection15": "Padomā par vienu veidu, kā tu kalpoji savai ģimenei vai kopienai šodien Allāha dēļ.",
+  "dailyReflection16": "Kad naktis krīt, dariet Tavabahs — Allāhs mīl tūs, kas atgriežas pie Viņa.",
+  "dailyReflection17": "Pārdomas par skaistumu, ko Allāhs novietoja tavā dienā, lai arī maziņš.",
+  "dailyReflection18": "Apsvērt, ko tu mācijies šodien un kā tas tevi pievilina tuvāk Allāham.",
+  "dailyReflection19": "Ļauj dienas bažām atpūsties ar Allāhu — Viņš nēsā to, ko tu nevari.",
+  "dailyReflection20": "Padomā par mirkli šodien, kur tu varētu izvēlēties labāk, un iemācies no tā maigāk.",
+  "dailyReflection21": "Dary duā tiem, kas cieš — tava lūgšana ir viņiem dāvana.",
+  "dailyReflection22": "Atcerieties svētību, kuru jūs bieži ignorējat, un paņemiet brīdi, lai pateiktu Allāham.",
+  "dailyReflection23": "Pārdomas par saviem nolūkiem šodien — vai tie bija Allāham? Rīt sākumstart vēlreiz.",
+  "dailyReflection24": "Kad naktis klusu, klausieties Allāha tuvumu klusumā.",
+  "dailyReflection25": "Apsvērt, kur jūs atradāt spēku šodien — šis spēks ir no Allāha.",
+  "dailyReflection26": "Nosauciet vienu lietu, ko jūs darīsiet rīt, Allāha dēļ, ko jūs nedarijāt šodien.",
+  "dailyReflection27": "Kā jūs gatavojaties atpūtai, nodu savu dvēseli Allāham — Viņš ir labākais sargs.",
+
+  "dailyRoleModel0": "Pravietis Muhammads ﷺ",
+  "dailyRoleModel1": "Abu Bakrs as-Siddīk (RA)",
+  "dailyRoleModel2": "Umārs ibn al-Khattāb (RA)",
+  "dailyRoleModel3": "Uthmāns ibn Affāns (RA)",
+  "dailyRoleModel4": "Alī ibn Abī Tālibs (RA)",
+  "dailyRoleModel5": "Khadīja bint Khuvaylid (RA)",
+  "dailyRoleModel6": "Aīsha bint Abī Bakers (RA)",
+  "dailyRoleModel7": "Fātima az-Zahrā (RA)",
+  "dailyRoleModel8": "Bilāls ibn Rabbāhs (RA)",
+  "dailyRoleModel9": "Salmāns al-Fārisī (RA)",
+  "dailyRoleModel10": "Abū Hurāyra (RA)",
+  "dailyRoleModel11": "Abdullāhs ibn Abbāss (RA)",
+  "dailyRoleModel12": "Abdullāhs ibn Masūd (RA)",
+  "dailyRoleModel13": "Muādhs ibn Jabal (RA)",
+  "dailyRoleModel14": "Musabs ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayyā bint Khabbāb (RA)",
+  "dailyRoleModel16": "Ammārs ibn Yāsir (RA)",
+  "dailyRoleModel17": "Umm Salāma (RA)",
+  "dailyRoleModel18": "Khālids ibn al-Walīd (RA)",
+  "dailyRoleModel19": "Zayds ibn Thābit (RA)",
+  "dailyRoleModel20": "Hafsāh bint Umārs (RA)",
+  "dailyRoleModel21": "Umārs ibn Abd al-Azīz (RH)",
+  "dailyRoleModel22": "Imāms Abū Hanīfa (RH)",
+  "dailyRoleModel23": "Imāms Mālik ibn Anās (RH)",
+  "dailyRoleModel24": "Imāms al-Shāfi'ī (RH)",
+  "dailyRoleModel25": "Imāms Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imāms al-Bukhārī (RH)",
+  "dailyRoleModel27": "Imāms Muslim (RH)",
+  "dailyRoleModel28": "Imāms al-Tirmidhī (RH)",
+  "dailyRoleModel29": "Al-Ghazālī (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jauziyyā (RH)",
+  "dailyRoleModel31": "Ibn Taymiyyā (RH)",
+  "dailyRoleModel32": "Al-Nawawī (RH)",
+  "dailyRoleModel33": "Ibn Hajars al-Askalānī (RH)",
+  "dailyRoleModel34": "Ibn Kathīrs (RH)",
+  "dailyRoleModel35": "Al-Tabarī (RH)",
+  "dailyRoleModel36": "Sufyāns al-Thaurī (RH)",
+  "dailyRoleModel37": "Fakhrs ad-Dīns al-Rāzī (RH)",
+  "dailyRoleModel38": "Ibn Sīnā (RH)",
+  "dailyRoleModel39": "Al-Bīrūnī (RH)",
+  "dailyRoleModel40": "Ibn Rushds (RH)",
+  "dailyRoleModel41": "Ibn Khaldūns (RH)",
+  "dailyRoleModel42": "Ibn Battūta (RH)",
+  "dailyRoleModel43": "Pravietis Ibrāhīms (AS)",
+  "dailyRoleModel44": "Pravietis Mūsā (AS)",
+  "dailyRoleModel45": "Pravietis Īsā (AS)",
+  "dailyRoleModel46": "Pravietis Yūsufs (AS)",
+  "dailyRoleModel47": "Pravietis Dāvuds (AS)",
+  "dailyRoleModel48": "Pravietis Sulaymāns (AS)",
+  "dailyRoleModel49": "Pravietis Nūhs (AS)",
+  "dailyRoleModel50": "Pravietis Yūnuss (AS)",
+  "dailyRoleModel51": "Pravietis Ayūbs (AS)",
+  "dailyRoleModel52": "Ruqayyāh bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainabs bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassāns ibn Alī (RA)",
+  "dailyRoleModel55": "Hussāins ibn Alī (RA)",
+  "dailyRoleModel56": "Jafārs ibn Abī Tālibs (RA)",
+  "dailyRoleModel57": "Abū Dharrs al-Ghifārī (RA)",
+  "dailyRoleModel58": "Talhas ibn Ubaydullāh (RA)",
+  "dailyRoleModel59": "Az-Zubayrs ibn al-Awwāms (RA)",
+
+  "locationConsentLabel": "Atļaut Nuria izmantot manu atrašanās vietu Qiblas virzienam un lūgšanas laikami",
+  "locationConsentHint": "Tiek izmantots tikai šiem līdzekļiem. Jūsu atrašanās vieta nekad netiek dalīta vai glabāta.",
+
+  "askPageTitle": "Jautājiet Nuria",
+  "askPageDescription": "Jautājiet jebko par ticību, lūgšanu, dzīvi vai islāma praksi un saņemiet vadlīnijas, kas iesakņota Korānā un Sunnāh.",
+  "askPageInputHint": "Ierakstiet savu jautājumu šeit…",
+  "askPageSubmitCta": "Jautāt",
+  "askPageInputEmptyError": "Lūdzu vispirms uzrakstiet jautājumu.",
+  "askResultYourQuestion": "Jūsu jautājums",
+
+  "guidancePageTitle": "Lūgšana un Vadlīnijas",
+  "qiblaFacingMecca": "Saskaroties ar Makku",
+  "qiblaCompassInstruction": "Pagrieziet tālruni, līdz zeltens adata norāda uz augšu.\nŠis virziens norāda uz Qiblu (Makku).",
+  "qiblaGpsUnavailableBody": "GPS signāls ir vājs. Pārvietojieties ārpus un pieskarieties Mēģināt vēlreiz.",
+  "qiblaRetry": "Mēģināt vēlreiz",
+  "qiblaTitle": "Qibla Virziens",
+  "qiblaDistanceLabel": "{km} km līdz Makkai",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Atrašanās vieta nepieciešama",
+  "qiblaLocationNeededBody": "Atļaut atrašanās vietas piekļuvi, lai Nuria varētu aprēķināt Kaabas virzienu Makkā no jebkura vieta, kur jūs esat.",
+  "qiblaOpenSettings": "Atvērt Iestatījumus",
+  "qiblaCompassLoading": "Atrod jūsu pozīciju…",
+  "qiblaTowardMecca": "Pret Makku",
+
+  "prayerTimesTitle": "Lūgšanas Laiki",
+  "prayerTimesFajr": "Fajrs",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asrs",
+  "prayerTimesMaghrib": "Maghrībs",
+  "prayerTimesIsha": "Ishā",
+  "prayerTimesLocationNeededTitle": "Atrašanās vieta nepieciešama",
+  "prayerTimesLocationNeededBody": "Atļaut atrašanās vietas piekļuvi, lai Nuria varētu aprēķināt precīzus lūgšanas laikus jūsu pilsētai.",
+  "prayerTimesNextLabel": "Nākamais",
+  "prayerTimesDoneLabel": "Gatavs",
+
+  "monthlyPrayerTimesTitle": "Mēneša Lūgšanas Laiki",
+  "monthlyPrayerTimesViewButton": "Skatīt Pilnu Mēnesi",
+  "monthlyPrayerTimesNextMonth": "Nākamais mēnesis",
+  "monthlyPrayerTimesDayHeader": "Diena",
+
+  "sharePrayerTimes": "Dalīties ar lūgšanas laikami",
+
+  "prayerNotificationsTitle": "Lūgšanas Atgādinājumi",
+  "prayerNotificationsDescription": "Saņemt maiga atgādinājuma pirms katra lūgšanas laika, lai palīdzētu jums palikt savienotiem visu dienu.",
+  "prayerNotificationsEnable": "Iespējot lūgšanas atgādinājumus",
+  "prayerNotificationsOpenSettings": "Atvērt paziņojumu iestatījumus",
+  "prayerNotificationsDenied": "Paziņojumi ir atspējoti",
+  "prayerNotificationsDeniedHint": "Dodieties uz Iestatījumiem un atļaujiet paziņojumus Nuria, lai saņemtu lūgšanas laiku atgādinājumus.",
+
+  "notificationsConsentLabel": "Atļaut paziņojumus lūgšanas laikami",
+
+  "prayerNotifTitleFajr": "🌅 Fajrs — Rīta Lūgšana",
+  "prayerNotifBodyFajr": "Labākā lūgšanu ir rīta lūgšana. Celies, attīrīties un stāvi Allāha priekšā.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Pusdienas Lūgšana",
+  "prayerNotifBodyDhuhr": "Pātraukt savu dienu un atgriezties pie Allāha. Dhuhr lūgšanas laiks ir pienācis.",
+
+  "prayerNotifTitleAsr": "🌤️ Asrs — Pēcpusdienass Lūgšana",
+  "prayerNotifBodyAsr": "Glabā vidusmēneša lūgšanu. Asrs laiks ir nācis — nepieļauj tam iziešanu.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrībs — Saulrieta Lūgšana",
+  "prayerNotifBodyMaghrib": "Saule ir nogrimusi. Pievienojiet Maghrību un esiet pateicīgs Allāham par šo dienu.",
+
+  "prayerNotifTitleIsha": "🌙 Ishā — Nakts Lūgšana",
+  "prayerNotifBodyIsha": "Pabeidziet savu dienu ar Allāha atcerēšanu. Hayya alal falāh — nākam uz sekmēm.",
+
+  "outOfReflectionsBannerText": "Jūs esat izmantojis visas savas pārdomes",
+  "outOfReflectionsBannerCta": "Iegūt vairāk",
+
+  "dhikrPageTitle": "Dhikrs",
+  "dhikrTapToCount": "Pieskarieties aplim, lai skaitītu",
+  "dhikrResetButton": "Atiestatīt",
+  "dhikrComplete": "Masha'Allāh",
+  "dhikrCompleteMessage": "Jūs esat noslēguši 99 Allāha atcerēšanu. Lai tie ir gaisma tavai sirdij.",
+
+  "disclaimerTitle": "Par šīs lietotnes vadlīnijas",
+  "disclaimerBody": "Nuria sniedz islāma pārdomes, atgādinājumus un garīgo saturu, lai atbalstītu jūsu personīgā ticības ceļojuma. Šis saturs tiek sniegts tikai vispārējai informatīvi un inspirejoši nolūkam.\n\nNuria neaizstāj kvalificētu komandu.\nVadlīnijas šajā lietotnē nav aizstāvēta apmācītas islāma skolas, imāma, muftīja vai teoloģiski apmācīta skolotāja aizstāvēšana. Ja jums ir jautājumi par reliģiskiem noteikumiem, halāl un harāma jautājumiem vai personīgiem reliģiskiem pienākumiem, lūdzu vērsieties pie kvalificētas reliģiskas iestādes savā kopienā.\n\nŠī lietotne neizsniedz reliģiiskus noteikumus.\nNuria neveido autoritatīvus noteikumus fikhā (islāma jurisprudencē) vai personīgos reliģiski pienākumi. Nekas šeit netiks uzskatīts par fetvu vai obligātu reliģisku norādījumu.\n\nAkademiskās interpretācijas atšķiras.\nIslāms ietver bagātu tradīciju, domāšanas skolu (madhabs) un akadēmisko viedokļu daudzveidību. Saturs šajā lietotnē atspoguļo vispārīgās perspektīvas un var nevienlīdzīgi pārstāvēt katru tradīciju vai viņai vienlīdzīgu.\n\nKopiena ir svarīga.\nŠī lietotne ir paredzēta, lai veicinātu jūsu iesaistīšanu ticības tradīcijās, vienlaikus atzīstot būtiskas jūsu vietējās mošejas, imāma un reliģiskas kopienas lomu. Mēs iedrošinām jūs palikt savienotiem un mācīties no kvalificētiem skolotājiem jūsu tuvumā.",
+  "disclaimerClose": "Es saprotu",
+  "disclaimerInfoTooltip": "Par šīs lietotnes vadlīnijas",
+  "disclaimerSettingsSubtitle": "Paredzēts tikai vispārējai informatīvi nolūkam. Pieskarieties, lai lasītu pilnu atbildi.",
+  "disclaimerSectionHeader": "Vadlīnijas atsvari"
+}

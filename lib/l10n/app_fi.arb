@@ -1,0 +1,585 @@
+{
+  "@@locale": "fi",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Valitse kielesi",
+  "languageSelectSub": "Voit muuttaa tätä myöhemmin asetuksissa",
+  "actionContinue": "Jatka",
+  "languageSuggestedHeader": "Suositellut",
+  "languageAllHeader": "Kaikki kielet",
+  "languageSuggestedBadge": "Suositeltu",
+  "languageSearchHint": "Hae…",
+
+  "planGrace": "Peruspaket",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Päivittäinen opastus",
+  "categoryFaithTrust": "Iman & Luottamus",
+  "categoryPrayerReflection": "Rukouksen pohdinta",
+  "categoryHopeDifficultTimes": "Kärsivällisyys ja toivo",
+  "categoryForgiveness": "Anteeksi pyytäminen",
+  "categoryLoveCompassion": "Armo ja myötätunto",
+  "categoryStrengthCourage": "Uskoon perustuva vahvuus",
+  "categoryGratitude": "Kiitollinen sydän",
+  "categoryPurposeCalling": "Elämän tarkoitus",
+  "categoryFamilyRelationships": "Perhesuhteet",
+  "categoryPeaceAnxietyRelief": "Sisäinen rauha",
+  "categoryWisdomOfJesus": "Profeettojen viisaus",
+  "categoryHumilityCharacter": "Nöyryys ja hyvä luonne",
+  "categoryOvercomingTemptation": "Kiusausten vastustaminen",
+  "categoryEveningReflection": "Illan dhikr",
+  "categoryCustom": "Henkilökohtainen Pohdinta",
+  "dhikrMeaningSubhanallah": "Kunnia olkoon Allahille",
+  "dhikrMeaningAlhamdulillah": "Kaikki ylistys kuuluu Allahille",
+  "dhikrMeaningAllahuAkbar": "Allah on Suurin",
+  "quranVerseHeartAtRest": "Totisesti, Allahin muistamisessa sydämet löytävät rauhan.",
+
+  "promptHint": "Napauta kategoriaa saadaksesi islamilaista opastusta ja pohdintaa",
+
+  "currentLanguage": "Nykyinen kieli",
+  "settingsLanguage": "Kieliset asetukset",
+  "settingsTitle": "Asetukset",
+  "chooseLanguage": "Valitse kielesi",
+  "continueCta": "Jatka",
+
+  "promptDailyGuidance": "Kirjoita lyhyt, käytännöllinen päivittäinen opastus, joka perustuu sunnitlaiseen islamiin — Koraania, hadiitia ja profeettas Muhammadin opetuksia noudattaen. Valitse joka kerta uusi näkökulma: islamilaisen etiikan hyve, Sunnan totuus, Profeettas viisaus hänen saattajistaan tai hiljainen käytäntö islamilaisesta perinteestä. Sisällytä yksi Koraanin jae (Suurah:Ayyah) ja 1–2 lauseen pohdinta, jonka voit kantaa päivän yli. Yhdistä se tarvittaessa islamilaiseen kalenteriin tai tärkeään päivämäärään.",
+
+  "promptFaithTrust": "Kirjoita lyhyt islamilainen pohdinta Imanista (uskon) ja luottamuksesta Jumalan suunnitelmaan (Tawakkul). Perusta se Koraaniin, profeettas Muhammadin esimerkkiin ja Sahabin uskoon. Vaihda teemaa joka kerta: luottamus Jumalaan epävarmuuden aikana, luottaminen jumalalliseen viisauteen, kärsivällisyys koettelemuksissa tai hiljainen sinnikkyys jokapäiväisessä elämässä. Sisällytä yksi Koraanin jae ja yksi rehellinen askel päivälle islamilaisen hengellistä viisaudesta.",
+
+  "promptPrayerReflection": "Kirjoita lyhyt islamilainen rukouksen pohdinta, joka perustuu Salahiin, Duaahan tai Dhikriin. Vaihda muotoa joka kerta: aamu- tai ilta-muistuminen (Adhkar), heijastus viidestä päivittäisestä rukouksesta, Koraanin jakeeseen liittyvä kontemplatio tai sydämellinen pyyntö. Sisällytä yksi Koraanin jae ja nimennä lyhyesti käytetty rukouksen muoto.",
+
+  "promptHopeDifficultTimes": "Kirjoita islamilainen pohdinta kärsivällisyydestä (Sabr) ja toivosta vastoinkäymisten aikana. Vedä aineistoa Koraanin opetuksista koettelemuksista, profeettojen sinnikkyvydestä ja Jumalan armosta vaikeilla hetkillä. Vaihda näkökulmaa joka kerta. Sisällytä yksi Koraanin jae ja yksi rohkaiseva näkökulma islamilaisesta perinteestä.",
+
+  "promptForgiveness": "Kirjoita viisas islamilainen pohdinta anteeksi pyytämisestä (Tawbah) ja Jumalan armosta. Vedä aineistoa Koraanin opetuksista parannuksesta, Jumalan myötätunnosta ja profeettas Muhammadin anteeksiantavasta esimerkistä. Vaihda teemaa: paluu Jumalaan, muiden anteeksiantaminen, suhteiden parantaminen tai uskosta Jumalan armoon virheiden jälkeen. Sisällytä yksi Koraanin jae ja yksi konkreettinen askel.",
+
+  "promptLoveCompassion": "Kirjoita lyhyt islamilainen pohdinta armosta (Rahmah) ja myötätunnosta jokapäiväisessä elämässä. Vedä aineistoa profeettas Muhammadin esimerkistä, Ihsanin (täydellisyyden) käsitteestä ja islamilaisista opetuksista perheelle, naapureille ja heikoille osoitetusta ystävällisyydestä. Sisällytä yksi Koraanin jae ja yksi pieni myötätuntoon perustuva harjoitus tänään.",
+
+  "promptStrengthCourage": "Kirjoita islamilainen pohdinta uskoon perustuvasta vahvuudesta ja rohkeudesta. Vedä aineistoa profeettojen esimerkeistä, varhaisesta muslimien yhteisöstä ja uskovaisista, jotka pysyivät lujina vastoinkäymisten aikana. Vaihda teemaa joka kerta: rohkeus uskon kautta, vahvuus rukouksessa, luottamus Jumalaan pelon aikana tai sietokyky vaikeudessa. Sisällytä yksi Koraanin jae ja lyhyt rukous tai muistuminen.",
+
+  "promptGratitude": "Kirjoita islamilainen pohdinta kiitollisuudesta (Shukr) Jumalan suhteen. Perusta se Koraanin opetukseen ja propetaanisen perinteeseen. Vaihda näkökulmaa: kiitollisuus vaikeudessa, pienten siunauksien arvostaminen, päivän aloittaminen Jumalan ylistyksellä tai Jumalan johdatuksen tunnustaminen jokapäiväisessä elämässä. Sisällytä yksi Koraanin jae ja yksi kiitollisuuden käytäntö.",
+
+  "promptPurposeCalling": "Kirjoita islamilainen pohdinta elämän tarkoituksesta Jumalan palvelemisessa ja oikeudenmukaisen elämän elämisessä. Vedä aineistoa Koraanin opetuksista tarkoituksesta, muiden palvelemisesta ja omien lahjojen käytöstä hyvään. Vaihda teemaa joka kerta: perheen ja yhteisön palveleminen, johdatuksen etsiminen Istikharan kautta, tarkoituksellisen elämisen eläminen tai merkityksen löytäminen tavallisesta työstä. Sisällytä yksi Koraanin jae ja kaksi pohdiskelevaa kysymystä.",
+
+  "promptFamilyRelationships": "Kirjoita viisas islamilainen opastus perheeseen ja suhteisiin, joka perustuu Koraanin opetukseen ja profeettas Muhammadin esimerkille. Vaihda teemaa joka kerta: ystävällisyys perheessä, kärsivällisyys konfliktissa, vanhempien kunniottaminen, lasten kasvattaminen uskon parissa tai avioliiton vahvistaminen. Sisällytä yksi Koraanin jae ja yksi suhteisiin liittyvä käytäntö.",
+
+  "promptPeaceAnxietyRelief": "Kirjoita rauhoittava islamilainen pohdinta sisäisen rauhan löytämisestä Jumalan muistamisen (Dhikr) ja luottamuksen kautta hänen suunnitelmaansa. Vedä aineistoa Koraanin opetuksista sydämen rauhallisuudesta, rukouksesta ja luovuttamisesta Jumalan tahtoon. Vaihda lähestymistapaa joka kerta ja sisällytä yksi Koraanin jae ja yksi yksinkertainen ankkurointi islamilaisesta perinteestä.",
+
+  "promptWisdomOfJesus": "Kirjoita lyhyt viisausfragmentti profeetoista kuten islaminissa opetetaan. Vedä aineistoa Koraanista tai hadiitista ja selitä lyhyesti kuinka islamilaiset tutkijat ovat ymmärtäneet opin. Vaihda aihetta joka kerta: luonne, kärsivällisyys, nöyryys, usko tai jokapäiväinen käytös. Sisällytä Koraanin jae tai hadiitin viite ja yksi käytännön soveltaminen.",
+
+  "promptHumilityCharacter": "Kirjoita islamilainen pohdinta nöyryyden (Tawadhu) ja hyvän luonteen (Akhlaq) suhteen. Vedä aineistoa Koraanin opetuksista, profeettas Muhammadin esimerkistä ja islamilaisen luonteen kehityksen perinteestä. Vaihda teemaa: nöyryys johtajuudessa, virheiden myöntäminen, muiden kunnioitus tai hengellistä kasvua itsereflektion kautta. Sisällytä yksi Koraanin jae ja yksi harjoitus.",
+
+  "promptOvercomingTemptation": "Kirjoita islamilainen pohdinta kiusausten vastustamisesta ja oikealla tiellä pysymisestä. Vedä aineistoa Koraanin ohjauksesta, Jumalan muistamisesta (Dhikr), rukouksesta (Salah) ja uskovaisista, jotka voittivat kamppailut. Vaihda näkökulmaa joka kerta. Sisällytä yksi Koraanin jae ja yksi käytännön strategia seuraaviksi 24 tunniksi.",
+
+  "promptEveningReflection": "Kirjoita rauhallinen islamilainen illan pohdinta, joka perustuu ilta-muistumisen perinteeseen (Adhkar al-Masaa'). Kannusta kiitollisuuteen, itsereflektioon (Muhasabah) ja luottamukseen Jumalaan ennen lepoa. Sisällytä 3–5 lyhyttä pohdinta päivästä, lyhyt sulkemisRukous ja yksi Koraanin jae.",
+
+  "wordCount": "{count, plural, one {{count} sana} other {{count} sanaa}}",
+
+  "optionsCta": "Vaihtoehdot",
+  "newCta": "Uusi",
+  "actionsTitle": "Mitä haluat tehdä?",
+  "copy": "Kopioi",
+  "share": "Jaa",
+  "close": "Sulje",
+  "copiedToast": "Kopioitu leikepöydälle",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Sähköpostin/jakamisen aiherivi, joka sisältää kategorian etikettien.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Päivittäinen opastus" }
+    }
+  },
+
+  "regenerateErrorTitle": "Uuden vastauksen luominen epäonnistui",
+  "regenerateErrorBody": "{error}\n\nHaluatko yrittää uudelleen?",
+  "@regenerateErrorBody": {
+    "description": "Näytetään kun tekoälyn vastauksen uudelleen luominen epäonnistuu.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Verkkovirhe" }
+    }
+  },
+
+  "cancelCta": "Peruuta",
+  "retryCta": "Yritä uudelleen",
+
+  "authTitle": "Luo tilisi",
+  "continueAsGuest": "Jatka vieraana",
+  "signInGoogle": "Kirjaudu Google:lla",
+  "signInApple": "Kirjaudu Applella",
+  "signInEmail": "Kirjaudu sähköpostilla",
+  "upgradeWithApple": "Jatka Applen kanssa",
+  "mustAccept": "Sinun on hyväksyttävä käyttöehdot ja tunnustettava tietosuojakäytäntö.",
+  "termsLabel": "Hyväksynyt palvelun käyttöehdot",
+  "privacyLabel": "Olen lukenut tietosuojakäytännön",
+  "marketingOptIn": "Suostun saamaan uutisia ja tarjouksia",
+  "openTerms": "Palvelun käyttöehdot",
+  "openPrivacy": "Tietosuojakäytäntö",
+
+  "accountSection": "Tili",
+  "guestMode": "Vierastila",
+  "signedIn": "Kirjautunut sisään",
+  "upgradeHint": "Tallenna pohdintasi laitteissa luomalla tili.",
+  "upgradeWithGoogle": "Jatka Google:lla",
+  "signOut": "Kirjaudu ulos",
+
+  "snackUpgraded": "Tili päivitetty Google:lla ✅",
+  "snackSignedIn": "Kirjautunut sisään Google:lla ✅",
+  "snackSignedOut": "Kirjautunut ulos",
+  "snackSignedInApple": "Kirjautunut sisään Applella ✅",
+  "snackSignedInGoogle": "Kirjautunut sisään Google:lla ✅",
+  "snackUpgradedApple": "Tili päivitetty Applella ✅",
+  "snackUpgradedGoogle": "Tili päivitetty Google:lla ✅",
+
+  "historyTitle": "Aiemmat pohdinnot",
+  "historyOpenCta": "Aiemmat pohdinnot",
+  "historyEmpty": "Ei vielä tallennettuja pohdintoja.",
+  "historyDeleteTitle": "Poista pohdinta?",
+  "historyDeleteBody": "Tämä poistaa valitun kohteen pysyvästi.",
+  "deleteCta": "Poista",
+
+  "historyButton": "Aiemmat pohdinnot",
+  "historyEmptyTitle": "Ei pohdintoja vielä",
+  "historyEmptyBody": "Luo jokin ensin — tallennetut kohteesi näkyvät täällä.",
+  "historyDelete": "Poista",
+
+  "footerTitle": "Imanin, sabrin ja rahman kanssa.",
+  "footerSubtitle": "Yksi askel kerrallaan.",
+  "genericErrorSnack": "Jokin meni pieleen — yritä uudelleen hetken kuluttua.",
+
+  "upgradeAccountCta": "Tallenna pohdintasi laitteissa – luo tili",
+  "deleteAccount": "Poista tili",
+  "exportData": "Vie tietoni",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Etiketti sisäisen Firebase UID:n näyttämisen edessä.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Helposti 🐯\nTekoäly tarvitsee hetken seuraavaa ennen…",
+  "rateDailyLimit": "Pohdintosi loppuivat toistaiseksi.\nHanki lisää pohdintoja tai päivitä Barakaahksi.",
+  "rateCreditsExhausted": "Olet käyttänyt kaikki pohdintasi.\nLataa tai päivitä Barakaahksi jatkaaksesi.",
+  "rateGraceReflectionsExhausted": "Pohdintosi loppuivat toistaiseksi.\nHanki lisää pohdintoja tai päivitä Barakaahksi.",
+  "rateReflectionsExhausted": "Olet käyttänyt kaikki pohdintasi.\nLataa tai päivitä Barakaahksi jatkaaksesi.",
+
+  "blessedDescription": "Barakah avaa premium-ominaisuudet, tulevat kategoriat ja erityisen merkin.",
+  "championDescription": "Barakah avaa premium-ominaisuudet, tulevat kategoriat ja erityisen merkin.",
+
+  "ratePlanExhausted": "Pohdintasi ovat tyhjät nyt. Paket: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Näytetään kun käyttäjän pohdinnot ovat loppu, mutta syy on yleinen.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Peruspaket tai Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Pohdintojesi tarkistaminen epäonnistui: {message}",
+  "@rateCheckFailed": {
+    "description": "Näytetään kun kutsuttava funktio palauttaa virheviestien.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Verkkovirhe" }
+    }
+  },
+
+  "rateCheckGenericError": "Jokin meni pieleen pohdintojesi tarkistuksessa.",
+  "aiFallbackGeneric": "Jokin meni pieleen — yritä uudelleen hetken kuluttua.",
+
+  "limitSectionTitle": "Pohdinnot",
+  "limitTodayLabel": "Käyttö",
+  "limitCreditsLabel": "Jäljellä olevia pohdintoja: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Paket: {plan}",
+  "@limitPlanLabel": {
+    "description": "Näyttää nykyisen tilauspakettin nimen.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Peruspaket tai Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Ladataan…",
+  "limitLoadingLabelDescription": "Näytetään pohdintakortissa käyttötilastojen haussa.",
+
+  "aiLimitTitle": "Pohdinnot",
+  "aiLimitSubtitle": "Jokainen vastaus käyttää yhden pohdinnan. Peruspaket sisältää aloittavat pohdinnot. Barakah avaa premium-kategoriat ja sallii lataukset.",
+  "aiLimitProgressLabel": "{used} / {total} pohdintaa käytetty",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Pohdinnot",
+  "reflectionsUsageLabel": "Käyttö",
+  "reflectionsRemainingLabel": "Jäljellä olevia pohdintoja: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Paket: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Näyttää nykyisen paketin nimen.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Peruspaket tai Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Ladataan…",
+  "reflectionsLoadingLabelDescription": "Näytetään pohdinta-tilastojen haun aikana.",
+
+  "reflectionsTitle": "Pohdinnot",
+  "reflectionsSubtitle": "Jokainen vastaus käyttää yhden pohdinnan. Peruspaket sisältää aloittavat pohdinnot. Barakah avaa premium-kategoriat ja sallii lataukset.",
+  "reflectionsProgressLabel": "{used} / {total} pohdintaa käytetty",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Poista tili",
+  "settingsDeleteDescription": "Poista tilisi pysyvästi ja kaikki siihen liittyvät tiedot.",
+  "settingsDeleteButtonLabel": "Poista tilini",
+  "settingsDeleteDialogTitle": "Poista tili?",
+  "settingsDeleteDialogBody": "Tämä toiminto on pysyvä eikä sitä voi peruuttaa.\n\nKaikki chat-istunnot, historia ja tilisi tiedot poistetaan.",
+  "settingsDeleteDialogCancel": "Peruuta",
+  "settingsDeleteDialogConfirm": "Poista",
+
+  "settingsFreeLimitUsedTitle": "Aloittavat pohdinnot käytetty",
+  "settingsFreeLimitUsedDescription": "Tämän laitteen aloittavat pohdinnot on käytetty. Päivitä Barakaahksi tai osta lisää pohdintoja jatkaaksesi.",
+
+  "settingsStarterReflectionsUsedTitle": "Aloittavat pohdinnot käytetty",
+  "settingsStarterReflectionsUsedDescription": "Tämän laitteen aloittavat pohdinnot on käytetty. Päivitä Barakaahksi tai osta lisää pohdintoja jatkaaksesi.",
+
+  "deviceBoundError": "Tämä laite on jo linkitetty toiseen tiliin. Kirjaudu sisään alkuperäisellä tilillä.",
+
+  "premiumTitle": "Barakah-tila",
+  "premiumSubtitleBasic": "Avaa koko Nuria-kokemus.",
+  "premiumSubtitleChampion": "Olet Barakah. Tarvitsetko lisää pohdintoja?",
+
+  "premiumCurrentPlan": "Nykyinen paket: {plan}",
+  "premiumCreditsStatus": "Pohdinnot: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Ostot eivät ole saatavilla juuri nyt.",
+  "premiumSignInToPurchase": "Kirjaudu sisään ostaaksesi pohdintoja tai avataksesi Barakaah.",
+
+  "premiumRestorePurchases": "Palauta ostot",
+  "premiumProcessing": "Käsitellään…",
+  "premiumRestoreHintTitle": "Oletko jo ostanut Barakaahza tai pohdintoja tällä tai toisella laitteella?",
+  "premiumRestoreHintBody": "Palauta ostosi, jos ne eivät näy.",
+
+  "premiumBuyCredits200": "Osta 200 pohdintaa",
+  "premiumBuyCredits400": "Osta 400 pohdintaa",
+  "premiumBecomeChampionOneTime": "Päivitä Barakah-tilaan",
+  "premiumChampionHint": "Barakaahzassa voit ladata lisää pohdintoja milloin tahansa tarvitsematta.",
+
+  "premiumUpgradeCta": "Päivitä",
+  "premiumRequiredForCategory": "Tämä kategoria on saatavilla vain Barakah-käyttäjille. Päivitä asetuksissa avataksesi kaikki premium-sisällöt.",
+  "premiumBenefitsBasic": "Avaa Barakah saadaksesi lisää pohdintoja, premium-kategorioiden pääsy ja jatka milloin tahansa, kun tarvitset opastusta.",
+  "premiumBenefitsChampion": "Olet Barakah-tilassa. Jos loppuvat pohdinnot, lisää lisää ja jatka keskeyttämättömästi.",
+  "premiumButtonBecomeChampion": "Avaa Barakah",
+  "premiumButtonTopup1000": "Lisää 1000 pohdintaa",
+  "premiumChampionBadge": "Barakah aktiivinen",
+  "premiumLoadingStore": "Ladataan kauppaa…",
+
+  "blessedTitle": "Barakah-tila",
+  "blessedSubtitleGrace": "Avaa koko Nuria-kokemus.",
+  "blessedSubtitleBlessed": "Olet Barakah. Tarvitsetko lisää pohdintoja?",
+
+  "blessedCurrentPlan": "Nykyinen paket: {plan}",
+  "blessedReflectionsStatus": "Pohdinnot: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Ostot eivät ole saatavilla juuri nyt.",
+  "blessedProductNotAvailable": "Tämä tuote ei ole vielä saatavilla kaupassa. Yritä uudelleen myöhemmin.",
+  "blessedPurchaseError": "Jotain meni pieleen oston kanssa. Yritä uudelleen.",
+  "blessedSignInToPurchase": "Kirjaudu sisään ostaaksesi pohdintoja tai avataksesi Barakah.",
+
+  "blessedRestorePurchases": "Palauta ostot",
+  "blessedProcessing": "Käsitellään…",
+  "blessedRestoreHintTitle": "Oletko jo ostanut Barakah:ta tai pohdintoja tällä tai toisella laitteella?",
+  "blessedRestoreHintBody": "Palauta ostosi, jos ne eivät näy.",
+
+  "blessedBuyReflections100": "Lisää 100 pohdintaa",
+  "blessedBuyReflections200": "Osta 200 pohdintaa",
+  "blessedBuyReflections400": "Osta 400 pohdintaa",
+  "blessedBecomeBlessedOneTime": "Päivitä Barakah:ksi",
+  "blessedTopupHint": "Barakah:ssa voit ladata lisää pohdintoja milloin tahansa tarvitsematta.",
+
+  "blessedUpgradeCta": "Päivitä",
+  "blessedRequiredForCategory": "Tämä kategoria on saatavilla vain Barakah-käyttäjille. Päivitä asetuksissa avataksesi kaikki premium-sisällöt.",
+  "blessedFeatureLocked": "Avaa Barakah päästäksesi tähän ominaisuuteen.",
+  "lockedCategoriesHint": "Jotkut kategoriat on varattu Barakah-jäsenille. Avaa ne tutustuaksesi jokaiseen pohdintaan matkallasi.",
+  "blessedBenefitsGrace": "Avaa Barakah saadaksesi lisää pohdintoja, premium-kategorioiden pääsy ja jatka milloin tahansa, kun tarvitset opastusta.",
+  "blessedBenefitsBlessed": "Olet Barakah-tilassa. Jos loppuvat pohdinnot, lisää lisää ja jatka keskeyttämättömästi.",
+  "blessedButtonBecomeBlessed": "Avaa Barakah",
+  "blessedButtonTopup1000": "Lisää 1000 pohdintaa",
+  "blessedBadge": "Barakah aktiivinen",
+  "blessedLoadingStore": "Ladataan kauppaa…",
+
+  "freePlanBlockedTitle": "Olet käyttänyt aloittavat pohdintasi loppuun",
+  "freePlanBlockedBody": "Olet Peruspaketissa aloittavilla pohdinnolla ja olet saavuttanut rajan. Jatkaaksesi — ja avataksesi premium-kategoriat — päivitä Barakah:ksi.",
+  "freePlanBlockedCtaGoPremium": "Katso Barakah-vaihtoehdot alla",
+
+  "graceBlockedTitle": "Olet käyttänyt aloittavat pohdintasi loppuun",
+  "graceBlockedBody": "Olet Peruspaketissa aloittavilla pohdinnolla ja olet saavuttanut rajan. Jatkaaksesi — ja avataksesi premium-kategoriat — päivitä Barakah:ksi.",
+  "graceBlockedCtaGoBlessed": "Katso Barakah-vaihtoehdot alla",
+
+  "rateGuestMustSignIn": "Kirjaudu sisään käyttääksesi Nuriaa ja pohdintojasi.",
+
+  "guestNoCreditsTitle": "Vierastila",
+  "guestNoCreditsBody": "Vieraana voit selata sovellusta, mutta et voi käyttää pohdintoja. Kirjaudu sisään myöhemmin asetuksissa pohdintoja käyttääksesi ja ostoja avataksesi.",
+
+  "guestNoReflectionsTitle": "Vierastila",
+  "guestNoReflectionsBody": "Vieraana voit selata sovellusta, mutta et voi käyttää pohdintoja. Kirjaudu sisään myöhemmin asetuksissa pohdintoja käyttääksesi ja ostoja avataksesi.",
+
+  "guestDialogContinue": "Jatka",
+  "guestDialogLoginInstead": "Kirjaudu sisään sen sijaan",
+
+  "optionalLabel": "valinnainen",
+
+  "accountDeleteSuccessTitle": "Tili poistettu",
+  "accountDeleteSuccessBody": "Tilisi ja siihen liittyvät tiedot on poistettu onnistuneesti.",
+  "accountDeleteSuccessClose": "Sulje",
+  "accountDeleteErrorTitle": "Tilin poistaminen epäonnistui",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Uudelleentodentaminen peruutettiin. Kirjaudu sisään uudelleen ja yritä poistamista uudelleen.",
+  "accountDeleteReauthRequired": "Tilin poistaminen edellyttää äskettäistä kirjautumista. Kirjaudu ulos, kirjaudu sisään uudelleen ja yritä poistamista uudelleen.",
+  "settingsDeletePermanentWarning": "Tämä toiminto on pysyvä eikä sitä voi peruuttaa. Kaikki tiliin liittyvät tiedot poistetaan.",
+
+  "dailyGraceTitle": "Päivittäinen opastus",
+  "dailyGraceScriptureLabel": "PÄIVÄN JÄETTÄ",
+  "dailyGraceSaintLabel": "VIIKON TUTKIJA",
+  "dailyGraceReflectionLabel": "ILLAN POHDINTA",
+  "dailyGraceCopiedToast": "Jae kopioitu leikepöydälle",
+
+  "dailyScripture0Text": "Varmasti vanhurskat ovat puutarhoissa ja joissa, kunniapaikalla voimakkaan kuninkaan luona.",
+  "dailyScripture0Ref": "Koraani 54:54-55",
+  "dailyScripture1Text": "Emme lähettäneet sinua, profeettas Muhammad, kuin armona maailmoille.",
+  "dailyScripture1Ref": "Koraani 21:107",
+  "dailyScripture2Text": "Eikö Allah ole riittävä palvelijalleen? Vaikka he pelottavat sinua muilla hänen lisäkseen.",
+  "dailyScripture2Ref": "Koraani 39:36",
+  "dailyScripture3Text": "Ehkä vihaat jotakin, ja se on sinulle hyvää; ja ehkä rakastat jotakin, ja se on sinulle pahaa. Allah tietää, kun te ette tiedä.",
+  "dailyScripture3Ref": "Koraani 2:216",
+  "dailyScripture4Text": "Varmasti Allah on kärsivällisten puolella.",
+  "dailyScripture4Ref": "Koraani 2:153",
+  "dailyScripture5Text": "Muista minua; minä muistan sinut. Ja ole kiitollinen minulle eikä kiellä minua.",
+  "dailyScripture5Ref": "Koraani 2:152",
+  "dailyScripture6Text": "Varmasti jaloin Jumalan silmissä on vanhurskain teistä.",
+  "dailyScripture6Ref": "Koraani 49:13",
+  "dailyScripture7Text": "Sinun Herraasi on määrännyt, ettet palvele ketään muuta kuin häntä, ja että olet kunniasta vanhemmillesi.",
+  "dailyScripture7Ref": "Koraani 17:23",
+  "dailyScripture8Text": "Varmasti vaikeuden kanssa tulee helpotus.",
+  "dailyScripture8Ref": "Koraani 94:6",
+  "dailyScripture9Text": "Ja hän on sinun kanssasi missä tahansa olet. Ja Allah näkee mitä teet.",
+  "dailyScripture9Ref": "Koraani 57:4",
+  "dailyScripture10Text": "Allah ei kuormita sielua sen enemmän kuin se kestää.",
+  "dailyScripture10Ref": "Koraani 2:286",
+  "dailyScripture11Text": "Ja joka luottaa Allahiin — hän on hänelle riittävä.",
+  "dailyScripture11Ref": "Koraani 65:3",
+  "dailyScripture12Text": "Armoni kattaa kaikki asiat.",
+  "dailyScripture12Ref": "Koraani 7:156",
+  "dailyScripture13Text": "Kun palvelijani kysyvät sinulta minusta — varmasti olen lähellä. Vastaan rukoilijalle kun hän kutsuu minua.",
+  "dailyScripture13Ref": "Koraani 2:186",
+  "dailyScripture14Text": "Joka tekee vanhurskaudella, olipa se mies tai nainen, jos hän on uskova — me varmasti antamme hänelle hyvän elämän.",
+  "dailyScripture14Ref": "Koraani 16:97",
+  "dailyScripture15Text": "Varmasti Allah ei muuta kansan tilaa kunnes he muuttavat sitä, mikä on heidän sisällään.",
+  "dailyScripture15Ref": "Koraani 13:11",
+  "dailyScripture16Text": "Älä heikkene eivätkä suru, ja olette ylempiä, jos olette todellisia uskovaisia.",
+  "dailyScripture16Ref": "Koraani 3:139",
+  "dailyScripture17Text": "O palvelijani, jotka yliarvioisitte itseänne, älä epätoivo Jumalan armosta. Varmasti Allah antaa anteeksi kaikki syntinsä.",
+  "dailyScripture17Ref": "Koraani 39:53",
+  "dailyScripture18Text": "Ja joka pelkää Allahia — hän tekee hänelle ulospääsyn ja antaa hänelle rikas mistä ei odota.",
+  "dailyScripture18Ref": "Koraani 65:2-3",
+  "dailyScripture19Text": "Älä menetä toivoa Jumalan armosta.",
+  "dailyScripture19Ref": "Koraani 12:87",
+  "dailyScripture20Text": "Ja me olemme varmasti helpottaneet Koraania muistoon. Onko siis joku, joka muistaa?",
+  "dailyScripture20Ref": "Koraani 54:17",
+  "dailyScripture21Text": "Ja hän löysi sinut eksyksissä ja ohjasi sinut.",
+  "dailyScripture21Ref": "Koraani 93:7",
+  "dailyScripture22Text": "Sinun Herraasi sanoo: Rukoile minulle; vastaan sinulle.",
+  "dailyScripture22Ref": "Koraani 40:60",
+  "dailyScripture23Text": "Ja me olemme varmasti kunnoittaneet Aadamin lapsia.",
+  "dailyScripture23Ref": "Koraani 17:70",
+  "dailyScripture24Text": "Ja etsi apua kärsivällisyyden ja rukouksen kautta.",
+  "dailyScripture24Ref": "Koraani 2:45",
+  "dailyScripture25Text": "Joka tekee atomin verran hyvää näkee sen.",
+  "dailyScripture25Ref": "Koraani 99:7",
+  "dailyScripture26Text": "Epäilemättä Jumalan apu on lähellä.",
+  "dailyScripture26Ref": "Koraani 2:214",
+  "dailyScripture27Text": "Ja joka on kiitollinen — hänen kiitollisuutensa hyödyttää vain itseään.",
+  "dailyScripture27Ref": "Koraani 31:12",
+
+  "dailyReflection0": "Kun päivä päättyy, pohdi yhtä hetkeä, jossa Jumalan armo oli ilmeinen.",
+  "dailyReflection1": "Tuo Jumalan eteen mikä painoi sydäntäsi tänään.",
+  "dailyReflection2": "Nimeä yksi siunaus tästä päivästä ja ilmaise kiitollisuus Jumalalle.",
+  "dailyReflection3": "Lepää siinä tiedossa, että sinua pidetään Jumalan äärettömässä huolenpidossa.",
+  "dailyReflection4": "Pohdi paikkaa, jossa sinua kutsuttiin osoittamaan myötätuntoa ja ystävällisyyttä tänään.",
+  "dailyReflection5": "Päästä irti siitä, mitä et voi hallita ja luota Jumalan täydelliseen suunnitelmaan.",
+  "dailyReflection6": "Kun päivä lähestyy loppuaan, vastaanota rauha Jumalan muistamisessa.",
+  "dailyReflection7": "Pohdi kuinka kunnoitit rukouksiasi tänään ja kiitä Allahia jokaisesta.",
+  "dailyReflection8": "Pohdi hetkeä, jossa kärsivällisyys (Sabr) ohjasi toimintaasi tänään.",
+  "dailyReflection9": "Pyydä anteeksi kaikki puutteesi tänään — Jumalan armo on rajaton.",
+  "dailyReflection10": "Nimeä yksi henkilö, jolle näytit ystävällisyyttä tänään ja tee dua heille.",
+  "dailyReflection11": "Istu kiitollisuuden kanssa: mitä Allah antoi sinulle tänään, mitä et pyytänyt?",
+  "dailyReflection12": "Pohdi Koraanin jakeita, joka puhuu siitä, missä olet nyt.",
+  "dailyReflection13": "Pohdi kuinka käytit aikaasi tänään — ja tarjoa huominen Jumalalle.",
+  "dailyReflection14": "Lepää siinä tiedossa, että mikä vaikeutta tänään tuli, Allah oli kanssasi.",
+  "dailyReflection15": "Ajattele yhtä tapaa, jolla palvelit perhettäsi tai yhteisöäsi tänään Jumalan puolesta.",
+  "dailyReflection16": "Kun yö laskeutuu, tee Tawbah — Allah rakastaa niitä, jotka kääntyvät hänen luokseen.",
+  "dailyReflection17": "Pohdi kauneutta, jonka Allah asetti päivääsi, olipa se kuinka pieni tahansa.",
+  "dailyReflection18": "Pohdi mitä opit tänään ja kuinka se vetää sinut lähemmäs Allahia.",
+  "dailyReflection19": "Anna päivän huolet Jumalan hoitoon — hän kantaa mitä et voi.",
+  "dailyReflection20": "Ajattele hetkeä tänään, jossa olisit voinut valita paremmin ja opi siitä hellästi.",
+  "dailyReflection21": "Tee dua niille, jotka kamppailevat — rukouksesi on lahja heille.",
+  "dailyReflection22": "Muista siunaus, jonka usein unohtaa ja ota hetki kiitollisuuden ilmaisemiseen Jumalalle.",
+  "dailyReflection23": "Pohdi aikomuksiasi tänään — olivatko ne Jumalalle? Huomenna, aloita uudelleen.",
+  "dailyReflection24": "Kun yö hiljentää, kuuntele Jumalan läheisyyttä hiljaisuudessa.",
+  "dailyReflection25": "Pohdi missä löysit vahvuuden tänään — se vahvuus tulee Jumalasta.",
+  "dailyReflection26": "Nimeä yksi asia, jonka teet huomenna, Jumalan puolesta, mitä et tee tänään.",
+  "dailyReflection27": "Kun valmistaudut lepoon, luovuta sielusi Jumalalle — hän on paras vartija.",
+
+  "dailyRoleModel0": "Profeettas Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Profeettas Ibrahim (AS)",
+  "dailyRoleModel44": "Profeettas Musa (AS)",
+  "dailyRoleModel45": "Profeettas Isa (AS)",
+  "dailyRoleModel46": "Profeettas Yusuf (AS)",
+  "dailyRoleModel47": "Profeettas Dawud (AS)",
+  "dailyRoleModel48": "Profeettas Sulayman (AS)",
+  "dailyRoleModel49": "Profeettas Nuh (AS)",
+  "dailyRoleModel50": "Profeettas Yunus (AS)",
+  "dailyRoleModel51": "Profeettas Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Salli Nurialla käyttää paikannustietojani Qibla-suunnan ja rukousaikojen osalta",
+  "locationConsentHint": "Käytetään vain näihin ominaisuuksiin. Paikannustietojasi ei koskaan jaeta tai tallenneta.",
+
+  "askPageTitle": "Kysy Nurialta",
+  "askPageDescription": "Kysy mitä tahansa uskosta, rukouksesta, elämästä tai islamilaisesta harjoituksesta ja saa opastusta, joka perustuu Koraaniin ja Sunnahiin.",
+  "askPageInputHint": "Kirjoita kysymyksesi tähän…",
+  "askPageSubmitCta": "Kysy",
+  "askPageInputEmptyError": "Kirjoita kysymys ensin.",
+  "askResultYourQuestion": "Sinun kysymyksesi",
+
+  "guidancePageTitle": "Rukous & Opastus",
+  "qiblaFacingMecca": "Makkaan päin",
+  "qiblaCompassInstruction": "Kierrä puhelintasi kunnes kultainen neula osoittaa ylöspäin.\nTämä suunta osoittaa Qiblaan (Makkaan).",
+  "qiblaGpsUnavailableBody": "GPS-signaali on heikko. Siirry ulkoilmaan ja napauta Yritä uudelleen.",
+  "qiblaRetry": "Yritä uudelleen",
+  "qiblaTitle": "Qibla-suunta",
+  "qiblaDistanceLabel": "{km} km Makkaan",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Paikannustieto vaaditaan",
+  "qiblaLocationNeededBody": "Salli paikannustietojen käyttö, jotta Nuria voi laskea Kaaban suunnan Makkaan sijainnistasi.",
+  "qiblaOpenSettings": "Avaa asetukset",
+  "qiblaCompassLoading": "Etsitään paikkaasi…",
+  "qiblaTowardMecca": "Makkaan päin",
+
+  "prayerTimesTitle": "Rukouksen ajat",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Paikannustieto vaaditaan",
+  "prayerTimesLocationNeededBody": "Salli paikannustietojen käyttö, jotta Nuria voi laskea tarkat rukouksen ajat kaupunginasi.",
+  "prayerTimesNextLabel": "Seuraava",
+  "prayerTimesDoneLabel": "Valmis",
+
+  "monthlyPrayerTimesTitle": "Kuukausittaiset rukouksen ajat",
+  "monthlyPrayerTimesViewButton": "Näytä koko kuukausi",
+  "monthlyPrayerTimesNextMonth": "Seuraava kuukausi",
+  "monthlyPrayerTimesDayHeader": "Päivä",
+
+  "sharePrayerTimes": "Jaa rukouksen ajat",
+
+  "prayerNotificationsTitle": "Rukouspäivitykset",
+  "prayerNotificationsDescription": "Saa lempeä muistutus ennen jokaista rukouksen aikaa, jotta pysyt yhteydessä koko päivän ajan.",
+  "prayerNotificationsEnable": "Ota rukouspäivitykset käyttöön",
+  "prayerNotificationsOpenSettings": "Avaa ilmoitusasetukset",
+  "prayerNotificationsDenied": "Ilmoitukset ovat poissa käytöstä",
+  "prayerNotificationsDeniedHint": "Siirry asetuksiin ja salli ilmoitukset Nurialle saadaksesi rukouksen aikamuistutuksia.",
+
+  "notificationsConsentLabel": "Salli ilmoitukset rukouksen ajoista",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Aamun rukous",
+  "prayerNotifBodyFajr": "Paras rukouksista on aamun rukous. Nouse, puhdista itsesi ja seiso Jumalan edessä.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Keskipäivän rukous",
+  "prayerNotifBodyDhuhr": "Keskeytä päiväsi ja palaa Jumalaan. Dhuhr rukouksen aika on saapunut.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Iltapäivän rukous",
+  "prayerNotifBodyAsr": "Varjele keskimmäistä rukousta. Asr aika on saapunut — älä anna sen mennä.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Auringonlaskun rukous",
+  "prayerNotifBodyMaghrib": "Aurinko on laskenut. Tarjoa Maghrib ja ole kiitollinen Jumalalle tästä päivästä.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Yön rukous",
+  "prayerNotifBodyIsha": "Lopeta päivä Jumalan muistamisella. Hayya 'alal falah — tule menestykseen.",
+
+  "outOfReflectionsBannerText": "Olet käyttänyt kaikki pohdintasi",
+  "outOfReflectionsBannerCta": "Hanki lisää",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Napauta ympyrää laskeaksesi",
+  "dhikrResetButton": "Nollaa",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Olet suorittanut 99 Jumalan muistamista. Olkoon ne valoksi sydämellesi.",
+
+  "disclaimerTitle": "Tietoa tämän sovelluksen opastuksesta",
+  "disclaimerBody": "Nuria tarjoaa islamilaisia pohdintoja, muistutuksia ja hengellistä sisältöä tukeakseen henkilökohtaista uskonmatkaa. Tämä sisältö tarjotaan yleisiin informatiivisiin ja inspiroiviin tarkoituksiin.\n\nNuria ei korvaa koulutettuja tutkijoita.\nTämän sovelluksen opastus ei korvaa opiskeltua islamilaista tutkijaa, imaami, mufti tai teologian kouluttajaa. Jos sinulla on kysymyksiä uskonnollisista säädöksistä, halal ja haram -asioista tai henkilökohtaisista uskonnollisista velvollisuuksista, pyydä neuvoa pätevältä uskonnolliselta auktoriteetilta yhteisössäsi.\n\nTämä sovellus ei anna uskonnollisia päätöksiä.\nNuria ei tee auktoritatiivisia määrittelyjä fiqh-asioista (islamilainen jurisprudenssi) tai henkilökohtaisista uskonnollisista velvollisuuksista. Mitään täällä ei tulisi pitää fatwa:na tai sitovana uskonnollisena ohjeena.\n\nTutkijat tulkitsevat eri tavoin.\nIslam sisältää rikas perinteen, koulukuntien (madhab) ja tutkijoiden mielipiteiden moninaisuus. Sisältö tässä sovelluksessa heijastaa yleisiä näkökulmia eikä välttämättä edusta kaikkia perinteitä tai kouluja tasapuolisesti.\n\nYhteisö on tärkeä.\nTämä sovellus pyrkii kannustamaan sitoutumistasi uskonnollisiin perinteisiin samalla kun kunnioitamme syvällä tavalla paikallisen moskeijan, imamin ja uskonnollisen yhteisön ratkaisevan roolin. Kannustamme sinua pysymään yhteydessä ja oppimaan päteviltä opettajilta lähellä sinua.",
+  "disclaimerClose": "Ymmärrän",
+  "disclaimerInfoTooltip": "Tietoa tämän sovelluksen opastuksesta",
+  "disclaimerSettingsSubtitle": "Yleisiin informatiivisiin tarkoituksiin. Napauta lukiaksesi koko vastuuvapauslauseen.",
+  "disclaimerSectionHeader": "Opastuksen vastuuvapauslauseke"
+}

@@ -1,0 +1,209 @@
+# ============================================================
+# 🧠 Nuria / Flutter 3.x – Production-grade .gitignore
+# ============================================================
+
+# ------------------------------------------------------------
+# 🧩 OS & system files
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+*.tmp
+*.log
+*.bak
+*.old
+*.orig
+
+# ------------------------------------------------------------
+# 🧰 IDEs & Editors
+# ------------------------------------------------------------
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+.vscode-test/
+
+# Xcode user state
+*.xcuserstate
+*.xcuserdatad
+*.xcsettings
+
+# ------------------------------------------------------------
+# 🦋 Flutter & Dart
+# ------------------------------------------------------------
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+generated_plugin_registrant.dart
+**/GeneratedPluginRegistrant.*
+
+# Flutter generated
+**/flutter_export_environment.sh
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# ------------------------------------------------------------
+# 📦 Dependencies & docs
+# ------------------------------------------------------------
+**/doc/api/
+
+# ⚠️ APP = commit pubspec.lock för stabila builds
+# (Om du mot förmodan INTE vill committa den – kommentera in raden nedan)
+# pubspec.lock
+
+# ------------------------------------------------------------
+# 📱 Android
+# ------------------------------------------------------------
+/android/.gradle/
+/android/captures/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/local.properties
+/android/key.properties
+/android/gradle.properties.bak
+/android/.idea/
+
+# Gradle
+.gradle/
+**/gradlew
+**/gradlew.bat
+**/gradle-wrapper.jar
+**/gradle-wrapper.properties
+
+# NDK / native
+**/ndk/
+**/.externalNativeBuild/
+**/obj/
+
+# ------------------------------------------------------------
+# 🍏 iOS / macOS
+# ------------------------------------------------------------
+/ios/Flutter/.last_build_id
+/ios/Pods/
+/ios/.symlinks/
+/ios/build/
+/ios/DerivedData/
+/ios/.generated/
+
+/ios/Runner.xcworkspace/
+/ios/Runner/Runner.entitlements
+
+# Flutter engine artifacts
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+
+# Firebase iOS (machine-specific)
+ios/Runner/GoogleService-Info.plist
+
+# CocoaPods
+Podfile.lock
+
+# Apple signing / provisioning
+*.mobileprovision
+*.p12
+*.cer
+*.crt
+*.key
+*.pem
+
+# ------------------------------------------------------------
+# 💻 Windows
+# ------------------------------------------------------------
+/windows/flutter/ephemeral/
+/windows/runner/Release/
+/windows/runner/Debug/
+/windows/runner/Profile/
+/windows/build/
+/windows/.vs/
+*.pdb
+*.obj
+*.dll
+*.exe
+*.ilk
+*.exp
+*.lib
+
+# ------------------------------------------------------------
+# 🌐 Web
+# ------------------------------------------------------------
+/web/.dart_tool/
+/web/.flutter-plugins/
+/web/build/
+
+# ------------------------------------------------------------
+# 🧬 Localization (l10n)
+# ------------------------------------------------------------
+# Generated localization output
+lib/l10n/app_localizations_*.dart
+lib/generated/
+
+# Keep ARB source files
+!lib/l10n/*.arb
+
+# ------------------------------------------------------------
+# 🔑 Secrets & environment
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# Firebase (FlutterFire generates per-machine)
+lib/firebase_options.dart
+
+# Android Firebase
+android/app/google-services.json
+
+# ------------------------------------------------------------
+# 🧪 Tests / temp / logs
+# ------------------------------------------------------------
+.migrate/
+.migrate_working_dir/
+test_results/
+*.testresult
+*.coverage
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+*.cache/
+*.lock
+
+# ------------------------------------------------------------
+# 🧹 Misc
+# ------------------------------------------------------------
+.build/
+.buildlog/
+.svn/
+.swiftpm/
+.history/
+*.class
+*.pyc
+
+
+# Firebase config (do not commit)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+
+
+
+# service account keys
+*service-account*.json
+*verification*.json
+*play*.json

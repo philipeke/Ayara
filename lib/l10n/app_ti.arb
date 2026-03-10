@@ -1,0 +1,585 @@
+{
+  "@@locale": "ti",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "ቋንቋዎን ምረጡ",
+  "languageSelectSub": "ይህንን በኋላ በቅንብራት ውስጥ መቀየር ይችላሉ",
+  "actionContinue": "መቀጠል",
+  "languageSuggestedHeader": "የተሰጠው",
+  "languageAllHeader": "ሁሉም ቋንቋዎች",
+  "languageSuggestedBadge": "የተሰጠው",
+  "languageSearchHint": "ፍለጋ…",
+
+  "planGrace": "መደበኛ",
+  "planBlessed": "ባረከ",
+
+  "categoryDailyGuidance": "ዕለታዊ መመሪያ",
+  "categoryFaithTrust": "ኢማን እና እምነት",
+  "categoryPrayerReflection": "ምልክት ሊያደርግ ያለበት",
+  "categoryHopeDifficultTimes": "ሰብር እና ተስፋ",
+  "categoryForgiveness": "መ赦ማ ይጠይቁ",
+  "categoryLoveCompassion": "ራህማ እና ሕዝበ ዓለም",
+  "categoryStrengthCourage": "ኢማን ጥንካሬ",
+  "categoryGratitude": "ሕፃናት ቤተሰብ",
+  "categoryPurposeCalling": "የሕይወት ዓላማ",
+  "categoryFamilyRelationships": "ቤተሰብ ግንኙነቶች",
+  "categoryPeaceAnxietyRelief": "ውስጣዊ ሰላም",
+  "categoryWisdomOfJesus": "ነቢዩ ብርታት",
+  "categoryHumilityCharacter": "ጥሩ ባህሪ",
+  "categoryOvercomingTemptation": "ፈታኘ ግፋ ከቅሌት",
+  "categoryEveningReflection": "ምሽት ድርክ",
+  "categoryCustom": "ንዕባብ ዕድል",
+  "dhikrMeaningSubhanallah": "እግዚአብሔር ይበርክ",
+  "dhikrMeaningAlhamdulillah": "ሁሉም የእግዚአብሔር ነው",
+  "dhikrMeaningAllahuAkbar": "እግዚአብሔር ይታወቃል",
+  "quranVerseHeartAtRest": "እውነት፣ በእግዚአብሔር ዝምድና ልቦናት ይወዳድሩ።",
+
+  "promptHint": "ለኢስላሚክ መመሪያ እና ሊያሰቡ ምድብ ይንካኩ",
+
+  "currentLanguage": "የአሁኑ ቋንቋ",
+  "settingsLanguage": "ቋንቋ ቅንብር",
+  "settingsTitle": "ቅንብር",
+  "chooseLanguage": "ቋንቋዎን ምረጡ",
+  "continueCta": "መቀጠል",
+
+  "promptDailyGuidance": "ከቁርአን፣ ሐድይሽ እና የነቢዩ ሙሐመድ ﷺ ትምህርት ላይ የተመሰረተ አጭር ተግባራዊ ዕለታዊ መመሪያ ጻፋ። በእያንዳንዱ ጊዜ 신선한አንግል ምረጥ፡ ከኢስላሚክ ስነ-ምግባር ጥቅም፣ ከስነ-መለኮት የሚገኘ ሐቅ፣ የነቢዩ ﷺ ስብሓት ጥበብ ወይም ከኢስላሚክ ዓይነታ 조용한ተግባር። አንድ ቁርአን ዴ (ስረሓት፡ ዴ) እና 1–2 አረፍተ ነገር የቀን ሊታሰቡ ይሁን። ከኢስላሚክ ካሌንደር ወይም ስሕተት ቀን ጋር ግንኙነት ምናልባት።",
+
+  "promptFaithTrust": "ኢማን (ኢማን) እና በአላህ ዕቅድ ላይ የተመሰረተ አጭር ኢስላሚክ ሊያሰቡት ጻፋ (ተወካኩል)። ከቁርአን፣ ከነቢዩ ሙሐመድ ﷺ ምሳሌ እና ከስብሓት እምነት ላይ ግንቤ። በእያንዳንዱ ጊዜ ርዕሰ ጉዳይ ሀያዋ፡ በእርግጠኛ ወቅት አላህን የሚተማመኑ፣ በSaints ጥበብ ላይ ሃላፊ ነው፣ በሙከራ ውስጥ ሰብር ወይም በዕለት-ተእለት ሕይወት ዝጋግ ሰብር። አንድ ቁርአን ዴ እና ከኢስላሚክ ስታት ጥበብ ደረሰ አንድ ነገር ለየዛ ይጠይቁ።",
+
+  "promptPrayerReflection": "ከሰላህ፣ ዱዓ ወይም ድርክ ላይ ተገኝ አጭር ኢስላሚክ ምልክት ሊያደርግ ያለበት ጻፋ። በእያንዳንዱ ጊዜ ፍርም ስወግድ፡ ዋዜማ ወይም ምሽት ሊዘከር (አድካር)፣ በምግባር ዕለታዊ ምስክር፣ ቁርአናዊ ዴ ሊያሰቡት ወይም አንድ ሕዝበ-ዓለም ገጠር። አንድ ቁርአን ዴ እና በአጭር ጊዜ ጥቀም ግምት ተግባር ስሞ።",
+
+  "promptHopeDifficultTimes": "ወቅታዊ (ሰብር) በሰቀዶ ውስጥ ኢስላሚክ ሊያሰቡት ጻፋ። ከቁርአናዊ ሙከራ ትምህርት፣ ከነቢዮች ሃላፊነት እና ከአላህ ራህማ ወደ ከባድ ጊዜ። በእያንዳንዱ ጊዜ አንግል ጋብ። አንድ ቁርአን ዴ እና ከኢስላሚክ ዓይነታ አንድ ዝግባ አመኛ།",
+
+  "promptForgiveness": "ስለ መ赦ማ (ተውባ) እና በአላህ ራህማ ጥበበኛ ኢስላሚክ ሊያሰቡት ጻፋ። ከቁርአናዊ ሙከራ ሙከራ፣ አላህ ባህሪ እና ነቢዩ ﷺ ራህማ ምሳሌ። ርዕሰ ጉዳይ ሀያዋ፡ ወደ አላህ ፊትለፊት ምልከታ፣ ሌሎችን ራህማ ምቼ፣ ግንኙነቶች ማድኅኖ ወይም ከስህተቶች በኋላ በአላህ ራህማ ሚናገር። አንድ ቁርአን ዴ እና አንድ ሐሳባዊ ቁጥር።",
+
+  "promptLoveCompassion": "ራህማ (ራህማ) እና በዕለት-ተእለት ሕይወት ውስጥ ሕዝበ ዓለም ላይ ተገኝ አጭር ኢስላሚክ ሊያሰቡት ጻፋ። ከነቢዩ ሙሐመድ ﷺ ምሳሌ፣ ኢህሳን ሪህ (ስታት)፣ እና ከቤተሰብ፣ ጎረዳ እና ደካማ ሕዝብ ላይ ሕዝበ ዓለም ኢስላሚክ ትምህርት። አንድ ቁርአን ዴ እና ዛሬ ተግባር ለመጨመር አንድ ትንሽ ተግባር።",
+
+  "promptStrengthCourage": "ኢማን-ተመሰረተ ጥንካሬ እና 용기 ላይ ኢስላሚክ ሊያሰቡት ጻፋ። ከነቢዮች ምሳሌ፣ ከቅድመ-ሙስሊሙ ማህበረሰብ እና በከባድ ውስጥ ታጥቁ ታዩ አሚኖ። በእያንዳንዱ ጊዜ ርዕሰ ጉዳይ ሀያዋ፡ ኢማን በ midazolam፣ ምልክት ውስጥ ጥንካሬ፣ አላህ እምነት ውስጥ ተስፋ ወይም ከባድ ውስጥ ተለመደ። አንድ ቁርአን ዴ እና አጭር ጌዴ ወይም ሊዘከር ሐሳብ።",
+
+  "promptGratitude": "በአላህ ምሕረት (ሹኩር) ላይ ኢስላሚክ ሊያሰቡት ጻፋ። ከቁርአናዊ ትምህርት እና በነቢዮቹ ፍረሳ ላይ ግንቤ። አንግል ሀያዋ፡ በከባድ ውስጥ ምስጋና፣ ትንሽ ብርታት እንቅስቃሰ ምስጋና፣ የ Sudan ጀንሀቦር በአላህ ሞጋግ ጥቅስ ጀምር ወይም በዕለት-ተእለት ሕይወት ውስጥ አላህ መመሪያ ሪህ። አንድ ቁርአን ዴ እና አንድ ምስጋና ተግባር።",
+
+  "promptPurposeCalling": "አላህ የሚመገቡ እና በትክክል ሕይወት ሕይወት ዓላማ ላይ ኢስላሚክ ሊያሰቡት ጻፋ። ከቁርአናዊ ትምህርት ዓላማ፣ ሌሎችን በመራመድ እና ጥጋቡን ለሰላም ትቦ። ርዕሰ ጉዳይ ሀያዋ በእያንዳንዱ ጊዜ፡ ቤተሰብ እና ማህበረሰብ በመራመድ፣ እስትካሬ በ ኢስ್ቲካራ በመጠየቅ፣ ሊታሰቡ ሕይወት ወይም ተራ ስራ ውስጥ ተሰላምነት ፈረድ። አንድ ቁርአን ዴ እና ሁለት ሪህ ጥያቄ።",
+
+  "promptFamilyRelationships": "ቤተሰብ እና ግንኙነቶች ላይ ከቁርአናዊ ትምህርት እና ነቢዩ ሙሐመድ ﷺ ምሳሌ ጥበበኛ ኢስላሚክ መመሪያ ጻፋ። ርዕሰ ጉዳይ ሀያዋ በእያንዳንዱ ጊዜ፡ በቤተሰብ ሕይወት ውስጥ ራህማ፣ አለመግባባት ውስጥ ሰብር፣ ወላጆች ክብር፣ ተወልደ ሕዝብ ውስጥ ተወልደ ወይም ጋብ ማስጠንቀቅ። አንድ ቁርአን ዴ እና አንድ ግንኙነት ተግባር ሞክር።",
+
+  "promptPeaceAnxietyRelief": "ሊያሰቡት በአላህ ሊዘካር (ድርክ) እና በእሳት ዕቅድ ላይ ውስጣዊ ሰላም ሪህ ኢስላሚክ ሊያሰቡት ጻፋ። ከቁርአናዊ ትምህርት ሕብ ሰላም፣ ምልክት እና አላህ ይወደ አተገባበር। በእያንዳንዱ ጊዜ አቅራቢያ ለወክሊ እና አንድ ቁርአን ዴ ጨምር እና አንድ ቀላል ተግባር ከኢስላሚክ ዓይነታ።",
+
+  "promptWisdomOfJesus": "ከምሕረተ-ሕይወት ውስጥ ነቢዩ ሕህ በኢስላም ለተማመኑ አጭር ቁጥር። ከቁርአን ወይም ሐድይሽ ጌዶ እና በአጭር ጊዜ ኢስላሚክ ተምህሮ ውጭ ቶሪ። ርዕሰ ጉዳይ ሀያዋ በእያንዳንዱ ጊዜ፡ ባህሪ፣ ሰብር፣ ሃጥያ፣ ኢማን ወይም ዕለት-ተእለት ባህሪ። ቁርአናዊ ዴ ወይም ሐድይሽ ግምት እና አንድ ተግባራዊ ትግበራ።",
+
+  "promptHumilityCharacter": "ሃጥያ (ተወዳዱ) እና ጥሩ ባህሪ (አክህላቅ) ላይ ኢስላሚክ ሊያሰቡት ጻፋ። ከቁርአናዊ ትምህርት፣ ነቢዩ ሙሐመድ ﷺ ምሳሌ እና ኢስላሚክ ባህሪ ምስራታዊ ዓይነታ। ርዕሰ ጉዳይ ሀያዋ፡ መሪሕ ውስጥ ሃጥያ፣ ስህተት ሪህ ሚናገር፣ ሕዝብ ሞገስ ማሳየት ወይም ራስ-ሲሊ በ መካከል ሕይወት። አንድ ቁርአን ዴ እና አንድ ሐሳብ ተግባር።",
+
+  "promptOvercomingTemptation": "ከተራ እና በቀጥተኛ መንገድ ላይ ኢስላሚክ ሊያሰቡት ጻፋ። ከቁርአናዊ መመሪያ፣ አላህ ሊዘካር (ድርክ)፣ ምልክት (ሰላህ) እና የአሚኖ ምሳሌ ሙከራ ሪህ። በእያንዳንዱ ጊዜ አንግል ጋብ። አንድ ቁርአን ዴ እና ለሚቀጥለው 24 ሰዓት አንድ ተግባራዊ ወደ።",
+
+  "promptEveningReflection": "ከምሽት ሊዘካር ዓይነታ (አድካር አል-ማሳ'ያ) ሕህ ሰላማዊ ኢስላሚክ ምሽት ሊያሰቡት ጻፋ። ምስጋና፣ ራስ-ጥናት (ሙሃሳባህ) እና አላህ እምነት በእረፍት እንግድ ሥወር። 3–5 አጭር ሊያሰቡት ጥያቄ ስለ ዕለቱ፣ አጭር ዝጋግ ጌዴ እና አንድ ቁርአን ዴ ጨምር።",
+
+  "wordCount": "{count, plural, one {{count} ቃል} other {{count} ቃል}}",
+
+  "optionsCta": "ምርጫ",
+  "newCta": "ሓዳስ",
+  "actionsTitle": "ምን ማድረግ ይፈልጋሉ?",
+  "copy": "ሕዳግ",
+  "share": "ተኮሪ",
+  "close": "ዝግ",
+  "copiedToast": "ወደ ቅንጥቦ ክዋኙ",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "ተኮሪ ግቤት / ተኮሪ ርዕሰ ጉዳይ ስሊ ምድብ ስሌት।",
+    "placeholders": {
+      "category": { "type": "String", "example": "ዕለታዊ መመሪያ" }
+    }
+  },
+
+  "regenerateErrorTitle": "ሓዳስ መልስ ሥራ ኢትዮጵያ",
+  "regenerateErrorBody": "{error}\n\nድጋሜ ሞክር ይፈልጋሉ?",
+  "@regenerateErrorBody": {
+    "description": "ኤ ኢ ሥራ ሥራ ሥራ ሥራ।",
+    "placeholders": {
+      "error": { "type": "String", "example": "ኔትወርክ ስህተት" }
+    }
+  },
+
+  "cancelCta": "ይወቅሱ",
+  "retryCta": "ድጋሜ ሞክር",
+
+  "authTitle": "ሐንዋ ሐሳብ ፍጠር",
+  "continueAsGuest": "እንደ ሰፊ ቀጥል",
+  "signInGoogle": "በግግል ዋግኑ",
+  "signInApple": "በአቢል ዋግኑ",
+  "signInEmail": "በኢሜል ዋግኑ",
+  "upgradeWithApple": "በአቢል ጀምር",
+  "mustAccept": "ስርዓተ ሌላ ተቀባ እና ግላዊነት ፖሊሲ ተሰምዓ ነው",
+  "termsLabel": "የስራ ደንብ ተቀባዋ",
+  "privacyLabel": "ግላዊነት ፖሊሲ ተንብብቋልኩ",
+  "marketingOptIn": "ዜናወ እና ሥቅላጥ ሸም ለመቀበል ተስማምቷልኩ",
+  "openTerms": "የስራ ደንብ",
+  "openPrivacy": "ግላዊነት ፖሊሲ",
+
+  "accountSection": "ሐሳብ",
+  "guestMode": "ሰፊ ሩጫ",
+  "signedIn": "ዋግኘዋ",
+  "upgradeHint": "በሐሳብ በመመስረት ሊያሰቡተናዎ ሊታሙዋ ፣ አሳሳላ መግጃጅዋ።",
+  "upgradeWithGoogle": "በግግል ጀምር",
+  "signOut": "ወጥ",
+
+  "snackUpgraded": "ሐሳብ በግግል ተሻሻለ ✅",
+  "snackSignedIn": "በግግል ዋግኘዋ ✅",
+  "snackSignedOut": "ወጥ",
+  "snackSignedInApple": "በአቢል ዋግኘዋ ✅",
+  "snackSignedInGoogle": "በግግል ዋግኘዋ ✅",
+  "snackUpgradedApple": "ሐሳብ በአቢል ተሻሻለ ✅",
+  "snackUpgradedGoogle": "ሐሳብ በግግል ተሻሻለ ✅",
+
+  "historyTitle": "ቀደም ሊያሰቡ",
+  "historyOpenCta": "ቀደም ሊያሰቡ",
+  "historyEmpty": "ምንም ተቀቁ ሊያሰቡ ገና።",
+  "historyDeleteTitle": "ሊያሰቡት ደምስሳ?",
+  "historyDeleteBody": "ይህ ቋሚ እንዳይወስደ ይወስዳል.",
+  "deleteCta": "ሰርዝ",
+
+  "historyButton": "ቀደም ሊያሰቡ",
+  "historyEmptyTitle": "ምንም ሊያሰቡ ገና",
+  "historyEmptyBody": "ሩጫ ሕጻንተ ሰፊ — ከዛ ቱቢ ሪህ ሊታሙዋ።",
+  "historyDelete": "ሰርዝ",
+
+  "footerTitle": "በኢማን፣ ሰብር እና ራህማ።",
+  "footerSubtitle": "አንድ ዝርዝር ወደ አንድ ጊዜ።",
+  "genericErrorSnack": "አንድ ነገር ስህተት ኢ — ለስም ድጋሜ ሞክር።",
+
+  "upgradeAccountCta": "ሊያሰቡ ሊታሙዋ ሐሳብ ሊታሙዋ — ሐሳብ ፍጠር",
+  "deleteAccount": "ሐሳብ ሰርዝ",
+  "exportData": "ወጣ ውጤት",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "ከ Firebase UID ቀደም ስሌት।",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "ሉቅ Tiger 🐯\nᴬᴵ ቅጥ ሙት ዝግ።",
+  "rateDailyLimit": "ሊያሰቡ ሥራ ሊያሰቡ.\nተጨምር ሊያሰቡ ወይም ባረከ ሊታሙ.",
+  "rateCreditsExhausted": "ሁሉም ሊያሰቡ ተዋቅኖ።\nዐ ወይም ባረከ ሊታሙ ቀጥል።",
+  "rateGraceReflectionsExhausted": "ሊያሰቡ ሥራ ሊያሰቡ.\nተጨምር ሊያሰቡ ወይም ባረከ ሊታሙ.",
+  "rateReflectionsExhausted": "ሁሉም ሊያሰቡ ተዋቅኖ።\nዐ ወይም ባረከ ሊታሙ ቀጥል።",
+
+  "blessedDescription": "ባረከ የ premium ሕአ ይከፍት፣ ሕቦ ምድብ እና አንድ ዘር ሊያሰቀ ሕአ።",
+  "championDescription": "ባረከ የ premium ሕአ ይከፍት፣ ሕቦ ምድብ እና አንድ ዘር ሊያሰቀ ሕአ።",
+
+  "ratePlanExhausted": "ሊያሰቡ ሥራ ሁሉ. ዕቅድ: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "ሊያሰቡ ተዋቅኖ ነገር ከ ሕሳብ ነው።",
+    "placeholders": {
+      "plan": { "type": "String", "example": "መደበኛ ወይም ባረከ" }
+    }
+  },
+
+  "rateCheckFailed": "ሊያሰቡ ምርመራ ሕሻ: {message}",
+  "@rateCheckFailed": {
+    "description": "ሆርዳብል ሕሳብ ስህተት.",
+    "placeholders": {
+      "message": { "type": "String", "example": "ኔትወርክ ስህተት" }
+    }
+  },
+
+  "rateCheckGenericError": "ሊያሰቡ ምርመራ ስህተት ተደርጎ።",
+  "aiFallbackGeneric": "አንድ ነገር ስህተት ኢ — ለስም ድጋሜ ሞክር።",
+
+  "limitSectionTitle": "ሊያሰቡ",
+  "limitTodayLabel": "ስሪታ",
+  "limitCreditsLabel": "ቀሪ ሊያሰቡ: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "ዕቅድ: {plan}",
+  "@limitPlanLabel": {
+    "description": "አሁኑ ግጥም ዕቅድ ስሌት።",
+    "placeholders": {
+      "plan": { "type": "String", "example": "መደበኛ ወይም ባረከ" }
+    }
+  },
+  "limitLoadingLabel": "ማስጫወት…",
+  "limitLoadingLabelDescription": "ሊያሰቡ ካርድ ውስጥ ሂደት ሕሳብ ምርመራ።",
+
+  "aiLimitTitle": "ሊያሰቡ",
+  "aiLimitSubtitle": "ተከታታይ 1 ሊያሰቡ ተቆጠርሙ። መደበኛ ጀምር ሊያሰቡ ይለያዩ। ባረከ የ premium ምድብ ይከፍት እና ዐ አቅድ።",
+  "aiLimitProgressLabel": "{used} / {total} ሊያሰቡ ተገናኘ",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "ሊያሰቡ",
+  "reflectionsUsageLabel": "ስሪታ",
+  "reflectionsRemainingLabel": "ቀሪ ሊያሰቡ: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "ዕቅድ: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "አሁኑ ዕቅድ ስሌት።",
+    "placeholders": {
+      "plan": { "type": "String", "example": "መደበኛ ወይም ባረከ" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "ማስጫወት…",
+  "reflectionsLoadingLabelDescription": "ሊያሰቡ ሕሳብ ምርመራ ጊዜ።",
+
+  "reflectionsTitle": "ሊያሰቡ",
+  "reflectionsSubtitle": "ተከታታይ 1 ሊያሰቡ ተቆጠርሙ። መደበኛ ጀምር ሊያሰቡ ይለያዩ። ባረከ የ premium ምድብ ይከፍት እና ዐ አቅድ።",
+  "reflectionsProgressLabel": "{used} / {total} ሊያሰቡ ተገናኘ",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "ሐሳብ ሰርዝ",
+  "settingsDeleteDescription": "ሐሳብ ተወገደ እና ሁሉም ማስገደዱ ምስጫ።",
+  "settingsDeleteButtonLabel": "ሐሳብ ሰርዝ",
+  "settingsDeleteDialogTitle": "ሐሳብ ሰርዝ?",
+  "settingsDeleteDialogBody": "ይህ ቅድም ተወገደ ሆኖ አልቀና።\n\nሁሉም ሲሮ፣ ታሪክ እና ሐሳብ ሚስጋነት ለያ።",
+  "settingsDeleteDialogCancel": "ይወቅሱ",
+  "settingsDeleteDialogConfirm": "ሰርዝ",
+
+  "settingsFreeLimitUsedTitle": "ጀምር ሊያሰቡ ጊዜ",
+  "settingsFreeLimitUsedDescription": "ጀምር ሊያሰቡ ገገ ድህረት ውሩ። ባረከ ሊታሙ ወይም ተጨምር ሊያሰቡ ቀጥል።",
+
+  "settingsStarterReflectionsUsedTitle": "ጀምር ሊያሰቡ ጊዜ",
+  "settingsStarterReflectionsUsedDescription": "ጀምር ሊያሰቡ ገገ ድህረት ውሩ። ባረከ ሊታሙ ወይም ተጨምር ሊያሰቡ ቀጥል።",
+
+  "deviceBoundError": "ገገ ሕሳብ ሌላ ገግ የገገገገ። ቀደም ሐሳብ ዋግኙ።",
+
+  "premiumTitle": "ባረከ ሩጫ",
+  "premiumSubtitleBasic": "ሙሉ Nuria ተሞክር ይከፍት።",
+  "premiumSubtitleChampion": "ባረከ ነው። ተጨምር ሊያሰቡ?",
+
+  "premiumCurrentPlan": "አሁኑ ዕቅድ: {plan}",
+  "premiumCreditsStatus": "ሊያሰቡ: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "ክንውን ገገ አልመ።",
+  "premiumSignInToPurchase": "ሊያሰቡ ወይም ባረከ ይከፍት ዋግኙ።",
+
+  "premiumRestorePurchases": "ክንውን ሪህ",
+  "premiumProcessing": "ማስኘ…",
+  "premiumRestoreHintTitle": "ባረከ ወይም ሊያሰቡ ገገ ወይም ሌላ ገግ ክንውን?",
+  "premiumRestoreHintBody": "ክንውን ሪህ ከ ሕሳብ ወደዚህ ስሊ ገገ።",
+
+  "premiumBuyCredits200": "200 ሊያሰቡ ይገዙ",
+  "premiumBuyCredits400": "400 ሊያሰቡ ይገዙ",
+  "premiumBecomeChampionOneTime": "ባረከ ሩጫ ሊታሙ",
+  "premiumChampionHint": "ባረከ ስሪታ ውስጥ የ extra ሊያሰቡ ዐ ወት ሊታሙ።",
+
+  "premiumUpgradeCta": "ሊታሙ",
+  "premiumRequiredForCategory": "ይህ ምድብ ባረከ ተጠቃሚ ብቻ። ቅንብር ውስጥ ሊታሙ ሁሉም premium ብርታት ይከፍት።",
+  "premiumBenefitsBasic": "ባረከ ይከፍት ተጨምር ሊያሰቡ ለ፣ premium ምድብ ኮለጋ ላይ ቀጥል ከሚችሉበት።",
+  "premiumBenefitsChampion": "ባረከ ሩጫ ውስጥ ነዎ። ሊያሰቡ ወደሚወጋበት ሥቅላጥ ጨምር ሊያሰቡ ወይም ተጨምር።",
+  "premiumButtonBecomeChampion": "ባረከ ይከፍት",
+  "premiumButtonTopup1000": "1000 ሊያሰቡ ጨምር",
+  "premiumChampionBadge": "ባረከ ንቁ",
+  "premiumLoadingStore": "ሙጭ ማስጫወት…",
+
+  "blessedTitle": "ባረከ ሩጫ",
+  "blessedSubtitleGrace": "ሙሉ Nuria ተሞክር ይከፍት።",
+  "blessedSubtitleBlessed": "ባረከ ነው። ተጨምር ሊያሰቡ?",
+
+  "blessedCurrentPlan": "አሁኑ ዕቅድ: {plan}",
+  "blessedReflectionsStatus": "ሊያሰቡ: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "ክንውን ገገ አልመ።",
+  "blessedProductNotAvailable": "ይህ ምርት ሙጭ ገገ ገገ። ድጋሜ ሞክር።",
+  "blessedPurchaseError": "ክንውን ስህተት። ድጋሜ ሞክር።",
+  "blessedSignInToPurchase": "ሊያሰቡ ወይም ባረከ ይከፍት ዋግኙ።",
+
+  "blessedRestorePurchases": "ክንውን ሪህ",
+  "blessedProcessing": "ማስኘ…",
+  "blessedRestoreHintTitle": "ባረከ ወይም ሊያሰቡ ገገ ወይም ሌላ ገግ ክንውን?",
+  "blessedRestoreHintBody": "ክንውን ሪህ ከ ሕሳብ ወደዚህ ስሊ ገገ።",
+
+  "blessedBuyReflections100": "100 ሊያሰቡ ጨምር",
+  "blessedBuyReflections200": "200 ሊያሰቡ ይገዙ",
+  "blessedBuyReflections400": "400 ሊያሰቡ ይገዙ",
+  "blessedBecomeBlessedOneTime": "ባረከ ሊታሙ",
+  "blessedTopupHint": "ባረከ ስሪታ ውስጥ የ extra ሊያሰቡ ዐ ወት ሊታሙ።",
+
+  "blessedUpgradeCta": "ሊታሙ",
+  "blessedRequiredForCategory": "ይህ ምድብ ባረከ ተጠቃሚ ብቻ። ቅንብር ውስጥ ሊታሙ ሁሉም premium ብርታት ይከፍት።",
+  "blessedFeatureLocked": "ባረከ ይከፍት ይህ ሕአ ኮለጋ ላይ।",
+  "lockedCategoriesHint": "ምድብ ባረከ ሓለፍተኛ ይጠይቅ። ሁሉም ሊያሰቡ ፈረድ ሊታሙ።",
+  "blessedBenefitsGrace": "ባረከ ይከፍት ተጨምር ሊያሰቡ ለ፣ premium ምድብ ኮለጋ ላይ ቀጥል ከሚችሉበት።",
+  "blessedBenefitsBlessed": "ባረከ ሩጫ ውስጥ ነዎ። ሊያሰቡ ወደሚወጋበት ሥቅላጥ ጨምር ሊያሰቡ ወይም ተጨምር።",
+  "blessedButtonBecomeBlessed": "ባረከ ይከፍት",
+  "blessedButtonTopup1000": "1000 ሊያሰቡ ጨምር",
+  "blessedBadge": "ባረከ ንቁ",
+  "blessedLoadingStore": "ሙጭ ማስጫወት…",
+
+  "freePlanBlockedTitle": "ጀምር ሊያሰቡ ተዋቅኖ",
+  "freePlanBlockedBody": "መደበኛ ዕቅድ ደግ ጀምር ሊያሰቡ ውሩ። ቀጥል — እና premium ምድብ ይከፍት — ባረከ ሊታሙ።",
+  "freePlanBlockedCtaGoPremium": "ባረከ ምርጫ ከዚህ ይመልከቱ",
+
+  "graceBlockedTitle": "ጀምር ሊያሰቡ ተዋቅኖ",
+  "graceBlockedBody": "መደበኛ ዕቅድ ደግ ጀምር ሊያሰቡ ውሩ። ቀጥል — እና premium ምድብ ይከፍት — ባረከ ሊታሙ።",
+  "graceBlockedCtaGoBlessed": "ባረከ ምርጫ ከዚህ ይመልከቱ",
+
+  "rateGuestMustSignIn": "Nuria ተጠቃሚ እና ሊያሰቡ ዋግኙ።",
+
+  "guestNoCreditsTitle": "ሰፊ ሩጫ",
+  "guestNoCreditsBody": "ሰፊ ሆዴ ገገ ኮለጋ ላይ ሊያሰቡ ሊያሰቡ። ቀደም ቅንብር ውስጥ ዋግኙ ሊያሰቡ እና ክንውን ይከፍት።",
+
+  "guestNoReflectionsTitle": "ሰፊ ሩጫ",
+  "guestNoReflectionsBody": "ሰፊ ሆዴ ገገ ኮለጋ ላይ ሊያሰቡ ሊያሰቡ። ቀደም ቅንብር ውስጥ ዋግኙ ሊያሰቡ እና ክንውን ይከፍት።",
+
+  "guestDialogContinue": "ቀጥል",
+  "guestDialogLoginInstead": "ይልቅ ዋግኙ",
+
+  "optionalLabel": "አመራረስ",
+
+  "accountDeleteSuccessTitle": "ሐሳብ ሰርዝ",
+  "accountDeleteSuccessBody": "ሐሳብ እና ማስገደዱ ልዩነት ሰርዝ።",
+  "accountDeleteSuccessClose": "ዝግ",
+  "accountDeleteErrorTitle": "ሐሳብ ሰርዝ ሕሳ",
+  "accountDeleteErrorClose": "ሸምሙ",
+  "accountDeleteReauthCancelled": "ድጋሜ-አስተዳደግ ይወቅሱ። ዋግኙ ድጋሜ ሞክር།",
+  "accountDeleteReauthRequired": "ሐሳብ ሰርዝ ቅርብ ግበራ ይጠይቃል። ወጥ ዋግኙ ድጋሜ ሞክር።",
+  "settingsDeletePermanentWarning": "ይህ ቅድም ተወገደ ሆኖ አልቀና። ሁሉም ሐሳብ ስቅ ሰርዝ።",
+
+  "dailyGraceTitle": "ዕለታዊ መመሪያ",
+  "dailyGraceScriptureLabel": "ታሪክ ይመለከቱ",
+  "dailyGraceSaintLabel": "ስክላር ሳምንታ",
+  "dailyGraceReflectionLabel": "ምሽት ሊያሰቡት",
+  "dailyGraceCopiedToast": "ታሪክ ይመለከቱ ክዋኙ",
+
+  "dailyScripture0Text": "ትዕግሥት የሪህ አምስት ውጪ ወደ ወገን ዉስጥ ራዕይ ወደ።",
+  "dailyScripture0Ref": "ቁርአን 54:54-55",
+  "dailyScripture1Text": "ወ ይዘጋጀ ካላ ሳልሳ ዕለት ሆነ ለተናበብ ሕዝብ ሁሉ።",
+  "dailyScripture1Ref": "ቁርአን 21:107",
+  "dailyScripture2Text": "ፋ አላህ ወክል ትዮ ስራ ጥበብ?",
+  "dailyScripture2Ref": "ቁርአን 39:36",
+  "dailyScripture3Text": "ምናልባት አንዳንድ ነገር ጠላ መሆን ጥሩ ወደ ሕዝብ ለስሊ በእንዲሁ ነገር ወደደ መሆን ከሳ ወደ ሕዝብ ለ፣ አላህ ይወቃ ወደ ሕዝብ ውሞ።",
+  "dailyScripture3Ref": "ቁርአን 2:216",
+  "dailyScripture4Text": "ትዕግሥት አላህ ለ ክፍለ ዘውት።",
+  "dailyScripture4Ref": "ቁርአን 2:153",
+  "dailyScripture5Text": "ሊታሰቡ ንሴ፤ ሊታሰቡ። ሊታሰቡ ግራ።",
+  "dailyScripture5Ref": "ቁርአን 2:152",
+  "dailyScripture6Text": "ንግስተ ሕዝብ ለ ቃላ አላህ ምክንያት ጥብርዓት ሕዝብ።",
+  "dailyScripture6Ref": "ቁርአን 49:13",
+  "dailyScripture7Text": "ወ ሊታሰቡ አለ መናገሪያ ስሌት ሙሉ አልበት በሪህ።",
+  "dailyScripture7Ref": "ቁርአን 17:23",
+  "dailyScripture8Text": "ትዕግሥት ከ ከባድ ውጅ ይወለዳል።",
+  "dailyScripture8Ref": "ቁርአን 94:6",
+  "dailyScripture9Text": "ወ ውሎ ሆነ ደግ ወጣ እንግሊዞ ለስሊ። አላህ ለ ወሴት ይበልጥ ምክንያት።",
+  "dailyScripture9Ref": "ቁርአን 57:4",
+  "dailyScripture10Text": "አላህ ሲረካ ሞገሥ ወደ ይወጋበት።",
+  "dailyScripture10Ref": "ቁርآن 2:286",
+  "dailyScripture11Text": "ወ ኤ ለ ተወካኩል አላህ ላዩን ቅጥ።",
+  "dailyScripture11Ref": "ቁርآن 65:3",
+  "dailyScripture12Text": "ርህመ ሙቅሌ ሕዝብ።",
+  "dailyScripture12Ref": "ቁርآን 7:156",
+  "dailyScripture13Text": "ወ ግራ ሕዝብ ለ ንግስተ ይጠይሩዋ — ብውል ተቅርብ። ምልክት የዋግኘ ደግ።",
+  "dailyScripture13Ref": "ቁርآን 2:186",
+  "dailyScripture14Text": "ኤ ዓላማ ተግባራት ወይ ሙሴ ወይ ሕዝብ ምክንያት — መዴ ሕዝብ ክስታት ሕዝብ।",
+  "dailyScripture14Ref": "ቁርআን 16:97",
+  "dailyScripture15Text": "ብድግ አላህ ሥፍራ ሕዝብ ደግ ከ ሕዝብ ውዋቂስ።",
+  "dailyScripture15Ref": "ቁርአን 13:11",
+  "dailyScripture16Text": "እስም ደግ ሞገሥ ወደ ይገሪዎ ወደ ሕዝብ ርህራሄ ሥብሌ።",
+  "dailyScripture16Ref": "ቁርአን 3:139",
+  "dailyScripture17Text": "ኦ ሙሴ ይጠይሩዋ ወደ ሕዝብ ሕጻናት ዘጋግ — ሳሳ ራህማ አላህ ይልለ። ብራሌ አላህ ፖሌ ፖሌ።",
+  "dailyScripture17Ref": "ቁርአን 39:53",
+  "dailyScripture18Text": "ወ ኤ ክነሴ አላህ — ምሬ ሮወደ በማዕደ ሞገሥ።",
+  "dailyScripture18Ref": "ቁርአን 65:2-3",
+  "dailyScripture19Text": "ልዓ አስተሳሰት ራህማ አላህ.",
+  "dailyScripture19Ref": "ቁርአን 12:87",
+  "dailyScripture20Text": "ወ ብድግ ቁርአን ኤሕሚ ሊታሰቡ። ተግባር ኤ ብቅር ኤሕሚ?",
+  "dailyScripture20Ref": "ቁርአን 54:17",
+  "dailyScripture21Text": "ወ ከዚህ ዛቅ ወረወጡ ዋግኘ።",
+  "dailyScripture21Ref": "ቁርአን 93:7",
+  "dailyScripture22Text": "ወ ሊታሰቡ ሙሴ ይጠይር። ሊታሰቡ ዋግኘ።",
+  "dailyScripture22Ref": "ቁርአን 40:60",
+  "dailyScripture23Text": "ወ ብድግ ክስታት ሕዝብ ደግ।",
+  "dailyScripture23Ref": "ቁርአን 17:70",
+  "dailyScripture24Text": "ወ ምልክት ሕዝብ ተግባራት ለብ።",
+  "dailyScripture24Ref": "ቁርአን 2:45",
+  "dailyScripture25Text": "ኤ ምልክት ንግስተ ወቃ ሪህ።",
+  "dailyScripture25Ref": "ቁርአን 99:7",
+  "dailyScripture26Text": "ብድግ ሞገሥ አላህ ቅርብ።",
+  "dailyScripture26Ref": "ቁርአን 2:214",
+  "dailyScripture27Text": "ወ ኤ ተሰምዓ — ሕዝብ ራስ ለ።",
+  "dailyScripture27Ref": "ቁርአን 31:12",
+
+  "dailyReflection0": "ዛ ቀን ከዲስ ውሴ ራህማ አላህ ብራሌ።",
+  "dailyReflection1": "ዘዴ ወደ አላህ ትምህርት ዛ ቀን።",
+  "dailyReflection2": "አንድ ብርታት ዛ ቀን ጣቀስ ሊታሰቡ አላህ።",
+  "dailyReflection3": "ደግ አላህ ወሴት ውስጥ ሰላም ፈረድ።",
+  "dailyReflection4": "ወስ ሕዝበ-ዓለም ኢ ደግ ዛ ቀን ሊታሰቡ።",
+  "dailyReflection5": "ለየ ፀወታ ይወጋበት እና ዕቅድ አላህ ሃገር።",
+  "dailyReflection6": "ዛ ቀን ከዲስ ውሴ ውስጥ ሊዘካር አላህ ሰላም ፈረድ።",
+  "dailyReflection7": "ሊታሰቡ ሕዝብ ሚናገር ለ ምልክት ሊታሰቡ።",
+  "dailyReflection8": "ገጠር ሰብር (ሰብር) ገጠር ዛ ቀን ሊታሰቡ።",
+  "dailyReflection9": "ስህተት ዛ ቀን ለ ራህማ አላህ ሥሒታትሮ።",
+  "dailyReflection10": "አንድ ሙሴ ዛ ቀን ሕዝበ-ዓለም እና ሕዝብ ለ.",
+  "dailyReflection11": "ሙሴ ኢ ዛ ቀን ከስሪታ � አላህ ሥሒታ।",
+  "dailyReflection12": "ቁርአን ዴ ሰምዩ ዛ ሕዝብ ልአ ሞገሥ።",
+  "dailyReflection13": "ምን ዛ ቀን ግምት ዳግም — ኢ አላህ ጎማ።",
+  "dailyReflection14": "ደግ ዛ ቀን ከባድ ስሪታ ውስጥ አላህ ወሴት ወረወጡ।",
+  "dailyReflection15": "ሕዝብ ወይም ሕዝበ-ዓለም ዛ ቀን ተግባር ሊታሰቡ።",
+  "dailyReflection16": "ዛ ቀን ከዲስ ሞገስ አላህ — ዋግኙ ፍቅር።",
+  "dailyReflection17": "ብርታት አላህ ቀን ሊያሰቡት ታሪክ።",
+  "dailyReflection18": "ምን ዛ ቀን ተማር እና ዓሪ አላህ።",
+  "dailyReflection19": "ዛ ቀን ስሪታ ለ አላህ እነሱ।",
+  "dailyReflection20": "ምን ዛ ቀን ተግባር ሞገስ ዳግም ሌላ።",
+  "dailyReflection21": "ሞገስ ሕዝብ ጥሩ — ሞገስ ጊዜ።",
+  "dailyReflection22": "ብርታት አብዛህ ዲስ ሊያሰቡ አላህ።",
+  "dailyReflection23": "ምግባር ዛ ቀን — ግምም አላህ ዳግም።",
+  "dailyReflection24": "ዛ ምሽት ዓሪነት አላህ ሊታሰቡ።",
+  "dailyReflection25": "ጥንካሬ ዛ ቀን — ጥንካሬ አላህ ኢ።",
+  "dailyReflection26": "ግምም ከዲስ ተግባር ዛ ቀን አላህ ሳ ግምኦ።",
+  "dailyReflection27": "ዛ ምሽት አላህ ወሴት — ሚሳ ምስሌ።",
+
+  "dailyRoleModel0": "ነቢዩ ሙሐመድ ﷺ",
+  "dailyRoleModel1": "ዓቦ ባክሬ ዓሲደቅ (RA)",
+  "dailyRoleModel2": "ዑማር ግን አል-ክዋቴታብ (RA)",
+  "dailyRoleModel3": "ዑትማን ግን ሓ (RA)",
+  "dailyRoleModel4": "ዓሊ ግን ዓቦ ታሊብ (RA)",
+  "dailyRoleModel5": "ከዳጀ ግን ኩዌላይድ (RA)",
+  "dailyRoleModel6": "ዓሽ ግን ዓቦ ባክሬ (RA)",
+  "dailyRoleModel7": "ፋትሞ ዋ-ዞሃ (RA)",
+  "dailyRoleModel8": "ቢላል ግን ራባህ (RA)",
+  "dailyRoleModel9": "ሰልሞ አል-ፋሪሲ (RA)",
+  "dailyRoleModel10": "ዓቦ ሁረይሮ (RA)",
+  "dailyRoleModel11": "ዓብዱላህ ግን ዓባስ (RA)",
+  "dailyRoleModel12": "ዓብዱላህ ግን ሙስዑድ (RA)",
+  "dailyRoleModel13": "ሙዓዝ ግን ጃባል (RA)",
+  "dailyRoleModel14": "ሙስቻብ ግን ዑመይር (RA)",
+  "dailyRoleModel15": "ሱምያ ግን ክሃብ (RA)",
+  "dailyRoleModel16": "ዓማር ግን ያሲር (RA)",
+  "dailyRoleModel17": "ዑም ሳሎሞ (RA)",
+  "dailyRoleModel18": "ከልድ ግን አል-ወልስ (RA)",
+  "dailyRoleModel19": "ዙይድ ግን ታሪብ (RA)",
+  "dailyRoleModel20": "ሐፍሳህ ግን ዑመር (RA)",
+  "dailyRoleModel21": "ዑመር ግን ዓብድ አል-ዐዚዝ (RH)",
+  "dailyRoleModel22": "ኢማም ዓቦ ሐንይፋ (RH)",
+  "dailyRoleModel23": "ኢማም ሞሊክ ግን ዐናስ (RH)",
+  "dailyRoleModel24": "ኢማም አል-ሻፊዒ (RH)",
+  "dailyRoleModel25": "ኢማም አህመድ ግን ሞተል (RH)",
+  "dailyRoleModel26": "ኢማም አል-ቦክሪ (RH)",
+  "dailyRoleModel27": "ኢማም ሙስሊም (RH)",
+  "dailyRoleModel28": "ኢማም አል-ትርሚዒ (RH)",
+  "dailyRoleModel29": "አል-ጋዛሊ (RH)",
+  "dailyRoleModel30": "ግን አል-ቃያም አል-ጃውዝያ (RH)",
+  "dailyRoleModel31": "ግን ታይምያ (RH)",
+  "dailyRoleModel32": "አል-ናዋዊ (RH)",
+  "dailyRoleModel33": "ግን ሓጃር አል-ዐስቃላኒ (RH)",
+  "dailyRoleModel34": "ግን ካሲር (RH)",
+  "dailyRoleModel35": "አል-ጣባሪ (RH)",
+  "dailyRoleModel36": "ሱፋያን አል-ቱሪ (RH)",
+  "dailyRoleModel37": "ፌክር አል-ዲን አል-ራዚ (RH)",
+  "dailyRoleModel38": "ግን ሲና (RH)",
+  "dailyRoleModel39": "አል-ቢሩኒ (RH)",
+  "dailyRoleModel40": "ግን ርሹድ (RH)",
+  "dailyRoleModel41": "ግን ሓልዶን (RH)",
+  "dailyRoleModel42": "ግን ባትሙ (RH)",
+  "dailyRoleModel43": "ነቢዩ ኢብራሂም (AS)",
+  "dailyRoleModel44": "ነቢዩ ሙሳ (AS)",
+  "dailyRoleModel45": "ነቢዩ ኢሳ (AS)",
+  "dailyRoleModel46": "ነቢዩ ዩሳፍ (AS)",
+  "dailyRoleModel47": "ነቢዩ ዳውድ (AS)",
+  "dailyRoleModel48": "ነቢዩ ሱለይምን (AS)",
+  "dailyRoleModel49": "ነቢዩ ኑህ (AS)",
+  "dailyRoleModel50": "ነቢዩ ዩኑስ (AS)",
+  "dailyRoleModel51": "ነቢዩ አይዩብ (AS)",
+  "dailyRoleModel52": "ሩቃያህ ግን ሙሐመድ (RA)",
+  "dailyRoleModel53": "ዘይናብ ግን ሙሐመድ (RA)",
+  "dailyRoleModel54": "ሀሰን ግን ዓሊ (RA)",
+  "dailyRoleModel55": "ሁሰይን ግን ዓሊ (RA)",
+  "dailyRoleModel56": "ጃፋር ግን ዓቦ ታሊብ (RA)",
+  "dailyRoleModel57": "ዓቦ ዑሰር አል-ጌፋሪ (RA)",
+  "dailyRoleModel58": "ጣልሓ ግን ዑበይዳላህ (RA)",
+  "dailyRoleModel59": "አል-ዙበይር ግን አል-ዐውዋም (RA)",
+
+  "locationConsentLabel": "Nuria ሕዝብ ሳ ቲብላ ደጋ ያህ",
+  "locationConsentHint": "ፍለጋ ይወስደ ብቻ። ሕዝብ መጋረዝ ወይም ተቀቁ ረሰ።",
+
+  "askPageTitle": "Nuria ሞገሰ",
+  "askPageDescription": "ኢማን ወይም ኢስላሚክ ተግባር ምን ጥያቄ ሊታሰቡ እና ከቁርአን እና ሱና ሩት።",
+  "askPageInputHint": "ጥያቄ ጻፍ…",
+  "askPageSubmitCta": "ሞገስ",
+  "askPageInputEmptyError": "ሙጭ ጥያቄ ጻፍ።",
+  "askResultYourQuestion": "ጥያቄ",
+
+  "guidancePageTitle": "ምልክት እና መመሪያ",
+  "qiblaFacingMecca": "ማካ ገጠር",
+  "qiblaCompassInstruction": "ፕሮሚ ገገ ወርቅ ቅጥ ወደ ተብየት።\nገጠር ጆቢላህ (ማካ) ለ።",
+  "qiblaGpsUnavailableBody": "ጂ ኢ ደካማ። ወጪ ውሴ እና ድጋሜ ሞክር።",
+  "qiblaRetry": "ድጋሜ ሞክር",
+  "qiblaTitle": "ጆብላህ ደጋ",
+  "qiblaDistanceLabel": "{km} ኪ ማካ ወደ",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "ሕዝብ አስፈላጊ",
+  "qiblaLocationNeededBody": "ሕዝብ ኮለጋ Nuria ማካ ውስጥ ደጋ ሊያሰቡ።",
+  "qiblaOpenSettings": "ቅንብር ይክፈት",
+  "qiblaCompassLoading": "ሕዝብ ምርመራ…",
+  "qiblaTowardMecca": "ማካ ወደ",
+
+  "prayerTimesTitle": "ምልክት ተአቢር",
+  "prayerTimesFajr": "ፍጅር",
+  "prayerTimesDhuhr": "ዱህር",
+  "prayerTimesAsr": "ዐሮ",
+  "prayerTimesMaghrib": "ማግረብ",
+  "prayerTimesIsha": "ዕሻ",
+  "prayerTimesLocationNeededTitle": "ሕዝብ አስፈላጊ",
+  "prayerTimesLocationNeededBody": "ሕዝብ ኮለጋ Nuria ጤና ምልክት ተአቢር ሊያሰቡ።",
+  "prayerTimesNextLabel": "ሕቦ",
+  "prayerTimesDoneLabel": "ድርድር",
+
+  "monthlyPrayerTimesTitle": "ወር ምልክት ተአቢር",
+  "monthlyPrayerTimesViewButton": "ሙሉ ወር ይመልከቱ",
+  "monthlyPrayerTimesNextMonth": "ሕቦ ወር",
+  "monthlyPrayerTimesDayHeader": "ቀን",
+
+  "sharePrayerTimes": "ምልክት ተአቢር ተኮሪ",
+
+  "prayerNotificationsTitle": "ምልክት ሪማይንደር",
+  "prayerNotificationsDescription": "ምልክት ተአቢር እንግድ ላይ ለስ ሪማይንደር ፈረድ።",
+  "prayerNotificationsEnable": "ምልክት ሪማይንደር ንቁ",
+  "prayerNotificationsOpenSettings": "ሪማይንደር ቅንብር ይክፈት",
+  "prayerNotificationsDenied": "ሪማይንደር ወጥ",
+  "prayerNotificationsDeniedHint": "ቅንብር ውስጥ ሞካዋ ምልክት ተአቢር ሪማይንደር ለ।",
+
+  "notificationsConsentLabel": "ምልክት ተአቢር ሪማይንደር ፈረድ",
+
+  "prayerNotifTitleFajr": "🌅 ፍጅር — ጠዋት ምልክት",
+  "prayerNotifBodyFajr": "ምልክት ምርጃ ጠዋት ምልክት። ወለደ ፅጌ ተብየት አላህ።",
+
+  "prayerNotifTitleDhuhr": "☀️ ዱህር — ከስመ ምልክት",
+  "prayerNotifBodyDhuhr": "ቀን ሙሰር አላህ ወደ።",
+
+  "prayerNotifTitleAsr": "🌤️ ዐሮ — ከስመ ምልክት",
+  "prayerNotifBodyAsr": "ሰለ ምልክት ወግዚ። ዐሮ ጊዜ — ለይ።",
+
+  "prayerNotifTitleMaghrib": "🌇 ማግረብ — ፀሐይ ምልክት",
+  "prayerNotifBodyMaghrib": "ፀሐይ ወደ። ማግረብ ሥራ አላህ ሊታሰቡ።",
+
+  "prayerNotifTitleIsha": "🌙 ዕሻ — ምሽት ምልክት",
+  "prayerNotifBodyIsha": "ቀን ከዲስ አላህ ሊዘካር። ሓይ ዓላል ፈልዋህ — ሰላም ወደ።",
+
+  "outOfReflectionsBannerText": "ሁሉም ሊያሰቡ ተዋቅኖ",
+  "outOfReflectionsBannerCta": "ተጨምር ገግ",
+
+  "dhikrPageTitle": "ድርክ",
+  "dhikrTapToCount": "ክበብ ወደ ትር",
+  "dhikrResetButton": "ጀምር",
+  "dhikrComplete": "ማሻ አላህ",
+  "dhikrCompleteMessage": "99 ሊዘካር አላህ ሙላ። ምናልባት ብርታት ሕዝብ ለ።",
+
+  "disclaimerTitle": "ይህ ገገ መመሪያ ስለ",
+  "disclaimerBody": "Nuria ኢስላሚክ ሊያሰቡ እና መሪህ ቀጠር ለ ስሪታ። ይህ ለ ብቻ ወቀላዊ ለስ።\n\nNuria ሊአሎ ተምህሮ ተደክም።\nיህ ገገ መመሪያ ተምህሮ ምስሌ ሕሳብ ሰፊ ተትኩሞ።ዋጂ ወይ ሕሉልዮ ማሳሰብ ሚሕሳስ ባህሪ ሕዝብ ከባይ ምሰምt።\n\nNuria ወጋዊ ወጋዊ ርዕሰ-ጉዳይ ኢ።\nNuria ጥቅሳት ወጋዊ ወጋዊ ህዘቅ ወዪ ስሪታ ኢ። ይህ ገገ ሲሮ ወጋዊ ወጋዊ ሕክምና ውሴ ሚታማመኑ።\n\nተምህሮ ልዩነት።\nኢስላም ባህሪ ልዩነት ተምህሮ ቅሪ ይበልጥ። ይህ ገገ መመሪያ ጠቃሚ ተመልከት ምክንያት ባህሪ ሙሉ ተክለ።\n\nሕዝበ-ዓለም ስሪታ።\nይህ ገገ ሕዝበ-ዓለም ሳ ተውከት ህህ ሥሪታ። ቅርብ ምሰምት ተምህሮ ለ ምህሩ።",
+  "disclaimerClose": "ተወቅሳ",
+  "disclaimerInfoTooltip": "ይህ ገገ መመሪያ ስለ",
+  "disclaimerSettingsSubtitle": "ወቀላዊ ለስ ብቻ። ሙሉ ወጋግ ፍለጋ ታሪክ።",
+  "disclaimerSectionHeader": "መመሪያ ወጋግ"
+}

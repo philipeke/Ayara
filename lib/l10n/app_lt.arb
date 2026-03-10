@@ -1,0 +1,585 @@
+{
+  "@@locale": "lt",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Pasirinkite savo kalbą",
+  "languageSelectSub": "Tai galite pakeisti vėliau nustatymuose",
+  "actionContinue": "Tęsti",
+  "languageSuggestedHeader": "Rekomenduojama",
+  "languageAllHeader": "Visos kalbos",
+  "languageSuggestedBadge": "Rekomenduojama",
+  "languageSearchHint": "Ieškoti…",
+
+  "planGrace": "Standartinis",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Kasdienė gija",
+  "categoryFaithTrust": "Įmana ir pasitikėjimas",
+  "categoryPrayerReflection": "Maldos refleksija",
+  "categoryHopeDifficultTimes": "Kantrybė ir viltis",
+  "categoryForgiveness": "Prašyti atleidimo",
+  "categoryLoveCompassion": "Gailestingumas ir širdies švelnumas",
+  "categoryStrengthCourage": "Tikėjimas ir drąsa",
+  "categoryGratitude": "Dėkinga širdis",
+  "categoryPurposeCalling": "Gyvenimo tikslas",
+  "categoryFamilyRelationships": "Šeimos ryšiai",
+  "categoryPeaceAnxietyRelief": "Vidinis ramumas",
+  "categoryWisdomOfJesus": "Pranašo išmintis",
+  "categoryHumilityCharacter": "Tinklus charakteris",
+  "categoryOvercomingTemptation": "Atsispirti pagundai",
+  "categoryEveningReflection": "Vakarinė žikra",
+  "categoryCustom": "Asmeninė Refleksija",
+  "dhikrMeaningSubhanallah": "Garbė Allahui",
+  "dhikrMeaningAlhamdulillah": "Visi pagyrimai Allahui",
+  "dhikrMeaningAllahuAkbar": "Allah yra Didžiausias",
+  "quranVerseHeartAtRest": "Iš tiesų, Alacho atminime širdys randa ramybę.",
+
+  "promptHint": "Bakstelėkite kategoriją, norėdami gauti islaminę giją ir refleksiją",
+
+  "currentLanguage": "Dabartinė kalba",
+  "settingsLanguage": "Kalbos nustatymai",
+  "settingsTitle": "Nustatymai",
+  "chooseLanguage": "Pasirinkite savo kalbą",
+  "continueCta": "Tęsti",
+
+  "promptDailyGuidance": "Parašykite trumpą, praktinę kasdienę gijią, grindžiamą sunių islamo tikyba — pagristaą Koranu, Haditu ir Pranašo Muhamado ﷺ mokymu. Rinkitės naują kampą kiekvieną kartą: dorybę iš islamo etikos, tiesą iš Sunos, išmintį iš Pranašo bičiulių arba tylią praktiką iš islamo tradicijos. Įtraukite vieną Korano eilutę (Sūra:Aja) ir 1–2 sakinių refleksiją, kurią galima neščiotis per dieną. Jei tinkama, sujunkite su islamo kalendoriumi arba svarbia data.",
+
+  "promptFaithTrust": "Parašykite trumpą islaminę refleksiją apie Įmaną (tikėjimą) ir pasitikėjimą Alachaus planu (Tavakkul). Grindžiamas Koranu, Pranašo Muhamado ﷺ pavyzdžiu ir Sahabų tikyba. Varijuokite temą kiekvieną kartą: pasitikėjimas Alachumi neapibrėžtumo metu, pasikliovimas dieviške išmintimi, kantrybė kovose arba tylia atlaidumas kasdieniniame gyvenime. Įtraukite vieną Korano eilutę ir vieną nuoširdų žingsnį šiandienos iš islamo dvasinės išminties.",
+
+  "promptPrayerReflection": "Parašykite trumpą islaminę maldos refleksiją, grindžiamą Salahu, Dua arba Žikru. Varijuokite formą kiekvieną kartą: ryte arba vakare atlikta prisimintis (Adhkar), refleksija apie penkias kasdienines maldas, Korano eilutės kontempliacija arba širdinga maldavimo apeiga. Įtraukite vieną Korano eilutę ir trumpai nurodykite naudotą maldos formą.",
+
+  "promptHopeDifficultTimes": "Parašykite islaminę refleksiją apie kantribę (Sabr) ir viltį sunkiaisiais laikais. Pasinaudokite Korano mokymu apie išbandymus, Pranašų atlaidumą ir Alachaus gailestingumą sunkiaisiais momentais. Varijuokite kampą kiekvieną kartą. Įtraukite vieną Korano eilutę ir vieną raminantį perspektyvą iš islamo tradicijos.",
+
+  "promptForgiveness": "Parašykite išmintingą islaminę refleksiją apie atleidimo prašymą (Tavbah) ir Alachaus gailestingumą. Pasinaudokite Korano mokymu apie atgailą, Alachaus pasigailėjimu ir Pranašo Muhamado ﷺ atleidžiančiu pavyzdžiu. Varijuokite temą: grįžimas prie Alachaus, kito žmogaus atleidimas, santykių gydymas arba tikėjimas Alachaus gailestingumu po klaidų. Įtraukite vieną Korano eilutę ir vieną konkretų žingsnį.",
+
+  "promptLoveCompassion": "Parašykite trumpą islaminę refleksiją apie gailestingumą (Rahmah) ir širdies švelnumą kasdieniniame gyvenime. Pasinaudokite Pranašo Muhamado ﷺ pavyzdžiu, Ihsano koncepcija (tobulumo) ir islamo mokymu apie gerumą šeimai, kaimynams ir pažeidžiamiems. Įtraukite vieną Korano eilutę ir vieną mažą širdies švelnumo veiksmą, kurį galite praktikuoti šiandien.",
+
+  "promptStrengthCourage": "Parašykite islaminę refleksiją apie tikėjimo grindžiamą jėgą ir drąsą. Pasinaudokite Pranašų pavyzdžiais, ankstyvąja musulmonų bendruomene ir tikinčiaisiais, kurie išliko tvirti sunkiaisiais laikais. Varijuokite temą kiekvieną kartą: drąsa per tikėjimą, jėga maldoje, pasitikėjimas Alachumi baime arba elastingumas sunkumų metu. Įtraukite vieną Korano eilutę ir trumpą maldavimą arba prisimintis frazę.",
+
+  "promptGratitude": "Parašykite islaminę refleksiją apie dėkingumą (Shukr) Alacui. Grindžiamas Korano mokymu ir pranašo tradicija. Varijuokite kampą: dėkingumas sunkumų metu, mažų palaiminimų vertinimas, dienos pradžia su Alachaus šlovimu arba Alachaus vedimo pripažinimas kasdieniniame gyvenime. Įtraukite vieną Korano eilutę ir vieną dėkingumo praktiką.",
+
+  "promptPurposeCalling": "Parašykite islaminę refleksiją apie gyvenimo tikslą garbinti Alacą ir gyventi teisingai. Pasinaudokite Korano mokymu apie tikslą, kitų žmonių tarnavimą ir savo talentų naudojimą gerajam. Varijuokite temą kiekvieną kartą: šeimos ir bendruomenės tarnavimas, gijų iš Isticharos, gyventi su noru arba reikšmę rasti paprastame darbe. Įtraukite vieną Korano eilutę ir du refleksyvius klausimus.",
+
+  "promptFamilyRelationships": "Parašykite išmintingą islaminę šeimos ir santykių gidą, grindžiamą Korano mokymu ir Pranašo Muhamado ﷺ pavyzdžiu. Varijuokite temą kiekvieną kartą: gerumas šeimoje, kantrybė konfliktų metu, tėvų garbinimas, vaikų auginimas tikyba arba santuokos stiprinimas. Įtraukite vieną Korano eilutę ir vieną santykio praktiką, kurią išbandyti.",
+
+  "promptPeaceAnxietyRelief": "Parašykite ramią islaminę refleksiją apie vidinio ramumo suradimą per Alachaus prisimintį (Žikr) ir pasitikėjimą Jo planu. Pasinaudokite Korano mokymu apie širdies rimtumą, maldą ir pasidavimą Alachaus valiai. Varijuokite prieigą kiekvieną kartą ir įtraukite vieną Korano eilutę ir vieną paprastą grindimo praktiką iš islamo tradicijos.",
+
+  "promptWisdomOfJesus": "Parašykite trumpą išminties gabalėlį iš Pranašų, kaip mokoma islamoje. Pasinaudokite Koranu arba Haditu ir trumpai paaiškinkite, kaip islaminiai mokslininkai supranta mokymai. Varijuokite temą kiekvieną kartą: charakteris, kantrybė, nuolankumas, tikėjimas arba kasdieninis elgesys. Įtraukite Korano eilutę arba Hadito nuorodą ir vieną praktinį taikymą.",
+
+  "promptHumilityCharacter": "Parašykite islaminę refleksiją apie nuolankumą (Tavadhu) ir gerą charakterį (Akhlaq). Pasinaudokite Korano mokymu, Pranašo Muhamado ﷺ pavyzdžiu ir islamo charakterio ugdymo tradicija. Varijuokite temą: nuolankumas lyderystėje, klaidų pripažinimas, kitų gerbimas arba dvasinės augimas per savianalizę. Įtraukite vieną Korano eilutę ir vieną įprotį, kurį praktikuoti.",
+
+  "promptOvercomingTemptation": "Parašykite islaminę refleksiją apie pagundos atsispirimą ir greitojo kelio laikymąsi. Pasinaudokite Korano gijimu, Alachaus prisimintimu (Žikr), malda (Salah) ir tikinčiųjų, kurie nugalėjo kovos, pavyzdžiais. Varijuokite kampą kiekvieną kartą. Įtraukite vieną Korano eilutę ir vieną praktinę strategiją sekančiam 24 valandum.",
+
+  "promptEveningReflection": "Parašykite ramią islaminę vakarinę refleksiją, grindžiamą vakarinės žikros tradicija (Adhkar al-Masaa'). Skatinkite dėkingumą, savianalizę (Muhasabah) ir pasitikėjimą Alachumi prieš poilsį. Įtraukite 3–5 trumpus refleksijos klausimus apie dieną, trumpą baigti maldavimą ir vieną Korano eilutę.",
+
+  "wordCount": "{count, plural, one {{count} žodis} other {{count} žodžiai}}",
+
+  "optionsCta": "Opcijos",
+  "newCta": "Nauja",
+  "actionsTitle": "Ką norėtumėte daryti?",
+  "copy": "Kopijuoti",
+  "share": "Dalintis",
+  "close": "Uždaryti",
+  "copiedToast": "Nukopijuota į iškarpą",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Kasdienė gija" }
+    }
+  },
+
+  "regenerateErrorTitle": "Nepavyko sukurti naujo atsakymo",
+  "regenerateErrorBody": "{error}\n\nAr norėtumėte bandyti dar kartą?",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Tinklo klaida" }
+    }
+  },
+
+  "cancelCta": "Atšaukti",
+  "retryCta": "Bandyti dar kartą",
+
+  "authTitle": "Sukurkite savo paskyrą",
+  "continueAsGuest": "Tęsti kaip svečias",
+  "signInGoogle": "Prisijungti naudojant Google",
+  "signInApple": "Prisijungti naudojant Apple",
+  "signInEmail": "Prisijungti naudojant el. paštą",
+  "upgradeWithApple": "Tęsti naudojant Apple",
+  "mustAccept": "Turite sutikti su Sąlygomis ir patvirtinti Privatumo politiką.",
+  "termsLabel": "Sutinku su Paslaugų sąlygomis",
+  "privacyLabel": "Esu perskaitęs Privatumo politiką",
+  "marketingOptIn": "Sutinku gauti naujienas ir pasiūlymus",
+  "openTerms": "Paslaugų sąlygos",
+  "openPrivacy": "Privatumo politika",
+
+  "accountSection": "Paskyra",
+  "guestMode": "Svečio režimas",
+  "signedIn": "Prisijungęs",
+  "upgradeHint": "Išsaugokite savo refleksijas keliuose įrenginiuose, sukurdami paskyrą.",
+  "upgradeWithGoogle": "Tęsti naudojant Google",
+  "signOut": "Atsijungti",
+
+  "snackUpgraded": "Paskyra atnaujinta naudojant Google ✅",
+  "snackSignedIn": "Prisijungta naudojant Google ✅",
+  "snackSignedOut": "Atsijungta",
+  "snackSignedInApple": "Prisijungta naudojant Apple ✅",
+  "snackSignedInGoogle": "Prisijungta naudojant Google ✅",
+  "snackUpgradedApple": "Paskyra atnaujinta naudojant Apple ✅",
+  "snackUpgradedGoogle": "Paskyra atnaujinta naudojant Google ✅",
+
+  "historyTitle": "Ankstesnės refleksijos",
+  "historyOpenCta": "Ankstesnės refleksijos",
+  "historyEmpty": "Dar nėra išsaugotų refleksijų.",
+  "historyDeleteTitle": "Ištrinti refleksiją?",
+  "historyDeleteBody": "Tai visam laikui pašalins pasirinktą elementą.",
+  "deleteCta": "Ištrinti",
+
+  "historyButton": "Ankstesnės refleksijos",
+  "historyEmptyTitle": "Nėra refleksijų",
+  "historyEmptyBody": "Pirmiausia sukurkite ką nors — jūsų išsaugoti elementai pasirodys čia.",
+  "historyDelete": "Ištrinti",
+
+  "footerTitle": "Su Imanu, Sabru ir Rahma.",
+  "footerSubtitle": "Po vienu žingsniu keliui.",
+  "genericErrorSnack": "Kažkas nutiko klaidingai — prašome bandyti per kelias sekundes.",
+
+  "upgradeAccountCta": "Išsaugokite savo refleksijas keliuose įrenginiuose – sukurkite paskyrą",
+  "deleteAccount": "Ištrinti paskyrą",
+  "exportData": "Eksportuoti mano duomenis",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Ramiau 🐯\nDirbtinis intelektas reikalingas momentas prieš kitą…",
+  "rateDailyLimit": "Šiuo metu nėra refleksijų.\nGaukite daugiau refleksijų arba atnaujinkite į Barakah.",
+  "rateCreditsExhausted": "Panaudojote visas refleksijas.\nPapildykite arba atnaujinkite į Barakah, jei norite tęsti.",
+  "rateGraceReflectionsExhausted": "Šiuo metu nėra refleksijų.\nGaukite daugiau refleksijų arba atnaujinkite į Barakah.",
+  "rateReflectionsExhausted": "Panaudojote visas refleksijas.\nPapildykite arba atnaujinkite į Barakah, jei norite tęsti.",
+
+  "blessedDescription": "Barakah atrakina premiumines funkcijas, ateities kategorijas ir specialų ženkliuką.",
+  "championDescription": "Barakah atrakina premiumines funkcijas, ateities kategorijas ir specialų ženkliuką.",
+
+  "ratePlanExhausted": "Jūsų refleksijos šiuo metu neturite. Planas: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standartinis arba Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Nepavyko patikrinti jūsų refleksijų: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Tinklo klaida" }
+    }
+  },
+
+  "rateCheckGenericError": "Kažkas nutiko klaidingai tikrinant jūsų refleksijas.",
+  "aiFallbackGeneric": "Kažkas nutiko klaidingai — prašome bandyti per kelias sekundes.",
+
+  "limitSectionTitle": "Refleksijos",
+  "limitTodayLabel": "Naudojimas",
+  "limitCreditsLabel": "Likusios refleksijos: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Planas: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standartinis arba Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Kraunasi…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
+
+  "aiLimitTitle": "Refleksijos",
+  "aiLimitSubtitle": "Kiekvienas atsakymas naudoja 1 refleksiją. Standartinis apima pradines refleksijas. Barakah atrakina premiumines kategorijas ir leidžia papildyti.",
+  "aiLimitProgressLabel": "{used} / {total} refleksijų panaudota",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Refleksijos",
+  "reflectionsUsageLabel": "Naudojimas",
+  "reflectionsRemainingLabel": "Likusios refleksijos: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Planas: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standartinis arba Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Kraunasi…",
+  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+
+  "reflectionsTitle": "Refleksijos",
+  "reflectionsSubtitle": "Kiekvienas atsakymas naudoja 1 refleksiją. Standartinis apima pradines refleksijas. Barakah atrakina premiumines kategorijas ir leidžia papildyti.",
+  "reflectionsProgressLabel": "{used} / {total} refleksijų panaudota",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Ištrinti paskyrą",
+  "settingsDeleteDescription": "Visam laikui ištrinti savo paskyrą ir visus susijusius duomenis.",
+  "settingsDeleteButtonLabel": "Ištrinti mano paskyrą",
+  "settingsDeleteDialogTitle": "Ištrinti paskyrą?",
+  "settingsDeleteDialogBody": "Šis veiksmas yra nuolatinis ir negali būti atšauktas.\n\nVisos jūsų pokalbiai, istorija ir paskyros informacija bus ištrinta.",
+  "settingsDeleteDialogCancel": "Atšaukti",
+  "settingsDeleteDialogConfirm": "Ištrinti",
+
+  "settingsFreeLimitUsedTitle": "Pradines refleksijos panaudotos",
+  "settingsFreeLimitUsedDescription": "Šio įrenginio pradinės refleksijos panaudotos. Atnaujinkite į Barakah arba nusipirkite daugiau refleksijų, jei norite tęsti.",
+
+  "settingsStarterReflectionsUsedTitle": "Pradines refleksijos panaudotos",
+  "settingsStarterReflectionsUsedDescription": "Šio įrenginio pradinės refleksijos panaudotos. Atnaujinkite į Barakah arba nusipirkite daugiau refleksijų, jei norite tęsti.",
+
+  "deviceBoundError": "Šis įrenginys jau susietas su kita paskyra. Prašome prisijungti su originalia paskyra.",
+
+  "premiumTitle": "Barakah režimas",
+  "premiumSubtitleBasic": "Atrakinkite visą Nuria patirtį.",
+  "premiumSubtitleChampion": "Esate Barakah. Reikalingos daugiau refleksijų?",
+
+  "premiumCurrentPlan": "Dabartinis planas: {plan}",
+  "premiumCreditsStatus": "Refleksijos: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Pirkimai šiuo metu nėra galimi.",
+  "premiumSignInToPurchase": "Prisijunkite, norėdami nusipirkti refleksijas arba atrakinti Barakah.",
+
+  "premiumRestorePurchases": "Atkurti pirkimus",
+  "premiumProcessing": "Apdorojimas…",
+  "premiumRestoreHintTitle": "Jau nusipirkote Barakah arba refleksijas šiame ar kitame įrenginyje?",
+  "premiumRestoreHintBody": "Atkurkite savo pirkimus, jei jie neatsirado.",
+
+  "premiumBuyCredits200": "Nusipirkti 200 refleksijų",
+  "premiumBuyCredits400": "Nusipirkti 400 refleksijų",
+  "premiumBecomeChampionOneTime": "Atnaujinti į Barakah režimą",
+  "premiumChampionHint": "Kaip Barakah, galite papildyti papildomomis refleksijomis, kai tik jų reikalingos.",
+
+  "premiumUpgradeCta": "Atnaujinti",
+  "premiumRequiredForCategory": "Ši kategorija prieinama tik Barakah naudotojams. Atnaujinkite Nustatymuose, norėdami atrakinti visą premium turinį.",
+  "premiumBenefitsBasic": "Atrakinkite Barakah, jei norite papildomų refleksijų, prieigos prie premium kategorijų ir galimybės tęsti, kai jums reikalinga gija.",
+  "premiumBenefitsChampion": "Esate Barakah režime. Jei jums stinga refleksijų, pridėkite papildomų ir tęskite be pertraukų.",
+  "premiumButtonBecomeChampion": "Atrakinti Barakah",
+  "premiumButtonTopup1000": "Pridėti 1000 refleksijų",
+  "premiumChampionBadge": "Barakah aktyvus",
+  "premiumLoadingStore": "Kraunamas parduotuvė…",
+
+  "blessedTitle": "Barakah režimas",
+  "blessedSubtitleGrace": "Atrakinkite visą Nuria patirtį.",
+  "blessedSubtitleBlessed": "Esate Barakah. Reikalingos daugiau refleksijų?",
+
+  "blessedCurrentPlan": "Dabartinis planas: {plan}",
+  "blessedReflectionsStatus": "Refleksijos: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Pirkimai šiuo metu nėra galimi.",
+  "blessedProductNotAvailable": "Šis produktas parduotuvėje dar nėra. Prašome bandyti vėliau.",
+  "blessedPurchaseError": "Kažkas nutiko klaidingai pirkimo metu. Prašome bandyti dar kartą.",
+  "blessedSignInToPurchase": "Prisijunkite, norėdami nusipirkti refleksijas arba atrakinti Barakah.",
+
+  "blessedRestorePurchases": "Atkurti pirkimus",
+  "blessedProcessing": "Apdorojimas…",
+  "blessedRestoreHintTitle": "Jau nusipirkote Barakah arba refleksijas šiame ar kitame įrenginyje?",
+  "blessedRestoreHintBody": "Atkurkite savo pirkimus, jei jie neatsirado.",
+
+  "blessedBuyReflections100": "Pridėti 100 refleksijų",
+  "blessedBuyReflections200": "Nusipirkti 200 refleksijų",
+  "blessedBuyReflections400": "Nusipirkti 400 refleksijų",
+  "blessedBecomeBlessedOneTime": "Atnaujinti į Barakah",
+  "blessedTopupHint": "Kaip Barakah, galite papildyti papildomomis refleksijomis, kai tik jų reikalingos.",
+
+  "blessedUpgradeCta": "Atnaujinti",
+  "blessedRequiredForCategory": "Ši kategorija prieinama tik Barakah naudotojams. Atnaujinkite Nustatymuose, norėdami atrakinti visą premium turinį.",
+  "blessedFeatureLocked": "Atrakinkite Barakah, jei norite prieigos prie šios funkcijos.",
+  "lockedCategoriesHint": "Kai kurios kategorijos yra skirtos tik Barakah nariams. Atrakinkite jas, norėdami peržiūrėti kiekvieną refleksiją savo žygyje.",
+  "blessedBenefitsGrace": "Atrakinkite Barakah, jei norite papildomų refleksijų, prieigos prie premium kategorijų ir galimybės tęsti, kai jums reikalinga gija.",
+  "blessedBenefitsBlessed": "Esate Barakah režime. Jei jums stinga refleksijų, pridėkite papildomų ir tęskite be pertraukų.",
+  "blessedButtonBecomeBlessed": "Atrakinti Barakah",
+  "blessedButtonTopup1000": "Pridėti 1000 refleksijų",
+  "blessedBadge": "Barakah aktyvus",
+  "blessedLoadingStore": "Kraunamas parduotuvė…",
+
+  "freePlanBlockedTitle": "Panaudojote pradines refleksijas",
+  "freePlanBlockedBody": "Esate Standartinio plano su pradinėmis refleksijomis, ir pasiekėte limitą. Norėdami tęsti — ir atrakinti premiumines kategorijas — atnaujinkite į Barakah.",
+  "freePlanBlockedCtaGoPremium": "Žr. Barakah parinktys žemiau",
+
+  "graceBlockedTitle": "Panaudojote pradines refleksijas",
+  "graceBlockedBody": "Esate Standartinio plano su pradinėmis refleksijomis, ir pasiekėte limitą. Norėdami tęsti — ir atrakinti premiumines kategorijas — atnaujinkite į Barakah.",
+  "graceBlockedCtaGoBlessed": "Žr. Barakah parinktys žemiau",
+
+  "rateGuestMustSignIn": "Prisijunkite, norėdami naudoti Nuria ir savo refleksijas.",
+
+  "guestNoCreditsTitle": "Svečio režimas",
+  "guestNoCreditsBody": "Kaip svečias galite naršyti programą, bet negalite naudoti refleksijų. Vėliau prisijunkite Nustatymuose, norėdami naudoti refleksijas ir atrakinti pirkimus.",
+
+  "guestNoReflectionsTitle": "Svečio režimas",
+  "guestNoReflectionsBody": "Kaip svečias galite naršyti programą, bet negalite naudoti refleksijų. Vėliau prisijunkite Nustatymuose, norėdami naudoti refleksijas ir atrakinti pirkimus.",
+
+  "guestDialogContinue": "Tęsti",
+  "guestDialogLoginInstead": "Prisijungti vietoje to",
+
+  "optionalLabel": "neprivaloma",
+
+  "accountDeleteSuccessTitle": "Paskyra ištrinta",
+  "accountDeleteSuccessBody": "Jūsų paskyra ir susiję duomenys buvo sėkmingai ištrinti.",
+  "accountDeleteSuccessClose": "Uždaryti",
+  "accountDeleteErrorTitle": "Nepavyko ištrinti paskyros",
+  "accountDeleteErrorClose": "Gerai",
+  "accountDeleteReauthCancelled": "Perleidimas buvo atšauktas. Prašome prisijungti iš naujo ir bandyti ištrinti dar kartą.",
+  "accountDeleteReauthRequired": "Paskyros ištrynimas reikalingas nuo šiol neseniai jungimasis. Prašome atsijungti, prisijungti iš naujo ir bandyti ištrinti.",
+  "settingsDeletePermanentWarning": "Šis veiksmas yra nuolatinis ir negali būti atšauktas. Visi jūsų paskyros duomenys bus ištrinti.",
+
+  "dailyGraceTitle": "Kasdienė gija",
+  "dailyGraceScriptureLabel": "DIENOS EILUTĖ",
+  "dailyGraceSaintLabel": "SAVAITĖS MOKSLININKAS",
+  "dailyGraceReflectionLabel": "VAKARINĖ REFLEKSIJA",
+  "dailyGraceCopiedToast": "Eilutė nukopijuota į iškarpą",
+
+  "dailyScripture0Text": "Iš tikrųjų, teisinieji bus sodu ir upėse, sėdynėje garbės šalia galingo karaliaus.",
+  "dailyScripture0Ref": "Korano 54:54-55",
+  "dailyScripture1Text": "Ir mes nesiuntėme tavęs, O Muhamadai, išskyrus kaip gailestingumą pasauliams.",
+  "dailyScripture1Ref": "Korano 21:107",
+  "dailyScripture2Text": "Ar Alach nėra pakankamai savo tarnui? Vis dėlto jie jus baugina kitais šalia Jo.",
+  "dailyScripture2Ref": "Korano 39:36",
+  "dailyScripture3Text": "Galbūt nekenčiate ką nors, ir tai tau geru; ir galbūt mylite ką nors, ir tai bloga tau. Ir Alach žino, bet tu nežinai.",
+  "dailyScripture3Ref": "Korano 2:216",
+  "dailyScripture4Text": "Iš tikrųjų, Alach yra su kantriais.",
+  "dailyScripture4Ref": "Korano 2:153",
+  "dailyScripture5Text": "Todėl prisiminkite mane; aš prisiminsiu jus. Ir būkite man dėkingi ir neneikite manęs.",
+  "dailyScripture5Ref": "Korano 2:152",
+  "dailyScripture6Text": "Iš tikrųjų, teisingiausi jūsų Alačaus akyse yra labiausiai dievingi iš jūsų.",
+  "dailyScripture6Ref": "Korano 49:13",
+  "dailyScripture7Text": "Ir jūsų Pats nusprendė, kad jūs garbinkite jį vienintelį, ir kad būtumėte pareiginggi savo tėvams.",
+  "dailyScripture7Ref": "Korano 17:23",
+  "dailyScripture8Text": "Iš tikrųjų, su sunkumais ateis lengvumas.",
+  "dailyScripture8Ref": "Korano 94:6",
+  "dailyScripture9Text": "Ir jis yra su jumis, kur tik jūs būtumėte. Ir Alach yra šio, ką jūs darote, matantis.",
+  "dailyScripture9Ref": "Korano 57:4",
+  "dailyScripture10Text": "Alach neapkrauna dvasinės esybės už jos gebėjimą.",
+  "dailyScripture10Ref": "Korano 2:286",
+  "dailyScripture11Text": "Ir kas tik pasitiki Alachumi — tada jis jam yra pakankamas.",
+  "dailyScripture11Ref": "Korano 65:3",
+  "dailyScripture12Text": "Mano gailestingumas apima visas dalykus.",
+  "dailyScripture12Ref": "Korano 7:156",
+  "dailyScripture13Text": "Ir kada mano tarnai tau klausia manęs — iš tikrųjų aš esu arti. Aš atsakau prašančiajam, kai jis mane šaukia.",
+  "dailyScripture13Ref": "Korano 2:186",
+  "dailyScripture14Text": "Kas tik daro teisingumą, nesvarbu vyras ar moteris, būdamas tikinčiasis — mes jį tikrai naudinsime gyventi geru gyvenimu.",
+  "dailyScripture14Ref": "Korano 16:97",
+  "dailyScripture15Text": "Iš tikrųjų, Alach nekeičia žmonių sąlygos, kol jie patys nekeičia to, kas jų širdyse.",
+  "dailyScripture15Ref": "Korano 13:11",
+  "dailyScripture16Text": "Todėl nesilpninkite ir neliūdėkite, ir jūs būsite viršesni, jei esate tikrieji tikinčiaji.",
+  "dailyScripture16Ref": "Korano 3:139",
+  "dailyScripture17Text": "O mano tarnai, kurie nusikaltote prieš save, negraudžinkitės dėl Alachaus gailesingumo. Iš tikrųjų, Alach atleidžia visus nusikaltimus.",
+  "dailyScripture17Ref": "Korano 39:53",
+  "dailyScripture18Text": "Ir kas tik baiminasi Alachaus — jis jam sudarys kelią, ir aprūpins jį iš to, kur jis nenumanietha.",
+  "dailyScripture18Ref": "Korano 65:2-3",
+  "dailyScripture19Text": "Nepraraskite vilties Alachaus gailesingumo.",
+  "dailyScripture19Ref": "Korano 12:87",
+  "dailyScripture20Text": "Ir mes tikrai sudarėme Koraną lengvą prisiminti. Taigi ar nėra to, kuris būtu priimtinas?",
+  "dailyScripture20Ref": "Korano 54:17",
+  "dailyScripture21Text": "Ir jis rado tave pasiklydusius ir tavęs gija.",
+  "dailyScripture21Ref": "Korano 93:7",
+  "dailyScripture22Text": "Ir jūsų Pats sako: Šaukitės manęs; aš jums atsakysiu.",
+  "dailyScripture22Ref": "Korano 40:60",
+  "dailyScripture23Text": "Ir mus tikrai pagerbėm Adamo vaikus.",
+  "dailyScripture23Ref": "Korano 17:70",
+  "dailyScripture24Text": "Ir ieškoti pagalbos per kantribę ir maldą.",
+  "dailyScripture24Ref": "Korano 2:45",
+  "dailyScripture25Text": "Kas tik daro atomo svorį gerumo — jis tai pamatys.",
+  "dailyScripture25Ref": "Korano 99:7",
+  "dailyScripture26Text": "Neabejotinai, Alachaus pagalba yra arti.",
+  "dailyScripture26Ref": "Korano 2:214",
+  "dailyScripture27Text": "Ir kas tik yra dėkingas — jo dėkingumas yra tik jo gerovei.",
+  "dailyScripture27Ref": "Korano 31:12",
+
+  "dailyReflection0": "Baigiantis šiai dienai, apsvarstykite vieną momentą, kai Alachaus gailestingumas buvo aiškus.",
+  "dailyReflection1": "Atnešykite Alacui viską, kas šiandien svarbios jūsų širdį.",
+  "dailyReflection2": "Nurodykite vieną palaiminimą iš šios dienos ir išreikškite dėkingumą Alacui.",
+  "dailyReflection3": "Poilsykitės žinodami, jog esate laikomi Alachaus begaliniame svarbioje.",
+  "dailyReflection4": "Apmąstykite, kur jautėtės pozvaini išrodyti gailestingumą ir gerumą šiandien.",
+  "dailyReflection5": "Paleiskite tai, ko negalite kontroliuoti, ir pasitikėkite Alachaus tobulu planu.",
+  "dailyReflection6": "Žemėjant dienai, suteikite sau ramumą Alachaus prisimintis.",
+  "dailyReflection7": "Apsvarstyti, kaip gerbėte savo maldas šiandien, ir dėkite Alacui už kiekvieną.",
+  "dailyReflection8": "Apmąstykite momentą, kai kantrybė (Sabr) vadovavo jūsų veiksmams šiandien.",
+  "dailyReflection9": "Paskinkite atleidimą už bet kokį šiandienos nutrūkimą — Alachaus gailestingumas yra beribis.",
+  "dailyReflection10": "Nurodykite vieną žmogų, kuriam parodėte gerumą šiandien, ir melskitės jiems.",
+  "dailyReflection11": "Sėdėkite su dėkingumu: ką Alach jums šiandien suteikė, ko jūs neprašėte?",
+  "dailyReflection12": "Apmąstykite Korano eilutę, kuri kalba apie tai, kur jūs šiandien esate.",
+  "dailyReflection13": "Apsvarstykite, kaip panaudojote savo laiką šiandien — ir pasiūlykite rytoj Alacui.",
+  "dailyReflection14": "Poilsykitės žinodami, kad kad ir kokie sunkumai šiandien atėjo, Alach buvo su jumis.",
+  "dailyReflection15": "Pagalvokite apie vieną būdą, kuriuo jūs tarnavote savo šeimai arba bendruomenei šiandien dėl Alachaus.",
+  "dailyReflection16": "Kai naktis pradeda kristi, atlikite Tavbah — Alach myli tuos, kurie grįžta prie jo.",
+  "dailyReflection17": "Apmąstykite grožį, kurį Alach padėjo jūsų dienoje, bet ir kiek mažai.",
+  "dailyReflection18": "Apsvarstykite, ką išmokote šiandien ir kaip tai jus priartina prie Alachaus.",
+  "dailyReflection19": "Paleiskite šios dienos rūpesčius su Alachumi — jis neša tai, ko jūs negali.",
+  "dailyReflection20": "Pagalvokite apie momentą šiandien, kai galėjote pasirinkti geriau, ir išmokykite iš to švelniai.",
+  "dailyReflection21": "Melskitės tiems, kurie kovoja — jūsų maldavimas jiems yra dovana.",
+  "dailyReflection22": "Prisiminkite palaiminimą, kurį dažnai nepastebite, ir skirtkite akimirką Alacui dėkoti.",
+  "dailyReflection23": "Apmąstykite savo ketinimus šiandien — ar jie buvo Alacui? Rytoj pradėkite iš naujo.",
+  "dailyReflection24": "Kai naktis nutilsta, klausykitės Alachaus buvimo ramybėje.",
+  "dailyReflection25": "Apsvarstykite, kur šiandien radote jėgą — ta jėga yra iš Alachaus.",
+  "dailyReflection26": "Nurodykite vieną dalyką, kurį atliksite rytoj, Alachaus vardu, kurio neatlikote šiandien.",
+  "dailyReflection27": "Ruošiantis poilsiui, paskirkite savo sielą Alacui — jis yra geriausiasis saugotojas.",
+
+  "dailyRoleModel0": "Pranašas Muhamas ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umaras ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthmanas ibn Affan (RA)",
+  "dailyRoleModel4": "Alis ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadija bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aischa bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatima az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salmanas al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullach ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullach ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammaras ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalidas ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zaydas ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umaras ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imamas Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imamas Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imamas al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imamas Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imamas al-Bukhari (RH)",
+  "dailyRoleModel27": "Imamas Muslim (RH)",
+  "dailyRoleModel28": "Imamas al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyanas al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Pranašas Ibrahimas (AS)",
+  "dailyRoleModel44": "Pranašas Musas (AS)",
+  "dailyRoleModel45": "Pranašas Isus (AS)",
+  "dailyRoleModel46": "Pranašas Yusufas (AS)",
+  "dailyRoleModel47": "Pranašas Davidas (AS)",
+  "dailyRoleModel48": "Pranašas Solomonas (AS)",
+  "dailyRoleModel49": "Pranašas Nohas (AS)",
+  "dailyRoleModel50": "Pranašas Jonau (AS)",
+  "dailyRoleModel51": "Pranašas Ayubas (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhamas (RA)",
+  "dailyRoleModel53": "Zainab bint Muhamas (RA)",
+  "dailyRoleModel54": "Hassanas ibn Alis (RA)",
+  "dailyRoleModel55": "Husainas ibn Alis (RA)",
+  "dailyRoleModel56": "Jafaras ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Leisti Nuria naudoti mano vietovę Qiblos krypčiai ir maldos laika",
+  "locationConsentHint": "Naudojama tik šioms funkcijoms. Jūsų vieta niekad nebus dalinta arba saugoma.",
+
+  "askPageTitle": "Paklauskite Nuria",
+  "askPageDescription": "Paklauskite bet ką apie tikėjimą, maldą, gyvenimą arba islamo praktiką ir gaukite gijią, grindžiamą Koranu ir Suna.",
+  "askPageInputHint": "Čia įrašykite savo klausimą…",
+  "askPageSubmitCta": "Paklausti",
+  "askPageInputEmptyError": "Prašome pirmiausia parašyti klausimą.",
+  "askResultYourQuestion": "Jūsų klausimas",
+
+  "guidancePageTitle": "Malda ir gija",
+  "qiblaFacingMecca": "Į Mekos pusę",
+  "qiblaCompassInstruction": "Pasukite telefoną, kol auksinė adata rodo aukštyn.\nTa kryptis rodo Qiblą (Meką).",
+  "qiblaGpsUnavailableBody": "GPS signalas silpnas. Eikite laukan ir bakstelėkite Bandyti dar kartą.",
+  "qiblaRetry": "Bandyti dar kartą",
+  "qiblaTitle": "Qiblos kryptis",
+  "qiblaDistanceLabel": "{km} km iki Mekos",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Reikalinga vieta",
+  "qiblaLocationNeededBody": "Leisti vietos prieigą, kad Nuria galėtų apskaičiuoti Kaabos kryptį Mekoje iš jūsų buvimo vietos.",
+  "qiblaOpenSettings": "Atidaryti nustatymus",
+  "qiblaCompassLoading": "Ieškoma jūsų padėties…",
+  "qiblaTowardMecca": "Link Mekos",
+
+  "prayerTimesTitle": "Maldos laikas",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Reikalinga vieta",
+  "prayerTimesLocationNeededBody": "Leisti vietos prieigą, kad Nuria galėtų apskaičiuoti tikslų maldos laiką jūsų miestui.",
+  "prayerTimesNextLabel": "Kitas",
+  "prayerTimesDoneLabel": "Baigta",
+
+  "monthlyPrayerTimesTitle": "Mėnesinis maldos laikas",
+  "monthlyPrayerTimesViewButton": "Peržiūrėti visą mėnesį",
+  "monthlyPrayerTimesNextMonth": "Kitas mėnuo",
+  "monthlyPrayerTimesDayHeader": "Diena",
+
+  "sharePrayerTimes": "Dalintis maldos laiku",
+
+  "prayerNotificationsTitle": "Maldos priminai",
+  "prayerNotificationsDescription": "Gaukite švelnų priminimą prieš kiekvieną maldos laiką, kad liktumėte susieti per visą dieną.",
+  "prayerNotificationsEnable": "Įjungti maldos priminimus",
+  "prayerNotificationsOpenSettings": "Atidaryti pranešimų nustatymus",
+  "prayerNotificationsDenied": "Pranešimai išjungti",
+  "prayerNotificationsDeniedHint": "Eikite į Nustatymus ir leiskite pranešimams Nuria, jei norite gauti maldos laiko priminimus.",
+
+  "notificationsConsentLabel": "Leisti pranešimus maldos laiko atžvilgiu",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Aušros malda",
+  "prayerNotifBodyFajr": "Geriausia maldų yra aušros malda. Atsikelkite, suvalykite save ir stovėkite prieš Alacą.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Vidurdienio malda",
+  "prayerNotifBodyDhuhr": "Sustabdykite savo dieną ir grįžkite prie Alachaus. Dhuhr maldos laikas atėjo.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Popietės malda",
+  "prayerNotifBodyAsr": "Saugokite vidutinę maldą. Asr laikas atėjo — jį praleisti neleiskite.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Saulėlydžio malda",
+  "prayerNotifBodyMaghrib": "Saulė nusileidžia. Atliekite Maghrib ir būkite dėkingi Alacui už šią dieną.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Naktinė malda",
+  "prayerNotifBodyIsha": "Užbaigkite savo dieną Alachaus prisimintimu. Hayya 'alal falah — ateikite į sėkmę.",
+
+  "outOfReflectionsBannerText": "Panaudojote visas refleksijas",
+  "outOfReflectionsBannerCta": "Gauti daugiau",
+
+  "dhikrPageTitle": "Žikr",
+  "dhikrTapToCount": "Bakstelėkite apskritimą, norėdami skaičiuoti",
+  "dhikrResetButton": "Iš naujo nustatyti",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Atlikote 99 Alachaus primintas. Tegul jos būna šviesa jūsų širdyje.",
+
+  "disclaimerTitle": "Apie šios programos gijią",
+  "disclaimerBody": "Nuria pateikia islaminės refleksijas, priminimus ir dvasinį turinį, kad palaikytų jūsų asmeninį tikėjimo žygį. Šis turinys pateikiamas tik informaciniais ir inspiracijos tikslais.\n\nNuria neatstoja mokytus mokytojus.\nŠios programos gija nėra verslas su mokyta islamo mokslininku, imamu, muftiu arba teiologiškai perusam mokytoju. Jei turite klausimų apie religines nuostatas, halal ir haram dalykus arba asmenes religines pareigas, prašome kreiptis į kvalifikuotą religinę iš jūsų bendruomenės.\n\nŠi programa neišdavė religinių nuostatų.\nNuria nedaro autoritetingų nustatymų dėl fiqh (islamo teisės) ar asmeninių religinių pareigų. Nieko čia neturėtų būti traktuojama kaip fatva arba privalomas religinis nurodymas.\n\nMokslininko aiškinimas svyruoja.\nIslamas apima turtingą tradcijų, mintijų mokyklu (madhabs) ir mokslininko nuomonės įvairovę. Šios programos turinys atspindi bendras perspektyvas ir gali ne visur reprezentuoti kiekvieną tradiciją vienodai.\n\nBendruomenė svarbu.\nŠi programa siekia skatinti jūsų dalyvavimą tikybo tradicijose, giliai gerbdama svarbi vaidmenį jūsų vietinio mečetės, imamo ir religinės bendruomenės. Mes jus raginom likti susieti su ir mokytis iš kvalifikuotų mokytojai netoli jūsų.",
+  "disclaimerClose": "Supratau",
+  "disclaimerInfoTooltip": "Apie šios programos gijią",
+  "disclaimerSettingsSubtitle": "Tik bendram informaciniam tikslui. Bakstelėkite, norėdami perskaityti visą išreikalavimą.",
+  "disclaimerSectionHeader": "Gijios išreikalavimas"
+}

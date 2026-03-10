@@ -1,0 +1,585 @@
+{
+  "@@locale": "ku",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Zimanê xwe hilbijêrin",
+  "languageSelectSub": "Hûn dikarin vê paştar di Mîhengên de biguherînin",
+  "actionContinue": "Domdar bibe",
+  "languageSuggestedHeader": "Tê pêşniyar kirin",
+  "languageAllHeader": "Hemû ziman",
+  "languageSuggestedBadge": "Tê pêşniyar kirin",
+  "languageSearchHint": "Bigere…",
+
+  "planGrace": "Standard",
+  "planBlessed": "Berekat",
+
+  "categoryDailyGuidance": "Rêbaziya Rojane",
+  "categoryFaithTrust": "Îman û Bawerî",
+  "categoryPrayerReflection": "Fikirîna Salat",
+  "categoryHopeDifficultTimes": "Sabr û Hîvî",
+  "categoryForgiveness": "Bixwexistinê Bixwahîn",
+  "categoryLoveCompassion": "Merhamî û Meşfûqî",
+  "categoryStrengthCourage": "Hêza Îman",
+  "categoryGratitude": "Dilê Şükdar",
+  "categoryPurposeCalling": "Mebesê Jiyan",
+  "categoryFamilyRelationships": "Girêdanên Malbatê",
+  "categoryPeaceAnxietyRelief": "Aştî Hundirîn",
+  "categoryWisdomOfJesus": "Hikmetê Pêxamber",
+  "categoryHumilityCharacter": "Taybetmendiya Baş",
+  "categoryOvercomingTemptation": "Berê Fitnaya Nayê",
+  "categoryEveningReflection": "Dhikra Êvarê",
+  "categoryCustom": "Nîşana Kesane",
+  "dhikrMeaningSubhanallah": "Şanê Allahê",
+  "dhikrMeaningAlhamdulillah": "Hemû pêşniyarên Allahê",
+  "dhikrMeaningAllahuAkbar": "Allah herî mezin e",
+  "quranVerseHeartAtRest": "Rastî, di bîra Allah de dilan dîsa xweşî dikin.",
+
+  "promptHint": "Kategoriyekê bitikîn ji bo rêbazî û fikirîna Îslamî",
+
+  "currentLanguage": "Zimanê vir",
+  "settingsLanguage": "Mîhengên ziman",
+  "settingsTitle": "Mîheng",
+  "chooseLanguage": "Zimanê xwe hilbijêrin",
+  "continueCta": "Domdar bibe",
+
+  "promptDailyGuidance": "Rêbaziya rojane ya nerm û pratîkî binivîse ku di baweriya Sunî de sedem heye - bi Qur'an, Hadîs û hînkariyan de Pêxamber Muhemmed re. Her car goşeyek nû hilbijêrin: erênî ji etîkaya Îslamî, rast ji Sunnetê, hikmetî ji Sahabeyan, yan pratîkek hûr ji tewarixa Îslamî. Yek ayeta Qur'anê (Sûre:Ayat) û 1-2 hevokî fikirî pê ve tînin û roj bi roj hewce bike. Ger gengaz be, bi salnamea Îslamî re girê bide.",
+
+  "promptFaithTrust": "Fikirîna nerm ya Îslamî ya ser Îman û bawerî bi plana Yezdan (Tevekkul) binivîse. Ew di Qur'an, nimûneya Pêxamber Muhemmed û baweriya Sahabeyê de sedem heye. Her car mewan biguherîne: bawerî di neyêkê de, pişta Hikmetê Yezdan, sabr di ceribandindan de, yan êxisnokî di jiyana roj û rojane de. Yek ayeta Qur'anê û yek gava rastîn ji hikmetê ruhani Îslamî pê ve tînin.",
+
+  "promptPrayerReflection": "Fikirîna Salata nerm ya Îslamî ya li gorî Salat, Du'a, yan Dhikr binivîse. Her car şeklekê biguherîne: yadê sihar yan êvarê (Edhkar), fikirîna pênc salatan rojane, bîr li ser ayeteka Qur'anê, yan du'ayek ji dil. Yek ayeta Qur'anê û navê forma salata ku dihate gihandin pê ve tînin.",
+
+  "promptHopeDifficultTimes": "Fikirîna Îslamî ya ser sabr û hîvî di ceribandinê de binivîse. Hînkariyan Qur'anî ya ser ceribandin, êxisnokya Pêxamberan, û meşfûqîya Yezdan di demên dijwar de bi cih tîne. Her car goşeyek nû hilbijêrin. Yek ayeta Qur'anê û yek perspektîfa berçavan ji tewarixa Îslamî pê ve tînin.",
+
+  "promptForgiveness": "Fikirîna hikmet ya Îslamî ya ser bixwexistinê (Tewba) û meşfûqîya Yezdan binivîse. Hînkariyan Qur'anî ya ser pêçûn, meşfûqîya Yezdan, û nimûneya Pêxamber Muhemmedê ya berxwedêr bi cih tîne. Her car mewan biguherîne: vegera Yezdan re, bixwexistina kesên din, damezrandina têkiliyên nû, yan bawerî li meşfûqîya Yezdan piştî xeletiyê. Yek ayeta Qur'anê û yek gava pratîkî pê ve tînin.",
+
+  "promptLoveCompassion": "Fikirîna nerm ya Îslamî ya ser meşfûqî (Rahmah) û meşfûqî di jiyana rojane de binivîse. Nimûneya Pêxamber Muhemmed, têgîhê Îhsan (bilindî), û hînkariyan Îslamî ya ser bejtixûn ji malbate, cîran, û dualî bi cih tîne. Yek ayeta Qur'anê û yek karê meşfûqî ya biçûk ji bo îro pê ve tînin.",
+
+  "promptStrengthCourage": "Fikirîna Îslamî ya ser hêza îmanî û cesaretî binivîse. Mîsalên Pêxamberan, civata Musulmanên destpêkî, û bawerên ku di dijwariyê de durustî mane bi cih tîne. Her car mewan biguherîne: cesaret ji du'a, hêz di salata de, bawerî li Yezdan di tirsê de, yan êxisnokî di dijwariyê de. Yek ayeta Qur'anê û du'ayek nerm yan jêjiyara yada bi cih tîne.",
+
+  "promptGratitude": "Fikirîna Îslamî ya ser şükr (Shukr) ji ber Yezdan binivîse. Ew di hînkariyan Qur'anî û tewarixa Pêxamber de sedem heye. Her car goşeyek nû hilbijêrin: şükr di dijwariyê de, hezkirin ji bênêzamiyan, destpêkirina roj bi sitaişa Yezdan, yan zanîna rehberîya Yezdan di jiyana rojane de. Yek ayeta Qur'anê û yek praktîka şükrê pê ve tînin.",
+
+  "promptPurposeCalling": "Fikirîna Îslamî ya ser mebesê jiyana bandora li Yezdan û jiyana rast binivîse. Hînkariyan Qur'anî ya ser mebes, xizmetê kesên din, û bikaranîna bêhtirên xwe pê ve tînin. Her car mewan biguherîne: xizmetê malbate û civakê, dîtina rehberîyê ji Istîkhara, jiyana bi maksed, yan dîtina wateyê di kara rastîn de. Yek ayeta Qur'anê û du pirsên fikirînê pê ve tînin.",
+
+  "promptFamilyRelationships": "rêbaziya hikmet ya Îslamî ya ser malbate û têkiliyê ku di hînkariyan Qur'anî û nimûneya Pêxamber Muhemmed re sedem ye binivîse. Her car mewan biguherîne: bejtixûn di malbate de, sabr di bîranînan de, rêzgirtina dayik û bavê, xweparastina zarokan di îmanê de, yan bertekre bûn di jiyanê de. Yek ayeta Qur'anê û yek pratîka têkiliyê pê ve tînin.",
+
+  "promptPeaceAnxietyRelief": "Fikirîna Îslamî ya şarabil ser vedîtin aştî hindirîn bi rêy bîyaye Yezdan (Dhikr) û bawerî li palanemê Yezdan binivîse. Hînkariyan Qur'anî ya ser aştîya dil, salat, û tesvîm li vilêya Yezdan bi cih tîne. Her car nêzîkatîyekê nû bikar anîn û yek ayeta Qur'anê û yek praktîka sade ji tewarixa Îslamî pê ve tînin.",
+
+  "promptWisdomOfJesus": "Peça hikmetê ji Pêxamberan wekî ku di Îslamê de tê fêhm kirin binivîse. Qur'an yan Hadîs bi cih tîne û rê bi kurtî vekî ku xuwendekarên Îslamî hînkariyan tê fêhmkirin. Her car mijar biguherîne: taybetmendî, sabr, tawezoq, îman, yan tevger rojane. Yek ayeta Qur'anê yan Hadîs û yek karkirina praktîkî pê ve tînin.",
+
+  "promptHumilityCharacter": "Fikirîna Îslamî ya ser tawezoq (Tawadhu) û taybetmendiya baş (Akhlaq) binivîse. Hînkariyan Qur'anî, nimûneya Pêxamber Muhemmed, û tewarixa pêşandina taybetmendiya Îslamî bi cih tîne. Her car mewan biguherîne: tawezoq di rêvebir de, qubûlkira xeletiyê, rêzgirtina kesên din, yan pêşveçûn ruhani ji rêxistinê. Yek ayeta Qur'anê û yek aderê pê pratîk kirin pê ve tînin.",
+
+  "promptOvercomingTemptation": "Fikirîna Îslamî ya ser berxwedanî li tersîyan û girtina rê rast binivîse. Rêbazî Qur'anî, bîyaçûna Yezdan (Dhikr), salat (Salat), û mîsalên bawerê ku dijwar tedbîr kirine bi cih tîne. Her car goşeyek nû hilbijêrin. Yek ayeta Qur'anê û yek stratejiya pratîkî ji bo 24 saatan pêş pê ve tînin.",
+
+  "promptEveningReflection": "Fikirîna êvarê ya aştî û Îslamî ya li gorî tewarixa bîyaya êvarê (Adhkar al-Masaa') binivîse. Şükr, xwe rêxistin (Muhassabah), û bawerî li palanemê Yezdan berî hingê bixwazî. 3-5 pirsên fikirînê ya ser roja berê, du'ayek girtî ya paşi, û yek ayeta Qur'anê pê ve tînin.",
+
+  "wordCount": "{count, plural, one {{count} peyvî} other {{count} peyvî}}",
+
+  "optionsCta": "Vebijêrk",
+  "newCta": "Nû",
+  "actionsTitle": "Tu dixwazî çi bikî?",
+  "copy": "Kopî bike",
+  "share": "Parçe bike",
+  "close": "Bigire",
+  "copiedToast": "Kopîkirî bo navborî",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Mijarê e-nameyê / parçekirî ku kategorî jî pê de heye.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Rêbaziya Rojane" }
+    }
+  },
+
+  "regenerateErrorTitle": "Neçibe jê bê berhema nû",
+  "regenerateErrorBody": "{error}\n\nTu dixwazî barekirî bikî?",
+  "@regenerateErrorBody": {
+    "description": "Dema ku nûkirina bersivê nerabe tê nîşandan.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Xeletiya network" }
+    }
+  },
+
+  "cancelCta": "Betal bike",
+  "retryCta": "Barekirî bike",
+
+  "authTitle": "Hesabê xwe afirandin",
+  "continueAsGuest": "Wek mêvanan domdar bibe",
+  "signInGoogle": "Bi Google têkevin",
+  "signInApple": "Bi Apple têkevin",
+  "signInEmail": "Bi E-nameyê têkevin",
+  "upgradeWithApple": "Bi Apple domdar bibe",
+  "mustAccept": "Tu divê Mercên Kariyê qubûl bikî û Siyasetê ya Veşartiyê pejirandin.",
+  "termsLabel": "Ez Mercên Kariyê qubûl dikim",
+  "privacyLabel": "Ez Siyasetê ya Veşartiyê xûndivim",
+  "marketingOptIn": "Ez razî me ku nûçe û navpeykerî bistînim",
+  "openTerms": "Mercên Kariyê",
+  "openPrivacy": "Siyasetê ya Veşartiyê",
+
+  "accountSection": "Hesab",
+  "guestMode": "Mode mêvanan",
+  "signedIn": "Ketin",
+  "upgradeHint": "Fikirînên xwe di desthêl de hilîn û Berekat bêbin.",
+  "upgradeWithGoogle": "Bi Google domdar bibe",
+  "signOut": "Derkeve",
+
+  "snackUpgraded": "Hesab bi Google bilind kir ✅",
+  "snackSignedIn": "Bi Google têkçû ✅",
+  "snackSignedOut": "Derkevit",
+  "snackSignedInApple": "Bi Apple têkçû ✅",
+  "snackSignedInGoogle": "Bi Google têkçû ✅",
+  "snackUpgradedApple": "Hesab bi Apple bilind kir ✅",
+  "snackUpgradedGoogle": "Hesab bi Google bilind kir ✅",
+
+  "historyTitle": "Fikirînên berê",
+  "historyOpenCta": "Fikirînên berê",
+  "historyEmpty": "Fikirîn hîn tê tomar nekiriye.",
+  "historyDeleteTitle": "Fikirîn jê bibe?",
+  "historyDeleteBody": "Ev dê hêma hilî ser sûnî jê bire.",
+  "deleteCta": "Jê bibe",
+
+  "historyButton": "Fikirînên Berê",
+  "historyEmptyTitle": "Fikirîn heye ne",
+  "historyEmptyBody": "Pêşî tiştek afirandin — tişta tomar kirine here derewan û dikarin here",
+  "historyDelete": "Jê bibe",
+
+  "footerTitle": "Bi Îman, sabr û rahmah.",
+  "footerSubtitle": "Yek gav li jê.",
+  "genericErrorSnack": "Tiştek neçû rast — ne zû barekirî bike.",
+
+  "upgradeAccountCta": "Fikirînên xwe di desthêl de hilîn — hesabek afirandin",
+  "deleteAccount": "Hesab jê bibe",
+  "exportData": "Daneya min derxin",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Tîpê berî nîşandana Firebase UID ê hundirî.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Asêya xwe hilîn 🐯\nYeqîn hewca demeke ye berî ya din…",
+  "rateDailyLimit": "Tu ji fikirînê bê yî îro.\nFikirînên din bistîne yan Berekat bilind bike.",
+  "rateCreditsExhausted": "Tu hemû fikirînên xwe ne bikar anî.\nTêpel bike yan Berekat bilind bike da ku domdar bî.",
+  "rateGraceReflectionsExhausted": "Tu ji fikirînê bê yî îro.\nFikirînên din bistîne yan Berekat bilind bike.",
+  "rateReflectionsExhausted": "Tu hemû fikirînên xwe ne bikar anî.\nTêpel bike yan Berekat bilind bike da ku domdar bî.",
+
+  "blessedDescription": "Berekat taybetmendiyên premium vekî, kategoriyên nû, û nîşaneka taybet.",
+  "championDescription": "Berekat taybetmendiyên premium vekî, kategoriyên nû, û nîşaneka taybet.",
+
+  "ratePlanExhausted": "Fikirînên xwe vala ne. Plan: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Dema ku fikirînên bikarhêner vala bin lê sedem generic be tê nîşandan.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard yan Berekat" }
+    }
+  },
+
+  "rateCheckFailed": "Fikirînên xwe kontrol nekirî: {message}",
+  "@rateCheckFailed": {
+    "description": "Dema ku fonksîyona bangî xeletiyê vegerîne tê nîşandan.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Xeletiya network" }
+    }
+  },
+
+  "rateCheckGenericError": "Tiştek neçû rast dema ku fikirînên xwe kontrol dikin.",
+  "aiFallbackGeneric": "Tiştek neçû rast — ne zû barekirî bike.",
+
+  "limitSectionTitle": "Fikirîn",
+  "limitTodayLabel": "Bikaranîn",
+  "limitCreditsLabel": "Fikirînên mayî: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plan: {plan}",
+  "@limitPlanLabel": {
+    "description": "Navê plana aboneyê ya vir tê nîşandan.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard yan Berekat" }
+    }
+  },
+  "limitLoadingLabel": "Bar tê kirin…",
+  "limitLoadingLabelDescription": "Dema ku statûsên bikaranînê bar dikin tê nîşandan.",
+
+  "aiLimitTitle": "Fikirîn",
+  "aiLimitSubtitle": "Her bersiv 1 fikirîn bikar tîne. Standard fikirînên destpêkî yê de. Berekat kategoriyên premium vekî û tê peldankirin.",
+  "aiLimitProgressLabel": "{used} / {total} fikirîn ne hatiye bikaranîn",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Fikirîn",
+  "reflectionsUsageLabel": "Bikaranîn",
+  "reflectionsRemainingLabel": "Fikirînên mayî: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plan: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Navê plana vir tê nîşandan.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard yan Berekat" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Bar tê kirin…",
+  "reflectionsLoadingLabelDescription": "Dema ku statûsên fikirînê bar dikin tê nîşandan.",
+
+  "reflectionsTitle": "Fikirîn",
+  "reflectionsSubtitle": "Her bersiv 1 fikirîn bikar tîne. Standard fikirînên destpêkî yê de. Berekat kategoriyên premium vekî û tê peldankirin.",
+  "reflectionsProgressLabel": "{used} / {total} fikirîn ne hatiye bikaranîn",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Hesab jê bibe",
+  "settingsDeleteDescription": "Hesabê xwe û hemû daneyên pê re bihejîn û dişarin.",
+  "settingsDeleteButtonLabel": "Hesabê min jê bibe",
+  "settingsDeleteDialogTitle": "Hesab jê bibe?",
+  "settingsDeleteDialogBody": "Ev tevger ne dikare vegere.\n\nHemû guftûgoya xwe, malbatî û agahiyên hesabê xwe jê dibin.",
+  "settingsDeleteDialogCancel": "Betal bike",
+  "settingsDeleteDialogConfirm": "Jê bibe",
+
+  "settingsFreeLimitUsedTitle": "Fikirînên destpêkî ne hatiye bikaranîn",
+  "settingsFreeLimitUsedDescription": "Fikirînên destpêkî yê vî desthêlê ne hatiye bikaranîn. Berekat bilind bike yan fikirînên din bikire.",
+
+  "settingsStarterReflectionsUsedTitle": "Fikirînên destpêkî ne hatiye bikaranîn",
+  "settingsStarterReflectionsUsedDescription": "Fikirînên destpêkî yê vî desthêlê ne hatiye bikaranîn. Berekat bilind bike yan fikirînên din bikire.",
+
+  "deviceBoundError": "Vî desthêlî jixwe bi hesabek din girêdayî ye. Tu bi hesabê xweya berê têkevin.",
+
+  "premiumTitle": "Mode Berekat",
+  "premiumSubtitleBasic": "Mîhenka Nuria a tije vekî.",
+  "premiumSubtitleChampion": "Tu Berekat yî. Fikirînên din hewce ye?",
+
+  "premiumCurrentPlan": "Plan ya vir: {plan}",
+  "premiumCreditsStatus": "Fikirîn: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Kirîn vir nabe.",
+  "premiumSignInToPurchase": "Têkevin da ku fikirîn bikirin yan Berekat vekî.",
+
+  "premiumRestorePurchases": "Kirînên vegere",
+  "premiumProcessing": "Ciyên tê kirin…",
+  "premiumRestoreHintTitle": "Tu berê Berekat yan fikirîn vî desthêlê yan heyek din kirkî?",
+  "premiumRestoreHintBody": "Kirînên xwe vegere eger nayên nîşandan.",
+
+  "premiumBuyCredits200": "200 fikirîn bikire",
+  "premiumBuyCredits400": "400 fikirîn bikire",
+  "premiumBecomeChampionOneTime": "Berekat bilind bike",
+  "premiumChampionHint": "Wek Berekat, tu dikî fikirînên din zêde bikî wê demê hewce bî.",
+
+  "premiumUpgradeCta": "Bilind bike",
+  "premiumRequiredForCategory": "Ev kategorî tenê ji bo bikarhênerên Berekat. Di Mîhengan de bilind bike da hemû naverok vekî.",
+  "premiumBenefitsBasic": "Berekat vekî da fikirînên din, kategoriyên premium, û bê astengiyê domdar bî.",
+  "premiumBenefitsChampion": "Tu di mode Berekat de yî. Ger fikirîn da kemî be, tê peldankirin û domdar bî.",
+  "premiumButtonBecomeChampion": "Berekat vekî",
+  "premiumButtonTopup1000": "1000 fikirîn zêde bike",
+  "premiumChampionBadge": "Berekat çalak",
+  "premiumLoadingStore": "Store bar tê kirin…",
+
+  "blessedTitle": "Mode Berekat",
+  "blessedSubtitleGrace": "Mîhenka Nuria a tije vekî.",
+  "blessedSubtitleBlessed": "Tu Berekat yî. Fikirînên din hewce ye?",
+
+  "blessedCurrentPlan": "Plan ya vir: {plan}",
+  "blessedReflectionsStatus": "Fikirîn: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Kirîn vir nabe.",
+  "blessedProductNotAvailable": "Ev berhema di store de hîn nabe. Ne zû barekirî bike.",
+  "blessedPurchaseError": "Tiştek neçû rast bi kirînê. Barekirî bike.",
+  "blessedSignInToPurchase": "Têkevin da ku fikirîn bikirin yan Berekat vekî.",
+
+  "blessedRestorePurchases": "Kirînên vegere",
+  "blessedProcessing": "Ciyên tê kirin…",
+  "blessedRestoreHintTitle": "Tu berê Berekat yan fikirîn vî desthêlê yan heyek din kirkî?",
+  "blessedRestoreHintBody": "Kirînên xwe vegere eger nayên nîşandan.",
+
+  "blessedBuyReflections100": "100 fikirîn zêde bike",
+  "blessedBuyReflections200": "200 fikirîn bikire",
+  "blessedBuyReflections400": "400 fikirîn bikire",
+  "blessedBecomeBlessedOneTime": "Berekat bilind bike",
+  "blessedTopupHint": "Wek Berekat, tu dikî fikirînên din zêde bikî wê demê hewce bî.",
+
+  "blessedUpgradeCta": "Bilind bike",
+  "blessedRequiredForCategory": "Ev kategorî tenê ji bo bikarhênerên Berekat. Di Mîhengan de bilind bike da hemû naverok vekî.",
+  "blessedFeatureLocked": "Berekat vekî da ev taybetmendî bikar anî.",
+  "lockedCategoriesHint": "Hin kategorî ji bo endamên Berekat tên tomalkirin. Wan vekî û hemû fikirînên rê vebirrî.",
+  "blessedBenefitsGrace": "Berekat vekî da fikirînên din, kategoriyên premium, û bê astengiyê domdar bî.",
+  "blessedBenefitsBlessed": "Tu di mode Berekat de yî. Ger fikirîn da kemî be, tê peldankirin û domdar bî.",
+  "blessedButtonBecomeBlessed": "Berekat vekî",
+  "blessedButtonTopup1000": "1000 fikirîn zêde bike",
+  "blessedBadge": "Berekat çalak",
+  "blessedLoadingStore": "Store bar tê kirin…",
+
+  "freePlanBlockedTitle": "Tu fikirînên destpêkî ne bikar anî",
+  "freePlanBlockedBody": "Tu di plana Standard de yî û fikirînên destpêkî ne hatiye bikaranîn. Da ku domdar bî û kategoriyên premium vekî — Berekat bilind bike.",
+  "freePlanBlockedCtaGoPremium": "Vebijêrên Berekat li jêr bibîne",
+
+  "graceBlockedTitle": "Tu fikirînên destpêkî ne bikar anî",
+  "graceBlockedBody": "Tu di plana Standard de yî û fikirînên destpêkî ne hatiye bikaranîn. Da ku domdar bî û kategoriyên premium vekî — Berekat bilind bike.",
+  "graceBlockedCtaGoBlessed": "Vebijêrên Berekat li jêr bibîne",
+
+  "rateGuestMustSignIn": "Têkevin da Nuria bikar anî û fikirînên xwe.",
+
+  "guestNoCreditsTitle": "Mode mêvanan",
+  "guestNoCreditsBody": "Wek mêvanan tu dikî appê bibînî, lê fikirîn bikar nakî. Paştar di Mîhengan de têkevin û fikirîn bikar anî.",
+
+  "guestNoReflectionsTitle": "Mode mêvanan",
+  "guestNoReflectionsBody": "Wek mêvanan tu dikî appê bibînî, lê fikirîn bikar nakî. Paştar di Mîhengan de têkevin û fikirîn bikar anî.",
+
+  "guestDialogContinue": "Domdar bibe",
+  "guestDialogLoginInstead": "Vir de têkevin",
+
+  "optionalLabel": "opsîyonel",
+
+  "accountDeleteSuccessTitle": "Hesab jê hat",
+  "accountDeleteSuccessBody": "Hesabê xwe û hemû daneyên pê re bi serkeftî jê hatin.",
+  "accountDeleteSuccessClose": "Bigire",
+  "accountDeleteErrorTitle": "Hesab neçû jê",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Desdixwe jê hat. Barekirî bike û hesabê din jê bibe.",
+  "accountDeleteReauthRequired": "Jêbûna hesabê zemanî hesabek nû tîne. Derkeve, barekirî bike û jê bibe.",
+  "settingsDeletePermanentWarning": "Ev tevger ne dikare vegere. Hemû daneyên hesabê xwe jê dibin.",
+
+  "dailyGraceTitle": "Rêbaziya Rojane",
+  "dailyGraceScriptureLabel": "AYETA ROJA",
+  "dailyGraceSaintLabel": "XUWENDEKAR YA HEFTEYÊ",
+  "dailyGraceReflectionLabel": "FIKIRÎNA ÊVARÊ",
+  "dailyGraceCopiedToast": "Ayet kopîkirî bo navborî",
+
+  "dailyScripture0Text": "Ew ên rast di baxan û rûbarê de ye, li ser rûyê mîhengê li ber Pêxa Diyar.",
+  "dailyScripture0Ref": "Qur'an 54:54-55",
+  "dailyScripture1Text": "Em we nedayin neha Pêxamber, ne tenê da cemayeta we, lê wek meşfûqiyê ji bo hemû cîhan.",
+  "dailyScripture1Ref": "Qur'an 21:107",
+  "dailyScripture2Text": "Yezdan nabe ji bo xizmetkarê xwe? Lê yên din bê tirs dixwazin.",
+  "dailyScripture2Ref": "Qur'an 39:36",
+  "dailyScripture3Text": "Dibe ku tu tiştek nehêlî û ew ji bo we baş be; û dibe ku tu tiştek hêl û ew ji bo we xirab be. Yezdan dizane, lê we nizanin.",
+  "dailyScripture3Ref": "Qur'an 2:216",
+  "dailyScripture4Text": "Yezdan bi ew ên sabir re ye.",
+  "dailyScripture4Ref": "Qur'an 2:153",
+  "dailyScripture5Text": "Wa mînkî bîyaye; min jî we bîya. Û spas kim û nijadgir nebe.",
+  "dailyScripture5Ref": "Qur'an 2:152",
+  "dailyScripture6Text": "Ew ên çêtir di ber Yezdan de ew ên rast in.",
+  "dailyScripture6Ref": "Qur'an 49:13",
+  "dailyScripture7Text": "Û Rêbera xwe rewa kiribe: ne hûn tenê Yezdan ibdat bikin, û dayik û bav bi xêr bibistên.",
+  "dailyScripture7Ref": "Qur'an 17:23",
+  "dailyScripture8Text": "Bi dijwariyê re berhasiyê jî heye.",
+  "dailyScripture8Ref": "Qur'an 94:6",
+  "dailyScripture9Text": "Û ew bi we re ye her ku hûn bin. Û Yezdan çi bikin dibîne.",
+  "dailyScripture9Ref": "Qur'an 57:4",
+  "dailyScripture10Text": "Yezdan nehêl ew ê bi more talûke nikumpe.",
+  "dailyScripture10Ref": "Qur'an 2:286",
+  "dailyScripture11Text": "Û ew ê bawerî li Yezdan kiribe — ew wî ji bo wî bese ye.",
+  "dailyScripture11Ref": "Qur'an 65:3",
+  "dailyScripture12Text": "Meşfûqîya min hemûyan girewa.",
+  "dailyScripture12Ref": "Qur'an 7:156",
+  "dailyScripture13Text": "Û dema ku xizmetkarên min li ser we pirsîn — ez nêzik im. Ew ê ew ê du'a kir bersiv bikim.",
+  "dailyScripture13Ref": "Qur'an 2:186",
+  "dailyScripture14Text": "Ew ê rast bikire, mêr yan jin, û bawerîdar be — ew jîyana baş tê girtin.",
+  "dailyScripture14Ref": "Qur'an 16:97",
+  "dailyScripture15Text": "Yezdan awayên ciyakî ew ê ne guhêz kire ne ew ê xwe biguherînin.",
+  "dailyScripture15Ref": "Qur'an 13:11",
+  "dailyScripture16Text": "Wa xweş nebin û dil negêj hûn ew ê çêtirî bin eger hûn bawerî hûn.",
+  "dailyScripture16Ref": "Qur'an 3:139",
+  "dailyScripture17Text": "Ey xizmetkarên min ew ê xwe zêde kirine — ne bêhêvî bin meşfûqîya Yezdan. Yezdan hemû guneh bixwê.",
+  "dailyScripture17Ref": "Qur'an 39:53",
+  "dailyScripture18Text": "Û ew ê ji Yezdan birse — ew rê tê dîtin û wî da yekê navnedizane tê sirbarkirin.",
+  "dailyScripture18Ref": "Qur'an 65:2-3",
+  "dailyScripture19Text": "Ne bêhêvî bin meşfûqîya Yezdan.",
+  "dailyScripture19Ref": "Qur'an 12:87",
+  "dailyScripture20Text": "Û em Qur'anê ya radest daye. Êdî tu kesê ye ka fikirî bike?",
+  "dailyScripture20Ref": "Qur'an 54:17",
+  "dailyScripture21Text": "Û ew hûn gumrahan dijî û kiribe, û rehber daye.",
+  "dailyScripture21Ref": "Qur'an 93:7",
+  "dailyScripture22Text": "Û Rêbera xwe digotin: Bi mîn dipirin; ew ez bersiv dikim.",
+  "dailyScripture22Ref": "Qur'an 40:60",
+  "dailyScripture23Text": "Û em ew ê zaro zarokên Adem şeref daye.",
+  "dailyScripture23Ref": "Qur'an 17:70",
+  "dailyScripture24Text": "Û sînor dî bi sabr û salat.",
+  "dailyScripture24Ref": "Qur'an 2:45",
+  "dailyScripture25Text": "Ew ê atomê baş çi bike — dê dibîne.",
+  "dailyScripture25Ref": "Qur'an 99:7",
+  "dailyScripture26Text": "Bê guman fercî Yezdan nêzik e.",
+  "dailyScripture26Ref": "Qur'an 2:214",
+  "dailyScripture27Text": "Û ew ê spas kim — spas wî tenê ji bo xwe ye.",
+  "dailyScripture27Ref": "Qur'an 31:12",
+
+  "dailyReflection0": "Dema vî rojan diqede, yek demî bîje meşfûqîya Yezdan ya berçavan bû.",
+  "dailyReflection1": "Tu ew ê Yezdan rê vekî çi te rojan giran kir.",
+  "dailyReflection2": "Yek bêxtiyara rojan nav bike û spas bike Yezdanî.",
+  "dailyReflection3": "Hûn aş bibin zanîna we Yezdan bi care beynidî.",
+  "dailyReflection4": "Fikirê demeke ku tu bînayî meşfûqî û xêlî nîşan bide.",
+  "dailyReflection5": "Ew ê jê fal bike palanemê Yezdan de.",
+  "dailyReflection6": "Dema rojan diqede, aştî wergir li bîyaya Yezdan de.",
+  "dailyReflection7": "Fikirê kî te salatan xwe rêzgirt, û spas bike.",
+  "dailyReflection8": "Fikirê demeke ku sabr te rêvane kir rojan de.",
+  "dailyReflection9": "Bixwexistinê lê bira bikire neha — meşfûqîya Yezdan bê xet e.",
+  "dailyReflection10": "Yek kes navê bide ku te meşfûqî nîşan dî, û du'a bike.",
+  "dailyReflection11": "Li spasdarî bimîne: tu çi Yezdan dade rojan de ku tu nexwest?",
+  "dailyReflection12": "Ayeta Qur'anê fikirê bike ku bi cihê te hine.",
+  "dailyReflection13": "Fikirê demê xwe rojan de — û roja pêş Yezdanî bide.",
+  "dailyReflection14": "Bêaş bibin ku Yezdan bi we re bû her dijwariye rojan.",
+  "dailyReflection15": "Yek rê fikirê bike ku te xizmetê malbate û civakê kir.",
+  "dailyReflection16": "Dema şev dibe, Tewba bike — Yezdan ew ê venagerân hêzekî.",
+  "dailyReflection17": "Bezma çêtirî Yezdan rojan xwe ya xweş fêm bike.",
+  "dailyReflection18": "Fikirê çi te fêm kir û ji bo nêziktirî Yezdan kimî.",
+  "dailyReflection19": "Giran vê roja Yezdanî bike — ew giran nake.",
+  "dailyReflection20": "Demê fikirê bike ku tu dikî baştir bikî, û xweş fêr bibe.",
+  "dailyReflection21": "Du'a bike ew ê dijwarî de — du'a xwe jê heye.",
+  "dailyReflection22": "Yek bêxtiyara birvêke jîyan nav bike û spas bike.",
+  "dailyReflection23": "Armanc xwe rojan fikirê bike — eger ji bo Yezdan. Pêşî barekirî bike.",
+  "dailyReflection24": "Dema şev quşt bike, Yezdan nêzik bibîne.",
+  "dailyReflection25": "Demê fikirê bike ku tu hêz kî rojan — ew hêz Yezdanî ye.",
+  "dailyReflection26": "Yek tişt nav bike ku tu roja din îcra bikî, ji bo Yezdan.",
+  "dailyReflection27": "Dema tu maynê te — Yezdanê xwe bide — ew mêvanê baş e.",
+
+  "dailyRoleModel0": "Pêxamber Muhemmed ﷺ",
+  "dailyRoleModel1": "Ebû Bekir as-Siddîq (RA)",
+  "dailyRoleModel2": "Umer ibn al-Xattab (RA)",
+  "dailyRoleModel3": "Esman ibn Affan (RA)",
+  "dailyRoleModel4": "Elî ibn Abî Talîb (RA)",
+  "dailyRoleModel5": "Xedîje binte Xuweylid (RA)",
+  "dailyRoleModel6": "Ayîşe binte Ebû Bekir (RA)",
+  "dailyRoleModel7": "Fatmiya Zehrâ (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Selmân al-Fârisî (RA)",
+  "dailyRoleModel10": "Ebû Hurayra (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Mes'ûd (RA)",
+  "dailyRoleModel13": "Mu'adh ibn Jebel (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya binte Xabbab (RA)",
+  "dailyRoleModel16": "Ammâr ibn Yâsir (RA)",
+  "dailyRoleModel17": "Umm Salemah (RA)",
+  "dailyRoleModel18": "Hâlid ibn al-Walîd (RA)",
+  "dailyRoleModel19": "Zeyd ibn Thâbit (RA)",
+  "dailyRoleModel20": "Hafsah binte Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Azîz (RH)",
+  "dailyRoleModel22": "Imam Ebû Hênîfe (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shâfi'î (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Henbel (RH)",
+  "dailyRoleModel26": "Imam al-Buxârî (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Termizî (RH)",
+  "dailyRoleModel29": "Al-Ghazâlî (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawî (RH)",
+  "dailyRoleModel33": "Ibn Hejir al-Asqalânî (RH)",
+  "dailyRoleModel34": "Ibn Kethîr (RH)",
+  "dailyRoleModel35": "Al-Tabarî (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawrî (RH)",
+  "dailyRoleModel37": "Faxr al-Dîn al-Razî (RH)",
+  "dailyRoleModel38": "Ibn Sînâ (RH)",
+  "dailyRoleModel39": "Al-Bîrûnî (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldûn (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Pêxamber Ibrâhîm (AS)",
+  "dailyRoleModel44": "Pêxamber Mûsâ (AS)",
+  "dailyRoleModel45": "Pêxamber Îsâ (AS)",
+  "dailyRoleModel46": "Pêxamber Yûsuf (AS)",
+  "dailyRoleModel47": "Pêxamber Dâwûd (AS)",
+  "dailyRoleModel48": "Pêxamber Suleymanê (AS)",
+  "dailyRoleModel49": "Pêxamber Nûh (AS)",
+  "dailyRoleModel50": "Pêxamber Yunûs (AS)",
+  "dailyRoleModel51": "Pêxamber Eyyûb (AS)",
+  "dailyRoleModel52": "Ruqayya binte Muhemmed (RA)",
+  "dailyRoleModel53": "Zeyineb binte Muhemmed (RA)",
+  "dailyRoleModel54": "Hasan ibn Elî (RA)",
+  "dailyRoleModel55": "Husayn ibn Elî (RA)",
+  "dailyRoleModel56": "Ja'fer ibn Abî Talîb (RA)",
+  "dailyRoleModel57": "Ebû Dhar al-Ghifârî (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Bi Nuria de cih bikar tîne bo rêya Qîbla û demên salatan",
+  "locationConsentHint": "Tenê ji bo ev taybetmendî tê bikar anîn. Cih te nabe parçe û tomar nabe.",
+
+  "askPageTitle": "Pirsê Nuria",
+  "askPageDescription": "Pirsê derbarê îman, salat, jiyan, yan pratîka Îslamî û bersiva rêbazî Qur'an û Sunnah vistîne.",
+  "askPageInputHint": "Pirsê xwe li vir binivîse…",
+  "askPageSubmitCta": "Pirs",
+  "askPageInputEmptyError": "Pêşî pirsek nivîs.",
+  "askResultYourQuestion": "Pirsê te",
+
+  "guidancePageTitle": "Salat û Rêbazî",
+  "qiblaFacingMecca": "Ber bi Mekke",
+  "qiblaCompassInstruction": "Desthêla xwe bigere nûskê sora zêr ya jor be.\nEv rêya Qîbla ye (Mekke).",
+  "qiblaGpsUnavailableBody": "Nîşana GPS nabûye. Derve here û barekirî bike.",
+  "qiblaRetry": "Barekirî bike",
+  "qiblaTitle": "Rêya Qîbla",
+  "qiblaDistanceLabel": "{km} km ber Mekke",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Cih hewce ye",
+  "qiblaLocationNeededBody": "Cih rê vekî da Nuria rêya Ka'beya Mekke bi kes û cihê xwe hesab bike.",
+  "qiblaOpenSettings": "Mîheng vekî",
+  "qiblaCompassLoading": "Cihê xwe tê dîtin…",
+  "qiblaTowardMecca": "Ber bi Mekke",
+
+  "prayerTimesTitle": "Demên Salatan",
+  "prayerTimesFajr": "Fecr",
+  "prayerTimesDhuhr": "Zivirê",
+  "prayerTimesAsr": "Î",
+  "prayerTimesMaghrib": "Êvar",
+  "prayerTimesIsha": "Şev",
+  "prayerTimesLocationNeededTitle": "Cih hewce ye",
+  "prayerTimesLocationNeededBody": "Cih rê vekî da Nuria demên salatan bi akes cihê xwe hesab bike.",
+  "prayerTimesNextLabel": "Pêş",
+  "prayerTimesDoneLabel": "Temam",
+
+  "monthlyPrayerTimesTitle": "Demên Salatan yên Miyana",
+  "monthlyPrayerTimesViewButton": "Bihêl Malbatî",
+  "monthlyPrayerTimesNextMonth": "Miyana pêş",
+  "monthlyPrayerTimesDayHeader": "Roj",
+
+  "sharePrayerTimes": "Demên salatan parçe bike",
+
+  "prayerNotificationsTitle": "Diyarkirina Salatan",
+  "prayerNotificationsDescription": "Berê demê salatan îşaretka nerm bigire da hûn di rêz de bimînin.",
+  "prayerNotificationsEnable": "Diyarkirinên salatan çalak bike",
+  "prayerNotificationsOpenSettings": "Mîhengên diyarkirinê vekî",
+  "prayerNotificationsDenied": "Diyarkirî nabe",
+  "prayerNotificationsDeniedHint": "Mîhengê here û Nuria ji bo îşaretên salatan destûr bide.",
+
+  "notificationsConsentLabel": "Diyarkirî rê vekî ji bo demên salatan",
+
+  "prayerNotifTitleFajr": "🌅 Fecr — Salata Sibeh",
+  "prayerNotifBodyFajr": "Çêtirîn salata sibeh e. Hûrûş bibin, xwe pak bikin, û ber Yezdan stûne.",
+
+  "prayerNotifTitleDhuhr": "☀️ Zivirê — Salata Dorê",
+  "prayerNotifBodyDhuhr": "Roja xwe pauzê bike û vegere Yezdan. Dema Zivirê hat.",
+
+  "prayerNotifTitleAsr": "🌤️ Î — Salata Êvarî",
+  "prayerNotifBodyAsr": "Salata navî hilîn. Demê Î hat — nebe bê çûn.",
+
+  "prayerNotifTitleMaghrib": "🌇 Êvar — Salata Êvarî",
+  "prayerNotifBodyMaghrib": "Ronî dal. Êvara salat bike û ji bo roja Yezdanî spas.",
+
+  "prayerNotifTitleIsha": "🌙 Şev — Salata Şevê",
+  "prayerNotifBodyIsha": "Roja xwe berdê Yezdan. Hayya'alal falah — ber bi serkeftiyê.",
+
+  "outOfReflectionsBannerText": "Tu hemû fikirînên xwe ne bikar anî",
+  "outOfReflectionsBannerCta": "Fikirînên din bistîne",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Dorteka bitikîn da bihejîn",
+  "dhikrResetButton": "Nûvekirinê",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Tu 99 caran Yezdan yada kiré. Ew ji bo dilda xwe ronak bin.",
+
+  "disclaimerTitle": "Derbarê rêbazîya appê de",
+  "disclaimerBody": "Nuria fikirînên Îslamî, diyarkirî, û naverokê ruhani peyda dike da rêwanişta îmanî xwe piştgirî bike. Ev naverok ji bo mebesta zaniyarî û ilhamî ye.\n\nNuria xuwendekarê ramandar nade cih.\nRêbazîya vî appê ne şûna xuwendekarê ramandar, imamê, muftîyê, yan moalem teolojî ye. Ger pirsên we li ser rewa û herema Îslamî yan îjtihadên kesên ne ya xwe hûn tune xuwendekarê ramandar ji civakê xwe difikirin.\n\nVî appê rewa ne dike.\nNuria ne fatwaya Îslamî ya berî bike. Tiştek li vir ne hûn wek rewa yan fermanê ramandar bibînin.\n\nFêhma xuwendekaran cuda ye.\nÎslam ew ê berfirehî û rêbaziyen cu mehd û fikiran ya çêkirî heye. Naverok di vî appê de perspektîvên giştî dide û dibe ku ne hemû rêbaziyên mî rê pare hebe.\n\nCivaka ye girîng.\nVî appê armanca wî ye hûn bi rêbaziyen îman re têkilî bide û rêzgirtina girîngî ya cihekê mî, imam, û civaka ruhani heye. Me her hûn danîştin bi xuwendekarên ramandaran ya bilîndî yên nêzî xwe.",
+  "disclaimerClose": "Ez fêhm kim",
+  "disclaimerInfoTooltip": "Derbarê rêbazîya appê de",
+  "disclaimerSettingsSubtitle": "Ji bo mebesta zaniyarîyê. Bitikîn da pênahîya tije bixûyanî.",
+  "disclaimerSectionHeader": "Dîklêmeya rêbazî"
+}

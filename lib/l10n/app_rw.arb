@@ -1,0 +1,585 @@
+{
+  "@@locale": "rw",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Hitamo ururimi rwako",
+  "languageSelectSub": "Urashobora guhindura ibi mumasettings nyuma",
+  "actionContinue": "Komeza",
+  "languageSuggestedHeader": "Icyashyikiranye",
+  "languageAllHeader": "Ururimi rwose",
+  "languageSuggestedBadge": "Icyashyikiranye",
+  "languageSearchHint": "Shakisha…",
+
+  "planGrace": "Standard",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Imusaruro y'Imvano",
+  "categoryFaithTrust": "Imana n'Amahoro",
+  "categoryPrayerReflection": "Imunirane y'Inamahoro",
+  "categoryHopeDifficultTimes": "Ibyorohereza n'Inyigisho",
+  "categoryForgiveness": "Gusaba Imbabazi",
+  "categoryLoveCompassion": "Ubuntu n'Ihanga",
+  "categoryStrengthCourage": "Imbaraga z'Imana",
+  "categoryGratitude": "Ubwenge bwa Shukr",
+  "categoryPurposeCalling": "Intego y'Ubuzima",
+  "categoryFamilyRelationships": "Ubwiyunge bw'Imbere",
+  "categoryPeaceAnxietyRelief": "Amahoro y'Umutima",
+  "categoryWisdomOfJesus": "Ubwenge bwa Nabii",
+  "categoryHumilityCharacter": "Imibanire n'Agaciro",
+  "categoryOvercomingTemptation": "Kurwanya Injira",
+  "categoryEveningReflection": "Imunirane y'Ijoro",
+  "categoryCustom": "Icyerekezo cy'Umuntu",
+  "dhikrMeaningSubhanallah": "Ikuzo ry'Imana",
+  "dhikrMeaningAlhamdulillah": "Ibyishimo byose ni iby'Imana",
+  "dhikrMeaningAllahuAkbar": "Imana ni Ikiruta byose",
+  "quranVerseHeartAtRest": "Ni ukuri, mu kwibuka Imana imitima ibona ituze.",
+
+  "promptHint": "Gusura icyiciro kugira ngo ubone inyigisho z'Imana n'imunirane",
+
+  "currentLanguage": "Ururimi rwabyubwenge",
+  "settingsLanguage": "Inyigisho z'ururimi",
+  "settingsTitle": "Inyigisho",
+  "chooseLanguage": "Hitamo ururimi rwako",
+  "continueCta": "Komeza",
+
+  "promptDailyGuidance": "Andika imusaruro ndende y'Imvano irimo inyigisho z'Imana, zishingiye ku Qur'an, Hadith, n'amahoro ya Nabi Muhammad. Hitamo ubwenge buhashyikiranye buri gihe: Ubwenge bwa Imana, Isomo ry'Imihangano, Ubwenge bwa Abarozi, cyangwa Igikorwa cy'Imana. Zirimo Icyitonderezwa cy'Imana (Sura:Ayah) n'imunirane ndende y'ifuni 1-2 kugira ngo ubarimuke. Muri ubwenge bw'Amahoro, tera ku Kalanida y'Imana cyangwa umunsi w'ubwiyunge.",
+
+  "promptFaithTrust": "Andika imunirane ndende y'Imana (Iman) n'Amahoro mu Mpano ya Imana (Tawakkul). Ishingiye ku Qur'an, Igikorwa cy'Nabi Muhammad, n'Imana y'Abarozi. Guhindura insikira buri gihe: Kwishingira ku Imana mu mahoro, Kwizemereza Amahoro ya Imana, Ibyorohereza, cyangwa Ubwiyunge mu buzima bwa buri munsi. Zirimo Icyitonderezwa cy'Imana n'Ikintu kimwe cyawe cy'Olo.",
+
+  "promptPrayerReflection": "Andika imunirane ndende y'Inamahoro ishingiye ku Salah, Dua, cyangwa Dhikr. Guhindura ubwenge buri gihe: Imusaruro y'Nyamukaramu cyangwa Ijoro (Adhkar), Imunirane y'Inamahoro Itanu, Imunirane y'Icyitonderezwa cy'Imana, cyangwa Idomicilo ry'Ubuntu. Zirimo Icyitonderezwa cy'Imana n'Izina ry'Inamahoro.",
+
+  "promptHopeDifficultTimes": "Andika imunirane y'Imana kubyorohereza (Sabr) n'Inyigisho mu mahoro. Ishingiye ku Qur'an, ku Byorohereza bya Nabii, n'Ihanga ry'Imana mu mahoro. Guhindura inzira buri gihe. Zirimo Icyitonderezwa cy'Imana n'Imusaruro ry'Inyigisho z'Imana.",
+
+  "promptForgiveness": "Andika imunirane y'Ubwenge kubyorohereza (Tawbah) n'Ihanga ry'Imana. Ishingiye ku Qur'an, Ihanga ry'Imana, n'Igikorwa cy'Nabi Muhammad. Guhindura insikira: Kugaruka kwa Imana, Iyacu iyacu, Gusana ubupirangire, cyangwa Kwishingira mu Ihanga ry'Imana. Zirimo Icyitonderezwa cy'Imana n'Ikintu gimwe cyawe.",
+
+  "promptLoveCompassion": "Andika imunirane y'Ihanga (Rahmah) n'Ubuntu mu buzima bwa buri munsi. Ishingiye ku Gikorwa cy'Nabi Muhammad, Ihanga ry'Ubwiyunge (Ihsan), n'Inyigisho z'Imana kubyorohereza imbere, abantu b'aho, n'Abakeneye. Zirimo Icyitonderezwa cy'Imana n'Ikintu gato cy'Ubuntu kwakwegura olo.",
+
+  "promptStrengthCourage": "Andika imunirane y'Imbaraga n'Ubuntu y'Imana. Ishingiye ku Byorohereza bya Nabii, Abarozi b'Imana, n'Abantu b'Imana ba gukinga mu mahoro. Guhindura insikira buri gihe: Ubwiyunge mu Imana, Imbaraga mu Namahoro, Amahoro mu mahoro, cyangwa Imbaraga mu bupirangire. Zirimo Icyitonderezwa cy'Imana n'Idomicilo ry'Imana.",
+
+  "promptGratitude": "Andika imunirane y'Ubwenge ku mahoro (Shukr) kwa Imana. Ishingiye ku Qur'an n'Amahoro ya Nabi Muhammad. Guhindura inzira: Ubwenge mu mahoro, Kwishingira mu Mihango ndende, Kumumukiriza Imana mu gitondo, cyangwa Kwishingira mu Nzira y'Imana mu buzima bwa buri munsi. Zirimo Icyitonderezwa cy'Imana n'Igikorwa cy'Ubwenge.",
+
+  "promptPurposeCalling": "Andika imunirane y'Intego y'Ubuzima mu Kubarira Imana n'Ubwiyunge. Ishingiye ku Qur'an, Kubarira andi, n'Gukoresha Ibintu byawe mu Mahoro. Guhindura insikira buri gihe: Kubarira imbere n'Abantu, Guha Isigiro mu Istikhara, Ubuzima mu Ntego, cyangwa Gushaka Intego mu Mulimu. Zirimo Icyitonderezwa cy'Imana n'Ibibazo bibiri b'Imunirane.",
+
+  "promptFamilyRelationships": "Andika imunirane y'Ubwenge ku Ubwiyunge n'Ubwiyunge ishingiye ku Qur'an n'Igikorwa cy'Nabi Muhammad. Guhindura insikira buri gihe: Ubuntu mu Imbere, Ibyorohereza mu Gusangira, Kubarira Ababyeyi, Kurera Abana mu Imana, cyangwa Gutinya Ubwiyunge. Zirimo Icyitonderezwa cy'Imana n'Igikorwa cy'Ubwiyunge.",
+
+  "promptPeaceAnxietyRelief": "Andika imunirane y'Amahoro y'Umutima mu Kukunganira Imana (Dhikr) n'Amahoro mu Mpano ya Imana. Ishingiye ku Qur'an kubyorohereza, Inamahoro, n'Kwishingira mu Mahoro ya Imana. Guhindura ubwiyunge buri gihe n'Icyitonderezwa cy'Imana n'Igikorwa gato cy'Ubwiyunge bwa Imana.",
+
+  "promptWisdomOfJesus": "Andika ubwenge bwa Nabii bushingiye ku Qur'an cyangwa Hadith. Nyongerera nubisobanure nk'igihe Abasomi b'Imana byakunanire. Guhindura insikira: Agaciro, Ibyorohereza, Imibanire, Imana, cyangwa Ubwiyunge bwa buri munsi. Zirimo Icyitonderezwa cy'Imana cyangwa Hadith n'Ikintu kyawe.",
+
+  "promptHumilityCharacter": "Andika imunirane y'Imibanire (Tawadhu) n'Agaciro (Akhlaq). Ishingiye ku Qur'an, Igikorwa cy'Nabi Muhammad, n'Amahoro y'Ubwiyunge bw'Imana. Guhindura insikira: Imibanire mu Ubuyobozi, Kwishingira mu mahoro, Kubarira Andi, cyangwa Kugusha mu Imana. Zirimo Icyitonderezwa cy'Imana n'Igikorwa cy'Imana.",
+
+  "promptOvercomingTemptation": "Andika imunirane y'Imana kunyangira cyangwa Gukingira Injira y'Imana. Ishingiye ku Qur'an, Kukunganira Imana (Dhikr), Inamahoro (Salah), n'Abantu b'Imana ba gukinga mu bupirangire. Guhindura inzira buri gihe. Zirimo Icyitonderezwa cy'Imana n'Igikorwa kimwe kya 24 Amasaha.",
+
+  "promptEveningReflection": "Andika imunirane y'Ijoro y'Imana ishingiye ku Kukunganira Imana y'Ijoro (Adhkar al-Masaa'). Shinga Ubwenge, Imunirane y'Umutima (Muhasabah), n'Amahoro kwa Imana mbere yo kuryama. Zirimo Ibibazo 3-5 by'Imunirane, Idomicilo ry'Ijoro, n'Icyitonderezwa cy'Imana.",
+
+  "wordCount": "{count, plural, one {{count} ijambo} other {{count} amagambo}}",
+
+  "optionsCta": "Ikintu",
+  "newCta": "Gishya",
+  "actionsTitle": "Ni ikintu ki cy'Imana cy'ukora?",
+  "copy": "Kopiya",
+  "share": "Gandika",
+  "close": "Funga",
+  "copiedToast": "Kopiyemo ku kiganiro",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Umwibutso w'iyo gusangira kategori.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Imusaruro y'Imvano" }
+    }
+  },
+
+  "regenerateErrorTitle": "Ntibyakunzwe gusubiza",
+  "regenerateErrorBody": "{error}\n\nWifuza kugerageza ngo?",
+  "@regenerateErrorBody": {
+    "description": "Yerekeza impande zitangiriye.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Impande y'ubutinye" }
+    }
+  },
+
+  "cancelCta": "Kureka",
+  "retryCta": "Gerageza",
+
+  "authTitle": "Kunga ikonti yawe",
+  "continueAsGuest": "Komeza nk'umwiyunge",
+  "signInGoogle": "Injira mu Google",
+  "signInApple": "Injira mu Apple",
+  "signInEmail": "Injira mu Imeli",
+  "upgradeWithApple": "Komeza na Apple",
+  "mustAccept": "Kugira ngo komeze, Wemereranya Amahoro n'Inyigisho z'Ubwiyunge.",
+  "termsLabel": "Ndemereranya Amahoro y'Serivisi",
+  "privacyLabel": "Ndasomye Inyigisho z'Ubwiyunge",
+  "marketingOptIn": "Ndemereranya kwakira Amakuru n'Inzira",
+  "openTerms": "Amahoro y'Serivisi",
+  "openPrivacy": "Inyigisho z'Ubwiyunge",
+
+  "accountSection": "Ikonti",
+  "guestMode": "Ubwiyunge bwa Nta konti",
+  "signedIn": "Injiriye",
+  "upgradeHint": "Bika Imunirane zawe mu Kinini mpuzamahanga mu kunga Ikonti.",
+  "upgradeWithGoogle": "Komeza na Google",
+  "signOut": "Sohoka",
+
+  "snackUpgraded": "Ikonti yagurishije na Google ✅",
+  "snackSignedIn": "Injiriye na Google ✅",
+  "snackSignedOut": "Sohokamo",
+  "snackSignedInApple": "Injiriye na Apple ✅",
+  "snackSignedInGoogle": "Injiriye na Google ✅",
+  "snackUpgradedApple": "Ikonti yagurishije na Apple ✅",
+  "snackUpgradedGoogle": "Ikonti yagurishije na Google ✅",
+
+  "historyTitle": "Imunirane y'Ibisi",
+  "historyOpenCta": "Imunirane y'Ibisi",
+  "historyEmpty": "Nta munirane wabikwa.",
+  "historyDeleteTitle": "Siba Imunirane?",
+  "historyDeleteBody": "Ibi bizasiba icyo cyaheruka mu gihe.",
+  "deleteCta": "Siba",
+
+  "historyButton": "Imunirane y'Ibisi",
+  "historyEmptyTitle": "Nta munirane",
+  "historyEmptyBody": "Kunga icyuma cyambere — Imunirane zawe zabikwa zizacyangana hano.",
+  "historyDelete": "Siba",
+
+  "footerTitle": "Mu Imana, Sabr, n'Ihanga ry'Ubwiyunge.",
+  "footerSubtitle": "Imirira imwe na imwe.",
+  "genericErrorSnack": "Icyo gikora nta gishoboka — Gerageza nyuma igihe.",
+
+  "upgradeAccountCta": "Bika Imunirane zawe mu Kinini mpuzamahanga – Kunga Ikonti",
+  "deleteAccount": "Siba Ikonti",
+  "exportData": "Kunyongeza Idata yacu",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Ikilabeli mbere yo kwerekeza UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Imbaraga z'Imana nzira 🐯\nAI ikeneye igihe mbere y'ikindi…",
+  "rateDailyLimit": "Nta munirane mu Gihe cy'Olo.\nPata Imunirane nshya cyangwa gurishija Barakah.",
+  "rateCreditsExhausted": "Ikoreshe cyose Imunirane zawe.\nRongeza cyangwa gurishija Barakah kugira ngo kumeze.",
+  "rateGraceReflectionsExhausted": "Nta munirane mu Gihe cy'Olo.\nPata Imunirane nshya cyangwa gurishija Barakah.",
+  "rateReflectionsExhausted": "Ikoreshe cyose Imunirane zawe.\nRongeza cyangwa gurishija Barakah kugira ngo kumeze.",
+
+  "blessedDescription": "Barakah yafungura ibintu bihambaye, ibyiciro by'imihango, n'Ikilabeli cy'Ubwiyunge.",
+  "championDescription": "Barakah yafungura ibintu bihambaye, ibyiciro by'imihango, n'Ikilabeli cy'Ubwiyunge.",
+
+  "ratePlanExhausted": "Imunirane zawe nta mu Gihe cy'Olo. Mpano: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Yerekeza impande zitangiriye.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard cyangwa Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Ntibyakunzwe Gusuzuma Imunirane zawe: {message}",
+  "@rateCheckFailed": {
+    "description": "Yerekeza impande zitangiriye.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Impande y'ubutinye" }
+    }
+  },
+
+  "rateCheckGenericError": "Icyo gikora mu Gusuzuma Imunirane zawe.",
+  "aiFallbackGeneric": "Icyo gikora nta gishoboka — Gerageza nyuma igihe.",
+
+  "limitSectionTitle": "Imunirane",
+  "limitTodayLabel": "Gukoresha",
+  "limitCreditsLabel": "Imunirane isabiyemo: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Mpano: {plan}",
+  "@limitPlanLabel": {
+    "description": "Kwerekeza Izina ry'Ubwiyunge bwacu.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard cyangwa Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Gusimba…",
+  "limitLoadingLabelDescription": "Yerekeza Imunirane cabine mu Gusuzuma.",
+
+  "aiLimitTitle": "Imunirane",
+  "aiLimitSubtitle": "Buri Subiza ikoresha Imunirane imwe. Standard irimo Imunirane z'Ibisi. Barakah yafungura ibyiciro bihambaye n'Inyongeza.",
+  "aiLimitProgressLabel": "{used} / {total} Imunirane ikoreshe",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Imunirane",
+  "reflectionsUsageLabel": "Gukoresha",
+  "reflectionsRemainingLabel": "Imunirane isabiyemo: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Mpano: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Kwerekeza Izina ry'Ubwiyunge.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard cyangwa Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Gusimba…",
+  "reflectionsLoadingLabelDescription": "Yerekeza Imunirane cabine mu Gusuzumu.",
+
+  "reflectionsTitle": "Imunirane",
+  "reflectionsSubtitle": "Buri Subiza ikoresha Imunirane imwe. Standard irimo Imunirane z'Ibisi. Barakah yafungura ibyiciro bihambaye n'Inyongeza.",
+  "reflectionsProgressLabel": "{used} / {total} Imunirane ikoreshe",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Siba Ikonti",
+  "settingsDeleteDescription": "Siba Ikonti yawe cyose n'Idata yose y'Ubwiyunge.",
+  "settingsDeleteButtonLabel": "Siba Ikonti yacu",
+  "settingsDeleteDialogTitle": "Siba Ikonti?",
+  "settingsDeleteDialogBody": "Iyi Igikorwa ntiyacyo gitakira.\n\nImunirane zawe cyose n'Ikonti yose zizasibwa.",
+  "settingsDeleteDialogCancel": "Kureka",
+  "settingsDeleteDialogConfirm": "Siba",
+
+  "settingsFreeLimitUsedTitle": "Imunirane z'Ibisi ikoreshe",
+  "settingsFreeLimitUsedDescription": "Imunirane z'Ibisi z'Iki Kinini ikoreshe. Gurishija Barakah cyangwa Rongeza Imunirane kugira ngo kumeze.",
+
+  "settingsStarterReflectionsUsedTitle": "Imunirane z'Ibisi ikoreshe",
+  "settingsStarterReflectionsUsedDescription": "Imunirane z'Ibisi z'Iki Kinini ikoreshe. Gurishija Barakah cyangwa Rongeza Imunirane kugira ngo kumeze.",
+
+  "deviceBoundError": "Iki Kinini kirimo Ikonti y'Indi. Injira mu Ikonti y'Ibambitse.",
+
+  "premiumTitle": "Ubwiyunge bwa Barakah",
+  "premiumSubtitleBasic": "Fungura Ubuzima bwose bwa Nuria.",
+  "premiumSubtitleChampion": "Uri mu Barakah. Ifuzo Imunirane nshya?",
+
+  "premiumCurrentPlan": "Ubwiyunge bwacu: {plan}",
+  "premiumCreditsStatus": "Imunirane: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Igurishijo ntibikora mu Gihe cy'Olo.",
+  "premiumSignInToPurchase": "Injira kugira ngo Rongeza Imunirane cyangwa Fungura Barakah.",
+
+  "premiumRestorePurchases": "Kwirubiriza Igurishijo",
+  "premiumProcessing": "Gukora…",
+  "premiumRestoreHintTitle": "Warigushije Barakah cyangwa Imunirane kuri Iki Kinini cyangwa Indi?",
+  "premiumRestoreHintBody": "Kwirubiriza Igurishijo zawe niba ntibisangira.",
+
+  "premiumBuyCredits200": "Rongeza Imunirane 200",
+  "premiumBuyCredits400": "Rongeza Imunirane 400",
+  "premiumBecomeChampionOneTime": "Gurishija Ubwiyunge bwa Barakah",
+  "premiumChampionHint": "Nk'Umuntu wa Barakah, urashobora Rongeza Imunirane nyaburengeza iyo ukeneye.",
+
+  "premiumUpgradeCta": "Gurishija",
+  "premiumRequiredForCategory": "Iri Cyiciro rihari gusa kuri Abantu ba Barakah. Gurishija mu Inyigisho kugira ngo Fungura.",
+  "premiumBenefitsBasic": "Fungura Barakah kugira ngo Pata Imunirane nyinshi, Fungura Ibyiciro bihambaye, n'Kumeza nta mahoro.",
+  "premiumBenefitsChampion": "Uri mu Barakah. Niba Imunirane zawe nta nyinshi, Rongeza n'umeze nta mahoro.",
+  "premiumButtonBecomeChampion": "Fungura Barakah",
+  "premiumButtonTopup1000": "Rongeza Imunirane 1000",
+  "premiumChampionBadge": "Barakah ikora",
+  "premiumLoadingStore": "Gusimba ibicuruzwa…",
+
+  "blessedTitle": "Ubwiyunge bwa Barakah",
+  "blessedSubtitleGrace": "Fungura Ubuzima bwose bwa Nuria.",
+  "blessedSubtitleBlessed": "Uri mu Barakah. Ifuzo Imunirane nshya?",
+
+  "blessedCurrentPlan": "Ubwiyunge bwacu: {plan}",
+  "blessedReflectionsStatus": "Imunirane: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Igurishijo ntibikora mu Gihe cy'Olo.",
+  "blessedProductNotAvailable": "Ibicuruzwa ntibikora mu Icuruzwa rya Gihe cy'Olo. Gerageza nyuma.",
+  "blessedPurchaseError": "Icyo gikora mu Gurishija. Gerageza ngo.",
+  "blessedSignInToPurchase": "Injira kugira ngo Rongeza Imunirane cyangwa Fungura Barakah.",
+
+  "blessedRestorePurchases": "Kwirubiriza Igurishijo",
+  "blessedProcessing": "Gukora…",
+  "blessedRestoreHintTitle": "Warigushije Barakah cyangwa Imunirane kuri Iki Kinini cyangwa Indi?",
+  "blessedRestoreHintBody": "Kwirubiriza Igurishijo zawe niba ntibisangira.",
+
+  "blessedBuyReflections100": "Rongeza Imunirane 100",
+  "blessedBuyReflections200": "Rongeza Imunirane 200",
+  "blessedBuyReflections400": "Rongeza Imunirane 400",
+  "blessedBecomeBlessedOneTime": "Gurishija Ubwiyunge bwa Barakah",
+  "blessedTopupHint": "Nk'Umuntu wa Barakah, urashobora Rongeza Imunirane nyaburengeza iyo ukeneye.",
+
+  "blessedUpgradeCta": "Gurishija",
+  "blessedRequiredForCategory": "Iri Cyiciro rihari gusa kuri Abantu ba Barakah. Gurishija mu Inyigisho kugira ngo Fungura.",
+  "blessedFeatureLocked": "Fungura Barakah kugira ngo Koresha Ikintu.",
+  "lockedCategoriesHint": "Ibiciro bimwe birahije kuri Abantu ba Barakah. Fungura kugira ngo Sobanura.",
+  "blessedBenefitsGrace": "Fungura Barakah kugira ngo Pata Imunirane nyinshi, Fungura Ibyiciro bihambaye, n'Kumeza nta mahoro.",
+  "blessedBenefitsBlessed": "Uri mu Barakah. Niba Imunirane zawe nta nyinshi, Rongeza n'umeze nta mahoro.",
+  "blessedButtonBecomeBlessed": "Fungura Barakah",
+  "blessedButtonTopup1000": "Rongeza Imunirane 1000",
+  "blessedBadge": "Barakah ikora",
+  "blessedLoadingStore": "Gusimba ibicuruzwa…",
+
+  "freePlanBlockedTitle": "Ikoreshe cyose Imunirane z'Ibisi zawe",
+  "freePlanBlockedBody": "Uri mu Mpano ya Standard mu Imunirane z'Ibisi, n'Ikora cyose. Kugira ngo Kumeza — n'Fungura Ibyiciro bihambaye — Gurishija Barakah.",
+  "freePlanBlockedCtaGoPremium": "Sobanura Ikintu kya Barakah hasi",
+
+  "graceBlockedTitle": "Ikoreshe cyose Imunirane z'Ibisi zawe",
+  "graceBlockedBody": "Uri mu Mpano ya Standard mu Imunirane z'Ibisi, n'Ikora cyose. Kugira ngo Kumeza — n'Fungura Ibyiciro bihambaye — Gurishija Barakah.",
+  "graceBlockedCtaGoBlessed": "Sobanura Ikintu kya Barakah hasi",
+
+  "rateGuestMustSignIn": "Injira kugira ngo Koresha Nuria n'Imunirane zawe.",
+
+  "guestNoCreditsTitle": "Ubwiyunge bwa Nta konti",
+  "guestNoCreditsBody": "Nk'Umwiyunge urashobora Sobanura Serivisi, nkuko Ntiucyona Imunirane. Injira nyuma mu Inyigisho kugira ngo Koresha Imunirane.",
+
+  "guestNoReflectionsTitle": "Ubwiyunge bwa Nta konti",
+  "guestNoReflectionsBody": "Nk'Umwiyunge urashobora Sobanura Serivisi, nkuko Ntiucyona Imunirane. Injira nyuma mu Inyigisho kugira ngo Koresha Imunirane.",
+
+  "guestDialogContinue": "Komeza",
+  "guestDialogLoginInstead": "Injira Kubwanya",
+
+  "optionalLabel": "Ubwiyunge (ntiburasikirwa)",
+
+  "accountDeleteSuccessTitle": "Ikonti yasibwe",
+  "accountDeleteSuccessBody": "Ikonti yawe n'Idata yose y'Ubwiyunge yasibwe mushuri.",
+  "accountDeleteSuccessClose": "Funga",
+  "accountDeleteErrorTitle": "Ntibyakunzwe Gusiba Ikonti",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Kwirubiriza Ubunyamazi kureka. Injira ngo kumuryange n'Gerageza Gusiba.",
+  "accountDeleteReauthRequired": "Gusiba Ikonti rifuza Injira y'Ibisi. Sohoka, Injira ngo, n'Gerageza Gusiba.",
+  "settingsDeletePermanentWarning": "Iyi Igikorwa ntiyacyo gitakira. Idata yose y'Ubwiyunge bwawe izasibwa.",
+
+  "dailyGraceTitle": "Imusaruro y'Imvano",
+  "dailyGraceScriptureLabel": "ICYITONDEREZWA CY'ULO",
+  "dailyGraceSaintLabel": "UMUNTU W'UBWIYUNGE W'ICYUMWERU",
+  "dailyGraceReflectionLabel": "IMUNIRANE Y'IJORO",
+  "dailyGraceCopiedToast": "Icyitonderezwa kopiyemo ku kiganiro",
+
+  "dailyScripture0Text": "Umuntu w'Imana arashobora kubanikeza mu Isivu n'Amajyaruguru, mu Kifo cy'Ubwiyunge hafi y'Imana Nyamahoro.",
+  "dailyScripture0Ref": "Qur'an 54:54-55",
+  "dailyScripture1Text": "N'Ntabwo twakumenya ngo kworeka gusa Imana nzira y'Ubwiyunge kwa Isi yose.",
+  "dailyScripture1Ref": "Qur'an 21:107",
+  "dailyScripture2Text": "Imana ntiyari Igihugu cy'Ubwiyunge? Ariko Imana cyose iguhiro cyangwa Andi.",
+  "dailyScripture2Ref": "Qur'an 39:36",
+  "dailyScripture3Text": "Mahoro ari yo ubwiyunge: Icyo cyawe no Imana Ica. Imana yibimerire, ariko wowe ntiyimerire.",
+  "dailyScripture3Ref": "Qur'an 2:216",
+  "dailyScripture4Text": "Imana arimo Abantu ba Sabr.",
+  "dailyScripture4Ref": "Qur'an 2:153",
+  "dailyScripture5Text": "Noneho kukunganira Imana, Nanjye Nzakukunganira. N'Kwishingira, n'Kutajijisa.",
+  "dailyScripture5Ref": "Qur'an 2:152",
+  "dailyScripture6Text": "Imana Nyamahoro, Umuntu Wizewe kuri Imana ni ubwiyunge bwawe.",
+  "dailyScripture6Ref": "Qur'an 49:13",
+  "dailyScripture7Text": "N'Imana yacu iraba ibarikisha kuvuga itamari Ariki, n'Kwishingira Ababyeyi.",
+  "dailyScripture7Ref": "Qur'an 17:23",
+  "dailyScripture8Text": "Kwiyokubwira, ibuguzi rihitanira amahoro.",
+  "dailyScripture8Ref": "Qur'an 94:6",
+  "dailyScripture9Text": "N'Ari Wanyu Aho Mwahari. N'Imana Nyamahoro yabonye Icyo gikora cyacu.",
+  "dailyScripture9Ref": "Qur'an 57:4",
+  "dailyScripture10Text": "Imana ntagufika Umuntu imishinga y'ubuyago bwacu.",
+  "dailyScripture10Ref": "Qur'an 2:286",
+  "dailyScripture11Text": "N'Ujijizira Imana, Imana ni Igihugu cyawe.",
+  "dailyScripture11Ref": "Qur'an 65:3",
+  "dailyScripture12Text": "Ihanga ryacu ryatanze Icyo cyose.",
+  "dailyScripture12Ref": "Qur'an 7:156",
+  "dailyScripture13Text": "N'Iyo Abajijija bawe babanzirikiza Imana — Nanjye Nari hafi. Nsubira Uw'ubwiyunge iyo ayama.",
+  "dailyScripture13Ref": "Qur'an 2:186",
+  "dailyScripture14Text": "Ujijiza Ubwiyunge, mubyoba cyangwa mubyikazi, mu Imana — Twazamushoboza Ubuzima Bwacu.",
+  "dailyScripture14Ref": "Qur'an 16:97",
+  "dailyScripture15Text": "Imana ntiyahindura Ubunaruko bw'Abantu kugira ngo Bahindure Icyo cya Mu Bwitso bwabo.",
+  "dailyScripture15Ref": "Qur'an 13:11",
+  "dailyScripture16Text": "Nkuko Ntugire nta Mahoro, n'Ntuhira, ariko Muzakweza niba Muri Abantu ba Imana.",
+  "dailyScripture16Ref": "Qur'an 3:139",
+  "dailyScripture17Text": "O Abajijija bacu baakoreye Ubwiyunge, Ntumahoro mu Ihanga ry'Imana. Imana ireba icyo Cyose.",
+  "dailyScripture17Ref": "Qur'an 39:53",
+  "dailyScripture18Text": "N'Ujijizira Imana — Imana azamushoboza Inzira, n'Azamukira Aho atamanya.",
+  "dailyScripture18Ref": "Qur'an 65:2-3",
+  "dailyScripture19Text": "N'Nta gwiyokubwira mu Ihanga ry'Imana.",
+  "dailyScripture19Ref": "Qur'an 12:87",
+  "dailyScripture20Text": "N'Twateje Qur'an ngo ibwire. Noneho Ni Nde ujijizira?",
+  "dailyScripture20Ref": "Qur'an 54:17",
+  "dailyScripture21Text": "N'Yataguhakana akakya, akakwita.",
+  "dailyScripture21Ref": "Qur'an 93:7",
+  "dailyScripture22Text": "N'Imana yacu iraba Yama kwa Nanjye, Nzasubira.",
+  "dailyScripture22Ref": "Qur'an 40:60",
+  "dailyScripture23Text": "N'Twahakana Abaana ba Adamu.",
+  "dailyScripture23Ref": "Qur'an 17:70",
+  "dailyScripture24Text": "N'Gushaka Imbaraga mu Sabr n'Inamahoro.",
+  "dailyScripture24Ref": "Qur'an 2:45",
+  "dailyScripture25Text": "Ujijiza Ubwiyunge Bwa Atomi, Azabona.",
+  "dailyScripture25Ref": "Qur'an 99:7",
+  "dailyScripture26Text": "Imana Igihugu cy'Ubwiyunge nari Hafi.",
+  "dailyScripture26Ref": "Qur'an 2:214",
+  "dailyScripture27Text": "N'Ujijizira — Ubwiyunge bwawe ni Ubwiyunge bwawe.",
+  "dailyScripture27Ref": "Qur'an 31:12",
+
+  "dailyReflection0": "Iyo Ijoro rihiza, Sobanura Umunsi Umwe aho Ihanga ry'Imana ryagezeyo.",
+  "dailyReflection1": "Letani kwa Imana Icyo cyawe cy'Umutima mu Munsi.",
+  "dailyReflection2": "Kurira Imihango Imwe y'Olo, n'Kwishingira kwa Imana.",
+  "dailyReflection3": "Kuryama mu Biziranye bw'Imana Nyamahoro.",
+  "dailyReflection4": "Sobanura Aho wabimerire Kwiyokubwira n'Ubuntu.",
+  "dailyReflection5": "Kwegereza Icyo Utashobora Gusimba n'Kwishingira Imana.",
+  "dailyReflection6": "Iyo Ijoro rihiza, Pata Amahoro mu Kukunganira Imana.",
+  "dailyReflection7": "Sobanura Nk'ihe wabarikisha Inamahoro zawe Olo.",
+  "dailyReflection8": "Sobanura Umunsi Umwe aho Sabr yabarikisha.",
+  "dailyReflection9": "Gusaba Imbabazi mu Mahoro y'Olo — Ihanga ry'Imana ntiyaripfa.",
+  "dailyReflection10": "Kirira Umuntu Umwe wabarikisha Olo, n'Gusaba kwa Imana.",
+  "dailyReflection11": "Sobanura: Ni Ikintu ki Imana yatanze Olo Ntagusaza?",
+  "dailyReflection12": "Sobanura Icyitonderezwa cy'Imana Giriko Aho Wari.",
+  "dailyReflection13": "Sobanura Nk'ihe Wakoresha Umunsi n'Fata Olo kwa Imana.",
+  "dailyReflection14": "Ryama Twazamanya Icyo gikora cy'Olo, Imana Yari Wanye.",
+  "dailyReflection15": "Sobanura Nk'ihe Wabarira Imbere cyangwa Abantu Olo.",
+  "dailyReflection16": "Iyo Ijoro rihiza, Gusaba Tawbah — Imana ireba Abantu ba Tawbah.",
+  "dailyReflection17": "Sobanura Ubuntu bwa Olo bwa Imana.",
+  "dailyReflection18": "Sobanura Icyo wabuboneye Olo n'Nk'ihe byakukwiza Imana.",
+  "dailyReflection19": "Deka Mahoro y'Olo kwa Imana — Imana igikurura Icyo Utashobora.",
+  "dailyReflection20": "Sobanura Umwanya Umwe Olo Ushobora Kubwina, n'Jifata Mahoro.",
+  "dailyReflection21": "Gusaba kwa Imana Abantu ba Mahoro — Idomicilo ryacu ni Ihango.",
+  "dailyReflection22": "Kurira Ihango Rimwe Ryamahoro y'Olo Rshakura, n'Kwishingira Imana.",
+  "dailyReflection23": "Sobanura Intego zawe z'Olo — Zarimo kwa Imana? Olo gusubira.",
+  "dailyReflection24": "Iyo Ijoro rihiza, Shukiza Ubwiyunge bw'Imana mu Mahoro.",
+  "dailyReflection25": "Sobanura Aho wahamagara Imbaraga Olo — Imana ni Imbaraga.",
+  "dailyReflection26": "Kirira Ikintu Cyawe Cyo Gutukura Olo Gitakorwa Ibisonga.",
+  "dailyReflection27": "Iyo Guriguhawira, Deka Umutima wawe kwa Imana — Imana ni Umwirinda.",
+
+  "dailyRoleModel0": "Nabi Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Nabi Ibrahim (AS)",
+  "dailyRoleModel44": "Nabi Musa (AS)",
+  "dailyRoleModel45": "Nabi Isa (AS)",
+  "dailyRoleModel46": "Nabi Yusuf (AS)",
+  "dailyRoleModel47": "Nabi Dawud (AS)",
+  "dailyRoleModel48": "Nabi Sulayman (AS)",
+  "dailyRoleModel49": "Nabi Nuh (AS)",
+  "dailyRoleModel50": "Nabi Yunus (AS)",
+  "dailyRoleModel51": "Nabi Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Emeza kwa Nuria Gukoreshamu Ikibanza cyo Qibla n'Igihe cy'Inamahoro",
+  "locationConsentHint": "Gukoresha gusa kwa Ikintu. Ikibanza cawe ntigasangirwa.",
+
+  "askPageTitle": "Ikibazo kwa Nuria",
+  "askPageDescription": "Kibazo Imana, Inamahoro, Ubuzima, cyangwa Ubwiyunge bwa Imana, n'Subiza Ishingiye ku Qur'an n'Sunnah.",
+  "askPageInputHint": "Andika Ikibazo cawe hano…",
+  "askPageSubmitCta": "Kibazo",
+  "askPageInputEmptyError": "Andika Ikibazo mbere.",
+  "askResultYourQuestion": "Ikibazo cawe",
+
+  "guidancePageTitle": "Inamahoro n'Inyigisho",
+  "qiblaFacingMecca": "Kugabanya Makkah",
+  "qiblaCompassInstruction": "Guhyindura Kinini cawe kugira ngo Umunyu w'or Ugiye mu Ijuru.\nIyo Nzira iyoboye Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Ikirango cya GPS nti Kigira. Ruka uba hanze n'Gerageza ngo.",
+  "qiblaRetry": "Gerageza",
+  "qiblaTitle": "Imibanire ya Qibla",
+  "qiblaDistanceLabel": "{km} km kwa Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Ikibanza kibarwa",
+  "qiblaLocationNeededBody": "Emeza Ikibanza kugira ngo Nuria yafasha Inzira y'Kaaba mu Makkah Aho Wari.",
+  "qiblaOpenSettings": "Fungura Inyigisho",
+  "qiblaCompassLoading": "Gushaka Umwanya wawe…",
+  "qiblaTowardMecca": "Kugabanya Makkah",
+
+  "prayerTimesTitle": "Igihe cy'Inamahoro",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Ikibanza kibarwa",
+  "prayerTimesLocationNeededBody": "Emeza Ikibanza kugira ngo Nuria Ifasha Igihe cy'Inamahoro y'Umujyi wawe.",
+  "prayerTimesNextLabel": "Igihe",
+  "prayerTimesDoneLabel": "Byarangije",
+
+  "monthlyPrayerTimesTitle": "Igihe cy'Inamahoro cy'Ukwezi",
+  "monthlyPrayerTimesViewButton": "Sobanura Ukwezi Kwose",
+  "monthlyPrayerTimesNextMonth": "Ukwezi Gukikira",
+  "monthlyPrayerTimesDayHeader": "Umunsi",
+
+  "sharePrayerTimes": "Gandika Igihe cy'Inamahoro",
+
+  "prayerNotificationsTitle": "Imusaruro y'Inamahoro",
+  "prayerNotificationsDescription": "Pata Imusaruro Ndende Mbere y'Igihe cy'Inamahoro kugira ngo Ubwiyunge bw'Imana.",
+  "prayerNotificationsEnable": "Fungura Imusaruro y'Inamahoro",
+  "prayerNotificationsOpenSettings": "Fungura Inyigisho z'Imusaruro",
+  "prayerNotificationsDenied": "Imusaruro iramenywe",
+  "prayerNotificationsDeniedHint": "Ruka Inyigisho n'Emeza Imusaruro kwa Nuria kugira ngo Pata Imusaruro y'Inamahoro.",
+
+  "notificationsConsentLabel": "Emeza Imusaruro y'Igihe cy'Inamahoro",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Inamahoro y'Umvano",
+  "prayerNotifBodyFajr": "Inamahoro nziza ni Fajr. Kurika, Guharira, n'Imirira kwa Imana.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Inamahoro y'Ijoro",
+  "prayerNotifBodyDhuhr": "Hagarika Munsi wawe n'Kugaruka kwa Imana. Igihe cy'Dhuhr kiraje.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Inamahoro y'Igipimo",
+  "prayerNotifBodyAsr": "Bika Inamahoro Nzira. Igihe cy'Asr kiraje.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Inamahoro y'Ifunguro",
+  "prayerNotifBodyMaghrib": "Izuba ryarahize. Garira Maghrib n'Kwishingira Imana.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Inamahoro y'Ijoro",
+  "prayerNotifBodyIsha": "Rasiza Munsi wawe mu Kukunganira Imana. Hayya alal falah.",
+
+  "outOfReflectionsBannerText": "Ikoreshe Imunirane zawe cyose",
+  "outOfReflectionsBannerCta": "Pata andi",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Gusiga Ipfo kugira ngo Guheza",
+  "dhikrResetButton": "Kugarukiza",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Wikoreshe 99 Imunirane z'Imana. Ngikazo Imana ku Mutima wawe.",
+
+  "disclaimerTitle": "Kubyobojeire mu Inyigisho y'Iki App",
+  "disclaimerBody": "Nuria itanga Imunirane z'Imana, Imusaruro, n'Ikintu cy'Ubuntu kugira ngo Mbaje Ubwiyunge bw'Imana.\n\nNuria ntitahinduza Ubwiyunge bw'Imana.\nNta subiza y'Iki App ntiyacyo gitanda kw'Abadinamini ba Imana. Niba ufuza Ikibazo ku Amahoro ya Imana cyangwa Ubwiyunge bwawe, Gushaka Umuntu w'Imana mu Karamu yawe.\n\nKi App ntikora Amahoro ya Imana.\nNuria ntiheza Icyo gikora cy'Ubwiyunge Bw'Imana. Icyo cyose Hano ntibera Fatwa cyangwa Amahoro ya Imana.\n\nUbwiyunge bwa Imana bushyikiranye.\nImana irimo Ibyiciro Byinshi, Ibwiyunge Byinshi, n'Ibishiranira bya Imana. Ikintu Hano bushyikira Inzira z'Umwanya n'Imana ntibera Ibyiciro Byose.\n\nKaramu n'Ubwiyunge.\nKi App iraba Ibwiyunge bw'Imana Karamu n'Imami zacu. Ibwiyunge bw'Imana rirakomerezamn Gufasha kandi Kuruta Imana mu Karamu zawe.",
+  "disclaimerClose": "Niyibigeneye",
+  "disclaimerInfoTooltip": "Kubyobojeire mu Inyigisho y'Iki App",
+  "disclaimerSettingsSubtitle": "Kwa Ikintu cy'Ubwiyunge. Gusiga kugira Ikintu cyose.",
+  "disclaimerSectionHeader": "Disclaimer y'Inyigisho"
+}

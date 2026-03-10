@@ -1,0 +1,50 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ── User history ────────────────────────────────────────────────────────
+    // Each signed-in user can read/write/delete their own history posts.
+    match /user_history/{uid}/posts/{postId} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+
+    // ── Users (profile + usage/plan) ────────────────────────────────────────
+    // Client can read their own doc (for offline fallback).
+    // Client can write profile/consent fields (locale, email, consent timestamps).
+    // Client CANNOT write sensitive fields: plan, credits, reflections, testBlessed.
+    // Cloud Functions use admin SDK and bypass these rules entirely.
+    match /users/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+
+      // New document: allow if it contains no sensitive fields
+      allow create: if request.auth != null
+        && request.auth.uid == uid
+        && !request.resource.data.keys().hasAny([
+            'plan', 'creditsTotal', 'creditsUsed',
+            'reflectionsTotal', 'reflectionsUsed', 'testBlessed'
+          ]);
+
+      // Existing document update: allow if the diff doesn't touch sensitive fields
+      allow update: if request.auth != null
+        && request.auth.uid == uid
+        && !request.resource.data.diff(resource.data).affectedKeys().hasAny([
+            'plan', 'creditsTotal', 'creditsUsed',
+            'reflectionsTotal', 'reflectionsUsed', 'testBlessed'
+          ]);
+    }
+
+    // ── IAP entitlements ────────────────────────────────────────────────────
+    // Client reads to check Blessed status; writes are Cloud-Functions only.
+    match /iap_entitlements/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if false;
+    }
+
+    // ── Everything else ─────────────────────────────────────────────────────
+    // device_bindings, device_starters, usage_idempotency, iap_transactions
+    // are written exclusively by Cloud Functions (admin SDK bypasses rules).
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dart analyze:*)",
+      "Bash(adb shell:*)",
+      "Bash(firebase deploy --only firestore)",
+      "WebFetch(domain:nuria.oakdev.app)",
+      "Bash(adb logcat -d -s DebugAppCheckProvider)",
+      "Bash(adb logcat -d)",
+      "Bash(dart run flutter_native_splash:create)",
+      "Bash(for key in \"appTitle\" \"planGrace\" \"planBlessed\")",
+      "Bash(do echo \"=== $key ===\")",
+      "Bash(grep -rL \"\"\"$key\"\"\" *.arb)",
+      "Bash(done)",
+      "Bash(python3 -c \":*)",
+      "Bash(node -e \":*)",
+      "Bash(flutter gen-l10n)",
+      "Bash(flutter analyze lib/features/chat/presentation/screens/category_screen.dart)",
+      "Bash(xargs grep -l -i \"nuria\")",
+      "Bash(firebase projects:list)",
+      "Bash(firebase apps:sdkconfig ios --project nuria-mobile-app)",
+      "Bash(firebase deploy --only functions)",
+      "Bash(python:*)"
+    ]
+  }
+}
+

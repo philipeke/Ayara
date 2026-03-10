@@ -1,0 +1,585 @@
+{
+  "@@locale": "so",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Dooro luqaddaada",
+  "languageSelectSub": "Waxaad badali kartaa tan kadib Xogga",
+  "actionContinue": "Sii wad",
+  "languageSuggestedHeader": "Lagu talinayo",
+  "languageAllHeader": "Dhammaan luqadaha",
+  "languageSuggestedBadge": "Lagu talinayo",
+  "languageSearchHint": "Raadi…",
+
+  "planGrace": "Standard",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Hagga Maalineed",
+  "categoryFaithTrust": "Imaan & Isku duwi",
+  "categoryPrayerReflection": "Fikirka Salah",
+  "categoryHopeDifficultTimes": "Sabur & Rajaa",
+  "categoryForgiveness": "Isku diin Tawbah",
+  "categoryLoveCompassion": "Naxariista & Raaxo",
+  "categoryStrengthCourage": "Xooga Imaan",
+  "categoryGratitude": "Qalbiga Shukuur",
+  "categoryPurposeCalling": "Ujeedka Nolosha",
+  "categoryFamilyRelationships": "Xidhiidhka Qoyska",
+  "categoryPeaceAnxietyRelief": "Nabad Dakhali",
+  "categoryWisdomOfJesus": "Xigmada Nabiyiin",
+  "categoryHumilityCharacter": "Danbi Waafaqsan",
+  "categoryOvercomingTemptation": "Jida Shaydaan",
+  "categoryEveningReflection": "Dhikrka Habeen",
+  "categoryCustom": "Ka Fiirsashada Shaqsiga",
+  "dhikrMeaningSubhanallah": "Mahadnaq Allah",
+  "dhikrMeaningAlhamdulillah": "Dhammaan amaan waa Allah",
+  "dhikrMeaningAllahuAkbar": "Allah waa ugu weyn",
+  "quranVerseHeartAtRest": "Runtii, xusuusta Allah ayaa qalbiyada helaya nasasho.",
+
+  "promptHint": "Taabo qaybta si aad u hesho hagga Islaamka",
+
+  "currentLanguage": "Luqadda hadda",
+  "settingsLanguage": "Xogga luqadda",
+  "settingsTitle": "Xogga",
+  "chooseLanguage": "Dooro luqaddaada",
+  "continueCta": "Sii wad",
+
+  "promptDailyGuidance": "Qor hagga maalineed oo gaaban, oo habeynisan oo saldhiga lagu taas yahay Imaan Sunni - saldhiga lagu taas yahay Qur'aanka, Hadithka, iyo Barashada Nabiga Muhammad. Dooro xalqad cusub: sitadeynta ka yimid Akhlaaqa Islaamka, xaqiiqad ka yimid Sunnah, xigmada ka yimid Sahaabada Nabiga, ama soofiyinniyeed Islaamka. Ku dar Ayah mid ka Qur'aanka (Suurah:Ayah) iyo walaacda 1–2 jumlood si aad u dhigato maalinta. Si xiyaareed ku xidh kalendar Islaamka ama taarikh mahadsanid haddii laga yaabaa.",
+
+  "promptFaithTrust": "Qor walaaca gaaban Islaamka oo ku saabsan Imaan (imaan) iyo isku duwi Allah (Tawakkul). Saldhiga lagu taas yahay Qur'aanka, tusaale Nabiga Muhammad, iyo imaan Sahaabada. Isbadal qeexida maal waliba: isku duwi Allah dhaawaca, awood ilaah, sabur burburka, ama iska dhalinta joogsiga. Ku dar Ayah mid ka Qur'aanka iyo tallada hal ah oo maanta lagu talinayo ka yimid hibaada ruhiga Islaamka.",
+
+  "promptPrayerReflection": "Qor walaaca gaaban Islaamka oo saldhiga lagu taas yahay Salah, Dua, ama Dhikr. Isbadal qaab maal waliba: xusuusta subax ama habeen (Adhkar), walaac ku saabsan salado shan maalineed, tacliin Ayah Qur'aanka, ama dua qalbiga leh. Ku dar Ayah mid ka Qur'aanka iyo ogow gaaban ee qaabka dua ee loo isticmaalay.",
+
+  "promptHopeDifficultTimes": "Qor walaaca Islaamka oo ku saabsan sabur (Sabr) iyo rajaa burburka. Iska yeedh barashada Qur'aanka oo ku saabsan imtixaanka, iska dhalinta Nabiyiin, iyo naxariista Allah burburkiisa. Isbadal xalqadda maal waliba. Ku dar Ayah mid ka Qur'aanka iyo muuqaal cajiib ka yimid hiddaha Islaamka.",
+
+  "promptForgiveness": "Qor walaaca caqli leh Islaamka oo ku saabsan doonista cafis (Tawbah) iyo naxariistaaha Allah. Iska yeedh barashada Qur'aanka oo ku saabsan tawbah, raaxada Allah, iyo tusaale cafiska oo ka yimid Nabiga Muhammad. Isbadal qeexida: dib u celinta Allah, cafinta kale, bogaadinka xidhiidhka, ama imaan naxariista Allah cafinta dhawr. Ku dar Ayah mid ka Qur'aanka iyo tallada hal ah oo habeynisan.",
+
+  "promptLoveCompassion": "Qor walaaca gaaban Islaamka oo ku saabsan naxariista (Rahmah) iyo raaxada nolosha maalineed. Iska yeedh tusaale Nabiga Muhammad, aqoonka Ihsan (wanaag), iyo barashada Islaamka oo ku saabsan caalaamin qoysadda, deriska, iyo kuwa laybaabo. Ku dar Ayah mid ka Qur'aanka iyo amal yar oo raaxo ah si aad maanta u dhigato.",
+
+  "promptStrengthCourage": "Qor walaaca Islaamka oo ku saabsan xooga imaan iyo garashadiisa. Iska yeedh tusaale Nabiyiin, umada Musliminta ee hore, iyo mudahatada joogsiga burburka. Isbadal qeexida maal waliba: garashadda imaan, xooga salah, isku duwi Allah burburka, ama iska dhalinta burburka. Ku dar Ayah mid ka Qur'aanka iyo du'a yar ama erayga xusuusta.",
+
+  "promptGratitude": "Qor walaaca Islaamka oo ku saabsan shukuur (Shukr) Allah. Saldhiga lagu taas yahay barashada Qur'aanka iyo hiddaha Nabiga. Isbadal muuqaalka: shukuur burburka, ammaanta shukuuraha yaryar, bilaabinta subaca leh ammaanta Allah, ama aqoonta hagga Allah nolosha maalineed. Ku dar Ayah mid ka Qur'aanka iyo walaaca shukuur.",
+
+  "promptPurposeCalling": "Qor walaaca Islaamka oo ku saabsan ujeedka nolosha: ibadada Allah iyo noolosha habeynisan. Iska yeedh barashada Qur'aanka oo ku saabsan ujeedka, adeega qoysadda iyo bulshada, iyo isticmaalka hantida aad leedahay wanaagga. Isbadal qeexida maal waliba: adeega qoysadda iyo bulshada, doona u raadsida Allah (Istikhara), nolol niyad leh, ama imaan ujeedka shaqada caadiga. Ku dar Ayah mid ka Qur'aanka iyo su'aal laba ah oo walaaca.",
+
+  "promptFamilyRelationships": "Qor hagga caqli leh Islaamka oo ku saabsan qoysadda iyo xidhiidhka oo saldhiga lagu taas yahay Qur'aanka iyo tusaale Nabiga Muhammad. Isbadal qeexida maal waliba: caalaamin qoysadda, sabur dhaawaca, laybaabinta waalidda, korista carruur imaan, ama taageera guurka. Ku dar Ayah mid ka Qur'aanka iyo walaaca xidhiidhka si aad u dhigato.",
+
+  "promptPeaceAnxietyRelief": "Qor walaaca caalaami Islaamka oo ku saabsan nabad dakhali dhexdhexaad dhikrka Allah (Dhikr) iyo isku duwi nidaamkaas. Iska yeedh barashada Qur'aanka oo ku saabsan nafsiga caalaami, salah, iyo is-gacan taal nidaamka Allah. Isbadal qaabka maal waliba iyo Ayah mid ka Qur'aanka iyo walaaca gaaban oo hiddaha Islaamka.",
+
+  "promptWisdomOfJesus": "Qor xigmad yar ka yimid Nabiyiin sidii lagu baro Islaamka. Iska yeedh Qur'aanka ama Hadithka iyo ogow gaaban ee akhriyeyaashidu u fahmi karaan. Isbadal qeexida maal waliba: danbi, sabur, danbi waafaqsan, imaan, ama walaaca maalineed. Ku dar Ayah Qur'aanka ama reference Hadith iyo isticmaal walaaca.",
+
+  "promptHumilityCharacter": "Qor walaaca Islaamka oo ku saabsan danbi (Tawadhu) iyo danbi waafaqsan (Akhlaq). Iska yeedh barashada Qur'aanka, tusaale Nabiga Muhammad, iyo hiddaha Islaamka oo danbi waafaqsan. Isbadal qeexida: danbi hogaaminta, xiri khalad, eegista kale haybad leh, ama hormarka ruhiga. Ku dar Ayah mid ka Qur'aanka iyo caroor si aad isticmaasho.",
+
+  "promptOvercomingTemptation": "Qor walaaca Islaamka oo ku saabsan jida shaydaan iyo jooga jid toosan. Iska yeedh hagga Qur'aanka, xusuusta Allah (Dhikr), salah (Salah), iyo tusaalaha mudahatada lagu jidda. Isbadal muuqaalka maal waliba. Ku dar Ayah mid ka Qur'aanka iyo tallada shaqada 24 saacadood.",
+
+  "promptEveningReflection": "Qor walaaca caalaami Islaamka oo saldhiga lagu taas yahay hiddaha habeen xusuusta (Adhkar al-Masaa'). Ku dabaaqo shukuur, walaaca niyad (Muhasabah), iyo isku duwi Allah kahor oday. Ku dar 3–5 su'aal gaaban oo walaaca oo ku saabsan maalinta, du'a gaaban oo xitmad, iyo Ayah mid ka Qur'aanka.",
+
+  "wordCount": "{count, plural, one {{count} eray} other {{count} erayad}}",
+
+  "optionsCta": "Khaliyad",
+  "newCta": "Cusub",
+  "actionsTitle": "Maxaad samayn jeclid?",
+  "copy": "Koobee",
+  "share": "Qaybso",
+  "close": "Xir",
+  "copiedToast": "Koobeyay clipboard-ka",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Daily Guidance" }
+    }
+  },
+
+  "regenerateErrorTitle": "Uma awood in jawaab cusub",
+  "regenerateErrorBody": "{error}\n\nWaxaad doonaysaa inaad tiisid mar kale?",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Network error" }
+    }
+  },
+
+  "cancelCta": "Jooji",
+  "retryCta": "Tiis mar kale",
+
+  "authTitle": "Abuur koontadaada",
+  "continueAsGuest": "Sii wad iska duuduuban",
+  "signInGoogle": "Ku soo gal Google",
+  "signInApple": "Ku soo gal Apple",
+  "signInEmail": "Ku soo gal Email",
+  "upgradeWithApple": "Sii wad Apple",
+  "mustAccept": "Waa inaad aqbashid Shartiyada iyo aad ogaato Siyasadda Gaarka ah.",
+  "termsLabel": "Waxaan aqbadaa Shartiyada Adeegga",
+  "privacyLabel": "Waxaan akhriyey Siyasadda Gaarka ah",
+  "marketingOptIn": "Waxaan rali nahay inaan helyo wararka iyo espesyal",
+  "openTerms": "Shartiyada Adeegga",
+  "openPrivacy": "Siyasadda Gaarka ah",
+
+  "accountSection": "Koonta",
+  "guestMode": "Mode duuduuban",
+  "signedIn": "Ku soo gal",
+  "upgradeHint": "Dib u heli walaacaadada aalada kaliif oo abuur koonta.",
+  "upgradeWithGoogle": "Sii wad Google",
+  "signOut": "Ka bax",
+
+  "snackUpgraded": "Koonta waa la upgraydeeyay Google ✅",
+  "snackSignedIn": "Ku soo gal Google ✅",
+  "snackSignedOut": "Ka bax",
+  "snackSignedInApple": "Ku soo gal Apple ✅",
+  "snackSignedInGoogle": "Ku soo gal Google ✅",
+  "snackUpgradedApple": "Koonta waa la upgraydeeyay Apple ✅",
+  "snackUpgradedGoogle": "Koonta waa la upgraydeeyay Google ✅",
+
+  "historyTitle": "Walaacada hore",
+  "historyOpenCta": "Walaacada hore",
+  "historyEmpty": "Walaaca la kaydiyey ma jiraan.",
+  "historyDeleteTitle": "Tirtir walaaca?",
+  "historyDeleteBody": "Tani waxay si joogto ah u tirtirtaa waxyaabaha la doortay.",
+  "deleteCta": "Tirtir",
+
+  "historyButton": "Walaacada Hore",
+  "historyEmptyTitle": "Walaaca ma jiraan",
+  "historyEmptyBody": "Samee wax hore — waxyaabaha la kaydiyey ayaa halkan ku soo baxaya.",
+  "historyDelete": "Tirtir",
+
+  "footerTitle": "Oo Imaan, Sabur iyo Rahmah.",
+  "footerSubtitle": "Tillabo hal waliba.",
+  "genericErrorSnack": "Wax taasi meydhan - fadlan tiis markale kaddib dhaacda.",
+
+  "upgradeAccountCta": "Dib u heli walaacaadada aalada kaliif - abuur koonta",
+  "deleteAccount": "Tirtir koonta",
+  "exportData": "Soo saari qoraalka",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Raac habka 🐯\nAI-ka waa inay dhaacdo intii ay dhammaatay…",
+  "rateDailyLimit": "Walaaca waa la dhammeyay hadda.\nHelo walaaca intar ah ama upgraydi Barakah.",
+  "rateCreditsExhausted": "Walaacaadada oo dhan waa la isticmaalay.\nBargee intar ah ama upgraydi Barakah si aad sii waadata.",
+  "rateGraceReflectionsExhausted": "Walaaca waa la dhammeyay hadda.\nHelo walaaca intar ah ama upgraydi Barakah.",
+  "rateReflectionsExhausted": "Walaacaadada oo dhan waa la isticmaalay.\nBargee intar ah ama upgraydi Barakah si aad sii waadata.",
+
+  "blessedDescription": "Barakah-du waxay furaysa waxa khadka aad u akhriy, qaybaha yar, iyo shahaada khaas ah.",
+  "championDescription": "Barakah-du waxay furaysa waxa khadka aad u akhriy, qaybaha yar, iyo shahaada khaas ah.",
+
+  "ratePlanExhausted": "Walaacaadada waa la dammeyay hadda. Nidaam: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard or Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Uma awood in walaaca wax dhaaf: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Network error" }
+    }
+  },
+
+  "rateCheckGenericError": "Wax taasi meydhan markale walaaca wax dhaaf.",
+  "aiFallbackGeneric": "Wax taasi meydhan — fadlan tiis markale kaddib dhaacda.",
+
+  "limitSectionTitle": "Walaaca",
+  "limitTodayLabel": "Isticmaalka",
+  "limitCreditsLabel": "Walaaca intar ah: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Nidaam: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard or Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Lagu barbaarin…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
+
+  "aiLimitTitle": "Walaaca",
+  "aiLimitSubtitle": "Jawaab kasta waxay isticmaashaa 1 walaaca. Standard-ka waxaa ku jira walaaca hore. Barakah-du waxay furaysa qaybaha yar iyo bargada.",
+  "aiLimitProgressLabel": "{used} / {total} walaaca waa la isticmaalay",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Walaaca",
+  "reflectionsUsageLabel": "Isticmaalka",
+  "reflectionsRemainingLabel": "Walaaca intar ah: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Nidaam: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard or Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Lagu barbaarin…",
+  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+
+  "reflectionsTitle": "Walaaca",
+  "reflectionsSubtitle": "Jawaab kasta waxay isticmaashaa 1 walaaca. Standard-ka waxaa ku jira walaaca hore. Barakah-du waxay furaysa qaybaha yar iyo bargada.",
+  "reflectionsProgressLabel": "{used} / {total} walaaca waa la isticmaalay",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Tirtir koonta",
+  "settingsDeleteDescription": "Si joogto ah u tirtir koontadaada iyo walaaca iska xidhiidhsan.",
+  "settingsDeleteButtonLabel": "Tirtir koontayga",
+  "settingsDeleteDialogTitle": "Tirtir koonta?",
+  "settingsDeleteDialogBody": "Qoralkan waa joogto ah iyo uma mahdac.\n\nWalaacaadada oo dhan, history, iyo aqoonka koontada waa la tirtirtaa.",
+  "settingsDeleteDialogCancel": "Jooji",
+  "settingsDeleteDialogConfirm": "Tirtir",
+
+  "settingsFreeLimitUsedTitle": "Walaaca hore oo la isticmaalay",
+  "settingsFreeLimitUsedDescription": "Walaaca hore ee aaladaadaani lagu taas yahayd waa la dhammeyay. Upgraydi Barakah ama bargee walaaca intar ah si aad sii waadata.",
+
+  "settingsStarterReflectionsUsedTitle": "Walaaca hore oo la isticmaalay",
+  "settingsStarterReflectionsUsedDescription": "Walaaca hore ee aaladaadaani lagu taas yahayd waa la dhammeyay. Upgraydi Barakah ama bargee walaaca intar ah si aad sii waadata.",
+
+  "deviceBoundError": "Aaladdanu waa la xidhnay koonta kale. Fadlan ku soo gal koonta asalka ah.",
+
+  "premiumTitle": "Barakah mode",
+  "premiumSubtitleBasic": "Furay noolosha Nuria oo dhan.",
+  "premiumSubtitleChampion": "Adiga waxaad tahay Barakah. Walaaca intar ah miyaad baahan?",
+
+  "premiumCurrentPlan": "Nidaam hadda: {plan}",
+  "premiumCreditsStatus": "Walaaca: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Bargada ayaa hadda joogtaan.",
+  "premiumSignInToPurchase": "Ku soo gal si aad u bargdo walaaca ama furato Barakah.",
+
+  "premiumRestorePurchases": "Dib u dhig bargada",
+  "premiumProcessing": "Lagu hawl galo…",
+  "premiumRestoreHintTitle": "Bargadii Barakah ama walaaca miyaad horey u bargdey aaladdaan ama kale?",
+  "premiumRestoreHintBody": "Dib u dhig bargadaada haddii aanay soo muuqin.",
+
+  "premiumBuyCredits200": "Bargee 200 walaaca",
+  "premiumBuyCredits400": "Bargee 400 walaaca",
+  "premiumBecomeChampionOneTime": "Upgraydi Barakah mode",
+  "premiumChampionHint": "Oo Barakah, waxaad bargee kartaa intar walaaca maalin kasta aad u baahan.",
+
+  "premiumUpgradeCta": "Upgraydi",
+  "premiumRequiredForCategory": "Qaybadaani waxay u taala Barakah-gu. Upgraydi Xogga si aad furato waxa khadka dhan.",
+  "premiumBenefitsBasic": "Furay Barakah si aad helato walaaca intar ah, hesho qaybaha yar, iyo sii wad maalin kasta.",
+  "premiumBenefitsChampion": "Adiga waxaad jirtaa Barakah mode. Haddii aad yar tahay, ku dar walaaca intar ah iyo sii wad kun.",
+  "premiumButtonBecomeChampion": "Furay Barakah",
+  "premiumButtonTopup1000": "Ku dar 1000 walaaca",
+  "premiumChampionBadge": "Barakah shaqali",
+  "premiumLoadingStore": "Lagu barbaarin store…",
+
+  "blessedTitle": "Barakah mode",
+  "blessedSubtitleGrace": "Furay noolosha Nuria oo dhan.",
+  "blessedSubtitleBlessed": "Adiga waxaad tahay Barakah. Walaaca intar ah miyaad baahan?",
+
+  "blessedCurrentPlan": "Nidaam hadda: {plan}",
+  "blessedReflectionsStatus": "Walaaca: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Bargada ayaa hadda joogtaan.",
+  "blessedProductNotAvailable": "Alaab-kaani ma dawo hadda. Fadlan tiis kaddib.",
+  "blessedPurchaseError": "Wax taasi meydhan bargada. Fadlan tiis mar kale.",
+  "blessedSignInToPurchase": "Ku soo gal si aad u bargdo walaaca ama furato Barakah.",
+
+  "blessedRestorePurchases": "Dib u dhig bargada",
+  "blessedProcessing": "Lagu hawl galo…",
+  "blessedRestoreHintTitle": "Bargadii Barakah ama walaaca miyaad horey u bargdey aaladdaan ama kale?",
+  "blessedRestoreHintBody": "Dib u dhig bargadaada haddii aanay soo muuqin.",
+
+  "blessedBuyReflections100": "Ku dar 100 walaaca",
+  "blessedBuyReflections200": "Bargee 200 walaaca",
+  "blessedBuyReflections400": "Bargee 400 walaaca",
+  "blessedBecomeBlessedOneTime": "Upgraydi Barakah",
+  "blessedTopupHint": "Oo Barakah, waxaad bargee kartaa intar walaaca maalin kasta aad u baahan.",
+
+  "blessedUpgradeCta": "Upgraydi",
+  "blessedRequiredForCategory": "Qaybadaani waxay u taala Barakah-gu. Upgraydi Xogga si aad furato waxa khadka dhan.",
+  "blessedFeatureLocked": "Furay Barakah si aad hesho waxyaabahaan.",
+  "lockedCategoriesHint": "Qaybaha intiisa badani waxay u taala Barakah-gu. Furay iyaga si aad hesho walaaca kasta.",
+  "blessedBenefitsGrace": "Furay Barakah si aad helato walaaca intar ah, hesho qaybaha yar, iyo sii wad maalin kasta.",
+  "blessedBenefitsBlessed": "Adiga waxaad jirtaa Barakah mode. Haddii aad yar tahay, ku dar walaaca intar ah iyo sii wad kun.",
+  "blessedButtonBecomeBlessed": "Furay Barakah",
+  "blessedButtonTopup1000": "Ku dar 1000 walaaca",
+  "blessedBadge": "Barakah shaqali",
+  "blessedLoadingStore": "Lagu barbaarin store…",
+
+  "freePlanBlockedTitle": "Walaaca hore waa la dhammeyay",
+  "freePlanBlockedBody": "Adiga waxaad jirtaa Standard nidaam oo walaaca hore, iyo waxaad gaadh qaybta xad. Si aad sii waadata - iyo furato qaybaha yar - upgraydi Barakah.",
+  "freePlanBlockedCtaGoPremium": "Eeg Barakah xulka hoos",
+
+  "graceBlockedTitle": "Walaaca hore waa la dhammeyay",
+  "graceBlockedBody": "Adika waxaad jirtaa Standard nidaam oo walaaca hore, iyo waxaad gaadh qaybta xad. Si aad sii waadata - iyo furato qaybaha yar - upgraydi Barakah.",
+  "graceBlockedCtaGoBlessed": "Eeg Barakah xulka hoos",
+
+  "rateGuestMustSignIn": "Ku soo gal si aad isticmaasho Nuria iyo walaacaadada.",
+
+  "guestNoCreditsTitle": "Mode duuduuban",
+  "guestNoCreditsBody": "Iska duuduuban waxaad hesho kartaa kaydka app-ka, laakiin walaaca ma isticmaashin karno. Ku soo gal kaddib Xogga si aad walaaca isticmaasho iyo bargado.",
+
+  "guestNoReflectionsTitle": "Mode duuduuban",
+  "guestNoReflectionsBody": "Iska duuduuban waxaad hesho kartaa kaydka app-ka, laakiin walaaca ma isticmaashin karno. Ku soo gal kaddib Xogga si aad walaaca isticmaasho iyo bargado.",
+
+  "guestDialogContinue": "Sii wad",
+  "guestDialogLoginInstead": "Ku soo gal halkaa",
+
+  "optionalLabel": "lama filaan",
+
+  "accountDeleteSuccessTitle": "Koonta waa la tiray",
+  "accountDeleteSuccessBody": "Koontadaada iyo walaaca iska xidhiidhsan waa si noo yeliyay la tiray.",
+  "accountDeleteSuccessClose": "Xir",
+  "accountDeleteErrorTitle": "Uma awood in koonta la tiray",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Amar dib looga xaqijiyay waa la joojiyay. Fadlan ku soo gal markale iyo tiis.",
+  "accountDeleteReauthRequired": "Koonta tirtirka waxay u baahan soo galadis oo dhawacsan. Fadlan ka bax, ku soo gal markale, iyo tiis.",
+  "settingsDeletePermanentWarning": "Qoraalkan waa joogto ah iyo uma mahdac. Walaaca iska xidhiidhsan oo dhan ayaa la tiray.",
+
+  "dailyGraceTitle": "Hagga Maalineed",
+  "dailyGraceScriptureLabel": "AYAH MAALINTA",
+  "dailyGraceSaintLabel": "CAALIM USBUUCA",
+  "dailyGraceReflectionLabel": "WALAACA HABEEN",
+  "dailyGraceCopiedToast": "Ayah koobeyay clipboard-ka",
+
+  "dailyScripture0Text": "Reer xaq-basta waxay jirtaan hadii iyo webiyaal, meesha sharaf leh marka caasimada adag.",
+  "dailyScripture0Ref": "Qur'aan 54:54-55",
+  "dailyScripture1Text": "Iyo ma anuuba soo dirney adiga illaa ahayd naxariista aalmaha.",
+  "dailyScripture1Ref": "Qur'aan 21:107",
+  "dailyScripture2Text": "Mise Allah kuma tafsii adeega isaga? Laakiin waxay cabsi kaa geystaan kuwa kale maga.",
+  "dailyScripture2Ref": "Qur'aan 39:36",
+  "dailyScripture3Text": "Laxan waxaad iska qabashid waxa waxay wanaag lagu tahay; iyo laxan waxaad jeceshid waxa waxay dib u tahay. Allah wuxuu yaqaan, adina ma aad taqaanin.",
+  "dailyScripture3Ref": "Qur'aan 2:216",
+  "dailyScripture4Text": "Dhanto Allah wuxuu jira kuwa sabura.",
+  "dailyScripture4Ref": "Qur'aan 2:153",
+  "dailyScripture5Text": "Oo sidaas aah xusuuso aan, xusuusan. Iyo mahadsana iyo naa shukayn.",
+  "dailyScripture5Ref": "Qur'aan 2:152",
+  "dailyScripture6Text": "Dhanto caasimada aad u wanaagsan ee marka Allah waxay tahay kuwa xaq basta ugu aad.",
+  "dailyScripture6Ref": "Qur'aan 49:13",
+  "dailyScripture7Text": "Iyo Xaakimkaagu waxuu amray inaadna ibadine jidhka iska sii gee oo ay aad xaram u ahaa iyo waalidyadaa.",
+  "dailyScripture7Ref": "Qur'aan 17:23",
+  "dailyScripture8Text": "Dhanto, dhaawacda walaagu waxaa ku jira nabadi.",
+  "dailyScripture8Ref": "Qur'aan 94:6",
+  "dailyScripture9Text": "Iyo isna waa jira halka aad joogtaan. Iyo Allah waxuu iska yaqaan qofka aad sameen.",
+  "dailyScripture9Ref": "Qur'aan 57:4",
+  "dailyScripture10Text": "Allah waxuu af-wayn kaato naf illaa waxa ay karti tahay.",
+  "dailyScripture10Ref": "Qur'aan 2:286",
+  "dailyScripture11Text": "Iyo kuwa isna isku duwiya Allah — sidaas isna iska tafsii.",
+  "dailyScripture11Ref": "Qur'aan 65:3",
+  "dailyScripture12Text": "Naxariistayga waxay goystaa wax walba.",
+  "dailyScripture12Ref": "Qur'aan 7:156",
+  "dailyScripture13Text": "Iyo marka abdaaladaygu kugu weydiiyaan af - dhanto anigu waan jira. Waxaan jawaban qofka yedha markuu yedaayo.",
+  "dailyScripture13Ref": "Qur'aan 2:186",
+  "dailyScripture14Text": "Kuwa wax xaq ah samaynaa, ama lab ama gabar, oo leh imaan - waxaan si xiniyo ah lagaa nooleeye.",
+  "dailyScripture14Ref": "Qur'aan 16:97",
+  "dailyScripture15Text": "Dhanto, Allah wuxuu ma beddeli doono noola qof, illaa ay beddelen wax jira iyada.",
+  "dailyScripture15Ref": "Qur'aan 13:11",
+  "dailyScripture16Text": "Oo aan laayo iyo aan murugo, iyo aad tahay layaab haddii aad yihiin uu imaan jira.",
+  "dailyScripture16Ref": "Qur'aan 3:139",
+  "dailyScripture17Text": "Yaa adeegayga oo dhan magaar ka yimid, ha niyad xumeeye naxariista Allah. Dhanto, Allah wuu cafiyi karaa dhambi walba.",
+  "dailyScripture17Ref": "Qur'aan 39:53",
+  "dailyScripture18Text": "Iyo kuwa ka ayaanta Allah - isna hadii sabiisa, iyo isna si uu geeya waxa uu filayn.",
+  "dailyScripture18Ref": "Qur'aan 65:2-3",
+  "dailyScripture19Text": "Ha niyad xumeeyne naxariista Allah.",
+  "dailyScripture19Ref": "Qur'aan 12:87",
+  "dailyScripture20Text": "Iyo dhanto, Qur'aanka wuu sahansah jirin si loo xusuusto. Sidaas miyaa mid yedha?",
+  "dailyScripture20Ref": "Qur'aan 54:17",
+  "dailyScripture21Text": "Iyo Xaakimkaa waxa uu kuu helay ilmo iyo waxa uu kuu hagaajiyay.",
+  "dailyScripture21Ref": "Qur'aan 93:7",
+  "dailyScripture22Text": "Iyo Xaakimkaagu wuxuu leeyahay: I yedha; waxaan jawaban doonaa.",
+  "dailyScripture22Ref": "Qur'aan 40:60",
+  "dailyScripture23Text": "Iyo dhanto, waxaan si caasimad ah u sharaf siinay gabar Adam.",
+  "dailyScripture23Ref": "Qur'aan 17:70",
+  "dailyScripture24Text": "Iyo raadso caalaamo dhexdhexaada iyo salah.",
+  "dailyScripture24Ref": "Qur'aan 2:45",
+  "dailyScripture25Text": "Kuwa kuwa wax culuq ah samaynaa sidaa ay wax culuq ah iska yeelan.",
+  "dailyScripture25Ref": "Qur'aan 99:7",
+  "dailyScripture26Text": "Si aan waxba la taaban, caalaamo Allah waa u dhow.",
+  "dailyScripture26Ref": "Qur'aan 2:214",
+  "dailyScripture27Text": "Iyo kuwa mahadsada - mahadsadis waxay u tahay naf isaga.",
+  "dailyScripture27Ref": "Qur'aan 31:12",
+
+  "dailyReflection0": "Maalinta hadda ee dhamaatay, is fiiri albaab mid oo naxariista Allah ay muuqday.",
+  "dailyReflection1": "Geyd hore Allah waxa ay kaa caleen maalinta.",
+  "dailyReflection2": "Odhan sahib mid oo maalinta iyo sheekaha mahadsana Allah.",
+  "dailyReflection3": "Oday nabad ku axada kaydka Allah.",
+  "dailyReflection4": "Fiiro halka aad u yedhay inaad caalaami garad iyo xusun samaasid maalinta.",
+  "dailyReflection5": "Tag waxa aad kari kaarto iyo isku duwi nidaam Allah.",
+  "dailyReflection6": "Markii uu dhammaatay maalinta, qaad caalaami nabad dhikrka Allah.",
+  "dailyReflection7": "Fiiro sida aad u khadartay salado iyo sheekaha mahadsana Allah.",
+  "dailyReflection8": "Walaac waxa aad dhegeysta sabuur maalinta iyo garashadda.",
+  "dailyReflection9": "Raadi caafimad dhibaatada maalinta - naxariista Allah waa ay balballan.",
+  "dailyReflection10": "Odhan hadii caalaami samaasid iyo du'a iyaga.",
+  "dailyReflection11": "Joog oo mahadsana: maxaa adeegyaagu siiyey maalinta oo aad wayd wayn?",
+  "dailyReflection12": "Walaac ayah Qur'aanka oo ku saabsan meeshaa aad jirta hadda.",
+  "dailyReflection13": "Fiiro sidee aad isticmaalay waqtigaada maalinta - iyo gayd buuxa Allah.",
+  "dailyReflection14": "Oday caalaami markii habeen ay dhacdo, dhanto Allah waxa uu jira adigaa.",
+  "dailyReflection15": "Fiiro hadii wax mid aad adeega qoysadda iyo bulshada maalinta.",
+  "dailyReflection16": "Markii habeen ay dhacdo, samaad Tawbah - Allah wuu jeceshahay kuwa dib u celiya.",
+  "dailyReflection17": "Walaac gacan Allah sajaday maalinta, haddii ay aad yar tahay.",
+  "dailyReflection18": "Fiiro waxa aad barsatay maalinta iyo sidee ay kaa dhow geysay Allah.",
+  "dailyReflection19": "Tag dhalaalen maalinta-Allah waxuu qaato waxa aad karti karto.",
+  "dailyReflection20": "Fiiro malaaca maalinta ee aad yidi kartay hagga hagga, iyo bar.",
+  "dailyReflection21": "Samaad du'a kuwa dhibanaya - du'adu wax cusub ayay u tahay.",
+  "dailyReflection22": "Xusuusto shukuur aad caadi u mooddo iyo sheekaha mahadsana Allah.",
+  "dailyReflection23": "Walaac niyad maalinta - marke niyadu ahayd Allah? Buuxa markale.",
+  "dailyReflection24": "Markii habeen ay caalaami joogto, dhegeyso yakiin Allah caalaami.",
+  "dailyReflection25": "Fiiro meeshaa aad helasid xooga maalinta - xoogaasi waa ka yimid Allah.",
+  "dailyReflection26": "Odhan wax mid aad samayn doonto buuxa oo aad waydiin samaasid.",
+  "dailyReflection27": "Markii aad diyaar u tahay oday, geyd nafkaaga Allah - isna waa hagga kale.",
+
+  "dailyRoleModel0": "Nabiga Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Nabiga Ibrahim (AS)",
+  "dailyRoleModel44": "Nabiga Musa (AS)",
+  "dailyRoleModel45": "Nabiga Isa (AS)",
+  "dailyRoleModel46": "Nabiga Yusuf (AS)",
+  "dailyRoleModel47": "Nabiga Dawud (AS)",
+  "dailyRoleModel48": "Nabiga Sulayman (AS)",
+  "dailyRoleModel49": "Nabiga Nuh (AS)",
+  "dailyRoleModel50": "Nabiga Yunus (AS)",
+  "dailyRoleModel51": "Nabiga Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "U oggaal Nuria inay isticmaasho meesha si ay u diido Qibla iyo wakhtiyada salah",
+  "locationConsentHint": "Waxaa loo isticmaashaa qaybaha kaas oo kaliya. Meesha adiga ayaa la ma fadhiiyin ama kaydiye.",
+
+  "askPageTitle": "Weydi Nuria",
+  "askPageDescription": "Weydi wax ku saabsan imaan, salah, nolol, ama walaaca Islaamka iyo hel hagga saldhiga lagu taas yahay Qur'aanka iyo Sunnah.",
+  "askPageInputHint": "Qor weydiga halkan…",
+  "askPageSubmitCta": "Weydi",
+  "askPageInputEmptyError": "Fadlan qor weydiga hore.",
+  "askResultYourQuestion": "Weydiga",
+
+  "guidancePageTitle": "Salah & Hagga",
+  "qiblaFacingMecca": "Jaad Makkah",
+  "qiblaCompassInstruction": "Dib u guji aaladadaada illaa noocaata madaha ay koronto. Tanta taaga ayay u tilmaamaysa Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "GPS signal ayaa yar. Wad dibadda iyo taabo Retry.",
+  "qiblaRetry": "Tiis mar kale",
+  "qiblaTitle": "Jaada Qibla",
+  "qiblaDistanceLabel": "{km} km Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Mesha loo baahan",
+  "qiblaLocationNeededBody": "U oggaal meesha si Nuria ay u xisaabin kartaa jaada Kaaba Makkah halka aad jirta.",
+  "qiblaOpenSettings": "Furay Xogga",
+  "qiblaCompassLoading": "Radaadis meeshada…",
+  "qiblaTowardMecca": "Jaad Makkah",
+
+  "prayerTimesTitle": "Wakhtiyada Salah",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Mesha loo baahan",
+  "prayerTimesLocationNeededBody": "U oggaal meesha si Nuria ay u xisaabin kartaa wakhtiyada salah oo sax magaaloada.",
+  "prayerTimesNextLabel": "Xigi",
+  "prayerTimesDoneLabel": "Dhammayay",
+
+  "monthlyPrayerTimesTitle": "Wakhtiyada Salah ee Bileed",
+  "monthlyPrayerTimesViewButton": "Eeg Bilka Oo Dhan",
+  "monthlyPrayerTimesNextMonth": "Bilka xigi",
+  "monthlyPrayerTimesDayHeader": "Maalinta",
+
+  "sharePrayerTimes": "Qaybso wakhtiyada salah",
+
+  "prayerNotificationsTitle": "Oofada Salah",
+  "prayerNotificationsDescription": "Hel oofad qalaali kahor wakhtiga salah si aad ku jirto laxaas maalineed.",
+  "prayerNotificationsEnable": "Furay oofada salah",
+  "prayerNotificationsOpenSettings": "Furay xogga oofada",
+  "prayerNotificationsDenied": "Oofadu waa la xiray",
+  "prayerNotificationsDeniedHint": "Tag Xogga iyo u oggaal oofada Nuria si ay helato oofada wakhtiga salah.",
+
+  "notificationsConsentLabel": "U oggaal oofada wakhtiyada salah",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Salah Waayo",
+  "prayerNotifBodyFajr": "Salah wanaagsan waxay tahay waayo salah. Kac, nafsiga nadiif, iyo taago marka Allah.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Salah Galabnimo",
+  "prayerNotifBodyDhuhr": "Gabar maalinyadaada iyo dib u cel Allah. Wakhtiga Dhuhr salah waa gaadh.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Salah Galab",
+  "prayerNotifBodyAsr": "Ilaal salah dhexe. Wakhtiga Asr waa gaadh - ha caaji.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Salah Dhacdo",
+  "prayerNotifBodyMaghrib": "Qoraxdu waa dhacday. Samaad Maghrib iyo mahadsana Allah maalinta.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Salah Habeen",
+  "prayerNotifBodyIsha": "Xitim maalintaada oo xusuusta Allah. Hayya alal falah — soo cel guusha.",
+
+  "outOfReflectionsBannerText": "Walaaca oo dhan waa la isticmaalay",
+  "outOfReflectionsBannerCta": "Helo intar ah",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Taabo saxda si aad u tirtag",
+  "dhikrResetButton": "Dib u dhig",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Waxaad dhammaysay 99 xusuusta Allah. Ay noqoto iftiin qalbigaada.",
+
+  "disclaimerTitle": "Ku saabsan hagga app-ka",
+  "disclaimerBody": "Nuria waxay bixintaa walaaca Islaamka, oofada, iyo waxyaabaha ruhiga si ay u taageeraan socdaalka imaan-kaaga gaarka ah. Waxyaabahani waxaa lagu bixiyaa ujeedda aqooneed iyo inspiraashineed kaliya.\n\nNuria waxay bedeli karto caqli weyne.\nHagga app-ka waxay tahay bedel ma ah caalim xigmad Islaamka, imam, mufti, ama macallim lagu barbaarin. Haddii aad qoraal iyo diin buug yeedhay, fadlan raadi caalim xigmad bulshada.\n\nApp-ka waxay ma samayn doonto amarka diin.\nNuria waxay ma samayn doonto heshiisin xigmad Islaamka ama walaaca diin gaarka ah. Waxyaabahan ma lagu eedeyn karaan fatwa ama amarka diin.\n\nCaaliyada iska dhaaf-dhaaf.\nIslaamka waxa kay jira halista wiiqo oo caqli leh, iskool fikrad, iyo aragti caaliyad. Waxyaabaha app-ka waxay muuqalaan aragtida guud iyo waxa yeelan karo tariikhda kasta.\n\nBulshada waxay mahad leh.\nApp-kaani waxuu dhiirigeliyaa socdaalka imaan-kaaga qaybaha qaybtan iyo sayga weynaa qadriga mosque-kaaga, imam, iyo bulshada diin-ta. Waxaa lagu dabaaqaa inaad la nool tahay iyo ka barto caalimyada hadhow.",
+  "disclaimerClose": "Waxaan fahmi",
+  "disclaimerInfoTooltip": "Ku saabsan hagga app-ka",
+  "disclaimerSettingsSubtitle": "Ujeedda aqooneed oo kaliya. Taabo si aad akhriyso qoraalka buuxa.",
+  "disclaimerSectionHeader": "Hagga qoraalka diin"
+}

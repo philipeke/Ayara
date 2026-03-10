@@ -1,0 +1,585 @@
+{
+  "@@locale": "et",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Valige oma keel",
+  "languageSelectSub": "Saate seda hiljem sätetes muuta",
+  "actionContinue": "Jätka",
+  "languageSuggestedHeader": "Soovitatud",
+  "languageAllHeader": "Kõik keeled",
+  "languageSuggestedBadge": "Soovitatud",
+  "languageSearchHint": "Otsi…",
+
+  "planGrace": "Standardne",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Igapäevane juhend",
+  "categoryFaithTrust": "Iman ja usaldus",
+  "categoryPrayerReflection": "Palve meditatsiooni",
+  "categoryHopeDifficultTimes": "Kannatavus ja lootus",
+  "categoryForgiveness": "Otsi andestust",
+  "categoryLoveCompassion": "Halastus ja heatahtlikkus",
+  "categoryStrengthCourage": "Usk ja jõud",
+  "categoryGratitude": "Tänutundlikkus",
+  "categoryPurposeCalling": "Elu eesmärk",
+  "categoryFamilyRelationships": "Peresuhtед",
+  "categoryPeaceAnxietyRelief": "Sisemine rahu",
+  "categoryWisdomOfJesus": "Prohveti tarkus",
+  "categoryHumilityCharacter": "Alandlikkus ja iseloom",
+  "categoryOvercomingTemptation": "Kiusatusele vastu seismine",
+  "categoryEveningReflection": "Õhtune dhikr",
+  "categoryCustom": "Isiklik Refleksioon",
+  "dhikrMeaningSubhanallah": "Au, olgu Allahile",
+  "dhikrMeaningAlhamdulillah": "Kõik kiitus on Allahile",
+  "dhikrMeaningAllahuAkbar": "Allah on Suurim",
+  "quranVerseHeartAtRest": "Tõeliselt, Allahi mälestuses leiavad südamed rahu.",
+
+  "promptHint": "Puudutage kategooriat islamiliku juhendamise ja meditatsiooni saamiseks",
+
+  "currentLanguage": "Praegune keel",
+  "settingsLanguage": "Keele sätted",
+  "settingsTitle": "Sätted",
+  "chooseLanguage": "Valige oma keel",
+  "continueCta": "Jätka",
+
+  "promptDailyGuidance": "Kirjutage lühike, praktiline igapäevane juhend, mis on juurdunud sunni islamilisse usku – põhinedes Koraanile, hadiifile ja prohvet Muhammadi õpetustele. Valige iga kord uus nurk: virtus islamliku eetika järgi, tõde Sunnaist, tarkus prohveti saatjate käest või vaikne praktika islamlikus traditsioonis. Kaasake üks Koraan versioon (Suura:Ayet) ja 1–2 lause meditatsiooni, mida päev läbi kanda. Seostage vajadusel islamilise kalendriga või olulise kuupäevaga.",
+
+  "promptFaithTrust": "Kirjutage lühike islamiline meditatsiooni Imani (usku) ja usalduse kohta Allahi plaani vastu (Tavakal). Juurdige seda Koraanile, prohvet Muhammadi eeskujule ja Sahaba usule. Varieerige teemat iga kord: usalduse Allaht ebakindla ajal, lootmine jumalikule tarkusele, kannatavus katsumustes või vaikne osadus igapäevastes tegevustes. Kaasake üks Koraan versioon ja üks aus samm tänaseks, mis on pärit islamliku vaimse tarkuse käest.",
+
+  "promptPrayerReflection": "Kirjutage lühike islamiline palve meditatsiooni, mis on juurdunud Salaale, Duale või Dhikrule. Varieerige vormi iga kord: hommikune või õhtune meeldejuhatus (Adhkar), meditatsiooni viie päeva palvete üle, Koraan versiooni mõtlemine või siiras palve. Kaasake üks Koraan versioon ja nimetage kasutatud palve vorm lühidalt.",
+
+  "promptHopeDifficultTimes": "Kirjutage islamiline meditatsiooni kannatavuse (Sabr) ja lootuse kohta raskuste ajal. Tuginege Koraan õpetustele katsumuste kohta, prohvettide visadusele ja Allahi halastusele rasketes hetkedel. Varieerige nurka iga kord. Kaasake üks Koraan versioon ja üks julgustav perspektiiv islamlikus traditsioonis.",
+
+  "promptForgiveness": "Kirjutage tark islamiline meditatsiooni andestuse otsimise (Tauva) ja Allahi halastuse kohta. Tuginege Koraan õpetustele pöördumise, Allahi kaastundest ja prohvet Muhammadi andestava eeskuju kohta. Varieerige teemat: naasmist Allahe juurde, teiste andestamist, suhete parandamist või uskumust Allahi halastusse pärast vigu. Kaasake üks Koraan versioon ja üks konkreetne samm.",
+
+  "promptLoveCompassion": "Kirjutage lühike islamiline meditatsiooni halastuse (Rahmah) ja heatahtlikkuse kohta igapäevaelus. Tuginege prohvet Muhammadi eeskujule, Ihsani (täiuslikkuse) kontseptsioonile ja islamilistele õpetustele heatahtlikkuse kohta perekonna, naabrite ja haavatavate inimeste suhtes. Kaasake üks Koraan versioon ja üks väike heatahtlikkuse tegu, mida täna harrastada.",
+
+  "promptStrengthCourage": "Kirjutage islamiline meditatsiooni uskus põhineval jõul ja julgusele. Tuginege prohvettide näidetele, varajase muslimiterühma ajaloole ja usklejatele, kes jäid tugevaks raskuste ajal. Varieerige teemat iga kord: julgus usuga, jõud palves, usaldus Allahe vastu hirmu ajal või vastupidavus raskustes. Kaasake üks Koraan versioon ja lühike palve või meeldejuhatuse fraas.",
+
+  "promptGratitude": "Kirjutage islamiline meditatsiooni tänutundlikkuse (Shukr) kohta Allahi vastu. Juurdige seda Koraan õpetusele ja prohvetilikule traditsioonile. Varieerige nurka: tänutundlikkus raskustes, väikeste õnnistuste hindamine, päeva alustamine Allahi kiitusega või Allahi juhendamise tunnistamine igapäevaelus. Kaasake üks Koraan versioon ja üks tänutundlikkuse praktika.",
+
+  "promptPurposeCalling": "Kirjutage islamiline meditatsiooni elu eesmärgi kohta Allahi jumalitsemine ja õigete tegude elu. Tuginege Koraan õpetustele eesmärgist, teiste teenimisele ja oma andide kasutamisele heaks. Varieerige teemat iga kord: perekonna ja kogukonna teenimine, juhendamise otsimine Istikhaara kaudu, elu tahtega või tähenduse leidmine tavategevustes. Kaasake üks Koraan versioon ja kaks peegeldavat küsimust.",
+
+  "promptFamilyRelationships": "Kirjutage tark islamiline juhend pereele ja suhetele, mis on juurdunud Koraan õpetusele ja prohvet Muhammadi eeskujule. Varieerige teemat iga kord: heatahtlikkus peresuhetes, kannatavus konfliktis, vanemate austamine, laste kasvatamine usus või abielu tugevdamine. Kaasake üks Koraan versioon ja üks suhtele kasulik praktika.",
+
+  "promptPeaceAnxietyRelief": "Kirjutage rahustav islamiline meditatsiooni siseseise rahu leidmise kohta Allahi meeldejuhatamise (Dhikr) ja usalduse kaudu tema plaani vastu. Tuginege Koraan õpetustele südame rahust, palvest ja paheitsemisest Allahi tahtele. Varieerige lähenemist iga kord ja kaasake üks Koraan versioon ja üks lihtne juurdumisharjutus islamlikus traditsioonis.",
+
+  "promptWisdomOfJesus": "Kirjutage lühike tarkusepala prohvettidelt, nagu islam õpetab. Tuginege Koraanile või hadiifile ja selgitage lühidalt, kuidas islamiõpilased õpetust on mõistnud. Varieerige teemat iga kord: iseloom, kannatavus, alandlikkus, usk või igapäevane käitumine. Kaasake Koraan versioon või hadi viide ja üks praktiline rakendus.",
+
+  "promptHumilityCharacter": "Kirjutage islamiline meditatsiooni alandlikkuse (Tavadhhu) ja hea iseloomu (Akhlaq) kohta. Tuginege Koraan õpetustele, prohvet Muhammadi eeskujule ja islamilise karakteri arendustraditsiooni. Varieerige teemat: alandlikkus juhtimises, vigade tunnistamine, teiste austamisega või vaimsel kasvul eneserefleksiooni kaudu. Kaasake üks Koraan versioon ja üks harjutus, mida harrastada.",
+
+  "promptOvercomingTemptation": "Kirjutage islamiline meditatsiooni kiusatusele vastupidamise ja sirgjoonela teel jäämise kohta. Tuginege Koraan juhendusele, Allahi meeldejuhatamisele (Dhikr), palvele (Salah) ja usklikkude näidetele, kes ületasid võitlusi. Varieerige nurka iga kord. Kaasake üks Koraan versioon ja üks praktiline strateegia järgmiseks 24 tunniks.",
+
+  "promptEveningReflection": "Kirjutage rahulik islamiline õhtune meditatsiooni, mis on juurdunud õhtuse meeldejuhatamise traditsioonile (Adhkar al-Masaa'). Julgustage tänutundlikkust, eneserefleksiooni (Muhasabah) ja usaldust Allahe vastu enne puhkamist. Kaasake 3–5 lühikest peegeldavat küsimust päeva kohta, lühike sulgemispalve ja üks Koraan versioon.",
+
+  "wordCount": "{count, plural, one {{count} sõna} other {{count} sõna}}",
+
+  "optionsCta": "Valikud",
+  "newCta": "Uus",
+  "actionsTitle": "Mida soovite teha?",
+  "copy": "Kopeeri",
+  "share": "Jaga",
+  "close": "Sulge",
+  "copiedToast": "Kopeeritud lõikelauale",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Igapäevane juhend" }
+    }
+  },
+
+  "regenerateErrorTitle": "Uut vastust ei saanud luua",
+  "regenerateErrorBody": "{error}\n\nKas soovite proovida uuesti?",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Võrgu viga" }
+    }
+  },
+
+  "cancelCta": "Tühista",
+  "retryCta": "Proovi uuesti",
+
+  "authTitle": "Looge oma konto",
+  "continueAsGuest": "Jätka külaline režiimis",
+  "signInGoogle": "Sisene Google'iga",
+  "signInApple": "Sisene Apple'iga",
+  "signInEmail": "Sisene e-postiga",
+  "upgradeWithApple": "Jätka Apple'iga",
+  "mustAccept": "Peate aktsepteerima tingimusi ja tunnistama privaatsuspoliitika.",
+  "termsLabel": "Nõustun teenuse tingimustega",
+  "privacyLabel": "Olen lugenud privaatsuspoliitika",
+  "marketingOptIn": "Nõustun saama uudiseid ja pakkumisi",
+  "openTerms": "Teenuse tingimused",
+  "openPrivacy": "Privaatsuspoliitika",
+
+  "accountSection": "Konto",
+  "guestMode": "Külaline režiim",
+  "signedIn": "Sisse logitud",
+  "upgradeHint": "Salvestage oma meditatsioonid seadmete vahel, luues konto.",
+  "upgradeWithGoogle": "Jätka Google'iga",
+  "signOut": "Logi välja",
+
+  "snackUpgraded": "Konto uuendatud Google'iga ✅",
+  "snackSignedIn": "Sisse logitud Google'iga ✅",
+  "snackSignedOut": "Välja logitud",
+  "snackSignedInApple": "Sisse logitud Apple'iga ✅",
+  "snackSignedInGoogle": "Sisse logitud Google'iga ✅",
+  "snackUpgradedApple": "Konto uuendatud Apple'iga ✅",
+  "snackUpgradedGoogle": "Konto uuendatud Google'iga ✅",
+
+  "historyTitle": "Eelmised meditatsioonid",
+  "historyOpenCta": "Eelmised meditatsioonid",
+  "historyEmpty": "Salvestatud meditatsioonid puuduvad.",
+  "historyDeleteTitle": "Kustutada meditatsiooni?",
+  "historyDeleteBody": "See kustutab valitud üksuse jäädavalt.",
+  "deleteCta": "Kustuta",
+
+  "historyButton": "Eelmised meditatsioonid",
+  "historyEmptyTitle": "Meditatsioonid puuduvad",
+  "historyEmptyBody": "Looge esmalt midagi – teie salvestatud üksused ilmuvad siia.",
+  "historyDelete": "Kustuta",
+
+  "footerTitle": "Imani, sabri ja rahmaga.",
+  "footerSubtitle": "Üks samm korraga.",
+  "genericErrorSnack": "Midagi läks valesti – palun proovige hetke pärast uuesti.",
+
+  "upgradeAccountCta": "Salvestage oma meditatsioonid seadmete vahel – looge konto",
+  "deleteAccount": "Kustuta konto",
+  "exportData": "Ekspordi minu andmed",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Rahulikult 🐯\nAI vajab hetke enne järgmist…",
+  "rateDailyLimit": "Teil ei ole hetkel meditatsioonid saadaval.\nHangi rohkem meditatsioonidest või uuenda Barakahiga.",
+  "rateCreditsExhausted": "Olete kasutanud kõik oma meditatsioonid.\nTäiendage või uuendage Barakahiga, et jätkata.",
+  "rateGraceReflectionsExhausted": "Teil ei ole hetkel meditatsioonid saadaval.\nHangi rohkem meditatsioonidest või uuenda Barakahiga.",
+  "rateReflectionsExhausted": "Olete kasutanud kõik oma meditatsioonid.\nTäiendage või uuendage Barakahiga, et jätkata.",
+
+  "blessedDescription": "Barakah avab premium funktsioonid, tulevased kategooriad ja erilise märgi.",
+  "championDescription": "Barakah avab premium funktsioonid, tulevased kategooriad ja erilise märgi.",
+
+  "ratePlanExhausted": "Teie meditatsioonid on hetkel tühjad. Plaan: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standardne või Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Ei saanud kontrollida teie meditatsioonidest: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Võrgu viga" }
+    }
+  },
+
+  "rateCheckGenericError": "Midagi läks valesti teie meditatsiooniummuste kontrolli ajal.",
+  "aiFallbackGeneric": "Midagi läks valesti – palun proovige hetke pärast uuesti.",
+
+  "limitSectionTitle": "Meditatsioonid",
+  "limitTodayLabel": "Kasutamine",
+  "limitCreditsLabel": "Ülejäänud meditatsioonid: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plaan: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standardne või Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Laadin…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
+
+  "aiLimitTitle": "Meditatsioonid",
+  "aiLimitSubtitle": "Iga vastus kasutab 1 meditatsiooni. Standardne hõlmab starteri meditatsioonid. Barakah avab premium kategooriad ja võimaldab täiendamist.",
+  "aiLimitProgressLabel": "{used} / {total} meditatsiooni kasutatud",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Meditatsioonid",
+  "reflectionsUsageLabel": "Kasutamine",
+  "reflectionsRemainingLabel": "Ülejäänud meditatsioonid: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plaan: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standardne või Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Laadin…",
+  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+
+  "reflectionsTitle": "Meditatsioonid",
+  "reflectionsSubtitle": "Iga vastus kasutab 1 meditatsiooni. Standardne hõlmab starteri meditatsioonid. Barakah avab premium kategooriad ja võimaldab täiendamist.",
+  "reflectionsProgressLabel": "{used} / {total} meditatsiooni kasutatud",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Kustuta konto",
+  "settingsDeleteDescription": "Kustutage oma konto ja kõik seotud andmed jäädavalt.",
+  "settingsDeleteButtonLabel": "Kustuta minu konto",
+  "settingsDeleteDialogTitle": "Kustutada konto?",
+  "settingsDeleteDialogBody": "See toiming on jäädav ja seda ei saa tagasi võtta.\n\nKõik teie vestlused, ajalugu ja kontoteavet kustutatakse.",
+  "settingsDeleteDialogCancel": "Tühista",
+  "settingsDeleteDialogConfirm": "Kustuta",
+
+  "settingsFreeLimitUsedTitle": "Starteri meditatsioonid kasutatud",
+  "settingsFreeLimitUsedDescription": "Selle seadme starteri meditatsioonid on kasutatud. Uuendage Barakahiga või ostke rohkem meditatsioone, et jätkata.",
+
+  "settingsStarterReflectionsUsedTitle": "Starteri meditatsioonid kasutatud",
+  "settingsStarterReflectionsUsedDescription": "Selle seadme starteri meditatsioonid on kasutatud. Uuendage Barakahiga või ostke rohkem meditatsioone, et jätkata.",
+
+  "deviceBoundError": "See seade on juba seotud teise kontoga. Palun logige sisse algse kontoga.",
+
+  "premiumTitle": "Barakah režiim",
+  "premiumSubtitleBasic": "Avage täielik Nuria kogemus.",
+  "premiumSubtitleChampion": "Olete Barakah. Vajate rohkem meditatsioone?",
+
+  "premiumCurrentPlan": "Praegune plaan: {plan}",
+  "premiumCreditsStatus": "Meditatsioonid: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Ostud ei ole hetkel saadaval.",
+  "premiumSignInToPurchase": "Logige sisse, et osta meditatsioonidest või avada Barakah.",
+
+  "premiumRestorePurchases": "Taasta ostud",
+  "premiumProcessing": "Töötlemisel…",
+  "premiumRestoreHintTitle": "Olete juba ostnud Barakahi või meditatsioonid sellel seadmel või teisel?",
+  "premiumRestoreHintBody": "Taastage oma ostud, kui need ei kuvata.",
+
+  "premiumBuyCredits200": "Osta 200 meditatsiooni",
+  "premiumBuyCredits400": "Osta 400 meditatsiooni",
+  "premiumBecomeChampionOneTime": "Uuenda Barakah režiimile",
+  "premiumChampionHint": "Barakahina saate täiendada lisameditatsioone alati, kui vajate.",
+
+  "premiumUpgradeCta": "Uuenda",
+  "premiumRequiredForCategory": "See kategooria on saadaval ainult Barakah kasutajatele. Uuendage sätetes, et avada kogu premium sisu.",
+  "premiumBenefitsBasic": "Avage Barakah, et saada lisameditatsioone, pääseda premium kategooriatele ja jätkata ilma katkestuseta.",
+  "premiumBenefitsChampion": "Olete Barakah režiimis. Kui teil hakkab otsa saama, lisage lisameditatsioone ja jätkake ilma segamiseta.",
+  "premiumButtonBecomeChampion": "Avage Barakah",
+  "premiumButtonTopup1000": "Lisa 1000 meditatsiooni",
+  "premiumChampionBadge": "Barakah aktiivne",
+  "premiumLoadingStore": "Laadin poodi…",
+
+  "blessedTitle": "Barakah režiim",
+  "blessedSubtitleGrace": "Avage täielik Nuria kogemus.",
+  "blessedSubtitleBlessed": "Olete Barakah. Vajate rohkem meditatsioone?",
+
+  "blessedCurrentPlan": "Praegune plaan: {plan}",
+  "blessedReflectionsStatus": "Meditatsioonid: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Ostud ei ole hetkel saadaval.",
+  "blessedProductNotAvailable": "See toode pole poes hetkel saadaval. Palun proovige hiljem uuesti.",
+  "blessedPurchaseError": "Ostumisel ilmnes viga. Palun proovige uuesti.",
+  "blessedSignInToPurchase": "Logige sisse, et osta meditatsioonidest või avada Barakah.",
+
+  "blessedRestorePurchases": "Taasta ostud",
+  "blessedProcessing": "Töötlemisel…",
+  "blessedRestoreHintTitle": "Olete juba ostnud Barakahi või meditatsioonid sellel seadmel või teisel?",
+  "blessedRestoreHintBody": "Taastage oma ostud, kui need ei kuvata.",
+
+  "blessedBuyReflections100": "Lisa 100 meditatsiooni",
+  "blessedBuyReflections200": "Osta 200 meditatsiooni",
+  "blessedBuyReflections400": "Osta 400 meditatsiooni",
+  "blessedBecomeBlessedOneTime": "Uuenda Barakahile",
+  "blessedTopupHint": "Barakahina saate täiendada lisameditatsioone alati, kui vajate.",
+
+  "blessedUpgradeCta": "Uuenda",
+  "blessedRequiredForCategory": "See kategooria on saadaval ainult Barakah kasutajatele. Uuendage sätetes, et avada kogu premium sisu.",
+  "blessedFeatureLocked": "Avage Barakah, et pääseda sellele funktsioonile.",
+  "lockedCategoriesHint": "Mõned kategooriad on reserveeritud Barakah liikmetele. Avage need, et uurida iga meditatsiooni oma usualkirjel.",
+  "blessedBenefitsGrace": "Avage Barakah, et saada lisameditatsioone, pääseda premium kategooriatele ja jätkata ilma katkestuseta.",
+  "blessedBenefitsBlessed": "Olete Barakah režiimis. Kui teil hakkab otsa saama, lisage lisameditatsioone ja jätkake ilma segamiseta.",
+  "blessedButtonBecomeBlessed": "Avage Barakah",
+  "blessedButtonTopup1000": "Lisa 1000 meditatsiooni",
+  "blessedBadge": "Barakah aktiivne",
+  "blessedLoadingStore": "Laadin poodi…",
+
+  "freePlanBlockedTitle": "Olete kasutanud oma starteri meditatsioonid",
+  "freePlanBlockedBody": "Olete standardsel plaani starteri meditatsiooniidega ja olete piirangut saavutanud. Jätkamiseks – ja premium kategooriate avamiseks – uuendage Barakahile.",
+  "freePlanBlockedCtaGoPremium": "Vaadake Barakah valikuid allpool",
+
+  "graceBlockedTitle": "Olete kasutanud oma starteri meditatsioonid",
+  "graceBlockedBody": "Olete standardsel plaani starteri meditatsiooniidega ja olete piirangut saavutanud. Jätkamiseks – ja premium kategooriate avamiseks – uuendage Barakahile.",
+  "graceBlockedCtaGoBlessed": "Vaadake Barakah valikuid allpool",
+
+  "rateGuestMustSignIn": "Logige sisse, et kasutada Nuriat ja oma meditatsioone.",
+
+  "guestNoCreditsTitle": "Külaline režiim",
+  "guestNoCreditsBody": "Külaline režiimis saate rakendust sirvida, kuid te ei saa meditatsioone kasutada. Logige hiljem sisse sätetes, et kasutada meditatsioone ja avada ostud.",
+
+  "guestNoReflectionsTitle": "Külaline režiim",
+  "guestNoReflectionsBody": "Külaline režiimis saate rakendust sirvida, kuid te ei saa meditatsioone kasutada. Logige hiljem sisse sätetes, et kasutada meditatsioone ja avada ostud.",
+
+  "guestDialogContinue": "Jätka",
+  "guestDialogLoginInstead": "Logi sisse",
+
+  "optionalLabel": "valikuline",
+
+  "accountDeleteSuccessTitle": "Konto kustutatud",
+  "accountDeleteSuccessBody": "Teie konto ja seotud andmed on edukalt kustutatud.",
+  "accountDeleteSuccessClose": "Sulge",
+  "accountDeleteErrorTitle": "Konto ei saanud kustutada",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Uuesti kinnitamine tühistati. Palun logige uuesti sisse ja proovige kustutamist uuesti.",
+  "accountDeleteReauthRequired": "Konto kustutamine nõuab hiljutist sisselogimist. Palun logige välja, logige uuesti sisse ja proovige kustutamist uuesti.",
+  "settingsDeletePermanentWarning": "See toiming on jäädav ja seda ei saa tagasi võtta. Kõik teie kontoga seotud andmed kustutatakse.",
+
+  "dailyGraceTitle": "Igapäevane juhend",
+  "dailyGraceScriptureLabel": "PÄEVA VERSIOON",
+  "dailyGraceSaintLabel": "NÄDALA SCHOLAR",
+  "dailyGraceReflectionLabel": "ÕHTUNE MEDITATSIOONI",
+  "dailyGraceCopiedToast": "Versioon kopeeritud lõikelauale",
+
+  "dailyScripture0Text": "Kindlasti on õiglased ilusates aedades ja jõgedel, au kohal võimsa kuningas juures.",
+  "dailyScripture0Ref": "Koraan 54:54-55",
+  "dailyScripture1Text": "Ja Me ei ole saatnud teid, [O Muhammadi], välja arvatud halastusena maailmadele.",
+  "dailyScripture1Ref": "Koraan 21:107",
+  "dailyScripture2Text": "Kas Allah ei ole oma teenijale piisav? Ometi hirmutavad nad teid teistega tema kõrval.",
+  "dailyScripture2Ref": "Koraan 39:36",
+  "dailyScripture3Text": "Võib-olla vihkasite midagi ja see on teile hea; ja võib-olla armastada midagi ja see on teile halb. Ja Allah teab, samas kui te ei tea.",
+  "dailyScripture3Ref": "Koraan 2:216",
+  "dailyScripture4Text": "Kindlasti on Allah sabrilistega.",
+  "dailyScripture4Ref": "Koraan 2:153",
+  "dailyScripture5Text": "Seega meenutage mind; mina pean teid meeles. Olge tänutundlik mulle ja ärge eitanud mind.",
+  "dailyScripture5Ref": "Koraan 2:152",
+  "dailyScripture6Text": "Kindlasti on teist kõigist õilseim Allah juures, kes on teist kõigist kõige õiglasem.",
+  "dailyScripture6Ref": "Koraan 49:13",
+  "dailyScripture7Text": "Ja teie Issand on määranud, et te ei jumalitserite kedagi peale tema, ja et te oleksite kohustuslikud oma vanematele.",
+  "dailyScripture7Ref": "Koraan 17:23",
+  "dailyScripture8Text": "Kindlasti tuleb raskusega kergsus.",
+  "dailyScripture8Ref": "Koraan 94:6",
+  "dailyScripture9Text": "Ja ta on teie juures, kuhu kulgete. Ja Allah, mida teete, näeb.",
+  "dailyScripture9Ref": "Koraan 57:4",
+  "dailyScripture10Text": "Allah ei koormuta hinge rohkem, kui ta jaksab.",
+  "dailyScripture10Ref": "Koraan 2:286",
+  "dailyScripture11Text": "Ja kes asetab oma lootuse Allahle — siis ta on talle piisav.",
+  "dailyScripture11Ref": "Koraan 65:3",
+  "dailyScripture12Text": "Minu halastus hõlmab kõiki asju.",
+  "dailyScripture12Ref": "Koraan 7:156",
+  "dailyScripture13Text": "Ja kui minu teenrid küsivad teilt minust — kindlasti olen ma lähedal. Vastan paluja kutsele, kui ta kutsub mind.",
+  "dailyScripture13Ref": "Koraan 2:186",
+  "dailyScripture14Text": "Kes teeb õiglust, olgu mees või naine, samas kui tal on usk — Me teeme kindlasti, et tal on hea elu.",
+  "dailyScripture14Ref": "Koraan 16:97",
+  "dailyScripture15Text": "Kindlasti ei muuda Allah rahvaste seisundit, kuni nad muudavad seda, mis on nende endis.",
+  "dailyScripture15Ref": "Koraan 13:11",
+  "dailyScripture16Text": "Nii et ärge nõrgenege ja ärge kahtsuge, ja te olete paremad, kui te olete tõsised uskujad.",
+  "dailyScripture16Ref": "Koraan 3:139",
+  "dailyScripture17Text": "O minu teenrid, kes on tegutsenud ennast vastu, ärge loobuge Allahi halastusest. Kindlasti andestab Allah kõik patud.",
+  "dailyScripture17Ref": "Koraan 39:53",
+  "dailyScripture18Text": "Ja kes kardab Allaht — ta teeb talle väljapääsu ja annab talle, kust ta ei oodanud.",
+  "dailyScripture18Ref": "Koraan 65:2-3",
+  "dailyScripture19Text": "Ärge loobu lootusest Allahi halastusele.",
+  "dailyScripture19Ref": "Koraan 12:87",
+  "dailyScripture20Text": "Ja Me oleme kindlasti kergendanud Koraani meeldejuhatamisele. Kas kellelgi on mõistlikult meeles?",
+  "dailyScripture20Ref": "Koraan 54:17",
+  "dailyScripture21Text": "Ja ta leidis teid kaotsi ja juhtis teid.",
+  "dailyScripture21Ref": "Koraan 93:7",
+  "dailyScripture22Text": "Ja teie Issand ütleb: paluge mind; ma vastan teile.",
+  "dailyScripture22Ref": "Koraan 40:60",
+  "dailyScripture23Text": "Ja Me oleme kindlasti auustanud Adami lapsi.",
+  "dailyScripture23Ref": "Koraan 17:70",
+  "dailyScripture24Text": "Ja otsige abi kannatavuse ja palve kaudu.",
+  "dailyScripture24Ref": "Koraan 2:45",
+  "dailyScripture25Text": "Kes teeb aatomi kaalu hea, näeb seda.",
+  "dailyScripture25Ref": "Koraan 99:7",
+  "dailyScripture26Text": "Kindlasti on Allahi abi lähedal.",
+  "dailyScripture26Ref": "Koraan 2:214",
+  "dailyScripture27Text": "Ja kes on tänutundlik — tema tänutundlikkus on ainult tema enda kasuks.",
+  "dailyScripture27Ref": "Koraan 31:12",
+
+  "dailyReflection0": "Selle päeva lõppedes, mõelge ühele hetkele, kus Allahi halastus oli ilmne.",
+  "dailyReflection1": "Too Allahi ette kõik, mis täna teie südant koormas.",
+  "dailyReflection2": "Nimetage tänase päeva üks õnnistus ja väljendage Allahile tänutundlikkust.",
+  "dailyReflection3": "Puhkage teadmises, et teid hoitakse Allahi lõpmatus hoolitsuses.",
+  "dailyReflection4": "Mõelge, kuhu tundsite kutsumist näidata täna kaastunnet ja heatahtlikkust.",
+  "dailyReflection5": "Loobuge sellest, mida te ei saa kontrollida, ja usalda Allahi täiuslikku plaani.",
+  "dailyReflection6": "Kui päev lõpeb, võtke rahu Allahi meeldejuhatamises.",
+  "dailyReflection7": "Mõelge, kuidas austasid oma palveid täna ja tänu Allahile iga eest.",
+  "dailyReflection8": "Mõelge hetkele, kus kannatavus (Sabr) juhendas täna teie tegevusi.",
+  "dailyReflection9": "Paluge andestust iga puudulikkuse eest täna — Allahi halastus on piiramatu.",
+  "dailyReflection10": "Nimetage üks inimene, kellele te täna heatahtlikkust näitasite, ja tehke tema jaoks duaa.",
+  "dailyReflection11": "Istuge tänutundlikkuses: mis Allahi anda teile täna, mida te ei palunud?",
+  "dailyReflection12": "Mõelge Koraan versioonile, mis räägib sellest, kus te olete.",
+  "dailyReflection13": "Mõelge, kuidas kasutasite oma aega täna — ja pakkuge homme Allahe juurde.",
+  "dailyReflection14": "Puhkage teadmises, et ükskõik milline raskus täna tuli, Allah oli teiega selle kaudu.",
+  "dailyReflection15": "Mõelge ühele viisile, kuidas te oma peret või kogukonda täna Allaha eest teenisitte.",
+  "dailyReflection16": "Kui öö langeb, tehke Tauva — Allah armastab neid, kes naasevad tema juurde.",
+  "dailyReflection17": "Mõelge ilususe kohta, mille Allah teie päevale pani, olgu kui väike.",
+  "dailyReflection18": "Mõelge, mida õppisitted täna ja kuidas see teid lähendab Allahe.",
+  "dailyReflection19": "Laske päeva muretsemised puhata Allahe juures — ta kannab seda, mida te ei saa.",
+  "dailyReflection20": "Mõelge hetkele täna, kus te oleksite võinud valida paremini, ja õppige sellest hellitult.",
+  "dailyReflection21": "Tehke duaa nende jaoks, kes võitlevad — teie palve on neile kingitus.",
+  "dailyReflection22": "Tuletage meelde õnnistust, mida te sageli avastate, ja võtke hetk Allahile tänu.",
+  "dailyReflection23": "Mõelge teie kavatsusele täna — olid need Allaha jaoks? Homme, alustage otsast.",
+  "dailyReflection24": "Kui öö vaikib, kuulake Allahi lähedust vaikusele.",
+  "dailyReflection25": "Mõelge, kust leidsitte täna jõu — see jõud pärineb Allaht.",
+  "dailyReflection26": "Nimetage üks asi, mida te homme teete, Allaha jaoks, mida te täna ei teinud.",
+  "dailyReflection27": "Kui valmistute puhkama, usaldage oma hinge Allahe — ta on parim kaitsja.",
+
+  "dailyRoleModel0": "Prohvet Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Prohvet Ibrahim (AS)",
+  "dailyRoleModel44": "Prohvet Musa (AS)",
+  "dailyRoleModel45": "Prohvet Isa (AS)",
+  "dailyRoleModel46": "Prohvet Yusuf (AS)",
+  "dailyRoleModel47": "Prohvet Dawud (AS)",
+  "dailyRoleModel48": "Prohvet Sulayman (AS)",
+  "dailyRoleModel49": "Prohvet Nuh (AS)",
+  "dailyRoleModel50": "Prohvet Yunus (AS)",
+  "dailyRoleModel51": "Prohvet Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Luba Nurial kasutada minu asukohta Qibla suuna ja palveaegade jaoks",
+  "locationConsentHint": "Kasutatakse ainult nende funktsioonidega. Teie asukohta kunagi ei jagata ega salvestata.",
+
+  "askPageTitle": "Küsi Nurialt",
+  "askPageDescription": "Küsige midagi usust, palvest, elust või islamliku praktikast ja saage juhendamist, mis on juurdunud Koraanile ja Sunnahle.",
+  "askPageInputHint": "Tippige oma küsimus siia…",
+  "askPageSubmitCta": "Küsi",
+  "askPageInputEmptyError": "Palun kirjutage esmalt küsimus.",
+  "askResultYourQuestion": "Teie küsimus",
+
+  "guidancePageTitle": "Palve ja juhendus",
+  "qiblaFacingMecca": "Vastu Mekka",
+  "qiblaCompassInstruction": "Pöörake oma telefoni, kuni kullane nõel osutab ülespoole.\nSee suund osutab Qiblale (Mekka).",
+  "qiblaGpsUnavailableBody": "GPS signaal on nõrk. Minge välja ja puudutage Proovi uuesti.",
+  "qiblaRetry": "Proovi uuesti",
+  "qiblaTitle": "Qibla suund",
+  "qiblaDistanceLabel": "{km} km Mekka juurde",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Asukoht nõutav",
+  "qiblaLocationNeededBody": "Luba asukoha juurdepääs, et Nuria saaks arvutada Kaaba suuna Mekkasse, kuhu iganes te olete.",
+  "qiblaOpenSettings": "Avage sätted",
+  "qiblaCompassLoading": "Leian teie asukohta…",
+  "qiblaTowardMecca": "Mekkale poole",
+
+  "prayerTimesTitle": "Palveajad",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Asukoht nõutav",
+  "prayerTimesLocationNeededBody": "Luba asukoha juurdepääs, et Nuria saaks arvutada täpsed palveajad teie linnale.",
+  "prayerTimesNextLabel": "Järgmine",
+  "prayerTimesDoneLabel": "Tehtud",
+
+  "monthlyPrayerTimesTitle": "Kuulised palveajad",
+  "monthlyPrayerTimesViewButton": "Vaata täiskuud",
+  "monthlyPrayerTimesNextMonth": "Järgmine kuu",
+  "monthlyPrayerTimesDayHeader": "Päev",
+
+  "sharePrayerTimes": "Jaga palveaegasid",
+
+  "prayerNotificationsTitle": "Palve meeldetuletused",
+  "prayerNotificationsDescription": "Saate leebe meeldetuletus enne iga palveaega, et jääda kogu päeva jooksul ühenduses.",
+  "prayerNotificationsEnable": "Luba palve meeldetuletused",
+  "prayerNotificationsOpenSettings": "Ava teavituste sätted",
+  "prayerNotificationsDenied": "Teavitused on keelatud",
+  "prayerNotificationsDeniedHint": "Minge sätetes ja lubage Nuria jaoks teavitused, et saada palveaegade meeldetuletusi.",
+
+  "notificationsConsentLabel": "Luba teavitused palveaegade jaoks",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Koidiku palve",
+  "prayerNotifBodyFajr": "Parim palvetest on koidiku palve. Tõuske, puhaske end ja seisake Allahi ees.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Keskpäeva palve",
+  "prayerNotifBodyDhuhr": "Peatage oma päev ja naase Allahe juurde. Dhuhr palveaeg on käes.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Pärastlõuna palve",
+  "prayerNotifBodyAsr": "Hoia keskmist palvet. Asr aeg on käes — ära lase sellel mööduda.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Loojangul palve",
+  "prayerNotifBodyMaghrib": "Päike on loojunud. Ohverdage Maghrib ja olge tänutundlik Allahe.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Ööne palve",
+  "prayerNotifBodyIsha": "Lõpetage oma päev Allahi meeldejuhatamisega. Hayya 'alal falah — tule edu juurde.",
+
+  "outOfReflectionsBannerText": "Olete kasutanud kõik oma meditatsioonid",
+  "outOfReflectionsBannerCta": "Hangi rohkem",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Puudutage ringi loendamiseks",
+  "dhikrResetButton": "Lähtesta",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Olete täitnud 99 Allahi meeldejuhatust. Olgu need teie südame valguslahter.",
+
+  "disclaimerTitle": "Selle rakenduse juhendamise kohta",
+  "disclaimerBody": "Nuria pakub islamilisi meditatsioonid, meeldetuletusi ja vaimseid sisu, et toetada teie isiklikku uskumise teekonda. Seda sisu pakutakse üldisel informatiivsel ja inspireerivatel eesmärkidel.\n\nNuria ei asenda kvalifitseeritud stipendiumit.\nSelle rakenduse juhendamine ei asenda õppinud islami scholastikat, imaami, muftit ega teoloogiliselt koolitatud õpetajat. Kui teil on küsimusi religioossete määruste, halaali ja harami asjade või isiklike religioossete kohustuste kohta, palun konsulteerige oma kogukonna pätevate religioossete asutustega.\n\nSee rakendus ei anna religioosseid määrusi.\nNuria ei tee autoritaarseid määrusi fiqh (islami juriidilisuse) asjade ega isiklike religioossete kohustuste üle. Miski siin ei peaks käsitama fatvaa või siduva religioossetena.\n\nScholastiline tõlgendamine erineb.\nIslaam hõlmab rikkalikult traditsioonide, mõttekoolide (madhab) ja stipendiaalaseid arvamusi. Sisu selles rakenduses peegeldab üldiseid perspektiive ja ei pruugi võrdselt esindada kõiki traditsioone või koole.\n\nKogukond on oluline.\nSee rakendus eesmärk on julgustada teie kaasamist usku traditsioonidesse, samas kui sügavalt respekteerides teie kohaliku moskeega, imaami ja religioosset kogukonda tähtsat rolli. Julgustame teid jätkama sidet ja õpingute omandamist teie lähedal asuvatelt pätevate õpetajate käest.",
+  "disclaimerClose": "Sain aru",
+  "disclaimerInfoTooltip": "Selle rakenduse juhendamise kohta",
+  "disclaimerSettingsSubtitle": "Üldiseks teabeks. Puudutage täielike vastutulemuse lugemiseks.",
+  "disclaimerSectionHeader": "Juhendamise vastuväide"
+}

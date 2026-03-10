@@ -1,0 +1,585 @@
+{
+  "@@locale": "ny",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Sankhani chinenero chanu",
+  "languageSelectSub": "Mutha kusintha izi pambuyo pake mu Settings",
+  "actionContinue": "Pitilize",
+  "languageSuggestedHeader": "Zothandizira",
+  "languageAllHeader": "Zinenero zonse",
+  "languageSuggestedBadge": "Zothandizira",
+  "languageSearchHint": "Fufuzani...",
+
+  "planGrace": "Wamba",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Ndondomeko Ya Tsiku Lonse",
+  "categoryFaithTrust": "Chikhulupiriro Ndi Kutenga Mtima",
+  "categoryPrayerReflection": "Kuponya Mano Kulingalirako",
+  "categoryHopeDifficultTimes": "Kumwa Mtima Ndi Chiyembekezo",
+  "categoryForgiveness": "Kufuna Mwankhoswe",
+  "categoryLoveCompassion": "Chisoni Ndi Wotambirana",
+  "categoryStrengthCourage": "Mphamvu Ya Chikhulupiriro",
+  "categoryGratitude": "Mtima Wosiyidwa",
+  "categoryPurposeCalling": "Cholinga Cha Moyo",
+  "categoryFamilyRelationships": "Umunthu Wa Banja",
+  "categoryPeaceAnxietyRelief": "Mtendere Wamkati",
+  "categoryWisdomOfJesus": "Nzeru Ya Maporofeta",
+  "categoryHumilityCharacter": "Kunyenyezeka Ndi Khalakha",
+  "categoryOvercomingTemptation": "Kukana Manyasiro",
+  "categoryEveningReflection": "Kulingalira Chakasinthu",
+  "categoryCustom": "Kuganizira Kwanga",
+  "dhikrMeaningSubhanallah": "Uchindwe kwa Allah",
+  "dhikrMeaningAlhamdulillah": "Madalitso onse ndi a Allah",
+  "dhikrMeaningAllahuAkbar": "Allah ndi Wokhulupirika",
+  "quranVerseHeartAtRest": "Choncho, mu kukumbukira Allah, mitima imapeza mtendere.",
+
+  "promptHint": "Dina gulu limodzi kuti mupeze ndondomeko ya Islamic ndi kulingalira",
+
+  "currentLanguage": "Chinenero chikalicho",
+  "settingsLanguage": "Mwa chinenero",
+  "settingsTitle": "Mwini",
+  "chooseLanguage": "Sankhani chinenero chanu",
+  "continueCta": "Pitilize",
+
+  "promptDailyGuidance": "Lembani ndondomeko yachangu komanso yomveka, yomwe ili mu chikhulupiriro cha Islamic cha Sunni — yoyambira mu Quran, Hadith, ndi maphunziro a Maporofeta Muhammad. Sankhani njira yatsopano gwiriti: mphamvu ya khalakha ya Islamic, chowona mu Sunnah, nzeru ya Ashabah a Maporofeta, kapena ntchito yabasi ya Islamic. Gwalitsani Ayi Limodzi a Quran (Surah:Ayah) ndi kulingalira kwa ma entence 1–2 komwe muntha kumva tsiku lonse. Mutha kugwiritsa ntchito calendar ya Islamic kapena nthawi yosiyana ngati iliyonse.",
+
+  "promptFaithTrust": "Lembani kulingalira koona ka Islamic pa Iman (chikhulupiriro) ndi kutenga mtima kwa zoyenera za Allah (Tawakkul). Yambitsani mu Quran, chitsanzo cha Maporofeta Muhammad, ndi chikhulupiriro cha Sahaba. Sinthani mutu gwiriti: kutenga mtima kwa Allah mu thamangizo, kumyankhula kwa nzeru ya Mulungu, kumwa mtima mu miyoyoyo, kapena kumwa mtima nthawi zonse mu moyo wambaridi. Gwalitsani Ayi Limodzi a Quran ndi njira limodzi yomveka kwa tsiku lino yomwe ili mu nzeru ya Islamic.",
+
+  "promptPrayerReflection": "Lembani kulingalira koona ka Islamic pa Salah, Dua, kapena Dhikr. Sinthani mawonekedwe gwiriti: kulingalirako kumakangana kapena kumakasinthu (Adhkar), kulingalira pa zipangizo zisanu za tsiku lonse, kulingalira kwa Ayi wa Quran, kapena kumepukila mtima kwa Allah. Gwalitsani Ayi Limodzi a Quran ndi dzina loseketsa la mawonekedwe amapipila omwe amagwiritsidwa.",
+
+  "promptHopeDifficultTimes": "Lembani kulingalira koona ka Islamic pa kumwa mtima (Sabr) ndi chiyembekezo mu nthawi yovuta. Menjani maphunziro a Quran pa miyoyoyo, kumwa mtima kwa Maporofeta, ndi chisoni cha Allah mu nthawi yovuta. Sinthani mawonekedwe gwiriti. Gwalitsani Ayi Limodzi a Quran ndi mawonekedwe amakondweza omwe ali mu Islamic.",
+
+  "promptForgiveness": "Lembani kulingalira koona komanso kodziwika pa kufuna mwankhoswe (Tawbah) ndi chisoni cha Allah. Menjani maphunziro a Quran pa tawbah, chisoni cha Allah, ndi chitsanzo cha Maporofeta Muhammad pa kukhululukira. Sinthani mutu gwiriti: kubwerera kwa Allah, kukhululukira anthu ena, kupalamwira maubale, kapena kumverekeza chisoni cha Allah pambuyo pa zolakwa. Gwalitsani Ayi Limodzi a Quran ndi njira imodzi ya pomwe.",
+
+  "promptLoveCompassion": "Lembani kulingalira koona ka Islamic pa chisoni (Rahmah) ndi wotambirana mu moyo wambaridi. Menjani chitsanzo cha Maporofeta Muhammad, nchikhalidwe ya Ihsan (kulimba), ndi maphunziro a Islamic pa chitimbire pa banja, anzanu, ndi anthu akutali. Gwalitsani Ayi Limodzi a Quran ndi ntchito imodzi yachangu ya chisoni yomwe muntha kuchita tsiku lino.",
+
+  "promptStrengthCourage": "Lembani kulingalira koona ka Islamic pa mphamvu ndi chisoni ya chikhulupiriro. Menjani zitsanzo za Maporofeta, anthu oyambira a Islamic, ndi anthu okhulupirira omwe adakhalira mokhonokho mu nthawi yovuta. Sinthani mutu gwiriti gwiriti: chisoni popela mu chikhulupiriro, mphamvu mu mapipila, kutenga mtima mu Allah mu nthawi ya mantha, kapena kumwa mtima mu misodzi. Gwalitsani Ayi Limodzi a Quran ndi pempho yachangu kapena mawu a Dhikr.",
+
+  "promptGratitude": "Lembani kulingalira koona ka Islamic pa kusiyidwa (Shukr) kwa Allah. Yambitsani mu maphunziro a Quran ndi Islamic. Sinthani mawonekedwe gwiriti: kusiyidwa mu nthawi yovuta, kulingalira zabwino zachangu, kumayamba tsiku kwa chidale cha Allah, kapena kumverekeza kutembenuka kwa Allah mu moyo wambaridi. Gwalitsani Ayi Limodzi a Quran ndi ntchito ya kusiyidwa.",
+
+  "promptPurposeCalling": "Lembani kulingalira koona ka Islamic pa cholinga cha moyo mu kulumikira Allah ndi kukhala mokhonokho. Menjani maphunziro a Quran pa cholinga, kuthamangira anthu ena, ndi kugwiritsa ntchito za Allah kwa zabwino. Sinthani mutu gwiriti: kuthamangira banja ndi chilamulo, kufufuza ndondomeko mwa Istikhara, kukhala ndi cholinga, kapena kupeza tanthauzo mu ntchito wamba. Gwalitsani Ayi Limodzi a Quran ndi mafunso awiri olingalirika.",
+
+  "promptFamilyRelationships": "Lembani ndondomeko ya Islamic yodziwika pa banja ndi maubale omwe ali mu maphunziro a Quran ndi chitsanzo cha Maporofeta Muhammad. Sinthani mutu gwiriti: chitimbire mu banja, kumwa mtima mu nkhondo, kunyanyetsa abambo ananu, kuimera ana mu chikhulupiriro, kapena kukulitsa ubale wa latu. Gwalitsani Ayi Limodzi a Quran ndi ntchito ya ubale yomwe muntha kuyesera.",
+
+  "promptPeaceAnxietyRelief": "Lembani kulingalira koona yosafika ka Islamic pa kupeza mtendere wamkati popela mu Dhikr ya Allah (Dhikr) ndi kutenga mtima kwa zoyenera zake. Menjani maphunziro a Quran pa mtendere wa mtima, mapipila, ndi kupereka mwachinsinsi kwa cholinga cha Allah. Sinthani njira gwiriti ndi gwalitsani Ayi Limodzi a Quran ndi ntchito imodzi yachangu ya Islamic.",
+
+  "promptWisdomOfJesus": "Lembani nzeru yachangu ya Maporofeta yomwe ili mu Islamic. Menjani Quran kapena Hadith ndi kufotokozera mwachidule momwe ma Islamic scholarship amavetsetsa maphunziro. Sinthani mutu gwiriti: khalakha, kumwa mtima, kunyenyezeka, chikhulupiriro, kapena khalakha ya tsiku lonse. Gwalitsani Ayi a Quran kapena Hadith ndi kugwiritsa ntchito kamodzi.",
+
+  "promptHumilityCharacter": "Lembani kulingalira koona ka Islamic pa kunyenyezeka (Tawadhu) ndi khalakha yabwino (Akhlaq). Menjani maphunziro a Quran, chitsanzo cha Maporofeta Muhammad, ndi nthano ya kukulitsa khalakha ya Islamic. Sinthani mutu gwiriti: kunyenyezeka mu chilamulo, kumvera zolakwa zanu, kumtalika anthu ena ndi chifuwa, kapena kulimba mwa kulingalira. Gwalitsani Ayi Limodzi a Quran ndi ntchito ya kumva.",
+
+  "promptOvercomingTemptation": "Lembani kulingalira koona ka Islamic pa kukana manyasiro ndi kukhala mu njira yabwino. Menjani ndondomeko ya Quran, Dhikr ya Allah (Dhikr), mapipila (Salah), ndi zitsanzo za anthu okhulupirira omwe adakana miyoyoyo. Sinthani mawonekedwe gwiriti. Gwalitsani Ayi Limodzi a Quran ndi njira imodzi ya pomwe kwa maola 24 apitiliza.",
+
+  "promptEveningReflection": "Lembani kulingalira koona yosafika ka Islamic kumakasinthu omwe ili mu nthano ya kumakasinthu (Adhkar al-Masaa'). Chikhulupirire kusiyidwa, kulingalira kwa paokha (Muhasabah), ndi kutenga mtima kwa Allah musanaphunzire. Gwalitsani mafunso 3–5 a kulingalira pa tsiku, pepho yachangu yomaliza, ndi Ayi Limodzi a Quran.",
+
+  "wordCount": "{count, plural, one {{count} mawu} other {{count} mawu}}",
+
+  "optionsCta": "Zosankha",
+  "newCta": "Yatsopano",
+  "actionsTitle": "Chani chomwe mungafune kuchita?",
+  "copy": "Lemba",
+  "share": "Gauni",
+  "close": "Funika",
+  "copiedToast": "Lemba mu clipboard",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Ndondomeko Ya Tsiku Lonse" }
+    }
+  },
+
+  "regenerateErrorTitle": "Sikunathe kupanga modzodzegezeka",
+  "regenerateErrorBody": "{error}\n\nKuti muyesere chatsopano?",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Cholakwika cha Intaneti" }
+    }
+  },
+
+  "cancelCta": "Bwerani",
+  "retryCta": "Yesani chatsopano",
+
+  "authTitle": "Pangani akaunti yanu",
+  "continueAsGuest": "Pitilizani monga mgeni",
+  "signInGoogle": "Logina ndi Google",
+  "signInApple": "Logina ndi Apple",
+  "signInEmail": "Logina ndi Imelo",
+  "upgradeWithApple": "Pitilizani ndi Apple",
+  "mustAccept": "Muyenera kuvomereza Terms ndi kumvera Privacy Policy.",
+  "termsLabel": "Ndikuvomereza Terms of Service",
+  "privacyLabel": "Ndawerengera Privacy Policy",
+  "marketingOptIn": "Ndikuvomereza kuti ndipeze nambala ndi malonda",
+  "openTerms": "Terms of Service",
+  "openPrivacy": "Privacy Policy",
+
+  "accountSection": "Akaunti",
+  "guestMode": "Njira ya mgeni",
+  "signedIn": "Walogina",
+  "upgradeHint": "Sungani kulingalira kwanu mu zomwe zimachitika zosiyanasiyana pa Barakah.",
+  "upgradeWithGoogle": "Pitilizani ndi Google",
+  "signOut": "Loginapo",
+
+  "snackUpgraded": "Akaunti iyakukulitsidwa ndi Google ✅",
+  "snackSignedIn": "Walogina ndi Google ✅",
+  "snackSignedOut": "Walogina",
+  "snackSignedInApple": "Walogina ndi Apple ✅",
+  "snackSignedInGoogle": "Walogina ndi Google ✅",
+  "snackUpgradedApple": "Akaunti iyakukulitsidwa ndi Apple ✅",
+  "snackUpgradedGoogle": "Akaunti iyakukulitsidwa ndi Google ✅",
+
+  "historyTitle": "Kulingalira komwe kwadapita",
+  "historyOpenCta": "Kulingalira komwe kwadapita",
+  "historyEmpty": "Palibe kulingalira kosunga.",
+  "historyDeleteTitle": "Bani kulingalira?",
+  "historyDeleteBody": "Izi zibani pazinzake pa ndimi yonse.",
+  "deleteCta": "Bani",
+
+  "historyButton": "Kulingalira Komwe Kwadapita",
+  "historyEmptyTitle": "Palibe kulingalira",
+  "historyEmptyBody": "Pangani chinthu choyamba — zanu zosunga zidzawonekeza muno.",
+  "historyDelete": "Bani",
+
+  "footerTitle": "Ndi Iman, Sabr ndi Rahmah.",
+  "footerSubtitle": "Njira imodzi panthawi zonse.",
+  "genericErrorSnack": "Zambazi zina — pezani munthawi ina.",
+
+  "upgradeAccountCta": "Sungani kulingalira kwanu mu zomwe zimachitika — pangani akaunti",
+  "deleteAccount": "Bani akaunti",
+  "exportData": "Ponya data yanga",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Kumwa mtima 🐯\nAI ikuisowa kanthawi kusintha...",
+  "rateDailyLimit": "Ndikutha kulingalira kwamaomwe.\nPezani kulingalira kwina kapena kukulitsa kwa Barakah.",
+  "rateCreditsExhausted": "Wagwiritse ntchito kulingalira kwanu konse.\nLochanji kapena kukulitsa kwa Barakah kuti kupitilize.",
+  "rateGraceReflectionsExhausted": "Ndikutha kulingalira kwamaomwe.\nPezani kulingalira kwina kapena kukulitsa kwa Barakah.",
+  "rateReflectionsExhausted": "Wagwiritse ntchito kulingalira kwanu konse.\nLochanji kapena kukulitsa kwa Barakah kuti kupitilize.",
+
+  "blessedDescription": "Barakah akuwunika zinthu zamkati, magulu otsopano, ndi badge yapadera.",
+  "championDescription": "Barakah akuwunika zinthu zamkati, magulu otsopano, ndi badge yapadera.",
+
+  "ratePlanExhausted": "Kulingalira kwanu ndikutha makomawo. Plan: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Wamba kapena Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Sikunathe kuyang'ana kulingalira kwanu: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Cholakwika cha Intaneti" }
+    }
+  },
+
+  "rateCheckGenericError": "Zambazi pang'onopang'ono pomwe kuyang'ana kulingalira kwanu.",
+  "aiFallbackGeneric": "Zambazi zina — pezani munthawi ina.",
+
+  "limitSectionTitle": "Kulingalira",
+  "limitTodayLabel": "Kugwiritsa",
+  "limitCreditsLabel": "Kulingalira komwe kusala: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plan: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Wamba kapena Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Kufufuza...",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
+
+  "aiLimitTitle": "Kulingalira",
+  "aiLimitSubtitle": "Mitundu yina imugwiritsa 1 kulingalira. Wamba imaphatikiza kulingalira kwoyambira. Barakah akuwunika magulu omtalika ndi akavomerezera kulochanji.",
+  "aiLimitProgressLabel": "{used} / {total} kulingalira kugwiritsidwa",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Kulingalira",
+  "reflectionsUsageLabel": "Kugwiritsa",
+  "reflectionsRemainingLabel": "Kulingalira komwe kusala: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plan: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Wamba kapena Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Kufufuza...",
+  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+
+  "reflectionsTitle": "Kulingalira",
+  "reflectionsSubtitle": "Mitundu yina imugwiritsa 1 kulingalira. Wamba imaphatikiza kulingalira kwoyambira. Barakah akuwunika magulu omtalika ndi akavomerezera kulochanji.",
+  "reflectionsProgressLabel": "{used} / {total} kulingalira kugwiritsidwa",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Bani akaunti",
+  "settingsDeleteDescription": "Bani akaunti yanu ndi data zonse zomwe ili nazo pa nthawi yonse.",
+  "settingsDeleteButtonLabel": "Bani akaunti yanga",
+  "settingsDeleteDialogTitle": "Bani akaunti?",
+  "settingsDeleteDialogBody": "Zomwe zimachitika zimatha ndi sizinabwezerezedwa.\n\nMakipelo anu onse, zomwe zapita ndi mfundo za akaunti zabanidbwe.",
+  "settingsDeleteDialogCancel": "Bwerani",
+  "settingsDeleteDialogConfirm": "Bani",
+
+  "settingsFreeLimitUsedTitle": "Kulingalira kwoyambira kugwiritsidwa",
+  "settingsFreeLimitUsedDescription": "Kulingalira kwoyambira pa chipangizo chomwecho chagwiritsidwa. Kukulitsa kwa Barakah kapena kutenganji kulingalira kuti kupitilize.",
+
+  "settingsStarterReflectionsUsedTitle": "Kulingalira kwoyambira kugwiritsidwa",
+  "settingsStarterReflectionsUsedDescription": "Kulingalira kwoyambira pa chipangizo chomwecho chagwiritsidwa. Kukulitsa kwa Barakah kapena kutenganji kulingalira kuti kupitilize.",
+
+  "deviceBoundError": "Chipangizo chomwecho chili ndi akaunti ina. Pezani kulogina ndi akaunti yoyamba.",
+
+  "premiumTitle": "Njira ya Barakah",
+  "premiumSubtitleBasic": "Wunika kachirembe cha Nuria.",
+  "premiumSubtitleChampion": "Inu ndi Barakah. Mfuno kulingalira kwina?",
+
+  "premiumCurrentPlan": "Plan yanu: {plan}",
+  "premiumCreditsStatus": "Kulingalira: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Zatenganji palibe pakali.",
+  "premiumSignInToPurchase": "Logina kuti tengenji kulingalira kapena kukulitsa Barakah.",
+
+  "premiumRestorePurchases": "Sunga zatenganji",
+  "premiumProcessing": "Kugwira...",
+  "premiumRestoreHintTitle": "Katengenji Barakah kapena kulingalira pa chipangizo chomwecho kapena china?",
+  "premiumRestoreHintBody": "Sunga zatenganji munjira yomwe sizingawonekeze.",
+
+  "premiumBuyCredits200": "Tenga kulingalira 200",
+  "premiumBuyCredits400": "Tenga kulingalira 400",
+  "premiumBecomeChampionOneTime": "Kukulitsa kwa Njira ya Barakah",
+  "premiumChampionHint": "Monga Barakah, muntha kulochanji ndi kulingalira kwake nthawi iliyonse mukufuna.",
+
+  "premiumUpgradeCta": "Kukulitsa",
+  "premiumRequiredForCategory": "Gulu lino likupezeka kwa Barakah okha. Kukulitsa mu Settings kuti wunika zinthu zonse zamkati.",
+  "premiumBenefitsBasic": "Wunika Barakah kuti mupeze kulingalira kwakula, mfinzo magulu osamveka, ndi kupitilize nthawi iliyonse mukufuna.",
+  "premiumBenefitsChampion": "Inu muli mu Njira ya Barakah. Ngati ndinu pachangu, onjezani kulingalira kwina ndi pitilizani",
+  "premiumButtonBecomeChampion": "Wunika Barakah",
+  "premiumButtonTopup1000": "Onjeza kulingalira 1000",
+  "premiumChampionBadge": "Barakah ikuchita",
+  "premiumLoadingStore": "Kufufuza sitolo...",
+
+  "blessedTitle": "Njira ya Barakah",
+  "blessedSubtitleGrace": "Wunika kachirembe cha Nuria.",
+  "blessedSubtitleBlessed": "Inu ndi Barakah. Mfuno kulingalira kwina?",
+
+  "blessedCurrentPlan": "Plan yanu: {plan}",
+  "blessedReflectionsStatus": "Kulingalira: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Zatenganji palibe pakali.",
+  "blessedProductNotAvailable": "Chinthu chomwecho chimapezeke mu sitolo. Pezani pambuyo pake.",
+  "blessedPurchaseError": "Zambazi pang'onopang'ono pamatenganji. Pezani chatsopano.",
+  "blessedSignInToPurchase": "Logina kuti tengenji kulingalira kapena kukulitsa Barakah.",
+
+  "blessedRestorePurchases": "Sunga zatenganji",
+  "blessedProcessing": "Kugwira...",
+  "blessedRestoreHintTitle": "Katengenji Barakah kapena kulingalira pa chipangizo chomwecho kapena china?",
+  "blessedRestoreHintBody": "Sunga zatenganji munjira yomwe sizingawonekeze.",
+
+  "blessedBuyReflections100": "Onjeza kulingalira 100",
+  "blessedBuyReflections200": "Tenga kulingalira 200",
+  "blessedBuyReflections400": "Tenga kulingalira 400",
+  "blessedBecomeBlessedOneTime": "Kukulitsa kwa Barakah",
+  "blessedTopupHint": "Monga Barakah, muntha kulochanji ndi kulingalira kwake nthawi iliyonse mukufuna.",
+
+  "blessedUpgradeCta": "Kukulitsa",
+  "blessedRequiredForCategory": "Gulu lino likupezeka kwa Barakah okha. Kukulitsa mu Settings kuti wunika zinthu zonse zamkati.",
+  "blessedFeatureLocked": "Wunika Barakah kuti mufumike chinthucho.",
+  "lockedCategoriesHint": "Magulu ena amakonzedwa kwa Barakah okha. Wunika awo kuti muwone kulingalira kwanu konse.",
+  "blessedBenefitsGrace": "Wunika Barakah kuti mupeze kulingalira kwakula, mfinzo magulu osamveka, ndi kupitilize nthawi iliyonse mukufuna.",
+  "blessedBenefitsBlessed": "Inu muli mu Njira ya Barakah. Ngati ndinu pachangu, onjezani kulingalira kwina ndi pitilizani",
+  "blessedButtonBecomeBlessed": "Wunika Barakah",
+  "blessedButtonTopup1000": "Onjeza kulingalira 1000",
+  "blessedBadge": "Barakah ikuchita",
+  "blessedLoadingStore": "Kufufuza sitolo...",
+
+  "freePlanBlockedTitle": "Wagwiritse ntchito kulingalira kwa oyambira",
+  "freePlanBlockedBody": "Inu ndi plan ya Wamba ndi kulingalira kwa oyambira, ndi wakutha. Kuti kupitilize — ndi kukulitsa Barakah — kukulitsa Barakah.",
+  "freePlanBlockedCtaGoPremium": "Onani zosankha za Barakah pansipa",
+
+  "graceBlockedTitle": "Wagwiritse ntchito kulingalira kwa oyambira",
+  "graceBlockedBody": "Inu ndi plan ya Wamba ndi kulingalira kwa oyambira, ndi wakutha. Kuti kupitilize — ndi kukulitsa Barakah — kukulitsa Barakah.",
+  "graceBlockedCtaGoBlessed": "Onani zosankha za Barakah pansipa",
+
+  "rateGuestMustSignIn": "Logina kuti mugwiritse Nuria ndi kulingalira kwanu.",
+
+  "guestNoCreditsTitle": "Njira ya mgeni",
+  "guestNoCreditsBody": "Monga mgeni muntha kuwona app, koma simuntha kugwiritsa kulingalira. Logina pambuyo pake mu Settings kuti mugwiritse kulingalira ndi kukulitsa.",
+
+  "guestNoReflectionsTitle": "Njira ya mgeni",
+  "guestNoReflectionsBody": "Monga mgeni muntha kuwona app, koma simuntha kugwiritsa kulingalira. Logina pambuyo pake mu Settings kuti mugwiritse kulingalira ndi kukulitsa.",
+
+  "guestDialogContinue": "Pitilize",
+  "guestDialogLoginInstead": "Logina m'malo",
+
+  "optionalLabel": "zosankha",
+
+  "accountDeleteSuccessTitle": "Akaunti ibanidbwe",
+  "accountDeleteSuccessBody": "Akaunti yanu ndi data zomwe ili nazo zabanidbwe molungu.",
+  "accountDeleteSuccessClose": "Funika",
+  "accountDeleteErrorTitle": "Sikunathandize kubanidwa kwa akaunti",
+  "accountDeleteErrorClose": "Mwini",
+  "accountDeleteReauthCancelled": "Kutsutsa kuloginaji kanalembedwa. Pezani kulogina chatsopano ndi yesani katsopano.",
+  "accountDeleteReauthRequired": "Kubanidwa kwa akaunti kumagana kulogina kumakakwamba. Pezani kulogina, kulogina chatsopano, ndi yesani katsopano.",
+  "settingsDeletePermanentWarning": "Zomwe zimachitika zimatha ndi sizinabwezerezedwa. Data yonse ya akaunti yanu ibanidbwe.",
+
+  "dailyGraceTitle": "Ndondomeko Ya Tsiku Lonse",
+  "dailyGraceScriptureLabel": "AYIN ANTHAWI",
+  "dailyGraceSaintLabel": "MLALENDO WA SABATA",
+  "dailyGraceReflectionLabel": "KULINGALIRA KUMAKASINTHU",
+  "dailyGraceCopiedToast": "Ayi lemba mu clipboard",
+
+  "dailyScripture0Text": "Chomenencho, okhulupirira adzakhalamo gulu lathompho ndi nyanja, m'malo abwino pafupi ndi Mfumulizi Yamphamvu.",
+  "dailyScripture0Ref": "Quran 54:54-55",
+  "dailyScripture1Text": "Ndi tissindikiza iwe, O Muhammad, komanso kusiyidwa kwa ulimwengu wonse.",
+  "dailyScripture1Ref": "Quran 21:107",
+  "dailyScripture2Text": "Siziyo yoti Allah akwanira mu mphunziro wake? Komakaso akukulani ndi ena.",
+  "dailyScripture2Ref": "Quran 39:36",
+  "dailyScripture3Text": "Patuluka kuti chakuumpha ndi zabwino kwa inyo; ndi patuluka kuti chakufuna ndi zabwino lokha. Ndi Allah adzadziwa, inyo sizingadziwa.",
+  "dailyScripture3Ref": "Quran 2:216",
+  "dailyScripture4Text": "Chomenencho, Allah ali ndi anthu omwa mtima.",
+  "dailyScripture4Ref": "Quran 2:153",
+  "dailyScripture5Text": "Motero ngindikhumbukire; ine ndidzakukhumbukira inyo. Ndi ndikhumbukire, ndipo musakhumbuke.",
+  "dailyScripture5Ref": "Quran 2:152",
+  "dailyScripture6Text": "Chomenencho, okhulupirira kwambiri m'makumaso a Allah ndi a khalakha.",
+  "dailyScripture6Ref": "Quran 49:13",
+  "dailyScripture7Text": "Ndi Mkulu wanu wakutsimikiza kuti sipalimonse koma Iye, ndi kusiyidwa kwa abambo anu.",
+  "dailyScripture7Ref": "Quran 17:23",
+  "dailyScripture8Text": "Chonsecho, ndi kusankha kumakhala kusiyidwa.",
+  "dailyScripture8Ref": "Quran 94:6",
+  "dailyScripture9Text": "Ndi ali ndi inyo pomwe muli. Ndi Allah, ndi zomwe mungumiwa, akuyang'ana.",
+  "dailyScripture9Ref": "Quran 57:4",
+  "dailyScripture10Text": "Allah sukunakhalansi munthu kungokhala kuposa kwa iwo.",
+  "dailyScripture10Ref": "Quran 2:286",
+  "dailyScripture11Text": "Ndi amene akhulupira Allah — ndiye akwanira.",
+  "dailyScripture11Ref": "Quran 65:3",
+  "dailyScripture12Text": "Chisoni changa chibadwa zinthu zonse.",
+  "dailyScripture12Ref": "Quran 7:156",
+  "dailyScripture13Text": "Ndi akuti mtumizidwa anga akukuza pa mim — chomenencho ndi pafupi. Ndimayankhula pomwe amapeka.",
+  "dailyScripture13Ref": "Quran 2:186",
+  "dailyScripture14Text": "Amene amachita zabwino, amene ndi mamera kapena abwino, pomwe akhulupirika — titizamapeza kuti azikhala ndi moyo wabwino.",
+  "dailyScripture14Ref": "Quran 16:97",
+  "dailyScripture15Text": "Chomenencho, Allah sukunasintha maudwe a anthu mpaka iwo asintha zomwe ili mu mitima yawo.",
+  "dailyScripture15Ref": "Quran 13:11",
+  "dailyScripture16Text": "Motero musakhalapo ndipo musachedwe, ndi mudzakhala okulira ngati muli amokhulupira.",
+  "dailyScripture16Ref": "Quran 3:139",
+  "dailyScripture17Text": "O mtumizidwa wanga amene asinthapo ndi kusadima, musadimire chisoni cha Allah. Chomenencho, Allah amavetsa zonse.",
+  "dailyScripture17Ref": "Quran 39:53",
+  "dailyScripture18Text": "Ndi amene akumvetsa Allah — iye akumanga njira yake, ndi kumapatsa kwa kumapeza zomwe sanafunanso.",
+  "dailyScripture18Ref": "Quran 65:2-3",
+  "dailyScripture19Text": "Musadimire chisoni cha Allah.",
+  "dailyScripture19Ref": "Quran 12:87",
+  "dailyScripture20Text": "Ndi tatengeza Quran kuti ibwino kukhumbuka. Ine pali amene adzalingalira?",
+  "dailyScripture20Ref": "Quran 54:17",
+  "dailyScripture21Text": "Ndi wakupeza inyo mochedwa ndi akukugidani.",
+  "dailyScripture21Ref": "Quran 93:7",
+  "dailyScripture22Text": "Ndi Mkulu wanu akuti pepani kwa ine; ndimayankhula.",
+  "dailyScripture22Ref": "Quran 40:60",
+  "dailyScripture23Text": "Ndi tatengeza mthamanga wa ana a Adam.",
+  "dailyScripture23Ref": "Quran 17:70",
+  "dailyScripture24Text": "Ndi pezani thandizo mwa kumwa mtima ndi mapipila.",
+  "dailyScripture24Ref": "Quran 2:45",
+  "dailyScripture25Text": "Amene amachita zinthu zaatomu koma zabwino adzaziwona.",
+  "dailyScripture25Ref": "Quran 99:7",
+  "dailyScripture26Text": "Chomenencho, thandizo la Allah ndi pafupi.",
+  "dailyScripture26Ref": "Quran 2:214",
+  "dailyScripture27Text": "Ndi amene akusiyidwa — kusiyidwa kwake kumapindula kuchokera iyeyo.",
+  "dailyScripture27Ref": "Quran 31:12",
+
+  "dailyReflection0": "Pomaliza nthawi yanu, lingalirani mphindi imodzi pomwe chisoni cha Allah cinawonekeka.",
+  "dailyReflection1": "Kalatani kwa Allah chilichonse chomwe chipegeza mtima wanu.",
+  "dailyReflection2": "Dzani kusiyidwa kumodzi kukhonokho ndi kusiyidwa kwa Allah.",
+  "dailyReflection3": "Phumulirani mumadziwa kuti munasungidwa mu chikondi cha Allah.",
+  "dailyReflection4": "Lingalirani pomwe mukumutumidwa kuwonetsa chisoni ndi chitimbire.",
+  "dailyReflection5": "Letani zimene simungathandize ndi kutenga mtima kwa cholinga chabwino cha Allah.",
+  "dailyReflection6": "Pomaliza nthawi, mundani mtendere mwa Dhikr ya Allah.",
+  "dailyReflection7": "Lingalirani momwe munalekedeza mapipila anu ndi kusiyidwa kwa Allah.",
+  "dailyReflection8": "Lingalirani mphindi pomwe kumwa mtima kwakugidani zanu.",
+  "dailyReflection9": "Mufunirani mwankhoswe kwa zinthu zosiyiliza — chisoni cha Allah sichimathe.",
+  "dailyReflection10": "Dzani munthu amodzi yemwe mumwonesetsa chisoni ndi pemirani.",
+  "dailyReflection11": "Khulupirit kusiyidwa: chani chomwe Allah chinakupatsa komwe sinakufunike?",
+  "dailyReflection12": "Lingalirani ayi a Quran yomwe ikutanthauza kumene muli.",
+  "dailyReflection13": "Lingalirani momwe mugwiritsa nthawi yanu — ndi kumsowezetsa Allah nthawi yatsopano.",
+  "dailyReflection14": "Phumulirani mumadziwa kuti pangano lero, Allah anali nanu.",
+  "dailyReflection15": "Lingalirani njira imodzi yomwe munakothira banja kapena chilamulo lero.",
+  "dailyReflection16": "Pomaliza nthawi, pepani Tawbah — Allah amakonda amene amabuwerera.",
+  "dailyReflection17": "Lingalirani abwino a Allah omwe adapachila.",
+  "dailyReflection18": "Lingalirani zomwe munaziphunzira ndi momwe zimakutalikitsani kwa Allah.",
+  "dailyReflection19": "Letani nkhawa za nthawi ndi Allah — iye amakhumatula zomwe simungathandize.",
+  "dailyReflection20": "Lingalirani mphindi komwe munatha kukhala abwino, ndi kuphunzira.",
+  "dailyReflection21": "Pemirani anthu omwe akuvutika — pepani yanu ndi mphatso yawo.",
+  "dailyReflection22": "Khumbukira kusiyidwa komwe simungankhumbuk ndi kusiyidwa kwa Allah.",
+  "dailyReflection23": "Lingalirani zolinga zanu — ankale za Allah? Nthawi yatsopano, yambani chatsopano.",
+  "dailyReflection24": "Pomaliza nthawi, dumphani kwa Allah — ali pafupi.",
+  "dailyReflection25": "Lingalirani pomwe mwapeza mphamvu — mphamvu iyi imangokhala ndiyakwa Allah.",
+  "dailyReflection26": "Dzani chinthu chimodzi chomwe munzachita bumaiyoni kwa Allah.",
+  "dailyReflection27": "Polamula kuphunzira, sowezetsan mzimu wanu kwa Allah — iye ndiye wachilungamo.",
+
+  "dailyRoleModel0": "Maporofeta Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Maporofeta Ibrahim (AS)",
+  "dailyRoleModel44": "Maporofeta Musa (AS)",
+  "dailyRoleModel45": "Maporofeta Isa (AS)",
+  "dailyRoleModel46": "Maporofeta Yusuf (AS)",
+  "dailyRoleModel47": "Maporofeta Dawud (AS)",
+  "dailyRoleModel48": "Maporofeta Sulayman (AS)",
+  "dailyRoleModel49": "Maporofeta Nuh (AS)",
+  "dailyRoleModel50": "Maporofeta Yunus (AS)",
+  "dailyRoleModel51": "Maporofeta Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Lozezekan Nuria kuti igwiritse malo anga kwa chizindikiro ndi nthawi za mapipila",
+  "locationConsentHint": "Likugwiritsidwa kwa zinthu izi okha. Malo anu siagauna kapena kusunga.",
+
+  "askPageTitle": "Funirani Nuria",
+  "askPageDescription": "Funani chilichonse pa chikhulupiriro, mapipila, moyo, kapena khalakha ya Islamic ndi mupeze ndondomeko yomwe ili mu Quran ndi Sunnah.",
+  "askPageInputHint": "Lembani funso lanu...",
+  "askPageSubmitCta": "Funirani",
+  "askPageInputEmptyError": "Lembani funso lanu lolenjeza.",
+  "askResultYourQuestion": "Funso lanu",
+
+  "guidancePageTitle": "Mapipila Ndi Ndondomeko",
+  "qiblaFacingMecca": "Kutemberana ndi Makkah",
+  "qiblaCompassInstruction": "Bweretsani chipangizo chanu mpaka kuta yagolide igwire pamwamba.\nChizindikiromcho chinayimira kwa Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Chizindikiro cha GPS chimatheka. Pitani panja ndi dina Yesani.",
+  "qiblaRetry": "Yesani",
+  "qiblaTitle": "Chizindikiro cha Qibla",
+  "qiblaDistanceLabel": "{km} km mpaka Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Malo azifunika",
+  "qiblaLocationNeededBody": "Lozezekan malo kuti Nuria ikhale ndi ndege ya Kaaba pa Makkah kumene muli.",
+  "qiblaOpenSettings": "Ufuwupsi Settings",
+  "qiblaCompassLoading": "Kufufuza malo anu...",
+  "qiblaTowardMecca": "Mpaka Makkah",
+
+  "prayerTimesTitle": "Nthawi Za Mapipila",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Malo azifunika",
+  "prayerTimesLocationNeededBody": "Lozezekan malo kuti Nuria ikhale ndi nthawi zabwino za mapipila kwa lamu lanu.",
+  "prayerTimesNextLabel": "Tsopano",
+  "prayerTimesDoneLabel": "Kumalizidwa",
+
+  "monthlyPrayerTimesTitle": "Nthawi Za Mapipila Pa Mwezi",
+  "monthlyPrayerTimesViewButton": "Onani Mwezi Wonse",
+  "monthlyPrayerTimesNextMonth": "Mwezi watsopano",
+  "monthlyPrayerTimesDayHeader": "Nthawi",
+
+  "sharePrayerTimes": "Gauni nthawi za mapipila",
+
+  "prayerNotificationsTitle": "Kutumiza Nthawi Za Mapipila",
+  "prayerNotificationsDescription": "Pezani kutumiza pabili musanagone pa nthawi ya mapipila kuti mukhale kulumikira Allah nsiku lonse.",
+  "prayerNotificationsEnable": "Yetsekan kutumiza kwa mapipila",
+  "prayerNotificationsOpenSettings": "Ufuwupsi mwa kutumiza",
+  "prayerNotificationsDenied": "Kutumiza kunachoka",
+  "prayerNotificationsDeniedHint": "Pitani Settings ndi lozezekan kutumiza kwa Nuria kuti mupeze kutumiza kwa nthawi za mapipila.",
+
+  "notificationsConsentLabel": "Lozezekan kutumiza kwa nthawi za mapipila",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Mapipila a Kumakakwamba",
+  "prayerNotifBodyFajr": "Mapipila abwino kwambiri ndi a kumakakwamba. Mukeni, mundani, ndi imani pamaso pa Allah.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Mapipila a Lachaka",
+  "prayerNotifBodyDhuhr": "Simani nthawi yanu ndi ubwerera kwa Allah. Nthawi ya Dhuhr yafika.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Mapipila a Usiku",
+  "prayerNotifBodyAsr": "Lekanji mapipila a pakati. Nthawi ya Asr yafika — musaiwite.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Mapipila a Chakasinthu",
+  "prayerNotifBodyMaghrib": "Ziro lasungidwa. Pepani Maghrib ndi kusiyidwa kwa Allah pa nthawi yanu.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Mapipila a Usiku",
+  "prayerNotifBodyIsha": "Malizan nthawi yanu ndi Dhikr ya Allah. Hayya 'alal falah — pitani ku kuchita mwambo.",
+
+  "outOfReflectionsBannerText": "Wagwiritse ntchito kulingalira kwanu konse",
+  "outOfReflectionsBannerCta": "Pezani chokwanira",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Dina chirimbi kuti muwereng",
+  "dhikrResetButton": "Yambani",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Munathera kutembenuza kwa Allah 99. Kuti izo zikhale magetsi pa mtima wanu.",
+
+  "disclaimerTitle": "Pa umvekedwe wa app inu",
+  "disclaimerBody": "Nuria imapatsa kulingalira koona ka Islamic, kukhumbukira, ndi zokumbukira za chromu kuti zithandize njira yanu ya chikhulupiriro. Zinthu izi zimapatsidwa kwa cholinga cha mfundo za wamba ndi ndondomeko.\n\nNuria siimaloweza mwachiphunzitso.\nNdondomeko mu app inu siimaloweza kwa mlalendo wakuphunzitsa, imam, mufti, kapena waphunzitso wachikhulupiriro. Ngati muli ndi mafunso pa zolawa za Islamic, zinthu zolipiliro, kapena zodziwika zachikhulupiriro, pezani ndondomeko kwa waphunzitso wakuphunzitsa mu chilamulo chanu.\n\nApp inu simakupatsa zolawa zachikhulupiriro.\nNuria siikupereka zomwe zimadzifuna pa fiqh (Islamic jurisprudence) kapena zodziwika zachikhulupiriro. Zinthu zolanda siziyenera kuganiziridwa monga fatwa kapena zolawa zachikhulupiriro.\n\nMaphunziro asintha.\nIslam imaphatikiza nthano yabwino ya nthano, amalamulo (madhabs), ndi mawonekedwe a mlalendo. Zokumbukira mu app inu zikuwonetsa mawonekedwe awamba komanso zingathe kusiyanasiyana pa nthano iliyonse.\n\nChilamulo chinachimachita.\nApp inu idzakonzekera kuzamilamula mu nthano ya chikhulupiriro pomwe ikulekarsa gawo lolitsa la mosque yanu, imam, ndi anthu anzanu okhulupirira. Tinachimachita kuti mukhale ndi ubale ndi kuti muphunzire kwa waphunzitso akuphunzitsa pafupi.",
+  "disclaimerClose": "Ndamvetsa",
+  "disclaimerInfoTooltip": "Pa umvekedwe wa app inu",
+  "disclaimerSettingsSubtitle": "Kwa cholinga cha mfundo za wamba okha. Dina kuti muwerenge zolemba zonse.",
+  "disclaimerSectionHeader": "Kumvekedwera kwa ndondomeko"
+}

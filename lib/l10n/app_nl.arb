@@ -1,0 +1,585 @@
+{
+  "@@locale": "nl",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Kies je taal",
+  "languageSelectSub": "Je kunt dit later wijzigen in Instellingen",
+  "actionContinue": "Doorgaan",
+  "languageSuggestedHeader": "Aanbevolen",
+  "languageAllHeader": "Alle talen",
+  "languageSuggestedBadge": "Aanbevolen",
+  "languageSearchHint": "Zoeken…",
+
+  "planGrace": "Standaard",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Dagelijkse Begeleiding",
+  "categoryFaithTrust": "Iman & Vertrouwen",
+  "categoryPrayerReflection": "Gebed Bezinning",
+  "categoryHopeDifficultTimes": "Geduld & Hoop",
+  "categoryForgiveness": "Berouw Zoeken",
+  "categoryLoveCompassion": "Barmhartigheid & Medelijden",
+  "categoryStrengthCourage": "Geloof Kracht",
+  "categoryGratitude": "Dankbaar Hart",
+  "categoryPurposeCalling": "Levensdoel",
+  "categoryFamilyRelationships": "Familie Relaties",
+  "categoryPeaceAnxietyRelief": "Innerlijke Vrede",
+  "categoryWisdomOfJesus": "Wijsheid van de Profeten",
+  "categoryHumilityCharacter": "Goed Karakter",
+  "categoryOvercomingTemptation": "Verzoeking Weerstaan",
+  "categoryEveningReflection": "Avond Dhikr",
+  "categoryCustom": "Persoonlijke Reflectie",
+  "dhikrMeaningSubhanallah": "Glorie zij Allah",
+  "dhikrMeaningAlhamdulillah": "Alle lof komt toe aan Allah",
+  "dhikrMeaningAllahuAkbar": "Allah is de Grootste",
+  "quranVerseHeartAtRest": "Waarlijk, in de herinnering aan Allah vinden harten rust.",
+
+  "promptHint": "Tik op een categorie voor islamitische begeleiding en bezinning",
+
+  "currentLanguage": "Huidige taal",
+  "settingsLanguage": "Taalinstellingen",
+  "settingsTitle": "Instellingen",
+  "chooseLanguage": "Kies je taal",
+  "continueCta": "Doorgaan",
+
+  "promptDailyGuidance": "Schrijf een korte, praktische dagelijkse begeleiding geworteld in het Sunni-islamitisch geloof — gebaseerd op de Koran, Hadith en de lessen van Profeet Muhammad. Kies elke keer een nieuw perspectief: een deugd uit islamitische ethiek, een waarheid uit de Soennah, wijsheid van de Metgezellen van de Profeet, of een stille praktijk uit islamitische traditie. Voeg één Koranvers toe (Soera:Vers) en een reflectie van 1-2 zinnen om door de dag mee te nemen. Verbind dit eventueel met de islamitische kalender of een belangrijke datum indien relevant.",
+
+  "promptFaithTrust": "Schrijf een korte islamitische reflectie over Iman (geloof) en vertrouwen in Allahs plan (Tawakkul). Wortels het in de Koran, het voorbeeld van Profeet Muhammad en het geloof van de Sahaba. Varieer het thema elke keer: vertrouwen op Allah in onzekerheid, vertrouwen op goddelijke wijsheid, geduld in beproeving, of stille volharding in het dagelijks leven. Voeg één Koranvers toe en een eerlijk stap voor vandaag voortkomend uit islamitische geestelijke wijsheid.",
+
+  "promptPrayerReflection": "Schrijf een korte islamitische gebedsreflectie geworteld in Salah, Dua of Dhikr. Varieer de vorm elke keer: een ochtend- of avondgedenking (Adhkar), reflectie op de vijf dagelijkse gebeden, overdenking van een Koranvers, of een gemeend gebed. Voeg één Koranvers toe en noem kort de gebruikte gebedsvorm.",
+
+  "promptHopeDifficultTimes": "Schrijf een islamitische reflectie over geduld (Sabr) en hoop tijdens tegenspoed. Put uit Koranische lessen over beproeving, de volharding van de Profeten, en Allahs barmhartigheid in moeilijke momenten. Varieer het perspectief elke keer. Voeg één Koranvers toe en een aanmoedigende zienswijze uit islamitische traditie.",
+
+  "promptForgiveness": "Schrijf een wijze islamitische reflectie over berouw zoeken (Tawbah) en Allahs barmhartigheid. Put uit Koranische lessen over boetedoening, Allahs medelijden, en het vergevensgezinde voorbeeld van Profeet Muhammad. Varieer het thema: terugkeren naar Allah, anderen vergeven, relaties genezen, of geloof hebben in Allahs barmhartigheid na fouten. Voeg één Koranvers toe en één concrete stap.",
+
+  "promptLoveCompassion": "Schrijf een korte islamitische reflectie over barmhartigheid (Rahmah) en medelijden in het dagelijks leven. Put uit het voorbeeld van Profeet Muhammad, het concept van Ihsan (excellentie), en islamitische lessen over vriendelijkheid ten opzichte van familie, buren en kwetsbaren. Voeg één Koranvers toe en één kleine daad van medelijden om vandaag uit te voeren.",
+
+  "promptStrengthCourage": "Schrijf een islamitische reflectie over geloofsgebaseerde kracht en moed. Put uit voorbeelden van de Profeten, de vroege moslimgemeenschap, en gelovigen die standhielden in tegenspoed. Varieer het thema elke keer: moed door geloof, kracht in gebed, vertrouwen op Allah in angst, of veerkracht in moeilijkheid. Voeg één Koranvers toe en een kort gebed of herkenningswoord.",
+
+  "promptGratitude": "Schrijf een islamitische reflectie over dankbaarheid (Shukr) jegens Allah. Wortels het in Koranische leer en profetische traditie. Varieer het perspectief: dankbaarheid in tegenspoed, kleine zegeningen waarderen, de dag beginnen met lof van Allah, of Allahs leiding erkennen in het dagelijks leven. Voeg één Koranvers toe en één dankbaarheidspraktijk.",
+
+  "promptPurposeCalling": "Schrijf een islamitische reflectie over het levensdoel in het vereren van Allah en rechtschapen leven. Put uit Koranische lessen over doel, anderen dienen, en je gaven voor het goede gebruiken. Varieer het thema elke keer: familie en gemeenschap dienen, leiding zoeken door Istikhara, met voornemen leven, of betekenis vinden in gewoon werk. Voeg één Koranvers toe en twee reflectieve vragen.",
+
+  "promptFamilyRelationships": "Schrijf wijze islamitische begeleiding over familie en relaties geworteld in Koranische leer en het voorbeeld van Profeet Muhammad. Varieer het thema elke keer: vriendelijkheid in gezinslevenm geduld in conflict, ouders eren, kinderen in het geloof opvoeden, of huwelijk versterken. Voeg één Koranvers toe en één relationele praktijk om te proberen.",
+
+  "promptPeaceAnxietyRelief": "Schrijf een rustgevende islamitische reflectie over het vinden van innerlijke vrede door gedenking van Allah (Dhikr) en vertrouwen in Zijn plan. Put uit Koranische lessen over rustige harten, gebed en overgave aan Allahs wil. Varieer de benadering elke keer en voeg één Koranvers toe en één eenvoudige grondingspraktijk uit islamitische traditie.",
+
+  "promptWisdomOfJesus": "Schrijf een kort stuk wijsheid van de Profeten zoals geleerd in de Islam. Put uit de Koran of Hadith en leg kort uit hoe islamitische geleerden de leer hebben begrepen. Varieer het onderwerp elke keer: karakter, geduld, bescheidenheid, geloof, of dagelijks gedrag. Voeg een Koranvers of Hadith-referentie toe en één praktische toepassing.",
+
+  "promptHumilityCharacter": "Schrijf een islamitische reflectie over bescheidenheid (Tawadhu) en goed karakter (Akhlaq). Put uit Koranische lessen, het voorbeeld van Profeet Muhammad, en de traditie van islamitische karakterontwikkeling. Varieer het thema: bescheidenheid in leiderschap, fouten erkennen, anderen met respect behandelen, of geestelijk groeien door zelfonderzoek. Voeg één Koranvers toe en één gewoonte om te oefenen.",
+
+  "promptOvercomingTemptation": "Schrijf een islamitische reflectie over verzoeking weerstaan en op het rechte pad blijven. Put uit Koranische begeleiding, gedenking van Allah (Dhikr), gebed (Salah), en voorbeelden van gelovigen die worsteling overwonnen. Varieer het perspectief elke keer. Voeg één Koranvers toe en één praktische strategie voor de komende 24 uur.",
+
+  "promptEveningReflection": "Schrijf een vredevolle islamitische avondreflectie geworteld in de traditie van avondgedenking (Adhkar al-Masaa'). Moedig dankbaarheid aan, zelfonderzoek (Muhasabah), en vertrouwen in Allah voor de rust. Voeg 3–5 korte reflectievragen over de dag toe, een kort sluitend gebed, en één Koranvers.",
+
+  "wordCount": "{count, plural, one {{count} woord} other {{count} woorden}}",
+
+  "optionsCta": "Opties",
+  "newCta": "Nieuw",
+  "actionsTitle": "Wat wil je doen?",
+  "copy": "Kopieren",
+  "share": "Delen",
+  "close": "Sluiten",
+  "copiedToast": "Gekopieerd naar klembord",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "E-mail / deelonderwerp inclusief categorielabel.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Dagelijkse Begeleiding" }
+    }
+  },
+
+  "regenerateErrorTitle": "Kon geen nieuw antwoord genereren",
+  "regenerateErrorBody": "{error}\n\nWil je het opnieuw proberen?",
+  "@regenerateErrorBody": {
+    "description": "Weergegeven wanneer het genereren van een AI-antwoord mislukt.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Netwerkfout" }
+    }
+  },
+
+  "cancelCta": "Annuleren",
+  "retryCta": "Opnieuw proberen",
+
+  "authTitle": "Maak je account aan",
+  "continueAsGuest": "Doorgaan als gast",
+  "signInGoogle": "Inloggen met Google",
+  "signInApple": "Inloggen met Apple",
+  "signInEmail": "Inloggen met e-mail",
+  "upgradeWithApple": "Doorgaan met Apple",
+  "mustAccept": "Je moet de Voorwaarden accepteren en het Privacybeleid erkennen.",
+  "termsLabel": "Ik accepteer de Servicevoorwaarden",
+  "privacyLabel": "Ik heb het Privacybeleid gelezen",
+  "marketingOptIn": "Ik stem in met het ontvangen van nieuws en aanbiedingen",
+  "openTerms": "Servicevoorwaarden",
+  "openPrivacy": "Privacybeleid",
+
+  "accountSection": "Account",
+  "guestMode": "Gastmodus",
+  "signedIn": "Ingelogd",
+  "upgradeHint": "Bewaar je reflecties op alle apparaten door een account aan te maken.",
+  "upgradeWithGoogle": "Doorgaan met Google",
+  "signOut": "Uitloggen",
+
+  "snackUpgraded": "Account geüpgrade met Google ✅",
+  "snackSignedIn": "Ingelogd met Google ✅",
+  "snackSignedOut": "Uitgelogd",
+  "snackSignedInApple": "Ingelogd met Apple ✅",
+  "snackSignedInGoogle": "Ingelogd met Google ✅",
+  "snackUpgradedApple": "Account geüpgrade met Apple ✅",
+  "snackUpgradedGoogle": "Account geüpgrade met Google ✅",
+
+  "historyTitle": "Vorige reflecties",
+  "historyOpenCta": "Vorige reflecties",
+  "historyEmpty": "Nog geen reflecties opgeslagen.",
+  "historyDeleteTitle": "Reflectie verwijderen?",
+  "historyDeleteBody": "Dit verwijdert het geselecteerde item permanent.",
+  "deleteCta": "Verwijderen",
+
+  "historyButton": "Vorige Reflecties",
+  "historyEmptyTitle": "Nog geen reflecties",
+  "historyEmptyBody": "Genereer eerst iets — je opgeslagen items verschijnen hier.",
+  "historyDelete": "Verwijderen",
+
+  "footerTitle": "Met Iman, Sabr en Rahma.",
+  "footerSubtitle": "Eén stap tegelijk.",
+  "genericErrorSnack": "Er is iets misgegaan — probeer het over een moment opnieuw.",
+
+  "upgradeAccountCta": "Bewaar je reflecties op alle apparaten — maak een account aan",
+  "deleteAccount": "Account verwijderen",
+  "exportData": "Mijn gegevens exporteren",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label voor de interne Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Rustig aan 🐯\nAI heeft even nodig voordat de volgende kan…",
+  "rateDailyLimit": "Je bent nu uit reflecties.\nZorg voor meer reflecties of upgrade naar Barakah.",
+  "rateCreditsExhausted": "Je hebt al je reflecties gebruikt.\nVul aan of upgrade naar Barakah om door te gaan.",
+  "rateGraceReflectionsExhausted": "Je bent nu uit reflecties.\nZorg voor meer reflecties of upgrade naar Barakah.",
+  "rateReflectionsExhausted": "Je hebt al je reflecties gebruikt.\nVul aan of upgrade naar Barakah om door te gaan.",
+
+  "blessedDescription": "Barakah ontsluit premium functies, toekomstige categorieën en een speciaal badge.",
+  "championDescription": "Barakah ontsluit premium functies, toekomstige categorieën en een speciaal badge.",
+
+  "ratePlanExhausted": "Je reflecties zijn nu leeg. Plan: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Weergegeven wanneer reflecties van de gebruiker leeg zijn maar de reden generiek is.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standaard of Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Kon je reflecties niet controleren: {message}",
+  "@rateCheckFailed": {
+    "description": "Weergegeven wanneer de callable-functie een foutbericht retourneert.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Netwerkfout" }
+    }
+  },
+
+  "rateCheckGenericError": "Er is iets misgegaan bij het controleren van je reflecties.",
+  "aiFallbackGeneric": "Er is iets misgegaan — probeer het over een moment opnieuw.",
+
+  "limitSectionTitle": "Reflecties",
+  "limitTodayLabel": "Gebruik",
+  "limitCreditsLabel": "Resterende reflecties: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plan: {plan}",
+  "@limitPlanLabel": {
+    "description": "Toont de huidige abonnementsplannaam.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standaard of Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Laden…",
+  "limitLoadingLabelDescription": "Weergegeven in reflectiekaart terwijl gebruiksstatistieken worden opgehaald.",
+
+  "aiLimitTitle": "Reflecties",
+  "aiLimitSubtitle": "Elk antwoord gebruikt 1 reflectie. Standaard bevat starterreflecties. Barakah ontsluit premium categorieën en maakt aanvullingen mogelijk.",
+  "aiLimitProgressLabel": "{used} / {total} reflecties gebruikt",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Reflecties",
+  "reflectionsUsageLabel": "Gebruik",
+  "reflectionsRemainingLabel": "Resterende reflecties: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plan: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Toont de huidige plannaam.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standaard of Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Laden…",
+  "reflectionsLoadingLabelDescription": "Weergegeven terwijl reflectiestatistieken worden opgehaald.",
+
+  "reflectionsTitle": "Reflecties",
+  "reflectionsSubtitle": "Elk antwoord gebruikt 1 reflectie. Standaard bevat starterreflecties. Barakah ontsluit premium categorieën en maakt aanvullingen mogelijk.",
+  "reflectionsProgressLabel": "{used} / {total} reflecties gebruikt",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Account verwijderen",
+  "settingsDeleteDescription": "Verwijder permanent je account en alle bijbehorende gegevens.",
+  "settingsDeleteButtonLabel": "Mijn account verwijderen",
+  "settingsDeleteDialogTitle": "Account verwijderen?",
+  "settingsDeleteDialogBody": "Deze actie is permanent en kan niet ongedaan gemaakt worden.\n\nAl je chats, geschiedenis en accountgegevens worden verwijderd.",
+  "settingsDeleteDialogCancel": "Annuleren",
+  "settingsDeleteDialogConfirm": "Verwijderen",
+
+  "settingsFreeLimitUsedTitle": "Starterreflecties gebruikt",
+  "settingsFreeLimitUsedDescription": "De starterreflecties voor dit apparaat zijn gebruikt. Upgrade naar Barakah of koop meer reflecties om door te gaan.",
+
+  "settingsStarterReflectionsUsedTitle": "Starterreflecties gebruikt",
+  "settingsStarterReflectionsUsedDescription": "De starterreflecties voor dit apparaat zijn gebruikt. Upgrade naar Barakah of koop meer reflecties om door te gaan.",
+
+  "deviceBoundError": "Dit apparaat is al gekoppeld aan een ander account. Log in met het originele account.",
+
+  "premiumTitle": "Barakah-modus",
+  "premiumSubtitleBasic": "Ontsluit de volledige Nuria-ervaring.",
+  "premiumSubtitleChampion": "Je bent Barakah. Heb je meer reflecties nodig?",
+
+  "premiumCurrentPlan": "Huidige plan: {plan}",
+  "premiumCreditsStatus": "Reflecties: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Aankopen zijn nu niet beschikbaar.",
+  "premiumSignInToPurchase": "Log in om reflecties te kopen of Barakah te ontgrendelen.",
+
+  "premiumRestorePurchases": "Aankopen herstellen",
+  "premiumProcessing": "Verwerken…",
+  "premiumRestoreHintTitle": "Al Barakah of reflecties aangeschaft op dit apparaat of een ander?",
+  "premiumRestoreHintBody": "Herstel je aankopen als ze niet verschijnen.",
+
+  "premiumBuyCredits200": "200 reflecties kopen",
+  "premiumBuyCredits400": "400 reflecties kopen",
+  "premiumBecomeChampionOneTime": "Upgrade naar Barakah-modus",
+  "premiumChampionHint": "Als Barakah kun je extra reflecties aanvullen wanneer je dat nodig hebt.",
+
+  "premiumUpgradeCta": "Upgrade",
+  "premiumRequiredForCategory": "Deze categorie is alleen beschikbaar voor Barakah-gebruikers. Upgrade in Instellingen om alle premium inhoud vrij te spelen.",
+  "premiumBenefitsBasic": "Ontsluit Barakah om extra reflecties te krijgen, premium categorieën te openen en door te gaan wanneer je begeleiding nodig hebt.",
+  "premiumBenefitsChampion": "Je bent in Barakah-modus. Voeg extra reflecties toe als je laag wordt en ga zonder onderbreking door.",
+  "premiumButtonBecomeChampion": "Ontsluit Barakah",
+  "premiumButtonTopup1000": "1000 reflecties toevoegen",
+  "premiumChampionBadge": "Barakah actief",
+  "premiumLoadingStore": "Winkel laden…",
+
+  "blessedTitle": "Barakah-modus",
+  "blessedSubtitleGrace": "Ontsluit de volledige Nuria-ervaring.",
+  "blessedSubtitleBlessed": "Je bent Barakah. Heb je meer reflecties nodig?",
+
+  "blessedCurrentPlan": "Huidige plan: {plan}",
+  "blessedReflectionsStatus": "Reflecties: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Aankopen zijn nu niet beschikbaar.",
+  "blessedProductNotAvailable": "Dit product is nog niet beschikbaar in de winkel. Probeer het later opnieuw.",
+  "blessedPurchaseError": "Er ging iets mis met de aankoop. Probeer het opnieuw.",
+  "blessedSignInToPurchase": "Log in om reflecties te kopen of Barakah te ontgrendelen.",
+
+  "blessedRestorePurchases": "Aankopen herstellen",
+  "blessedProcessing": "Verwerken…",
+  "blessedRestoreHintTitle": "Al Barakah of reflecties aangeschaft op dit apparaat of een ander?",
+  "blessedRestoreHintBody": "Herstel je aankopen als ze niet verschijnen.",
+
+  "blessedBuyReflections100": "100 reflecties toevoegen",
+  "blessedBuyReflections200": "200 reflecties kopen",
+  "blessedBuyReflections400": "400 reflecties kopen",
+  "blessedBecomeBlessedOneTime": "Upgrade naar Barakah",
+  "blessedTopupHint": "Als Barakah kun je extra reflecties aanvullen wanneer je dat nodig hebt.",
+
+  "blessedUpgradeCta": "Upgrade",
+  "blessedRequiredForCategory": "Deze categorie is alleen beschikbaar voor Barakah-gebruikers. Upgrade in Instellingen om alle premium inhoud vrij te spelen.",
+  "blessedFeatureLocked": "Ontsluit Barakah om deze functie te openen.",
+  "lockedCategoriesHint": "Sommige categorieën zijn gereserveerd voor Barakah-leden. Ontsluit ze om elke reflectie op je reis te verkennen.",
+  "blessedBenefitsGrace": "Ontsluit Barakah om extra reflecties te krijgen, premium categorieën te openen en door te gaan wanneer je begeleiding nodig hebt.",
+  "blessedBenefitsBlessed": "Je bent in Barakah-modus. Voeg extra reflecties toe als je laag wordt en ga zonder onderbreking door.",
+  "blessedButtonBecomeBlessed": "Ontsluit Barakah",
+  "blessedButtonTopup1000": "1000 reflecties toevoegen",
+  "blessedBadge": "Barakah actief",
+  "blessedLoadingStore": "Winkel laden…",
+
+  "freePlanBlockedTitle": "Je hebt je starterreflecties gebruikt",
+  "freePlanBlockedBody": "Je bent op het Standaardplan met starterreflecties en je hebt de limiet bereikt. Om door te gaan — en premium categorieën vrij te spelen — upgrade naar Barakah.",
+  "freePlanBlockedCtaGoPremium": "Zie Barakah-opties hieronder",
+
+  "graceBlockedTitle": "Je hebt je starterreflecties gebruikt",
+  "graceBlockedBody": "Je bent op het Standaardplan met starterreflecties en je hebt de limiet bereikt. Om door te gaan — en premium categorieën vrij te spelen — upgrade naar Barakah.",
+  "graceBlockedCtaGoBlessed": "Zie Barakah-opties hieronder",
+
+  "rateGuestMustSignIn": "Log in om Nuria en je reflecties te gebruiken.",
+
+  "guestNoCreditsTitle": "Gastmodus",
+  "guestNoCreditsBody": "Als gast kun je de app verkennen, maar je kunt geen reflecties gebruiken. Log in later in Instellingen om reflecties te gebruiken en aankopen vrij te spelen.",
+
+  "guestNoReflectionsTitle": "Gastmodus",
+  "guestNoReflectionsBody": "Als gast kun je de app verkennen, maar je kunt geen reflecties gebruiken. Log in later in Instellingen om reflecties te gebruiken en aankopen vrij te spelen.",
+
+  "guestDialogContinue": "Doorgaan",
+  "guestDialogLoginInstead": "Log in",
+
+  "optionalLabel": "optioneel",
+
+  "accountDeleteSuccessTitle": "Account verwijderd",
+  "accountDeleteSuccessBody": "Je account en bijbehorende gegevens zijn succesvol verwijderd.",
+  "accountDeleteSuccessClose": "Sluiten",
+  "accountDeleteErrorTitle": "Kon account niet verwijderen",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Herauthenticatie is geannuleerd. Log in opnieuw en probeer verwijdering opnieuw.",
+  "accountDeleteReauthRequired": "Accountverwijdering vereist een recente inlog. Log uit, log in opnieuw en probeer verwijdering opnieuw.",
+  "settingsDeletePermanentWarning": "Deze actie is permanent en kan niet ongedaan gemaakt worden. Alle gegevens gekoppeld aan je account worden verwijderd.",
+
+  "dailyGraceTitle": "Dagelijkse Begeleiding",
+  "dailyGraceScriptureLabel": "VERS VAN DE DAG",
+  "dailyGraceSaintLabel": "GELEERDE VAN DE WEEK",
+  "dailyGraceReflectionLabel": "AVONDREFLECTIE",
+  "dailyGraceCopiedToast": "Vers gekopieerd naar klembord",
+
+  "dailyScripture0Text": "Inderdaad, de rechtvaardigen zullen onder tuinen en rivieren zijn, op een zitplaats van eer bij een Machtige Koning.",
+  "dailyScripture0Ref": "Koran 54:54-55",
+  "dailyScripture1Text": "En Wij hebben je niet gezonden, o Muhammad, behalve als een barmhartigheid voor de werelden.",
+  "dailyScripture1Ref": "Koran 21:107",
+  "dailyScripture2Text": "Is Allah niet voldoende voor Zijn dienaar? Toch maken zij je bang met anderen dan Hij.",
+  "dailyScripture2Ref": "Koran 39:36",
+  "dailyScripture3Text": "Wellicht haat je iets terwijl het goed voor je is; en wellicht hou je van iets terwijl het slecht voor je is. En Allah weet, terwijl jij niet weet.",
+  "dailyScripture3Ref": "Koran 2:216",
+  "dailyScripture4Text": "Inderdaad, Allah is met de geduldigenen.",
+  "dailyScripture4Ref": "Koran 2:153",
+  "dailyScripture5Text": "Dus herdenk Mij; Ik zal je herdenken. En wees Mij dankbaar en verken Mij niet.",
+  "dailyScripture5Ref": "Koran 2:152",
+  "dailyScripture6Text": "Inderdaad, de meest edelen onder jullie in Allahs ogen zijn de meest rechtvaardigen onder jullie.",
+  "dailyScripture6Ref": "Koran 49:13",
+  "dailyScripture7Text": "En je Heer heeft bepaald dat je niemand anders aanbidt dan Hem, en dat je goed bent voor je ouders.",
+  "dailyScripture7Ref": "Koran 17:23",
+  "dailyScripture8Text": "Waarlijk, met moeite komt gemak.",
+  "dailyScripture8Ref": "Koran 94:6",
+  "dailyScripture9Text": "En Hij is met je waar je ook bent. En Allah, wat je doet, is Het Zienende.",
+  "dailyScripture9Ref": "Koran 57:4",
+  "dailyScripture10Text": "Allah belast geen ziel meer dan zij kan dragen.",
+  "dailyScripture10Ref": "Koran 2:286",
+  "dailyScripture11Text": "En wie op Allah vertrouwt — dan is Hij voor hem voldoende.",
+  "dailyScripture11Ref": "Koran 65:3",
+  "dailyScripture12Text": "Mijn barmhartigheid omvat alles.",
+  "dailyScripture12Ref": "Koran 7:156",
+  "dailyScripture13Text": "En wanneer Mijn dienaren je naar Mij vragen — inderdaad ben Ik dichtbij. Ik antwoord de vraag van de vragende wanneer hij tot Mij roept.",
+  "dailyScripture13Ref": "Koran 2:186",
+  "dailyScripture14Text": "Wie rechtvaardige daden verricht, of mannelijk of vrouwelijk, terwijl hij gelovend is — Wij zullen hem zeker een goed leven geven.",
+  "dailyScripture14Ref": "Koran 16:97",
+  "dailyScripture15Text": "Inderdaad, Allah verandert niet de toestand van een volk totdat zij veranderen wat binnen hen is.",
+  "dailyScripture15Ref": "Koran 13:11",
+  "dailyScripture16Text": "Word dus niet zwak en bedroefd, en je zult overwinnend zijn als je gelovigen bent.",
+  "dailyScripture16Ref": "Koran 3:139",
+  "dailyScripture17Text": "O Mijn dienaren die tegen jezelf hebben gezondigd, wanhoop niet in Allahs barmhartigheid. Inderdaad vergeeft Allah alle zonden.",
+  "dailyScripture17Ref": "Koran 39:53",
+  "dailyScripture18Text": "En wie Allah vreest — Hij zal voor hem een uitweg maken, en zal hem voeden van waar hij niet verwacht.",
+  "dailyScripture18Ref": "Koran 65:2-3",
+  "dailyScripture19Text": "Verlies de hoop niet in Allahs barmhartigheid.",
+  "dailyScripture19Ref": "Koran 12:87",
+  "dailyScripture20Text": "En Wij hebben de Koran zeker makkelijk gemaakt om te herdenken. Is er dan iemand die zich zal herinneren?",
+  "dailyScripture20Ref": "Koran 54:17",
+  "dailyScripture21Text": "En Hij vond je verdwaald en leidde je.",
+  "dailyScripture21Ref": "Koran 93:7",
+  "dailyScripture22Text": "En je Heer zegt: Roep Mij aan; Ik zal je antwoorden.",
+  "dailyScripture22Ref": "Koran 40:60",
+  "dailyScripture23Text": "En Wij hebben zeker de kinderen van Adam verheven.",
+  "dailyScripture23Ref": "Koran 17:70",
+  "dailyScripture24Text": "En zoek hulp door geduld en gebed.",
+  "dailyScripture24Ref": "Koran 2:45",
+  "dailyScripture25Text": "Wie een atoomgewicht goed doet, zal het zien.",
+  "dailyScripture25Ref": "Koran 99:7",
+  "dailyScripture26Text": "Ontegenzeggelijk, Allahs hulp is dichtbij.",
+  "dailyScripture26Ref": "Koran 2:214",
+  "dailyScripture27Text": "En wie dankbaar is — zijn dankbaarheid is alleen voor het voordeel van zichzelf.",
+  "dailyScripture27Ref": "Koran 31:12",
+
+  "dailyReflection0": "Terwijl deze dag eindigt, bedenk één moment waarop Allahs barmhartigheid evident was.",
+  "dailyReflection1": "Bring voor Allah alles wat vandaag op je hart drukte.",
+  "dailyReflection2": "Noem één zegening van vandaag en druk dankbaarheid uit aan Allah.",
+  "dailyReflection3": "Rust in het besef dat je in Allahs oneindige zorg bent gehouden.",
+  "dailyReflection4": "Bedenk waar je geroepen werd om medelijden en vriendelijkheid vandaag te tonen.",
+  "dailyReflection5": "Laat los wat je niet kunt controleren en vertrouw op Allahs volmaakte plan.",
+  "dailyReflection6": "Terwijl de dag tot slot komt, ontvang vrede in gedenking van Allah.",
+  "dailyReflection7": "Bedenk hoe je je gebeden vandaag eeerde en dank Allah voor elk.",
+  "dailyReflection8": "Bedenk een moment vandaag waarin geduld (Sabr) je acties leidde.",
+  "dailyReflection9": "Vraag vergeving voor enige tekortkoming vandaag — Allahs barmhartigheid is grenzeloos.",
+  "dailyReflection10": "Noem één persoon aan wie je vriendelijkheid toonde vandaag en maak dua voor hen.",
+  "dailyReflection11": "Zit met dankbaarheid: wat verstrekte Allah vandaag dat je niet vroeg?",
+  "dailyReflection12": "Bedenk een vers uit de Koran dat spreekt tot waar je nu bent.",
+  "dailyReflection13": "Bedenk hoe je je tijd vandaag gebruikte — en draag morgen aan Allah op.",
+  "dailyReflection14": "Rust in het besef dat wat vandaag ook gebeurde, Allah was bij je door het.",
+  "dailyReflection15": "Denk aan één manier waarop je vandaag je familie of gemeenschap diende voor Allahs wil.",
+  "dailyReflection16": "Terwijl nacht valt, maak Tawbah — Allah houdt van hen die naar Hem terugkeren.",
+  "dailyReflection17": "Bedenk de schoonheid Allah vandaag plaatste, hoe klein ook.",
+  "dailyReflection18": "Bedenk wat je vandaag leerde en hoe het je dichter tot Allah brengt.",
+  "dailyReflection19": "Laat de zorgen van de dag rusten bij Allah — Hij draagt wat je niet kunt.",
+  "dailyReflection20": "Denk aan een moment vandaag waarin je beter had kunnen kiezen en leer er zacht van.",
+  "dailyReflection21": "Maak dua voor hen die worstelen — je gebed is een geschenk voor hen.",
+  "dailyReflection22": "Herinner je een zegening die je vaak over het hoofd ziet en neem een moment om Allah ervoor te danken.",
+  "dailyReflection23": "Bedenk je intenties vandaag — waren zij voor Allah? Morgen, begin opnieuw.",
+  "dailyReflection24": "Terwijl de nacht stil wordt, luister naar Allahs nabijheid in de stilte.",
+  "dailyReflection25": "Bedenk waar je kracht vandaag vond — die kracht is van Allah.",
+  "dailyReflection26": "Noem één ding dat je morgen zult doen, voor Allahs wil, wat je vandaag niet deed.",
+  "dailyReflection27": "Terwijl je je voorbereidt voor rust, vertrouw je ziel toe aan Allah — Hij is de beste bewaker.",
+
+  "dailyRoleModel0": "Profeet Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Profeet Ibrahim (AS)",
+  "dailyRoleModel44": "Profeet Musa (AS)",
+  "dailyRoleModel45": "Profeet Isa (AS)",
+  "dailyRoleModel46": "Profeet Yusuf (AS)",
+  "dailyRoleModel47": "Profeet Dawud (AS)",
+  "dailyRoleModel48": "Profeet Sulayman (AS)",
+  "dailyRoleModel49": "Profeet Nuh (AS)",
+  "dailyRoleModel50": "Profeet Yunus (AS)",
+  "dailyRoleModel51": "Profeet Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Sta Nuria toe mijn locatie te gebruiken voor Qibla-richting en gebedsuren",
+  "locationConsentHint": "Alleen gebruikt voor deze functies. Je locatie wordt nooit gedeeld of opgeslagen.",
+
+  "askPageTitle": "Vraag Nuria",
+  "askPageDescription": "Vraag alles over geloof, gebed, leven of islamitische praktijk en ontvang begeleiding geworteld in de Koran en Soennah.",
+  "askPageInputHint": "Typ je vraag hier…",
+  "askPageSubmitCta": "Vraag",
+  "askPageInputEmptyError": "Schrijf eerst een vraag.",
+  "askResultYourQuestion": "Je vraag",
+
+  "guidancePageTitle": "Gebed & Begeleiding",
+  "qiblaFacingMecca": "Richting Makkah",
+  "qiblaCompassInstruction": "Draai je telefoon totdat de goudkleurige naald omhoog wijst.\nDie richting wijst naar de Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "GPS-signaal is zwak. Ga naar buiten en tik Opnieuw.",
+  "qiblaRetry": "Opnieuw",
+  "qiblaTitle": "Qibla-Richting",
+  "qiblaDistanceLabel": "{km} km naar Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Locatie vereist",
+  "qiblaLocationNeededBody": "Sta locatietoegang toe zodat Nuria de richting van de Kaaba in Makkah vanwaar je bent kan berekenen.",
+  "qiblaOpenSettings": "Open Instellingen",
+  "qiblaCompassLoading": "Je positie zoeken…",
+  "qiblaTowardMecca": "Richting Makkah",
+
+  "prayerTimesTitle": "Gebedsuren",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Locatie vereist",
+  "prayerTimesLocationNeededBody": "Sta locatietoegang toe zodat Nuria nauwkeurige gebedsuren voor je plaats kan berekenen.",
+  "prayerTimesNextLabel": "Volgende",
+  "prayerTimesDoneLabel": "Klaar",
+
+  "monthlyPrayerTimesTitle": "Maandelijkse Gebedsuren",
+  "monthlyPrayerTimesViewButton": "Bekijk Volledige Maand",
+  "monthlyPrayerTimesNextMonth": "Volgende maand",
+  "monthlyPrayerTimesDayHeader": "Dag",
+
+  "sharePrayerTimes": "Gebedsuren delen",
+
+  "prayerNotificationsTitle": "Gebedsherinneringen",
+  "prayerNotificationsDescription": "Ontvang een zachte herinnering voor elk gebedstijdstip om je door de dag verbonden te houden.",
+  "prayerNotificationsEnable": "Schakel gebedsherinneringen in",
+  "prayerNotificationsOpenSettings": "Open meldingsinstellingen",
+  "prayerNotificationsDenied": "Meldingen zijn uitgeschakeld",
+  "prayerNotificationsDeniedHint": "Ga naar Instellingen en sta meldingen voor Nuria toe om gebedsuur-herinneringen te ontvangen.",
+
+  "notificationsConsentLabel": "Sta meldingen voor gebedsuren toe",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Morgenbedrijf",
+  "prayerNotifBodyFajr": "Het beste van gebeden is het morgenbedrijf. Sta op, zuiver jezelf en sta voor Allah.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Middaggebed",
+  "prayerNotifBodyDhuhr": "Pauzeer je dag en keer terug naar Allah. Dhuhr-gebed is aangebroken.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Middaggebed",
+  "prayerNotifBodyAsr": "Bewak het middelste gebed. Asr-uur is aangebroken — laat het niet voorbijgaan.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Zonsondergangsgebed",
+  "prayerNotifBodyMaghrib": "De zon is ondergegaan. Draag Maghrib op en wees dankbaar voor deze dag.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Nachtgebed",
+  "prayerNotifBodyIsha": "Eindig je dag met gedenking van Allah. Hayya 'alal falah — kom tot slaagkans.",
+
+  "outOfReflectionsBannerText": "Je hebt al je reflecties gebruikt",
+  "outOfReflectionsBannerCta": "Meer krijgen",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Tik de cirkel aan om te tellen",
+  "dhikrResetButton": "Herstellen",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Je hebt 99 herinneringen aan Allah voltooid. Mogen zij een licht zijn voor je hart.",
+
+  "disclaimerTitle": "Over de begeleiding van deze app",
+  "disclaimerBody": "Nuria biedt islamitische reflecties, herinneringen en geestelijke inhoud ter ondersteuning van je persoonlijke geloofstocht. Deze inhoud wordt alleen voor algemene informatieve en inspirerende doeleinden aangeboden.\n\nNuria vervangt geen gekwalificeerde geleerdheid.\nDe begeleiding in deze app is geen vervanging voor een geleerde islamitische geleerde, imam, mufti of theologisch getrainde leraar. Als je vragen hebt over religieuze uitspraken, halal en haram-aangelegenheden, of persoonlijke religieuze verplichtingen, raadpleeg een gekwalificeerde religieuze autoriteit in je gemeenschap.\n\nDeze app geeft geen religieuze uitspraken.\nNuria doet geen gezaghebbende bepalingen over aangelegenheden van fiqh (islamitische rechtswetenschap) of persoonlijke religieuze verplichtingen. Niets hier mag als een fatwa of bindende religieuze instructie worden beschouwd.\n\nGeleerde interpretaties variëren.\nDe Islam omvat een rijke verscheidenheid aan tradities, denkkringen (madhabs) en geleerde meningen. Inhoud in deze app weerspiegelt algemene perspectieven en mag niet elke traditie of school gelijk vertegenwoordigen.\n\nGemeenschap is van belang.\nDeze app wil je betrokkenheid bij geloofsovertuigingen aanmoedigen terwijl de vitale rol van je lokale moskee, imam en religieuze gemeenschap diep wordt gerespecteerd. Wij moedigen je aan verbonden te blijven met en te leren van gekwalificeerde leraren bij jou.",
+  "disclaimerClose": "Ik begrijp het",
+  "disclaimerInfoTooltip": "Over de begeleiding van deze app",
+  "disclaimerSettingsSubtitle": "Alleen voor algemene informatieve doeleinden. Tik om het volledige disclaimer te lezen.",
+  "disclaimerSectionHeader": "Begeleiding disclaimer"
+}

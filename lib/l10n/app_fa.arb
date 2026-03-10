@@ -1,0 +1,585 @@
+{
+  "@@locale": "fa",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "زبان خود را انتخاب کنید",
+  "languageSelectSub": "می‌توانید این را بعداً در تنظیمات تغییر دهید",
+  "actionContinue": "ادامه",
+  "languageSuggestedHeader": "پیشنهادی",
+  "languageAllHeader": "تمام زبان‌ها",
+  "languageSuggestedBadge": "پیشنهادی",
+  "languageSearchHint": "جستجو…",
+
+  "planGrace": "استاندارد",
+  "planBlessed": "برکه",
+
+  "categoryDailyGuidance": "راهنمایی روزانه",
+  "categoryFaithTrust": "ایمان و توکل",
+  "categoryPrayerReflection": "تأمل نماز",
+  "categoryHopeDifficultTimes": "صبر و امید",
+  "categoryForgiveness": "طلب بخشش",
+  "categoryLoveCompassion": "رحمت و مهربانی",
+  "categoryStrengthCourage": "ایمان و قوت",
+  "categoryGratitude": "سپاسگزاری",
+  "categoryPurposeCalling": "هدف و معنای زندگی",
+  "categoryFamilyRelationships": "روابط خانوادگی",
+  "categoryPeaceAnxietyRelief": "آرامش درونی",
+  "categoryWisdomOfJesus": "حکمت انبیاء",
+  "categoryHumilityCharacter": "تواضع و اخلاق",
+  "categoryOvercomingTemptation": "مقاومت در برابر وسوسه",
+  "categoryEveningReflection": "ذکر شام",
+  "categoryCustom": "تفکر شخصی",
+  "dhikrMeaningSubhanallah": "پاکی برای خداوند",
+  "dhikrMeaningAlhamdulillah": "تمام ستایش‌ها از آن خداوند است",
+  "dhikrMeaningAllahuAkbar": "خداوند بزرگ‌تر است",
+  "quranVerseHeartAtRest": "به‌راستی، در یاد خدا دل‌ها آرامش می‌یابند.",
+
+  "promptHint": "برای دریافت راهنمایی و تأمل اسلامی دسته‌ای را انتخاب کنید",
+
+  "currentLanguage": "زبان فعلی",
+  "settingsLanguage": "تنظیمات زبان",
+  "settingsTitle": "تنظیمات",
+  "chooseLanguage": "زبان خود را انتخاب کنید",
+  "continueCta": "ادامه",
+
+  "promptDailyGuidance": "یک راهنمایی روزانه کوتاه و عملی را بر اساس ایمان اسلامی سنی بنویسید — ریشه‌دار در قرآن، حدیث و تعالیم پیامبر محمد. هر بار دیدگاه تازه‌ای انتخاب کنید: فضیلتی از اخلاق اسلامی، حقیقتی از سنت، حکمتی از یاران پیامبر یا عملی ساکت از روایت اسلامی. یک آیه قرآن (سوره:آیه) و تأملی یک تا دو جمله‌ای برای همراهی تا آخر روز درج کنید. در صورت مرتبط بودن، آن را با تقویم اسلامی یا تاریخی مهم پیوند دهید.",
+
+  "promptFaithTrust": "یک تأمل اسلامی کوتاه درباره ایمان و توکل به نقشه خدا بنویسید. آن را در قرآن، سوی پیامبر محمد و ایمان صحابه ریشه‌دار کنید. هر بار موضوع را تغییر دهید: توکل به خدا در میان عدم‌قطعیت، تکیه بر حکمت الهی، صبر در آزمایش‌ها یا پایداری ساکت در زندگی روزمره. یک آیه قرآن و یک قدم صادقانه برای امروز از حکمت روحانی اسلامی درج کنید.",
+
+  "promptPrayerReflection": "یک تأمل اسلامی کوتاه ریشه‌دار در نماز، دعا یا ذکر بنویسید. شکل را هر بار متفاوت کنید: یادی صبحگاهی یا شامگاهی (اذکار)، تأملی بر پنج نماز روزانه، تفکر درباره آیه قرآنی یا دعایی صمیمانه. یک آیه قرآن درج کنید و به‌طور مختصر نام شکل نماز مورد استفاده را بیان کنید.",
+
+  "promptHopeDifficultTimes": "یک تأمل اسلامی درباره صبر و امید در سختی بنویسید. از تعالیم قرآن درباره آزمایش‌ها، پایداری انبیاء و رحمت خدا در لحظات دشوار الهام بگیرید. هر بار زاویه را تغییر دهید. یک آیه قرآن و یک دیدگاه تشویق‌کننده از روایت اسلامی درج کنید.",
+
+  "promptForgiveness": "یک تأمل اسلامی عاقلانه درباره طلب بخشش و رحمت خدا بنویسید. از تعالیم قرآن درباره توبه، بخشش خدا و نمونه بخشنده پیامبر محمد الهام بگیرید. هر بار موضوع را تغییر دهید: بازگشت به خدا، بخشش دیگران، شفایی روابط یا ایمان به رحمت خدا پس از اشتباه. یک آیه قرآن و یک گام عملی درج کنید.",
+
+  "promptLoveCompassion": "یک تأمل اسلامی کوتاه درباره رحمت و مهربانی در زندگی روزمره بنویسید. از نمونه پیامبر محمد، مفهوم احسان و تعالیم اسلامی درباره مهربانی نسبت به خانواده، همسایگان و آسیب‌پذیران الهام بگیرید. یک آیه قرآن و یک عمل کوچک مهربانی برای امروز درج کنید.",
+
+  "promptStrengthCourage": "یک تأمل اسلامی درباره قوت و شجاعت مبتنی بر ایمان بنویسید. از نمونه انبیاء، جامعه ایمان‌داران اوّل و کسانی که در سختی محکم ایستادند الهام بگیرید. هر بار موضوع را متفاوت کنید: شجاعت از طریق ایمان، قوت در نماز، توکل به خدا در ترس یا تاب‌آوری در سختی. یک آیه قرآن و یک دعای کوتاه یا عبارت ذکری درج کنید.",
+
+  "promptGratitude": "یک تأمل اسلامی درباره سپاسگزاری به خدا بنویسید. آن را در تعالیم قرآن و روایت پیامبری ریشه‌دار کنید. هر بار زاویه را متفاوت کنید: سپاسگزاری در سختی، قدردانی بخش‌های کوچک، شروع روز با ستایش خدا یا شناخت هدایت خدا در زندگی روزمره. یک آیه قرآن و یک عمل سپاسگزاری درج کنید.",
+
+  "promptPurposeCalling": "یک تأمل اسلامی درباره هدف زندگی در عبادت خدا و زندگی پرهیزگار بنویسید. از تعالیم قرآن درباره هدف، خدمت به دیگران و استفاده از توانایی‌ها برای خیر الهام بگیرید. هر بار موضوع را تغییر دهید: خدمت به خانواده و جامعه، جستجوی هدایت از طریق استخاره، زندگی با نیت یا یافتن معنا در کار عادی. یک آیه قرآن و دو سؤال تفکری درج کنید.",
+
+  "promptFamilyRelationships": "راهنمایی اسلامی عاقلانه درباره خانواده و روابط ریشه‌دار در تعالیم قرآن و نمونه پیامبر محمد بنویسید. هر بار موضوع را متفاوت کنید: مهربانی در خانواده، صبر در نزاع، احترام به پدر و مادر، پرورش فرزندان در ایمان یا تقویت رابطه زناشویی. یک آیه قرآن و یک عمل رابطه‌ای برای امتحان درج کنید.",
+
+  "promptPeaceAnxietyRelief": "یک تأمل اسلامی آرام‌بخش درباره یافتن آرامش درونی از طریق ذکر خدا و توکل به نقشه او بنویسید. از تعالیم قرآن درباره آرامش دل، نماز و تسلیم به اراده خدا الهام بگیرید. هر بار رویکرد را متفاوت کنید و یک آیه قرآن و یک تمرین ساده از روایت اسلامی درج کنید.",
+
+  "promptWisdomOfJesus": "یک اثر حکمت از انبیاء همان‌طور که در اسلام تعلیم داده می‌شود بنویسید. از قرآن یا حدیث الهام بگیرید و به‌طور خلاصه توضیح دهید که دانشمندان اسلامی این تعلیم را چگونه درک کردند. هر بار موضوع را تغییر دهید: اخلاق، صبر، تواضع، ایمان یا رفتار روزمره. یک آیه قرآن یا حدیث درج کنید و یک کاربرد عملی.",
+
+  "promptHumilityCharacter": "یک تأمل اسلامی درباره تواضع و اخلاق حسن بنویسید. از تعالیم قرآن، نمونه پیامبر محمد و روایت توسعه اخلاق اسلامی الهام بگیرید. هر بار موضوع را متفاوت کنید: تواضع در رهبری، پذیرش اشتباه، احترام به دیگران یا رشد روحانی از طریق خودتفکری. یک آیه قرآن و یک عادت برای تمرین درج کنید.",
+
+  "promptOvercomingTemptation": "یک تأمل اسلامی درباره مقاومت در برابر وسوسه و ماندن بر صراط مستقیم بنویسید. از هدایت قرآن، ذکر خدا، نماز و نمونه ایمان‌داری که بر دشواری‌ها غلبه کردند الهام بگیرید. هر بار زاویه را متفاوت کنید. یک آیه قرآن و یک راهبرد عملی برای 24 ساعت آینده درج کنید.",
+
+  "promptEveningReflection": "یک تأمل آرام‌بخش شامگاهی اسلامی ریشه‌دار در روایت ذکر شام بنویسید. سپاسگزاری، خودارزیابی و توکل به خدا قبل از استراحت را تشویق کنید. سه تا پنج سؤال تفکری کوتاه درباره روز، یک دعای خاتمه کوتاه و یک آیه قرآن درج کنید.",
+
+  "wordCount": "{count, plural, one {{count} کلمه} other {{count} کلمه}}",
+
+  "optionsCta": "گزینه‌ها",
+  "newCta": "جدید",
+  "actionsTitle": "می‌خواهید چه کاری انجام دهید؟",
+  "copy": "کپی",
+  "share": "اشتراک",
+  "close": "بستن",
+  "copiedToast": "در کلیپ‌بورد کپی شد",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "راهنمایی روزانه" }
+    }
+  },
+
+  "regenerateErrorTitle": "نتوانست پاسخ جدیدی تولید کند",
+  "regenerateErrorBody": "{error}\n\nآیا می‌خواهید دوباره تلاش کنید؟",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "خطای شبکه" }
+    }
+  },
+
+  "cancelCta": "انصراف",
+  "retryCta": "دوباره تلاش کنید",
+
+  "authTitle": "حساب خود را بسازید",
+  "continueAsGuest": "ادامه به‌عنوان مهمان",
+  "signInGoogle": "ورود با گوگل",
+  "signInApple": "ورود با اپل",
+  "signInEmail": "ورود با ایمیل",
+  "upgradeWithApple": "ادامه با اپل",
+  "mustAccept": "باید شرایط و ضوابط را بپذیرید و سیاست حریم‌خصوصی را تأیید کنید.",
+  "termsLabel": "شرایط و ضوابط را می‌پذیرم",
+  "privacyLabel": "سیاست حریم‌خصوصی را خوانده‌ام",
+  "marketingOptIn": "موافقت‌ام برای دریافت اخبار و پیشنهادات",
+  "openTerms": "شرایط و ضوابط",
+  "openPrivacy": "سیاست حریم‌خصوصی",
+
+  "accountSection": "حساب",
+  "guestMode": "حالت مهمان",
+  "signedIn": "وارد شد",
+  "upgradeHint": "با ایجاد حساب، تأملات خود را در تمام دستگاه‌ها ذخیره کنید.",
+  "upgradeWithGoogle": "ادامه با گوگل",
+  "signOut": "خروج",
+
+  "snackUpgraded": "حساب با گوگل ارتقا یافت ✅",
+  "snackSignedIn": "با گوگل وارد شد ✅",
+  "snackSignedOut": "خروج شد",
+  "snackSignedInApple": "با اپل وارد شد ✅",
+  "snackSignedInGoogle": "با گوگل وارد شد ✅",
+  "snackUpgradedApple": "حساب با اپل ارتقا یافت ✅",
+  "snackUpgradedGoogle": "حساب با گوگل ارتقا یافت ✅",
+
+  "historyTitle": "تأملات قبلی",
+  "historyOpenCta": "تأملات قبلی",
+  "historyEmpty": "هنوز تأمل ذخیره شده‌ای نیست.",
+  "historyDeleteTitle": "تأمل حذف شود؟",
+  "historyDeleteBody": "این مورد به‌طور دائمی حذف می‌شود.",
+  "deleteCta": "حذف",
+
+  "historyButton": "تأملات قبلی",
+  "historyEmptyTitle": "هنوز تأملی نیست",
+  "historyEmptyBody": "ابتدا چیزی تولید کنید — موارد ذخیره شده شما اینجا ظاهر می‌شوند.",
+  "historyDelete": "حذف",
+
+  "footerTitle": "با ایمان، صبر و رحمت.",
+  "footerSubtitle": "یک گام در یک زمان.",
+  "genericErrorSnack": "مشکلی پیش آمد — لطفاً دوباره امتحان کنید.",
+
+  "upgradeAccountCta": "تأملات خود را در تمام دستگاه‌ها ذخیره کنید – حسابی بسازید",
+  "deleteAccount": "حذف حساب",
+  "exportData": "صادر کردن داده‌های من",
+
+  "userUidLabel": "شناسه: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "بیا آروم برو 🐯\nهوش‌مصنوعی نیاز به یک لحظه وقت دارد…",
+  "rateDailyLimit": "تأملات امروز شما تمام شد.\nتأملات بیشتر دریافت کنید یا به برکه ارتقا دهید.",
+  "rateCreditsExhausted": "تمام تأملات شما استفاده شد.\nبرای ادامه دوباره تأیید کنید یا به برکه ارتقا دهید.",
+  "rateGraceReflectionsExhausted": "تأملات امروز شما تمام شد.\nتأملات بیشتر دریافت کنید یا به برکه ارتقا دهید.",
+  "rateReflectionsExhausted": "تمام تأملات شما استفاده شد.\nبرای ادامه دوباره تأیید کنید یا به برکه ارتقا دهید.",
+
+  "blessedDescription": "برکه ویژگی‌های اضافی، دسته‌های بیشتر و نشان‌ای خاص را باز می‌کند.",
+  "championDescription": "برکه ویژگی‌های اضافی، دسته‌های بیشتر و نشان‌ای خاص را باز می‌کند.",
+
+  "ratePlanExhausted": "تأملات شما در حال حاضر خالی است. طرح: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "استاندارد یا برکه" }
+    }
+  },
+
+  "rateCheckFailed": "نتوانست تأملات شما را بررسی کند: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "خطای شبکه" }
+    }
+  },
+
+  "rateCheckGenericError": "مشکلی هنگام بررسی تأملات شما پیش آمد.",
+  "aiFallbackGeneric": "مشکلی پیش آمد — لطفاً دوباره امتحان کنید.",
+
+  "limitSectionTitle": "تأملات",
+  "limitTodayLabel": "استفاده",
+  "limitCreditsLabel": "تأملات باقی‌مانده: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "طرح: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "استاندارد یا برکه" }
+    }
+  },
+  "limitLoadingLabel": "بارگذاری…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
+
+  "aiLimitTitle": "تأملات",
+  "aiLimitSubtitle": "هر پاسخ یک تأمل استفاده می‌کند. استاندارد شامل تأملات آغاز‌کننده است. برکه دسته‌های بیشتر و امکان دوباره‌تأیید را فعال می‌کند.",
+  "aiLimitProgressLabel": "{used} / {total} تأمل استفاده شد",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "تأملات",
+  "reflectionsUsageLabel": "استفاده",
+  "reflectionsRemainingLabel": "تأملات باقی‌مانده: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "طرح: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "استاندارد یا برکه" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "بارگذاری…",
+  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+
+  "reflectionsTitle": "تأملات",
+  "reflectionsSubtitle": "هر پاسخ یک تأمل استفاده می‌کند. استاندارد شامل تأملات آغاز‌کننده است. برکه دسته‌های بیشتر و امکان دوباره‌تأیید را فعال می‌کند.",
+  "reflectionsProgressLabel": "{used} / {total} تأمل استفاده شد",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "حذف حساب",
+  "settingsDeleteDescription": "حساب و تمام داده‌های مرتبط خود را به‌طور دائمی حذف کنید.",
+  "settingsDeleteButtonLabel": "حذف حساب من",
+  "settingsDeleteDialogTitle": "حساب حذف شود؟",
+  "settingsDeleteDialogBody": "این اقدام دائمی است و نمی‌تواند برگردانده شود.\n\nتمام گفتگو‌های شما، تاریخچه و اطلاعات حساب حذف می‌شود.",
+  "settingsDeleteDialogCancel": "انصراف",
+  "settingsDeleteDialogConfirm": "حذف",
+
+  "settingsFreeLimitUsedTitle": "تأملات آغاز‌کننده استفاده شد",
+  "settingsFreeLimitUsedDescription": "تأملات آغاز‌کننده این دستگاه استفاده شدند. برای ادامه به برکه ارتقا دهید یا تأملات بیشتری خریداری کنید.",
+
+  "settingsStarterReflectionsUsedTitle": "تأملات آغاز‌کننده استفاده شد",
+  "settingsStarterReflectionsUsedDescription": "تأملات آغاز‌کننده این دستگاه استفاده شدند. برای ادامه به برکه ارتقا دهید یا تأملات بیشتری خریداری کنید.",
+
+  "deviceBoundError": "این دستگاه قبلاً به حساب دیگری مرتبط است. لطفاً با حساب اصلی وارد شوید.",
+
+  "premiumTitle": "حالت برکه",
+  "premiumSubtitleBasic": "تجربه Nuria را به‌طور کامل باز کنید.",
+  "premiumSubtitleChampion": "شما در حالت برکه هستید. آیا به تأملات بیشتری نیاز دارید؟",
+
+  "premiumCurrentPlan": "طرح فعلی: {plan}",
+  "premiumCreditsStatus": "تأملات: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "خریدها در حال حاضر در دسترس نیستند.",
+  "premiumSignInToPurchase": "برای خریدن تأملات یا باز کردن برکه وارد شوید.",
+
+  "premiumRestorePurchases": "بازیابی خریدها",
+  "premiumProcessing": "در حال پردازش…",
+  "premiumRestoreHintTitle": "آیا قبلاً برکه یا تأملات را در این دستگاه یا دستگاه دیگری خریداری کردید؟",
+  "premiumRestoreHintBody": "اگر خریدهای شما نشان داده نمی‌شوند، آنها را بازیابی کنید.",
+
+  "premiumBuyCredits200": "200 تأمل خریداری کنید",
+  "premiumBuyCredits400": "400 تأمل خریداری کنید",
+  "premiumBecomeChampionOneTime": "ارتقا به حالت برکه",
+  "premiumChampionHint": "در حالت برکه، می‌توانید هر زمان که نیاز دارید تأملات اضافی دریافت کنید.",
+
+  "premiumUpgradeCta": "ارتقا",
+  "premiumRequiredForCategory": "این دسته فقط برای کاربران برکه در دسترس است. برای باز کردن تمام محتوای ارزشمند در تنظیمات ارتقا دهید.",
+  "premiumBenefitsBasic": "برکه را باز کنید تا تأملات اضافی، دسته‌های بیشتر و ادامه بدون مزاحمت داشته باشید.",
+  "premiumBenefitsChampion": "شما در حالت برکه هستید. اگر تأملاتتان کم است، تأملات اضافی اضافه کنید و بدون مزاحمت ادامه دهید.",
+  "premiumButtonBecomeChampion": "باز کردن برکه",
+  "premiumButtonTopup1000": "افزودن 1000 تأمل",
+  "premiumChampionBadge": "برکه فعال",
+  "premiumLoadingStore": "بارگذاری فروشگاه…",
+
+  "blessedTitle": "حالت برکه",
+  "blessedSubtitleGrace": "تجربه Nuria را به‌طور کامل باز کنید.",
+  "blessedSubtitleBlessed": "شما در حالت برکه هستید. آیا به تأملات بیشتری نیاز دارید؟",
+
+  "blessedCurrentPlan": "طرح فعلی: {plan}",
+  "blessedReflectionsStatus": "تأملات: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "خریدها در حال حاضر در دسترس نیستند.",
+  "blessedProductNotAvailable": "این محصول هنوز در فروشگاه در دسترس نیست. لطفاً بعداً دوباره تلاش کنید.",
+  "blessedPurchaseError": "مشکلی در خریدها پیش آمد. لطفاً دوباره امتحان کنید.",
+  "blessedSignInToPurchase": "برای خریدن تأملات یا باز کردن برکه وارد شوید.",
+
+  "blessedRestorePurchases": "بازیابی خریدها",
+  "blessedProcessing": "در حال پردازش…",
+  "blessedRestoreHintTitle": "آیا قبلاً برکه یا تأملات را در این دستگاه یا دستگاه دیگری خریداری کردید؟",
+  "blessedRestoreHintBody": "اگر خریدهای شما نشان داده نمی‌شوند، آنها را بازیابی کنید.",
+
+  "blessedBuyReflections100": "افزودن 100 تأمل",
+  "blessedBuyReflections200": "200 تأمل خریداری کنید",
+  "blessedBuyReflections400": "400 تأمل خریداری کنید",
+  "blessedBecomeBlessedOneTime": "ارتقا به برکه",
+  "blessedTopupHint": "در حالت برکه، می‌توانید هر زمان که نیاز دارید تأملات اضافی دریافت کنید.",
+
+  "blessedUpgradeCta": "ارتقا",
+  "blessedRequiredForCategory": "این دسته فقط برای کاربران برکه در دسترس است. برای باز کردن تمام محتوای ارزشمند در تنظیمات ارتقا دهید.",
+  "blessedFeatureLocked": "برای دسترسی به این ویژگی برکه را باز کنید.",
+  "lockedCategoriesHint": "برخی از دسته‌ها برای اعضای برکه محفوظ هستند. برای کاوش در هر تأملی در سفر معنویتان آنها را باز کنید.",
+  "blessedBenefitsGrace": "برکه را باز کنید تا تأملات اضافی، دسته‌های بیشتر و ادامه بدون مزاحمت داشته باشید.",
+  "blessedBenefitsBlessed": "شما در حالت برکه هستید. اگر تأملاتتان کم است، تأملات اضافی اضافه کنید و بدون مزاحمت ادامه دهید.",
+  "blessedButtonBecomeBlessed": "باز کردن برکه",
+  "blessedButtonTopup1000": "افزودن 1000 تأمل",
+  "blessedBadge": "برکه فعال",
+  "blessedLoadingStore": "بارگذاری فروشگاه…",
+
+  "freePlanBlockedTitle": "تأملات آغاز‌کننده شما تمام شد",
+  "freePlanBlockedBody": "شما در طرح استاندارد با تأملات آغاز‌کننده هستید و به حد رسیده‌اید. برای ادامه — و باز کردن دسته‌های ارزشمند — به برکه ارتقا دهید.",
+  "freePlanBlockedCtaGoPremium": "گزینه‌های برکه را در زیر ببینید",
+
+  "graceBlockedTitle": "تأملات آغاز‌کننده شما تمام شد",
+  "graceBlockedBody": "شما در طرح استاندارد با تأملات آغاز‌کننده هستید و به حد رسیده‌اید. برای ادامه — و باز کردن دسته‌های ارزشمند — به برکه ارتقا دهید.",
+  "graceBlockedCtaGoBlessed": "گزینه‌های برکه را در زیر ببینید",
+
+  "rateGuestMustSignIn": "برای استفاده از Nuria و تأملات وارد شوید.",
+
+  "guestNoCreditsTitle": "حالت مهمان",
+  "guestNoCreditsBody": "به‌عنوان مهمان می‌توانید برنامه را مرور کنید، اما نمی‌توانید از تأملات استفاده کنید. بعداً در تنظیمات وارد شوید تا از تأملات و خریدها استفاده کنید.",
+
+  "guestNoReflectionsTitle": "حالت مهمان",
+  "guestNoReflectionsBody": "به‌عنوان مهمان می‌توانید برنامه را مرور کنید، اما نمی‌توانید از تأملات استفاده کنید. بعداً در تنظیمات وارد شوید تا از تأملات و خریدها استفاده کنید.",
+
+  "guestDialogContinue": "ادامه",
+  "guestDialogLoginInstead": "درعوض وارد شوید",
+
+  "optionalLabel": "اختیاری",
+
+  "accountDeleteSuccessTitle": "حساب حذف شد",
+  "accountDeleteSuccessBody": "حساب و داده‌های مرتبط شما با موفقیت حذف شدند.",
+  "accountDeleteSuccessClose": "بستن",
+  "accountDeleteErrorTitle": "نتوانست حساب را حذف کند",
+  "accountDeleteErrorClose": "باشد",
+  "accountDeleteReauthCancelled": "تأیید مجدد لغو شد. لطفاً دوباره وارد شوید و حذف را دوباره امتحان کنید.",
+  "accountDeleteReauthRequired": "حذف حساب نیاز به ورود اخیر دارد. لطفاً خارج شوید، دوباره وارد شوید و حذف را دوباره امتحان کنید.",
+  "settingsDeletePermanentWarning": "این اقدام دائمی است و نمی‌تواند برگردانده شود. تمام داده‌های مرتبط با حسابتان حذف می‌شود.",
+
+  "dailyGraceTitle": "راهنمایی روزانه",
+  "dailyGraceScriptureLabel": "آیه روز",
+  "dailyGraceSaintLabel": "دانشمند هفته",
+  "dailyGraceReflectionLabel": "تأمل شام",
+  "dailyGraceCopiedToast": "آیه در کلیپ‌بورد کپی شد",
+
+  "dailyScripture0Text": "بی‌گمان پرهیزکاران در باغ‌ها و جویبار‌ها در مقام افتخاری نزد پادشاهی قدرتمند خواهند بود.",
+  "dailyScripture0Ref": "قرآن 54:54-55",
+  "dailyScripture1Text": "و ما تو را نفرستاده‌ایم مگر رحمتی برای جهانیان.",
+  "dailyScripture1Ref": "قرآن 21:107",
+  "dailyScripture2Text": "آیا خدا برای بندۀ خود کافی نیست؟ در حالی‌که (دشمنان) تو را به دیگری ترسانند.",
+  "dailyScripture2Ref": "قرآن 39:36",
+  "dailyScripture3Text": "ممکن است چیزی را دوست نداشته‌ باشید، حالا‌نکه برایتان خیر است؛ و ممکن است چیزی را دوست داشته‌ باشید، حالا‌نکه برایتان شر است؛ و خدا می‌داند و شما نمی‌دانید.",
+  "dailyScripture3Ref": "قرآن 2:216",
+  "dailyScripture4Text": "بی‌گمان خدا با صابران است.",
+  "dailyScripture4Ref": "قرآن 2:153",
+  "dailyScripture5Text": "پس مرا یاد کنید؛ من نیز شما را یاد می‌کنم. و سپاس‌گزاری کنید مرا و ناسپاسی مرا مکنید.",
+  "dailyScripture5Ref": "قرآن 2:152",
+  "dailyScripture6Text": "بی‌گمان شریف‌ترین شما نزد خدا آن کس است که پرهیزگار‌تر باشد.",
+  "dailyScripture6Ref": "قرآن 49:13",
+  "dailyScripture7Text": "و پروردگار تو فرمان داده است که تنها او را سجده‌کنید و والدین را نیکی کنید.",
+  "dailyScripture7Ref": "قرآن 17:23",
+  "dailyScripture8Text": "بی‌گمان با سختی آسانی است.",
+  "dailyScripture8Ref": "قرآن 94:6",
+  "dailyScripture9Text": "و او با شما است، هرجا که باشید؛ و خدا آنچه را که می‌کنید مشاهده‌گر است.",
+  "dailyScripture9Ref": "قرآن 57:4",
+  "dailyScripture10Text": "خدا هیچ نفسی را بار دهد مگر موسیقه‌ایش.",
+  "dailyScripture10Ref": "قرآن 2:286",
+  "dailyScripture11Text": "و هر که بر خدا توکل کند، پس خدا برایش کافی است.",
+  "dailyScripture11Ref": "قرآن 65:3",
+  "dailyScripture12Text": "رحمت من هر چیز را فرا می‌گیرد.",
+  "dailyScripture12Ref": "قرآن 7:156",
+  "dailyScripture13Text": "و هنگامی‌که بندگان من از تو درباره‌ من سؤال کنند، بدانند که من نزدیکم؛ دعای متضرع را می‌شنوم هنگامی‌که او دعا می‌کند.",
+  "dailyScripture13Ref": "قرآن 2:186",
+  "dailyScripture14Text": "هر کس عمل‌صالح انجام دهد، چه مرد و چه زن، و بنابر ایمان باشد، ما تأکیداً او را سختی‌های شیرین می‌بخشیم.",
+  "dailyScripture14Ref": "قرآن 16:97",
+  "dailyScripture15Text": "بی‌گمان خدا حالت قومی را تغییر نمی‌دهد، تا خود آنان حالت خود را تغییر دهند.",
+  "dailyScripture15Ref": "قرآن 13:11",
+  "dailyScripture16Text": "پس ضعیف مشوید و غم‌خوار مشوید؛ اگر شما مؤمن باشید، شما برتر خواهید بود.",
+  "dailyScripture16Ref": "قرآن 3:139",
+  "dailyScripture17Text": "ای بندگان من که ظلم به نفس خود کردید، از رحمت خدا مایوس مشوید؛ بی‌گمان خدا تمام گناهان را می‌بخشد.",
+  "dailyScripture17Ref": "قرآن 39:53",
+  "dailyScripture18Text": "و هر کس خدا را بترسد، برایش راه خروج برقرار می‌کند و روزی‌اش از راهی می‌رساند که انتظار نداشت.",
+  "dailyScripture18Ref": "قرآن 65:2-3",
+  "dailyScripture19Text": "مایوس مشوید از رحمت خدا.",
+  "dailyScripture19Ref": "قرآن 12:87",
+  "dailyScripture20Text": "و ما بی‌گمان قرآن را آسان کردیم برای یادگیری؛ پس آیا کسی است که متذکر شود؟",
+  "dailyScripture20Ref": "قرآن 54:17",
+  "dailyScripture21Text": "و شما را گم‌راه یافت و راه‌نمایی کرد.",
+  "dailyScripture21Ref": "قرآن 93:7",
+  "dailyScripture22Text": "و پروردگار شما می‌فرماید: مرا بخوانید، من دعایتان را اجابت می‌کنم.",
+  "dailyScripture22Ref": "قرآن 40:60",
+  "dailyScripture23Text": "و بی‌گمان ما فرزندان آدم را مکرم گردانیدیم.",
+  "dailyScripture23Ref": "قرآن 17:70",
+  "dailyScripture24Text": "و از صبر و نماز یاری طلبید.",
+  "dailyScripture24Ref": "قرآن 2:45",
+  "dailyScripture25Text": "هر کس ذره‌ای خوبی انجام دهد، آن را خواهد دید.",
+  "dailyScripture25Ref": "قرآن 99:7",
+  "dailyScripture26Text": "بی‌گمان یاری خدا نزدیک است.",
+  "dailyScripture26Ref": "قرآن 2:214",
+  "dailyScripture27Text": "و هر کس سپاس‌گزاری کند، نیکی‌اش برای خود است.",
+  "dailyScripture27Ref": "قرآن 31:12",
+
+  "dailyReflection0": "با پایان این روز، به یاد بیاورید یکی از لحظات بروز رحمت خدا.",
+  "dailyReflection1": "هر چه امروز بر دلتان سنگین بود، پیش خدا بیاورید.",
+  "dailyReflection2": "یکی از نعم‌های امروز را نام بگیرید و شکر خدا کنید.",
+  "dailyReflection3": "با آرامش بدانید که حفاظت خدا بر شما است.",
+  "dailyReflection4": "به لحظاتی فکر کنید که خدا شما را به مهربانی و عطوفت فرا خواند.",
+  "dailyReflection5": "آنچه را نمی‌توانید کنترل کنید رها کنید و به نقشه خدا توکل کنید.",
+  "dailyReflection6": "با غروب شب، در ذکر خدا آرامش بیابید.",
+  "dailyReflection7": "به ادای نمازهای امروز فکر کنید و برای هرکدام شکر خدا کنید.",
+  "dailyReflection8": "به لحظه‌ای فکر کنید که صبر امروز را راهنمایی کرد.",
+  "dailyReflection9": "برای هر کوتاهی از خدا بخشش طلبید — رحمت خدا بی‌حد است.",
+  "dailyReflection10": "یادی از کسی نام بگیرید که امروز مهربان بودید و برایش دعا کنید.",
+  "dailyReflection11": "با سپاسگزاری نشستید: خدا امروز چه چیزی به شما بخشید که نخواستید؟",
+  "dailyReflection12": "درباره آیه‌ای از قرآن تفکر کنید که به شرایط شما مرتبط است.",
+  "dailyReflection13": "به فکر کنید هنگام امروز را چگونه گذراندید — فردا را به خدا تسلیم کنید.",
+  "dailyReflection14": "بدانید که هر سختی امروز، خدا با شما بود.",
+  "dailyReflection15": "یک راه را یاد کنید که امروز برای خانواده یا جامعه خدمت کردید.",
+  "dailyReflection16": "با شام، توبه کنید — خدا عاشق کسانی است که بازمی‌گردند.",
+  "dailyReflection17": "به زیبایی‌های کوچکی که خدا در روز شما گذاشت فکر کنید.",
+  "dailyReflection18": "به یادی که امروز کسب کردید فکر کنید و چگونه نزدیک‌تر به خدا شدید.",
+  "dailyReflection19": "غم‌های روز را با خدا رها کنید — او آنچه نمی‌توانید حمل کنید حمل می‌کند.",
+  "dailyReflection20": "لحظه‌ای را یاد کنید که بهتر می‌توانستید عمل کنید و با رفق با خود یاد بگیرید.",
+  "dailyReflection21": "برای کسانی که مبتلا هستند دعا کنید — دعا شما برایشان هدیه است.",
+  "dailyReflection22": "نعمتی را یاد کنید که غالباً بر آن نظرگذر می‌کنید و شکر خدا کنید.",
+  "dailyReflection23": "به نیاتتان امروز فکر کنید — آیا برای خدا بودند؟ فردا دوباره شروع کنید.",
+  "dailyReflection24": "با آرام شدن شب، به نزدیکی خدا در سکوت گوش دهید.",
+  "dailyReflection25": "به یادی که امروز قوت یافتید فکر کنید — آن قوت از خدا است.",
+  "dailyReflection26": "چیزی نام بگیرید که فردا برای خدا انجام خواهید داد که امروز نکردید.",
+  "dailyReflection27": "قبل از استراحت، روح خود را به خدا تسلیم کنید — او بهترین نگاهبان است.",
+
+  "dailyRoleModel0": "پیامبر محمد ﷺ",
+  "dailyRoleModel1": "ابوبکر صدیق (رضی‌الله)",
+  "dailyRoleModel2": "عمر بن خطاب (رضی‌الله)",
+  "dailyRoleModel3": "عثمان بن عفان (رضی‌الله)",
+  "dailyRoleModel4": "علی بن ابی‌طالب (رضی‌الله)",
+  "dailyRoleModel5": "خدیجة بنت خویلد (رضی‌الله)",
+  "dailyRoleModel6": "عائشة بنت ابی‌بکر (رضی‌الله)",
+  "dailyRoleModel7": "فاطمة الزهراء (رضی‌الله)",
+  "dailyRoleModel8": "بلال بن رباح (رضی‌الله)",
+  "dailyRoleModel9": "سلمان الفارسی (رضی‌الله)",
+  "dailyRoleModel10": "ابو‌هریره (رضی‌الله)",
+  "dailyRoleModel11": "عبدالله بن عباس (رضی‌الله)",
+  "dailyRoleModel12": "عبدالله بن مسعود (رضی‌الله)",
+  "dailyRoleModel13": "معاذ بن جبل (رضی‌الله)",
+  "dailyRoleModel14": "مصعب بن عمیر (رضی‌الله)",
+  "dailyRoleModel15": "سمیة بنت خباب (رضی‌الله)",
+  "dailyRoleModel16": "عمار بن یاسر (رضی‌الله)",
+  "dailyRoleModel17": "ام سلمة (رضی‌الله)",
+  "dailyRoleModel18": "خالد بن الولید (رضی‌الله)",
+  "dailyRoleModel19": "زید بن ثابت (رضی‌الله)",
+  "dailyRoleModel20": "حفصة بنت عمر (رضی‌الله)",
+  "dailyRoleModel21": "عمر بن عبدالعزیز (رحمه‌الله)",
+  "dailyRoleModel22": "امام ابو‌حنیفة (رحمه‌الله)",
+  "dailyRoleModel23": "امام مالك بن انس (رحمه‌الله)",
+  "dailyRoleModel24": "امام شافعی (رحمه‌الله)",
+  "dailyRoleModel25": "امام احمد بن حنبل (رحمه‌الله)",
+  "dailyRoleModel26": "امام بخاری (رحمه‌الله)",
+  "dailyRoleModel27": "امام مسلم (رحمه‌الله)",
+  "dailyRoleModel28": "امام ترمذی (رحمه‌الله)",
+  "dailyRoleModel29": "غزالی (رحمه‌الله)",
+  "dailyRoleModel30": "ابن قیم الجوزیة (رحمه‌الله)",
+  "dailyRoleModel31": "ابن تیمیة (رحمه‌الله)",
+  "dailyRoleModel32": "نووی (رحمه‌الله)",
+  "dailyRoleModel33": "ابن حجر العسقلانی (رحمه‌الله)",
+  "dailyRoleModel34": "ابن کثیر (رحمه‌الله)",
+  "dailyRoleModel35": "طبری (رحمه‌الله)",
+  "dailyRoleModel36": "سفیان الثوری (رحمه‌الله)",
+  "dailyRoleModel37": "فخرالدین الرازی (رحمه‌الله)",
+  "dailyRoleModel38": "ابن سینا (رحمه‌الله)",
+  "dailyRoleModel39": "بیرونی (رحمه‌الله)",
+  "dailyRoleModel40": "ابن رشد (رحمه‌الله)",
+  "dailyRoleModel41": "ابن خلدون (رحمه‌الله)",
+  "dailyRoleModel42": "ابن بطوطة (رحمه‌الله)",
+  "dailyRoleModel43": "پیامبر ابراهیم (علیه‌السلام)",
+  "dailyRoleModel44": "پیامبر موسی (علیه‌السلام)",
+  "dailyRoleModel45": "پیامبر عیسی (علیه‌السلام)",
+  "dailyRoleModel46": "پیامبر یوسف (علیه‌السلام)",
+  "dailyRoleModel47": "پیامبر داود (علیه‌السلام)",
+  "dailyRoleModel48": "پیامبر سلیمان (علیه‌السلام)",
+  "dailyRoleModel49": "پیامبر نوح (علیه‌السلام)",
+  "dailyRoleModel50": "پیامبر یونس (علیه‌السلام)",
+  "dailyRoleModel51": "پیامبر ایوب (علیه‌السلام)",
+  "dailyRoleModel52": "رقیة بنت محمد (رضی‌الله)",
+  "dailyRoleModel53": "زینب بنت محمد (رضی‌الله)",
+  "dailyRoleModel54": "حسن بن علی (رضی‌الله)",
+  "dailyRoleModel55": "حسین بن علی (رضی‌الله)",
+  "dailyRoleModel56": "جعفر بن ابی‌طالب (رضی‌الله)",
+  "dailyRoleModel57": "ابو‌ذر الغفاری (رضی‌الله)",
+  "dailyRoleModel58": "طلحة بن عبیدالله (رضی‌الله)",
+  "dailyRoleModel59": "زبیر بن عوام (رضی‌الله)",
+
+  "locationConsentLabel": "Nuria را اجازه دهید از مکان من برای جهت قبله و اوقات نماز استفاده کند",
+  "locationConsentHint": "فقط برای این ویژگی‌ها استفاده می‌شود. مکان شما هرگز اشتراک یا ذخیره نمی‌شود.",
+
+  "askPageTitle": "پرسیدن از Nuria",
+  "askPageDescription": "درباره ایمان، نماز، زندگی یا عملکرد اسلامی هر چیزی بپرسید و راهنمایی ریشه‌دار در قرآن و سنت دریافت کنید.",
+  "askPageInputHint": "سؤال خود را اینجا تایپ کنید…",
+  "askPageSubmitCta": "پرسیدن",
+  "askPageInputEmptyError": "لطفاً ابتدا سؤال بنویسید.",
+  "askResultYourQuestion": "سؤال شما",
+
+  "guidancePageTitle": "نماز و راهنمایی",
+  "qiblaFacingMecca": "رو به‌رو با مکه",
+  "qiblaCompassInstruction": "تلفن خود را بچرخانید تا سوزن طلایی رو به‌رو با بالا باشد.\nآن جهت به سوی قبله (مکه) است.",
+  "qiblaGpsUnavailableBody": "سیگنال GPS ضعیف است. به بیرون برید و دوباره امتحان کنید.",
+  "qiblaRetry": "دوباره امتحان کنید",
+  "qiblaTitle": "جهت قبله",
+  "qiblaDistanceLabel": "{km} کیلومتر تا مکه",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "مکان مورد نیاز است",
+  "qiblaLocationNeededBody": "دسترسی مکان را اجازه دهید تا Nuria بتواند جهت کعبة‌المشرفه در مکه را از جایی که هستید محاسبه کند.",
+  "qiblaOpenSettings": "بازکردن تنظیمات",
+  "qiblaCompassLoading": "پیدا کردن موقعیت شما…",
+  "qiblaTowardMecca": "به سوی مکه",
+
+  "prayerTimesTitle": "اوقات نماز",
+  "prayerTimesFajr": "فجر",
+  "prayerTimesDhuhr": "ظهر",
+  "prayerTimesAsr": "عصر",
+  "prayerTimesMaghrib": "مغرب",
+  "prayerTimesIsha": "عشاء",
+  "prayerTimesLocationNeededTitle": "مکان مورد نیاز است",
+  "prayerTimesLocationNeededBody": "دسترسی مکان را اجازه دهید تا Nuria بتواند اوقات نماز دقیق برای شهر شما محاسبه کند.",
+  "prayerTimesNextLabel": "بعدی",
+  "prayerTimesDoneLabel": "انجام شد",
+
+  "monthlyPrayerTimesTitle": "اوقات نماز ماه",
+  "monthlyPrayerTimesViewButton": "مشاهده کل ماه",
+  "monthlyPrayerTimesNextMonth": "ماه بعد",
+  "monthlyPrayerTimesDayHeader": "روز",
+
+  "sharePrayerTimes": "اشتراک‌گذاری اوقات نماز",
+
+  "prayerNotificationsTitle": "یادآوری نماز",
+  "prayerNotificationsDescription": "قبل از هر وقت نماز، یادآوری ملایمی دریافت کنید تا در طول روز متصل بمانید.",
+  "prayerNotificationsEnable": "فعال‌کردن یادآوری نماز",
+  "prayerNotificationsOpenSettings": "بازکردن تنظیمات آگاهی",
+  "prayerNotificationsDenied": "آگاهی‌ها غیرفعال است",
+  "prayerNotificationsDeniedHint": "به تنظیمات بروید و آگاهی‌های Nuria را فعال کنید تا یادآوری‌های نماز دریافت کنید.",
+
+  "notificationsConsentLabel": "اجازه برای آگاهی‌های نماز",
+
+  "prayerNotifTitleFajr": "🌅 فجر — نماز سحر",
+  "prayerNotifBodyFajr": "بهترین نماز، نماز فجر است. بیدار شوید، خود را پاکیزه کنید و پیش خدا ایستید.",
+
+  "prayerNotifTitleDhuhr": "☀️ ظهر — نماز ظهرانه",
+  "prayerNotifBodyDhuhr": "روزتان را متوقف کنید و به خدا بازگردید. وقت نماز ظهر فرا رسیده است.",
+
+  "prayerNotifTitleAsr": "🌤️ عصر — نماز عصر",
+  "prayerNotifBodyAsr": "نماز وسط را حفاظت کنید. وقت عصر فرا رسیده است — آن را رها نکنید.",
+
+  "prayerNotifTitleMaghrib": "🌇 مغرب — نماز غروب",
+  "prayerNotifBodyMaghrib": "آفتاب غروب کرده است. نماز مغرب را بگذارید و شکر خدا کنید برای این روز.",
+
+  "prayerNotifTitleIsha": "🌙 عشاء — نماز شب",
+  "prayerNotifBodyIsha": "روزتان را با ذکر خدا پایان دهید. حی‌ّ على الفلاح — به سوی کامیابی آمدید.",
+
+  "outOfReflectionsBannerText": "تمام تأملات شما استفاده شد",
+  "outOfReflectionsBannerCta": "دریافت بیشتر",
+
+  "dhikrPageTitle": "ذکر",
+  "dhikrTapToCount": "برای شمارش دایره را لمس کنید",
+  "dhikrResetButton": "بازنشانی",
+  "dhikrComplete": "ما‌شاء‌الله",
+  "dhikrCompleteMessage": "شما 99 ذکر خدا را تکمیل کردید. افتخار می‌کنیم آنها نور دلتان باشند.",
+
+  "disclaimerTitle": "درباره راهنمایی این برنامه",
+  "disclaimerBody": "Nuria تأملات اسلامی، یادآوری‌ها و محتوای روحانی را برای پشتیبانی از سفر شخصی شما در ایمان فراهم می‌کند. این محتوا برای مقاصد اطلاعاتی و الهام‌بخشی عمومی ارائه می‌شود.\n\nNuria جایگزین دانشمندی شایسته نیست.\nراهنمایی این برنامه جایگزین دانشمند اسلامی واجب، امام، مفتی یا معلم متدین نیست. اگر درباره احکام دینی، موضوعات حلال و حرام یا الزامات دینی شخصی سؤالات دارید، لطفاً از مرجع دینی واجب در جامعه‌ی خود کمک طلب کنید.\n\nاین برنامه احکام دینی صادر نمی‌کند.\nNuria احکام قطعی درباره مسائل فقه اسلامی یا الزامات دینی شخصی ندارد. هیچ چیز اینجا نباید به‌عنوان فتوا یا دستور دینی ملزم تلقی شود.\n\nتفسیرهای دانشمندی متفاوت هستند.\nاسلام شامل تنوع غنی از سنت‌ها، مکاتب فکری (مذاهب) و نظرات دانشمندانه است. محتوا در این برنامه دیدگاه‌های عمومی را منعکس می‌کند و ممکن است هر سنت یا مذهب را یکسان نمایندگی نکند.\n\nجامعه اهمیت دارد.\nهدف این برنامه تشویق شمار بر مشارکت با سنت‌های دینی است و در عین‌حال نقش حیاتی مسجد محلی، امام و جامعه دینی شما را عمیقاً احترام می‌گذارد. ما شما را تشویق می‌کنیم متصل بمانید و از معلمان واجب نزدیک خود یاد بگیرید.",
+  "disclaimerClose": "متوجه شدم",
+  "disclaimerInfoTooltip": "درباره راهنمایی این برنامه",
+  "disclaimerSettingsSubtitle": "برای مقاصد اطلاعاتی عمومی. برای خواندن تنبیهی کامل، لمس کنید.",
+  "disclaimerSectionHeader": "تنبیه راهنمایی"
+}

@@ -1,0 +1,585 @@
+{
+  "@@locale": "mg",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Safidio ny ianao",
+  "languageSelectSub": "Afaka manova izany ankoatranoankoatry ny Settings",
+  "actionContinue": "Mitohy",
+  "languageSuggestedHeader": "Soso-kevitra",
+  "languageAllHeader": "Fiteny rehetra",
+  "languageSuggestedBadge": "Soso-kevitra",
+  "languageSearchHint": "Mandinika…",
+
+  "planGrace": "Mahazatra",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Torolalana isan'andro",
+  "categoryFaithTrust": "Finoana sy Antoka",
+  "categoryPrayerReflection": "Fisaintsainana amin'ny Fanompoa",
+  "categoryHopeDifficultTimes": "Fahatôlamirana sy Fanantenana",
+  "categoryForgiveness": "Mamangina Fanatanjahantjahan",
+  "categoryLoveCompassion": "Fahatsarana sy Faharatsiam",
+  "categoryStrengthCourage": "Finoana sy Herisetra",
+  "categoryGratitude": "Manggalatela",
+  "categoryPurposeCalling": "Sontim-piainana",
+  "categoryFamilyRelationships": "Fianakaviana",
+  "categoryPeaceAnxietyRelief": "Fanampiana anatiny",
+  "categoryWisdomOfJesus": "Fahitsingana Profeta",
+  "categoryHumilityCharacter": "Toetra Tsara",
+  "categoryOvercomingTemptation": "Handresana ny Fandikadikana",
+  "categoryEveningReflection": "Fisaintsainana alina",
+  "categoryCustom": "Fisaintsika Manokana",
+  "dhikrMeaningSubhanallah": "Voninahitra ho an'Andriamanitra",
+  "dhikrMeaningAlhamdulillah": "Ny fiderana rehetra dia ho an'Andriamanitra",
+  "dhikrMeaningAllahuAkbar": "Andriamanitra no lehibe indrindra",
+  "quranVerseHeartAtRest": "Marina tokoa, amin'ny fahatsiarovana an'Andriamanitra no ahitana fitoniana ny fo.",
+
+  "promptHint": "Sarisary ny sokajy iray vao makakatanteraka torolalana sy fisaintsainana Islam",
+
+  "currentLanguage": "Fiteny ankehitriny",
+  "settingsLanguage": "Aolam-piteny",
+  "settingsTitle": "Aolam-Zavatra",
+  "chooseLanguage": "Safidio ny ianao",
+  "continueCta": "Mitohy",
+
+  "promptDailyGuidance": "Soraty torolalana aotra fotsiny noho ny azy izay mifandraika amin'ny finoana Islam Sunni — niorina tamin'ny Quran, Hadith, ary ny fampianarana an'i Muhammad Profeta. Safidio ny fahatarana vaovao: hasina avy amin'ny tetika Islam, fahamarinana avy amin'ny Sunnah, fahitsingana avy amin'ny Sahabah, na fanao mahafinaritra avy amin'ny atao Islam. Tandindy ny Quran iray (Surah:Ayah) sy fisaintsainana 1–2 fehezanteny hamafazany ny andro. Mety isika dia manambady azy amin'ny Kalandrie Islam na daty manan-danja raha tsara.",
+
+  "promptFaithTrust": "Soraty fisaintsainana Islam momba ny Iman (finoana) sy antoka amin'ny drafitra Alah (Tawakkul). Norimba tamin'ny Quran, ny ohatra an'i Muhammad Profeta, ary ny finoana an'ny Sahabah. Sandritry ny fenitra tsirairay: antoka amin'ny Alah amin'ny tsy fahalalahana, fifiankinana amin'ny fahamarinana Divina, fahatôlamirana amin'ny asa mavesatra, na fahatake-tsaina amin'ny andoany ao anivon'ny aina. Tandindy ny Quran iray ary dingadingana iray marina avy amin'ny fahitsingana spiritoyela Islam.",
+
+  "promptPrayerReflection": "Soraty fisaintsainana Islam momba ny fanompoa, Dua, na Dhikr. Sandritry ny endriny betsaka: fahatsikitsikitsiky na alatsimidrove (Adhkar), fisaintsainana momba ny fanompoa dimy isan'andro, fisaintsainana ny Ayah Quran, na dua mahita fo. Tandindy ny Quran iray ary ataovy mazava ny endrik'ny fanompoa nampiasaina.",
+
+  "promptHopeDifficultTimes": "Soraty fisaintsainana Islam momba ny fahatôlamirana (Sabr) sy fanantenana amin'ny fotoana mahafaty. Avy amin'ny fampianarana Quran momba ny asa mavesatra, ny fahatake-tsaina an'ny Profeta, ary ny fahatsaram-pihnahemezana an'ny Alah. Sandritry ny fahatarana tsirairay. Tandindy ny Quran iray sy fahatsara-po iray avy amin'ny atao Islam.",
+
+  "promptForgiveness": "Soraty fisaintsainana mahitsy Islam momba ny mamangina (Tawbah) ary fahatsaram-pinahemezana an'ny Alah. Avy amin'ny fampianarana Quran momba ny fitsibotsiboana, ny fahatsaram-pinahemezana an'ny Alah, ary ny ohatra mamingina an'i Muhammad Profeta. Sandritry ny lohahevitra: mizotra amin'ny Alah, mamingina zara, fitsaboana ny fifandraisana, na mahatrefitra amin'ny fahatsaram-pihnahemezana an'ny Alah. Tandindy ny Quran iray ary dingan'ifampitsarana iray.",
+
+  "promptLoveCompassion": "Soraty fisaintsainana Islam momba ny fahatsaram-pihnahemezana (Rahmah) ary fitiavan'ny aoka. Avy amin'ny ohatra an'i Muhammad Profeta, ny hevitra Ihsan (fahatsaran'asa), ary ny fampianarana Islam momba ny fiadanana amin'ny fianakaviana, mpizantsara, ary ireo oza. Tandindy ny Quran iray ary dingan'ifampitsarana iray misy ny fahatsaram-pihnahemezana hanao anio.",
+
+  "promptStrengthCourage": "Soraty fisaintsainana Islam momba ny herisetra mitohy amin'ny finoana ary fahitra. Avy amin'ny tondro avy amin'ny Profeta, ny fianakaviana Muslim voalohany, ary zara izay nirotsaka fa nitoraka amin'ny fahafatesana. Sandritry ny lohahevitra tsirairay: fahitra amin'ny finoana, herisetra amin'ny fanompoa, antoka amin'ny Alah amin'ny tahotra, na fahazarana amin'ny asa mavesatra. Tandindy ny Quran iray ary fanoinam-po na finoan'ny fahatsara-po iray.",
+
+  "promptGratitude": "Soraty fisaintsainana Islam momba ny manggalatela (Shukr) amin'ny Alah. Norimba tamin'ny fampianarana Quran sy atao Profeta. Sandritry ny fahatarana: manggalatela amin'ny vahatavinany, mahatsara ny voninahitra kely, mamohatra ny andro amin'ny fialana an'ny Alah, na mahatsara ny toronankiray an'ny Alah amin'ny andoany. Tandindy ny Quran iray ary fanao manggalatela iray.",
+
+  "promptPurposeCalling": "Soraty fisaintsainana Islam momba ny sontim-piainana amin'ny fanompoa an'ny Alah ary fiainana marina. Avy amin'ny fampianarana Quran momba ny tanina, fanampiana, ary fampiasana ny talenta ho an'ny soa. Sandritry ny lohahevitra: nanampiana ny fianakaviana ary ny firaisan-kina, fitadiam-pitorohana amin'ny Istikhara, fiainana amin'ny dingana, na fitsinjarana amin'ny soa amin'ny asa mahazatra. Tandindy ny Quran iray ary fanontaniana fisaintsainana roa.",
+
+  "promptFamilyRelationships": "Soraty torolalana mahitsy Islam momba ny fianakaviana ary fifandraisana norimba amin'ny fampianarana Quran ary ohatra an'i Muhammad Profeta. Sandritry ny lohahevitra: fiadanana amin'ny fianakaviana, fahatôlamirana amin'ny fifadiana, fanajana ny ray aman-dreny, fampianaran'ny zanaka amin'ny finoana, na fampitaroana ny fanahy, na pampiangina ny fanambazaza. Tandindy ny Quran iray ary fanao fifandraisana iray.",
+
+  "promptPeaceAnxietyRelief": "Soraty fisaintsainana mahalonatena Islam momba ny fitsinjarana anlina amin'ny alahelo amin'ny fahatsikitsikitsiky an'ny Alah (Dhikr) ary antoka amin'ny dratsininy. Avy amin'ny fampianarana Quran momba ny fatsaram-pihnahemezana an'ny fo, fanompoa, ary fiovana amin'ny Alah. Sandritry ny fomba tsirairay ary tandindy ny Quran iray ary fanao fiasa mahafinaritra avy amin'ny atao Islam.",
+
+  "promptWisdomOfJesus": "Soraty fahitsingana iray avy amin'ny Profeta araka ny nampianarina Islam. Avy amin'ny Quran na Hadith ary hazavao midika ho avy amin'ny fahitsingana Islam. Sandritry ny lohahevitra: toetra, fahatôlamirana, fahababana, finoana, na andoany. Tandindy ny Quran na Hadith ary dingan'ifampitsarana iray mahitsy.",
+
+  "promptHumilityCharacter": "Soraty fisaintsainana Islam momba ny fahababana (Tawadhu) ary toetra tsara (Akhlaq). Avy amin'ny fampianarana Quran, ohatra an'i Muhammad Profeta, ary atao fahazarana amin'ny fampivolo toetra Islam. Sandritry ny lohahevitra: fahababana amin'ny fitsimbetsimbetana, fitiavan'ny fahotana, fanajana an'ny zara, na fikarohana amin'ny tenin-tena. Tandindy ny Quran iray ary fomba iray hampiasaina.",
+
+  "promptOvercomingTemptation": "Soraty fisaintsainana Islam momba ny handresana ny fandikadikana ary fitiavana amin'ny lalan'ny Alah. Avy amin'ny fahitsingana Quran, fahatsikitsikitsiky an'ny Alah (Dhikr), fanompoa (Salah), ary tondro avy amin'ny zara izay nandresaka ny fihasliana. Sandritry ny fahatarana tsirairay. Tandindy ny Quran iray ary dingan'ifampitsarana iray amin'ny asa 24 ora.",
+
+  "promptEveningReflection": "Soraty fisaintsainana alina mahalonatena Islam norimba amin'ny atao fahatsikitsikitsiky alina (Adhkar al-Masaa'). Aheahy ny manggalatela, fisaintsainana tenin-tena (Muhasabah), ary antoka amin'ny Alah fambaloana. Tandindy ny fanontaniana fisaintsainana 3–5 ny andro, dua mpitsinjo fohy, ary Quran iray.",
+
+  "wordCount": "{count, plural, one {{count} teny} other {{count} teny}}",
+
+  "optionsCta": "Salanisa",
+  "newCta": "Vaovao",
+  "actionsTitle": "Inona ny hafidinao?",
+  "copy": "Kopiana",
+  "share": "Fizarana",
+  "close": "Midìtso",
+  "copiedToast": "Nokopiana tao amin'ny clipboard",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Torolalana isan'andro" }
+    }
+  },
+
+  "regenerateErrorTitle": "Tsy afaka nanao valiny vaovao",
+  "regenerateErrorBody": "{error}\n\nTe-hahita anao ve?",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Fahadisoan'ny tambajotra" }
+    }
+  },
+
+  "cancelCta": "Ayina",
+  "retryCta": "Handinika indray",
+
+  "authTitle": "Mamorona ny aodinao",
+  "continueAsGuest": "Mitohy toy ny mpitsidiha",
+  "signInGoogle": "Hiditra amin'ny Google",
+  "signInApple": "Hiditra amin'ny Apple",
+  "signInEmail": "Hiditra amin'ny Email",
+  "upgradeWithApple": "Mitohy amin'ny Apple",
+  "mustAccept": "Tsy maintsy hanao ny Fepetra amin'ny Serivisy ary mitangaritra ny Politika Fanahy.",
+  "termsLabel": "Manaiky aho ny Fepetra amin'ny Serivisy",
+  "privacyLabel": "Namaky aho ny Politika Fanahy",
+  "marketingOptIn": "Manaiky aho ny mangataka fampahatsifalofana sy alok",
+  "openTerms": "Fepetra amin'ny Serivisy",
+  "openPrivacy": "Politika Fanahy",
+
+  "accountSection": "Kaonta",
+  "guestMode": "Famadinana toy ny mpitsidiha",
+  "signedIn": "Niditra",
+  "upgradeHint": "Mitahiry ny ianao amin'ny divay maro-pitsipika amin'ny fampiofana kaonta.",
+  "upgradeWithGoogle": "Mitohy amin'ny Google",
+  "signOut": "Hiala",
+
+  "snackUpgraded": "Kaonta nampitomboina amin'ny Google ✅",
+  "snackSignedIn": "Niditra amin'ny Google ✅",
+  "snackSignedOut": "Niala",
+  "snackSignedInApple": "Niditra amin'ny Apple ✅",
+  "snackSignedInGoogle": "Niditra amin'ny Google ✅",
+  "snackUpgradedApple": "Kaonta nampitomboina amin'ny Apple ✅",
+  "snackUpgradedGoogle": "Kaonta nampitomboina amin'ny Google ✅",
+
+  "historyTitle": "Fisaintsainana taloha",
+  "historyOpenCta": "Fisaintsainana taloha",
+  "historyEmpty": "Tsy misy fisaintsainana nantitahiritra akory.",
+  "historyDeleteTitle": "Hofafa ny fisaintsainana?",
+  "historyDeleteBody": "Izany dia ho nesorina ny ilay singa.",
+  "deleteCta": "Hofafa",
+
+  "historyButton": "Fisaintsainana Taloha",
+  "historyEmptyTitle": "Tsy misy fisaintsainana akory",
+  "historyEmptyBody": "Mamorona zavatra voalohany — ny ianao nantitahiritra dia hiseho ao.",
+  "historyDelete": "Hofafa",
+
+  "footerTitle": "Amin'ny Iman, Sabr ary Rahmah.",
+  "footerSubtitle": "Iray no dingana isaky ny haona.",
+  "genericErrorSnack": "Nisy zava-doza — andao hahita anao indray amin'ny fotoana fohy.",
+
+  "upgradeAccountCta": "Mitahiry ny ianao amin'ny divay maro-pitsipika – mamorona kaonta",
+  "deleteAccount": "Hofafa ny kaonta",
+  "exportData": "Fanao ny angonako",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Miadana kely 🐯\nMilan'ny AI dingana mandra-pahatongan'ny manaraka…",
+  "rateDailyLimit": "Tsy misy fisaintsainana intsony ankehitriny.\nMikatsaka fisaintsainana mitovi na ampitomboina ho Barakah.",
+  "rateCreditsExhausted": "Namisafa ny ianao ny ianao fisaintsainana.\nMisafampitsarana na ampitomboina ho Barakah raha te-mitohy.",
+  "rateGraceReflectionsExhausted": "Tsy misy fisaintsainana intsony ankehitriny.\nMikatsaka fisaintsainana mitovi na ampitomboina ho Barakah.",
+  "rateReflectionsExhausted": "Namisafa ny ianao ny ianao fisaintsainana.\nMisafampitsarana na ampitomboina ho Barakah raha te-mitohy.",
+
+  "blessedDescription": "Ny Barakah dia manokatra singa voalohany, sokajy voalohany, ary famantarana manokatra.",
+  "championDescription": "Ny Barakah dia manokatra singa voalohany, sokajy voalohany, ary famantarana manokatra.",
+
+  "ratePlanExhausted": "Ny ianao fisaintsainana dia foana ankehitriny. Fizarana: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Mahazatra na Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Tsy afaka namarinina ny ianao fisaintsainana: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Fahadisoan'ny tambajotra" }
+    }
+  },
+
+  "rateCheckGenericError": "Nisy zava-doza amin'ny fanamariniana ny ianao fisaintsainana.",
+  "aiFallbackGeneric": "Nisy zava-doza — andao hahita anao indray amin'ny fotoana fohy.",
+
+  "limitSectionTitle": "Fisaintsainana",
+  "limitTodayLabel": "Fampiasana",
+  "limitCreditsLabel": "Fisaintsainana nataletsaka: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Fizarana: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Mahazatra na Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Miloading…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
+
+  "aiLimitTitle": "Fisaintsainana",
+  "aiLimitSubtitle": "Tsirairay famerina dia mampiasana 1 fisaintsainana. Ny Mahazatra dia misy fisaintsainana simba. Ny Barakah dia manokatra sokajy voalohany ary mamela mitampitampina.",
+  "aiLimitProgressLabel": "{used} / {total} fisaintsainana nampiasaina",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Fisaintsainana",
+  "reflectionsUsageLabel": "Fampiasana",
+  "reflectionsRemainingLabel": "Fisaintsainana nataletsaka: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Fizarana: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Mahazatra na Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Miloading…",
+  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+
+  "reflectionsTitle": "Fisaintsainana",
+  "reflectionsSubtitle": "Tsirairay famerina dia mampiasana 1 fisaintsainana. Ny Mahazatra dia misy fisaintsainana simba. Ny Barakah dia manokatra sokajy voalohany ary mamela mitampitampina.",
+  "reflectionsProgressLabel": "{used} / {total} fisaintsainana nampiasaina",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Hofafa ny kaonta",
+  "settingsDeleteDescription": "Hofafa ny ianao kaonta amin'ny lahatata sy daty.",
+  "settingsDeleteButtonLabel": "Hofafa ny kaoutako",
+  "settingsDeleteDialogTitle": "Hofafa ny kaonta?",
+  "settingsDeleteDialogBody": "Izany asa dia manitsy ary tsy afaka hitsogiana.\n\nIzy lahatata, famatsim-panao ary kaonta fampahalala dia hofafaina.",
+  "settingsDeleteDialogCancel": "Ayina",
+  "settingsDeleteDialogConfirm": "Hofafa",
+
+  "settingsFreeLimitUsedTitle": "Fisaintsainana simba nampiasaina",
+  "settingsFreeLimitUsedDescription": "Ny fisaintsainana simba an'ity divay ity dia namisafaina. Ampitomboina ho Barakah na vidio fisaintsainana ho mitohy.",
+
+  "settingsStarterReflectionsUsedTitle": "Fisaintsainana simba nampiasaina",
+  "settingsStarterReflectionsUsedDescription": "Ny fisaintsainana simba an'ity divay ity dia namisafaina. Ampitomboina ho Barakah na vidio fisaintsainana ho mitohy.",
+
+  "deviceBoundError": "Ity divay ity dia efa nifamatohiana amin'ny kaonta hafa. Hiditra amin'ny kaonta voalohany.",
+
+  "premiumTitle": "Famadinana Barakah",
+  "premiumSubtitleBasic": "Manokatra ny fahita-danja Nuria.",
+  "premiumSubtitleChampion": "Ianao Barakah. Mila fisaintsainana betsaka ve?",
+
+  "premiumCurrentPlan": "Fizarana ankehitriny: {plan}",
+  "premiumCreditsStatus": "Fisaintsainana: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Ny vidiana dia tsy azo ankehitriny.",
+  "premiumSignInToPurchase": "Hiditra raha te-vidiana fisaintsainana na manokatra Barakah.",
+
+  "premiumRestorePurchases": "Iverena ny vidiana",
+  "premiumProcessing": "Mihandihandina…",
+  "premiumRestoreHintTitle": "Efa vidiana Barakah na fisaintsainana ao amin'ity divay ity na hafa ve?",
+  "premiumRestoreHintBody": "Iverena ny ianao vidiana raha tsy sedraina.",
+
+  "premiumBuyCredits200": "Vidiana 200 fisaintsainana",
+  "premiumBuyCredits400": "Vidiana 400 fisaintsainana",
+  "premiumBecomeChampionOneTime": "Ampitomboina ho famadinana Barakah",
+  "premiumChampionHint": "Toy ny Barakah, afaka mitampitampina fisaintsainana hatrany raha mila.",
+
+  "premiumUpgradeCta": "Ampitomboina",
+  "premiumRequiredForCategory": "Ity sokajy ity dia ho an'ny nampiasa Barakah. Ampitomboina amin'ny Aolam-Zavatra raha te-manokatra ny lahatata voalohany.",
+  "premiumBenefitsBasic": "Manokatra Barakah raha te-fisaintsainana betsaka, fitsfiram-pokany sokajy voalohany, ary mitohy nefa mila fahitsingana.",
+  "premiumBenefitsChampion": "Ianao Barakah. Raha mibabaka, ampiana fisaintsainana ary mitohy nefa niantsy.",
+  "premiumButtonBecomeChampion": "Manokatra Barakah",
+  "premiumButtonTopup1000": "Ampiana 1000 fisaintsainana",
+  "premiumChampionBadge": "Barakah mavitrika",
+  "premiumLoadingStore": "Mampitohitra ny trano…",
+
+  "blessedTitle": "Famadinana Barakah",
+  "blessedSubtitleGrace": "Manokatra ny fahita-danja Nuria.",
+  "blessedSubtitleBlessed": "Ianao Barakah. Mila fisaintsainana betsaka ve?",
+
+  "blessedCurrentPlan": "Fizarana ankehitriny: {plan}",
+  "blessedReflectionsStatus": "Fisaintsainana: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Ny vidiana dia tsy azo ankehitriny.",
+  "blessedProductNotAvailable": "Ity vokatra ity dia tsy azo amin'ny trano. Andao hahita anao indray ankolaka.",
+  "blessedPurchaseError": "Nisy zava-doza amin'ny vidiana. Andao hahita anao indray.",
+  "blessedSignInToPurchase": "Hiditra raha te-vidiana fisaintsainana na manokatra Barakah.",
+
+  "blessedRestorePurchases": "Iverena ny vidiana",
+  "blessedProcessing": "Mihandihandina…",
+  "blessedRestoreHintTitle": "Efa vidiana Barakah na fisaintsainana ao amin'ity divay ity na hafa ve?",
+  "blessedRestoreHintBody": "Iverena ny ianao vidiana raha tsy sedraina.",
+
+  "blessedBuyReflections100": "Ampiana 100 fisaintsainana",
+  "blessedBuyReflections200": "Vidiana 200 fisaintsainana",
+  "blessedBuyReflections400": "Vidiana 400 fisaintsainana",
+  "blessedBecomeBlessedOneTime": "Ampitomboina ho Barakah",
+  "blessedTopupHint": "Toy ny Barakah, afaka mitampitampina fisaintsainana hatrany raha mila.",
+
+  "blessedUpgradeCta": "Ampitomboina",
+  "blessedRequiredForCategory": "Ity sokajy ity dia ho an'ny nampiasa Barakah. Ampitomboina amin'ny Aolam-Zavatra raha te-manokatra ny lahatata voalohany.",
+  "blessedFeatureLocked": "Manokatra Barakah raha te-fitsfiram-pokany ity.",
+  "lockedCategoriesHint": "Ny sokajy sasany dia ho an'ny mpampiasa Barakah. Manokatra azy raha te-fisaintsainana tsiroaroa amin'ny ianao lalana.",
+  "blessedBenefitsGrace": "Manokatra Barakah raha te-fisaintsainana betsaka, fitsfiram-pokany sokajy voalohany, ary mitohy nefa mila fahitsingana.",
+  "blessedBenefitsBlessed": "Ianao Barakah. Raha mibabaka, ampiana fisaintsainana ary mitohy nefa niantsy.",
+  "blessedButtonBecomeBlessed": "Manokatra Barakah",
+  "blessedButtonTopup1000": "Ampiana 1000 fisaintsainana",
+  "blessedBadge": "Barakah mavitrika",
+  "blessedLoadingStore": "Mampitohitra ny trano…",
+
+  "freePlanBlockedTitle": "Efa namisafaina ny ianao fisaintsainana simba",
+  "freePlanBlockedBody": "Ianao Mahazatra misy fisaintsainana simba, ary efa tonga ny limit. Raha te-mitohy — ary manokatra sokajy voalohany — ampitomboina ho Barakah.",
+  "freePlanBlockedCtaGoPremium": "Jereo ny Barakah eto ambany",
+
+  "graceBlockedTitle": "Efa namisafaina ny ianao fisaintsainana simba",
+  "graceBlockedBody": "Ianao Mahazatra misy fisaintsainana simba, ary efa tonga ny limit. Raha te-mitohy — ary manokatra sokajy voalohany — ampitomboina ho Barakah.",
+  "graceBlockedCtaGoBlessed": "Jereo ny Barakah eto ambany",
+
+  "rateGuestMustSignIn": "Hiditra raha te-mampiasa Nuria ary ny ianao fisaintsainana.",
+
+  "guestNoCreditsTitle": "Famadinana mpitsidiha",
+  "guestNoCreditsBody": "Toy ny mpitsidiha afaka mijery, nefa tsy afaka mampiasa fisaintsainana. Hiditra ankolaka amin'ny Aolam-Zavatra raha te-mampiasa fisaintsainana ary manokatra vidiana.",
+
+  "guestNoReflectionsTitle": "Famadinana mpitsidiha",
+  "guestNoReflectionsBody": "Toy ny mpitsidiha afaka mijery, nefa tsy afaka mampiasa fisaintsainana. Hiditra ankolaka amin'ny Aolam-Zavatra raha te-mampiasa fisaintsainana ary manokatra vidiana.",
+
+  "guestDialogContinue": "Mitohy",
+  "guestDialogLoginInstead": "Hiditra",
+
+  "optionalLabel": "tsy mitaky",
+
+  "accountDeleteSuccessTitle": "Kaonta hofafaina",
+  "accountDeleteSuccessBody": "Ny ianao kaonta ary daty dia nofafaina.",
+  "accountDeleteSuccessClose": "Midìtso",
+  "accountDeleteErrorTitle": "Tsy afaka nofafa ny kaonta",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Ny famerina ny kaonta dia nalaina. Hiditra indray ary handinika.",
+  "accountDeleteReauthRequired": "Ny fafana kaonta dia mila fampidinina avy haingana. Hiala, hiditra indray, ary handinika.",
+  "settingsDeletePermanentWarning": "Ity asa ity dia manitsy ary tsy afaka hitsogiana. Ny daty rehetra amin'ny ianao kaonta ay hofafaina.",
+
+  "dailyGraceTitle": "Torolalana isan'andro",
+  "dailyGraceScriptureLabel": "AYAH AN'NY ANDRO",
+  "dailyGraceSaintLabel": "MPIANATRA AN'NY HERINANDRO",
+  "dailyGraceReflectionLabel": "FISAINTSAINANA ALINA",
+  "dailyGraceCopiedToast": "Ayah nokopiana amin'ny clipboard",
+
+  "dailyScripture0Text": "Indro, ny mpanatahotra dia ho ao amin'ny zarazara sy ony, amin'ny seza fiandraisandraisana akaiky ny Mpanjaka Mahery.",
+  "dailyScripture0Ref": "Quran 54:54-55",
+  "dailyScripture1Text": "Ary tsy nandoroana anao kami, fa ho fahatsaram-pihnahemezana ny tontolo.",
+  "dailyScripture1Ref": "Quran 21:107",
+  "dailyScripture2Text": "Tsy iray ve ny Alah amin'ny mpanompoany? Nefa izy ireo dia mampitahotra anao amin'ny hafa amin'ny Alah.",
+  "dailyScripture2Ref": "Quran 39:36",
+  "dailyScripture3Text": "Mety hoe zavatra hoatry ianao ary matsara ho anao; ary mety hoe zavatra mialy ianao ary ratsy ho anao. Ary ny Alah dia mahalala, fa ianao tsy mahalala.",
+  "dailyScripture3Ref": "Quran 2:216",
+  "dailyScripture4Text": "Indro, ny Alah dia ao amin'ny fahatôlamirana.",
+  "dailyScripture4Ref": "Quran 2:153",
+  "dailyScripture5Text": "Koa miala amin'aho; hiala aho amin'ianao. Ary manggalatela amin'aho ary tsy manala amin'aho.",
+  "dailyScripture5Ref": "Quran 2:152",
+  "dailyScripture6Text": "Indro, ny haiko indrindra amin'ny itsiporin'ny Alah dia ny mpanatahotra.",
+  "dailyScripture6Ref": "Quran 49:13",
+  "dailyScripture7Text": "Ary ny ianao Tompo dia nandidy fa tsy hompoa afa-tsy Aho, ary manara-pitso amin'ny ianao ray aman-dreny.",
+  "dailyScripture7Ref": "Quran 17:23",
+  "dailyScripture8Text": "Tara, ny aza dia misy soa.",
+  "dailyScripture8Ref": "Quran 94:6",
+  "dailyScripture9Text": "Ary izy dia ao aminao saika saika. Ary ny Alah dia mahita ny zavatra anakao.",
+  "dailyScripture9Ref": "Quran 57:4",
+  "dailyScripture10Text": "Tsy mampatsisina ny Alah ny olona afa-tsy ny nitiavany.",
+  "dailyScripture10Ref": "Quran 2:286",
+  "dailyScripture11Text": "Ary raha miasa amin'ny Alah — dia ampy ho azy.",
+  "dailyScripture11Ref": "Quran 65:3",
+  "dailyScripture12Text": "Ny fahatsaram-pihnahemezanako dia manomba ny zavatra rehetra.",
+  "dailyScripture12Ref": "Quran 7:156",
+  "dailyScripture13Text": "Ary raha ana-pitso ianao momba aho — indro aho akaiky. Miavaka aho amin'ny mpampavone raha ankitahy aho.",
+  "dailyScripture13Ref": "Quran 2:186",
+  "dailyScripture14Text": "Raha manao soa — na lehilahy na vavy — ary manana finoana — dia hatao ho aina soa.",
+  "dailyScripture14Ref": "Quran 16:97",
+  "dailyScripture15Text": "Indro, ny Alah dia tsy hanova ny toetry ny olona raha tsy hanova azy ny zavatra ao amin'ny mona.",
+  "dailyScripture15Ref": "Quran 13:11",
+  "dailyScripture16Text": "Koa aza mahiaraviravy ary aza migorogoro, ary ianao dia ho ambony raha toa ka manana finoana.",
+  "dailyScripture16Ref": "Quran 3:139",
+  "dailyScripture17Text": "Hoy ny monako, izay nanao ny faharatsiam-po, aza milaika amin'ny fahatsaram-pihnahemezana an'ny Alah. Indro, ny Alah dia mamagina ny fahatsaram-po rehetra.",
+  "dailyScripture17Ref": "Quran 39:53",
+  "dailyScripture18Text": "Ary raha manahy ny Alah — dia hahita ho mialona amin'ny zavatra, ary hataony amin'ny tsy akohintsintsiny.",
+  "dailyScripture18Ref": "Quran 65:2-3",
+  "dailyScripture19Text": "Aza milaika amin'ny fahatsaram-pihnahemezana an'ny Alah.",
+  "dailyScripture19Ref": "Quran 12:87",
+  "dailyScripture20Text": "Ary indro, ny Quran dia nataonay ho tsotra fanalanana. Koa misy ve izay handre?",
+  "dailyScripture20Ref": "Quran 54:17",
+  "dailyScripture21Text": "Ary mahita anao setrany ary nangalaka anao.",
+  "dailyScripture21Ref": "Quran 93:7",
+  "dailyScripture22Text": "Ary ny ianao Tompo dia nanao hoe: Angataha aho; hiavaka aho.",
+  "dailyScripture22Ref": "Quran 40:60",
+  "dailyScripture23Text": "Ary indro, nohavony ny fanahin'ny nati-davan'i Adam.",
+  "dailyScripture23Ref": "Quran 17:70",
+  "dailyScripture24Text": "Ary satria amin'ny fahatôlamirana sy fanompoa.",
+  "dailyScripture24Ref": "Quran 2:45",
+  "dailyScripture25Text": "Raha manao ny tsingerina na aiza ny soa — dia hahita azy.",
+  "dailyScripture25Ref": "Quran 99:7",
+  "dailyScripture26Text": "Tsy lavitra ny fisosoana an'ny Alah.",
+  "dailyScripture26Ref": "Quran 2:214",
+  "dailyScripture27Text": "Ary raha manggalatela — dia ho an'ny tenany ny fialaan-dra.",
+  "dailyScripture27Ref": "Quran 31:12",
+
+  "dailyReflection0": "Rehefa miafara ity andro ity, diniho ny iray na iray raha niseho ny fahatsaram-pihnahemezana an'ny Alah.",
+  "dailyReflection1": "Itaka amin'ny Alah izay nanahy anao amin'ity andro ity.",
+  "dailyReflection2": "Asahin'ny iray na iray voninahitra avy amin'ity andro ity ary mialoha amin'ny Alah.",
+  "dailyReflection3": "Miredry amin'ny fahalalahana fa natahorina anao amin'ny fahatsaram-pihnahemezana tsy hafatra an'ny Alah.",
+  "dailyReflection4": "Diniho ny toeran'ny ianao nindirana hanampiana sy fiadana amin'ity andro ity.",
+  "dailyReflection5": "Alaina ny zavatra izay tsy afaka hihingany ianao ary miasa amin'ny dratsininy an'ny Alah.",
+  "dailyReflection6": "Rehefa miafara ity andro ity, manatanteraka fanampiana amin'ny fahatsikitsikitsiky an'ny Alah.",
+  "dailyReflection7": "Diniho ny fomba nianao ho an'ny ianao fanompoa amin'ity andro ity, ary mialoha amin'ny Alah.",
+  "dailyReflection8": "Diniho ny toeran'ny fahatôlamirana (Sabr) nanaman-didina ny ianao ankasitrana amin'ity andro ity.",
+  "dailyReflection9": "Mangataha fanatanjahantjahan'ny zavatra tsy maharom an'ity andro ity — tsy faharatsiam-po ny Alah.",
+  "dailyReflection10": "Antsoina ny olona iray izay nanampiana ianao amin'ity andro ity ary mizara dua ho azy.",
+  "dailyReflection11": "Mirehy amin'ny manggalatela: inona ny nataony amin'ianao amin'ity andro ity izay tsy nangataha?",
+  "dailyReflection12": "Diniho ny Quran iray izay moramora amin'ny izay misy ao ankehitriny.",
+  "dailyReflection13": "Diniho ny fomba nananinao ny ianao amin'ity andro ity — ary manatitso ny fombaovy amin'ny Alah.",
+  "dailyReflection14": "Miredry amin'ny fahalalahana fa na nisy fitaingina amin'ity andro ity, ny Alah dia nahy anao.",
+  "dailyReflection15": "Diniho ny iray na iray fomba nampianao ny ianao fianakaviana na fiainana amin'ny ianao tenin'ny Alah.",
+  "dailyReflection16": "Rehefa miditra alina, manao Tawbah — mialary ny Alah ny izay mizotra amin'ny azy.",
+  "dailyReflection17": "Diniho ny fahakarama nataony ny Alah amin'ny ianao andro, ohatran'ny kely.",
+  "dailyReflection18": "Diniho ny zavatra naianao natutuhan'ity andro ity — ary fombaovy amin'ny Alah.",
+  "dailyReflection19": "Alaina ny alahelo an'ity andro ity amin'ny Alah — izy dia mitondra izay tsy afakahingany ianao.",
+  "dailyReflection20": "Diniho ny fotoana amin'ity andro ity izay natahoranao nianao afaka misy saro-tsara, ary ionaviana manontoan.",
+  "dailyReflection21": "Manao dua amin'ny izay manakareha — ny ianao fanompoa dia fanomezana ho azy.",
+  "dailyReflection22": "Alahio ny voninahitra iray izay tsy maninao ianao ary alohaina ang Alah amin'ity.",
+  "dailyReflection23": "Diniho ny ianao dingana amin'ity andro ity — no ho an'ny Alah ve? Rahampitso, manomboka indray.",
+  "dailyReflection24": "Rehefa mivarika alina, mihaino ny maha-kaiky an'ny Alah amin'ny fahakamela.",
+  "dailyReflection25": "Diniho ny toeran'ny herisetra amin'ity andro ity — tsy mitomonona avy amin'ny Alah.",
+  "dailyReflection26": "Antsoina ny zavatra iray antoka anakao manao rahampitso izay tsy nanao amin'ity andro ity.",
+  "dailyReflection27": "Rehefa miomanipanana raha mikarika ny alina, itako ny ianao saina amin'ny Alah — izy no tsara indrindra amin'ny mpikarakara.",
+
+  "dailyRoleModel0": "Muhammad Profeta ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Ibrahim Profeta (AS)",
+  "dailyRoleModel44": "Musa Profeta (AS)",
+  "dailyRoleModel45": "Isa Profeta (AS)",
+  "dailyRoleModel46": "Yusuf Profeta (AS)",
+  "dailyRoleModel47": "Dawud Profeta (AS)",
+  "dailyRoleModel48": "Sulayman Profeta (AS)",
+  "dailyRoleModel49": "Nuh Profeta (AS)",
+  "dailyRoleModel50": "Yunus Profeta (AS)",
+  "dailyRoleModel51": "Ayub Profeta (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Avelao Nuria ho mampiasa ny ianao toeran'ny Qibla ary ora fanompoa",
+  "locationConsentHint": "Ampiasaina ho an'ity singa ity fotsiny. Ny ianao toeran'ny dia tsy fizaraina na nitahiry.",
+
+  "askPageTitle": "Angataha Nuria",
+  "askPageDescription": "Angataha zavatra momba ny finoana, fanompoa, aina, na atao Islam ary makatanteraka torolalana niorina amin'ny Quran ary Sunnah.",
+  "askPageInputHint": "Soraty ny ianao fanontaniana eto…",
+  "askPageSubmitCta": "Angataha",
+  "askPageInputEmptyError": "Soraty ny fanontaniana voalohany.",
+  "askResultYourQuestion": "Ny ianao fanontaniana",
+
+  "guidancePageTitle": "Fanompoa & Torolalana",
+  "qiblaFacingMecca": "Niatrika amin'i Makkah",
+  "qiblaCompassInstruction": "Tahio ny ianao telofy manoraka ang filamatra volamena. Ity fitsitsiky ity dia niarika amin'ny Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Ny GPS dia malemy. Miova amin'ny alalahady ary sarisariky indray.",
+  "qiblaRetry": "Sarisary indray",
+  "qiblaTitle": "Fitarihan'ny Qibla",
+  "qiblaDistanceLabel": "{km} km amin'i Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Toeran'izy ilaina",
+  "qiblaLocationNeededBody": "Avelao ny fiharana toeran'izy azo Nuria mba hamaritra ny titarihan'ny Kaaba ao amin'i Makkah avy amin'ny ianao toeran'ny.",
+  "qiblaOpenSettings": "Anikiloy ny Aolam-Zavatra",
+  "qiblaCompassLoading": "Mampahaita ny ianao toeran'ny…",
+  "qiblaTowardMecca": "Minahy amin'i Makkah",
+
+  "prayerTimesTitle": "Ora Fanompoa",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Toeran'izy ilaina",
+  "prayerTimesLocationNeededBody": "Avelao ny fiharana toeran'izy azo Nuria mba hamantara amin'ny tena ora fanompoa ho an'ny ianao tanàna.",
+  "prayerTimesNextLabel": "Manaraka",
+  "prayerTimesDoneLabel": "Vita",
+
+  "monthlyPrayerTimesTitle": "Ora Fanompoa Volana",
+  "monthlyPrayerTimesViewButton": "Jereo ny Volana Iray Feno",
+  "monthlyPrayerTimesNextMonth": "Volana manaraka",
+  "monthlyPrayerTimesDayHeader": "Andro",
+
+  "sharePrayerTimes": "Fizarana ora fanompoa",
+
+  "prayerNotificationsTitle": "Fampandrenesana Fanompoa",
+  "prayerNotificationsDescription": "Makatanteraka ny fampandrenesana mahalonatena alohan'ny tsirairay ora fanompoa raha te-fifanampiana hatrany amin'ny andro.",
+  "prayerNotificationsEnable": "Fanavohana fampandrenesana fanompoa",
+  "prayerNotificationsOpenSettings": "Anikiloy ny fampandrenesana aolam-zavatra",
+  "prayerNotificationsDenied": "Ny fampandrenesana dia narindrina",
+  "pampandrenesanaDeniedHint": "Miova amin'ny Aolam-Zavatra ary avelao ny fampandrenesana ho an'ny Nuria raha te-makatanteraka fampandrenesana ora fanompoa.",
+
+  "notificationsConsentLabel": "Avelao fampandrenesana ho an'ny ora fanompoa",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Fanompoa Fotsiny",
+  "prayerNotifBodyFajr": "Ny tsara indrindra amin'ny fanompoa dia ny fanompoa fotsiny. Mitsangana, mitopimaso, ary miambina amin'ny Alah.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Fanompoa Amin'i Mitady",
+  "prayerNotifBodyDhuhr": "Atsaho ianao andro ary mizotra amin'ny Alah. Tonga ny ora Dhuhr.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Fanompoa Hariva",
+  "prayerNotifBodyAsr": "Aoka tsy milahatra ny fanompoa voalohany. Tonga ny ora Asr — aza alaina azy.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Fanompoa Latsaka ny Masoandro",
+  "prayerNotifBodyMaghrib": "Latsaka ny masoandro. Manompoa Maghrib ary mialoha amin'ny Alah amin'ity andro ity.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Fanompoa Alina",
+  "prayerNotifBodyIsha": "Famaranina ianao andro amin'ny fahatsikitsikitsiky an'ny Alah. Hayya 'alal falah — mizara amin'ny fahatsaram-po.",
+
+  "outOfReflectionsBannerText": "Efa namisafaina ny ianao fisaintsainana",
+  "outOfReflectionsBannerCta": "Mikatsaka betsaka",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Sarisariky ny faribolana raha te-manisa",
+  "dhikrResetButton": "Iverena",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Nataonao ny fahatsikitsikitsiky 99 an'ny Alah. Ahy ho jiro amin'ny ianao fo.",
+
+  "disclaimerTitle": "Momba ity angon-drakitra ity",
+  "disclaimerBody": "Nefitra ny Nuria amin'ny fisaintsainana Islam, fampandrenesana, ary atao spiritoyela raha te-mampitohitra amin'ny ianao lalana fa fahamarinana.\n\nTsy mahatsara ny Nuria ny fahitsingana mampianarana.\nTsy mahatsara ny ianao angon-drakitra ny mpianatra mahaiby Islam, imam, mufti, na mpampianatra sakramenta. Raha misy fanontaniana momba ny torolalana Islam, halal ary haram zavatra, na dingana religiôsa, fandaharana ny fanampin'ny mahaiby sakramenta amin'ny ianao fiainana.\n\nTsy manao torolalana ny Nuria.\nTsy mahatsara ny ianao angon-drakitra ny torolalana tsy faharatsiam-po amin'ny zavatra fiqh (jurisidin'sy Islam) na dingana religiôsa mahaiby. Tsy mantsy hanao zavatra iraisitra ity inanteraka ity.\n\nNy fahitsingana mampianatra dia maro-karazana.\nSampahan'ny Nuria ny fahitsingana betsaka, firaisan-kina fisafidim-paritra (madhabs), ary fiheveran'ny mpianatra. Ny atao ao amin'ity angon-drakitra ity dia mankahazo sarin'ny sampany ary mety tsy mamitily ny sampany iray tsirairay na firaisan-kina mitovy.\n\nMahalahalaka ny fianakaviana.\nIty angon-drakitra ity dia miandry ankolo ny fanaraka-mangaroa amin'ny atao fahamarinana ary mahatsara ny manan-dao mahalahalaka an'ny ianao fiainana fiainana, imam, ary firaisan-kina religiôsa. Aheahy ianao ka mihambita amin'ny ary manala avy amin'ny mpianatra mahaiby akaiky amin'ianao.",
+  "disclaimerClose": "Azoko",
+  "disclaimerInfoTooltip": "Momba ny ity angon-drakitra ity",
+  "disclaimerSettingsSubtitle": "Ho an'ny zavatra fahalalahana amin'ny santsantsa. Sarisariky raha te-hamaky ny famaranana iray.",
+  "disclaimerSectionHeader": "Famaranana torolalana"
+}

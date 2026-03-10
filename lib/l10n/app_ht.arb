@@ -1,0 +1,585 @@
+{
+  "@@locale": "ht",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Chwazi lang ou a",
+  "languageSelectSub": "Ou ka chanje sa a pita nan Paramèt",
+  "actionContinue": "Kontinye",
+  "languageSuggestedHeader": "Sijesyon",
+  "languageAllHeader": "Tout lang",
+  "languageSuggestedBadge": "Sijesyon",
+  "languageSearchHint": "Chèche…",
+
+  "planGrace": "Estanda",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Oryantasyon Chak Jou",
+  "categoryFaithTrust": "Imane & Konfyans",
+  "categoryPrayerReflection": "Refleksyon sou Priye",
+  "categoryHopeDifficultTimes": "Pasyan & Espwa",
+  "categoryForgiveness": "Chèche Padonnen",
+  "categoryLoveCompassion": "Misericòd & Konpasyon",
+  "categoryStrengthCourage": "Imane & Fòs",
+  "categoryGratitude": "Kè Rekonesan",
+  "categoryPurposeCalling": "Rezon Lavi",
+  "categoryFamilyRelationships": "Lyèn Fanmi",
+  "categoryPeaceAnxietyRelief": "Lapè Entèn",
+  "categoryWisdomOfJesus": "Sajès Pwofèt yo",
+  "categoryHumilityCharacter": "Bon Karaktè",
+  "categoryOvercomingTemptation": "Reziste Tantasyon",
+  "categoryEveningReflection": "Dhikr Aswè",
+  "categoryCustom": "Refleksyon Pèsonèl",
+  "dhikrMeaningSubhanallah": "Glwa pou Allah",
+  "dhikrMeaningAlhamdulillah": "Tout lwanj se pou Allah",
+  "dhikrMeaningAllahuAkbar": "Allah se pi gran",
+  "quranVerseHeartAtRest": "Vreman, nan sonje Allah, kè yo jwenn repo.",
+
+  "promptHint": "Toke yon kategori pou gad Islamik ak refleksyon",
+
+  "currentLanguage": "Lang kounye a",
+  "settingsLanguage": "Paramèt lang",
+  "settingsTitle": "Paramèt",
+  "chooseLanguage": "Chwazi lang ou a",
+  "continueCta": "Kontinye",
+
+  "promptDailyGuidance": "Ekri yon oryantasyon kout, pratik chak jou ki anrasin nan imane Islamik Suni — ki baze sou Koran, Hadith, ak ansèyman Pwofèt Mouhammad. Chwazi yon ang frè chak fwa: yon vètu ki soti nan etik Islamik, yon verite soti nan Sunnah, sajès soti nan Kòmpanyon Pwofèt yo, oswa yon praktik kalmadok soti nan tradisyon Islamik. Enkli yon vèse Koran (Surah:Ayah) ak yon refleksyon 1-2 fraz pou pote atravè jou a. Optsyonèlman konekte li ak kalandriye Islamik oswa yon dat enpòtan si irelvan.",
+
+  "promptFaithTrust": "Ekri yon refleksyon kout Islamik sou Imane (imane) ak konfyans nan plan Allah (Tawakkul). Anrasin li nan Koran, egzanp Pwofèt Mouhammad, ak imane Sahaba yo. Varye tèm nan chak fwa: konfye Allah pandan ensèrtitid, konte sou sajès divin, pasyan nan espreuve, oswa persevèrans kalmadok nan vi chak jou. Enkli yon vèse Koran ak yon etap onèt pou jou a ki soti nan sajès sipirityèl Islamik.",
+
+  "promptPrayerReflection": "Ekri yon refleksyon kout priye Islamik ki anrasin nan Salah, Dua, oswa Dhikr. Varye fòm nan chak fwa: yon souvnans maten oswa aswè (Adhkar), refleksyon sou senk priye chak jou, kontemplasyon yon vèse Koran, oswa yon siplikasyon sink. Enkli yon vèse Koran ak briéman nonmen fòm priye a itilize.",
+
+  "promptHopeDifficultTimes": "Ekri yon refleksyon Islamik sou pasyan (Sabr) ak espwa pandan tray. Trase soti nan ansèyman Koran sou espreuve, persevèrans Pwofèt yo, ak misericòd Allah nan moman tray. Varye ang nan chak fwa. Enkli yon vèse Koran ak yon pèspektiv ankourajman soti nan tradisyon Islamik.",
+
+  "promptForgiveness": "Ekri yon refleksyon Islamik saj sou chèche padonnen (Tawbah) ak misericòd Allah. Trase soti nan ansèyman Koran sou pentans, konpasyon Allah, ak egzanp padonnen Pwofèt Mouhammad. Varye tèm nan: vire tounen bay Allah, padonnen lòt, geri relasyon, oswa kwè nan misericòd Allah aprè erè. Enkli yon vèse Koran ak yon etap konpèt.",
+
+  "promptLoveCompassion": "Ekri yon refleksyon kout Islamik sou misericòd (Rahmah) ak konpasyon nan vi chak jou. Trase soti nan egzanp Pwofèt Mouhammad, konsèp Ihsan (egzèlans), ak ansèyman Islamik sou bonte bay fanmi, vwazen, ak moun vilnerab. Enkli yon vèse Koran ak yon ti ka konpasyon pou pratike jòdi a.",
+
+  "promptStrengthCourage": "Ekri yon refleksyon Islamik sou fòs ki baze nan imane ak kouraj. Trase soti nan egzanp Pwofèt yo, komunote misilman bonè yo, ak kreyè ki te rete fèm nan tray. Varye tèm nan chak fwa: kouraj atravè imane, fòs nan priye, konfyans Allah pandan fre, oswa resilyans nan difikilte. Enkli yon vèse Koran ak yon siplikasyon kout oswa fraz souvnans.",
+
+  "promptGratitude": "Ekri yon refleksyon Islamik sou rekonesan (Shukr) bay Allah. Anrasin li nan ansèyman Koran ak tradisyon pwofetik. Varye ang nan: rekonesan nan tray, apreye ti benediksyon, kòmanse jou a ak lwanj Allah, oswa rekonèt gid Allah nan vi chak jou. Enkli yon vèse Koran ak yon praktik rekonesan.",
+
+  "promptPurposeCalling": "Ekri yon refleksyon Islamik sou rezon vi alè dwe adore Allah ak viv dwatirèn. Trase soti nan ansèyman Koran sou rezon, sèvi lòt, ak itilize don ou yo pou byen. Varye tèm nan chak fwa: sèvi fanmi ak komunote, chèche gid atravè Istikhara, viv avèk entansyon, oswa jwenn sans nan travay òdinè. Enkli yon vèse Koran ak de kesyon reflektif.",
+
+  "promptFamilyRelationships": "Ekri oryantasyon Islamik saj sou fanmi ak relasyon ki anrasin nan ansèyman Koran ak egzanp Pwofèt Mouhammad. Varye tèm nan chak fwa: bonte nan vi fanmi, pasyan nan konfli, onore paran, elve timoun nan imane, oswa ranfòse mariage. Enkli yon vèse Koran ak yon praktik relasyonèl pou eseye.",
+
+  "promptPeaceAnxietyRelief": "Ekri yon refleksyon Islamik kalmadok sou jwenn lapè entèn atravè souvnans Allah (Dhikr) ak konfyans nan plan Li. Trase soti nan ansèyman Koran sou trankilirite kè, priye, ak ranndi bay volonte Allah. Varye apwòch nan chak fwa ak enkli yon vèse Koran ak yon praktik ankedaj senp soti nan tradisyon Islamik.",
+
+  "promptWisdomOfJesus": "Ekri yon ti pye sajès soti nan Pwofèt yo jan yo anseye nan Islamizm. Trase soti nan Koran oswa Hadith ak briéman eksplike ki jan eskolye Islamik yo te konprann ansèyman an. Varye sije chak fwa: karaktè, pasyan, omilite, imane, oswa kondwit chak jou. Enkli yon referans vèse Koran oswa Hadith ak yon aplikasyon pratik.",
+
+  "promptHumilityCharacter": "Ekri yon refleksyon Islamik sou omilite (Tawadhu) ak bon karaktè (Akhlaq). Trase soti nan ansèyman Koran, egzanp Pwofèt Mouhammad, ak tradisyon devlopman karaktè Islamik. Varye tèm nan: omilite nan lidèchip, admèt erè, trete lòt avèk respè, oswa grandi spiritiyelma atravè oto-refleksyon. Enkli yon vèse Koran ak yon abitid pou pratike.",
+
+  "promptOvercomingTemptation": "Ekri yon refleksyon Islamik sou reziste tantasyon ak rete sou chimen dwat. Trase soti nan gid Koran, souvnans Allah (Dhikr), priye (Salah), ak egzanp kreyè ki te simonte lit. Varye ang chak fwa. Enkli yon vèse Koran ak yon estrateji pratik pou 24 lè yo vini.",
+
+  "promptEveningReflection": "Ekri yon refleksyon Islamik lapè aswè ki anrasin nan tradisyon souvnans aswè (Adhkar al-Masaa'). Ankouraje rekonesan, oto-refleksyon (Muhasabah), ak konfyans Allah anvan repo. Enkli 3-5 tèm reflektif kout sou jou a, yon siplikasyon fermen brèf, ak yon vèse Koran.",
+
+  "wordCount": "{count, plural, one {{count} mo} other {{count} mo}}",
+
+  "optionsCta": "Opsyon",
+  "newCta": "Nouvo",
+  "actionsTitle": "Kisa ou ta vle fè?",
+  "copy": "Kopye",
+  "share": "Pataje",
+  "close": "Fèmen",
+  "copiedToast": "Kopye nan clipboard",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Liy subjè pataje/ imel ki enkli etikèt kategori a.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Oryantasyon Chak Jou" }
+    }
+  },
+
+  "regenerateErrorTitle": "Pa t ka jenere yon nouvo repons",
+  "regenerateErrorBody": "{error}\n\nEske ou ta vle eseye ankò?",
+  "@regenerateErrorBody": {
+    "description": "Montre lè jenere yon repons AI echwe.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Erè rezo" }
+    }
+  },
+
+  "cancelCta": "Anile",
+  "retryCta": "Eseye ankò",
+
+  "authTitle": "Kreye kont ou a",
+  "continueAsGuest": "Kontinye kòm vizitè",
+  "signInGoogle": "Konekte avèk Google",
+  "signInApple": "Konekte avèk Apple",
+  "signInEmail": "Konekte avèk Imel",
+  "upgradeWithApple": "Kontinye avèk Apple",
+  "mustAccept": "Ou dwe aksepte Tèm ak rekonèt Politik Konfidansyalite.",
+  "termsLabel": "Mwen aksepte Tèm Sèvis yo",
+  "privacyLabel": "Mwen te li Politik Konfidansyalite a",
+  "marketingOptIn": "Mwen dakò resevwa nouvel ak ofè",
+  "openTerms": "Tèm Sèvis",
+  "openPrivacy": "Politik Konfidansyalite",
+
+  "accountSection": "Kont",
+  "guestMode": "Mòd vizitè",
+  "signedIn": "Konekte",
+  "upgradeHint": "Sove refleksyon ou atravè aparèy pa kreye yon kont.",
+  "upgradeWithGoogle": "Kontinye avèk Google",
+  "signOut": "Dekonekte",
+
+  "snackUpgraded": "Kont anpliye avèk Google ✅",
+  "snackSignedIn": "Konekte avèk Google ✅",
+  "snackSignedOut": "Dekonekte",
+  "snackSignedInApple": "Konekte avèk Apple ✅",
+  "snackSignedInGoogle": "Konekte avèk Google ✅",
+  "snackUpgradedApple": "Kont anpliye avèk Apple ✅",
+  "snackUpgradedGoogle": "Kont anpliye avèk Google ✅",
+
+  "historyTitle": "Refleksyon anvan",
+  "historyOpenCta": "Refleksyon anvan",
+  "historyEmpty": "Okenn refleksyon sove ankò.",
+  "historyDeleteTitle": "Efase refleksyon?",
+  "historyDeleteBody": "Sa a pral retire eleman chwazi a depèm.",
+  "deleteCta": "Efase",
+
+  "historyButton": "Refleksyon Anvan",
+  "historyEmptyTitle": "Okenn refleksyon ankò",
+  "historyEmptyBody": "Jenere yon bagay premye — eleman sove ou pral parèt isit la.",
+  "historyDelete": "Efase",
+
+  "footerTitle": "Avèk Imane, Pasyan ak Rahmah.",
+  "footerSubtitle": "Yon etap a yon fwa.",
+  "genericErrorSnack": "Yon bagay mal fèt — tanpri eseye ankò nan yon moman.",
+
+  "upgradeAccountCta": "Sove refleksyon ou atravè aparèy – kreye yon kont",
+  "deleteAccount": "Efase kont",
+  "exportData": "Eksposte done mwen",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Etikèt anvan montre Firebase UID entèn la.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Fasil sou tèt ou 🐯\nAI bezwen yon moman anvan sa yo vini…",
+  "rateDailyLimit": "Ou fin fini refleksyon pou kounye a.\nObtni plis refleksyon oswa tansyon sou Barakah.",
+  "rateCreditsExhausted": "Ou itilize tout refleksyon ou yo.\nRanpli oswa tansyon sou Barakah pou kontinye.",
+  "rateGraceReflectionsExhausted": "Ou fin fini refleksyon pou kounye a.\nObtni plis refleksyon oswa tansyon sou Barakah.",
+  "rateReflectionsExhausted": "Ou itilize tout refleksyon ou yo.\nRanpli oswa tansyon sou Barakah pou kontinye.",
+
+  "blessedDescription": "Barakah louvri karakteristik premyòm, kategori nan lavni, ak yon badge espesyal.",
+  "championDescription": "Barakah louvri karakteristik premyòm, kategori nan lavni, ak yon badge espesyal.",
+
+  "ratePlanExhausted": "Refleksyon ou vide alor. Plan: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Montre lè refleksyon itilizate yo epize men rezon jenerik.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Estanda oswa Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Pa t ka tcheke refleksyon ou: {message}",
+  "@rateCheckFailed": {
+    "description": "Montre lè fonksyon apelò retounen yon mesaj erè.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Erè rezo" }
+    }
+  },
+
+  "rateCheckGenericError": "Yon bagay mal fèt pandan tcheke refleksyon ou.",
+  "aiFallbackGeneric": "Yon bagay mal fèt — tanpri eseye ankò nan yon moman.",
+
+  "limitSectionTitle": "Refleksyon",
+  "limitTodayLabel": "Itilizasyon",
+  "limitCreditsLabel": "Refleksyon ki rete: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plan: {plan}",
+  "@limitPlanLabel": {
+    "description": "Montre non plan abonman kounye a.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Estanda oswa Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Chajman…",
+  "limitLoadingLabelDescription": "Montre nan kat refleksyon pandan estatistik itilizasyon yo tchouke.",
+
+  "aiLimitTitle": "Refleksyon",
+  "aiLimitSubtitle": "Chak repons itilize 1 refleksyon. Estanda enkli refleksyon demaraj. Barakah louvri kategori premyòm ak pèmèt ranplifaj.",
+  "aiLimitProgressLabel": "{used} / {total} refleksyon itilize",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Refleksyon",
+  "reflectionsUsageLabel": "Itilizasyon",
+  "reflectionsRemainingLabel": "Refleksyon ki rete: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plan: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Montre non plan la.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Estanda oswa Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Chajman…",
+  "reflectionsLoadingLabelDescription": "Montre pandan estatistik refleksyon yo tchouke.",
+
+  "reflectionsTitle": "Refleksyon",
+  "reflectionsSubtitle": "Chak repons itilize 1 refleksyon. Estanda enkli refleksyon demaraj. Barakah louvri kategori premyòm ak pèmèt ranplifaj.",
+  "reflectionsProgressLabel": "{used} / {total} refleksyon itilize",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Efase kont",
+  "settingsDeleteDescription": "Efase depèm kont ou ak tout done asosye yo.",
+  "settingsDeleteButtonLabel": "Efase kont mwen",
+  "settingsDeleteDialogTitle": "Efase kont?",
+  "settingsDeleteDialogBody": "Aksyon sa a depèm ak pa ka anile.\n\nTou chat, istwa ak enfòmasyon kont ou pral efase.",
+  "settingsDeleteDialogCancel": "Anile",
+  "settingsDeleteDialogConfirm": "Efase",
+
+  "settingsFreeLimitUsedTitle": "Refleksyon demaraj itilize",
+  "settingsFreeLimitUsedDescription": "Refleksyon demaraj pou aparèy sa a yo itilize. Tansyon sou Barakah oswa achte plis refleksyon pou kontinye.",
+
+  "settingsStarterReflectionsUsedTitle": "Refleksyon demaraj itilize",
+  "settingsStarterReflectionsUsedDescription": "Refleksyon demaraj pou aparèy sa a yo itilize. Tansyon sou Barakah oswa achte plis refleksyon pou kontinye.",
+
+  "deviceBoundError": "Aparèy sa a deja liye avèk yon lòt kont. Tanpri konekte avèk kont orijinal la.",
+
+  "premiumTitle": "Mòd Barakah",
+  "premiumSubtitleBasic": "Louvri eksperyans Nuria konplè a.",
+  "premiumSubtitleChampion": "Ou se Barakah. Bezwen plis refleksyon?",
+
+  "premiumCurrentPlan": "Plan kounye a: {plan}",
+  "premiumCreditsStatus": "Refleksyon: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Acha yo pa disponib alor.",
+  "premiumSignInToPurchase": "Konekte pou achte refleksyon oswa louvri Barakah.",
+
+  "premiumRestorePurchases": "Restoure acha",
+  "premiumProcessing": "Trete…",
+  "premiumRestoreHintTitle": "Already purchased Barakah or reflections on this device or another one?",
+  "premiumRestoreHintBody": "Restoure acha ou si yo pa montre.",
+
+  "premiumBuyCredits200": "Achte 200 refleksyon",
+  "premiumBuyCredits400": "Achte 400 refleksyon",
+  "premiumBecomeChampionOneTime": "Tansyon sou mòd Barakah",
+  "premiumChampionHint": "Kòm Barakah, ou ka ranpli avèk refleksyon siplemantè nenpòt lè ou bezwen.",
+
+  "premiumUpgradeCta": "Tansyon",
+  "premiumRequiredForCategory": "Kategori sa a jis disponib pou itilizatè Barakah. Tansyon nan Paramèt pou louvri tout kontni premyòm.",
+  "premiumBenefitsBasic": "Louvri Barakah pou jwenn refleksyon siplemantè, aksè kategori premyòm, ak kontinye nenpòt lè ou bezwen gad.",
+  "premiumBenefitsChampion": "Ou nan mòd Barakah. Si ou ba ba, ajoute kèk refleksyon siplemantè ak kontinye san entèriksyon.",
+  "premiumButtonBecomeChampion": "Louvri Barakah",
+  "premiumButtonTopup1000": "Ajoute 1000 refleksyon",
+  "premiumChampionBadge": "Barakah aktif",
+  "premiumLoadingStore": "Chajman magasen…",
+
+  "blessedTitle": "Mòd Barakah",
+  "blessedSubtitleGrace": "Louvri eksperyans Nuria konplè a.",
+  "blessedSubtitleBlessed": "Ou se Barakah. Bezwen plis refleksyon?",
+
+  "blessedCurrentPlan": "Plan kounye a: {plan}",
+  "blessedReflectionsStatus": "Refleksyon: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Acha yo pa disponib alor.",
+  "blessedProductNotAvailable": "Pwodwi sa a pa disponib nan magasen an ankò. Tanpri eseye ankò pita.",
+  "blessedPurchaseError": "Yon bagay mal fèt avèk acha a. Tanpri eseye ankò.",
+  "blessedSignInToPurchase": "Konekte pou achte refleksyon oswa louvri Barakah.",
+
+  "blessedRestorePurchases": "Restoure acha",
+  "blessedProcessing": "Trete…",
+  "blessedRestoreHintTitle": "Deja achte Barakah oswa refleksyon sou aparèy sa a oswa yon lòt?",
+  "blessedRestoreHintBody": "Restoure acha ou si yo pa montre.",
+
+  "blessedBuyReflections100": "Ajoute 100 refleksyon",
+  "blessedBuyReflections200": "Achte 200 refleksyon",
+  "blessedBuyReflections400": "Achte 400 refleksyon",
+  "blessedBecomeBlessedOneTime": "Tansyon sou Barakah",
+  "blessedTopupHint": "Kòm Barakah, ou ka ranpli avèk refleksyon siplemantè nenpòt lè ou bezwen.",
+
+  "blessedUpgradeCta": "Tansyon",
+  "blessedRequiredForCategory": "Kategori sa a jis disponib pou itilizatè Barakah. Tansyon nan Paramèt pou louvri tout kontni premyòm.",
+  "blessedFeatureLocked": "Louvri Barakah pou aksè karakteristik sa a.",
+  "lockedCategoriesHint": "Kèk kategori rezève pou manm Barakah. Louvri yo pou eksplore chak refleksyon nan vwayaj ou.",
+  "blessedBenefitsGrace": "Louvri Barakah pou jwenn refleksyon siplemantè, aksè kategori premyòm, ak kontinye nenpòt lè ou bezwen gad.",
+  "blessedBenefitsBlessed": "Ou nan mòd Barakah. Si ou ba ba, ajoute kèk refleksyon siplemantè ak kontinye san entèriksyon.",
+  "blessedButtonBecomeBlessed": "Louvri Barakah",
+  "blessedButtonTopup1000": "Ajoute 1000 refleksyon",
+  "blessedBadge": "Barakah aktif",
+  "blessedLoadingStore": "Chajman magasen…",
+
+  "freePlanBlockedTitle": "Ou itilize refleksyon demaraj ou yo",
+  "freePlanBlockedBody": "Ou sou plan Estanda avèk refleksyon demaraj, ak ou rive limit la. Pou kontinye — ak louvri kategori premyòm — tansyon sou Barakah.",
+  "freePlanBlockedCtaGoPremium": "Gade opsyon Barakah anba",
+
+  "graceBlockedTitle": "Ou itilize refleksyon demaraj ou yo",
+  "graceBlockedBody": "Ou sou plan Estanda avèk refleksyon demaraj, ak ou rive limit la. Pou kontinye — ak louvri kategori premyòm — tansyon sou Barakah.",
+  "graceBlockedCtaGoBlessed": "Gade opsyon Barakah anba",
+
+  "rateGuestMustSignIn": "Konekte pou itilize Nuria ak refleksyon ou.",
+
+  "guestNoCreditsTitle": "Mòd vizitè",
+  "guestNoCreditsBody": "Kòm yon vizitè ou ka feyiye aplikasyon an, men ou pa ka itilize refleksyon. Konekte pita nan Paramèt pou itilize refleksyon ak louvri acha.",
+
+  "guestNoReflectionsTitle": "Mòd vizitè",
+  "guestNoReflectionsBody": "Kòm yon vizitè ou ka feyiye aplikasyon an, men ou pa ka itilize refleksyon. Konekte pita nan Paramèt pou itilize refleksyon ak louvri acha.",
+
+  "guestDialogContinue": "Kontinye",
+  "guestDialogLoginInstead": "Konekte olye",
+
+  "optionalLabel": "opsyonèl",
+
+  "accountDeleteSuccessTitle": "Kont efase",
+  "accountDeleteSuccessBody": "Kont ou ak done asosye yo te efase avèk siksè.",
+  "accountDeleteSuccessClose": "Fèmen",
+  "accountDeleteErrorTitle": "Pa t ka efase kont",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Re-otentifikasyon te anile. Tanpri konekte ankò ak re-eseye efasyon.",
+  "accountDeleteReauthRequired": "Efasyon kont mande yon koneksyon resan. Tanpri dekonekte, konekte ankò, ak re-eseye.",
+  "settingsDeletePermanentWarning": "Aksyon sa a depèm ak pa ka anile. Tout done asosye avèk kont ou pral efase.",
+
+  "dailyGraceTitle": "Oryantasyon Chak Jou",
+  "dailyGraceScriptureLabel": "VÈSE JOUNALYE",
+  "dailyGraceSaintLabel": "ESKOLYE SEMÈN NAN",
+  "dailyGraceReflectionLabel": "REFLEKSYON ASWÈ",
+  "dailyGraceCopiedToast": "Vèse kopye nan clipboard",
+
+  "dailyScripture0Text": "Sèrten, moun ki jis pap dwe nanmi avèk Allah pap dwe, yo pap gen pè. Yo pap dwe tris.",
+  "dailyScripture0Ref": "Koran 54:54-55",
+  "dailyScripture1Text": "Epi Nou pa te voye ou, O Mouhammad, sof kòm yon misericòd pou mond yo.",
+  "dailyScripture1Ref": "Koran 21:107",
+  "dailyScripture2Text": "Eske Allah pa sifi pou sèvitè Li? Men yo fè ou pè avèk lòt okote Li.",
+  "dailyScripture2Ref": "Koran 39:36",
+  "dailyScripture3Text": "Petèt ou rayi yon bagay ak li bon pou ou; ak petèt ou renmen yon bagay ak li mal pou ou. Epi Allah konnen, pandan ou pa konnen.",
+  "dailyScripture3Ref": "Koran 2:216",
+  "dailyScripture4Text": "Sèrten, Allah avèk moun pasyan yo.",
+  "dailyScripture4Ref": "Koran 2:153",
+  "dailyScripture5Text": "Se konsa sonje Mwen; Mwen pap sonje ou. Epi remèsye Mwen epi pa t kile Mwen.",
+  "dailyScripture5Ref": "Koran 2:152",
+  "dailyScripture6Text": "Sèrten, pi nòb nan ou nan je Allah se pi jis nan ou.",
+  "dailyScripture6Ref": "Koran 49:13",
+  "dailyScripture7Text": "Epi Seyè ou bay lòd ke ou t adore okenn sof Li, ak ke ou t respektye paran ou.",
+  "dailyScripture7Ref": "Koran 17:23",
+  "dailyScripture8Text": "Verite, avèk difikilte vini fasilite.",
+  "dailyScripture8Ref": "Koran 94:6",
+  "dailyScripture9Text": "Epi Li avèk ou kote ou ye. Epi Allah, nan sa ou fè, se Wè.",
+  "dailyScripture9Ref": "Koran 57:4",
+  "dailyScripture10Text": "Allah pa peze yon nanm pi lwen pase ke li ka sipòte.",
+  "dailyScripture10Ref": "Koran 2:286",
+  "dailyScripture11Text": "Epi kiyonk ki depann sou Allah — alò Li sifi pou li.",
+  "dailyScripture11Ref": "Koran 65:3",
+  "dailyScripture12Text": "Misericòd Mwen kouvri tout bagay.",
+  "dailyScripture12Ref": "Koran 7:156",
+  "dailyScripture13Text": "Epi lè sèvitè Mwen mande ou sou Mwen — sèrten Mwen pre. Mwen reponn moun ki fè suplikasyon lè li rele sou Mwen.",
+  "dailyScripture13Ref": "Koran 2:186",
+  "dailyScripture14Text": "Kiyonk ki fè dwan, swa gason oswa fanm, pandan li se kreyè — Nou pap fè l viv bon.",
+  "dailyScripture14Ref": "Koran 16:97",
+  "dailyScripture15Text": "Sèrten, Allah pa pap chanje kondisyon yon pèp jiskaske yo chanje sa ki nan tèt yo.",
+  "dailyScripture15Ref": "Koran 13:11",
+  "dailyScripture16Text": "Se konsa pa t febli ak pa t tris, epi ou pap rive siperyè si ou se vè kreyè.",
+  "dailyScripture16Ref": "Koran 3:139",
+  "dailyScripture17Text": "O sèvitè Mwen ki te fè dòm sou tèt yo, pa t espere nan misericòd Allah. Sèrten, Allah padone tout peche.",
+  "dailyScripture17Ref": "Koran 39:53",
+  "dailyScripture18Text": "Epi kiyonk ki fè pè Allah — Li pap fè pase pou li, epi pap bay li soti kote li pa tann.",
+  "dailyScripture18Ref": "Koran 65:2-3",
+  "dailyScripture19Text": "Pa t pèdi espwa nan misericòd Allah.",
+  "dailyScripture19Ref": "Koran 12:87",
+  "dailyScripture20Text": "Epi Nou sèrten fè Koran fasil pou sonje. Kidonk se gen okenn moun ki pap sou mèn?",
+  "dailyScripture20Ref": "Koran 54:17",
+  "dailyScripture21Text": "Epi Li jwenn ou pèdi epi gid ou.",
+  "dailyScripture21Ref": "Koran 93:7",
+  "dailyScripture22Text": "Epi Seyè ou di: Rele sou Mwen; Mwen pap reponn ou.",
+  "dailyScripture22Ref": "Koran 40:60",
+  "dailyScripture23Text": "Epi Nou sèrten ononre pitit Adan yo.",
+  "dailyScripture23Ref": "Koran 17:70",
+  "dailyScripture24Text": "Epi chèche èd atravè pasyan ak priye.",
+  "dailyScripture24Ref": "Koran 2:45",
+  "dailyScripture25Text": "Kiyonk ki fè pwa yon atòm de bien pap wè li.",
+  "dailyScripture25Ref": "Koran 99:7",
+  "dailyScripture26Text": "Indoutableman, èd Allah pre.",
+  "dailyScripture26Ref": "Koran 2:214",
+  "dailyScripture27Text": "Epi kiyonk ki remèsye — remèsyman li sof pou avantaj tèt li.",
+  "dailyScripture27Ref": "Koran 31:12",
+
+  "dailyReflection0": "Tankou jou sa a femen, konsidere yon moman kote misericòd Allah te evidan.",
+  "dailyReflection1": "Pote anvan Allah nenpòt bagay ki peze sou kè ou jòdi a.",
+  "dailyReflection2": "Non yon benediksyon nan jou sa a ak eksprime rekonesan bay Allah.",
+  "dailyReflection3": "Repo nan konesans ke ou kenbe nan swen san limit Allah.",
+  "dailyReflection4": "Reflechi sou kote ou te rele pou montre konpasyon ak bonte jòdi a.",
+  "dailyReflection5": "Lage sa ou pa ka kontwole ak konfye nan plan pafè Allah.",
+  "dailyReflection6": "Pandan jou a file, resevwa lapè nan souvnans Allah.",
+  "dailyReflection7": "Konsidere ki jan ou onore priye ou jòdi a, ak remèsye Allah pou chak youn.",
+  "dailyReflection8": "Reflechi sou yon moman kote pasyan (Sabr) te gide aksyon ou jòdi a.",
+  "dailyReflection9": "Demand padonnen pou nenpòt ki shortkoming jòdi a — misericòd Allah sen limit.",
+  "dailyReflection10": "Non yon moun ou montre bonte a jòdi a ak fè dua pou yo.",
+  "dailyReflection11": "Chita avèk rekonesan: sa Allah bay jòdi a ke ou pa t mande?",
+  "dailyReflection12": "Reflechi sou yon vèse soti nan Koran ki pale sou kote ou ye alor.",
+  "dailyReflection13": "Konsidere ki jan ou itilize tan ou jòdi a — ak ofri demen bay Allah.",
+  "dailyReflection14": "Repo konnen ke nenpòt ki tray ki te vini jòdi a, Allah te avèk ou atravè li.",
+  "dailyReflection15": "Panse a yon fason ou te sèvi fanmi oswa komunote ou jòdi a pou sake Allah.",
+  "dailyReflection16": "Pandan nwit la tonbe, fè Tawbah — Allah renmen moun ki vire tounen bay Li.",
+  "dailyReflection17": "Reflechi sou bote Allah mete nan jou ou, nenpòt ki jan ti.",
+  "dailyReflection18": "Konsidere sa ou aprann jòdi a ak ki jan li trase ou pi pre Allah.",
+  "dailyReflection19": "Kite enkyetid jou a repo avèk Allah — Li pote sa ou pa ka.",
+  "dailyReflection20": "Panse a yon moman jòdi a kote ou te ka chwazi pi bon, ak aprann soti li douseman.",
+  "dailyReflection21": "Fè dua pou moun ki ap lite — priye ou se yon kado pou yo.",
+  "dailyReflection22": "Rappele yon benediksyon ou souvan gade pa panyen ak pran moman pou remèsye Allah pou li.",
+  "dailyReflection23": "Reflechi sou entansyon ou jòdi a — yo te pou Allah? Demen, kòmanse ankò.",
+  "dailyReflection24": "Pandan nwit la kin, koute pou proksimite Allah nan silans.",
+  "dailyReflection25": "Konsidere kote ou jwenn fòs jòdi a — fòs sa a soti nan Allah.",
+  "dailyReflection26": "Non yon bagay ou pral fè demen, pou sake Allah, ke ou pa t fè jòdi a.",
+  "dailyReflection27": "Tankou ou prepare pou repo, konfye nanm ou bay Allah — Li se pi bon gadyen.",
+
+  "dailyRoleModel0": "Pwofèt Mouhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Pwofèt Ibrahim (AS)",
+  "dailyRoleModel44": "Pwofèt Musa (AS)",
+  "dailyRoleModel45": "Pwofèt Isa (AS)",
+  "dailyRoleModel46": "Pwofèt Yusuf (AS)",
+  "dailyRoleModel47": "Pwofèt Dawud (AS)",
+  "dailyRoleModel48": "Pwofèt Sulayman (AS)",
+  "dailyRoleModel49": "Pwofèt Nuh (AS)",
+  "dailyRoleModel50": "Pwofèt Yunus (AS)",
+  "dailyRoleModel51": "Pwofèt Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Pèmèt Nuria itilize kote mwen ye pou direksyon Qibla ak lè priye",
+  "locationConsentHint": "Itilize jis pou karakteristik sa yo. Kote ou ye janm pataje oswa sove.",
+
+  "askPageTitle": "Mande Nuria",
+  "askPageDescription": "Mande nenpòt bagay sou imane, priye, vi, oswa pratik Islamik ak resevwa gad ki anrasin nan Koran ak Sunnah.",
+  "askPageInputHint": "Tape kesyon ou a isit la…",
+  "askPageSubmitCta": "Mande",
+  "askPageInputEmptyError": "Tanpri ekri yon kesyon premye.",
+  "askResultYourQuestion": "Kesyon ou",
+
+  "guidancePageTitle": "Priye & Gard",
+  "qiblaFacingMecca": "Fè fas Makkah",
+  "qiblaCompassInstruction": "Wotni telefòn ou jiskaske ziguil dò a montre anwo.\nDireksyon sa a montre sou Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Siyal GPS fèb. Sòti deyò epi toke Eseye Ankò.",
+  "qiblaRetry": "Eseye Ankò",
+  "qiblaTitle": "Direksyon Qibla",
+  "qiblaDistanceLabel": "{km} km bay Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Kote mande",
+  "qiblaLocationNeededBody": "Pèmèt aksè kote pou Nuria ka kalkile direksyon Kaaba a nan Makkah soti kote ou ye.",
+  "qiblaOpenSettings": "Ouvri Paramèt",
+  "qiblaCompassLoading": "Chèche pozisyon ou…",
+  "qiblaTowardMecca": "Vè Makkah",
+
+  "prayerTimesTitle": "Lè Priye",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Kote mande",
+  "prayerTimesLocationNeededBody": "Pèmèt aksè kote pou Nuria ka kalkile lè priye egzak pou vil ou a.",
+  "prayerTimesNextLabel": "Vini",
+  "prayerTimesDoneLabel": "Fè",
+
+  "monthlyPrayerTimesTitle": "Lè Priye Chak Mwa",
+  "monthlyPrayerTimesViewButton": "Gade Mwa Konplè",
+  "monthlyPrayerTimesNextMonth": "Mwa vini",
+  "monthlyPrayerTimesDayHeader": "Jou",
+
+  "sharePrayerTimes": "Pataje lè priye",
+
+  "prayerNotificationsTitle": "Avètisman Priye",
+  "prayerNotificationsDescription": "Resevwa yon raple dous anvan chak lè priye pou ede ou rete konekte atravè jou a.",
+  "prayerNotificationsEnable": "Aktive raple priye",
+  "prayerNotificationsOpenSettings": "Ouvri paramèt notifikasyon",
+  "prayerNotificationsDenied": "Notifikasyon dezaktive",
+  "prayerNotificationsDeniedHint": "Ale nan Paramèt ak pèmèt notifikasyon pou Nuria pou resevwa raple lè priye.",
+
+  "notificationsConsentLabel": "Pèmèt notifikasyon pou lè priye",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Priye Lodabou",
+  "prayerNotifBodyFajr": "Pi bon nan priye yo se priye lodabou. Leve, mitaye tèt ou, ak kanpe devan Allah.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Priye Mitan Jou",
+  "prayerNotifBodyDhuhr": "Pran yon poze nan jou ou epi retounen bay Allah. Lè Dhuhr la rive.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Priye Apremidi",
+  "prayerNotifBodyAsr": "Gad priye mitan an. Tan Asr la vini — pa kite li pase.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Priye Solèy Kouche",
+  "prayerNotifBodyMaghrib": "Solèy la koule. Ofri Maghrib epi remèsye Allah pou jou sa a.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Priye Nwit",
+  "prayerNotifBodyIsha": "Fini jou ou a avèk souvnans Allah. Hayya alal falah — vini sou siksè.",
+
+  "outOfReflectionsBannerText": "Ou itilize tout refleksyon ou yo",
+  "outOfReflectionsBannerCta": "Jwenn plis",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Toke sèk la pou konte",
+  "dhikrResetButton": "Resete",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Ou konplete 99 souvnans Allah. Ke yo yon limyè pou kè ou.",
+
+  "disclaimerTitle": "Sou gard aplikasyon sa a",
+  "disclaimerBody": "Nuria bay refleksyon Islamik, raple, ak kontni espirityèl pou sipòte vwayaj imane pèsonèl ou. Kontni sa a ofri pou rezon jeneral enfòmasyon ak enspirasyonal sèlman.\n\nNuria pa ranplase eskolaryè kalifye.\nGard nan aplikasyon sa a se pa sibstiti pou yon eskolye Islamik aprann, imam, mufti, oswa pwofesè fòme teyolojikman. Si ou gen kesyon sou dirèktiv relijye, zafè halal ak haram, oswa obligasyon relijye pèsonèl, tanpri chèche konsèy soti nan yon otorite relijye kalifye nan komunote ou a.\n\nAp aplikasyon sa a pa fè dirèktiv relijye.\nNuria pa fè detèminasyon otorite sou zafè fiqh (jiridik Islamik) oswa obligasyon relijye pèsonèl. Anyen isit la pa dwe trete kòm yon fatwa oswa enstriksyon relijye obligatwa.\n\nEntèpretasyon eskolye varye.\nIslamizm gen yon divèsite rich de tradisyon, lekòl panse (madhabs), ak opinyon eskolye. Kontni nan aplikasyon sa a reflete pèspektiv jeneral ak petèt pa represante chak tradisyon oswa lekòl egalman.\n\nKomunote zafè.\nAp aplikasyon sa a vize ankouraje angajman ou avèk tradisyon imane pandan yo respekte pwofondman wòl vital komunote lokal ou, imam, ak relijye. Nou ankouraje ou rete konekte avèk ak aprann soti nan pwofesè kalifye pre ou.",
+  "disclaimerClose": "Mwen konprann",
+  "disclaimerInfoTooltip": "Sou gard aplikasyon sa a",
+  "disclaimerSettingsSubtitle": "Pou rezon jeneral enfòmasyon sèlman. Toke pou li deklarasyon konplè.",
+  "disclaimerSectionHeader": "Deklarasyon gard"
+}

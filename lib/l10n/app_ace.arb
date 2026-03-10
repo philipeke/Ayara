@@ -1,0 +1,585 @@
+{
+  "@@locale": "ace",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Pileh bahsa droë",
+  "languageSelectSub": "Droë jeut geuubah nyoe lé keuneubah dalam Setelan",
+  "actionContinue": "Lanjut",
+  "languageSuggestedHeader": "Disarankan",
+  "languageAllHeader": "Bandum bahsa",
+  "languageSelectSuggestedBadge": "Disarankan",
+  "languageSearchHint": "Cari…",
+
+  "planGrace": "Standar",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Peutunjok Harë",
+  "categoryFaithTrust": "Iman & Tawakkul",
+  "categoryPrayerReflection": "Renungan Sembayang",
+  "categoryHopeDifficultTimes": "Sabar & Harapan",
+  "categoryForgiveness": "Mita Ampun",
+  "categoryLoveCompassion": "Rahmat & Kasèh",
+  "categoryStrengthCourage": "Kekeuatan Iman",
+  "categoryGratitude": "Ateë Syukur",
+  "categoryPurposeCalling": "Tujuan Urip",
+  "categoryFamilyRelationships": "Ikatan Keluarga",
+  "categoryPeaceAnxietyRelief": "Ketenangan Ateë",
+  "categoryWisdomOfJesus": "Hikmah Nabi",
+  "categoryHumilityCharacter": "Akhlak Mulia",
+  "categoryOvercomingTemptation": "Tahan Godaan",
+  "categoryEveningReflection": "Dhikr Malam",
+  "categoryCustom": "Refleksi Pribadi",
+  "dhikrMeaningSubhanallah": "Kemuliaan bagi Allah",
+  "dhikrMeaningAlhamdulillah": "Segala puji bagi Allah",
+  "dhikrMeaningAllahuAkbar": "Allah Maha Besar",
+  "quranVerseHeartAtRest": "Sesungguhnya, dalam mengingat Allah hati menjadi tenang.",
+
+  "promptHint": "Tekan kategori keu peudapat bimbingan Islam dan renungan",
+
+  "currentLanguage": "Bahsa nyang dipaké",
+  "settingsLanguage": "Setelan bahsa",
+  "settingsTitle": "Setelan",
+  "chooseLanguage": "Pileh bahsa droë",
+  "continueCta": "Lanjut",
+
+  "promptDailyGuidance": "Tuleh bimbingan harë-harë nyang singkat lagée praktis, beurakar dalam iman Islam Sunni — berlandaskan Quran, Hadits, dan ajaran Nabi Muhammad. Pileh sudut pandang nyang baru tiap kali: sifat mulia dalam etika Islam, kebenaran dari Sunnah, hikmah dari para Sahabat Nabi, atau amalan seuneuleh dari tradisi Islam. Sertakan satu ayat Quran (Surah:Ayat) dan renungan 1–2 kalimat keu dibawak sepanjang harë. Boleh dihubungkan keu kalender Islam atau tanggal penting jikajih relevan.",
+
+  "promptFaithTrust": "Tuleh renungan Islam nyang singkat tentang Iman dan tawakkul keu rencana Allah. Peudasarkan dalam Quran, teladan Nabi Muhammad, dan keimanan para Sahabat. Variasikan tema tiap kali: mempercayai Allah dalam ketidakpastian, bersandar pada hikmah ilahi, sabar dalam ujian, atau keteguhan diam dalam kehidupan harë-harë. Sertakan satu ayat Quran dan satu langkah nyata keu harë ini dari hikmah rohani Islam.",
+
+  "promptPrayerReflection": "Tuleh renungan sembayang Islam nyang singkat beurakar dalam Salat, Doa, atau Dhikr. Variasikan bentukna tiap kali: zikir pagi atau petang (Adzkhar), renungan tentang sembayang lima waktu, perenungan ayat Quran, atau doa nyang tulus. Sertakan satu ayat Quran dan sebutkan secara singkat bentuk doa nyang digunakan.",
+
+  "promptHopeDifficultTimes": "Tuleh renungan Islam tentang sabar dan harapan dalam kesusahan. Ambil dari ajaran Quran tentang ujian, keteguhan para Nabi, dan rahmat Allah dalam saat-saat sulit. Variasikan sudut pandang tiap kali. Sertakan satu ayat Quran dan satu pandangan nyang menghibur dari tradisi Islam.",
+
+  "promptForgiveness": "Tuleh renungan Islam nyang bijaksana tentang mita ampun (Tawbah) dan rahmat Allah. Ambil dari ajaran Quran tentang taubat, kasih sayang Allah, dan teladan pengampunan Nabi Muhammad. Variasikan tema: kembali keu Allah, memaafkan orang laén, menyembuhkan hubungan, atau mempercayai rahmat Allah setelah melakukan kesalahan. Sertakan satu ayat Quran dan satu langkah konkret.",
+
+  "promptLoveCompassion": "Tuleh renungan Islam nyang singkat tentang rahmat dan kasih sayang dalam kehidupan seharë-harë. Ambil dari teladan Nabi Muhammad, konsep Ihsan (keunggulan), dan ajaran Islam tentang kebaikan kepada keluarga, tetangga, dan orang-orang nyang lemah. Sertakan satu ayat Quran dan satu tindakan kecil kasih sayang keu dipraktikkan harë ini.",
+
+  "promptStrengthCourage": "Tuleh renungan Islam tentang kekuatan dan keberanian berdasarkan iman. Ambil dari teladan para Nabi, komunitas Muslim awal, dan kaum beriman nyang tetap teguh dalam kesusahan. Variasikan tema tiap kali: keberanian melalui iman, kekuatan dalam sembayang, kepercayaan keu Allah dalam ketakutan, atau ketahanan dalam kesulitan. Sertakan satu ayat Quran dan doa singkat atau kalimat zikir.",
+
+  "promptGratitude": "Tuleh renungan Islam tentang syukur (Shukr) kepada Allah. Peudasarkan dalam ajaran Quran dan tradisi kenabian. Variasikan sudut pandang: syukur dalam kesusahan, menghargai berkat-berkat kecil, memulai harë dengan pujian kepada Allah, atau mengenali bimbingan Allah dalam kehidupan seharë-harë. Sertakan satu ayat Quran dan satu amalan syukur.",
+
+  "promptPurposeCalling": "Tuleh renungan Islam tentang tujuan hidup dalam beribadah keu Allah dan hidup dengan benar. Ambil dari ajaran Quran tentang tujuan, melayani orang laén, dan menggunakan karunia keu kebaikan. Variasikan tema tiap kali: melayani keluarga dan masyarakat, mita petunjuk melalui Istikharah, hidup dengan niat, atau mencari makna dalam pekerjaan biasa. Sertakan satu ayat Quran dan dua pertanyaan renungan.",
+
+  "promptFamilyRelationships": "Tuleh bimbingan Islam nyang bijaksana tentang keluarga dan hubungan nyang beurakar dalam ajaran Quran dan teladan Nabi Muhammad. Variasikan tema tiap kali: kebaikan dalam kehidupan keluarga, sabar dalam konflik, menghormati orang tua, mendidik anak dalam iman, atau memperkuat pernikahan. Sertakan satu ayat Quran dan satu amalan relasional keu dicoba.",
+
+  "promptPeaceAnxietyRelief": "Tuleh renungan Islam nyang menenangkan tentang mencari ketenangan ateë melalui zikir kepada Allah dan kepercayaan kepada rencana-Nya. Ambil dari ajaran Quran tentang ketenangan ateë, sembayang, dan penyerahan diri keu kehendak Allah. Variasikan pendekatannya tiap kali dan sertakan satu ayat Quran dan satu amalan penenang sederhana dari tradisi Islam.",
+
+  "promptWisdomOfJesus": "Tuleh sebuah hikmah singkat dari para Nabi sebagaimana diajarkan dalam Islam. Ambil dari Quran atau Hadits dan jelaskan secara singkat bagaimana ulama Islam telah memahami ajaran tersebut. Variasikan topik tiap kali: akhlak, sabar, rendah ateë, iman, atau perilaku seharë-harë. Sertakan ayat Quran atau referensi Hadits dan satu penerapan praktis.",
+
+  "promptHumilityCharacter": "Tuleh renungan Islam tentang rendah ateë (Tawadhu) dan akhlak mulia (Akhlaq). Ambil dari ajaran Quran, teladan Nabi Muhammad, dan tradisi pengembangan karakter Islam. Variasikan tema: rendah ateë dalam kepemimpinan, mengakui kesalahan, menghormati orang laén, atau berkembang secara rohani melalui introspeksi. Sertakan satu ayat Quran dan satu kebiasaan keu dipraktikkan.",
+
+  "promptOvercomingTemptation": "Tuleh renungan Islam tentang menahan godaan dan tetap berada di jalan nyang lurus. Ambil dari panduan Quran, zikir kepada Allah, sembayang (Salat), dan teladan kaum beriman nyang mengatasi kesulitan. Variasikan sudut pandang tiap kali. Sertakan satu ayat Quran dan satu strategi praktis keu 24 jam ke depan.",
+
+  "promptEveningReflection": "Tuleh renungan petang Islam nyang damai beurakar dalam tradisi zikir petang (Adzkhar al-Masa'). Dorong rasa syukur, introspeksi diri (Muhasabah), dan tawakkul keu Allah sebelum istirahat. Sertakan 3–5 pertanyaan renungan singkat tentang harë ini, doa penutup singkat, dan satu ayat Quran.",
+
+  "wordCount": "{count, plural, one {{count} kata} other {{count} kata}}",
+
+  "optionsCta": "Pilihan",
+  "newCta": "Baru",
+  "actionsTitle": "Peu nyang droë jak jak peubuet?",
+  "copy": "Salin",
+  "share": "Bagi",
+  "close": "Tutép",
+  "copiedToast": "Disalin keu clipboard",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Daily Guidance" }
+    }
+  },
+
+  "regenerateErrorTitle": "Hana jeut peuhase jawaban baru",
+  "regenerateErrorBody": "{error}\n\nDroë jak coba laén?",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Network error" }
+    }
+  },
+
+  "cancelCta": "Batal",
+  "retryCta": "Coba laén",
+
+  "authTitle": "Buat akun droë",
+  "continueAsGuest": "Lanjut sebagai tamu",
+  "signInGoogle": "Masuk dengan Google",
+  "signInApple": "Masuk dengan Apple",
+  "signInEmail": "Masuk dengan Email",
+  "upgradeWithApple": "Lanjut dengan Apple",
+  "mustAccept": "Droë harus setuju Syarat dan mengakui Kebijakan Privasi.",
+  "termsLabel": "Lôn setuju Syarat Layanan",
+  "privacyLabel": "Lôn udah baca Kebijakan Privasi",
+  "marketingOptIn": "Lôn setuju menerima berita dan tawaran",
+  "openTerms": "Syarat Layanan",
+  "openPrivacy": "Kebijakan Privasi",
+
+  "accountSection": "Akun",
+  "guestMode": "Mode tamu",
+  "signedIn": "Udah masuk",
+  "upgradeHint": "Simpan renungan droë di berbagai perangkat dengan membuat akun.",
+  "upgradeWithGoogle": "Lanjut dengan Google",
+  "signOut": "Keluar",
+
+  "snackUpgraded": "Akun ditingkatkan dengan Google ✅",
+  "snackSignedIn": "Masuk dengan Google ✅",
+  "snackSignedOut": "Udah keluar",
+  "snackSignedInApple": "Masuk dengan Apple ✅",
+  "snackSignedInGoogle": "Masuk dengan Google ✅",
+  "snackUpgradedApple": "Akun ditingkatkan dengan Apple ✅",
+  "snackUpgradedGoogle": "Akun ditingkatkan dengan Google ✅",
+
+  "historyTitle": "Renungan nyang lalu",
+  "historyOpenCta": "Renungan nyang lalu",
+  "historyEmpty": "Hana laén renungan nyang disimpan.",
+  "historyDeleteTitle": "Hapus renungan?",
+  "historyDeleteBody": "Ini akan menghapus item nyang dipilih secara permanen.",
+  "deleteCta": "Hapus",
+
+  "historyButton": "Renungan Nyang Lalu",
+  "historyEmptyTitle": "Hana laén renungan",
+  "historyEmptyBody": "Buat sesuatu deuë — item nyang disimpan droë akan muncul di sini.",
+  "historyDelete": "Hapus",
+
+  "footerTitle": "Dengan Iman, sabar dan rahma.",
+  "footerSubtitle": "Selangkah demi selangkah.",
+  "genericErrorSnack": "Ada nyang salah — coba laén dalam sesaat.",
+
+  "upgradeAccountCta": "Simpan renungan droë di berbagai perangkat – buat akun",
+  "deleteAccount": "Hapus akun",
+  "exportData": "Ekspor data lôn",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Perlahan dulu 🐯\nAI peureulee sesaat sebelum nyang berikutnya…",
+  "rateDailyLimit": "Renungan droë udah habis keu sekarang.\nDapatkan laén renungan atau tingkatkan keu Barakah.",
+  "rateCreditsExhausted": "Droë udah menggunakan semua renungan.\nIsi ulang atau tingkatkan keu Barakah keu melanjutkan.",
+  "rateGraceReflectionsExhausted": "Renungan droë udah habis keu sekarang.\nDapatkan laén renungan atau tingkatkan keu Barakah.",
+  "rateReflectionsExhausted": "Droë udah menggunakan semua renungan.\nIsi ulang atau tingkatkan keu Barakah keu melanjutkan.",
+
+  "blessedDescription": "Barakah membuka fitur premium, kategori masa depan, dan lencana istimewa.",
+  "championDescription": "Barakah membuka fitur premium, kategori masa depan, dan lencana istimewa.",
+
+  "ratePlanExhausted": "Renungan droë kosong sekarang. Paket: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard or Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Hana jeut memeriksa renungan droë: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Network error" }
+    }
+  },
+
+  "rateCheckGenericError": "Ada nyang salah saat memeriksa renungan droë.",
+  "aiFallbackGeneric": "Ada nyang salah — coba laén dalam sesaat.",
+
+  "limitSectionTitle": "Renungan",
+  "limitTodayLabel": "Penggunaan",
+  "limitCreditsLabel": "Sisa renungan: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Paket: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard or Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Muat…",
+  "limitLoadingLabelDescription": "Ditampilkan dalam kartu renungan saat statistik penggunaan sedang diambil.",
+
+  "aiLimitTitle": "Renungan",
+  "aiLimitSubtitle": "Tiap respons menggunakan 1 renungan. Standar menyertakan renungan awal. Barakah membuka kategori premium dan memungkinkan isi ulang.",
+  "aiLimitProgressLabel": "{used} / {total} renungan digunakan",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Renungan",
+  "reflectionsUsageLabel": "Penggunaan",
+  "reflectionsRemainingLabel": "Sisa renungan: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Paket: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard or Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Muat…",
+  "reflectionsLoadingLabelDescription": "Ditampilkan saat statistik renungan sedang diambil.",
+
+  "reflectionsTitle": "Renungan",
+  "reflectionsSubtitle": "Tiap respons menggunakan 1 renungan. Standar menyertakan renungan awal. Barakah membuka kategori premium dan memungkinkan isi ulang.",
+  "reflectionsProgressLabel": "{used} / {total} renungan digunakan",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Hapus akun",
+  "settingsDeleteDescription": "Hapus akun droë dan semua data nyang terkait secara permanen.",
+  "settingsDeleteButtonLabel": "Hapus akun lôn",
+  "settingsDeleteDialogTitle": "Hapus akun?",
+  "settingsDeleteDialogBody": "Tindakan nyoe permanen dan hana jeut dibatalkan.\n\nSemua obrolan, riwayat, dan informasi akun droë akan dihapus.",
+  "settingsDeleteDialogCancel": "Batal",
+  "settingsDeleteDialogConfirm": "Hapus",
+
+  "settingsFreeLimitUsedTitle": "Renungan awal udah habis",
+  "settingsFreeLimitUsedDescription": "Renungan awal keu perangkat nyoe udah habis. Tingkatkan keu Barakah atau beli laén renungan keu melanjutkan.",
+
+  "settingsStarterReflectionsUsedTitle": "Renungan awal udah habis",
+  "settingsStarterReflectionsUsedDescription": "Renungan awal keu perangkat nyoe udah habis. Tingkatkan keu Barakah atau beli laén renungan keu melanjutkan.",
+
+  "deviceBoundError": "Perangkat nyoe udah terhubung keu akun laén. Masuk dengan akun asli.",
+
+  "premiumTitle": "Mode Barakah",
+  "premiumSubtitleBasic": "Buka pengalaman Nuria nyang penuh.",
+  "premiumSubtitleChampion": "Droë udah Barakah. Peureulee laén renungan?",
+
+  "premiumCurrentPlan": "Paket sekarang: {plan}",
+  "premiumCreditsStatus": "Renungan: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Pembelian hana jeut dilakukan sekarang.",
+  "premiumSignInToPurchase": "Masuk keu membeli renungan atau membuka Barakah.",
+
+  "premiumRestorePurchases": "Pulihkan pembelian",
+  "premiumProcessing": "Memproses…",
+  "premiumRestoreHintTitle": "Udah beli Barakah atau renungan di perangkat nyoe atau nyang laén?",
+  "premiumRestoreHintBody": "Pulihkan pembelian droë jikajih hana muncul.",
+
+  "premiumBuyCredits200": "Beli 200 renungan",
+  "premiumBuyCredits400": "Beli 400 renungan",
+  "premiumBecomeChampionOneTime": "Tingkatkan keu mode Barakah",
+  "premiumChampionHint": "Sebagai Barakah, droë jeut isi ulang dengan renungan tambahan kapan pun peureulee.",
+
+  "premiumUpgradeCta": "Tingkatkan",
+  "premiumRequiredForCategory": "Kategori nyoe hanya tersedia keu pengguna Barakah. Tingkatkan dalam Setelan keu membuka semua konten premium.",
+  "premiumBenefitsBasic": "Buka Barakah keu mendapatkan laén renungan, mengakses kategori premium, dan melanjutkan kapan pun droë peureulee bimbingan.",
+  "premiumBenefitsChampion": "Droë berada dalam mode Barakah. Jikajih hampir habis, tambahkan laén renungan dan lanjutkan tanpa gangguan.",
+  "premiumButtonBecomeChampion": "Buka Barakah",
+  "premiumButtonTopup1000": "Tambah 1000 renungan",
+  "premiumChampionBadge": "Barakah aktif",
+  "premiumLoadingStore": "Memuat toko…",
+
+  "blessedTitle": "Mode Barakah",
+  "blessedSubtitleGrace": "Buka pengalaman Nuria nyang penuh.",
+  "blessedSubtitleBlessed": "Droë udah Barakah. Peureulee laén renungan?",
+
+  "blessedCurrentPlan": "Paket sekarang: {plan}",
+  "blessedReflectionsStatus": "Renungan: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Pembelian hana jeut dilakukan sekarang.",
+  "blessedProductNotAvailable": "Produk nyoe hana tersedia di toko sekarang. Coba laén kemudian.",
+  "blessedPurchaseError": "Ada nyang salah dengan pembelian. Coba laén.",
+  "blessedSignInToPurchase": "Masuk keu membeli renungan atau membuka Barakah.",
+
+  "blessedRestorePurchases": "Pulihkan pembelian",
+  "blessedProcessing": "Memproses…",
+  "blessedRestoreHintTitle": "Udah beli Barakah atau renungan di perangkat nyoe atau nyang laén?",
+  "blessedRestoreHintBody": "Pulihkan pembelian droë jikajih hana muncul.",
+
+  "blessedBuyReflections100": "Tambah 100 renungan",
+  "blessedBuyReflections200": "Beli 200 renungan",
+  "blessedBuyReflections400": "Beli 400 renungan",
+  "blessedBecomeBlessedOneTime": "Tingkatkan keu Barakah",
+  "blessedTopupHint": "Sebagai Barakah, droë jeut isi ulang dengan renungan tambahan kapan pun peureulee.",
+
+  "blessedUpgradeCta": "Tingkatkan",
+  "blessedRequiredForCategory": "Kategori nyoe hanya tersedia keu pengguna Barakah. Tingkatkan dalam Setelan keu membuka semua konten premium.",
+  "blessedFeatureLocked": "Buka Barakah keu mengakses fitur nyoe.",
+  "lockedCategoriesHint": "Beberapa kategori dikhususkan keu anggota Barakah. Buka untuk menjelajahi setiap renungan dalam perjalanan droë.",
+  "blessedBenefitsGrace": "Buka Barakah keu mendapatkan laén renungan, mengakses kategori premium, dan melanjutkan kapan pun droë peureulee bimbingan.",
+  "blessedBenefitsBlessed": "Droë berada dalam mode Barakah. Jikajih hampir habis, tambahkan laén renungan dan lanjutkan tanpa gangguan.",
+  "blessedButtonBecomeBlessed": "Buka Barakah",
+  "blessedButtonTopup1000": "Tambah 1000 renungan",
+  "blessedBadge": "Barakah aktif",
+  "blessedLoadingStore": "Memuat toko…",
+
+  "freePlanBlockedTitle": "Renungan awal droë udah habis",
+  "freePlanBlockedBody": "Droë berada pada paket Standar dengan renungan awal, dan udah mencapai batasnya. Keu melanjutkan — dan membuka kategori premium — tingkatkan keu Barakah.",
+  "freePlanBlockedCtaGoPremium": "Lihat pilihan Barakah di bawah",
+
+  "graceBlockedTitle": "Renungan awal droë udah habis",
+  "graceBlockedBody": "Droë berada pada paket Standar dengan renungan awal, dan udah mencapai batasnya. Keu melanjutkan — dan membuka kategori premium — tingkatkan keu Barakah.",
+  "graceBlockedCtaGoBlessed": "Lihat pilihan Barakah di bawah",
+
+  "rateGuestMustSignIn": "Masuk keu menggunakan Nuria dan renungan droë.",
+
+  "guestNoCreditsTitle": "Mode tamu",
+  "guestNoCreditsBody": "Sebagai tamu droë jeut menjelajahi aplikasi, tapi hana jeut menggunakan renungan. Masuk kemudian dalam Setelan keu menggunakan renungan dan membuka pembelian.",
+
+  "guestNoReflectionsTitle": "Mode tamu",
+  "guestNoReflectionsBody": "Sebagai tamu droë jeut menjelajahi aplikasi, tapi hana jeut menggunakan renungan. Masuk kemudian dalam Setelan keu menggunakan renungan dan membuka pembelian.",
+
+  "guestDialogContinue": "Lanjut",
+  "guestDialogLoginInstead": "Masuk deuë",
+
+  "optionalLabel": "opsional",
+
+  "accountDeleteSuccessTitle": "Akun dihapus",
+  "accountDeleteSuccessBody": "Akun dan data nyang terkait droë udah berhasil dihapus.",
+  "accountDeleteSuccessClose": "Tutép",
+  "accountDeleteErrorTitle": "Hana jeut hapus akun",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Autentikasi ulang dibatalkan. Masuk laén dan coba hapus laén.",
+  "accountDeleteReauthRequired": "Penghapusan akun memerlukan login terbaru. Keluar, masuk laén, dan coba laén.",
+  "settingsDeletePermanentWarning": "Tindakan nyoe permanen dan hana jeut dibatalkan. Semua data nyang terkait dengan akun droë akan dihapus.",
+
+  "dailyGraceTitle": "Peutunjok Harë",
+  "dailyGraceScriptureLabel": "AYAT HARË INI",
+  "dailyGraceSaintLabel": "ULAMA MINGGU INI",
+  "dailyGraceReflectionLabel": "RENUNGAN MALAM",
+  "dailyGraceCopiedToast": "Ayat disalin keu clipboard",
+
+  "dailyScripture0Text": "Sesungguhnya orang-orang nyang bertakwa berada di taman-taman dan sungai-sungai, di tempat nyang disenangi di sisi Raja nyang Mahakuasa.",
+  "dailyScripture0Ref": "Quran 54:54-55",
+  "dailyScripture1Text": "Dan Kami hana mengutus kamu (Muhammad) melainkan keu menjadi rahmat bagi seluruh alam.",
+  "dailyScripture1Ref": "Quran 21:107",
+  "dailyScripture2Text": "Bukankah Allah cukup keu melindungi hamba-Nya? Namun mereka menakutimu dengan sesembahan selain-Nya.",
+  "dailyScripture2Ref": "Quran 39:36",
+  "dailyScripture3Text": "Boleh jadi droë membenci sesuatu padahal ia baik bagimu, dan boleh jadi droë menyukai sesuatu padahal ia buruk bagimu. Allah mengetahui, sedangkan droë hana mengetahui.",
+  "dailyScripture3Ref": "Quran 2:216",
+  "dailyScripture4Text": "Sesungguhnya Allah beserta orang-orang nyang sabar.",
+  "dailyScripture4Ref": "Quran 2:153",
+  "dailyScripture5Text": "Karena itu, ingatlah kamu kepada-Ku, niscaya Aku ingat pula kepadamu. Dan bersyukurlah kepada-Ku, serta janganlah kamu mengingkari nikmat-Ku.",
+  "dailyScripture5Ref": "Quran 2:152",
+  "dailyScripture6Text": "Sesungguhnya nyang paling mulia di antara kamu di sisi Allah ialah orang nyang paling bertakwa.",
+  "dailyScripture6Ref": "Quran 49:13",
+  "dailyScripture7Text": "Dan Tuhanmu telah memerintahkan agar kamu hana menyembah selain Dia dan hendaklah kamu berbuat baik kepada ibu bapakmu.",
+  "dailyScripture7Ref": "Quran 17:23",
+  "dailyScripture8Text": "Sesungguhnya beserta kesulitan ada kemudahan.",
+  "dailyScripture8Ref": "Quran 94:6",
+  "dailyScripture9Text": "Dan Dia bersamamu di mana pun kamu berada. Dan Allah Maha Melihat apa nyang kamu kerjakan.",
+  "dailyScripture9Ref": "Quran 57:4",
+  "dailyScripture10Text": "Allah hana membebani seseorang melainkan sesuai dengan kesanggupannya.",
+  "dailyScripture10Ref": "Quran 2:286",
+  "dailyScripture11Text": "Dan barangsiapa bertawakal kepada Allah, niscaya Allah akan mencukupkan keperluannya.",
+  "dailyScripture11Ref": "Quran 65:3",
+  "dailyScripture12Text": "Rahmat-Ku meliputi segala sesuatu.",
+  "dailyScripture12Ref": "Quran 7:156",
+  "dailyScripture13Text": "Dan apabila hamba-hamba-Ku bertanya kepadamu tentang Aku, maka sesungguhnya Aku dekat. Aku mengabulkan permohonan orang nyang berdoa apabila ia berdoa kepada-Ku.",
+  "dailyScripture13Ref": "Quran 2:186",
+  "dailyScripture14Text": "Barangsiapa mengerjakan kebajikan, baik laki-laki maupun perempuan, dalam keadaan beriman, maka pasti akan Kami berikan kepadanya kehidupan nyang baik.",
+  "dailyScripture14Ref": "Quran 16:97",
+  "dailyScripture15Text": "Sesungguhnya Allah hana akan mengubah keadaan suatu kaum sebelum mereka mengubah keadaan diri mereka sendiri.",
+  "dailyScripture15Ref": "Quran 13:11",
+  "dailyScripture16Text": "Janganlah kamu bersikap lemah dan jangan pula bersedih hati, padahal kamulah orang-orang nyang paling tinggi derajatnya jikajih kamu beriman.",
+  "dailyScripture16Ref": "Quran 3:139",
+  "dailyScripture17Text": "Wahai hamba-hamba-Ku nyang melampaui batas terhadap diri sendiri, janganlah kamu berputus asa dari rahmat Allah. Sesungguhnya Allah mengampuni dosa-dosa semuanya.",
+  "dailyScripture17Ref": "Quran 39:53",
+  "dailyScripture18Text": "Dan barangsiapa bertakwa kepada Allah, niscaya Dia akan membukakan jalan keluar baginya, dan Dia memberinya rezeki dari arah nyang hana disangka-sangka.",
+  "dailyScripture18Ref": "Quran 65:2-3",
+  "dailyScripture19Text": "Janganlah berputus asa dari rahmat Allah.",
+  "dailyScripture19Ref": "Quran 12:87",
+  "dailyScripture20Text": "Dan sungguh, telah Kami mudahkan Al-Quran keu pelajaran. Maka adakah orang nyang mau mengambil pelajaran?",
+  "dailyScripture20Ref": "Quran 54:17",
+  "dailyScripture21Text": "Dan Dia mendapatimu sebagai seorang nyang bingung, lalu Dia memberikan petunjuk.",
+  "dailyScripture21Ref": "Quran 93:7",
+  "dailyScripture22Text": "Dan Tuhanmu berfirman, 'Berdoalah kepada-Ku, niscaya akan Aku perkenankan bagimu.'",
+  "dailyScripture22Ref": "Quran 40:60",
+  "dailyScripture23Text": "Dan sungguh, telah Kami muliakan anak cucu Adam.",
+  "dailyScripture23Ref": "Quran 17:70",
+  "dailyScripture24Text": "Dan mohonlah pertolongan dengan sabar dan salat.",
+  "dailyScripture24Ref": "Quran 2:45",
+  "dailyScripture25Text": "Barangsiapa mengerjakan kebaikan seberat zarrah pun, niscaya dia akan melihat balasannya.",
+  "dailyScripture25Ref": "Quran 99:7",
+  "dailyScripture26Text": "Ketahuilah, sesungguhnya pertolongan Allah itu dekat.",
+  "dailyScripture26Ref": "Quran 2:214",
+  "dailyScripture27Text": "Dan barangsiapa bersyukur, maka sesungguhnya dia bersyukur keu dirinya sendiri.",
+  "dailyScripture27Ref": "Quran 31:12",
+
+  "dailyReflection0": "Saat harë nyoe berakhir, renungkan satu saat nyang nyata rahmat Allah.",
+  "dailyReflection1": "Bawa ke hadapan Allah apa pun nyang membebani ateëmu harë nyoe.",
+  "dailyReflection2": "Sebutkan satu berkat dari harë nyoe dan ungkapkan syukur kepada Allah.",
+  "dailyReflection3": "Beristirahatlah dalam keyakinan bahwa kamu berada dalam penjagaan Allah nyang tak terbatas.",
+  "dailyReflection4": "Renungkan saat droë merasa terpanggil keu menunjukkan kasih sayang dan kebaikan harë nyoe.",
+  "dailyReflection5": "Lepaskan apa nyang hana jeut droë kendalikan dan percayakah keu rencana Allah nyang sempurna.",
+  "dailyReflection6": "Saat harë akan berakhir, terimalah ketenangan dalam zikir kepada Allah.",
+  "dailyReflection7": "Renungkan bagaimana droë menunaikan salat harë nyoe, dan syukuri setiap salatnya.",
+  "dailyReflection8": "Renungkan satu saat nyang sabar (Sabr) memandu tindakanmu harë nyoe.",
+  "dailyReflection9": "Minta ampun atas kekurangan harë nyoe — rahmat Allah tiada batas.",
+  "dailyReflection10": "Sebutkan satu orang nyang droë tunjukkan kebaikan harë nyoe dan doakan mereka.",
+  "dailyReflection11": "Duduk dalam syukur: apa nyang Allah berikan harë nyoe nyang hana droë minta?",
+  "dailyReflection12": "Renungkan satu ayat Quran nyang berbicara tentang kondisi droë sekarang.",
+  "dailyReflection13": "Renungkan bagaimana droë menggunakan waktuму harë nyoe — dan serahkan hari esok kepada Allah.",
+  "dailyReflection14": "Beristirahatlah mengetahui bahwa betapapun beratnya kesulitan harë nyoe, Allah selalu bersamamu.",
+  "dailyReflection15": "Pikirkan satu cara droë melayani keluarga atau masyarakat harë nyoe karena Allah.",
+  "dailyReflection16": "Saat malam tiba, bertaubatlah — Allah mencintai orang-orang nyang kembali kepada-Nya.",
+  "dailyReflection17": "Renungkan keindahan nyang Allah tempatkan dalam harimu, sekecil apapun.",
+  "dailyReflection18": "Renungkan apa nyang droë pelajari harë nyoe dan bagaimana hal itu mendekatkanmu keu Allah.",
+  "dailyReflection19": "Biarkan kekhawatiran harë nyoe beristirahat bersama Allah — Dia menanggung apa nyang hana jeut kamu tanggung.",
+  "dailyReflection20": "Pikirkan satu saat harë nyoe droë bisa memilih lebih baik, dan belajarlah darinya dengan lembut.",
+  "dailyReflection21": "Berdoalah keu mereka nyang sedang berjuang — doamu adalah anugerah keu mereka.",
+  "dailyReflection22": "Ingat satu berkat nyang sering droë abaikan dan luangkan waktu keu bersyukur kepada Allah.",
+  "dailyReflection23": "Renungkan niatmu harë nyoe — apakah keu Allah? Besok, mulailah laén.",
+  "dailyReflection24": "Saat malam semakin sunyi, dengarkan kedekatan Allah dalam keheningan.",
+  "dailyReflection25": "Renungkan di mana droë menemukan kekuatan harë nyoe — kekuatan itu dari Allah.",
+  "dailyReflection26": "Sebutkan satu hal nyang akan droë lakukan besok, karena Allah, nyang hana droë lakukan harë nyoe.",
+  "dailyReflection27": "Saat droë bersiap-siap keu beristirahat, serahkan jiwamu kepada Allah — Dia sebaik-baik penjaga.",
+
+  "dailyRoleModel0": "Nabi Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisyah bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadz ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Ummu Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifah (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Syafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidzi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyyah (RH)",
+  "dailyRoleModel31": "Ibn Taimiyah (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Katsir (RH)",
+  "dailyRoleModel35": "Al-Thabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Tsauri (RH)",
+  "dailyRoleModel37": "Fakhruddin al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rusyd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Batutah (RH)",
+  "dailyRoleModel43": "Nabi Ibrahim (AS)",
+  "dailyRoleModel44": "Nabi Musa (AS)",
+  "dailyRoleModel45": "Nabi Isa (AS)",
+  "dailyRoleModel46": "Nabi Yusuf (AS)",
+  "dailyRoleModel47": "Nabi Dawud (AS)",
+  "dailyRoleModel48": "Nabi Sulaiman (AS)",
+  "dailyRoleModel49": "Nabi Nuh (AS)",
+  "dailyRoleModel50": "Nabi Yunus (AS)",
+  "dailyRoleModel51": "Nabi Ayyub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hasan ibn Ali (RA)",
+  "dailyRoleModel55": "Husain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dzar al-Ghifari (RA)",
+  "dailyRoleModel58": "Thalhah ibn Ubaidillah (RA)",
+  "dailyRoleModel59": "Az-Zubair ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Izinkan Nuria menggunakan lokasi lôn keu arah Kiblat dan waktu salat",
+  "locationConsentHint": "Hanya digunakan keu fitur-fitur nyoe. Lokasi droë hana pernah dibagikan atau disimpan.",
+
+  "askPageTitle": "Tanya Nuria",
+  "askPageDescription": "Tanya apa pun tentang iman, sembayang, kehidupan, atau praktik Islam dan terima bimbingan nyang beurakar dalam Quran dan Sunnah.",
+  "askPageInputHint": "Tuleh pertanyaan droë di sini…",
+  "askPageSubmitCta": "Tanya",
+  "askPageInputEmptyError": "Tolong tuleh pertanyaan deuë.",
+  "askResultYourQuestion": "Pertanyaan droë",
+
+  "guidancePageTitle": "Sembayang & Bimbingan",
+  "qiblaFacingMecca": "Menghadap Makkah",
+  "qiblaCompassInstruction": "Putar ponsel droë hingga jarum emas mengarah ke atas.\nArah itu menunjuk ke Kiblat (Makkah).",
+  "qiblaGpsUnavailableBody": "Sinyal GPS lemah. Pindah ke luar ruangan dan tekan Coba Laén.",
+  "qiblaRetry": "Coba Laén",
+  "qiblaTitle": "Arah Kiblat",
+  "qiblaDistanceLabel": "{km} km keu Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Lokasi diperlukan",
+  "qiblaLocationNeededBody": "Izinkan akses lokasi agar Nuria jeut menghitung arah Ka'bah di Makkah dari mana pun droë berada.",
+  "qiblaOpenSettings": "Buka Setelan",
+  "qiblaCompassLoading": "Mencari posisi droë…",
+  "qiblaTowardMecca": "Keu Makkah",
+
+  "prayerTimesTitle": "Waktu Sembayang",
+  "prayerTimesFajr": "Subuh",
+  "prayerTimesDhuhr": "Zuhur",
+  "prayerTimesAsr": "Asar",
+  "prayerTimesMaghrib": "Magrib",
+  "prayerTimesIsha": "Isya",
+  "prayerTimesLocationNeededTitle": "Lokasi diperlukan",
+  "prayerTimesLocationNeededBody": "Izinkan akses lokasi agar Nuria jeut menghitung waktu salat nyang akurat keu kota droë.",
+  "prayerTimesNextLabel": "Berikutnya",
+  "prayerTimesDoneLabel": "Selesai",
+
+  "monthlyPrayerTimesTitle": "Waktu Sembayang Bulanan",
+  "monthlyPrayerTimesViewButton": "Lihat Bulan Penuh",
+  "monthlyPrayerTimesNextMonth": "Bulan depan",
+  "monthlyPrayerTimesDayHeader": "Harë",
+
+  "sharePrayerTimes": "Bagikan waktu sembayang",
+
+  "prayerNotificationsTitle": "Pengingat Sembayang",
+  "prayerNotificationsDescription": "Terima pengingat lembut sebelum setiap waktu salat keu membantu droë tetap terhubung sepanjang harë.",
+  "prayerNotificationsEnable": "Aktifkan pengingat sembayang",
+  "prayerNotificationsOpenSettings": "Buka setelan notifikasi",
+  "prayerNotificationsDenied": "Notifikasi dinonaktifkan",
+  "prayerNotificationsDeniedHint": "Pergi ke Setelan dan izinkan notifikasi keu Nuria keu menerima pengingat waktu salat.",
+
+  "notificationsConsentLabel": "Izinkan notifikasi keu waktu sembayang",
+
+  "prayerNotifTitleFajr": "🌅 Subuh — Sembayang Fajar",
+  "prayerNotifBodyFajr": "Sebaik-baik salat adalah salat fajar. Bangunlah, sucikan diri, dan berdirilah di hadapan Allah.",
+
+  "prayerNotifTitleDhuhr": "☀️ Zuhur — Sembayang Tengah Harë",
+  "prayerNotifBodyDhuhr": "Hentikan sejenak aktivitas droë dan kembalilah keu Allah. Waktu salat Zuhur telah tiba.",
+
+  "prayerNotifTitleAsr": "🌤️ Asar — Sembayang Tengah Petang",
+  "prayerNotifBodyAsr": "Jagalah salat tengah. Waktu Asar telah tiba — jangan biarkan berlalu.",
+
+  "prayerNotifTitleMaghrib": "🌇 Magrib — Sembayang Matahari Terbenam",
+  "prayerNotifBodyMaghrib": "Matahari telah terbenam. Tunaikan Magrib dan bersyukurlah kepada Allah atas harë nyoe.",
+
+  "prayerNotifTitleIsha": "🌙 Isya — Sembayang Malam",
+  "prayerNotifBodyIsha": "Akhiri harimu dengan zikir kepada Allah. Hayya 'alal falah — mari menuju keberhasilan.",
+
+  "outOfReflectionsBannerText": "Droë udah menggunakan semua renungan",
+  "outOfReflectionsBannerCta": "Dapatkan laén",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Tekan lingkaran keu menghitung",
+  "dhikrResetButton": "Atur Ulang",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Droë udah menyelesaikan 99 zikir kepada Allah. Semoga menjadi cahaya keu ateëmu.",
+
+  "disclaimerTitle": "Tentang bimbingan aplikasi nyoe",
+  "disclaimerBody": "Nuria menyediakan renungan Islam, pengingat, dan konten rohani keu mendukung perjalanan iman pribadi droë. Konten nyoe ditawarkan hanya keu tujuan informasi umum dan inspirasi.\n\nNuria hana menggantikan ulama nyang berkualifikasi.\nBimbingan dalam aplikasi nyoe bukan pengganti ulama Islam, imam, mufti, atau guru nyang terlatih secara teologis. Jikajih droë memiliki pertanyaan tentang hukum agama, masalah halal dan haram, atau kewajiban agama pribadi, mohon cari saran dari otoritas agama nyang berkualifikasi di komunitas droë.\n\nAplikasi nyoe hana mengeluarkan putusan agama.\nNuria hana membuat penetapan resmi dalam masalah fiqih (yurisprudensi Islam) atau kewajiban agama pribadi. Hana ada nyang di sini harus dianggap sebagai fatwa atau instruksi agama nyang mengikat.\n\nInterpretasi ulama beragam.\nIslam mencakup kekayaan tradisi, mazhab, dan pendapat ulama nyang beragam. Konten dalam aplikasi nyoe mencerminkan perspektif umum dan mungkin hana mewakili setiap tradisi atau mazhab secara merata.\n\nKomunitas itu penting.\nAplikasi nyoe bertujuan keu mendorong keterlibatan droë dengan tradisi iman sekaligus sangat menghormati peran vital masjid, imam, dan komunitas agama setempat droë. Kami mendorong droë keu tetap terhubung dengan dan belajar dari guru-guru nyang berkualifikasi di dekat droë.",
+  "disclaimerClose": "Lôn paham",
+  "disclaimerInfoTooltip": "Tentang bimbingan aplikasi nyoe",
+  "disclaimerSettingsSubtitle": "Hanya keu tujuan informasi umum. Tekan keu membaca penafian lengkap.",
+  "disclaimerSectionHeader": "Penafian bimbingan"
+}

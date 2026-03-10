@@ -1,0 +1,585 @@
+{
+  "@@locale": "tr",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Dilinizi seçin",
+  "languageSelectSub": "Bunu daha sonra Ayarlar'dan değiştirebilirsiniz",
+  "actionContinue": "Devam et",
+  "languageSuggestedHeader": "Önerilen",
+  "languageAllHeader": "Tüm diller",
+  "languageSuggestedBadge": "Önerilen",
+  "languageSearchHint": "Ara…",
+
+  "planGrace": "Standart",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Günlük Rehberlik",
+  "categoryFaithTrust": "İman ve Tevekkül",
+  "categoryPrayerReflection": "Namaz Tefekkürü",
+  "categoryHopeDifficultTimes": "Sabır Ümit",
+  "categoryForgiveness": "Tövbe Dile",
+  "categoryLoveCompassion": "Merhamet Şefkat",
+  "categoryStrengthCourage": "İman Kuvveti",
+  "categoryGratitude": "Şükrü Kalb",
+  "categoryPurposeCalling": "Hayat Amacı",
+  "categoryFamilyRelationships": "Aile Bağları",
+  "categoryPeaceAnxietyRelief": "İç Huzur",
+  "categoryWisdomOfJesus": "Peygamber Hikmetleri",
+  "categoryHumilityCharacter": "İyi Ahlak",
+  "categoryOvercomingTemptation": "Nefse Karşı Koy",
+  "categoryEveningReflection": "Akşam Zikriyesi",
+  "categoryCustom": "Kişisel Yansıma",
+  "dhikrMeaningSubhanallah": "Allah'a şan olsun",
+  "dhikrMeaningAlhamdulillah": "Tüm övgüler Allah'a aittir",
+  "dhikrMeaningAllahuAkbar": "Allah en büyüktür",
+  "quranVerseHeartAtRest": "Şüphesiz, Allah'ı anmak kalplere huzur verir.",
+
+  "promptHint": "İslami rehberlik ve tefekkür için bir kategoriye dokunun",
+
+  "currentLanguage": "Mevcut dil",
+  "settingsLanguage": "Dil ayarları",
+  "settingsTitle": "Ayarlar",
+  "chooseLanguage": "Dilinizi seçin",
+  "continueCta": "Devam et",
+
+  "promptDailyGuidance": "Sünni İslam inancına dayalı, pratik günlük bir rehberlik yazın — Kur'an, Hadis ve Hz. Muhammed'in (sallallahu aleyhi ve sellem) öğretilerine dayanarak. Her seferinde farklı bir açı seçin: İslami etikten bir erdem, Sünnet'ten bir hakikat, Peygamber'in Ashapları'ndan bilgelik veya İslami gelenekten sessiz bir pratik. Bir Kur'an ayeti (Surah:Ayet) ve gün boyunca taşıyacağı 1–2 cümlelik bir tefekkür ekleyin. İlgili olması halinde İslami takvim veya önemli bir tarihle bağlantı kurun.",
+
+  "promptFaithTrust": "İman (Iman) ve Allah'ın planına güven (Tevekkül) üzerine kısa bir İslami tefekkür yazın. Kur'an, Hz. Muhammed'in örneği ve Sahabe'nin inancına dayandırın. Tema her seferinde değişsin: belirsizlik sırasında Allah'a güven, ilahi hikmeye dayanma, sınavlarda sabır veya günlük hayatta sessiz metanet. Bir Kur'an ayeti ve İslami ruhani bilgelikten çıkarılan bugün için dürüst bir adım ekleyin.",
+
+  "promptPrayerReflection": "Salah, Dua veya Zikre dayalı kısa bir İslami namaz tefekkürü yazın. Form her seferinde değişsin: sabah veya akşam zikri (Adhkar), beş vakit namazın üzerine tefekkür, bir Kur'an ayetinin meditasyonu veya samimi bir dua. Bir Kur'an ayeti ve kullanılan dua formunun adını kısaca belirtin.",
+
+  "promptHopeDifficultTimes": "Zorluk sırasında sabır (Sabr) ve ümit üzerine İslami bir tefekkür yazın. Sınavlar hakkındaki Kur'ani öğretiler, Peygamberlerin metaneti ve zor anlardaki Allah'ın rahmetinden yararlanın. Her seferinde açıyı değiştirin. Bir Kur'an ayeti ve İslami gelenekten bir cesur perspektif ekleyin.",
+
+  "promptForgiveness": "Tövbe (Tawbah) ve Allah'ın rahmeti hakkında akıllı bir İslami tefekkür yazın. Tövbe hakkındaki Kur'ani öğretiler, Allah'ın şefkati ve Hz. Muhammed'in (sallallahu aleyhi ve sellem) affedici örneğinden yararlanın. Tema değişsin: Allah'a dönüş, başkalarını affetme, ilişkileri iyileştirme veya hatalardan sonra Allah'ın rahmetine inanma. Bir Kur'an ayeti ve somut bir adım ekleyin.",
+
+  "promptLoveCompassion": "Günlük hayatta merhamet (Rahmah) ve şefkat üzerine kısa bir İslami tefekkür yazın. Hz. Muhammed'in örneği, İhsan (mükemmellik) konsepti ve aile, komşular ve zayıflara karşı İslami öğretilerden yararlanın. Bir Kur'an ayeti ve bugün uygulanacak şefkatin küçük bir eylemi ekleyin.",
+
+  "promptStrengthCourage": "İman tabanlı kuvvet ve cesaret üzerine İslami bir tefekkür yazın. Peygamberlerin örneklerinden, ilk müslüman cemaatinden ve sıkıntıda sabitlenen inananlardan yararlanın. Tema her seferinde değişsin: imandan gelen cesaret, namazda kuvvet, korku sırasında Allah'a güven veya zorlukta dayanıklılık. Bir Kur'an ayeti ve kısa bir dua veya zikir cümlesi ekleyin.",
+
+  "promptGratitude": "Allah'a karşı şükür (Shukr) üzerine İslami bir tefekkür yazın. Kur'ani öğretiye ve peygamberi tradisyona dayandırın. Açı değişsin: zorluktaki şükür, küçük nimetleri takdir etme, günü Allah'ın hamdıyla başlama veya günlük hayatta Allah'ın rehberliğini tanıma. Bir Kur'an ayeti ve bir şükür pratiği ekleyin.",
+
+  "promptPurposeCalling": "Allah'ı ibadetten ve haklı yaşamaktan hayat amacı üzerine İslami bir tefekkür yazın. Amaç hakkındaki Kur'ani öğretiler, başkalarına hizmet ve yetenekleri hayır için kullanma temalarından yararlanın. Tema her seferinde değişsin: aile ve cemaate hizmet, İstihare yoluyla rehberlik arama, niyet ile yaşama veya sıradan işte anlam bulma. Bir Kur'an ayeti ve iki yansıtıcı soru ekleyin.",
+
+  "promptFamilyRelationships": "Hz. Muhammed'in örneğine ve Kur'ani öğretiye dayalı aile ve ilişkiler hakkında bilge İslami rehberlik yazın. Tema her seferinde değişsin: aile hayatında iyilik, çatışmada sabır, ebeveyne hürmet, çocukları iman ile yetiştirme veya evliliği güçlendirme. Bir Kur'an ayeti ve deneyecek bir ilişki pratiği ekleyin.",
+
+  "promptPeaceAnxietyRelief": "Allah'ın zikriyle (Dhikr) ve Onun planına güvenle iç huzur bulma hakkında yatıştırıcı bir İslami tefekkür yazın. Kalbin huzuru, namaz ve Allah'ın iradesine teslim olma hakkındaki Kur'ani öğretilerden yararlanın. Her seferinde yaklaşımı değiştirin ve bir Kur'an ayeti ile İslami gelenekten basit bir temel pratik ekleyin.",
+
+  "promptWisdomOfJesus": "İslam'da öğretildiği üzere Peygamberlerin hikmetinden kısa bir parça yazın. Kur'an veya Hadis'ten yararlanın ve İslami alimler tarafından öğretinin nasıl anlaşıldığını kısaca açıklayın. Konu her seferinde değişsin: karakter, sabır, tevazu, iman veya günlük davranış. Kur'ani ayet veya Hadis referansı ve pratik bir uygulama ekleyin.",
+
+  "promptHumilityCharacter": "Tevazu (Tawadhu) ve iyi ahlak (Akhlaq) üzerine İslami bir tefekkür yazın. Kur'ani öğretiler, Hz. Muhammed'in örneği ve İslami karakter gelişimi geleneğinden yararlanın. Tema değişsin: liderlikte tevazu, hataları kabul etme, başkalarına saygı gösterme veya öz-tefekkür yoluyla ruhani gelişim. Bir Kur'an ayeti ve uygulanacak bir alışkanlık ekleyin.",
+
+  "promptOvercomingTemptation": "Şeytani vesvesevelere karşı koyma ve doğru yolda kalma hakkında İslami bir tefekkür yazın. Kur'ani rehberlik, Allah'ın zikriyle (Dhikr), namaz (Salah) ve mücadelelerini aşan inananların örneklerinden yararlanın. Açıyı her seferinde değiştirin. Bir Kur'an ayeti ve sonraki 24 saat için pratik bir strateji ekleyin.",
+
+  "promptEveningReflection": "Akşam zikriyle (Adhkar al-Masaa') geleneğine dayalı huzurlu bir İslami akşam tefekkürü yazın. Şükür, öz-muhasebesi (Muhasabah) ve istirahat öncesi Allah'a güveni teşvik edin. Gün hakkında 3–5 kısa tefekkür sorusu, kısa bir kapanış duası ve bir Kur'an ayeti ekleyin.",
+
+  "wordCount": "{count, plural, one {{count} kelime} other {{count} kelime}}",
+
+  "optionsCta": "Seçenekler",
+  "newCta": "Yeni",
+  "actionsTitle": "Ne yapmak istersiniz?",
+  "copy": "Kopyala",
+  "share": "Paylaş",
+  "close": "Kapat",
+  "copiedToast": "Panoya kopyalandı",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Kategori etiketi içeren e-posta/paylaşım konu satırı.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Günlük Rehberlik" }
+    }
+  },
+
+  "regenerateErrorTitle": "Yeni bir cevap oluşturulamadı",
+  "regenerateErrorBody": "{error}\n\nTekrar denemek ister misiniz?",
+  "@regenerateErrorBody": {
+    "description": "Yapay zeka cevabı oluşturma başarısız olduğunda gösterilir.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Ağ hatası" }
+    }
+  },
+
+  "cancelCta": "İptal et",
+  "retryCta": "Tekrar dene",
+
+  "authTitle": "Hesabınızı oluşturun",
+  "continueAsGuest": "Konuk olarak devam et",
+  "signInGoogle": "Google ile giriş yap",
+  "signInApple": "Apple ile giriş yap",
+  "signInEmail": "E-posta ile giriş yap",
+  "upgradeWithApple": "Apple ile devam et",
+  "mustAccept": "Hizmet Şartlarını kabul etmeli ve Gizlilik Politikasını onaylamalısınız.",
+  "termsLabel": "Hizmet Şartlarını kabul ediyorum",
+  "privacyLabel": "Gizlilik Politikasını okudum",
+  "marketingOptIn": "Haber ve teklifleri almayı kabul ediyorum",
+  "openTerms": "Hizmet Şartları",
+  "openPrivacy": "Gizlilik Politikası",
+
+  "accountSection": "Hesap",
+  "guestMode": "Konuk modu",
+  "signedIn": "Oturum açılı",
+  "upgradeHint": "Hesap oluşturarak tefekkürlerinizi cihazlar arasında kaydedin.",
+  "upgradeWithGoogle": "Google ile devam et",
+  "signOut": "Çıkış yap",
+
+  "snackUpgraded": "Hesap Google ile yükseltildi ✅",
+  "snackSignedIn": "Google ile oturum açıldı ✅",
+  "snackSignedOut": "Çıkış yapıldı",
+  "snackSignedInApple": "Apple ile oturum açıldı ✅",
+  "snackSignedInGoogle": "Google ile oturum açıldı ✅",
+  "snackUpgradedApple": "Hesap Apple ile yükseltildi ✅",
+  "snackUpgradedGoogle": "Hesap Google ile yükseltildi ✅",
+
+  "historyTitle": "Önceki tefekkürler",
+  "historyOpenCta": "Önceki tefekkürler",
+  "historyEmpty": "Henüz kaydedilen tefekkür yok.",
+  "historyDeleteTitle": "Tefekkür silinsin mi?",
+  "historyDeleteBody": "Bu işlem seçili öğeyi kalıcı olarak kaldıracaktır.",
+  "deleteCta": "Sil",
+
+  "historyButton": "Önceki Tefekkürler",
+  "historyEmptyTitle": "Tefekkür yok",
+  "historyEmptyBody": "Önce bir şey oluşturun — kaydedilen öğeleriniz burada görünecektir.",
+  "historyDelete": "Sil",
+
+  "footerTitle": "İman, sabır ve rahmetle.",
+  "footerSubtitle": "Her seferinde bir adım.",
+  "genericErrorSnack": "Bir şeyler ters gitti — lütfen biraz sonra tekrar deneyin.",
+
+  "upgradeAccountCta": "Tefekkürlerinizi cihazlar arasında kaydedin – hesap oluşturun",
+  "deleteAccount": "Hesabı sil",
+  "exportData": "Verilerimizi dışa aktar",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Dahili Firebase UID'sini göstermeden önce etiket.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Biraz dur 🐯\nYapay zekaya sonraki işlem öncesi biraz vakit lazım…",
+  "rateDailyLimit": "Şu an için tefekkürü bitti.\nDaha fazla tefekkür alın veya Barakah'a yükseltin.",
+  "rateCreditsExhausted": "Tüm tefekkürlerinizi kullandınız.\nTekrar başlamak için doldur veya Barakah'a yükseltin.",
+  "rateGraceReflectionsExhausted": "Şu an için tefekkürü bitti.\nDaha fazla tefekkür alın veya Barakah'a yükseltin.",
+  "rateReflectionsExhausted": "Tüm tefekkürlerinizi kullandınız.\nTekrar başlamak için doldur veya Barakah'a yükseltin.",
+
+  "blessedDescription": "Barakah premium özellikler, gelecek kategoriler ve özel bir rozet açar.",
+  "championDescription": "Barakah premium özellikler, gelecek kategoriler ve özel bir rozet açar.",
+
+  "ratePlanExhausted": "Tefekkürleriniz şu an boş. Plan: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Tefekkürler tükenmişken ancak neden genel olduğunda gösterilir.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standart veya Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Tefekkürleriniz kontrol edilemedi: {message}",
+  "@rateCheckFailed": {
+    "description": "Çağrılabilir işlev bir hata mesajı döndürdüğünde gösterilir.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Ağ hatası" }
+    }
+  },
+
+  "rateCheckGenericError": "Tefekkürleriniz kontrol edilirken bir şeyler ters gitti.",
+  "aiFallbackGeneric": "Bir şeyler ters gitti — lütfen biraz sonra tekrar deneyin.",
+
+  "limitSectionTitle": "Tefekkürler",
+  "limitTodayLabel": "Kullanım",
+  "limitCreditsLabel": "Kalan tefekkür: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Plan: {plan}",
+  "@limitPlanLabel": {
+    "description": "Mevcut abonelik planı adını gösterir.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standart veya Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Yükleniyor…",
+  "limitLoadingLabelDescription": "Kullanım istatistikleri alınırken tefekkürler kartında gösterilir.",
+
+  "aiLimitTitle": "Tefekkürler",
+  "aiLimitSubtitle": "Her yanıt 1 tefekkür kullanır. Standart başlangıç tefekkürleri içerir. Barakah premium kategorileri açar ve doldurma imkanı verir.",
+  "aiLimitProgressLabel": "{used} / {total} tefekkür kullanıldı",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Tefekkürler",
+  "reflectionsUsageLabel": "Kullanım",
+  "reflectionsRemainingLabel": "Kalan tefekkür: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Plan: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Plan adını gösterir.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standart veya Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Yükleniyor…",
+  "reflectionsLoadingLabelDescription": "Tefekkür istatistikleri alınırken gösterilir.",
+
+  "reflectionsTitle": "Tefekkürler",
+  "reflectionsSubtitle": "Her yanıt 1 tefekkür kullanır. Standart başlangıç tefekkürleri içerir. Barakah premium kategorileri açar ve doldurma imkanı verir.",
+  "reflectionsProgressLabel": "{used} / {total} tefekkür kullanıldı",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Hesabı sil",
+  "settingsDeleteDescription": "Hesabınızı ve ilişkili tüm verileri kalıcı olarak silin.",
+  "settingsDeleteButtonLabel": "Hesabımı sil",
+  "settingsDeleteDialogTitle": "Hesap silinsin mi?",
+  "settingsDeleteDialogBody": "Bu işlem kalıcıdır ve geri alınamaz.\n\nTüm sohbetleriniz, geçmişiniz ve hesap bilgileriniz silinecektir.",
+  "settingsDeleteDialogCancel": "İptal et",
+  "settingsDeleteDialogConfirm": "Sil",
+
+  "settingsFreeLimitUsedTitle": "Başlangıç tefekkürleri kullanıldı",
+  "settingsFreeLimitUsedDescription": "Bu cihazın başlangıç tefekkürleri kullanıldı. Barakah'a yükseltin veya devam etmek için daha fazla tefekkür satın alın.",
+
+  "settingsStarterReflectionsUsedTitle": "Başlangıç tefekkürleri kullanıldı",
+  "settingsStarterReflectionsUsedDescription": "Bu cihazın başlangıç tefekkürleri kullanıldı. Barakah'a yükseltin veya devam etmek için daha fazla tefekkür satın alın.",
+
+  "deviceBoundError": "Bu cihaz zaten başka bir hesaba bağlı. Lütfen orijinal hesapla giriş yapın.",
+
+  "premiumTitle": "Barakah modu",
+  "premiumSubtitleBasic": "Nuria'nın tam deneyimini açın.",
+  "premiumSubtitleChampion": "Siz Barakah'tasınız. Daha fazla tefekkür gerekirse?",
+
+  "premiumCurrentPlan": "Mevcut plan: {plan}",
+  "premiumCreditsStatus": "Tefekkürler: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Şu anda satın almalar yapılamıyor.",
+  "premiumSignInToPurchase": "Tefekkür satın almak veya Barakah'ı açmak için giriş yapın.",
+
+  "premiumRestorePurchases": "Satın alımları geri yükle",
+  "premiumProcessing": "İşleniyor…",
+  "premiumRestoreHintTitle": "Bu cihazda veya başka bir cihazda Barakah veya tefekkür satın aldınız mı?",
+  "premiumRestoreHintBody": "Satın alımlarınız görünmüyorsa geri yükleyin.",
+
+  "premiumBuyCredits200": "200 tefekkür al",
+  "premiumBuyCredits400": "400 tefekkür al",
+  "premiumBecomeChampionOneTime": "Barakah moduna yüksel",
+  "premiumChampionHint": "Barakah olarak ihtiyaç duyduğunuzda ekstra tefekkürlerle doldurabilirsiniz.",
+
+  "premiumUpgradeCta": "Yüksel",
+  "premiumRequiredForCategory": "Bu kategori sadece Barakah kullanıcıları için. Tüm premium içeriği açmak için Ayarlar'dan yükseltin.",
+  "premiumBenefitsBasic": "Barakah'ı açarak ekstra tefekkürler alın, premium kategorilere erişin ve ihtiyaç duyduğunuzda rehberlik almaya devam edin.",
+  "premiumBenefitsChampion": "Siz Barakah modunda bulunuyorsunuz. Azalıyorsa ekstra tefekkürler ekleyin ve kesintisiz devam edin.",
+  "premiumButtonBecomeChampion": "Barakah'ı Aç",
+  "premiumButtonTopup1000": "1000 tefekkür ekle",
+  "premiumChampionBadge": "Barakah aktif",
+  "premiumLoadingStore": "Mağaza yükleniyor…",
+
+  "blessedTitle": "Barakah modu",
+  "blessedSubtitleGrace": "Nuria'nın tam deneyimini açın.",
+  "blessedSubtitleBlessed": "Siz Barakah'tasınız. Daha fazla tefekkür gerekirse?",
+
+  "blessedCurrentPlan": "Mevcut plan: {plan}",
+  "blessedReflectionsStatus": "Tefekkürler: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Şu anda satın almalar yapılamıyor.",
+  "blessedProductNotAvailable": "Bu ürün henüz mağazada mevcut değil. Lütfen daha sonra tekrar deneyin.",
+  "blessedPurchaseError": "Satın alma sırasında bir şeyler ters gitti. Lütfen tekrar deneyin.",
+  "blessedSignInToPurchase": "Tefekkür satın almak veya Barakah'ı açmak için giriş yapın.",
+
+  "blessedRestorePurchases": "Satın alımları geri yükle",
+  "blessedProcessing": "İşleniyor…",
+  "blessedRestoreHintTitle": "Bu cihazda veya başka bir cihazda Barakah veya tefekkür satın aldınız mı?",
+  "blessedRestoreHintBody": "Satın alımlarınız görünmüyorsa geri yükleyin.",
+
+  "blessedBuyReflections100": "100 tefekkür ekle",
+  "blessedBuyReflections200": "200 tefekkür al",
+  "blessedBuyReflections400": "400 tefekkür al",
+  "blessedBecomeBlessedOneTime": "Barakah'a yüksel",
+  "blessedTopupHint": "Barakah olarak ihtiyaç duyduğunuzda ekstra tefekkürlerle doldurabilirsiniz.",
+
+  "blessedUpgradeCta": "Yüksel",
+  "blessedRequiredForCategory": "Bu kategori sadece Barakah kullanıcıları için. Tüm premium içeriği açmak için Ayarlar'dan yükseltin.",
+  "blessedFeatureLocked": "Bu özelliğe erişmek için Barakah'ı açın.",
+  "lockedCategoriesHint": "Bazı kategoriler Barakah üyeleri için ayrılmıştır. Yolculuğunuzda her tefekkürü keşfetmek için açın.",
+  "blessedBenefitsGrace": "Barakah'ı açarak ekstra tefekkürler alın, premium kategorilere erişin ve ihtiyaç duyduğunuzda rehberlik almaya devam edin.",
+  "blessedBenefitsBlessed": "Siz Barakah modunda bulunuyorsunuz. Azalıyorsa ekstra tefekkürler ekleyin ve kesintisiz devam edin.",
+  "blessedButtonBecomeBlessed": "Barakah'ı Aç",
+  "blessedButtonTopup1000": "1000 tefekkür ekle",
+  "blessedBadge": "Barakah aktif",
+  "blessedLoadingStore": "Mağaza yükleniyor…",
+
+  "freePlanBlockedTitle": "Başlangıç tefekkürleriniz tükendi",
+  "freePlanBlockedBody": "Siz Standart planda başlangıç tefekkürü ile varınız ve sınıra ulaştınız. Devam etmek için — ve premium kategorileri açmak için — Barakah'a yükseltin.",
+  "freePlanBlockedCtaGoPremium": "Aşağıda Barakah seçeneklerini görün",
+
+  "graceBlockedTitle": "Başlangıç tefekkürleriniz tükendi",
+  "graceBlockedBody": "Siz Standart planda başlangıç tefekkürü ile varınız ve sınıra ulaştınız. Devam etmek için — ve premium kategorileri açmak için — Barakah'a yükseltin.",
+  "graceBlockedCtaGoBlessed": "Aşağıda Barakah seçeneklerini görün",
+
+  "rateGuestMustSignIn": "Nuria'yı kullanmak ve tefekkürlerinize erişmek için giriş yapın.",
+
+  "guestNoCreditsTitle": "Konuk modu",
+  "guestNoCreditsBody": "Konuk olarak uygulamaya göz atabilirsiniz ancak tefekkür kullanamazsınız. Tefekkür kullanmak ve satın alımları açmak için daha sonra Ayarlar'dan giriş yapın.",
+
+  "guestNoReflectionsTitle": "Konuk modu",
+  "guestNoReflectionsBody": "Konuk olarak uygulamaya göz atabilirsiniz ancak tefekkür kullanamazsınız. Tefekkür kullanmak ve satın alımları açmak için daha sonra Ayarlar'dan giriş yapın.",
+
+  "guestDialogContinue": "Devam et",
+  "guestDialogLoginInstead": "Bunun yerine giriş yap",
+
+  "optionalLabel": "isteğe bağlı",
+
+  "accountDeleteSuccessTitle": "Hesap silindi",
+  "accountDeleteSuccessBody": "Hesabınız ve ilişkili verileriniz başarıyla silindi.",
+  "accountDeleteSuccessClose": "Kapat",
+  "accountDeleteErrorTitle": "Hesap silenemiyor",
+  "accountDeleteErrorClose": "Tamam",
+  "accountDeleteReauthCancelled": "Yeniden doğrulama iptal edildi. Lütfen tekrar giriş yapın ve silmeyi yeniden deneyin.",
+  "accountDeleteReauthRequired": "Hesap silme son zamanlarda yapılan bir girişi gerektirir. Lütfen çıkış yapın, tekrar giriş yapın ve silmeyi yeniden deneyin.",
+  "settingsDeletePermanentWarning": "Bu işlem kalıcıdır ve geri alınamaz. Hesabınızla ilişkili tüm veriler silinecektir.",
+
+  "dailyGraceTitle": "Günlük Rehberlik",
+  "dailyGraceScriptureLabel": "GÜNÜN AYETİ",
+  "dailyGraceSaintLabel": "HAFTANIN ALİMİ",
+  "dailyGraceReflectionLabel": "AKŞAM TEFEKKÜRü",
+  "dailyGraceCopiedToast": "Ayet panoya kopyalandı",
+
+  "dailyScripture0Text": "Doğru kişiler gerçekten bağların ve ırmakların içinde, şerefli bir yerde Güçlü Bir Hükümdar yanında olacaklar.",
+  "dailyScripture0Ref": "Kur'an 54:54-55",
+  "dailyScripture1Text": "Seni ancak dünya çapında bir rahmet olarak gönderdik.",
+  "dailyScripture1Ref": "Kur'an 21:107",
+  "dailyScripture2Text": "Allah kulu için yeterli değil mi? Yine de seni Onun yanında başkalarıyla korkutuyorlar.",
+  "dailyScripture2Ref": "Kur'an 39:36",
+  "dailyScripture3Text": "Belki de bir şeyi sevmediniz oysa o sizin için iyiydi; ve belki de bir şeyi sevdiniz oysa o sizin için kötüydü. Allah bilir, sizler bilmezsiniz.",
+  "dailyScripture3Ref": "Kur'an 2:216",
+  "dailyScripture4Text": "Doğrusu Allah sabirlerin yanındadır.",
+  "dailyScripture4Ref": "Kur'an 2:153",
+  "dailyScripture5Text": "Öyleyse Beni anı; ben de seni anayım. Bana şükret, bana nankörlük etme.",
+  "dailyScripture5Ref": "Kur'an 2:152",
+  "dailyScripture6Text": "Hiç şüphesiz sizin içinde Allah nezdinde en şerefli olan, sizin içinde en takva sahibi olan kişidir.",
+  "dailyScripture6Ref": "Kur'an 49:13",
+  "dailyScripture7Text": "Rabbinin emri şudur: Onundan başkasına kulluk etmeyeceksiniz ve ana-babaya iyilik yapacaksınız.",
+  "dailyScripture7Ref": "Kur'an 17:23",
+  "dailyScripture8Text": "Hiç şüphesiz zorlukla beraber rahatlık vardır.",
+  "dailyScripture8Ref": "Kur'an 94:6",
+  "dailyScripture9Text": "O, neredeolursan ol seninle beraberdir. Allah, yaptıklarınızdan haberdardır.",
+  "dailyScripture9Ref": "Kur'an 57:4",
+  "dailyScripture10Text": "Allah hiçbir canlıyı bir nefs, onun dayanabileceğinden daha ağır bir sorumluluğa tutmaz.",
+  "dailyScripture10Ref": "Kur'an 2:286",
+  "dailyScripture11Text": "Her kim Allah'a tevekkül ederse, O ona yeterlidir.",
+  "dailyScripture11Ref": "Kur'an 65:3",
+  "dailyScripture12Text": "Benim rahmetim her şeyi kapsar.",
+  "dailyScripture12Ref": "Kur'an 7:156",
+  "dailyScripture13Text": "Kullarım seni Benim hakkımda sorduğunda: İşte ben birlerdeyim. Her kim bana dua etse, ben onun duasına uyarım.",
+  "dailyScripture13Ref": "Kur'an 2:186",
+  "dailyScripture14Text": "Her kim iyi davranışta bulunsa, erkek olsun kadın olsun, ve mümin olsun — işte biz ona güzel bir hayat yaşatacağız.",
+  "dailyScripture14Ref": "Kur'an 16:97",
+  "dailyScripture15Text": "Doğrusu Allah, bir kavmin durumunu değiştirmez; ta ki onlar kendi nefislerini değiştir, koşulları değiştirinceye kadar.",
+  "dailyScripture15Ref": "Kur'an 13:11",
+  "dailyScripture16Text": "Zayıf düşme ve üzülme, eğer inanıyorsanız siz üstün geleceksiniz.",
+  "dailyScripture16Ref": "Kur'an 3:139",
+  "dailyScripture17Text": "Ey kendilerine zulmeden kullarım, Allah'ın rahmetinden ümit kesmeyiniz. Şüphesiz Allah bütün günahları bağışlar.",
+  "dailyScripture17Ref": "Kur'an 39:53",
+  "dailyScripture18Text": "Her kim Allah'tan korkarsa, O ona bir çıkış yolu yapar ve onun aklına gelmediği yerden rızık verir.",
+  "dailyScripture18Ref": "Kur'an 65:2-3",
+  "dailyScripture19Text": "Allah'ın rahmetinden ümit kesmeyin.",
+  "dailyScripture19Ref": "Kur'an 12:87",
+  "dailyScripture20Text": "Gerçekten Kur'an'ı hatırlamaya kolay kıldık. Öyleyse hatırlayan var mı?",
+  "dailyScripture20Ref": "Kur'an 54:17",
+  "dailyScripture21Text": "Seni müteşekkir olmayan buldu ve sana rehberlik verdi.",
+  "dailyScripture21Ref": "Kur'an 93:7",
+  "dailyScripture22Text": "Rabbiniz dedi ki: Bana dua edin, ben de sizin duanıza uyayım.",
+  "dailyScripture22Ref": "Kur'an 40:60",
+  "dailyScripture23Text": "Gerçekten biz Adem oğullarına şeref verdik.",
+  "dailyScripture23Ref": "Kur'an 17:70",
+  "dailyScripture24Text": "Sabırla ve dua ile yardım isteyin.",
+  "dailyScripture24Ref": "Kur'an 2:45",
+  "dailyScripture25Text": "Her kim bir atom ağırlığı kadar iyilik yapsa, onu görecektir.",
+  "dailyScripture25Ref": "Kur'an 99:7",
+  "dailyScripture26Text": "Kuşkusuz Allah'ın yardımı yakındır.",
+  "dailyScripture26Ref": "Kur'an 2:214",
+  "dailyScripture27Text": "Şükreden, kendi nefsi için şükredince faydalı olur.",
+  "dailyScripture27Ref": "Kur'an 31:12",
+
+  "dailyReflection0": "Bu gün kapanırken Allah'ın rahmetinin belli olduğu bir anı düşünün.",
+  "dailyReflection1": "Bugün kalbinizi ağırlayan her şeyi Allah'a sunun.",
+  "dailyReflection2": "Bu günden bir nimetin adını sayın ve Allah'a şükredim edin.",
+  "dailyReflection3": "Allah'ın sonsuz bakışında tutulduğunuz bilgisiyle huzur bulun.",
+  "dailyReflection4": "Bugün merhamet ve iyilik göstermeye çağrıldığınız yeri düşünün.",
+  "dailyReflection5": "Kontrol edemediğiniz şeylerden vazgeçin ve Allah'ın kusursuz planına güvenin.",
+  "dailyReflection6": "Gün kapanırken Allah'ın zikriyle huzur alın.",
+  "dailyReflection7": "Bugün namaz kıldığınız anları düşünün ve her birinden dolayı Allah'a şükredim edin.",
+  "dailyReflection8": "Bugün sabırın (Sabr) kararlarınızı yönelttiği bir anı düşünün.",
+  "dailyReflection9": "Bugünün eksikliklerinden dolayı bağışlama isteyin — Allah'ın rahması sınırsızdır.",
+  "dailyReflection10": "Bugün iyilikte bulunduğunuz bir kişinin adını söyleyin ve dua ediniz.",
+  "dailyReflection11": "Şükürle oturun: Bugün sizin istemeniz olmayan Allah ne sundu?",
+  "dailyReflection12": "Şu an nerede olduğunuz hakkında Kur'an'dan bir ayet düşünün.",
+  "dailyReflection13": "Bugün zamanınızı nasıl kullandığınızı düşünün — yarını Allah'a sunun.",
+  "dailyReflection14": "Bugün zorluk geldi bile, Allah sizi içinde oldu bilgisiyle istirahat edin.",
+  "dailyReflection15": "Bugün aileye veya cemaate Allah'ın hakkı için hizmet ettiğiniz bir yolu düşünün.",
+  "dailyReflection16": "Gece diken, tövbe edin — Allah dönen kullarını sever.",
+  "dailyReflection17": "Allah'ın günde yerleştirdiği güzelliği, her ne kadar ufak olsa da, düşünün.",
+  "dailyReflection18": "Bugün neler öğrendiğinizi ve size Allah'a yakınlaştırdığını düşünün.",
+  "dailyReflection19": "Günün kaygılarını Allah'a bırakın — O taşıyamadığınızı taşır.",
+  "dailyReflection20": "Bugün daha iyi seçebileceğiniz ve bu da yumuşakça öğrenebileceğiniz bir anı düşünün.",
+  "dailyReflection21": "Zorluk çekenler için dua edin — duanız onlara armağandır.",
+  "dailyReflection22": "Sık sık göz ardı ettiğiniz bir nimetini hatırlayın ve Allah'a şükredin.",
+  "dailyReflection23": "Bugün niyetlerini düşünün — Allah için mi? Yarın yeniden başlayın.",
+  "dailyReflection24": "Gece sessizken Allah'ın yakınlığını dinleyin.",
+  "dailyReflection25": "Bugün kuvvet bulduğunuz bir anı hatırlayın — bu kuvvet Allah'tandır.",
+  "dailyReflection26": "Bugün yapmadığınız fakat yarın Allah'ın hakkı için yapacağınız bir şeyin adını söyleyin.",
+  "dailyReflection27": "İstirahat için hazırlanırken, ruhunuzu Allah'a emanet edin — O en iyi muhafızdır.",
+
+  "dailyRoleModel0": "Hz. Muhammed (Sallallahu aleyhi ve sellem)",
+  "dailyRoleModel1": "Ebu Bekir Siddik (RA)",
+  "dailyRoleModel2": "Ömer ibn Hattab (RA)",
+  "dailyRoleModel3": "Osman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Ebi Talib (RA)",
+  "dailyRoleModel5": "Hatice bint Huveyled (RA)",
+  "dailyRoleModel6": "Aişe bint Ebi Bekir (RA)",
+  "dailyRoleModel7": "Fatıma ez-Zehra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Selmen el-Farisi (RA)",
+  "dailyRoleModel10": "Ebu Hureyre (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Mesud (RA)",
+  "dailyRoleModel13": "Muaz ibn Cebel (RA)",
+  "dailyRoleModel14": "Musab ibn Umeyr (RA)",
+  "dailyRoleModel15": "Sumeyye bint Habbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Ummu Seleme (RA)",
+  "dailyRoleModel18": "Halid ibn Velid (RA)",
+  "dailyRoleModel19": "Zeyd ibn Sabit (RA)",
+  "dailyRoleModel20": "Hafsa bint Ömer (RA)",
+  "dailyRoleModel21": "Ömer ibn Abdülaziz (RA)",
+  "dailyRoleModel22": "İmam Ebu Hanife (RA)",
+  "dailyRoleModel23": "İmam Malik ibn Anas (RA)",
+  "dailyRoleModel24": "İmam Şafii (RA)",
+  "dailyRoleModel25": "İmam Ahmad ibn Hanbel (RA)",
+  "dailyRoleModel26": "İmam Buhari (RA)",
+  "dailyRoleModel27": "İmam Muslim (RA)",
+  "dailyRoleModel28": "İmam Tirmizi (RA)",
+  "dailyRoleModel29": "Al-Ghazali (RA)",
+  "dailyRoleModel30": "İbn Kayyim el-Cevziyye (RA)",
+  "dailyRoleModel31": "İbn Teymiyye (RA)",
+  "dailyRoleModel32": "En-Navavi (RA)",
+  "dailyRoleModel33": "İbn Hacer el-Askalani (RA)",
+  "dailyRoleModel34": "İbn Kesir (RA)",
+  "dailyRoleModel35": "Et-Tabari (RA)",
+  "dailyRoleModel36": "Süfyan es-Sevri (RA)",
+  "dailyRoleModel37": "Fahreddin er-Razi (RA)",
+  "dailyRoleModel38": "İbn Sina (RA)",
+  "dailyRoleModel39": "El-Biruni (RA)",
+  "dailyRoleModel40": "İbn Rüşd (RA)",
+  "dailyRoleModel41": "İbn Haldun (RA)",
+  "dailyRoleModel42": "İbn Battuta (RA)",
+  "dailyRoleModel43": "Hz. İbrahim (AS)",
+  "dailyRoleModel44": "Hz. Musa (AS)",
+  "dailyRoleModel45": "Hz. İsa (AS)",
+  "dailyRoleModel46": "Hz. Yusuf (AS)",
+  "dailyRoleModel47": "Hz. Davud (AS)",
+  "dailyRoleModel48": "Hz. Süleyman (AS)",
+  "dailyRoleModel49": "Hz. Nuh (AS)",
+  "dailyRoleModel50": "Hz. Yunus (AS)",
+  "dailyRoleModel51": "Hz. Eyyub (AS)",
+  "dailyRoleModel52": "Rukayye bint Muhammed (RA)",
+  "dailyRoleModel53": "Zeynep bint Muhammed (RA)",
+  "dailyRoleModel54": "Hasan ibn Ali (RA)",
+  "dailyRoleModel55": "Hüseyin ibn Ali (RA)",
+  "dailyRoleModel56": "Cafer ibn Ebi Talib (RA)",
+  "dailyRoleModel57": "Ebu Zer el-Gifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubeydullah (RA)",
+  "dailyRoleModel59": "Ez-Zubeyr ibn el-Evvam (RA)",
+
+  "locationConsentLabel": "Nuria'nın kıble yönü ve namaz vakitleri için konumumu kullanmasını izin ver",
+  "locationConsentHint": "Yalnızca bu özellikler için kullanılır. Konumunuz hiçbir zaman paylaşılmaz veya depolanmaz.",
+
+  "askPageTitle": "Nuria'ya Sor",
+  "askPageDescription": "İman, namaz, hayat veya İslami pratik hakkında herhangi bir soruyu sorun ve Kur'an ve Sünnet'e dayalı rehberlik alın.",
+  "askPageInputHint": "Sorunuzu buraya yazın…",
+  "askPageSubmitCta": "Sor",
+  "askPageInputEmptyError": "Lütfen önce bir soru yazın.",
+  "askResultYourQuestion": "Sizin sorunuz",
+
+  "guidancePageTitle": "Namaz ve Rehberlik",
+  "qiblaFacingMecca": "Mekke'ye Bakıyor",
+  "qiblaCompassInstruction": "Altın iğne yukarı göstere kadar telefonu çevirin.\nO yön Kible'yi (Mekke) gösterir.",
+  "qiblaGpsUnavailableBody": "GPS sinyali zayıf. Dışarıya çıkın ve Tekrar Dene'ye dokunun.",
+  "qiblaRetry": "Tekrar dene",
+  "qiblaTitle": "Kible Yönü",
+  "qiblaDistanceLabel": "Mekke'ye {km} km",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Konum gerekli",
+  "qiblaLocationNeededBody": "Nuria'nın neredeolursanız olun Kaabe'nin yönünü Mekke'den hesaplayabilmesi için konum erişimine izin verin.",
+  "qiblaOpenSettings": "Ayarları Aç",
+  "qiblaCompassLoading": "Konumunuz bulunuyor…",
+  "qiblaTowardMecca": "Mekke'ye Doğru",
+
+  "prayerTimesTitle": "Namaz Vakitleri",
+  "prayerTimesFajr": "Fecr",
+  "prayerTimesDhuhr": "Öğle",
+  "prayerTimesAsr": "İkindi",
+  "prayerTimesMaghrib": "Akşam",
+  "prayerTimesIsha": "Yatsı",
+  "prayerTimesLocationNeededTitle": "Konum gerekli",
+  "prayerTimesLocationNeededBody": "Nuria'nın şehriniz için doğru namaz vakitlerini hesaplayabilmesi için konum erişimine izin verin.",
+  "prayerTimesNextLabel": "Sonraki",
+  "prayerTimesDoneLabel": "Bitti",
+
+  "monthlyPrayerTimesTitle": "Aylık Namaz Vakitleri",
+  "monthlyPrayerTimesViewButton": "Tüm Ayı Görüntüle",
+  "monthlyPrayerTimesNextMonth": "Gelecek ay",
+  "monthlyPrayerTimesDayHeader": "Gün",
+
+  "sharePrayerTimes": "Namaz vakitlerini paylaş",
+
+  "prayerNotificationsTitle": "Namaz Hatırlatmaları",
+  "prayerNotificationsDescription": "Her namaz vaktinden önce gün boyunca bağlantıda kalmak için size nazik bir hatırlatma alın.",
+  "prayerNotificationsEnable": "Namaz hatırlatmalarını etkinleştir",
+  "prayerNotificationsOpenSettings": "Bildirim ayarlarını aç",
+  "prayerNotificationsDenied": "Bildirimler devre dışı",
+  "prayerNotificationsDeniedHint": "Ayarlar'a gidin ve Nuria için bildirimleri izin verin namaz vakitleri hatırlatmalarını almak için.",
+
+  "notificationsConsentLabel": "Namaz vakitleri için bildirimlere izin ver",
+
+  "prayerNotifTitleFajr": "🌅 Fecr — Şafak Namazı",
+  "prayerNotifBodyFajr": "Namazların en güzeli şafak namazıdır. Kalk, temizlen ve Allah'ın huzurunda dur.",
+
+  "prayerNotifTitleDhuhr": "☀️ Öğle — Öğle Namazı",
+  "prayerNotifBodyDhuhr": "Günü duraklat ve Allah'a dön. Öğle namaz vakti geldi.",
+
+  "prayerNotifTitleAsr": "🌤️ İkindi — İkindi Namazı",
+  "prayerNotifBodyAsr": "Orta namazı koru. İkindi vakti geldi — bunu kaçırma.",
+
+  "prayerNotifTitleMaghrib": "🌇 Akşam — Akşam Namazı",
+  "prayerNotifBodyMaghrib": "Güneş battı. Akşam namazı kıl ve bu gün için Allah'a şükret.",
+
+  "prayerNotifTitleIsha": "🌙 Yatsı — Gece Namazı",
+  "prayerNotifBodyIsha": "Günü Allah'ı anarak bitir. Hayya 'alal falah — başarıya gel.",
+
+  "outOfReflectionsBannerText": "Tüm tefekkürlerinizi kullandınız",
+  "outOfReflectionsBannerCta": "Daha fazla al",
+
+  "dhikrPageTitle": "Zikir",
+  "dhikrTapToCount": "Saymak için daireye dokunun",
+  "dhikrResetButton": "Sıfırla",
+  "dhikrComplete": "Maşallah",
+  "dhikrCompleteMessage": "Allah'ı 99 kez anışı tamamladınız. Bunlar kalbiniz için bir ışık olsun.",
+
+  "disclaimerTitle": "Bu uygulamanın rehberliği hakkında",
+  "disclaimerBody": "Nuria, İslami tefekkürler, hatırlatmalar ve ruhani içerik sunarak imanınızın kişisel yolculuğunuzu desteklemektedir. Bu içerik sadece genel bilgiler ve ilham amaçlı sunulmuştur.\n\nNuria nitelikli alimliğin yerine geçmez.\nBu uygulamadaki rehberlik, öğrenmiş bir İslami alim, imam, müfti veya ilahi eğitimli bir öğretmenin yerine geçmez. Din hukuku, helal ve haram soruları veya kişisel dini yükümlülükler hakkında sorularınız varsa, lütfen cemaatinizde nitelikli bir dini otorite'den tavsiye isteyin.\n\nBu uygulama dini hüküm vermez.\nNuria, İslami fıkıh (İslami hukuk) veya kişisel dini yükümlülükleri üzerine yetkili tayin yapmaz. Buradaki hiçbir şey fetva veya bağlayıcı dini talimat olarak kabul edilmemelidir.\n\nAlim görüşleri değişir.\nİslam, bol mezhep gelenekleri, düşünce okul (mezheb) ve alim fikirlerini içerir. Bu uygulamadaki içerik genel perspektifi yansıtır ve her geleneği veya mezhebi eşit temsil etmeyebilir.\n\nCemaatin Önemi.\nBu uygulama imanı gelenekleri teşvik etmekte iken yerel camii, imam ve dini cemaatin hayati rolüne derin saygı gösterir. Yakın çevrenizdeki nitelikli öğretmenlerle bağlı kalmaya ve onlardan öğrenmeye sizi teşvik ederiz.",
+  "disclaimerClose": "Anladım",
+  "disclaimerInfoTooltip": "Bu uygulamanın rehberliği hakkında",
+  "disclaimerSettingsSubtitle": "Sadece genel bilgiler için. Tüm sorumluluk hakkını oku için dokunun.",
+  "disclaimerSectionHeader": "Rehberlik sorumluluk hakkı"
+}

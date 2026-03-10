@@ -1,0 +1,585 @@
+{
+  "@@locale": "st",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Khetha puo ea hau",
+  "languageSelectSub": "O ka o fetola sena hamorao ho Settings",
+  "actionContinue": "Tsoela Pele",
+  "languageSuggestedHeader": "E Sisintsweng",
+  "languageAllHeader": "Lipuo Tse Ding",
+  "languageSuggestedBadge": "E Sisintsweng",
+  "languageSearchHint": "Batla…",
+
+  "planGrace": "Standard",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Tataiso ea Letsatsi",
+  "categoryFaithTrust": "Iman & Tshepiso",
+  "categoryPrayerReflection": "Ponahalo ea Prayari",
+  "categoryHopeDifficultTimes": "Khotso Tsotella",
+  "categoryForgiveness": "Kopa Tokolo",
+  "categoryLoveCompassion": "Lerato Ramela",
+  "categoryStrengthCourage": "Matla a Iman",
+  "categoryGratitude": "Leboha ka Pelo",
+  "categoryPurposeCalling": "Morero oa Bophelo",
+  "categoryFamilyRelationships": "Kopano ea Lelapa",
+  "categoryPeaceAnxietyRelief": "Kgontsantle ea Interu",
+  "categoryWisdomOfJesus": "Bokgoni ba Profeta",
+  "categoryHumilityCharacter": "Bohale ba Mmelele",
+  "categoryOvercomingTemptation": "Phana Temptation",
+  "categoryEveningReflection": "Dhikr ea Mantsi",
+  "categoryCustom": "Peleleho ea Botho",
+  "dhikrMeaningSubhanallah": "Khanya ho Allah",
+  "dhikrMeaningAlhamdulillah": "Tšoaro eohle e lokela ho Allah",
+  "dhikrMeaningAllahuAkbar": "Allah ke Moholo",
+  "quranVerseHeartAtRest": "Nnete, ho hopola Allah ho fumanang dipelo phomolo.",
+
+  "promptHint": "Phokoletsa sehlotshwa bakeng sa tataiso ea Islamic le ponahalo",
+
+  "currentLanguage": "Puo ea kakaretso",
+  "settingsLanguage": "Kamano ea puo",
+  "settingsTitle": "Settings",
+  "chooseLanguage": "Khetha puo ea hau",
+  "continueCta": "Tsoela Pele",
+
+  "promptDailyGuidance": "Ngola taelo e khutšoane, e tikoloha e e amogetšwe go Iman ya Sunni - go le go Quranic, Hadith, le thuto ya Profeta Muhammad. Khetha leihlo le ncha ka linako: kebapali ya lekala la Islamic, tshimologo go Sunnah, bokgonwa go Sahaba ga Profeta, kgotsa boithaopo bo kutswasale go tsa Islamic. Lokela go na le Quranic verse (Surah:Ayah) le phapoši ya 1–2 dipelo gore le e thabele ka letsatsi. Go ipaletšwa go e lokela go se a Islamic calendar kgotsa letsatsi la bohlokwa le le amanang.",
+
+  "promptFaithTrust": "Ngola ponahalo e khutšoane ya Islamic ka Iman (iman) le tshepiso mo go diphekelo tsa Allah (Tawakkul). Lokela go na le Quranic, leihlo la Profeta Muhammad, le iman ya Sahaba. Fetola morero ka linako: go tshepela Allah mo go tshwenelapele, go leshwane go dikgonwa tsa divine, phapano ka linako tse ntshi, kgotsa phapano e kutswasale mo bophelong. Lokela go na le Quranic verse le thoteng e nngwe ya go e etša kajeno e e amogetšweng mo bokgoneng ba Islamic.",
+
+  "promptPrayerReflection": "Ngola ponahalo e khutšoane ya Islamic ka tšepo go Salah, Dua, kgotsa Dhikr. Fetola mefuta ka linako: mamela ga go go thapela kgotsa go go ithuta (Adhkar), ponahalo go diapelo tše dikgonwa tsa letsatsi, ponahalo ya verse ya Quranic, kgotsa thapela e e molemo. Lokela go na le Quranic verse le leina le le khutšoane la foromo ya prayari e e berekwang.",
+
+  "promptHopeDifficultTimes": "Ngola ponahalo ya Islamic ka phapano (Sabr) le tsotella mo linakong tsa go fapana. Tloga mo thutong ya Quranic ka boimalato, phapano ya Propheta, le lerato la Allah mo linakong tse botlhokwa. Fetola leihlo ka linako. Lokela go na le Quranic verse le phapoši e e hlophisitšweng go bokgoni ba Islamic.",
+
+  "promptForgiveness": "Ngola ponahalo ya Islamic e e bokgone ka kopa tokolo (Tawbah) le lerato la Allah. Tloga mo thutong ya Quranic ka phokotšo, lerato la Allah, le mohlala o o molemo wa Profeta Muhammad. Fetola morero: go busetšwa mo go Allah, go lokola ba bangwe, go sana lelapa, kgotsa go gopola lerato la Allah ka morago ga makoya. Lokela go na le Quranic verse le thoteng e nngwe e e tikoloha.",
+
+  "promptLoveCompassion": "Ngola ponahalo e khutšoane ya Islamic ka lerato (Rahmah) le ramela mo bophelong ba letsatsi. Tloga mo mohlaleng wa Profeta Muhammad, dikgonwa tsa Ihsan (botlalo), le thuto ya Islamic ka botlotlo go lelapa, ba borwa, le ba ba swa go sepela. Lokela go na le Quranic verse le thoteng e nngwe ya botlotlo gore e e etšwe letsatsi.",
+
+  "promptStrengthCourage": "Ngola ponahalo ya Islamic ka matla a iman le matshwao. Tloga mo mehlala ya Propheta, communiti ya Islamic ya go thoma, le ba ba neng ba dumela ka go fetošegela. Fetola morero ka linako: go go matshwao ka iman, matla mo prayaring, tshepiso mo go Allah mo godimo ga tshogonyo, kgotsa phapano mo bodiphapo. Lokela go na le Quranic verse le thapela e khutšoane kgotsa lehlaka la phapoši.",
+
+  "promptGratitude": "Ngola ponahalo ya Islamic ka leboha (Shukr) mo go Allah. Go le go thuto ya Quranic le go sekgele sa profeta. Fetola leihlo: leboha mo bodiphapo, go gopola difitšo tse dinnyane, go thoma letsatsi ka phagamo la Allah, kgotsa go gopola khuetšo ya Allah mo bophelong ba letsatsi. Lokela go na le Quranic verse le thoteng e e go leboga.",
+
+  "promptPurposeCalling": "Ngola ponahalo ya Islamic ka morero wa bophelo mo go go go go godišo Allah le go phela ka tlhoabelo. Tloga mo thutong ya Quranic ka morero, go go tlhokomele ba bangwe, le go go bega didiela go go molemo. Fetola morero ka linako: go go tlhokomele lelapa le communiti, go batla khuetšo go Istikhara, go phela ka morero, kgotsa go gopola ntlha mo ditirong tse diakapela. Lokela go na le Quranic verse le dipotšišo tšena tšena.",
+
+  "promptFamilyRelationships": "Ngola taelo e bokgone ya Islamic ka lelapa le dipehelo tse di theolong go Quranic le mohlala wa Profeta Muhammad. Fetola morero ka linako: botlotlo mo mo lelapeng, phapano mo kopanong, go gakanya batswadi, go kaele bana mo imaneng, kgotsa go go matata manaelo. Lokela go na le Quranic verse le thoteng e e lokelago.",
+
+  "promptPeaceAnxietyRelief": "Ngola ponahalo e e tikolodile ya Islamic ka go go gopola go ka tšepo go Quranic le dikgonwa ka tšepo mo diphekelong tsa Allah. Tloga mo thutong ya Quranic ka kgontsantle ya pelo, prayari, le go go go go Allah. Fetola mokhoa ka linako le lokela go na le Quranic verse le thoteng e khutšoane go tswalana go Islamic.",
+
+  "promptWisdomOfJesus": "Ngola kakaretšo e khutšoane ya bokgoni go Propheta bjalo ka go go Islamic. Tloga go Quranic kgotsa Hadith le go hlaloša kabaka le go go Islamic scholars. Fetola lenaneo ka linako: mmelele, phapano, bohale, iman, kgotsa boithaopo ba letsatsi. Lokela go na le Quranic verse kgotsa Hadith reference le khuetšo e nngwe.",
+
+  "promptHumilityCharacter": "Ngola ponahalo ya Islamic ka bohale (Tawadhu) le mmelele e molemo (Akhlaq). Tloga mo thutong ya Quranic, mohlala wa Profeta Muhammad, le go tsa Islamic mmelele. Fetola morero: bohale mo go go noga, go gopola makoya, go go ba bangwe ka tlhompho, kgotsa go go koto go go popela. Lokela go na le Quranic verse le mobo o o go etšang.",
+
+  "promptOvercomingTemptation": "Ngola ponahalo ya Islamic ka go phana temptation le go go kgodiseng go dulo. Tloga mo khuetšong ya Quranic, phapoši la Allah (Dhikr), prayari (Salah), le mehlala ya ba ba neng ba go phana. Fetola leihlo ka linako. Lokela go na le Quranic verse le khuetšo e tikoloha bakeng sa setsosantšu sa 24 hours.",
+
+  "promptEveningReflection": "Ngola ponahalo ya Islamic e e kutswasale ya mantsi e le go tsa Islamic ya phapoši ya mantsi (Adhkar al-Masaa'). Go hlaloša leboha, go popela gao (Muhasabah), le tshepiso mo go Allah le go phola. Lokela go na le dipotšišo tšena tšena 3–5 ka morero wa letsatsi, thapela e khutšoane, le Quranic verse e nngwe.",
+
+  "wordCount": "{count, plural, one {{count} lefoko} other {{count} lefoko}}",
+
+  "optionsCta": "Dikgetsi",
+  "newCta": "Ncha",
+  "actionsTitle": "O rata go etša eng?",
+  "copy": "Kopela",
+  "share": "Abela",
+  "close": "Tswalwa",
+  "copiedToast": "E kopilwe go clipboard",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Tataiso ea Letsatsi" }
+    }
+  },
+
+  "regenerateErrorTitle": "Ga go kgonwa go bua mpotšišo ncha",
+  "regenerateErrorBody": "{error}\n\nO rata go leka gape?",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Phoso ya netweke" }
+    }
+  },
+
+  "cancelCta": "Sitša",
+  "retryCta": "Leka gape",
+
+  "authTitle": "Buša akhaonto ya gago",
+  "continueAsGuest": "Tsoela Pele o mo butswanataneng",
+  "signInGoogle": "Tsena ka Google",
+  "signInApple": "Tsena ka Apple",
+  "signInEmail": "Tsena ka Imele",
+  "upgradeWithApple": "Tsoela Pele ka Apple",
+  "mustAccept": "O lokela go amogelela Maetšo le go gopola Privacy Policy.",
+  "termsLabel": "Ke amogelele Maetšo a Tirelo",
+  "privacyLabel": "Ke balile Privacy Policy",
+  "marketingOptIn": "Ke dumalana go amogela maraka le dikhukunyetšo",
+  "openTerms": "Maetšo a Tirelo",
+  "openPrivacy": "Privacy Policy",
+
+  "accountSection": "Akhaonto",
+  "guestMode": "Nako ya butswanatane",
+  "signedIn": "O tsentswe",
+  "upgradeHint": "Boloka ponahalo ea gago ka dimpasekere ka go etšwa akhaonto.",
+  "upgradeWithGoogle": "Tsoela Pele ka Google",
+  "signOut": "Tšea",
+
+  "snackUpgraded": "Akhaonto e kgerogile ka Google ✅",
+  "snackSignedIn": "O tsentswe ka Google ✅",
+  "snackSignedOut": "O tšeile",
+  "snackSignedInApple": "O tsentswe ka Apple ✅",
+  "snackSignedInGoogle": "O tsentswe ka Google ✅",
+  "snackUpgradedApple": "Akhaonto e kgerogile ka Apple ✅",
+  "snackUpgradedGoogle": "Akhaonto e kgerogile ka Google ✅",
+
+  "historyTitle": "Ponahalo ya go le go",
+  "historyOpenCta": "Ponahalo ya go le go",
+  "historyEmpty": "Ga go na ponahalo e e bolokitšweng go fase.",
+  "historyDeleteTitle": "Tša ponahalo?",
+  "historyDeleteBody": "Se se tla tšea ponahalo e e kgethilweng ka mo.",
+  "deleteCta": "Tša",
+
+  "historyButton": "Ponahalo ya Go le Go",
+  "historyEmptyTitle": "Ga go na ponahalo",
+  "historyEmptyBody": "Buša seisene sa pele — diponahalo tšeo di bolokitšweng di tla hlala fano.",
+  "historyDelete": "Tša",
+
+  "footerTitle": "Ka Iman, sabr le rahma.",
+  "footerSubtitle": "Kotara e nngwe ka nako.",
+  "genericErrorSnack": "Go ne ga ba le phoso — e leka gape ka nako e e phapiši.",
+
+  "upgradeAccountCta": "Boloka ponahalo ea gago ka dimpasekere – buša akhaonto",
+  "deleteAccount": "Tša akhaonto",
+  "exportData": "Romela datha ea ka",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Go kgonwa o mo lefeela 🐯\nAI e nka nako le go buša…",
+  "rateDailyLimit": "O fapantswe ka ponahalo bakeng ga jaanong.\nAmogela ponahalo e ntši kgotsa kgerogile go Barakah.",
+  "rateCreditsExhausted": "O go beguwa ponahalo sa gago.\nLefo kgotsa kgerogile go Barakah go tsoela pele.",
+  "rateGraceReflectionsExhausted": "O fapantswe ka ponahalo bakeng ga jaanong.\nAmogela ponahalo e ntši kgotsa kgerogile go Barakah.",
+  "rateReflectionsExhausted": "O go beguwa ponahalo sa gago.\nLefo kgotsa kgerogile go Barakah go tsoela pele.",
+
+  "blessedDescription": "Barakah e bulele dikarolo tšea go ntlele, dihlotshwa tšea, le setšopha seo se ikhethileng.",
+  "championDescription": "Barakah e bulele dikarolo tšea go ntlele, dihlotshwa tšea, le setšopha seo se ikhethileng.",
+
+  "ratePlanExhausted": "Ponahalo ea gago e se naa. Pano: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard kgotsa Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Ga go kgonwa go lekanya ponahalo: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Phoso ya netweke" }
+    }
+  },
+
+  "rateCheckGenericError": "Go ne ga ba le phoso mo pele ga phetšo ya ponahalo.",
+  "aiFallbackGeneric": "Go ne ga ba le phoso — e leka gape ka nako e e phapiši.",
+
+  "limitSectionTitle": "Ponahalo",
+  "limitTodayLabel": "Diphuso",
+  "limitCreditsLabel": "Ponahalo e e setsogeng: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Pano: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard kgotsa Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Go mo…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
+
+  "aiLimitTitle": "Ponahalo",
+  "aiLimitSubtitle": "Karabo e nngwe e go sebelesa ponahalo e nngwe. Standard e akaretša ponahalo ya go thoma. Barakah e bulele dihlotshwa tšea le go dumelela lefoto.",
+  "aiLimitProgressLabel": "{used} / {total} ponahalo e e berekwang",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Ponahalo",
+  "reflectionsUsageLabel": "Diphuso",
+  "reflectionsRemainingLabel": "Ponahalo e e setsogeng: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Pano: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard kgotsa Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Go mo…",
+  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+
+  "reflectionsTitle": "Ponahalo",
+  "reflectionsSubtitle": "Karabo e nngwe e go sebelesa ponahalo e nngwe. Standard e akaretša ponahalo ya go thoma. Barakah e bulele dihlotshwa tšea le go dumelela lefoto.",
+  "reflectionsProgressLabel": "{used} / {total} ponahalo e e berekwang",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Tša akhaonto",
+  "settingsDeleteDescription": "Tša akhaonto ya gago le datha seo ka mo go sa dumelane.",
+  "settingsDeleteButtonLabel": "Tša akhaonto ea ka",
+  "settingsDeleteDialogTitle": "Tša akhaonto?",
+  "settingsDeleteDialogBody": "Ketšo ye e ka sa bolokilwang.\n\nDiponahalo, history le boitsebiso ba akhaonto ba tla tšewa.",
+  "settingsDeleteDialogCancel": "Sitša",
+  "settingsDeleteDialogConfirm": "Tša",
+
+  "settingsFreeLimitUsedTitle": "Ponahalo ya go thoma e berekwang",
+  "settingsFreeLimitUsedDescription": "Ponahalo ya go thoma bakeng sa seseela sena e berekwang. Kgerogile go Barakah kgotsa reka ponahalo e ntši go tsoela pele.",
+
+  "settingsStarterReflectionsUsedTitle": "Ponahalo ya go thoma e berekwang",
+  "settingsStarterReflectionsUsedDescription": "Ponahalo ya go thoma bakeng sa seseela sena e berekwang. Kgerogile go Barakah kgotsa reka ponahalo e ntši go tsoela pele.",
+
+  "deviceBoundError": "Seseela sena se tatamantswe mo akhaontong e e nngwe. Gopela go tsena ka akhaonto ya go thoma.",
+
+  "premiumTitle": "Nako ya Barakah",
+  "premiumSubtitleBasic": "Bulela kakaretšo ya Nuria.",
+  "premiumSubtitleChampion": "O mo Barakah. O mo le go swana ponahalo?",
+
+  "premiumCurrentPlan": "Pano ya jaanong: {plan}",
+  "premiumCreditsStatus": "Ponahalo: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Dikhukunyetšo ga di ka go kgonwa jaanong.",
+  "premiumSignInToPurchase": "Tsena go reka ponahalo kgotsa go bulela Barakah.",
+
+  "premiumRestorePurchases": "Dikatangoa go dikhukuñetšo",
+  "premiumProcessing": "Go mo…",
+  "premiumRestoreHintTitle": "O ne o reka Barakah kgotsa ponahalo mo seseleng seno kgotsa e e nngwe?",
+  "premiumRestoreHintBody": "Katangoa dikhukuñetšo ge ditsena di le go se bone.",
+
+  "premiumBuyCredits200": "Reka ponahalo 200",
+  "premiumBuyCredits400": "Reka ponahalo 400",
+  "premiumBecomeChampionOneTime": "Kgerogile go Barakah",
+  "premiumChampionHint": "O mo Barakah, o ka go lefo ponahalo e e ntši nako e nngwe nako o e rata.",
+
+  "premiumUpgradeCta": "Kgerogile",
+  "premiumRequiredForCategory": "Sehlotshwa seno se go Barakah users feela. Kgerogile mo Settings go bulela mabaka a go ntlele.",
+  "premiumBenefitsBasic": "Bulela Barakah go amogela ponahalo e e ntši, go bisa dihlotshwa tšea, le go tsoela pele nako e nngwe nako.",
+  "premiumBenefitsChampion": "O mo Barakah. Go fapela mo mmele, lefo ponahalo e e ntši le go tsoela pele.",
+  "premiumButtonBecomeChampion": "Bulela Barakah",
+  "premiumButtonTopup1000": "Lefo ponahalo 1000",
+  "premiumChampionBadge": "Barakah e berekwang",
+  "premiumLoadingStore": "Go mo go boleka…",
+
+  "blessedTitle": "Nako ya Barakah",
+  "blessedSubtitleGrace": "Bulela kakaretšo ya Nuria.",
+  "blessedSubtitleBlessed": "O mo Barakah. O mo le go swana ponahalo?",
+
+  "blessedCurrentPlan": "Pano ya jaanong: {plan}",
+  "blessedReflectionsStatus": "Ponahalo: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Dikhukunyetšo ga di ka go kgonwa jaanong.",
+  "blessedProductNotAvailable": "Porodakti ye e le go ka boleka jaanong. E leka gape ka morago.",
+  "blessedPurchaseError": "Go ne ga ba le phoso go khukunyetšo. E leka gape.",
+  "blessedSignInToPurchase": "Tsena go reka ponahalo kgotsa go bulela Barakah.",
+
+  "blessedRestorePurchases": "Dikatangoa go dikhukuñetšo",
+  "blessedProcessing": "Go mo…",
+  "blessedRestoreHintTitle": "O ne o reka Barakah kgotsa ponahalo mo seseleng seno kgotsa e e nngwe?",
+  "blessedRestoreHintBody": "Katangoa dikhukuñetšo ge ditsena di le go se bone.",
+
+  "blessedBuyReflections100": "Lefo ponahalo 100",
+  "blessedBuyReflections200": "Reka ponahalo 200",
+  "blessedBuyReflections400": "Reka ponahalo 400",
+  "blessedBecomeBlessedOneTime": "Kgerogile go Barakah",
+  "blessedTopupHint": "O mo Barakah, o ka go lefo ponahalo e e ntši nako e nngwe nako o e rata.",
+
+  "blessedUpgradeCta": "Kgerogile",
+  "blessedRequiredForCategory": "Sehlotshwa seno se go Barakah users feela. Kgerogile mo Settings go bulela mabaka a go ntlele.",
+  "blessedFeatureLocked": "Bulela Barakah go amogela karolo ye.",
+  "lockedCategoriesHint": "Dihlotshwa tšedi go lokela go Barakah memberanaga. Bulela tšona go hlahloba ponahalo e nngwe e nngwe mo bojong ba gago.",
+  "blessedBenefitsGrace": "Bulela Barakah go amogela ponahalo e e ntši, go bisa dihlotshwa tšea, le go tsoela pele nako e nngwe nako.",
+  "blessedBenefitsBlessed": "O mo Barakah. Go fapela mo mmele, lefo ponahalo e e ntši le go tsoela pele.",
+  "blessedButtonBecomeBlessed": "Bulela Barakah",
+  "blessedButtonTopup1000": "Lefo ponahalo 1000",
+  "blessedBadge": "Barakah e berekwang",
+  "blessedLoadingStore": "Go mo go boleka…",
+
+  "freePlanBlockedTitle": "O go beguwa ponahalo ya go thoma",
+  "freePlanBlockedBody": "O mo Standard plan ka ponahalo ya go thoma, le o go lekanya limitisize. Go tsoela pele — le go bulela dihlotshwa tšea — kgerogile go Barakah.",
+  "freePlanBlockedCtaGoPremium": "Lebelela dikgetsi tšea mo tlase",
+
+  "graceBlockedTitle": "O go beguwa ponahalo ya go thoma",
+  "graceBlockedBody": "O mo Standard plan ka ponahalo ya go thoma, le o go lekanya limitisize. Go tsoela pele — le go bulela dihlotshwa tšea — kgerogile go Barakah.",
+  "graceBlockedCtaGoBlessed": "Lebelela dikgetsi tšea mo tlase",
+
+  "rateGuestMustSignIn": "Tsena go go sebelesa Nuria le ponahalo ea gago.",
+
+  "guestNoCreditsTitle": "Nako ya butswanatane",
+  "guestNoCreditsBody": "O mo butswanataneng o ka tšea apiki, empa o ke ke ya go sebelesa ponahalo. Tsena mo morago mo Settings go sebelesa ponahalo le go bulela dikhukunyetšo.",
+
+  "guestNoReflectionsTitle": "Nako ya butswanatane",
+  "guestNoReflectionsBody": "O mo butswanataneng o ka tšea apiki, empa o ke ke ya go sebelesa ponahalo. Tsena mo morago mo Settings go sebelesa ponahalo le go bulela dikhukunyetšo.",
+
+  "guestDialogContinue": "Tsoela Pele",
+  "guestDialogLoginInstead": "Tsena mo go tume",
+
+  "optionalLabel": "ga se makadini",
+
+  "accountDeleteSuccessTitle": "Akhaonto e tšetšwe",
+  "accountDeleteSuccessBody": "Akhaonto ea gago le datha seo e tšetšwe ka kagiso.",
+  "accountDeleteSuccessClose": "Tswalwa",
+  "accountDeleteErrorTitle": "Ga go kgonwa go tša akhaonto",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Go go ikhethela gape ga tšenyo e sitšwa. Gopela go tsena gape le go leka tšepo.",
+  "accountDeleteReauthRequired": "Tšepo ya akhaonto e nka go tsena go morao. Gopela go tšea, go tsena gape, le go leka tšepo.",
+  "settingsDeletePermanentWarning": "Ketšo ye e ka sa bolokilwang. Datha seo e akaretša akhaonto ga go tšewa.",
+
+  "dailyGraceTitle": "Tataiso ea Letsatsi",
+  "dailyGraceScriptureLabel": "VERSE YA LETSATSI",
+  "dailyGraceSaintLabel": "SCHOLAR YA SEKE",
+  "dailyGraceReflectionLabel": "PONAHALO YA MANTSI",
+  "dailyGraceCopiedToast": "Verse e kopilwe go clipboard",
+
+  "dailyScripture0Text": "Tlela, ba ba molemo ba tla ba mo magareng le dinoka, mo go go gakametšego go le go go go Rapa le go marata.",
+  "dailyScripture0Ref": "Quranic 54:54-55",
+  "dailyScripture1Text": "Le ga ke mo go e romele, O Muhammad, empa o le lerato go diphakong tšohle.",
+  "dailyScripture1Ref": "Quranic 21:107",
+  "dailyScripture2Text": "Allah ga se karaba bakeng sa go go sohela? Empa ba go tshosa ka ba ba nngwe go fapana nae.",
+  "dailyScripture2Ref": "Quranic 39:36",
+  "dailyScripture3Text": "Boitšhwaro o mo go go go godiša go se go go go; le boitšhwaro o mo go go go go go go go go go le Allah o itse, empa ga wena o itse.",
+  "dailyScripture3Ref": "Quranic 2:216",
+  "dailyScripture4Text": "Tlela, Allah o mo le ba ba bea mo.",
+  "dailyScripture4Ref": "Quranic 2:153",
+  "dailyScripture5Text": "Ka go re thapela ka mo; Ke tla go thapela. Le go leboha ka mo le se go gana ka mo.",
+  "dailyScripture5Ref": "Quranic 2:152",
+  "dailyScripture6Text": "Tlela, ba ba go go ba ba kakaretšo mo maratong mo go Allah ke ba ba tšošanela go go.",
+  "dailyScripture6Ref": "Quranic 49:13",
+  "dailyScripture7Text": "Le Rapa ra gago o go betsele gore o go godišano o feela mo go go le go ba ba batswadi ba gago ka bokgoni.",
+  "dailyScripture7Ref": "Quranic 17:23",
+  "dailyScripture8Text": "Tlela, ka go go go go go kamano e e molemo.",
+  "dailyScripture8Ref": "Quranic 94:6",
+  "dailyScripture9Text": "Le o mo le wena mo go go wena se nako se nako. Le Allah, go tsena go go o dira, o go lebelela.",
+  "dailyScripture9Ref": "Quranic 57:4",
+  "dailyScripture10Text": "Allah ga se go go go go seele o ka mo go ba go fapana nae.",
+  "dailyScripture10Ref": "Quranic 2:286",
+  "dailyScripture11Text": "Le ba ba go go go go Allah — ka go go o go loketša.",
+  "dailyScripture11Ref": "Quranic 65:3",
+  "dailyScripture12Text": "Lerato la ka le le akaretša diphakong tšohle.",
+  "dailyScripture12Ref": "Quranic 7:156",
+  "dailyScripture13Text": "Le nako di go ba go leba — tlela o mo mo go go. Ke go iponatša mo phokotšong nako o ke mo mo na.",
+  "dailyScripture13Ref": "Quranic 2:186",
+  "dailyScripture14Text": "Ba ba go do molemo, go baletšwa kgotsa mosadi, go le go go mo imaneng — Ke tla go thapela mo go a go go go molemo.",
+  "dailyScripture14Ref": "Quranic 16:97",
+  "dailyScripture15Text": "Tlela, Allah ga se go go a seele go go ba ba letšwe le go le go ba ba go tšea bo ba le se go a ba ba.",
+  "dailyScripture15Ref": "Quranic 13:11",
+  "dailyScripture16Text": "Ka go se go go go go se go lefoša le go se go šomaga, le o tla ba o go go go ge o ba go go go ba go go go.",
+  "dailyScripture16Ref": "Quranic 3:139",
+  "dailyScripture17Text": "O go ba ba ba go go go ba ba go ba, se go go le se go go le se go go go. Tlela, Allah o go tokolo diphoso tšohle.",
+  "dailyScripture17Ref": "Quranic 39:53",
+  "dailyScripture18Text": "Le ba ba go go go Allah — o tla ba go ba go go, le o tla ba ke go go mo go ba ba go se go ikakaretše.",
+  "dailyScripture18Ref": "Quranic 65:2-3",
+  "dailyScripture19Text": "Se go go le go sa go lerato la Allah.",
+  "dailyScripture19Ref": "Quranic 12:87",
+  "dailyScripture20Text": "Le go go tla go le go Quranic e le go go go lerata. Ka go ba le ba ba go go go go go go?",
+  "dailyScripture20Ref": "Quranic 54:17",
+  "dailyScripture21Text": "Le o go gopola ka go go o go go go.",
+  "dailyScripture21Ref": "Quranic 93:7",
+  "dailyScripture22Text": "Le Rapa ra gago o go mo: Go mo mo; Ke tla go iponatša.",
+  "dailyScripture22Ref": "Quranic 40:60",
+  "dailyScripture23Text": "Le go go tla go ka do ba ba bana ba Adam.",
+  "dailyScripture23Ref": "Quranic 17:70",
+  "dailyScripture24Text": "Le go go go go khutsišo le prayari.",
+  "dailyScripture24Ref": "Quranic 2:45",
+  "dailyScripture25Text": "Ba ba go go molemo o o go go go go le mo a go go.",
+  "dailyScripture25Ref": "Quranic 99:7",
+  "dailyScripture26Text": "Le le, go go la Allah le le phapiši.",
+  "dailyScripture26Ref": "Quranic 2:214",
+  "dailyScripture27Text": "Le ba ba go go leboga — lerato la go leboga le le bakeng sa go go gago.",
+  "dailyScripture27Ref": "Quranic 31:12",
+
+  "dailyReflection0": "O mo go go letsatsi le go sa, go go le mo go go pele go Allah lerato la go le go.",
+  "dailyReflection1": "Lebelela mo go Allah se nako se nako o go go ka mo go letsatsi.",
+  "dailyReflection2": "Lebelela bokgoni bo bongwe go letsatsi le go leboha Allah.",
+  "dailyReflection3": "Phola ka go gopola gore o mo go go go Allah le go go go go go.",
+  "dailyReflection4": "Go popela go go o go go o go go botlotlo le boyamaneyo letsatsi.",
+  "dailyReflection5": "Se go go se go go o ke ke go go le go tshepela mo diphekelong tsa Allah.",
+  "dailyReflection6": "O mo go go letsatsi le go amogela kgontsantle mo phaposing la Allah.",
+  "dailyReflection7": "Go popela ka go go o go go prayari ea gago letsatsi, le go leboha Allah mo.",
+  "dailyReflection8": "Go popela ka go go mo go go o go go (Sabr) go mo go kgonwa letsatsi.",
+  "dailyReflection9": "Go kopela tokolo bakeng sa go se go go letsatsi — lerato la Allah le le go tla go.",
+  "dailyReflection10": "Lebelela motho o nngwe o mo o go go botlotlo letsatsi le go go dua bakeng sa ba.",
+  "dailyReflection11": "Go phela ka lerato: se nako o go amogela go Allah letsatsi o ke go kopela?",
+  "dailyReflection12": "Go popela go go verse go Quranic e e go mo mo jaanong.",
+  "dailyReflection13": "Go popela ka go go o go sebelesa nako letsatsi — le go go go letsatsi go Allah.",
+  "dailyReflection14": "Phola mo go gopola gore ga go go bodiphapo letsatsi, Allah o ne o mo go gago.",
+  "dailyReflection15": "Go popela ka go go o o nka ba ba lelapa kgotsa communiti letsatsi bakeng sa Allah.",
+  "dailyReflection16": "O mo go go letsatsi, o go Tawbah — Allah o go ba go ba ba ba ba ba ba.",
+  "dailyReflection17": "Go popela go ka go mabota o go go o go go letsatsi, go se go go go.",
+  "dailyReflection18": "Go popela go go o go go go gopola letsatsi le ka go go le go Allah.",
+  "dailyReflection19": "Se go ba ke go go tša — Allah o go ba ba ba.",
+  "dailyReflection20": "Go popela ka go go mo go go o go reka senche, le go ithuta ka bokgonwa.",
+  "dailyReflection21": "O go go dua bakeng sa ba ba go go — dua ea gago ke mopho go ba.",
+  "dailyReflection22": "Go boithatela bokgoni o mo go go o ke go ithuta le go leboha Allah.",
+  "dailyReflection23": "Go popela mo mainetentšong ea gago letsatsi — o ne o mo go Allah? Lemoso, o thoma gape.",
+  "dailyReflection24": "O mo go go letsatsi le go go go go phaposing la Allah mo kutswasale.",
+  "dailyReflection25": "Go popela go go o mo go go letsatsi — go go le go Allah.",
+  "dailyReflection26": "Lebelela se nngwe o tla go etša lemoso, bakeng sa Allah, o ne o ke ke o go etša letsatsi.",
+  "dailyReflection27": "O mo go go go pholo, o go go mohatsa mo go Allah — O le go go e go go.",
+
+  "dailyRoleModel0": "Profeta Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Profeta Ibrahim (AS)",
+  "dailyRoleModel44": "Profeta Musa (AS)",
+  "dailyRoleModel45": "Profeta Isa (AS)",
+  "dailyRoleModel46": "Profeta Yusuf (AS)",
+  "dailyRoleModel47": "Profeta Dawud (AS)",
+  "dailyRoleModel48": "Profeta Sulayman (AS)",
+  "dailyRoleModel49": "Profeta Nuh (AS)",
+  "dailyRoleModel50": "Profeta Yunus (AS)",
+  "dailyRoleModel51": "Profeta Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Dumela Nuria go sebelesa boemo ba ka bakeng sa Qibla le prayari nako",
+  "locationConsentHint": "Go berekwa feela bakeng sa karolo ye. Boemo ba gago ga se go abela kgotsa go bolokwa.",
+
+  "askPageTitle": "Botsa Nuria",
+  "askPageDescription": "Botsa se nako se nako ka iman, prayari, bophelo, kgotsa tsa Islamic le go amogela taelo e e go go Quranic le Sunnah.",
+  "askPageInputHint": "Go go potšišo ye…",
+  "askPageSubmitCta": "Botsa",
+  "askPageInputEmptyError": "Gopela go ngola potšišo ya pele.",
+  "askResultYourQuestion": "Potšišo ea gago",
+
+  "guidancePageTitle": "Prayari & Taelo",
+  "qiblaFacingMecca": "Go lebelela Makkah",
+  "qiblaCompassInstruction": "Rotela seseela sa gago o le la tata la bolata e e lesifikisang o go tlaleletšeng.\nLenaneo lena le benya go Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "GPS signal e se naa e go mo. Sepelela phapoši le o leke.",
+  "qiblaRetry": "Leka",
+  "qiblaTitle": "Lenaneo la Qibla",
+  "qiblaDistanceLabel": "{km} km go Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Boemo bo a lokela",
+  "qiblaLocationNeededBody": "Dumela go sebelesa boemo go go go go go go Nuria go go ka go go sekarata go Makkah mo boemo ba gago.",
+  "qiblaOpenSettings": "Bula Settings",
+  "qiblaCompassLoading": "Go go boemo ba gago…",
+  "qiblaTowardMecca": "Go le go Makkah",
+
+  "prayerTimesTitle": "Nako ya Prayari",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Boemo bo a lokela",
+  "prayerTimesLocationNeededBody": "Dumela go sebelesa boemo go go go Nuria go go dikgonwa tšea tšea nako ya prayari bakeng sa motse wa gago.",
+  "prayerTimesNextLabel": "Lenaneo",
+  "prayerTimesDoneLabel": "Tela",
+
+  "monthlyPrayerTimesTitle": "Nako ya Prayari ya Kgwedi",
+  "monthlyPrayerTimesViewButton": "Leba Kgwedi Kakaretšo",
+  "monthlyPrayerTimesNextMonth": "Kgwedi e e latelago",
+  "monthlyPrayerTimesDayHeader": "Letsatsi",
+
+  "sharePrayerTimes": "Abela nako ya prayari",
+
+  "prayerNotificationsTitle": "Diphasatisi tša Prayari",
+  "prayerNotificationsDescription": "Amogela phasatisi e kutswasale le go prayari nako go go go le go mo ka letsatsi.",
+  "prayerNotificationsEnable": "Kgonedile diphasatisi tša prayari",
+  "prayerNotificationsOpenSettings": "Bula settings ya phasatisi",
+  "prayerNotificationsDenied": "Diphasatisi di thlakilwe",
+  "prayerNotificationsDeniedHint": "Go go Settings le go dumelela diphasatisi bakeng sa Nuria go amogela phasatisi ya prayari nako.",
+
+  "notificationsConsentLabel": "Dumela diphasatisi bakeng sa nako ya prayari",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Prayari ya Madume",
+  "prayerNotifBodyFajr": "Prayari e e molemo go go le go madume. Phokotša, o itohlotse, le o thula le go Allah.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Prayari ya Motšeare",
+  "prayerNotifBodyDhuhr": "Se nako le go busetšwa go Allah. Nako ya Dhuhr e tšea.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Prayari ya Motšeare",
+  "prayerNotifBodyAsr": "Boloka prayari ya motšeare. Asr nako e tšea — se e tšega.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Prayari ya Lešata",
+  "prayerNotifBodyMaghrib": "Letsatsi le go se. Go etša Maghrib le go leboha Allah bakeng sa letsatsi le.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Prayari ya Bosigo",
+  "prayerNotifBodyIsha": "Lapile letsatsi sa gago ka phaposing la Allah. Hayya 'alal falah — go go go tuelo.",
+
+  "outOfReflectionsBannerText": "O go beguwa ponahalo",
+  "outOfReflectionsBannerCta": "Amogela",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Phokoletsa go tala",
+  "dhikrResetButton": "Theosetša",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "O go phethile 99 phaposing la Allah. O ka ba bolala bakeng sa pelo ea gago.",
+
+  "disclaimerTitle": "Ka go go taelo ya apiki",
+  "disclaimerBody": "Nuria e fana ka Islamic ponahalo, diphasatisi, le mabaka a go go go go go go mo go gago. Mabaka a a go fapela go boitsebiso le go go feela.\n\nNuria ga se go go seithuti se se go go.\nTaelo mo apiki ye ga se go go go go Islamic scholar, imam, mufti, kgotsa morutabuti o o tlagantswe go go. Ge o na le dipotšišo ka sehlapa sa Islamic, halal le haram maele, kgotsa go go go tšea, gopela go go mobo go go botshabelo mo komuniting ea gago.\n\nApiki ye ga se go go go go sehlapa.\nNuria ga se go etša go go go go dikgetsi ka fiqh (Islamic jurisprudence) kgotsa go go go tšea. Se nako se se lokela go go fatwa kgotsa go go go sehlapa.\n\nScholar go go go go bo.\nIslam e na le go go go ditraditional, disentre tša go go go (madhabs), le dikgonwa tša scholar. Mabaka mo apiki ye a tsena go go le se tla go laetšwa traditional e nngwe le nngwe.\n\nCommuniti e a boka.\nApiki ye e lebela go go go go mo go go tradisional empa go go bohlokwa ba mo ga imam, le go go go bajanala. Re leka go o go go le go ithuta go go seithuti se se nneng mo gago.",
+  "disclaimerClose": "Ke utologa",
+  "disclaimerInfoTooltip": "Ka go go taelo ya apiki",
+  "disclaimerSettingsSubtitle": "Bakeng sa boitsebiso go feela. Phokoletsa go bala disclaimer e kakaretšo.",
+  "disclaimerSectionHeader": "Taelo disclaimer"
+}

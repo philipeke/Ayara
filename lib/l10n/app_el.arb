@@ -1,0 +1,585 @@
+{
+  "@@locale": "el",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Επιλέξτε τη γλώσσα σας",
+  "languageSelectSub": "Μπορείτε να το αλλάξετε αργότερα στις Ρυθμίσεις",
+  "actionContinue": "Συνέχεια",
+  "languageSuggestedHeader": "Προτεινόμενο",
+  "languageAllHeader": "Όλες οι γλώσσες",
+  "languageSuggestedBadge": "Προτεινόμενο",
+  "languageSearchHint": "Αναζήτηση…",
+
+  "planGrace": "Στάνταρ",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Καθημερινή Καθοδήγηση",
+  "categoryFaithTrust": "Πίστη & Εμπιστοσύνη",
+  "categoryPrayerReflection": "Προσευχή & Αναστοχασμός",
+  "categoryHopeDifficultTimes": "Υπομονή & Ελπίδα",
+  "categoryForgiveness": "Ζητώ Συγγνώμη",
+  "categoryLoveCompassion": "Έλεος & Συμπόνια",
+  "categoryStrengthCourage": "Πίστη & Δύναμη",
+  "categoryGratitude": "Ευγνώμων Καρδιά",
+  "categoryPurposeCalling": "Σκοπός Ζωής",
+  "categoryFamilyRelationships": "Οικογενειακοί Δεσμοί",
+  "categoryPeaceAnxietyRelief": "Εσωτερική Ειρήνη",
+  "categoryWisdomOfJesus": "Σοφία των Προφητών",
+  "categoryHumilityCharacter": "Καλός Χαρακτήρας",
+  "categoryOvercomingTemptation": "Αντίσταση στον Πειρασμό",
+  "categoryEveningReflection": "Βράδυ Dhikr",
+  "categoryCustom": "Προσωπική Αντανάκλαση",
+  "dhikrMeaningSubhanallah": "Δόξα στον Αλλάχ",
+  "dhikrMeaningAlhamdulillah": "Όλη η δόξα ανήκει στον Αλλάχ",
+  "dhikrMeaningAllahuAkbar": "Ο Αλλάχ είναι ο Μεγαλύτερος",
+  "quranVerseHeartAtRest": "Αληθινά, στην ανάμνηση του Αλλάχ βρίσκουν οι καρδιές ηρεμία.",
+
+  "promptHint": "Πατήστε μια κατηγορία για ισλαμική καθοδήγηση και αναστοχασμό",
+
+  "currentLanguage": "Τρέχουσα γλώσσα",
+  "settingsLanguage": "Ρυθμίσεις γλώσσας",
+  "settingsTitle": "Ρυθμίσεις",
+  "chooseLanguage": "Επιλέξτε τη γλώσσα σας",
+  "continueCta": "Συνέχεια",
+
+  "promptDailyGuidance": "Γράψτε μια σύντομη, πρακτική καθημερινή καθοδήγηση με ρίζες στην Σουννιτική Ισλαμική πίστη — βασισμένη στο Κοράνι, τα Χαντίθ και τις διδασκαλίες του Προφήτη Μουχάμμαντ. Επιλέξτε μια φρέσκια προσέγγιση κάθε φορά: μια αρετή από την ισλαμική ηθική, μια αλήθεια από τη Σούννα, σοφία από τους Συνοδευόντες του Προφήτη ή μια ήσυχη πρακτική από την ισλαμική παράδοση. Συμπεριλάβετε ένα κύριο Κοράνι (Σούρα:Αγία) και μια αναστοχασμό 1–2 προτάσεων για να μεταφέρετε όλη την ημέρα. Προαιρετικά, συνδέστε την με το ισλαμικό ημερολόγιο ή μια σημαντική ημερομηνία αν είναι σχετική.",
+
+  "promptFaithTrust": "Γράψτε ένα σύντομο ισλαμικό αναστοχασμό για τον Iman (πίστη) και την εμπιστοσύνη στο σχέδιο του Αλλάχ (Tawakkul). Ριζώστε την στο Κοράνι, το παράδειγμα του Προφήτη Μουχάμμαντ και την πίστη των Σαχάμπα. Ποικιλίστε το θέμα κάθε φορά: εμπιστοσύνη στον Αλλάχ κατά την αβεβαιότητα, στήριξη στη θεία σοφία, υπομονή στους δοκιμασίες ή ήσυχη επιμονή στην καθημερινή ζωή. Συμπεριλάβετε ένα κύριο Κοράνι και ένα ειλικρινές βήμα για σήμερα που προέρχεται από τη σοφία του ισλαμικού πνεύματος.",
+
+  "promptPrayerReflection": "Γράψτε ένα σύντομο ισλαμικό αναστοχασμό προσευχής με ρίζες στη Σαλάχ, Δουά ή Dhikr. Ποικιλίστε τη μορφή κάθε φορά: μια πρωινή ή βραδινή ανάμνηση (Adhkar), αναστοχασμός στις πέντε καθημερινές προσευχές, σχολιασμό ενός κύριου κύριου Κοράνι ή ένα ειλικρινής δέησης. Συμπεριλάβετε ένα κύριο Κοράνι και ονοματίστε εν συντομία τη μορφή προσευχής που χρησιμοποιήθηκε.",
+
+  "promptHopeDifficultTimes": "Γράψτε ένα ισλαμικό αναστοχασμό σχετικά με την υπομονή (Sabr) και την ελπίδα κατά τη δυσκολία. Αντλήστε από τις διδασκαλίες του Κοράνι σχετικά με τις δοκιμασίες, την επιμονή των Προφητών και το έλεος του Αλλάχ στις δύσκολες στιγμές. Ποικιλίστε την γωνία κάθε φορά. Συμπεριλάβετε ένα κύριο Κοράνι και μια ενθαρρυντική προοπτική από την ισλαμική παράδοση.",
+
+  "promptForgiveness": "Γράψτε ένα σοφό ισλαμικό αναστοχασμό σχετικά με τη ζήτηση συγγνώμης (Tawbah) και το έλεος του Αλλάχ. Αντλήστε από τις διδασκαλίες του Κοράνι για τη μετάνοια, το συναίσθημα του Αλλάχ και το συγχωρετικό παράδειγμα του Προφήτη Μουχάμμαντ. Ποικιλίστε το θέμα: επιστροφή στον Αλλάχ, συγχώρηση άλλων, επούλωση σχέσεων ή πίστη στο έλεος του Αλλάχ μετά από λάθη. Συμπεριλάβετε ένα κύριο Κοράνι και ένα συγκεκριμένο βήμα.",
+
+  "promptLoveCompassion": "Γράψτε ένα σύντομο ισλαμικό αναστοχασμό σχετικά με το έλεος (Rahmah) και τη συμπόνια στην καθημερινή ζωή. Αντλήστε από το παράδειγμα του Προφήτη Μουχάμμαντ, την ιδέα του Ihsan (αριστείας) και τις ισλαμικές διδασκαλίες σχετικά με τη καλοσύνη στην οικογένεια, τους γείτονες και τους ευάλωτους. Συμπεριλάβετε ένα κύριο Κοράνι και ένα μικρό έργο συμπόνιας για να εξασκηθείτε σήμερα.",
+
+  "promptStrengthCourage": "Γράψτε ένα ισλαμικό αναστοχασμό για τη δύναμη και το θάρρος που βασίζονται στην πίστη. Αντλήστε από παραδείγματα των Προφητών, της πρώιμης μουσουλμανικής κοινότητας και των πιστών που παρέμειναν σταθεροί στη δυσκολία. Ποικιλίστε το θέμα κάθε φορά: θάρρος μέσω της πίστης, δύναμη στην προσευχή, εμπιστοσύνη στον Αλλάχ κατά τον φόβο ή ανθεκτικότητα στη δυσκολία. Συμπεριλάβετε ένα κύριο Κοράνι και μια σύντομη δέηση ή φράση ανάμνησης.",
+
+  "promptGratitude": "Γράψτε ένα ισλαμικό αναστοχασμό για την ευγνωμοσύνη (Shukr) προς τον Αλλάχ. Ριζώστε την στη διδασκαλία του Κοράνι και την προφητική παράδοση. Ποικιλίστε τη γωνία: ευγνωμοσύνη στη δυσκολία, εκτίμηση μικρών ευλογιών, έναρξη της ημέρας με έπαινο του Αλλάχ ή αναγνώριση της καθοδήγησης του Αλλάχ στην καθημερινή ζωή. Συμπεριλάβετε ένα κύριο Κοράνι και μια πρακτική ευγνωμοσύνης.",
+
+  "promptPurposeCalling": "Γράψτε ένα ισλαμικό αναστοχασμό για το σκοπό της ζωής στη λατρεία του Αλλάχ και την καθοδήγηση διακυβέρνησης. Αντλήστε από τις διδασκαλίες του Κοράνι για το σκοπό, τη υπηρεσία προς τους άλλους και τη χρήση των χαρισμάτων κάποιου για καλό. Ποικιλίστε το θέμα κάθε φορά: υπηρεσία στην οικογένεια και κοινότητα, αναζήτηση καθοδήγησης μέσω Istikhara, ζωή με πρόθεση ή εύρεση νοήματος σε συνηθισμένη δουλειά. Συμπεριλάβετε ένα κύριο Κοράνι και δύο αναστοχαστικές ερωτήσεις.",
+
+  "promptFamilyRelationships": "Γράψτε σοφή ισλαμική καθοδήγηση για την οικογένεια και τις σχέσεις με ρίζες στη διδασκαλία του Κοράνι και το παράδειγμα του Προφήτη Μουχάμμαντ. Ποικιλίστε το θέμα κάθε φορά: καλοσύνη στη ζωή της οικογένειας, υπομονή σε σύγκρουση, τιμή στους γονείς, воспитание παιδιών στην πίστη ή ενίσχυση του γάμου. Συμπεριλάβετε ένα κύριο Κοράνι και μια σχεσιακή πρακτική να δοκιμάσετε.",
+
+  "promptPeaceAnxietyRelief": "Γράψτε ένα ηρεμιστικό ισλαμικό αναστοχασμό σχετικά με την εύρεση εσωτερικής ειρήνης μέσω της ανάμνησης του Αλλάχ (Dhikr) και της εμπιστοσύνης στο σχέδιό του. Αντλήστε από τις διδασκαλίες του Κοράνι σχετικά με την ηρεμία της καρδιάς, την προσευχή και την παράδοση στη θέληση του Αλλάχ. Ποικιλίστε την προσέγγιση κάθε φορά και συμπεριλάβετε ένα κύριο Κοράνι και μια απλή πρακτική έδρασης από την ισλαμική παράδοση.",
+
+  "promptWisdomOfJesus": "Γράψτε ένα σύντομο κομμάτι σοφίας από τους Προφήτες όπως διδάσκεται στο Ισλάμ. Αντλήστε από το Κοράνι ή Χαντίθ και εξηγήστε εν συντομία πώς έχουν κατανοήσει την διδασκαλία ισλαμικοί σχολιαστές. Ποικιλίστε το θέμα κάθε φορά: χαρακτήρα, υπομονή, ταπεινοφροσύνη, πίστη ή καθημερινή διαγωγή. Συμπεριλάβετε μια αναφορά Κοράνι ή Χαντίθ και μια πρακτική εφαρμογή.",
+
+  "promptHumilityCharacter": "Γράψτε ένα ισλαμικό αναστοχασμό σχετικά με την ταπεινοφροσύνη (Tawadhu) και τον καλό χαρακτήρα (Akhlaq). Αντλήστε από τις διδασκαλίες του Κοράνι, το παράδειγμα του Προφήτη Μουχάμμαντ και την παράδοση της ισλαμικής ανάπτυξης χαρακτήρα. Ποικιλίστε το θέμα: ταπεινοφροσύνη στην ηγεσία, παραδοχή λαθών, αντιμετώπιση άλλων με σεβασμό ή πνευματική ανάπτυξη μέσω αυτοσχολιασμού. Συμπεριλάβετε ένα κύριο Κοράνι και μια συνήθεια να εξασκηθείτε.",
+
+  "promptOvercomingTemptation": "Γράψτε ένα ισλαμικό αναστοχασμό σχετικά με την αντίσταση στον πειρασμό και την παραμονή στο ευθύ μονοπάτι. Αντλήστε από την καθοδήγηση του Κοράνι, την ανάμνηση του Αλλάχ (Dhikr), την προσευχή (Salah) και παραδείγματα πιστών που ξεπέρασαν τις δυσκολίες. Ποικιλίστε τη γωνία κάθε φορά. Συμπεριλάβετε ένα κύριο Κοράνι και μια πρακτική στρατηγική για τις επόμενες 24 ώρες.",
+
+  "promptEveningReflection": "Γράψτε ένα ήσυχο ισλαμικό αναστοχασμό βραδιού με ρίζες στην παράδοση της βράδυ ανάμνησης (Adhkar al-Masaa'). Ενθαρρύνετε την ευγνωμοσύνη, τον αυτοσχολιασμό (Muhasabah) και την εμπιστοσύνη στον Αλλάχ πριν από την ανάπαυση. Συμπεριλάβετε 3–5 σύντομες αναστοχαστικές προτάσεις σχετικά με την ημέρα, μια σύντομη κλειστική δέηση και ένα κύριο Κοράνι.",
+
+  "wordCount": "{count, plural, one {{count} λέξη} other {{count} λέξεις}}",
+
+  "optionsCta": "Επιλογές",
+  "newCta": "Νέο",
+  "actionsTitle": "Τι θέλετε να κάνετε;",
+  "copy": "Αντιγραφή",
+  "share": "Κοινοποίηση",
+  "close": "Κλείσιμο",
+  "copiedToast": "Αντιγράφηκε στο πρόχειρο",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Γραμμή θέματος ηλεκτρονικού ταχυδρομείου / κοινοποίησης συμπεριλαμβανομένης της ετικέτας κατηγορίας.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Καθημερινή Καθοδήγηση" }
+    }
+  },
+
+  "regenerateErrorTitle": "Δεν ήταν δυνατόν να δημιουργηθεί νέα απάντηση",
+  "regenerateErrorBody": "{error}\n\nΘέλετε να δοκιμάσετε ξανά;",
+  "@regenerateErrorBody": {
+    "description": "Εμφανίζεται όταν αποτύχει η αναδημιουργία απάντησης ΤΝ.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Σφάλμα δικτύου" }
+    }
+  },
+
+  "cancelCta": "Ακύρωση",
+  "retryCta": "Δοκιμάστε ξανά",
+
+  "authTitle": "Δημιουργήστε το λογαριασμό σας",
+  "continueAsGuest": "Συνέχεια ως επισκέπτης",
+  "signInGoogle": "Σύνδεση με Google",
+  "signInApple": "Σύνδεση με Apple",
+  "signInEmail": "Σύνδεση με ηλεκτρονικό ταχυδρομείο",
+  "upgradeWithApple": "Συνέχεια με Apple",
+  "mustAccept": "Πρέπει να αποδεχτείτε τους Όρους και να αναγνωρίσετε την Πολιτική Απορρήτου.",
+  "termsLabel": "Αποδέχομαι τους Όρους Υπηρεσίας",
+  "privacyLabel": "Έχω διαβάσει την Πολιτική Απορρήτου",
+  "marketingOptIn": "Συμφωνώ να λαμβάνω νέα και προσφορές",
+  "openTerms": "Όροι Υπηρεσίας",
+  "openPrivacy": "Πολιτική Απορρήτου",
+
+  "accountSection": "Λογαριασμός",
+  "guestMode": "Λειτουργία επισκέπτη",
+  "signedIn": "Συνδεδεμένος",
+  "upgradeHint": "Αποθηκεύστε τα αναστοχαστικά σας σε συσκευές δημιουργώντας λογαριασμό.",
+  "upgradeWithGoogle": "Συνέχεια με Google",
+  "signOut": "Αποσύνδεση",
+
+  "snackUpgraded": "Λογαριασμός αναβαθμίστηκε με Google ✅",
+  "snackSignedIn": "Συνδεδεμένος με Google ✅",
+  "snackSignedOut": "Αποσυνδέθηκε",
+  "snackSignedInApple": "Συνδεδεμένος με Apple ✅",
+  "snackSignedInGoogle": "Συνδεδεμένος με Google ✅",
+  "snackUpgradedApple": "Λογαριασμός αναβαθμίστηκε με Apple ✅",
+  "snackUpgradedGoogle": "Λογαριασμός αναβαθμίστηκε με Google ✅",
+
+  "historyTitle": "Προηγούμενα αναστοχαστικά",
+  "historyOpenCta": "Προηγούμενα αναστοχαστικά",
+  "historyEmpty": "Δεν υπάρχουν ακόμη αποθηκευμένα αναστοχαστικά.",
+  "historyDeleteTitle": "Διαγραφή αναστοχαστικού;",
+  "historyDeleteBody": "Αυτό θα καταργήσει μόνιμα το επιλεγμένο στοιχείο.",
+  "deleteCta": "Διαγραφή",
+
+  "historyButton": "Προηγούμενα Αναστοχαστικά",
+  "historyEmptyTitle": "Δεν υπάρχουν ακόμη αναστοχαστικά",
+  "historyEmptyBody": "Δημιουργήστε πρώτα κάτι — τα αποθηκευμένα στοιχεία σας θα εμφανιστούν εδώ.",
+  "historyDelete": "Διαγραφή",
+
+  "footerTitle": "Με Iman, sabr και rahma.",
+  "footerSubtitle": "Ένα βήμα τη φορά.",
+  "genericErrorSnack": "Κάτι πήγε στραβά — δοκιμάστε ξανά σε λίγο.",
+
+  "upgradeAccountCta": "Αποθηκεύστε τα αναστοχαστικά σας σε συσκευές – δημιουργήστε λογαριασμό",
+  "deleteAccount": "Διαγραφή λογαριασμού",
+  "exportData": "Εξαγωγή δεδομένων μου",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Ετικέτα πριν από την εμφάνιση του εσωτερικού UID του Firebase.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Ήρεμα τώρα 🐯\nΤο ΤΝ χρειάζεται χρόνο πριν από το επόμενο…",
+  "rateDailyLimit": "Δεν έχετε αναστοχαστικά για τώρα.\nΠάρτε περισσότερα αναστοχαστικά ή αναβαθμίστε σε Barakah.",
+  "rateCreditsExhausted": "Χρησιμοποιήσατε όλα τα αναστοχαστικά σας.\nΔιαθέστε ή αναβαθμίστε σε Barakah για να συνεχίσετε.",
+  "rateGraceReflectionsExhausted": "Δεν έχετε αναστοχαστικά για τώρα.\nΠάρτε περισσότερα αναστοχαστικά ή αναβαθμίστε σε Barakah.",
+  "rateReflectionsExhausted": "Χρησιμοποιήσατε όλα τα αναστοχαστικά σας.\nΔιαθέστε ή αναβαθμίστε σε Barakah για να συνεχίσετε.",
+
+  "blessedDescription": "Το Barakah ξεκλειδώνει premium λειτουργίες, μελλοντικές κατηγορίες και ένα ειδικό σήμα.",
+  "championDescription": "Το Barakah ξεκλειδώνει premium λειτουργίες, μελλοντικές κατηγορίες και ένα ειδικό σήμα.",
+
+  "ratePlanExhausted": "Τα αναστοχαστικά σας είναι κενά αυτή τη στιγμή. Σχέδιο: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Εμφανίζεται όταν τα αναστοχαστικά του χρήστη έχουν εξαντληθεί αλλά ο λόγος είναι γενικός.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Στάνταρ ή Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Δεν ήταν δυνατόν να ελεγχθούν τα αναστοχαστικά σας: {message}",
+  "@rateCheckFailed": {
+    "description": "Εμφανίζεται όταν η κλήση συνάρτησης επιστρέφει μήνυμα σφάλματος.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Σφάλμα δικτύου" }
+    }
+  },
+
+  "rateCheckGenericError": "Κάτι πήγε στραβά κατά τον έλεγχο των αναστοχαστικών σας.",
+  "aiFallbackGeneric": "Κάτι πήγε στραβά — δοκιμάστε ξανά σε λίγο.",
+
+  "limitSectionTitle": "Αναστοχαστικά",
+  "limitTodayLabel": "Χρήση",
+  "limitCreditsLabel": "Απομένοντα αναστοχαστικά: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Σχέδιο: {plan}",
+  "@limitPlanLabel": {
+    "description": "Εμφανίζει το όνομα του τρέχοντος σχεδίου συνδρομής.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Στάνταρ ή Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Φόρτωση…",
+  "limitLoadingLabelDescription": "Εμφανίζεται στην κάρτα αναστοχαστικών κατά τη λήψη στατιστικών χρήσης.",
+
+  "aiLimitTitle": "Αναστοχαστικά",
+  "aiLimitSubtitle": "Κάθε απάντηση χρησιμοποιεί 1 αναστοχαστικό. Το Στάνταρ περιλαμβάνει αναστοχαστικά εκκίνησης. Το Barakah ξεκλειδώνει premium κατηγορίες και επιτρέπει top-ups.",
+  "aiLimitProgressLabel": "{used} / {total} αναστοχαστικά χρησιμοποιήθηκαν",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Αναστοχαστικά",
+  "reflectionsUsageLabel": "Χρήση",
+  "reflectionsRemainingLabel": "Απομένοντα αναστοχαστικά: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Σχέδιο: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Εμφανίζει το όνομα του τρέχοντος σχεδίου.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Στάνταρ ή Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Φόρτωση…",
+  "reflectionsLoadingLabelDescription": "Εμφανίζεται κατά τη λήψη στατιστικών αναστοχαστικών.",
+
+  "reflectionsTitle": "Αναστοχαστικά",
+  "reflectionsSubtitle": "Κάθε απάντηση χρησιμοποιεί 1 αναστοχαστικό. Το Στάνταρ περιλαμβάνει αναστοχαστικά εκκίνησης. Το Barakah ξεκλειδώνει premium κατηγορίες και επιτρέπει top-ups.",
+  "reflectionsProgressLabel": "{used} / {total} αναστοχαστικά χρησιμοποιήθηκαν",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Διαγραφή λογαριασμού",
+  "settingsDeleteDescription": "Μόνιμη διαγραφή του λογαριασμού σας και όλων των σχετικών δεδομένων.",
+  "settingsDeleteButtonLabel": "Διαγραφή λογαριασμού μου",
+  "settingsDeleteDialogTitle": "Διαγραφή λογαριασμού;",
+  "settingsDeleteDialogBody": "Αυτή η ενέργεια είναι μόνιμη και δεν μπορεί να αναιρεθεί.\n\nΌλες οι συνομιλίες, το ιστορικό και τα στοιχεία του λογαριασμού σας θα διαγραφούν.",
+  "settingsDeleteDialogCancel": "Ακύρωση",
+  "settingsDeleteDialogConfirm": "Διαγραφή",
+
+  "settingsFreeLimitUsedTitle": "Αναστοχαστικά εκκίνησης χρησιμοποιήθηκαν",
+  "settingsFreeLimitUsedDescription": "Τα αναστοχαστικά εκκίνησης για αυτήν τη συσκευή έχουν χρησιμοποιηθεί. Αναβαθμίστε σε Barakah ή αγοράστε περισσότερα αναστοχαστικά για να συνεχίσετε.",
+
+  "settingsStarterReflectionsUsedTitle": "Αναστοχαστικά εκκίνησης χρησιμοποιήθηκαν",
+  "settingsStarterReflectionsUsedDescription": "Τα αναστοχαστικά εκκίνησης για αυτήν τη συσκευή έχουν χρησιμοποιηθεί. Αναβαθμίστε σε Barakah ή αγοράστε περισσότερα αναστοχαστικά για να συνεχίσετε.",
+
+  "deviceBoundError": "Αυτή η συσκευή είναι ήδη συνδεδεμένη με άλλο λογαριασμό. Συνδεθείτε με τον αρχικό λογαριασμό.",
+
+  "premiumTitle": "Λειτουργία Barakah",
+  "premiumSubtitleBasic": "Ξεκλειδώστε την πλήρη εμπειρία Nuria.",
+  "premiumSubtitleChampion": "Είστε Barakah. Χρειάζεστε περισσότερα αναστοχαστικά;",
+
+  "premiumCurrentPlan": "Τρέχον σχέδιο: {plan}",
+  "premiumCreditsStatus": "Αναστοχαστικά: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Οι αγορές δεν είναι διαθέσιμες αυτή τη στιγμή.",
+  "premiumSignInToPurchase": "Συνδεθείτε για να αγοράσετε αναστοχαστικά ή να ξεκλειδώσετε το Barakah.",
+
+  "premiumRestorePurchases": "Επαναφορά αγορών",
+  "premiumProcessing": "Επεξεργασία…",
+  "premiumRestoreHintTitle": "Έχετε ήδη αγοράσει Barakah ή αναστοχαστικά σε αυτή τη συσκευή ή σε άλλη;",
+  "premiumRestoreHintBody": "Επαναφέρετε τις αγορές σας αν δεν εμφανίζονται.",
+
+  "premiumBuyCredits200": "Αγορά 200 αναστοχαστικών",
+  "premiumBuyCredits400": "Αγορά 400 αναστοχαστικών",
+  "premiumBecomeChampionOneTime": "Αναβάθμιση σε λειτουργία Barakah",
+  "premiumChampionHint": "Ως Barakah, μπορείτε να διαθέσετε επιπλέον αναστοχαστικά όποτε το χρειάζεστε.",
+
+  "premiumUpgradeCta": "Αναβάθμιση",
+  "premiumRequiredForCategory": "Αυτή η κατηγορία είναι διαθέσιμη μόνο για χρήστες Barakah. Αναβαθμίστε στις Ρυθμίσεις για να ξεκλειδώσετε όλο το premium περιεχόμενο.",
+  "premiumBenefitsBasic": "Ξεκλειδώστε το Barakah για να λάβετε επιπλέον αναστοχαστικά, πρόσβαση σε premium κατηγορίες και συνέχεια χωρίς διακοπές κάθε φορά που χρειάζεστε καθοδήγηση.",
+  "premiumBenefitsChampion": "Είστε σε λειτουργία Barakah. Αν έχετε χαμηλή αποθήκευση, προσθέστε επιπλέον αναστοχαστικά και συνεχίστε χωρίς διακοπές.",
+  "premiumButtonBecomeChampion": "Ξεκλειδώστε το Barakah",
+  "premiumButtonTopup1000": "Προσθέστε 1000 αναστοχαστικά",
+  "premiumChampionBadge": "Barakah ενεργό",
+  "premiumLoadingStore": "Φόρτωση καταστήματος…",
+
+  "blessedTitle": "Λειτουργία Barakah",
+  "blessedSubtitleGrace": "Ξεκλειδώστε την πλήρη εμπειρία Nuria.",
+  "blessedSubtitleBlessed": "Είστε Barakah. Χρειάζεστε περισσότερα αναστοχαστικά;",
+
+  "blessedCurrentPlan": "Τρέχον σχέδιο: {plan}",
+  "blessedReflectionsStatus": "Αναστοχαστικά: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Οι αγορές δεν είναι διαθέσιμες αυτή τη στιγμή.",
+  "blessedProductNotAvailable": "Αυτό το προϊόν δεν είναι ακόμη διαθέσιμο στο κατάστημα. Δοκιμάστε ξανά αργότερα.",
+  "blessedPurchaseError": "Κάτι πήγε στραβά με την αγορά. Δοκιμάστε ξανά.",
+  "blessedSignInToPurchase": "Συνδεθείτε για να αγοράσετε αναστοχαστικά ή να ξεκλειδώσετε το Barakah.",
+
+  "blessedRestorePurchases": "Επαναφορά αγορών",
+  "blessedProcessing": "Επεξεργασία…",
+  "blessedRestoreHintTitle": "Έχετε ήδη αγοράσει Barakah ή αναστοχαστικά σε αυτή τη συσκευή ή σε άλλη;",
+  "blessedRestoreHintBody": "Επαναφέρετε τις αγορές σας αν δεν εμφανίζονται.",
+
+  "blessedBuyReflections100": "Προσθέστε 100 αναστοχαστικά",
+  "blessedBuyReflections200": "Αγορά 200 αναστοχαστικών",
+  "blessedBuyReflections400": "Αγορά 400 αναστοχαστικών",
+  "blessedBecomeBlessedOneTime": "Αναβάθμιση σε Barakah",
+  "blessedTopupHint": "Ως Barakah, μπορείτε να διαθέσετε επιπλέον αναστοχαστικά όποτε το χρειάζεστε.",
+
+  "blessedUpgradeCta": "Αναβάθμιση",
+  "blessedRequiredForCategory": "Αυτή η κατηγορία είναι διαθέσιμη μόνο για χρήστες Barakah. Αναβαθμίστε στις Ρυθμίσεις για να ξεκλειδώσετε όλο το premium περιεχόμενο.",
+  "blessedFeatureLocked": "Ξεκλειδώστε το Barakah για πρόσβαση σε αυτήν την λειτουργία.",
+  "lockedCategoriesHint": "Ορισμένες κατηγορίες είναι δεσμευμένες για μέλη Barakah. Ξεκλειδώστε τις για να εξερευνήσετε κάθε αναστοχασμό στο ταξίδι σας.",
+  "blessedBenefitsGrace": "Ξεκλειδώστε το Barakah για να λάβετε επιπλέον αναστοχαστικά, πρόσβαση σε premium κατηγορίες και συνέχεια χωρίς διακοπές κάθε φορά που χρειάζεστε καθοδήγηση.",
+  "blessedBenefitsBlessed": "Είστε σε λειτουργία Barakah. Αν έχετε χαμηλή αποθήκευση, προσθέστε επιπλέον αναστοχαστικά και συνεχίστε χωρίς διακοπές.",
+  "blessedButtonBecomeBlessed": "Ξεκλειδώστε το Barakah",
+  "blessedButtonTopup1000": "Προσθέστε 1000 αναστοχαστικά",
+  "blessedBadge": "Barakah ενεργό",
+  "blessedLoadingStore": "Φόρτωση καταστήματος…",
+
+  "freePlanBlockedTitle": "Χρησιμοποιήσατε τα αναστοχαστικά εκκίνησης σας",
+  "freePlanBlockedBody": "Είστε σε σχέδιο Στάνταρ με αναστοχαστικά εκκίνησης και έχετε φτάσει το όριο. Για συνέχεια — και ξεκλείδωση premium κατηγοριών — αναβαθμίστε σε Barakah.",
+  "freePlanBlockedCtaGoPremium": "Δείτε τις επιλογές Barakah παρακάτω",
+
+  "graceBlockedTitle": "Χρησιμοποιήσατε τα αναστοχαστικά εκκίνησης σας",
+  "graceBlockedBody": "Είστε σε σχέδιο Στάνταρ με αναστοχαστικά εκκίνησης και έχετε φτάσει το όριο. Για συνέχεια — και ξεκλείδωση premium κατηγοριών — αναβαθμίστε σε Barakah.",
+  "graceBlockedCtaGoBlessed": "Δείτε τις επιλογές Barakah παρακάτω",
+
+  "rateGuestMustSignIn": "Συνδεθείτε για να χρησιμοποιήσετε το Nuria και τα αναστοχαστικά σας.",
+
+  "guestNoCreditsTitle": "Λειτουργία επισκέπτη",
+  "guestNoCreditsBody": "Ως επισκέπτης μπορείτε να περιηγηθείτε την εφαρμογή, αλλά δεν μπορείτε να χρησιμοποιήσετε αναστοχαστικά. Συνδεθείτε αργότερα στις Ρυθμίσεις για να χρησιμοποιήσετε αναστοχαστικά και ξεκλειδώστε αγορές.",
+
+  "guestNoReflectionsTitle": "Λειτουργία επισκέπτη",
+  "guestNoReflectionsBody": "Ως επισκέπτης μπορείτε να περιηγηθείτε την εφαρμογή, αλλά δεν μπορείτε να χρησιμοποιήσετε αναστοχαστικά. Συνδεθείτε αργότερα στις Ρυθμίσεις για να χρησιμοποιήσετε αναστοχαστικά και ξεκλειδώστε αγορές.",
+
+  "guestDialogContinue": "Συνέχεια",
+  "guestDialogLoginInstead": "Σύνδεση αντ' αυτού",
+
+  "optionalLabel": "προαιρετικό",
+
+  "accountDeleteSuccessTitle": "Λογαριασμός διαγράφηκε",
+  "accountDeleteSuccessBody": "Ο λογαριασμός σας και τα σχετικά δεδομένα διαγράφηκαν με επιτυχία.",
+  "accountDeleteSuccessClose": "Κλείσιμο",
+  "accountDeleteErrorTitle": "Δεν ήταν δυνατόν να διαγραφεί ο λογαριασμός",
+  "accountDeleteErrorClose": "ΟΚ",
+  "accountDeleteReauthCancelled": "Η επανα-έλεγχος ταυτότητας ακυρώθηκε. Συνδεθείτε ξανά και επαναλάβετε τη διαγραφή.",
+  "accountDeleteReauthRequired": "Η διαγραφή λογαριασμού απαιτεί πρόσφατη σύνδεση. Αποσυνδεθείτε, συνδεθείτε ξανά και επαναλάβετε.",
+  "settingsDeletePermanentWarning": "Αυτή η ενέργεια είναι μόνιμη και δεν μπορεί να αναιρεθεί. Όλα τα δεδομένα που σχετίζονται με τον λογαριασμό σας θα διαγραφούν.",
+
+  "dailyGraceTitle": "Καθημερινή Καθοδήγηση",
+  "dailyGraceScriptureLabel": "ΣΗΜΕΙΟ ΤΗΣ ΗΜΕΡΑΣ",
+  "dailyGraceSaintLabel": "ΣΧΟΛΙΑΣΤΗΣ ΤΗΣ ΕΒΔΟΜΑΔΑΣ",
+  "dailyGraceReflectionLabel": "ΒΡΑΔΥ ΑΝΑΣΤΟΧΑΣΜΟΣ",
+  "dailyGraceCopiedToast": "Σημείο αντιγράφηκε στο πρόχειρο",
+
+  "dailyScripture0Text": "Σίγουρα, οι δίκαιοι θα είναι ανάμεσα σε κήπους και ποτάμια, σε θέση τιμής κοντά σε έναν Πανίσχυρο Βασιλιά.",
+  "dailyScripture0Ref": "Κοράνι 54:54-55",
+  "dailyScripture1Text": "Και δεν σας έστειλαν, [Μουχάμμαντ], παρά ως έλεος για τους κόσμους.",
+  "dailyScripture1Ref": "Κοράνι 21:107",
+  "dailyScripture2Text": "Δεν είναι ο Αλλάχ αρκετός για τον δούλο του; Και όμως σας φοβίζουν με άλλους εκτός του.",
+  "dailyScripture2Ref": "Κοράνι 39:36",
+  "dailyScripture3Text": "Ίσως να μισεῖτε κάτι και είναι καλό για σας; Και ίσως να αγαπάτε κάτι και είναι κακό για σας. Και ο Αλλάχ γνωρίζει, ενώ εσείς δεν γνωρίζετε.",
+  "dailyScripture3Ref": "Κοράνι 2:216",
+  "dailyScripture4Text": "Σίγουρα, ο Αλλάχ είναι με τους υπομόνους.",
+  "dailyScripture4Ref": "Κοράνι 2:153",
+  "dailyScripture5Text": "Γι' αυτό θυμηθείτε Εμέ; Θα σας θυμηθώ. Και είστε ευγνώμονες προς Εμέ και μην με αρνηθείτε.",
+  "dailyScripture5Ref": "Κοράνι 2:152",
+  "dailyScripture6Text": "Σίγουρα, οι πιο γενναίοι ανάμεσά σας στο μάτι του Αλλάχ είναι οι πιο δίκαιοι.",
+  "dailyScripture6Ref": "Κοράνι 49:13",
+  "dailyScripture7Text": "Και ο Κύριός σας έχει προσδιορίσει ότι δεν θα λατρεύσετε παρά μόνο Αυτόν και ότι θα ήστε ευσεβείς στους γονείς σας.",
+  "dailyScripture7Ref": "Κοράνι 17:23",
+  "dailyScripture8Text": "Σίγουρα, με τη δυσκολία έρχεται η διευκόλυνση.",
+  "dailyScripture8Ref": "Κοράνι 94:6",
+  "dailyScripture9Text": "Και είναι με σας όπου κι αν είστε. Και ο Αλλάχ, από αυτά που κάνετε, είναι παρατηρητής.",
+  "dailyScripture9Ref": "Κοράνι 57:4",
+  "dailyScripture10Text": "Ο Αλλάχ δεν επιβαρύνει μια ψυχή πέρα από αυτό που μπορεί να φέρει.",
+  "dailyScripture10Ref": "Κοράνι 2:286",
+  "dailyScripture11Text": "Και όποιος στηρίζεται στον Αλλάχ — τότε Αυτός είναι αρκετός για αυτόν.",
+  "dailyScripture11Ref": "Κοράνι 65:3",
+  "dailyScripture12Text": "Το έλεός μου περιλαμβάνει όλα τα πράγματα.",
+  "dailyScripture12Ref": "Κοράνι 7:156",
+  "dailyScripture13Text": "Και όταν οι δούλοι μου σας ρωτούν για Εμέ — σίγουρα είμαι κοντά. Απαντώ στην αίτηση του μετανοούντος όταν κάνει δέηση σε Εμέ.",
+  "dailyScripture13Ref": "Κοράνι 2:186",
+  "dailyScripture14Text": "Όποιος κάνει δικαιοσύνη, είτε άρρεν είτε θήλυ, ενώ είναι πιστός — σίγουρα θα τον κάνουμε να ζήσει καλή ζωή.",
+  "dailyScripture14Ref": "Κοράνι 16:97",
+  "dailyScripture15Text": "Σίγουρα, ο Αλλάχ δεν θα αλλάξει την κατάσταση ενός λαού έως ότου αλλάξουν αυτά που είναι σε αυτούς.",
+  "dailyScripture15Ref": "Κοράνι 13:11",
+  "dailyScripture16Text": "Γι' αυτό μην αδυνατίσετε και μην λυπηθείτε, και θα ήστε ανώτεροι αν είστε αληθινοί πιστοί.",
+  "dailyScripture16Ref": "Κοράνι 3:139",
+  "dailyScripture17Text": "Ω δούλοι μου που έχετε παραβεί ενάντια σε εαυτούς, μην απελπίζεστε από το έλεος του Αλλάχ. Σίγουρα, ο Αλλάχ συγχωρεί όλες τις αμαρτίες.",
+  "dailyScripture17Ref": "Κοράνι 39:53",
+  "dailyScripture18Text": "Και όποιος φοβάται τον Αλλάχ — θα κάνει για αυτόν ένα δρόμο έξω και θα του παρέχει από όπου δεν το περιμένει.",
+  "dailyScripture18Ref": "Κοράνι 65:2-3",
+  "dailyScripture19Text": "Μην χάσετε την ελπίδα στο έλεος του Αλλάχ.",
+  "dailyScripture19Ref": "Κοράνι 12:87",
+  "dailyScripture20Text": "Και σίγουρα έχουμε κάνει το Κοράνι εύκολο να θυμάται. Υπάρχει λοιπόν κανείς που θα είναι σοφός;",
+  "dailyScripture20Ref": "Κοράνι 54:17",
+  "dailyScripture21Text": "Και σας βρήκε χαμένο και σας καθοδήγησε.",
+  "dailyScripture21Ref": "Κοράνι 93:7",
+  "dailyScripture22Text": "Και ο Κύριός σας λέει: Κάντε δέηση σε Εμέ; θα σας απαντήσω.",
+  "dailyScripture22Ref": "Κοράνι 40:60",
+  "dailyScripture23Text": "Και σίγουρα έχουμε τιμήσει τα τέκνα του Αδάμ.",
+  "dailyScripture23Ref": "Κοράνι 17:70",
+  "dailyScripture24Text": "Και ζητήστε βοήθεια μέσω της υπομονής και της προσευχής.",
+  "dailyScripture24Ref": "Κοράνι 2:45",
+  "dailyScripture25Text": "Όποιος κάνει ένα άτομο ζυγό καλού θα το δει.",
+  "dailyScripture25Ref": "Κοράνι 99:7",
+  "dailyScripture26Text": "Αναμφίβολα, η βοήθεια του Αλλάχ είναι κοντά.",
+  "dailyScripture26Ref": "Κοράνι 2:214",
+  "dailyScripture27Text": "Και όποιος είναι ευγνώμων — η ευγνωμοσύνη του είναι μόνο για το όφελος του εαυτού του.",
+  "dailyScripture27Ref": "Κοράνι 31:12",
+
+  "dailyReflection0": "Καθώς αυτή η ημέρα κλείνει, σκεφθείτε μια στιγμή όπου το έλεος του Αλλάχ ήταν προφανές.",
+  "dailyReflection1": "Φέρτε μπροστά στον Αλλάχ ό,τι σας βάρυνε στην καρδιά σήμερα.",
+  "dailyReflection2": "Ονοματίστε μια ευλογία από αυτήν την ημέρα και εκφράστε ευγνωμοσύνη στον Αλλάχ.",
+  "dailyReflection3": "Ηρεμήστε στη γνώση ότι κρατείστε στο άπειρο έλεος του Αλλάχ.",
+  "dailyReflection4": "Αναστοχαστείτε πού αισθανθήκατε κλήση να δείξετε συμπόνια και καλοσύνη σήμερα.",
+  "dailyReflection5": "Αφήστε αυτά που δεν μπορείτε να ελέγξετε και εμπιστευθείτε στο τέλειο σχέδιο του Αλλάχ.",
+  "dailyReflection6": "Καθώς η ημέρα σταματά, δεχθείτε ειρήνη στην ανάμνηση του Αλλάχ.",
+  "dailyReflection7": "Σκεφθείτε πώς τιμήσατε τις προσευχές σας σήμερα και ευχαριστήστε τον Αλλάχ για καθεμία.",
+  "dailyReflection8": "Αναστοχαστείτε μια στιγμή όπου η υπομονή (Sabr) οδήγησε τις ενέργειές σας σήμερα.",
+  "dailyReflection9": "Ζητήστε συγγνώμη για οποιαδήποτε ανεπάρκεια σήμερα — το έλεος του Αλλάχ είναι απεριόριστο.",
+  "dailyReflection10": "Ονοματίστε ένα άτομο στο οποίο δείξατε καλοσύνη σήμερα και κάντε δουά για αυτό.",
+  "dailyReflection11": "Καθίστε με ευγνωμοσύνη: τι σας παρείχε ο Αλλάχ σήμερα που δεν ζητήσατε;",
+  "dailyReflection12": "Αναστοχαστείτε ένα σημείο από το Κοράνι που μιλά για το πού είστε αυτή τη στιγμή.",
+  "dailyReflection13": "Σκεφθείτε πώς χρησιμοποιήσατε το χρόνο σας σήμερα — και προσφέρετε αύριο στον Αλλάχ.",
+  "dailyReflection14": "Ηρεμήστε γνωρίζοντας ότι ό,τι δυσκολία ήρθε σήμερα, ο Αλλάχ ήταν με σας.",
+  "dailyReflection15": "Σκεφθείτε έναν τρόπο που υπηρετήσατε την οικογένεια ή κοινότητά σας σήμερα για χάρη του Αλλάχ.",
+  "dailyReflection16": "Καθώς πέφτει η νύχτα, κάντε Tawbah — ο Αλλάχ αγαπά αυτούς που γυρίζουν πίσω σε Αυτόν.",
+  "dailyReflection17": "Αναστοχαστείτε το όμορφο που ο Αλλάχ τοποθέτησε στην ημέρα σας, όσο μικρό κι αν είναι.",
+  "dailyReflection18": "Σκεφθείτε τι μάθατε σήμερα και πώς σας ωθεί πιο κοντά στον Αλλάχ.",
+  "dailyReflection19": "Αφήστε τις ανησυχίες της ημέρας στον Αλλάχ — Αυτός κρατά αυτό που δεν μπορείτε.",
+  "dailyReflection20": "Σκεφθείτε μια στιγμή σήμερα όπου θα μπορούσατε να έχετε επιλέξει καλύτερα και μάθετε από αυτό ήπια.",
+  "dailyReflection21": "Κάντε δουά για εκείνους που παλεύουν — η προσευχή σας είναι ένα δώρο για αυτούς.",
+  "dailyReflection22": "Θυμηθείτε μια ευλογία που συχνά παραβλέπετε και πάρτε ένα στιγμή να ευχαριστήσετε τον Αλλάχ για αυτό.",
+  "dailyReflection23": "Αναστοχαστείτε τις προθέσεις σας σήμερα — ήταν για τον Αλλάχ; Αύριο, ξεκινήστε ξανά.",
+  "dailyReflection24": "Καθώς η νύχτα ησυχάζει, ακούστε την εγγύτητα του Αλλάχ στην ησυχία.",
+  "dailyReflection25": "Σκεφθείτε πού βρήκατε δύναμη σήμερα — εκείνη η δύναμη είναι από τον Αλλάχ.",
+  "dailyReflection26": "Ονοματίστε ένα πράγμα που θα κάνετε αύριο, για χάρη του Αλλάχ, που δεν κάνατε σήμερα.",
+  "dailyReflection27": "Καθώς ετοιμάζεστε για ανάπαυση, ανάθεστε την ψυχή σας στον Αλλάχ — Αυτός είναι ο καλύτερος φύλακας.",
+
+  "dailyRoleModel0": "Προφήτης Μουχάμμαντ ﷺ",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
+  "dailyRoleModel3": "Uthman ibn Affan (RA)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
+  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
+  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
+  "dailyRoleModel9": "Salman al-Farisi (RA)",
+  "dailyRoleModel10": "Abu Hurairah (RA)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
+  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
+  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
+  "dailyRoleModel14": "Musab ibn Umayr (RA)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
+  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
+  "dailyRoleModel17": "Umm Salamah (RA)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
+  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
+  "dailyRoleModel20": "Hafsah bint Umar (RA)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
+  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
+  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
+  "dailyRoleModel26": "Imam al-Bukhari (RH)",
+  "dailyRoleModel27": "Imam Muslim (RH)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
+  "dailyRoleModel29": "Al-Ghazali (RH)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
+  "dailyRoleModel31": "Ibn Taymiyya (RH)",
+  "dailyRoleModel32": "Al-Nawawi (RH)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
+  "dailyRoleModel34": "Ibn Kathir (RH)",
+  "dailyRoleModel35": "Al-Tabari (RH)",
+  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
+  "dailyRoleModel38": "Ibn Sina (RH)",
+  "dailyRoleModel39": "Al-Biruni (RH)",
+  "dailyRoleModel40": "Ibn Rushd (RH)",
+  "dailyRoleModel41": "Ibn Khaldun (RH)",
+  "dailyRoleModel42": "Ibn Battuta (RH)",
+  "dailyRoleModel43": "Prophet Ibrahim (AS)",
+  "dailyRoleModel44": "Prophet Musa (AS)",
+  "dailyRoleModel45": "Prophet Isa (AS)",
+  "dailyRoleModel46": "Prophet Yusuf (AS)",
+  "dailyRoleModel47": "Prophet Dawud (AS)",
+  "dailyRoleModel48": "Prophet Sulayman (AS)",
+  "dailyRoleModel49": "Prophet Nuh (AS)",
+  "dailyRoleModel50": "Prophet Yunus (AS)",
+  "dailyRoleModel51": "Prophet Ayub (AS)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
+  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
+  "dailyRoleModel54": "Hassan ibn Ali (RA)",
+  "dailyRoleModel55": "Hussain ibn Ali (RA)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
+
+  "locationConsentLabel": "Επιτρέψτε στο Nuria να χρησιμοποιήσει την τοποθεσία μου για κατεύθυνση Qibla και ώρες προσευχής",
+  "locationConsentHint": "Χρησιμοποιείται μόνο για αυτές τις λειτουργίες. Η τοποθεσία σας δεν διαμοιράζεται ή αποθηκεύεται ποτέ.",
+
+  "askPageTitle": "Ρωτήστε Nuria",
+  "askPageDescription": "Κάντε ερωτήσεις για την πίστη, την προσευχή, τη ζωή ή τις ισλαμικές πρακτικές και λάβετε καθοδήγηση που ριζώνεται στο Κοράνι και τη Σούννα.",
+  "askPageInputHint": "Πληκτρολογήστε την ερώτησή σας εδώ…",
+  "askPageSubmitCta": "Ρωτήστε",
+  "askPageInputEmptyError": "Παρακαλώ γράψτε πρώτα μια ερώτηση.",
+  "askResultYourQuestion": "Η ερώτησή σας",
+
+  "guidancePageTitle": "Προσευχή & Καθοδήγηση",
+  "qiblaFacingMecca": "Αντικρύζω τη Μέκα",
+  "qiblaCompassInstruction": "Περιστρέψτε το τηλέφωνό σας έως ότου η χρυσή βελόνα δείχνει προς τα πάνω.\nΕκείνη η κατεύθυνση δείχνει προς το Qibla (Μέκα).",
+  "qiblaGpsUnavailableBody": "Το σήμα GPS είναι ασθενές. Μετακινηθείτε έξω και πατήστε Retry.",
+  "qiblaRetry": "Δοκιμάστε ξανά",
+  "qiblaTitle": "Κατεύθυνση Qibla",
+  "qiblaDistanceLabel": "{km} χλμ προς τη Μέκα",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Απαιτείται τοποθεσία",
+  "qiblaLocationNeededBody": "Επιτρέψτε την πρόσβαση τοποθεσίας ώστε το Nuria να μπορεί να υπολογίσει την κατεύθυνση της Kaaba στη Μέκα από όπου κι αν είστε.",
+  "qiblaOpenSettings": "Ανοίξτε τις Ρυθμίσεις",
+  "qiblaCompassLoading": "Εύρεση της θέσης σας…",
+  "qiblaTowardMecca": "Προς τη Μέκα",
+
+  "prayerTimesTitle": "Ώρες Προσευχής",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Dhuhr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Απαιτείται τοποθεσία",
+  "prayerTimesLocationNeededBody": "Επιτρέψτε την πρόσβαση τοποθεσίας ώστε το Nuria να μπορεί να υπολογίσει ακριβείς ώρες προσευχής για την πόλη σας.",
+  "prayerTimesNextLabel": "Επόμενο",
+  "prayerTimesDoneLabel": "Ολοκληρώθηκε",
+
+  "monthlyPrayerTimesTitle": "Μηνιαίες Ώρες Προσευχής",
+  "monthlyPrayerTimesViewButton": "Δείτε Ολόκληρο Μήνα",
+  "monthlyPrayerTimesNextMonth": "Επόμενος μήνας",
+  "monthlyPrayerTimesDayHeader": "Ημέρα",
+
+  "sharePrayerTimes": "Κοινοποίηση ωρών προσευχής",
+
+  "prayerNotificationsTitle": "Υπενθυμίσεις Προσευχής",
+  "prayerNotificationsDescription": "Λάβετε μια ήσυχη υπενθύμιση πριν από κάθε ώρα προσευχής για να σας βοηθήσει να παραμείνετε συνδεδεμένοι όλη την ημέρα.",
+  "prayerNotificationsEnable": "Ενεργοποίηση υπενθυμίσεων προσευχής",
+  "prayerNotificationsOpenSettings": "Ανοίξτε τις ρυθμίσεις ειδοποιήσεων",
+  "prayerNotificationsDenied": "Οι ειδοποιήσεις είναι απενεργοποιημένες",
+  "prayerNotificationsDeniedHint": "Πηγαίνετε στις Ρυθμίσεις και επιτρέψτε τις ειδοποιήσεις για το Nuria για να λάβετε υπενθυμίσεις ωρών προσευχής.",
+
+  "notificationsConsentLabel": "Επιτρέψτε τις ειδοποιήσεις για ώρες προσευχής",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Ορθρινή Προσευχή",
+  "prayerNotifBodyFajr": "Η καλύτερη των προσευχών είναι η ορθρινή προσευχή. Σηκωθείτε, καθαρίστε τους εαυτούς σας και σταθείτε μπροστά στον Αλλάχ.",
+
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Μεσημεριανή Προσευχή",
+  "prayerNotifBodyDhuhr": "Κάντε ανάσχεση στην ημέρα σας και επιστρέψτε στον Αλλάχ. Η ώρα της προσευχής Dhuhr έχει φτάσει.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Απογευματινή Προσευχή",
+  "prayerNotifBodyAsr": "Φυλάξτε τη μεσαία προσευχή. Η ώρα της Asr έχει έρθει — μην της επιτρέψετε να περάσει.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Προσευχή Δύσης",
+  "prayerNotifBodyMaghrib": "Ο ήλιος έχει δύσει. Προσφέρετε Maghrib και είστε ευγνώμονες στον Αλλάχ για αυτήν την ημέρα.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Νυχτερινή Προσευχή",
+  "prayerNotifBodyIsha": "Τερματίστε την ημέρα σας με ανάμνηση του Αλλάχ. Hayya 'alal falah — έρθετε προς επιτυχία.",
+
+  "outOfReflectionsBannerText": "Χρησιμοποιήσατε όλα τα αναστοχαστικά σας",
+  "outOfReflectionsBannerCta": "Πάρτε περισσότερα",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Πατήστε τον κύκλο για να μετρήσετε",
+  "dhikrResetButton": "Επαναφορά",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Έχετε ολοκληρώσει 99 αναμνήσεις του Αλλάχ. Ας είναι φως για την καρδιά σας.",
+
+  "disclaimerTitle": "Σχετικά με την καθοδήγηση της εφαρμογής",
+  "disclaimerBody": "Το Nuria παρέχει ισλαμικά αναστοχαστικά, υπενθυμίσεις και πνευματικό περιεχόμενο για να υποστηρίξει το προσωπικό σας ταξίδι πίστης. Αυτό το περιεχόμενο προσφέρεται για γενικές ενημερωτικές και ενθαρρυντικές σκοπούς μόνο.\n\nΤο Nuria δεν αντικαθιστά τη χαρακτηρισμένη υποχρέωση.\nΗ καθοδήγηση σε αυτήν την εφαρμογή δεν αντικαθιστά έναν εκπαιδευμένο σχολιαστή Ισλάμ, ιμάμη, μουφτή ή θεολογικά εκπαιδευμένο δάσκαλο. Αν έχετε ερωτήσεις σχετικά με θρησκευτικές αποφάσεις, θέματα halal και haram ή προσωπικές θρησκευτικές υποχρεώσεις, παρακαλώ ζητήστε συμβουλή από έναν αρμόδιο θρησκευτικό αρχή στην κοινότητά σας.\n\nΑυτή η εφαρμογή δεν εκδίδει θρησκευτικές αποφάσεις.\nΤο Nuria δεν κάνει αυθεντικές προσδιορισμούς σε θέματα fiqh (ισλαμικής νομιμότητας) ή προσωπικών θρησκευτικών υποχρεώσεων. Τίποτα εδώ δεν θα πρέπει να θεωρείται ως fatwa ή δεσμευτική θρησκευτική εντολή.\n\nΟι σχολιαστικές ερμηνείες διαφέρουν.\nΤο Ισλάμ περιλαμβάνει ένα πλούσιο ποικιλία παραδόσεων, σχολών σκέψης (madhabs) και σχολιαστικών απόψεων. Το περιεχόμενο σε αυτήν την εφαρμογή αντανακλά γενικές προοπτικές και ενδέχεται να μην εκπροσωπεί κάθε παράδοση ή σχολή εξίσου.\n\nΗ κοινότητα σημαίνει.\nΑυτή η εφαρμογή έχει σκοπό να ενθαρρύνει την εμπλοκή σας με τις παραδόσεις πίστης ενώ σεβάστε βαθιά τον ζωτικό ρόλο της τοπικής σας τζαμί, ιμάμη και θρησκευτικής κοινότητας. Σας ενθαρρύνουμε να παραμείνετε συνδεδεμένοι με και να μάθετε από χαρακτηρισμένους δασκάλους κοντά σας.",
+  "disclaimerClose": "Κατανοώ",
+  "disclaimerInfoTooltip": "Σχετικά με την καθοδήγηση της εφαρμογής",
+  "disclaimerSettingsSubtitle": "Για γενικές ενημερωτικές σκοπούς μόνο. Πατήστε για να διαβάσετε την πλήρη αποποίηση.",
+  "disclaimerSectionHeader": "Αποποίηση καθοδήγησης"
+}

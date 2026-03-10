@@ -1,0 +1,21 @@
+{
+  "ace": [
+    "languageSuggestedBadge"
+  ],
+
+  "mg": [
+    "prayerNotificationsDeniedHint"
+  ],
+
+  "my": [
+    "currentLanguage",
+    "settingsLanguage",
+    "settingsTitle",
+    "chooseLanguage",
+    "continueCta"
+  ],
+
+  "si": [
+    "dailyGraceSaintLabel"
+  ]
+}

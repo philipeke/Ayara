@@ -1,0 +1,585 @@
+{
+  "@@locale": "zh_CN",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "选择您的语言",
+  "languageSelectSub": "您可以稍后在设置中更改此选项",
+  "actionContinue": "继续",
+  "languageSuggestedHeader": "推荐",
+  "languageAllHeader": "所有语言",
+  "languageSuggestedBadge": "推荐",
+  "languageSearchHint": "搜索…",
+
+  "planGrace": "标准版",
+  "planBlessed": "祝福版",
+
+  "categoryDailyGuidance": "每日指引",
+  "categoryFaithTrust": "信仰与信赖",
+  "categoryPrayerReflection": "礼拜反思",
+  "categoryHopeDifficultTimes": "耐心与希望",
+  "categoryForgiveness": "寻求宽恕",
+  "categoryLoveCompassion": "仁慈与怜悯",
+  "categoryStrengthCourage": "信仰力量",
+  "categoryGratitude": "感恩之心",
+  "categoryPurposeCalling": "人生目的",
+  "categoryFamilyRelationships": "家庭纽带",
+  "categoryPeaceAnxietyRelief": "内心平和",
+  "categoryWisdomOfJesus": "先知智慧",
+  "categoryHumilityCharacter": "美德品格",
+  "categoryOvercomingTemptation": "抵抗诱惑",
+  "categoryEveningReflection": "晚间纪念",
+  "categoryCustom": "个人反思",
+  "dhikrMeaningSubhanallah": "荣耀归于真主",
+  "dhikrMeaningAlhamdulillah": "所有赞美都归于真主",
+  "dhikrMeaningAllahuAkbar": "真主是伟大的",
+  "quranVerseHeartAtRest": "确实，在对真主的怀念中，心灵得以安息。",
+
+  "promptHint": "点击一个分类以获得伊斯兰指引和反思",
+
+  "currentLanguage": "当前语言",
+  "settingsLanguage": "语言设置",
+  "settingsTitle": "设置",
+  "chooseLanguage": "选择您的语言",
+  "continueCta": "继续",
+
+  "promptDailyGuidance": "撰写一则简短的、实用的每日指引，扎根于逊尼伊斯兰信仰——以《古兰经》、《圣训》和穆罕默德先知的教导为基础。每次选择一个新的角度：伊斯兰伦理中的美德、逊奈中的真理、先知的同伴们的智慧，或伊斯兰传统中的一种静默实践。包括一节《古兰经》（章：节）和一句1-2句的反思，让人们可以在这一天中铭记。如果相关，可以选择性地将其与伊斯兰历法或重要日期联系起来。",
+
+  "promptFaithTrust": "撰写一则关于伊玛目（信仰）和对真主计划的信赖（托靠）的简短伊斯兰反思。以《古兰经》、穆罕默德先知的榜样和圣门弟子的信仰为基础。每次改变主题：在不确定中信任真主、依赖真主的智慧、在考验中的耐心，或日常生活中的静默坚持。包括一节《古兰经》和从伊斯兰灵性智慧中汲取的一个诚实的行动步骤。",
+
+  "promptPrayerReflection": "撰写一则关于礼拜、祈祷或纪念真主的简短伊斯兰反思。每次改变形式：早晨或晚间的纪念（阿德卡尔）、对五时礼拜的反思、对《古兰经》经文的沉思，或是一个诚挚的祈祷。包括一节《古兰经》并简要说明所使用的祈祷形式。",
+
+  "promptHopeDifficultTimes": "撰写一则关于在困难时期的耐心（萨卜尔）和希望的伊斯兰反思。从关于考验的《古兰经》教导、众先知的坚持和真主在困难时刻的慈悯中汲取灵感。每次改变角度。包括一节《古兰经》和来自伊斯兰传统的一个鼓舞人心的观点。",
+
+  "promptForgiveness": "撰写一则关于寻求宽恕（图白）和真主慈悯的睿智伊斯兰反思。从关于忏悔的《古兰经》教导、真主的怜悯和穆罕默德先知宽恕的榜样中汲取灵感。改变主题：回归真主、原谅他人、修复关系，或在犯错后相信真主的慈悯。包括一节《古兰经》和一个具体的步骤。",
+
+  "promptLoveCompassion": "撰写一则关于在日常生活中的仁慈（拉赫玛）和怜悯的简短伊斯兰反思。从穆罕默德先知的榜样、伊赫桑（卓越）的概念和伊斯兰关于对家人、邻居和弱势群体的善待教导中汲取灵感。包括一节《古兰经》和一个今天要实践的小小慈悲行为。",
+
+  "promptStrengthCourage": "撰写一则关于信仰力量和勇气的伊斯兰反思。从众先知的例子、早期穆斯林社区和在困难中保持坚定的信徒中汲取灵感。每次改变主题：通过信仰获得勇气、在祈祷中获得力量、在恐惧中信赖真主，或在困难中的韧性。包括一节《古兰经》和一个简短的祈祷或纪念真主的短语。",
+
+  "promptGratitude": "撰写一则关于对真主感恩（舒克尔）的伊斯兰反思。以《古兰经》教导和先知传统为基础。改变角度：在困难中感恩、欣赏小小的祝福、以赞颂真主开始新的一天，或在日常生活中认识真主的引导。包括一节《古兰经》和一个感恩实践。",
+
+  "promptPurposeCalling": "撰写一则关于崇拜真主和正义地生活的人生目的的伊斯兰反思。从关于目的的《古兰经》教导、服侍他人和运用自己的天赋为善中汲取灵感。每次改变主题：服侍家庭和社区、通过伊斯蒂卡拉寻求引导、带着意图地生活，或在普通工作中找到意义。包括一节《古兰经》和两个反思性问题。",
+
+  "promptFamilyRelationships": "撰写基于《古兰经》教导和穆罕默德先知榜样的睿智伊斯兰家庭和关系指引。每次改变主题：家庭生活中的善待、冲突中的耐心、尊敬父母、在信仰中养育子女，或加强婚姻关系。包括一节《古兰经》和一个要尝试的关系实践。",
+
+  "promptPeaceAnxietyRelief": "撰写一则关于通过纪念真主（迪克尔）和对真主计划的信赖来寻找内心平和的平静伊斯兰反思。从关于心灵宁静、祈祷和顺从真主意志的《古兰经》教导中汲取灵感。每次改变方法并包括一节《古兰经》和一个来自伊斯兰传统的简单扎根实践。",
+
+  "promptWisdomOfJesus": "撰写一则来自伊斯兰教导中先知们的短小智慧。从《古兰经》或《圣训》汲取灵感，并简要解释伊斯兰学者如何理解这一教导。每次改变话题：品格、耐心、谦逊、信仰或日常行为。包括一处《古兰经》经文或《圣训》参考和一个实际应用。",
+
+  "promptHumilityCharacter": "撰写一则关于谦逊（塔瓦度）和美德品格（阿赫拉克）的伊斯兰反思。从《古兰经》教导、穆罕默德先知的榜样和伊斯兰品格发展传统中汲取灵感。改变主题：领导中的谦逊、承认错误、尊重地对待他人，或通过自我反思精神成长。包括一节《古兰经》和一个要实践的习惯。",
+
+  "promptOvercomingTemptation": "撰写一则关于抵抗诱惑并走在正道上的伊斯兰反思。从《古兰经》指引、纪念真主（迪克尔）、礼拜（萨拉）和克服困难的信徒榜样中汲取灵感。每次改变角度。包括一节《古兰经》和接下来24小时的一个实际策略。",
+
+  "promptEveningReflection": "撰写一则基于晚间纪念传统（阿德卡尔·阿尔·麻萨）的平静伊斯兰晚间反思。鼓励感恩、自我反思（穆哈萨巴）和休息前对真主的信赖。包括3-5个关于今天的简短反思提示、一个简短的结束祈祷和一节《古兰经》。",
+
+  "wordCount": "{count, plural, one {{count}个单词} other {{count}个单词}}",
+
+  "optionsCta": "选项",
+  "newCta": "新建",
+  "actionsTitle": "您想做什么？",
+  "copy": "复制",
+  "share": "分享",
+  "close": "关闭",
+  "copiedToast": "已复制到剪贴板",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "包括分类标签的电子邮件/分享主题行。",
+    "placeholders": {
+      "category": { "type": "String", "example": "每日指引" }
+    }
+  },
+
+  "regenerateErrorTitle": "无法生成新的回复",
+  "regenerateErrorBody": "{error}\n\n您想重试吗？",
+  "@regenerateErrorBody": {
+    "description": "在重新生成AI回复失败时显示。",
+    "placeholders": {
+      "error": { "type": "String", "example": "网络错误" }
+    }
+  },
+
+  "cancelCta": "取消",
+  "retryCta": "重试",
+
+  "authTitle": "创建您的账户",
+  "continueAsGuest": "以访客身份继续",
+  "signInGoogle": "使用Google登录",
+  "signInApple": "使用Apple登录",
+  "signInEmail": "使用电子邮件登录",
+  "upgradeWithApple": "使用Apple继续",
+  "mustAccept": "您必须接受服务条款并确认隐私政策。",
+  "termsLabel": "我接受服务条款",
+  "privacyLabel": "我已阅读隐私政策",
+  "marketingOptIn": "我同意接收新闻和优惠",
+  "openTerms": "服务条款",
+  "openPrivacy": "隐私政策",
+
+  "accountSection": "账户",
+  "guestMode": "访客模式",
+  "signedIn": "已登录",
+  "upgradeHint": "通过创建账户在设备之间保存您的反思。",
+  "upgradeWithGoogle": "使用Google继续",
+  "signOut": "登出",
+
+  "snackUpgraded": "账户已用Google升级 ✅",
+  "snackSignedIn": "已用Google登录 ✅",
+  "snackSignedOut": "已登出",
+  "snackSignedInApple": "已用Apple登录 ✅",
+  "snackSignedInGoogle": "已用Google登录 ✅",
+  "snackUpgradedApple": "账户已用Apple升级 ✅",
+  "snackUpgradedGoogle": "账户已用Google升级 ✅",
+
+  "historyTitle": "之前的反思",
+  "historyOpenCta": "之前的反思",
+  "historyEmpty": "还没有保存的反思。",
+  "historyDeleteTitle": "删除反思？",
+  "historyDeleteBody": "这将永久删除所选项目。",
+  "deleteCta": "删除",
+
+  "historyButton": "之前的反思",
+  "historyEmptyTitle": "还没有反思",
+  "historyEmptyBody": "先生成一些内容——您保存的项目将在此处出现。",
+  "historyDelete": "删除",
+
+  "footerTitle": "以伊玛目、耐心和仁慈为伴。",
+  "footerSubtitle": "一次一步。",
+  "genericErrorSnack": "出错了——请稍后重试。",
+
+  "upgradeAccountCta": "在设备之间保存您的反思——创建账户",
+  "deleteAccount": "删除账户",
+  "exportData": "导出我的数据",
+
+  "userUidLabel": "用户ID：{uid}",
+  "@userUidLabel": {
+    "description": "显示内部Firebase用户ID之前的标签。",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "别太急哦 🐯\n人工智能需要时间来生成下一个…",
+  "rateDailyLimit": "您现在用完了反思。\n获取更多反思或升级到祝福版。",
+  "rateCreditsExhausted": "您已用完了所有的反思。\n充值或升级到祝福版以继续。",
+  "rateGraceReflectionsExhausted": "您现在用完了反思。\n获取更多反思或升级到祝福版。",
+  "rateReflectionsExhausted": "您已用完了所有的反思。\n充值或升级到祝福版以继续。",
+
+  "blessedDescription": "祝福版解锁高级功能、未来分类和特殊徽章。",
+  "championDescription": "祝福版解锁高级功能、未来分类和特殊徽章。",
+
+  "ratePlanExhausted": "您的反思现在已用完。计划：{plan}。",
+  "@ratePlanExhausted": {
+    "description": "当用户的反思用完但原因是通用的时显示。",
+    "placeholders": {
+      "plan": { "type": "String", "example": "标准版或祝福版" }
+    }
+  },
+
+  "rateCheckFailed": "无法检查您的反思：{message}",
+  "@rateCheckFailed": {
+    "description": "当可调用函数返回错误消息时显示。",
+    "placeholders": {
+      "message": { "type": "String", "example": "网络错误" }
+    }
+  },
+
+  "rateCheckGenericError": "检查您的反思时出错。",
+  "aiFallbackGeneric": "出错了——请稍后重试。",
+
+  "limitSectionTitle": "反思",
+  "limitTodayLabel": "使用情况",
+  "limitCreditsLabel": "剩余反思：{credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "计划：{plan}",
+  "@limitPlanLabel": {
+    "description": "显示当前订阅计划名称。",
+    "placeholders": {
+      "plan": { "type": "String", "example": "标准版或祝福版" }
+    }
+  },
+  "limitLoadingLabel": "加载中…",
+  "limitLoadingLabelDescription": "在获取使用统计数据时在反思卡中显示。",
+
+  "aiLimitTitle": "反思",
+  "aiLimitSubtitle": "每个回复使用1个反思。标准版包括入门反思。祝福版解锁高级分类并启用充值。",
+  "aiLimitProgressLabel": "{used} / {total}个反思已使用",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "反思",
+  "reflectionsUsageLabel": "使用情况",
+  "reflectionsRemainingLabel": "剩余反思：{reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "计划：{plan}",
+  "@reflectionsPlanLabel": {
+    "description": "显示当前计划名称。",
+    "placeholders": {
+      "plan": { "type": "String", "example": "标准版或祝福版" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "加载中…",
+  "reflectionsLoadingLabelDescription": "在获取反思统计数据时显示。",
+
+  "reflectionsTitle": "反思",
+  "reflectionsSubtitle": "每个回复使用1个反思。标准版包括入门反思。祝福版解锁高级分类并启用充值。",
+  "reflectionsProgressLabel": "{used} / {total}个反思已使用",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "删除账户",
+  "settingsDeleteDescription": "永久删除您的账户和所有相关数据。",
+  "settingsDeleteButtonLabel": "删除我的账户",
+  "settingsDeleteDialogTitle": "删除账户？",
+  "settingsDeleteDialogBody": "此操作是永久性的，无法撤销。\n\n您的所有聊天、历史记录和账户信息将被删除。",
+  "settingsDeleteDialogCancel": "取消",
+  "settingsDeleteDialogConfirm": "删除",
+
+  "settingsFreeLimitUsedTitle": "入门反思已用完",
+  "settingsFreeLimitUsedDescription": "此设备的入门反思已用完。升级到祝福版或购买更多反思以继续。",
+
+  "settingsStarterReflectionsUsedTitle": "入门反思已用完",
+  "settingsStarterReflectionsUsedDescription": "此设备的入门反思已用完。升级到祝福版或购买更多反思以继续。",
+
+  "deviceBoundError": "此设备已链接到另一个账户。请使用原始账户登录。",
+
+  "premiumTitle": "祝福版模式",
+  "premiumSubtitleBasic": "解锁完整的Nuria体验。",
+  "premiumSubtitleChampion": "您是祝福版。需要更多反思？",
+
+  "premiumCurrentPlan": "当前计划：{plan}",
+  "premiumCreditsStatus": "反思：{remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "购买暂时不可用。",
+  "premiumSignInToPurchase": "登录以购买反思或解锁祝福版。",
+
+  "premiumRestorePurchases": "恢复购买",
+  "premiumProcessing": "处理中…",
+  "premiumRestoreHintTitle": "已在此设备或其他设备上购买祝福版或反思？",
+  "premiumRestoreHintBody": "如果您的购买未显示，请恢复购买。",
+
+  "premiumBuyCredits200": "购买200个反思",
+  "premiumBuyCredits400": "购买400个反思",
+  "premiumBecomeChampionOneTime": "升级到祝福版模式",
+  "premiumChampionHint": "作为祝福版用户，您可以随时充值额外的反思。",
+
+  "premiumUpgradeCta": "升级",
+  "premiumRequiredForCategory": "此分类仅适用于祝福版用户。在设置中升级以解锁所有高级内容。",
+  "premiumBenefitsBasic": "解锁祝福版以获得额外反思、访问高级分类，并在需要指引时继续。",
+  "premiumBenefitsChampion": "您处于祝福版模式。如果反思不足，添加一些额外反思并继续，不会中断。",
+  "premiumButtonBecomeChampion": "解锁祝福版",
+  "premiumButtonTopup1000": "添加1000个反思",
+  "premiumChampionBadge": "祝福版已激活",
+  "premiumLoadingStore": "加载商店中…",
+
+  "blessedTitle": "祝福版模式",
+  "blessedSubtitleGrace": "解锁完整的Nuria体验。",
+  "blessedSubtitleBlessed": "您是祝福版。需要更多反思？",
+
+  "blessedCurrentPlan": "当前计划：{plan}",
+  "blessedReflectionsStatus": "反思：{remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "购买暂时不可用。",
+  "blessedProductNotAvailable": "此产品在商店中暂时不可用。请稍后重试。",
+  "blessedPurchaseError": "购买出错。请重试。",
+  "blessedSignInToPurchase": "登录以购买反思或解锁祝福版。",
+
+  "blessedRestorePurchases": "恢复购买",
+  "blessedProcessing": "处理中…",
+  "blessedRestoreHintTitle": "已在此设备或其他设备上购买祝福版或反思？",
+  "blessedRestoreHintBody": "如果您的购买未显示，请恢复购买。",
+
+  "blessedBuyReflections100": "添加100个反思",
+  "blessedBuyReflections200": "购买200个反思",
+  "blessedBuyReflections400": "购买400个反思",
+  "blessedBecomeBlessedOneTime": "升级到祝福版",
+  "blessedTopupHint": "作为祝福版用户，您可以随时充值额外的反思。",
+
+  "blessedUpgradeCta": "升级",
+  "blessedRequiredForCategory": "此分类仅适用于祝福版用户。在设置中升级以解锁所有高级内容。",
+  "blessedFeatureLocked": "解锁祝福版以访问此功能。",
+  "lockedCategoriesHint": "某些分类仅供祝福版成员使用。解锁它们以探索您信仰之旅中的每一个反思。",
+  "blessedBenefitsGrace": "解锁祝福版以获得额外反思、访问高级分类，并在需要指引时继续。",
+  "blessedBenefitsBlessed": "您处于祝福版模式。如果反思不足，添加一些额外反思并继续，不会中断。",
+  "blessedButtonBecomeBlessed": "解锁祝福版",
+  "blessedButtonTopup1000": "添加1000个反思",
+  "blessedBadge": "祝福版已激活",
+  "blessedLoadingStore": "加载商店中…",
+
+  "freePlanBlockedTitle": "您已用完入门反思",
+  "freePlanBlockedBody": "您使用的是标准版计划，附带入门反思，且已达到限制。要继续——并解锁高级分类——请升级到祝福版。",
+  "freePlanBlockedCtaGoPremium": "下方查看祝福版选项",
+
+  "graceBlockedTitle": "您已用完入门反思",
+  "graceBlockedBody": "您使用的是标准版计划，附带入门反思，且已达到限制。要继续——并解锁高级分类——请升级到祝福版。",
+  "graceBlockedCtaGoBlessed": "下方查看祝福版选项",
+
+  "rateGuestMustSignIn": "登录以使用Nuria和您的反思。",
+
+  "guestNoCreditsTitle": "访客模式",
+  "guestNoCreditsBody": "作为访客，您可以浏览应用程序，但不能使用反思。稍后在设置中登录以使用反思并解锁购买。",
+
+  "guestNoReflectionsTitle": "访客模式",
+  "guestNoReflectionsBody": "作为访客，您可以浏览应用程序，但不能使用反思。稍后在设置中登录以使用反思并解锁购买。",
+
+  "guestDialogContinue": "继续",
+  "guestDialogLoginInstead": "改为登录",
+
+  "optionalLabel": "可选",
+
+  "accountDeleteSuccessTitle": "账户已删除",
+  "accountDeleteSuccessBody": "您的账户和相关数据已成功删除。",
+  "accountDeleteSuccessClose": "关闭",
+  "accountDeleteErrorTitle": "无法删除账户",
+  "accountDeleteErrorClose": "确定",
+  "accountDeleteReauthCancelled": "重新认证已取消。请重新登录并重试删除。",
+  "accountDeleteReauthRequired": "账户删除需要最近的登录。请登出、重新登录并重试。",
+  "settingsDeletePermanentWarning": "此操作是永久性的，无法撤销。与您的账户相关的所有数据将被删除。",
+
+  "dailyGraceTitle": "每日指引",
+  "dailyGraceScriptureLabel": "每日经文",
+  "dailyGraceSaintLabel": "本周学者",
+  "dailyGraceReflectionLabel": "晚间反思",
+  "dailyGraceCopiedToast": "经文已复制到剪贴板",
+
+  "dailyScripture0Text": "确实，正义的人将在花园和河流中，在一位强大真主的荣耀座位前。",
+  "dailyScripture0Ref": "《古兰经》54:54-55",
+  "dailyScripture1Text": "我们派遣你，穆罕默德啊，不过是对世人的慈悯。",
+  "dailyScripture1Ref": "《古兰经》21:107",
+  "dailyScripture2Text": "真主对祂的仆人而言不够吗？然而他们用他人来吓唬你。",
+  "dailyScripture2Ref": "《古兰经》39:36",
+  "dailyScripture3Text": "或许你厌恶某件事，而它对你是好的；或许你热爱某件事，而它对你是坏的。真主知道，而你不知道。",
+  "dailyScripture3Ref": "《古兰经》2:216",
+  "dailyScripture4Text": "确实，真主与耐心的人同在。",
+  "dailyScripture4Ref": "《古兰经》2:153",
+  "dailyScripture5Text": "所以你们当记念我，我就记念你们。你们应该感谢我，不要忘恩负义。",
+  "dailyScripture5Ref": "《古兰经》2:152",
+  "dailyScripture6Text": "确实，你们中最高贵的在真主眼中是最敬虔的。",
+  "dailyScripture6Ref": "《古兰经》49:13",
+  "dailyScripture7Text": "你的真主已命令，除他之外，你们不要崇拜任何东西，并孝顺你们的父母。",
+  "dailyScripture7Ref": "《古兰经》17:23",
+  "dailyScripture8Text": "确实，与困难同来的是宽松。",
+  "dailyScripture8Ref": "《古兰经》94:6",
+  "dailyScripture9Text": "他与你们同在，无论你们在哪里。真主看到你们所做的一切。",
+  "dailyScripture9Ref": "《古兰经》57:4",
+  "dailyScripture10Text": "真主不会给灵魂超过其所能承受的负担。",
+  "dailyScripture10Ref": "《古兰经》2:286",
+  "dailyScripture11Text": "凡依赖真主的人——真主对他而言就已足够。",
+  "dailyScripture11Ref": "《古兰经》65:3",
+  "dailyScripture12Text": "我的慈悯覆盖一切。",
+  "dailyScripture12Ref": "《古兰经》7:156",
+  "dailyScripture13Text": "我的仆人问你关于我——确实我是接近的。我回应祈求者，当他呼唤我时。",
+  "dailyScripture13Ref": "《古兰经》2:186",
+  "dailyScripture14Text": "凡行善者，男性或女性，且是信徒——我们将使他过上良好的生活。",
+  "dailyScripture14Ref": "《古兰经》16:97",
+  "dailyScripture15Text": "确实，真主不会改变人民的状况，直到他们改变自己内心的状况。",
+  "dailyScripture15Ref": "《古兰经》13:11",
+  "dailyScripture16Text": "所以不要虚弱，不要悲伤，如果你们是信徒，你们就会胜利。",
+  "dailyScripture16Ref": "《古兰经》3:139",
+  "dailyScripture17Text": "我违背自己灵魂的仆人啊，不要绝望真主的慈悯。确实，真主饶恕所有的罪过。",
+  "dailyScripture17Ref": "《古兰经》39:53",
+  "dailyScripture18Text": "凡敬畏真主的人——真主将为他开辟出路，并从他不期待的地方供养他。",
+  "dailyScripture18Ref": "《古兰经》65:2-3",
+  "dailyScripture19Text": "不要失去对真主慈悯的希望。",
+  "dailyScripture19Ref": "《古兰经》12:87",
+  "dailyScripture20Text": "我们确实使《古兰经》易于记住。那么，有人会留意吗？",
+  "dailyScripture20Ref": "《古兰经》54:17",
+  "dailyScripture21Text": "他发现你迷失，引导了你。",
+  "dailyScripture21Ref": "《古兰经》93:7",
+  "dailyScripture22Text": "你的真主说：呼唤我，我会回应你。",
+  "dailyScripture22Ref": "《古兰经》40:60",
+  "dailyScripture23Text": "我们确实已荣耀亚当的后裔。",
+  "dailyScripture23Ref": "《古兰经》17:70",
+  "dailyScripture24Text": "通过耐心和祈祷寻求帮助。",
+  "dailyScripture24Ref": "《古兰经》2:45",
+  "dailyScripture25Text": "凡行原子重量的善的人，他将看到它。",
+  "dailyScripture25Ref": "《古兰经》99:7",
+  "dailyScripture26Text": "毫无疑问，真主的帮助是接近的。",
+  "dailyScripture26Ref": "《古兰经》2:214",
+  "dailyScripture27Text": "凡心存感恩的人——他的感恩只对他自己有益。",
+  "dailyScripture27Ref": "《古兰经》31:12",
+
+  "dailyReflection0": "当这一天结束时，考虑一个真主的慈悯显而易见的时刻。",
+  "dailyReflection1": "把今天困扰你心灵的一切带到真主面前。",
+  "dailyReflection2": "说出这一天的一个祝福，并对真主表示感恩。",
+  "dailyReflection3": "安心地在真主的无限关怀中休息。",
+  "dailyReflection4": "反思你今天被召唤展现慈悲和善待的地方。",
+  "dailyReflection5": "放下你无法控制的事物，相信真主完美的计划。",
+  "dailyReflection6": "当白天结束时，在对真主的纪念中获得平和。",
+  "dailyReflection7": "思考你今天如何尊敬了你的礼拜，感谢真主的每一个。",
+  "dailyReflection8": "反思耐心（萨卜尔）如何引导你今天的行为。",
+  "dailyReflection9": "为今天的任何缺陷寻求宽恕——真主的慈悯是无限的。",
+  "dailyReflection10": "说出你今天展现善待的一个人，并为他们祈祷。",
+  "dailyReflection11": "坐下感恩：真主今天为你提供了什么，是你没有要求的？",
+  "dailyReflection12": "反思《古兰经》中的一节经文，这讲述了你现在的处境。",
+  "dailyReflection13": "考虑你今天如何使用时间——把明天奉献给真主。",
+  "dailyReflection14": "安心地知道，无论今天有什么困难，真主都与你同在。",
+  "dailyReflection15": "想一想你今天为了真主的缘故服侍家人或社区的一种方式。",
+  "dailyReflection16": "当夜幕降临时，悔过——真主喜爱那些回归祂的人。",
+  "dailyReflection17": "反思真主在你的这一天中所放置的美好，无论多小。",
+  "dailyReflection18": "考虑你今天学到了什么，以及它如何使你更接近真主。",
+  "dailyReflection19": "让白天的烦恼与真主同在——祂承载着你所无法承受的。",
+  "dailyReflection20": "想一想今天你本可以选择更好的一个时刻，温和地从中学习。",
+  "dailyReflection21": "为那些在挣扎的人祈祷——你的祈祷对他们是一份礼物。",
+  "dailyReflection22": "回忆一个你经常忽视的祝福，花时间感谢真主。",
+  "dailyReflection23": "反思你今天的意图——它们是为了真主吗？明天，重新开始。",
+  "dailyReflection24": "当夜晚安静下来时，倾听真主在寂静中的接近。",
+  "dailyReflection25": "考虑你今天在哪里找到了力量——那力量来自真主。",
+  "dailyReflection26": "说出明天你将为真主的缘故做的一件事，这是你今天没有做的。",
+  "dailyReflection27": "当你准备休息时，将你的灵魂托付给真主——祂是最好的守护者。",
+
+  "dailyRoleModel0": "穆罕默德先知 ﷺ",
+  "dailyRoleModel1": "艾布·伯克尔·阿斯-西迪克（愿真主喜悦他）",
+  "dailyRoleModel2": "欧麦尔·伊本·哈塔卜（愿真主喜悦他）",
+  "dailyRoleModel3": "奥斯曼·伊本·阿凡（愿真主喜悦他）",
+  "dailyRoleModel4": "阿里·伊本·阿比·塔利卜（愿真主喜悦他）",
+  "dailyRoleModel5": "哈迪嘉·宾特·胡韦莱德（愿真主喜悦她）",
+  "dailyRoleModel6": "阿伊莎·宾特·艾布·伯克尔（愿真主喜悦她）",
+  "dailyRoleModel7": "法蒂玛·扎·扎赫拉（愿真主喜悦她）",
+  "dailyRoleModel8": "比拉尔·伊本·拉巴（愿真主喜悦他）",
+  "dailyRoleModel9": "萨尔曼·阿尔-法里西（愿真主喜悦他）",
+  "dailyRoleModel10": "艾布·胡莱拉（愿真主喜悦他）",
+  "dailyRoleModel11": "阿卜杜拉·伊本·阿巴斯（愿真主喜悦他）",
+  "dailyRoleModel12": "阿卜杜拉·伊本·麦苏德（愿真主喜悦他）",
+  "dailyRoleModel13": "穆阿茨·伊本·贾巴尔（愿真主喜悦他）",
+  "dailyRoleModel14": "穆萨卜·伊本·欧迈尔（愿真主喜悦他）",
+  "dailyRoleModel15": "苏迈亚·宾特·胡巴卜（愿真主喜悦她）",
+  "dailyRoleModel16": "阿马尔·伊本·亚西尔（愿真主喜悦他）",
+  "dailyRoleModel17": "乌姆·萨拉玛（愿真主喜悦她）",
+  "dailyRoleModel18": "哈立德·伊本·阿尔-瓦利德（愿真主喜悦他）",
+  "dailyRoleModel19": "扎伊德·伊本·塔比特（愿真主喜悦他）",
+  "dailyRoleModel20": "哈夫萨·宾特·欧麦尔（愿真主喜悦她）",
+  "dailyRoleModel21": "欧麦尔·伊本·阿卜杜勒·阿齐兹（愿真主慈悯他）",
+  "dailyRoleModel22": "伊玛目·艾布·哈尼法（愿真主慈悯他）",
+  "dailyRoleModel23": "伊玛目·马利克·伊本·阿纳斯（愿真主慈悯他）",
+  "dailyRoleModel24": "伊玛目·沙菲仪（愿真主慈悯他）",
+  "dailyRoleModel25": "伊玛目·艾哈迈德·伊本·罕百勒（愿真主慈悯他）",
+  "dailyRoleModel26": "伊玛目·布哈里（愿真主慈悯他）",
+  "dailyRoleModel27": "伊玛目·穆斯林（愿真主慈悯他）",
+  "dailyRoleModel28": "伊玛目·特尔米兹（愿真主慈悯他）",
+  "dailyRoleModel29": "阿尔-加扎里（愿真主慈悯他）",
+  "dailyRoleModel30": "伊本·卡伊姆·阿尔-贾瓦兹耶（愿真主慈悯他）",
+  "dailyRoleModel31": "伊本·泰米耶（愿真主慈悯他）",
+  "dailyRoleModel32": "阿尔-纳瓦维（愿真主慈悯他）",
+  "dailyRoleModel33": "伊本·哈杰尔·阿尔-阿斯卡拉尼（愿真主慈悯他）",
+  "dailyRoleModel34": "伊本·卡西尔（愿真主慈悯他）",
+  "dailyRoleModel35": "阿尔-塔巴里（愿真主慈悯他）",
+  "dailyRoleModel36": "苏夫扬·阿尔-特保瑞（愿真主慈悯他）",
+  "dailyRoleModel37": "法赫尔·丁·阿尔-拉兹（愿真主慈悯他）",
+  "dailyRoleModel38": "伊本·西那（愿真主慈悯他）",
+  "dailyRoleModel39": "阿尔-比鲁尼（愿真主慈悯他）",
+  "dailyRoleModel40": "伊本·鲁什德（愿真主慈悯他）",
+  "dailyRoleModel41": "伊本·哈勒敦（愿真主慈悯他）",
+  "dailyRoleModel42": "伊本·巴图塔（愿真主慈悯他）",
+  "dailyRoleModel43": "先知易卜拉欣（愿他平安）",
+  "dailyRoleModel44": "先知穆萨（愿他平安）",
+  "dailyRoleModel45": "先知耶稣（愿他平安）",
+  "dailyRoleModel46": "先知优素福（愿他平安）",
+  "dailyRoleModel47": "先知大卫（愿他平安）",
+  "dailyRoleModel48": "先知所罗门（愿他平安）",
+  "dailyRoleModel49": "先知努赫（愿他平安）",
+  "dailyRoleModel50": "先知优努斯（愿他平安）",
+  "dailyRoleModel51": "先知艾优卜（愿他平安）",
+  "dailyRoleModel52": "鲁卡亚·宾特·穆罕默德（愿真主喜悦她）",
+  "dailyRoleModel53": "扎伊娜卜·宾特·穆罕默德（愿真主喜悦她）",
+  "dailyRoleModel54": "哈桑·伊本·阿里（愿真主喜悦他）",
+  "dailyRoleModel55": "侯赛因·伊本·阿里（愿真主喜悦他）",
+  "dailyRoleModel56": "贾法尔·伊本·阿比·塔利卜（愿真主喜悦他）",
+  "dailyRoleModel57": "艾布·扎尔·阿尔-吉法里（愿真主喜悦他）",
+  "dailyRoleModel58": "塔尔哈·伊本·欧贝德真主（愿真主喜悦他）",
+  "dailyRoleModel59": "阿兹-祖拜尔·伊本·阿尔-阿瓦姆（愿真主喜悦他）",
+
+  "locationConsentLabel": "允许Nuria使用我的位置信息来确定朝向和祈祷时间",
+  "locationConsentHint": "仅用于这些功能。您的位置永远不会被共享或存储。",
+
+  "askPageTitle": "询问Nuria",
+  "askPageDescription": "询问任何关于信仰、祈祷、生活或伊斯兰实践的问题，获得基于《古兰经》和圣训的指引。",
+  "askPageInputHint": "在此输入您的问题…",
+  "askPageSubmitCta": "提问",
+  "askPageInputEmptyError": "请先写下您的问题。",
+  "askResultYourQuestion": "您的问题",
+
+  "guidancePageTitle": "祈祷与指引",
+  "qiblaFacingMecca": "面向麦加",
+  "qiblaCompassInstruction": "旋转您的手机，直到金色指针指向上方。\n该方向指向朝向（麦加）。",
+  "qiblaGpsUnavailableBody": "GPS信号较弱。请移到户外并点击重试。",
+  "qiblaRetry": "重试",
+  "qiblaTitle": "朝向方向",
+  "qiblaDistanceLabel": "离麦加{km}公里",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "需要位置信息",
+  "qiblaLocationNeededBody": "允许位置访问，以便Nuria可以从您所在的任何地方计算圣殿方向。",
+  "qiblaOpenSettings": "打开设置",
+  "qiblaCompassLoading": "正在查找您的位置…",
+  "qiblaTowardMecca": "朝向麦加",
+
+  "prayerTimesTitle": "祈祷时间",
+  "prayerTimesFajr": "晨礼",
+  "prayerTimesDhuhr": "晌礼",
+  "prayerTimesAsr": "晡礼",
+  "prayerTimesMaghrib": "昏礼",
+  "prayerTimesIsha": "宵礼",
+  "prayerTimesLocationNeededTitle": "需要位置信息",
+  "prayerTimesLocationNeededBody": "允许位置访问，以便Nuria可以计算您所在城市的准确祈祷时间。",
+  "prayerTimesNextLabel": "下一个",
+  "prayerTimesDoneLabel": "完成",
+
+  "monthlyPrayerTimesTitle": "月度祈祷时间",
+  "monthlyPrayerTimesViewButton": "查看整月",
+  "monthlyPrayerTimesNextMonth": "下一个月",
+  "monthlyPrayerTimesDayHeader": "日期",
+
+  "sharePrayerTimes": "分享祈祷时间",
+
+  "prayerNotificationsTitle": "祈祷提醒",
+  "prayerNotificationsDescription": "在每个祈祷时间前收到温和的提醒，帮助您全天保持连接。",
+  "prayerNotificationsEnable": "启用祈祷提醒",
+  "prayerNotificationsOpenSettings": "打开通知设置",
+  "prayerNotificationsDenied": "通知已禁用",
+  "prayerNotificationsDeniedHint": "转到设置，允许Nuria的通知以接收祈祷时间提醒。",
+
+  "notificationsConsentLabel": "允许祈祷时间的通知",
+
+  "prayerNotifTitleFajr": "🌅 晨礼——晨礼",
+  "prayerNotifBodyFajr": "最好的祈祷是晨礼。起身，净化自己，在真主面前站立。",
+
+  "prayerNotifTitleDhuhr": "☀️ 晌礼——中午祈祷",
+  "prayerNotifBodyDhuhr": "停下来回到真主。晌礼时间到了。",
+
+  "prayerNotifTitleAsr": "🌤️ 晡礼——午后祈祷",
+  "prayerNotifBodyAsr": "守护中间的祈祷。晡礼时间到了——不要让它流逝。",
+
+  "prayerNotifTitleMaghrib": "🌇 昏礼——日落祈祷",
+  "prayerNotifBodyMaghrib": "太阳已下山。献出昏礼，感谢真主这一天。",
+
+  "prayerNotifTitleIsha": "🌙 宵礼——夜间祈祷",
+  "prayerNotifBodyIsha": "以对真主的纪念结束您的一天。赶来走向成功。",
+
+  "outOfReflectionsBannerText": "您已用完所有反思",
+  "outOfReflectionsBannerCta": "获取更多",
+
+  "dhikrPageTitle": "纪念真主",
+  "dhikrTapToCount": "点击圆圈来计数",
+  "dhikrResetButton": "重置",
+  "dhikrComplete": "玛莎真主见证",
+  "dhikrCompleteMessage": "您已完成99次纪念真主。愿它们成为您心灵的光芒。",
+
+  "disclaimerTitle": "关于此应用程序的指引",
+  "disclaimerBody": "Nuria提供伊斯兰反思、提醒和精神内容，以支持您个人信仰之旅。此内容仅为一般信息和鼓舞目的。\n\nNuria不能替代合格的学者。\n此应用程序中的指引不能替代学识渊博的伊斯兰学者、伊玛目、穆夫提或神学训练有素的教师。如果您对宗教裁决、合法和不合法事项或个人宗教义务有疑问，请咨询您社区中的合格宗教权威人士。\n\n此应用程序不发布宗教裁决。\nNuria不对伊斯兰教法（伊斯兰学）事项或个人宗教义务做出权威决定。此处任何内容都不应被视为宗教裁决或有约束力的宗教指示。\n\n学术解释各不相同。\n伊斯兰教包含丰富多样的传统、思想学派（麦德哈卜）和学术观点。此应用程序中的内容反映了一般观点，可能不会平均代表每种传统或学派。\n\n社区很重要。\n此应用程序旨在鼓励您参与信仰传统，同时深尊重您当地清真寺、伊玛目和宗教社区的重要角色。我们鼓励您与您附近的合格教师保持联系并向他们学习。",
+  "disclaimerClose": "我理解",
+  "disclaimerInfoTooltip": "关于此应用程序的指引",
+  "disclaimerSettingsSubtitle": "仅供一般信息之用。点击阅读完整免责声明。",
+  "disclaimerSectionHeader": "指引免责声明"
+}

@@ -1,0 +1,585 @@
+{
+  "@@locale": "ar_AE",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "اختر لغتك",
+  "languageSelectSub": "يمكنك تغيير ذلك لاحقاً من الإعدادات",
+  "actionContinue": "متابعة",
+  "languageSuggestedHeader": "مقترحة",
+  "languageAllHeader": "جميع اللغات",
+  "languageSuggestedBadge": "مقترحة",
+  "languageSearchHint": "بحث…",
+
+  "planGrace": "العادية",
+  "planBlessed": "بركة",
+
+  "categoryDailyGuidance": "التوجيه اليومي",
+  "categoryFaithTrust": "الإيمان والتوكل",
+  "categoryPrayerReflection": "تأمل في الصلاة",
+  "categoryHopeDifficultTimes": "الصبر والأمل",
+  "categoryForgiveness": "طلب المغفرة",
+  "categoryLoveCompassion": "الرحمة والشفقة",
+  "categoryStrengthCourage": "قوة الإيمان",
+  "categoryGratitude": "قلب شاكر",
+  "categoryPurposeCalling": "هدف الحياة",
+  "categoryFamilyRelationships": "صلة الرحم",
+  "categoryPeaceAnxietyRelief": "السكينة الداخلية",
+  "categoryWisdomOfJesus": "حكمة الأنبياء",
+  "categoryHumilityCharacter": "حسن الخُلق",
+  "categoryOvercomingTemptation": "مقاومة الفتنة",
+  "categoryEveningReflection": "ذكر المساء",
+  "categoryCustom": "تأمل شخصي",
+  "dhikrMeaningSubhanallah": "سبحان الله",
+  "dhikrMeaningAlhamdulillah": "الحمد لله",
+  "dhikrMeaningAllahuAkbar": "الله أكبر",
+  "quranVerseHeartAtRest": "إنما في ذكر الله تطمئن القلوب.",
+
+  "promptHint": "اضغط على فئة للحصول على توجيه إسلامي وتأمل روحاني",
+
+  "currentLanguage": "اللغة الحالية",
+  "settingsLanguage": "إعدادات اللغة",
+  "settingsTitle": "الإعدادات",
+  "chooseLanguage": "اختر لغتك",
+  "continueCta": "متابعة",
+
+  "promptDailyGuidance": "اكتب توجيهاً يومياً عملياً مختصراً مستنداً إلى العقيدة الإسلامية السنية، مستمداً من القرآن الكريم والحديث النبوي الشريف وتعاليم النبي محمد ﷺ. اختر زاوية جديدة في كل مرة: فضيلة من فضائل الأخلاق الإسلامية، أو حقيقة من السنة النبوية، أو حكمة من صحابة رسول الله، أو ممارسة روحية من التراث الإسلامي. أضف آية كريمة من القرآن مع ذكر السورة والآية، ومقطع تأملي من جملة أو جملتين يمكن للقارئ حمله معه طوال يومه. ويمكن ربطه بالتقويم الهجري أو مناسبة إسلامية مهمة إن كان ذلك مناسباً.",
+
+  "promptFaithTrust": "اكتب تأملاً إسلامياً مختصراً حول الإيمان والتوكل على الله. استند إلى القرآن الكريم وسيرة النبي محمد ﷺ وإيمان الصحابة الكرام. نوّع الموضوع في كل مرة: التوكل على الله في أوقات الغموض، والاستسلام للحكمة الإلهية، والصبر عند الابتلاء، أو المثابرة الهادئة في الحياة اليومية. أضف آية كريمة وخطوة عملية صادقة لليوم مستمدة من الحكمة الإسلامية الروحية.",
+
+  "promptPrayerReflection": "اكتب تأملاً إسلامياً مختصراً حول الصلاة والدعاء والذكر. نوّع الشكل في كل مرة: أذكار الصباح أو المساء، أو تأمل في الصلوات الخمس، أو تدبر في آية قرآنية، أو دعاء خاشع من القلب. أضف آية كريمة وأشر باختصار إلى نوع العبادة المستخدمة.",
+
+  "promptHopeDifficultTimes": "اكتب تأملاً إسلامياً حول الصبر والأمل في أوقات الشدة. استمد من التعاليم القرآنية في مواجهة الابتلاءات، وصبر الأنبياء عليهم السلام، ورحمة الله في اللحظات العسيرة. نوّع الزاوية في كل مرة. أضف آية كريمة ومنظوراً مشجعاً من التراث الإسلامي.",
+
+  "promptForgiveness": "اكتب تأملاً إسلامياً حكيماً حول التوبة ورحمة الله الواسعة. استمد من التعاليم القرآنية في الاستغفار وحلم الله وعفوه، والقدوة الكريمة للنبي محمد ﷺ. نوّع الموضوع: العودة إلى الله، والعفو عن الآخرين، وإصلاح ذات البين، أو الثقة برحمة الله بعد الذنب. أضف آية كريمة وخطوة عملية واحدة.",
+
+  "promptLoveCompassion": "اكتب تأملاً إسلامياً مختصراً حول الرحمة والشفقة في الحياة اليومية. استمد من سيرة النبي محمد ﷺ ومفهوم الإحسان، والتعاليم الإسلامية في معاملة الأهل والجيران والضعفاء. أضف آية كريمة وعملاً رحيماً واحداً يمكن تطبيقه اليوم.",
+
+  "promptStrengthCourage": "اكتب تأملاً إسلامياً حول القوة والشجاعة المستمدتين من الإيمان. استمد من أمثلة الأنبياء عليهم السلام والجيل الأول من المسلمين والمؤمنين الذين ثبتوا في مواجهة الشدائد. نوّع الموضوع في كل مرة: الشجاعة بالإيمان، والقوة في الصلاة، والثقة بالله في أوقات الخوف، أو الصمود في مواجهة الصعاب. أضف آية كريمة ودعاء مختصر أو عبارة ذكر.",
+
+  "promptGratitude": "اكتب تأملاً إسلامياً حول الشكر لله سبحانه وتعالى. استند إلى التعاليم القرآنية والسنة النبوية. نوّع الزاوية: الشكر في الضيق، والامتنان على النعم الصغيرة، أو بدء اليوم بحمد الله، أو إدراك هداية الله في الحياة اليومية. أضف آية كريمة وممارسة شكر واحدة.",
+
+  "promptPurposeCalling": "اكتب تأملاً إسلامياً حول هدف الحياة في عبادة الله والعيش بصلاح. استمد من التعاليم القرآنية حول الغاية من الوجود وخدمة الخلق وتوظيف المواهب في الخير. نوّع الموضوع في كل مرة: خدمة الأسرة والمجتمع، والتوجيه بصلاة الاستخارة، أو العيش بنية صادقة، أو إيجاد المعنى في العمل اليومي. أضف آية كريمة وسؤالين للتأمل والتفكر.",
+
+  "promptFamilyRelationships": "اكتب توجيهاً إسلامياً حكيماً حول الأسرة والعلاقات، مستنداً إلى التعاليم القرآنية وسيرة النبي محمد ﷺ. نوّع الموضوع في كل مرة: اللطف في الحياة الأسرية، والصبر عند الخلاف، أو بر الوالدين، أو تربية الأبناء على الإيمان، أو تمتين أواصر الزواج. أضف آية كريمة وممارسة علائقية واحدة للتطبيق.",
+
+  "promptPeaceAnxietyRelief": "اكتب تأملاً إسلامياً هادئاً حول إيجاد السكينة بذكر الله والتوكل على تدبيره. استمد من التعاليم القرآنية حول طمأنينة القلب، والصلاة، والتسليم لمشيئة الله. نوّع الأسلوب في كل مرة، وأضف آية كريمة وممارسة تهدئة واحدة مستمدة من التراث الإسلامي.",
+
+  "promptWisdomOfJesus": "اكتب قطعة مختصرة من حكمة الأنبياء عليهم السلام كما جاءت في الإسلام. استمد من القرآن الكريم أو الحديث النبوي الشريف واشرح باختصار كيف فهم علماء الإسلام هذه الحكمة. نوّع الموضوع في كل مرة: الخُلق، والصبر، والتواضع، أو الإيمان، أو السلوك اليومي. أضف آية قرآنية أو مرجعاً حديثياً وتطبيقاً عملياً واحداً.",
+
+  "promptHumilityCharacter": "اكتب تأملاً إسلامياً حول التواضع وحسن الخُلق. استمد من التعاليم القرآنية وسيرة النبي محمد ﷺ وتراث التزكية الإسلامية. نوّع الموضوع: التواضع في القيادة، والاعتراف بالأخطاء، ومعاملة الآخرين باحترام، أو النمو الروحي بالمراجعة الذاتية. أضف آية كريمة وعادة واحدة للتطبيق.",
+
+  "promptOvercomingTemptation": "اكتب تأملاً إسلامياً حول مقاومة الإغراء والثبات على الصراط المستقيم. استمد من التوجيه القرآني وذكر الله والصلاة وأمثلة المؤمنين الذين تغلبوا على الفتن. نوّع الزاوية في كل مرة. أضف آية كريمة واستراتيجية عملية واحدة لتطبيقها خلال الأربع والعشرين ساعة القادمة.",
+
+  "promptEveningReflection": "اكتب تأملاً مسائياً هادئاً مستنداً إلى أذكار المساء المأثورة. شجّع على الشكر والمحاسبة وحسن التوكل على الله قبل النوم. أضف ثلاثة إلى خمسة أسئلة تأملية مختصرة عن اليوم المنصرم، ودعاءً ختامياً قصيراً، وآية كريمة.",
+
+  "wordCount": "{count, plural, one {{count} كلمة} other {{count} كلمات}}",
+
+  "optionsCta": "خيارات",
+  "newCta": "جديد",
+  "actionsTitle": "ماذا تريد أن تفعل؟",
+  "copy": "نسخ",
+  "share": "مشاركة",
+  "close": "إغلاق",
+  "copiedToast": "تم النسخ إلى الحافظة",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Email / share subject line including the category label.",
+    "placeholders": {
+      "category": { "type": "String", "example": "التوجيه اليومي" }
+    }
+  },
+
+  "regenerateErrorTitle": "تعذّر توليد ردٍّ جديد",
+  "regenerateErrorBody": "{error}\n\nهل تريد المحاولة مجدداً؟",
+  "@regenerateErrorBody": {
+    "description": "Shown when regenerating an AI answer fails.",
+    "placeholders": {
+      "error": { "type": "String", "example": "خطأ في الشبكة" }
+    }
+  },
+
+  "cancelCta": "إلغاء",
+  "retryCta": "حاول مجدداً",
+
+  "authTitle": "إنشاء حسابك",
+  "continueAsGuest": "المتابعة كضيف",
+  "signInGoogle": "تسجيل الدخول بـ Google",
+  "signInApple": "تسجيل الدخول بـ Apple",
+  "signInEmail": "تسجيل الدخول بالبريد الإلكتروني",
+  "upgradeWithApple": "المتابعة بـ Apple",
+  "mustAccept": "يجب عليك قبول شروط الخدمة والإقرار بسياسة الخصوصية.",
+  "termsLabel": "أوافق على شروط الخدمة",
+  "privacyLabel": "لقد قرأت سياسة الخصوصية",
+  "marketingOptIn": "أوافق على تلقّي الأخبار والعروض",
+  "openTerms": "شروط الخدمة",
+  "openPrivacy": "سياسة الخصوصية",
+
+  "accountSection": "الحساب",
+  "guestMode": "وضع الضيف",
+  "signedIn": "مسجّل الدخول",
+  "upgradeHint": "احفظ تأملاتك على جميع أجهزتك بإنشاء حساب.",
+  "upgradeWithGoogle": "المتابعة بـ Google",
+  "signOut": "تسجيل الخروج",
+
+  "snackUpgraded": "تمت ترقية الحساب بـ Google ✅",
+  "snackSignedIn": "تم تسجيل الدخول بـ Google ✅",
+  "snackSignedOut": "تم تسجيل الخروج",
+  "snackSignedInApple": "تم تسجيل الدخول بـ Apple ✅",
+  "snackSignedInGoogle": "تم تسجيل الدخول بـ Google ✅",
+  "snackUpgradedApple": "تمت ترقية الحساب بـ Apple ✅",
+  "snackUpgradedGoogle": "تمت ترقية الحساب بـ Google ✅",
+
+  "historyTitle": "التأملات السابقة",
+  "historyOpenCta": "التأملات السابقة",
+  "historyEmpty": "لا توجد تأملات محفوظة بعد.",
+  "historyDeleteTitle": "حذف التأمل؟",
+  "historyDeleteBody": "سيؤدي هذا إلى حذف العنصر المحدد نهائياً.",
+  "deleteCta": "حذف",
+
+  "historyButton": "التأملات السابقة",
+  "historyEmptyTitle": "لا توجد تأملات بعد",
+  "historyEmptyBody": "أنشئ تأملاً أولاً — ستظهر العناصر المحفوظة هنا.",
+  "historyDelete": "حذف",
+
+  "footerTitle": "بالإيمان والصبر والرحمة.",
+  "footerSubtitle": "خطوة واحدة في كل مرة.",
+  "genericErrorSnack": "حدث خطأ ما — يرجى المحاولة مجدداً بعد لحظة.",
+
+  "upgradeAccountCta": "احفظ تأملاتك على جميع أجهزتك — أنشئ حساباً",
+  "deleteAccount": "حذف الحساب",
+  "exportData": "تصدير بياناتي",
+
+  "userUidLabel": "المعرّف: {uid}",
+  "@userUidLabel": {
+    "description": "Label before showing the internal Firebase UID.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "على رسلك 🐯\nالذكاء الاصطناعي يحتاج لحظة قبل الطلب التالي…",
+  "rateDailyLimit": "لقد استنفدت تأملاتك في الوقت الحالي.\nاحصل على المزيد أو قم بالترقية إلى بركة.",
+  "rateCreditsExhausted": "لقد استخدمت جميع تأملاتك.\nأضف رصيداً أو قم بالترقية إلى بركة للمتابعة.",
+  "rateGraceReflectionsExhausted": "لقد استنفدت تأملاتك في الوقت الحالي.\nاحصل على المزيد أو قم بالترقية إلى بركة.",
+  "rateReflectionsExhausted": "لقد استخدمت جميع تأملاتك.\nأضف رصيداً أو قم بالترقية إلى بركة للمتابعة.",
+
+  "blessedDescription": "يفتح بركة الميزات المميزة والفئات القادمة وشارة خاصة.",
+  "championDescription": "يفتح بركة الميزات المميزة والفئات القادمة وشارة خاصة.",
+
+  "ratePlanExhausted": "تأملاتك فارغة الآن. الخطة: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "العادية أو بركة" }
+    }
+  },
+
+  "rateCheckFailed": "تعذّر التحقق من تأملاتك: {message}",
+  "@rateCheckFailed": {
+    "description": "Shown when the callable function returns an error message.",
+    "placeholders": {
+      "message": { "type": "String", "example": "خطأ في الشبكة" }
+    }
+  },
+
+  "rateCheckGenericError": "حدث خطأ أثناء التحقق من تأملاتك.",
+  "aiFallbackGeneric": "حدث خطأ ما — يرجى المحاولة مجدداً بعد لحظة.",
+
+  "limitSectionTitle": "التأملات",
+  "limitTodayLabel": "الاستخدام",
+  "limitCreditsLabel": "التأملات المتبقية: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "الخطة: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "العادية أو بركة" }
+    }
+  },
+  "limitLoadingLabel": "جاري التحميل…",
+  "limitLoadingLabelDescription": "يظهر في بطاقة التأملات أثناء جلب إحصاءات الاستخدام.",
+
+  "aiLimitTitle": "التأملات",
+  "aiLimitSubtitle": "كل رد يستخدم تأملاً واحداً. تشمل الخطة العادية تأملات تمهيدية. بركة يفتح الفئات المميزة ويتيح إضافة رصيد.",
+  "aiLimitProgressLabel": "{used} / {total} تأملات مستخدمة",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "التأملات",
+  "reflectionsUsageLabel": "الاستخدام",
+  "reflectionsRemainingLabel": "التأملات المتبقية: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "الخطة: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "العادية أو بركة" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "جاري التحميل…",
+  "reflectionsLoadingLabelDescription": "يظهر أثناء جلب إحصاءات التأملات.",
+
+  "reflectionsTitle": "التأملات",
+  "reflectionsSubtitle": "كل رد يستخدم تأملاً واحداً. تشمل الخطة العادية تأملات تمهيدية. بركة يفتح الفئات المميزة ويتيح إضافة رصيد.",
+  "reflectionsProgressLabel": "{used} / {total} تأملات مستخدمة",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "حذف الحساب",
+  "settingsDeleteDescription": "حذف حسابك وجميع بياناتك المرتبطة به نهائياً.",
+  "settingsDeleteButtonLabel": "حذف حسابي",
+  "settingsDeleteDialogTitle": "حذف الحساب؟",
+  "settingsDeleteDialogBody": "هذا الإجراء نهائي ولا يمكن التراجع عنه.\n\nسيتم حذف جميع محادثاتك وسجلّك ومعلومات حسابك.",
+  "settingsDeleteDialogCancel": "إلغاء",
+  "settingsDeleteDialogConfirm": "حذف",
+
+  "settingsFreeLimitUsedTitle": "استُنفدت التأملات التمهيدية",
+  "settingsFreeLimitUsedDescription": "لقد استُنفدت التأملات التمهيدية لهذا الجهاز. قم بالترقية إلى بركة أو اشترِ المزيد للمتابعة.",
+
+  "settingsStarterReflectionsUsedTitle": "استُنفدت التأملات التمهيدية",
+  "settingsStarterReflectionsUsedDescription": "لقد استُنفدت التأملات التمهيدية لهذا الجهاز. قم بالترقية إلى بركة أو اشترِ المزيد للمتابعة.",
+
+  "deviceBoundError": "هذا الجهاز مرتبط بحساب آخر بالفعل. يرجى تسجيل الدخول بالحساب الأصلي.",
+
+  "premiumTitle": "وضع بركة",
+  "premiumSubtitleBasic": "افتح التجربة الكاملة مع Nuria.",
+  "premiumSubtitleChampion": "أنت في وضع بركة. هل تحتاج إلى مزيد من التأملات؟",
+
+  "premiumCurrentPlan": "الخطة الحالية: {plan}",
+  "premiumCreditsStatus": "التأملات: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "المشتريات غير متاحة في الوقت الحالي.",
+  "premiumSignInToPurchase": "سجّل الدخول لشراء تأملات أو فتح بركة.",
+
+  "premiumRestorePurchases": "استعادة المشتريات",
+  "premiumProcessing": "جاري المعالجة…",
+  "premiumRestoreHintTitle": "هل اشتريت بركة أو تأملات على هذا الجهاز أو جهاز آخر سابقاً؟",
+  "premiumRestoreHintBody": "استعِد مشترياتك إذا لم تكن تظهر لديك.",
+
+  "premiumBuyCredits200": "شراء 200 تأمل",
+  "premiumBuyCredits400": "شراء 400 تأمل",
+  "premiumBecomeChampionOneTime": "الترقية إلى وضع بركة",
+  "premiumChampionHint": "بوضع بركة، يمكنك إضافة تأملات إضافية متى احتجت إليها.",
+
+  "premiumUpgradeCta": "ترقية",
+  "premiumRequiredForCategory": "هذه الفئة متاحة لأعضاء بركة فقط. قم بالترقية من الإعدادات لفتح جميع المحتوى المميز.",
+  "premiumBenefitsBasic": "افتح بركة للحصول على تأملات إضافية والوصول إلى الفئات المميزة والمتابعة متى احتجت للتوجيه.",
+  "premiumBenefitsChampion": "أنت في وضع بركة. إذا كنت على وشك النفاد، أضف المزيد من التأملات وتابع دون انقطاع.",
+  "premiumButtonBecomeChampion": "فتح بركة",
+  "premiumButtonTopup1000": "إضافة 1000 تأمل",
+  "premiumChampionBadge": "بركة مفعّل",
+  "premiumLoadingStore": "جاري تحميل المتجر…",
+
+  "blessedTitle": "وضع بركة",
+  "blessedSubtitleGrace": "افتح التجربة الكاملة مع Nuria.",
+  "blessedSubtitleBlessed": "أنت في وضع بركة. هل تحتاج إلى مزيد من التأملات؟",
+
+  "blessedCurrentPlan": "الخطة الحالية: {plan}",
+  "blessedReflectionsStatus": "التأملات: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "المشتريات غير متاحة في الوقت الحالي.",
+  "blessedProductNotAvailable": "هذا المنتج غير متوفر في المتجر حالياً. يرجى المحاولة لاحقاً.",
+  "blessedPurchaseError": "حدث خطأ في عملية الشراء. يرجى المحاولة مجدداً.",
+  "blessedSignInToPurchase": "سجّل الدخول لشراء تأملات أو فتح بركة.",
+
+  "blessedRestorePurchases": "استعادة المشتريات",
+  "blessedProcessing": "جاري المعالجة…",
+  "blessedRestoreHintTitle": "هل اشتريت بركة أو تأملات على هذا الجهاز أو جهاز آخر سابقاً؟",
+  "blessedRestoreHintBody": "استعِد مشترياتك إذا لم تكن تظهر لديك.",
+
+  "blessedBuyReflections100": "إضافة 100 تأمل",
+  "blessedBuyReflections200": "شراء 200 تأمل",
+  "blessedBuyReflections400": "شراء 400 تأمل",
+  "blessedBecomeBlessedOneTime": "الترقية إلى بركة",
+  "blessedTopupHint": "بوضع بركة، يمكنك إضافة تأملات إضافية متى احتجت إليها.",
+
+  "blessedUpgradeCta": "ترقية",
+  "blessedRequiredForCategory": "هذه الفئة متاحة لأعضاء بركة فقط. قم بالترقية من الإعدادات لفتح جميع المحتوى المميز.",
+  "blessedFeatureLocked": "افتح بركة للوصول إلى هذه الميزة.",
+  "lockedCategoriesHint": "بعض الفئات مخصصة لأعضاء بركة. افتحها لاستكشاف كل تأمل في رحلتك الروحية.",
+  "blessedBenefitsGrace": "افتح بركة للحصول على تأملات إضافية والوصول إلى الفئات المميزة والمتابعة متى احتجت للتوجيه.",
+  "blessedBenefitsBlessed": "أنت في وضع بركة. إذا كنت على وشك النفاد، أضف المزيد من التأملات وتابع دون انقطاع.",
+  "blessedButtonBecomeBlessed": "فتح بركة",
+  "blessedButtonTopup1000": "إضافة 1000 تأمل",
+  "blessedBadge": "بركة مفعّل",
+  "blessedLoadingStore": "جاري تحميل المتجر…",
+
+  "freePlanBlockedTitle": "لقد استنفدت تأملاتك التمهيدية",
+  "freePlanBlockedBody": "أنت على الخطة العادية وقد بلغت حد التأملات التمهيدية. للمتابعة وفتح الفئات المميزة، قم بالترقية إلى بركة.",
+  "freePlanBlockedCtaGoPremium": "اطّلع على خيارات بركة أدناه",
+
+  "graceBlockedTitle": "لقد استنفدت تأملاتك التمهيدية",
+  "graceBlockedBody": "أنت على الخطة العادية وقد بلغت حد التأملات التمهيدية. للمتابعة وفتح الفئات المميزة، قم بالترقية إلى بركة.",
+  "graceBlockedCtaGoBlessed": "اطّلع على خيارات بركة أدناه",
+
+  "rateGuestMustSignIn": "سجّل الدخول لاستخدام Nuria والاستفادة من تأملاتك.",
+
+  "guestNoCreditsTitle": "وضع الضيف",
+  "guestNoCreditsBody": "بوصفك ضيفاً يمكنك تصفّح التطبيق، لكن لا يمكنك استخدام التأملات. سجّل الدخول لاحقاً من الإعدادات للاستفادة من التأملات وفتح المشتريات.",
+
+  "guestNoReflectionsTitle": "وضع الضيف",
+  "guestNoReflectionsBody": "بوصفك ضيفاً يمكنك تصفّح التطبيق، لكن لا يمكنك استخدام التأملات. سجّل الدخول لاحقاً من الإعدادات للاستفادة من التأملات وفتح المشتريات.",
+
+  "guestDialogContinue": "متابعة",
+  "guestDialogLoginInstead": "تسجيل الدخول بدلاً من ذلك",
+
+  "optionalLabel": "اختياري",
+
+  "accountDeleteSuccessTitle": "تم حذف الحساب",
+  "accountDeleteSuccessBody": "تم حذف حسابك وبياناتك المرتبطة به بنجاح.",
+  "accountDeleteSuccessClose": "إغلاق",
+  "accountDeleteErrorTitle": "تعذّر حذف الحساب",
+  "accountDeleteErrorClose": "حسناً",
+  "accountDeleteReauthCancelled": "تم إلغاء إعادة المصادقة. يرجى تسجيل الدخول مجدداً وإعادة المحاولة.",
+  "accountDeleteReauthRequired": "يتطلب حذف الحساب تسجيل دخول حديثاً. يرجى تسجيل الخروج ثم تسجيل الدخول مجدداً وإعادة المحاولة.",
+  "settingsDeletePermanentWarning": "هذا الإجراء نهائي ولا يمكن التراجع عنه. سيتم حذف جميع البيانات المرتبطة بحسابك.",
+
+  "dailyGraceTitle": "التوجيه اليومي",
+  "dailyGraceScriptureLabel": "آية اليوم",
+  "dailyGraceSaintLabel": "عالم الأسبوع",
+  "dailyGraceReflectionLabel": "تأمل المساء",
+  "dailyGraceCopiedToast": "تم نسخ الآية إلى الحافظة",
+
+  "dailyScripture0Text": "إِنَّ الْمُتَّقِينَ فِي جَنَّاتٍ وَنَهَرٍ فِي مَقْعَدِ صِدْقٍ عِندَ مَلِيكٍ مُّقْتَدِرٍ.",
+  "dailyScripture0Ref": "القرآن الكريم 54:54-55",
+  "dailyScripture1Text": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ.",
+  "dailyScripture1Ref": "القرآن الكريم 21:107",
+  "dailyScripture2Text": "أَلَيْسَ اللَّهُ بِكَافٍ عَبْدَهُ وَيُخَوِّفُونَكَ بِالَّذِينَ مِن دُونِهِ.",
+  "dailyScripture2Ref": "القرآن الكريم 39:36",
+  "dailyScripture3Text": "وَعَسَىٰ أَن تَكْرَهُوا شَيْئًا وَهُوَ خَيْرٌ لَّكُمْ وَعَسَىٰ أَن تُحِبُّوا شَيْئًا وَهُوَ شَرٌّ لَّكُمْ وَاللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ.",
+  "dailyScripture3Ref": "القرآن الكريم 2:216",
+  "dailyScripture4Text": "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ.",
+  "dailyScripture4Ref": "القرآن الكريم 2:153",
+  "dailyScripture5Text": "فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ.",
+  "dailyScripture5Ref": "القرآن الكريم 2:152",
+  "dailyScripture6Text": "إِنَّ أَكْرَمَكُمْ عِندَ اللَّهِ أَتْقَاكُمْ.",
+  "dailyScripture6Ref": "القرآن الكريم 49:13",
+  "dailyScripture7Text": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا.",
+  "dailyScripture7Ref": "القرآن الكريم 17:23",
+  "dailyScripture8Text": "إِنَّ مَعَ الْعُسْرِ يُسْرًا.",
+  "dailyScripture8Ref": "القرآن الكريم 94:6",
+  "dailyScripture9Text": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ.",
+  "dailyScripture9Ref": "القرآن الكريم 57:4",
+  "dailyScripture10Text": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا.",
+  "dailyScripture10Ref": "القرآن الكريم 2:286",
+  "dailyScripture11Text": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ.",
+  "dailyScripture11Ref": "القرآن الكريم 65:3",
+  "dailyScripture12Text": "وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ.",
+  "dailyScripture12Ref": "القرآن الكريم 7:156",
+  "dailyScripture13Text": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ.",
+  "dailyScripture13Ref": "القرآن الكريم 2:186",
+  "dailyScripture14Text": "مَنْ عَمِلَ صَالِحًا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌ فَلَنُحْيِيَنَّهُ حَيَاةً طَيِّبَةً.",
+  "dailyScripture14Ref": "القرآن الكريم 16:97",
+  "dailyScripture15Text": "إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّىٰ يُغَيِّرُوا مَا بِأَنفُسِهِمْ.",
+  "dailyScripture15Ref": "القرآن الكريم 13:11",
+  "dailyScripture16Text": "وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ.",
+  "dailyScripture16Ref": "القرآن الكريم 3:139",
+  "dailyScripture17Text": "قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ إِنَّ اللَّهَ يَغْفِرُ الذُّنُوبَ جَمِيعًا.",
+  "dailyScripture17Ref": "القرآن الكريم 39:53",
+  "dailyScripture18Text": "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ.",
+  "dailyScripture18Ref": "القرآن الكريم 65:2-3",
+  "dailyScripture19Text": "وَلَا تَيْأَسُوا مِن رَّوْحِ اللَّهِ.",
+  "dailyScripture19Ref": "القرآن الكريم 12:87",
+  "dailyScripture20Text": "وَلَقَدْ يَسَّرْنَا الْقُرْآنَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ.",
+  "dailyScripture20Ref": "القرآن الكريم 54:17",
+  "dailyScripture21Text": "وَوَجَدَكَ ضَالًّا فَهَدَىٰ.",
+  "dailyScripture21Ref": "القرآن الكريم 93:7",
+  "dailyScripture22Text": "وَقَالَ رَبُّكُمُ ادْعُونِي أَسْتَجِبْ لَكُمْ.",
+  "dailyScripture22Ref": "القرآن الكريم 40:60",
+  "dailyScripture23Text": "وَلَقَدْ كَرَّمْنَا بَنِي آدَمَ.",
+  "dailyScripture23Ref": "القرآن الكريم 17:70",
+  "dailyScripture24Text": "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ.",
+  "dailyScripture24Ref": "القرآن الكريم 2:45",
+  "dailyScripture25Text": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ.",
+  "dailyScripture25Ref": "القرآن الكريم 99:7",
+  "dailyScripture26Text": "أَلَا إِنَّ نَصْرَ اللَّهِ قَرِيبٌ.",
+  "dailyScripture26Ref": "القرآن الكريم 2:214",
+  "dailyScripture27Text": "وَمَن يَشْكُرْ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِ.",
+  "dailyScripture27Ref": "القرآن الكريم 31:12",
+
+  "dailyReflection0": "مع إسدال الليل ستائره، تأمّل لحظة واحدة برزت فيها رحمة الله جلياً في يومك.",
+  "dailyReflection1": "اعرض على الله كل ما أثقل قلبك اليوم.",
+  "dailyReflection2": "سمِّ نعمة واحدة من نعم هذا اليوم واشكر الله عليها.",
+  "dailyReflection3": "اطمئن في يقينك أنك في كنف رعاية الله اللامتناهية.",
+  "dailyReflection4": "تأمّل في الأوقات التي أحسست فيها بالدعوة إلى إظهار الرحمة واللطف اليوم.",
+  "dailyReflection5": "تخلَّ عما لا تملك تغييره وتوكّل على تدبير الله الحكيم.",
+  "dailyReflection6": "مع اختتام اليوم، استقبل السكينة بذكر الله.",
+  "dailyReflection7": "تأمّل كيف أدّيت صلواتك اليوم، واشكر الله على كل واحدة منها.",
+  "dailyReflection8": "تأمّل في لحظة قادك فيها الصبر في اتخاذ قراراتك اليوم.",
+  "dailyReflection9": "اطلب المغفرة عن أي تقصير اليوم — رحمة الله لا حدود لها.",
+  "dailyReflection10": "سمِّ شخصاً واحداً أسديت إليه المعروف اليوم وادعُ له بالخير.",
+  "dailyReflection11": "قِف مع الشكر: ما الذي منحك الله إياه اليوم دون أن تسأله؟",
+  "dailyReflection12": "تأمّل في آية من القرآن تعبّر عن حالك الراهن.",
+  "dailyReflection13": "تأمّل كيف وظّفت وقتك اليوم — وأهدِ غدك لله.",
+  "dailyReflection14": "اطمئن في يقينك أن مهما جاء من شدّة اليوم، فالله كان معك فيها.",
+  "dailyReflection15": "فكّر في طريقة واحدة خدمت بها أسرتك أو مجتمعك اليوم ابتغاءً لوجه الله.",
+  "dailyReflection16": "مع نزول الليل، أقبِل على التوبة — الله يحب التوابين.",
+  "dailyReflection17": "تأمّل في الجمال الذي أودعه الله في يومك، مهما كان يسيراً.",
+  "dailyReflection18": "تأمّل فيما تعلّمته اليوم وكيف يقرّبك من الله.",
+  "dailyReflection19": "دع هموم اليوم عند الله — فهو يحمل ما عجزت عنه.",
+  "dailyReflection20": "فكّر في لحظة كان بإمكانك اختيار ما هو أحسن، وتعلّم منها بلطف مع نفسك.",
+  "dailyReflection21": "ادعُ لمن يعانون — فدعاؤك هدية لهم.",
+  "dailyReflection22": "استحضر نعمة كثيراً ما تغفل عنها وتوقّف لحظة لتشكر الله عليها.",
+  "dailyReflection23": "راجع نياتك اليوم — هل كانت لله؟ ابدأ الغد من جديد.",
+  "dailyReflection24": "مع سكون الليل، أنصت لقربِ الله في الصمت.",
+  "dailyReflection25": "تأمّل أين وجدت القوة اليوم — فتلك القوة من الله.",
+  "dailyReflection26": "سمِّ شيئاً واحداً ستفعله غداً لوجه الله لم تفعله اليوم.",
+  "dailyReflection27": "وأنت تتهيأ للراحة، سلِّم روحك إلى الله — فهو خير الحافظين.",
+
+  "dailyRoleModel0": "النبي محمد ﷺ",
+  "dailyRoleModel1": "أبو بكر الصديق رضي الله عنه",
+  "dailyRoleModel2": "عمر بن الخطاب رضي الله عنه",
+  "dailyRoleModel3": "عثمان بن عفان رضي الله عنه",
+  "dailyRoleModel4": "علي بن أبي طالب رضي الله عنه",
+  "dailyRoleModel5": "خديجة بنت خويلد رضي الله عنها",
+  "dailyRoleModel6": "عائشة بنت أبي بكر رضي الله عنها",
+  "dailyRoleModel7": "فاطمة الزهراء رضي الله عنها",
+  "dailyRoleModel8": "بلال بن رباح رضي الله عنه",
+  "dailyRoleModel9": "سلمان الفارسي رضي الله عنه",
+  "dailyRoleModel10": "أبو هريرة رضي الله عنه",
+  "dailyRoleModel11": "عبدالله بن عباس رضي الله عنهما",
+  "dailyRoleModel12": "عبدالله بن مسعود رضي الله عنه",
+  "dailyRoleModel13": "معاذ بن جبل رضي الله عنه",
+  "dailyRoleModel14": "مصعب بن عمير رضي الله عنه",
+  "dailyRoleModel15": "سمية بنت خباط رضي الله عنها",
+  "dailyRoleModel16": "عمار بن ياسر رضي الله عنه",
+  "dailyRoleModel17": "أم سلمة رضي الله عنها",
+  "dailyRoleModel18": "خالد بن الوليد رضي الله عنه",
+  "dailyRoleModel19": "زيد بن ثابت رضي الله عنه",
+  "dailyRoleModel20": "حفصة بنت عمر رضي الله عنها",
+  "dailyRoleModel21": "عمر بن عبد العزيز رحمه الله",
+  "dailyRoleModel22": "الإمام أبو حنيفة رحمه الله",
+  "dailyRoleModel23": "الإمام مالك بن أنس رحمه الله",
+  "dailyRoleModel24": "الإمام الشافعي رحمه الله",
+  "dailyRoleModel25": "الإمام أحمد بن حنبل رحمه الله",
+  "dailyRoleModel26": "الإمام البخاري رحمه الله",
+  "dailyRoleModel27": "الإمام مسلم رحمه الله",
+  "dailyRoleModel28": "الإمام الترمذي رحمه الله",
+  "dailyRoleModel29": "الإمام الغزالي رحمه الله",
+  "dailyRoleModel30": "ابن قيم الجوزية رحمه الله",
+  "dailyRoleModel31": "ابن تيمية رحمه الله",
+  "dailyRoleModel32": "الإمام النووي رحمه الله",
+  "dailyRoleModel33": "ابن حجر العسقلاني رحمه الله",
+  "dailyRoleModel34": "ابن كثير رحمه الله",
+  "dailyRoleModel35": "الإمام الطبري رحمه الله",
+  "dailyRoleModel36": "سفيان الثوري رحمه الله",
+  "dailyRoleModel37": "فخر الدين الرازي رحمه الله",
+  "dailyRoleModel38": "ابن سينا رحمه الله",
+  "dailyRoleModel39": "البيروني رحمه الله",
+  "dailyRoleModel40": "ابن رشد رحمه الله",
+  "dailyRoleModel41": "ابن خلدون رحمه الله",
+  "dailyRoleModel42": "ابن بطوطة رحمه الله",
+  "dailyRoleModel43": "النبي إبراهيم عليه السلام",
+  "dailyRoleModel44": "النبي موسى عليه السلام",
+  "dailyRoleModel45": "النبي عيسى عليه السلام",
+  "dailyRoleModel46": "النبي يوسف عليه السلام",
+  "dailyRoleModel47": "النبي داود عليه السلام",
+  "dailyRoleModel48": "النبي سليمان عليه السلام",
+  "dailyRoleModel49": "النبي نوح عليه السلام",
+  "dailyRoleModel50": "النبي يونس عليه السلام",
+  "dailyRoleModel51": "النبي أيوب عليه السلام",
+  "dailyRoleModel52": "رقية بنت محمد رضي الله عنها",
+  "dailyRoleModel53": "زينب بنت محمد رضي الله عنها",
+  "dailyRoleModel54": "الحسن بن علي رضي الله عنهما",
+  "dailyRoleModel55": "الحسين بن علي رضي الله عنهما",
+  "dailyRoleModel56": "جعفر بن أبي طالب رضي الله عنه",
+  "dailyRoleModel57": "أبو ذر الغفاري رضي الله عنه",
+  "dailyRoleModel58": "طلحة بن عبيدالله رضي الله عنه",
+  "dailyRoleModel59": "الزبير بن العوام رضي الله عنه",
+
+  "locationConsentLabel": "السماح لـ Nuria باستخدام موقعي لتحديد اتجاه القبلة ومواقيت الصلاة",
+  "locationConsentHint": "يُستخدم فقط لهذه الميزات. لن يُشارك موقعك أو يُحفظ.",
+
+  "askPageTitle": "اسأل Nuria",
+  "askPageDescription": "اسأل عن أي شيء يتعلق بالإيمان والصلاة والحياة والعبادة، وستتلقى توجيهاً مستنداً إلى القرآن والسنة.",
+  "askPageInputHint": "اكتب سؤالك هنا…",
+  "askPageSubmitCta": "اسأل",
+  "askPageInputEmptyError": "يرجى كتابة سؤال أولاً.",
+  "askResultYourQuestion": "سؤالك",
+
+  "guidancePageTitle": "الصلاة والتوجيه",
+  "qiblaFacingMecca": "في اتجاه مكة المكرمة",
+  "qiblaCompassInstruction": "أدِر هاتفك حتى تشير الإبرة الذهبية إلى الأعلى.\nذلك الاتجاه هو القبلة نحو مكة المكرمة.",
+  "qiblaGpsUnavailableBody": "إشارة GPS ضعيفة. اخرج إلى فضاء مفتوح واضغط على إعادة المحاولة.",
+  "qiblaRetry": "إعادة المحاولة",
+  "qiblaTitle": "اتجاه القبلة",
+  "qiblaDistanceLabel": "{km} كم إلى مكة المكرمة",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "الموقع مطلوب",
+  "qiblaLocationNeededBody": "اسمح بالوصول إلى موقعك حتى تتمكن Nuria من حساب اتجاه الكعبة المشرفة من حيث أنت.",
+  "qiblaOpenSettings": "فتح الإعدادات",
+  "qiblaCompassLoading": "جاري تحديد موقعك…",
+  "qiblaTowardMecca": "نحو مكة المكرمة",
+
+  "prayerTimesTitle": "مواقيت الصلاة",
+  "prayerTimesFajr": "الفجر",
+  "prayerTimesDhuhr": "الظهر",
+  "prayerTimesAsr": "العصر",
+  "prayerTimesMaghrib": "المغرب",
+  "prayerTimesIsha": "العشاء",
+  "prayerTimesLocationNeededTitle": "الموقع مطلوب",
+  "prayerTimesLocationNeededBody": "اسمح بالوصول إلى موقعك حتى تتمكن Nuria من حساب مواقيت الصلاة بدقة لمدينتك.",
+  "prayerTimesNextLabel": "التالي",
+  "prayerTimesDoneLabel": "تم",
+
+  "monthlyPrayerTimesTitle": "مواقيت الصلاة الشهرية",
+  "monthlyPrayerTimesViewButton": "عرض الشهر كاملاً",
+  "monthlyPrayerTimesNextMonth": "الشهر القادم",
+  "monthlyPrayerTimesDayHeader": "اليوم",
+
+  "sharePrayerTimes": "مشاركة مواقيت الصلاة",
+
+  "prayerNotificationsTitle": "تذكيرات الصلاة",
+  "prayerNotificationsDescription": "تلقَّ تذكيراً لطيفاً قبيل كل وقت صلاة لتبقى متصلاً بربك طوال اليوم.",
+  "prayerNotificationsEnable": "تفعيل تذكيرات الصلاة",
+  "prayerNotificationsOpenSettings": "فتح إعدادات الإشعارات",
+  "prayerNotificationsDenied": "الإشعارات معطّلة",
+  "prayerNotificationsDeniedHint": "انتقل إلى الإعدادات وافتح الإشعارات لـ Nuria لتلقّي تذكيرات مواقيت الصلاة.",
+
+  "notificationsConsentLabel": "السماح بإشعارات مواقيت الصلاة",
+
+  "prayerNotifTitleFajr": "🌅 الفجر — صلاة الفجر",
+  "prayerNotifBodyFajr": "خير الصلوات صلاة الفجر. قُم وتطهّر وقِف بين يدي الله.",
+
+  "prayerNotifTitleDhuhr": "☀️ الظهر — صلاة الظهر",
+  "prayerNotifBodyDhuhr": "أوقف مسيرة يومك وعُد إلى الله. حان وقت صلاة الظهر.",
+
+  "prayerNotifTitleAsr": "🌤️ العصر — صلاة العصر",
+  "prayerNotifBodyAsr": "حافظ على الصلاة الوسطى. حان وقت العصر — فلا تدعه يفوتك.",
+
+  "prayerNotifTitleMaghrib": "🌇 المغرب — صلاة المغرب",
+  "prayerNotifBodyMaghrib": "غابت الشمس. أدِّ صلاة المغرب واشكر الله على هذا اليوم.",
+
+  "prayerNotifTitleIsha": "🌙 العشاء — صلاة العشاء",
+  "prayerNotifBodyIsha": "اختم يومك بذكر الله. حيَّ على الفلاح — هلمَّ إلى النجاح.",
+
+  "outOfReflectionsBannerText": "لقد استخدمت جميع تأملاتك",
+  "outOfReflectionsBannerCta": "احصل على المزيد",
+
+  "dhikrPageTitle": "الذكر",
+  "dhikrTapToCount": "اضغط على الدائرة للعدّ",
+  "dhikrResetButton": "إعادة التعيين",
+  "dhikrComplete": "ما شاء الله",
+  "dhikrCompleteMessage": "لقد أتممت تسعاً وتسعين ذِكراً لله. جعلها الله نوراً لقلبك.",
+
+  "disclaimerTitle": "حول توجيهات هذا التطبيق",
+  "disclaimerBody": "توفّر Nuria تأملات إسلامية وتذكيرات ومحتوى روحياً لدعم رحلتك الإيمانية الشخصية. هذا المحتوى مقدَّم لأغراض إعلامية وتحفيزية عامة فحسب.\n\nلا تُغني Nuria عن العلم الشرعي المتخصص.\nالتوجيهات الواردة في هذا التطبيق لا تُعدّ بديلاً عن عالم دين متخصص أو إمام أو مفتٍ أو معلم متأهل. إن كانت لديك أسئلة تتعلق بالأحكام الشرعية أو الحلال والحرام أو الواجبات الدينية الشخصية، فيُرجى استشارة مرجع ديني مؤهل في بلدك.\n\nلا تُصدر هذه التطبيق فتاوى شرعية.\nلا تُقدم Nuria أحكاماً فقهية ملزمة أو تحديدات للواجبات الدينية الشخصية. لا ينبغي اعتبار أي شيء هنا فتوى أو توجيهاً دينياً ملزماً.\n\nتتعدد الاجتهادات العلمية.\nيشمل الإسلام ثروة من التقاليد والمذاهب والآراء العلمية المتنوعة. يعكس المحتوى في هذا التطبيق مناظير عامة وقد لا يمثّل كل تقليد أو مذهب بالتساوي.\n\nالمجتمع ركيزة أساسية.\nيهدف هذا التطبيق إلى تعزيز ارتباطك بالإسلام مع الإيمان العميق بالدور المحوري للمسجد والإمام والمجتمع الديني المحلي. نشجّعك على التواصل المستمر مع العلماء المؤهلين في محيطك.",
+  "disclaimerClose": "أفهم ذلك",
+  "disclaimerInfoTooltip": "حول توجيهات هذا التطبيق",
+  "disclaimerSettingsSubtitle": "للأغراض الإعلامية العامة فحسب. اضغط لقراءة إخلاء المسؤولية كاملاً.",
+  "disclaimerSectionHeader": "إخلاء مسؤولية التوجيهات"
+}

@@ -1,0 +1,585 @@
+{
+  "@@locale": "uz",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Tilni tanlang",
+  "languageSelectSub": "Buni keyinroq Sozlamalar bo'limida o'zgartirishingiz mumkin",
+  "actionContinue": "Davom etish",
+  "languageSuggestedHeader": "Tavsiya etilgan",
+  "languageAllHeader": "Barcha tillar",
+  "languageSuggestedBadge": "Tavsiya etilgan",
+  "languageSearchHint": "Qidiring…",
+
+  "planGrace": "Standart",
+  "planBlessed": "Barokah",
+
+  "categoryDailyGuidance": "Kunlik Hidoyat",
+  "categoryFaithTrust": "Iman va Ishonch",
+  "categoryPrayerReflection": "Namoz Tajriba",
+  "categoryHopeDifficultTimes": "Sabr va Umid",
+  "categoryForgiveness": "Gunoh Kechishni Iltimas",
+  "categoryLoveCompassion": "Rahm va Mehribonlik",
+  "categoryStrengthCourage": "Iman Kuchi",
+  "categoryGratitude": "Shukr Qalbi",
+  "categoryPurposeCalling": "Hayot Maqsadi",
+  "categoryFamilyRelationships": "Oila Aloqalari",
+  "categoryPeaceAnxietyRelief": "Ichki Tinchlik",
+  "categoryWisdomOfJesus": "Payg'ambar Donoligi",
+  "categoryHumilityCharacter": "Yaxshi Xulq",
+  "categoryOvercomingTemptation": "Vasvasadan Himoya",
+  "categoryEveningReflection": "Oqshom Dhikri",
+  "categoryCustom": "Shaxsiy Tafakkur",
+  "dhikrMeaningSubhanallah": "Allohga ulug'vorlik",
+  "dhikrMeaningAlhamdulillah": "Barcha maqtov Allohga tegishli",
+  "dhikrMeaningAllahuAkbar": "Alloh eng buyukdir",
+  "quranVerseHeartAtRest": "Albatta, Allohni eslashda qalblar tinchlik topadi.",
+
+  "promptHint": "Islomiy hidoyat va ta'aqqul uchun toifani bosing",
+
+  "currentLanguage": "Joriy til",
+  "settingsLanguage": "Til sozlamalari",
+  "settingsTitle": "Sozlamalar",
+  "chooseLanguage": "Tilni tanlang",
+  "continueCta": "Davom etish",
+
+  "promptDailyGuidance": "Sunni islomiy diniga asoslangan qisqa, amaliy kunlik hidoyat yozing — Qur'on, Hadis va Muhammad alayhissalom ta'limotiga asoslanganlar. Har safar boshqa burchakdan yondashtiring: islomiy axloqdan faddilat, Sunnatan haqiqat, Muhammad alayhissalolamning Sahabalarining donoligi yoki islomiy an'ananing tiniq amaliyoti. Bitta Qur'on oyati (Sura:Oya) va kunni o'z bilan olib yuradigan 1–2 jumali ta'aqqulni qo'shing. Islomiy taqvim yoki muhim sanaga bog'lash bo'yicha ixtiyoriysiz bog'lang.",
+
+  "promptFaithTrust": "Iman (Iman) va Allohning rejasiga ishonch (Tavakkul) haqida qisqa islomiy fikr yozing. Qur'on, Muhammad alayhissalolamning namunasi va Sahabalarning imoniga asoslangtiring. Tema har safar o'zgarsin: noaniqlik vaqtida Allohga ishonch, ilohiy donolarlikka tayanish, sinov vaqtida sabr yoki kundalik hayotda tiniq chidamliliq. Bitta Qur'on oyati va Islomiy ruhiy donoligi'ndan olingan bugunga uchun ijobiy qadam qo'shing.",
+
+  "promptPrayerReflection": "Namoz, Du'o yoki Dhikrga asoslangan qisqa islomiy du'o fikri yozing. Shakl har safar o'zgarsin: ertalabki yoki oqshomki eslatma (Adkar), besh vaqtli namozlar haqida fikrlash, Qur'on oyatini ta'aqqul qilish yoki kalbdan du'o. Bitta Qur'on oyati va qo'llaniladigan namoz shaklini qisqacha nomlashtiring.",
+
+  "promptHopeDifficultTimes": "Qiynalish vaqtida sabr (Sabr) va umid haqida islomiy fikr yozing. Sinov haqidagi Qur'on ta'limotlaridan, Payg'ambarlarning chidamliligi va qiyin paytlardagi Allohning rahmatidan foydalaning. Burchak har safar boshqalansin. Bitta Qur'on oyati va islomiy an'anadan bosh'landirib ko'ngilni yoqtiradigan istiqomat qo'shing.",
+
+  "promptForgiveness": "Gunoh kechishni iltimas qilish (Tavbah) va Allohning rahmatidan donoli islomiy fikr yozing. Qur'onning tawbalik ta'limotlaridan, Allohning shafqati va Muhammad alayhissalolamning kechiruvchi namunasidan foydalaning. Tema o'zgarsin: Allohga qaytish, boshqalarni kechirish, munosabatlarni tuzatish yoki Allohning rahmatiga ishonch hosil qilish. Bitta Qur'on oyati va amaliy qadam qo'shing.",
+
+  "promptLoveCompassion": "Kundalik hayotda rahm (Rahm) va mehribonlik haqida qisqa islomiy fikr yozing. Muhammad alayhissalolamning namunasi, Ihsan (mukammallik) tushunchasi va oila, qo'shnilar va zaif odamlarga islomiy mehnatkeshlik ta'limotlaridan foydalaning. Bitta Qur'on oyati va bugun amalga oshiradigan kichkina mehribonlik qadami qo'shing.",
+
+  "promptStrengthCourage": "Iman asosidagi kuch va jasorat haqida islomiy fikr yozing. Payg'ambarlarning misollaridan, erta musulmon jamiyati va sinov vaqtida mustahkam qoladigan mumintlardan foydalaning. Tema har safar boshqalansin: imonga asoslangan jasorat, namozda kuch, Allohga ishonch paytidagi quvur yoki qiynalishda chidamliliq. Bitta Qur'on oyati va qisqa du'o yoki eslatma qo'shing.",
+
+  "promptGratitude": "Allohga shukr (Shukr) haqida islomiy fikr yozing. Qur'on ta'limoti va payg'ambar an'anasiga asoslangtiring. Burchak boshqalansin: qiynalishda shukr, kichkina ne'matlarga minnat, Allohning madhi bilan kunni boshlash yoki kundalik hayotda Allohning hidoyatini tan olish. Bitta Qur'on oyati va bitta shukr amaliyoti qo'shing.",
+
+  "promptPurposeCalling": "Allohga 'ibodat qilish va to'g'ri yashashda hayotning maqsadi haqida islomiy fikr yozing. Qur'onning maqsad haqidagi ta'limotlaridan, boshqalarga xizmat qilish va o'z qobiliyatlarni xayr uchun ishlatish haqidagi ta'limotlaridan foydalaning. Tema o'zgarsin: oila va jamiyatga xizmat, Istihora orqali hidoyat izlash, niyya bilan yashash yoki oddiy ishda ma'noni topish. Bitta Qur'on oyati va ikkita fikrlash savollari qo'shing.",
+
+  "promptFamilyRelationships": "Qur'on ta'limoti va Muhammad alayhissalolamning namunasiga asoslangan oila va munosabatlar haqida donoli islomiy hidoyat yozing. Tema o'zgarsin: oilada mehnatkeshlik, ziddiyatda sabr, ota-onalarga hormati, farzandlarni imonda tarbiyalash yoki nikohni mustahkamlash. Bitta Qur'on oyati va sinab ko'radigan munosabat amaliyoti qo'shing.",
+
+  "promptPeaceAnxietyRelief": "Allohni eslatish (Dhikr) va Uning rejasiga ishonch orqali ichki tinchlik topish haqida tinchlantiradigan islomiy fikr yozing. Qalb tinchlanganlik haqidagi Qur'on ta'limotlaridan, namoz va Allohning iradalariga taslim bo'lish haqidagi ta'limotlaridan foydalaning. Har safar yondashish boshqalansin va bitta Qur'on oyati hamda islomiy an'anadan bitta sodda amaliyoti qo'shing.",
+
+  "promptWisdomOfJesus": "Islomda o'rganiladigan Payg'ambarlar donoligi haqida qisqa narsani yozing. Qur'on yoki Hadisdan foydalaning va islomiy olimlar bu ta'limotni qanday tushunganliklarini qisqacha tushuntiring. Tema har safar boshqalansin: xulq, sabr, tavaazuo, iman yoki kundalik amallar. Qur'on oyati yoki Hadis havolasi va amaliy qo'llashni qo'shing.",
+
+  "promptHumilityCharacter": "Tavaazuo (Tavaazzo) va yaxshi xulq (Axloq) haqida islomiy fikr yozing. Qur'on ta'limotlaridan, Muhammad alayhissalolamning namunasidan va islomiy xulq rivojlanish an'anasidan foydalaning. Tema o'zgarsin: rahbarlikta tavaazuo, xatolikni tan olish, boshqalarga hormata muomala qilish yoki ruhiy o'z-o'zini aniqlash orqali rivojlanish. Bitta Qur'on oyati va amalga oshiradigan bir odat qo'shing.",
+
+  "promptOvercomingTemptation": "Vasvasadan himoya topish va to'g'ri yo'lda qolish haqida islomiy fikr yozing. Qur'on ko'rsatmaslaridan, Allohni eslatish (Dhikr), namoz (Salah) va jinoyatni engib ketgan mumintlarning misollaridan foydalaning. Burchak har safar o'zgarsin. Bitta Qur'on oyati va keyingi 24 soat uchun amaliy strategiya qo'shing.",
+
+  "promptEveningReflection": "Oqshom eslatma an'anasiga (Adkar al-Masaa') asoslangan tinchlantiradigan islomiy oqshom fikri yozing. Shukr, o'z-o'zini aniqlash (Muhasaba) va dam olishdan avval Allohga ishonchni rag'batlantiring. 3–5 ta kunni aniqlash savollari, qisqa yopilish du'osi va bitta Qur'on oyatini qo'shing.",
+
+  "wordCount": "{count, plural, one {{count} so'z} other {{count} so'z}}",
+
+  "optionsCta": "Variantlar",
+  "newCta": "Yangi",
+  "actionsTitle": "Nima qilishni hohlaysiz?",
+  "copy": "Ko'chirish",
+  "share": "Ulashish",
+  "close": "Yopish",
+  "copiedToast": "Klipbordga ko'chirildi",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Toifa yorlig'ini o'z ichiga olgan elektron pochta/ulashish mavzusi qatori.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Kunlik Hidoyat" }
+    }
+  },
+
+  "regenerateErrorTitle": "Yangi javob ishlab chiqib bo'lmadi",
+  "regenerateErrorBody": "{error}\n\nYanagi urinib ko'rishni hohlaysizmi?",
+  "@regenerateErrorBody": {
+    "description": "Sun'iy aql javobini qayta ishlab chiqish muvaffaqiyatsiz bo'lganda ko'rsatiladi.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Tarmoq xatosi" }
+    }
+  },
+
+  "cancelCta": "Bekor qilish",
+  "retryCta": "Yana urinish",
+
+  "authTitle": "Akkauntni yaratish",
+  "continueAsGuest": "Mehmon sifatida davom etish",
+  "signInGoogle": "Google orqali kirish",
+  "signInApple": "Apple orqali kirish",
+  "signInEmail": "Elektron pochta orqali kirish",
+  "upgradeWithApple": "Apple orqali davom etish",
+  "mustAccept": "Shuratga rozi bo'lishingiz va Maxfiylik siyosatini tan olishingiz kerak.",
+  "termsLabel": "Xizmat ko'rsatish shartlariga rozi bo'laman",
+  "privacyLabel": "Maxfiylik siyosatini o'qidim",
+  "marketingOptIn": "Yangiliklar va takliflari olishga rozi bo'laman",
+  "openTerms": "Xizmat ko'rsatish shartlari",
+  "openPrivacy": "Maxfiylik siyosati",
+
+  "accountSection": "Akkaunt",
+  "guestMode": "Mehmon rejimi",
+  "signedIn": "Kirilgan",
+  "upgradeHint": "Akkaunt yaratib, fikringizni turli qurilmalarda saqlab qolish uchun yordamga rozi bo'ling.",
+  "upgradeWithGoogle": "Google orqali davom etish",
+  "signOut": "Chiqish",
+
+  "snackUpgraded": "Akkaunt Google bilan yangilandi ✅",
+  "snackSignedIn": "Google orqali kirildi ✅",
+  "snackSignedOut": "Chiqildi",
+  "snackSignedInApple": "Apple orqali kirildi ✅",
+  "snackSignedInGoogle": "Google orqali kirildi ✅",
+  "snackUpgradedApple": "Akkaunt Apple bilan yangilandi ✅",
+  "snackUpgradedGoogle": "Akkaunt Google bilan yangilandi ✅",
+
+  "historyTitle": "Oldingi fikrlar",
+  "historyOpenCta": "Oldingi fikrlar",
+  "historyEmpty": "Hali qo'lga olingan fikrlar yo'q.",
+  "historyDeleteTitle": "Fikrni o'chirishmi?",
+  "historyDeleteBody": "Bu tanlangan elementni butunlay o'chirib tashlaydi.",
+  "deleteCta": "O'chirish",
+
+  "historyButton": "Oldingi Fikrlar",
+  "historyEmptyTitle": "Hali fikr yo'q",
+  "historyEmptyBody": "Avval nimadir ishlab chiqing — qo'lga olingan narsalaringiz bu yerda ko'rinadi.",
+  "historyDelete": "O'chirish",
+
+  "footerTitle": "Iman, sabr va rahma bilan.",
+  "footerSubtitle": "Bir qadam bilan.",
+  "genericErrorSnack": "Nimadir xato bo'ldi — bir lahza ichida yana urinib ko'ring.",
+
+  "upgradeAccountCta": "Fikringizni turli qurilmalarda saqlab qolish uchun — akkaunt yarating",
+  "deleteAccount": "Akkauntni o'chirish",
+  "exportData": "Maʼlumotlarni eksport qilish",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Ichki Firebase UID'ni ko'rsatishdan avval yorlig'i.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Asta ting 🐯\nSun'iy aql keyingi fikr uchun momentni kerak…",
+  "rateDailyLimit": "Hozir fikrlar tugadi.\nKo'proq fikr olish yoki Barokahga o'tish.",
+  "rateCreditsExhausted": "Barcha fikringizdan foydalandiniz.\nQo'shimcha fikrlar olish yoki Barokahga o'tish uchun to'lashtiring.",
+  "rateGraceReflectionsExhausted": "Hozir fikrlar tugadi.\nKo'proq fikr olish yoki Barokahga o'tish.",
+  "rateReflectionsExhausted": "Barcha fikringizdan foydalandiniz.\nQo'shimcha fikrlar olish yoki Barokahga o'tish uchun to'lashtiring.",
+
+  "blessedDescription": "Barokah premium xususiyatlar, kelajakdagi toifalar va maxsus razilni ochib beradi.",
+  "championDescription": "Barokah premium xususiyatlar, kelajakdagi toifalar va maxsus razilni ochib beradi.",
+
+  "ratePlanExhausted": "Hozir fikrlaringiz tugadi. Reja: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Foydalanuvchi fikrlari tugadi lekin sababni umumiy ko'rish kerak.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standart yoki Barokah" }
+    }
+  },
+
+  "rateCheckFailed": "Fikrlarni tekshirib bo'lmadi: {message}",
+  "@rateCheckFailed": {
+    "description": "Chaqirish funksiyasi xato xabarini qaytarsa ko'rsatiladi.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Tarmoq xatosi" }
+    }
+  },
+
+  "rateCheckGenericError": "Fikrlarni tekshirib bo'lmadi.",
+  "aiFallbackGeneric": "Nimadir xato bo'ldi — bir lahza ichida yana urinib ko'ring.",
+
+  "limitSectionTitle": "Fikrlar",
+  "limitTodayLabel": "Foydalanish",
+  "limitCreditsLabel": "Qolgan fikrlar: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Reja: {plan}",
+  "@limitPlanLabel": {
+    "description": "Joriy obunaning reja nomini ko'rsatadi.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standart yoki Barokah" }
+    }
+  },
+  "limitLoadingLabel": "Yuklanyapti…",
+  "limitLoadingLabelDescription": "Foydalanish statistikasi olib kelinayotganda fikrlar kartasida ko'rsatiladi.",
+
+  "aiLimitTitle": "Fikrlar",
+  "aiLimitSubtitle": "Har bir javob 1 fikrdan foydalanadi. Standart boshlang'ich fikrlarni o'z ichiga oladi. Barokah premium toifalarni ochib beradi va to'plashga imkon beradi.",
+  "aiLimitProgressLabel": "{used} / {total} fikrlar ishlatildi",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Fikrlar",
+  "reflectionsUsageLabel": "Foydalanish",
+  "reflectionsRemainingLabel": "Qolgan fikrlar: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Reja: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Joriy rejanomi ko'rsatadi.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standart yoki Barokah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Yuklanyapti…",
+  "reflectionsLoadingLabelDescription": "Fikr statistikasi olib kelinayotganda ko'rsatiladi.",
+
+  "reflectionsTitle": "Fikrlar",
+  "reflectionsSubtitle": "Har bir javob 1 fikrdan foydalanadi. Standart boshlang'ich fikrlarni o'z ichiga oladi. Barokah premium toifalarni ochib beradi va to'plashga imkon beradi.",
+  "reflectionsProgressLabel": "{used} / {total} fikrlar ishlatildi",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Akkauntni o'chirish",
+  "settingsDeleteDescription": "Akkauntni va barcha bog'langan ma'lumotlarni butunlay o'chirish.",
+  "settingsDeleteButtonLabel": "Akkauntni o'chirish",
+  "settingsDeleteDialogTitle": "Akkauntni o'chirishmi?",
+  "settingsDeleteDialogBody": "Bu harakat doimiy va qaytarib bo'lmaydi.\n\nBarcha chat, tarix va akkaunt ma'lumotlari o'chirib tashlanadi.",
+  "settingsDeleteDialogCancel": "Bekor qilish",
+  "settingsDeleteDialogConfirm": "O'chirish",
+
+  "settingsFreeLimitUsedTitle": "Boshlang'ich fikrlar ishlatildi",
+  "settingsFreeLimitUsedDescription": "Bu qurilma uchun boshlang'ich fikrlar ishlatildi. Davom etish uchun Barokahga o'tish yoki ko'proq fikr sotib olish.",
+
+  "settingsStarterReflectionsUsedTitle": "Boshlang'ich fikrlar ishlatildi",
+  "settingsStarterReflectionsUsedDescription": "Bu qurilma uchun boshlang'ich fikrlar ishlatildi. Davom etish uchun Barokahga o'tish yoki ko'proq fikr sotib olish.",
+
+  "deviceBoundError": "Bu qurilma boshqa akkauntga bog'langan. Iltimos, asl akkaunt bilan kiring.",
+
+  "premiumTitle": "Barokah rejimi",
+  "premiumSubtitleBasic": "Nuria to'la tajribasini ochib bering.",
+  "premiumSubtitleChampion": "Siz Barokahdasiz. Ko'proq fikr kerakmi?",
+
+  "premiumCurrentPlan": "Joriy reja: {plan}",
+  "premiumCreditsStatus": "Fikrlar: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Sotib olish hozir mavjud emas.",
+  "premiumSignInToPurchase": "Fikr sotib olish yoki Barokahni ochish uchun kiring.",
+
+  "premiumRestorePurchases": "Sotib oluvlilarni tiklash",
+  "premiumProcessing": "Qayta ishlanyapti…",
+  "premiumRestoreHintTitle": "Allaqachon bu qurilma yoki boshqa qurilmada Barokah yoki fikr sotib oldingizmi?",
+  "premiumRestoreHintBody": "Agar sotib olinganlar ko'rinmayotgan bo'lsa, tiklang.",
+
+  "premiumBuyCredits200": "200 fikr sotib olish",
+  "premiumBuyCredits400": "400 fikr sotib olish",
+  "premiumBecomeChampionOneTime": "Barokah rejimiga o'tish",
+  "premiumChampionHint": "Barokah sifatida, kerakli bo'lganda qo'shimcha fikrlar bilan to'plashingiz mumkin.",
+
+  "premiumUpgradeCta": "Yangilash",
+  "premiumRequiredForCategory": "Bu toifa faqat Barokah foydalanuvchilari uchun mavjud. Premium kontentni ochish uchun Sozlamalardan yangilang.",
+  "premiumBenefitsBasic": "Barokahni ochib berish uchun qo'shimcha fikrlar, premium toifalarni boshqarish va kerakli bo'lganda hidoyat olishni davom ettiring.",
+  "premiumBenefitsChampion": "Siz Barokah rejimidasu. Agar tez tugayotgan bo'lsangiz, qo'shimcha fikrlarni qo'shib, to'xtasiz davom eting.",
+  "premiumButtonBecomeChampion": "Barokahni ochish",
+  "premiumButtonTopup1000": "1000 fikr qo'shish",
+  "premiumChampionBadge": "Barokah faol",
+  "premiumLoadingStore": "Do'kon yuklanyapti…",
+
+  "blessedTitle": "Barokah rejimi",
+  "blessedSubtitleGrace": "Nuria to'la tajribasini ochib bering.",
+  "blessedSubtitleBlessed": "Siz Barokahdasiz. Ko'proq fikr kerakmi?",
+
+  "blessedCurrentPlan": "Joriy reja: {plan}",
+  "blessedReflectionsStatus": "Fikrlar: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Sotib olish hozir mavjud emas.",
+  "blessedProductNotAvailable": "Bu mahsulot do'konda hali mavjud emas. Iltimos, keyinroq yana urinib ko'ring.",
+  "blessedPurchaseError": "Sotib olinishda nimadir xato bo'ldi. Iltimos, yana urinib ko'ring.",
+  "blessedSignInToPurchase": "Fikr sotib olish yoki Barokahni ochish uchun kiring.",
+
+  "blessedRestorePurchases": "Sotib oluvlilarni tiklash",
+  "blessedProcessing": "Qayta ishlanyapti…",
+  "blessedRestoreHintTitle": "Allaqachon bu qurilma yoki boshqa qurilmada Barokah yoki fikr sotib oldingizmi?",
+  "blessedRestoreHintBody": "Agar sotib olinganlar ko'rinmayotgan bo'lsa, tiklang.",
+
+  "blessedBuyReflections100": "100 fikr qo'shish",
+  "blessedBuyReflections200": "200 fikr sotib olish",
+  "blessedBuyReflections400": "400 fikr sotib olish",
+  "blessedBecomeBlessedOneTime": "Barokahga o'tish",
+  "blessedTopupHint": "Barokah sifatida, kerakli bo'lganda qo'shimcha fikrlar bilan to'plashingiz mumkin.",
+
+  "blessedUpgradeCta": "Yangilash",
+  "blessedRequiredForCategory": "Bu toifa faqat Barokah foydalanuvchilari uchun mavjud. Premium kontentni ochish uchun Sozlamalardan yangilang.",
+  "blessedFeatureLocked": "Bu xususiyatga kirish uchun Barokahni ochish.",
+  "lockedCategoriesHint": "Ba'zi toifalar Barokah a'zolari uchun mo'ljallangan. Fikr yo'lingiz bo'yicha barcha fikrlarni o'rganish uchun ochib bering.",
+  "blessedBenefitsGrace": "Barokahni ochib berish uchun qo'shimcha fikrlar, premium toifalarni boshqarish va kerakli bo'lganda hidoyat olishni davom ettiring.",
+  "blessedBenefitsBlessed": "Siz Barokah rejimidasu. Agar tez tugayotgan bo'lsangiz, qo'shimcha fikrlarni qo'shib, to'xtasiz davom eting.",
+  "blessedButtonBecomeBlessed": "Barokahni ochish",
+  "blessedButtonTopup1000": "1000 fikr qo'shish",
+  "blessedBadge": "Barokah faol",
+  "blessedLoadingStore": "Do'kon yuklanyapti…",
+
+  "freePlanBlockedTitle": "Boshlang'ich fikrlaringiz tugadi",
+  "freePlanBlockedBody": "Siz Standart rejimidasu boshlang'ich fikrlar bilan va chegara tugindisingi. Davom etish uchun — va premium toifalarni ochish uchun — Barokahga o'tish.",
+  "freePlanBlockedCtaGoPremium": "Pastda Barokah variantlarini ko'ring",
+
+  "graceBlockedTitle": "Boshlang'ich fikrlaringiz tugadi",
+  "graceBlockedBody": "Siz Standart rejimidasu boshlang'ich fikrlar bilan va chegara tugindisingi. Davom etish uchun — va premium toifalarni ochish uchun — Barokahga o'tish.",
+  "graceBlockedCtaGoBlessed": "Pastda Barokah variantlarini ko'ring",
+
+  "rateGuestMustSignIn": "Nuriadan foydalanish va fikrlaringizdan foydalanish uchun kiring.",
+
+  "guestNoCreditsTitle": "Mehmon rejimi",
+  "guestNoCreditsBody": "Mehmon sifatida siz ilovani ko'rishingiz mumkin, lekin fikrlardan foydalana olmaysiz. Fikrlardan foydalanish va sotib olishlarni ochish uchun keyinroq Sozlamalardan kiring.",
+
+  "guestNoReflectionsTitle": "Mehmon rejimi",
+  "guestNoReflectionsBody": "Mehmon sifatida siz ilovani ko'rishingiz mumkin, lekin fikrlardan foydalana olmaysiz. Fikrlardan foydalanish va sotib olishlarni ochish uchun keyinroq Sozlamalardan kiring.",
+
+  "guestDialogContinue": "Davom etish",
+  "guestDialogLoginInstead": "Buning o'rniga kiring",
+
+  "optionalLabel": "ixtiyoriy",
+
+  "accountDeleteSuccessTitle": "Akkaunt o'chirildi",
+  "accountDeleteSuccessBody": "Akkauntni va bog'langan ma'lumotlarni muvaffaqiyatli o'chirib tashlandi.",
+  "accountDeleteSuccessClose": "Yopish",
+  "accountDeleteErrorTitle": "Akkauntni o'chirib bo'lmadi",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Qayta autentifikasiya bekor qilindi. Iltimos, qayta kiring va o'chirishni yana urinib ko'ring.",
+  "accountDeleteReauthRequired": "Akkauntni o'chirish yaqinda kirish talab etadi. Iltimos, chiqing, qayta kiring va o'chirishni yana urinib ko'ring.",
+  "settingsDeletePermanentWarning": "Bu harakat doimiy va qaytarib bo'lmaydi. Akkaunt bilan bog'langan barcha ma'lumotlar o'chirib tashlanadi.",
+
+  "dailyGraceTitle": "Kunlik Hidoyat",
+  "dailyGraceScriptureLabel": "KUNNING OYATI",
+  "dailyGraceSaintLabel": "HAFTANING OLIMI",
+  "dailyGraceReflectionLabel": "OQSHOM FIKRI",
+  "dailyGraceCopiedToast": "Oyat klipbordga ko'chirildi",
+
+  "dailyScripture0Text": "Haqiqatan, solih odam-lar bog'dar va daryolar bilan jannatda oltin suvi o'rtasida ulgurladi.",
+  "dailyScripture0Ref": "Qur'on 54:54-55",
+  "dailyScripture1Text": "Va Biz seni faqat dunyoning barcha axoli uchun rahm qilib jo'nattdik.",
+  "dailyScripture1Ref": "Qur'on 21:107",
+  "dailyScripture2Text": "Allah bandasi uchun yetarli emas mi? Ularning hali ham Uni boshqa bir narsani qo'rqitib turadi.",
+  "dailyScripture2Ref": "Qur'on 39:36",
+  "dailyScripture3Text": "Ehtimoli siz o'zga bir narsani yomon ko'rdilar, albatta uning uchun xayr bo'lgan. Va ehtimoli siz bir narsani yaxshi ko'rdilar, albatta uning uchun yomon bo'lgan. Allah biladi, siz bilmaysiz.",
+  "dailyScripture3Ref": "Qur'on 2:216",
+  "dailyScripture4Text": "Haqiqatdan Allah sabrilar bilan birlikta.",
+  "dailyScripture4Ref": "Qur'on 2:153",
+  "dailyScripture5Text": "Demak, siz Mendan yod qiling, Men ham sizdan yod qilaman. Va Mendan minnatdor bo'ling, kafrlik qilmang.",
+  "dailyScripture5Ref": "Qur'on 2:152",
+  "dailyScripture6Text": "Haqiqatdan Alloh hamd ko'rsa, sizning orasidan eng solih kishi eng hurmatli.",
+  "dailyScripture6Ref": "Qur'on 49:13",
+  "dailyScripture7Text": "Va Rabb belgiladi: undan boshqa hech kimni ibodat qilmang, ota-onaga yaxshi muomala qil.",
+  "dailyScripture7Ref": "Qur'on 17:23",
+  "dailyScripture8Text": "Haqiqatan, qiyinchilikning o'rida osonlik bor.",
+  "dailyScripture8Ref": "Qur'on 94:6",
+  "dailyScripture9Text": "Va U sizni qaerda bo'ladingizni siz bilan birlikta. Va Allah qilayotgan ishlaringizdan ko'radigan.",
+  "dailyScripture9Ref": "Qur'on 57:4",
+  "dailyScripture10Text": "Allah hech bir jonni uni toqat qila olmaydigan yuki bilan yuklamaydi.",
+  "dailyScripture10Ref": "Qur'on 2:286",
+  "dailyScripture11Text": "Va kim Allohga tayanadigan — u uchun Alloh yetarli.",
+  "dailyScripture11Ref": "Qur'on 65:3",
+  "dailyScripture12Text": "Mening rahmatim barcha narsani qamrab oladi.",
+  "dailyScripture12Ref": "Qur'on 7:156",
+  "dailyScripture13Text": "Va qachon bandalarning Mendan so'ragi bo'lsa — Biz yaqinman. Du'o qiluvchining du'osiga javob beraylik.",
+  "dailyScripture13Ref": "Qur'on 2:186",
+  "dailyScripture14Text": "Kim solihlik qilsa — erkak yoki ayol, ular mo'min bo'lsa — Biz uni xush hayot bilan yashatamiz.",
+  "dailyScripture14Ref": "Qur'on 16:97",
+  "dailyScripture15Text": "Haqiqatan, Allah xalqning holini o'zgartirmaydi, agar ular o'zlarining niyatini o'zgartirgani bo'lmasa.",
+  "dailyScripture15Ref": "Qur'on 13:11",
+  "dailyScripture16Text": "Demak, zaif bo'lmang va xazon qilmang, agar siz mo'min bo'lsangiz, siz ustun bo'lasiz.",
+  "dailyScripture16Ref": "Qur'on 3:139",
+  "dailyScripture17Text": "Ay bandalarim, o'zlarilariga to'satdan xajon qilib yubormabon, Allohning rahmatidan ummad qilmang. Haqiqatan Allah barcha gunohlarni kechadi.",
+  "dailyScripture17Ref": "Qur'on 39:53",
+  "dailyScripture18Text": "Va kim Allohdan qo'rqsa, Alloh uning uchun chiqish yoli qiladi va uning hisobiga olmaydigan joydan rizq beradi.",
+  "dailyScripture18Ref": "Qur'on 65:2-3",
+  "dailyScripture19Text": "Allohning rahmatidan ummad qilmang.",
+  "dailyScripture19Ref": "Qur'on 12:87",
+  "dailyScripture20Text": "Va Biz Qur'onni oson qilib tushdik. Demak, kim omad qilsa?",
+  "dailyScripture20Ref": "Qur'on 54:17",
+  "dailyScripture21Text": "Va U sizni adashgan holatda topib, hidoyat berdi.",
+  "dailyScripture21Ref": "Qur'on 93:7",
+  "dailyScripture22Text": "Va Rabb aytadi: Mendan du'o qiling, Men sizga javob beraman.",
+  "dailyScripture22Ref": "Qur'on 40:60",
+  "dailyScripture23Text": "Va Biz Adam farzandlarini hurmat qildik.",
+  "dailyScripture23Ref": "Qur'on 17:70",
+  "dailyScripture24Text": "Va sabr va namoz orqali yordam izlang.",
+  "dailyScripture24Ref": "Qur'on 2:45",
+  "dailyScripture25Text": "Kim birinchi atom qidrga xayr qilsa, uni ko'radi.",
+  "dailyScripture25Ref": "Qur'on 99:7",
+  "dailyScripture26Text": "Shubhasiz, Allohning yordam-i yaqin.",
+  "dailyScripture26Ref": "Qur'on 2:214",
+  "dailyScripture27Text": "Va kim shukr qilsa, uning shukri o'ziga foyda beradi.",
+  "dailyScripture27Ref": "Qur'on 31:12",
+
+  "dailyReflection0": "Bu kun yakun topganda, Allohning rahmatining aniq bo'lgan bir lahzani o'ylab ko'ring.",
+  "dailyReflection1": "Bugun qalbingizni og'rigan narsaning barchasi Alloh oldiga keltiring.",
+  "dailyReflection2": "Bu kundan bitta ne'matni aytib, Allohga minnatdorlik ifodalang.",
+  "dailyReflection3": "Siz Allohning cheksiz ehtiyojida saqlanayotganligini bilib, tinchlik bilan yashang.",
+  "dailyReflection4": "Bugun mehribonlik va shofa-qasat ko'rsatishga chaqirilan o'rinni fikrlang.",
+  "dailyReflection5": "Qayta keltira olmayotgan narsalarni taslab, Allohning mukammal rejasiga ishon.",
+  "dailyReflection6": "Kun yakun topganda, Allohni eslatishda tinchlik topish.",
+  "dailyReflection7": "Bugun namozingizni qanday o'tkazganingizni fikrlang va har biridan Allohga minnat aytang.",
+  "dailyReflection8": "Bugun sabr sizning amalaringizga rahbarlik qilgan bir lahzani fikrlang.",
+  "dailyReflection9": "Bugun qilgan har qanday qusurlardan Allohdan undan kechish iltimos qiling — Allohning rahmatining cheksiz.",
+  "dailyReflection10": "Bugun kimga mehribonlik ko'rsatganingizni aytib, ular uchun du'o qiling.",
+  "dailyReflection11": "Shukr bilan o'tiring: Alloh bugun sizga so'rasdan ko'proq nima berdi?",
+  "dailyReflection12": "Qur'ondan bugungi holatni ko'rsatadigan bitta oyatni fikrlang.",
+  "dailyReflection13": "Bugun vaqtingizdan foydalanishni o'ylab, ertasi kun Allohga sadaqah qiling.",
+  "dailyReflection14": "Bu kunning qiyinchiligi qanday bo'lmasin, Alloh u bilan sizni safsataga almashmagan.",
+  "dailyReflection15": "Bugun oila yoki jamiyatga xizmat qilgan bir lahzani yadga oling.",
+  "dailyReflection16": "Kun yakun topganda, Tavbah qiling — Alloh unga qayturganlarni yaxshi ko'radi.",
+  "dailyReflection17": "Bugun Alloh joylashtiradigan go'zalligini fikrlang, xech qancha kichik bo'lmasa.",
+  "dailyReflection18": "Bugun bilgan narsani fikrlang va uning Allohga yaqinlashishiga qanday yordamni ushlag.",
+  "dailyReflection19": "Kunning xalqinisini Allohga taslab bering — U qayta keltira olmayotganingizni ko'tarib oladi.",
+  "dailyReflection20": "Bugun yaxshiroq tanlashi mumkin bo'lgan bir lahzani o'ylab, undan ozod bo'ling o'rganing.",
+  "dailyReflection21": "Qiynalayotganlari uchun du'o qiling — bu ularning uchun sof hadya.",
+  "dailyReflection22": "Kutib turgan ne'matni izohlang va Allohga minnatdor bo'lish vaqti.",
+  "dailyReflection23": "Bugun niyya Alloh uchun edi mi? Ertasi kun qaytadan boshlang.",
+  "dailyReflection24": "Tun tinch bo'lganda, Allohning yaqinligini tinglang.",
+  "dailyReflection25": "Bugun kuch topgan o'rin — bu kuch Allohdan.",
+  "dailyReflection26": "Ertasi kun qilishni o'ylab ko'rgan narsani aytib, bugun qilmagan bitta narsani aytib qo'ying.",
+  "dailyReflection27": "Istirahatdan oldin, jo'ning Allohga tapshiring — U eng yaxshi asosiy.",
+
+  "dailyRoleModel0": "Muhammad alayhissalom",
+  "dailyRoleModel1": "Abu Bakr as-Siddiq (R.A)",
+  "dailyRoleModel2": "Umar ibn al-Xattob (R.A)",
+  "dailyRoleModel3": "Uthmon ibn Affon (R.A)",
+  "dailyRoleModel4": "Ali ibn Abi Toliba (R.A)",
+  "dailyRoleModel5": "Hodijoah bint Xuvoylid (R.A)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (R.A)",
+  "dailyRoleModel7": "Farimah az-Zohra (R.A)",
+  "dailyRoleModel8": "Bilol ibn Rohoh (R.A)",
+  "dailyRoleModel9": "Salmon al-Farisi (R.A)",
+  "dailyRoleModel10": "Abu Hurayra (R.A)",
+  "dailyRoleModel11": "Abdulloh ibn Abbos (R.A)",
+  "dailyRoleModel12": "Abdulloh ibn Masud (R.A)",
+  "dailyRoleModel13": "Mu'oz ibn Jabal (R.A)",
+  "dailyRoleModel14": "Musob ibn Umayr (R.A)",
+  "dailyRoleModel15": "Sumayya bint Xabbob (R.A)",
+  "dailyRoleModel16": "Ammor ibn Yasir (R.A)",
+  "dailyRoleModel17": "Umm Salomah (R.A)",
+  "dailyRoleModel18": "Xolid ibn al-Volid (R.A)",
+  "dailyRoleModel19": "Zayd ibn Tobit (R.A)",
+  "dailyRoleModel20": "Hofsah bint Umar (R.A)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (R.H)",
+  "dailyRoleModel22": "Imom Abu Hanifa (R.H)",
+  "dailyRoleModel23": "Imom Malik ibn Anas (R.H)",
+  "dailyRoleModel24": "Imom ash-Shofiy (R.H)",
+  "dailyRoleModel25": "Imom Ahmad ibn Hambal (R.H)",
+  "dailyRoleModel26": "Imom al-Boxoriy (R.H)",
+  "dailyRoleModel27": "Imom Muslim (R.H)",
+  "dailyRoleModel28": "Imom at-Tirmidiy (R.H)",
+  "dailyRoleModel29": "Al-Ghazoliy (R.H)",
+  "dailyRoleModel30": "Ibn al-Qoyyim al-Jauziyya (R.H)",
+  "dailyRoleModel31": "Ibn Taymiya (R.H)",
+  "dailyRoleModel32": "An-Navoviy (R.H)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqoloniy (R.H)",
+  "dailyRoleModel34": "Ibn Kotsir (R.H)",
+  "dailyRoleModel35": "At-Tobariy (R.H)",
+  "dailyRoleModel36": "Sufyon ath-Thawriy (R.H)",
+  "dailyRoleModel37": "Faxr ad-Din ar-Roziy (R.H)",
+  "dailyRoleModel38": "Ibn Sinno (R.H)",
+  "dailyRoleModel39": "Al-Biruniy (R.H)",
+  "dailyRoleModel40": "Ibn Rushd (R.H)",
+  "dailyRoleModel41": "Ibn Xoldun (R.H)",
+  "dailyRoleModel42": "Ibn Bottuto (R.H)",
+  "dailyRoleModel43": "Payg'ambar Ibrohim (A.S)",
+  "dailyRoleModel44": "Payg'ambar Muso (A.S)",
+  "dailyRoleModel45": "Payg'ambar Iso (A.S)",
+  "dailyRoleModel46": "Payg'ambar Yusuf (A.S)",
+  "dailyRoleModel47": "Payg'ambar Dovud (A.S)",
+  "dailyRoleModel48": "Payg'ambar Sulaymona (A.S)",
+  "dailyRoleModel49": "Payg'ambar Nuh (A.S)",
+  "dailyRoleModel50": "Payg'ambar Yunus (A.S)",
+  "dailyRoleModel51": "Payg'ambar Ayub (A.S)",
+  "dailyRoleModel52": "Ruqoyya bint Muhammad (R.A)",
+  "dailyRoleModel53": "Zaynab bint Muhammad (R.A)",
+  "dailyRoleModel54": "Hasan ibn Ali (R.A)",
+  "dailyRoleModel55": "Husayn ibn Ali (R.A)",
+  "dailyRoleModel56": "Ja'far ibn Abi Toliba (R.A)",
+  "dailyRoleModel57": "Abu Zarr al-Ghifori (R.A)",
+  "dailyRoleModel58": "Talho ibn Ubaydulloh (R.A)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Avvom (R.A)",
+
+  "locationConsentLabel": "Nuriaya Qibla yo'nalishi va namoz vaqtlari uchun joylashuvdan foydalanishga ruxsat bering",
+  "locationConsentHint": "Faqat bu xususiyatlar uchun ishlatiladi. Sizning joylashuvingiz hech qachon ulashilmaydi yoki saqlanmaydi.",
+
+  "askPageTitle": "Nuriyadan so'ring",
+  "askPageDescription": "Iman, namoz, hayot yoki islomiy amallar haqida biron savol bering va Qur'on va Sunnaga asoslangan hidoyat oling.",
+  "askPageInputHint": "Bu yerga savol yozing…",
+  "askPageSubmitCta": "So'rash",
+  "askPageInputEmptyError": "Iltimos, avval savol yozing.",
+  "askResultYourQuestion": "Sizning savolingiz",
+
+  "guidancePageTitle": "Namoz va Hidoyat",
+  "qiblaFacingMecca": "Makkah tomon",
+  "qiblaCompassInstruction": "Telefoningizni shunday burang, otin'qo'shni yuqoriga ko'taradi.\nBu yo'nalish Qibla (Makkah)ni ko'rsatadi.",
+  "qiblaGpsUnavailableBody": "GPS signali zaif. Tashqariga chiqib, Qaytadan urinib ko'ring.",
+  "qiblaRetry": "Qaytadan urinish",
+  "qiblaTitle": "Qibla yo'nalishi",
+  "qiblaDistanceLabel": "Makkagacha {km} km",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Joylashuv talab qilinadi",
+  "qiblaLocationNeededBody": "Nuria qaerda bo'lishingizdan qat'i nazar, Qo'ba tomon yo'nalishni hisoblashi uchun joylashuv ruxsatini bering.",
+  "qiblaOpenSettings": "Sozlamalarni ochish",
+  "qiblaCompassLoading": "Sizning o'rningizni qidirmoqda…",
+  "qiblaTowardMecca": "Makkah tomon",
+
+  "prayerTimesTitle": "Namoz Vaqtlari",
+  "prayerTimesFajr": "Fajr",
+  "prayerTimesDhuhr": "Zohr",
+  "prayerTimesAsr": "Asr",
+  "prayerTimesMaghrib": "Magrib",
+  "prayerTimesIsha": "Isha",
+  "prayerTimesLocationNeededTitle": "Joylashuv talab qilinadi",
+  "prayerTimesLocationNeededBody": "Nuria sizning shaharningiz uchun aniq namoz vaqtlarini hisoblashi uchun joylashuv ruxsatini bering.",
+  "prayerTimesNextLabel": "Keyingi",
+  "prayerTimesDoneLabel": "Tayyor",
+
+  "monthlyPrayerTimesTitle": "Oylik Namoz Vaqtlari",
+  "monthlyPrayerTimesViewButton": "Butun Oyni Ko'rish",
+  "monthlyPrayerTimesNextMonth": "Keyingi oy",
+  "monthlyPrayerTimesDayHeader": "Kun",
+
+  "sharePrayerTimes": "Namoz vaqtlarini ulashish",
+
+  "prayerNotificationsTitle": "Namoz Eslatmalari",
+  "prayerNotificationsDescription": "Har bir namoz vaqtidan avval siz kundalik jagonlikda qolinishingizga yordamchi bo'ladigan yumshoq eslatma oling.",
+  "prayerNotificationsEnable": "Namoz eslatmalarini yoqish",
+  "prayerNotificationsOpenSettings": "Bildirishnoma sozlamalarini ochish",
+  "prayerNotificationsDenied": "Bildirishnamalar o'chirilgan",
+  "prayerNotificationsDeniedHint": "Sozlamalarni oching va Nuria uchun bildirishnamalar ruxsatini berib, namoz vaqti eslatmalarini oling.",
+
+  "notificationsConsentLabel": "Namoz vaqtlari uchun bildirishnamaga ruxsat bering",
+
+  "prayerNotifTitleFajr": "🌅 Fajr — Ertalabki Namoz",
+  "prayerNotifBodyFajr": "Barcha namozilarning eng yaxshisi ertalabki namozidir. Uyg'on, pok bo'l va Alloh oldiga turishing.",
+
+  "prayerNotifTitleDhuhr": "☀️ Zohr — Kunduzi Namoz",
+  "prayerNotifBodyDhuhr": "Kuningizni to'xtat va Allohga qaytaring. Zohr namozi vaqti keldi.",
+
+  "prayerNotifTitleAsr": "🌤️ Asr — Tushdan Keyingi Namoz",
+  "prayerNotifBodyAsr": "O'rtachali namoazni asrayshuningiz. Asr vaqti keldi — o'tib ketilmangini qoldir.",
+
+  "prayerNotifTitleMaghrib": "🌇 Magrib — Quyosh Botgan Vaqtidagi Namoz",
+  "prayerNotifBodyMaghrib": "Quyosh botdi. Magrib namozini tol qiling va bu kundan Allohga minnatdor bo'ling.",
+
+  "prayerNotifTitleIsha": "🌙 Isha — Kechki Namoz",
+  "prayerNotifBodyIsha": "Kunni Allohni eslatish bilan yakun qoling. Hayya alal falah — muvaffaqiyatga kelinging.",
+
+  "outOfReflectionsBannerText": "Barcha fikrlarni ishlatib qo'ydingiz",
+  "outOfReflectionsBannerCta": "Yana olish",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Hisoblab olish uchun aylanani bosing",
+  "dhikrResetButton": "Qaytadan o'rnatish",
+  "dhikrComplete": "Mashalloh",
+  "dhikrCompleteMessage": "Siz Allohni 99 marta eslatib bo'ldiniz. Ular sizning qalbingiz uchun nur bo'lsin.",
+
+  "disclaimerTitle": "Bu ilova hidoyati haqida",
+  "disclaimerBody": "Nuria islomiy fikirlar, eslatmalar va ruhiy kontentni sizning xoch yo'lingizni qo'llab-quvvatlash uchun taqdim etadi. Bu kontent faqat umumiy ma'lumot va ilhomlantirish maqsadlari uchun taqdim etilyapti.\n\nNuria malaka'li uchunlar o'rnini tutmaydi.\nBu ilovadagi hidoyat o'rgangan islom olim, imam, mufti yoki ilmiy tarbiyalangan o'qituvchi o'rnida kelmaydi. Agar diniy hokimiyat, halol va haram masalalari yoki shaxsiy diniy mas'uliyat haqida savolingiz bo'lsa, iltimos, sizning jamiyatingizda malaka'li diniy bo'linish bilan ma'naslashtiring.\n\nBu ilova diniy hokimiyat chiqarmaydi.\nNuria islomiy huquqshunoslik (fiqh) yoki shaxsiy diniy mas'uliyat masalalarida hokimlik olmaydi. Bu yerda hech bir narsani fatvaho yoki majburiy diniy ko'rsatma sifatida qabul qilmang.\n\nUlama interpretatsiyalari farq qiladi.\nIslom tradition, fikrlash maktabi (madhab) va ulama fikrlari bo'yicha boy va xilma-xil tuzilmani o'z ichiga oladi. Bu ilovadagi kontent umumiy qarashlarni ko'rsatadi va har bir an'anat yoki maktabni teng darajada o'z ichiga olmaydi.\n\nJamiyat muhim.\nBu ilova, sizning mahalliy masjid, imam va diniy jamiyat bilan bog'lanishni chuqur hurmat qilgan holda, diniy an'anatlar bilan aloqani rag'batlantiradi. Siz qo'shni'lik do'st va o'rgangan o'qituvchilardan o'rganishni davom etishingizni rag'batlantirami.",
+  "disclaimerClose": "Tushundim",
+  "disclaimerInfoTooltip": "Bu ilova hidoyati haqida",
+  "disclaimerSettingsSubtitle": "Faqat umumiy ma'lumot maqsadlari uchun. To'liq taqrirni o'qish uchun bosing.",
+  "disclaimerSectionHeader": "Hidoyat diskleymer"
+}

@@ -1,0 +1,585 @@
+{
+  "@@locale": "ms",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "Pilih bahasa anda",
+  "languageSelectSub": "Anda boleh mengubah ini kemudian dalam Tetapan",
+  "actionContinue": "Teruskan",
+  "languageSuggestedHeader": "Dicadangkan",
+  "languageAllHeader": "Semua bahasa",
+  "languageSuggestedBadge": "Dicadangkan",
+  "languageSearchHint": "Cari…",
+
+  "planGrace": "Standard",
+  "planBlessed": "Barakah",
+
+  "categoryDailyGuidance": "Panduan Harian",
+  "categoryFaithTrust": "Iman & Kepercayaan",
+  "categoryPrayerReflection": "Renungan Solat",
+  "categoryHopeDifficultTimes": "Kesabaran Harapan",
+  "categoryForgiveness": "Minta Keampunan",
+  "categoryLoveCompassion": "Belas Kasihan Welas Asih",
+  "categoryStrengthCourage": "Kekuatan Iman",
+  "categoryGratitude": "Hati yang Bersyukur",
+  "categoryPurposeCalling": "Tujuan Hidup",
+  "categoryFamilyRelationships": "Ikatan Keluarga",
+  "categoryPeaceAnxietyRelief": "Kedamaian Dalam",
+  "categoryWisdomOfJesus": "Kebijaksanaan Nabi",
+  "categoryHumilityCharacter": "Perangai Mulia",
+  "categoryOvercomingTemptation": "Menahan Godaan",
+  "categoryEveningReflection": "Dhikr Malam",
+  "categoryCustom": "Refleksi Peribadi",
+  "dhikrMeaningSubhanallah": "Kemuliaan kepada Allah",
+  "dhikrMeaningAlhamdulillah": "Segala puji bagi Allah",
+  "dhikrMeaningAllahuAkbar": "Allah adalah Yang Terbesar",
+  "quranVerseHeartAtRest": "Sesungguhnya, dalam mengingat Allah, hati-hati menemukan ketenangan.",
+
+  "promptHint": "Ketuk kategori untuk mendapatkan panduan dan renungan Islam",
+
+  "currentLanguage": "Bahasa semasa",
+  "settingsLanguage": "Tetapan bahasa",
+  "settingsTitle": "Tetapan",
+  "chooseLanguage": "Pilih bahasa anda",
+  "continueCta": "Teruskan",
+
+  "promptDailyGuidance": "Tulis panduan harian yang ringkas dan praktis berdasarkan iman Sunni Islam — berakar pada Al-Quran, Hadis, dan ajaran Nabi Muhammad. Pilih sudut pandang yang segar setiap kali: satu kebajikan dari etika Islam, satu kebenaran dari Sunnah, kebijaksanaan dari Para Sahabat Nabi, atau satu amal sunnah dari tradisi Islam. Sertakan satu ayat Al-Quran (Surah:Ayah) dan satu renungan 1–2 ayat untuk dibawa sepanjang hari. Jika relevan, hubungkan dengan kalender Islam atau tarikh penting.",
+
+  "promptFaithTrust": "Tulis renungan Islam ringkas tentang Iman dan kepercayaan kepada rancangan Allah (Tawakkul). Asaskan pada Al-Quran, teladan Nabi Muhammad, dan keimanan Para Sahabat. Ubahkan tema setiap kali: mempercayai Allah dalam ketidakpastian, bergantung pada kebijaksanaan ilahi, kesabaran dalam ujian, atau ketekunan dalam kehidupan sehari-hari. Sertakan satu ayat Al-Quran dan satu langkah jujur untuk hari ini yang diambil dari kebijaksanaan spiritual Islam.",
+
+  "promptPrayerReflection": "Tulis renungan solat Islam ringkas berdasarkan Solat, Doa, atau Dhikr. Ubahkan bentuk setiap kali: satu zikir pagi atau malam (Adhkar), renungan tentang lima solat harian, kontemplasi satu ayat Al-Quran, atau satu permohonan tulus. Sertakan satu ayat Al-Quran dan namakan bentuk solat yang digunakan.",
+
+  "promptHopeDifficultTimes": "Tulis renungan Islam tentang kesabaran (Sabr) dan harapan dalam kesulitan. Ambil dari ajaran Al-Quran tentang ujian, ketekunan Para Nabi, dan belas kasihan Allah dalam momen sulit. Ubahkan sudut pandang setiap kali. Sertakan satu ayat Al-Quran dan satu perspektif yang menggembirakan dari tradisi Islam.",
+
+  "promptForgiveness": "Tulis renungan Islam yang bijak tentang meminta keampunan (Tawbah) dan belas kasihan Allah. Ambil dari ajaran Al-Quran tentang taubat, welas asih Allah, dan contoh teladan Nabi Muhammad yang pemaaf. Ubahkan tema: kembali kepada Allah, memaafkan orang lain, menyembuhkan hubungan, atau mempercayai belas kasihan Allah selepas kesalahan. Sertakan satu ayat Al-Quran dan satu langkah konkrit.",
+
+  "promptLoveCompassion": "Tulis renungan Islam ringkas tentang belas kasihan (Rahmah) dan welas asih dalam kehidupan sehari-hari. Ambil dari teladan Nabi Muhammad, konsep Ihsan (kesempurnaan), dan ajaran Islam tentang kebaikan kepada keluarga, jiran, dan yang lemah. Sertakan satu ayat Al-Quran dan satu tindakan kebaikan kecil untuk diamalkan hari ini.",
+
+  "promptStrengthCourage": "Tulis renungan Islam tentang kekuatan berasaskan iman dan keberanian. Ambil dari contoh Para Nabi, komunitas Muslim awal, dan orang-orang beriman yang tetap teguh dalam kesusahan. Ubahkan tema setiap kali: keberanian melalui iman, kekuatan dalam solat, kepercayaan kepada Allah semasa ketakutan, atau ketangguhan dalam kesukaran. Sertakan satu ayat Al-Quran dan satu doa pendek atau ungkapan zikir.",
+
+  "promptGratitude": "Tulis renungan Islam tentang bersyukur (Shukr) kepada Allah. Asaskan pada ajaran Al-Quran dan tradisi nabi. Ubahkan sudut pandang: bersyukur dalam kesusahan, menghargai berkah kecil, memulai hari dengan memuji Allah, atau mengenali bimbingan Allah dalam kehidupan sehari-hari. Sertakan satu ayat Al-Quran dan satu amalan bersyukur.",
+
+  "promptPurposeCalling": "Tulis renungan Islam tentang tujuan hidup dalam beribadah kepada Allah dan hidup dengan benar. Ambil dari ajaran Al-Quran tentang tujuan, melayani orang lain, dan menggunakan bakat untuk kebaikan. Ubahkan tema setiap kali: melayani keluarga dan masyarakat, mencari bimbingan melalui Istikhara, hidup dengan niat, atau menemukan makna dalam kerja biasa. Sertakan satu ayat Al-Quran dan dua soalan renungan.",
+
+  "promptFamilyRelationships": "Tulis panduan Islam yang bijak tentang keluarga dan hubungan berdasarkan ajaran Al-Quran dan teladan Nabi Muhammad. Ubahkan tema setiap kali: kebaikan dalam keluarga, kesabaran dalam konflik, berbuat baik kepada ibu bapa, mendidik anak dalam iman, atau memperkuat pernikahan. Sertakan satu ayat Al-Quran dan satu amalan hubungan untuk dicuba.",
+
+  "promptPeaceAnxietyRelief": "Tulis renungan Islam yang menenangkan tentang menemui kedamaian dalam melalui zikir Allah (Dhikr) dan kepercayaan pada rancangannya. Ambil dari ajaran Al-Quran tentang ketenangan hati, solat, dan penyerahan diri kepada kehendak Allah. Ubahkan pendekatan setiap kali dan sertakan satu ayat Al-Quran dan satu amalan penenang ringkas dari tradisi Islam.",
+
+  "promptWisdomOfJesus": "Tulis satu karya kebijaksanaan dari Para Nabi seperti yang diajarkan dalam Islam. Ambil dari Al-Quran atau Hadis dan terangkan ringkas bagaimana sarjana Islam telah memahami ajaran tersebut. Ubahkan topik setiap kali: perangai, kesabaran, kerendahan hati, iman, atau kelakuan harian. Sertakan rujukan ayat Al-Quran atau Hadis dan satu penerapan praktis.",
+
+  "promptHumilityCharacter": "Tulis renungan Islam tentang kerendahan hati (Tawadhu) dan perangai mulia (Akhlaq). Ambil dari ajaran Al-Quran, teladan Nabi Muhammad, dan tradisi pembangunan perangai Islam. Ubahkan tema: kerendahan hati dalam kepimpinan, mengakui kesilapan, memperlakukan orang lain dengan hormat, atau berkembang secara spiritual melalui introspeksi diri. Sertakan satu ayat Al-Quran dan satu kebiasaan untuk dipraktikkan.",
+
+  "promptOvercomingTemptation": "Tulis renungan Islam tentang menahan godaan dan tetap berada di jalan yang lurus. Ambil dari panduan Al-Quran, zikir Allah (Dhikr), solat (Salah), dan contoh orang-orang beriman yang mengatasi perjuangan. Ubahkan sudut pandang setiap kali. Sertakan satu ayat Al-Quran dan satu strategi praktis untuk 24 jam berikutnya.",
+
+  "promptEveningReflection": "Tulis renungan Islam petang yang tenang berdasarkan tradisi zikir malam (Adhkar al-Masaa'). Dorong bersyukur, introspeksi diri (Muhasabah), dan kepercayaan kepada Allah sebelum tidur. Sertakan 3–5 soalan renungan ringkas tentang hari itu, satu doa penutup pendek, dan satu ayat Al-Quran.",
+
+  "wordCount": "{count, plural, one {{count} perkataan} other {{count} perkataan}}",
+
+  "optionsCta": "Pilihan",
+  "newCta": "Baru",
+  "actionsTitle": "Apa yang ingin anda lakukan?",
+  "copy": "Salin",
+  "share": "Kongsi",
+  "close": "Tutup",
+  "copiedToast": "Disalin ke papan klip",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "Baris subjek e-mel / kongsi termasuk label kategori.",
+    "placeholders": {
+      "category": { "type": "String", "example": "Panduan Harian" }
+    }
+  },
+
+  "regenerateErrorTitle": "Tidak dapat menghasilkan jawapan baru",
+  "regenerateErrorBody": "{error}\n\nAdakah anda ingin mencuba lagi?",
+  "@regenerateErrorBody": {
+    "description": "Ditunjukkan apabila penjanaan semula jawapan AI gagal.",
+    "placeholders": {
+      "error": { "type": "String", "example": "Ralat rangkaian" }
+    }
+  },
+
+  "cancelCta": "Batal",
+  "retryCta": "Cuba lagi",
+
+  "authTitle": "Buat akaun anda",
+  "continueAsGuest": "Teruskan sebagai tetamu",
+  "signInGoogle": "Daftar masuk dengan Google",
+  "signInApple": "Daftar masuk dengan Apple",
+  "signInEmail": "Daftar masuk dengan E-mel",
+  "upgradeWithApple": "Teruskan dengan Apple",
+  "mustAccept": "Anda mesti menerima Terma dan Syarat serta mengakui Dasar Privasi.",
+  "termsLabel": "Saya menerima Terma Perkhidmatan",
+  "privacyLabel": "Saya telah membaca Dasar Privasi",
+  "marketingOptIn": "Saya bersetuju untuk menerima berita dan tawaran",
+  "openTerms": "Terma Perkhidmatan",
+  "openPrivacy": "Dasar Privasi",
+
+  "accountSection": "Akaun",
+  "guestMode": "Mode tetamu",
+  "signedIn": "Daftar masuk",
+  "upgradeHint": "Simpan renungan anda merentas peranti dengan membuat akaun.",
+  "upgradeWithGoogle": "Teruskan dengan Google",
+  "signOut": "Daftar keluar",
+
+  "snackUpgraded": "Akaun ditingkatkan dengan Google ✅",
+  "snackSignedIn": "Daftar masuk dengan Google ✅",
+  "snackSignedOut": "Daftar keluar",
+  "snackSignedInApple": "Daftar masuk dengan Apple ✅",
+  "snackSignedInGoogle": "Daftar masuk dengan Google ✅",
+  "snackUpgradedApple": "Akaun ditingkatkan dengan Apple ✅",
+  "snackUpgradedGoogle": "Akaun ditingkatkan dengan Google ✅",
+
+  "historyTitle": "Renungan terdahulu",
+  "historyOpenCta": "Renungan terdahulu",
+  "historyEmpty": "Tiada renungan tersimpan lagi.",
+  "historyDeleteTitle": "Padam renungan?",
+  "historyDeleteBody": "Ini akan menghapus secara kekal item yang dipilih.",
+  "deleteCta": "Padam",
+
+  "historyButton": "Renungan Terdahulu",
+  "historyEmptyTitle": "Tiada renungan lagi",
+  "historyEmptyBody": "Janakan sesuatu terlebih dahulu — item tersimpan anda akan muncul di sini.",
+  "historyDelete": "Padam",
+
+  "footerTitle": "Dengan Iman, Sabr dan Rahma.",
+  "footerSubtitle": "Satu langkah pada satu waktu.",
+  "genericErrorSnack": "Sesuatu berlaku salah — sila cuba lagi dalam sebentar.",
+
+  "upgradeAccountCta": "Simpan renungan anda merentas peranti – buat akaun",
+  "deleteAccount": "Padam akaun",
+  "exportData": "Eksport data saya",
+
+  "userUidLabel": "UID: {uid}",
+  "@userUidLabel": {
+    "description": "Label sebelum menunjukkan UID Firebase dalaman.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "Tenang-tenang saja 🐯\nAI memerlukan sebentar sebelum seterusnya…",
+  "rateDailyLimit": "Anda kehabisan renungan buat sekarang.\nDapatkan lebih banyak renungan atau tingkatkan ke Barakah.",
+  "rateCreditsExhausted": "Anda telah menggunakan semua renungan anda.\nTambah stok atau tingkatkan ke Barakah untuk terus.",
+  "rateGraceReflectionsExhausted": "Anda kehabisan renungan buat sekarang.\nDapatkan lebih banyak renungan atau tingkatkan ke Barakah.",
+  "rateReflectionsExhausted": "Anda telah menggunakan semua renungan anda.\nTambah stok atau tingkatkan ke Barakah untuk terus.",
+
+  "blessedDescription": "Barakah membuka ciri premium, kategori masa depan, dan lencana khas.",
+  "championDescription": "Barakah membuka ciri premium, kategori masa depan, dan lencana khas.",
+
+  "ratePlanExhausted": "Renungan anda kosong sekarang. Pelan: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "Ditunjukkan apabila renungan pengguna habis tetapi sebabnya generik.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard atau Barakah" }
+    }
+  },
+
+  "rateCheckFailed": "Tidak dapat memeriksa renungan anda: {message}",
+  "@rateCheckFailed": {
+    "description": "Ditunjukkan apabila fungsi yang boleh dipanggil mengembalikan mesej ralat.",
+    "placeholders": {
+      "message": { "type": "String", "example": "Ralat rangkaian" }
+    }
+  },
+
+  "rateCheckGenericError": "Sesuatu berlaku salah semasa memeriksa renungan anda.",
+  "aiFallbackGeneric": "Sesuatu berlaku salah — sila cuba lagi dalam sebentar.",
+
+  "limitSectionTitle": "Renungan",
+  "limitTodayLabel": "Penggunaan",
+  "limitCreditsLabel": "Renungan baki: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "Pelan: {plan}",
+  "@limitPlanLabel": {
+    "description": "Menunjukkan nama pelan langganan semasa.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard atau Barakah" }
+    }
+  },
+  "limitLoadingLabel": "Memuatkan…",
+  "limitLoadingLabelDescription": "Ditunjukkan dalam kad renungan semasa statistik penggunaan diambil.",
+
+  "aiLimitTitle": "Renungan",
+  "aiLimitSubtitle": "Setiap respons menggunakan 1 renungan. Standard termasuk renungan permulaan. Barakah membuka kategori premium dan membolehkan penambahan stok.",
+  "aiLimitProgressLabel": "{used} / {total} renungan digunakan",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "Renungan",
+  "reflectionsUsageLabel": "Penggunaan",
+  "reflectionsRemainingLabel": "Renungan baki: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "Pelan: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "Menunjukkan nama pelan semasa.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "Standard atau Barakah" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "Memuatkan…",
+  "reflectionsLoadingLabelDescription": "Ditunjukkan semasa statistik renungan diambil.",
+
+  "reflectionsTitle": "Renungan",
+  "reflectionsSubtitle": "Setiap respons menggunakan 1 renungan. Standard termasuk renungan permulaan. Barakah membuka kategori premium dan membolehkan penambahan stok.",
+  "reflectionsProgressLabel": "{used} / {total} renungan digunakan",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "Padam akaun",
+  "settingsDeleteDescription": "Padam akaun anda dan semua data berkaitan secara kekal.",
+  "settingsDeleteButtonLabel": "Padam akaun saya",
+  "settingsDeleteDialogTitle": "Padam akaun?",
+  "settingsDeleteDialogBody": "Tindakan ini adalah kekal dan tidak dapat dibatalkan.\n\nSemua sembang, sejarah dan maklumat akaun anda akan dipadam.",
+  "settingsDeleteDialogCancel": "Batal",
+  "settingsDeleteDialogConfirm": "Padam",
+
+  "settingsFreeLimitUsedTitle": "Renungan permulaan digunakan",
+  "settingsFreeLimitUsedDescription": "Renungan permulaan untuk peranti ini telah digunakan. Tingkatkan ke Barakah atau beli lebih banyak renungan untuk terus.",
+
+  "settingsStarterReflectionsUsedTitle": "Renungan permulaan digunakan",
+  "settingsStarterReflectionsUsedDescription": "Renungan permulaan untuk peranti ini telah digunakan. Tingkatkan ke Barakah atau beli lebih banyak renungan untuk terus.",
+
+  "deviceBoundError": "Peranti ini sudah dipautkan ke akaun lain. Sila daftar masuk dengan akaun asal.",
+
+  "premiumTitle": "Mode Barakah",
+  "premiumSubtitleBasic": "Buka pengalaman Nuria sepenuhnya.",
+  "premiumSubtitleChampion": "Anda Barakah. Perlukan lebih banyak renungan?",
+
+  "premiumCurrentPlan": "Pelan semasa: {plan}",
+  "premiumCreditsStatus": "Renungan: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "Pembelian tidak tersedia sekarang.",
+  "premiumSignInToPurchase": "Daftar masuk untuk membeli renungan atau membuka Barakah.",
+
+  "premiumRestorePurchases": "Pulihkan pembelian",
+  "premiumProcessing": "Memproses…",
+  "premiumRestoreHintTitle": "Sudah membeli Barakah atau renungan pada peranti ini atau yang lain?",
+  "premiumRestoreHintBody": "Pulihkan pembelian anda jika tidak muncul.",
+
+  "premiumBuyCredits200": "Beli 200 renungan",
+  "premiumBuyCredits400": "Beli 400 renungan",
+  "premiumBecomeChampionOneTime": "Tingkatkan ke mode Barakah",
+  "premiumChampionHint": "Sebagai Barakah, anda boleh menambah stok dengan renungan tambahan bila perlu.",
+
+  "premiumUpgradeCta": "Tingkatkan",
+  "premiumRequiredForCategory": "Kategori ini hanya tersedia untuk pengguna Barakah. Tingkatkan dalam Tetapan untuk membuka semua kandungan premium.",
+  "premiumBenefitsBasic": "Buka Barakah untuk mendapatkan renungan tambahan, akses kategori premium, dan terus tanpa henti apabila anda memerlukan panduan.",
+  "premiumBenefitsChampion": "Anda dalam mode Barakah. Jika anda hampir kehabisan, tambahkan beberapa renungan tambahan dan terus tanpa gangguan.",
+  "premiumButtonBecomeChampion": "Buka Barakah",
+  "premiumButtonTopup1000": "Tambah 1000 renungan",
+  "premiumChampionBadge": "Barakah aktif",
+  "premiumLoadingStore": "Memuatkan kedai…",
+
+  "blessedTitle": "Mode Barakah",
+  "blessedSubtitleGrace": "Buka pengalaman Nuria sepenuhnya.",
+  "blessedSubtitleBlessed": "Anda Barakah. Perlukan lebih banyak renungan?",
+
+  "blessedCurrentPlan": "Pelan semasa: {plan}",
+  "blessedReflectionsStatus": "Renungan: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "Pembelian tidak tersedia sekarang.",
+  "blessedProductNotAvailable": "Produk ini belum tersedia dalam kedai. Sila cuba lagi kemudian.",
+  "blessedPurchaseError": "Sesuatu berlaku salah dengan pembelian. Sila cuba lagi.",
+  "blessedSignInToPurchase": "Daftar masuk untuk membeli renungan atau membuka Barakah.",
+
+  "blessedRestorePurchases": "Pulihkan pembelian",
+  "blessedProcessing": "Memproses…",
+  "blessedRestoreHintTitle": "Sudah membeli Barakah atau renungan pada peranti ini atau yang lain?",
+  "blessedRestoreHintBody": "Pulihkan pembelian anda jika tidak muncul.",
+
+  "blessedBuyReflections100": "Tambah 100 renungan",
+  "blessedBuyReflections200": "Beli 200 renungan",
+  "blessedBuyReflections400": "Beli 400 renungan",
+  "blessedBecomeBlessedOneTime": "Tingkatkan ke Barakah",
+  "blessedTopupHint": "Sebagai Barakah, anda boleh menambah stok dengan renungan tambahan bila perlu.",
+
+  "blessedUpgradeCta": "Tingkatkan",
+  "blessedRequiredForCategory": "Kategori ini hanya tersedia untuk pengguna Barakah. Tingkatkan dalam Tetapan untuk membuka semua kandungan premium.",
+  "blessedFeatureLocked": "Buka Barakah untuk akses ciri ini.",
+  "lockedCategoriesHint": "Beberapa kategori dikhaskan untuk anggota Barakah. Buka untuk meneroka setiap renungan dalam perjalanan anda.",
+  "blessedBenefitsGrace": "Buka Barakah untuk mendapatkan renungan tambahan, akses kategori premium, dan terus tanpa henti apabila anda memerlukan panduan.",
+  "blessedBenefitsBlessed": "Anda dalam mode Barakah. Jika anda hampir kehabisan, tambahkan beberapa renungan tambahan dan terus tanpa gangguan.",
+  "blessedButtonBecomeBlessed": "Buka Barakah",
+  "blessedButtonTopup1000": "Tambah 1000 renungan",
+  "blessedBadge": "Barakah aktif",
+  "blessedLoadingStore": "Memuatkan kedai…",
+
+  "freePlanBlockedTitle": "Anda telah kehabisan renungan permulaan",
+  "freePlanBlockedBody": "Anda berada dalam pelan Standard dengan renungan permulaan, dan anda telah mencapai had. Untuk terus — dan buka kategori premium — tingkatkan ke Barakah.",
+  "freePlanBlockedCtaGoPremium": "Lihat pilihan Barakah di bawah",
+
+  "graceBlockedTitle": "Anda telah kehabisan renungan permulaan",
+  "graceBlockedBody": "Anda berada dalam pelan Standard dengan renungan permulaan, dan anda telah mencapai had. Untuk terus — dan buka kategori premium — tingkatkan ke Barakah.",
+  "graceBlockedCtaGoBlessed": "Lihat pilihan Barakah di bawah",
+
+  "rateGuestMustSignIn": "Daftar masuk untuk menggunakan Nuria dan renungan anda.",
+
+  "guestNoCreditsTitle": "Mode tetamu",
+  "guestNoCreditsBody": "Sebagai tetamu anda boleh menyemak imbas apl, tetapi anda tidak boleh menggunakan renungan. Daftar masuk kemudian dalam Tetapan untuk menggunakan renungan dan membuka pembelian.",
+
+  "guestNoReflectionsTitle": "Mode tetamu",
+  "guestNoReflectionsBody": "Sebagai tetamu anda boleh menyemak imbas apl, tetapi anda tidak boleh menggunakan renungan. Daftar masuk kemudian dalam Tetapan untuk menggunakan renungan dan membuka pembelian.",
+
+  "guestDialogContinue": "Teruskan",
+  "guestDialogLoginInstead": "Daftar masuk sebaliknya",
+
+  "optionalLabel": "pilihan",
+
+  "accountDeleteSuccessTitle": "Akaun dipadam",
+  "accountDeleteSuccessBody": "Akaun anda dan data berkaitan telah dipadam dengan berjaya.",
+  "accountDeleteSuccessClose": "Tutup",
+  "accountDeleteErrorTitle": "Tidak dapat memadamkan akaun",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "Pengesahan semula dibatalkan. Sila daftar masuk lagi dan cuba padamkan.",
+  "accountDeleteReauthRequired": "Pemadaman akaun memerlukan log masuk terbaru. Sila daftar keluar, daftar masuk lagi, dan cuba padamkan.",
+  "settingsDeletePermanentWarning": "Tindakan ini adalah kekal dan tidak dapat dibatalkan. Semua data yang berkaitan dengan akaun anda akan dipadam.",
+
+  "dailyGraceTitle": "Panduan Harian",
+  "dailyGraceScriptureLabel": "AYAT HARI INI",
+  "dailyGraceSaintLabel": "ULAMA MINGGU INI",
+  "dailyGraceReflectionLabel": "RENUNGAN MALAM",
+  "dailyGraceCopiedToast": "Ayat disalin ke papan klip",
+
+  "dailyScripture0Text": "Sesungguhnya orang-orang yang bertakwa akan berada di antara taman-taman dan sungai-sungai, di tempat duduk kehormatan di hadapan Raja yang Berkuasa.",
+  "dailyScripture0Ref": "Al-Quran 54:54-55",
+  "dailyScripture1Text": "Dan Kami tidak mengutus kamu, wahai Muhammad, melainkan sebagai rahmat bagi seluruh alam.",
+  "dailyScripture1Ref": "Al-Quran 21:107",
+  "dailyScripture2Text": "Bukankah Allah cukup bagi hambaNya? Padahal mereka menakut-nakuti kamu dengan yang lain selain Allah.",
+  "dailyScripture2Ref": "Al-Quran 39:36",
+  "dailyScripture3Text": "Boleh jadi kamu membenci sesuatu, padahal ia baik bagi kamu; dan boleh jadi kamu mencintai sesuatu, padahal ia buruk bagi kamu. Allah mengetahui, sedangkan kamu tidak mengetahui.",
+  "dailyScripture3Ref": "Al-Quran 2:216",
+  "dailyScripture4Text": "Sesungguhnya Allah adalah bersama orang-orang yang sabar.",
+  "dailyScripture4Ref": "Al-Quran 2:153",
+  "dailyScripture5Text": "Karena itu, ingatlah kepada-Ku, niscaya Aku ingat kepada kamu. Bersyukurlah kepada-Ku, dan janganlah kamu kufur kepada-Ku.",
+  "dailyScripture5Ref": "Al-Quran 2:152",
+  "dailyScripture6Text": "Sesungguhnya yang paling mulia di antara kamu di sisi Allah adalah orang yang paling bertakwa di antara kamu.",
+  "dailyScripture6Ref": "Al-Quran 49:13",
+  "dailyScripture7Text": "Dan Tuhanmu telah memerintahkan agar kamu tidak menyembah selain Dia dan berbuat baik kepada ibu bapa.",
+  "dailyScripture7Ref": "Al-Quran 17:23",
+  "dailyScripture8Text": "Maka sesungguhnya bersama kesulitan ada kemudahan.",
+  "dailyScripture8Ref": "Al-Quran 94:6",
+  "dailyScripture9Text": "Dan Dia bersama kamu di mana pun kamu berada. Dan Allah Maha Melihat apa yang kamu lakukan.",
+  "dailyScripture9Ref": "Al-Quran 57:4",
+  "dailyScripture10Text": "Allah tidak membebani seseorang melainkan dengan apa yang mampu untuknya.",
+  "dailyScripture10Ref": "Al-Quran 2:286",
+  "dailyScripture11Text": "Dan siapa yang bertawakkal kepada Allah, maka Allah cukup baginya.",
+  "dailyScripture11Ref": "Al-Quran 65:3",
+  "dailyScripture12Text": "Rahmat-Ku mencakupi segala sesuatu.",
+  "dailyScripture12Ref": "Al-Quran 7:156",
+  "dailyScripture13Text": "Apabila hamba-hambaKu bertanya kepadamu tentang Aku, maka sesungguhnya Aku adalah dekat. Aku mengabulkan permohonan orang yang berdoa apabila dia berdoa kepada-Ku.",
+  "dailyScripture13Ref": "Al-Quran 2:186",
+  "dailyScripture14Text": "Barangsiapa mengerjakan amal saleh, baik lelaki maupun perempuan dalam keadaan beriman, maka sesungguhnya akan Kami berikan kepadanya kehidupan yang baik.",
+  "dailyScripture14Ref": "Al-Quran 16:97",
+  "dailyScripture15Text": "Sesungguhnya Allah tidak mengubah keadaan sesuatu kaum sehingga mereka mengubah keadaan diri mereka sendiri.",
+  "dailyScripture15Ref": "Al-Quran 13:11",
+  "dailyScripture16Text": "Janganlah kamu menjadi lemah, dan janganlah pula kamu bersedih hati, sedangkan kamu adalah orang-orang yang paling tinggi derajatnya, jika kamu adalah orang-orang beriman.",
+  "dailyScripture16Ref": "Al-Quran 3:139",
+  "dailyScripture17Text": "Hai hamba-hamba-Ku yang telah melampaui batas terhadap diri mereka sendiri, janganlah kamu putus asa dari rahmat Allah. Sesungguhnya Allah mengampuni dosa-dosa semuanya.",
+  "dailyScripture17Ref": "Al-Quran 39:53",
+  "dailyScripture18Text": "Dan barangsiapa bertakwa kepada Allah, niscaya Dia akan mengadakan baginya jalan keluar dan memberinya rezeki dari arah yang tidak disangka-sangka.",
+  "dailyScripture18Ref": "Al-Quran 65:2-3",
+  "dailyScripture19Text": "Jangan putus asa dari rahmat Allah.",
+  "dailyScripture19Ref": "Al-Quran 12:87",
+  "dailyScripture20Text": "Dan sesungguhnya telah Kami mudahkan Al-Quran untuk pelajaran, maka adakah orang yang akan mengambil pelajaran?",
+  "dailyScripture20Ref": "Al-Quran 54:17",
+  "dailyScripture21Text": "Dan Dia mendapati kamu tersesat lalu menunjukkan jalan.",
+  "dailyScripture21Ref": "Al-Quran 93:7",
+  "dailyScripture22Text": "Dan Tuhanmu berfirman: Berdoalah kepada-Ku, niscaya akan Aku kabulkan doamu.",
+  "dailyScripture22Ref": "Al-Quran 40:60",
+  "dailyScripture23Text": "Dan sesungguhnya telah Kami muliakan anak-anak Adam.",
+  "dailyScripture23Ref": "Al-Quran 17:70",
+  "dailyScripture24Text": "Dan mintalah pertolongan dengan sabar dan salat.",
+  "dailyScripture24Ref": "Al-Quran 2:45",
+  "dailyScripture25Text": "Barangsiapa mengerjakan amal baik seberat atom, maka dia akan melihatnya.",
+  "dailyScripture25Ref": "Al-Quran 99:7",
+  "dailyScripture26Text": "Sesungguhnya pertolongan Allah itu amat dekat.",
+  "dailyScripture26Ref": "Al-Quran 2:214",
+  "dailyScripture27Text": "Dan siapa yang bersyukur, maka dia bersyukur untuk dirinya sendiri.",
+  "dailyScripture27Ref": "Al-Quran 31:12",
+
+  "dailyReflection0": "Apabila hari ini berakhir, pertimbangkan satu saat di mana belas kasihan Allah terbukti.",
+  "dailyReflection1": "Hadirkan kepada Allah apa pun yang membebankan hati anda hari ini.",
+  "dailyReflection2": "Namakan satu berkah dari hari ini dan ungkapkan syukur kepada Allah.",
+  "dailyReflection3": "Beristirahatlah dalam pengetahuan bahwa anda ditahan dalam penjagaan Allah yang tidak terhingga.",
+  "dailyReflection4": "Renungkan di mana anda dipanggil untuk menunjukkan belas kasihan dan kebaikan hari ini.",
+  "dailyReflection5": "Lepaskan apa yang tidak dapat anda kawal dan percayai pada rancangan sempurna Allah.",
+  "dailyReflection6": "Apabila hari berakhir, terimalah kedamaian dalam zikir Allah.",
+  "dailyReflection7": "Pertimbangkan bagaimana anda menghormati solat anda hari ini, dan terima kasih Allah untuk setiap satu.",
+  "dailyReflection8": "Renungkan satu saat di mana kesabaran (Sabr) membimbing tindakan anda hari ini.",
+  "dailyReflection9": "Minta keampunan untuk setiap kekurangan hari ini — belas kasihan Allah adalah tidak terbatas.",
+  "dailyReflection10": "Namakan satu orang yang anda tunjukkan kebaikan hari ini dan buat doa untuk mereka.",
+  "dailyReflection11": "Duduk dengan syukur: apa yang Allah sediakan hari ini yang tidak anda minta?",
+  "dailyReflection12": "Renungkan satu ayat dari Al-Quran yang berbicara kepada di mana anda berada sekarang.",
+  "dailyReflection13": "Pertimbangkan bagaimana anda menggunakan waktu anda hari ini — dan tawarkan esok hari kepada Allah.",
+  "dailyReflection14": "Beristirahatlah mengetahui bahwa apa pun kesukaran yang datang hari ini, Allah bersama anda.",
+  "dailyReflection15": "Fikirkan satu cara anda melayani keluarga atau komunitas anda hari ini untuk kebesaran Allah.",
+  "dailyReflection16": "Apabila malam tiba, buat Taubah — Allah cinta mereka yang kembali kepadanya.",
+  "dailyReflection17": "Renungkan keindahan yang Allah tempatkan dalam hari anda, betapa pun kecil.",
+  "dailyReflection18": "Pertimbangkan apa yang anda pelajari hari ini dan bagaimana ia membawa anda lebih dekat kepada Allah.",
+  "dailyReflection19": "Biarkan kekhawatiran hari itu berehat dengan Allah — Dia menanggung apa yang tidak dapat anda tanggung.",
+  "dailyReflection20": "Fikirkan satu saat hari ini di mana anda boleh telah memilih lebih baik, dan pelajari darinya dengan lembut.",
+  "dailyReflection21": "Buat doa untuk mereka yang bergelut — doa anda adalah hadiah kepada mereka.",
+  "dailyReflection22": "Ingat kembali satu berkah yang sering anda abaikan dan ambil masa untuk bersyukur kepada Allah untuknya.",
+  "dailyReflection23": "Renungkan niat anda hari ini — adakah ia untuk Allah? Esok hari, mulai semula.",
+  "dailyReflection24": "Apabila malam bertenyap, dengarkan kedekatan Allah dalam kesunyian.",
+  "dailyReflection25": "Pertimbangkan di mana anda menemui kekuatan hari ini — kekuatan itu datang dari Allah.",
+  "dailyReflection26": "Namakan satu perkara yang anda akan lakukan esok hari, untuk Allah, yang anda tidak lakukan hari ini.",
+  "dailyReflection27": "Apabila anda bersiap untuk istirahat, amankan jiwa anda kepada Allah — Dia adalah penjaga terbaik.",
+
+  "dailyRoleModel0": "Nabi Muhammad ﷺ",
+  "dailyRoleModel1": "Abu Bakar as-Siddiq (R.A.)",
+  "dailyRoleModel2": "Umar ibn al-Khattab (R.A.)",
+  "dailyRoleModel3": "Uthman ibn Affan (R.A.)",
+  "dailyRoleModel4": "Ali ibn Abi Talib (R.A.)",
+  "dailyRoleModel5": "Khadijah bint Khuwaylid (R.A.)",
+  "dailyRoleModel6": "Aisha bint Abi Bakr (R.A.)",
+  "dailyRoleModel7": "Fatimah az-Zahra (R.A.)",
+  "dailyRoleModel8": "Bilal ibn Rabah (R.A.)",
+  "dailyRoleModel9": "Salman al-Farisi (R.A.)",
+  "dailyRoleModel10": "Abu Hurairah (R.A.)",
+  "dailyRoleModel11": "Abdullah ibn Abbas (R.A.)",
+  "dailyRoleModel12": "Abdullah ibn Masud (R.A.)",
+  "dailyRoleModel13": "Muadh ibn Jabal (R.A.)",
+  "dailyRoleModel14": "Musab ibn Umayr (R.A.)",
+  "dailyRoleModel15": "Sumayya bint Khabbab (R.A.)",
+  "dailyRoleModel16": "Ammar ibn Yasir (R.A.)",
+  "dailyRoleModel17": "Umm Salamah (R.A.)",
+  "dailyRoleModel18": "Khalid ibn al-Walid (R.A.)",
+  "dailyRoleModel19": "Zayd ibn Thabit (R.A.)",
+  "dailyRoleModel20": "Hafsah bint Umar (R.A.)",
+  "dailyRoleModel21": "Umar ibn Abd al-Aziz (R.H.)",
+  "dailyRoleModel22": "Imam Abu Hanifah (R.H.)",
+  "dailyRoleModel23": "Imam Malik ibn Anas (R.H.)",
+  "dailyRoleModel24": "Imam al-Shafi'i (R.H.)",
+  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (R.H.)",
+  "dailyRoleModel26": "Imam al-Bukhari (R.H.)",
+  "dailyRoleModel27": "Imam Muslim (R.H.)",
+  "dailyRoleModel28": "Imam al-Tirmidhi (R.H.)",
+  "dailyRoleModel29": "Al-Ghazali (R.H.)",
+  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (R.H.)",
+  "dailyRoleModel31": "Ibn Taymiyya (R.H.)",
+  "dailyRoleModel32": "Al-Nawawi (R.H.)",
+  "dailyRoleModel33": "Ibn Hajar al-Asqalani (R.H.)",
+  "dailyRoleModel34": "Ibn Kathir (R.H.)",
+  "dailyRoleModel35": "Al-Tabari (R.H.)",
+  "dailyRoleModel36": "Sufyan al-Thawri (R.H.)",
+  "dailyRoleModel37": "Fakhr al-Din al-Razi (R.H.)",
+  "dailyRoleModel38": "Ibn Sina (R.H.)",
+  "dailyRoleModel39": "Al-Biruni (R.H.)",
+  "dailyRoleModel40": "Ibn Rushd (R.H.)",
+  "dailyRoleModel41": "Ibn Khaldun (R.H.)",
+  "dailyRoleModel42": "Ibn Battuta (R.H.)",
+  "dailyRoleModel43": "Nabi Ibrahim (A.S.)",
+  "dailyRoleModel44": "Nabi Musa (A.S.)",
+  "dailyRoleModel45": "Nabi Isa (A.S.)",
+  "dailyRoleModel46": "Nabi Yusuf (A.S.)",
+  "dailyRoleModel47": "Nabi Dawud (A.S.)",
+  "dailyRoleModel48": "Nabi Sulayman (A.S.)",
+  "dailyRoleModel49": "Nabi Nuh (A.S.)",
+  "dailyRoleModel50": "Nabi Yunus (A.S.)",
+  "dailyRoleModel51": "Nabi Ayub (A.S.)",
+  "dailyRoleModel52": "Ruqayyah bint Muhammad (R.A.)",
+  "dailyRoleModel53": "Zainab bint Muhammad (R.A.)",
+  "dailyRoleModel54": "Hassan ibn Ali (R.A.)",
+  "dailyRoleModel55": "Hussain ibn Ali (R.A.)",
+  "dailyRoleModel56": "Jafar ibn Abi Talib (R.A.)",
+  "dailyRoleModel57": "Abu Dharr al-Ghifari (R.A.)",
+  "dailyRoleModel58": "Talha ibn Ubaydullah (R.A.)",
+  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (R.A.)",
+
+  "locationConsentLabel": "Benarkan Nuria menggunakan lokasi saya untuk arah Qibla dan waktu solat",
+  "locationConsentHint": "Digunakan hanya untuk ciri ini. Lokasi anda tidak pernah dikongsi atau disimpan.",
+
+  "askPageTitle": "Tanya Nuria",
+  "askPageDescription": "Tanya apa-apa tentang iman, solat, kehidupan, atau amalan Islam dan terima panduan berasaskan Al-Quran dan Sunnah.",
+  "askPageInputHint": "Taip soalan anda di sini…",
+  "askPageSubmitCta": "Tanya",
+  "askPageInputEmptyError": "Sila tulis soalan terlebih dahulu.",
+  "askResultYourQuestion": "Soalan anda",
+
+  "guidancePageTitle": "Solat & Panduan",
+  "qiblaFacingMecca": "Menghadap Makkah",
+  "qiblaCompassInstruction": "Putar telefon anda sehingga jarum emas menunjuk ke atas.\nArah itu menunjuk ke Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Isyarat GPS lemah. Keluar dan ketuk Coba Semula.",
+  "qiblaRetry": "Coba Semula",
+  "qiblaTitle": "Arah Qibla",
+  "qiblaDistanceLabel": "{km} km ke Makkah",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "Lokasi diperlukan",
+  "qiblaLocationNeededBody": "Benarkan akses lokasi supaya Nuria dapat mengira arah Kaaba di Makkah dari mana pun anda berada.",
+  "qiblaOpenSettings": "Buka Tetapan",
+  "qiblaCompassLoading": "Mencari kedudukan anda…",
+  "qiblaTowardMecca": "Ke arah Makkah",
+
+  "prayerTimesTitle": "Waktu Solat",
+  "prayerTimesFajr": "Subuh",
+  "prayerTimesDhuhr": "Zohor",
+  "prayerTimesAsr": "Asar",
+  "prayerTimesMaghrib": "Maghrib",
+  "prayerTimesIsha": "Isyak",
+  "prayerTimesLocationNeededTitle": "Lokasi diperlukan",
+  "prayerTimesLocationNeededBody": "Benarkan akses lokasi supaya Nuria dapat mengira waktu solat tepat untuk bandar anda.",
+  "prayerTimesNextLabel": "Berikutnya",
+  "prayerTimesDoneLabel": "Selesai",
+
+  "monthlyPrayerTimesTitle": "Waktu Solat Bulanan",
+  "monthlyPrayerTimesViewButton": "Lihat Bulan Penuh",
+  "monthlyPrayerTimesNextMonth": "Bulan hadapan",
+  "monthlyPrayerTimesDayHeader": "Hari",
+
+  "sharePrayerTimes": "Kongsi waktu solat",
+
+  "prayerNotificationsTitle": "Pengingat Solat",
+  "prayerNotificationsDescription": "Terima pengingat lembut sebelum setiap waktu solat untuk membantu anda tetap berhubung sepanjang hari.",
+  "prayerNotificationsEnable": "Dayakan pengingat solat",
+  "prayerNotificationsOpenSettings": "Buka tetapan pemberitahuan",
+  "prayerNotificationsDenied": "Pemberitahuan dilumpuhkan",
+  "prayerNotificationsDeniedHint": "Pergi ke Tetapan dan benarkan pemberitahuan untuk Nuria untuk menerima pengingat waktu solat.",
+
+  "notificationsConsentLabel": "Benarkan pemberitahuan untuk waktu solat",
+
+  "prayerNotifTitleFajr": "🌅 Subuh — Solat Fajar",
+  "prayerNotifBodyFajr": "Terbaik dari solat ialah solat subuh. Bangun, bersihkan diri, dan berdiri di hadapan Allah.",
+
+  "prayerNotifTitleDhuhr": "☀️ Zohor — Solat Tengah Hari",
+  "prayerNotifBodyDhuhr": "Hentikan hari anda dan kembali kepada Allah. Waktu solat Zohor telah tiba.",
+
+  "prayerNotifTitleAsr": "🌤️ Asar — Solat Petang",
+  "prayerNotifBodyAsr": "Jaga solat tengah. Waktu Asar telah tiba — jangan biarkan ia berlalu.",
+
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Solat Senja",
+  "prayerNotifBodyMaghrib": "Matahari telah terbenam. Tawarkan Maghrib dan bersyukur kepada Allah untuk hari ini.",
+
+  "prayerNotifTitleIsha": "🌙 Isyak — Solat Malam",
+  "prayerNotifBodyIsha": "Akhiri hari anda dengan zikir Allah. Hayya alal falah — datanglah ke kejayaan.",
+
+  "outOfReflectionsBannerText": "Anda telah menggunakan semua renungan anda",
+  "outOfReflectionsBannerCta": "Dapatkan lebih banyak",
+
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Ketuk bulatan untuk mengira",
+  "dhikrResetButton": "Tetapkan Semula",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "Anda telah melengkapkan 99 zikir kepada Allah. Semoga ia menjadi cahaya bagi hati anda.",
+
+  "disclaimerTitle": "Tentang panduan apl ini",
+  "disclaimerBody": "Nuria menyediakan renungan Islam, pengingat, dan kandungan spiritual untuk menyokong perjalanan iman peribadi anda. Kandungan ini ditawarkan untuk tujuan maklumat umum dan inspirasi sahaja.\n\nNuria tidak menggantikan ilmu berkelayakan.\nPanduan dalam apl ini bukan pengganti untuk seorang ulama Islam yang dipelajari, imam, mufti, atau guru terlatih secara teologi. Jika anda mempunyai pertanyaan tentang hukum agama, hal-hal halal dan haram, atau kewajipan agama peribadi, sila carilah nasihat dari pihak berkuasa agama yang berkelayakan dalam komuniti anda.\n\nApl ini tidak mengeluarkan hukum agama.\nNuria tidak membuat penentuan berwibawa dalam perkara fiqh (jurispruden Islam) atau kewajipan agama peribadi. Tidak ada yang di sini harus diperlakukan sebagai fatwa atau arahan agama yang mengikat.\n\nTafsiran sarjana berbeza-beza.\nIslam merangkumi pelbagai tradisi, aliran pemikiran (madhab), dan pendapat ulama. Kandungan dalam apl ini mencerminkan perspektif umum dan mungkin tidak mewakili setiap tradisi atau sekolah sama rata.\n\nKomuniti penting.\nApl ini bertujuan untuk menggalakkan penglibatan anda dengan tradisi iman sambil menghormati peranan penting masjid tempatan anda, imam, dan komuniti agama. Kami menggalakkan anda untuk tetap berhubung dengan dan belajar dari guru berkelayakan berhampiran anda.",
+  "disclaimerClose": "Saya faham",
+  "disclaimerInfoTooltip": "Tentang panduan apl ini",
+  "disclaimerSettingsSubtitle": "Untuk tujuan maklumat umum sahaja. Ketuk untuk membaca penafian lengkap.",
+  "disclaimerSectionHeader": "Penafian panduan"
+}

@@ -1,0 +1,585 @@
+{
+  "@@locale": "he",
+
+  "appTitle": "Nuria",
+
+  "languageSelectTitle": "בחר את השפה שלך",
+  "languageSelectSub": "אתה יכול לשנות זאת מאוחר יותר בהגדרות",
+  "actionContinue": "המשך",
+  "languageSuggestedHeader": "מומלץ",
+  "languageAllHeader": "כל השפות",
+  "languageSuggestedBadge": "מומלץ",
+  "languageSearchHint": "חיפוש…",
+
+  "planGrace": "סטנדרטי",
+  "planBlessed": "ברכה",
+
+  "categoryDailyGuidance": "הנחיה יומית",
+  "categoryFaithTrust": "אמונה והשתמטות",
+  "categoryPrayerReflection": "הרהור תפילה",
+  "categoryHopeDifficultTimes": "סבלנות וקווה",
+  "categoryForgiveness": "בקשת סליחה",
+  "categoryLoveCompassion": "רחמים וחמלה",
+  "categoryStrengthCourage": "אמונה וחוזק",
+  "categoryGratitude": "לב אסיר תודה",
+  "categoryPurposeCalling": "מטרת החיים",
+  "categoryFamilyRelationships": "קשרי משפחה",
+  "categoryPeaceAnxietyRelief": "שלום פנימי",
+  "categoryWisdomOfJesus": "חכמת הנביאים",
+  "categoryHumilityCharacter": "ביצוע טוב",
+  "categoryOvercomingTemptation": "התנגדות לפיתוי",
+  "categoryEveningReflection": "זכר ערב",
+  "categoryCustom": "הרהור אישי",
+  "dhikrMeaningSubhanallah": "תהילה לאללה",
+  "dhikrMeaningAlhamdulillah": "כל השבחים לאללה",
+  "dhikrMeaningAllahuAkbar": "אללה הוא הגדול ביותר",
+  "quranVerseHeartAtRest": "אכן, בזכר אללה הלבבות מוצאים מנוחה.",
+
+  "promptHint": "הקש על קטגוריה לקבלת הנחיה אסלאמית והרהור",
+
+  "currentLanguage": "שפה נוכחית",
+  "settingsLanguage": "הגדרות שפה",
+  "settingsTitle": "הגדרות",
+  "chooseLanguage": "בחר את שפתך",
+  "continueCta": "המשך",
+
+  "promptDailyGuidance": "כתוב הנחיה יומית קצרה ומעשית המושרשת באמונה אסלאמית סונית, מבוססת על הקרآן, ההדיס ותורת הנביא מוחמד. בחר זווית טازה בכל פעם: סגולה מהאתיקה האסלאמית, אמת מהסונה, חכמה מהחברים של הנביא, או פרקטיקה שקטה מן המסורת האסלאמית. כלול פסוק אחד מהקרآן עם חלק ופסוק (סורה:אייה) והרהור של משפט או שניים להנצת לאורך היום. אופציונלי קשור זאת ללוח השנה האסלאמי או לתאריך חשוב אם רלוונטי.",
+
+  "promptFaithTrust": "כתוב הרהור אסלאמי קצר על אימאן (אמונה) והשתמטות בתוכנית של אללה (תוקל). הנטע זאת בקרآן, בדוגמה של הנביא מוחמד ובאמונה של החברים. בחר זווית שונה בכל פעם: השתמטות בעת אי ודאות, הסתמכות על חוכמה אלוהית, סבלנות בניסיונות, או התעמדות שקטה בחיי היומיום. כלול פסוק קרآני אחד וצעד אחד כנה ליום שנמשך מחוכמה רוחנית אסלאמית.",
+
+  "promptPrayerReflection": "כתוב הרהור תפילה אסלאמי קצר המושרש בסלאה, דועא או ד'יקר. בחר צורה שונה בכל פעם: זכר בוקר או ערב (אדכאר), הרהור על חמש התפילות היומיות, התבוננות בפסוק קרآני, או בקשה כנה. כלול פסוק קרآני אחד וציין בקצרה את צורת התפילה בה השתמשת.",
+
+  "promptHopeDifficultTimes": "כתוב הרהור אסלאמי על סבלנות (סבר) וקווה בעת קשיים. הוצא מתורות קרآניות על ניסיונות, התעמדות הנביאים וחמלת אללה ברגעי קושי. בחר זווית שונה בכל פעם. כלול פסוק קרآני אחד ופרספקטיבה אחת מעודדת מן המסורת האסלאמית.",
+
+  "promptForgiveness": "כתוב הרהור אסלאמי חכם על בקשת סליחה (תובה) וחמלת אללה. הוצא מתורות קרآניות על תשובה, החמלה של אללה ודוגמה הסולחת של הנביא מוחמד. בחר זווית שונה: חזרה לאללה, סליחה לאחרים, ריפוי קשרים, או אמונה בחמלת אללה אחרי טעויות. כלול פסוק קרآני אחד וצעד קונקרטי אחד.",
+
+  "promptLoveCompassion": "כתוב הרהור אסלאמי קצר על חמלה (רחמה) וחמלה בחיי היומיום. הוצא מדוגמת הנביא מוחמד, תפיסת אחסאן (השלמות) ותורות אסלאמיות על אדיבות כלפי משפחה, שכנים וחלושים. כלול פסוק קרآני אחד ופעילות אחת של חמלה קטנה לתרגול היום.",
+
+  "promptStrengthCourage": "כתוב הרהור אסלאמי על חוזק המבוסס על אמונה וגבורה. הוצא מדוגמות של הנביאים, הקהילה המוסלמית המוקדמת ומאמינים שנשארו חזקים בקשיים. בחר זווית שונה בכל פעם: גבורה דרך אמונה, חוזק בתפילה, השתמטות בעת פחד, או עמידות בקושי. כלול פסוק קרآני אחד וביקשה קצרה או ביטוי זכר.",
+
+  "promptGratitude": "כתוב הרהור אסלאמי על הכרת תודה (שוקר) כלפי אללה. הנטע זאת בתורות קרآניות ומסורת נביאית. בחר זווית שונה: הכרת תודה בקושי, הערכת ברכות קטנות, התחלת היום בתהילה של אללה, או הכרה בהנחיית אללה בחיי היומיום. כלול פסוק קרآני אחד ופרקטיקה אחת של הכרת תודה.",
+
+  "promptPurposeCalling": "כתוב הרהור אסלאמי על מטרת החיים בעבודת אללה וחיים צודקים. הוצא מתורות קרآניות על מטרה, שירות לאחרים והשימוש בכישרונות לטוב. בחר זווית שונה בכל פעם: שירות למשפחה וקהילה, חיפוש הנחיה דרך איסטיכאראה, חיים בכוונה, או מציאת משמעות בעבודה רגילה. כלול פסוק קרآני אחד ושתי שאלות הרהור.",
+
+  "promptFamilyRelationships": "כתוב הנחיה אסלאמית חכמה על משפחה וקשרים המושרשים בתורות קרآניות ובדוגמת הנביא מוחמד. בחר זווית שונה בכל פעם: אדיבות בחיי משפחה, סבלנות בסכסוך, כיבוד הוריים, גדול ילדים באמונה, או חיזוק נישואין. כלול פסוק קרآני אחד ופרקטיקה יחסית אחת לנסיון.",
+
+  "promptPeaceAnxietyRelief": "כתוב הרהור אסלאמי מרגיע על מציאת שלום פנימי דרך זכר אללה (ד'יקר) והשתמטות בתוכניתו. הוצא מתורות קרآניות על שלווה של הלב, תפילה והשמטה לרצון אללה. בחר גישה שונה בכל פעם וכלול פסוק קרآני אחד ופרקטיקה אחת פשוטה מן המסורת האסלאמית.",
+
+  "promptWisdomOfJesus": "כתוב חלק קצר של חוכמה מהנביאים כפי שנלמד בד'אים. הוצא מהקרآן או הדיס והסבר בקצרה כיצד חכמים אסלאמיים הבינו את התורה. בחר נושא שונה בכל פעם: אופי, סבלנות, ענווה, אמונה, או התנהגות יומית. כלול ציטוט קרآני או הפניית דיס והחלה מעשית אחת.",
+
+  "promptHumilityCharacter": "כתוב הרהור אסלאמי על ענווה (תואדעו) וביצוע טוב (אכלאק). הוצא מתורות קרآניות, מדוגמת הנביא מוחמד וממסורת פיתוח אופי אסלאמי. בחר זווית שונה: ענווה בהנהגה, הודאה בטעויות, התיחסות לאחרים בכבוד, או גדילה רוחנית דרך התבוננות עצמית. כלול פסוק קרآני אחד והרגל אחד לתרגול.",
+
+  "promptOvercomingTemptation": "כתוב הרהור אסלאמי על התנגדות לפיתוי ושמירה על הדרך הישרה. הוצא מהנחיות קרآניות, זכר אללה (ד'יקר), תפילה (סלאה) ודוגמות של מאמינים שהתגברו על קשיים. בחר זווית שונה בכל פעם. כלול פסוק קרآני אחד ואסטרטגיה מעשית אחת ל24 השעות הבאות.",
+
+  "promptEveningReflection": "כתוב הרהור ערב אסלאמי שלווה המושרש במסורת זכר ערב (אדכאר אל-מסאא). עודד הכרת תודה, התבוננות עצמית (מוחאסבה) והשתמטות בעת כניסה למנוחה. כלול 3–5 הנחיות הרהור קצרות על היום, בקשה קצרה וסיגום, ופסוק קרآני אחד.",
+
+  "wordCount": "{count, plural, one {{count} מילה} other {{count} מילים}}",
+
+  "optionsCta": "אפשרויות",
+  "newCta": "חדש",
+  "actionsTitle": "מה היית רוצה לעשות?",
+  "copy": "העתק",
+  "share": "שתף",
+  "close": "סגור",
+  "copiedToast": "הועתק ללוח",
+
+  "shareSubject": "Nuria — {category}",
+  "@shareSubject": {
+    "description": "שורת נושא דוא''ל / שיתוף הכוללת את תווית הקטגוריה.",
+    "placeholders": {
+      "category": { "type": "String", "example": "הנחיה יומית" }
+    }
+  },
+
+  "regenerateErrorTitle": "לא הצלח ליצור תשובה חדשה",
+  "regenerateErrorBody": "{error}\n\nהאם אתה רוצה לנסות שוב?",
+  "@regenerateErrorBody": {
+    "description": "מוצג כאשר הגנרציה של תשובת בינה מלאכותית נכשלת.",
+    "placeholders": {
+      "error": { "type": "String", "example": "שגיאת רשת" }
+    }
+  },
+
+  "cancelCta": "בטל",
+  "retryCta": "נסה שוב",
+
+  "authTitle": "צור את החשבון שלך",
+  "continueAsGuest": "המשך כאורח",
+  "signInGoogle": "התחבר עם Google",
+  "signInApple": "התחבר עם Apple",
+  "signInEmail": "התחבר עם דוא''ל",
+  "upgradeWithApple": "המשך עם Apple",
+  "mustAccept": "עליך להסכים לתנאים ולהכיר בתקנון הפרטיות.",
+  "termsLabel": "אני מקבל את תנאי השירות",
+  "privacyLabel": "קראתי את תקנון הפרטיות",
+  "marketingOptIn": "אני מסכים לקבל חדשות והצעות",
+  "openTerms": "תנאי השירות",
+  "openPrivacy": "תקנון הפרטיות",
+
+  "accountSection": "חשבון",
+  "guestMode": "מצב אורח",
+  "signedIn": "מחובר",
+  "upgradeHint": "שמור את ההרהורים שלך על פני מכשירים על ידי יצירת חשבון.",
+  "upgradeWithGoogle": "המשך עם Google",
+  "signOut": "התנתק",
+
+  "snackUpgraded": "החשבון שופרם עם Google ✅",
+  "snackSignedIn": "התחברת עם Google ✅",
+  "snackSignedOut": "התנתקת",
+  "snackSignedInApple": "התחברת עם Apple ✅",
+  "snackSignedInGoogle": "התחברת עם Google ✅",
+  "snackUpgradedApple": "החשבון שופרם עם Apple ✅",
+  "snackUpgradedGoogle": "החשבון שופרם עם Google ✅",
+
+  "historyTitle": "הרהורים קודמים",
+  "historyOpenCta": "הרהורים קודמים",
+  "historyEmpty": "אין הרהורים שמורים עדיין.",
+  "historyDeleteTitle": "מחק הרהור?",
+  "historyDeleteBody": "זה יסיר את הפריט הנבחר בצורה קבוע.",
+  "deleteCta": "מחק",
+
+  "historyButton": "הרהורים קודמים",
+  "historyEmptyTitle": "אין הרהורים עדיין",
+  "historyEmptyBody": "צור משהו תחילה — הפריטים השמורים שלך יופיעו כאן.",
+  "historyDelete": "מחק",
+
+  "footerTitle": "עם אמונה, סבלנות ורחמים.",
+  "footerSubtitle": "צעד אחד בכל פעם.",
+  "genericErrorSnack": "משהו השתבש — אנא נסה שוב בעוד רגע.",
+
+  "upgradeAccountCta": "שמור הרהורים על פני מכשירים – צור חשבון",
+  "deleteAccount": "מחק חשבון",
+  "exportData": "ייצא את הנתונים שלי",
+
+  "userUidLabel": "מזהה: {uid}",
+  "@userUidLabel": {
+    "description": "תוויות לפני הצגת מזהה Firebase פנימי.",
+    "placeholders": {
+      "uid": { "type": "String", "example": "abc123" }
+    }
+  },
+
+  "rateLocalThrottle": "קל על זה 🐯\nהבינה המלאכותית צריכה רגע לפני הבא…",
+  "rateDailyLimit": "תם לך כעת.\nקבל עוד הרהורים או שדרג לברכה.",
+  "rateCreditsExhausted": "השתמשת בכל ההרהורים שלך.\nהשלם או שדרג לברכה כדי להמשיך.",
+  "rateGraceReflectionsExhausted": "תם לך כעת.\nקבל עוד הרהורים או שדרג לברכה.",
+  "rateReflectionsExhausted": "השתמשת בכל ההרהורים שלך.\nהשלם או שדרג לברכה כדי להמשיך.",
+
+  "blessedDescription": "ברכה מנתח תכונות פרימיום, קטגוריות עתידיות וסמן מיוחד.",
+  "championDescription": "ברכה מנתח תכונות פרימיום, קטגוריות עתידיות וסמן מיוחד.",
+
+  "ratePlanExhausted": "ההרהורים שלך ריקים כעת. תוכנית: {plan}.",
+  "@ratePlanExhausted": {
+    "description": "מוצג כאשר ההרהורים של המשתמש תם אך הסיבה כללית.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "סטנדרטי או ברכה" }
+    }
+  },
+
+  "rateCheckFailed": "לא הצלח לבדוק את ההרהורים שלך: {message}",
+  "@rateCheckFailed": {
+    "description": "מוצג כאשר הפונקציה הניתנת להוצאה מחזירה הודעת שגיאה.",
+    "placeholders": {
+      "message": { "type": "String", "example": "שגיאת רשת" }
+    }
+  },
+
+  "rateCheckGenericError": "משהו השתבש בעת בדיקת ההרהורים שלך.",
+  "aiFallbackGeneric": "משהו השתבש — אנא נסה שוב בעוד רגע.",
+
+  "limitSectionTitle": "הרהורים",
+  "limitTodayLabel": "שימוש",
+  "limitCreditsLabel": "הרהורים שנותרו: {credits}",
+  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitPlanLabel": "תוכנית: {plan}",
+  "@limitPlanLabel": {
+    "description": "מציג את שם תוכנית המנוי הנוכחית.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "סטנדרטי או ברכה" }
+    }
+  },
+  "limitLoadingLabel": "טוען…",
+  "limitLoadingLabelDescription": "מוצג בכרטיס הרהורים בזמן הבאת נתוני השימוש.",
+
+  "aiLimitTitle": "הרהורים",
+  "aiLimitSubtitle": "כל תשובה משתמשת בהרהור אחד. סטנדרטי כולל הרהורי היווסד. ברכה פותח את הקטגוריות הפרימיום וממשך בהשלמות.",
+  "aiLimitProgressLabel": "{used} / {total} הרהורים בשימוש",
+  "@aiLimitProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "reflectionsSectionTitle": "הרהורים",
+  "reflectionsUsageLabel": "שימוש",
+  "reflectionsRemainingLabel": "הרהורים שנותרו: {reflections}",
+  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
+
+  "reflectionsPlanLabel": "תוכנית: {plan}",
+  "@reflectionsPlanLabel": {
+    "description": "מציג את שם התוכנית הנוכחית.",
+    "placeholders": {
+      "plan": { "type": "String", "example": "סטנדרטי או ברכה" }
+    }
+  },
+
+  "reflectionsLoadingLabel": "טוען…",
+  "reflectionsLoadingLabelDescription": "מוצג בזמן הבאת נתוני ההרהורים.",
+
+  "reflectionsTitle": "הרהורים",
+  "reflectionsSubtitle": "כל תשובה משתמשת בהרהור אחד. סטנדרטי כולל הרהורי היווסד. ברכה פותח את הקטגוריות הפרימיום וממשך בהשלמות.",
+  "reflectionsProgressLabel": "{used} / {total} הרהורים בשימוש",
+  "@reflectionsProgressLabel": {
+    "placeholders": {
+      "used": {},
+      "total": {}
+    }
+  },
+
+  "settingsDeleteTitle": "מחק חשבון",
+  "settingsDeleteDescription": "מחק את החשבון שלך ואת כל הנתונים הקשורים בצורה קבוע.",
+  "settingsDeleteButtonLabel": "מחק את החשבון שלי",
+  "settingsDeleteDialogTitle": "מחק חשבון?",
+  "settingsDeleteDialogBody": "פעולה זו קבועה ולא ניתן לבטלה.\n\nכל הצ'אטים, ההיסטוריה ומידע החשבון שלך יימחקו.",
+  "settingsDeleteDialogCancel": "בטל",
+  "settingsDeleteDialogConfirm": "מחק",
+
+  "settingsFreeLimitUsedTitle": "הרהורי היווסד בשימוש",
+  "settingsFreeLimitUsedDescription": "ההרהורים ההיווסדים למכשיר זה בשימוש. שדרג לברכה או קנה עוד הרהורים כדי להמשיך.",
+
+  "settingsStarterReflectionsUsedTitle": "הרהורי היווסד בשימוש",
+  "settingsStarterReflectionsUsedDescription": "ההרהורים ההיווסדים למכשיר זה בשימוש. שדרג לברכה או קנה עוד הרהורים כדי להמשיך.",
+
+  "deviceBoundError": "מכשיר זה כבר קשור לחשבון אחר. אנא התחבר עם החשבון המקורי.",
+
+  "premiumTitle": "מצב ברכה",
+  "premiumSubtitleBasic": "פתח את חוויית Nuria המלאה.",
+  "premiumSubtitleChampion": "אתה בברכה. צריך עוד הרהורים?",
+
+  "premiumCurrentPlan": "תוכנית נוכחית: {plan}",
+  "premiumCreditsStatus": "הרהורים: {remaining} / {total}",
+
+  "premiumPurchasesUnavailable": "רכישות אינן זמינות כעת.",
+  "premiumSignInToPurchase": "התחבר כדי לקנות הרהורים או לפתוח ברכה.",
+
+  "premiumRestorePurchases": "שחזר רכישות",
+  "premiumProcessing": "מעבד…",
+  "premiumRestoreHintTitle": "כבר קנית ברכה או הרהורים במכשיר זה או במכשיר אחר?",
+  "premiumRestoreHintBody": "שחזר את הרכישות שלך אם הן לא מופיעות.",
+
+  "premiumBuyCredits200": "קנה 200 הרהורים",
+  "premiumBuyCredits400": "קנה 400 הרהורים",
+  "premiumBecomeChampionOneTime": "שדרג למצב ברכה",
+  "premiumChampionHint": "כברכה, אתה יכול להשלים עם הרהורים נוספים כמו שאתה צריך.",
+
+  "premiumUpgradeCta": "שדרג",
+  "premiumRequiredForCategory": "קטגוריה זו זמינה רק למשתמשי ברכה. שדרג בהגדרות כדי לפתוח את כל התוכן הפרימיום.",
+  "premiumBenefitsBasic": "פתח ברכה כדי לקבל הרהורים נוספים, גישה לקטגוריות פרימיום, והמשך כלפי הנחיה בכל פעם שאתה צריך.",
+  "premiumBenefitsChampion": "אתה במצב ברכה. אם אתה נמוך, הוסף כמה הרהורים נוספים והמשך ללא הפסקות.",
+  "premiumButtonBecomeChampion": "פתח ברכה",
+  "premiumButtonTopup1000": "הוסף 1000 הרהורים",
+  "premiumChampionBadge": "ברכה פעיל",
+  "premiumLoadingStore": "טוען חנות…",
+
+  "blessedTitle": "מצב ברכה",
+  "blessedSubtitleGrace": "פתח את חוויית Nuria המלאה.",
+  "blessedSubtitleBlessed": "אתה בברכה. צריך עוד הרהורים?",
+
+  "blessedCurrentPlan": "תוכנית נוכחית: {plan}",
+  "blessedReflectionsStatus": "הרהורים: {remaining} / {total}",
+
+  "blessedPurchasesUnavailable": "רכישות אינן זמינות כעת.",
+  "blessedProductNotAvailable": "מוצר זה אינו זמין בחנות עדיין. אנא נסה שוב מאוחר יותר.",
+  "blessedPurchaseError": "משהו השתבש עם הרכישה. אנא נסה שוב.",
+  "blessedSignInToPurchase": "התחבר כדי לקנות הרהורים או לפתוח ברכה.",
+
+  "blessedRestorePurchases": "שחזר רכישות",
+  "blessedProcessing": "מעבד…",
+  "blessedRestoreHintTitle": "כבר קנית ברכה או הרהורים במכשיר זה או במכשיר אחר?",
+  "blessedRestoreHintBody": "שחזר את הרכישות שלך אם הן לא מופיעות.",
+
+  "blessedBuyReflections100": "הוסף 100 הרהורים",
+  "blessedBuyReflections200": "קנה 200 הרהורים",
+  "blessedBuyReflections400": "קנה 400 הרהורים",
+  "blessedBecomeBlessedOneTime": "שדרג לברכה",
+  "blessedTopupHint": "כברכה, אתה יכול להשלים עם הרהורים נוספים כמו שאתה צריך.",
+
+  "blessedUpgradeCta": "שדרג",
+  "blessedRequiredForCategory": "קטגוריה זו זמינה רק למשתמשי ברכה. שדרג בהגדרות כדי לפתוח את כל התוכן הפרימיום.",
+  "blessedFeatureLocked": "פתח ברכה כדי לגשת לתכונה זו.",
+  "lockedCategoriesHint": "חלק מהקטגוריות שמורות לחברים בברכה. פתח אותן כדי לחקור כל הרהור בהנסע שלך.",
+  "blessedBenefitsGrace": "פתח ברכה כדי לקבל הרהורים נוספים, גישה לקטגוריות פרימיום, והמשך כלפי הנחיה בכל פעם שאתה צריך.",
+  "blessedBenefitsBlessed": "אתה במצב ברכה. אם אתה נמוך, הוסף כמה הרהורים נוספים והמשך ללא הפסקות.",
+  "blessedButtonBecomeBlessed": "פתח ברכה",
+  "blessedButtonTopup1000": "הוסף 1000 הרהורים",
+  "blessedBadge": "ברכה פעיל",
+  "blessedLoadingStore": "טוען חנות…",
+
+  "freePlanBlockedTitle": "השתמשת בהרהורי ההיווסד שלך",
+  "freePlanBlockedBody": "אתה בתוכנית סטנדרטית עם הרהורי היווסד, והגעת לגבול. כדי להמשיך — ולפתוח קטגוריות פרימיום — שדרג לברכה.",
+  "freePlanBlockedCtaGoPremium": "ראה אפשרויות ברכה למטה",
+
+  "graceBlockedTitle": "השתמשת בהרהורי ההיווסד שלך",
+  "graceBlockedBody": "אתה בתוכנית סטנדרטית עם הרהורי היווסד, והגעת לגבול. כדי להמשיך — ולפתוח קטגוריות פרימיום — שדרג לברכה.",
+  "graceBlockedCtaGoBlessed": "ראה אפשרויות ברכה למטה",
+
+  "rateGuestMustSignIn": "התחבר כדי להשתמש ב-Nuria וההרהורים שלך.",
+
+  "guestNoCreditsTitle": "מצב אורח",
+  "guestNoCreditsBody": "כאורח אתה יכול לעיין באפליקציה, אך אינך יכול להשתמש בהרהורים. התחבר מאוחר יותר בהגדרות כדי להשתמש בהרהורים ולפתוח רכישות.",
+
+  "guestNoReflectionsTitle": "מצב אורח",
+  "guestNoReflectionsBody": "כאורח אתה יכול לעיין באפליקציה, אך אינך יכול להשתמש בהרהורים. התחבר מאוחר יותר בהגדרות כדי להשתמש בהרהורים ולפתוח רכישות.",
+
+  "guestDialogContinue": "המשך",
+  "guestDialogLoginInstead": "התחבר במקום זאת",
+
+  "optionalLabel": "אופציונלי",
+
+  "accountDeleteSuccessTitle": "חשבון נמחק",
+  "accountDeleteSuccessBody": "החשבון שלך והנתונים הקשורים בו נמחקו בהצלחה.",
+  "accountDeleteSuccessClose": "סגור",
+  "accountDeleteErrorTitle": "לא הצלח למחוק חשבון",
+  "accountDeleteErrorClose": "אישור",
+  "accountDeleteReauthCancelled": "אימות חוזר בוטל. אנא התחבר שוב ונסה למחוק שוב.",
+  "accountDeleteReauthRequired": "מחיקת חשבון דורשת התחברות עדכנית. אנא התנתק, התחבר שוב, ונסה למחוק שוב.",
+  "settingsDeletePermanentWarning": "פעולה זו קבועה ולא ניתן לבטלה. כל הנתונים הקשורים לחשבון שלך יימחקו.",
+
+  "dailyGraceTitle": "הנחיה יומית",
+  "dailyGraceScriptureLabel": "פסוק של היום",
+  "dailyGraceSaintLabel": "חוקר השבוע",
+  "dailyGraceReflectionLabel": "הרהור ערב",
+  "dailyGraceCopiedToast": "פסוק הועתק ללוח",
+
+  "dailyScripture0Text": "אכן, הצדיקים יהיו בגנות ובנהרות, בישיבה של כבוד ליד מלך עוצום.",
+  "dailyScripture0Ref": "קורואן 54:54-55",
+  "dailyScripture1Text": "ולא שלחנוך, אלא כרחמים לעולמות.",
+  "dailyScripture1Ref": "קורואן 21:107",
+  "dailyScripture2Text": "הלא אללה מספיק לעבדו? עם זאת הם מפחידים אותך באחרים מלבדו.",
+  "dailyScripture2Ref": "קורואן 39:36",
+  "dailyScripture3Text": "אולי אתה שונא משהו והוא טוב לך; ואולי אתה אוהב משהו והוא רע לך. ואללה יודע, בזמן שאתה לא יודע.",
+  "dailyScripture3Ref": "קורואן 2:216",
+  "dailyScripture4Text": "אכן, אללה עם הסבלניים.",
+  "dailyScripture4Ref": "קורואן 2:153",
+  "dailyScripture5Text": "אז זכור אותי; אני אזכור אותך. והוו תודה לי ואל תכחישו אותי.",
+  "dailyScripture5Ref": "קורואן 2:152",
+  "dailyScripture6Text": "אכן, הנבל ביותר שלך בעיני אללה הוא הצדיק ביותר שלך.",
+  "dailyScripture6Ref": "קורואן 49:13",
+  "dailyScripture7Text": "וברבך הוא פקד שלא תעבוד אלא אותו, ושהתה כופרות להוריך.",
+  "dailyScripture7Ref": "קורואן 17:23",
+  "dailyScripture8Text": "כן, עם קושי בא קלות.",
+  "dailyScripture8Ref": "קורואן 94:6",
+  "dailyScripture9Text": "והוא עם בך בכל מקום שאתה נמצא. ואללה, מהם שאתה עושה, רואה.",
+  "dailyScripture9Ref": "קורואן 57:4",
+  "dailyScripture10Text": "אללה לא יוטיל עול על נפש מעבר למה שהיא יכולה לשאת.",
+  "dailyScripture10Ref": "קורואן 2:286",
+  "dailyScripture11Text": "והמי שמסתמך על אללה — אז הוא מספיק לו.",
+  "dailyScripture11Ref": "קורואן 65:3",
+  "dailyScripture12Text": "רחמי משפחתי מכסה את כל הדברים.",
+  "dailyScripture12Ref": "קורואן 7:156",
+  "dailyScripture13Text": "וכאשר עבדי שלי שואלים אותך על — אכן אני קרוב. אני עונה לתוקף כשהוא קורא לי.",
+  "dailyScripture13Ref": "קורואן 2:186",
+  "dailyScripture14Text": "מי שעשה צדקה, בין זכר או נקבה, בזמן שהוא מאמין — אנחנו בוודאי נגרום לו לחיות חיים טובים.",
+  "dailyScripture14Ref": "קורואן 16:97",
+  "dailyScripture15Text": "אכן, אללה לא ישנה את מצבם של עם עד שהם ישנו מה שבתוכם.",
+  "dailyScripture15Ref": "קורואן 13:11",
+  "dailyScripture16Text": "אז אל תתחלש ואל תצטער, ותהיה עליון אם אתה מאמינים אמיתיים.",
+  "dailyScripture16Ref": "קורואן 3:139",
+  "dailyScripture17Text": "עבדיי שעברו על עצמם, אל תייאשו מרחמת אללה. אכן, אללה סולח על כל החטאים.",
+  "dailyScripture17Ref": "קורואן 39:53",
+  "dailyScripture18Text": "והמי שירא את אללה — הוא יעשה לו דרך החוצה, וייספק לו מכאן שהוא לא מצפה.",
+  "dailyScripture18Ref": "קורואן 65:2-3",
+  "dailyScripture19Text": "אל תיאש מרחמת אללה.",
+  "dailyScripture19Ref": "קורואן 12:87",
+  "dailyScripture20Text": "ובוודאי עשינו את הקורואן קל לזכור. אז האם יש מישהו שיהיה זהיר?",
+  "dailyScripture20Ref": "קורואן 54:17",
+  "dailyScripture21Text": "והוא מצא אותך אבוד והנחה אותך.",
+  "dailyScripture21Ref": "קורואן 93:7",
+  "dailyScripture22Text": "וברבך אומר: קרא לי; אני עונה לך.",
+  "dailyScripture22Ref": "קורואן 40:60",
+  "dailyScripture23Text": "והוודאי כיבדנו את בני אדם.",
+  "dailyScripture23Ref": "קורואן 17:70",
+  "dailyScripture24Text": "וחיפשו עזרה דרך סבלנות ותפילה.",
+  "dailyScripture24Ref": "קורואן 2:45",
+  "dailyScripture25Text": "מי שעשה משקל אטום של טוב יראה אותו.",
+  "dailyScripture25Ref": "קורואן 99:7",
+  "dailyScripture26Text": "בחזקות, העזרה של אללה קרובה.",
+  "dailyScripture26Ref": "קורואן 2:214",
+  "dailyScripture27Text": "והמי שהוא אסיר תודה — תודתו היא רק לתועלתו שלו.",
+  "dailyScripture27Ref": "קורואן 31:12",
+
+  "dailyReflection0": "כשהיום זה סוגר, שקול רגע אחד בו רחמת אללה היתה ברורה.",
+  "dailyReflection1": "הביא לפני אללה כל מה שהכביד את לבך היום.",
+  "dailyReflection2": "שם רגע אחד של ברכה מהיום הזה והוד תודה לאללה.",
+  "dailyReflection3": "היה במנוחה בידיעה שאתה מוחזק בעזרה אללה האינסופית.",
+  "dailyReflection4": "הרהור היכן הרגשת שזועקים אותך להיות רחמים וחמלה היום.",
+  "dailyReflection5": "שחרר מה שאינך יכול לשלוט בו והשתמט בתוכנית של אללה המושלמת.",
+  "dailyReflection6": "כאשר היום מתקרב לסיום, קבל שלום בזכר אללה.",
+  "dailyReflection7": "שקול כיצד כיבדת את התפילות שלך היום, והוד תודה לאללה על כל אחד.",
+  "dailyReflection8": "הרהור על רגע בו סבלנות (סבר) הנחתה את הפעולות שלך היום.",
+  "dailyReflection9": "בקש סליחה על כל חסרון היום — רחמת אללה אינסופית.",
+  "dailyReflection10": "שם אדם אחד שהוצאת לך חמלה היום וקח דוא לה.",
+  "dailyReflection11": "היה עם הכרת תודה: מה אללה סיפק היום שלא בקשת?",
+  "dailyReflection12": "הרהור על פסוק מהקורואן המדבר למקומך כעת.",
+  "dailyReflection13": "שקול כיצד השתמשת בזמנך היום — והקדש את מחרתייך לאללה.",
+  "dailyReflection14": "היה בתנוחה בידיעה שלא משנה קושי שבא היום, אללה היה איתך דרכו.",
+  "dailyReflection15": "חשוב על דרך אחת בה שירתת את משפחתך או קהילתך היום לעבור אללה.",
+  "dailyReflection16": "כאשר הלילה נופל, עשה תובה — אללה אוהב את אלה שחוזרים אליו.",
+  "dailyReflection17": "הרהור על יופי אללה הנחת ביום שלך, כמו שהוא קטן.",
+  "dailyReflection18": "שקול מה למדת היום וכיצד זה משכך קרוב יותר לאללה.",
+  "dailyReflection19": "תן את דאגות היום המנוחה עם אללה — הוא נושא מה שאתה לא יכול.",
+  "dailyReflection20": "חשוב על רגע היום בו הייתה יכול לבחור טוב יותר, וללמד ממנו בעדינות.",
+  "dailyReflection21": "קח דוא לאלה שסובלים — התפילה שלך היא מתנה להם.",
+  "dailyReflection22": "זכור ברכה שאתה לעתים קרובות משום, וקח רגע להוד תודה לאללה עליה.",
+  "dailyReflection23": "הרהור על הכוונות שלך היום — האם היו לאללה? מחרתה, התחל שוב.",
+  "dailyReflection24": "כאשר הלילה שותק, תשמע את קרבת אללה בשתיקה.",
+  "dailyReflection25": "שקול היכן מצאת חוזק היום — חוזק זה הוא מאללה.",
+  "dailyReflection26": "שם משהו אחד שתעשה מחרתה, לאללה, שלא עשית היום.",
+  "dailyReflection27": "כאשר אתה מתכוננת למנוחה, הפקד את נשמתך לאללה — הוא המוביל הטוב ביותר.",
+
+  "dailyRoleModel0": "הנביא מוחמד ﷺ",
+  "dailyRoleModel1": "אבו בכר אל-סדיק (RA)",
+  "dailyRoleModel2": "עומר אבן אל-כטאב (RA)",
+  "dailyRoleModel3": "עותמאן אבן אפאן (RA)",
+  "dailyRoleModel4": "עלי אבן אבי טאליב (RA)",
+  "dailyRoleModel5": "חדיגה בנת חוואילד (RA)",
+  "dailyRoleModel6": "עאישה בנת אבו בכר (RA)",
+  "dailyRoleModel7": "פטימה אל-זהרא (RA)",
+  "dailyRoleModel8": "בילאל אבן רבאח (RA)",
+  "dailyRoleModel9": "סלמאן אל-פארסי (RA)",
+  "dailyRoleModel10": "אבו הוריירה (RA)",
+  "dailyRoleModel11": "עבדאללה אבן עבאס (RA)",
+  "dailyRoleModel12": "עבדאללה אבן מסעוד (RA)",
+  "dailyRoleModel13": "מואד אבן ג'בל (RA)",
+  "dailyRoleModel14": "מוסאב אבן אומאיה (RA)",
+  "dailyRoleModel15": "סומאיה בנת כבאב (RA)",
+  "dailyRoleModel16": "אמאר אבן יאסיר (RA)",
+  "dailyRoleModel17": "אום סלאמה (RA)",
+  "dailyRoleModel18": "כאליד אבן אל-ואליד (RA)",
+  "dailyRoleModel19": "זיד אבן תאביט (RA)",
+  "dailyRoleModel20": "חפסה בנת עומר (RA)",
+  "dailyRoleModel21": "עומר אבן עבד אל-עזיז (RH)",
+  "dailyRoleModel22": "אימאם אבו חניפה (RH)",
+  "dailyRoleModel23": "אימאם מאליק אבן אנס (RH)",
+  "dailyRoleModel24": "אימאם אל-שאפעי (RH)",
+  "dailyRoleModel25": "אימאם אחמד אבן חנבל (RH)",
+  "dailyRoleModel26": "אימאם אל-בוכארי (RH)",
+  "dailyRoleModel27": "אימאם מוסלים (RH)",
+  "dailyRoleModel28": "אימאם אל-תרמידי (RH)",
+  "dailyRoleModel29": "אל-גזאלי (RH)",
+  "dailyRoleModel30": "אבן אל-קיים אל-ג'וזייה (RH)",
+  "dailyRoleModel31": "אבן תאימייה (RH)",
+  "dailyRoleModel32": "אל-נווי (RH)",
+  "dailyRoleModel33": "אבן חג'ר אל-אסקלאני (RH)",
+  "dailyRoleModel34": "אבן כתיר (RH)",
+  "dailyRoleModel35": "אל-טברי (RH)",
+  "dailyRoleModel36": "סופיאן אל-תאורי (RH)",
+  "dailyRoleModel37": "פכר אל-דין אל-ראזי (RH)",
+  "dailyRoleModel38": "אבן סינא (RH)",
+  "dailyRoleModel39": "אל-בירוני (RH)",
+  "dailyRoleModel40": "אבן רושד (RH)",
+  "dailyRoleModel41": "אבן כלדון (RH)",
+  "dailyRoleModel42": "אבן בטוטה (RH)",
+  "dailyRoleModel43": "הנביא אברהם (AS)",
+  "dailyRoleModel44": "הנביא משה (AS)",
+  "dailyRoleModel45": "הנביא ישו (AS)",
+  "dailyRoleModel46": "הנביא יוסף (AS)",
+  "dailyRoleModel47": "הנביא דוד (AS)",
+  "dailyRoleModel48": "הנביא שלמה (AS)",
+  "dailyRoleModel49": "הנביא נח (AS)",
+  "dailyRoleModel50": "הנביא יונה (AS)",
+  "dailyRoleModel51": "הנביא איוב (AS)",
+  "dailyRoleModel52": "רוקאיה בנת מוחמד (RA)",
+  "dailyRoleModel53": "זיינאב בנת מוחמד (RA)",
+  "dailyRoleModel54": "חסן אבן עלי (RA)",
+  "dailyRoleModel55": "חוסיין אבן עלי (RA)",
+  "dailyRoleModel56": "ג'עפר אבן אבי טאליב (RA)",
+  "dailyRoleModel57": "אבו דר אל-גיפארי (RA)",
+  "dailyRoleModel58": "טלחה אבן אובאידאללה (RA)",
+  "dailyRoleModel59": "אל-זוביר אבן אל-אווםם (RA)",
+
+  "locationConsentLabel": "אפשר ל-Nuria להשתמש במיקומי לכיוון קיבלה ושעות תפילה",
+  "locationConsentHint": "משמש רק לתכונות אלה. המיקום שלך לא משותף או מאוחסן.",
+
+  "askPageTitle": "שאל את Nuria",
+  "askPageDescription": "שאל כל דבר על אמונה, תפילה, חיים או פרקטיקה אסלאמית וקבל הנחיה המושרשת בקורואן וסונה.",
+  "askPageInputHint": "הקלד את השאלה שלך כאן…",
+  "askPageSubmitCta": "שאל",
+  "askPageInputEmptyError": "בבקשה כתוב תחילה שאלה.",
+  "askResultYourQuestion": "השאלה שלך",
+
+  "guidancePageTitle": "תפילה והנחיה",
+  "qiblaFacingMecca": "מול מכה",
+  "qiblaCompassInstruction": "סובב את הטלפון שלך עד שהמחט הזהובה מצביעה כלפי מעלה.\nכיוון זה מצביע על קיבלה (מכה).",
+  "qiblaGpsUnavailableBody": "אות GPS חלש. צא החוצה ולחץ על ניסיון חוזר.",
+  "qiblaRetry": "נסה שוב",
+  "qiblaTitle": "כיוון קיבלה",
+  "qiblaDistanceLabel": "{km} ק''מ למכה",
+  "@qiblaDistanceLabel": {
+    "placeholders": { "km": { "type": "String" } }
+  },
+  "qiblaLocationNeededTitle": "דרוש מיקום",
+  "qiblaLocationNeededBody": "אפשר גישת מיקום כדי ש-Nuria יוכל לחשב את כיוון הקאעבה במכה מכל מקום שאתה נמצא.",
+  "qiblaOpenSettings": "פתח הגדרות",
+  "qiblaCompassLoading": "מוצא את המיקום שלך…",
+  "qiblaTowardMecca": "לכיוון מכה",
+
+  "prayerTimesTitle": "שעות תפילה",
+  "prayerTimesFajr": "פג'ר",
+  "prayerTimesDhuhr": "דוהר",
+  "prayerTimesAsr": "אסר",
+  "prayerTimesMaghrib": "מגריב",
+  "prayerTimesIsha": "עישאא",
+  "prayerTimesLocationNeededTitle": "דרוש מיקום",
+  "prayerTimesLocationNeededBody": "אפשר גישת מיקום כדי ש-Nuria יוכל לחשב שעות תפילה מדויקות לעירך.",
+  "prayerTimesNextLabel": "הבא",
+  "prayerTimesDoneLabel": "סיום",
+
+  "monthlyPrayerTimesTitle": "שעות תפילה חודשיות",
+  "monthlyPrayerTimesViewButton": "הצג חודש מלא",
+  "monthlyPrayerTimesNextMonth": "חודש הבא",
+  "monthlyPrayerTimesDayHeader": "יום",
+
+  "sharePrayerTimes": "שתף שעות תפילה",
+
+  "prayerNotificationsTitle": "תזכורות תפילה",
+  "prayerNotificationsDescription": "קבל תזכורת עדינה לפני כל שעת תפילה כדי להישאר מחובר לאורך היום.",
+  "prayerNotificationsEnable": "אפשר תזכורות תפילה",
+  "prayerNotificationsOpenSettings": "פתח הגדרות הודעות",
+  "prayerNotificationsDenied": "הודעות מבוטלות",
+  "prayerNotificationsDeniedHint": "עבור להגדרות וקבל הודעות ל-Nuria כדי לקבל תזכורות שעות תפילה.",
+
+  "notificationsConsentLabel": "אפשר הודעות לשעות תפילה",
+
+  "prayerNotifTitleFajr": "🌅 פג'ר — תפילת הבוקר",
+  "prayerNotifBodyFajr": "הטובה של התפילות היא תפילת הבוקר. קום, טהר את עצמך, ועמד לפני אללה.",
+
+  "prayerNotifTitleDhuhr": "☀️ דוהר — תפילת צהריים",
+  "prayerNotifBodyDhuhr": "עצור ביום שלך וחזור לאללה. הגיע זמן תפילת דוהר.",
+
+  "prayerNotifTitleAsr": "🌤️ אסר — תפילת אחר הצהריים",
+  "prayerNotifBodyAsr": "שמור את תפילת הביניים. הגיע זמן אסר — אל תיתן לו להעביר.",
+
+  "prayerNotifTitleMaghrib": "🌇 מגריב — תפילת השקיעה",
+  "prayerNotifBodyMaghrib": "השמש שקעה. קח את מגריב וכן תודה לאללה על היום הזה.",
+
+  "prayerNotifTitleIsha": "🌙 עישאא — תפילת הלילה",
+  "prayerNotifBodyIsha": "סיים את יום עם זכר אללה. חאיא עלאל פלאח — בואו להצלחה.",
+
+  "outOfReflectionsBannerText": "השתמשת בכל ההרהורים שלך",
+  "outOfReflectionsBannerCta": "קבל עוד",
+
+  "dhikrPageTitle": "ד'יקר",
+  "dhikrTapToCount": "לחץ על המעגל כדי לספור",
+  "dhikrResetButton": "איפוס",
+  "dhikrComplete": "מאשא אללה",
+  "dhikrCompleteMessage": "השלמת 99 זכירות של אללה. שהיו אור ללבך.",
+
+  "disclaimerTitle": "אודות הנחיית האפליקציה הזו",
+  "disclaimerBody": "Nuria מספקת הרהורים אסלאמיים, תזכורות ותוכן רוחני כדי לתמוך בהנסע האישי של אמונתך. תוכן זה מוצע למטרות מידע כללי והשראה בלבד.\n\nNuria לא מחליפה מלומדות כשרה.\nההנחיה באפליקציה זו אינה תחליף לחוקר אסלאמי קשוח, אימאם, מופתי או מורה שהדרך לו. אם יש לך שאלות על פסקי דין דתיים, עניינים של הלאל והאראם, או חובות דתיים אישיים, בבקשה בקש עצה מסמכות דתית כשרה בקהילתך.\n\nאפליקציה זו לא משדרת פסקי דין דתיים.\nNuria לא עושה קביעות סמכותיות על עניינים של פיקה (משפטים אסלאמיים) או חובות דתיים אישיים. כלום כאן לא צריך להיחשב כפתווה או הוראה דתית מחייבת.\n\nפירושים חכמים משתנים.\nהאיסלאם כולל עושר מגוון של מסורות, בתי ספר של מחשבה (מדהבים) וחוות דעת חכמות. התוכן באפליקציה זו משקף פרספקטיבות כלליות ואולי לא מייצג כל מסורת או בית ספר בשוויון.\n\nהקהילה חשובה.\nאפליקציה זו נועדה לעודד את ההתערבות שלך עם מסורות אמונה תוך כיבוד עמוק של התפקיד החיוני של המסגד המקומי שלך, אימאם וקהילה דתית. אנו מעודדים אתכם להישאר מחובר ולהתמדה מחוקרים כשרים ליד לך.",
+  "disclaimerClose": "אני מבין",
+  "disclaimerInfoTooltip": "אודות הנחיית האפליקציה הזו",
+  "disclaimerSettingsSubtitle": "למטרות מידע כללי בלבד. לחץ לקריאת כל הכללים.",
+  "disclaimerSectionHeader": "כללים להנחיה"
+}
