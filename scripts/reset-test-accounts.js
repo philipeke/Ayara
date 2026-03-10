@@ -1,5 +1,5 @@
 /**
- * reset-test-accounts.js — Full wipe for nuria-mobile-app
+ * reset-test-accounts.js — Full wipe for ayara-mobile-app
  *
  * Deletes ALL Firebase Auth users and ALL documents in IAP/user collections.
  *
@@ -18,10 +18,10 @@ if (serviceAccountPath) {
   const sa = require("../" + serviceAccountPath);
   admin.initializeApp({
     credential: admin.credential.cert(sa),
-    projectId: "nuria-mobile-app",
+    projectId: "ayara-mobile-app",
   });
 } else {
-  admin.initializeApp({ projectId: "nuria-mobile-app" });
+  admin.initializeApp({ projectId: "ayara-mobile-app" });
 }
 
 const db = admin.firestore();
@@ -63,7 +63,7 @@ async function deleteAllAuthUsers() {
 }
 
 async function main() {
-  console.log("🔥 nuria-mobile-app — Full test data wipe\n");
+  console.log("🔥 ayara-mobile-app — Full test data wipe\n");
   console.log("Deleting Firestore collections...");
 
   const collections = [

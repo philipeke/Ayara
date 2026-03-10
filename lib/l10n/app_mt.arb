@@ -1,7 +1,7 @@
 {
   "@@locale": "mt",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Agħżel il-lingwa tiegħek",
   "languageSelectSub": "Tista' tbiddel dan aktar tard fl-Impostazzjonijiet",
@@ -83,7 +83,7 @@
   "close": "Agħlaq",
   "copiedToast": "Kopjat mal-clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Dan il-device huwa diġà marbut ma' kont ieħor. Jekk jogħġbok idħol b'il-kont oriġinali.",
 
   "premiumTitle": "Modalità Barakah",
-  "premiumSubtitleBasic": "Aftaħ l-esperjenza sħiħa ta' Nuria.",
+  "premiumSubtitleBasic": "Aftaħ l-esperjenza sħiħa ta' Ayara.",
   "premiumSubtitleChampion": "Inti Barakah. Għandek bżonn aktar riflessjonijiet?",
 
   "premiumCurrentPlan": "Plann attwali: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Qed nitlifex il-maħżen…",
 
   "blessedTitle": "Modalità Barakah",
-  "blessedSubtitleGrace": "Aftaħ l-esperjenza sħiħa ta' Nuria.",
+  "blessedSubtitleGrace": "Aftaħ l-esperjenza sħiħa ta' Ayara.",
   "blessedSubtitleBlessed": "Inti Barakah. Għandek bżonn aktar riflessjonijiet?",
 
   "blessedCurrentPlan": "Plann attwali: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Inti fuq il-plann Standard b'riflessjonijiet starter, u waslajt il-limitu. Biex tkompli — u tiftaħ kategoriji premium — modernizza għal Barakah.",
   "graceBlockedCtaGoBlessed": "Ara l-għażliet Barakah hawn taħt",
 
-  "rateGuestMustSignIn": "Idħol biex tuża Nuria u r-riflessjonijiet tiegħek.",
+  "rateGuestMustSignIn": "Idħol biex tuża Ayara u r-riflessjonijiet tiegħek.",
 
   "guestNoCreditsTitle": "Modalità għast",
   "guestNoCreditsBody": "Bħala għast tista' tdur l-app, imma ma tistax tuża riflessjonijiet. Idħol aktar tard fl-Impostazzjonijiet biex tuża riflessjonijiet u tiftaħ mixi.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Ippermetti Nuria juża il-lokazzjoni tiegħi għad-direzzjoni tal-Qibla u tal-ħinijiet ta' għana",
+  "locationConsentLabel": "Ippermetti Ayara juża il-lokazzjoni tiegħi għad-direzzjoni tal-Qibla u tal-ħinijiet ta' għana",
   "locationConsentHint": "Użat biss għal dawn il-karatteristiċi. Il-lokazzjoni tiegħek qatt mhux aqsma jew iktaħżna.",
 
-  "askPageTitle": "Istqari Nuria",
+  "askPageTitle": "Istqari Ayara",
   "askPageDescription": "Istqari dwar il-iman, il-għana, il-ħajja, jew il-prattika Islamija u irċievi gwida mirradia fil-Quran u s-Sunnah.",
   "askPageInputHint": "Ikteb il-mistoqsija tiegħek hawn…",
   "askPageSubmitCta": "Istqari",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Il-lokazzjoni hija meħtieġa",
-  "qiblaLocationNeededBody": "Ippermetti l-aċċess tal-lokazzjoni sabiex Nuria tistgħu tikkalcola d-direzzjoni tal-Kaaba f'Makkah minn fejn inti issa.",
+  "qiblaLocationNeededBody": "Ippermetti l-aċċess tal-lokazzjoni sabiex Ayara tistgħu tikkalcola d-direzzjoni tal-Kaaba f'Makkah minn fejn inti issa.",
   "qiblaOpenSettings": "Iftaħ Impostazzjonijiet",
   "qiblaCompassLoading": "Qed insibu l-pożizzjoni tiegħek…",
   "qiblaTowardMecca": "Lejn Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Il-lokazzjoni hija meħtieġa",
-  "prayerTimesLocationNeededBody": "Ippermetti l-aċċess tal-lokazzjoni sabiex Nuria tistgħu tikkalcola ħinijiet ta' għana preċiżi għall-belt tiegħek.",
+  "prayerTimesLocationNeededBody": "Ippermetti l-aċċess tal-lokazzjoni sabiex Ayara tistgħu tikkalcola ħinijiet ta' għana preċiżi għall-belt tiegħek.",
   "prayerTimesNextLabel": "Li jmiss",
   "prayerTimesDoneLabel": "Lest",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Attiva twissiet tal-għana",
   "prayerNotificationsOpenSettings": "Iftaħ settazzjonijiet ta' notifikazzjonijiet",
   "prayerNotificationsDenied": "In-notifikazzjonijiet huma disabilitati",
-  "prayerNotificationsDeniedHint": "Imxi lejn Settings u ippermetti notifikazzjonijiet għal Nuria biex tirċievi twissiet tal-għana.",
+  "prayerNotificationsDeniedHint": "Imxi lejn Settings u ippermetti notifikazzjonijiet għal Ayara biex tirċievi twissiet tal-għana.",
 
   "notificationsConsentLabel": "Ippermetti notifikazzjonijiet għal ħinijiet tal-għana",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Та Аллахтай 99 удаа сээргэлдсэн байна. Эдгээр нь таны зүрхэнд гэрэл болтугай.",
 
   "disclaimerTitle": "Энэ апп-ын чиглэлийн талаар",
-  "disclaimerBody": "Nuria нь таны итгэлийн хувийн аялалыг дэмжихийн тулд Ислам сургаал, сануулга, ба сүнслэг агуулгыг санал болгодог. Энэ агуулга нь ерөнхий мэдээлэл авах ба урам зоригтой зорилгоор л өгөгдөөс байна.\n\nNuria нь сургамжлагдсан ухаан сурлагын орлуур биш.\nЭнэ апп-д өгөгдсөн чиглэл нь мэргэжлийн Ислам сургаач, имам, мүфти, эсвэл богословиар сургагдсан багшийн сурталчилгаа биш юм. Хэрэв та шашны дүрэм, халал болон харам асуудал, эсвэл хувийн шашны үүргийн талаар асуулт авсан бол үндэсний чадвартай шашны эрх мэдлээс зөвлөгөө авна уу.\n\nЭнэ апп нь шашны дүрэм гаргадаггүй.\nNuria нь фикх (Исламын хуульч) болон хувийн шашны үүргийн асуудлуудаар эрхэмжүүлэх шийдвэрийг авч явдаггүй. Энд өгөгдсөн юу ч фатва эсвэл хүчинтэй шашны зөвлөмжийг авч явуулахгүй.\n\nСургаачийн тайлбар өөр өөр байдаг.\nИслам нь баялаг уламжлал, сэтгэлгээний сургууль (мадхаб) ба сургаачийн олон санал санаачидыг агуулдаг. Энэ апп-д байгаа агуулга нь ерөнхий үзэл баримтлалыг бүтээдэг ба аливаа уламжлал эсвэл сургуулийг адилхан төлөөлөх магадлал багатай.\n\nОрон нутгийн нийгэм чухал.\nЭнэ апп нь таны итгэлийн уламжлалтай холбогдохыг дэмжихийг зорилдоо өнөө орон нутгийн сүмэ, имам, ба шашны нийгмийн чухал үүрэг гүйцэтгэдэг. Бид танд орон нутагтаа сургамжлагдсан багшдаас сурах ба холбогдож байхыг урамшуулдаг.",
+  "disclaimerBody": "Ayara нь таны итгэлийн хувийн аялалыг дэмжихийн тулд Ислам сургаал, сануулга, ба сүнслэг агуулгыг санал болгодог. Энэ агуулга нь ерөнхий мэдээлэл авах ба урам зоригтой зорилгоор л өгөгдөөс байна.\n\nAyara нь сургамжлагдсан ухаан сурлагын орлуур биш.\nЭнэ апп-д өгөгдсөн чиглэл нь мэргэжлийн Ислам сургаач, имам, мүфти, эсвэл богословиар сургагдсан багшийн сурталчилгаа биш юм. Хэрэв та шашны дүрэм, халал болон харам асуудал, эсвэл хувийн шашны үүргийн талаар асуулт авсан бол үндэсний чадвартай шашны эрх мэдлээс зөвлөгөө авна уу.\n\nЭнэ апп нь шашны дүрэм гаргадаггүй.\nAyara нь фикх (Исламын хуульч) болон хувийн шашны үүргийн асуудлуудаар эрхэмжүүлэх шийдвэрийг авч явдаггүй. Энд өгөгдсөн юу ч фатва эсвэл хүчинтэй шашны зөвлөмжийг авч явуулахгүй.\n\nСургаачийн тайлбар өөр өөр байдаг.\nИслам нь баялаг уламжлал, сэтгэлгээний сургууль (мадхаб) ба сургаачийн олон санал санаачидыг агуулдаг. Энэ апп-д байгаа агуулга нь ерөнхий үзэл баримтлалыг бүтээдэг ба аливаа уламжлал эсвэл сургуулийг адилхан төлөөлөх магадлал багатай.\n\nОрон нутгийн нийгэм чухал.\nЭнэ апп нь таны итгэлийн уламжлалтай холбогдохыг дэмжихийг зорилдоо өнөө орон нутгийн сүмэ, имам, ба шашны нийгмийн чухал үүрэг гүйцэтгэдэг. Бид танд орон нутагтаа сургамжлагдсан багшдаас сурах ба холбогдож байхыг урамшуулдаг.",
   "disclaimerClose": "Би ойлголоо",
   "disclaimerInfoTooltip": "Энэ апп-ын чиглэлийн талаар",
   "disclaimerSettingsSubtitle": "Ерөнхий мэдээлэл авах зорилгоор л. Бүрэн үзэүүлэлтийг унших бол товшино уу.",

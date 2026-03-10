@@ -1,7 +1,7 @@
 {
   "@@locale": "ig",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Họn asụsụ gị",
   "languageSelectSub": "Ị nwere ike ịgbanwe nke a ma emesị n'ime Settings",
@@ -83,7 +83,7 @@
   "close": "Mechie",
   "copiedToast": "Deere n'mkpakpo gị",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Isiokwu mekorita tinye aha ihei.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Ihe ngwa a jikọla na mma ọzọ. Biko, banye na mma mbụ.",
 
   "premiumTitle": "Ọrụ Barakah",
-  "premiumSubtitleBasic": "Megharia Nuria zuru oke.",
+  "premiumSubtitleBasic": "Megharia Ayara zuru oke.",
   "premiumSubtitleChampion": "Ị bụ Barakah. I chọrọ ọzọ mma-echiche?",
 
   "premiumCurrentPlan": "Ọkwa a tụrụ anya: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Na-atọ ụlọ ahịa…",
 
   "blessedTitle": "Ọrụ Barakah",
-  "blessedSubtitleGrace": "Megharia Nuria zuru oke.",
+  "blessedSubtitleGrace": "Megharia Ayara zuru oke.",
   "blessedSubtitleBlessed": "Ị bụ Barakah. I chọrọ ọzọ mma-echiche?",
 
   "blessedCurrentPlan": "Ọkwa a tụrụ anya: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Ị nọ n'ọkwa Izugbe na-ejikọ mma-echiche ala, na ị ruo n'oke. Iji gaa n'ihu — na megharia ihe ọhụrụ — bulie Barakah.",
   "graceBlockedCtaGoBlessed": "Hụ ihe Barakah n'okpuru",
 
-  "rateGuestMustSignIn": "Banye iji jiri Nuria na mma-echiche gị.",
+  "rateGuestMustSignIn": "Banye iji jiri Ayara na mma-echiche gị.",
 
   "guestNoCreditsTitle": "Ọrụ onye ọbịala",
   "guestNoCreditsBody": "Dị ka onye ọbịala ị nwere ike ịlele ngwa, mana ị gaghị esi jiri mma-echiche. Banye n'oge n'Settings iji jiri mma-echiche na ịzụ azu.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Kemem Nuria iji jiri ọnọdụ m maka akara Qibla na oge mpempe",
+  "locationConsentLabel": "Kemem Ayara iji jiri ọnọdụ m maka akara Qibla na oge mpempe",
   "locationConsentHint": "A jiri naanị maka ihe a. Ọnọdụ gị ọ dịbeghị rụsabatara.",
 
-  "askPageTitle": "Jụọ Nuria",
+  "askPageTitle": "Jụọ Ayara",
   "askPageDescription": "Jụọ ihe ọ bụla maka ịtụkwasị, mpempe, ndụ, ma ọ bụ ihe Islamiikdụ na ị ga-enweta isiokwu tinyenụ n'Quraan na Sunnah.",
   "askPageInputHint": "Dee ajụjụ gị ebe a…",
   "askPageSubmitCta": "Jụọ",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "A chọrọ ọnọdụ",
-  "qiblaLocationNeededBody": "Kemem ọnọdụ iji Nuria kụọ ntụ Kaaba si Makkah.",
+  "qiblaLocationNeededBody": "Kemem ọnọdụ iji Ayara kụọ ntụ Kaaba si Makkah.",
   "qiblaOpenSettings": "Mepe Settings",
   "qiblaCompassLoading": "Na-achọ ọnọdụ gị…",
   "qiblaTowardMecca": "Ụzọ Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "A chọrọ ọnọdụ",
-  "prayerTimesLocationNeededBody": "Kemem ọnọdụ iji Nuria kụọ oge mpempe maka ụlọ gị.",
+  "prayerTimesLocationNeededBody": "Kemem ọnọdụ iji Ayara kụọ oge mpempe maka ụlọ gị.",
   "prayerTimesNextLabel": "Ọzọ",
   "prayerTimesDoneLabel": "Mechie",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Bulie alọma mpempe",
   "prayerNotificationsOpenSettings": "Mepe njikọ alọma",
   "prayerNotificationsDenied": "Alọma akpụ udide",
-  "prayerNotificationsDeniedHint": "Gaa n'Settings na nyere Nuria ngozi iji nweta alọma.",
+  "prayerNotificationsDeniedHint": "Gaa n'Settings na nyere Ayara ngozi iji nweta alọma.",
 
   "notificationsConsentLabel": "Kemem alọma maka oge mpempe",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Ị mezuo ụrụ Allaah 99 oge. Ka ha bụ ìhè maka obi gị.",
 
   "disclaimerTitle": "Maka isiokwu ngwa a",
-  "disclaimerBody": "Nuria na-enye mma-echiche Islamiikdụ, alọma, na ihe mmụọ iji kwadoro ije ịtụkwasị gị. A na-enye ihe a maka ezi obi na mma naanị.\n\nNuria ọ gaghị gọnye isi ọkọ.\nIsiokwu na ngwa a ọ dịbeghị nịve maka ọkọ Isla, imam, mufti, ma ọ bụ onye ọzụ n'ihe Isla. Ma ọ bụ na ị nwere ajụjụ maka ọkwa Islamiikdụ, halal na haram, ma ọ bụ ihe gị kwesịrị ịme, biko jụọ onye ọkọ ziri ezi n'mma gị.\n\nNgwa a ọ gaghị emesa ọkwa Islamiikdụ.\nNuria ọ gaghị ekwu okwu ziri ezi maka ihe ndụ Islamiikdụ ma ọ bụ ihe gị kwesịrị ịme. Ihe niile ebe a ọ gaghị ịrụ dị ka fatwa ma ọ bụ ọkwa Isla.\n\nMma ọkọ ọ dị iche.\nIsla na-ejikọ ọdịnala dị iche, ụdị ihe ọmụmụ, na isiokwu ndị ọkọ dị iche. Ihe na ngwa a na-egosi mma izugbe na agaghị esonye ihe niile.\n\nMma gụkọtara.\nNgwa a na-akpali gị ịjiri ọdịnala Islamiikdụ obi ike ịkwesịkwesi ọrụ imam na ndị ọkọ gị. A na-akpali gị ịdị na mma gị na ụmụ nke mụtara n'ndụ gị.",
+  "disclaimerBody": "Ayara na-enye mma-echiche Islamiikdụ, alọma, na ihe mmụọ iji kwadoro ije ịtụkwasị gị. A na-enye ihe a maka ezi obi na mma naanị.\n\nAyara ọ gaghị gọnye isi ọkọ.\nIsiokwu na ngwa a ọ dịbeghị nịve maka ọkọ Isla, imam, mufti, ma ọ bụ onye ọzụ n'ihe Isla. Ma ọ bụ na ị nwere ajụjụ maka ọkwa Islamiikdụ, halal na haram, ma ọ bụ ihe gị kwesịrị ịme, biko jụọ onye ọkọ ziri ezi n'mma gị.\n\nNgwa a ọ gaghị emesa ọkwa Islamiikdụ.\nAyara ọ gaghị ekwu okwu ziri ezi maka ihe ndụ Islamiikdụ ma ọ bụ ihe gị kwesịrị ịme. Ihe niile ebe a ọ gaghị ịrụ dị ka fatwa ma ọ bụ ọkwa Isla.\n\nMma ọkọ ọ dị iche.\nIsla na-ejikọ ọdịnala dị iche, ụdị ihe ọmụmụ, na isiokwu ndị ọkọ dị iche. Ihe na ngwa a na-egosi mma izugbe na agaghị esonye ihe niile.\n\nMma gụkọtara.\nNgwa a na-akpali gị ịjiri ọdịnala Islamiikdụ obi ike ịkwesịkwesi ọrụ imam na ndị ọkọ gị. A na-akpali gị ịdị na mma gị na ụmụ nke mụtara n'ndụ gị.",
   "disclaimerClose": "Egerela m",
   "disclaimerInfoTooltip": "Maka isiokwu ngwa a",
   "disclaimerSettingsSubtitle": "Maka ezi obi naanị. Metụ iji gụ izu.",

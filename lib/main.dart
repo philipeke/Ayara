@@ -17,7 +17,7 @@ import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'core/config/env.dart';
 import 'core/config/theme.dart';
 import 'core/services/locale_service.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 import 'firebase_options.dart';
 
 import 'features/onboarding/language_gate_screen.dart';
@@ -31,7 +31,7 @@ Future<void> main() async {
   // ── Timezone (required for prayer notification scheduling) ──────────────
   try {
     tz.initializeTimeZones();
-    final String tzName = await const MethodChannel('nuria/timezone')
+    final String tzName = await const MethodChannel('ayara/timezone')
         .invokeMethod<String>('getLocalTimezone') ?? 'UTC';
     tz.setLocalLocation(tz.getLocation(tzName));
   } catch (_) {
@@ -137,7 +137,7 @@ Future<void> main() async {
     // ----------------------------------------------------------------
     final savedLocaleTag = await LocaleService.getSavedLocaleCode();
 
-    runApp(NuriaApp(initialLocaleTag: savedLocaleTag));
+    runApp(AyaraApp(initialLocaleTag: savedLocaleTag));
   }, (error, stack) async {
     if (kReleaseMode) {
       try {
@@ -198,16 +198,16 @@ class _BypassWidgetsLocalizationsDelegate
   bool shouldReload(_BypassWidgetsLocalizationsDelegate old) => false;
 }
 
-class NuriaApp extends StatefulWidget {
+class AyaraApp extends StatefulWidget {
   final String? initialLocaleTag;
 
-  const NuriaApp({super.key, this.initialLocaleTag});
+  const AyaraApp({super.key, this.initialLocaleTag});
 
   @override
-  State<NuriaApp> createState() => _NuriaAppState();
+  State<AyaraApp> createState() => _AyaraAppState();
 }
 
-class _NuriaAppState extends State<NuriaApp> {
+class _AyaraAppState extends State<AyaraApp> {
   Locale? _locale;
   late bool _hasChosenLocale;
 
@@ -305,7 +305,7 @@ class _NuriaAppState extends State<NuriaApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      onGenerateTitle: (ctx) => AppLocalizations.of(ctx)?.appTitle ?? 'Nuria',
+      onGenerateTitle: (ctx) => AppLocalizations.of(ctx)?.appTitle ?? 'Ayara',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light(),
       locale: _locale,

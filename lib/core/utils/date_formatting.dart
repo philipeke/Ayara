@@ -2,7 +2,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 
-/// Central datumformatterare för Nuria.
+/// Central datumformatterare för Ayara.
 /// Använder device/app-locale för "rätt" format per språk.
 class DateFmt {
   static String format(DateTime date, BuildContext context) {

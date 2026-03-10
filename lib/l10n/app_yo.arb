@@ -1,7 +1,7 @@
 {
   "@@locale": "yo",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Yan awọn ede",
   "languageSelectSub": "O le yi eyi pada niwaju ninu Awọn eto",
@@ -83,7 +83,7 @@
   "close": "Tẹ", 
   "copiedToast": "Daakọ si ọkọ iṣiro",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Ọrọ pin pẹlu akọsilẹ ẹka.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Ẹrọ yii ti sokan si akawọ miiran. Jọwọ wọle pẹlu akawọ ibẹrẹ.",
 
   "premiumTitle": "Ọna Barakah",
-  "premiumSubtitleBasic": "Tu ilana Nuria ti o ni.",
+  "premiumSubtitleBasic": "Tu ilana Ayara ti o ni.",
   "premiumSubtitleChampion": "Ẹ wa Barakah. Se o nilo iponju diẹ sii?",
 
   "premiumCurrentPlan": "Eto ti o lo: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Nlo ile owo…",
 
   "blessedTitle": "Ọna Barakah",
-  "blessedSubtitleGrace": "Tu ilana Nuria ti o ni.",
+  "blessedSubtitleGrace": "Tu ilana Ayara ti o ni.",
   "blessedSubtitleBlessed": "Ẹ wa Barakah. Se o nilo iponju diẹ sii?",
 
   "blessedCurrentPlan": "Eto ti o lo: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Ẹ wa ninu eto Olutọju Ipilẹ pẹlu awọn iponju ibẹrẹ, ẹ ti de opin. Lati tẹle — ati tu ẹka afikun — gbaradi si Barakah.",
   "graceBlockedCtaGoBlessed": "Wo awọn aiyipada Barakah ni isalẹ",
 
-  "rateGuestMustSignIn": "Wọle lati lo Nuria ati awọn iponju rẹ.",
+  "rateGuestMustSignIn": "Wọle lati lo Ayara ati awọn iponju rẹ.",
 
   "guestNoCreditsTitle": "Ọna alabere",
   "guestNoCreditsBody": "Bi alabere o le wo apẹ, ṣugbọn o kọ iponju lo. Wọle nigbamii ninu Awọn eto lati lo iponju ati gba awọn rira.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Jẹ ki Nuria lo ibadandun mi fun itọ Qibla ati akoko adura",
+  "locationConsentLabel": "Jẹ ki Ayara lo ibadandun mi fun itọ Qibla ati akoko adura",
   "locationConsentHint": "A lo fun awọn afikun yii nikan. Ibadandun rẹ ko si ife tabi wa ninu iyalẹrẹ.",
 
-  "askPageTitle": "Beere Nuria",
+  "askPageTitle": "Beere Ayara",
   "askPageDescription": "Beere ohun nkan nipa Iman, adura, iye, tabi ise Iman ati gba itọsọna ti o ju ipilẹ ninu Qur'anu ati Sunnah.",
   "askPageInputHint": "Kọ ibeere rẹ nibi…",
   "askPageSubmitCta": "Beere",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Ibadandun yoo nilo",
-  "qiblaLocationNeededBody": "Jẹ ki Nuria lo ibadandun rẹ lati lo itọ Kaabah ni Makkah nibo rẹ ti wa.",
+  "qiblaLocationNeededBody": "Jẹ ki Ayara lo ibadandun rẹ lati lo itọ Kaabah ni Makkah nibo rẹ ti wa.",
   "qiblaOpenSettings": "Tu Awọn eto",
   "qiblaCompassLoading": "N wa ibi rẹ…",
   "qiblaTowardMecca": "Niwaju Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Ibadandun yoo nilo",
-  "prayerTimesLocationNeededBody": "Jẹ ki Nuria lo ibadandun rẹ lati lo akoko adura ti o ka para ọta rẹ.",
+  "prayerTimesLocationNeededBody": "Jẹ ki Ayara lo ibadandun rẹ lati lo akoko adura ti o ka para ọta rẹ.",
   "prayerTimesNextLabel": "Atẹle",
   "prayerTimesDoneLabel": "Tẹ",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Tunli ifitilẹ adura",
   "prayerNotificationsOpenSettings": "Tu ifitilẹ iṣiro",
   "prayerNotificationsDenied": "Awọn ifitilẹ ti ṣe ti e da",
-  "prayerNotificationsDeniedHint": "Lo si Awọn eto ati gba ifitilẹ fun Nuria lati gba ifitilẹ akoko adura.",
+  "prayerNotificationsDeniedHint": "Lo si Awọn eto ati gba ifitilẹ fun Ayara lati gba ifitilẹ akoko adura.",
 
   "notificationsConsentLabel": "Jẹ ki awọn ifitilẹ fun akoko adura",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Ẹ ti pari iṣẹ adura 99. Jẹ ki wọn jẹ ina fun ọkan rẹ.",
 
   "disclaimerTitle": "Nipa itọsọna apẹ yii",
-  "disclaimerBody": "Nuria pese iponju Iman, ifitilẹ, ati nkan ti o kin wẹ lati ṣokan aye Iman rẹ. Nkan ti o ni nibi yii jẹ fun alaye ṣoṣo ati inudidun nikan.\n\nNuria ko gbi olimọ.\nItọsọna ninu apẹ yii ko jẹ iṣẹ fun onimọ Iman ti o kere, alhaji, mufti, tabi okọ onimọ Iman ti o ti kọ. Ti ẹ ba ni ibeere nipa ofin Iman, halal ati haram, tabi ose Iman ti o ba pelu, jọwọ wa olimọ Iman kan ti o gba iwe ninu agbegbe rẹ.\n\nApẹ yii ko se ofin Iman.\nNuria ko se iṣalaye ti o walẹ nipa ohun ti o ba de fiqh (ofin Iman) tabi ose Iman ti o ba pelu. Ohun ti o wa nibi yii ko gba se fatwa tabi iṣagbonisọna Iman ti o dini.\n\nAwọn onimọ nipa iṣa di.\nIman ni ọpọ ẹkọ, awọn ọna ti o yatọ (madhabs), ati awọn iṣagbonisọna onimọ ti o yatọ. Nkan ti o wa ninu apẹ yii jẹ ìfẹ awọn ọna ati o ṣeẹ jẹ ki o kọ gbogbo awọn ẹkọ tabi madhab.\n\nEbi nlo.\nApẹ yii fẹ atsẹ iranlọwọ rẹ pẹlu awọn ẹkọ Iman nígbà tí o ba gbẹkẹle papel ti o nila ti ile iṣoro, alhaji, ati awọn onimọ Iman ti o wa kun yyin. A ṣokan rẹ lati wa lọ sokan pẹlu ti yyin ji ati kọ ẹkọ ninu awọn okọ onimọ ti o wa run yyin.",
+  "disclaimerBody": "Ayara pese iponju Iman, ifitilẹ, ati nkan ti o kin wẹ lati ṣokan aye Iman rẹ. Nkan ti o ni nibi yii jẹ fun alaye ṣoṣo ati inudidun nikan.\n\nAyara ko gbi olimọ.\nItọsọna ninu apẹ yii ko jẹ iṣẹ fun onimọ Iman ti o kere, alhaji, mufti, tabi okọ onimọ Iman ti o ti kọ. Ti ẹ ba ni ibeere nipa ofin Iman, halal ati haram, tabi ose Iman ti o ba pelu, jọwọ wa olimọ Iman kan ti o gba iwe ninu agbegbe rẹ.\n\nApẹ yii ko se ofin Iman.\nAyara ko se iṣalaye ti o walẹ nipa ohun ti o ba de fiqh (ofin Iman) tabi ose Iman ti o ba pelu. Ohun ti o wa nibi yii ko gba se fatwa tabi iṣagbonisọna Iman ti o dini.\n\nAwọn onimọ nipa iṣa di.\nIman ni ọpọ ẹkọ, awọn ọna ti o yatọ (madhabs), ati awọn iṣagbonisọna onimọ ti o yatọ. Nkan ti o wa ninu apẹ yii jẹ ìfẹ awọn ọna ati o ṣeẹ jẹ ki o kọ gbogbo awọn ẹkọ tabi madhab.\n\nEbi nlo.\nApẹ yii fẹ atsẹ iranlọwọ rẹ pẹlu awọn ẹkọ Iman nígbà tí o ba gbẹkẹle papel ti o nila ti ile iṣoro, alhaji, ati awọn onimọ Iman ti o wa kun yyin. A ṣokan rẹ lati wa lọ sokan pẹlu ti yyin ji ati kọ ẹkọ ninu awọn okọ onimọ ti o wa run yyin.",
   "disclaimerClose": "Mo ti mọ",
   "disclaimerInfoTooltip": "Nipa itọsọna apẹ yii",
   "disclaimerSettingsSubtitle": "Fun alaye ṣoṣo. Tẹ lati ka alaye ti o tobi.",

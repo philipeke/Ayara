@@ -1,19 +1,19 @@
 // lib/features/history/presentation/widgets/history_bottom_sheet.dart
 import 'package:flutter/material.dart';
 
-import 'package:nuria/l10n/app_localizations.dart';
-import 'package:nuria/core/utils/date_formatting.dart';
-import 'package:nuria/features/chat/presentation/screens/result_screen.dart';
-import 'package:nuria/features/chat/presentation/utils/route_fade.dart';
+import 'package:ayara/l10n/app_localizations.dart';
+import 'package:ayara/core/utils/date_formatting.dart';
+import 'package:ayara/features/chat/presentation/screens/result_screen.dart';
+import 'package:ayara/features/chat/presentation/utils/route_fade.dart';
 
 // ✅ Model
-import 'package:nuria/models/history_item.dart';
+import 'package:ayara/models/history_item.dart';
 
 // ✅ Service
-import 'package:nuria/features/history/history_service.dart';
+import 'package:ayara/features/history/history_service.dart';
 
 // ✅ Category localization (new ids)
-import 'package:nuria/features/chat/presentation/utils/category_data.dart'
+import 'package:ayara/features/chat/presentation/utils/category_data.dart'
     show localizedTitleFor;
 
 class HistoryBottomSheet extends StatelessWidget {

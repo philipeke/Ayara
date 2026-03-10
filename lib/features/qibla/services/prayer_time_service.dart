@@ -34,7 +34,7 @@ class DayPrayers {
 }
 
 class PrayerTimeService {
-  /// Calculate today's five Sunni prayer times for [lat]/[lng].
+  /// Calculate today's five Shia (Jafari) prayer times for [lat]/[lng].
   /// Returns an empty list on error.
   static List<PrayerEntry> calculate(double lat, double lng) {
     try {

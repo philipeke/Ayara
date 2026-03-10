@@ -6,9 +6,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
-import 'package:nuria/features/limit/usage_service.dart';
-import 'package:nuria/features/limit/usage_refresh_service.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/features/limit/usage_service.dart';
+import 'package:ayara/features/limit/usage_refresh_service.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class DeleteAccountButton extends StatelessWidget {
   const DeleteAccountButton({super.key});
@@ -186,7 +186,7 @@ class DeleteAccountButton extends StatelessWidget {
       }
     }
 
-    // 🍎 iOS (Nuria): use the built-in provider UI (no sign_in_with_apple import needed).
+    // 🍎 iOS (Ayara): use the built-in provider UI (no sign_in_with_apple import needed).
     // This avoids an extra plugin dependency in this widget.
     try {
       final hasApple = providers.contains('apple.com');

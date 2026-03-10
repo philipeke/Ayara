@@ -529,7 +529,7 @@ abstract class AppLocalizations {
   /// No description provided for @promptDailyGuidance.
   ///
   /// In en, this message translates to:
-  /// **'Write a short, practical daily guidance rooted in Sunni Islamic faith — grounded in the Quran, Hadith, and the teachings of the Prophet Muhammad. Choose a fresh angle each time: a virtue from Islamic ethics, a truth from the Sunnah, wisdom from the Companions of the Prophet, or a quiet practice from Islamic tradition. Include one Quran verse (Surah:Ayah) and a 1–2 sentence reflection to carry through the day. Optionally connect it to the Islamic calendar or an important date if relevant.'**
+  /// **'Write a short, practical daily guidance rooted in Shia Islamic faith — grounded in the Quran, Hadith, and the teachings of the Prophet Muhammad. Choose a fresh angle each time: a virtue from Islamic ethics, a truth from the Sunnah, wisdom from the Companions of the Prophet, or a quiet practice from Islamic tradition. Include one Quran verse (Surah:Ayah) and a 1–2 sentence reflection to carry through the day. Optionally connect it to the Islamic calendar or an important date if relevant.'**
   String get promptDailyGuidance;
 
   /// No description provided for @promptFaithTrust.
@@ -2311,7 +2311,7 @@ abstract class AppLocalizations {
   /// No description provided for @dailyRoleModel24.
   ///
   /// In en, this message translates to:
-  /// **'Imam al-Shafi\'i (RH)'**
+  /// **'Imam Ja'far al-Sadiq (AS)'**
   String get dailyRoleModel24;
 
   /// No description provided for @dailyRoleModel25.
@@ -2545,7 +2545,7 @@ abstract class AppLocalizations {
   /// No description provided for @askPageDescription.
   ///
   /// In en, this message translates to:
-  /// **'Ask anything about faith, prayer, life, or Islamic practice and receive guidance rooted in the Quran and Sunnah.'**
+  /// **'Ask anything about faith, prayer, life, or Islamic practice and receive guidance rooted in the Quran and the teachings of the Ahl al-Bayt.'**
   String get askPageDescription;
 
   /// No description provided for @askPageInputHint.

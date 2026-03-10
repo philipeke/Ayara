@@ -1,7 +1,7 @@
 {
   "@@locale": "ca",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Triar la teva llengua",
   "languageSelectSub": "Pots canviar això més tard a Configuració",
@@ -83,7 +83,7 @@
   "close": "Tancar",
   "copiedToast": "Copiat al portapapeles",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Línia d'assumpte per a correu/compartició incloent l'etiqueta de categoria.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Aquest dispositiu ja està vinculat a un altre compte. Si us plau, inicia sessió amb el compte original.",
 
   "premiumTitle": "Mode Barakah",
-  "premiumSubtitleBasic": "Desbloqueja l'experiència completa de Nuria.",
+  "premiumSubtitleBasic": "Desbloqueja l'experiència completa de Ayara.",
   "premiumSubtitleChampion": "Eres Barakah. Necessites més reflexions?",
 
   "premiumCurrentPlan": "Pla actual: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Carregant botiga…",
 
   "blessedTitle": "Mode Barakah",
-  "blessedSubtitleGrace": "Desbloqueja l'experiència completa de Nuria.",
+  "blessedSubtitleGrace": "Desbloqueja l'experiència completa de Ayara.",
   "blessedSubtitleBlessed": "Eres Barakah. Necessites més reflexions?",
 
   "blessedCurrentPlan": "Pla actual: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Estàs en el pla Estàndard amb reflexions inicials i has arribat al límit. Per continuar — i desbloquejar categories premium — millora a Barakah.",
   "graceBlockedCtaGoBlessed": "Mira les opcions de Barakah a sota",
 
-  "rateGuestMustSignIn": "Inicia sessió per usar Nuria i les teves reflexions.",
+  "rateGuestMustSignIn": "Inicia sessió per usar Ayara i les teves reflexions.",
 
   "guestNoCreditsTitle": "Mode convidant",
   "guestNoCreditsBody": "Com a convidant pots explorar l'aplicació, però no pots usar reflexions. Inicia sessió més tard a Configuració per usar reflexions i desbloquejar compres.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Permetre que Nuria useu la meva ubicació per a la direcció de la Qibla i els temps de pregària",
+  "locationConsentLabel": "Permetre que Ayara useu la meva ubicació per a la direcció de la Qibla i els temps de pregària",
   "locationConsentHint": "Utilitzat només per a aquestes funcions. La teva ubicació mai es comparteix o emmagatzema.",
 
-  "askPageTitle": "Pregunta a Nuria",
+  "askPageTitle": "Pregunta a Ayara",
   "askPageDescription": "Pregunta qualsevol cosa sobre la fe, pregària, vida o pràctica islàmica i rep orientació arrelada en l'Alcorà i la Sunnah.",
   "askPageInputHint": "Escriu la teva pregunta aquí…",
   "askPageSubmitCta": "Preguntar",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Ubicació requerida",
-  "qiblaLocationNeededBody": "Permet l'accés a la ubicació perquè Nuria calculi la direcció de la Kaaba a la Meca des d'on quevosigueu.",
+  "qiblaLocationNeededBody": "Permet l'accés a la ubicació perquè Ayara calculi la direcció de la Kaaba a la Meca des d'on quevosigueu.",
   "qiblaOpenSettings": "Obrir Configuració",
   "qiblaCompassLoading": "Trobant la teva posició…",
   "qiblaTowardMecca": "Cap a la Meca",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Ubicació requerida",
-  "prayerTimesLocationNeededBody": "Permet l'accés a la ubicació perquè Nuria calculi els temps de pregària precisos per a la teva ciutat.",
+  "prayerTimesLocationNeededBody": "Permet l'accés a la ubicació perquè Ayara calculi els temps de pregària precisos per a la teva ciutat.",
   "prayerTimesNextLabel": "Següent",
   "prayerTimesDoneLabel": "Fet",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Habilitar recordatoris de pregària",
   "prayerNotificationsOpenSettings": "Obrir configuració de notificacions",
   "prayerNotificationsDenied": "Les notificacions estan deshabilitades",
-  "prayerNotificationsDeniedHint": "Vés a Configuració i permet les notificacions per a Nuria per rebre recordatoris de temps de pregària.",
+  "prayerNotificationsDeniedHint": "Vés a Configuració i permet les notificacions per a Ayara per rebre recordatoris de temps de pregària.",
 
   "notificationsConsentLabel": "Permet notificacions pels temps de pregària",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Has completat 99 remembrances d'Al·là. Que siguin una llum per al teu cor.",
 
   "disclaimerTitle": "Sobre l'orientació d'aquesta aplicació",
-  "disclaimerBody": "Nuria proporciona reflexions islàmiques, recordatoris i contingut espiritual per a suportar el teu viatge personal de fe. Aquest contingut s'ofereix només per a fins informatius i d'inspiració general.\n\nNuria no reemplaça l'erudició qualificada.\nL'orientació en aquesta aplicació no és un substitut per a un erudit islàmic qualificat, imam, muftí o mestre instruït teològicament. Si tens preguntes sobre dictàmens religiosos, qüestions de halal i haram, o obligacions religioses personals, si us plau, busca consell d'una autoritat religiosa qualificada en la teva comunitat.\n\nAquesta aplicació no emetrà dictàmens religiosos.\nNuria no fa determinacions autoritàries en matèries de fiqh (jurisprudència islàmica) u obligacions religioses personals. Res aquí no ha de ser tractat com una fatwa o instrucció religiosa vinculant.\n\nLes interpretacions erudites varien.\nL'Islam comprèn una riquesa diversitat de tradicions, escoles de pensament (madhabs) i opinions erudites. El contingut en aquesta aplicació reflexa perspectives generals i potser no representi cada tradició o escola igualment.\n\nLa comunitat importa.\nAquesta aplicació pretén fomentar el teu compromís amb les tradicions de fe mentre respecta profundament el paper vital del teu masjid local, imam i comunitat religiosa. T'encoratgem a romandre connectat i aprendre de mestres qualificats a prop teu.",
+  "disclaimerBody": "Ayara proporciona reflexions islàmiques, recordatoris i contingut espiritual per a suportar el teu viatge personal de fe. Aquest contingut s'ofereix només per a fins informatius i d'inspiració general.\n\nAyara no reemplaça l'erudició qualificada.\nL'orientació en aquesta aplicació no és un substitut per a un erudit islàmic qualificat, imam, muftí o mestre instruït teològicament. Si tens preguntes sobre dictàmens religiosos, qüestions de halal i haram, o obligacions religioses personals, si us plau, busca consell d'una autoritat religiosa qualificada en la teva comunitat.\n\nAquesta aplicació no emetrà dictàmens religiosos.\nAyara no fa determinacions autoritàries en matèries de fiqh (jurisprudència islàmica) u obligacions religioses personals. Res aquí no ha de ser tractat com una fatwa o instrucció religiosa vinculant.\n\nLes interpretacions erudites varien.\nL'Islam comprèn una riquesa diversitat de tradicions, escoles de pensament (madhabs) i opinions erudites. El contingut en aquesta aplicació reflexa perspectives generals i potser no representi cada tradició o escola igualment.\n\nLa comunitat importa.\nAquesta aplicació pretén fomentar el teu compromís amb les tradicions de fe mentre respecta profundament el paper vital del teu masjid local, imam i comunitat religiosa. T'encoratgem a romandre connectat i aprendre de mestres qualificats a prop teu.",
   "disclaimerClose": "Comprenc",
   "disclaimerInfoTooltip": "Sobre l'orientació d'aquesta aplicació",
   "disclaimerSettingsSubtitle": "Només per a fins informatius generals. Toca per llegir el disclaimer complet.",

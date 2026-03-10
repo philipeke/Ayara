@@ -1,7 +1,7 @@
 {
   "@@locale": "vi",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Chọn ngôn ngữ của bạn",
   "languageSelectSub": "Bạn có thể thay đổi điều này sau trong Cài đặt",
@@ -83,7 +83,7 @@
   "close": "Đóng",
   "copiedToast": "Đã sao chép vào clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Thiết bị này đã được liên kết với tài khoản khác. Vui lòng đăng nhập bằng tài khoản gốc.",
 
   "premiumTitle": "Chế độ Barakah",
-  "premiumSubtitleBasic": "Mở khóa trải nghiệm Nuria đầy đủ.",
+  "premiumSubtitleBasic": "Mở khóa trải nghiệm Ayara đầy đủ.",
   "premiumSubtitleChampion": "Bạn là Barakah. Cần thêm suy tư?",
 
   "premiumCurrentPlan": "Kế hoạch hiện tại: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Đang tải cửa hàng…",
 
   "blessedTitle": "Chế độ Barakah",
-  "blessedSubtitleGrace": "Mở khóa trải nghiệm Nuria đầy đủ.",
+  "blessedSubtitleGrace": "Mở khóa trải nghiệm Ayara đầy đủ.",
   "blessedSubtitleBlessed": "Bạn là Barakah. Cần thêm suy tư?",
 
   "blessedCurrentPlan": "Kế hoạch hiện tại: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Bạn ở kế hoạch Tiêu chuẩn với suy tư khởi động, và bạn đã đạt đến giới hạn. Để tiếp tục — và mở khóa các danh mục cao cấp — nâng cấp lên Barakah.",
   "graceBlockedCtaGoBlessed": "Xem các tuỳ chọn Barakah dưới đây",
 
-  "rateGuestMustSignIn": "Đăng nhập để sử dụng Nuria và suy tư của bạn.",
+  "rateGuestMustSignIn": "Đăng nhập để sử dụng Ayara và suy tư của bạn.",
 
   "guestNoCreditsTitle": "Chế độ khách",
   "guestNoCreditsBody": "Là khách, bạn có thể duyệt qua ứng dụng, nhưng bạn không thể sử dụng suy tư. Đăng nhập sau trong Cài đặt để sử dụng suy tư và mở khóa mua hàng.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Cho phép Nuria sử dụng vị trí của tôi cho hướng Qibla và thời gian cầu nguyện",
+  "locationConsentLabel": "Cho phép Ayara sử dụng vị trí của tôi cho hướng Qibla và thời gian cầu nguyện",
   "locationConsentHint": "Chỉ được sử dụng cho các tính năng này. Vị trí của bạn không bao giờ được chia sẻ hoặc lưu trữ.",
 
-  "askPageTitle": "Hỏi Nuria",
+  "askPageTitle": "Hỏi Ayara",
   "askPageDescription": "Hỏi bất cứ điều gì về đức tin, cầu nguyện, cuộc sống, hoặc thực hành Islam và nhận hướng dẫn dựa trên Quran và Sunnah.",
   "askPageInputHint": "Gõ câu hỏi của bạn ở đây…",
   "askPageSubmitCta": "Hỏi",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Cần vị trí",
-  "qiblaLocationNeededBody": "Cho phép truy cập vị trí để Nuria có thể tính toán hướng của Kaaba ở Makkah từ nơi bạn ở.",
+  "qiblaLocationNeededBody": "Cho phép truy cập vị trí để Ayara có thể tính toán hướng của Kaaba ở Makkah từ nơi bạn ở.",
   "qiblaOpenSettings": "Mở Cài đặt",
   "qiblaCompassLoading": "Đang tìm vị trí của bạn…",
   "qiblaTowardMecca": "Hướng tới Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Cần vị trí",
-  "prayerTimesLocationNeededBody": "Cho phép truy cập vị trí để Nuria có thể tính toán thời gian cầu nguyện chính xác cho thành phố của bạn.",
+  "prayerTimesLocationNeededBody": "Cho phép truy cập vị trí để Ayara có thể tính toán thời gian cầu nguyện chính xác cho thành phố của bạn.",
   "prayerTimesNextLabel": "Tiếp theo",
   "prayerTimesDoneLabel": "Xong",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Bật nhắc nhở cầu nguyện",
   "prayerNotificationsOpenSettings": "Mở cài đặt thông báo",
   "prayerNotificationsDenied": "Thông báo bị vô hiệu hóa",
-  "prayerNotificationsDeniedHint": "Đi tới Cài đặt và cho phép thông báo cho Nuria để nhận nhắc nhở thời gian cầu nguyện.",
+  "prayerNotificationsDeniedHint": "Đi tới Cài đặt và cho phép thông báo cho Ayara để nhận nhắc nhở thời gian cầu nguyện.",
 
   "notificationsConsentLabel": "Cho phép thông báo cho thời gian cầu nguyện",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Bạn đã hoàn thành 99 lần nhắc nhở Allah. Có thể chúng là ánh sáng cho trái tim bạn.",
 
   "disclaimerTitle": "Về hướng dẫn của ứng dụng này",
-  "disclaimerBody": "Nuria cung cấp các suy tư Islam, lời nhắc nhở, và nội dung tâm linh để hỗ trợ hành trình đức tin cá nhân của bạn. Nội dung này được cung cấp chỉ cho mục đích thông tin chung và truyền cảm hứng.\n\nNuria không thay thế học vấn xứng đáng.\nHướng dẫn trong ứng dụng này không phải là sự thay thế cho một học giả Islam, imam, mufti, hoặc giáo viên được đào tạo về thần học có trình độ. Nếu bạn có câu hỏi về các chỉ dẫn tôn giáo, những gì haram và halal, hoặc các nghĩa vụ tôn giáo cá nhân, vui lòng tìm kiếm lời khuyên từ một tổ chức tôn giáo có trình độ trong cộng đồng của bạn.\n\nỨng dụng này không ra quyết định tôn giáo.\nNuria không đưa ra quyết định có tính chuẩn mực về các vấn đề fiqh (luật học Islam) hoặc các nghĩa vụ tôn giáo cá nhân. Không có gì ở đây nên được coi là một fatwa hoặc hướng dẫn tôn giáo có ràng buộc.\n\nCác cách hiểu của học giả khác nhau.\nIslam bao gồm một sự đa dạng phong phú các truyền thống, trường phái tư tưởng (madhabs), và ý kiến của học giả. Nội dung trong ứng dụng này phản ánh các quan điểm chung và có thể không đại diện cho mọi truyền thống hoặc trường học một cách bằng nhau.\n\nCộng đồng quan trọng.\nỨng dụng này nhằm mục đích khuyến khích sự tham gia của bạn với các truyền thống tín ngưỡng trong khi tôn trọng sâu sắc vai trò quan trọng của nhà thờ Hồi giáo địa phương, imam, và cộng đồng tôn giáo của bạn. Chúng tôi khuyến khích bạn ở lại kết nối với và học hỏi từ các giáo viên đủ tiêu chuẩn gần bạn.",
+  "disclaimerBody": "Ayara cung cấp các suy tư Islam, lời nhắc nhở, và nội dung tâm linh để hỗ trợ hành trình đức tin cá nhân của bạn. Nội dung này được cung cấp chỉ cho mục đích thông tin chung và truyền cảm hứng.\n\nAyara không thay thế học vấn xứng đáng.\nHướng dẫn trong ứng dụng này không phải là sự thay thế cho một học giả Islam, imam, mufti, hoặc giáo viên được đào tạo về thần học có trình độ. Nếu bạn có câu hỏi về các chỉ dẫn tôn giáo, những gì haram và halal, hoặc các nghĩa vụ tôn giáo cá nhân, vui lòng tìm kiếm lời khuyên từ một tổ chức tôn giáo có trình độ trong cộng đồng của bạn.\n\nỨng dụng này không ra quyết định tôn giáo.\nAyara không đưa ra quyết định có tính chuẩn mực về các vấn đề fiqh (luật học Islam) hoặc các nghĩa vụ tôn giáo cá nhân. Không có gì ở đây nên được coi là một fatwa hoặc hướng dẫn tôn giáo có ràng buộc.\n\nCác cách hiểu của học giả khác nhau.\nIslam bao gồm một sự đa dạng phong phú các truyền thống, trường phái tư tưởng (madhabs), và ý kiến của học giả. Nội dung trong ứng dụng này phản ánh các quan điểm chung và có thể không đại diện cho mọi truyền thống hoặc trường học một cách bằng nhau.\n\nCộng đồng quan trọng.\nỨng dụng này nhằm mục đích khuyến khích sự tham gia của bạn với các truyền thống tín ngưỡng trong khi tôn trọng sâu sắc vai trò quan trọng của nhà thờ Hồi giáo địa phương, imam, và cộng đồng tôn giáo của bạn. Chúng tôi khuyến khích bạn ở lại kết nối với và học hỏi từ các giáo viên đủ tiêu chuẩn gần bạn.",
   "disclaimerClose": "Tôi hiểu rồi",
   "disclaimerInfoTooltip": "Về hướng dẫn của ứng dụng này",
   "disclaimerSettingsSubtitle": "Chỉ cho mục đích thông tin chung. Chạm để đọc tuyên bố từ chối trách nhiệm đầy đủ.",

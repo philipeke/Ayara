@@ -1,6 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:nuria/core/config/theme.dart';
+import 'package:ayara/core/config/theme.dart';
 
 class ResultTextBox extends StatefulWidget {
   const ResultTextBox({
@@ -111,7 +111,7 @@ class _ResultTextBoxState extends State<ResultTextBox>
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
-    // ✅ Nuria light panel styling
+    // ✅ Ayara light panel styling
     final panelBg = AppColors.warmWhite.withValues(alpha: 0.96);
     final panelBorder = AppColors.gold.withValues(alpha: 0.35);
     final textColor = AppColors.navy;

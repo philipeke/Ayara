@@ -3,7 +3,7 @@ import 'dart:math' as math;
 import 'dart:ui';
 import 'package:flutter/material.dart';
 
-import 'package:nuria/core/config/theme.dart';
+import 'package:ayara/core/config/theme.dart';
 
 class GridGlassPanel extends StatelessWidget {
   const GridGlassPanel({super.key});
@@ -23,7 +23,7 @@ class GridGlassPanel extends StatelessWidget {
 }
 
 /// Slow-breathing ambient background with animated corner shines.
-/// Sunni Islamic deep green / gold palette — serene and contemplative.
+/// Shia Islamic deep green / gold palette — serene and contemplative.
 class AmbientBackground extends StatefulWidget {
   const AmbientBackground({super.key});
 

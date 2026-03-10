@@ -1,7 +1,7 @@
 // lib/features/chat/presentation/utils/accent_colors.dart
 import 'package:flutter/material.dart';
 
-/// Accent color for each Nuria category.
+/// Accent color for each Ayara category.
 /// Called with either the stable category ID (preferred) or an English title.
 Color accentColorFor(String category) {
   final n = category.trim().toLowerCase();

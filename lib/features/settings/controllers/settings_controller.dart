@@ -10,11 +10,11 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
-import 'package:nuria/core/services/locale_service.dart';
-import 'package:nuria/l10n/app_localizations.dart';
-import 'package:nuria/features/limit/usage_service.dart';
-import 'package:nuria/features/limit/usage_refresh_service.dart';
-import 'package:nuria/features/premium/premium_service.dart';
+import 'package:ayara/core/services/locale_service.dart';
+import 'package:ayara/l10n/app_localizations.dart';
+import 'package:ayara/features/limit/usage_service.dart';
+import 'package:ayara/features/limit/usage_refresh_service.dart';
+import 'package:ayara/features/premium/premium_service.dart';
 
 class SettingsController {
   final UsageService _usageService;
@@ -352,7 +352,7 @@ class SettingsController {
   /// 🔹 Dev-only: aktivera test-Blessed.
   ///
   /// NOTE:
-  /// - Nuria plan naming uses: grace/blessed/guest
+  /// - Ayara plan naming uses: grace/blessed/guest
   /// - We keep the method name for now so the rest of UI doesn’t break.
   Future<void> activateTestChampion(BuildContext context) async {
     try {
@@ -361,7 +361,7 @@ class SettingsController {
       final current = _usageService.current;
       final currentUsed = current?.creditsUsed ?? 0;
 
-      // Nuria: Blessed test
+      // Ayara: Blessed test
       const total = 2000;
       final remaining = (total - currentUsed).clamp(0, total);
 

@@ -1,7 +1,7 @@
 {
   "@@locale": "sq",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Zgjidhni gjuhën tuaj",
   "languageSelectSub": "Mund ta ndryshoni këtë më vonë në Cilësimet",
@@ -83,7 +83,7 @@
   "close": "Mbyll",
   "copiedToast": "Kopjuar në kujtesë",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Kjo pajisje është tashmë e lidhur me një llogari tjetër. Hyni me llogarinë origjinale.",
 
   "premiumTitle": "Modaliteti Barakah",
-  "premiumSubtitleBasic": "Çlironi përvojën e plotë të Nuria.",
+  "premiumSubtitleBasic": "Çlironi përvojën e plotë të Ayara.",
   "premiumSubtitleChampion": "Jeni në Barakah. A keni nevojë për më shumë refleksione?",
 
   "premiumCurrentPlan": "Plani aktual: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Po ngarkohet dyqani…",
 
   "blessedTitle": "Modaliteti Barakah",
-  "blessedSubtitleGrace": "Çlironi përvojën e plotë të Nuria.",
+  "blessedSubtitleGrace": "Çlironi përvojën e plotë të Ayara.",
   "blessedSubtitleBlessed": "Jeni në Barakah. A keni nevojë për më shumë refleksione?",
 
   "blessedCurrentPlan": "Plani aktual: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Jeni në planin Standard me refleksionet e fillimit, dhe keni arritur limitin. Për të vazhduar — dhe për të çliruar kategori premium — përditësohuni në Barakah.",
   "graceBlockedCtaGoBlessed": "Shikoni opsionet e Barakah më poshtë",
 
-  "rateGuestMustSignIn": "Hyni për të përdorur Nuria dhe refleksionet tuaja.",
+  "rateGuestMustSignIn": "Hyni për të përdorur Ayara dhe refleksionet tuaja.",
 
   "guestNoCreditsTitle": "Modaliteti mysafir",
   "guestNoCreditsBody": "Si mysafir mund të shfletoni aplikacionin, por nuk mund të përdorni refleksione. Hyni më vonë në Cilësimet për të përdorur refleksione dhe për të çliruar blerje.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Lejoni Nuria të përdorë vendndodhjen time për drejtimin e Qiblah dhe kohët e lutjes",
+  "locationConsentLabel": "Lejoni Ayara të përdorë vendndodhjen time për drejtimin e Qiblah dhe kohët e lutjes",
   "locationConsentHint": "Përdoret vetëm për këto veçori. Vendndodhja juaj nuk ndahet ose ruhet kurrë.",
 
-  "askPageTitle": "Pyetni Nuria",
+  "askPageTitle": "Pyetni Ayara",
   "askPageDescription": "Pyetni çdo gjë mbi fenë, lutjen, jetën, ose praktikat islamike dhe merrni udhëzim i rrënjosur në Kuran dhe Sunnah.",
   "askPageInputHint": "Shkruani pyetjen tuaj këtu…",
   "askPageSubmitCta": "Pyetni",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Vendndodhja e kërkuar",
-  "qiblaLocationNeededBody": "Lejoni qasjen e vendndodhjes në mënyrë që Nuria të mund të llogaritë drejtimin e Kaabës në Makkah nga kudo që jeni.",
+  "qiblaLocationNeededBody": "Lejoni qasjen e vendndodhjes në mënyrë që Ayara të mund të llogaritë drejtimin e Kaabës në Makkah nga kudo që jeni.",
   "qiblaOpenSettings": "Hapni Cilësimet",
   "qiblaCompassLoading": "Duke gjetur pozicionin tuaj…",
   "qiblaTowardMecca": "Drejt Makkës",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Vendndodhja e kërkuar",
-  "prayerTimesLocationNeededBody": "Lejoni qasjen e vendndodhjes në mënyrë që Nuria të mund të llogaritë kohët e sakta të lutjes për qytetin tuaj.",
+  "prayerTimesLocationNeededBody": "Lejoni qasjen e vendndodhjes në mënyrë që Ayara të mund të llogaritë kohët e sakta të lutjes për qytetin tuaj.",
   "prayerTimesNextLabel": "Tjetra",
   "prayerTimesDoneLabel": "E Bërë",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Aktivizoni përkujtesave të lutjes",
   "prayerNotificationsOpenSettings": "Hapni cilësimet e njoftimeve",
   "prayerNotificationsDenied": "Njoftimet janë të çaktivizuara",
-  "prayerNotificationsDeniedHint": "Shkoni në Cilësimet dhe lejoni njoftimet për Nuria për të marrë përkujtesa të kohëve të lutjes.",
+  "prayerNotificationsDeniedHint": "Shkoni në Cilësimet dhe lejoni njoftimet për Ayara për të marrë përkujtesa të kohëve të lutjes.",
 
   "notificationsConsentLabel": "Lejoni njoftimet për kohët e lutjes",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Keni përfunduar 99 përmbajte të Allahut. Lejoni që ato të jenë një dritë për zemrën tuaj.",
 
   "disclaimerTitle": "Mbi udhëzimin e këtij aplikacioni",
-  "disclaimerBody": "Nuria ofron refleksione islamike, përkujtesa, dhe përmbajtje shpirtërore për të mbështetur udhën tuaj të përsonalizuar të imanit. Kjo përmbajtje ofrohet vetëm në qëllim të informacionit të përgjithshëm dhe inspirimit.\n\nNuria nuk zëvendëson shkolaritete të kualifikuar.\nUdhëzimi në këtë aplikacion nuk zëvendëson një imam të mësuar, një imam, mufti, ose mësues i nivelit teologjik. Nëse keni pyetje mbi vendimet fetare, çështjet halal dhe haram, ose detyrat fetare personale, ju lutemi kërkoni këshillë nga një autoritet fetar i kualifikuar në komunitetin tuaj.\n\nKy aplikacion nuk jep vendime fetare.\nNuria nuk bën përcaktime autoritare në çështjet e fiqh-ut (jurisprudenca islamike) ose detyrat fetare personale. Asgjë këtu nuk duhet të trajtohet si fatwa ose udhëzim i përdhesë fetar.\n\nInterpretimi shkollor ndryshon.\nIslami përfshin një diversitet të pasur tradicionesh, shkolash të mendimit (madhabs), dhe opinionesh shkollore. Përmbajtja në këtë aplikacion pasqyron perspektiva të përgjithshme dhe mund të mos përfaqësojë çdo tradicion ose shkollë në mënyrë të barabartë.\n\nKomunja ka rëndësi.\nKy aplikacion synon të nxisë ndërlidhjen tuaj me traditat e imanit ndërsa respekton thellësisht rolin jetik të xhematës juaj lokale, imamit, dhe komunitetit fetar. Ne ju nxisim të qëndroni të lidhur me dhe të mësoni nga mësuesit e kualifikuar pranë jush.",
+  "disclaimerBody": "Ayara ofron refleksione islamike, përkujtesa, dhe përmbajtje shpirtërore për të mbështetur udhën tuaj të përsonalizuar të imanit. Kjo përmbajtje ofrohet vetëm në qëllim të informacionit të përgjithshëm dhe inspirimit.\n\nAyara nuk zëvendëson shkolaritete të kualifikuar.\nUdhëzimi në këtë aplikacion nuk zëvendëson një imam të mësuar, një imam, mufti, ose mësues i nivelit teologjik. Nëse keni pyetje mbi vendimet fetare, çështjet halal dhe haram, ose detyrat fetare personale, ju lutemi kërkoni këshillë nga një autoritet fetar i kualifikuar në komunitetin tuaj.\n\nKy aplikacion nuk jep vendime fetare.\nAyara nuk bën përcaktime autoritare në çështjet e fiqh-ut (jurisprudenca islamike) ose detyrat fetare personale. Asgjë këtu nuk duhet të trajtohet si fatwa ose udhëzim i përdhesë fetar.\n\nInterpretimi shkollor ndryshon.\nIslami përfshin një diversitet të pasur tradicionesh, shkolash të mendimit (madhabs), dhe opinionesh shkollore. Përmbajtja në këtë aplikacion pasqyron perspektiva të përgjithshme dhe mund të mos përfaqësojë çdo tradicion ose shkollë në mënyrë të barabartë.\n\nKomunja ka rëndësi.\nKy aplikacion synon të nxisë ndërlidhjen tuaj me traditat e imanit ndërsa respekton thellësisht rolin jetik të xhematës juaj lokale, imamit, dhe komunitetit fetar. Ne ju nxisim të qëndroni të lidhur me dhe të mësoni nga mësuesit e kualifikuar pranë jush.",
   "disclaimerClose": "Kam kuptuar",
   "disclaimerInfoTooltip": "Mbi udhëzimin e këtij aplikacioni",
   "disclaimerSettingsSubtitle": "Për qëllime informacioni të përgjithshëm. Prekni për të lexuar përjashtimet e plota.",

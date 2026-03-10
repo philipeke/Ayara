@@ -4,30 +4,30 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 
-import 'package:nuria/features/chat/services/chat_service.dart';
-import 'package:nuria/features/chat/presentation/utils/route_fade.dart';
-import 'package:nuria/features/chat/presentation/screens/result_screen.dart';
+import 'package:ayara/features/chat/services/chat_service.dart';
+import 'package:ayara/features/chat/presentation/utils/route_fade.dart';
+import 'package:ayara/features/chat/presentation/screens/result_screen.dart';
 
-import 'package:nuria/features/chat/presentation/widgets/category_header.dart';
-import 'package:nuria/features/chat/presentation/widgets/category_grid.dart';
-import 'package:nuria/features/chat/presentation/widgets/category_footer.dart';
+import 'package:ayara/features/chat/presentation/widgets/category_header.dart';
+import 'package:ayara/features/chat/presentation/widgets/category_grid.dart';
+import 'package:ayara/features/chat/presentation/widgets/category_footer.dart';
 
-import 'package:nuria/features/chat/presentation/utils/category_data.dart'
+import 'package:ayara/features/chat/presentation/utils/category_data.dart'
     show CategoryActionItem, buildActionItems, normalizeCategoryId;
 
-import 'package:nuria/features/history/presentation/widgets/history_sheet.dart';
+import 'package:ayara/features/history/presentation/widgets/history_sheet.dart';
 
-import 'package:nuria/l10n/app_localizations.dart';
-import 'package:nuria/features/limit/usage_service.dart';
-import 'package:nuria/features/limit/usage_refresh_service.dart';
+import 'package:ayara/l10n/app_localizations.dart';
+import 'package:ayara/features/limit/usage_service.dart';
+import 'package:ayara/features/limit/usage_refresh_service.dart';
 
-import 'package:nuria/core/config/theme.dart';
-import 'package:nuria/core/utils/app_error.dart';
-import 'package:nuria/core/utils/error_ui.dart';
+import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/core/utils/app_error.dart';
+import 'package:ayara/core/utils/error_ui.dart';
 
-import 'package:nuria/features/daily/daily_grace_screen.dart';
-import 'package:nuria/features/qibla/qibla_screen.dart';
-import 'package:nuria/features/dhikr/dhikr_screen.dart';
+import 'package:ayara/features/daily/daily_grace_screen.dart';
+import 'package:ayara/features/qibla/qibla_screen.dart';
+import 'package:ayara/features/dhikr/dhikr_screen.dart';
 
 class CategoryScreen extends StatefulWidget {
   const CategoryScreen({super.key});
@@ -47,7 +47,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
 
   /// Premium (Blessed-only) categories. Leave empty to lock nothing.
   final Set<String> _premiumCategoryIds = <String>{
-    // TODO: fill in Nuria premium IDs if you want to lock categories
+    // TODO: fill in Ayara premium IDs if you want to lock categories
   };
 
   late final PageController _pageController = PageController();
@@ -649,7 +649,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                   textDirection: contentDirection,
                   child: DailyGraceWidget(pageController: _pageController),
                 ),
-                // Page 2 — Qibla, Prayer Times & Ask Nuria
+                // Page 2 — Qibla, Prayer Times & Ask Ayara
                 Directionality(
                   textDirection: contentDirection,
                   child: QiblaScreen(pageController: _pageController),

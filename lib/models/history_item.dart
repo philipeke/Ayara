@@ -5,7 +5,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 class HistoryItem {
   final String id;
 
-  /// Nuria category ID (normalized).
+  /// Ayara category ID (normalized).
   /// Ex: 'daily_guidance', 'faith_trust', ... 'evening_reflection', 'custom'
   final String categoryId;
 
@@ -34,8 +34,8 @@ class HistoryItem {
     final x = raw.trim().toLowerCase();
     if (x.isEmpty) return 'daily_guidance';
 
-    // Already Nuria ids (keep as-is)
-    const nuriaIds = <String>{
+    // Already Ayara ids (keep as-is)
+    const ayaraIds = <String>{
       'daily_guidance',
       'faith_trust',
       'prayer_reflection',
@@ -53,7 +53,7 @@ class HistoryItem {
       'evening_reflection',
       'custom',
     };
-    if (nuriaIds.contains(x)) return x;
+    if (ayaraIds.contains(x)) return x;
 
     // Legacy TipsyPal ids → safe fallback bucket
     const legacyTipsyIds = <String>{

@@ -1,7 +1,7 @@
 {
   "@@locale": "min",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Piliah bahaso Minangkabau",
   "languageSelectSub": "Kamu biso ubah nyo latar di Pangaturan",
@@ -83,7 +83,7 @@
   "close": "Tutup",
   "copiedToast": "Sudah disalin ke papan klip",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Baris subjek email / bagian termasuk label kategori.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Perangkat nyo sudah terikat ke akun lain. Masuk dengan akun asli kamu.",
 
   "premiumTitle": "Mode Barakah",
-  "premiumSubtitleBasic": "Buko pengalaman Nuria yang lengkap.",
+  "premiumSubtitleBasic": "Buko pengalaman Ayara yang lengkap.",
   "premiumSubtitleChampion": "Kamu Barakah. Perlu muhasabah baru?",
 
   "premiumCurrentPlan": "Paket saat nyo: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Muatan toko…",
 
   "blessedTitle": "Mode Barakah",
-  "blessedSubtitleGrace": "Buko pengalaman Nuria yang lengkap.",
+  "blessedSubtitleGrace": "Buko pengalaman Ayara yang lengkap.",
   "blessedSubtitleBlessed": "Kamu Barakah. Perlu muhasabah baru?",
 
   "blessedCurrentPlan": "Paket saat nyo: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Kamu dalam paket Standar dengan muhasabah awal, jo sudah sampai batasan. Untuak lanjut — jo buko kategori premium — naik ke Barakah.",
   "graceBlockedCtaGoBlessed": "Lihat pilihan Barakah di bawah",
 
-  "rateGuestMustSignIn": "Masuk untuak gunakan Nuria jo muhasabah kamu.",
+  "rateGuestMustSignIn": "Masuk untuak gunakan Ayara jo muhasabah kamu.",
 
   "guestNoCreditsTitle": "Mode tamu",
   "guestNoCreditsBody": "Sebagai tamu kamu biso jelajahi aplikasi, tapi indak biso pakai muhasabah. Masuk nanti di Pangaturan untuak pakai muhasabah jo buko pembelian.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifah (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Izinkan Nuria gunakan lokasi sayo untuak arah Qibla jo wakto salat",
+  "locationConsentLabel": "Izinkan Ayara gunakan lokasi sayo untuak arah Qibla jo wakto salat",
   "locationConsentHint": "Dipakai hanya untuak fitur nyo. Lokasi kamu indak pernah dibagian atau disimpon.",
 
-  "askPageTitle": "Tanya Nuria",
+  "askPageTitle": "Tanya Ayara",
   "askPageDescription": "Tanya apapun tentang iman, salat, hidup, atau praktik Islam jo terimo bimbingan berakar pada Alquran jo Sunnah.",
   "askPageInputHint": "Tulih pertanyaan kamu di sini…",
   "askPageSubmitCta": "Tanya",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Lokasi diperluakan",
-  "qiblaLocationNeededBody": "Izinkan akses lokasi supayo Nuria biso hitung arah Kaabah di Mekkah dari tempat kamu.",
+  "qiblaLocationNeededBody": "Izinkan akses lokasi supayo Ayara biso hitung arah Kaabah di Mekkah dari tempat kamu.",
   "qiblaOpenSettings": "Buko Pengaturan",
   "qiblaCompassLoading": "Cari posisi kamu…",
   "qiblaTowardMecca": "Nunjuk Mekkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Magrib",
   "prayerTimesIsha": "Isya",
   "prayerTimesLocationNeededTitle": "Lokasi diperluakan",
-  "prayerTimesLocationNeededBody": "Izinkan akses lokasi supayo Nuria biso hitung wakto salat yang akurat untuak kota kamu.",
+  "prayerTimesLocationNeededBody": "Izinkan akses lokasi supayo Ayara biso hitung wakto salat yang akurat untuak kota kamu.",
   "prayerTimesNextLabel": "Berikuinya",
   "prayerTimesDoneLabel": "Sadiah",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Aktifkan pengingat salat",
   "prayerNotificationsOpenSettings": "Buko pengaturan notifikasi",
   "prayerNotificationsDenied": "Notifikasi dinonaktifkan",
-  "prayerNotificationsDeniedHint": "Masuk Pengaturan jo izinkan notifikasi untuak Nuria untuak terimo pengingat wakto salat.",
+  "prayerNotificationsDeniedHint": "Masuk Pengaturan jo izinkan notifikasi untuak Ayara untuak terimo pengingat wakto salat.",
 
   "notificationsConsentLabel": "Izinkan notifikasi untuak wakto salat",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Kamu sudah rampungkan 99 ingatan kepada Allah. Semogo mereka cahayo untuak hati kamu.",
 
   "disclaimerTitle": "Tentang bimbingan aplikasi nyo",
-  "disclaimerBody": "Nuria sediakan muhasabah Islam, pengingat, jo konten spiritual untuak dukung perjalanan iman pribadi kamu. Konten nyo ditawarkan untuak tujuan informasi jo inspirasi umum sajo.\n\nNuria indak mengganti pembelajaran ulama.\nBimbingan dalam aplikasi nyo indak pengganti untuak ulama Islam terdidik, imam, mufti, atau guru yang terlatih secara teologis. Jo kamu punya pertanyaan tentang hukum agama, halal jo haram, atau kewajiban agama pribadi, cari nasihat dari otoritas agama terkualifikasi di komunitas kamu.\n\nAplikasi nyo indak mengeluarkan hukum agama.\nNuria indak buat penentuan otoritatif tentang masalah fiqh (jurisprudensi Islam) atau kewajiban agama pribadi. Indak apapun di sini harus diperlakukan sebagai fatwa atau instruksi agama yang mengikat.\n\nInterpretasi ulama berbeda.\nIslam merangkum kekayaan tradisi yang beragam, aliran pemikiran (madhabs), jo pendapat ulama. Konten dalam aplikasi nyo mencerminkan perspektif umum jo mungkin indak mewakili tiap tradisi atau aliran secara merata.\n\nKomunitas penting.\nAplikasi nyo bertujuan dorong keterlibatan kamu dengan tradisi iman sambil menghormati peran vital masjid lokal, imam, jo komunitas agama kamu. Kami dorong kamu tetap terhubung dengan jo belajar dari guru terkualifikasi di dekat kamu.",
+  "disclaimerBody": "Ayara sediakan muhasabah Islam, pengingat, jo konten spiritual untuak dukung perjalanan iman pribadi kamu. Konten nyo ditawarkan untuak tujuan informasi jo inspirasi umum sajo.\n\nAyara indak mengganti pembelajaran ulama.\nBimbingan dalam aplikasi nyo indak pengganti untuak ulama Islam terdidik, imam, mufti, atau guru yang terlatih secara teologis. Jo kamu punya pertanyaan tentang hukum agama, halal jo haram, atau kewajiban agama pribadi, cari nasihat dari otoritas agama terkualifikasi di komunitas kamu.\n\nAplikasi nyo indak mengeluarkan hukum agama.\nAyara indak buat penentuan otoritatif tentang masalah fiqh (jurisprudensi Islam) atau kewajiban agama pribadi. Indak apapun di sini harus diperlakukan sebagai fatwa atau instruksi agama yang mengikat.\n\nInterpretasi ulama berbeda.\nIslam merangkum kekayaan tradisi yang beragam, aliran pemikiran (madhabs), jo pendapat ulama. Konten dalam aplikasi nyo mencerminkan perspektif umum jo mungkin indak mewakili tiap tradisi atau aliran secara merata.\n\nKomunitas penting.\nAplikasi nyo bertujuan dorong keterlibatan kamu dengan tradisi iman sambil menghormati peran vital masjid lokal, imam, jo komunitas agama kamu. Kami dorong kamu tetap terhubung dengan jo belajar dari guru terkualifikasi di dekat kamu.",
   "disclaimerClose": "Sayo paham",
   "disclaimerInfoTooltip": "Tentang bimbingan aplikasi nyo",
   "disclaimerSettingsSubtitle": "Untuak tujuan informasi umum sajo. Tap untuak baco disclaimer lengkap.",

@@ -1,7 +1,7 @@
 {
   "@@locale": "or",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "ଆପଣଙ୍କ ଭାଷା ବାଛନ୍ତୁ",
   "languageSelectSub": "ଆପଣ ଏହାକୁ ପରେ ସେଟିଂସରେ ପରିବର୍ତ୍ତନ କରିପାରିବେନ",
@@ -83,7 +83,7 @@
   "close": "ବନ୍ଦ ଏକଜାମି",
   "copiedToast": "ଡିପ୍ସବୋର୍ଡରେ ନକଲ ଏକଜାମି",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "ଏଇ ଡିଭାଇସ ଇତିମଧ୍ୟ ଅନ୍ୟ ଖାତା ସୂଚନା। ମୂଳ ଖାତା ସାଇନ ଇନ ଗରାଙ୍ଗ।",
 
   "premiumTitle": "ବାରାକା ମୋଡ",
-  "premiumSubtitleBasic": "ସম୍ପୂର୍ଣ୍ଣ Nuria ଅଭିଜ୍ଞତା ଅଲାଇ।",
+  "premiumSubtitleBasic": "ସম୍ପୂର୍ଣ୍ଣ Ayara ଅଭିଜ୍ଞତା ଅଲାଇ।",
   "premiumSubtitleChampion": "ଆପଣ ବାରାକା। ଅଧିକ ଚିନ୍ତନ ଚାହୁଁଛନ୍ତି?",
 
   "premiumCurrentPlan": "ବର୍ତ୍ତମାନ ଯୋଜନା: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "ଦୋକାନ ଧାରଣ…",
 
   "blessedTitle": "ବାରାକା ମୋଡ",
-  "blessedSubtitleGrace": "ସମ୍ପୂର୍ଣ୍ଣ Nuria ଅଭିଜ୍ଞତା ଅଲାଇ।",
+  "blessedSubtitleGrace": "ସମ୍ପୂର୍ଣ୍ଣ Ayara ଅଭିଜ୍ଞତା ଅଲାଇ।",
   "blessedSubtitleBlessed": "ଆପଣ ବାରାକା। ଅଧିକ ଚିନ୍ତନ ଚାହୁଁଛନ୍ତି?",
 
   "blessedCurrentPlan": "ବର୍ତ୍ତମାନ ଯୋଜନା: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "ଆପଣ ଆରମ୍ଭ ଚିନ୍ତନ ସହ ମାନକ ଯୋଜନା, ସୀମା ପହଂଚିଲେ। ଜାରି ରଖନ୍ତୁ — ଓ ଉନ୍ନତ ବିଭାଗ ଅଲାଇ — ବାରାକା ଅପଗ୍ରେଡ।",
   "graceBlockedCtaGoBlessed": "ତଳେ ବାରାକା ବିକଳ୍ପ ଦେଖନ୍ତୁ",
 
-  "rateGuestMustSignIn": "Nuria ବ୍ୟବହାର ଚିନ୍ତନ ସାଇନ ଇନ ଏକଜାମି।",
+  "rateGuestMustSignIn": "Ayara ବ୍ୟବହାର ଚିନ୍ତନ ସାଇନ ଇନ ଏକଜାମି।",
 
   "guestNoCreditsTitle": "ଅତିଥି ମୋଡ",
   "guestNoCreditsBody": "ଅତିଥି ଆପଣ ଆପଲିକେଶନ ବ୍ରାଜ ପାରିବେନ, ଖାଲି ଚିନ୍ତନ ବ୍ୟବହାର। ଚିନ୍ତନ ବ୍ୟବହାର ଓ କ୍ରୟ ଅଲାଇ ସେଟିଂସ ତାରେ ସାଇନ ଏକଜାମି।",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "ତଲହା ଇବନ ଉବାଇଦୁଲ୍ଲାହ (RA)",
   "dailyRoleModel59": "ଅଜ-ଜୁବାଇର ଇବନ ଅଲ-ଆୱୱାମ (RA)",
 
-  "locationConsentLabel": "Nuria କୁ ମୋ ସ୍ଥିତି ବ୍ୟବହାର ଆଟିବ ଓ ନମାଜ ସମୟ",
+  "locationConsentLabel": "Ayara କୁ ମୋ ସ୍ଥିତି ବ୍ୟବହାର ଆଟିବ ଓ ନମାଜ ସମୟ",
   "locationConsentHint": "ଶୁଧୁ ଏଇ ବୈଶିଷ୍ଟ୍ୟ। ଆପଣଙ୍କ ସ୍ଥିତି ଶେୟାର ବା ସଂରକ୍ଷିତ ନାଇ।",
 
-  "askPageTitle": "Nuria ପୁଛନ୍ତୁ",
+  "askPageTitle": "Ayara ପୁଛନ୍ତୁ",
   "askPageDescription": "ବିଶ୍ୱାସ, ନମାଜ, ଜୀବନ, ବା ଇସ୍ଲାମିକ ଅଭ୍ୟାସ ବିଷୟରେ ଯେକୌଣସି ପୁଛନ୍ତୁ ଓ ଖୋରାଏ ଏବଂ ସୁନ୍ନାତ ମାଧ୍ୟମେ ଦିଶା।",
   "askPageInputHint": "ଏଠାରେ ଆପଣଙ୍କ ପ୍ରଶ୍ନ ଲେଖନ୍ତୁ…",
   "askPageSubmitCta": "ପୁଛନ୍ତୁ",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "ସ୍ଥିତି ଆବଶ୍ୟକ",
-  "qiblaLocationNeededBody": "Nuria ଆପଣଙ୍କ କାବା ଦିଶା ଧାରଣ ସ୍ଥିତି ଆପଲୁ।",
+  "qiblaLocationNeededBody": "Ayara ଆପଣଙ୍କ କାବା ଦିଶା ଧାରଣ ସ୍ଥିତି ଆପଲୁ।",
   "qiblaOpenSettings": "ସେଟିଂସ ଖୋଲନ୍ତୁ",
   "qiblaCompassLoading": "ଆପଣଙ୍କ ସ୍ଥିତି ଅନୁସନ୍ଧାନ…",
   "qiblaTowardMecca": "ମକ୍କା ଦିଶା",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "ମଘରିବ",
   "prayerTimesIsha": "ଈଶା",
   "prayerTimesLocationNeededTitle": "ସ୍ଥିତି ଆବଶ୍ୟକ",
-  "prayerTimesLocationNeededBody": "Nuria ଆପଣଙ୍କ ସହର ନମାଜ ସମୟ ଧାରଣ ସ୍ଥିତି ଆପଲୁ।",
+  "prayerTimesLocationNeededBody": "Ayara ଆପଣଙ୍କ ସହର ନମାଜ ସମୟ ଧାରଣ ସ୍ଥିତି ଆପଲୁ।",
   "prayerTimesNextLabel": "ପରବର୍ତ୍ତୀ",
   "prayerTimesDoneLabel": "ଶେଷ",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "ନମାଜ ଚେତାବନୀ ସକ୍ରିୟ",
   "prayerNotificationsOpenSettings": "ଚେତାବନୀ ସେଟିଂସ ଖୋଲନ୍ତୁ",
   "prayerNotificationsDenied": "ଚେତାବନୀ ଅକ୍ଷମ",
-  "prayerNotificationsDeniedHint": "ସେଟିଂସ ଯାଚନ୍ତୁ ଓ Nuria ଚେତାବନୀ ଅନୁମତି ନମାଜ ଚେତାବନୀ ପାଆନ୍ତୁ।",
+  "prayerNotificationsDeniedHint": "ସେଟିଂସ ଯାଚନ୍ତୁ ଓ Ayara ଚେତାବନୀ ଅନୁମତି ନମାଜ ଚେତାବନୀ ପାଆନ୍ତୁ।",
 
   "notificationsConsentLabel": "ନମାଜ ସମୟ ଚେତାବନୀ ଅନୁମତି",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "ଆପଣ ଅଲ୍ଲାହ ୯୯ ସ୍ମରଣ ସମ୍ପୂର୍ଣ୍ଣ। ସେଇ ଆପଣଙ୍କ ହୃଦୟ ଆଲୋକ।",
 
   "disclaimerTitle": "ଏଇ ଆପ ନିର୍ଦେଶନା ବିଷୟରେ",
-  "disclaimerBody": "Nuria ଇସ୍ଲାମିକ ଚିନ୍ତନ, ଚେତାବନୀ, ଓ ଆଧ୍ୟାତ୍ମିକ ବିଷୟବସ୍ତୁ ଆପଣଙ୍କ ବିଶ୍ୱାସ ଯାତ୍ରା ସମର୍ଥନ। ଏଟା ସାଧାରଣ ସୂଚନା ଓ ଅନୁପ୍ରେରଣା।\n\nNuria ଯୋଗ୍ୟ ଶିକ୍ଷା ବଦଳ ନ।\nଏଇ ଆପ ଗୃହେଶଠ ବ୍ୟବହାରୀ ଭୃତ୍ୟ ଇମାମ, ମୁଫତି, ବା ଧାର୍ମିକ ଶିକ୍ଷକ ନ। ଧାର୍ମିକ ନିୟମ, ଘାଲାଲ ଏବଂ ହାରାম, ବା ଆপଣଙ୍କ ଦୃଷ୍ଟିକୋଣ ବିଷୟରେ ପ୍ରଶ୍ନ, ଦୟାକରିଙ୍କ ଧାର୍ମିକ ବ୍ୟକ୍ତିତ୍ୱ ଆବେଦନ।\n\nଏଇ ଆପ ଧାର୍ମିକ ନିୟମ ନାରି।\nNuria ଫିକ୍ଷ (ଇସ୍ଲାମିକ ଆইନ) ବା ଆପଣଙ୍କ ଧାର୍ମିକ ବାଧ୍ୟବାଦ ଆଦ୍ୟିକ ବିଭାଜନ ନ। ଅଂଶ ଫତ୍ୱା ବା ବନ୍ଦିକୃତ ଧାର୍ମିକ ନିର୍ଦେଶନା ବିବେଚନା।\n\nଦୃଷ୍ଟିକୋଣ ଭିନ୍ନ।\nଇସ୍ଲାମ ଐତିହ୍ୟ, ଚିନ୍ତାକୁ ବିଦ୍ୟାଳୟ (ମଦ୍ଧ), ଓ ବିଦ୍ୱାନ ଦୃଷ୍ଟିକୋଣ ଅଳଙ୍ଘନୀ। ଏଇ ଆପ ବିଷୟବସ୍ତୁ ସାଧାରଣ ଦୃଷ୍ଟିକୋଣ ଅଧିସ୍ତ ଓ ସବୁ ଐତିହ୍ୟ ସମାନ ପ୍ରତିନିଧୃତ୍ୱ ଭୁଇ।\n\nସମ୍ମୁଦାୟ ଅଂଶ।\nଏଇ ଆପ ଆପଣଙ୍କ ଚିନ୍ତାକୁ ବିକାଶ ଓ ଜ୍ଞାନ ସିଖକୁ ଗଭୀର ସମ୍ମାନ ସଂଲଗ୍ନ ଜୀବନ୍ତ ଭୂମିକା। ଅନୁଗ୍ରହ ଶ୍ରୀଯୁକ୍ତ ଓ ଶିଖନ୍ତୁ ଯୋଗ୍ୟ ଶିକ୍ଷକ ନଜଦୀକ।",
+  "disclaimerBody": "Ayara ଇସ୍ଲାମିକ ଚିନ୍ତନ, ଚେତାବନୀ, ଓ ଆଧ୍ୟାତ୍ମିକ ବିଷୟବସ୍ତୁ ଆପଣଙ୍କ ବିଶ୍ୱାସ ଯାତ୍ରା ସମର୍ଥନ। ଏଟା ସାଧାରଣ ସୂଚନା ଓ ଅନୁପ୍ରେରଣା।\n\nAyara ଯୋଗ୍ୟ ଶିକ୍ଷା ବଦଳ ନ।\nଏଇ ଆପ ଗୃହେଶଠ ବ୍ୟବହାରୀ ଭୃତ୍ୟ ଇମାମ, ମୁଫତି, ବା ଧାର୍ମିକ ଶିକ୍ଷକ ନ। ଧାର୍ମିକ ନିୟମ, ଘାଲାଲ ଏବଂ ହାରାম, ବା ଆপଣଙ୍କ ଦୃଷ୍ଟିକୋଣ ବିଷୟରେ ପ୍ରଶ୍ନ, ଦୟାକରିଙ୍କ ଧାର୍ମିକ ବ୍ୟକ୍ତିତ୍ୱ ଆବେଦନ।\n\nଏଇ ଆପ ଧାର୍ମିକ ନିୟମ ନାରି।\nAyara ଫିକ୍ଷ (ଇସ୍ଲାମିକ ଆইନ) ବା ଆପଣଙ୍କ ଧାର୍ମିକ ବାଧ୍ୟବାଦ ଆଦ୍ୟିକ ବିଭାଜନ ନ। ଅଂଶ ଫତ୍ୱା ବା ବନ୍ଦିକୃତ ଧାର୍ମିକ ନିର୍ଦେଶନା ବିବେଚନା।\n\nଦୃଷ୍ଟିକୋଣ ଭିନ୍ନ।\nଇସ୍ଲାମ ଐତିହ୍ୟ, ଚିନ୍ତାକୁ ବିଦ୍ୟାଳୟ (ମଦ୍ଧ), ଓ ବିଦ୍ୱାନ ଦୃଷ୍ଟିକୋଣ ଅଳଙ୍ଘନୀ। ଏଇ ଆପ ବିଷୟବସ୍ତୁ ସାଧାରଣ ଦୃଷ୍ଟିକୋଣ ଅଧିସ୍ତ ଓ ସବୁ ଐତିହ୍ୟ ସମାନ ପ୍ରତିନିଧୃତ୍ୱ ଭୁଇ।\n\nସମ୍ମୁଦାୟ ଅଂଶ।\nଏଇ ଆପ ଆପଣଙ୍କ ଚିନ୍ତାକୁ ବିକାଶ ଓ ଜ୍ଞାନ ସିଖକୁ ଗଭୀର ସମ୍ମାନ ସଂଲଗ୍ନ ଜୀବନ୍ତ ଭୂମିକା। ଅନୁଗ୍ରହ ଶ୍ରୀଯୁକ୍ତ ଓ ଶିଖନ୍ତୁ ଯୋଗ୍ୟ ଶିକ୍ଷକ ନଜଦୀକ।",
   "disclaimerClose": "ମୁଁ ବୁଝିଲେ",
   "disclaimerInfoTooltip": "ଏଇ ଆପ ନିର୍ଦେଶନା ବିଷୟରେ",
   "disclaimerSettingsSubtitle": "ସାଧାରଣ ସୂଚନା। ଟ୍ୟାପ ସମ୍ପୂର୍ଣ୍ଣ ଅସ୍ୱୀକାର।",

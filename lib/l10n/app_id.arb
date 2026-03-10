@@ -1,7 +1,7 @@
 {
   "@@locale": "id",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Pilih bahasa Anda",
   "languageSelectSub": "Anda dapat mengubahnya nanti di Pengaturan",
@@ -83,7 +83,7 @@
   "close": "Tutup",
   "copiedToast": "Disalin ke papan klip",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Baris subjek email/bagikan termasuk label kategori.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Perangkat ini sudah terhubung dengan akun lain. Silakan masuk dengan akun asli.",
 
   "premiumTitle": "Mode Barakah",
-  "premiumSubtitleBasic": "Buka pengalaman Nuria lengkap.",
+  "premiumSubtitleBasic": "Buka pengalaman Ayara lengkap.",
   "premiumSubtitleChampion": "Anda Barakah. Butuh lebih banyak renungan?",
 
   "premiumCurrentPlan": "Paket saat ini: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Memuat toko…",
 
   "blessedTitle": "Mode Barakah",
-  "blessedSubtitleGrace": "Buka pengalaman Nuria lengkap.",
+  "blessedSubtitleGrace": "Buka pengalaman Ayara lengkap.",
   "blessedSubtitleBlessed": "Anda Barakah. Butuh lebih banyak renungan?",
 
   "blessedCurrentPlan": "Paket saat ini: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Anda berada di paket Standar dengan renungan pemula, dan Anda telah mencapai batasnya. Untuk melanjutkan — dan membuka kategori premium — tingkatkan ke Barakah.",
   "graceBlockedCtaGoBlessed": "Lihat opsi Barakah di bawah",
 
-  "rateGuestMustSignIn": "Masuk untuk menggunakan Nuria dan renungan Anda.",
+  "rateGuestMustSignIn": "Masuk untuk menggunakan Ayara dan renungan Anda.",
 
   "guestNoCreditsTitle": "Mode tamu",
   "guestNoCreditsBody": "Sebagai tamu Anda dapat menjelajahi aplikasi, tetapi Anda tidak dapat menggunakan renungan. Masuk nanti di Pengaturan untuk menggunakan renungan dan membuka pembelian.",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Thalhah ibn Ubaidullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Izinkan Nuria menggunakan lokasi saya untuk arah Kiblat dan waktu salat",
+  "locationConsentLabel": "Izinkan Ayara menggunakan lokasi saya untuk arah Kiblat dan waktu salat",
   "locationConsentHint": "Digunakan hanya untuk fitur-fitur ini. Lokasi Anda tidak pernah dibagikan atau disimpan.",
 
-  "askPageTitle": "Tanya Nuria",
+  "askPageTitle": "Tanya Ayara",
   "askPageDescription": "Tanyakan apa pun tentang iman, salat, kehidupan, atau praktik Islam dan terima bimbingan berakar pada Al-Quran dan Sunnah.",
   "askPageInputHint": "Ketik pertanyaan Anda di sini…",
   "askPageSubmitCta": "Tanya",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Lokasi diperlukan",
-  "qiblaLocationNeededBody": "Izinkan akses lokasi agar Nuria dapat menghitung arah Kaabah di Mekkah dari di mana pun Anda berada.",
+  "qiblaLocationNeededBody": "Izinkan akses lokasi agar Ayara dapat menghitung arah Kaabah di Mekkah dari di mana pun Anda berada.",
   "qiblaOpenSettings": "Buka Pengaturan",
   "qiblaCompassLoading": "Menemukan posisi Anda…",
   "qiblaTowardMecca": "Menuju Mekkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Magrib",
   "prayerTimesIsha": "Isya",
   "prayerTimesLocationNeededTitle": "Lokasi diperlukan",
-  "prayerTimesLocationNeededBody": "Izinkan akses lokasi agar Nuria dapat menghitung waktu salat yang akurat untuk kota Anda.",
+  "prayerTimesLocationNeededBody": "Izinkan akses lokasi agar Ayara dapat menghitung waktu salat yang akurat untuk kota Anda.",
   "prayerTimesNextLabel": "Berikutnya",
   "prayerTimesDoneLabel": "Selesai",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Aktifkan pengingat salat",
   "prayerNotificationsOpenSettings": "Buka pengaturan notifikasi",
   "prayerNotificationsDenied": "Notifikasi dinonaktifkan",
-  "prayerNotificationsDeniedHint": "Buka Pengaturan dan izinkan notifikasi untuk Nuria guna menerima pengingat waktu salat.",
+  "prayerNotificationsDeniedHint": "Buka Pengaturan dan izinkan notifikasi untuk Ayara guna menerima pengingat waktu salat.",
 
   "notificationsConsentLabel": "Izinkan notifikasi untuk waktu salat",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Anda telah menyelesaikan 99 pengingatan Allah. Semoga menjadi cahaya bagi hati Anda.",
 
   "disclaimerTitle": "Tentang bimbingan aplikasi ini",
-  "disclaimerBody": "Nuria menyediakan renungan Islam, pengingat, dan konten spiritual untuk mendukung perjalanan iman pribadi Anda. Konten ini ditawarkan semata-mata untuk tujuan informasi dan inspirasi umum.\n\nNuria tidak menggantikan pengetahuan berkualitas.\nBimbingan dalam aplikasi ini bukan pengganti untuk seorang ulama terlatih, imam, mufti, atau guru yang terlatih secara teologi. Jika Anda memiliki pertanyaan tentang hukum agama, masalah halal dan haram, atau kewajiban agama pribadi, silakan minta saran dari otoritas agama yang berkualifikasi di komunitas Anda.\n\nAplikasi ini tidak mengeluarkan fatwa.\nNuria tidak membuat penentuan otoritatif tentang masalah fikih (yurisprudensi Islam) atau kewajiban agama pribadi. Tidak ada yang di sini harus diperlakukan sebagai fatwa atau instruksi agama yang mengikat.\n\nInterpretasi ulama bervariasi.\nIslam mencakup kekayaan tradisi yang beragam, aliran pemikiran (madhab), dan pendapat ulama yang berbeda. Konten dalam aplikasi ini mencerminkan perspektif umum dan mungkin tidak mewakili setiap tradisi atau aliran secara merata.\n\nKomunitas penting.\nAplikasi ini bertujuan untuk mendorong keterlibatan Anda dengan tradisi iman sambil sangat menghormati peran vital masjid lokal Anda, imam, dan komunitas agama. Kami mendorong Anda untuk tetap terhubung dengan dan belajar dari guru berkualifikasi di dekat Anda.",
+  "disclaimerBody": "Ayara menyediakan renungan Islam, pengingat, dan konten spiritual untuk mendukung perjalanan iman pribadi Anda. Konten ini ditawarkan semata-mata untuk tujuan informasi dan inspirasi umum.\n\nAyara tidak menggantikan pengetahuan berkualitas.\nBimbingan dalam aplikasi ini bukan pengganti untuk seorang ulama terlatih, imam, mufti, atau guru yang terlatih secara teologi. Jika Anda memiliki pertanyaan tentang hukum agama, masalah halal dan haram, atau kewajiban agama pribadi, silakan minta saran dari otoritas agama yang berkualifikasi di komunitas Anda.\n\nAplikasi ini tidak mengeluarkan fatwa.\nAyara tidak membuat penentuan otoritatif tentang masalah fikih (yurisprudensi Islam) atau kewajiban agama pribadi. Tidak ada yang di sini harus diperlakukan sebagai fatwa atau instruksi agama yang mengikat.\n\nInterpretasi ulama bervariasi.\nIslam mencakup kekayaan tradisi yang beragam, aliran pemikiran (madhab), dan pendapat ulama yang berbeda. Konten dalam aplikasi ini mencerminkan perspektif umum dan mungkin tidak mewakili setiap tradisi atau aliran secara merata.\n\nKomunitas penting.\nAplikasi ini bertujuan untuk mendorong keterlibatan Anda dengan tradisi iman sambil sangat menghormati peran vital masjid lokal Anda, imam, dan komunitas agama. Kami mendorong Anda untuk tetap terhubung dengan dan belajar dari guru berkualifikasi di dekat Anda.",
   "disclaimerClose": "Saya mengerti",
   "disclaimerInfoTooltip": "Tentang bimbingan aplikasi ini",
   "disclaimerSettingsSubtitle": "Untuk tujuan informasi umum saja. Ketuk untuk membaca penafian lengkap.",

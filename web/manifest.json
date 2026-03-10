@@ -1,11 +1,11 @@
 {
-    "name": "nuria_app",
-    "short_name": "nuria_app",
+    "name": "ayara_app",
+    "short_name": "ayara_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Nuria project.",
+    "description": "A new Ayara project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

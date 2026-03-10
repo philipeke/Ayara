@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nuria/core/config/theme.dart';
+import 'package:ayara/core/config/theme.dart';
 
 class AIWaveLoader extends StatefulWidget {
   const AIWaveLoader({super.key});

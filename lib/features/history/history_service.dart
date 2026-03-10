@@ -2,7 +2,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-import 'package:nuria/models/history_item.dart';
+import 'package:ayara/models/history_item.dart';
 
 class HistoryService {
   HistoryService._();

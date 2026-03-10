@@ -1,7 +1,7 @@
 {
   "@@locale": "lt",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Pasirinkite savo kalbą",
   "languageSelectSub": "Tai galite pakeisti vėliau nustatymuose",
@@ -83,7 +83,7 @@
   "close": "Uždaryti",
   "copiedToast": "Nukopijuota į iškarpą",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Šis įrenginys jau susietas su kita paskyra. Prašome prisijungti su originalia paskyra.",
 
   "premiumTitle": "Barakah režimas",
-  "premiumSubtitleBasic": "Atrakinkite visą Nuria patirtį.",
+  "premiumSubtitleBasic": "Atrakinkite visą Ayara patirtį.",
   "premiumSubtitleChampion": "Esate Barakah. Reikalingos daugiau refleksijų?",
 
   "premiumCurrentPlan": "Dabartinis planas: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Kraunamas parduotuvė…",
 
   "blessedTitle": "Barakah režimas",
-  "blessedSubtitleGrace": "Atrakinkite visą Nuria patirtį.",
+  "blessedSubtitleGrace": "Atrakinkite visą Ayara patirtį.",
   "blessedSubtitleBlessed": "Esate Barakah. Reikalingos daugiau refleksijų?",
 
   "blessedCurrentPlan": "Dabartinis planas: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Esate Standartinio plano su pradinėmis refleksijomis, ir pasiekėte limitą. Norėdami tęsti — ir atrakinti premiumines kategorijas — atnaujinkite į Barakah.",
   "graceBlockedCtaGoBlessed": "Žr. Barakah parinktys žemiau",
 
-  "rateGuestMustSignIn": "Prisijunkite, norėdami naudoti Nuria ir savo refleksijas.",
+  "rateGuestMustSignIn": "Prisijunkite, norėdami naudoti Ayara ir savo refleksijas.",
 
   "guestNoCreditsTitle": "Svečio režimas",
   "guestNoCreditsBody": "Kaip svečias galite naršyti programą, bet negalite naudoti refleksijų. Vėliau prisijunkite Nustatymuose, norėdami naudoti refleksijas ir atrakinti pirkimus.",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Leisti Nuria naudoti mano vietovę Qiblos krypčiai ir maldos laika",
+  "locationConsentLabel": "Leisti Ayara naudoti mano vietovę Qiblos krypčiai ir maldos laika",
   "locationConsentHint": "Naudojama tik šioms funkcijoms. Jūsų vieta niekad nebus dalinta arba saugoma.",
 
-  "askPageTitle": "Paklauskite Nuria",
+  "askPageTitle": "Paklauskite Ayara",
   "askPageDescription": "Paklauskite bet ką apie tikėjimą, maldą, gyvenimą arba islamo praktiką ir gaukite gijią, grindžiamą Koranu ir Suna.",
   "askPageInputHint": "Čia įrašykite savo klausimą…",
   "askPageSubmitCta": "Paklausti",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Reikalinga vieta",
-  "qiblaLocationNeededBody": "Leisti vietos prieigą, kad Nuria galėtų apskaičiuoti Kaabos kryptį Mekoje iš jūsų buvimo vietos.",
+  "qiblaLocationNeededBody": "Leisti vietos prieigą, kad Ayara galėtų apskaičiuoti Kaabos kryptį Mekoje iš jūsų buvimo vietos.",
   "qiblaOpenSettings": "Atidaryti nustatymus",
   "qiblaCompassLoading": "Ieškoma jūsų padėties…",
   "qiblaTowardMecca": "Link Mekos",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Reikalinga vieta",
-  "prayerTimesLocationNeededBody": "Leisti vietos prieigą, kad Nuria galėtų apskaičiuoti tikslų maldos laiką jūsų miestui.",
+  "prayerTimesLocationNeededBody": "Leisti vietos prieigą, kad Ayara galėtų apskaičiuoti tikslų maldos laiką jūsų miestui.",
   "prayerTimesNextLabel": "Kitas",
   "prayerTimesDoneLabel": "Baigta",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Įjungti maldos priminimus",
   "prayerNotificationsOpenSettings": "Atidaryti pranešimų nustatymus",
   "prayerNotificationsDenied": "Pranešimai išjungti",
-  "prayerNotificationsDeniedHint": "Eikite į Nustatymus ir leiskite pranešimams Nuria, jei norite gauti maldos laiko priminimus.",
+  "prayerNotificationsDeniedHint": "Eikite į Nustatymus ir leiskite pranešimams Ayara, jei norite gauti maldos laiko priminimus.",
 
   "notificationsConsentLabel": "Leisti pranešimus maldos laiko atžvilgiu",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Atlikote 99 Alachaus primintas. Tegul jos būna šviesa jūsų širdyje.",
 
   "disclaimerTitle": "Apie šios programos gijią",
-  "disclaimerBody": "Nuria pateikia islaminės refleksijas, priminimus ir dvasinį turinį, kad palaikytų jūsų asmeninį tikėjimo žygį. Šis turinys pateikiamas tik informaciniais ir inspiracijos tikslais.\n\nNuria neatstoja mokytus mokytojus.\nŠios programos gija nėra verslas su mokyta islamo mokslininku, imamu, muftiu arba teiologiškai perusam mokytoju. Jei turite klausimų apie religines nuostatas, halal ir haram dalykus arba asmenes religines pareigas, prašome kreiptis į kvalifikuotą religinę iš jūsų bendruomenės.\n\nŠi programa neišdavė religinių nuostatų.\nNuria nedaro autoritetingų nustatymų dėl fiqh (islamo teisės) ar asmeninių religinių pareigų. Nieko čia neturėtų būti traktuojama kaip fatva arba privalomas religinis nurodymas.\n\nMokslininko aiškinimas svyruoja.\nIslamas apima turtingą tradcijų, mintijų mokyklu (madhabs) ir mokslininko nuomonės įvairovę. Šios programos turinys atspindi bendras perspektyvas ir gali ne visur reprezentuoti kiekvieną tradiciją vienodai.\n\nBendruomenė svarbu.\nŠi programa siekia skatinti jūsų dalyvavimą tikybo tradicijose, giliai gerbdama svarbi vaidmenį jūsų vietinio mečetės, imamo ir religinės bendruomenės. Mes jus raginom likti susieti su ir mokytis iš kvalifikuotų mokytojai netoli jūsų.",
+  "disclaimerBody": "Ayara pateikia islaminės refleksijas, priminimus ir dvasinį turinį, kad palaikytų jūsų asmeninį tikėjimo žygį. Šis turinys pateikiamas tik informaciniais ir inspiracijos tikslais.\n\nAyara neatstoja mokytus mokytojus.\nŠios programos gija nėra verslas su mokyta islamo mokslininku, imamu, muftiu arba teiologiškai perusam mokytoju. Jei turite klausimų apie religines nuostatas, halal ir haram dalykus arba asmenes religines pareigas, prašome kreiptis į kvalifikuotą religinę iš jūsų bendruomenės.\n\nŠi programa neišdavė religinių nuostatų.\nAyara nedaro autoritetingų nustatymų dėl fiqh (islamo teisės) ar asmeninių religinių pareigų. Nieko čia neturėtų būti traktuojama kaip fatva arba privalomas religinis nurodymas.\n\nMokslininko aiškinimas svyruoja.\nIslamas apima turtingą tradcijų, mintijų mokyklu (madhabs) ir mokslininko nuomonės įvairovę. Šios programos turinys atspindi bendras perspektyvas ir gali ne visur reprezentuoti kiekvieną tradiciją vienodai.\n\nBendruomenė svarbu.\nŠi programa siekia skatinti jūsų dalyvavimą tikybo tradicijose, giliai gerbdama svarbi vaidmenį jūsų vietinio mečetės, imamo ir religinės bendruomenės. Mes jus raginom likti susieti su ir mokytis iš kvalifikuotų mokytojai netoli jūsų.",
   "disclaimerClose": "Supratau",
   "disclaimerInfoTooltip": "Apie šios programos gijią",
   "disclaimerSettingsSubtitle": "Tik bendram informaciniam tikslui. Bakstelėkite, norėdami perskaityti visą išreikalavimą.",

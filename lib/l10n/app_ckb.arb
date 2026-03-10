@@ -1,7 +1,7 @@
 {
   "@@locale": "ckb",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "زمانی خۆت هەڵبژێرە",
   "languageSelectSub": "دەتوانی ئەمە دواتر لە ڕێکخستنەکاندا بگۆڕیت",
@@ -83,7 +83,7 @@
   "close": "داخستن",
   "copiedToast": "کۆپی کرا بۆ تختە",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "ڕیزی بابەتی ئیمەیل / بەشی کردن لە گرتنی بەشی.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "ئەم دەستگەیە هاوپێچ بۆ ئاکاونتی تریی نەبوی. تکایە بە ئاکاونتی سەرەتایی چوونە ژوورەوە و دیسان هەولی بدە.",
 
   "premiumTitle": "شێوەی بارەکە",
-  "premiumSubtitleBasic": "تێکەڵی تێدایی Nuria فتح بکە.",
+  "premiumSubtitleBasic": "تێکەڵی تێدایی Ayara فتح بکە.",
   "premiumSubtitleChampion": "تۆ بارەکە ی. پێویستت بە خۆڕاگری زیاتر؟",
 
   "premiumCurrentPlan": "پلانی ئێستا: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "بارکردنی بازاڕ…",
 
   "blessedTitle": "شێوەی بارەکە",
-  "blessedSubtitleGrace": "تێکەڵی تێدایی Nuria فتح بکە.",
+  "blessedSubtitleGrace": "تێکەڵی تێدایی Ayara فتح بکە.",
   "blessedSubtitleBlessed": "تۆ بارەکە ی. پێویستت بە خۆڕاگری زیاتر؟",
 
   "blessedCurrentPlan": "پلانی ئێستا: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "تۆ پلانی ستاندارد و خۆڕاگریە سەرەتایی و سینوری گیاندویت. تا بەردەوام بیت - و بەشەکانی بەرزتر فتح بکە - بەرز بکە بۆ بارەکە.",
   "graceBlockedCtaGoBlessed": "بێیەکانی بارەکە بۆ خوارۆ بڕوانە",
 
-  "rateGuestMustSignIn": "چوونە ژوورەوە تا Nuria و خۆڕاگریەکانی خۆت بەکار بهێنی.",
+  "rateGuestMustSignIn": "چوونە ژوورەوە تا Ayara و خۆڕاگریەکانی خۆت بەکار بهێنی.",
 
   "guestNoCreditsTitle": "شێوەی مێوان",
   "guestNoCreditsBody": "وەک مێوان دەتوانی تێکەڵ شوێن بڕوانی، بەڵام نەتوانی خۆڕاگری بەکار بهێنی. دواتر چوونە ژوورەوە لە ڕێکخستنی ڕۆژنامە تا خۆڕاگری بەکار بهێنی.",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "طلحە ئیبنی عبیددالە (رضی الله عنه)",
   "dailyRoleModel59": "زبیری ئیبنی عوام (رضی الله عنه)",
 
-  "locationConsentLabel": "Nuria ڕێپێدی بدە تا جێگەی من بۆ الجاهە و کاتی نوێژ بەکار بهێنێت",
+  "locationConsentLabel": "Ayara ڕێپێدی بدە تا جێگەی من بۆ الجاهە و کاتی نوێژ بەکار بهێنێت",
   "locationConsentHint": "تەنها بۆ ئەم خصوسیەتە. جێگەی خۆت هیچ جار بەشیان یان پاشەکەی نیە.",
 
-  "askPageTitle": "Nuria پرسیا",
+  "askPageTitle": "Ayara پرسیا",
   "askPageDescription": "هەر تێکەڵێک سەبارەت بە ئیمان، نوێژ، ژیان یان چالاکیی ئیسلام و وەڵام وەربگرە بنیاتی لەسەر قورئان و سوننەت.",
   "askPageInputHint": "پرسیەی خۆت لێرە بنووسە…",
   "askPageSubmitCta": "پرسیا",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "جێگە پێویست",
-  "qiblaLocationNeededBody": "جێگەی دەستگەی خۆت ڕێپێ بدە تاNuria بتوانێت الجاهەی کاعبە لە مەکە بێتێکی دایڕا.",
+  "qiblaLocationNeededBody": "جێگەی دەستگەی خۆت ڕێپێ بدە تاAyara بتوانێت الجاهەی کاعبە لە مەکە بێتێکی دایڕا.",
   "qiblaOpenSettings": "ڕێکخستنەکان کردنەوە",
   "qiblaCompassLoading": "جێگەی خۆت تێدەدۆزێت…",
   "qiblaTowardMecca": "نیشانە بە مەکە",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "مغرب",
   "prayerTimesIsha": "عشاء",
   "prayerTimesLocationNeededTitle": "جێگە پێویست",
-  "prayerTimesLocationNeededBody": "جێگەی دەستگەی خۆت ڕێپێ بدە تا Nuria بتوانێت کاتی نوێژی دروست بۆ شاری خۆت.",
+  "prayerTimesLocationNeededBody": "جێگەی دەستگەی خۆت ڕێپێ بدە تا Ayara بتوانێت کاتی نوێژی دروست بۆ شاری خۆت.",
   "prayerTimesNextLabel": "داهاتوو",
   "prayerTimesDoneLabel": "تێیدا",
 
@@ -548,9 +548,9 @@
   "prayerNotificationsEnable": "یاددێری نوێژ فتح بکە",
   "prayerNotificationsOpenSettings": "ڕێکخستنی یاددێر کردنەوە",
   "prayerNotificationsDenied": "یاددێر ناچالاک",
-  "prayerNotificationsDeniedHint": "بڕۆ بۆ ڕێکخستن و Nuria ڕێپێ بدە تا یاددێری نوێژ وەربگریت.",
+  "prayerNotificationsDeniedHint": "بڕۆ بۆ ڕێکخستن و Ayara ڕێپێ بدە تا یاددێری نوێژ وەربگریت.",
 
-  "notificationsConsentLabel": "Nuria ڕێپێ بدە بۆ یاددێری نوێژ",
+  "notificationsConsentLabel": "Ayara ڕێپێ بدە بۆ یاددێری نوێژ",
 
   "prayerNotifTitleFajr": "🌅 فجر - نوێژی بەیان",
   "prayerNotifBodyFajr": "باشترین نوێژ نوێژی بەیان. هیسبە هاندان بۆ خودا.",
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "تۆ 99 یادبێژی خودا تێیدا کردوو. بێدەن نوری دڵت.",
 
   "disclaimerTitle": "سەبارەت بە ڕێنمایی ئەم تێکەڵە",
-  "disclaimerBody": "Nuria خۆڕاگریی ئیسلامی، یاددێر و ناوەڕۆکی رۆحانی پێشکەش دەکات تا ڕێی خۆت ڕێزیدار بکات. ئەم ناوەڕۆکە بۆ مەبەستی ئاگاداری گشتی و رۆحانی.\n\nNuria سامانی شاریّ نیە.\nڕێنمایی ئەم تێکەڵە جێگری قورانیی شارپێز، ئمام، موفتی یان مامۆستای رۆحانی تێدایی نیە. ئەگەر سوال سەبارەت بە حکومی شارپێز، حەلال و حارام یان بارودۆخی شارپێز هەبێت، تکایە یارمەتی لە سوپاسێکی شارپێز لە کۆمەڵگەی خۆت بگرە.\n\nئەم تێکەڵە حکومی شارپێز ندەداتەوە.\nNuria بڕیاری سەربەخۆی سەبارەت بە تێکەڵ فیقہی یان بارودۆخی شارپێزی کەس ندەداتەوە. هیچ شتێکی لێرە نەبێ فتوی یان فەرمانی شارپێز.",
+  "disclaimerBody": "Ayara خۆڕاگریی ئیسلامی، یاددێر و ناوەڕۆکی رۆحانی پێشکەش دەکات تا ڕێی خۆت ڕێزیدار بکات. ئەم ناوەڕۆکە بۆ مەبەستی ئاگاداری گشتی و رۆحانی.\n\nAyara سامانی شاریّ نیە.\nڕێنمایی ئەم تێکەڵە جێگری قورانیی شارپێز، ئمام، موفتی یان مامۆستای رۆحانی تێدایی نیە. ئەگەر سوال سەبارەت بە حکومی شارپێز، حەلال و حارام یان بارودۆخی شارپێز هەبێت، تکایە یارمەتی لە سوپاسێکی شارپێز لە کۆمەڵگەی خۆت بگرە.\n\nئەم تێکەڵە حکومی شارپێز ندەداتەوە.\nAyara بڕیاری سەربەخۆی سەبارەت بە تێکەڵ فیقہی یان بارودۆخی شارپێزی کەس ندەداتەوە. هیچ شتێکی لێرە نەبێ فتوی یان فەرمانی شارپێز.",
   "disclaimerClose": "تێگەیشتم",
   "disclaimerInfoTooltip": "سەبارەت بە ڕێنمایی ئەم تێکەڵە",
   "disclaimerSettingsSubtitle": "بۆ مەبەستی ئاگاداری گشتی. تپ بکە بۆ خوێندنی دیسان.",

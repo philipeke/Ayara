@@ -1,7 +1,7 @@
 {
   "@@locale": "zh_HK",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "選擇你的語言",
   "languageSelectSub": "你稍後可以在設定中更改",
@@ -83,7 +83,7 @@
   "close": "關閉",
   "copiedToast": "已複製到剪貼板",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "包括類別標籤的電子郵件/分享主題行。",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "此設備已連結到另一個帳戶。請使用原始帳戶登入。",
 
   "premiumTitle": "巴拉卡模式",
-  "premiumSubtitleBasic": "解鎖完整的Nuria體驗。",
+  "premiumSubtitleBasic": "解鎖完整的Ayara體驗。",
   "premiumSubtitleChampion": "你是巴拉卡。需要更多反思？",
 
   "premiumCurrentPlan": "當前計劃：{plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "載入商店…",
 
   "blessedTitle": "巴拉卡模式",
-  "blessedSubtitleGrace": "解鎖完整的Nuria體驗。",
+  "blessedSubtitleGrace": "解鎖完整的Ayara體驗。",
   "blessedSubtitleBlessed": "你是巴拉卡。需要更多反思？",
 
   "blessedCurrentPlan": "當前計劃：{plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "你處於標準計劃，有入門反思，已達到限制。要繼續——並解鎖高級類別——升級至巴拉卡。",
   "graceBlockedCtaGoBlessed": "查看下面的巴拉卡選項",
 
-  "rateGuestMustSignIn": "登入以使用Nuria和你的反思。",
+  "rateGuestMustSignIn": "登入以使用Ayara和你的反思。",
 
   "guestNoCreditsTitle": "訪客模式",
   "guestNoCreditsBody": "作為訪客，你可以瀏覽應用，但無法使用反思。稍後在設定中登入以使用反思和解鎖購買。",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "塔爾哈·伊本·烏貝德胡拉（願主喜悅他）",
   "dailyRoleModel59": "阿茲-祖貝爾·伊本·阿爾-阿瓦姆（願主喜悅他）",
 
-  "locationConsentLabel": "允許Nuria使用我的位置以確定朝向麥加的方向和禮拜時間",
+  "locationConsentLabel": "允許Ayara使用我的位置以確定朝向麥加的方向和禮拜時間",
   "locationConsentHint": "僅用於這些功能。你的位置永遠不會被分享或存儲。",
 
-  "askPageTitle": "問 Nuria",
+  "askPageTitle": "問 Ayara",
   "askPageDescription": "詢問有關信仰、祈禱、生活或伊斯蘭實踐的任何問題，並獲得根植於《古蘭經》和聖訓的指引。",
   "askPageInputHint": "在此輸入你的問題…",
   "askPageSubmitCta": "提問",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "需要位置",
-  "qiblaLocationNeededBody": "允許位置訪問，以便Nuria可以計算從你所在位置到麥加卡巴的方向。",
+  "qiblaLocationNeededBody": "允許位置訪問，以便Ayara可以計算從你所在位置到麥加卡巴的方向。",
   "qiblaOpenSettings": "打開設定",
   "qiblaCompassLoading": "正在查找你的位置…",
   "qiblaTowardMecca": "朝向麥加",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "日落禮",
   "prayerTimesIsha": "夜間禮",
   "prayerTimesLocationNeededTitle": "需要位置",
-  "prayerTimesLocationNeededBody": "允許位置訪問，以便Nuria可以計算你所在城市的準確禮拜時間。",
+  "prayerTimesLocationNeededBody": "允許位置訪問，以便Ayara可以計算你所在城市的準確禮拜時間。",
   "prayerTimesNextLabel": "下一個",
   "prayerTimesDoneLabel": "完成",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "啟用禮拜提醒",
   "prayerNotificationsOpenSettings": "打開通知設定",
   "prayerNotificationsDenied": "通知已禁用",
-  "prayerNotificationsDeniedHint": "進入設定並允許Nuria的通知以接收禮拜時間提醒。",
+  "prayerNotificationsDeniedHint": "進入設定並允許Ayara的通知以接收禮拜時間提醒。",
 
   "notificationsConsentLabel": "允許禮拜時間通知",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "你已完成99次對真主的紀念。願它們成為你心靈的光芒。",
 
   "disclaimerTitle": "關於此應用的指引",
-  "disclaimerBody": "Nuria提供伊斯蘭反思、提醒和精神內容，以支持你個人的信仰旅程。本內容僅出於一般信息和靈感目的提供。\n\nNuria不代替合格的學問。\n本應用中的指引不是代替有學問的伊斯蘭學者、伊瑪目、穆夫提或神學訓練教師。如果你對宗教裁決、清真和非法事項或個人宗教義務有疑問，請在你的社區中尋求合格宗教權威的建議。\n\n此應用不發布宗教裁決。\nNuria不對伊斯蘭教法（伊斯蘭法律）或個人宗教義務事項進行權威決定。本應用中的任何內容都不應被視為伊斯蘭教法裁決或具有約束力的宗教指示。\n\n學者解釋各不相同。\n伊斯蘭包含豐富多樣的傳統、思想流派（馬茲哈卜）和學術觀點。本應用中的內容反映一般觀點，可能不會平等代表每一種傳統或學派。\n\n社區很重要。\n此應用旨在鼓勵你對信仰傳統的參與，同時深深尊重你當地清真寺、伊瑪目和宗教社區的重要角色。我們鼓勵你與你附近的合格教師保持聯繫並向他們學習。",
+  "disclaimerBody": "Ayara提供伊斯蘭反思、提醒和精神內容，以支持你個人的信仰旅程。本內容僅出於一般信息和靈感目的提供。\n\nAyara不代替合格的學問。\n本應用中的指引不是代替有學問的伊斯蘭學者、伊瑪目、穆夫提或神學訓練教師。如果你對宗教裁決、清真和非法事項或個人宗教義務有疑問，請在你的社區中尋求合格宗教權威的建議。\n\n此應用不發布宗教裁決。\nAyara不對伊斯蘭教法（伊斯蘭法律）或個人宗教義務事項進行權威決定。本應用中的任何內容都不應被視為伊斯蘭教法裁決或具有約束力的宗教指示。\n\n學者解釋各不相同。\n伊斯蘭包含豐富多樣的傳統、思想流派（馬茲哈卜）和學術觀點。本應用中的內容反映一般觀點，可能不會平等代表每一種傳統或學派。\n\n社區很重要。\n此應用旨在鼓勵你對信仰傳統的參與，同時深深尊重你當地清真寺、伊瑪目和宗教社區的重要角色。我們鼓勵你與你附近的合格教師保持聯繫並向他們學習。",
   "disclaimerClose": "我理解",
   "disclaimerInfoTooltip": "關於此應用的指引",
   "disclaimerSettingsSubtitle": "僅供一般信息之用。點擊以閱讀完整免責聲明。",

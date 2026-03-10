@@ -1,7 +1,7 @@
 {
   "@@locale": "az",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Dilinizi seçin",
   "languageSelectSub": "Bunu daha sonra Parametrlər bölümündən dəyişə bilərsiniz",
@@ -83,7 +83,7 @@
   "close": "Bağla",
   "copiedToast": "Buferә kopyalandı",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Bu cihaz artıq başqa bir hesaba bağlanmışdır. Lütfәn orijinal hesab ilә daxil olun.",
 
   "premiumTitle": "Barakah rejimi",
-  "premiumSubtitleBasic": "Tam Nuria tәcrübәsini açın.",
+  "premiumSubtitleBasic": "Tam Ayara tәcrübәsini açın.",
   "premiumSubtitleChampion": "Siz Barakah-dasınız. Daha çox meditasiyaya ehtiyacınız var?",
 
   "premiumCurrentPlan": "Cari plan: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Mağaza yüklәniyor…",
 
   "blessedTitle": "Barakah rejimi",
-  "blessedSubtitleGrace": "Tam Nuria tәcrübәsini açın.",
+  "blessedSubtitleGrace": "Tam Ayara tәcrübәsini açın.",
   "blessedSubtitleBlessed": "Siz Barakah-dasınız. Daha çox meditasiyaya ehtiyacınız var?",
 
   "blessedCurrentPlan": "Cari plan: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Siz başlanğıc meditasiyaları ilә Standart planda qeydiyyatdasınız və hәddi çatmısınız. Davam etmәk və әlavә kateqoriyaları açmaq üçün Barakah-a keçid edin.",
   "graceBlockedCtaGoBlessed": "Aşağıda Barakah seçәnәklәrinә baxın",
 
-  "rateGuestMustSignIn": "Nuria-ı istifadә etmәk və meditasyalarınız üçün daxil olun.",
+  "rateGuestMustSignIn": "Ayara-ı istifadә etmәk və meditasyalarınız üçün daxil olun.",
 
   "guestNoCreditsTitle": "Qonaq rejimi",
   "guestNoCreditsBody": "Qonaq olaraq tәtbiqә baxıya bilәrsәniz, amma meditasiyalar istifadә edә bilmәzsәniz. Daha sonra Parametrlərdә daxil ol və meditasiyalar ilә alışları açdıqdan sonra istifadә et.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (r.h)",
   "dailyRoleModel22": "İmam Abu Hanifa (r.h)",
   "dailyRoleModel23": "İmam Malik ibn Anas (r.h)",
-  "dailyRoleModel24": "İmam al-Shafi'i (r.h)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "İmam Ahmad ibn Hanbal (r.h)",
   "dailyRoleModel26": "İmam al-Bukhari (r.h)",
   "dailyRoleModel27": "İmam Muslim (r.h)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (r.a)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (r.a)",
 
-  "locationConsentLabel": "Nuria'yı Qibla istiqamәti və namaz vaxtları üçün mənim yerimə istifadә etmәyә icazә vәr",
+  "locationConsentLabel": "Ayara'yı Qibla istiqamәti və namaz vaxtları üçün mənim yerimə istifadә etmәyә icazә vәr",
   "locationConsentHint": "Yalnız bu xüsusiyyәtlәr üçün istifadә olunur. Səninlә yer hәrgiz paylaşılmır və saxlanılmır.",
 
-  "askPageTitle": "Nuria'dan Soruş",
+  "askPageTitle": "Ayara'dan Soruş",
   "askPageDescription": "İman, namaz, həyat və ya İslami tәcrübә barәdә hәr şeyi soruş və Quran və Sunnәdәn köklәndirәn rәhbәrlik qəbul et.",
   "askPageInputHint": "Sualınızı buraya yazın…",
   "askPageSubmitCta": "Soruş",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Yer tәlәb olunur",
-  "qiblaLocationNeededBody": "Nuria'nın haradan Kaaba'nın istiqamәtini hesablaması üçün yer daxilolmasına icazә vәrin.",
+  "qiblaLocationNeededBody": "Ayara'nın haradan Kaaba'nın istiqamәtini hesablaması üçün yer daxilolmasına icazә vәrin.",
   "qiblaOpenSettings": "Parametrləri Aç",
   "qiblaCompassLoading": "Səninlә yer tapılır…",
   "qiblaTowardMecca": "Mәkkәya Tәrәf",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Axşam (Mağrib)",
   "prayerTimesIsha": "Yatsi (İşa)",
   "prayerTimesLocationNeededTitle": "Yer tәlәb olunur",
-  "prayerTimesLocationNeededBody": "Nuria'nın şәhәriniz üçün dәqiq namaz vaxtlarını hesablaması üçün yer daxilolmasına icazә vәrin.",
+  "prayerTimesLocationNeededBody": "Ayara'nın şәhәriniz üçün dәqiq namaz vaxtlarını hesablaması üçün yer daxilolmasına icazә vәrin.",
   "prayerTimesNextLabel": "Sonrakı",
   "prayerTimesDoneLabel": "Tamamlandı",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Namaz xәbәrləndirmәlәrini aktiv et",
   "prayerNotificationsOpenSettings": "Xәbәrdarlıq parametrlәrini aç",
   "prayerNotificationsDenied": "Xәbәrləndirmәlәr deaktiv edilmişdir",
-  "prayerNotificationsDeniedHint": "Parametrlərdә keçib Nuria üçün xәbәrləndirmәlәrә icazә vәrin.",
+  "prayerNotificationsDeniedHint": "Parametrlərdә keçib Ayara üçün xәbәrləndirmәlәrә icazә vәrin.",
 
   "notificationsConsentLabel": "Namaz vaxtları üçün xәbәrləndirmәlәrә icazә vәr",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Sәnәd Allahu Tәәla'nın 99 zikri tamamlamısınız. Onlar səninlә ürәyin üçün bir nur ola.",
 
   "disclaimerTitle": "Bu tәtbiqin rәhbәrliyi barәdә",
-  "disclaimerBody": "Nuria, imani sәyahәtinizin şәxsi bir yolunu dәstәklәmәk üçün İslami meditasiyalar, xәbәrləndirmәlәr və ruhani məzmun tәqdim edir. Bu məzmun yalnız ümumi mәlumat verici və motivasiyalı məqsәdlәr üçün tәqdim olunur.\n\nNuria bilgәli tәlim әvәzinә keçmәz.\nBu tәtbiqin rәhbәrliyi öyrәnilmiş İslami alim, imam, mufti və ya tәoloji tәrәfdәş olan müәllimin dәqiq әvәzinә keçir. Әgәr dini hükmü, halal və haram mәsәlәlәri və ya şәxsi dini vәzifәlәr barәdә suallarınız varsa, lütfәn cәmәәtinizdә bilgәli dini biriyә müraciәt edin.\n\nBu tәtbiq dini hükmü çıxarmır.\nNuria fiqh (İslam jurisprудәnsiyası) və ya şәxsi dini vәzifәlәr barәdә әtkin tәyinatlı tәyin etmәz. Burada heçbir şey fatva kimi və ya bәndli dini ödәniş kimi qәbul edilmәməlidir.\n\nAlimlik fәsil dәyişәn.\nİslam zәngin bir ənәnә, düşüncә mәktәbləri (madhabs) və alimlik fikir tәrafly. Bu tәtbiqə məzmun ümumi perspektivlәri әks etdir və hәr ənәnә və mәktәbi bәrabәr nümayәndәlik etməz.\n\nCәmәәt әhәmiyyәtlidir.\nBu tәtbiq sizin iman ənәnәsinә cavabdеhliyini tәşviq etmәyi yüksәk etirik, sizin yerли məscid, imam və dini cәmәәtinin әhәmiyyәtli rolu hörmәt etmәk. Biz sizә yerli kimi оğul öyrәnәn bilgәli müәllimlərlә bağlı qalmaq və öyrәnmәyi tәşviq edәrik.",
+  "disclaimerBody": "Ayara, imani sәyahәtinizin şәxsi bir yolunu dәstәklәmәk üçün İslami meditasiyalar, xәbәrləndirmәlәr və ruhani məzmun tәqdim edir. Bu məzmun yalnız ümumi mәlumat verici və motivasiyalı məqsәdlәr üçün tәqdim olunur.\n\nAyara bilgәli tәlim әvәzinә keçmәz.\nBu tәtbiqin rәhbәrliyi öyrәnilmiş İslami alim, imam, mufti və ya tәoloji tәrәfdәş olan müәllimin dәqiq әvәzinә keçir. Әgәr dini hükmü, halal və haram mәsәlәlәri və ya şәxsi dini vәzifәlәr barәdә suallarınız varsa, lütfәn cәmәәtinizdә bilgәli dini biriyә müraciәt edin.\n\nBu tәtbiq dini hükmü çıxarmır.\nAyara fiqh (İslam jurisprудәnsiyası) və ya şәxsi dini vәzifәlәr barәdә әtkin tәyinatlı tәyin etmәz. Burada heçbir şey fatva kimi və ya bәndli dini ödәniş kimi qәbul edilmәməlidir.\n\nAlimlik fәsil dәyişәn.\nİslam zәngin bir ənәnә, düşüncә mәktәbləri (madhabs) və alimlik fikir tәrafly. Bu tәtbiqə məzmun ümumi perspektivlәri әks etdir və hәr ənәnә və mәktәbi bәrabәr nümayәndәlik etməz.\n\nCәmәәt әhәmiyyәtlidir.\nBu tәtbiq sizin iman ənәnәsinә cavabdеhliyini tәşviq etmәyi yüksәk etirik, sizin yerли məscid, imam və dini cәmәәtinin әhәmiyyәtli rolu hörmәt etmәk. Biz sizә yerli kimi оğul öyrәnәn bilgәli müәllimlərlә bağlı qalmaq və öyrәnmәyi tәşviq edәrik.",
   "disclaimerClose": "Mәn Anladım",
   "disclaimerInfoTooltip": "Bu tәtbiqin rәhbәrliyi barәdә",
   "disclaimerSettingsSubtitle": "Yalnız ümumi mәlumat məqsәdləri üçün. Tam sxema oxumaq üçün toxunun.",

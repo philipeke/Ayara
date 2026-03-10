@@ -1,7 +1,7 @@
 {
   "@@locale": "fr_CH",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Choisissez votre langue",
   "languageSelectSub": "Vous pourrez modifier ce choix dans les paramètres",
@@ -83,7 +83,7 @@
   "close": "Fermer",
   "copiedToast": "Copié dans le presse-papiers",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Ligne d'objet d'email / partage incluant le libellé de la catégorie.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Cet appareil est déjà lié à un autre compte. Veuillez vous connecter avec le compte original.",
 
   "premiumTitle": "Mode Barakah",
-  "premiumSubtitleBasic": "Déverrouillez l'expérience Nuria complète.",
+  "premiumSubtitleBasic": "Déverrouillez l'expérience Ayara complète.",
   "premiumSubtitleChampion": "Vous êtes Barakah. Besoin de plus de réflexions ?",
 
   "premiumCurrentPlan": "Plan actuel: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Chargement du magasin…",
 
   "blessedTitle": "Mode Barakah",
-  "blessedSubtitleGrace": "Déverrouillez l'expérience Nuria complète.",
+  "blessedSubtitleGrace": "Déverrouillez l'expérience Ayara complète.",
   "blessedSubtitleBlessed": "Vous êtes Barakah. Besoin de plus de réflexions ?",
 
   "blessedCurrentPlan": "Plan actuel: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Vous êtes sur le plan Standard avec des réflexions de démarrage, et vous avez atteint la limite. Pour continuer — et déverrouiller les catégories premium — passez à Barakah.",
   "graceBlockedCtaGoBlessed": "Voir les options Barakah ci-dessous",
 
-  "rateGuestMustSignIn": "Connectez-vous pour utiliser Nuria et vos réflexions.",
+  "rateGuestMustSignIn": "Connectez-vous pour utiliser Ayara et vos réflexions.",
 
   "guestNoCreditsTitle": "Mode invité",
   "guestNoCreditsBody": "En tant qu'invité, vous pouvez naviguer dans l'application, mais vous ne pouvez pas utiliser les réflexions. Connectez-vous plus tard dans les paramètres pour utiliser les réflexions et déverrouiller les achats.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Autoriser Nuria à utiliser ma localisation pour la direction de la Qibla et les heures de prière",
+  "locationConsentLabel": "Autoriser Ayara à utiliser ma localisation pour la direction de la Qibla et les heures de prière",
   "locationConsentHint": "Utilisée uniquement pour ces fonctionnalités. Votre localisation n'est jamais partagée ni stockée.",
 
-  "askPageTitle": "Demander à Nuria",
+  "askPageTitle": "Demander à Ayara",
   "askPageDescription": "Posez n'importe quelle question sur la foi, la prière, la vie ou la pratique islamique et recevez une guidance enracinée dans le Coran et la Sunnah.",
   "askPageInputHint": "Tapez votre question ici…",
   "askPageSubmitCta": "Demander",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Localisation requise",
-  "qiblaLocationNeededBody": "Autorisez l'accès à la localisation afin que Nuria puisse calculer la direction de la Kaaba à La Mecque depuis votre emplacement.",
+  "qiblaLocationNeededBody": "Autorisez l'accès à la localisation afin que Ayara puisse calculer la direction de la Kaaba à La Mecque depuis votre emplacement.",
   "qiblaOpenSettings": "Ouvrir les paramètres",
   "qiblaCompassLoading": "Recherche de votre position…",
   "qiblaTowardMecca": "Vers La Mecque",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Localisation requise",
-  "prayerTimesLocationNeededBody": "Autorisez l'accès à la localisation afin que Nuria puisse calculer les horaires de prière précis pour votre ville.",
+  "prayerTimesLocationNeededBody": "Autorisez l'accès à la localisation afin que Ayara puisse calculer les horaires de prière précis pour votre ville.",
   "prayerTimesNextLabel": "Suivant",
   "prayerTimesDoneLabel": "Terminé",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Activer les rappels de prière",
   "prayerNotificationsOpenSettings": "Ouvrir les paramètres de notification",
   "prayerNotificationsDenied": "Les notifications sont désactivées",
-  "prayerNotificationsDeniedHint": "Allez dans les paramètres et autorisez les notifications pour Nuria pour recevoir des rappels d'horaires de prière.",
+  "prayerNotificationsDeniedHint": "Allez dans les paramètres et autorisez les notifications pour Ayara pour recevoir des rappels d'horaires de prière.",
 
   "notificationsConsentLabel": "Autoriser les notifications pour les horaires de prière",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Vous avez complété 99 louanges à Allah. Puissent-elles être une lumière pour votre cœur.",
 
   "disclaimerTitle": "À propos de la guidance de cette application",
-  "disclaimerBody": "Nuria fournit des réflexions islamiques, des rappels et du contenu spirituel pour soutenir votre parcours personnel de foi. Ce contenu est offert à des fins informationnelles et inspirationnelles générales uniquement.\n\nNuria ne remplace pas l'érudition qualifiée.\nLa guidance de cette application ne remplace pas un savant islamique qualifié, un imam, un mufti ou un enseignant formé théologiquement. Si vous avez des questions sur les avis religieux, les questions halal et haram, ou vos obligations religieuses personnelles, veuillez consulter une autorité religieuse qualifiée dans votre communauté.\n\nCette application n'émet pas d'avis religieux.\nNuria ne rend pas de déterminations autoritative sur les questions de fiqh (jurisprudence islamique) ou les obligations religieuses personnelles. Rien ici ne doit être traité comme une fatwa ou une instruction religieuse contraignante.\n\nLes interprétations savantes varient.\nL'Islam englobe une riche diversité de traditions, d'écoles de pensée (madhabs) et d'opinions savantes. Le contenu de cette application reflète des perspectives générales et peut ne pas représenter chaque tradition ou école de manière égale.\n\nLa communauté est importante.\nCette application vise à encourager votre engagement avec les traditions de foi tout en respectant profondément le rôle vital de votre mosquée locale, de votre imam et de votre communauté religieuse. Nous vous encourageons à rester connectés avec et apprendre auprès d'enseignants qualifiés près de vous.",
+  "disclaimerBody": "Ayara fournit des réflexions islamiques, des rappels et du contenu spirituel pour soutenir votre parcours personnel de foi. Ce contenu est offert à des fins informationnelles et inspirationnelles générales uniquement.\n\nAyara ne remplace pas l'érudition qualifiée.\nLa guidance de cette application ne remplace pas un savant islamique qualifié, un imam, un mufti ou un enseignant formé théologiquement. Si vous avez des questions sur les avis religieux, les questions halal et haram, ou vos obligations religieuses personnelles, veuillez consulter une autorité religieuse qualifiée dans votre communauté.\n\nCette application n'émet pas d'avis religieux.\nAyara ne rend pas de déterminations autoritative sur les questions de fiqh (jurisprudence islamique) ou les obligations religieuses personnelles. Rien ici ne doit être traité comme une fatwa ou une instruction religieuse contraignante.\n\nLes interprétations savantes varient.\nL'Islam englobe une riche diversité de traditions, d'écoles de pensée (madhabs) et d'opinions savantes. Le contenu de cette application reflète des perspectives générales et peut ne pas représenter chaque tradition ou école de manière égale.\n\nLa communauté est importante.\nCette application vise à encourager votre engagement avec les traditions de foi tout en respectant profondément le rôle vital de votre mosquée locale, de votre imam et de votre communauté religieuse. Nous vous encourageons à rester connectés avec et apprendre auprès d'enseignants qualifiés près de vous.",
   "disclaimerClose": "J'ai compris",
   "disclaimerInfoTooltip": "À propos de la guidance de cette application",
   "disclaimerSettingsSubtitle": "À titre informatif uniquement. Appuyez pour lire la clause de non-responsabilité complète.",

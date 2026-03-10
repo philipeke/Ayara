@@ -1,7 +1,7 @@
 {
   "@@locale": "uz",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Tilni tanlang",
   "languageSelectSub": "Buni keyinroq Sozlamalar bo'limida o'zgartirishingiz mumkin",
@@ -83,7 +83,7 @@
   "close": "Yopish",
   "copiedToast": "Klipbordga ko'chirildi",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Toifa yorlig'ini o'z ichiga olgan elektron pochta/ulashish mavzusi qatori.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Bu qurilma boshqa akkauntga bog'langan. Iltimos, asl akkaunt bilan kiring.",
 
   "premiumTitle": "Barokah rejimi",
-  "premiumSubtitleBasic": "Nuria to'la tajribasini ochib bering.",
+  "premiumSubtitleBasic": "Ayara to'la tajribasini ochib bering.",
   "premiumSubtitleChampion": "Siz Barokahdasiz. Ko'proq fikr kerakmi?",
 
   "premiumCurrentPlan": "Joriy reja: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Do'kon yuklanyapti…",
 
   "blessedTitle": "Barokah rejimi",
-  "blessedSubtitleGrace": "Nuria to'la tajribasini ochib bering.",
+  "blessedSubtitleGrace": "Ayara to'la tajribasini ochib bering.",
   "blessedSubtitleBlessed": "Siz Barokahdasiz. Ko'proq fikr kerakmi?",
 
   "blessedCurrentPlan": "Joriy reja: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Siz Standart rejimidasu boshlang'ich fikrlar bilan va chegara tugindisingi. Davom etish uchun — va premium toifalarni ochish uchun — Barokahga o'tish.",
   "graceBlockedCtaGoBlessed": "Pastda Barokah variantlarini ko'ring",
 
-  "rateGuestMustSignIn": "Nuriadan foydalanish va fikrlaringizdan foydalanish uchun kiring.",
+  "rateGuestMustSignIn": "Ayaradan foydalanish va fikrlaringizdan foydalanish uchun kiring.",
 
   "guestNoCreditsTitle": "Mehmon rejimi",
   "guestNoCreditsBody": "Mehmon sifatida siz ilovani ko'rishingiz mumkin, lekin fikrlardan foydalana olmaysiz. Fikrlardan foydalanish va sotib olishlarni ochish uchun keyinroq Sozlamalardan kiring.",
@@ -499,7 +499,7 @@
   "dailyRoleModel58": "Talho ibn Ubaydulloh (R.A)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Avvom (R.A)",
 
-  "locationConsentLabel": "Nuriaya Qibla yo'nalishi va namoz vaqtlari uchun joylashuvdan foydalanishga ruxsat bering",
+  "locationConsentLabel": "Ayaraya Qibla yo'nalishi va namoz vaqtlari uchun joylashuvdan foydalanishga ruxsat bering",
   "locationConsentHint": "Faqat bu xususiyatlar uchun ishlatiladi. Sizning joylashuvingiz hech qachon ulashilmaydi yoki saqlanmaydi.",
 
   "askPageTitle": "Nuriyadan so'ring",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Joylashuv talab qilinadi",
-  "qiblaLocationNeededBody": "Nuria qaerda bo'lishingizdan qat'i nazar, Qo'ba tomon yo'nalishni hisoblashi uchun joylashuv ruxsatini bering.",
+  "qiblaLocationNeededBody": "Ayara qaerda bo'lishingizdan qat'i nazar, Qo'ba tomon yo'nalishni hisoblashi uchun joylashuv ruxsatini bering.",
   "qiblaOpenSettings": "Sozlamalarni ochish",
   "qiblaCompassLoading": "Sizning o'rningizni qidirmoqda…",
   "qiblaTowardMecca": "Makkah tomon",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Magrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Joylashuv talab qilinadi",
-  "prayerTimesLocationNeededBody": "Nuria sizning shaharningiz uchun aniq namoz vaqtlarini hisoblashi uchun joylashuv ruxsatini bering.",
+  "prayerTimesLocationNeededBody": "Ayara sizning shaharningiz uchun aniq namoz vaqtlarini hisoblashi uchun joylashuv ruxsatini bering.",
   "prayerTimesNextLabel": "Keyingi",
   "prayerTimesDoneLabel": "Tayyor",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Namoz eslatmalarini yoqish",
   "prayerNotificationsOpenSettings": "Bildirishnoma sozlamalarini ochish",
   "prayerNotificationsDenied": "Bildirishnamalar o'chirilgan",
-  "prayerNotificationsDeniedHint": "Sozlamalarni oching va Nuria uchun bildirishnamalar ruxsatini berib, namoz vaqti eslatmalarini oling.",
+  "prayerNotificationsDeniedHint": "Sozlamalarni oching va Ayara uchun bildirishnamalar ruxsatini berib, namoz vaqti eslatmalarini oling.",
 
   "notificationsConsentLabel": "Namoz vaqtlari uchun bildirishnamaga ruxsat bering",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Siz Allohni 99 marta eslatib bo'ldiniz. Ular sizning qalbingiz uchun nur bo'lsin.",
 
   "disclaimerTitle": "Bu ilova hidoyati haqida",
-  "disclaimerBody": "Nuria islomiy fikirlar, eslatmalar va ruhiy kontentni sizning xoch yo'lingizni qo'llab-quvvatlash uchun taqdim etadi. Bu kontent faqat umumiy ma'lumot va ilhomlantirish maqsadlari uchun taqdim etilyapti.\n\nNuria malaka'li uchunlar o'rnini tutmaydi.\nBu ilovadagi hidoyat o'rgangan islom olim, imam, mufti yoki ilmiy tarbiyalangan o'qituvchi o'rnida kelmaydi. Agar diniy hokimiyat, halol va haram masalalari yoki shaxsiy diniy mas'uliyat haqida savolingiz bo'lsa, iltimos, sizning jamiyatingizda malaka'li diniy bo'linish bilan ma'naslashtiring.\n\nBu ilova diniy hokimiyat chiqarmaydi.\nNuria islomiy huquqshunoslik (fiqh) yoki shaxsiy diniy mas'uliyat masalalarida hokimlik olmaydi. Bu yerda hech bir narsani fatvaho yoki majburiy diniy ko'rsatma sifatida qabul qilmang.\n\nUlama interpretatsiyalari farq qiladi.\nIslom tradition, fikrlash maktabi (madhab) va ulama fikrlari bo'yicha boy va xilma-xil tuzilmani o'z ichiga oladi. Bu ilovadagi kontent umumiy qarashlarni ko'rsatadi va har bir an'anat yoki maktabni teng darajada o'z ichiga olmaydi.\n\nJamiyat muhim.\nBu ilova, sizning mahalliy masjid, imam va diniy jamiyat bilan bog'lanishni chuqur hurmat qilgan holda, diniy an'anatlar bilan aloqani rag'batlantiradi. Siz qo'shni'lik do'st va o'rgangan o'qituvchilardan o'rganishni davom etishingizni rag'batlantirami.",
+  "disclaimerBody": "Ayara islomiy fikirlar, eslatmalar va ruhiy kontentni sizning xoch yo'lingizni qo'llab-quvvatlash uchun taqdim etadi. Bu kontent faqat umumiy ma'lumot va ilhomlantirish maqsadlari uchun taqdim etilyapti.\n\nAyara malaka'li uchunlar o'rnini tutmaydi.\nBu ilovadagi hidoyat o'rgangan islom olim, imam, mufti yoki ilmiy tarbiyalangan o'qituvchi o'rnida kelmaydi. Agar diniy hokimiyat, halol va haram masalalari yoki shaxsiy diniy mas'uliyat haqida savolingiz bo'lsa, iltimos, sizning jamiyatingizda malaka'li diniy bo'linish bilan ma'naslashtiring.\n\nBu ilova diniy hokimiyat chiqarmaydi.\nAyara islomiy huquqshunoslik (fiqh) yoki shaxsiy diniy mas'uliyat masalalarida hokimlik olmaydi. Bu yerda hech bir narsani fatvaho yoki majburiy diniy ko'rsatma sifatida qabul qilmang.\n\nUlama interpretatsiyalari farq qiladi.\nIslom tradition, fikrlash maktabi (madhab) va ulama fikrlari bo'yicha boy va xilma-xil tuzilmani o'z ichiga oladi. Bu ilovadagi kontent umumiy qarashlarni ko'rsatadi va har bir an'anat yoki maktabni teng darajada o'z ichiga olmaydi.\n\nJamiyat muhim.\nBu ilova, sizning mahalliy masjid, imam va diniy jamiyat bilan bog'lanishni chuqur hurmat qilgan holda, diniy an'anatlar bilan aloqani rag'batlantiradi. Siz qo'shni'lik do'st va o'rgangan o'qituvchilardan o'rganishni davom etishingizni rag'batlantirami.",
   "disclaimerClose": "Tushundim",
   "disclaimerInfoTooltip": "Bu ilova hidoyati haqida",
   "disclaimerSettingsSubtitle": "Faqat umumiy ma'lumot maqsadlari uchun. To'liq taqrirni o'qish uchun bosing.",

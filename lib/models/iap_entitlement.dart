@@ -7,14 +7,14 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 class IapEntitlement {
   final String uid;
 
-  /// Nuria primary flag (new).
+  /// Ayara primary flag (new).
   final bool isBlessed;
 
   /// Legacy flag (read-only compatibility).
-  /// Not written by Nuria anymore, but we may read it if present.
+  /// Not written by Ayara anymore, but we may read it if present.
   final bool isChampionLegacy;
 
-  final String? productId; // e.g. com.oakdev.nuria.premium
+  final String? productId; // e.g. com.oakdev.ayara.premium
   final String? platform; // ios | android
   final String status; // active | inactive | refunded | etc
 
@@ -86,7 +86,7 @@ class IapEntitlement {
   }
 
   Map<String, dynamic> toMap() => <String, dynamic>{
-        // ✅ Nuria writes only isBlessed going forward.
+        // ✅ Ayara writes only isBlessed going forward.
         'isBlessed': isBlessed,
 
         'productId': productId,

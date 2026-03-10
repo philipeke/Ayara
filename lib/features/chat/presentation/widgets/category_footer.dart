@@ -1,7 +1,7 @@
 // lib/features/chat/presentation/widgets/category_footer.dart
 import 'package:flutter/material.dart';
-import 'package:nuria/core/config/theme.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class CategoryFooter extends StatelessWidget {
   const CategoryFooter({super.key});

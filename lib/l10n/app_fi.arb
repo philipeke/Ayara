@@ -1,7 +1,7 @@
 {
   "@@locale": "fi",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Valitse kielesi",
   "languageSelectSub": "Voit muuttaa tätä myöhemmin asetuksissa",
@@ -83,7 +83,7 @@
   "close": "Sulje",
   "copiedToast": "Kopioitu leikepöydälle",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Sähköpostin/jakamisen aiherivi, joka sisältää kategorian etikettien.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Tämä laite on jo linkitetty toiseen tiliin. Kirjaudu sisään alkuperäisellä tilillä.",
 
   "premiumTitle": "Barakah-tila",
-  "premiumSubtitleBasic": "Avaa koko Nuria-kokemus.",
+  "premiumSubtitleBasic": "Avaa koko Ayara-kokemus.",
   "premiumSubtitleChampion": "Olet Barakah. Tarvitsetko lisää pohdintoja?",
 
   "premiumCurrentPlan": "Nykyinen paket: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Ladataan kauppaa…",
 
   "blessedTitle": "Barakah-tila",
-  "blessedSubtitleGrace": "Avaa koko Nuria-kokemus.",
+  "blessedSubtitleGrace": "Avaa koko Ayara-kokemus.",
   "blessedSubtitleBlessed": "Olet Barakah. Tarvitsetko lisää pohdintoja?",
 
   "blessedCurrentPlan": "Nykyinen paket: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Olet Peruspaketissa aloittavilla pohdinnolla ja olet saavuttanut rajan. Jatkaaksesi — ja avataksesi premium-kategoriat — päivitä Barakah:ksi.",
   "graceBlockedCtaGoBlessed": "Katso Barakah-vaihtoehdot alla",
 
-  "rateGuestMustSignIn": "Kirjaudu sisään käyttääksesi Nuriaa ja pohdintojasi.",
+  "rateGuestMustSignIn": "Kirjaudu sisään käyttääksesi Ayaraa ja pohdintojasi.",
 
   "guestNoCreditsTitle": "Vierastila",
   "guestNoCreditsBody": "Vieraana voit selata sovellusta, mutta et voi käyttää pohdintoja. Kirjaudu sisään myöhemmin asetuksissa pohdintoja käyttääksesi ja ostoja avataksesi.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Salli Nurialla käyttää paikannustietojani Qibla-suunnan ja rukousaikojen osalta",
+  "locationConsentLabel": "Salli Ayaralla käyttää paikannustietojani Qibla-suunnan ja rukousaikojen osalta",
   "locationConsentHint": "Käytetään vain näihin ominaisuuksiin. Paikannustietojasi ei koskaan jaeta tai tallenneta.",
 
-  "askPageTitle": "Kysy Nurialta",
+  "askPageTitle": "Kysy Ayaralta",
   "askPageDescription": "Kysy mitä tahansa uskosta, rukouksesta, elämästä tai islamilaisesta harjoituksesta ja saa opastusta, joka perustuu Koraaniin ja Sunnahiin.",
   "askPageInputHint": "Kirjoita kysymyksesi tähän…",
   "askPageSubmitCta": "Kysy",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Paikannustieto vaaditaan",
-  "qiblaLocationNeededBody": "Salli paikannustietojen käyttö, jotta Nuria voi laskea Kaaban suunnan Makkaan sijainnistasi.",
+  "qiblaLocationNeededBody": "Salli paikannustietojen käyttö, jotta Ayara voi laskea Kaaban suunnan Makkaan sijainnistasi.",
   "qiblaOpenSettings": "Avaa asetukset",
   "qiblaCompassLoading": "Etsitään paikkaasi…",
   "qiblaTowardMecca": "Makkaan päin",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Paikannustieto vaaditaan",
-  "prayerTimesLocationNeededBody": "Salli paikannustietojen käyttö, jotta Nuria voi laskea tarkat rukouksen ajat kaupunginasi.",
+  "prayerTimesLocationNeededBody": "Salli paikannustietojen käyttö, jotta Ayara voi laskea tarkat rukouksen ajat kaupunginasi.",
   "prayerTimesNextLabel": "Seuraava",
   "prayerTimesDoneLabel": "Valmis",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Ota rukouspäivitykset käyttöön",
   "prayerNotificationsOpenSettings": "Avaa ilmoitusasetukset",
   "prayerNotificationsDenied": "Ilmoitukset ovat poissa käytöstä",
-  "prayerNotificationsDeniedHint": "Siirry asetuksiin ja salli ilmoitukset Nurialle saadaksesi rukouksen aikamuistutuksia.",
+  "prayerNotificationsDeniedHint": "Siirry asetuksiin ja salli ilmoitukset Ayaralle saadaksesi rukouksen aikamuistutuksia.",
 
   "notificationsConsentLabel": "Salli ilmoitukset rukouksen ajoista",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Olet suorittanut 99 Jumalan muistamista. Olkoon ne valoksi sydämellesi.",
 
   "disclaimerTitle": "Tietoa tämän sovelluksen opastuksesta",
-  "disclaimerBody": "Nuria tarjoaa islamilaisia pohdintoja, muistutuksia ja hengellistä sisältöä tukeakseen henkilökohtaista uskonmatkaa. Tämä sisältö tarjotaan yleisiin informatiivisiin ja inspiroiviin tarkoituksiin.\n\nNuria ei korvaa koulutettuja tutkijoita.\nTämän sovelluksen opastus ei korvaa opiskeltua islamilaista tutkijaa, imaami, mufti tai teologian kouluttajaa. Jos sinulla on kysymyksiä uskonnollisista säädöksistä, halal ja haram -asioista tai henkilökohtaisista uskonnollisista velvollisuuksista, pyydä neuvoa pätevältä uskonnolliselta auktoriteetilta yhteisössäsi.\n\nTämä sovellus ei anna uskonnollisia päätöksiä.\nNuria ei tee auktoritatiivisia määrittelyjä fiqh-asioista (islamilainen jurisprudenssi) tai henkilökohtaisista uskonnollisista velvollisuuksista. Mitään täällä ei tulisi pitää fatwa:na tai sitovana uskonnollisena ohjeena.\n\nTutkijat tulkitsevat eri tavoin.\nIslam sisältää rikas perinteen, koulukuntien (madhab) ja tutkijoiden mielipiteiden moninaisuus. Sisältö tässä sovelluksessa heijastaa yleisiä näkökulmia eikä välttämättä edusta kaikkia perinteitä tai kouluja tasapuolisesti.\n\nYhteisö on tärkeä.\nTämä sovellus pyrkii kannustamaan sitoutumistasi uskonnollisiin perinteisiin samalla kun kunnioitamme syvällä tavalla paikallisen moskeijan, imamin ja uskonnollisen yhteisön ratkaisevan roolin. Kannustamme sinua pysymään yhteydessä ja oppimaan päteviltä opettajilta lähellä sinua.",
+  "disclaimerBody": "Ayara tarjoaa islamilaisia pohdintoja, muistutuksia ja hengellistä sisältöä tukeakseen henkilökohtaista uskonmatkaa. Tämä sisältö tarjotaan yleisiin informatiivisiin ja inspiroiviin tarkoituksiin.\n\nAyara ei korvaa koulutettuja tutkijoita.\nTämän sovelluksen opastus ei korvaa opiskeltua islamilaista tutkijaa, imaami, mufti tai teologian kouluttajaa. Jos sinulla on kysymyksiä uskonnollisista säädöksistä, halal ja haram -asioista tai henkilökohtaisista uskonnollisista velvollisuuksista, pyydä neuvoa pätevältä uskonnolliselta auktoriteetilta yhteisössäsi.\n\nTämä sovellus ei anna uskonnollisia päätöksiä.\nAyara ei tee auktoritatiivisia määrittelyjä fiqh-asioista (islamilainen jurisprudenssi) tai henkilökohtaisista uskonnollisista velvollisuuksista. Mitään täällä ei tulisi pitää fatwa:na tai sitovana uskonnollisena ohjeena.\n\nTutkijat tulkitsevat eri tavoin.\nIslam sisältää rikas perinteen, koulukuntien (madhab) ja tutkijoiden mielipiteiden moninaisuus. Sisältö tässä sovelluksessa heijastaa yleisiä näkökulmia eikä välttämättä edusta kaikkia perinteitä tai kouluja tasapuolisesti.\n\nYhteisö on tärkeä.\nTämä sovellus pyrkii kannustamaan sitoutumistasi uskonnollisiin perinteisiin samalla kun kunnioitamme syvällä tavalla paikallisen moskeijan, imamin ja uskonnollisen yhteisön ratkaisevan roolin. Kannustamme sinua pysymään yhteydessä ja oppimaan päteviltä opettajilta lähellä sinua.",
   "disclaimerClose": "Ymmärrän",
   "disclaimerInfoTooltip": "Tietoa tämän sovelluksen opastuksesta",
   "disclaimerSettingsSubtitle": "Yleisiin informatiivisiin tarkoituksiin. Napauta lukiaksesi koko vastuuvapauslauseen.",

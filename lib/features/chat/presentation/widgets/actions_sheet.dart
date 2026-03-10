@@ -1,8 +1,8 @@
 // lib/features/chat/presentation/widgets/actions_sheet.dart
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:nuria/l10n/app_localizations.dart';
-import 'package:nuria/core/config/theme.dart';
+import 'package:ayara/l10n/app_localizations.dart';
+import 'package:ayara/core/config/theme.dart';
 
 Future<void> showActionsSheet({
   required BuildContext context,
@@ -75,7 +75,7 @@ Future<void> showActionsSheet({
                 Row(
                   children: [
                     Expanded(
-                      child: _NuriaActionButton(
+                      child: _AyaraActionButton(
                         icon: Icons.copy_rounded,
                         label: t.copy,
                         onPressed: () async {
@@ -86,7 +86,7 @@ Future<void> showActionsSheet({
                     ),
                     const SizedBox(width: 12),
                     Expanded(
-                      child: _NuriaActionButton.filled(
+                      child: _AyaraActionButton.filled(
                         icon: Icons.share_rounded,
                         label: t.share,
                         onPressed: () async {
@@ -119,15 +119,15 @@ Future<void> showActionsSheet({
   );
 }
 
-class _NuriaActionButton extends StatelessWidget {
-  const _NuriaActionButton({
+class _AyaraActionButton extends StatelessWidget {
+  const _AyaraActionButton({
     required this.icon,
     required this.label,
     required this.onPressed,
     this.filled = false,
   });
 
-  const _NuriaActionButton.filled({
+  const _AyaraActionButton.filled({
     required this.icon,
     required this.label,
     required this.onPressed,

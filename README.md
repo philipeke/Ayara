@@ -1,4 +1,3 @@
-# Nuria
+# Ayara
 
-Built on the Nuria codebase as a starting point.  
-(Work in progress.)
+A Shia Islamic guidance app for daily reflection, duas, and wisdom inspired by the Quran and the teachings of the Ahl al-Bayt.

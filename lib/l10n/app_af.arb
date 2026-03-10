@@ -1,7 +1,7 @@
 {
   "@@locale": "af",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Kies jou taal",
   "languageSelectSub": "Jy kan dit later in Instellings verander",
@@ -83,7 +83,7 @@
   "close": "Sluit",
   "copiedToast": "Na klembord gekopieer",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Hierdie toestel is reeds aan 'n ander rekening gekoppel. Meld asseblief aan met die oorspronklike rekening.",
 
   "premiumTitle": "Barakah-modus",
-  "premiumSubtitleBasic": "Ontsluit die volledige Nuria-ervaring.",
+  "premiumSubtitleBasic": "Ontsluit die volledige Ayara-ervaring.",
   "premiumSubtitleChampion": "Jy is Barakah. Het jy meer besinnings nodig?",
 
   "premiumCurrentPlan": "Huidige plan: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Laai winkel…",
 
   "blessedTitle": "Barakah-modus",
-  "blessedSubtitleGrace": "Ontsluit die volledige Nuria-ervaring.",
+  "blessedSubtitleGrace": "Ontsluit die volledige Ayara-ervaring.",
   "blessedSubtitleBlessed": "Jy is Barakah. Het jy meer besinnings nodig?",
 
   "blessedCurrentPlan": "Huidige plan: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Jy is op die Standaard-plan met aanvangsbesinnings, en jy het die limiet bereik. Om voort te gaan — en premium kategorieë te ontsluit — opgradeer na Barakah.",
   "graceBlockedCtaGoBlessed": "Sien Barakah-opsies hieronder",
 
-  "rateGuestMustSignIn": "Meld aan om Nuria en jou besinnings te gebruik.",
+  "rateGuestMustSignIn": "Meld aan om Ayara en jou besinnings te gebruik.",
 
   "guestNoCreditsTitle": "Gasmodus",
   "guestNoCreditsBody": "As gas kan jy die program blaai, maar jy kan nie besinnings gebruik nie. Meld later in Instellings aan om besinnings te gebruik en aankope te ontsluit.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Laat Nuria toe om my ligging te gebruik vir Qibla-rigting en gebedsye",
+  "locationConsentLabel": "Laat Ayara toe om my ligging te gebruik vir Qibla-rigting en gebedsye",
   "locationConsentHint": "Slegs gebruik vir hierdie funksies. Jou ligging word nooit gedeel of gestoor nie.",
 
-  "askPageTitle": "Vra Nuria",
+  "askPageTitle": "Vra Ayara",
   "askPageDescription": "Vra enigiets oor geloof, gebed, lewe of Islamitiese praktyk en ontvang leiding gegrond in die Koran en Sunnah.",
   "askPageInputHint": "Tik jou vraag hier…",
   "askPageSubmitCta": "Vra",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Ligging benodig",
-  "qiblaLocationNeededBody": "Laat liggingstoegang toe sodat Nuria die rigting van die Kaäba in Makkah vanaf jou huidige plek kan bereken.",
+  "qiblaLocationNeededBody": "Laat liggingstoegang toe sodat Ayara die rigting van die Kaäba in Makkah vanaf jou huidige plek kan bereken.",
   "qiblaOpenSettings": "Maak Instellings oop",
   "qiblaCompassLoading": "Soek jou posisie…",
   "qiblaTowardMecca": "Na Makkah toe",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Ligging benodig",
-  "prayerTimesLocationNeededBody": "Laat liggingstoegang toe sodat Nuria akkurate gebedsye vir jou stad kan bereken.",
+  "prayerTimesLocationNeededBody": "Laat liggingstoegang toe sodat Ayara akkurate gebedsye vir jou stad kan bereken.",
   "prayerTimesNextLabel": "Volgende",
   "prayerTimesDoneLabel": "Klaar",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Aktiveer gebedherinneringe",
   "prayerNotificationsOpenSettings": "Maak kennisgewinginstellings oop",
   "prayerNotificationsDenied": "Kennisgewings is gedeaktiveer",
-  "prayerNotificationsDeniedHint": "Gaan na Instellings en laat kennisgewings vir Nuria toe om gebedstydherinneringe te ontvang.",
+  "prayerNotificationsDeniedHint": "Gaan na Instellings en laat kennisgewings vir Ayara toe om gebedstydherinneringe te ontvang.",
 
   "notificationsConsentLabel": "Laat kennisgewings toe vir gebedsye",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Jy het 99 herinneringe van Allah voltooi. Mag hulle 'n lig vir jou hart wees.",
 
   "disclaimerTitle": "Oor hierdie program se leiding",
-  "disclaimerBody": "Nuria bied Islamitiese besinnings, herinneringe en geestelike inhoud om jou persoonlike geloofsreis te ondersteun. Hierdie inhoud word slegs vir algemene inligting- en inspirasiedoeleindes aangebied.\n\nNuria vervang nie gekwalifiseerde geleerdes nie.\nDie leiding in hierdie program is nie 'n plaasvervanger vir 'n geleerde Islamitiese geleerde, imam, mufti of teologies opgeleide onderwyser nie. As jy vrae het oor godsdienstige uitsprake, halaal en haraam-sake, of persoonlike godsdienstige verpligtinge, soek asseblief advies by 'n gekwalifiseerde godsdienstige gesag in jou gemeenskap.\n\nHierdie program reik nie godsdienstige uitsprake uit nie.\nNuria maak nie gesaghebbende bepalings oor fiqh (Islamitiese jurisprudensie) of persoonlike godsdienstige verpligtinge nie. Niks hier moet as 'n fatwa of bindende godsdienstige instruksie beskou word nie.\n\nGeleerdes se vertolkings verskil.\nIslam omvat 'n ryk verskeidenheid tradisies, denkrigtings (madhabs) en geleerdes se opinies. Inhoud in hierdie program weerspieël algemene perspektiewe en verteenwoordig moontlik nie elke tradisie of skool ewe volledig nie.\n\nGemeenskap is belangrik.\nHierdie program poog om jou betrokkenheid by geloofsoorlewing aan te moedig, terwyl dit die noodsaaklike rol van jou plaaslike moskee, imam en godsdienstige gemeenskap diep respekteer. Ons moedig jou aan om verbind te bly met en te leer van gekwalifiseerde onderwysers naby jou.",
+  "disclaimerBody": "Ayara bied Islamitiese besinnings, herinneringe en geestelike inhoud om jou persoonlike geloofsreis te ondersteun. Hierdie inhoud word slegs vir algemene inligting- en inspirasiedoeleindes aangebied.\n\nAyara vervang nie gekwalifiseerde geleerdes nie.\nDie leiding in hierdie program is nie 'n plaasvervanger vir 'n geleerde Islamitiese geleerde, imam, mufti of teologies opgeleide onderwyser nie. As jy vrae het oor godsdienstige uitsprake, halaal en haraam-sake, of persoonlike godsdienstige verpligtinge, soek asseblief advies by 'n gekwalifiseerde godsdienstige gesag in jou gemeenskap.\n\nHierdie program reik nie godsdienstige uitsprake uit nie.\nAyara maak nie gesaghebbende bepalings oor fiqh (Islamitiese jurisprudensie) of persoonlike godsdienstige verpligtinge nie. Niks hier moet as 'n fatwa of bindende godsdienstige instruksie beskou word nie.\n\nGeleerdes se vertolkings verskil.\nIslam omvat 'n ryk verskeidenheid tradisies, denkrigtings (madhabs) en geleerdes se opinies. Inhoud in hierdie program weerspieël algemene perspektiewe en verteenwoordig moontlik nie elke tradisie of skool ewe volledig nie.\n\nGemeenskap is belangrik.\nHierdie program poog om jou betrokkenheid by geloofsoorlewing aan te moedig, terwyl dit die noodsaaklike rol van jou plaaslike moskee, imam en godsdienstige gemeenskap diep respekteer. Ons moedig jou aan om verbind te bly met en te leer van gekwalifiseerde onderwysers naby jou.",
   "disclaimerClose": "Ek verstaan",
   "disclaimerInfoTooltip": "Oor hierdie program se leiding",
   "disclaimerSettingsSubtitle": "Slegs vir algemene inligtingsdoeleindes. Tik om die volledige vrywaring te lees.",

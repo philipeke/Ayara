@@ -54,9 +54,9 @@ export const IAP_CATALOG: Record<string, IapProduct> = {
   // ✨ Premium — ONE-TIME entitlement
   // ─────────────────────────────
 
-  "com.oakdev.nuria.premium": {
+  "com.oakdev.ayara.premium": {
     kind: "entitlement",
-    productId: "com.oakdev.nuria.premium",
+    productId: "com.oakdev.ayara.premium",
     reflections: 300, // bonus reflections on unlock
     label: "Premium – One-time unlock",
   },

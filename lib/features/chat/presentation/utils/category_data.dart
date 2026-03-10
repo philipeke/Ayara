@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 /// Stable ID for each category (language-independent, english/lowercase).
 /// Used in prompts, routing and storage.
@@ -119,7 +119,7 @@ String normalizeCategoryId(String raw) {
     case 'kvällsreflektion':
       return CategoryId.eveningReflection;
 
-    // Old Nuria ids (just in case anything still points here)
+    // Old Ayara ids (just in case anything still points here)
     case 'humor':
     case 'sad':
     case 'philosophical':

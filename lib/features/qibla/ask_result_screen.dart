@@ -4,11 +4,11 @@ import 'package:flutter/services.dart';
 import 'package:share_plus/share_plus.dart' show SharePlus, ShareParams;
 import 'package:google_fonts/google_fonts.dart';
 
-import 'package:nuria/core/config/theme.dart';
-import 'package:nuria/l10n/app_localizations.dart';
-import 'package:nuria/features/chat/presentation/widgets/result_text_box.dart';
-import 'package:nuria/features/chat/presentation/widgets/actions_sheet.dart';
-import 'package:nuria/features/chat/presentation/widgets/result_bottom_bar.dart';
+import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/l10n/app_localizations.dart';
+import 'package:ayara/features/chat/presentation/widgets/result_text_box.dart';
+import 'package:ayara/features/chat/presentation/widgets/actions_sheet.dart';
+import 'package:ayara/features/chat/presentation/widgets/result_bottom_bar.dart';
 
 /// Result screen for the free-text Ask feature.
 /// Displays the user's question above the AI answer with copy/share actions.

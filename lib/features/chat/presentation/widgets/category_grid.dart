@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import 'category_tile.dart';
 import '../utils/category_data.dart' show CategoryActionItem;
 import '../utils/accent_colors.dart';
-import 'package:nuria/features/limit/usage_service.dart';
-import 'package:nuria/core/config/theme.dart';
+import 'package:ayara/features/limit/usage_service.dart';
+import 'package:ayara/core/config/theme.dart';
 
 class CategoryGrid extends StatefulWidget {
   final List<CategoryActionItem> items;

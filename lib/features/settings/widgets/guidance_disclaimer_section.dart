@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class GuidanceDisclaimerSection extends StatelessWidget {
   const GuidanceDisclaimerSection({super.key});

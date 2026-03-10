@@ -1,8 +1,8 @@
 // lib/core/utils/error_ui.dart
 import 'package:flutter/material.dart';
 
-import 'package:nuria/core/utils/app_error.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/core/utils/app_error.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 void showAppErrorSnack(
   BuildContext context,
@@ -23,7 +23,7 @@ void showAppErrorSnack(
   if (appErr.isGuestNotAllowed) {
     msg = t.rateGuestMustSignIn;
   } else if (appErr.isCreditsExhausted) {
-    // Nuria terminology: reflections (not credits).
+    // Ayara terminology: reflections (not credits).
     msg = t.rateReflectionsExhausted;
   } else if (appErr.isDeviceBound) {
     msg = t.deviceBoundError;

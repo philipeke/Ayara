@@ -1,7 +1,7 @@
 {
   "@@locale": "mad",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Pilih bahasa anda",
   "languageSelectSub": "Anda boleh mengubah ini kemudian dalam Tetapan",
@@ -83,7 +83,7 @@
   "close": "Tutup",
   "copiedToast": "Disalin ke papan klip",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Baris subjek e-mel / perkongsian termasuk label kategori.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Peranti ini sudah dipautkan dengan akaun lain. Sila daftar masuk dengan akaun asal.",
 
   "premiumTitle": "Mod Barakah",
-  "premiumSubtitleBasic": "Buka pengalaman Nuria yang lengkap.",
+  "premiumSubtitleBasic": "Buka pengalaman Ayara yang lengkap.",
   "premiumSubtitleChampion": "Anda Barakah. Perlukan lebih banyak renungan?",
 
   "premiumCurrentPlan": "Pelan semasa: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Memuatkan kedai…",
 
   "blessedTitle": "Mod Barakah",
-  "blessedSubtitleGrace": "Buka pengalaman Nuria yang lengkap.",
+  "blessedSubtitleGrace": "Buka pengalaman Ayara yang lengkap.",
   "blessedSubtitleBlessed": "Anda Barakah. Perlukan lebih banyak renungan?",
 
   "blessedCurrentPlan": "Pelan semasa: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Anda pada pelan Standard dengan renungan permulaan, dan anda telah mencapai had. Untuk meneruskan — dan membuka kategori premium — tingkatkan ke Barakah.",
   "graceBlockedCtaGoBlessed": "Lihat pilihan Barakah di bawah",
 
-  "rateGuestMustSignIn": "Daftar masuk untuk menggunakan Nuria dan renungan anda.",
+  "rateGuestMustSignIn": "Daftar masuk untuk menggunakan Ayara dan renungan anda.",
 
   "guestNoCreditsTitle": "Mod tetamu",
   "guestNoCreditsBody": "Sebagai tetamu anda boleh melayari aplikasi, tetapi anda tidak boleh menggunakan renungan. Daftar masuk kemudian dalam Tetapan untuk menggunakan renungan dan membuka pembelian.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Benarkan Nuria menggunakan lokasi saya untuk arah Qibla dan waktu solat",
+  "locationConsentLabel": "Benarkan Ayara menggunakan lokasi saya untuk arah Qibla dan waktu solat",
   "locationConsentHint": "Hanya digunakan untuk ciri-ciri ini. Lokasi anda tidak pernah dikongsi atau disimpan.",
 
-  "askPageTitle": "Tanya Nuria",
+  "askPageTitle": "Tanya Ayara",
   "askPageDescription": "Tanya apa pun tentang keimanan, solat, kehidupan, atau amalan Islam dan terima bimbingan berakar pada Al-Quran dan Sunnah.",
   "askPageInputHint": "Taip soalan anda di sini…",
   "askPageSubmitCta": "Tanya",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Lokasi diperlukan",
-  "qiblaLocationNeededBody": "Benarkan akses lokasi supaya Nuria dapat mengira arah Kaaba di Makkah dari mana pun anda berada.",
+  "qiblaLocationNeededBody": "Benarkan akses lokasi supaya Ayara dapat mengira arah Kaaba di Makkah dari mana pun anda berada.",
   "qiblaOpenSettings": "Buka Tetapan",
   "qiblaCompassLoading": "Mencari kedudukan anda…",
   "qiblaTowardMecca": "Menuju Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isyak",
   "prayerTimesLocationNeededTitle": "Lokasi diperlukan",
-  "prayerTimesLocationNeededBody": "Benarkan akses lokasi supaya Nuria dapat mengira waktu solat yang tepat untuk bandar anda.",
+  "prayerTimesLocationNeededBody": "Benarkan akses lokasi supaya Ayara dapat mengira waktu solat yang tepat untuk bandar anda.",
   "prayerTimesNextLabel": "Seterusnya",
   "prayerTimesDoneLabel": "Selesai",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Benarkan peringatan solat",
   "prayerNotificationsOpenSettings": "Buka tetapan pemberitahuan",
   "prayerNotificationsDenied": "Pemberitahuan dilumpuhkan",
-  "prayerNotificationsDeniedHint": "Pergi ke Tetapan dan benarkan pemberitahuan untuk Nuria menerima peringatan waktu solat.",
+  "prayerNotificationsDeniedHint": "Pergi ke Tetapan dan benarkan pemberitahuan untuk Ayara menerima peringatan waktu solat.",
 
   "notificationsConsentLabel": "Benarkan pemberitahuan untuk waktu solat",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Anda telah menyelesaikan 99 zikir kepada Allah. Semoga mereka menjadi cahaya bagi hati anda.",
 
   "disclaimerTitle": "Tentang bimbingan aplikasi ini",
-  "disclaimerBody": "Nuria menyediakan renungan Islam, peringatan, dan kandungan spiritual untuk menyokong perjalanan keimanan peribadi anda. Kandungan ini ditawarkan untuk tujuan umum informatif dan inspiratif sahaja.\n\nNuria tidak menggantikan biasiswa yang layak.\nBimbingan dalam aplikasi ini bukan pengganti kepada ulama Islam yang belajar, imam, mufti, atau guru yang terlatih secara teologis. Jika anda mempunyai soalan tentang hukum agama, perkara halal dan haram, atau kewajipan agama peribadi, sila cari nasihat daripada pihak berkuasa agama yang layak dalam komuniti anda.\n\nAplikasi ini tidak mengeluarkan fatwa agama.\nNuria tidak membuat penentuan berwibawa dalam perkara fiqh (yurisprudensi Islam) atau kewajipan agama peribadi. Tiada pun di sini harus dianggap sebagai fatwa atau arahan agama yang mengikat.\n\nTafsiran biasiswa berbeza-beza.\nIslam merangkumi kekayaan tradisi, aliran pemikiran (madhabs), dan pendapat ulama yang pelbagai. Kandungan dalam aplikasi ini mencerminkan perspektif umum dan mungkin tidak mewakili setiap tradisi atau sekolah secara sama rata.\n\nKomuniti adalah penting.\nAplikasi ini bertujuan untuk menggalakkan penglibatan anda dengan tradisi keimanan sambil menghormati dengan mendalam peranan penting masjid tempatan, imam, dan komuniti agama anda. Kami menggalakkan anda untuk tetap terhubung dengan dan belajar daripada guru yang layak berdekatan dengan anda.",
+  "disclaimerBody": "Ayara menyediakan renungan Islam, peringatan, dan kandungan spiritual untuk menyokong perjalanan keimanan peribadi anda. Kandungan ini ditawarkan untuk tujuan umum informatif dan inspiratif sahaja.\n\nAyara tidak menggantikan biasiswa yang layak.\nBimbingan dalam aplikasi ini bukan pengganti kepada ulama Islam yang belajar, imam, mufti, atau guru yang terlatih secara teologis. Jika anda mempunyai soalan tentang hukum agama, perkara halal dan haram, atau kewajipan agama peribadi, sila cari nasihat daripada pihak berkuasa agama yang layak dalam komuniti anda.\n\nAplikasi ini tidak mengeluarkan fatwa agama.\nAyara tidak membuat penentuan berwibawa dalam perkara fiqh (yurisprudensi Islam) atau kewajipan agama peribadi. Tiada pun di sini harus dianggap sebagai fatwa atau arahan agama yang mengikat.\n\nTafsiran biasiswa berbeza-beza.\nIslam merangkumi kekayaan tradisi, aliran pemikiran (madhabs), dan pendapat ulama yang pelbagai. Kandungan dalam aplikasi ini mencerminkan perspektif umum dan mungkin tidak mewakili setiap tradisi atau sekolah secara sama rata.\n\nKomuniti adalah penting.\nAplikasi ini bertujuan untuk menggalakkan penglibatan anda dengan tradisi keimanan sambil menghormati dengan mendalam peranan penting masjid tempatan, imam, dan komuniti agama anda. Kami menggalakkan anda untuk tetap terhubung dengan dan belajar daripada guru yang layak berdekatan dengan anda.",
   "disclaimerClose": "Saya faham",
   "disclaimerInfoTooltip": "Tentang bimbingan aplikasi ini",
   "disclaimerSettingsSubtitle": "Untuk tujuan maklumat umum sahaja. Ketuk untuk membaca penafian lengkap.",

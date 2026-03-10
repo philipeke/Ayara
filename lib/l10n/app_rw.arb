@@ -1,7 +1,7 @@
 {
   "@@locale": "rw",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Hitamo ururimi rwako",
   "languageSelectSub": "Urashobora guhindura ibi mumasettings nyuma",
@@ -83,7 +83,7 @@
   "close": "Funga",
   "copiedToast": "Kopiyemo ku kiganiro",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Umwibutso w'iyo gusangira kategori.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Iki Kinini kirimo Ikonti y'Indi. Injira mu Ikonti y'Ibambitse.",
 
   "premiumTitle": "Ubwiyunge bwa Barakah",
-  "premiumSubtitleBasic": "Fungura Ubuzima bwose bwa Nuria.",
+  "premiumSubtitleBasic": "Fungura Ubuzima bwose bwa Ayara.",
   "premiumSubtitleChampion": "Uri mu Barakah. Ifuzo Imunirane nshya?",
 
   "premiumCurrentPlan": "Ubwiyunge bwacu: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Gusimba ibicuruzwa…",
 
   "blessedTitle": "Ubwiyunge bwa Barakah",
-  "blessedSubtitleGrace": "Fungura Ubuzima bwose bwa Nuria.",
+  "blessedSubtitleGrace": "Fungura Ubuzima bwose bwa Ayara.",
   "blessedSubtitleBlessed": "Uri mu Barakah. Ifuzo Imunirane nshya?",
 
   "blessedCurrentPlan": "Ubwiyunge bwacu: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Uri mu Mpano ya Standard mu Imunirane z'Ibisi, n'Ikora cyose. Kugira ngo Kumeza — n'Fungura Ibyiciro bihambaye — Gurishija Barakah.",
   "graceBlockedCtaGoBlessed": "Sobanura Ikintu kya Barakah hasi",
 
-  "rateGuestMustSignIn": "Injira kugira ngo Koresha Nuria n'Imunirane zawe.",
+  "rateGuestMustSignIn": "Injira kugira ngo Koresha Ayara n'Imunirane zawe.",
 
   "guestNoCreditsTitle": "Ubwiyunge bwa Nta konti",
   "guestNoCreditsBody": "Nk'Umwiyunge urashobora Sobanura Serivisi, nkuko Ntiucyona Imunirane. Injira nyuma mu Inyigisho kugira ngo Koresha Imunirane.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Emeza kwa Nuria Gukoreshamu Ikibanza cyo Qibla n'Igihe cy'Inamahoro",
+  "locationConsentLabel": "Emeza kwa Ayara Gukoreshamu Ikibanza cyo Qibla n'Igihe cy'Inamahoro",
   "locationConsentHint": "Gukoresha gusa kwa Ikintu. Ikibanza cawe ntigasangirwa.",
 
-  "askPageTitle": "Ikibazo kwa Nuria",
+  "askPageTitle": "Ikibazo kwa Ayara",
   "askPageDescription": "Kibazo Imana, Inamahoro, Ubuzima, cyangwa Ubwiyunge bwa Imana, n'Subiza Ishingiye ku Qur'an n'Sunnah.",
   "askPageInputHint": "Andika Ikibazo cawe hano…",
   "askPageSubmitCta": "Kibazo",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Ikibanza kibarwa",
-  "qiblaLocationNeededBody": "Emeza Ikibanza kugira ngo Nuria yafasha Inzira y'Kaaba mu Makkah Aho Wari.",
+  "qiblaLocationNeededBody": "Emeza Ikibanza kugira ngo Ayara yafasha Inzira y'Kaaba mu Makkah Aho Wari.",
   "qiblaOpenSettings": "Fungura Inyigisho",
   "qiblaCompassLoading": "Gushaka Umwanya wawe…",
   "qiblaTowardMecca": "Kugabanya Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Ikibanza kibarwa",
-  "prayerTimesLocationNeededBody": "Emeza Ikibanza kugira ngo Nuria Ifasha Igihe cy'Inamahoro y'Umujyi wawe.",
+  "prayerTimesLocationNeededBody": "Emeza Ikibanza kugira ngo Ayara Ifasha Igihe cy'Inamahoro y'Umujyi wawe.",
   "prayerTimesNextLabel": "Igihe",
   "prayerTimesDoneLabel": "Byarangije",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Fungura Imusaruro y'Inamahoro",
   "prayerNotificationsOpenSettings": "Fungura Inyigisho z'Imusaruro",
   "prayerNotificationsDenied": "Imusaruro iramenywe",
-  "prayerNotificationsDeniedHint": "Ruka Inyigisho n'Emeza Imusaruro kwa Nuria kugira ngo Pata Imusaruro y'Inamahoro.",
+  "prayerNotificationsDeniedHint": "Ruka Inyigisho n'Emeza Imusaruro kwa Ayara kugira ngo Pata Imusaruro y'Inamahoro.",
 
   "notificationsConsentLabel": "Emeza Imusaruro y'Igihe cy'Inamahoro",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Wikoreshe 99 Imunirane z'Imana. Ngikazo Imana ku Mutima wawe.",
 
   "disclaimerTitle": "Kubyobojeire mu Inyigisho y'Iki App",
-  "disclaimerBody": "Nuria itanga Imunirane z'Imana, Imusaruro, n'Ikintu cy'Ubuntu kugira ngo Mbaje Ubwiyunge bw'Imana.\n\nNuria ntitahinduza Ubwiyunge bw'Imana.\nNta subiza y'Iki App ntiyacyo gitanda kw'Abadinamini ba Imana. Niba ufuza Ikibazo ku Amahoro ya Imana cyangwa Ubwiyunge bwawe, Gushaka Umuntu w'Imana mu Karamu yawe.\n\nKi App ntikora Amahoro ya Imana.\nNuria ntiheza Icyo gikora cy'Ubwiyunge Bw'Imana. Icyo cyose Hano ntibera Fatwa cyangwa Amahoro ya Imana.\n\nUbwiyunge bwa Imana bushyikiranye.\nImana irimo Ibyiciro Byinshi, Ibwiyunge Byinshi, n'Ibishiranira bya Imana. Ikintu Hano bushyikira Inzira z'Umwanya n'Imana ntibera Ibyiciro Byose.\n\nKaramu n'Ubwiyunge.\nKi App iraba Ibwiyunge bw'Imana Karamu n'Imami zacu. Ibwiyunge bw'Imana rirakomerezamn Gufasha kandi Kuruta Imana mu Karamu zawe.",
+  "disclaimerBody": "Ayara itanga Imunirane z'Imana, Imusaruro, n'Ikintu cy'Ubuntu kugira ngo Mbaje Ubwiyunge bw'Imana.\n\nAyara ntitahinduza Ubwiyunge bw'Imana.\nNta subiza y'Iki App ntiyacyo gitanda kw'Abadinamini ba Imana. Niba ufuza Ikibazo ku Amahoro ya Imana cyangwa Ubwiyunge bwawe, Gushaka Umuntu w'Imana mu Karamu yawe.\n\nKi App ntikora Amahoro ya Imana.\nAyara ntiheza Icyo gikora cy'Ubwiyunge Bw'Imana. Icyo cyose Hano ntibera Fatwa cyangwa Amahoro ya Imana.\n\nUbwiyunge bwa Imana bushyikiranye.\nImana irimo Ibyiciro Byinshi, Ibwiyunge Byinshi, n'Ibishiranira bya Imana. Ikintu Hano bushyikira Inzira z'Umwanya n'Imana ntibera Ibyiciro Byose.\n\nKaramu n'Ubwiyunge.\nKi App iraba Ibwiyunge bw'Imana Karamu n'Imami zacu. Ibwiyunge bw'Imana rirakomerezamn Gufasha kandi Kuruta Imana mu Karamu zawe.",
   "disclaimerClose": "Niyibigeneye",
   "disclaimerInfoTooltip": "Kubyobojeire mu Inyigisho y'Iki App",
   "disclaimerSettingsSubtitle": "Kwa Ikintu cy'Ubwiyunge. Gusiga kugira Ikintu cyose.",

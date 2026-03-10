@@ -3,8 +3,8 @@ import 'dart:ui' show FontFeature;
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:nuria/l10n/app_localizations.dart';
-import 'package:nuria/features/limit/usage_service.dart';
+import 'package:ayara/l10n/app_localizations.dart';
+import 'package:ayara/features/limit/usage_service.dart';
 
 class AiLimitSection extends StatelessWidget {
   const AiLimitSection({super.key});
@@ -130,7 +130,7 @@ class AiLimitSection extends StatelessWidget {
         // progress = andel kvar (OK att den baseras på total, men texten visar bara remaining)
         final double remainingFraction = (remaining / total).clamp(0.0, 1.0);
 
-        // Nuria plan naming: "grace" | "blessed" | "guest"
+        // Ayara plan naming: "grace" | "blessed" | "guest"
         final bool isBlessed = usage.plan == 'blessed';
         final String planLabel = isBlessed ? t.planBlessed : t.planGrace;
 

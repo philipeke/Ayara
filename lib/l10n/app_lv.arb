@@ -1,7 +1,7 @@
 {
   "@@locale": "lv",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Izvēlieties savu valodu",
   "languageSelectSub": "Vēlāk to varat mainīt Iestatījumos",
@@ -83,7 +83,7 @@
   "close": "Aizvērt",
   "copiedToast": "Nokopēts uz starpliktuvē",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Pasta ziņojuma/kopīgošanas virsraksts, iekļaujot kategorijas iezīmi.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Šī ierīce ir jau saistīta ar citu kontu. Lūdzu pierakstieties ar sākotnējo kontu.",
 
   "premiumTitle": "Barakah režīms",
-  "premiumSubtitleBasic": "Atbloķējiet pilno Nuria pieredzi.",
+  "premiumSubtitleBasic": "Atbloķējiet pilno Ayara pieredzi.",
   "premiumSubtitleChampion": "Jūs esat Barakah. Nepieciešamas vairāk pārdome?",
 
   "premiumCurrentPlan": "Pašreizējais plāns: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Ielādē veikalu…",
 
   "blessedTitle": "Barakah režīms",
-  "blessedSubtitleGrace": "Atbloķējiet pilno Nuria pieredzi.",
+  "blessedSubtitleGrace": "Atbloķējiet pilno Ayara pieredzi.",
   "blessedSubtitleBlessed": "Jūs esat Barakah. Nepieciešamas vairāk pārdome?",
 
   "blessedCurrentPlan": "Pašreizējais plāns: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Jūs esat Standarta plānā ar starta pārdomes, un jūs esat sasnieguši robežu. Lai turpinātu — un atbloķētu prēmijas kategorijas — jauniniet uz Barakah.",
   "graceBlockedCtaGoBlessed": "Skatīt Barakah iespējas tālāk",
 
-  "rateGuestMustSignIn": "Pierakstieties, lai izmantotu Nuria un savus pārdomes.",
+  "rateGuestMustSignIn": "Pierakstieties, lai izmantotu Ayara un savus pārdomes.",
 
   "guestNoCreditsTitle": "Viesa režīms",
   "guestNoCreditsBody": "Kā viesis, jūs varat pārlūkot lietotni, bet nevarat izmantot pārdomes. Pierakstieties vēlāk Iestatījumos, lai izmantotu pārdomes un atbloķētu pirkumus.",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talhas ibn Ubaydullāh (RA)",
   "dailyRoleModel59": "Az-Zubayrs ibn al-Awwāms (RA)",
 
-  "locationConsentLabel": "Atļaut Nuria izmantot manu atrašanās vietu Qiblas virzienam un lūgšanas laikami",
+  "locationConsentLabel": "Atļaut Ayara izmantot manu atrašanās vietu Qiblas virzienam un lūgšanas laikami",
   "locationConsentHint": "Tiek izmantots tikai šiem līdzekļiem. Jūsu atrašanās vieta nekad netiek dalīta vai glabāta.",
 
-  "askPageTitle": "Jautājiet Nuria",
+  "askPageTitle": "Jautājiet Ayara",
   "askPageDescription": "Jautājiet jebko par ticību, lūgšanu, dzīvi vai islāma praksi un saņemiet vadlīnijas, kas iesakņota Korānā un Sunnāh.",
   "askPageInputHint": "Ierakstiet savu jautājumu šeit…",
   "askPageSubmitCta": "Jautāt",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Atrašanās vieta nepieciešama",
-  "qiblaLocationNeededBody": "Atļaut atrašanās vietas piekļuvi, lai Nuria varētu aprēķināt Kaabas virzienu Makkā no jebkura vieta, kur jūs esat.",
+  "qiblaLocationNeededBody": "Atļaut atrašanās vietas piekļuvi, lai Ayara varētu aprēķināt Kaabas virzienu Makkā no jebkura vieta, kur jūs esat.",
   "qiblaOpenSettings": "Atvērt Iestatījumus",
   "qiblaCompassLoading": "Atrod jūsu pozīciju…",
   "qiblaTowardMecca": "Pret Makku",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrībs",
   "prayerTimesIsha": "Ishā",
   "prayerTimesLocationNeededTitle": "Atrašanās vieta nepieciešama",
-  "prayerTimesLocationNeededBody": "Atļaut atrašanās vietas piekļuvi, lai Nuria varētu aprēķināt precīzus lūgšanas laikus jūsu pilsētai.",
+  "prayerTimesLocationNeededBody": "Atļaut atrašanās vietas piekļuvi, lai Ayara varētu aprēķināt precīzus lūgšanas laikus jūsu pilsētai.",
   "prayerTimesNextLabel": "Nākamais",
   "prayerTimesDoneLabel": "Gatavs",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Iespējot lūgšanas atgādinājumus",
   "prayerNotificationsOpenSettings": "Atvērt paziņojumu iestatījumus",
   "prayerNotificationsDenied": "Paziņojumi ir atspējoti",
-  "prayerNotificationsDeniedHint": "Dodieties uz Iestatījumiem un atļaujiet paziņojumus Nuria, lai saņemtu lūgšanas laiku atgādinājumus.",
+  "prayerNotificationsDeniedHint": "Dodieties uz Iestatījumiem un atļaujiet paziņojumus Ayara, lai saņemtu lūgšanas laiku atgādinājumus.",
 
   "notificationsConsentLabel": "Atļaut paziņojumus lūgšanas laikami",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Jūs esat noslēguši 99 Allāha atcerēšanu. Lai tie ir gaisma tavai sirdij.",
 
   "disclaimerTitle": "Par šīs lietotnes vadlīnijas",
-  "disclaimerBody": "Nuria sniedz islāma pārdomes, atgādinājumus un garīgo saturu, lai atbalstītu jūsu personīgā ticības ceļojuma. Šis saturs tiek sniegts tikai vispārējai informatīvi un inspirejoši nolūkam.\n\nNuria neaizstāj kvalificētu komandu.\nVadlīnijas šajā lietotnē nav aizstāvēta apmācītas islāma skolas, imāma, muftīja vai teoloģiski apmācīta skolotāja aizstāvēšana. Ja jums ir jautājumi par reliģiskiem noteikumiem, halāl un harāma jautājumiem vai personīgiem reliģiskiem pienākumiem, lūdzu vērsieties pie kvalificētas reliģiskas iestādes savā kopienā.\n\nŠī lietotne neizsniedz reliģiiskus noteikumus.\nNuria neveido autoritatīvus noteikumus fikhā (islāma jurisprudencē) vai personīgos reliģiski pienākumi. Nekas šeit netiks uzskatīts par fetvu vai obligātu reliģisku norādījumu.\n\nAkademiskās interpretācijas atšķiras.\nIslāms ietver bagātu tradīciju, domāšanas skolu (madhabs) un akadēmisko viedokļu daudzveidību. Saturs šajā lietotnē atspoguļo vispārīgās perspektīvas un var nevienlīdzīgi pārstāvēt katru tradīciju vai viņai vienlīdzīgu.\n\nKopiena ir svarīga.\nŠī lietotne ir paredzēta, lai veicinātu jūsu iesaistīšanu ticības tradīcijās, vienlaikus atzīstot būtiskas jūsu vietējās mošejas, imāma un reliģiskas kopienas lomu. Mēs iedrošinām jūs palikt savienotiem un mācīties no kvalificētiem skolotājiem jūsu tuvumā.",
+  "disclaimerBody": "Ayara sniedz islāma pārdomes, atgādinājumus un garīgo saturu, lai atbalstītu jūsu personīgā ticības ceļojuma. Šis saturs tiek sniegts tikai vispārējai informatīvi un inspirejoši nolūkam.\n\nAyara neaizstāj kvalificētu komandu.\nVadlīnijas šajā lietotnē nav aizstāvēta apmācītas islāma skolas, imāma, muftīja vai teoloģiski apmācīta skolotāja aizstāvēšana. Ja jums ir jautājumi par reliģiskiem noteikumiem, halāl un harāma jautājumiem vai personīgiem reliģiskiem pienākumiem, lūdzu vērsieties pie kvalificētas reliģiskas iestādes savā kopienā.\n\nŠī lietotne neizsniedz reliģiiskus noteikumus.\nAyara neveido autoritatīvus noteikumus fikhā (islāma jurisprudencē) vai personīgos reliģiski pienākumi. Nekas šeit netiks uzskatīts par fetvu vai obligātu reliģisku norādījumu.\n\nAkademiskās interpretācijas atšķiras.\nIslāms ietver bagātu tradīciju, domāšanas skolu (madhabs) un akadēmisko viedokļu daudzveidību. Saturs šajā lietotnē atspoguļo vispārīgās perspektīvas un var nevienlīdzīgi pārstāvēt katru tradīciju vai viņai vienlīdzīgu.\n\nKopiena ir svarīga.\nŠī lietotne ir paredzēta, lai veicinātu jūsu iesaistīšanu ticības tradīcijās, vienlaikus atzīstot būtiskas jūsu vietējās mošejas, imāma un reliģiskas kopienas lomu. Mēs iedrošinām jūs palikt savienotiem un mācīties no kvalificētiem skolotājiem jūsu tuvumā.",
   "disclaimerClose": "Es saprotu",
   "disclaimerInfoTooltip": "Par šīs lietotnes vadlīnijas",
   "disclaimerSettingsSubtitle": "Paredzēts tikai vispārējai informatīvi nolūkam. Pieskarieties, lai lasītu pilnu atbildi.",

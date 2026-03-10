@@ -1,7 +1,7 @@
 // lib/features/chat/presentation/widgets/result_app_bar.dart
 import 'package:flutter/material.dart';
-import 'package:nuria/l10n/app_localizations.dart';
-import 'package:nuria/core/config/theme.dart';
+import 'package:ayara/l10n/app_localizations.dart';
+import 'package:ayara/core/config/theme.dart';
 
 class ResultAppBar extends StatelessWidget implements PreferredSizeWidget {
   const ResultAppBar({
@@ -28,7 +28,7 @@ class ResultAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     final t = AppLocalizations.of(context)!;
 
-    // ✅ Nuria brand rule:
+    // ✅ Ayara brand rule:
     // Result badge ALWAYS uses brand gold (same as category icons)
     final Color categoryColor = AppColors.gold;
 

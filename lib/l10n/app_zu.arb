@@ -1,7 +1,7 @@
 {
   "@@locale": "zu",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Khetha ulimi lwakho",
   "languageSelectSub": "Ungakwazi ukushintsha lokhu kamuva ku-Settings",
@@ -83,7 +83,7 @@
   "close": "Vala",
   "copiedToast": "Kopwe ku-clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Idhevayisi lolu likhanye kule-akhawunti yenye. Ngena nge-akhawunti yoqalo.",
 
   "premiumTitle": "Uhlelo lwe-Barakah",
-  "premiumSubtitleBasic": "Vula okugcina kweNuria.",
+  "premiumSubtitleBasic": "Vula okugcina kweAyara.",
   "premiumSubtitleChampion": "Une-Barakah. Udinga okuthile okutsha?",
 
   "premiumCurrentPlan": "Uhlelo olusekelwayo: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Kulayida i-store…",
 
   "blessedTitle": "Uhlelo lwe-Barakah",
-  "blessedSubtitleGrace": "Vula okugcina kweNuria.",
+  "blessedSubtitleGrace": "Vula okugcina kweAyara.",
   "blessedSubtitleBlessed": "Une-Barakah. Udinga okuthile okutsha?",
 
   "blessedCurrentPlan": "Uhlelo olusekelwayo: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Une-Standard uhlelo kunesikhuselo zokuqala, futhi usifinyele umkhela. Ukuze uqhubeke — kanye uvule amahlobo akuthshenziseka — uthuthukisele ku-Barakah.",
   "graceBlockedCtaGoBlessed": "Buka okukhethwayo kwe-Barakah ngezansi",
 
-  "rateGuestMustSignIn": "Ngena ukuze usebenzise uNuria kanye izikhuselo zakho.",
+  "rateGuestMustSignIn": "Ngena ukuze usebenzise uAyara kanye izikhuselo zakho.",
 
   "guestNoCreditsTitle": "Indlela yokumangcembe",
   "guestNoCreditsBody": "Njengomuntu owelula ungakwazi ukubheka i-app, kodwa awukwazi ukusebenzisa izikhuselo. Ngena kamuva ku-Settings ukuze usebenzise izikhuselo kanye ululule okuthenga.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Vumela u-Nuria ukusetshenzisa indawo yami kuQibla nomkhuba wemikhuleko",
+  "locationConsentLabel": "Vumela u-Ayara ukusetshenzisa indawo yami kuQibla nomkhuba wemikhuleko",
   "locationConsentHint": "Kusetshenziswa kuphela kumahlobo. Indawo yakho ayifakeli noma ikhonqwe.",
 
-  "askPageTitle": "Ulisa u-Nuria",
+  "askPageTitle": "Ulisa u-Ayara",
   "askPageDescription": "Ulise okuthile mayelana neiman, imikhuleko, impilo, noma isiko lika-Islamic kanye uthole ikhethelo okumiswe ku-Qur'an kanye neSunnah.",
   "askPageInputHint": "Loba umbuzo wakho…",
   "askPageSubmitCta": "Ulisa",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Indawo idingekile",
-  "qiblaLocationNeededBody": "Vumela ukufinyelela endaweni ukuze u-Nuria akwazi ukulinganisa isalela seKaaba e-Makkah lapho ulele khona.",
+  "qiblaLocationNeededBody": "Vumela ukufinyelela endaweni ukuze u-Ayara akwazi ukulinganisa isalela seKaaba e-Makkah lapho ulele khona.",
   "qiblaOpenSettings": "Vula imihlelo",
   "qiblaCompassLoading": "Ifuna indawo yakho…",
   "qiblaTowardMecca": "Ubheke e-Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Indawo idingekile",
-  "prayerTimesLocationNeededBody": "Vumela ukufinyelela endaweni ukuze u-Nuria akwazi ukulinganisa isikhathi semikhuleko esenele kumuzi wakho.",
+  "prayerTimesLocationNeededBody": "Vumela ukufinyelela endaweni ukuze u-Ayara akwazi ukulinganisa isikhathi semikhuleko esenele kumuzi wakho.",
   "prayerTimesNextLabel": "Okulandelayo",
   "prayerTimesDoneLabel": "Sekuqedile",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Kulula umsolo wemikhuleko",
   "prayerNotificationsOpenSettings": "Vula imihlelo yomsolo",
   "prayerNotificationsDenied": "Izimasolo ziqhumule",
-  "prayerNotificationsDeniedHint": "Yea ku-Settings kanye vumela izimasolo ze-Nuria ukuze wamukele umsolo wesikathi semikhuleko.",
+  "prayerNotificationsDeniedHint": "Yea ku-Settings kanye vumela izimasolo ze-Ayara ukuze wamukele umsolo wesikathi semikhuleko.",
 
   "notificationsConsentLabel": "Vumela izimasolo kumikhuleko",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Seqedisile izikhuselo ezingama-99 zoAllah. Ngapela zibe okukhanya kwenhliziyo yakho.",
 
   "disclaimerTitle": "Mayelana nekhethelo lesi-app",
-  "disclaimerBody": "U-Nuria unikeza izikhuselo ze-Islamic, izikhumbulo, kanye okusesikholo okusizakala ekuhambi kwakho kweiman. Lokhu okusesikholo kunikeza ngenhloso yokuziwa nokunethezeka kuphela.\n\nU-Nuria awubuyeli ulwazi oluzinhlobonhlobo.\nIkhethelo ku-app lolu ayisimonakelo somlizali osesichazamthethweni, imam, mufti, noma umfundisi obambe ikhaya. Uma une-imibuzo mayelana nokutshela kwabantu kaAllah, halal noma haram, noma okudingelwa umuntu, ngubani umlizali onesichazamthethweni owesichazamthethweni esikhalweni sakho.\n\nI-app lolu ayifakeli olwazi olunokushona.\nU-Nuria ayenza okushona olunokushona mayelana nokubudonda (Islamic jurisprudence) noma okudingelwa umuntu. Lokho laphakathi ayingumuntu owanele kumuntu noma okudingelwa umlizali.\n\nUkuhlakanipha kwesichazamthethweni kunokuhlobuka.\nI-Islam iqukethe ubuhle obuningi bokwethulela, izikole zokucabanga (madhabs), kanye nomqondo wesichazamthethweni. Okusesikholo ku-app lekunabububezi kumuntu beneral kanye awungamele isikole noma isiko ngasinye.\n\nAmasiko ayabalulekile.\nI-app lolu ifuna ukuthuthukisa inkuleka yakho sezikole okusesikholo ngokuze uhonore umlumelwano wemosikwini wakho, imam, kanye nesikhole samasiko. Siyakubangela wena uhlale naye kanye ufunde ezintsha umlizali oselengu-qualified kusikole lakho.",
+  "disclaimerBody": "U-Ayara unikeza izikhuselo ze-Islamic, izikhumbulo, kanye okusesikholo okusizakala ekuhambi kwakho kweiman. Lokhu okusesikholo kunikeza ngenhloso yokuziwa nokunethezeka kuphela.\n\nU-Ayara awubuyeli ulwazi oluzinhlobonhlobo.\nIkhethelo ku-app lolu ayisimonakelo somlizali osesichazamthethweni, imam, mufti, noma umfundisi obambe ikhaya. Uma une-imibuzo mayelana nokutshela kwabantu kaAllah, halal noma haram, noma okudingelwa umuntu, ngubani umlizali onesichazamthethweni owesichazamthethweni esikhalweni sakho.\n\nI-app lolu ayifakeli olwazi olunokushona.\nU-Ayara ayenza okushona olunokushona mayelana nokubudonda (Islamic jurisprudence) noma okudingelwa umuntu. Lokho laphakathi ayingumuntu owanele kumuntu noma okudingelwa umlizali.\n\nUkuhlakanipha kwesichazamthethweni kunokuhlobuka.\nI-Islam iqukethe ubuhle obuningi bokwethulela, izikole zokucabanga (madhabs), kanye nomqondo wesichazamthethweni. Okusesikholo ku-app lekunabububezi kumuntu beneral kanye awungamele isikole noma isiko ngasinye.\n\nAmasiko ayabalulekile.\nI-app lolu ifuna ukuthuthukisa inkuleka yakho sezikole okusesikholo ngokuze uhonore umlumelwano wemosikwini wakho, imam, kanye nesikhole samasiko. Siyakubangela wena uhlale naye kanye ufunde ezintsha umlizali oselengu-qualified kusikole lakho.",
   "disclaimerClose": "Ngiyaqonda",
   "disclaimerInfoTooltip": "Mayelana nekhethelo lesi-app",
   "disclaimerSettingsSubtitle": "Kumayelana nokuziwa kuphela. Thinta ukuze ufunde ichibi lonke.",

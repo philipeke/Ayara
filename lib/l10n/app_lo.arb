@@ -1,7 +1,7 @@
 {
   "@@locale": "lo",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "ເລືອກພາษາຂອງທ່ານ",
   "languageSelectSub": "ທ່ານສາມາດປ່ຽນແປງນີ້ໄດ້ໃນພາຍຸ",
@@ -83,7 +83,7 @@
   "close": "ປິດ",
   "copiedToast": "ສຳເນົາໄປຫາຄຳທີ່ເກັບເກັບ",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "ອຸປະກອນນີ້ໄດ້ຖືກເຊື່ອມຕໍ່ກັບບັນຊີອື່ນແລ້ວ. ກະລຸນາເຂົ້າສູ່ລະບົບດ້ວຍບັນຊີຕົ້ນສະບັບ.",
 
   "premiumTitle": "ບາຣາກາ ໂຫມ",
-  "premiumSubtitleBasic": "ປົດລັອກ Nuria ສົມບູນ.",
+  "premiumSubtitleBasic": "ປົດລັອກ Ayara ສົມບູນ.",
   "premiumSubtitleChampion": "ທ່ານເປັນບາຣາກາ. ຕ້ອງການເພີ່ມເຕີມບໍ?",
 
   "premiumCurrentPlan": "ແຜນປະຈຸບັນ: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "ກຳລັງໂຫລດຮ້ານ…",
 
   "blessedTitle": "ບາຣາກາ ໂຫມ",
-  "blessedSubtitleGrace": "ປົດລັອກ Nuria ສົມບູນ.",
+  "blessedSubtitleGrace": "ປົດລັອກ Ayara ສົມບູນ.",
   "blessedSubtitleBlessed": "ທ່ານເປັນບາຣາກາ. ຕ້ອງການເພີ່ມເຕີມບໍ?",
 
   "blessedCurrentPlan": "ແຜນປະຈຸບັນ: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "ທ່ານໃຊ້ແຜນມາດຕະຖານກັບການສະທ້ອນໃຈເລີ່ມຕົ້ນ ແລະ ທ່ານໄດ້ຄົ້ນຮອບ. ເພື່ອສືບຕໍ່ — ແລະ ປົດລັອກໂບນັສ — ອັບເກເດດເປັນບາຣາກາ.",
   "graceBlockedCtaGoBlessed": "ເບິ່ງທາງເລືອກບາຣາກາຂ້າງລຸ່ມ",
 
-  "rateGuestMustSignIn": "ເຂົ້າສູ່ລະບົບເພື່ອໃຊ້ Nuria ແລະ ການສະທ້ອນໃຈຂອງທ່ານ.",
+  "rateGuestMustSignIn": "ເຂົ້າສູ່ລະບົບເພື່ອໃຊ້ Ayara ແລະ ການສະທ້ອນໃຈຂອງທ່ານ.",
 
   "guestNoCreditsTitle": "ໂຫມແຂກ",
   "guestNoCreditsBody": "ໃນຖານະແຂກທ່ານສາມາດອ່ານແອບ, ແຕ່ທ່ານບໍ່ສາມາດໃຊ້ການສະທ້ອນໃຈ. ເຂົ້າສູ່ລະບົບພາຍຸໃນການຕັ້ງຄ່າເພື່ອໃຊ້ການສະທ້ອນໃຈ ແລະ ປົດລັອກການຊື້.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "ອະນຸຍາດ Nuria ໃຫ້ໃຊ້ສະຖານທີ່ຂອງຂ້ອຍສໍາລັບ Qibla ແລະ ການກຳນົດເວລາອະທິຖານ",
+  "locationConsentLabel": "ອະນຸຍາດ Ayara ໃຫ້ໃຊ້ສະຖານທີ່ຂອງຂ້ອຍສໍາລັບ Qibla ແລະ ການກຳນົດເວລາອະທິຖານ",
   "locationConsentHint": "ໃຊ້ສໍາລັບລັກສະນະເທົ່ານີ້. ສະຖານທີ່ຂອງທ່ານບໍ່ມີການແບ່ງປັນ ຫຼື ບັນທຶກ.",
 
-  "askPageTitle": "ຖາມ Nuria",
+  "askPageTitle": "ຖາມ Ayara",
   "askPageDescription": "ຖາມທຸກຢ່າງກ່ຽວກັບຄວາມເຊື່ອ, ການອະທິຖານ, ຊີວິດ, ຫຼື ປະຕິບັติ Islamic ແລະ ຮັບຄໍາແນະນໍາທີ່ຮາກຖານຈາກ Quran ແລະ Sunnah.",
   "askPageInputHint": "ພິມຄໍາຖາມຂອງທ່ານບ້ານີ້…",
   "askPageSubmitCta": "ຖາມ",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "ສະຖານທີ່ທີ່ຕ້ອງການ",
-  "qiblaLocationNeededBody": "ອະນຸຍາດເສັນທາງສະຖານທີ່ເພື່ອໃຫ້ Nuria ຄຳນວນທິດ Kaaba ໃນ Makkah ຈາກບ່ອນທີ່ທ່ານມີ.",
+  "qiblaLocationNeededBody": "ອະນຸຍາດເສັນທາງສະຖານທີ່ເພື່ອໃຫ້ Ayara ຄຳນວນທິດ Kaaba ໃນ Makkah ຈາກບ່ອນທີ່ທ່ານມີ.",
   "qiblaOpenSettings": "ເປີດການຕັ້ງຄ່າ",
   "qiblaCompassLoading": "ຊອກຫາຕໍາແໜ່ງຂອງທ່ານ…",
   "qiblaTowardMecca": "ສຸ່ມ Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "ສະຖານທີ່ທີ່ຕ້ອງການ",
-  "prayerTimesLocationNeededBody": "ອະນຸຍາດເສັນທາງສະຖານທີ່ເພື່ອໃຫ້ Nuria ຄຳນວນເວລາອະທິຖານທີ່ຖືກຕ້ອງສໍາລັບເມືອງຂອງທ່ານ.",
+  "prayerTimesLocationNeededBody": "ອະນຸຍາດເສັນທາງສະຖານທີ່ເພື່ອໃຫ້ Ayara ຄຳນວນເວລາອະທິຖານທີ່ຖືກຕ້ອງສໍາລັບເມືອງຂອງທ່ານ.",
   "prayerTimesNextLabel": "ຕໍ່ໄປ",
   "prayerTimesDoneLabel": "ສໍາເລັດ",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "ເປີດໃຊ້ໂຕ້ແຍ້ງກ່ຽວກັບການອະທິຖານ",
   "prayerNotificationsOpenSettings": "ເປີດການຕັ້ງຄ່າແຈ້ງເຕືອນ",
   "prayerNotificationsDenied": "ແຈ້ງເຕືອນແມ່ນບໍ່ໄດ້ຮັບອະນຸຍາດ",
-  "prayerNotificationsDeniedHint": "ໄປທີ່ການຕັ້ງຄ່າ ແລະ ອະນຸຍາດແຈ້ງເຕືອນສໍາລັບ Nuria ເພື່ອໄດ້ຮັບໂຕ້ແຍ້ງກ່ຽວກັບເວລາອະທິຖານ.",
+  "prayerNotificationsDeniedHint": "ໄປທີ່ການຕັ້ງຄ່າ ແລະ ອະນຸຍາດແຈ້ງເຕືອນສໍາລັບ Ayara ເພື່ອໄດ້ຮັບໂຕ້ແຍ້ງກ່ຽວກັບເວລາອະທິຖານ.",
 
   "notificationsConsentLabel": "ອະນຸຍາດແຈ້ງເຕືອນສໍາລັບເວລາອະທິຖານ",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "ທ່ານໄດ້ສໍາເລັດ 99 ຄໍາຈໍາໂລມຂອງ Allah. ອາດຈະເປັນໂປໄລ່ສໍາລັບຫົວໃຈຂອງທ່ານ.",
 
   "disclaimerTitle": "ກ່ຽວກັບຄໍາແນະນໍາຂອງແອບນີ້",
-  "disclaimerBody": "Nuria ສະໜອງການສະທ້ອນໃຈ Islamic, ໂຕ້ແຍ້ງ, ແລະ ເນື້ອໃຈ ທາງວິນ໌ຍາກຟຸ້ງເພື່ອສະຫນັບສະຫນູນປະເທດຍາວຂອງທ່ານ. ເນື້ອໄດ້ສະໜອງສໍາລັບໍລະການຊົ່ວໂມງ ແລະ ໍລະການ.\n\nNuria ບໍ່ສະແທນວ່າວຸດທິສາກ.\nຄໍາແນະນໍາໃນແອບນີ້ບໍ່ໃຊ່ທໍາໃດໆສໍາລັບ Islamic ຄົນສຶກສາ, imam, mufti, ຫຼື ລະດັບທາງ. ຖ້າທ່ານມີຄໍາຖາມກ່ຽວກັບສາກສະລາວະ, ວິຫາກ ແລະ haram, ຫຼື ປະມາມກະຕິສກັກກະ, ກະລຸນາຊອກຫາຄໍາແນະນໍາຈາກຜູ້ວ່າຍາວກົດໃນຊຸມຊົນຂອງທ່ານ.\n\nແອບນີ້ບໍ່ໃຫ້ການກໍາ hukm.\nNuria ບໍ່ເຮັດໃຫ້ຫົວໃຈຜູ້ວາຍາວກົດກ່ຽວກັບປະມາມ fiqh ຫຼື ປະມາມ Islamic ສະກັກກະ. ບໍ່ມີສິ່ງໃດທີ່ຕ້ອງຕີຄວາມວ່າເປັນ fatwa ຫຼື ສັ່ງສອນ Islamic ທີ່ຜູກພັນ.\n\nລະດັບວຸດທິວຽວວ່າວ.\nIslam ປະກອບມີຄວາມສົມບູນກ່ໍາ, ໂຣະກະສາກະ, ແລະ ໂຮງຮຽນຂອງຄໍາປຳກັຈ (madhabs) ຫລື ຄວາມເຫັນວາຍາວກົດ. ເນື້ອໃຈໃນແອບນີ້ສະທ້ອນໃຈໍລະການທົ່ວໄປ ແລະ ບໍ່ສາມາດຕັກໍາໍາສະດຸກລະດັບ ຫຼື ໂຮງຮຽນເທົ່າທຽມ.\n\nຊຸມຊົນທີ່ຮັກຟັງຣັກ.\nແອບນີ້ຕຳໃຈທີ່ຈະກະຕຸ້ນການເຂົ້າຮ່ວມຂອງທ່ານກັບປະເພນີວິນ໌ຍາກໃນຂະນະທີ່ກົດກຽວກັບບົດບາດທີ່ສຳຄັນຂອງ mosque ທ້ອງຖິ່ນ, imam, ແລະ ຊຸມຊົນວິນ໌ຍາກຂອງທ່ານ. ພວກເຮົາຍົກລຸກໃຫ້ທ່ານຢູ່ເຊື່ອມຕໍ່ ແລະ ຮຽນຮູ້ຈາກຄົນສຶກສາທີ່ວ່າຍາວກົດຢູ່ບ້ານທ່ານ.",
+  "disclaimerBody": "Ayara ສະໜອງການສະທ້ອນໃຈ Islamic, ໂຕ້ແຍ້ງ, ແລະ ເນື້ອໃຈ ທາງວິນ໌ຍາກຟຸ້ງເພື່ອສະຫນັບສະຫນູນປະເທດຍາວຂອງທ່ານ. ເນື້ອໄດ້ສະໜອງສໍາລັບໍລະການຊົ່ວໂມງ ແລະ ໍລະການ.\n\nAyara ບໍ່ສະແທນວ່າວຸດທິສາກ.\nຄໍາແນະນໍາໃນແອບນີ້ບໍ່ໃຊ່ທໍາໃດໆສໍາລັບ Islamic ຄົນສຶກສາ, imam, mufti, ຫຼື ລະດັບທາງ. ຖ້າທ່ານມີຄໍາຖາມກ່ຽວກັບສາກສະລາວະ, ວິຫາກ ແລະ haram, ຫຼື ປະມາມກະຕິສກັກກະ, ກະລຸນາຊອກຫາຄໍາແນະນໍາຈາກຜູ້ວ່າຍາວກົດໃນຊຸມຊົນຂອງທ່ານ.\n\nແອບນີ້ບໍ່ໃຫ້ການກໍາ hukm.\nAyara ບໍ່ເຮັດໃຫ້ຫົວໃຈຜູ້ວາຍາວກົດກ່ຽວກັບປະມາມ fiqh ຫຼື ປະມາມ Islamic ສະກັກກະ. ບໍ່ມີສິ່ງໃດທີ່ຕ້ອງຕີຄວາມວ່າເປັນ fatwa ຫຼື ສັ່ງສອນ Islamic ທີ່ຜູກພັນ.\n\nລະດັບວຸດທິວຽວວ່າວ.\nIslam ປະກອບມີຄວາມສົມບູນກ່ໍາ, ໂຣະກະສາກະ, ແລະ ໂຮງຮຽນຂອງຄໍາປຳກັຈ (madhabs) ຫລື ຄວາມເຫັນວາຍາວກົດ. ເນື້ອໃຈໃນແອບນີ້ສະທ້ອນໃຈໍລະການທົ່ວໄປ ແລະ ບໍ່ສາມາດຕັກໍາໍາສະດຸກລະດັບ ຫຼື ໂຮງຮຽນເທົ່າທຽມ.\n\nຊຸມຊົນທີ່ຮັກຟັງຣັກ.\nແອບນີ້ຕຳໃຈທີ່ຈະກະຕຸ້ນການເຂົ້າຮ່ວມຂອງທ່ານກັບປະເພນີວິນ໌ຍາກໃນຂະນະທີ່ກົດກຽວກັບບົດບາດທີ່ສຳຄັນຂອງ mosque ທ້ອງຖິ່ນ, imam, ແລະ ຊຸມຊົນວິນ໌ຍາກຂອງທ່ານ. ພວກເຮົາຍົກລຸກໃຫ້ທ່ານຢູ່ເຊື່ອມຕໍ່ ແລະ ຮຽນຮູ້ຈາກຄົນສຶກສາທີ່ວ່າຍາວກົດຢູ່ບ້ານທ່ານ.",
   "disclaimerClose": "ຂ້າພະເຈົ້າເຂົ້າໃຈ",
   "disclaimerInfoTooltip": "ກ່ຽວກັບຄໍາແນະນໍາຂອງແອບນີ້",
   "disclaimerSettingsSubtitle": "ສໍາລັບໍລະການຊົ່ວໂມງທົ່ວໄປຕົ້ນສະບັບ. ແຕະເພື່ອອ່ານ disclaimer ທັງໝົດ.",

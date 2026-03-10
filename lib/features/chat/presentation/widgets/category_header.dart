@@ -1,9 +1,9 @@
 // lib/features/chat/presentation/widgets/category_header.dart
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:nuria/core/config/theme.dart';
-import 'package:nuria/l10n/app_localizations.dart';
-import 'package:nuria/features/limit/usage_service.dart';
+import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/l10n/app_localizations.dart';
+import 'package:ayara/features/limit/usage_service.dart';
 
 class CategoryHeader extends StatefulWidget implements PreferredSizeWidget {
   const CategoryHeader({super.key, this.showTitle = true});

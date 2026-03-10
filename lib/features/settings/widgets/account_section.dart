@@ -2,8 +2,8 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
-import 'package:nuria/core/config/theme.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class AccountSection extends StatelessWidget {
   const AccountSection({

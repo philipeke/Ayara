@@ -1,7 +1,7 @@
 {
   "@@locale": "da",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Vælg dit sprog",
   "languageSelectSub": "Du kan ændre dette senere i Indstillinger",
@@ -83,7 +83,7 @@
   "close": "Luk",
   "copiedToast": "Kopieret til udklipsholder",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Denne enhed er allerede knyttet til en anden konto. Log venligst ind med den oprindelige konto.",
 
   "premiumTitle": "Barakah-tilstand",
-  "premiumSubtitleBasic": "Lås op for den fulde Nuria-oplevelse.",
+  "premiumSubtitleBasic": "Lås op for den fulde Ayara-oplevelse.",
   "premiumSubtitleChampion": "Du er Barakah. Har du brug for flere refleksioner?",
 
   "premiumCurrentPlan": "Nuværende plan: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Indlæser butik…",
 
   "blessedTitle": "Barakah-tilstand",
-  "blessedSubtitleGrace": "Lås op for den fulde Nuria-oplevelse.",
+  "blessedSubtitleGrace": "Lås op for den fulde Ayara-oplevelse.",
   "blessedSubtitleBlessed": "Du er Barakah. Har du brug for flere refleksioner?",
 
   "blessedCurrentPlan": "Nuværende plan: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Du er på Standard-planen med starterrefleksioner, og du har nået grænsen. For at fortsætte – og låse op for premium-kategorier – opgrader til Barakah.",
   "graceBlockedCtaGoBlessed": "Se Barakah-indstillinger nedenfor",
 
-  "rateGuestMustSignIn": "Log ind for at bruge Nuria og dine refleksioner.",
+  "rateGuestMustSignIn": "Log ind for at bruge Ayara og dine refleksioner.",
 
   "guestNoCreditsTitle": "Gæstetilstand",
   "guestNoCreditsBody": "Som gæst kan du browse appen, men du kan ikke bruge refleksioner. Log ind senere i Indstillinger for at bruge refleksioner og låse op for køb.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Tillad Nuria at bruge min placering til Qibla-retning og bøntider",
+  "locationConsentLabel": "Tillad Ayara at bruge min placering til Qibla-retning og bøntider",
   "locationConsentHint": "Bruges kun til disse funktioner. Din placering deles eller lagres aldrig.",
 
-  "askPageTitle": "Spørg Nuria",
+  "askPageTitle": "Spørg Ayara",
   "askPageDescription": "Spørg hvad som helst om tro, bøn, liv eller islamisk praksis og modtag vejledning forankret i Koranen og Sunnahen.",
   "askPageInputHint": "Skriv dit spørgsmål her…",
   "askPageSubmitCta": "Spørg",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Placering påkrævet",
-  "qiblaLocationNeededBody": "Tillad placeringsadgang, så Nuria kan beregne retningen af Kaabah i Makkah fra, hvor du er.",
+  "qiblaLocationNeededBody": "Tillad placeringsadgang, så Ayara kan beregne retningen af Kaabah i Makkah fra, hvor du er.",
   "qiblaOpenSettings": "Åbn indstillinger",
   "qiblaCompassLoading": "Finder din position…",
   "qiblaTowardMecca": "Mod Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Placering påkrævet",
-  "prayerTimesLocationNeededBody": "Tillad placeringsadgang, så Nuria kan beregne nøjagtige bøntider til din by.",
+  "prayerTimesLocationNeededBody": "Tillad placeringsadgang, så Ayara kan beregne nøjagtige bøntider til din by.",
   "prayerTimesNextLabel": "Næste",
   "prayerTimesDoneLabel": "Udført",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Aktivér bønpåmindelser",
   "prayerNotificationsOpenSettings": "Åbn notifikationsindstillinger",
   "prayerNotificationsDenied": "Notifikationer er deaktiveret",
-  "prayerNotificationsDeniedHint": "Gå til Indstillinger og tillad notifikationer til Nuria for at modtage påmindelser om bøntid.",
+  "prayerNotificationsDeniedHint": "Gå til Indstillinger og tillad notifikationer til Ayara for at modtage påmindelser om bøntid.",
 
   "notificationsConsentLabel": "Tillad notifikationer til bøntider",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Du har afsluttet 99 hukommelser til Allah. Måske de være et lys til dit hjerte.",
 
   "disclaimerTitle": "Om denne apps vejledning",
-  "disclaimerBody": "Nuria giver islamiske refleksioner, påmindelser og åndelig indhold til at støtte dit personlige trossprog. Dette indhold tilbydes kun til generelle oplysnings- og inspirationsformål.\n\nNuria erstatter ikke kvalificeret læring.\nVejledningen i denne app er ikke en erstatning for en lærdet islamisk lærd, imam, mufti eller teologisk uddannet lærer. Hvis du har spørgsmål om religiøse afgørelser, halal og haram-spørgsmål eller personlige religiøse forpligtelser, søg venligst råd fra en kvalificeret religiøs myndighed i dit samfund.\n\nDenne app udsender ikke religiøse afgørelser.\nNuria foretager ikke autoritative afgørelser om fiqh-forhold (islamisk jurisprudens) eller personlige religiøse forpligtelser. Intet her skal behandles som en fatwa eller bindende religiøs instruktion.\n\nErkendelse af lærde fortolkninger varierer.\nIslam omfatter en rig mangfoldighed af traditioner, tankeskoler (madhabs) og lærde meninger. Indhold i denne app afspejler generelle perspektiver og repræsenterer muligvis ikke hver tradition eller skole lige meget.\n\nGemenskab betyder meget.\nDenne app sigter mod at tilskynde dit engagement med trostraditionen, samtidig med at der dybt respekteres den vigtige rolle, som din lokale moske, imam og religiøse samfund spiller. Vi opfordrer dig til at forblive forbundet og lær af kvalificerede lærere tæt på dig.",
+  "disclaimerBody": "Ayara giver islamiske refleksioner, påmindelser og åndelig indhold til at støtte dit personlige trossprog. Dette indhold tilbydes kun til generelle oplysnings- og inspirationsformål.\n\nAyara erstatter ikke kvalificeret læring.\nVejledningen i denne app er ikke en erstatning for en lærdet islamisk lærd, imam, mufti eller teologisk uddannet lærer. Hvis du har spørgsmål om religiøse afgørelser, halal og haram-spørgsmål eller personlige religiøse forpligtelser, søg venligst råd fra en kvalificeret religiøs myndighed i dit samfund.\n\nDenne app udsender ikke religiøse afgørelser.\nAyara foretager ikke autoritative afgørelser om fiqh-forhold (islamisk jurisprudens) eller personlige religiøse forpligtelser. Intet her skal behandles som en fatwa eller bindende religiøs instruktion.\n\nErkendelse af lærde fortolkninger varierer.\nIslam omfatter en rig mangfoldighed af traditioner, tankeskoler (madhabs) og lærde meninger. Indhold i denne app afspejler generelle perspektiver og repræsenterer muligvis ikke hver tradition eller skole lige meget.\n\nGemenskab betyder meget.\nDenne app sigter mod at tilskynde dit engagement med trostraditionen, samtidig med at der dybt respekteres den vigtige rolle, som din lokale moske, imam og religiøse samfund spiller. Vi opfordrer dig til at forblive forbundet og lær af kvalificerede lærere tæt på dig.",
   "disclaimerClose": "Jeg forstår",
   "disclaimerInfoTooltip": "Om denne apps vejledning",
   "disclaimerSettingsSubtitle": "Til generelle informationsformål kun. Tryk for at læse den fulde ansvarsfraskrivelse.",

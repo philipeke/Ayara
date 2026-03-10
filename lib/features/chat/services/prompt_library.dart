@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:nuria/l10n/app_localizations.dart';
-import 'package:nuria/features/chat/presentation/utils/category_data.dart';
+import 'package:ayara/l10n/app_localizations.dart';
+import 'package:ayara/features/chat/presentation/utils/category_data.dart';
 
 class PromptLibrary {
   PromptLibrary._();
@@ -70,7 +70,7 @@ class PromptLibrary {
         return t.promptEveningReflection;
 
       default:
-        // If legacy ids still come through (old Nuria ids), route them to something safe.
+        // If legacy ids still come through (old Ayara ids), route them to something safe.
         // We intentionally avoid any "tipsy" language.
         return t.promptDailyGuidance;
     }

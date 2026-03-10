@@ -7,13 +7,13 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:nuria/features/auth/widgets/ai_wave_loader.dart';
-import 'package:nuria/features/auth/controllers/auth_gate_controller.dart';
+import 'package:ayara/features/auth/widgets/ai_wave_loader.dart';
+import 'package:ayara/features/auth/controllers/auth_gate_controller.dart';
 
-import 'package:nuria/features/chat/presentation/screens/category_screen.dart';
-import 'package:nuria/features/limit/usage_refresh_service.dart';
-import 'package:nuria/features/qibla/services/prayer_notification_service.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/features/chat/presentation/screens/category_screen.dart';
+import 'package:ayara/features/limit/usage_refresh_service.dart';
+import 'package:ayara/features/qibla/services/prayer_notification_service.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class AuthGateScreen extends StatefulWidget {
   const AuthGateScreen({super.key});
@@ -40,9 +40,9 @@ class _AuthGateScreenState extends State<AuthGateScreen> {
   bool get _isIos => !kIsWeb && Platform.isIOS;
   bool get _isAndroid => !kIsWeb && Platform.isAndroid;
 
-  // ✅ Policy URLs (Nuria)
-  static const String _privacyUrl = 'https://nuria.oakdev.app/privacy/';
-  static const String _termsUrl = 'https://nuria.oakdev.app/terms/';
+  // ✅ Policy URLs (Ayara)
+  static const String _privacyUrl = 'https://ayara.oakdev.app/privacy/';
+  static const String _termsUrl = 'https://ayara.oakdev.app/terms/';
 
   void _snack(String msg) =>
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(msg)));

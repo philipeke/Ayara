@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class PolicyScreen extends StatefulWidget {
   final bool isTerms;
@@ -21,8 +21,8 @@ class _PolicyScreenState extends State<PolicyScreen> {
     m.showSnackBar(SnackBar(content: Text(msg)));
   }
 
-  static const String _privacyUrl = 'https://nuria.oakdev.app/privacy/';
-  static const String _termsUrl = 'https://nuria.oakdev.app/terms/';
+  static const String _privacyUrl = 'https://ayara.oakdev.app/privacy/';
+  static const String _termsUrl = 'https://ayara.oakdev.app/terms/';
 
   Uri _policyUri({required bool isTerms}) {
     return Uri.parse(isTerms ? _termsUrl : _privacyUrl);

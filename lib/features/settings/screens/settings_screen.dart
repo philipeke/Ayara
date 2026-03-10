@@ -4,10 +4,10 @@ import 'package:flutter/foundation.dart' show kIsWeb, kDebugMode;
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-import 'package:nuria/l10n/app_localizations.dart';
-import 'package:nuria/features/limit/usage_service.dart';
+import 'package:ayara/l10n/app_localizations.dart';
+import 'package:ayara/features/limit/usage_service.dart';
 
-import 'package:nuria/features/settings/controllers/settings_controller.dart';
+import 'package:ayara/features/settings/controllers/settings_controller.dart';
 
 import '../widgets/language_section.dart';
 import '../widgets/account_section.dart';
@@ -16,9 +16,9 @@ import '../widgets/guidance_disclaimer_section.dart';
 import '../widgets/free_plan_blocked_notice.dart';
 import '../widgets/ai_limit_section.dart';
 
-import 'package:nuria/features/premium/purchase_controller.dart';
-import 'package:nuria/features/premium/widgets/premium_section.dart' as premium;
-import 'package:nuria/features/premium/widgets/restore_purchases_section.dart'
+import 'package:ayara/features/premium/purchase_controller.dart';
+import 'package:ayara/features/premium/widgets/premium_section.dart' as premium;
+import 'package:ayara/features/premium/widgets/restore_purchases_section.dart'
     as restore;
 
 class SettingsScreen extends StatefulWidget {

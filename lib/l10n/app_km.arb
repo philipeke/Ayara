@@ -1,7 +1,7 @@
 {
   "@@locale": "km",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "ជ្រើសរើសភាษារបស់អ្នក",
   "languageSelectSub": "អ្នកអាចផ្លាស់ប្តូរវាលក្រោយមកទៀតក្នុងការកំណត់",
@@ -83,7 +83,7 @@
   "close": "បិទ",
   "copiedToast": "ថតលម្អិតទៅក្នុង clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "ឧបករណ៍នេះត្រូវបានចងក្រង់ជាមួយគណនីផ្សេងទៀត។ សូមចូលជាមួយគណនីដើម។",
 
   "premiumTitle": "Barakah mode",
-  "premiumSubtitleBasic": "បើកការប្រើប្រាស់ Nuria ឬមតិយ៉ាង។",
+  "premiumSubtitleBasic": "បើកការប្រើប្រាស់ Ayara ឬមតិយ៉ាង។",
   "premiumSubtitleChampion": "អ្នកគឺ Barakah។ ត្រូវការលម្អិតលម្អិតច្រើនទៀត?",
 
   "premiumCurrentPlan": "ផែនការបច្ចុប្បន្ន៖ {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "កំពុងផ្ទុកហាង…",
 
   "blessedTitle": "Barakah mode",
-  "blessedSubtitleGrace": "បើកការប្រើប្រាស់ Nuria ឬមតិយ៉ាង។",
+  "blessedSubtitleGrace": "បើកការប្រើប្រាស់ Ayara ឬមតិយ៉ាង។",
   "blessedSubtitleBlessed": "អ្នកគឺ Barakah។ ត្រូវការលម្អិតលម្អិតច្រើនទៀត?",
 
   "blessedCurrentPlan": "ផែនការបច្ចុប្បន្ន៖ {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "អ្នកក្នុងផែនការស្តង់ដារ ដោយលម្អិតលម្អិត រៃដើម្បីបន្ត រៃផ្ដល់ឱ្យថ្នាក់ Barakah។",
   "graceBlockedCtaGoBlessed": "មើលលក្ខខណ្ឌ Barakah ខាងក្រោម",
 
-  "rateGuestMustSignIn": "ចូលដើម្បីប្រើ Nuria រៃការឆ្លឹងម្នាក់ឯង។",
+  "rateGuestMustSignIn": "ចូលដើម្បីប្រើ Ayara រៃការឆ្លឹងម្នាក់ឯង។",
 
   "guestNoCreditsTitle": "លក្ខណៈឪក",
   "guestNoCreditsBody": "ក្នុងលក្ខណៈឪក អ្នកអាចស្វាងរកកម្មវិធី, ប៉ុន្តែអ្នកមិនអាចប្រើការឆ្លឹងម្នាក់ឯង។ ចូលក្នុងកម្មវិធីក្រោយមក ដើម្បីប្រើប្រាស់រៃបើកលេខលម្អិត។",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "អនុញ្ញាត Nuria ប្រើប្រាស់ទីតាំងរបស់ខ្ញុំសម្រាប់ Qibla direction រៃ祷告 times",
+  "locationConsentLabel": "អនុញ្ញាត Ayara ប្រើប្រាស់ទីតាំងរបស់ខ្ញុំសម្រាប់ Qibla direction រៃ祷告 times",
   "locationConsentHint": "ប្រើប្រាស់សម្រាប់លក្ខណៈបែបនេះប៉ុណ្ណោះ។ ទីតាំងរបស់អ្នក មិនចែករំលែក ឬ stored។",
 
-  "askPageTitle": "សួរ Nuria",
+  "askPageTitle": "សួរ Ayara",
   "askPageDescription": "សួរលម្អិត about ព្រឹទ្ធិ,祷告, ជីវិត ឬ Islamic វិធីសាស្ត្រ រៃ ទទួល ការណែនាំ មូលដ្ឋាន លើ Qur'an រៃ Sunnah។",
   "askPageInputHint": "Type សួរ ឯក…",
   "askPageSubmitCta": "សួរ",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "ទីតាំង required",
-  "qiblaLocationNeededBody": "អនុញ្ញាត ទីតាំង ដំណើរការ ដូច្នេះ Nuria អាចគណនា ទិស កាា Kaaba ក្នុង Makkah ពី ដែលលើកលែង អ្នក។",
+  "qiblaLocationNeededBody": "អនុញ្ញាត ទីតាំង ដំណើរការ ដូច្នេះ Ayara អាចគណនា ទិស កាា Kaaba ក្នុង Makkah ពី ដែលលើកលែង អ្នក។",
   "qiblaOpenSettings": "បើក ការកំណត់",
   "qiblaCompassLoading": "ស្វាងរក ទីតាំង…",
   "qiblaTowardMecca": "ឆ្ពោះទៅ Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "ទីតាំង required",
-  "prayerTimesLocationNeededBody": "អនុញ្ញាត ទីតាំង ដំណើរការ ដូច្នេះ Nuria អាចគណនា accurate祷告 times សម្រាប់ ក្រុង។",
+  "prayerTimesLocationNeededBody": "អនុញ្ញាត ទីតាំង ដំណើរការ ដូច្នេះ Ayara អាចគណនា accurate祷告 times សម្រាប់ ក្រុង។",
   "prayerTimesNextLabel": "បន្ទាប់",
   "prayerTimesDoneLabel": "រួច",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Enable祷告 reminders",
   "prayerNotificationsOpenSettings": "បើក notification ការកំណត់",
   "prayerNotificationsDenied": "Notifications disabled",
-  "prayerNotificationsDeniedHint": "ទៅ ការកំណត់ រៃ អនុញ្ញាត notifications សម្រាប់ Nuria ដើម្បីទទួល祷告 time reminders។",
+  "prayerNotificationsDeniedHint": "ទៅ ការកំណត់ រៃ អនុញ្ញាត notifications សម្រាប់ Ayara ដើម្បីទទួល祷告 time reminders។",
 
   "notificationsConsentLabel": "អនុញ្ញាត notifications សម្រាប់祷告 times",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "អ្នក បានបង្ហាប់ 99 remembrances Allah។ ដល់ ពួកគេ ក្នុង ពន្លឺ សម្រាប់ ចិត្ត។",
 
   "disclaimerTitle": "About ឧបករណ៍ guidance",
-  "disclaimerBody": "Nuria ផ្ដល់ Islamic reflections, reminders, រៃ精神ល សម្រាប់ ក្សាង ដែលលើកលែង អ្នក journey faith។ សម្រាប់ផ្ដល់ informational រៃ inspirational purposes។\n\nNuria មិនចេះ ជំនួស taught ចិត្ត។\nGuidance ក្នុង ឧបករណ៍ គឺ មិន substitute សម្រាប់ នរយល់ Islamic scholar, imam, mufti, ឬ theologically taught ។ ដូច្នេះ អ្នក فقه (Islamic jurisprudence) ឬ personal ត្រូវ, សូម ស្វាគមន៍ ចម្រាល ដែលលើកលែង គ្រុង។\n\nឧបករណ៍ មិនផ្ដល់ religious rulings។\nNuria មិនធ្វើ determining دِينlamic determinations matter fiqh ឬ personal religious។ រូប្តី ដូង្របាក់ fatwা ឬ binding ដំណើរការ។\n\nScholarly interpretations ខ្សែ។\nIslam encompasses ចម្រាល diversity traditions, ។ ក្នុង thought (madhabs), រៃ scholarly។ ក្នុង ឧបករណ៍ reflects ទូទៅ perspectives រៃ សមដែលលើកលែង tradition។\n\nCommunity 事។\nឧបករណ៍ ដើម្បី ក្ដើង ដែលលើកលែង mosque, imam, រៃ្ដofficials។ សូម ទៀង រក្សា connected ជាមួយ រៀន ពីលើកលែង។",
+  "disclaimerBody": "Ayara ផ្ដល់ Islamic reflections, reminders, រៃ精神ល សម្រាប់ ក្សាង ដែលលើកលែង អ្នក journey faith។ សម្រាប់ផ្ដល់ informational រៃ inspirational purposes។\n\nAyara មិនចេះ ជំនួស taught ចិត្ត។\nGuidance ក្នុង ឧបករណ៍ គឺ មិន substitute សម្រាប់ នរយល់ Islamic scholar, imam, mufti, ឬ theologically taught ។ ដូច្នេះ អ្នក فقه (Islamic jurisprudence) ឬ personal ត្រូវ, សូម ស្វាគមន៍ ចម្រាល ដែលលើកលែង គ្រុង។\n\nឧបករណ៍ មិនផ្ដល់ religious rulings។\nAyara មិនធ្វើ determining دِينlamic determinations matter fiqh ឬ personal religious។ រូប្តី ដូង្របាក់ fatwা ឬ binding ដំណើរការ។\n\nScholarly interpretations ខ្សែ។\nIslam encompasses ចម្រាល diversity traditions, ។ ក្នុង thought (madhabs), រៃ scholarly។ ក្នុង ឧបករណ៍ reflects ទូទៅ perspectives រៃ សមដែលលើកលែង tradition។\n\nCommunity 事។\nឧបករណ៍ ដើម្បី ក្ដើង ដែលលើកលែង mosque, imam, រៃ្ដofficials។ សូម ទៀង រក្សា connected ជាមួយ រៀន ពីលើកលែង។",
   "disclaimerClose": "ខ្ញុំ ចាប់ដឹង",
   "disclaimerInfoTooltip": "About ឧបករណ៍ guidance",
   "disclaimerSettingsSubtitle": "សម្រាប់ informational purposes។ Tap ដើម្បីអាន full។",

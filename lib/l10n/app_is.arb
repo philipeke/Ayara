@@ -1,7 +1,7 @@
 {
   "@@locale": "is",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Veldu þitt tungumál",
   "languageSelectSub": "Þú getur breytt þessu síðar í Stillingunum",
@@ -83,7 +83,7 @@
   "close": "Loka",
   "copiedToast": "Afritað á klemmuna",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Þetta tæki er þegar tengt öðrum reikningi. Skráðu þig inn með upprunalega reikningnum.",
 
   "premiumTitle": "Barakah hamur",
-  "premiumSubtitleBasic": "Opnaðu fullt Nuria reynslu.",
+  "premiumSubtitleBasic": "Opnaðu fullt Ayara reynslu.",
   "premiumSubtitleChampion": "Þú ert Barakah. Þarftu fleiri hugleiðingar?",
 
   "premiumCurrentPlan": "Núverandi áætlun: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Hleð búð…",
 
   "blessedTitle": "Barakah hamur",
-  "blessedSubtitleGrace": "Opnaðu fullt Nuria reynslu.",
+  "blessedSubtitleGrace": "Opnaðu fullt Ayara reynslu.",
   "blessedSubtitleBlessed": "Þú ert Barakah. Þarftu fleiri hugleiðingar?",
 
   "blessedCurrentPlan": "Núverandi áætlun: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Þú ert á Hefðbundna áætlun með byrjunarhugleiðingum og þú hefur náð markinu. Til að halda áfram — og opna iðnflokka — uppfærðu í Barakah.",
   "graceBlockedCtaGoBlessed": "Sjá Barakah valkosti hér að neðan",
 
-  "rateGuestMustSignIn": "Skrá þig inn til að nota Nuria og hugleiðingar þínar.",
+  "rateGuestMustSignIn": "Skrá þig inn til að nota Ayara og hugleiðingar þínar.",
 
   "guestNoCreditsTitle": "Gestahamur",
   "guestNoCreditsBody": "Sem gestur geturðu ábókaðu appið, en þú getur ekki notað hugleiðingar. Skrá þig inn síðar í Stillingum til að nota hugleiðingar og opna kaup.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Leyfðu Nuria að nota staðsetningu mína fyrir Qibla stefnu og bænatíma",
+  "locationConsentLabel": "Leyfðu Ayara að nota staðsetningu mína fyrir Qibla stefnu og bænatíma",
   "locationConsentHint": "Aðeins notað fyrir þessa eiginleika. Staðsetning þín er aldrei deilt eða geymd.",
 
-  "askPageTitle": "Spyrjið Nuria",
+  "askPageTitle": "Spyrjið Ayara",
   "askPageDescription": "Spyrjið allt um trú, bæn, líf eða Íslamsarkstjórn og fáðu leiðsögn sem byggir á Kóraninu og Sunnu.",
   "askPageInputHint": "Sláðu inn spurningu þína hér…",
   "askPageSubmitCta": "Spyrja",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Staðsetning krafist",
-  "qiblaLocationNeededBody": "Leyfðu staðsetningaraðgangi svo Nuria geti reiknað stefnuna á Kaaba í Mekka frá þar sem þú ert.",
+  "qiblaLocationNeededBody": "Leyfðu staðsetningaraðgangi svo Ayara geti reiknað stefnuna á Kaaba í Mekka frá þar sem þú ert.",
   "qiblaOpenSettings": "Opna stillingar",
   "qiblaCompassLoading": "Finndu stöðu þína…",
   "qiblaTowardMecca": "Í átt að Mekka",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Staðsetning krafist",
-  "prayerTimesLocationNeededBody": "Leyfðu staðsetningaraðgangi svo Nuria geti reiknað nákvæma bænatíma fyrir borg þína.",
+  "prayerTimesLocationNeededBody": "Leyfðu staðsetningaraðgangi svo Ayara geti reiknað nákvæma bænatíma fyrir borg þína.",
   "prayerTimesNextLabel": "Næst",
   "prayerTimesDoneLabel": "Lokið",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Virkja bænatilkynningar",
   "prayerNotificationsOpenSettings": "Opna tilkynningastillingar",
   "prayerNotificationsDenied": "Tilkynningar eru óvirkar",
-  "prayerNotificationsDeniedHint": "Farðu í stillingar og leyfðu tilkynningar fyrir Nuria til að fá bænatilkynningar.",
+  "prayerNotificationsDeniedHint": "Farðu í stillingar og leyfðu tilkynningar fyrir Ayara til að fá bænatilkynningar.",
 
   "notificationsConsentLabel": "Leyfðu tilkynningar fyrir bænatíma",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Þú hefur lokið 99 minningum á Allah. Mega þau vera ljós fyrir hjartanu þitt.",
 
   "disclaimerTitle": "Um leiðsögn þessa appsins",
-  "disclaimerBody": "Nuria veitir Íslamsarlegri hugleiðingu, áminningar og andlegum efni til að styðja persónulega ferð þína um trúarbrott. Þetta innihald er boðið almennur gagnrýnendaupplýsingum og innblásnum tilgangi aðeins.\n\nNuria kemur ekki í stað fagfræðilegs náms.\nLeiðsögnin í þessu appi er ekki staðgengill fyrir þekktan Íslamsarlegri fræðimann, iman, mufti, eða fræðilega þjálfaðan kennara. Ef þú hefur spurningar um trúarlegum reglum, halal og haram málum, eða persónulegum trúarlegum skyldum, biðdu ábendingu frá hæfu trúarlegri yfirvöldum í þínu samfélagi.\n\nÞetta app gefur ekki út trúarlegir tilskipanir.\nNuria gerir ekki bindandi ákvarðanir um fiqh (Íslamsarlegt dómsmál) eða persónu trúarlegum skyldum. Ekkert hér ætti að meðhöndlast sem fatwa eða bindandi trúarlegri fyrirmæli.\n\nFræðilegar túlkanir eru mismunandi.\nÍslam nær yfir auðuga fjölbreytileika hefða, hugsunarskóla (madhabs), og fræðilegra skoðana. Innihald í þessu appi endurspeglar almennar sjónarhorn og getur ekki táð allt hefð eða skóla jafnt.\n\nSamfélag skiptir máli.\nÞetta app miðar að því að hvetja þig til að standa við hefðina um trúarbrott á meðan við virðum dýrðlegu hlutverk staðbundinna mosku þinnar, iman, og trúarlegs samfélags. Við hvetjum þig til að halda sambandi við og læra frá hæfum kennurum nálægt þér.",
+  "disclaimerBody": "Ayara veitir Íslamsarlegri hugleiðingu, áminningar og andlegum efni til að styðja persónulega ferð þína um trúarbrott. Þetta innihald er boðið almennur gagnrýnendaupplýsingum og innblásnum tilgangi aðeins.\n\nAyara kemur ekki í stað fagfræðilegs náms.\nLeiðsögnin í þessu appi er ekki staðgengill fyrir þekktan Íslamsarlegri fræðimann, iman, mufti, eða fræðilega þjálfaðan kennara. Ef þú hefur spurningar um trúarlegum reglum, halal og haram málum, eða persónulegum trúarlegum skyldum, biðdu ábendingu frá hæfu trúarlegri yfirvöldum í þínu samfélagi.\n\nÞetta app gefur ekki út trúarlegir tilskipanir.\nAyara gerir ekki bindandi ákvarðanir um fiqh (Íslamsarlegt dómsmál) eða persónu trúarlegum skyldum. Ekkert hér ætti að meðhöndlast sem fatwa eða bindandi trúarlegri fyrirmæli.\n\nFræðilegar túlkanir eru mismunandi.\nÍslam nær yfir auðuga fjölbreytileika hefða, hugsunarskóla (madhabs), og fræðilegra skoðana. Innihald í þessu appi endurspeglar almennar sjónarhorn og getur ekki táð allt hefð eða skóla jafnt.\n\nSamfélag skiptir máli.\nÞetta app miðar að því að hvetja þig til að standa við hefðina um trúarbrott á meðan við virðum dýrðlegu hlutverk staðbundinna mosku þinnar, iman, og trúarlegs samfélags. Við hvetjum þig til að halda sambandi við og læra frá hæfum kennurum nálægt þér.",
   "disclaimerClose": "Ég skil",
   "disclaimerInfoTooltip": "Um leiðsögn þessa appsins",
   "disclaimerSettingsSubtitle": "Fyrir almenna gagnrýnendaupplýsingu eingöngu. Snertu til að lesa fulla fyrirvara.",

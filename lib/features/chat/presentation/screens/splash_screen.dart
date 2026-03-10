@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:nuria/features/auth/widgets/ai_wave_loader.dart';
+import 'package:ayara/features/auth/widgets/ai_wave_loader.dart';
 
 import '../utils/route_fade.dart';
 import 'category_screen.dart';

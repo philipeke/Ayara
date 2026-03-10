@@ -3,10 +3,10 @@ import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:nuria/core/config/theme.dart';
-import 'package:nuria/core/services/locale_service.dart';
-import 'package:nuria/core/utils/language_meta.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/core/services/locale_service.dart';
+import 'package:ayara/core/utils/language_meta.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class LanguageSection extends StatefulWidget {
   const LanguageSection({

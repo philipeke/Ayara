@@ -5,7 +5,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 /// Ledger for idempotency + anti-reuse.
 /// Created/updated by Cloud Function iapAcknowledgeAndGrant.
 ///
-/// Nuria naming:
+/// Ayara naming:
 /// - entitlement: "blessed" (legacy: "champion")
 /// - credits are referred to as Reflections in UI, but stored as credits in backend.
 class IapTransaction {
@@ -82,7 +82,7 @@ class IapTransaction {
   /// Treat as entitlement/non-consumable upgrade.
   ///
   /// Accepts both:
-  /// - "blessed" (Nuria)
+  /// - "blessed" (Ayara)
   /// - "champion" (legacy TipsyPal)
   bool get isEntitlement =>
       type == 'entitlement' ||

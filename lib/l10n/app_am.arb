@@ -1,7 +1,7 @@
 {
   "@@locale": "am",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "ቋንቋዎን ይምረጡ",
   "languageSelectSub": "ይህን በኋላ በቅንብሮች ውስጥ መቀየር ይችላሉ",
@@ -83,7 +83,7 @@
   "close": "ዝጋ",
   "copiedToast": "ወደ ቅንጥብ ሰሌዳ ተቀድቷል",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "ይህ መሣሪያ ቀድሞ ከሌላ መለያ ጋር ተያይዟል። እባክዎ ዋናውን መለያ ይጠቀሙ።",
 
   "premiumTitle": "የበረካ ሁነታ",
-  "premiumSubtitleBasic": "ሙሉ የ Nuria ተሞክሮ ይክፈቱ።",
+  "premiumSubtitleBasic": "ሙሉ የ Ayara ተሞክሮ ይክፈቱ።",
   "premiumSubtitleChampion": "በረካ ናችሁ። ተጨማሪ ሐሳቦች ያስፈልጋሉ?",
 
   "premiumCurrentPlan": "አሁን ያለ ፕላን: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "ሱቅ በመጫን ላይ…",
 
   "blessedTitle": "የበረካ ሁነታ",
-  "blessedSubtitleGrace": "ሙሉ የ Nuria ተሞክሮ ይክፈቱ።",
+  "blessedSubtitleGrace": "ሙሉ የ Ayara ተሞክሮ ይክፈቱ።",
   "blessedSubtitleBlessed": "በረካ ናችሁ። ተጨማሪ ሐሳቦች ያስፈልጋሉ?",
 
   "blessedCurrentPlan": "አሁን ያለ ፕላን: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "በመደበኛ ፕላን ላይ ያሉ ሲሆን የጀማሪ ሐሳቦቹ ላይ ደርሰዋል። ለቀጣይ — እና ፕሪሚየም ምድቦችን ለመክፈት — ወደ በረካ ያሻሽሉ።",
   "graceBlockedCtaGoBlessed": "ከዚህ በታች ያሉ የበረካ አማራጮችን ይመልከቱ",
 
-  "rateGuestMustSignIn": "Nuriaን እና ሐሳቦችዎን ለመጠቀም ይግቡ።",
+  "rateGuestMustSignIn": "Ayaraን እና ሐሳቦችዎን ለመጠቀም ይግቡ።",
 
   "guestNoCreditsTitle": "የእንግዳ ሁነታ",
   "guestNoCreditsBody": "እንደ እንግዳ መተግበሪያውን ማሰስ ይችላሉ፣ ግን ሐሳቦችን መጠቀም አይችሉም። ሐሳቦችን ለመጠቀም እና ግዢዎችን ለመክፈት በቅንብሮች ውስጥ ይግቡ።",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "ጠልሐ ኢብን ዑበይዱሏህ (RA)",
   "dailyRoleModel59": "አዝ-ዙበይር ኢብን አል-ዓዋም (RA)",
 
-  "locationConsentLabel": "Nuria ቂብላ አቅጣጫና የሶላት ጊዜ ለማሳየት ቦታዬን እንዲጠቀም ፍቀድ",
+  "locationConsentLabel": "Ayara ቂብላ አቅጣጫና የሶላት ጊዜ ለማሳየት ቦታዬን እንዲጠቀም ፍቀድ",
   "locationConsentHint": "ለእነዚህ ባህሪያት ብቻ ይጠቅማል። ቦታዎ ፈጽሞ አይጋራም ወይም አይቀመጥም።",
 
-  "askPageTitle": "Nuriaን ጠይቅ",
+  "askPageTitle": "Ayaraን ጠይቅ",
   "askPageDescription": "ስለ እምነት፣ ሶላት፣ ሕይወት ወይም እስላማዊ ልምምድ ምንም ይጠይቁ — ከቁርኣን እና ሱና ላይ ተመሠርቶ መምሪያ ያግኙ።",
   "askPageInputHint": "ጥያቄዎን እዚህ ይጻፉ…",
   "askPageSubmitCta": "ጠይቅ",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "ቦታ ያስፈልጋል",
-  "qiblaLocationNeededBody": "Nuria ከያንዳንዱ የምትገኙበት ቦታ ያለውን ስፍራ ወደ ቄዓ በመካ ለማስላት ቦታ መግባት ይፈቅዱ።",
+  "qiblaLocationNeededBody": "Ayara ከያንዳንዱ የምትገኙበት ቦታ ያለውን ስፍራ ወደ ቄዓ በመካ ለማስላት ቦታ መግባት ይፈቅዱ።",
   "qiblaOpenSettings": "ቅንብሮችን ክፈት",
   "qiblaCompassLoading": "ስፍራዎን ነበር…",
   "qiblaTowardMecca": "ወደ መካ",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "መግሪብ",
   "prayerTimesIsha": "ኢሻ",
   "prayerTimesLocationNeededTitle": "ቦታ ያስፈልጋል",
-  "prayerTimesLocationNeededBody": "Nuria ከእንደሥቲትህ ከተማ ትክክለኛ ጊዜ ሰላም ለማስላት ቦታ መግባት ይፈቅዱ።",
+  "prayerTimesLocationNeededBody": "Ayara ከእንደሥቲትህ ከተማ ትክክለኛ ጊዜ ሰላም ለማስላት ቦታ መግባት ይፈቅዱ።",
   "prayerTimesNextLabel": "ቀጣይ",
   "prayerTimesDoneLabel": "ተሳትፏል",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "ማስታወሻ ሰላም ያስቅድሙ",
   "prayerNotificationsOpenSettings": "ማስታወሻ ቅንብሮችን ክፈት",
   "prayerNotificationsDenied": "ማስታወሻዎች ናቸው",
-  "prayerNotificationsDeniedHint": "ቅንብሮች ይሂዱ እና Nuria ለሰላም ጊዜ ማስታወሻ ያስቅድሙ።",
+  "prayerNotificationsDeniedHint": "ቅንብሮች ይሂዱ እና Ayara ለሰላም ጊዜ ማስታወሻ ያስቅድሙ።",
 
   "notificationsConsentLabel": "ለሰላም ጊዜ ማስታወሻ ይፈቅዱ",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "የአላህን 99 ትውስታ ሙሉ ነሽጋል። ይህ ለልባዎ ብርሃን ሆን ይቅር።",
 
   "disclaimerTitle": "ስለ ይህ መተግበሪያ መምሪያ",
-  "disclaimerBody": "Nuria ወደ አምነት ትምክህት እንበር በፅንፈት ጠበቅ ወሳይ፣ አስታወሳ፣ እና ሪህ ይዘት ይሰጥ ነበር። ይህ ይዘት አጠቃላይ መረጃ እና ተስፋ ማበር ለመጠቀም ብቻ ነው።\n\nNuria የሚዳጅ ሚና አይወጣም።\nበዚህ መተግበሪያ ውስጥ ያለው መምሪያ ከተማር ኢስላም ምሁር፣ �イმዓም፣ ሙፍቲ፣ ወይም ለታሪካዊ ሥልጠና ወረስ ምትክ አይደለም። ስለ ሪህ ሒጋም፣ ሃላል እና ሃራም ጉዳዮች፣ ወይም የግል ሪህ ግዴታዎች ጥያቄ ካለዎት በእርስዎ ሕብረተሰብ ውስጥ ከአስተውሏ ሪህ ኃላፊ መልስ ይጠይቁ።\n\nይህ መተግበሪያ ሪህ ሒጋም አይሰጥም።\nNuria በ fiqh ሠራት ወይም የግል ሪህ ግዴታ ላይ ስልጠና የሚያገለግል አይደለም። እዚህ ሩብ ምንም ፋትዋ ወይም ይግባኑ ሪህ ትምክህት ሊቆጠር አይገባም።\n\nየምሁር ግንዛቤ ተለያይ።\nእስላም የበበላ የአስተሳሰብ ሥጀጁ፣ አስተሳሰብ ትምህርት ቤታት (madhabs)፣ እና የምሁር አስተያየት ይከብቅ። በዚህ መተግበሪያ ውስጥ ያለው ይዘት አጠቃላይ አይሰዎታዊ እና ሁሉ ትምህርት ቤቶችን በእኩልነት ሊወክል አይችልም።\n\nሕብረተሰቡ አስፈላጊ።\nይህ መተግበሪያ ከኢስላም ትምህርትድ እንበር አመጋገብ ተበረታቸው ሪህ ህብረተሰብ ጠረጴዛ የወዛበ ሚና ተከቢበት ያተሳሰበ። በእርስዎ አቅራቢ መስጊድ፣ ኢምዓም፣ እና ሪህ ህብረተሰብ ተገናኝታዎ ልንመሩ መታወስ ይሤድ።",
+  "disclaimerBody": "Ayara ወደ አምነት ትምክህት እንበር በፅንፈት ጠበቅ ወሳይ፣ አስታወሳ፣ እና ሪህ ይዘት ይሰጥ ነበር። ይህ ይዘት አጠቃላይ መረጃ እና ተስፋ ማበር ለመጠቀም ብቻ ነው።\n\nAyara የሚዳጅ ሚና አይወጣም።\nበዚህ መተግበሪያ ውስጥ ያለው መምሪያ ከተማር ኢስላም ምሁር፣ �イმዓም፣ ሙፍቲ፣ ወይም ለታሪካዊ ሥልጠና ወረስ ምትክ አይደለም። ስለ ሪህ ሒጋም፣ ሃላል እና ሃራም ጉዳዮች፣ ወይም የግል ሪህ ግዴታዎች ጥያቄ ካለዎት በእርስዎ ሕብረተሰብ ውስጥ ከአስተውሏ ሪህ ኃላፊ መልስ ይጠይቁ።\n\nይህ መተግበሪያ ሪህ ሒጋም አይሰጥም።\nAyara በ fiqh ሠራት ወይም የግል ሪህ ግዴታ ላይ ስልጠና የሚያገለግል አይደለም። እዚህ ሩብ ምንም ፋትዋ ወይም ይግባኑ ሪህ ትምክህት ሊቆጠር አይገባም።\n\nየምሁር ግንዛቤ ተለያይ።\nእስላም የበበላ የአስተሳሰብ ሥጀጁ፣ አስተሳሰብ ትምህርት ቤታት (madhabs)፣ እና የምሁር አስተያየት ይከብቅ። በዚህ መተግበሪያ ውስጥ ያለው ይዘት አጠቃላይ አይሰዎታዊ እና ሁሉ ትምህርት ቤቶችን በእኩልነት ሊወክል አይችልም።\n\nሕብረተሰቡ አስፈላጊ።\nይህ መተግበሪያ ከኢስላም ትምህርትድ እንበር አመጋገብ ተበረታቸው ሪህ ህብረተሰብ ጠረጴዛ የወዛበ ሚና ተከቢበት ያተሳሰበ። በእርስዎ አቅራቢ መስጊድ፣ ኢምዓም፣ እና ሪህ ህብረተሰብ ተገናኝታዎ ልንመሩ መታወስ ይሤድ።",
   "disclaimerClose": "ተረዳሁ",
   "disclaimerInfoTooltip": "ስለ ይህ መተግበሪያ መምሪያ",
   "disclaimerSettingsSubtitle": "አጠቃላይ መረጃ ለመጠቀም ብቻ። ሙሉ ታሪክ ለማንበብ ተንካኩ።",

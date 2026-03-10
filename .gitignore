@@ -209,3 +209,6 @@ lib/firebase_options.dart
 *play*.json
 launch.json
 .vscode/launch.json
+
+# Keystores — never commit
+android/app/*.keystore

@@ -1,17 +1,17 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import 'package:nuria/models/iap_entitlement.dart';
+import 'package:ayara/models/iap_entitlement.dart';
 
 void main() {
-  group('IapEntitlement (Nuria)', () {
+  group('IapEntitlement (Ayara)', () {
     test('parses active blessed entitlement', () {
       final now = DateTime(2026, 2, 15, 12, 0);
 
       final ent = IapEntitlement.fromMap('uid123', <String, dynamic>{
         // Firestore schema may still say isChampion - OK if model expects it.
         'isChampion': true,
-        'productId': 'com.oakdev.nuria.premium',
+        'productId': 'com.oakdev.ayara.premium',
         'platform': 'ios',
         'status': 'active',
         'lastVerifiedAt': Timestamp.fromDate(now),
@@ -23,7 +23,7 @@ void main() {
       expect(ent.isBlessed, true);
       expect(ent.status, 'active');
       expect(ent.platform, 'ios');
-      expect(ent.productId, 'com.oakdev.nuria.premium');
+      expect(ent.productId, 'com.oakdev.ayara.premium');
       expect(ent.lastVerifiedAt, isNotNull);
       expect(ent.isActive, true);
       expect(ent.environment, 'Sandbox');

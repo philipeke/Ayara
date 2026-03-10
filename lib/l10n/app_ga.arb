@@ -1,7 +1,7 @@
 {
   "@@locale": "ga",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Roghnaigh do theanga",
   "languageSelectSub": "Is féidir leat é seo a athrú níos déanaí i Socruithe",
@@ -83,7 +83,7 @@
   "close": "Dún",
   "copiedToast": "Cóipeáilte chuig an bhfritháireamh",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Líne ábhair ríomhphost / roinnte lena n-áirítear an lipéad catagóir.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Tá an ghréine seo nasc a bhí ag cuntas eile cheana féin. Sínigh isteach le do chuntas bunaidh le do thoil.",
 
   "premiumTitle": "Mód Barakah",
-  "premiumSubtitleBasic": "Oscail an fhíordheis iomlán Nuria.",
+  "premiumSubtitleBasic": "Oscail an fhíordheis iomlán Ayara.",
   "premiumSubtitleChampion": "Tá tú Barakah. Ar fhág tú machnaimh?",
 
   "premiumCurrentPlan": "Plean atá i láthair: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Siopa ag lódáil…",
 
   "blessedTitle": "Mód Barakah",
-  "blessedSubtitleGrace": "Oscail an fhíordheis iomlán Nuria.",
+  "blessedSubtitleGrace": "Oscail an fhíordheis iomlán Ayara.",
   "blessedSubtitleBlessed": "Tá tú Barakah. Ar fhág tú machnaimh?",
 
   "blessedCurrentPlan": "Plean atá i láthair: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Tá tú ar phlean Caighdeánach le machnaimh tosúcháin, agus tá an teorainn bainte amach. Chun lean ar aghaidh — agus catagóirí premium a oscailt — uasghrádaigh go Barakah.",
   "graceBlockedCtaGoBlessed": "Féach ar roghanna Barakah thíos",
 
-  "rateGuestMustSignIn": "Sínigh isteach chun Nuria agus do mhachnaimh a úsáid.",
+  "rateGuestMustSignIn": "Sínigh isteach chun Ayara agus do mhachnaimh a úsáid.",
 
   "guestNoCreditsTitle": "Mód aoi",
   "guestNoCreditsBody": "Mar aoi is féidir leat an app a bhrabhsáil, ach ní féidir leat machnaimh a úsáid. Logáil isteach níos déanaí i Socruithe chun machnaimh a úsáid agus ceannacha a oscailt.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Ceadaigh do Nuria mo láthair a úsáid do threo Qibla agus am paidreachas",
+  "locationConsentLabel": "Ceadaigh do Ayara mo láthair a úsáid do threo Qibla agus am paidreachas",
   "locationConsentHint": "Úsáidte ach do na gnéithe seo. Níor roinn do láthair ná stóirithe.",
 
-  "askPageTitle": "Fiafraigh Nuria",
+  "askPageTitle": "Fiafraigh Ayara",
   "askPageDescription": "Fiafraigh aon rud faoi chreideamh, páidir, saol, nó cleachtas Ioslamach agus faigh treorúchán bunaithe ar an Quran agus Sunnah.",
   "askPageInputHint": "Scríobh do cheist anseo…",
   "askPageSubmitCta": "Fiafraigh",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Láthair riachtanach",
-  "qiblaLocationNeededBody": "Ceadaigh rochtain láthair ionas gur féidir le Nuria treo na Kaaba i Makkah a ríomh ó áit ar bith go bhfuil tú.",
+  "qiblaLocationNeededBody": "Ceadaigh rochtain láthair ionas gur féidir le Ayara treo na Kaaba i Makkah a ríomh ó áit ar bith go bhfuil tú.",
   "qiblaOpenSettings": "Oscail Socruithe",
   "qiblaCompassLoading": "Do láthair a fháil…",
   "qiblaTowardMecca": "I dtreo Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Láthair riachtanach",
-  "prayerTimesLocationNeededBody": "Ceadaigh rochtain láthair ionas gur féidir le Nuria am paidreachas cruinn a ríomh ar do chathair.",
+  "prayerTimesLocationNeededBody": "Ceadaigh rochtain láthair ionas gur féidir le Ayara am paidreachas cruinn a ríomh ar do chathair.",
   "prayerTimesNextLabel": "Ar Aghaidh",
   "prayerTimesDoneLabel": "Déanta",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Cumasaigh spreagadh paidreachas",
   "prayerNotificationsOpenSettings": "Oscail socruithe fógra",
   "prayerNotificationsDenied": "Fógra díchumasaithe",
-  "prayerNotificationsDeniedHint": "Téigh ar Socruithe agus ceadaigh fógra do Nuria chun spreagadh am paidreachas a fháil.",
+  "prayerNotificationsDeniedHint": "Téigh ar Socruithe agus ceadaigh fógra do Ayara chun spreagadh am paidreachas a fháil.",
 
   "notificationsConsentLabel": "Ceadaigh fógra ar am paidreachas",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Tú a chomhlíon 99 cuimhnithe ar Allah. Is dóigh leo a bheith ina soilse do do chroí.",
 
   "disclaimerTitle": "Faoi threorúchán an app seo",
-  "disclaimerBody": "Cuireadh Nuria machnamh spioradálta, cuimhneacháin, agus ábhar spioradálta ar fáil chun tacaíonn le do thuras pearsanta de chreideamh. Tugtar an ábhar seo ar fáil ar bhonn gréine don gur spéis agus spreagadh a thug go ginearálta.\n\nNíl Nuria ionad do scoláraigí faoi réir.\nNíl an treorúchán san app seo ina ionad ar scoláire Ioslamach foghlamtha, imam, mufti, nó múinteoir oilte go teanga. Má tá ceist agat ar bhreacadh reiligiúnda, halal agus haram nithe, nó oibleagáidí pearsanta reiligiúnda, iarraidh chomhairle ó údarás reiligiúnda fhualang i do cheantar.\n\nNí dhéanann an app seo breacadh reiligiúnda.\nNíl Nuria ag déanamh breacadh údarásach ar nithe fiqh (reiligiúnda dlí Ioslamach) nó oibleagáidí reiligiúnda pearsanta. Níor chóir aon rud anseo a bhí mar bhreacadh nó treorúchán reiligiúnda ceangailte.\n\nAthrann léirmhínithe scoláraigí.\nI Islam cuimsigh saibhreas domhain de thraidisiúin, scoilanna smaointíochta (madhabs), agus tuairimí scoláraigí. Léiríonn ábhar san app peirspictíochta ginearálta agus b'fhéidir nach ionadaíoch gach traidisiún nó scoil go coibhéiseach.\n\nTá pobal thábhachtach.\nDhéanann an app seo spreagadh ar do ghníomhacht le creidimh thraidisiúin agus fhormalacht go fior do thábhachtach an chomharsanachta d'ionad orálach, imam, agus pobail reiligiúnda. Spreagann muid thú ar a bheith ceangailte agus foghlaim ó múinteoirí fualang in aice leat.",
+  "disclaimerBody": "Cuireadh Ayara machnamh spioradálta, cuimhneacháin, agus ábhar spioradálta ar fáil chun tacaíonn le do thuras pearsanta de chreideamh. Tugtar an ábhar seo ar fáil ar bhonn gréine don gur spéis agus spreagadh a thug go ginearálta.\n\nNíl Ayara ionad do scoláraigí faoi réir.\nNíl an treorúchán san app seo ina ionad ar scoláire Ioslamach foghlamtha, imam, mufti, nó múinteoir oilte go teanga. Má tá ceist agat ar bhreacadh reiligiúnda, halal agus haram nithe, nó oibleagáidí pearsanta reiligiúnda, iarraidh chomhairle ó údarás reiligiúnda fhualang i do cheantar.\n\nNí dhéanann an app seo breacadh reiligiúnda.\nNíl Ayara ag déanamh breacadh údarásach ar nithe fiqh (reiligiúnda dlí Ioslamach) nó oibleagáidí reiligiúnda pearsanta. Níor chóir aon rud anseo a bhí mar bhreacadh nó treorúchán reiligiúnda ceangailte.\n\nAthrann léirmhínithe scoláraigí.\nI Islam cuimsigh saibhreas domhain de thraidisiúin, scoilanna smaointíochta (madhabs), agus tuairimí scoláraigí. Léiríonn ábhar san app peirspictíochta ginearálta agus b'fhéidir nach ionadaíoch gach traidisiún nó scoil go coibhéiseach.\n\nTá pobal thábhachtach.\nDhéanann an app seo spreagadh ar do ghníomhacht le creidimh thraidisiúin agus fhormalacht go fior do thábhachtach an chomharsanachta d'ionad orálach, imam, agus pobail reiligiúnda. Spreagann muid thú ar a bheith ceangailte agus foghlaim ó múinteoirí fualang in aice leat.",
   "disclaimerClose": "Tuigim",
   "disclaimerInfoTooltip": "Faoi threorúchán an app seo",
   "disclaimerSettingsSubtitle": "Do chuspóirí gréine eolais. Tap chun an t-achoimre iomlán a léamh.",

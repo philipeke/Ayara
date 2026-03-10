@@ -1,6 +1,6 @@
 // lib/features/settings/widgets/free_plan_blocked_notice.dart
 import 'package:flutter/material.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class FreePlanBlockedNotice extends StatelessWidget {
   const FreePlanBlockedNotice({

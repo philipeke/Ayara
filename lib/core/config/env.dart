@@ -1,6 +1,6 @@
 // lib/core/config/env.dart
 //
-// Environment configuration for Nuria.
+// Environment configuration for Ayara.
 // Controls dev/prod behavior via --dart-define or .env files.
 
 import 'package:flutter/foundation.dart';
@@ -37,6 +37,6 @@ class Env {
   /// Debug helper — prints environment summary in debug builds only
   static void debugPrintSummary() {
     if (!kDebugMode) return;
-    debugPrint('Nuria Env → ENV=$envName (isProd=$isProd)');
+    debugPrint('Ayara Env → ENV=$envName (isProd=$isProd)');
   }
 }

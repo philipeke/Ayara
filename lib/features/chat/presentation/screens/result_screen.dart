@@ -2,9 +2,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:share_plus/share_plus.dart' show SharePlus, ShareParams;
-import 'package:nuria/core/config/theme.dart';
+import 'package:ayara/core/config/theme.dart';
 
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 import '../widgets/result_app_bar.dart';
 import '../widgets/result_text_box.dart';
 import '../widgets/result_bottom_bar.dart';
@@ -58,7 +58,7 @@ class _ResultScreenState extends State<ResultScreen> {
     final t = AppLocalizations.of(context)!;
     await HapticFeedback.selectionClick();
     if (_text.trim().isEmpty) return;
-    final subject = t.shareSubject(widget.category); // ex: "Nuria — Daily Guidance"
+    final subject = t.shareSubject(widget.category); // ex: "Ayara — Daily Guidance"
     await SharePlus.instance.share(ShareParams(text: _text, subject: subject));
   }
 

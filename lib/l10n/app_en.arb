@@ -1,7 +1,7 @@
 {
   "@@locale": "en",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Choose your language",
   "languageSelectSub": "You can change this later in Settings",
@@ -44,7 +44,7 @@
   "chooseLanguage": "Choose your language",
   "continueCta": "Continue",
 
-  "promptDailyGuidance": "Write a short, practical daily guidance rooted in Sunni Islamic faith — grounded in the Quran, Hadith, and the teachings of the Prophet Muhammad. Choose a fresh angle each time: a virtue from Islamic ethics, a truth from the Sunnah, wisdom from the Companions of the Prophet, or a quiet practice from Islamic tradition. Include one Quran verse (Surah:Ayah) and a 1–2 sentence reflection to carry through the day. Optionally connect it to the Islamic calendar or an important date if relevant.",
+  "promptDailyGuidance": "Write a short, practical daily guidance rooted in Shia Islamic faith — grounded in the Quran and the teachings of the Prophet Muhammad and the Ahl al-Bayt. Choose a fresh angle each time: a virtue from Islamic ethics, wisdom from one of the twelve Imams, a teaching from Nahj al-Balagha, or a quiet practice from the Shia tradition. Include one Quran verse (Surah:Ayah) and a 1-2 sentence reflection to carry through the day. Optionally connect it to the Islamic calendar or an important date if relevant.",
 
   "promptFaithTrust": "Write a short Islamic reflection on Iman (faith) and trust in Allah's plan (Tawakkul). Root it in the Quran, the example of Prophet Muhammad, and the faith of the Sahaba. Vary the theme each time: trusting Allah during uncertainty, relying on divine wisdom, patience in trials, or quiet perseverance in everyday life. Include one Quran verse and one honest step for today drawn from Islamic spiritual wisdom.",
 
@@ -84,7 +84,7 @@
   "close": "Close",
   "copiedToast": "Copied to clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -255,7 +255,7 @@
   "deviceBoundError": "This device is already linked to another account. Please sign in with the original account.",
 
   "premiumTitle": "Barakah mode",
-  "premiumSubtitleBasic": "Unlock the full Nuria experience.",
+  "premiumSubtitleBasic": "Unlock the full Ayara experience.",
   "premiumSubtitleChampion": "You're Barakah. Need more reflections?",
 
   "premiumCurrentPlan": "Current plan: {plan}",
@@ -284,7 +284,7 @@
   "premiumLoadingStore": "Loading store…",
 
   "blessedTitle": "Barakah mode",
-  "blessedSubtitleGrace": "Unlock the full Nuria experience.",
+  "blessedSubtitleGrace": "Unlock the full Ayara experience.",
   "blessedSubtitleBlessed": "You're Barakah. Need more reflections?",
 
   "blessedCurrentPlan": "Current plan: {plan}",
@@ -325,7 +325,7 @@
   "graceBlockedBody": "You're on the Standard plan with starter reflections, and you've reached the limit. To continue — and unlock premium categories — upgrade to Barakah.",
   "graceBlockedCtaGoBlessed": "See Barakah options below",
 
-  "rateGuestMustSignIn": "Sign in to use Nuria and your reflections.",
+  "rateGuestMustSignIn": "Sign in to use Ayara and your reflections.",
 
   "guestNoCreditsTitle": "Guest mode",
   "guestNoCreditsBody": "As a guest you can browse the app, but you can't use reflections. Log in later in Settings to use reflections and unlock purchases.",
@@ -463,7 +463,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -500,11 +500,11 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Allow Nuria to use my location for Qibla direction and prayer times",
+  "locationConsentLabel": "Allow Ayara to use my location for Qibla direction and prayer times",
   "locationConsentHint": "Used only for these features. Your location is never shared or stored.",
 
-  "askPageTitle": "Ask Nuria",
-  "askPageDescription": "Ask anything about faith, prayer, life, or Islamic practice and receive guidance rooted in the Quran and Sunnah.",
+  "askPageTitle": "Ask Ayara",
+  "askPageDescription": "Ask anything about faith, prayer, life, or Islamic practice and receive guidance rooted in the Quran and the teachings of the Ahl al-Bayt.",
   "askPageInputHint": "Type your question here…",
   "askPageSubmitCta": "Ask",
   "askPageInputEmptyError": "Please write a question first.",
@@ -521,7 +521,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Location required",
-  "qiblaLocationNeededBody": "Allow location access so Nuria can calculate the direction of the Kaaba in Makkah from wherever you are.",
+  "qiblaLocationNeededBody": "Allow location access so Ayara can calculate the direction of the Kaaba in Makkah from wherever you are.",
   "qiblaOpenSettings": "Open Settings",
   "qiblaCompassLoading": "Finding your position…",
   "qiblaTowardMecca": "Toward Makkah",
@@ -533,7 +533,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Location required",
-  "prayerTimesLocationNeededBody": "Allow location access so Nuria can calculate accurate prayer times for your city.",
+  "prayerTimesLocationNeededBody": "Allow location access so Ayara can calculate accurate prayer times for your city.",
   "prayerTimesNextLabel": "Next",
   "prayerTimesDoneLabel": "Done",
 
@@ -549,7 +549,7 @@
   "prayerNotificationsEnable": "Enable prayer reminders",
   "prayerNotificationsOpenSettings": "Open notification settings",
   "prayerNotificationsDenied": "Notifications are disabled",
-  "prayerNotificationsDeniedHint": "Go to Settings and allow notifications for Nuria to receive prayer time reminders.",
+  "prayerNotificationsDeniedHint": "Go to Settings and allow notifications for Ayara to receive prayer time reminders.",
 
   "notificationsConsentLabel": "Allow notifications for prayer times",
 
@@ -578,7 +578,7 @@
   "dhikrCompleteMessage": "You have completed 99 remembrances of Allah. May they be a light for your heart.",
 
   "disclaimerTitle": "About this app's guidance",
-  "disclaimerBody": "Nuria provides Islamic reflections, reminders, and spiritual content to support your personal journey of faith. This content is offered for general informational and inspirational purposes only.\n\nNuria does not replace qualified scholarship.\nThe guidance in this app is not a substitute for a learned Islamic scholar, imam, mufti, or theologically trained teacher. If you have questions about religious rulings, halal and haram matters, or personal religious obligations, please seek advice from a qualified religious authority in your community.\n\nThis app does not issue religious rulings.\nNuria does not make authoritative determinations on matters of fiqh (Islamic jurisprudence) or personal religious obligations. Nothing here should be treated as a fatwa or binding religious instruction.\n\nScholarly interpretations vary.\nIslam encompasses a rich diversity of traditions, schools of thought (madhabs), and scholarly opinions. Content in this app reflects general perspectives and may not represent every tradition or school equally.\n\nCommunity matters.\nThis app aims to encourage your engagement with faith traditions while deeply respecting the vital role of your local mosque, imam, and religious community. We encourage you to stay connected with and learn from qualified teachers near you.",
+  "disclaimerBody": "Ayara provides Islamic reflections, reminders, and spiritual content to support your personal journey of faith. This content is offered for general informational and inspirational purposes only.\n\nAyara does not replace qualified scholarship.\nThe guidance in this app is not a substitute for a learned Islamic scholar, imam, mufti, or theologically trained teacher. If you have questions about religious rulings, halal and haram matters, or personal religious obligations, please seek advice from a qualified religious authority in your community.\n\nThis app does not issue religious rulings.\nAyara does not make authoritative determinations on matters of fiqh (Islamic jurisprudence) or personal religious obligations. Nothing here should be treated as a fatwa or binding religious instruction.\n\nScholarly interpretations vary.\nIslam encompasses a rich diversity of traditions, schools of thought (madhabs), and scholarly opinions. Content in this app reflects general perspectives and may not represent every tradition or school equally.\n\nCommunity matters.\nThis app aims to encourage your engagement with faith traditions while deeply respecting the vital role of your local mosque, imam, and religious community. We encourage you to stay connected with and learn from qualified teachers near you.",
   "disclaimerClose": "I understand",
   "disclaimerInfoTooltip": "About this app's guidance",
   "disclaimerSettingsSubtitle": "For general informational purposes only. Tap to read the full disclaimer.",

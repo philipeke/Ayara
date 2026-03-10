@@ -7,13 +7,13 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:timezone/timezone.dart' as tz;
 
-import 'package:nuria/features/qibla/services/prayer_time_service.dart';
+import 'package:ayara/features/qibla/services/prayer_time_service.dart';
 
 class PrayerNotificationService {
   PrayerNotificationService._();
   static final instance = PrayerNotificationService._();
 
-  static const _channelId   = 'nuria_prayer_times';
+  static const _channelId   = 'ayara_prayer_times';
   static const _channelName = 'Prayer Times';
   static const _channelDesc = 'Daily prayer time reminders';
 

@@ -1,4 +1,4 @@
-package com.oakdev.nuria
+package com.oakdev.ayara
 
 import android.provider.Settings
 import io.flutter.embedding.android.FlutterActivity
@@ -10,7 +10,7 @@ class MainActivity : FlutterActivity() {
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
 
-        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, "nuria/timezone")
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, "ayara/timezone")
             .setMethodCallHandler { call, result ->
                 if (call.method == "getLocalTimezone") {
                     result.success(TimeZone.getDefault().id)
@@ -19,7 +19,7 @@ class MainActivity : FlutterActivity() {
                 }
             }
 
-        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, "com.oakdev.nuria/device")
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, "com.oakdev.ayara/device")
             .setMethodCallHandler { call, result ->
                 if (call.method == "getAndroidId") {
                     val androidId = Settings.Secure.getString(

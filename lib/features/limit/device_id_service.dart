@@ -15,8 +15,8 @@ class DeviceIdService {
   static const _legacyDeviceKeyKey = 'nuria_device_key';
 
   // Secure storage keys
-  static const _secureInstallIdKey = 'nuria_install_id';
-  static const _secureDeviceKeyKey = 'nuria_install_key';
+  static const _secureInstallIdKey = 'ayara_install_id';
+  static const _secureDeviceKeyKey = 'ayara_install_key';
 
   // Secure storage (Keychain on iOS, Keystore on Android)
   static const FlutterSecureStorage _secure = FlutterSecureStorage(
@@ -105,7 +105,7 @@ class DeviceIdService {
   }
 
   static const MethodChannel _channel =
-      MethodChannel('com.oakdev.nuria/device');
+      MethodChannel('com.oakdev.ayara/device');
 
   String? _cachedHardwareId;
   bool _hardwareIdResolved = false;

@@ -6,9 +6,9 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:hijri/hijri_calendar.dart';
 import 'package:intl/intl.dart' hide TextDirection;
 import 'package:share_plus/share_plus.dart';
-import 'package:nuria/core/config/theme.dart';
-import 'package:nuria/features/qibla/services/prayer_time_service.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/features/qibla/services/prayer_time_service.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class MonthlyPrayerScreen extends StatefulWidget {
   final Position position;
@@ -79,7 +79,7 @@ class _MonthlyPrayerScreenState extends State<MonthlyPrayerScreen> {
     final monthLabel = DateFormat('MMMM y').format(DateTime(year, month));
 
     final buf = StringBuffer();
-    buf.writeln('🕌 Nuria — Prayer Times');
+    buf.writeln('🕌 Ayara — Prayer Times');
     buf.writeln(monthLabel);
     buf.writeln();
     buf.writeln('Day  | Fajr  | Dhuhr | Asr   | Maghrib | Isha');
@@ -92,7 +92,7 @@ class _MonthlyPrayerScreenState extends State<MonthlyPrayerScreen> {
       );
     }
     buf.writeln();
-    buf.writeln('Shared via Nuria — Islamic Guidance App');
+    buf.writeln('Shared via Ayara — Islamic Guidance App');
 
     SharePlus.instance.share(ShareParams(text: buf.toString()));
   }

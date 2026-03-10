@@ -11,29 +11,29 @@ import 'premium_service.dart';
 
 /// Product IDs MUST match exactly what you configure in App Store Connect / Play Console.
 ///
-/// Nuria naming:
+/// Ayara naming:
 /// - Plan: Grace (basic) and Blessed (upgrade)
 /// - Currency: Reflections (UI), stored as credits in backend payloads
 class BlessedProducts {
   /// 100 reflections top-up (unlocked after Blessed)
   ///
-  /// TODO: replace with your real Nuria product id.
-  static const String reflections100 = 'nuria_reflections_100';
+  /// TODO: replace with your real Ayara product id.
+  static const String reflections100 = 'ayara_reflections_100';
 
   /// 200 reflections top-up (unlocked after Blessed)
   ///
-  /// TODO: replace with your real Nuria product id.
-  static const String reflections200 = 'nuria_reflections_200';
+  /// TODO: replace with your real Ayara product id.
+  static const String reflections200 = 'ayara_reflections_200';
 
   /// 400 reflections top-up (unlocked after Blessed)
   ///
-  /// TODO: replace with your real Nuria product id.
-  static const String reflections400 = 'nuria_reflections_400';
+  /// TODO: replace with your real Ayara product id.
+  static const String reflections400 = 'ayara_reflections_400';
 
   /// Blessed one-time upgrade (entitlement + bonus reflections)
   ///
-  /// TODO: replace with your real Nuria product id.
-  static const String blessed = 'com.oakdev.nuria.premium';
+  /// TODO: replace with your real Ayara product id.
+  static const String blessed = 'com.oakdev.ayara.premium';
 
   static const Set<String> all = {
     reflections100,

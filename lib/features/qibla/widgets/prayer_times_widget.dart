@@ -1,12 +1,12 @@
 // lib/features/qibla/widgets/prayer_times_widget.dart
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:nuria/core/config/theme.dart';
-import 'package:nuria/features/qibla/presentation/monthly_prayer_screen.dart';
-import 'package:nuria/features/qibla/services/location_service.dart';
-import 'package:nuria/features/qibla/services/prayer_time_service.dart';
-import 'package:nuria/features/qibla/widgets/prayer_notification_section.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/features/qibla/presentation/monthly_prayer_screen.dart';
+import 'package:ayara/features/qibla/services/location_service.dart';
+import 'package:ayara/features/qibla/services/prayer_time_service.dart';
+import 'package:ayara/features/qibla/widgets/prayer_notification_section.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class PrayerTimesWidget extends StatelessWidget {
   final Position? position;

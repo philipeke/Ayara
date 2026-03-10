@@ -1,7 +1,7 @@
 {
   "@@locale": "ht",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Chwazi lang ou a",
   "languageSelectSub": "Ou ka chanje sa a pita nan Paramèt",
@@ -83,7 +83,7 @@
   "close": "Fèmen",
   "copiedToast": "Kopye nan clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Liy subjè pataje/ imel ki enkli etikèt kategori a.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Aparèy sa a deja liye avèk yon lòt kont. Tanpri konekte avèk kont orijinal la.",
 
   "premiumTitle": "Mòd Barakah",
-  "premiumSubtitleBasic": "Louvri eksperyans Nuria konplè a.",
+  "premiumSubtitleBasic": "Louvri eksperyans Ayara konplè a.",
   "premiumSubtitleChampion": "Ou se Barakah. Bezwen plis refleksyon?",
 
   "premiumCurrentPlan": "Plan kounye a: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Chajman magasen…",
 
   "blessedTitle": "Mòd Barakah",
-  "blessedSubtitleGrace": "Louvri eksperyans Nuria konplè a.",
+  "blessedSubtitleGrace": "Louvri eksperyans Ayara konplè a.",
   "blessedSubtitleBlessed": "Ou se Barakah. Bezwen plis refleksyon?",
 
   "blessedCurrentPlan": "Plan kounye a: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Ou sou plan Estanda avèk refleksyon demaraj, ak ou rive limit la. Pou kontinye — ak louvri kategori premyòm — tansyon sou Barakah.",
   "graceBlockedCtaGoBlessed": "Gade opsyon Barakah anba",
 
-  "rateGuestMustSignIn": "Konekte pou itilize Nuria ak refleksyon ou.",
+  "rateGuestMustSignIn": "Konekte pou itilize Ayara ak refleksyon ou.",
 
   "guestNoCreditsTitle": "Mòd vizitè",
   "guestNoCreditsBody": "Kòm yon vizitè ou ka feyiye aplikasyon an, men ou pa ka itilize refleksyon. Konekte pita nan Paramèt pou itilize refleksyon ak louvri acha.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Pèmèt Nuria itilize kote mwen ye pou direksyon Qibla ak lè priye",
+  "locationConsentLabel": "Pèmèt Ayara itilize kote mwen ye pou direksyon Qibla ak lè priye",
   "locationConsentHint": "Itilize jis pou karakteristik sa yo. Kote ou ye janm pataje oswa sove.",
 
-  "askPageTitle": "Mande Nuria",
+  "askPageTitle": "Mande Ayara",
   "askPageDescription": "Mande nenpòt bagay sou imane, priye, vi, oswa pratik Islamik ak resevwa gad ki anrasin nan Koran ak Sunnah.",
   "askPageInputHint": "Tape kesyon ou a isit la…",
   "askPageSubmitCta": "Mande",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Kote mande",
-  "qiblaLocationNeededBody": "Pèmèt aksè kote pou Nuria ka kalkile direksyon Kaaba a nan Makkah soti kote ou ye.",
+  "qiblaLocationNeededBody": "Pèmèt aksè kote pou Ayara ka kalkile direksyon Kaaba a nan Makkah soti kote ou ye.",
   "qiblaOpenSettings": "Ouvri Paramèt",
   "qiblaCompassLoading": "Chèche pozisyon ou…",
   "qiblaTowardMecca": "Vè Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Kote mande",
-  "prayerTimesLocationNeededBody": "Pèmèt aksè kote pou Nuria ka kalkile lè priye egzak pou vil ou a.",
+  "prayerTimesLocationNeededBody": "Pèmèt aksè kote pou Ayara ka kalkile lè priye egzak pou vil ou a.",
   "prayerTimesNextLabel": "Vini",
   "prayerTimesDoneLabel": "Fè",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Aktive raple priye",
   "prayerNotificationsOpenSettings": "Ouvri paramèt notifikasyon",
   "prayerNotificationsDenied": "Notifikasyon dezaktive",
-  "prayerNotificationsDeniedHint": "Ale nan Paramèt ak pèmèt notifikasyon pou Nuria pou resevwa raple lè priye.",
+  "prayerNotificationsDeniedHint": "Ale nan Paramèt ak pèmèt notifikasyon pou Ayara pou resevwa raple lè priye.",
 
   "notificationsConsentLabel": "Pèmèt notifikasyon pou lè priye",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Ou konplete 99 souvnans Allah. Ke yo yon limyè pou kè ou.",
 
   "disclaimerTitle": "Sou gard aplikasyon sa a",
-  "disclaimerBody": "Nuria bay refleksyon Islamik, raple, ak kontni espirityèl pou sipòte vwayaj imane pèsonèl ou. Kontni sa a ofri pou rezon jeneral enfòmasyon ak enspirasyonal sèlman.\n\nNuria pa ranplase eskolaryè kalifye.\nGard nan aplikasyon sa a se pa sibstiti pou yon eskolye Islamik aprann, imam, mufti, oswa pwofesè fòme teyolojikman. Si ou gen kesyon sou dirèktiv relijye, zafè halal ak haram, oswa obligasyon relijye pèsonèl, tanpri chèche konsèy soti nan yon otorite relijye kalifye nan komunote ou a.\n\nAp aplikasyon sa a pa fè dirèktiv relijye.\nNuria pa fè detèminasyon otorite sou zafè fiqh (jiridik Islamik) oswa obligasyon relijye pèsonèl. Anyen isit la pa dwe trete kòm yon fatwa oswa enstriksyon relijye obligatwa.\n\nEntèpretasyon eskolye varye.\nIslamizm gen yon divèsite rich de tradisyon, lekòl panse (madhabs), ak opinyon eskolye. Kontni nan aplikasyon sa a reflete pèspektiv jeneral ak petèt pa represante chak tradisyon oswa lekòl egalman.\n\nKomunote zafè.\nAp aplikasyon sa a vize ankouraje angajman ou avèk tradisyon imane pandan yo respekte pwofondman wòl vital komunote lokal ou, imam, ak relijye. Nou ankouraje ou rete konekte avèk ak aprann soti nan pwofesè kalifye pre ou.",
+  "disclaimerBody": "Ayara bay refleksyon Islamik, raple, ak kontni espirityèl pou sipòte vwayaj imane pèsonèl ou. Kontni sa a ofri pou rezon jeneral enfòmasyon ak enspirasyonal sèlman.\n\nAyara pa ranplase eskolaryè kalifye.\nGard nan aplikasyon sa a se pa sibstiti pou yon eskolye Islamik aprann, imam, mufti, oswa pwofesè fòme teyolojikman. Si ou gen kesyon sou dirèktiv relijye, zafè halal ak haram, oswa obligasyon relijye pèsonèl, tanpri chèche konsèy soti nan yon otorite relijye kalifye nan komunote ou a.\n\nAp aplikasyon sa a pa fè dirèktiv relijye.\nAyara pa fè detèminasyon otorite sou zafè fiqh (jiridik Islamik) oswa obligasyon relijye pèsonèl. Anyen isit la pa dwe trete kòm yon fatwa oswa enstriksyon relijye obligatwa.\n\nEntèpretasyon eskolye varye.\nIslamizm gen yon divèsite rich de tradisyon, lekòl panse (madhabs), ak opinyon eskolye. Kontni nan aplikasyon sa a reflete pèspektiv jeneral ak petèt pa represante chak tradisyon oswa lekòl egalman.\n\nKomunote zafè.\nAp aplikasyon sa a vize ankouraje angajman ou avèk tradisyon imane pandan yo respekte pwofondman wòl vital komunote lokal ou, imam, ak relijye. Nou ankouraje ou rete konekte avèk ak aprann soti nan pwofesè kalifye pre ou.",
   "disclaimerClose": "Mwen konprann",
   "disclaimerInfoTooltip": "Sou gard aplikasyon sa a",
   "disclaimerSettingsSubtitle": "Pou rezon jeneral enfòmasyon sèlman. Toke pou li deklarasyon konplè.",

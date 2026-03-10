@@ -1,8 +1,8 @@
 // lib/features/premium/widgets/restore_purchases_section.dart
 import 'package:flutter/material.dart';
 
-import 'package:nuria/features/premium/purchase_controller.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/features/premium/purchase_controller.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class RestorePurchasesSection extends StatelessWidget {
   final bool busy;

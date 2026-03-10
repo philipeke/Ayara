@@ -1,7 +1,7 @@
 {
   "@@locale": "ro",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Alege-ți limba",
   "languageSelectSub": "Poți schimba aceasta mai târziu în Setări",
@@ -83,7 +83,7 @@
   "close": "Închide",
   "copiedToast": "Copiat în clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Linie de subiect email / partajare incluzând eticheta categoriei.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Acest dispozitiv este deja legat de alt cont. Conectează-te cu contul original.",
 
   "premiumTitle": "Modul Barakah",
-  "premiumSubtitleBasic": "Deblochează experiența completă Nuria.",
+  "premiumSubtitleBasic": "Deblochează experiența completă Ayara.",
   "premiumSubtitleChampion": "Ești în Barakah. Ai nevoie de mai multe reflecții?",
 
   "premiumCurrentPlan": "Plan curent: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Se încarcă magazinul…",
 
   "blessedTitle": "Modul Barakah",
-  "blessedSubtitleGrace": "Deblochează experiența completă Nuria.",
+  "blessedSubtitleGrace": "Deblochează experiența completă Ayara.",
   "blessedSubtitleBlessed": "Ești în Barakah. Ai nevoie de mai multe reflecții?",
 
   "blessedCurrentPlan": "Plan curent: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Ești pe planul Standard cu reflecții inițiale și ai atins limita. Pentru a continua — și debloca categoriile premium — upgrade la Barakah.",
   "graceBlockedCtaGoBlessed": "Vezi opțiunile Barakah mai jos",
 
-  "rateGuestMustSignIn": "Conectează-te pentru a folosi Nuria și reflecțiile tale.",
+  "rateGuestMustSignIn": "Conectează-te pentru a folosi Ayara și reflecțiile tale.",
 
   "guestNoCreditsTitle": "Mod oaspete",
   "guestNoCreditsBody": "Ca oaspete poți răsfoi aplicația, dar nu poți folosi reflecții. Conectează-te mai târziu în Setări pentru a folosi reflecții și debloca cumpărături.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Permite Nuria să-și folosească locația pentru direcția Qiblei și orele de rugăciune",
+  "locationConsentLabel": "Permite Ayara să-și folosească locația pentru direcția Qiblei și orele de rugăciune",
   "locationConsentHint": "Utilizat doar pentru aceste funcții. Locația ta nu este niciodată partajată sau stocată.",
 
-  "askPageTitle": "Întreabă Nuria",
+  "askPageTitle": "Întreabă Ayara",
   "askPageDescription": "Întreabă orice despre credință, rugăciune, viață sau practică islamică și primește îndrumări înrădăcinată în Coran și Sunnah.",
   "askPageInputHint": "Scrie-ți întrebarea aici…",
   "askPageSubmitCta": "Întreabă",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Locație necesară",
-  "qiblaLocationNeededBody": "Permite accesul la locație pentru ca Nuria să calculeze direcția Caabei în Makkah de la oriunde ești tu.",
+  "qiblaLocationNeededBody": "Permite accesul la locație pentru ca Ayara să calculeze direcția Caabei în Makkah de la oriunde ești tu.",
   "qiblaOpenSettings": "Deschide Setări",
   "qiblaCompassLoading": "Căutând poziția ta…",
   "qiblaTowardMecca": "Către Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Locație necesară",
-  "prayerTimesLocationNeededBody": "Permite accesul la locație pentru ca Nuria să calculeze orele exacte de rugăciune pentru orașul tău.",
+  "prayerTimesLocationNeededBody": "Permite accesul la locație pentru ca Ayara să calculeze orele exacte de rugăciune pentru orașul tău.",
   "prayerTimesNextLabel": "Următoarea",
   "prayerTimesDoneLabel": "Gata",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Activează reamintiri de rugăciune",
   "prayerNotificationsOpenSettings": "Deschide setările de notificări",
   "prayerNotificationsDenied": "Notificările sunt dezactivate",
-  "prayerNotificationsDeniedHint": "Mergi la Setări și permite notificările pentru Nuria pentru a primi reamintiri de orele de rugăciune.",
+  "prayerNotificationsDeniedHint": "Mergi la Setări și permite notificările pentru Ayara pentru a primi reamintiri de orele de rugăciune.",
 
   "notificationsConsentLabel": "Permite notificări pentru orele de rugăciune",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Ai completat 99 de amintituri ale lui Allah. Să fie o lumină pentru inima ta.",
 
   "disclaimerTitle": "Despre îndrumările acestei aplicații",
-  "disclaimerBody": "Nuria oferă reflecții islamice, reamintiri și conținut spiritual pentru a susține călătoria ta personală de credință. Acest conținut este oferit doar în scopuri informative și inspiraționale.\n\nNuria nu înlocuiește învățăturile calificate.\nÎndrumările din această aplicație nu sunt un substitut pentru un învățat islamic calificat, imam, mufti sau profesor cu pregătire teologică. Dacă ai întrebări despre hotărârile religioase, aspecte halal și haram, sau obligații religioase personale, te rugăm să ceri sfaturi de la o autoritate religioasă calificată în comunitatea ta.\n\nAceastă aplicație nu emite hotărâri religioase.\nNuria nu face determinări autoritare în probleme de fiqh (jurisprudență islamică) sau obligații religioase personale. Nimic din aceasta nu trebuie tratat ca fatwa sau instrucțiune religioasă obligatorie.\n\nInterpretările învățate variază.\nIslamul cuprinde o bogată diversitate de tradiții, școli de gândire (madhabs) și opinii învățate. Conținutul din această aplicație reflectă perspective generale și poate să nu reprezinte în mod egal fiecare tradiție sau școală.\n\nComunitatea contează.\nAceastă aplicație urmărește să-ți încurajeze implicarea în tradiții de credință, respectând profund rolul vital al moschei locale, imamului și comunității religioase. Te încurajez să rămâi conectat și să înveți de la învățații calificați din apropiere.",
+  "disclaimerBody": "Ayara oferă reflecții islamice, reamintiri și conținut spiritual pentru a susține călătoria ta personală de credință. Acest conținut este oferit doar în scopuri informative și inspiraționale.\n\nAyara nu înlocuiește învățăturile calificate.\nÎndrumările din această aplicație nu sunt un substitut pentru un învățat islamic calificat, imam, mufti sau profesor cu pregătire teologică. Dacă ai întrebări despre hotărârile religioase, aspecte halal și haram, sau obligații religioase personale, te rugăm să ceri sfaturi de la o autoritate religioasă calificată în comunitatea ta.\n\nAceastă aplicație nu emite hotărâri religioase.\nAyara nu face determinări autoritare în probleme de fiqh (jurisprudență islamică) sau obligații religioase personale. Nimic din aceasta nu trebuie tratat ca fatwa sau instrucțiune religioasă obligatorie.\n\nInterpretările învățate variază.\nIslamul cuprinde o bogată diversitate de tradiții, școli de gândire (madhabs) și opinii învățate. Conținutul din această aplicație reflectă perspective generale și poate să nu reprezinte în mod egal fiecare tradiție sau școală.\n\nComunitatea contează.\nAceastă aplicație urmărește să-ți încurajeze implicarea în tradiții de credință, respectând profund rolul vital al moschei locale, imamului și comunității religioase. Te încurajez să rămâi conectat și să înveți de la învățații calificați din apropiere.",
   "disclaimerClose": "Înțeleg",
   "disclaimerInfoTooltip": "Despre îndrumările acestei aplicații",
   "disclaimerSettingsSubtitle": "Doar în scopuri informative generale. Atinge pentru a citi disclaimer-ul complet.",

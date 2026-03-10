@@ -4,15 +4,15 @@ import 'package:cloud_functions/cloud_functions.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 
-import 'package:nuria/features/limit/usage_service.dart';
-import 'package:nuria/features/limit/device_id_service.dart';
-import 'package:nuria/models/iap_entitlement.dart';
-import 'package:nuria/models/iap_transaction.dart';
+import 'package:ayara/features/limit/usage_service.dart';
+import 'package:ayara/features/limit/device_id_service.dart';
+import 'package:ayara/models/iap_entitlement.dart';
+import 'package:ayara/models/iap_transaction.dart';
 
 class IapResult {
   final bool ok;
 
-  /// Client plan naming (Nuria):
+  /// Client plan naming (Ayara):
   /// "grace" | "blessed" | "guest"
   final String plan;
 
@@ -149,7 +149,7 @@ class PremiumService {
 
     await userRef.set(
       <String, dynamic>{
-        // Nuria plan naming
+        // Ayara plan naming
         'plan': 'blessed',
         'testBlessed': true,
         'updatedAt': FieldValue.serverTimestamp(),

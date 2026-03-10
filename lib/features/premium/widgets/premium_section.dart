@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:nuria/features/limit/usage_service.dart';
-import 'package:nuria/features/premium/purchase_controller.dart';
-import 'package:nuria/features/premium/widgets/glass_button.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/features/limit/usage_service.dart';
+import 'package:ayara/features/premium/purchase_controller.dart';
+import 'package:ayara/features/premium/widgets/glass_button.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 enum _PremiumAction { buyBlessed, buy100, buy200, buy400 }
 

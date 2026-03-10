@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-import 'package:nuria/core/config/theme.dart';
-import 'package:nuria/core/services/locale_service.dart';
-import 'package:nuria/core/utils/language_meta.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/core/services/locale_service.dart';
+import 'package:ayara/core/utils/language_meta.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class LanguageGateScreen extends StatefulWidget {
   const LanguageGateScreen({
@@ -521,7 +521,7 @@ class _LanguageGateScreenState extends State<LanguageGateScreen> {
 
                   // ✅ Brand name from l10n
                   Text(
-                    t.appTitle, // "Nuria"
+                    t.appTitle, // "Ayara"
                     style: theme.textTheme.headlineLarge?.copyWith(
                       color: Colors.white,
                       fontWeight: FontWeight.w900,

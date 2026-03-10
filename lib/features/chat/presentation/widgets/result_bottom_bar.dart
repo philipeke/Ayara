@@ -1,7 +1,7 @@
 // lib/features/chat/presentation/widgets/result_bottom_bar.dart
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class ResultBottomBar extends StatefulWidget {
   const ResultBottomBar({

@@ -1,9 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:nuria/features/limit/usage_service.dart';
+import 'package:ayara/features/limit/usage_service.dart';
 
 void main() {
-  group('UsageService.updateFromMap (Nuria)', () {
+  group('UsageService.updateFromMap (Ayara)', () {
     test('parses nested credits (total/used/remaining) and recomputes usage', () {
       final s = UsageService.instance;
       s.clear();

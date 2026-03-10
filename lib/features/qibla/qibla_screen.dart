@@ -4,15 +4,15 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:geolocator/geolocator.dart';
 
-import 'package:nuria/core/config/theme.dart';
-import 'package:nuria/l10n/app_localizations.dart';
-import 'package:nuria/features/chat/services/chat_service.dart';
+import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/l10n/app_localizations.dart';
+import 'package:ayara/features/chat/services/chat_service.dart';
 
-import 'package:nuria/features/qibla/widgets/qibla_compass_widget.dart';
-import 'package:nuria/features/qibla/widgets/prayer_times_widget.dart';
-import 'package:nuria/features/qibla/ask_result_screen.dart';
-import 'package:nuria/core/utils/error_ui.dart';
-import 'package:nuria/features/limit/usage_service.dart';
+import 'package:ayara/features/qibla/widgets/qibla_compass_widget.dart';
+import 'package:ayara/features/qibla/widgets/prayer_times_widget.dart';
+import 'package:ayara/features/qibla/ask_result_screen.dart';
+import 'package:ayara/core/utils/error_ui.dart';
+import 'package:ayara/features/limit/usage_service.dart';
 
 class QiblaScreen extends StatefulWidget {
   final PageController pageController;
@@ -359,7 +359,7 @@ class _QiblaScreenState extends State<QiblaScreen> {
                   ),
                 ),
 
-                // ── Ask Nuria section ──────────────────────────────────────
+                // ── Ask Ayara section ──────────────────────────────────────
                 SliverToBoxAdapter(
                   child: Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),

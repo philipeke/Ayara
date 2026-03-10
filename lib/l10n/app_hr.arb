@@ -1,7 +1,7 @@
 {
   "@@locale": "hr",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Odaberite svoj jezik",
   "languageSelectSub": "Možete ga promijeniti kasnije u Postavkama",
@@ -83,7 +83,7 @@
   "close": "Zatvori",
   "copiedToast": "Kopirano u međuspremnik",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Redak predmeta e-pošte / dijeljenja uključujući oznaku kategorije.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Ovaj uređaj je već povezan sa drugim računom. Molimo prijavia se sa izvornim računom.",
 
   "premiumTitle": "Barakah način",
-  "premiumSubtitleBasic": "Otključajte potpuno Nuria iskustvo.",
+  "premiumSubtitleBasic": "Otključajte potpuno Ayara iskustvo.",
   "premiumSubtitleChampion": "Vi ste Barakah. Trebate više razmišljanja?",
 
   "premiumCurrentPlan": "Trenutni plan: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Učitavanje trgovine…",
 
   "blessedTitle": "Barakah način",
-  "blessedSubtitleGrace": "Otključajte potpuno Nuria iskustvo.",
+  "blessedSubtitleGrace": "Otključajte potpuno Ayara iskustvo.",
   "blessedSubtitleBlessed": "Vi ste Barakah. Trebate više razmišljanja?",
 
   "blessedCurrentPlan": "Trenutni plan: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Ste na Standard planu sa početnim razmišljanjima i dostigli ste granicu. Za nastavak — i otključavanje premium kategorija — unaprijedite na Barakah.",
   "graceBlockedCtaGoBlessed": "Pogledajte Barakah opcije dolje",
 
-  "rateGuestMustSignIn": "Prijavite se za korištenje Nuria i svojih razmišljanja.",
+  "rateGuestMustSignIn": "Prijavite se za korištenje Ayara i svojih razmišljanja.",
 
   "guestNoCreditsTitle": "Gostovski način",
   "guestNoCreditsBody": "Kao gost možete pregledavati aplikaciju, ali ne možete koristiti razmišljanja. Prijava kasnije u Postavkama za korištenje razmišljanja i otključavanje kupnji.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Dopusti Nuria da koristi moju lokaciju za Qibla smjer i vremena molitvi",
+  "locationConsentLabel": "Dopusti Ayara da koristi moju lokaciju za Qibla smjer i vremena molitvi",
   "locationConsentHint": "Koristi se samo za te funkcionalnosti. Tvoja lokacija nikada nije dijeljena niti pohranjena.",
 
-  "askPageTitle": "Pitaj Nuria",
+  "askPageTitle": "Pitaj Ayara",
   "askPageDescription": "Pitaj bilo što o vjeri, molitvi, životu ili islamskoj praksi i primи vodstvo ukorijenjeno u Kur'anu i Sunnahu.",
   "askPageInputHint": "Upiši svoje pitanje ovdje…",
   "askPageSubmitCta": "Pitaj",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Potrebna lokacija",
-  "qiblaLocationNeededBody": "Dopusti pristup lokaciji kako bi Nuria mogla izračunati smjer Kaabe u Mekki odakle god da si.",
+  "qiblaLocationNeededBody": "Dopusti pristup lokaciji kako bi Ayara mogla izračunati smjer Kaabe u Mekki odakle god da si.",
   "qiblaOpenSettings": "Otvori Postavke",
   "qiblaCompassLoading": "Pronalaženje tvoje pozicije…",
   "qiblaTowardMecca": "Prema Mekki",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Potrebna lokacija",
-  "prayerTimesLocationNeededBody": "Dopusti pristup lokaciji kako bi Nuria mogla izračunati točna vremena molitvi za tvoj grad.",
+  "prayerTimesLocationNeededBody": "Dopusti pristup lokaciji kako bi Ayara mogla izračunati točna vremena molitvi za tvoj grad.",
   "prayerTimesNextLabel": "Sljedeća",
   "prayerTimesDoneLabel": "Gotovo",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Omogući podsjetnik molitvi",
   "prayerNotificationsOpenSettings": "Otvori postavke obavijesti",
   "prayerNotificationsDenied": "Obavijesti su onemogućene",
-  "prayerNotificationsDeniedHint": "Idi u Postavke i dopusti obavijesti za Nuria kako bi primio podsjetnik vremena molitvi.",
+  "prayerNotificationsDeniedHint": "Idi u Postavke i dopusti obavijesti za Ayara kako bi primio podsjetnik vremena molitvi.",
 
   "notificationsConsentLabel": "Dopusti obavijesti za vremena molitvi",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Dovršio si 99 sjećanja Allaha. Neka budu svjetlost za tvoje srce.",
 
   "disclaimerTitle": "O vođu ovog programa",
-  "disclaimerBody": "Nuria pruža islamska razmišljanja, podsjetnik i duhovni sadržaj za podršku svojoj osobnoj putanji vjere. Ovaj sadržaj se nudi samo u opće informativne i inspirativne svrhe.\n\nNuria ne zamjenjuje kvalificirane učenjake.\nVodstvo u ovoj aplikaciji nije zamjena za učenog islamskog učenjaka, imama, muftija ili teološki obučenog učitelja. Ako imate pitanja o vjerskim pravilima, halal i haram stvarima ili osobnim vjerskim obvezama, molimo obratite se kvalificiranom vjerskom autoritetu u svojoj zajednici.\n\nOva aplikacija ne izdaje vjerska rješenja.\nNuria ne čini autoritativne određene o stvarima fiqa (islamske jurisprudencije) ili osobnim vjerskim obvezama. Ništa ovdje ne trebate tretirati kao fetvu ili obvezujuću vjersku uputu.\n\nUčene interpretacije razlikuju se.\nIslam obuhvaća bogatstvo tradicija, škola mišljenja (madhabs) i učenih mišljenja. Sadržaj u ovoj aplikaciji odražava opće perspektive i nije mogao predstavljati svaku tradiciju jednako.\n\nZajednica je važna.\nOva aplikacija ima za cilj ohrabriti vašu angažiranost s vjerskim tradicijama dok duboko poštuje vitalnu ulogu vaše mjesne mošeje, imama i vjerske zajednice. Ohrabrujemo vas da ostanete povezani i učite od kvalificiranih učitelja blizu vas.",
+  "disclaimerBody": "Ayara pruža islamska razmišljanja, podsjetnik i duhovni sadržaj za podršku svojoj osobnoj putanji vjere. Ovaj sadržaj se nudi samo u opće informativne i inspirativne svrhe.\n\nAyara ne zamjenjuje kvalificirane učenjake.\nVodstvo u ovoj aplikaciji nije zamjena za učenog islamskog učenjaka, imama, muftija ili teološki obučenog učitelja. Ako imate pitanja o vjerskim pravilima, halal i haram stvarima ili osobnim vjerskim obvezama, molimo obratite se kvalificiranom vjerskom autoritetu u svojoj zajednici.\n\nOva aplikacija ne izdaje vjerska rješenja.\nAyara ne čini autoritativne određene o stvarima fiqa (islamske jurisprudencije) ili osobnim vjerskim obvezama. Ništa ovdje ne trebate tretirati kao fetvu ili obvezujuću vjersku uputu.\n\nUčene interpretacije razlikuju se.\nIslam obuhvaća bogatstvo tradicija, škola mišljenja (madhabs) i učenih mišljenja. Sadržaj u ovoj aplikaciji odražava opće perspektive i nije mogao predstavljati svaku tradiciju jednako.\n\nZajednica je važna.\nOva aplikacija ima za cilj ohrabriti vašu angažiranost s vjerskim tradicijama dok duboko poštuje vitalnu ulogu vaše mjesne mošeje, imama i vjerske zajednice. Ohrabrujemo vas da ostanete povezani i učite od kvalificiranih učitelja blizu vas.",
   "disclaimerClose": "Razumijem",
   "disclaimerInfoTooltip": "O vođu ovog programa",
   "disclaimerSettingsSubtitle": "Za opće informativne svrhe samo. Dodirnи za čitanje potpune suglasnosti.",

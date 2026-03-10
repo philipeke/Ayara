@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-/// Nuria brand colors — Sunni Islamic deep green / gold palette.
+/// Ayara brand colors — Shia Islamic deep green / gold palette.
 abstract final class AppColors {
   // ── Deep Greens (backgrounds / primary) ────────────────────────────────
   static const islamicDeep  = Color(0xFF040A06);  // near-black with green — main bg

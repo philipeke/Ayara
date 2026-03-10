@@ -1,7 +1,7 @@
 {
   "@@locale": "ku",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Zimanê xwe hilbijêrin",
   "languageSelectSub": "Hûn dikarin vê paştar di Mîhengên de biguherînin",
@@ -83,7 +83,7 @@
   "close": "Bigire",
   "copiedToast": "Kopîkirî bo navborî",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Mijarê e-nameyê / parçekirî ku kategorî jî pê de heye.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Vî desthêlî jixwe bi hesabek din girêdayî ye. Tu bi hesabê xweya berê têkevin.",
 
   "premiumTitle": "Mode Berekat",
-  "premiumSubtitleBasic": "Mîhenka Nuria a tije vekî.",
+  "premiumSubtitleBasic": "Mîhenka Ayara a tije vekî.",
   "premiumSubtitleChampion": "Tu Berekat yî. Fikirînên din hewce ye?",
 
   "premiumCurrentPlan": "Plan ya vir: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Store bar tê kirin…",
 
   "blessedTitle": "Mode Berekat",
-  "blessedSubtitleGrace": "Mîhenka Nuria a tije vekî.",
+  "blessedSubtitleGrace": "Mîhenka Ayara a tije vekî.",
   "blessedSubtitleBlessed": "Tu Berekat yî. Fikirînên din hewce ye?",
 
   "blessedCurrentPlan": "Plan ya vir: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Tu di plana Standard de yî û fikirînên destpêkî ne hatiye bikaranîn. Da ku domdar bî û kategoriyên premium vekî — Berekat bilind bike.",
   "graceBlockedCtaGoBlessed": "Vebijêrên Berekat li jêr bibîne",
 
-  "rateGuestMustSignIn": "Têkevin da Nuria bikar anî û fikirînên xwe.",
+  "rateGuestMustSignIn": "Têkevin da Ayara bikar anî û fikirînên xwe.",
 
   "guestNoCreditsTitle": "Mode mêvanan",
   "guestNoCreditsBody": "Wek mêvanan tu dikî appê bibînî, lê fikirîn bikar nakî. Paştar di Mîhengan de têkevin û fikirîn bikar anî.",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Bi Nuria de cih bikar tîne bo rêya Qîbla û demên salatan",
+  "locationConsentLabel": "Bi Ayara de cih bikar tîne bo rêya Qîbla û demên salatan",
   "locationConsentHint": "Tenê ji bo ev taybetmendî tê bikar anîn. Cih te nabe parçe û tomar nabe.",
 
-  "askPageTitle": "Pirsê Nuria",
+  "askPageTitle": "Pirsê Ayara",
   "askPageDescription": "Pirsê derbarê îman, salat, jiyan, yan pratîka Îslamî û bersiva rêbazî Qur'an û Sunnah vistîne.",
   "askPageInputHint": "Pirsê xwe li vir binivîse…",
   "askPageSubmitCta": "Pirs",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Cih hewce ye",
-  "qiblaLocationNeededBody": "Cih rê vekî da Nuria rêya Ka'beya Mekke bi kes û cihê xwe hesab bike.",
+  "qiblaLocationNeededBody": "Cih rê vekî da Ayara rêya Ka'beya Mekke bi kes û cihê xwe hesab bike.",
   "qiblaOpenSettings": "Mîheng vekî",
   "qiblaCompassLoading": "Cihê xwe tê dîtin…",
   "qiblaTowardMecca": "Ber bi Mekke",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Êvar",
   "prayerTimesIsha": "Şev",
   "prayerTimesLocationNeededTitle": "Cih hewce ye",
-  "prayerTimesLocationNeededBody": "Cih rê vekî da Nuria demên salatan bi akes cihê xwe hesab bike.",
+  "prayerTimesLocationNeededBody": "Cih rê vekî da Ayara demên salatan bi akes cihê xwe hesab bike.",
   "prayerTimesNextLabel": "Pêş",
   "prayerTimesDoneLabel": "Temam",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Diyarkirinên salatan çalak bike",
   "prayerNotificationsOpenSettings": "Mîhengên diyarkirinê vekî",
   "prayerNotificationsDenied": "Diyarkirî nabe",
-  "prayerNotificationsDeniedHint": "Mîhengê here û Nuria ji bo îşaretên salatan destûr bide.",
+  "prayerNotificationsDeniedHint": "Mîhengê here û Ayara ji bo îşaretên salatan destûr bide.",
 
   "notificationsConsentLabel": "Diyarkirî rê vekî ji bo demên salatan",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Tu 99 caran Yezdan yada kiré. Ew ji bo dilda xwe ronak bin.",
 
   "disclaimerTitle": "Derbarê rêbazîya appê de",
-  "disclaimerBody": "Nuria fikirînên Îslamî, diyarkirî, û naverokê ruhani peyda dike da rêwanişta îmanî xwe piştgirî bike. Ev naverok ji bo mebesta zaniyarî û ilhamî ye.\n\nNuria xuwendekarê ramandar nade cih.\nRêbazîya vî appê ne şûna xuwendekarê ramandar, imamê, muftîyê, yan moalem teolojî ye. Ger pirsên we li ser rewa û herema Îslamî yan îjtihadên kesên ne ya xwe hûn tune xuwendekarê ramandar ji civakê xwe difikirin.\n\nVî appê rewa ne dike.\nNuria ne fatwaya Îslamî ya berî bike. Tiştek li vir ne hûn wek rewa yan fermanê ramandar bibînin.\n\nFêhma xuwendekaran cuda ye.\nÎslam ew ê berfirehî û rêbaziyen cu mehd û fikiran ya çêkirî heye. Naverok di vî appê de perspektîvên giştî dide û dibe ku ne hemû rêbaziyên mî rê pare hebe.\n\nCivaka ye girîng.\nVî appê armanca wî ye hûn bi rêbaziyen îman re têkilî bide û rêzgirtina girîngî ya cihekê mî, imam, û civaka ruhani heye. Me her hûn danîştin bi xuwendekarên ramandaran ya bilîndî yên nêzî xwe.",
+  "disclaimerBody": "Ayara fikirînên Îslamî, diyarkirî, û naverokê ruhani peyda dike da rêwanişta îmanî xwe piştgirî bike. Ev naverok ji bo mebesta zaniyarî û ilhamî ye.\n\nAyara xuwendekarê ramandar nade cih.\nRêbazîya vî appê ne şûna xuwendekarê ramandar, imamê, muftîyê, yan moalem teolojî ye. Ger pirsên we li ser rewa û herema Îslamî yan îjtihadên kesên ne ya xwe hûn tune xuwendekarê ramandar ji civakê xwe difikirin.\n\nVî appê rewa ne dike.\nAyara ne fatwaya Îslamî ya berî bike. Tiştek li vir ne hûn wek rewa yan fermanê ramandar bibînin.\n\nFêhma xuwendekaran cuda ye.\nÎslam ew ê berfirehî û rêbaziyen cu mehd û fikiran ya çêkirî heye. Naverok di vî appê de perspektîvên giştî dide û dibe ku ne hemû rêbaziyên mî rê pare hebe.\n\nCivaka ye girîng.\nVî appê armanca wî ye hûn bi rêbaziyen îman re têkilî bide û rêzgirtina girîngî ya cihekê mî, imam, û civaka ruhani heye. Me her hûn danîştin bi xuwendekarên ramandaran ya bilîndî yên nêzî xwe.",
   "disclaimerClose": "Ez fêhm kim",
   "disclaimerInfoTooltip": "Derbarê rêbazîya appê de",
   "disclaimerSettingsSubtitle": "Ji bo mebesta zaniyarîyê. Bitikîn da pênahîya tije bixûyanî.",

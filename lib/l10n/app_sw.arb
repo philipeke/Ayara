@@ -1,7 +1,7 @@
 {
   "@@locale": "sw",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Chagua lugha yako",
   "languageSelectSub": "Unaweza kubadilisha hii baadaye katika Mipangilio",
@@ -83,7 +83,7 @@
   "close": "Funga",
   "copiedToast": "Kinakiliwa kwenye ubao",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Mstari wa karatasi/sambaza ikiwamo lebo la kategoria.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Kifaa hiki tayari kimeunganishwa na akaunti nyingine. Tafadhali ingia kwa akaunti ya mwanzo.",
 
   "premiumTitle": "Muundo wa Barakah",
-  "premiumSubtitleBasic": "Fungua uzoefu kamili wa Nuria.",
+  "premiumSubtitleBasic": "Fungua uzoefu kamili wa Ayara.",
   "premiumSubtitleChampion": "Uko katika Barakah. Unahitaji tafakari zaidi?",
 
   "premiumCurrentPlan": "Mpango wa sasa: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Inapakia duka…",
 
   "blessedTitle": "Muundo wa Barakah",
-  "blessedSubtitleGrace": "Fungua uzoefu kamili wa Nuria.",
+  "blessedSubtitleGrace": "Fungua uzoefu kamili wa Ayara.",
   "blessedSubtitleBlessed": "Uko katika Barakah. Unahitaji tafakari zaidi?",
 
   "blessedCurrentPlan": "Mpango wa sasa: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Uko katika mpango wa Kawaida yenye tafakari za kuanza, na umefika kikomo. Ili kuendelea — na kufungua kategoria za kawaida — boreshwa hadi Barakah.",
   "graceBlockedCtaGoBlessed": "Angalia michaguo ya Barakah chini",
 
-  "rateGuestMustSignIn": "Ingia ili kutumia Nuria na tafakari zako.",
+  "rateGuestMustSignIn": "Ingia ili kutumia Ayara na tafakari zako.",
 
   "guestNoCreditsTitle": "Muundo wa mgeni",
   "guestNoCreditsBody": "Kama mgeni unaweza kuchunguza programu, lakini hauwezi kutumia tafakari. Ingia baadaye katika Mipangilio ili kutumia tafakari na kufungua ununuzi.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Ruhusu Nuria itumie mahali yangu kwa mwongozo wa Qibla na muda wa sala",
+  "locationConsentLabel": "Ruhusu Ayara itumie mahali yangu kwa mwongozo wa Qibla na muda wa sala",
   "locationConsentHint": "Inatumika tu kwa sifa hizi. Mahali yako haulizwi au kuhifadhiwa.",
 
-  "askPageTitle": "Uliza Nuria",
+  "askPageTitle": "Uliza Ayara",
   "askPageDescription": "Uliza kitu chochote kuhusu imani, sala, maisha, au kaida ya Kiislamu na pokea mwongozo unaozingatiwa katika Quraan na Sunnah.",
   "askPageInputHint": "Andika swali lako hapa…",
   "askPageSubmitCta": "Uliza",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Mahali inahitajika",
-  "qiblaLocationNeededBody": "Ruhusu kufikia mahali ili Nuria ihesabu mwongozo wa Kaaba katika Makkah kutoka popote unapo.",
+  "qiblaLocationNeededBody": "Ruhusu kufikia mahali ili Ayara ihesabu mwongozo wa Kaaba katika Makkah kutoka popote unapo.",
   "qiblaOpenSettings": "Fungua Mipangilio",
   "qiblaCompassLoading": "Inatuafuta mahali…",
   "qiblaTowardMecca": "Kuelekea Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Mahali inahitajika",
-  "prayerTimesLocationNeededBody": "Ruhusu kufikia mahali ili Nuria ihesabu muda wa sala sahihi kwa jiji lako.",
+  "prayerTimesLocationNeededBody": "Ruhusu kufikia mahali ili Ayara ihesabu muda wa sala sahihi kwa jiji lako.",
   "prayerTimesNextLabel": "Ijayo",
   "prayerTimesDoneLabel": "Kumalizia",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Wezesha tadhimari za sala",
   "prayerNotificationsOpenSettings": "Fungua mipangilio ya tadhimari",
   "prayerNotificationsDenied": "Tadhimari zimezimwa",
-  "prayerNotificationsDeniedHint": "Jeni Mipangilio na ruhusu tadhimari kwa Nuria ili kupokea tadhimari za muda wa sala.",
+  "prayerNotificationsDeniedHint": "Jeni Mipangilio na ruhusu tadhimari kwa Ayara ili kupokea tadhimari za muda wa sala.",
 
   "notificationsConsentLabel": "Ruhusu tadhimari kwa muda wa sala",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Umekamata 99 ukumbusho wa Allah. Wacha ziwe nuru kwa moyo wako.",
 
   "disclaimerTitle": "Kuhusu mwongozo wa programu hii",
-  "disclaimerBody": "Nuria inatoa tafakari za Kiislamu, tadhimari, na maudhui ya roho kumwetea safari yako ya imani. Maudhui haya yametolewa kwa kawaida ya habari na lengo la kuumiza tu.\n\nNuria haibadilishi ujuzi.\nMwongozo katika programu hii sio hadhi kwa alima ya Kiislamu iliyojifunza, imam, mufti, au mwalimu aliyefunzwa kwa kibibliya. Ikiwa una maswali kuhusu amri ya kidini, mswada na haram, au wajibu wa dini ya kibinafsi, tafadhali tafuta ushauri kutoka kwa mamlaka ya kidini iliyojifunza katika jamii yako.\n\nProgramu hii haitoi amri za kidini.\nNuria haitoi uamuzi wa mamlaka juu ya mswada (fiqh ya Kiislamu) au wajibu wa kidini wa kibinafsi. Kitu chochote hapa kisistukiwe kama fatwa au maagizo ya kidini yenye kuzingatia.\n\nUtambuzi wa kibibliya hutofautiana.\nUislamu una nganda tajiriba ya jadi, maadhimisho ya mafundisho (madhabs), na maoni ya kibibliya. Maudhui katika programu hii yanakumbuka mtazamo wa jumla na haiwezi kuwakilisha kila jadi au shule kwa usawa.\n\nJamii inasuluhisha.\nProgramu hii inalenga kukamatiana na unganisho lako na jadi ya imani huku ikiheshimu kabisa jukumu muhimu la msikiti wako wa mitaa, imam, na jamii yako ya kidini. Tunahimiza ubu kuwa unaunganishwa na kujifunza kutoka kwa wanafunzi iliyojifunza karibu na wewe.",
+  "disclaimerBody": "Ayara inatoa tafakari za Kiislamu, tadhimari, na maudhui ya roho kumwetea safari yako ya imani. Maudhui haya yametolewa kwa kawaida ya habari na lengo la kuumiza tu.\n\nAyara haibadilishi ujuzi.\nMwongozo katika programu hii sio hadhi kwa alima ya Kiislamu iliyojifunza, imam, mufti, au mwalimu aliyefunzwa kwa kibibliya. Ikiwa una maswali kuhusu amri ya kidini, mswada na haram, au wajibu wa dini ya kibinafsi, tafadhali tafuta ushauri kutoka kwa mamlaka ya kidini iliyojifunza katika jamii yako.\n\nProgramu hii haitoi amri za kidini.\nAyara haitoi uamuzi wa mamlaka juu ya mswada (fiqh ya Kiislamu) au wajibu wa kidini wa kibinafsi. Kitu chochote hapa kisistukiwe kama fatwa au maagizo ya kidini yenye kuzingatia.\n\nUtambuzi wa kibibliya hutofautiana.\nUislamu una nganda tajiriba ya jadi, maadhimisho ya mafundisho (madhabs), na maoni ya kibibliya. Maudhui katika programu hii yanakumbuka mtazamo wa jumla na haiwezi kuwakilisha kila jadi au shule kwa usawa.\n\nJamii inasuluhisha.\nProgramu hii inalenga kukamatiana na unganisho lako na jadi ya imani huku ikiheshimu kabisa jukumu muhimu la msikiti wako wa mitaa, imam, na jamii yako ya kidini. Tunahimiza ubu kuwa unaunganishwa na kujifunza kutoka kwa wanafunzi iliyojifunza karibu na wewe.",
   "disclaimerClose": "Naelewa",
   "disclaimerInfoTooltip": "Kuhusu mwongozo wa programu hii",
   "disclaimerSettingsSubtitle": "Kwa kawaida ya ujuzi tu. Gusa kusoma maoni kamili.",

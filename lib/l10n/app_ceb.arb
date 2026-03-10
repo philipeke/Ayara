@@ -1,7 +1,7 @@
 {
   "@@locale": "ceb",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Piliin ang iyong wika",
   "languageSelectSub": "Maaari mong baguhin ito sa ibang pagkakataon sa Settings",
@@ -83,7 +83,7 @@
   "close": "Isara",
   "copiedToast": "Nakopya sa clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Ang device na ito ay naka-link na sa ibang account. Mangyaring mag-sign in gamit ang orihinal na account.",
 
   "premiumTitle": "Barakah mode",
-  "premiumSubtitleBasic": "I-unlock ang buong Nuria experience.",
+  "premiumSubtitleBasic": "I-unlock ang buong Ayara experience.",
   "premiumSubtitleChampion": "Ikaw ay Barakah. Kailangan mo ng higit pang mga pag-isip?",
 
   "premiumCurrentPlan": "Kasalukuyang plan: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Naglo-load ng store...",
 
   "blessedTitle": "Barakah mode",
-  "blessedSubtitleGrace": "I-unlock ang buong Nuria experience.",
+  "blessedSubtitleGrace": "I-unlock ang buong Ayara experience.",
   "blessedSubtitleBlessed": "Ikaw ay Barakah. Kailangan mo ng higit pang mga pag-isip?",
 
   "blessedCurrentPlan": "Kasalukuyang plan: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Ikaw ay nasa Standard plan na may starter pag-isip, at naabot mo na ang limitasyon. Upang magpatuloy — at i-unlock ang mga premium na kategorya — mag-upgrade sa Barakah.",
   "graceBlockedCtaGoBlessed": "Tingnan ang mga opsyon ng Barakah sa ibaba",
 
-  "rateGuestMustSignIn": "Mag-sign in upang gamitin ang Nuria at ang iyong mga pag-isip.",
+  "rateGuestMustSignIn": "Mag-sign in upang gamitin ang Ayara at ang iyong mga pag-isip.",
 
   "guestNoCreditsTitle": "Bisitang modo",
   "guestNoCreditsBody": "Bilang bisita maaari kang mag-browse sa app, ngunit hindi ka maaaring gumamit ng mga pag-isip. Mag-log in sa ibang pagkakataon sa Settings upang gamitin ang mga pag-isip at i-unlock ang mga pagbili.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Payagan ang Nuria na gamitin ang aking lokasyon para sa direksyon ng Qibla at oras ng salat",
+  "locationConsentLabel": "Payagan ang Ayara na gamitin ang aking lokasyon para sa direksyon ng Qibla at oras ng salat",
   "locationConsentHint": "Ginagamit lamang para sa mga feature na ito. Ang iyong lokasyon ay hindi kailanman ibinabahagi o iniimbak.",
 
-  "askPageTitle": "Magtanong sa Nuria",
+  "askPageTitle": "Magtanong sa Ayara",
   "askPageDescription": "Magtanong ng anuman tungkol sa pananiniwala, salat, buhay, o Islamic na kasanayan at makatanggap ng gabay na nakatuon sa Quran at Sunnah.",
   "askPageInputHint": "I-type ang iyong tanong dito…",
   "askPageSubmitCta": "Magtanong",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Kinakailangan ang lokasyon",
-  "qiblaLocationNeededBody": "Payagan ang access sa lokasyon upang ang Nuria ay maaaring kalkulahin ang direksyon ng Kaaba sa Makkah mula sa nasaan ka man.",
+  "qiblaLocationNeededBody": "Payagan ang access sa lokasyon upang ang Ayara ay maaaring kalkulahin ang direksyon ng Kaaba sa Makkah mula sa nasaan ka man.",
   "qiblaOpenSettings": "Buksan ang Mga Setting",
   "qiblaCompassLoading": "Naghahanap ng iyong posisyon…",
   "qiblaTowardMecca": "Tungo sa Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Kinakailangan ang lokasyon",
-  "prayerTimesLocationNeededBody": "Payagan ang access sa lokasyon upang ang Nuria ay maaaring kalkulahin ang tumpak na oras ng salat para sa iyong lungsod.",
+  "prayerTimesLocationNeededBody": "Payagan ang access sa lokasyon upang ang Ayara ay maaaring kalkulahin ang tumpak na oras ng salat para sa iyong lungsod.",
   "prayerTimesNextLabel": "Susunod",
   "prayerTimesDoneLabel": "Tapos",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Paganahin ang mga abiso ng salat",
   "prayerNotificationsOpenSettings": "Buksan ang mga setting ng notification",
   "prayerNotificationsDenied": "Ang mga notipikasyon ay hindi pinagana",
-  "prayerNotificationsDeniedHint": "Pumunta sa Mga Setting at payagan ang mga notification para sa Nuria upang makatanggap ng mga abiso ng oras ng salat.",
+  "prayerNotificationsDeniedHint": "Pumunta sa Mga Setting at payagan ang mga notification para sa Ayara upang makatanggap ng mga abiso ng oras ng salat.",
 
   "notificationsConsentLabel": "Payagan ang mga notification para sa oras ng salat",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Kumpleto mo ang 99 na pag-aalala sa Allah. Maging liwanag ang mga ito para sa iyong puso.",
 
   "disclaimerTitle": "Tungkol sa gabay ng app na ito",
-  "disclaimerBody": "Nuria ay nagbibigay ng Islamic na pag-isip, mga pagsasabing-sabing, at espiritual na nilalaman upang suportahan ang iyong personal na paglalakbay ng pananiniwala. Ang nilalaman na ito ay inaalok para sa pangkalahatang impormasyon at inspirasyon lamang.\n\nAng Nuria ay hindi palitan ang qualified scholarship.\nAng gabay sa app na ito ay hindi kapalit ng isang natutong Islamic scholar, imam, mufti, o theologian na nagsanay na guro. Kung mayroon kang mga tanong tungkol sa mga patakaran ng relihiyon, halal at haram na mga bagay, o personal na obligasyon sa relihiyon, mangyaring humingi ng payo mula sa isang qualified na religious authority sa iyong komunidad.\n\nAng app na ito ay hindi naglalabas ng mga patakaran ng relihiyon.\nAng Nuria ay hindi gumagawa ng authoritative na mga determinasyon sa mga bagay ng fiqh (Islamic jurisprudence) o personal na obligasyon sa relihiyon. Walang dapat dito ay tratuhin bilang isang fatwa o binding na religious instruction.\n\nAng mga scholarly interpretation ay nag-iiba.\nAng Islam ay sumasaklaw sa mayamang diversity ng mga tradisyon, mga paaralan ng pag-iisip (madhabs), at mga scholarly na opinyon. Ang nilalaman sa app na ito ay sumasalamin sa pangkalahatang pananaw at maaaring hindi kumatawan sa bawat tradisyon o paaralan nang pantay.\n\nAng komunidad ay mahalaga.\nAng app na ito ay naglalayong hikayatin ang iyong pakikipag-ugnayan sa mga tradisyon ng pananiniwala habang malalim na nagpaparespeto sa mahalagang papel ng iyong lokal na masjid, imam, at relihiyosong komunidad. Hinihikayat kami na manatili kang konektado sa at matuto mula sa mga qualified na guro malapit sa iyo.",
+  "disclaimerBody": "Ayara ay nagbibigay ng Islamic na pag-isip, mga pagsasabing-sabing, at espiritual na nilalaman upang suportahan ang iyong personal na paglalakbay ng pananiniwala. Ang nilalaman na ito ay inaalok para sa pangkalahatang impormasyon at inspirasyon lamang.\n\nAng Ayara ay hindi palitan ang qualified scholarship.\nAng gabay sa app na ito ay hindi kapalit ng isang natutong Islamic scholar, imam, mufti, o theologian na nagsanay na guro. Kung mayroon kang mga tanong tungkol sa mga patakaran ng relihiyon, halal at haram na mga bagay, o personal na obligasyon sa relihiyon, mangyaring humingi ng payo mula sa isang qualified na religious authority sa iyong komunidad.\n\nAng app na ito ay hindi naglalabas ng mga patakaran ng relihiyon.\nAng Ayara ay hindi gumagawa ng authoritative na mga determinasyon sa mga bagay ng fiqh (Islamic jurisprudence) o personal na obligasyon sa relihiyon. Walang dapat dito ay tratuhin bilang isang fatwa o binding na religious instruction.\n\nAng mga scholarly interpretation ay nag-iiba.\nAng Islam ay sumasaklaw sa mayamang diversity ng mga tradisyon, mga paaralan ng pag-iisip (madhabs), at mga scholarly na opinyon. Ang nilalaman sa app na ito ay sumasalamin sa pangkalahatang pananaw at maaaring hindi kumatawan sa bawat tradisyon o paaralan nang pantay.\n\nAng komunidad ay mahalaga.\nAng app na ito ay naglalayong hikayatin ang iyong pakikipag-ugnayan sa mga tradisyon ng pananiniwala habang malalim na nagpaparespeto sa mahalagang papel ng iyong lokal na masjid, imam, at relihiyosong komunidad. Hinihikayat kami na manatili kang konektado sa at matuto mula sa mga qualified na guro malapit sa iyo.",
   "disclaimerClose": "Nakaintindi ako",
   "disclaimerInfoTooltip": "Tungkol sa gabay ng app na ito",
   "disclaimerSettingsSubtitle": "Para sa pangkalahatang impormasyon lamang. Mag-tap upang basahin ang buong disclaimer.",

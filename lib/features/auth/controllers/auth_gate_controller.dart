@@ -9,8 +9,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
-import 'package:nuria/core/config/policy_constants.dart';
-import 'package:nuria/core/services/locale_service.dart';
+import 'package:ayara/core/config/policy_constants.dart';
+import 'package:ayara/core/services/locale_service.dart';
 
 class AuthBootstrapResult {
   final bool termsAccepted;
@@ -36,9 +36,9 @@ class AuthGateController {
   static const bool _disableAnonymousLinkForDebug = false;
 
   // Services ID / redirect (behövs främst för web-flow / plugin på Android)
-  static const String _appleServiceId = 'com.oakdev.nuria.service';
+  static const String _appleServiceId = 'com.oakdev.ayara.service';
   static final Uri _appleRedirectUri =
-      Uri.parse('https://nuria-mobile-app.firebaseapp.com/__/auth/handler');
+      Uri.parse('https://ayara-mobile-app.firebaseapp.com/__/auth/handler');
 
   // Guards to prevent double-taps / parallel flows (stability).
   bool _authInFlight = false;

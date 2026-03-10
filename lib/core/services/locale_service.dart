@@ -7,7 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 /// Supports both language-only codes ("sv") and BCP-47 tags ("sv-SE").
 /// Internally we store what the UI selects (tag if available).
 class LocaleService {
-  static const _key = 'nuria_locale_code';
+  static const _key = 'ayara_locale_code';
 
   /// Save the selected locale code/tag (e.g. 'en', 'sv', 'sv-SE').
   static Future<void> setSavedLocaleCode(String code) async {

@@ -1,4 +1,4 @@
-# CLAUDE.md — Nuria Development Rules
+# CLAUDE.md — Ayara Development Rules
 
 ## Project Philosophy
 

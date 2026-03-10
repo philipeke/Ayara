@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "nuria-mobile-app"
-  }
+    "default": "ayara-mobile-app"
+  },
+  "targets": {},
+  "etags": {}
 }

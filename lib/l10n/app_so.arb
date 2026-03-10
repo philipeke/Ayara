@@ -1,7 +1,7 @@
 {
   "@@locale": "so",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Dooro luqaddaada",
   "languageSelectSub": "Waxaad badali kartaa tan kadib Xogga",
@@ -83,7 +83,7 @@
   "close": "Xir",
   "copiedToast": "Koobeyay clipboard-ka",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Aaladdanu waa la xidhnay koonta kale. Fadlan ku soo gal koonta asalka ah.",
 
   "premiumTitle": "Barakah mode",
-  "premiumSubtitleBasic": "Furay noolosha Nuria oo dhan.",
+  "premiumSubtitleBasic": "Furay noolosha Ayara oo dhan.",
   "premiumSubtitleChampion": "Adiga waxaad tahay Barakah. Walaaca intar ah miyaad baahan?",
 
   "premiumCurrentPlan": "Nidaam hadda: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Lagu barbaarin store…",
 
   "blessedTitle": "Barakah mode",
-  "blessedSubtitleGrace": "Furay noolosha Nuria oo dhan.",
+  "blessedSubtitleGrace": "Furay noolosha Ayara oo dhan.",
   "blessedSubtitleBlessed": "Adiga waxaad tahay Barakah. Walaaca intar ah miyaad baahan?",
 
   "blessedCurrentPlan": "Nidaam hadda: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Adika waxaad jirtaa Standard nidaam oo walaaca hore, iyo waxaad gaadh qaybta xad. Si aad sii waadata - iyo furato qaybaha yar - upgraydi Barakah.",
   "graceBlockedCtaGoBlessed": "Eeg Barakah xulka hoos",
 
-  "rateGuestMustSignIn": "Ku soo gal si aad isticmaasho Nuria iyo walaacaadada.",
+  "rateGuestMustSignIn": "Ku soo gal si aad isticmaasho Ayara iyo walaacaadada.",
 
   "guestNoCreditsTitle": "Mode duuduuban",
   "guestNoCreditsBody": "Iska duuduuban waxaad hesho kartaa kaydka app-ka, laakiin walaaca ma isticmaashin karno. Ku soo gal kaddib Xogga si aad walaaca isticmaasho iyo bargado.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "U oggaal Nuria inay isticmaasho meesha si ay u diido Qibla iyo wakhtiyada salah",
+  "locationConsentLabel": "U oggaal Ayara inay isticmaasho meesha si ay u diido Qibla iyo wakhtiyada salah",
   "locationConsentHint": "Waxaa loo isticmaashaa qaybaha kaas oo kaliya. Meesha adiga ayaa la ma fadhiiyin ama kaydiye.",
 
-  "askPageTitle": "Weydi Nuria",
+  "askPageTitle": "Weydi Ayara",
   "askPageDescription": "Weydi wax ku saabsan imaan, salah, nolol, ama walaaca Islaamka iyo hel hagga saldhiga lagu taas yahay Qur'aanka iyo Sunnah.",
   "askPageInputHint": "Qor weydiga halkan…",
   "askPageSubmitCta": "Weydi",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Mesha loo baahan",
-  "qiblaLocationNeededBody": "U oggaal meesha si Nuria ay u xisaabin kartaa jaada Kaaba Makkah halka aad jirta.",
+  "qiblaLocationNeededBody": "U oggaal meesha si Ayara ay u xisaabin kartaa jaada Kaaba Makkah halka aad jirta.",
   "qiblaOpenSettings": "Furay Xogga",
   "qiblaCompassLoading": "Radaadis meeshada…",
   "qiblaTowardMecca": "Jaad Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Mesha loo baahan",
-  "prayerTimesLocationNeededBody": "U oggaal meesha si Nuria ay u xisaabin kartaa wakhtiyada salah oo sax magaaloada.",
+  "prayerTimesLocationNeededBody": "U oggaal meesha si Ayara ay u xisaabin kartaa wakhtiyada salah oo sax magaaloada.",
   "prayerTimesNextLabel": "Xigi",
   "prayerTimesDoneLabel": "Dhammayay",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Furay oofada salah",
   "prayerNotificationsOpenSettings": "Furay xogga oofada",
   "prayerNotificationsDenied": "Oofadu waa la xiray",
-  "prayerNotificationsDeniedHint": "Tag Xogga iyo u oggaal oofada Nuria si ay helato oofada wakhtiga salah.",
+  "prayerNotificationsDeniedHint": "Tag Xogga iyo u oggaal oofada Ayara si ay helato oofada wakhtiga salah.",
 
   "notificationsConsentLabel": "U oggaal oofada wakhtiyada salah",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Waxaad dhammaysay 99 xusuusta Allah. Ay noqoto iftiin qalbigaada.",
 
   "disclaimerTitle": "Ku saabsan hagga app-ka",
-  "disclaimerBody": "Nuria waxay bixintaa walaaca Islaamka, oofada, iyo waxyaabaha ruhiga si ay u taageeraan socdaalka imaan-kaaga gaarka ah. Waxyaabahani waxaa lagu bixiyaa ujeedda aqooneed iyo inspiraashineed kaliya.\n\nNuria waxay bedeli karto caqli weyne.\nHagga app-ka waxay tahay bedel ma ah caalim xigmad Islaamka, imam, mufti, ama macallim lagu barbaarin. Haddii aad qoraal iyo diin buug yeedhay, fadlan raadi caalim xigmad bulshada.\n\nApp-ka waxay ma samayn doonto amarka diin.\nNuria waxay ma samayn doonto heshiisin xigmad Islaamka ama walaaca diin gaarka ah. Waxyaabahan ma lagu eedeyn karaan fatwa ama amarka diin.\n\nCaaliyada iska dhaaf-dhaaf.\nIslaamka waxa kay jira halista wiiqo oo caqli leh, iskool fikrad, iyo aragti caaliyad. Waxyaabaha app-ka waxay muuqalaan aragtida guud iyo waxa yeelan karo tariikhda kasta.\n\nBulshada waxay mahad leh.\nApp-kaani waxuu dhiirigeliyaa socdaalka imaan-kaaga qaybaha qaybtan iyo sayga weynaa qadriga mosque-kaaga, imam, iyo bulshada diin-ta. Waxaa lagu dabaaqaa inaad la nool tahay iyo ka barto caalimyada hadhow.",
+  "disclaimerBody": "Ayara waxay bixintaa walaaca Islaamka, oofada, iyo waxyaabaha ruhiga si ay u taageeraan socdaalka imaan-kaaga gaarka ah. Waxyaabahani waxaa lagu bixiyaa ujeedda aqooneed iyo inspiraashineed kaliya.\n\nAyara waxay bedeli karto caqli weyne.\nHagga app-ka waxay tahay bedel ma ah caalim xigmad Islaamka, imam, mufti, ama macallim lagu barbaarin. Haddii aad qoraal iyo diin buug yeedhay, fadlan raadi caalim xigmad bulshada.\n\nApp-ka waxay ma samayn doonto amarka diin.\nAyara waxay ma samayn doonto heshiisin xigmad Islaamka ama walaaca diin gaarka ah. Waxyaabahan ma lagu eedeyn karaan fatwa ama amarka diin.\n\nCaaliyada iska dhaaf-dhaaf.\nIslaamka waxa kay jira halista wiiqo oo caqli leh, iskool fikrad, iyo aragti caaliyad. Waxyaabaha app-ka waxay muuqalaan aragtida guud iyo waxa yeelan karo tariikhda kasta.\n\nBulshada waxay mahad leh.\nApp-kaani waxuu dhiirigeliyaa socdaalka imaan-kaaga qaybaha qaybtan iyo sayga weynaa qadriga mosque-kaaga, imam, iyo bulshada diin-ta. Waxaa lagu dabaaqaa inaad la nool tahay iyo ka barto caalimyada hadhow.",
   "disclaimerClose": "Waxaan fahmi",
   "disclaimerInfoTooltip": "Ku saabsan hagga app-ka",
   "disclaimerSettingsSubtitle": "Ujeedda aqooneed oo kaliya. Taabo si aad akhriyso qoraalka buuxa.",

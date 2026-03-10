@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import 'package:nuria/models/app_user.dart';
+import 'package:ayara/models/app_user.dart';
 
 class UsageSnapshot {
   /// If user was allowed (from checkAndConsumePrompt)
@@ -40,7 +40,7 @@ class UsageSnapshot {
   });
 
   // ---------------------------------------------------------------------------
-  // ✅ Reflections aliases (Nuria naming)
+  // ✅ Reflections aliases (Ayara naming)
   // ---------------------------------------------------------------------------
 
   int get reflectionsUsed => creditsUsed;

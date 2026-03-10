@@ -1,7 +1,7 @@
 {
   "@@locale": "cs",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Zvolte si svůj jazyk",
   "languageSelectSub": "Později to můžete změnit v Nastavení",
@@ -83,7 +83,7 @@
   "close": "Zavřít",
   "copiedToast": "Zkopírováno do schránky",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Řádek předmětu e-mailu / sdílení včetně štítku kategorie.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Toto zařízení je již propojeno s jiným účtem. Přihlaste se prosím původním účtem.",
 
   "premiumTitle": "Režim Barakah",
-  "premiumSubtitleBasic": "Odemkněte plný zážitek Nuria.",
+  "premiumSubtitleBasic": "Odemkněte plný zážitek Ayara.",
   "premiumSubtitleChampion": "Jste v režimu Barakah. Potřebujete více reflexí?",
 
   "premiumCurrentPlan": "Aktuální plán: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Načítání obchodu…",
 
   "blessedTitle": "Režim Barakah",
-  "blessedSubtitleGrace": "Odemkněte plný zážitek Nuria.",
+  "blessedSubtitleGrace": "Odemkněte plný zážitek Ayara.",
   "blessedSubtitleBlessed": "Jste v režimu Barakah. Potřebujete více reflexí?",
 
   "blessedCurrentPlan": "Aktuální plán: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Jste na plánu Standardní se startovacími reflexemi a dosáhli jste limitu. Chcete-li pokračovat a odemknout prémiové kategorie, upgradujte na Barakah.",
   "graceBlockedCtaGoBlessed": "Podívejte se na možnosti Barakah níže",
 
-  "rateGuestMustSignIn": "Přihlaste se a používejte Nuria a vaše reflexe.",
+  "rateGuestMustSignIn": "Přihlaste se a používejte Ayara a vaše reflexe.",
 
   "guestNoCreditsTitle": "Režim hosta",
   "guestNoCreditsBody": "Jako host můžete procházet aplikaci, ale nemůžete používat reflexe. Později se přihlaste v Nastavení a používejte reflexe a odemykejte nákupy.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Povolit Nuria používat mou polohu pro směr Qibly a doby modliteb",
+  "locationConsentLabel": "Povolit Ayara používat mou polohu pro směr Qibly a doby modliteb",
   "locationConsentHint": "Používáno pouze pro tyto funkce. Vaše poloha není nikdy sdílena ani ukládána.",
 
-  "askPageTitle": "Zeptej se Nuria",
+  "askPageTitle": "Zeptej se Ayara",
   "askPageDescription": "Zeptejte se cokoliv o víře, modlitbě, životě nebo islámských zvycích a obdržíte vedení vycházející z Koránu a Sunny.",
   "askPageInputHint": "Napište svou otázku zde…",
   "askPageSubmitCta": "Zeptat se",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Poloha požadována",
-  "qiblaLocationNeededBody": "Povolte přístup k poloze, aby Nuria mohla vypočítat směr Kaaby v Mekce z místa, kde se nacházíte.",
+  "qiblaLocationNeededBody": "Povolte přístup k poloze, aby Ayara mohla vypočítat směr Kaaby v Mekce z místa, kde se nacházíte.",
   "qiblaOpenSettings": "Otevřít Nastavení",
   "qiblaCompassLoading": "Hledání vaší polohy…",
   "qiblaTowardMecca": "Směrem na Mekku",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Poloha požadována",
-  "prayerTimesLocationNeededBody": "Povolte přístup k poloze, aby Nuria mohla vypočítat přesné časy modliteb pro vaše město.",
+  "prayerTimesLocationNeededBody": "Povolte přístup k poloze, aby Ayara mohla vypočítat přesné časy modliteb pro vaše město.",
   "prayerTimesNextLabel": "Příští",
   "prayerTimesDoneLabel": "Hotovo",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Povolit připomínky modliteb",
   "prayerNotificationsOpenSettings": "Otevřít nastavení oznámení",
   "prayerNotificationsDenied": "Oznámení jsou vypnuta",
-  "prayerNotificationsDeniedHint": "Přejděte do Nastavení a povolte oznámení pro Nuria, abyste obdrželi připomenutí o časech modliteb.",
+  "prayerNotificationsDeniedHint": "Přejděte do Nastavení a povolte oznámení pro Ayara, abyste obdrželi připomenutí o časech modliteb.",
 
   "notificationsConsentLabel": "Povolit oznámení pro časy modliteb",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Dokončili jste 99 vzpomínek na Alláha. Nechť jsou světlem pro tvé srdce.",
 
   "disclaimerTitle": "O vedení v této aplikaci",
-  "disclaimerBody": "Nuria poskytuje islámské reflexe, připomenutí a duchovní obsah na podporu vaší osobní cesty víry. Tento obsah je nabízen pouze pro obecné informační a inspirační účely.\n\nNuria nenahrazuje kvalifikované učení.\nVedení v této aplikaci není náhradou za učeného islámského učence, imáma, muftího nebo teologicky vyškoleného učitele. Pokud máte otázky ohledně náboženských norem, halálních a harámových záležitostí nebo osobních náboženských povinností, prosím vyhledejte radu kvalifikované náboženské autority ve své komunitě.\n\nTato aplikace nevydává náboženská rozhodnutí.\nNuria neprovádí autorizovaná rozhodnutí v otázkách fiqhu (islámské jurisprudence) nebo osobních náboženských povinností. Nic zde by nemělo být považováno za fatvu nebo závazný náboženský pokyn.\n\nUčené interpretace se liší.\nIslámu zahrnuje bohaté rozdělení tradic, škol myšlení (madhaby) a učených názorů. Obsah v této aplikaci odráží obecné perspektivy a nemusí rovnoměrně zastupovat každou tradici nebo školu.\n\nKomunita je důležitá.\nTato aplikace se snaží podporovat vaši angažovanost v tradičních věrách a hluboko respektuje důležitou roli vaší místní mešity, imáma a náboženské komunity. Vyzýváme vás, abyste zůstali připojeni a učili se od kvalifikovaných učitelů v blízkosti vás.",
+  "disclaimerBody": "Ayara poskytuje islámské reflexe, připomenutí a duchovní obsah na podporu vaší osobní cesty víry. Tento obsah je nabízen pouze pro obecné informační a inspirační účely.\n\nAyara nenahrazuje kvalifikované učení.\nVedení v této aplikaci není náhradou za učeného islámského učence, imáma, muftího nebo teologicky vyškoleného učitele. Pokud máte otázky ohledně náboženských norem, halálních a harámových záležitostí nebo osobních náboženských povinností, prosím vyhledejte radu kvalifikované náboženské autority ve své komunitě.\n\nTato aplikace nevydává náboženská rozhodnutí.\nAyara neprovádí autorizovaná rozhodnutí v otázkách fiqhu (islámské jurisprudence) nebo osobních náboženských povinností. Nic zde by nemělo být považováno za fatvu nebo závazný náboženský pokyn.\n\nUčené interpretace se liší.\nIslámu zahrnuje bohaté rozdělení tradic, škol myšlení (madhaby) a učených názorů. Obsah v této aplikaci odráží obecné perspektivy a nemusí rovnoměrně zastupovat každou tradici nebo školu.\n\nKomunita je důležitá.\nTato aplikace se snaží podporovat vaši angažovanost v tradičních věrách a hluboko respektuje důležitou roli vaší místní mešity, imáma a náboženské komunity. Vyzýváme vás, abyste zůstali připojeni a učili se od kvalifikovaných učitelů v blízkosti vás.",
   "disclaimerClose": "Rozumím",
   "disclaimerInfoTooltip": "O vedení v této aplikaci",
   "disclaimerSettingsSubtitle": "Pouze pro obecné informační účely. Klepněte, abyste si přečetli úplný právní disclaimer.",

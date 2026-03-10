@@ -5,5 +5,5 @@
  */
 process.env.DEVICE_SALT = 'test-device-salt';
 process.env.IAP_LEDGER_SALT = 'test-iap-salt';
-process.env.APPLE_BUNDLE_ID = 'com.oakdev.nuria.test';
-process.env.GOOGLE_PLAY_PACKAGE_NAME = 'com.oakdev.nuria.test';
+process.env.APPLE_BUNDLE_ID = 'com.oakdev.ayara.test';
+process.env.GOOGLE_PLAY_PACKAGE_NAME = 'com.oakdev.ayara.test';

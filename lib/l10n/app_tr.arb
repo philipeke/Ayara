@@ -1,7 +1,7 @@
 {
   "@@locale": "tr",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Dilinizi seçin",
   "languageSelectSub": "Bunu daha sonra Ayarlar'dan değiştirebilirsiniz",
@@ -83,7 +83,7 @@
   "close": "Kapat",
   "copiedToast": "Panoya kopyalandı",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Kategori etiketi içeren e-posta/paylaşım konu satırı.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Bu cihaz zaten başka bir hesaba bağlı. Lütfen orijinal hesapla giriş yapın.",
 
   "premiumTitle": "Barakah modu",
-  "premiumSubtitleBasic": "Nuria'nın tam deneyimini açın.",
+  "premiumSubtitleBasic": "Ayara'nın tam deneyimini açın.",
   "premiumSubtitleChampion": "Siz Barakah'tasınız. Daha fazla tefekkür gerekirse?",
 
   "premiumCurrentPlan": "Mevcut plan: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Mağaza yükleniyor…",
 
   "blessedTitle": "Barakah modu",
-  "blessedSubtitleGrace": "Nuria'nın tam deneyimini açın.",
+  "blessedSubtitleGrace": "Ayara'nın tam deneyimini açın.",
   "blessedSubtitleBlessed": "Siz Barakah'tasınız. Daha fazla tefekkür gerekirse?",
 
   "blessedCurrentPlan": "Mevcut plan: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Siz Standart planda başlangıç tefekkürü ile varınız ve sınıra ulaştınız. Devam etmek için — ve premium kategorileri açmak için — Barakah'a yükseltin.",
   "graceBlockedCtaGoBlessed": "Aşağıda Barakah seçeneklerini görün",
 
-  "rateGuestMustSignIn": "Nuria'yı kullanmak ve tefekkürlerinize erişmek için giriş yapın.",
+  "rateGuestMustSignIn": "Ayara'yı kullanmak ve tefekkürlerinize erişmek için giriş yapın.",
 
   "guestNoCreditsTitle": "Konuk modu",
   "guestNoCreditsBody": "Konuk olarak uygulamaya göz atabilirsiniz ancak tefekkür kullanamazsınız. Tefekkür kullanmak ve satın alımları açmak için daha sonra Ayarlar'dan giriş yapın.",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubeydullah (RA)",
   "dailyRoleModel59": "Ez-Zubeyr ibn el-Evvam (RA)",
 
-  "locationConsentLabel": "Nuria'nın kıble yönü ve namaz vakitleri için konumumu kullanmasını izin ver",
+  "locationConsentLabel": "Ayara'nın kıble yönü ve namaz vakitleri için konumumu kullanmasını izin ver",
   "locationConsentHint": "Yalnızca bu özellikler için kullanılır. Konumunuz hiçbir zaman paylaşılmaz veya depolanmaz.",
 
-  "askPageTitle": "Nuria'ya Sor",
+  "askPageTitle": "Ayara'ya Sor",
   "askPageDescription": "İman, namaz, hayat veya İslami pratik hakkında herhangi bir soruyu sorun ve Kur'an ve Sünnet'e dayalı rehberlik alın.",
   "askPageInputHint": "Sorunuzu buraya yazın…",
   "askPageSubmitCta": "Sor",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Konum gerekli",
-  "qiblaLocationNeededBody": "Nuria'nın neredeolursanız olun Kaabe'nin yönünü Mekke'den hesaplayabilmesi için konum erişimine izin verin.",
+  "qiblaLocationNeededBody": "Ayara'nın neredeolursanız olun Kaabe'nin yönünü Mekke'den hesaplayabilmesi için konum erişimine izin verin.",
   "qiblaOpenSettings": "Ayarları Aç",
   "qiblaCompassLoading": "Konumunuz bulunuyor…",
   "qiblaTowardMecca": "Mekke'ye Doğru",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Akşam",
   "prayerTimesIsha": "Yatsı",
   "prayerTimesLocationNeededTitle": "Konum gerekli",
-  "prayerTimesLocationNeededBody": "Nuria'nın şehriniz için doğru namaz vakitlerini hesaplayabilmesi için konum erişimine izin verin.",
+  "prayerTimesLocationNeededBody": "Ayara'nın şehriniz için doğru namaz vakitlerini hesaplayabilmesi için konum erişimine izin verin.",
   "prayerTimesNextLabel": "Sonraki",
   "prayerTimesDoneLabel": "Bitti",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Namaz hatırlatmalarını etkinleştir",
   "prayerNotificationsOpenSettings": "Bildirim ayarlarını aç",
   "prayerNotificationsDenied": "Bildirimler devre dışı",
-  "prayerNotificationsDeniedHint": "Ayarlar'a gidin ve Nuria için bildirimleri izin verin namaz vakitleri hatırlatmalarını almak için.",
+  "prayerNotificationsDeniedHint": "Ayarlar'a gidin ve Ayara için bildirimleri izin verin namaz vakitleri hatırlatmalarını almak için.",
 
   "notificationsConsentLabel": "Namaz vakitleri için bildirimlere izin ver",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Allah'ı 99 kez anışı tamamladınız. Bunlar kalbiniz için bir ışık olsun.",
 
   "disclaimerTitle": "Bu uygulamanın rehberliği hakkında",
-  "disclaimerBody": "Nuria, İslami tefekkürler, hatırlatmalar ve ruhani içerik sunarak imanınızın kişisel yolculuğunuzu desteklemektedir. Bu içerik sadece genel bilgiler ve ilham amaçlı sunulmuştur.\n\nNuria nitelikli alimliğin yerine geçmez.\nBu uygulamadaki rehberlik, öğrenmiş bir İslami alim, imam, müfti veya ilahi eğitimli bir öğretmenin yerine geçmez. Din hukuku, helal ve haram soruları veya kişisel dini yükümlülükler hakkında sorularınız varsa, lütfen cemaatinizde nitelikli bir dini otorite'den tavsiye isteyin.\n\nBu uygulama dini hüküm vermez.\nNuria, İslami fıkıh (İslami hukuk) veya kişisel dini yükümlülükleri üzerine yetkili tayin yapmaz. Buradaki hiçbir şey fetva veya bağlayıcı dini talimat olarak kabul edilmemelidir.\n\nAlim görüşleri değişir.\nİslam, bol mezhep gelenekleri, düşünce okul (mezheb) ve alim fikirlerini içerir. Bu uygulamadaki içerik genel perspektifi yansıtır ve her geleneği veya mezhebi eşit temsil etmeyebilir.\n\nCemaatin Önemi.\nBu uygulama imanı gelenekleri teşvik etmekte iken yerel camii, imam ve dini cemaatin hayati rolüne derin saygı gösterir. Yakın çevrenizdeki nitelikli öğretmenlerle bağlı kalmaya ve onlardan öğrenmeye sizi teşvik ederiz.",
+  "disclaimerBody": "Ayara, İslami tefekkürler, hatırlatmalar ve ruhani içerik sunarak imanınızın kişisel yolculuğunuzu desteklemektedir. Bu içerik sadece genel bilgiler ve ilham amaçlı sunulmuştur.\n\nAyara nitelikli alimliğin yerine geçmez.\nBu uygulamadaki rehberlik, öğrenmiş bir İslami alim, imam, müfti veya ilahi eğitimli bir öğretmenin yerine geçmez. Din hukuku, helal ve haram soruları veya kişisel dini yükümlülükler hakkında sorularınız varsa, lütfen cemaatinizde nitelikli bir dini otorite'den tavsiye isteyin.\n\nBu uygulama dini hüküm vermez.\nAyara, İslami fıkıh (İslami hukuk) veya kişisel dini yükümlülükleri üzerine yetkili tayin yapmaz. Buradaki hiçbir şey fetva veya bağlayıcı dini talimat olarak kabul edilmemelidir.\n\nAlim görüşleri değişir.\nİslam, bol mezhep gelenekleri, düşünce okul (mezheb) ve alim fikirlerini içerir. Bu uygulamadaki içerik genel perspektifi yansıtır ve her geleneği veya mezhebi eşit temsil etmeyebilir.\n\nCemaatin Önemi.\nBu uygulama imanı gelenekleri teşvik etmekte iken yerel camii, imam ve dini cemaatin hayati rolüne derin saygı gösterir. Yakın çevrenizdeki nitelikli öğretmenlerle bağlı kalmaya ve onlardan öğrenmeye sizi teşvik ederiz.",
   "disclaimerClose": "Anladım",
   "disclaimerInfoTooltip": "Bu uygulamanın rehberliği hakkında",
   "disclaimerSettingsSubtitle": "Sadece genel bilgiler için. Tüm sorumluluk hakkını oku için dokunun.",

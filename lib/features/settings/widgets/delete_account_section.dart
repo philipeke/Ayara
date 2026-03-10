@@ -1,6 +1,6 @@
 // lib/features/settings/widgets/delete_account_section.dart
 import 'package:flutter/material.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 import 'delete_account_button.dart';
 
 class DeleteAccountSection extends StatelessWidget {

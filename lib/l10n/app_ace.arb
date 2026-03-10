@@ -1,7 +1,7 @@
 {
   "@@locale": "ace",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Pileh bahsa droë",
   "languageSelectSub": "Droë jeut geuubah nyoe lé keuneubah dalam Setelan",
@@ -83,7 +83,7 @@
   "close": "Tutép",
   "copiedToast": "Disalin keu clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Perangkat nyoe udah terhubung keu akun laén. Masuk dengan akun asli.",
 
   "premiumTitle": "Mode Barakah",
-  "premiumSubtitleBasic": "Buka pengalaman Nuria nyang penuh.",
+  "premiumSubtitleBasic": "Buka pengalaman Ayara nyang penuh.",
   "premiumSubtitleChampion": "Droë udah Barakah. Peureulee laén renungan?",
 
   "premiumCurrentPlan": "Paket sekarang: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Memuat toko…",
 
   "blessedTitle": "Mode Barakah",
-  "blessedSubtitleGrace": "Buka pengalaman Nuria nyang penuh.",
+  "blessedSubtitleGrace": "Buka pengalaman Ayara nyang penuh.",
   "blessedSubtitleBlessed": "Droë udah Barakah. Peureulee laén renungan?",
 
   "blessedCurrentPlan": "Paket sekarang: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Droë berada pada paket Standar dengan renungan awal, dan udah mencapai batasnya. Keu melanjutkan — dan membuka kategori premium — tingkatkan keu Barakah.",
   "graceBlockedCtaGoBlessed": "Lihat pilihan Barakah di bawah",
 
-  "rateGuestMustSignIn": "Masuk keu menggunakan Nuria dan renungan droë.",
+  "rateGuestMustSignIn": "Masuk keu menggunakan Ayara dan renungan droë.",
 
   "guestNoCreditsTitle": "Mode tamu",
   "guestNoCreditsBody": "Sebagai tamu droë jeut menjelajahi aplikasi, tapi hana jeut menggunakan renungan. Masuk kemudian dalam Setelan keu menggunakan renungan dan membuka pembelian.",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Thalhah ibn Ubaidillah (RA)",
   "dailyRoleModel59": "Az-Zubair ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Izinkan Nuria menggunakan lokasi lôn keu arah Kiblat dan waktu salat",
+  "locationConsentLabel": "Izinkan Ayara menggunakan lokasi lôn keu arah Kiblat dan waktu salat",
   "locationConsentHint": "Hanya digunakan keu fitur-fitur nyoe. Lokasi droë hana pernah dibagikan atau disimpan.",
 
-  "askPageTitle": "Tanya Nuria",
+  "askPageTitle": "Tanya Ayara",
   "askPageDescription": "Tanya apa pun tentang iman, sembayang, kehidupan, atau praktik Islam dan terima bimbingan nyang beurakar dalam Quran dan Sunnah.",
   "askPageInputHint": "Tuleh pertanyaan droë di sini…",
   "askPageSubmitCta": "Tanya",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Lokasi diperlukan",
-  "qiblaLocationNeededBody": "Izinkan akses lokasi agar Nuria jeut menghitung arah Ka'bah di Makkah dari mana pun droë berada.",
+  "qiblaLocationNeededBody": "Izinkan akses lokasi agar Ayara jeut menghitung arah Ka'bah di Makkah dari mana pun droë berada.",
   "qiblaOpenSettings": "Buka Setelan",
   "qiblaCompassLoading": "Mencari posisi droë…",
   "qiblaTowardMecca": "Keu Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Magrib",
   "prayerTimesIsha": "Isya",
   "prayerTimesLocationNeededTitle": "Lokasi diperlukan",
-  "prayerTimesLocationNeededBody": "Izinkan akses lokasi agar Nuria jeut menghitung waktu salat nyang akurat keu kota droë.",
+  "prayerTimesLocationNeededBody": "Izinkan akses lokasi agar Ayara jeut menghitung waktu salat nyang akurat keu kota droë.",
   "prayerTimesNextLabel": "Berikutnya",
   "prayerTimesDoneLabel": "Selesai",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Aktifkan pengingat sembayang",
   "prayerNotificationsOpenSettings": "Buka setelan notifikasi",
   "prayerNotificationsDenied": "Notifikasi dinonaktifkan",
-  "prayerNotificationsDeniedHint": "Pergi ke Setelan dan izinkan notifikasi keu Nuria keu menerima pengingat waktu salat.",
+  "prayerNotificationsDeniedHint": "Pergi ke Setelan dan izinkan notifikasi keu Ayara keu menerima pengingat waktu salat.",
 
   "notificationsConsentLabel": "Izinkan notifikasi keu waktu sembayang",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Droë udah menyelesaikan 99 zikir kepada Allah. Semoga menjadi cahaya keu ateëmu.",
 
   "disclaimerTitle": "Tentang bimbingan aplikasi nyoe",
-  "disclaimerBody": "Nuria menyediakan renungan Islam, pengingat, dan konten rohani keu mendukung perjalanan iman pribadi droë. Konten nyoe ditawarkan hanya keu tujuan informasi umum dan inspirasi.\n\nNuria hana menggantikan ulama nyang berkualifikasi.\nBimbingan dalam aplikasi nyoe bukan pengganti ulama Islam, imam, mufti, atau guru nyang terlatih secara teologis. Jikajih droë memiliki pertanyaan tentang hukum agama, masalah halal dan haram, atau kewajiban agama pribadi, mohon cari saran dari otoritas agama nyang berkualifikasi di komunitas droë.\n\nAplikasi nyoe hana mengeluarkan putusan agama.\nNuria hana membuat penetapan resmi dalam masalah fiqih (yurisprudensi Islam) atau kewajiban agama pribadi. Hana ada nyang di sini harus dianggap sebagai fatwa atau instruksi agama nyang mengikat.\n\nInterpretasi ulama beragam.\nIslam mencakup kekayaan tradisi, mazhab, dan pendapat ulama nyang beragam. Konten dalam aplikasi nyoe mencerminkan perspektif umum dan mungkin hana mewakili setiap tradisi atau mazhab secara merata.\n\nKomunitas itu penting.\nAplikasi nyoe bertujuan keu mendorong keterlibatan droë dengan tradisi iman sekaligus sangat menghormati peran vital masjid, imam, dan komunitas agama setempat droë. Kami mendorong droë keu tetap terhubung dengan dan belajar dari guru-guru nyang berkualifikasi di dekat droë.",
+  "disclaimerBody": "Ayara menyediakan renungan Islam, pengingat, dan konten rohani keu mendukung perjalanan iman pribadi droë. Konten nyoe ditawarkan hanya keu tujuan informasi umum dan inspirasi.\n\nAyara hana menggantikan ulama nyang berkualifikasi.\nBimbingan dalam aplikasi nyoe bukan pengganti ulama Islam, imam, mufti, atau guru nyang terlatih secara teologis. Jikajih droë memiliki pertanyaan tentang hukum agama, masalah halal dan haram, atau kewajiban agama pribadi, mohon cari saran dari otoritas agama nyang berkualifikasi di komunitas droë.\n\nAplikasi nyoe hana mengeluarkan putusan agama.\nAyara hana membuat penetapan resmi dalam masalah fiqih (yurisprudensi Islam) atau kewajiban agama pribadi. Hana ada nyang di sini harus dianggap sebagai fatwa atau instruksi agama nyang mengikat.\n\nInterpretasi ulama beragam.\nIslam mencakup kekayaan tradisi, mazhab, dan pendapat ulama nyang beragam. Konten dalam aplikasi nyoe mencerminkan perspektif umum dan mungkin hana mewakili setiap tradisi atau mazhab secara merata.\n\nKomunitas itu penting.\nAplikasi nyoe bertujuan keu mendorong keterlibatan droë dengan tradisi iman sekaligus sangat menghormati peran vital masjid, imam, dan komunitas agama setempat droë. Kami mendorong droë keu tetap terhubung dengan dan belajar dari guru-guru nyang berkualifikasi di dekat droë.",
   "disclaimerClose": "Lôn paham",
   "disclaimerInfoTooltip": "Tentang bimbingan aplikasi nyoe",
   "disclaimerSettingsSubtitle": "Hanya keu tujuan informasi umum. Tekan keu membaca penafian lengkap.",

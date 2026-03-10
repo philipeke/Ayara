@@ -1,7 +1,7 @@
 {
   "@@locale": "ny",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Sankhani chinenero chanu",
   "languageSelectSub": "Mutha kusintha izi pambuyo pake mu Settings",
@@ -83,7 +83,7 @@
   "close": "Funika",
   "copiedToast": "Lemba mu clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Chipangizo chomwecho chili ndi akaunti ina. Pezani kulogina ndi akaunti yoyamba.",
 
   "premiumTitle": "Njira ya Barakah",
-  "premiumSubtitleBasic": "Wunika kachirembe cha Nuria.",
+  "premiumSubtitleBasic": "Wunika kachirembe cha Ayara.",
   "premiumSubtitleChampion": "Inu ndi Barakah. Mfuno kulingalira kwina?",
 
   "premiumCurrentPlan": "Plan yanu: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Kufufuza sitolo...",
 
   "blessedTitle": "Njira ya Barakah",
-  "blessedSubtitleGrace": "Wunika kachirembe cha Nuria.",
+  "blessedSubtitleGrace": "Wunika kachirembe cha Ayara.",
   "blessedSubtitleBlessed": "Inu ndi Barakah. Mfuno kulingalira kwina?",
 
   "blessedCurrentPlan": "Plan yanu: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Inu ndi plan ya Wamba ndi kulingalira kwa oyambira, ndi wakutha. Kuti kupitilize — ndi kukulitsa Barakah — kukulitsa Barakah.",
   "graceBlockedCtaGoBlessed": "Onani zosankha za Barakah pansipa",
 
-  "rateGuestMustSignIn": "Logina kuti mugwiritse Nuria ndi kulingalira kwanu.",
+  "rateGuestMustSignIn": "Logina kuti mugwiritse Ayara ndi kulingalira kwanu.",
 
   "guestNoCreditsTitle": "Njira ya mgeni",
   "guestNoCreditsBody": "Monga mgeni muntha kuwona app, koma simuntha kugwiritsa kulingalira. Logina pambuyo pake mu Settings kuti mugwiritse kulingalira ndi kukulitsa.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Lozezekan Nuria kuti igwiritse malo anga kwa chizindikiro ndi nthawi za mapipila",
+  "locationConsentLabel": "Lozezekan Ayara kuti igwiritse malo anga kwa chizindikiro ndi nthawi za mapipila",
   "locationConsentHint": "Likugwiritsidwa kwa zinthu izi okha. Malo anu siagauna kapena kusunga.",
 
-  "askPageTitle": "Funirani Nuria",
+  "askPageTitle": "Funirani Ayara",
   "askPageDescription": "Funani chilichonse pa chikhulupiriro, mapipila, moyo, kapena khalakha ya Islamic ndi mupeze ndondomeko yomwe ili mu Quran ndi Sunnah.",
   "askPageInputHint": "Lembani funso lanu...",
   "askPageSubmitCta": "Funirani",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Malo azifunika",
-  "qiblaLocationNeededBody": "Lozezekan malo kuti Nuria ikhale ndi ndege ya Kaaba pa Makkah kumene muli.",
+  "qiblaLocationNeededBody": "Lozezekan malo kuti Ayara ikhale ndi ndege ya Kaaba pa Makkah kumene muli.",
   "qiblaOpenSettings": "Ufuwupsi Settings",
   "qiblaCompassLoading": "Kufufuza malo anu...",
   "qiblaTowardMecca": "Mpaka Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Malo azifunika",
-  "prayerTimesLocationNeededBody": "Lozezekan malo kuti Nuria ikhale ndi nthawi zabwino za mapipila kwa lamu lanu.",
+  "prayerTimesLocationNeededBody": "Lozezekan malo kuti Ayara ikhale ndi nthawi zabwino za mapipila kwa lamu lanu.",
   "prayerTimesNextLabel": "Tsopano",
   "prayerTimesDoneLabel": "Kumalizidwa",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Yetsekan kutumiza kwa mapipila",
   "prayerNotificationsOpenSettings": "Ufuwupsi mwa kutumiza",
   "prayerNotificationsDenied": "Kutumiza kunachoka",
-  "prayerNotificationsDeniedHint": "Pitani Settings ndi lozezekan kutumiza kwa Nuria kuti mupeze kutumiza kwa nthawi za mapipila.",
+  "prayerNotificationsDeniedHint": "Pitani Settings ndi lozezekan kutumiza kwa Ayara kuti mupeze kutumiza kwa nthawi za mapipila.",
 
   "notificationsConsentLabel": "Lozezekan kutumiza kwa nthawi za mapipila",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Munathera kutembenuza kwa Allah 99. Kuti izo zikhale magetsi pa mtima wanu.",
 
   "disclaimerTitle": "Pa umvekedwe wa app inu",
-  "disclaimerBody": "Nuria imapatsa kulingalira koona ka Islamic, kukhumbukira, ndi zokumbukira za chromu kuti zithandize njira yanu ya chikhulupiriro. Zinthu izi zimapatsidwa kwa cholinga cha mfundo za wamba ndi ndondomeko.\n\nNuria siimaloweza mwachiphunzitso.\nNdondomeko mu app inu siimaloweza kwa mlalendo wakuphunzitsa, imam, mufti, kapena waphunzitso wachikhulupiriro. Ngati muli ndi mafunso pa zolawa za Islamic, zinthu zolipiliro, kapena zodziwika zachikhulupiriro, pezani ndondomeko kwa waphunzitso wakuphunzitsa mu chilamulo chanu.\n\nApp inu simakupatsa zolawa zachikhulupiriro.\nNuria siikupereka zomwe zimadzifuna pa fiqh (Islamic jurisprudence) kapena zodziwika zachikhulupiriro. Zinthu zolanda siziyenera kuganiziridwa monga fatwa kapena zolawa zachikhulupiriro.\n\nMaphunziro asintha.\nIslam imaphatikiza nthano yabwino ya nthano, amalamulo (madhabs), ndi mawonekedwe a mlalendo. Zokumbukira mu app inu zikuwonetsa mawonekedwe awamba komanso zingathe kusiyanasiyana pa nthano iliyonse.\n\nChilamulo chinachimachita.\nApp inu idzakonzekera kuzamilamula mu nthano ya chikhulupiriro pomwe ikulekarsa gawo lolitsa la mosque yanu, imam, ndi anthu anzanu okhulupirira. Tinachimachita kuti mukhale ndi ubale ndi kuti muphunzire kwa waphunzitso akuphunzitsa pafupi.",
+  "disclaimerBody": "Ayara imapatsa kulingalira koona ka Islamic, kukhumbukira, ndi zokumbukira za chromu kuti zithandize njira yanu ya chikhulupiriro. Zinthu izi zimapatsidwa kwa cholinga cha mfundo za wamba ndi ndondomeko.\n\nAyara siimaloweza mwachiphunzitso.\nNdondomeko mu app inu siimaloweza kwa mlalendo wakuphunzitsa, imam, mufti, kapena waphunzitso wachikhulupiriro. Ngati muli ndi mafunso pa zolawa za Islamic, zinthu zolipiliro, kapena zodziwika zachikhulupiriro, pezani ndondomeko kwa waphunzitso wakuphunzitsa mu chilamulo chanu.\n\nApp inu simakupatsa zolawa zachikhulupiriro.\nAyara siikupereka zomwe zimadzifuna pa fiqh (Islamic jurisprudence) kapena zodziwika zachikhulupiriro. Zinthu zolanda siziyenera kuganiziridwa monga fatwa kapena zolawa zachikhulupiriro.\n\nMaphunziro asintha.\nIslam imaphatikiza nthano yabwino ya nthano, amalamulo (madhabs), ndi mawonekedwe a mlalendo. Zokumbukira mu app inu zikuwonetsa mawonekedwe awamba komanso zingathe kusiyanasiyana pa nthano iliyonse.\n\nChilamulo chinachimachita.\nApp inu idzakonzekera kuzamilamula mu nthano ya chikhulupiriro pomwe ikulekarsa gawo lolitsa la mosque yanu, imam, ndi anthu anzanu okhulupirira. Tinachimachita kuti mukhale ndi ubale ndi kuti muphunzire kwa waphunzitso akuphunzitsa pafupi.",
   "disclaimerClose": "Ndamvetsa",
   "disclaimerInfoTooltip": "Pa umvekedwe wa app inu",
   "disclaimerSettingsSubtitle": "Kwa cholinga cha mfundo za wamba okha. Dina kuti muwerenge zolemba zonse.",

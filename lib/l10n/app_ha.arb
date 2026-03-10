@@ -1,7 +1,7 @@
 {
   "@@locale": "ha",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Zaɓi harshenka",
   "languageSelectSub": "Zaka iya canja wannan daga cikin Settings",
@@ -83,7 +83,7 @@
   "close": "Rufe",
   "copiedToast": "An kwafi zuwa clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Labarin raba da tuntumi",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Na'uran nan ta taba haɗa zuwa wata asusu. Shigo da asusu na asali.",
 
   "premiumTitle": "Tsari na Barakah",
-  "premiumSubtitleBasic": "Buɗe jerin Nuria.",
+  "premiumSubtitleBasic": "Buɗe jerin Ayara.",
   "premiumSubtitleChampion": "Ka shi ne Barakah. Ke buƙe tunani?",
 
   "premiumCurrentPlan": "Tsarin da yanzu: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Ina loadini kasuwa…",
 
   "blessedTitle": "Tsari na Barakah",
-  "blessedSubtitleGrace": "Buɗe jerin Nuria.",
+  "blessedSubtitleGrace": "Buɗe jerin Ayara.",
   "blessedSubtitleBlessed": "Ka shi ne Barakah. Ke buƙe tunani?",
 
   "blessedCurrentPlan": "Tsarin da yanzu: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Ka shi ne a Sauki da tunani na jiya, kun yi amfani. Don ci gaba — da buɗe fasalai na addini — sabunta ga Barakah.",
   "graceBlockedCtaGoBlessed": "Lura zaban Barakah a ƙasa",
 
-  "rateGuestMustSignIn": "Shigo don amfani da Nuria da tunani.",
+  "rateGuestMustSignIn": "Shigo don amfani da Ayara da tunani.",
 
   "guestNoCreditsTitle": "Yace bakar",
   "guestNoCreditsBody": "A matsayin bakar zaka iya kallo ne, amma ba ka iya amfani da tunani. Shigo daga Settings don amfani da tunani da buɗe sayan.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Ba da Nuria izini don amfani da wuri don Qibla da lokaci na sallah",
+  "locationConsentLabel": "Ba da Ayara izini don amfani da wuri don Qibla da lokaci na sallah",
   "locationConsentHint": "Ba a amfani sai ga fasalai nan. Wuri ba a raba ko ajiye.",
 
-  "askPageTitle": "Tambayi Nuria",
+  "askPageTitle": "Tambayi Ayara",
   "askPageDescription": "Tambayi abin game da imani, sallah, rayuwa, ko aiki na Islama da samu jagoran tushe a Qur'ani da Sunnah.",
   "askPageInputHint": "Rubuta tambayar…",
   "askPageSubmitCta": "Tambayi",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Wuri na buƙe",
-  "qiblaLocationNeededBody": "Ba da Nuria izini don amfani da wuri don kareto ɗin Al-Ka'abah a Makkah daga inda ka jiya.",
+  "qiblaLocationNeededBody": "Ba da Ayara izini don amfani da wuri don kareto ɗin Al-Ka'abah a Makkah daga inda ka jiya.",
   "qiblaOpenSettings": "Buɗe Settings",
   "qiblaCompassLoading": "Ina neman wuri…",
   "qiblaTowardMecca": "Gida Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Wuri na buƙe",
-  "prayerTimesLocationNeededBody": "Ba da Nuria izini don amfani da wuri don kirga lokaci na sallah na gida.",
+  "prayerTimesLocationNeededBody": "Ba da Ayara izini don amfani da wuri don kirga lokaci na sallah na gida.",
   "prayerTimesNextLabel": "Gida",
   "prayerTimesDoneLabel": "Kammala",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Kunna furanni na sallah",
   "prayerNotificationsOpenSettings": "Buɗe saitunan furanni",
   "prayerNotificationsDenied": "Furanni an katse",
-  "prayerNotificationsDeniedHint": "Je Settings da ba da furanni ga Nuria don samu furanni na sallah.",
+  "prayerNotificationsDeniedHint": "Je Settings da ba da furanni ga Ayara don samu furanni na sallah.",
 
   "notificationsConsentLabel": "Ba da izini don furanni na lokaci na sallah",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Kun kammala alkhamar Allah 99. Su kasua haske don zuciyar.",
 
   "disclaimerTitle": "Game da jagoran app nan",
-  "disclaimerBody": "Nuria tana ba da tunani na Islama, furanni, da abin na imani don tallafin harkar jiya na imani. Wannan abubuwan an bayar don saun bayyanin sauran da kuma amsatawa.\n\nNuria ba ya maye gurbin alimain.\nJagoran app ba shi maye gurbin malamin Islama, imam, mufti, ko mai ilimi na dindin. Idan ka da tambayoyi game da haddan dindin, halal da haram ko burin dindin na asusun, nemi shawara daga alim a gidanka.\n\nApp ba ya ba da hadda dindin.\nNuria ba ta kadai nuna hadda dindin game da masalahi dindin ko burin dindin na asusun. Abubuwan a nan ba ja kaifin fatawa ko hadda dindin.\n\nIlimin alimain ya bambanta.\nIslama tana da ilimin da yawa, dukkoki na tunani, da ra'ayin alimain. Abubuwan a app ja nuni ra'ayin gaba da ma haka na dukkoki.\n\nGida mahimmaci.\nApp na nan da zai karfi dangantaka da dindin yayin da ke gitonta imam da gida. Muka karfafawa su ka haɗa da mai ilimi a kurgu.",
+  "disclaimerBody": "Ayara tana ba da tunani na Islama, furanni, da abin na imani don tallafin harkar jiya na imani. Wannan abubuwan an bayar don saun bayyanin sauran da kuma amsatawa.\n\nAyara ba ya maye gurbin alimain.\nJagoran app ba shi maye gurbin malamin Islama, imam, mufti, ko mai ilimi na dindin. Idan ka da tambayoyi game da haddan dindin, halal da haram ko burin dindin na asusun, nemi shawara daga alim a gidanka.\n\nApp ba ya ba da hadda dindin.\nAyara ba ta kadai nuna hadda dindin game da masalahi dindin ko burin dindin na asusun. Abubuwan a nan ba ja kaifin fatawa ko hadda dindin.\n\nIlimin alimain ya bambanta.\nIslama tana da ilimin da yawa, dukkoki na tunani, da ra'ayin alimain. Abubuwan a app ja nuni ra'ayin gaba da ma haka na dukkoki.\n\nGida mahimmaci.\nApp na nan da zai karfi dangantaka da dindin yayin da ke gitonta imam da gida. Muka karfafawa su ka haɗa da mai ilimi a kurgu.",
   "disclaimerClose": "Na fahimta",
   "disclaimerInfoTooltip": "Game da jagoran app nan",
   "disclaimerSettingsSubtitle": "Don saun bayyanin kawai. Taɓa don karata hadda gaba.",

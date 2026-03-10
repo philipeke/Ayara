@@ -1,7 +1,7 @@
 {
   "@@locale": "lb",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Wählt Är Sprooch",
   "languageSelectSub": "Dir kënnt dëst méi spéit an den Astellungen änneren",
@@ -83,7 +83,7 @@
   "close": "Zoumaachen",
   "copiedToast": "An d'Pufferzwëschespäicherer kopéiert",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Dësen Apparat ass schonn mat engem anere Konto verlinkt. Mellt Iech w.e.g. mat dem urspréngleche Konto un.",
 
   "premiumTitle": "Barakah Modus",
-  "premiumSubtitleBasic": "Entspaart d'Komplett Nuria Erfarung.",
+  "premiumSubtitleBasic": "Entspaart d'Komplett Ayara Erfarung.",
   "premiumSubtitleChampion": "Dir sidd Barakah. Braucht Dir méi Betrachtungen?",
 
   "premiumCurrentPlan": "Aktuellt Plang: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Luet Geschäft…",
 
   "blessedTitle": "Barakah Modus",
-  "blessedSubtitleGrace": "Entspaart d'Komplett Nuria Erfarung.",
+  "blessedSubtitleGrace": "Entspaart d'Komplett Ayara Erfarung.",
   "blessedSubtitleBlessed": "Dir sidd Barakah. Braucht Dir méi Betrachtungen?",
 
   "blessedCurrentPlan": "Aktuellt Plang: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Dir sidd am Standard Plang mat Starter Betrachtungen a sidd a d'Grenzwiert komm. Fir weiderzomaachen — a Premiumkategorien fräizuschalten — iergadeet zu Barakah.",
   "graceBlockedCtaGoBlessed": "Lukt op Barakah Optiounen hei ënnen",
 
-  "rateGuestMustSignIn": "Mellt Iech un fir Nuria ze benotzten a Är Betrachtungen.",
+  "rateGuestMustSignIn": "Mellt Iech un fir Ayara ze benotzten a Är Betrachtungen.",
 
   "guestNoCreditsTitle": "Gaschtmodus",
   "guestNoCreditsBody": "As Gast kënnt Dir d'App browsne, mä Dir kënnt keng Betrachtungen benotzten. Mellt Iech spéier an den Asstellungen un fir Betrachtungen ze benotzten an Käif fräizuschalten.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Erlab Nuria meng Positioun fir Qibla Richtung a Gebetzäiten ze benotzten",
+  "locationConsentLabel": "Erlab Ayara meng Positioun fir Qibla Richtung a Gebetzäiten ze benotzten",
   "locationConsentHint": "Benotzert nëmme fir dës Funktiounen. Är Positioun gëtt ni gedeelt oder gespäichert.",
 
-  "askPageTitle": "Freet Nuria",
+  "askPageTitle": "Freet Ayara",
   "askPageDescription": "Freet wat ëmmer iwwer Glawen, Gebet, Liewen oder islamesch Praxis a kritt Wegleedung verankaert am Quran a Sunna.",
   "askPageInputHint": "Schreift Är Fro hei…",
   "askPageSubmitCta": "Freet",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Positioun erfuerdert",
-  "qiblaLocationNeededBody": "Erlab Positioun Zougang sou Nuria kann d'Richtung vun Kaaba an Makkah berechent vun wa Dir sidd.",
+  "qiblaLocationNeededBody": "Erlab Positioun Zougang sou Ayara kann d'Richtung vun Kaaba an Makkah berechent vun wa Dir sidd.",
   "qiblaOpenSettings": "Open Astellungen",
   "qiblaCompassLoading": "Sichen Är Positioun…",
   "qiblaTowardMecca": "Toward Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Positioun erfuerdert",
-  "prayerTimesLocationNeededBody": "Erlab Positioun Zougang sou Nuria kann accurat Gebetzäiten fir Är Stad berechent.",
+  "prayerTimesLocationNeededBody": "Erlab Positioun Zougang sou Ayara kann accurat Gebetzäiten fir Är Stad berechent.",
   "prayerTimesNextLabel": "Nächst",
   "prayerTimesDoneLabel": "Fäerdeg",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Enable Gebetserënerungen",
   "prayerNotificationsOpenSettings": "Open Notifikatioun Astellungen",
   "prayerNotificationsDenied": "Notifikatiounen sinn deaktivéiert",
-  "prayerNotificationsDeniedHint": "Gitt zu Astellungen a erlab Notifikatiounen fir Nuria fir Gebetzäit Erënerungen ze kréien.",
+  "prayerNotificationsDeniedHint": "Gitt zu Astellungen a erlab Notifikatiounen fir Ayara fir Gebetzäit Erënerungen ze kréien.",
 
   "notificationsConsentLabel": "Erlab Notifikatiounen fir Gebetzäiten",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Dir hutt 99 Erënerungen vun Allah komplettéiert. Gi se e Léicht fir Är Häerz.",
 
   "disclaimerTitle": "Iwwer dës App Wegleedung",
-  "disclaimerBody": "Nuria bitt islamsch Betrachtungen, Erënerungen an geeschtlech Inhalt fir Är perséinlech Rees vum Glawen ze stëtzen. Dësen Inhalt gëtt fir allgemeng informativ an inspireert Zwecker ugebuede.\n\nNuria ersetzt net qualifizéiert Scholdeurschaft.\nD'Wegleedung an dëser App ass net eng Vervanschaf fir e geléiert islamesche Géléiert, Imam, Mufti oder theologesch trainéiert Léirendikter. Wann Dir Froen iwwer relijiéis Raeglungen hutt, Halal a Haram Saachen oder perséinlech relijiéis Obligatiounen, freet w.e.g. eng qualifizéiert relijiéis Autoritéit an Ärer Gemeinschaft.",
+  "disclaimerBody": "Ayara bitt islamsch Betrachtungen, Erënerungen an geeschtlech Inhalt fir Är perséinlech Rees vum Glawen ze stëtzen. Dësen Inhalt gëtt fir allgemeng informativ an inspireert Zwecker ugebuede.\n\nAyara ersetzt net qualifizéiert Scholdeurschaft.\nD'Wegleedung an dëser App ass net eng Vervanschaf fir e geléiert islamesche Géléiert, Imam, Mufti oder theologesch trainéiert Léirendikter. Wann Dir Froen iwwer relijiéis Raeglungen hutt, Halal a Haram Saachen oder perséinlech relijiéis Obligatiounen, freet w.e.g. eng qualifizéiert relijiéis Autoritéit an Ärer Gemeinschaft.",
 
   "disclaimerClose": "Ech verstänn",
   "disclaimerInfoTooltip": "Iwwer dës App Wegleedung",

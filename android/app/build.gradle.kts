@@ -14,11 +14,11 @@ plugins {
 }
 
 android {
-    namespace = "com.oakdev.nuria"
+    namespace = "com.oakdev.ayara"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.oakdev.nuria"
+        applicationId = "com.oakdev.ayara"
         minSdk = flutter.minSdkVersion
         targetSdk = 36
 

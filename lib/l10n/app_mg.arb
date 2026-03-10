@@ -1,7 +1,7 @@
 {
   "@@locale": "mg",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Safidio ny ianao",
   "languageSelectSub": "Afaka manova izany ankoatranoankoatry ny Settings",
@@ -83,7 +83,7 @@
   "close": "Midìtso",
   "copiedToast": "Nokopiana tao amin'ny clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Ity divay ity dia efa nifamatohiana amin'ny kaonta hafa. Hiditra amin'ny kaonta voalohany.",
 
   "premiumTitle": "Famadinana Barakah",
-  "premiumSubtitleBasic": "Manokatra ny fahita-danja Nuria.",
+  "premiumSubtitleBasic": "Manokatra ny fahita-danja Ayara.",
   "premiumSubtitleChampion": "Ianao Barakah. Mila fisaintsainana betsaka ve?",
 
   "premiumCurrentPlan": "Fizarana ankehitriny: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Mampitohitra ny trano…",
 
   "blessedTitle": "Famadinana Barakah",
-  "blessedSubtitleGrace": "Manokatra ny fahita-danja Nuria.",
+  "blessedSubtitleGrace": "Manokatra ny fahita-danja Ayara.",
   "blessedSubtitleBlessed": "Ianao Barakah. Mila fisaintsainana betsaka ve?",
 
   "blessedCurrentPlan": "Fizarana ankehitriny: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "Ianao Mahazatra misy fisaintsainana simba, ary efa tonga ny limit. Raha te-mitohy — ary manokatra sokajy voalohany — ampitomboina ho Barakah.",
   "graceBlockedCtaGoBlessed": "Jereo ny Barakah eto ambany",
 
-  "rateGuestMustSignIn": "Hiditra raha te-mampiasa Nuria ary ny ianao fisaintsainana.",
+  "rateGuestMustSignIn": "Hiditra raha te-mampiasa Ayara ary ny ianao fisaintsainana.",
 
   "guestNoCreditsTitle": "Famadinana mpitsidiha",
   "guestNoCreditsBody": "Toy ny mpitsidiha afaka mijery, nefa tsy afaka mampiasa fisaintsainana. Hiditra ankolaka amin'ny Aolam-Zavatra raha te-mampiasa fisaintsainana ary manokatra vidiana.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Avelao Nuria ho mampiasa ny ianao toeran'ny Qibla ary ora fanompoa",
+  "locationConsentLabel": "Avelao Ayara ho mampiasa ny ianao toeran'ny Qibla ary ora fanompoa",
   "locationConsentHint": "Ampiasaina ho an'ity singa ity fotsiny. Ny ianao toeran'ny dia tsy fizaraina na nitahiry.",
 
-  "askPageTitle": "Angataha Nuria",
+  "askPageTitle": "Angataha Ayara",
   "askPageDescription": "Angataha zavatra momba ny finoana, fanompoa, aina, na atao Islam ary makatanteraka torolalana niorina amin'ny Quran ary Sunnah.",
   "askPageInputHint": "Soraty ny ianao fanontaniana eto…",
   "askPageSubmitCta": "Angataha",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Toeran'izy ilaina",
-  "qiblaLocationNeededBody": "Avelao ny fiharana toeran'izy azo Nuria mba hamaritra ny titarihan'ny Kaaba ao amin'i Makkah avy amin'ny ianao toeran'ny.",
+  "qiblaLocationNeededBody": "Avelao ny fiharana toeran'izy azo Ayara mba hamaritra ny titarihan'ny Kaaba ao amin'i Makkah avy amin'ny ianao toeran'ny.",
   "qiblaOpenSettings": "Anikiloy ny Aolam-Zavatra",
   "qiblaCompassLoading": "Mampahaita ny ianao toeran'ny…",
   "qiblaTowardMecca": "Minahy amin'i Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Toeran'izy ilaina",
-  "prayerTimesLocationNeededBody": "Avelao ny fiharana toeran'izy azo Nuria mba hamantara amin'ny tena ora fanompoa ho an'ny ianao tanàna.",
+  "prayerTimesLocationNeededBody": "Avelao ny fiharana toeran'izy azo Ayara mba hamantara amin'ny tena ora fanompoa ho an'ny ianao tanàna.",
   "prayerTimesNextLabel": "Manaraka",
   "prayerTimesDoneLabel": "Vita",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Fanavohana fampandrenesana fanompoa",
   "prayerNotificationsOpenSettings": "Anikiloy ny fampandrenesana aolam-zavatra",
   "prayerNotificationsDenied": "Ny fampandrenesana dia narindrina",
-  "pampandrenesanaDeniedHint": "Miova amin'ny Aolam-Zavatra ary avelao ny fampandrenesana ho an'ny Nuria raha te-makatanteraka fampandrenesana ora fanompoa.",
+  "pampandrenesanaDeniedHint": "Miova amin'ny Aolam-Zavatra ary avelao ny fampandrenesana ho an'ny Ayara raha te-makatanteraka fampandrenesana ora fanompoa.",
 
   "notificationsConsentLabel": "Avelao fampandrenesana ho an'ny ora fanompoa",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "Nataonao ny fahatsikitsikitsiky 99 an'ny Alah. Ahy ho jiro amin'ny ianao fo.",
 
   "disclaimerTitle": "Momba ity angon-drakitra ity",
-  "disclaimerBody": "Nefitra ny Nuria amin'ny fisaintsainana Islam, fampandrenesana, ary atao spiritoyela raha te-mampitohitra amin'ny ianao lalana fa fahamarinana.\n\nTsy mahatsara ny Nuria ny fahitsingana mampianarana.\nTsy mahatsara ny ianao angon-drakitra ny mpianatra mahaiby Islam, imam, mufti, na mpampianatra sakramenta. Raha misy fanontaniana momba ny torolalana Islam, halal ary haram zavatra, na dingana religiôsa, fandaharana ny fanampin'ny mahaiby sakramenta amin'ny ianao fiainana.\n\nTsy manao torolalana ny Nuria.\nTsy mahatsara ny ianao angon-drakitra ny torolalana tsy faharatsiam-po amin'ny zavatra fiqh (jurisidin'sy Islam) na dingana religiôsa mahaiby. Tsy mantsy hanao zavatra iraisitra ity inanteraka ity.\n\nNy fahitsingana mampianatra dia maro-karazana.\nSampahan'ny Nuria ny fahitsingana betsaka, firaisan-kina fisafidim-paritra (madhabs), ary fiheveran'ny mpianatra. Ny atao ao amin'ity angon-drakitra ity dia mankahazo sarin'ny sampany ary mety tsy mamitily ny sampany iray tsirairay na firaisan-kina mitovy.\n\nMahalahalaka ny fianakaviana.\nIty angon-drakitra ity dia miandry ankolo ny fanaraka-mangaroa amin'ny atao fahamarinana ary mahatsara ny manan-dao mahalahalaka an'ny ianao fiainana fiainana, imam, ary firaisan-kina religiôsa. Aheahy ianao ka mihambita amin'ny ary manala avy amin'ny mpianatra mahaiby akaiky amin'ianao.",
+  "disclaimerBody": "Nefitra ny Ayara amin'ny fisaintsainana Islam, fampandrenesana, ary atao spiritoyela raha te-mampitohitra amin'ny ianao lalana fa fahamarinana.\n\nTsy mahatsara ny Ayara ny fahitsingana mampianarana.\nTsy mahatsara ny ianao angon-drakitra ny mpianatra mahaiby Islam, imam, mufti, na mpampianatra sakramenta. Raha misy fanontaniana momba ny torolalana Islam, halal ary haram zavatra, na dingana religiôsa, fandaharana ny fanampin'ny mahaiby sakramenta amin'ny ianao fiainana.\n\nTsy manao torolalana ny Ayara.\nTsy mahatsara ny ianao angon-drakitra ny torolalana tsy faharatsiam-po amin'ny zavatra fiqh (jurisidin'sy Islam) na dingana religiôsa mahaiby. Tsy mantsy hanao zavatra iraisitra ity inanteraka ity.\n\nNy fahitsingana mampianatra dia maro-karazana.\nSampahan'ny Ayara ny fahitsingana betsaka, firaisan-kina fisafidim-paritra (madhabs), ary fiheveran'ny mpianatra. Ny atao ao amin'ity angon-drakitra ity dia mankahazo sarin'ny sampany ary mety tsy mamitily ny sampany iray tsirairay na firaisan-kina mitovy.\n\nMahalahalaka ny fianakaviana.\nIty angon-drakitra ity dia miandry ankolo ny fanaraka-mangaroa amin'ny atao fahamarinana ary mahatsara ny manan-dao mahalahalaka an'ny ianao fiainana fiainana, imam, ary firaisan-kina religiôsa. Aheahy ianao ka mihambita amin'ny ary manala avy amin'ny mpianatra mahaiby akaiky amin'ianao.",
   "disclaimerClose": "Azoko",
   "disclaimerInfoTooltip": "Momba ny ity angon-drakitra ity",
   "disclaimerSettingsSubtitle": "Ho an'ny zavatra fahalalahana amin'ny santsantsa. Sarisariky raha te-hamaky ny famaranana iray.",

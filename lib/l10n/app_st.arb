@@ -1,7 +1,7 @@
 {
   "@@locale": "st",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "Khetha puo ea hau",
   "languageSelectSub": "O ka o fetola sena hamorao ho Settings",
@@ -83,7 +83,7 @@
   "close": "Tswalwa",
   "copiedToast": "E kopilwe go clipboard",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "Seseela sena se tatamantswe mo akhaontong e e nngwe. Gopela go tsena ka akhaonto ya go thoma.",
 
   "premiumTitle": "Nako ya Barakah",
-  "premiumSubtitleBasic": "Bulela kakaretšo ya Nuria.",
+  "premiumSubtitleBasic": "Bulela kakaretšo ya Ayara.",
   "premiumSubtitleChampion": "O mo Barakah. O mo le go swana ponahalo?",
 
   "premiumCurrentPlan": "Pano ya jaanong: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "Go mo go boleka…",
 
   "blessedTitle": "Nako ya Barakah",
-  "blessedSubtitleGrace": "Bulela kakaretšo ya Nuria.",
+  "blessedSubtitleGrace": "Bulela kakaretšo ya Ayara.",
   "blessedSubtitleBlessed": "O mo Barakah. O mo le go swana ponahalo?",
 
   "blessedCurrentPlan": "Pano ya jaanong: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "O mo Standard plan ka ponahalo ya go thoma, le o go lekanya limitisize. Go tsoela pele — le go bulela dihlotshwa tšea — kgerogile go Barakah.",
   "graceBlockedCtaGoBlessed": "Lebelela dikgetsi tšea mo tlase",
 
-  "rateGuestMustSignIn": "Tsena go go sebelesa Nuria le ponahalo ea gago.",
+  "rateGuestMustSignIn": "Tsena go go sebelesa Ayara le ponahalo ea gago.",
 
   "guestNoCreditsTitle": "Nako ya butswanatane",
   "guestNoCreditsBody": "O mo butswanataneng o ka tšea apiki, empa o ke ke ya go sebelesa ponahalo. Tsena mo morago mo Settings go sebelesa ponahalo le go bulela dikhukunyetšo.",
@@ -462,7 +462,7 @@
   "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
   "dailyRoleModel22": "Imam Abu Hanifa (RH)",
   "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam al-Shafi'i (RH)",
+  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
   "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
   "dailyRoleModel26": "Imam al-Bukhari (RH)",
   "dailyRoleModel27": "Imam Muslim (RH)",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
   "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
 
-  "locationConsentLabel": "Dumela Nuria go sebelesa boemo ba ka bakeng sa Qibla le prayari nako",
+  "locationConsentLabel": "Dumela Ayara go sebelesa boemo ba ka bakeng sa Qibla le prayari nako",
   "locationConsentHint": "Go berekwa feela bakeng sa karolo ye. Boemo ba gago ga se go abela kgotsa go bolokwa.",
 
-  "askPageTitle": "Botsa Nuria",
+  "askPageTitle": "Botsa Ayara",
   "askPageDescription": "Botsa se nako se nako ka iman, prayari, bophelo, kgotsa tsa Islamic le go amogela taelo e e go go Quranic le Sunnah.",
   "askPageInputHint": "Go go potšišo ye…",
   "askPageSubmitCta": "Botsa",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "Boemo bo a lokela",
-  "qiblaLocationNeededBody": "Dumela go sebelesa boemo go go go go go go Nuria go go ka go go sekarata go Makkah mo boemo ba gago.",
+  "qiblaLocationNeededBody": "Dumela go sebelesa boemo go go go go go go Ayara go go ka go go sekarata go Makkah mo boemo ba gago.",
   "qiblaOpenSettings": "Bula Settings",
   "qiblaCompassLoading": "Go go boemo ba gago…",
   "qiblaTowardMecca": "Go le go Makkah",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Boemo bo a lokela",
-  "prayerTimesLocationNeededBody": "Dumela go sebelesa boemo go go go Nuria go go dikgonwa tšea tšea nako ya prayari bakeng sa motse wa gago.",
+  "prayerTimesLocationNeededBody": "Dumela go sebelesa boemo go go go Ayara go go dikgonwa tšea tšea nako ya prayari bakeng sa motse wa gago.",
   "prayerTimesNextLabel": "Lenaneo",
   "prayerTimesDoneLabel": "Tela",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "Kgonedile diphasatisi tša prayari",
   "prayerNotificationsOpenSettings": "Bula settings ya phasatisi",
   "prayerNotificationsDenied": "Diphasatisi di thlakilwe",
-  "prayerNotificationsDeniedHint": "Go go Settings le go dumelela diphasatisi bakeng sa Nuria go amogela phasatisi ya prayari nako.",
+  "prayerNotificationsDeniedHint": "Go go Settings le go dumelela diphasatisi bakeng sa Ayara go amogela phasatisi ya prayari nako.",
 
   "notificationsConsentLabel": "Dumela diphasatisi bakeng sa nako ya prayari",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "O go phethile 99 phaposing la Allah. O ka ba bolala bakeng sa pelo ea gago.",
 
   "disclaimerTitle": "Ka go go taelo ya apiki",
-  "disclaimerBody": "Nuria e fana ka Islamic ponahalo, diphasatisi, le mabaka a go go go go go go mo go gago. Mabaka a a go fapela go boitsebiso le go go feela.\n\nNuria ga se go go seithuti se se go go.\nTaelo mo apiki ye ga se go go go go Islamic scholar, imam, mufti, kgotsa morutabuti o o tlagantswe go go. Ge o na le dipotšišo ka sehlapa sa Islamic, halal le haram maele, kgotsa go go go tšea, gopela go go mobo go go botshabelo mo komuniting ea gago.\n\nApiki ye ga se go go go go sehlapa.\nNuria ga se go etša go go go go dikgetsi ka fiqh (Islamic jurisprudence) kgotsa go go go tšea. Se nako se se lokela go go fatwa kgotsa go go go sehlapa.\n\nScholar go go go go bo.\nIslam e na le go go go ditraditional, disentre tša go go go (madhabs), le dikgonwa tša scholar. Mabaka mo apiki ye a tsena go go le se tla go laetšwa traditional e nngwe le nngwe.\n\nCommuniti e a boka.\nApiki ye e lebela go go go go mo go go tradisional empa go go bohlokwa ba mo ga imam, le go go go bajanala. Re leka go o go go le go ithuta go go seithuti se se nneng mo gago.",
+  "disclaimerBody": "Ayara e fana ka Islamic ponahalo, diphasatisi, le mabaka a go go go go go go mo go gago. Mabaka a a go fapela go boitsebiso le go go feela.\n\nAyara ga se go go seithuti se se go go.\nTaelo mo apiki ye ga se go go go go Islamic scholar, imam, mufti, kgotsa morutabuti o o tlagantswe go go. Ge o na le dipotšišo ka sehlapa sa Islamic, halal le haram maele, kgotsa go go go tšea, gopela go go mobo go go botshabelo mo komuniting ea gago.\n\nApiki ye ga se go go go go sehlapa.\nAyara ga se go etša go go go go dikgetsi ka fiqh (Islamic jurisprudence) kgotsa go go go tšea. Se nako se se lokela go go fatwa kgotsa go go go sehlapa.\n\nScholar go go go go bo.\nIslam e na le go go go ditraditional, disentre tša go go go (madhabs), le dikgonwa tša scholar. Mabaka mo apiki ye a tsena go go le se tla go laetšwa traditional e nngwe le nngwe.\n\nCommuniti e a boka.\nApiki ye e lebela go go go go mo go go tradisional empa go go bohlokwa ba mo ga imam, le go go go bajanala. Re leka go o go go le go ithuta go go seithuti se se nneng mo gago.",
   "disclaimerClose": "Ke utologa",
   "disclaimerInfoTooltip": "Ka go go taelo ya apiki",
   "disclaimerSettingsSubtitle": "Bakeng sa boitsebiso go feela. Phokoletsa go bala disclaimer e kakaretšo.",

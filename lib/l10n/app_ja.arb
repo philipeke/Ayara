@@ -1,7 +1,7 @@
 {
   "@@locale": "ja",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "言語を選択してください",
   "languageSelectSub": "後から設定で変更できます",
@@ -83,7 +83,7 @@
   "close": "閉じる",
   "copiedToast": "クリップボードにコピーしました",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "メール/共有件名行。カテゴリーラベルを含む",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "このデバイスは既に別のアカウントにリンクされています。元のアカウントでサインインしてください",
 
   "premiumTitle": "バラカモード",
-  "premiumSubtitleBasic": "Nuria全体のエクスペリエンスをロック解除してください",
+  "premiumSubtitleBasic": "Ayara全体のエクスペリエンスをロック解除してください",
   "premiumSubtitleChampion": "あなたはバラカです。より多くの瞑想が必要ですか",
 
   "premiumCurrentPlan": "現在のプラン: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "ストアを読み込み中…",
 
   "blessedTitle": "バラカモード",
-  "blessedSubtitleGrace": "Nuria全体のエクスペリエンスをロック解除してください",
+  "blessedSubtitleGrace": "Ayara全体のエクスペリエンスをロック解除してください",
   "blessedSubtitleBlessed": "あなたはバラカです。より多くの瞑想が必要ですか",
 
   "blessedCurrentPlan": "現在のプラン: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "あなたはスターター瞑想を持つスタンダードプランにいて、制限に達しました。続行するためにプレミアムカテゴリーのロックを解除するには、バラカにアップグレードしてください",
   "graceBlockedCtaGoBlessed": "下のバラカオプションを参照してください",
 
-  "rateGuestMustSignIn": "Nuria と瞑想を使用するにはサインインしてください",
+  "rateGuestMustSignIn": "Ayara と瞑想を使用するにはサインインしてください",
 
   "guestNoCreditsTitle": "ゲストモード",
   "guestNoCreditsBody": "ゲストとして、アプリを参照できますが、瞑想は使用できません。後で設定でログインして瞑想を使用し、購入のロックを解除してください",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "タルハ・イブン・ウバイドゥッラー（RA）",
   "dailyRoleModel59": "アズ・ズバイル・イブン・アル・アウワーム（RA）",
 
-  "locationConsentLabel": "キブラの方向と祈りの時間のためにNuriaが私の場所を使用することを許可してください",
+  "locationConsentLabel": "キブラの方向と祈りの時間のためにAyaraが私の場所を使用することを許可してください",
   "locationConsentHint": "これらの機能にのみ使用されます。あなたの位置が共有または保存されることはありません",
 
-  "askPageTitle": "Nuriaに聞く",
+  "askPageTitle": "Ayaraに聞く",
   "askPageDescription": "信仰、祈り、生活、またはイスラム実践について何でも質問し、クルアーンとスンナに根ざしたガイダンスを受け取ってください",
   "askPageInputHint": "ここに質問を入力してください…",
   "askPageSubmitCta": "聞く",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "場所が必要です",
-  "qiblaLocationNeededBody": "Nuriaが、あなたが住んでいる場所からメッカのカアバの方向を計算できるようにするには、位置情報へのアクセスを許可してください",
+  "qiblaLocationNeededBody": "Ayaraが、あなたが住んでいる場所からメッカのカアバの方向を計算できるようにするには、位置情報へのアクセスを許可してください",
   "qiblaOpenSettings": "設定を開く",
   "qiblaCompassLoading": "あなたの位置を見つけ中…",
   "qiblaTowardMecca": "メッカに向かって",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "マグリブ",
   "prayerTimesIsha": "イシャー",
   "prayerTimesLocationNeededTitle": "場所が必要です",
-  "prayerTimesLocationNeededBody": "Nuriaが、あなたの都市の正確な祈り時間を計算できるようにするには、位置情報へのアクセスを許可してください",
+  "prayerTimesLocationNeededBody": "Ayaraが、あなたの都市の正確な祈り時間を計算できるようにするには、位置情報へのアクセスを許可してください",
   "prayerTimesNextLabel": "次",
   "prayerTimesDoneLabel": "終了",
 
@@ -548,7 +548,7 @@
   "prayerNotificationsEnable": "祈りのリマインダーを有効にする",
   "prayerNotificationsOpenSettings": "通知設定を開く",
   "prayerNotificationsDenied": "通知は無効です",
-  "prayerNotificationsDeniedHint": "設定に移動してNuriaの通知を許可して、祈り時間のリマインダーを受け取ってください",
+  "prayerNotificationsDeniedHint": "設定に移動してAyaraの通知を許可して、祈り時間のリマインダーを受け取ってください",
 
   "notificationsConsentLabel": "祈り時間の通知を許可してください",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "あなたはアッラーの99の思い出を完成させました。彼らはあなたの心のための光であるかもしれません",
 
   "disclaimerTitle": "このアプリの指導について",
-  "disclaimerBody": "Nuriaは、信仰の旅をサポートするイスラム教の瞑想、リマインダー、精神的なコンテンツを提供します。このコンテンツは、一般的な情報と感動的な目的でのみ提供されます\n\nNuriaは適格な学問を置き換えません\nこのアプリのガイダンスは、学んだイスラム学者、イマーム、ムフティ、または神学的に訓練された教師の代替ではありません。宗教的な裁定、ハラール・ハラム・マッターズ、または個人的な宗教的義務についての質問がある場合は、コミュニティ内の適格な宗教当局に相談してください\n\nこのアプリは宗教的な裁定を発行しません\nNuriaはフィクハ（イスラム教の法学）または個人的な宗教的義務に関する公式な決定を下していません。ここで何も、ファットワーや拘束力のある宗教的な指示として扱われるべきではありません\n\n学問的解釈は異なります\nイスラム教は、伝統、思想学派（マッドハス）、および学者の意見の多くの多様性を包含しています。このアプリのコンテンツは一般的な視点を反映しており、すべての伝統または学校を等しく表さないかもしれません\n\nコミュニティは重要です\nこのアプリは信仰伝統へのあなたの関与を促進することを目的とし、あなたの地元のモスク、イマーム、および宗教コミュニティの重要な役割を深く尊重しています。私たちはあなたが近くの適格な教師とつながったまま、学んでいることをお勧めします",
+  "disclaimerBody": "Ayaraは、信仰の旅をサポートするイスラム教の瞑想、リマインダー、精神的なコンテンツを提供します。このコンテンツは、一般的な情報と感動的な目的でのみ提供されます\n\nAyaraは適格な学問を置き換えません\nこのアプリのガイダンスは、学んだイスラム学者、イマーム、ムフティ、または神学的に訓練された教師の代替ではありません。宗教的な裁定、ハラール・ハラム・マッターズ、または個人的な宗教的義務についての質問がある場合は、コミュニティ内の適格な宗教当局に相談してください\n\nこのアプリは宗教的な裁定を発行しません\nAyaraはフィクハ（イスラム教の法学）または個人的な宗教的義務に関する公式な決定を下していません。ここで何も、ファットワーや拘束力のある宗教的な指示として扱われるべきではありません\n\n学問的解釈は異なります\nイスラム教は、伝統、思想学派（マッドハス）、および学者の意見の多くの多様性を包含しています。このアプリのコンテンツは一般的な視点を反映しており、すべての伝統または学校を等しく表さないかもしれません\n\nコミュニティは重要です\nこのアプリは信仰伝統へのあなたの関与を促進することを目的とし、あなたの地元のモスク、イマーム、および宗教コミュニティの重要な役割を深く尊重しています。私たちはあなたが近くの適格な教師とつながったまま、学んでいることをお勧めします",
   "disclaimerClose": "理解しました",
   "disclaimerInfoTooltip": "このアプリの指導について",
   "disclaimerSettingsSubtitle": "一般的な情報目的のみ。タップして完全な免責事項を読んでください",

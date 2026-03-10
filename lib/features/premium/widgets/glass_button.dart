@@ -37,7 +37,7 @@ class GlassButton extends StatefulWidget {
 
 class _GlassButtonState extends State<GlassButton>
     with TickerProviderStateMixin {
-  // Nuria premium gold palette
+  // Ayara premium gold palette
   static const Color _gold = Color(0xFFC9A84C);
   static const Color _goldLight = Color(0xFFE9C980);
 

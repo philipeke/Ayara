@@ -2,9 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 
-import 'package:nuria/core/config/theme.dart';
-import 'package:nuria/features/qibla/services/prayer_notification_service.dart';
-import 'package:nuria/l10n/app_localizations.dart';
+import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/features/qibla/services/prayer_notification_service.dart';
+import 'package:ayara/l10n/app_localizations.dart';
 
 class PrayerNotificationSection extends StatefulWidget {
   final Position position;

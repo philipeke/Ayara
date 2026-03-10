@@ -3,7 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 /// Firestore: users/{uid}
 ///
 /// Keeps backend/DB fields as creditsTotal/creditsUsed for migration safety,
-/// but exposes Nuria naming (Reflections) as aliases.
+/// but exposes Ayara naming (Reflections) as aliases.
 class AppUser {
   final String uid;
 

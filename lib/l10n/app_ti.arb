@@ -1,7 +1,7 @@
 {
   "@@locale": "ti",
 
-  "appTitle": "Nuria",
+  "appTitle": "Ayara",
 
   "languageSelectTitle": "ቋንቋዎን ምረጡ",
   "languageSelectSub": "ይህንን በኋላ በቅንብራት ውስጥ መቀየር ይችላሉ",
@@ -83,7 +83,7 @@
   "close": "ዝግ",
   "copiedToast": "ወደ ቅንጥቦ ክዋኙ",
 
-  "shareSubject": "Nuria — {category}",
+  "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "ተኮሪ ግቤት / ተኮሪ ርዕሰ ጉዳይ ስሊ ምድብ ስሌት।",
     "placeholders": {
@@ -254,7 +254,7 @@
   "deviceBoundError": "ገገ ሕሳብ ሌላ ገግ የገገገገ። ቀደም ሐሳብ ዋግኙ።",
 
   "premiumTitle": "ባረከ ሩጫ",
-  "premiumSubtitleBasic": "ሙሉ Nuria ተሞክር ይከፍት።",
+  "premiumSubtitleBasic": "ሙሉ Ayara ተሞክር ይከፍት።",
   "premiumSubtitleChampion": "ባረከ ነው። ተጨምር ሊያሰቡ?",
 
   "premiumCurrentPlan": "አሁኑ ዕቅድ: {plan}",
@@ -283,7 +283,7 @@
   "premiumLoadingStore": "ሙጭ ማስጫወት…",
 
   "blessedTitle": "ባረከ ሩጫ",
-  "blessedSubtitleGrace": "ሙሉ Nuria ተሞክር ይከፍት።",
+  "blessedSubtitleGrace": "ሙሉ Ayara ተሞክር ይከፍት።",
   "blessedSubtitleBlessed": "ባረከ ነው። ተጨምር ሊያሰቡ?",
 
   "blessedCurrentPlan": "አሁኑ ዕቅድ: {plan}",
@@ -324,7 +324,7 @@
   "graceBlockedBody": "መደበኛ ዕቅድ ደግ ጀምር ሊያሰቡ ውሩ። ቀጥል — እና premium ምድብ ይከፍት — ባረከ ሊታሙ።",
   "graceBlockedCtaGoBlessed": "ባረከ ምርጫ ከዚህ ይመልከቱ",
 
-  "rateGuestMustSignIn": "Nuria ተጠቃሚ እና ሊያሰቡ ዋግኙ።",
+  "rateGuestMustSignIn": "Ayara ተጠቃሚ እና ሊያሰቡ ዋግኙ።",
 
   "guestNoCreditsTitle": "ሰፊ ሩጫ",
   "guestNoCreditsBody": "ሰፊ ሆዴ ገገ ኮለጋ ላይ ሊያሰቡ ሊያሰቡ። ቀደም ቅንብር ውስጥ ዋግኙ ሊያሰቡ እና ክንውን ይከፍት።",
@@ -499,10 +499,10 @@
   "dailyRoleModel58": "ጣልሓ ግን ዑበይዳላህ (RA)",
   "dailyRoleModel59": "አል-ዙበይር ግን አል-ዐውዋም (RA)",
 
-  "locationConsentLabel": "Nuria ሕዝብ ሳ ቲብላ ደጋ ያህ",
+  "locationConsentLabel": "Ayara ሕዝብ ሳ ቲብላ ደጋ ያህ",
   "locationConsentHint": "ፍለጋ ይወስደ ብቻ። ሕዝብ መጋረዝ ወይም ተቀቁ ረሰ።",
 
-  "askPageTitle": "Nuria ሞገሰ",
+  "askPageTitle": "Ayara ሞገሰ",
   "askPageDescription": "ኢማን ወይም ኢስላሚክ ተግባር ምን ጥያቄ ሊታሰቡ እና ከቁርአን እና ሱና ሩት።",
   "askPageInputHint": "ጥያቄ ጻፍ…",
   "askPageSubmitCta": "ሞገስ",
@@ -520,7 +520,7 @@
     "placeholders": { "km": { "type": "String" } }
   },
   "qiblaLocationNeededTitle": "ሕዝብ አስፈላጊ",
-  "qiblaLocationNeededBody": "ሕዝብ ኮለጋ Nuria ማካ ውስጥ ደጋ ሊያሰቡ።",
+  "qiblaLocationNeededBody": "ሕዝብ ኮለጋ Ayara ማካ ውስጥ ደጋ ሊያሰቡ።",
   "qiblaOpenSettings": "ቅንብር ይክፈት",
   "qiblaCompassLoading": "ሕዝብ ምርመራ…",
   "qiblaTowardMecca": "ማካ ወደ",
@@ -532,7 +532,7 @@
   "prayerTimesMaghrib": "ማግረብ",
   "prayerTimesIsha": "ዕሻ",
   "prayerTimesLocationNeededTitle": "ሕዝብ አስፈላጊ",
-  "prayerTimesLocationNeededBody": "ሕዝብ ኮለጋ Nuria ጤና ምልክት ተአቢር ሊያሰቡ።",
+  "prayerTimesLocationNeededBody": "ሕዝብ ኮለጋ Ayara ጤና ምልክት ተአቢር ሊያሰቡ።",
   "prayerTimesNextLabel": "ሕቦ",
   "prayerTimesDoneLabel": "ድርድር",
 
@@ -577,7 +577,7 @@
   "dhikrCompleteMessage": "99 ሊዘካር አላህ ሙላ። ምናልባት ብርታት ሕዝብ ለ።",
 
   "disclaimerTitle": "ይህ ገገ መመሪያ ስለ",
-  "disclaimerBody": "Nuria ኢስላሚክ ሊያሰቡ እና መሪህ ቀጠር ለ ስሪታ። ይህ ለ ብቻ ወቀላዊ ለስ።\n\nNuria ሊአሎ ተምህሮ ተደክም።\nיህ ገገ መመሪያ ተምህሮ ምስሌ ሕሳብ ሰፊ ተትኩሞ።ዋጂ ወይ ሕሉልዮ ማሳሰብ ሚሕሳስ ባህሪ ሕዝብ ከባይ ምሰምt።\n\nNuria ወጋዊ ወጋዊ ርዕሰ-ጉዳይ ኢ።\nNuria ጥቅሳት ወጋዊ ወጋዊ ህዘቅ ወዪ ስሪታ ኢ። ይህ ገገ ሲሮ ወጋዊ ወጋዊ ሕክምና ውሴ ሚታማመኑ።\n\nተምህሮ ልዩነት።\nኢስላም ባህሪ ልዩነት ተምህሮ ቅሪ ይበልጥ። ይህ ገገ መመሪያ ጠቃሚ ተመልከት ምክንያት ባህሪ ሙሉ ተክለ።\n\nሕዝበ-ዓለም ስሪታ።\nይህ ገገ ሕዝበ-ዓለም ሳ ተውከት ህህ ሥሪታ። ቅርብ ምሰምት ተምህሮ ለ ምህሩ።",
+  "disclaimerBody": "Ayara ኢስላሚክ ሊያሰቡ እና መሪህ ቀጠር ለ ስሪታ። ይህ ለ ብቻ ወቀላዊ ለስ።\n\nAyara ሊአሎ ተምህሮ ተደክም።\nיህ ገገ መመሪያ ተምህሮ ምስሌ ሕሳብ ሰፊ ተትኩሞ።ዋጂ ወይ ሕሉልዮ ማሳሰብ ሚሕሳስ ባህሪ ሕዝብ ከባይ ምሰምt።\n\nAyara ወጋዊ ወጋዊ ርዕሰ-ጉዳይ ኢ።\nAyara ጥቅሳት ወጋዊ ወጋዊ ህዘቅ ወዪ ስሪታ ኢ። ይህ ገገ ሲሮ ወጋዊ ወጋዊ ሕክምና ውሴ ሚታማመኑ።\n\nተምህሮ ልዩነት።\nኢስላም ባህሪ ልዩነት ተምህሮ ቅሪ ይበልጥ። ይህ ገገ መመሪያ ጠቃሚ ተመልከት ምክንያት ባህሪ ሙሉ ተክለ።\n\nሕዝበ-ዓለም ስሪታ።\nይህ ገገ ሕዝበ-ዓለም ሳ ተውከት ህህ ሥሪታ። ቅርብ ምሰምት ተምህሮ ለ ምህሩ።",
   "disclaimerClose": "ተወቅሳ",
   "disclaimerInfoTooltip": "ይህ ገገ መመሪያ ስለ",
   "disclaimerSettingsSubtitle": "ወቀላዊ ለስ ብቻ። ሙሉ ወጋግ ፍለጋ ታሪክ።",
