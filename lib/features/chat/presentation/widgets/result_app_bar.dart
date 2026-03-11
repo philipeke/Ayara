@@ -50,7 +50,7 @@ class ResultAppBar extends StatelessWidget implements PreferredSizeWidget {
       automaticallyImplyLeading: false,
       leading: IconButton(
         iconSize: iconSize,
-        icon: const Icon(Icons.arrow_back_ios_new_rounded, color: Colors.white),
+        icon: const Icon(Icons.arrow_back_ios_new_rounded, color: AppColors.gold),
         onPressed: onBack,
       ),
       titleSpacing: 0,
@@ -90,8 +90,8 @@ class ResultAppBar extends StatelessWidget implements PreferredSizeWidget {
                           softWrap: false,
                           style: TextStyle(
                             color: categoryColor,
-                            fontWeight: FontWeight.w600,
-                            letterSpacing: 0.2,
+                            fontWeight: FontWeight.w700,
+                            letterSpacing: 0.1,
                             fontSize: badgeFont,
                           ),
                         ),
@@ -113,6 +113,8 @@ class ResultAppBar extends StatelessWidget implements PreferredSizeWidget {
                 style: TextStyle(
                   color: Colors.white70,
                   fontSize: wordFont,
+                  fontWeight: FontWeight.w700,
+                  letterSpacing: 0.1,
                 ),
               ),
               if (isLoading) ...[

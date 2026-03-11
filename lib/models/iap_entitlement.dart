@@ -2,13 +2,14 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 /// Firestore: iap_entitlements/{uid}
 ///
-/// Primary truth for Blessed (formerly Champion).
+/// Primary truth for Premium (formerly Blessed/Champion).
 /// Created/updated by Cloud Function iapAcknowledgeAndGrant.
 class IapEntitlement {
   final String uid;
 
-  /// Ayara primary flag (new).
-  final bool isBlessed;
+  /// Ayara primary flag.
+  /// NOTE: Firestore field name is still 'isPremium' for DB compatibility.
+  final bool isPremium;
 
   /// Legacy flag (read-only compatibility).
   /// Not written by Ayara anymore, but we may read it if present.
@@ -29,7 +30,7 @@ class IapEntitlement {
 
   const IapEntitlement({
     required this.uid,
-    required this.isBlessed,
+    required this.isPremium,
     required this.status,
     this.isChampionLegacy = false,
     this.productId,
@@ -40,7 +41,7 @@ class IapEntitlement {
     this.repairedAt,
   });
 
-  bool get isActive => isBlessed == true && status == 'active';
+  bool get isActive => isPremium == true && status == 'active';
 
   static DateTime? _asDate(dynamic v) {
     if (v == null) return null;
@@ -57,16 +58,17 @@ class IapEntitlement {
   }
 
   factory IapEntitlement.fromMap(String uid, Map<String, dynamic> data) {
-    final blessedPresent = data.containsKey('isBlessed');
-    final isBlessed = blessedPresent
-        ? _asBool(data['isBlessed'])
+    // Firestore field is still named 'isPremium' for DB compatibility
+    final blessedPresent = data.containsKey('isPremium');
+    final isPremium = blessedPresent
+        ? _asBool(data['isPremium'])
         : _asBool(data['isChampion']); // legacy fallback
 
     final legacyChampion = _asBool(data['isChampion']);
 
     return IapEntitlement(
       uid: uid,
-      isBlessed: isBlessed,
+      isPremium: isPremium,
       isChampionLegacy: legacyChampion,
       productId: (data['productId'] as String?)?.trim(),
       platform: (data['platform'] as String?)?.trim(),
@@ -86,8 +88,8 @@ class IapEntitlement {
   }
 
   Map<String, dynamic> toMap() => <String, dynamic>{
-        // ✅ Ayara writes only isBlessed going forward.
-        'isBlessed': isBlessed,
+        // ✅ Firestore field name kept as 'isPremium' for DB compatibility.
+        'isPremium': isPremium,
 
         'productId': productId,
         'platform': platform,
@@ -101,7 +103,7 @@ class IapEntitlement {
       };
 
   IapEntitlement copyWith({
-    bool? isBlessed,
+    bool? isPremium,
     String? productId,
     String? platform,
     String? status,
@@ -112,7 +114,7 @@ class IapEntitlement {
   }) {
     return IapEntitlement(
       uid: uid,
-      isBlessed: isBlessed ?? this.isBlessed,
+      isPremium: isPremium ?? this.isPremium,
       isChampionLegacy: isChampionLegacy,
       productId: productId ?? this.productId,
       platform: platform ?? this.platform,

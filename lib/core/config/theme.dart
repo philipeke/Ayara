@@ -1,114 +1,129 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-/// Ayara brand colors — Shia Islamic deep green / gold palette.
+/// Ayara brand colors — dark Islamic palette (matches ayara-site).
 abstract final class AppColors {
-  // ── Deep Greens (backgrounds / primary) ────────────────────────────────
-  static const islamicDeep  = Color(0xFF040A06);  // near-black with green — main bg
-  static const islamic      = Color(0xFF0C3A1E);  // deep forest / Islamic green
-  static const islamicLight = Color(0xFF1A5C35);  // mid Islamic green — hover / container
+  // ── Deep Navy backgrounds ───────────────────────────────────────────────
+  static const deepNavy  = Color(0xFF060C18); // main background
+  static const navy      = Color(0xFF0B1628); // secondary background
+  static const navyDeep  = Color(0xFF04080F); // deepest background
 
-  // ── Gold / Amber (sacred accent) ────────────────────────────────────────
-  static const gold        = Color(0xFFC49A3C);   // warm Islamic gold
-  static const goldLight   = Color(0xFFD4B05A);
-  static const goldSubtle  = Color(0xFFF2EAD0);
+  // ── Crimson / Karbala family ────────────────────────────────────────────
+  static const crimsonDeep  = Color(0xFF8C1C2F);
+  static const crimson      = Color(0xFFB52344);
+  static const crimsonBright = Color(0xFFC23B5A);
+  static const crimsonLight  = Color(0xFFE8708A);
 
-  // ── Warm / Cream surfaces ────────────────────────────────────────────────
-  static const warmWhite = Color(0xFFF5F1E8);  // soft off-white
-  static const cream     = Color(0xFFEADFCA);  // warm cream
-  static const white     = Color(0xFFFFFFFF);
+  // ── Gold / Islamic richness ──────────────────────────────────────────────
+  static const goldDim    = Color(0xFF8A6B20);
+  static const gold       = Color(0xFFC9A84C);
+  static const goldBright = Color(0xFFF0D080);
 
-  // ── Icon tint ────────────────────────────────────────────────────────────
-  static const iconWarm  = Color(0xFFBF9845);
+  // ── Emerald / Ahl al-Bayt ───────────────────────────────────────────────
+  static const emeraldDeep   = Color(0xFF0B4A30);
+  static const emerald       = Color(0xFF1A7A50);
+  static const emeraldBright = Color(0xFF26B070);
+  static const emeraldLight  = Color(0xFF5EE8A8);
 
-  // ── Text (for light surfaces — cards, settings, etc.) ────────────────────
-  static const textPrimary   = Color(0xFF0A1E0E);
-  static const textSecondary = Color(0xFF2A5A38);
-  static const textMuted     = Color(0xFF5A8A65);
+  // ── Text ────────────────────────────────────────────────────────────────
+  static const textPrimary = Color(0xFFF0E8D8); // warm off-white
+  static const textDim     = Color(0xFFB8A890); // secondary text
+  static const textMuted   = Color(0xFF7A6A58); // tertiary/muted
 
-  // ── Borders ──────────────────────────────────────────────────────────────
-  static const border = Color(0xFFCED9CA);
+  // ── Surfaces & borders ──────────────────────────────────────────────────
+  static const surface     = Color(0xCC0A1226); // card surface (80% opacity)
+  static const surfaceMid  = Color(0xE60A1226); // elevated surface
+  static const border      = Color(0x1FC9A84C); // gold border 12%
+  static const borderMid   = Color(0x47C9A84C); // gold border 28%
+  static const borderBright = Color(0x8CC9A84C); // gold border 55%
 
-  // ── Backward-compat aliases (keep all existing usages compiling) ─────────
-  static const crimsonDeep  = islamicDeep;
-  static const crimson      = islamic;
-  static const crimsonLight = islamicLight;
-  static const navy      = islamic;
-  static const navyLight = islamicLight;
-  static const navyDeep  = islamicDeep;
+  // ── Backward-compat aliases ──────────────────────────────────────────────
+  static const islamic      = crimson;
+  static const islamicDeep  = crimsonDeep;
+  static const islamicLight = crimsonBright;
+  static const navyLight    = emerald;
+  static const warmWhite    = textPrimary;
+  static const cream        = textDim;
+  static const white        = Color(0xFFFFFFFF);
+  static const goldLight    = goldBright;
+  static const goldSubtle   = Color(0x33C9A84C); // gold 20%
+  static const iconWarm     = gold;
+  static const textSecondary = textDim;
+  static const borderColor   = border;
 }
 
 class AppTheme {
-  static ThemeData light() {
+  // Single dark Islamic theme — always dark, no light variant.
+  static ThemeData dark() {
     const cs = ColorScheme(
-      brightness: Brightness.light,
-      // Primary — deep crimson
-      primary:              AppColors.islamic,
-      onPrimary:            AppColors.white,
-      primaryContainer:     AppColors.islamicLight,
-      onPrimaryContainer:   AppColors.goldSubtle,
+      brightness: Brightness.dark,
+      // Primary — crimson (Karbala)
+      primary:              AppColors.crimsonBright,
+      onPrimary:            AppColors.textPrimary,
+      primaryContainer:     AppColors.crimsonDeep,
+      onPrimaryContainer:   AppColors.crimsonLight,
       // Secondary — gold
       secondary:            AppColors.gold,
-      onSecondary:          AppColors.islamicDeep,
-      secondaryContainer:   AppColors.goldSubtle,
-      onSecondaryContainer: AppColors.islamic,
-      // Tertiary — gold-light accent
-      tertiary:             AppColors.goldLight,
-      onTertiary:           AppColors.islamic,
-      tertiaryContainer:    AppColors.goldSubtle,
-      onTertiaryContainer:  AppColors.islamic,
-      // Surfaces — warm parchment
-      surface:                    AppColors.warmWhite,
-      onSurface:                  AppColors.textPrimary,
-      surfaceContainerHighest:    AppColors.cream,
-      onSurfaceVariant:           AppColors.textSecondary,
+      onSecondary:          AppColors.navyDeep,
+      secondaryContainer:   AppColors.goldDim,
+      onSecondaryContainer: AppColors.goldBright,
+      // Tertiary — emerald
+      tertiary:             AppColors.emeraldBright,
+      onTertiary:           AppColors.navyDeep,
+      tertiaryContainer:    AppColors.emeraldDeep,
+      onTertiaryContainer:  AppColors.emeraldLight,
+      // Surfaces — deep navy
+      surface:              AppColors.navy,
+      onSurface:            AppColors.textPrimary,
+      surfaceContainerHighest: AppColors.surfaceMid,
+      onSurfaceVariant:     AppColors.textDim,
       // Outline
-      outline:        AppColors.border,
-      outlineVariant: AppColors.border,
+      outline:              AppColors.border,
+      outlineVariant:       AppColors.borderMid,
       // Error
-      error:   Color(0xFFB00020),
-      onError: AppColors.white,
-      // Scrim / shadow
-      scrim: AppColors.islamicDeep,
+      error:   Color(0xFFE8708A),
+      onError: AppColors.navyDeep,
+      // Scrim
+      scrim: AppColors.navyDeep,
     );
 
     final base = ThemeData(
       useMaterial3: true,
-      colorScheme: cs,
+      colorScheme:  cs,
     );
 
     return base.copyWith(
-      scaffoldBackgroundColor: AppColors.warmWhite,
+      scaffoldBackgroundColor: AppColors.deepNavy,
 
-      appBarTheme: const AppBarTheme(
-        backgroundColor:  Colors.transparent,
-        foregroundColor:  AppColors.islamic,
+      appBarTheme: AppBarTheme(
+        backgroundColor:  AppColors.deepNavy,
+        foregroundColor:  AppColors.textPrimary,
         elevation:        0,
         centerTitle:      true,
-        titleTextStyle: TextStyle(
-          fontWeight: FontWeight.w700,
-          fontSize:   18,
-          color:      AppColors.islamic,
-          letterSpacing: 0.2,
+        titleTextStyle: GoogleFonts.cinzel(
+          fontSize:      18,
+          fontWeight:    FontWeight.w700,
+          color:         AppColors.goldBright,
+          letterSpacing: 0.5,
         ),
-        iconTheme: IconThemeData(color: AppColors.crimson),
+        iconTheme: const IconThemeData(color: AppColors.gold),
       ),
 
-      cardTheme: const CardThemeData(
-        color:            AppColors.white,
+      cardTheme: CardThemeData(
+        color:            AppColors.surface,
         surfaceTintColor: Colors.transparent,
-        shadowColor:      Color(0x140C3A1E),
-        elevation:        2,
-        margin:           EdgeInsets.symmetric(vertical: 6, horizontal: 10),
+        shadowColor:      const Color(0x66000000),
+        elevation:        0,
+        margin:           const EdgeInsets.symmetric(vertical: 6, horizontal: 10),
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.all(Radius.circular(16)),
-          side: BorderSide(color: AppColors.border, width: 0.8),
+          borderRadius: const BorderRadius.all(Radius.circular(16)),
+          side: const BorderSide(color: AppColors.border, width: 0.8),
         ),
       ),
 
       inputDecorationTheme: InputDecorationTheme(
         filled:      true,
-        fillColor:   AppColors.white,
+        fillColor:   AppColors.surface,
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(14),
           borderSide: const BorderSide(color: AppColors.border),
@@ -126,77 +141,83 @@ class AppTheme {
         hintStyle: const TextStyle(color: AppColors.textMuted),
       ),
 
-      textTheme: GoogleFonts.ralewayTextTheme(base.textTheme.copyWith(
-        headlineLarge: const TextStyle(
-          fontSize:   32,
-          fontWeight: FontWeight.w800,
-          color:      AppColors.islamic,
-          letterSpacing: -0.5,
+      textTheme: GoogleFonts.ralewayTextTheme(base.textTheme).copyWith(
+        headlineLarge: GoogleFonts.cinzel(
+          fontSize:      32,
+          fontWeight:    FontWeight.w700,
+          color:         AppColors.goldBright,
+          letterSpacing: 0.5,
         ),
-        headlineMedium: const TextStyle(
-          fontSize:   26,
-          fontWeight: FontWeight.w700,
-          color:      AppColors.islamic,
+        headlineMedium: GoogleFonts.cinzel(
+          fontSize:      26,
+          fontWeight:    FontWeight.w700,
+          color:         AppColors.goldBright,
+          letterSpacing: 0.3,
         ),
-        headlineSmall: const TextStyle(
-          fontSize:   22,
-          fontWeight: FontWeight.w700,
-          color:      AppColors.islamic,
+        headlineSmall: GoogleFonts.cinzel(
+          fontSize:      22,
+          fontWeight:    FontWeight.w600,
+          color:         AppColors.goldBright,
         ),
-        titleLarge: const TextStyle(
-          fontSize:   18,
-          fontWeight: FontWeight.w700,
-          color:      AppColors.islamic,
-          letterSpacing: 0.1,
+        titleLarge: GoogleFonts.cinzel(
+          fontSize:      18,
+          fontWeight:    FontWeight.w600,
+          color:         AppColors.gold,
+          letterSpacing: 0.3,
         ),
-        titleMedium: const TextStyle(
-          fontSize:   16,
-          fontWeight: FontWeight.w600,
-          color:      AppColors.islamic,
+        titleMedium: GoogleFonts.raleway(
+          fontSize:      16,
+          fontWeight:    FontWeight.w600,
+          color:         AppColors.textPrimary,
         ),
-        bodyLarge: const TextStyle(
+        titleSmall: GoogleFonts.raleway(
+          fontSize:      14,
+          fontWeight:    FontWeight.w600,
+          color:         AppColors.textDim,
+        ),
+        bodyLarge: GoogleFonts.raleway(
           fontSize: 16,
+          color:    AppColors.textPrimary,
+          height:   1.6,
+        ),
+        bodyMedium: GoogleFonts.raleway(
+          fontSize: 15,
           color:    AppColors.textPrimary,
           height:   1.55,
         ),
-        bodyMedium: const TextStyle(
-          fontSize: 15,
-          color:    AppColors.textPrimary,
+        bodySmall: GoogleFonts.raleway(
+          fontSize: 13,
+          color:    AppColors.textDim,
           height:   1.5,
         ),
-        bodySmall: const TextStyle(
-          fontSize: 13,
-          color:    AppColors.textSecondary,
-          height:   1.4,
-        ),
-        labelLarge: const TextStyle(
-          fontSize:   15,
-          fontWeight: FontWeight.w600,
-          color:      AppColors.islamic,
+        labelLarge: GoogleFonts.raleway(
+          fontSize:      15,
+          fontWeight:    FontWeight.w600,
+          color:         AppColors.gold,
           letterSpacing: 0.1,
         ),
-        labelMedium: const TextStyle(
+        labelMedium: GoogleFonts.raleway(
           fontSize: 13,
-          color:    AppColors.textMuted,
+          color:    AppColors.textDim,
         ),
-        labelSmall: const TextStyle(
-          fontSize: 11,
-          color:    AppColors.textMuted,
-          letterSpacing: 0.3,
+        labelSmall: GoogleFonts.raleway(
+          fontSize:      11,
+          color:         AppColors.textMuted,
+          letterSpacing: 0.4,
         ),
-      )),
+      ),
 
-      // ── Buttons ──────────────────────────────────────────────────────────
+      // ── Buttons ────────────────────────────────────────────────────────
 
       filledButtonTheme: FilledButtonThemeData(
         style: FilledButton.styleFrom(
-          backgroundColor: AppColors.islamic,
-          foregroundColor: AppColors.white,
+          backgroundColor: AppColors.crimsonBright,
+          foregroundColor: AppColors.textPrimary,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(14),
           ),
           padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 13),
-          textStyle: const TextStyle(
+          textStyle: GoogleFonts.raleway(
             fontWeight:    FontWeight.w700,
             fontSize:      15,
             letterSpacing: 0.2,
@@ -207,14 +228,14 @@ class AppTheme {
 
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          backgroundColor: AppColors.islamic,
-          foregroundColor: AppColors.white,
-          shadowColor:     const Color(0x280C3A1E),
+          backgroundColor: AppColors.crimsonBright,
+          foregroundColor: AppColors.textPrimary,
+          shadowColor:     const Color(0x44C23B5A),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(14),
           ),
           padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 13),
-          textStyle: const TextStyle(
+          textStyle: GoogleFonts.raleway(
             fontWeight:    FontWeight.w700,
             fontSize:      15,
             letterSpacing: 0.2,
@@ -225,13 +246,13 @@ class AppTheme {
 
       outlinedButtonTheme: OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
-          foregroundColor: AppColors.islamic,
-          side: const BorderSide(color: AppColors.islamic, width: 1.4),
+          foregroundColor: AppColors.gold,
+          side: const BorderSide(color: AppColors.borderMid, width: 1.4),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(14),
           ),
           padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 13),
-          textStyle: const TextStyle(
+          textStyle: GoogleFonts.raleway(
             fontWeight:    FontWeight.w600,
             fontSize:      15,
             letterSpacing: 0.2,
@@ -241,8 +262,8 @@ class AppTheme {
 
       textButtonTheme: TextButtonThemeData(
         style: TextButton.styleFrom(
-          foregroundColor: AppColors.islamic,
-          textStyle: const TextStyle(
+          foregroundColor: AppColors.gold,
+          textStyle: GoogleFonts.raleway(
             fontWeight:    FontWeight.w600,
             fontSize:      14,
             letterSpacing: 0.1,
@@ -253,7 +274,7 @@ class AppTheme {
         ),
       ),
 
-      // ── Misc ─────────────────────────────────────────────────────────────
+      // ── Misc ──────────────────────────────────────────────────────────
 
       dividerTheme: const DividerThemeData(
         color:     AppColors.border,
@@ -262,25 +283,30 @@ class AppTheme {
       ),
 
       chipTheme: ChipThemeData(
-        backgroundColor:   AppColors.goldSubtle,
-        labelStyle:        const TextStyle(color: AppColors.islamic, fontWeight: FontWeight.w600),
-        side:              const BorderSide(color: AppColors.gold, width: 0.8),
+        backgroundColor: AppColors.surface,
+        labelStyle: GoogleFonts.raleway(
+          color:      AppColors.gold,
+          fontWeight: FontWeight.w600,
+          fontSize:   13,
+        ),
+        side:  const BorderSide(color: AppColors.borderMid, width: 0.8),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
       ),
 
-      snackBarTheme: const SnackBarThemeData(
-        backgroundColor: AppColors.islamicDeep,
-        contentTextStyle: TextStyle(color: AppColors.warmWhite),
-        actionTextColor:  AppColors.goldLight,
+      snackBarTheme: SnackBarThemeData(
+        backgroundColor: AppColors.navy,
+        contentTextStyle: GoogleFonts.raleway(color: AppColors.textPrimary),
+        actionTextColor:  AppColors.goldBright,
         behavior:         SnackBarBehavior.floating,
-        shape: RoundedRectangleBorder(
+        shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(12)),
+          side: BorderSide(color: AppColors.border),
         ),
       ),
 
       bottomSheetTheme: const BottomSheetThemeData(
-        backgroundColor:  AppColors.warmWhite,
+        backgroundColor:  AppColors.navy,
         surfaceTintColor: Colors.transparent,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
@@ -288,41 +314,61 @@ class AppTheme {
       ),
 
       dialogTheme: DialogThemeData(
-        backgroundColor:  AppColors.warmWhite,
+        backgroundColor:  AppColors.navy,
         surfaceTintColor: Colors.transparent,
-        titleTextStyle: const TextStyle(
-          color:      AppColors.islamic,
+        titleTextStyle: GoogleFonts.cinzel(
+          color:      AppColors.goldBright,
           fontSize:   18,
           fontWeight: FontWeight.w700,
         ),
-        contentTextStyle: const TextStyle(
-          color:   AppColors.textSecondary,
+        contentTextStyle: GoogleFonts.raleway(
+          color:    AppColors.textDim,
           fontSize: 15,
         ),
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
+          side: const BorderSide(color: AppColors.border),
+        ),
       ),
 
       listTileTheme: const ListTileThemeData(
-        iconColor:   AppColors.islamic,
-        textColor:   AppColors.textPrimary,
-        tileColor:   Colors.transparent,
+        iconColor:      AppColors.gold,
+        textColor:      AppColors.textPrimary,
+        tileColor:      Colors.transparent,
         contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 2),
       ),
 
       switchTheme: SwitchThemeData(
-        thumbColor:  WidgetStateProperty.resolveWith((s) =>
-            s.contains(WidgetState.selected) ? AppColors.gold : AppColors.textMuted),
-        trackColor:  WidgetStateProperty.resolveWith((s) =>
+        thumbColor: WidgetStateProperty.resolveWith((s) =>
             s.contains(WidgetState.selected)
-                ? AppColors.goldSubtle
-                : AppColors.cream),
+                ? AppColors.goldBright
+                : AppColors.textMuted),
+        trackColor: WidgetStateProperty.resolveWith((s) =>
+            s.contains(WidgetState.selected)
+                ? AppColors.goldDim
+                : AppColors.surface),
         trackOutlineColor: WidgetStateProperty.all(Colors.transparent),
       ),
 
       progressIndicatorTheme: const ProgressIndicatorThemeData(
         color: AppColors.gold,
       ),
+
+      popupMenuTheme: PopupMenuThemeData(
+        color:       AppColors.navy,
+        surfaceTintColor: Colors.transparent,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(14),
+          side: const BorderSide(color: AppColors.border),
+        ),
+        textStyle: GoogleFonts.raleway(
+          color:    AppColors.textPrimary,
+          fontSize: 14,
+        ),
+      ),
     );
   }
-}
 
+  /// Legacy alias — kept so existing call-sites compile without change.
+  static ThemeData light() => dark();
+}

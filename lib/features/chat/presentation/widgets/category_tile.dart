@@ -204,8 +204,8 @@ class _CategoryTileState extends State<CategoryTile>
     final double gap = isLargeTablet ? 14 : (isTablet ? 12 : 10);
 
     final textColor = widget.dimmed
-        ? AppColors.goldSubtle.withValues(alpha: 0.35)
-        : AppColors.goldSubtle;
+        ? AppColors.textMuted
+        : AppColors.textDim;
     final iconBgMul = widget.dimmed ? 0.06 : 0.13;
     final iconBorderMul = widget.dimmed ? 0.14 : 0.38;
 
@@ -228,10 +228,10 @@ class _CategoryTileState extends State<CategoryTile>
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(radius),
         color: widget.isBusy
-            ? const Color(0xFF5C4228).withValues(alpha: 0.96)
+            ? const Color(0xFF0D2240).withValues(alpha: 0.96)
             : widget.dimmed
-                ? const Color(0xFF2E2010).withValues(alpha: 0.45)
-                : const Color(0xFF4A3420).withValues(alpha: 0.88),
+                ? AppColors.navyDeep.withValues(alpha: 0.55)
+                : const Color(0xFF0B1A30).withValues(alpha: 0.90),
         border: Border.all(
           color: AppColors.gold.withValues(
             alpha: widget.isBusy ? 0.65 : (widget.dimmed ? 0.12 : 0.42),
@@ -239,10 +239,10 @@ class _CategoryTileState extends State<CategoryTile>
           width: widget.isBusy ? 1.5 : (widget.dimmed ? 0.8 : 1.1),
         ),
         boxShadow: [
-          // Warm brown drop shadow
+          // Dark navy drop shadow
           BoxShadow(
-            color: const Color(0xFF1A0E04).withValues(
-                alpha: widget.dimmed ? 0.10 : 0.30),
+            color: Colors.black.withValues(
+                alpha: widget.dimmed ? 0.12 : 0.35),
             blurRadius: isTablet ? 24 : 18,
             spreadRadius: -2,
             offset: Offset(0, isTablet ? 6.0 : 4.0),

@@ -7,7 +7,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 class AppUser {
   final String uid;
 
-  /// "grace" | "blessed" | "guest"
+  /// "basic" | "premium" | "guest"
   final String plan;
 
   /// Current schema
@@ -39,8 +39,8 @@ class AppUser {
   int get reflectionsUsed => creditsUsed;
   int get reflectionsRemaining => creditsRemaining;
 
-  bool get isBlessed => plan == 'blessed';
-  bool get isGrace => plan == 'grace';
+  bool get isPremium => plan == 'premium';
+  bool get isBasic => plan == 'basic';
   bool get isGuest => plan == 'guest';
 
   static int _asInt(dynamic v) {
@@ -63,17 +63,17 @@ class AppUser {
     final v = raw.trim().toLowerCase();
 
     // Legacy mappings from TipsyPal / earlier experiments
-    if (v.isEmpty) return 'grace';
-    if (v == 'free') return 'grace';
-    if (v == 'starter') return 'grace';
-    if (v == 'basic') return 'grace';
+    if (v.isEmpty) return 'basic';
+    if (v == 'free') return 'basic';
+    if (v == 'starter') return 'basic';
+    if (v == 'basic') return 'basic'; // old value
 
-    if (v == 'champion') return 'blessed';
+    if (v == 'premium') return 'premium';
 
     if (v == 'anonymous') return 'guest';
     if (v == 'guest') return 'guest';
 
-    // Already new values: grace/blessed
+    // Already new values: basic/premium
     return v;
   }
 
@@ -82,7 +82,7 @@ class AppUser {
   /// - Else: creditsRemaining + creditsUsed => creditsTotal
   factory AppUser.fromMap(String uid, Map<String, dynamic> data) {
     final rawPlan = (data['plan'] as String?)?.trim();
-    final plan = _normalizePlan(rawPlan ?? 'grace');
+    final plan = _normalizePlan(rawPlan ?? 'basic');
 
     final creditsUsed = _asInt(data['creditsUsed']);
 

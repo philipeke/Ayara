@@ -36,7 +36,7 @@ class RestorePurchasesSection extends StatelessWidget {
                     const Icon(Icons.restore, size: 18),
                     const SizedBox(width: 8),
                     Text(
-                      t.blessedRestorePurchases,
+                      t.premiumRestorePurchases,
                       style: Theme.of(context).textTheme.titleSmall?.copyWith(
                             fontWeight: FontWeight.w600,
                           ),
@@ -47,19 +47,19 @@ class RestorePurchasesSection extends StatelessWidget {
                 const SizedBox(height: 8),
 
                 Text(
-                  t.blessedRestoreHintTitle,
+                  t.premiumRestoreHintTitle,
                   style: Theme.of(context)
                       .textTheme
                       .bodySmall
-                      ?.copyWith(color: Colors.grey[700]),
+                      ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  t.blessedRestoreHintBody,
+                  t.premiumRestoreHintBody,
                   style: Theme.of(context)
                       .textTheme
                       .bodySmall
-                      ?.copyWith(color: Colors.grey[600]),
+                      ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
                 ),
 
                 const SizedBox(height: 10),
@@ -71,11 +71,11 @@ class RestorePurchasesSection extends StatelessWidget {
                         ? null
                         : () => PurchaseController.instance.restorePurchases(),
                     icon: const Icon(Icons.restore_rounded, size: 18),
-                    label: Text(t.blessedRestorePurchases),
+                    label: Text(t.premiumRestorePurchases),
                     style: OutlinedButton.styleFrom(
-                      foregroundColor: Colors.grey[700],
-                      backgroundColor: Colors.grey[100],
-                      side: BorderSide(color: Colors.grey[300]!, width: 1),
+                      foregroundColor: Theme.of(context).colorScheme.onSurfaceVariant,
+                      backgroundColor: Theme.of(context).colorScheme.surface,
+                      side: BorderSide(color: Theme.of(context).colorScheme.outline, width: 1),
                       padding: const EdgeInsets.symmetric(vertical: 13),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
@@ -99,12 +99,12 @@ class RestorePurchasesSection extends StatelessWidget {
                       ),
                       const SizedBox(width: 8),
                       Text(
-                        t.blessedProcessing,
+                        t.premiumProcessing,
                         overflow: TextOverflow.ellipsis,
                         style: Theme.of(context)
                             .textTheme
                             .bodySmall
-                            ?.copyWith(color: Colors.grey[600]),
+                            ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
                       ),
                     ],
                   ),

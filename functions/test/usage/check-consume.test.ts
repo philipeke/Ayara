@@ -111,7 +111,7 @@ function setupDeviceBinding(uid: string) {
   });
 }
 
-function setupUser(uid: string, total: number, used: number, plan = 'grace', extra: any = {}) {
+function setupUser(uid: string, total: number, used: number, plan = 'basic', extra: any = {}) {
   getAdmin().__setState(`users/${uid}`, {
     plan,
     reflectionsTotal: total,
@@ -135,26 +135,26 @@ describe('Blessed user', () => {
     setupDeviceCredits(UID_MAIN, 0, 0);
     setupDeviceBinding(UID_MAIN);
     getAdmin().__setState(`iap_entitlements/${UID_MAIN}`, {
-      isBlessed: true,
+      isPremium: true,
       status: 'active',
     });
-    setupUser(UID_MAIN, 0, 0, 'blessed');
+    setupUser(UID_MAIN, 0, 0, 'premium');
 
     const result = await (checkAndConsumePrompt as any)(makeConsumeReq(UID_MAIN));
 
     expect(result.allowed).toBe(true);
-    expect(result.plan).toBe('blessed');
+    expect(result.plan).toBe('premium');
   });
 
-  it('testBlessed flag on user doc also grants access', async () => {
+  it('testPremium flag on user doc also grants access', async () => {
     setupDeviceCredits(UID_MAIN, 0, 0);
     setupDeviceBinding(UID_MAIN);
-    setupUser(UID_MAIN, 0, 0, 'grace', { testBlessed: true });
+    setupUser(UID_MAIN, 0, 0, 'basic', { testPremium: true });
 
     const result = await (checkAndConsumePrompt as any)(makeConsumeReq(UID_MAIN));
 
     expect(result.allowed).toBe(true);
-    expect(result.plan).toBe('blessed');
+    expect(result.plan).toBe('premium');
   });
 });
 
@@ -165,7 +165,7 @@ describe('Grace user with credits', () => {
   it('allowed when pool has remaining credits, reflectionsUsed incremented by 1', async () => {
     setupDeviceCredits(UID_MAIN, 100, 50);
     setupDeviceBinding(UID_MAIN);
-    setupUser(UID_MAIN, 100, 50, 'grace');
+    setupUser(UID_MAIN, 100, 50, 'basic');
 
     const result = await (checkAndConsumePrompt as any)(makeConsumeReq(UID_MAIN));
 
@@ -186,7 +186,7 @@ describe('Grace user with 0 credits', () => {
   it('denied with reflections_exhausted reason', async () => {
     setupDeviceCredits(UID_MAIN, 100, 100); // used = total → 0 remaining
     setupDeviceBinding(UID_MAIN);
-    setupUser(UID_MAIN, 100, 100, 'grace');
+    setupUser(UID_MAIN, 100, 100, 'basic');
 
     const result = await (checkAndConsumePrompt as any)(makeConsumeReq(UID_MAIN));
 
@@ -203,7 +203,7 @@ describe('Main vs Guest vs Other routing', () => {
   it('uid === mainUid → consumes from device_credits pool', async () => {
     setupDeviceCredits(UID_MAIN, 100, 40);
     setupDeviceBinding(UID_MAIN);
-    setupUser(UID_MAIN, 100, 40, 'grace');
+    setupUser(UID_MAIN, 100, 40, 'basic');
 
     const result = await (checkAndConsumePrompt as any)(makeConsumeReq(UID_MAIN));
 
@@ -218,7 +218,7 @@ describe('Main vs Guest vs Other routing', () => {
   it('anonymous (guest) → shares device_credits pool', async () => {
     setupDeviceCredits(UID_MAIN, 100, 20);
     setupDeviceBinding(UID_GUEST);
-    setupUser(UID_GUEST, 100, 20, 'grace');
+    setupUser(UID_GUEST, 100, 20, 'basic');
 
     const result = await (checkAndConsumePrompt as any)(makeConsumeReq(UID_GUEST, 'anonymous'));
 
@@ -234,7 +234,7 @@ describe('Main vs Guest vs Other routing', () => {
     // Shared pool: all accounts using same deviceId share device_credits/${bindId}
     setupDeviceCredits(UID_MAIN, 9999, 0);
     setupDeviceBinding(UID_OTHER);
-    setupUser(UID_OTHER, 50, 20, 'grace'); // own users/{uid} is irrelevant — pool is source of truth
+    setupUser(UID_OTHER, 50, 20, 'basic'); // own users/{uid} is irrelevant — pool is source of truth
 
     const result = await (checkAndConsumePrompt as any)(makeConsumeReq(UID_OTHER));
 
@@ -252,7 +252,7 @@ describe('Main vs Guest vs Other routing', () => {
   it('any account on same device reads from pool, not own users/{uid}', async () => {
     setupDeviceCredits(UID_MAIN, 9999, 0); // pool has tons
     setupDeviceBinding(UID_OTHER);
-    setupUser(UID_OTHER, 50, 50, 'grace'); // own credits exhausted — but pool is shared
+    setupUser(UID_OTHER, 50, 50, 'basic'); // own credits exhausted — but pool is shared
 
     const result = await (checkAndConsumePrompt as any)(makeConsumeReq(UID_OTHER));
 
@@ -285,7 +285,7 @@ describe('lastAnonymousUid recovery', () => {
       reflectionsUsed: 30,
     });
     setupDeviceBinding(UID_GUEST);
-    setupUser(UID_GUEST, 0, 0, 'grace');
+    setupUser(UID_GUEST, 0, 0, 'basic');
     // users/UID_DELETED does NOT exist → simulates deleted account
 
     // UID_GUEST is now a real (non-anonymous) user
@@ -310,7 +310,7 @@ describe('lastAnonymousUid recovery', () => {
       reflectionsUsed: 0,
     });
     setupDeviceBinding(UID_INTRUDER);
-    setupUser(UID_INTRUDER, 10, 0, 'grace');
+    setupUser(UID_INTRUDER, 10, 0, 'basic');
 
     // users/UID_DELETED does NOT exist
 
@@ -335,7 +335,7 @@ describe('lastAnonymousUid recovery', () => {
       reflectionsUsed: 10,
     });
     setupDeviceBinding(UID_GUEST);
-    setupUser(UID_GUEST, 0, 0, 'grace');
+    setupUser(UID_GUEST, 0, 0, 'basic');
 
     const result = await (checkAndConsumePrompt as any)(makeConsumeReq(UID_GUEST, 'anonymous'));
 
@@ -351,7 +351,7 @@ describe('Starter grant (150 reflections)', () => {
   it('first-time device with no credits gets 150 starter reflections', async () => {
     // No device_credits, no device_starters → brand new device
     setupDeviceBinding(UID_MAIN);
-    setupUser(UID_MAIN, 0, 0, 'grace');
+    setupUser(UID_MAIN, 0, 0, 'basic');
 
     const result = await (checkAndConsumePrompt as any)(makeConsumeReq(UID_MAIN));
 
@@ -379,7 +379,7 @@ describe('Starter grant (150 reflections)', () => {
       reflectionsUsed: 0,
     });
     setupDeviceBinding(UID_MAIN);
-    setupUser(UID_MAIN, 0, 0, 'grace');
+    setupUser(UID_MAIN, 0, 0, 'basic');
 
     const result = await (checkAndConsumePrompt as any)(makeConsumeReq(UID_MAIN));
 
@@ -401,7 +401,7 @@ describe('Starter grant (150 reflections)', () => {
     });
     // Fresh install: no device_credits, no install-level device_starters
     setupDeviceBinding(UID_MAIN);
-    setupUser(UID_MAIN, 0, 0, 'grace');
+    setupUser(UID_MAIN, 0, 0, 'basic');
 
     const result = await (checkAndConsumePrompt as any)(
       makeConsumeReq(UID_MAIN, 'password', HARDWARE_ID)
@@ -418,7 +418,7 @@ describe('Starter grant (150 reflections)', () => {
 
   it('starter IS granted on new hardware (fresh Android install, no prior hardware marker)', async () => {
     setupDeviceBinding(UID_MAIN);
-    setupUser(UID_MAIN, 0, 0, 'grace');
+    setupUser(UID_MAIN, 0, 0, 'basic');
     // No device_starters for either bindId or hwBindingId
 
     const result = await (checkAndConsumePrompt as any)(
@@ -443,7 +443,7 @@ describe('Peek mode', () => {
   it('peek=true returns state without consuming a credit', async () => {
     setupDeviceCredits(UID_MAIN, 100, 50);
     setupDeviceBinding(UID_MAIN);
-    setupUser(UID_MAIN, 100, 50, 'grace');
+    setupUser(UID_MAIN, 100, 50, 'basic');
 
     const result = await (checkAndConsumePrompt as any)(makePeekReq(UID_MAIN));
 
@@ -469,7 +469,7 @@ describe('Device key mismatch', () => {
       deviceKeyHash: wrongKeyHash, // mismatch!
     });
     setupDeviceCredits(UID_MAIN, 100, 0);
-    setupUser(UID_MAIN, 100, 0, 'grace');
+    setupUser(UID_MAIN, 100, 0, 'basic');
 
     const result = await (checkAndConsumePrompt as any)(makeConsumeReq(UID_MAIN));
 

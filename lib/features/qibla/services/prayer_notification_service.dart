@@ -140,7 +140,7 @@ class PrayerNotificationService {
     Map<String, ({String title, String body})>? labels,
   }) async {
     await init();
-    await _plugin.cancelAll();
+    await cancelAll();
 
     if (!await isEnabled()) return;
 
@@ -202,9 +202,12 @@ class PrayerNotificationService {
     }
   }
 
+  /// Cancel only prayer notifications (IDs 0-64), leaving calendar IDs intact.
   Future<void> cancelAll() async {
     await init();
-    await _plugin.cancelAll();
+    for (int i = 0; i < 65; i++) {
+      await _plugin.cancel(i);
+    }
   }
 
   // ── Helpers ─────────────────────────────────────────────────────────────────

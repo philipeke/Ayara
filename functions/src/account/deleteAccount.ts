@@ -189,7 +189,7 @@ export const deleteAccount = onCall(
     let snapshotSaved = false;
     let snapshotCreditsTotal = 0;
     let snapshotCreditsUsed = 0;
-    let snapshotPlan = "grace";
+    let snapshotPlan = "basic";
 
     try {
       const authRecord = await admin.auth().getUser(uid);
@@ -237,7 +237,7 @@ export const deleteAccount = onCall(
             creditsUsed = asNumber(userData.reflectionsUsed ?? userData.creditsUsed ?? 0);
           }
 
-          const plan = asString(userData.plan ?? "grace");
+          const plan = asString(userData.plan ?? "basic");
 
           console.log("[DELETE] user doc at snapshot time", {
             uid,
@@ -263,7 +263,7 @@ export const deleteAccount = onCall(
               // Still capture values for logging
               snapshotCreditsTotal = existingTotal;
               snapshotCreditsUsed = asNumber((existing as any).creditsUsed ?? 0);
-              snapshotPlan = asString((existing as any).plan ?? "grace");
+              snapshotPlan = asString((existing as any).plan ?? "basic");
               snapshotSaved = true;
               return;
             }

@@ -6,13 +6,10 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:ayara/core/config/theme.dart';
 import 'package:ayara/l10n/app_localizations.dart';
 
-/// Daily Grace — a meditative second page showing scripture of the day,
+/// Daily Grace — a meditative screen showing scripture of the day,
 /// saint of the week, and an evening reflection prompt.
-/// Displayed as page 1 in the home PageView.
 class DailyGraceWidget extends StatefulWidget {
-  final PageController pageController;
-
-  const DailyGraceWidget({super.key, required this.pageController});
+  const DailyGraceWidget({super.key});
 
   @override
   State<DailyGraceWidget> createState() => _DailyGraceWidgetState();
@@ -160,12 +157,24 @@ class _DailyGraceWidgetState extends State<DailyGraceWidget>
               children: [
                 // ── Top bar ─────────────────────────────────────────────
                 Padding(
-                  padding: EdgeInsets.fromLTRB(horizontalPad, 6, horizontalPad, 0),
+                  padding: EdgeInsets.fromLTRB(4, 6, horizontalPad, 0),
                   child: SizedBox(
                     height: settingsTapSize,
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
+                        IconButton(
+                          padding: EdgeInsets.zero,
+                          constraints: const BoxConstraints(),
+                          icon: const Icon(
+                            Icons.arrow_back_ios_new_rounded,
+                            color: AppColors.gold,
+                          ),
+                          onPressed: () {
+                            HapticFeedback.lightImpact();
+                            Navigator.of(context).pop();
+                          },
+                        ),
                         const Spacer(),
                         SizedBox(
                           width: settingsTapSize,
@@ -259,36 +268,6 @@ class _DailyGraceWidgetState extends State<DailyGraceWidget>
           ],
         ),
       ),
-      // ── Animated nav arrows — same style & position as category swipe hint ──
-      Builder(builder: (ctx) {
-        final bp = MediaQuery.of(ctx).padding.bottom + 170;
-        return Stack(children: [
-          Positioned(
-            left: 6,
-            bottom: bp,
-            child: _DailyNavArrow(
-              direction: _NavDirection.left,
-              onTap: () => widget.pageController.animateToPage(
-                0,
-                duration: const Duration(milliseconds: 350),
-                curve: Curves.easeInOut,
-              ),
-            ),
-          ),
-          Positioned(
-            right: 6,
-            bottom: bp,
-            child: _DailyNavArrow(
-              direction: _NavDirection.right,
-              onTap: () => widget.pageController.animateToPage(
-                2,
-                duration: const Duration(milliseconds: 350),
-                curve: Curves.easeInOut,
-              ),
-            ),
-          ),
-        ]);
-      }),
     ],
   ),
 );
@@ -317,14 +296,14 @@ class _ScriptureCard extends StatelessWidget {
     return Container(
       width: double.infinity,
       decoration: BoxDecoration(
-        color: const Color(0xFF0C3A1E),
+        color: AppColors.navy.withValues(alpha: 0.90),
         borderRadius: BorderRadius.circular(20),
         border: Border.all(
           color: AppColors.gold.withValues(alpha: 0.45),
         ),
         boxShadow: [
           BoxShadow(
-            color: const Color(0xFF0C3A1E).withValues(alpha: 0.40),
+            color: Colors.black.withValues(alpha: 0.30),
             blurRadius: 24,
             offset: const Offset(0, 6),
           ),
@@ -340,7 +319,7 @@ class _ScriptureCard extends StatelessWidget {
               label,
               style: TextStyle(
                 fontSize: 10,
-                color: AppColors.gold.withValues(alpha: 0.75),
+                color: AppColors.gold,
                 fontWeight: FontWeight.w700,
                 letterSpacing: 1.5,
               ),
@@ -353,7 +332,7 @@ class _ScriptureCard extends StatelessWidget {
               style: GoogleFonts.lora(
                 fontSize: 15.5,
                 fontStyle: FontStyle.italic,
-                color: AppColors.goldSubtle,
+                color: Colors.white.withValues(alpha: 0.90),
                 height: 1.68,
               ),
             ),
@@ -408,7 +387,7 @@ class _SaintRow extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 16),
       decoration: BoxDecoration(
-        color: const Color(0xFF0C3A1E),
+        color: AppColors.navy.withValues(alpha: 0.90),
         borderRadius: BorderRadius.circular(16),
         border: Border.all(color: AppColors.gold.withValues(alpha: 0.40)),
       ),
@@ -420,29 +399,31 @@ class _SaintRow extends StatelessWidget {
             color: AppColors.gold,
           ),
           const SizedBox(width: 12),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                label,
-                style: TextStyle(
-                  fontSize: 10,
-                  color: AppColors.gold.withValues(alpha: 0.65),
-                  letterSpacing: 1.3,
-                  fontWeight: FontWeight.w600,
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  label,
+                  style: TextStyle(
+                    fontSize: 10,
+                    color: AppColors.gold,
+                    letterSpacing: 1.3,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
-              ),
-              const SizedBox(height: 3),
-              Text(
-                saint,
-                style: TextStyle(
-                  fontSize: 15,
-                  color: AppColors.goldSubtle,
-                  fontWeight: FontWeight.w600,
-                  letterSpacing: 0.2,
+                const SizedBox(height: 3),
+                Text(
+                  saint,
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: Colors.white.withValues(alpha: 0.90),
+                    fontWeight: FontWeight.w600,
+                    letterSpacing: 0.2,
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ],
       ),
@@ -550,8 +531,8 @@ class _ReflectionCard extends StatelessWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            const Color(0xFF0E3D20),
-            const Color(0xFF0A2A16),
+            AppColors.navy,
+            AppColors.navyDeep,
           ],
         ),
         borderRadius: BorderRadius.circular(16),
@@ -567,14 +548,14 @@ class _ReflectionCard extends StatelessWidget {
               Icon(
                 Icons.nights_stay_rounded,
                 size: 16,
-                color: AppColors.gold.withValues(alpha: 0.65),
+                color: AppColors.gold,
               ),
               const SizedBox(width: 8),
               Text(
                 label,
                 style: TextStyle(
                   fontSize: 10,
-                  color: AppColors.gold.withValues(alpha: 0.70),
+                  color: AppColors.gold,
                   fontWeight: FontWeight.w700,
                   letterSpacing: 1.4,
                 ),
@@ -586,7 +567,7 @@ class _ReflectionCard extends StatelessWidget {
             text,
             style: TextStyle(
               fontSize: 14.5,
-              color: AppColors.goldSubtle,
+              color: Colors.white.withValues(alpha: 0.90),
               height: 1.60,
               fontStyle: FontStyle.italic,
             ),
@@ -597,64 +578,3 @@ class _ReflectionCard extends StatelessWidget {
   }
 }
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Animated nav arrows — mirrors the _SwipeHint in category_screen.dart
-// ─────────────────────────────────────────────────────────────────────────────
-
-enum _NavDirection { left, right }
-
-class _DailyNavArrow extends StatefulWidget {
-  final _NavDirection direction;
-  final VoidCallback onTap;
-
-  const _DailyNavArrow({required this.direction, required this.onTap});
-
-  @override
-  State<_DailyNavArrow> createState() => _DailyNavArrowState();
-}
-
-class _DailyNavArrowState extends State<_DailyNavArrow>
-    with SingleTickerProviderStateMixin {
-  late final AnimationController _bounce = AnimationController(
-    vsync: this,
-    duration: const Duration(milliseconds: 950),
-  )..repeat(reverse: true);
-
-  late final Animation<double> _offset =
-      Tween<double>(begin: 0, end: 9).animate(
-    CurvedAnimation(parent: _bounce, curve: Curves.easeInOut),
-  );
-
-  @override
-  void dispose() {
-    _bounce.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final isLeft = widget.direction == _NavDirection.left;
-    return GestureDetector(
-      onTap: () {
-        HapticFeedback.selectionClick();
-        widget.onTap();
-      },
-      child: Directionality(
-        textDirection: TextDirection.ltr,
-        child: AnimatedBuilder(
-          animation: _offset,
-          builder: (_, _) => Transform.translate(
-            offset: Offset(isLeft ? -_offset.value : _offset.value, 0),
-            child: Icon(
-              isLeft
-                  ? Icons.chevron_left_rounded
-                  : Icons.chevron_right_rounded,
-              color: AppColors.islamic.withValues(alpha: 0.45),
-              size: 28,
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}

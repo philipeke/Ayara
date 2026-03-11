@@ -9,7 +9,7 @@ enum _PremiumAction { buyBlessed, buy100, buy200, buy400 }
 
 class PremiumSection extends StatefulWidget {
   /// True when the user has Blessed entitlement.
-  final bool isBlessedPlan;
+  final bool isPremiumPlan;
 
   final UsageSnapshot? usage;
 
@@ -18,7 +18,7 @@ class PremiumSection extends StatefulWidget {
 
   const PremiumSection({
     super.key,
-    required this.isBlessedPlan,
+    required this.isPremiumPlan,
     required this.usage,
     required this.busy,
   });
@@ -64,8 +64,8 @@ class _PremiumSectionState extends State<PremiumSection> {
       if (!mounted) return;
       final t = AppLocalizations.of(context);
       final msg = e is StateError
-          ? t.blessedProductNotAvailable
-          : t.blessedPurchaseError;
+          ? t.premiumProductNotAvailable
+          : t.premiumPurchaseError;
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(msg)));
     } finally {
       if (mounted) setState(() => _busyAction = null);
@@ -76,7 +76,7 @@ class _PremiumSectionState extends State<PremiumSection> {
   Widget build(BuildContext context) {
     final t = AppLocalizations.of(context);
 
-    final currentPlanLabel = widget.isBlessedPlan ? t.planBlessed : t.planGrace;
+    final currentPlanLabel = widget.isPremiumPlan ? t.planPremium : t.planBasic;
 
     final remaining = widget.usage?.creditsRemaining ?? 0;
 
@@ -105,15 +105,15 @@ class _PremiumSectionState extends State<PremiumSection> {
                     const SizedBox(width: 8),
                     Expanded(
                       child: Text(
-                        t.blessedTitle,
+                        t.premiumTitle,
                         style: Theme.of(context).textTheme.titleMedium,
                         overflow: TextOverflow.ellipsis,
                       ),
                     ),
-                    if (widget.isBlessedPlan)
+                    if (widget.isPremiumPlan)
                       Chip(
                         label: Text(
-                          t.blessedBadge,
+                          t.premiumBadge,
                           style: Theme.of(context)
                               .textTheme
                               .labelSmall
@@ -126,17 +126,17 @@ class _PremiumSectionState extends State<PremiumSection> {
                 ),
                 const SizedBox(height: 6),
                 Text(
-                  widget.isBlessedPlan
-                      ? t.blessedSubtitleBlessed
-                      : t.blessedSubtitleGrace,
+                  widget.isPremiumPlan
+                      ? t.premiumSubtitlePremium
+                      : t.premiumSubtitleBasic,
                   style: Theme.of(context)
                       .textTheme
                       .bodySmall
-                      ?.copyWith(color: Colors.grey[700]),
+                      ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
                 ),
                 const SizedBox(height: 12),
                 Text(
-                  t.blessedCurrentPlan(currentPlanLabel),
+                  t.premiumCurrentPlan(currentPlanLabel),
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
                 const SizedBox(height: 4),
@@ -146,21 +146,21 @@ class _PremiumSectionState extends State<PremiumSection> {
                   style: Theme.of(context)
                       .textTheme
                       .bodySmall
-                      ?.copyWith(color: Colors.grey[600]),
+                      ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
                 ),
                 const SizedBox(height: 14),
 
                 if (waitingForIapInit)
                   Text(
-                    t.blessedLoadingStore,
+                    t.premiumLoadingStore,
                     style: Theme.of(context)
                         .textTheme
                         .bodySmall
-                        ?.copyWith(color: Colors.grey[700]),
+                        ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
                   )
                 else if (!isAvailable)
                   Text(
-                    t.blessedPurchasesUnavailable,
+                    t.premiumPurchasesUnavailable,
                     style: Theme.of(context)
                         .textTheme
                         .bodySmall
@@ -171,13 +171,13 @@ class _PremiumSectionState extends State<PremiumSection> {
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       // ── Grace: upgrade to Blessed ─────────────────────────
-                      if (!widget.isBlessedPlan) ...[
+                      if (!widget.isPremiumPlan) ...[
                         AnimatedOpacity(
                           duration: const Duration(milliseconds: 140),
                           curve: Curves.easeOut,
                           opacity: _softLockOpacity(_PremiumAction.buyBlessed),
                           child: GlassButton(
-                            label: t.blessedButtonBecomeBlessed,
+                            label: t.premiumButtonBecomePremium,
                             icon: Icons.star_rounded,
                             variant: GlassButtonVariant.gold,
                             busy: _isThisButtonBusy(
@@ -195,31 +195,31 @@ class _PremiumSectionState extends State<PremiumSection> {
                                     )) return;
                                     await _runAction(
                                       _PremiumAction.buyBlessed,
-                                      () => PurchaseController.instance.buyBlessed(),
+                                      () => PurchaseController.instance.buyPremium(),
                                     );
                                   },
                           ),
                         ),
                         const SizedBox(height: 12),
                         Text(
-                          t.blessedBenefitsGrace,
+                          t.premiumBenefitsBasic,
                           style: Theme.of(context)
                               .textTheme
                               .bodySmall
-                              ?.copyWith(color: Colors.grey[700]),
+                              ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
                         ),
                         const SizedBox(height: 14),
                       ],
 
                       // ── Blessed: top-up reflections ───────────────────────
-                      if (widget.isBlessedPlan) ...[
+                      if (widget.isPremiumPlan) ...[
                         // 100 reflections — gold (same as Become Blessed)
                         AnimatedOpacity(
                           duration: const Duration(milliseconds: 140),
                           curve: Curves.easeOut,
                           opacity: _softLockOpacity(_PremiumAction.buy100),
                           child: GlassButton(
-                            label: t.blessedBuyReflections100,
+                            label: t.premiumBuyCredits100,
                             icon: Icons.add_circle_outline_rounded,
                             variant: GlassButtonVariant.gold,
                             busy: _isThisButtonBusy(
@@ -250,7 +250,7 @@ class _PremiumSectionState extends State<PremiumSection> {
                           curve: Curves.easeOut,
                           opacity: _softLockOpacity(_PremiumAction.buy200),
                           child: GlassButton(
-                            label: t.blessedBuyReflections200,
+                            label: t.premiumBuyCredits200,
                             icon: Icons.add_circle_outline_rounded,
                             variant: GlassButtonVariant.gold,
                             busy: _isThisButtonBusy(
@@ -282,7 +282,7 @@ class _PremiumSectionState extends State<PremiumSection> {
                           curve: Curves.easeOut,
                           opacity: _softLockOpacity(_PremiumAction.buy400),
                           child: GlassButton(
-                            label: t.blessedBuyReflections400,
+                            label: t.premiumBuyCredits400,
                             icon: Icons.add_circle_outline_rounded,
                             variant: GlassButtonVariant.gold,
                             badgeLabel: 'Best value',
@@ -308,11 +308,11 @@ class _PremiumSectionState extends State<PremiumSection> {
                         ),
                         const SizedBox(height: 10),
                         Text(
-                          t.blessedTopupHint,
+                          t.premiumTopupHint,
                           style: Theme.of(context)
                               .textTheme
                               .bodySmall
-                              ?.copyWith(color: Colors.grey[600]),
+                              ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
                         ),
                       ],
                     ],

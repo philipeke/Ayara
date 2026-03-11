@@ -200,7 +200,7 @@ export const restoreDevicePurchases = onCall(
             const ent = entSnap.data() ?? {};
 
             // Only restore if not already blessed
-            if (ent.isBlessed === true && asString(ent.status ?? "").toLowerCase() === "active") {
+            if (ent.isPremium === true && asString(ent.status ?? "").toLowerCase() === "active") {
               // Already blessed — just mark as restored for idempotency
               trx.set(
                 txDoc.ref,
@@ -217,7 +217,7 @@ export const restoreDevicePurchases = onCall(
             trx.set(
               entRef,
               {
-                isBlessed: true,
+                isPremium: true,
                 productId: txProductId,
                 platform: asString(tx.platform || ""),
                 status: "active",
@@ -231,7 +231,7 @@ export const restoreDevicePurchases = onCall(
 
             trx.set(
               userRef,
-              { plan: "blessed", updatedAt: now },
+              { plan: "premium", updatedAt: now },
               { merge: true },
             );
 

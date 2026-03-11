@@ -6,35 +6,24 @@ import 'package:geolocator/geolocator.dart';
 
 import 'package:ayara/core/config/theme.dart';
 import 'package:ayara/l10n/app_localizations.dart';
-import 'package:ayara/features/chat/services/chat_service.dart';
 
 import 'package:ayara/features/qibla/widgets/qibla_compass_widget.dart';
 import 'package:ayara/features/qibla/widgets/prayer_times_widget.dart';
-import 'package:ayara/features/qibla/ask_result_screen.dart';
-import 'package:ayara/core/utils/error_ui.dart';
 import 'package:ayara/features/limit/usage_service.dart';
 
 class QiblaScreen extends StatefulWidget {
-  final PageController pageController;
-
-  const QiblaScreen({super.key, required this.pageController});
+  const QiblaScreen({super.key});
 
   @override
   State<QiblaScreen> createState() => _QiblaScreenState();
 }
 
 class _QiblaScreenState extends State<QiblaScreen> {
-  final TextEditingController _askController = TextEditingController();
-  final FocusNode _focusNode = FocusNode();
-
   Position? _position;
   bool _locationDenied = false;
   bool _locationPermanentlyDenied = false;
   bool _locationLoading = true;
   bool _gpsUnavailable = false;
-
-  bool _askLoading = false;
-  String? _askError;
 
   @override
   void initState() {
@@ -46,17 +35,15 @@ class _QiblaScreenState extends State<QiblaScreen> {
   @override
   void dispose() {
     UsageService.instance.removeListener(_onPlanChanged);
-    _askController.dispose();
-    _focusNode.dispose();
     super.dispose();
   }
 
   void _onPlanChanged() {
     if (!mounted) return;
-    final isBlessed =
-        (UsageService.instance.current?.plan ?? 'grace') == 'blessed';
+    final isPremium =
+        (UsageService.instance.current?.plan ?? 'basic') == 'premium';
     // If the user just upgraded and location hasn't been loaded yet, start now.
-    if (isBlessed && _position == null && !_locationDenied && !_locationPermanentlyDenied) {
+    if (isPremium && _position == null && !_locationDenied && !_locationPermanentlyDenied) {
       _initLocation();
     }
   }
@@ -66,11 +53,11 @@ class _QiblaScreenState extends State<QiblaScreen> {
     // If plan is not yet known, wait for _onPlanChanged.
     // If plan is known and blessed, start location. Otherwise stay idle.
     if (snap == null) return;
-    final isBlessed = snap.plan == 'blessed';
-    if (isBlessed) {
+    final isPremium = snap.plan == 'premium';
+    if (isPremium) {
       _initLocation();
     } else {
-      // Not blessed — keep locationLoading=false, never prompt for location.
+      // Not premium — keep locationLoading=false, never prompt for location.
       setState(() => _locationLoading = false);
     }
   }
@@ -156,74 +143,12 @@ class _QiblaScreenState extends State<QiblaScreen> {
     }
   }
 
-  Future<void> _submitQuestion() async {
-    final question = _askController.text.trim();
-    final t = AppLocalizations.of(context);
-
-    if (question.isEmpty) {
-      setState(() => _askError = t.askPageInputEmptyError);
-      return;
-    }
-
-    setState(() {
-      _askError = null;
-      _askLoading = true;
-    });
-
-    _focusNode.unfocus();
-
-    try {
-      final response = await ChatService.sendPrompt(
-        question,
-        context: context,
-      );
-
-      if (!mounted) return;
-
-      await Navigator.of(context).push(
-        MaterialPageRoute(
-          builder: (_) => AskResultScreen(
-            question: question,
-            response: response,
-          ),
-        ),
-      );
-    } catch (e, st) {
-      if (!mounted) return;
-      final msg = e.toString().contains('Exception: ')
-          ? e.toString().split('Exception: ').last
-          : e.toString();
-      // Silently swallow known rate/auth errors (already shown as snackbar)
-      final known = {
-        'local_rate_limited',
-        'remote_rate_limited',
-        'appcheck_throttled',
-        'ai_unauthenticated',
-        'ai_rate_limited',
-        'ai_timeout',
-        'ai_unavailable',
-        'ai_misconfigured',
-        'ai_error',
-        'request_in_flight',
-        'credits_exhausted',
-        'guest_not_allowed',
-        'device_bound_to_other_account',
-        'device_key_mismatch',
-      };
-      if (!known.contains(msg)) {
-        showAppErrorSnack(context, e, stackTrace: st);
-      }
-    } finally {
-      if (mounted) setState(() => _askLoading = false);
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     final t = AppLocalizations.of(context);
 
     return Scaffold(
-      backgroundColor: AppColors.islamicDeep,
+      backgroundColor: AppColors.deepNavy,
       body: Stack(
         children: [
           // Background gradient
@@ -234,9 +159,9 @@ class _QiblaScreenState extends State<QiblaScreen> {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Color(0xFF061D0F),
-                    Color(0xFF0C3A1E),
-                    Color(0xFF061D0F),
+                    AppColors.navy,
+                    AppColors.deepNavy,
+                    AppColors.navyDeep,
                   ],
                   stops: [0.0, 0.5, 1.0],
                 ),
@@ -249,13 +174,13 @@ class _QiblaScreenState extends State<QiblaScreen> {
             right: 0,
             child: IgnorePointer(
               child: SizedBox(
-                width: 200,
-                height: 200,
+                width: 260,
+                height: 260,
                 child: DecoratedBox(
                   decoration: BoxDecoration(
                     gradient: RadialGradient(
                       colors: [
-                        AppColors.gold.withValues(alpha: 0.07),
+                        AppColors.gold.withValues(alpha: 0.14),
                         Colors.transparent,
                       ],
                     ),
@@ -264,259 +189,85 @@ class _QiblaScreenState extends State<QiblaScreen> {
               ),
             ),
           ),
+          // Gold shimmer bottom-left
+          Positioned(
+            bottom: 0,
+            left: 0,
+            child: IgnorePointer(
+              child: SizedBox(
+                width: 220,
+                height: 220,
+                child: DecoratedBox(
+                  decoration: BoxDecoration(
+                    gradient: RadialGradient(
+                      colors: [
+                        AppColors.gold.withValues(alpha: 0.09),
+                        Colors.transparent,
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+          // Soft centre glow
+          const Positioned.fill(
+            child: IgnorePointer(
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  gradient: RadialGradient(
+                    radius: 0.50,
+                    colors: [
+                      Color(0x18C9A84C),
+                      Colors.transparent,
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ),
 
-          // Animated left nav arrow — bottom-left → go to DailyGrace (page 1)
-          Builder(builder: (ctx) {
-            final bottomPad = MediaQuery.of(ctx).padding.bottom;
-            return Positioned(
-              left: 6,
-              bottom: bottomPad + 170,
-              child: _QiblaNavArrow(
-                direction: AxisDirection.left,
-                onTap: () => widget.pageController.animateToPage(
-                  1,
-                  duration: const Duration(milliseconds: 350),
-                  curve: Curves.easeInOut,
-                ),
-              ),
-            );
-          }),
-          // Animated right nav arrow — bottom-right → go to Dhikr (page 3)
-          Builder(builder: (ctx) {
-            final bottomPad = MediaQuery.of(ctx).padding.bottom;
-            return Positioned(
-              right: 6,
-              bottom: bottomPad + 170,
-              child: _QiblaNavArrow(
-                direction: AxisDirection.right,
-                onTap: () => widget.pageController.animateToPage(
-                  3,
-                  duration: const Duration(milliseconds: 350),
-                  curve: Curves.easeInOut,
-                ),
-              ),
-            );
-          }),
           SafeArea(
             child: CustomScrollView(
               slivers: [
-                // Top bar: back arrow + title + settings (reflections below)
+                // Top bar: back arrow + title + settings
                 SliverToBoxAdapter(
                   child: Padding(
-                    padding: const EdgeInsets.fromLTRB(8, 6, 8, 0),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(
-                          children: [
-                            const SizedBox(width: 16),
-                            Text(
-                              t.guidancePageTitle,
-                              style: GoogleFonts.lora(
-                                fontSize: 22,
-                                fontWeight: FontWeight.w700,
-                                color: AppColors.gold,
-                                letterSpacing: 0.3,
-                              ),
-                            ),
-                            const Spacer(),
-                            IconButton(
-                              icon: const Icon(
-                                Icons.settings_rounded,
-                                color: AppColors.gold,
-                                size: 30,
-                              ),
-                              tooltip: t.settingsTitle,
-                              onPressed: () {
-                                HapticFeedback.selectionClick();
-                                Navigator.pushNamed(context, '/settings');
-                              },
-                            ),
-                          ],
-                        ),
-                        // Remaining reflections — below title row to avoid overflow
-                        Padding(
-                          padding: const EdgeInsets.only(left: 14, bottom: 2),
-                          child: AnimatedBuilder(
-                            animation: UsageService.instance,
-                            builder: (context, _) {
-                              final remaining = UsageService
-                                  .instance.current?.creditsRemaining;
-                              return Text(
-                                t.reflectionsRemainingLabel(remaining ?? '—'),
-                                style: TextStyle(
-                                  color: AppColors.gold.withValues(alpha: 0.65),
-                                  fontSize: 11,
-                                  fontWeight: FontWeight.w700,
-                                  letterSpacing: 0.2,
-                                ),
-                              );
-                            },
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-
-                // ── Ask Ayara section ──────────────────────────────────────
-                SliverToBoxAdapter(
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        // Section label
-                        Row(
-                          children: [
-                            const Icon(Icons.auto_awesome_rounded,
-                                color: AppColors.gold, size: 16),
-                            const SizedBox(width: 8),
-                            Text(
-                              t.askPageTitle.toUpperCase(),
-                              style: const TextStyle(
-                                color: AppColors.gold,
-                                fontSize: 11,
-                                fontWeight: FontWeight.w700,
-                                letterSpacing: 1.4,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(height: 6),
-                        Text(
-                          t.askPageDescription,
-                          style: TextStyle(
-                            color: Colors.white.withValues(alpha: 0.75),
-                            fontSize: 12,
-                            height: 1.45,
-                          ),
-                        ),
-                        const SizedBox(height: 12),
-
-                        // Text field
-                        TextField(
-                          controller: _askController,
-                          focusNode: _focusNode,
-                          minLines: 2,
-                          maxLines: 4,
-                          maxLength: 200,
-                          style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 14,
-                            height: 1.5,
-                          ),
-                          decoration: InputDecoration(
-                            hintText: t.askPageInputHint,
-                            hintStyle: TextStyle(
-                              color: Colors.white.withValues(alpha: 0.35),
-                              fontSize: 14,
-                            ),
-                            counterStyle: TextStyle(
-                              color: Colors.white.withValues(alpha: 0.30),
-                              fontSize: 11,
-                            ),
-                            filled: true,
-                            fillColor: Colors.white.withValues(alpha: 0.06),
-                            errorText: _askError,
-                            errorStyle: const TextStyle(
-                              color: Color(0xFFFFB3B3),
-                              fontSize: 12,
-                            ),
-                            contentPadding: const EdgeInsets.all(14),
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(14),
-                              borderSide: BorderSide(
-                                color: AppColors.gold.withValues(alpha: 0.30),
-                              ),
-                            ),
-                            enabledBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(14),
-                              borderSide: BorderSide(
-                                color: AppColors.gold.withValues(alpha: 0.30),
-                              ),
-                            ),
-                            focusedBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(14),
-                              borderSide: BorderSide(
-                                color: AppColors.gold.withValues(alpha: 0.65),
-                                width: 1.5,
-                              ),
-                            ),
-                          ),
-                          onChanged: (_) {
-                            if (_askError != null) {
-                              setState(() => _askError = null);
-                            }
-                          },
-                          onSubmitted: (_) => _submitQuestion(),
-                        ),
-                        const SizedBox(height: 10),
-
-                        // Submit button
-                        SizedBox(
-                          width: double.infinity,
-                          child: FilledButton(
-                            onPressed: _askLoading ? null : _submitQuestion,
-                            style: FilledButton.styleFrom(
-                              backgroundColor: AppColors.gold,
-                              foregroundColor: AppColors.islamicDeep,
-                              disabledBackgroundColor:
-                                  AppColors.gold.withValues(alpha: 0.35),
-                              padding:
-                                  const EdgeInsets.symmetric(vertical: 14),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(14),
-                              ),
-                              textStyle: const TextStyle(
-                                fontWeight: FontWeight.w700,
-                                fontSize: 14,
-                                letterSpacing: 0.3,
-                              ),
-                            ),
-                            child: _askLoading
-                                ? SizedBox(
-                                    height: 18,
-                                    width: 18,
-                                    child: CircularProgressIndicator(
-                                      strokeWidth: 2,
-                                      color: AppColors.islamicDeep
-                                          .withValues(alpha: 0.7),
-                                    ),
-                                  )
-                                : Text(t.askPageSubmitCta),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-
-                // ── Divider ────────────────────────────────────────────────
-                SliverToBoxAdapter(
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(20, 28, 20, 28),
+                    padding: const EdgeInsets.fromLTRB(4, 6, 8, 0),
                     child: Row(
                       children: [
-                        Expanded(
-                          child: Divider(
-                            color: AppColors.gold.withValues(alpha: 0.25),
-                            thickness: 0.7,
+                        IconButton(
+                          icon: const Icon(
+                            Icons.arrow_back_ios_new_rounded,
+                            color: AppColors.gold,
                           ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 14),
-                          child: Icon(
-                            Icons.star_rounded,
-                            color: AppColors.gold.withValues(alpha: 0.45),
-                            size: 14,
-                          ),
+                          onPressed: () {
+                            HapticFeedback.lightImpact();
+                            Navigator.of(context).pop();
+                          },
                         ),
                         Expanded(
-                          child: Divider(
-                            color: AppColors.gold.withValues(alpha: 0.25),
-                            thickness: 0.7,
+                          child: Text(
+                            t.guidancePageTitle,
+                            style: GoogleFonts.lora(
+                              fontSize: 22,
+                              fontWeight: FontWeight.w700,
+                              color: AppColors.gold,
+                              letterSpacing: 0.3,
+                            ),
                           ),
+                        ),
+                        IconButton(
+                          icon: const Icon(
+                            Icons.settings_rounded,
+                            color: AppColors.gold,
+                            size: 30,
+                          ),
+                          tooltip: t.settingsTitle,
+                          onPressed: () {
+                            HapticFeedback.selectionClick();
+                            Navigator.pushNamed(context, '/settings');
+                          },
                         ),
                       ],
                     ),
@@ -530,10 +281,10 @@ class _QiblaScreenState extends State<QiblaScreen> {
                     child: AnimatedBuilder(
                       animation: UsageService.instance,
                       builder: (context, _) {
-                        final isBlessed =
-                            (UsageService.instance.current?.plan ?? 'grace') ==
-                                'blessed';
-                        if (!isBlessed) {
+                        final isPremium =
+                            (UsageService.instance.current?.plan ?? 'basic') ==
+                                'premium';
+                        if (!isPremium) {
                           // Real dead compass — no sensors, frozen, greyed out
                           return _FeatureLock(
                             child: Column(
@@ -668,10 +419,10 @@ class _QiblaScreenState extends State<QiblaScreen> {
                     child: AnimatedBuilder(
                       animation: UsageService.instance,
                       builder: (context, _) {
-                        final isBlessed =
-                            (UsageService.instance.current?.plan ?? 'grace') ==
-                                'blessed';
-                        if (!isBlessed) {
+                        final isPremium =
+                            (UsageService.instance.current?.plan ?? 'basic') ==
+                                'premium';
+                        if (!isPremium) {
                           // Locked prayer times — real names, no time values
                           final prayerNames = [
                             t.prayerTimesFajr,
@@ -850,23 +601,6 @@ class _QiblaScreenState extends State<QiblaScreen> {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Animated left nav arrow — gold to match dark page background
-// ─────────────────────────────────────────────────────────────────────────────
-
-class _QiblaNavArrow extends StatefulWidget {
-  final VoidCallback onTap;
-  final AxisDirection direction;
-
-  const _QiblaNavArrow({
-    required this.onTap,
-    this.direction = AxisDirection.left,
-  });
-
-  @override
-  State<_QiblaNavArrow> createState() => _QiblaNavArrowState();
-}
-
-// ─────────────────────────────────────────────────────────────────────────────
 // Premium gate overlay — greys out child and shows a lock when not Barakah
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -880,9 +614,9 @@ class _FeatureLock extends StatelessWidget {
       animation: UsageService.instance,
       builder: (context, _) {
         final usage = UsageService.instance.current;
-        final isBlessed = (usage?.plan ?? 'grace') == 'blessed';
+        final isPremium = (usage?.plan ?? 'basic') == 'premium';
 
-        if (isBlessed) return child;
+        if (isPremium) return child;
 
         final t = AppLocalizations.of(context)!;
 
@@ -930,7 +664,7 @@ class _FeatureLock extends StatelessWidget {
                       ),
                       const SizedBox(height: 10),
                       Text(
-                        t.blessedFeatureLocked,
+                        t.premiumFeatureLocked,
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           color: Colors.white.withValues(alpha: 0.92),
@@ -965,7 +699,7 @@ class _FeatureLock extends StatelessWidget {
                           ],
                         ),
                         child: Text(
-                          t.blessedButtonBecomeBlessed,
+                          t.premiumButtonBecomePremium,
                           style: const TextStyle(
                             color: AppColors.gold,
                             fontWeight: FontWeight.w700,
@@ -986,46 +720,4 @@ class _FeatureLock extends StatelessWidget {
   }
 }
 
-class _QiblaNavArrowState extends State<_QiblaNavArrow>
-    with SingleTickerProviderStateMixin {
-  late final AnimationController _bounce = AnimationController(
-    vsync: this,
-    duration: const Duration(milliseconds: 950),
-  )..repeat(reverse: true);
 
-  late final Animation<double> _offset =
-      Tween<double>(begin: 0, end: 9).animate(
-    CurvedAnimation(parent: _bounce, curve: Curves.easeInOut),
-  );
-
-  @override
-  void dispose() {
-    _bounce.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final isLeft = widget.direction == AxisDirection.left;
-    return GestureDetector(
-      onTap: () {
-        HapticFeedback.selectionClick();
-        widget.onTap();
-      },
-      child: Directionality(
-        textDirection: TextDirection.ltr,
-        child: AnimatedBuilder(
-          animation: _offset,
-          builder: (_, _) => Transform.translate(
-            offset: Offset(isLeft ? -_offset.value : _offset.value, 0),
-            child: Icon(
-              isLeft ? Icons.chevron_left_rounded : Icons.chevron_right_rounded,
-              color: AppColors.gold.withValues(alpha: 0.55),
-              size: 28,
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}

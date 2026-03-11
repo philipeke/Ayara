@@ -11,7 +11,7 @@ class AccountSection extends StatelessWidget {
     required this.isGuest,
     required this.accountStatus,
     required this.email,
-    required this.isBlessedPlan,
+    required this.isPremiumPlan,
     required this.busy,
     required this.onUpgradeWithGoogle,
     required this.onUpgradeWithApple,
@@ -21,7 +21,7 @@ class AccountSection extends StatelessWidget {
   final bool isGuest;
   final String accountStatus;
   final String? email;
-  final bool isBlessedPlan;
+  final bool isPremiumPlan;
   final bool busy;
 
   final VoidCallback onUpgradeWithGoogle;
@@ -68,7 +68,7 @@ class AccountSection extends StatelessWidget {
                       accountStatus,
                       style: theme.textTheme.titleMedium,
                     ),
-                    if (isBlessedPlan) ...[
+                    if (isPremiumPlan) ...[
                       const SizedBox(width: 8),
                       Container(
                         padding: const EdgeInsets.symmetric(
@@ -88,13 +88,13 @@ class AccountSection extends StatelessWidget {
                         child: Row(
                           children: [
                             const Icon(
-                              Icons.emoji_events,
+                              Icons.star_rounded,
                               size: 14,
                               color: AppColors.navyDeep,
                             ),
                             const SizedBox(width: 4),
                             Text(
-                              t.planBlessed,
+                              t.planPremium,
                               style: const TextStyle(
                                 fontSize: 12,
                                 fontWeight: FontWeight.w700,
@@ -113,7 +113,7 @@ class AccountSection extends StatelessWidget {
                 if (!isGuest && email != null)
                   Text(
                     email!,
-                    style: TextStyle(color: theme.colorScheme.outline),
+                    style: TextStyle(color: theme.colorScheme.onSurfaceVariant),
                   ),
 
                 const SizedBox(height: 12),
@@ -121,7 +121,7 @@ class AccountSection extends StatelessWidget {
                 if (isGuest) ...[
                   Text(
                     t.upgradeHint,
-                    style: TextStyle(color: theme.colorScheme.outline),
+                    style: TextStyle(color: theme.colorScheme.onSurfaceVariant),
                   ),
                   const SizedBox(height: 10),
 

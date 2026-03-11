@@ -20,7 +20,7 @@ void main() {
       });
 
       expect(ent.uid, 'uid123');
-      expect(ent.isBlessed, true);
+      expect(ent.isPremium, true);
       expect(ent.status, 'active');
       expect(ent.platform, 'ios');
       expect(ent.productId, 'com.oakdev.ayara.premium');
@@ -53,9 +53,9 @@ void main() {
         'status': 'active',
       });
 
-      expect(ent1.isBlessed, true);
-      expect(ent2.isBlessed, true);
-      expect(ent3.isBlessed, false);
+      expect(ent1.isPremium, true);
+      expect(ent2.isPremium, true);
+      expect(ent3.isPremium, false);
     });
   });
 }

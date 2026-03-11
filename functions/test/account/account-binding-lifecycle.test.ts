@@ -154,7 +154,7 @@ describe('1. Guest gets 150 starter credits on first device use', () => {
     expect(result.allowed).toBe(true);
     expect(result.reflections.total).toBe(150);
     expect(result.reflections.remaining).toBe(149); // 1 consumed
-    expect(result.plan).toBe('grace');
+    expect(result.plan).toBe('basic');
 
     // device_credits must have been created with the pool.
     // The consume path writes DC twice: init (all fields) then usage update ({reflectionsUsed}).
@@ -179,7 +179,7 @@ describe('1. Guest gets 150 starter credits on first device use', () => {
       lastAnonymousUid: UID_GUEST,
     });
     adm().__setState(`users/${UID_GUEST}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 150,
       reflectionsUsed: 1,
     });
@@ -209,7 +209,7 @@ describe('2–3. Account A logs in → becomes mainUid, shares pool with guest',
       lastAnonymousUid: UID_GUEST,
     });
     adm().__setState(`users/${UID_GUEST}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 150,
       reflectionsUsed: 10,
     });
@@ -223,7 +223,7 @@ describe('2–3. Account A logs in → becomes mainUid, shares pool with guest',
     setupPoolAfterGuestUse();
     // Account A has no prior credits
     adm().__setState(`users/${UID_A}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 0,
       reflectionsUsed: 0,
     });
@@ -247,7 +247,7 @@ describe('2–3. Account A logs in → becomes mainUid, shares pool with guest',
     setupPoolAfterGuestUse();
     // Account A has 50 credits in their users doc (e.g. from another device's sync)
     adm().__setState(`users/${UID_A}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 50,
       reflectionsUsed: 0,
     });
@@ -265,7 +265,7 @@ describe('2–3. Account A logs in → becomes mainUid, shares pool with guest',
     setupPoolAfterGuestUse(); // pool at 150/10
     // users/{uid} has stale pool values (e.g. 2798 from leaked sync)
     adm().__setState(`users/${UID_A}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 2798,
       reflectionsUsed: 0,
     });
@@ -287,7 +287,7 @@ describe('2–3. Account A logs in → becomes mainUid, shares pool with guest',
       lastAnonymousUid: UID_GUEST,
     });
     adm().__setState(`users/${UID_GUEST}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 150,
       reflectionsUsed: 20,
     });
@@ -310,7 +310,7 @@ describe('2–3. Account A logs in → becomes mainUid, shares pool with guest',
       lastAnonymousUid: UID_GUEST,
     });
     adm().__setState(`users/${UID_A}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 150,
       reflectionsUsed: 50,
     });
@@ -353,7 +353,7 @@ describe('4–5. Account A deleted → guest keeps credits, Account B is "other"
   it('guest still accesses pool after Account A deleted (anonymous bypass)', async () => {
     setupPoolWithDeletedA(150, 50);
     adm().__setState(`users/${UID_GUEST}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 150,
       reflectionsUsed: 50,
     });
@@ -371,7 +371,7 @@ describe('4–5. Account A deleted → guest keeps credits, Account B is "other"
 
     // Account B has NO own credits — but shares pool (100 remaining)
     adm().__setState(`users/${UID_B}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 0,
       reflectionsUsed: 0,
     });
@@ -389,7 +389,7 @@ describe('4–5. Account A deleted → guest keeps credits, Account B is "other"
 
     // B's users doc has its own credits — but pool is the source of truth on this device
     adm().__setState(`users/${UID_B}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 30,
       reflectionsUsed: 0,
     });
@@ -405,7 +405,7 @@ describe('4–5. Account A deleted → guest keeps credits, Account B is "other"
   it('Account B consuming credits decrements the shared pool', async () => {
     setupPoolWithDeletedA(150, 50);
     adm().__setState(`users/${UID_B}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 30,
       reflectionsUsed: 0,
     });
@@ -490,7 +490,7 @@ describe('7–8. Re-created Account A (same email, new uid) reclaims entitlement
       type: 'entitlement',
       productId: ENTITLEMENT_PRODUCT,
       status: 'granted',
-      granted: { entitlement: 'blessed', bonusReflections: 300 },
+      granted: { entitlement: 'premium', bonusReflections: 300 },
     });
 
     // Credit snapshot saved by deleteAccount (credits Account A had when deleted)
@@ -499,14 +499,14 @@ describe('7–8. Re-created Account A (same email, new uid) reclaims entitlement
       deletedUid: UID_A,
       creditsTotal: snapshotTotal,
       creditsUsed: snapshotUsed,
-      plan: 'blessed',
+      plan: 'premium',
       consumed: false,
       consumedByUid: null,
     });
 
     // users/UID_A2: fresh, no credits yet
     adm().__setState(`users/${UID_A2}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 0,
       reflectionsUsed: 0,
     });
@@ -527,7 +527,7 @@ describe('7–8. Re-created Account A (same email, new uid) reclaims entitlement
     );
 
     expect(result.ok).toBe(true);
-    expect(result.plan).toBe('blessed');
+    expect(result.plan).toBe('premium');
     // The tx was already status='granted' (just anonymized), so the function
     // re-activates the entitlement and correctly returns alreadyGranted=true.
     expect(result.alreadyGranted).toBe(true);
@@ -586,10 +586,10 @@ describe('7–8. Re-created Account A (same email, new uid) reclaims entitlement
       type: 'entitlement',
       productId: ENTITLEMENT_PRODUCT,
       status: 'granted',
-      granted: { entitlement: 'blessed', bonusReflections: 300 },
+      granted: { entitlement: 'premium', bonusReflections: 300 },
     });
     adm().__setState(`iap_entitlements/${UID_A2}`, {
-      isBlessed: true,
+      isPremium: true,
       status: 'active',
     });
 
@@ -640,7 +640,7 @@ describe('9–10. Guest keeps pool; A2 (re-created) is "other" for pool routing'
   it('guest still uses pool after A deleted (80 remaining → 79)', async () => {
     setupPoolPostDeletion();
     adm().__setState(`users/${UID_GUEST}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 150,
       reflectionsUsed: 70,
     });
@@ -657,12 +657,12 @@ describe('9–10. Guest keeps pool; A2 (re-created) is "other" for pool routing'
     // A2 has 200 credits in own users doc (restored via snapshot/entitlement)
     // But all accounts on same device share pool — A2 also reads from pool
     adm().__setState(`users/${UID_A2}`, {
-      plan: 'blessed',
+      plan: 'premium',
       reflectionsTotal: 200,
       reflectionsUsed: 0,
     });
     adm().__setState(`iap_entitlements/${UID_A2}`, {
-      isBlessed: true,
+      isPremium: true,
       status: 'active',
     });
 
@@ -670,8 +670,8 @@ describe('9–10. Guest keeps pool; A2 (re-created) is "other" for pool routing'
 
     // A2 shares pool → reads from pool (80 remaining). A2 is Blessed → always allowed.
     expect(result.allowed).toBe(true);
-    expect(result.plan).toBe('blessed');
-    expect(result.entitlement.isBlessed).toBe(true);
+    expect(result.plan).toBe('premium');
+    expect(result.entitlement.isPremium).toBe(true);
     // Blessed users consume from pool too (they just can't be blocked)
     expect(result.reflections.total).toBe(150); // shared pool total
   });
@@ -679,7 +679,7 @@ describe('9–10. Guest keeps pool; A2 (re-created) is "other" for pool routing'
   it('pool credits are UNCHANGED after A2 uses app (pool belongs to guest)', async () => {
     setupPoolPostDeletion();
     adm().__setState(`users/${UID_A2}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 50,
       reflectionsUsed: 0,
     });
@@ -688,7 +688,7 @@ describe('9–10. Guest keeps pool; A2 (re-created) is "other" for pool routing'
 
     // Now guest checks: should still see 80 remaining (A2 didn't touch pool)
     adm().__setState(`users/${UID_GUEST}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 150,
       reflectionsUsed: 70,
     });
@@ -713,7 +713,7 @@ describe('11. Account B gets premium only if B purchased it themselves', () => {
       lastAnonymousUid: UID_GUEST,
     });
     adm().__setState(`users/${UID_B}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 0,
       reflectionsUsed: 0,
     });
@@ -722,7 +722,7 @@ describe('11. Account B gets premium only if B purchased it themselves', () => {
 
     // B shares pool (500 credits remaining) → allowed
     expect(result.allowed).toBe(true);
-    expect(result.plan).toBe('grace');
+    expect(result.plan).toBe('basic');
     expect(result.reflections.total).toBe(500);
     expect(result.reflections.remaining).toBe(499);
   });
@@ -735,21 +735,21 @@ describe('11. Account B gets premium only if B purchased it themselves', () => {
       reflectionsUsed: 0,
     });
     adm().__setState(`users/${UID_B}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 0,
       reflectionsUsed: 0,
     });
     // B purchased their own entitlement
     adm().__setState(`iap_entitlements/${UID_B}`, {
-      isBlessed: true,
+      isPremium: true,
       status: 'active',
     });
 
     const result = await (checkAndConsumePrompt as any)(consumeReq(UID_B, 'password'));
 
     expect(result.allowed).toBe(true);
-    expect(result.plan).toBe('blessed');
-    expect(result.entitlement.isBlessed).toBe(true);
+    expect(result.plan).toBe('premium');
+    expect(result.entitlement.isPremium).toBe(true);
   });
 
   it('B cannot restore A\'s consumables even if A is main and B is "other"', async () => {
@@ -809,7 +809,7 @@ describe('12. lastAnonymousUid: upgraded guest recovers pool after mainUid delet
 
     // UID_GUEST is now signing in as password (they linked their anonymous account)
     adm().__setState(`users/${UID_GUEST}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 0,
       reflectionsUsed: 0,
     });
@@ -839,7 +839,7 @@ describe('12. lastAnonymousUid: upgraded guest recovers pool after mainUid delet
     // users/UID_A NOT set (deleted)
 
     adm().__setState(`users/${UID_C}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 0,
       reflectionsUsed: 0,
     });
@@ -921,7 +921,7 @@ describe('13. Anonymous → linked account: pool values never leak via users/{ui
     });
     // users doc has NO credit fields (correct — pool doesn't write them)
     adm().__setState(`users/${UID_GUEST}`, {
-      plan: 'grace',
+      plan: 'basic',
       updatedAt: null,
     });
     adm().__setState(`device_bindings/${bindId}`, { ownerUid: UID_GUEST, deviceKeyHash });
@@ -952,10 +952,10 @@ describe('13. Anonymous → linked account: pool values never leak via users/{ui
       lastAnonymousUid: UID_GUEST,
     });
     adm().__setState(`device_bindings/${bindId}`, { ownerUid: UID_A, deviceKeyHash });
-    adm().__setState(`users/${UID_A}`, { plan: 'grace', updatedAt: null });
+    adm().__setState(`users/${UID_A}`, { plan: 'basic', updatedAt: null });
 
     // Account B logs in — shares pool (same device, same bindId)
-    adm().__setState(`users/${UID_B}`, { plan: 'grace', updatedAt: null });
+    adm().__setState(`users/${UID_B}`, { plan: 'basic', updatedAt: null });
 
     const bResult = await (checkAndConsumePrompt as any)(consumeReq(UID_B, 'password'));
 
@@ -976,8 +976,8 @@ describe('13. Anonymous → linked account: pool values never leak via users/{ui
       lastAnonymousUid: UID_GUEST,
     });
     adm().__setState(`device_bindings/${bindId}`, { ownerUid: UID_A, deviceKeyHash });
-    adm().__setState(`users/${UID_B}`, { plan: 'grace' });
-    adm().__setState(`users/${UID_C}`, { plan: 'grace', reflectionsTotal: 300 }); // stale
+    adm().__setState(`users/${UID_B}`, { plan: 'basic' });
+    adm().__setState(`users/${UID_C}`, { plan: 'basic', reflectionsTotal: 300 }); // stale
 
     // B then C both log in — both share pool
     await (checkAndConsumePrompt as any)(consumeReq(UID_B, 'password'));
@@ -1004,7 +1004,7 @@ describe('13. Anonymous → linked account: pool values never leak via users/{ui
     adm().__setState(`device_bindings/${bindId}`, { ownerUid: UID_A, deviceKeyHash });
     // Stale users doc with 2698 remaining (2798-100) — would cause double-count if merged
     adm().__setState(`users/${UID_A}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 2798,
       reflectionsUsed: 100,
     });
@@ -1046,11 +1046,11 @@ describe('14. Two devices have independent credit pools', () => {
       reflectionsTotal: 500,
       reflectionsUsed: 0,
     });
-    adm().__setState(`users/${UID_A}`, { plan: 'grace', reflectionsTotal: 500, reflectionsUsed: 0 });
+    adm().__setState(`users/${UID_A}`, { plan: 'basic', reflectionsTotal: 500, reflectionsUsed: 0 });
     adm().__setState(`device_bindings/${bindId}`, { ownerUid: UID_A, deviceKeyHash });
 
     // Device 2: Account B is fresh (no credits yet)
-    adm().__setState(`users/${UID_B}`, { plan: 'grace', reflectionsTotal: 0, reflectionsUsed: 0 });
+    adm().__setState(`users/${UID_B}`, { plan: 'basic', reflectionsTotal: 0, reflectionsUsed: 0 });
     adm().__setState(`device_bindings/${bindId2}`, { ownerUid: UID_B, deviceKeyHash: deviceKeyHash2 });
 
     const [resultA, resultB] = await Promise.all([
@@ -1085,7 +1085,7 @@ describe('14. Two devices have independent credit pools', () => {
       reflectionsTotal: 150,
       reflectionsUsed: 0,
     });
-    adm().__setState(`users/${UID_A}`, { plan: 'grace', reflectionsTotal: 150, reflectionsUsed: 0 });
+    adm().__setState(`users/${UID_A}`, { plan: 'basic', reflectionsTotal: 150, reflectionsUsed: 0 });
     adm().__setState(`device_bindings/${bindId}`, { ownerUid: UID_A, deviceKeyHash });
 
     // Device 2 pool: 150 credits with Account B
@@ -1095,7 +1095,7 @@ describe('14. Two devices have independent credit pools', () => {
       reflectionsTotal: 150,
       reflectionsUsed: 100, // only 50 remaining
     });
-    adm().__setState(`users/${UID_B}`, { plan: 'grace', reflectionsTotal: 150, reflectionsUsed: 100 });
+    adm().__setState(`users/${UID_B}`, { plan: 'basic', reflectionsTotal: 150, reflectionsUsed: 100 });
     adm().__setState(`device_bindings/${bindId2}`, { ownerUid: UID_B, deviceKeyHash: deviceKeyHash2 });
 
     // Account B consumes on Device 2 five times
@@ -1152,7 +1152,7 @@ describe('15. Starter grant is strictly once per device', () => {
         lastAnonymousUid: UID_GUEST,
       });
       adm().__setState(`users/${UID_GUEST}`, {
-        plan: 'grace',
+        plan: 'basic',
         reflectionsTotal: 150,
         reflectionsUsed: currentUsed,
       });
@@ -1166,15 +1166,15 @@ describe('15. Starter grant is strictly once per device', () => {
 
   it('blessed user never gets starter credits', async () => {
     // User is blessed — even on a fresh device with 0 credits
-    adm().__setState(`iap_entitlements/${UID_A}`, { isBlessed: true, status: 'active' });
-    adm().__setState(`users/${UID_A}`, { plan: 'blessed', reflectionsTotal: 0, reflectionsUsed: 0 });
+    adm().__setState(`iap_entitlements/${UID_A}`, { isPremium: true, status: 'active' });
+    adm().__setState(`users/${UID_A}`, { plan: 'premium', reflectionsTotal: 0, reflectionsUsed: 0 });
     // No device_credits, no device_starters
 
     const result = await (checkAndConsumePrompt as any)(consumeReq(UID_A, 'password'));
 
     // Blessed: always allowed, no starter needed
     expect(result.allowed).toBe(true);
-    expect(result.plan).toBe('blessed');
+    expect(result.plan).toBe('premium');
 
     // Starter must NOT have been granted (reflectionsTotal stays 0 or only pool writes occur)
     const dcOps = adm().__getOpsForPath(`device_credits/${bindId}`);
@@ -1196,8 +1196,8 @@ describe('16. Pool exhaustion: guest and Account A both see 0 when exhausted', (
       reflectionsUsed: 150, // 0 remaining
       lastAnonymousUid: UID_GUEST,
     });
-    adm().__setState(`users/${UID_A}`, { plan: 'grace', reflectionsTotal: 150, reflectionsUsed: 150 });
-    adm().__setState(`users/${UID_GUEST}`, { plan: 'grace', reflectionsTotal: 150, reflectionsUsed: 150 });
+    adm().__setState(`users/${UID_A}`, { plan: 'basic', reflectionsTotal: 150, reflectionsUsed: 150 });
+    adm().__setState(`users/${UID_GUEST}`, { plan: 'basic', reflectionsTotal: 150, reflectionsUsed: 150 });
     adm().__setState(`device_bindings/${bindId}`, { ownerUid: UID_A, deviceKeyHash });
 
     const [guestResult, aResult] = await Promise.all([
@@ -1221,14 +1221,14 @@ describe('16. Pool exhaustion: guest and Account A both see 0 when exhausted', (
       reflectionsTotal: 150,
       reflectionsUsed: 150, // 0 remaining
     });
-    adm().__setState(`users/${UID_A}`, { plan: 'grace', reflectionsTotal: 150, reflectionsUsed: 150 });
-    adm().__setState(`iap_entitlements/${UID_A}`, { isBlessed: true, status: 'active' });
+    adm().__setState(`users/${UID_A}`, { plan: 'basic', reflectionsTotal: 150, reflectionsUsed: 150 });
+    adm().__setState(`iap_entitlements/${UID_A}`, { isPremium: true, status: 'active' });
     adm().__setState(`device_bindings/${bindId}`, { ownerUid: UID_A, deviceKeyHash });
 
     const result = await (checkAndConsumePrompt as any)(consumeReq(UID_A, 'password'));
 
     expect(result.allowed).toBe(true);
-    expect(result.plan).toBe('blessed');
+    expect(result.plan).toBe('premium');
     expect(result.reflections.remaining).toBe(0); // 0 remaining but blessed bypasses
   });
 });
@@ -1256,7 +1256,7 @@ describe('17. Peek mode: reads without consuming credits', () => {
       reflectionsTotal: 150,
       reflectionsUsed: 50, // 100 remaining
     });
-    adm().__setState(`users/${UID_A}`, { plan: 'grace', reflectionsTotal: 150, reflectionsUsed: 50 });
+    adm().__setState(`users/${UID_A}`, { plan: 'basic', reflectionsTotal: 150, reflectionsUsed: 50 });
     adm().__setState(`device_bindings/${bindId}`, { ownerUid: UID_A, deviceKeyHash });
 
     const result = await (checkAndConsumePrompt as any)(peekReq(UID_A));
@@ -1280,7 +1280,7 @@ describe('17. Peek mode: reads without consuming credits', () => {
       reflectionsTotal: 100,
       reflectionsUsed: 20, // 80 remaining
     });
-    adm().__setState(`users/${UID_A}`, { plan: 'grace', reflectionsTotal: 100, reflectionsUsed: 20 });
+    adm().__setState(`users/${UID_A}`, { plan: 'basic', reflectionsTotal: 100, reflectionsUsed: 20 });
     adm().__setState(`device_bindings/${bindId}`, { ownerUid: UID_A, deviceKeyHash });
 
     for (let i = 0; i < 10; i++) {
@@ -1317,7 +1317,7 @@ describe('18. A2 reclaim: gets back the exact credits the pool had when A was de
       type: 'entitlement',
       productId: ENTITLEMENT_PRODUCT,
       status: 'granted',
-      granted: { entitlement: 'blessed', bonusReflections: 300 },
+      granted: { entitlement: 'premium', bonusReflections: 300 },
     });
 
     // Snapshot: saved by deleteAccount at the moment A deleted (pool was at 300/50)
@@ -1326,7 +1326,7 @@ describe('18. A2 reclaim: gets back the exact credits the pool had when A was de
       deletedUid: UID_A,
       creditsTotal: SNAPSHOT_TOTAL,
       creditsUsed: SNAPSHOT_USED,
-      plan: 'blessed',
+      plan: 'premium',
       consumed: false,
       consumedByUid: null,
     });
@@ -1342,7 +1342,7 @@ describe('18. A2 reclaim: gets back the exact credits the pool had when A was de
 
     // A2: fresh account, no credits
     adm().__setState(`users/${UID_A2}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 0,
       reflectionsUsed: 0,
     });
@@ -1360,7 +1360,7 @@ describe('18. A2 reclaim: gets back the exact credits the pool had when A was de
 
     // A2 gets blessed + snapshot credits (exactly what A had at deletion)
     expect(result.ok).toBe(true);
-    expect(result.plan).toBe('blessed');
+    expect(result.plan).toBe('premium');
     expect(result.reflectionsTotal).toBe(SNAPSHOT_TOTAL); // 300 — same as pool at deletion
     expect(result.reflectionsUsed).toBe(SNAPSHOT_USED);   // 50 — same as pool at deletion
     // A2 has 250 remaining (300 − 50)
@@ -1389,16 +1389,16 @@ describe('18. A2 reclaim: gets back the exact credits the pool had when A was de
       lastAnonymousUid: UID_GUEST,
     });
     adm().__setState(`users/${UID_GUEST}`, {
-      plan: 'grace',
+      plan: 'basic',
       reflectionsTotal: 300,
       reflectionsUsed: 70,
     });
     adm().__setState(`users/${UID_A2}`, {
-      plan: 'blessed',
+      plan: 'premium',
       reflectionsTotal: 300,
       reflectionsUsed: 50,    // A2's own: 250 remaining
     });
-    adm().__setState(`iap_entitlements/${UID_A2}`, { isBlessed: true, status: 'active' });
+    adm().__setState(`iap_entitlements/${UID_A2}`, { isPremium: true, status: 'active' });
     adm().__setState(`device_bindings/${bindId}`, { ownerUid: UID_A, deviceKeyHash });
     // users/UID_A not set (deleted)
 
@@ -1409,7 +1409,7 @@ describe('18. A2 reclaim: gets back the exact credits the pool had when A was de
 
     // A2 is blessed, uses own credits (249 remaining after 1 consume)
     expect(a2Result.allowed).toBe(true);
-    expect(a2Result.plan).toBe('blessed');
+    expect(a2Result.plan).toBe('premium');
 
     // Guest still sees their pool: 230 remaining → 229 after consume
     expect(guestResult.allowed).toBe(true);

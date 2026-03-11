@@ -147,13 +147,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
     final usage = UsageService.instance.current;
 
-    // Plan: grace | blessed
-    final String plan = (usage?.plan ?? 'grace').toLowerCase();
-    final bool isBlessedPlan = plan == 'blessed';
+    // Plan: basic | premium
+    final String plan = (usage?.plan ?? 'basic').toLowerCase();
+    final bool isPremiumPlan = plan == 'premium';
 
-    // Blocked notice: grace + 0 remaining (still backed by creditsRemaining in model for now)
+    // Blocked notice: basic + 0 remaining (still backed by creditsRemaining in model for now)
     final bool isStarterReflectionsBlocked =
-        usage != null && plan == 'grace' && (usage.creditsRemaining == 0);
+        usage != null && plan == 'basic' && (usage.creditsRemaining == 0);
 
     final bool iapBusy = PurchaseController.instance.isLoading;
 
@@ -191,7 +191,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   isGuest: isGuest,
                   accountStatus: accountStatus,
                   email: email,
-                  isBlessedPlan: isBlessedPlan,
+                  isPremiumPlan: isPremiumPlan,
                   busy: blockUi,
                   onUpgradeWithGoogle: _upgradeWithGoogle,
                   onUpgradeWithApple: _upgradeWithApple,
@@ -212,7 +212,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 const SizedBox(height: 24),
 
                 premium.PremiumSection(
-                  isBlessedPlan: isBlessedPlan,
+                  isPremiumPlan: isPremiumPlan,
                   usage: usage,
                   busy: blockUi,
                 ),

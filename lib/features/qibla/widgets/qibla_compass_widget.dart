@@ -1,6 +1,6 @@
 // lib/features/qibla/widgets/qibla_compass_widget.dart
 import 'dart:async';
-import 'dart:math';
+import 'dart:math' show pi, sin, cos, atan2;
 import 'package:flutter/material.dart';
 import 'package:flutter_compass/flutter_compass.dart';
 import 'package:geolocator/geolocator.dart';
@@ -116,8 +116,8 @@ class _QiblaCompassWidgetState extends State<QiblaCompassWidget> {
         const SizedBox(height: 2),
         // Compass rose
         SizedBox(
-          width: 260,
-          height: 260,
+          width: 280,
+          height: 280,
           child: CustomPaint(
             painter: _CompassPainter(
               deviceHeading: _deviceHeading,
@@ -160,14 +160,11 @@ class _QiblaCompassWidgetState extends State<QiblaCompassWidget> {
 // ─────────────────────────────────────────────────────────────────────────────
 
 class _CompassPainter extends CustomPainter {
-  final double deviceHeading; // degrees, clockwise from North
-  final double qiblaAngle;   // degrees, clockwise from North
+  final double deviceHeading;
+  final double qiblaAngle;
 
   const _CompassPainter({required this.deviceHeading, required this.qiblaAngle});
 
-  // ── Islamic ornament helpers ──────────────────────────────────────────────
-
-  /// 8-pointed Islamic star — used for the centre ornament.
   static void _drawStar8(Canvas canvas, Offset pos, double outerR, double innerR, Color color) {
     final path = Path();
     for (int i = 0; i < 16; i++) {
@@ -175,17 +172,20 @@ class _CompassPainter extends CustomPainter {
       final angle = i * pi / 8 - pi / 2;
       final x = pos.dx + r * cos(angle);
       final y = pos.dy + r * sin(angle);
-      if (i == 0) path.moveTo(x, y); else path.lineTo(x, y);
+      if (i == 0) {
+        path.moveTo(x, y);
+      } else {
+        path.lineTo(x, y);
+      }
     }
     path.close();
-    canvas.drawPath(path, Paint()..color = color.withAlpha(225)..style = PaintingStyle.fill);
+    canvas.drawPath(path, Paint()..color = color..style = PaintingStyle.fill);
     canvas.drawPath(path, Paint()
-      ..color = Colors.white.withAlpha(55)
+      ..color = Colors.white.withAlpha(60)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 0.5);
   }
 
-  /// Flat diamond lozenge — clean Islamic bezel marker at cardinal positions.
   static void _drawDiamond(Canvas canvas, Offset pos, double s, Color color) {
     final path = Path()
       ..moveTo(pos.dx, pos.dy - s)
@@ -193,181 +193,240 @@ class _CompassPainter extends CustomPainter {
       ..lineTo(pos.dx, pos.dy + s)
       ..lineTo(pos.dx - s * 0.44, pos.dy)
       ..close();
-    canvas.drawPath(path, Paint()..color = color.withAlpha(235)..style = PaintingStyle.fill);
+    canvas.drawPath(path, Paint()..color = color..style = PaintingStyle.fill);
     canvas.drawPath(path, Paint()
-      ..color = Colors.white.withAlpha(55)
+      ..color = Colors.white.withAlpha(70)
       ..style = PaintingStyle.stroke
-      ..strokeWidth = 0.5);
+      ..strokeWidth = 0.6);
   }
 
   @override
   void paint(Canvas canvas, Size size) {
     final center = Offset(size.width / 2, size.height / 2);
-    final radius = size.width / 2 - 6; // 124 for a 260-wide canvas
+    final radius = size.width / 2 - 4;
 
-    // ── 1. Background disc ────────────────────────────────────────────────
+    // ── 1. Background disc — deep navy radial gradient ──────────────────
     canvas.drawCircle(center, radius, Paint()
       ..shader = RadialGradient(
         colors: const [
-          Color(0xFF1E6640),
-          Color(0xFF0D3B1F),
-          Color(0xFF04100A),
+          Color(0xFF0F2744),
+          Color(0xFF071830),
+          Color(0xFF030C1C),
         ],
-        stops: const [0.0, 0.55, 1.0],
+        stops: const [0.0, 0.58, 1.0],
       ).createShader(Rect.fromCircle(center: center, radius: radius)));
 
-    // Subtle golden shimmer in the outer gem band
+    // Subtle golden shimmer ring at outer edge
     canvas.drawCircle(center, radius, Paint()
       ..shader = RadialGradient(
-        colors: [Colors.transparent, Colors.transparent,
-                 AppColors.gold.withAlpha(22)],
-        stops: const [0.0, 0.68, 1.0],
+        colors: [
+          Colors.transparent,
+          Colors.transparent,
+          AppColors.gold.withAlpha(28),
+        ],
+        stops: const [0.0, 0.70, 1.0],
       ).createShader(Rect.fromCircle(center: center, radius: radius)));
 
-    // ── 2. Rotating compass rose (gems · rings · ticks · cardinals) ───────
+    // ── 2. Rotating compass rose ────────────────────────────────────────
     canvas.save();
     canvas.translate(center.dx, center.dy);
     canvas.rotate(-deviceHeading * pi / 180);
 
-    // Three concentric gold rings
-    canvas.drawCircle(Offset.zero, radius,       Paint()..color = AppColors.gold.withAlpha(210)..style = PaintingStyle.stroke..strokeWidth = 2.2);
-    canvas.drawCircle(Offset.zero, radius - 13,  Paint()..color = AppColors.gold.withAlpha(130)..style = PaintingStyle.stroke..strokeWidth = 1.0);
-    canvas.drawCircle(Offset.zero, radius - 23,  Paint()..color = AppColors.gold.withAlpha(185)..style = PaintingStyle.stroke..strokeWidth = 1.5);
+    // Outer bezel rings (3 rings for depth)
+    canvas.drawCircle(Offset.zero, radius,
+        Paint()..color = AppColors.gold.withAlpha(220)..style = PaintingStyle.stroke..strokeWidth = 2.2);
+    canvas.drawCircle(Offset.zero, radius - 3.5,
+        Paint()..color = AppColors.goldBright.withAlpha(60)..style = PaintingStyle.stroke..strokeWidth = 0.5);
+    canvas.drawCircle(Offset.zero, radius - 22,
+        Paint()..color = AppColors.gold.withAlpha(150)..style = PaintingStyle.stroke..strokeWidth = 1.1);
+    canvas.drawCircle(Offset.zero, radius - 34,
+        Paint()..color = AppColors.gold.withAlpha(100)..style = PaintingStyle.stroke..strokeWidth = 0.8);
 
-    // ── Islamic bezel ornaments ─────────────────────────────────────────
-    final bezelR = radius - 6.5;
+    // 8 jewel studs on outer bezel at 45° intervals
+    for (int i = 0; i < 8; i++) {
+      final angle = i * pi / 4;
+      final p = Offset(sin(angle) * (radius - 1.8), -cos(angle) * (radius - 1.8));
+      canvas.drawCircle(p, 3.2,
+          Paint()..color = (i % 2 == 0 ? AppColors.goldBright : AppColors.gold).withAlpha(230));
+      canvas.drawCircle(p, 3.2,
+          Paint()..color = Colors.white.withAlpha(50)..style = PaintingStyle.stroke..strokeWidth = 0.5);
+    }
 
-    // Cardinal diamonds (N/E/S/W) — N is brighter to mark north clearly
+    // Cardinal diamonds (N/E/S/W) at inner face of outer ring
     for (int i = 0; i < 4; i++) {
       final angle = i * pi / 2;
       _drawDiamond(
         canvas,
-        Offset(sin(angle) * bezelR, -cos(angle) * bezelR),
-        5.5,
-        i == 0 ? AppColors.goldLight : AppColors.gold,
+        Offset(sin(angle) * (radius - 8), -cos(angle) * (radius - 8)),
+        6.0,
+        i == 0 ? AppColors.goldBright : AppColors.gold,
       );
     }
 
-    // Intercardinal dots (NE/SE/SW/NW) — small engraved studs
-    final dotFill = Paint()..color = AppColors.gold.withAlpha(190);
-    final dotRing = Paint()
-      ..color = AppColors.goldLight.withAlpha(100)
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = 0.7;
-    for (int i = 0; i < 4; i++) {
-      final angle = (i * pi / 2) + pi / 4;
-      final p = Offset(sin(angle) * bezelR, -cos(angle) * bezelR);
-      canvas.drawCircle(p, 3.0, dotFill);
-      canvas.drawCircle(p, 3.0, dotRing);
-    }
-
-    // ── Tick marks (between ring 2 and ring 3) ──────────────────────────
-    final minorTick = Paint()..color = AppColors.gold.withAlpha(135)..strokeWidth = 1.0..style = PaintingStyle.stroke;
-    final majorTick = Paint()..color = AppColors.gold.withAlpha(215)..strokeWidth = 1.6..style = PaintingStyle.stroke;
+    // ── Tick marks (in bezel band: radius-4 to radius-22) ─────────────
     for (int i = 0; i < 360; i += 5) {
       final rad = i * pi / 180;
-      final isMajor = i % 30 == 0;
+      final isMajor30 = i % 30 == 0;
+      final isMajor10 = i % 10 == 0;
+      final outerEdge = radius - 4;
+      final innerEdge = isMajor30 ? radius - 22 : isMajor10 ? radius - 18 : radius - 14;
+      final alpha = isMajor30 ? 220 : isMajor10 ? 170 : 110;
+      final sw = isMajor30 ? 1.5 : isMajor10 ? 1.1 : 0.8;
       canvas.drawLine(
-        Offset(sin(rad) * (isMajor ? radius - 23 : radius - 18),
-               -cos(rad) * (isMajor ? radius - 23 : radius - 18)),
-        Offset(sin(rad) * (radius - 13), -cos(rad) * (radius - 13)),
-        isMajor ? majorTick : minorTick,
+        Offset(sin(rad) * outerEdge, -cos(rad) * outerEdge),
+        Offset(sin(rad) * innerEdge, -cos(rad) * innerEdge),
+        Paint()..color = AppColors.gold.withAlpha(alpha)..strokeWidth = sw..style = PaintingStyle.stroke,
       );
     }
 
-    // ── Cardinal labels ─────────────────────────────────────────────────
-    final labelR = radius - 36.0;
-    for (int i = 0; i < 4; i++) {
-      final rad = [0.0, 90.0, 180.0, 270.0][i] * pi / 180;
-      final isN = i == 0;
+    // ── Degree numbers at 30° intervals ───────────────────────────────
+    final labelR = radius - 28.0;
+    final degreesToShow = [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330];
+    final labels = ['N', '30', '60', 'E', '120', '150', 'S', '210', '240', 'W', '300', '330'];
+    for (int i = 0; i < degreesToShow.length; i++) {
+      final rad = degreesToShow[i] * pi / 180;
+      final isCardinal = i % 3 == 0;
       final tp = TextPainter(
         text: TextSpan(
-          text: ['N', 'E', 'S', 'W'][i],
+          text: labels[i],
           style: TextStyle(
-            color: isN ? AppColors.gold : AppColors.goldSubtle.withAlpha(205),
-            fontSize: isN ? 15.0 : 12.0,
-            fontWeight: FontWeight.w800,
+            color: isCardinal
+                ? (i == 0 ? AppColors.goldBright : AppColors.gold)
+                : AppColors.gold.withAlpha(160),
+            fontSize: isCardinal ? 13.5 : 9.0,
+            fontWeight: isCardinal ? FontWeight.w800 : FontWeight.w600,
           ),
         ),
         textDirection: TextDirection.ltr,
       )..layout();
-      tp.paint(canvas, Offset(sin(rad) * labelR - tp.width / 2,
-                              -cos(rad) * labelR - tp.height / 2));
+      // Rotate the label so it faces outward correctly
+      canvas.save();
+      canvas.rotate(rad);
+      canvas.translate(0, -labelR);
+      canvas.rotate(-rad);
+      tp.paint(canvas, Offset(-tp.width / 2, -tp.height / 2));
+      canvas.restore();
     }
 
-    canvas.restore();
+    canvas.restore(); // end compass rose rotation
 
-    // ── 3. Static inner sunburst decoration ───────────────────────────────
+    // ── 3. Static inner decorative ring and sunburst ───────────────────
     canvas.save();
     canvas.translate(center.dx, center.dy);
 
-    // 16 faint spokes radiating from near-centre
-    final spokePaint = Paint()..color = AppColors.gold.withAlpha(20)..strokeWidth = 0.8..style = PaintingStyle.stroke;
+    // Inner accent ring
+    canvas.drawCircle(Offset.zero, 58,
+        Paint()..color = AppColors.gold.withAlpha(40)..style = PaintingStyle.stroke..strokeWidth = 0.8);
+
+    // 16 very faint spokes
     for (int i = 0; i < 16; i++) {
       final angle = i * 2 * pi / 16;
-      canvas.drawLine(Offset(sin(angle) * 10, -cos(angle) * 10),
-                      Offset(sin(angle) * 50, -cos(angle) * 50), spokePaint);
+      canvas.drawLine(
+        Offset(sin(angle) * 14, -cos(angle) * 14),
+        Offset(sin(angle) * 56, -cos(angle) * 56),
+        Paint()..color = AppColors.gold.withAlpha(18)..strokeWidth = 0.7..style = PaintingStyle.stroke,
+      );
     }
-    // Accent ring + 8 micro-dots
-    canvas.drawCircle(Offset.zero, 50, Paint()..color = AppColors.gold.withAlpha(32)..style = PaintingStyle.stroke..strokeWidth = 1.0);
+    // 8 micro-dots on inner ring
     for (int i = 0; i < 8; i++) {
-      final angle = i * 2 * pi / 8;
-      canvas.drawCircle(Offset(sin(angle) * 50, -cos(angle) * 50), 2.2,
-                        Paint()..color = AppColors.gold.withAlpha(75));
+      final angle = i * 2 * pi / 8 + pi / 8;
+      canvas.drawCircle(
+        Offset(sin(angle) * 58, -cos(angle) * 58),
+        2.0,
+        Paint()..color = AppColors.gold.withAlpha(80),
+      );
     }
 
     canvas.restore();
 
-    // ── 4. Qibla needle ───────────────────────────────────────────────────
+    // ── 4. Qibla needle ───────────────────────────────────────────────
     final needleRad = (qiblaAngle - deviceHeading) * pi / 180;
     canvas.save();
     canvas.translate(center.dx, center.dy);
     canvas.rotate(needleRad);
 
-    final tipY = -(radius - 26);
+    final tipY = -(radius - 22).toDouble();
+    final shoulderY = -8.0;
+    final baseY = 24.0;
 
-    // Glow aura behind needle
-    canvas.drawPath(
-      Path()..moveTo(0, tipY)..lineTo(-13, -6)..lineTo(13, -6)..close(),
-      Paint()..color = AppColors.gold.withAlpha(55)
-             ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 9),
-    );
+    // Elegant lance-shaped needle body
+    final needlePath = Path()
+      ..moveTo(0, tipY)
+      ..lineTo(-9, shoulderY)
+      ..lineTo(-4, baseY)
+      ..lineTo(4, baseY)
+      ..lineTo(9, shoulderY)
+      ..close();
 
-    // Needle head with horizontal metallic shimmer
-    final headPath = Path()
-      ..moveTo(0, tipY)..lineTo(-11, -7)..lineTo(11, -7)..close();
-    canvas.drawPath(headPath, Paint()
+    canvas.drawPath(needlePath, Paint()
       ..shader = LinearGradient(
         begin: Alignment.centerLeft,
         end: Alignment.centerRight,
-        colors: [AppColors.gold, AppColors.goldLight, AppColors.gold],
-        stops: const [0.0, 0.5, 1.0],
-      ).createShader(Rect.fromLTWH(-11, tipY, 22, -7 - tipY)));
-    // Inner centre-strip highlight
+        colors: [
+          AppColors.gold.withAlpha(190),
+          AppColors.goldBright,
+          AppColors.goldBright,
+          AppColors.gold.withAlpha(190),
+        ],
+        stops: const [0.0, 0.35, 0.65, 1.0],
+      ).createShader(Rect.fromLTWH(-9, tipY, 18, baseY - tipY)));
+
+    // White highlight stripe down needle
     canvas.drawPath(
-      Path()..moveTo(0, tipY + 9)..lineTo(-3.5, -5)..lineTo(3.5, -5)..close(),
-      Paint()..color = Colors.white.withAlpha(90),
-    );
-    // Border
-    canvas.drawPath(headPath, Paint()
-      ..color = AppColors.goldLight.withAlpha(170)
-      ..style = PaintingStyle.stroke..strokeWidth = 1.0);
-    // Dim tail
-    canvas.drawPath(
-      Path()..moveTo(0, 28)..lineTo(-8, 8)..lineTo(8, 8)..close(),
-      Paint()..color = AppColors.gold.withAlpha(55),
+      Path()
+        ..moveTo(0, tipY + 6)
+        ..lineTo(-2.5, shoulderY)
+        ..lineTo(2.5, shoulderY)
+        ..close(),
+      Paint()..color = Colors.white.withAlpha(100),
     );
 
+    // Needle border
+    canvas.drawPath(needlePath, Paint()
+      ..color = AppColors.goldBright.withAlpha(160)
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 0.8);
+
+    // Small crescent at the tip
+    canvas.save();
+    canvas.translate(0, tipY - 8);
+    final crescentBounds = Rect.fromCircle(center: Offset.zero, radius: 9);
+    canvas.saveLayer(crescentBounds, Paint());
+    canvas.drawCircle(Offset.zero, 5.5, Paint()..color = AppColors.goldBright.withAlpha(230));
+    canvas.drawCircle(const Offset(2.2, 0), 4.0,
+        Paint()..blendMode = BlendMode.clear);
+    canvas.restore(); // saveLayer
+    canvas.restore(); // translate
+
+    // Tail (dim, opposite direction)
+    canvas.drawPath(
+      Path()
+        ..moveTo(0, baseY + 6)
+        ..lineTo(-5, baseY)
+        ..lineTo(5, baseY)
+        ..close(),
+      Paint()..color = AppColors.gold.withAlpha(60),
+    );
+
+    canvas.restore(); // end needle rotation
+
+    // ── 5. Centre ornament ────────────────────────────────────────────
+    canvas.save();
+    canvas.translate(center.dx, center.dy);
+    // Outer pivot ring
+    canvas.drawCircle(Offset.zero, 13,
+        Paint()..color = AppColors.gold.withAlpha(180)..style = PaintingStyle.stroke..strokeWidth = 1.6);
+    canvas.drawCircle(Offset.zero, 13,
+        Paint()..color = const Color(0xFF0A1E3A)); // fill behind star
+    // Inner accent ring
+    canvas.drawCircle(Offset.zero, 9,
+        Paint()..color = AppColors.gold.withAlpha(80)..style = PaintingStyle.stroke..strokeWidth = 0.7);
+    // 8-pointed star
+    _drawStar8(canvas, Offset.zero, 6.5, 2.8, AppColors.gold.withAlpha(210));
+    // Pivot dot
+    canvas.drawCircle(Offset.zero, 2.0,
+        Paint()..color = AppColors.goldBright);
     canvas.restore();
-
-    // ── 5. Centre ornament — Islamic 8-pointed star ──────────────────────
-    canvas.drawCircle(center, 11, Paint()
-      ..color = AppColors.gold.withAlpha(170)
-      ..style = PaintingStyle.stroke..strokeWidth = 1.5);
-    canvas.drawCircle(center, 7.5, Paint()
-      ..color = AppColors.gold.withAlpha(80)
-      ..style = PaintingStyle.stroke..strokeWidth = 0.8);
-    _drawStar8(canvas, center, 5.0, 2.2, AppColors.gold);
   }
 
   @override
@@ -518,29 +577,28 @@ class _DeadCompassPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final center = Offset(size.width / 2, size.height / 2);
-    final radius = size.width / 2 - 6;
+    final radius = size.width / 2 - 4;
 
-    final bgPaint = Paint()
-      ..color = const Color(0xFF0C1A10).withValues(alpha: 0.6);
-    canvas.drawCircle(center, radius, bgPaint);
+    canvas.drawCircle(center, radius, Paint()
+      ..shader = RadialGradient(
+        colors: const [Color(0xFF0A1E3A), Color(0xFF040E1C)],
+        stops: const [0.0, 1.0],
+      ).createShader(Rect.fromCircle(center: center, radius: radius)));
 
-    final ringPaint = Paint()
-      ..color = Colors.white.withValues(alpha: 0.12)
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = 1.5;
-    canvas.drawCircle(center, radius, ringPaint);
+    canvas.drawCircle(center, radius,
+        Paint()..color = AppColors.gold.withAlpha(60)..style = PaintingStyle.stroke..strokeWidth = 1.8);
+    canvas.drawCircle(center, radius - 22,
+        Paint()..color = AppColors.gold.withAlpha(35)..style = PaintingStyle.stroke..strokeWidth = 0.8);
 
-    // Question mark in center
     final span = TextSpan(
       text: '?',
       style: TextStyle(
-        color: Colors.white.withValues(alpha: 0.25),
+        color: Colors.white.withValues(alpha: 0.18),
         fontSize: 72,
         fontWeight: FontWeight.w300,
       ),
     );
-    final tp = TextPainter(text: span, textDirection: TextDirection.ltr)
-      ..layout();
+    final tp = TextPainter(text: span, textDirection: TextDirection.ltr)..layout();
     tp.paint(canvas, Offset(center.dx - tp.width / 2, center.dy - tp.height / 2));
   }
 

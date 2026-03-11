@@ -25,9 +25,7 @@ import 'package:ayara/core/config/theme.dart';
 import 'package:ayara/core/utils/app_error.dart';
 import 'package:ayara/core/utils/error_ui.dart';
 
-import 'package:ayara/features/daily/daily_grace_screen.dart';
-import 'package:ayara/features/qibla/qibla_screen.dart';
-import 'package:ayara/features/dhikr/dhikr_screen.dart';
+import 'package:ayara/features/qibla/ask_result_screen.dart';
 
 class CategoryScreen extends StatefulWidget {
   const CategoryScreen({super.key});
@@ -45,12 +43,18 @@ class _CategoryScreenState extends State<CategoryScreen> {
 
   List<CategoryActionItem> _items = const [];
 
-  /// Premium (Blessed-only) categories. Leave empty to lock nothing.
+  /// Premium-only categories. Leave empty to lock nothing.
   final Set<String> _premiumCategoryIds = <String>{
     // TODO: fill in Ayara premium IDs if you want to lock categories
   };
 
   late final PageController _pageController = PageController();
+
+  // Ask state
+  final TextEditingController _askController = TextEditingController();
+  final FocusNode _askFocusNode = FocusNode();
+  bool _askLoading = false;
+  String? _askError;
 
   @override
   void initState() {
@@ -72,8 +76,42 @@ class _CategoryScreenState extends State<CategoryScreen> {
   @override
   void dispose() {
     _pageController.dispose();
+    _askController.dispose();
+    _askFocusNode.dispose();
     UsageService.instance.removeListener(_onUsageChanged);
     super.dispose();
+  }
+
+  Future<void> _submitQuestion() async {
+    final question = _askController.text.trim();
+    final t = AppLocalizations.of(context);
+    if (question.isEmpty) {
+      setState(() => _askError = t.askPageInputEmptyError);
+      return;
+    }
+    setState(() { _askError = null; _askLoading = true; });
+    _askFocusNode.unfocus();
+    try {
+      final response = await ChatService.sendPrompt(question, context: context);
+      if (!mounted) return;
+      await Navigator.of(context).push(MaterialPageRoute(
+        builder: (_) => AskResultScreen(question: question, response: response),
+      ));
+    } catch (e, st) {
+      if (!mounted) return;
+      final msg = e.toString().contains('Exception: ')
+          ? e.toString().split('Exception: ').last
+          : e.toString();
+      const known = {
+        'local_rate_limited', 'remote_rate_limited', 'appcheck_throttled',
+        'ai_unauthenticated', 'ai_rate_limited', 'ai_timeout',
+        'ai_unavailable', 'ai_misconfigured', 'ai_error',
+        'request_in_flight', 'credits_exhausted', 'guest_not_allowed',
+      };
+      if (!known.contains(msg)) showAppErrorSnack(context, e, stackTrace: st);
+    } finally {
+      if (mounted) setState(() => _askLoading = false);
+    }
   }
 
   void _onUsageChanged() {
@@ -218,17 +256,17 @@ class _CategoryScreenState extends State<CategoryScreen> {
     final normalizedId = normalizeCategoryId(item.id);
 
     final usage = UsageService.instance.current;
-    final plan = (usage?.plan ?? 'grace').toLowerCase();
+    final plan = (usage?.plan ?? 'basic').toLowerCase();
 
-    // Allow Blessed status regardless of guest/anonymous — guests who
-    // purchased Blessed via IAP should access premium categories.
-    final isBlessed = plan == 'blessed';
+    // Allow Premium status regardless of guest/anonymous — guests who
+    // purchased Premium via IAP should access premium categories.
+    final isPremium = plan == 'premium';
 
-    final locked = _isPremiumCategory(normalizedId) && !isBlessed;
+    final locked = _isPremiumCategory(normalizedId) && !isPremium;
     if (locked) {
       final t = AppLocalizations.of(context)!;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(t.blessedRequiredForCategory)),
+        SnackBar(content: Text(t.premiumRequiredForCategory)),
       );
       return;
     }
@@ -248,10 +286,10 @@ class _CategoryScreenState extends State<CategoryScreen> {
         child: Container(
           padding: const EdgeInsets.fromLTRB(24, 28, 24, 24),
           decoration: BoxDecoration(
-            gradient: const LinearGradient(
+            gradient: LinearGradient(
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
-              colors: [Color(0xFF0C3A1E), Color(0xFF061D0F)],
+              colors: [AppColors.navy, AppColors.navyDeep],
             ),
             borderRadius: BorderRadius.circular(22),
             border: Border.all(
@@ -316,7 +354,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                       letterSpacing: 0.3,
                     ),
                   ),
-                  child: Text(t.blessedButtonBecomeBlessed),
+                  child: Text(t.premiumButtonBecomePremium),
                 ),
               ),
               const SizedBox(height: 10),
@@ -398,10 +436,10 @@ class _CategoryScreenState extends State<CategoryScreen> {
     final contentDirection = Directionality.of(context);
 
     return Scaffold(
-      backgroundColor: const Color(0xFF9E9688),
+      backgroundColor: AppColors.deepNavy,
       body: Stack(
         children: [
-          // Strong 3-stop diagonal gradient — dark taupe top-left → bright cream bottom-right
+          // Dark navy diagonal gradient
           const Positioned.fill(
             child: DecoratedBox(
               decoration: BoxDecoration(
@@ -409,28 +447,28 @@ class _CategoryScreenState extends State<CategoryScreen> {
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                   colors: [
-                    Color(0xFF9E9688), // dark warm taupe
-                    Color(0xFFCABFA8), // mid parchment
-                    Color(0xFFE8D8C0), // bright warm cream
+                    AppColors.navy,     // 0xFF0B1628 — top-left
+                    AppColors.deepNavy, // 0xFF060C18 — centre
+                    AppColors.navyDeep, // 0xFF04080F — bottom-right
                   ],
                   stops: [0.0, 0.50, 1.0],
                 ),
               ),
             ),
           ),
-          // Top-right gold shimmer — strong, clearly visible
+          // Top-right crimson accent (moved from bottom-right)
           Positioned(
-            top: -30,
-            right: -30,
+            top: -20,
+            right: -20,
             child: IgnorePointer(
               child: SizedBox(
-                width: 420,
-                height: 420,
+                width: 260,
+                height: 260,
                 child: DecoratedBox(
                   decoration: BoxDecoration(
                     gradient: RadialGradient(
                       colors: [
-                        Color(0x72C49A3C), // warm gold — clearly visible
+                        Color(0x15B52344), // crimson 8%
                         Colors.transparent,
                       ],
                     ),
@@ -439,10 +477,31 @@ class _CategoryScreenState extends State<CategoryScreen> {
               ),
             ),
           ),
-          // Bottom-left green accent — clearly visible
+          // Bottom-left emerald accent
           Positioned(
-            bottom: -30,
-            left: -30,
+            bottom: -40,
+            left: -40,
+            child: IgnorePointer(
+              child: SizedBox(
+                width: 320,
+                height: 320,
+                child: DecoratedBox(
+                  decoration: BoxDecoration(
+                    gradient: RadialGradient(
+                      colors: [
+                        Color(0x1A1A7A50), // emerald 10%
+                        Colors.transparent,
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+          // Bottom-right gold shimmer accent (moved from top-right)
+          Positioned(
+            bottom: -40,
+            right: -40,
             child: IgnorePointer(
               child: SizedBox(
                 width: 380,
@@ -451,28 +510,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                   decoration: BoxDecoration(
                     gradient: RadialGradient(
                       colors: [
-                        Color(0x450C3A1E), // Islamic green
-                        Colors.transparent,
-                      ],
-                    ),
-                  ),
-                ),
-              ),
-            ),
-          ),
-          // Bottom-right warm amber — visible balance accent
-          Positioned(
-            bottom: -20,
-            right: -20,
-            child: IgnorePointer(
-              child: SizedBox(
-                width: 300,
-                height: 300,
-                child: DecoratedBox(
-                  decoration: BoxDecoration(
-                    gradient: RadialGradient(
-                      colors: [
-                        Color(0x44C49A3C),
+                        Color(0x2AC9A84C), // gold 16%
                         Colors.transparent,
                       ],
                     ),
@@ -497,6 +535,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                     child: Column(
                       children: [
                         const CategoryHeader(showTitle: false),
+                        const CategoryFooter(),
                         // Out-of-reflections banner
                         AnimatedBuilder(
                           animation: UsageService.instance,
@@ -504,7 +543,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                             final usage = UsageService.instance.current;
                             if (usage == null) return const SizedBox.shrink();
                             final plan = usage.plan.toLowerCase();
-                            if (plan == 'blessed') return const SizedBox.shrink();
+                            if (plan == 'premium') return const SizedBox.shrink();
                             if (usage.creditsRemaining > 0) return const SizedBox.shrink();
                             final t = AppLocalizations.of(context)!;
                             return Padding(
@@ -638,36 +677,48 @@ class _CategoryScreenState extends State<CategoryScreen> {
                             ),
                           ),
                         ),
-                        const CategoryFooter(),
-                        const SizedBox(height: 8),
                       ],
                     ),
                   ),
                 ),
-                // Page 1 — Daily Grace
+                // Page 1 — Ask Ayara + Meditation
                 Directionality(
                   textDirection: contentDirection,
-                  child: DailyGraceWidget(pageController: _pageController),
-                ),
-                // Page 2 — Qibla, Prayer Times & Ask Ayara
-                Directionality(
-                  textDirection: contentDirection,
-                  child: QiblaScreen(pageController: _pageController),
-                ),
-                // Page 3 — Dhikr counter
-                Directionality(
-                  textDirection: contentDirection,
-                  child: DhikrScreen(pageController: _pageController),
+                  child: _AskMeditationPage(
+                    pageController: _pageController,
+                    askController: _askController,
+                    focusNode: _askFocusNode,
+                    loading: _askLoading,
+                    error: _askError,
+                    onSubmit: _submitQuestion,
+                    onErrorClear: () => setState(() => _askError = null),
+                  ),
                 ),
               ],
             ),
           ),
-          // Animated swipe hint — vertically aligned with the history button
+          // Swipe hint — right on page 0, left on page 1
           Positioned(
             right: 6,
             bottom: MediaQuery.of(context).padding.bottom + 170,
             child: IgnorePointer(
-              child: _SwipeHint(pageController: _pageController),
+              child: _SwipeHint(pageController: _pageController, direction: _SwipeDirection.right),
+            ),
+          ),
+          Positioned(
+            left: 6,
+            bottom: MediaQuery.of(context).padding.bottom + 170,
+            child: IgnorePointer(
+              child: _SwipeHint(pageController: _pageController, direction: _SwipeDirection.left),
+            ),
+          ),
+          // Page indicator dots
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: MediaQuery.of(context).padding.bottom + 4,
+            child: IgnorePointer(
+              child: _PageDots(pageController: _pageController, count: 2),
             ),
           ),
         ],
@@ -676,11 +727,20 @@ class _CategoryScreenState extends State<CategoryScreen> {
   }
 }
 
-/// Animated right-pointing chevrons that hint the user can swipe left
-/// to reveal the Daily Grace page. Fades out as the page scrolls.
+// ─────────────────────────────────────────────────────────────────────────────
+// Swipe hint direction
+// ─────────────────────────────────────────────────────────────────────────────
+
+enum _SwipeDirection { left, right }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Animated swipe hint arrows
+// ─────────────────────────────────────────────────────────────────────────────
+
 class _SwipeHint extends StatefulWidget {
   final PageController pageController;
-  const _SwipeHint({required this.pageController});
+  final _SwipeDirection direction;
+  const _SwipeHint({required this.pageController, required this.direction});
 
   @override
   State<_SwipeHint> createState() => _SwipeHintState();
@@ -693,7 +753,8 @@ class _SwipeHintState extends State<_SwipeHint>
     duration: const Duration(milliseconds: 950),
   )..repeat(reverse: true);
 
-  late final Animation<double> _offset = Tween<double>(begin: 0, end: 9).animate(
+  late final Animation<double> _offset =
+      Tween<double>(begin: 0, end: 9).animate(
     CurvedAnimation(parent: _bounce, curve: Curves.easeInOut),
   );
 
@@ -707,7 +768,10 @@ class _SwipeHintState extends State<_SwipeHint>
 
   void _onPage() {
     final page = widget.pageController.page ?? 0.0;
-    final v = (1.0 - page).clamp(0.0, 1.0);
+    // right hint visible on page 0, left hint visible on page 1
+    final v = widget.direction == _SwipeDirection.right
+        ? (1.0 - page).clamp(0.0, 1.0)
+        : page.clamp(0.0, 1.0);
     if (mounted && v != _visibility) setState(() => _visibility = v);
   }
 
@@ -720,6 +784,7 @@ class _SwipeHintState extends State<_SwipeHint>
 
   @override
   Widget build(BuildContext context) {
+    final isRight = widget.direction == _SwipeDirection.right;
     return AnimatedOpacity(
       opacity: _visibility,
       duration: const Duration(milliseconds: 150),
@@ -727,15 +792,403 @@ class _SwipeHintState extends State<_SwipeHint>
         textDirection: TextDirection.ltr,
         child: AnimatedBuilder(
           animation: _offset,
-          builder: (_, _) => Transform.translate(
-            offset: Offset(_offset.value, 0),
+          builder: (_, child) => Transform.translate(
+            offset: Offset(isRight ? _offset.value : -_offset.value, 0),
             child: Icon(
-              Icons.chevron_right_rounded,
+              isRight
+                  ? Icons.chevron_right_rounded
+                  : Icons.chevron_left_rounded,
               color: AppColors.islamic.withValues(alpha: 0.45),
               size: 28,
             ),
           ),
         ),
+      ),
+    );
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Page indicator dots
+// ─────────────────────────────────────────────────────────────────────────────
+
+class _PageDots extends StatefulWidget {
+  final PageController pageController;
+  final int count;
+  const _PageDots({required this.pageController, required this.count});
+
+  @override
+  State<_PageDots> createState() => _PageDotsState();
+}
+
+class _PageDotsState extends State<_PageDots> {
+  double _page = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    widget.pageController.addListener(_onPage);
+  }
+
+  void _onPage() {
+    final p = widget.pageController.page ?? 0;
+    if (mounted && p != _page) setState(() => _page = p);
+  }
+
+  @override
+  void dispose() {
+    widget.pageController.removeListener(_onPage);
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: List.generate(widget.count, (i) {
+        final dist = (_page - i).abs();
+        final active = dist < 0.5;
+        return AnimatedContainer(
+          duration: const Duration(milliseconds: 200),
+          margin: const EdgeInsets.symmetric(horizontal: 4),
+          width: active ? 18 : 7,
+          height: 7,
+          decoration: BoxDecoration(
+            color: active
+                ? AppColors.islamic.withValues(alpha: 0.75)
+                : AppColors.islamic.withValues(alpha: 0.25),
+            borderRadius: BorderRadius.circular(4),
+          ),
+        );
+      }),
+    );
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Page 1 — Ask Ayara + spiritual meditation animation
+// ─────────────────────────────────────────────────────────────────────────────
+
+class _AskMeditationPage extends StatelessWidget {
+  final PageController pageController;
+  final TextEditingController askController;
+  final FocusNode focusNode;
+  final bool loading;
+  final String? error;
+  final VoidCallback onSubmit;
+  final VoidCallback onErrorClear;
+
+  const _AskMeditationPage({
+    required this.pageController,
+    required this.askController,
+    required this.focusNode,
+    required this.loading,
+    required this.error,
+    required this.onSubmit,
+    required this.onErrorClear,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final t = AppLocalizations.of(context)!;
+    final theme = Theme.of(context);
+
+    return SingleChildScrollView(
+      padding: const EdgeInsets.fromLTRB(20, 48, 20, 80),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // Section title
+          Text(
+            t.askAyaraTitle,
+            style: theme.textTheme.headlineSmall?.copyWith(
+              color: AppColors.islamic,
+              fontWeight: FontWeight.w800,
+              fontSize: 22,
+              letterSpacing: 0.3,
+            ),
+          ),
+          const SizedBox(height: 4),
+          Text(
+            t.askAyaraSubtitle,
+            style: theme.textTheme.bodyMedium?.copyWith(
+              color: AppColors.textSecondary,
+              fontSize: 13.5,
+              height: 1.4,
+            ),
+          ),
+          const SizedBox(height: 20),
+
+          // Question input
+          Container(
+            decoration: BoxDecoration(
+              color: AppColors.islamic.withValues(alpha: 0.05),
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(
+                color: AppColors.islamic.withValues(alpha: 0.25),
+              ),
+            ),
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+            child: TextField(
+              controller: askController,
+              focusNode: focusNode,
+              maxLines: 4,
+              minLines: 3,
+              textInputAction: TextInputAction.newline,
+              style: theme.textTheme.bodyMedium?.copyWith(
+                color: AppColors.textPrimary,
+                fontSize: 15,
+                height: 1.55,
+              ),
+              decoration: InputDecoration(
+                hintText: t.askAyaraHint,
+                hintStyle: TextStyle(
+                  color: AppColors.textSecondary.withValues(alpha: 0.6),
+                  fontSize: 14,
+                ),
+                border: InputBorder.none,
+              ),
+            ),
+          ),
+
+          if (error != null) ...[
+            const SizedBox(height: 10),
+            GestureDetector(
+              onTap: onErrorClear,
+              child: Text(
+                error!,
+                style: const TextStyle(color: Colors.red, fontSize: 13),
+              ),
+            ),
+          ],
+
+          const SizedBox(height: 14),
+
+          // Submit button
+          SizedBox(
+            width: double.infinity,
+            child: FilledButton(
+              onPressed: loading ? null : onSubmit,
+              style: FilledButton.styleFrom(
+                backgroundColor: AppColors.islamic,
+                foregroundColor: Colors.white,
+                padding: const EdgeInsets.symmetric(vertical: 14),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(14),
+                ),
+              ),
+              child: loading
+                  ? const SizedBox(
+                      width: 20,
+                      height: 20,
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2,
+                        color: Colors.white,
+                      ),
+                    )
+                  : Text(
+                      t.askAyaraSubmit,
+                      style: const TextStyle(
+                        fontWeight: FontWeight.w700,
+                        fontSize: 15,
+                      ),
+                    ),
+            ),
+          ),
+
+          const SizedBox(height: 36),
+
+          // Spiritual animation
+          const _SpiritualAnimation(),
+        ],
+      ),
+    );
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Spiritual ambient animation
+// ─────────────────────────────────────────────────────────────────────────────
+
+class _SpiritualAnimation extends StatefulWidget {
+  const _SpiritualAnimation();
+
+  @override
+  State<_SpiritualAnimation> createState() => _SpiritualAnimationState();
+}
+
+class _SpiritualAnimationState extends State<_SpiritualAnimation>
+    with TickerProviderStateMixin {
+  late final AnimationController _glow = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 3200),
+  )..repeat(reverse: true);
+
+  late final AnimationController _rise = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 4500),
+  )..repeat();
+
+  late final AnimationController _pulse = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 2100),
+  )..repeat(reverse: true);
+
+  late final Listenable _all = Listenable.merge([_glow, _rise, _pulse]);
+
+  @override
+  void dispose() {
+    _glow.dispose();
+    _rise.dispose();
+    _pulse.dispose();
+    super.dispose();
+  }
+
+  List<Widget> _buildParticles(double riseValue) {
+    const positions = [
+      (0.12, 0.85), (0.30, 0.70), (0.50, 0.90), (0.68, 0.75),
+      (0.85, 0.88), (0.22, 0.55), (0.60, 0.60), (0.78, 0.45),
+    ];
+    const delays = [0.0, 0.15, 0.30, 0.45, 0.60, 0.72, 0.85, 0.10];
+
+    return List.generate(positions.length, (i) {
+      final (px, py) = positions[i];
+      final delayed = ((riseValue + delays[i]) % 1.0);
+      final opacity = (delayed < 0.3
+              ? delayed / 0.3
+              : delayed > 0.7
+                  ? (1 - delayed) / 0.3
+                  : 1.0)
+          .clamp(0.0, 1.0);
+      final dy = -120.0 * delayed;
+      return Positioned(
+        left: px * 300,
+        top: py * 200 + dy,
+        child: Opacity(
+          opacity: opacity * 0.6,
+          child: Container(
+            width: 5 + (i % 3) * 2.0,
+            height: 5 + (i % 3) * 2.0,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: i % 3 == 0
+                  ? AppColors.gold
+                  : i % 3 == 1
+                      ? AppColors.islamic
+                      : const Color(0xFF9C3030),
+            ),
+          ),
+        ),
+      );
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: 260,
+      child: AnimatedBuilder(
+        animation: _all,
+        builder: (context, _) {
+          final glowAlpha = 0.06 + _glow.value * 0.10;
+          final pulseScale = 0.92 + _pulse.value * 0.12;
+
+          return LayoutBuilder(
+            builder: (context, constraints) {
+              final w = constraints.maxWidth;
+              final cx = w / 2;
+
+              return Stack(
+                clipBehavior: Clip.none,
+                children: [
+                  // Gold glow orb
+                  Positioned(
+                    left: cx - 100,
+                    top: 20,
+                    child: Transform.scale(
+                      scale: pulseScale,
+                      child: Container(
+                        width: 200,
+                        height: 200,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          gradient: RadialGradient(
+                            colors: [
+                              AppColors.gold.withValues(alpha: glowAlpha * 1.8),
+                              AppColors.gold.withValues(alpha: glowAlpha * 0.4),
+                              Colors.transparent,
+                            ],
+                            stops: const [0.0, 0.5, 1.0],
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  // Emerald glow
+                  Positioned(
+                    left: cx - 140,
+                    top: 60,
+                    child: Container(
+                      width: 160,
+                      height: 160,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        gradient: RadialGradient(
+                          colors: [
+                            AppColors.islamic
+                                .withValues(alpha: glowAlpha * 1.2),
+                            Colors.transparent,
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  // Crimson glow
+                  Positioned(
+                    right: cx - 140,
+                    top: 80,
+                    child: Container(
+                      width: 140,
+                      height: 140,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        gradient: RadialGradient(
+                          colors: [
+                            const Color(0xFF9C3030)
+                                .withValues(alpha: glowAlpha * 0.9),
+                            Colors.transparent,
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  // Rising particles (use fixed 300px coordinate space)
+                  ..._buildParticles(_rise.value),
+                  // Bismillah text
+                  Positioned(
+                    bottom: 12,
+                    left: 0,
+                    right: 0,
+                    child: Opacity(
+                      opacity: 0.18 + _pulse.value * 0.14,
+                      child: Text(
+                        'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
+                        textAlign: TextAlign.center,
+                        textDirection: TextDirection.rtl,
+                        style: TextStyle(
+                          fontSize: 18,
+                          color: AppColors.gold,
+                          fontWeight: FontWeight.w500,
+                          height: 1.6,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              );
+            },
+          );
+        },
       ),
     );
   }

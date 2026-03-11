@@ -196,20 +196,20 @@ export const checkAndConsumePrompt = onCall(
         const hwStarterSnap = hwStarterRef ? snaps[5] : null;
 
         const user = (userSnap.data() ?? {
-          plan: "grace",
+          plan: "basic",
           reflectionsTotal: 0,
           reflectionsUsed: 0,
           creditsTotal: 0,
           creditsUsed: 0,
-          testBlessed: false,
+          testPremium: false,
         }) as any;
 
         const ent = (entSnap.data() ?? {}) as any;
 
-        const isBlessedEnt = ent.isBlessed === true && ent.status === "active";
-        const isBlessedUser = String(user.plan ?? "grace") === "blessed";
-        const isBlessedTest = user.testBlessed === true;
-        const isBlessed = isBlessedEnt || isBlessedUser || isBlessedTest;
+        const isPremiumEnt = ent.isPremium === true && ent.status === "active";
+        const isPremiumUser = String(user.plan ?? "basic") === "premium";
+        const isPremiumTest = user.testPremium === true;
+        const isPremium = isPremiumEnt || isPremiumUser || isPremiumTest;
 
         // ─── Resolve canonical credit pool (must be before any tx.set writes) ───
         const { poolId, poolData: poolDc, poolDocRef, needsDeviceRedirect } =
@@ -271,7 +271,7 @@ export const checkAndConsumePrompt = onCall(
         // Starter grant: once per pool, only if pool is empty
         const hwAlreadyGranted = hwStarterSnap?.exists === true;
         if (
-          !isBlessed &&
+          !isPremium &&
           !starterGranted &&
           !hwAlreadyGranted &&
           reflectionsTotal <= 0
@@ -331,7 +331,7 @@ export const checkAndConsumePrompt = onCall(
           tx.set(
             userRef,
             {
-              plan: isBlessed ? "blessed" : "grace",
+              plan: isPremium ? "premium" : "basic",
               ...(shouldSetHomePool ? { homePoolId: poolId } : {}),
               createdAt: now,
               updatedAt: now,
@@ -352,9 +352,9 @@ export const checkAndConsumePrompt = onCall(
         const remaining = Math.max(0, reflectionsTotal - reflectionsUsed);
 
         out = {
-          allowed: isBlessed || remaining > 0,
+          allowed: isPremium || remaining > 0,
           reason:
-            isBlessed || remaining > 0 ? null : "reflections_exhausted",
+            isPremium || remaining > 0 ? null : "reflections_exhausted",
           reflections: {
             total: reflectionsTotal,
             used: reflectionsUsed,
@@ -365,8 +365,8 @@ export const checkAndConsumePrompt = onCall(
             used: reflectionsUsed,
             remaining,
           },
-          plan: isBlessed ? "blessed" : "grace",
-          entitlement: { isBlessed, expiresAt: null },
+          plan: isPremium ? "premium" : "basic",
+          entitlement: { isPremium, expiresAt: null },
         };
       });
 
@@ -413,19 +413,19 @@ export const checkAndConsumePrompt = onCall(
           reason: "consume_in_progress",
           reflections: { total: 0, used: 0, remaining: 0 },
           credits: { total: 0, used: 0, remaining: 0 },
-          plan: "grace",
-          entitlement: { isBlessed: false, expiresAt: null },
+          plan: "basic",
+          entitlement: { isPremium: false, expiresAt: null },
         };
         return;
       }
 
       const user = (userSnap.data() ?? {
-        plan: "grace",
+        plan: "basic",
         reflectionsTotal: 0,
         reflectionsUsed: 0,
         creditsTotal: 0,
         creditsUsed: 0,
-        testBlessed: false,
+        testPremium: false,
       }) as any;
 
       const ent = (entSnap.data() ?? {}) as any;
@@ -475,8 +475,8 @@ export const checkAndConsumePrompt = onCall(
             reason: "device_key_mismatch",
             reflections: { total: 0, used: 0, remaining: 0 },
             credits: { total: 0, used: 0, remaining: 0 },
-            plan: "grace",
-            entitlement: { isBlessed: false, expiresAt: null },
+            plan: "basic",
+            entitlement: { isPremium: false, expiresAt: null },
           };
 
           if (idemRef)
@@ -513,12 +513,12 @@ export const checkAndConsumePrompt = onCall(
       }
 
       // ─── Blessed detection ───
-      const isBlessedEnt = ent.isBlessed === true && ent.status === "active";
-      const isBlessedUser = String(user.plan ?? "grace") === "blessed";
-      const isBlessedTest = user.testBlessed === true;
-      const isBlessed = isBlessedEnt || isBlessedUser || isBlessedTest;
+      const isPremiumEnt = ent.isPremium === true && ent.status === "active";
+      const isPremiumUser = String(user.plan ?? "basic") === "premium";
+      const isPremiumTest = user.testPremium === true;
+      const isPremium = isPremiumEnt || isPremiumUser || isPremiumTest;
 
-      const plan = isBlessed ? "blessed" : "grace";
+      const plan = isPremium ? "premium" : "basic";
 
       // ─── Read pool values ───
       let reflectionsTotal: number;
@@ -538,7 +538,7 @@ export const checkAndConsumePrompt = onCall(
       // Starter grant: once per pool, only if pool is empty
       const hwAlreadyGrantedC = hwStarterSnapC?.exists === true;
       if (
-        !isBlessed &&
+        !isPremium &&
         !starterGranted &&
         !hwAlreadyGrantedC &&
         reflectionsTotal <= 0
@@ -598,7 +598,7 @@ export const checkAndConsumePrompt = onCall(
         reflectionsTotal - reflectionsUsed,
       );
 
-      if (!isBlessed && reflectionsRemaining <= 0) {
+      if (!isPremium && reflectionsRemaining <= 0) {
         tx.set(
           userRef,
           {
@@ -624,7 +624,7 @@ export const checkAndConsumePrompt = onCall(
             remaining: reflectionsRemaining,
           },
           plan,
-          entitlement: { isBlessed, expiresAt: null },
+          entitlement: { isPremium, expiresAt: null },
         };
 
         if (idemRef)
@@ -673,7 +673,7 @@ export const checkAndConsumePrompt = onCall(
           remaining: nextRemaining,
         },
         plan,
-        entitlement: { isBlessed, expiresAt: null },
+        entitlement: { isPremium, expiresAt: null },
       };
 
       if (idemRef) {

@@ -13,7 +13,7 @@ class IapResult {
   final bool ok;
 
   /// Client plan naming (Ayara):
-  /// "grace" | "blessed" | "guest"
+  /// "basic" | "premium" | "guest"
   final String plan;
 
   final int creditsTotal;
@@ -56,14 +56,11 @@ class IapResult {
 
   static String _normalizePlan(dynamic raw) {
     final v = (raw ?? '').toString().trim().toLowerCase();
-    if (v.isEmpty) return 'grace';
+    if (v.isEmpty) return 'basic';
 
-    // tolerate legacy / backend
-    if (v == 'basic' || v == 'free' || v == 'starter') return 'grace';
-    if (v == 'champion') return 'blessed';
-
-    // already new
-    if (v == 'grace' || v == 'blessed' || v == 'guest') return v;
+    // Legacy mappings
+    if (v == 'basic' || v == 'free' || v == 'starter') return 'basic';
+    if (v == 'basic' || v == 'premium' || v == 'guest') return v;
 
     return v; // fallback (never crash)
   }
@@ -80,7 +77,7 @@ class IapResult {
 
     final hasAnyCredits = hasCreditsTotal || hasCreditsUsed || hasCreditsRemaining;
 
-    final rawPlan = (json['plan'] as String?) ?? 'basic';
+    final rawPlan = (json['plan'] as String?) ?? 'basic'; // already canonical
 
     return IapResult(
       ok: json['ok'] as bool? ?? false,
@@ -102,7 +99,7 @@ class IapResult {
   }) {
     return IapResult(
       ok: false,
-      plan: 'grace',
+      plan: 'basic',
       creditsTotal: 0,
       creditsUsed: 0,
       creditsRemaining: 0,
@@ -114,7 +111,7 @@ class IapResult {
     );
   }
 
-  bool get isBlessed => plan == 'blessed';
+  bool get isPremium => plan == 'premium';
 }
 
 class PremiumService {
@@ -131,12 +128,11 @@ class PremiumService {
 
   static String _normalizePlan(dynamic raw) {
     final v = (raw ?? '').toString().trim().toLowerCase();
-    if (v.isEmpty) return 'grace';
+    if (v.isEmpty) return 'basic';
 
-    if (v == 'basic' || v == 'free' || v == 'starter') return 'grace';
-    if (v == 'champion') return 'blessed';
-
-    if (v == 'grace' || v == 'blessed' || v == 'guest') return v;
+    // Legacy mappings
+    if (v == 'basic' || v == 'free' || v == 'starter') return 'basic';
+    if (v == 'basic' || v == 'premium' || v == 'guest') return v;
 
     return v;
   }
@@ -150,8 +146,8 @@ class PremiumService {
     await userRef.set(
       <String, dynamic>{
         // Ayara plan naming
-        'plan': 'blessed',
-        'testBlessed': true,
+        'plan': 'premium',
+        'testPremium': true,
         'updatedAt': FieldValue.serverTimestamp(),
       },
       SetOptions(merge: true),
@@ -160,7 +156,7 @@ class PremiumService {
     final current = UsageService.instance.current;
     UsageService.instance.updateFromMap(<String, dynamic>{
       'allowed': true,
-      'plan': 'blessed',
+      'plan': 'premium',
       'creditsTotal': current?.creditsTotal ?? 0,
       'creditsUsed': current?.creditsUsed ?? 0,
       'creditsRemaining': current?.creditsRemaining ?? 0,
@@ -174,7 +170,7 @@ class PremiumService {
 
     // ✅ Important: never overwrite with defaults if fields were not sent.
     final nextPlan =
-        res.planPresent ? _normalizePlan(res.plan) : (current?.plan ?? 'grace');
+        res.planPresent ? _normalizePlan(res.plan) : (current?.plan ?? 'basic');
 
     final nextCreditsTotal =
         res.creditsPresent ? res.creditsTotal : (current?.creditsTotal ?? 0);
@@ -217,7 +213,7 @@ class PremiumService {
       final data = snap.data() ?? <String, dynamic>{};
 
       final plan = _normalizePlan(
-        (data['plan'] as String?) ?? (UsageService.instance.current?.plan ?? 'grace'),
+        (data['plan'] as String?) ?? (UsageService.instance.current?.plan ?? 'basic'),
       );
 
       int asInt(dynamic v) {
@@ -384,7 +380,7 @@ class PremiumService {
       if (kDebugMode) {
         debugPrint(
           '[IAP] entitlement fetched: '
-          'isBlessed=${entitlement.isBlessed} '
+          'isPremium=${entitlement.isPremium} '
           'status=${entitlement.status} '
           'platform=${entitlement.platform} '
           'productId=${entitlement.productId}',

@@ -247,15 +247,15 @@ LANGUAGE LOCK (critical):
 
       // 2️⃣ Premium-gating (redundant but safe)
       final usage = UsageService.instance.current;
-      final plan = (usage?.plan ?? 'grace').toLowerCase();
-      final bool isBlessed = plan == 'blessed';
+      final plan = (usage?.plan ?? 'basic').toLowerCase();
+      final bool isPremium = plan == 'premium';
 
       final normalizedId = normalizeCategoryId(categoryId);
-      final bool isPremiumCategory = isBlessedOnlyCategory(normalizedId);
+      final bool isPremiumCategory = isPremiumOnlyCategory(normalizedId);
 
-      if (isPremiumCategory && !isBlessed) {
+      if (isPremiumCategory && !isPremium) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(t.blessedRequiredForCategory)),
+          SnackBar(content: Text(t.premiumRequiredForCategory)),
         );
         throw Exception('premium_required');
       }
@@ -400,7 +400,7 @@ LANGUAGE LOCK (critical):
 
     if (remaining != null && remaining <= 0) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(t.rateReflectionsExhausted)),
+        SnackBar(content: Text(t.rateCreditsExhausted)),
       );
       return false;
     }
@@ -455,7 +455,7 @@ LANGUAGE LOCK (critical):
           message = t.rateGuestMustSignIn;
           break;
         case 'credits_exhausted':
-          message = t.rateReflectionsExhausted;
+          message = t.rateCreditsExhausted;
           break;
         case 'device_bound_to_other_account':
           message = t.deviceBoundError;

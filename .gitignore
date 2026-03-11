@@ -1,6 +1,10 @@
 # ============================================================
-# 🧠 Nuria / Flutter 3.x – Production-grade .gitignore
+# 🧠 Ayara / Flutter 3.x – Production-grade .gitignore
 # ============================================================
+
+# Node
+node_modules/
+package-lock.json
 
 # ------------------------------------------------------------
 # 🧩 OS & system files

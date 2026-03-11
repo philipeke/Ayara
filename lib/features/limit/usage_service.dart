@@ -23,7 +23,7 @@ class UsageSnapshot {
   final int creditsTotal;
   final int creditsRemaining;
 
-  /// Plan: "grace" | "blessed" | "guest"
+  /// Plan: "basic" | "premium" | "guest"
   final String plan;
 
   const UsageSnapshot({
@@ -74,8 +74,8 @@ class UsageSnapshot {
     return raw;
   }
 
-  bool get isBlessed => plan == 'blessed';
-  bool get isGrace => plan == 'grace';
+  bool get isPremium => plan == 'premium';
+  bool get isBasic => plan == 'basic';
   bool get isGuest => plan == 'guest';
 }
 
@@ -108,8 +108,8 @@ class UsageService extends ChangeNotifier {
 
     // plan: if not present -> keep previous
     final String plan = data.containsKey('plan')
-        ? _normalizePlan((data['plan'] ?? 'grace').toString())
-        : (prev?.plan ?? 'grace');
+        ? _normalizePlan((data['plan'] ?? 'basic').toString())
+        : (prev?.plan ?? 'basic');
 
     // daily: if not present -> keep previous
     final int dailyUsed = data.containsKey('dailyUsed')
@@ -256,16 +256,16 @@ class UsageService extends ChangeNotifier {
     final v = raw.trim().toLowerCase();
 
     // Legacy mappings from TipsyPal and earlier experiments
-    if (v == 'free') return 'grace';
-    if (v == 'starter') return 'grace';
-    if (v == 'basic') return 'grace';
+    if (v.isEmpty) return 'basic';
+    if (v == 'free') return 'basic';
+    if (v == 'starter') return 'basic';
+    if (v == 'basic') return 'basic'; // old value
 
-    if (v == 'champion') return 'blessed';
+    if (v == 'premium') return 'premium';
 
-    if (v.isEmpty) return 'grace';
     if (v == 'guest' || v == 'anonymous') return 'guest';
 
-    // Already new values: grace/blessed
+    // Already new values: basic/premium
     return v;
   }
 

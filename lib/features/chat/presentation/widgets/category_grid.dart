@@ -3,10 +3,12 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
 import 'category_tile.dart';
+import 'tap_bloom_overlay.dart';
 import '../utils/category_data.dart' show CategoryActionItem;
 import '../utils/accent_colors.dart';
 import 'package:ayara/features/limit/usage_service.dart';
 import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/core/services/sound_service.dart';
 
 class CategoryGrid extends StatefulWidget {
   final List<CategoryActionItem> items;
@@ -49,6 +51,11 @@ class _CategoryGridState extends State<CategoryGrid>
   // ── Scroll tracking ────────────────────────────────────────────
   late final ScrollController _scrollController = ScrollController();
   bool _hasMoreBelow = false;
+
+  // ── Per-tile GlobalKeys for bloom origin ───────────────────────
+  final Map<String, GlobalKey> _tileKeys = {};
+  GlobalKey _keyFor(String id) =>
+      _tileKeys.putIfAbsent(id, () => GlobalKey());
 
   // ── Down-arrow bounce ──────────────────────────────────────────
   late final AnimationController _arrowCtrl = AnimationController(
@@ -180,8 +187,8 @@ class _CategoryGridState extends State<CategoryGrid>
               final items = widget.items;
 
               final usage = UsageService.instance.current;
-              final String plan = usage?.plan ?? 'grace';
-              final bool isBlessed = plan == 'blessed';
+              final String plan = usage?.plan ?? 'basic';
+              final bool isPremium = plan == 'premium';
 
               return GridView.builder(
                 controller: _scrollController,
@@ -209,10 +216,12 @@ class _CategoryGridState extends State<CategoryGrid>
                   final isBusy = widget.busyCategory != null &&
                       widget.busyCategory == it.id;
 
-                  final bool isLockedPremium = it.isPremium && !isBlessed;
+                  final bool isLockedPremium = it.isPremium && !isPremium;
 
                   final bool baseDimmed = widget.disabled && !isBusy;
                   final bool dimmed = (baseDimmed || isLockedPremium) && !isBusy;
+
+                  final tileKey = _keyFor(it.id);
 
                   void handleTap() {
                     if (isLockedPremium) {
@@ -223,26 +232,37 @@ class _CategoryGridState extends State<CategoryGrid>
                       }
                       return;
                     }
+                    // Sound + bloom animation from tile centre
+                    SoundService.instance.playTap();
+                    final box = tileKey.currentContext
+                        ?.findRenderObject() as RenderBox?;
+                    if (box != null) {
+                      final center =
+                          box.localToGlobal(box.size.center(Offset.zero));
+                      showCategoryBloom(context, center, accent);
+                    }
                     it.onTap();
                   }
 
-                  return FadeTransition(
-                    opacity: fade,
-                    child: SlideTransition(
-                      position: slide,
-                      child: AnimatedOpacity(
-                        duration: const Duration(milliseconds: 140),
-                        curve: Curves.easeOut,
-                        opacity: dimmed ? 0.55 : 1.0,
-                        child: CategoryTile(
-                          key: ValueKey(it.id),
-                          title: it.title,
-                          icon: it.icon,
-                          onTap: handleTap,
-                          accent: accent,
-                          isBusy: isBusy,
-                          dimmed: dimmed,
-                          locked: isLockedPremium,
+                  return RepaintBoundary(
+                    child: FadeTransition(
+                      opacity: fade,
+                      child: SlideTransition(
+                        position: slide,
+                        child: AnimatedOpacity(
+                          duration: const Duration(milliseconds: 140),
+                          curve: Curves.easeOut,
+                          opacity: dimmed ? 0.55 : 1.0,
+                          child: CategoryTile(
+                            key: tileKey,
+                            title: it.title,
+                            icon: it.icon,
+                            onTap: handleTap,
+                            accent: accent,
+                            isBusy: isBusy,
+                            dimmed: dimmed,
+                            locked: isLockedPremium,
+                          ),
                         ),
                       ),
                     ),
@@ -266,29 +286,10 @@ class _CategoryGridState extends State<CategoryGrid>
                     animation: _arrowDy,
                     builder: (context, _) => Transform.translate(
                       offset: Offset(0, _arrowDy.value),
-                      child: Container(
-                        width: 34,
-                        height: 34,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: AppColors.gold.withValues(alpha: 0.10),
-                          border: Border.all(
-                            color: AppColors.gold.withValues(alpha: 0.42),
-                            width: 1.0,
-                          ),
-                          boxShadow: [
-                            BoxShadow(
-                              color: AppColors.gold.withValues(alpha: 0.28),
-                              blurRadius: 14,
-                              spreadRadius: 1,
-                            ),
-                          ],
-                        ),
-                        child: const Icon(
-                          Icons.keyboard_arrow_down_rounded,
-                          color: AppColors.gold,
-                          size: 22,
-                        ),
+                      child: const Icon(
+                        Icons.keyboard_arrow_down_rounded,
+                        color: AppColors.gold,
+                        size: 28,
                       ),
                     ),
                   ),

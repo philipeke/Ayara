@@ -59,6 +59,9 @@ dependencies:
   in_app_purchase: ^3.1.11
   in_app_purchase_android: ^0.4.0
 
+  # Audio
+  audioplayers: ^6.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -76,6 +79,8 @@ flutter:
     - assets/icon.png
     - assets/logo.png
     - assets/logo-launcher.png
+    # Ljud
+    - assets/sounds/tap.wav
 
     # Miljöfiler — kept out of release bundle
     # .env.dev is loaded only in kDebugMode; dotenv catches missing file gracefully

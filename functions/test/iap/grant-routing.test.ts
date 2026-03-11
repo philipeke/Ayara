@@ -82,10 +82,10 @@ function makeReq(uid: string, productId: string, txSuffix = '001', provider = 'p
 }
 
 function setupEntitlement(uid: string) {
-  getAdmin().__setState(`iap_entitlements/${uid}`, { isBlessed: true, status: 'active' });
+  getAdmin().__setState(`iap_entitlements/${uid}`, { isPremium: true, status: 'active' });
 }
 
-function setupUser(uid: string, total = 300, used = 100, plan = 'blessed') {
+function setupUser(uid: string, total = 300, used = 100, plan = 'premium') {
   getAdmin().__setState(`users/${uid}`, {
     plan,
     reflectionsTotal: total,
@@ -171,7 +171,7 @@ describe('Consumable grant routing', () => {
   it('anonymous (guest) consumable → treated as main/guest → device_credits pool updated', async () => {
     // Anonymous user — no mainUid needed (isAnonymous=true → always isMainOrGuest)
     setupEntitlement(UID_GUEST);
-    setupUser(UID_GUEST, 300, 100, 'blessed');
+    setupUser(UID_GUEST, 300, 100, 'premium');
     getAdmin().__setState(`device_credits/${bindId}`, {
       mainUid: null, // no mainUid yet
       starterGranted: true,
@@ -205,7 +205,7 @@ describe('Consumable grant routing', () => {
 // ══════════════════════════════════════════════════════════════════════════════
 describe('Consumable guards', () => {
   it('consumable rejected without active blessed entitlement', async () => {
-    setupUser(UID_MAIN, 300, 100, 'grace'); // NOT blessed
+    setupUser(UID_MAIN, 300, 100, 'basic'); // NOT blessed
     setupDeviceCredits(UID_MAIN);
     setupDeviceBinding(UID_MAIN);
     // NO entitlement doc set
@@ -217,10 +217,10 @@ describe('Consumable guards', () => {
 
   it('consumable rejected with expired/inactive entitlement', async () => {
     getAdmin().__setState(`iap_entitlements/${UID_MAIN}`, {
-      isBlessed: true,
+      isPremium: true,
       status: 'expired', // not 'active'
     });
-    setupUser(UID_MAIN, 300, 100, 'grace');
+    setupUser(UID_MAIN, 300, 100, 'basic');
     setupDeviceCredits(UID_MAIN);
     setupDeviceBinding(UID_MAIN);
 
@@ -290,7 +290,7 @@ describe('Already-granted transaction idempotency', () => {
 // ══════════════════════════════════════════════════════════════════════════════
 describe('Entitlement grant routing', () => {
   it('fresh entitlement: bonus 300 goes to device_credits pool for main account', async () => {
-    setupUser(UID_MAIN, 0, 0, 'grace');
+    setupUser(UID_MAIN, 0, 0, 'basic');
     setupDeviceCredits(UID_MAIN, 0, 0);
     setupDeviceBinding(UID_MAIN);
 
@@ -306,7 +306,7 @@ describe('Entitlement grant routing', () => {
     );
 
     expect(result.ok).toBe(true);
-    expect(result.plan).toBe('blessed');
+    expect(result.plan).toBe('premium');
     expect(result.reflectionsTotal).toBe(300);
 
     // device_credits pool should get +300
@@ -316,7 +316,7 @@ describe('Entitlement grant routing', () => {
   });
 
   it('any account on same device entitlement: bonus goes to shared pool', async () => {
-    setupUser(UID_OTHER, 0, 0, 'grace');
+    setupUser(UID_OTHER, 0, 0, 'basic');
     setupDeviceCredits(UID_MAIN, 9999, 0); // shared pool on same device
     setupDeviceBinding(UID_OTHER);
 
@@ -332,7 +332,7 @@ describe('Entitlement grant routing', () => {
     );
 
     expect(result.ok).toBe(true);
-    expect(result.plan).toBe('blessed');
+    expect(result.plan).toBe('premium');
 
     // All accounts on same device share pool → entitlement bonus goes to shared pool
     const dcOp = getAdmin().__findSetOp(`device_credits/${bindId}`);
@@ -355,7 +355,7 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
       reflectionsUsed: 1,
     });
     // users/{uid} intentionally shows 0 (pool→user sync removed)
-    setupUser(UID_GUEST, 0, 0, 'grace');
+    setupUser(UID_GUEST, 0, 0, 'basic');
 
     getVerify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
@@ -369,7 +369,7 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
     );
 
     expect(result.ok).toBe(true);
-    expect(result.plan).toBe('blessed');
+    expect(result.plan).toBe('premium');
     // Must be 149 (pool) + 300 (bonus) = 449, NOT 0 + 300 = 300
     expect(result.reflectionsTotal).toBe(449);
     expect(result.reflectionsUsed).toBe(1);
@@ -379,7 +379,7 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
   it('named main user with 149 in pool but 0 in users/{uid}: fresh entitlement → response shows 449', async () => {
     setupDeviceCredits(UID_MAIN, 149, 1);
     // users/{uid} intentionally shows 0 (pool→user sync removed)
-    setupUser(UID_MAIN, 0, 0, 'grace');
+    setupUser(UID_MAIN, 0, 0, 'basic');
 
     getVerify().verifyAppleOrThrow.mockResolvedValue({
       environment: 'Sandbox',
@@ -393,7 +393,7 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
     );
 
     expect(result.ok).toBe(true);
-    expect(result.plan).toBe('blessed');
+    expect(result.plan).toBe('premium');
     // Must be 149 (pool) + 300 (bonus) = 449, NOT 0 + 300 = 300
     expect(result.reflectionsTotal).toBe(449);
     expect(result.reflectionsUsed).toBe(1);
@@ -404,7 +404,7 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
     // Scenario: first Restore wrote 300 to users/{uid} (stale, before fix was applied).
     // Pool correctly has 449. Second Restore should return 449, not 300.
     setupEntitlement(UID_MAIN);
-    setupUser(UID_MAIN, 300, 1, 'blessed'); // stale users/{uid} from before fix
+    setupUser(UID_MAIN, 300, 1, 'premium'); // stale users/{uid} from before fix
     setupDeviceCredits(UID_MAIN, 449, 1);  // pool is the ground truth
 
     getAdmin().__setState('iap_transactions/ios:tx-routing-pool-003', {
@@ -412,7 +412,7 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
       productId: 'com.oakdev.ayara.premium',
       status: 'granted',
       type: 'entitlement',
-      granted: { entitlement: 'blessed', bonusReflections: 300 },
+      granted: { entitlement: 'premium', bonusReflections: 300 },
     });
 
     getVerify().verifyAppleOrThrow.mockResolvedValue({
@@ -428,7 +428,7 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
 
     expect(result.ok).toBe(true);
     expect(result.alreadyGranted).toBe(true);
-    expect(result.plan).toBe('blessed');
+    expect(result.plan).toBe('premium');
     // Must return 449 (from pool), NOT 300 (from stale users/{uid})
     expect(result.reflectionsTotal).toBe(449);
     expect(result.reflectionsUsed).toBe(1);
@@ -438,7 +438,7 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
   it('any account on same device: pool IS used for response balance', async () => {
     // All accounts share pool — response reflects pool balance, not own users/{uid}
     setupEntitlement(UID_OTHER);
-    setupUser(UID_OTHER, 50, 10, 'blessed');
+    setupUser(UID_OTHER, 50, 10, 'premium');
     setupDeviceCredits(UID_MAIN, 9999, 0); // shared pool on same device
 
     getAdmin().__setState('iap_transactions/ios:tx-routing-pool-004', {
@@ -446,7 +446,7 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
       productId: 'com.oakdev.ayara.premium',
       status: 'granted',
       type: 'entitlement',
-      granted: { entitlement: 'blessed', bonusReflections: 300 },
+      granted: { entitlement: 'premium', bonusReflections: 300 },
     });
 
     getVerify().verifyAppleOrThrow.mockResolvedValue({
@@ -462,7 +462,7 @@ describe('Pool-response fix: response uses pool balance for main/guest', () => {
 
     expect(result.ok).toBe(true);
     expect(result.alreadyGranted).toBe(true);
-    expect(result.plan).toBe('blessed');
+    expect(result.plan).toBe('premium');
     // All accounts share pool — response reflects pool balance (9999/0)
     expect(result.reflectionsTotal).toBe(9999);
     expect(result.reflectionsUsed).toBe(0);

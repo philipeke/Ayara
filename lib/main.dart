@@ -18,12 +18,14 @@ import 'core/config/env.dart';
 import 'core/config/theme.dart';
 import 'core/services/locale_service.dart';
 import 'package:ayara/l10n/app_localizations.dart';
+import 'package:ayara/core/services/sound_service.dart';
 import 'firebase_options.dart';
 
 import 'features/onboarding/language_gate_screen.dart';
 import 'features/auth/auth_gate_screen.dart';
 import 'features/settings/screens/settings_screen.dart';
 import 'features/qibla/services/prayer_notification_service.dart';
+import 'features/calendar/calendar_notification_service.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -40,6 +42,10 @@ Future<void> main() async {
 
   // ── Notification service init ────────────────────────────────────────────
   await PrayerNotificationService.instance.init();
+  await CalendarNotificationService.instance.init();
+
+  // ── Sound service init ───────────────────────────────────────────────────
+  await SoundService.instance.init();
 
   await runZonedGuarded(() async {
     // ----------------------------------------------------------------

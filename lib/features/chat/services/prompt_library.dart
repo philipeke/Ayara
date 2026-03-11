@@ -39,40 +39,40 @@ class PromptLibrary {
 
     switch (id) {
       case CategoryId.dailyGuidance:
-        return t.promptDailyGuidance;
+        return t.promptSlot01;
       case CategoryId.faithTrust:
-        return t.promptFaithTrust;
+        return t.promptSlot02;
       case CategoryId.prayerReflection:
-        return t.promptPrayerReflection;
+        return t.promptSlot03;
       case CategoryId.hopeDifficultTimes:
-        return t.promptHopeDifficultTimes;
+        return t.promptSlot04;
       case CategoryId.forgiveness:
-        return t.promptForgiveness;
+        return t.promptSlot05;
       case CategoryId.loveCompassion:
-        return t.promptLoveCompassion;
+        return t.promptSlot06;
       case CategoryId.strengthCourage:
-        return t.promptStrengthCourage;
+        return t.promptSlot07;
       case CategoryId.gratitude:
-        return t.promptGratitude;
+        return t.promptSlot08;
       case CategoryId.purposeCalling:
-        return t.promptPurposeCalling;
+        return t.promptSlot09;
       case CategoryId.familyRelationships:
-        return t.promptFamilyRelationships;
+        return t.promptSlot10;
       case CategoryId.peaceAnxietyRelief:
-        return t.promptPeaceAnxietyRelief;
+        return t.promptSlot11;
       case CategoryId.wisdomOfJesus:
-        return t.promptWisdomOfJesus;
+        return t.promptSlot12;
       case CategoryId.humilityCharacter:
-        return t.promptHumilityCharacter;
+        return t.promptSlot13;
       case CategoryId.overcomingTemptation:
-        return t.promptOvercomingTemptation;
+        return t.promptSlot14;
       case CategoryId.eveningReflection:
-        return t.promptEveningReflection;
+        return t.promptSlot15;
 
       default:
         // If legacy ids still come through (old Ayara ids), route them to something safe.
         // We intentionally avoid any "tipsy" language.
-        return t.promptDailyGuidance;
+        return t.promptSlot01;
     }
   }
 }

@@ -41,9 +41,7 @@ const _totalTarget = _targetPerPhrase * 3; // 99
 // ─── Screen ─────────────────────────────────────────────────────────────────
 
 class DhikrScreen extends StatefulWidget {
-  final PageController pageController;
-
-  const DhikrScreen({super.key, required this.pageController});
+  const DhikrScreen({super.key});
 
   @override
   State<DhikrScreen> createState() => _DhikrScreenState();
@@ -104,7 +102,7 @@ class _DhikrScreenState extends State<DhikrScreen>
     final t = AppLocalizations.of(context)!;
 
     return Scaffold(
-      backgroundColor: AppColors.islamicDeep,
+      backgroundColor: AppColors.deepNavy,
       body: Stack(
         children: [
           // ── Background ────────────────────────────────────────────────────
@@ -115,28 +113,28 @@ class _DhikrScreenState extends State<DhikrScreen>
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Color(0xFF061D0F),
-                    Color(0xFF0C3A1E),
-                    Color(0xFF061D0F),
+                    AppColors.navy,
+                    AppColors.deepNavy,
+                    AppColors.navyDeep,
                   ],
                   stops: [0.0, 0.5, 1.0],
                 ),
               ),
             ),
           ),
-          // Ambient gold glow — top-left to mirror QiblaScreen's top-right
+          // Gold glow — top-left, large
           Positioned(
-            top: 0,
-            left: 0,
+            top: -80,
+            left: -80,
             child: IgnorePointer(
               child: SizedBox(
-                width: 220,
-                height: 220,
+                width: 480,
+                height: 480,
                 child: DecoratedBox(
                   decoration: BoxDecoration(
                     gradient: RadialGradient(
                       colors: [
-                        AppColors.gold.withValues(alpha: 0.08),
+                        AppColors.gold.withValues(alpha: 0.13),
                         Colors.transparent,
                       ],
                     ),
@@ -145,15 +143,57 @@ class _DhikrScreenState extends State<DhikrScreen>
               ),
             ),
           ),
-          // Soft centre glow behind the counter
+          // Crimson glow — bottom-right, large
+          Positioned(
+            bottom: -80,
+            right: -80,
+            child: IgnorePointer(
+              child: SizedBox(
+                width: 500,
+                height: 500,
+                child: DecoratedBox(
+                  decoration: BoxDecoration(
+                    gradient: RadialGradient(
+                      colors: [
+                        AppColors.crimsonDeep.withValues(alpha: 0.16),
+                        Colors.transparent,
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+          // Crimson bleed — top-right edge, distant
+          Positioned(
+            top: -40,
+            right: -40,
+            child: IgnorePointer(
+              child: SizedBox(
+                width: 340,
+                height: 340,
+                child: DecoratedBox(
+                  decoration: BoxDecoration(
+                    gradient: RadialGradient(
+                      colors: [
+                        AppColors.crimsonDeep.withValues(alpha: 0.08),
+                        Colors.transparent,
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+          // Soft centre glow — wider, lower alpha so it blends
           const Positioned.fill(
             child: IgnorePointer(
               child: DecoratedBox(
                 decoration: BoxDecoration(
                   gradient: RadialGradient(
-                    radius: 0.55,
+                    radius: 0.75,
                     colors: [
-                      Color(0x12C9A84C),
+                      Color(0x18C9A84C),
                       Colors.transparent,
                     ],
                   ),
@@ -161,23 +201,6 @@ class _DhikrScreenState extends State<DhikrScreen>
               ),
             ),
           ),
-
-          // ── Left nav arrow → QiblaScreen (page 2) ────────────────────────
-          Builder(builder: (ctx) {
-            final bottomPad = MediaQuery.of(ctx).padding.bottom;
-            return Positioned(
-              left: 6,
-              bottom: bottomPad + 170,
-              child: _NavArrow(
-                direction: AxisDirection.left,
-                onTap: () => widget.pageController.animateToPage(
-                  2,
-                  duration: const Duration(milliseconds: 350),
-                  curve: Curves.easeInOut,
-                ),
-              ),
-            );
-          }),
 
           // ── Main content ─────────────────────────────────────────────────
           SafeArea(
@@ -197,10 +220,17 @@ class _DhikrScreenState extends State<DhikrScreen>
 
   Widget _buildHeader(AppLocalizations t) {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(12, 10, 8, 0),
+      padding: const EdgeInsets.fromLTRB(4, 6, 8, 0),
       child: Row(
         children: [
-          const SizedBox(width: 40),
+          IconButton(
+            icon: const Icon(Icons.arrow_back_ios_new_rounded,
+                color: AppColors.gold),
+            onPressed: () {
+              HapticFeedback.lightImpact();
+              Navigator.of(context).pop();
+            },
+          ),
           const Spacer(),
           Text(
             t.dhikrPageTitle.toUpperCase(),
@@ -269,8 +299,8 @@ class _DhikrScreenState extends State<DhikrScreen>
         const SizedBox(height: 4),
         Text(
           _phraseMeaning(_phraseIndex, t),
-          style: TextStyle(
-            color: Colors.white.withValues(alpha: 0.65),
+          style: const TextStyle(
+            color: Colors.white,
             fontSize: 13,
           ),
         ),
@@ -295,7 +325,7 @@ class _DhikrScreenState extends State<DhikrScreen>
         Text(
           '$totalCompleted / $_totalTarget',
           style: TextStyle(
-            color: Colors.white.withValues(alpha: 0.55),
+            color: Colors.white,
             fontSize: 13,
             fontWeight: FontWeight.w600,
             letterSpacing: 0.3,
@@ -305,7 +335,7 @@ class _DhikrScreenState extends State<DhikrScreen>
         Text(
           t.dhikrTapToCount,
           style: TextStyle(
-            color: Colors.white.withValues(alpha: 0.48),
+            color: Colors.white.withValues(alpha: 0.90),
             fontSize: 11,
             letterSpacing: 0.5,
           ),
@@ -318,7 +348,7 @@ class _DhikrScreenState extends State<DhikrScreen>
           child: Text(
             t.dhikrResetButton,
             style: TextStyle(
-              color: AppColors.gold.withValues(alpha: 0.55),
+              color: AppColors.gold,
               fontSize: 13,
               fontWeight: FontWeight.w600,
               letterSpacing: 0.4,
@@ -454,7 +484,7 @@ class _CircularCounter extends StatelessWidget {
               Text(
                 '/ $target',
                 style: TextStyle(
-                  color: Colors.white.withValues(alpha: 0.52),
+                  color: Colors.white.withValues(alpha: 0.90),
                   fontSize: 16,
                   fontWeight: FontWeight.w400,
                 ),
@@ -530,60 +560,3 @@ class _ArcPainter extends CustomPainter {
   bool shouldRepaint(_ArcPainter old) => old.progress != progress;
 }
 
-// ─── Animated nav arrow ───────────────────────────────────────────────────────
-
-class _NavArrow extends StatefulWidget {
-  final AxisDirection direction;
-  final VoidCallback onTap;
-
-  const _NavArrow({required this.direction, required this.onTap});
-
-  @override
-  State<_NavArrow> createState() => _NavArrowState();
-}
-
-class _NavArrowState extends State<_NavArrow>
-    with SingleTickerProviderStateMixin {
-  late final AnimationController _bounce = AnimationController(
-    vsync: this,
-    duration: const Duration(milliseconds: 950),
-  )..repeat(reverse: true);
-
-  late final Animation<double> _offset =
-      Tween<double>(begin: 0, end: 9).animate(
-    CurvedAnimation(parent: _bounce, curve: Curves.easeInOut),
-  );
-
-  @override
-  void dispose() {
-    _bounce.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final isLeft = widget.direction == AxisDirection.left;
-    return GestureDetector(
-      onTap: () {
-        HapticFeedback.selectionClick();
-        widget.onTap();
-      },
-      child: Directionality(
-        textDirection: TextDirection.ltr,
-        child: AnimatedBuilder(
-          animation: _offset,
-          builder: (_, _) => Transform.translate(
-            offset: Offset(isLeft ? -_offset.value : _offset.value, 0),
-            child: Icon(
-              isLeft
-                  ? Icons.chevron_left_rounded
-                  : Icons.chevron_right_rounded,
-              color: AppColors.gold.withValues(alpha: 0.55),
-              size: 28,
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}

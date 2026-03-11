@@ -37,13 +37,13 @@ class _AIWaveLoaderState extends State<AIWaveLoader>
         width: 20,
         height: 20,
         decoration: BoxDecoration(
-          color: AppColors.gold,
+          color: AppColors.crimsonBright,
           shape: BoxShape.circle,
           boxShadow: [
             BoxShadow(
               blurRadius: 28,
               spreadRadius: 3,
-              color: AppColors.gold.withValues(alpha: 0.4 * _controller.value),
+              color: AppColors.crimson.withValues(alpha: 0.4 * _controller.value),
             ),
           ],
         ),

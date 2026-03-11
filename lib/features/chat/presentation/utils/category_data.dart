@@ -141,12 +141,12 @@ String normalizeCategoryId(String raw) {
   }
 }
 
-/// Premium gate: which categories require Blessed?
+/// Premium gate: which categories require Premium?
 ///
 /// Suggested initial rule:
-/// - "Wisdom of Jesus" + "Overcoming Temptation" behind Blessed (deeper guidance)
+/// - "Wisdom of Jesus" + "Overcoming Temptation" behind Premium (deeper guidance)
 /// - You can adjust this later without changing IDs.
-bool isBlessedOnlyCategory(String id) {
+bool isPremiumOnlyCategory(String id) {
   const locked = {
     CategoryId.purposeCalling,
     CategoryId.peaceAnxietyRelief,
@@ -164,7 +164,7 @@ class CategoryActionItem {
   final IconData icon;
   final VoidCallback onTap;
 
-  /// True if this category requires Blessed.
+  /// True if this category requires Premium.
   final bool isPremium;
 
   const CategoryActionItem({
@@ -182,35 +182,35 @@ String localizedTitleFor(BuildContext context, String id) {
 
   switch (normalizeCategoryId(id)) {
     case CategoryId.dailyGuidance:
-      return t.categoryDailyGuidance;
+      return t.categorySlot01;
     case CategoryId.faithTrust:
-      return t.categoryFaithTrust;
+      return t.categorySlot02;
     case CategoryId.prayerReflection:
-      return t.categoryPrayerReflection;
+      return t.categorySlot03;
     case CategoryId.hopeDifficultTimes:
-      return t.categoryHopeDifficultTimes;
+      return t.categorySlot04;
     case CategoryId.forgiveness:
-      return t.categoryForgiveness;
+      return t.categorySlot05;
     case CategoryId.loveCompassion:
-      return t.categoryLoveCompassion;
+      return t.categorySlot06;
     case CategoryId.strengthCourage:
-      return t.categoryStrengthCourage;
+      return t.categorySlot07;
     case CategoryId.gratitude:
-      return t.categoryGratitude;
+      return t.categorySlot08;
     case CategoryId.purposeCalling:
-      return t.categoryPurposeCalling;
+      return t.categorySlot09;
     case CategoryId.familyRelationships:
-      return t.categoryFamilyRelationships;
+      return t.categorySlot10;
     case CategoryId.peaceAnxietyRelief:
-      return t.categoryPeaceAnxietyRelief;
+      return t.categorySlot11;
     case CategoryId.wisdomOfJesus:
-      return t.categoryWisdomOfJesus;
+      return t.categorySlot12;
     case CategoryId.humilityCharacter:
-      return t.categoryHumilityCharacter;
+      return t.categorySlot13;
     case CategoryId.overcomingTemptation:
-      return t.categoryOvercomingTemptation;
+      return t.categorySlot14;
     case CategoryId.eveningReflection:
-      return t.categoryEveningReflection;
+      return t.categorySlot15;
 
     case 'custom':
       return t.categoryCustom;
@@ -265,7 +265,7 @@ List<CategoryActionItem> buildActionItems(
   BuildContext context,
   void Function(CategoryActionItem item) onSelect,
 ) {
-  // Free categories first, then all Blessed-only locked categories at the bottom.
+  // Free categories first, then all Premium-only locked categories at the bottom.
   const ids = <String>[
     // ── Free ────────────────────────────────────────────────────────────────
     CategoryId.dailyGuidance,
@@ -278,7 +278,7 @@ List<CategoryActionItem> buildActionItems(
     CategoryId.gratitude,
     CategoryId.familyRelationships,
     CategoryId.eveningReflection,
-    // ── Blessed only (locked) ────────────────────────────────────────────────
+    // ── Premium only (locked) ────────────────────────────────────────────────
     CategoryId.purposeCalling,
     CategoryId.peaceAnxietyRelief,
     CategoryId.wisdomOfJesus,
@@ -290,7 +290,7 @@ List<CategoryActionItem> buildActionItems(
       .map((id) {
         final title = localizedTitleFor(context, id);
         final icon = iconFor(id);
-        final premium = isBlessedOnlyCategory(id);
+        final premium = isPremiumOnlyCategory(id);
 
         final item = CategoryActionItem(
           id: id,

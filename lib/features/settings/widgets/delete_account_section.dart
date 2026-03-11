@@ -26,7 +26,7 @@ class DeleteAccountSection extends StatelessWidget {
         Text(
           t.settingsDeleteDescription,
           style: theme.textTheme.bodySmall?.copyWith(
-            color: const Color(0xFF424242),
+            color: theme.colorScheme.onSurfaceVariant,
             height: 1.4,
           ),
         ),

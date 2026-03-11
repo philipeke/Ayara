@@ -12,34 +12,34 @@ import 'premium_service.dart';
 /// Product IDs MUST match exactly what you configure in App Store Connect / Play Console.
 ///
 /// Ayara naming:
-/// - Plan: Grace (basic) and Blessed (upgrade)
+/// - Plan: Basic (free) and Premium (upgrade)
 /// - Currency: Reflections (UI), stored as credits in backend payloads
-class BlessedProducts {
-  /// 100 reflections top-up (unlocked after Blessed)
+class PremiumProducts {
+  /// 100 reflections top-up (unlocked after Premium)
   ///
   /// TODO: replace with your real Ayara product id.
   static const String reflections100 = 'ayara_reflections_100';
 
-  /// 200 reflections top-up (unlocked after Blessed)
+  /// 200 reflections top-up (unlocked after Premium)
   ///
   /// TODO: replace with your real Ayara product id.
   static const String reflections200 = 'ayara_reflections_200';
 
-  /// 400 reflections top-up (unlocked after Blessed)
+  /// 400 reflections top-up (unlocked after Premium)
   ///
   /// TODO: replace with your real Ayara product id.
   static const String reflections400 = 'ayara_reflections_400';
 
-  /// Blessed one-time upgrade (entitlement + bonus reflections)
+  /// Premium one-time upgrade (entitlement + bonus reflections)
   ///
   /// TODO: replace with your real Ayara product id.
-  static const String blessed = 'com.oakdev.ayara.premium';
+  static const String premium = 'com.oakdev.ayara.premium';
 
   static const Set<String> all = {
     reflections100,
     reflections200,
     reflections400,
-    blessed,
+    premium,
   };
 
   static bool isTopup(String id) =>
@@ -52,7 +52,7 @@ class LastIapResult {
   final String platform;
   final bool ok;
 
-  /// Backend plan (will later become grace|blessed; may still be basic|champion during transition)
+  /// Backend plan: "basic" | "premium" | "guest"
   final String plan;
 
   /// Backend payload still uses credits fields (source of truth).
@@ -199,7 +199,7 @@ class PurchaseController extends ChangeNotifier {
       );
 
       final ProductDetailsResponse response =
-          await _iap.queryProductDetails(BlessedProducts.all);
+          await _iap.queryProductDetails(PremiumProducts.all);
 
       _log(
         'queryProductDetails: found=${response.productDetails.length} '
@@ -322,22 +322,22 @@ class PurchaseController extends ChangeNotifier {
   }
 
   Future<void> buyReflections100() =>
-      _buyConsumable(BlessedProducts.reflections100);
+      _buyConsumable(PremiumProducts.reflections100);
   Future<void> buyReflections200() =>
-      _buyConsumable(BlessedProducts.reflections200);
+      _buyConsumable(PremiumProducts.reflections200);
   Future<void> buyReflections400() =>
-      _buyConsumable(BlessedProducts.reflections400);
+      _buyConsumable(PremiumProducts.reflections400);
 
-  Future<void> buyBlessed() async {
+  Future<void> buyPremium() async {
     await _ensureInit();
 
     if (!_available) {
-      _logWarn('buyBlessed aborted: IAP not available');
+      _logWarn('buyPremium aborted: IAP not available');
       return;
     }
 
-    final productId = BlessedProducts.blessed;
-    _log('buyBlessed start: $productId');
+    final productId = PremiumProducts.premium;
+    _log('buyPremium start: $productId');
 
     try {
       _markAttempt(productId);
@@ -352,12 +352,12 @@ class PurchaseController extends ChangeNotifier {
         await _iap.buyNonConsumable(purchaseParam: purchaseParam);
         _log('buyNonConsumable invoked StoreKit/Play for $productId');
       } else {
-        _logWarn('Unsupported platform for buyBlessed');
+        _logWarn('Unsupported platform for buyPremium');
         _stopWatchdog();
         _setLoading(false);
       }
     } catch (e, st) {
-      _logErr('buyBlessed failed: $e');
+      _logErr('buyPremium failed: $e');
       if (kDebugMode) _logErr('$st');
       _stopWatchdog();
       _setLoading(false);
@@ -431,7 +431,7 @@ class PurchaseController extends ChangeNotifier {
         _lastTxByProduct[productId] = txId;
       }
 
-      final isTopup = BlessedProducts.isTopup(productId);
+      final isTopup = PremiumProducts.isTopup(productId);
       final isRecentAttempt = _isRecentAttemptFor(productId);
 
       try {
@@ -525,7 +525,7 @@ class PurchaseController extends ChangeNotifier {
 
   Future<void> _consumeAndroidIfTopup(PurchaseDetails purchase) async {
     if (!_isAndroid) return;
-    if (!BlessedProducts.isTopup(purchase.productID)) return;
+    if (!PremiumProducts.isTopup(purchase.productID)) return;
 
     try {
       final addition =

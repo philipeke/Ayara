@@ -20,8 +20,11 @@
       "Bash(firebase projects:list)",
       "Bash(firebase apps:sdkconfig ios --project nuria-mobile-app)",
       "Bash(firebase deploy --only functions)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Read(//c/Users/phiek/dev/ayara-site/css/**)",
+      "Read(//c/Users/phiek/dev/ayara-site/**)",
+      "Bash(python3 scripts/rename_arb_keys.py)",
+      "Bash(xargs grep:*)"
     ]
   }
 }
-

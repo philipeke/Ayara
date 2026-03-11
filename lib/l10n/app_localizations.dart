@@ -358,107 +358,107 @@ abstract class AppLocalizations {
   /// **'Search…'**
   String get languageSearchHint;
 
-  /// No description provided for @planGrace.
+  /// No description provided for @planBasic.
   ///
   /// In en, this message translates to:
   /// **'Standard'**
-  String get planGrace;
+  String get planBasic;
 
-  /// No description provided for @planBlessed.
+  /// No description provided for @planPremium.
   ///
   /// In en, this message translates to:
-  /// **'Barakah'**
-  String get planBlessed;
+  /// **'Wilaya'**
+  String get planPremium;
 
-  /// No description provided for @categoryDailyGuidance.
+  /// No description provided for @categorySlot01.
   ///
   /// In en, this message translates to:
   /// **'Daily Guidance'**
-  String get categoryDailyGuidance;
+  String get categorySlot01;
 
-  /// No description provided for @categoryFaithTrust.
+  /// No description provided for @categorySlot02.
   ///
   /// In en, this message translates to:
   /// **'Iman & Trust'**
-  String get categoryFaithTrust;
+  String get categorySlot02;
 
-  /// No description provided for @categoryPrayerReflection.
+  /// No description provided for @categorySlot03.
   ///
   /// In en, this message translates to:
   /// **'Prayer Reflection'**
-  String get categoryPrayerReflection;
+  String get categorySlot03;
 
-  /// No description provided for @categoryHopeDifficultTimes.
+  /// No description provided for @categorySlot04.
   ///
   /// In en, this message translates to:
   /// **'Patience Hope'**
-  String get categoryHopeDifficultTimes;
+  String get categorySlot04;
 
-  /// No description provided for @categoryForgiveness.
+  /// No description provided for @categorySlot05.
   ///
   /// In en, this message translates to:
   /// **'Seek Forgiveness'**
-  String get categoryForgiveness;
+  String get categorySlot05;
 
-  /// No description provided for @categoryLoveCompassion.
+  /// No description provided for @categorySlot06.
   ///
   /// In en, this message translates to:
   /// **'Mercy Compassion'**
-  String get categoryLoveCompassion;
+  String get categorySlot06;
 
-  /// No description provided for @categoryStrengthCourage.
+  /// No description provided for @categorySlot07.
   ///
   /// In en, this message translates to:
   /// **'Faith Strength'**
-  String get categoryStrengthCourage;
+  String get categorySlot07;
 
-  /// No description provided for @categoryGratitude.
+  /// No description provided for @categorySlot08.
   ///
   /// In en, this message translates to:
   /// **'Grateful Heart'**
-  String get categoryGratitude;
+  String get categorySlot08;
 
-  /// No description provided for @categoryPurposeCalling.
+  /// No description provided for @categorySlot09.
   ///
   /// In en, this message translates to:
   /// **'Life Purpose'**
-  String get categoryPurposeCalling;
+  String get categorySlot09;
 
-  /// No description provided for @categoryFamilyRelationships.
+  /// No description provided for @categorySlot10.
   ///
   /// In en, this message translates to:
   /// **'Family Ties'**
-  String get categoryFamilyRelationships;
+  String get categorySlot10;
 
-  /// No description provided for @categoryPeaceAnxietyRelief.
+  /// No description provided for @categorySlot11.
   ///
   /// In en, this message translates to:
   /// **'Inner Peace'**
-  String get categoryPeaceAnxietyRelief;
+  String get categorySlot11;
 
-  /// No description provided for @categoryWisdomOfJesus.
+  /// No description provided for @categorySlot12.
   ///
   /// In en, this message translates to:
   /// **'Prophet Wisdom'**
-  String get categoryWisdomOfJesus;
+  String get categorySlot12;
 
-  /// No description provided for @categoryHumilityCharacter.
+  /// No description provided for @categorySlot13.
   ///
   /// In en, this message translates to:
   /// **'Good Character'**
-  String get categoryHumilityCharacter;
+  String get categorySlot13;
 
-  /// No description provided for @categoryOvercomingTemptation.
+  /// No description provided for @categorySlot14.
   ///
   /// In en, this message translates to:
   /// **'Resist Temptation'**
-  String get categoryOvercomingTemptation;
+  String get categorySlot14;
 
-  /// No description provided for @categoryEveningReflection.
+  /// No description provided for @categorySlot15.
   ///
   /// In en, this message translates to:
   /// **'Evening Dhikr'**
-  String get categoryEveningReflection;
+  String get categorySlot15;
 
   /// No description provided for @categoryCustom.
   ///
@@ -526,95 +526,95 @@ abstract class AppLocalizations {
   /// **'Continue'**
   String get continueCta;
 
-  /// No description provided for @promptDailyGuidance.
+  /// No description provided for @promptSlot01.
   ///
   /// In en, this message translates to:
   /// **'Write a short, practical daily guidance rooted in Shia Islamic faith — grounded in the Quran and the teachings of the Prophet Muhammad and the Ahl al-Bayt. Choose a fresh angle each time: a virtue from Islamic ethics, wisdom from one of the twelve Imams, a teaching from Nahj al-Balagha, or a quiet practice from the Shia tradition. Include one Quran verse (Surah:Ayah) and a 1-2 sentence reflection to carry through the day. Optionally connect it to the Islamic calendar or an important date if relevant.'**
-  String get promptDailyGuidance;
+  String get promptSlot01;
 
-  /// No description provided for @promptFaithTrust.
+  /// No description provided for @promptSlot02.
   ///
   /// In en, this message translates to:
-  /// **'Write a short Islamic reflection on Iman (faith) and trust in Allah\'s plan (Tawakkul). Root it in the Quran, the example of Prophet Muhammad, and the faith of the Sahaba. Vary the theme each time: trusting Allah during uncertainty, relying on divine wisdom, patience in trials, or quiet perseverance in everyday life. Include one Quran verse and one honest step for today drawn from Islamic spiritual wisdom.'**
-  String get promptFaithTrust;
+  /// **'Write a short Islamic reflection on Iman (faith) and trust in Allah\'s plan (Tawakkul). Root it in the Quran, the example of Prophet Muhammad ﷺ, and the steadfast faith modelled by the Ahl al-Bayt and the example of the Imams. Vary the theme each time: trusting Allah during uncertainty, relying on divine wisdom, patience in trials, or quiet perseverance in everyday life as demonstrated by Imam Ali (AS) and the Imams of the Ahl al-Bayt. Include one Quran verse and one honest step for today drawn from Shia Islamic spiritual wisdom.'**
+  String get promptSlot02;
 
-  /// No description provided for @promptPrayerReflection.
+  /// No description provided for @promptSlot03.
   ///
   /// In en, this message translates to:
-  /// **'Write a short Islamic prayer reflection rooted in Salah, Dua, or Dhikr. Vary the form each time: a morning or evening remembrance (Adhkar), reflection on the five daily prayers, contemplation of a Quranic verse, or a heartfelt supplication. Include one Quran verse and briefly name the prayer form used.'**
-  String get promptPrayerReflection;
+  /// **'Write a short Islamic prayer reflection rooted in Salah, Dua, or Dhikr within the Shia tradition. Vary the form each time: a supplication from Mafatih al-Jinan or the duas of the Imams, reflection on the five daily prayers as observed in three prayer times (combining Dhuhr with Asr, and Maghrib with Isha), the spiritual virtues of Salat al-Layl (the recommended night prayer beloved by the Ahl al-Bayt), the significance of praying on a turbah (prayer stone from sacred earth), the importance of Qunut in prayer, or a heartfelt dua from the tradition of Imam Zayn al-Abidin\'s Sahifa al-Sajjadiyya. Include one Quran verse and briefly name the prayer form or supplication source used.'**
+  String get promptSlot03;
 
-  /// No description provided for @promptHopeDifficultTimes.
+  /// No description provided for @promptSlot04.
   ///
   /// In en, this message translates to:
   /// **'Write an Islamic reflection on patience (Sabr) and hope during hardship. Draw from Quranic teachings about trials, the perseverance of the Prophets, and the mercy of Allah in difficult moments. Vary the angle each time. Include one Quran verse and one encouraging perspective from Islamic tradition.'**
-  String get promptHopeDifficultTimes;
+  String get promptSlot04;
 
-  /// No description provided for @promptForgiveness.
+  /// No description provided for @promptSlot05.
   ///
   /// In en, this message translates to:
-  /// **'Write a wise Islamic reflection about seeking forgiveness (Tawbah) and Allah\'s mercy. Draw from Quranic teachings on repentance, Allah\'s compassion, and the forgiving example of Prophet Muhammad. Vary the theme: turning back to Allah, forgiving others, healing relationships, or believing in Allah\'s mercy after mistakes. Include one Quran verse and one concrete step.'**
-  String get promptForgiveness;
+  /// **'Write a wise Islamic reflection about seeking forgiveness (Tawbah) and Allah\'s mercy. Draw from Quranic teachings on repentance, Allah\'s compassion, and the forgiving example of Prophet Muhammad ﷺ. Vary the theme: turning back to Allah, forgiving others, healing relationships, or believing in Allah\'s mercy after mistakes. Include one Quran verse and one concrete step.'**
+  String get promptSlot05;
 
-  /// No description provided for @promptLoveCompassion.
+  /// No description provided for @promptSlot06.
   ///
   /// In en, this message translates to:
-  /// **'Write a short Islamic reflection on mercy (Rahmah) and compassion in everyday life. Draw from the example of Prophet Muhammad, the concept of Ihsan (excellence), and Islamic teachings on kindness to family, neighbors, and the vulnerable. Include one Quran verse and one small act of compassion to practice today.'**
-  String get promptLoveCompassion;
+  /// **'Write a short Islamic reflection on mercy (Rahmah) and compassion in everyday life. Draw from the example of Prophet Muhammad ﷺ, the concept of Ihsan (excellence), and Islamic teachings on kindness to family, neighbors, and the vulnerable. Include one Quran verse and one small act of compassion to practice today.'**
+  String get promptSlot06;
 
-  /// No description provided for @promptStrengthCourage.
+  /// No description provided for @promptSlot07.
   ///
   /// In en, this message translates to:
-  /// **'Write an Islamic reflection on faith-based strength and courage. Draw from examples of the Prophets, the early Muslim community, and believers who remained firm in hardship. Vary the theme each time: courage through faith, strength in prayer, trust in Allah during fear, or resilience in difficulty. Include one Quran verse and a short supplication or phrase of remembrance.'**
-  String get promptStrengthCourage;
+  /// **'Write an Islamic reflection on faith-based strength and courage. Draw from the supreme example of Imam Hussain ibn Ali (AS) at Karbala — the eternal model of standing firm against injustice, sacrificing everything for truth, and never surrendering to oppression — and from the broader example of the Ahl al-Bayt who remained steadfast through immense trials. Vary the theme each time: courage through faith, strength in prayer, trust in Allah during fear, or resilience in the face of injustice. Include one Quran verse and a short supplication or phrase of remembrance from the Shia tradition.'**
+  String get promptSlot07;
 
-  /// No description provided for @promptGratitude.
+  /// No description provided for @promptSlot08.
   ///
   /// In en, this message translates to:
   /// **'Write an Islamic reflection on gratitude (Shukr) toward Allah. Root it in Quranic teaching and prophetic tradition. Vary the angle: gratitude in hardship, appreciating small blessings, beginning the day with praise of Allah, or recognizing Allah\'s guidance in daily life. Include one Quran verse and one gratitude practice.'**
-  String get promptGratitude;
+  String get promptSlot08;
 
-  /// No description provided for @promptPurposeCalling.
+  /// No description provided for @promptSlot09.
   ///
   /// In en, this message translates to:
   /// **'Write an Islamic reflection on life\'s purpose in worshipping Allah and living righteously. Draw from Quranic teachings about purpose, serving others, and using one\'s gifts for good. Vary the theme each time: serving family and community, seeking guidance through Istikhara, living with intention, or finding meaning in ordinary work. Include one Quran verse and two reflective questions.'**
-  String get promptPurposeCalling;
+  String get promptSlot09;
 
-  /// No description provided for @promptFamilyRelationships.
+  /// No description provided for @promptSlot10.
   ///
   /// In en, this message translates to:
-  /// **'Write wise Islamic guidance on family and relationships rooted in Quranic teaching and the example of Prophet Muhammad. Vary the theme each time: kindness in family life, patience in conflict, honoring parents, raising children in faith, or strengthening marriage. Include one Quran verse and one relational practice to try.'**
-  String get promptFamilyRelationships;
+  /// **'Write wise Islamic guidance on family and relationships rooted in Quranic teaching and the example of Prophet Muhammad ﷺ. Vary the theme each time: kindness in family life, patience in conflict, honoring parents, raising children in faith, or strengthening marriage. Include one Quran verse and one relational practice to try.'**
+  String get promptSlot10;
 
-  /// No description provided for @promptPeaceAnxietyRelief.
+  /// No description provided for @promptSlot11.
   ///
   /// In en, this message translates to:
   /// **'Write a calming Islamic reflection about finding inner peace through remembrance of Allah (Dhikr) and trust in His plan. Draw from Quranic teachings about tranquility of the heart, prayer, and surrender to Allah\'s will. Vary the approach each time and include one Quran verse and one simple grounding practice from Islamic tradition.'**
-  String get promptPeaceAnxietyRelief;
+  String get promptSlot11;
 
-  /// No description provided for @promptWisdomOfJesus.
+  /// No description provided for @promptSlot12.
   ///
   /// In en, this message translates to:
-  /// **'Write a short piece of wisdom from the Prophets as taught in Islam. Draw from the Quran or Hadith and briefly explain how Islamic scholars have understood the teaching. Vary the topic each time: character, patience, humility, faith, or daily conduct. Include a Quranic verse or Hadith reference and one practical application.'**
-  String get promptWisdomOfJesus;
+  /// **'Write a short piece of wisdom from the Prophet Muhammad ﷺ and the Imams of the Ahl al-Bayt as taught in Shia Islam. Draw from the Quran, Hadith, the sayings of Imam Ali (AS) in Nahj al-Balagha, and the teachings of Imam Ja\'far al-Sadiq (AS) — the great scholar of the Ahl al-Bayt whose knowledge illuminated the ummah. Vary the topic each time: character, patience, humility, faith, justice, or daily conduct. Include a Quranic verse, a hadith, or a saying from one of the twelve Imams, and one practical application.'**
+  String get promptSlot12;
 
-  /// No description provided for @promptHumilityCharacter.
+  /// No description provided for @promptSlot13.
   ///
   /// In en, this message translates to:
-  /// **'Write an Islamic reflection on humility (Tawadhu) and good character (Akhlaq). Draw from Quranic teachings, the example of Prophet Muhammad, and the tradition of Islamic character development. Vary the theme: humility in leadership, admitting mistakes, treating others with respect, or growing spiritually through self-reflection. Include one Quran verse and one habit to practice.'**
-  String get promptHumilityCharacter;
+  /// **'Write an Islamic reflection on humility (Tawadhu) and good character (Akhlaq). Draw from Quranic teachings, the example of Prophet Muhammad ﷺ, and the tradition of Islamic character development. Vary the theme: humility in leadership, admitting mistakes, treating others with respect, or growing spiritually through self-reflection. Include one Quran verse and one habit to practice.'**
+  String get promptSlot13;
 
-  /// No description provided for @promptOvercomingTemptation.
+  /// No description provided for @promptSlot14.
   ///
   /// In en, this message translates to:
   /// **'Write an Islamic reflection on resisting temptation and staying on the straight path. Draw from Quranic guidance, remembrance of Allah (Dhikr), prayer (Salah), and examples of believers who overcame struggles. Vary the angle each time. Include one Quran verse and one practical strategy for the next 24 hours.'**
-  String get promptOvercomingTemptation;
+  String get promptSlot14;
 
-  /// No description provided for @promptEveningReflection.
+  /// No description provided for @promptSlot15.
   ///
   /// In en, this message translates to:
-  /// **'Write a peaceful Islamic evening reflection rooted in the tradition of evening remembrance (Adhkar al-Masaa\'). Encourage gratitude, self-reflection (Muhasabah), and trust in Allah before rest. Include 3–5 short reflection prompts about the day, a brief closing supplication, and one Quran verse.'**
-  String get promptEveningReflection;
+  /// **'Write a peaceful Islamic evening reflection rooted in the Shia tradition of evening supplication. Draw from the treasures of Mafatih al-Jinan, the Munajat al-Shabaniyya (the intimate whispered prayer of the month of Sha\'ban beloved by the Imams), and the evening duas transmitted from the Imams of the Ahl al-Bayt. Encourage gratitude, Muhasabah (self-accounting) as recommended by the Imams, and trust in Allah before rest. Include 3–5 short reflection prompts about the day, a brief closing supplication drawn from the tradition of the Ahl al-Bayt, and one Quran verse.'**
+  String get promptSlot15;
 
   /// No description provided for @wordCount.
   ///
@@ -907,13 +907,13 @@ abstract class AppLocalizations {
   /// No description provided for @footerTitle.
   ///
   /// In en, this message translates to:
-  /// **'With Iman, sabr and rahma.'**
+  /// **'With Wilaya, Iman and Sabr'**
   String get footerTitle;
 
   /// No description provided for @footerSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'One step at a time.'**
+  /// **'One prayer at a time'**
   String get footerSubtitle;
 
   /// No description provided for @genericErrorSnack.
@@ -955,38 +955,26 @@ abstract class AppLocalizations {
   /// No description provided for @rateDailyLimit.
   ///
   /// In en, this message translates to:
-  /// **'You\'re out of reflections for now.\nGet more reflections or upgrade to Barakah.'**
+  /// **'You\'re out of reflections for now.\nGet more reflections or upgrade to Wilaya.'**
   String get rateDailyLimit;
 
   /// No description provided for @rateCreditsExhausted.
   ///
   /// In en, this message translates to:
-  /// **'You\'ve used all your reflections.\nTop up or upgrade to Barakah to continue.'**
+  /// **'You\'ve used all your reflections.\nTop up or upgrade to Wilaya to continue.'**
   String get rateCreditsExhausted;
 
-  /// No description provided for @rateGraceReflectionsExhausted.
+  /// No description provided for @rateGraceCreditsExhausted.
   ///
   /// In en, this message translates to:
-  /// **'You\'re out of reflections for now.\nGet more reflections or upgrade to Barakah.'**
-  String get rateGraceReflectionsExhausted;
+  /// **'You\'re out of reflections for now.\nGet more reflections or upgrade to Wilaya.'**
+  String get rateGraceCreditsExhausted;
 
-  /// No description provided for @rateReflectionsExhausted.
+  /// No description provided for @premiumDescription.
   ///
   /// In en, this message translates to:
-  /// **'You\'ve used all your reflections.\nTop up or upgrade to Barakah to continue.'**
-  String get rateReflectionsExhausted;
-
-  /// No description provided for @blessedDescription.
-  ///
-  /// In en, this message translates to:
-  /// **'Barakah unlocks premium features, future categories, and a special badge.'**
-  String get blessedDescription;
-
-  /// No description provided for @championDescription.
-  ///
-  /// In en, this message translates to:
-  /// **'Barakah unlocks premium features, future categories, and a special badge.'**
-  String get championDescription;
+  /// **'Wilaya unlocks premium features, future categories, and a special badge.'**
+  String get premiumDescription;
 
   /// Shown when the user's reflections are exhausted but the reason is generic.
   ///
@@ -1057,7 +1045,7 @@ abstract class AppLocalizations {
   /// No description provided for @aiLimitSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Each response uses 1 reflection. Standard includes starter reflections. Barakah unlocks premium categories and enables top-ups.'**
+  /// **'Each response uses 1 reflection. Standard includes starter reflections. Wilaya unlocks premium categories and enables top-ups.'**
   String get aiLimitSubtitle;
 
   /// No description provided for @aiLimitProgressLabel.
@@ -1066,59 +1054,59 @@ abstract class AppLocalizations {
   /// **'{used} / {total} reflections used'**
   String aiLimitProgressLabel(Object used, Object total);
 
-  /// No description provided for @reflectionsSectionTitle.
+  /// No description provided for @creditsSectionTitle.
   ///
   /// In en, this message translates to:
   /// **'Reflections'**
-  String get reflectionsSectionTitle;
+  String get creditsSectionTitle;
 
-  /// No description provided for @reflectionsUsageLabel.
+  /// No description provided for @creditsUsageLabel.
   ///
   /// In en, this message translates to:
   /// **'Usage'**
-  String get reflectionsUsageLabel;
+  String get creditsUsageLabel;
 
-  /// No description provided for @reflectionsRemainingLabel.
+  /// No description provided for @creditsRemainingLabel.
   ///
   /// In en, this message translates to:
   /// **'Remaining reflections: {reflections}'**
-  String reflectionsRemainingLabel(Object reflections);
+  String creditsRemainingLabel(Object reflections);
 
   /// Shows the current plan name.
   ///
   /// In en, this message translates to:
   /// **'Plan: {plan}'**
-  String reflectionsPlanLabel(String plan);
+  String creditsPlanLabel(String plan);
 
-  /// No description provided for @reflectionsLoadingLabel.
+  /// No description provided for @creditsLoadingLabel.
   ///
   /// In en, this message translates to:
   /// **'Loading…'**
-  String get reflectionsLoadingLabel;
+  String get creditsLoadingLabel;
 
-  /// No description provided for @reflectionsLoadingLabelDescription.
+  /// No description provided for @creditsLoadingLabelDescription.
   ///
   /// In en, this message translates to:
   /// **'Shown while reflection stats are being fetched.'**
-  String get reflectionsLoadingLabelDescription;
+  String get creditsLoadingLabelDescription;
 
-  /// No description provided for @reflectionsTitle.
+  /// No description provided for @creditsTitle.
   ///
   /// In en, this message translates to:
   /// **'Reflections'**
-  String get reflectionsTitle;
+  String get creditsTitle;
 
-  /// No description provided for @reflectionsSubtitle.
+  /// No description provided for @creditsSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Each response uses 1 reflection. Standard includes starter reflections. Barakah unlocks premium categories and enables top-ups.'**
-  String get reflectionsSubtitle;
+  /// **'Each response uses 1 reflection. Standard includes starter reflections. Wilaya unlocks premium categories and enables top-ups.'**
+  String get creditsSubtitle;
 
-  /// No description provided for @reflectionsProgressLabel.
+  /// No description provided for @creditsProgressLabel.
   ///
   /// In en, this message translates to:
   /// **'{used} / {total} reflections used'**
-  String reflectionsProgressLabel(Object used, Object total);
+  String creditsProgressLabel(Object used, Object total);
 
   /// No description provided for @settingsDeleteTitle.
   ///
@@ -1171,20 +1159,20 @@ abstract class AppLocalizations {
   /// No description provided for @settingsFreeLimitUsedDescription.
   ///
   /// In en, this message translates to:
-  /// **'The starter reflections for this device have been used. Upgrade to Barakah or buy more reflections to continue.'**
+  /// **'The starter reflections for this device have been used. Upgrade to Wilaya or buy more reflections to continue.'**
   String get settingsFreeLimitUsedDescription;
 
-  /// No description provided for @settingsStarterReflectionsUsedTitle.
+  /// No description provided for @settingsStarterCreditsUsedTitle.
   ///
   /// In en, this message translates to:
   /// **'Starter reflections used'**
-  String get settingsStarterReflectionsUsedTitle;
+  String get settingsStarterCreditsUsedTitle;
 
-  /// No description provided for @settingsStarterReflectionsUsedDescription.
+  /// No description provided for @settingsStarterCreditsUsedDescription.
   ///
   /// In en, this message translates to:
-  /// **'The starter reflections for this device have been used. Upgrade to Barakah or buy more reflections to continue.'**
-  String get settingsStarterReflectionsUsedDescription;
+  /// **'The starter reflections for this device have been used. Upgrade to Wilaya or buy more reflections to continue.'**
+  String get settingsStarterCreditsUsedDescription;
 
   /// No description provided for @deviceBoundError.
   ///
@@ -1195,7 +1183,7 @@ abstract class AppLocalizations {
   /// No description provided for @premiumTitle.
   ///
   /// In en, this message translates to:
-  /// **'Barakah mode'**
+  /// **'Wilaya mode'**
   String get premiumTitle;
 
   /// No description provided for @premiumSubtitleBasic.
@@ -1204,11 +1192,11 @@ abstract class AppLocalizations {
   /// **'Unlock the full Ayara experience.'**
   String get premiumSubtitleBasic;
 
-  /// No description provided for @premiumSubtitleChampion.
+  /// No description provided for @premiumSubtitlePremium.
   ///
   /// In en, this message translates to:
-  /// **'You\'re Barakah. Need more reflections?'**
-  String get premiumSubtitleChampion;
+  /// **'You\'re on Wilaya. Need more reflections?'**
+  String get premiumSubtitlePremium;
 
   /// No description provided for @premiumCurrentPlan.
   ///
@@ -1231,7 +1219,7 @@ abstract class AppLocalizations {
   /// No description provided for @premiumSignInToPurchase.
   ///
   /// In en, this message translates to:
-  /// **'Sign in to buy reflections or unlock Barakah.'**
+  /// **'Sign in to buy reflections or unlock Wilaya.'**
   String get premiumSignInToPurchase;
 
   /// No description provided for @premiumRestorePurchases.
@@ -1249,7 +1237,7 @@ abstract class AppLocalizations {
   /// No description provided for @premiumRestoreHintTitle.
   ///
   /// In en, this message translates to:
-  /// **'Already purchased Barakah or reflections on this device or another one?'**
+  /// **'Already purchased Wilaya or reflections on this device or another one?'**
   String get premiumRestoreHintTitle;
 
   /// No description provided for @premiumRestoreHintBody.
@@ -1270,17 +1258,17 @@ abstract class AppLocalizations {
   /// **'Buy 400 reflections'**
   String get premiumBuyCredits400;
 
-  /// No description provided for @premiumBecomeChampionOneTime.
+  /// No description provided for @premiumBecomePremiumOneTime.
   ///
   /// In en, this message translates to:
-  /// **'Upgrade to Barakah mode'**
-  String get premiumBecomeChampionOneTime;
+  /// **'Upgrade to Wilaya mode'**
+  String get premiumBecomePremiumOneTime;
 
-  /// No description provided for @premiumChampionHint.
+  /// No description provided for @premiumTopupHint.
   ///
   /// In en, this message translates to:
-  /// **'As Barakah, you can top up with extra reflections whenever you need.'**
-  String get premiumChampionHint;
+  /// **'With Wilaya, you can top up with extra reflections whenever you need.'**
+  String get premiumTopupHint;
 
   /// No description provided for @premiumUpgradeCta.
   ///
@@ -1291,26 +1279,26 @@ abstract class AppLocalizations {
   /// No description provided for @premiumRequiredForCategory.
   ///
   /// In en, this message translates to:
-  /// **'This category is only available for Barakah users. Upgrade in Settings to unlock all premium content.'**
+  /// **'This category is only available for Wilaya users. Upgrade in Settings to unlock all premium content.'**
   String get premiumRequiredForCategory;
 
   /// No description provided for @premiumBenefitsBasic.
   ///
   /// In en, this message translates to:
-  /// **'Unlock Barakah to get extra reflections, access premium categories, and continue whenever you need guidance.'**
+  /// **'Unlock Wilaya to get extra reflections, access premium categories, and continue whenever you need guidance.'**
   String get premiumBenefitsBasic;
 
-  /// No description provided for @premiumBenefitsChampion.
+  /// No description provided for @premiumBenefitsPremium.
   ///
   /// In en, this message translates to:
-  /// **'You\'re in Barakah mode. If you\'re running low, add some extra reflections and continue without interruptions.'**
-  String get premiumBenefitsChampion;
+  /// **'You\'re in Wilaya mode. If you\'re running low, add some extra reflections and continue without interruptions.'**
+  String get premiumBenefitsPremium;
 
-  /// No description provided for @premiumButtonBecomeChampion.
+  /// No description provided for @premiumButtonBecomePremium.
   ///
   /// In en, this message translates to:
-  /// **'Unlock Barakah'**
-  String get premiumButtonBecomeChampion;
+  /// **'Unlock Wilaya'**
+  String get premiumButtonBecomePremium;
 
   /// No description provided for @premiumButtonTopup1000.
   ///
@@ -1318,11 +1306,11 @@ abstract class AppLocalizations {
   /// **'Add 1000 reflections'**
   String get premiumButtonTopup1000;
 
-  /// No description provided for @premiumChampionBadge.
+  /// No description provided for @premiumBadge.
   ///
   /// In en, this message translates to:
-  /// **'Barakah active'**
-  String get premiumChampionBadge;
+  /// **'Wilaya active'**
+  String get premiumBadge;
 
   /// No description provided for @premiumLoadingStore.
   ///
@@ -1330,173 +1318,35 @@ abstract class AppLocalizations {
   /// **'Loading store…'**
   String get premiumLoadingStore;
 
-  /// No description provided for @blessedTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Barakah mode'**
-  String get blessedTitle;
-
-  /// No description provided for @blessedSubtitleGrace.
-  ///
-  /// In en, this message translates to:
-  /// **'Unlock the full Ayara experience.'**
-  String get blessedSubtitleGrace;
-
-  /// No description provided for @blessedSubtitleBlessed.
-  ///
-  /// In en, this message translates to:
-  /// **'You\'re Barakah. Need more reflections?'**
-  String get blessedSubtitleBlessed;
-
-  /// No description provided for @blessedCurrentPlan.
-  ///
-  /// In en, this message translates to:
-  /// **'Current plan: {plan}'**
-  String blessedCurrentPlan(Object plan);
-
-  /// No description provided for @blessedReflectionsStatus.
-  ///
-  /// In en, this message translates to:
-  /// **'Reflections: {remaining} / {total}'**
-  String blessedReflectionsStatus(Object remaining, Object total);
-
-  /// No description provided for @blessedPurchasesUnavailable.
-  ///
-  /// In en, this message translates to:
-  /// **'Purchases are not available right now.'**
-  String get blessedPurchasesUnavailable;
-
-  /// No description provided for @blessedProductNotAvailable.
+  /// No description provided for @premiumProductNotAvailable.
   ///
   /// In en, this message translates to:
   /// **'This product isn\'t available in the store yet. Please try again later.'**
-  String get blessedProductNotAvailable;
+  String get premiumProductNotAvailable;
 
-  /// No description provided for @blessedPurchaseError.
+  /// No description provided for @premiumPurchaseError.
   ///
   /// In en, this message translates to:
   /// **'Something went wrong with the purchase. Please try again.'**
-  String get blessedPurchaseError;
+  String get premiumPurchaseError;
 
-  /// No description provided for @blessedSignInToPurchase.
-  ///
-  /// In en, this message translates to:
-  /// **'Sign in to buy reflections or unlock Barakah.'**
-  String get blessedSignInToPurchase;
-
-  /// No description provided for @blessedRestorePurchases.
-  ///
-  /// In en, this message translates to:
-  /// **'Restore purchases'**
-  String get blessedRestorePurchases;
-
-  /// No description provided for @blessedProcessing.
-  ///
-  /// In en, this message translates to:
-  /// **'Processing…'**
-  String get blessedProcessing;
-
-  /// No description provided for @blessedRestoreHintTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Already purchased Barakah or reflections on this device or another one?'**
-  String get blessedRestoreHintTitle;
-
-  /// No description provided for @blessedRestoreHintBody.
-  ///
-  /// In en, this message translates to:
-  /// **'Restore your purchases if they\'re not showing up.'**
-  String get blessedRestoreHintBody;
-
-  /// No description provided for @blessedBuyReflections100.
+  /// No description provided for @premiumBuyCredits100.
   ///
   /// In en, this message translates to:
   /// **'Add 100 reflections'**
-  String get blessedBuyReflections100;
+  String get premiumBuyCredits100;
 
-  /// No description provided for @blessedBuyReflections200.
+  /// No description provided for @premiumFeatureLocked.
   ///
   /// In en, this message translates to:
-  /// **'Buy 200 reflections'**
-  String get blessedBuyReflections200;
-
-  /// No description provided for @blessedBuyReflections400.
-  ///
-  /// In en, this message translates to:
-  /// **'Buy 400 reflections'**
-  String get blessedBuyReflections400;
-
-  /// No description provided for @blessedBecomeBlessedOneTime.
-  ///
-  /// In en, this message translates to:
-  /// **'Upgrade to Barakah'**
-  String get blessedBecomeBlessedOneTime;
-
-  /// No description provided for @blessedTopupHint.
-  ///
-  /// In en, this message translates to:
-  /// **'As Barakah, you can top up with extra reflections whenever you need.'**
-  String get blessedTopupHint;
-
-  /// No description provided for @blessedUpgradeCta.
-  ///
-  /// In en, this message translates to:
-  /// **'Upgrade'**
-  String get blessedUpgradeCta;
-
-  /// No description provided for @blessedRequiredForCategory.
-  ///
-  /// In en, this message translates to:
-  /// **'This category is only available for Barakah users. Upgrade in Settings to unlock all premium content.'**
-  String get blessedRequiredForCategory;
-
-  /// No description provided for @blessedFeatureLocked.
-  ///
-  /// In en, this message translates to:
-  /// **'Unlock Barakah to access this feature.'**
-  String get blessedFeatureLocked;
+  /// **'Unlock Wilaya to access this feature.'**
+  String get premiumFeatureLocked;
 
   /// No description provided for @lockedCategoriesHint.
   ///
   /// In en, this message translates to:
-  /// **'Some categories are reserved for Barakah members. Unlock them to explore every reflection on your journey.'**
+  /// **'Some categories are reserved for Wilaya members. Unlock them to explore every reflection on your journey.'**
   String get lockedCategoriesHint;
-
-  /// No description provided for @blessedBenefitsGrace.
-  ///
-  /// In en, this message translates to:
-  /// **'Unlock Barakah to get extra reflections, access premium categories, and continue whenever you need guidance.'**
-  String get blessedBenefitsGrace;
-
-  /// No description provided for @blessedBenefitsBlessed.
-  ///
-  /// In en, this message translates to:
-  /// **'You\'re in Barakah mode. If you\'re running low, add some extra reflections and continue without interruptions.'**
-  String get blessedBenefitsBlessed;
-
-  /// No description provided for @blessedButtonBecomeBlessed.
-  ///
-  /// In en, this message translates to:
-  /// **'Unlock Barakah'**
-  String get blessedButtonBecomeBlessed;
-
-  /// No description provided for @blessedButtonTopup1000.
-  ///
-  /// In en, this message translates to:
-  /// **'Add 1000 reflections'**
-  String get blessedButtonTopup1000;
-
-  /// No description provided for @blessedBadge.
-  ///
-  /// In en, this message translates to:
-  /// **'Barakah active'**
-  String get blessedBadge;
-
-  /// No description provided for @blessedLoadingStore.
-  ///
-  /// In en, this message translates to:
-  /// **'Loading store…'**
-  String get blessedLoadingStore;
 
   /// No description provided for @freePlanBlockedTitle.
   ///
@@ -1507,13 +1357,13 @@ abstract class AppLocalizations {
   /// No description provided for @freePlanBlockedBody.
   ///
   /// In en, this message translates to:
-  /// **'You\'re on the Standard plan with starter reflections, and you\'ve reached the limit. To continue — and unlock premium categories — upgrade to Barakah.'**
+  /// **'You\'re on the Standard plan with starter reflections, and you\'ve reached the limit. To continue — and unlock premium categories — upgrade to Wilaya.'**
   String get freePlanBlockedBody;
 
   /// No description provided for @freePlanBlockedCtaGoPremium.
   ///
   /// In en, this message translates to:
-  /// **'See Barakah options below'**
+  /// **'See Wilaya options below'**
   String get freePlanBlockedCtaGoPremium;
 
   /// No description provided for @graceBlockedTitle.
@@ -1525,14 +1375,14 @@ abstract class AppLocalizations {
   /// No description provided for @graceBlockedBody.
   ///
   /// In en, this message translates to:
-  /// **'You\'re on the Standard plan with starter reflections, and you\'ve reached the limit. To continue — and unlock premium categories — upgrade to Barakah.'**
+  /// **'You\'re on the Standard plan with starter reflections, and you\'ve reached the limit. To continue — and unlock premium categories — upgrade to Wilaya.'**
   String get graceBlockedBody;
 
-  /// No description provided for @graceBlockedCtaGoBlessed.
+  /// No description provided for @graceBlockedCtaGoPremium.
   ///
   /// In en, this message translates to:
-  /// **'See Barakah options below'**
-  String get graceBlockedCtaGoBlessed;
+  /// **'See Wilaya options below'**
+  String get graceBlockedCtaGoPremium;
 
   /// No description provided for @rateGuestMustSignIn.
   ///
@@ -1551,18 +1401,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'As a guest you can browse the app, but you can\'t use reflections. Log in later in Settings to use reflections and unlock purchases.'**
   String get guestNoCreditsBody;
-
-  /// No description provided for @guestNoReflectionsTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Guest mode'**
-  String get guestNoReflectionsTitle;
-
-  /// No description provided for @guestNoReflectionsBody.
-  ///
-  /// In en, this message translates to:
-  /// **'As a guest you can browse the app, but you can\'t use reflections. Log in later in Settings to use reflections and unlock purchases.'**
-  String get guestNoReflectionsBody;
 
   /// No description provided for @guestDialogContinue.
   ///
@@ -2167,361 +2005,361 @@ abstract class AppLocalizations {
   /// No description provided for @dailyRoleModel0.
   ///
   /// In en, this message translates to:
-  /// **'Prophet Muhammad ﷺ'**
+  /// **'Prophet Muhammad ﷺ — Seal of the Prophets, whose household (Ahl al-Bayt) are a light and mercy for all of creation'**
   String get dailyRoleModel0;
 
   /// No description provided for @dailyRoleModel1.
   ///
   /// In en, this message translates to:
-  /// **'Abu Bakr as-Siddiq (RA)'**
+  /// **'Imam Ali ibn Abi Talib (AS) — First Imam, Commander of the Faithful, gate of the city of the Prophet\'s knowledge, author of Nahj al-Balagha'**
   String get dailyRoleModel1;
 
   /// No description provided for @dailyRoleModel2.
   ///
   /// In en, this message translates to:
-  /// **'Umar ibn al-Khattab (RA)'**
+  /// **'Imam Hasan ibn Ali (AS) — Second Imam, grandson of the Prophet ﷺ, leader of the youth of Paradise'**
   String get dailyRoleModel2;
 
   /// No description provided for @dailyRoleModel3.
   ///
   /// In en, this message translates to:
-  /// **'Uthman ibn Affan (RA)'**
+  /// **'Imam Hussain ibn Ali (AS) — Third Imam, Master of Martyrs, whose stand at Karbala is the eternal emblem of justice over oppression'**
   String get dailyRoleModel3;
 
   /// No description provided for @dailyRoleModel4.
   ///
   /// In en, this message translates to:
-  /// **'Ali ibn Abi Talib (RA)'**
+  /// **'Imam Ali ibn Hussain Zayn al-Abidin (AS) — Fourth Imam, the Adornment of the Worshippers, author of al-Sahifa al-Sajjadiyya'**
   String get dailyRoleModel4;
 
   /// No description provided for @dailyRoleModel5.
   ///
   /// In en, this message translates to:
-  /// **'Khadijah bint Khuwaylid (RA)'**
+  /// **'Imam Muhammad al-Baqir (AS) — Fifth Imam, Splitter of Knowledge, who opened the doors of Shia jurisprudence and theology'**
   String get dailyRoleModel5;
 
   /// No description provided for @dailyRoleModel6.
   ///
   /// In en, this message translates to:
-  /// **'Aisha bint Abi Bakr (RA)'**
+  /// **'Imam Ja\'far al-Sadiq (AS) — Sixth Imam, the great teacher of the Ahl al-Bayt school, whose students shaped Islamic science and law'**
   String get dailyRoleModel6;
 
   /// No description provided for @dailyRoleModel7.
   ///
   /// In en, this message translates to:
-  /// **'Fatimah az-Zahra (RA)'**
+  /// **'Imam Musa al-Kadhim (AS) — Seventh Imam, the Patient One, who endured long imprisonment with unwavering faith'**
   String get dailyRoleModel7;
 
   /// No description provided for @dailyRoleModel8.
   ///
   /// In en, this message translates to:
-  /// **'Bilal ibn Rabah (RA)'**
+  /// **'Imam Ali al-Ridha (AS) — Eighth Imam, the Scholar of the Ahl al-Bayt, whose shrine in Mashhad is a place of pilgrimage and blessing'**
   String get dailyRoleModel8;
 
   /// No description provided for @dailyRoleModel9.
   ///
   /// In en, this message translates to:
-  /// **'Salman al-Farisi (RA)'**
+  /// **'Imam Muhammad al-Jawad (AS) — Ninth Imam, the Generous One, who demonstrated divine wisdom from the youngest age'**
   String get dailyRoleModel9;
 
   /// No description provided for @dailyRoleModel10.
   ///
   /// In en, this message translates to:
-  /// **'Abu Hurairah (RA)'**
+  /// **'Imam Ali al-Hadi (AS) — Tenth Imam, who preserved the faith of his community under severe Abbasid pressure'**
   String get dailyRoleModel10;
 
   /// No description provided for @dailyRoleModel11.
   ///
   /// In en, this message translates to:
-  /// **'Abdullah ibn Abbas (RA)'**
+  /// **'Imam Hasan al-Askari (AS) — Eleventh Imam, who guided the community from Samarra and prepared the way for the occultation'**
   String get dailyRoleModel11;
 
   /// No description provided for @dailyRoleModel12.
   ///
   /// In en, this message translates to:
-  /// **'Abdullah ibn Masud (RA)'**
+  /// **'Imam Muhammad al-Mahdi (AJ) — Twelfth Imam, the Awaited Saviour, the Living Proof of Allah on earth, may Allah hasten his reappearance'**
   String get dailyRoleModel12;
 
   /// No description provided for @dailyRoleModel13.
   ///
   /// In en, this message translates to:
-  /// **'Muadh ibn Jabal (RA)'**
+  /// **'Lady Khadijah bint Khuwaylid (SA) — first wife of the Prophet ﷺ, first believer, who supported the mission of Islam with her wealth and her soul'**
   String get dailyRoleModel13;
 
   /// No description provided for @dailyRoleModel14.
   ///
   /// In en, this message translates to:
-  /// **'Musab ibn Umayr (RA)'**
+  /// **'Lady Fatimah az-Zahra (SA) — daughter of the Prophet ﷺ, wife of Imam Ali (AS), mother of the Imams, the Lady of Light, the best of women of all the worlds'**
   String get dailyRoleModel14;
 
   /// No description provided for @dailyRoleModel15.
   ///
   /// In en, this message translates to:
-  /// **'Sumayya bint Khabbab (RA)'**
+  /// **'Lady Zainab bint Ali (SA) — granddaughter of the Prophet ﷺ, hero of Karbala, who carried the message of Imam Hussain (AS) to the world after his martyrdom'**
   String get dailyRoleModel15;
 
   /// No description provided for @dailyRoleModel16.
   ///
   /// In en, this message translates to:
-  /// **'Ammar ibn Yasir (RA)'**
+  /// **'Lady Maryam (AS) — mother of Prophet Isa (AS), chosen and purified above all women, a model of devotion and purity in the Quran'**
   String get dailyRoleModel16;
 
   /// No description provided for @dailyRoleModel17.
   ///
   /// In en, this message translates to:
-  /// **'Umm Salamah (RA)'**
+  /// **'Lady Asiya (AS) — wife of Pharaoh, who chose faith over the throne of the world, praised in the Quran as a model for all believers'**
   String get dailyRoleModel17;
 
   /// No description provided for @dailyRoleModel18.
   ///
   /// In en, this message translates to:
-  /// **'Khalid ibn al-Walid (RA)'**
+  /// **'Lady Ruqayyah bint Hussain (AS) — young daughter of Imam Hussain (AS), who endured the tragedy of Karbala as a child and is beloved by the faithful'**
   String get dailyRoleModel18;
 
   /// No description provided for @dailyRoleModel19.
   ///
   /// In en, this message translates to:
-  /// **'Zayd ibn Thabit (RA)'**
+  /// **'Salman al-Farisi (RA) — beloved companion of the Prophet ﷺ, the first Persian Muslim, deeply close to the Ahl al-Bayt, of whom the Prophet said: Salman is from us, the Ahl al-Bayt'**
   String get dailyRoleModel19;
 
   /// No description provided for @dailyRoleModel20.
   ///
   /// In en, this message translates to:
-  /// **'Hafsah bint Umar (RA)'**
+  /// **'Abu Dharr al-Ghifari (RA) — companion of the Prophet ﷺ who stood firmly with Imam Ali (AS), champion of the poor and oppressed, model of uncompromising truthfulness'**
   String get dailyRoleModel20;
 
   /// No description provided for @dailyRoleModel21.
   ///
   /// In en, this message translates to:
-  /// **'Umar ibn Abd al-Aziz (RH)'**
+  /// **'Ammar ibn Yasir (RA) — companion of the Prophet ﷺ, son of the first martyrs of Islam, who fought and was martyred alongside Imam Ali (AS) at the Battle of Siffin'**
   String get dailyRoleModel21;
 
   /// No description provided for @dailyRoleModel22.
   ///
   /// In en, this message translates to:
-  /// **'Imam Abu Hanifa (RH)'**
+  /// **'Maytham al-Tammar (RA) — loyal companion of Imam Ali (AS), who endured martyrdom rather than renounce his love for the Ahl al-Bayt'**
   String get dailyRoleModel22;
 
   /// No description provided for @dailyRoleModel23.
   ///
   /// In en, this message translates to:
-  /// **'Imam Malik ibn Anas (RH)'**
+  /// **'Hujr ibn Adi al-Kindi (RA) — devoted companion of Imam Ali (AS), martyred by Muawiyah for refusing to curse the Commander of the Faithful'**
   String get dailyRoleModel23;
 
   /// No description provided for @dailyRoleModel24.
   ///
   /// In en, this message translates to:
-  /// **'Imam Ja\'far al-Sadiq (AS)'**
+  /// **'Mukhtar al-Thaqafi (RA) — who rose to avenge the martyrs of Karbala and brought justice to the killers of Imam Hussain (AS)'**
   String get dailyRoleModel24;
 
   /// No description provided for @dailyRoleModel25.
   ///
   /// In en, this message translates to:
-  /// **'Imam Ahmad ibn Hanbal (RH)'**
+  /// **'Abbas ibn Ali (AS) — standard-bearer at Karbala, brother and loyal protector of Imam Hussain (AS), whose devotion is a model of selfless love'**
   String get dailyRoleModel25;
 
   /// No description provided for @dailyRoleModel26.
   ///
   /// In en, this message translates to:
-  /// **'Imam al-Bukhari (RH)'**
+  /// **'Ali al-Akbar ibn Hussain (AS) — firstborn son of Imam Hussain (AS), who resembled the Prophet ﷺ most closely and was martyred at Karbala in the prime of youth'**
   String get dailyRoleModel26;
 
   /// No description provided for @dailyRoleModel27.
   ///
   /// In en, this message translates to:
-  /// **'Imam Muslim (RH)'**
+  /// **'Ali al-Asghar (AS) — the infant son of Imam Hussain (AS), the youngest martyr of Karbala, whose innocent blood cries out against injustice'**
   String get dailyRoleModel27;
 
   /// No description provided for @dailyRoleModel28.
   ///
   /// In en, this message translates to:
-  /// **'Imam al-Tirmidhi (RH)'**
+  /// **'Hurr ibn Yazid al-Riyahi (RA) — the commander who blocked Imam Hussain (AS) yet repented on the morning of Ashura and died defending the Imam, a model of true Tawbah'**
   String get dailyRoleModel28;
 
   /// No description provided for @dailyRoleModel29.
   ///
   /// In en, this message translates to:
-  /// **'Al-Ghazali (RH)'**
+  /// **'Bilal ibn Rabah (RA) — the first muezzin of Islam, a freed slave whose faith overcame all oppression, beloved by the Prophet ﷺ and the Ahl al-Bayt'**
   String get dailyRoleModel29;
 
   /// No description provided for @dailyRoleModel30.
   ///
   /// In en, this message translates to:
-  /// **'Ibn al-Qayyim al-Jawziyya (RH)'**
+  /// **'Sumayya bint Khabbab (RA) — first martyr of Islam, mother of Ammar ibn Yasir, who gave her life for the truth of La ilaha illallah'**
   String get dailyRoleModel30;
 
   /// No description provided for @dailyRoleModel31.
   ///
   /// In en, this message translates to:
-  /// **'Ibn Taymiyya (RH)'**
+  /// **'Jafar ibn Abi Talib (RA) — cousin of the Prophet ﷺ and brother of Imam Ali (AS), Dhul-Janahayn, who was martyred at the Battle of Mu\'tah'**
   String get dailyRoleModel31;
 
   /// No description provided for @dailyRoleModel32.
   ///
   /// In en, this message translates to:
-  /// **'Al-Nawawi (RH)'**
+  /// **'Zayd ibn Ali ibn Hussain (RA) — grandson of Imam Hussain (AS) and great scholar who rose against Umayyad tyranny and was martyred, revered by Shia Muslims'**
   String get dailyRoleModel32;
 
   /// No description provided for @dailyRoleModel33.
   ///
   /// In en, this message translates to:
-  /// **'Ibn Hajar al-Asqalani (RH)'**
+  /// **'Prophet Ibrahim (AS) — Friend of Allah, father of the Prophets, who smashed idols and submitted to Allah even when commanded to sacrifice his son'**
   String get dailyRoleModel33;
 
   /// No description provided for @dailyRoleModel34.
   ///
   /// In en, this message translates to:
-  /// **'Ibn Kathir (RH)'**
+  /// **'Prophet Musa (AS) — Kalimullah, who led his people from Pharaoh\'s oppression to freedom through steadfast faith and divine guidance'**
   String get dailyRoleModel34;
 
   /// No description provided for @dailyRoleModel35.
   ///
   /// In en, this message translates to:
-  /// **'Al-Tabari (RH)'**
+  /// **'Prophet Isa (AS) — Spirit of Allah, born of Lady Maryam (AS), who healed the sick and raised the dead by Allah\'s permission'**
   String get dailyRoleModel35;
 
   /// No description provided for @dailyRoleModel36.
   ///
   /// In en, this message translates to:
-  /// **'Sufyan al-Thawri (RH)'**
+  /// **'Prophet Yusuf (AS) — whose patience through betrayal, slavery, and imprisonment is one of the most beautiful stories in the Quran'**
   String get dailyRoleModel36;
 
   /// No description provided for @dailyRoleModel37.
   ///
   /// In en, this message translates to:
-  /// **'Fakhr al-Din al-Razi (RH)'**
+  /// **'Prophet Dawud (AS) — given the Zabur, who combined the roles of prophet and just ruler, and whose Psalms of praise echo through creation'**
   String get dailyRoleModel37;
 
   /// No description provided for @dailyRoleModel38.
   ///
   /// In en, this message translates to:
-  /// **'Ibn Sina (RH)'**
+  /// **'Prophet Sulayman (AS) — who was granted dominion over wind, jinn, and creation, yet remained humble and grateful before Allah'**
   String get dailyRoleModel38;
 
   /// No description provided for @dailyRoleModel39.
   ///
   /// In en, this message translates to:
-  /// **'Al-Biruni (RH)'**
+  /// **'Prophet Nuh (AS) — who called his people to Allah for 950 years with patience and perseverance in the face of total rejection'**
   String get dailyRoleModel39;
 
   /// No description provided for @dailyRoleModel40.
   ///
   /// In en, this message translates to:
-  /// **'Ibn Rushd (RH)'**
+  /// **'Prophet Yunus (AS) — who turned to Allah in the depths of darkness with the words: There is no god but You, glory be to You; I was indeed of the wrongdoers'**
   String get dailyRoleModel40;
 
   /// No description provided for @dailyRoleModel41.
   ///
   /// In en, this message translates to:
-  /// **'Ibn Khaldun (RH)'**
+  /// **'Prophet Ayub (AS) — the supreme model of Sabr, who endured immense suffering without complaint and was restored by Allah\'s boundless mercy'**
   String get dailyRoleModel41;
 
   /// No description provided for @dailyRoleModel42.
   ///
   /// In en, this message translates to:
-  /// **'Ibn Battuta (RH)'**
+  /// **'Shaykh al-Mufid (RA) — the great Shia theologian of Baghdad, who systematised Imami theology and defended Shia doctrine with brilliant scholarship'**
   String get dailyRoleModel42;
 
   /// No description provided for @dailyRoleModel43.
   ///
   /// In en, this message translates to:
-  /// **'Prophet Ibrahim (AS)'**
+  /// **'Allamah al-Hilli (RA) — the foremost Shia jurist and theologian of his age, who strengthened Shia jurisprudence and engaged the great intellectual debates of his time'**
   String get dailyRoleModel43;
 
   /// No description provided for @dailyRoleModel44.
   ///
   /// In en, this message translates to:
-  /// **'Prophet Musa (AS)'**
+  /// **'Sheikh al-Tusi (RA) — Shaykh al-Ta\'ifa, the foundational Shia scholar whose works in fiqh, hadith, and theology remain authoritative to this day'**
   String get dailyRoleModel44;
 
   /// No description provided for @dailyRoleModel45.
   ///
   /// In en, this message translates to:
-  /// **'Prophet Isa (AS)'**
+  /// **'Shahid al-Awwal — Muhammad ibn Makki al-Amili (RA), the First Martyr of Shia jurisprudence, whose al-Lum\'ah al-Dimashqiyyah remains a cornerstone of Shia fiqh'**
   String get dailyRoleModel45;
 
   /// No description provided for @dailyRoleModel46.
   ///
   /// In en, this message translates to:
-  /// **'Prophet Yusuf (AS)'**
+  /// **'Allamah Tabataba\'i (RA) — the great 20th century Shia philosopher and author of al-Mizan, the monumental Quranic exegesis of the modern era'**
   String get dailyRoleModel46;
 
   /// No description provided for @dailyRoleModel47.
   ///
   /// In en, this message translates to:
-  /// **'Prophet Dawud (AS)'**
+  /// **'Imam Khomeini (RA) — reviver of Shia political thought in the modern age, who led the Islamic Revolution and championed the authority of the Quran and the Ahl al-Bayt'**
   String get dailyRoleModel47;
 
   /// No description provided for @dailyRoleModel48.
   ///
   /// In en, this message translates to:
-  /// **'Prophet Sulayman (AS)'**
+  /// **'Shahid Mutahhari (RA) — 20th century Shia scholar and martyr, whose writings on Islamic philosophy, ethics, and society continue to guide millions'**
   String get dailyRoleModel48;
 
   /// No description provided for @dailyRoleModel49.
   ///
   /// In en, this message translates to:
-  /// **'Prophet Nuh (AS)'**
+  /// **'Sayyid Muhammad Baqir al-Sadr (RA) — visionary Shia scholar and martyr, whose works in Islamic economics and philosophy broke new intellectual ground'**
   String get dailyRoleModel49;
 
   /// No description provided for @dailyRoleModel50.
   ///
   /// In en, this message translates to:
-  /// **'Prophet Yunus (AS)'**
+  /// **'Umm Salamah (RA) — noble wife of the Prophet ﷺ, deeply devoted to the Ahl al-Bayt, who narrated many hadith and was a pillar of wisdom in the early community'**
   String get dailyRoleModel50;
 
   /// No description provided for @dailyRoleModel51.
   ///
   /// In en, this message translates to:
-  /// **'Prophet Ayub (AS)'**
+  /// **'Abdullah ibn Abbas (RA) — cousin of the Prophet ﷺ, ocean of knowledge in Quranic exegesis, who remained close to Imam Ali (AS)'**
   String get dailyRoleModel51;
 
   /// No description provided for @dailyRoleModel52.
   ///
   /// In en, this message translates to:
-  /// **'Ruqayyah bint Muhammad (RA)'**
+  /// **'Muadh ibn Jabal (RA) — companion of the Prophet ﷺ renowned for his knowledge of halal and haram, and his deep devotion to learning'**
   String get dailyRoleModel52;
 
   /// No description provided for @dailyRoleModel53.
   ///
   /// In en, this message translates to:
-  /// **'Zainab bint Muhammad (RA)'**
+  /// **'Musab ibn Umayr (RA) — the first ambassador of Islam, who sacrificed wealth and family for the truth of the faith'**
   String get dailyRoleModel53;
 
   /// No description provided for @dailyRoleModel54.
   ///
   /// In en, this message translates to:
-  /// **'Hassan ibn Ali (RA)'**
+  /// **'Umar ibn Abd al-Aziz (RH) — Umayyad caliph who sought to restore justice, lifted the cursing of Imam Ali (AS) from the pulpits, and is remembered for his piety'**
   String get dailyRoleModel54;
 
   /// No description provided for @dailyRoleModel55.
   ///
   /// In en, this message translates to:
-  /// **'Hussain ibn Ali (RA)'**
+  /// **'Fakhr al-Din al-Razi (RH) — great Islamic scholar and Quranic exegete whose Mafatih al-Ghayb engaged deeply with theology and philosophy'**
   String get dailyRoleModel55;
 
   /// No description provided for @dailyRoleModel56.
   ///
   /// In en, this message translates to:
-  /// **'Jafar ibn Abi Talib (RA)'**
+  /// **'Ibn Sina — Abu Ali al-Husayn ibn Sina (RH), the great Islamic philosopher and physician of Persian heritage whose Canon of Medicine shaped world science'**
   String get dailyRoleModel56;
 
   /// No description provided for @dailyRoleModel57.
   ///
   /// In en, this message translates to:
-  /// **'Abu Dharr al-Ghifari (RA)'**
+  /// **'Al-Biruni (RH) — the brilliant polymath of the Islamic Golden Age, a Persian scholar who advanced mathematics, astronomy, and the study of cultures'**
   String get dailyRoleModel57;
 
   /// No description provided for @dailyRoleModel58.
   ///
   /// In en, this message translates to:
-  /// **'Talha ibn Ubaydullah (RA)'**
+  /// **'Ibn Khaldun (RH) — the great North African Islamic historian and social thinker, founder of the philosophy of history and sociology'**
   String get dailyRoleModel58;
 
   /// No description provided for @dailyRoleModel59.
   ///
   /// In en, this message translates to:
-  /// **'Az-Zubayr ibn al-Awwam (RA)'**
+  /// **'Lady Nafisa bint al-Hasan (SA) — great-granddaughter of Imam Hasan (AS), renowned for her knowledge, piety, and intercession, deeply revered in the Shia tradition'**
   String get dailyRoleModel59;
 
   /// No description provided for @locationConsentLabel.
@@ -2785,7 +2623,7 @@ abstract class AppLocalizations {
   /// No description provided for @prayerNotifBodyFajr.
   ///
   /// In en, this message translates to:
-  /// **'The best of prayers is the dawn prayer. Rise, purify yourself, and stand before Allah.'**
+  /// **'Fajr is the prayer of the Ahl al-Bayt\'s mornings. Imam Ali (AS) said: Guard the dawn prayer as you guard your most precious trust. Rise, purify yourself, and stand before Allah.'**
   String get prayerNotifBodyFajr;
 
   /// No description provided for @prayerNotifTitleDhuhr.
@@ -2797,7 +2635,7 @@ abstract class AppLocalizations {
   /// No description provided for @prayerNotifBodyDhuhr.
   ///
   /// In en, this message translates to:
-  /// **'Pause your day and return to Allah. Dhuhr prayer time has arrived.'**
+  /// **'The Imams of the Ahl al-Bayt prized every moment of remembrance. Pause your day, combine Dhuhr with Asr if needed, and return your heart to Allah.'**
   String get prayerNotifBodyDhuhr;
 
   /// No description provided for @prayerNotifTitleAsr.
@@ -2809,7 +2647,7 @@ abstract class AppLocalizations {
   /// No description provided for @prayerNotifBodyAsr.
   ///
   /// In en, this message translates to:
-  /// **'Guard the middle prayer. Asr time has come — do not let it pass.'**
+  /// **'Guard the prayer, for it is the covenant between you and Allah. Asr time has come — do not let it pass without remembrance.'**
   String get prayerNotifBodyAsr;
 
   /// No description provided for @prayerNotifTitleMaghrib.
@@ -2821,7 +2659,7 @@ abstract class AppLocalizations {
   /// No description provided for @prayerNotifBodyMaghrib.
   ///
   /// In en, this message translates to:
-  /// **'The sun has set. Offer Maghrib and be grateful to Allah for this day.'**
+  /// **'The sun has set — a moment the Ahl al-Bayt held sacred for supplication. Offer Maghrib and open your hands to Allah in dua before the night begins.'**
   String get prayerNotifBodyMaghrib;
 
   /// No description provided for @prayerNotifTitleIsha.
@@ -2833,7 +2671,7 @@ abstract class AppLocalizations {
   /// No description provided for @prayerNotifBodyIsha.
   ///
   /// In en, this message translates to:
-  /// **'End your day with remembrance of Allah. Hayya \'alal falah — come to success.'**
+  /// **'End your day in the company of Allah. The Imams encouraged Salat al-Layl after Isha — but first, complete your Isha and close the day with His remembrance.'**
   String get prayerNotifBodyIsha;
 
   /// No description provided for @outOfReflectionsBannerText.
@@ -2887,7 +2725,7 @@ abstract class AppLocalizations {
   /// No description provided for @disclaimerBody.
   ///
   /// In en, this message translates to:
-  /// **'Ayara provides Islamic reflections, reminders, and spiritual content to support your personal journey of faith. This content is offered for general informational and inspirational purposes only.\n\nAyara does not replace qualified scholarship.\nThe guidance in this app is not a substitute for a learned Islamic scholar, imam, mufti, or theologically trained teacher. If you have questions about religious rulings, halal and haram matters, or personal religious obligations, please seek advice from a qualified religious authority in your community.\n\nThis app does not issue religious rulings.\nAyara does not make authoritative determinations on matters of fiqh (Islamic jurisprudence) or personal religious obligations. Nothing here should be treated as a fatwa or binding religious instruction.\n\nScholarly interpretations vary.\nIslam encompasses a rich diversity of traditions, schools of thought (madhabs), and scholarly opinions. Content in this app reflects general perspectives and may not represent every tradition or school equally.\n\nCommunity matters.\nThis app aims to encourage your engagement with faith traditions while deeply respecting the vital role of your local mosque, imam, and religious community. We encourage you to stay connected with and learn from qualified teachers near you.'**
+  /// **'Ayara provides Islamic reflections, reminders, and spiritual content to support your personal journey of faith, rooted in the Quran and the teachings of the Ahl al-Bayt. This content is offered for general informational and inspirational purposes only.\n\nAyara does not replace qualified scholarship.\nThe guidance in this app is not a substitute for a learned Islamic scholar, marja\', or theologically trained teacher. In Shia Islam, religious guidance is rooted in the Ja\'fari school of jurisprudence (fiqh) and the tradition of following a living Marja\' (source of emulation) — a qualified jurist whose rulings guide believers in religious practice. If you have questions about religious rulings, halal and haram matters, or personal religious obligations, please seek advice from a qualified Marja\' or a scholar in your community.\n\nThis app does not issue religious rulings.\nAyara does not make authoritative determinations on matters of fiqh or personal religious obligations. Nothing here should be treated as a fatwa or binding religious instruction.\n\nThe centrality of the Ahl al-Bayt.\nIn Shia Islam, the Prophet Muhammad ﷺ and his purified household — the Ahl al-Bayt — are the authoritative guides of the Islamic community after the Quran. The twelve Imams of the Ahl al-Bayt are the divinely appointed interpreters of Islamic teaching. Content in this app reflects this tradition and seeks to honour it faithfully.\n\nCommunity matters.\nThis app aims to encourage your engagement with faith while deeply respecting the vital role of your local mosque, Islamic centre, and religious community. We encourage you to stay connected with and learn from qualified teachers near you.'**
   String get disclaimerBody;
 
   /// No description provided for @disclaimerClose.
@@ -2913,6 +2751,906 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Guidance disclaimer'**
   String get disclaimerSectionHeader;
+
+  /// No description provided for @navHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Home'**
+  String get navHome;
+
+  /// No description provided for @navReflect.
+  ///
+  /// In en, this message translates to:
+  /// **'Reflect'**
+  String get navReflect;
+
+  /// No description provided for @navDuas.
+  ///
+  /// In en, this message translates to:
+  /// **'Duas'**
+  String get navDuas;
+
+  /// No description provided for @navCalendar.
+  ///
+  /// In en, this message translates to:
+  /// **'Calendar'**
+  String get navCalendar;
+
+  /// No description provided for @dashboardToday.
+  ///
+  /// In en, this message translates to:
+  /// **'TODAY'**
+  String get dashboardToday;
+
+  /// No description provided for @dashboardComingUp.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming up'**
+  String get dashboardComingUp;
+
+  /// No description provided for @dashboardDaysUnit.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, one {day} other {days}}'**
+  String dashboardDaysUnit(num count);
+
+  /// No description provided for @dashboardQuickAccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Quick Access'**
+  String get dashboardQuickAccess;
+
+  /// No description provided for @quickActionQibla.
+  ///
+  /// In en, this message translates to:
+  /// **'Qibla'**
+  String get quickActionQibla;
+
+  /// No description provided for @quickActionDhikr.
+  ///
+  /// In en, this message translates to:
+  /// **'Dhikr'**
+  String get quickActionDhikr;
+
+  /// No description provided for @quickActionDailyGrace.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily Grace'**
+  String get quickActionDailyGrace;
+
+  /// No description provided for @quickActionPrayerTimes.
+  ///
+  /// In en, this message translates to:
+  /// **'Prayer Times'**
+  String get quickActionPrayerTimes;
+
+  /// No description provided for @askAyaraTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Ask Ayara'**
+  String get askAyaraTitle;
+
+  /// No description provided for @askAyaraSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Ask any Islamic question and receive a thoughtful, guided answer.'**
+  String get askAyaraSubtitle;
+
+  /// No description provided for @askAyaraHint.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g. What is the significance of Ramadan?'**
+  String get askAyaraHint;
+
+  /// No description provided for @askAyaraSubmit.
+  ///
+  /// In en, this message translates to:
+  /// **'Ask'**
+  String get askAyaraSubmit;
+
+  /// No description provided for @wisdomOfTheDayTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Wisdom of the Day'**
+  String get wisdomOfTheDayTitle;
+
+  /// No description provided for @wisdomQuote0.
+  ///
+  /// In en, this message translates to:
+  /// **'The best of people is the one most beneficial to others.'**
+  String get wisdomQuote0;
+
+  /// No description provided for @wisdomQuoteSource0.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali (AS)'**
+  String get wisdomQuoteSource0;
+
+  /// No description provided for @wisdomQuote1.
+  ///
+  /// In en, this message translates to:
+  /// **'Silence is the garden of contemplation.'**
+  String get wisdomQuote1;
+
+  /// No description provided for @wisdomQuoteSource1.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali (AS)'**
+  String get wisdomQuoteSource1;
+
+  /// No description provided for @wisdomQuote2.
+  ///
+  /// In en, this message translates to:
+  /// **'Do not be a slave to others when Allah has created you free.'**
+  String get wisdomQuote2;
+
+  /// No description provided for @wisdomQuoteSource2.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali (AS)'**
+  String get wisdomQuoteSource2;
+
+  /// No description provided for @wisdomQuote3.
+  ///
+  /// In en, this message translates to:
+  /// **'Whoever knows himself, knows his Lord.'**
+  String get wisdomQuote3;
+
+  /// No description provided for @wisdomQuoteSource3.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali (AS)'**
+  String get wisdomQuoteSource3;
+
+  /// No description provided for @wisdomQuote4.
+  ///
+  /// In en, this message translates to:
+  /// **'If eyes were to weep for something that deserves weeping, they should weep for the death of the heart.'**
+  String get wisdomQuote4;
+
+  /// No description provided for @wisdomQuoteSource4.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali (AS)'**
+  String get wisdomQuoteSource4;
+
+  /// No description provided for @wisdomQuote5.
+  ///
+  /// In en, this message translates to:
+  /// **'Be patient, for patience is to faith as the head is to the body.'**
+  String get wisdomQuote5;
+
+  /// No description provided for @wisdomQuoteSource5.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali (AS)'**
+  String get wisdomQuoteSource5;
+
+  /// No description provided for @wisdomQuote6.
+  ///
+  /// In en, this message translates to:
+  /// **'Teach your tongue to say \"I do not know,\" lest you say what you do not know.'**
+  String get wisdomQuote6;
+
+  /// No description provided for @wisdomQuoteSource6.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali (AS)'**
+  String get wisdomQuoteSource6;
+
+  /// No description provided for @wisdomQuote7.
+  ///
+  /// In en, this message translates to:
+  /// **'The tongue of the wise man lies behind his heart.'**
+  String get wisdomQuote7;
+
+  /// No description provided for @wisdomQuoteSource7.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali (AS)'**
+  String get wisdomQuoteSource7;
+
+  /// No description provided for @wisdomQuote8.
+  ///
+  /// In en, this message translates to:
+  /// **'Generosity is that which comes from oneself without request.'**
+  String get wisdomQuote8;
+
+  /// No description provided for @wisdomQuoteSource8.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Husayn (AS)'**
+  String get wisdomQuoteSource8;
+
+  /// No description provided for @wisdomQuote9.
+  ///
+  /// In en, this message translates to:
+  /// **'If you do not believe in religion and do not fear the Day of Judgment, then at least be free in your world.'**
+  String get wisdomQuote9;
+
+  /// No description provided for @wisdomQuoteSource9.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Husayn (AS)'**
+  String get wisdomQuoteSource9;
+
+  /// No description provided for @wisdomQuote10.
+  ///
+  /// In en, this message translates to:
+  /// **'Death is nothing but a bridge which you cross from misery to joy.'**
+  String get wisdomQuote10;
+
+  /// No description provided for @wisdomQuoteSource10.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Husayn (AS)'**
+  String get wisdomQuoteSource10;
+
+  /// No description provided for @wisdomQuote11.
+  ///
+  /// In en, this message translates to:
+  /// **'People are slaves to this world; religion is only on their tongues. They circle it as long as it sustains them, but when trials come, the truly religious are few.'**
+  String get wisdomQuote11;
+
+  /// No description provided for @wisdomQuoteSource11.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Husayn (AS)'**
+  String get wisdomQuoteSource11;
+
+  /// No description provided for @wisdomQuote12.
+  ///
+  /// In en, this message translates to:
+  /// **'The most generous person is the one who gives to those who have no hope in him.'**
+  String get wisdomQuote12;
+
+  /// No description provided for @wisdomQuoteSource12.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Husayn (AS)'**
+  String get wisdomQuoteSource12;
+
+  /// No description provided for @wisdomQuote13.
+  ///
+  /// In en, this message translates to:
+  /// **'Supplicate Allah but know that Allah does not respond to a heart that is heedless and inattentive.'**
+  String get wisdomQuote13;
+
+  /// No description provided for @wisdomQuoteSource13.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Sadiq (AS)'**
+  String get wisdomQuoteSource13;
+
+  /// No description provided for @wisdomQuote14.
+  ///
+  /// In en, this message translates to:
+  /// **'Be careful to have truthful friends and try to obtain them, for they are your support in ease and your defense in hardship.'**
+  String get wisdomQuote14;
+
+  /// No description provided for @wisdomQuoteSource14.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Sadiq (AS)'**
+  String get wisdomQuoteSource14;
+
+  /// No description provided for @wisdomQuote15.
+  ///
+  /// In en, this message translates to:
+  /// **'The most complete of you in intellect is the best of you in character.'**
+  String get wisdomQuote15;
+
+  /// No description provided for @wisdomQuoteSource15.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Sadiq (AS)'**
+  String get wisdomQuoteSource15;
+
+  /// No description provided for @wisdomQuote16.
+  ///
+  /// In en, this message translates to:
+  /// **'Whoever is content with what Allah has apportioned him is the richest of people.'**
+  String get wisdomQuote16;
+
+  /// No description provided for @wisdomQuoteSource16.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Sadiq (AS)'**
+  String get wisdomQuoteSource16;
+
+  /// No description provided for @wisdomQuote17.
+  ///
+  /// In en, this message translates to:
+  /// **'Sit with the wise, even if that means sitting in silence.'**
+  String get wisdomQuote17;
+
+  /// No description provided for @wisdomQuoteSource17.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Sadiq (AS)'**
+  String get wisdomQuoteSource17;
+
+  /// No description provided for @wisdomQuote18.
+  ///
+  /// In en, this message translates to:
+  /// **'One who has three qualities will not regret: avoiding haste, consulting others, and trusting Allah.'**
+  String get wisdomQuote18;
+
+  /// No description provided for @wisdomQuoteSource18.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Baqir (AS)'**
+  String get wisdomQuoteSource18;
+
+  /// No description provided for @wisdomQuote19.
+  ///
+  /// In en, this message translates to:
+  /// **'No one can truly worship Allah without knowing Him.'**
+  String get wisdomQuote19;
+
+  /// No description provided for @wisdomQuoteSource19.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Baqir (AS)'**
+  String get wisdomQuoteSource19;
+
+  /// No description provided for @wisdomQuote20.
+  ///
+  /// In en, this message translates to:
+  /// **'Beware of laziness and boredom, for they are the keys to every evil.'**
+  String get wisdomQuote20;
+
+  /// No description provided for @wisdomQuoteSource20.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Ridha (AS)'**
+  String get wisdomQuoteSource20;
+
+  /// No description provided for @wisdomQuote21.
+  ///
+  /// In en, this message translates to:
+  /// **'Faith is acknowledgment with the heart, confession with the tongue, and action with the limbs.'**
+  String get wisdomQuote21;
+
+  /// No description provided for @wisdomQuoteSource21.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Ridha (AS)'**
+  String get wisdomQuoteSource21;
+
+  /// No description provided for @wisdomQuote22.
+  ///
+  /// In en, this message translates to:
+  /// **'Friendship is not sincere unless it passes through three stages: if you did not achieve it from him in hardship, do not count it in ease.'**
+  String get wisdomQuote22;
+
+  /// No description provided for @wisdomQuoteSource22.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Kadhim (AS)'**
+  String get wisdomQuoteSource22;
+
+  /// No description provided for @wisdomQuote23.
+  ///
+  /// In en, this message translates to:
+  /// **'The likeness of this world is like a serpent — soft to the touch but with deadly venom inside.'**
+  String get wisdomQuote23;
+
+  /// No description provided for @wisdomQuoteSource23.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali (AS)'**
+  String get wisdomQuoteSource23;
+
+  /// No description provided for @wisdomQuote24.
+  ///
+  /// In en, this message translates to:
+  /// **'How many a lesson there is, yet how few who learn.'**
+  String get wisdomQuote24;
+
+  /// No description provided for @wisdomQuoteSource24.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali (AS)'**
+  String get wisdomQuoteSource24;
+
+  /// No description provided for @wisdomQuote25.
+  ///
+  /// In en, this message translates to:
+  /// **'Take from this world what comes to you and turn away from what turns away from you.'**
+  String get wisdomQuote25;
+
+  /// No description provided for @wisdomQuoteSource25.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Sajjad (AS)'**
+  String get wisdomQuoteSource25;
+
+  /// No description provided for @wisdomQuote26.
+  ///
+  /// In en, this message translates to:
+  /// **'Rights are the most binding of all things, and whoever fulfils them most with people is most trustworthy before Allah.'**
+  String get wisdomQuote26;
+
+  /// No description provided for @wisdomQuoteSource26.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Sajjad (AS)'**
+  String get wisdomQuoteSource26;
+
+  /// No description provided for @wisdomQuote27.
+  ///
+  /// In en, this message translates to:
+  /// **'He who does not have wisdom does not have religion, and he who does not have generosity does not have manners.'**
+  String get wisdomQuote27;
+
+  /// No description provided for @wisdomQuoteSource27.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Hasan (AS)'**
+  String get wisdomQuoteSource27;
+
+  /// No description provided for @wisdomQuote28.
+  ///
+  /// In en, this message translates to:
+  /// **'Do not make an enemy of someone until you know what is between him and Allah.'**
+  String get wisdomQuote28;
+
+  /// No description provided for @wisdomQuoteSource28.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali al-Hadi (AS)'**
+  String get wisdomQuoteSource28;
+
+  /// No description provided for @wisdomQuote29.
+  ///
+  /// In en, this message translates to:
+  /// **'The world is a market in which some profit and others lose.'**
+  String get wisdomQuote29;
+
+  /// No description provided for @wisdomQuoteSource29.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali (AS)'**
+  String get wisdomQuoteSource29;
+
+  /// No description provided for @wisdomQuote30.
+  ///
+  /// In en, this message translates to:
+  /// **'O son of Adam, if you collect more than what you need, you are only keeping it for others.'**
+  String get wisdomQuote30;
+
+  /// No description provided for @wisdomQuoteSource30.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam Ali (AS)'**
+  String get wisdomQuoteSource30;
+
+  /// No description provided for @calendarScreenTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Islamic Calendar'**
+  String get calendarScreenTitle;
+
+  /// No description provided for @calendarUpcomingOccasions.
+  ///
+  /// In en, this message translates to:
+  /// **'Upcoming Occasions'**
+  String get calendarUpcomingOccasions;
+
+  /// No description provided for @calendarOccasionRemindersTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Occasion Reminders'**
+  String get calendarOccasionRemindersTitle;
+
+  /// No description provided for @calendarOccasionRemindersHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Notified the evening before each occasion'**
+  String get calendarOccasionRemindersHint;
+
+  /// No description provided for @calendarNotifPermissionDenied.
+  ///
+  /// In en, this message translates to:
+  /// **'Notification permission denied. Enable it in your device settings.'**
+  String get calendarNotifPermissionDenied;
+
+  /// No description provided for @calendarNoEvents.
+  ///
+  /// In en, this message translates to:
+  /// **'No upcoming events found.'**
+  String get calendarNoEvents;
+
+  /// No description provided for @calendarCountdownToday.
+  ///
+  /// In en, this message translates to:
+  /// **'TODAY'**
+  String get calendarCountdownToday;
+
+  /// No description provided for @calendarCountdownTomorrow.
+  ///
+  /// In en, this message translates to:
+  /// **'TOMORROW'**
+  String get calendarCountdownTomorrow;
+
+  /// No description provided for @calendarCountdownDays.
+  ///
+  /// In en, this message translates to:
+  /// **'in {days} days'**
+  String calendarCountdownDays(int days);
+
+  /// No description provided for @calendarAH.
+  ///
+  /// In en, this message translates to:
+  /// **'AH'**
+  String get calendarAH;
+
+  /// No description provided for @calendarMonthJan.
+  ///
+  /// In en, this message translates to:
+  /// **'Jan'**
+  String get calendarMonthJan;
+
+  /// No description provided for @calendarMonthFeb.
+  ///
+  /// In en, this message translates to:
+  /// **'Feb'**
+  String get calendarMonthFeb;
+
+  /// No description provided for @calendarMonthMar.
+  ///
+  /// In en, this message translates to:
+  /// **'Mar'**
+  String get calendarMonthMar;
+
+  /// No description provided for @calendarMonthApr.
+  ///
+  /// In en, this message translates to:
+  /// **'Apr'**
+  String get calendarMonthApr;
+
+  /// No description provided for @calendarMonthMay.
+  ///
+  /// In en, this message translates to:
+  /// **'May'**
+  String get calendarMonthMay;
+
+  /// No description provided for @calendarMonthJun.
+  ///
+  /// In en, this message translates to:
+  /// **'Jun'**
+  String get calendarMonthJun;
+
+  /// No description provided for @calendarMonthJul.
+  ///
+  /// In en, this message translates to:
+  /// **'Jul'**
+  String get calendarMonthJul;
+
+  /// No description provided for @calendarMonthAug.
+  ///
+  /// In en, this message translates to:
+  /// **'Aug'**
+  String get calendarMonthAug;
+
+  /// No description provided for @calendarMonthSep.
+  ///
+  /// In en, this message translates to:
+  /// **'Sep'**
+  String get calendarMonthSep;
+
+  /// No description provided for @calendarMonthOct.
+  ///
+  /// In en, this message translates to:
+  /// **'Oct'**
+  String get calendarMonthOct;
+
+  /// No description provided for @calendarMonthNov.
+  ///
+  /// In en, this message translates to:
+  /// **'Nov'**
+  String get calendarMonthNov;
+
+  /// No description provided for @calendarMonthDec.
+  ///
+  /// In en, this message translates to:
+  /// **'Dec'**
+  String get calendarMonthDec;
+
+  /// No description provided for @calendarSeasonMuharramEarly.
+  ///
+  /// In en, this message translates to:
+  /// **'Days of Muharram — remember Karbala'**
+  String get calendarSeasonMuharramEarly;
+
+  /// No description provided for @calendarSeasonAshura.
+  ///
+  /// In en, this message translates to:
+  /// **'Ashura — Ya Husayn (AS)'**
+  String get calendarSeasonAshura;
+
+  /// No description provided for @calendarSeasonMuharramLate.
+  ///
+  /// In en, this message translates to:
+  /// **'Muharram — days of mourning and reflection'**
+  String get calendarSeasonMuharramLate;
+
+  /// No description provided for @calendarSeasonArbaeen.
+  ///
+  /// In en, this message translates to:
+  /// **'Arbaeen — forty days of Husayn'**
+  String get calendarSeasonArbaeen;
+
+  /// No description provided for @calendarSeasonRoadToArbaeen.
+  ///
+  /// In en, this message translates to:
+  /// **'The road to Arbaeen'**
+  String get calendarSeasonRoadToArbaeen;
+
+  /// No description provided for @calendarSeasonMabath.
+  ///
+  /// In en, this message translates to:
+  /// **'Mab\'ath Mubarak — the dawn of revelation'**
+  String get calendarSeasonMabath;
+
+  /// No description provided for @calendarSeasonMidShaban.
+  ///
+  /// In en, this message translates to:
+  /// **'Mid-Sha\'ban — birthday of Imam al-Mahdi (AJ)'**
+  String get calendarSeasonMidShaban;
+
+  /// No description provided for @calendarSeasonRamadan.
+  ///
+  /// In en, this message translates to:
+  /// **'Ramadan Mubarak — the month of the Quran'**
+  String get calendarSeasonRamadan;
+
+  /// No description provided for @calendarSeasonGhadir.
+  ///
+  /// In en, this message translates to:
+  /// **'Eid al-Ghadir Mubarak!'**
+  String get calendarSeasonGhadir;
+
+  /// No description provided for @hijriMonth1.
+  ///
+  /// In en, this message translates to:
+  /// **'Muharram'**
+  String get hijriMonth1;
+
+  /// No description provided for @hijriMonth2.
+  ///
+  /// In en, this message translates to:
+  /// **'Safar'**
+  String get hijriMonth2;
+
+  /// No description provided for @hijriMonth3.
+  ///
+  /// In en, this message translates to:
+  /// **'Rabi\' al-Awwal'**
+  String get hijriMonth3;
+
+  /// No description provided for @hijriMonth4.
+  ///
+  /// In en, this message translates to:
+  /// **'Rabi\' al-Thani'**
+  String get hijriMonth4;
+
+  /// No description provided for @hijriMonth5.
+  ///
+  /// In en, this message translates to:
+  /// **'Jumada al-Awwal'**
+  String get hijriMonth5;
+
+  /// No description provided for @hijriMonth6.
+  ///
+  /// In en, this message translates to:
+  /// **'Jumada al-Thani'**
+  String get hijriMonth6;
+
+  /// No description provided for @hijriMonth7.
+  ///
+  /// In en, this message translates to:
+  /// **'Rajab'**
+  String get hijriMonth7;
+
+  /// No description provided for @hijriMonth8.
+  ///
+  /// In en, this message translates to:
+  /// **'Sha\'ban'**
+  String get hijriMonth8;
+
+  /// No description provided for @hijriMonth9.
+  ///
+  /// In en, this message translates to:
+  /// **'Ramadan'**
+  String get hijriMonth9;
+
+  /// No description provided for @hijriMonth10.
+  ///
+  /// In en, this message translates to:
+  /// **'Shawwal'**
+  String get hijriMonth10;
+
+  /// No description provided for @hijriMonth11.
+  ///
+  /// In en, this message translates to:
+  /// **'Dhu al-Qi\'da'**
+  String get hijriMonth11;
+
+  /// No description provided for @hijriMonth12.
+  ///
+  /// In en, this message translates to:
+  /// **'Dhu al-Hijja'**
+  String get hijriMonth12;
+
+  /// No description provided for @duasScreenTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Duas & Ziyarat'**
+  String get duasScreenTitle;
+
+  /// No description provided for @duasSearchHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Search duas, ziyarat…'**
+  String get duasSearchHint;
+
+  /// No description provided for @duasFilterAll.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get duasFilterAll;
+
+  /// No description provided for @duasCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, one {{count} dua} other {{count} duas & ziyarat}}'**
+  String duasCount(int count);
+
+  /// No description provided for @duasEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No duas found.'**
+  String get duasEmpty;
+
+  /// No description provided for @duaCategoryDaily.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily'**
+  String get duaCategoryDaily;
+
+  /// No description provided for @duaCategoryWeekly.
+  ///
+  /// In en, this message translates to:
+  /// **'Weekly'**
+  String get duaCategoryWeekly;
+
+  /// No description provided for @duaCategoryOccasions.
+  ///
+  /// In en, this message translates to:
+  /// **'Occasions'**
+  String get duaCategoryOccasions;
+
+  /// No description provided for @duaCategoryZiyarat.
+  ///
+  /// In en, this message translates to:
+  /// **'Ziyarat'**
+  String get duaCategoryZiyarat;
+
+  /// No description provided for @duaCategoryTasbih.
+  ///
+  /// In en, this message translates to:
+  /// **'Tasbih'**
+  String get duaCategoryTasbih;
+
+  /// No description provided for @eventTypeBirth.
+  ///
+  /// In en, this message translates to:
+  /// **'Birth'**
+  String get eventTypeBirth;
+
+  /// No description provided for @eventTypeMartyrdom.
+  ///
+  /// In en, this message translates to:
+  /// **'Martyrdom'**
+  String get eventTypeMartyrdom;
+
+  /// No description provided for @eventTypeOccasion.
+  ///
+  /// In en, this message translates to:
+  /// **'Occasion'**
+  String get eventTypeOccasion;
+
+  /// No description provided for @duaCopyTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy translation'**
+  String get duaCopyTooltip;
+
+  /// No description provided for @duaToggleTransliteration.
+  ///
+  /// In en, this message translates to:
+  /// **'Transliteration'**
+  String get duaToggleTransliteration;
+
+  /// No description provided for @duaToggleTranslation.
+  ///
+  /// In en, this message translates to:
+  /// **'Translation'**
+  String get duaToggleTranslation;
+
+  /// No description provided for @duaAskAiLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Ask Ayara to explain this dua'**
+  String get duaAskAiLabel;
+
+  /// No description provided for @duaAskAiLockedLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Ask Ayara (Wilaya)'**
+  String get duaAskAiLockedLabel;
+
+  /// No description provided for @duaAiLockedMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Ayara explanations are available for Wilaya members. Upgrade in Settings.'**
+  String get duaAiLockedMessage;
+
+  /// No description provided for @duaAiComingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Ask Ayara about \"{name}\" — coming soon!'**
+  String duaAiComingSoon(String name);
+
+  /// No description provided for @duaCopiedToast.
+  ///
+  /// In en, this message translates to:
+  /// **'Dua copied to clipboard.'**
+  String get duaCopiedToast;
+
+  /// No description provided for @tasbihAllahuAkbarMeaning.
+  ///
+  /// In en, this message translates to:
+  /// **'Allah is the Greatest'**
+  String get tasbihAllahuAkbarMeaning;
+
+  /// No description provided for @tasbihAlhamdulillahMeaning.
+  ///
+  /// In en, this message translates to:
+  /// **'All praise belongs to Allah'**
+  String get tasbihAlhamdulillahMeaning;
+
+  /// No description provided for @tasbihSubhanallahMeaning.
+  ///
+  /// In en, this message translates to:
+  /// **'Glory be to Allah'**
+  String get tasbihSubhanallahMeaning;
+
+  /// No description provided for @tasbihResetTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset'**
+  String get tasbihResetTooltip;
+
+  /// No description provided for @tasbihCompleteTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Tasbih Complete'**
+  String get tasbihCompleteTitle;
+
+  /// No description provided for @tasbihCompleteMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'May Allah accept your dhikr.'**
+  String get tasbihCompleteMessage;
+
+  /// No description provided for @tasbihTapHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap anywhere to count'**
+  String get tasbihTapHint;
 }
 
 class _AppLocalizationsDelegate

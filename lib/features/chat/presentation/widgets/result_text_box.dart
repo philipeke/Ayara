@@ -111,10 +111,10 @@ class _ResultTextBoxState extends State<ResultTextBox>
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
-    // ✅ Ayara light panel styling
-    final panelBg = AppColors.warmWhite.withValues(alpha: 0.96);
-    final panelBorder = AppColors.gold.withValues(alpha: 0.35);
-    final textColor = AppColors.navy;
+    // ✅ Ayara dark panel styling
+    final panelBg = AppColors.navy.withValues(alpha: 0.88);
+    final panelBorder = AppColors.gold.withValues(alpha: 0.30);
+    final textColor = AppColors.textPrimary;
 
     return GestureDetector(
       onTap: _skip,
@@ -164,7 +164,7 @@ class _ResultTextBoxState extends State<ResultTextBox>
                           dots,
                           style: TextStyle(
                             fontSize: 24,
-                            color: AppColors.navy.withValues(alpha: 0.35),
+                            color: AppColors.textPrimary.withValues(alpha: 0.35),
                             letterSpacing: 3,
                           ),
                         );

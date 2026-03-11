@@ -10,7 +10,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:ayara/features/auth/widgets/ai_wave_loader.dart';
 import 'package:ayara/features/auth/controllers/auth_gate_controller.dart';
 
-import 'package:ayara/features/chat/presentation/screens/category_screen.dart';
+import 'package:ayara/features/home/home_shell.dart';
 import 'package:ayara/features/limit/usage_refresh_service.dart';
 import 'package:ayara/features/qibla/services/prayer_notification_service.dart';
 import 'package:ayara/l10n/app_localizations.dart';
@@ -135,7 +135,7 @@ class _AuthGateScreenState extends State<AuthGateScreen> {
   Future<void> _goHome() async {
     if (!mounted) return;
     Navigator.of(context).pushAndRemoveUntil(
-      MaterialPageRoute(builder: (_) => const CategoryScreen()),
+      MaterialPageRoute(builder: (_) => const HomeShell()),
       (route) => false,
     );
   }
@@ -177,8 +177,8 @@ class _AuthGateScreenState extends State<AuthGateScreen> {
       context: context,
       barrierDismissible: true,
       builder: (ctx) => AlertDialog(
-        title: Text(t.guestNoReflectionsTitle),
-        content: Text(t.guestNoReflectionsBody),
+        title: Text(t.guestNoCreditsTitle),
+        content: Text(t.guestNoCreditsBody),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(ctx).pop(false),

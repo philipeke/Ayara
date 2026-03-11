@@ -83,7 +83,7 @@ export const ensureUserDefaults = auth.user().onCreate(async (user) => {
     tx.set(
       userRef,
       {
-        plan: "grace",
+        plan: "basic",
         creditsTotal: 0,
         creditsUsed: 0,
         authCreatedAt: now,

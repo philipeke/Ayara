@@ -46,7 +46,7 @@ class AiLimitSection extends StatelessWidget {
                       Text(
                         t.guestMode,
                         style: theme.textTheme.labelMedium?.copyWith(
-                          color: theme.colorScheme.outline,
+                          color: theme.colorScheme.onSurfaceVariant,
                         ),
                       ),
                     ],
@@ -55,7 +55,7 @@ class AiLimitSection extends StatelessWidget {
                   Text(
                     t.rateGuestMustSignIn,
                     style: theme.textTheme.bodySmall?.copyWith(
-                      color: theme.colorScheme.outline,
+                      color: theme.colorScheme.onSurfaceVariant,
                       height: 1.35,
                     ),
                   ),
@@ -90,7 +90,7 @@ class AiLimitSection extends StatelessWidget {
                       Text(
                         '…',
                         style: theme.textTheme.labelMedium?.copyWith(
-                          color: theme.colorScheme.outline,
+                          color: theme.colorScheme.onSurfaceVariant,
                         ),
                       ),
                     ],
@@ -112,7 +112,7 @@ class AiLimitSection extends StatelessWidget {
                       Text(
                         t.limitLoadingLabel,
                         style: theme.textTheme.bodySmall?.copyWith(
-                          color: theme.colorScheme.outline,
+                          color: theme.colorScheme.onSurfaceVariant,
                         ),
                       ),
                     ],
@@ -130,9 +130,9 @@ class AiLimitSection extends StatelessWidget {
         // progress = andel kvar (OK att den baseras på total, men texten visar bara remaining)
         final double remainingFraction = (remaining / total).clamp(0.0, 1.0);
 
-        // Ayara plan naming: "grace" | "blessed" | "guest"
-        final bool isBlessed = usage.plan == 'blessed';
-        final String planLabel = isBlessed ? t.planBlessed : t.planGrace;
+        // Plan: "basic" | "premium" | "guest"
+        final bool isPremium = usage.plan == 'premium';
+        final String planLabel = isPremium ? t.planPremium : t.planBasic;
 
         return Card(
           color: theme.colorScheme.surface.withOpacity(0.9),
@@ -158,7 +158,7 @@ class AiLimitSection extends StatelessWidget {
                     Text(
                       t.limitPlanLabel(planLabel),
                       style: theme.textTheme.labelMedium?.copyWith(
-                        color: theme.colorScheme.outline,
+                        color: theme.colorScheme.onSurfaceVariant,
                       ),
                     ),
                   ],
@@ -171,20 +171,20 @@ class AiLimitSection extends StatelessWidget {
                   // "Remaining Reflections" / "Kvarvarande Reflections" osv.
                   text: t.limitCreditsLabel(remaining),
                   fraction: remainingFraction,
-                  isBlessed: isBlessed,
+                  isPremium: isPremium,
                 ),
 
-                if (isBlessed) ...[
+                if (isPremium) ...[
                   const SizedBox(height: 10),
                   Text(
-                    t.blessedDescription,
+                    t.premiumDescription,
                     style: theme.textTheme.bodySmall?.copyWith(
-                      color: theme.colorScheme.outline,
+                      color: theme.colorScheme.onSurfaceVariant,
                       height: 1.3,
                     ),
                   ),
                 ],
-                if (!isBlessed && remaining <= 0) ...[
+                if (!isPremium && remaining <= 0) ...[
                   const SizedBox(height: 10),
                   Row(
                     children: [
@@ -216,12 +216,12 @@ class AiLimitSection extends StatelessWidget {
 class _RemainingRow extends StatelessWidget {
   final String text;
   final double fraction;
-  final bool isBlessed;
+  final bool isPremium;
 
   const _RemainingRow({
     required this.text,
     required this.fraction,
-    required this.isBlessed,
+    required this.isPremium,
   });
 
   @override
@@ -230,7 +230,7 @@ class _RemainingRow extends StatelessWidget {
 
     // Gold for Blessed, otherwise primary
     final Color barColor =
-        isBlessed ? const Color(0xFFFFC107) : theme.colorScheme.primary;
+        isPremium ? const Color(0xFFFFC107) : theme.colorScheme.primary;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,

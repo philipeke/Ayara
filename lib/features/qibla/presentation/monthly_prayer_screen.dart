@@ -172,9 +172,8 @@ class _MonthlyPrayerScreenState extends State<MonthlyPrayerScreen> {
                       IconButton(
                         icon: const Icon(
                           Icons.arrow_back_ios_new_rounded,
-                          size: 26,
+                          color: AppColors.gold,
                         ),
-                        color: Colors.white.withValues(alpha: 0.85),
                         onPressed: () => Navigator.of(context).pop(),
                       ),
                       Expanded(

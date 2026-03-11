@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:ayara/core/config/theme.dart';
 import 'package:ayara/l10n/app_localizations.dart';
 import 'package:ayara/features/limit/usage_service.dart';
+import 'package:ayara/features/home/home_shell.dart';
 
 class CategoryHeader extends StatefulWidget implements PreferredSizeWidget {
   const CategoryHeader({super.key, this.showTitle = true});
@@ -44,25 +45,19 @@ class _CategoryHeaderState extends State<CategoryHeader>
     final snap = UsageService.instance.current;
     final remaining = snap?.creditsRemaining;
 
-    if (remaining == null) return t.reflectionsRemainingLabel('—');
-    return t.reflectionsRemainingLabel(remaining);
+    if (remaining == null) return t.creditsRemainingLabel('—');
+    return t.creditsRemainingLabel(remaining);
   }
 
-  bool _isBlessed() {
+  bool _isPremium() {
     final snap = UsageService.instance.current;
-    return (snap?.plan ?? 'grace') == 'blessed';
+    return (snap?.plan ?? 'basic') == 'premium';
   }
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final t = AppLocalizations.of(context)!;
-    final size = MediaQuery.of(context).size;
-
-    // Logo rendered at a fixed height — wider than tall so BoxFit.contain
-    // scales it up without changing the header's vertical footprint.
-    final logoHeight = size.width * 0.52;
-    final logoWidth = size.width * 0.72;
 
     return LayoutBuilder(
       builder: (context, constraints) {
@@ -73,15 +68,10 @@ class _CategoryHeaderState extends State<CategoryHeader>
 
         final horizontalPad = isXS ? 12.0 : (isS ? 16.0 : 20.0);
 
-        // Kugghjul: större, men fortfarande med bra touch target.
         final settingsIconSize = isXS ? 26.0 : (isS ? 30.0 : 32.0);
         final settingsTapSize = isXS ? 40.0 : 44.0;
 
-        // Bas-typografi (klustret scaleDown:as vid behov)
         final reflectionsFont = isXS ? 12.0 : (isS ? 12.5 : 13.0);
-
-        // ✅ Flytta upp kategorierna: responsivt avstånd under loggan.
-        final belowLogo = 0.0;
 
         return FadeTransition(
           opacity: _fade,
@@ -93,35 +83,7 @@ class _CategoryHeaderState extends State<CategoryHeader>
                 children: [
                   Column(
                     children: [
-                      /// Push logo below the top bar row
                       SizedBox(height: settingsTapSize + 4),
-
-                      /// LOGO — original colors with gold glow
-                      Align(
-                        alignment: Alignment.center,
-                        child: Container(
-                          width: logoWidth,
-                          height: logoHeight,
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            boxShadow: [
-                              BoxShadow(
-                                color: AppColors.gold.withValues(alpha: 0.18),
-                                blurRadius: 40,
-                                spreadRadius: 2,
-                              ),
-                            ],
-                          ),
-                          child: Image.asset(
-                            'assets/logo.png',
-                            fit: BoxFit.contain,
-                            filterQuality: FilterQuality.high,
-                          ),
-                        ),
-                      ),
-
-                      /// ✅ Spacing BELOW the logo — moves categories upward/downward
-                      SizedBox(height: belowLogo),
 
                       if (widget.showTitle) ...[
                         Text(
@@ -150,7 +112,7 @@ class _CategoryHeaderState extends State<CategoryHeader>
                     ],
                   ),
 
-                  /// ✅ TOP ROW: Blessed + reflections (scaleDown as a unit) + settings (pinned right)
+                  /// ✅ TOP ROW: Premium badge + reflections (scaleDown as a unit) + settings (pinned right)
                   Positioned(
                     top: 2,
                     left: 0,
@@ -160,13 +122,13 @@ class _CategoryHeaderState extends State<CategoryHeader>
                       child: AnimatedBuilder(
                         animation: UsageService.instance,
                         builder: (context, _) {
-                          final blessed = _isBlessed();
+                          final premium = _isPremium();
 
                           final cluster = Row(
                             mainAxisSize: MainAxisSize.min,
                             children: [
-                              if (blessed) ...[
-                                const _BlessedBadge(),
+                              if (premium) ...[
+                                const _PremiumBadge(),
                                 const SizedBox(width: 8),
                               ],
                               Text(
@@ -188,18 +150,30 @@ class _CategoryHeaderState extends State<CategoryHeader>
                           return Row(
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Expanded(
-                                child: Padding(
-                                  padding: EdgeInsets.only(
-                                    right: settingsTapSize + 6,
+                              SizedBox(
+                                width: settingsTapSize,
+                                height: settingsTapSize,
+                                child: IconButton(
+                                  padding: EdgeInsets.zero,
+                                  constraints: const BoxConstraints(),
+                                  tooltip: t.navHome,
+                                  icon: const Icon(
+                                    Icons.arrow_back_ios_new_rounded,
+                                    color: AppColors.gold,
                                   ),
-                                  child: Align(
-                                    alignment: Alignment.centerRight,
-                                    child: FittedBox(
-                                      fit: BoxFit.scaleDown,
-                                      alignment: Alignment.centerRight,
-                                      child: cluster,
-                                    ),
+                                  onPressed: () {
+                                    HapticFeedback.lightImpact();
+                                    HomeShell.of(context)?.jumpTo(0);
+                                  },
+                                ),
+                              ),
+                              Expanded(
+                                child: Align(
+                                  alignment: Alignment.center,
+                                  child: FittedBox(
+                                    fit: BoxFit.scaleDown,
+                                    alignment: Alignment.center,
+                                    child: cluster,
                                   ),
                                 ),
                               ),
@@ -237,8 +211,8 @@ class _CategoryHeaderState extends State<CategoryHeader>
   }
 }
 
-class _BlessedBadge extends StatelessWidget {
-  const _BlessedBadge();
+class _PremiumBadge extends StatelessWidget {
+  const _PremiumBadge();
 
   @override
   Widget build(BuildContext context) {
@@ -259,12 +233,12 @@ class _BlessedBadge extends StatelessWidget {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Icon(Icons.star_rounded, size: 16, color: Color(0xFF8C6E28)),
+          const Icon(Icons.star_rounded, size: 16, color: AppColors.goldBright),
           const SizedBox(width: 6),
           Text(
-            AppLocalizations.of(context)!.planBlessed,
+            AppLocalizations.of(context)!.planPremium,
             style: const TextStyle(
-              color: Color(0xFF8C6E28),
+              color: AppColors.goldBright,
               fontWeight: FontWeight.w800,
               fontSize: 12.0,
               height: 1.0,

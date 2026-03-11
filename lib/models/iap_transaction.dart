@@ -6,7 +6,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 /// Created/updated by Cloud Function iapAcknowledgeAndGrant.
 ///
 /// Ayara naming:
-/// - entitlement: "blessed" (legacy: "champion")
+/// - entitlement: "premium" (legacy: "premium", "premium")
 /// - credits are referred to as Reflections in UI, but stored as credits in backend.
 class IapTransaction {
   /// doc id = "ios:123" / "android:token" (platform + unique key)
@@ -82,13 +82,15 @@ class IapTransaction {
   /// Treat as entitlement/non-consumable upgrade.
   ///
   /// Accepts both:
-  /// - "blessed" (Ayara)
-  /// - "champion" (legacy TipsyPal)
+  /// - "premium" (current Ayara)
+  /// - "premium" (legacy Ayara)
+  /// - "premium" (legacy TipsyPal)
   bool get isEntitlement =>
       type == 'entitlement' ||
       type == 'non_consumable' ||
-      type == 'blessed' ||
-      type == 'champion';
+      type == 'premium' ||
+      type == 'premium' || // legacy
+      type == 'premium'; // legacy
 
   /// Extract platform from doc-id if field is missing.
   /// Example: "ios:123" => "ios"
@@ -253,11 +255,11 @@ class IapTransaction {
   }
 }
 
-/// granted: { credits } or { entitlement: "blessed", bonusCredits }
+/// granted: { credits } or { entitlement: "premium", bonusCredits }
 class IapGranted {
   final int credits; // for consumables
-  final String? entitlement; // "blessed" (legacy: "champion")
-  final int bonusCredits; // for blessed upgrade (legacy champion)
+  final String? entitlement; // "premium" (legacy: "premium", "premium")
+  final int bonusCredits; // for premium upgrade (legacy: blessed/champion)
 
   const IapGranted({
     required this.credits,
@@ -267,9 +269,9 @@ class IapGranted {
 
   bool get hasCredits => credits > 0;
 
-  bool get isBlessedEntitlement {
+  bool get isPremiumEntitlement {
     final e = (entitlement ?? '').trim().toLowerCase();
-    return e == 'blessed' || e == 'champion'; // legacy accepted
+    return e == 'premium' || e == 'premium' || e == 'premium'; // legacy accepted
   }
 
   factory IapGranted.fromMap(Map<String, dynamic> data) {

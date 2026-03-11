@@ -150,7 +150,8 @@ class _ResultScreenState extends State<ResultScreen> {
     );
 
     return Scaffold(
-      backgroundColor: const Color(0xFF061D0F),
+      backgroundColor: AppColors.deepNavy,
+      extendBodyBehindAppBar: true,
       appBar: ResultAppBar(
         category: widget.category,
         wordCount: _wordCount,
@@ -172,22 +173,25 @@ class _ResultScreenState extends State<ResultScreen> {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Color(0xFF061D0F),
-                    Color(0xFF0C3A1E),
-                    Color(0xFF061D0F),
+                    AppColors.navy,
+                    AppColors.deepNavy,
+                    AppColors.navyDeep,
                   ],
                   stops: [0.0, 0.5, 1.0],
                 ),
               ),
             ),
           ),
-          SafeArea(
-            child: Padding(
-              padding: const EdgeInsets.all(24.0),
-              child: ResultTextBox(
-                text: _text,
-                perChar: const Duration(milliseconds: 28),
-              ),
+          Padding(
+            padding: EdgeInsets.fromLTRB(
+              24,
+              MediaQuery.of(context).padding.top + kToolbarHeight + 4,
+              24,
+              24,
+            ),
+            child: ResultTextBox(
+              text: _text,
+              perChar: const Duration(milliseconds: 28),
             ),
           ),
         ],

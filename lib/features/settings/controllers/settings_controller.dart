@@ -349,25 +349,21 @@ class SettingsController {
   // Dev-only
   // ─────────────────────────────────────────────────────────────
 
-  /// 🔹 Dev-only: aktivera test-Blessed.
-  ///
-  /// NOTE:
-  /// - Ayara plan naming uses: grace/blessed/guest
-  /// - We keep the method name for now so the rest of UI doesn’t break.
-  Future<void> activateTestChampion(BuildContext context) async {
+  /// 🔹 Dev-only: activate test Premium.
+  Future<void> activateTestPremium(BuildContext context) async {
     try {
       await _premiumService.activateTestPremium();
 
       final current = _usageService.current;
       final currentUsed = current?.creditsUsed ?? 0;
 
-      // Ayara: Blessed test
+      // Premium test
       const total = 2000;
       final remaining = (total - currentUsed).clamp(0, total);
 
       _usageService.updateFromMap({
         'allowed': true,
-        'plan': 'blessed',
+        'plan': 'premium',
         'creditsTotal': total,
         'creditsUsed': currentUsed,
         'creditsRemaining': remaining,
@@ -376,9 +372,9 @@ class SettingsController {
       });
 
       UsageRefreshService.instance.resetSessionGuard();
-      _snack(context, 'Blessed (test) activated for this account.');
+      _snack(context, 'Premium (test) activated for this account.');
     } catch (e) {
-      _snack(context, 'Failed to activate Blessed (test): $e');
+      _snack(context, 'Failed to activate Premium (test): $e');
     }
   }
 

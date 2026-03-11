@@ -413,7 +413,7 @@ class _LanguagePickerSheetState extends State<_LanguagePickerSheet> {
       child: BackdropFilter(
         filter: ui.ImageFilter.blur(sigmaX: 18, sigmaY: 18),
         child: Container(
-          color: const Color(0xFF152E1E).withValues(alpha: 0.97),
+          color: AppColors.navyDeep.withValues(alpha: 0.98),
           padding: EdgeInsets.only(
             left: 16,
             right: 16,
@@ -571,9 +571,11 @@ class _LanguagePickerSheetState extends State<_LanguagePickerSheet> {
                       Navigator.of(context).pop(_selected);
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: AppColors.navy,
-                      foregroundColor: Colors.white,
-                      padding: const EdgeInsets.symmetric(vertical: 14),
+                      backgroundColor: AppColors.gold,
+                      foregroundColor: AppColors.navyDeep,
+                      shadowColor: AppColors.gold.withValues(alpha: 0.40),
+                      elevation: 4,
+                      padding: const EdgeInsets.symmetric(vertical: 16),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(14),
                       ),
@@ -581,10 +583,11 @@ class _LanguagePickerSheetState extends State<_LanguagePickerSheet> {
                     child: Text(
                       widget.continueLabel,
                       style: const TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.w800,
-                        letterSpacing: 0.2,
-                        height: 1.1,
+                        color: AppColors.navyDeep,
+                        fontWeight: FontWeight.w700,
+                        letterSpacing: 0.4,
+                        fontSize: 16,
+                        height: 1.10,
                       ),
                     ),
                   ),

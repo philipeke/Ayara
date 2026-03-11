@@ -79,14 +79,14 @@ class _AskResultScreenState extends State<AskResultScreen> {
     );
 
     return Scaffold(
-      backgroundColor: const Color(0xFF061D0F),
+      backgroundColor: AppColors.deepNavy,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
         automaticallyImplyLeading: false,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new_rounded,
-              color: Colors.white, size: 20),
+              color: AppColors.gold),
           onPressed: () {
             HapticFeedback.lightImpact();
             Navigator.of(context).pop();
@@ -148,19 +148,20 @@ class _AskResultScreenState extends State<AskResultScreen> {
             child: DecoratedBox(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
                   colors: [
-                    Color(0xFF061D0F),
-                    Color(0xFF0C3A1E),
-                    Color(0xFF061D0F),
+                    AppColors.navy,
+                    AppColors.deepNavy,
+                    AppColors.navyDeep,
                   ],
-                  stops: [0.0, 0.5, 1.0],
+                  stops: [0.0, 0.50, 1.0],
                 ),
               ),
             ),
           ),
           SafeArea(
+            top: false,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -172,7 +173,7 @@ class _AskResultScreenState extends State<AskResultScreen> {
                 width: double.infinity,
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  color: AppColors.islamic.withValues(alpha: 0.50),
+                  color: AppColors.navy.withValues(alpha: 0.6),
                   borderRadius: BorderRadius.circular(14),
                   border: Border.all(
                     color: AppColors.gold.withValues(alpha: 0.25),

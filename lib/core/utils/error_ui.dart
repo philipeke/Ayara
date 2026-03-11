@@ -24,7 +24,7 @@ void showAppErrorSnack(
     msg = t.rateGuestMustSignIn;
   } else if (appErr.isCreditsExhausted) {
     // Ayara terminology: reflections (not credits).
-    msg = t.rateReflectionsExhausted;
+    msg = t.rateCreditsExhausted;
   } else if (appErr.isDeviceBound) {
     msg = t.deviceBoundError;
   } else if (appErr.isNetwork) {

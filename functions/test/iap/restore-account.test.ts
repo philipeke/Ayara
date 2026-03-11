@@ -185,7 +185,7 @@ describe('restoreAccountPurchases: main/guest vs other routing', () => {
 
     // UID_OTHER has their own user doc (no homePoolId → resolves to local pool)
     getAdmin().__setState(`users/${UID_OTHER}`, {
-      plan: 'blessed',
+      plan: 'premium',
       reflectionsTotal: 100,
       reflectionsUsed: 50,
     });

@@ -19,11 +19,11 @@ function deviceBindingId(deviceId: string): string {
   return sha256(`${deviceId}::${DEVICE_SALT}`);
 }
 
-// Nuria default bonus for Blessed entitlement (if catalog omits reflections)
+// Ayara default bonus for Blessed entitlement (if catalog omits reflections)
 const DEFAULT_BLESSED_BONUS_REFLECTIONS = 300;
 
-function isBlessedEntitlementActive(ent: any): boolean {
-  const isBlessed = ent?.isBlessed === true;
+function isPremiumEntitlementActive(ent: any): boolean {
+  const isPremium = ent?.isPremium === true;
   const status = asString(ent?.status ?? "").toLowerCase();
   const statusOk = status === "" || status === "active";
   const expiresAt = ent?.expiresAt ?? null;
@@ -34,7 +34,7 @@ function isBlessedEntitlementActive(ent: any): boolean {
       return false;
     }
   }
-  return isBlessed && statusOk;
+  return isPremium && statusOk;
 }
 
 function msSince(t0: number) {
@@ -279,10 +279,10 @@ export const iapAcknowledgeAndGrant = onCall(
           asString(userRaw.homePoolId || "").trim() !== poolId;
 
         const ent = (entSnap.data() ?? {}) as any;
-        const entActive = isBlessedEntitlementActive(ent);
+        const entActive = isPremiumEntitlementActive(ent);
 
         // Repair older entitlement docs that miss status
-        if (ent?.isBlessed === true) {
+        if (ent?.isPremium === true) {
           const status = asString(ent?.status ?? "");
           if (!status) {
             console.warn("[IAP] REPAIR: entitlement missing status -> set active", { uid });
@@ -406,7 +406,7 @@ export const iapAcknowledgeAndGrant = onCall(
               tx.set(
                 entRef,
                 {
-                  isBlessed: true,
+                  isPremium: true,
                   productId: productIdStr,
                   platform: platformStr,
                   status: "active",
@@ -421,16 +421,16 @@ export const iapAcknowledgeAndGrant = onCall(
 
             // Sync plan for Blessed
             if (isEntitlement || entActive) {
-              tx.set(userRef, { plan: "blessed", updatedAt: now }, { merge: true });
+              tx.set(userRef, { plan: "premium", updatedAt: now }, { merge: true });
             }
 
             // ✅ Apply snapshot for ANY already-granted transaction when balance is 0
             if (shouldApplySnapshot) {
               const snapTotal = asNumber(snapshotData.creditsTotal ?? snapshotData.reflectionsTotal ?? 0);
               const snapUsed = asNumber(snapshotData.creditsUsed ?? snapshotData.reflectionsUsed ?? 0);
-              const snapPlan = asString(snapshotData.plan ?? "grace");
-              const restoredPlan = (isEntitlement || entActive || snapPlan === "blessed")
-                ? "blessed"
+              const snapPlan = asString(snapshotData.plan ?? "basic");
+              const restoredPlan = (isEntitlement || entActive || snapPlan === "premium")
+                ? "premium"
                 : snapPlan;
 
               console.log("[IAP] restoring balance from snapshot", {
@@ -472,7 +472,7 @@ export const iapAcknowledgeAndGrant = onCall(
               };
             }
 
-            const effectivePlan = isEntitlement ? "blessed" : (entActive ? "blessed" : user.plan || "grace");
+            const effectivePlan = isEntitlement ? "premium" : (entActive ? "premium" : user.plan || "basic");
 
             return {
               user: { plan: effectivePlan, creditsTotal: user.creditsTotal, creditsUsed: user.creditsUsed },
@@ -539,7 +539,7 @@ export const iapAcknowledgeAndGrant = onCall(
           if (!entActive) {
             console.warn("[IAP] topup rejected: blessed not active", {
               uid,
-              entIsBlessed: ent?.isBlessed === true,
+              entIsPremium: ent?.isPremium === true,
               entStatus: asString(ent?.status ?? ""),
             });
 
@@ -583,7 +583,7 @@ export const iapAcknowledgeAndGrant = onCall(
           tx.set(
             userRef,
             {
-              plan: "blessed",
+              plan: "premium",
               reflectionsTotal: nextTotal,
               reflectionsUsed: baseUsed,
               reflectionsUpdatedAt: now,
@@ -634,7 +634,7 @@ export const iapAcknowledgeAndGrant = onCall(
           );
 
           return {
-            user: { plan: "blessed", creditsTotal: nextTotal, creditsUsed: baseUsed },
+            user: { plan: "premium", creditsTotal: nextTotal, creditsUsed: baseUsed },
             alreadyGranted: false,
             shouldConsumeAndroid: platformStr === "android" && isConsumable,
             shouldAcknowledgeAndroid: false,
@@ -672,7 +672,7 @@ export const iapAcknowledgeAndGrant = onCall(
         tx.set(
           entRef,
           {
-            isBlessed: true,
+            isPremium: true,
             productId: productIdStr,
             platform: platformStr,
             status: "active",
@@ -712,7 +712,7 @@ export const iapAcknowledgeAndGrant = onCall(
         tx.set(
           userRef,
           {
-            plan: "blessed",
+            plan: "premium",
             reflectionsTotal: finalTotal,
             reflectionsUsed: finalUsed,
             reflectionsUpdatedAt: now,
@@ -754,7 +754,7 @@ export const iapAcknowledgeAndGrant = onCall(
           txRef,
           {
             status: "granted",
-            granted: { entitlement: "blessed", bonusReflections },
+            granted: { entitlement: "premium", bonusReflections },
             grantedAt: now,
             // ✅ Track which devices received the rebound bonus to prevent farming.
             ...(entitlementRebound && bonusReflections > 0 && bindId
@@ -765,7 +765,7 @@ export const iapAcknowledgeAndGrant = onCall(
         );
 
         return {
-          user: { plan: "blessed", creditsTotal: finalTotal, creditsUsed: finalUsed },
+          user: { plan: "premium", creditsTotal: finalTotal, creditsUsed: finalUsed },
           alreadyGranted: false,
           shouldConsumeAndroid: false,
           shouldAcknowledgeAndroid: platformStr === "android" && isEntitlement,
@@ -815,7 +815,7 @@ export const iapAcknowledgeAndGrant = onCall(
     console.log("[IAP] result", {
       uid,
       productId: productIdStr,
-      plan: asString(out.user?.plan ?? "grace") || "grace",
+      plan: asString(out.user?.plan ?? "basic") || "basic",
       reflectionsTotal: creditsTotal,
       reflectionsUsed: creditsUsed,
       reflectionsRemaining: creditsRemaining,
@@ -828,14 +828,14 @@ export const iapAcknowledgeAndGrant = onCall(
     // ✅ Response: keep credits* for client compat, add reflections* for new naming.
     return {
       ok: true,
-      plan: asString(out.user?.plan ?? "grace") || "grace",
+      plan: asString(out.user?.plan ?? "basic") || "basic",
 
       // Back-compat (client may still read these)
       creditsUsed,
       creditsTotal,
       creditsRemaining,
 
-      // New naming (Nuria)
+      // Ayara naming
       reflectionsUsed: creditsUsed,
       reflectionsTotal: creditsTotal,
       reflectionsRemaining: creditsRemaining,
