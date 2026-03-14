@@ -23,6 +23,12 @@ class DhikrStreakService extends ChangeNotifier {
 
   Future<int> getStreak() async {
     final p = await SharedPreferences.getInstance();
+    final lastDate = p.getString(_prefLastDate);
+    if (lastDate == null) return 0;
+    // If the user missed more than one day, the streak is broken — show 0
+    // so the dashboard reflects reality rather than the stale stored value.
+    final diff = DateTime.parse(_today).difference(DateTime.parse(lastDate)).inDays;
+    if (diff > 1) return 0;
     return p.getInt(_prefStreak) ?? 0;
   }
 

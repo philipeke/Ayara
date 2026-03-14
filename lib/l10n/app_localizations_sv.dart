@@ -641,6 +641,40 @@ class AppLocalizationsSv extends AppLocalizations {
       'Används endast för dessa funktioner. Din plats delas aldrig eller lagras.';
 
   @override
+  String get permissionsSectionTitle => 'Godkännanden';
+
+  @override
+  String get permissionsSectionSubtitle =>
+      'Mikrofon, plats, kalender och annan enhetsåtkomst som Ayara använder';
+
+  @override
+  String get permissionsNotificationsTitle => 'Aviseringar';
+
+  @override
+  String get permissionsNotificationsSubtitle =>
+      'Behövs om du vill få bönepåminnelser, dhikr, dagliga reflektioner och kalenderpåminnelser.';
+
+  @override
+  String get permissionsLocationTitle => 'Plats';
+
+  @override
+  String get permissionsLocationSubtitle =>
+      'Används för Qibla-kompassen och för att räkna ut korrekta bönetider. Din plats delas inte och lagras inte.';
+
+  @override
+  String get permissionsLocationDenied => 'Platsåtkomst är inaktiverad.';
+
+  @override
+  String get permissionsCalendarTitle => 'Telefonkalender';
+
+  @override
+  String get permissionsCalendarSubtitle =>
+      'Används när du väljer att lägga till ett islamiskt tillfälle i telefonens kalender. Enheten kan fråga om åtkomst då.';
+
+  @override
+  String get permissionsStatusWhenNeeded => 'Vid behov';
+
+  @override
   String get askPageTitle => 'Fråga Ayara';
 
   @override

@@ -20,6 +20,7 @@ import '../widgets/guidance_disclaimer_section.dart';
 import '../widgets/free_plan_blocked_notice.dart';
 import '../widgets/ai_limit_section.dart';
 import '../widgets/notifications_section.dart';
+import '../widgets/permissions_section.dart';
 
 import 'package:ayara/features/premium/purchase_controller.dart';
 import 'package:ayara/features/premium/widgets/premium_section.dart' as premium;
@@ -170,111 +171,116 @@ class _SettingsScreenState extends State<SettingsScreen> {
     final bottomPad = 24.0 + safeBottom + 16.0;
 
     return Scaffold(
-        backgroundColor: AppColors.deepNavy,
-        body: AbsorbPointer(
-          absorbing: blockUi,
-          child: SafeArea(
-            bottom: true,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(4, 6, 16, 0),
-                  child: Row(
-                    children: [
-                      IconButton(
-                        icon: const Icon(Icons.arrow_back_ios_new_rounded,
-                            color: AppColors.gold),
-                        onPressed: () {
-                          HapticFeedback.lightImpact();
-                          Navigator.of(context).pop();
-                        },
+      backgroundColor: AppColors.deepNavy,
+      body: AbsorbPointer(
+        absorbing: blockUi,
+        child: SafeArea(
+          bottom: true,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(4, 6, 16, 0),
+                child: Row(
+                  children: [
+                    IconButton(
+                      icon: const Icon(
+                        Icons.arrow_back_ios_new_rounded,
+                        color: AppColors.gold,
                       ),
-                      Expanded(
-                        child: Text(
-                          t.settingsTitle,
-                          style: GoogleFonts.lora(
-                            fontSize: 22,
-                            fontWeight: FontWeight.w700,
-                            color: AppColors.gold,
-                          ),
+                      onPressed: () {
+                        HapticFeedback.lightImpact();
+                        Navigator.of(context).pop();
+                      },
+                    ),
+                    Expanded(
+                      child: Text(
+                        t.settingsTitle,
+                        style: GoogleFonts.lora(
+                          fontSize: 22,
+                          fontWeight: FontWeight.w700,
+                          color: AppColors.gold,
                         ),
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
-                Expanded(
-                  child: ListView(
-                    padding: EdgeInsets.fromLTRB(16, 12, 16, bottomPad),
-              children: [
-                LanguageSection(
-                  initialCode: widget.currentCode,
-                  busy: blockUi,
-                  supportedLocales: widget.supportedLocales, // ✅ safe list
-                  onApplyLocale: (code) async {
-                    // ✅ Apply locale but DO NOT pop Settings
-                    await widget.onLocalePicked(code);
-                  },
-                ),
+              ),
+              Expanded(
+                child: ListView(
+                  padding: EdgeInsets.fromLTRB(16, 12, 16, bottomPad),
+                  children: [
+                    LanguageSection(
+                      initialCode: widget.currentCode,
+                      busy: blockUi,
+                      supportedLocales: widget.supportedLocales, // ✅ safe list
+                      onApplyLocale: (code) async {
+                        // ✅ Apply locale but DO NOT pop Settings
+                        await widget.onLocalePicked(code);
+                      },
+                    ),
 
-                const SizedBox(height: 28),
+                    const SizedBox(height: 28),
 
-                AccountSection(
-                  isGuest: isGuest,
-                  accountStatus: accountStatus,
-                  email: email,
-                  isPremiumPlan: isPremiumPlan,
-                  busy: blockUi,
-                  onUpgradeWithGoogle: _upgradeWithGoogle,
-                  onUpgradeWithApple: _upgradeWithApple,
-                  onSignOut: _signOut,
-                ),
+                    AccountSection(
+                      isGuest: isGuest,
+                      accountStatus: accountStatus,
+                      email: email,
+                      isPremiumPlan: isPremiumPlan,
+                      busy: blockUi,
+                      onUpgradeWithGoogle: _upgradeWithGoogle,
+                      onUpgradeWithApple: _upgradeWithApple,
+                      onSignOut: _signOut,
+                    ),
 
-                const SizedBox(height: 24),
+                    const SizedBox(height: 24),
 
-                // ✅ FIX: correct required param name
-                FreePlanBlockedNotice(
-                  isFreePlanBlocked: isStarterReflectionsBlocked,
-                ),
+                    // ✅ FIX: correct required param name
+                    FreePlanBlockedNotice(
+                      isFreePlanBlocked: isStarterReflectionsBlocked,
+                    ),
 
-                const SizedBox(height: 24),
+                    const SizedBox(height: 24),
 
-                const NotificationsSection(),
+                    const NotificationsSection(),
 
-                const SizedBox(height: 24),
+                    const SizedBox(height: 24),
 
-                const AiLimitSection(),
+                    const PermissionsSection(),
 
-                const SizedBox(height: 24),
+                    const SizedBox(height: 24),
 
-                premium.PremiumSection(
-                  isPremiumPlan: isPremiumPlan,
-                  usage: usage,
-                  busy: blockUi,
-                ),
+                    const AiLimitSection(),
 
-                const SizedBox(height: 12),
+                    const SizedBox(height: 24),
 
-                restore.RestorePurchasesSection(busy: blockUi),
+                    premium.PremiumSection(
+                      isPremiumPlan: isPremiumPlan,
+                      usage: usage,
+                      busy: blockUi,
+                    ),
 
-                const SizedBox(height: 32),
+                    const SizedBox(height: 12),
 
-                const GuidanceDisclaimerSection(),
+                    restore.RestorePurchasesSection(busy: blockUi),
 
-                const SizedBox(height: 32),
+                    const SizedBox(height: 32),
 
-                const DeleteAccountSection(),
+                    const GuidanceDisclaimerSection(),
 
-                // ✅ Extra breathing room (in addition to bottom padding)
-                const SizedBox(height: 8),
-              ],
-            ),          // ListView
-            ),          // Expanded
-          ],            // Column children
-        ),              // Column
-        ),              // SafeArea
-      ),                // AbsorbPointer
+                    const SizedBox(height: 32),
+
+                    const DeleteAccountSection(),
+
+                    // ✅ Extra breathing room (in addition to bottom padding)
+                    const SizedBox(height: 8),
+                  ],
+                ), // ListView
+              ), // Expanded
+            ], // Column children
+          ), // Column
+        ), // SafeArea
+      ), // AbsorbPointer
     );
   }
 }
-

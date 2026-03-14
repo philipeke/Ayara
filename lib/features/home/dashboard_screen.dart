@@ -1491,6 +1491,29 @@ class _PrayerSummaryCardState extends State<_PrayerSummaryCard> {
   Future<void> _load() async {
     final prefs = await SharedPreferences.getInstance();
     final today = _todayKey;
+
+    // Mirror the same new-day reset that the prayer tracker screen performs,
+    // so the dashboard never shows stale prayer data carried over from a
+    // previous day (e.g. persisted SharedPreferences from an older build).
+    final stored = prefs.getString('pt_date') ?? '';
+    if (stored != today) {
+      if (stored.isNotEmpty) {
+        final yesterday = DateTime.now()
+            .subtract(const Duration(days: 1))
+            .toIso8601String()
+            .substring(0, 10);
+        final lastCompleteDate =
+            prefs.getString('pt_last_complete_date') ?? '';
+        if (lastCompleteDate != yesterday && lastCompleteDate != today) {
+          await prefs.setInt('pt_streak', 0);
+        }
+      }
+      await prefs.setString('pt_date', today);
+      for (final k in _keys) {
+        await prefs.setBool('pt_${today}_$k', false);
+      }
+    }
+
     final checked = Map<String, bool>.fromEntries(
       _keys.map((k) => MapEntry(k, prefs.getBool('pt_${today}_$k') ?? false)),
     );

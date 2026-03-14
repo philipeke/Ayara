@@ -1,5 +1,314 @@
 {
+  "ace": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "af": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "am": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ar": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ar_AE": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ar_EG": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ar_IQ": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ar_MA": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ar_SA": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "as": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "az": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "bg": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "bn": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "bs": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ca": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ceb": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ckb": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "cs": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "da": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "de": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "de_AT": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "de_CH": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "el": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
   "en_AU": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded",
     "voiceInputTitle",
     "voiceInputMicTitle",
     "voiceInputMicSubtitle",
@@ -10,6 +319,16 @@
   ],
 
   "en_CA": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded",
     "voiceInputTitle",
     "voiceInputMicTitle",
     "voiceInputMicSubtitle",
@@ -20,6 +339,16 @@
   ],
 
   "en_GB": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded",
     "voiceInputTitle",
     "voiceInputMicTitle",
     "voiceInputMicSubtitle",
@@ -30,6 +359,16 @@
   ],
 
   "en_IE": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded",
     "voiceInputTitle",
     "voiceInputMicTitle",
     "voiceInputMicSubtitle",
@@ -40,6 +379,16 @@
   ],
 
   "en_NZ": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded",
     "voiceInputTitle",
     "voiceInputMicTitle",
     "voiceInputMicSubtitle",
@@ -50,6 +399,16 @@
   ],
 
   "en_SG": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded",
     "voiceInputTitle",
     "voiceInputMicTitle",
     "voiceInputMicSubtitle",
@@ -60,6 +419,16 @@
   ],
 
   "en_US": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded",
     "voiceInputTitle",
     "voiceInputMicTitle",
     "voiceInputMicSubtitle",
@@ -69,27 +438,1195 @@
     "voiceInputPermissionDenied"
   ],
 
+  "es": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "es_419": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "es_AR": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "es_CL": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "es_CO": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "es_ES": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "es_MX": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "es_US": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "et": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "fa": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "fi": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "fil": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "fr": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "fr_BE": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "fr_CA": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "fr_CH": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ga": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "gu": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ha": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "he": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "hi": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "hr": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ht": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "hu": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "hy": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "id": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ig": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "is": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "it": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ja": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "jv": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ka": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "kk": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "km": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "kn": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
   "ko": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded",
     "imamSectionFamousSaying"
+  ],
+
+  "ku": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ky": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
   ],
 
   "lb": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded",
     "imamSectionFamousSaying"
   ],
 
+  "lo": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "lt": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "lv": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "mad": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "mg": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "min": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "mk": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ml": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "mn": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "mr": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
   "ms": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded",
     "imamSectionFamousSaying"
+  ],
+
+  "mt": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "my": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ne": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "nl": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "no": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ny": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "or": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "pa": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "pl": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ps": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "pt": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "pt_BR": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "pt_PT": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ro": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "rw": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "si": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "sk": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "sl": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "so": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "sq": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "sr": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "st": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
   ],
 
   "sv": [
     "imamSectionFamousSaying"
   ],
 
+  "sw": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ta": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "te": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "th": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ti": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "tl": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "tr": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "uk": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "ur": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
   "uz": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded",
     "imamSectionFamousSaying"
   ],
 
+  "vi": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
   "yo": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded",
     "imamSectionFamousSaying"
+  ],
+
+  "yue": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "zh": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "zh_CN": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "zh_HK": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "zh_SG": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "zh_TW": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
+  ],
+
+  "zu": [
+    "permissionsSectionTitle",
+    "permissionsSectionSubtitle",
+    "permissionsNotificationsTitle",
+    "permissionsNotificationsSubtitle",
+    "permissionsLocationTitle",
+    "permissionsLocationSubtitle",
+    "permissionsLocationDenied",
+    "permissionsCalendarTitle",
+    "permissionsCalendarSubtitle",
+    "permissionsStatusWhenNeeded"
   ]
 }

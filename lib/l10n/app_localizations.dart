@@ -1420,6 +1420,66 @@ abstract class AppLocalizations {
   /// **'Used only for these features. Your location is never shared or stored.'**
   String get locationConsentHint;
 
+  /// No description provided for @permissionsSectionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Permissions'**
+  String get permissionsSectionTitle;
+
+  /// No description provided for @permissionsSectionSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Microphone, location, calendar and other device access used by Ayara'**
+  String get permissionsSectionSubtitle;
+
+  /// No description provided for @permissionsNotificationsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications'**
+  String get permissionsNotificationsTitle;
+
+  /// No description provided for @permissionsNotificationsSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Needed if you want prayer reminders, dhikr reminders, daily reflections and calendar reminders.'**
+  String get permissionsNotificationsSubtitle;
+
+  /// No description provided for @permissionsLocationTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Location'**
+  String get permissionsLocationTitle;
+
+  /// No description provided for @permissionsLocationSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Used for the Qibla compass and accurate prayer times based on where you are. Your location is never shared or stored.'**
+  String get permissionsLocationSubtitle;
+
+  /// No description provided for @permissionsLocationDenied.
+  ///
+  /// In en, this message translates to:
+  /// **'Location access is disabled.'**
+  String get permissionsLocationDenied;
+
+  /// No description provided for @permissionsCalendarTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Phone Calendar'**
+  String get permissionsCalendarTitle;
+
+  /// No description provided for @permissionsCalendarSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Used when you choose to add an Islamic occasion to your phone calendar. Your device may ask for access then.'**
+  String get permissionsCalendarSubtitle;
+
+  /// No description provided for @permissionsStatusWhenNeeded.
+  ///
+  /// In en, this message translates to:
+  /// **'When needed'**
+  String get permissionsStatusWhenNeeded;
+
   /// No description provided for @askPageTitle.
   ///
   /// In en, this message translates to:

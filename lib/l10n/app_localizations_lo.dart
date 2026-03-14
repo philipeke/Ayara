@@ -642,6 +642,40 @@ class AppLocalizationsLo extends AppLocalizations {
       'ໃຊ້ສໍາລັບຄຸນສົມບັດເຫຼົ່ານີ້ເທົ່ານັ້ນ. ຕໍາແໜ່ງຂອງທ່ານຈະບໍ່ຖືກແບ່ງປັນຫຼືຈັດເກັບ.';
 
   @override
+  String get permissionsSectionTitle => 'Permissions';
+
+  @override
+  String get permissionsSectionSubtitle =>
+      'Microphone, location, calendar and other device access used by Ayara';
+
+  @override
+  String get permissionsNotificationsTitle => 'Notifications';
+
+  @override
+  String get permissionsNotificationsSubtitle =>
+      'Needed if you want prayer reminders, dhikr reminders, daily reflections and calendar reminders.';
+
+  @override
+  String get permissionsLocationTitle => 'Location';
+
+  @override
+  String get permissionsLocationSubtitle =>
+      'Used for the Qibla compass and accurate prayer times based on where you are. Your location is never shared or stored.';
+
+  @override
+  String get permissionsLocationDenied => 'Location access is disabled.';
+
+  @override
+  String get permissionsCalendarTitle => 'Phone Calendar';
+
+  @override
+  String get permissionsCalendarSubtitle =>
+      'Used when you choose to add an Islamic occasion to your phone calendar. Your device may ask for access then.';
+
+  @override
+  String get permissionsStatusWhenNeeded => 'When needed';
+
+  @override
   String get askPageTitle => 'ຖາມ Ayara';
 
   @override

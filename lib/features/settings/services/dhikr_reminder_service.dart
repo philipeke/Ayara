@@ -136,7 +136,7 @@ class DhikrReminderService {
       await _plugin.zonedSchedule(
         _notifId,
         '🕌 Time for your Tasbīḥ al-Zahrā',
-        'Recite 33 Subhanallah · 33 Alhamdulillah · 34 Allahu Akbar. Open Ayara to begin.',
+        'Recite 34 Allahu Akbar · 33 Alhamdulillah · 33 Subhanallah. Open Ayara to begin.',
         scheduled,
         NotificationDetails(
           android: AndroidNotificationDetails(
