@@ -1,585 +1,629 @@
 {
   "@@locale": "km",
-
-  "appTitle": "Ayara",
-
+  "appTitle": "អាយារ៉ា",
   "languageSelectTitle": "ជ្រើសរើសភាษារបស់អ្នក",
-  "languageSelectSub": "អ្នកអាចផ្លាស់ប្តូរវាលក្រោយមកទៀតក្នុងការកំណត់",
-  "actionContinue": "បន្ត",
-  "languageSuggestedHeader": "ផ្នែកដែលបានណែនាំ",
-  "languageAllHeader": "ភាษាទាំងអស់",
-  "languageSuggestedBadge": "ផ្នែកដែលបានណែនាំ",
-  "languageSearchHint": "ស្វាងរក…",
-
-  "planGrace": "ស្តង់ដារ",
-  "planBlessed": "បរកាឃ",
-
-  "categoryDailyGuidance": "ការណែនាំប្រចាំថ្ងៃ",
-  "categoryFaithTrust": "ព្រឹទ្ធិ និងការឈឹងលើ",
-  "categoryPrayerReflection": "ការឆ្លឹងម្នាក់ឯងក្នុង祷告",
-  "categoryHopeDifficultTimes": "ការស្ងប់ស្ងាប់ និងសង្ឃឹម",
-  "categoryForgiveness": "ស្វាគមន៍សក្ខមាណ",
-  "categoryLoveCompassion": "សេចក្តីអាណិត និងដឹងចូលចិត្ត",
-  "categoryStrengthCourage": "ព្រឹទ្ធិ និងក្ supposed",
-  "categoryGratitude": "ចិត្តដែលकృတज្ఞ",
-  "categoryPurposeCalling": "គោលបំណងនៃជីវិត",
-  "categoryFamilyRelationships": "ចំណងគ្រប់គ្រងក្រុមគ្រfamilie",
-  "categoryPeaceAnxietyRelief": "សន្តិភាពផ្ខាយ",
-  "categoryWisdomOfJesus": "ប្រជ្ঞាបង្រៀន",
-  "categoryHumilityCharacter": "ក្ខំងាយ នង្គលក្តីល្អ",
-  "categoryOvercomingTemptation": "ការទប់ស្កាប់ការចង់បាន",
-  "categoryEveningReflection": "ធីក្រ័យពេលល្ងាច",
-  "categoryCustom": "ការពិចារណាផ្ទាល់ខ្លួន",
-  "dhikrMeaningSubhanallah": "កិត្តិយសទៅកាន់អាល់ឡាហ៍",
-  "dhikrMeaningAlhamdulillah": "ការសរសើរទៅកាន់អាល់ឡាហ៍",
-  "dhikrMeaningAllahuAkbar": "អាល់ឡាហ៍គឺអស្ចារ្យបំផុត",
-  "quranVerseHeartAtRest": "ពិតណាស់ នៅក្នុងការចងចាំអាល់ឡាហ៍ ចិត្តទាំងអស់សម្រាក។",
-
-  "promptHint": "ប៉ះលើប្រភេទមួយដើម្បីទទួលបានការណែនាំ និងការឆ្លឹងម្នាក់ឯងពីIslamic",
-
+  "languageSelectSub": "អ្នកអាចផ្លាស់ប្តូរនេះក្រោយមកក្នុងការកំណត់",
+  "actionContinue": "ដោះស្រាយ",
+  "languageSuggestedHeader": "បានស្នើសុំ",
+  "languageAllHeader": "ភាសាទាំងអស់",
+  "languageSuggestedBadge": "បានស្នើសុំ",
+  "languageSearchHint": "ស្វាគមន៍...",
+  "planBasic": "ស្តង់ដារ",
+  "planPremium": "វីលាយ៉ា",
+  "categorySlot01": "ការណែនាំប្រចាំថ្ងៃ",
+  "categorySlot02": "ហ៊ីមាន និង ទំនុកចិត្ត",
+  "categorySlot03": "ការឆ្លឹងលើការ祈祷",
+  "categorySlot04": "ការអធ្យាស្រ័យ សង្ឃឹម",
+  "categorySlot05": "ស្វាគមន៍សម្រាប់ការសូត្របង្ហាញ",
+  "categorySlot06": "ស្នេហា អាណិត",
+  "categorySlot07": "ជំនឿ កម្លាំង",
+  "categorySlot08": "បេះដូងដែលមានលក្ខណៈកតេវិន",
+  "categorySlot09": "គោលបំណងនៃជីវិត",
+  "categorySlot10": "សក្ខីកម្មគ្រួសារ",
+  "categorySlot11": "សន្តិភាពខាងក្នុង",
+  "categorySlot12": "ប្រាជ្ញាលោកបង្ហាញ",
+  "categorySlot13": "លក្ខណៈពិសេសល្អ",
+  "categorySlot14": "ប្រឆាំងនឹងដំណោះស្រាយ",
+  "categorySlot15": "ឝិគ្រច័ន្ទ",
+  "categoryCustom": "ការរឹតសម្អាតផ្ទាល់ខ្លួន",
+  "dhikrMeaningSubhanallah": "glory ជា Allah",
+  "dhikrMeaningAlhamdulillah": "សរុបការសរសើរ ដល់ Allah",
+  "dhikrMeaningAllahuAkbar": "Allah គឺលំដាប់ដ៏ធំបំផុត",
+  "quranVerseHeartAtRest": "សូត្រ ក្នុងសន្ទស្សន៍របស់ Allah បេះដូងរកឃើញការសម្រាក។",
+  "promptHint": "ចុចលើប្រភេទមួយសម្រាប់ការណែនាំ និង ការឆ្លឹងលើ Islam",
   "currentLanguage": "ភាษាបច្ចុប្បន្ន",
-  "settingsLanguage": "ការកំណត់ភាษា",
+  "settingsLanguage": "ការកំណត់ភាសា",
   "settingsTitle": "ការកំណត់",
-  "chooseLanguage": "ជ្រើសរើសភាសារបស់អ្នក",
-  "continueCta": "បន្ត",
-
-  "promptDailyGuidance": "សរសេរការណែនាំប្រចាំថ្ងៃខ្លីៗ និងចម្រុះដែលផ្អែកលើព្រឹទ្ធិIslamicSunni - មូលដ្ឋានលើ Qur'an, Hadith និងការបង្រៀននៃលោកគ្រូនពវ៉ូហាម៉ាដ។ ជ្រើសរើសមុំឯកទៅនីមួយៗ៖ ល្អគុណពីចរិយាលក្ខណ៍ Islamic, ការពិតពី Sunnah, ប្រជ្ញាពីសហការីនៃលោកគ្រូ ឬការងារ조្ឝនស័ក្តិពីបាំង។ រួមបញ្ចូល Qur'an verse មួយ (Surah:Ayah) និងការឆ្លឹងម្នាក់ឯង ១–២ ឃ្លាដើម្បីផ្ទុកលើរយៈពេលនៃថ្ងៃ។ ម៉ាកលីចង្វាក់ទៅនឹងលំហត់Islamicឆ្នាំ ឬកាលបរិច្ឆេទសំខាន់ៗ ប្រសិនបើពាក់ព័ន្ធ។",
-
-  "promptFaithTrust": "សរសេរការឆ្លឹងម្នាក់ឯង Islamic ខ្លីៗលើ Iman (ព្រឹទ្ធិ) និងការឈឹងលើផែនការរបស់ Allah (Tawakkul)។ មូលដ្ឋានលើ Qur'an, ឧទាហរណ៍របស់លោកគ្រូ Muhammad និងព្រឹទ្ធិរបស់ Sahaba។ ផ្លាស់ប្តូរប្រធានបទនីមួយៗ៖ ការឈឹងលើ Allah ក្នុងអស្ថិរភាព, ការពឹងផ្អែកលើប្រជ្ញារបស់ Divine, ការស្ងប់ស្ងាប់នៅក្នុងការលំបាក ឬការឈឹងមិនបង្ហាញក្នុងជីវិតប្រចាំថ្ងៃ។ រួមបញ្ចូល Qur'an verse មួយ និងជំហានមួយដែលស្មាសម្រាប់ថ្ងៃនេះដែលចេញមកពីប្រជ្ញា្រាង្គាន។",
-
-  "promptPrayerReflection": "សរសេរការឆ្លឹងម្នាក់ឯង Islamic លើ Salah, Dua ឬ Dhikr។ ផ្លាស់ប្តូររូបរាង៖ ការចងចាំពេលព្រឹក ឬល្ងាច (Adhkar), ការឆ្លឹងម្នាក់ឯងលើ祷告ប្រចាំថ្ងៃប្រាំ, ការគិតគូរលម្អិតលើ Qur'anic verse ឬdua ដែលមានចិត្តក្បក់ផង។ រួមបញ្ចូល Qur'an verse មួយ និងដាក់ឈ្មោះរូបរាង祷告ដែលប្រើប្រាស់។",
-
-  "promptHopeDifficultTimes": "សរសេរការឆ្លឹងម្នាក់ឯង Islamic លើការស្ងប់ស្ងាប់ (Sabr) និងសង្ឃឹមក្នុងពេលលំបាក។ ដកយកមកពីការបង្រៀន Quranic អំពីបញ្ហា, ការឈឹងរឹងរបស់សមណើ និងសេចក្តីអាណិតរបស់ Allah ក្នុងពេលលំបាក។ ផ្លាស់ប្តូរមុំនីមួយៗ។ រួមបញ្ចូល Qur'an verse មួយ និងទស្សនៈលើកក្សួងមួយពីបាំង Islamic។",
-
-  "promptForgiveness": "សរសេរការឆ្លឹងម្នាក់ឯង Islamic ដ៏ល្អលើការស្វាគមន៍សក្ខមាណ (Tawbah) និងសេចក្តីអាណិតរបស់ Allah។ ដកយកមកពីការបង្រៀន Quranic លើការតែងតែថ្ងែក, ល្អគុណរបស់ Allah និងឧទាហរណ៍ដែលលេចឡើងរបស់លោកគ្រូ Muhammad។ ផ្លាស់ប្តូរប្រធានបទ៖ ចូលក្រោយទៅ Allah, ការលេចឡើងដូចម្ដេចដល់អ្នកដទៃ, ការព្យាបាលទាក់ទងគ្នា ឬការឈឹងលើសេចក្តីអាណិតរបស់ Allah បន្ទាប់ពីកំហុស។ រួមបញ្ចូល Qur'an verse មួយ និងជំហានដែលលើកលែង។",
-
-  "promptLoveCompassion": "សរសេរការឆ្លឹងម្នាក់ឯង Islamic ខ្លីៗលើសេចក្តីអាណិត (Rahmah) និងដឹងចូលចិត្តក្នុងជីវិតប្រចាំថ្ងៃ។ ដកយកមកពីឧទាហរណ៍របស់លោកគ្រូ Muhammad, ទស្សនៈលើ Ihsan (ល្អឥតខ្ចោះ) និងការបង្រៀន Islamic លើល្អគុណដល់គ្រួសារ, អ្នកជិតខាង និងអ្នកងាយរងគ្រោះ។ រួមបញ្ចូល Qur'an verse មួយ និងទង្វើល្អគុណតូចមួយដែលនឹងប្រតិបត្តិថ្ងៃនេះ។",
-
-  "promptStrengthCourage": "សរសេរការឆ្លឹងម្នាក់ឯង Islamic លើក្ខមាណនិងក្ courage។ ដកយកមកពីឧទាហរណ៍របស់សមណើ, សហគមន៍ Muslim ដើម, និងអ្នកចូលសាសនាដែលរឹងម្ាំក្នុងពេលលំបាក។ ផ្លាស់ប្តូរប្រធានបទនីមួយៗ៖ ក្ courage ឆ្លងកាត់ព្រឹទ្ធិ, ក្មាំលម្អិតក្នុង祷告, ការឈឹងលើ Allah ក្នុងពេល​ feared ឬការកើងឡើងវិញក្នុងលំបាក។ រួមបញ្ចូល Qur'an verse មួយ និង supplication ឬឃ្លាខ្លីដែលគួរឱ្យចងចាំ។",
-
-  "promptGratitude": "សរសេរការឆ្លឹងម្នាក់ឯង Islamic លើការកោតសរសើរ (Shukr) ដោះស្រាយទៅ Allah។ មូលដ្ឋានលើការបង្រៀន Quranic និងប្រពៃណីលោកគ្រូ។ ផ្លាស់ប្តូរមុំ៖ ការកោតសរសើរក្នុងលំបាក, ការកោតសរសើរលើគ្រប់ព័ន្ធលម្អិត, ការចាប់ផ្តើមថ្ងៃជាមួយការស្វាគមន៍ Allah ឬការទទួលស្គាល់មគ្គុទ្ធិរបស់ Allah ក្នុងជីវិតប្រចាំថ្ងៃ។ រួមបញ្ចូល Qur'an verse មួយ និងការងារកោតសរសើរ។",
-
-  "promptPurposeCalling": "សរសេរការឆ្លឹងម្នាក់ឯង Islamic លើគោលបំណងនៃជីវិតក្នុងការប្រឹក្សាក្រោយលោក Allah និងការរស់នៅថ្ងឹងលម្អិត។ ដកយកមកពីការបង្រៀន Quranic អំពីគោលបំណង, ការបម្រើផ្សេងទៀត នឹងការប្រើប្រាស់ល្អគុណរបស់ក្នុងល្អ។ ផ្លាស់ប្តូរប្រធានបទនីមួយៗ៖ ការបម្រើក្រុមគ្រួសារ និងសហគមន៍, ស្វាគមន៍មគ្គុទ្ធិឆ្លងកាត់ Istikhara, ការរស់នៅដោយលក្ខណៈដើម ឬការស្វាគមន៍ល័ក្ខន៍ក្នុងការងារប្រចាំថ្ងៃ។ រួមបញ្ចូល Qur'an verse មួយ និងសំណួរឆ្លឹងម្នាក់ឯងពីរ។",
-
-  "promptFamilyRelationships": "សរសេរការណែនាំ Islamic ដ៏ល្អលើក្រុមគ្រួសារ និងទាក់ទងគ្នាមូលដ្ឋានលើការបង្រៀន Quranic និងឧទាហរណ៍របស់លោកគ្រូ Muhammad។ ផ្លាស់ប្តូរប្រធានបទនីមួយៗ៖ ល្អគុណក្នុងជីវិតក្រុមគ្រួសារ, ការស្ងប់ស្ងាប់ក្នុងសង្រ្គាម, ការគោរពឪពុកម្ដាយ, ការលូតលាស់កូន-ក្រមួលក្នុងព្រឹទ្ធិ ឬការរឹងមាំនៃការលាស់គ្នា។ រួមបញ្ចូល Qur'an verse មួយ និងវិធីសាស្ត្របង្គប់គ្នាដែលគួរព្យាយាម។",
-
-  "promptPeaceAnxietyRelief": "សរសេរការឆ្លឹងម្នាក់ឯង Islamic ដែលស្ងប់ ស្ងាប់លើការស្វាគមន៍សន្តិភាពក្នុងដំណើរការចងចាំរបស់ Allah (Dhikr) និងការឈឹងលើផែនការរបស់គាត់។ ដកយកមកពីការបង្រៀន Quranic អំពីវត្ថុម្នាក់ឯងកំរិតក្នុងចិត្ត,祷告 និងការប៉ាន់ងាក់ទៅលើ Allah។ ផ្លាស់ប្តូរវិធីសាស្ត្រនីមួយៗ រួមបញ្ចូល Qur'an verse មួយ និងលម្អិតដ៏សាមញ្ញមួយពីបាំង Islamic។",
-
-  "promptWisdomOfJesus": "សរសេរចម្រាលប្រជ្ញាមួយពីលោកគ្រូនពនៅក្នុងនិយាយលើ Islam។ ដកយកមកពី Qur'an ឬ Hadith និងពន្យល់ដោយមិនយូរក្រឺង কীរីរបៀបដែលអ្នកសិក្សា Islamic បានយល់ការបង្រៀន។ ផ្លាស់ប្តូរប្រធានបទនីមួយៗ៖ ចរិយាលក្ខណ៍, ការស្ងប់ស្ងាប់, កង្វល់, ព្រឹទ្ធិ ឬលម្អិតប្រចាំថ្ងៃ។ រួមបញ្ចូល Quranic verse ឬ Hadith reference និងកម្មវិធីលម្អិតមួយ។",
-
-  "promptHumilityCharacter": "សរសេរការឆ្លឹងម្នាក់ឯង Islamic លើកង្វល់ (Tawadhu) និងចរិយាលក្ខណ៍ល្អ (Akhlaq)។ ដកយកមកពីការបង្រៀន Quranic, ឧទាហរណ៍របស់លោកគ្រូ Muhammad និងប្រពៃណីនៃការអភិវឌ្ឍលក្ខណៈ Islamic។ ផ្លាស់ប្តូរប្រធានបទ៖ កង្វល់ក្នុងការដឹងនាំ, ការទទួលស្គាល់កំហុស, ការព្យាបាលអ្នកដទៃដោយរាប់រង ឬការចូលទៅយល់ដឹងក្នុងសារមួយឯង។ រួមបញ្ចូល Qur'an verse មួយ និងវិធីសាស្ត្រដែលត្រូវប្រតិបត្តិ។",
-
-  "promptOvercomingTemptation": "សរសេរការឆ្លឹងម្នាក់ឯង Islamic លើការទប់ស្កាប់ការចង់បាន និងនៅលើផ្លូវត្រង់។ ដកយកមកពីការណែនាំ Quranic, ការចងចាំរបស់ Allah (Dhikr),祷告 (Salah) និងឧទាហរណ៍របស់អ្នកចូលសាសនាដែលលើកសឹងឡើងវិញ។ ផ្លាស់ប្តូរមុំនីមួយៗ។ រួមបញ្ចូល Qur'an verse មួយ និងយុទ្ធសាស្រ្តលម្អិតមួយសម្រាប់ 24 ម៉ោងបន្ទាប់។",
-
-  "promptEveningReflection": "សរសេរការឆ្លឹងម្នាក់ឯង Islamic ល្ងាចដែលសីលប៉ាន់ងាក់លើប្រពៃណីនៃការឆ្លឹងម្នាក់ឯងល្ងាច (Adhkar al-Masaa')។ ក្ដើងលើការកោតសរសើរ, ការឆ្លឹងម្នាក់ឯង (Muhasabah) និងការឈឹងលើ Allah មុនពេលឈប់។ រួមបញ្ចូល 3–5 សំណួរឆ្លឹងម្នាក់ឯងខ្លីៗលើថ្ងៃមួយ, supplication ដែលឡើងទៅលើ និង Qur'an verse មួយ។",
-
+  "chooseLanguage": "ជ្រើសរើសភាษារបស់អ្នក",
+  "continueCta": "ដោះស្រាយ",
   "wordCount": "{count, plural, one {{count} ពាក្យ} other {{count} ពាក្យ}}",
-
   "optionsCta": "ជម្រើស",
   "newCta": "ថ្មី",
-  "actionsTitle": "តើអ្នកចង់ធ្វើអ្វីលើបន្ទាប់?",
-  "copy": "ថតលម្អិត",
+  "actionsTitle": "តើអ្នកចង់ធ្វើឱ្យប្រើប្រាស់?",
+  "copy": "ចម្លង",
   "share": "ចែករំលែក",
   "close": "បិទ",
-  "copiedToast": "ថតលម្អិតទៅក្នុង clipboard",
-
-  "shareSubject": "Ayara — {category}",
+  "copiedToast": "ចម្លងទៅ clipboard",
+  "shareSubject": "អាយារ៉ា — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
-      "category": { "type": "String", "example": "ការណែនាំប្រចាំថ្ងៃ" }
+      "category": {
+        "type": "String",
+        "example": "Daily Guidance"
+      }
     }
   },
-
-  "regenerateErrorTitle": "មិនអាចបង្កើត reply ថ្មីបានលទ្ធផល",
-  "regenerateErrorBody": "{error}\n\nតើអ្នកចង់ព្យាយាមម្តងទៀត?",
+  "regenerateErrorTitle": "មិនអាចបង្កើតចម្លើយថ្មីបាន",
+  "regenerateErrorBody": "{error}\n\nតើអ្នកចង់ព្យាយាម ម្តងទៀត?",
   "@regenerateErrorBody": {
     "description": "Shown when regenerating an AI answer fails.",
     "placeholders": {
-      "error": { "type": "String", "example": "Network error" }
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
     }
   },
-
   "cancelCta": "បោះបង់",
-  "retryCta": "ព្យាយាមម្តងទៀត",
-
+  "retryCta": "ព្យាយាម ម្តងទៀត",
   "authTitle": "បង្កើតគណនីរបស់អ្នក",
-  "continueAsGuest": "ទៅដល់ដូចម្ដេចក្នុងលក្ខណៈ សាលម",
-  "signInGoogle": "ចូលជាមួយ Google",
-  "signInApple": "ចូលជាមួយ Apple",
-  "signInEmail": "ចូលជាមួយ Email",
-  "upgradeWithApple": "ទៅដល់ជាមួយ Apple",
-  "mustAccept": "អ្នកត្រូវតែយល់ព្រម និងស្វាគមន៍នូវលក្ខខណ្ឌ និងនយោបាយឯកជនម្ដង។",
-  "termsLabel": "ខ្ញុំយល់ព្រមលើលក្ខខណ្ឌនៃសេវា",
-  "privacyLabel": "ខ្ញុំបានអានលក្ខខណ្ឌឯកជន",
-  "marketingOptIn": "ខ្ញុំយល់ព្រមលើការទទួលបាននិងលទ្ធផល",
-  "openTerms": "លក្ខខណ្ឌនៃសេវា",
-  "openPrivacy": "លក្ខខណ្ឌឯកជន",
-
+  "continueAsGuest": "ដោះស្រាយជាឧបករណ៍ផ្ទុក",
+  "signInGoogle": "ចូលរូបដោយប្រើ Google",
+  "signInApple": "ចូលរូបដោយប្រើ Apple",
+  "signInEmail": "ចូលរូបដោយប្រើអ៊ីមែល",
+  "upgradeWithApple": "ដោះស្រាយដោយប្រើ Apple",
+  "mustAccept": "អ្នកត្រូវតែលិខិតយល់ព្រម និងទទួលស្គាល់គោលការណ៍ឯកជនភាព។",
+  "termsLabel": "ខ្ញុំយល់ព្រមលក្ខខណ្ឌនៃសេវាកម្ម",
+  "privacyLabel": "ខ្ញុំបានអានគោលការណ៍ឯកជនភាព",
+  "marketingOptIn": "ខ្ញុំយល់ព្រមក្នុងការទទួលបានព័ត៌មាន និងការផ្តល់ជូន",
+  "openTerms": "លក្ខខណ្ឌនៃសេវាកម្ម",
+  "openPrivacy": "គោលការណ៍ឯកជនភាព",
   "accountSection": "គណនី",
-  "guestMode": "លក្ខណៈឪក",
-  "signedIn": "បានចូល",
-  "upgradeHint": "រក្សាការឆ្លឹងម្នាក់ឯងលម្អិតឆ្លងកាត់ឧបករណ៍ដោយបង្កើតគណនីម្តង។",
-  "upgradeWithGoogle": "ទៅដល់ជាមួយ Google",
-  "signOut": "ចេញ",
-
-  "snackUpgraded": "គណនីដែលបានផ្ដល់ឱ្យថ្នាក់ Google ✅",
-  "snackSignedIn": "ចូលជាមួយ Google ✅",
-  "snackSignedOut": "បានចេញ",
-  "snackSignedInApple": "ចូលជាមួយ Apple ✅",
-  "snackSignedInGoogle": "ចូលជាមួយ Google ✅",
-  "snackUpgradedApple": "គណនីដែលបានផ្ដល់ឱ្យថ្នាក់ Apple ✅",
-  "snackUpgradedGoogle": "គណនីដែលបានផ្ដល់ឱ្យថ្នាក់ Google ✅",
-
-  "historyTitle": "ការឆ្លឹងម្នាក់ឯងលម្អិត",
-  "historyOpenCta": "ការឆ្លឹងម្នាក់ឯងលម្អិត",
-  "historyEmpty": "មិនមានការឆ្លឹងម្នាក់ឯងលម្អិតដែលបានរក្សាទុក។",
-  "historyDeleteTitle": "លុបការឆ្លឹងម្នាក់ឯង?",
-  "historyDeleteBody": "នេះនឹងដកយកសម្ភារៈដែលបានជ្រើសរើស។",
+  "guestMode": "របៀបឧបករណ៍ផ្ទុក",
+  "signedIn": "ចូលរូបរួចហើយ",
+  "upgradeHint": "រក្សាទុកការឆ្លឹងលើបាន devices ដោយបង្កើតគណនី។",
+  "upgradeWithGoogle": "ដោះស្រាយដោយប្រើ Google",
+  "signOut": "ចាកចេញ",
+  "snackUpgraded": "គណនីដែលបានផ្នើមដោយ Google ✅",
+  "snackSignedIn": "ចូលរូបដោយ Google ✅",
+  "snackSignedOut": "ចាកចេញ",
+  "snackSignedInApple": "ចូលរូបដោយ Apple ✅",
+  "snackSignedInGoogle": "ចូលរូបដោយ Google ✅",
+  "snackUpgradedApple": "គណនីដែលបានផ្នើមដោយ Apple ✅",
+  "snackUpgradedGoogle": "គណនីដែលបានផ្នើមដោយ Google ✅",
+  "historyTitle": "ការឆ្លឹងលើមុន",
+  "historyOpenCta": "ការឆ្លឹងលើមុន",
+  "historyEmpty": "មិនមានការឆ្លឹងលើដែលបានរក្សាទុក នៅឡើយ។",
+  "historyDeleteTitle": "លុបការឆ្លឹងលើ?",
+  "historyDeleteBody": "នេះនឹងដកបង្ហាញរបស់ដែលបានជ្រើសរើស ដោយមិនមានលក្ខខណ្ឌ។",
   "deleteCta": "លុប",
-
-  "historyButton": "ការឆ្លឹងម្នាក់ឯងលម្អិត",
-  "historyEmptyTitle": "មិនមានការឆ្លឹងម្នាក់ឯង",
-  "historyEmptyBody": "បង្កើតលម្អិតមួយដំបូង — ធាតុដែលបានរក្សាទុករបស់អ្នកនឹងបង្ហាញក្នុងនេះ។",
+  "historyButton": "ការឆ្លឹងលើមុន",
+  "historyEmptyTitle": "មិនមានការឆ្លឹងលើនៅឡើយ",
+  "historyEmptyBody": "បង្កើតរបស់មួយចំនួនដំបូង — របស់ដែលបានរក្សាទុក នឹងបង្ហាញខាងក្រោម។",
   "historyDelete": "លុប",
-
-  "footerTitle": "ជាមួយ Iman, Sabr និង Rahmah។",
-  "footerSubtitle": "ជំហានមួយក្នុងពេលម្តង។",
-  "genericErrorSnack": "មានបញ្ហាមួយចំនួន — សូមព្យាយាមម្តងទៀតក្នុងពេលខ្លីមួយ។",
-
-  "upgradeAccountCta": "រក្សាការឆ្លឹងម្នាក់ឯងលម្អិតឆ្លងកាត់ឧបករណ៍ – បង្កើតគណនីម្តង",
+  "footerTitle": "ដោយប្រើ Wilaya, Iman និង Sabr",
+  "footerSubtitle": "ការ祈祷មួយនៅពេលមួយ",
+  "genericErrorSnack": "មានការលំបាក — សូមព្យាយាម ម្តងទៀត។",
+  "upgradeAccountCta": "រក្សាទុកការឆ្លឹងលើបាន devices — បង្កើតគណនី",
   "deleteAccount": "លុបគណនី",
-  "exportData": "នាំចេញទិន្នន័យរបស់ខ្ញុំ",
-
+  "exportData": "នាំចេញទិន្នន័យ",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
     "description": "Label before showing the internal Firebase UID.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "ងាយ tiger 🐯\nAI ត្រូវការពេលមួយមុនពេលបង្កើតលម្អិតបន្ទាប់…",
-  "rateDailyLimit": "អ្នកបានអស់ការឆ្លឹងម្នាក់ឯងសម្រាប់ពេលនេះ។\nទទួលលម្អិតលម្អិតបន្ថែម ឬផ្ដល់ឱ្យថ្នាក់ Barakah។",
-  "rateCreditsExhausted": "អ្នកបានប្រើប្រាស់ការឆ្លឹងម្នាក់ឯងលម្អិតរបស់អ្នក។\nលេខលម្អិត ឬផ្ដល់ឱ្យថ្នាក់ Barakah ដើម្បីបន្ត។",
-  "rateGraceReflectionsExhausted": "អ្នកបានអស់ការឆ្លឹងម្នាក់ឯងសម្រាប់ពេលនេះ។\nទទួលលម្អិតលម្អិតបន្ថែម ឬផ្ដល់ឱ្យថ្នាក់ Barakah។",
-  "rateReflectionsExhausted": "អ្នកបានប្រើប្រាស់ការឆ្លឹងម្នាក់ឯងលម្អិតរបស់អ្នក។\nលេខលម្អិត ឬផ្ដល់ឱ្យថ្នាក់ Barakah ដើម្បីបន្ត។",
-
-  "blessedDescription": "Barakah ផ្ដល់លក្ខណៈលម្អិត, ក្ដើងចម្រាលថ្មីក្នុងពេលឯកតា និងឆ្មាក់ពិសេស។",
-  "championDescription": "Barakah ផ្ដល់លក្ខណៈលម្អិត, ក្ដើងចម្រាលថ្មីក្នុងពេលឯកតា និងឆ្មាក់ពិសេស។",
-
-  "ratePlanExhausted": "ការឆ្លឹងម្នាក់ឯងលម្អិតរបស់អ្នកគឺនៅលើលើលក្ខខណ្ឌបច្ចុប្បន្ន។ ផែនការ៖ {plan}។",
+  "rateLocalThrottle": "ង្វង់សេឡូង 🐯\nអាយារ៉ាត្រូវការពេលមួយ មុនលើផ្នែកបន្ទាប់...",
+  "rateDailyLimit": "អ្នកបានប្រើ reflections ដែលបានកំណត់។\nទទួលបាន reflections ច្រើនឬផ្នើម Wilaya។",
+  "rateCreditsExhausted": "អ្នកបានប្រើ reflections ដែលបានទាំងអស់។\nបូករឺផ្នើម Wilaya ដើម្បីបន្តបាន។",
+  "rateGraceCreditsExhausted": "អ្នកបានប្រើ reflections ដែលបានកំណត់។\nទទួលបាន reflections ច្រើនឬផ្នើម Wilaya។",
+  "premiumDescription": "Wilaya សម្រាប់មាន reflections ច្រើន, ប្រភេទដែលសមរម្យ ឥឡូវនេះ ឬក្រោយមក។",
+  "ratePlanExhausted": "Reflections របស់អ្នក ត្រូវបានផ្សាយ។ ផែនការ: {plan}។",
   "@ratePlanExhausted": {
     "description": "Shown when the user's reflections are exhausted but the reason is generic.",
     "placeholders": {
-      "plan": { "type": "String", "example": "ស្តង់ដារ ឬ Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard or Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "មិនអាចពិនិត្យការឆ្លឹងម្នាក់ឯងលម្អិតបានលទ្ធផល៖ {message}",
+  "rateCheckFailed": "មិនអាចពិនិត្យលើ reflections របស់អ្នក: {message}",
   "@rateCheckFailed": {
     "description": "Shown when the callable function returns an error message.",
     "placeholders": {
-      "message": { "type": "String", "example": "Network error" }
+      "message": {
+        "type": "String",
+        "example": "Network error"
+      }
     }
   },
-
-  "rateCheckGenericError": "មានបញ្ហាមួយចំនួនក្នុងពេលពិនិត្យការឆ្លឹងម្នាក់ឯងលម្អិត។",
-  "aiFallbackGeneric": "មានបញ្ហាមួយចំនួន — សូមព្យាយាមម្តងទៀតក្នុងពេលខ្លីមួយ។",
-
-  "limitSectionTitle": "ការឆ្លឹងម្នាក់ឯង",
+  "rateCheckGenericError": "មានលម្លាប់ក្នុងការពិនិត្យលើ reflections របស់អ្នក។",
+  "aiFallbackGeneric": "មានការលំបាក — សូមព្យាយាម ម្តងទៀត។",
+  "limitSectionTitle": "Reflections",
   "limitTodayLabel": "ការប្រើប្រាស់",
-  "limitCreditsLabel": "ការឆ្លឹងម្នាក់ឯងដែលនៅសល់៖ {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "ផែនការ៖ {plan}",
+  "limitCreditsLabel": "Reflections នៅសល់: {credits}",
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
+  "limitPlanLabel": "ផែនការ: {plan}",
   "@limitPlanLabel": {
     "description": "Shows the current subscription plan name.",
     "placeholders": {
-      "plan": { "type": "String", "example": "ស្តង់ដារ ឬ Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard or Wilaya"
+      }
     }
   },
-  "limitLoadingLabel": "កំពុងផ្ទុក…",
+  "limitLoadingLabel": "កំពុងផ្ទុក...",
   "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
-
-  "aiLimitTitle": "ការឆ្លឹងម្នាក់ឯង",
-  "aiLimitSubtitle": "ការឆ្លើយតប្នីមួយប្រើ 1 ការឆ្លឹងម្នាក់ឯង។ ស្តង់ដាររួមបញ្ចូលការឆ្លឹងម្នាក់ឯងលម្អិត។ Barakah ផ្ដល់ក្ដើងលម្អិតលម្អិត រៃឆ្មាក់ដល់ដូង។",
-  "aiLimitProgressLabel": "{used} / {total} ការឆ្លឹងម្នាក់ឯងប្រើប្រាស់",
+  "aiLimitTitle": "Reflections",
+  "aiLimitSubtitle": "ប្រើ 1 reflection រៀងរាល់។ ស្តង់ដារ reflection ដោះស្រាយ។ Wilaya បង្ហាញលម្អិតនិងបូក។",
+  "aiLimitProgressLabel": "{used} / {total} reflections ប្រើ",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "ការឆ្លឹងម្នាក់ឯង",
-  "reflectionsUsageLabel": "ការប្រើប្រាស់",
-  "reflectionsRemainingLabel": "ការឆ្លឹងម្នាក់ឯងដែលនៅសល់៖ {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "ផែនការ៖ {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Shows the current plan name.",
+  "creditsSectionTitle": "Reflections",
+  "creditsUsageLabel": "ការប្រើប្រាស់",
+  "creditsRemainingLabel": "Reflections នៅសល់: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "ស្តង់ដារ ឬ Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "កំពុងផ្ទុក…",
-  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
-
-  "reflectionsTitle": "ការឆ្លឹងម្នាក់ឯង",
-  "reflectionsSubtitle": "ការឆ្លើយតប្នីមួយប្រើ 1 ការឆ្លឹងម្នាក់ឯង។ ស្តង់ដាររួមបញ្ចូលការឆ្លឹងម្នាក់ឯងលម្អិត។ Barakah ផ្ដល់ក្ដើងលម្អិតលម្អិត រៃឆ្មាក់ដល់ដូង។",
-  "reflectionsProgressLabel": "{used} / {total} ការឆ្លឹងម្នាក់ឯងប្រើប្រាស់",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "ផែនការ: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standard or Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "កំពុងផ្ទុក...",
+  "creditsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+  "creditsTitle": "Reflections",
+  "creditsSubtitle": "ប្រើ 1 reflection រៀងរាល់។ ស្តង់ដារ reflection ដោះស្រាយ។ Wilaya បង្ហាញលម្អិតនិងបូក។",
+  "creditsProgressLabel": "{used} / {total} reflections ប្រើ",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "លុបគណនី",
-  "settingsDeleteDescription": "លុបគណនីដល់ទិន្នន័យដែលពាក់ព័ន្ធរបស់អ្នក។",
+  "settingsDeleteDescription": "លុបគណនីនិងទិន្នន័យដែលពាក់ព័ន្ធដោយមិនមានលក្ខខណ្ឌ។",
   "settingsDeleteButtonLabel": "លុបគណនីរបស់ខ្ញុំ",
   "settingsDeleteDialogTitle": "លុបគណនី?",
-  "settingsDeleteDialogBody": "ចម្ពោះមិនអាចដូងក្ដើងលម្អិតទាំងនេះ។\n\nសម្ភារៈគំរូ, ប្រវត្តិ និងលម្អិតគណនីរបស់អ្នកលុបលម្អិត។",
+  "settingsDeleteDialogBody": "សកម្មភាពនេះគឺមិនអាចដកមកវិញបាន។\n\nចរាចរលម្អិត ប្រវត្តិ និងលម្អិតគណនីនឹងលុបដោះស្រាយ។",
   "settingsDeleteDialogCancel": "បោះបង់",
   "settingsDeleteDialogConfirm": "លុប",
-
-  "settingsFreeLimitUsedTitle": "ការឆ្លឹងម្នាក់ឯងលម្អិតបានប្រើប្រាស់",
-  "settingsFreeLimitUsedDescription": "ការឆ្លឹងម្នាក់ឯងលម្អិតសម្រាប់ឧបករណ៍នេះបានប្រើប្រាស់។ ផ្ដល់ឱ្យថ្នាក់ Barakah ឬលេខលម្អិតលម្អិតដើម្បីបន្ត។",
-
-  "settingsStarterReflectionsUsedTitle": "ការឆ្លឹងម្នាក់ឯងលម្អិតបានប្រើប្រាស់",
-  "settingsStarterReflectionsUsedDescription": "ការឆ្លឹងម្នាក់ឯងលម្អិតសម្រាប់ឧបករណ៍នេះបានប្រើប្រាស់។ ផ្ដល់ឱ្យថ្នាក់ Barakah ឬលេខលម្អិតលម្អិតដើម្បីបន្ត។",
-
-  "deviceBoundError": "ឧបករណ៍នេះត្រូវបានចងក្រង់ជាមួយគណនីផ្សេងទៀត។ សូមចូលជាមួយគណនីដើម។",
-
-  "premiumTitle": "Barakah mode",
-  "premiumSubtitleBasic": "បើកការប្រើប្រាស់ Ayara ឬមតិយ៉ាង។",
-  "premiumSubtitleChampion": "អ្នកគឺ Barakah។ ត្រូវការលម្អិតលម្អិតច្រើនទៀត?",
-
-  "premiumCurrentPlan": "ផែនការបច្ចុប្បន្ន៖ {plan}",
-  "premiumCreditsStatus": "ការឆ្លឹងម្នាក់ឯង៖ {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "ការលេខលម្អិតមិនមាននៅពេលនេះ។",
-  "premiumSignInToPurchase": "ចូលដើម្បីលេខលម្អិត ឬផ្ដល់ឱ្យថ្នាក់ Barakah។",
-
-  "premiumRestorePurchases": "ស្វាគមន៍ការលេខលម្អិត",
-  "premiumProcessing": "កំពុងដំណើរការ…",
-  "premiumRestoreHintTitle": "បានលេខលម្អិត Barakah ឬលម្អិតលម្អិតដើម្បីឧបករណ៍នេះ ឬផ្សេងទៀត?",
-  "premiumRestoreHintBody": "ស្វាគមន៍ការលេខលម្អិតរបស់អ្នក ប្រសិនបើពួកវាមិនបង្ហាញ។",
-
-  "premiumBuyCredits200": "លេខលម្អិត 200",
-  "premiumBuyCredits400": "លេខលម្អិត 400",
-  "premiumBecomeChampionOneTime": "ផ្ដល់ឱ្យថ្នាក់ Barakah mode",
-  "premiumChampionHint": "ស្ដង់ Barakah, អ្នកអាចលេខលម្អិតលម្អិតលម្អិតថ្មីនៅពេលដែលអ្នកត្រូវការ។",
-
-  "premiumUpgradeCta": "ផ្ដល់ឱ្យថ្នាក់",
-  "premiumRequiredForCategory": "ក្ដើងនេះគ្រាន់តែសម្រាប់អ្នក Barakah។ ផ្ដល់ឱ្យថ្នាក់ក្នុងការកំណត់ដើម្បីបើកលក្ខខណ្ឌលម្អិតលម្អិត។",
-  "premiumBenefitsBasic": "ផ្ដល់ឱ្យថ្នាក់ Barakah ដើម្បីទទួលលម្អិតលម្អិត, ដំណើរការក្ដើងលម្អិតលម្អិត និងបន្តកាលណាដែលអ្នកត្រូវការការណែនាំ។",
-  "premiumBenefitsChampion": "អ្នកក្នុង Barakah mode។ ប្រសិនបើលម្អិតលម្អិត, បន្ថែមលម្អិតលម្អិតបន្ថែម រៃបន្ត ឯកលក្ខណៈ។",
-  "premiumButtonBecomeChampion": "បើក Barakah",
-  "premiumButtonTopup1000": "បន្ថែម 1000 ការឆ្លឹងម្នាក់ឯង",
-  "premiumChampionBadge": "Barakah សកម្ម",
-  "premiumLoadingStore": "កំពុងផ្ទុកហាង…",
-
-  "blessedTitle": "Barakah mode",
-  "blessedSubtitleGrace": "បើកការប្រើប្រាស់ Ayara ឬមតិយ៉ាង។",
-  "blessedSubtitleBlessed": "អ្នកគឺ Barakah។ ត្រូវការលម្អិតលម្អិតច្រើនទៀត?",
-
-  "blessedCurrentPlan": "ផែនការបច្ចុប្បន្ន៖ {plan}",
-  "blessedReflectionsStatus": "ការឆ្លឹងម្នាក់ឯង៖ {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "ការលេខលម្អិតមិនមាននៅពេលនេះ។",
-  "blessedProductNotAvailable": "ផលិតផលនេះមិនទាន់ក្នុងហាងក្នុងពេលនេះ។ សូមព្យាយាមម្តងទៀតក្រោយមក។",
-  "blessedPurchaseError": "មានបញ្ហាឃរម្ចាប់ផ្តើម។ សូមព្យាយាមម្តងទៀត។",
-  "blessedSignInToPurchase": "ចូលដើម្បីលេខលម្អិត ឬផ្ដល់ឱ្យថ្នាក់ Barakah។",
-
-  "blessedRestorePurchases": "ស្វាគមន៍ការលេខលម្អិត",
-  "blessedProcessing": "កំពុងដំណើរការ…",
-  "blessedRestoreHintTitle": "បានលេខលម្អិត Barakah ឬលម្អិតលម្អិតដើម្បីឧបករណ៍នេះ ឬផ្សេងទៀត?",
-  "blessedRestoreHintBody": "ស្វាគមន៍ការលេខលម្អិតរបស់អ្នក ប្រសិនបើពួកវាមិនបង្ហាញ។",
-
-  "blessedBuyReflections100": "បន្ថែម 100 ការឆ្លឹងម្នាក់ឯង",
-  "blessedBuyReflections200": "លេខលម្អិត 200",
-  "blessedBuyReflections400": "លេខលម្អិត 400",
-  "blessedBecomeBlessedOneTime": "ផ្ដល់ឱ្យថ្នាក់ Barakah",
-  "blessedTopupHint": "ស្ដង់ Barakah, អ្នកអាចលេខលម្អិតលម្អិតលម្អិតថ្មីនៅពេលដែលអ្នកត្រូវការ។",
-
-  "blessedUpgradeCta": "ផ្ដល់ឱ្យថ្នាក់",
-  "blessedRequiredForCategory": "ក្ដើងនេះគ្រាន់តែសម្រាប់អ្នក Barakah។ ផ្ដល់ឱ្យថ្នាក់ក្នុងការកំណត់ដើម្បីបើកលក្ខខណ្ឌលម្អិតលម្អិត។",
-  "blessedFeatureLocked": "ផ្ដល់ឱ្យថ្នាក់ Barakah ដើម្បីដំណើរការលក្ខណៈលម្អិត។",
-  "lockedCategoriesHint": "ក្ដើងខ្លះត្រូវបានផ្នែកសម្រាប់សមាជិក Barakah។ បើកឱ្យពួកវាដើម្បីស្វាងរកការឆ្លឹងម្នាក់ឯងលម្អិតលម្អិតក្នុងដំណើរការរបស់អ្នក។",
-  "blessedBenefitsGrace": "ផ្ដល់ឱ្យថ្នាក់ Barakah ដើម្បីទទួលលម្អិតលម្អិត, ដំណើរការក្ដើងលម្អិតលម្អិត និងបន្តកាលណាដែលអ្នកត្រូវការការណែនាំ។",
-  "blessedBenefitsBlessed": "អ្នកក្នុង Barakah mode។ ប្រសិនបើលម្អិតលម្អិត, បន្ថែមលម្អិតលម្អិតបន្ថែម រៃបន្ត ឯកលក្ខណៈ។",
-  "blessedButtonBecomeBlessed": "បើក Barakah",
-  "blessedButtonTopup1000": "បន្ថែម 1000 ការឆ្លឹងម្នាក់ឯង",
-  "blessedBadge": "Barakah សកម្ម",
-  "blessedLoadingStore": "កំពុងផ្ទុកហាង…",
-
-  "freePlanBlockedTitle": "អ្នកបានប្រើលម្អិតលម្អិតលម្អិត",
-  "freePlanBlockedBody": "អ្នកក្នុងផែនការស្តង់ដារ ដោយលម្អិតលម្អិត រៃដើម្បីបន្ត រៃផ្ដល់ឱ្យថ្នាក់ Barakah។",
-  "freePlanBlockedCtaGoPremium": "មើលលក្ខខណ្ឌ Barakah ខាងក្រោម",
-
-  "graceBlockedTitle": "អ្នកបានប្រើលម្អិតលម្អិតលម្អិត",
-  "graceBlockedBody": "អ្នកក្នុងផែនការស្តង់ដារ ដោយលម្អិតលម្អិត រៃដើម្បីបន្ត រៃផ្ដល់ឱ្យថ្នាក់ Barakah។",
-  "graceBlockedCtaGoBlessed": "មើលលក្ខខណ្ឌ Barakah ខាងក្រោម",
-
-  "rateGuestMustSignIn": "ចូលដើម្បីប្រើ Ayara រៃការឆ្លឹងម្នាក់ឯង។",
-
-  "guestNoCreditsTitle": "លក្ខណៈឪក",
-  "guestNoCreditsBody": "ក្នុងលក្ខណៈឪក អ្នកអាចស្វាងរកកម្មវិធី, ប៉ុន្តែអ្នកមិនអាចប្រើការឆ្លឹងម្នាក់ឯង។ ចូលក្នុងកម្មវិធីក្រោយមក ដើម្បីប្រើប្រាស់រៃបើកលេខលម្អិត។",
-
-  "guestNoReflectionsTitle": "លក្ខណៈឪក",
-  "guestNoReflectionsBody": "ក្នុងលក្ខណៈឪក អ្នកអាចស្វាងរកកម្មវិធី, ប៉ុន្តែអ្នកមិនអាចប្រើការឆ្លឹងម្នាក់ឯង។ ចូលក្នុងកម្មវិធីក្រោយមក ដើម្បីប្រើប្រាស់រៃបើកលេខលម្អិត។",
-
-  "guestDialogContinue": "បន្ត",
-  "guestDialogLoginInstead": "ចូលក្នុងផ្នែក",
-
-  "optionalLabel": "ផ្នែកពិសេស",
-
+  "settingsFreeLimitUsedTitle": "ដោះស្រាយ reflections ប្រើ",
+  "settingsFreeLimitUsedDescription": "ដោះស្រាយ reflections សម្រាប់ device នេះ។ ផ្នើម Wilaya ឬលក់ reflections នេះ។",
+  "settingsStarterCreditsUsedTitle": "ដោះស្រាយ reflections ប្រើ",
+  "settingsStarterCreditsUsedDescription": "ដោះស្រាយ reflections សម្រាប់ device នេះ។ ផ្នើម Wilaya ឬលក់ reflections នេះ។",
+  "deviceBoundError": "Device នេះ ត្រូវបានភ្ជាប់ដោយគណនីផ្សេងទៀត។ សូមចូលរូបដោយប្រើគណនីដើម។",
+  "premiumTitle": "របៀប Wilaya",
+  "premiumSubtitleBasic": "សម្រាក Ayara ពេញលេញ។",
+  "premiumSubtitlePremium": "អ្នកមាន Wilaya។ ត្រូវការ reflections បន្ថែម?",
+  "premiumCurrentPlan": "ផែនការបច្ចុប្បន្ន: {plan}",
+  "premiumCreditsStatus": "Reflections: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "ការលក់មិនឡើងរឹង។",
+  "premiumSignInToPurchase": "ចូលរូបដើម្បីលក់ reflections ឬ Wilaya សម្រាក។",
+  "premiumRestorePurchases": "ស្ដារការលក់",
+  "premiumProcessing": "ដំណើរការ...",
+  "premiumRestoreHintTitle": "ដូច្នេះលក់ Wilaya ឬ reflections រួចរាល់?",
+  "premiumRestoreHintBody": "ស្ដារការលក់ ប្រសិនបើមិនបង្ហាញ។",
+  "premiumBuyCredits200": "លក់ 200 reflections",
+  "premiumBuyCredits400": "លក់ 400 reflections",
+  "premiumBecomePremiumOneTime": "ផ្នើម Wilaya របៀប",
+  "premiumTopupHint": "ដោយប្រើ Wilaya អ្នក reflections បូក ពេលដែលត្រូវការ។",
+  "premiumUpgradeCta": "ផ្នើម",
+  "premiumRequiredForCategory": "ប្រភេទនេះ Wilaya ប្រើប្រាស់ប៉ុណ្ណាក្រោយ។ ផ្នើម ក្នុង Settings វិស័យ។",
+  "premiumBenefitsBasic": "សម្រាក Wilaya reflections ច្រើន ប្រភេទលម្អិត បន្ត រេ Wilaya។",
+  "premiumBenefitsPremium": "អ្នកមាន Wilaya របៀប។ ប្រសិនបើ reflections ខ្លី បូក។",
+  "premiumButtonBecomePremium": "សម្រាក Wilaya",
+  "premiumButtonTopup1000": "បូក 1000 reflections",
+  "premiumBadge": "Wilaya សកម្ម",
+  "premiumLoadingStore": "រក្សាទុក ផ្ទុក...",
+  "premiumProductNotAvailable": "ផលិតផលនេះ មិនមាន។ សូមព្យាយាម ក្រោយមក។",
+  "premiumPurchaseError": "មានលម្លាប់លក់។ សូមព្យាយាម ម្តងទៀត។",
+  "premiumBuyCredits100": "បូក 100 reflections",
+  "premiumFeatureLocked": "សម្រាក Wilaya មាន។",
+  "lockedCategoriesHint": "ប្រភេទខ្លះ Wilaya ឬក្រោយ។ សម្រាក។",
+  "freePlanBlockedTitle": "អ្នកបានប្រើ reflections ដោះស្រាយ",
+  "freePlanBlockedBody": "អ្នក ស្តង់ដារ ដោះស្រាយ reflections។ បានឈានដល់ដែនកំណត់។ ដើម្បីបន្ត — និងសម្រាក ប្រភេទលម្អិត — ផ្នើម Wilaya។",
+  "freePlanBlockedCtaGoPremium": "Wilaya ដូច្នេះខាងក្រោម",
+  "graceBlockedTitle": "អ្នកបានប្រើ reflections ដោះស្រាយ",
+  "graceBlockedBody": "អ្នក ស្តង់ដារ ដោះស្រាយ reflections។ បានឈានដល់ដែនកំណត់។ ដើម្បីបន្ត — និងសម្រាក ប្រភេទលម្អិត — ផ្នើម Wilaya។",
+  "graceBlockedCtaGoPremium": "Wilaya ដូច្នេះខាងក្រោម",
+  "rateGuestMustSignIn": "ចូលរូបដើម្បីប្រើ Ayara និង reflections។",
+  "guestNoCreditsTitle": "របៀបឧបករណ៍ផ្ទុក",
+  "guestNoCreditsBody": "ឧបករណ៍ផ្ទុក រូបមន្ត។ ល្ងាច ចូលលម្អិត រូបមន្ត សម្រាក។",
+  "guestDialogContinue": "ដោះស្រាយ",
+  "guestDialogLoginInstead": "ចូលលម្អិត",
+  "optionalLabel": "ម៉ាកក",
   "accountDeleteSuccessTitle": "គណនីលុប",
-  "accountDeleteSuccessBody": "គណនីរៃទិន្នន័យដែលពាក់ព័ន្ធលុបដោយជោគជ័យ។",
+  "accountDeleteSuccessBody": "គណនីនិងទិន្នន័យលុប។",
   "accountDeleteSuccessClose": "បិទ",
-  "accountDeleteErrorTitle": "មិនអាចលុបគណនីបានលទ្ធផល",
-  "accountDeleteErrorClose": "ឯក",
-  "accountDeleteReauthCancelled": "ការស្ដង់ដាលម្អិតលេងលែង។ សូមចូលម្តងទៀត រៃព្យាយាមលុប។",
-  "accountDeleteReauthRequired": "លុបគណនីដែលដូង្រួលចូលលម្អិត។ សូមចេញ រៃចូលម្តងទៀត រៃព្យាយាមលុប។",
-  "settingsDeletePermanentWarning": "ចម្ពោះមិនអាចដូងលម្អិតទាំងនេះ។ ទិន្នន័យដែលពាក់ព័ន្ធលុបលម្អិត។",
-
+  "accountDeleteErrorTitle": "មិនលុបគណនីបាន",
+  "accountDeleteErrorClose": "យល់ព្រម",
+  "accountDeleteReauthCancelled": "ពិនិត្យម្តងទៀតលុប។ សូមចូលលម្អិត លម្អិត។",
+  "accountDeleteReauthRequired": "លុបគណនីពិនិត្យ។ សូមលោក ចូលលម្អិត លម្អិត។",
+  "settingsDeletePermanentWarning": "សកម្មភាពលុបដោយមិនមានលក្ខខណ្ឌ។ ទិន្នន័យលុប។",
   "dailyGraceTitle": "ការណែនាំប្រចាំថ្ងៃ",
-  "dailyGraceScriptureLabel": "VERSE នៃថ្ងៃ",
-  "dailyGraceSaintLabel": "អ្នកសិក្សាក្នុងសប្តាហ៍",
-  "dailyGraceReflectionLabel": "ការឆ្លឹងម្នាក់ឯងល្ងាច",
-  "dailyGraceCopiedToast": "Verse ថតលម្អិតទៅក្នុង clipboard",
-
-  "dailyScripture0Text": "ប៉ុន្មាន, អ្នកធម៌ក្នុងសួន្ឯក រៃលេខលេខ, ក្នុងកម្លាំង honour ក្នុងបង្រឹង ដ៏មាំលម។",
-  "dailyScripture0Ref": "Qur'an 54:54-55",
-  "dailyScripture1Text": "រៃយើងបានផ្ញើអ្នក, [O Muhammad], លើកលែងលម្អិត ដល់ពិភពលោក។",
-  "dailyScripture1Ref": "Qur'an 21:107",
-  "dailyScripture2Text": "គឺ Allah មិនគ្រាន់សម្រាប់សមាជិក? ឯណាក៏ដោយពួកវាខ្លាចអ្នកដល់ផ្សេងទៀត ក្រៅ Allah។",
-  "dailyScripture2Ref": "Qur'an 39:36",
-  "dailyScripture3Text": "ប្រហែលថាអ្នកស្ងប់លម្អិត រៃវាល្អសម្រាប់អ្នក; រៃប្រហែលថាអ្នកស្វាគមន៍លម្អិត រៃវាបាទសម្រាប់អ្នក។ រៃ Allah ដឹង, ចំណែកអ្នកមិនដឹង។",
-  "dailyScripture3Ref": "Qur'an 2:216",
-  "dailyScripture4Text": "ប៉ុន្មាន, Allah ជាមួយស្ងប់ស្ងាប់។",
-  "dailyScripture4Ref": "Qur'an 2:153",
-  "dailyScripture5Text": "ដូច្នេះចងចាំខ្ញុំ; ខ្ញុំនឹងចងចាំអ្នក។ រៃឱ្យគោរព ឯក ម្ឋាន់ថ្នល់ឯក។",
-  "dailyScripture5Ref": "Qur'an 2:152",
-  "dailyScripture6Text": "ប៉ុន្មាន, ល្អបំផុតក្នុងចក្ខុភាគ Allah គឺល្អបំផុតក្នុងអ្នក។",
-  "dailyScripture6Ref": "Qur'an 49:13",
-  "dailyScripture7Text": "រៃបង្រឹងរបស់អ្នកបាននិយាយថា៖ ដូង្រួលលម្អិតលេងលែង, រៃលម្អិត្ធម៌ដែលឪពុកម្ដាយរបស់អ្នក។",
-  "dailyScripture7Ref": "Qur'an 17:23",
-  "dailyScripture8Text": "ប៉ុន្មាន, ជាមួយលំបាក comes ងាយ។",
-  "dailyScripture8Ref": "Qur'an 94:6",
-  "dailyScripture9Text": "រៃគាត់ ជាមួយអ្នក everywhere អ្នក។ រៃ Allah, អ្វីដែលអ្នក, គឺ Seeing។",
-  "dailyScripture9Ref": "Qur'an 57:4",
-  "dailyScripture10Text": "Allah មិនលូតលាស់ روح ក្រៅថាវាអាចកាន់បាន។",
-  "dailyScripture10Ref": "Qur'an 2:286",
-  "dailyScripture11Text": "រៃលម្អិតដែលលូតលាស់លម្អិត Allah — បន្ទាប់មកគាត់គឺគ្រាន់សម្រាប់គាត់។",
-  "dailyScripture11Ref": "Qur'an 65:3",
-  "dailyScripture12Text": "សេចក្តីស្វាគមន៍របស់ខ្ញុំ encompasses រគង់។",
-  "dailyScripture12Ref": "Qur'an 7:156",
-  "dailyScripture13Text": "រៃពេលលម្អិតលម្អិតសួរឯក about ខ្ញុំ — ប៉ុន្មាន, ខ្ញុំ។ ខ្ញុំឆ្លើយយក supplicant នៅពេល ហៅលម។",
-  "dailyScripture13Ref": "Qur'an 2:186",
-  "dailyScripture14Text": "ល្អលម្អិត, មនុស្ស ឬលេង, នៅពេល្រ believer — យើងនឹង ខាង ចម្បង តាម ក ល្អ ជីវិត។",
-  "dailyScripture14Ref": "Qur'an 16:97",
-  "dailyScripture15Text": "ប៉ុន្មាន, Allah នឹង change condition រាង្គាន ឯក ពួក្នោះ change គឺក្នុងខ្លួនពួកគេ។",
-  "dailyScripture15Ref": "Qur'an 13:11",
-  "dailyScripture16Text": "ដូច្នេះ មិនថយចុះ រៃ មិន grieve, រៃ អ្នក ឹងលើស ប្រសិនបើ អ្នក believers ពិតប្រាកដ។",
-  "dailyScripture16Ref": "Qur'an 3:139",
-  "dailyScripture17Text": "O សមាជិក Allah ដែលប្រឆាំង គឺខ្លួនពួកគេ, មិនដាច ព្រឹទ្ធិ Allah។ ប៉ុន្មាន, Allah forgives ឹង។",
-  "dailyScripture17Ref": "Qur'an 39:53",
-  "dailyScripture18Text": "រៃលម្អិត fears Allah — គាត់ នឹង ធ្វើ រចនា ការ, រៃ នឹង ផ្ដល់ សម្រាប់ គាត់ ពី ដែល គាត់ ដូង មិនរំពឹង។",
-  "dailyScripture18Ref": "Qur'an 65:2-3",
-  "dailyScripture19Text": "មិន់ ក្រ ក្នុង ស្វាគមន៍ Allah។",
-  "dailyScripture19Ref": "Qur'an 12:87",
-  "dailyScripture20Text": "រៃ យើង ពិតប្រាកដ របស់ Qur'an ងាយ មើល។ ដូច្នេះ គឺ រាង្គាន ដែល នឹង ខ្ពើយ?",
-  "dailyScripture20Ref": "Qur'an 54:17",
-  "dailyScripture21Text": "រៃ គាត់ រក ឯក បាត់ រៃ ដឹងនាំ អ្នក។",
-  "dailyScripture21Ref": "Qur'an 93:7",
-  "dailyScripture22Text": "រៃ បង្រឹង ឯក ក្នុង រូប៖ ហៅ លម។; ខ្ញុំ នឹង ឆ្លើយ អ្នក។",
-  "dailyScripture22Ref": "Qur'an 40:60",
-  "dailyScripture23Text": "រៃ យើង ពិតប្រាកដ honoured ក្នុង Adam.",
-  "dailyScripture23Ref": "Qur'an 17:70",
-  "dailyScripture24Text": "រៃ ស្វាគមន៍ ជំនួយ រយ ការស្ងប់ស្ងាប់ រៃ祷告។",
-  "dailyScripture24Ref": "Qur'an 2:45",
-  "dailyScripture25Text": "លម្អិត does ០ atom's ទម្ងន់ ល្អ នឹង រក។",
-  "dailyScripture25Ref": "Qur'an 99:7",
-  "dailyScripture26Text": "អ្វិឌ, ជំនួយ Allah គឺ ជិត។",
-  "dailyScripture26Ref": "Qur'an 2:214",
-  "dailyScripture27Text": "រៃលម្អិត គឺ grateful — ស្វាគមន៍ grateful គឺ សម្រាប់ ល្អ់ ខ្លួនឯង។",
-  "dailyScripture27Ref": "Qur'an 31:12",
-
-  "dailyReflection0": "ខណៈពេលដែលថ្ងៃនេះបិទ, ពិចារណាពេលមួយដែល Allah's ស្វាគមន៍ បង្ហាញ។",
-  "dailyReflection1": "នាំយកមុខមដ្ឋាន Allah ដូចម្ដេច burdened ចិត្ត អ្នក ថ្ងៃនេះ។",
-  "dailyReflection2": "ឈ្មោះ ប្នែក ប្នែក ថ្ងៃនេះ រៃ express ស្វាគមន៍ ដល់ Allah។",
-  "dailyReflection3": "ស្ងៀម ក្នុង ក្ដល់ ដែល អ្នក ចូល ក្នុង Allah's ដោង care।",
-  "dailyReflection4": "ឆ្លឹងម្នាក់ឯង នៅលើ ដែលលើកលែង អ្នក ដែលនឹង দেখান compassion រៃ kindness ថ្ងៃនេះ។",
-  "dailyReflection5": "ទទួលផ្លាល់ ដូចម្ដេច អ្នក cannot នៅលើ រៃ ឈឹង ក្នុង Allah's ល្អឥតខ្ចោះ plan។",
-  "dailyReflection6": "ខណៈពេលដែលថ្ងៃ រៃ ក្រ័ល់, ទទួល សន្តិភាព ក្នុង remembrance Allah។",
-  "dailyReflection7": "ពិចារណា របៀប អ្នក honoured祷告 ថ្ងៃនេះ, រៃ Thank Allah ចំណាប់ ។",
-  "dailyReflection8": "ឆ្លឹងម្នាក់ឯង លើ ពេលមួយ ដែល ការស្ងប់ស្ងាប់ (Sabr) ដឹងនាំ ទង្វើ ថ្ងៃនេះ។",
-  "dailyReflection9": "ស្វាគមន៍ សម្រាប់ រូបខ្លាក់ ថ្ងៃនេះ — Allah's ស្វាគមន៍ គឺ boundless។",
-  "dailyReflection10": "ឈ្មោះ រាង្គាន អ្នក បង្ហាញ kindness ដល់ ថ្ងៃនេះ រៃ ធ្វើ dua ពួកគេ។",
-  "dailyReflection11": "ដូង្រួលក្នុង ស្វាគមន៍៖ ដូចម្ដេច Allah ផ្ដល់ ថ្ងៃនេះ ដែល អ្នក មិនបានសួរ សម្រាប់?",
-  "dailyReflection12": "ឆ្លឹងម្នាក់ឯង លើ verse ពី Qur'an ដែល ដល់ ដែលលើកលែង គឺ ដូច្នេះ។",
-  "dailyReflection13": "ពិចារណា របៀប អ្នក ស្រឹម เວลា ថ្ងៃនេះ — រៃ ផ្ដល់내일 ដល់ Allah។",
-  "dailyReflection14": "ស្ងៀម ដឹង ដែល ដូចម្ដេច hardship មក ថ្ងៃនេះ, Allah ជាមួយ អ្នក។",
-  "dailyReflection15": "ពិចារណា រូបមួយ ដែលលើកលែង អ្នក បម្រើ គ្រួសារ ឬ សហគមន៍ ថ្ងៃនេះ សម្រាប់ Allah's sake។",
-  "dailyReflection16": "ខណៈ 밤�ថ្ងៃ pads, ធ្វើ Tawbah — Allah ដូច្នេះ រឿង ដែល ក្រ័ល់ ទៅ Allah។",
-  "dailyReflection17": "ឆ្លឹងម្នាក់ឯង នៅលើ ស្វាគមន៍ Allah ដាក់ ក្នុង ថ្ងៃលើ, សូត្របាក់មិនឡើយ។",
-  "dailyReflection18": "ពិចារណា ដូចម្ដេច អ្នក រៀនថ្ងៃនេះ រៃ របៀប វា ដឹងនាំ អ្នក ជិត ដល់ Allah។",
-  "dailyReflection19": "ទទួលផ្លាល់ ថ្ងៃ's worries ជាមួយ Allah — Allah carries អ្វីដែល អ្នក cannot។",
-  "dailyReflection20": "ពិចារណា ពេលមួយ ថ្ងៃនេះ ដែលលើកលែង អ្នក នឹង ជ្រើសរើស សប្បាយនៅលើ, រៃ រៀន ពី វា gently។",
-  "dailyReflection21": "ធ្វើ dua សម្រាប់ ដែលលើកលែង ក្រ័ល់បាន —祷告 អ្នក គឺ ធាតុ ឱ្យ ពួកគេ។",
-  "dailyReflection22": "Recall ប្នែក អ្នក প្রায়ই overlook រៃ យក ពេល រដ្ឋសភា ដល់ ស្វាគមន៍ Allah សម្រាប់។",
-  "dailyReflection23": "ឆ្លឹងម្នាក់ឯង នៅលើ ឧទ្ទេស ថ្ងៃនេះ — គឺវាពួកគេ សម្រាប់ Allah? ថ្ងៃ, ចាប់ផ្តើម ម្ដងទៀត។",
-  "dailyReflection24": "ខណៈ ពេល្នេះ quiets, ស្វាគមន៍ សម្រាប់ Allah's nearness ក្នុង stillness។",
-  "dailyReflection25": "ពិចារណា ដែលលើកលែង អ្នក រក មាំ ថ្ងៃនេះ — គឺមាំ ពី Allah។",
-  "dailyReflection26": "ឈ្មោះ រូបមួយ អ្នក នឹង ធ្វើ ថ្ងៃ, សម្រាប់ Allah's sake, ដែលលើកលែង អ្នក មិន ធ្វើ ថ្ងៃនេះ។",
-  "dailyReflection27": "ខណៈ អ្នក ក្នង រៀបចំ សម្រាប់ ស្ងៀម, entrust ចិត្ត ដល់ Allah — Allah គឺ ល្អបំផុត guardian។",
-
-  "dailyRoleModel0": "លោកគ្រូ Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "សមណើ Ibrahim (AS)",
-  "dailyRoleModel44": "សមណើ Musa (AS)",
-  "dailyRoleModel45": "សមណើ Isa (AS)",
-  "dailyRoleModel46": "សមណើ Yusuf (AS)",
-  "dailyRoleModel47": "សមណើ Dawud (AS)",
-  "dailyRoleModel48": "សមណើ Sulayman (AS)",
-  "dailyRoleModel49": "សមណើ Nuh (AS)",
-  "dailyRoleModel50": "សមណើ Yunus (AS)",
-  "dailyRoleModel51": "សមណើ Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "អនុញ្ញាត Ayara ប្រើប្រាស់ទីតាំងរបស់ខ្ញុំសម្រាប់ Qibla direction រៃ祷告 times",
-  "locationConsentHint": "ប្រើប្រាស់សម្រាប់លក្ខណៈបែបនេះប៉ុណ្ណោះ។ ទីតាំងរបស់អ្នក មិនចែករំលែក ឬ stored។",
-
+  "dailyGraceScriptureLabel": "សូត្រថ្ងៃ",
+  "dailyGraceSaintLabel": "ចិត្តបុគ្គលមាសនេះ",
+  "dailyGraceReflectionLabel": "ការឆ្លឹងលើល្ងាច",
+  "dailyGraceCopiedToast": "សូត្របានចម្លង clipboard",
+  "locationConsentLabel": "ឱ្យ Ayara ប្រើទីតាំងដើម្បី Qibla និងដែន។",
+  "locationConsentHint": "ប្រើដើម្បីលម្អិត។ ទីតាំង ក្រោយ ឬ។",
   "askPageTitle": "សួរ Ayara",
-  "askPageDescription": "សួរលម្អិត about ព្រឹទ្ធិ,祷告, ជីវិត ឬ Islamic វិធីសាស្ត្រ រៃ ទទួល ការណែនាំ មូលដ្ឋាន លើ Qur'an រៃ Sunnah។",
-  "askPageInputHint": "Type សួរ ឯក…",
+  "askPageDescription": "សួរលម្អិត ជំនឿ ដែន ឬ ស្ថាប័នគ្រាន់ ឬ បង្ហាញ។",
+  "askPageInputHint": "សរសេរសម្ភាសន៍ទីនេះ...",
   "askPageSubmitCta": "សួរ",
-  "askPageInputEmptyError": "សូមសរសេរសួរដំបូង។",
-  "askResultYourQuestion": "សួរលើក",
-
-  "guidancePageTitle": "祷告 & ការណែនាំ",
-  "qiblaFacingMecca": "មុខម ដល់ Makkah",
-  "qiblaCompassInstruction": "បង្វិល ឧបករណ៍ រៃ needle ទាក់ទង upward។\nIT ទិស points ឆ្ពោះទៅ Qibla (Makkah)។",
-  "qiblaGpsUnavailableBody": "GPS signal ខ្សោយ។ ផ្លាស់ទីទេ រៃ tap Retry។",
-  "qiblaRetry": "ព្យាយាមម្តងទៀត",
-  "qiblaTitle": "Qibla ទិស",
-  "qiblaDistanceLabel": "{km} km ដល់ Makkah",
+  "askPageInputEmptyError": "សូមសរសេរសម្ភាសន៍ដំបូង។",
+  "askResultYourQuestion": "សម្ភាសន៍របស់អ្នក",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "ឈប់ Makkah",
+  "qiblaCompassInstruction": "ប្តូរ phone ឃ្លាំងមាស ឡើងលើ។\nទិសដៅចង្អុលរបស់ Qibla (Makkah)។",
+  "qiblaGpsUnavailableBody": "GPS ខ្សោយ។ ឡើងលើក ឬ។",
+  "qiblaRetry": "ឡើងលើក",
+  "qiblaTitle": "Qibla ទិសដៅ",
+  "qiblaDistanceLabel": "{km} km រើង Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "ទីតាំង required",
-  "qiblaLocationNeededBody": "អនុញ្ញាត ទីតាំង ដំណើរការ ដូច្នេះ Ayara អាចគណនា ទិស កាា Kaaba ក្នុង Makkah ពី ដែលលើកលែង អ្នក។",
-  "qiblaOpenSettings": "បើក ការកំណត់",
-  "qiblaCompassLoading": "ស្វាងរក ទីតាំង…",
-  "qiblaTowardMecca": "ឆ្ពោះទៅ Makkah",
-
-  "prayerTimesTitle": "祷告 Times",
+  "qiblaLocationNeededTitle": "ទីតាំងត្រូវការ",
+  "qiblaLocationNeededBody": "ឱ្យ Ayara ទីតាំង Kaaba ក្នុង Makkah។",
+  "qiblaOpenSettings": "Settings បើក",
+  "qiblaCompassLoading": "ទីតាំង រក...",
+  "qiblaTowardMecca": "ឈប់ Makkah",
+  "prayerTimesTitle": "ដែនពេលវេលា",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
-  "prayerTimesLocationNeededTitle": "ទីតាំង required",
-  "prayerTimesLocationNeededBody": "អនុញ្ញាត ទីតាំង ដំណើរការ ដូច្នេះ Ayara អាចគណនា accurate祷告 times សម្រាប់ ក្រុង។",
+  "prayerTimesLocationNeededTitle": "ទីតាំងត្រូវការ",
+  "prayerTimesLocationNeededBody": "ឱ្យ Ayara ដែនពេលវេលាល្អ។",
   "prayerTimesNextLabel": "បន្ទាប់",
-  "prayerTimesDoneLabel": "រួច",
-
-  "monthlyPrayerTimesTitle": "ខែ祷告 Times",
-  "monthlyPrayerTimesViewButton": "មើល ខែ Full",
-  "monthlyPrayerTimesNextMonth": "ខែ បន្ទាប់",
+  "prayerTimesDoneLabel": "រៀងរាល់",
+  "monthlyPrayerTimesTitle": "ដែនពេលវេលាខែ",
+  "monthlyPrayerTimesViewButton": "ចូលលម្អិត",
+  "monthlyPrayerTimesNextMonth": "ខែបន្ទាប់",
   "monthlyPrayerTimesDayHeader": "ថ្ងៃ",
-
-  "sharePrayerTimes": "ចែករំលែក祷告 times",
-
-  "prayerNotificationsTitle": "祷告 Reminders",
-  "prayerNotificationsDescription": "ទទួល gentle reminder មុនពេល祷告 time ដើម្បីដែលលើកលែង អ្នក ស្ថិត ដូង្រួលលម។",
-  "prayerNotificationsEnable": "Enable祷告 reminders",
-  "prayerNotificationsOpenSettings": "បើក notification ការកំណត់",
-  "prayerNotificationsDenied": "Notifications disabled",
-  "prayerNotificationsDeniedHint": "ទៅ ការកំណត់ រៃ អនុញ្ញាត notifications សម្រាប់ Ayara ដើម្បីទទួល祷告 time reminders។",
-
-  "notificationsConsentLabel": "អនុញ្ញាត notifications សម្រាប់祷告 times",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — ព្រឹក祷告",
-  "prayerNotifBodyFajr": "ល្អបំផុត祷告 គឺ ព្រឹក祷告។ កើងឡើងវិញ, purify ខ្លួនឯង, រៃ ឈរ មុខម ដល់ Allah။",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — ថ្ងៃល្ងាច祷告",
-  "prayerNotifBodyDhuhr": "បាត់ ថ្ងៃ រៃ ត្រឡប់ ដល់ Allah។ Dhuhr祷告 time បានមក។",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — ល្ងាច祷告",
-  "prayerNotifBodyAsr": "ទ្រាំ មជ្ឈ祷告។ Asr time បានមក — មិន ទុក វា ឆ្លងកាត់។",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — sunset祷告",
-  "prayerNotifBodyMaghrib": "ព្រះអាទិត្យ ដាក់។ ផ្ដល់ Maghrib រៃ ឱ្យ ស្វាគមន៍ ដល់ Allah ថ្ងៃនេះ។",
-
-  "prayerNotifTitleIsha": "🌙 Isha — ពេលយប់祷告",
-  "prayerNotifBodyIsha": "បញ្ចប់ ថ្ងៃ ជាមួយ remembrance Allah។ Hayya 'alal falah — មក ដល់ ជោគជ័យ។",
-
-  "outOfReflectionsBannerText": "អ្នក បានប្រើ រគង់ ការឆ្លឹងម្នាក់ឯង",
-  "outOfReflectionsBannerCta": "ទទួល ច្រើនទៀត",
-
+  "sharePrayerTimes": "ចែក ដែនពេលវេលា",
+  "notificationsSectionTitle": "ការជូនដំណឹង",
+  "notificationsSectionSubtitle": "ដែនលម្អាក & ច្រើន",
+  "dailyReflectionReminderTitle": "ការឆ្លឹងលើប្រចាំថ្ងៃ",
+  "dailyReflectionReminderDescription": "ខ្ញុំលម្អាក ប្រចាំថ្ងៃ Ayara ក្នុងលម្អិតជំនឿ។",
+  "dailyReflectionReminderEnable": "ឱ្យលម្អាក",
+  "dailyReflectionReminderTimeLabel": "លម្អាក ពេលវេលា",
+  "prayerNotificationsTitle": "ដែនលម្អាក",
+  "prayerNotificationsDescription": "ទទួលលម្អាក ដែនពេលវេលា។",
+  "prayerNotificationsEnable": "ឱ្យដែនលម្អាក",
+  "prayerNotificationsOpenSettings": "ការជូនដំណឹង Settings បើក",
+  "prayerNotificationsDenied": "ការជូនដំណឹងលប់",
+  "prayerNotificationsDeniedHint": "Settings ឱ្យការជូនដំណឹង Ayara ដែនលម្អាក។",
+  "notificationsConsentLabel": "ឱ្យការជូនដំណឹងដែនពេលវេលា",
+  "prayerNotifTitleFajr": "🌅 Fajr — ដែនលេង",
+  "prayerNotifBodyFajr": "Fajr ដែនខាង។ Imam Ali (AS) សោយលេង។ ឡើងលើក ល្អ។",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — ដែនថ្ងៃ",
+  "prayerNotifBodyDhuhr": "ដែន Ahl al-Bayt រៀងរាល់។ ផ្សារដែន។",
+  "prayerNotifTitleAsr": "🌤️ Asr — ដែនល្ងាច",
+  "prayerNotifBodyAsr": "ដែន ចូលលម្អិត។ ពេលវេលា Asr — កុំលុច។",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — ដែនលេង",
+  "prayerNotifBodyMaghrib": "ព្រះ ចូលលម្អិត។ Maghrib ដែន។",
+  "prayerNotifTitleIsha": "🌙 Isha — ដែនយប់",
+  "prayerNotifBodyIsha": "បង្ហាញថ្ងៃ។ Isha ឡើងលើក ឯកា។",
+  "outOfReflectionsBannerText": "អ្នកបានប្រើ reflections ទាំងអស់",
+  "outOfReflectionsBannerCta": "ទទួលបានច្រើន",
   "dhikrPageTitle": "Dhikr",
-  "dhikrTapToCount": "Tap ទង្វើ រដ្ឋសភា",
-  "dhikrResetButton": "កំណត់ឡើងវិញ",
+  "dhikrTapToCount": "ចុច រាប់",
+  "dhikrResetButton": "កំណត់",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "អ្នក បានបង្ហាប់ 99 remembrances Allah។ ដល់ ពួកគេ ក្នុង ពន្លឺ សម្រាប់ ចិត្ត។",
-
-  "disclaimerTitle": "About ឧបករណ៍ guidance",
-  "disclaimerBody": "Ayara ផ្ដល់ Islamic reflections, reminders, រៃ精神ល សម្រាប់ ក្សាង ដែលលើកលែង អ្នក journey faith។ សម្រាប់ផ្ដល់ informational រៃ inspirational purposes។\n\nAyara មិនចេះ ជំនួស taught ចិត្ត។\nGuidance ក្នុង ឧបករណ៍ គឺ មិន substitute សម្រាប់ នរយល់ Islamic scholar, imam, mufti, ឬ theologically taught ។ ដូច្នេះ អ្នក فقه (Islamic jurisprudence) ឬ personal ត្រូវ, សូម ស្វាគមន៍ ចម្រាល ដែលលើកលែង គ្រុង។\n\nឧបករណ៍ មិនផ្ដល់ religious rulings។\nAyara មិនធ្វើ determining دِينlamic determinations matter fiqh ឬ personal religious។ រូប្តី ដូង្របាក់ fatwা ឬ binding ដំណើរការ។\n\nScholarly interpretations ខ្សែ។\nIslam encompasses ចម្រាល diversity traditions, ។ ក្នុង thought (madhabs), រៃ scholarly។ ក្នុង ឧបករណ៍ reflects ទូទៅ perspectives រៃ សមដែលលើកលែង tradition។\n\nCommunity 事។\nឧបករណ៍ ដើម្បី ក្ដើង ដែលលើកលែង mosque, imam, រៃ្ដofficials។ សូម ទៀង រក្សា connected ជាមួយ រៀន ពីលើកលែង។",
-  "disclaimerClose": "ខ្ញុំ ចាប់ដឹង",
-  "disclaimerInfoTooltip": "About ឧបករណ៍ guidance",
-  "disclaimerSettingsSubtitle": "សម្រាប់ informational purposes។ Tap ដើម្បីអាន full។",
-  "disclaimerSectionHeader": "ការណែនាំ disclaimer"
+  "dhikrCompleteMessage": "អ្នកបានបញ្ចប់ 100 ការចងចាំ Allah។ អាចទាំងពួកគេបង្ហាញពន្លឺសម្រាប់បេះដូងរបស់អ្នក។",
+  "disclaimerTitle": "អំពីការណែនាំ app នេះ",
+  "disclaimerBody": "Ayara ផ្តល់ជូន Islam ឆ្លឹង លម្អាក វិសាលភាព ឯកា ក្នុង Quran រូបមន្ត។ ឧបនីយកម្មលម្អិត។\n\nAyara មិនដូច។\nលម្អិត app មិនប៉ុម្ពៀង scholar Islam marja' គ្រូ។ Shia Islam ដូច Ja'fari school fiqh ក្នុង marja' — scholar លម្អិត។ ដោយលម្អិត fiqh halal haram សូម marja' scholar ក្រុម។\n\nApp មិនលម្អិត។\nAyara មិនលម្អិត fiqh ឬលម្អិត។ មិនលម្អិត fatwa ឬលម្អិត។\n\nAhl al-Bayt។\nShia Islam Prophet Muhammad ﷺ ឧបករណ៍ — Ahl al-Bayt — ក្រុម Islam។ ១២ Imam Ahl al-Bayt ឧបករណ៍លម្អិត។ Ayara ខាងក្រោម។\n\nក្រុម។\nApp ល្អ ក្នុង mosque រូប។ ថ្វាយក្រុម ឧបករណ៍។",
+  "disclaimerClose": "ខ្ញុំយល់ដឹង",
+  "disclaimerInfoTooltip": "អំពីការណែនាំ app នេះ",
+  "disclaimerSettingsSubtitle": "ឧបនីយកម្មលម្អិត។ ចុចដើម្បីអានលម្អិត។",
+  "disclaimerSectionHeader": "រឹង disclaimer",
+  "navHome": "ផ្ទះ",
+  "navReflect": "ឆ្លឹង",
+  "navDuas": "Duas",
+  "navCalendar": "ឆ្នាំ",
+  "dashboardToday": "ថ្ងៃ",
+  "dashboardComingUp": "ឡើងលើក",
+  "dashboardDaysUnit": "{count, plural, one {ថ្ងៃ} other {ថ្ងៃ}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "ចូលលម្អិត",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "ល្អ",
+  "quickActionPrayerTimes": "ដែនពេលវេលា",
+  "askAyaraTitle": "សួរ Ayara",
+  "askAyaraSubtitle": "សួរ Islam សួរលម្អិត។",
+  "askAyaraHint": "ឧ. Ramadan ដូចម្តេច?",
+  "askAyaraSubmit": "សួរ",
+  "wisdomOfTheDayTitle": "ប្រាជ្ញាថ្ងៃ",
+  "calendarScreenTitle": "ឆ្នាំ Islam",
+  "calendarUpcomingOccasions": "ឡើងលើក",
+  "calendarOccasionRemindersTitle": "លម្អាក",
+  "calendarOccasionRemindersHint": "ល្ងាច ម៉ាក",
+  "calendarNotifPermissionDenied": "ការជូនដំណឹងលប់។ Settings បើក។",
+  "calendarNoEvents": "ឡើងលើក។",
+  "calendarAddToPhone": "បន្ថែមទៅកាលវិភាគទូរស័ព្ទ",
+  "calendarAddedToPhone": "បានបន្ថែមទៅកាលវិភាគ",
+  "calendarCountdownToday": "ថ្ងៃ",
+  "calendarCountdownTomorrow": "ថ្ងៃស្វាយ",
+  "calendarCountdownDays": "ថ្ងៃ {days}",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "មករា",
+  "calendarMonthFeb": "កុម្ភៈ",
+  "calendarMonthMar": "មីនា",
+  "calendarMonthApr": "មេសា",
+  "calendarMonthMay": "ឧសភា",
+  "calendarMonthJun": "មិថុនា",
+  "calendarMonthJul": "កក្កដា",
+  "calendarMonthAug": "សីហា",
+  "calendarMonthSep": "កញ្ញា",
+  "calendarMonthOct": "តុលា",
+  "calendarMonthNov": "វិច្ឆិកា",
+  "calendarMonthDec": "ធ្នូ",
+  "calendarSeasonMuharramEarly": "ថ្ងៃ Muharram — ចងចាំ Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — ថ្ងៃ ឆ្លឹង",
+  "calendarSeasonArbaeen": "Arbaeen — សល់ថ្ងៃ Husayn",
+  "calendarSeasonRoadToArbaeen": "ផ្លូវ Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — ដើមរឹង",
+  "calendarSeasonMidShaban": "Sha'ban កម្មង — ថ្ងៃកើត Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — ខែ Quran",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Duas & Ziyarat",
+  "duasSearchHint": "សូត្រ ziyarat...",
+  "duasFilterAll": "ទាំងអស់",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} duas & ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "ស័ក់។",
+  "duaCategoryDaily": "ប្រចាំថ្ងៃ",
+  "duaCategoryWeekly": "សប្ដាហ៍",
+  "duaCategoryOccasions": "ម៉ាក",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "កើត",
+  "eventTypeMartyrdom": "មរណៈ",
+  "eventTypeOccasion": "ម៉ាក",
+  "duaCopyTooltip": "ចម្លង",
+  "duaToggleTransliteration": "Transliteration",
+  "duaToggleTranslation": "ផ្ទេរ",
+  "duaAskAiLabel": "សួរ Ayara ពន្យល់ dua នេះ",
+  "duaAskAiLockedLabel": "សួរ Ayara (Wilaya)",
+  "duaAiLockedMessage": "Ayara ឧបនីយកម្ម Wilaya។ Settings ផ្នើម។",
+  "duaAiComingSoon": "សួរ Ayara ពន្យល់ \"{name}\" — ឡើងលើក!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua បានចម្លង clipboard។",
+  "tasbihAllahuAkbarMeaning": "Allah ធំ",
+  "tasbihAlhamdulillahMeaning": "សរុប Allah",
+  "tasbihSubhanallahMeaning": "Allah ឯកា",
+  "tasbihResetTooltip": "កំណត់",
+  "tasbihCompleteTitle": "Tasbih សាក់",
+  "tasbihCompleteMessage": "អាច Allah ទទួលលើ dhikr។",
+  "tasbihTapHint": "ចុច រាប់",
+  "tasbihatScreenTitle": "ដែនចង្វាក់",
+  "tasbihatScreenSubtitle": "ដែនឯកា",
+  "tasbihatScreenDescription": "ដែនឯកា ក្នុងលម្អិត — Ahl al-Bayt (a) ក្រឡេក។",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "ក្នុង ៣ និង ៤ rakʿah",
+  "tasbihatArba3Info": "Shia fiqh Tasbiḥāt al-Arbaʿa ដូច Surah al-Fatiha ក្នុង ៣ និង ៤ rakʿah Dhuhr Asr Maghrib និង Isha។ wājib មួយលេង និង mustaḤabb បីលេង។",
+  "tasbihatArba3Translation": "Allah ឯកា · Allah សរុប\nគ្មាន god Allah · Allah ធំ",
+  "tasbihatArba3CompleteTitle": "ដែនលម្អិត សាក់",
+  "tasbihatArba3CompleteMessage": "អាច ដែនលម្អិត — Āmīn",
+  "tasbihatArba3TapHint": "ចុច ក្រោយលម្អិត",
+  "tasbihatZahraSubtitle": "បន្ទាប់រៀងរាល់ដែន · ១០០ beads",
+  "tasbihatZahraOriginLabel": "ដែល",
+  "tasbihatZahraHadith": "Lady Fatima al-Zahra (sa) សួរលោកបង្ហាញ សេវាកម្ម។ លោក: \"សូមដូច្នេះ? Subḥānallāh ៣៣ Alḥamdulillāh ៣៣ និង Allāhu Akbar ៣៤ បន្ទាប់រៀងរាល់ដែន។ ល្អប្រទាប់ រៀងរាល់ សេវាកម្ម។\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Vol. 85",
+  "tasbihatZahraOpenCounter": "បើក Tasbīḥ រាប់",
+  "tasbihatDuasTitle": "ដូច បានស្នើសុំ",
+  "tasbihatDuasSubtitle": "បន្ទាប់ពីបញ្ចប់ ដែនលម្អិត",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "បន្ទាប់រៀងរាល់ដែនលម្អិត",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "ដែលលម្អិត Āyat al-Kursī បន្ទាប់រៀងរាល់ដែនលម្អិត គ្មាននរណាក្នុង paradise លើកលែង death។ Imam al-Bāqir (a) និយាយ វា ក្នុង verses ធំបំផុត ក្នុង Quran។",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "បន្ទាប់រៀងរាល់ដែន · ដូច dua ទាំងអស់",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "ផ្ញើ salutations លោក ﷺ និង ក្រុម (Āl Muḥammad) ដូច ក្នុង dua។ Imam al-Ṣādiq (a) និយាយ: \"dua ក្រឡេក រហូត dua ក្នុង Muḥammad និង ក្រុម។\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "បន្ទាប់រៀងរាល់ដែន · Imam ម៉ោង",
+  "tasbihatDuaFarajSource": "Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "dua សម្រាប់ ដើមគង់ Imam al-Mahdī (af) ១២ Imam។ ដែល ដោយ Shia Muslim បន្ទាប់រៀងរាល់ដែន អាជ្ញាណ Imam។",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ Lady Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "Maghrib និង Isha · ពិសេស បានស្នើសុំ",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) និយាយ ដែល Tasbīḥ al-Zahrā បន្ទាប់ Isha មុន ដេក ល្អ ក្នុង ១០០០ rakʿahs ដែន។ ពន្លឺ កើនឡើង ក្នុង heaven។",
+  "tasbihFatimaGiftPre": "របៀប លោក",
+  "tasbihFatimaGiftPost": "ដែល បន្ទាប់រៀងរាល់ដែន",
+  "prayerTrackerTitle": "ដែន រាប់",
+  "prayerTrackerPrayed": "ដែន",
+  "prayerTrackerDayStreak": "{count} day streak",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "ដែនលម្អិត សាក់។ អាច Allah ទទួល។",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "សាក់ ថ្ងៃ",
+  "dhikrTrackerNotDoneToday": "មិនលម្អិត ថ្ងៃ",
+  "dhikrTrackerDayStreak": "{count} day streak",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Tasbīḥ លម្អាក",
+  "dhikrReminderDescription": "ខ្ញុំលម្អាក ប្រចាំថ្ងៃ សម្រាប់ Tasbīḥ al-Zahrā (SA)។",
+  "dhikrReminderEnable": "ឱ្យលម្អាក Tasbīḥ",
+  "dhikrReminderTimeLabel": "លម្អាក ពេលវេលា",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Hadith ប្រចាំថ្ងៃ",
+  "hadithLabelArabic": "ARABIC",
+  "hadithLabelTranslation": "ផ្ទេរ",
+  "hadithBadge": "HADITH",
+  "hadithShare": "ចែក Hadith នេះ",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nVia Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "មុន",
+  "hadithNavNext": "បន្ទាប់",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "១៤ Masumeen",
+  "imamsScreenSubtitle": "លោកបង្ហាញ Lady Fatima និង ១២ Imam — ក្រុម Islam",
+  "imamLabelBorn": "កើត",
+  "imamLabelMartyrdom": "មរណៈ",
+  "imamLabelStatus": "ស្ថិតិ",
+  "imamSectionBiography": "biography",
+  "imamSectionFamousSaying": "ដូច",
+  "imamRoleProphet": "លោកបង្ហាញ ចុងក្រោយ",
+  "imamRoleInfallible": "ឯកា",
+  "imamOrdinal1": "១ Imam",
+  "imamOrdinal2": "២ Imam",
+  "imamOrdinal3": "៣ Imam",
+  "imamOrdinal4": "៤ Imam",
+  "imamOrdinal5": "៥ Imam",
+  "imamOrdinal6": "៦ Imam",
+  "imamOrdinal7": "៧ Imam",
+  "imamOrdinal8": "៨ Imam",
+  "imamOrdinal9": "៩ Imam",
+  "imamOrdinal10": "១០ Imam",
+  "imamOrdinal11": "១១ Imam",
+  "imamOrdinal12": "១២ Imam",
+  "duaAudioScreenTitle": "ស្តាប់ Duas",
+  "duaAudioScreenSubtitle": "ជ្រើសរើស dua ដើម្បីស្តាប់។ ចុច tiles ដើម្បីលេង ឬ ឈប់។",
+  "duaAudioComingSoonMessage": "ឧបនីយកម្ម dua នេះ នឹងមាន ក្នុង ឡើងលើក។",
+  "duaAudioClose": "បិទ",
+  "duaAudioError": "មិនឡើងលម្អិត ឧបនីយកម្ម។ ពិនិត្យ តំណ័ង។",
+  "duaAudioMetaTransmittedBy": "បង្ហាញដោយ",
+  "duaAudioMetaOccasion": "ម៉ាក",
+  "duaAudioMetaDuration": "រយៈពេល",
+  "quickActionDailyHadith": "Hadith ប្រចាំថ្ងៃ",
+  "quickAction14Masumeen": "១៤ Masumeen",
+  "quickActionListenDuas": "ស្តាប់",
+  "quickActionTasbihat": "ដែនចង្វាក់",
+  "pilgrimageSectionTitle": "ដើមដ្រើង 거룩",
+  "pilgrimageSectionSubtitle": "ចង្វាក់ Hajj និង Umrah — ដើមដ្រើង ផ្ទះ ឯកា Allah ក្នុង Mecca",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "ខ្នើង ៥ Islam",
+  "hajjCardDescription": "ដើមដ្រើង ឆ្នាំ ធំ — ដូច រាល់ Muslim ស្វាមី",
+  "hajjScreenTitle": "ចង្វាក់ Hajj",
+  "hajjScreenSubtitle": "ក្រឡេក ដើម្បី ដើមដ្រើង ធំ",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "ដើមដ្រើង ខ្ចាស់",
+  "umrahCardDescription": "ដើមដ្រើង រឹង ឆ្នាយ — អាច ក្នុង ឆ្នាំ ដូច្នេះ",
+  "umrahScreenTitle": "ចង្វាក់ Umrah",
+  "umrahScreenSubtitle": "ក្រឡេក ដើម្បី ដើមដ្រើង ខ្ចាស់",
+  "pilgrimageStepsTitle": "ឥសលាម និង ក្រឡេក",
+  "pilgrimageImportantNotesTitle": "សម្គាល់ សម្គាល់",
+  "pilgrimageDuaTitle": "ដូអាសម្រាប់ជំហាននេះ",
+  "pilgrimageJafariNoteTitle": "កំណត់សម្គាល់ហ្កាហ្វារី",
+  "pilgrimageComplete": "✓ បានបញ្ចប់",
+  "pilgrimageMarkDone": "សម្គាល់ថាបញ្ចប់",
+  "pilgrimageProgress": "{done} នៃ {total} ជំហាន",
+  "pilgrimageReadTime": "~{minutes} នាទី",
+  "pilgrimageShiaNoteTitle": "Shia ដើមដ្រើង",
+  "pilgrimageShiaNoteBody": "Shia ដើមដ្រើង ក៏ ដេក រៀង Medina ដើម្បីលេង tomb លោកបង្ហាញ Muhammad (SAW) នៅ Masjid al-Nabawi និង graves Imam នៅ Jannat al-Baqi។ លេង ទាំងនេះ កាន់កាប់ រឹង វិសាលភាព និង ដូច ដូច ដើមដ្រើង សម្រាប់ ច្រើន Shia Muslim។",
+  "hajjIntro": "Hajj គឺ ខ្នើង ៥ Islam ដូច រាល់ Muslim ស្វាមី។ ក្នុង ខែ Dhul Hijjah វា កើង ក្រឡេក លោកបង្ហាញ Ibrahim (AS) ក្រឡេក Ismail (AS) និង Lady Hajar។ សម្រាប់ Shia Muslim Hajj ក៏ រាប់ ក្នុង វិសាលភាព ដូច លេង ផ្ទះ លោកបង្ហាញ (SAW) និង Ahlul Bayt ក្នុង Medina។",
+  "umrahIntro": "Umrah គឺ ដើមដ្រើង ខ្ចាស់ ដល់ Mecca និង មិនដូច Hajj អាច ក្នុង ឆ្នាំ។ ខណៈ មិនដូច វា កាន់កាប់ រឹង វិសាលភាព និង ដូច ឯកា ឧបករណ៍។ វា ចែក ឥសលាម ច្រើន ក្នុង Hajj ប៉ុន្តែ ខ្ចាស់។"
 }

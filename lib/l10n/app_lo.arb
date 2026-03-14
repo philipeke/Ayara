@@ -1,585 +1,629 @@
 {
   "@@locale": "lo",
-
   "appTitle": "Ayara",
-
-  "languageSelectTitle": "ເລືອກພາษາຂອງທ່ານ",
-  "languageSelectSub": "ທ່ານສາມາດປ່ຽນແປງນີ້ໄດ້ໃນພາຍຸ",
-  "actionContinue": "ສືບຕໍ່",
+  "languageSelectTitle": "ເລືອກພາສາຂອງທ່ານ",
+  "languageSelectSub": "ທ່ານສາມາດປ່ຽນແປງໄດ້ພາຍຫຼັງໃນການຕັ້ງຄ່າ",
+  "actionContinue": "ດໍາເນີນຕໍ່",
   "languageSuggestedHeader": "ແນະນໍາ",
-  "languageAllHeader": "ພາສາທັງຫມົດ",
+  "languageAllHeader": "ພາສາທັງໝົດ",
   "languageSuggestedBadge": "ແນະນໍາ",
-  "languageSearchHint": "ຊອກຫາ…",
-
-  "planGrace": "ມາດຕະຖານ",
-  "planBlessed": "ບາຣາກາ",
-
-  "categoryDailyGuidance": "ຄໍາແນະນໍາປະຈໍາວັນ",
-  "categoryFaithTrust": "ຄວາມເຊື່ອ & ຄວາມໄວ້ວາງໃຈ",
-  "categoryPrayerReflection": "ການສະທ້ອນໃຈກ່ຽວກັບການອະທິຖານ",
-  "categoryHopeDifficultTimes": "ຄວາມອົດທົນ & ຄວາມຫວັງ",
-  "categoryForgiveness": "ຂໍອະໄພ",
-  "categoryLoveCompassion": "ເມດຕາກຣຸນາ & ຄວາມເຫັນໃຈ",
-  "categoryStrengthCourage": "ຄວາມເຊື່ອ & ຄວາມກ້າຫານ",
-  "categoryGratitude": "ຫົວໃຈທີ່ກະຕັນຍູ",
-  "categoryPurposeCalling": "ຈຸດປະສົງຂອງຊີວິດ",
-  "categoryFamilyRelationships": "ສາຍພົວພັນຄອບຄົວ",
-  "categoryPeaceAnxietyRelief": "ສັນຕິພາບພາຍໃນ",
-  "categoryWisdomOfJesus": "ປັນຍາຂອງສາດສະດາ",
-  "categoryHumilityCharacter": "ຄຸນລັກສະນະທີ່ດີ",
-  "categoryOvercomingTemptation": "ຕ້ານການສາລະວົນ",
-  "categoryEveningReflection": "ລະຫັວ່າຂະໜາດທ້າຍມື້",
-  "categoryCustom": "ການສະແດງຄວາມຄິດເປັນສ່ວນບຸກຄົນ",
-  "dhikrMeaningSubhanallah": "ສິງສົດເຖິງອັດລາ",
-  "dhikrMeaningAlhamdulillah": "ຄວາມຊົມເຊີນສູງສຸດໃຫ້ອັດລາ",
-  "dhikrMeaningAllahuAkbar": "ອັດລາແມ່ນສູງສຸດ",
-  "quranVerseHeartAtRest": "ແທ້ແລ້ວ, ໃນການຈື່ຈິງອັດລາ ຈິດໃຈພົວ���ັນສະບາຍ.",
-
-  "promptHint": "ແຕະໝວດໝູ່ສໍາລັບຄໍາແນະນໍາ ແລະ ການສະທ້ອນໃຈທາງ Islamic",
-
-  "currentLanguage": "ພາສາປະຈຸບັນ",
-  "settingsLanguage": "ການຕັ້ງຄ່າພາษາ",
+  "languageSearchHint": "ຄົ້ນຫາ…",
+  "planBasic": "ມາດຕະຖານ",
+  "planPremium": "Wilaya",
+  "categorySlot01": "ແນະນໍາປະຈໍາວັນ",
+  "categorySlot02": "ອີມານ ແລະ ຄວາມໄວ້ວາງໃຈ",
+  "categorySlot03": "ການໄຕ່ຕອງເລື່ອງການລະໝາດ",
+  "categorySlot04": "ຄວາມອົດທົນ ແລະ ຄວາມຫວັງ",
+  "categorySlot05": "ຂໍອະໄພ",
+  "categorySlot06": "ຄວາມເມດຕາ ແລະ ຄວາມສົງສານ",
+  "categorySlot07": "ພະລັງຂອງສັດທາ",
+  "categorySlot08": "ຫົວໃຈທີ່ກະຕັນຍູ",
+  "categorySlot09": "ຈຸດປະສົງຂອງຊີວິດ",
+  "categorySlot10": "ຄວາມຜູກພັນໃນຄອບຄົວ",
+  "categorySlot11": "ຄວາມສະຫງົບພາຍໃນ",
+  "categorySlot12": "ປັນຍາຂອງສາດສະດາ",
+  "categorySlot13": "ອຸປນິໄສທີ່ດີ",
+  "categorySlot14": "ຕ້ານທານສິ່ງຢົວະຍວນ",
+  "categorySlot15": "ຊິກຣ໌ຕອນແລງ",
+  "categoryCustom": "ການໄຕ່ຕອງສ່ວນຕົວ",
+  "dhikrMeaningSubhanallah": "ສະຫຼະເກຍດແດ່ອັລລາຫ໌",
+  "dhikrMeaningAlhamdulillah": "ການສັນລະເສີນທັງໝົດເປັນຂອງອັລລາຫ໌",
+  "dhikrMeaningAllahuAkbar": "ອັລລາຫ໌ຍິ່ງໃຫຍ່ທີ່ສຸດ",
+  "quranVerseHeartAtRest": "ແທ້ຈິງແລ້ວ ຫົວໃຈຈະພົບຄວາມສະຫງົບດ້ວຍການລະນຶກເຖິງອັລລາຫ໌.",
+  "promptHint": "ແຕະເລືອກຫົວຂໍ້ເພື່ອຮັບແນະນໍາ ແລະ ການໄຕ່ຕອງທາງອິສລາມ",
+  "currentLanguage": "ພາສາປັດຈຸບັນ",
+  "settingsLanguage": "ການຕັ້ງຄ່າພາສາ",
   "settingsTitle": "ການຕັ້ງຄ່າ",
   "chooseLanguage": "ເລືອກພາສາຂອງທ່ານ",
-  "continueCta": "ສືບຕໍ່",
-
-  "promptDailyGuidance": "ຂຽນຄໍາແນະນໍາປະຈໍາວັນສັ້ນ ແລະ ປະຕິບັດໄດ້ທີ່ຮາກຖານຈາກຄວາມເຊື່ອ Islamic Sunni — ອີງໃສ່ Quran, Hadith, ແລະ ການສອນຂອງ Prophet Muhammad. ເລືອກມຸມຫາກໃໝ່ທຸກຄັ້ງ: ຄຸນວຸດທິຈາກຈະຫນຽດ Islamic, ຄວາມຈິງຈາກ Sunnah, ປັນຍາຈາກຄວາມສາມັກຄີຂອງສາວົກ, ຫຼື ການປະຕິບັດງ່າຍໆຈາກປະເພນີ Islamic. ລວມເອົາ verse ດຽວຈາກ Quran (Surah:Ayah) ແລະ ການສະທ້ອນໃຈ 1–2 ປະໂຫຍກເພື່ອສືບສາກໃຫ້ກັບຕະຫຼອດມື້. ເຊື່ອມຕໍ່ກັບປະຕິທິນ Islamic ຫຼື ວັນທີ່ສຳຄັນຖ້າມີຄວາມກ່ຽວຂ້ອງ.",
-
-  "promptFaithTrust": "ຂຽນການສະທ້ອນໃຈ Islamic ສັ້ນກ່ຽວກັບ Iman (ຄວາມເຊື່ອ) ແລະ ຄວາມໄວ້ວາງໃຈໃນແຜນການຂອງ Allah (Tawakkul). ຮາກຖານຈາກ Quran, ຕົວຢ່າງຂອງ Prophet Muhammad, ແລະ ຄວາມເຊື່ອຂອງ Sahaba. ປ່ຽນຫລາກຫລາຍເນື້ອໃນທຸກຄັ້ງ: ຄວາມໄວ້ວາງໃຈ Allah ໃນເວລາຄວາມ불확실, ການອາໄສພຶ່ງອາศັຍບັນຊີຊາດສະນາ, ຄວາມອົດທົນໃນທົດລອງ, ຫຼື ຄວາມເຂັ້ມແຂງງ່າຍໆໃນຊີວິດປະຈໍາວັນ. ລວມເອົາ verse ໜຶ່ງຈາກ Quran ແລະ ບາດກ້າວທີ່ສຸຈະລິດມື້ນີ້ຈາກບັນຊີຊາດສະນາ Islamic.",
-
-  "promptPrayerReflection": "ຂຽນການສະທ້ອນໃຈ Islamic ສັ້ນກ່ຽວກັບການອະທິຖານ, Dua, ຫຼື Dhikr. ປ່ຽນຮູບແບບທຸກຄັ້ງ: ຄໍາຈໍາໂລມຕອນເຊົ້າ ຫຼື ຕອນເຍັນ (Adhkar), ການສະທ້ອນໃຈເກົ່ຽວກັບການອະທິຖານຫ້າຄັ້ງ, ການສະທ້ອນໃຈເກົ່ຽວກັບ verse ຈາກ Quran, ຫຼື ຄໍາອະທິຖານທີ່ມາຈາກໃຈ. ລວມເອົາ verse ໜຶ່ງຈາກ Quran ແລະ ຕັ້ງຊື່ຮູບແບບການອະທິຖານທີ່ໃຊ້ໄດ້.",
-
-  "promptHopeDifficultTimes": "ຂຽນການສະທ້ອນໃຈ Islamic ກ່ຽວກັບຄວາມອົດທົນ (Sabr) ແລະ ຄວາມຫວັງໃນເວລາຍາກລໍາບາກ. ແຕ້ມຈາກການສອນ Quranic ກ່ຽວກັບທົດລອງ, ຄວາມອົດທົນຂອງສາດສະດາ, ແລະ ເມດຕາກຣຸນາຂອງ Allah ໃນເວລາຍາກລໍາບາກ. ປ່ຽນມຸມມອງທຸກຄັ້ງ. ລວມເອົາ verse ໜຶ່ງຈາກ Quran ແລະ ມຸມມອງທີ່ເຫັນໃຈຫນຶ່ງຈາກປະເພນີ Islamic.",
-
-  "promptForgiveness": "ຂຽນການສະທ້ອນໃຈ Islamic ສະຫລາດກ່ຽວກັບການຂໍອະໄພ (Tawbah) ແລະ ເມດຕາກຣຸນາຂອງ Allah. ແຕ້ມຈາກການສອນ Quranic ກ່ຽວກັບ Tawbah, ເມດຕາກຣຸນາຂອງ Allah, ແລະ ຕົວຢ່າງອະໄພຂອງ Prophet Muhammad. ປ່ຽນຫົວຂໍ້: ກັບໄປຫາ Allah, ອະໄພຜູ້ອື່ນ, ສາມາກສາຍພົວພັນ, ຫຼື ເຊື່ອໃນເມດຕາກຣຸນາຂອງ Allah ຫຼັງຈາກຄວາມຜິດ. ລວມເອົາ verse ໜຶ່ງຈາກ Quran ແລະ ບາດກ້າວທີ່ຊ່ວຍໄດ້ໃຈ.",
-
-  "promptLoveCompassion": "ຂຽນການສະທ້ອນໃຈ Islamic ສັ້ນກ່ຽວກັບເມດຕາກຣຸນາ (Rahmah) ແລະ ຄວາມເຫັນໃຈໃນຊີວິດປະຈໍາວັນ. ແຕ້ມຈາກຕົວຢ່າງ Prophet Muhammad, ແນວຄວາມຄິດຂອງ Ihsan (ຄວາມເຕັມທີ່), ແລະ ການສອນ Islamic ກ່ຽວກັບຄວາມເມດຕາກຣຸນາຕໍ່ຄອບຄົວ, ເພື່ອນບ້ານ, ແລະ ຜູ້ທີ່ກໍາລັງຂາດກໍາລັງ. ລວມເອົາ verse ໜຶ່ງຈາກ Quran ແລະ ການກະທຳຄວາມເຫັນໃຈເລັກນ້ອຍໜຶ່ງກັບວາຈາໃນມື້ນີ້.",
-
-  "promptStrengthCourage": "ຂຽນການສະທ້ອນໃຈ Islamic ກ່ຽວກັບຄວາມເຂັ້ມແຂງ ແລະ ຄວາມກ້າຫານໂດຍອາໄສຄວາມເຊື່ອ. ແຕ້ມຈາກຕົວຢ່າງຂອງສາດສະດາ, ຊຸມຊົນ Muslim ເບື້ອງຕົ້ນ, ແລະ ຜູ້ສະໄດ້ຍາກທີ່ຍົງຄົງເຂັ້ມແຂງໃນຄວາມຍາກລໍາບາກ. ປ່ຽນຫົວຂໍ້ທຸກຄັ້ງ: ຄວາມກ້າຫານໂດຍອາໄສຄວາມເຊື່ອ, ຄວາມເຂັ້ມແຂງໃນການອະທິຖານ, ຄວາມໄວ້ວາງໃຈ Allah ໃນເວລາຢ້ານກົວ, ຫຼື ຄວາມຢືດຢໍ່າໃນຄວາມຍາກລໍາບາກ. ລວມເອົາ verse ໜຶ່ງຈາກ Quran ແລະ ຄໍາອະທິຖານ ຫຼື ວະລະຊະນະຍົກຍ້າຍຄວາມຈໍາໄວ້ສັ້ນໆ.",
-
-  "promptGratitude": "ຂຽນການສະທ້ອນໃຈ Islamic ກ່ຽວກັບຄວາມກະຕັນຍູ (Shukr) ຕໍ່ Allah. ຮາກຖານຈາກການສອນ Quranic ແລະ ປະເພນີສາວົກ. ປ່ຽນມຸມມອງ: ຄວາມກະຕັນຍູໃນຄວາມຍາກລໍາບາກ, ຊົມຊື່ນກັບສະພາບໂຊກຊະ ນ້ອຍໆ, ເລີ່ມຕົ້ນມື້ດ້ວຍການສັນລະໂນ້ມ Allah, ຫຼື ຮັບຮູ້ຄໍາແນະນໍາຂອງ Allah ໃນຊີວິດປະຈໍາວັນ. ລວມເອົາ verse ໜຶ່ງຈາກ Quran ແລະ ການປະຕິບັດກະຕັນຍູ.",
-
-  "promptPurposeCalling": "ຂຽນການສະທ້ອນໃຈ Islamic ກ່ຽວກັບຈຸດປະສົງໃນຊີວິດເພື່ອສະຄັນເລີ່ຕັ້ງແຕ່ໍ່ໄຟ Allah ແລະ ອາໃຜ້ຜ້າຊື่ສັດ. ແຕ້ມຈາກການສອນ Quranic ກ່ຽວກັບຈຸດປະສົງ, ບໍລິການຜູ້ອື່ນ, ແລະ ການນໍາໃຊ້ຄຸນສົມບັດຂອງຕົວເອງສໍາລັບຄວາມດີ. ປ່ຽນຫົວຂໍ້ທຸກຄັ້ງ: ບໍລິການຄອບຄົວ ແລະ ຊຸມຊົນ, ຊອກຫາຄໍາແນະນໍາໂດຍຜ່ານ Istikhara, ມີຊີວິດດ້ວຍຄວາມຕັ້ງໃຈ, ຫຼື ຊອກຫາຄວາມໝາຍໃນວຽກສາມາດຖະ. ລວມເອົາ verse ໜຶ່ງຈາກ Quran ແລະ ສອງຄໍາຖາມສະທ້ອນໃຈ.",
-
-  "promptFamilyRelationships": "ຂຽນຄໍາແນະນໍາ Islamic ສະຫລາດກ່ຽວກັບຄອບຄົວ ແລະ ສາຍພົວພັນທີ່ຮາກຖານຈາກການສອນ Quranic ແລະ ຕົວຢ່າງ Prophet Muhammad. ປ່ຽນຫົວຂໍ້ທຸກຄັ້ງ: ຄວາມເມດຕາກຣຸນາໃນຊີວິດຄອບຄົວ, ຄວາມອົດທົນໃນຂໍ້ຂັດແຍ່ງ, ກຽດກວາສາມາຕະພໍ່ແມ່, ບົ່ງລູກໃນຄວາມເຊື່ອ, ຫຼື ເສີມສ້າງການແຕ່ງງານ. ລວມເອົາ verse ໜຶ່ງຈາກ Quran ແລະ ການປະຕິບັດສາຍພົວພັນທີ່ສົ່ວນ.",
-
-  "promptPeaceAnxietyRelief": "ຂຽນການສະທ້ອນໃຈ Islamic ສະໂນກ່ຽວກັບການຊອກຫາສັນຕິພາບພາຍໃນໂດຍຜ່ານຄໍາຈໍາໂລມ Allah (Dhikr) ແລະ ຄວາມໄວ້ວາງໃຈໃນແຜນການຂອງພາຍະ. ແຕ້ມຈາກການສອນ Quranic ກ່ຽວກັບສັນຕິພາບຂອງໃຈ, ການອະທິຖານ, ແລະ ການ surrender ຕໍ່ຄວາມປາຖະຫນາຂອງ Allah. ປ່ຽນຫຼາກຫລາຍວິທີແລະລວມເອົາ verse ໜຶ່ງຈາກ Quran ແລະ ການປະຕິບັດພື້ນຖານສະບາຍງ່າຍໆຈາກປະເພນີ Islamic.",
-
-  "promptWisdomOfJesus": "ຂຽນຕໍ່ພຣະຣາຮາຍຕາມທີ່ສອນໃນ Islamic. ແຕ້ມຈາກ Quran ຫຼື Hadith ແລະ ອະທິບາຍສັ້ນໆວິທີທີ່ຄົນສຶກສາ Islamic ເຂົ້າໃຈການສອນ. ປ່ຽນຫົວຂໍ້: ລັກສະນະ, ຄວາມອົດທົນ, ຄວາມຖ່ອມຕົວ, ຄວາມເຊື່ອ, ຫຼື ນິຍົມພຶດຕິກໍາປະຈໍາວັນ. ລວມເອົາ verse Quranic ຫຼື ອ້າງອີງ Hadith ແລະ ການຈັດປະເມີນປະຕິບັດເປັນຕົວຈິງ.",
-
-  "promptHumilityCharacter": "ຂຽນການສະທ້ອນໃຈ Islamic ກ່ຽວກັບຄວາມຖ່ອມຕົວ (Tawadhu) ແລະ ລັກສະນະທີ່ດີ (Akhlaq). ແຕ້ມຈາກການສອນ Quranic, ຕົວຢ່າງ Prophet Muhammad, ແລະ ປະເພນີຂອງການພັฒນາລັກສະນະ Islamic. ປ່ຽນຫົວຂໍ້: ຄວາມຖ່ອມຕົວໃນຄວາມເປັນຜູ້ນໍາ, ຮັບຮູ້ຄວາມຜິດພາດ, ປະຕິບັດຕໍ່ຜູ້ອື່ນດ້ວຍກຽດກວາ, ຫຼື ຂະຫຍາຍຕົວໃນຈິດຕະວິທະຍາໂດຍຜ່ານການສະທ້ອນໃຈ. ລວມເອົາ verse ໜຶ່ງຈາກ Quran ແລະ ນິສັຍໜຶ່ງທີ່ຕ້ອງປະຕິບັติ.",
-
-  "promptOvercomingTemptation": "ຂຽນການສະທ້ອນໃຈ Islamic ກ່ຽວກັບການຕ້ານການສາລະວົນ ແລະ ຢືນຢໍ່າຢູ່ເສັ້ນທາງຖືກຕ້ອງ. ແຕ້ມຈາກຄໍາແນະນໍາ Quranic, ຄໍາຈໍາໂລມ Allah (Dhikr), ການອະທິຖານ (Salah), ແລະ ຕົວຢ່າງຜູ້ທີ່ມີຄວາມເຊື່ອທີ່ສອບສະແກກເກົ້າ. ປ່ຽນມຸມມອງທຸກຄັ້ງ. ລວມເອົາ verse ໜຶ່ງຈາກ Quran ແລະ ກົນລະຫນ້າທີ່ປະຕິບັດໄດ້ສໍາລັບ 24 ຊົ່ວໂມງຖັດໄປ.",
-
-  "promptEveningReflection": "ຂຽນການສະທ້ອນໃຈ Islamic ຫລາບສະຫວາດໃນໍ່ຄໍາ (Adhkar al-Masaa'). ກະຕຸ້ນກະຕັນຍູ, ການກວດໂພກໄພຂອງຕົວເອງ (Muhasabah), ແລະ ຄວາມໄວ້ວາງໃຈ Allah ກ່ອນພັກ. ລວມເອົາ 3–5 ຄໍາຖາມສະທ້ອນໃຈສັ້ນກ່ຽວກັບມື້, ຄໍາອະທິຖານສະຫລຸບສັ້ນ, ແລະ verse ໜຶ່ງຈາກ Quran.",
-
+  "continueCta": "ດໍາເນີນຕໍ່",
   "wordCount": "{count, plural, one {{count} ຄໍາ} other {{count} ຄໍາ}}",
-
   "optionsCta": "ຕົວເລືອກ",
   "newCta": "ໃໝ່",
   "actionsTitle": "ທ່ານຢາກເຮັດຫຍັງ?",
-  "copy": "ສຳເນົາ",
+  "copy": "ຄັດລອກ",
   "share": "ແບ່ງປັນ",
   "close": "ປິດ",
-  "copiedToast": "ສຳເນົາໄປຫາຄຳທີ່ເກັບເກັບ",
-
+  "copiedToast": "ຄັດລອກໄປຍັງຄລິບບອດແລ້ວ",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Email / share subject line including the category label.",
+    "description": "ຫົວຂໍ້ອີເມວ / ການແບ່ງປັນ ທີ່ມີຊື່ຫົວຂໍ້ປະເພດ.",
     "placeholders": {
-      "category": { "type": "String", "example": "Daily Guidance" }
+      "category": {
+        "type": "String",
+        "example": "ແນະນໍາປະຈໍາວັນ"
+      }
     }
   },
-
-  "regenerateErrorTitle": "ບໍ່ສາມາດສ້າງຄໍາຕອບໃໝ່",
-  "regenerateErrorBody": "{error}\n\nທ່ານຢາກພະຍາຍາມຄືນໄປບໍ?",
+  "regenerateErrorTitle": "ບໍ່ສາມາດສ້າງຄໍາຕອບໃໝ່ໄດ້",
+  "regenerateErrorBody": "{error}\n\nທ່ານຕ້ອງການລອງອີກຄັ້ງບໍ?",
   "@regenerateErrorBody": {
-    "description": "Shown when regenerating an AI answer fails.",
+    "description": "ສະແດງເມື່ອການສ້າງຄໍາຕອບ AI ໃໝ່ລົ້ມເຫຼວ.",
     "placeholders": {
-      "error": { "type": "String", "example": "Network error" }
+      "error": {
+        "type": "String",
+        "example": "ຂໍ້ຜິດພາດເຄືອຂ່າຍ"
+      }
     }
   },
-
   "cancelCta": "ຍົກເລີກ",
-  "retryCta": "ພະຍາຍາມຄືນໄປ",
-
+  "retryCta": "ລອງອີກຄັ້ງ",
   "authTitle": "ສ້າງບັນຊີຂອງທ່ານ",
-  "continueAsGuest": "ສືບຕໍ່ໂດຍບໍ່ມີບັນຊີ",
-  "signInGoogle": "ເຂົ້າສູ່ລະບົບດ້ວຍ Google",
-  "signInApple": "ເຂົ້າສູ່ລະບົບດ້ວຍ Apple",
-  "signInEmail": "ເຂົ້າສູ່ລະບົບດ້ວຍ Email",
-  "upgradeWithApple": "ສືບຕໍ່ດ້ວຍ Apple",
-  "mustAccept": "ທ່ານຕ້ອງຍອມຮັບເງື່ອນໄຂ ແລະ ຖືກກົດໂຕະທໍາບັນຫາສ່ວນຕົວ.",
-  "termsLabel": "ຂ້າພະເຈົ້າຍອມຮັບເງື່ອນໄຂການບໍລິການ",
-  "privacyLabel": "ຂ້າພະເຈົ້າໄດ້ອ່ານນະໂຍບາຍສ່ວນຕົວ",
-  "marketingOptIn": "ຂ້າພະເຈົ້າຍອມຮັບທີ່ຈະໄດ້ຮັບຂ່າວສານ ແລະ ຂໍ້ສະເໜີ",
-  "openTerms": "ເງື່ອນໄຂການບໍລິການ",
-  "openPrivacy": "ນະໂຍບາຍສ່ວນຕົວ",
-
+  "continueAsGuest": "ດໍາເນີນຕໍ່ໃນຖານະແຂກ",
+  "signInGoogle": "ເຂົ້າລະບົບດ້ວຍ Google",
+  "signInApple": "ເຂົ້າລະບົບດ້ວຍ Apple",
+  "signInEmail": "ເຂົ້າລະບົບດ້ວຍອີເມວ",
+  "upgradeWithApple": "ດໍາເນີນຕໍ່ດ້ວຍ Apple",
+  "mustAccept": "ທ່ານຕ້ອງຍອມຮັບເງື່ອນໄຂການໃຊ້ບໍລິການ ແລະ ຮັບຮູ້ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ.",
+  "termsLabel": "ຂ້ອຍຍອມຮັບເງື່ອນໄຂການໃຊ້ບໍລິການ",
+  "privacyLabel": "ຂ້ອຍໄດ້ອ່ານນະໂຍບາຍຄວາມເປັນສ່ວນຕົວແລ້ວ",
+  "marketingOptIn": "ຂ້ອຍຍິນຍອມຮັບຂ່າວ ແລະ ຂໍ້ສະເໜີ",
+  "openTerms": "ເງື່ອນໄຂການໃຊ້ບໍລິການ",
+  "openPrivacy": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
   "accountSection": "ບັນຊີ",
-  "guestMode": "ໂໝົດແຂກ",
-  "signedIn": "ເຂົ້າສູ່ລະບົບ",
-  "upgradeHint": "ບັນທຶກການສະທ້ອນໃຈຂອງທ່ານຂ້າມອຸປະກອນໂດຍສ້າງບັນຊີ.",
-  "upgradeWithGoogle": "ສືບຕໍ່ດ້ວຍ Google",
+  "guestMode": "ໂໝດແຂກ",
+  "signedIn": "ເຂົ້າລະບົບແລ້ວ",
+  "upgradeHint": "ບັນທຶກການໄຕ່ຕອງຂອງທ່ານໃນຫຼາຍອຸປະກອນດ້ວຍການສ້າງບັນຊີ.",
+  "upgradeWithGoogle": "ດໍາເນີນຕໍ່ດ້ວຍ Google",
   "signOut": "ອອກຈາກລະບົບ",
-
-  "snackUpgraded": "ບັນຊີຖືກອັບເກເດດດ້ວຍ Google ✅",
-  "snackSignedIn": "ເຂົ້າສູ່ລະບົບດ້ວຍ Google ✅",
-  "snackSignedOut": "ອອກຈາກລະບົບ",
-  "snackSignedInApple": "ເຂົ້າສູ່ລະບົບດ້ວຍ Apple ✅",
-  "snackSignedInGoogle": "ເຂົ້າສູ່ລະບົບດ້ວຍ Google ✅",
-  "snackUpgradedApple": "ບັນຊີຖືກອັບເກເດດດ້ວຍ Apple ✅",
-  "snackUpgradedGoogle": "ບັນຊີຖືກອັບເກເດດດ້ວຍ Google ✅",
-
-  "historyTitle": "ການສະທ້ອນໃຈທີ່ຜ່ານມາ",
-  "historyOpenCta": "ການສະທ້ອນໃຈທີ່ຜ່ານມາ",
-  "historyEmpty": "ບໍ່ມີການສະທ້ອນໃຈທີ່ບັນທຶກຍັງ.",
-  "historyDeleteTitle": "ລົບການສະທ້ອນໃຈ?",
-  "historyDeleteBody": "ນີ້ຈະສະກັດລົບລາຍການທີ່ເລືອກອອກຖາວອນ.",
+  "snackUpgraded": "ອັບເກຣດບັນຊີດ້ວຍ Google ✅",
+  "snackSignedIn": "ເຂົ້າລະບົບດ້ວຍ Google ✅",
+  "snackSignedOut": "ອອກຈາກລະບົບແລ້ວ",
+  "snackSignedInApple": "ເຂົ້າລະບົບດ້ວຍ Apple ✅",
+  "snackSignedInGoogle": "ເຂົ້າລະບົບດ້ວຍ Google ✅",
+  "snackUpgradedApple": "ອັບເກຣດບັນຊີດ້ວຍ Apple ✅",
+  "snackUpgradedGoogle": "ອັບເກຣດບັນຊີດ້ວຍ Google ✅",
+  "historyTitle": "ການໄຕ່ຕອງກ່ອນໜ້າ",
+  "historyOpenCta": "ການໄຕ່ຕອງກ່ອນໜ້າ",
+  "historyEmpty": "ຍັງບໍ່ມີການໄຕ່ຕອງທີ່ບັນທຶກໄວ້.",
+  "historyDeleteTitle": "ລົບການໄຕ່ຕອງນີ້ບໍ?",
+  "historyDeleteBody": "ການກະທໍານີ້ຈະລຶບລາຍການທີ່ເລືອກໄວ້ຢ່າງຖາວອນ.",
   "deleteCta": "ລົບ",
-
-  "historyButton": "ການສະທ້ອນໃຈທີ່ຜ່ານມາ",
-  "historyEmptyTitle": "ບໍ່ມີການສະທ້ອນໃຈເທື່ອ",
-  "historyEmptyBody": "ສ້າງບາງສິ່ງບາງຢ່າງໃນຕົ້ນ — ລາຍການທີ່ບັນທຶກຂອງທ່ານຈະສະແດງບ້ານີ້.",
+  "historyButton": "ການໄຕ່ຕອງກ່ອນໜ້າ",
+  "historyEmptyTitle": "ຍັງບໍ່ມີການໄຕ່ຕອງ",
+  "historyEmptyBody": "ສ້າງບາງຢ່າງກ່ອນ — ລາຍການທີ່ທ່ານບັນທຶກຈະປາກົດຢູ່ນີ້.",
   "historyDelete": "ລົບ",
-
-  "footerTitle": "ດ້ວຍ Iman, sabr ແລະ rahma.",
-  "footerSubtitle": "ໜຶ່ງບາດກ້າວໃນເວລາ.",
-  "genericErrorSnack": "ມີບາງຢ່າງທີ່ຜິດປົກະຕິ — ກະລຸນາລອງຄືນໃໝ່ໃນປັດຈຸບັນ.",
-
-  "upgradeAccountCta": "ບັນທຶກການສະທ້ອນໃຈຂອງທ່ານຂ້າມອຸປະກອນ – ສ້າງບັນຊີ",
+  "footerTitle": "ກັບ Wilaya, Iman ແລະ Sabr",
+  "footerSubtitle": "ຄໍາອະທິຖານທີລະຄັ້ງ",
+  "genericErrorSnack": "ມີບາງຢ່າງຜິດພາດ — ກະລຸນາລອງອີກຄັ້ງໃນອີກສັກພັກ.",
+  "upgradeAccountCta": "ບັນທຶກການໄຕ່ຕອງຂອງທ່ານໃນຫຼາຍອຸປະກອນ – ສ້າງບັນຊີ",
   "deleteAccount": "ລົບບັນຊີ",
   "exportData": "ສົ່ງອອກຂໍ້ມູນຂອງຂ້ອຍ",
-
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Label before showing the internal Firebase UID.",
+    "description": "ປ້າຍກ່ອນສະແດງ Firebase UID ພາຍໃນ.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "ງາມທີ່ຕົວເອງ 🐯\nAI ຕ້ອງການເວລາກ່ອນກົນໂຖກະໂຫນາວ…",
-  "rateDailyLimit": "ທ່ານບໍ່ມີການສະທ້ອນໃຈສໍາລັບຕອນນີ້.\nໄດ້ຮັບການສະທ້ອນໃຈເພີ່ມເຕີມ ຫຼື ອັບເກເດດເປັນບາຣາກາ.",
-  "rateCreditsExhausted": "ທ່ານໄດ້ໃຊ້ການສະທ້ອນໃຈທັງໝົດ.\nເພີ່ມເງິນ ຫຼື ອັບເກເດດເປັນບາຣາກາເພື່ອສືບຕໍ່.",
-  "rateGraceReflectionsExhausted": "ທ່ານບໍ່ມີການສະທ້ອນໃຈສໍາລັບຕອນນີ້.\nໄດ້ຮັບການສະທ້ອນໃຈເພີ່ມເຕີມ ຫຼື ອັບເກເດດເປັນບາຣາກາ.",
-  "rateReflectionsExhausted": "ທ່ານໄດ້ໃຊ້ການສະທ້ອນໃຈທັງໝົດ.\nເພີ່ມເງິນ ຫຼື ອັບເກເດດເປັນບາຣາກາເພື່ອສືບຕໍ່.",
-
-  "blessedDescription": "ບາຣາກາຫນ່ວຍສະດວກທີ່ຫລາກຫລາຍ, ໝວດໝູ່ອະນາຄົດ, ແລະ ເລື່องປະກາດພິເສດ.",
-  "championDescription": "ບາຣາກາຫນ່ວຍສະດວກທີ່ຫລາກຫລາຍ, ໝວດໝູ່ອະນາຄົດ, ແລະ ເລື່องປະກາດພິເສດ.",
-
-  "ratePlanExhausted": "ການສະທ້ອນໃຈຂອງທ່ານວ່າງໃນຕອນນີ້. ແຜນ: {plan}.",
+  "rateLocalThrottle": "ຄ່ອຍໆ ນິດໜຶ່ງ 🐯\nAyara ຕ້ອງການເວລາເລັກນ້ອຍກ່ອນຄັ້ງຕໍ່ໄປ…",
+  "rateDailyLimit": "ຕອນນີ້ການໄຕ່ຕອງຂອງທ່ານໝົດແລ້ວ.\nຮັບການໄຕ່ຕອງເພີ່ມ ຫຼື ອັບເກຣດເປັນ Wilaya.",
+  "rateCreditsExhausted": "ທ່ານໄດ້ໃຊ້ການໄຕ່ຕອງທັງໝົດແລ້ວ.\nເພີ່ມເຄຣດິດ ຫຼື ອັບເກຣດເປັນ Wilaya ເພື່ອດໍາເນີນຕໍ່.",
+  "rateGraceCreditsExhausted": "ຕອນນີ້ການໄຕ່ຕອງຂອງທ່ານໝົດແລ້ວ.\nຮັບການໄຕ່ຕອງເພີ່ມ ຫຼື ອັບເກຣດເປັນ Wilaya.",
+  "premiumDescription": "Wilaya ເປີດໃຊ້ຄຸນສົມບັດພຣີມຽມ, ຫົວຂໍ້ໃນອະນາຄົດ, ແລະ ປ້າຍພິເສດ.",
+  "ratePlanExhausted": "ການໄຕ່ຕອງຂອງທ່ານໝົດແລ້ວໃນຕອນນີ້. ແຜນ: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "description": "ສະແດງເມື່ອການໄຕ່ຕອງຂອງຜູ້ໃຊ້ໝົດແລ້ວ ແຕ່ເຫດຜົນເປັນແບບທົ່ວໄປ.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard or Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "ມາດຕະຖານ ຫຼື Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "ບໍ່ສາມາດກວດ ເບິ່ງການສະທ້ອນໃຈຂອງທ່ານ: {message}",
+  "rateCheckFailed": "ບໍ່ສາມາດກວດສອບການໄຕ່ຕອງຂອງທ່ານໄດ້: {message}",
   "@rateCheckFailed": {
-    "description": "Shown when the callable function returns an error message.",
+    "description": "ສະແດງເມື່ອຟັງຊັນສົ່ງຂໍ້ຄວາມຜິດພາດກັບຄືນ.",
     "placeholders": {
-      "message": { "type": "String", "example": "Network error" }
+      "message": {
+        "type": "String",
+        "example": "ຂໍ້ຜິດພາດເຄືອຂ່າຍ"
+      }
     }
   },
-
-  "rateCheckGenericError": "ມີບາງຢ່າງທີ່ຜິດພາດໃນຂະນະທີ່ກວດ ເບິ່ງການສະທ້ອນໃຈຂອງທ່ານ.",
-  "aiFallbackGeneric": "ມີບາງຢ່າງທີ່ຜິດປົກະຕິ — ກະລຸນາລອງຄືນໃໝ່ໃນປັດຈຸບັນ.",
-
-  "limitSectionTitle": "ການສະທ້ອນໃຈ",
-  "limitTodayLabel": "ການນໍາໃຊ້",
-  "limitCreditsLabel": "ການສະທ້ອນໃຈທີ່ສະຫຼິດ: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "rateCheckGenericError": "ມີບາງຢ່າງຜິດພາດໃນຂະນະກວດສອບການໄຕ່ຕອງຂອງທ່ານ.",
+  "aiFallbackGeneric": "ມີບາງຢ່າງຜິດພາດ — ກະລຸນາລອງອີກຄັ້ງໃນອີກສັກພັກ.",
+  "limitSectionTitle": "ການໄຕ່ຕອງ",
+  "limitTodayLabel": "ການໃຊ້ງານ",
+  "limitCreditsLabel": "ການໄຕ່ຕອງທີ່ເຫຼືອ: {credits}",
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "ແຜນ: {plan}",
   "@limitPlanLabel": {
-    "description": "Shows the current subscription plan name.",
+    "description": "ສະແດງຊື່ແຜນການສະໝັກສະມາຊິກປັດຈຸບັນ.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard or Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "ມາດຕະຖານ ຫຼື Wilaya"
+      }
     }
   },
-  "limitLoadingLabel": "ກຳລັງໂຫລດ…",
-  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
-
-  "aiLimitTitle": "ການສະທ້ອນໃຈ",
-  "aiLimitSubtitle": "ແຕ່ລະຄໍາຕອບໃຊ້ 1 ການສະທ້ອນໃຈ. ມາດຕະຖານປະກອບມີການສະທ້ອນໃຈເລີ່ມຕົ້ນ. ບາຣາກາຫນ່ວຍປະເພດໂບນັສ ແລະ ເຮັດໃຫ້ທາງບົ່ວ້ວ.",
-  "aiLimitProgressLabel": "{used} / {total} ການສະທ້ອນໃຈໃຊ້",
+  "limitLoadingLabel": "ກໍາລັງໂຫຼດ…",
+  "limitLoadingLabelDescription": "ສະແດງໃນກາດການໄຕ່ຕອງ ໃນຂະນະທີ່ກໍາລັງດຶງສະຖິຕິການໃຊ້ງານ.",
+  "aiLimitTitle": "ການໄຕ່ຕອງ",
+  "aiLimitSubtitle": "ຄໍາຕອບແຕ່ລະອັນໃຊ້ 1 ການໄຕ່ຕອງ. Standard ລວມເອົາການໄຕ່ຕອງເລີ່ມຕົ້ນ. Wilaya ເປີດໃຊ້ໝວດພຣີມຽມ ແລະ ອະນຸຍາດໃຫ້ເພີ່ມຄະແນນ.",
+  "aiLimitProgressLabel": "ໃຊ້ໄປແລ້ວ {used} / {total} ການໄຕ່ຕອງ",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "ການສະທ້ອນໃຈ",
-  "reflectionsUsageLabel": "ການນໍາໃຊ້",
-  "reflectionsRemainingLabel": "ການສະທ້ອນໃຈທີ່ສະຫຼິດ: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "ແຜນ: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Shows the current plan name.",
+  "creditsSectionTitle": "ການໄຕ່ຕອງ",
+  "creditsUsageLabel": "ການໃຊ້ງານ",
+  "creditsRemainingLabel": "ການໄຕ່ຕອງທີ່ເຫຼືອ: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard or Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "ກຳລັງໂຫລດ…",
-  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
-
-  "reflectionsTitle": "ການສະທ້ອນໃຈ",
-  "reflectionsSubtitle": "ແຕ່ລະຄໍາຕອບໃຊ້ 1 ການສະທ້ອນໃຈ. ມາດຕະຖານປະກອບມີການສະທ້ອນໃຈເລີ່ມຕົ້ນ. ບາຣາກາຫນ່ວຍປະເພດໂບນັສ ແລະ ເຮັດໃຫ້ທາງບົ່ວ້ວ.",
-  "reflectionsProgressLabel": "{used} / {total} ການສະທ້ອນໃຈໃຊ້",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "ແຜນ: {plan}",
+  "@creditsPlanLabel": {
+    "description": "ສະແດງຊື່ແຜນປັດຈຸບັນ.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "ມາດຕະຖານ ຫຼື Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "ກໍາລັງໂຫຼດ…",
+  "creditsLoadingLabelDescription": "ສະແດງໃນຂະນະທີ່ກໍາລັງດຶງສະຖິຕິການໄຕ່ຕອງ.",
+  "creditsTitle": "ການໄຕ່ຕອງ",
+  "creditsSubtitle": "ຄໍາຕອບແຕ່ລະອັນໃຊ້ 1 ການໄຕ່ຕອງ. Standard ລວມເອົາການໄຕ່ຕອງເລີ່ມຕົ້ນ. Wilaya ເປີດໃຊ້ໝວດພຣີມຽມ ແລະ ອະນຸຍາດໃຫ້ເພີ່ມຄະແນນ.",
+  "creditsProgressLabel": "ໃຊ້ໄປແລ້ວ {used} / {total} ການໄຕ່ຕອງ",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "ລົບບັນຊີ",
-  "settingsDeleteDescription": "ລົບບັນຊີ ແລະ ຂໍ້ມູນທີ່ກ່ຽວຂ້ອງທັງໝົດຖາວອນ.",
+  "settingsDeleteDescription": "ລົບບັນຊີຂອງທ່ານ ແລະ ຂໍ້ມູນທັງໝົດທີ່ກ່ຽວຂ້ອງຢ່າງຖາວອນ.",
   "settingsDeleteButtonLabel": "ລົບບັນຊີຂອງຂ້ອຍ",
-  "settingsDeleteDialogTitle": "ລົບບັນຊີ?",
-  "settingsDeleteDialogBody": "ການກະທໍາມີຖາວອນ ແລະ ບໍ່ສາມາດຍົກເລີກໄດ້.\n\nຊ່ວງທັງສາມາດມີປະຫວັດສະວະ, ປະຫວັດ ແລະ ຂໍ້ມູນບັນຊີທັງໝົດຈະຖືກລົບ.",
+  "settingsDeleteDialogTitle": "ລົບບັນຊີບໍ?",
+  "settingsDeleteDialogBody": "ການກະທໍານີ້ເປັນການຖາວອນ ແລະ ບໍ່ສາມາດຍົກເລີກໄດ້.\n\nການສົນທະນາ, ປະຫວັດ ແລະ ຂໍ້ມູນບັນຊີຂອງທ່ານຈະຖືກລົບທັງໝົດ.",
   "settingsDeleteDialogCancel": "ຍົກເລີກ",
   "settingsDeleteDialogConfirm": "ລົບ",
-
-  "settingsFreeLimitUsedTitle": "ການສະທ້ອນໃຈເລີ່ມຕົ້ນໃຊ້",
-  "settingsFreeLimitUsedDescription": "ການສະທ້ອນໃຈເລີ່ມຕົ້ນສໍາລັບອຸປະກອນນີ້ໄດ້ຖືກນໍາໃຊ້. ອັບເກເດດເປັນບາຣາກາ ຫຼື ຊື້ການສະທ້ອນໃຈເພີ່ມເຕີມເພື່ອສືບຕໍ່.",
-
-  "settingsStarterReflectionsUsedTitle": "ການສະທ້ອນໃຈເລີ່ມຕົ້ນໃຊ້",
-  "settingsStarterReflectionsUsedDescription": "ການສະທ້ອນໃຈເລີ່ມຕົ້ນສໍາລັບອຸປະກອນນີ້ໄດ້ຖືກນໍາໃຊ້. ອັບເກເດດເປັນບາຣາກາ ຫຼື ຊື້ການສະທ້ອນໃຈເພີ່ມເຕີມເພື່ອສືບຕໍ່.",
-
-  "deviceBoundError": "ອຸປະກອນນີ້ໄດ້ຖືກເຊື່ອມຕໍ່ກັບບັນຊີອື່ນແລ້ວ. ກະລຸນາເຂົ້າສູ່ລະບົບດ້ວຍບັນຊີຕົ້ນສະບັບ.",
-
-  "premiumTitle": "ບາຣາກາ ໂຫມ",
-  "premiumSubtitleBasic": "ປົດລັອກ Ayara ສົມບູນ.",
-  "premiumSubtitleChampion": "ທ່ານເປັນບາຣາກາ. ຕ້ອງການເພີ່ມເຕີມບໍ?",
-
-  "premiumCurrentPlan": "ແຜນປະຈຸບັນ: {plan}",
-  "premiumCreditsStatus": "ການສະທ້ອນໃຈ: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "ການຊື້ບໍ່ມີໃນຕອນນີ້.",
-  "premiumSignInToPurchase": "ເຂົ້າສູ່ລະບົບເພື່ອຊື້ການສະທ້ອນໃຈ ຫຼື ປົດລັອກບາຣາກາ.",
-
-  "premiumRestorePurchases": "ຟື້ນຟູການຊື້",
-  "premiumProcessing": "ກຳລັງດຳເນີນການ…",
-  "premiumRestoreHintTitle": "ຊື້ບາຣາກາ ຫຼື ການສະທ້ອນໃຈຢູ່ໃນອຸປະກອນນີ້ ຫຼື ອັນອື່ນແລ້ວບໍ?",
-  "premiumRestoreHintBody": "ຟື້ນຟູການຊື້ຖ້າບໍ່ມີການສະສະ.",
-
-  "premiumBuyCredits200": "ຊື້ 200 ການສະທ້ອນໃຈ",
-  "premiumBuyCredits400": "ຊື້ 400 ການສະທ້ອນໃຈ",
-  "premiumBecomeChampionOneTime": "ອັບເກເດດເປັນບາຣາກາ ໂຫມ",
-  "premiumChampionHint": "ໃນຖານະ ບາຣາກາ, ທ່ານສາມາດເພີ່ມເຕີມໄປທີ່ໂຕກຽວຕາມຄວາມຕ້ອງການ.",
-
-  "premiumUpgradeCta": "ອັບເກເດດ",
-  "premiumRequiredForCategory": "ປະເພດນີ້ສໍາລັບຜູ້ໃຊ້ບາຣາກາເທົ່ານັ້ນ. ອັບເກເດດໃນການຕັ້ງຄ່າເພື່ອປົດລັອກເນື້ອໂບນັສທັງໝົດ.",
-  "premiumBenefitsBasic": "ປົດລັອກບາຣາກາເພື່ອໄດ້ຮັບເພີ່ມເຕີມໄຟຟ້າ, ເຂົ້າຫາໂບນັສໂບນັນ, ແລະ ສືບຕໍ່ໂດຍບໍ່ມີລ່ວງລະບາຍ.",
-  "premiumBenefitsChampion": "ທ່ານຢູ່ໃນບາຣາກາ ໂຫມ. ຖ້າທ່ານຕໍ່າ, ເພີ່ມເຕີມໂຕກຽວເພີ່ມເຕີມ ແລະ ສືບຕໍ່ໂດຍບໍ່ມີລ່ວງລະບາຍ.",
-  "premiumButtonBecomeChampion": "ປົດລັອກບາຣາກາ",
-  "premiumButtonTopup1000": "ເພີ່ມ 1000 ການສະທ້ອນໃຈ",
-  "premiumChampionBadge": "ບາຣາກາຢູ່ໃນການໃຊ້ງານ",
-  "premiumLoadingStore": "ກຳລັງໂຫລດຮ້ານ…",
-
-  "blessedTitle": "ບາຣາກາ ໂຫມ",
-  "blessedSubtitleGrace": "ປົດລັອກ Ayara ສົມບູນ.",
-  "blessedSubtitleBlessed": "ທ່ານເປັນບາຣາກາ. ຕ້ອງການເພີ່ມເຕີມບໍ?",
-
-  "blessedCurrentPlan": "ແຜນປະຈຸບັນ: {plan}",
-  "blessedReflectionsStatus": "ການສະທ້ອນໃຈ: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "ການຊື້ບໍ່ມີໃນຕອນນີ້.",
-  "blessedProductNotAvailable": "ຜະລິດຕະພັນນີ້ບໍ່ມີໃນຮ້ານຢູ່. ກະລຸນາລອງຄືນໃໝ່ໃນພາຍຸ.",
-  "blessedPurchaseError": "ມີບາງຢ່າງທີ່ຜິດກັບການຊື້. ກະລຸນາລອງຄືນໃໝ່.",
-  "blessedSignInToPurchase": "ເຂົ້າສູ່ລະບົບເພື່ອຊື້ການສະທ້ອນໃຈ ຫຼື ປົດລັອກບາຣາກາ.",
-
-  "blessedRestorePurchases": "ຟື້ນຟູການຊື້",
-  "blessedProcessing": "ກຳລັງດຳເນີນການ…",
-  "blessedRestoreHintTitle": "ຊື້ບາຣາກາ ຫຼື ການສະທ້ອນໃຈຢູ່ໃນອຸປະກອນນີ້ ຫຼື ອັນອື່ນແລ້ວບໍ?",
-  "blessedRestoreHintBody": "ຟື້ນຟູການຊື້ຖ້າບໍ່ມີການສະສະ.",
-
-  "blessedBuyReflections100": "ເພີ່ມ 100 ການສະທ້ອນໃຈ",
-  "blessedBuyReflections200": "ຊື້ 200 ການສະທ້ອນໃຈ",
-  "blessedBuyReflections400": "ຊື້ 400 ການສະທ້ອນໃຈ",
-  "blessedBecomeBlessedOneTime": "ອັບເກເດດເປັນບາຣາກາ",
-  "blessedTopupHint": "ໃນຖານະ ບາຣາກາ, ທ່ານສາມາດເພີ່ມເຕີມໄປທີ່ໂຕກຽວຕາມຄວາມຕ້ອງການ.",
-
-  "blessedUpgradeCta": "ອັບເກເດດ",
-  "blessedRequiredForCategory": "ປະເພດນີ້ສໍາລັບຜູ້ໃຊ້ບາຣາກາເທົ່ານັ້ນ. ອັບເກເດດໃນການຕັ້ງຄ່າເພື່ອປົດລັອກເນື້ອໂບນັສທັງໝົດ.",
-  "blessedFeatureLocked": "ປົດລັອກບາຣາກາເພື່ອເຂົ້າຫາຄຸນສົມບັດນີ້.",
-  "lockedCategoriesHint": "ປະເພດບາງອັນສະຫງວນສໍາລັບສະມາຊິກບາຣາກາ. ປົດລັອກເພື່ອສຳຫຼວດການສະທ້ອນໃຈທີ່ຜະລິດມາ.",
-  "blessedBenefitsGrace": "ປົດລັອກບາຣາກາເພື່ອໄດ້ຮັບເພີ່ມເຕີມໄຟຟ້າ, ເຂົ້າຫາໂບນັສໂບນັນ, ແລະ ສືບຕໍ່ໂດຍບໍ່ມີລ່ວງລະບາຍ.",
-  "blessedBenefitsBlessed": "ທ່ານຢູ່ໃນບາຣາກາ ໂຫມ. ຖ້າທ່ານຕໍ່າ, ເພີ່ມເຕີມໂຕກຽວເພີ່ມເຕີມ ແລະ ສືບຕໍ່ໂດຍບໍ່ມີລ່ວງລະບາຍ.",
-  "blessedButtonBecomeBlessed": "ປົດລັອກບາຣາກາ",
-  "blessedButtonTopup1000": "ເພີ່ມ 1000 ການສະທ້ອນໃຈ",
-  "blessedBadge": "ບາຣາກາຢູ່ໃນການໃຊ້ງານ",
-  "blessedLoadingStore": "ກຳລັງໂຫລດຮ້ານ…",
-
-  "freePlanBlockedTitle": "ທ່ານໄດ້ໃຊ້ການສະທ້ອນໃຈເລີ່ມຕົ້ນທັງໝົດ",
-  "freePlanBlockedBody": "ທ່ານໃຊ້ແຜນມາດຕະຖານກັບການສະທ້ອນໃຈເລີ່ມຕົ້ນ ແລະ ທ່ານໄດ້ຄົ້ນຮອບ. ເພື່ອສືບຕໍ່ — ແລະ ປົດລັອກໂບນັສ — ອັບເກເດດເປັນບາຣາກາ.",
-  "freePlanBlockedCtaGoPremium": "ເບິ່ງທາງເລືອກບາຣາກາຂ້າງລຸ່ມ",
-
-  "graceBlockedTitle": "ທ່ານໄດ້ໃຊ້ການສະທ້ອນໃຈເລີ່ມຕົ້ນທັງໝົດ",
-  "graceBlockedBody": "ທ່ານໃຊ້ແຜນມາດຕະຖານກັບການສະທ້ອນໃຈເລີ່ມຕົ້ນ ແລະ ທ່ານໄດ້ຄົ້ນຮອບ. ເພື່ອສືບຕໍ່ — ແລະ ປົດລັອກໂບນັສ — ອັບເກເດດເປັນບາຣາກາ.",
-  "graceBlockedCtaGoBlessed": "ເບິ່ງທາງເລືອກບາຣາກາຂ້າງລຸ່ມ",
-
-  "rateGuestMustSignIn": "ເຂົ້າສູ່ລະບົບເພື່ອໃຊ້ Ayara ແລະ ການສະທ້ອນໃຈຂອງທ່ານ.",
-
-  "guestNoCreditsTitle": "ໂຫມແຂກ",
-  "guestNoCreditsBody": "ໃນຖານະແຂກທ່ານສາມາດອ່ານແອບ, ແຕ່ທ່ານບໍ່ສາມາດໃຊ້ການສະທ້ອນໃຈ. ເຂົ້າສູ່ລະບົບພາຍຸໃນການຕັ້ງຄ່າເພື່ອໃຊ້ການສະທ້ອນໃຈ ແລະ ປົດລັອກການຊື້.",
-
-  "guestNoReflectionsTitle": "ໂຫມແຂກ",
-  "guestNoReflectionsBody": "ໃນຖານະແຂກທ່ານສາມາດອ່ານແອບ, ແຕ່ທ່ານບໍ່ສາມາດໃຊ້ການສະທ້ອນໃຈ. ເຂົ້າສູ່ລະບົບພາຍຸໃນການຕັ້ງຄ່າເພື່ອໃຊ້ການສະທ້ອນໃຈ ແລະ ປົດລັອກການຊື້.",
-
-  "guestDialogContinue": "ສືບຕໍ່",
-  "guestDialogLoginInstead": "ເຂົ້າສູ່ລະບົບແທນ",
-
-  "optionalLabel": "ບໍ່ບັງຄັບ",
-
-  "accountDeleteSuccessTitle": "ບັນຊີຖືກລົບ",
-  "accountDeleteSuccessBody": "ບັນຊີ ແລະ ຂໍ້ມູນທີ່ກ່ຽວຂ້ອງໄດ້ຖືກລົບຖາວອນ.",
+  "settingsFreeLimitUsedTitle": "ໄດ້ໃຊ້ການໄຕ່ຕອງເລີ່ມຕົ້ນແລ້ວ",
+  "settingsFreeLimitUsedDescription": "ການໄຕ່ຕອງເລີ່ມຕົ້ນສໍາລັບອຸປະກອນນີ້ໄດ້ຖືກໃຊ້ໄປແລ້ວ. ອັບເກຣດເປັນ Wilaya ຫຼື ຊື້ການໄຕ່ຕອງເພີ່ມເພື່ອດໍາເນີນຕໍ່.",
+  "settingsStarterCreditsUsedTitle": "ໄດ້ໃຊ້ການໄຕ່ຕອງເລີ່ມຕົ້ນແລ້ວ",
+  "settingsStarterCreditsUsedDescription": "ການໄຕ່ຕອງເລີ່ມຕົ້ນສໍາລັບອຸປະກອນນີ້ໄດ້ຖືກໃຊ້ໄປແລ້ວ. ອັບເກຣດເປັນ Wilaya ຫຼື ຊື້ການໄຕ່ຕອງເພີ່ມເພື່ອດໍາເນີນຕໍ່.",
+  "deviceBoundError": "ອຸປະກອນນີ້ໄດ້ເຊື່ອມກັບບັນຊີອື່ນແລ້ວ. ກະລຸນາເຂົ້າລະບົບດ້ວຍບັນຊີຕົ້ນສະບັບ.",
+  "premiumTitle": "ໂໝດ Wilaya",
+  "premiumSubtitleBasic": "ເປີດໃຊ້ປະສົບການ Ayara ແບບເຕັມຮູບແບບ.",
+  "premiumSubtitlePremium": "ທ່ານຢູ່ໃນ Wilaya ແລ້ວ. ຕ້ອງການການໄຕ່ຕອງເພີ່ມບໍ?",
+  "premiumCurrentPlan": "ແຜນປັດຈຸບັນ: {plan}",
+  "premiumCreditsStatus": "ການໄຕ່ຕອງ: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "ການຊື້ບໍ່ພ້ອມໃຊ້ໃນຂະນະນີ້.",
+  "premiumSignInToPurchase": "ເຂົ້າລະບົບເພື່ອຊື້ການໄຕ່ຕອງ ຫຼື ເປີດໃຊ້ Wilaya.",
+  "premiumRestorePurchases": "ກູ້ຄືນການຊື້",
+  "premiumProcessing": "ກໍາລັງປະມວນຜົນ…",
+  "premiumRestoreHintTitle": "ເຄີຍຊື້ Wilaya ຫຼື ການໄຕ່ຕອງໃນອຸປະກອນນີ້ ຫຼື ອຸປະກອນອື່ນແລ້ວບໍ?",
+  "premiumRestoreHintBody": "ກູ້ຄືນການຊື້ຂອງທ່ານ ຖ້າພວກມັນບໍ່ປາກົດ.",
+  "premiumBuyCredits200": "ຊື້ການໄຕ່ຕອງ 200 ຄັ້ງ",
+  "premiumBuyCredits400": "ຊື້ການໄຕ່ຕອງ 400 ຄັ້ງ",
+  "premiumBecomePremiumOneTime": "ອັບເກຣດເປັນໂໝດ Wilaya",
+  "premiumTopupHint": "ດ້ວຍ Wilaya, ທ່ານສາມາດເພີ່ມການໄຕ່ຕອງເພີ່ມເມື່ອໃດກໍໄດ້ທີ່ທ່ານຕ້ອງການ.",
+  "premiumUpgradeCta": "ອັບເກຣດ",
+  "premiumRequiredForCategory": "ໝວດນີ້ມີໃຫ້ສະເພາະຜູ້ໃຊ້ Wilaya ເທົ່ານັ້ນ. ອັບເກຣດໃນການຕັ້ງຄ່າເພື່ອເປີດໃຊ້ເນື້ອຫາພຣີມຽມທັງໝົດ.",
+  "premiumBenefitsBasic": "ເປີດໃຊ້ Wilaya ເພື່ອຮັບການໄຕ່ຕອງເພີ່ມ, ເຂົ້າເຖິງໝວດພຣີມຽມ, ແລະ ດໍາເນີນຕໍ່ໄດ້ເມື່ອໃດກໍຕາມທີ່ທ່ານຕ້ອງການການແນະນໍາ.",
+  "premiumBenefitsPremium": "ທ່ານຢູ່ໃນໂໝດ Wilaya ແລ້ວ. ຖ້າການໄຕ່ຕອງໃກ້ໝົດ, ເພີ່ມອີກ ແລະ ດໍາເນີນຕໍ່ໂດຍບໍ່ມີການຂັດຈັງຫວະ.",
+  "premiumButtonBecomePremium": "ເປີດໃຊ້ Wilaya",
+  "premiumButtonTopup1000": "ເພີ່ມການໄຕ່ຕອງ 1000 ຄັ້ງ",
+  "premiumBadge": "Wilaya ກໍາລັງໃຊ້ງານ",
+  "premiumLoadingStore": "ກໍາລັງໂຫຼດຮ້ານ…",
+  "premiumProductNotAvailable": "ສິນຄ້ານີ້ຍັງບໍ່ພ້ອມໃຊ້ໃນຮ້ານ. ກະລຸນາລອງອີກຄັ້ງພາຍຫຼັງ.",
+  "premiumPurchaseError": "ມີບາງຢ່າງຜິດພາດໃນການຊື້. ກະລຸນາລອງອີກຄັ້ງ.",
+  "premiumBuyCredits100": "ເພີ່ມການໄຕ່ຕອງ 100 ຄັ້ງ",
+  "premiumFeatureLocked": "ເປີດໃຊ້ Wilaya ເພື່ອເຂົ້າເຖິງຄຸນສົມບັດນີ້.",
+  "lockedCategoriesHint": "ບາງໝວດສະຫງວນໄວ້ສໍາລັບສະມາຊິກ Wilaya. ເປີດໃຊ້ພວກມັນເພື່ອສໍາຫຼວດການໄຕ່ຕອງທຸກຢ່າງໃນການເດີນທາງຂອງທ່ານ.",
+  "freePlanBlockedTitle": "ທ່ານໄດ້ໃຊ້ການໄຕ່ຕອງເລີ່ມຕົ້ນໝົດແລ້ວ",
+  "freePlanBlockedBody": "ທ່ານຢູ່ໃນແຜນ Standard ທີ່ມີການໄຕ່ຕອງເລີ່ມຕົ້ນ ແລະ ທ່ານໄດ້ຮອດຂີດຈໍາກັດແລ້ວ. ເພື່ອດໍາເນີນຕໍ່ — ແລະ ເປີດໃຊ້ໝວດພຣີມຽມ — ກະລຸນາອັບເກຣດເປັນ Wilaya.",
+  "freePlanBlockedCtaGoPremium": "ເບິ່ງຕົວເລືອກ Wilaya ຂ້າງລຸ່ມ",
+  "graceBlockedTitle": "ທ່ານໄດ້ໃຊ້ການໄຕ່ຕອງເລີ່ມຕົ້ນໝົດແລ້ວ",
+  "graceBlockedBody": "ທ່ານຢູ່ໃນແຜນ Standard ທີ່ມີການໄຕ່ຕອງເລີ່ມຕົ້ນ ແລະ ທ່ານໄດ້ຮອດຂີດຈໍາກັດແລ້ວ. ເພື່ອດໍາເນີນຕໍ່ — ແລະ ເປີດໃຊ້ໝວດພຣີມຽມ — ກະລຸນາອັບເກຣດເປັນ Wilaya.",
+  "graceBlockedCtaGoPremium": "ເບິ່ງຕົວເລືອກ Wilaya ຂ້າງລຸ່ມ",
+  "rateGuestMustSignIn": "ເຂົ້າລະບົບເພື່ອໃຊ້ Ayara ແລະ ການໄຕ່ຕອງຂອງທ່ານ.",
+  "guestNoCreditsTitle": "ໂໝດແຂກ",
+  "guestNoCreditsBody": "ໃນຖານະແຂກ ທ່ານສາມາດເບິ່ງແອັບໄດ້ ແຕ່ບໍ່ສາມາດໃຊ້ການໄຕ່ຕອງໄດ້. ເຂົ້າລະບົບໃນພາຍຫຼັງຜ່ານການຕັ້ງຄ່າເພື່ອໃຊ້ການໄຕ່ຕອງ ແລະ ເປີດໃຊ້ການຊື້.",
+  "guestDialogContinue": "ດໍາເນີນຕໍ່",
+  "guestDialogLoginInstead": "ເຂົ້າລະບົບແທນ",
+  "optionalLabel": "ທາງເລືອກ",
+  "accountDeleteSuccessTitle": "ລົບບັນຊີແລ້ວ",
+  "accountDeleteSuccessBody": "ບັນຊີຂອງທ່ານ ແລະ ຂໍ້ມູນທີ່ກ່ຽວຂ້ອງຖືກລົບສໍາເລັດແລ້ວ.",
   "accountDeleteSuccessClose": "ປິດ",
-  "accountDeleteErrorTitle": "ບໍ່ສາມາດລົບບັນຊີ",
+  "accountDeleteErrorTitle": "ບໍ່ສາມາດລົບບັນຊີໄດ້",
   "accountDeleteErrorClose": "ຕົກລົງ",
-  "accountDeleteReauthCancelled": "ການກວມກັບບັນຊີຖືກຍົກເລີກ. ກະລຸນາເຂົ້າສູ່ລະບົບຄືນໄປ ແລະ ລອງລົບຄືນໃໝ່.",
-  "accountDeleteReauthRequired": "ການລົບບັນຊີຕ້ອງມີການເຂົ້າສູ່ລະບົບວ່າົນ. ກະລຸນາອອກຈາກລະບົບ, ເຂົ້າສູ່ລະບົບຄືນໄປ, ແລະ ລອງລົບຄືນໃໝ່.",
-  "settingsDeletePermanentWarning": "ການກະທໍາມີຖາວອນ ແລະ ບໍ່ສາມາດຍົກເລີກໄດ້. ຂໍ້ມູນທັງໝົດທີ່ກ່ຽວຂ້ອງກັບບັນຊີຂອງທ່ານຈະຖືກລົບ.",
-
-  "dailyGraceTitle": "ຄໍາແນະນໍາປະຈໍາວັນ",
-  "dailyGraceScriptureLabel": "VERSE ຂອງມື້",
-  "dailyGraceSaintLabel": "ຄົນສຶກສາຂອງອາທິດ",
-  "dailyGraceReflectionLabel": "ການສະທ້ອນໃຈຕອນເຍັນ",
-  "dailyGraceCopiedToast": "Verse ສຳເນົາໄປຫາຄຳທີ່ເກັບເກັບ",
-
-  "dailyScripture0Text": "ແທ້ຈິງແລ້ວ, ຜູ້ທີ່ຍຸກธັນນະກໍາຈະຢູ່ໃນສວນ ແລະ ແມ່ນ້ໍາ, ໃນບ່ອນນັ່ງຂອງກຽດກວາຕໍ່ໜ້າກະສັດທີ່ຢຸງມີ.",
-  "dailyScripture0Ref": "Quran 54:54-55",
-  "dailyScripture1Text": "ແລະ ພວກເຮົາໄດ້ບໍ່ສົ່ງທ່ານ, [ໂອ Muhammad], ເວັ້ນແຕ່ວ່າເມດຕາກຣຸນາເພື່ອຜູ້ມະຫາວິທະຍາ.",
-  "dailyScripture1Ref": "Quran 21:107",
-  "dailyScripture2Text": "ບໍ່ Allah ພຽງພໍສໍາລັບບໍລິການຂອງວາລະ? ເຖິງວ່າພວກເຂົາໄດ້ວ່າທົ່ວໃຈທ່ານດ້ວຍອື່ນໆນອກຈາກວາລະ.",
-  "dailyScripture2Ref": "Quran 39:36",
-  "dailyScripture3Text": "ບາງທີທ່ານຢ້ານກົວບາງຢ່າງ ແລະ ມັນດີສໍາລັບທ່ານ; ແລະ ບາງທີທ່ານຮັກບາງຢ່າງ ແລະ ມັນບໍ່ດີສໍາລັບທ່ານ. ແລະ Allah ຮູ້, ຍ້ອນວ່າທ່ານບໍ່ຮູ້.",
-  "dailyScripture3Ref": "Quran 2:216",
-  "dailyScripture4Text": "ແທ້ຈິງແລ້ວ, Allah ແມ່ນກັບຜູ້ທີ່ອົດທົນ.",
-  "dailyScripture4Ref": "Quran 2:153",
-  "dailyScripture5Text": "ດັ່ງນັ້ນກະລຸນາຈື່ຂ້ອຍ; ຂ້ອຍຈະຈື່ທ່ານ. ແລະ ຂອບໃຈຂ້ອຍ ແລະ ບໍ່ປະຕິເສດຂ້ອຍ.",
-  "dailyScripture5Ref": "Quran 2:152",
-  "dailyScripture6Text": "ແທ້ຈິງແລ້ວ, ທີ່ສູງສຸດໃນສາຍຕາຂອງ Allah ແມ່ນທີ່ກົດຮັດທີ່ສຸດຂອງທ່ານ.",
-  "dailyScripture6Ref": "Quran 49:13",
-  "dailyScripture7Text": "ແລະ ພະຣະບົນຂອງທ່ານໄດ້ກໍາหນົດວ່າທ່ານກະຕັນຍູບໍ່ມີໃຄ່າຜະລິດ, ແລະ ວ່າທ່ານເພື່ອກຽດກວາພໍ່ແມ່ຂອງທ່ານ.",
-  "dailyScripture7Ref": "Quran 17:23",
-  "dailyScripture8Text": "ແທ້ຈິງແລ້ວ, ກັບຄວາມຍາກລໍາບາກມາກັບຄວາມສະສະ.",
-  "dailyScripture8Ref": "Quran 94:6",
-  "dailyScripture9Text": "ແລະ ວາລະກັບທ່ານບ່ອນໃດກໍ່ຕາມທີ່ທ່ານມີ. ແລະ Allah, ສິ່ງທີ່ທ່ານເຮັດ, ແມ່ນເບິ່ງເห็ນ.",
-  "dailyScripture9Ref": "Quran 57:4",
-  "dailyScripture10Text": "Allah ບໍ່ຮັກເຫມືອນວິນໍາທີ່ເກີນກວ່າສິ່ງທີ່ມັນສາມາດສົມທົບ.",
-  "dailyScripture10Ref": "Quran 2:286",
-  "dailyScripture11Text": "ແລະ ໃຜກໍ່ຕາມທີ່ອາໄສພຶ່ງອາດ Allah — ຫຼັງຈາກນັ້ນວາລະກໍ່ພຽງພໍສໍາລັບວາລະ.",
-  "dailyScripture11Ref": "Quran 65:3",
-  "dailyScripture12Text": "ເມດຕາກຣຸນາຂອງຂ້ອຍບົວທັງສິ່ງທີ່ມີ.",
-  "dailyScripture12Ref": "Quran 7:156",
-  "dailyScripture13Text": "ແລະ ເມື່ອບໍລິການຂອງຂ້ອຍຖາມທ່ານກ່ຽວກັບຂ້ອຍ — ແທ້ຈິງແລ້ວຂ້ອຍເກົ່າ. ຂ້ອຍກົງຕອບບໍລິການເມື່ອວາລະໂທສະຫຼັກກະຕໍ່ຂ້ອຍ.",
-  "dailyScripture13Ref": "Quran 2:186",
-  "dailyScripture14Text": "ໃຜກໍ່ຕາມທີ່ເຮັດຄວາມເມດຕາກຣຸນາ, ບໍ່ວ່າຊາຍ ຫຼື ຍິງ, ໃນຂະນະທີ່ເປັນຜູ້ສະໄດ້ — ພວກເຮົາຈະແນ່ນອນວ່າເຮັດໃຫ້ວາລະມີຊີວິດທີ່ດີ.",
-  "dailyScripture14Ref": "Quran 16:97",
-  "dailyScripture15Text": "ແທ້ຈິງແລ້ວ, Allah ຈະບໍ່ປ່ຽນເງື່ອນໄຂຂອງປະຊາຊົນຈົນກວ່າພວກເຂົາປ່ຽນສິ່ງທີ່ຢູ່ໃນຕົວເອງ.",
-  "dailyScripture15Ref": "Quran 13:11",
-  "dailyScripture16Text": "ດັ່ງນັ້ນບໍ່ລະ ແລະ ບໍ່ໂສກ, ແລະ ທ່ານຈະເຕີມກວ່າຖ້າທ່ານເປັນຜູ້ສະໄດ້ທີ່ແທ້ຈິງ.",
-  "dailyScripture16Ref": "Quran 3:139",
-  "dailyScripture17Text": "ໂອ ບໍລິການຂອງຂ້ອຍທີ່ໄດ້ລະເມີດກົນຕົວເອງ, ບໍ່ໝາຍຄວາມວ່າເມດຕາກຣຸນາຂອງ Allah. ແທ້ຈິງແລ້ວ, Allah ຮັກບາດກ້າວໃຫຍ່ທັງໝົດ.",
-  "dailyScripture17Ref": "Quran 39:53",
-  "dailyScripture18Text": "ແລະ ໃຜກໍ່ຕາມທີ່ຢ້ານກົວ Allah — ວາລະຈະເຮັດໃຫ້ວາລະເປັນວິທີອອກໄປ, ແລະ ຈະໃຫ້ວາລະຈາກບ່ອນທີ່ວາລະບໍ່ຄາດໝາຍ.",
-  "dailyScripture18Ref": "Quran 65:2-3",
-  "dailyScripture19Text": "ບໍ່ສູນເສຍຄວາມຫວັງໃນເມດຕາກຣຸນາຂອງ Allah.",
-  "dailyScripture19Ref": "Quran 12:87",
-  "dailyScripture20Text": "ແລະ ພວກເຮົາໄດ້ທົ່ວທຽວ Quran ງ່າຍກວ່າເພື່ອທົ່ວທຽວ. ດັ່ງນັ້ນມີບໍາຄົນໃດທີ່ມີຄວາມກະອື່ວ?",
-  "dailyScripture20Ref": "Quran 54:17",
-  "dailyScripture21Text": "ແລະ ວາລະພົບທ່ານສູນເສຍ ແລະ ນໍາທາງທ່ານ.",
-  "dailyScripture21Ref": "Quran 93:7",
-  "dailyScripture22Text": "ແລະ ພະຣະບົນຂອງທ່ານກ່າວວ່າ: ໄປຫາຂ້ອຍ; ຂ້ອຍຈະກົງຕອບທ່ານ.",
-  "dailyScripture22Ref": "Quran 40:60",
-  "dailyScripture23Text": "ແລະ ພວກເຮົາໄດ້ເດັກລັກສະນະລູກຂອງ Adam.",
-  "dailyScripture23Ref": "Quran 17:70",
-  "dailyScripture24Text": "ແລະ ຊອກຫາຄວາມຊ່ວຍເຫຼືອຜ່ານຄວາມອົດທົນ ແລະ ຄໍາອະທິຖານ.",
-  "dailyScripture24Ref": "Quran 2:45",
-  "dailyScripture25Text": "ໃຜກໍ່ຕາມທີ່ເຮັດບາ້ອະອາກາດຊະໜາດສາມາດເຫັນມັນ.",
-  "dailyScripture25Ref": "Quran 99:7",
-  "dailyScripture26Text": "ໂດຍບໍ່ມີສົງໂສ, ຄວາມຊ່ວຍເຫຼືອຂອງ Allah ແມ່ນໃກ້.",
-  "dailyScripture26Ref": "Quran 2:214",
-  "dailyScripture27Text": "ແລະ ໃຜກໍ່ຕາມທີ່ຂອບໃຈ — ກະຕັນຍູຂອງວາລະແມ່ນສໍາລັບຜົນປະໂຫຍດຂອງຕົວເອງ.",
-  "dailyScripture27Ref": "Quran 31:12",
-
-  "dailyReflection0": "ໃນຂະນະທີ່ມື້ປິດ, ພິจາລະນາຊ່ວງໜຶ່ງທີ່ເມດຕາກຣຸນາຂອງ Allah ແມ່ນຊັດເຈນ.",
-  "dailyReflection1": "ປະເມີນຕໍ່ Allah ສິ່ງທີ່ໃຈຫາກຈາກທ່ານໃນມື້ຕົ້ນ.",
-  "dailyReflection2": "ຕັ້ງຊື່ສະພາບໂຊກຊະໜາໜຶ່ງຈາກມື້ນີ້ ແລະ ສະດວກກະຕັນຍູຕໍ່ Allah.",
-  "dailyReflection3": "ພັກຜ່ອນໃນຄວາມເຂົ້າໃຈວ່າທ່ານຖືກຖືກຜົນໃນຄວາມຂົນໃຈບໍ່ສຸດສອງຂອງ Allah.",
-  "dailyReflection4": "ສະທ້ອນໃຈເກົ່ຽວກັບບ່ອນທີ່ທ່ານຮູ້ສຶກເຊື້ອເຊີນເພື່ອສະສະກະຕັນຍູ ແລະ ເມດຕາກຣຸນາໃນມື້.",
-  "dailyReflection5": "ປ່ອຍໃຫ້ສາຍຂອງສິ່ງທີ່ທ່ານບໍ່ສາມາດຄວບຄຸມ ແລະ ເຊື່ອ Trust ໃນແຜນການທີ່ສົມບູນຂອງ Allah.",
-  "dailyReflection6": "ໃນຂະນະທີ່ຕາເວັນອາ係, ຮັບກົວ່າສັນຕິພາບໃນຄໍາຈໍາໂລມຂອງ Allah.",
-  "dailyReflection7": "ພິຈາລະນາວິທີທີ່ທ່ານມີກຽດກວາການອະທິຖານຂອງທ່ານໃນມື້ ແລະ ຂອບໃຈ Allah ສໍາລັບແຕ່ລະ.",
-  "dailyReflection8": "ສະທ້ອນໃຈກ່ຽວກັບທີ່ມໍາວັນທີ່ຄວາມອົດທົນ (Sabr) ຊີວິດຂອງທ່ານໃນມື້.",
-  "dailyReflection9": "ຂໍອະໄພສໍາລັບບໍ່ມົ້ຂອງມື້ — ເມດຕາກຣຸນາຂອງ Allah ແມ່ນບໍ່ສຸດ.",
-  "dailyReflection10": "ຕັ້ງຊື່ຄົນໜຶ່ງທີ່ທ່ານສະສະກະຕັນຍູກະທຳໃນມື້ ແລະ ເຮັດ dua ສໍາລັບ.",
-  "dailyReflection11": "ນັ່ງກັບຄວາມກະຕັນຍູ: ມື້ນີ້ Allah ສະໜອງວ່າທ່ານບໍ່ຂໍ?",
-  "dailyReflection12": "ສະທ້ອນໃຈກ່ຽວກັບ verse ຈາກ Quran ທີ່ເວົ້າເຖິງບ່ອນທີ່ທ່ານຢູ່ຕອນນີ້.",
-  "dailyReflection13": "ພິຈາລະນາວິທີທີ່ທ່ານໃຊ້ເວລາຂອງທ່ານໃນມື້ — ແລະ ສະໜອງພາຍຸກັບ Allah.",
-  "dailyReflection14": "ພັກຜ່ອນໃນທີ່ວ່າຄວາມຍາກລໍາບາກໃດກໍ່ມາໃນມື້, Allah ແມ່ນກັບທ່ານໂດຍວິທີ.",
-  "dailyReflection15": "ຄິດກ່ຽວກັບວ່າທ່ານປະຕິບັດຕໍ່ຄອບຄົວ ຫຼື ຊຸມຊົນຂອງທ່ານໃນມື້ສໍາລັບສາກຂອງ Allah.",
-  "dailyReflection16": "ໃນຂະນະທີ່ຕາເວັນ, ເຮັດ Tawbah — Allah ຮັກຜູ້ທີ່ກັບໄປຫາວາລະ.",
-  "dailyReflection17": "ສະທ້ອນໃຈກ່ຽວກັບຄວາມສວຍງາມ Allah ໃສ່ໃນມື້ຂອງທ່ານ, ສະໄດ້ຫນ້ອຍ.",
-  "dailyReflection18": "ພິຈາລະນາສິ່ງທີ່ທ່ານຮຽນຮູ້ໃນມື້ ແລະ ວິທີທີ່ມັນດຶງທ່ານໃກ້ຊິດກັບ Allah.",
-  "dailyReflection19": "ໂອ້ຄວາມວົນກະລັກຂອງມື້ພັກຜ່ອນກັບ Allah — ວາລະບາຸກສິ່ງທີ່ທ່ານບໍ່ສາມາດ.",
-  "dailyReflection20": "ຄິດກ່ຽວກັບຊ່ວງທີ່ທ່ານຄວນໄດ້ເລືອກໃຫ້ດີກວ່າໃນມື້, ແລະ ຮຽນຮູ້ຈາກມັນອາໄຫວ້.",
-  "dailyReflection21": "ເຮັດ dua ສໍາລັບຜູ້ທີ່ຕໍ່ສູ້ — ກະລຸນາຂອງທ່ານເປັນຂອງຂຶ້ນໃຫ້ກັບເຂົາ.",
-  "dailyReflection22": "ຍົກຄືນສະພາບໂຊກຊະໜາທີ່ທ່ານມັກມື່ຍາກລໍາບາກ ແລະ ໃຊ້ເວລາທີ່ຈະ praise Allah ສໍາລັບ.",
-  "dailyReflection23": "ສະທ້ອນໃຈກ່ຽວກັບຄວາມຕັ້ງໃຈຂອງທ່ານໃນມື້ — ມີ Allah ບໍ? ສະຕະຮູມວັນພາຍຸ.",
-  "dailyReflection24": "ໃນຂະນະທີ່ຕາເວັນອາສ່างສົບ, ຟັງ Allah ເກົ່າໃກ້ສຸດໃນຄວາມງຽບສະຫຼາດ.",
-  "dailyReflection25": "ກົ່າວ່າຊ່ວງໃນມື້ທີ່ທ່ານໄດ້ຕາເວັນກໍາລັງ — ກໍາລັງແມ່ນຈາກ Allah.",
-  "dailyReflection26": "ຕັ້ງຊື່ສິ່ງໜຶ່ງທີ່ທ່ານຈະເຮັດໃນມື້ເດືອນ, ສໍາລັບ Allah ຂອງ, ທີ່ທ່ານບໍ່ໄດ້ເຮັດໃນມື້.",
-  "dailyReflection27": "ໃນຂະນະທີ່ທ່ານກະກຽມຕົວເພື່ອພັກຜ່ອນ, ມອບຈິດໃຈຂອງທ່ານ Allah — ວາລະແມ່ນທີ່ດີທີ່ສຸດຂອງເຖົ້າ.",
-
-  "dailyRoleModel0": "Prophet Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Prophet Ibrahim (AS)",
-  "dailyRoleModel44": "Prophet Musa (AS)",
-  "dailyRoleModel45": "Prophet Isa (AS)",
-  "dailyRoleModel46": "Prophet Yusuf (AS)",
-  "dailyRoleModel47": "Prophet Dawud (AS)",
-  "dailyRoleModel48": "Prophet Sulayman (AS)",
-  "dailyRoleModel49": "Prophet Nuh (AS)",
-  "dailyRoleModel50": "Prophet Yunus (AS)",
-  "dailyRoleModel51": "Prophet Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "ອະນຸຍາດ Ayara ໃຫ້ໃຊ້ສະຖານທີ່ຂອງຂ້ອຍສໍາລັບ Qibla ແລະ ການກຳນົດເວລາອະທິຖານ",
-  "locationConsentHint": "ໃຊ້ສໍາລັບລັກສະນະເທົ່ານີ້. ສະຖານທີ່ຂອງທ່ານບໍ່ມີການແບ່ງປັນ ຫຼື ບັນທຶກ.",
-
+  "accountDeleteReauthCancelled": "ການຢືນຢັນຕົນຕົນໃໝ່ຖືກຍົກເລີກ. ກະລຸນາເຂົ້າລະບົບອີກຄັ້ງແລ້ວລອງລົບໃໝ່.",
+  "accountDeleteReauthRequired": "ການລົບບັນຊີຕ້ອງການການເຂົ້າລະບົບຫຼ້າສຸດ. ກະລຸນາອອກຈາກລະບົບ, ເຂົ້າລະບົບໃໝ່ ແລະ ລອງອີກຄັ້ງ.",
+  "settingsDeletePermanentWarning": "ການກະທໍານີ້ເປັນການຖາວອນ ແລະ ບໍ່ສາມາດຖອນຄືນໄດ້. ຂໍ້ມູນທັງໝົດທີ່ກ່ຽວຂ້ອງກັບບັນຊີຂອງທ່ານຈະຖືກລົບ.",
+  "dailyGraceTitle": "ແນະນໍາປະຈໍາວັນ",
+  "dailyGraceScriptureLabel": "ອາຍະຮ໌ປະຈໍາວັນ",
+  "dailyGraceSaintLabel": "ນັກວິຊາການປະຈໍາອາທິດ",
+  "dailyGraceReflectionLabel": "ການໄຕ່ຕອງຕອນແລງ",
+  "dailyGraceCopiedToast": "ຄັດລອກອາຍະຮ໌ໄປຍັງຄລິບບອດແລ້ວ",
+  "locationConsentLabel": "ອະນຸຍາດໃຫ້ Ayara ໃຊ້ຕໍາແໜ່ງຂອງຂ້ອຍສໍາລັບທິດ Qibla ແລະ ເວລາລະໝາດ",
+  "locationConsentHint": "ໃຊ້ສໍາລັບຄຸນສົມບັດເຫຼົ່ານີ້ເທົ່ານັ້ນ. ຕໍາແໜ່ງຂອງທ່ານຈະບໍ່ຖືກແບ່ງປັນຫຼືຈັດເກັບ.",
   "askPageTitle": "ຖາມ Ayara",
-  "askPageDescription": "ຖາມທຸກຢ່າງກ່ຽວກັບຄວາມເຊື່ອ, ການອະທິຖານ, ຊີວິດ, ຫຼື ປະຕິບັติ Islamic ແລະ ຮັບຄໍາແນະນໍາທີ່ຮາກຖານຈາກ Quran ແລະ Sunnah.",
-  "askPageInputHint": "ພິມຄໍາຖາມຂອງທ່ານບ້ານີ້…",
+  "askPageDescription": "ຖາມຫຍັງກໍໄດ້ກ່ຽວກັບສັດທາ, ການລະໝາດ, ຊີວິດ, ຫຼື ການປະຕິບັດທາງອິສລາມ ແລະ ຮັບແນະນໍາທີ່ອີງໃສ່ Qur'an ແລະ ຄໍາສອນຂອງ Ahl al-Bayt.",
+  "askPageInputHint": "ພິມຄໍາຖາມຂອງທ່ານທີ່ນີ້…",
   "askPageSubmitCta": "ຖາມ",
   "askPageInputEmptyError": "ກະລຸນາຂຽນຄໍາຖາມກ່ອນ.",
   "askResultYourQuestion": "ຄໍາຖາມຂອງທ່ານ",
-
-  "guidancePageTitle": "ການອະທິຖານ & ຄໍາແນະນໍາ",
-  "qiblaFacingMecca": "ຕໍ່ໜ້າຕໍ່ໂກ",
-  "qiblaCompassInstruction": "ໝຸນ ສະມາດໂຟນຂອງທ່ານຈົນກວ່າເຂັມທອງກາຍຊີ້ຂຶ້ນ.\nທິດທາງນັ້ນຊີ້ໄປສູ່ Qibla (Makkah).",
-  "qiblaGpsUnavailableBody": "ສັນຍາ GPS ອ່ອນແອ. ຍ້າຍໄປນອກຕົວເມືອງ ແລະ ແຕະ Retry.",
-  "qiblaRetry": "ລອງຄືນໃໝ່",
-  "qiblaTitle": "ທິດ Qibla",
-  "qiblaDistanceLabel": "{km} km ໄປ Makkah",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "ຫັນໄປຫາ Makkah",
+  "qiblaCompassInstruction": "ໝຸນໂທລະສັບຂອງທ່ານຈົນກວ່າເຂັມສີຄໍາຈະຊີ້ຂຶ້ນເທິງ.\nທິດນັ້ນຄື Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "ສັນຍານ GPS ອ່ອນ. ອອກໄປຂ້າງນອກ ແລະ ແຕະ ລອງອີກຄັ້ງ.",
+  "qiblaRetry": "ລອງອີກຄັ້ງ",
+  "qiblaTitle": "ທິດທາງ Qibla",
+  "qiblaDistanceLabel": "{km} km ຫາ Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "ສະຖານທີ່ທີ່ຕ້ອງການ",
-  "qiblaLocationNeededBody": "ອະນຸຍາດເສັນທາງສະຖານທີ່ເພື່ອໃຫ້ Ayara ຄຳນວນທິດ Kaaba ໃນ Makkah ຈາກບ່ອນທີ່ທ່ານມີ.",
+  "qiblaLocationNeededTitle": "ຕ້ອງການຕໍາແໜ່ງ",
+  "qiblaLocationNeededBody": "ອະນຸຍາດເຂົ້າເຖິງຕໍາແໜ່ງເພື່ອໃຫ້ Ayara ຄໍານວນທິດທາງໄປຫາ Kaaba ໃນ Makkah ຈາກບ່ອນທີ່ທ່ານຢູ່.",
   "qiblaOpenSettings": "ເປີດການຕັ້ງຄ່າ",
-  "qiblaCompassLoading": "ຊອກຫາຕໍາແໜ່ງຂອງທ່ານ…",
-  "qiblaTowardMecca": "ສຸ່ມ Makkah",
-
-  "prayerTimesTitle": "ເວລາອະທິຖານ",
+  "qiblaCompassLoading": "ກໍາລັງຊອກຫາຕໍາແໜ່ງຂອງທ່ານ…",
+  "qiblaTowardMecca": "ໄປທາງ Makkah",
+  "prayerTimesTitle": "ເວລາລະໝາດ",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
-  "prayerTimesLocationNeededTitle": "ສະຖານທີ່ທີ່ຕ້ອງການ",
-  "prayerTimesLocationNeededBody": "ອະນຸຍາດເສັນທາງສະຖານທີ່ເພື່ອໃຫ້ Ayara ຄຳນວນເວລາອະທິຖານທີ່ຖືກຕ້ອງສໍາລັບເມືອງຂອງທ່ານ.",
+  "prayerTimesLocationNeededTitle": "ຕ້ອງການຕໍາແໜ່ງ",
+  "prayerTimesLocationNeededBody": "ອະນຸຍາດເຂົ້າເຖິງຕໍາແໜ່ງເພື່ອໃຫ້ Ayara ຄໍານວນເວລາລະໝາດທີ່ແມ່ນຍໍາສໍາລັບເມືອງຂອງທ່ານ.",
   "prayerTimesNextLabel": "ຕໍ່ໄປ",
   "prayerTimesDoneLabel": "ສໍາເລັດ",
-
-  "monthlyPrayerTimesTitle": "ເວລາອະທິຖານປະຈໍາເດືອນ",
+  "monthlyPrayerTimesTitle": "ເວລາລະໝາດລາຍເດືອນ",
   "monthlyPrayerTimesViewButton": "ເບິ່ງທັງເດືອນ",
-  "monthlyPrayerTimesNextMonth": "ເດືອນຕໍ່ໄປ",
-  "monthlyPrayerTimesDayHeader": "ມື້",
-
-  "sharePrayerTimes": "ແບ່ງປັນເວລາອະທິຖານ",
-
-  "prayerNotificationsTitle": "ໂຕ້ແຍ້ງກ່ຽວກັບການອະທິຖານ",
-  "prayerNotificationsDescription": "ໄດ້ຮັບການຕື່ນສະຫວາດກ່ອນກາລະເວລາອະທິຖານແຕ່ລະເພື່ອຊ່ວຍໃຫ້ທ່ານຢູ່ທີ່ເຊື່ອມຕໍ່ຕະຫຼອດມື້.",
-  "prayerNotificationsEnable": "ເປີດໃຊ້ໂຕ້ແຍ້ງກ່ຽວກັບການອະທິຖານ",
-  "prayerNotificationsOpenSettings": "ເປີດການຕັ້ງຄ່າແຈ້ງເຕືອນ",
-  "prayerNotificationsDenied": "ແຈ້ງເຕືອນແມ່ນບໍ່ໄດ້ຮັບອະນຸຍາດ",
-  "prayerNotificationsDeniedHint": "ໄປທີ່ການຕັ້ງຄ່າ ແລະ ອະນຸຍາດແຈ້ງເຕືອນສໍາລັບ Ayara ເພື່ອໄດ້ຮັບໂຕ້ແຍ້ງກ່ຽວກັບເວລາອະທິຖານ.",
-
-  "notificationsConsentLabel": "ອະນຸຍາດແຈ້ງເຕືອນສໍາລັບເວລາອະທິຖານ",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — ການອະທິຖານລາວ",
-  "prayerNotifBodyFajr": "ທີ່ສຸດທີ່ດີຂອງການອະທິຖານແມ່ນອະທິຖານລາວ. ຍົກລຸກ, ບໍລິສຸດຕົວເອງ, ແລະ ຢືນກ່ອນ Allah.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — ກາງວັນ ຄໍາອະທິຖານ",
-  "prayerNotifBodyDhuhr": "ຢຸດບໍລິການທີ່ຕັ້ງໃຈກັບ Allah. ເວລາ Dhuhr ໄດ້ມາ.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — ໂຕ້ແຍ້ງກ່ຽວກັບວົງສະໂຫມະລາກຽວ",
-  "prayerNotifBodyAsr": "ຍາມກາງວັນຄໍາອະທິຖານ. ເວລາ Asr ໄດ້ມາ — ບໍ່ໃຫ້ມັນສົ່ງຜ່ານ.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — ຕາເວັນຕົກອົງຄໍາອະທິຖານ",
-  "prayerNotifBodyMaghrib": "ຕາເວັນໄດ້ຕົກ. ສະໜອງ Maghrib ແລະ ຂອບໃຈ Allah ສໍາລັບມື້ນີ້.",
-
-  "prayerNotifTitleIsha": "🌙 Isha — ຕາເວັນ ຄໍາອະທິຖານ",
-  "prayerNotifBodyIsha": "ສິ້ນສຸດມື້ຂອງທ່ານດ້ວຍຄໍາຈໍາໂລມ Allah. Hayya 'alal falah — ມາສຳເລັດ.",
-
-  "outOfReflectionsBannerText": "ທ່ານໄດ້ໃຊ້ການສະທ້ອນໃຈທັງໝົດ",
-  "outOfReflectionsBannerCta": "ໄດ້ຮັບເພີ່ມເຕີມ",
-
+  "monthlyPrayerTimesNextMonth": "ເດືອນໜ້າ",
+  "monthlyPrayerTimesDayHeader": "ວັນ",
+  "sharePrayerTimes": "ແບ່ງປັນເວລາລະໝາດ",
+  "notificationsSectionTitle": "ການແຈ້ງເຕືອນ",
+  "notificationsSectionSubtitle": "ເຕືອນການລະໝາດ, ເຫດການໃນປະຕິທິນ ແລະ ອື່ນໆ",
+  "dailyReflectionReminderTitle": "ການໄຕ່ຕອງປະຈໍາວັນ",
+  "dailyReflectionReminderDescription": "ການເຕືອນທີ່ອ່ອນໂຍນໃນແຕ່ລະວັນເພື່ອເປີດ Ayara ແລະ ເຊື່ອມຕໍ່ກັບສັດທາຂອງທ່ານ.",
+  "dailyReflectionReminderEnable": "ເປີດໃຊ້ການເຕືອນປະຈໍາວັນ",
+  "dailyReflectionReminderTimeLabel": "ເວລາເຕືອນ",
+  "prayerNotificationsTitle": "ເຕືອນການລະໝາດ",
+  "prayerNotificationsDescription": "ຮັບການເຕືອນຢ່າງອ່ອນໂຍນກ່ອນເວລາລະໝາດແຕ່ລະຄັ້ງ ເພື່ອຊ່ວຍໃຫ້ທ່ານຄົງຄວາມເຊື່ອມໂຍງຕະຫຼອດມື້.",
+  "prayerNotificationsEnable": "ເປີດໃຊ້ການເຕືອນການລະໝາດ",
+  "prayerNotificationsOpenSettings": "ເປີດການຕັ້ງຄ່າການແຈ້ງເຕືອນ",
+  "prayerNotificationsDenied": "ການແຈ້ງເຕືອນຖືກປິດ",
+  "prayerNotificationsDeniedHint": "ໄປທີ່ການຕັ້ງຄ່າ ແລະ ອະນຸຍາດການແຈ້ງເຕືອນສໍາລັບ Ayara ເພື່ອຮັບການເຕືອນເວລາລະໝາດ.",
+  "notificationsConsentLabel": "ອະນຸຍາດການແຈ້ງເຕືອນສໍາລັບເວລາລະໝາດ",
+  "prayerNotifTitleFajr": "🌅 Fajr — ການລະໝາດຕອນເຊົ້າ",
+  "prayerNotifBodyFajr": "Fajr ແມ່ນການລະໝາດຂອງຕອນເຊົ້າຕາມວິຖີຂອງ Ahl al-Bayt. Imam Ali (AS) ໄດ້ກ່າວວ່າ: ຈົ່ງຮັກສາການລະໝາດຕອນເຊົ້າເໝືອນກັບທີ່ທ່ານຮັກສາສິ່ງທີ່ມີຄ່າທີ່ສຸດຂອງທ່ານ. ຕື່ນຂຶ້ນ, ຊໍາລະຕົນເອງ ແລະ ຢືນຕໍ່ໜ້າອັລລາຫ໌.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — ການລະໝາດຕອນທ່ຽງ",
+  "prayerNotifBodyDhuhr": "ອິມາມຂອງ Ahl al-Bayt ໃຫ້ຄຸນຄ່າກັບທຸກຊ່ວງເວລາຂອງການລະນຶກເຖິງອັລລາຫ໌. ຢຸດພັກຈາກວັນຂອງທ່ານສັກຄູ່, ລວມ Dhuhr ກັບ Asr ຖ້າຈໍາເປັນ, ແລະ ຫັນຫົວໃຈກັບໄປຫາອັລລາຫ໌.",
+  "prayerNotifTitleAsr": "🌤️ Asr — ການລະໝາດຕອນບ່າຍ",
+  "prayerNotifBodyAsr": "ຈົ່ງຮັກສາການລະໝາດ ເພາະມັນເປັນຂໍ້ຕົກລົງລະຫວ່າງທ່ານກັບອັລລາຫ໌. ເວລາ Asr ມາຮອດແລ້ວ — ຢ່າປ່ອຍໃຫ້ມັນຜ່ານໄປໂດຍບໍ່ມີການລະນຶກ.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — ການລະໝາດຍາມຕາເວັນຕົກ",
+  "prayerNotifBodyMaghrib": "ຕາເວັນຕົກແລ້ວ — ຊ່ວງເວລາທີ່ Ahl al-Bayt ຖືວ່າສັກສິດສໍາລັບການດູອາ. ຈົ່ງປະຕິບັດ Maghrib ແລະ ຍົກມືຂອງທ່ານຂຶ້ນຫາອັລລາຫ໌ດ້ວຍການຂໍພອນກ່ອນທີ່ກາງຄືນຈະເລີ່ມຕົ້ນ.",
+  "prayerNotifTitleIsha": "🌙 Isha — ການລະໝາດຕອນຄ່ໍາ",
+  "prayerNotifBodyIsha": "ຈົ່ງຈົບວັນຂອງທ່ານພ້ອມກັບອັລລາຫ໌. ອິມາມໄດ້ສົ່ງເສີມ Salat al-Layl ຫຼັງຈາກ Isha — ແຕ່ກ່ອນອື່ນ ໃຫ້ສໍາເລັດ Isha ຂອງທ່ານ ແລະ ປິດວັນດ້ວຍການລະນຶກເຖິງພຣະອົງ.",
+  "outOfReflectionsBannerText": "ທ່ານໄດ້ໃຊ້ການໄຕ່ຕອງທັງໝົດແລ້ວ",
+  "outOfReflectionsBannerCta": "ຮັບເພີ່ມ",
   "dhikrPageTitle": "Dhikr",
-  "dhikrTapToCount": "ແຕະວົງກົມເພື່ອນັບ",
+  "dhikrTapToCount": "ແຕະວົງມົນເພື່ອນັບ",
   "dhikrResetButton": "ຣີເຊັດ",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "ທ່ານໄດ້ສໍາເລັດ 99 ຄໍາຈໍາໂລມຂອງ Allah. ອາດຈະເປັນໂປໄລ່ສໍາລັບຫົວໃຈຂອງທ່ານ.",
-
-  "disclaimerTitle": "ກ່ຽວກັບຄໍາແນະນໍາຂອງແອບນີ້",
-  "disclaimerBody": "Ayara ສະໜອງການສະທ້ອນໃຈ Islamic, ໂຕ້ແຍ້ງ, ແລະ ເນື້ອໃຈ ທາງວິນ໌ຍາກຟຸ້ງເພື່ອສະຫນັບສະຫນູນປະເທດຍາວຂອງທ່ານ. ເນື້ອໄດ້ສະໜອງສໍາລັບໍລະການຊົ່ວໂມງ ແລະ ໍລະການ.\n\nAyara ບໍ່ສະແທນວ່າວຸດທິສາກ.\nຄໍາແນະນໍາໃນແອບນີ້ບໍ່ໃຊ່ທໍາໃດໆສໍາລັບ Islamic ຄົນສຶກສາ, imam, mufti, ຫຼື ລະດັບທາງ. ຖ້າທ່ານມີຄໍາຖາມກ່ຽວກັບສາກສະລາວະ, ວິຫາກ ແລະ haram, ຫຼື ປະມາມກະຕິສກັກກະ, ກະລຸນາຊອກຫາຄໍາແນະນໍາຈາກຜູ້ວ່າຍາວກົດໃນຊຸມຊົນຂອງທ່ານ.\n\nແອບນີ້ບໍ່ໃຫ້ການກໍາ hukm.\nAyara ບໍ່ເຮັດໃຫ້ຫົວໃຈຜູ້ວາຍາວກົດກ່ຽວກັບປະມາມ fiqh ຫຼື ປະມາມ Islamic ສະກັກກະ. ບໍ່ມີສິ່ງໃດທີ່ຕ້ອງຕີຄວາມວ່າເປັນ fatwa ຫຼື ສັ່ງສອນ Islamic ທີ່ຜູກພັນ.\n\nລະດັບວຸດທິວຽວວ່າວ.\nIslam ປະກອບມີຄວາມສົມບູນກ່ໍາ, ໂຣະກະສາກະ, ແລະ ໂຮງຮຽນຂອງຄໍາປຳກັຈ (madhabs) ຫລື ຄວາມເຫັນວາຍາວກົດ. ເນື້ອໃຈໃນແອບນີ້ສະທ້ອນໃຈໍລະການທົ່ວໄປ ແລະ ບໍ່ສາມາດຕັກໍາໍາສະດຸກລະດັບ ຫຼື ໂຮງຮຽນເທົ່າທຽມ.\n\nຊຸມຊົນທີ່ຮັກຟັງຣັກ.\nແອບນີ້ຕຳໃຈທີ່ຈະກະຕຸ້ນການເຂົ້າຮ່ວມຂອງທ່ານກັບປະເພນີວິນ໌ຍາກໃນຂະນະທີ່ກົດກຽວກັບບົດບາດທີ່ສຳຄັນຂອງ mosque ທ້ອງຖິ່ນ, imam, ແລະ ຊຸມຊົນວິນ໌ຍາກຂອງທ່ານ. ພວກເຮົາຍົກລຸກໃຫ້ທ່ານຢູ່ເຊື່ອມຕໍ່ ແລະ ຮຽນຮູ້ຈາກຄົນສຶກສາທີ່ວ່າຍາວກົດຢູ່ບ້ານທ່ານ.",
-  "disclaimerClose": "ຂ້າພະເຈົ້າເຂົ້າໃຈ",
-  "disclaimerInfoTooltip": "ກ່ຽວກັບຄໍາແນະນໍາຂອງແອບນີ້",
-  "disclaimerSettingsSubtitle": "ສໍາລັບໍລະການຊົ່ວໂມງທົ່ວໄປຕົ້ນສະບັບ. ແຕະເພື່ອອ່ານ disclaimer ທັງໝົດ.",
-  "disclaimerSectionHeader": "ຄໍາແນະນໍາ disclaimer"
+  "dhikrCompleteMessage": "ທ່ານໄດ້ສໍາເລັດການລະນຶກເຖິງອັລລາຫ໌ 100 ຄັ້ງແລ້ວ. ຂໍໃຫ້ສິ່ງນີ້ເປັນແສງສະຫວ່າງໃຫ້ແກ່ຫົວໃຈຂອງທ່ານ.",
+  "disclaimerTitle": "ກ່ຽວກັບແນະນໍາໃນແອັບນີ້",
+  "disclaimerBody": "Ayara ມອບການໄຕ່ຕອງທາງອິສລາມ, ການເຕືອນ, ແລະ ເນື້ອຫາທາງຈິດວິນຍານ ເພື່ອສະໜັບສະໜູນການເດີນທາງທາງສັດທາຂອງທ່ານ ໂດຍຢຶດໂຍງກັບ Qur'an ແລະ ຄໍາສອນຂອງ Ahl al-Bayt. ເນື້ອຫານີ້ຖືກສະເໜີເພື່ອຈຸດປະສົງທົ່ວໄປດ້ານຂໍ້ມູນ ແລະ ການດົນໃຈເທົ່ານັ້ນ.\n\nAyara ບໍ່ແທນທີ່ນັກວິຊາການທີ່ມີຄຸນວຸດທິ.\nແນະນໍາໃນແອັບນີ້ບໍ່ແມ່ນສິ່ງທີ່ຈະທົດແທນນັກວິຊາການອິສລາມ, marja', ຫຼື ຄູສອນທາງເທວະວິທະຍາທີ່ຜ່ານການຝຶກອົບຮົມ. ໃນອິສລາມນິກາຍຊີອະ, ການແນະນໍາທາງສາສະໜາມີຮາກຖານຢູ່ໃນໂຮງຮຽນນິຕິສາດ Ja'fari (fiqh) ແລະ ປະເພນີການຕິດຕາມ Marja' ທີ່ຍັງມີຊີວິດຢູ່ (ແຫຼ່ງການລອກຕາມ) — ນັກນິຕິສາດທີ່ມີຄຸນວຸດທິ ຜູ້ທີ່ຄໍາຕັດສິນຊ່ວຍນໍາພາຜູ້ສັດທາໃນການປະຕິບັດທາງສາສະໜາ. ຖ້າທ່ານມີຄໍາຖາມກ່ຽວກັບຄໍາຕັດສິນທາງສາສະໜາ, halal ແລະ haram, ຫຼື ພັນທະທາງສາສະໜາສ່ວນບຸກຄົນ, ກະລຸນາຂໍຄໍາແນະນໍາຈາກ Marja' ທີ່ມີຄຸນວຸດທິ ຫຼື ນັກວິຊາການໃນຊຸມຊົນຂອງທ່ານ.\n\nແອັບນີ້ບໍ່ອອກຄໍາຕັດສິນທາງສາສະໜາ.\nAyara ບໍ່ຕັດສິນຢ່າງມີອໍານາດໃນເລື່ອງ fiqh ຫຼື ພັນທະທາງສາສະໜາສ່ວນບຸກຄົນ. ບໍ່ຄວນມອງສິ່ງໃດໆທີ່ຢູ່ນີ້ເປັນ fatwa ຫຼື ຄໍາແນະນໍາທາງສາສະໜາທີ່ຜູກມັດ.\n\nຄວາມສໍາຄັນກາງຂອງ Ahl al-Bayt.\nໃນອິສລາມນິກາຍຊີອະ, ທ່ານນະບີ Muhammad ﷺ ແລະ ຄອບຄົວຜູ້ບໍລິສຸດຂອງພຣະອົງ — Ahl al-Bayt — ແມ່ນຜູ້ນໍາທີ່ມີອໍານາດຂອງຊຸມຊົນອິສລາມພາຍຫຼັງ Qur'an. ອິມາມທັງສິບສອງແຫ່ງ Ahl al-Bayt ແມ່ນຜູ້ຕີຄວາມຄໍາສອນຂອງອິສລາມທີ່ຖືກແຕ່ງຕັ້ງໂດຍພຣະເຈົ້າ. ເນື້ອຫາໃນແອັບນີ້ສະທ້ອນປະເພນີນັ້ນ ແລະ ພະຍາຍາມເຄົາລົບມັນຢ່າງຊື່ສັດ.\n\nບົດບາດຂອງຊຸມຊົນ.\nແອັບນີ້ມີເປົ້າໝາຍສົ່ງເສີມການມີສ່ວນຮ່ວມຂອງທ່ານກັບສັດທາ ໃນຂະນະທີ່ໃຫ້ຄວາມເຄົາລົບຢ່າງເລິກເຊິ່ງຕໍ່ບົດບາດທີ່ສໍາຄັນຂອງມັດສະຍິດທ້ອງຖິ່ນ, ສູນອິສລາມ ແລະ ຊຸມຊົນສາສະໜາຂອງທ່ານ. ພວກເຮົາສົ່ງເສີມໃຫ້ທ່ານຮັກສາຄວາມເຊື່ອມໂຍງ ແລະ ຮຽນຮູ້ຈາກຄູຜູ້ສອນທີ່ມີຄຸນວຸດທິຢູ່ໃກ້ທ່ານ.",
+  "disclaimerClose": "ຂ້ອຍເຂົ້າໃຈແລ້ວ",
+  "disclaimerInfoTooltip": "ກ່ຽວກັບແນະນໍາໃນແອັບນີ້",
+  "disclaimerSettingsSubtitle": "ສໍາລັບຈຸດປະສົງດ້ານຂໍ້ມູນທົ່ວໄປເທົ່ານັ້ນ. ແຕະເພື່ອອ່ານຄໍາຊີ້ແຈງເຕັມ.",
+  "disclaimerSectionHeader": "ຄໍາຊີ້ແຈງກ່ຽວກັບແນະນໍາ",
+  "navHome": "ໜ້າຫຼັກ",
+  "navReflect": "ໄຕ່ຕອງ",
+  "navDuas": "Dua",
+  "navCalendar": "ປະຕິທິນ",
+  "dashboardToday": "ມື້ນີ້",
+  "dashboardComingUp": "ກໍາລັງຈະມາເຖິງ",
+  "dashboardDaysUnit": "{count, plural, one {ມື້} other {ມື້}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "ເຂົ້າເຖິງໄດ້ໄວ",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "ແນະນໍາ",
+  "quickActionPrayerTimes": "ເວລາລະໝາດ",
+  "askAyaraTitle": "ຖາມ Ayara",
+  "askAyaraSubtitle": "ຖາມຄໍາຖາມທາງອິສລາມອັນໃດກໍໄດ້ ແລະ ຮັບຄໍາຕອບທີ່ເຕັມໄປດ້ວຍການໄຕ່ຕອງ ແລະ ການຊີ້ນໍາ.",
+  "askAyaraHint": "ຕົວຢ່າງ: ຄວາມສໍາຄັນຂອງ Ramadan ແມ່ນຫຍັງ?",
+  "askAyaraSubmit": "ຖາມ",
+  "wisdomOfTheDayTitle": "ປັນຍາປະຈໍາວັນ",
+  "calendarScreenTitle": "ປະຕິທິນອິສລາມ",
+  "calendarUpcomingOccasions": "ໂອກາດທີ່ກໍາລັງຈະມາ",
+  "calendarOccasionRemindersTitle": "ການເຕືອນໂອກາດພິເສດ",
+  "calendarOccasionRemindersHint": "ແຈ້ງເຕືອນໃນຕອນແລງກ່ອນແຕ່ລະໂອກາດ",
+  "calendarNotifPermissionDenied": "ບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ແຈ້ງເຕືອນ. ເປີດໃຊ້ມັນໃນການຕັ້ງຄ່າຂອງອຸປະກອນ.",
+  "calendarNoEvents": "ບໍ່ພົບເຫດການທີ່ກໍາລັງຈະມາເຖິງ.",
+  "calendarAddToPhone": "ເພີ່ມເຂົ້າໃນປະຕິທິນໂທລະສັບ",
+  "calendarAddedToPhone": "ເພີ່ມເຂົ້າໃນປະຕິທິນ",
+  "calendarCountdownToday": "ມື້ນີ້",
+  "calendarCountdownTomorrow": "ມື້ອື່ນ",
+  "calendarCountdownDays": "ໃນອີກ {days} ມື້",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "ມ.ກ.",
+  "calendarMonthFeb": "ກ.ພ.",
+  "calendarMonthMar": "ມີ.ນ.",
+  "calendarMonthApr": "ເມ.ສ.",
+  "calendarMonthMay": "ພ.ພ.",
+  "calendarMonthJun": "ມິ.ຖ.",
+  "calendarMonthJul": "ກ.ລ.",
+  "calendarMonthAug": "ສ.ຫ.",
+  "calendarMonthSep": "ກ.ຍ.",
+  "calendarMonthOct": "ຕ.ລ.",
+  "calendarMonthNov": "ພ.ຈ.",
+  "calendarMonthDec": "ທ.ວ.",
+  "calendarSeasonMuharramEarly": "ວັນຕົ້ນຂອງ Muharram — ຈົ່ງລະນຶກເຖິງ Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — ວັນແຫ່ງຄວາມໂສກເສົ້າ ແລະ ການໄຕ່ຕອງ",
+  "calendarSeasonArbaeen": "Arbaeen — 40 ມື້ຂອງ Husayn",
+  "calendarSeasonRoadToArbaeen": "ເສັ້ນທາງສູ່ Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — ອະລຸນແຫ່ງການປະທານວະຫີ",
+  "calendarSeasonMidShaban": "ກາງ Sha'ban — ວັນເກີດຂອງ Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — ເດືອນແຫ່ງ Qur'an",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Dua ແລະ Ziyarat",
+  "duasSearchHint": "ຄົ້ນຫາ dua, ziyarat…",
+  "duasFilterAll": "ທັງໝົດ",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} dua ແລະ ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "ບໍ່ພົບ dua ໃດໆ.",
+  "duaCategoryDaily": "ປະຈໍາວັນ",
+  "duaCategoryWeekly": "ປະຈໍາອາທິດ",
+  "duaCategoryOccasions": "ໂອກາດພິເສດ",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "ການເກີດ",
+  "eventTypeMartyrdom": "ການເປັນຊະຮີດ",
+  "eventTypeOccasion": "ໂອກາດ",
+  "duaCopyTooltip": "ຄັດລອກຄໍາແປ",
+  "duaToggleTransliteration": "ການຖອດສຽງ",
+  "duaToggleTranslation": "ຄໍາແປ",
+  "duaAskAiLabel": "ຂໍໃຫ້ Ayara ອະທິບາຍ dua ນີ້",
+  "duaAskAiLockedLabel": "ຖາມ Ayara (Wilaya)",
+  "duaAiLockedMessage": "ຄໍາອະທິບາຍຈາກ Ayara ມີໃຫ້ສໍາລັບສະມາຊິກ Wilaya. ອັບເກຣດໃນການຕັ້ງຄ່າ.",
+  "duaAiComingSoon": "ຖາມ Ayara ກ່ຽວກັບ \"{name}\" — ກໍາລັງຈະມາເຖິງ!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "ຄັດລອກ dua ໄປຍັງຄລິບບອດແລ້ວ.",
+  "tasbihAllahuAkbarMeaning": "ອັລລາຫ໌ຍິ່ງໃຫຍ່ທີ່ສຸດ",
+  "tasbihAlhamdulillahMeaning": "ການສັນລະເສີນທັງໝົດເປັນຂອງອັລລາຫ໌",
+  "tasbihSubhanallahMeaning": "ສະຫຼະເກຍດແດ່ອັລລາຫ໌",
+  "tasbihResetTooltip": "ຣີເຊັດ",
+  "tasbihCompleteTitle": "Tasbih ສໍາເລັດແລ້ວ",
+  "tasbihCompleteMessage": "ຂໍໃຫ້ອັລລາຫ໌ຮັບ dhikr ຂອງທ່ານ.",
+  "tasbihTapHint": "ແຕະບ່ອນໃດກໍໄດ້ເພື່ອນັບ",
+  "tasbihatScreenTitle": "ຄູ່ມືການລະໝາດ",
+  "tasbihatScreenSubtitle": "ຄໍາສັນລະເສີນໃນການລະໝາດ",
+  "tasbihatScreenDescription": "ຄູ່ມືສົມບູນກ່ຽວກັບຄໍາສັນລະເສີນທີ່ຖືກອ່ານໃນລະຫວ່າງ ແລະ ຫຼັງການລະໝາດປະຈໍາວັນ — ຕາມຂົນທຳນຽມຂອງ Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "ອ່ານໃນ rakʿah ທີ 3 ແລະ 4",
+  "tasbihatArba3Info": "ໃນນິຕິສາດ Shia, Tasbiḥāt al-Arbaʿa ໃຊ້ແທນ Surah al-Fatiha ໃນ rakʿah ທີ 3 ແລະ 4 ຂອງ Dhuhr, Asr, Maghrib, ແລະ Isha. ການອ່ານ 1 ຄັ້ງແມ່ນຂໍ້ບັງຄັບ (wājib), ແລະ ການອ່ານ 3 ຄັ້ງແມ່ນແນະນໍາ (mustaḥabb).",
+  "tasbihatArba3Translation": "ສະຫຼະເກຍດແດ່ອັລລາຫ໌ · ການສັນລະເສີນທັງໝົດເປັນຂອງອັລລາຫ໌\nບໍ່ມີພຣະເຈົ້າອື່ນໃດນອກຈາກອັລລາຫ໌ · ອັລລາຫ໌ຍິ່ງໃຫຍ່ທີ່ສຸດ",
+  "tasbihatArba3CompleteTitle": "ການອ່ານສໍາເລັດແລ້ວ",
+  "tasbihatArba3CompleteMessage": "ຂໍໃຫ້ການລະໝາດຂອງທ່ານໄດ້ຮັບການຕອບຮັບ — Āmīn",
+  "tasbihatArba3TapHint": "ແຕະຫຼັງຈາກການອ່ານແຕ່ລະຄັ້ງ",
+  "tasbihatZahraSubtitle": "ຫຼັງຈາກການລະໝາດແຕ່ລະຄັ້ງ · 100 ເມັດ",
+  "tasbihatZahraOriginLabel": "ຕົ້ນກໍາເນີດ",
+  "tasbihatZahraHadith": "ທ່ານນາງ Fatima al-Zahra (sa) ເຄີຍຂໍຜູ້ຮັບໃຊ້ຈາກທ່ານນະບີ ﷺ. ທ່ານກ່າວວ່າ: \"ຂ້ອຍຈະບອກສິ່ງທີ່ດີກວ່ານັ້ນໃຫ້ທ່ານໄດ້ບໍ? ກ່າວ Subḥānallāh 33 ຄັ້ງ, Alḥamdulillāh 33 ຄັ້ງ, ແລະ Allāhu Akbar 34 ຄັ້ງ ຫຼັງຈາກການລະໝາດແຕ່ລະຄັ້ງ. ສິ່ງນັ້ນດີກວ່າຜູ້ຮັບໃຊ້ສໍາລັບທ່ານ.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, ພາກທີ 85",
+  "tasbihatZahraOpenCounter": "ເປີດຕົວນັບ Tasbīḥ",
+  "tasbihatDuasTitle": "DUĀS ທີ່ແນະນໍາ",
+  "tasbihatDuasSubtitle": "ຫຼັງຈາກທ່ານສໍາເລັດການລະໝາດ",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "ຫຼັງຈາກການລະໝາດບັງຄັບແຕ່ລະຄັ້ງ",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "ຜູ້ໃດອ່ານ Āyat al-Kursī ຫຼັງຈາກການລະໝາດບັງຄັບແຕ່ລະຄັ້ງ, ບໍ່ມີສິ່ງໃດກັ້ນລາວອອກຈາກສະຫວັນນອກຈາກຄວາມຕາຍ. Imam al-Bāqir (a) ກ່າວວ່າມັນເປັນໜຶ່ງໃນອາຍະຮ໌ທີ່ຍິ່ງໃຫຍ່ທີ່ສຸດໃນ Qur'an.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "ຫຼັງຈາກການລະໝາດແຕ່ລະຄັ້ງ · ປິດທ້າຍ dua ທັງໝົດ",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "ການສົ່ງພອນແດ່ທ່ານນະບີ ﷺ ແລະ ຄອບຄົວຜູ້ບໍລິສຸດຂອງທ່ານ (Āl Muḥammad) ແມ່ນສິ່ງທີ່ແນະນໍາເພື່ອປິດທ້າຍ dua ແຕ່ລະອັນ. Imam al-Ṣādiq (a) ກ່າວວ່າ: \"Dua ທຸກອັນຈະຖືກລໍຖ້າຈົນກວ່າທ່ານຈະສົ່ງ ṣalawāt ແກ່ Muhammad ແລະ ຄອບຄົວຂອງທ່ານ.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "ຫຼັງຈາກການລະໝາດແຕ່ລະຄັ້ງ · ເພື່ອ Imam ແຫ່ງເວລາຂອງພວກເຮົາ",
+  "tasbihatDuaFarajSource": "ສອນໂດຍ Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "dua ເພື່ອຂໍໃຫ້ Imam al-Mahdī (af), Imam ອົງທີ 12, ປາກົດຕົວອີກຄັ້ງ, ຊຶ່ງຖືກສອນໂດຍບິດາຂອງທ່ານ. ຖືກອ່ານທຸກມື້ໂດຍຜູ້ສັດທາຊີອະຫຼັງຈາກການລະໝາດແຕ່ລະຄັ້ງ ເພື່ອເປັນການອຸທິດຕົນແກ່ Imam ຜູ້ມີຊີວິດຢູ່.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ ຂອງທ່ານນາງ Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "ຫຼັງຈາກ Maghrib ແລະ Isha · ແນະນໍາເປັນພິເສດ",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) ກ່າວວ່າ ການອ່ານ Tasbīḥ al-Zahrā ຫຼັງຈາກ Isha ກ່ອນນອນ ດີກວ່າການລະໝາດ sunna 1000 rakʿahs. ແສງສະຫວ່າງຂອງມັນຈະລອຍຂຶ້ນໄປສູ່ຟ້າ.",
+  "tasbihFatimaGiftPre": "ຂອງຂວັນຈາກທ່ານນະບີ",
+  "tasbihFatimaGiftPost": "ອ່ານຫຼັງຈາກການລະໝາດແຕ່ລະຄັ້ງ",
+  "prayerTrackerTitle": "ຕົວຕິດຕາມການລະໝາດ",
+  "prayerTrackerPrayed": "ລະໝາດແລ້ວ",
+  "prayerTrackerDayStreak": "ຕໍ່ເນື່ອງ {count} ມື້",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "ການລະໝາດທັງໝົດຂອງມື້ນີ້ສໍາເລັດແລ້ວ. ຂໍໃຫ້ອັລລາຫ໌ຕອບຮັບ.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "ສໍາເລັດແລ້ວມື້ນີ້",
+  "dhikrTrackerNotDoneToday": "ຍັງບໍ່ໄດ້ເຮັດມື້ນີ້",
+  "dhikrTrackerDayStreak": "ຕໍ່ເນື່ອງ {count} ມື້",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "ເຕືອນ Tasbīḥ",
+  "dhikrReminderDescription": "ການເຕືອນຢ່າງອ່ອນໂຍນໃນທຸກມື້ເພື່ອໃຫ້ອ່ານ Tasbīḥ al-Zahrā (SA).",
+  "dhikrReminderEnable": "ເປີດໃຊ້ການເຕືອນ Tasbīḥ",
+  "dhikrReminderTimeLabel": "ເວລາເຕືອນ",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Hadith ປະຈໍາວັນ",
+  "hadithLabelArabic": "ອາຣາບິກ",
+  "hadithLabelTranslation": "ຄໍາແປ",
+  "hadithBadge": "HADITH",
+  "hadithShare": "ແບ່ງປັນ Hadith ນີ້",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nຜ່ານ Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "ກ່ອນໜ້າ",
+  "hadithNavNext": "ຖັດໄປ",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "14 Masumeen",
+  "imamsScreenSubtitle": "ນະບີ, ທ່ານນາງ Fatima, ແລະ 12 ອິມາມ — ຜູ້ນໍາທີ່ບໍ່ຜິດພາດແຫ່ງອິສລາມ",
+  "imamLabelBorn": "ເກີດ",
+  "imamLabelMartyrdom": "ການເປັນຊະຮີດ",
+  "imamLabelStatus": "ສະຖານະ",
+  "imamSectionBiography": "ຊີວະປະຫວັດ",
+  "imamSectionFamousSaying": "ຄໍາກ່າວທີ່ມີຊື່ສຽງ",
+  "imamRoleProphet": "ນະບີອົງສຸດທ້າຍ",
+  "imamRoleInfallible": "ຜູ້ບໍ່ຜິດພາດ",
+  "imamOrdinal1": "ອິມາມອົງທີ 1",
+  "imamOrdinal2": "ອິມາມອົງທີ 2",
+  "imamOrdinal3": "ອິມາມອົງທີ 3",
+  "imamOrdinal4": "ອິມາມອົງທີ 4",
+  "imamOrdinal5": "ອິມາມອົງທີ 5",
+  "imamOrdinal6": "ອິມາມອົງທີ 6",
+  "imamOrdinal7": "ອິມາມອົງທີ 7",
+  "imamOrdinal8": "ອິມາມອົງທີ 8",
+  "imamOrdinal9": "ອິມາມອົງທີ 9",
+  "imamOrdinal10": "ອິມາມອົງທີ 10",
+  "imamOrdinal11": "ອິມາມອົງທີ 11",
+  "imamOrdinal12": "ອິມາມອົງທີ 12",
+  "duaAudioScreenTitle": "ຟັງ Dua",
+  "duaAudioScreenSubtitle": "ເລືອກ dua ເພື່ອຟັງ. ແຕະ tile ເພື່ອຫຼິ້ນ ຫຼື ຢຸດຊົ່ວຄາວ.",
+  "duaAudioComingSoonMessage": "ສຽງອ່ານສໍາລັບ dua ນີ້ຈະມີໃຫ້ໃນການອັບເດດຕໍ່ໄປ.",
+  "duaAudioClose": "ປິດ",
+  "duaAudioError": "ບໍ່ສາມາດໂຫຼດສຽງໄດ້. ກະລຸນາກວດເຊັກການເຊື່ອມຕໍ່ຂອງທ່ານ.",
+  "duaAudioMetaTransmittedBy": "ຖ່າຍທອດໂດຍ",
+  "duaAudioMetaOccasion": "ໂອກາດ",
+  "duaAudioMetaDuration": "ໄລຍະເວລາ",
+  "quickActionDailyHadith": "Hadith ປະຈໍາວັນ",
+  "quickAction14Masumeen": "14 Masumeen",
+  "quickActionListenDuas": "ຟັງ",
+  "quickActionTasbihat": "ຄູ່ມືການລະໝາດ",
+  "pilgrimageSectionTitle": "ການເດີນທາງອັນສັກສິດ",
+  "pilgrimageSectionSubtitle": "ຄູ່ມືຄົບຖ້ວນກ່ຽວກັບ Hajj ແລະ Umrah — ການຈາລິກໄປສູ່ເຮືອນອັນສັກສິດຂອງອັລລາຫ໌ທີ່ Mecca",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "ເສົາຫຼັກຂໍ້ທີ 5 ຂອງອິສລາມ",
+  "hajjCardDescription": "ການຈາລິກໃຫຍ່ປະຈໍາປີ — ບັງຄັບໜຶ່ງຄັ້ງໃນຊີວິດສໍາລັບຊາວມຸດສະລິມທຸກຄົນທີ່ມີຄວາມສາມາດ",
+  "hajjScreenTitle": "ຄູ່ມື Hajj",
+  "hajjScreenSubtitle": "ຄູ່ມືແບບຂັ້ນຕອນສໍາລັບການຈາລິກໃຫຍ່",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "ການຈາລິກນ້ອຍ",
+  "umrahCardDescription": "ການເດີນທາງດ້ານຈິດວິນຍານທີ່ມີຄຸນຄ່າຢ່າງລຶກເຊິ່ງ ແລະ ສາມາດເຮັດໄດ້ໃນເວລາໃດກໍໄດ້ຂອງປີ",
+  "umrahScreenTitle": "ຄູ່ມື Umrah",
+  "umrahScreenSubtitle": "ຄູ່ມືແບບຂັ້ນຕອນສໍາລັບການຈາລິກນ້ອຍ",
+  "pilgrimageStepsTitle": "ພິທີ ແລະ ຂັ້ນຕອນ",
+  "pilgrimageImportantNotesTitle": "ບັນທຶກສໍາຄັນ",
+  "pilgrimageDuaTitle": "ດູອາສໍາລັບຂະບວນນີ້",
+  "pilgrimageJafariNoteTitle": "ເລື່ອງບັນທຶກຟິກຮີຈາຟາລີ",
+  "pilgrimageComplete": "✓ ສຳເລັດ",
+  "pilgrimageMarkDone": "ປ່ອນໃຫ້ເປັນສິ້ນສຸດ",
+  "pilgrimageProgress": "{done} ຈາກ {total} ຂະບວນ",
+  "pilgrimageReadTime": "~{minutes} ນາທີ",
+  "pilgrimageShiaNoteTitle": "ຜູ້ຈາລິກຊີອະ",
+  "pilgrimageShiaNoteBody": "ຜູ້ຈາລິກ Shia ຕາມປະເພນີຈະເດີນທາງໄປ Medina ເພື່ອຢ້ຽມຢາມຫຼຸມຝັງສົບຂອງທ່ານນະບີ Muhammad ﷺ ທີ່ Masjid al-Nabawi ແລະ ຫຼຸມຝັງສົບຂອງອິມາມທີ່ Jannat al-Baqi ອີກດ້ວຍ. ການເຂົ້າຢ້ຽມຢາມເຫຼົ່ານີ້ມີຄວາມສໍາຄັນດ້ານຈິດວິນຍານຢ່າງສູງ ແລະ ຖືກມອງວ່າເປັນສ່ວນສໍາຄັນຂອງການເດີນທາງສໍາລັບຊາວມຸດສະລິມ Shia ສ່ວນໃຫຍ່.",
+  "hajjIntro": "Hajj ແມ່ນເສົາຫຼັກຂໍ້ທີ 5 ຂອງອິສລາມ ເຊິ່ງບັງຄັບຫນຶ່ງຄັ້ງໃນຊີວິດສໍາລັບຊາວມຸດສະລິມທຸກຄົນທີ່ມີຄວາມສາມາດທາງກາຍ ແລະ ການເງິນ. ມັນຖືກປະຕິບັດໃນເດືອນ Dhul Hijjah ແລະ ຍ້ອນຕາມຮອຍທ່ານນະບີ Ibrahim (AS), ບຸດຂອງທ່ານ Ismail (AS), ແລະ ທ່ານນາງ Hajar. ສໍາລັບຊາວມຸດສະລິມ Shia, Hajj ຍັງລວມເຖິງພອນອັນເລິກເຊິ່ງໃນການເຂົ້າຢ້ຽມຢາມສະຖານທີ່ພັກສຸດທ້າຍຂອງທ່ານນະບີ ﷺ ແລະ Ahlul Bayt ທີ່ Medina.",
+  "umrahIntro": "Umrah ແມ່ນການຈາລິກນ້ອຍໄປຫາ Mecca ແລະ ບໍ່ເໝືອນກັບ Hajj, ມັນສາມາດປະຕິບັດໄດ້ໃນຊ່ວງເວລາໃດກໍໄດ້ຂອງປີ. ເຖິງແມ່ນວ່າບໍ່ບັງຄັບ, ມັນມີຜົນຕອບແທນທາງຈິດວິນຍານຢ່າງຫຼວງຫຼາຍ ແລະ ຖືກມອງວ່າເປັນການເຄົາລົບທີ່ແນະນໍາຢ່າງສູງ. ມັນແບ່ງປັນບາງພິທີກໍາກັບ Hajj ແຕ່ສັ້ນກວ່າ ແລະ ປະກອບດ້ວຍ 4 ພິທີກໍາຫຼັກ."
 }

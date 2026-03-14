@@ -1,585 +1,629 @@
 {
   "@@locale": "ja",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "言語を選択してください",
-  "languageSelectSub": "後から設定で変更できます",
+  "languageSelectSub": "これは後で設定から変更できます",
   "actionContinue": "続ける",
   "languageSuggestedHeader": "おすすめ",
   "languageAllHeader": "すべての言語",
   "languageSuggestedBadge": "おすすめ",
   "languageSearchHint": "検索…",
-
-  "planGrace": "スタンダード",
-  "planBlessed": "バラカ",
-
-  "categoryDailyGuidance": "日々のガイダンス",
-  "categoryFaithTrust": "信仰と信頼",
-  "categoryPrayerReflection": "祈りの瞑想",
-  "categoryHopeDifficultTimes": "忍耐と希望",
-  "categoryForgiveness": "許しを求める",
-  "categoryLoveCompassion": "慈悲と思いやり",
-  "categoryStrengthCourage": "信仰の力",
-  "categoryGratitude": "感謝の心",
-  "categoryPurposeCalling": "人生の目的",
-  "categoryFamilyRelationships": "家族の絆",
-  "categoryPeaceAnxietyRelief": "心の平安",
-  "categoryWisdomOfJesus": "預言者の知恵",
-  "categoryHumilityCharacter": "謙虚さと徳性",
-  "categoryOvercomingTemptation": "誘惑に抵抗する",
-  "categoryEveningReflection": "夜間のズィクル",
-  "categoryCustom": "個人的な反省",
+  "planBasic": "スタンダード",
+  "planPremium": "Wilaya",
+  "categorySlot01": "毎日の導き",
+  "categorySlot02": "イーマーンと信頼",
+  "categorySlot03": "礼拝の内省",
+  "categorySlot04": "忍耐と希望",
+  "categorySlot05": "赦しを求める",
+  "categorySlot06": "慈悲と思いやり",
+  "categorySlot07": "信仰の力",
+  "categorySlot08": "感謝の心",
+  "categorySlot09": "人生の目的",
+  "categorySlot10": "家族の絆",
+  "categorySlot11": "心の平安",
+  "categorySlot12": "預言者の知恵",
+  "categorySlot13": "良き人格",
+  "categorySlot14": "誘惑に抗う",
+  "categorySlot15": "夜のズィクル",
+  "categoryCustom": "個人的な内省",
   "dhikrMeaningSubhanallah": "アッラーに栄光あれ",
-  "dhikrMeaningAlhamdulillah": "すべての称賛はアッラーに帰する",
-  "dhikrMeaningAllahuAkbar": "アッラーは偉大なり",
-  "quranVerseHeartAtRest": "確かに、アッラーの記憶の中で心は安らぎを見出す。",
-
-  "promptHint": "イスラム教の指導と瞑想については、カテゴリーをタップしてください",
-
+  "dhikrMeaningAlhamdulillah": "すべての称賛はアッラーに属する",
+  "dhikrMeaningAllahuAkbar": "アッラーは最も偉大である",
+  "quranVerseHeartAtRest": "まことに、アッラーの念想によって心は安らぐ。",
+  "promptHint": "カテゴリーをタップして、イスラームの導きと内省を受け取りましょう",
   "currentLanguage": "現在の言語",
   "settingsLanguage": "言語設定",
   "settingsTitle": "設定",
   "chooseLanguage": "言語を選択してください",
   "continueCta": "続ける",
-
-  "promptDailyGuidance": "スンニ派イスラム教信仰に根ざした、実践的で短い日々のガイダンスを書いてください。クルアーン、ハディース、ムハンマド預言者の教えに基づいてください。毎回新しい視点を選んでください。イスラム倫理の美徳、スンナの真実、預言者の同伴者たちの知恵、またはイスラム伝統からの静かな実践のいずれかです。クルアーン詩句（スーラ：アヤ）1つと、その日を通じて心に留めておく1～2文の瞑想を含めてください。関連がある場合は、イスラム暦または重要な日付に関連付けることができます。",
-
-  "promptFaithTrust": "信仰（イマーン）とアッラーの計画への信頼（タワッカル）についての短いイスラム教の瞑想を書いてください。クルアーン、ムハンマド預言者の例、そしてサハーバの信仰に根ざしてください。毎回テーマを変えてください。不確実性の中でアッラーを信頼すること、神聖な知恵に頼ること、試練における忍耐、または日常生活での静かな忍耐です。クルアーン詩句1つとイスラム教の精神的知恵から得た今日のための正直な一歩を含めてください。",
-
-  "promptPrayerReflection": "サラー、ドゥア、またはズィクルに根ざしたイスラム教の祈りの瞑想を書いてください。毎回形式を変えてください。朝または夜の思い出（アズカール）、5つの1日の祈りについての瞑想、クルアーン詩句の瞑想、または誠実な願いです。クルアーン詩句1つと使用された祈りの形式を簡潔に名付けてください。",
-
-  "promptHopeDifficultTimes": "困難な時の忍耐（サブル）と希望についてのイスラム教の瞑想を書いてください。試練に関するクルアーンの教え、預言者たちの忍耐力、困難な時でのアッラーの慈悲から引き出してください。毎回角度を変えてください。クルアーン詩句1つとイスラム伝統からの1つの励みになる視点を含めてください。",
-
-  "promptForgiveness": "許しを求める（タウバ）とアッラーの慈悲についての賢いイスラム教の瞑想を書いてください。悔い改めについてのクルアーンの教え、アッラーの優しさ、ムハンマド預言者の許しの例から引き出してください。テーマを変えてください。アッラーに立ち返ること、他者を許すこと、関係を治すこと、または間違いの後にアッラーの慈悲を信じることです。クルアーン詩句1つと1つの具体的なステップを含めてください。",
-
-  "promptLoveCompassion": "日常生活における慈悲（ラフマ）と思いやりについての短いイスラム教の瞑想を書いてください。ムハンマド預言者の例、卓越性の概念（イフサーン）、家族、隣人、弱い者への親切に関するイスラム教の教えから引き出してください。クルアーン詩句1つと今日実践する1つの小さな思いやりの行為を含めてください。",
-
-  "promptStrengthCourage": "信仰に基づいた力と勇気についてのイスラム教の瞑想を書いてください。預言者たちの例、初期のムスリムコミュニティ、困難な中で信仰を守った信仰者たちから引き出してください。毎回テーマを変えてください。信仰を通じた勇気、祈りを通じた力、恐れの中でアッラーを信頼すること、または困難の中での回復力です。クルアーン詩句1つと短い願いまたは思い出しの言葉を含めてください。",
-
-  "promptGratitude": "アッラーへの感謝（シュクル）についてのイスラム教の瞑想を書いてください。クルアーンの教えと預言者伝統に根ざしてください。角度を変えてください。困難における感謝、小さな祝福の感謝、アッラーへの賛美で1日を始めること、または日常生活でのアッラーの導きを認識することです。クルアーン詩句1つと1つの感謝の実践を含めてください。",
-
-  "promptPurposeCalling": "アッラーを礼拝し、義をもって生きることにおける人生の目的についてのイスラム教の瞑想を書いてください。目的に関するクルアーンの教え、他者への奉仕、善のために自分の才能を使うことから引き出してください。毎回テーマを変えてください。家族とコミュニティへの奉仕、イスティハーラを通じた指導を求めること、意図をもって生きること、または普通の仕事に意味を見出すことです。クルアーン詩句1つと2つの反思的な質問を含めてください。",
-
-  "promptFamilyRelationships": "クルアーンの教えとムハンマド預言者の例に根ざした家族と関係についての賢いイスラム教のガイダンスを書いてください。毎回テーマを変えてください。家族生活での親切、紛争における忍耐、両親を尊敬すること、信仰の中で子どもを育てること、または結婚を強めることです。クルアーン詩句1つと試す1つの関係的実践を含めてください。",
-
-  "promptPeaceAnxietyRelief": "アッラーへの思い出し（ズィクル）とアッラーの計画への信頼を通じて心の平安を見つけることについての穏やかなイスラム教の瞑想を書いてください。心の落ち着き、祈り、アッラーの意志への降伏に関するクルアーンの教えから引き出してください。毎回アプローチを変えてください。クルアーン詩句1つとイスラム伝統からの1つの簡単な根拠の実践を含めてください。",
-
-  "promptWisdomOfJesus": "イスラム教で教えられている預言者たちからの短い知恵を書いてください。クルアーンまたはハディースから引き出し、イスラム学者がどのように教えを理解しているかを簡潔に説明してください。毎回トピックを変えてください。性格、忍耐、謙虚さ、信仰、または日常的な行為です。クルアーン詩句またはハディース参照と1つの実際的な応用を含めてください。",
-
-  "promptHumilityCharacter": "謙虚さ（タワーズ）と良い性格（アクラーク）についてのイスラム教の瞑想を書いてください。クルアーンの教え、ムハンマド預言他の例、イスラム性格発展の伝統から引き出してください。毎回テーマを変えてください。指導力における謙虚さ、間違いを認めること、他者を尊敬をもって扱うこと、または自己反省を通じた精神的成長です。クルアーン詩句1つと実践する1つの習慣を含めてください。",
-
-  "promptOvercomingTemptation": "誘惑に抵抗し、正しい道にとどまることについてのイスラム教の瞑想を書いてください。クルアーンのガイダンス、アッラーへの思い出し（ズィクル）、祈り（サラー）、および苦しみを克服した信仰者たちの例から引き出してください。毎回角度を変えてください。クルアーン詩句1つと次の24時間のための1つの実際的な戦略を含めてください。",
-
-  "promptEveningReflection": "夜間の思い出しの伝統（アズカール・アル・マサー）に根ざした平和なイスラム教の夕方の瞑想を書いてください。感謝、自己反省（ムハサバ）、そして休む前のアッラーへの信頼を促してください。その日についての3～5つの短い反思プロンプト、短い閉じの願い、および1つのクルアーン詩句を含めてください。",
-
-  "wordCount": "{count, plural, one {{count}単語} other {{count}単語}}",
-
+  "wordCount": "{count, plural, one {{count}語} other {{count}語}}",
   "optionsCta": "オプション",
   "newCta": "新規",
-  "actionsTitle": "何をしたいですか",
+  "actionsTitle": "何をしたいですか？",
   "copy": "コピー",
   "share": "共有",
   "close": "閉じる",
   "copiedToast": "クリップボードにコピーしました",
-
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "メール/共有件名行。カテゴリーラベルを含む",
+    "description": "カテゴリー名を含むメール／共有の件名。",
     "placeholders": {
-      "category": { "type": "String", "example": "日々のガイダンス" }
+      "category": {
+        "type": "String",
+        "example": "毎日の導き"
+      }
     }
   },
-
-  "regenerateErrorTitle": "新しい回答を生成できませんでした",
-  "regenerateErrorBody": "{error}\n\nもう一度試しますか",
+  "regenerateErrorTitle": "新しい返信を生成できませんでした",
+  "regenerateErrorBody": "{error}\n\nもう一度試しますか？",
   "@regenerateErrorBody": {
-    "description": "AIの回答の再生成に失敗した場合に表示される",
+    "description": "AI の回答再生成に失敗したときに表示されます。",
     "placeholders": {
-      "error": { "type": "String", "example": "ネットワークエラー" }
+      "error": {
+        "type": "String",
+        "example": "ネットワークエラー"
+      }
     }
   },
-
   "cancelCta": "キャンセル",
   "retryCta": "もう一度試す",
-
   "authTitle": "アカウントを作成",
   "continueAsGuest": "ゲストとして続ける",
   "signInGoogle": "Googleでサインイン",
   "signInApple": "Appleでサインイン",
   "signInEmail": "メールでサインイン",
   "upgradeWithApple": "Appleで続ける",
-  "mustAccept": "利用規約に同意し、プライバシーポリシーを確認する必要があります",
+  "mustAccept": "利用規約に同意し、プライバシーポリシーを確認する必要があります。",
   "termsLabel": "利用規約に同意します",
   "privacyLabel": "プライバシーポリシーを読みました",
-  "marketingOptIn": "ニュースとオファーの受け取りに同意します",
+  "marketingOptIn": "ニュースやオファーの受信に同意します",
   "openTerms": "利用規約",
   "openPrivacy": "プライバシーポリシー",
-
   "accountSection": "アカウント",
   "guestMode": "ゲストモード",
   "signedIn": "サインイン済み",
-  "upgradeHint": "アカウントを作成してデバイス間で瞑想を保存してください",
+  "upgradeHint": "アカウントを作成すると、内省を複数の端末で保存できます。",
   "upgradeWithGoogle": "Googleで続ける",
   "signOut": "サインアウト",
-
-  "snackUpgraded": "Googleでアカウントがアップグレードされました✅",
-  "snackSignedIn": "Googleでサインインしました✅",
+  "snackUpgraded": "Googleでアカウントをアップグレードしました ✅",
+  "snackSignedIn": "Googleでサインインしました ✅",
   "snackSignedOut": "サインアウトしました",
-  "snackSignedInApple": "Appleでサインインしました✅",
-  "snackSignedInGoogle": "Googleでサインインしました✅",
-  "snackUpgradedApple": "Appleでアカウントがアップグレードされました✅",
-  "snackUpgradedGoogle": "Googleでアカウントがアップグレードされました✅",
-
-  "historyTitle": "以前の瞑想",
-  "historyOpenCta": "以前の瞑想",
-  "historyEmpty": "保存された瞑想はまだありません",
-  "historyDeleteTitle": "瞑想を削除しますか",
-  "historyDeleteBody": "選択したアイテムが永久に削除されます",
+  "snackSignedInApple": "Appleでサインインしました ✅",
+  "snackSignedInGoogle": "Googleでサインインしました ✅",
+  "snackUpgradedApple": "Appleでアカウントをアップグレードしました ✅",
+  "snackUpgradedGoogle": "Googleでアカウントをアップグレードしました ✅",
+  "historyTitle": "過去の内省",
+  "historyOpenCta": "過去の内省",
+  "historyEmpty": "まだ保存された内省はありません。",
+  "historyDeleteTitle": "内省を削除しますか？",
+  "historyDeleteBody": "選択した項目は完全に削除されます。",
   "deleteCta": "削除",
-
-  "historyButton": "以前の瞑想",
-  "historyEmptyTitle": "瞑想はまだありません",
-  "historyEmptyBody": "最初に何かを生成してください。保存されたアイテムがここに表示されます",
+  "historyButton": "過去の内省",
+  "historyEmptyTitle": "まだ内省はありません",
+  "historyEmptyBody": "まず何かを生成してください — 保存した項目がここに表示されます。",
   "historyDelete": "削除",
-
-  "footerTitle": "イマーン、サブル、ラフマをもって",
-  "footerSubtitle": "1歩ずつ",
-  "genericErrorSnack": "問題が発生しました。しばらくしてからもう一度試してください",
-
-  "upgradeAccountCta": "デバイス間で瞑想を保存してください。アカウントを作成してください",
+  "footerTitle": "Wilaya、Iman、Sabrとともに",
+  "footerSubtitle": "一度にひとつの祈りを",
+  "genericErrorSnack": "問題が発生しました — 少し待ってからもう一度お試しください。",
+  "upgradeAccountCta": "内省を複数の端末で保存する – アカウントを作成",
   "deleteAccount": "アカウントを削除",
-  "exportData": "データをエクスポート",
-
+  "exportData": "自分のデータをエクスポート",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "内部Firebase UIDを表示する前のラベル",
+    "description": "内部 Firebase UID を表示する前のラベル。",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "少しお待ちください🐯\nAIが次のために時間が必要です…",
-  "rateDailyLimit": "今のところ瞑想が終わりました\nもっと瞑想を取得するか、バラカにアップグレードしてください",
-  "rateCreditsExhausted": "すべての瞑想を使用しました\nバラカにトップアップするか、アップグレードして続行してください",
-  "rateGraceReflectionsExhausted": "今のところ瞑想が終わりました\nもっと瞑想を取得するか、バラカにアップグレードしてください",
-  "rateReflectionsExhausted": "すべての瞑想を使用しました\nトップアップするか、バラカにアップグレードして続行してください",
-
-  "blessedDescription": "バラカはプレミアム機能、将来のカテゴリー、特別なバッジのロックを解除します",
-  "championDescription": "バラカはプレミアム機能、将来のカテゴリー、特別なバッジのロックを解除します",
-
-  "ratePlanExhausted": "お客様の瞑想は現在空です。プラン: {plan}",
+  "rateLocalThrottle": "少し落ち着いて 🐯\nAyara は次の返信まで少し時間が必要です…",
+  "rateDailyLimit": "今は内省を使い切っています。\nさらに内省を取得するか、Wilaya にアップグレードしてください。",
+  "rateCreditsExhausted": "すべての内省を使い切りました。\n続けるにはチャージするか、Wilaya にアップグレードしてください。",
+  "rateGraceCreditsExhausted": "今は内省を使い切っています。\nさらに内省を取得するか、Wilaya にアップグレードしてください。",
+  "premiumDescription": "Wilaya ではプレミアム機能、今後のカテゴリー、特別なバッジが利用できます。",
+  "ratePlanExhausted": "現在、内省は残っていません。プラン: {plan}。",
   "@ratePlanExhausted": {
-    "description": "ユーザーの瞑想が枯渇しているが理由が一般的な場合に表示される",
+    "description": "ユーザーの内省がなくなったが理由が一般的な場合に表示されます。",
     "placeholders": {
-      "plan": { "type": "String", "example": "スタンダードまたはバラカ" }
+      "plan": {
+        "type": "String",
+        "example": "スタンダード または Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "瞑想をチェックできませんでした: {message}",
+  "rateCheckFailed": "内省を確認できませんでした: {message}",
   "@rateCheckFailed": {
-    "description": "呼び出し可能な関数がエラーメッセージを返した場合に表示される",
+    "description": "呼び出し可能関数がエラーメッセージを返したときに表示されます。",
     "placeholders": {
-      "message": { "type": "String", "example": "ネットワークエラー" }
+      "message": {
+        "type": "String",
+        "example": "ネットワークエラー"
+      }
     }
   },
-
-  "rateCheckGenericError": "瞑想をチェック中に問題が発生しました",
-  "aiFallbackGeneric": "問題が発生しました。しばらくしてからもう一度試してください",
-
-  "limitSectionTitle": "瞑想",
-  "limitTodayLabel": "使用状況",
-  "limitCreditsLabel": "残りの瞑想: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "rateCheckGenericError": "内省の確認中に問題が発生しました。",
+  "aiFallbackGeneric": "問題が発生しました — 少し待ってからもう一度お試しください。",
+  "limitSectionTitle": "内省",
+  "limitTodayLabel": "利用状況",
+  "limitCreditsLabel": "残りの内省: {credits}",
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "プラン: {plan}",
   "@limitPlanLabel": {
-    "description": "現在のサブスクリプションプラン名を表示する",
+    "description": "現在のサブスクリプションプラン名を表示します。",
     "placeholders": {
-      "plan": { "type": "String", "example": "スタンダードまたはバラカ" }
+      "plan": {
+        "type": "String",
+        "example": "スタンダード または Wilaya"
+      }
     }
   },
   "limitLoadingLabel": "読み込み中…",
-  "limitLoadingLabelDescription": "使用統計がフェッチされている間に瞑想カードに表示される",
-
-  "aiLimitTitle": "瞑想",
-  "aiLimitSubtitle": "各回答は1つの瞑想を使用します。スタンダードはスターター瞑想を含みます。バラカはプレミアムカテゴリーのロックを解除し、トップアップを有効にします",
-  "aiLimitProgressLabel": "{used} / {total}の瞑想を使用",
+  "limitLoadingLabelDescription": "内省カードで使用状況の統計を取得している間に表示されます。",
+  "aiLimitTitle": "内省",
+  "aiLimitSubtitle": "各返信で 1 つの内省を使います。スタンダードには初期内省が含まれます。Wilaya ではプレミアムカテゴリーが解放され、チャージも可能になります。",
+  "aiLimitProgressLabel": "{used} / {total} の内省を使用済み",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "瞑想",
-  "reflectionsUsageLabel": "使用状況",
-  "reflectionsRemainingLabel": "残りの瞑想: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "プラン: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "現在のプラン名を表示する",
+  "creditsSectionTitle": "内省",
+  "creditsUsageLabel": "利用状況",
+  "creditsRemainingLabel": "残りの内省: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "スタンダードまたはバラカ" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "読み込み中…",
-  "reflectionsLoadingLabelDescription": "瞑想統計がフェッチされている間に表示される",
-
-  "reflectionsTitle": "瞑想",
-  "reflectionsSubtitle": "各回答は1つの瞑想を使用します。スタンダードはスターター瞑想を含みます。バラカはプレミアムカテゴリーのロックを解除し、トップアップを有効にします",
-  "reflectionsProgressLabel": "{used} / {total}の瞑想を使用",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "プラン: {plan}",
+  "@creditsPlanLabel": {
+    "description": "現在のプラン名を表示します。",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "スタンダード または Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "読み込み中…",
+  "creditsLoadingLabelDescription": "内省の統計を取得している間に表示されます。",
+  "creditsTitle": "内省",
+  "creditsSubtitle": "各返信で 1 つの内省を使います。スタンダードには初期内省が含まれます。Wilaya ではプレミアムカテゴリーが解放され、チャージも可能になります。",
+  "creditsProgressLabel": "{used} / {total} の内省を使用済み",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "アカウントを削除",
-  "settingsDeleteDescription": "アカウントと関連するすべてのデータを永久に削除します",
-  "settingsDeleteButtonLabel": "アカウントを削除",
-  "settingsDeleteDialogTitle": "アカウントを削除しますか",
-  "settingsDeleteDialogBody": "このアクションは永続的で元に戻せません\n\nすべてのチャット、履歴、アカウント情報が削除されます",
+  "settingsDeleteDescription": "アカウントと関連するすべてのデータを完全に削除します。",
+  "settingsDeleteButtonLabel": "アカウントを削除する",
+  "settingsDeleteDialogTitle": "アカウントを削除しますか？",
+  "settingsDeleteDialogBody": "この操作は元に戻せません。\n\nすべてのチャット、履歴、アカウント情報が削除されます。",
   "settingsDeleteDialogCancel": "キャンセル",
   "settingsDeleteDialogConfirm": "削除",
-
-  "settingsFreeLimitUsedTitle": "スターター瞑想を使用",
-  "settingsFreeLimitUsedDescription": "このデバイスのスターター瞑想が使用されました。バラカにアップグレードするか、続行するためにより多くの瞑想を購入してください",
-
-  "settingsStarterReflectionsUsedTitle": "スターター瞑想を使用",
-  "settingsStarterReflectionsUsedDescription": "このデバイスのスターター瞑想が使用されました。バラカにアップグレードするか、続行するためにより多くの瞑想を購入してください",
-
-  "deviceBoundError": "このデバイスは既に別のアカウントにリンクされています。元のアカウントでサインインしてください",
-
-  "premiumTitle": "バラカモード",
-  "premiumSubtitleBasic": "Ayara全体のエクスペリエンスをロック解除してください",
-  "premiumSubtitleChampion": "あなたはバラカです。より多くの瞑想が必要ですか",
-
+  "settingsFreeLimitUsedTitle": "初期内省を使い切りました",
+  "settingsFreeLimitUsedDescription": "この端末の初期内省はすでに使い切られています。続けるには Wilaya にアップグレードするか、内省を追加購入してください。",
+  "settingsStarterCreditsUsedTitle": "初期内省を使い切りました",
+  "settingsStarterCreditsUsedDescription": "この端末の初期内省はすでに使い切られています。続けるには Wilaya にアップグレードするか、内省を追加購入してください。",
+  "deviceBoundError": "この端末はすでに別のアカウントに関連付けられています。元のアカウントでサインインしてください。",
+  "premiumTitle": "Wilaya モード",
+  "premiumSubtitleBasic": "Ayara のフル体験を解放しましょう。",
+  "premiumSubtitlePremium": "現在 Wilaya をご利用中です。さらに内省が必要ですか？",
   "premiumCurrentPlan": "現在のプラン: {plan}",
-  "premiumCreditsStatus": "瞑想: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "購入は現在利用できません",
-  "premiumSignInToPurchase": "サインインして瞑想を購入するか、バラカのロックを解除してください",
-
+  "premiumCreditsStatus": "内省: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "現在、購入は利用できません。",
+  "premiumSignInToPurchase": "内省を購入するか Wilaya を解放するにはサインインしてください。",
   "premiumRestorePurchases": "購入を復元",
   "premiumProcessing": "処理中…",
-  "premiumRestoreHintTitle": "このデバイスまたは別のデバイスでバラカまたは瞑想をすでに購入していますか",
-  "premiumRestoreHintBody": "購入が表示されていない場合は、復元してください",
-
-  "premiumBuyCredits200": "瞑想200個を購入",
-  "premiumBuyCredits400": "瞑想400個を購入",
-  "premiumBecomeChampionOneTime": "バラカモードにアップグレード",
-  "premiumChampionHint": "バラカとして、必要な時にいつでも瞑想を追加できます",
-
+  "premiumRestoreHintTitle": "この端末または別の端末で、すでに Wilaya または内省を購入しましたか？",
+  "premiumRestoreHintBody": "表示されない場合は購入を復元してください。",
+  "premiumBuyCredits200": "内省を200回分購入",
+  "premiumBuyCredits400": "内省を400回分購入",
+  "premiumBecomePremiumOneTime": "Wilaya モードにアップグレード",
+  "premiumTopupHint": "Wilaya では、必要なときにいつでも追加の内省をチャージできます。",
   "premiumUpgradeCta": "アップグレード",
-  "premiumRequiredForCategory": "このカテゴリーはバラカユーザーのみが利用できます。設定でアップグレードしてすべてのプレミアムコンテンツのロックを解除してください",
-  "premiumBenefitsBasic": "バラカのロックを解除して、追加の瞑想を取得し、プレミアムカテゴリーにアクセスし、指導が必要な場合いつでも続行してください",
-  "premiumBenefitsChampion": "あなたはバラカモードです。瞑想が少なくなっている場合は、追加の瞑想を追加して、中断なく続行してください",
-  "premiumButtonBecomeChampion": "バラカのロックを解除",
-  "premiumButtonTopup1000": "瞑想1000個を追加",
-  "premiumChampionBadge": "バラカアクティブ",
+  "premiumRequiredForCategory": "このカテゴリーは Wilaya ユーザー限定です。設定からアップグレードして、すべてのプレミアムコンテンツを解放してください。",
+  "premiumBenefitsBasic": "Wilaya を解放すると、追加の内省、プレミアムカテゴリーへのアクセス、必要なときの継続利用が可能になります。",
+  "premiumBenefitsPremium": "現在 Wilaya モードです。残りが少ない場合は、追加の内省をチャージして中断なく続けられます。",
+  "premiumButtonBecomePremium": "Wilaya を解放",
+  "premiumButtonTopup1000": "内省を1000回分追加",
+  "premiumBadge": "Wilaya 有効",
   "premiumLoadingStore": "ストアを読み込み中…",
-
-  "blessedTitle": "バラカモード",
-  "blessedSubtitleGrace": "Ayara全体のエクスペリエンスをロック解除してください",
-  "blessedSubtitleBlessed": "あなたはバラカです。より多くの瞑想が必要ですか",
-
-  "blessedCurrentPlan": "現在のプラン: {plan}",
-  "blessedReflectionsStatus": "瞑想: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "購入は現在利用できません",
-  "blessedProductNotAvailable": "この製品はストアではまだ利用できません。後でもう一度試してください",
-  "blessedPurchaseError": "購入に問題が発生しました。もう一度試してください",
-  "blessedSignInToPurchase": "サインインして瞑想を購入するか、バラカのロックを解除してください",
-
-  "blessedRestorePurchases": "購入を復元",
-  "blessedProcessing": "処理中…",
-  "blessedRestoreHintTitle": "このデバイスまたは別のデバイスでバラカまたは瞑想をすでに購入していますか",
-  "blessedRestoreHintBody": "購入が表示されていない場合は、復元してください",
-
-  "blessedBuyReflections100": "瞑想100個を追加",
-  "blessedBuyReflections200": "瞑想200個を購入",
-  "blessedBuyReflections400": "瞑想400個を購入",
-  "blessedBecomeBlessedOneTime": "バラカにアップグレード",
-  "blessedTopupHint": "バラカとして、必要な時にいつでも瞑想を追加できます",
-
-  "blessedUpgradeCta": "アップグレード",
-  "blessedRequiredForCategory": "このカテゴリーはバラカユーザーのみが利用できます。設定でアップグレードしてすべてのプレミアムコンテンツのロックを解除してください",
-  "blessedFeatureLocked": "この機能にアクセスするにはバラカのロックを解除してください",
-  "lockedCategoriesHint": "一部のカテゴリーはバラカメンバー向けに予約されています。ロックを解除して、旅のすべての瞑想を探索してください",
-  "blessedBenefitsGrace": "バラカのロックを解除して、追加の瞑想を取得し、プレミアムカテゴリーにアクセスし、指導が必要な場合いつでも続行してください",
-  "blessedBenefitsBlessed": "あなたはバラカモードです。瞑想が少なくなっている場合は、追加の瞑想を追加して、中断なく続行してください",
-  "blessedButtonBecomeBlessed": "バラカのロックを解除",
-  "blessedButtonTopup1000": "瞑想1000個を追加",
-  "blessedBadge": "バラカアクティブ",
-  "blessedLoadingStore": "ストアを読み込み中…",
-
-  "freePlanBlockedTitle": "スターター瞑想を使い切りました",
-  "freePlanBlockedBody": "あなたはスターター瞑想を持つスタンダードプランにいて、制限に達しました。続行するためにプレミアムカテゴリーのロックを解除するには、バラカにアップグレードしてください",
-  "freePlanBlockedCtaGoPremium": "下のバラカオプションを参照してください",
-
-  "graceBlockedTitle": "スターター瞑想を使い切りました",
-  "graceBlockedBody": "あなたはスターター瞑想を持つスタンダードプランにいて、制限に達しました。続行するためにプレミアムカテゴリーのロックを解除するには、バラカにアップグレードしてください",
-  "graceBlockedCtaGoBlessed": "下のバラカオプションを参照してください",
-
-  "rateGuestMustSignIn": "Ayara と瞑想を使用するにはサインインしてください",
-
+  "premiumProductNotAvailable": "この商品はまだストアで利用できません。後でもう一度お試しください。",
+  "premiumPurchaseError": "購入中に問題が発生しました。もう一度お試しください。",
+  "premiumBuyCredits100": "内省を100回分追加",
+  "premiumFeatureLocked": "この機能を利用するには Wilaya を解放してください。",
+  "lockedCategoriesHint": "一部のカテゴリーは Wilaya メンバー限定です。解放して、旅のすべての内省を探求しましょう。",
+  "freePlanBlockedTitle": "初期内省を使い切りました",
+  "freePlanBlockedBody": "現在はスタンダードプランで初期内省をご利用中ですが、上限に達しました。続けるには — またプレミアムカテゴリーを解放するには — Wilaya にアップグレードしてください。",
+  "freePlanBlockedCtaGoPremium": "以下の Wilaya オプションを見る",
+  "graceBlockedTitle": "初期内省を使い切りました",
+  "graceBlockedBody": "現在はスタンダードプランで初期内省をご利用中ですが、上限に達しました。続けるには — またプレミアムカテゴリーを解放するには — Wilaya にアップグレードしてください。",
+  "graceBlockedCtaGoPremium": "以下の Wilaya オプションを見る",
+  "rateGuestMustSignIn": "Ayara と内省を利用するにはサインインしてください。",
   "guestNoCreditsTitle": "ゲストモード",
-  "guestNoCreditsBody": "ゲストとして、アプリを参照できますが、瞑想は使用できません。後で設定でログインして瞑想を使用し、購入のロックを解除してください",
-
-  "guestNoReflectionsTitle": "ゲストモード",
-  "guestNoReflectionsBody": "ゲストとして、アプリを参照できますが、瞑想は使用できません。後で設定でログインして瞑想を使用し、購入のロックを解除してください",
-
+  "guestNoCreditsBody": "ゲストとしてアプリを閲覧できますが、内省は利用できません。後で設定からログインすると、内省の利用や購入の解放ができます。",
   "guestDialogContinue": "続ける",
   "guestDialogLoginInstead": "代わりにログイン",
-
-  "optionalLabel": "オプション",
-
-  "accountDeleteSuccessTitle": "アカウントが削除されました",
-  "accountDeleteSuccessBody": "アカウントと関連データが正常に削除されました",
+  "optionalLabel": "任意",
+  "accountDeleteSuccessTitle": "アカウントを削除しました",
+  "accountDeleteSuccessBody": "アカウントと関連データは正常に削除されました。",
   "accountDeleteSuccessClose": "閉じる",
   "accountDeleteErrorTitle": "アカウントを削除できませんでした",
   "accountDeleteErrorClose": "OK",
-  "accountDeleteReauthCancelled": "再認証がキャンセルされました。もう一度サインインして削除を再試行してください",
-  "accountDeleteReauthRequired": "アカウント削除には最近のログインが必要です。サインアウトしてもう一度サインインして、削除を再試行してください",
-  "settingsDeletePermanentWarning": "このアクションは永続的で元に戻せません。アカウントに関連するすべてのデータが削除されます",
-
-  "dailyGraceTitle": "日々のガイダンス",
-  "dailyGraceScriptureLabel": "本日の詩句",
+  "accountDeleteReauthCancelled": "再認証がキャンセルされました。再度サインインしてから削除をやり直してください。",
+  "accountDeleteReauthRequired": "アカウント削除には最近のログインが必要です。サインアウトして再度サインインし、削除をやり直してください。",
+  "settingsDeletePermanentWarning": "この操作は元に戻せません。アカウントに関連するすべてのデータが削除されます。",
+  "dailyGraceTitle": "毎日の導き",
+  "dailyGraceScriptureLabel": "今日の聖句",
   "dailyGraceSaintLabel": "今週の学者",
-  "dailyGraceReflectionLabel": "夜間の瞑想",
-  "dailyGraceCopiedToast": "詩句がクリップボードにコピーされました",
-
-  "dailyScripture0Text": "確かに、義人たちは庭園と川のある場所にいるでしょう。強力な王の名誉ある座席で",
-  "dailyScripture0Ref": "クルアーン 54:54-55",
-  "dailyScripture1Text": "そしてわれわれは、あなた、ムハンマドを全世界への慈悲としてのみ送った",
-  "dailyScripture1Ref": "クルアーン 21:107",
-  "dailyScripture2Text": "アッラーはその僕にとって十分ではないでしょうか。けれども彼らはあなたを彼の他の者たちで怖がらせます",
-  "dailyScripture2Ref": "クルアーン 39:36",
-  "dailyScripture3Text": "あるいはあなたは何かを嫌い、それがあなたにとって良いかもしれません。そしてあるいはあなたは何かを愛し、それがあなたにとって悪いかもしれません。そしてアッラーは知ります。そしてあなたは知りません",
-  "dailyScripture3Ref": "クルアーン 2:216",
-  "dailyScripture4Text": "確かに、アッラーは忍耐強い者たちと共にいます",
-  "dailyScripture4Ref": "クルアーン 2:153",
-  "dailyScripture5Text": "だからわたしを思い出しなさい。わたしはあなたを思い出すでしょう。そしてわたしに感謝しなさい。そしてわたしを否定しないでください",
-  "dailyScripture5Ref": "クルアーン 2:152",
-  "dailyScripture6Text": "確かに、アッラーの目に最も貴い者たちは最も敬虔な者たちです",
-  "dailyScripture6Ref": "クルアーン 49:13",
-  "dailyScripture7Text": "そしてあなたの主は命じられました。あなたは彼だけを礼拝し、両親に孝行であるべきである",
-  "dailyScripture7Ref": "クルアーン 17:23",
-  "dailyScripture8Text": "確かに、困難とともに緩和があります",
-  "dailyScripture8Ref": "クルアーン 94:6",
-  "dailyScripture9Text": "そしてあなたがどこにいても彼はあなたと共にいます。そしてアッラーはあなたがすることを見ています",
-  "dailyScripture9Ref": "クルアーン 57:4",
-  "dailyScripture10Text": "アッラーは魂に、それが負うことができる以上の負担をかけません",
-  "dailyScripture10Ref": "クルアーン 2:286",
-  "dailyScripture11Text": "そしてアッラーに頼る者は誰であれ、彼は彼にとって十分です",
-  "dailyScripture11Ref": "クルアーン 65:3",
-  "dailyScripture12Text": "わたしの慈悲はすべてのことを包む",
-  "dailyScripture12Ref": "クルアーン 7:156",
-  "dailyScripture13Text": "そして私の僕たちがわたしについてあなたに尋ねるとき、確かに私は近い。祈る者が祈るとき、わたしは祈る者に応答する",
-  "dailyScripture13Ref": "クルアーン 2:186",
-  "dailyScripture14Text": "誰が正義を行い、男性または女性であり、信仰者であるかが、確かにわれわれは彼に良い生活を送らせます",
-  "dailyScripture14Ref": "クルアーン 16:97",
-  "dailyScripture15Text": "確かに、アッラーは、民の状態を変えません。その民がその中にあるものを変えるまで",
-  "dailyScripture15Ref": "クルアーン 13:11",
-  "dailyScripture16Text": "だから弱まらないでください。そして悲しまないでください。そしてあなたが信仰者であるなら、あなたは優位に立つでしょう",
-  "dailyScripture16Ref": "クルアーン 3:139",
-  "dailyScripture17Text": "Oh my servants who have transgressed against themselves, do not despair of the mercy of Allah. Indeed, Allah forgives all sins. 'O My servants who have transgressed against themselves, do not despair of the mercy of Allah. Indeed, Allah forgives all sins'",
-  "dailyScripture17Ref": "クルアーン 39:53",
-  "dailyScripture18Text": "そしてアッラーを恐れる者は誰であれ、彼はそのための出口を作り、予想していないところから彼に提供するでしょう",
-  "dailyScripture18Ref": "クルアーン 65:2-3",
-  "dailyScripture19Text": "アッラーの慈悲に絶望しないでください",
-  "dailyScripture19Ref": "クルアーン 12:87",
-  "dailyScripture20Text": "そして確かにわれわれはクルアーンを思い出すために簡単にしました。それでは、誰が用心されるでしょう",
-  "dailyScripture20Ref": "クルアーン 54:17",
-  "dailyScripture21Text": "そして彼はあなたを失った状態で見つけて、あなたを導いた",
-  "dailyScripture21Ref": "クルアーン 93:7",
-  "dailyScripture22Text": "そしてあなたの主は言います。私を呼び出します。わたしはあなたに応答するでしょう",
-  "dailyScripture22Ref": "クルアーン 40:60",
-  "dailyScripture23Text": "そしてわれわれは確かにアダムの子供たちを尊敬しました",
-  "dailyScripture23Ref": "クルアーン 17:70",
-  "dailyScripture24Text": "そして忍耐と祈りを通じて助けを求めてください",
-  "dailyScripture24Ref": "クルアーン 2:45",
-  "dailyScripture25Text": "誰が原子の重さの良いことをしても、それを見るでしょう",
-  "dailyScripture25Ref": "クルアーン 99:7",
-  "dailyScripture26Text": "疑う余地もなく、アッラーの助けは近い",
-  "dailyScripture26Ref": "クルアーン 2:214",
-  "dailyScripture27Text": "そしてアッラーに感謝する者は誰であれ、彼の感謝は彼自身の利益のみのためです",
-  "dailyScripture27Ref": "クルアーン 31:12",
-
-  "dailyReflection0": "この日が閉じるとき、アッラーの慈悲が明らかだった1つの瞬間を考慮してください",
-  "dailyReflection1": "今日あなたの心に負担をかけたもの何でもをアッラーの前に持ってきてください",
-  "dailyReflection2": "この日から1つの祝福を名付けてアッラーに感謝を表現してください",
-  "dailyReflection3": "あなたがアッラーの無限のケアの中に持たれていることを知って休んでください",
-  "dailyReflection4": "今日、あなたが慈悲と優しさを示すよう召された場所について瞑想してください",
-  "dailyReflection5": "あなたが制御できないものを手放し、アッラーの完璧な計画を信頼してください",
-  "dailyReflection6": "日が暮れるとき、アッラーの思い出の中で平和を受け取ってください",
-  "dailyReflection7": "今日はあなたの祈りをどのように尊敬し、それぞれに対してアッラーに感謝したかを考慮してください",
-  "dailyReflection8": "忍耐（サブル）が今日のあなたの行動を導いた瞬間について瞑想してください",
-  "dailyReflection9": "今日の不足について許しを求めてください。アッラーの慈悲は無制限です",
-  "dailyReflection10": "今日あなたが親切を示した1人の人を名付けて、彼らのためにドゥアをしてください",
-  "dailyReflection11": "感謝の中に座ってください。アッラーが今日、あなたが求めなかったことを何が与えてくれましたか",
-  "dailyReflection12": "あなたが今どこにいるかについて語るクルアーンからの詩句について瞑想してください",
-  "dailyReflection13": "今日、あなたがあなたの時間をどのように使用したか考えて、明日をアッラーに提供してください",
-  "dailyReflection14": "今日何らかの困難が来たことを知って、アッラーはそれを通してあなたと共にいました",
-  "dailyReflection15": "今日、アッラーの名のために家族またはコミュニティに奉仕した1つの方法を考えてください",
-  "dailyReflection16": "夜が落ちるとき、タウバをしてください。アッラーは彼に立ち返る者たちを愛しています",
-  "dailyReflection17": "アッラーがあなたの日に置いた美しさ、しかし小さなことについて瞑想してください",
-  "dailyReflection18": "今日学んだことと、それがあなたをアッラーに近づけるか方法を考えてください",
-  "dailyReflection19": "日の心配をアッラーで休ませてください。彼はあなたが負うことができないものを運びます",
-  "dailyReflection20": "今日、あなたがより良い選択ができたかもしれない瞬間を思い出して、優しく学んでください",
-  "dailyReflection21": "苦しんでいる者たちのためにドゥアをしてください。あなたの祈りは彼らへの贈り物です",
-  "dailyReflection22": "あなたがしばしば見落とす祝福を思い出して、それについてアッラーに感謝してください",
-  "dailyReflection23": "今日のあなたの意図について瞑想してください。彼らはアッラーのためでしたか。明日は、もう一度始めてください",
-  "dailyReflection24": "夜が静まるとき、静けさの中でアッラーの近さを聞いてください",
-  "dailyReflection25": "今日、強さを見つけた場所を考えてください。その力はアッラーからです",
-  "dailyReflection26": "今日しなかった明日のためにすることを1つ名付けて、アッラーのためにしてください",
-  "dailyReflection27": "休まるために準備するとき、あなたの魂をアッラーに委託してください。彼は最高の保護者です",
-
-  "dailyRoleModel0": "ムハンマド預言者 ﷺ",
-  "dailyRoleModel1": "アブー・バクル・アッサッディーク（RA）",
-  "dailyRoleModel2": "ウマル・イブン・アル・ハッターブ（RA）",
-  "dailyRoleModel3": "オスマーン・イブン・アッファーン（RA）",
-  "dailyRoleModel4": "アリー・イブン・アビー・ターリブ（RA）",
-  "dailyRoleModel5": "ハディージャ・ビント・フウェイラド（RA）",
-  "dailyRoleModel6": "アイシャ・ビント・アビー・バクル（RA）",
-  "dailyRoleModel7": "ファーティマ・アッザハラー（RA）",
-  "dailyRoleModel8": "ビラール・イブン・ラバー（RA）",
-  "dailyRoleModel9": "サルマン・アル・ファーリスィー（RA）",
-  "dailyRoleModel10": "アブー・フレイラ（RA）",
-  "dailyRoleModel11": "アブドゥッラー・イブン・アッバース（RA）",
-  "dailyRoleModel12": "アブドゥッラー・イブン・マスウード（RA）",
-  "dailyRoleModel13": "ムアーズ・イブン・ジャバル（RA）",
-  "dailyRoleModel14": "ムサブ・イブン・ウマイル（RA）",
-  "dailyRoleModel15": "スマイヤ・ビント・ハッバーブ（RA）",
-  "dailyRoleModel16": "アッマール・イブン・ヤーシル（RA）",
-  "dailyRoleModel17": "ウンム・サラマ（RA）",
-  "dailyRoleModel18": "ハーリド・イブン・アル・ワリード（RA）",
-  "dailyRoleModel19": "ザイド・イブン・サービット（RA）",
-  "dailyRoleModel20": "ハフサ・ビント・ウマル（RA）",
-  "dailyRoleModel21": "ウマル・イブン・アブド・アル・アジーズ（RH）",
-  "dailyRoleModel22": "イマーム・アブー・ハニーファ（RH）",
-  "dailyRoleModel23": "イマーム・マーリク・イブン・アナス（RH）",
-  "dailyRoleModel24": "イマーム・アル・シャーフィイー（RH）",
-  "dailyRoleModel25": "イマーム・アハマド・イブン・ハンバル（RH）",
-  "dailyRoleModel26": "イマーム・アル・ブハーリー（RH）",
-  "dailyRoleModel27": "イマーム・ムスリム（RH）",
-  "dailyRoleModel28": "イマーム・アル・ティルミズィー（RH）",
-  "dailyRoleModel29": "アル・ガザーリー（RH）",
-  "dailyRoleModel30": "イブン・アル・カイイム・アル・ジャウズィーヤ（RH）",
-  "dailyRoleModel31": "イブン・タイミーヤ（RH）",
-  "dailyRoleModel32": "アル・ナワウィー（RH）",
-  "dailyRoleModel33": "イブン・ハジャル・アル・アスカラーニー（RH）",
-  "dailyRoleModel34": "イブン・カティール（RH）",
-  "dailyRoleModel35": "アル・タバリー（RH）",
-  "dailyRoleModel36": "スフヤーン・アル・タウリー（RH）",
-  "dailyRoleModel37": "ファフル・アッディーン・アル・ラーズィー（RH）",
-  "dailyRoleModel38": "イブン・シーナー（RH）",
-  "dailyRoleModel39": "アル・ビルーニー（RH）",
-  "dailyRoleModel40": "イブン・ルシュド（RH）",
-  "dailyRoleModel41": "イブン・ハルドゥーン（RH）",
-  "dailyRoleModel42": "イブン・バットゥータ（RH）",
-  "dailyRoleModel43": "イブラーヒーム預言者（AS）",
-  "dailyRoleModel44": "ムーサー預言者（AS）",
-  "dailyRoleModel45": "イーサー預言者（AS）",
-  "dailyRoleModel46": "ユースフ預言者（AS）",
-  "dailyRoleModel47": "ダーウード預言者（AS）",
-  "dailyRoleModel48": "スライマーン預言者（AS）",
-  "dailyRoleModel49": "ノー預言者（AS）",
-  "dailyRoleModel50": "ユーヌス預言者（AS）",
-  "dailyRoleModel51": "アイユーブ預言者（AS）",
-  "dailyRoleModel52": "ルカイヤ・ビント・ムハンマド（RA）",
-  "dailyRoleModel53": "ザイナブ・ビント・ムハンマド（RA）",
-  "dailyRoleModel54": "ハッサン・イブン・アリー（RA）",
-  "dailyRoleModel55": "フセイン・イブン・アリー（RA）",
-  "dailyRoleModel56": "ジャファル・イブン・アビー・ターリブ（RA）",
-  "dailyRoleModel57": "アブー・ズァル・アル・ギファーリー（RA）",
-  "dailyRoleModel58": "タルハ・イブン・ウバイドゥッラー（RA）",
-  "dailyRoleModel59": "アズ・ズバイル・イブン・アル・アウワーム（RA）",
-
-  "locationConsentLabel": "キブラの方向と祈りの時間のためにAyaraが私の場所を使用することを許可してください",
-  "locationConsentHint": "これらの機能にのみ使用されます。あなたの位置が共有または保存されることはありません",
-
-  "askPageTitle": "Ayaraに聞く",
-  "askPageDescription": "信仰、祈り、生活、またはイスラム実践について何でも質問し、クルアーンとスンナに根ざしたガイダンスを受け取ってください",
+  "dailyGraceReflectionLabel": "夜の内省",
+  "dailyGraceCopiedToast": "聖句をクリップボードにコピーしました",
+  "locationConsentLabel": "Qibla の方向と礼拝時間のために Ayara が現在地を使用することを許可する",
+  "locationConsentHint": "これらの機能のみに使用されます。位置情報が共有または保存されることはありません。",
+  "askPageTitle": "Ayara に尋ねる",
+  "askPageDescription": "信仰、礼拝、人生、またはイスラーム実践について何でも質問してください。クルアーンとアフル・アル＝バイトの教えに根ざした導きを受け取れます。",
   "askPageInputHint": "ここに質問を入力してください…",
-  "askPageSubmitCta": "聞く",
-  "askPageInputEmptyError": "最初に質問を書いてください",
+  "askPageSubmitCta": "質問する",
+  "askPageInputEmptyError": "まず質問を書いてください。",
   "askResultYourQuestion": "あなたの質問",
-
-  "guidancePageTitle": "祈りとガイダンス",
-  "qiblaFacingMecca": "メッカに向かっている",
-  "qiblaCompassInstruction": "金色の針が上向きになるまで、携帯電話を回転させてください\nその方向はキブラ（メッカ）を指しています",
-  "qiblaGpsUnavailableBody": "GPS信号が弱い。屋外に移動して、再試行をタップしてください",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "マッカの方向を向いています",
+  "qiblaCompassInstruction": "金色の針が上を向くまでスマートフォンを回してください。\nその方向がキブラ（マッカ）です。",
+  "qiblaGpsUnavailableBody": "GPS 信号が弱いです。屋外へ移動して、再試行をタップしてください。",
   "qiblaRetry": "再試行",
   "qiblaTitle": "キブラの方向",
-  "qiblaDistanceLabel": "メッカまで{km}km",
+  "qiblaDistanceLabel": "マッカまで {km} km",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "場所が必要です",
-  "qiblaLocationNeededBody": "Ayaraが、あなたが住んでいる場所からメッカのカアバの方向を計算できるようにするには、位置情報へのアクセスを許可してください",
+  "qiblaLocationNeededTitle": "位置情報が必要です",
+  "qiblaLocationNeededBody": "現在地へのアクセスを許可すると、今いる場所からマッカのカアバの方向を Ayara が計算できます。",
   "qiblaOpenSettings": "設定を開く",
-  "qiblaCompassLoading": "あなたの位置を見つけ中…",
-  "qiblaTowardMecca": "メッカに向かって",
-
-  "prayerTimesTitle": "祈りの時間",
+  "qiblaCompassLoading": "現在地を確認中…",
+  "qiblaTowardMecca": "マッカの方向へ",
+  "prayerTimesTitle": "礼拝時間",
   "prayerTimesFajr": "ファジュル",
   "prayerTimesDhuhr": "ズフル",
   "prayerTimesAsr": "アスル",
   "prayerTimesMaghrib": "マグリブ",
   "prayerTimesIsha": "イシャー",
-  "prayerTimesLocationNeededTitle": "場所が必要です",
-  "prayerTimesLocationNeededBody": "Ayaraが、あなたの都市の正確な祈り時間を計算できるようにするには、位置情報へのアクセスを許可してください",
+  "prayerTimesLocationNeededTitle": "位置情報が必要です",
+  "prayerTimesLocationNeededBody": "Ayara があなたの都市の正確な礼拝時間を計算できるよう、位置情報へのアクセスを許可してください。",
   "prayerTimesNextLabel": "次",
-  "prayerTimesDoneLabel": "終了",
-
-  "monthlyPrayerTimesTitle": "月ごとの祈りの時間",
-  "monthlyPrayerTimesViewButton": "フルマンスを表示",
+  "prayerTimesDoneLabel": "完了",
+  "monthlyPrayerTimesTitle": "月間礼拝時間",
+  "monthlyPrayerTimesViewButton": "月全体を見る",
   "monthlyPrayerTimesNextMonth": "来月",
   "monthlyPrayerTimesDayHeader": "日",
-
-  "sharePrayerTimes": "祈りの時間を共有",
-
-  "prayerNotificationsTitle": "祈りのリマインダー",
-  "prayerNotificationsDescription": "毎日の祈り時間を通じてつながったままでいられるよう、各祈り時間の前に穏やかなリマインダーを受け取ってください",
-  "prayerNotificationsEnable": "祈りのリマインダーを有効にする",
+  "sharePrayerTimes": "礼拝時間を共有",
+  "notificationsSectionTitle": "通知",
+  "notificationsSectionSubtitle": "礼拝リマインダー、カレンダーイベントなど",
+  "dailyReflectionReminderTitle": "毎日の内省",
+  "dailyReflectionReminderDescription": "Ayara を開いて信仰とつながるための、やさしい毎日のリマインダーです。",
+  "dailyReflectionReminderEnable": "毎日のリマインダーを有効にする",
+  "dailyReflectionReminderTimeLabel": "リマインダー時刻",
+  "prayerNotificationsTitle": "礼拝リマインダー",
+  "prayerNotificationsDescription": "一日の中で信仰とつながり続けられるよう、各礼拝時間の前にやさしいリマインダーを受け取ります。",
+  "prayerNotificationsEnable": "礼拝リマインダーを有効にする",
   "prayerNotificationsOpenSettings": "通知設定を開く",
-  "prayerNotificationsDenied": "通知は無効です",
-  "prayerNotificationsDeniedHint": "設定に移動してAyaraの通知を許可して、祈り時間のリマインダーを受け取ってください",
-
-  "notificationsConsentLabel": "祈り時間の通知を許可してください",
-
-  "prayerNotifTitleFajr": "🌅ファジュル～暁の祈り",
-  "prayerNotifBodyFajr": "最高の祈りは暁の祈りです。起きて、自分自身を清めて、アッラーの前に立ってください",
-
-  "prayerNotifTitleDhuhr": "☀️ズフル～正午の祈り",
-  "prayerNotifBodyDhuhr": "あなたの日を一時停止してアッラーに戻ってください。ズフルの祈り時間が到着しました",
-
-  "prayerNotifTitleAsr": "🌤️アスル～午後の祈り",
-  "prayerNotifBodyAsr": "真ん中の祈りを守ってください。アスル時間が来ました。それを逃さないでください",
-
-  "prayerNotifTitleMaghrib": "🌇マグリブ～夕日の祈り",
-  "prayerNotifBodyMaghrib": "太陽は沈みました。マグリブを提供してアッラーに感謝してください",
-
-  "prayerNotifTitleIsha": "🌙イシャー～夜の祈り",
-  "prayerNotifBodyIsha": "アッラーの思い出であなたの日を終わらせてください。ハイヤ・アラル・ファラー～成功に来てください",
-
-  "outOfReflectionsBannerText": "すべての瞑想を使用しました",
-  "outOfReflectionsBannerCta": "もっと取得",
-
+  "prayerNotificationsDenied": "通知は無効になっています",
+  "prayerNotificationsDeniedHint": "設定で Ayara の通知を許可すると、礼拝時間のリマインダーを受け取れます。",
+  "notificationsConsentLabel": "礼拝時間の通知を許可する",
+  "prayerNotifTitleFajr": "🌅 ファジュル — 夜明けの礼拝",
+  "prayerNotifBodyFajr": "ファジュルはアフル・アル＝バイトの朝の礼拝です。イマーム・アリー（AS）はこう言いました。「夜明けの礼拝を、最も大切な信託を守るように守りなさい。」起きて身を清め、アッラーの御前に立ちましょう。",
+  "prayerNotifTitleDhuhr": "☀️ ズフル — 正午の礼拝",
+  "prayerNotifBodyDhuhr": "アフル・アル＝バイトのイマームたちは、想起のあらゆる瞬間を大切にしました。一日の流れをいったん止め、必要ならズフルとアスルを合わせ、心を再びアッラーへ向けましょう。",
+  "prayerNotifTitleAsr": "🌤️ アスル — 午後の礼拝",
+  "prayerNotifBodyAsr": "礼拝を守りなさい。なぜならそれは、あなたとアッラーとの契約だからです。アスルの時が来ました — 想起なくして通り過ぎさせないでください。",
+  "prayerNotifTitleMaghrib": "🌇 マグリブ — 日没の礼拝",
+  "prayerNotifBodyMaghrib": "日が沈みました — アフル・アル＝バイトが祈願のために神聖とした時間です。マグリブの礼拝を行い、夜が始まる前にドゥアーの中で手をアッラーへ差し伸べましょう。",
+  "prayerNotifTitleIsha": "🌙 イシャー — 夜の礼拝",
+  "prayerNotifBodyIsha": "一日をアッラーとともに締めくくりましょう。イマームたちは、イシャーの後のサラート・アル＝ライルを勧めました — ただしまずはイシャーを終え、その想起とともに一日を閉じましょう。",
+  "outOfReflectionsBannerText": "すべての内省を使い切りました",
+  "outOfReflectionsBannerCta": "もっと入手する",
   "dhikrPageTitle": "ズィクル",
-  "dhikrTapToCount": "数えるために円をタップしてください",
+  "dhikrTapToCount": "円をタップして数える",
   "dhikrResetButton": "リセット",
-  "dhikrComplete": "マシャーアッラー",
-  "dhikrCompleteMessage": "あなたはアッラーの99の思い出を完成させました。彼らはあなたの心のための光であるかもしれません",
-
-  "disclaimerTitle": "このアプリの指導について",
-  "disclaimerBody": "Ayaraは、信仰の旅をサポートするイスラム教の瞑想、リマインダー、精神的なコンテンツを提供します。このコンテンツは、一般的な情報と感動的な目的でのみ提供されます\n\nAyaraは適格な学問を置き換えません\nこのアプリのガイダンスは、学んだイスラム学者、イマーム、ムフティ、または神学的に訓練された教師の代替ではありません。宗教的な裁定、ハラール・ハラム・マッターズ、または個人的な宗教的義務についての質問がある場合は、コミュニティ内の適格な宗教当局に相談してください\n\nこのアプリは宗教的な裁定を発行しません\nAyaraはフィクハ（イスラム教の法学）または個人的な宗教的義務に関する公式な決定を下していません。ここで何も、ファットワーや拘束力のある宗教的な指示として扱われるべきではありません\n\n学問的解釈は異なります\nイスラム教は、伝統、思想学派（マッドハス）、および学者の意見の多くの多様性を包含しています。このアプリのコンテンツは一般的な視点を反映しており、すべての伝統または学校を等しく表さないかもしれません\n\nコミュニティは重要です\nこのアプリは信仰伝統へのあなたの関与を促進することを目的とし、あなたの地元のモスク、イマーム、および宗教コミュニティの重要な役割を深く尊重しています。私たちはあなたが近くの適格な教師とつながったまま、学んでいることをお勧めします",
+  "dhikrComplete": "マーシャーアッラー",
+  "dhikrCompleteMessage": "アッラーへの想起を 100 回完了しました。それがあなたの心の光となりますように。",
+  "disclaimerTitle": "このアプリの導きについて",
+  "disclaimerBody": "Ayara は、クルアーンとアフル・アル＝バイトの教えに根ざしたイスラームの内省、リマインダー、霊的なコンテンツを提供し、あなた個人の信仰の歩みを支えます。このコンテンツは、一般的な情報提供と霊的な励ましのみを目的として提供されています。\n\nAyara は資格ある学識を置き換えるものではありません。\nこのアプリの導きは、学識あるイスラーム学者、マルジャア、または神学的訓練を受けた教師の代わりにはなりません。シーア派イスラームでは、宗教的導きはジャアファリー法学（フィクフ）と、生きたマルジャア（模範の源）に従う伝統に基づいています。これは、宗教実践において信徒を導く資格ある法学者です。宗教的裁定、ハラールとハラーム、あるいは個人的な宗教上の義務に関する質問がある場合は、資格あるマルジャアまたは地域の学者に相談してください。\n\nこのアプリは宗教的裁定を出しません。\nAyara は、フィクフや個人的な宗教的義務に関する権威ある決定を行いません。ここにある内容はファトワーや拘束力のある宗教指示として扱われるべきではありません。\n\nアフル・アル＝バイトの中心性。\nシーア派イスラームでは、預言者ムハンマド ﷺ とその清浄な家族であるアフル・アル＝バイトは、クルアーンに続くイスラーム共同体の権威ある導き手です。アフル・アル＝バイトの十二イマームは、イスラームの教えを解釈するために神によって任命された存在です。このアプリのコンテンツはこの伝統を反映し、それを忠実に敬おうとするものです。\n\n共同体の重要性。\nこのアプリは、あなたが信仰と関わることを励ますことを目的としつつ、地元のモスク、イスラームセンター、宗教共同体の重要な役割を深く尊重しています。近くの資格ある教師とつながり、そこから学び続けることをお勧めします。",
   "disclaimerClose": "理解しました",
-  "disclaimerInfoTooltip": "このアプリの指導について",
-  "disclaimerSettingsSubtitle": "一般的な情報目的のみ。タップして完全な免責事項を読んでください",
-  "disclaimerSectionHeader": "ガイダンス免責事項"
+  "disclaimerInfoTooltip": "このアプリの導きについて",
+  "disclaimerSettingsSubtitle": "一般的な情報提供のみを目的としています。タップして全文をお読みください。",
+  "disclaimerSectionHeader": "導きに関する免責事項",
+  "navHome": "ホーム",
+  "navReflect": "内省",
+  "navDuas": "ドゥアー",
+  "navCalendar": "カレンダー",
+  "dashboardToday": "今日",
+  "dashboardComingUp": "今後の予定",
+  "dashboardDaysUnit": "{count, plural, one {日} other {日}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "クイックアクセス",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "ズィクル",
+  "quickActionDailyGrace": "導き",
+  "quickActionPrayerTimes": "礼拝時間",
+  "askAyaraTitle": "Ayara に尋ねる",
+  "askAyaraSubtitle": "イスラームに関するどんな質問でも、丁寧で導きのある答えを受け取れます。",
+  "askAyaraHint": "例: ラマダーンの意義とは何ですか？",
+  "askAyaraSubmit": "質問する",
+  "wisdomOfTheDayTitle": "今日の知恵",
+  "calendarScreenTitle": "イスラーム暦",
+  "calendarUpcomingOccasions": "今後の出来事",
+  "calendarOccasionRemindersTitle": "行事リマインダー",
+  "calendarOccasionRemindersHint": "各行事の前夜に通知します",
+  "calendarNotifPermissionDenied": "通知の許可が拒否されました。端末の設定で有効にしてください。",
+  "calendarNoEvents": "今後のイベントは見つかりませんでした。",
+  "calendarAddToPhone": "電話のカレンダーに追加",
+  "calendarAddedToPhone": "カレンダーに追加されました",
+  "calendarCountdownToday": "今日",
+  "calendarCountdownTomorrow": "明日",
+  "calendarCountdownDays": "{days}日後",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "1月",
+  "calendarMonthFeb": "2月",
+  "calendarMonthMar": "3月",
+  "calendarMonthApr": "4月",
+  "calendarMonthMay": "5月",
+  "calendarMonthJun": "6月",
+  "calendarMonthJul": "7月",
+  "calendarMonthAug": "8月",
+  "calendarMonthSep": "9月",
+  "calendarMonthOct": "10月",
+  "calendarMonthNov": "11月",
+  "calendarMonthDec": "12月",
+  "calendarSeasonMuharramEarly": "ムハッラムの日々 — カルバラーを思い起こす",
+  "calendarSeasonAshura": "アーシューラー — ヤー・フサイン（AS）",
+  "calendarSeasonMuharramLate": "ムハッラム — 追悼と内省の日々",
+  "calendarSeasonArbaeen": "アルバイーン — フサインの四十日",
+  "calendarSeasonRoadToArbaeen": "アルバイーンへの道",
+  "calendarSeasonMabath": "マブアス・ムバーラク — 啓示の夜明け",
+  "calendarSeasonMidShaban": "シャアバーン半ば — イマーム・アル＝マフディー（AJ）の誕生日",
+  "calendarSeasonRamadan": "ラマダーン・ムバーラク — クルアーンの月",
+  "calendarSeasonGhadir": "イード・アル＝ガディール・ムバーラク！",
+  "hijriMonth1": "ムハッラム",
+  "hijriMonth2": "サファル",
+  "hijriMonth3": "ラビーウル＝アウワル",
+  "hijriMonth4": "ラビーウッ＝サーニー",
+  "hijriMonth5": "ジュマーダー・アル＝アウワル",
+  "hijriMonth6": "ジュマーダー・アル＝サーニー",
+  "hijriMonth7": "ラジャブ",
+  "hijriMonth8": "シャアバーン",
+  "hijriMonth9": "ラマダーン",
+  "hijriMonth10": "シャウワール",
+  "hijriMonth11": "ズル＝カアダ",
+  "hijriMonth12": "ズル＝ヒッジャ",
+  "duasScreenTitle": "ドゥアーとズィヤーラ",
+  "duasSearchHint": "ドゥアー、ズィヤーラを検索…",
+  "duasFilterAll": "すべて",
+  "duasCount": "{count, plural, one {{count}件のドゥアー} other {{count}件のドゥアーとズィヤーラ}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "ドゥアーが見つかりません。",
+  "duaCategoryDaily": "毎日",
+  "duaCategoryWeekly": "毎週",
+  "duaCategoryOccasions": "行事",
+  "duaCategoryZiyarat": "ズィヤーラ",
+  "duaCategoryTasbih": "タスビーフ",
+  "eventTypeBirth": "誕生",
+  "eventTypeMartyrdom": "殉教",
+  "eventTypeOccasion": "行事",
+  "duaCopyTooltip": "翻訳をコピー",
+  "duaToggleTransliteration": "転写",
+  "duaToggleTranslation": "翻訳",
+  "duaAskAiLabel": "このドゥアーを Ayara に説明してもらう",
+  "duaAskAiLockedLabel": "Ayara に尋ねる（Wilaya）",
+  "duaAiLockedMessage": "Ayara の解説は Wilaya メンバー向けです。設定からアップグレードしてください。",
+  "duaAiComingSoon": "「{name}」について Ayara に尋ねる — 近日公開！",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "ドゥアーをクリップボードにコピーしました。",
+  "tasbihAllahuAkbarMeaning": "アッラーは最も偉大である",
+  "tasbihAlhamdulillahMeaning": "すべての称賛はアッラーに属する",
+  "tasbihSubhanallahMeaning": "アッラーに栄光あれ",
+  "tasbihResetTooltip": "リセット",
+  "tasbihCompleteTitle": "タスビーフ完了",
+  "tasbihCompleteMessage": "アッラーがあなたのズィクルを受け入れてくださいますように。",
+  "tasbihTapHint": "どこでもタップして数える",
+  "tasbihatScreenTitle": "礼拝ガイド",
+  "tasbihatScreenSubtitle": "礼拝の賛美",
+  "tasbihatScreenDescription": "日々の礼拝の中と後に唱える賛美についての完全ガイド — アフル・アル＝バイト（a）の伝統に従っています。",
+  "tasbihatArba3Title": "タスビハート・アル＝アルバア",
+  "tasbihatArba3Subtitle": "3・4ラクアで唱える",
+  "tasbihatArba3Info": "シーア派法学では、タスビハート・アル＝アルバアはズフル、アスル、マグリブ、イシャーの第3・第4ラクアにおいてスーラ・アル＝ファーティハに代わるものです。1回唱えることが義務（ワージブ）であり、3回唱えることが推奨（ムスタハッブ）されています。",
+  "tasbihatArba3Translation": "アッラーに栄光あれ · すべての称賛はアッラーのもの\nアッラーのほかに神はなし · アッラーは最も偉大である",
+  "tasbihatArba3CompleteTitle": "読誦完了",
+  "tasbihatArba3CompleteMessage": "あなたの礼拝が受け入れられますように — アーミーン",
+  "tasbihatArba3TapHint": "各読誦のあとにタップ",
+  "tasbihatZahraSubtitle": "毎礼拝の後 · 100珠",
+  "tasbihatZahraOriginLabel": "由来",
+  "tasbihatZahraHadith": "ファーティマ・アル＝ザフラー（sa）は預言者 ﷺ に召使いを求めました。すると彼は言いました。「それよりも良いものを教えようか。毎礼拝の後にスブハーナッラーを33回、アルハムドゥリッラーを33回、アッラーフ・アクバルを34回唱えなさい。それはあなたにとって召使いよりも良い。」",
+  "tasbihatZahraHadithSource": "— ビハール・アル＝アンワール、第85巻",
+  "tasbihatZahraOpenCounter": "タスビーフカウンターを開く",
+  "tasbihatDuasTitle": "推奨されるドゥアー",
+  "tasbihatDuasSubtitle": "礼拝を終えたあとに",
+  "tasbihatDuaAyatKursiTitle": "アーヤトゥル・クルスィー",
+  "tasbihatDuaAyatKursiWhen": "各義務礼拝の後",
+  "tasbihatDuaAyatKursiSource": "スーラ・アル＝バカラ 2:255",
+  "tasbihatDuaAyatKursiNote": "各義務礼拝の後にアーヤトゥル・クルスィーを唱える者と天国との間にあるのは死だけです。イマーム・アル＝バーキル（a）は、これがクルアーンの最も偉大な節のひとつであると述べました。",
+  "tasbihatDuaSalawatTitle": "サラワート",
+  "tasbihatDuaSalawatWhen": "各礼拝の後 · すべての祈願を締めくくる",
+  "tasbihatDuaSalawatSource": "イマーム・アル＝サーディク（a）— アル＝カーフィー",
+  "tasbihatDuaSalawatNote": "預言者 ﷺ とその清浄な家族（アール・ムハンマド）に祝福を送ることは、すべてのドゥアーを締めくくるために推奨されています。イマーム・アル＝サーディク（a）はこう言いました。「ムハンマドとその家族にサラワートを送るまで、いかなるドゥアーも保留されたままである。」",
+  "tasbihatDuaFarajTitle": "ドゥアー・アル＝ファラジュ",
+  "tasbihatDuaFarajWhen": "各礼拝の後 · 時代のイマームのために",
+  "tasbihatDuaFarajSource": "イマーム・アル＝ハサン・アル＝アスカリー（a）によって教えられた",
+  "tasbihatDuaFarajNote": "第12代イマームであるイマーム・アル＝マフディー（af）の再臨を願うドゥアーで、父から教えられたものです。シーア派信徒は、現存するイマームへの献身として、毎礼拝の後に日々これを唱えます。",
+  "tasbihatDuaTasbihFatimaTitle": "ファーティマのタスビーフ",
+  "tasbihatDuaTasbihFatimaWhen": "マグリブとイシャーの後 · 特に推奨",
+  "tasbihatDuaTasbihFatimaSource": "イマーム・アル＝バーキル（a）— ビハール・アル＝アンワール",
+  "tasbihatDuaTasbihFatimaNote": "イマーム・アル＝バーキル（a）は、就寝前にイシャーの後でタスビーフ・アル＝ザフラーを唱えることは、1000ラクアの任意礼拝より優れていると述べました。その光は天へ昇ります。",
+  "tasbihFatimaGiftPre": "預言者からの贈り物",
+  "tasbihFatimaGiftPost": "毎礼拝の後に唱える",
+  "prayerTrackerTitle": "礼拝トラッカー",
+  "prayerTrackerPrayed": "礼拝済み",
+  "prayerTrackerDayStreak": "{count}日連続",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "今日のすべての礼拝が完了しました。アッラーが受け入れてくださいますように。",
+  "dhikrTrackerTitle": "タスビーフ・アル＝ザフラー",
+  "dhikrTrackerCompletedToday": "今日は完了",
+  "dhikrTrackerNotDoneToday": "今日は未実施",
+  "dhikrTrackerDayStreak": "{count}日連続",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "タスビーフ・リマインダー",
+  "dhikrReminderDescription": "タスビーフ・アル＝ザフラー（SA）を唱えるための、やさしい毎日のリマインダーです。",
+  "dhikrReminderEnable": "タスビーフ・リマインダーを有効にする",
+  "dhikrReminderTimeLabel": "リマインダー時刻",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "今日のハディース",
+  "hadithLabelArabic": "アラビア語",
+  "hadithLabelTranslation": "翻訳",
+  "hadithBadge": "ハディース",
+  "hadithShare": "このハディースを共有",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nAyaraより",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "前へ",
+  "hadithNavNext": "次へ",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "14人のマスウミーン",
+  "imamsScreenSubtitle": "預言者、ファーティマ、そして十二イマーム — イスラームの無謬の導き手たち",
+  "imamLabelBorn": "誕生",
+  "imamLabelMartyrdom": "殉教",
+  "imamLabelStatus": "地位",
+  "imamSectionBiography": "伝記",
+  "imamSectionFamousSaying": "有名な言葉",
+  "imamRoleProphet": "最後の預言者",
+  "imamRoleInfallible": "無謬なる者",
+  "imamOrdinal1": "第1代イマーム",
+  "imamOrdinal2": "第2代イマーム",
+  "imamOrdinal3": "第3代イマーム",
+  "imamOrdinal4": "第4代イマーム",
+  "imamOrdinal5": "第5代イマーム",
+  "imamOrdinal6": "第6代イマーム",
+  "imamOrdinal7": "第7代イマーム",
+  "imamOrdinal8": "第8代イマーム",
+  "imamOrdinal9": "第9代イマーム",
+  "imamOrdinal10": "第10代イマーム",
+  "imamOrdinal11": "第11代イマーム",
+  "imamOrdinal12": "第12代イマーム",
+  "duaAudioScreenTitle": "ドゥアーを聴く",
+  "duaAudioScreenSubtitle": "聴きたいドゥアーを選んでください。タイルをタップすると再生／一時停止できます。",
+  "duaAudioComingSoonMessage": "このドゥアーの音声は今後のアップデートで利用可能になります。",
+  "duaAudioClose": "閉じる",
+  "duaAudioError": "音声を読み込めませんでした。接続を確認してください。",
+  "duaAudioMetaTransmittedBy": "伝承者",
+  "duaAudioMetaOccasion": "行事",
+  "duaAudioMetaDuration": "長さ",
+  "quickActionDailyHadith": "今日のハディース",
+  "quickAction14Masumeen": "14人のマスウミーン",
+  "quickActionListenDuas": "聴く",
+  "quickActionTasbihat": "礼拝ガイド",
+  "pilgrimageSectionTitle": "聖なる旅",
+  "pilgrimageSectionSubtitle": "ハッジとウムラの完全ガイド — メッカのアッラーの聖なる御家への巡礼",
+  "hajjCardTitle": "ハッジ",
+  "hajjCardSubtitle": "イスラームの第五の柱",
+  "hajjCardDescription": "偉大な年次巡礼 — 可能なすべてのムスリムに一生に一度義務づけられるもの",
+  "hajjScreenTitle": "ハッジガイド",
+  "hajjScreenSubtitle": "大巡礼のためのステップバイステップガイド",
+  "umrahCardTitle": "ウムラ",
+  "umrahCardSubtitle": "小巡礼",
+  "umrahCardDescription": "一年中いつでも行える、非常に報いの大きい霊的旅",
+  "umrahScreenTitle": "ウムラガイド",
+  "umrahScreenSubtitle": "小巡礼のためのステップバイステップガイド",
+  "pilgrimageStepsTitle": "儀礼と手順",
+  "pilgrimageImportantNotesTitle": "重要な注意事項",
+  "pilgrimageDuaTitle": "このステップのためのドゥア",
+  "pilgrimageJafariNoteTitle": "ジャアファリー法学のメモ",
+  "pilgrimageComplete": "✓ 完了",
+  "pilgrimageMarkDone": "完了としてマークする",
+  "pilgrimageProgress": "{done} / {total} ステップ",
+  "pilgrimageReadTime": "~{minutes} 分",
+  "pilgrimageShiaNoteTitle": "シーア派巡礼者",
+  "pilgrimageShiaNoteBody": "シーア派巡礼者は伝統的に、メディナにも赴き、マスジド・アン＝ナバウィーにある預言者ムハンマド（SAW）の墓、そしてジャンナトゥル・バキーにあるイマームたちの墓を訪れます。これらの訪問は非常に大きな霊的意義を持ち、多くのシーア派ムスリムにとって旅の不可欠な一部と見なされています。",
+  "hajjIntro": "ハッジはイスラームの第五の柱であり、身体的・経済的に可能なすべてのムスリムに一生に一度義務づけられています。ズル・ヒッジャ月に行われ、預言者イブラーヒーム（AS）、その息子イスマーイール（AS）、そしてハージャル夫人の足跡をたどるものです。シーア派ムスリムにとって、ハッジにはメディナにある預言者（SAW）とアフルル・バイトの安息の地を訪れるという深い祝福も含まれます。",
+  "umrahIntro": "ウムラはメッカへの小巡礼であり、ハッジとは異なり、一年中いつでも行うことができます。義務ではありませんが、非常に大きな霊的報いがあり、強く推奨される崇拝行為とされています。ハッジといくつかの儀礼を共有していますが、より短く、四つの主要な儀礼から成ります。"
 }

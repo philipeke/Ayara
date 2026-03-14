@@ -8,7 +8,8 @@ import 'package:ayara/core/config/theme.dart';
 import 'package:ayara/l10n/app_localizations.dart';
 
 import 'package:ayara/features/qibla/widgets/qibla_compass_widget.dart';
-import 'package:ayara/features/qibla/widgets/prayer_times_widget.dart';
+import 'package:ayara/features/qibla/widgets/qibla_info_card.dart';
+import 'package:ayara/features/qibla/widgets/tasbih_fatima_widget.dart';
 import 'package:ayara/features/limit/usage_service.dart';
 
 class QiblaScreen extends StatefulWidget {
@@ -381,214 +382,42 @@ class _QiblaScreenState extends State<QiblaScreen> {
                   ),
                 ),
 
-                // ── Divider ────────────────────────────────────────────────
+                // ── Qibla info card (bearing + live heading) ───────────────
                 SliverToBoxAdapter(
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(20, 28, 20, 28),
-                    child: Row(
-                      children: [
-                        Expanded(
-                          child: Divider(
-                            color: AppColors.gold.withValues(alpha: 0.25),
-                            thickness: 0.7,
+                  child: AnimatedBuilder(
+                    animation: UsageService.instance,
+                    builder: (context, _) {
+                      final isPremium =
+                          (UsageService.instance.current?.plan ?? 'basic') ==
+                              'premium';
+                      // Show a locked placeholder for standard users;
+                      // hide only when loading/denied (no meaningful UI to lock)
+                      final hasData = _position != null &&
+                          !_locationLoading &&
+                          !_locationDenied &&
+                          !_gpsUnavailable;
+                      if (!isPremium) {
+                        return Padding(
+                          padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
+                          child: _FeatureLock(
+                            child: _InfoCardPlaceholder(),
                           ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 14),
-                          child: Icon(
-                            Icons.star_rounded,
-                            color: AppColors.gold.withValues(alpha: 0.45),
-                            size: 14,
-                          ),
-                        ),
-                        Expanded(
-                          child: Divider(
-                            color: AppColors.gold.withValues(alpha: 0.25),
-                            thickness: 0.7,
-                          ),
-                        ),
-                      ],
-                    ),
+                        );
+                      }
+                      if (!hasData) return const SizedBox.shrink();
+                      return Padding(
+                        padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
+                        child: QiblaInfoCard(position: _position!),
+                      );
+                    },
                   ),
                 ),
 
-                // ── Prayer times + notifications ───────────────────────────
+                // ── Tasbih al-Zahrā ────────────────────────────────────────
                 SliverToBoxAdapter(
                   child: Padding(
-                    padding: const EdgeInsets.fromLTRB(20, 0, 20, 40),
-                    child: AnimatedBuilder(
-                      animation: UsageService.instance,
-                      builder: (context, _) {
-                        final isPremium =
-                            (UsageService.instance.current?.plan ?? 'basic') ==
-                                'premium';
-                        if (!isPremium) {
-                          // Locked prayer times — real names, no time values
-                          final prayerNames = [
-                            t.prayerTimesFajr,
-                            t.prayerTimesDhuhr,
-                            t.prayerTimesAsr,
-                            t.prayerTimesMaghrib,
-                            t.prayerTimesIsha,
-                          ];
-                          const prayerEmojis = [
-                            '🌅', '☀️', '🌤️', '🌇', '🌙'
-                          ];
-                          return _FeatureLock(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                // Section header
-                                Row(
-                                  children: [
-                                    const Icon(Icons.access_time_rounded,
-                                        color: AppColors.gold, size: 18),
-                                    const SizedBox(width: 8),
-                                    Text(
-                                      t.prayerTimesTitle.toUpperCase(),
-                                      style: const TextStyle(
-                                        color: AppColors.gold,
-                                        fontSize: 11,
-                                        fontWeight: FontWeight.w700,
-                                        letterSpacing: 1.4,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                                const SizedBox(height: 12),
-                                // Prayer rows — name only, no time
-                                Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.white.withValues(alpha: 0.04),
-                                    borderRadius: BorderRadius.circular(16),
-                                    border: Border.all(
-                                      color: AppColors.gold.withValues(alpha: 0.22),
-                                    ),
-                                  ),
-                                  child: Column(
-                                    children: List.generate(5, (i) {
-                                      final isLast = i == 4;
-                                      return Container(
-                                        decoration: BoxDecoration(
-                                          border: isLast
-                                              ? null
-                                              : Border(
-                                                  bottom: BorderSide(
-                                                    color: AppColors.gold
-                                                        .withValues(alpha: 0.10),
-                                                  ),
-                                                ),
-                                        ),
-                                        padding: const EdgeInsets.symmetric(
-                                            horizontal: 18, vertical: 14),
-                                        child: Row(
-                                          children: [
-                                            SizedBox(
-                                              width: 22,
-                                              child: Icon(Icons.circle_outlined,
-                                                  size: 10,
-                                                  color: Colors.white
-                                                      .withValues(alpha: 0.25)),
-                                            ),
-                                            const SizedBox(width: 10),
-                                            Text(
-                                              prayerEmojis[i],
-                                              style: const TextStyle(fontSize: 15),
-                                            ),
-                                            const SizedBox(width: 8),
-                                            Text(
-                                              prayerNames[i],
-                                              style: TextStyle(
-                                                color: Colors.white
-                                                    .withValues(alpha: 0.85),
-                                                fontSize: 14,
-                                                fontWeight: FontWeight.w500,
-                                                letterSpacing: 0.2,
-                                              ),
-                                            ),
-                                            // No time shown intentionally
-                                          ],
-                                        ),
-                                      );
-                                    }),
-                                  ),
-                                ),
-                                const SizedBox(height: 16),
-                                // Notification section — header + disabled switch
-                                Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.white.withValues(alpha: 0.04),
-                                    borderRadius: BorderRadius.circular(16),
-                                    border: Border.all(
-                                      color: AppColors.gold.withValues(alpha: 0.22),
-                                    ),
-                                  ),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      Padding(
-                                        padding:
-                                            const EdgeInsets.fromLTRB(18, 16, 12, 0),
-                                        child: Row(
-                                          children: [
-                                            const Icon(
-                                                Icons.notifications_rounded,
-                                                color: AppColors.gold,
-                                                size: 18),
-                                            const SizedBox(width: 8),
-                                            Expanded(
-                                              child: Text(
-                                                t.prayerNotificationsTitle
-                                                    .toUpperCase(),
-                                                style: const TextStyle(
-                                                  color: AppColors.gold,
-                                                  fontSize: 11,
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.4,
-                                                ),
-                                              ),
-                                            ),
-                                            Switch(
-                                              value: false,
-                                              onChanged: null,
-                                              inactiveThumbColor: Colors.white
-                                                  .withValues(alpha: 0.35),
-                                              inactiveTrackColor: Colors.white
-                                                  .withValues(alpha: 0.10),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding:
-                                            const EdgeInsets.fromLTRB(18, 10, 18, 16),
-                                        child: Text(
-                                          t.prayerNotificationsDescription,
-                                          style: TextStyle(
-                                            color:
-                                                Colors.white.withValues(alpha: 0.60),
-                                            fontSize: 13,
-                                            height: 1.5,
-                                          ),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ],
-                            ),
-                          );
-                        }
-                        if (_locationLoading) return const SizedBox.shrink();
-                        return PrayerTimesWidget(
-                          position: _position,
-                          locationDenied: _locationDenied,
-                          locationPermanentlyDenied: _locationPermanentlyDenied,
-                          gpsUnavailable: _gpsUnavailable,
-                          onRetry: _fetchPosition,
-                        );
-                      },
-                    ),
+                    padding: const EdgeInsets.fromLTRB(0, 28, 0, 40),
+                    child: _FeatureLock(child: TasbihFatimaWidget()),
                   ),
                 ),
               ],
@@ -720,4 +549,86 @@ class _FeatureLock extends StatelessWidget {
   }
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// Static placeholder for the info card — used as the child of _FeatureLock
+// so standard users see a greyed/locked version of the two tiles.
+// ─────────────────────────────────────────────────────────────────────────────
 
+class _InfoCardPlaceholder extends StatelessWidget {
+  const _InfoCardPlaceholder();
+
+  Widget _tile(String label, String deg, String cardinal) {
+    return Expanded(
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+        decoration: BoxDecoration(
+          color: AppColors.navy.withValues(alpha: 0.55),
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(color: AppColors.gold.withValues(alpha: 0.30)),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              label,
+              style: TextStyle(
+                color: AppColors.gold.withValues(alpha: 0.70),
+                fontSize: 9,
+                fontWeight: FontWeight.w800,
+                letterSpacing: 1.6,
+              ),
+            ),
+            const SizedBox(height: 6),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.baseline,
+              textBaseline: TextBaseline.alphabetic,
+              children: [
+                Text(
+                  deg,
+                  style: const TextStyle(
+                    color: AppColors.gold,
+                    fontSize: 26,
+                    fontWeight: FontWeight.w800,
+                    height: 1.0,
+                  ),
+                ),
+                const SizedBox(width: 6),
+                Text(
+                  cardinal,
+                  style: TextStyle(
+                    color: AppColors.gold.withValues(alpha: 0.72),
+                    fontSize: 13,
+                    fontWeight: FontWeight.w700,
+                    height: 1.0,
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 5),
+            Text(
+              '———',
+              style: TextStyle(
+                color: Colors.white.withValues(alpha: 0.30),
+                fontSize: 11,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 20),
+      child: Row(
+        children: [
+          _tile('QIBLA BEARING', '127°', 'SE'),
+          const SizedBox(width: 12),
+          _tile('YOUR HEADING', '042°', 'NE'),
+        ],
+      ),
+    );
+  }
+}

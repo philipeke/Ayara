@@ -1,585 +1,629 @@
 {
   "@@locale": "ha",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "Zaɓi harshenka",
-  "languageSelectSub": "Zaka iya canja wannan daga cikin Settings",
+  "languageSelectSub": "Zaka iya canja haka daga gida a daga Saiti",
   "actionContinue": "Ci gaba",
-  "languageSuggestedHeader": "An ba da shawarar",
-  "languageAllHeader": "Dukkan harsuna",
-  "languageSuggestedBadge": "An ba da shawarar",
-  "languageSearchHint": "Nemi…",
-
-  "planGrace": "Sauki",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Jagoran Yau",
-  "categoryFaithTrust": "Imani & Tabbatarwa",
-  "categoryPrayerReflection": "Tunani kan Sallah",
-  "categoryHopeDifficultTimes": "Haƙuri Niyya",
-  "categoryForgiveness": "Nemi Gafara",
-  "categoryLoveCompassion": "Jinni Tausayi",
-  "categoryStrengthCourage": "Karfi Imani",
-  "categoryGratitude": "Zuciya mai Godiya",
-  "categoryPurposeCalling": "Burin Rayuwa",
-  "categoryFamilyRelationships": "Dangantaka Iyali",
-  "categoryPeaceAnxietyRelief": "Zaman Lafiya",
-  "categoryWisdomOfJesus": "Hikimar Annabai",
-  "categoryHumilityCharacter": "Kirki Fahimi",
-  "categoryOvercomingTemptation": "Illi Jajire",
-  "categoryEveningReflection": "Dhikrin Jiya",
-  "categoryCustom": "Tuna Ra'ayi",
-  "dhikrMeaningSubhanallah": "Tsarki ya tabbata ga Allah",
-  "dhikrMeaningAlhamdulillah": "Dukkan yabo na Allah",
-  "dhikrMeaningAllahuAkbar": "Allah shine Mafi Girma",
-  "quranVerseHeartAtRest": "Hakika, a cikin tunawa da Allah zukatan suna samun hutu.",
-
-  "promptHint": "Taɓa kategoriya don jagoran Islama da tunani",
-
-  "currentLanguage": "Harshi na yanzu",
-  "settingsLanguage": "Saitunan harshe",
-  "settingsTitle": "Saitunan",
+  "languageSuggestedHeader": "Da aka ba da shawarar",
+  "languageAllHeader": "Dukan harsuna",
+  "languageSuggestedBadge": "Da aka ba da shawarar",
+  "languageSearchHint": "Nema…",
+  "planBasic": "Standard",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Jagoran Jiya",
+  "categorySlot02": "Imani & Karɓar",
+  "categorySlot03": "Tunani na Sallah",
+  "categorySlot04": "Jiya & Bata",
+  "categorySlot05": "Cika Gafarmawa",
+  "categorySlot06": "Inna & Tausani",
+  "categorySlot07": "Imani & Karfi",
+  "categorySlot08": "Zuciya mai Godiya",
+  "categorySlot09": "Makomar Rayuwa",
+  "categorySlot10": "Alakar Iyali",
+  "categorySlot11": "Zaman Lumana",
+  "categorySlot12": "Hikimar Annabi",
+  "categorySlot13": "Kyakkyawar Dabi'a",
+  "categorySlot14": "Tsaya wa Jaraba",
+  "categorySlot15": "Dhikrin Jiya",
+  "categoryCustom": "Tunani na Jiya",
+  "dhikrMeaningSubhanallah": "Subhana Allah",
+  "dhikrMeaningAlhamdulillah": "Alhamdulillahi Rabbil Alamin",
+  "dhikrMeaningAllahuAkbar": "Allahu Akbar",
+  "quranVerseHeartAtRest": "Haka Allah ya gaya: Lalle sannan wajen zikira na Allah, zuciyoyi suke ga hutsa.",
+  "promptHint": "Taba nau'in aiki don karɓar jagora da tunani",
+  "currentLanguage": "Halin da jiya",
+  "settingsLanguage": "Saitan harsunan",
+  "settingsTitle": "Saiti",
   "chooseLanguage": "Zaɓi harshenka",
   "continueCta": "Ci gaba",
-
-  "promptDailyGuidance": "Rubuta gajeriyar jagoran yau da aka tushe a imani na Sunni — tushe a Qur'ani, Hadisi, da koyarwar Annabi Muhammad. Zaɓi kwatancen sabuwa kowane lokaci: fa'idi ne daga ilimin Islama, gaskiya daga Sunnah, hikimar daga Sahabai ko aiki mai natsuwa daga al'adu na Islama. Samu ayar Qur'ani guda (Surah:Ayah) da tunani mai tsantsan dokoki 1–2 don ransa cikin ranar. Daidai da alwatika danganta shi ne da kalandar Islami ko ranar mahimmaciyya idan ta dace.",
-
-  "promptFaithTrust": "Rubuta gajeriyar tunani kan Imani da tabbatarwa a shirin Allah (Tawakkul). Tushe a Qur'ani, misalin Annabi Muhammad, da imani na Sahabai. Canja jaya-jaya: tabbatarwa a lokacin rashin tabbatarwa, asali ga hikimar Allah, haƙuri a cikin gwaji, ko jikim aiki mai natsuwa. Samu ayar Qur'ani guda da mataki gida ɗaya tunani daga ilimin Islama.",
-
-  "promptPrayerReflection": "Rubuta gajeriyar tunani kan sallah tushe a Salah, Dua, ko Dhikr. Canja nau'in: rani mai safiya ko jiya da alkaramsu (Adhkar), tunani kan sallahi biyar, tunani akan ayar Qur'ani, ko addu'a mai zafi. Samu ayar Qur'ani guda da saurin jiya nau'in sallah da aka yi.",
-
-  "promptHopeDifficultTimes": "Rubuta tunani kan haƙuri da niyya a lokacin wahalar. Ɗauki daga koyarwar Qur'ani game da gwaji, jikim Annabai, da jinni Allah a matakin wahalii. Canja hanya kowane lokaci. Samu ayar Qur'ani guda da hankalin ƙarfi daga al'adu na Islama.",
-
-  "promptForgiveness": "Rubuta hikimar tunani kan neman gafara (Tawbah) da jinni Allah. Ɗauki daga koyarwar Qur'ani game da tawbah, jinni Allah, da misalin gafararren Annabi Muhammad. Canja jaya-jaya: koma ga Allah, gafara wa juna, gyara dangantaka, ko imani a jinni Allah. Samu ayar Qur'ani guda da mataki gida ɗaya.",
-
-  "promptLoveCompassion": "Rubuta gajeriyar tunani kan jinni (Rahmah) da tausayi a rayuwar yau. Ɗauki daga misalin Annabi Muhammad, ra'ayin Ihsan (kyau), da koyarwar Islama game da kirki ga iyali, maƙwabta, da marasa iko. Samu ayar Qur'ani guda da ɓata kirki ɗaya don aiki yau.",
-
-  "promptStrengthCourage": "Rubuta tunani kan karfi tushe a imani da jajire. Ɗauki daga misalan Annabai, jama'ar Musulmi na farko, da masu imani da suka tsaya tunani a wahalar. Canja jaya-jaya: jajire a imani, karfi a sallah, tabbatarwa a lokacin tsoron Allah, ko jikim aiki a wahalii. Samu ayar Qur'ani guda da addu'a ɗam-ɗam ko kalmomi na alkhamar.",
-
-  "promptGratitude": "Rubuta tunani kan godiya (Shukr) ga Allah. Tushe a koyarwar Qur'ani da al'adu annabi. Canja hanya: godiya a wahalii, mutunta bayanai ƙarami, fara rana a yabe Allah, ko gane jagoran Allah a yau-yau. Samu ayar Qur'ani guda da aikin godiya ɗaya.",
-
-  "promptPurposeCalling": "Rubuta tunani kan burin rayuwa a bauta Allah da raina da gaskiya. Ɗauki daga koyarwar Qur'ani game da burin, hidima wa juna, da amfani da kalandar ɗinka don alheri. Canja jaya-jaya: hidima ga iyali da gida, neman jadwalin Allah ta Istikhara, rayuwa mai niyya, ko neman ma'ana a aiki na yau-yau. Samu ayar Qur'ani guda da tambayoyi biyu na tunani.",
-
-  "promptFamilyRelationships": "Rubuta jagoran Islama game da iyali da dangantaka tushe a Qur'ani da misalin Annabi Muhammad. Canja jaya-jaya: kirki a halin iyali, haƙuri a kunya, girmama magajiya, girke da yara a imani, ko jajire aure. Samu ayar Qur'ani guda da aikin dangantaka ɗaya don yunƙuri.",
-
-  "promptPeaceAnxietyRelief": "Rubuta tunani mai natsuwa game da neman zaman lafiya a alkhamar Allah (Dhikr) da tabbatarwa a shirin sa. Ɗauki daga koyarwar Qur'ani game da jiya zafi na zafi, sallah, da bada kai ga burin Allah. Canja hanya kowane lokaci da samu ayar Qur'ani guda da aikin natsuwa ɗaya daga al'adu na Islama.",
-
-  "promptWisdomOfJesus": "Rubuta gajeriyar hikima daga Annabai kamar aka koya a Islama. Ɗauki daga Qur'ani ko Hadisi da saurin bayani kamar ʻulamain Islama suka fahimta. Canja jaya-jaya: kirki, haƙuri, fahimi, imani, ko aiki na yau-yau. Samu ayar Qur'ani ko Hadisir musamman da aikin aiki ɗaya.",
-
-  "promptHumilityCharacter": "Rubuta tunani kan fahimi (Tawadhu) da kirki (Akhlaq). Ɗauki daga koyarwar Qur'ani, misalin Annabi Muhammad, da al'adu girke da kirki a Islama. Canja jaya-jaya: fahimi a mulkin karfi, gane kusurun, kula da juna, ko girke mai zafi a tunani. Samu ayar Qur'ani guda da aikin aiki ɗaya don yi.",
-
-  "promptOvercomingTemptation": "Rubuta tunani kan illi jajire da tsaya a hanyar daidai. Ɗauki daga jagoran Qur'ani, alkhamar Allah (Dhikr), sallah (Salah), da misalan masu imani da suka ɗiba wahalar. Canja hanya kowane lokaci. Samu ayar Qur'ani guda da dabarun aiki ɗaya don salo da 24 awake.",
-
-  "promptEveningReflection": "Rubuta tunani mai natsuwa kan jiya tushe a al'adu alkhamar jiya (Adhkar al-Masaa'). Karfafa godiya, tunani kan kanka (Muhasabah), da tabbatarwa ga Allah kafin baje. Samu tambayoyi 3–5 na tunani game da ranar, addu'a ɗam-ɗam ta kammala, da ayar Qur'ani guda.",
-
-  "wordCount": "{count, plural, one {{count} kalma} other {{count} kalmomi}}",
-
-  "optionsCta": "Zaban",
+  "wordCount": "{count, plural, one {{count} kalmashi} other {{count} kalmomi}}",
+  "optionsCta": "Zaɓubi",
   "newCta": "Sabuwa",
   "actionsTitle": "Me kake so ka yi?",
-  "copy": "Kwafa",
+  "copy": "Kwafi",
   "share": "Raba",
-  "close": "Rufe",
+  "close": "Rufawa",
   "copiedToast": "An kwafi zuwa clipboard",
-
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Labarin raba da tuntumi",
+    "description": "Email / share subject line including the category label.",
     "placeholders": {
-      "category": { "type": "String", "example": "Jagoran Yau" }
+      "category": {
+        "type": "String",
+        "example": "Jagoran Jiya"
+      }
     }
   },
-
-  "regenerateErrorTitle": "Ba a iya samar da sabuwa amsa",
-  "regenerateErrorBody": "{error}\n\nKe so ka yunƙuri?",
+  "regenerateErrorTitle": "Ba za a iya ƙaruwa da amsa ba",
+  "regenerateErrorBody": "{error}\n\nKin so ka sake yi?",
   "@regenerateErrorBody": {
-    "description": "Nuni lokacin samarin amsa ya gazata",
+    "description": "Shown when regenerating an AI answer fails.",
     "placeholders": {
-      "error": { "type": "String", "example": "Kudin network" }
+      "error": {
+        "type": "String",
+        "example": "Kuskuren sadarwa"
+      }
     }
   },
-
   "cancelCta": "Soke",
-  "retryCta": "Yunƙuri",
-
-  "authTitle": "Ƙirƙira asusu",
-  "continueAsGuest": "Ci gaba azaman bakar",
-  "signInGoogle": "Shigo da Google",
-  "signInApple": "Shigo da Apple",
-  "signInEmail": "Shigo da Jawa",
-  "upgradeWithApple": "Ci gaba da Apple",
-  "mustAccept": "Dole ne ka karɓi Sharatai da karɓi Siyasar Ziyarci.",
-  "termsLabel": "Na karɓi Sharatai na Hidima",
-  "privacyLabel": "Na karata Siyasar Ziyarci",
-  "marketingOptIn": "Na karɓi saiti sabon labarai da taslama",
-  "openTerms": "Sharatai na Hidima",
-  "openPrivacy": "Siyasar Ziyarci",
-
-  "accountSection": "Asusu",
-  "guestMode": "Yace bakar",
-  "signedIn": "Shigo",
-  "upgradeHint": "Ajiye tunani a tsoffin na'ura ta ƙirƙira asusu.",
-  "upgradeWithGoogle": "Ci gaba da Google",
+  "retryCta": "Sake yi",
+  "authTitle": "Ƙirƙira akaun",
+  "continueAsGuest": "Ci gaba a matsayin bakin",
+  "signInGoogle": "Shiga tare da Google",
+  "signInApple": "Shiga tare da Apple",
+  "signInEmail": "Shiga tare da Email",
+  "upgradeWithApple": "Ci gaba tare da Apple",
+  "mustAccept": "Dole ka karɓi sharataccen aiki da ku fahimta aikin sirri.",
+  "termsLabel": "Na karɓi Sharataccen Aiki",
+  "privacyLabel": "Na karatun Aikin Sirri",
+  "marketingOptIn": "Na karɓi sanarwa da takaita",
+  "openTerms": "Sharataccen Aiki",
+  "openPrivacy": "Aikin Sirri",
+  "accountSection": "Akaun",
+  "guestMode": "Yaren bakin",
+  "signedIn": "An shiga",
+  "upgradeHint": "Ajiye tunani kaka a cikin kayayyaki ta hanyar ƙirƙira akaun.",
+  "upgradeWithGoogle": "Ci gaba tare da Google",
   "signOut": "Fita",
-
-  "snackUpgraded": "Asusu ya sabunta da Google ✅",
-  "snackSignedIn": "Shigo da Google ✅",
-  "snackSignedOut": "Fita",
-  "snackSignedInApple": "Shigo da Apple ✅",
-  "snackSignedInGoogle": "Shigo da Google ✅",
-  "snackUpgradedApple": "Asusu ya sabunta da Apple ✅",
-  "snackUpgradedGoogle": "Asusu ya sabunta da Google ✅",
-
+  "snackUpgraded": "Akaun ya bunƙasa tare da Google ✅",
+  "snackSignedIn": "An shiga tare da Google ✅",
+  "snackSignedOut": "An fita",
+  "snackSignedInApple": "An shiga tare da Apple ✅",
+  "snackSignedInGoogle": "An shiga tare da Google ✅",
+  "snackUpgradedApple": "Akaun ya bunƙasa tare da Apple ✅",
+  "snackUpgradedGoogle": "Akaun ya bunƙasa tare da Google ✅",
   "historyTitle": "Tunani da ya gabata",
   "historyOpenCta": "Tunani da ya gabata",
-  "historyEmpty": "Babu tunani da aka ajiye jiya.",
-  "historyDeleteTitle": "Kura tunani?",
-  "historyDeleteBody": "Wannan zai bugi abin da aka zaɓa.",
-  "deleteCta": "Kura",
-
+  "historyEmpty": "Babu tunani da aka ajiya jiya.",
+  "historyDeleteTitle": "Kawar da tunani?",
+  "historyDeleteBody": "Wannan zai kawar da abubuwan da aka zaɓa da jiya.",
+  "deleteCta": "Kawar",
   "historyButton": "Tunani da ya gabata",
-  "historyEmptyTitle": "Babu tunani jiya",
-  "historyEmptyBody": "Ƙirƙira wani abu na farko — tunani da aka ajiye za a bayyana a nan.",
-  "historyDelete": "Kura",
-
-  "footerTitle": "Da Imani, Haƙuri da Jinni.",
-  "footerSubtitle": "Mataki ɗaya a lokaci.",
-  "genericErrorSnack": "Wani abin dama ya faru — yunƙuri a gida ɗaya.",
-
-  "upgradeAccountCta": "Ajiye tunani a tsoffin na'ura – ƙirƙira asusu",
-  "deleteAccount": "Kura asusu",
-  "exportData": "Fitar da bayyanannina",
-
+  "historyEmptyTitle": "Babu tunani",
+  "historyEmptyBody": "Ƙaruwa wani abu - tunani da aka ajiya zai bayyana a nan.",
+  "historyDelete": "Kawar",
+  "footerTitle": "Tare da Wilaya, Imani da Sabr",
+  "footerSubtitle": "Sallah ɗaya ɗaya",
+  "genericErrorSnack": "Wani abu ya fadi - jiya kayi try din.",
+  "upgradeAccountCta": "Ajiye tunani kaka a cikin kayayyaki – ƙirƙira akaun",
+  "deleteAccount": "Kawar da akaun",
+  "exportData": "Kawar data nawa",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Labal kafin nuni na uid",
+    "description": "Label before showing the internal Firebase UID.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Santsi 🐯\nAI yana buƙatar lokaci kafin gida na next…",
-  "rateDailyLimit": "Kun yi amfani da tunani. Samar da tunani ko sabunta ga Barakah.",
-  "rateCreditsExhausted": "Kun yi amfani da dukkan tunani. Samu sabunta ko sabunta ga Barakah.",
-  "rateGraceReflectionsExhausted": "Kun yi amfani da tunani. Samar da tunani ko sabunta ga Barakah.",
-  "rateReflectionsExhausted": "Kun yi amfani da dukkan tunani. Samu sabunta ko sabunta ga Barakah.",
-
-  "blessedDescription": "Barakah yana buɗe fasalai na addini, kategoriyoyi na gida, da alamar musamman.",
-  "championDescription": "Barakah yana buɗe fasalai na addini, kategoriyoyi na gida, da alamar musamman.",
-
-  "ratePlanExhausted": "Tunani na bugi a yanzu. Tsari: {plan}.",
+  "rateLocalThrottle": "Aje fara 🐯\nAyara na buƙaci lokaci...",
+  "rateDailyLimit": "Kun ƙare tunani jiya.\nSamu tunani ko bunƙasa zuwa Wilaya.",
+  "rateCreditsExhausted": "Kun amfani da duk tunani.\nSa kuma ko bunƙasa zuwa Wilaya.",
+  "rateGraceCreditsExhausted": "Kun ƙare tunani jiya.\nSamu tunani ko bunƙasa zuwa Wilaya.",
+  "premiumDescription": "Wilaya ta buɓugu sifofin premium, sananin nau'ikan gida, da abinda na musamman.",
+  "ratePlanExhausted": "Tunani naka babu jiya. Plani: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Nuni lokacin tunani ya bugi amma dalili shine gaba daba.",
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Sauki ko Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard ko Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "Ba a iya bincika tunani: {message}",
+  "rateCheckFailed": "Ba za a iya bincika tunani naka ba: {message}",
   "@rateCheckFailed": {
-    "description": "Nuni lokacin aikin gabatarwa ya dawo da sakamakon kudinsu.",
+    "description": "Shown when the callable function returns an error message.",
     "placeholders": {
-      "message": { "type": "String", "example": "Kudin network" }
+      "message": {
+        "type": "String",
+        "example": "Kuskuren sadarwa"
+      }
     }
   },
-
-  "rateCheckGenericError": "Wani abin dama ya faru yayin bincika tunani.",
-  "aiFallbackGeneric": "Wani abin dama ya faru — yunƙuri a gida ɗaya.",
-
+  "rateCheckGenericError": "Wani abu ya fadi yayin bincike tunani naka.",
+  "aiFallbackGeneric": "Wani abu ya fadi - jiya kayi try din.",
   "limitSectionTitle": "Tunani",
   "limitTodayLabel": "Amfani",
-  "limitCreditsLabel": "Tunani da sauran: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "Tsari: {plan}",
-  "@limitPlanLabel": {
-    "description": "Nuni sunan tsarin da aka yanke.",
+  "limitCreditsLabel": "Tunani da ya rage: {credits}",
+  "@limitCreditsLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Sauki ko Barakah" }
+      "credits": {}
     }
   },
-  "limitLoadingLabel": "Ina loadini…",
-  "limitLoadingLabelDescription": "Nuni yayin kire ƙididdiga.",
-
+  "limitPlanLabel": "Plani: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standard ko Wilaya"
+      }
+    }
+  },
+  "limitLoadingLabel": "Ana lodi…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
   "aiLimitTitle": "Tunani",
-  "aiLimitSubtitle": "Kowane amsa tana amfani da tunani ɗaya. Sauki ya haɗa da tunani na jiya. Barakah yana buɗe kategori na addini da yana ba da ɗan samarwa.",
-  "aiLimitProgressLabel": "{used} / {total} tunani da aka amfani",
+  "aiLimitSubtitle": "Kowane amsa tana amfani tunani 1. Standard ya hada da tunani farko. Wilaya ta buɓugu sifofin premium da samuwa.",
+  "aiLimitProgressLabel": "{used} / {total} tunani an amfani",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Tunani",
-  "reflectionsUsageLabel": "Amfani",
-  "reflectionsRemainingLabel": "Tunani da sauran: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Tsari: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Nuni sunan tsari.",
+  "creditsSectionTitle": "Tunani",
+  "creditsUsageLabel": "Amfani",
+  "creditsRemainingLabel": "Tunani da ya rage: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Sauki ko Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Ina loadini…",
-  "reflectionsLoadingLabelDescription": "Nuni yayin kire ƙididdiga.",
-
-  "reflectionsTitle": "Tunani",
-  "reflectionsSubtitle": "Kowane amsa tana amfani da tunani ɗaya. Sauki ya haɗa da tunani na jiya. Barakah yana buɗe kategori na addini da yana ba da ɗan samarwa.",
-  "reflectionsProgressLabel": "{used} / {total} tunani da aka amfani",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Plani: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standard ko Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Ana lodi…",
+  "creditsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+  "creditsTitle": "Tunani",
+  "creditsSubtitle": "Kowane amsa tana amfani tunani 1. Standard ya hada da tunani farko. Wilaya ta buɓugu sifofin premium da samuwa.",
+  "creditsProgressLabel": "{used} / {total} tunani an amfani",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "Kura asusu",
-  "settingsDeleteDescription": "Kura asusu da dukkan bayyanannin asusun.",
-  "settingsDeleteButtonLabel": "Kura asusu",
-  "settingsDeleteDialogTitle": "Kura asusu?",
-  "settingsDeleteDialogBody": "Wannan aikin ba mai saukowa ba.\n\nDukkan tunani, tarihi, da bayyanannin asusu za a kura.",
+  "settingsDeleteTitle": "Kawar da akaun",
+  "settingsDeleteDescription": "Kawar jiya akaun da duk bayani.",
+  "settingsDeleteButtonLabel": "Kawar da akaun nawa",
+  "settingsDeleteDialogTitle": "Kawar da akaun?",
+  "settingsDeleteDialogBody": "Wannan aiki ba zai iya komowa ba.\n\nDuk tattaunawa, tarihi da bayani na akaun za a kawar.",
   "settingsDeleteDialogCancel": "Soke",
-  "settingsDeleteDialogConfirm": "Kura",
-
-  "settingsFreeLimitUsedTitle": "Tunani na jiya da aka yi amfani",
-  "settingsFreeLimitUsedDescription": "Tunani na jiya na na'ura ya yi amfani. Sabunta ga Barakah ko samar da tunani don ci gaba.",
-
-  "settingsStarterReflectionsUsedTitle": "Tunani na jiya da aka yi amfani",
-  "settingsStarterReflectionsUsedDescription": "Tunani na jiya na na'ura ya yi amfani. Sabunta ga Barakah ko samar da tunani don ci gaba.",
-
-  "deviceBoundError": "Na'uran nan ta taba haɗa zuwa wata asusu. Shigo da asusu na asali.",
-
-  "premiumTitle": "Tsari na Barakah",
-  "premiumSubtitleBasic": "Buɗe jerin Ayara.",
-  "premiumSubtitleChampion": "Ka shi ne Barakah. Ke buƙe tunani?",
-
-  "premiumCurrentPlan": "Tsarin da yanzu: {plan}",
+  "settingsDeleteDialogConfirm": "Kawar",
+  "settingsFreeLimitUsedTitle": "Tunani farko an amfani",
+  "settingsFreeLimitUsedDescription": "Tunani farko na wannan kayan ya gaji. Bunƙasa zuwa Wilaya ko sayi tunani.",
+  "settingsStarterCreditsUsedTitle": "Tunani farko an amfani",
+  "settingsStarterCreditsUsedDescription": "Tunani farko na wannan kayan ya gaji. Bunƙasa zuwa Wilaya ko sayi tunani.",
+  "deviceBoundError": "Wannan kayan ya riga an haɗa zuwa wata akaun. Shiga tare da akaun na gida.",
+  "premiumTitle": "Yaren Wilaya",
+  "premiumSubtitleBasic": "Buɓuga cikakken kalin Ayara.",
+  "premiumSubtitlePremium": "Kana kan Wilaya. Kake bukatar tunani nari?",
+  "premiumCurrentPlan": "Plani na gida: {plan}",
   "premiumCreditsStatus": "Tunani: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "Saya ba a iya a yanzu ba.",
-  "premiumSignInToPurchase": "Shigo don samar da tunani ko buɗe Barakah.",
-
-  "premiumRestorePurchases": "Dawo da sayan",
-  "premiumProcessing": "Ina aiki…",
-  "premiumRestoreHintTitle": "Ka riga ka saya Barakah ko tunani a na'uran nan ko wani?",
-  "premiumRestoreHintBody": "Dawo da sayan idan ba a gano ba.",
-
-  "premiumBuyCredits200": "Samar da tunani 200",
-  "premiumBuyCredits400": "Samar da tunani 400",
-  "premiumBecomeChampionOneTime": "Sabunta ga tsari na Barakah",
-  "premiumChampionHint": "A matsayin Barakah, zaka iya samar da tunani gida lokacin da ke buƙe.",
-
-  "premiumUpgradeCta": "Sabunta",
-  "premiumRequiredForCategory": "Wannan kategori tana ga masu Barakah kawai. Sabunta a Settings don buɗe dukkan.",
-  "premiumBenefitsBasic": "Buɗe Barakah don samu tunani da yawa, lokaci fasalai na addini, da ci gaba ba tare da katse.",
-  "premiumBenefitsChampion": "Ka shi ne a Barakah. Idan tunani ya gaji, samar da tunani da ci gaba ba tare da catse.",
-  "premiumButtonBecomeChampion": "Buɗe Barakah",
-  "premiumButtonTopup1000": "Samar da tunani 1000",
-  "premiumChampionBadge": "Barakah yana buɗe",
-  "premiumLoadingStore": "Ina loadini kasuwa…",
-
-  "blessedTitle": "Tsari na Barakah",
-  "blessedSubtitleGrace": "Buɗe jerin Ayara.",
-  "blessedSubtitleBlessed": "Ka shi ne Barakah. Ke buƙe tunani?",
-
-  "blessedCurrentPlan": "Tsarin da yanzu: {plan}",
-  "blessedReflectionsStatus": "Tunani: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Saya ba a iya a yanzu ba.",
-  "blessedProductNotAvailable": "Wannan sabon ba a iya a kasuwa jiya. Yunƙuri daga gida.",
-  "blessedPurchaseError": "Wani abin dama ya faru yayin saya. Yunƙuri.",
-  "blessedSignInToPurchase": "Shigo don samar da tunani ko buɗe Barakah.",
-
-  "blessedRestorePurchases": "Dawo da sayan",
-  "blessedProcessing": "Ina aiki…",
-  "blessedRestoreHintTitle": "Ka riga ka saya Barakah ko tunani a na'uran nan ko wani?",
-  "blessedRestoreHintBody": "Dawo da sayan idan ba a gano ba.",
-
-  "blessedBuyReflections100": "Samar da tunani 100",
-  "blessedBuyReflections200": "Samar da tunani 200",
-  "blessedBuyReflections400": "Samar da tunani 400",
-  "blessedBecomeBlessedOneTime": "Sabunta ga Barakah",
-  "blessedTopupHint": "A matsayin Barakah, zaka iya samar da tunani gida lokacin da ke buƙe.",
-
-  "blessedUpgradeCta": "Sabunta",
-  "blessedRequiredForCategory": "Wannan kategori tana ga masu Barakah kawai. Sabunta a Settings don buɗe dukkan.",
-  "blessedFeatureLocked": "Buɗe Barakah don amfani da fasalin nan.",
-  "lockedCategoriesHint": "Wasu kategori na domin masu Barakah. Buɗe su don lura kowane tunani a jirginƙa.",
-  "blessedBenefitsGrace": "Buɗe Barakah don samu tunani da yawa, lokaci fasalai na addini, da ci gaba ba tare da katse.",
-  "blessedBenefitsBlessed": "Ka shi ne a Barakah. Idan tunani ya gaji, samar da tunani da ci gaba ba tare da catse.",
-  "blessedButtonBecomeBlessed": "Buɗe Barakah",
-  "blessedButtonTopup1000": "Samar da tunani 1000",
-  "blessedBadge": "Barakah yana buɗe",
-  "blessedLoadingStore": "Ina loadini kasuwa…",
-
-  "freePlanBlockedTitle": "Kun yi amfani da tunani na jiya",
-  "freePlanBlockedBody": "Ka shi ne a Sauki da tunani na jiya, kun yi amfani. Don ci gaba — da buɗe fasalai na addini — sabunta ga Barakah.",
-  "freePlanBlockedCtaGoPremium": "Lura zaban Barakah a ƙasa",
-
-  "graceBlockedTitle": "Kun yi amfani da tunani na jiya",
-  "graceBlockedBody": "Ka shi ne a Sauki da tunani na jiya, kun yi amfani. Don ci gaba — da buɗe fasalai na addini — sabunta ga Barakah.",
-  "graceBlockedCtaGoBlessed": "Lura zaban Barakah a ƙasa",
-
-  "rateGuestMustSignIn": "Shigo don amfani da Ayara da tunani.",
-
-  "guestNoCreditsTitle": "Yace bakar",
-  "guestNoCreditsBody": "A matsayin bakar zaka iya kallo ne, amma ba ka iya amfani da tunani. Shigo daga Settings don amfani da tunani da buɗe sayan.",
-
-  "guestNoReflectionsTitle": "Yace bakar",
-  "guestNoReflectionsBody": "A matsayin bakar zaka iya kallo ne, amma ba ka iya amfani da tunani. Shigo daga Settings don amfani da tunani da buɗe sayan.",
-
+  "premiumPurchasesUnavailable": "Saiti ba na aiki jiya.",
+  "premiumSignInToPurchase": "Shiga domin sayi tunani ko buɓugu Wilaya.",
+  "premiumRestorePurchases": "Maida saiti",
+  "premiumProcessing": "Ana aiki…",
+  "premiumRestoreHintTitle": "Ya riga ka sayi Wilaya ko tunani a wannan kayan ko wata?",
+  "premiumRestoreHintBody": "Maida saiti idan ba su bayyana ba.",
+  "premiumBuyCredits200": "Sayi tunani 200",
+  "premiumBuyCredits400": "Sayi tunani 400",
+  "premiumBecomePremiumOneTime": "Bunƙasa zuwa yaren Wilaya",
+  "premiumTopupHint": "Tare da Wilaya, zaka iya samuwa tunani kari lokacin da kake buƙata.",
+  "premiumUpgradeCta": "Bunƙasa",
+  "premiumRequiredForCategory": "Wannan nau'i ya sake wajen Wilaya ne. Bunƙasa daga Saiti domin buɓugu duk tunani.",
+  "premiumBenefitsBasic": "Buɓugu Wilaya domin samu tunani kayi, jefe nau'ikan gida premium, da ci gaba lokacin da kake buƙata.",
+  "premiumBenefitsPremium": "Kana kan yaren Wilaya. Idan tunani naka ya katuwa, saka kayi ko ci gaba ba tare da tsugi.",
+  "premiumButtonBecomePremium": "Buɓugu Wilaya",
+  "premiumButtonTopup1000": "Saka tunani 1000",
+  "premiumBadge": "Wilaya aiki",
+  "premiumLoadingStore": "Ana lodi shara…",
+  "premiumProductNotAvailable": "Wannan kayan ba na shara jiya. Kayi try din baje.",
+  "premiumPurchaseError": "Wani abu ya fadi a saiti. Kayi try din.",
+  "premiumBuyCredits100": "Saka tunani 100",
+  "premiumFeatureLocked": "Buɓugu Wilaya domin jefe wannan sifa.",
+  "lockedCategoriesHint": "Wasu nau'in nau'i za a kawo ne don jäger Wilaya. Buɓugusu domin gwada kowane tunani.",
+  "freePlanBlockedTitle": "Kun ƙare tunani farko naka",
+  "freePlanBlockedBody": "Kana kan plani Standard tare da tunani farko, kika ƙare iyaka. Domin ci gaba - da buɓugu nau'ikan gida premium - bunƙasa zuwa Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Duba zaɓubi Wilaya a gida",
+  "graceBlockedTitle": "Kun ƙare tunani farko naka",
+  "graceBlockedBody": "Kana kan plani Standard tare da tunani farko, kika ƙare iyaka. Domin ci gaba - da buɓugu nau'ikan gida premium - bunƙasa zuwa Wilaya.",
+  "graceBlockedCtaGoPremium": "Duba zaɓubi Wilaya a gida",
+  "rateGuestMustSignIn": "Shiga domin amfani da Ayara da tunani naka.",
+  "guestNoCreditsTitle": "Yaren bakin",
+  "guestNoCreditsBody": "A matsayin bakin zaka iya duba app, amma ba za ka iya amfani tunani ba. Shiga baje a Saiti domin amfani tunani da buɓugu saiti.",
   "guestDialogContinue": "Ci gaba",
-  "guestDialogLoginInstead": "Shigo a maimakon",
-
-  "optionalLabel": "zaba",
-
-  "accountDeleteSuccessTitle": "Asusu ya kura",
-  "accountDeleteSuccessBody": "Asusu da bayyanannin asusun ya kura.",
-  "accountDeleteSuccessClose": "Rufe",
-  "accountDeleteErrorTitle": "Ba a iya kura asusu",
+  "guestDialogLoginInstead": "Shiga a maimakon haka",
+  "optionalLabel": "gida",
+  "accountDeleteSuccessTitle": "An kawar da akaun",
+  "accountDeleteSuccessBody": "Akaun naka da duk bayani ya kawar da nasara.",
+  "accountDeleteSuccessClose": "Rufawa",
+  "accountDeleteErrorTitle": "Ba za a iya kawar da akaun ba",
   "accountDeleteErrorClose": "OK",
-  "accountDeleteReauthCancelled": "Jita ta soke. Shigo a maimakon da yunƙuri.",
-  "accountDeleteReauthRequired": "Kura asusu yana buƙar shigo na kwakwalwa. Fita, shigo, da yunƙuri.",
-  "settingsDeletePermanentWarning": "Wannan aikin ba mai saukowa ba. Dukkan bayyanannin za a kura.",
-
-  "dailyGraceTitle": "Jagoran Yau",
-  "dailyGraceScriptureLabel": "AYAR RANAR",
-  "dailyGraceSaintLabel": "ALIM NA JUMA'a",
+  "accountDeleteReauthCancelled": "Hanyar domin aminci ta kawar. Kayi try din baje.",
+  "accountDeleteReauthRequired": "Kawar da akaun yana buƙaci shiga gida. Kayi fita, shiga gida, kayi try din.",
+  "settingsDeletePermanentWarning": "Wannan aiki ba zai iya komowa ba. Duk bayani da aka haɗa zuwa akaun za a kawar.",
+  "dailyGraceTitle": "Jagoran Jiya",
+  "dailyGraceScriptureLabel": "AYAR JIYA",
+  "dailyGraceSaintLabel": "MALAMI NA JUMA'A",
   "dailyGraceReflectionLabel": "TUNANI NA JIYA",
-  "dailyGraceCopiedToast": "Ayar ya kwafa zuwa clipboard",
-
-  "dailyScripture0Text": "Tabbas masu tauburi su kasua jannatu da koguna, a waje na karfi ga Allah.",
-  "dailyScripture0Ref": "Qur'ani 54:54-55",
-  "dailyScripture1Text": "Ba mu aika ka abin jinni ga duniya ba ko da saurin jinjira.",
-  "dailyScripture1Ref": "Qur'ani 21:107",
-  "dailyScripture2Text": "Shin Allah ba shi isa mawallansa ba? To sai sukan tsorata ta waje.",
-  "dailyScripture2Ref": "Qur'ani 39:36",
-  "dailyScripture3Text": "Watakila ka kima wani abu, kuma shi yafi maka; da kuma watakila ka so wani abu, kuma shi mugun maka. Allah ya sani, kuma kuna ba ta sani.",
-  "dailyScripture3Ref": "Qur'ani 2:216",
-  "dailyScripture4Text": "Tabbas Allah yana da masu haƙuri.",
-  "dailyScripture4Ref": "Qur'ani 2:153",
-  "dailyScripture5Text": "Sabbaki duna; Ni kuma Zan alkhamar ku. Ku gode mini kuma kada kunan ragi.",
-  "dailyScripture5Ref": "Qur'ani 2:152",
-  "dailyScripture6Text": "Tabbas wajen Allah, babbar sa shi ne mai taussawi.",
-  "dailyScripture6Ref": "Qur'ani 49:13",
-  "dailyScripture7Text": "Wa burinshi yana daga ubankun, ba ka umarche wa juna sai ta Shi.",
-  "dailyScripture7Ref": "Qur'ani 17:23",
-  "dailyScripture8Text": "Tabbas tare da wahalii ya zo sauki.",
-  "dailyScripture8Ref": "Qur'ani 94:6",
-  "dailyScripture9Text": "Shi kuma yana tare da ku a ko'ina da kuke. Allah ya sani dukkan abubuwan da kuke yi.",
-  "dailyScripture9Ref": "Qur'ani 57:4",
-  "dailyScripture10Text": "Allah ba ya haɗa jiya bauri wanda ba ta karɓa ba.",
-  "dailyScripture10Ref": "Qur'ani 2:286",
-  "dailyScripture11Text": "Wa kuwan tabbatarwa ga Allah — Allah isa mawallansa.",
-  "dailyScripture11Ref": "Qur'ani 65:3",
-  "dailyScripture12Text": "Jinni na taɓi dukkan abubuwan.",
-  "dailyScripture12Ref": "Qur'ani 7:156",
-  "dailyScripture13Text": "Sa'ad da jiyata suka tambayi ka game da ni — ni ne kusa. Na amsa mai addu'a sa idan ya karanta mini.",
-  "dailyScripture13Ref": "Qur'ani 2:186",
-  "dailyScripture14Text": "Wa kuwan yi aiki da muwa a rai, namiji ko mache — mun yi masu raina mai kyau.",
-  "dailyScripture14Ref": "Qur'ani 16:97",
-  "dailyScripture15Text": "Tabbas Allah ba shi canja ra'ayin kasa sai kazo sun canja ra'ayin kansu.",
-  "dailyScripture15Ref": "Qur'ani 13:11",
-  "dailyScripture16Text": "Saboda haka ji rauni ka ba shiru, da kuma kuma za ku karɓi iko idan ku mai sa aiki.",
-  "dailyScripture16Ref": "Qur'ani 3:139",
-  "dailyScripture17Text": "Jiyannina wajen tabu suka damje kansu, kada kunan yanzu a jinni Allah. Tabbas Allah yana gafara dukkan zunuba.",
-  "dailyScripture17Ref": "Qur'ani 39:53",
-  "dailyScripture18Text": "Wa kuwan tsoron Allah — shi zai yi wa hanya ta gida, kuma ya ba shi ta inda ba ya buƙe.",
-  "dailyScripture18Ref": "Qur'ani 65:2-3",
-  "dailyScripture19Text": "Kada kunan yanzu a jinni Allah.",
-  "dailyScripture19Ref": "Qur'ani 12:87",
-  "dailyScripture20Text": "Da mun daidaita Qur'ani don karatawar. Saboda haka akwai wa zai ƙaddamawa da zikiru?",
-  "dailyScripture20Ref": "Qur'ani 54:17",
-  "dailyScripture21Text": "Ya fito ka saka da kuma ya ba ka jagoron.",
-  "dailyScripture21Ref": "Qur'ani 93:7",
-  "dailyScripture22Text": "Wa ubankun yace: Ku karanta mini; Zan amsa ku.",
-  "dailyScripture22Ref": "Qur'ani 40:60",
-  "dailyScripture23Text": "Da mun karamnta jiyar Adam.",
-  "dailyScripture23Ref": "Qur'ani 17:70",
-  "dailyScripture24Text": "Ku nemi taimako da haƙuri da sallah.",
-  "dailyScripture24Ref": "Qur'ani 2:45",
-  "dailyScripture25Text": "Wa kuwan yi aiki dalilin zarra ya gani shi.",
-  "dailyScripture25Ref": "Qur'ani 99:7",
-  "dailyScripture26Text": "Ba shakka taimako Allah shi ne kusa.",
-  "dailyScripture26Ref": "Qur'ani 2:214",
-  "dailyScripture27Text": "Wa kuwan godiya — godiyarsa shine fa'ida ga kansa.",
-  "dailyScripture27Ref": "Qur'ani 31:12",
-
-  "dailyReflection0": "Yayin da ranar ta kllosa, yi tunani akan lokaci inda jinni Allah ya bayyana.",
-  "dailyReflection1": "Kawo da abubuwan da suka nauya zuciyanka a ranar.",
-  "dailyReflection2": "Gani baiyar daya daga ranar da suka yi godiya ga Allah.",
-  "dailyReflection3": "Yi hutawa da sani cewa ka kunshe a jinni Allah.",
-  "dailyReflection4": "Yi tunani akan inda an kira ka don nuna jinni da tausayi.",
-  "dailyReflection5": "Bari abubuwan da ba ka iya canja da tabbatar ga shirin Allah.",
-  "dailyReflection6": "Yayin da ranar ta kammala, samu lafiya a alkhamar Allah.",
-  "dailyReflection7": "Yi tunani kamar yadda ka onora sallahi a ranar, ka godiya ga Allah.",
-  "dailyReflection8": "Yi tunani akan lokaci inda haƙuri ya jagoce aiki a ranar.",
-  "dailyReflection9": "Nemi gafara akan dukkan kusurun — jinni Allah ba shi ido.",
-  "dailyReflection10": "Gani mutu ɗaya da ka nuna jinni a ranar, ka yi addu'a.",
-  "dailyReflection11": "Yi hutawa da godiya: me Allah ya ba ka a ranar ba za ka buƙe?",
-  "dailyReflection12": "Yi tunani akan ayar Qur'ani da ta takaitawa a inda ka jiya.",
-  "dailyReflection13": "Yi tunani kamar yadda ka amfani da jiya — ba da gida ga Allah.",
-  "dailyReflection14": "Yi hutawa da sani cewa dukkan wahalii na ranar, Allah ya tare da ka.",
-  "dailyReflection15": "Yi tunani akan hanya ɗaya da ka hidima iyali ko gida.",
-  "dailyReflection16": "Yayin da dare ya farcewa, yi Tawbah — Allah ya so masu tawbah.",
-  "dailyReflection17": "Yi tunani akan kyau Allah ya saka a ranar, ko ita banuwa.",
-  "dailyReflection18": "Yi tunani akan abin da ka sani a ranar da yadda ya kusan ka ga Allah.",
-  "dailyReflection19": "Bari abubuwan da suka damje ka a gida ga Allah — shi ya ɗauke abubuwan.",
-  "dailyReflection20": "Yi tunani akan lokaci da ka iya zaɓe kyau, da aka sani.",
-  "dailyReflection21": "Yi addu'a wa waɗanda suke cikin wahalii — addu'ar ka shine kaɗa.",
-  "dailyReflection22": "Tunantana baiyar da ka mara ganinki da godiya ga Allah.",
-  "dailyReflection23": "Yi tunani kan niyya a ranar — ko ta kasua ta Allah? Gida ta farƙa.",
-  "dailyReflection24": "Yayin da dare ya shiru, sauraro jinni Allah.",
-  "dailyReflection25": "Yi tunani kan inda ka sami karfi a ranar — karfi daga Allah.",
-  "dailyReflection26": "Gani wani abin da za ka yi gida, saboda Allah, da ba ka yi jiya.",
-  "dailyReflection27": "Yayin da ka shiryo don baje, ba da jiya ga Allah — shi ne mafi kyau na mai alubakin.",
-
-  "dailyRoleModel0": "Annabi Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Annabi Ibrahim (AS)",
-  "dailyRoleModel44": "Annabi Musa (AS)",
-  "dailyRoleModel45": "Annabi Isa (AS)",
-  "dailyRoleModel46": "Annabi Yusuf (AS)",
-  "dailyRoleModel47": "Annabi Dawud (AS)",
-  "dailyRoleModel48": "Annabi Sulayman (AS)",
-  "dailyRoleModel49": "Annabi Nuh (AS)",
-  "dailyRoleModel50": "Annabi Yunus (AS)",
-  "dailyRoleModel51": "Annabi Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Ba da Ayara izini don amfani da wuri don Qibla da lokaci na sallah",
-  "locationConsentHint": "Ba a amfani sai ga fasalai nan. Wuri ba a raba ko ajiye.",
-
-  "askPageTitle": "Tambayi Ayara",
-  "askPageDescription": "Tambayi abin game da imani, sallah, rayuwa, ko aiki na Islama da samu jagoran tushe a Qur'ani da Sunnah.",
-  "askPageInputHint": "Rubuta tambayar…",
-  "askPageSubmitCta": "Tambayi",
-  "askPageInputEmptyError": "Da fatan ka rubuta tambayar.",
-  "askResultYourQuestion": "Tambayar",
-
-  "guidancePageTitle": "Sallah & Jagora",
-  "qiblaFacingMecca": "Ina gida Makkah",
-  "qiblaCompassInstruction": "Juya na'ur ka sai sanye maɓali ya kai sama.\nWan ɓaugari yana nuni Qibla (Makkah).",
-  "qiblaGpsUnavailableBody": "Alamar GPS ba ta tsaya sosai. Fita waje da taɓa Yunƙuri.",
-  "qiblaRetry": "Yunƙuri",
-  "qiblaTitle": "Nuni Qibla",
-  "qiblaDistanceLabel": "{km} km zuwa Makkah",
+  "dailyGraceCopiedToast": "Ayar an kwafi zuwa clipboard",
+  "locationConsentLabel": "Ba da izini domin Ayara ta amfani wuri nawa domin Qibla da lokaci sallah",
+  "locationConsentHint": "Wai domin waɗannan sifofin. Wurinka ba za a raba ko ajiya ba.",
+  "askPageTitle": "Taba Ayara",
+  "askPageDescription": "Taba wani abu game da imani, sallah, rayuwa, ko aiki na Musulmi da karɓa jagora da aka samun daga Qur'ani da ilimin Ahlul Bayt.",
+  "askPageInputHint": "Rubutu tambayar naka a nan…",
+  "askPageSubmitCta": "Taba",
+  "askPageInputEmptyError": "Kayi tambayar da farko.",
+  "askResultYourQuestion": "Tambayar naka",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "Fuskar Makka",
+  "qiblaCompassInstruction": "Gida kiɗar fone naka har sai weɗin zari ya nada sama.\nWannan hanya ta nada zuwa Qibla (Makka).",
+  "qiblaGpsUnavailableBody": "Sigina GPS ba ya damre. Tashi waje da taɓa Sake yi.",
+  "qiblaRetry": "Sake yi",
+  "qiblaTitle": "Hanya ta Qibla",
+  "qiblaDistanceLabel": "{km} km zuwa Makka",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "Wuri na buƙe",
-  "qiblaLocationNeededBody": "Ba da Ayara izini don amfani da wuri don kareto ɗin Al-Ka'abah a Makkah daga inda ka jiya.",
-  "qiblaOpenSettings": "Buɗe Settings",
-  "qiblaCompassLoading": "Ina neman wuri…",
-  "qiblaTowardMecca": "Gida Makkah",
-
-  "prayerTimesTitle": "Lokaci na Sallah",
-  "prayerTimesFajr": "Fajr",
+  "qiblaLocationNeededTitle": "Buƙatar wuri",
+  "qiblaLocationNeededBody": "Ba da izini domin Ayara ta ƙirƙira hanya ta Kaaba a Makka daga inã kika.",
+  "qiblaOpenSettings": "Buɗi Saiti",
+  "qiblaCompassLoading": "Ana neman wuri naka…",
+  "qiblaTowardMecca": "Zuwa Makka",
+  "prayerTimesTitle": "Lokaci Sallah",
+  "prayerTimesFajr": "Subhi",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
-  "prayerTimesLocationNeededTitle": "Wuri na buƙe",
-  "prayerTimesLocationNeededBody": "Ba da Ayara izini don amfani da wuri don kirga lokaci na sallah na gida.",
-  "prayerTimesNextLabel": "Gida",
-  "prayerTimesDoneLabel": "Kammala",
-
-  "monthlyPrayerTimesTitle": "Lokaci na Sallah na Wata",
-  "monthlyPrayerTimesViewButton": "Kallon Jiya Gaba",
-  "monthlyPrayerTimesNextMonth": "Wata na gida",
-  "monthlyPrayerTimesDayHeader": "Ranar",
-
-  "sharePrayerTimes": "Raba lokaci na sallah",
-
-  "prayerNotificationsTitle": "Furanni na Sallah",
-  "prayerNotificationsDescription": "Samu furanni jiya kabin lokaci na sallah don tabbatarwa a jiya.",
-  "prayerNotificationsEnable": "Kunna furanni na sallah",
-  "prayerNotificationsOpenSettings": "Buɗe saitunan furanni",
-  "prayerNotificationsDenied": "Furanni an katse",
-  "prayerNotificationsDeniedHint": "Je Settings da ba da furanni ga Ayara don samu furanni na sallah.",
-
-  "notificationsConsentLabel": "Ba da izini don furanni na lokaci na sallah",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — Sallah na Rani",
-  "prayerNotifBodyFajr": "Kyakkyawan sallah shine fajr. Tashi, tsabta kanka, da tsaya gida Allah.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Sallah na Tsakiya",
-  "prayerNotifBodyDhuhr": "Tsaya aiki da komo ga Allah. Lokaci na Dhuhr ya zo.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — Sallah na Jiya",
-  "prayerNotifBodyAsr": "Kula da tsakiyar sallah. Asr ya zo — kada shi ci gaba.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — Sallah na Jituwa",
-  "prayerNotifBodyMaghrib": "Rana ta fadi. Yi Maghrib da godiya ga Allah don wannan ranar.",
-
-  "prayerNotifTitleIsha": "🌙 Isha — Sallah na Dare",
-  "prayerNotifBodyIsha": "Kammala ranar da alkhamar Allah. Hayya alal falah — zo zuwa nasara.",
-
-  "outOfReflectionsBannerText": "Kun yi amfani da dukkan tunani",
-  "outOfReflectionsBannerCta": "Samu gida",
-
+  "prayerTimesLocationNeededTitle": "Buƙatar wuri",
+  "prayerTimesLocationNeededBody": "Ba da izini domin Ayara ta ƙirƙira lokaci sallah na gari naka.",
+  "prayerTimesNextLabel": "Na gida",
+  "prayerTimesDoneLabel": "An gama",
+  "monthlyPrayerTimesTitle": "Lokaci Sallah na Wata",
+  "monthlyPrayerTimesViewButton": "Duba Jiya Wata",
+  "monthlyPrayerTimesNextMonth": "Watan gida",
+  "monthlyPrayerTimesDayHeader": "Jiya",
+  "sharePrayerTimes": "Raba lokaci sallah",
+  "notificationsSectionTitle": "Sanarwa",
+  "notificationsSectionSubtitle": "Gargajiya sallah, abubuwan kalandar da waje",
+  "dailyReflectionReminderTitle": "Tunani na Jiya",
+  "dailyReflectionReminderDescription": "Gargajiya na jiya domin buɗi Ayara da haɗa tare da imani.",
+  "dailyReflectionReminderEnable": "Kunna gargajiya na jiya",
+  "dailyReflectionReminderTimeLabel": "Lokacin gargajiya",
+  "prayerNotificationsTitle": "Gargajiya Sallah",
+  "prayerNotificationsDescription": "Karɓa gargajiya kaɗai kafin sallah domin ci gaba da haɗi jiya.",
+  "prayerNotificationsEnable": "Kunna gargajiya sallah",
+  "prayerNotificationsOpenSettings": "Buɗi saiti sanarwa",
+  "prayerNotificationsDenied": "An kashe sanarwa",
+  "prayerNotificationsDeniedHint": "Je Saiti da ba da izini sanarwa ne domin karɓa gargajiya sallah.",
+  "notificationsConsentLabel": "Ba da izini sanarwa domin lokaci sallah",
+  "prayerNotifTitleFajr": "🌅 Subhi - Sallah Kutare",
+  "prayerNotifBodyFajr": "Subhi shine sallah na kutare. Imam Ali (AS) ya ce: Kuskure subhi kamar matsofe naka. Tashi, tsattsali, da turbatarse gida Allah.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr - Sallah Tsan Tsan",
+  "prayerNotifBodyDhuhr": "Imaman Ahlul Bayt suna kuna kowane lokaci. Tsai yayina, haɗa Dhuhr tare da Asr idan dace, kuma komawa zuciya naka zuwa Allah.",
+  "prayerNotifTitleAsr": "🌤️ Asr - Sallah Jiya Marke",
+  "prayerNotifBodyAsr": "Kuskure sallah, ita ce yarjejeniyar tsakanin ka da Allah. Asr ya zo - bari ba zu ta wuce ba tare da zikri.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib - Sallah Rafi Rana",
+  "prayerNotifBodyMaghrib": "Rana ta rafi - matakin da Ahlul Bayt suka gabata. Yi Maghrib da buɗe hannaye naka domin dua kafin gida ta fara.",
+  "prayerNotifTitleIsha": "🌙 Isha - Sallah Damo",
+  "prayerNotifBodyIsha": "Kaashi gida tare da Allah. Imaman sun bukata Salat al-Layl baje Isha - amma farko, kamel Isha da kaashi tare da zikrinsa.",
+  "outOfReflectionsBannerText": "Kun amfani duk tunani",
+  "outOfReflectionsBannerCta": "Samu kayi",
   "dhikrPageTitle": "Dhikr",
-  "dhikrTapToCount": "Taɓa yaren don kirga",
+  "dhikrTapToCount": "Taba da'ira domin lissafa",
   "dhikrResetButton": "Sake",
-  "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Kun kammala alkhamar Allah 99. Su kasua haske don zuciyar.",
-
-  "disclaimerTitle": "Game da jagoran app nan",
-  "disclaimerBody": "Ayara tana ba da tunani na Islama, furanni, da abin na imani don tallafin harkar jiya na imani. Wannan abubuwan an bayar don saun bayyanin sauran da kuma amsatawa.\n\nAyara ba ya maye gurbin alimain.\nJagoran app ba shi maye gurbin malamin Islama, imam, mufti, ko mai ilimi na dindin. Idan ka da tambayoyi game da haddan dindin, halal da haram ko burin dindin na asusun, nemi shawara daga alim a gidanka.\n\nApp ba ya ba da hadda dindin.\nAyara ba ta kadai nuna hadda dindin game da masalahi dindin ko burin dindin na asusun. Abubuwan a nan ba ja kaifin fatawa ko hadda dindin.\n\nIlimin alimain ya bambanta.\nIslama tana da ilimin da yawa, dukkoki na tunani, da ra'ayin alimain. Abubuwan a app ja nuni ra'ayin gaba da ma haka na dukkoki.\n\nGida mahimmaci.\nApp na nan da zai karfi dangantaka da dindin yayin da ke gitonta imam da gida. Muka karfafawa su ka haɗa da mai ilimi a kurgu.",
+  "dhikrComplete": "Alhamdulillah",
+  "dhikrCompleteMessage": "Kun gama zikrin Allah 100. Bari a zama sotin zuciya naka.",
+  "disclaimerTitle": "Game da jagora app",
+  "disclaimerBody": "Ayara ta ba da tunani na Islami, gargajiya, da content na ruhaniya domin goyon gida jiya imani, da aka samun daga Qur'ani da ilimin Ahlul Bayt. Wannan content ana ba a gida ne.",
   "disclaimerClose": "Na fahimta",
-  "disclaimerInfoTooltip": "Game da jagoran app nan",
-  "disclaimerSettingsSubtitle": "Don saun bayyanin kawai. Taɓa don karata hadda gaba.",
-  "disclaimerSectionHeader": "Hadda jagoran"
+  "disclaimerInfoTooltip": "Game da jagora app",
+  "disclaimerSettingsSubtitle": "A gida ne. Taɓa domin karatun cikakke.",
+  "disclaimerSectionHeader": "Gargajiyar jagora",
+  "navHome": "Gida",
+  "navReflect": "Tunani",
+  "navDuas": "Dua'a",
+  "navCalendar": "Kalandar",
+  "dashboardToday": "JIYA",
+  "dashboardComingUp": "Zuwara",
+  "dashboardDaysUnit": "{count, plural, one {jiya} other {jiya}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Saurin Jefe",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Jagora",
+  "quickActionPrayerTimes": "Lokaci Sallah",
+  "askAyaraTitle": "Taba Ayara",
+  "askAyaraSubtitle": "Taba wani tambayar Islami da karɓa amsa mai tunani.",
+  "askAyaraHint": "Misali: Me ne mahimancin Ramadan?",
+  "askAyaraSubmit": "Taba",
+  "wisdomOfTheDayTitle": "Hikima na Jiya",
+  "calendarScreenTitle": "Kalandar Islami",
+  "calendarUpcomingOccasions": "Abubuwan Zuwara",
+  "calendarOccasionRemindersTitle": "Gargajiya Abubuwan",
+  "calendarOccasionRemindersHint": "Sanarwa jiya kaɗai kafin kowane abuja",
+  "calendarNotifPermissionDenied": "Karɓar sanarwa a kawar. Kunna shi a saiti kayan.",
+  "calendarNoEvents": "Babu abubuwan zuwara.",
+  "calendarAddToPhone": "Ƙara zuwa Kalanda na Waya",
+  "calendarAddedToPhone": "An ƙara zuwa Kalanda",
+  "calendarCountdownToday": "JIYA",
+  "calendarCountdownTomorrow": "JIYA GIDA",
+  "calendarCountdownDays": "jiya {days} suna",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Jan",
+  "calendarMonthFeb": "Feb",
+  "calendarMonthMar": "Mar",
+  "calendarMonthApr": "Apr",
+  "calendarMonthMay": "May",
+  "calendarMonthJun": "Jun",
+  "calendarMonthJul": "Jul",
+  "calendarMonthAug": "Aug",
+  "calendarMonthSep": "Sep",
+  "calendarMonthOct": "Oct",
+  "calendarMonthNov": "Nov",
+  "calendarMonthDec": "Dec",
+  "calendarSeasonMuharramEarly": "Jiya Muharram - tunani Karbala",
+  "calendarSeasonAshura": "Ashura - Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram - jiya maimakiyya",
+  "calendarSeasonArbaeen": "Arbaeen - jiya alon Husayn",
+  "calendarSeasonRoadToArbaeen": "Hanya zuwa Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak - wajen fadi ilimi",
+  "calendarSeasonMidShaban": "Sha'ban Tsan Tsan - ranar haihuwa Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak - watan Qur'ani",
+  "calendarSeasonGhadir": "Sallah al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Dua'a & Ziyarat",
+  "duasSearchHint": "Nema dua, ziyarat…",
+  "duasFilterAll": "Duka",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} dua'a & ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Babu dua.",
+  "duaCategoryDaily": "Jiya",
+  "duaCategoryWeekly": "Juma'a",
+  "duaCategoryOccasions": "Abubuwan",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Haihuwa",
+  "eventTypeMartyrdom": "Mutuwa",
+  "eventTypeOccasion": "Abuja",
+  "duaCopyTooltip": "Kwafi fassara",
+  "duaToggleTransliteration": "Rubuta",
+  "duaToggleTranslation": "Fassara",
+  "duaAskAiLabel": "Ba Ayara domin bayyana wannan dua",
+  "duaAskAiLockedLabel": "Taba Ayara (Wilaya)",
+  "duaAiLockedMessage": "Bayanin Ayara yana da Wilaya ne. Bunƙasa a Saiti.",
+  "duaAiComingSoon": "Taba Ayara game da \"{name}\" - gida!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua an kwafi zuwa clipboard.",
+  "tasbihAllahuAkbarMeaning": "Allahu Akbar",
+  "tasbihAlhamdulillahMeaning": "Alhamdulillahi Rabbil Alamin",
+  "tasbihSubhanallahMeaning": "Subhana Allah",
+  "tasbihResetTooltip": "Sake",
+  "tasbihCompleteTitle": "Tasbih Gama",
+  "tasbihCompleteMessage": "Bari Allah ya karɓi dhikrinka.",
+  "tasbihTapHint": "Taba duk inã domin lissafa",
+  "tasbihatScreenTitle": "Jagoran Sallah",
+  "tasbihatScreenSubtitle": "GLORIFICATIONS NA SALLAH",
+  "tasbihatScreenDescription": "Jagoran cikakke na glorification da ana karanta jiya sallah - tare da hanya ta Ahlul Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Karanta a 3rd & 4th rak'ah",
+  "tasbihatArba3Info": "A Shia jurisprudence, Tasbiḥāt al-Arbaʿa ta maye Surah al-Fatiha a 3rd da 4th rak'ah na Dhuhr, Asr, Maghrib, da Isha. Dole ne (wājib) ya karanta sau ɗaya, da aka ramse (mustaḥabb) karanta sau uku.",
+  "tasbihatArba3Translation": "Subhana Allah · Alhamdulillahi Rabbil Alamin\nLa ilaha illallah · Allahu Akbar",
+  "tasbihatArba3CompleteTitle": "Karantawa Gama",
+  "tasbihatArba3CompleteMessage": "Bari sallah naka ya karɓu — Āmīn",
+  "tasbihatArba3TapHint": "Taba baje kowane karantawa",
+  "tasbihatZahraSubtitle": "Baje sallah · 100 beads",
+  "tasbihatZahraOriginLabel": "Asali",
+  "tasbihatZahraHadith": "Malariya Fatima al-Zahra (sa) ta bukaci Annabi domin baje. Ya ce: \"Bari ba in ba ka sharafi wani abu mafi kyau? Karanta Subḥānallāh 33 lokaci, Alḥamdulillāh 33 lokaci, da Allāhu Akbar 34 lokaci baje sallah. Wannan mafi kyau ne domin ka da baje.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Vol. 85",
+  "tasbihatZahraOpenCounter": "Buɗi Tasbīḥ Counter",
+  "tasbihatDuasTitle": "DUA'A NA RAMSE",
+  "tasbihatDuasSubtitle": "Baje kammala sallah",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Baje kowane sallah",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Wanda ya karanta Āyat al-Kursī baje kowane sallah, ba wani abu yana tsakanin shi da jannati ba sai mutuwa. Imam al-Bāqir (a) ya ce ita ce daya daga manyan ayyukan Qur'ani.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Baje sallah · seals dua duka",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Aika daraja zuwa Annabi ﷺ da putured iyali (Āl Muḥammad) ana ramse domin katuri kowane dua. Imam al-Ṣādiq (a) ya ce: \"Kowane dua ba ya juyar sai ka aika ṣalawāt zuwa Muḥammad da iyali.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Baje sallah · domin Imam na lokacin mu",
+  "tasbihatDuaFarajSource": "Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "Dua domin fito na Imam al-Mahdī (af), Imam na gida, da aka koyi daga ubansa. Karanta jiya da Shia tare baje sallah a matsayin abubuwan da aiki zuwa Imam mai aiki.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ na Malariya Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "Baje Maghrib & Isha · musamman an ramse",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) ya ce karanta Tasbīḥ al-Zahrā baje Isha kafin barci a mafi kyau ne fiye da 1000 rak'ahs na sallah. Haske sa yana haye sama.",
+  "tasbihFatimaGiftPre": "Gida daga Annabi",
+  "tasbihFatimaGiftPost": "karanta baje sallah",
+  "prayerTrackerTitle": "TRACKER SALLAH",
+  "prayerTrackerPrayed": "Sallah",
+  "prayerTrackerDayStreak": "{count} jiya pari",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Duk sallah gama jiya. Bari Allah ya karɓu.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Gama jiya",
+  "dhikrTrackerNotDoneToday": "Ba a yi jiya",
+  "dhikrTrackerDayStreak": "{count} jiya pari",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Gargajiya Tasbīḥ",
+  "dhikrReminderDescription": "Gargajiya na jiya domin karanta Tasbīḥ al-Zahrā (SA).",
+  "dhikrReminderEnable": "Kunna gargajiya Tasbīḥ",
+  "dhikrReminderTimeLabel": "Lokacin gargajiya",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Hadith na Jiya",
+  "hadithLabelArabic": "ARABIC",
+  "hadithLabelTranslation": "FASSARA",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Raba Hadith",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nVia Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Da gabata",
+  "hadithNavNext": "Na gida",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "14 Masumeen",
+  "imamsScreenSubtitle": "Annabi, Malariya Fatima, da Imam Gida - jagora mai makama ta Islami",
+  "imamLabelBorn": "Haihuwa",
+  "imamLabelMartyrdom": "Mutuwa",
+  "imamLabelStatus": "Sati",
+  "imamSectionBiography": "TARIHI",
+  "imamSectionFamousSaying": "MAGANA SANNU",
+  "imamRoleProphet": "Annabi na Karshe",
+  "imamRoleInfallible": "Mai gida",
+  "imamOrdinal1": "1st Imam",
+  "imamOrdinal2": "2nd Imam",
+  "imamOrdinal3": "3rd Imam",
+  "imamOrdinal4": "4th Imam",
+  "imamOrdinal5": "5th Imam",
+  "imamOrdinal6": "6th Imam",
+  "imamOrdinal7": "7th Imam",
+  "imamOrdinal8": "8th Imam",
+  "imamOrdinal9": "9th Imam",
+  "imamOrdinal10": "10th Imam",
+  "imamOrdinal11": "11th Imam",
+  "imamOrdinal12": "12th Imam",
+  "duaAudioScreenTitle": "Saji Dua'a",
+  "duaAudioScreenSubtitle": "Zaɓi dua domin saji. Taba wasan domin aiki ko katso.",
+  "duaAudioComingSoonMessage": "Audio domin dua zai zama aiki baje.",
+  "duaAudioClose": "Rufawa",
+  "duaAudioError": "Ba za a iya loda audio ba. Kayi bincika haɗi naka.",
+  "duaAudioMetaTransmittedBy": "Aika ta",
+  "duaAudioMetaOccasion": "Abuja",
+  "duaAudioMetaDuration": "Lokaci",
+  "quickActionDailyHadith": "Hadith na Jiya",
+  "quickAction14Masumeen": "14 Masumeen",
+  "quickActionListenDuas": "Saji",
+  "quickActionTasbihat": "Jagoran Sallah",
+  "pilgrimageSectionTitle": "Hajji na Musamman",
+  "pilgrimageSectionSubtitle": "Jagora cikakke zuwa Hajji & Umrah - hajji zuwa Gida mai Tsarki na Allah a Makka",
+  "hajjCardTitle": "Hajji",
+  "hajjCardSubtitle": "Pillar na Biyar na Islami",
+  "hajjCardDescription": "Babbar hajji - dole ne sau ɗaya a ranar rayuwa domin kowane Musulmi",
+  "hajjScreenTitle": "Jagoran Hajji",
+  "hajjScreenSubtitle": "Jagora mai mataki zuwa babbar hajji",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "Hajji Karama",
+  "umrahCardDescription": "Jiya da tunani mai gida da za a iya yi a kowane lokaci na shekara",
+  "umrahScreenTitle": "Jagoran Umrah",
+  "umrahScreenSubtitle": "Jagora mai mataki zuwa karama hajji",
+  "pilgrimageStepsTitle": "Abubuwan Aiki & Mataki",
+  "pilgrimageImportantNotesTitle": "Mahakamat Mahimma",
+  "pilgrimageDuaTitle": "Dua don wannan mataki",
+  "pilgrimageJafariNoteTitle": "Lura da Fiqh Ja'fari",
+  "pilgrimageComplete": "✓ Cikakke",
+  "pilgrimageMarkDone": "Alama a matsayin kammalawa",
+  "pilgrimageProgress": "{done} daga {total} matakai",
+  "pilgrimageReadTime": "~{minutes} minti",
+  "pilgrimageShiaNoteTitle": "Hajji Shia",
+  "pilgrimageShiaNoteBody": "Hajji Shia ba kusan ya waje zuwa Medina domin ziyara grave Annabi Muhammad (SAW) a Masjid al-Nabawi, da grave na Imam a Jannat al-Baqi. Waɗannan ziyara suna da mahimma da tunani, da aka yi ɓatun aiki domin Shia Musulmi.",
+  "hajjIntro": "Hajji shine pillar na biyar na Islami, dole ne sau ɗaya a ranar rayuwa domin kowane Musulmi wanda ya iya. An yi shi a watan Dhu al-Hijja, ya maidare taki ta Annabi Ibrahim (AS), ɗa Ismail (AS), da Malariya Hajar. Domin Shia Musulmi, Hajji ya kawo ziyara grave Annabi (SAW) da Ahlul Bayt a Medina.",
+  "umrahIntro": "Umrah shine karama hajji zuwa Makka da, ba kamar Hajji ba, za a iya yi a kowane lokaci na shekara. Ba dole ba, amma tana da gida tunani da aka ramse. Ita share wasu abubuwan aiki tare da Hajji amma ta karama, tana da mataki hudu na mabambayi."
 }

@@ -1,208 +1,172 @@
 {
   "@@locale": "ca",
-
   "appTitle": "Ayara",
-
-  "languageSelectTitle": "Triar la teva llengua",
-  "languageSelectSub": "Pots canviar això més tard a Configuració",
-  "actionContinue": "Continuar",
-  "languageSuggestedHeader": "Recomanat",
-  "languageAllHeader": "Tots els idiomes",
-  "languageSuggestedBadge": "Recomanat",
-  "languageSearchHint": "Cercar…",
-
-  "planGrace": "Estàndard",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Orientació Diària",
-  "categoryFaithTrust": "Fe i Confiança",
-  "categoryPrayerReflection": "Reflexió de Pregària",
-  "categoryHopeDifficultTimes": "Paciència i Esperança",
-  "categoryForgiveness": "Buscar el Perdó",
-  "categoryLoveCompassion": "Misericòrdia i Compassió",
-  "categoryStrengthCourage": "Fe i Fortalesa",
-  "categoryGratitude": "Cor Agraït",
-  "categoryPurposeCalling": "Propòsit de Vida",
-  "categoryFamilyRelationships": "Llaços Familiars",
-  "categoryPeaceAnxietyRelief": "Pau Interior",
-  "categoryWisdomOfJesus": "Saviesa dels Profetes",
-  "categoryHumilityCharacter": "Bon Caràcter",
-  "categoryOvercomingTemptation": "Resistir la Temptació",
-  "categoryEveningReflection": "Dhikr Vespertí",
-  "categoryCustom": "Reflexió Personal",
+  "languageSelectTitle": "Tria la teva llengua",
+  "languageSelectSub": "Ho podràs canviar més endavant a Configuració",
+  "actionContinue": "Continua",
+  "languageSuggestedHeader": "Suggerides",
+  "languageAllHeader": "Totes les llengües",
+  "languageSuggestedBadge": "Suggerida",
+  "languageSearchHint": "Cerca…",
+  "planBasic": "Estàndard",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Guia diària",
+  "categorySlot02": "Iman i confiança",
+  "categorySlot03": "Reflexió sobre la pregària",
+  "categorySlot04": "Paciència i esperança",
+  "categorySlot05": "Busca perdó",
+  "categorySlot06": "Misericòrdia i compassió",
+  "categorySlot07": "Força de la fe",
+  "categorySlot08": "Cor agraït",
+  "categorySlot09": "Propòsit de la vida",
+  "categorySlot10": "Llaços familiars",
+  "categorySlot11": "Pau interior",
+  "categorySlot12": "Saviesa del Profeta",
+  "categorySlot13": "Bon caràcter",
+  "categorySlot14": "Resisteix la temptació",
+  "categorySlot15": "Dhikr del vespre",
+  "categoryCustom": "Reflexió personal",
   "dhikrMeaningSubhanallah": "Glòria a Al·là",
   "dhikrMeaningAlhamdulillah": "Tota lloança és deguda a Al·là",
-  "dhikrMeaningAllahuAkbar": "Al·là és el més gran",
-  "quranVerseHeartAtRest": "Veritablement, en el record d'Al·là els cors troben descans.",
-
-  "promptHint": "Toca una categoria per rebre orientació islàmica i reflexió",
-
-  "currentLanguage": "Idioma actual",
-  "settingsLanguage": "Configuració d'idioma",
+  "dhikrMeaningAllahuAkbar": "Al·là és el més Gran",
+  "quranVerseHeartAtRest": "Certament, en el record d’Al·là els cors troben repòs.",
+  "promptHint": "Toca una categoria per obtenir guia i reflexió islàmica",
+  "currentLanguage": "Llengua actual",
+  "settingsLanguage": "Configuració de la llengua",
   "settingsTitle": "Configuració",
   "chooseLanguage": "Tria la teva llengua",
-  "continueCta": "Continuar",
-
-  "promptDailyGuidance": "Escriu una guia diària breu i pràctica arrelada en la fe islàmica sunnita, fonamentada en l'Alcorà, els Haddichs i les ensenyances del Profeta Muhammad. Tria un angle fresc cada vegada: una virtut de l'ètica islàmica, una veritat de la Sunnah, saviesa dels Companys del Profeta, o una pràctica tranquil·la de la tradició islàmica. Inclou un versicle de l'Alcorà (Sura:Aia) i una reflexió de 1–2 frases per portar durant el dia. Opcionalment, connecta'l amb el calendari islàmic o una data important si és rellevant.",
-
-  "promptFaithTrust": "Escriu una breu reflexió islàmica sobre la Fe (Iman) i la confiança en el pla d'Al·là (Tawakkul). Arrelatza'l en l'Alcorà, l'exemple del Profeta Muhammad i la fe dels Sahaba. Varia el tema cada vegada: confiar en Al·là durant la incertesa, confiar en la saviesa divina, paciència en les proves, o perseverança tranquil·la en la vida quotidiana. Inclou un versicle de l'Alcorà i un pas honest per avui extret de la saviesa espiritual islàmica.",
-
-  "promptPrayerReflection": "Escriu una breu reflexió islàmica sobre la pregària arrelada en la Salah, la Dua o el Dhikr. Varia la forma cada vegada: una remembrança matutina o vespertina (Adhkar), reflexió sobre les cinc pregàries diàries, contemplació d'un versicle de l'Alcorà, o una súplica sincera. Inclou un versicle de l'Alcorà i anomena breument la forma de pregària utilitzada.",
-
-  "promptHopeDifficultTimes": "Escriu una reflexió islàmica sobre la paciència (Sabr) i l'esperança durant les dificultats. Extreu de les ensenyances de l'Alcorà sobre les proves, la perseverança dels Profetes i la misericòrdia d'Al·là en moments difícils. Varia l'angle cada vegada. Inclou un versicle de l'Alcorà i una perspectiva esperançadora de la tradició islàmica.",
-
-  "promptForgiveness": "Escriu una sabia reflexió islàmica sobre buscar el perdó (Tawbah) i la misericòrdia d'Al·là. Extreu de les ensenyances de l'Alcorà sobre el penediment, la compassió d'Al·là i l'exemple perdonador del Profeta Muhammad. Varia el tema: retornar a Al·là, perdonar altres, sanar relacions o creure en la misericòrdia d'Al·là després de cometre errors. Inclou un versicle de l'Alcorà i un pas concret.",
-
-  "promptLoveCompassion": "Escriu una breu reflexió islàmica sobre la misericòrdia (Rahmah) i la compassió en la vida quotidiana. Extreu de l'exemple del Profeta Muhammad, el concepte d'Ihsan (excel·lència) i les ensenyances islàmiques sobre la bondat cap a la família, els veïns i els vulnerables. Inclou un versicle de l'Alcorà i un petit acte de compassió per practicar avui.",
-
-  "promptStrengthCourage": "Escriu una reflexió islàmica sobre la fortalesa basada en la fe i el coratge. Extreu d'exemples dels Profetes, de la comunitat musulmana primitiva i de creients que es van mantenir ferms en les dificultats. Varia el tema cada vegada: coratge per la fe, fortalesa en la pregària, confiança en Al·là durant la por, o resiliència en la dificultats. Inclou un versicle de l'Alcorà i una breu súplica o frase de remembrança.",
-
-  "promptGratitude": "Escriu una reflexió islàmica sobre la gratitud (Shukr) cap a Al·là. Arrelatza'l en l'ensenyança de l'Alcorà i la tradició profètica. Varia l'angle: gratitud en les dificultats, apreciar petites benediccions, començar el dia amb lloança d'Al·là, o reconèixer la guia d'Al·là en la vida quotidiana. Inclou un versicle de l'Alcorà i una pràctica de gratitud.",
-
-  "promptPurposeCalling": "Escriu una reflexió islàmica sobre el propòsit de la vida en adorar Al·là i viure amb rectitud. Extreu de les ensenyances de l'Alcorà sobre el propòsit, servir altres i utilitzar els dons propis per al bé. Varia el tema cada vegada: servir la família i la comunitat, buscar la guia per mitjà de l'Istikhara, viure amb intenció o trobar significat en el treball ordinari. Inclou un versicle de l'Alcorà i dues preguntes reflexives.",
-
-  "promptFamilyRelationships": "Escriu orientació islàmica sabia sobre la família i les relacions arrelada en l'ensenyança de l'Alcorà i l'exemple del Profeta Muhammad. Varia el tema cada vegada: bondat en la vida familiar, paciència en el conflicte, honorar els pares, criar els fills en la fe, o enfortir el matrimoni. Inclou un versicle de l'Alcorà i una pràctica relacional per provar.",
-
-  "promptPeaceAnxietyRelief": "Escriu una reflexió islàmica tranquil·litzadora sobre trobar la pau interior per mitjà de la remembrança d'Al·là (Dhikr) i la confiança en el seu pla. Extreu de les ensenyances de l'Alcorà sobre la tranquil·litat del cor, la pregària i l'entrega a la voluntat d'Al·là. Varia l'enfocament cada vegada i inclou un versicle de l'Alcorà i una pràctica senzilla arrelada en la tradició islàmica.",
-
-  "promptWisdomOfJesus": "Escriu una breu peça de saviesa dels Profetes com s'ensenya en l'Islam. Extreu de l'Alcorà o dels Haddichs i explica breument com els erudits islàmics han entès l'ensenyança. Varia el tema cada vegada: caràcter, paciència, humilitat, fe o conducta quotidiana. Inclou una referència al versicle de l'Alcorà o al Haddichs i una aplicació pràctica.",
-
-  "promptHumilityCharacter": "Escriu una reflexió islàmica sobre l'humilitat (Tawadhu) i el bon caràcter (Akhlaq). Extreu de les ensenyances de l'Alcorà, l'exemple del Profeta Muhammad i la tradició del desenvolupament del caràcter islàmic. Varia el tema: humilitat en el lideratge, reconèixer els errors, tractar altres amb respecte, o créixer espiritualmente a través de l'auto-reflexió. Inclou un versicle de l'Alcorà i un hàbit per practicar.",
-
-  "promptOvercomingTemptation": "Escriu una reflexió islàmica sobre resistir la temptació i romandre en el camí recte. Extreu de la guia de l'Alcorà, la remembrança d'Al·là (Dhikr), la pregària (Salah) i exemples de creients que van superar les lluites. Varia l'angle cada vegada. Inclou un versicle de l'Alcorà i una estratègia pràctica pels pròxims 24 hores.",
-
-  "promptEveningReflection": "Escriu una reflexió islàmica vespertina tranquil·la arrelada en la tradició de la remembrança vespertina (Adhkar al-Masaa'). Fomenta la gratitud, l'auto-reflexió (Muhasabah) i la confiança en Al·là abans del descans. Inclou 3–5 preguntes de reflexió breu sobre el dia, una breu súplica de clausura i un versicle de l'Alcorà.",
-
+  "continueCta": "Continua",
   "wordCount": "{count, plural, one {{count} paraula} other {{count} paraules}}",
-
   "optionsCta": "Opcions",
   "newCta": "Nou",
-  "actionsTitle": "Què vols fer?",
-  "copy": "Copiar",
-  "share": "Compartir",
-  "close": "Tancar",
-  "copiedToast": "Copiat al portapapeles",
-
+  "actionsTitle": "Què t’agradaria fer?",
+  "copy": "Copia",
+  "share": "Comparteix",
+  "close": "Tanca",
+  "copiedToast": "S’ha copiat al porta-retalls",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Línia d'assumpte per a correu/compartició incloent l'etiqueta de categoria.",
+    "description": "Assumpte del correu / compartició que inclou l’etiqueta de la categoria.",
     "placeholders": {
-      "category": { "type": "String", "example": "Orientació Diària" }
+      "category": {
+        "type": "String",
+        "example": "Guia diària"
+      }
     }
   },
-
-  "regenerateErrorTitle": "No s'ha pogut generar una nova resposta",
-  "regenerateErrorBody": "{error}\n\nVols intentar-ho de nou?",
+  "regenerateErrorTitle": "No s’ha pogut generar una resposta nova",
+  "regenerateErrorBody": "{error}\n\nVols tornar-ho a provar?",
   "@regenerateErrorBody": {
-    "description": "Mostrat quan falla la regeneració d'una resposta IA.",
+    "description": "Es mostra quan falla la regeneració d’una resposta de la IA.",
     "placeholders": {
-      "error": { "type": "String", "example": "Error de xarxa" }
+      "error": {
+        "type": "String",
+        "example": "Error de xarxa"
+      }
     }
   },
-
-  "cancelCta": "Cancelar",
-  "retryCta": "Intentar de nou",
-
+  "cancelCta": "Cancel·la",
+  "retryCta": "Torna-ho a provar",
   "authTitle": "Crea el teu compte",
-  "continueAsGuest": "Continuar com a convidant",
-  "signInGoogle": "Iniciar sessió amb Google",
-  "signInApple": "Iniciar sessió amb Apple",
-  "signInEmail": "Iniciar sessió amb correu electrònic",
-  "upgradeWithApple": "Continuar amb Apple",
-  "mustAccept": "Has d'acceptar els Termes i reconèixer la Política de Privacitat.",
-  "termsLabel": "Accepto els Termes de Servei",
-  "privacyLabel": "He llegit la Política de Privacitat",
+  "continueAsGuest": "Continua com a convidat",
+  "signInGoogle": "Inicia sessió amb Google",
+  "signInApple": "Inicia sessió amb Apple",
+  "signInEmail": "Inicia sessió amb correu electrònic",
+  "upgradeWithApple": "Continua amb Apple",
+  "mustAccept": "Has d’acceptar els Termes i reconèixer la Política de privadesa.",
+  "termsLabel": "Accepto els Termes del servei",
+  "privacyLabel": "He llegit la Política de privadesa",
   "marketingOptIn": "Accepto rebre notícies i ofertes",
-  "openTerms": "Termes de Servei",
-  "openPrivacy": "Política de Privacitat",
-
+  "openTerms": "Termes del servei",
+  "openPrivacy": "Política de privadesa",
   "accountSection": "Compte",
-  "guestMode": "Mode convidant",
+  "guestMode": "Mode convidat",
   "signedIn": "Sessió iniciada",
-  "upgradeHint": "Desa les teves reflexions en tots els dispositius creant un compte.",
-  "upgradeWithGoogle": "Continuar amb Google",
-  "signOut": "Tancar sessió",
-
-  "snackUpgraded": "Compte millorat amb Google ✅",
+  "upgradeHint": "Desa les teves reflexions a tots els dispositius creant un compte.",
+  "upgradeWithGoogle": "Continua amb Google",
+  "signOut": "Tanca la sessió",
+  "snackUpgraded": "Compte actualitzat amb Google ✅",
   "snackSignedIn": "Sessió iniciada amb Google ✅",
   "snackSignedOut": "Sessió tancada",
   "snackSignedInApple": "Sessió iniciada amb Apple ✅",
   "snackSignedInGoogle": "Sessió iniciada amb Google ✅",
-  "snackUpgradedApple": "Compte millorat amb Apple ✅",
-  "snackUpgradedGoogle": "Compte millorat amb Google ✅",
-
+  "snackUpgradedApple": "Compte actualitzat amb Apple ✅",
+  "snackUpgradedGoogle": "Compte actualitzat amb Google ✅",
   "historyTitle": "Reflexions anteriors",
   "historyOpenCta": "Reflexions anteriors",
-  "historyEmpty": "Sense reflexions desades encara.",
-  "historyDeleteTitle": "Suprimir reflexió?",
-  "historyDeleteBody": "Això eliminarà permanentment l'element seleccionat.",
-  "deleteCta": "Suprimir",
-
-  "historyButton": "Reflexions Anteriors",
-  "historyEmptyTitle": "Sense reflexions encara",
-  "historyEmptyBody": "Genera alguna cosa primer — els teus elements desats apareixeran aquí.",
-  "historyDelete": "Suprimir",
-
-  "footerTitle": "Amb Iman, Sabr i Rahma.",
-  "footerSubtitle": "Un pas a la vegada.",
-  "genericErrorSnack": "Alguna cosa ha anat malament — si us plau, intentau de nou en un moment.",
-
-  "upgradeAccountCta": "Desa les teves reflexions en tots els dispositius — crea un compte",
-  "deleteAccount": "Suprimir compte",
-  "exportData": "Exportar les meves dades",
-
+  "historyEmpty": "Encara no hi ha reflexions desades.",
+  "historyDeleteTitle": "Vols suprimir la reflexió?",
+  "historyDeleteBody": "Això eliminarà permanentment l’element seleccionat.",
+  "deleteCta": "Suprimeix",
+  "historyButton": "Reflexions anteriors",
+  "historyEmptyTitle": "Encara no hi ha reflexions",
+  "historyEmptyBody": "Genera alguna cosa primer — els elements desats apareixeran aquí.",
+  "historyDelete": "Suprimeix",
+  "footerTitle": "Amb Wilaya, Iman i Sabr",
+  "footerSubtitle": "Una pregària cada vegada",
+  "genericErrorSnack": "Alguna cosa ha anat malament — torna-ho a provar d’aquí a un moment.",
+  "upgradeAccountCta": "Desa les teves reflexions a tots els dispositius – crea un compte",
+  "deleteAccount": "Suprimeix el compte",
+  "exportData": "Exporta les meves dades",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Etiqueta abans de mostrar l'UID intern de Firebase.",
+    "description": "Etiqueta abans de mostrar l’UID intern de Firebase.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Tranquil 🐯\nL'IA necessita un moment abans de la següent…",
-  "rateDailyLimit": "S'han acabat les teves reflexions per ara.\nObtén més reflexions o millora a Barakah.",
-  "rateCreditsExhausted": "Has utilitzat totes les teves reflexions.\nRecarrega o millora a Barakah per continuar.",
-  "rateGraceReflectionsExhausted": "S'han acabat les teves reflexions per ara.\nObtén més reflexions o millora a Barakah.",
-  "rateReflectionsExhausted": "Has utilitzat totes les teves reflexions.\nRecarrega o millora a Barakah per continuar.",
-
-  "blessedDescription": "Barakah desbloqueja característiques premium, categories futures i una insígnia especial.",
-  "championDescription": "Barakah desbloqueja característiques premium, categories futures i una insígnia especial.",
-
-  "ratePlanExhausted": "Les teves reflexions estan buides ara mateix. Pla: {plan}.",
+  "rateLocalThrottle": "Calma 🐯\nAyara necessita un moment abans de la següent…",
+  "rateDailyLimit": "Ara mateix t’has quedat sense reflexions.\nAconsegueix més reflexions o actualitza a Wilaya.",
+  "rateCreditsExhausted": "Has fet servir totes les teves reflexions.\nRecarrega o actualitza a Wilaya per continuar.",
+  "rateGraceCreditsExhausted": "Ara mateix t’has quedat sense reflexions.\nAconsegueix més reflexions o actualitza a Wilaya.",
+  "premiumDescription": "Wilaya desbloqueja funcions premium, categories futures i una insígnia especial.",
+  "ratePlanExhausted": "Ara mateix no et queden reflexions. Pla: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Mostrat quan les reflexions de l'usuari s'esgoten però la raó és genèrica.",
+    "description": "Es mostra quan les reflexions de l’usuari s’han esgotat però el motiu és genèric.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Estàndard o Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Estàndard o Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "No s'ha pogut comprovar les teves reflexions: {message}",
+  "rateCheckFailed": "No s’han pogut comprovar les teves reflexions: {message}",
   "@rateCheckFailed": {
-    "description": "Mostrat quan la funció callable retorna un missatge d'error.",
+    "description": "Es mostra quan la funció invocable retorna un missatge d’error.",
     "placeholders": {
-      "message": { "type": "String", "example": "Error de xarxa" }
+      "message": {
+        "type": "String",
+        "example": "Error de xarxa"
+      }
     }
   },
-
-  "rateCheckGenericError": "Alguna cosa ha anat malament mentre es comprovaven les teves reflexions.",
-  "aiFallbackGeneric": "Alguna cosa ha anat malament — si us plau, intentau de nou en un moment.",
-
+  "rateCheckGenericError": "Alguna cosa ha anat malament en comprovar les teves reflexions.",
+  "aiFallbackGeneric": "Alguna cosa ha anat malament — torna-ho a provar d’aquí a un moment.",
   "limitSectionTitle": "Reflexions",
   "limitTodayLabel": "Ús",
   "limitCreditsLabel": "Reflexions restants: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "Pla: {plan}",
   "@limitPlanLabel": {
     "description": "Mostra el nom del pla de subscripció actual.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Estàndard o Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Estàndard o Wilaya"
+      }
     }
   },
-  "limitLoadingLabel": "Carregant…",
-  "limitLoadingLabelDescription": "Mostrat a la targeta de reflexions mentre s'obtenen les estadístiques d'ús.",
-
+  "limitLoadingLabel": "S’està carregant…",
+  "limitLoadingLabelDescription": "Es mostra a la targeta de reflexions mentre s’obtenen les estadístiques d’ús.",
   "aiLimitTitle": "Reflexions",
-  "aiLimitSubtitle": "Cada resposta utilitza 1 reflexió. L'Estàndard inclou reflexions inicials. Barakah desbloqueja categories premium i permet recarregues.",
+  "aiLimitSubtitle": "Cada resposta fa servir 1 reflexió. El pla Estàndard inclou reflexions inicials. Wilaya desbloqueja categories premium i permet recàrregues.",
   "aiLimitProgressLabel": "{used} / {total} reflexions utilitzades",
   "@aiLimitProgressLabel": {
     "placeholders": {
@@ -210,376 +174,456 @@
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Reflexions",
-  "reflectionsUsageLabel": "Ús",
-  "reflectionsRemainingLabel": "Reflexions restants: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Pla: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Mostra el nom del pla actual.",
+  "creditsSectionTitle": "Reflexions",
+  "creditsUsageLabel": "Ús",
+  "creditsRemainingLabel": "Reflexions restants: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Estàndard o Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Carregant…",
-  "reflectionsLoadingLabelDescription": "Mostrat mentre s'obtenen les estadístiques de reflexió.",
-
-  "reflectionsTitle": "Reflexions",
-  "reflectionsSubtitle": "Cada resposta utilitza 1 reflexió. L'Estàndard inclou reflexions inicials. Barakah desbloqueja categories premium i permet recarregues.",
-  "reflectionsProgressLabel": "{used} / {total} reflexions utilitzades",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Pla: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Mostra el nom del pla actual.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Estàndard o Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "S’està carregant…",
+  "creditsLoadingLabelDescription": "Es mostra mentre s’obtenen les estadístiques de reflexions.",
+  "creditsTitle": "Reflexions",
+  "creditsSubtitle": "Cada resposta fa servir 1 reflexió. El pla Estàndard inclou reflexions inicials. Wilaya desbloqueja categories premium i permet recàrregues.",
+  "creditsProgressLabel": "{used} / {total} reflexions utilitzades",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "Suprimir compte",
+  "settingsDeleteTitle": "Suprimeix el compte",
   "settingsDeleteDescription": "Suprimeix permanentment el teu compte i totes les dades associades.",
-  "settingsDeleteButtonLabel": "Suprimir el meu compte",
-  "settingsDeleteDialogTitle": "Suprimir compte?",
-  "settingsDeleteDialogBody": "Aquesta acció és permanent i no es pot desfer.\n\nTots els teus xats, historial i informació de compte seran suprimits.",
-  "settingsDeleteDialogCancel": "Cancelar",
-  "settingsDeleteDialogConfirm": "Suprimir",
-
-  "settingsFreeLimitUsedTitle": "Reflexions inicials utilitzades",
-  "settingsFreeLimitUsedDescription": "Les reflexions inicials per a aquest dispositiu han estat utilitzades. Millora a Barakah o compra més reflexions per continuar.",
-
-  "settingsStarterReflectionsUsedTitle": "Reflexions inicials utilitzades",
-  "settingsStarterReflectionsUsedDescription": "Les reflexions inicials per a aquest dispositiu han estat utilitzades. Millora a Barakah o compra més reflexions per continuar.",
-
-  "deviceBoundError": "Aquest dispositiu ja està vinculat a un altre compte. Si us plau, inicia sessió amb el compte original.",
-
-  "premiumTitle": "Mode Barakah",
-  "premiumSubtitleBasic": "Desbloqueja l'experiència completa de Ayara.",
-  "premiumSubtitleChampion": "Eres Barakah. Necessites més reflexions?",
-
+  "settingsDeleteButtonLabel": "Suprimeix el meu compte",
+  "settingsDeleteDialogTitle": "Vols suprimir el compte?",
+  "settingsDeleteDialogBody": "Aquesta acció és permanent i no es pot desfer.\n\nS’eliminaran tots els teus xats, l’historial i la informació del compte.",
+  "settingsDeleteDialogCancel": "Cancel·la",
+  "settingsDeleteDialogConfirm": "Suprimeix",
+  "settingsFreeLimitUsedTitle": "S’han fet servir les reflexions inicials",
+  "settingsFreeLimitUsedDescription": "Les reflexions inicials d’aquest dispositiu ja s’han fet servir. Actualitza a Wilaya o compra més reflexions per continuar.",
+  "settingsStarterCreditsUsedTitle": "S’han fet servir les reflexions inicials",
+  "settingsStarterCreditsUsedDescription": "Les reflexions inicials d’aquest dispositiu ja s’han fet servir. Actualitza a Wilaya o compra més reflexions per continuar.",
+  "deviceBoundError": "Aquest dispositiu ja està enllaçat a un altre compte. Inicia sessió amb el compte original.",
+  "premiumTitle": "Mode Wilaya",
+  "premiumSubtitleBasic": "Desbloqueja l’experiència completa d’Ayara.",
+  "premiumSubtitlePremium": "Tens Wilaya. Necessites més reflexions?",
   "premiumCurrentPlan": "Pla actual: {plan}",
   "premiumCreditsStatus": "Reflexions: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "Les compres no estan disponibles ara.",
-  "premiumSignInToPurchase": "Inicia sessió per comprar reflexions o desbloquejar Barakah.",
-
-  "premiumRestorePurchases": "Restaurar compres",
-  "premiumProcessing": "Processant…",
-  "premiumRestoreHintTitle": "Ja has comprat Barakah o reflexions en aquest dispositiu o en un altre?",
+  "premiumPurchasesUnavailable": "Les compres no estan disponibles ara mateix.",
+  "premiumSignInToPurchase": "Inicia sessió per comprar reflexions o desbloquejar Wilaya.",
+  "premiumRestorePurchases": "Restaura les compres",
+  "premiumProcessing": "S’està processant…",
+  "premiumRestoreHintTitle": "Ja has comprat Wilaya o reflexions en aquest dispositiu o en un altre?",
   "premiumRestoreHintBody": "Restaura les teves compres si no apareixen.",
-
   "premiumBuyCredits200": "Compra 200 reflexions",
   "premiumBuyCredits400": "Compra 400 reflexions",
-  "premiumBecomeChampionOneTime": "Millora a mode Barakah",
-  "premiumChampionHint": "Com a Barakah, pots recarregar amb reflexions extres sempre que en necessitis.",
-
-  "premiumUpgradeCta": "Millorar",
-  "premiumRequiredForCategory": "Aquesta categoria només està disponible per als usuaris de Barakah. Millora a Configuració per desbloquejar tot el contingut premium.",
-  "premiumBenefitsBasic": "Desbloqueja Barakah per obtenir reflexions extres, accedir a categories premium i continuar sempre que necessitis orientació.",
-  "premiumBenefitsChampion": "Eres en mode Barakah. Si t'està quedant poc, afegeix algunes reflexions extres i continua sense interrupcions.",
-  "premiumButtonBecomeChampion": "Desbloqueja Barakah",
-  "premiumButtonTopup1000": "Afegir 1000 reflexions",
-  "premiumChampionBadge": "Barakah actiu",
-  "premiumLoadingStore": "Carregant botiga…",
-
-  "blessedTitle": "Mode Barakah",
-  "blessedSubtitleGrace": "Desbloqueja l'experiència completa de Ayara.",
-  "blessedSubtitleBlessed": "Eres Barakah. Necessites més reflexions?",
-
-  "blessedCurrentPlan": "Pla actual: {plan}",
-  "blessedReflectionsStatus": "Reflexions: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Les compres no estan disponibles ara.",
-  "blessedProductNotAvailable": "Aquest producte no està disponible a la botiga encara. Si us plau, intentau de nou més tard.",
-  "blessedPurchaseError": "Alguna cosa ha anat malament amb la compra. Si us plau, intentau de nou.",
-  "blessedSignInToPurchase": "Inicia sessió per comprar reflexions o desbloquejar Barakah.",
-
-  "blessedRestorePurchases": "Restaurar compres",
-  "blessedProcessing": "Processant…",
-  "blessedRestoreHintTitle": "Ja has comprat Barakah o reflexions en aquest dispositiu o en un altre?",
-  "blessedRestoreHintBody": "Restaura les teves compres si no apareixen.",
-
-  "blessedBuyReflections100": "Afegir 100 reflexions",
-  "blessedBuyReflections200": "Compra 200 reflexions",
-  "blessedBuyReflections400": "Compra 400 reflexions",
-  "blessedBecomeBlessedOneTime": "Millora a Barakah",
-  "blessedTopupHint": "Com a Barakah, pots recarregar amb reflexions extres sempre que en necessitis.",
-
-  "blessedUpgradeCta": "Millorar",
-  "blessedRequiredForCategory": "Aquesta categoria només està disponible per als usuaris de Barakah. Millora a Configuració per desbloquejar tot el contingut premium.",
-  "blessedFeatureLocked": "Desbloqueja Barakah per accedir a aquesta funció.",
-  "lockedCategoriesHint": "Algunes categories són reservades per als membres de Barakah. Desbloqueja'ls per explorar cada reflexió en el teu camí.",
-  "blessedBenefitsGrace": "Desbloqueja Barakah per obtenir reflexions extres, accedir a categories premium i continuar sempre que necessitis orientació.",
-  "blessedBenefitsBlessed": "Eres en mode Barakah. Si t'està quedant poc, afegeix algunes reflexions extres i continua sense interrupcions.",
-  "blessedButtonBecomeBlessed": "Desbloqueja Barakah",
-  "blessedButtonTopup1000": "Afegir 1000 reflexions",
-  "blessedBadge": "Barakah actiu",
-  "blessedLoadingStore": "Carregant botiga…",
-
+  "premiumBecomePremiumOneTime": "Actualitza al mode Wilaya",
+  "premiumTopupHint": "Amb Wilaya, pots recarregar amb reflexions addicionals sempre que ho necessitis.",
+  "premiumUpgradeCta": "Actualitza",
+  "premiumRequiredForCategory": "Aquesta categoria només està disponible per als usuaris de Wilaya. Actualitza a Configuració per desbloquejar tot el contingut premium.",
+  "premiumBenefitsBasic": "Desbloqueja Wilaya per obtenir reflexions addicionals, accés a categories premium i continuar sempre que necessitis guia.",
+  "premiumBenefitsPremium": "Ets en mode Wilaya. Si te’n queden poques, afegeix algunes reflexions extres i continua sense interrupcions.",
+  "premiumButtonBecomePremium": "Desbloqueja Wilaya",
+  "premiumButtonTopup1000": "Afegeix 1000 reflexions",
+  "premiumBadge": "Wilaya activa",
+  "premiumLoadingStore": "S’està carregant la botiga…",
+  "premiumProductNotAvailable": "Aquest producte encara no està disponible a la botiga. Torna-ho a provar més tard.",
+  "premiumPurchaseError": "Alguna cosa ha anat malament amb la compra. Torna-ho a provar.",
+  "premiumBuyCredits100": "Afegeix 100 reflexions",
+  "premiumFeatureLocked": "Desbloqueja Wilaya per accedir a aquesta funció.",
+  "lockedCategoriesHint": "Algunes categories estan reservades per als membres de Wilaya. Desbloqueja-les per explorar cada reflexió del teu camí.",
   "freePlanBlockedTitle": "Has esgotat les teves reflexions inicials",
-  "freePlanBlockedBody": "Estàs en el pla Estàndard amb reflexions inicials i has arribat al límit. Per continuar — i desbloquejar categories premium — millora a Barakah.",
-  "freePlanBlockedCtaGoPremium": "Mira les opcions de Barakah a sota",
-
+  "freePlanBlockedBody": "Ets al pla Estàndard amb reflexions inicials i has arribat al límit. Per continuar — i desbloquejar categories premium — actualitza a Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Mira les opcions de Wilaya a continuació",
   "graceBlockedTitle": "Has esgotat les teves reflexions inicials",
-  "graceBlockedBody": "Estàs en el pla Estàndard amb reflexions inicials i has arribat al límit. Per continuar — i desbloquejar categories premium — millora a Barakah.",
-  "graceBlockedCtaGoBlessed": "Mira les opcions de Barakah a sota",
-
-  "rateGuestMustSignIn": "Inicia sessió per usar Ayara i les teves reflexions.",
-
-  "guestNoCreditsTitle": "Mode convidant",
-  "guestNoCreditsBody": "Com a convidant pots explorar l'aplicació, però no pots usar reflexions. Inicia sessió més tard a Configuració per usar reflexions i desbloquejar compres.",
-
-  "guestNoReflectionsTitle": "Mode convidant",
-  "guestNoReflectionsBody": "Com a convidant pots explorar l'aplicació, però no pots usar reflexions. Inicia sessió més tard a Configuració per usar reflexions i desbloquejar compres.",
-
-  "guestDialogContinue": "Continuar",
-  "guestDialogLoginInstead": "Inicia sessió en lloc d'això",
-
+  "graceBlockedBody": "Ets al pla Estàndard amb reflexions inicials i has arribat al límit. Per continuar — i desbloquejar categories premium — actualitza a Wilaya.",
+  "graceBlockedCtaGoPremium": "Mira les opcions de Wilaya a continuació",
+  "rateGuestMustSignIn": "Inicia sessió per fer servir Ayara i les teves reflexions.",
+  "guestNoCreditsTitle": "Mode convidat",
+  "guestNoCreditsBody": "Com a convidat pots navegar per l’aplicació, però no pots fer servir reflexions. Inicia sessió més tard des de Configuració per fer servir reflexions i desbloquejar compres.",
+  "guestDialogContinue": "Continua",
+  "guestDialogLoginInstead": "Inicia sessió en lloc d’això",
   "optionalLabel": "opcional",
-
   "accountDeleteSuccessTitle": "Compte suprimit",
-  "accountDeleteSuccessBody": "El teu compte i les dades associades han estat suprimits correctament.",
-  "accountDeleteSuccessClose": "Tancar",
-  "accountDeleteErrorTitle": "No s'ha pogut suprimir el compte",
-  "accountDeleteErrorClose": "D'acord",
-  "accountDeleteReauthCancelled": "La re-autenticació ha estat cancel·lada. Si us plau, inicia sessió de nou i reintenta la supressió.",
-  "accountDeleteReauthRequired": "La supressió del compte requereix un login recent. Si us plau, tanca sessió, inicia sessió de nou i reintenta.",
-  "settingsDeletePermanentWarning": "Aquesta acció és permanent i no es pot desfer. Totes les dades associades amb el teu compte seran suprimides.",
-
-  "dailyGraceTitle": "Orientació Diària",
+  "accountDeleteSuccessBody": "El teu compte i les dades associades s’han suprimit correctament.",
+  "accountDeleteSuccessClose": "Tanca",
+  "accountDeleteErrorTitle": "No s’ha pogut suprimir el compte",
+  "accountDeleteErrorClose": "D’acord",
+  "accountDeleteReauthCancelled": "La reautenticació s’ha cancel·lat. Torna a iniciar sessió i prova d’eliminar el compte una altra vegada.",
+  "accountDeleteReauthRequired": "Per suprimir el compte cal haver iniciat sessió recentment. Tanca la sessió, torna a iniciar-la i prova-ho de nou.",
+  "settingsDeletePermanentWarning": "Aquesta acció és permanent i no es pot desfer. Totes les dades associades al teu compte s’eliminaran.",
+  "dailyGraceTitle": "Guia diària",
   "dailyGraceScriptureLabel": "VERSICLE DEL DIA",
   "dailyGraceSaintLabel": "ERUDIT DE LA SETMANA",
-  "dailyGraceReflectionLabel": "REFLEXIÓ VESPERTINA",
-  "dailyGraceCopiedToast": "Versicle copiat al portapapeles",
-
-  "dailyScripture0Text": "En veritat, els justos estaran entre jardins i rius, en un lloc d'honor proper a un Rei Poderós.",
-  "dailyScripture0Ref": "Alcorà 54:54-55",
-  "dailyScripture1Text": "I no t'hem enviat, Oh Muhammad, sinó com a misericòrdia pels mons.",
-  "dailyScripture1Ref": "Alcorà 21:107",
-  "dailyScripture2Text": "No és Al·là suficient per al seu servidor? Però et terroritzen amb altres a més d'Ell.",
-  "dailyScripture2Ref": "Alcorà 39:36",
-  "dailyScripture3Text": "Potser odieus alguna cosa i és bé per a tu; i potser estimeus alguna cosa i és malament per a tu. I Al·là sap, mentre que tu no saps.",
-  "dailyScripture3Ref": "Alcorà 2:216",
-  "dailyScripture4Text": "En veritat, Al·là està amb els pacients.",
-  "dailyScripture4Ref": "Alcorà 2:153",
-  "dailyScripture5Text": "Així que recorda'm; jo te recordaré a tu. I sigues agraïda amb mi i no em renegueu.",
-  "dailyScripture5Ref": "Alcorà 2:152",
-  "dailyScripture6Text": "En veritat, els més nobles entre vosaltres als ulls d'Al·là són els més justos entre vosaltres.",
-  "dailyScripture6Ref": "Alcorà 49:13",
-  "dailyScripture7Text": "I el teu Senyor ha decretat que no adoris més que a Ell, i que siguis dutiful amb els teus pares.",
-  "dailyScripture7Ref": "Alcorà 17:23",
-  "dailyScripture8Text": "En veritat, amb la dificultats ve la facilitat.",
-  "dailyScripture8Ref": "Alcorà 94:6",
-  "dailyScripture9Text": "I Ell està amb vosaltres on quevosigueu. I Al·là, del que feu, veu.",
-  "dailyScripture9Ref": "Alcorà 57:4",
-  "dailyScripture10Text": "Al·là no carrega una ànima més del que pot suportar.",
-  "dailyScripture10Ref": "Alcorà 2:286",
-  "dailyScripture11Text": "I qualsevol que confia en Al·là — doncs Ell li és suficient.",
-  "dailyScripture11Ref": "Alcorà 65:3",
-  "dailyScripture12Text": "La meva misericòrdia comprèn totes les coses.",
-  "dailyScripture12Ref": "Alcorà 7:156",
-  "dailyScripture13Text": "I quan els meus servidors et pregunten sobre Mi — en veritat jo sóc a prop. Jo respon al suplicant quan em crida.",
-  "dailyScripture13Ref": "Alcorà 2:186",
-  "dailyScripture14Text": "Qualsevol que fa rectitud, sigui home o dona, mentre és un creient — segurament li causarem que viurà una vida bona.",
-  "dailyScripture14Ref": "Alcorà 16:97",
-  "dailyScripture15Text": "En veritat, Al·là no canviarà la condició d'un poble fins que canvin el que és en ells mateixos.",
-  "dailyScripture15Ref": "Alcorà 13:11",
-  "dailyScripture16Text": "Així que no debiliteu i no sospiri, i sereu superior si sou creients vertaders.",
-  "dailyScripture16Ref": "Alcorà 3:139",
-  "dailyScripture17Text": "Oh Servidors meus que heu transgredits contra vosaltres mateixos, no desespereu de la misericòrdia d'Al·là. En veritat, Al·là perdona tots els pecats.",
-  "dailyScripture17Ref": "Alcorà 39:53",
-  "dailyScripture18Text": "I qualsevol que tema Al·là — Ell li donarà una sortida, i li proveirà d'on no s'ho espera.",
-  "dailyScripture18Ref": "Alcorà 65:2-3",
-  "dailyScripture19Text": "No perdi l'esperança en la misericòrdia d'Al·là.",
-  "dailyScripture19Ref": "Alcorà 12:87",
-  "dailyScripture20Text": "I segurament hem fet fàcil l'Alcorà per al record. Llavors, hi ha algú que serà conscient?",
-  "dailyScripture20Ref": "Alcorà 54:17",
-  "dailyScripture21Text": "I Et va trobar perdut i Et va guiar.",
-  "dailyScripture21Ref": "Alcorà 93:7",
-  "dailyScripture22Text": "I el teu Senyor diu: Invocam; Jo et respondré.",
-  "dailyScripture22Ref": "Alcorà 40:60",
-  "dailyScripture23Text": "I segurament hem honorat els fills d'Adam.",
-  "dailyScripture23Ref": "Alcorà 17:70",
-  "dailyScripture24Text": "I busca ajuda através de la paciència i la pregària.",
-  "dailyScripture24Ref": "Alcorà 2:45",
-  "dailyScripture25Text": "Qualsevol que faci el pes d'un àtom de bé la veurà.",
-  "dailyScripture25Ref": "Alcorà 99:7",
-  "dailyScripture26Text": "Sens dubte, l'ajuda d'Al·là està a prop.",
-  "dailyScripture26Ref": "Alcorà 2:214",
-  "dailyScripture27Text": "I qualsevol que és agraït — la seva gratitud és només pel seu propi benefici.",
-  "dailyScripture27Ref": "Alcorà 31:12",
-
-  "dailyReflection0": "Quan aquesta dia es tanca, considera un moment on la misericòrdia d'Al·là va ser evident.",
-  "dailyReflection1": "Porta davant d'Al·là qualsevol cosa que et va pesar en el cor avui.",
-  "dailyReflection2": "Nomena una benedicció d'aquest dia i expressa gratitud a Al·là.",
-  "dailyReflection3": "Reposau en el saber que ets sostingut en la cura infinita d'Al·là.",
-  "dailyReflection4": "Reflexiona sobre on vas sentir cridat a mostrar compassió i bondat avui.",
-  "dailyReflection5": "Deixa anar el que no pots controlar i confiar en el pla perfecte d'Al·là.",
-  "dailyReflection6": "Mentre el dia s'acaba, rep pau en la remembrança d'Al·là.",
-  "dailyReflection7": "Considera com has honorat les teves pregàries avui, i agraeix a Al·là per cada una.",
-  "dailyReflection8": "Reflexiona sobre un moment on la paciència (Sabr) va guiar les teves accions avui.",
-  "dailyReflection9": "Busca perdó per qualsevol insuficiència avui — la misericòrdia d'Al·là és infinita.",
-  "dailyReflection10": "Nomena una persona a qui vas mostrar bondat avui i fes dua per a ella.",
-  "dailyReflection11": "Asseu't amb gratitud: què va proporcionar Al·là avui que no vas demanar?",
-  "dailyReflection12": "Reflexiona sobre un versicle de l'Alcorà que parla d'on estàs ara.",
-  "dailyReflection13": "Considera com vas usar el teu temps avui — i ofereix demà a Al·là.",
-  "dailyReflection14": "Reposau sabent que qualsevol dificultats que vingui avui, Al·là va estar amb tu a través d'això.",
-  "dailyReflection15": "Pensa en una manera que vas servir la teva família o comunitat avui per l'amor d'Al·là.",
-  "dailyReflection16": "A mesura que cau la nit, fes Tawbah — Al·là estima els que es tornen a Ell.",
-  "dailyReflection17": "Reflexiona sobre la bellesa que Al·là va posar en el teu dia, però que sigui petit.",
-  "dailyReflection18": "Considera el que vas aprendre avui i com t'apropa a Al·là.",
-  "dailyReflection19": "Deixa que els problemes del dia reposi amb Al·là — Ell porta el que no pots.",
-  "dailyReflection20": "Pensa en un moment avui on hauries pogut triar millor, i aprèn d'això suaument.",
-  "dailyReflection21": "Fes dua pels qui estan patint — la teva pregària és un regal per a ells.",
-  "dailyReflection22": "Recorda una benedicció que sovint oblides i dedica un moment a agraïr Al·là per això.",
-  "dailyReflection23": "Reflexiona sobre les teves intencions avui — eren per a Al·là? Demà, comença de nou.",
-  "dailyReflection24": "A mesura que la nit es queda tranquil·la, escoltar la proximitat d'Al·là en el silenci.",
-  "dailyReflection25": "Considera on vas trobar força avui — aquesta força és d'Al·là.",
-  "dailyReflection26": "Nomena una cosa que faràs demà, per l'amor d'Al·là, que no vas fer avui.",
-  "dailyReflection27": "A mesura que es prepara per descansar, confiar la teva ànima a Al·là — Ell és el millor dels guardians.",
-
-  "dailyRoleModel0": "Profeta Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Profeta Ibrahim (AS)",
-  "dailyRoleModel44": "Profeta Musa (AS)",
-  "dailyRoleModel45": "Profeta Isa (AS)",
-  "dailyRoleModel46": "Profeta Yusuf (AS)",
-  "dailyRoleModel47": "Profeta Dawud (AS)",
-  "dailyRoleModel48": "Profeta Sulayman (AS)",
-  "dailyRoleModel49": "Profeta Nuh (AS)",
-  "dailyRoleModel50": "Profeta Yunus (AS)",
-  "dailyRoleModel51": "Profeta Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Permetre que Ayara useu la meva ubicació per a la direcció de la Qibla i els temps de pregària",
-  "locationConsentHint": "Utilitzat només per a aquestes funcions. La teva ubicació mai es comparteix o emmagatzema.",
-
+  "dailyGraceReflectionLabel": "REFLEXIÓ DEL VESPRE",
+  "dailyGraceCopiedToast": "S’ha copiat el versicle al porta-retalls",
+  "locationConsentLabel": "Permet que Ayara faci servir la meva ubicació per a la direcció de la qibla i els horaris de pregària",
+  "locationConsentHint": "Només s’utilitza per a aquestes funcions. La teva ubicació mai no es comparteix ni s’emmagatzema.",
   "askPageTitle": "Pregunta a Ayara",
-  "askPageDescription": "Pregunta qualsevol cosa sobre la fe, pregària, vida o pràctica islàmica i rep orientació arrelada en l'Alcorà i la Sunnah.",
-  "askPageInputHint": "Escriu la teva pregunta aquí…",
-  "askPageSubmitCta": "Preguntar",
-  "askPageInputEmptyError": "Si us plau, escriu una pregunta primer.",
+  "askPageDescription": "Pregunta qualsevol cosa sobre la fe, la pregària, la vida o la pràctica islàmica i rep una guia arrelada a l’Alcorà i als ensenyaments de l’Ahl al-Bayt.",
+  "askPageInputHint": "Escriu aquí la teva pregunta…",
+  "askPageSubmitCta": "Pregunta",
+  "askPageInputEmptyError": "Escriu una pregunta primer.",
   "askResultYourQuestion": "La teva pregunta",
-
-  "guidancePageTitle": "Pregària i Orientació",
-  "qiblaFacingMecca": "Mirant la Meca",
-  "qiblaCompassInstruction": "Gira el teu telèfon fins que l'agulla daurada apunti cap amunt.\nAquesta direcció apunta a la Qibla (Meca).",
-  "qiblaGpsUnavailableBody": "El senyal de GPS és feble. Mou't a l'exterior i toca Reintentar.",
-  "qiblaRetry": "Reintentar",
-  "qiblaTitle": "Direcció de la Qibla",
-  "qiblaDistanceLabel": "{km} km a la Meca",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "Cap a la Meca",
+  "qiblaCompassInstruction": "Gira el telèfon fins que l’agulla daurada apunti cap amunt.\nAquesta direcció apunta cap a la qibla (la Meca).",
+  "qiblaGpsUnavailableBody": "El senyal GPS és feble. Ves a l’exterior i toca Reintenta.",
+  "qiblaRetry": "Reintenta",
+  "qiblaTitle": "Direcció de la qibla",
+  "qiblaDistanceLabel": "{km} km fins a la Meca",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "Ubicació requerida",
-  "qiblaLocationNeededBody": "Permet l'accés a la ubicació perquè Ayara calculi la direcció de la Kaaba a la Meca des d'on quevosigueu.",
-  "qiblaOpenSettings": "Obrir Configuració",
-  "qiblaCompassLoading": "Trobant la teva posició…",
+  "qiblaLocationNeededTitle": "Cal la ubicació",
+  "qiblaLocationNeededBody": "Permet l’accés a la ubicació perquè Ayara pugui calcular la direcció de la Kaaba a la Meca des d’on siguis.",
+  "qiblaOpenSettings": "Obre Configuració",
+  "qiblaCompassLoading": "S’està trobant la teva posició…",
   "qiblaTowardMecca": "Cap a la Meca",
-
-  "prayerTimesTitle": "Temps de Pregària",
+  "prayerTimesTitle": "Horaris de pregària",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
-  "prayerTimesLocationNeededTitle": "Ubicació requerida",
-  "prayerTimesLocationNeededBody": "Permet l'accés a la ubicació perquè Ayara calculi els temps de pregària precisos per a la teva ciutat.",
+  "prayerTimesLocationNeededTitle": "Cal la ubicació",
+  "prayerTimesLocationNeededBody": "Permet l’accés a la ubicació perquè Ayara pugui calcular horaris de pregària precisos per a la teva ciutat.",
   "prayerTimesNextLabel": "Següent",
   "prayerTimesDoneLabel": "Fet",
-
-  "monthlyPrayerTimesTitle": "Temps de Pregària Mensuals",
-  "monthlyPrayerTimesViewButton": "Veure Tot el Mes",
-  "monthlyPrayerTimesNextMonth": "Proper mes",
+  "monthlyPrayerTimesTitle": "Horaris mensuals de pregària",
+  "monthlyPrayerTimesViewButton": "Mostra el mes complet",
+  "monthlyPrayerTimesNextMonth": "Mes següent",
   "monthlyPrayerTimesDayHeader": "Dia",
-
-  "sharePrayerTimes": "Compartir temps de pregària",
-
-  "prayerNotificationsTitle": "Recordatoris de Pregària",
-  "prayerNotificationsDescription": "Rebrà un recordatori suau abans de cada moment de pregària per a ajudar-te a mantenir-te connectat al llarg del dia.",
-  "prayerNotificationsEnable": "Habilitar recordatoris de pregària",
-  "prayerNotificationsOpenSettings": "Obrir configuració de notificacions",
-  "prayerNotificationsDenied": "Les notificacions estan deshabilitades",
-  "prayerNotificationsDeniedHint": "Vés a Configuració i permet les notificacions per a Ayara per rebre recordatoris de temps de pregària.",
-
-  "notificationsConsentLabel": "Permet notificacions pels temps de pregària",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — Pregària de l'Alba",
-  "prayerNotifBodyFajr": "La millor de les pregàries és la pregària de l'alba. Alça't, purificat-te i presenta-t davant Al·là.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Pregària del Migdia",
-  "prayerNotifBodyDhuhr": "Para el teu dia i torna a Al·là. Ha arribat el moment de la pregària de Dhuhr.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — Pregària de la Tarda",
-  "prayerNotifBodyAsr": "Custodia la pregària del mig. Ha arribat el moment de Asr — no la deixis passar.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — Pregària de la Posta",
-  "prayerNotifBodyMaghrib": "El sol s'ha posat. Ofereix Maghrib i sigues agraït a Al·là per aquest dia.",
-
-  "prayerNotifTitleIsha": "🌙 Isha — Pregària de la Nit",
-  "prayerNotifBodyIsha": "Acaba el teu dia amb recordació d'Al·là. Hayya 'alal falah — ve al triomf.",
-
-  "outOfReflectionsBannerText": "Has utilitzat totes les teves reflexions",
-  "outOfReflectionsBannerCta": "Obtenir més",
-
+  "sharePrayerTimes": "Comparteix els horaris de pregària",
+  "notificationsSectionTitle": "Notificacions",
+  "notificationsSectionSubtitle": "Recordatoris de pregària, esdeveniments del calendari i més",
+  "dailyReflectionReminderTitle": "Reflexió diària",
+  "dailyReflectionReminderDescription": "Un recordatori diari suau per obrir Ayara i connectar amb la teva fe.",
+  "dailyReflectionReminderEnable": "Activa el recordatori diari",
+  "dailyReflectionReminderTimeLabel": "Hora del recordatori",
+  "prayerNotificationsTitle": "Recordatoris de pregària",
+  "prayerNotificationsDescription": "Rep un recordatori suau abans de cada pregària per ajudar-te a mantenir-te connectat durant el dia.",
+  "prayerNotificationsEnable": "Activa els recordatoris de pregària",
+  "prayerNotificationsOpenSettings": "Obre la configuració de notificacions",
+  "prayerNotificationsDenied": "Les notificacions estan desactivades",
+  "prayerNotificationsDeniedHint": "Ves a Configuració i permet les notificacions per a Ayara per rebre recordatoris dels horaris de pregària.",
+  "notificationsConsentLabel": "Permet notificacions per als horaris de pregària",
+  "prayerNotifTitleFajr": "🌅 Fajr — Pregària de l’alba",
+  "prayerNotifBodyFajr": "Fajr és la pregària dels matins de l’Ahl al-Bayt. L’imam Ali (AS) va dir: Guarda la pregària de l’alba com guardes el teu bé més preuat. Aixeca’t, purifica’t i posa’t davant d’Al·là.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Pregària del migdia",
+  "prayerNotifBodyDhuhr": "Els imams de l’Ahl al-Bayt valoraven cada moment de record. Atura el teu dia, combina Dhuhr amb Asr si cal i torna el teu cor cap a Al·là.",
+  "prayerNotifTitleAsr": "🌤️ Asr — Pregària de la tarda",
+  "prayerNotifBodyAsr": "Guarda la pregària, perquè és el pacte entre tu i Al·là. Ha arribat l’hora d’Asr — no deixis que passi sense record.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Pregària del capvespre",
+  "prayerNotifBodyMaghrib": "El sol s’ha post — un moment que l’Ahl al-Bayt considerava sagrat per a la súplica. Ofereix Maghrib i alça les mans a Al·là en du‘a abans que comenci la nit.",
+  "prayerNotifTitleIsha": "🌙 Isha — Pregària de la nit",
+  "prayerNotifBodyIsha": "Acaba el teu dia en companyia d’Al·là. Els imams animaven a fer Salat al-Layl després d’Isha — però primer completa la teva Isha i tanca el dia amb el Seu record.",
+  "outOfReflectionsBannerText": "Has fet servir totes les teves reflexions",
+  "outOfReflectionsBannerCta": "Aconsegueix-ne més",
   "dhikrPageTitle": "Dhikr",
   "dhikrTapToCount": "Toca el cercle per comptar",
-  "dhikrResetButton": "Reiniciar",
+  "dhikrResetButton": "Reinicia",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Has completat 99 remembrances d'Al·là. Que siguin una llum per al teu cor.",
-
-  "disclaimerTitle": "Sobre l'orientació d'aquesta aplicació",
-  "disclaimerBody": "Ayara proporciona reflexions islàmiques, recordatoris i contingut espiritual per a suportar el teu viatge personal de fe. Aquest contingut s'ofereix només per a fins informatius i d'inspiració general.\n\nAyara no reemplaça l'erudició qualificada.\nL'orientació en aquesta aplicació no és un substitut per a un erudit islàmic qualificat, imam, muftí o mestre instruït teològicament. Si tens preguntes sobre dictàmens religiosos, qüestions de halal i haram, o obligacions religioses personals, si us plau, busca consell d'una autoritat religiosa qualificada en la teva comunitat.\n\nAquesta aplicació no emetrà dictàmens religiosos.\nAyara no fa determinacions autoritàries en matèries de fiqh (jurisprudència islàmica) u obligacions religioses personals. Res aquí no ha de ser tractat com una fatwa o instrucció religiosa vinculant.\n\nLes interpretacions erudites varien.\nL'Islam comprèn una riquesa diversitat de tradicions, escoles de pensament (madhabs) i opinions erudites. El contingut en aquesta aplicació reflexa perspectives generals i potser no representi cada tradició o escola igualment.\n\nLa comunitat importa.\nAquesta aplicació pretén fomentar el teu compromís amb les tradicions de fe mentre respecta profundament el paper vital del teu masjid local, imam i comunitat religiosa. T'encoratgem a romandre connectat i aprendre de mestres qualificats a prop teu.",
-  "disclaimerClose": "Comprenc",
-  "disclaimerInfoTooltip": "Sobre l'orientació d'aquesta aplicació",
-  "disclaimerSettingsSubtitle": "Només per a fins informatius generals. Toca per llegir el disclaimer complet.",
-  "disclaimerSectionHeader": "Avís de disclaimer d'orientació"
+  "dhikrCompleteMessage": "Has completat 100 records d’Al·là. Que siguin una llum per al teu cor.",
+  "disclaimerTitle": "Sobre la guia d’aquesta aplicació",
+  "disclaimerBody": "Ayara ofereix reflexions islàmiques, recordatoris i contingut espiritual per donar suport al teu camí personal de fe, arrelat a l’Alcorà i als ensenyaments de l’Ahl al-Bayt. Aquest contingut s’ofereix només amb finalitats informatives i inspiradores generals.\n\nAyara no substitueix l’erudició qualificada.\nLa guia d’aquesta aplicació no substitueix un erudit islàmic qualificat, un marja' o un mestre amb formació teològica. A l’islam xiïta, la guia religiosa està arrelada a l’escola jafarita de jurisprudència (fiqh) i a la tradició de seguir un Marja’ viu (font d’emulació), és a dir, un jurista qualificat les resolucions del qual guien els creients en la pràctica religiosa. Si tens preguntes sobre normes religioses, assumptes d’halal i haram o obligacions religioses personals, busca consell d’un Marja’ qualificat o d’un erudit de la teva comunitat.\n\nAquesta aplicació no emet resolucions religioses.\nAyara no pren determinacions autoritatives sobre qüestions de fiqh o obligacions religioses personals. Res del que hi ha aquí s’hauria de tractar com una fatwa o una instrucció religiosa vinculant.\n\nLa centralitat de l’Ahl al-Bayt.\nA l’islam xiïta, el profeta Muhàmmad ﷺ i la seva família purificada — l’Ahl al-Bayt — són els guies autoritzats de la comunitat islàmica després de l’Alcorà. Els dotze imams de l’Ahl al-Bayt són els intèrprets divinament designats de l’ensenyament islàmic. El contingut d’aquesta aplicació reflecteix aquesta tradició i procura honorar-la fidelment.\n\nAssumptes de comunitat.\nAquesta aplicació pretén fomentar la teva vinculació amb la fe mentre respecta profundament el paper vital de la teva mesquita local, centre islàmic i comunitat religiosa. T’animem a mantenir-te connectat i aprendre de mestres qualificats propers a tu.",
+  "disclaimerClose": "Ho entenc",
+  "disclaimerInfoTooltip": "Sobre la guia d’aquesta aplicació",
+  "disclaimerSettingsSubtitle": "Només amb finalitats informatives generals. Toca per llegir l’avís complet.",
+  "disclaimerSectionHeader": "Avís de responsabilitat sobre la guia",
+  "navHome": "Inici",
+  "navReflect": "Reflexiona",
+  "navDuas": "Du‘as",
+  "navCalendar": "Calendari",
+  "dashboardToday": "AVUI",
+  "dashboardComingUp": "Properament",
+  "dashboardDaysUnit": "{count, plural, one {dia} other {dies}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Accés ràpid",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Guia",
+  "quickActionPrayerTimes": "Horaris de pregària",
+  "askAyaraTitle": "Pregunta a Ayara",
+  "askAyaraSubtitle": "Fes qualsevol pregunta islàmica i rep una resposta reflexiva i guiada.",
+  "askAyaraHint": "p. ex. Quina és la importància del Ramadà?",
+  "askAyaraSubmit": "Pregunta",
+  "wisdomOfTheDayTitle": "Saviesa del dia",
+  "calendarScreenTitle": "Calendari islàmic",
+  "calendarUpcomingOccasions": "Properes ocasions",
+  "calendarOccasionRemindersTitle": "Recordatoris d’ocasions",
+  "calendarOccasionRemindersHint": "Notificació la nit abans de cada ocasió",
+  "calendarNotifPermissionDenied": "Permís de notificacions denegat. Activa’l a la configuració del dispositiu.",
+  "calendarNoEvents": "No s’han trobat esdeveniments pròxims.",
+  "calendarAddToPhone": "Afegeix al calendari del telèfon",
+  "calendarAddedToPhone": "Afegit al calendari",
+  "calendarCountdownToday": "AVUI",
+  "calendarCountdownTomorrow": "DEMÀ",
+  "calendarCountdownDays": "d’aquí a {days} dies",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "gen.",
+  "calendarMonthFeb": "febr.",
+  "calendarMonthMar": "març",
+  "calendarMonthApr": "abr.",
+  "calendarMonthMay": "maig",
+  "calendarMonthJun": "juny",
+  "calendarMonthJul": "jul.",
+  "calendarMonthAug": "ag.",
+  "calendarMonthSep": "set.",
+  "calendarMonthOct": "oct.",
+  "calendarMonthNov": "nov.",
+  "calendarMonthDec": "des.",
+  "calendarSeasonMuharramEarly": "Dies de Muhàrram — recorda Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muhàrram — dies de dol i reflexió",
+  "calendarSeasonArbaeen": "Arbaeen — quaranta dies de Husayn",
+  "calendarSeasonRoadToArbaeen": "El camí cap a Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — l’alba de la revelació",
+  "calendarSeasonMidShaban": "Mitjan Sha'ban — aniversari de l’Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadà Mubarak — el mes de l’Alcorà",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muhàrram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadà",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Du‘as i Ziyarat",
+  "duasSearchHint": "Cerca du‘as, ziyarat…",
+  "duasFilterAll": "Totes",
+  "duasCount": "{count, plural, one {{count} du‘a} other {{count} du‘as i ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "No s’han trobat du‘as.",
+  "duaCategoryDaily": "Diàries",
+  "duaCategoryWeekly": "Setmanals",
+  "duaCategoryOccasions": "Ocasions",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Naixement",
+  "eventTypeMartyrdom": "Martiri",
+  "eventTypeOccasion": "Ocasió",
+  "duaCopyTooltip": "Copia la traducció",
+  "duaToggleTransliteration": "Transliteració",
+  "duaToggleTranslation": "Traducció",
+  "duaAskAiLabel": "Demana a Ayara que expliqui aquesta du‘a",
+  "duaAskAiLockedLabel": "Pregunta a Ayara (Wilaya)",
+  "duaAiLockedMessage": "Les explicacions d’Ayara estan disponibles per als membres de Wilaya. Actualitza a Configuració.",
+  "duaAiComingSoon": "Pregunta a Ayara sobre \"{name}\" — aviat!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "S’ha copiat la du‘a al porta-retalls.",
+  "tasbihAllahuAkbarMeaning": "Al·là és el més Gran",
+  "tasbihAlhamdulillahMeaning": "Tota lloança pertany a Al·là",
+  "tasbihSubhanallahMeaning": "Glòria a Al·là",
+  "tasbihResetTooltip": "Reinicia",
+  "tasbihCompleteTitle": "Tasbih completat",
+  "tasbihCompleteMessage": "Que Al·là accepti el teu dhikr.",
+  "tasbihTapHint": "Toca a qualsevol lloc per comptar",
+  "tasbihatScreenTitle": "Guia de pregària",
+  "tasbihatScreenSubtitle": "LES GLORIFICACIONS DE LA PREGÀRIA",
+  "tasbihatScreenDescription": "Una guia completa de les glorificacions recitades durant i després de les pregàries diàries — seguint la tradició de l’Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Recitat durant la 3a i la 4a rakʿah",
+  "tasbihatArba3Info": "En la jurisprudència xiïta, el Tasbiḥāt al-Arbaʿa substitueix la sura al-Fatiha en la 3a i la 4a rakʿah de Dhuhr, Asr, Maghrib i Isha. És obligatori (wājib) recitar-lo una vegada, i recomanable (mustaḥabb) recitar-lo tres vegades.",
+  "tasbihatArba3Translation": "Glòria a Al·là · Tota lloança és per a Al·là\nNo hi ha altre déu que Al·là · Al·là és el més Gran",
+  "tasbihatArba3CompleteTitle": "Recitació completada",
+  "tasbihatArba3CompleteMessage": "Que la teva pregària sigui acceptada — Amīn",
+  "tasbihatArba3TapHint": "Toca després de cada recitació",
+  "tasbihatZahraSubtitle": "Després de cada pregària · 100 comptes",
+  "tasbihatZahraOriginLabel": "Origen",
+  "tasbihatZahraHadith": "La senyora Fàtima al-Zahra (sa) va demanar al Profeta ﷺ un servent. Ell va dir: \"No vols que et guiï cap a una cosa millor? Recita Subḥānallāh 33 vegades, Alḥamdulillāh 33 vegades, i Allāhu Akbar 34 vegades després de cada pregària. Això és millor per a tu que un servent.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, vol. 85",
+  "tasbihatZahraOpenCounter": "Obre el comptador de tasbīḥ",
+  "tasbihatDuasTitle": "DU‘AS RECOMANADES",
+  "tasbihatDuasSubtitle": "Després de completar la pregària",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Després de cada pregària obligatòria",
+  "tasbihatDuaAyatKursiSource": "Sura al-Baqara 2:255",
+  "tasbihatDuaAyatKursiNote": "Qui recita Āyat al-Kursī després de cada pregària obligatòria, no hi ha res entre ell i el paradís excepte la mort. L’imam al-Bāqir (a) va dir que és entre els versicles més grans de l’Alcorà.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Després de cada pregària · segella totes les súpliques",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Enviar salutacions sobre el Profeta ﷺ i la seva família purificada (Āl Muḥammad) és recomanable per segellar cada du‘a. L’imam al-Ṣādiq (a) va dir: \"Qualsevol du‘a queda suspesa fins que enviïs ṣalawāt sobre Muḥammad i la seva família.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Després de cada pregària · per a l’Imam del nostre temps",
+  "tasbihatDuaFarajSource": "Ensenyada per l’Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "Una du‘a per a la reaparició de l’Imam al-Mahdī (af), el dotzè Imam, ensenyada pel seu pare. Els xiïtes la reciten diàriament després de cada pregària com a acte de devoció envers l’Imam viu.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ de la senyora Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "Després de Maghrib i Isha · especialment recomanada",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "L’imam al-Bāqir (a) va dir que recitar el Tasbīḥ al-Zahrā després d’Isha abans d’anar a dormir és millor que 1000 rakʿahs de pregària voluntària. La seva llum s’eleva cap als cels.",
+  "tasbihFatimaGiftPre": "Un regal del Profeta",
+  "tasbihFatimaGiftPost": "recitat després de cada pregària",
+  "prayerTrackerTitle": "SEGUIMENT DE LA PREGÀRIA",
+  "prayerTrackerPrayed": "Pregada",
+  "prayerTrackerDayStreak": "ratxa de {count} dies",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Totes les pregàries d’avui s’han completat. Que Al·là les accepti.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Completat avui",
+  "dhikrTrackerNotDoneToday": "No fet avui",
+  "dhikrTrackerDayStreak": "ratxa de {count} dies",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Recordatori de tasbīḥ",
+  "dhikrReminderDescription": "Un recordatori diari suau per recitar el teu Tasbīḥ al-Zahrā (SA).",
+  "dhikrReminderEnable": "Activa el recordatori de tasbīḥ",
+  "dhikrReminderTimeLabel": "Hora del recordatori",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Hadit diari",
+  "hadithLabelArabic": "ÀRAB",
+  "hadithLabelTranslation": "TRADUCCIÓ",
+  "hadithBadge": "HADIT",
+  "hadithShare": "Comparteix aquest hadit",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nVia Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Anterior",
+  "hadithNavNext": "Següent",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "Els 14 Masumeen",
+  "imamsScreenSubtitle": "El Profeta, la senyora Fàtima i els dotze imams — els guies infal·libles de l’islam",
+  "imamLabelBorn": "Naixement",
+  "imamLabelMartyrdom": "Martiri",
+  "imamLabelStatus": "Estat",
+  "imamSectionBiography": "BIOGRAFIA",
+  "imamSectionFamousSaying": "DITA FAMOSA",
+  "imamRoleProphet": "L’últim Profeta",
+  "imamRoleInfallible": "L’Infal·lible",
+  "imamOrdinal1": "1r Imam",
+  "imamOrdinal2": "2n Imam",
+  "imamOrdinal3": "3r Imam",
+  "imamOrdinal4": "4t Imam",
+  "imamOrdinal5": "5è Imam",
+  "imamOrdinal6": "6è Imam",
+  "imamOrdinal7": "7è Imam",
+  "imamOrdinal8": "8è Imam",
+  "imamOrdinal9": "9è Imam",
+  "imamOrdinal10": "10è Imam",
+  "imamOrdinal11": "11è Imam",
+  "imamOrdinal12": "12è Imam",
+  "duaAudioScreenTitle": "Escolta du‘as",
+  "duaAudioScreenSubtitle": "Selecciona una du‘a per escoltar. Toca la fitxa per reproduir o posar en pausa.",
+  "duaAudioComingSoonMessage": "L’àudio d’aquesta du‘a estarà disponible en una propera actualització.",
+  "duaAudioClose": "Tanca",
+  "duaAudioError": "No s’ha pogut carregar l’àudio. Comprova la teva connexió.",
+  "duaAudioMetaTransmittedBy": "Transmesa per",
+  "duaAudioMetaOccasion": "Ocasió",
+  "duaAudioMetaDuration": "Durada",
+  "quickActionDailyHadith": "Hadit diari",
+  "quickAction14Masumeen": "14 Masumeen",
+  "quickActionListenDuas": "Escolta",
+  "quickActionTasbihat": "Guia de pregària",
+  "pilgrimageSectionTitle": "El viatge sagrat",
+  "pilgrimageSectionSubtitle": "Guies completes per a l’Hajj i la Umra — el pelegrinatge a la Casa Sagrada d’Al·là a la Meca",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "El cinquè pilar de l’islam",
+  "hajjCardDescription": "El gran pelegrinatge anual — obligatori una vegada a la vida per a tot musulmà que en sigui capaç",
+  "hajjScreenTitle": "Guia de l’Hajj",
+  "hajjScreenSubtitle": "Guia pas a pas del gran pelegrinatge",
+  "umrahCardTitle": "Umra",
+  "umrahCardSubtitle": "El pelegrinatge menor",
+  "umrahCardDescription": "Un viatge espiritual profundament gratificant que es pot fer en qualsevol època de l’any",
+  "umrahScreenTitle": "Guia de la Umra",
+  "umrahScreenSubtitle": "Guia pas a pas del pelegrinatge menor",
+  "pilgrimageStepsTitle": "Ritus i passos",
+  "pilgrimageImportantNotesTitle": "Notes importants",
+  "pilgrimageDuaTitle": "Dua per aquest pas",
+  "pilgrimageJafariNoteTitle": "Nota de fiqh Ja'fari",
+  "pilgrimageComplete": "✓ Complet",
+  "pilgrimageMarkDone": "Marca com a complet",
+  "pilgrimageProgress": "{done} de {total} passos",
+  "pilgrimageReadTime": "~{minutes} min",
+  "pilgrimageShiaNoteTitle": "Pelegrins xiïtes",
+  "pilgrimageShiaNoteBody": "Els pelegrins xiïtes tradicionalment també viatgen a Medina per visitar la tomba del profeta Muhàmmad (SAW) a la mesquita del Profeta, i les tombes dels imams a Jannat al-Baqi. Aquestes visites tenen una importància espiritual immensa i es consideren una part integral del viatge per a la majoria dels musulmans xiïtes.",
+  "hajjIntro": "L’Hajj és el cinquè pilar de l’islam, obligatori una vegada a la vida per a tot musulmà que tingui capacitat física i econòmica. Es duu a terme durant el mes de Dhu l-Hijja i ressegueix les petjades del profeta Ibrahim (AS), del seu fill Ismail (AS) i de la senyora Hajar. Per als musulmans xiïtes, l’Hajj també inclou la profunda benedicció de visitar els llocs de repòs del Profeta (SAW) i de l’Ahlul Bayt a Medina.",
+  "umrahIntro": "La Umra és el pelegrinatge menor a la Meca i, a diferència de l’Hajj, es pot fer en qualsevol època de l’any. Tot i que no és obligatòria, comporta una recompensa espiritual immensa i es considera un acte d’adoració molt recomanat. Comparteix diversos ritus amb l’Hajj, però és més breu i consta de quatre ritus principals."
 }

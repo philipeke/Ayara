@@ -2,7 +2,7 @@ name: ayara
 description: "Ayara is a Shia Islamic guidance app for daily reflection, duʿāʾ, and wisdom inspired by the Qurʾan and the teachings of the Ahl al-Bayt."
 publish_to: "none"
 
-version: 1.0.0+14
+version: 1.0.0+4
 
 environment:
   sdk: ">=3.9.2 <4.0.0"
@@ -29,6 +29,7 @@ dependencies:
   flutter_dotenv: ^6.0.0
   device_info_plus: ^10.1.2
   url_launcher: ^6.3.0
+  add_2_calendar: ^3.0.1
 
   # Location, compass & prayer times
   geolocator: ^13.0.0
@@ -81,6 +82,8 @@ flutter:
     - assets/logo-launcher.png
     # Ljud
     - assets/sounds/tap.wav
+    - assets/sounds/guide-tap.wav
+    - assets/sounds/ask-ayara.wav
 
     # Miljöfiler — kept out of release bundle
     # .env.dev is loaded only in kDebugMode; dotenv catches missing file gracefully

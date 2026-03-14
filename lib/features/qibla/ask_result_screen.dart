@@ -92,42 +92,70 @@ class _AskResultScreenState extends State<AskResultScreen> {
             Navigator.of(context).pop();
           },
         ),
-        title: Row(
-          children: [
-            Expanded(
-              child: Container(
-                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                decoration: BoxDecoration(
-                  color: AppColors.gold.withValues(alpha: 0.15),
-                  borderRadius: BorderRadius.circular(20),
-                  border: Border.all(
-                    color: AppColors.gold.withValues(alpha: 0.35),
+        titleSpacing: 0,
+        title: Builder(builder: (context) {
+          final shortest = MediaQuery.of(context).size.shortestSide;
+          final scale = (shortest / 360.0).clamp(0.85, 1.35);
+          final double badgeFont = (14.0 * scale).clamp(12.0, 16.0);
+          final double badgePadV = (6.0 * scale).clamp(4.0, 8.0);
+          final double badgePadH = (10.0 * scale).clamp(8.0, 14.0);
+          final double wordFont = (12.0 * scale).clamp(11.0, 14.0);
+          final double gap = (8.0 * scale).clamp(6.0, 10.0);
+
+          return Row(
+            children: [
+              Expanded(
+                child: Container(
+                  padding: EdgeInsets.symmetric(
+                      horizontal: badgePadH, vertical: badgePadV),
+                  decoration: BoxDecoration(
+                    color: AppColors.gold.withValues(alpha: 0.15),
+                    borderRadius: BorderRadius.circular(20),
+                    border: Border.all(
+                        color: AppColors.gold.withValues(alpha: 0.35)),
+                  ),
+                  child: Row(
+                    children: [
+                      Icon(Icons.help_outline_rounded,
+                          size: badgeFont * 0.75, color: AppColors.gold),
+                      SizedBox(width: gap * 0.6),
+                      Expanded(
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          child: FittedBox(
+                            fit: BoxFit.scaleDown,
+                            alignment: Alignment.centerLeft,
+                            child: Text(
+                              t.askResultYourQuestion,
+                              maxLines: 1,
+                              softWrap: false,
+                              style: GoogleFonts.raleway(
+                                color: AppColors.gold,
+                                fontSize: badgeFont,
+                                fontWeight: FontWeight.w700,
+                                letterSpacing: 0.1,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
-                child: Row(
-                  children: [
-                    Icon(Icons.help_outline_rounded,
-                        size: 12, color: AppColors.gold),
-                    const SizedBox(width: 6),
-                    Text(
-                      t.askResultYourQuestion,
-                      style: TextStyle(
-                        color: AppColors.gold,
-                        fontSize: 13,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                  ],
+              ),
+              SizedBox(width: gap),
+              Text(
+                t.wordCount(_wordCount),
+                style: GoogleFonts.raleway(
+                  color: Colors.white70,
+                  fontSize: wordFont,
+                  fontWeight: FontWeight.w700,
+                  letterSpacing: 0.1,
                 ),
               ),
-            ),
-            const SizedBox(width: 8),
-            Text(
-              t.wordCount(_wordCount),
-              style: const TextStyle(color: Colors.white70, fontSize: 12),
-            ),
-          ],
-        ),
+            ],
+          );
+        }),
         actions: [
           IconButton(
             icon: const Icon(Icons.copy, color: Colors.white, size: 20),
@@ -176,14 +204,14 @@ class _AskResultScreenState extends State<AskResultScreen> {
                   color: AppColors.navy.withValues(alpha: 0.6),
                   borderRadius: BorderRadius.circular(14),
                   border: Border.all(
-                    color: AppColors.gold.withValues(alpha: 0.25),
+                    color: AppColors.gold.withValues(alpha: 0.40),
                   ),
                 ),
                 child: Text(
                   widget.question,
                   style: GoogleFonts.lora(
                     fontSize: 14,
-                    color: AppColors.goldSubtle,
+                    color: Colors.white.withValues(alpha: 0.82),
                     fontStyle: FontStyle.italic,
                     height: 1.55,
                   ),

@@ -151,10 +151,6 @@ Podfile.lock
 # ------------------------------------------------------------
 # 🧬 Localization (l10n)
 # ------------------------------------------------------------
-# Generated localization output
-lib/l10n/app_localizations_*.dart
-lib/generated/
-
 # Keep ARB source files
 !lib/l10n/*.arb
 

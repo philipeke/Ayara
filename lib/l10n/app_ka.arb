@@ -1,585 +1,629 @@
 {
   "@@locale": "ka",
-
   "appTitle": "Ayara",
-
-  "languageSelectTitle": "აირჩიეთ თქვენი ენა",
-  "languageSelectSub": "ამის შემდეგ ამის შეცვლა შეგიძლიათ პარამეტრებში",
+  "languageSelectTitle": "აირჩიეთ ენა",
+  "languageSelectSub": "თქვენ შეძლებთ ამის შეცვლას მოგვიანებით პარამეტრებიდან",
   "actionContinue": "გაგრძელება",
-  "languageSuggestedHeader": "რეკომენდირებული",
+  "languageSuggestedHeader": "შემოთავაზებული",
   "languageAllHeader": "ყველა ენა",
-  "languageSuggestedBadge": "რეკომენდირებული",
+  "languageSuggestedBadge": "შემოთავაზებული",
   "languageSearchHint": "ძებნა…",
-
-  "planGrace": "სტანდარტული",
-  "planBlessed": "ბარაკა",
-
-  "categoryDailyGuidance": "ყოველდღიური სახელმძღვანელო",
-  "categoryFaithTrust": "იმანი და მოდგება",
-  "categoryPrayerReflection": "ლოცვაზე ზიარი",
-  "categoryHopeDifficultTimes": "მოთმინება და იმედი",
-  "categoryForgiveness": "ღამაწყობა ძებნა",
-  "categoryLoveCompassion": "რა‰ება და სიმილსიკე",
-  "categoryStrengthCourage": "იმან და ძალა",
-  "categoryGratitude": "მადლიერი გული",
-  "categoryPurposeCalling": "ცხოვრების მიზანი",
-  "categoryFamilyRelationships": "ოჯახის კავშირი",
-  "categoryPeaceAnxietyRelief": "შიგნითი სამშვიდობო",
-  "categoryWisdomOfJesus": "წინასწარმეტყველის სიბრძნე",
-  "categoryHumilityCharacter": "მდელობა და კეთილი ხასიათი",
-  "categoryOvercomingTemptation": "საცდელი წინააღმდეგობა",
-  "categoryEveningReflection": "საღამო ზიკრი",
-  "categoryCustom": "პერსონალური რეფლექსია",
+  "planBasic": "სტანდარტული",
+  "planPremium": "Wilaya",
+  "categorySlot01": "ყოველდღიური წინამძღოლობა",
+  "categorySlot02": "იმანი და ნდობა",
+  "categorySlot03": "ლოცვის გააზრება",
+  "categorySlot04": "მოთმინება და იმედი",
+  "categorySlot05": "შენდობის ძიება",
+  "categorySlot06": "წყალობა და თანაგრძნობა",
+  "categorySlot07": "რწმენის ძალა",
+  "categorySlot08": "მადლიერი გული",
+  "categorySlot09": "ცხოვრების მიზანი",
+  "categorySlot10": "ოჯახური კავშირები",
+  "categorySlot11": "შინაგანი სიმშვიდე",
+  "categorySlot12": "წინასწარმეტყველის სიბრძნე",
+  "categorySlot13": "კარგი ზნეობა",
+  "categorySlot14": "ცდუნებაზე გაძლება",
+  "categorySlot15": "საღამოს ზიქრი",
+  "categoryCustom": "პირადი რეფლექსია",
   "dhikrMeaningSubhanallah": "დიდება ალლაჰს",
-  "dhikrMeaningAlhamdulillah": "ყველა ქება ალლაჰს",
-  "dhikrMeaningAllahuAkbar": "ალლაჰი არის ყველაზე დიდი",
-  "quranVerseHeartAtRest": "ჭეშმარიტად, ალლაჰის გახსენებაში გულები პოულობენ სიმშვიდეს.",
-
-  "promptHint": "აირჩიეთ კატეგორია ისლამური სახელმძღვანელოსა და ზიარის შესახებ",
-
+  "dhikrMeaningAlhamdulillah": "ყოველი ქება ალლაჰს ეკუთვნის",
+  "dhikrMeaningAllahuAkbar": "ალლაჰი უზენაესია",
+  "quranVerseHeartAtRest": "ჭეშმარიტად, ალლაჰის ხსენებით პოვებენ გულები სიმშვიდეს.",
+  "promptHint": "შეეხეთ კატეგორიას ისლამური წინამძღოლობისა და რეფლექსიისთვის",
   "currentLanguage": "მიმდინარე ენა",
   "settingsLanguage": "ენის პარამეტრები",
   "settingsTitle": "პარამეტრები",
-  "chooseLanguage": "აირჩიეთ თქვენი ენა",
+  "chooseLanguage": "აირჩიეთ ენა",
   "continueCta": "გაგრძელება",
-
-  "promptDailyGuidance": "დაწერეთ მოკლე, პრაქტიკული ყოველდღიური სახელმძღვანელო, რომელიც ფესვი დგას სუნი ისლამურ რწმენაში — დაფუძნებული ყურანზე, ჰადიტზე და წინასწარმეტყველი მუჰამადის სწავლებებზე. აირჩიეთ ახალი კუთხე ყოველ ჯერზე: დამწეობა ისლამური ეთიკიდან, სიმართე სუნიდან, სიბრძნე წინასწარმეტყველის მეზობლებიდან, ან მშვიდი ჩვეულება ისლამური ტრადიციადან. მოიცავს ერთ ყურანის აბზაცს (სურა:აიაი) და 1–2 წინადადების ზიარს დღის გასაშუქებელი. სურვილის შემთხვევაში დააკავშირეთ ის ისლამური კალენდართან ან მნიშვნელოვან თარიხთან თუ შესაბამისია.",
-
-  "promptFaithTrust": "დაწერეთ მოკლე ისლამური ზიარი იმანზე (რწმენა) და ალას გეგმებზე მოდგებაზე (თავაკალი). დაფუძნეთ იგი ყურანზე, წინასწარმეტყველი მუჰამადის მაგალითზე და საჰაბას რწმენაზე. ცვალებული თემა ყოველ ჯერზე: ალას ნდობა განუსაზღვრელობისას, ღმერთის ბრძნეზე დაკმაყოფილება, მოთმინება ცდენილებაში, ან მშვიდი თავდასხმა ყოველდღე ცხოვრებაში. მოიცავს ერთ ყურანის აბზაცს და ერთ სამართლიან ნაბიჯს დღისთვის, მოღებული ისლამური სულიერი სიბრძნედან.",
-
-  "promptPrayerReflection": "დაწერეთ მოკლე ისლამური ლოცვის ზიარი, დაფუძნებული სალაზე, დუაზე ან ზიკრზე. ცვალებული ფორმა ყოველ ჯერზე: დილის ან საღამო გახსენება (ადხკარი), ზიარი ხუთი დღიური ლოცვის შესახებ, ყურანის აბზაცის შემოკვლა, ან გულწრფელი სთხოვნა. მოიცავს ერთ ყურანის აბზაცს და ბრიფ ლოცვის ფორმის დასახელება.",
-
-  "promptHopeDifficultTimes": "დაწერეთ ისლამური ზიარი მოთმინებაზე (საბრი) და იმედზე ძნელ დროს. მიიღეთ ყურანის სწავლებებიდან ცდენილების შესახებ, წინასწარმეტყველთა მდგრადობა, და ალას წყალობა ძნელ მომენტებში. ცვალებული კუთხე ყოველ ჯერზე. მოიცავს ერთ ყურანის აბზაცს და ერთ წახალისებას ისლამური ტრადიციადან.",
-
-  "promptForgiveness": "დაწერეთ ბრძნე ისლამური ზიარი ღამაწყობის ძებნაზე (თავბა) და ალას წყალობაზე. მიიღეთ ყურანის სწავლებებიდან წინასწარმეტყველის უნდობელობაზე, ალას სიმილსიკე და მუჰამადის ღამაწყობილი მაგალითი. ცვალებული თემა: ალაზე დაბრუნება, სხვების ღამაწყობა, ურთიერთობის განკურნება, ან ალას წყალობაში რწმენა შეცდომის შემდეგ. მოიცავს ერთ ყურანის აბზაცს და ერთ კონკრეტულ ნაბიჯს.",
-
-  "promptLoveCompassion": "დაწერეთ მოკლე ისლამური ზიარი წყალობაზე (რაჰმა) და სიმილსიკეზე ყოველდღე ცხოვრებაში. მიიღეთ წინასწარმეტყველი მუჰამადის მაგალითი, იჰსანის კონცეფცია (უფრთხობა) და ისლამური სწავლებები მოკრძალებაზე ოჯახის, მეზობელთა და დაუცველების მიმართ. მოიცავს ერთ ყურანის აბზაცს და ერთ მცირე სიმილსიკის მოქმედებას დღეს ასრულებლად.",
-
-  "promptStrengthCourage": "დაწერეთ ისლამური ზიარი რწმენაზე დაფუძნებული ძალის და სამხედრობის შესახებ. მიიღეთ წინასწარმეტყველთა მაგალითი, ადრეული მუსულმანური საზოგადოებისა, და მრწმუნებელი, რომლებიც დარჩნენ მტკიცე ძნელებში. ცვალებული თემა ყოველ ჯერზე: სამხედრობა რწმენით, ძალა ლოცვაში, სანდო ალაში მეშინიობის დროს, ან დაძლევა სირთულეში. მოიცავს ერთ ყურანის აბზაცს და მოკლე სთხოვნას ან გახსენების წინადადებას.",
-
-  "promptGratitude": "დაწერეთ ისლამური ზიარი მადლიერობაზე (შუკრი) ალას მიმართ. დაფუძნეთ იგი ყურანის სწავლებაზე და წინასწარმეტყველის ტრადიციაზე. ცვალებული კუთხე: მადლიერობა ძნელებში, მცირე აკებელთა დასაფასებელი, დღის დასაწყებელი ალას დიდებით, ან ალას მეთვალყურეობის ცნობიერება ყოველდღე ცხოვრებაში. მოიცავს ერთ ყურანის აბზაცს და ერთ მადლიერობის ჩვევას.",
-
-  "promptPurposeCalling": "დაწერეთ ისლამური ზიარი ცხოვრების მიზნის შესახებ ალას თაყვანისცემაში და სამართლიანი ცხოვრებაში. მიიღეთ ყურანის სწავლებებიდან მიზნის, სხვების ემსახურებაზე და საკუთარი აფასიბის კარგად გამოყენებაზე. ცვალებული თემა ყოველ ჯერზე: ოჯახისა და საზოგადოების ემსახურება, მეთვალყურეობის ძებნა ისტიხარით, სიცხადე აღმზიდელი განზრახვით, ან მნიშვნელობა ჩვეულებრივ სამუშაოში. მოიცავს ერთ ყურანის აბზაცს და ორ აზრიან კითხვას.",
-
-  "promptFamilyRelationships": "დაწერეთ ბრძნე ისლამური სახელმძღვანელო ოჯახსა და ურთიერთობებზე, დაფუძნებული ყურანის სწავლებაზე და წინასწარმეტყველი მუჰამადის მაგალითზე. ცვალებული თემა ყოველ ჯერზე: კეთილი ოჯახის ცხოვრებაში, მოთმინება კონფლიქტში, მშობლებს პატივი, ბავშვების აზრჩევა რწმენაში, ან ქორწინების გამყარება. მოიცავს ერთ ყურანის აბზაცს და ერთ ურთიერთობის ჩვევას ცდის შესახებ.",
-
-  "promptPeaceAnxietyRelief": "დაწერეთ დამამშვიდებელი ისლამური ზიარი შიგნით სამშვიდობოს აღმოჩენის შესახებ ალას გახსენებით (ზიკრი) და მის გეგმებში თავდაკავება. მიიღეთ ყურანის სწავლებებიდან გულის მშვიდობაზე, ლოცვაზე და ალას ნების დამორჩილებაზე. ცვალებული მიდგომა ყოველ ჯერზე და მოიცავს ერთ ყურანის აბზაცს და ერთ მარტივ ფესვის ჩვევას ისლამური ტრადიციადან.",
-
-  "promptWisdomOfJesus": "დაწერეთ მოკლე ისლამურ სწავლებაში წინასწარმეტყველის სიბრძნე. მიიღეთ ყურანიდან ან ჰადიტიდან და ბრიფ ახსნა, თუ როგორ ესმის ისლამური მეცნერებმა სწავლება. ცვალებული თემა ყოველ ჯერზე: ხასიათი, მოთმინება, მდელობა, რწმენა, ან ყოველდღე საქციელი. მოიცავს ყურანის აბზაცს ან ჰადიტის მითითებას და ერთ პრაქტიკული გამოყენება.",
-
-  "promptHumilityCharacter": "დაწერეთ ისლამური ზიარი მდელობაზე (თავადხუ) და კეთილი ხასიათზე (ახლაქი). მიიღეთ ყურანის სწავლებებიდან, წინასწარმეტყველი მუჰამადის მაგალითი, და ისლამური ხასიათის განვითარების ტრადიცია. ცვალებული თემა: მდელობა ლიდერობაში, შეცდომის ცნობა, სხვების პატივი, ან სულიერი ზრდა თვითაანალიზით. მოიცავს ერთ ყურანის აბზაცს და ერთ ჩვევას ასრულებლად.",
-
-  "promptOvercomingTemptation": "დაწერეთ ისლამური ზიარი საცდელის წინააღმდეგობაზე და სწორ გზაზე დარჩენაზე. მიიღეთ ყურანის მეთვალყურეობა, ალას გახსენება (ზიკრი), ლოცვა (სალა) და მრწმუნებელთა მაგალითი, რომლებმაც დაძლეს ბრძოლა. ცვალებული კუთხე ყოველ ჯერზე. მოიცავს ერთ ყურანის აბზაცს და ერთ პრაქტიკულ სტრატეგიას მომდევნო 24 საათისთვის.",
-
-  "promptEveningReflection": "დაწერეთ სამშვიდობო ისლამური საღამო ზიარი, დაფუძნებული საღამო გახსენების ტრადიციაზე (ადხკარი ალ-მასა'ა). გამოწვევს მადლიერობა, თვითაანალიზი (მუჰასაბა) და ალას თავდაკავება ღამის წინ. მოიცავს 3–5 მოკლე ზიარის კითხვას დღის შესახებ, მოკლე დახურვის სთხოვნას და ერთ ყურანის აბზაცს.",
-
   "wordCount": "{count, plural, one {{count} სიტყვა} other {{count} სიტყვა}}",
-
-  "optionsCta": "ვარიანტები",
+  "optionsCta": "ოპციები",
   "newCta": "ახალი",
-  "actionsTitle": "რა გსურთ გააკეთოთ?",
-  "copy": "ასლი",
+  "actionsTitle": "რისი გაკეთება გსურთ?",
+  "copy": "კოპირება",
   "share": "გაზიარება",
   "close": "დახურვა",
-  "copiedToast": "დაკოპირდა ბუფერში",
-
+  "copiedToast": "კოპირებულია",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "ელ-წერილის/გაზიარების საგნის ხაზი, კატეგორიის ეტიკეტის ჩათვლით.",
+    "description": "Email / share subject line including the category label.",
     "placeholders": {
-      "category": { "type": "String", "example": "ყოველდღიური სახელმძღვანელო" }
+      "category": {
+        "type": "String",
+        "example": "Daily Guidance"
+      }
     }
   },
-
-  "regenerateErrorTitle": "ახალი პასუხის გენერირება შეუძლებელია",
-  "regenerateErrorBody": "{error}\n\nშეცდომის თავიდან ცდა გსურთ?",
+  "regenerateErrorTitle": "ახალი პასუხის გენერირება ვერ მოხერხდა",
+  "regenerateErrorBody": "{error}\n\nგსურთ კიდევ სცადოთ?",
   "@regenerateErrorBody": {
-    "description": "ნაჩვენები იმ შემთხვევაში, როდესაც AI პასუხის გენერირება ვერ ხერხდება.",
+    "description": "Shown when regenerating an AI answer fails.",
     "placeholders": {
-      "error": { "type": "String", "example": "ქსელის შეცდომა" }
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
     }
   },
-
   "cancelCta": "გაუქმება",
-  "retryCta": "თავიდან ცდა",
-
-  "authTitle": "აკაუნტის შექმნა",
-  "continueAsGuest": "გაგრძელება სტუმრად",
+  "retryCta": "კიდევ სცადეთ",
+  "authTitle": "შექმენით ანგარიში",
+  "continueAsGuest": "სტუმრად გაგრძელება",
   "signInGoogle": "Google-ით შესვლა",
   "signInApple": "Apple-ით შესვლა",
-  "signInEmail": "ელ-წერილით შესვლა",
+  "signInEmail": "ელ-ფოსტით შესვლა",
   "upgradeWithApple": "Apple-ით გაგრძელება",
-  "mustAccept": "თქვენ უნდა დაეთანხმოთ პირობებს და აღიაროთ კონფიდენციალობის პოლიტიკა.",
-  "termsLabel": "ვეთანხმები სერვისის პირობებს",
-  "privacyLabel": "მე წავიკითხე კონფიდენციალობის პოლიტიკა",
-  "marketingOptIn": "ვეთანხმები ხმელი და შემოთავაზებების მიღებას",
-  "openTerms": "სერვისის პირობები",
-  "openPrivacy": "კონფიდენციალობის პოლიტიკა",
-
-  "accountSection": "აკაუნტი",
+  "mustAccept": "თქვენ უნდა დაეთანხმოთ წესებს და გაეცნოთ კონფიდენციალურობის პოლიტიკას.",
+  "termsLabel": "ვეთანხმები მომსახურების პირობებს",
+  "privacyLabel": "გავეცანი კონფიდენციალურობის პოლიტიკას",
+  "marketingOptIn": "ვეთანხმები სიახლეების და შემოთავაზებების მიღებას",
+  "openTerms": "მომსახურების პირობები",
+  "openPrivacy": "კონფიდენციალურობის პოლიტიკა",
+  "accountSection": "ანგარიში",
   "guestMode": "სტუმრის რეჟიმი",
-  "signedIn": "დაკავშირებული",
-  "upgradeHint": "შეინახეთ თქვენი ზიარი მოწყობილობებში აკაუნტის შექმნით.",
+  "signedIn": "შესული ხართ",
+  "upgradeHint": "შეინახეთ თქვენი რეფლექსიები ყველა მოწყობილობაზე ანგარიშის შექმნით.",
   "upgradeWithGoogle": "Google-ით გაგრძელება",
-  "signOut": "გასვლა",
-
-  "snackUpgraded": "აკაუნტი განახლდა Google-ით ✅",
-  "snackSignedIn": "შესულია Google-ით ✅",
-  "snackSignedOut": "გასვლა",
-  "snackSignedInApple": "შესულია Apple-ით ✅",
-  "snackSignedInGoogle": "შესულია Google-ით ✅",
-  "snackUpgradedApple": "აკაუნტი განახლდა Apple-ით ✅",
-  "snackUpgradedGoogle": "აკაუნტი განახლდა Google-ით ✅",
-
-  "historyTitle": "წინა ზიარი",
-  "historyOpenCta": "წინა ზიარი",
-  "historyEmpty": "ჯერ არ არის შენახული ზიარი.",
-  "historyDeleteTitle": "წაშალოთ ზიარი?",
+  "signOut": "გამოსვლა",
+  "snackUpgraded": "ანგარიში განახლდა Google-ით ✅",
+  "snackSignedIn": "შესვლა წარმატებულია Google-ით ✅",
+  "snackSignedOut": "გამოსვლა",
+  "snackSignedInApple": "შესვლა წარმატებულია Apple-ით ✅",
+  "snackSignedInGoogle": "შესვლა წარმატებულია Google-ით ✅",
+  "snackUpgradedApple": "ანგარიში განახლდა Apple-ით ✅",
+  "snackUpgradedGoogle": "ანგარიში განახლდა Google-ით ✅",
+  "historyTitle": "წინა რეფლექსიები",
+  "historyOpenCta": "წინა რეფლექსიები",
+  "historyEmpty": "შენახული რეფლექსიები ჯერ არ არის.",
+  "historyDeleteTitle": "წავშალოთ რეფლექსია?",
   "historyDeleteBody": "ეს სამუდამოდ წაშლის არჩეულ ელემენტს.",
   "deleteCta": "წაშლა",
-
-  "historyButton": "წინა ზიარი",
-  "historyEmptyTitle": "ჯერ არ არის ზიარი",
-  "historyEmptyBody": "პირველი რამ გენერირება — თქვენი შენახული ელემენტი გამოჩნდება აქ.",
+  "historyButton": "წინა რეფლექსიები",
+  "historyEmptyTitle": "რეფლექსიები ჯერ არ არის",
+  "historyEmptyBody": "ჯერ რამე დააგენერირეთ — თქვენი შენახული ელემენტები აქ გამოჩნდება.",
   "historyDelete": "წაშლა",
-
-  "footerTitle": "იმანი, მოთმინება და რა‰ება‰ით.",
-  "footerSubtitle": "ერთი ნაბიჯი თითო ჯერზე.",
-  "genericErrorSnack": "რაღაც არ გამოვიდა — გთხოვთ, ცოტა ხნის შემდეგ თავიდან სცადოთ.",
-
-  "upgradeAccountCta": "შეინახეთ თქვენი ზიარი მოწყობილობებში – აკაუნტის შექმნა",
-  "deleteAccount": "აკაუნტის წაშლა",
+  "footerTitle": "Wilaya-თი, იმანით და საბრით",
+  "footerSubtitle": "თითოეული ლოცვით",
+  "genericErrorSnack": "რაღაც შეფერხდა — გთხოვთ, სცადოთ მოგვიანებით.",
+  "upgradeAccountCta": "შეინახეთ თქვენი რეფლექსიები ყველა მოწყობილობაზე — შექმენით ანგარიში",
+  "deleteAccount": "ანგარიშის წაშლა",
   "exportData": "ჩემი მონაცემების ექსპორტი",
-
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "ეტიკეტა Firebase UID-ის ჩვენებამდე.",
+    "description": "Label before showing the internal Firebase UID.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "მეტი არა 🐯\nAI-ს მომენტი სჭირდება შემდეგი ჯერზე…",
-  "rateDailyLimit": "ჯერ მეტი ზიარი არ გაქვთ.\nმოითხოვეთ მეტი ზიარი ან განახლდით ბარაკაზე.",
-  "rateCreditsExhausted": "თქვენ გამოიყენეთ ყველა თქვენი ზიარი.\nფინანსირება ან განახლება ბარაკაზე გაგრძელებისთვის.",
-  "rateGraceReflectionsExhausted": "ჯერ მეტი ზიარი არ გაქვთ.\nმოითხოვეთ მეტი ზიარი ან განახლდით ბარაკაზე.",
-  "rateReflectionsExhausted": "თქვენ გამოიყენეთ ყველა თქვენი ზიარი.\nფინანსირება ან განახლება ბარაკაზე გაგრძელებისთვის.",
-
-  "blessedDescription": "ბარაკა განბლოკოს პრიმიუმი ფუნქციები, ქვემდებარე კატეგორიები და სპეციალური ბეჯი.",
-  "championDescription": "ბარაკა განბლოკოს პრიმიუმი ფუნქციები, ქვემდებარე კატეგორიები და სპეციალური ბეჯი.",
-
-  "ratePlanExhausted": "თქვენი ზიარი ახლა ცარიელია. გეგმა: {plan}.",
+  "rateLocalThrottle": "ნუ ჩქარობთ 🐯\nAyara-ს დრო სჭირდება შემდეგ პასუხამდე…",
+  "rateDailyLimit": "ამჯერად რეფლექსიები ამოგეწურათ.\nმიიღეთ მეტი ან გადადით Wilaya-ზე.",
+  "rateCreditsExhausted": "თქვენ გამოიყენეთ ყველა რეფლექსია.\nშეავსეთ ბალანსი ან გადადით Wilaya-ზე გასაგრძელებლად.",
+  "rateGraceCreditsExhausted": "ამჯერად რეფლექსიები ამოგეწურათ.\nმიიღეთ მეტი ან გადადით Wilaya-ზე.",
+  "premiumDescription": "Wilaya ხსნის პრემიუმ ფუნქციებს, მომავალ კატეგორიებს და სპეციალურ ნიშანს.",
+  "ratePlanExhausted": "თქვენი რეფლექსიები ამჟამად ცარიელია. ტარიფი: {plan}.",
   "@ratePlanExhausted": {
-    "description": "ნაჩვენები, როდესაც მომხმარებლის ზიარი ამოწურულია მაგრამ მიზეზი ზოგადი.",
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
     "placeholders": {
-      "plan": { "type": "String", "example": "სტანდარტული ან ბარაკა" }
+      "plan": {
+        "type": "String",
+        "example": "Standard or Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "თქვენი ზიარის შემოწმება ვერ ხერხდება: {message}",
+  "rateCheckFailed": "რეფლექსიების შემოწმება ვერ მოხერხდა: {message}",
   "@rateCheckFailed": {
-    "description": "ნაჩვენები, როდესაც გამოძახის ფუნქცია შეცდომის შეტყობინებას უბრუნებს.",
+    "description": "Shown when the callable function returns an error message.",
     "placeholders": {
-      "message": { "type": "String", "example": "ქსელის შეცდომა" }
+      "message": {
+        "type": "String",
+        "example": "Network error"
+      }
     }
   },
-
-  "rateCheckGenericError": "რაღაც არ გამოვიდა თქვენი ზიარის შემოწმებისას.",
-  "aiFallbackGeneric": "რაღაც არ გამოვიდა — გთხოვთ, ცოტა ხნის შემდეგ თავიდან სცადოთ.",
-
-  "limitSectionTitle": "ზიარი",
+  "rateCheckGenericError": "რაღაც შეფერხდა რეფლექსიების შემოწმებისას.",
+  "aiFallbackGeneric": "რაღაც შეფერხდა — გთხოვთ, სცადოთ მოგვიანებით.",
+  "limitSectionTitle": "რეფლექსიები",
   "limitTodayLabel": "გამოყენება",
-  "limitCreditsLabel": "დარჩენილი ზიარი: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "გეგმა: {plan}",
-  "@limitPlanLabel": {
-    "description": "ჩვენების მიმდინარე გამოწერის გეგმის სახელი.",
+  "limitCreditsLabel": "დარჩენილი რეფლექსიები: {credits}",
+  "@limitCreditsLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "სტანდარტული ან ბარაკა" }
+      "credits": {}
     }
   },
-  "limitLoadingLabel": "ჩატვირთვა…",
-  "limitLoadingLabelDescription": "ნაჩვენები ზიარის ბარში გამოყენების სტატუსი მოძებნის დროს.",
-
-  "aiLimitTitle": "ზიარი",
-  "aiLimitSubtitle": "თითოეული პასუხი იყენებს 1 ზიარს. სტანდარტული მოიცავს საწყის ზიარებს. ბარაკა განბლოკოს პრიმიუმი კატეგორიები და ჩართოს ზიარების დამატება.",
-  "aiLimitProgressLabel": "{used} / {total} ზიარი გამოიყენება",
+  "limitPlanLabel": "ტარიფი: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standard or Wilaya"
+      }
+    }
+  },
+  "limitLoadingLabel": "იტვირთება…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
+  "aiLimitTitle": "რეფლექსიები",
+  "aiLimitSubtitle": "თითოეული პასუხი მოიხმარს 1 რეფლექსიას. სტანდარტული ტარიფი მოიცავს საწყის რეფლექსიებს. Wilaya ხსნის პრემიუმ კატეგორიებს და ბალანსის შევსების შესაძლებლობას.",
+  "aiLimitProgressLabel": "გამოყენებულია {used} / {total} რეფლექსია",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "ზიარი",
-  "reflectionsUsageLabel": "გამოყენება",
-  "reflectionsRemainingLabel": "დარჩენილი ზიარი: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "გეგმა: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "ჩვენების მიმდინარე გეგმის სახელი.",
+  "creditsSectionTitle": "რეფლექსიები",
+  "creditsUsageLabel": "გამოყენება",
+  "creditsRemainingLabel": "დარჩენილი რეფლექსიები: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "სტანდარტული ან ბარაკა" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "ჩატვირთვა…",
-  "reflectionsLoadingLabelDescription": "ნაჩვენები ზიარის სტატუსი მოძებნის დროს.",
-
-  "reflectionsTitle": "ზიარი",
-  "reflectionsSubtitle": "თითოეული პასუხი იყენებს 1 ზიარს. სტანდარტული მოიცავს საწყის ზიარებს. ბარაკა განბლოკოს პრიმიუმი კატეგორიები და ჩართოს ზიარების დამატება.",
-  "reflectionsProgressLabel": "{used} / {total} ზიარი გამოიყენება",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "ტარიფი: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standard or Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "იტვირთება…",
+  "creditsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+  "creditsTitle": "რეფლექსიები",
+  "creditsSubtitle": "თითოეული პასუხი მოიხმარს 1 რეფლექსიას. სტანდარტული ტარიფი მოიცავს საწყის რეფლექსიებს. Wilaya ხსნის პრემიუმ კატეგორიებს და ბალანსის შევსების შესაძლებლობას.",
+  "creditsProgressLabel": "გამოყენებულია {used} / {total} რეფლექსია",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "აკაუნტის წაშლა",
-  "settingsDeleteDescription": "თქვენი აკაუნტისა და მასთან დაკავშირებული ყველა მონაცემის სამუდამო წაშლა.",
-  "settingsDeleteButtonLabel": "ჩემი აკაუნტის წაშლა",
-  "settingsDeleteDialogTitle": "აკაუნტის წაშლა?",
-  "settingsDeleteDialogBody": "ეს მოქმედება სამუდამოა და უკან გაუქმებული არ შეიძლება.\n\nყველა თქვენი ჩატი, ისტორია და აკაუნტის ინფორმაცია წაშლილი იქნება.",
+  "settingsDeleteTitle": "ანგარიშის წაშლა",
+  "settingsDeleteDescription": "სამუდამოდ წაშალეთ თქვენი ანგარიში და მასთან დაკავშირებული ყველა მონაცემი.",
+  "settingsDeleteButtonLabel": "წაშალე ჩემი ანგარიში",
+  "settingsDeleteDialogTitle": "წავშალოთ ანგარიში?",
+  "settingsDeleteDialogBody": "ეს ქმედება შეუქცევადია.\n\nთქვენი ყველა ჩატი, ისტორია და ანგარიშის ინფორმაცია წაიშლება.",
   "settingsDeleteDialogCancel": "გაუქმება",
   "settingsDeleteDialogConfirm": "წაშლა",
-
-  "settingsFreeLimitUsedTitle": "საწყო ზიარი გამოიყენება",
-  "settingsFreeLimitUsedDescription": "ამ მოწყობილობის საწყო ზიარი გამოიყენება. განახლდით ბარაკაზე ან ყიდეთ მეტი ზიარი გაგრძელებისთვის.",
-
-  "settingsStarterReflectionsUsedTitle": "საწყო ზიარი გამოიყენება",
-  "settingsStarterReflectionsUsedDescription": "ამ მოწყობილობის საწყო ზიარი გამოიყენება. განახლდით ბარაკაზე ან ყიდეთ მეტი ზიარი გაგრძელებისთვის.",
-
-  "deviceBoundError": "ეს მოწყობილობა უკვე დაკავშირებული სხვა აკაუნტთან. გთხოვთ, შედით ორიგინალური აკაუნტით.",
-
-  "premiumTitle": "ბარაკა რეჟიმი",
-  "premiumSubtitleBasic": "განბლოკოს სრული Ayara გამოცდილება.",
-  "premiumSubtitleChampion": "თქვენ ხართ ბარაკა. ამდენი ზიარი გჭირდებათ?",
-
-  "premiumCurrentPlan": "მიმდინარე გეგმა: {plan}",
-  "premiumCreditsStatus": "ზიარი: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "შესაძენი ახლა მოწვევილი არ არის.",
-  "premiumSignInToPurchase": "შედით ზიარის ყიდვისთვის ან ბარაკა განბლოკი.",
-
-  "premiumRestorePurchases": "შესაძენი აღდგენა",
-  "premiumProcessing": "დამუშავება…",
-  "premiumRestoreHintTitle": "უკვე შეძენა ბარაკა ან ზიარი ამ მოწყობილობაში ან სხვაში?",
-  "premiumRestoreHintBody": "აღდგენეთ თქვენი შესაძენი თუ ისინი არ ნაჩვენებია.",
-
-  "premiumBuyCredits200": "ყიდეთ 200 ზიარი",
-  "premiumBuyCredits400": "ყიდეთ 400 ზიარი",
-  "premiumBecomeChampionOneTime": "განახლდით ბარაკა რეჟიმზე",
-  "premiumChampionHint": "ბარაკა რეჟიმში, შეგიძლიათ დაამატოთ დამატებითი ზიარი როცა გჭირდებათ.",
-
+  "settingsFreeLimitUsedTitle": "საწყისი რეფლექსიები ამოიწურა",
+  "settingsFreeLimitUsedDescription": "ამ მოწყობილობისთვის საწყისი რეფლექსიები ამოწურულია. გასაგრძელებლად გადადით Wilaya-ზე ან შეიძინეთ მეტი რეფლექსია.",
+  "settingsStarterCreditsUsedTitle": "საწყისი რეფლექსიები ამოიწურა",
+  "settingsStarterCreditsUsedDescription": "ამ მოწყობილობისთვის საწყისი რეფლექსიები ამოწურულია. გასაგრძელებლად გადადით Wilaya-ზე ან შეიძინეთ მეტი რეფლექსია.",
+  "deviceBoundError": "ეს მოწყობილობა უკვე დაკავშირებულია სხვა ანგარიშთან. გთხოვთ, შეხვიდეთ ორიგინალი ანგარიშით.",
+  "premiumTitle": "Wilaya რეჟიმი",
+  "premiumSubtitleBasic": "გახსენით Ayara-ს სრული შესაძლებლობები.",
+  "premiumSubtitlePremium": "თქვენ ხართ Wilaya-ზე. გსურთ მეტი რეფლექსია?",
+  "premiumCurrentPlan": "მიმდინარე ტარიფი: {plan}",
+  "premiumCreditsStatus": "რეფლექსიები: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "შესყიდვები ამჟამად მიუწვდომელია.",
+  "premiumSignInToPurchase": "შედით ანგარიშზე რეფლექსიების შესაძენად ან Wilaya-ს გასახსნელად.",
+  "premiumRestorePurchases": "შესყიდვების აღდგენა",
+  "premiumProcessing": "მუშავდება…",
+  "premiumRestoreHintTitle": "უკვე გაქვთ შეძენილი Wilaya ან რეფლექსიები ამ ან სხვა მოწყობილობაზე?",
+  "premiumRestoreHintBody": "აღადგინეთ თქვენი შესყიდვები, თუ ისინი არ ჩანს.",
+  "premiumBuyCredits200": "200 რეფლექსიის შეძენა",
+  "premiumBuyCredits400": "400 რეფლექსიის შეძენა",
+  "premiumBecomePremiumOneTime": "გადადით Wilaya რეჟიმზე",
+  "premiumTopupHint": "Wilaya-თი შეგიძლიათ ნებისმიერ დროს დაამატოთ დამატებითი რეფლექსიები.",
   "premiumUpgradeCta": "განახლება",
-  "premiumRequiredForCategory": "ეს კატეგორია მხოლოდ ბარაკა მომხმარებლებისთვის ხელმისაწვდომი. განახლდით პარამეტრებში ყველა პრიმიუმი კონტენტის განბლოკი.",
-  "premiumBenefitsBasic": "განბლოკოს ბარაკა დამატებითი ზიარის, პრიმიუმი კატეგორიების დაშვებისა და კვლება გარეშე ხელმისაწვდომობის შესახებ.",
-  "premiumBenefitsChampion": "თქვენ ხართ ბარაკა რეჟიმში. თუ კლებულობს დაბალი, დაამატეთ რამდენიმე დამატებითი ზიარი და განაგრძეთ შეფერხების გარეშე.",
-  "premiumButtonBecomeChampion": "განბლოკოს ბარაკა",
-  "premiumButtonTopup1000": "დაამატეთ 1000 ზიარი",
-  "premiumChampionBadge": "ბარაკა აქტიური",
-  "premiumLoadingStore": "მაღაზিის ჩატვირთვა…",
-
-  "blessedTitle": "ბარაკა რეჟიმი",
-  "blessedSubtitleGrace": "განბლოკოს სრული Ayara გამოცდილება.",
-  "blessedSubtitleBlessed": "თქვენ ხართ ბარაკა. ამდენი ზიარი გჭირდებათ?",
-
-  "blessedCurrentPlan": "მიმდინარე გეგმა: {plan}",
-  "blessedReflectionsStatus": "ზიარი: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "შესაძენი ახლა მოწვევილი არ არის.",
-  "blessedProductNotAvailable": "ეს პროდუქტი მაღაზიაში ჯერ არ არის. გთხოვთ, ცოტა ხნის შემდეგ თავიდან სცადოთ.",
-  "blessedPurchaseError": "რაღაც არ გამოვიდა შესაძენისას. გთხოვთ, თავიდან სცადოთ.",
-  "blessedSignInToPurchase": "შედით ზიარის ყიდვისთვის ან ბარაკა განბლოკი.",
-
-  "blessedRestorePurchases": "შესაძენი აღდგენა",
-  "blessedProcessing": "დამუშავება…",
-  "blessedRestoreHintTitle": "უკვე შეძენა ბარაკა ან ზიარი ამ მოწყობილობაში ან სხვაში?",
-  "blessedRestoreHintBody": "აღდგენეთ თქვენი შესაძენი თუ ისინი არ ნაჩვენებია.",
-
-  "blessedBuyReflections100": "დაამატეთ 100 ზიარი",
-  "blessedBuyReflections200": "ყიდეთ 200 ზიარი",
-  "blessedBuyReflections400": "ყიდეთ 400 ზიარი",
-  "blessedBecomeBlessedOneTime": "განახლდით ბარაკაზე",
-  "blessedTopupHint": "ბარაკა რეჟიმში, შეგიძლიათ დაამატოთ დამატებითი ზიარი როცა გჭირდებათ.",
-
-  "blessedUpgradeCta": "განახლება",
-  "blessedRequiredForCategory": "ეს კატეგორია მხოლოდ ბარაკა მომხმარებლებისთვის ხელმისაწვდომი. განახლდით პარამეტრებში ყველა პრიმიუმი კონტენტის განბლოკი.",
-  "blessedFeatureLocked": "განბლოკოს ბარაკა ამ ფუნქციის გამოყენება.",
-  "lockedCategoriesHint": "ზოგიერთი კატეგორია დაფიქსირებული ბარაკა წევრებისთვის. განბლოკოს მათ თქვენი მოგზაურობის თითოეული ზიარი აღმოჩენა.",
-  "blessedBenefitsGrace": "განბლოკოს ბარაკა დამატებითი ზიარის, პრიმიუმი კატეგორიების დაშვებისა და კვლება გარეშე ხელმისაწვდომობის შესახებ.",
-  "blessedBenefitsBlessed": "თქვენ ხართ ბარაკა რეჟიმში. თუ კლებულობს დაბალი, დაამატეთ რამდენიმე დამატებითი ზიარი და განაგრძეთ შეფერხების გარეშე.",
-  "blessedButtonBecomeBlessed": "განბლოკოს ბარაკა",
-  "blessedButtonTopup1000": "დაამატეთ 1000 ზიარი",
-  "blessedBadge": "ბარაკა აქტიური",
-  "blessedLoadingStore": "მაღაზიის ჩატვირთვა…",
-
-  "freePlanBlockedTitle": "თქვენი საწყო ზიარი ამოწურული",
-  "freePlanBlockedBody": "თქვენ ხართ სტანდარტულ გეგმაზე საწყო ზიარი და მიაღწევით ლიმიტს. გაგრძელება — და პრიმიუმი კატეგორიების განბლოკი — განახლდით ბარაკაზე.",
-  "freePlanBlockedCtaGoPremium": "იხილოთ ბარაკა ვარიანტი ქვემოთ",
-
-  "graceBlockedTitle": "თქვენი საწყო ზიარი ამოწურული",
-  "graceBlockedBody": "თქვენ ხართ სტანდარტულ გეგმაზე საწყო ზიარი და მიაღწევით ლიმიტს. გაგრძელება — და პრიმიუმი კატეგორიების განბლოკი — განახლდით ბარაკაზე.",
-  "graceBlockedCtaGoBlessed": "იხილოთ ბარაკა ვარიანტი ქვემოთ",
-
-  "rateGuestMustSignIn": "შედით Ayara გამოსაყენებელი და თქვენი ზიარი.",
-
+  "premiumRequiredForCategory": "ეს კატეგორია ხელმისაწვდომია მხოლოდ Wilaya მომხმარებლებისთვის. განაახლეთ პარამეტრებიდან პრემიუმ კონტენტის გასახსნელად.",
+  "premiumBenefitsBasic": "გახსენით Wilaya და მიიღეთ დამატებითი რეფლექსიები, პრემიუმ კატეგორიები და გააგრძელეთ წინამძღოლობის მიღება ნებისმიერ დროს.",
+  "premiumBenefitsPremium": "თქვენ ხართ Wilaya რეჟიმში. თუ რეფლექსიები გიმთავრდებათ, დაამატეთ მეტი და გააგრძელეთ შეფერხების გარეშე.",
+  "premiumButtonBecomePremium": "Wilaya-ს გახსნა",
+  "premiumButtonTopup1000": "1000 რეფლექსიის დამატება",
+  "premiumBadge": "Wilaya აქტიურია",
+  "premiumLoadingStore": "მაღაზია იტვირთება…",
+  "premiumProductNotAvailable": "ეს პროდუქტი ჯერ არ არის ხელმისაწვდომი. გთხოვთ, სცადოთ მოგვიანებით.",
+  "premiumPurchaseError": "შესყიდვისას დაფიქსირდა შეცდომა. გთხოვთ, სცადოთ კიდევ ერთხელ.",
+  "premiumBuyCredits100": "100 რეფლექსიის დამატება",
+  "premiumFeatureLocked": "გახსენით Wilaya ამ ფუნქციაზე წვდომისთვის.",
+  "lockedCategoriesHint": "ზოგიერთი კატეგორია დაჯავშნილია Wilaya წევრებისთვის. გახსენით ისინი თქვენი გზის სრულყოფილად შესასწავლად.",
+  "freePlanBlockedTitle": "საწყისი რეფლექსიები ამოგეწურათ",
+  "freePlanBlockedBody": "თქვენ ხართ სტანდარტულ ტარიფზე და მიაღწიეთ ლიმიტს. გასაგრძელებლად და პრემიუმ კატეგორიების გასახსნელად — გადადით Wilaya-ზე.",
+  "freePlanBlockedCtaGoPremium": "იხილეთ Wilaya-ს ვარიანტები ქვემოთ",
+  "graceBlockedTitle": "საწყისი რეფლექსიები ამოგეწურათ",
+  "graceBlockedBody": "თქვენ ხართ სტანდარტულ ტარიფზე და მიაღწიეთ ლიმიტს. გასაგრძელებლად და პრემიუმ კატეგორიების გასახსნელად — გადადით Wilaya-ზე.",
+  "graceBlockedCtaGoPremium": "იხილეთ Wilaya-ს ვარიანტები ქვემოთ",
+  "rateGuestMustSignIn": "შედით სისტემაში Ayara-სა და თქვენი რეფლექსიების გამოსაყენებლად.",
   "guestNoCreditsTitle": "სტუმრის რეჟიმი",
-  "guestNoCreditsBody": "სტუმრად შეგიძლიათ იხილოთ აპი, მაგრამ ზიარი გამოყენება შეუძლებელი. გვიანობით პარამეტრებში ხვდით ზიარის გამოყენება და შესაძენი განბლოკი.",
-
-  "guestNoReflectionsTitle": "სტუმრის რეჟიმი",
-  "guestNoReflectionsBody": "სტუმრად შეგიძლიათ იხილოთ აპი, მაგრამ ზიარი გამოყენება შეუძლებელი. გვიანობით პარამეტრებში ხვდით ზიარის გამოყენება და შესაძენი განბლოკი.",
-
+  "guestNoCreditsBody": "სტუმრის სტატუსით შეგიძლიათ დაათვალიეროთ აპლიკაცია, მაგრამ ვერ გამოიყენებთ რეფლექსიებს. გაიარეთ ავტორიზაცია პარამეტრებიდან შესყიდვების გასახსნელად.",
   "guestDialogContinue": "გაგრძელება",
-  "guestDialogLoginInstead": "შედით სამაგიეროდ",
-
-  "optionalLabel": "არჩევითი",
-
-  "accountDeleteSuccessTitle": "აკაუნტი წაშლილი",
-  "accountDeleteSuccessBody": "თქვენი აკაუნტი და დაკავშირებული მონაცემი წარმატებით წაშლილი.",
+  "guestDialogLoginInstead": "ავტორიზაცია",
+  "optionalLabel": "არასავალდებულო",
+  "accountDeleteSuccessTitle": "ანგარიში წაშლილია",
+  "accountDeleteSuccessBody": "თქვენი ანგარიში და მასთან დაკავშირებული მონაცემები წარმატებით წაიშალა.",
   "accountDeleteSuccessClose": "დახურვა",
-  "accountDeleteErrorTitle": "აკაუნტის წაშლა ვერ ხერხდება",
-  "accountDeleteErrorClose": "კარგი",
-  "accountDeleteReauthCancelled": "ხელახალი ავტორიზაცია გაუქმდა. გთხოვთ, შედით ხელახალი და ცდა წაშლა.",
-  "accountDeleteReauthRequired": "აკაუნტის წაშლა მოითხოვს ჩვენებას. გთხოვთ, გასვლა, შედით ხელახალი და ცდა წაშლა.",
-  "settingsDeletePermanentWarning": "ეს მოქმედება სამუდამოა და უკან გაუქმებული არ შეიძლება. ყველა მონაცემი თქვენი აკაუნტთან დაკავშირებული წაშლილი იქნება.",
-
-  "dailyGraceTitle": "ყოველდღიური სახელმძღვანელო",
-  "dailyGraceScriptureLabel": "აბზაცი დღის",
-  "dailyGraceSaintLabel": "მეცნერი კვირის",
-  "dailyGraceReflectionLabel": "საღამო ზიარი",
-  "dailyGraceCopiedToast": "აბზაცი დაკოპირდა ბუფერში",
-
-  "dailyScripture0Text": "აუცილებლად, მართლმადიდებელი იქნება ბაღ და მდინარეშორის, პატივის ადგილას აძლევ მეფეს წინ.",
-  "dailyScripture0Ref": "ყურანი 54:54-55",
-  "dailyScripture1Text": "და ჩვენ არ გაგიგზავნეთ, [ო მუჰამადი], ის გარდა, როგორც წყალობა სამყაროების.",
-  "dailyScripture1Ref": "ყურანი 21:107",
-  "dailyScripture2Text": "იქ არ არის ალა საკმარი მისი მსახურის? მაგრამ ისინი შენ აშინებენ სხვებით მის გარდა.",
-  "dailyScripture2Ref": "ყურანი 39:36",
-  "dailyScripture3Text": "შესაძლოა თქვენ სძულია რაღაც და ეს კარგია თქვენთვის; და შესაძლოა თქვენ უყვარდეთ რაღაც და ეს ცუდია თქვენთვის. და ალა იცის, სანამ თქვენ არ იცით.",
-  "dailyScripture3Ref": "ყურანი 2:216",
-  "dailyScripture4Text": "აუცილებლად, ალა არის მოთმინებულებთან.",
-  "dailyScripture4Ref": "ყურანი 2:153",
-  "dailyScripture5Text": "ამიტომ გახსენეთ მე; მე გახსენებ თქვენ. და იყავით მადლიერი მე და არ უარყავით მე.",
-  "dailyScripture5Ref": "ყურანი 2:152",
-  "dailyScripture6Text": "აუცილებლად, ყველაზე კეთილი თქვენი ალას თვალში არის ყველაზე მართლმადიდებელი თქვენი.",
-  "dailyScripture6Ref": "ყურანი 49:13",
-  "dailyScripture7Text": "და თქვენი უფალი ბრძანა რომ თქვენ თაყვანის სცემთ არავინ არ არის მას უკრიძელი, და რომ თქვენ აკეთებთ კეთილი თქვენი მშობელი.",
-  "dailyScripture7Ref": "ყურანი 17:23",
-  "dailyScripture8Text": "მართლაც, ძნელებთან მოდის სიმარტე.",
-  "dailyScripture8Ref": "ყურანი 94:6",
-  "dailyScripture9Text": "და ის არის თქვენ გასთან სად რაც წაქ. და ალა, მისი აკეთებთ, არის მხედელი.",
-  "dailyScripture9Ref": "ყურანი 57:4",
-  "dailyScripture10Text": "ალა არ დაკისრებს სულ უფრო თან აკეთებს იყოს ძალი.",
-  "dailyScripture10Ref": "ყურანი 2:286",
-  "dailyScripture11Text": "და ვინც დაეყრდნო ალას — მაშინ ის არის საკმარი მისთვის.",
-  "dailyScripture11Ref": "ყურანი 65:3",
-  "dailyScripture12Text": "ჩემი წყალობა მოიცავს ყველას.",
-  "dailyScripture12Ref": "ყურანი 7:156",
-  "dailyScripture13Text": "და როდესაც ჩემი მსახურნი გკითხავთ მე — აუცილებლად მე ვარ ახლოს. მე ვპასუხობ სთხოველს როდესაც ის ხმას აძევს მე.",
-  "dailyScripture13Ref": "ყურანი 2:186",
-  "dailyScripture14Text": "ვინც აკეთებს მართლმადიდებელ, მამრობითი ან ქალი, მაშინ მრწმუნებელი — ჩვენ აუცილებლად აკეთებ მას ცხოვრობს კარგი ცხოვრება.",
-  "dailyScripture14Ref": "ყურანი 16:97",
-  "dailyScripture15Text": "აუცილებლად, ალა არ გაცვლის მდგომარეობა ხალხის აღ ისინი გაცვლის რა არის საკუთარი ში.",
-  "dailyScripture15Ref": "ყურანი 13:11",
-  "dailyScripture16Text": "ამიტომ არ სუსტ და არ მწუხრობა, და წინ იქ იყვნენ თუ კ რის მართლმადიდებელი.",
-  "dailyScripture16Ref": "ყურანი 3:139",
-  "dailyScripture17Text": "ო ჩემი მსახურნი ვინც აღმეზობელი მდგომარეობის თავი — არ სუსტ აქ ალას წყალობის. აუცილებლად, ალა მიმტკიცებს ყველა გამოკითხვით.",
-  "dailyScripture17Ref": "ყურანი 39:53",
-  "dailyScripture18Text": "და ვინც სიმშვიდე ალას — ის აკეთებს მას გზა გამომავლო, და აკეთებს აკეთებს მას ძალა აქედან რა ის არ აკეთებს გაირჩი.",
-  "dailyScripture18Ref": "ყურანი 65:2-3",
-  "dailyScripture19Text": "არ სუსტ იმედი ალას წყალობის.",
-  "dailyScripture19Ref": "ყურანი 12:87",
-  "dailyScripture20Text": "და ჩვენ აუცილებლად აკეთებს ყურანი იოლი გახსენება. ამიტომ იქ ვინც იქნება წინააღმდეგ?",
-  "dailyScripture20Ref": "ყურანი 54:17",
-  "dailyScripture21Text": "და ის მოგახსნა დაკარგული და ის გამკიდია თქვენ.",
-  "dailyScripture21Ref": "ყურანი 93:7",
-  "dailyScripture22Text": "და თქვენი უფალი ამბობს: მოითხოვეთ მე; მე პასუხობ თქვენ.",
-  "dailyScripture22Ref": "ყურანი 40:60",
-  "dailyScripture23Text": "და ჩვენ აუცილებლად პატივი აკეთებს ბავშვი ადამის.",
-  "dailyScripture23Ref": "ყურანი 17:70",
-  "dailyScripture24Text": "და ძებნა დახმარება მოთმინება და ლოცვით.",
-  "dailyScripture24Ref": "ყურანი 2:45",
-  "dailyScripture25Text": "ვინც აკეთებს ატომი წონა კარგი დან დაინახა ის.",
-  "dailyScripture25Ref": "ყურანი 99:7",
-  "dailyScripture26Text": "უტყუარი, დახმარება ალას იქ ახლოს.",
-  "dailyScripture26Ref": "ყურანი 2:214",
-  "dailyScripture27Text": "და ვინც არის მადლიერი — მისი მადლიერობა მხოლოდ სახელსახელო საკუთარი.",
-  "dailyScripture27Ref": "ყურანი 31:12",
-
-  "dailyReflection0": "როგორც ეს დღე ბელი, წაკითხეთ ერთი მომენტი სადაც ალას წყალობა იყო აშკარა.",
-  "dailyReflection1": "მოიტანეთ ალას ის რა იყო საბრძოლო თქვენი გულზე დღეს.",
-  "dailyReflection2": "დაასახელეთ ერთი აკებელი დღიდან და გამოხატეთ მადლიერობა ალას.",
-  "dailyReflection3": "დაისხი ზღვრიდან რომ კი ჯერ დაკავებული ალას უსაზღვრო ზრუნვით.",
-  "dailyReflection4": "ზიარი სად შენ გრძნობილი იწოდა გაჩვენება სიმილსიკე და კეთილი დღეს.",
-  "dailyReflection5": "მიტოვეთ რა შენ ვერ გააკეთე და დაეყრდნოთ ალას სრულყოფილი გეგმა.",
-  "dailyReflection6": "როგორც დღე ამბობს დამთავრება, მიიღეთ სამშვიდობო გახსენებაში ალას.",
-  "dailyReflection7": "ზიარი თუ როგორც თქვენ პატივი აკეთებთ თქვენი ლოცვა დღეს, და მადლობა ალას თითოეულ.",
-  "dailyReflection8": "ზიარი ერთი მომენტი სადაც მოთმინება (საბრი) ხელმძღვანელი თქვენი მოქმედებები დღეს.",
-  "dailyReflection9": "მოითხოვეთ ღამაწყობა რომელიმე ხელმოკლებული დღეს — ალას წყალობა უსაზღვრო.",
-  "dailyReflection10": "დაასახელეთ ერთი ადამიანი თქვენ გაჩვენება კეთილი დღეს და აკეთოთ დუა მათი.",
-  "dailyReflection11": "დაჯდი მადლიერობით: რა აკეთებს ალა გაწერთ დღეს რა თქვენ არ მოითხოვა?",
-  "dailyReflection12": "ზიარი ერთი აბზაცი ყურანის რომელი საუბრები სად თქვენ არის უფლება ახლა.",
-  "dailyReflection13": "განიხილეთ თუ როგორას თქვენ გამოიყენეთ თქვენი დრო დღეს — და შემოწერეთ ხვალ ალას.",
-  "dailyReflection14": "დაისხი იმის ცოდნით რომ რა რო მოვიდა დღეს, ალა იყო თქვენ გასთან მეშეობით ის.",
-  "dailyReflection15": "იფიქრეთ ერთი გზა თქვენ ემსახურთ თქვენი ოჯახი ან საზოგადოება დღეს ალას სახელით.",
-  "dailyReflection16": "როგორც ღამე დაფალი, აკეთოთ თავბა — ალა ყვარის ისინი ვინც გადახვიდნენ მას.",
-  "dailyReflection17": "ზიარი სილამაზე ალა დაფალი თქვენი დღეს, როგორას პატარა.",
-  "dailyReflection18": "განიხილეთ რა თქვენ ისწავლა დღეს და თუ როგორას ის აკრიფა თქვენ ღრმად ალას.",
-  "dailyReflection19": "მიტოვეთ დღის შიში დარჩი ალას — ის ატარებს რა თქვენ ვერ.",
-  "dailyReflection20": "იფიქრეთ მომენტი დღეს სად თქვენ შეიძლება აირჩიეთ ჯობი, და ისწავლეთ დელიკატურად.",
-  "dailyReflection21": "აკეთოთ დუა ისინი ვინც დღაბრძოლობენ — თქვენი ლოცვა არის საჩუქარი მათი.",
-  "dailyReflection22": "დაიმახსოვრეთ აკებელი თქვენ ხშირად უსილ და აიღეთ მომენტი მადლობა ალას.",
-  "dailyReflection23": "ზიარი თქვენი განზრახვა დღეს — არის ისინი ალას? ხვალ, დაიწყოთ ხელახლა.",
-  "dailyReflection24": "როგორც ღამე მშვიდობის, ისმენეთ ალას ახლოსი მშვიდობაში.",
-  "dailyReflection25": "განიხილეთ სად თქვენ აჯამთ ძალა დღეს — რომელი ძალა ალა.",
-  "dailyReflection26": "დაასახელეთ ერთი რამ თქვენ აკეთებთ ხვალ, ალას სახელით, რა თქვენ არ აკეთებთ დღეს.",
-  "dailyReflection27": "როგორც თქვენ მოამზადეთ დასაძინებელი, გადასცი თქვენი სული ალას — ის არის საწყობი მცველი.",
-
-  "dailyRoleModel0": "წინასწარმეტყველი მუჰამადი ﷺ",
-  "dailyRoleModel1": "აბუ ბაკრი ას-სიდიქი (რა)",
-  "dailyRoleModel2": "უმარი იბნი ალ-ხატაბი (რა)",
-  "dailyRoleModel3": "უთმანი იბნი აფანი (რა)",
-  "dailyRoleModel4": "ალი იბნი აბი ტალიბი (რა)",
-  "dailyRoleModel5": "ხადიჯა ბინთი ხუვაილიდი (რა)",
-  "dailyRoleModel6": "აიშა ბინთი აბი ბაკრი (რა)",
-  "dailyRoleModel7": "ფატიმა აზ-ზაჰრა (რა)",
-  "dailyRoleModel8": "ბილალი იბნი რაბა (რა)",
-  "dailyRoleModel9": "სალმანი ალ-ფარისი (რა)",
-  "dailyRoleModel10": "აბუ ჰურაირა (რა)",
-  "dailyRoleModel11": "აბდულაჰი იბნი აბასი (რა)",
-  "dailyRoleModel12": "აბდულაჰი იბნი მასუდი (რა)",
-  "dailyRoleModel13": "მუადი იბნი ჯაბალი (რა)",
-  "dailyRoleModel14": "მუსაბი იბნი უმაირი (რა)",
-  "dailyRoleModel15": "სუმაიია ბინთი ხაბაბი (რა)",
-  "dailyRoleModel16": "ამარი იბნი იასირი (რა)",
-  "dailyRoleModel17": "უმ სალამა (რა)",
-  "dailyRoleModel18": "ხალიდი იბნი ალ-ვალიდი (რა)",
-  "dailyRoleModel19": "ზაიდი იბნი თაბიტი (რა)",
-  "dailyRoleModel20": "ჰაფსა ბინთი უმარი (რა)",
-  "dailyRoleModel21": "უმარი იბნი აბდი ალ-აზიზი (რ)",
-  "dailyRoleModel22": "ოჯახი აბუ ჰანიფა (რ)",
-  "dailyRoleModel23": "ოჯახი მალიკი იბნი ანასი (რ)",
-  "dailyRoleModel24": "ოჯახი ალ-შაფი'ი (რ)",
-  "dailyRoleModel25": "ოჯახი აჰმადი იბნი ჰანბალი (რ)",
-  "dailyRoleModel26": "ოჯახი ალ-ბუხარი (რ)",
-  "dailyRoleModel27": "ოჯახი მუსლიმი (რ)",
-  "dailyRoleModel28": "ოჯახი ალ-ტირმიდი (რ)",
-  "dailyRoleModel29": "ალ-ღაზალი (რ)",
-  "dailyRoleModel30": "იბნი ალ-კაიმი ალ-ჯაუზიია (რ)",
-  "dailyRoleModel31": "იბნი თაიმია (რ)",
-  "dailyRoleModel32": "ალ-ნავავი (რ)",
-  "dailyRoleModel33": "იბნი ჰაჯარი ალ-ასქალანი (რ)",
-  "dailyRoleModel34": "იბნი კატირი (რ)",
-  "dailyRoleModel35": "ალ-თაბარი (რ)",
-  "dailyRoleModel36": "სუფიანი ალ-თავრი (რ)",
-  "dailyRoleModel37": "ფახრი ალ-დინი ალ-რაზი (რ)",
-  "dailyRoleModel38": "იბნი სინა (რ)",
-  "dailyRoleModel39": "ალ-ბირუნი (რ)",
-  "dailyRoleModel40": "იბნი რუშდი (რ)",
-  "dailyRoleModel41": "იბნი ხალდუნი (რ)",
-  "dailyRoleModel42": "იბნი ბატუტა (რ)",
-  "dailyRoleModel43": "წინასწარმეტყველი იბრაჰიმი (ას)",
-  "dailyRoleModel44": "წინასწარმეტყველი მუსა (ას)",
-  "dailyRoleModel45": "წინასწარმეტყველი ისა (ას)",
-  "dailyRoleModel46": "წინასწარმეტყველი იუსუფი (ას)",
-  "dailyRoleModel47": "წინასწარმეტყველი დავუდი (ას)",
-  "dailyRoleModel48": "წინასწარმეტყველი სულეიმანი (ას)",
-  "dailyRoleModel49": "წინასწარმეტყველი ნუჰი (ას)",
-  "dailyRoleModel50": "წინასწარმეტყველი იუნუსი (ას)",
-  "dailyRoleModel51": "წინასწარმეტყველი აიუბი (ას)",
-  "dailyRoleModel52": "რუკაია ბინთი მუჰამადი (რა)",
-  "dailyRoleModel53": "ზაინაბი ბინთი მუჰამადი (რა)",
-  "dailyRoleModel54": "ჰასანი იბნი ალი (რა)",
-  "dailyRoleModel55": "ჰუსეინი იბნი ალი (რა)",
-  "dailyRoleModel56": "ჯაფარი იბნი აბი ტალიბი (რა)",
-  "dailyRoleModel57": "აბუ დარი ალ-გიფარი (რა)",
-  "dailyRoleModel58": "თალჰა იბნი უბაიდულაჰი (რა)",
-  "dailyRoleModel59": "აზ-ზუბაირი იბნი ალ-ავამი (რა)",
-
-  "locationConsentLabel": "დაიშვების Ayara გამოსაყენებელი ჩემი ადგილი კიბლა მიმართულება და ლოცვის დრო",
-  "locationConsentHint": "გამოიყენება მხოლოდ ამ ფუნქციებისთვის. თქვენი ადგილი არ არის ოდესმე გაზიარებული ან შენახული.",
-
-  "askPageTitle": "კითხე Ayara",
-  "askPageDescription": "კითხეთ ყველა წყალობა, ლოცვა, ცხოვრება ან ისლამური პრაქტიკა და მიიღეთ სახელმძღვანელო ფესვი ყურანი და სუნიდან.",
-  "askPageInputHint": "აკრიფეთ თქვენი კითხვა აქ…",
-  "askPageSubmitCta": "კითხე",
-  "askPageInputEmptyError": "გთხოვთ, პირველი დაწერეთ კითხვა.",
+  "accountDeleteErrorTitle": "ანგარიშის წაშლა ვერ მოხერხდა",
+  "accountDeleteErrorClose": "OK",
+  "accountDeleteReauthCancelled": "ავტორიზაცია გაუქმდა. გთხოვთ, შედით ხელახლა და სცადეთ წაშლა.",
+  "accountDeleteReauthRequired": "ანგარიშის წასაშლელად საჭიროა ახალი ავტორიზაცია. გთხოვთ, გამოხვიდეთ, თავიდან შედით და სცადეთ კიდევ ერთხელ.",
+  "settingsDeletePermanentWarning": "ეს ქმედება შეუქცევადია. თქვენს ანგარიშთან დაკავშირებული ყველა მონაცემი წაიშლება.",
+  "dailyGraceTitle": "ყოველდღიური წინამძღოლობა",
+  "dailyGraceScriptureLabel": "დღის აიათი",
+  "dailyGraceSaintLabel": "კვირის სწავლული",
+  "dailyGraceReflectionLabel": "საღამოს რეფლექსია",
+  "dailyGraceCopiedToast": "აიათი კოპირებულია",
+  "locationConsentLabel": "მიეცით Ayara-ს უფლება გამოიყენოს თქვენი მდებარეობა ქიბლას მიმართულებისა და ლოცვის დროებისთვის",
+  "locationConsentHint": "გამოიყენება მხოლოდ ამ ფუნქციებისთვის. თქვენი მდებარეობა არასოდეს ზიარდება ან ინახება.",
+  "askPageTitle": "ჰკითხეთ Ayara-ს",
+  "askPageDescription": "იკითხეთ ნებისმიერი რამ რწმენის, ლოცვის, ცხოვრების ან ისლამური პრაქტიკის შესახებ და მიიღეთ წინამძღოლობა ყურანსა და აჰლ ალ-ბაითის სწავლებებზე დაყრდნობით.",
+  "askPageInputHint": "ჩაწერეთ თქვენი კითხვა აქ…",
+  "askPageSubmitCta": "კითხვა",
+  "askPageInputEmptyError": "გთხოვთ, ჯერ დაწეროთ კითხვა.",
   "askResultYourQuestion": "თქვენი კითხვა",
-
-  "guidancePageTitle": "ლოცვა და სახელმძღვანელო",
-  "qiblaFacingMecca": "წინახედი მეკა",
-  "qiblaCompassInstruction": "აბრუნებთ თქვენი ტელეფონი სამანამ ოქროს ნემი მიუთითებს ზემოთ.\nეს მიმართულება მიუთითებს კიბლა (მეკა).",
-  "qiblaGpsUnavailableBody": "GPS სიგნალი სუსტი. გადაინაცვლეთ აქ და ააკთეთ სცდა.",
-  "qiblaRetry": "სცდა",
-  "qiblaTitle": "კიბლა მიმართულება",
-  "qiblaDistanceLabel": "{km} კილომეტრი მეკა",
+  "guidancePageTitle": "ქიბლა",
+  "qiblaFacingMecca": "მექას მიმართულებით",
+  "qiblaCompassInstruction": "დაატრიალეთ ტელეფონი, სანამ ოქროს ისარი ზევით არ მიუთითებს.\nეს მიმართულება მიუთითებს ქიბლას (მექას)კენ.",
+  "qiblaGpsUnavailableBody": "GPS სიგნალი სუსტია. გადით გარეთ და დააჭირეთ „კიდევ სცადეთ“.",
+  "qiblaRetry": "კიდევ სცადეთ",
+  "qiblaTitle": "ქიბლას მიმართულება",
+  "qiblaDistanceLabel": "{km} კმ მექამდე",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "ადგილი საჭირო",
-  "qiblaLocationNeededBody": "დაიშვების ადგილი წვდომა ისე Ayara შეუძლია გამოთვალო კაბა მიმართულება მეკა საიდან თქვენი.",
-  "qiblaOpenSettings": "გახსენი პარამეტრები",
-  "qiblaCompassLoading": "ძებნა თქვენი პოზიცია…",
-  "qiblaTowardMecca": "მიმართულება მეკა",
-
-  "prayerTimesTitle": "ლოცვის დრო",
+  "qiblaLocationNeededTitle": "საჭიროა მდებარეობა",
+  "qiblaLocationNeededBody": "მიეცით წვდომა მდებარეობაზე, რათა Ayara-მ გამოთვალოს ქააბას მიმართულება იქიდან, სადაც ხართ.",
+  "qiblaOpenSettings": "პარამეტრების გახსნა",
+  "qiblaCompassLoading": "მდებარეობის ძიება…",
+  "qiblaTowardMecca": "მექასკენ",
+  "prayerTimesTitle": "ლოცვის დროები",
   "prayerTimesFajr": "ფაჯრი",
-  "prayerTimesDhuhr": "დუჰრი",
+  "prayerTimesDhuhr": "ზუჰრი",
   "prayerTimesAsr": "ასრი",
   "prayerTimesMaghrib": "მაღრიბი",
-  "prayerTimesIsha": "ისა",
-  "prayerTimesLocationNeededTitle": "ადგილი საჭირო",
-  "prayerTimesLocationNeededBody": "დაიშვების ადგილი წვდომა ისე Ayara შეუძლია გამოთვალო ზუსტი ლოცვის დრო თქვენი ქალაქი.",
+  "prayerTimesIsha": "იშა",
+  "prayerTimesLocationNeededTitle": "საჭიროა მდებარეობა",
+  "prayerTimesLocationNeededBody": "მიეცით წვდომა მდებარეობაზე, რათა Ayara-მ ზუსტად გამოთვალოს ლოცვის დროები თქვენი ქალაქისთვის.",
   "prayerTimesNextLabel": "შემდეგი",
   "prayerTimesDoneLabel": "დასრულდა",
-
-  "monthlyPrayerTimesTitle": "თვის ლოცვის დრო",
-  "monthlyPrayerTimesViewButton": "იხილე სრული თვე",
+  "monthlyPrayerTimesTitle": "თვიური ლოცვის დროები",
+  "monthlyPrayerTimesViewButton": "მთელი თვის ნახვა",
   "monthlyPrayerTimesNextMonth": "შემდეგი თვე",
   "monthlyPrayerTimesDayHeader": "დღე",
-
-  "sharePrayerTimes": "გაზიარება ლოცვის დრო",
-
-  "prayerNotificationsTitle": "ლოცვის გახსენება",
-  "prayerNotificationsDescription": "მიიღეთ მოკრთალო გახსენება წინ თითოეული ლოცვის დროზე დაკავშირებული დღის განმავლობაში.",
-  "prayerNotificationsEnable": "ჩართოთ ლოცვის გახსენება",
-  "prayerNotificationsOpenSettings": "გახსენი აცნობების პარამეტრები",
-  "prayerNotificationsDenied": "აცნობები გამორთულია",
-  "prayerNotificationsDeniedHint": "გადახვიდი პარამეტრებში და დაიშვი აცნობები Ayara მოსახვევი ლოცვის დროს გახსენება.",
-
-  "notificationsConsentLabel": "დაიშვების აცნობები ლოცვის დროს",
-
-  "prayerNotifTitleFajr": "🌅 ფაჯრი — გარაჟილი ლოცვა",
-  "prayerNotifBodyFajr": "ზღვარი ლოცვა არის გარაჟილი. აღუძრევა, სუფთა თქვენ და დიდი ალას წინ.",
-
-  "prayerNotifTitleDhuhr": "☀️ დუჰრი — შუადღე ლოცვა",
-  "prayerNotifBodyDhuhr": "დაპაუზე თქვენი დღე და დაბრუნი ალას. დუჰრი ლოცვის დროზე დაფალი.",
-
-  "prayerNotifTitleAsr": "🌤️ ასრი — შუადღის შემდეგ ლოცვა",
-  "prayerNotifBodyAsr": "დაიცვი შუა ლოცვა. ასრი დრო დაფალი — მიტოვეთ ის მოვიდეს.",
-
+  "sharePrayerTimes": "ლოცვის დროების გაზიარება",
+  "notificationsSectionTitle": "შეტყობინებები",
+  "notificationsSectionSubtitle": "ლოცვის შეხსენებები, კალენდარული მოვლენები და სხვა",
+  "dailyReflectionReminderTitle": "ყოველდღიური რეფლექსია",
+  "dailyReflectionReminderDescription": "ნაზი ყოველდღიური შეხსენება Ayara-ს გასახსნელად და რწმენასთან დასაკავშირებლად.",
+  "dailyReflectionReminderEnable": "ჩართეთ ყოველდღიური შეხსენება",
+  "dailyReflectionReminderTimeLabel": "შეხსენების დრო",
+  "prayerNotificationsTitle": "ლოცვის შეხსენებები",
+  "prayerNotificationsDescription": "მიიღეთ შეხსენება ყოველი ლოცვის წინ, რათა შეინარჩუნოთ კავშირი მთელი დღის განმავლობაში.",
+  "prayerNotificationsEnable": "ლოცვის შეხსენებების ჩართვა",
+  "prayerNotificationsOpenSettings": "შეტყობინებების პარამეტრების გახსნა",
+  "prayerNotificationsDenied": "შეტყობინებები გამორთულია",
+  "prayerNotificationsDeniedHint": "გადადით პარამეტრებში და დართეთ Ayara-ს შეტყობინებების უფლება ლოცვის დროების მისაღებად.",
+  "notificationsConsentLabel": "ლოცვის დროებზე შეტყობინებების დაშვება",
+  "prayerNotifTitleFajr": "🌅 ფაჯრი — განთიადის ლოცვა",
+  "prayerNotifBodyFajr": "ფაჯრი აჰლ ალ-ბაითის დილის ლოცვაა. იმამ ალიმ (ა) თქვა: გაუფრთხილდით განთიადის ლოცვას, როგორც უფრთხილდებით თქვენს ყველაზე ძვირფას ამანათს.",
+  "prayerNotifTitleDhuhr": "☀️ ზუჰრი — შუადღის ლოცვა",
+  "prayerNotifBodyDhuhr": "აჰლ ალ-ბაითის იმამები აფასებდნენ ხსენების ყოველ წამს. შეისვენეთ, დაუკავშირეთ თქვენი გული ალლაჰს.",
+  "prayerNotifTitleAsr": "🌤️ ასრი — ნაშუადღევის ლოცვა",
+  "prayerNotifBodyAsr": "გაუფრთხილდით ლოცვას, რამეთუ ის არის აღთქმა თქვენსა და ალლაჰს შორის. ასრის დრო მოვიდა — არ გაუშვათ ის ხსენების გარეშე.",
   "prayerNotifTitleMaghrib": "🌇 მაღრიბი — მზის ჩასვლის ლოცვა",
-  "prayerNotifBodyMaghrib": "მზე ჩადა. მოაქვს მაღრიბი და იყავით მადლიერი ალას დღის.",
-
-  "prayerNotifTitleIsha": "🌙 ისა — ღამის ლოცვა",
-  "prayerNotifBodyIsha": "დაასრულე თქვენი დღე გახსენებაში ალას. ჰაია 'ალალ ფალა — მოდი წარმატება.",
-
-  "outOfReflectionsBannerText": "თქვენ გამოიყენეთ ყველა თქვენი ზიარი",
-  "outOfReflectionsBannerCta": "მიიღე მეტი",
-
-  "dhikrPageTitle": "ზიკრი",
-  "dhikrTapToCount": "აკრეფთ წრე დასაღირი",
-  "dhikrResetButton": "გადააყენი",
-  "dhikrComplete": "მაშა'ალაჰი",
-  "dhikrCompleteMessage": "თქვენ დაასრულეთ 99 გახსენება ალას. შესაძლოა ისინი იყოს შუქი თქვენი გული.",
-
-  "disclaimerTitle": "ამ აპლიკაციის სახელმძღვანელო შესახებ",
-  "disclaimerBody": "Ayara აწვდის ისლამური ზიარი, გახსენება და სულიერი კონტენტი დაკავშირება თქვენი პირადი მოგზაურობა რწმენა. ეს კონტენტი შემოთავაზებული ზოგადი ინფორმაციული და შინამდება მიზნით.\n\nAyara არ მიმდინარეობს განათლებული მეცნერი.\nსახელმძღვანელო ამ აპლიკაციაში არ არის ჩანაცვლება ისწავლა ისლამური მეცნერი, იმამი, მუფტი ან თეოლოგიურად მომზადებული მასწავლებელი. თუ უკითხავთ რელიგიური მსჯელობა, ჰალალი და ჰარამი საქმე, ან პირადი რელიგიური ვალდებულება, გთხოვთ, თხოვენ რჩევა კვალიფიცირებული რელიგიური ხელმძღვანელი თქვენი საზოგადოება.\n\nამ აპლიკაციაში არ არის რელიგიური მსჯელობა.\nAyara აკეთებს არა უფლება განკარგულება მატერიალურ მტკიცებულება ფიქჰი (ისლამური იურისპრუდენცია) ან პირადი რელიგიური ვალდებულება. არაფერი აქ უნდა განიხილოს ფატვა ან დაკავშირება რელიგიური ინსტრუქცია.\n\nმეცნერი ინტერპრეტაცია ცვალებადი.\nისლამი მოიცავს მდიდარი სხვაობა ტრადიცია, სკოლა აზრი (მადხაბი) და მეცნერი დასაბუთება. კონტენტი ამ აპლიკაციაში არის გენერალური პერსპექტივა და შესაძლოა არ წარმოადგინოს ყველა ტრადიცია ან სკოლა თანაბრად.\n\nსაზოგადოება მატერიალური.\nეს აპლიკაციაში მიზანი წაახალისოს თქვენი ხელშიკავება რწმენა ტრადიცია მიუთითებელი პატივი ფუნდამენტური ღირებული თქვენი ადგილობრივი მეჩეთი, იმამი და რელიგიური საზოგადოება. ჩვენ წაახალისოთ თქვენ რჩება დაკავშირებული და ისწავლოთ კვალიფიცირებული მასწავლებელი თქვენი ახლოს.",
-  "disclaimerClose": "მე ვასობ",
-  "disclaimerInfoTooltip": "ამ აპლიკაციის სახელმძღვანელო შესახებ",
-  "disclaimerSettingsSubtitle": "ზოგადი ინფორმაციული მიზნით. აკრეფთ სრული უარყოფა წაკითხვა.",
-  "disclaimerSectionHeader": "სახელმძღვანელო უარყოფა"
+  "prayerNotifBodyMaghrib": "მზე ჩაესვენა — მომენტი, რომელსაც აჰლ ალ-ბაითი წმინდად მიიჩნევდა ვედრებისთვის. აღავლინეთ მაღრიბი და ხელები ალლაჰისკენ აღაპყრეთ.",
+  "prayerNotifTitleIsha": "🌙 იშა — ღამის ლოცვა",
+  "prayerNotifBodyIsha": "დაასრულეთ დღე ალლაჰის გარემოცვაში. იმამები მოგვიწოდებდნენ ღამის ლოცვისკენ იშას შემდეგ — ჯერ შეასრულეთ იშა და დღე მისი ხსენებით დახურეთ.",
+  "outOfReflectionsBannerText": "თქვენ გამოიყენეთ ყველა რეფლექსია",
+  "outOfReflectionsBannerCta": "მიიღეთ მეტი",
+  "dhikrPageTitle": "ზიქრი",
+  "dhikrTapToCount": "შეეხეთ წრეს დასათვლელად",
+  "dhikrResetButton": "განულება",
+  "dhikrComplete": "მაშა'ალლაჰ",
+  "dhikrCompleteMessage": "თქვენ დაასრულეთ ალლაჰის 100 დიდება. იყოს ის სინათლე თქვენი გულისთვის.",
+  "disclaimerTitle": "აპლიკაციის წინამძღოლობის შესახებ",
+  "disclaimerBody": "Ayara გთავაზობთ ისლამურ რეფლექსიებს, შეხსენებებს და სულიერ კონტენტს თქვენი რწმენის გზის მხარდასაჭერად, რომელიც ეფუძნება ყურანსა და აჰლ ალ-ბაითის სწავლებებს. ეს კონტენტი განკუთვნილია მხოლოდ ზოგადი საინფორმაციო და შთაგონების მიზნებისთვის.\n\nAyara არ ანაცვლებს კვალიფიციურ სწავლულებს.\nეს აპლიკაცია არ არის სწავლული ისლამოლოგის, მარჯას ან თეოლოგიური განათლების მქონე მასწავლებლის შემცვლელი. შიიტურ ისლამში რელიგიური წინამძღოლობა ეფუძნება ჯაფარის სამართლის სკოლას (ფიქჰი) და ცოცხალი მარჯას მიბაძვის ტრადიციას. თუ გაქვთ კითხვები ფიქჰის, ჰალალისა და ჰარამის ან პირადი რელიგიური ვალდებულებების შესახებ, გთხოვთ, მიმართოთ კვალიფიციურ მარჯას ან თქვენს თემში არსებულ სწავლულს.\n\nეს აპლიკაცია არ გამოსცემს რელიგიურ განჩინებებს.\nAyara არ იღებს ავტორიტეტულ გადაწყვეტილებებს ფიქჰის საკითხებზე. არაფერი აქ არ უნდა იქნას მიღებული როგორც ფატვა ან სავალდებულო რელიგიური ინსტრუქცია.\n\nაჰლ ალ-ბაითის ცენტრალურობა.\nშიიტურ ისლამში წინასწარმეტყველი მუჰამედი ﷺ და მისი განწმენდილი ოჯახი — აჰლ ალ-ბაითი — არიან ისლამური თემის ავტორიტეტული წინამძღოლები ყურანის შემდეგ. აჰლ ალ-ბაითის თორმეტი იმამი ისლამური სწავლების ღვთიურად დანიშნული განმმარტებლები არიან. კონტენტი ასახავს ამ ტრადიციას.\n\nთემის მნიშვნელობა.\nეს აპლიკაცია მიზნად ისახავს წაახალისოს თქვენი კავშირი რწმენასთან, ამასთანავე დიდ პატივს სცემს თქვენი ადგილობრივი მეჩეთის, ისლამური ცენტრისა და რელიგიური თემის როლს. მოგიწოდებთ, შეინარჩუნოთ კავშირი კვალიფიციურ მასწავლებლებთან.",
+  "disclaimerClose": "გავიგე",
+  "disclaimerInfoTooltip": "აპლიკაციის წინამძღოლობის შესახებ",
+  "disclaimerSettingsSubtitle": "მხოლოდ ზოგადი საინფორმაციო მიზნებისთვის. შეეხეთ სრული ტექსტის წასაკითხად.",
+  "disclaimerSectionHeader": "პასუხისმგებლობის უარყოფა",
+  "navHome": "მთავარი",
+  "navReflect": "რეფლექსია",
+  "navDuas": "დუები",
+  "navCalendar": "კალენდარი",
+  "dashboardToday": "დღეს",
+  "dashboardComingUp": "მალე",
+  "dashboardDaysUnit": "{count, plural, one {დღე} other {დღე}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "სწრაფი წვდომა",
+  "quickActionQibla": "ქიბლა",
+  "quickActionDhikr": "ზიქრი",
+  "quickActionDailyGrace": "წინამძღოლობა",
+  "quickActionPrayerTimes": "დროები",
+  "askAyaraTitle": "ჰკითხეთ Ayara-ს",
+  "askAyaraSubtitle": "დასვით ნებისმიერი ისლამური კითხვა და მიიღეთ გააზრებული პასუხი.",
+  "askAyaraHint": "მაგ: რა მნიშვნელობა აქვს რამადანს?",
+  "askAyaraSubmit": "კითხვა",
+  "wisdomOfTheDayTitle": "დღის სიბრძნე",
+  "calendarScreenTitle": "ისლამური კალენდარი",
+  "calendarUpcomingOccasions": "მომავალი მოვლენები",
+  "calendarOccasionRemindersTitle": "მოვლენების შეხსენება",
+  "calendarOccasionRemindersHint": "შეტყობინება ყოველი მოვლენის წინა საღამოს",
+  "calendarNotifPermissionDenied": "შეტყობინებების უფლება უარყოფილია. ჩართეთ ის პარამეტრებიდან.",
+  "calendarNoEvents": "მომავალი მოვლენები ვერ მოიძებნა.",
+  "calendarAddToPhone": "მობილური კალენდრის დამატება",
+  "calendarAddedToPhone": "კალენდარში დამატებულია",
+  "calendarCountdownToday": "დღეს",
+  "calendarCountdownTomorrow": "ხვალ",
+  "calendarCountdownDays": "{days} დღეში",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "იან",
+  "calendarMonthFeb": "თებ",
+  "calendarMonthMar": "მარ",
+  "calendarMonthApr": "აპრ",
+  "calendarMonthMay": "მაი",
+  "calendarMonthJun": "ივნ",
+  "calendarMonthJul": "ივლ",
+  "calendarMonthAug": "აგვ",
+  "calendarMonthSep": "სექ",
+  "calendarMonthOct": "ოქტ",
+  "calendarMonthNov": "ნოე",
+  "calendarMonthDec": "დეკ",
+  "calendarSeasonMuharramEarly": "მუჰარამის დღეები — გახსოვდეთ ქარბალა",
+  "calendarSeasonAshura": "აშურა — ია ჰუსეინ (ა)",
+  "calendarSeasonMuharramLate": "მუჰარამი — გლოვისა და რეფლექსიის დღეები",
+  "calendarSeasonArbaeen": "არბაინი — ჰუსეინის ორმოცი დღე",
+  "calendarSeasonRoadToArbaeen": "გზა არბაინისკენ",
+  "calendarSeasonMabath": "მაბ'ათ მუბარაქ — გამოცხადების განთიადი",
+  "calendarSeasonMidShaban": "შა'ბანის შუა რიცხვები — იმამ ალ-მაჰდის (აჯ) დაბადების დღე",
+  "calendarSeasonRamadan": "რამადან მუბარაქ — ყურანის თვე",
+  "calendarSeasonGhadir": "ეიდ ალ-ღადირ მუბარაქ!",
+  "hijriMonth1": "მუჰარამი",
+  "hijriMonth2": "საფარი",
+  "hijriMonth3": "რაბი ალ-ავვალი",
+  "hijriMonth4": "რაბი ას-სანი",
+  "hijriMonth5": "ჯუმადა ალ-ავვალი",
+  "hijriMonth6": "ჯუმადა ას-სანი",
+  "hijriMonth7": "რაჯაბი",
+  "hijriMonth8": "შა'ბანი",
+  "hijriMonth9": "რამადანი",
+  "hijriMonth10": "შავვალი",
+  "hijriMonth11": "ზულ-ყი'და",
+  "hijriMonth12": "ზულ-ჰიჯა",
+  "duasScreenTitle": "დუები და ზიარათები",
+  "duasSearchHint": "ძებნა…",
+  "duasFilterAll": "ყველა",
+  "duasCount": "{count, plural, one {{count} დუა} other {{count} დუა და ზიარათი}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "დუები ვერ მოიძებნა.",
+  "duaCategoryDaily": "ყოველდღიური",
+  "duaCategoryWeekly": "ყოველკვირეული",
+  "duaCategoryOccasions": "მოვლენები",
+  "duaCategoryZiyarat": "ზიარათი",
+  "duaCategoryTasbih": "თასბიჰი",
+  "eventTypeBirth": "დაბადება",
+  "eventTypeMartyrdom": "შაჰადათი",
+  "eventTypeOccasion": "მოვლენა",
+  "duaCopyTooltip": "თარგმანის კოპირება",
+  "duaToggleTransliteration": "ტრანსლიტერაცია",
+  "duaToggleTranslation": "თარგმანი",
+  "duaAskAiLabel": "სთხოვეთ Ayara-ს ამ დუას განმარტება",
+  "duaAskAiLockedLabel": "ჰკითხეთ Ayara-ს (Wilaya)",
+  "duaAiLockedMessage": "განმარტებები ხელმისაწვდომია Wilaya წევრებისთვის. განაახლეთ პარამეტრებიდან.",
+  "duaAiComingSoon": "ჰკითხეთ Ayara-ს „{name}“-ს შესახებ — მალე!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "დუა კოპირებულია.",
+  "tasbihAllahuAkbarMeaning": "ალლაჰი უზენაესია",
+  "tasbihAlhamdulillahMeaning": "ყოველი ქება ალლაჰს",
+  "tasbihSubhanallahMeaning": "დიდება ალლაჰს",
+  "tasbihResetTooltip": "განულება",
+  "tasbihCompleteTitle": "თასბიჰი დასრულდა",
+  "tasbihCompleteMessage": "ალლაჰმა მიიღოს თქვენი ზიქრი.",
+  "tasbihTapHint": "შეეხეთ ნებისმიერ ადგილას დასათვლელად",
+  "tasbihatScreenTitle": "ლოცვის გზამკვლევი",
+  "tasbihatScreenSubtitle": "ლოცვის დიდებანი",
+  "tasbihatScreenDescription": "ლოცვის დროს და მის შემდეგ წასაკითხი დიდებების სრული გზამკვლევი — აჰლ ალ-ბაითის (ა) ტრადიციის მიხედვით.",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "იკითხება მე-3 და მე-4 რაქათებში",
+  "tasbihatArba3Info": "შიიტურ ფიქჰში Tasbiḥāt al-Arbaʿa ანაცვლებს ალ-ფათიჰას ზუჰრის, ასრის, მაღრიბისა და იშას მე-3 და მე-4 რაქათებში. ერთხელ წაკითხვა სავალდებულოა (ვაჯიბი), სამჯერ კი — სასურველი (მუსთაჰაბი).",
+  "tasbihatArba3Translation": "დიდება ალლაჰს · ყოველი ქება ალლაჰს\nარ არსებობს ღვთაება გარდა ალლაჰისა · ალლაჰი უზენაესია",
+  "tasbihatArba3CompleteTitle": "წაკითხვა დასრულდა",
+  "tasbihatArba3CompleteMessage": "ალლაჰმა მიიღოს თქვენი ლოცვა — ამინ",
+  "tasbihatArba3TapHint": "შეეხეთ ყოველი წაკითხვის შემდეგ",
+  "tasbihatZahraSubtitle": "ყოველი ლოცვის შემდეგ · 100 მძივი",
+  "tasbihatZahraOriginLabel": "წარმოშობა",
+  "tasbihatZahraHadith": "ფატიმა ალ-ზაჰრამ (ს.ა) სთხოვა წინასწარმეტყველს ﷺ დამხმარე. მან უთხრა: „განა არ მიგითითო იმაზე უკეთესზე? წაიკითხე Subḥānallāh 33-ჯერ, Alḥamdulillāh 33-ჯერ და Allāhu Akbar 34-ჯერ ყოველი ლოცვის შემდეგ. ეს შენთვის დამხმარეს ყოლაზე უკეთესია“.",
+  "tasbihatZahraHadithSource": "— ბიჰარ ალ-ანვარი, ტ. 85",
+  "tasbihatZahraOpenCounter": "თასბიჰის მრიცხველის გახსნა",
+  "tasbihatDuasTitle": "სასურველი დუები",
+  "tasbihatDuasSubtitle": "ლოცვის დასრულების შემდეგ",
+  "tasbihatDuaAyatKursiTitle": "აიათ ალ-ქურსი",
+  "tasbihatDuaAyatKursiWhen": "ყოველი სავალდებულო ლოცვის შემდეგ",
+  "tasbihatDuaAyatKursiSource": "სურა ალ-ბაყარა 2:255",
+  "tasbihatDuaAyatKursiNote": "ვინც წაიკითხავს აიათ ალ-ქურსის ყოველი სავალდებულო ლოცვის შემდეგ, მასა და სამოთხეს შორის მხოლოდ სიკვდილი დგას. იმამ ალ-ბაყირმა (ა) თქვა, რომ ის ყურანის უდიდეს აიათებს შორისაა.",
+  "tasbihatDuaSalawatTitle": "სალავათი",
+  "tasbihatDuaSalawatWhen": "ყოველი ლოცვის შემდეგ · ბეჭდავს ყველა ვედრებას",
+  "tasbihatDuaSalawatSource": "იმამ ალ-სადიყი (ა) — ალ-ქაფი",
+  "tasbihatDuaSalawatNote": "წინასწარმეტყველისა ﷺ და მისი ოჯახის დალოცვა რეკომენდებულია ყოველი დუას დასასრულს. იმამ ალ-სადიყმა (ა) თქვა: „ნებისმიერი დუა შეჩერებულია, სანამ არ წარმოთქვამ სალავათს მუჰამედსა და მის ოჯახზე“.",
+  "tasbihatDuaFarajTitle": "დუა ალ-ფარაჯი",
+  "tasbihatDuaFarajWhen": "ყოველი ლოცვის შემდეგ · ჩვენი დროის იმამისთვის",
+  "tasbihatDuaFarajSource": "ნასწავლი იმამ ალ-ჰასან ალ-ასქარის (ა) მიერ",
+  "tasbihatDuaFarajNote": "დუა იმამ ალ-მაჰდის (ა.ჯ) გამოჩენისთვის. შიიტები მას ყოველი ლოცვის შემდეგ კითხულობენ, როგორც ცოცხალი იმამისადმი ერთგულების გამოხატვას.",
+  "tasbihatDuaTasbihFatimaTitle": "ფატიმას თასბიჰი",
+  "tasbihatDuaTasbihFatimaWhen": "მაღრიბისა და იშას შემდეგ · განსაკუთრებით სასურველი",
+  "tasbihatDuaTasbihFatimaSource": "იმამ ალ-ბაყირი (ა) — ბიჰარ ალ-ანვარი",
+  "tasbihatDuaTasbihFatimaNote": "იმამ ალ-ბაყირმა (ა) თქვა, რომ ზაჰრას თასბიჰის წაკითხვა იშას შემდეგ, დაძინებამდე, 1000 რაქათ ნაფილა ლოცვაზე უკეთესია.",
+  "tasbihFatimaGiftPre": "საჩუქარი წინასწარმეტყველისგან",
+  "tasbihFatimaGiftPost": "იკითხება ყოველი ლოცვის შემდეგ",
+  "prayerTrackerTitle": "ლოცვის ტრეკერი",
+  "prayerTrackerPrayed": "შესრულებულია",
+  "prayerTrackerDayStreak": "{count} დღიანი სერია",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "ყველა ლოცვა შესრულებულია. ალლაჰმა მიიღოს.",
+  "dhikrTrackerTitle": "ზაჰრას თასბიჰი",
+  "dhikrTrackerCompletedToday": "დღეს შესრულდა",
+  "dhikrTrackerNotDoneToday": "დღეს არ შესრულებულა",
+  "dhikrTrackerDayStreak": "{count} დღიანი სერია",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "თასბიჰის შეხსენება",
+  "dhikrReminderDescription": "ყოველდღიური შეხსენება ზაჰრას თასბიჰის წასაკითხად.",
+  "dhikrReminderEnable": "თასბიჰის შეხსენების ჩართვა",
+  "dhikrReminderTimeLabel": "შეხსენების დრო",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "დღის ჰადისი",
+  "hadithLabelArabic": "არაბული",
+  "hadithLabelTranslation": "თარგმანი",
+  "hadithBadge": "ჰადისი",
+  "hadithShare": "გააზიარეთ ეს ჰადისი",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nVia Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "წინა",
+  "hadithNavNext": "შემდეგი",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "14 მასუმი",
+  "imamsScreenSubtitle": "წინასწარმეტყველი, ლედი ფატიმა და თორმეტი იმამი — ისლამის უცოდველი წინამძღოლები",
+  "imamLabelBorn": "დაიბადა",
+  "imamLabelMartyrdom": "შაჰადათი",
+  "imamLabelStatus": "სტატუსი",
+  "imamSectionBiography": "ბიოგრაფია",
+  "imamSectionFamousSaying": "ცნობილი გამონათქვამი",
+  "imamRoleProphet": "უკანასკნელი წინასწარმეტყველი",
+  "imamRoleInfallible": "უცოდველი",
+  "imamOrdinal1": "1-ლი იმამი",
+  "imamOrdinal2": "მე-2 იმამი",
+  "imamOrdinal3": "მე-3 იმამი",
+  "imamOrdinal4": "მე-4 იმამი",
+  "imamOrdinal5": "მე-5 იმამი",
+  "imamOrdinal6": "მე-6 იმამი",
+  "imamOrdinal7": "მე-7 იმამი",
+  "imamOrdinal8": "მე-8 იმამი",
+  "imamOrdinal9": "მე-9 იმამი",
+  "imamOrdinal10": "მე-10 იმამი",
+  "imamOrdinal11": "მე-11 იმამი",
+  "imamOrdinal12": "მე-12 იმამი",
+  "duaAudioScreenTitle": "მოუსმინეთ დუებს",
+  "duaAudioScreenSubtitle": "აირჩიეთ დუა მოსასმენად.",
+  "duaAudioComingSoonMessage": "აუდიო ვერსია ხელმისაწვდომი იქნება მომავალ განახლებაში.",
+  "duaAudioClose": "დახურვა",
+  "duaAudioError": "აუდიოს ჩატვირთვა ვერ მოხერხდა.",
+  "duaAudioMetaTransmittedBy": "გადმოცემული",
+  "duaAudioMetaOccasion": "შემთხვევა",
+  "duaAudioMetaDuration": "ხანგრძლივობა",
+  "quickActionDailyHadith": "დღის ჰადისი",
+  "quickAction14Masumeen": "14 მასუმი",
+  "quickActionListenDuas": "მოსმენა",
+  "quickActionTasbihat": "გზამკვლევი",
+  "pilgrimageSectionTitle": "წმინდა მოგზაურობა",
+  "pilgrimageSectionSubtitle": "ჰაჯისა და უმრას სრული გზამკვლევი",
+  "hajjCardTitle": "ჰაჯი",
+  "hajjCardSubtitle": "ისლამის მეხუთე ბურჯი",
+  "hajjCardDescription": "ყოველწლიური დიდი პილიგრიმობა — სავალდებულოა სიცოცხლეში ერთხელ",
+  "hajjScreenTitle": "ჰაჯის გზამკვლევი",
+  "hajjScreenSubtitle": "ნაბიჯ-ნაბიჯ გზამკვლევი",
+  "umrahCardTitle": "უმრა",
+  "umrahCardSubtitle": "მცირე პილიგრიმობა",
+  "umrahCardDescription": "სულიერი მოგზაურობა, რომელიც შეიძლება შესრულდეს წლის ნებისმიერ დროს",
+  "umrahScreenTitle": "უმრას გზამკვლევი",
+  "umrahScreenSubtitle": "ნაბიჯ-ნაბიჯ გზამკვლევი",
+  "pilgrimageStepsTitle": "რიტუალები და ნაბიჯები",
+  "pilgrimageImportantNotesTitle": "მნიშვნელოვანი შენიშვნები",
+  "pilgrimageDuaTitle": "დუა ამ ეტაპისთვის",
+  "pilgrimageJafariNoteTitle": "ჯაფარის ფიქჰის შენიშვნა",
+  "pilgrimageComplete": "✓ დასრულებულია",
+  "pilgrimageMarkDone": "დასრულებად მონიშვნა",
+  "pilgrimageProgress": "{done} מתוך {total} ნაბიჯი",
+  "pilgrimageReadTime": "~{minutes} წუთი",
+  "pilgrimageShiaNoteTitle": "შიიტი მომლოცველები",
+  "pilgrimageShiaNoteBody": "შიიტი მომლოცველები ტრადიციულად მედინაშიც მიდიან წინასწარმეტყველის ﷺ და იმამების საფლავების მოსალოცად ჯანათ ალ-ბაყიში. ეს ვიზიტები მოგზაურობის განუყოფელი ნაწილია.",
+  "hajjIntro": "ჰაჯი ისლამის მეხუთე ბურჯია, სავალდებულოა ყველა ფიზიკურად და ფინანსურად ძლიერი მუსლიმანისთვის. სრულდება ზულ-ჰიჯას თვეში და იმეორებს წინასწარმეტყველი იბრაჰიმის (ა), ისმაილისა (ა) და ლედი ჰაჯარის ნაბიჯებს.",
+  "umrahIntro": "უმრა არის მცირე პილიგრიმობა მექაში და, ჰაჯისგან განსხვავებით, მისი შესრულება ნებისმიერ დროსაა შესაძლებელი. მას დიდი სულიერი ჯილდო მოაქვს."
 }

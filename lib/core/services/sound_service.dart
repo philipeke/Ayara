@@ -20,8 +20,8 @@ class SoundService {
           android: AudioContextAndroid(
             isSpeakerphoneOn: false,
             stayAwake: false,
-            contentType: AndroidContentType.sonification,
-            usageType: AndroidUsageType.assistanceSonification,
+            contentType: AndroidContentType.music,
+            usageType: AndroidUsageType.media,
             audioFocus: AndroidAudioFocus.gainTransientMayDuck,
           ),
         ),
@@ -41,6 +41,28 @@ class SoundService {
       await p.play(AssetSource('sounds/tap.wav'));
     } catch (e) {
       debugPrint('[SoundService] playTap error: $e');
+    }
+  }
+
+  /// Play the pilgrimage guide entry sound.
+  Future<void> playGuideTap() async {
+    try {
+      final p = _player;
+      if (p == null) return;
+      await p.play(AssetSource('sounds/guide-tap.wav'));
+    } catch (e) {
+      debugPrint('[SoundService] playGuideTap error: $e');
+    }
+  }
+
+  /// Play the Ask Ayara invocation sound.
+  Future<void> playAskAyara() async {
+    try {
+      final p = _player;
+      if (p == null) return;
+      await p.play(AssetSource('sounds/ask-ayara.wav'));
+    } catch (e) {
+      debugPrint('[SoundService] playAskAyara error: $e');
     }
   }
 

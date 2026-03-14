@@ -2,6 +2,10 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/foundation.dart' show kIsWeb, kDebugMode;
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+import 'package:ayara/core/config/theme.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 import 'package:ayara/l10n/app_localizations.dart';
@@ -15,6 +19,7 @@ import '../widgets/delete_account_section.dart';
 import '../widgets/guidance_disclaimer_section.dart';
 import '../widgets/free_plan_blocked_notice.dart';
 import '../widgets/ai_limit_section.dart';
+import '../widgets/notifications_section.dart';
 
 import 'package:ayara/features/premium/purchase_controller.dart';
 import 'package:ayara/features/premium/widgets/premium_section.dart' as premium;
@@ -165,15 +170,42 @@ class _SettingsScreenState extends State<SettingsScreen> {
     final bottomPad = 24.0 + safeBottom + 16.0;
 
     return Scaffold(
-        appBar: AppBar(
-          title: Text(t.settingsTitle),
-        ),
+        backgroundColor: AppColors.deepNavy,
         body: AbsorbPointer(
           absorbing: blockUi,
           child: SafeArea(
             bottom: true,
-            child: ListView(
-              padding: EdgeInsets.fromLTRB(16, 12, 16, bottomPad),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(4, 6, 16, 0),
+                  child: Row(
+                    children: [
+                      IconButton(
+                        icon: const Icon(Icons.arrow_back_ios_new_rounded,
+                            color: AppColors.gold),
+                        onPressed: () {
+                          HapticFeedback.lightImpact();
+                          Navigator.of(context).pop();
+                        },
+                      ),
+                      Expanded(
+                        child: Text(
+                          t.settingsTitle,
+                          style: GoogleFonts.lora(
+                            fontSize: 22,
+                            fontWeight: FontWeight.w700,
+                            color: AppColors.gold,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Expanded(
+                  child: ListView(
+                    padding: EdgeInsets.fromLTRB(16, 12, 16, bottomPad),
               children: [
                 LanguageSection(
                   initialCode: widget.currentCode,
@@ -207,6 +239,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
                 const SizedBox(height: 24),
 
+                const NotificationsSection(),
+
+                const SizedBox(height: 24),
+
                 const AiLimitSection(),
 
                 const SizedBox(height: 24),
@@ -232,9 +268,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 // ✅ Extra breathing room (in addition to bottom padding)
                 const SizedBox(height: 8),
               ],
-            ),
-          ),
-        ),
+            ),          // ListView
+            ),          // Expanded
+          ],            // Column children
+        ),              // Column
+        ),              // SafeArea
+      ),                // AbsorbPointer
     );
   }
 }

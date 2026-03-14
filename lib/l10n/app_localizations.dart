@@ -526,96 +526,6 @@ abstract class AppLocalizations {
   /// **'Continue'**
   String get continueCta;
 
-  /// No description provided for @promptSlot01.
-  ///
-  /// In en, this message translates to:
-  /// **'Write a short, practical daily guidance rooted in Shia Islamic faith — grounded in the Quran and the teachings of the Prophet Muhammad and the Ahl al-Bayt. Choose a fresh angle each time: a virtue from Islamic ethics, wisdom from one of the twelve Imams, a teaching from Nahj al-Balagha, or a quiet practice from the Shia tradition. Include one Quran verse (Surah:Ayah) and a 1-2 sentence reflection to carry through the day. Optionally connect it to the Islamic calendar or an important date if relevant.'**
-  String get promptSlot01;
-
-  /// No description provided for @promptSlot02.
-  ///
-  /// In en, this message translates to:
-  /// **'Write a short Islamic reflection on Iman (faith) and trust in Allah\'s plan (Tawakkul). Root it in the Quran, the example of Prophet Muhammad ﷺ, and the steadfast faith modelled by the Ahl al-Bayt and the example of the Imams. Vary the theme each time: trusting Allah during uncertainty, relying on divine wisdom, patience in trials, or quiet perseverance in everyday life as demonstrated by Imam Ali (AS) and the Imams of the Ahl al-Bayt. Include one Quran verse and one honest step for today drawn from Shia Islamic spiritual wisdom.'**
-  String get promptSlot02;
-
-  /// No description provided for @promptSlot03.
-  ///
-  /// In en, this message translates to:
-  /// **'Write a short Islamic prayer reflection rooted in Salah, Dua, or Dhikr within the Shia tradition. Vary the form each time: a supplication from Mafatih al-Jinan or the duas of the Imams, reflection on the five daily prayers as observed in three prayer times (combining Dhuhr with Asr, and Maghrib with Isha), the spiritual virtues of Salat al-Layl (the recommended night prayer beloved by the Ahl al-Bayt), the significance of praying on a turbah (prayer stone from sacred earth), the importance of Qunut in prayer, or a heartfelt dua from the tradition of Imam Zayn al-Abidin\'s Sahifa al-Sajjadiyya. Include one Quran verse and briefly name the prayer form or supplication source used.'**
-  String get promptSlot03;
-
-  /// No description provided for @promptSlot04.
-  ///
-  /// In en, this message translates to:
-  /// **'Write an Islamic reflection on patience (Sabr) and hope during hardship. Draw from Quranic teachings about trials, the perseverance of the Prophets, and the mercy of Allah in difficult moments. Vary the angle each time. Include one Quran verse and one encouraging perspective from Islamic tradition.'**
-  String get promptSlot04;
-
-  /// No description provided for @promptSlot05.
-  ///
-  /// In en, this message translates to:
-  /// **'Write a wise Islamic reflection about seeking forgiveness (Tawbah) and Allah\'s mercy. Draw from Quranic teachings on repentance, Allah\'s compassion, and the forgiving example of Prophet Muhammad ﷺ. Vary the theme: turning back to Allah, forgiving others, healing relationships, or believing in Allah\'s mercy after mistakes. Include one Quran verse and one concrete step.'**
-  String get promptSlot05;
-
-  /// No description provided for @promptSlot06.
-  ///
-  /// In en, this message translates to:
-  /// **'Write a short Islamic reflection on mercy (Rahmah) and compassion in everyday life. Draw from the example of Prophet Muhammad ﷺ, the concept of Ihsan (excellence), and Islamic teachings on kindness to family, neighbors, and the vulnerable. Include one Quran verse and one small act of compassion to practice today.'**
-  String get promptSlot06;
-
-  /// No description provided for @promptSlot07.
-  ///
-  /// In en, this message translates to:
-  /// **'Write an Islamic reflection on faith-based strength and courage. Draw from the supreme example of Imam Hussain ibn Ali (AS) at Karbala — the eternal model of standing firm against injustice, sacrificing everything for truth, and never surrendering to oppression — and from the broader example of the Ahl al-Bayt who remained steadfast through immense trials. Vary the theme each time: courage through faith, strength in prayer, trust in Allah during fear, or resilience in the face of injustice. Include one Quran verse and a short supplication or phrase of remembrance from the Shia tradition.'**
-  String get promptSlot07;
-
-  /// No description provided for @promptSlot08.
-  ///
-  /// In en, this message translates to:
-  /// **'Write an Islamic reflection on gratitude (Shukr) toward Allah. Root it in Quranic teaching and prophetic tradition. Vary the angle: gratitude in hardship, appreciating small blessings, beginning the day with praise of Allah, or recognizing Allah\'s guidance in daily life. Include one Quran verse and one gratitude practice.'**
-  String get promptSlot08;
-
-  /// No description provided for @promptSlot09.
-  ///
-  /// In en, this message translates to:
-  /// **'Write an Islamic reflection on life\'s purpose in worshipping Allah and living righteously. Draw from Quranic teachings about purpose, serving others, and using one\'s gifts for good. Vary the theme each time: serving family and community, seeking guidance through Istikhara, living with intention, or finding meaning in ordinary work. Include one Quran verse and two reflective questions.'**
-  String get promptSlot09;
-
-  /// No description provided for @promptSlot10.
-  ///
-  /// In en, this message translates to:
-  /// **'Write wise Islamic guidance on family and relationships rooted in Quranic teaching and the example of Prophet Muhammad ﷺ. Vary the theme each time: kindness in family life, patience in conflict, honoring parents, raising children in faith, or strengthening marriage. Include one Quran verse and one relational practice to try.'**
-  String get promptSlot10;
-
-  /// No description provided for @promptSlot11.
-  ///
-  /// In en, this message translates to:
-  /// **'Write a calming Islamic reflection about finding inner peace through remembrance of Allah (Dhikr) and trust in His plan. Draw from Quranic teachings about tranquility of the heart, prayer, and surrender to Allah\'s will. Vary the approach each time and include one Quran verse and one simple grounding practice from Islamic tradition.'**
-  String get promptSlot11;
-
-  /// No description provided for @promptSlot12.
-  ///
-  /// In en, this message translates to:
-  /// **'Write a short piece of wisdom from the Prophet Muhammad ﷺ and the Imams of the Ahl al-Bayt as taught in Shia Islam. Draw from the Quran, Hadith, the sayings of Imam Ali (AS) in Nahj al-Balagha, and the teachings of Imam Ja\'far al-Sadiq (AS) — the great scholar of the Ahl al-Bayt whose knowledge illuminated the ummah. Vary the topic each time: character, patience, humility, faith, justice, or daily conduct. Include a Quranic verse, a hadith, or a saying from one of the twelve Imams, and one practical application.'**
-  String get promptSlot12;
-
-  /// No description provided for @promptSlot13.
-  ///
-  /// In en, this message translates to:
-  /// **'Write an Islamic reflection on humility (Tawadhu) and good character (Akhlaq). Draw from Quranic teachings, the example of Prophet Muhammad ﷺ, and the tradition of Islamic character development. Vary the theme: humility in leadership, admitting mistakes, treating others with respect, or growing spiritually through self-reflection. Include one Quran verse and one habit to practice.'**
-  String get promptSlot13;
-
-  /// No description provided for @promptSlot14.
-  ///
-  /// In en, this message translates to:
-  /// **'Write an Islamic reflection on resisting temptation and staying on the straight path. Draw from Quranic guidance, remembrance of Allah (Dhikr), prayer (Salah), and examples of believers who overcame struggles. Vary the angle each time. Include one Quran verse and one practical strategy for the next 24 hours.'**
-  String get promptSlot14;
-
-  /// No description provided for @promptSlot15.
-  ///
-  /// In en, this message translates to:
-  /// **'Write a peaceful Islamic evening reflection rooted in the Shia tradition of evening supplication. Draw from the treasures of Mafatih al-Jinan, the Munajat al-Shabaniyya (the intimate whispered prayer of the month of Sha\'ban beloved by the Imams), and the evening duas transmitted from the Imams of the Ahl al-Bayt. Encourage gratitude, Muhasabah (self-accounting) as recommended by the Imams, and trust in Allah before rest. Include 3–5 short reflection prompts about the day, a brief closing supplication drawn from the tradition of the Ahl al-Bayt, and one Quran verse.'**
-  String get promptSlot15;
-
   /// No description provided for @wordCount.
   ///
   /// In en, this message translates to:
@@ -949,7 +859,7 @@ abstract class AppLocalizations {
   /// No description provided for @rateLocalThrottle.
   ///
   /// In en, this message translates to:
-  /// **'Easy tiger 🐯\nAI needs a moment before the next one…'**
+  /// **'Easy tiger 🐯\nAyara needs a moment before the next one…'**
   String get rateLocalThrottle;
 
   /// No description provided for @rateDailyLimit.
@@ -1498,870 +1408,6 @@ abstract class AppLocalizations {
   /// **'Verse copied to clipboard'**
   String get dailyGraceCopiedToast;
 
-  /// No description provided for @dailyScripture0Text.
-  ///
-  /// In en, this message translates to:
-  /// **'Indeed, the righteous will be among gardens and rivers, in a seat of honor near a Mighty King.'**
-  String get dailyScripture0Text;
-
-  /// No description provided for @dailyScripture0Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 54:54-55'**
-  String get dailyScripture0Ref;
-
-  /// No description provided for @dailyScripture1Text.
-  ///
-  /// In en, this message translates to:
-  /// **'And We have not sent you, [O Muhammad], except as a mercy to the worlds.'**
-  String get dailyScripture1Text;
-
-  /// No description provided for @dailyScripture1Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 21:107'**
-  String get dailyScripture1Ref;
-
-  /// No description provided for @dailyScripture2Text.
-  ///
-  /// In en, this message translates to:
-  /// **'Is not Allah sufficient for His servant? Yet they frighten you with others besides Him.'**
-  String get dailyScripture2Text;
-
-  /// No description provided for @dailyScripture2Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 39:36'**
-  String get dailyScripture2Ref;
-
-  /// No description provided for @dailyScripture3Text.
-  ///
-  /// In en, this message translates to:
-  /// **'Perhaps you hate something and it is good for you; and perhaps you love something and it is bad for you. And Allah knows, while you know not.'**
-  String get dailyScripture3Text;
-
-  /// No description provided for @dailyScripture3Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 2:216'**
-  String get dailyScripture3Ref;
-
-  /// No description provided for @dailyScripture4Text.
-  ///
-  /// In en, this message translates to:
-  /// **'Indeed, Allah is with the patient ones.'**
-  String get dailyScripture4Text;
-
-  /// No description provided for @dailyScripture4Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 2:153'**
-  String get dailyScripture4Ref;
-
-  /// No description provided for @dailyScripture5Text.
-  ///
-  /// In en, this message translates to:
-  /// **'So remember Me; I will remember you. And be grateful to Me and do not deny Me.'**
-  String get dailyScripture5Text;
-
-  /// No description provided for @dailyScripture5Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 2:152'**
-  String get dailyScripture5Ref;
-
-  /// No description provided for @dailyScripture6Text.
-  ///
-  /// In en, this message translates to:
-  /// **'Indeed, the most noble of you in the sight of Allah is the most righteous of you.'**
-  String get dailyScripture6Text;
-
-  /// No description provided for @dailyScripture6Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 49:13'**
-  String get dailyScripture6Ref;
-
-  /// No description provided for @dailyScripture7Text.
-  ///
-  /// In en, this message translates to:
-  /// **'And your Lord has decreed that you worship none but Him, and that you be dutiful to your parents.'**
-  String get dailyScripture7Text;
-
-  /// No description provided for @dailyScripture7Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 17:23'**
-  String get dailyScripture7Ref;
-
-  /// No description provided for @dailyScripture8Text.
-  ///
-  /// In en, this message translates to:
-  /// **'Verily, with hardship comes ease.'**
-  String get dailyScripture8Text;
-
-  /// No description provided for @dailyScripture8Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 94:6'**
-  String get dailyScripture8Ref;
-
-  /// No description provided for @dailyScripture9Text.
-  ///
-  /// In en, this message translates to:
-  /// **'And He is with you wherever you are. And Allah, of what you do, is Seeing.'**
-  String get dailyScripture9Text;
-
-  /// No description provided for @dailyScripture9Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 57:4'**
-  String get dailyScripture9Ref;
-
-  /// No description provided for @dailyScripture10Text.
-  ///
-  /// In en, this message translates to:
-  /// **'Allah does not burden a soul beyond that it can bear.'**
-  String get dailyScripture10Text;
-
-  /// No description provided for @dailyScripture10Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 2:286'**
-  String get dailyScripture10Ref;
-
-  /// No description provided for @dailyScripture11Text.
-  ///
-  /// In en, this message translates to:
-  /// **'And whoever relies upon Allah — then He is sufficient for him.'**
-  String get dailyScripture11Text;
-
-  /// No description provided for @dailyScripture11Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 65:3'**
-  String get dailyScripture11Ref;
-
-  /// No description provided for @dailyScripture12Text.
-  ///
-  /// In en, this message translates to:
-  /// **'My mercy encompasses all things.'**
-  String get dailyScripture12Text;
-
-  /// No description provided for @dailyScripture12Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 7:156'**
-  String get dailyScripture12Ref;
-
-  /// No description provided for @dailyScripture13Text.
-  ///
-  /// In en, this message translates to:
-  /// **'And when My servants ask you about Me — indeed I am near. I respond to the supplicant when he calls upon Me.'**
-  String get dailyScripture13Text;
-
-  /// No description provided for @dailyScripture13Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 2:186'**
-  String get dailyScripture13Ref;
-
-  /// No description provided for @dailyScripture14Text.
-  ///
-  /// In en, this message translates to:
-  /// **'Whoever does righteousness, whether male or female, while being a believer — We will surely cause him to live a good life.'**
-  String get dailyScripture14Text;
-
-  /// No description provided for @dailyScripture14Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 16:97'**
-  String get dailyScripture14Ref;
-
-  /// No description provided for @dailyScripture15Text.
-  ///
-  /// In en, this message translates to:
-  /// **'Indeed, Allah will not change the condition of a people until they change what is in themselves.'**
-  String get dailyScripture15Text;
-
-  /// No description provided for @dailyScripture15Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 13:11'**
-  String get dailyScripture15Ref;
-
-  /// No description provided for @dailyScripture16Text.
-  ///
-  /// In en, this message translates to:
-  /// **'So do not weaken and do not grieve, and you will be superior if you are true believers.'**
-  String get dailyScripture16Text;
-
-  /// No description provided for @dailyScripture16Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 3:139'**
-  String get dailyScripture16Ref;
-
-  /// No description provided for @dailyScripture17Text.
-  ///
-  /// In en, this message translates to:
-  /// **'O My servants who have transgressed against themselves, do not despair of the mercy of Allah. Indeed, Allah forgives all sins.'**
-  String get dailyScripture17Text;
-
-  /// No description provided for @dailyScripture17Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 39:53'**
-  String get dailyScripture17Ref;
-
-  /// No description provided for @dailyScripture18Text.
-  ///
-  /// In en, this message translates to:
-  /// **'And whoever fears Allah — He will make for him a way out, and will provide for him from where he does not expect.'**
-  String get dailyScripture18Text;
-
-  /// No description provided for @dailyScripture18Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 65:2-3'**
-  String get dailyScripture18Ref;
-
-  /// No description provided for @dailyScripture19Text.
-  ///
-  /// In en, this message translates to:
-  /// **'Do not lose hope in the mercy of Allah.'**
-  String get dailyScripture19Text;
-
-  /// No description provided for @dailyScripture19Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 12:87'**
-  String get dailyScripture19Ref;
-
-  /// No description provided for @dailyScripture20Text.
-  ///
-  /// In en, this message translates to:
-  /// **'And We have certainly made the Quran easy to remember. So is there anyone who will be mindful?'**
-  String get dailyScripture20Text;
-
-  /// No description provided for @dailyScripture20Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 54:17'**
-  String get dailyScripture20Ref;
-
-  /// No description provided for @dailyScripture21Text.
-  ///
-  /// In en, this message translates to:
-  /// **'And He found you lost and guided you.'**
-  String get dailyScripture21Text;
-
-  /// No description provided for @dailyScripture21Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 93:7'**
-  String get dailyScripture21Ref;
-
-  /// No description provided for @dailyScripture22Text.
-  ///
-  /// In en, this message translates to:
-  /// **'And your Lord says: Call upon Me; I will respond to you.'**
-  String get dailyScripture22Text;
-
-  /// No description provided for @dailyScripture22Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 40:60'**
-  String get dailyScripture22Ref;
-
-  /// No description provided for @dailyScripture23Text.
-  ///
-  /// In en, this message translates to:
-  /// **'And We have certainly honored the children of Adam.'**
-  String get dailyScripture23Text;
-
-  /// No description provided for @dailyScripture23Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 17:70'**
-  String get dailyScripture23Ref;
-
-  /// No description provided for @dailyScripture24Text.
-  ///
-  /// In en, this message translates to:
-  /// **'And seek help through patience and prayer.'**
-  String get dailyScripture24Text;
-
-  /// No description provided for @dailyScripture24Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 2:45'**
-  String get dailyScripture24Ref;
-
-  /// No description provided for @dailyScripture25Text.
-  ///
-  /// In en, this message translates to:
-  /// **'Whoever does an atom\'s weight of good will see it.'**
-  String get dailyScripture25Text;
-
-  /// No description provided for @dailyScripture25Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 99:7'**
-  String get dailyScripture25Ref;
-
-  /// No description provided for @dailyScripture26Text.
-  ///
-  /// In en, this message translates to:
-  /// **'Unquestionably, the help of Allah is near.'**
-  String get dailyScripture26Text;
-
-  /// No description provided for @dailyScripture26Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 2:214'**
-  String get dailyScripture26Ref;
-
-  /// No description provided for @dailyScripture27Text.
-  ///
-  /// In en, this message translates to:
-  /// **'And whoever is grateful — his gratitude is only for the benefit of himself.'**
-  String get dailyScripture27Text;
-
-  /// No description provided for @dailyScripture27Ref.
-  ///
-  /// In en, this message translates to:
-  /// **'Quran 31:12'**
-  String get dailyScripture27Ref;
-
-  /// No description provided for @dailyReflection0.
-  ///
-  /// In en, this message translates to:
-  /// **'As this day closes, consider one moment where Allah\'s mercy was evident.'**
-  String get dailyReflection0;
-
-  /// No description provided for @dailyReflection1.
-  ///
-  /// In en, this message translates to:
-  /// **'Bring before Allah whatever weighed on your heart today.'**
-  String get dailyReflection1;
-
-  /// No description provided for @dailyReflection2.
-  ///
-  /// In en, this message translates to:
-  /// **'Name one blessing from this day and express gratitude to Allah.'**
-  String get dailyReflection2;
-
-  /// No description provided for @dailyReflection3.
-  ///
-  /// In en, this message translates to:
-  /// **'Rest in the knowledge that you are held in Allah\'s infinite care.'**
-  String get dailyReflection3;
-
-  /// No description provided for @dailyReflection4.
-  ///
-  /// In en, this message translates to:
-  /// **'Reflect on where you felt called to show compassion and kindness today.'**
-  String get dailyReflection4;
-
-  /// No description provided for @dailyReflection5.
-  ///
-  /// In en, this message translates to:
-  /// **'Let go of what you cannot control and trust in Allah\'s perfect plan.'**
-  String get dailyReflection5;
-
-  /// No description provided for @dailyReflection6.
-  ///
-  /// In en, this message translates to:
-  /// **'As the day draws to a close, receive peace in remembrance of Allah.'**
-  String get dailyReflection6;
-
-  /// No description provided for @dailyReflection7.
-  ///
-  /// In en, this message translates to:
-  /// **'Consider how you honored your prayers today, and thank Allah for each one.'**
-  String get dailyReflection7;
-
-  /// No description provided for @dailyReflection8.
-  ///
-  /// In en, this message translates to:
-  /// **'Reflect on a moment where patience (Sabr) guided your actions today.'**
-  String get dailyReflection8;
-
-  /// No description provided for @dailyReflection9.
-  ///
-  /// In en, this message translates to:
-  /// **'Ask forgiveness for any shortcoming today — Allah\'s mercy is boundless.'**
-  String get dailyReflection9;
-
-  /// No description provided for @dailyReflection10.
-  ///
-  /// In en, this message translates to:
-  /// **'Name one person you showed kindness to today and make dua for them.'**
-  String get dailyReflection10;
-
-  /// No description provided for @dailyReflection11.
-  ///
-  /// In en, this message translates to:
-  /// **'Sit with gratitude: what did Allah provide today that you did not ask for?'**
-  String get dailyReflection11;
-
-  /// No description provided for @dailyReflection12.
-  ///
-  /// In en, this message translates to:
-  /// **'Reflect on a verse from the Quran that speaks to where you are right now.'**
-  String get dailyReflection12;
-
-  /// No description provided for @dailyReflection13.
-  ///
-  /// In en, this message translates to:
-  /// **'Consider how you used your time today — and offer tomorrow to Allah.'**
-  String get dailyReflection13;
-
-  /// No description provided for @dailyReflection14.
-  ///
-  /// In en, this message translates to:
-  /// **'Rest knowing that whatever hardship came today, Allah was with you through it.'**
-  String get dailyReflection14;
-
-  /// No description provided for @dailyReflection15.
-  ///
-  /// In en, this message translates to:
-  /// **'Think of one way you served your family or community today for Allah\'s sake.'**
-  String get dailyReflection15;
-
-  /// No description provided for @dailyReflection16.
-  ///
-  /// In en, this message translates to:
-  /// **'As night falls, make Tawbah — Allah loves those who turn back to Him.'**
-  String get dailyReflection16;
-
-  /// No description provided for @dailyReflection17.
-  ///
-  /// In en, this message translates to:
-  /// **'Reflect on the beauty Allah placed in your day, however small.'**
-  String get dailyReflection17;
-
-  /// No description provided for @dailyReflection18.
-  ///
-  /// In en, this message translates to:
-  /// **'Consider what you learned today and how it draws you closer to Allah.'**
-  String get dailyReflection18;
-
-  /// No description provided for @dailyReflection19.
-  ///
-  /// In en, this message translates to:
-  /// **'Let the day\'s worries rest with Allah — He carries what you cannot.'**
-  String get dailyReflection19;
-
-  /// No description provided for @dailyReflection20.
-  ///
-  /// In en, this message translates to:
-  /// **'Think of a moment today where you could have chosen better, and learn from it gently.'**
-  String get dailyReflection20;
-
-  /// No description provided for @dailyReflection21.
-  ///
-  /// In en, this message translates to:
-  /// **'Make dua for those who are struggling — your prayer is a gift to them.'**
-  String get dailyReflection21;
-
-  /// No description provided for @dailyReflection22.
-  ///
-  /// In en, this message translates to:
-  /// **'Recall a blessing you often overlook and take a moment to thank Allah for it.'**
-  String get dailyReflection22;
-
-  /// No description provided for @dailyReflection23.
-  ///
-  /// In en, this message translates to:
-  /// **'Reflect on your intentions today — were they for Allah? Tomorrow, begin again.'**
-  String get dailyReflection23;
-
-  /// No description provided for @dailyReflection24.
-  ///
-  /// In en, this message translates to:
-  /// **'As the night quiets, listen for Allah\'s nearness in the stillness.'**
-  String get dailyReflection24;
-
-  /// No description provided for @dailyReflection25.
-  ///
-  /// In en, this message translates to:
-  /// **'Consider where you found strength today — that strength is from Allah.'**
-  String get dailyReflection25;
-
-  /// No description provided for @dailyReflection26.
-  ///
-  /// In en, this message translates to:
-  /// **'Name one thing you will do tomorrow, for Allah\'s sake, that you did not do today.'**
-  String get dailyReflection26;
-
-  /// No description provided for @dailyReflection27.
-  ///
-  /// In en, this message translates to:
-  /// **'As you prepare for rest, entrust your soul to Allah — He is the best of guardians.'**
-  String get dailyReflection27;
-
-  /// No description provided for @dailyRoleModel0.
-  ///
-  /// In en, this message translates to:
-  /// **'Prophet Muhammad ﷺ — Seal of the Prophets, whose household (Ahl al-Bayt) are a light and mercy for all of creation'**
-  String get dailyRoleModel0;
-
-  /// No description provided for @dailyRoleModel1.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali ibn Abi Talib (AS) — First Imam, Commander of the Faithful, gate of the city of the Prophet\'s knowledge, author of Nahj al-Balagha'**
-  String get dailyRoleModel1;
-
-  /// No description provided for @dailyRoleModel2.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Hasan ibn Ali (AS) — Second Imam, grandson of the Prophet ﷺ, leader of the youth of Paradise'**
-  String get dailyRoleModel2;
-
-  /// No description provided for @dailyRoleModel3.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Hussain ibn Ali (AS) — Third Imam, Master of Martyrs, whose stand at Karbala is the eternal emblem of justice over oppression'**
-  String get dailyRoleModel3;
-
-  /// No description provided for @dailyRoleModel4.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali ibn Hussain Zayn al-Abidin (AS) — Fourth Imam, the Adornment of the Worshippers, author of al-Sahifa al-Sajjadiyya'**
-  String get dailyRoleModel4;
-
-  /// No description provided for @dailyRoleModel5.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Muhammad al-Baqir (AS) — Fifth Imam, Splitter of Knowledge, who opened the doors of Shia jurisprudence and theology'**
-  String get dailyRoleModel5;
-
-  /// No description provided for @dailyRoleModel6.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ja\'far al-Sadiq (AS) — Sixth Imam, the great teacher of the Ahl al-Bayt school, whose students shaped Islamic science and law'**
-  String get dailyRoleModel6;
-
-  /// No description provided for @dailyRoleModel7.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Musa al-Kadhim (AS) — Seventh Imam, the Patient One, who endured long imprisonment with unwavering faith'**
-  String get dailyRoleModel7;
-
-  /// No description provided for @dailyRoleModel8.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali al-Ridha (AS) — Eighth Imam, the Scholar of the Ahl al-Bayt, whose shrine in Mashhad is a place of pilgrimage and blessing'**
-  String get dailyRoleModel8;
-
-  /// No description provided for @dailyRoleModel9.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Muhammad al-Jawad (AS) — Ninth Imam, the Generous One, who demonstrated divine wisdom from the youngest age'**
-  String get dailyRoleModel9;
-
-  /// No description provided for @dailyRoleModel10.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali al-Hadi (AS) — Tenth Imam, who preserved the faith of his community under severe Abbasid pressure'**
-  String get dailyRoleModel10;
-
-  /// No description provided for @dailyRoleModel11.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Hasan al-Askari (AS) — Eleventh Imam, who guided the community from Samarra and prepared the way for the occultation'**
-  String get dailyRoleModel11;
-
-  /// No description provided for @dailyRoleModel12.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Muhammad al-Mahdi (AJ) — Twelfth Imam, the Awaited Saviour, the Living Proof of Allah on earth, may Allah hasten his reappearance'**
-  String get dailyRoleModel12;
-
-  /// No description provided for @dailyRoleModel13.
-  ///
-  /// In en, this message translates to:
-  /// **'Lady Khadijah bint Khuwaylid (SA) — first wife of the Prophet ﷺ, first believer, who supported the mission of Islam with her wealth and her soul'**
-  String get dailyRoleModel13;
-
-  /// No description provided for @dailyRoleModel14.
-  ///
-  /// In en, this message translates to:
-  /// **'Lady Fatimah az-Zahra (SA) — daughter of the Prophet ﷺ, wife of Imam Ali (AS), mother of the Imams, the Lady of Light, the best of women of all the worlds'**
-  String get dailyRoleModel14;
-
-  /// No description provided for @dailyRoleModel15.
-  ///
-  /// In en, this message translates to:
-  /// **'Lady Zainab bint Ali (SA) — granddaughter of the Prophet ﷺ, hero of Karbala, who carried the message of Imam Hussain (AS) to the world after his martyrdom'**
-  String get dailyRoleModel15;
-
-  /// No description provided for @dailyRoleModel16.
-  ///
-  /// In en, this message translates to:
-  /// **'Lady Maryam (AS) — mother of Prophet Isa (AS), chosen and purified above all women, a model of devotion and purity in the Quran'**
-  String get dailyRoleModel16;
-
-  /// No description provided for @dailyRoleModel17.
-  ///
-  /// In en, this message translates to:
-  /// **'Lady Asiya (AS) — wife of Pharaoh, who chose faith over the throne of the world, praised in the Quran as a model for all believers'**
-  String get dailyRoleModel17;
-
-  /// No description provided for @dailyRoleModel18.
-  ///
-  /// In en, this message translates to:
-  /// **'Lady Ruqayyah bint Hussain (AS) — young daughter of Imam Hussain (AS), who endured the tragedy of Karbala as a child and is beloved by the faithful'**
-  String get dailyRoleModel18;
-
-  /// No description provided for @dailyRoleModel19.
-  ///
-  /// In en, this message translates to:
-  /// **'Salman al-Farisi (RA) — beloved companion of the Prophet ﷺ, the first Persian Muslim, deeply close to the Ahl al-Bayt, of whom the Prophet said: Salman is from us, the Ahl al-Bayt'**
-  String get dailyRoleModel19;
-
-  /// No description provided for @dailyRoleModel20.
-  ///
-  /// In en, this message translates to:
-  /// **'Abu Dharr al-Ghifari (RA) — companion of the Prophet ﷺ who stood firmly with Imam Ali (AS), champion of the poor and oppressed, model of uncompromising truthfulness'**
-  String get dailyRoleModel20;
-
-  /// No description provided for @dailyRoleModel21.
-  ///
-  /// In en, this message translates to:
-  /// **'Ammar ibn Yasir (RA) — companion of the Prophet ﷺ, son of the first martyrs of Islam, who fought and was martyred alongside Imam Ali (AS) at the Battle of Siffin'**
-  String get dailyRoleModel21;
-
-  /// No description provided for @dailyRoleModel22.
-  ///
-  /// In en, this message translates to:
-  /// **'Maytham al-Tammar (RA) — loyal companion of Imam Ali (AS), who endured martyrdom rather than renounce his love for the Ahl al-Bayt'**
-  String get dailyRoleModel22;
-
-  /// No description provided for @dailyRoleModel23.
-  ///
-  /// In en, this message translates to:
-  /// **'Hujr ibn Adi al-Kindi (RA) — devoted companion of Imam Ali (AS), martyred by Muawiyah for refusing to curse the Commander of the Faithful'**
-  String get dailyRoleModel23;
-
-  /// No description provided for @dailyRoleModel24.
-  ///
-  /// In en, this message translates to:
-  /// **'Mukhtar al-Thaqafi (RA) — who rose to avenge the martyrs of Karbala and brought justice to the killers of Imam Hussain (AS)'**
-  String get dailyRoleModel24;
-
-  /// No description provided for @dailyRoleModel25.
-  ///
-  /// In en, this message translates to:
-  /// **'Abbas ibn Ali (AS) — standard-bearer at Karbala, brother and loyal protector of Imam Hussain (AS), whose devotion is a model of selfless love'**
-  String get dailyRoleModel25;
-
-  /// No description provided for @dailyRoleModel26.
-  ///
-  /// In en, this message translates to:
-  /// **'Ali al-Akbar ibn Hussain (AS) — firstborn son of Imam Hussain (AS), who resembled the Prophet ﷺ most closely and was martyred at Karbala in the prime of youth'**
-  String get dailyRoleModel26;
-
-  /// No description provided for @dailyRoleModel27.
-  ///
-  /// In en, this message translates to:
-  /// **'Ali al-Asghar (AS) — the infant son of Imam Hussain (AS), the youngest martyr of Karbala, whose innocent blood cries out against injustice'**
-  String get dailyRoleModel27;
-
-  /// No description provided for @dailyRoleModel28.
-  ///
-  /// In en, this message translates to:
-  /// **'Hurr ibn Yazid al-Riyahi (RA) — the commander who blocked Imam Hussain (AS) yet repented on the morning of Ashura and died defending the Imam, a model of true Tawbah'**
-  String get dailyRoleModel28;
-
-  /// No description provided for @dailyRoleModel29.
-  ///
-  /// In en, this message translates to:
-  /// **'Bilal ibn Rabah (RA) — the first muezzin of Islam, a freed slave whose faith overcame all oppression, beloved by the Prophet ﷺ and the Ahl al-Bayt'**
-  String get dailyRoleModel29;
-
-  /// No description provided for @dailyRoleModel30.
-  ///
-  /// In en, this message translates to:
-  /// **'Sumayya bint Khabbab (RA) — first martyr of Islam, mother of Ammar ibn Yasir, who gave her life for the truth of La ilaha illallah'**
-  String get dailyRoleModel30;
-
-  /// No description provided for @dailyRoleModel31.
-  ///
-  /// In en, this message translates to:
-  /// **'Jafar ibn Abi Talib (RA) — cousin of the Prophet ﷺ and brother of Imam Ali (AS), Dhul-Janahayn, who was martyred at the Battle of Mu\'tah'**
-  String get dailyRoleModel31;
-
-  /// No description provided for @dailyRoleModel32.
-  ///
-  /// In en, this message translates to:
-  /// **'Zayd ibn Ali ibn Hussain (RA) — grandson of Imam Hussain (AS) and great scholar who rose against Umayyad tyranny and was martyred, revered by Shia Muslims'**
-  String get dailyRoleModel32;
-
-  /// No description provided for @dailyRoleModel33.
-  ///
-  /// In en, this message translates to:
-  /// **'Prophet Ibrahim (AS) — Friend of Allah, father of the Prophets, who smashed idols and submitted to Allah even when commanded to sacrifice his son'**
-  String get dailyRoleModel33;
-
-  /// No description provided for @dailyRoleModel34.
-  ///
-  /// In en, this message translates to:
-  /// **'Prophet Musa (AS) — Kalimullah, who led his people from Pharaoh\'s oppression to freedom through steadfast faith and divine guidance'**
-  String get dailyRoleModel34;
-
-  /// No description provided for @dailyRoleModel35.
-  ///
-  /// In en, this message translates to:
-  /// **'Prophet Isa (AS) — Spirit of Allah, born of Lady Maryam (AS), who healed the sick and raised the dead by Allah\'s permission'**
-  String get dailyRoleModel35;
-
-  /// No description provided for @dailyRoleModel36.
-  ///
-  /// In en, this message translates to:
-  /// **'Prophet Yusuf (AS) — whose patience through betrayal, slavery, and imprisonment is one of the most beautiful stories in the Quran'**
-  String get dailyRoleModel36;
-
-  /// No description provided for @dailyRoleModel37.
-  ///
-  /// In en, this message translates to:
-  /// **'Prophet Dawud (AS) — given the Zabur, who combined the roles of prophet and just ruler, and whose Psalms of praise echo through creation'**
-  String get dailyRoleModel37;
-
-  /// No description provided for @dailyRoleModel38.
-  ///
-  /// In en, this message translates to:
-  /// **'Prophet Sulayman (AS) — who was granted dominion over wind, jinn, and creation, yet remained humble and grateful before Allah'**
-  String get dailyRoleModel38;
-
-  /// No description provided for @dailyRoleModel39.
-  ///
-  /// In en, this message translates to:
-  /// **'Prophet Nuh (AS) — who called his people to Allah for 950 years with patience and perseverance in the face of total rejection'**
-  String get dailyRoleModel39;
-
-  /// No description provided for @dailyRoleModel40.
-  ///
-  /// In en, this message translates to:
-  /// **'Prophet Yunus (AS) — who turned to Allah in the depths of darkness with the words: There is no god but You, glory be to You; I was indeed of the wrongdoers'**
-  String get dailyRoleModel40;
-
-  /// No description provided for @dailyRoleModel41.
-  ///
-  /// In en, this message translates to:
-  /// **'Prophet Ayub (AS) — the supreme model of Sabr, who endured immense suffering without complaint and was restored by Allah\'s boundless mercy'**
-  String get dailyRoleModel41;
-
-  /// No description provided for @dailyRoleModel42.
-  ///
-  /// In en, this message translates to:
-  /// **'Shaykh al-Mufid (RA) — the great Shia theologian of Baghdad, who systematised Imami theology and defended Shia doctrine with brilliant scholarship'**
-  String get dailyRoleModel42;
-
-  /// No description provided for @dailyRoleModel43.
-  ///
-  /// In en, this message translates to:
-  /// **'Allamah al-Hilli (RA) — the foremost Shia jurist and theologian of his age, who strengthened Shia jurisprudence and engaged the great intellectual debates of his time'**
-  String get dailyRoleModel43;
-
-  /// No description provided for @dailyRoleModel44.
-  ///
-  /// In en, this message translates to:
-  /// **'Sheikh al-Tusi (RA) — Shaykh al-Ta\'ifa, the foundational Shia scholar whose works in fiqh, hadith, and theology remain authoritative to this day'**
-  String get dailyRoleModel44;
-
-  /// No description provided for @dailyRoleModel45.
-  ///
-  /// In en, this message translates to:
-  /// **'Shahid al-Awwal — Muhammad ibn Makki al-Amili (RA), the First Martyr of Shia jurisprudence, whose al-Lum\'ah al-Dimashqiyyah remains a cornerstone of Shia fiqh'**
-  String get dailyRoleModel45;
-
-  /// No description provided for @dailyRoleModel46.
-  ///
-  /// In en, this message translates to:
-  /// **'Allamah Tabataba\'i (RA) — the great 20th century Shia philosopher and author of al-Mizan, the monumental Quranic exegesis of the modern era'**
-  String get dailyRoleModel46;
-
-  /// No description provided for @dailyRoleModel47.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Khomeini (RA) — reviver of Shia political thought in the modern age, who led the Islamic Revolution and championed the authority of the Quran and the Ahl al-Bayt'**
-  String get dailyRoleModel47;
-
-  /// No description provided for @dailyRoleModel48.
-  ///
-  /// In en, this message translates to:
-  /// **'Shahid Mutahhari (RA) — 20th century Shia scholar and martyr, whose writings on Islamic philosophy, ethics, and society continue to guide millions'**
-  String get dailyRoleModel48;
-
-  /// No description provided for @dailyRoleModel49.
-  ///
-  /// In en, this message translates to:
-  /// **'Sayyid Muhammad Baqir al-Sadr (RA) — visionary Shia scholar and martyr, whose works in Islamic economics and philosophy broke new intellectual ground'**
-  String get dailyRoleModel49;
-
-  /// No description provided for @dailyRoleModel50.
-  ///
-  /// In en, this message translates to:
-  /// **'Umm Salamah (RA) — noble wife of the Prophet ﷺ, deeply devoted to the Ahl al-Bayt, who narrated many hadith and was a pillar of wisdom in the early community'**
-  String get dailyRoleModel50;
-
-  /// No description provided for @dailyRoleModel51.
-  ///
-  /// In en, this message translates to:
-  /// **'Abdullah ibn Abbas (RA) — cousin of the Prophet ﷺ, ocean of knowledge in Quranic exegesis, who remained close to Imam Ali (AS)'**
-  String get dailyRoleModel51;
-
-  /// No description provided for @dailyRoleModel52.
-  ///
-  /// In en, this message translates to:
-  /// **'Muadh ibn Jabal (RA) — companion of the Prophet ﷺ renowned for his knowledge of halal and haram, and his deep devotion to learning'**
-  String get dailyRoleModel52;
-
-  /// No description provided for @dailyRoleModel53.
-  ///
-  /// In en, this message translates to:
-  /// **'Musab ibn Umayr (RA) — the first ambassador of Islam, who sacrificed wealth and family for the truth of the faith'**
-  String get dailyRoleModel53;
-
-  /// No description provided for @dailyRoleModel54.
-  ///
-  /// In en, this message translates to:
-  /// **'Umar ibn Abd al-Aziz (RH) — Umayyad caliph who sought to restore justice, lifted the cursing of Imam Ali (AS) from the pulpits, and is remembered for his piety'**
-  String get dailyRoleModel54;
-
-  /// No description provided for @dailyRoleModel55.
-  ///
-  /// In en, this message translates to:
-  /// **'Fakhr al-Din al-Razi (RH) — great Islamic scholar and Quranic exegete whose Mafatih al-Ghayb engaged deeply with theology and philosophy'**
-  String get dailyRoleModel55;
-
-  /// No description provided for @dailyRoleModel56.
-  ///
-  /// In en, this message translates to:
-  /// **'Ibn Sina — Abu Ali al-Husayn ibn Sina (RH), the great Islamic philosopher and physician of Persian heritage whose Canon of Medicine shaped world science'**
-  String get dailyRoleModel56;
-
-  /// No description provided for @dailyRoleModel57.
-  ///
-  /// In en, this message translates to:
-  /// **'Al-Biruni (RH) — the brilliant polymath of the Islamic Golden Age, a Persian scholar who advanced mathematics, astronomy, and the study of cultures'**
-  String get dailyRoleModel57;
-
-  /// No description provided for @dailyRoleModel58.
-  ///
-  /// In en, this message translates to:
-  /// **'Ibn Khaldun (RH) — the great North African Islamic historian and social thinker, founder of the philosophy of history and sociology'**
-  String get dailyRoleModel58;
-
-  /// No description provided for @dailyRoleModel59.
-  ///
-  /// In en, this message translates to:
-  /// **'Lady Nafisa bint al-Hasan (SA) — great-granddaughter of Imam Hasan (AS), renowned for her knowledge, piety, and intercession, deeply revered in the Shia tradition'**
-  String get dailyRoleModel59;
-
   /// No description provided for @locationConsentLabel.
   ///
   /// In en, this message translates to:
@@ -2413,7 +1459,7 @@ abstract class AppLocalizations {
   /// No description provided for @guidancePageTitle.
   ///
   /// In en, this message translates to:
-  /// **'Prayer & Guidance'**
+  /// **'Qibla'**
   String get guidancePageTitle;
 
   /// No description provided for @qiblaFacingMecca.
@@ -2572,6 +1618,42 @@ abstract class AppLocalizations {
   /// **'Share prayer times'**
   String get sharePrayerTimes;
 
+  /// No description provided for @notificationsSectionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications'**
+  String get notificationsSectionTitle;
+
+  /// No description provided for @notificationsSectionSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Prayer reminders, calendar events & more'**
+  String get notificationsSectionSubtitle;
+
+  /// No description provided for @dailyReflectionReminderTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily Reflection'**
+  String get dailyReflectionReminderTitle;
+
+  /// No description provided for @dailyReflectionReminderDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'A gentle daily reminder to open Ayara and connect with your faith.'**
+  String get dailyReflectionReminderDescription;
+
+  /// No description provided for @dailyReflectionReminderEnable.
+  ///
+  /// In en, this message translates to:
+  /// **'Enable daily reminder'**
+  String get dailyReflectionReminderEnable;
+
+  /// No description provided for @dailyReflectionReminderTimeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Reminder time'**
+  String get dailyReflectionReminderTimeLabel;
+
   /// No description provided for @prayerNotificationsTitle.
   ///
   /// In en, this message translates to:
@@ -2713,7 +1795,7 @@ abstract class AppLocalizations {
   /// No description provided for @dhikrCompleteMessage.
   ///
   /// In en, this message translates to:
-  /// **'You have completed 99 remembrances of Allah. May they be a light for your heart.'**
+  /// **'You have completed 100 remembrances of Allah. May they be a light for your heart.'**
   String get dhikrCompleteMessage;
 
   /// No description provided for @disclaimerTitle.
@@ -2815,7 +1897,7 @@ abstract class AppLocalizations {
   /// No description provided for @quickActionDailyGrace.
   ///
   /// In en, this message translates to:
-  /// **'Daily Grace'**
+  /// **'Guidance'**
   String get quickActionDailyGrace;
 
   /// No description provided for @quickActionPrayerTimes.
@@ -2854,378 +1936,6 @@ abstract class AppLocalizations {
   /// **'Wisdom of the Day'**
   String get wisdomOfTheDayTitle;
 
-  /// No description provided for @wisdomQuote0.
-  ///
-  /// In en, this message translates to:
-  /// **'The best of people is the one most beneficial to others.'**
-  String get wisdomQuote0;
-
-  /// No description provided for @wisdomQuoteSource0.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali (AS)'**
-  String get wisdomQuoteSource0;
-
-  /// No description provided for @wisdomQuote1.
-  ///
-  /// In en, this message translates to:
-  /// **'Silence is the garden of contemplation.'**
-  String get wisdomQuote1;
-
-  /// No description provided for @wisdomQuoteSource1.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali (AS)'**
-  String get wisdomQuoteSource1;
-
-  /// No description provided for @wisdomQuote2.
-  ///
-  /// In en, this message translates to:
-  /// **'Do not be a slave to others when Allah has created you free.'**
-  String get wisdomQuote2;
-
-  /// No description provided for @wisdomQuoteSource2.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali (AS)'**
-  String get wisdomQuoteSource2;
-
-  /// No description provided for @wisdomQuote3.
-  ///
-  /// In en, this message translates to:
-  /// **'Whoever knows himself, knows his Lord.'**
-  String get wisdomQuote3;
-
-  /// No description provided for @wisdomQuoteSource3.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali (AS)'**
-  String get wisdomQuoteSource3;
-
-  /// No description provided for @wisdomQuote4.
-  ///
-  /// In en, this message translates to:
-  /// **'If eyes were to weep for something that deserves weeping, they should weep for the death of the heart.'**
-  String get wisdomQuote4;
-
-  /// No description provided for @wisdomQuoteSource4.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali (AS)'**
-  String get wisdomQuoteSource4;
-
-  /// No description provided for @wisdomQuote5.
-  ///
-  /// In en, this message translates to:
-  /// **'Be patient, for patience is to faith as the head is to the body.'**
-  String get wisdomQuote5;
-
-  /// No description provided for @wisdomQuoteSource5.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali (AS)'**
-  String get wisdomQuoteSource5;
-
-  /// No description provided for @wisdomQuote6.
-  ///
-  /// In en, this message translates to:
-  /// **'Teach your tongue to say \"I do not know,\" lest you say what you do not know.'**
-  String get wisdomQuote6;
-
-  /// No description provided for @wisdomQuoteSource6.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali (AS)'**
-  String get wisdomQuoteSource6;
-
-  /// No description provided for @wisdomQuote7.
-  ///
-  /// In en, this message translates to:
-  /// **'The tongue of the wise man lies behind his heart.'**
-  String get wisdomQuote7;
-
-  /// No description provided for @wisdomQuoteSource7.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali (AS)'**
-  String get wisdomQuoteSource7;
-
-  /// No description provided for @wisdomQuote8.
-  ///
-  /// In en, this message translates to:
-  /// **'Generosity is that which comes from oneself without request.'**
-  String get wisdomQuote8;
-
-  /// No description provided for @wisdomQuoteSource8.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Husayn (AS)'**
-  String get wisdomQuoteSource8;
-
-  /// No description provided for @wisdomQuote9.
-  ///
-  /// In en, this message translates to:
-  /// **'If you do not believe in religion and do not fear the Day of Judgment, then at least be free in your world.'**
-  String get wisdomQuote9;
-
-  /// No description provided for @wisdomQuoteSource9.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Husayn (AS)'**
-  String get wisdomQuoteSource9;
-
-  /// No description provided for @wisdomQuote10.
-  ///
-  /// In en, this message translates to:
-  /// **'Death is nothing but a bridge which you cross from misery to joy.'**
-  String get wisdomQuote10;
-
-  /// No description provided for @wisdomQuoteSource10.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Husayn (AS)'**
-  String get wisdomQuoteSource10;
-
-  /// No description provided for @wisdomQuote11.
-  ///
-  /// In en, this message translates to:
-  /// **'People are slaves to this world; religion is only on their tongues. They circle it as long as it sustains them, but when trials come, the truly religious are few.'**
-  String get wisdomQuote11;
-
-  /// No description provided for @wisdomQuoteSource11.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Husayn (AS)'**
-  String get wisdomQuoteSource11;
-
-  /// No description provided for @wisdomQuote12.
-  ///
-  /// In en, this message translates to:
-  /// **'The most generous person is the one who gives to those who have no hope in him.'**
-  String get wisdomQuote12;
-
-  /// No description provided for @wisdomQuoteSource12.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Husayn (AS)'**
-  String get wisdomQuoteSource12;
-
-  /// No description provided for @wisdomQuote13.
-  ///
-  /// In en, this message translates to:
-  /// **'Supplicate Allah but know that Allah does not respond to a heart that is heedless and inattentive.'**
-  String get wisdomQuote13;
-
-  /// No description provided for @wisdomQuoteSource13.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam al-Sadiq (AS)'**
-  String get wisdomQuoteSource13;
-
-  /// No description provided for @wisdomQuote14.
-  ///
-  /// In en, this message translates to:
-  /// **'Be careful to have truthful friends and try to obtain them, for they are your support in ease and your defense in hardship.'**
-  String get wisdomQuote14;
-
-  /// No description provided for @wisdomQuoteSource14.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam al-Sadiq (AS)'**
-  String get wisdomQuoteSource14;
-
-  /// No description provided for @wisdomQuote15.
-  ///
-  /// In en, this message translates to:
-  /// **'The most complete of you in intellect is the best of you in character.'**
-  String get wisdomQuote15;
-
-  /// No description provided for @wisdomQuoteSource15.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam al-Sadiq (AS)'**
-  String get wisdomQuoteSource15;
-
-  /// No description provided for @wisdomQuote16.
-  ///
-  /// In en, this message translates to:
-  /// **'Whoever is content with what Allah has apportioned him is the richest of people.'**
-  String get wisdomQuote16;
-
-  /// No description provided for @wisdomQuoteSource16.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam al-Sadiq (AS)'**
-  String get wisdomQuoteSource16;
-
-  /// No description provided for @wisdomQuote17.
-  ///
-  /// In en, this message translates to:
-  /// **'Sit with the wise, even if that means sitting in silence.'**
-  String get wisdomQuote17;
-
-  /// No description provided for @wisdomQuoteSource17.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam al-Sadiq (AS)'**
-  String get wisdomQuoteSource17;
-
-  /// No description provided for @wisdomQuote18.
-  ///
-  /// In en, this message translates to:
-  /// **'One who has three qualities will not regret: avoiding haste, consulting others, and trusting Allah.'**
-  String get wisdomQuote18;
-
-  /// No description provided for @wisdomQuoteSource18.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam al-Baqir (AS)'**
-  String get wisdomQuoteSource18;
-
-  /// No description provided for @wisdomQuote19.
-  ///
-  /// In en, this message translates to:
-  /// **'No one can truly worship Allah without knowing Him.'**
-  String get wisdomQuote19;
-
-  /// No description provided for @wisdomQuoteSource19.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam al-Baqir (AS)'**
-  String get wisdomQuoteSource19;
-
-  /// No description provided for @wisdomQuote20.
-  ///
-  /// In en, this message translates to:
-  /// **'Beware of laziness and boredom, for they are the keys to every evil.'**
-  String get wisdomQuote20;
-
-  /// No description provided for @wisdomQuoteSource20.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam al-Ridha (AS)'**
-  String get wisdomQuoteSource20;
-
-  /// No description provided for @wisdomQuote21.
-  ///
-  /// In en, this message translates to:
-  /// **'Faith is acknowledgment with the heart, confession with the tongue, and action with the limbs.'**
-  String get wisdomQuote21;
-
-  /// No description provided for @wisdomQuoteSource21.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam al-Ridha (AS)'**
-  String get wisdomQuoteSource21;
-
-  /// No description provided for @wisdomQuote22.
-  ///
-  /// In en, this message translates to:
-  /// **'Friendship is not sincere unless it passes through three stages: if you did not achieve it from him in hardship, do not count it in ease.'**
-  String get wisdomQuote22;
-
-  /// No description provided for @wisdomQuoteSource22.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam al-Kadhim (AS)'**
-  String get wisdomQuoteSource22;
-
-  /// No description provided for @wisdomQuote23.
-  ///
-  /// In en, this message translates to:
-  /// **'The likeness of this world is like a serpent — soft to the touch but with deadly venom inside.'**
-  String get wisdomQuote23;
-
-  /// No description provided for @wisdomQuoteSource23.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali (AS)'**
-  String get wisdomQuoteSource23;
-
-  /// No description provided for @wisdomQuote24.
-  ///
-  /// In en, this message translates to:
-  /// **'How many a lesson there is, yet how few who learn.'**
-  String get wisdomQuote24;
-
-  /// No description provided for @wisdomQuoteSource24.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali (AS)'**
-  String get wisdomQuoteSource24;
-
-  /// No description provided for @wisdomQuote25.
-  ///
-  /// In en, this message translates to:
-  /// **'Take from this world what comes to you and turn away from what turns away from you.'**
-  String get wisdomQuote25;
-
-  /// No description provided for @wisdomQuoteSource25.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Sajjad (AS)'**
-  String get wisdomQuoteSource25;
-
-  /// No description provided for @wisdomQuote26.
-  ///
-  /// In en, this message translates to:
-  /// **'Rights are the most binding of all things, and whoever fulfils them most with people is most trustworthy before Allah.'**
-  String get wisdomQuote26;
-
-  /// No description provided for @wisdomQuoteSource26.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Sajjad (AS)'**
-  String get wisdomQuoteSource26;
-
-  /// No description provided for @wisdomQuote27.
-  ///
-  /// In en, this message translates to:
-  /// **'He who does not have wisdom does not have religion, and he who does not have generosity does not have manners.'**
-  String get wisdomQuote27;
-
-  /// No description provided for @wisdomQuoteSource27.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Hasan (AS)'**
-  String get wisdomQuoteSource27;
-
-  /// No description provided for @wisdomQuote28.
-  ///
-  /// In en, this message translates to:
-  /// **'Do not make an enemy of someone until you know what is between him and Allah.'**
-  String get wisdomQuote28;
-
-  /// No description provided for @wisdomQuoteSource28.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali al-Hadi (AS)'**
-  String get wisdomQuoteSource28;
-
-  /// No description provided for @wisdomQuote29.
-  ///
-  /// In en, this message translates to:
-  /// **'The world is a market in which some profit and others lose.'**
-  String get wisdomQuote29;
-
-  /// No description provided for @wisdomQuoteSource29.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali (AS)'**
-  String get wisdomQuoteSource29;
-
-  /// No description provided for @wisdomQuote30.
-  ///
-  /// In en, this message translates to:
-  /// **'O son of Adam, if you collect more than what you need, you are only keeping it for others.'**
-  String get wisdomQuote30;
-
-  /// No description provided for @wisdomQuoteSource30.
-  ///
-  /// In en, this message translates to:
-  /// **'Imam Ali (AS)'**
-  String get wisdomQuoteSource30;
-
   /// No description provided for @calendarScreenTitle.
   ///
   /// In en, this message translates to:
@@ -3261,6 +1971,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No upcoming events found.'**
   String get calendarNoEvents;
+
+  /// No description provided for @calendarAddToPhone.
+  ///
+  /// In en, this message translates to:
+  /// **'Add to Phone Calendar'**
+  String get calendarAddToPhone;
+
+  /// No description provided for @calendarAddedToPhone.
+  ///
+  /// In en, this message translates to:
+  /// **'Added to Calendar'**
+  String get calendarAddedToPhone;
 
   /// No description provided for @calendarCountdownToday.
   ///
@@ -3651,6 +2373,690 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Tap anywhere to count'**
   String get tasbihTapHint;
+
+  /// No description provided for @tasbihatScreenTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Prayer Guide'**
+  String get tasbihatScreenTitle;
+
+  /// No description provided for @tasbihatScreenSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'THE PRAYER GLORIFICATIONS'**
+  String get tasbihatScreenSubtitle;
+
+  /// No description provided for @tasbihatScreenDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'A complete guide to the glorifications recited during and after the daily prayers — following the tradition of the Ahl al-Bayt (a).'**
+  String get tasbihatScreenDescription;
+
+  /// No description provided for @tasbihatArba3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'TASBIḤĀT AL-ARBAʿA'**
+  String get tasbihatArba3Title;
+
+  /// No description provided for @tasbihatArba3Subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Recited during the 3rd & 4th rakʿah'**
+  String get tasbihatArba3Subtitle;
+
+  /// No description provided for @tasbihatArba3Info.
+  ///
+  /// In en, this message translates to:
+  /// **'In Shia jurisprudence, the Tasbiḥāt al-Arbaʿa replaces Surah al-Fatiha in the 3rd and 4th rakʿah of Dhuhr, Asr, Maghrib, and Isha. It is obligatory (wājib) to recite it once, and recommended (mustaḥabb) to recite it three times.'**
+  String get tasbihatArba3Info;
+
+  /// No description provided for @tasbihatArba3Translation.
+  ///
+  /// In en, this message translates to:
+  /// **'Glory be to Allah · All praise is for Allah\nThere is no god but Allah · Allah is the Greatest'**
+  String get tasbihatArba3Translation;
+
+  /// No description provided for @tasbihatArba3CompleteTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Recitation Complete'**
+  String get tasbihatArba3CompleteTitle;
+
+  /// No description provided for @tasbihatArba3CompleteMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'May your prayer be accepted — Āmīn'**
+  String get tasbihatArba3CompleteMessage;
+
+  /// No description provided for @tasbihatArba3TapHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap after each recitation'**
+  String get tasbihatArba3TapHint;
+
+  /// No description provided for @tasbihatZahraSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'After every prayer · 100 beads'**
+  String get tasbihatZahraSubtitle;
+
+  /// No description provided for @tasbihatZahraOriginLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Origin'**
+  String get tasbihatZahraOriginLabel;
+
+  /// No description provided for @tasbihatZahraHadith.
+  ///
+  /// In en, this message translates to:
+  /// **'Lady Fatima al-Zahra (sa) asked the Prophet ﷺ for a servant. He said: \"Shall I not guide you to something better? Recite Subḥānallāh 33 times, Alḥamdulillāh 33 times, and Allāhu Akbar 34 times after every prayer. That is better for you than a servant.\"'**
+  String get tasbihatZahraHadith;
+
+  /// No description provided for @tasbihatZahraHadithSource.
+  ///
+  /// In en, this message translates to:
+  /// **'— Bihar al-Anwār, Vol. 85'**
+  String get tasbihatZahraHadithSource;
+
+  /// No description provided for @tasbihatZahraOpenCounter.
+  ///
+  /// In en, this message translates to:
+  /// **'Open Tasbīḥ Counter'**
+  String get tasbihatZahraOpenCounter;
+
+  /// No description provided for @tasbihatDuasTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'RECOMMENDED DUĀS'**
+  String get tasbihatDuasTitle;
+
+  /// No description provided for @tasbihatDuasSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'After completing your prayer'**
+  String get tasbihatDuasSubtitle;
+
+  /// No description provided for @tasbihatDuaAyatKursiTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Āyat al-Kursī'**
+  String get tasbihatDuaAyatKursiTitle;
+
+  /// No description provided for @tasbihatDuaAyatKursiWhen.
+  ///
+  /// In en, this message translates to:
+  /// **'After every obligatory prayer'**
+  String get tasbihatDuaAyatKursiWhen;
+
+  /// No description provided for @tasbihatDuaAyatKursiSource.
+  ///
+  /// In en, this message translates to:
+  /// **'Surah al-Baqarah 2:255'**
+  String get tasbihatDuaAyatKursiSource;
+
+  /// No description provided for @tasbihatDuaAyatKursiNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Whoever recites Āyat al-Kursī after every obligatory prayer, nothing stands between him and paradise except death. Imam al-Bāqir (a) said it is among the greatest verses in the Quran.'**
+  String get tasbihatDuaAyatKursiNote;
+
+  /// No description provided for @tasbihatDuaSalawatTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Ṣalawāt'**
+  String get tasbihatDuaSalawatTitle;
+
+  /// No description provided for @tasbihatDuaSalawatWhen.
+  ///
+  /// In en, this message translates to:
+  /// **'After every prayer · seals all supplications'**
+  String get tasbihatDuaSalawatWhen;
+
+  /// No description provided for @tasbihatDuaSalawatSource.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Ṣādiq (a) — Al-Kāfī'**
+  String get tasbihatDuaSalawatSource;
+
+  /// No description provided for @tasbihatDuaSalawatNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Sending salutations upon the Prophet ﷺ and his purified family (Āl Muḥammad) is recommended to seal every dua. Imam al-Ṣādiq (a) said: \"Any dua is suspended until you send ṣalawāt upon Muḥammad and his family.\"'**
+  String get tasbihatDuaSalawatNote;
+
+  /// No description provided for @tasbihatDuaFarajTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Duʿā al-Faraj'**
+  String get tasbihatDuaFarajTitle;
+
+  /// No description provided for @tasbihatDuaFarajWhen.
+  ///
+  /// In en, this message translates to:
+  /// **'After every prayer · for the Imam of our time'**
+  String get tasbihatDuaFarajWhen;
+
+  /// No description provided for @tasbihatDuaFarajSource.
+  ///
+  /// In en, this message translates to:
+  /// **'Taught by Imam al-Ḥasan al-ʿAskarī (a)'**
+  String get tasbihatDuaFarajSource;
+
+  /// No description provided for @tasbihatDuaFarajNote.
+  ///
+  /// In en, this message translates to:
+  /// **'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. Recited daily by the Shia faithful after every prayer as an act of devotion to the living Imam.'**
+  String get tasbihatDuaFarajNote;
+
+  /// No description provided for @tasbihatDuaTasbihFatimaTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Tasbīḥ of Lady Fāṭima'**
+  String get tasbihatDuaTasbihFatimaTitle;
+
+  /// No description provided for @tasbihatDuaTasbihFatimaWhen.
+  ///
+  /// In en, this message translates to:
+  /// **'After Maghrib & Isha · especially recommended'**
+  String get tasbihatDuaTasbihFatimaWhen;
+
+  /// No description provided for @tasbihatDuaTasbihFatimaSource.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Bāqir (a) — Biḥār al-Anwār'**
+  String get tasbihatDuaTasbihFatimaSource;
+
+  /// No description provided for @tasbihatDuaTasbihFatimaNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Imam al-Bāqir (a) said that reciting Tasbīḥ al-Zahrā after Isha before sleeping is better than 1000 rakʿahs of optional prayer. Its light ascends to the heavens.'**
+  String get tasbihatDuaTasbihFatimaNote;
+
+  /// No description provided for @tasbihFatimaGiftPre.
+  ///
+  /// In en, this message translates to:
+  /// **'A gift from the Prophet'**
+  String get tasbihFatimaGiftPre;
+
+  /// No description provided for @tasbihFatimaGiftPost.
+  ///
+  /// In en, this message translates to:
+  /// **'recited after every prayer'**
+  String get tasbihFatimaGiftPost;
+
+  /// No description provided for @prayerTrackerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'PRAYER TRACKER'**
+  String get prayerTrackerTitle;
+
+  /// No description provided for @prayerTrackerPrayed.
+  ///
+  /// In en, this message translates to:
+  /// **'Prayed'**
+  String get prayerTrackerPrayed;
+
+  /// No description provided for @prayerTrackerDayStreak.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} day streak'**
+  String prayerTrackerDayStreak(int count);
+
+  /// No description provided for @prayerTrackerAllComplete.
+  ///
+  /// In en, this message translates to:
+  /// **'All prayers completed today. May Allah accept.'**
+  String get prayerTrackerAllComplete;
+
+  /// No description provided for @dhikrTrackerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'TASBĪḤ AL-ZAHRĀ'**
+  String get dhikrTrackerTitle;
+
+  /// No description provided for @dhikrTrackerCompletedToday.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed today'**
+  String get dhikrTrackerCompletedToday;
+
+  /// No description provided for @dhikrTrackerNotDoneToday.
+  ///
+  /// In en, this message translates to:
+  /// **'Not done today'**
+  String get dhikrTrackerNotDoneToday;
+
+  /// No description provided for @dhikrTrackerDayStreak.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} day streak'**
+  String dhikrTrackerDayStreak(int count);
+
+  /// No description provided for @dhikrReminderTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Tasbīḥ Reminder'**
+  String get dhikrReminderTitle;
+
+  /// No description provided for @dhikrReminderDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'A gentle daily reminder to recite your Tasbīḥ al-Zahrā (SA).'**
+  String get dhikrReminderDescription;
+
+  /// No description provided for @dhikrReminderEnable.
+  ///
+  /// In en, this message translates to:
+  /// **'Enable Tasbīḥ reminder'**
+  String get dhikrReminderEnable;
+
+  /// No description provided for @dhikrReminderTimeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Reminder time'**
+  String get dhikrReminderTimeLabel;
+
+  /// No description provided for @prayerTrackerProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'{done} / {total}'**
+  String prayerTrackerProgress(int done, int total);
+
+  /// No description provided for @hadithScreenTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily Hadith'**
+  String get hadithScreenTitle;
+
+  /// No description provided for @hadithLabelArabic.
+  ///
+  /// In en, this message translates to:
+  /// **'ARABIC'**
+  String get hadithLabelArabic;
+
+  /// No description provided for @hadithLabelTranslation.
+  ///
+  /// In en, this message translates to:
+  /// **'TRANSLATION'**
+  String get hadithLabelTranslation;
+
+  /// No description provided for @hadithBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'HADITH'**
+  String get hadithBadge;
+
+  /// No description provided for @hadithShare.
+  ///
+  /// In en, this message translates to:
+  /// **'Share This Hadith'**
+  String get hadithShare;
+
+  /// No description provided for @hadithShareText.
+  ///
+  /// In en, this message translates to:
+  /// **'\"{text}\"\n\n— {imam}\n{source}\n\nVia Ayara'**
+  String hadithShareText(String text, String imam, String source);
+
+  /// No description provided for @hadithNavPrevious.
+  ///
+  /// In en, this message translates to:
+  /// **'Previous'**
+  String get hadithNavPrevious;
+
+  /// No description provided for @hadithNavNext.
+  ///
+  /// In en, this message translates to:
+  /// **'Next'**
+  String get hadithNavNext;
+
+  /// No description provided for @hadithCounter.
+  ///
+  /// In en, this message translates to:
+  /// **'{current} / {total}'**
+  String hadithCounter(int current, int total);
+
+  /// No description provided for @imamsScreenTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'The 14 Masumeen'**
+  String get imamsScreenTitle;
+
+  /// No description provided for @imamsScreenSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'The Prophet, Lady Fatima, and the Twelve Imams — the infallible guides of Islam'**
+  String get imamsScreenSubtitle;
+
+  /// No description provided for @imamLabelBorn.
+  ///
+  /// In en, this message translates to:
+  /// **'Born'**
+  String get imamLabelBorn;
+
+  /// No description provided for @imamLabelMartyrdom.
+  ///
+  /// In en, this message translates to:
+  /// **'Martyrdom'**
+  String get imamLabelMartyrdom;
+
+  /// No description provided for @imamLabelStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Status'**
+  String get imamLabelStatus;
+
+  /// No description provided for @imamSectionBiography.
+  ///
+  /// In en, this message translates to:
+  /// **'BIOGRAPHY'**
+  String get imamSectionBiography;
+
+  /// No description provided for @imamSectionFamousSaying.
+  ///
+  /// In en, this message translates to:
+  /// **'FAMOUS SAYING'**
+  String get imamSectionFamousSaying;
+
+  /// No description provided for @imamRoleProphet.
+  ///
+  /// In en, this message translates to:
+  /// **'The Final Prophet'**
+  String get imamRoleProphet;
+
+  /// No description provided for @imamRoleInfallible.
+  ///
+  /// In en, this message translates to:
+  /// **'The Infallible'**
+  String get imamRoleInfallible;
+
+  /// No description provided for @imamOrdinal1.
+  ///
+  /// In en, this message translates to:
+  /// **'1st Imam'**
+  String get imamOrdinal1;
+
+  /// No description provided for @imamOrdinal2.
+  ///
+  /// In en, this message translates to:
+  /// **'2nd Imam'**
+  String get imamOrdinal2;
+
+  /// No description provided for @imamOrdinal3.
+  ///
+  /// In en, this message translates to:
+  /// **'3rd Imam'**
+  String get imamOrdinal3;
+
+  /// No description provided for @imamOrdinal4.
+  ///
+  /// In en, this message translates to:
+  /// **'4th Imam'**
+  String get imamOrdinal4;
+
+  /// No description provided for @imamOrdinal5.
+  ///
+  /// In en, this message translates to:
+  /// **'5th Imam'**
+  String get imamOrdinal5;
+
+  /// No description provided for @imamOrdinal6.
+  ///
+  /// In en, this message translates to:
+  /// **'6th Imam'**
+  String get imamOrdinal6;
+
+  /// No description provided for @imamOrdinal7.
+  ///
+  /// In en, this message translates to:
+  /// **'7th Imam'**
+  String get imamOrdinal7;
+
+  /// No description provided for @imamOrdinal8.
+  ///
+  /// In en, this message translates to:
+  /// **'8th Imam'**
+  String get imamOrdinal8;
+
+  /// No description provided for @imamOrdinal9.
+  ///
+  /// In en, this message translates to:
+  /// **'9th Imam'**
+  String get imamOrdinal9;
+
+  /// No description provided for @imamOrdinal10.
+  ///
+  /// In en, this message translates to:
+  /// **'10th Imam'**
+  String get imamOrdinal10;
+
+  /// No description provided for @imamOrdinal11.
+  ///
+  /// In en, this message translates to:
+  /// **'11th Imam'**
+  String get imamOrdinal11;
+
+  /// No description provided for @imamOrdinal12.
+  ///
+  /// In en, this message translates to:
+  /// **'12th Imam'**
+  String get imamOrdinal12;
+
+  /// No description provided for @duaAudioScreenTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Listen to Duas'**
+  String get duaAudioScreenTitle;
+
+  /// No description provided for @duaAudioScreenSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Select a dua to listen. Tap the tile to play or pause.'**
+  String get duaAudioScreenSubtitle;
+
+  /// No description provided for @duaAudioComingSoonMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Audio for this dua will be available in an upcoming update.'**
+  String get duaAudioComingSoonMessage;
+
+  /// No description provided for @duaAudioClose.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get duaAudioClose;
+
+  /// No description provided for @duaAudioError.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not load audio. Please check your connection.'**
+  String get duaAudioError;
+
+  /// No description provided for @duaAudioMetaTransmittedBy.
+  ///
+  /// In en, this message translates to:
+  /// **'Transmitted by'**
+  String get duaAudioMetaTransmittedBy;
+
+  /// No description provided for @duaAudioMetaOccasion.
+  ///
+  /// In en, this message translates to:
+  /// **'Occasion'**
+  String get duaAudioMetaOccasion;
+
+  /// No description provided for @duaAudioMetaDuration.
+  ///
+  /// In en, this message translates to:
+  /// **'Duration'**
+  String get duaAudioMetaDuration;
+
+  /// No description provided for @quickActionDailyHadith.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily Hadith'**
+  String get quickActionDailyHadith;
+
+  /// No description provided for @quickAction14Masumeen.
+  ///
+  /// In en, this message translates to:
+  /// **'14 Masumeen'**
+  String get quickAction14Masumeen;
+
+  /// No description provided for @quickActionListenDuas.
+  ///
+  /// In en, this message translates to:
+  /// **'Listen'**
+  String get quickActionListenDuas;
+
+  /// No description provided for @quickActionTasbihat.
+  ///
+  /// In en, this message translates to:
+  /// **'Prayer Guide'**
+  String get quickActionTasbihat;
+
+  /// No description provided for @pilgrimageSectionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'The Sacred Journey'**
+  String get pilgrimageSectionTitle;
+
+  /// No description provided for @pilgrimageSectionSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete guides to Hajj & Umrah — the pilgrimage to the Holy House of Allah in Mecca'**
+  String get pilgrimageSectionSubtitle;
+
+  /// No description provided for @hajjCardTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Hajj'**
+  String get hajjCardTitle;
+
+  /// No description provided for @hajjCardSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'The Fifth Pillar of Islam'**
+  String get hajjCardSubtitle;
+
+  /// No description provided for @hajjCardDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'The grand annual pilgrimage — obligatory once in a lifetime for every able Muslim'**
+  String get hajjCardDescription;
+
+  /// No description provided for @hajjScreenTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Hajj Guide'**
+  String get hajjScreenTitle;
+
+  /// No description provided for @hajjScreenSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Step-by-step guide to the grand pilgrimage'**
+  String get hajjScreenSubtitle;
+
+  /// No description provided for @umrahCardTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Umrah'**
+  String get umrahCardTitle;
+
+  /// No description provided for @umrahCardSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'The Lesser Pilgrimage'**
+  String get umrahCardSubtitle;
+
+  /// No description provided for @umrahCardDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'A deeply rewarding spiritual journey that can be performed at any time of year'**
+  String get umrahCardDescription;
+
+  /// No description provided for @umrahScreenTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Umrah Guide'**
+  String get umrahScreenTitle;
+
+  /// No description provided for @umrahScreenSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Step-by-step guide to the lesser pilgrimage'**
+  String get umrahScreenSubtitle;
+
+  /// No description provided for @pilgrimageStepsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Rituals & Steps'**
+  String get pilgrimageStepsTitle;
+
+  /// No description provided for @pilgrimageImportantNotesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Important Notes'**
+  String get pilgrimageImportantNotesTitle;
+
+  /// No description provided for @pilgrimageDuaTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Dua for this step'**
+  String get pilgrimageDuaTitle;
+
+  /// No description provided for @pilgrimageJafariNoteTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Ja\'fari Fiqh Note'**
+  String get pilgrimageJafariNoteTitle;
+
+  /// No description provided for @pilgrimageComplete.
+  ///
+  /// In en, this message translates to:
+  /// **'✓ Complete'**
+  String get pilgrimageComplete;
+
+  /// No description provided for @pilgrimageMarkDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Mark as complete'**
+  String get pilgrimageMarkDone;
+
+  /// No description provided for @pilgrimageProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'{done} of {total} steps'**
+  String pilgrimageProgress(int done, int total);
+
+  /// No description provided for @pilgrimageReadTime.
+  ///
+  /// In en, this message translates to:
+  /// **'~{minutes} min'**
+  String pilgrimageReadTime(int minutes);
+
+  /// No description provided for @pilgrimageShiaNoteTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Shia Pilgrims'**
+  String get pilgrimageShiaNoteTitle;
+
+  /// No description provided for @pilgrimageShiaNoteBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Shia pilgrims traditionally also travel to Medina to visit the tomb of the Prophet Muhammad (SAW) at Masjid al-Nabawi, and the graves of the Imams at Jannat al-Baqi. These visits carry immense spiritual significance and are considered an integral part of the journey for most Shia Muslims.'**
+  String get pilgrimageShiaNoteBody;
+
+  /// No description provided for @hajjIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.'**
+  String get hajjIntro;
+
+  /// No description provided for @umrahIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Umrah is the lesser pilgrimage to Mecca and, unlike Hajj, can be performed at any time of the year. While not obligatory, it carries immense spiritual reward and is considered a highly recommended act of worship. It shares several rituals with Hajj but is shorter, consisting of four main rites.'**
+  String get umrahIntro;
 }
 
 class _AppLocalizationsDelegate

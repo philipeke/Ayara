@@ -5,6 +5,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/core/models/content_models.dart';
+import 'package:ayara/core/services/content_repository.dart';
 import 'package:ayara/features/home/home_shell.dart';
 import 'package:ayara/l10n/app_localizations.dart';
 import 'duas_data.dart';
@@ -32,15 +34,69 @@ class _DuasScreenState extends State<DuasScreen> {
   DuaCategory? _selectedCategory;
   String _searchQuery = '';
   final _searchController = TextEditingController();
+  final _scrollController = ScrollController();
+  List<DuaEntry> _library = kDuaLibrary;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (_scrollController.hasClients) _scrollController.jumpTo(0);
+    });
+    _refreshFromRepository();
+  }
+
+  Future<void> _refreshFromRepository() async {
+    try {
+      final models = await ContentRepository.instance.getDuas();
+      if (!mounted || models.isEmpty) return;
+      final sorted = [...models]..sort((a, b) => a.order.compareTo(b.order));
+      final converted = sorted.map(_entryFromModel).toList();
+      setState(() => _library = converted);
+    } catch (_) {
+      // Network unavailable — keep bundled data.
+    }
+  }
+
+  static DuaEntry _entryFromModel(DuaModel m) => DuaEntry(
+        id: m.id,
+        nameEn: m.nameEn,
+        nameAr: m.nameAr,
+        category: _categoryFromString(m.category),
+        recommendedTime: m.recommendedTime,
+        taughtBy: m.taughtBy,
+        shortDesc: m.shortDesc,
+        hasAiExplain: m.hasAiExplain,
+        isTasbih: m.isTasbih,
+        sections: m.sections
+            .map((s) => DuaSection(
+                  sectionTitle: s.sectionTitle,
+                  arabic: s.arabic,
+                  transliteration: s.transliteration,
+                  translation: s.translation,
+                ))
+            .toList(),
+      );
+
+  static DuaCategory _categoryFromString(String s) {
+    switch (s) {
+      case 'weekly':    return DuaCategory.weekly;
+      case 'occasions': return DuaCategory.occasions;
+      case 'ziyarat':   return DuaCategory.ziyarat;
+      case 'tasbih':    return DuaCategory.tasbih;
+      default:          return DuaCategory.daily;
+    }
+  }
 
   @override
   void dispose() {
     _searchController.dispose();
+    _scrollController.dispose();
     super.dispose();
   }
 
   List<DuaEntry> get _filtered {
-    var list = kDuaLibrary;
+    var list = _library;
 
     if (_selectedCategory != null) {
       list = list.where((d) => d.category == _selectedCategory).toList();
@@ -66,6 +122,7 @@ class _DuasScreenState extends State<DuasScreen> {
     return Scaffold(
       backgroundColor: AppColors.deepNavy,
       body: CustomScrollView(
+        controller: _scrollController,
         slivers: [
           _buildAppBar(context, t),
           SliverToBoxAdapter(child: _buildSearch(context, t)),

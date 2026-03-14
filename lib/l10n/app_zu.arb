@@ -1,585 +1,629 @@
 {
   "@@locale": "zu",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "Khetha ulimi lwakho",
-  "languageSelectSub": "Ungakwazi ukushintsha lokhu kamuva ku-Settings",
+  "languageSelectSub": "Ungakwazi ukutshintsha lokhu kamuva kuSettings",
   "actionContinue": "Qhubeka",
-  "languageSuggestedHeader": "Okuthunyelwe",
+  "languageSuggestedHeader": "Kusikisiswe",
   "languageAllHeader": "Zonke izilimi",
-  "languageSuggestedBadge": "Okuthunyelwe",
+  "languageSuggestedBadge": "Kusikisiswe",
   "languageSearchHint": "Sesha…",
-
-  "planGrace": "Standard",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Ikhethelo Losuku",
-  "categoryFaithTrust": "Iman Nentembeko",
-  "categoryPrayerReflection": "Isikhuselo Somkhuleko",
-  "categoryHopeDifficultTimes": "Ukunxanibela Nesikhathiso",
-  "categoryForgiveness": "Cela Uxolo",
-  "categoryLoveCompassion": "Isikhalo Nokuva",
-  "categoryStrengthCourage": "Iman Namandla",
-  "categoryGratitude": "Inhliziyo Enobusiswa",
-  "categoryPurposeCalling": "Injongo Yokuphila",
-  "categoryFamilyRelationships": "Izibopho Zomkhulu",
-  "categoryPeaceAnxietyRelief": "Kuthula Okwangaphakathi",
-  "categoryWisdomOfJesus": "Ukuhlakanipha kweProfeta",
-  "categoryHumilityCharacter": "Ikhaya Elintle",
-  "categoryOvercomingTemptation": "Zibuyela Emkhondweni",
-  "categoryEveningReflection": "Isibusiso Sakusihlwa",
-  "categoryCustom": "Ukucabangela Komuntu",
-  "dhikrMeaningSubhanallah": "Ubukhosi bukaNkulunkulu",
-  "dhikrMeaningAlhamdulillah": "Kudumisa uNkulunkulu",
-  "dhikrMeaningAllahuAkbar": "UNkulunkulu ungumkhulu",
-  "quranVerseHeartAtRest": "Ngempela, ekukhumbuleni uNkulunkulu, izinhliziyo zithola ukuthula.",
-
-  "promptHint": "Thinta okuhlotshaniswa nomhlobo wokuze uthole ikhethelo kanye nesikhuselo sika-Islam",
-
-  "currentLanguage": "Ulimi olusekelwayo",
-  "settingsLanguage": "Izilungiselelo zolimi",
-  "settingsTitle": "Izilungiselelo",
+  "planBasic": "Okuxonela",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Ukuqondiswa Kwensuku",
+  "categorySlot02": "Iman Nokuthembeka",
+  "categorySlot03": "Isikali Sokukhuleka",
+  "categorySlot04": "Ukunethezeka Nokusethemba",
+  "categorySlot05": "Cela Uxolo",
+  "categorySlot06": "Umusa Nokungiselela",
+  "categorySlot07": "Ukholo Nesibindi",
+  "categorySlot08": "Inhliziyo Engathokozisaziwe",
+  "categorySlot09": "Umzwelo Wesiphi",
+  "categorySlot10": "Ubudlelwano Bezemindeni",
+  "categorySlot11": "Kuthula Kwangaphakathi",
+  "categorySlot12": "Uku Uthukela Kweprohfete",
+  "categorySlot13": "Isimilo Esihle",
+  "categorySlot14": "Melana Lokutentembisa",
+  "categorySlot15": "Dhikr Yekuseni",
+  "categoryCustom": "Isikali Somuntu",
+  "dhikrMeaningSubhanallah": "Zingisile uAllohu",
+  "dhikrMeaningAlhamdulillah": "Konke okukudumela kuAllohu",
+  "dhikrMeaningAllahuAkbar": "UAllohu unkulu kakhulu",
+  "quranVerseHeartAtRest": "Qaphela, ekukhumbuleni kuAllohu inhliziyo ifumana ukuthula.",
+  "promptHint": "Thapha ingxenye yomqulu wezilwandle ukuze ufumane uqondiso olwelaphezulu nokubheka kamuva",
+  "currentLanguage": "Ulimi lwamanje",
+  "settingsLanguage": "Imistiselelo yolimi",
+  "settingsTitle": "Imistiselelo",
   "chooseLanguage": "Khetha ulimi lwakho",
   "continueCta": "Qhubeka",
-
-  "promptDailyGuidance": "Bhala ikhethelo lifushane, elikusebenzisekayo losuku okumiswe ku-Iman engungungu ye-Sunni — okungumisiko wokusemthethweni okungu-Qur'an, iHadith, kanye nokufundisa kweProfeta Muhammad. Khetha indlela entsha ngasinye: umuntu ovikela i-Islam okuvela ku-Islamic ethics, iqiniso elingu-Sunnah, ukuhlakanipha okuvela kuSahaba baseProfteta, noma ukusebenzela ngokuthula kusiko lika-Islam. Faka iVesi elilodwa iQur'an (Surah:Ayah) kanye nosikhuselo esingu-1–2 umuntu azoqhubekela nlalela ilanga. Ungakwazi ukuxhumana noKhalenda lika-Islam noma olunye usuku olubalulekile uma kuhle.",
-
-  "promptFaithTrust": "Bhala ikhuselo elifushane elingu-Islamic emayelana neIman (uku-uthwala) kanye nentembeko kuPlangu kaAllah (Tawakkul). Basisa kumisiko loku-Qur'an, isibonelo se-Prophet Muhammad, kanye neIman ye-Sahaba. Shintshanisa insimu ngasinye: ukuthemba uAllah ngesikhathi sokusula, ukusheshela intelefane yeDivine, ukufa okunobhakela, noma ukunxanibela okuthula ekusebenzeni kwosuku nosuku. Faka iVesi elilodwa iQur'an kanye nengxenye eyodwa evuselelekile namuhla ichithwe ekusikubeni kwaka-Islamic.",
-
-  "promptPrayerReflection": "Bhala ikhuselo elifushane elingu-Islamic okumiswe ku-Salah, Dua, noma ku-Dhikr. Shintshanisa umumo ngasinye: isikhumbuzo sakuseni noma sakusihlwa (Adhkar), isikhuselo sobadlinzane abahlanu bosuku, isikhuselo sokulandelela iVesi ye-Qur'an, noma inkanzo entombozelo. Faka iVesi elilodwa iQur'an kanye nobizo ngokumiselekile lefomu lomkhuleko olusetshenzisiwe.",
-
-  "promptHopeDifficultTimes": "Bhala ikhuselo lika-Islamic emayelana nokufa (Sabr) kanye nensikhalo ngisikhathi sokufa. Yasulula kumfundiso we-Qur'an mayelana nokulinganiselwa, ukunxanibela kwamaProfeta, kanye nensikhalo ye-Allah ngezikhathi ezinzima. Shintshanisa i-angle ngasinye. Faka iVesi elilodwa iQur'an kanye nomqondo ongakusizayo ovela kusiko lika-Islamic.",
-
-  "promptForgiveness": "Bhala ikhuselo elinobuhle elingu-Islamic emayelana nokucela uxolo (Tawbah) kanye nensikhalo ye-Allah. Yasulula kumfundiso we-Qur'an ekuguquleni, ikhuni ye-Allah, kanye nesibonelo esikholo se-Prophet Muhammad. Shintshanisa insimu: ubuyela ku-Allah, uxolo lwabantu, isikhuthazi sezibopho, noma inikhiwo engu-Allah emva kwamazwi. Faka iVesi elilodwa iQur'an kanye nengxenye eyodwa eyanele.",
-
-  "promptLoveCompassion": "Bhala ikhuselo elifushane elingu-Islamic emayelana nensikhalo (Rahmah) kanye nokuba nensikhalo ekusebenzeni kwosuku nosuku. Yasulula ezibonelweni se-Prophet Muhammad, i-Ihsan (isikukela), kanye nomfundiso we-Islamic okumayelana nokuba nensikhalo kumkhulu, umakhelwane, kanye nobantu abambalwa. Faka iVesi elilodwa iQur'an kanye nengxenye eyodwa ebanzi yokufa ngalinye osuku.",
-
-  "promptStrengthCourage": "Bhala ikhuselo lika-Islamic emayelana namandla okuvela kumiman kanye nobuhle. Yasulula ezibonelweni zamaProfeta, amasiko okuqala e-Muslim, kanye neuthwala e-Allah ngisikhathi sokufa. Shintshanisa insimu ngasinye: ubuhle ngeminan, amandla ekukhulumeni, intembeko ku-Allah ngisikhathi sokuba nokufa, noma ukunxanibela nokufa. Faka iVesi elilodwa iQur'an kanye nenkanzo emfushane noma igama lokukhumbula.",
-
-  "promptGratitude": "Bhala ikhuselo lika-Islamic emayelana nokufa (Shukr) ku-Allah. Basisa kumfundiso we-Qur'an kanye nosiko lweprofetha. Shintshanisa i-angle: okufa ekufa, isikhathiso semkhikhi, ukuqala usuku nokubaza uAllah, noma isikhathiso okukhathayo kaAllah ekusebenzeni kwosuku. Faka iVesi elilodwa iQur'an kanye nokuzikuthaza okubhakela okufa.",
-
-  "promptPurposeCalling": "Bhala ikhuselo lika-Islamic emayelana nenjongo yokuphila ekusebenzeni ku-Allah ekukhayo. Yasulula kumfundiso we-Qur'an emayelana ninjongo, ekusethuleni abanye, kanye nokusebenzisa amahlobo akho okukala okuhle. Shintshanisa insimu ngasinye: ekusethuleni umkhulu nasiphakamiso, ukusesha kaAllah ngokudinga i-Istikhara, okuphila ngomazwi, noma isikhathiso ingxubevele ekusebenzeni okujwayelekile. Faka iVesi elilodwa iQur'an kanye imibuzo emibili eya enqubekayo.",
-
-  "promptFamilyRelationships": "Bhala ikhethelo elinobuhle lika-Islamic emayelana nomkhulu nezibopho omiswe kumfundiso we-Qur'an kanye nesibonelo se-Prophet Muhammad. Shintshanisa insimu ngasinye: ukunikelwa enkosikazi, intombazane ekufa, isikhalo elingakho, ukukhula izingane ekusemthethweni, noma ukunikela iqhaza. Faka iVesi elilodwa iQur'an kanye nokucuba okubadluza kuzisuke.",
-
-  "promptPeaceAnxietyRelief": "Bhala ikhuselo elikhaziliza lika-Islamic emayelana nokuthola kuthula okwangaphakathi ngokukhumbula uAllah (Dhikr) kanye nintembeko kuPlangu kaAllah. Yasulula kumfundiso we-Qur'an emayelana nokukhululeka kwenhliziyo, omkhuleko, kanye ukunikela kukholo lkaAllah. Shintshanisa indlela ngasinye kanye faka iVesi elilodwa iQur'an kanye nokulinganiselwa okujwayelekile evela kusiko lika-Islamic.",
-
-  "promptWisdomOfJesus": "Bhala ingxenye elifushane yokuhlakaniphile evela kuProfeta njengenjwayelo naka-Islam. Yasulula e-Qur'an noma iHadith kanye kuzwakalisele ukuthi ababoni baAllah beqondene nomfundiso. Shintshanisa insimu ngasinye: ikhaya, okufa, ukunamathela, iman, noma umotho nosuku. Faka iVesi ye-Qur'an noma i-Hadith kanye nokusebenzela okumama.",
-
-  "promptHumilityCharacter": "Bhala ikhuselo lika-Islamic emayelana nokunamathela (Tawadhu) kanye nokuba nesikhaia senkanzi (Akhlaq). Yasulula kumfundiso we-Qur'an, isibonelo se-Prophet Muhammad, kanye nosikhathi sokuthuthukisa umuntu lika-Islamic. Shintshanisa insimu: ukunamathela ekuphatheni, isikhathiso sekuyona, isikhalo sabantu, noma ukuthuthukisa umuntu ngokucatsha. Faka iVesi elilodwa iQur'an kanye nohlobo lokuzikuthaza.",
-
-  "promptOvercomingTemptation": "Bhala ikhuselo lika-Islamic emayelana nokuphikisa ukulinganiselwa kanye nokusala emkhondweni. Yasulula kumfundiso we-Qur'an, okukhumbula uAllah (Dhikr), omkhuleko (Salah), kanye nezibonelo zesikhalo okuwakhe amanzi ekufa. Shintshanisa i-angle ngasinye. Faka iVesi elilodwa iQur'an kanye nokuhlobo okubhakelayo okuvakala izinsuku eziyamabili.",
-
-  "promptEveningReflection": "Bhala ikhuselo elihle lasesihlweni elingu-Islamic okumiswe kusiko lokhukhumbula akusihlwa (Adhkar al-Masaa'). Siphakamise okufa, isikhuselo nomuntu (Muhasabah), kanye intembeko ku-Allah ngaphambi kokuphumulela. Faka imibuzo emithathu kuye kumihlanu emfushane esikhuselo mayelana nosuku, inkanzo emfushane eyaphakama, kanye iVesi elilodwa iQur'an.",
-
   "wordCount": "{count, plural, one {{count} igama} other {{count} amagama}}",
-
-  "optionsCta": "Okukhethwayo",
-  "newCta": "Okushadayo",
-  "actionsTitle": "Yini oyifunayo ukuthi yenziwe?",
-  "copy": "Kopa",
-  "share": "Fakela",
+  "optionsCta": "Izinketho",
+  "newCta": "Okusha",
+  "actionsTitle": "Yini enokuthi uyenze?",
+  "copy": "Kopela",
+  "share": "Yabelana",
   "close": "Vala",
-  "copiedToast": "Kopwe ku-clipboard",
-
+  "copiedToast": "Okopele ohwini lokustora",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
-      "category": { "type": "String", "example": "Ikhethelo Losuku" }
+      "category": {
+        "type": "String",
+        "example": "Ukuqondiswa Kwensuku"
+      }
     }
   },
-
-  "regenerateErrorTitle": "Akukwazanga ukukhiqiza impendulo entsha",
-  "regenerateErrorBody": "{error}\n\nNjalo uzama futhi?",
+  "regenerateErrorTitle": "Ayikwazanga ukwenza impendulo entsha",
+  "regenerateErrorBody": "{error}\n\nNjalo ufuna uzama futhi?",
   "@regenerateErrorBody": {
     "description": "Shown when regenerating an AI answer fails.",
     "placeholders": {
-      "error": { "type": "String", "example": "Isichazamthetho sokuxhumeka" }
+      "error": {
+        "type": "String",
+        "example": "Iphutha lenethiwekhi"
+      }
     }
   },
-
   "cancelCta": "Khansela",
   "retryCta": "Zama futhi",
-
-  "authTitle": "Dala i-akhawunti yakho",
-  "continueAsGuest": "Qhubeka njengangubani",
-  "signInGoogle": "Ngena nge-Google",
-  "signInApple": "Ngena nge-Apple",
-  "signInEmail": "Ngena nge-Email",
+  "authTitle": "Dala iakhawunti yakho",
+  "continueAsGuest": "Qhubeka njengoguest",
+  "signInGoogle": "Ungena nge-Google",
+  "signInApple": "Ungena nge-Apple",
+  "signInEmail": "Ungena nge-imeyili",
   "upgradeWithApple": "Qhubeka nge-Apple",
-  "mustAccept": "Kufanele uvume iMigomo futhi uvumiselele iNingizimu Yobuntu.",
-  "termsLabel": "Ngiyavuma iMigomo Yesevisi",
-  "privacyLabel": "Ngibhalile iNingizimu Yobuntu",
-  "marketingOptIn": "Ngiyavuma ukwamukela izindaba nokukhokha",
-  "openTerms": "Imigomo Yesevisi",
-  "openPrivacy": "Ichibi Lobuntu",
-
-  "accountSection": "Akhawunti",
-  "guestMode": "Indlela yokumangcembe",
-  "signedIn": "Ungenele",
-  "upgradeHint": "Gcina izikhuselo zakho kumadivayisi ngokudala i-akhawunti.",
+  "mustAccept": "Kufanele ukuvumelana nemibandela kanye nokwanakala iNgubamlinganiselo Yabuciko.",
+  "termsLabel": "Ngiyavuma Imibandela Yomsebenzisi",
+  "privacyLabel": "Ngibukile iNgubamlinganiselo Yabuciko",
+  "marketingOptIn": "Ngiyavuma ukuthola izindaba nezinalo",
+  "openTerms": "Imibandela Yomsebenzisi",
+  "openPrivacy": "Ingubamlinganiselo Yabuciko",
+  "accountSection": "Iakhawunti",
+  "guestMode": "Uhlobo lweGuest",
+  "signedIn": "Ungene",
+  "upgradeHint": "Gcina izikali zakho ezidlalweni ngokudala iakhawunti.",
   "upgradeWithGoogle": "Qhubeka nge-Google",
   "signOut": "Phuma",
-
-  "snackUpgraded": "I-akhawunti iphunyatshelwe nge-Google ✅",
-  "snackSignedIn": "Ungenele nge-Google ✅",
+  "snackUpgraded": "I-akhawunti iphukuliswe nge-Google ✅",
+  "snackSignedIn": "Ungene nge-Google ✅",
   "snackSignedOut": "Uphume",
-  "snackSignedInApple": "Ungenele nge-Apple ✅",
-  "snackSignedInGoogle": "Ungenele nge-Google ✅",
-  "snackUpgradedApple": "I-akhawunti iphunyatshelwe nge-Apple ✅",
-  "snackUpgradedGoogle": "I-akhawunti iphunyatshelwe nge-Google ✅",
-
-  "historyTitle": "Izikhuselo eziledlulile",
-  "historyOpenCta": "Izikhuselo eziledlulile",
-  "historyEmpty": "Azikho izikhuselo ezigcinwe njengexesikhelo.",
-  "historyDeleteTitle": "Susa ikhuselo?",
-  "historyDeleteBody": "Lokhu kuzosusa ngokuphelele isithombe esikhethiwe.",
+  "snackSignedInApple": "Ungene nge-Apple ✅",
+  "snackSignedInGoogle": "Ungene nge-Google ✅",
+  "snackUpgradedApple": "I-akhawunti iphukuliswe nge-Apple ✅",
+  "snackUpgradedGoogle": "I-akhawunti iphukuliswe nge-Google ✅",
+  "historyTitle": "Izikali Ezedlule",
+  "historyOpenCta": "Izikali Ezedlule",
+  "historyEmpty": "Azikho izikali ezigcinwe ezikhona.",
+  "historyDeleteTitle": "Susa isikali?",
+  "historyDeleteBody": "Lokhu kuzosusa isilemi ekhethiwe ngosizo.",
   "deleteCta": "Susa",
-
-  "historyButton": "Izikhuselo eziledlulile",
-  "historyEmptyTitle": "Azikho izikhuselo njengexesikhelo",
-  "historyEmptyBody": "Khiqiza okuthile kuqala — izithako zakho ezigcinwe zizobonakala lapha.",
+  "historyButton": "Izikali Ezedlule",
+  "historyEmptyTitle": "Azikho izikali ezikhona",
+  "historyEmptyBody": "Dala okushintshi kuqala — izilemi ezigcinwe zizobonakala lapha.",
   "historyDelete": "Susa",
-
-  "footerTitle": "Nge-Iman, sabr nera rahma.",
-  "footerSubtitle": "Ingxenye eyodwa ngesikhathi.",
-  "genericErrorSnack": "Okuthile kushonele — zama futhi emomenti.",
-
-  "upgradeAccountCta": "Gcina izikhuselo zakho kumadivayisi – dala i-akhawunti",
+  "footerTitle": "Nge-Wilaya, Iman kanye neSabr",
+  "footerSubtitle": "Okulukuleka okukodwa ngesikhathi",
+  "genericErrorSnack": "Kwenzeka okuthile okungalungile — sicela uzame futhi kamuva kancane.",
+  "upgradeAccountCta": "Gcina izikali zakho ezidlalweni – dala iakhawunti",
   "deleteAccount": "Susa i-akhawunti",
   "exportData": "Khipha imininingwane yami",
-
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
     "description": "Label before showing the internal Firebase UID.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Kule kule 🐯\nI-AI idinga isikhashana ngaphambi kwalokhu okulandelayo…",
-  "rateDailyLimit": "Awusekho ezithako zakho njengexesikhelo njengamanje.\nWukela okuthile okutsha noma uthuthukisele ku-Barakah.",
-  "rateCreditsExhausted": "Usebenzisile zonke izikhuselo zakho.\nFakela kamuva noma uthuthukisele ku-Barakah ukuze uqhubeke.",
-  "rateGraceReflectionsExhausted": "Awusekho ezithako zakho njengexesikhelo njengamanje.\nWukela okuthile okutsha noma uthuthukisele ku-Barakah.",
-  "rateReflectionsExhausted": "Usebenzisile zonke izikhuselo zakho.\nFakela kamuva noma uthuthukisele ku-Barakah ukuze uqhubeke.",
-
-  "blessedDescription": "I-Barakah ilulula izici ezinokukhethwa, amahlobo okuqala, kanye nobhazi olukodwa.",
-  "championDescription": "I-Barakah ilulula izici ezinokukhethwa, amahlobo okuqala, kanye nobhazi olukodwa.",
-
-  "ratePlanExhausted": "Izikhuselo zakho azikho njengamanje. Uhlelo: {plan}.",
+  "rateLocalThrottle": "Faka isikhathi 🐯\nAyara idinga umzuzulwane ngaphambi kwenoma yini enilandelayo…",
+  "rateDailyLimit": "Akusekho izikali ngoku.\nFumana izikali ezengeziwe noma ufinyelele ku-Wilaya.",
+  "rateCreditsExhausted": "Usebenzisile konke izikali.\nFakaza noma ufinyelele ku-Wilaya ukuqhubeka.",
+  "rateGraceCreditsExhausted": "Akusekho izikali ngoku.\nFumana izikali ezengeziwe noma ufinyelele ku-Wilaya.",
+  "premiumDescription": "U-Wilaya uvula izici zepremiyamu, izigaba zetshezi, kanye nebheji ekhethekile.",
+  "ratePlanExhausted": "Izikali zakho ziye ngweyana ngoku. Uhlelo: {plan}.",
   "@ratePlanExhausted": {
     "description": "Shown when the user's reflections are exhausted but the reason is generic.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard noma Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard noma Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "Akukwazanga ukubheka izikhuselo zakho: {message}",
+  "rateCheckFailed": "Ayikwazanga ukuhlola izikali zakho: {message}",
   "@rateCheckFailed": {
     "description": "Shown when the callable function returns an error message.",
     "placeholders": {
-      "message": { "type": "String", "example": "Isichazamthetho sokuxhumeka" }
+      "message": {
+        "type": "String",
+        "example": "Iphutha lenethiwekhi"
+      }
     }
   },
-
-  "rateCheckGenericError": "Okuthile kushonele ngesikhathi kokukhela izikhuselo zakho.",
-  "aiFallbackGeneric": "Okuthile kushonele — zama futhi emomenti.",
-
-  "limitSectionTitle": "Izikhuselo",
+  "rateCheckGenericError": "Kwenzeka okuthile ebisiziwe ekuhloleni izikali zakho.",
+  "aiFallbackGeneric": "Kwenzeka okuthile okungalungile — sicela uzame futhi kamuva kancane.",
+  "limitSectionTitle": "Izikali",
   "limitTodayLabel": "Ukusetshenziswa",
-  "limitCreditsLabel": "Izikhuselo ezisele: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitCreditsLabel": "Izikali ezisele: {credits}",
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "Uhlelo: {plan}",
   "@limitPlanLabel": {
     "description": "Shows the current subscription plan name.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard noma Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard noma Wilaya"
+      }
     }
   },
-  "limitLoadingLabel": "Kulayida…",
-  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
-
-  "aiLimitTitle": "Izikhuselo",
-  "aiLimitSubtitle": "Impendulo ngayinye isebenzisa ikhuselo elilodwa. I-Standard iqukethe izikhuselo zokuqala. I-Barakah ilulula amahlobo okukodwa okukhethwayo kanye nokukwazi ukufakela kamuva.",
-  "aiLimitProgressLabel": "{used} / {total} izikhuselo ezasetshenziswe",
+  "limitLoadingLabel": "Iloading…",
+  "limitLoadingLabelDescription": "Ibonakala esikhalini sesikali kunesikhashane izitatisi zokusetshenziswa zifakwayo.",
+  "aiLimitTitle": "Izikali",
+  "aiLimitSubtitle": "Impendulo ngayinye isebenzisa isikali esisodwa. Okuxonela kubazifo ezilinganiselwayo. U-Wilaya avule izigaba zepremiyamu kanye nokuceda nje.",
+  "aiLimitProgressLabel": "{used} / {total} izikali kusetshenziswe",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Izikhuselo",
-  "reflectionsUsageLabel": "Ukusetshenziswa",
-  "reflectionsRemainingLabel": "Izikhuselo ezisele: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Uhlelo: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Shows the current plan name.",
+  "creditsSectionTitle": "Izikali",
+  "creditsUsageLabel": "Ukusetshenziswa",
+  "creditsRemainingLabel": "Izikali ezisele: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard noma Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Kulayida…",
-  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
-
-  "reflectionsTitle": "Izikhuselo",
-  "reflectionsSubtitle": "Impendulo ngayinye isebenzisa ikhuselo elilodwa. I-Standard iqukethe izikhuselo zokuqala. I-Barakah ilulula amahlobo okukodwa okukhethwayo kanye nokukwazi ukufakela kamuva.",
-  "reflectionsProgressLabel": "{used} / {total} izikhuselo ezasetshenziswe",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Uhlelo: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standard noma Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Iloading…",
+  "creditsLoadingLabelDescription": "Ibonakala kunesikhashane izitatisi zesikali zifakwayo.",
+  "creditsTitle": "Izikali",
+  "creditsSubtitle": "Impendulo ngayinye isebenzisa isikali esisodwa. Okuxonela kubazifo ezilinganiselwayo. U-Wilaya avule izigaba zepremiyamu kanye nokuceda nje.",
+  "creditsProgressLabel": "{used} / {total} izikali kusetshenziswe",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "Susa i-akhawunti",
-  "settingsDeleteDescription": "Susa i-akhawunti yakho ngokuphelele nokho konke imininingwane ehlobene nayo.",
+  "settingsDeleteDescription": "Susa i-akhawunti yakho nganqubo kanye nokonke imininingwane enhlobonhlobo.",
   "settingsDeleteButtonLabel": "Susa i-akhawunti yami",
   "settingsDeleteDialogTitle": "Susa i-akhawunti?",
-  "settingsDeleteDialogBody": "Oku kwenziwa ngokuphelele futhi akukwazi ukuxazulula.\n\nZonke izitshomi zakho, umlando kanye imininingwane ye-akhawunti izosuswa.",
+  "settingsDeleteDialogBody": "Lokhu kwenzo kunqoba futhi akekho umzila wokubuyela umva.\n\nKonke amakipayi akho, umlando kanye nemininingwane ye-akhawunti izosuswa.",
   "settingsDeleteDialogCancel": "Khansela",
   "settingsDeleteDialogConfirm": "Susa",
-
-  "settingsFreeLimitUsedTitle": "Izikhuselo zokuqala zasetshenziswe",
-  "settingsFreeLimitUsedDescription": "Izikhuselo zokuqala ze-divayisi lolu lunziwe. Uthuthukisele ku-Barakah noma thenga izikhuselo ezingaphansi ukuze uqhubeke.",
-
-  "settingsStarterReflectionsUsedTitle": "Izikhuselo zokuqala zasetshenziswe",
-  "settingsStarterReflectionsUsedDescription": "Izikhuselo zokuqala ze-divayisi lolu lunziwe. Uthuthukisele ku-Barakah noma thenga izikhuselo ezingaphansi ukuze uqhubeke.",
-
-  "deviceBoundError": "Idhevayisi lolu likhanye kule-akhawunti yenye. Ngena nge-akhawunti yoqalo.",
-
-  "premiumTitle": "Uhlelo lwe-Barakah",
-  "premiumSubtitleBasic": "Vula okugcina kweAyara.",
-  "premiumSubtitleChampion": "Une-Barakah. Udinga okuthile okutsha?",
-
-  "premiumCurrentPlan": "Uhlelo olusekelwayo: {plan}",
-  "premiumCreditsStatus": "Izikhuselo: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "Okuthenga akukutholakala njengamanje.",
-  "premiumSignInToPurchase": "Ngena ukuze uthenga izikhuselo noma uvule i-Barakah.",
-
-  "premiumRestorePurchases": "Zibuye okuthenga",
-  "premiumProcessing": "Kusetshenziswa…",
-  "premiumRestoreHintTitle": "Selivule i-Barakah noma izikhuselo kwedivayisi lolu noma enye?",
-  "premiumRestoreHintBody": "Zibuye okuthenga uma azibonakali.",
-
-  "premiumBuyCredits200": "Thenga izikhuselo ezingama-200",
-  "premiumBuyCredits400": "Thenga izikhuselo ezingama-400",
-  "premiumBecomeChampionOneTime": "Uthuthukisele ku-Barakah",
-  "premiumChampionHint": "Njengoba une-Barakah, ungakwazi ukufakela ngokusizakala ekuthomeni izikhuselo ezingaphansi.",
-
-  "premiumUpgradeCta": "Uthuthukisele",
-  "premiumRequiredForCategory": "Lo mqulu uwula kuphela kubasebenzi bakaAllah abanema-Barakah. Uthuthukisele ku-Settings ukuze uvule okugcina okusesikholo.",
-  "premiumBenefitsBasic": "Vula i-Barakah ukuze uthole izikhuselo eziphansi, unike ahamahlobo akuthshenziseka, kanye uqhubeke ngaphandle kokuvinjelwa.",
-  "premiumBenefitsChampion": "Une-Barakah. Uma ucethe okakhu, faka izikhuselo zokutsha kanye uqhubeka ngaphandle kokuvinjelwa.",
-  "premiumButtonBecomeChampion": "Vula i-Barakah",
-  "premiumButtonTopup1000": "Faka izikhuselo ezinezingane-1000",
-  "premiumChampionBadge": "I-Barakah isebenza",
-  "premiumLoadingStore": "Kulayida i-store…",
-
-  "blessedTitle": "Uhlelo lwe-Barakah",
-  "blessedSubtitleGrace": "Vula okugcina kweAyara.",
-  "blessedSubtitleBlessed": "Une-Barakah. Udinga okuthile okutsha?",
-
-  "blessedCurrentPlan": "Uhlelo olusekelwayo: {plan}",
-  "blessedReflectionsStatus": "Izikhuselo: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Okuthenga akukutholakala njengamanje.",
-  "blessedProductNotAvailable": "Umkhiqizo lolu akutholakala ku-store njengamanje. Zama futhi kamuva.",
-  "blessedPurchaseError": "Okuthile kushonele ngokuthenga. Zama futhi.",
-  "blessedSignInToPurchase": "Ngena ukuze uthenga izikhuselo noma uvule i-Barakah.",
-
-  "blessedRestorePurchases": "Zibuye okuthenga",
-  "blessedProcessing": "Kusetshenziswa…",
-  "blessedRestoreHintTitle": "Selivule i-Barakah noma izikhuselo kwedivayisi lolu noma enye?",
-  "blessedRestoreHintBody": "Zibuye okuthenga uma azibonakali.",
-
-  "blessedBuyReflections100": "Faka izikhuselo ezingama-100",
-  "blessedBuyReflections200": "Thenga izikhuselo ezingama-200",
-  "blessedBuyReflections400": "Thenga izikhuselo ezingama-400",
-  "blessedBecomeBlessedOneTime": "Uthuthukisele ku-Barakah",
-  "blessedTopupHint": "Njengoba une-Barakah, ungakwazi ukufakela ngokusizakala ekuthomeni izikhuselo ezingaphansi.",
-
-  "blessedUpgradeCta": "Uthuthukisele",
-  "blessedRequiredForCategory": "Lo mqulu uwula kuphela kubasebenzi bakaAllah abanema-Barakah. Uthuthukisele ku-Settings ukuze uvule okugcina okusesikholo.",
-  "blessedFeatureLocked": "Vula i-Barakah ukuze unike ukungenela ohlobo lolu.",
-  "lockedCategoriesHint": "Amahlobo anikezwe kubasebenzi baka-Barakah. Vula wona ukuze ukhole izikhuselo ezingaqobo ekhambi lakho.",
-  "blessedBenefitsGrace": "Vula i-Barakah ukuze uthole izikhuselo eziphansi, unike ahamahlobo akuthshenziseka, kanye uqhubeke ngaphandle kokuvinjelwa.",
-  "blessedBenefitsBlessed": "Une-Barakah. Uma ucethe okakhu, faka izikhuselo zokutsha kanye uqhubeka ngaphandle kokuvinjelwa.",
-  "blessedButtonBecomeBlessed": "Vula i-Barakah",
-  "blessedButtonTopup1000": "Faka izikhuselo ezinezingane-1000",
-  "blessedBadge": "I-Barakah isebenza",
-  "blessedLoadingStore": "Kulayida i-store…",
-
-  "freePlanBlockedTitle": "Usebenzisile izikhuselo zakho zokuqala",
-  "freePlanBlockedBody": "Une-Standard uhlelo kunesikhuselo zokuqala, futhi usifinyele umkhela. Ukuze uqhubeke — kanye uvule amahlobo akuthshenziseka — uthuthukisele ku-Barakah.",
-  "freePlanBlockedCtaGoPremium": "Buka okukhethwayo kwe-Barakah ngezansi",
-
-  "graceBlockedTitle": "Usebenzisile izikhuselo zakho zokuqala",
-  "graceBlockedBody": "Une-Standard uhlelo kunesikhuselo zokuqala, futhi usifinyele umkhela. Ukuze uqhubeke — kanye uvule amahlobo akuthshenziseka — uthuthukisele ku-Barakah.",
-  "graceBlockedCtaGoBlessed": "Buka okukhethwayo kwe-Barakah ngezansi",
-
-  "rateGuestMustSignIn": "Ngena ukuze usebenzise uAyara kanye izikhuselo zakho.",
-
-  "guestNoCreditsTitle": "Indlela yokumangcembe",
-  "guestNoCreditsBody": "Njengomuntu owelula ungakwazi ukubheka i-app, kodwa awukwazi ukusebenzisa izikhuselo. Ngena kamuva ku-Settings ukuze usebenzise izikhuselo kanye ululule okuthenga.",
-
-  "guestNoReflectionsTitle": "Indlela yokumangcembe",
-  "guestNoReflectionsBody": "Njengomuntu owelula ungakwazi ukubheka i-app, kodwa awukwazi ukusebenzisa izikhuselo. Ngena kamuva ku-Settings ukuze usebenzise izikhuselo kanye ululule okuthenga.",
-
+  "settingsFreeLimitUsedTitle": "Izikali zezikhawu zikusetshenziswe",
+  "settingsFreeLimitUsedDescription": "Izikali zezikhawu zedivayisi leningi zikusetshenziswe. Phukulisela ku-Wilaya noma thenga izikali ezengeziwe ukuqhubeka.",
+  "settingsStarterCreditsUsedTitle": "Izikali zezikhawu zikusetshenziswe",
+  "settingsStarterCreditsUsedDescription": "Izikali zezikhawu zedivayisi leningi zikusetshenziswe. Phukulisela ku-Wilaya noma thenga izikali ezengeziwe ukuqhubeka.",
+  "deviceBoundError": "Ledivayisi leningi selichhunywe kwenye i-akhawunti. Sicela ungene ngo-akhawunti eyokuqala.",
+  "premiumTitle": "Uhlobo lwe-Wilaya",
+  "premiumSubtitleBasic": "Vula kabusha okuwongekayo kwe-Ayara.",
+  "premiumSubtitlePremium": "Unjenge-Wilaya. Idinga izikali ezengeziwe?",
+  "premiumCurrentPlan": "Uhlelo lwamanje: {plan}",
+  "premiumCreditsStatus": "Izikali: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "Izikralo azitholakali ngalesi sikhathi.",
+  "premiumSignInToPurchase": "Ungena ukuze uthenga izikali noma uvule u-Wilaya.",
+  "premiumRestorePurchases": "Buyisela ukralo",
+  "premiumProcessing": "Ifakwe...",
+  "premiumRestoreHintTitle": "Sekutholele u-Wilaya noma izikali ledivayisi leningi noma enye?",
+  "premiumRestoreHintBody": "Buyisela ukralo uma kuvele akubonakali.",
+  "premiumBuyCredits200": "Thenga izikali ezingama-200",
+  "premiumBuyCredits400": "Thenga izikali ezingama-400",
+  "premiumBecomePremiumOneTime": "Phukulisela kuhlobo lwe-Wilaya",
+  "premiumTopupHint": "Nge-Wilaya, ungakwazi ukulelekela nge-izikali ezengeziwe noma nini.",
+  "premiumUpgradeCta": "Phukulisela",
+  "premiumRequiredForCategory": "Lesi sigaba silandelwe kuphela abathambi be-Wilaya. Phukulisela kuSettings ukuvula konke okuqukethwe okusheshayo.",
+  "premiumBenefitsBasic": "Vula u-Wilaya ukufumana izikali ezengeziwe, ufinyelele izigaba zepremiyamu, kanye ukuqhubeka noma nini uma usudinga amaqondiso.",
+  "premiumBenefitsPremium": "Ujinge-Wilaya. Uma ushontile, lingeza izikali ezengeziwe kanye uqhubeka ngaphandle kokunukelwa.",
+  "premiumButtonBecomePremium": "Vula u-Wilaya",
+  "premiumButtonTopup1000": "Lingeza izikali ezingama-1000",
+  "premiumBadge": "U-Wilaya usebenzayo",
+  "premiumLoadingStore": "Iloading inkosiyi…",
+  "premiumProductNotAvailable": "Umkhiqizo lokhu akutholakali kwinkosiyi ezikhona. Sicela uzame futhi kamuva.",
+  "premiumPurchaseError": "Kwenzeka okuthile okungalungile ngesikhathi sokuthenga. Sicela uzame futhi.",
+  "premiumBuyCredits100": "Lingeza izikali ezingama-100",
+  "premiumFeatureLocked": "Vula u-Wilaya ukufinyelele kulesi sici.",
+  "lockedCategoriesHint": "Ezinye izigaba ziyabelwe kuphela amalungu e-Wilaya. Vula zona ukubheka isikali ngayinye ekuseni kwakho.",
+  "freePlanBlockedTitle": "Ukusetshenziswe kwezikali zezikhawu kuphele",
+  "freePlanBlockedBody": "Unjenge-Okuxonela uhlelo onobazifo bezikhawu, futhi wamfikele umkhawulo. Ukuqhubeka — kanye nokuvula izigaba zepremiyamu — phukulisela ku-Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Bona izinketho ze-Wilaya ngezansi",
+  "graceBlockedTitle": "Ukusetshenziswe kwezikali zezikhawu kuphele",
+  "graceBlockedBody": "Unjenge-Okuxonela uhlelo onobazifo bezikhawu, futhi wamfikele umkhawulo. Ukuqhubeka — kanye nokuvula izigaba zepremiyamu — phukulisela ku-Wilaya.",
+  "graceBlockedCtaGoPremium": "Bona izinketho ze-Wilaya ngezansi",
+  "rateGuestMustSignIn": "Ungena ukusetshenzisa u-Ayara kanye nezikali zakho.",
+  "guestNoCreditsTitle": "Uhlobo lweGuest",
+  "guestNoCreditsBody": "Njenguguest ungakwazi ukubheka uhlelo, kodwa akekho izikali. Ungena kamuva kuSettings ukusetshenzisa izikali kanye nokuvula ukralo.",
   "guestDialogContinue": "Qhubeka",
-  "guestDialogLoginInstead": "Ngena endaweni",
-
-  "optionalLabel": "okungenamcingi",
-
-  "accountDeleteSuccessTitle": "I-akhawunti isuswe",
-  "accountDeleteSuccessBody": "I-akhawunti yakho kanye imininingwane ehlobene nayo isuswe ngokuphelele.",
+  "guestDialogLoginInstead": "Ungena kunoma yini",
+  "optionalLabel": "okuzenzakalela",
+  "accountDeleteSuccessTitle": "I-akhawunti isusiwe",
+  "accountDeleteSuccessBody": "I-akhawunti yakho kanye nemininingwane enhlobonhlobo isusiwe ngephutha.",
   "accountDeleteSuccessClose": "Vala",
-  "accountDeleteErrorTitle": "Akukwazanga ukususa i-akhawunti",
-  "accountDeleteErrorClose": "Kulungile",
-  "accountDeleteReauthCancelled": "Ukuguqula kamuva kuvalawe. Ngena futhi kanye uzame kamuva.",
-  "accountDeleteReauthRequired": "Ukususa i-akhawunti kudingelela ukungena okushadayo. Phuma, ngena futhi, kanye uzame kamuva.",
-  "settingsDeletePermanentWarning": "Oku kwenziwa ngokuphelele futhi akukwazi ukuxazulula. Imininingwane yonke ehlobene ne-akhawunti yakho izosuswa.",
-
-  "dailyGraceTitle": "Ikhethelo Losuku",
-  "dailyGraceScriptureLabel": "VESI LOSUKU",
-  "dailyGraceSaintLabel": "ISIKHUMBA SOMBHALELA WOVIKI",
-  "dailyGraceReflectionLabel": "ISIKHUSELO SAKUSIHLWA",
-  "dailyGraceCopiedToast": "Vesi kopwe ku-clipboard",
-
-  "dailyScripture0Text": "Lokho okuba abahle kuzoba emagadini kanye emifuleni, ekusethuleni kwendlu yomhlaba ongamandla.",
-  "dailyScripture0Ref": "Qur'an 54:54-55",
-  "dailyScripture1Text": "Futhi sithumela wena, Muhammad, kuphela njengesikhalo sahlanu lolo lonke.",
-  "dailyScripture1Ref": "Qur'an 21:107",
-  "dailyScripture2Text": "AkaAllah wona anele umuntu wakhe? Kodwa bamtshela enye imininingwane enye.",
-  "dailyScripture2Ref": "Qur'an 39:36",
-  "dailyScripture3Text": "Ingabe ukuzonda okuthile kanye okuhle kuwe; kanye ingabe ukuthanda okuthile kanye okubi kuwe. Kanye Allahuyaziyo, endaweni yakho kayizakuthi.",
-  "dailyScripture3Ref": "Qur'an 2:216",
-  "dailyScripture4Text": "Lokho okuba AllahUnomuntu owazo abapha.",
-  "dailyScripture4Ref": "Qur'an 2:153",
-  "dailyScripture5Text": "Ngakho ukhumbule mina; ngizokhumbule wena. Kanye ngiwe ngobusiswa futhi ungakhanyi mina.",
-  "dailyScripture5Ref": "Qur'an 2:152",
-  "dailyScripture6Text": "Lokho okuba ngabanobuhle ekusikeni kaAllah kunobuntu abulungile kunabantu.",
-  "dailyScripture6Ref": "Qur'an 49:13",
-  "dailyScripture7Text": "Kanye iNkosi yakho ibe nehlonipha okukholo kuphela, kanye okukhuleka kumdali wakho.",
-  "dailyScripture7Ref": "Qur'an 17:23",
-  "dailyScripture8Text": "Lokho okuba kunokufa kunaye ukulula.",
-  "dailyScripture8Ref": "Qur'an 94:6",
-  "dailyScripture9Text": "Kanye uyilo luvalo lokho lapho ulele. Kanye Allah, kohwo okwenzayo, ufuna.",
-  "dailyScripture9Ref": "Qur'an 57:4",
-  "dailyScripture10Text": "AllahAwudalwe umuntu okuqothula okudlula ekokukhulume.",
-  "dailyScripture10Ref": "Qur'an 2:286",
-  "dailyScripture11Text": "Kanye kuye okuyethemba ku-Allah — ngakho yena anele kumuntu.",
-  "dailyScripture11Ref": "Qur'an 65:3",
-  "dailyScripture12Text": "Ikhubeka lami libambele zonke izinto.",
-  "dailyScripture12Ref": "Qur'an 7:156",
-  "dailyScripture13Text": "Kanye uma umuntu wobuntu wami ubuzwa wena mayelana mina — lokho okuba mina esondelene. Ngiphendulela kuMuntu ozisiza lapho efuna.",
-  "dailyScripture13Ref": "Qur'an 2:186",
-  "dailyScripture14Text": "Kuye okwenzo abahle, okunini noma owesifazane, ngaphambi kokuba uMuntu — Sizokwenza kumuntu ukuphila impilo entle.",
-  "dailyScripture14Ref": "Qur'an 16:97",
-  "dailyScripture15Text": "Lokho okuba Allah ayibuyele inganekwane yabantu ngaphandle uma sibuyela ekumlawuleni.",
-  "dailyScripture15Ref": "Qur'an 13:11",
-  "dailyScripture16Text": "Ngakho awudinwe futhi awuzikhumbe, kanye uzoba phezulu uma une-Iman oqotho.",
-  "dailyScripture16Ref": "Qur'an 3:139",
-  "dailyScripture17Text": "O umuntu wobuntu wami abenzile nokusala, awufune khanya kaAllah. Lokho okuba AllahUyafakela zonke izimali.",
-  "dailyScripture17Ref": "Qur'an 39:53",
-  "dailyScripture18Text": "Kanye kuye okothemba ka-Allah — Yenziwe umuntu umuntu, kanye yonakalelele kumuntu ophela okuthathwa zisola.",
-  "dailyScripture18Ref": "Qur'an 65:2-3",
-  "dailyScripture19Text": "Awudinwe khanya kaAllah.",
-  "dailyScripture19Ref": "Qur'an 12:87",
-  "dailyScripture20Text": "Kanye senze i-Qur'an elula ukukhumbula. Ngakho kukhona umuntu ozokhumiselela?",
-  "dailyScripture20Ref": "Qur'an 54:17",
-  "dailyScripture21Text": "Kanye wamthola lowelula kanye wamkhomba indlela.",
-  "dailyScripture21Ref": "Qur'an 93:7",
-  "dailyScripture22Text": "Kanye iNkosi yakho yathi: Nxuse mina; ngizothukuthela.",
-  "dailyScripture22Ref": "Qur'an 40:60",
-  "dailyScripture23Text": "Kanye lokho okusuke sihlobulule abantwana boAdam.",
-  "dailyScripture23Ref": "Qur'an 17:70",
-  "dailyScripture24Text": "Kanye ithandeka ngesisizane emasikeni kanye nokukhuleka.",
-  "dailyScripture24Ref": "Qur'an 2:45",
-  "dailyScripture25Text": "Kuye okwenzo ikhweba lengqali yokuhle uzobuyela.",
-  "dailyScripture25Ref": "Qur'an 99:7",
-  "dailyScripture26Text": "Lokho okuba kuthwala kaAllah esondelene.",
-  "dailyScripture26Ref": "Qur'an 2:214",
-  "dailyScripture27Text": "Kanye kuye okubuse ilesisikhalo — ilesisikhalo lakhe kuphela kunoyeza kumuntu.",
-  "dailyScripture27Ref": "Qur'an 31:12",
-
-  "dailyReflection0": "Njengalolu suku lutholakala, cabanga umzuzo owodwa lapho ikhuhbeka kaAllah yayikhonjisiwe.",
-  "dailyReflection1": "Zuleta ku-Allah konke okucindezele inhliziyo yakho losuku.",
-  "dailyReflection2": "Qala ibusiswa elilodwa losuku kanye nongiwe.",
-  "dailyReflection3": "Lahla uthando olwazi wokuba ububenzwe ekhukhuleni kaAllah.",
-  "dailyReflection4": "Cabanga lapho wavele unokusiza kanye ukunobusiswa losuku.",
-  "dailyReflection5": "Yekela okongashubeki kanye uthembe uhlelo oluhle lukaAllah.",
-  "dailyReflection6": "Njengalolu suku lufika ekuhlosholweni, samkela kuthula ekukhumbuleni kaAllah.",
-  "dailyReflection7": "Cabanga indlela yokhumbule imikhuleko yakho losuku, kanye ngiwe ka-Allah ngasinye.",
-  "dailyReflection8": "Cabanga umzuzo lapho ukunxanibela kukaAllah kwamusiza losuku.",
-  "dailyReflection9": "Yisela uxolo nokukudlula losuku — ikhuhbeka kaAllah ayinalangilizelo.",
-  "dailyReflection10": "Qala umuntu owodwa owakusiza losuku kanye ensele kubawo.",
-  "dailyReflection11": "Hlala nekunofa: yini evakalayo yaka-Allah losuku okongakumbuziwe?",
-  "dailyReflection12": "Cabanga iVesi ye-Qur'an enasikhela lapho ulele ngakho.",
-  "dailyReflection13": "Cabanga indlela oyisebenzisile isikhathi losuku — kanye unika uNkulunkulu nkosi kusuku elitsha.",
-  "dailyReflection14": "Lahla uthando wokuba indlela iyofa losuku, AllahUnave kwalo.",
-  "dailyReflection15": "Cabanga indlela yomsiza umkhulu noma isiphakamiso losuku kaAllah umuntu.",
-  "dailyReflection16": "Njengamahlo atholakala, yenza iTawbah — AllahUyanonda abantu abubuyela kumuntu.",
-  "dailyReflection17": "Cabanga ubuhle AllahUbuyile losuku, nanoma kuncane.",
-  "dailyReflection18": "Cabanga okuwenzayo losuku kanye indlela ekuzonganisa kumuntu.",
-  "dailyReflection19": "Yekela okucindezelela losuku — AllahUyabambela okongashubeki.",
-  "dailyReflection20": "Cabanga umzuzo lapho wawungakwazi ukwenza okuhle, kanye funda kahle.",
-  "dailyReflection21": "Yenza isikhuselo sabantu abaculela — ikhuselo lakho yilipho kubo.",
-  "dailyReflection22": "Ubuyele ibusiswa elidlala libona kanye uficha isikhathi ukuthande AllahU.",
-  "dailyReflection23": "Cabanga azwilindini lwakho losuku — baba kuAllahu? Kusukela ngesomo, thamela futhi.",
-  "dailyReflection24": "Njengamahlo themba, lalela uAllahu ekungunyeni.",
-  "dailyReflection25": "Cabanga lapho wamthola amandla losuku — amandla akhona avela ku-Allah.",
-  "dailyReflection26": "Qala okothile ozonyenzethu kusulo, kaAllahu, okongakwenzayo losuku.",
-  "dailyReflection27": "Njengoba ulungiselela ukulala, nikela umuntu kaAllahu — Yena Engile Eyalungile.",
-
-  "dailyRoleModel0": "Profeta Muhammad ﷺ",
-  "dailyRoleModel1": "Wezi Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Profeta Ibrahim (AS)",
-  "dailyRoleModel44": "Profeta Musa (AS)",
-  "dailyRoleModel45": "Profeta Isa (AS)",
-  "dailyRoleModel46": "Profeta Yusuf (AS)",
-  "dailyRoleModel47": "Profeta Dawud (AS)",
-  "dailyRoleModel48": "Profeta Sulayman (AS)",
-  "dailyRoleModel49": "Profeta Nuh (AS)",
-  "dailyRoleModel50": "Profeta Yunus (AS)",
-  "dailyRoleModel51": "Profeta Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Vumela u-Ayara ukusetshenzisa indawo yami kuQibla nomkhuba wemikhuleko",
-  "locationConsentHint": "Kusetshenziswa kuphela kumahlobo. Indawo yakho ayifakeli noma ikhonqwe.",
-
-  "askPageTitle": "Ulisa u-Ayara",
-  "askPageDescription": "Ulise okuthile mayelana neiman, imikhuleko, impilo, noma isiko lika-Islamic kanye uthole ikhethelo okumiswe ku-Qur'an kanye neSunnah.",
-  "askPageInputHint": "Loba umbuzo wakho…",
-  "askPageSubmitCta": "Ulisa",
-  "askPageInputEmptyError": "Ngubani umbuzong kuqala.",
+  "accountDeleteErrorTitle": "Ayikwazanga uksusa i-akhawunti",
+  "accountDeleteErrorClose": "KULUNGILE",
+  "accountDeleteReauthCancelled": "Ukuzibuyisela kukhansele. Sicela ungene futhi kunazama uksusa.",
+  "accountDeleteReauthRequired": "Uksusa i-akhawunti sidinga ngengenela esikhashane. Sicela uphume, ungene futhi, bese uzama uksusa.",
+  "settingsDeletePermanentWarning": "Lokhu kwenzo kunqoba futhi akekho umzila wokubuyela umva. Konke imininingwane enhlobonhlobo ne-akhawunti izosuswa.",
+  "dailyGraceTitle": "Ukuqondiswa Kwensuku",
+  "dailyGraceScriptureLabel": "AYATHI YENSUKU",
+  "dailyGraceSaintLabel": "UZAZI YESHUMI LELI",
+  "dailyGraceReflectionLabel": "ISIKALI YESIKUSENI",
+  "dailyGraceCopiedToast": "Ayathi lokopele ohwini lokustora",
+  "locationConsentLabel": "Vumela u-Ayara ukusetshenzisa indawo yami yekhibula nozikhathi zokukhuleka",
+  "locationConsentHint": "Isetshenziswe kuphela kulezi zici. Indawo yakho akusikho icela noma igcinwe.",
+  "askPageTitle": "Bua u-Ayara",
+  "askPageDescription": "Bua noma yini ngoukholo, okukuleka, impilo, noma inqubo elwelaphezulu futhi ufumane amaqondiso agxile ku-Quran namazifundisela e-Ahl al-Bayt.",
+  "askPageInputHint": "Bhala umbuzo wakho lapha…",
+  "askPageSubmitCta": "Bua",
+  "askPageInputEmptyError": "Sicela ubhale umbuzo kuqala.",
   "askResultYourQuestion": "Umbuzo wakho",
-
-  "guidancePageTitle": "Imikhuleko Nekhethelo",
-  "qiblaFacingMecca": "Ubhekela e-Makkah",
-  "qiblaCompassInstruction": "Shumeka ifoni yakho kube inethile ye-gold ibheka phezulu.\nLelilizwe libheka ku-Qibla (Makkah).",
-  "qiblaGpsUnavailableBody": "Isignali ye-GPS ibe ilegezi. Phuma ngaphandle kanye thinta i-Retry.",
+  "guidancePageTitle": "Khibula",
+  "qiblaFacingMecca": "Ubhekene noMakkah",
+  "qiblaCompassInstruction": "Songa iselfoni yakho de ine-usi eyolintshi ikhomele phezulu.\nLelo lelo bheku elikhomele ku-Khibula (uMakkah).",
+  "qiblaGpsUnavailableBody": "Isignali saseGPS igoqile. Phuma ngaphandle futhi thapha Zama futhi.",
   "qiblaRetry": "Zama futhi",
-  "qiblaTitle": "Isalela seQibla",
-  "qiblaDistanceLabel": "{km} km e-Makkah",
+  "qiblaTitle": "Indawo yeKhibula",
+  "qiblaDistanceLabel": "{km} km kuMakkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
   "qiblaLocationNeededTitle": "Indawo idingekile",
-  "qiblaLocationNeededBody": "Vumela ukufinyelela endaweni ukuze u-Ayara akwazi ukulinganisa isalela seKaaba e-Makkah lapho ulele khona.",
-  "qiblaOpenSettings": "Vula imihlelo",
-  "qiblaCompassLoading": "Ifuna indawo yakho…",
-  "qiblaTowardMecca": "Ubheke e-Makkah",
-
-  "prayerTimesTitle": "Isikhathi semikhuleko",
-  "prayerTimesFajr": "Fajr",
-  "prayerTimesDhuhr": "Dhuhr",
-  "prayerTimesAsr": "Asr",
-  "prayerTimesMaghrib": "Maghrib",
-  "prayerTimesIsha": "Isha",
+  "qiblaLocationNeededBody": "Vumela ufinyelele endaweni ukuze u-Ayara akwazi ukubalwa indlela yeKaaba kuMakkah lapho unjalo.",
+  "qiblaOpenSettings": "Vula imistiselelo",
+  "qiblaCompassLoading": "Ifumana indawo yakho…",
+  "qiblaTowardMecca": "Kuhla kuMakkah",
+  "prayerTimesTitle": "Izikhathi zokukhuleka",
+  "prayerTimesFajr": "iFajr",
+  "prayerTimesDhuhr": "iDhuhr",
+  "prayerTimesAsr": "iAsr",
+  "prayerTimesMaghrib": "iMaghrib",
+  "prayerTimesIsha": "iIsha",
   "prayerTimesLocationNeededTitle": "Indawo idingekile",
-  "prayerTimesLocationNeededBody": "Vumela ukufinyelela endaweni ukuze u-Ayara akwazi ukulinganisa isikhathi semikhuleko esenele kumuzi wakho.",
+  "prayerTimesLocationNeededBody": "Vumela ufinyelele endaweni ukuze u-Ayara akwazi ukubalwa izikhathi zokukhuleka ezibalulekile omuzi wakho.",
   "prayerTimesNextLabel": "Okulandelayo",
-  "prayerTimesDoneLabel": "Sekuqedile",
-
-  "monthlyPrayerTimesTitle": "Isikhathi semikhuleko ngenkosi",
-  "monthlyPrayerTimesViewButton": "Bheka Inyanga Yonke",
+  "prayerTimesDoneLabel": "Kuqedile",
+  "monthlyPrayerTimesTitle": "Izikhathi zokukhuleka ngeminyanga",
+  "monthlyPrayerTimesViewButton": "Bona Inyanga Eliphelele",
   "monthlyPrayerTimesNextMonth": "Inyanga elandelayo",
   "monthlyPrayerTimesDayHeader": "Usuku",
-
-  "sharePrayerTimes": "Fakela isikhathi semikhuleko",
-
-  "prayerNotificationsTitle": "Umsolo wemikhuleko",
-  "prayerNotificationsDescription": "Wamukela umsolo onobuhle ngaphambi komikhuleko ngayinye ukuze uhlale naxhumeke lonke ilanga.",
-  "prayerNotificationsEnable": "Kulula umsolo wemikhuleko",
-  "prayerNotificationsOpenSettings": "Vula imihlelo yomsolo",
-  "prayerNotificationsDenied": "Izimasolo ziqhumule",
-  "prayerNotificationsDeniedHint": "Yea ku-Settings kanye vumela izimasolo ze-Ayara ukuze wamukele umsolo wesikathi semikhuleko.",
-
-  "notificationsConsentLabel": "Vumela izimasolo kumikhuleko",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — Imikhuleko yakuseni",
-  "prayerNotifBodyFajr": "Okuhle kumikhuleko yilemikhuleko yakuseni. Vuka, isichule, kanye uva phambi kuka-Allah.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Imikhuleko lomolo",
-  "prayerNotifBodyDhuhr": "Ume osuku kanye ubuyele ku-Allah. Isikhathi semikhuleko se-Dhuhr sefihlile.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — Imikhuleko kwasikalo",
-  "prayerNotifBodyAsr": "Lindela imikhuleko yakamuva. Isikhathi se-Asr sefihlile — awuyilethi lapho iyapakashwa.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — Imikhuleko ngokufa kwelanga",
-  "prayerNotifBodyMaghrib": "Ilanga selifela. Nikela imikhuleko yeMaghrib kanye ube ngesisako ku-Allah losuku.",
-
-  "prayerNotifTitleIsha": "🌙 Isha — Imikhuleko yasebusuku",
-  "prayerNotifBodyIsha": "Phumula losuku ngokhumbulo luka-Allah. Hayya alal falah — zoza ekuphumeleni.",
-
-  "outOfReflectionsBannerText": "Usebenzisile konke izikhuselo zakho",
-  "outOfReflectionsBannerCta": "Wukela okuthile",
-
+  "sharePrayerTimes": "Yabelana ngezikhathi zokukhuleka",
+  "notificationsSectionTitle": "Izaziso",
+  "notificationsSectionSubtitle": "Okuxhumanisa kokukhuleka, iziventi zekhalenda kanye nokunye",
+  "dailyReflectionReminderTitle": "Isikali Yensuku",
+  "dailyReflectionReminderDescription": "Umciza okunzwisisa wensuku okuzobakela ukhula u-Ayara kanye nokuxhumanisa noukholo.",
+  "dailyReflectionReminderEnable": "Vumela isixwayiso senshuku",
+  "dailyReflectionReminderTimeLabel": "Isikhathi sesixwayiso",
+  "prayerNotificationsTitle": "Okuxhumanisa kokukhuleka",
+  "prayerNotificationsDescription": "Fumana umciza okunzwisisa ngaphambi kwesikhathi sokukhuleka ukuze ubame oxhunywe phakathi nendawo.",
+  "prayerNotificationsEnable": "Vumela okuxhumanisa kokukhuleka",
+  "prayerNotificationsOpenSettings": "Vula imistiselelo yokuzaziso",
+  "prayerNotificationsDenied": "Izaziso zishu imibili",
+  "prayerNotificationsDeniedHint": "Yiya kuSettings futhi vumela izaziso ze-Ayara ukuze ufumane okuxhumanisa kokukhuleka.",
+  "notificationsConsentLabel": "Vumela izaziso zesikhathi sokukhuleka",
+  "prayerNotifTitleFajr": "🌅 Ufajr — Okulukuleka kokuqaliswa",
+  "prayerNotifBodyFajr": "UFajr owokulukuleka wabathambi be-Ahl al-Bayt. U-Imam Ali (AS) wabe: Cgina isikhathi esokuqaliswa njenge-ithrust yakho elunge kakhulu. Susuka, zihlambulule, futhi ukhuleke uAllohu.",
+  "prayerNotifTitleDhuhr": "☀️ UDhuhr — Okulukuleka kusikhashalweni",
+  "prayerNotifBodyDhuhr": "Abamakugoba be-Ahl al-Bayt bathole umzwelu nokukhumbula. Mimisa usuku wakho, ntsunguza u-Dhuhr nge-Asr uma kunyakalwa, futhi ubuyisele inhliziyo yakho ku-Allohu.",
+  "prayerNotifTitleAsr": "🌤️ UAsr — Okulukuleka kwemva kwekuseni",
+  "prayerNotifBodyAsr": "Cgina isikhathi esokulukuleka, ngoba siyisivumelwano phakathi kwakho noAllohu. Isikhathi se-Asr sifikile — ungayilaseli ngaphandle kokukhumbula.",
+  "prayerNotifTitleMaghrib": "🌇 UMaghrib — Okulukuleka kokufa kwelanga",
+  "prayerNotifBodyMaghrib": "Ilanga lilele — umzwelu abamagoba be-Ahl al-Bayt babelinganiselwe. Nikelez u-Maghrib futhi vula izandla zakho ku-Allohu nge-dua ngaphambi kokusulela usuku.",
+  "prayerNotifTitleIsha": "🌙 UIsha — Okulukuleka koyisibhakela",
+  "prayerNotifBodyIsha": "Phokola usuku wakho eyo uAllohu. Abamakugoba bathukhele u-Salat al-Layl ngemva kwe-Isha — kodwa kuqala, qedela i-Isha futhi vala usuku ngokukhumbula kwakhe.",
+  "outOfReflectionsBannerText": "Usebenzisile konke izikali",
+  "outOfReflectionsBannerCta": "Fumana okungeziwe",
   "dhikrPageTitle": "Dhikr",
-  "dhikrTapToCount": "Thinta ibhande lokubala",
-  "dhikrResetButton": "Buyela kummuva",
+  "dhikrTapToCount": "Thapha isiyingi ukubalela",
+  "dhikrResetButton": "Zama futhi",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Seqedisile izikhuselo ezingama-99 zoAllah. Ngapela zibe okukhanya kwenhliziyo yakho.",
-
-  "disclaimerTitle": "Mayelana nekhethelo lesi-app",
-  "disclaimerBody": "U-Ayara unikeza izikhuselo ze-Islamic, izikhumbulo, kanye okusesikholo okusizakala ekuhambi kwakho kweiman. Lokhu okusesikholo kunikeza ngenhloso yokuziwa nokunethezeka kuphela.\n\nU-Ayara awubuyeli ulwazi oluzinhlobonhlobo.\nIkhethelo ku-app lolu ayisimonakelo somlizali osesichazamthethweni, imam, mufti, noma umfundisi obambe ikhaya. Uma une-imibuzo mayelana nokutshela kwabantu kaAllah, halal noma haram, noma okudingelwa umuntu, ngubani umlizali onesichazamthethweni owesichazamthethweni esikhalweni sakho.\n\nI-app lolu ayifakeli olwazi olunokushona.\nU-Ayara ayenza okushona olunokushona mayelana nokubudonda (Islamic jurisprudence) noma okudingelwa umuntu. Lokho laphakathi ayingumuntu owanele kumuntu noma okudingelwa umlizali.\n\nUkuhlakanipha kwesichazamthethweni kunokuhlobuka.\nI-Islam iqukethe ubuhle obuningi bokwethulela, izikole zokucabanga (madhabs), kanye nomqondo wesichazamthethweni. Okusesikholo ku-app lekunabububezi kumuntu beneral kanye awungamele isikole noma isiko ngasinye.\n\nAmasiko ayabalulekile.\nI-app lolu ifuna ukuthuthukisa inkuleka yakho sezikole okusesikholo ngokuze uhonore umlumelwano wemosikwini wakho, imam, kanye nesikhole samasiko. Siyakubangela wena uhlale naye kanye ufunde ezintsha umlizali oselengu-qualified kusikole lakho.",
-  "disclaimerClose": "Ngiyaqonda",
-  "disclaimerInfoTooltip": "Mayelana nekhethelo lesi-app",
-  "disclaimerSettingsSubtitle": "Kumayelana nokuziwa kuphela. Thinta ukuze ufunde ichibi lonke.",
-  "disclaimerSectionHeader": "Ichibi lekhethelo"
+  "dhikrCompleteMessage": "Kuqedile okuthi kukhumbula u-Allohu ngesikhathi esingu-100. Akucele ikhona inhlobo yenlangeni enhliziyo yakho.",
+  "disclaimerTitle": "Ngokubhekwa kokuqondiso kahaba kapha",
+  "disclaimerBody": "U-Ayara unike izikali elwelaphezulu, izixwayiso, nokunqoba okululukaziwe ukusekela isafari sokukholo kwakho, okugxile ku-Quran namazifundisela e-Ahl al-Bayt. Okuqukethwe okuneshwayo kunwe noma inqobo yokuqedwa okufutshaniswe.",
+  "disclaimerClose": "Ngibukile",
+  "disclaimerInfoTooltip": "Ngokubhekwa kokuqondiso kahaba kapha",
+  "disclaimerSettingsSubtitle": "Nokusabela nengqali. Thapha ukubuka isizathu esiphakamisayo.",
+  "disclaimerSectionHeader": "Isixwayiso sesikali",
+  "navHome": "Ekhaya",
+  "navReflect": "Bheka",
+  "navDuas": "UDuas",
+  "navCalendar": "Ukuphapha",
+  "dashboardToday": "NAMUHLA",
+  "dashboardComingUp": "Okulandelayo",
+  "dashboardDaysUnit": "{count, plural, one {usuku} other {izinsuku}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Ufinyelele Okukhawulelayo",
+  "quickActionQibla": "Khibula",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Amaqondiso",
+  "quickActionPrayerTimes": "Izikhathi zokukhuleka",
+  "askAyaraTitle": "Bua u-Ayara",
+  "askAyaraSubtitle": "Bua noma yini nge-umbuzo welwelaphezulu futhi ufumane impendulo ecikile.",
+  "askAyaraHint": "ug. Yini okukhulunyazwa kwe-Ramadan?",
+  "askAyaraSubmit": "Bua",
+  "wisdomOfTheDayTitle": "Uhlanganisa Lwensuku",
+  "calendarScreenTitle": "Ukuphapha lweLwelaphezulu",
+  "calendarUpcomingOccasions": "Iziventi Ezozayo",
+  "calendarOccasionRemindersTitle": "Okuxhumanisa kweziventi",
+  "calendarOccasionRemindersHint": "Oqondiswa ngobusuku ngaphambi kwezventi ngayinye",
+  "calendarNotifPermissionDenied": "Imvume yokuzaziso iyachithwe. Ivumele kuSettings.",
+  "calendarNoEvents": "Azikho iziventi ezitholakali.",
+  "calendarAddToPhone": "Engeza ku-Phone Calendar",
+  "calendarAddedToPhone": "Engezwe ku-Calendar",
+  "calendarCountdownToday": "NAMUHLA",
+  "calendarCountdownTomorrow": "KUSENI",
+  "calendarCountdownDays": "ku-{days} izinsuku",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Jan",
+  "calendarMonthFeb": "Feb",
+  "calendarMonthMar": "Mar",
+  "calendarMonthApr": "Apr",
+  "calendarMonthMay": "Mey",
+  "calendarMonthJun": "Jun",
+  "calendarMonthJul": "Jul",
+  "calendarMonthAug": "Agu",
+  "calendarMonthSep": "Sep",
+  "calendarMonthOct": "Okt",
+  "calendarMonthNov": "Nov",
+  "calendarMonthDec": "Des",
+  "calendarSeasonMuharramEarly": "Izinsuku zeMuharram — khumbula u-Karbala",
+  "calendarSeasonAshura": "i-Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — izinsuku zokulandela kanye nesikali",
+  "calendarSeasonArbaeen": "i-Arbaeen — izinsuku ezingamashumi amane ka-Husayn",
+  "calendarSeasonRoadToArbaeen": "Umzila wu-Arbaeen",
+  "calendarSeasonMabath": "i-Mab'ath Mubarak — ivuka lethathulo",
+  "calendarSeasonMidShaban": "i-Sha'ban emapupu — usuku lokuzalwa kwe-Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — inyanga ye-Quran",
+  "calendarSeasonGhadir": "i-Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "IDuas & Ziyarat",
+  "duasSearchHint": "Sesha duas, ziyarat…",
+  "duasFilterAll": "Konke",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} duas & ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Azikho duas ezitholakali.",
+  "duaCategoryDaily": "Yensuku",
+  "duaCategoryWeekly": "Yebiza",
+  "duaCategoryOccasions": "Iziventi",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Izalwa",
+  "eventTypeMartyrdom": "Ukuweleka",
+  "eventTypeOccasion": "Iventi",
+  "duaCopyTooltip": "Kopela ukuhunyushwa",
+  "duaToggleTransliteration": "Isikolo",
+  "duaToggleTranslation": "Ukuhunyushwa",
+  "duaAskAiLabel": "Cela u-Ayara ukubheka loli dua",
+  "duaAskAiLockedLabel": "Cela u-Ayara (Wilaya)",
+  "duaAiLockedMessage": "Izichasiselo ze-Ayara zitholakali kulamuntu aba-Wilaya. Phukulisela kuSettings.",
+  "duaAiComingSoon": "Cela u-Ayara ngokubhekwa \"{name}\" — kuzozakala!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua lokopele ohwini lokustora.",
+  "tasbihAllahuAkbarMeaning": "UAllohu unkulu kakhulu",
+  "tasbihAlhamdulillahMeaning": "Konke okukudumela kuAllohu",
+  "tasbihSubhanallahMeaning": "Zingisile uAllohu",
+  "tasbihResetTooltip": "Zama futhi",
+  "tasbihCompleteTitle": "Tasbih Kuqedile",
+  "tasbihCompleteMessage": "Akucele u-Allohu avume dhikr yakho.",
+  "tasbihTapHint": "Thapha noma kuphi ukubalela",
+  "tasbihatScreenTitle": "Isiqalo Sokukhuleka",
+  "tasbihatScreenSubtitle": "IZINGISISO ZOKUKHULEKA",
+  "tasbihatScreenDescription": "Isiqalo esiphelele ekuzingiswa okwenziwe nakho ngemva kokukhuleka nje — kulandela inqubo ye-Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Izingiswa ubunye kanye okwesine",
+  "tasbihatArba3Info": "Ku-Shia jurisprudence, i-Tasbiḥāt al-Arbaʿa isikhathi i-Surah al-Fatiha (ubunye kanye okwesine) ye-Dhuhr, Asr, Maghrib, kanye ne-Isha. Kufanele ukuzikhumbula yonke indlela (wājib) futhi kumele isukela ngabathathu (mustaḥabb).",
+  "tasbihatArba3Translation": "Zingisile uAllohu · Konke okukudumela kuAllohu\nAkekho onye kungcwele ngaphandle ku-Allohu · UAllohu unkulu kakhulu",
+  "tasbihatArba3CompleteTitle": "Ukuzingisa Kuqedile",
+  "tasbihatArba3CompleteMessage": "Akucele okukhuleka kunivumwe — Āmīn",
+  "tasbihatArba3TapHint": "Thapha emva kwezingisa ngayinye",
+  "tasbihatZahraSubtitle": "Ngemva kokukhuleka ngayinye · izimaddade ezingama-100",
+  "tasbihatZahraOriginLabel": "Umsuka",
+  "tasbihatZahraHadith": "U-Lady Fatima al-Zahra (sa) kwamusela uProfethe ﷺ umkhulu. Wathi: \"Kaloku ngakungikhombisa kucinzelo okungemele? Sikhumbula Subḥānallāh izinsuku ezingama-33, Alḥamdulillāh izinsuku ezingama-33, kanye noAllāhu Akbar izinsuku ezingama-34 ngemva kokukhuleka ngayinye. Lokho kungemele kakhulu kulomkhulu.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Vol. 85",
+  "tasbihatZahraOpenCounter": "Vula Tasbīḥ Counter",
+  "tasbihatDuasTitle": "IDUAS EZISIKISISWE",
+  "tasbihatDuasSubtitle": "Emva kokugcina okukhuleka kwakho",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Ngemva kokukhuleka ngayinye okufanele",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Onaliphi umuntu ozingisa i-Āyat al-Kursī ngemva kokukhuleka ngayinye okufanele, akekho ekuseni ophakathi kwakhe nenkosi kungcwele ukufa. U-Imam al-Bāqir (a) wabe yiyo ina-verse enkulu ngazo zonke ku-Quran.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Ngemva kokukhuleka ngayinye · i-seal konke izicelo",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Ukuthuma ilogo kuProfethe ﷺ kanye nemindeni yakhe enobugcinane (Āl Muḥammad) kumele kugcinwe idiche yediya ngayinye. U-Imam al-Ṣādiq (a) wabe: \"Onoma idiya ihintile de uthumele ilogo kuMuḥammad kanye nemindeni yakhe.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Ngemva kokukhuleka ngayinye · kukhomotsha lwe-Imam wezikhathi",
+  "tasbihatDuaFarajSource": "Oqondiswe ngu-Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "Idua yokubuya kwe-Imam al-Mahdī (af), u-Imam oweshumi nalambili, oqondiswe nguBaba wakhe. Izingiswa yensuku nje abalifuthe be-Shia emva kokukhuleka ngayinye njengomsebenzi wokukholo ku-Imam ophilayo.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ weNtombazane Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "Ngemva kwe-Maghrib & Isha · ikhusulwa ngengeziwe",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "U-Imam al-Bāqir (a) wabe ukuba uzingisa i-Tasbīḥ al-Zahrā ngemva kwe-Isha ngaphambi kokuphinga kununga ngaphandle kwamarakʿah angama-1000. Okukhazimula kwayo kukhwele emadodeni.",
+  "tasbihFatimaGiftPre": "Izisodla zephrofethe",
+  "tasbihFatimaGiftPost": "izingiswa ngemva kokukhuleka ngayinye",
+  "prayerTrackerTitle": "UMKHANKASO WOKUKHULEKA",
+  "prayerTrackerPrayed": "Kukhuleka",
+  "prayerTrackerDayStreak": "{count} usuku olophakamisile",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Konke okukhuleka kuqedile namuhla. Akucele u-Allohu avume.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Kuqedile namuhla",
+  "dhikrTrackerNotDoneToday": "Akwenziwe namuhla",
+  "dhikrTrackerDayStreak": "{count} usuku olophakamisile",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Umciza we-Tasbīḥ",
+  "dhikrReminderDescription": "Umciza okunzwisisa wensuku okuzobakela uzingisa i-Tasbīḥ al-Zahrā (SA).",
+  "dhikrReminderEnable": "Vumela umciza we-Tasbīḥ",
+  "dhikrReminderTimeLabel": "Isikhathi sesixwayiso",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Hadith Yensuku",
+  "hadithLabelArabic": "ISIARABIKE",
+  "hadithLabelTranslation": "UKUHUNYUSHWA",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Yabelana noHadith",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nVia Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Edlule",
+  "hadithNavNext": "Elandelayo",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "Abantu Abangama-14 Abasebenza",
+  "imamsScreenSubtitle": "UmProfethe, uNtombazane Fatima, kanye nabamakugoba abayi-12 — abaqondisi abalinganiselwe bolwelaphezulu",
+  "imamLabelBorn": "Izalwa",
+  "imamLabelMartyrdom": "Ukuweleka",
+  "imamLabelStatus": "Isimo",
+  "imamSectionBiography": "UBIQOLO BAKABANTU",
+  "imamSectionFamousSaying": "UKUSHO OKUDUMILE",
+  "imamRoleProphet": "UmProfethe Wokupela",
+  "imamRoleInfallible": "Ongefikafiwe",
+  "imamOrdinal1": "U-Imam 1",
+  "imamOrdinal2": "U-Imam 2",
+  "imamOrdinal3": "U-Imam 3",
+  "imamOrdinal4": "U-Imam 4",
+  "imamOrdinal5": "U-Imam 5",
+  "imamOrdinal6": "U-Imam 6",
+  "imamOrdinal7": "U-Imam 7",
+  "imamOrdinal8": "U-Imam 8",
+  "imamOrdinal9": "U-Imam 9",
+  "imamOrdinal10": "U-Imam 10",
+  "imamOrdinal11": "U-Imam 11",
+  "imamOrdinal12": "U-Imam 12",
+  "duaAudioScreenTitle": "Lalela iDuas",
+  "duaAudioScreenSubtitle": "Khetha idua ukulalele. Thapha itayile ukusila noma upause.",
+  "duaAudioComingSoonMessage": "Umsindo wololi dua uzotholakali ekubuyamiseni okulandelayo.",
+  "duaAudioClose": "Vala",
+  "duaAudioError": "Ayikwazanga ukuloada umsindo. Sicela uhlole uxhumano lwakho.",
+  "duaAudioMetaTransmittedBy": "Othunyelwe ngu",
+  "duaAudioMetaOccasion": "Iventi",
+  "duaAudioMetaDuration": "Ubude besikhathi",
+  "quickActionDailyHadith": "Hadith Yensuku",
+  "quickAction14Masumeen": "Abantu Abangama-14",
+  "quickActionListenDuas": "Lalela",
+  "quickActionTasbihat": "Isiqalo Sokukhuleka",
+  "pilgrimageSectionTitle": "Uhambo Olukumqululu",
+  "pilgrimageSectionSubtitle": "Iziqalo esiphelele ku-Hajj & Umrah — uhambo lokuthwala kuMakkah kuAllohu okukude",
+  "hajjCardTitle": "i-Hajj",
+  "hajjCardSubtitle": "Isithako Sesine Solwelaphezulu",
+  "hajjCardDescription": "Uhambo lomqulu wenqobo — okufanele okukodwa ebungwaneni kumuntu onolwazi kanye nayo-muski",
+  "hajjScreenTitle": "Isiqalo se-Hajj",
+  "hajjScreenSubtitle": "Isiqalo senyanga senyanga kuhambo lomqulu",
+  "umrahCardTitle": "i-Umrah",
+  "umrahCardSubtitle": "Uhambo Oluncane Lokuthwala",
+  "umrahCardDescription": "Uhambo olunokuliqisa komoya olusingakwazi okuqaliswa nange ikuphi isikhathi senqobo",
+  "umrahScreenTitle": "Isiqalo Se-Umrah",
+  "umrahScreenSubtitle": "Isiqalo senyanga senyanga kuhambo oluncane lokuthwala",
+  "pilgrimageStepsTitle": "Izenzakalo & Izinyathelo",
+  "pilgrimageImportantNotesTitle": "Okubalulekile Okufanele Ukuzikhumbula",
+  "pilgrimageDuaTitle": "Dua yalolu nyathelo",
+  "pilgrimageJafariNoteTitle": "Iziqondiso ze-Ja'fari Fiqh",
+  "pilgrimageComplete": "✓ Qedlule",
+  "pilgrimageMarkDone": "Beka njengokuphothulwa",
+  "pilgrimageProgress": "{done} kwezingu-{total} izinyathelo",
+  "pilgrimageReadTime": "~{minutes} imiz",
+  "pilgrimageShiaNoteTitle": "Abahambi be-Shia",
+  "pilgrimageShiaNoteBody": "Abahambi be-Shia ngokuvamile nawo baya kuMedina ukuvakasha um-thapelo weProfethe Muhammad (SAW) ku-Masjid al-Nabawi, kanye nemikhiwa yamakugoba ezinhlanganini ekunanele nokuzikhumbula nokukhumbula okubalulekile nokuthwala okushwele. Okubalulekile kulamuntu abani-Shia.",
+  "hajjIntro": "I-Hajj i-sithako sesine solwelaphezulu, isifunelo okukodwa ebungwaneni kumuntu onolwazi kanye nayo-muski. Okwenziwe enyangeni ye-Dhul Hijjah, okulandelela kwenyawo yeProfethe Ibrahim (AS), umfo naye Ismail (AS), kanye neNtombazane Hajar. Kulamuntu be-Shia, i-Hajj nawo ihlanganisa okukudumela okukude nokuvakasha iindawo zokutsela zeProfethe (SAW) namalunga e-Ahlul Bayt kuMedina.",
+  "umrahIntro": "I-Umrah iyuhambo oluncane lokuthwala kuMakkah futhi, ngaphandle kwe-Hajj, ingakwazi okuqaliswa nange ikuphi isikhathi senqobo. Ngenkathi akusekho isifunelo, ibazifo okungeziwe okukudumele futhi okuthwele isandla solwelaphezulu. Ibahlukanisa imiqulu embalwa ne-Hajj kodwa kunqoba, ibazifo ezine eziyinhloko."
 }

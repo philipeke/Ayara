@@ -1,585 +1,629 @@
 {
   "@@locale": "ceb",
-
   "appTitle": "Ayara",
-
-  "languageSelectTitle": "Piliin ang iyong wika",
-  "languageSelectSub": "Maaari mong baguhin ito sa ibang pagkakataon sa Settings",
-  "actionContinue": "Magpatuloy",
-  "languageSuggestedHeader": "Inirerekomenda",
-  "languageAllHeader": "Lahat ng wika",
-  "languageSuggestedBadge": "Inirerekomenda",
-  "languageSearchHint": "Maghanap…",
-
-  "planGrace": "Standard",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Pang-araw-araw na Gabay",
-  "categoryFaithTrust": "Iman at Tiwala",
-  "categoryPrayerReflection": "Pag-isip sa Salat",
-  "categoryHopeDifficultTimes": "Pasensya at Pag-asa",
-  "categoryForgiveness": "Maghanap ng Tawad",
-  "categoryLoveCompassion": "Kaluguran at Malasakit",
-  "categoryStrengthCourage": "Katapatan at Lakas",
-  "categoryGratitude": "Puso ng Pasasalamat",
-  "categoryPurposeCalling": "Layunin ng Buhay",
-  "categoryFamilyRelationships": "Ugnayan sa Pamilya",
-  "categoryPeaceAnxietyRelief": "Kapayapaan sa Loob",
-  "categoryWisdomOfJesus": "Karunungan ng mga Propeta",
-  "categoryHumilityCharacter": "Mahusay na Asal",
-  "categoryOvercomingTemptation": "Labanan ang Tukso",
-  "categoryEveningReflection": "Gabi ng Dhikr",
-  "categoryCustom": "Personal nga Pagninilay",
-  "dhikrMeaningSubhanallah": "Dalayon sa Allah",
-  "dhikrMeaningAlhamdulillah": "Ang tanan nga pagdayeg alang sa Allah",
-  "dhikrMeaningAllahuAkbar": "Ang Allah mao ang Labing Dako",
-  "quranVerseHeartAtRest": "Sa tinuod, sa paghinumdom sa Allah ang mga kasingkasing makakaplag og kalinaw.",
-
-  "promptHint": "Mag-tap sa isang kategorya para sa Islamic na gabay at pag-isip",
-
-  "currentLanguage": "Kasalukuyang wika",
-  "settingsLanguage": "Mga setting ng wika",
-  "settingsTitle": "Mga Setting",
-  "chooseLanguage": "Piliin ang iyong wika",
-  "continueCta": "Magpatuloy",
-
-  "promptDailyGuidance": "Sumulat ng maikling, praktikal na pang-araw-araw na gabay na nakabatay sa Sunni Islamic na pananiniwala — na nakatuon sa Quran, Hadith, at mga pagtuturo ng Propeta Muhammad. Pumili ng bagong pananaw bawat pagkakataon: isang katanging mula sa Islamic ethics, isang katotohanan mula sa Sunnah, karunungan mula sa mga Kasama ng Propeta, o isang tahimik na kasanayan mula sa Islamic na tradisyon. Isama ang isang Quran na talatanggap (Surah:Ayah) at isang 1–2 pangungusapang pag-isip upang dalhin sa buong araw. Ikonekta ito sa Islamic calendar o sa isang mahalaga na petsa kung may kaugnayan.",
-
-  "promptFaithTrust": "Sumulat ng maikling Islamic na pag-isip tungkol sa Iman (pananiniwala) at tiwala sa plano ng Allah (Tawakkul). Iangat ito sa Quran, ang halimbawa ng Propeta Muhammad, at ang pananiniwala ng Sahaba. Magbago ang tema bawat pagkakataon: nagtitiwala sa Allah sa panahon ng walang katiyakan, umaasa sa divine wisdom, pasensya sa mga pagsubok, o tahimik na pagsisikap sa pang-araw-araw na buhay. Isama ang isang Quran na talatanggap at isang tapat na hakbang para sa araw na kinuha mula sa Islamic spiritual wisdom.",
-
-  "promptPrayerReflection": "Sumulat ng maikling Islamic na pag-isip sa salat na nakabatay sa Salah, Dua, o Dhikr. Magbago ang anyo bawat pagkakataon: isang umaga o gabi na pagpapaalala (Adhkar), pag-isip sa limang pang-araw-araw na salat, pagpapahalaga sa isang Quranic na talatanggap, o isang puso na paghingi. Isama ang isang Quran na talatanggap at maikling pangalan ng form ng salat na ginamit.",
-
-  "promptHopeDifficultTimes": "Sumulat ng Islamic na pag-isip tungkol sa pasensya (Sabr) at pag-asa sa panahon ng kahirap. Kumuhang mula sa Quranic na pagtuturo tungkol sa mga pagsubok, ang pagsisikap ng mga Propeta, at ang kaluguran ng Allah sa mahigpit na sandali. Magbago ang anyo bawat pagkakataon. Isama ang isang Quran na talatanggap at isang nakaka-inspire na pananaw mula sa Islamic na tradisyon.",
-
-  "promptForgiveness": "Sumulat ng matalinong Islamic na pag-isip tungkol sa paghahanap ng tawad (Tawbah) at kaluguran ng Allah. Kumuhang mula sa Quranic na pagtuturo sa pagsisisi, kaluguran ng Allah, at nagpapatawad na halimbawa ng Propeta Muhammad. Magbago ang tema: bumalik sa Allah, magpatawad sa iba, gumaling ang mga relasyon, o naniniwala sa kaluguran ng Allah pagkatapos ng mga pagkakamali. Isama ang isang Quran na talatanggap at isang konkreto na hakbang.",
-
-  "promptLoveCompassion": "Sumulat ng maikling Islamic na pag-isip tungkol sa kaluguran (Rahmah) at malasakit sa pang-araw-araw na buhay. Kumuhang mula sa halimbawa ng Propeta Muhammad, ang konsepto ng Ihsan (kahusayan), at Islamic na pagtuturo sa kabutihan sa pamilya, mga kapitbahayan, at ang mga mahihina. Isama ang isang Quran na talatanggap at isang maliit na gawain ng malasakit na magsanay ngayon.",
-
-  "promptStrengthCourage": "Sumulat ng Islamic na pag-isip tungkol sa lakas batay sa pananiniwala at tapang. Kumuhang mula sa mga halimbawa ng mga Propeta, ang unang Muslim na komunidad, at mga naniniwala na nananatiling matatag sa kahirap. Magbago ang tema bawat pagkakataon: tapang sa pamamagitan ng pananiniwala, lakas sa salat, tiwala sa Allah sa panahon ng takot, o tibay sa pagsubok. Isama ang isang Quran na talatanggap at isang maikling paghingi o pangungusap ng pag-alaala.",
-
-  "promptGratitude": "Sumulat ng Islamic na pag-isip tungkol sa pasasalamat (Shukr) sa Allah. Iangat ito sa Quranic na pagtuturo at propetic na tradisyon. Magbago ang anyo: pasasalamat sa kahirap, pagpapahalaga sa maliit na iyong mga pagpapala, magsimula ng araw na may papuri sa Allah, o kinikilala ang gabay ng Allah sa pang-araw-araw na buhay. Isama ang isang Quran na talatanggap at isang kasanayan ng pasasalamat.",
-
-  "promptPurposeCalling": "Sumulat ng Islamic na pag-isip tungkol sa layunin ng buhay sa pagsasamba sa Allah at mahabang pamumuhay. Kumuhang mula sa Quranic na pagtuturo tungkol sa layunin, paglilingkod sa iba, at paggamit ng sariling mga talento para sa kabutihan. Magbago ang tema bawat pagkakataon: paglilingkod sa pamilya at komunidad, paghahanap ng gabay sa pamamagitan ng Istikhara, pamumuhay na may layunin, o paghahanap ng kahulugan sa ordinaryong trabaho. Isama ang isang Quran na talatanggap at dalawang tanong na nagpapahiwalay.",
-
-  "promptFamilyRelationships": "Sumulat ng matalinong Islamic na gabay sa pamilya at relasyon na nakabatay sa Quranic na pagtuturo at halimbawa ng Propeta Muhammad. Magbago ang tema bawat pagkakataon: kabutihan sa buhay pamilya, pasensya sa tunggali, paggalang sa mga magulang, paglaki ng mga anak sa pananiniwala, o pagpapalakas ng kasal. Isama ang isang Quran na talatanggap at isang relational practice na subukan.",
-
-  "promptPeaceAnxietyRelief": "Sumulat ng nakaka-kalmang Islamic na pag-isip tungkol sa paghanap ng kapayapaan sa loob sa pamamagitan ng pag-alaala sa Allah (Dhikr) at tiwala sa Kanyang plano. Kumuhang mula sa Quranic na pagtuturo tungkol sa kapayapaan ng puso, salat, at pagsuko sa kasaganaan ng Allah. Magbago ang diskarte bawat pagkakataon at isama ang isang Quran na talatanggap at isang simpleng praktikang batis mula sa Islamic na tradisyon.",
-
-  "promptWisdomOfJesus": "Sumulat ng maikling karunungan mula sa mga Propeta tulad ng itinuro sa Islam. Kumuhang mula sa Quran o Hadith at maikling ipaliwanag kung paano maintindihan ng mga Islamic scholar ang pagtuturo. Magbago ang paksa bawat pagkakataon: karakter, pasensya, pagpapahumility, pananiniwala, o pang-araw-araw na pag-uugali. Isama ang isang Quranic na talatanggap o Hadith reference at isang praktikal na application.",
-
-  "promptHumilityCharacter": "Sumulat ng Islamic na pag-isip tungkol sa pagpapahumility (Tawadhu) at mahusay na asal (Akhlaq). Kumuhang mula sa Quranic na pagtuturo, ang halimbawa ng Propeta Muhammad, at ang tradisyon ng Islamic na pag-unlad ng karakter. Magbago ang tema: pagpapahumility sa pamumuno, pagsang-ayon sa mga pagkakamali, pagtatrato sa iba na may paggalang, o lumago sa espiritwal sa pamamagitan ng self-reflection. Isama ang isang Quran na talatanggap at isang kasanayan na magsanay.",
-
-  "promptOvercomingTemptation": "Sumulat ng Islamic na pag-isip tungkol sa paglaban sa tukso at panatili sa daan ng tama. Kumuhang mula sa Quranic na gabay, pag-alaala sa Allah (Dhikr), salat (Salah), at mga halimbawa ng mga naniniwala na naglabas ng mga pakikipag-ugnayan. Magbago ang anyo bawat pagkakataon. Isama ang isang Quran na talatanggap at isang praktikal na estratehiya para sa susunod na 24 oras.",
-
-  "promptEveningReflection": "Sumulat ng kapayapaan na Islamic na pag-isip sa gabi na nakatuon sa tradisyon ng pag-alaala sa gabi (Adhkar al-Masaa'). Hikayatin ang pasasalamat, self-reflection (Muhasabah), at tiwala sa Allah bago ang pahinga. Isama ang 3–5 maikling tanong sa pag-isip tungkol sa araw, isang maikling pagsusulong, at isang Quran na talatanggap.",
-
-  "wordCount": "{count, plural, one {{count} salita} other {{count} salita}}",
-
-  "optionsCta": "Mga Opsyon",
-  "newCta": "Bago",
-  "actionsTitle": "Ano ang gusto mong gawin?",
-  "copy": "Kopyahin",
-  "share": "Ibahagi",
-  "close": "Isara",
+  "languageSelectTitle": "Pilia ang imong pinulongan",
+  "languageSelectSub": "Mahimo nimo kining usbon unya sa Settings",
+  "actionContinue": "Padayon",
+  "languageSuggestedHeader": "Gisugyot",
+  "languageAllHeader": "Tanang pinulongan",
+  "languageSuggestedBadge": "Gisugyot",
+  "languageSearchHint": "Pangita…",
+  "planBasic": "Standard",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Adlaw-adlaw nga Giya",
+  "categorySlot02": "Iman ug Pagsalig",
+  "categorySlot03": "Pamalandong sa Pag-ampo",
+  "categorySlot04": "Pailub ug Paglaum",
+  "categorySlot05": "Pangayo og Kapasayloan",
+  "categorySlot06": "Kalooy ug Pagkamaloloy-on",
+  "categorySlot07": "Kusog sa Pagtuo",
+  "categorySlot08": "Mapasalamatong Kasingkasing",
+  "categorySlot09": "Katuyoan sa Kinabuhi",
+  "categorySlot10": "Panaghiusa sa Pamilya",
+  "categorySlot11": "Kalinaw sa Sulod",
+  "categorySlot12": "Kaalam sa Propeta",
+  "categorySlot13": "Maayong Kinaaiya",
+  "categorySlot14": "Sukli ang Tintasyon",
+  "categorySlot15": "Panggabii nga Dhikr",
+  "categoryCustom": "Personal nga Pamalandong",
+  "dhikrMeaningSubhanallah": "Mahimayaon ang Allah",
+  "dhikrMeaningAlhamdulillah": "Ang tanang pagdayeg alang sa Allah",
+  "dhikrMeaningAllahuAkbar": "Ang Allah Mao ang Labing Dako",
+  "quranVerseHeartAtRest": "Sa paghinumdom sa Allah lamang makakaplag og kalinaw ang mga kasingkasing.",
+  "promptHint": "I-tap ang usa ka kategorya alang sa Islamikong giya ug pamalandong",
+  "currentLanguage": "Karon nga pinulongan",
+  "settingsLanguage": "Mga setting sa pinulongan",
+  "settingsTitle": "Settings",
+  "chooseLanguage": "Pilia ang imong pinulongan",
+  "continueCta": "Padayon",
+  "wordCount": "{count, plural, one {{count} ka pulong} other {{count} ka mga pulong}}",
+  "optionsCta": "Mga kapilian",
+  "newCta": "Bag-o",
+  "actionsTitle": "Unsay gusto nimong buhaton?",
+  "copy": "Kopyaha",
+  "share": "Ipaambit",
+  "close": "Sirado",
   "copiedToast": "Nakopya sa clipboard",
-
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Email / share subject line including the category label.",
+    "description": "Hilisgutan sa email / share nga adunay ngalan sa kategorya.",
     "placeholders": {
-      "category": { "type": "String", "example": "Pang-araw-araw na Gabay" }
+      "category": {
+        "type": "String",
+        "example": "Adlaw-adlaw nga Giya"
+      }
     }
   },
-
-  "regenerateErrorTitle": "Hindi makabuo ng bagong tugon",
-  "regenerateErrorBody": "{error}\n\nGusto mo bang subukan muli?",
+  "regenerateErrorTitle": "Dili makahimo og bag-ong tubag",
+  "regenerateErrorBody": "{error}\n\nGusto ba nimong mosulay pag-usab?",
   "@regenerateErrorBody": {
-    "description": "Shown when regenerating an AI answer fails.",
+    "description": "Ipakita kung mapakyas ang pag-regenerate sa tubag sa AI.",
     "placeholders": {
-      "error": { "type": "String", "example": "Network error" }
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
     }
   },
-
-  "cancelCta": "Kanselahin",
-  "retryCta": "Subukan muli",
-
-  "authTitle": "Lumikha ng iyong account",
-  "continueAsGuest": "Magpatuloy bilang bisita",
-  "signInGoogle": "Mag-sign in gamit ang Google",
-  "signInApple": "Mag-sign in gamit ang Apple",
-  "signInEmail": "Mag-sign in gamit ang Email",
-  "upgradeWithApple": "Magpatuloy sa Apple",
-  "mustAccept": "Dapat mong tanggapin ang Mga Tuntunin at kilalanin ang Privacy Policy.",
-  "termsLabel": "Tinatanggap ko ang Mga Tuntunin ng Serbisyo",
-  "privacyLabel": "Nabasa ko ang Privacy Policy",
-  "marketingOptIn": "Sumasang-ayon ako na makatanggap ng mga balita at alok",
-  "openTerms": "Mga Tuntunin ng Serbisyo",
+  "cancelCta": "Kanselahon",
+  "retryCta": "Sulayi pag-usab",
+  "authTitle": "Paghimo sa imong account",
+  "continueAsGuest": "Padayon isip bisita",
+  "signInGoogle": "Pag-sign in gamit ang Google",
+  "signInApple": "Pag-sign in gamit ang Apple",
+  "signInEmail": "Pag-sign in gamit ang Email",
+  "upgradeWithApple": "Padayon gamit ang Apple",
+  "mustAccept": "Kinahanglan nimong dawaton ang Terms ug ilhon ang Privacy Policy.",
+  "termsLabel": "Dawaton nako ang Terms of Service",
+  "privacyLabel": "Nabasa nako ang Privacy Policy",
+  "marketingOptIn": "Misugot ko sa pagdawat og balita ug mga alok",
+  "openTerms": "Terms of Service",
   "openPrivacy": "Privacy Policy",
-
   "accountSection": "Account",
-  "guestMode": "Bisitang modo",
+  "guestMode": "Guest mode",
   "signedIn": "Naka-sign in",
-  "upgradeHint": "I-save ang iyong mga pag-isip sa lahat ng mga device sa pamamagitan ng paglikha ng isang account.",
-  "upgradeWithGoogle": "Magpatuloy sa Google",
-  "signOut": "Mag-sign out",
-
-  "snackUpgraded": "Account na na-upgrade gamit ang Google ✅",
+  "upgradeHint": "I-save ang imong mga pamalandong sa lain-laing device pinaagi sa paghimo og account.",
+  "upgradeWithGoogle": "Padayon gamit ang Google",
+  "signOut": "Pag-sign out",
+  "snackUpgraded": "Na-upgrade ang account gamit ang Google ✅",
   "snackSignedIn": "Naka-sign in gamit ang Google ✅",
-  "snackSignedOut": "Nag-sign out",
+  "snackSignedOut": "Naka-sign out",
   "snackSignedInApple": "Naka-sign in gamit ang Apple ✅",
   "snackSignedInGoogle": "Naka-sign in gamit ang Google ✅",
-  "snackUpgradedApple": "Account na na-upgrade gamit ang Apple ✅",
-  "snackUpgradedGoogle": "Account na na-upgrade gamit ang Google ✅",
-
-  "historyTitle": "Nakaraang pag-isip",
-  "historyOpenCta": "Nakaraang pag-isip",
-  "historyEmpty": "Walang nakaimpok na mga pag-isip pa.",
-  "historyDeleteTitle": "Tanggapin ang pag-isip?",
-  "historyDeleteBody": "Ito ay permanenteng tatanggalin ang napiling item.",
-  "deleteCta": "Tanggapin",
-
-  "historyButton": "Nakaraang Pag-isip",
-  "historyEmptyTitle": "Walang pag-isip pa",
-  "historyEmptyBody": "Lumikha ng isang bagay muna — ang iyong nakaimpok na mga item ay lalitaw dito.",
-  "historyDelete": "Tanggapin",
-
-  "footerTitle": "Gamit ang Iman, Sabr at Rahmah.",
-  "footerSubtitle": "Isang hakbang sa isang pagkakataon.",
-  "genericErrorSnack": "May napakalikhang bagay — subukan muli sa ilang sandali.",
-
-  "upgradeAccountCta": "I-save ang iyong mga pag-isip sa lahat ng mga device — lumikha ng isang account",
-  "deleteAccount": "Tanggapin ang account",
-  "exportData": "I-export ang aking data",
-
+  "snackUpgradedApple": "Na-upgrade ang account gamit ang Apple ✅",
+  "snackUpgradedGoogle": "Na-upgrade ang account gamit ang Google ✅",
+  "historyTitle": "Nangaging mga pamalandong",
+  "historyOpenCta": "Nangaging mga pamalandong",
+  "historyEmpty": "Wala pay na-save nga mga pamalandong.",
+  "historyDeleteTitle": "Tangtangon ang pamalandong?",
+  "historyDeleteBody": "Kini permanente nga magatangtang sa piniling item.",
+  "deleteCta": "Tangtanga",
+  "historyButton": "Nangaging mga Pamalandong",
+  "historyEmptyTitle": "Wala pay mga pamalandong",
+  "historyEmptyBody": "Paghimo usa una — ang imong na-save nga mga item makita dinhi.",
+  "historyDelete": "Tangtanga",
+  "footerTitle": "Uban ang Wilaya, Iman ug Sabr",
+  "footerSubtitle": "Usa ka pag-ampo matag higayon",
+  "genericErrorSnack": "Adunay sayop — palihog sulayi pag-usab pagkahuman sa makadiyot.",
+  "upgradeAccountCta": "I-save ang imong mga pamalandong sa lain-laing device – paghimo og account",
+  "deleteAccount": "Tangtanga ang account",
+  "exportData": "I-export ang akong data",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Label before showing the internal Firebase UID.",
+    "description": "Label sa wala pa ipakita ang internal Firebase UID.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Madali na tiger 🐯\nAng AI ay kailangan ng sandali bago ang susunod...",
-  "rateDailyLimit": "Tapos ka na sa mga pag-isip para sa ngayon.\nMakakuha ng higit pang mga pag-isip o mag-upgrade sa Barakah.",
-  "rateCreditsExhausted": "Ginamit mo na ang lahat ng iyong mga pag-isip.\nMag-top up o mag-upgrade sa Barakah upang magpatuloy.",
-  "rateGraceReflectionsExhausted": "Tapos ka na sa mga pag-isip para sa ngayon.\nMakakuha ng higit pang mga pag-isip o mag-upgrade sa Barakah.",
-  "rateReflectionsExhausted": "Ginamit mo na ang lahat ng iyong mga pag-isip.\nMag-top up o mag-upgrade sa Barakah upang magpatuloy.",
-
-  "blessedDescription": "Ang Barakah ay nag-unlock ng mga premium feature, hinaharap na mga kategorya, at isang espesyal na badge.",
-  "championDescription": "Ang Barakah ay nag-unlock ng mga premium feature, hinaharap na mga kategorya, at isang espesyal na badge.",
-
-  "ratePlanExhausted": "Ang iyong mga pag-isip ay walang laman sa ngayon. Plan: {plan}.",
+  "rateLocalThrottle": "Hinay-hinay lang 🐯\nNagkinahanglan pa og gamayng higayon ang Ayara sa dili pa ang sunod…",
+  "rateDailyLimit": "Nahutdan ka na og pamalandong sa pagkakaron.\nPagkuha og dugang o pag-upgrade sa Wilaya.",
+  "rateCreditsExhausted": "Nagamit na nimo ang tanan nimong pamalandong.\nPag-top up o pag-upgrade sa Wilaya aron makapadayon.",
+  "rateGraceCreditsExhausted": "Nahutdan ka na og pamalandong sa pagkakaron.\nPagkuha og dugang o pag-upgrade sa Wilaya.",
+  "premiumDescription": "Ang Wilaya nag-abli sa premium nga mga feature, umaabot nga mga kategorya, ug usa ka espesyal nga badge.",
+  "ratePlanExhausted": "Hutdan na ang imong mga pamalandong karon. Plano: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "description": "Ipakita kung nahutdan ang user og mga pamalandong apan kinatibuk-ang rason lamang.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard o Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard o Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "Hindi ma-check ang iyong mga pag-isip: {message}",
+  "rateCheckFailed": "Dili masusi ang imong mga pamalandong: {message}",
   "@rateCheckFailed": {
-    "description": "Shown when the callable function returns an error message.",
+    "description": "Ipakita kung ang callable function mibalik og error nga mensahe.",
     "placeholders": {
-      "message": { "type": "String", "example": "Network error" }
+      "message": {
+        "type": "String",
+        "example": "Network error"
+      }
     }
   },
-
-  "rateCheckGenericError": "May napakalikhang bagay sa pagsusuri ng iyong mga pag-isip.",
-  "aiFallbackGeneric": "May napakalikhang bagay — subukan muli sa ilang sandali.",
-
-  "limitSectionTitle": "Mga Pag-isip",
+  "rateCheckGenericError": "Adunay sayop samtang gisusi ang imong mga pamalandong.",
+  "aiFallbackGeneric": "Adunay sayop — palihog sulayi pag-usab pagkahuman sa makadiyot.",
+  "limitSectionTitle": "Mga pamalandong",
   "limitTodayLabel": "Paggamit",
-  "limitCreditsLabel": "Natitirang mga pag-isip: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "Plan: {plan}",
-  "@limitPlanLabel": {
-    "description": "Shows the current subscription plan name.",
+  "limitCreditsLabel": "Nahibiling mga pamalandong: {credits}",
+  "@limitCreditsLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard o Barakah" }
+      "credits": {}
     }
   },
-  "limitLoadingLabel": "Naglo-load…",
-  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
-
-  "aiLimitTitle": "Mga Pag-isip",
-  "aiLimitSubtitle": "Bawat tugon ay gumagamit ng 1 pag-isip. Ang Standard ay kinabibilangan ng starter pag-isip. Ang Barakah ay nag-unlock ng mga premium na kategorya at nag-enable ng top-ups.",
-  "aiLimitProgressLabel": "{used} / {total} mga pag-isip na ginamit",
+  "limitPlanLabel": "Plano: {plan}",
+  "@limitPlanLabel": {
+    "description": "Nagpakita sa karon nga ngalan sa subscription plan.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standard o Wilaya"
+      }
+    }
+  },
+  "limitLoadingLabel": "Nag-load…",
+  "limitLoadingLabelDescription": "Ipakita sa reflections card samtang gikuha ang usage stats.",
+  "aiLimitTitle": "Mga pamalandong",
+  "aiLimitSubtitle": "Ang matag tubag mogamit og 1 ka pamalandong. Ang Standard adunay starter reflections. Ang Wilaya moabli sa premium nga mga kategorya ug mopahimo sa top-ups.",
+  "aiLimitProgressLabel": "{used} / {total} ka mga pamalandong ang nagamit",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Mga Pag-isip",
-  "reflectionsUsageLabel": "Paggamit",
-  "reflectionsRemainingLabel": "Natitirang mga pag-isip: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Plan: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Shows the current plan name.",
+  "creditsSectionTitle": "Mga pamalandong",
+  "creditsUsageLabel": "Paggamit",
+  "creditsRemainingLabel": "Nahibiling mga pamalandong: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard o Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Naglo-load…",
-  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
-
-  "reflectionsTitle": "Mga Pag-isip",
-  "reflectionsSubtitle": "Bawat tugon ay gumagamit ng 1 pag-isip. Ang Standard ay kinabibilangan ng starter pag-isip. Ang Barakah ay nag-unlock ng mga premium na kategorya at nag-enable ng top-ups.",
-  "reflectionsProgressLabel": "{used} / {total} mga pag-isip na ginamit",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Plano: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Nagpakita sa karon nga ngalan sa plano.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standard o Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Nag-load…",
+  "creditsLoadingLabelDescription": "Ipakita samtang gikuha ang reflection stats.",
+  "creditsTitle": "Mga pamalandong",
+  "creditsSubtitle": "Ang matag tubag mogamit og 1 ka pamalandong. Ang Standard adunay starter reflections. Ang Wilaya moabli sa premium nga mga kategorya ug mopahimo sa top-ups.",
+  "creditsProgressLabel": "{used} / {total} ka mga pamalandong ang nagamit",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "Tanggapin ang account",
-  "settingsDeleteDescription": "Permanenteng tanggapin ang iyong account at lahat ng nauugnay na data.",
-  "settingsDeleteButtonLabel": "Tanggapin ang aking account",
-  "settingsDeleteDialogTitle": "Tanggapin ang account?",
-  "settingsDeleteDialogBody": "Ang aksyong ito ay permanente at hindi mababawi.\n\nLahat ng iyong mga chat, kasaysayan at impormasyon sa account ay magtanggal.",
-  "settingsDeleteDialogCancel": "Kanselahin",
-  "settingsDeleteDialogConfirm": "Tanggapin",
-
-  "settingsFreeLimitUsedTitle": "Starter pag-isip na ginamit",
-  "settingsFreeLimitUsedDescription": "Ang starter pag-isip para sa device na ito ay ginamit na. Mag-upgrade sa Barakah o bumili ng higit pang mga pag-isip upang magpatuloy.",
-
-  "settingsStarterReflectionsUsedTitle": "Starter pag-isip na ginamit",
-  "settingsStarterReflectionsUsedDescription": "Ang starter pag-isip para sa device na ito ay ginamit na. Mag-upgrade sa Barakah o bumili ng higit pang mga pag-isip upang magpatuloy.",
-
-  "deviceBoundError": "Ang device na ito ay naka-link na sa ibang account. Mangyaring mag-sign in gamit ang orihinal na account.",
-
-  "premiumTitle": "Barakah mode",
-  "premiumSubtitleBasic": "I-unlock ang buong Ayara experience.",
-  "premiumSubtitleChampion": "Ikaw ay Barakah. Kailangan mo ng higit pang mga pag-isip?",
-
-  "premiumCurrentPlan": "Kasalukuyang plan: {plan}",
-  "premiumCreditsStatus": "Mga pag-isip: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "Ang mga pagbili ay hindi available sa ngayon.",
-  "premiumSignInToPurchase": "Mag-sign in upang bumili ng mga pag-isip o i-unlock ang Barakah.",
-
-  "premiumRestorePurchases": "Ibalik ang mga pagbili",
-  "premiumProcessing": "Pinoproseso...",
-  "premiumRestoreHintTitle": "Nag-bili na ng Barakah o mga pag-isip sa device na ito o sa iba?",
-  "premiumRestoreHintBody": "Ibalik ang iyong mga pagbili kung hindi sila nagpapakita.",
-
-  "premiumBuyCredits200": "Bumili ng 200 mga pag-isip",
-  "premiumBuyCredits400": "Bumili ng 400 mga pag-isip",
-  "premiumBecomeChampionOneTime": "Mag-upgrade sa Barakah mode",
-  "premiumChampionHint": "Bilang Barakah, maaari kang mag-top up na may karagdagang mga pag-isip anumang oras na kailangan mo.",
-
-  "premiumUpgradeCta": "Mag-upgrade",
-  "premiumRequiredForCategory": "Ang kategoryang ito ay para lamang sa mga user ng Barakah. Mag-upgrade sa Settings upang i-unlock ang lahat ng premium na nilalaman.",
-  "premiumBenefitsBasic": "I-unlock ang Barakah upang makakuha ng karagdagang mga pag-isip, i-access ang mga premium na kategorya, at magpatuloy anumang oras na kailangan mo ng gabay.",
-  "premiumBenefitsChampion": "Ikaw ay nasa Barakah mode. Kung mababa ka, magdagdag ng ilang karagdagang mga pag-isip at magpatuloy nang walang pagkaabala.",
-  "premiumButtonBecomeChampion": "I-unlock ang Barakah",
-  "premiumButtonTopup1000": "Magdagdag ng 1000 mga pag-isip",
-  "premiumChampionBadge": "Barakah aktibo",
-  "premiumLoadingStore": "Naglo-load ng store...",
-
-  "blessedTitle": "Barakah mode",
-  "blessedSubtitleGrace": "I-unlock ang buong Ayara experience.",
-  "blessedSubtitleBlessed": "Ikaw ay Barakah. Kailangan mo ng higit pang mga pag-isip?",
-
-  "blessedCurrentPlan": "Kasalukuyang plan: {plan}",
-  "blessedReflectionsStatus": "Mga pag-isip: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Ang mga pagbili ay hindi available sa ngayon.",
-  "blessedProductNotAvailable": "Ang produktong ito ay hindi pa available sa store. Subukan muli sa ibang pagkakataon.",
-  "blessedPurchaseError": "May napakalikhang bagay sa pagbili. Subukan muli.",
-  "blessedSignInToPurchase": "Mag-sign in upang bumili ng mga pag-isip o i-unlock ang Barakah.",
-
-  "blessedRestorePurchases": "Ibalik ang mga pagbili",
-  "blessedProcessing": "Pinoproseso...",
-  "blessedRestoreHintTitle": "Nag-bili na ng Barakah o mga pag-isip sa device na ito o sa iba?",
-  "blessedRestoreHintBody": "Ibalik ang iyong mga pagbili kung hindi sila nagpapakita.",
-
-  "blessedBuyReflections100": "Magdagdag ng 100 mga pag-isip",
-  "blessedBuyReflections200": "Bumili ng 200 mga pag-isip",
-  "blessedBuyReflections400": "Bumili ng 400 mga pag-isip",
-  "blessedBecomeBlessedOneTime": "Mag-upgrade sa Barakah",
-  "blessedTopupHint": "Bilang Barakah, maaari kang mag-top up na may karagdagang mga pag-isip anumang oras na kailangan mo.",
-
-  "blessedUpgradeCta": "Mag-upgrade",
-  "blessedRequiredForCategory": "Ang kategoryang ito ay para lamang sa mga user ng Barakah. Mag-upgrade sa Settings upang i-unlock ang lahat ng premium na nilalaman.",
-  "blessedFeatureLocked": "I-unlock ang Barakah upang ma-access ang feature na ito.",
-  "lockedCategoriesHint": "Ang ilang mga kategorya ay nakalaan para sa mga miyembro ng Barakah. I-unlock ang mga ito upang tuklasin ang bawat pag-isip sa iyong paglalakbay.",
-  "blessedBenefitsGrace": "I-unlock ang Barakah upang makakuha ng karagdagang mga pag-isip, i-access ang mga premium na kategorya, at magpatuloy anumang oras na kailangan mo ng gabay.",
-  "blessedBenefitsBlessed": "Ikaw ay nasa Barakah mode. Kung mababa ka, magdagdag ng ilang karagdagang mga pag-isip at magpatuloy nang walang pagkaabala.",
-  "blessedButtonBecomeBlessed": "I-unlock ang Barakah",
-  "blessedButtonTopup1000": "Magdagdag ng 1000 mga pag-isip",
-  "blessedBadge": "Barakah aktibo",
-  "blessedLoadingStore": "Naglo-load ng store...",
-
-  "freePlanBlockedTitle": "Naubos mo na ang iyong starter pag-isip",
-  "freePlanBlockedBody": "Ikaw ay nasa Standard plan na may starter pag-isip, at naabot mo na ang limitasyon. Upang magpatuloy — at i-unlock ang mga premium na kategorya — mag-upgrade sa Barakah.",
-  "freePlanBlockedCtaGoPremium": "Tingnan ang mga opsyon ng Barakah sa ibaba",
-
-  "graceBlockedTitle": "Naubos mo na ang iyong starter pag-isip",
-  "graceBlockedBody": "Ikaw ay nasa Standard plan na may starter pag-isip, at naabot mo na ang limitasyon. Upang magpatuloy — at i-unlock ang mga premium na kategorya — mag-upgrade sa Barakah.",
-  "graceBlockedCtaGoBlessed": "Tingnan ang mga opsyon ng Barakah sa ibaba",
-
-  "rateGuestMustSignIn": "Mag-sign in upang gamitin ang Ayara at ang iyong mga pag-isip.",
-
-  "guestNoCreditsTitle": "Bisitang modo",
-  "guestNoCreditsBody": "Bilang bisita maaari kang mag-browse sa app, ngunit hindi ka maaaring gumamit ng mga pag-isip. Mag-log in sa ibang pagkakataon sa Settings upang gamitin ang mga pag-isip at i-unlock ang mga pagbili.",
-
-  "guestNoReflectionsTitle": "Bisitang modo",
-  "guestNoReflectionsBody": "Bilang bisita maaari kang mag-browse sa app, ngunit hindi ka maaaring gumamit ng mga pag-isip. Mag-log in sa ibang pagkakataon sa Settings upang gamitin ang mga pag-isip at i-unlock ang mga pagbili.",
-
-  "guestDialogContinue": "Magpatuloy",
-  "guestDialogLoginInstead": "Mag-log in sa halip",
-
+  "settingsDeleteTitle": "Tangtanga ang account",
+  "settingsDeleteDescription": "Permanente nga tangtanga ang imong account ug tanang kauban nga data.",
+  "settingsDeleteButtonLabel": "Tangtanga ang akong account",
+  "settingsDeleteDialogTitle": "Tangtangon ang account?",
+  "settingsDeleteDialogBody": "Kini permanente ug dili na mabalik.\n\nAng tanan nimong chats, history ug impormasyon sa account matangtang.",
+  "settingsDeleteDialogCancel": "Kanselahon",
+  "settingsDeleteDialogConfirm": "Tangtanga",
+  "settingsFreeLimitUsedTitle": "Nagamit na ang starter reflections",
+  "settingsFreeLimitUsedDescription": "Nagamit na ang starter reflections para niining device. Pag-upgrade sa Wilaya o pagpalit og dugang nga mga pamalandong aron makapadayon.",
+  "settingsStarterCreditsUsedTitle": "Nagamit na ang starter reflections",
+  "settingsStarterCreditsUsedDescription": "Nagamit na ang starter reflections para niining device. Pag-upgrade sa Wilaya o pagpalit og dugang nga mga pamalandong aron makapadayon.",
+  "deviceBoundError": "Kini nga device naka-link na sa laing account. Palihog sign in gamit ang orihinal nga account.",
+  "premiumTitle": "Wilaya mode",
+  "premiumSubtitleBasic": "Ablihi ang tibuok nga kasinatian sa Ayara.",
+  "premiumSubtitlePremium": "Anaa ka sa Wilaya. Nagkinahanglan pa og dugang nga mga pamalandong?",
+  "premiumCurrentPlan": "Karon nga plano: {plan}",
+  "premiumCreditsStatus": "Mga pamalandong: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "Dili available ang mga pagpalit sa pagkakaron.",
+  "premiumSignInToPurchase": "Pag-sign in aron makapalit og mga pamalandong o maablihan ang Wilaya.",
+  "premiumRestorePurchases": "Ibalik ang mga pagpalit",
+  "premiumProcessing": "Giproseso…",
+  "premiumRestoreHintTitle": "Nakapalit na ba og Wilaya o mga pamalandong sa kini nga device o sa laing usa?",
+  "premiumRestoreHintBody": "Ibalik ang imong mga pagpalit kung wala kini makita.",
+  "premiumBuyCredits200": "Palit og 200 ka pamalandong",
+  "premiumBuyCredits400": "Palit og 400 ka pamalandong",
+  "premiumBecomePremiumOneTime": "Pag-upgrade sa Wilaya mode",
+  "premiumTopupHint": "Uban sa Wilaya, mahimo kang mo-top up og dugang nga mga pamalandong bisan kanus-a nimo kinahanglan.",
+  "premiumUpgradeCta": "I-upgrade",
+  "premiumRequiredForCategory": "Kini nga kategorya para lamang sa mga user sa Wilaya. Pag-upgrade sa Settings aron maablihan ang tanang premium content.",
+  "premiumBenefitsBasic": "Ablihi ang Wilaya aron makakuha og dugang nga mga pamalandong, maka-access sa premium nga mga kategorya, ug makapadayon bisan kanus-a nimo gikinahanglan ang giya.",
+  "premiumBenefitsPremium": "Anaa ka sa Wilaya mode. Kung hapit na mahurot, pagdugang og ekstra nga mga pamalandong ug ipadayon nga walay hunong.",
+  "premiumButtonBecomePremium": "Ablihi ang Wilaya",
+  "premiumButtonTopup1000": "Dugangi og 1000 ka pamalandong",
+  "premiumBadge": "Aktibo ang Wilaya",
+  "premiumLoadingStore": "Nag-load ang store…",
+  "premiumProductNotAvailable": "Kini nga produkto dili pa available sa store. Palihog sulayi pag-usab sa ulahi.",
+  "premiumPurchaseError": "Adunay sayop sa pagpalit. Palihog sulayi pag-usab.",
+  "premiumBuyCredits100": "Dugangi og 100 ka pamalandong",
+  "premiumFeatureLocked": "Ablihi ang Wilaya aron magamit kini nga feature.",
+  "lockedCategoriesHint": "Adunay pipila ka mga kategorya nga gitagana alang sa mga miyembro sa Wilaya. Ablihi kini aron masusi ang tanang pamalandong sa imong panaw.",
+  "freePlanBlockedTitle": "Nagamit na nimo ang imong starter reflections",
+  "freePlanBlockedBody": "Anaa ka sa Standard nga plano uban sa starter reflections, ug naabot na nimo ang limit. Aron makapadayon — ug maablihan ang premium nga mga kategorya — pag-upgrade sa Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Tan-awa ang mga opsyon sa Wilaya sa ubos",
+  "graceBlockedTitle": "Nagamit na nimo ang imong starter reflections",
+  "graceBlockedBody": "Anaa ka sa Standard nga plano uban sa starter reflections, ug naabot na nimo ang limit. Aron makapadayon — ug maablihan ang premium nga mga kategorya — pag-upgrade sa Wilaya.",
+  "graceBlockedCtaGoPremium": "Tan-awa ang mga opsyon sa Wilaya sa ubos",
+  "rateGuestMustSignIn": "Pag-sign in aron magamit ang Ayara ug ang imong mga pamalandong.",
+  "guestNoCreditsTitle": "Guest mode",
+  "guestNoCreditsBody": "Isip bisita mahimo kang mosuroy sa app, apan dili ka makagamit og mga pamalandong. Pag-log in sa ulahi sa Settings aron magamit ang mga pamalandong ug maablihan ang mga pagpalit.",
+  "guestDialogContinue": "Padayon",
+  "guestDialogLoginInstead": "Pag-log in hinuon",
   "optionalLabel": "opsyonal",
-
-  "accountDeleteSuccessTitle": "Account na natanggal",
-  "accountDeleteSuccessBody": "Ang iyong account at nauugnay na data ay matagumpay na natanggal.",
-  "accountDeleteSuccessClose": "Isara",
-  "accountDeleteErrorTitle": "Hindi matanggap ang account",
+  "accountDeleteSuccessTitle": "Natangtang na ang account",
+  "accountDeleteSuccessBody": "Malampuson nang natangtang ang imong account ug kauban nga data.",
+  "accountDeleteSuccessClose": "Sirado",
+  "accountDeleteErrorTitle": "Dili matangtang ang account",
   "accountDeleteErrorClose": "OK",
-  "accountDeleteReauthCancelled": "Ang pag-authenticate muli ay nakansela. Mangyaring mag-sign in muli at subukan ang pagta-tanggal.",
-  "accountDeleteReauthRequired": "Ang pagta-tanggal ng account ay nangangailangan ng isang nakaraang login. Mangyaring mag-sign out, mag-sign in muli, at subukan ang pagta-tanggal.",
-  "settingsDeletePermanentWarning": "Ang aksyong ito ay permanente at hindi mababawi. Lahat ng data na nauugnay sa iyong account ay magtanggal.",
-
-  "dailyGraceTitle": "Pang-araw-araw na Gabay",
-  "dailyGraceScriptureLabel": "TALATANGGAP NG ARAW",
-  "dailyGraceSaintLabel": "ISKOLAR NG LINGGO",
-  "dailyGraceReflectionLabel": "PAGNINIWALANG PAGMUMUNI",
-  "dailyGraceCopiedToast": "Talatanggap na kopya sa clipboard",
-
-  "dailyScripture0Text": "Tunay, ang mga makatarungan ay magiging sa mga hardin at mga ilog, sa isang upuan ng karangalan malapit sa isang malakas na Hari.",
-  "dailyScripture0Ref": "Quran 54:54-55",
-  "dailyScripture1Text": "At hindi kami nagpadala sa iyo, [O Muhammad], kundi bilang isang kaluguran sa mga mundo.",
-  "dailyScripture1Ref": "Quran 21:107",
-  "dailyScripture2Text": "Hindi ba ang Allah ay sapat para sa Kanyang tagapaglingkod? Ngunit hindi ka dapat takutan ng iba maliban sa Kanya.",
-  "dailyScripture2Ref": "Quran 39:36",
-  "dailyScripture3Text": "Marahil ay iniiwanan mo ang isang bagay at ito ay maayos para sa iyo; at marahil ay mahal mo ang isang bagay at ito ay masama para sa iyo. At ang Allah ay nag-alam, habang ang iyo ay hindi.",
-  "dailyScripture3Ref": "Quran 2:216",
-  "dailyScripture4Text": "Tunay, ang Allah ay kasama ang mga maingat.",
-  "dailyScripture4Ref": "Quran 2:153",
-  "dailyScripture5Text": "Kaya tandaan Ako; tatandaan Ka namin. At magpasalamat sa Akin at huwag Akong tanggihan.",
-  "dailyScripture5Ref": "Quran 2:152",
-  "dailyScripture6Text": "Tunay, ang pinaka-marubaut ng iyo sa mata ng Allah ay ang pinaka-makatarungan sa iyo.",
-  "dailyScripture6Ref": "Quran 49:13",
-  "dailyScripture7Text": "At ang iyong Panginoon ay iniutos na hindi mo dapat sambahin kundi Siya lamang, at na maging mabuti sa iyong mga magulang.",
-  "dailyScripture7Ref": "Quran 17:23",
-  "dailyScripture8Text": "Tunay, kasama ng kahirapan ay may kaginhawaan.",
-  "dailyScripture8Ref": "Quran 94:6",
-  "dailyScripture9Text": "At Siya ay kasama mo saanman ka man. At ang Allah, ng kung ano ang iyong ginagawa, ay nagsisilita.",
-  "dailyScripture9Ref": "Quran 57:4",
-  "dailyScripture10Text": "Ang Allah ay hindi nagbibigay sa isang kaluluwa ng higit pa sa dala nito.",
-  "dailyScripture10Ref": "Quran 2:286",
-  "dailyScripture11Text": "At ang kahok ay umaasa sa Allah — pagkatapos ay Siya ay sapat para sa Kanya.",
-  "dailyScripture11Ref": "Quran 65:3",
-  "dailyScripture12Text": "Ang aking kaluguran ay sumasaklaw sa lahat ng mga bagay.",
-  "dailyScripture12Ref": "Quran 7:156",
-  "dailyScripture13Text": "At kung ang Aking mga alipin ay magtanong sa iyo tungkol sa Akin — tunay, ako ay malapit. Ako ay tumutugon sa nag-request kapag nagtawag siya sa Akin.",
-  "dailyScripture13Ref": "Quran 2:186",
-  "dailyScripture14Text": "Ang kahok ay gumagawa ng katarungan, maging babae o lalaki, habang naniniwala — siguruhin namin na magkaroon siya ng mabuting buhay.",
-  "dailyScripture14Ref": "Quran 16:97",
-  "dailyScripture15Text": "Tunay, ang Allah ay hindi babago ng kondisyon ng mga tao hanggang sa babago nila kung ano ang nasa kanilang sarili.",
-  "dailyScripture15Ref": "Quran 13:11",
-  "dailyScripture16Text": "Kaya huwag magpahina at huwag magsedula, at makakamit mo kung ikaw ay tunay na naniniwala.",
-  "dailyScripture16Ref": "Quran 3:139",
-  "dailyScripture17Text": "O ang Aking mga alipin na lumampas laban sa kanilang sarili, huwag mawalan ng pag-asa sa kaluguran ng Allah. Tunay, ang Allah ay naglalaan sa lahat ng kasalanan.",
-  "dailyScripture17Ref": "Quran 39:53",
-  "dailyScripture18Text": "At ang kahok ay takot sa Allah — Siya ay gagawa ng paraan para sa kanya, at magbibigay sa kanya mula sa kung saan hindi niya inaasahan.",
-  "dailyScripture18Ref": "Quran 65:2-3",
-  "dailyScripture19Text": "Huwag mawalan ng pag-asa sa kaluguran ng Allah.",
-  "dailyScripture19Ref": "Quran 12:87",
-  "dailyScripture20Text": "At nakamit namin na walang katapusan na madali ang Quran na matandaan. Kaya may kahok na magiging aware?",
-  "dailyScripture20Ref": "Quran 54:17",
-  "dailyScripture21Text": "At nahanap Ka sa amin na nawala at nag-gabay sa iyo.",
-  "dailyScripture21Ref": "Quran 93:7",
-  "dailyScripture22Text": "At sinabi ng iyong Panginoon: Tawagin Ako; ako ay tumutugon sa iyo.",
-  "dailyScripture22Ref": "Quran 40:60",
-  "dailyScripture23Text": "At nakamit namin na walang katapusan na pinagkamit ang mga anak ng Adam.",
-  "dailyScripture23Ref": "Quran 17:70",
-  "dailyScripture24Text": "At hanapin ang tulong sa pamamagitan ng pasensya at salat.",
-  "dailyScripture24Ref": "Quran 2:45",
-  "dailyScripture25Text": "Ang kahok na gumagawa ng timbang ng isang atomo ng kabutihan ay makikita ito.",
-  "dailyScripture25Ref": "Quran 99:7",
-  "dailyScripture26Text": "Nang walang katulad, ang tulong ng Allah ay malapit.",
-  "dailyScripture26Ref": "Quran 2:214",
-  "dailyScripture27Text": "At ang kahok na nagpapasalamat — ang kanyang pasasalamat ay para lamang sa kapakinabangan ng sarili niya.",
-  "dailyScripture27Ref": "Quran 31:12",
-
-  "dailyReflection0": "Habang ang araw na ito ay nagtatapos, isaalang-alang ang isang sandali kung saan ang kaluguran ng Allah ay malinaw.",
-  "dailyReflection1": "Dalhin sa Allah ang anumang nabigatan sa iyong puso ngayong araw.",
-  "dailyReflection2": "Pangalanan ang isang pagpapala mula sa araw na ito at ipahayag ang pasasalamat sa Allah.",
-  "dailyReflection3": "Matulog sa kaalaman na ikaw ay hawak sa walang hanggang pag-aalaga ng Allah.",
-  "dailyReflection4": "Mag-isip kung saan ka naramdaman na tinawagan na magpakita ng malasakit at kabutihan ngayong araw.",
-  "dailyReflection5": "Bitawan kung ano ang hindi mo makontrol at magtiwala sa perpektong plano ng Allah.",
-  "dailyReflection6": "Habang ang araw ay lumalapit, makatanggap ng kapayapaan sa pag-alaala sa Allah.",
-  "dailyReflection7": "Isaalang-alang kung paano mo pinagsambahin ang iyong mga salat ngayong araw, at pasalamatan ang Allah para sa bawat isa.",
-  "dailyReflection8": "Mag-isip ng isang sandali kung saan ang pasensya (Sabr) ay gumagabay sa iyong mga aksyon ngayong araw.",
-  "dailyReflection9": "Maghingi ng tawad para sa anumang pagkakamali ngayong araw — ang kaluguran ng Allah ay walang hanggan.",
-  "dailyReflection10": "Pangalanan ang isang tao na nagpakita ka ng kabutihan sa kanila ngayong araw at gumawa ng dua para sa kanila.",
-  "dailyReflection11": "Matulog gamit ang pasasalamat: ano ang ibinigay ng Allah sa iyo ngayong araw na hindi mo hiniling?",
-  "dailyReflection12": "Mag-isip ng isang talatanggap mula sa Quran na nagsasalita kung nasaan ka ngayon.",
-  "dailyReflection13": "Isaalang-alang kung paano mo ginamit ang iyong oras ngayong araw — at inihain ang bukas sa Allah.",
-  "dailyReflection14": "Matulog na alam na ang anumang pagsubok na nangyari ngayong araw, ang Allah ay kasama mo dito.",
-  "dailyReflection15": "Isip ng isang paraan na naglingkod ka sa iyong pamilya o komunidad ngayong araw para sa pangalan ng Allah.",
-  "dailyReflection16": "Habang ang gabi ay sumusunod, gumawa ng Tawbah — ang Allah ay umiibig sa mga bumabalik sa Kanya.",
-  "dailyReflection17": "Mag-isip ng kagandahan na inilagay ng Allah sa iyong araw, gaano man kaliit.",
-  "dailyReflection18": "Isaalang-alang kung ano ang natuto mo ngayong araw at kung paano ito sa iyo na mas malapit sa Allah.",
-  "dailyReflection19": "Hayaan ang mga alalahanin ng araw na matulog sa Allah — Siya ang may dalang hindi mo kayang dala.",
-  "dailyReflection20": "Isip ng isang sandali ngayong araw kung saan maaari kang pumili ng mas mahusay, at matuto mula rito nang malambot.",
-  "dailyReflection21": "Gumawa ng dua para sa mga nagsusumikap — ang iyong pag-ampo ay isang regalo sa kanila.",
-  "dailyReflection22": "Tandaan ang isang pagpapala na madalas mong hindi napapansin at kumuha ng isang sandali upang pasalamatan ang Allah para dito.",
-  "dailyReflection23": "Mag-isip ng iyong mga layunin ngayong araw — sila ba ay para sa Allah? Bukas, magsimula muli.",
-  "dailyReflection24": "Habang ang gabi ay tahimik, makinig sa karanasan ng Allah sa tahimik.",
-  "dailyReflection25": "Isaalang-alang kung saan mo nahanap ang lakas ngayong araw — ang lakas na iyon ay mula sa Allah.",
-  "dailyReflection26": "Pangalanan ang isang bagay na gagawin mo bukas, para sa pangalan ng Allah, na hindi mo ginawa ngayong araw.",
-  "dailyReflection27": "Habang naghahanda ka para sa pahinga, ipagkaloob ang iyong kaluluwa sa Allah — Siya ay ang pinakamahusay na tagapangalaga.",
-
-  "dailyRoleModel0": "Propeta Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Propeta Ibrahim (AS)",
-  "dailyRoleModel44": "Propeta Musa (AS)",
-  "dailyRoleModel45": "Propeta Isa (AS)",
-  "dailyRoleModel46": "Propeta Yusuf (AS)",
-  "dailyRoleModel47": "Propeta Dawud (AS)",
-  "dailyRoleModel48": "Propeta Sulayman (AS)",
-  "dailyRoleModel49": "Propeta Nuh (AS)",
-  "dailyRoleModel50": "Propeta Yunus (AS)",
-  "dailyRoleModel51": "Propeta Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Payagan ang Ayara na gamitin ang aking lokasyon para sa direksyon ng Qibla at oras ng salat",
-  "locationConsentHint": "Ginagamit lamang para sa mga feature na ito. Ang iyong lokasyon ay hindi kailanman ibinabahagi o iniimbak.",
-
-  "askPageTitle": "Magtanong sa Ayara",
-  "askPageDescription": "Magtanong ng anuman tungkol sa pananiniwala, salat, buhay, o Islamic na kasanayan at makatanggap ng gabay na nakatuon sa Quran at Sunnah.",
-  "askPageInputHint": "I-type ang iyong tanong dito…",
-  "askPageSubmitCta": "Magtanong",
-  "askPageInputEmptyError": "Mangyaring magsulat ng isang tanong muna.",
-  "askResultYourQuestion": "Ang iyong tanong",
-
-  "guidancePageTitle": "Salat at Gabay",
-  "qiblaFacingMecca": "Nakatuon sa Makkah",
-  "qiblaCompassInstruction": "Iikot ang iyong telepono hanggang ang gintong karayom ay tumutok pataas.\nAng direksyon na iyon ay tumutok sa Qibla (Makkah).",
-  "qiblaGpsUnavailableBody": "Ang signal ng GPS ay mahina. Lumabas sa labas at mag-tap ng Subukan Muli.",
-  "qiblaRetry": "Subukan Muli",
-  "qiblaTitle": "Direksyon ng Qibla",
-  "qiblaDistanceLabel": "{km} km hanggang Makkah",
+  "accountDeleteReauthCancelled": "Gikansela ang re-authentication. Palihog pag-sign in pag-usab ug sulayi ang pagtangtang pag-usab.",
+  "accountDeleteReauthRequired": "Ang pagtangtang sa account nanginahanglan og bag-ong login. Palihog sign out, sign in pag-usab, ug sulayi pag-usab.",
+  "settingsDeletePermanentWarning": "Kini nga lihok permanente ug dili na mabalik. Ang tanang data nga may kalabutan sa imong account matangtang.",
+  "dailyGraceTitle": "Adlaw-adlaw nga Giya",
+  "dailyGraceScriptureLabel": "BERSIKULO SA ADLAW",
+  "dailyGraceSaintLabel": "ISKOLAR SA SEMANA",
+  "dailyGraceReflectionLabel": "PANGGABII NGA PAMALANDONG",
+  "dailyGraceCopiedToast": "Nakopya ang bersikulo sa clipboard",
+  "locationConsentLabel": "Tugoti ang Ayara nga mogamit sa akong lokasyon alang sa direksyon sa Qibla ug oras sa pag-ampo",
+  "locationConsentHint": "Gigamit lamang alang niining mga feature. Ang imong lokasyon dili gyud i-share o i-store.",
+  "askPageTitle": "Pangutan-a ang Ayara",
+  "askPageDescription": "Pangutana bisan unsa mahitungod sa pagtuo, pag-ampo, kinabuhi, o Islamikong praktis ug dawata ang giya nga nakagamot sa Quran ug sa mga pagtulon-an sa Ahl al-Bayt.",
+  "askPageInputHint": "Isulat dinhi ang imong pangutana…",
+  "askPageSubmitCta": "Pangutana",
+  "askPageInputEmptyError": "Palihog pagsulat una og pangutana.",
+  "askResultYourQuestion": "Imong pangutana",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "Padulong sa Makkah",
+  "qiblaCompassInstruction": "Pihota ang imong telepono hangtod ang bulawang dagom motudlo paibabaw.\nKana nga direksyon mao ang Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Huyang ang GPS signal. Lakaw sa gawas ug i-tap ang Retry.",
+  "qiblaRetry": "Sulayi pag-usab",
+  "qiblaTitle": "Direksyon sa Qibla",
+  "qiblaDistanceLabel": "{km} km padulong sa Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "Kinakailangan ang lokasyon",
-  "qiblaLocationNeededBody": "Payagan ang access sa lokasyon upang ang Ayara ay maaaring kalkulahin ang direksyon ng Kaaba sa Makkah mula sa nasaan ka man.",
-  "qiblaOpenSettings": "Buksan ang Mga Setting",
-  "qiblaCompassLoading": "Naghahanap ng iyong posisyon…",
-  "qiblaTowardMecca": "Tungo sa Makkah",
-
-  "prayerTimesTitle": "Oras ng Salat",
+  "qiblaLocationNeededTitle": "Gikinahanglan ang lokasyon",
+  "qiblaLocationNeededBody": "Tugoti ang access sa lokasyon aron makalkula sa Ayara ang direksyon sa Kaaba sa Makkah gikan sa bisan asa ka anaa.",
+  "qiblaOpenSettings": "Ablihi ang Settings",
+  "qiblaCompassLoading": "Gipangita ang imong posisyon…",
+  "qiblaTowardMecca": "Padulong sa Makkah",
+  "prayerTimesTitle": "Mga Oras sa Pag-ampo",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
-  "prayerTimesLocationNeededTitle": "Kinakailangan ang lokasyon",
-  "prayerTimesLocationNeededBody": "Payagan ang access sa lokasyon upang ang Ayara ay maaaring kalkulahin ang tumpak na oras ng salat para sa iyong lungsod.",
-  "prayerTimesNextLabel": "Susunod",
-  "prayerTimesDoneLabel": "Tapos",
-
-  "monthlyPrayerTimesTitle": "Buwang Oras ng Salat",
-  "monthlyPrayerTimesViewButton": "Tingnan ang Buong Buwan",
-  "monthlyPrayerTimesNextMonth": "Susunod na buwan",
-  "monthlyPrayerTimesDayHeader": "Araw",
-
-  "sharePrayerTimes": "Ibahagi ang oras ng salat",
-
-  "prayerNotificationsTitle": "Mga Abiso ng Salat",
-  "prayerNotificationsDescription": "Makatanggap ng malambot na pagsasabing-sabing bago ang bawat oras ng salat upang manatiling konektado sa buong araw.",
-  "prayerNotificationsEnable": "Paganahin ang mga abiso ng salat",
-  "prayerNotificationsOpenSettings": "Buksan ang mga setting ng notification",
-  "prayerNotificationsDenied": "Ang mga notipikasyon ay hindi pinagana",
-  "prayerNotificationsDeniedHint": "Pumunta sa Mga Setting at payagan ang mga notification para sa Ayara upang makatanggap ng mga abiso ng oras ng salat.",
-
-  "notificationsConsentLabel": "Payagan ang mga notification para sa oras ng salat",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — Salat ng Umaga",
-  "prayerNotifBodyFajr": "Ang pinakamaganda ng mga salat ay ang salat ng umaga. Gumising, puriin ang iyong sarili, at magtayo sa harap ng Allah.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Salat ng Tanghali",
-  "prayerNotifBodyDhuhr": "Tumigil sa iyong araw at bumalik sa Allah. Ang oras ng Dhuhr salat ay dumating na.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — Salat ng Hapon",
-  "prayerNotifBodyAsr": "Pangalagaan ang gitnang salat. Ang oras ng Asr ay dumating na — huwag hayaang lumipas.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — Salat ng Takipsilim",
-  "prayerNotifBodyMaghrib": "Ang araw ay lumubog na. Alok ng Maghrib at maging pasasalamat sa Allah para sa araw na ito.",
-
-  "prayerNotifTitleIsha": "🌙 Isha — Salat ng Gabi",
-  "prayerNotifBodyIsha": "Tapusin ang iyong araw na may pag-alaala sa Allah. Hayya 'alal falah — halika sa tagumpay.",
-
-  "outOfReflectionsBannerText": "Ginamit mo na ang lahat ng iyong mga pag-isip",
-  "outOfReflectionsBannerCta": "Makakuha ng higit pa",
-
+  "prayerTimesLocationNeededTitle": "Gikinahanglan ang lokasyon",
+  "prayerTimesLocationNeededBody": "Tugoti ang access sa lokasyon aron makalkula sa Ayara ang tukmang mga oras sa pag-ampo para sa imong siyudad.",
+  "prayerTimesNextLabel": "Sunod",
+  "prayerTimesDoneLabel": "Nahuman",
+  "monthlyPrayerTimesTitle": "Binulan nga mga Oras sa Pag-ampo",
+  "monthlyPrayerTimesViewButton": "Tan-awa ang Tibuok Bulan",
+  "monthlyPrayerTimesNextMonth": "Sunod nga bulan",
+  "monthlyPrayerTimesDayHeader": "Adlaw",
+  "sharePrayerTimes": "Ipaambit ang mga oras sa pag-ampo",
+  "notificationsSectionTitle": "Mga Pahibalo",
+  "notificationsSectionSubtitle": "Mga pahinumdom sa pag-ampo, kalendaryong panghitabo ug uban pa",
+  "dailyReflectionReminderTitle": "Adlaw-adlaw nga Pamalandong",
+  "dailyReflectionReminderDescription": "Usa ka malumo nga adlaw-adlaw nga pahinumdom sa pag-abli sa Ayara ug pagpabiling konektado sa imong pagtuo.",
+  "dailyReflectionReminderEnable": "I-enable ang adlaw-adlaw nga pahinumdom",
+  "dailyReflectionReminderTimeLabel": "Oras sa pahinumdom",
+  "prayerNotificationsTitle": "Mga Pahinumdom sa Pag-ampo",
+  "prayerNotificationsDescription": "Dawata ang usa ka malumo nga pahinumdom sa dili pa ang matag oras sa pag-ampo aron magpabiling konektado tibuok adlaw.",
+  "prayerNotificationsEnable": "I-enable ang mga pahinumdom sa pag-ampo",
+  "prayerNotificationsOpenSettings": "Ablihi ang notification settings",
+  "prayerNotificationsDenied": "Naka-disable ang notifications",
+  "prayerNotificationsDeniedHint": "Adto sa Settings ug tugoti ang notifications para sa Ayara aron makadawat og mga pahinumdom sa oras sa pag-ampo.",
+  "notificationsConsentLabel": "Tugoti ang notifications alang sa mga oras sa pag-ampo",
+  "prayerNotifTitleFajr": "🌅 Fajr — Pag-ampo sa Kaadlawon",
+  "prayerNotifBodyFajr": "Ang Fajr mao ang pag-ampo sa kaadlawon sa Ahl al-Bayt. Miingon si Imam Ali (AS): Bantayi ang pag-ampo sa kaadlawon sama sa pagpanalipod ninyo sa inyong labing bililhon nga pagsalig. Bangon, paghinlo sa kaugalingon, ug tindog atubangan sa Allah.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Pag-ampo sa Udto",
+  "prayerNotifBodyDhuhr": "Gibililhon sa mga Imam sa Ahl al-Bayt ang matag higayon sa paghinumdom. Hunong usa sa imong adlaw, isagol ang Dhuhr ug Asr kung gikinahanglan, ug ibalik ang imong kasingkasing sa Allah.",
+  "prayerNotifTitleAsr": "🌤️ Asr — Pag-ampo sa Hapon",
+  "prayerNotifBodyAsr": "Bantayi ang pag-ampo, kay kini mao ang kasabotan tali kanimo ug sa Allah. Miabot na ang oras sa Asr — ayaw tugoti nga molabay kini nga walay paghinumdom.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Pag-ampo sa Pagsalop sa Adlaw",
+  "prayerNotifBodyMaghrib": "Misalop na ang adlaw — usa ka higayon nga gihuptan nga sagrado sa Ahl al-Bayt alang sa pag-ampo. Buhata ang Maghrib ug iisa ang imong mga kamot ngadto sa Allah sa dua sa dili pa magsugod ang gabii.",
+  "prayerNotifTitleIsha": "🌙 Isha — Pag-ampo sa Gabii",
+  "prayerNotifBodyIsha": "Tapusa ang imong adlaw kauban ang Allah. Giawhag sa mga Imam ang Salat al-Layl human sa Isha — apan una, tapusa ang imong Isha ug sirad-i ang adlaw sa Iyang paghinumdom.",
+  "outOfReflectionsBannerText": "Nagamit na nimo ang tanan nimong mga pamalandong",
+  "outOfReflectionsBannerCta": "Kuhaa pa",
   "dhikrPageTitle": "Dhikr",
-  "dhikrTapToCount": "Mag-tap sa bilog upang bilangan",
-  "dhikrResetButton": "Itakda muli",
+  "dhikrTapToCount": "I-tap ang lingin aron moihap",
+  "dhikrResetButton": "I-reset",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Kumpleto mo ang 99 na pag-aalala sa Allah. Maging liwanag ang mga ito para sa iyong puso.",
-
-  "disclaimerTitle": "Tungkol sa gabay ng app na ito",
-  "disclaimerBody": "Ayara ay nagbibigay ng Islamic na pag-isip, mga pagsasabing-sabing, at espiritual na nilalaman upang suportahan ang iyong personal na paglalakbay ng pananiniwala. Ang nilalaman na ito ay inaalok para sa pangkalahatang impormasyon at inspirasyon lamang.\n\nAng Ayara ay hindi palitan ang qualified scholarship.\nAng gabay sa app na ito ay hindi kapalit ng isang natutong Islamic scholar, imam, mufti, o theologian na nagsanay na guro. Kung mayroon kang mga tanong tungkol sa mga patakaran ng relihiyon, halal at haram na mga bagay, o personal na obligasyon sa relihiyon, mangyaring humingi ng payo mula sa isang qualified na religious authority sa iyong komunidad.\n\nAng app na ito ay hindi naglalabas ng mga patakaran ng relihiyon.\nAng Ayara ay hindi gumagawa ng authoritative na mga determinasyon sa mga bagay ng fiqh (Islamic jurisprudence) o personal na obligasyon sa relihiyon. Walang dapat dito ay tratuhin bilang isang fatwa o binding na religious instruction.\n\nAng mga scholarly interpretation ay nag-iiba.\nAng Islam ay sumasaklaw sa mayamang diversity ng mga tradisyon, mga paaralan ng pag-iisip (madhabs), at mga scholarly na opinyon. Ang nilalaman sa app na ito ay sumasalamin sa pangkalahatang pananaw at maaaring hindi kumatawan sa bawat tradisyon o paaralan nang pantay.\n\nAng komunidad ay mahalaga.\nAng app na ito ay naglalayong hikayatin ang iyong pakikipag-ugnayan sa mga tradisyon ng pananiniwala habang malalim na nagpaparespeto sa mahalagang papel ng iyong lokal na masjid, imam, at relihiyosong komunidad. Hinihikayat kami na manatili kang konektado sa at matuto mula sa mga qualified na guro malapit sa iyo.",
-  "disclaimerClose": "Nakaintindi ako",
-  "disclaimerInfoTooltip": "Tungkol sa gabay ng app na ito",
-  "disclaimerSettingsSubtitle": "Para sa pangkalahatang impormasyon lamang. Mag-tap upang basahin ang buong disclaimer.",
-  "disclaimerSectionHeader": "Disclaimer ng gabay"
+  "dhikrCompleteMessage": "Nahuman na nimo ang 100 ka mga paghinumdom sa Allah. Hinaot nga mahimo kining kahayag alang sa imong kasingkasing.",
+  "disclaimerTitle": "Mahitungod sa giya sa kini nga app",
+  "disclaimerBody": "Ang Ayara naghatag og Islamikong mga pamalandong, mga pahinumdom, ug espiritwal nga sulod aron mosuporta sa imong personal nga panaw sa pagtuo, nga nakagamot sa Quran ug sa mga pagtulon-an sa Ahl al-Bayt. Kini nga sulod gitanyag lamang alang sa kinatibuk-ang impormasyon ug inspirasyonal nga katuyoan.\n\nAng Ayara dili puli sa kuwalipikadong scholarship.\nAng giya niini nga app dili kapuli sa usa ka maalamong Islamikong scholar, marja', o theolohikong natudluang magtutudlo. Sa Shia Islam, ang relihiyosong giya nakagamot sa Ja'fari nga tunghaan sa jurisprudence (fiqh) ug sa tradisyon sa pagsunod sa usa ka buhing Marja' (tinubdan sa emulation) — usa ka kuwalipikadong jurist kansang mga hukom naggiya sa mga magtutuo sa relihiyosong praktis. Kung aduna kay mga pangutana bahin sa relihiyosong mga hukom, mga butang nga halal ug haram, o personal nga relihiyosong mga obligasyon, palihog pangayo og tambag gikan sa usa ka kuwalipikadong Marja' o scholar sa imong komunidad.\n\nKini nga app dili nagpagawas og relihiyosong mga hukom.\nAng Ayara dili mohimo og may awtoridad nga pagdeterminar sa mga butang sa fiqh o personal nga relihiyosong obligasyon. Walay bisan unsa dinhi ang angay isipon nga fatwa o nagbugkos nga relihiyosong instruksyon.\n\nAng sentral nga kahinungdanon sa Ahl al-Bayt.\nSa Shia Islam, ang Propeta Muhammad ﷺ ug ang iyang putli nga panimalay — ang Ahl al-Bayt — mao ang may awtoridad nga mga giya sa Islamikong komunidad human sa Quran. Ang dose ka mga Imam sa Ahl al-Bayt mao ang gitudlo sa Diyos nga mga maghuhubad sa Islamikong pagtulon-an. Ang sulod niini nga app nagpakita niini nga tradisyon ug naningkamot sa pagpasidungog niini sa matinud-anon nga paagi.\n\nMahinungdanon ang komunidad.\nKini nga app nagtumong sa pag-awhag sa imong pakiglambigit sa pagtuo samtang lawom nga nagtahod sa mahinungdanong tahas sa imong lokal nga mosque, Islamikong sentro, ug relihiyosong komunidad. Giawhag ka namo nga magpabiling konektado ug makat-on gikan sa kuwalipikadong mga magtutudlo nga anaa duol kanimo.",
+  "disclaimerClose": "Nasabtan ko",
+  "disclaimerInfoTooltip": "Mahitungod sa giya sa kini nga app",
+  "disclaimerSettingsSubtitle": "Alang lamang sa kinatibuk-ang katuyoan sa impormasyon. I-tap aron mabasa ang tibuok disclaimer.",
+  "disclaimerSectionHeader": "Disclaimer sa giya",
+  "navHome": "Home",
+  "navReflect": "Pamalandong",
+  "navDuas": "Mga Dua",
+  "navCalendar": "Kalendaryo",
+  "dashboardToday": "KARON",
+  "dashboardComingUp": "Umaabot",
+  "dashboardDaysUnit": "{count, plural, one {adlaw} other {mga adlaw}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Dali nga Access",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Giya",
+  "quickActionPrayerTimes": "Mga Oras sa Pag-ampo",
+  "askAyaraTitle": "Pangutan-a ang Ayara",
+  "askAyaraSubtitle": "Pangutana bisan unsang Islamikong pangutana ug dawata ang usa ka maampingong giya nga tubag.",
+  "askAyaraHint": "pananglitan, Unsa ang kahinungdanon sa Ramadan?",
+  "askAyaraSubmit": "Pangutana",
+  "wisdomOfTheDayTitle": "Kaalam sa Adlaw",
+  "calendarScreenTitle": "Islamikong Kalendaryo",
+  "calendarUpcomingOccasions": "Umaabot nga mga Okasyon",
+  "calendarOccasionRemindersTitle": "Mga Pahinumdom sa Okasyon",
+  "calendarOccasionRemindersHint": "Pahibaloon sa gabii sa wala pa ang matag okasyon",
+  "calendarNotifPermissionDenied": "Gidumilian ang notification permission. I-enable kini sa imong device settings.",
+  "calendarNoEvents": "Walay nakitang umaabot nga mga panghitabo.",
+  "calendarAddToPhone": "Idugang sa Kalendaryo sa Telepono",
+  "calendarAddedToPhone": "Nidugang sa Kalendaryo",
+  "calendarCountdownToday": "KARON",
+  "calendarCountdownTomorrow": "UGMA",
+  "calendarCountdownDays": "sa sulod sa {days} ka adlaw",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Ene",
+  "calendarMonthFeb": "Peb",
+  "calendarMonthMar": "Mar",
+  "calendarMonthApr": "Abr",
+  "calendarMonthMay": "May",
+  "calendarMonthJun": "Hun",
+  "calendarMonthJul": "Hul",
+  "calendarMonthAug": "Ago",
+  "calendarMonthSep": "Set",
+  "calendarMonthOct": "Okt",
+  "calendarMonthNov": "Nob",
+  "calendarMonthDec": "Dis",
+  "calendarSeasonMuharramEarly": "Mga Adlaw sa Muharram — hinumdomi ang Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — mga adlaw sa kasubo ug pamalandong",
+  "calendarSeasonArbaeen": "Arbaeen — kap-atan ka adlaw ni Husayn",
+  "calendarSeasonRoadToArbaeen": "Ang dalan ngadto sa Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — ang kaadlawon sa kapadayagan",
+  "calendarSeasonMidShaban": "Tunga sa Sha'ban — adlawng natawhan ni Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — ang bulan sa Quran",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Mga Dua ug Ziyarat",
+  "duasSearchHint": "Pangita og mga dua, ziyarat…",
+  "duasFilterAll": "Tanan",
+  "duasCount": "{count, plural, one {{count} ka dua} other {{count} ka mga dua ug ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Walay nakitang mga dua.",
+  "duaCategoryDaily": "Adlaw-adlaw",
+  "duaCategoryWeekly": "Sinemanal",
+  "duaCategoryOccasions": "Mga okasyon",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Pagkatawo",
+  "eventTypeMartyrdom": "Pagkamartir",
+  "eventTypeOccasion": "Okasyon",
+  "duaCopyTooltip": "Kopyaha ang hubad",
+  "duaToggleTransliteration": "Transliteration",
+  "duaToggleTranslation": "Hubad",
+  "duaAskAiLabel": "Pangutan-a ang Ayara nga ipasabut kini nga dua",
+  "duaAskAiLockedLabel": "Pangutan-a ang Ayara (Wilaya)",
+  "duaAiLockedMessage": "Ang mga pagpasabot sa Ayara anaa lamang alang sa mga miyembro sa Wilaya. Pag-upgrade sa Settings.",
+  "duaAiComingSoon": "Pangutan-a ang Ayara mahitungod sa \"{name}\" — moabot na sa dili madugay!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Nakopya ang dua sa clipboard.",
+  "tasbihAllahuAkbarMeaning": "Ang Allah Mao ang Labing Dako",
+  "tasbihAlhamdulillahMeaning": "Ang tanang pagdayeg iya sa Allah",
+  "tasbihSubhanallahMeaning": "Mahimayaon ang Allah",
+  "tasbihResetTooltip": "I-reset",
+  "tasbihCompleteTitle": "Nahuman ang Tasbih",
+  "tasbihCompleteMessage": "Hinaot nga dawaton sa Allah ang imong dhikr.",
+  "tasbihTapHint": "I-tap bisan asa aron moihap",
+  "tasbihatScreenTitle": "Giya sa Pag-ampo",
+  "tasbihatScreenSubtitle": "ANG MGA PAGHIMAYA SA PAG-AMPO",
+  "tasbihatScreenDescription": "Usa ka kompleto nga giya sa mga paghimaya nga gi-recite sa panahon ug human sa adlaw-adlaw nga mga pag-ampo — sumala sa tradisyon sa Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Gi-recite sa ika-3 ug ika-4 nga rakʿah",
+  "tasbihatArba3Info": "Sa Shia jurisprudence, ang Tasbiḥāt al-Arbaʿa mopuli sa Surah al-Fatiha sa ika-3 ug ika-4 nga rakʿah sa Dhuhr, Asr, Maghrib, ug Isha. Obligado (wājib) nga i-recite kini kausa, ug girekomenda (mustaḥabb) nga i-recite kini tulo ka beses.",
+  "tasbihatArba3Translation": "Mahimayaon ang Allah · Ang tanang pagdayeg alang sa Allah\nWalay laing diyos gawas sa Allah · Ang Allah Mao ang Labing Dako",
+  "tasbihatArba3CompleteTitle": "Nahuman ang Recitation",
+  "tasbihatArba3CompleteMessage": "Hinaot nga dawaton ang imong pag-ampo — Āmīn",
+  "tasbihatArba3TapHint": "I-tap human sa matag recitation",
+  "tasbihatZahraSubtitle": "Human sa matag pag-ampo · 100 ka beads",
+  "tasbihatZahraOriginLabel": "Gigikanan",
+  "tasbihatZahraHadith": "Si Lady Fatima al-Zahra (sa) nangayo sa Propeta ﷺ og usa ka sulugoon. Miingon siya: \"Dili ba ko magtudlo kanimo og usa ka butang nga mas maayo pa kay sa usa ka sulugoon? Pag-recite og Subḥānallāh 33 ka beses, Alḥamdulillāh 33 ka beses, ug Allāhu Akbar 34 ka beses human sa matag pag-ampo. Kana mas maayo pa para kanimo kay sa usa ka sulugoon.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Vol. 85",
+  "tasbihatZahraOpenCounter": "Ablihi ang Tasbīḥ Counter",
+  "tasbihatDuasTitle": "GIREKOMENDANG MGA DUĀ",
+  "tasbihatDuasSubtitle": "Human makompleto ang imong pag-ampo",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Human sa matag obligadong pag-ampo",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Bisan kinsa nga mo-recite sa Āyat al-Kursī human sa matag obligadong pag-ampo, walay bisan unsa nga makababag tali kaniya ug sa paraiso gawas sa kamatayon. Miingon si Imam al-Bāqir (a) nga usa kini sa labing dagkong mga bersikulo sa Quran.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Human sa matag pag-ampo · nagtimaan sa tanang mga pangamuyo",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Ang pagpadala og mga panalangin ngadto sa Propeta ﷺ ug sa iyang putli nga pamilya (Āl Muḥammad) girekomenda aron timaanan ang matag dua. Miingon si Imam al-Ṣādiq (a): \"Ang bisan unsang dua gisuspenso hangtod magpadala ka og ṣalawāt kang Muḥammad ug sa iyang pamilya.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Human sa matag pag-ampo · alang sa Imam sa atong kapanahonan",
+  "tasbihatDuaFarajSource": "Gitudlo ni Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "Usa ka dua alang sa pagpakita pag-usab ni Imam al-Mahdī (af), ang ikanapulog-duha nga Imam, nga gitudlo sa iyang amahan. Gi-recite adlaw-adlaw sa Shia nga matinumanon human sa matag pag-ampo isip buhat sa debosyon ngadto sa buhing Imam.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ ni Lady Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "Human sa Maghrib ug Isha · ilabina nga girekomenda",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Miingon si Imam al-Bāqir (a) nga ang pag-recite sa Tasbīḥ al-Zahrā human sa Isha sa dili pa matulog mas maayo pa kay sa 1000 ka rakʿahs sa opsyonal nga pag-ampo. Ang kahayag niini mosaka ngadto sa kalangitan.",
+  "tasbihFatimaGiftPre": "Usa ka gasa gikan sa Propeta",
+  "tasbihFatimaGiftPost": "gi-recite human sa matag pag-ampo",
+  "prayerTrackerTitle": "PAGSUBAY SA PAG-AMPO",
+  "prayerTrackerPrayed": "Nakaampo",
+  "prayerTrackerDayStreak": "{count} ka adlaw nga sunod-sunod",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Nahuman ang tanang mga pag-ampo karong adlawa. Hinaot nga dawaton sa Allah.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Nahuman karong adlawa",
+  "dhikrTrackerNotDoneToday": "Wala buhata karong adlawa",
+  "dhikrTrackerDayStreak": "{count} ka adlaw nga sunod-sunod",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Pahinumdom sa Tasbīḥ",
+  "dhikrReminderDescription": "Usa ka malumo nga adlaw-adlaw nga pahinumdom sa pag-recite sa imong Tasbīḥ al-Zahrā (SA).",
+  "dhikrReminderEnable": "I-enable ang pahinumdom sa Tasbīḥ",
+  "dhikrReminderTimeLabel": "Oras sa pahinumdom",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Adlaw-adlaw nga Hadith",
+  "hadithLabelArabic": "ARABIC",
+  "hadithLabelTranslation": "HUBAD",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Ipaambit Kini nga Hadith",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nPinaagi sa Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Nangagi",
+  "hadithNavNext": "Sunod",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "Ang 14 ka Masumeen",
+  "imamsScreenSubtitle": "Ang Propeta, si Lady Fatima, ug ang Dose ka mga Imam — ang walay sayop nga mga giya sa Islam",
+  "imamLabelBorn": "Natawo",
+  "imamLabelMartyrdom": "Pagkamartir",
+  "imamLabelStatus": "Kahimtang",
+  "imamSectionBiography": "BIOGRAPIYA",
+  "imamSectionFamousSaying": "BANTOG NGA GIINGON",
+  "imamRoleProphet": "Ang Katapusang Propeta",
+  "imamRoleInfallible": "Ang Walay Sayop",
+  "imamOrdinal1": "1st Imam",
+  "imamOrdinal2": "2nd Imam",
+  "imamOrdinal3": "3rd Imam",
+  "imamOrdinal4": "4th Imam",
+  "imamOrdinal5": "5th Imam",
+  "imamOrdinal6": "6th Imam",
+  "imamOrdinal7": "7th Imam",
+  "imamOrdinal8": "8th Imam",
+  "imamOrdinal9": "9th Imam",
+  "imamOrdinal10": "10th Imam",
+  "imamOrdinal11": "11th Imam",
+  "imamOrdinal12": "12th Imam",
+  "duaAudioScreenTitle": "Paminawa ang mga Dua",
+  "duaAudioScreenSubtitle": "Pilia ang usa ka dua aron paminawon. I-tap ang tile aron i-play o i-pause.",
+  "duaAudioComingSoonMessage": "Ang audio para niini nga dua mahimong available sa umaabot nga update.",
+  "duaAudioClose": "Sirado",
+  "duaAudioError": "Dili ma-load ang audio. Palihog susiha ang imong koneksyon.",
+  "duaAudioMetaTransmittedBy": "Gipasa ni",
+  "duaAudioMetaOccasion": "Okasyon",
+  "duaAudioMetaDuration": "Gidugayon",
+  "quickActionDailyHadith": "Adlaw-adlaw nga Hadith",
+  "quickAction14Masumeen": "14 Masumeen",
+  "quickActionListenDuas": "Paminaw",
+  "quickActionTasbihat": "Giya sa Pag-ampo",
+  "pilgrimageSectionTitle": "Ang Sagradong Panaw",
+  "pilgrimageSectionSubtitle": "Kompleto nga mga giya sa Hajj ug Umrah — ang panaw ngadto sa Balaang Balay sa Allah sa Mecca",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "Ang Ikalimang Haligi sa Islam",
+  "hajjCardDescription": "Ang dako nga tinuig nga pilgrimage — obligado kausa sa kinabuhi alang sa matag Muslim nga makahimo",
+  "hajjScreenTitle": "Giya sa Hajj",
+  "hajjScreenSubtitle": "Lakang-sa-lakang nga giya ngadto sa dakong pilgrimage",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "Ang Mas Gagmay nga Pilgrimage",
+  "umrahCardDescription": "Usa ka lawom nga magantihon nga espiritwal nga panaw nga mahimong buhaton sa bisan unsang panahon sa tuig",
+  "umrahScreenTitle": "Giya sa Umrah",
+  "umrahScreenSubtitle": "Lakang-sa-lakang nga giya ngadto sa mas gagmay nga pilgrimage",
+  "pilgrimageStepsTitle": "Mga Ritwal ug mga Lakang",
+  "pilgrimageImportantNotesTitle": "Importante nga mga Nota",
+  "pilgrimageDuaTitle": "Dua para niining lakang",
+  "pilgrimageJafariNoteTitle": "Ja'fari Fiqh Nota",
+  "pilgrimageComplete": "✓ Kumpleto",
+  "pilgrimageMarkDone": "Imarka isipon",
+  "pilgrimageProgress": "{done} sa {total} mga lakang",
+  "pilgrimageReadTime": "~{minutes} min",
+  "pilgrimageShiaNoteTitle": "Mga Shia nga Pilgrim",
+  "pilgrimageShiaNoteBody": "Ang mga Shia nga pilgrim sa tradisyonal nga paagi moadto usab sa Medina aron bisitahon ang lubnganan ni Propeta Muhammad (SAW) sa Masjid al-Nabawi, ug ang mga lubnganan sa mga Imam sa Jannat al-Baqi. Kini nga mga pagbisita adunay dako nga espiritwal nga kahinungdanon ug giisip nga mahinungdanong bahin sa panaw alang sa kadaghanan sa mga Shia Muslim.",
+  "hajjIntro": "Ang Hajj mao ang ikalimang haligi sa Islam, obligado kausa sa kinabuhi alang sa matag Muslim nga pisikal ug pinansyal nga makahimo. Gihimo sa bulan sa Dhul Hijjah, gisubay niini ang mga tunob ni Propeta Ibrahim (AS), sa iyang anak nga si Ismail (AS), ug ni Lady Hajar. Alang sa mga Shia Muslim, ang Hajj naglakip usab sa lawom nga panalangin sa pagbisita sa mga pahulayan ni Propeta (SAW) ug sa Ahlul Bayt sa Medina.",
+  "umrahIntro": "Ang Umrah mao ang mas gagmay nga pilgrimage ngadto sa Mecca ug, dili sama sa Hajj, mahimong buhaton sa bisan unsang panahon sa tuig. Bisan dili obligado, kini adunay dako kaayong espiritwal nga ganti ug giisip nga usa ka girekomendang buhat sa pagsimba. Nagpaambit kini og pipila ka mga ritwal uban sa Hajj apan mas mubo, ug naglangkob sa upat ka punoan nga mga ritwal."
 }

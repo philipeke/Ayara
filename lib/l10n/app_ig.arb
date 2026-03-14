@@ -1,585 +1,629 @@
 {
   "@@locale": "ig",
-
   "appTitle": "Ayara",
-
-  "languageSelectTitle": "Họn asụsụ gị",
-  "languageSelectSub": "Ị nwere ike ịgbanwe nke a ma emesị n'ime Settings",
-  "actionContinue": "Gaa n'ihu",
-  "languageSuggestedHeader": "Akwadoro",
+  "languageSelectTitle": "Họrọ asụsụ gị",
+  "languageSelectSub": "Ị nwere ike ịgbanwe nke a emechaa na Ntọala",
+  "actionContinue": "Gaa n’ihu",
+  "languageSuggestedHeader": "A tụrụ aro",
   "languageAllHeader": "Asụsụ niile",
-  "languageSuggestedBadge": "Akwadoro",
+  "languageSuggestedBadge": "A tụrụ aro",
   "languageSearchHint": "Chọọ…",
-
-  "planGrace": "Ọkwa Izugbe",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Isiokwu Kwa Araw",
-  "categoryFaithTrust": "Iman & Tụkwasị",
-  "categoryPrayerReflection": "Mpempe Mma",
-  "categoryHopeDifficultTimes": "Ndịka Nta",
-  "categoryForgiveness": "Gaghara Mma",
-  "categoryLoveCompassion": "Ọmịiko na Ihuhu",
-  "categoryStrengthCourage": "Iman na Ike",
-  "categoryGratitude": "Obi Ọkasị",
-  "categoryPurposeCalling": "Ihe Ndụ",
-  "categoryFamilyRelationships": "Mma Ezinụlọ",
-  "categoryPeaceAnxietyRelief": "Udo N'ime Obi",
-  "categoryWisdomOfJesus": "Amamihe Nke Mghekọ",
-  "categoryHumilityCharacter": "Ihe Ụka Agwa",
-  "categoryOvercomingTemptation": "Megide Ujụ",
-  "categoryEveningReflection": "Ọrụ Uhie",
-  "categoryCustom": "Ncheta Onwe",
-  "dhikrMeaningSubhanallah": "Nnukwu bụ Chineke",
-  "dhikrMeaningAlhamdulillah": "Nnukwu nsọpụrụ bụ nke Chineke",
-  "dhikrMeaningAllahuAkbar": "Chineke bụ Onye Kasị Elu",
-  "quranVerseHeartAtRest": "N'ezie, n'icheta Chineke, obi na-enweta udo.",
-
-  "promptHint": "Metụ nhazi maka Isiokwu Islamiikdụ na mma-echiche",
-
-  "currentLanguage": "Asụsụ a tụrụ anya",
-  "settingsLanguage": "Njikọ asụsụ",
-  "settingsTitle": "Njikọ",
-  "chooseLanguage": "Họn asụsụ gị",
-  "continueCta": "Gaa n'ihu",
-
-  "promptDailyGuidance": "Dee mkpamkpa isiokwu kwa araw na-aghota na Sunni Islamiikdụ - n'ihi okwu Quraan, Hadith, na ọmụmụ Nabi Muhammad. Họrọ mma ọhụrụ kwa oge: Amamihe si na Islamiikdụ, Eziokwu si n'Ọrụ Ụfọdụ, amamihe si n'aka ndị Nabi, ma ọ bụ ihe nkịtị ọfụọ si na ọdịnala Islamiikdụ. Tinyenụ otu ayaya Quraan (Surah:Ayah) na mma-echiche 1–2 ya na-atụnyere ụbọchị. Ma ọ dịkwa mma, jikọ ya na ọnwa Islamiikdụ ma ọ bụ ụbọchị dị mkpa ma ọ́bụrụ na o kwesịrị.",
-
-  "promptFaithTrust": "Dee mma-echiche Islamiikdụ maka Iman (ịtụkwasị) na tụkwasị n'anya Allaah (Tawakkul). Tinyenụ ya n'Ayaya Quraan, ọmụmụ Nabi Muhammad, na ịtụkwasị nke ndị Sahaba. Megharia ihe ịrụpụta kwa oge: ịtụkwasị Allaah ma ọ dị mkpasị, ịdabere n'amamihe Allaah, ndịka n'ọnọdụ, ma ọ bụ ndụ nta na ndụ kwa araw. Tinyenụ otu ayaya Quraan na otu nkwụkwọ n'ụlọ mma n'ihe ọmụmụ Islamiikdụ.",
-
-  "promptPrayerReflection": "Dee mma-echiche Islamiikdụ maka mpempe (Salah, Dua, ma ọ bụ Dhikr). Gharia ụdị kwa oge: ịjụrụ ụtụtụ ma ọ bụ mgbede (Adhkar), mma-echiche maka mpempe ise, mma-echiche maka ayaya Quraan, ma ọ bụ mkpemkpe obi. Tinyenụ otu ayaya Quraan na aha nkịtị mpempe a jiri.",
-
-  "promptHopeDifficultTimes": "Dee mma-echiche Islamiikdụ maka ndịka (Sabr) na ọnwụ n'oge ọnọdụ. Zaa n'isiokwu Quraan maka nnwụchịnye, ndịka nke ndị Nabi, na ihuhu Allaah n'oge ọnọdụ. Gharia ụdị kwa oge. Tinyenụ otu ayaya Quraan na otu isiokwu na-akpalị obi si na ọdịnala Islamiikdụ.",
-
-  "promptForgiveness": "Dee amamihe Islamiikdụ maka ichọpụta mma (Tawbah) na ihuhu Allaah. Zaa n'isiokwu Quraan maka ịgbanweghachi, ihuhu Allaah, na ọmụmụ Nabi Muhammad maka ịgbagha. Gharia ihe ịrụpụta: ịgbanweghachi n'Allaah, ịgbagha ndị ọzọ, ị rụo mma ezinụlọ, ma ọ bụ ịgbụgba na ihuhu Allaah mgbe ọnwụ. Tinyenụ otu ayaya Quraan na otu nkwụkwọ n'ụlọ mma.",
-
-  "promptLoveCompassion": "Dee mma-echiche Islamiikdụ maka ihuhu (Rahmah) na ihuhu n'ihe kwa araw. Zaa n'ọmụmụ Nabi Muhammad, idu amamihe (Ihsan), na isiokwu Islamiikdụ maka ihuhu n'ezinụlọ, ndị agbata obi, na ndị umeala. Tinyenụ otu ayaya Quraan na otu ọrụ ihuhu na-eme taa.",
-
-  "promptStrengthCourage": "Dee mma-echiche Islamiikdụ maka ike na obi ike n'Iman. Zaa n'ọmụmụ ndị Nabi, ndị Isla na mbụ, na ndị Isla na-ọ na-ọsọ ma ọ dị ike. Gharia ihe ịrụpụta kwa oge: obi ike n'Iman, ike na mpempe, tụkwasị Allaah n'oge ụjọ, ma ọ bụ ndịka n'ọnọdụ. Tinyenụ otu ayaya Quraan na mkpemkpe ma ọ bụ okwu ọjụjụ nkwa.",
-
-  "promptGratitude": "Dee mma-echiche Islamiikdụ maka ịgụ Allaah (Shukr). Tinyenụ ya n'isiokwu Quraan na ọdịnala. Gharia ụdị: ịgụ Allaah n'oge ọnọdụ, ịchọkwa ihe nta, ịmalite ụtụtụ n'obi ụtụtụ Allaah, ma ọ bụ ịchọ ede Allaah n'ihe kwa araw. Tinyenụ otu ayaya Quraan na otu ihe ịgụ na-eme.",
-
-  "promptPurposeCalling": "Dee mma-echiche Islamiikdụ maka ihe ndụ n'ịlụ Allaah ma ọ bụ mma. Zaa n'isiokwu Quraan maka ihe ndụ, ịlụ ndị ọzọ, na iji ihe aha na mma. Gharia ihe ịrụpụta kwa oge: ịlụ ezinụlọ na mma, ichọ edee n'ihe dị mma (Istikhara), ibi n'okwu, ma ọ bụ ichọ ihe ndụ n'ọrụ izugbe. Tinyenụ otu ayaya Quraan na ihe abụọ mma-echiche.",
-
-  "promptFamilyRelationships": "Dee isiokwu Islamiikdụ maka ezinụlọ na mma n'ihe tinyenụ n'Quraan na ọmụmụ Nabi Muhammad. Gharia ihe ịrụpụta kwa oge: ihuhu n'ezinụlọ, ndịka n'ọnọdụ, igido ụmụ, inye ụmụ ịmụ Iman, ma ọ bụ ịdị mma na nwanyị. Tinyenụ otu ayaya Quraan na otu ihe mma n'ike gbanwee.",
-
-  "promptPeaceAnxietyRelief": "Dee mma-echiche Islamiikdụ na-eme ka obi ọ bụ ndo site n'ajụjụ Allaah (Dhikr) na tụkwasị n'azụ Allaah. Zaa n'isiokwu Quraan maka udo obi, mpempe, na ịkwesịkwesi azụ Allaah. Gharia ụdị kwa oge, tinyenụ otu ayaya Quraan na otu ihe nkịtị mma si na ọdịnala Islamiikdụ.",
-
-  "promptWisdomOfJesus": "Dee mkpamkpa amamihe si n'aka ndị Nabi dị ka a kụziri n'Isla. Zaa n'Quraan ma ọ bụ Hadith na kọwaa ka ndị ọkọ Quraan hụrụ ihe ọmụmụ. Gharia ihe ịrụpụta kwa oge: agwa, ndịka, iweta aka, ịtụkwasị, ma ọ bụ ndu kwa araw. Tinyenụ ayaya Quraan ma ọ bụ Hadith na otu ihe ọrụ.",
-
-  "promptHumilityCharacter": "Dee mma-echiche Islamiikdụ maka ịjụ isi (Tawadhu) na ihe ụka agwa (Akhlaq). Zaa n'isiokwu Quraan, ọmụmụ Nabi Muhammad, na ọdịnala Islamiikdụ maka ihe agwa. Gharia ihe ịrụpụta: ịjụ isi n'ọrụ ndị ama, ịgba ọfụ mma, ịkụ ndị ọzọ n'ụkwụ, ma ọ bụ imesi dị ka mmadu site na mma-echiche. Tinyenụ otu ayaya Quraan na otu ihe ọ na-eme.",
-
-  "promptOvercomingTemptation": "Dee mma-echiche Islamiikdụ maka igbochie ujụ na ịgara ụzọ ziri ezi. Zaa n'isiokwu Quraan, ajụjụ Allaah (Dhikr), mpempe (Salah), na ọmụmụ ndị Isla na mụtara ezi. Gharia ụdị kwa oge. Tinyenụ otu ayaya Quraan na otu ọrụ maka 24 awa na-adịbeghị.",
-
-  "promptEveningReflection": "Dee mma-echiche Islamiikdụ maka mgbede tinyenụ n'ọdịnala ajụjụ mgbede (Adhkar al-Masaa'). Gbalị ịgụ Allaah, mma-echiche ihe onwe (Muhasabah), na tụkwasị n'Allaah tupu ụra. Tinyenụ ihe ịrụpụta 3–5 maka ụbọchị, mkpemkpe dị mkpirikpi, na otu ayaya Quraan.",
-
+  "planBasic": "Nkịtị",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Nduzi Kwa Ụbọchị",
+  "categorySlot02": "Iman na Ntụkwasị Obi",
+  "categorySlot03": "Ntụle Ekpere",
+  "categorySlot04": "Ndidi na Olileanya",
+  "categorySlot05": "Rịọ Mgbaghara",
+  "categorySlot06": "Ebere na Obiọma",
+  "categorySlot07": "Ike Okwukwe",
+  "categorySlot08": "Obi Ekele",
+  "categorySlot09": "Ebumnuche Ndụ",
+  "categorySlot10": "Njikọ Ezinụlọ",
+  "categorySlot11": "Udo N’ime Obi",
+  "categorySlot12": "Amamihe Onyeamụma",
+  "categorySlot13": "Àgwà Ọma",
+  "categorySlot14": "Guzogide Ọnwunwa",
+  "categorySlot15": "Dhikr Mgbede",
+  "categoryCustom": "Ntụle Onwe Onye",
+  "dhikrMeaningSubhanallah": "Otuto dịrị Allah",
+  "dhikrMeaningAlhamdulillah": "Otuto niile bụ nke Allah",
+  "dhikrMeaningAllahuAkbar": "Allah bụ Onye Kasị Ukwuu",
+  "quranVerseHeartAtRest": "N’ezie, n’icheta Allah ka obi na-ahụ izuike.",
+  "promptHint": "Pịa otu ngalaba ka ị nweta nduzi na ntụle Islam",
+  "currentLanguage": "Asụsụ dị ugbu a",
+  "settingsLanguage": "Ntọala asụsụ",
+  "settingsTitle": "Ntọala",
+  "chooseLanguage": "Họrọ asụsụ gị",
+  "continueCta": "Gaa n’ihu",
   "wordCount": "{count, plural, one {{count} okwu} other {{count} okwu}}",
-
-  "optionsCta": "Njikọ",
+  "optionsCta": "Nhọrọ",
   "newCta": "Ọhụrụ",
-  "actionsTitle": "Gịnị ka ị chọrọ ịme?",
-  "copy": "Dee",
-  "share": "Mekorita",
+  "actionsTitle": "Gịnị ka ị ga-achọ ime?",
+  "copy": "Detuo",
+  "share": "Kekọrịta",
   "close": "Mechie",
-  "copiedToast": "Deere n'mkpakpo gị",
-
+  "copiedToast": "E dekọrọ ya na clipboard",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Isiokwu mekorita tinye aha ihei.",
+    "description": "Isiokwu email / nkekọrịta nke gụnyere aha ngalaba.",
     "placeholders": {
-      "category": { "type": "String", "example": "Isiokwu Kwa Araw" }
+      "category": {
+        "type": "String",
+        "example": "Nduzi Kwa Ụbọchị"
+      }
     }
   },
-
-  "regenerateErrorTitle": "Ọ nweghị ike megharia atu ọhụrụ",
-  "regenerateErrorBody": "{error}\n\nI chọrọ ịnwale ọzọ?",
+  "regenerateErrorTitle": "Enweghị ike imepụta nzaghachi ọhụrụ",
+  "regenerateErrorBody": "{error}\n\nỊ chọrọ ịnwale ọzọ?",
   "@regenerateErrorBody": {
-    "description": "A na-egosi mgbe megharia AI ọtụ dajụ.",
+    "description": "A na-egosi ya mgbe imegharị azịza AI dara ada.",
     "placeholders": {
-      "error": { "type": "String", "example": "Mmadụ ọrụ" }
+      "error": {
+        "type": "String",
+        "example": "Njehie netwọk"
+      }
     }
   },
-
   "cancelCta": "Kagbuo",
-  "retryCta": "Nwale ọzọ",
-
-  "authTitle": "Mepe mma gị",
-  "continueAsGuest": "Gaa n'ihu dị ka onye ọbịala",
-  "signInGoogle": "Banye Google",
-  "signInApple": "Banye Apple",
-  "signInEmail": "Banye Email",
-  "upgradeWithApple": "Gaa n'ihu na Apple",
-  "mustAccept": "Ị ga-agbata na Ọkwa na Mgbazinye Ihuhu.",
-  "termsLabel": "Anabataghachim Ọkwa Ọrụ",
-  "privacyLabel": "Agụrụla m Ihuhu Mbazi",
-  "marketingOptIn": "Anabata ịnweta ozi na ihe ọbọ",
-  "openTerms": "Ọkwa Ọrụ",
-  "openPrivacy": "Mgbazinye Ihuhu",
-
-  "accountSection": "Mma",
-  "guestMode": "Ọrụ onye ọbịala",
-  "signedIn": "Banye",
-  "upgradeHint": "Zie mma-echiche gị n'ọtụtụ ngwa site na mepe mma.",
-  "upgradeWithGoogle": "Gaa n'ihu na Google",
-  "signOut": "Pụta",
-
-  "snackUpgraded": "Mma ziri na Google ✅",
-  "snackSignedIn": "Banye Google ✅",
-  "snackSignedOut": "Apụtala",
-  "snackSignedInApple": "Banye Apple ✅",
-  "snackSignedInGoogle": "Banye Google ✅",
-  "snackUpgradedApple": "Mma ziri na Apple ✅",
-  "snackUpgradedGoogle": "Mma ziri na Google ✅",
-
-  "historyTitle": "Mma-echiche na gara aga",
-  "historyOpenCta": "Mma-echiche na gara aga",
-  "historyEmpty": "Ọ nweshị mma-echiche zie ruo ugbu a.",
-  "historyDeleteTitle": "Hichapụ mma-echiche?",
-  "historyDeleteBody": "Nke a ga-ewepụ ihe ahọ ka nwụsịrị.",
+  "retryCta": "Nwalee ọzọ",
+  "authTitle": "Mepụta akaụntụ gị",
+  "continueAsGuest": "Gaa n’ihu dị ka ọbịa",
+  "signInGoogle": "Jiri Google banye",
+  "signInApple": "Jiri Apple banye",
+  "signInEmail": "Jiri Email banye",
+  "upgradeWithApple": "Gaa n’ihu na Apple",
+  "mustAccept": "Ị ga-anabata Usoro ma kweta Amụma Nzuzo.",
+  "termsLabel": "Anabatara m Usoro Ọrụ",
+  "privacyLabel": "Agụla m Amụma Nzuzo",
+  "marketingOptIn": "Ekwenyere m ịnata akụkọ na onyinye",
+  "openTerms": "Usoro Ọrụ",
+  "openPrivacy": "Amụma Nzuzo",
+  "accountSection": "Akaụntụ",
+  "guestMode": "Ụdị ọbịa",
+  "signedIn": "Abanyela",
+  "upgradeHint": "Chekwaa ntụle gị n’ụwa ngwaọrụ dị iche iche site n’ịmepụta akaụntụ.",
+  "upgradeWithGoogle": "Gaa n’ihu na Google",
+  "signOut": "Pụọ",
+  "snackUpgraded": "Akaụntụ ewelitela site na Google ✅",
+  "snackSignedIn": "Ejiri Google banye ✅",
+  "snackSignedOut": "Apụla",
+  "snackSignedInApple": "Ejiri Apple banye ✅",
+  "snackSignedInGoogle": "Ejiri Google banye ✅",
+  "snackUpgradedApple": "Akaụntụ ewelitela site na Apple ✅",
+  "snackUpgradedGoogle": "Akaụntụ ewelitela site na Google ✅",
+  "historyTitle": "Ntụle gara aga",
+  "historyOpenCta": "Ntụle gara aga",
+  "historyEmpty": "Enweghị ntụle echekwara ugbu a.",
+  "historyDeleteTitle": "Hichapụ ntụle?",
+  "historyDeleteBody": "Nke a ga-ewepụ ihe ahọpụtara kpamkpam.",
   "deleteCta": "Hichapụ",
-
-  "historyButton": "Mma-echiche Na Gara Aga",
-  "historyEmptyTitle": "Ọ nweshị mma-echiche",
-  "historyEmptyBody": "Megharia ihe mbu — ihe ị zie ga-apụta ebe a.",
+  "historyButton": "Ntụle Gara Aga",
+  "historyEmptyTitle": "Enweghị ntụle ugbu a",
+  "historyEmptyBody": "Mepụta ihe mbụ — ihe ndị ị chekwara ga-apụta ebe a.",
   "historyDelete": "Hichapụ",
-
-  "footerTitle": "Na Iman, ndịka na ihuhu.",
-  "footerSubtitle": "Otu mkpọkọ n'oge.",
-  "genericErrorSnack": "Ihe dajụ — biko nwale ọzọ n'otu oge.",
-
-  "upgradeAccountCta": "Zie mma-echiche gị n'ọtụtụ ngwa – mepe mma",
-  "deleteAccount": "Hichapụ mma",
-  "exportData": "Ewepu data m",
-
+  "footerTitle": "Na Wilaya, Iman na Sabr",
+  "footerSubtitle": "Otu ekpere n’otu oge",
+  "genericErrorSnack": "Ihe adịghị mma mere — biko nwalee ọzọ n’oge dị mkpirikpi.",
+  "upgradeAccountCta": "Chekwaa ntụle gị n’ụwa ngwaọrụ dị iche iche – mepụta akaụntụ",
+  "deleteAccount": "Hichapụ akaụntụ",
+  "exportData": "Bupu data m",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Aha tupu igosi UID Firebase.",
+    "description": "Aha a na-egosi tupu e gosipụta UID Firebase nke ime.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Ndụ mma 🐯\nAI kwere oge tupu nke ọzọ…",
-  "rateDailyLimit": "Ị atụfụ mma-echiche taa.\nNweta mma-echiche ọzọ ma ọ bụ bulie Barakah.",
-  "rateCreditsExhausted": "Ị jiri ihe niile n'ụlọ gị.\nDo anya ma ọ bụ bulie Barakah.",
-  "rateGraceReflectionsExhausted": "Ị atụfụ mma-echiche taa.\nNweta mma-echiche ọzọ ma ọ bụ bulie Barakah.",
-  "rateReflectionsExhausted": "Ị jiri ihe niile n'ụlọ gị.\nDo anya ma ọ bụ bulie Barakah.",
-
-  "blessedDescription": "Barakah na-ameghe ihe kacha mma, ụdị ihe ọhụrụ, na akara pụrụ iche.",
-  "championDescription": "Barakah na-ameghe ihe kacha mma, ụdị ihe ọhụrụ, na akara pụrụ iche.",
-
-  "ratePlanExhausted": "Mma-echiche gị tọrọ ịchakwu taa. Ọkwa: {plan}.",
+  "rateLocalThrottle": "Nwayọọ nwayọọ 🐯\nAyara chọrọ obere oge tupu nke ọzọ…",
+  "rateDailyLimit": "Ị gwụla ntụle ugbu a.\nNweta ntụle ndị ọzọ ma ọ bụ kwalite gaa Wilaya.",
+  "rateCreditsExhausted": "I jirila ntụle gị niile.\nTinye ọzọ ma ọ bụ kwalite gaa Wilaya iji gaa n’ihu.",
+  "rateGraceCreditsExhausted": "Ị gwụla ntụle ugbu a.\nNweta ntụle ndị ọzọ ma ọ bụ kwalite gaa Wilaya.",
+  "premiumDescription": "Wilaya na-emeghe atụmatụ premium, ngalaba ndị ga-abịa, na akara pụrụ iche.",
+  "ratePlanExhausted": "Ntụle gị efu ugbu a. Atụmatụ: {plan}.",
   "@ratePlanExhausted": {
-    "description": "A na-egosi mgbe mma-echiche dajụ ma mgbe nke ọma na-eche ala.",
+    "description": "A na-egosi ya mgbe ntụle onye ọrụ agwụla mana ihe kpatara ya bụ nke nkịtị.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Ọkwa Izugbe ma ọ bụ Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Nkịtị ma ọ bụ Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "Ọ nweghị ike ịlele mma-echiche gị: {message}",
+  "rateCheckFailed": "Enweghị ike ịlele ntụle gị: {message}",
   "@rateCheckFailed": {
-    "description": "A na-egosi mgbe ọrụ na-eme na-ele dajụ.",
+    "description": "A na-egosi ya mgbe ọrụ a kpọrọ laghachiri ozi njehie.",
     "placeholders": {
-      "message": { "type": "String", "example": "Mmadụ ọrụ" }
+      "message": {
+        "type": "String",
+        "example": "Njehie netwọk"
+      }
     }
   },
-
-  "rateCheckGenericError": "Ihe dajụ mgbe ịlele mma-echiche gị.",
-  "aiFallbackGeneric": "Ihe dajụ — biko nwale ọzọ n'otu oge.",
-
-  "limitSectionTitle": "Mma-echiche",
-  "limitTodayLabel": "Ọrụ",
-  "limitCreditsLabel": "Mma-echiche na-adịbeghị: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "Ọkwa: {plan}",
+  "rateCheckGenericError": "Ihe na-adịghị mma mere mgbe a na-enyocha ntụle gị.",
+  "aiFallbackGeneric": "Ihe adịghị mma mere — biko nwalee ọzọ n’oge dị mkpirikpi.",
+  "limitSectionTitle": "Ntụle",
+  "limitTodayLabel": "Ojiji",
+  "limitCreditsLabel": "Ntụle fọdụrụ: {credits}",
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
+  "limitPlanLabel": "Atụmatụ: {plan}",
   "@limitPlanLabel": {
-    "description": "Egosi aha ọkwa mgbazinye taa.",
+    "description": "Na-egosi aha atụmatụ ndebanye aha dị ugbu a.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Ọkwa Izugbe ma ọ bụ Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Nkịtị ma ọ bụ Wilaya"
+      }
     }
   },
-  "limitLoadingLabel": "Na-atọ…",
-  "limitLoadingLabelDescription": "A na-egosi ka ọrụ nweta na-atọ.",
-
-  "aiLimitTitle": "Mma-echiche",
-  "aiLimitSubtitle": "Otu atu na-eji 1 mma-echiche. Ọkwa Izugbe na-ejikọ mma-echiche ala. Barakah na-ameghe ihe ọhụrụ na ọrụ mgbazinye.",
-  "aiLimitProgressLabel": "{used} / {total} mma-echiche a ji",
+  "limitLoadingLabel": "Na-ebudata…",
+  "limitLoadingLabelDescription": "A na-egosi na kaadị ntụle mgbe a na-ebudata ọnụ ọgụgụ ojiji.",
+  "aiLimitTitle": "Ntụle",
+  "aiLimitSubtitle": "Nzaghachi ọ bụla na-eji ntụle 1. Nkịtị gụnyere ntụle mmalite. Wilaya na-emeghe ngalaba premium ma na-enye ohere itinye ọzọ.",
+  "aiLimitProgressLabel": "{used} / {total} ntụle ejirila",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Mma-echiche",
-  "reflectionsUsageLabel": "Ọrụ",
-  "reflectionsRemainingLabel": "Mma-echiche na-adịbeghị: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Ọkwa: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Egosi aha ọkwa taa.",
+  "creditsSectionTitle": "Ntụle",
+  "creditsUsageLabel": "Ojiji",
+  "creditsRemainingLabel": "Ntụle fọdụrụ: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Ọkwa Izugbe ma ọ bụ Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Na-atọ…",
-  "reflectionsLoadingLabelDescription": "A na-egosi ka nke mma-echiche na-atọ.",
-
-  "reflectionsTitle": "Mma-echiche",
-  "reflectionsSubtitle": "Otu atu na-eji 1 mma-echiche. Ọkwa Izugbe na-ejikọ mma-echiche ala. Barakah na-ameghe ihe ọhụrụ na ọrụ mgbazinye.",
-  "reflectionsProgressLabel": "{used} / {total} mma-echiche a ji",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Atụmatụ: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Na-egosi aha atụmatụ dị ugbu a.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Nkịtị ma ọ bụ Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Na-ebudata…",
+  "creditsLoadingLabelDescription": "A na-egosi ya mgbe a na-ebudata ọnụọgụ ntụle.",
+  "creditsTitle": "Ntụle",
+  "creditsSubtitle": "Nzaghachi ọ bụla na-eji ntụle 1. Nkịtị gụnyere ntụle mmalite. Wilaya na-emeghe ngalaba premium ma na-enye ohere itinye ọzọ.",
+  "creditsProgressLabel": "{used} / {total} ntụle ejirila",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "Hichapụ mma",
-  "settingsDeleteDescription": "Hichapụ mma gị na data niile na-akụkọ.",
-  "settingsDeleteButtonLabel": "Hichapụ mma m",
-  "settingsDeleteDialogTitle": "Hichapụ mma?",
-  "settingsDeleteDialogBody": "Ihe a ka nwụsịrị na ọ nweghị ike ị gawaa.\n\nMma-echiche gị niile, mma, na data a ga-ewepụ.",
+  "settingsDeleteTitle": "Hichapụ akaụntụ",
+  "settingsDeleteDescription": "Hichapụ akaụntụ gị na data niile metụtara ya kpamkpam.",
+  "settingsDeleteButtonLabel": "Hichapụ akaụntụ m",
+  "settingsDeleteDialogTitle": "Hichapụ akaụntụ?",
+  "settingsDeleteDialogBody": "Omume a bụ nke na-adịgide adịgide ma a pụghị ịlaghachi azụ.\n\nA ga-ehichapụ nkata gị niile, akụkọ ihe mere eme, na ozi akaụntụ.",
   "settingsDeleteDialogCancel": "Kagbuo",
   "settingsDeleteDialogConfirm": "Hichapụ",
-
-  "settingsFreeLimitUsedTitle": "Mma-echiche ala a ji",
-  "settingsFreeLimitUsedDescription": "Mma-echiche ala n'ihe ngwa a ji. Bulie Barakah ma ọ bụ zuo mma-echiche ọzọ.",
-
-  "settingsStarterReflectionsUsedTitle": "Mma-echiche ala a ji",
-  "settingsStarterReflectionsUsedDescription": "Mma-echiche ala n'ihe ngwa a ji. Bulie Barakah ma ọ bụ zuo mma-echiche ọzọ.",
-
-  "deviceBoundError": "Ihe ngwa a jikọla na mma ọzọ. Biko, banye na mma mbụ.",
-
-  "premiumTitle": "Ọrụ Barakah",
-  "premiumSubtitleBasic": "Megharia Ayara zuru oke.",
-  "premiumSubtitleChampion": "Ị bụ Barakah. I chọrọ ọzọ mma-echiche?",
-
-  "premiumCurrentPlan": "Ọkwa a tụrụ anya: {plan}",
-  "premiumCreditsStatus": "Mma-echiche: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "Ịzụ azu ọ dịbeghị ugbu a.",
-  "premiumSignInToPurchase": "Banye iji zụ mma-echiche ma ọ bụ bulie Barakah.",
-
-  "premiumRestorePurchases": "Megharia ịzụ azu",
-  "premiumProcessing": "Na-agwa…",
-  "premiumRestoreHintTitle": "Ị zụtara Barakah ma ọ bụ mma-echiche na ihe ngwa a ma ọ bụ ibe?",
-  "premiumRestoreHintBody": "Megharia ịzụ azu ma ọ dịbeghị egosi.",
-
-  "premiumBuyCredits200": "Zuo mma-echiche 200",
-  "premiumBuyCredits400": "Zuo mma-echiche 400",
-  "premiumBecomeChampionOneTime": "Bulie n'ọrụ Barakah",
-  "premiumChampionHint": "Dị ka Barakah, ị nwere ike ịgara n'ihu na mma-echiche ọzọ mgbe ọ bụla.",
-
-  "premiumUpgradeCta": "Bulie",
-  "premiumRequiredForCategory": "Ihei a maka ndị Barakah na-emeru. Bulie n'Settings iji megharia ihe niile.",
-  "premiumBenefitsBasic": "Bulie Barakah iji nweta mma-echiche ọzọ, ihe ọhụrụ, na ịgaa n'ihu mgbe ọ bụla.",
-  "premiumBenefitsChampion": "Ị nọ n'ọrụ Barakah. Ma mma-echiche gị dị ọtụtụ, tinye ọzọ na ịgaa n'ihu.",
-  "premiumButtonBecomeChampion": "Megharia Barakah",
-  "premiumButtonTopup1000": "Tinye mma-echiche 1000",
-  "premiumChampionBadge": "Barakah n'ọrụ",
-  "premiumLoadingStore": "Na-atọ ụlọ ahịa…",
-
-  "blessedTitle": "Ọrụ Barakah",
-  "blessedSubtitleGrace": "Megharia Ayara zuru oke.",
-  "blessedSubtitleBlessed": "Ị bụ Barakah. I chọrọ ọzọ mma-echiche?",
-
-  "blessedCurrentPlan": "Ọkwa a tụrụ anya: {plan}",
-  "blessedReflectionsStatus": "Mma-echiche: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Ịzụ azu ọ dịbeghị ugbu a.",
-  "blessedProductNotAvailable": "Ihe a ọ dịbeghị n'ụlọ ahịa ugbu a. Biko nwale ọzọ n'oge.",
-  "blessedPurchaseError": "Ihe dajụ n'ịzụ azu. Biko nwale ọzọ.",
-  "blessedSignInToPurchase": "Banye iji zụ mma-echiche ma ọ bụ bulie Barakah.",
-
-  "blessedRestorePurchases": "Megharia ịzụ azu",
-  "blessedProcessing": "Na-agwa…",
-  "blessedRestoreHintTitle": "Ị zụtara Barakah ma ọ bụ mma-echiche na ihe ngwa a ma ọ bụ ibe?",
-  "blessedRestoreHintBody": "Megharia ịzụ azu ma ọ dịbeghị egosi.",
-
-  "blessedBuyReflections100": "Tinye mma-echiche 100",
-  "blessedBuyReflections200": "Zuo mma-echiche 200",
-  "blessedBuyReflections400": "Zuo mma-echiche 400",
-  "blessedBecomeBlessedOneTime": "Bulie n'Barakah",
-  "blessedTopupHint": "Dị ka Barakah, ị nwere ike ịgara n'ihu na mma-echiche ọzọ mgbe ọ bụla.",
-
-  "blessedUpgradeCta": "Bulie",
-  "blessedRequiredForCategory": "Ihei a maka ndị Barakah na-emeru. Bulie n'Settings iji megharia ihe niile.",
-  "blessedFeatureLocked": "Megharia Barakah iji ichopụta ihe a.",
-  "lockedCategoriesHint": "Ụfọdụ ihei maka ndị Barakah naanị. Megharia ha iji lechọ mma-echiche niile.",
-  "blessedBenefitsGrace": "Bulie Barakah iji nweta mma-echiche ọzọ, ihe ọhụrụ, na ịgaa n'ihu mgbe ọ bụla.",
-  "blessedBenefitsBlessed": "Ị nọ n'ọrụ Barakah. Ma mma-echiche gị dị ọtụtụ, tinye ọzọ na ịgaa n'ihu.",
-  "blessedButtonBecomeBlessed": "Megharia Barakah",
-  "blessedButtonTopup1000": "Tinye mma-echiche 1000",
-  "blessedBadge": "Barakah n'ọrụ",
-  "blessedLoadingStore": "Na-atọ ụlọ ahịa…",
-
-  "freePlanBlockedTitle": "Ị atụfụ mma-echiche ala gị",
-  "freePlanBlockedBody": "Ị nọ n'ọkwa Izugbe na-ejikọ mma-echiche ala, na ị ruo n'oke. Iji gaa n'ihu — na megharia ihe ọhụrụ — bulie Barakah.",
-  "freePlanBlockedCtaGoPremium": "Hụ ihe Barakah n'okpuru",
-
-  "graceBlockedTitle": "Ị atụfụ mma-echiche ala gị",
-  "graceBlockedBody": "Ị nọ n'ọkwa Izugbe na-ejikọ mma-echiche ala, na ị ruo n'oke. Iji gaa n'ihu — na megharia ihe ọhụrụ — bulie Barakah.",
-  "graceBlockedCtaGoBlessed": "Hụ ihe Barakah n'okpuru",
-
-  "rateGuestMustSignIn": "Banye iji jiri Ayara na mma-echiche gị.",
-
-  "guestNoCreditsTitle": "Ọrụ onye ọbịala",
-  "guestNoCreditsBody": "Dị ka onye ọbịala ị nwere ike ịlele ngwa, mana ị gaghị esi jiri mma-echiche. Banye n'oge n'Settings iji jiri mma-echiche na ịzụ azu.",
-
-  "guestNoReflectionsTitle": "Ọrụ onye ọbịala",
-  "guestNoReflectionsBody": "Dị ka onye ọbịala ị nwere ike ịlele ngwa, mana ị gaghị esi jiri mma-echiche. Banye n'oge n'Settings iji jiri mma-echiche na ịzụ azu.",
-
-  "guestDialogContinue": "Gaa n'ihu",
-  "guestDialogLoginInstead": "Banye ma",
-
-  "optionalLabel": "n'aka ibe",
-
-  "accountDeleteSuccessTitle": "Mma ewepụrụ",
-  "accountDeleteSuccessBody": "Mma gị na data niile ewepụrụ.",
+  "settingsFreeLimitUsedTitle": "Ejirila ntụle mmalite",
+  "settingsFreeLimitUsedDescription": "Ejirila ntụle mmalite nke ngwaọrụ a. Kwalite gaa Wilaya ma ọ bụ zụta ntụle ndị ọzọ iji gaa n’ihu.",
+  "settingsStarterCreditsUsedTitle": "Ejirila ntụle mmalite",
+  "settingsStarterCreditsUsedDescription": "Ejirila ntụle mmalite nke ngwaọrụ a. Kwalite gaa Wilaya ma ọ bụ zụta ntụle ndị ọzọ iji gaa n’ihu.",
+  "deviceBoundError": "Ejikọtalarị ngwaọrụ a na akaụntụ ọzọ. Biko jiri akaụntụ mbụ banye.",
+  "premiumTitle": "Ụdị Wilaya",
+  "premiumSubtitleBasic": "Meghee ahụmịhe Ayara zuru ezu.",
+  "premiumSubtitlePremium": "Ị nọ na Wilaya. Ị chọrọ ntụle ndị ọzọ?",
+  "premiumCurrentPlan": "Atụmatụ dị ugbu a: {plan}",
+  "premiumCreditsStatus": "Ntụle: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "Ịzụ ahịa adịghị ugbu a.",
+  "premiumSignInToPurchase": "Banye iji zụta ntụle ma ọ bụ mepee Wilaya.",
+  "premiumRestorePurchases": "Weghachite ịzụ ahịa",
+  "premiumProcessing": "Na-ahazi…",
+  "premiumRestoreHintTitle": "Ị zụtara Wilaya ma ọ bụ ntụle na ngwaọrụ a ma ọ bụ nke ọzọ?",
+  "premiumRestoreHintBody": "Weghachite ihe ị zụtara ma ọ bụrụ na ha anaghị apụta.",
+  "premiumBuyCredits200": "Zụta ntụle 200",
+  "premiumBuyCredits400": "Zụta ntụle 400",
+  "premiumBecomePremiumOneTime": "Kwalite gaa n’ụdị Wilaya",
+  "premiumTopupHint": "Na Wilaya, ị nwere ike itinye ntụle ndị ọzọ mgbe ọ bụla ịchọrọ.",
+  "premiumUpgradeCta": "Kwalite",
+  "premiumRequiredForCategory": "Ngalaba a dị naanị ndị ọrụ Wilaya. Kwalite na Ntọala iji mepee ọdịnaya premium niile.",
+  "premiumBenefitsBasic": "Meghee Wilaya ka ị nweta ntụle ndị ọzọ, nweta ngalaba premium, ma gaa n’ihu mgbe ọ bụla ịchọrọ nduzi.",
+  "premiumBenefitsPremium": "Ị nọ n’ụdị Wilaya. Ọ bụrụ na o na-agwụ gị, tinye ntụle ndị ọzọ ma gaa n’ihu na-enweghị nkwụsị.",
+  "premiumButtonBecomePremium": "Meghee Wilaya",
+  "premiumButtonTopup1000": "Tinye ntụle 1000",
+  "premiumBadge": "Wilaya na-arụ ọrụ",
+  "premiumLoadingStore": "Na-ebudata ụlọ ahịa…",
+  "premiumProductNotAvailable": "Ngwaahịa a adịghị na ụlọ ahịa ugbu a. Biko nwalee ọzọ mgbe e mesịrị.",
+  "premiumPurchaseError": "Ihe adịghị mma mere na ịzụta. Biko nwalee ọzọ.",
+  "premiumBuyCredits100": "Tinye ntụle 100",
+  "premiumFeatureLocked": "Meghee Wilaya iji nweta atụmatụ a.",
+  "lockedCategoriesHint": "Edebere ụfọdụ ngalaba maka ndị otu Wilaya. Meghee ha iji nyochaa ntụle ọ bụla na njem gị.",
+  "freePlanBlockedTitle": "I jirila ntụle mmalite gị niile",
+  "freePlanBlockedBody": "Ị nọ na atụmatụ Nkịtị na ntụle mmalite, ma eruola gị ókè ahụ. Iji gaa n’ihu — ma mepee ngalaba premium — kwalite gaa Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Lee nhọrọ Wilaya n’okpuru",
+  "graceBlockedTitle": "I jirila ntụle mmalite gị niile",
+  "graceBlockedBody": "Ị nọ na atụmatụ Nkịtị na ntụle mmalite, ma eruola gị ókè ahụ. Iji gaa n’ihu — ma mepee ngalaba premium — kwalite gaa Wilaya.",
+  "graceBlockedCtaGoPremium": "Lee nhọrọ Wilaya n’okpuru",
+  "rateGuestMustSignIn": "Banye iji jiri Ayara na ntụle gị.",
+  "guestNoCreditsTitle": "Ụdị ọbịa",
+  "guestNoCreditsBody": "Dị ka ọbịa ị nwere ike ilele ngwa ahụ, mana ị pụghị iji ntụle. Banye n’oge ọzọ na Ntọala iji jiri ntụle ma mepee ohere ịzụta.",
+  "guestDialogContinue": "Gaa n’ihu",
+  "guestDialogLoginInstead": "Banye kama",
+  "optionalLabel": "nhọrọ",
+  "accountDeleteSuccessTitle": "Ehichapụrụ akaụntụ",
+  "accountDeleteSuccessBody": "Akaụntụ gị na data metụtara ya ehichapụrụ nke ọma.",
   "accountDeleteSuccessClose": "Mechie",
-  "accountDeleteErrorTitle": "Ọ nweghị ike ịhichapụ mma",
-  "accountDeleteErrorClose": "OK",
-  "accountDeleteReauthCancelled": "A kagbuoro ewepụ mma. Biko banye ọzọ na nwale.",
-  "accountDeleteReauthRequired": "Ewepụ mma kwere ibanye ọzọ. Biko pụta, banye ọzọ, na nwale.",
-  "settingsDeletePermanentWarning": "Ihe a ka nwụsịrị na ọ nweghị ike ị gawaa. Data niile a ga-ewepụ.",
-
-  "dailyGraceTitle": "Isiokwu Kwa Araw",
-  "dailyGraceScriptureLabel": "AYAYA NKE ARA",
-  "dailyGraceSaintLabel": "ỌKỌ N'IZI ỤBỌCHỊ",
-  "dailyGraceReflectionLabel": "MMAP-ECHICHE MGBEDE",
-  "dailyGraceCopiedToast": "Ayaya deere n'mkpakpo gị",
-
-  "dailyScripture0Text": "N'ezie, ndị ziri ezi ga-anọ n'ọmụmụ na mmiri, n'oche nke onye ama ike.",
-  "dailyScripture0Ref": "Quraan 54:54-55",
-  "dailyScripture1Text": "Na Anyị ezighị ziri gị, O Muhammad, karịa ihuhu na ụwa niile.",
-  "dailyScripture1Ref": "Quraan 21:107",
-  "dailyScripture2Text": "Ọ bụ na Allaah ọ ga-azu onye ohu ya? Maọ ha na-atụ gị site n'ihe ndị ọzọ.",
-  "dailyScripture2Ref": "Quraan 39:36",
-  "dailyScripture3Text": "Ma ọ bụ na ịchọ ihe nke karị, ma nke a dị mma nye gị; na ịchọkwa ihe ọzọ, ma nke a dị njọ. Allaah maara, mana ị maghị.",
-  "dailyScripture3Ref": "Quraan 2:216",
-  "dailyScripture4Text": "N'ezie, Allaah nọ na ndị na-adịka.",
-  "dailyScripture4Ref": "Quraan 2:153",
-  "dailyScripture5Text": "Jụrụ m; Aga m ajụ gị. Guwa m, ma ka agwụ m.",
-  "dailyScripture5Ref": "Quraan 2:152",
-  "dailyScripture6Text": "N'ezie, onye kacha ama n'anya nke Allaah bụ onye kacha ziri ezi.",
-  "dailyScripture6Ref": "Quraan 49:13",
-  "dailyScripture7Text": "Na Allaah m akwadoro na ị lụ Allaah naanị, na ị lụkwa ndị nne gị.",
-  "dailyScripture7Ref": "Quraan 17:23",
-  "dailyScripture8Text": "N'ezie, na ọnọdụ na-abụ ike.",
-  "dailyScripture8Ref": "Quraan 94:6",
-  "dailyScripture9Text": "Na ọ nọkwa na gị ebe ọ bụla. Na Allaah, nke ị na-eme, ọ na-ahụ.",
-  "dailyScripture9Ref": "Quraan 57:4",
-  "dailyScripture10Text": "Allaah ọ gaghị abuocha mmadụ karịa ike ya.",
-  "dailyScripture10Ref": "Quraan 2:286",
-  "dailyScripture11Text": "Na onye na-atụkwasị Allaah — Allaah ga-azu ya.",
-  "dailyScripture11Ref": "Quraan 65:3",
-  "dailyScripture12Text": "Ihuhu m na-eche ihe niile.",
-  "dailyScripture12Ref": "Quraan 7:156",
-  "dailyScripture13Text": "Na mgbe ndị ohu m jụrụ gị maka m — N'ezie, m nọ nso. M na-aza onye na-eti udi mgbe ọ kpọrụ m.",
-  "dailyScripture13Ref": "Quraan 2:186",
-  "dailyScripture14Text": "Onye ọ bụla na-eme ihe ziri ezi, ọ bụ nwanyị ma ọ bụ nwoke, mgbe ọ bụ onye kwere — Anyị ga-atụrụ ya a ga-elu dị mma.",
-  "dailyScripture14Ref": "Quraan 16:97",
-  "dailyScripture15Text": "N'ezie, Allaah ọ gaghị agbanwe mma nke ndị, ruo mgbe ha agbanwee ihe na ha.",
-  "dailyScripture15Ref": "Quraan 13:11",
-  "dailyScripture16Text": "Jụ mma, ka agwụ, na ị ga-ewu onwe gị ma ị bụ ndị kwere ziri.",
-  "dailyScripture16Ref": "Quraan 3:139",
-  "dailyScripture17Text": "O ndị ohu m na-emesala onwe, kagbuo na ihuhu nke Allaah. N'ezie, Allaah na-agbagha mmehie niile.",
-  "dailyScripture17Ref": "Quraan 39:53",
-  "dailyScripture18Text": "Na onye ọ bụla na-atụ Allaah — Allaah ga-eme ụzọ maka ya, na-akụ ya site n'ebe ọ atụghị.",
-  "dailyScripture18Ref": "Quraan 65:2-3",
-  "dailyScripture19Text": "Kagbuo na ihuhu nke Allaah.",
-  "dailyScripture19Ref": "Quraan 12:87",
-  "dailyScripture20Text": "Na Anyị n'ezie emeela Quraan dị mma iji cheta. Jụ onye ọ ga-echeta?",
-  "dailyScripture20Ref": "Quraan 54:17",
-  "dailyScripture21Text": "Na ọ chọtara gị nka na-ede gị.",
-  "dailyScripture21Ref": "Quraan 93:7",
-  "dailyScripture22Text": "Na Allaah m na-asị: Kpọrụ m; Aga m aza gị.",
-  "dailyScripture22Ref": "Quraan 40:60",
-  "dailyScripture23Text": "Na Anyị n'ezie onye ama ama ụmụ Adam.",
-  "dailyScripture23Ref": "Quraan 17:70",
-  "dailyScripture24Text": "Na chọọ ike site na ndịka na ompempe.",
-  "dailyScripture24Ref": "Quraan 2:45",
-  "dailyScripture25Text": "Onye ọ bụla na-eme ihe dị nta ịchọ — ọ ga-ahụ ya.",
-  "dailyScripture25Ref": "Quraan 99:7",
-  "dailyScripture26Text": "N'amaghị ike nke Allaah nọ nso.",
-  "dailyScripture26Ref": "Quraan 2:214",
-  "dailyScripture27Text": "Na onye ọ bụla na-agụ Allaah — ịgụ ya maka onwe ya.",
-  "dailyScripture27Ref": "Quraan 31:12",
-
-  "dailyReflection0": "Ka ụbọchị a na-agbara ụzọ, chere otu oge Allaah na-egosi ihuhu.",
-  "dailyReflection1": "Butere Allaah ihe niile na-agụsi obi gị taa.",
-  "dailyReflection2": "Kebe otu ngọzi site n'ụbọchị na gụọ Allaah.",
-  "dailyReflection3": "Nọ n'udo na ịma na ị dịbeghị n'aka Allaah.",
-  "dailyReflection4": "Chere ebe ị na-akpọ obi iji gosi ihuhu na amataghachi taa.",
-  "dailyReflection5": "Hapụ ihe ị nweghị ike ịkwụ na tụkwasị Allaah.",
-  "dailyReflection6": "Ka mgbede na-abata, terị mma n'ụrụ Allaah.",
-  "dailyReflection7": "Chere ịma ede mpempe gị taa, na gụọ Allaah.",
-  "dailyReflection8": "Chere ebe ndịka (Sabr) dugharị omume gị taa.",
-  "dailyReflection9": "Gaghara Allaah maka ọ bụla wee mejọrọ taa — ihuhu Allaah adị oke.",
-  "dailyReflection10": "Kebe otu mmadụ ị gboro mma taa na mekpe mma nye ha.",
-  "dailyReflection11": "Nọ n'ọkụ: gịnị na Allaah nyere gị taa na ị achọghị?",
-  "dailyReflection12": "Chere ayaya si n'Quraan bụ ebe ị nọ taa.",
-  "dailyReflection13": "Chere ka ị eji oge taa — na nyere echi nye Allaah.",
-  "dailyReflection14": "Nọ n'udo n'ịma na Allaah soro gị n'ọnọdụ ọ bụla taa.",
-  "dailyReflection15": "Chere otu ụzọ ị lụrụ eziokwu na ezinụlọ ma ọ bụ mma taa.",
-  "dailyReflection16": "Ka ụbọchị na-agbara ụzọ, megharia — Allaah hụrụ ndị na-agbanweghachi.",
-  "dailyReflection17": "Chere ọmụmụ Allaah nyere ụbọchị gị, olee karị.",
-  "dailyReflection18": "Chere ihe ị mụtara taa na ka ọ na-akpakwuru Allaah.",
-  "dailyReflection19": "Hapụ nḿụ ụbọchị n'aka Allaah — ọ na-ebu ihe ị nweghị ike ịbu.",
-  "dailyReflection20": "Chere oge ị nwere ike ịme mma n'ụbọchị, na mụta n'obi nwayọ.",
-  "dailyReflection21": "Mekpe mma nye ndị na-agụ — mpempe gị bụ onyinye nye ha.",
-  "dailyReflection22": "Cheta ngọzi ị na-agbanyụ agbanyụ na gụọ Allaah.",
-  "dailyReflection23": "Chere omume gị taa — ha maka Allaah? Echi, malite ọzọ.",
-  "dailyReflection24": "Ka abalị na-emakụ, gere Allaah n'ezumike.",
-  "dailyReflection25": "Chere ebe ị chọtara ike taa — ihe a bụ si n'Allaah.",
-  "dailyReflection26": "Kebe otu ihe ị ga-eme echi, maka Allaah, na ị emeghị taa.",
-  "dailyReflection27": "Ka ị na-arụ onwe gị ịra ura, nyere mkpụrụobi gị nye Allaah — ọ bụ onye kacha mma ọ na-echebe.",
-
-  "dailyRoleModel0": "Nabi Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Nabi Ibrahim (AS)",
-  "dailyRoleModel44": "Nabi Musa (AS)",
-  "dailyRoleModel45": "Nabi Isa (AS)",
-  "dailyRoleModel46": "Nabi Yusuf (AS)",
-  "dailyRoleModel47": "Nabi Dawud (AS)",
-  "dailyRoleModel48": "Nabi Sulayman (AS)",
-  "dailyRoleModel49": "Nabi Nuh (AS)",
-  "dailyRoleModel50": "Nabi Yunus (AS)",
-  "dailyRoleModel51": "Nabi Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Kemem Ayara iji jiri ọnọdụ m maka akara Qibla na oge mpempe",
-  "locationConsentHint": "A jiri naanị maka ihe a. Ọnọdụ gị ọ dịbeghị rụsabatara.",
-
+  "accountDeleteErrorTitle": "Enweghị ike ihichapụ akaụntụ",
+  "accountDeleteErrorClose": "Ọ dị mma",
+  "accountDeleteReauthCancelled": "A kagbuola ịbanye ọzọ. Biko banye ọzọ ma nwalee ihichapụ ọzọ.",
+  "accountDeleteReauthRequired": "Ihichapụ akaụntụ chọrọ nbanye ọhụrụ. Biko pụọ, banye ọzọ, ma nwalee ọzọ.",
+  "settingsDeletePermanentWarning": "Omume a bụ nke na-adịgide adịgide ma a pụghị ịlaghachi azụ. A ga-ehichapụ data niile metụtara akaụntụ gị.",
+  "dailyGraceTitle": "Nduzi Kwa Ụbọchị",
+  "dailyGraceScriptureLabel": "AMA AMA ỤBỌCHI",
+  "dailyGraceSaintLabel": "ỌKÀMMỤMỤ IZU A",
+  "dailyGraceReflectionLabel": "NTỤLE MGBEDE",
+  "dailyGraceCopiedToast": "E detuola amaokwu ahụ na clipboard",
+  "locationConsentLabel": "Kwe ka Ayara jiri ebe m nọ maka ntụziaka Qibla na oge ekpere",
+  "locationConsentHint": "A na-eji ya naanị maka atụmatụ ndị a. A naghị ekekọrịta ma ọ bụ echekwa ebe ịnọ gị.",
   "askPageTitle": "Jụọ Ayara",
-  "askPageDescription": "Jụọ ihe ọ bụla maka ịtụkwasị, mpempe, ndụ, ma ọ bụ ihe Islamiikdụ na ị ga-enweta isiokwu tinyenụ n'Quraan na Sunnah.",
+  "askPageDescription": "Jụọ ihe ọ bụla gbasara okwukwe, ekpere, ndụ, ma ọ bụ omume Islam ma nata nduzi sitere na Qur’an na nkuzi Ahl al-Bayt.",
   "askPageInputHint": "Dee ajụjụ gị ebe a…",
   "askPageSubmitCta": "Jụọ",
-  "askPageInputEmptyError": "Biko dee ajụjụ tupu.",
+  "askPageInputEmptyError": "Biko dee ajụjụ mbụ.",
   "askResultYourQuestion": "Ajụjụ gị",
-
-  "guidancePageTitle": "Mpempe & Isiokwu",
-  "qiblaFacingMecca": "Na Makkah",
-  "qiblaCompassInstruction": "Tolite ekwentị gị ruo mgbe mkpịsị ọla na-ebidụ n'elu.\nEbe ahọ na-atụ Qibla (Makkah).",
-  "qiblaGpsUnavailableBody": "Ebe mgbasa ahụ nwere ike na-adị mma. Pụta n'èzè na metụ Nwale.",
-  "qiblaRetry": "Nwale ọzọ",
-  "qiblaTitle": "Ntụ Qibla",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "Na-eche Makkah ihu",
+  "qiblaCompassInstruction": "Tụgharịa ekwentị gị ruo mgbe agịga ọlaedo ga-egosi elu.\nNtuziaka ahụ na-egosi Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Mgbaàmà GPS adịghị ike. Gaa n’èzí ma pịa Nwalee ọzọ.",
+  "qiblaRetry": "Nwalee ọzọ",
+  "qiblaTitle": "Ntuziaka Qibla",
   "qiblaDistanceLabel": "{km} km ruo Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "A chọrọ ọnọdụ",
-  "qiblaLocationNeededBody": "Kemem ọnọdụ iji Ayara kụọ ntụ Kaaba si Makkah.",
-  "qiblaOpenSettings": "Mepe Settings",
-  "qiblaCompassLoading": "Na-achọ ọnọdụ gị…",
-  "qiblaTowardMecca": "Ụzọ Makkah",
-
-  "prayerTimesTitle": "Oge Mpempe",
+  "qiblaLocationNeededTitle": "A chọrọ ebe ịnọ",
+  "qiblaLocationNeededBody": "Kwe ka e nweta ebe ịnọ gị ka Ayara nwee ike ịgbakọọ ntụziaka Kaaba dị na Makkah site n’ebe ọ bụla ị nọ.",
+  "qiblaOpenSettings": "Meghee Ntọala",
+  "qiblaCompassLoading": "Na-achọta ọnọdụ gị…",
+  "qiblaTowardMecca": "N’ihu Makkah",
+  "prayerTimesTitle": "Oge Ekpere",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
-  "prayerTimesLocationNeededTitle": "A chọrọ ọnọdụ",
-  "prayerTimesLocationNeededBody": "Kemem ọnọdụ iji Ayara kụọ oge mpempe maka ụlọ gị.",
-  "prayerTimesNextLabel": "Ọzọ",
-  "prayerTimesDoneLabel": "Mechie",
-
-  "monthlyPrayerTimesTitle": "Oge Mpempe Kwa Onwa",
-  "monthlyPrayerTimesViewButton": "Hụ Onwa Zuru",
-  "monthlyPrayerTimesNextMonth": "Onwa ọzọ",
+  "prayerTimesLocationNeededTitle": "A chọrọ ebe ịnọ",
+  "prayerTimesLocationNeededBody": "Kwe ka e nweta ebe ịnọ gị ka Ayara nwee ike ịgbakọọ oge ekpere ziri ezi maka obodo gị.",
+  "prayerTimesNextLabel": "Nke na-abịa",
+  "prayerTimesDoneLabel": "Emechara",
+  "monthlyPrayerTimesTitle": "Oge Ekpere Kwa Ọnwa",
+  "monthlyPrayerTimesViewButton": "Lee Ọnwa Dum",
+  "monthlyPrayerTimesNextMonth": "Ọnwa na-abịa",
   "monthlyPrayerTimesDayHeader": "Ụbọchị",
-
-  "sharePrayerTimes": "Mekorita oge mpempe",
-
-  "prayerNotificationsTitle": "Alọma Mpempe",
-  "prayerNotificationsDescription": "Nweta alọma dị nwayọ tupu oge mpempe ị na-agara n'ihu n'ụbọchị.",
-  "prayerNotificationsEnable": "Bulie alọma mpempe",
-  "prayerNotificationsOpenSettings": "Mepe njikọ alọma",
-  "prayerNotificationsDenied": "Alọma akpụ udide",
-  "prayerNotificationsDeniedHint": "Gaa n'Settings na nyere Ayara ngozi iji nweta alọma.",
-
-  "notificationsConsentLabel": "Kemem alọma maka oge mpempe",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — Mpempe Ụtụtụ",
-  "prayerNotifBodyFajr": "Mpempe kacha mma bụ Fajr. Bilite, sachapụ onwe gị, na ware Allaah.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Mpempe Mmanwụ",
-  "prayerNotifBodyDhuhr": "Ọzụọ ụbọchị gị na ịgbanweghachi na Allaah. Oge Dhuhr abịaghị.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — Mpempe Ehihie",
-  "prayerNotifBodyAsr": "Chekwaa mpempe ọhaọha. Oge Asr abịaghị — ka agaghị agabiga.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — Mpempe Anyanwụ Ruru Ala",
-  "prayerNotifBodyMaghrib": "Anyanwụ ruru ala. Nyere Maghrib na gụọ Allaah maka ụbọchị.",
-
-  "prayerNotifTitleIsha": "🌙 Isha — Mpempe Abalị",
-  "prayerNotifBodyIsha": "Mechie ụbọchị gị na ụrụ Allaah. Hayya 'alal falah — bịa na ndu.",
-
-  "outOfReflectionsBannerText": "Ị ji mma-echiche gị niile",
+  "sharePrayerTimes": "Kekọrịta oge ekpere",
+  "notificationsSectionTitle": "Ọkwa",
+  "notificationsSectionSubtitle": "Ihe ncheta ekpere, ihe omume kalenda na ndị ọzọ",
+  "dailyReflectionReminderTitle": "Ntụle Kwa Ụbọchị",
+  "dailyReflectionReminderDescription": "Ihe ncheta dị nro kwa ụbọchị iji meghee Ayara ma jikọọ na okwukwe gị.",
+  "dailyReflectionReminderEnable": "Mee ka ihe ncheta kwa ụbọchị rụọ ọrụ",
+  "dailyReflectionReminderTimeLabel": "Oge ihe ncheta",
+  "prayerNotificationsTitle": "Ihe Ncheta Ekpere",
+  "prayerNotificationsDescription": "Nata ihe ncheta dị nro tupu oge ekpere ọ bụla iji nyere gị aka ịnọ na njikọ n’ụbọchị dum.",
+  "prayerNotificationsEnable": "Mee ka ihe ncheta ekpere rụọ ọrụ",
+  "prayerNotificationsOpenSettings": "Meghee ntọala ọkwa",
+  "prayerNotificationsDenied": "A gbanyụrụ ọkwa",
+  "prayerNotificationsDeniedHint": "Gaa na Ntọala ma kwe ka Ayara zitere ọkwa ka ị nata ihe ncheta oge ekpere.",
+  "notificationsConsentLabel": "Kwe ka ọkwa maka oge ekpere",
+  "prayerNotifTitleFajr": "🌅 Fajr — Ekpere Ụtụtụ",
+  "prayerNotifBodyFajr": "Fajr bụ ekpere ụtụtụ nke Ahl al-Bayt. Imam Ali (AS) kwuru: Chekwa ekpere ụtụtụ dịka ị na-echekwa ihe kasị baa uru a nyere gị n’aka. Bilie, sachapụ onwe gị, ma guzo n’ihu Allah.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Ekpere Ehihie",
+  "prayerNotifBodyDhuhr": "Imam nke Ahl al-Bayt na-asọpụrụ oge ọ bụla nke ncheta. Kwụsị ụbọchị gị obere oge, jikọta Dhuhr na Asr ma ọ bụrụ na ọ dị mkpa, ma laghachi obi gị n’ebe Allah nọ.",
+  "prayerNotifTitleAsr": "🌤️ Asr — Ekpere Mgbede",
+  "prayerNotifBodyAsr": "Chekwa ekpere, n’ihi na ọ bụ nkwekọrịta dị n’etiti gị na Allah. Oge Asr eruola — ekwela ka ọ gafee n’enweghị ncheta.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Ekpere Anyasị",
+  "prayerNotifBodyMaghrib": "Anwụ adaala — oge Ahl al-Bayt jiri mee ihe dị nsọ maka arịrịọ. Kpee Maghrib ma meghee aka gị n’ihu Allah n’ime dua tupu abalị amalite.",
+  "prayerNotifTitleIsha": "🌙 Isha — Ekpere Abalị",
+  "prayerNotifBodyIsha": "Jisie ike mechie ụbọchị gị na Allah. Imam kpọrọ oku maka Salat al-Layl mgbe Isha gasịrị — ma nke mbụ, mezue Isha gị ma mechie ụbọchị ahụ na ncheta Ya.",
+  "outOfReflectionsBannerText": "I jirila ntụle gị niile",
   "outOfReflectionsBannerCta": "Nweta ọzọ",
-
-  "dhikrPageTitle": "Ụrụ",
-  "dhikrTapToCount": "Metụ gburugburu iji gbaa",
-  "dhikrResetButton": "Megharia",
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "Pịa okirikiri ahụ ka ị gụọ",
+  "dhikrResetButton": "Tọgharịa",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Ị mezuo ụrụ Allaah 99 oge. Ka ha bụ ìhè maka obi gị.",
-
-  "disclaimerTitle": "Maka isiokwu ngwa a",
-  "disclaimerBody": "Ayara na-enye mma-echiche Islamiikdụ, alọma, na ihe mmụọ iji kwadoro ije ịtụkwasị gị. A na-enye ihe a maka ezi obi na mma naanị.\n\nAyara ọ gaghị gọnye isi ọkọ.\nIsiokwu na ngwa a ọ dịbeghị nịve maka ọkọ Isla, imam, mufti, ma ọ bụ onye ọzụ n'ihe Isla. Ma ọ bụ na ị nwere ajụjụ maka ọkwa Islamiikdụ, halal na haram, ma ọ bụ ihe gị kwesịrị ịme, biko jụọ onye ọkọ ziri ezi n'mma gị.\n\nNgwa a ọ gaghị emesa ọkwa Islamiikdụ.\nAyara ọ gaghị ekwu okwu ziri ezi maka ihe ndụ Islamiikdụ ma ọ bụ ihe gị kwesịrị ịme. Ihe niile ebe a ọ gaghị ịrụ dị ka fatwa ma ọ bụ ọkwa Isla.\n\nMma ọkọ ọ dị iche.\nIsla na-ejikọ ọdịnala dị iche, ụdị ihe ọmụmụ, na isiokwu ndị ọkọ dị iche. Ihe na ngwa a na-egosi mma izugbe na agaghị esonye ihe niile.\n\nMma gụkọtara.\nNgwa a na-akpali gị ịjiri ọdịnala Islamiikdụ obi ike ịkwesịkwesi ọrụ imam na ndị ọkọ gị. A na-akpali gị ịdị na mma gị na ụmụ nke mụtara n'ndụ gị.",
-  "disclaimerClose": "Egerela m",
-  "disclaimerInfoTooltip": "Maka isiokwu ngwa a",
-  "disclaimerSettingsSubtitle": "Maka ezi obi naanị. Metụ iji gụ izu.",
-  "disclaimerSectionHeader": "Mjopụtaisiokwu"
+  "dhikrCompleteMessage": "Ị mezula ncheta Allah 100. Ka ha bụrụ ìhè nye obi gị.",
+  "disclaimerTitle": "Banyere nduzi ngwa a",
+  "disclaimerBody": "Ayara na-enye ntụle Islam, ihe ncheta, na ọdịnaya ime mmụọ iji kwado njem okwukwe nke onwe gị, nke sitere na Qur’an na nkuzi Ahl al-Bayt. A na-enye ọdịnaya a naanị maka ebumnuche ozi zuru oke na mkpali.\n\nAyara anaghị dochie agụmakwụkwọ ruru eru.\nNduzi dị na ngwa a abụghị nnọchi maka ọkà mmụta Islam ruru eru, marja', ma ọ bụ onye nkụzi a zụlitere n’ihe ọmụmụ okwukwe. N’ime Islam Shia, nduzi okpukpe sitere na ụlọ akwụkwọ Ja'fari nke iwu (fiqh) na omenala iso Marja' dị ndụ (isi iyi nke nṅomi) — onye ọka iwu ruru eru nke mkpebi ya na-edu ndị kwere ekwe n’omume okpukpe. Ọ bụrụ na i nwere ajụjụ gbasara iwu okpukpe, halal na haram, ma ọ bụ ọrụ okpukpe nke onwe, biko chọọ ndụmọdụ n’aka Marja' ruru eru ma ọ bụ ọkà mmụta nọ n’obodo gị.\n\nNgwa a anaghị enye mkpebi okpukpe.\nAyara anaghị eme mkpebi nwere ikike n’ihe gbasara fiqh ma ọ bụ ọrụ okpukpe nke onwe. Enweghị ihe ọ bụla ebe a kwesịrị ka ewere ya dịka fatwa ma ọ bụ ntuziaka okpukpe na-ejikọ iwu.\n\nIsi mkpa nke Ahl al-Bayt.\nN’ime Islam Shia, Onyeamụma Muhammad ﷺ na ezinụlọ ya dị ọcha — Ahl al-Bayt — bụ ndị nduzi nwere ikike nke obodo Islam mgbe Qur’an gasịrị. Imam iri na abụọ nke Ahl al-Bayt bụ ndị a họpụtara site n’aka Chineke iji kọwaa nkuzi Islam. Ọdịnaya dị na ngwa a na-egosipụta omenala a ma na-achọ ịkwanyere ya ugwu n’eziokwu.\n\nIhe gbasara obodo.\nNgwa a na-achọ ịgba gị ume ka ị na-etinye aka n’okwukwe gị ebe ọ na-asọpụrụ nke ukwuu ọrụ dị mkpa nke ụlọ alakụba mpaghara gị, ụlọ Islam, na obodo okpukpe gị. Anyị na-agba gị ume ka ị nọgide na-ejikọta na ịmụ ihe n’aka ndị nkụzi ruru eru dị gị nso.",
+  "disclaimerClose": "Aghọtaram m",
+  "disclaimerInfoTooltip": "Banyere nduzi ngwa a",
+  "disclaimerSettingsSubtitle": "Maka ebumnuche ozi zuru oke naanị. Pịa ka ị gụọ nkwupụta zuru ezu.",
+  "disclaimerSectionHeader": "Nkwupụta nduzi",
+  "navHome": "Ụlọ",
+  "navReflect": "Tụlee",
+  "navDuas": "Dua",
+  "navCalendar": "Kalenda",
+  "dashboardToday": "TAA",
+  "dashboardComingUp": "Na-abịa",
+  "dashboardDaysUnit": "{count, plural, one {ụbọchị} other {ụbọchị}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Nbata Ngwa Ngwa",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Nduzi",
+  "quickActionPrayerTimes": "Oge Ekpere",
+  "askAyaraTitle": "Jụọ Ayara",
+  "askAyaraSubtitle": "Jụọ ajụjụ Islam ọ bụla ma nata azịza e chere nke ọma na nke na-eduzi.",
+  "askAyaraHint": "dịka ọmụmaatụ Gịnị bụ mkpa Ramadan?",
+  "askAyaraSubmit": "Jụọ",
+  "wisdomOfTheDayTitle": "Amamihe Ụbọchị",
+  "calendarScreenTitle": "Kalenda Islam",
+  "calendarUpcomingOccasions": "Emume Na-abịa",
+  "calendarOccasionRemindersTitle": "Ihe Ncheta Emume",
+  "calendarOccasionRemindersHint": "A ga-ama gị ọkwa mgbede tupu emume ọ bụla",
+  "calendarNotifPermissionDenied": "A jụrụ ikike ọkwa. Mee ka ọ rụọ ọrụ na ntọala ngwaọrụ gị.",
+  "calendarNoEvents": "Enweghị ihe omume na-abịa.",
+  "calendarAddToPhone": "Tinye na Kalenda ekwentị",
+  "calendarAddedToPhone": "Tinye na Kalenda",
+  "calendarCountdownToday": "TAA",
+  "calendarCountdownTomorrow": "ECHI",
+  "calendarCountdownDays": "n’ime ụbọchị {days}",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Jen",
+  "calendarMonthFeb": "Feb",
+  "calendarMonthMar": "Maach",
+  "calendarMonthApr": "Eprel",
+  "calendarMonthMay": "Mee",
+  "calendarMonthJun": "Juun",
+  "calendarMonthJul": "Julai",
+  "calendarMonthAug": "Ọgọst",
+  "calendarMonthSep": "Sept",
+  "calendarMonthOct": "Ọkt",
+  "calendarMonthNov": "Nov",
+  "calendarMonthDec": "Dis",
+  "calendarSeasonMuharramEarly": "Ụbọchị Muharram — cheta Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — ụbọchị iru uju na ntụle",
+  "calendarSeasonArbaeen": "Arbaeen — ụbọchị iri anọ nke Husayn",
+  "calendarSeasonRoadToArbaeen": "Ụzọ gaa Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — chi ụtụtụ nke mkpughe",
+  "calendarSeasonMidShaban": "Etiti Sha'ban — ọmụmụ Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — ọnwa Qur’an",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Dua na Ziyarat",
+  "duasSearchHint": "Chọọ dua, ziyarat…",
+  "duasFilterAll": "Ha niile",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} dua na ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Enweghị dua achọpụtara.",
+  "duaCategoryDaily": "Kwa ụbọchị",
+  "duaCategoryWeekly": "Kwa izu",
+  "duaCategoryOccasions": "Emume",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Ọmụmụ",
+  "eventTypeMartyrdom": "Nrụọ Mmụọ",
+  "eventTypeOccasion": "Emume",
+  "duaCopyTooltip": "Detuo ntụgharị asụsụ",
+  "duaToggleTransliteration": "Ntụgharị mkpụrụedemede",
+  "duaToggleTranslation": "Ntụgharị asụsụ",
+  "duaAskAiLabel": "Jụọ Ayara ka ọ kọwaa dua a",
+  "duaAskAiLockedLabel": "Jụọ Ayara (Wilaya)",
+  "duaAiLockedMessage": "Nkọwa Ayara dị maka ndị otu Wilaya. Kwalite na Ntọala.",
+  "duaAiComingSoon": "Jụọ Ayara banyere \"{name}\" — na-abịa n’oge na-adịghị anya!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "E dekọrọ dua ahụ na clipboard.",
+  "tasbihAllahuAkbarMeaning": "Allah bụ Onye Kasị Ukwuu",
+  "tasbihAlhamdulillahMeaning": "Otuto niile bụ nke Allah",
+  "tasbihSubhanallahMeaning": "Otuto dịrị Allah",
+  "tasbihResetTooltip": "Tọgharịa",
+  "tasbihCompleteTitle": "Tasbih Ezuola",
+  "tasbihCompleteMessage": "Ka Allah nabata dhikr gị.",
+  "tasbihTapHint": "Pịa ebe ọ bụla ka ị gụọ",
+  "tasbihatScreenTitle": "Nduzi Ekpere",
+  "tasbihatScreenSubtitle": "OTUTO EKPERE",
+  "tasbihatScreenDescription": "Nduzi zuru ezu nke otuto a na-agụ n’oge na mgbe ekpere kwa ụbọchị gasịrị — na-eso omenala Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "A na-agụ ya na rakʿah nke 3 na nke 4",
+  "tasbihatArba3Info": "N’iwu Shia, Tasbiḥāt al-Arbaʿa na-anọchi Surah al-Fatiha na rakʿah nke 3 na nke 4 nke Dhuhr, Asr, Maghrib, na Isha. Ọ bụ iwu (wājib) ịgụ ya otu ugboro, ma a na-akwado (mustaḥabb) ịgụ ya ugboro atọ.",
+  "tasbihatArba3Translation": "Otuto dịrị Allah · Otuto niile bụ nke Allah\nEnweghị chi ọzọ ma e wezụga Allah · Allah bụ Onye Kasị Ukwuu",
+  "tasbihatArba3CompleteTitle": "Agụchaala",
+  "tasbihatArba3CompleteMessage": "Ka a nabata ekpere gị — Āmīn",
+  "tasbihatArba3TapHint": "Pịa mgbe agụchara ugboro ọ bụla",
+  "tasbihatZahraSubtitle": "Mgbe ekpere ọ bụla gasịrị · mkpụrụ 100",
+  "tasbihatZahraOriginLabel": "Mmalite",
+  "tasbihatZahraHadith": "Lady Fatima al-Zahra (sa) rịọrọ Onyeamụma ﷺ ka ọ nye ya ohu. Ọ sịrị: \"Ka m gosi gị ihe ka mma? Gụọ Subḥānallāh ugboro 33, Alḥamdulillāh ugboro 33, na Allāhu Akbar ugboro 34 mgbe ekpere ọ bụla gasịrị. Nke ahụ ka mma karịa ohu nye gị.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Vol. 85",
+  "tasbihatZahraOpenCounter": "Meghee Ngụkọ Tasbīḥ",
+  "tasbihatDuasTitle": "DUA A NA-AKWADO",
+  "tasbihatDuasSubtitle": "Mgbe i mezuchara ekpere gị",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Mgbe ekpere iwu ọ bụla gasịrị",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Onye ọ bụla na-agụ Āyat al-Kursī mgbe ekpere iwu ọ bụla gasịrị, ọ dịghị ihe guzo n’etiti ya na paradaịs ma e wezụga ọnwụ. Imam al-Bāqir (a) kwuru na ọ bụ otu n’ime amaokwu kacha ukwu na Qur’an.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Mgbe ekpere ọ bụla gasịrị · na-emechi arịrịọ niile",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Izipu ngozi n’elu Onyeamụma ﷺ na ezinụlọ ya dị ọcha (Āl Muḥammad) ka a na-akwado iji mechie dua ọ bụla. Imam al-Ṣādiq (a) kwuru: \"Dua ọ bụla na-adọpụ uche ruo mgbe ị zitere ṣalawāt n’elu Muḥammad na ezinụlọ ya.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Mgbe ekpere ọ bụla gasịrị · maka Imam nke oge anyị",
+  "tasbihatDuaFarajSource": "Imam al-Ḥasan al-ʿAskarī (a) kụziri ya",
+  "tasbihatDuaFarajNote": "Dua maka pụta ọzọ nke Imam al-Mahdī (af), Imam nke iri na abụọ, nke nna ya kụziri. Ndị kwere ekwe Shia na-agụ ya kwa ụbọchị mgbe ekpere ọ bụla gasịrị dịka ngosipụta nke ịhụnanya nye Imam dị ndụ.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ nke Lady Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "Mgbe Maghrib na Isha gasịrị · a na-akwado ya nke ukwuu",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) kwuru na ịgụ Tasbīḥ al-Zahrā mgbe Isha gasịrị tupu ụra ka mma karịa rakʿah 1000 nke ekpere onwe onye. Ìhè ya na-arịgo eluigwe.",
+  "tasbihFatimaGiftPre": "Onyinye sitere n’aka Onyeamụma",
+  "tasbihFatimaGiftPost": "a na-agụ ya mgbe ekpere ọ bụla gasịrị",
+  "prayerTrackerTitle": "NDETA EKPERE",
+  "prayerTrackerPrayed": "Ekpeela",
+  "prayerTrackerDayStreak": "ụbọchị {count} n’usoro",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Ekpere niile ezuola taa. Ka Allah nabata.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Emechala taa",
+  "dhikrTrackerNotDoneToday": "Emebeghị taa",
+  "dhikrTrackerDayStreak": "ụbọchị {count} n’usoro",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Ihe Ncheta Tasbīḥ",
+  "dhikrReminderDescription": "Ihe ncheta dị nro kwa ụbọchị iji gụọ Tasbīḥ al-Zahrā (SA) gị.",
+  "dhikrReminderEnable": "Mee ka ihe ncheta Tasbīḥ rụọ ọrụ",
+  "dhikrReminderTimeLabel": "Oge ihe ncheta",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Hadith Kwa Ụbọchị",
+  "hadithLabelArabic": "ARABIC",
+  "hadithLabelTranslation": "NTỤGHARỊ ASỤSỤ",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Kekọrịta Hadith a",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nSite na Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Nke gara aga",
+  "hadithNavNext": "Nke na-esote",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "Masumeen 14",
+  "imamsScreenSubtitle": "Onyeamụma, Lady Fatima, na Imam iri na abụọ — ndị nduzi Islam na-adịghị emehie",
+  "imamLabelBorn": "A mụrụ",
+  "imamLabelMartyrdom": "Nrụọ Mmụọ",
+  "imamLabelStatus": "Ọnọdụ",
+  "imamSectionBiography": "AKỤKỌ NDỤ",
+  "imamSectionFamousSaying": "OKWU A MA AMA",
+  "imamRoleProphet": "Onyeamụma Ikpeazụ",
+  "imamRoleInfallible": "Onye Na-adịghị Emehie",
+  "imamOrdinal1": "Imam nke 1",
+  "imamOrdinal2": "Imam nke 2",
+  "imamOrdinal3": "Imam nke 3",
+  "imamOrdinal4": "Imam nke 4",
+  "imamOrdinal5": "Imam nke 5",
+  "imamOrdinal6": "Imam nke 6",
+  "imamOrdinal7": "Imam nke 7",
+  "imamOrdinal8": "Imam nke 8",
+  "imamOrdinal9": "Imam nke 9",
+  "imamOrdinal10": "Imam nke 10",
+  "imamOrdinal11": "Imam nke 11",
+  "imamOrdinal12": "Imam nke 12",
+  "duaAudioScreenTitle": "Gee Dua",
+  "duaAudioScreenSubtitle": "Họrọ dua ị ga-ege. Pịa taịl ahụ ka ịkpọọ ma ọ bụ kwụsịtụ.",
+  "duaAudioComingSoonMessage": "Ụda maka dua a ga-adị na mmelite na-abịa.",
+  "duaAudioClose": "Mechie",
+  "duaAudioError": "Enweghị ike ibudata ụda. Biko lelee njikọ gị.",
+  "duaAudioMetaTransmittedBy": "Onye zipụtara",
+  "duaAudioMetaOccasion": "Emume",
+  "duaAudioMetaDuration": "Ogologo oge",
+  "quickActionDailyHadith": "Hadith Kwa Ụbọchị",
+  "quickAction14Masumeen": "Masumeen 14",
+  "quickActionListenDuas": "Gee ntị",
+  "quickActionTasbihat": "Nduzi Ekpere",
+  "pilgrimageSectionTitle": "Njem Nsọ",
+  "pilgrimageSectionSubtitle": "Nduzi zuru ezu maka Hajj na Umrah — njem nsọ gaa n’Ụlọ Nsọ nke Allah na Mecca",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "Ogidi nke ise nke Islam",
+  "hajjCardDescription": "Njem nsọ ukwu kwa afọ — iwu otu ugboro n’ime ndụ maka Muslim ọ bụla nwere ike ime ya",
+  "hajjScreenTitle": "Nduzi Hajj",
+  "hajjScreenSubtitle": "Nduzi nzọụkwụ n’usoro maka njem nsọ ukwu",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "Njem Nsọ Nta",
+  "umrahCardDescription": "Njem ime mmụọ bara ụba nke ukwuu nke a pụrụ ime n’oge ọ bụla n’afọ",
+  "umrahScreenTitle": "Nduzi Umrah",
+  "umrahScreenSubtitle": "Nduzi nzọụkwụ n’usoro maka njem nsọ nta",
+  "pilgrimageStepsTitle": "Emume na Nzọụkwụ",
+  "pilgrimageImportantNotesTitle": "Ndetu Dị Mkpa",
+  "pilgrimageDuaTitle": "Dua maka nzọụkwụ a",
+  "pilgrimageJafariNoteTitle": "Nkwupụta Fiqh Ja'fari",
+  "pilgrimageComplete": "✓ Pụrụ Iche",
+  "pilgrimageMarkDone": "Mepụta dịka zuru ezu",
+  "pilgrimageProgress": "{done} nke {total} nzọụkwụ",
+  "pilgrimageReadTime": "~{minutes} nkeji",
+  "pilgrimageShiaNoteTitle": "Ndị njem Shia",
+  "pilgrimageShiaNoteBody": "Ndị njem Shia na-emekarịkwa njem gaa Medina ileta ili Onyeamụma Muhammad (SAW) na Masjid al-Nabawi, na ili ndị Imam dị na Jannat al-Baqi. Nleta ndị a nwere nnukwu mkpa ime mmụọ ma a na-ewere ha dịka akụkụ dị mkpa nke njem ahụ nye ọtụtụ ndị Muslim Shia.",
+  "hajjIntro": "Hajj bụ ogidi nke ise nke Islam, iwu otu ugboro n’ime ndụ maka Muslim ọ bụla nwere ike ime ya n’ahụ na n’ego. A na-eme ya n’ọnwa Dhul Hijjah, ọ na-agbaso nzọụkwụ Onyeamụma Ibrahim (AS), nwa ya nwoke Ismail (AS), na Lady Hajar. Maka ndị Muslim Shia, Hajj gụnyekwara nnukwu ngọzi nke ileta ebe Onyeamụma (SAW) na Ahlul Bayt zuru ike na Medina.",
+  "umrahIntro": "Umrah bụ njem nsọ nta gaa Mecca, ma n’adịghị ka Hajj, a pụrụ ime ya n’oge ọ bụla n’afọ. Ọ bụ ezie na ọ bụghị iwu, ọ na-eweta nnukwu ụgwọ ọrụ ime mmụọ ma a na-ewere ya dị ka ọrụ ofufe a na-akwado nke ukwuu. Ọ na-ekekọrịta ọtụtụ emume ya na Hajj mana ọ dị mkpụmkpụ, ebe ọ nwere emume isi anọ."
 }

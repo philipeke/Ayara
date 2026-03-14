@@ -1,585 +1,629 @@
 {
   "@@locale": "hr",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "Odaberite svoj jezik",
-  "languageSelectSub": "Možete ga promijeniti kasnije u Postavkama",
+  "languageSelectSub": "Ovo kasnije možete promijeniti u Postavkama",
   "actionContinue": "Nastavi",
-  "languageSuggestedHeader": "Preporučeno",
+  "languageSuggestedHeader": "Predloženo",
   "languageAllHeader": "Svi jezici",
-  "languageSuggestedBadge": "Preporučeno",
+  "languageSuggestedBadge": "Predloženo",
   "languageSearchHint": "Pretraži…",
-
-  "planGrace": "Standard",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Dnevno Vodstvo",
-  "categoryFaithTrust": "Iman i Povjerenje",
-  "categoryPrayerReflection": "Razmišljanje o Molitvi",
-  "categoryHopeDifficultTimes": "Strpljenje i Nada",
-  "categoryForgiveness": "Tražite Oprost",
-  "categoryLoveCompassion": "Milosrđe i Saosjećanje",
-  "categoryStrengthCourage": "Vjera i Snaga",
-  "categoryGratitude": "Zahvalno Srce",
-  "categoryPurposeCalling": "Životni Svrha",
-  "categoryFamilyRelationships": "Obiteljske Veze",
-  "categoryPeaceAnxietyRelief": "Unutarnji Mir",
-  "categoryWisdomOfJesus": "Mudrost Vjerskih Učitelja",
-  "categoryHumilityCharacter": "Dobar Karakter",
-  "categoryOvercomingTemptation": "Odolite Iskušenju",
-  "categoryEveningReflection": "Večerni Dhikr",
-  "categoryCustom": "Osobna Refleksija",
-  "dhikrMeaningSubhanallah": "Slava Allahu",
+  "planBasic": "Standard",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Dnevno vodstvo",
+  "categorySlot02": "Iman i povjerenje",
+  "categorySlot03": "Razmišljanje o molitvi",
+  "categorySlot04": "Strpljenje i nada",
+  "categorySlot05": "Traži oprost",
+  "categorySlot06": "Milosrđe i suosjećanje",
+  "categorySlot07": "Snaga vjere",
+  "categorySlot08": "Zahvalno srce",
+  "categorySlot09": "Svrha života",
+  "categorySlot10": "Obiteljske veze",
+  "categorySlot11": "Unutarnji mir",
+  "categorySlot12": "Mudrost Poslanika",
+  "categorySlot13": "Dobar karakter",
+  "categorySlot14": "Odupri se iskušenju",
+  "categorySlot15": "Večernji zikr",
+  "categoryCustom": "Osobno razmišljanje",
+  "dhikrMeaningSubhanallah": "Slavljen neka je Allah",
   "dhikrMeaningAlhamdulillah": "Sva hvala pripada Allahu",
-  "dhikrMeaningAllahuAkbar": "Allah je Najveći",
-  "quranVerseHeartAtRest": "Zaista, u sjećanju na Allaha srca nalaze mir.",
-
+  "dhikrMeaningAllahuAkbar": "Allah je najveći",
+  "quranVerseHeartAtRest": "Zaista, u spominjanju Allaha srca nalaze smiraj.",
   "promptHint": "Dodirnite kategoriju za islamsko vodstvo i razmišljanje",
-
   "currentLanguage": "Trenutni jezik",
-  "settingsLanguage": "Jezične postavke",
+  "settingsLanguage": "Postavke jezika",
   "settingsTitle": "Postavke",
   "chooseLanguage": "Odaberite svoj jezik",
   "continueCta": "Nastavi",
-
-  "promptDailyGuidance": "Napišite kratko, praktično dnevno vodstvo ukorijenjeno u sunnitskoj islamskoj vjeri — temeljeno na Kur'anu, Hadisu i učenjima Proroka Muhammada. Odaberite svaki put novi kut: vrlinu iz islamske etike, istinu iz Sunnaha, mudrost od Pratilaca Proroka, ili tihu praksu iz islamske tradicije. Uključite jedan Kur'anski stih (Sura:Ajet) i 1–2 rečenice razmišljanja koju možete nositi tijekom dana. Po želji povežite sa islamskim kalendarom ili važnim datumom ako je relevantno.",
-
-  "promptFaithTrust": "Napišite kratko islamsko razmišljanje o Imanu (vjeri) i povjerenju u Allahov plan (Tawakkul). Ukorijenite ga u Kur'anu, primjeru Proroka Muhammada i vjeri Sahabe. Raznolikosti temu svaki put: povjerenje Allahu tijekom nesigurnosti, oslanjanje na božansku mudrost, strpljenje u iskušenjima, ili tiho upornost u svakodnevnom životu. Uključite jedan Kur'anski stih i jedan iskren korak za danas iz islamske duhovne mudrosti.",
-
-  "promptPrayerReflection": "Napišite kratko islamsko razmišljanje o molitvi ukorijenjeno u Salahu, Dui ili Dhikru. Raznolikosti oblik svaki put: jutarnje ili večernje sjećanje (Adhkar), razmišljanje o pet dnevnih molitvi, razmišljanje Kur'anskog stiha, ili srčana suplikacija. Uključite jedan Kur'anski stih i ukratko navedite oblik molitvenog obreda koji ste koristili.",
-
-  "promptHopeDifficultTimes": "Napišite islamsko razmišljanje o strpljenju (Sabr) i nadi tijekom teškoća. Izvucite iz Kur'anskih učenja o iskušenjima, upornosti Proroka i milosrđa Allaha u teškim trenucima. Raznolikosti kut svaki put. Uključite jedan Kur'anski stih i jednu ohrabrujuću perspektivu iz islamske tradicije.",
-
-  "promptForgiveness": "Napišite mudro islamsko razmišljanje o traženju oprosta (Tawbah) i Allahovu milosrđu. Izvucite iz Kur'anskih učenja o kajanju, Allahovu suosjećanju i primjeru oproštenosti Proroka Muhammada. Raznolikosti temu: vraćanje se Allahu, opraštanje drugima, ozdravljenje odnosa, ili vjerovanje u Allahovo milosrđe nakon grešaka. Uključite jedan Kur'anski stih i jedan konkretan korak.",
-
-  "promptLoveCompassion": "Napišite kratko islamsko razmišljanje o milosrđu (Rahmah) i saosjećanju u svakodnevnom životu. Izvucite iz primjera Proroka Muhammada, koncepta Ihsan (odličnosti) i islamskih učenja o ljubaznosti prema obitelji, susjedima i ranjenima. Uključite jedan Kur'anski stih i jedno malo djelo saosjećanja za vježbanje danas.",
-
-  "promptStrengthCourage": "Napišite islamsko razmišljanje o snazi i hrabrosti temeljenim na vjeri. Izvucite iz primjera Proroka, ranog muslimanskog zajednice i vjernika koji su ostali čvrsti u teškoćama. Raznolikosti temu svaki put: hrabrost kroz vjeru, snaga u molitvi, povjerenje Allahu tijekom straha, ili otpornost u teškoćama. Uključite jedan Kur'anski stih i kratku suplikaciju ili izraz sjećanja.",
-
-  "promptGratitude": "Napišite islamsko razmišljanje o zahvalnosti (Shukr) prema Allahu. Ukorijenite ga u Kur'anskom učenju i praverom tradiciji. Raznolikosti kut: zahvalnost u teškoćama, cijenjenost sitnih blagoslova, započinjanje dana sa pohvalom Allahu, ili priznavanjem Allahova vodstva u svakodnevnom životu. Uključite jedan Kur'anski stih i jednu praksu zahvalnosti.",
-
-  "promptPurposeCalling": "Napišite islamsko razmišljanje o životnom svrhi u obožavanju Allaha i pobožnom životu. Izvucite iz Kur'anskih učenja o svrhi, služenju drugima i korištenju svojih darova za dobro. Raznolikosti temu svaki put: služenje obitelji i zajednici, traženje vodstva kroz Istikhara, living sa namjerom, ili pronalaženje smisla u običnom radu. Uključite jedan Kur'anski stih i dva reflektivna pitanja.",
-
-  "promptFamilyRelationships": "Napišite mudro islamsko vodstvo o obitelji i odnosima ukorijenjeno u Kur'anskom učenju i primjeru Proroka Muhammada. Raznolikosti temu svaki put: ljubaznost u obiteljskom životu, strpljenje u sukobima, poštovanje roditelja, odgajanje djece u vjeri, ili jačanje braka. Uključite jedan Kur'anski stih i jednu relacijsku praksu za pokušaj.",
-
-  "promptPeaceAnxietyRelief": "Napišite umirujuće islamsko razmišljanje o pronalaženju unutarnjeg mira kroz sjećanje Allahu (Dhikr) i povjerenje u Njegov plan. Izvucite iz Kur'anskih učenja o spokojnosti srca, molitvi i predaji Allahovu volji. Raznolikosti pristup svaki put i uključite jedan Kur'anski stih i jednu jednostavnu uzemljujuću praksu iz islamske tradicije.",
-
-  "promptWisdomOfJesus": "Napišite kratko komad mudrosti od Proroka kako je učeno u Islamu. Izvucite iz Kur'ana ili Hadisa i ukratko objasnite kako su islamski učenjaci razumjeli učenje. Raznolikosti temu svaki put: karakter, strpljenje, poniznost, vjera, ili svakodnevno ponašanje. Uključite Kur'anski stih ili Hadisnu referencu i jednu praktičnu primjenu.",
-
-  "promptHumilityCharacter": "Napišite islamsko razmišljanje o poniznosti (Tawadhu) i dobrom karakteru (Akhlaq). Izvucite iz Kur'anskih učenja, primjera Proroka Muhammada i tradicije islamskog razvoja karaktera. Raznolikosti temu: poniznost u vođenju, priznavanje grešaka, tretiranje drugih sa poštovanjem, ili duhovni rast kroz samorazmišljanje. Uključite jedan Kur'anski stih i jednu naviku za vježbanje.",
-
-  "promptOvercomingTemptation": "Napišite islamsko razmišljanje o odupiranju iskušenju i ostanju na pravom putu. Izvucite iz Kur'anskog vodstva, sjećanja Allahu (Dhikr), molitvi (Salah) i primjera vjernika koji su prevladali borbe. Raznolikosti kut svaki put. Uključite jedan Kur'anski stih i jednu praktičnu strategiju za sljedećih 24 sata.",
-
-  "promptEveningReflection": "Napišite miran islamski večernji razmišljanje ukorijenjeno u tradiciji večernjih sjećanja (Adhkar al-Masaa'). Ohrabrite zahvalnost, samorazmišljanje (Muhasabah) i povjerenje Allahu prije odmora. Uključite 3–5 kratkih reflektivnih pitanja o danu, kratku završnu suplikaciju i jedan Kur'anski stih.",
-
   "wordCount": "{count, plural, one {{count} riječ} other {{count} riječi}}",
-
   "optionsCta": "Opcije",
   "newCta": "Novo",
-  "actionsTitle": "Što biste voljeli učiniti?",
+  "actionsTitle": "Što želite učiniti?",
   "copy": "Kopiraj",
   "share": "Podijeli",
   "close": "Zatvori",
   "copiedToast": "Kopirano u međuspremnik",
-
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Redak predmeta e-pošte / dijeljenja uključujući oznaku kategorije.",
+    "description": "Predmet e-pošte / dijeljenja koji uključuje oznaku kategorije.",
     "placeholders": {
-      "category": { "type": "String", "example": "Dnevno Vodstvo" }
+      "category": {
+        "type": "String",
+        "example": "Dnevno vodstvo"
+      }
     }
   },
-
-  "regenerateErrorTitle": "Nije moguće stvoriti novi odgovor",
+  "regenerateErrorTitle": "Nije moguće generirati novi odgovor",
   "regenerateErrorBody": "{error}\n\nŽelite li pokušati ponovno?",
   "@regenerateErrorBody": {
-    "description": "Prikazano kada stvaranje AI odgovora neće uspjeti.",
+    "description": "Prikazuje se kada ponovno generiranje AI odgovora ne uspije.",
     "placeholders": {
-      "error": { "type": "String", "example": "Greška u mreži" }
+      "error": {
+        "type": "String",
+        "example": "Pogreška mreže"
+      }
     }
   },
-
-  "cancelCta": "Otkaži",
+  "cancelCta": "Odustani",
   "retryCta": "Pokušaj ponovno",
-
-  "authTitle": "Stvorite svoj račun",
+  "authTitle": "Izradite svoj račun",
   "continueAsGuest": "Nastavi kao gost",
-  "signInGoogle": "Prijava sa Googleom",
-  "signInApple": "Prijava sa Apple ID-om",
-  "signInEmail": "Prijava sa E-mailom",
-  "upgradeWithApple": "Nastavi sa Apple ID-om",
-  "mustAccept": "Morate prihvatiti Uvjete i priznati Politiku Privatnosti.",
+  "signInGoogle": "Prijava putem Googlea",
+  "signInApple": "Prijava putem Applea",
+  "signInEmail": "Prijava putem e-pošte",
+  "upgradeWithApple": "Nastavi s Appleom",
+  "mustAccept": "Morate prihvatiti Uvjete i potvrditi Pravila privatnosti.",
   "termsLabel": "Prihvaćam Uvjete korištenja",
-  "privacyLabel": "Pročitao sam Politiku Privatnosti",
-  "marketingOptIn": "Slažem se da primim vijesti i ponude",
+  "privacyLabel": "Pročitao/la sam Pravila privatnosti",
+  "marketingOptIn": "Pristajem primati novosti i ponude",
   "openTerms": "Uvjeti korištenja",
-  "openPrivacy": "Politika Privatnosti",
-
+  "openPrivacy": "Pravila privatnosti",
   "accountSection": "Račun",
-  "guestMode": "Gostovski način",
-  "signedIn": "Prijavljeni",
-  "upgradeHint": "Spremi svoja razmišljanja na svim uređajima kreiranjem računa.",
-  "upgradeWithGoogle": "Nastavi sa Googleom",
+  "guestMode": "Gostujući način",
+  "signedIn": "Prijavljen/a",
+  "upgradeHint": "Spremite svoja razmišljanja na svim uređajima izradom računa.",
+  "upgradeWithGoogle": "Nastavi s Googleom",
   "signOut": "Odjava",
-
-  "snackUpgraded": "Račun unaprijeđen sa Googleom ✅",
-  "snackSignedIn": "Prijavljeni sa Googleom ✅",
-  "snackSignedOut": "Odjavljeni",
-  "snackSignedInApple": "Prijavljeni sa Apple ID-om ✅",
-  "snackSignedInGoogle": "Prijavljeni sa Googleom ✅",
-  "snackUpgradedApple": "Račun unaprijeđen sa Apple ID-om ✅",
-  "snackUpgradedGoogle": "Račun unaprijeđen sa Googleom ✅",
-
+  "snackUpgraded": "Račun nadograđen putem Googlea ✅",
+  "snackSignedIn": "Prijava putem Googlea ✅",
+  "snackSignedOut": "Odjavljen/a",
+  "snackSignedInApple": "Prijava putem Applea ✅",
+  "snackSignedInGoogle": "Prijava putem Googlea ✅",
+  "snackUpgradedApple": "Račun nadograđen putem Applea ✅",
+  "snackUpgradedGoogle": "Račun nadograđen putem Googlea ✅",
   "historyTitle": "Prethodna razmišljanja",
   "historyOpenCta": "Prethodna razmišljanja",
-  "historyEmpty": "Nema spremljenih razmišljanja.",
-  "historyDeleteTitle": "Obrisati razmišljanje?",
+  "historyEmpty": "Još nema spremljenih razmišljanja.",
+  "historyDeleteTitle": "Izbrisati razmišljanje?",
   "historyDeleteBody": "Ovo će trajno ukloniti odabranu stavku.",
-  "deleteCta": "Obriši",
-
-  "historyButton": "Prethodna Razmišljanja",
-  "historyEmptyTitle": "Nema razmišljanja",
-  "historyEmptyBody": "Prvo generiraj nešto — tvoje spremljene stavke će se pojaviti ovdje.",
-  "historyDelete": "Obriši",
-
-  "footerTitle": "Sa Imanom, sabrom i rahmetom.",
-  "footerSubtitle": "Jedan korak u vrijeme.",
-  "genericErrorSnack": "Nešto je pošlo po zlu — molimo pokušajte ponovno za trenutak.",
-
-  "upgradeAccountCta": "Spremi svoja razmišljanja na svim uređajima – kreiraj račun",
-  "deleteAccount": "Obriši račun",
+  "deleteCta": "Izbriši",
+  "historyButton": "Prethodna razmišljanja",
+  "historyEmptyTitle": "Još nema razmišljanja",
+  "historyEmptyBody": "Najprije nešto generirajte — vaše spremljene stavke pojavit će se ovdje.",
+  "historyDelete": "Izbriši",
+  "footerTitle": "S Wilayom, Imanom i Sabrom",
+  "footerSubtitle": "Jedna molitva odjednom",
+  "genericErrorSnack": "Nešto je pošlo po zlu — pokušajte ponovno za trenutak.",
+  "upgradeAccountCta": "Spremite svoja razmišljanja na svim uređajima – izradite račun",
+  "deleteAccount": "Izbriši račun",
   "exportData": "Izvezi moje podatke",
-
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Oznaka prije prikaza internog Firebase UID.",
+    "description": "Oznaka prije prikaza internog Firebase UID-a.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Lagano 🐯\nAI treba trenutak prije sljedećeg…",
-  "rateDailyLimit": "Sada nema više razmišljanja.\nDobijte više razmišljanja ili unaprijedite na Barakah.",
-  "rateCreditsExhausted": "Koristio si sva svoja razmišljanja.\nDoplati ili unaprijedite na Barakah za nastavak.",
-  "rateGraceReflectionsExhausted": "Sada nema više razmišljanja.\nDobijte više razmišljanja ili unaprijedite na Barakah.",
-  "rateReflectionsExhausted": "Koristio si sva svoja razmišljanja.\nDoplati ili unaprijedite na Barakah za nastavak.",
-
-  "blessedDescription": "Barakah otključava premium funkcionalnosti, buduće kategorije i poseban značaj.",
-  "championDescription": "Barakah otključava premium funkcionalnosti, buduće kategorije i poseban značaj.",
-
-  "ratePlanExhausted": "Tvoja razmišljanja su sada prazna. Plan: {plan}.",
+  "rateLocalThrottle": "Polako 🐯\nAyari treba trenutak prije sljedećeg…",
+  "rateDailyLimit": "Trenutačno ste ostali bez razmišljanja.\nNabavite više razmišljanja ili nadogradite na Wilayu.",
+  "rateCreditsExhausted": "Iskoristili ste sva svoja razmišljanja.\nNadoplatite ili nadogradite na Wilayu za nastavak.",
+  "rateGraceCreditsExhausted": "Trenutačno ste ostali bez razmišljanja.\nNabavite više razmišljanja ili nadogradite na Wilayu.",
+  "premiumDescription": "Wilaya otključava premium značajke, buduće kategorije i posebnu oznaku.",
+  "ratePlanExhausted": "Vaša su razmišljanja trenutačno iscrpljena. Plan: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Prikazano kada su razmišljanja korisnika prazna ali je razlog generički.",
+    "description": "Prikazuje se kada su korisnikova razmišljanja iscrpljena, ali je razlog općenit.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard ili Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard ili Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "Nije moguće provjeriti tvoja razmišljanja: {message}",
+  "rateCheckFailed": "Nije bilo moguće provjeriti vaša razmišljanja: {message}",
   "@rateCheckFailed": {
-    "description": "Prikazano kada callable funkcija vrati poruku greške.",
+    "description": "Prikazuje se kada poziv funkcije vrati poruku o pogrešci.",
     "placeholders": {
-      "message": { "type": "String", "example": "Greška u mreži" }
+      "message": {
+        "type": "String",
+        "example": "Pogreška mreže"
+      }
     }
   },
-
-  "rateCheckGenericError": "Nešto je pošlo po zlu tijekom provjere razmišljanja.",
-  "aiFallbackGeneric": "Nešto je pošlo po zlu — molimo pokušajte ponovno za trenutak.",
-
+  "rateCheckGenericError": "Nešto je pošlo po zlu tijekom provjere vaših razmišljanja.",
+  "aiFallbackGeneric": "Nešto je pošlo po zlu — pokušajte ponovno za trenutak.",
   "limitSectionTitle": "Razmišljanja",
   "limitTodayLabel": "Korištenje",
   "limitCreditsLabel": "Preostala razmišljanja: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "Plan: {plan}",
   "@limitPlanLabel": {
-    "description": "Prikazuje naziv trenutnog plana pretplate.",
+    "description": "Prikazuje naziv trenutačnog pretplatničkog plana.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard ili Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard ili Wilaya"
+      }
     }
   },
   "limitLoadingLabel": "Učitavanje…",
-  "limitLoadingLabelDescription": "Prikazano u kartici razmišljanja tijekom dohvaćanja statistike korištenja.",
-
+  "limitLoadingLabelDescription": "Prikazuje se na kartici razmišljanja tijekom dohvaćanja statistike korištenja.",
   "aiLimitTitle": "Razmišljanja",
-  "aiLimitSubtitle": "Svaki odgovor koristi 1 razmišljanje. Standard uključuje početna razmišljanja. Barakah otključava premium kategorije i omogućuje dopunu.",
-  "aiLimitProgressLabel": "{used} / {total} razmišljanja korištena",
+  "aiLimitSubtitle": "Svaki odgovor koristi 1 razmišljanje. Standard uključuje početna razmišljanja. Wilaya otključava premium kategorije i omogućuje nadopune.",
+  "aiLimitProgressLabel": "{used} / {total} iskorištenih razmišljanja",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Razmišljanja",
-  "reflectionsUsageLabel": "Korištenje",
-  "reflectionsRemainingLabel": "Preostala razmišljanja: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Plan: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Prikazuje naziv trenutnog plana.",
+  "creditsSectionTitle": "Razmišljanja",
+  "creditsUsageLabel": "Korištenje",
+  "creditsRemainingLabel": "Preostala razmišljanja: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard ili Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Učitavanje…",
-  "reflectionsLoadingLabelDescription": "Prikazano tijekom dohvaćanja statistike razmišljanja.",
-
-  "reflectionsTitle": "Razmišljanja",
-  "reflectionsSubtitle": "Svaki odgovor koristi 1 razmišljanje. Standard uključuje početna razmišljanja. Barakah otključava premium kategorije i omogućuje dopunu.",
-  "reflectionsProgressLabel": "{used} / {total} razmišljanja korištena",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Plan: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Prikazuje naziv trenutačnog plana.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standard ili Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Učitavanje…",
+  "creditsLoadingLabelDescription": "Prikazuje se tijekom dohvaćanja statistike razmišljanja.",
+  "creditsTitle": "Razmišljanja",
+  "creditsSubtitle": "Svaki odgovor koristi 1 razmišljanje. Standard uključuje početna razmišljanja. Wilaya otključava premium kategorije i omogućuje nadopune.",
+  "creditsProgressLabel": "{used} / {total} iskorištenih razmišljanja",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "Obriši račun",
-  "settingsDeleteDescription": "Trajno obriši svoj račun i sve povezane podatke.",
-  "settingsDeleteButtonLabel": "Obriši moj račun",
-  "settingsDeleteDialogTitle": "Obrisati račun?",
-  "settingsDeleteDialogBody": "Ova radnja je trajna i ne može se poništiti.\n\nSvi tvoji čatovi, povijest i informacije računa biti će obrisani.",
-  "settingsDeleteDialogCancel": "Otkaži",
-  "settingsDeleteDialogConfirm": "Obriši",
-
-  "settingsFreeLimitUsedTitle": "Početna razmišljanja korištena",
-  "settingsFreeLimitUsedDescription": "Početna razmišljanja za ovaj uređaj su korištena. Unaprijedite na Barakah ili kupite više razmišljanja za nastavak.",
-
-  "settingsStarterReflectionsUsedTitle": "Početna razmišljanja korištena",
-  "settingsStarterReflectionsUsedDescription": "Početna razmišljanja za ovaj uređaj su korištena. Unaprijedite na Barakah ili kupite više razmišljanja za nastavak.",
-
-  "deviceBoundError": "Ovaj uređaj je već povezan sa drugim računom. Molimo prijavia se sa izvornim računom.",
-
-  "premiumTitle": "Barakah način",
+  "settingsDeleteTitle": "Izbriši račun",
+  "settingsDeleteDescription": "Trajno izbrišite svoj račun i sve povezane podatke.",
+  "settingsDeleteButtonLabel": "Izbriši moj račun",
+  "settingsDeleteDialogTitle": "Izbrisati račun?",
+  "settingsDeleteDialogBody": "Ova je radnja trajna i ne može se poništiti.\n\nSvi vaši razgovori, povijest i podaci računa bit će izbrisani.",
+  "settingsDeleteDialogCancel": "Odustani",
+  "settingsDeleteDialogConfirm": "Izbriši",
+  "settingsFreeLimitUsedTitle": "Početna razmišljanja iskorištena",
+  "settingsFreeLimitUsedDescription": "Početna razmišljanja za ovaj uređaj su iskorištena. Nadogradite na Wilayu ili kupite još razmišljanja za nastavak.",
+  "settingsStarterCreditsUsedTitle": "Početna razmišljanja iskorištena",
+  "settingsStarterCreditsUsedDescription": "Početna razmišljanja za ovaj uređaj su iskorištena. Nadogradite na Wilayu ili kupite još razmišljanja za nastavak.",
+  "deviceBoundError": "Ovaj je uređaj već povezan s drugim računom. Prijavite se s izvornim računom.",
+  "premiumTitle": "Wilaya način",
   "premiumSubtitleBasic": "Otključajte potpuno Ayara iskustvo.",
-  "premiumSubtitleChampion": "Vi ste Barakah. Trebate više razmišljanja?",
-
+  "premiumSubtitlePremium": "Na Wilayi ste. Trebate još razmišljanja?",
   "premiumCurrentPlan": "Trenutni plan: {plan}",
   "premiumCreditsStatus": "Razmišljanja: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "Kupnje nisu dostupne sada.",
-  "premiumSignInToPurchase": "Prijava za kupovanje razmišljanja ili otključavanje Barakaha.",
-
+  "premiumPurchasesUnavailable": "Kupnje trenutno nisu dostupne.",
+  "premiumSignInToPurchase": "Prijavite se kako biste kupili razmišljanja ili otključali Wilayu.",
   "premiumRestorePurchases": "Vrati kupnje",
   "premiumProcessing": "Obrada…",
-  "premiumRestoreHintTitle": "Već ste kupili Barakah ili razmišljanja na ovom ili drugom uređaju?",
-  "premiumRestoreHintBody": "Vratite kupnje ako se ne prikazuju.",
-
+  "premiumRestoreHintTitle": "Već ste kupili Wilayu ili razmišljanja na ovom ili drugom uređaju?",
+  "premiumRestoreHintBody": "Vratite svoje kupnje ako se ne prikazuju.",
   "premiumBuyCredits200": "Kupi 200 razmišljanja",
   "premiumBuyCredits400": "Kupi 400 razmišljanja",
-  "premiumBecomeChampionOneTime": "Unaprijedite na Barakah način",
-  "premiumChampionHint": "Kao Barakah, možete dopuniti dodatna razmišljanja kad god trebate.",
-
-  "premiumUpgradeCta": "Unaprijedite",
-  "premiumRequiredForCategory": "Ova kategorija je dostupna samo za Barakah korisnike. Unaprijedite u Postavkama za otključavanje svih premium sadržaja.",
-  "premiumBenefitsBasic": "Otključajte Barakah za dodatna razmišljanja, pristup premium kategorijama i nastavite kad god trebate vodstvo.",
-  "premiumBenefitsChampion": "U Barakah način ste. Ako vam ponestane, dodajte dodatna razmišljanja i nastavite bez prekida.",
-  "premiumButtonBecomeChampion": "Otključajte Barakah",
+  "premiumBecomePremiumOneTime": "Nadogradi na Wilaya način",
+  "premiumTopupHint": "S Wilayom možete nadopuniti dodatna razmišljanja kad god vam zatrebaju.",
+  "premiumUpgradeCta": "Nadogradi",
+  "premiumRequiredForCategory": "Ova je kategorija dostupna samo korisnicima Wilaye. Nadogradite u Postavkama kako biste otključali sav premium sadržaj.",
+  "premiumBenefitsBasic": "Otključajte Wilayu kako biste dobili dodatna razmišljanja, pristup premium kategorijama i nastavili kad god trebate vodstvo.",
+  "premiumBenefitsPremium": "U Wilayi ste. Ako vam ponestaje, dodajte još razmišljanja i nastavite bez prekida.",
+  "premiumButtonBecomePremium": "Otključaj Wilayu",
   "premiumButtonTopup1000": "Dodaj 1000 razmišljanja",
-  "premiumChampionBadge": "Barakah aktivna",
+  "premiumBadge": "Wilaya aktivna",
   "premiumLoadingStore": "Učitavanje trgovine…",
-
-  "blessedTitle": "Barakah način",
-  "blessedSubtitleGrace": "Otključajte potpuno Ayara iskustvo.",
-  "blessedSubtitleBlessed": "Vi ste Barakah. Trebate više razmišljanja?",
-
-  "blessedCurrentPlan": "Trenutni plan: {plan}",
-  "blessedReflectionsStatus": "Razmišljanja: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Kupnje nisu dostupne sada.",
-  "blessedProductNotAvailable": "Ovaj proizvod nije dostupan u trgovini. Molimo pokušajte ponovno kasnije.",
-  "blessedPurchaseError": "Nešto je pošlo po zlu sa kupnjom. Molimo pokušajte ponovno.",
-  "blessedSignInToPurchase": "Prijava za kupovanje razmišljanja ili otključavanje Barakaha.",
-
-  "blessedRestorePurchases": "Vrati kupnje",
-  "blessedProcessing": "Obrada…",
-  "blessedRestoreHintTitle": "Već ste kupili Barakah ili razmišljanja na ovom ili drugom uređaju?",
-  "blessedRestoreHintBody": "Vratite kupnje ako se ne prikazuju.",
-
-  "blessedBuyReflections100": "Dodaj 100 razmišljanja",
-  "blessedBuyReflections200": "Kupi 200 razmišljanja",
-  "blessedBuyReflections400": "Kupi 400 razmišljanja",
-  "blessedBecomeBlessedOneTime": "Unaprijedite na Barakah",
-  "blessedTopupHint": "Kao Barakah, možete dopuniti dodatna razmišljanja kad god trebate.",
-
-  "blessedUpgradeCta": "Unaprijedite",
-  "blessedRequiredForCategory": "Ova kategorija je dostupna samo za Barakah korisnike. Unaprijedite u Postavkama za otključavanje svih premium sadržaja.",
-  "blessedFeatureLocked": "Otključajte Barakah za pristup ovoj funkcionalnosti.",
-  "lockedCategoriesHint": "Neke kategorije su rezervirane za Barakah članove. Otključajte ih za istraživanje svakog razmišljanja na svojoj putanji.",
-  "blessedBenefitsGrace": "Otključajte Barakah za dodatna razmišljanja, pristup premium kategorijama i nastavite kad god trebate vodstvo.",
-  "blessedBenefitsBlessed": "U Barakah načinu ste. Ako vam ponestane, dodajte dodatna razmišljanja i nastavite bez prekida.",
-  "blessedButtonBecomeBlessed": "Otključajte Barakah",
-  "blessedButtonTopup1000": "Dodaj 1000 razmišljanja",
-  "blessedBadge": "Barakah aktivna",
-  "blessedLoadingStore": "Učitavanje trgovine…",
-
-  "freePlanBlockedTitle": "Koristio ste sva početna razmišljanja",
-  "freePlanBlockedBody": "Ste na Standard planu sa početnim razmišljanjima i dostigli ste granicu. Za nastavak — i otključavanje premium kategorija — unaprijedite na Barakah.",
-  "freePlanBlockedCtaGoPremium": "Pogledajte Barakah opcije dolje",
-
-  "graceBlockedTitle": "Koristio ste sva početna razmišljanja",
-  "graceBlockedBody": "Ste na Standard planu sa početnim razmišljanjima i dostigli ste granicu. Za nastavak — i otključavanje premium kategorija — unaprijedite na Barakah.",
-  "graceBlockedCtaGoBlessed": "Pogledajte Barakah opcije dolje",
-
-  "rateGuestMustSignIn": "Prijavite se za korištenje Ayara i svojih razmišljanja.",
-
-  "guestNoCreditsTitle": "Gostovski način",
-  "guestNoCreditsBody": "Kao gost možete pregledavati aplikaciju, ali ne možete koristiti razmišljanja. Prijava kasnije u Postavkama za korištenje razmišljanja i otključavanje kupnji.",
-
-  "guestNoReflectionsTitle": "Gostovski način",
-  "guestNoReflectionsBody": "Kao gost možete pregledavati aplikaciju, ali ne možete koristiti razmišljanja. Prijava kasnije u Postavkama za korištenje razmišljanja i otključavanje kupnji.",
-
+  "premiumProductNotAvailable": "Ovaj proizvod još nije dostupan u trgovini. Pokušajte ponovno kasnije.",
+  "premiumPurchaseError": "Nešto je pošlo po zlu s kupnjom. Pokušajte ponovno.",
+  "premiumBuyCredits100": "Dodaj 100 razmišljanja",
+  "premiumFeatureLocked": "Otključajte Wilayu za pristup ovoj značajci.",
+  "lockedCategoriesHint": "Neke su kategorije rezervirane za članove Wilaye. Otključajte ih kako biste istražili svako razmišljanje na svom putovanju.",
+  "freePlanBlockedTitle": "Iskoristili ste svoja početna razmišljanja",
+  "freePlanBlockedBody": "Na Standard planu ste s početnim razmišljanjima i dosegnuli ste ograničenje. Za nastavak — i otključavanje premium kategorija — nadogradite na Wilayu.",
+  "freePlanBlockedCtaGoPremium": "Pogledajte opcije Wilaye u nastavku",
+  "graceBlockedTitle": "Iskoristili ste svoja početna razmišljanja",
+  "graceBlockedBody": "Na Standard planu ste s početnim razmišljanjima i dosegnuli ste ograničenje. Za nastavak — i otključavanje premium kategorija — nadogradite na Wilayu.",
+  "graceBlockedCtaGoPremium": "Pogledajte opcije Wilaye u nastavku",
+  "rateGuestMustSignIn": "Prijavite se za korištenje Ayare i svojih razmišljanja.",
+  "guestNoCreditsTitle": "Gostujući način",
+  "guestNoCreditsBody": "Kao gost možete pregledavati aplikaciju, ali ne možete koristiti razmišljanja. Prijavite se kasnije u Postavkama kako biste koristili razmišljanja i otključali kupnje.",
   "guestDialogContinue": "Nastavi",
-  "guestDialogLoginInstead": "Umjesto toga se prijavi",
-
-  "optionalLabel": "izbjecan",
-
-  "accountDeleteSuccessTitle": "Račun obrisan",
-  "accountDeleteSuccessBody": "Vaš račun i povezani podaci su uspješno obrisani.",
+  "guestDialogLoginInstead": "Umjesto toga prijavite se",
+  "optionalLabel": "neobavezno",
+  "accountDeleteSuccessTitle": "Račun izbrisan",
+  "accountDeleteSuccessBody": "Vaš račun i povezani podaci uspješno su izbrisani.",
   "accountDeleteSuccessClose": "Zatvori",
-  "accountDeleteErrorTitle": "Nije moguće obrisati račun",
-  "accountDeleteErrorClose": "OK",
-  "accountDeleteReauthCancelled": "Ponovno potvrđivanje je otkazano. Molimo prijavite se ponovno i pokušajte brisanje.",
-  "accountDeleteReauthRequired": "Brisanje računa zahtijeva nedavnu prijavu. Molimo odjavite se, ponovno se prijavite i pokušajte.",
-  "settingsDeletePermanentWarning": "Ova radnja je trajna i ne može se poništiti. Svi podaci povezani s vašim računom biti će obrisani.",
-
-  "dailyGraceTitle": "Dnevno Vodstvo",
+  "accountDeleteErrorTitle": "Nije moguće izbrisati račun",
+  "accountDeleteErrorClose": "U redu",
+  "accountDeleteReauthCancelled": "Ponovna autentifikacija je otkazana. Prijavite se ponovno i pokušajte brisanje još jednom.",
+  "accountDeleteReauthRequired": "Brisanje računa zahtijeva nedavnu prijavu. Odjavite se, prijavite ponovno i pokušajte još jednom.",
+  "settingsDeletePermanentWarning": "Ova je radnja trajna i ne može se poništiti. Svi podaci povezani s vašim računom bit će izbrisani.",
+  "dailyGraceTitle": "Dnevno vodstvo",
   "dailyGraceScriptureLabel": "AJET DANA",
   "dailyGraceSaintLabel": "UČENJAK TJEDNA",
   "dailyGraceReflectionLabel": "VEČERNJE RAZMIŠLJANJE",
   "dailyGraceCopiedToast": "Ajet kopiran u međuspremnik",
-
-  "dailyScripture0Text": "Doista, pravednjaci će biti u vrtovima i rijekama, na mjestu časti kod moćnog Kralja.",
-  "dailyScripture0Ref": "Kur'an 54:54-55",
-  "dailyScripture1Text": "I nismo te poslali, o Muhammade, nego kao milost svjetovima.",
-  "dailyScripture1Ref": "Kur'an 21:107",
-  "dailyScripture2Text": "Nije li Allah dovoljan za svoga slugu? Ipak vas trebose drugima osim Njega.",
-  "dailyScripture2Ref": "Kur'an 39:36",
-  "dailyScripture3Text": "Možda mrzite nešto a ono je dobro za vas; i možda volite nešto a ono je zlo za vas. Allah zna, a vi ne znate.",
-  "dailyScripture3Ref": "Kur'an 2:216",
-  "dailyScripture4Text": "Doista, Allah je sa strpljivima.",
-  "dailyScripture4Ref": "Kur'an 2:153",
-  "dailyScripture5Text": "Zato se sjećajte Mene; Ja ću vas se sjećati. I budite zahvalni Meni i ne opovrgavajte Me.",
-  "dailyScripture5Ref": "Kur'an 2:152",
-  "dailyScripture6Text": "Doista, najčastitiji od vas kod Allaha je najstraživiji od vas.",
-  "dailyScripture6Ref": "Kur'an 49:13",
-  "dailyScripture7Text": "I Tvoj Gospodar je odredio da ne obožavate nikoga osim Njega, i da budete dobri prema roditeljima.",
-  "dailyScripture7Ref": "Kur'an 17:23",
-  "dailyScripture8Text": "Doista, sa teškoćom dolazi olakšica.",
-  "dailyScripture8Ref": "Kur'an 94:6",
-  "dailyScripture9Text": "I On je sa vama gdje god da ste. I Allah je vidljiv od onoga što radite.",
-  "dailyScripture9Ref": "Kur'an 57:4",
-  "dailyScripture10Text": "Allah ne opterećuje dušu više nego što može podnijeti.",
-  "dailyScripture10Ref": "Kur'an 2:286",
-  "dailyScripture11Text": "I tko se oslanja na Allaha — On je tada dovoljan za njega.",
-  "dailyScripture11Ref": "Kur'an 65:3",
-  "dailyScripture12Text": "Moje milosrđe obuhvaća sve stvari.",
-  "dailyScripture12Ref": "Kur'an 7:156",
-  "dailyScripture13Text": "I kada Moji sluge pitaju tebe o Meni — doista sam blizu. Odgovaram suplikantima kad on poziva Mene.",
-  "dailyScripture13Ref": "Kur'an 2:186",
-  "dailyScripture14Text": "Tko čini dobro, bilo muško bilo žensko, dok je vjernik — sigurno ćemo mu darovati dobar život.",
-  "dailyScripture14Ref": "Kur'an 16:97",
-  "dailyScripture15Text": "Doista, Allah neće promijeniti stanje naroda dok oni ne promijene ono što je u njima.",
-  "dailyScripture15Ref": "Kur'an 13:11",
-  "dailyScripture16Text": "Zato ne slabite i ne tuživajte, i bit ćete nadmoćni ako ste istiniti vjernici.",
-  "dailyScripture16Ref": "Kur'an 3:139",
-  "dailyScripture17Text": "O Moji sluge koji ste se pregrješili proti sebi, ne očajavajte od milosrđa Allaha. Doista, Allah opraća sve grijehe.",
-  "dailyScripture17Ref": "Kur'an 39:53",
-  "dailyScripture18Text": "I tko se boji Allaha — On će mu stvoriti izlaz, i darovati mu sa gdje ne očekuje.",
-  "dailyScripture18Ref": "Kur'an 65:2-3",
-  "dailyScripture19Text": "Ne očajavajte od milosrđa Allaha.",
-  "dailyScripture19Ref": "Kur'an 12:87",
-  "dailyScripture20Text": "I doista smo učinio Kur'an lagano za sjećanje. Postoji li itko tko će biti pažljiv?",
-  "dailyScripture20Ref": "Kur'an 54:17",
-  "dailyScripture21Text": "I pronašao te je izgubljenim i vodio te.",
-  "dailyScripture21Ref": "Kur'an 93:7",
-  "dailyScripture22Text": "I Tvoj Gospodar kaže: Pozivajte Mene; odgovorit ću vama.",
-  "dailyScripture22Ref": "Kur'an 40:60",
-  "dailyScripture23Text": "I doista smo poštovali Adamove sinove.",
-  "dailyScripture23Ref": "Kur'an 17:70",
-  "dailyScripture24Text": "I tražite pomoć kroz strpljenje i molitvu.",
-  "dailyScripture24Ref": "Kur'an 2:45",
-  "dailyScripture25Text": "Tko čini težinu atoma dobra vidjeti će je.",
-  "dailyScripture25Ref": "Kur'an 99:7",
-  "dailyScripture26Text": "Nedvojbeno, pomoć Allaha je blizu.",
-  "dailyScripture26Ref": "Kur'an 2:214",
-  "dailyScripture27Text": "I tko je zahvalan — njegova zahvalnost je samo za vlastitu dobrobit.",
-  "dailyScripture27Ref": "Kur'an 31:12",
-
-  "dailyReflection0": "Dok se dan završava, razmisli o jednom trenutku gdje je Allahovo milosrđe bilo očito.",
-  "dailyReflection1": "Donesi pred Allaha sve ono što je bilo teško za tvoje srce danas.",
-  "dailyReflection2": "Nametni jedan blagoslov od danas i izrazi zahvalnost Allahu.",
-  "dailyReflection3": "Počini se znanjem da si držan u Allahovu beskonačnoj skrbi.",
-  "dailyReflection4": "Razmisli o mjestu gdje si pozvan da pokažeš saosjećanje i ljubaznost danas.",
-  "dailyReflection5": "Pusti ono što ne možeš kontrolirati i pouzdaj se u Allahov savršen plan.",
-  "dailyReflection6": "Dok dan završava, primaj mir u sjećanju Allahu.",
-  "dailyReflection7": "Razmisli kako si čestitao своје molitve danas i zahvali se Allahu za svaku.",
-  "dailyReflection8": "Razmisli o trenutku gdje je strpljenje (Sabr) vodilo tvoje radnje danas.",
-  "dailyReflection9": "Traži oprost za bilo koji nedostatak danas — Allahovo milosrđe je beskrajno.",
-  "dailyReflection10": "Nametni jednu osobu koju si pokazao ljubaznost danas i čini duu za nju.",
-  "dailyReflection11": "Sidi sa zahvalnošću: što je Allah dao danas što nisi tražio?",
-  "dailyReflection12": "Razmisli o ajetu iz Kur'ana koji govori o mjestu na kojem si sada.",
-  "dailyReflection13": "Razmisli kako si koristio vrijeme danas — i pokloni sutra Allahu.",
-  "dailyReflection14": "Počini se znanjem da je Allahova pomoć bila sa tobom kroz bilo koju teškoću od danas.",
-  "dailyReflection15": "Misli na jedan način na koji si služio svojoj obitelji ili zajednici za Allahina milost.",
-  "dailyReflection16": "Dok noć pada, čini Tawbah — Allah voli one koji se vraćaju Njemu.",
-  "dailyReflection17": "Razmisli o ljepoti koju je Allah stavio u tvoj dan, koliko god mala.",
-  "dailyReflection18": "Razmisli što si naučio danas i kako te to približava Allahu.",
-  "dailyReflection19": "Pusti brigu od dana s Allahom — On nosi ono što ne možeš.",
-  "dailyReflection20": "Misli o trenutku danas gdje si mogao biti bolji i nježno nauči se od toga.",
-  "dailyReflection21": "Čini duu za one koji pate — tvoja molitva je dar za njih.",
-  "dailyReflection22": "Prisjeti se blagoslova koji često zanemaruješ i odvojи trenutak da zahvališ Allahu za to.",
-  "dailyReflection23": "Razmisli o svojoj namjeri hoje — je li bila za Allaha? Sutra, počni ponovno.",
-  "dailyReflection24": "Dok noć utihne, sluša Allahovu blizinu u tišini.",
-  "dailyReflection25": "Razmisli o trenutku danas gdje si našao snagu — ta snaga je od Allaha.",
-  "dailyReflection26": "Nametni jednu stvar koju ćeš učiniti sutra, za Allahina milost, koju nisi učinio danas.",
-  "dailyReflection27": "Dok se pripremaš za odmor, povjerite svoju dušu Allahu — On je najbolji čuvar.",
-
-  "dailyRoleModel0": "Prorок Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Prorок Ibrahim (AS)",
-  "dailyRoleModel44": "Prorок Musa (AS)",
-  "dailyRoleModel45": "Prorок Isa (AS)",
-  "dailyRoleModel46": "Prorок Yusuf (AS)",
-  "dailyRoleModel47": "Prorок Dawud (AS)",
-  "dailyRoleModel48": "Prorок Sulayman (AS)",
-  "dailyRoleModel49": "Prorок Nuh (AS)",
-  "dailyRoleModel50": "Prorок Yunus (AS)",
-  "dailyRoleModel51": "Prorок Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Dopusti Ayara da koristi moju lokaciju za Qibla smjer i vremena molitvi",
-  "locationConsentHint": "Koristi se samo za te funkcionalnosti. Tvoja lokacija nikada nije dijeljena niti pohranjena.",
-
-  "askPageTitle": "Pitaj Ayara",
-  "askPageDescription": "Pitaj bilo što o vjeri, molitvi, životu ili islamskoj praksi i primи vodstvo ukorijenjeno u Kur'anu i Sunnahu.",
-  "askPageInputHint": "Upiši svoje pitanje ovdje…",
+  "locationConsentLabel": "Dopusti Ayari korištenje moje lokacije za smjer kible i vremena molitve",
+  "locationConsentHint": "Koristi se samo za ove značajke. Vaša lokacija nikada se ne dijeli niti pohranjuje.",
+  "askPageTitle": "Pitaj Ayaru",
+  "askPageDescription": "Postavite bilo koje pitanje o vjeri, molitvi, životu ili islamskoj praksi i primite vodstvo utemeljeno na Kuranu i učenjima Ahl al-Bayta.",
+  "askPageInputHint": "Upišite svoje pitanje ovdje…",
   "askPageSubmitCta": "Pitaj",
-  "askPageInputEmptyError": "Molimo prvo napišи pitanje.",
-  "askResultYourQuestion": "Tvoje pitanje",
-
-  "guidancePageTitle": "Molitva i Vodstvo",
-  "qiblaFacingMecca": "Prema Mekki",
-  "qiblaCompassInstruction": "Rotiraj svoj telefon dok zlata igla ne bude prema gore.\nTa smjer pokazuje Qiblu (Mekku).",
-  "qiblaGpsUnavailableBody": "GPS signal je slab. Premjesti se vani i dodirnи Pokušaj ponovno.",
+  "askPageInputEmptyError": "Najprije napišite pitanje.",
+  "askResultYourQuestion": "Vaše pitanje",
+  "guidancePageTitle": "Kibla",
+  "qiblaFacingMecca": "Okrenuto prema Meki",
+  "qiblaCompassInstruction": "Okrećite telefon dok zlatna igla ne pokaže prema gore.\nTaj smjer pokazuje prema kibli (Meki).",
+  "qiblaGpsUnavailableBody": "GPS signal je slab. Izađite van i dodirnite Pokušaj ponovno.",
   "qiblaRetry": "Pokušaj ponovno",
-  "qiblaTitle": "Qibla Smjer",
-  "qiblaDistanceLabel": "{km} km do Mekke",
+  "qiblaTitle": "Smjer kible",
+  "qiblaDistanceLabel": "{km} km do Meke",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "Potrebna lokacija",
-  "qiblaLocationNeededBody": "Dopusti pristup lokaciji kako bi Ayara mogla izračunati smjer Kaabe u Mekki odakle god da si.",
+  "qiblaLocationNeededTitle": "Potrebna je lokacija",
+  "qiblaLocationNeededBody": "Dopustite pristup lokaciji kako bi Ayara mogla izračunati smjer Kabe u Meki s mjesta na kojem se nalazite.",
   "qiblaOpenSettings": "Otvori Postavke",
-  "qiblaCompassLoading": "Pronalaženje tvoje pozicije…",
-  "qiblaTowardMecca": "Prema Mekki",
-
-  "prayerTimesTitle": "Vremena Molitvi",
+  "qiblaCompassLoading": "Pronalaženje vaše lokacije…",
+  "qiblaTowardMecca": "Prema Meki",
+  "prayerTimesTitle": "Vremena molitve",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
-  "prayerTimesLocationNeededTitle": "Potrebna lokacija",
-  "prayerTimesLocationNeededBody": "Dopusti pristup lokaciji kako bi Ayara mogla izračunati točna vremena molitvi za tvoj grad.",
-  "prayerTimesNextLabel": "Sljedeća",
+  "prayerTimesLocationNeededTitle": "Potrebna je lokacija",
+  "prayerTimesLocationNeededBody": "Dopustite pristup lokaciji kako bi Ayara mogla izračunati točna vremena molitve za vaš grad.",
+  "prayerTimesNextLabel": "Sljedeće",
   "prayerTimesDoneLabel": "Gotovo",
-
-  "monthlyPrayerTimesTitle": "Mjesečna Vremena Molitvi",
-  "monthlyPrayerTimesViewButton": "Pogledaj Cijeli Mjesec",
+  "monthlyPrayerTimesTitle": "Mjesečna vremena molitve",
+  "monthlyPrayerTimesViewButton": "Prikaži cijeli mjesec",
   "monthlyPrayerTimesNextMonth": "Sljedeći mjesec",
   "monthlyPrayerTimesDayHeader": "Dan",
-
-  "sharePrayerTimes": "Podijeli vremena molitvi",
-
-  "prayerNotificationsTitle": "Podsjetnici Molitvi",
-  "prayerNotificationsDescription": "Primи nježan podsjetnik prije svakog vremena molitvi kako bi ostao povezan tijekom dana.",
-  "prayerNotificationsEnable": "Omogući podsjetnik molitvi",
+  "sharePrayerTimes": "Podijeli vremena molitve",
+  "notificationsSectionTitle": "Obavijesti",
+  "notificationsSectionSubtitle": "Podsjetnici za molitvu, kalendarski događaji i više",
+  "dailyReflectionReminderTitle": "Dnevno razmišljanje",
+  "dailyReflectionReminderDescription": "Nježan dnevni podsjetnik da otvorite Ayaru i povežete se sa svojom vjerom.",
+  "dailyReflectionReminderEnable": "Omogući dnevni podsjetnik",
+  "dailyReflectionReminderTimeLabel": "Vrijeme podsjetnika",
+  "prayerNotificationsTitle": "Podsjetnici za molitvu",
+  "prayerNotificationsDescription": "Primite nježan podsjetnik prije svakog vremena molitve kako biste ostali povezani tijekom dana.",
+  "prayerNotificationsEnable": "Omogući podsjetnike za molitvu",
   "prayerNotificationsOpenSettings": "Otvori postavke obavijesti",
   "prayerNotificationsDenied": "Obavijesti su onemogućene",
-  "prayerNotificationsDeniedHint": "Idi u Postavke i dopusti obavijesti za Ayara kako bi primio podsjetnik vremena molitvi.",
-
-  "notificationsConsentLabel": "Dopusti obavijesti za vremena molitvi",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — Zora Molitva",
-  "prayerNotifBodyFajr": "Najbolja od molitvi je molitva zore. Ustani, očisti se i stani pred Allaha.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Podnevna Molitva",
-  "prayerNotifBodyDhuhr": "Prekini dan i vrati se Allahu. Vrijeme Dhuhr molitvi je stiglo.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — Popodnevna Molitva",
-  "prayerNotifBodyAsr": "Čuvaj srednju molitvu. Vrijeme Asr je došlo — nemoj je propustiti.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — Zalazna Molitva",
-  "prayerNotifBodyMaghrib": "Sunce je zašlo. Ponudi Maghrib i budi zahvalan Allahu na ovom danu.",
-
-  "prayerNotifTitleIsha": "🌙 Isha — Noćna Molitva",
-  "prayerNotifBodyIsha": "Završi svoj dan sa sjećanjem Allahu. Hayya 'alal falah — dođi ka uspjehu.",
-
-  "outOfReflectionsBannerText": "Koristio si sva svoja razmišljanja",
-  "outOfReflectionsBannerCta": "Dobij više",
-
-  "dhikrPageTitle": "Dhikr",
-  "dhikrTapToCount": "Dodirnи krug za brojanje",
+  "prayerNotificationsDeniedHint": "Idite u Postavke i dopustite obavijesti za Ayaru kako biste primali podsjetnike za vrijeme molitve.",
+  "notificationsConsentLabel": "Dopusti obavijesti za vremena molitve",
+  "prayerNotifTitleFajr": "🌅 Fajr — Zorna molitva",
+  "prayerNotifBodyFajr": "Fajr je molitva jutara Ahl al-Bayta. Imam Ali (AS) je rekao: Čuvajte zornu molitvu kao što čuvate svoje najdragocjenije povjerenje. Ustanite, očistite se i stanite pred Allaha.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Podnevna molitva",
+  "prayerNotifBodyDhuhr": "Imami Ahl al-Bayta cijenili su svaki trenutak zikra. Zaustavite svoj dan, spojite Dhuhr s Asrom ako je potrebno i vratite svoje srce Allahu.",
+  "prayerNotifTitleAsr": "🌤️ Asr — Poslijepodnevna molitva",
+  "prayerNotifBodyAsr": "Čuvajte molitvu, jer ona je savez između vas i Allaha. Vrijeme Asra je došlo — ne dopustite da prođe bez zikra.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Molitva zalaska sunca",
+  "prayerNotifBodyMaghrib": "Sunce je zašlo — trenutak koji je Ahl al-Bayt smatrao svetim za dovu. Klanjajte Maghrib i podignite ruke Allahu u dovi prije nego što noć započne.",
+  "prayerNotifTitleIsha": "🌙 Isha — Noćna molitva",
+  "prayerNotifBodyIsha": "Završite svoj dan u Allahovom društvu. Imami su poticali Salat al-Layl nakon Ishe — ali najprije obavite Ishu i završite dan Njegovim spominjanjem.",
+  "outOfReflectionsBannerText": "Iskoristili ste sva svoja razmišljanja",
+  "outOfReflectionsBannerCta": "Nabavi još",
+  "dhikrPageTitle": "Zikr",
+  "dhikrTapToCount": "Dodirnite krug za brojanje",
   "dhikrResetButton": "Resetiraj",
-  "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Dovršio si 99 sjećanja Allaha. Neka budu svjetlost za tvoje srce.",
-
-  "disclaimerTitle": "O vođu ovog programa",
-  "disclaimerBody": "Ayara pruža islamska razmišljanja, podsjetnik i duhovni sadržaj za podršku svojoj osobnoj putanji vjere. Ovaj sadržaj se nudi samo u opće informativne i inspirativne svrhe.\n\nAyara ne zamjenjuje kvalificirane učenjake.\nVodstvo u ovoj aplikaciji nije zamjena za učenog islamskog učenjaka, imama, muftija ili teološki obučenog učitelja. Ako imate pitanja o vjerskim pravilima, halal i haram stvarima ili osobnim vjerskim obvezama, molimo obratite se kvalificiranom vjerskom autoritetu u svojoj zajednici.\n\nOva aplikacija ne izdaje vjerska rješenja.\nAyara ne čini autoritativne određene o stvarima fiqa (islamske jurisprudencije) ili osobnim vjerskim obvezama. Ništa ovdje ne trebate tretirati kao fetvu ili obvezujuću vjersku uputu.\n\nUčene interpretacije razlikuju se.\nIslam obuhvaća bogatstvo tradicija, škola mišljenja (madhabs) i učenih mišljenja. Sadržaj u ovoj aplikaciji odražava opće perspektive i nije mogao predstavljati svaku tradiciju jednako.\n\nZajednica je važna.\nOva aplikacija ima za cilj ohrabriti vašu angažiranost s vjerskim tradicijama dok duboko poštuje vitalnu ulogu vaše mjesne mošeje, imama i vjerske zajednice. Ohrabrujemo vas da ostanete povezani i učite od kvalificiranih učitelja blizu vas.",
+  "dhikrComplete": "Maša'Allah",
+  "dhikrCompleteMessage": "Završili ste 100 Allahovih spominjanja. Neka budu svjetlo vašem srcu.",
+  "disclaimerTitle": "O smjernicama ove aplikacije",
+  "disclaimerBody": "Ayara pruža islamska razmišljanja, podsjetnike i duhovni sadržaj kako bi podržala vaše osobno putovanje vjere, utemeljeno na Kuranu i učenjima Ahl al-Bayta. Ovaj je sadržaj namijenjen isključivo za opće informativne i inspirativne svrhe.\n\nAyara ne zamjenjuje kvalificirano vjersko znanje.\nSmjernice u ovoj aplikaciji nisu zamjena za učenog islamskog učenjaka, marja'a ili teološki obrazovanog učitelja. U šiitskom islamu vjersko vodstvo ukorijenjeno je u džaferskoj školi jurisprudencije (fiqhu) i tradiciji slijeđenja živućeg Marja'a (izvora oponašanja) — kvalificiranog pravnika čije presude usmjeravaju vjernike u vjerskoj praksi. Ako imate pitanja o vjerskim propisima, halal i haram pitanjima ili osobnim vjerskim obvezama, potražite savjet od kvalificiranog Marja'a ili učenjaka u svojoj zajednici.\n\nOva aplikacija ne izdaje vjerske presude.\nAyara ne donosi autoritativne odluke o pitanjima fiqha ili osobnih vjerskih obveza. Ništa ovdje ne treba smatrati fetvom ili obvezujućom vjerskom uputom.\n\nSredišnje mjesto Ahl al-Bayta.\nU šiitskom islamu, Poslanik Muhammed ﷺ i njegova čista obitelj — Ahl al-Bayt — autoritativni su vodiči islamske zajednice nakon Kurana. Dvanaest imama Ahl al-Bayta božanski su imenovani tumači islamskog učenja. Sadržaj ove aplikacije odražava tu tradiciju i nastoji je vjerno poštovati.\n\nPitanja zajednice.\nOva aplikacija nastoji potaknuti vaš angažman s vjerom uz duboko poštovanje prema važnoj ulozi vaše lokalne džamije, islamskog centra i vjerske zajednice. Potičemo vas da ostanete povezani s kvalificiranim učiteljima u svojoj blizini i da učite od njih.",
   "disclaimerClose": "Razumijem",
-  "disclaimerInfoTooltip": "O vođu ovog programa",
-  "disclaimerSettingsSubtitle": "Za opće informativne svrhe samo. Dodirnи za čitanje potpune suglasnosti.",
-  "disclaimerSectionHeader": "Disclaimer vodstva"
+  "disclaimerInfoTooltip": "O smjernicama ove aplikacije",
+  "disclaimerSettingsSubtitle": "Samo za opće informativne svrhe. Dodirnite za čitanje cijelog odricanja od odgovornosti.",
+  "disclaimerSectionHeader": "Odricanje od odgovornosti za smjernice",
+  "navHome": "Početna",
+  "navReflect": "Razmišljaj",
+  "navDuas": "Dove",
+  "navCalendar": "Kalendar",
+  "dashboardToday": "DANAS",
+  "dashboardComingUp": "Uskoro",
+  "dashboardDaysUnit": "{count, plural, one {dan} other {dana}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Brzi pristup",
+  "quickActionQibla": "Kibla",
+  "quickActionDhikr": "Zikr",
+  "quickActionDailyGrace": "Vodstvo",
+  "quickActionPrayerTimes": "Vremena molitve",
+  "askAyaraTitle": "Pitaj Ayaru",
+  "askAyaraSubtitle": "Postavite bilo koje islamsko pitanje i primite promišljen, vođen odgovor.",
+  "askAyaraHint": "npr. Koje je značenje Ramazana?",
+  "askAyaraSubmit": "Pitaj",
+  "wisdomOfTheDayTitle": "Mudrost dana",
+  "calendarScreenTitle": "Islamski kalendar",
+  "calendarUpcomingOccasions": "Nadolazeće prigode",
+  "calendarOccasionRemindersTitle": "Podsjetnici za prigode",
+  "calendarOccasionRemindersHint": "Obavijest večer prije svake prigode",
+  "calendarNotifPermissionDenied": "Dopuštenje za obavijesti odbijeno. Omogućite ga u postavkama uređaja.",
+  "calendarNoEvents": "Nema nadolazećih događaja.",
+  "calendarAddToPhone": "Dodaj u kalendar telefona",
+  "calendarAddedToPhone": "Dodano u kalendar",
+  "calendarCountdownToday": "DANAS",
+  "calendarCountdownTomorrow": "SUTRA",
+  "calendarCountdownDays": "za {days} dana",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Sij",
+  "calendarMonthFeb": "Velj",
+  "calendarMonthMar": "Ožu",
+  "calendarMonthApr": "Tra",
+  "calendarMonthMay": "Svi",
+  "calendarMonthJun": "Lip",
+  "calendarMonthJul": "Srp",
+  "calendarMonthAug": "Kol",
+  "calendarMonthSep": "Ruj",
+  "calendarMonthOct": "Lis",
+  "calendarMonthNov": "Stu",
+  "calendarMonthDec": "Pro",
+  "calendarSeasonMuharramEarly": "Dani Muharrema — sjećanje na Karbalu",
+  "calendarSeasonAshura": "Ašura — Ja Husejne (AS)",
+  "calendarSeasonMuharramLate": "Muharrem — dani žalosti i razmišljanja",
+  "calendarSeasonArbaeen": "Arbaeen — četrdeset dana Husejna",
+  "calendarSeasonRoadToArbaeen": "Put prema Arbaeenu",
+  "calendarSeasonMabath": "Mab'ath Mubarak — zora objave",
+  "calendarSeasonMidShaban": "Sredina Ša'bana — rođendan imama al-Mahdija (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — mjesec Kurana",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharrem",
+  "hijriMonth2": "Safer",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Radžab",
+  "hijriMonth8": "Ša'ban",
+  "hijriMonth9": "Ramazan",
+  "hijriMonth10": "Ševval",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hidždža",
+  "duasScreenTitle": "Dove i zijarati",
+  "duasSearchHint": "Pretraži dove, zijarate…",
+  "duasFilterAll": "Sve",
+  "duasCount": "{count, plural, one {{count} dova} other {{count} dove i zijarati}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Nema pronađenih dova.",
+  "duaCategoryDaily": "Dnevno",
+  "duaCategoryWeekly": "Tjedno",
+  "duaCategoryOccasions": "Prigode",
+  "duaCategoryZiyarat": "Zijarat",
+  "duaCategoryTasbih": "Tesbih",
+  "eventTypeBirth": "Rođenje",
+  "eventTypeMartyrdom": "Mučeništvo",
+  "eventTypeOccasion": "Prigoda",
+  "duaCopyTooltip": "Kopiraj prijevod",
+  "duaToggleTransliteration": "Transliteracija",
+  "duaToggleTranslation": "Prijevod",
+  "duaAskAiLabel": "Pitaj Ayaru da objasni ovu dovu",
+  "duaAskAiLockedLabel": "Pitaj Ayaru (Wilaya)",
+  "duaAiLockedMessage": "Ayarina objašnjenja dostupna su članovima Wilaye. Nadogradite u Postavkama.",
+  "duaAiComingSoon": "Pitaj Ayaru o \"{name}\" — uskoro!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dova kopirana u međuspremnik.",
+  "tasbihAllahuAkbarMeaning": "Allah je najveći",
+  "tasbihAlhamdulillahMeaning": "Sva hvala pripada Allahu",
+  "tasbihSubhanallahMeaning": "Slavljen neka je Allah",
+  "tasbihResetTooltip": "Resetiraj",
+  "tasbihCompleteTitle": "Tesbih dovršen",
+  "tasbihCompleteMessage": "Neka Allah primi vaš zikr.",
+  "tasbihTapHint": "Dodirnite bilo gdje za brojanje",
+  "tasbihatScreenTitle": "Vodič za molitvu",
+  "tasbihatScreenSubtitle": "MOLITVENA VELIČANJA",
+  "tasbihatScreenDescription": "Potpun vodič za veličanja koja se uče tijekom i nakon dnevnih molitvi — slijedeći tradiciju Ahl al-Bayta (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Uči se tijekom 3. i 4. rekata",
+  "tasbihatArba3Info": "U šiitskoj jurisprudenciji, Tasbiḥāt al-Arbaʿa zamjenjuje suru al-Fatihu u 3. i 4. rekatu Dhuhr, Asr, Maghrib i Isha namaza. Obavezno je (wājib) proučiti ga jednom, a preporučeno (mustaḥabb) tri puta.",
+  "tasbihatArba3Translation": "Slavljen neka je Allah · Sva hvala pripada Allahu\nNema boga osim Allaha · Allah je najveći",
+  "tasbihatArba3CompleteTitle": "Učenje dovršeno",
+  "tasbihatArba3CompleteMessage": "Neka vaša molitva bude primljena — Āmīn",
+  "tasbihatArba3TapHint": "Dodirnite nakon svakog učenja",
+  "tasbihatZahraSubtitle": "Nakon svake molitve · 100 zrna",
+  "tasbihatZahraOriginLabel": "Podrijetlo",
+  "tasbihatZahraHadith": "Hazreti Fatima al-Zahra (sa) zatražila je od Poslanika ﷺ slugu. On je rekao: \"Zar da te ne uputim na nešto bolje? Nakon svake molitve prouči Subḥānallāh 33 puta, Alḥamdulillāh 33 puta i Allāhu Akbar 34 puta. To je za tebe bolje od sluge.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, sv. 85",
+  "tasbihatZahraOpenCounter": "Otvori brojač tasbīha",
+  "tasbihatDuasTitle": "PREPORUČENE DOVE",
+  "tasbihatDuasSubtitle": "Nakon završetka molitve",
+  "tasbihatDuaAyatKursiTitle": "Ājat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Nakon svake obavezne molitve",
+  "tasbihatDuaAyatKursiSource": "Sura al-Baqara 2:255",
+  "tasbihatDuaAyatKursiNote": "Tko prouči Ājat al-Kursī nakon svake obavezne molitve, između njega i Dženneta ne stoji ništa osim smrti. Imam al-Bāqir (a) rekao je da je to među najvećim ajetima u Kuranu.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Nakon svake molitve · pečati sve dove",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Slanje salavata na Poslanika ﷺ i njegovu čistu obitelj (Āl Muḥammad) preporučuje se kao pečat svake dove. Imam al-Ṣādiq (a) rekao je: \"Svaka dova ostaje suspendirana dok ne pošalješ ṣalawāt na Muhammeda i njegovu obitelj.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Nakon svake molitve · za imama našeg vremena",
+  "tasbihatDuaFarajSource": "Podučio imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "Dova za ponovno pojavljivanje imama al-Mahdīja (af), dvanaestog imama, koju je podučio njegov otac. Šiitski vjernici uče je svakodnevno nakon svake molitve kao čin odanosti živom imamu.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ hazreti Fāṭime",
+  "tasbihatDuaTasbihFatimaWhen": "Nakon Maghriba i Ishe · posebno preporučeno",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) rekao je da je učenje Tasbīḥ al-Zahrā nakon Ishe prije spavanja bolje od 1000 rekata dobrovoljne molitve. Njegovo svjetlo uzdiže se do nebesa.",
+  "tasbihFatimaGiftPre": "Dar od Poslanika",
+  "tasbihFatimaGiftPost": "uči se nakon svake molitve",
+  "prayerTrackerTitle": "PRAĆENJE MOLITVE",
+  "prayerTrackerPrayed": "Klanjano",
+  "prayerTrackerDayStreak": "{count} dana zaredom",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Sve su molitve danas dovršene. Neka Allah primi.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Dovršeno danas",
+  "dhikrTrackerNotDoneToday": "Nije učinjeno danas",
+  "dhikrTrackerDayStreak": "{count} dana zaredom",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Podsjetnik za tasbīḥ",
+  "dhikrReminderDescription": "Nježan dnevni podsjetnik za učenje vašeg Tasbīḥ al-Zahrā (SA).",
+  "dhikrReminderEnable": "Omogući podsjetnik za tasbīḥ",
+  "dhikrReminderTimeLabel": "Vrijeme podsjetnika",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Dnevni hadis",
+  "hadithLabelArabic": "ARAPSKI",
+  "hadithLabelTranslation": "PRIJEVOD",
+  "hadithBadge": "HADIS",
+  "hadithShare": "Podijeli ovaj hadis",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nPutem Ayare",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Prethodno",
+  "hadithNavNext": "Sljedeće",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "14 Masumina",
+  "imamsScreenSubtitle": "Poslanik, hazreti Fatima i dvanaest imama — bezgrješni vodiči islama",
+  "imamLabelBorn": "Rođen",
+  "imamLabelMartyrdom": "Mučeništvo",
+  "imamLabelStatus": "Status",
+  "imamSectionBiography": "BIOGRAFIJA",
+  "imamSectionFamousSaying": "POZNATA IZREKA",
+  "imamRoleProphet": "Posljednji Poslanik",
+  "imamRoleInfallible": "Bezgrješni",
+  "imamOrdinal1": "1. imam",
+  "imamOrdinal2": "2. imam",
+  "imamOrdinal3": "3. imam",
+  "imamOrdinal4": "4. imam",
+  "imamOrdinal5": "5. imam",
+  "imamOrdinal6": "6. imam",
+  "imamOrdinal7": "7. imam",
+  "imamOrdinal8": "8. imam",
+  "imamOrdinal9": "9. imam",
+  "imamOrdinal10": "10. imam",
+  "imamOrdinal11": "11. imam",
+  "imamOrdinal12": "12. imam",
+  "duaAudioScreenTitle": "Slušaj dove",
+  "duaAudioScreenSubtitle": "Odaberite dovu za slušanje. Dodirnite pločicu za reprodukciju ili pauzu.",
+  "duaAudioComingSoonMessage": "Audio za ovu dovu bit će dostupan u nadolazećem ažuriranju.",
+  "duaAudioClose": "Zatvori",
+  "duaAudioError": "Nije moguće učitati audio. Provjerite svoju vezu.",
+  "duaAudioMetaTransmittedBy": "Prenio",
+  "duaAudioMetaOccasion": "Prigoda",
+  "duaAudioMetaDuration": "Trajanje",
+  "quickActionDailyHadith": "Dnevni hadis",
+  "quickAction14Masumeen": "14 Masumina",
+  "quickActionListenDuas": "Slušaj",
+  "quickActionTasbihat": "Vodič za molitvu",
+  "pilgrimageSectionTitle": "Sveto putovanje",
+  "pilgrimageSectionSubtitle": "Potpuni vodiči za hadž i umru — hodočašće Svetoj Allahovoj kući u Meki",
+  "hajjCardTitle": "Hadž",
+  "hajjCardSubtitle": "Peti stup islama",
+  "hajjCardDescription": "Veliko godišnje hodočašće — obavezno jednom u životu za svakog sposobnog muslimana",
+  "hajjScreenTitle": "Vodič za hadž",
+  "hajjScreenSubtitle": "Vodič korak po korak za veliko hodočašće",
+  "umrahCardTitle": "Umra",
+  "umrahCardSubtitle": "Malo hodočašće",
+  "umrahCardDescription": "Duboko nagrađujuće duhovno putovanje koje se može obaviti u bilo koje doba godine",
+  "umrahScreenTitle": "Vodič za umru",
+  "umrahScreenSubtitle": "Vodič korak po korak za malo hodočašće",
+  "pilgrimageStepsTitle": "Obredi i koraci",
+  "pilgrimageImportantNotesTitle": "Važne napomene",
+  "pilgrimageDuaTitle": "Dua za ovaj korak",
+  "pilgrimageJafariNoteTitle": "Napomena o Ja'fari fiqhu",
+  "pilgrimageComplete": "✓ Završen",
+  "pilgrimageMarkDone": "Označi kao dovršeno",
+  "pilgrimageProgress": "{done} od {total} koraka",
+  "pilgrimageReadTime": "~{minutes} min",
+  "pilgrimageShiaNoteTitle": "Šiitski hodočasnici",
+  "pilgrimageShiaNoteBody": "Šiitski hodočasnici tradicionalno putuju i u Medinu kako bi posjetili mezar Poslanika Muhammeda (SAW) u Mesdžid al-Nabawiju te mezare imama u Džennat al-Baqiju. Ovi posjeti imaju golemo duhovno značenje i za većinu šiitskih muslimana smatraju se sastavnim dijelom putovanja.",
+  "hajjIntro": "Hadž je peti stup islama, obavezan jednom u životu za svakog muslimana koji je fizički i financijski sposoban. Obavlja se u mjesecu Dhul-Hidždža i slijedi stope poslanika Ibrahima (AS), njegova sina Ismaila (AS) i hazreti Hadžere. Za šiitske muslimane hadž također uključuje duboku blagodat posjeta počivalištima Poslanika (SAW) i Ahlul Bayta u Medini.",
+  "umrahIntro": "Umra je malo hodočašće u Meku i, za razliku od hadža, može se obaviti u bilo koje doba godine. Iako nije obavezna, nosi golemu duhovnu nagradu i smatra se vrlo preporučenim činom ibadeta. Dijeli nekoliko obreda s hadžem, ali je kraća i sastoji se od četiri glavna obreda."
 }

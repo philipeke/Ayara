@@ -4,6 +4,8 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/core/models/content_models.dart';
+import 'package:ayara/core/services/content_repository.dart';
 import 'package:ayara/l10n/app_localizations.dart';
 
 /// Daily Grace — a meditative screen showing scripture of the day,
@@ -25,84 +27,64 @@ class _DailyGraceWidgetState extends State<DailyGraceWidget>
   late final Animation<double> _fade =
       CurvedAnimation(parent: _intro, curve: Curves.easeOut);
 
+  // Content lists — start with bundled fallbacks, upgraded from Firestore.
+  List<DailyScriptureModel> _scriptures = ContentRepository.instance.bundledScriptures;
+  List<DailyRoleModelModel> _roleModels = ContentRepository.instance.bundledRoleModels;
+  List<DailyReflectionModel> _reflections = ContentRepository.instance.bundledReflections;
+
+  @override
+  void initState() {
+    super.initState();
+    _refreshFromRepository();
+  }
+
+  Future<void> _refreshFromRepository() async {
+    try {
+      final results = await Future.wait([
+        ContentRepository.instance.getScriptures(),
+        ContentRepository.instance.getRoleModels(),
+        ContentRepository.instance.getReflections(),
+      ]);
+      if (!mounted) return;
+      final scr = results[0] as List<DailyScriptureModel>;
+      final rm  = results[1] as List<DailyRoleModelModel>;
+      final ref = results[2] as List<DailyReflectionModel>;
+      if (scr.isEmpty && rm.isEmpty && ref.isEmpty) return;
+      setState(() {
+        if (scr.isNotEmpty) _scriptures = [...scr]..sort((a, b) => a.order.compareTo(b.order));
+        if (rm.isNotEmpty)  _roleModels = [...rm]..sort((a, b) => a.order.compareTo(b.order));
+        if (ref.isNotEmpty) _reflections = [...ref]..sort((a, b) => a.order.compareTo(b.order));
+      });
+    } catch (_) {
+      // Network unavailable — keep bundled data.
+    }
+  }
+
   @override
   void dispose() {
     _intro.dispose();
     super.dispose();
   }
 
-  // ── Content helpers — all text sourced from AppLocalizations ────────────────
+  // ── Content selection ───────────────────────────────────────────────────────
 
-  ({String ref, String text}) _scripture(AppLocalizations t) {
-    final now = DateTime.now();
-    final day = now.difference(DateTime(now.year, 1, 1)).inDays % 28;
-    final texts = [
-      t.dailyScripture0Text,  t.dailyScripture1Text,  t.dailyScripture2Text,
-      t.dailyScripture3Text,  t.dailyScripture4Text,  t.dailyScripture5Text,
-      t.dailyScripture6Text,  t.dailyScripture7Text,  t.dailyScripture8Text,
-      t.dailyScripture9Text,  t.dailyScripture10Text, t.dailyScripture11Text,
-      t.dailyScripture12Text, t.dailyScripture13Text, t.dailyScripture14Text,
-      t.dailyScripture15Text, t.dailyScripture16Text, t.dailyScripture17Text,
-      t.dailyScripture18Text, t.dailyScripture19Text, t.dailyScripture20Text,
-      t.dailyScripture21Text, t.dailyScripture22Text, t.dailyScripture23Text,
-      t.dailyScripture24Text, t.dailyScripture25Text, t.dailyScripture26Text,
-      t.dailyScripture27Text,
-    ];
-    final refs = [
-      t.dailyScripture0Ref,  t.dailyScripture1Ref,  t.dailyScripture2Ref,
-      t.dailyScripture3Ref,  t.dailyScripture4Ref,  t.dailyScripture5Ref,
-      t.dailyScripture6Ref,  t.dailyScripture7Ref,  t.dailyScripture8Ref,
-      t.dailyScripture9Ref,  t.dailyScripture10Ref, t.dailyScripture11Ref,
-      t.dailyScripture12Ref, t.dailyScripture13Ref, t.dailyScripture14Ref,
-      t.dailyScripture15Ref, t.dailyScripture16Ref, t.dailyScripture17Ref,
-      t.dailyScripture18Ref, t.dailyScripture19Ref, t.dailyScripture20Ref,
-      t.dailyScripture21Ref, t.dailyScripture22Ref, t.dailyScripture23Ref,
-      t.dailyScripture24Ref, t.dailyScripture25Ref, t.dailyScripture26Ref,
-      t.dailyScripture27Ref,
-    ];
-    return (ref: refs[day], text: texts[day]);
+  ({String ref, String text}) get _scripture {
+    final day = DateTime.now().difference(DateTime(DateTime.now().year, 1, 1)).inDays
+        % _scriptures.length;
+    final s = _scriptures[day];
+    return (ref: s.ref, text: s.text);
   }
 
-  String _roleModel(AppLocalizations t) {
-    final now = DateTime.now();
-    final dayOfYear = now.difference(DateTime(now.year, 1, 1)).inDays;
-    final week = (dayOfYear ~/ 7) % 60;
-    final roleModels = [
-      t.dailyRoleModel0,  t.dailyRoleModel1,  t.dailyRoleModel2,  t.dailyRoleModel3,
-      t.dailyRoleModel4,  t.dailyRoleModel5,  t.dailyRoleModel6,  t.dailyRoleModel7,
-      t.dailyRoleModel8,  t.dailyRoleModel9,  t.dailyRoleModel10, t.dailyRoleModel11,
-      t.dailyRoleModel12, t.dailyRoleModel13, t.dailyRoleModel14, t.dailyRoleModel15,
-      t.dailyRoleModel16, t.dailyRoleModel17, t.dailyRoleModel18, t.dailyRoleModel19,
-      t.dailyRoleModel20, t.dailyRoleModel21, t.dailyRoleModel22, t.dailyRoleModel23,
-      t.dailyRoleModel24, t.dailyRoleModel25, t.dailyRoleModel26, t.dailyRoleModel27,
-      t.dailyRoleModel28, t.dailyRoleModel29, t.dailyRoleModel30, t.dailyRoleModel31,
-      t.dailyRoleModel32, t.dailyRoleModel33, t.dailyRoleModel34, t.dailyRoleModel35,
-      t.dailyRoleModel36, t.dailyRoleModel37, t.dailyRoleModel38, t.dailyRoleModel39,
-      t.dailyRoleModel40, t.dailyRoleModel41, t.dailyRoleModel42, t.dailyRoleModel43,
-      t.dailyRoleModel44, t.dailyRoleModel45, t.dailyRoleModel46, t.dailyRoleModel47,
-      t.dailyRoleModel48, t.dailyRoleModel49, t.dailyRoleModel50, t.dailyRoleModel51,
-      t.dailyRoleModel52, t.dailyRoleModel53, t.dailyRoleModel54, t.dailyRoleModel55,
-      t.dailyRoleModel56, t.dailyRoleModel57, t.dailyRoleModel58, t.dailyRoleModel59,
-    ];
-    return roleModels[week];
+  String get _roleModel {
+    final dayOfYear = DateTime.now().difference(DateTime(DateTime.now().year, 1, 1)).inDays;
+    final week = (dayOfYear ~/ 7) % _roleModels.length;
+    return _roleModels[week].text;
   }
 
-  String _reflection(AppLocalizations t) {
-    final now = DateTime.now();
-    final dayOfYear = now.difference(DateTime(now.year, 1, 1)).inDays;
-    final index = dayOfYear % 28;
-    return [
-      t.dailyReflection0,  t.dailyReflection1,  t.dailyReflection2,
-      t.dailyReflection3,  t.dailyReflection4,  t.dailyReflection5,
-      t.dailyReflection6,  t.dailyReflection7,  t.dailyReflection8,
-      t.dailyReflection9,  t.dailyReflection10, t.dailyReflection11,
-      t.dailyReflection12, t.dailyReflection13, t.dailyReflection14,
-      t.dailyReflection15, t.dailyReflection16, t.dailyReflection17,
-      t.dailyReflection18, t.dailyReflection19, t.dailyReflection20,
-      t.dailyReflection21, t.dailyReflection22, t.dailyReflection23,
-      t.dailyReflection24, t.dailyReflection25, t.dailyReflection26,
-      t.dailyReflection27,
-    ][index];
+  String get _reflection {
+    final dayOfYear = DateTime.now().difference(DateTime(DateTime.now().year, 1, 1)).inDays;
+    final index = dayOfYear % _reflections.length;
+    return _reflections[index].text;
   }
 
   String get _dateLabel {
@@ -118,7 +100,7 @@ class _DailyGraceWidgetState extends State<DailyGraceWidget>
   }
 
   void _copyScripture(AppLocalizations t) {
-    final s = _scripture(t);
+    final s = _scripture;
     Clipboard.setData(ClipboardData(text: '"${s.text}" — ${s.ref}'));
     HapticFeedback.lightImpact();
     ScaffoldMessenger.of(context).showSnackBar(
@@ -134,7 +116,7 @@ class _DailyGraceWidgetState extends State<DailyGraceWidget>
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     final size = MediaQuery.of(context).size;
     final isXS = size.width < 340;
     final isS = size.width < 380;
@@ -144,9 +126,9 @@ class _DailyGraceWidgetState extends State<DailyGraceWidget>
     final settingsIconSize = isXS ? 26.0 : (isS ? 30.0 : 32.0);
     const settingsTapSize = 44.0;
 
-    final scripture = _scripture(t);
-    final saint = _roleModel(t);
-    final reflection = _reflection(t);
+    final scripture = _scripture;
+    final saint = _roleModel;
+    final reflection = _reflection;
 
     return FadeTransition(
       opacity: _fade,
@@ -577,4 +559,3 @@ class _ReflectionCard extends StatelessWidget {
     );
   }
 }
-

@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/core/services/dhikr_streak_service.dart';
 import 'package:ayara/l10n/app_localizations.dart';
 
 // ─── Data model ─────────────────────────────────────────────────────────────
@@ -28,15 +29,16 @@ const _phrases = [
 
 String _phraseMeaning(int index, AppLocalizations t) {
   switch (index) {
-    case 0: return t.dhikrMeaningSubhanallah;
+    case 0: return t.dhikrMeaningAllahuAkbar;
     case 1: return t.dhikrMeaningAlhamdulillah;
-    case 2: return t.dhikrMeaningAllahuAkbar;
+    case 2: return t.dhikrMeaningSubhanallah;
     default: return '';
   }
 }
 
-const _targetPerPhrase = 33;
-const _totalTarget = _targetPerPhrase * 3; // 99
+const _targets = [34, 33, 33];
+const _phraseOrder = [2, 1, 0];
+const _totalTarget = 100;
 
 // ─── Screen ─────────────────────────────────────────────────────────────────
 
@@ -76,13 +78,14 @@ class _DhikrScreenState extends State<DhikrScreen>
 
     setState(() {
       _count++;
-      if (_count >= _targetPerPhrase) {
+      if (_count >= _targets[_phraseIndex]) {
         if (_phraseIndex < _phrases.length - 1) {
           _phraseIndex++;
           _count = 0;
         } else {
           _complete = true;
           HapticFeedback.heavyImpact();
+          DhikrStreakService.instance.recordCompletion();
         }
       }
     });
@@ -260,9 +263,9 @@ class _DhikrScreenState extends State<DhikrScreen>
   }
 
   Widget _buildCounter(AppLocalizations t) {
-    final phrase = _phrases[_phraseIndex];
-    final progress = _count / _targetPerPhrase;
-    final totalCompleted = _phraseIndex * _targetPerPhrase + _count;
+    final phrase = _phrases[_phraseOrder[_phraseIndex]];
+    final progress = _count / _targets[_phraseIndex];
+    final totalCompleted = _targets.take(_phraseIndex).fold(0, (a, b) => a + b) + _count;
 
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
@@ -314,7 +317,7 @@ class _DhikrScreenState extends State<DhikrScreen>
             behavior: HitTestBehavior.opaque,
             child: _CircularCounter(
               count: _count,
-              target: _targetPerPhrase,
+              target: _targets[_phraseIndex],
               progress: progress,
             ),
           ),
@@ -559,4 +562,3 @@ class _ArcPainter extends CustomPainter {
   @override
   bool shouldRepaint(_ArcPainter old) => old.progress != progress;
 }
-

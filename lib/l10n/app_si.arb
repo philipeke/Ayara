@@ -1,585 +1,629 @@
 {
   "@@locale": "si",
-
-  "appTitle": "Ayara",
-
-  "languageSelectTitle": "ඔබේ භාෂාව තෝරන්න",
-  "languageSelectSub": "ඔබට පසුව සැකසීම්වල මෙය වෙනස් කළ හැක",
+  "appTitle": "අයාරා",
+  "languageSelectTitle": "ඔබගේ භාෂාව තෝරන්න",
+  "languageSelectSub": "මෙය පසුව සැකසුම් තුළදී වෙනස් කළ හැක",
   "actionContinue": "ඉදිරියට යන්න",
   "languageSuggestedHeader": "යෝජිත",
   "languageAllHeader": "සියලු භාෂා",
   "languageSuggestedBadge": "යෝජිත",
   "languageSearchHint": "සොයන්න…",
-
-  "planGrace": "ප්‍රමාණිත",
-  "planBlessed": "බරකා",
-
-  "categoryDailyGuidance": "දෛනික මාර්ගෝපදේශන",
-  "categoryFaithTrust": "ඉමාන් සහ විශ්වාසය",
-  "categoryPrayerReflection": "ඉමාමි ව්‍යංජනය",
-  "categoryHopeDifficultTimes": "ඉවසීම සහ ප්‍රේමය",
-  "categoryForgiveness": "සමාව පතන්න",
-  "categoryLoveCompassion": "දයාව සහ අනුකම්පනය",
-  "categoryStrengthCourage": "විශ්වාසයේ ශක්තිය",
-  "categoryGratitude": "කృතඥ අවලංගු",
-  "categoryPurposeCalling": "ජීවිතයේ අරමුණු",
-  "categoryFamilyRelationships": "පවුල් සබඳතා",
-  "categoryPeaceAnxietyRelief": "අභ්‍යන්තර සාමය",
-  "categoryWisdomOfJesus": "පනත්කරු ශික්ෂණ",
-  "categoryHumilityCharacter": "යහ චරිතය",
-  "categoryOvercomingTemptation": "ඉතා සරලතාවයි ප්‍රතිරෝධ කරන්න",
-  "categoryEveningReflection": "සන්ධ්‍යා ධිකර්",
-  "categoryCustom": "පුද්ගලික පරිකථනය",
-  "dhikrMeaningSubhanallah": "අල්ලාහ්ට ගෞරවය",
-  "dhikrMeaningAlhamdulillah": "සියලුම ප්‍රශංසාවන් අල්ලාහ්ටයි",
-  "dhikrMeaningAllahuAkbar": "අල්ලාහ් මහත්මයා",
-  "quranVerseHeartAtRest": "නිසැකවම, අල්ලාහ්ගේ මතකය තුළ හදවතන් නිවාඩු සොයා ගනී.",
-
-  "promptHint": "ඉස්ලාමීය මාර්ගෝපදේශන සහ ව්‍යංජනය සඳහා කාණ්ඩයක් ස්පර්ශ කරන්න",
-
-  "currentLanguage": "වර්තමාන භාෂාව",
-  "settingsLanguage": "භාෂා සැකසීම්",
-  "settingsTitle": "සැකසීම්",
-  "chooseLanguage": "ඔබේ භාෂාව තෝරන්න",
+  "planBasic": "සම්මත",
+  "planPremium": "Wilaya",
+  "categorySlot01": "දෛනික මගපෙන්වීම",
+  "categorySlot02": "ඉමාන් සහ විශ්වාසය",
+  "categorySlot03": "සලාතය පිළිබඳ මෙනෙහි කිරීම",
+  "categorySlot04": "ඉවසීම සහ බලාපොරොත්තුව",
+  "categorySlot05": "සමාව ඉල්ලා සිටින්න",
+  "categorySlot06": "කරුණාව සහ දයාබරත්වය",
+  "categorySlot07": "ඇදහිල්ලේ ශක්තිය",
+  "categorySlot08": "කෘතඥ හදවත",
+  "categorySlot09": "ජීවිතයේ අරමුණ",
+  "categorySlot10": "පවුල් බැඳීම්",
+  "categorySlot11": "අභ්‍යන්තර සන්සුන්කම",
+  "categorySlot12": "නබිතුමාගේ ප්‍රඥාව",
+  "categorySlot13": "යහපත් චරිතය",
+  "categorySlot14": "ආකර්ෂණයන්ට එරෙහි වන්න",
+  "categorySlot15": "සන්ධ්‍යා ධික්ර්",
+  "categoryCustom": "පෞද්ගලික මෙනෙහි කිරීම",
+  "dhikrMeaningSubhanallah": "අල්ලාහ්ට මහීමය වේවා",
+  "dhikrMeaningAlhamdulillah": "සියලු ප්‍රශංසා අල්ලාහ්ටය",
+  "dhikrMeaningAllahuAkbar": "අල්ලාහ් ඉතාමත් ශ්‍රේෂ්ඨය",
+  "quranVerseHeartAtRest": "නියතයෙන්ම, අල්ලාහ්ව සිහි කිරීම තුළ හදවත් සැනසීම ලබයි.",
+  "promptHint": "ඉස්ලාමීය මගපෙන්වීම සහ මෙනෙහි කිරීම සඳහා කාණ්ඩයක් තට්ටු කරන්න",
+  "currentLanguage": "වත්මන් භාෂාව",
+  "settingsLanguage": "භාෂා සැකසුම්",
+  "settingsTitle": "සැකසුම්",
+  "chooseLanguage": "ඔබගේ භාෂාව තෝරන්න",
   "continueCta": "ඉදිරියට යන්න",
-
-  "promptDailyGuidance": "සුන්නි ඉස්ලාමීය විශ්වාසයට මූල බැස ඇති කෙටි ব්‍යවහාරික දෛනික මාර්ගෝපදේශනයක් ලිපින්න — කුරාණ, හදිස්, සහ නබි මුහම්මද්ගේ ඉteachings්පත්වලින් පිරිසිදු කරන ලදි. සෑම අවස්ථාවකින්ම නව කෝණයක් තෝරන්න: ඉස්ලාමීය ඇතිකතාවලින් ගුණවතාවක්, සුන්නා වලින් සත්‍යතාව, නබි කথිකයි ගෝත්‍රිකයි ශික්ෂණය, හෝ ඉස්ලාමීය ඉතිහාසයේ නිහඩ ප්‍රයත්නයක්. එක් කුරාණ පද (සුරා:ඇයා) සහ දිනම පුරා ගෙන යාමට 1-2 වාක්‍ය ව්‍යංජනයක් ඇතුල් කරන්න. නුතන ඉස්ලාමීය දින දර්ශනයට හෝ වැදගත් දිනකට සම්බන්ධ කිරීම විකල්ප වේ.",
-
-  "promptFaithTrust": "ඉමාන (විශ්වාස) සහ අල්ලාහ්ගේ සැලසුමට විශ්වාස (තවක්කුල්) සම්බන්ධයෙන් කෙටි ඉස්ලාමීය ව්‍යංජනයක් ලිපින්න. එය කුරාණ, නබි මුහම්මදගේ උදාහරණ, සහ සහාබාගේ විශ්වාසයෙන් මූල බැස ඇත. සෑම අවස්ථාවකින්ම තේමා සම්මතයි: අවිශ්වාසිතාවිට අල්ලාහ්ට විශ්වාසය, දිවි ඥාණයට බැඳීම, අසීමවල ඉවසීම, හෝ එදිනෙදා ජීවිතයෙහි නිහඩ දෘඪතාව. එක් කුරාණ පද සහ ඉස්ලාමීය අධ්‍යාත්මික ශික්ෂණයෙන් ලබන එක්තරා ඍජු පদක්ෂේපයක් ඇතුල් කරන්න.",
-
-  "promptPrayerReflection": "සලා, දුඅ, හෝ ධිකරට මූල බැස ඇති කෙටි ඉස්ලාමීය ඉමාමි ව්‍යංජනයක් ලිපින්න. සෑම ස්වරූපයකින්ම: උදෑසන හෝ සන්ධ්‍යා ස්මරණය (අධිකර්), පञ්චසලා ව්‍යංජනය, කුරාණික පදයක් ගිණිකිරීම, හෝ කඩිමුඩි ප්‍රාර්ථනාවක්. එක් කුරාණ පද සහ කෙටිමයින් භාවිතා කරන ඉමාමි ස්වරූපයට නම් කරන්න.",
-
-  "promptHopeDifficultTimes": "කරුණු (සබර්) සහ අසීමවලදී ප්‍රේමය පිළිබඳ ඉස්ලාමීය ව්‍යංජනයක් ලිපින්න. පරීක්ෂණ ගැන කුරාණික ඉතිකතා, පනත්කරුවරු සම්මතයි දෘඪතාවය, සහ අසීමවල අල්ලාහ්ගේ දයාවෙන් ඇද ගන්න. සෑම කෝණයකින්ම විවිධතාවයි. එක් කුරාණ පද සහ ඉස්ලාමීය ඉතිහාසයෙන් එක් නිරත්තිවාදක දර්ශකයක් ඇතුල් කරන්න.",
-
-  "promptForgiveness": "සමාව (තවබා) සහ අල්ලාහ්ගේ දයාව පිළිබඳ ඔස්තරුවක ඉස්ලාමීය ව්‍යංජනයක් ලිපින්න. තවබා පිළිබඳ කුරාණික ඉතිකතා, අල්ලාහ්ගේ අනුකම්පනය, සහ නබි මුහම්මදගේ සමාවිදානයෙන් ඇද ගන්න. තේමා පරිවර්තනය: අල්ලාහ්ට ආපසු යාම, අනෙකුත් පිරිසිදු කිරීම, සම්බන්ධතා සුවකර කිරීම, හෝ දෝෂවලින් පසු අල්ලාහ්ගේ දයාවට විශ්වාසය. එක් කුරාණ පද සහ එක් කෙටි පදක්ෂේපයක් ඇතුල් කරන්න.",
-
-  "promptLoveCompassion": "එදිනෙදා ජීවිතයෙහි දයාව (රහමා) සහ අනුකම්පනය පිළිබඳ කෙටි ඉස්ලාමීය ව්‍යංජනයක් ලිපින්න. නබි මුහම්මදගේ උදාහරණ, ඉහසාන (උතුරුවම) සංකල්පය, සහ පවුල, ඉරණම්, සහ අතුරකුරු ඇතුළු පිරිසිදු කිරීමට ඉස්ලාමීය ඉතිකතාවලින් ඇද ගන්න. එක් කුරාණ පද සහ අද ගිණිකිරීමට එක් කුඩා අනුකම්පනයෙහි පදක්ෂේපයක් ඇතුල් කරන්න.",
-
-  "promptStrengthCourage": "විශ්වාසයෙහි ශක්තිය සහ ධෛර්යය පිළිබඳ ඉස්ලාමීය ව්‍යංජනයක් ලිපින්න. පනත්කරුවරුගේ උදාහරණ, මුස්ලිම් ප්‍රাරම්භ ඉතිසාස, සහ අසීම සම්මතයි දృඪ විශ්වාසයෙන්ගිණුණු සිතුවෙකුගෙන් ඇද ගන්න. තේමා විවිධතාවයි: විශ්වාසයෙහි ධෛර්යය, ඉමාමි වල ශක්තිය, භීතියෙහි අල්ලාහ්ට විශ්වාසය, හෝ අසීමවල දෘඪතාවය. එක් කුරාණ පද සහ කෙටි දුඅ හෝ ස්මරණයෙහි ස්ටිකයක් ඇතුල් කරන්න.",
-
-  "promptGratitude": "අල්ලාහ්ට දක්ෂතාවයි (ශුකර්) පිළිබඳ ඉස්ලාමීය ව්‍යංජනයක් ලිපින්න. එය කුරාණික ඉතිකතා සහ නබීමය ඉතිහාසයෙන් මූල බැස ඇත. කෝණයි වෙනසි කරන්න: අසීමවල දක්ෂතාවයි, කුඩා ගැතෙමි පිළිගැනීම, අල්ලාහ්ගේ පරිශ්‍රයට දිනුම පටන්කිරීම, හෝ එදිනෙදා ජීවිතයෙහි අල්ලාහ්ගේ මාර්ගෝපදේශනය හඳුනා ගැනීම. එක් කුරාණ පද සහ එක් දක්ෂතාවයි ප්‍රයත්නයක් ඇතුල් කරන්න.",
-
-  "promptPurposeCalling": "අල්ලාහ්ට උපාසනාවලින් ජීවිතයේ අරමුණු සහ ඍජුවලින් ජීවිතයි ගැන ඉස්ලාමීය ව්‍යංජනයක් ලිපින්න. අරමුණු පිළිබඳ කුරාණික ඉතිකතා, අනෙකුත් සේවා කිරීම, සහ යහපත් සඳහා තම දේවල භාවිතයෙන් ඇද ගන්න. තේමා විවිධතාවයි: පවුල සහ ප්‍රජා සේවා කිරීම, ඉස්තිඛාර මගින් මාර්ගෝපදේශනය සොයා ගැනීම, ඉතිලාෆ් සහිතවලින් ජීවිතයි, හෝ සාධාරණ ක්‍රියාකිරීමෙහි අරමුණු සොයා ගැනීම. එක් කුරාණ පද සහ දෙකක් ගිණිකිරීම ප්‍රශ්‍නයක් ඇතුල් කරන්න.",
-
-  "promptFamilyRelationships": "කුරාණික ඉතිකතා සහ නබි මුහම්මදගේ උදාහරණයෙන් මූල බැස ඇති සෙයින් සිටුවන පවුල සහ සම්බන්ධතා පිළිබඳ ඔස්තරුවක ඉස්ලාමීය මාර්ගෝපදේශනයක් ලිපින්න. තේමා සෙවන්න: පවුල ජීවිතයෙහි කරුණාව, ගැටිටිවලින් ඉවසීම, අම්මාතාස බර කිරීම, විශ්වාසයෙහි පුතුරුවරු සඳහා ගිණුණු පිරිපිටුවලින්, හෝ විවාහ ශක්තිමත් කිරීම. එක් කුරාණ පද සහ එක් සම්බන්ධතා ප්‍රයත්නයක් ඇතුල් කරන්න.",
-
-  "promptPeaceAnxietyRelief": "අල්ලාහ්ගේ ස්මරණයෙන් (ධිකර්) සහ ඔහුගේ සැලසුමට විශ්වාසයෙන් අභ්‍යන්තර සාමය සොයා ගැනීම පිළිබඳ සන්සුවන ඉස්ලාමීය ව්‍යංජනයක් ලිපින්න. කුරාණික ඉතිකතා, ඉමාමි, සහ අල්ලාහ්ගේ දිවි අල්ලාගැනීම සම්බන්ධයෙන් ඇද ගන්න. සෑම අවස්ථාවකින්ම ක්‍රමය සම්මතයි සහ එක් කුරාණ පද සහ ඉස්ලාමීය ඉතිහාසයෙන් එක් සරල පිහිටුමු ප්‍රයත්නයක් ඇතුල් කරන්න.",
-
-  "promptWisdomOfJesus": "ඉස්ලාමයි පිළිබඳ පනත්කරුවරුගේ ශික්ෂණයෙන් ශිල්පයෙහි කුඩා කෙනෙකු ලිපින්න. කුරාණ හෝ හදිස්වලින් ඇද ගන්න සහ ඉස්ලාමීය විද්වතුවරු ශිල්ප දර්ශනයි පැහැදුණු ආකාරයෙහි කෙටිමයින් පැහැදිලි කරන්න. ස්ථිරතාවයි වෙනස් කරන්න: චරිතය, ඉවසීම, නිම්නතාවය, විශ්වාසය, හෝ එදිනෙදා හැසිරවීම. කුරාණික පද හෝ හදිස් හුවමාරුවක් සහ එක් ගිණිකිරීමෙහි භාවිතයක් ඇතුල් කරන්න.",
-
-  "promptHumilityCharacter": "නිම්නතාවය (තවධු) සහ යහ චරිතය (අඛලාක්) පිළිබඳ ඉස්ලාමීය ව්‍යංජනයක් ලිපින්න. කුරාණික ඉතිකතා, නබි මුහම්මදගේ උදාහරණ, සහ ඉස්ලාමීය චරිතය සවිධාන ඉතිහාසයෙන් ඇද ගන්න. තේමා පරිවර්තනය කරන්න: නෙතෘත්වයෙහි නිම්නතාවය, දෝෂ පිළිගැනීම, අනෙකුත් ගෞරවයෙන් සැලකීම, හෝ ස්ව-ගිණිකිරීමෙන් අධ්‍යාත්මිකව වැඩිවීම. එක් කුරාණ පද සහ එක් ගිණිකිරීම ඉතිහාසයක් ඇතුල් කරන්න.",
-
-  "promptOvercomingTemptation": "සිත්ගිනි පිළිබඳ එක් කෙටි දිවි ඉස්ලාමීය ව්‍යංජනයක් සහ ඍජු මාර්ගයි ඒ ගැන ලිපින්න. කුරාණික මාර්ගෝපදේශන, අල්ලාහ්ගේ ස්මරණයි (ධිකර්), ඉමාමි (සලා), සහ දෛතින් ගිණිකිරීම් වරණ කරගත් විශ්වාসී උදාහරණ ඇද ගන්න. සෑම කෝණයකින්ම විවිධතාවයි. එක් කුරාණ පද සහ ඉදිරි දිනු 24 ගණනට එක් ගිණිකිරීම වඩුගිණි ඇතුල් කරන්න.",
-
-  "promptEveningReflection": "සන්ධ්‍යා ස්මරණයෙහි ඉතිහාසයෙන් (අධිකර් අල්-මසා'ා) මූල බැස ඇති සන්සුවන ඉස්ලාමීය සන්ධ්‍යා ව්‍යංජනයක් ලිපින්න. කෘතඥතාවය, ස්ව-ගිණිකිරීම (මුහසබා), සහ විවෙකට අල්ලාහ්ට විශ්වාසය ඇඟවීම. 3-5 කිරීමට දිනම්, සුකුමාරු විසර්ජන දුඅ, සහ එක් කුරාණ පද ඇතුල් කරන්න.",
-
-  "wordCount": "{count, plural, one {{count} ඉවුර} other {{count} ඉවුරු}}",
-
-  "optionsCta": "විකල්පයි",
+  "wordCount": "{count, plural, one {{count} වචනය} other {{count} වචන}}",
+  "optionsCta": "විකල්ප",
   "newCta": "නව",
-  "actionsTitle": "ඔබ කුමක් කිරීමට කැමැතිද?",
+  "actionsTitle": "ඔබට කුමක් කිරීමට අවශ්‍යද?",
   "copy": "පිටපත් කරන්න",
-  "share": "පිරිසිදු කරන්න",
+  "share": "බෙදාගන්න",
   "close": "වසන්න",
-  "copiedToast": "පසුතැවරුවට පිටපත් කරන ලදි",
-
-  "shareSubject": "Ayara — {category}",
+  "copiedToast": "ක්ලිප්බෝඩ් වෙත පිටපත් කරන ලදී",
+  "shareSubject": "අයාරා — {category}",
   "@shareSubject": {
-    "description": "ඊමේල් / පිරිසිදු සිරස්තලය කාණ්ඩ ලේබල් ඇතුළුවලින්.",
+    "description": "කාණ්ඩ නාමය ඇතුළත් ඊමේල් / බෙදාගැනීමේ ශීර්ෂය.",
     "placeholders": {
-      "category": { "type": "String", "example": "දෛනික මාර්ගෝපදේශන" }
+      "category": {
+        "type": "String",
+        "example": "දෛනික මගපෙන්වීම"
+      }
     }
   },
-
-  "regenerateErrorTitle": "නව ප්‍රතිඵල ඉඩක්ෂේපයට අසමත්ව",
-  "regenerateErrorBody": "{error}\n\nඔබ නැවත උත්සාහ කිරීමට කැමැතිද?",
+  "regenerateErrorTitle": "නව පිළිතුරක් ජනනය කළ නොහැකි විය",
+  "regenerateErrorBody": "{error}\n\nනැවත උත්සාහ කිරීමට ඔබට අවශ්‍යද?",
   "@regenerateErrorBody": {
-    "description": "AI පිළිතුර නැවත ඉඩක්ෂේපයට අසමත් විට පෙන්වයි.",
+    "description": "AI පිළිතුරක් නැවත ජනනය කිරීම අසාර්ථක වූ විට පෙන්වයි.",
     "placeholders": {
-      "error": { "type": "String", "example": "ජාල දෝෂයි" }
+      "error": {
+        "type": "String",
+        "example": "ජාල දෝෂය"
+      }
     }
   },
-
   "cancelCta": "අවලංගු කරන්න",
   "retryCta": "නැවත උත්සාහ කරන්න",
-
-  "authTitle": "ඔබේ ගිණුම තැනන්න",
-  "continueAsGuest": "ඉමුණු ලෙස ඉදිරියට යන්න",
-  "signInGoogle": "Google සමඟ ප්‍රවේශ වන්න",
-  "signInApple": "Apple සමඟ ප්‍රවේශ වන්න",
-  "signInEmail": "ඊමේල් සමඟ ප්‍රවේශ වන්න",
+  "authTitle": "ඔබගේ ගිණුම සාදන්න",
+  "continueAsGuest": "අමුත්තෙකු ලෙස ඉදිරියට යන්න",
+  "signInGoogle": "Google සමඟ පිවිසෙන්න",
+  "signInApple": "Apple සමඟ පිවිසෙන්න",
+  "signInEmail": "ඊමේල් සමඟ පිවිසෙන්න",
   "upgradeWithApple": "Apple සමඟ ඉදිරියට යන්න",
-  "mustAccept": "ඔබ අත්‍යවශ්‍ය වලට පිළිගැනීම හෝ නිවේදන ප්‍රතිපත්තිය පිළිගැනීම යුතු යි.",
-  "termsLabel": "ඉමුණු අත්‍යවශ්‍ය පිළිගනිමි",
-  "privacyLabel": "නිවේදන ප්‍රතිපත්තිය කිව්ව ඇත",
-  "marketingOptIn": "ඉවුර සහ පිරිසිදුවලින් ඉවුර දැක්කේ සහතික කිරීමට එකඟ වෙමි",
-  "openTerms": "අත්‍යවශ්‍ය",
-  "openPrivacy": "නිවේදන ප්‍රතිපත්තිය",
-
+  "mustAccept": "ඔබ සේවා කොන්දේසි පිළිගෙන, රහස්‍යතා ප්‍රතිපත්තිය පිළිබඳ දැනුවත් විය යුතුය.",
+  "termsLabel": "මම සේවා කොන්දේසි පිළිගනිමි",
+  "privacyLabel": "මම රහස්‍යතා ප්‍රතිපත්තිය කියවා ඇත",
+  "marketingOptIn": "පුවත් සහ දීමනා ලැබීමට මම එකඟ වෙමි",
+  "openTerms": "සේවා කොන්දේසි",
+  "openPrivacy": "රහස්‍යතා ප්‍රතිපත්තිය",
   "accountSection": "ගිණුම",
-  "guestMode": "ඉමුණු කාරණයි",
-  "signedIn": "ප්‍රවේශ වීම",
-  "upgradeHint": "ගිණුම තැනා යන්න ඔබේ ව්‍යංජනයි උපකරණ පුරා සුරකින්න.",
+  "guestMode": "අමුත්තන්ගේ ආකාරය",
+  "signedIn": "පිවිසී ඇත",
+  "upgradeHint": "ගිණුමක් සාදා ඔබගේ මෙනෙහි කිරීම් උපාංග අතර සුරකින්න.",
   "upgradeWithGoogle": "Google සමඟ ඉදිරියට යන්න",
-  "signOut": "ප්‍රවේශ නොවන්න",
-
-  "snackUpgraded": "Google සමඟ ගිණුම වැඩිවිය✅",
-  "snackSignedIn": "Google සමඟ ප්‍රවේශ කර✅",
-  "snackSignedOut": "ප්‍රවේශ නොවිණි",
-  "snackSignedInApple": "Apple සමඟ ප්‍රවේශ කර✅",
-  "snackSignedInGoogle": "Google සමඟ ප්‍රවේශ කර✅",
-  "snackUpgradedApple": "Apple සමඟ ගිණුම වැඩිවිය✅",
-  "snackUpgradedGoogle": "Google සමඟ ගිණුම වැඩිවිය✅",
-
-  "historyTitle": "පෙර ව්‍යංජනයි",
-  "historyOpenCta": "පෙර ව්‍යංජනයි",
-  "historyEmpty": "තවම සුරකින ලද ව්‍යංජනයි නැත.",
-  "historyDeleteTitle": "ව්‍යංජනයි මැකීමයි?",
-  "historyDeleteBody": "මෙය තෝරාගත් අයිතම ස්ථිරවලින් ඉවත් කරනු ඇත.",
-  "deleteCta": "මැකීමයි",
-
-  "historyButton": "පෙර ව්‍යංජනයි",
-  "historyEmptyTitle": "තවම ව්‍යංජනයි නැත",
-  "historyEmptyBody": "පළමුවෙන්ම දෙයක් ඉඩක්ෂේපයි කරන්න — ඔබේ සුරකින ලද අයිතම මෙතැන දිස්ටු වනු ඇත.",
-  "historyDelete": "මැකීමයි",
-
-  "footerTitle": "ඉමාන, සබර් සහ රහමා සමඟ.",
-  "footerSubtitle": "එක් පටුවේ එක සময়ට.",
-  "genericErrorSnack": "අන්තර්ගතයි වරදී ගිය — කරුණාකර මොහොතකින් නැවත උත්සාහ කරන්න.",
-
-  "upgradeAccountCta": "උපකරණ පුරා ඔබේ ව්‍යංජනයි සුරකින්න – ගිණුම තැනන්න",
-  "deleteAccount": "ගිණුම මැකීමයි",
-  "exportData": "ඉතා දත්ත පිටතට නිර්යාත කරන්න",
-
+  "signOut": "ඉවත්වන්න",
+  "snackUpgraded": "Google සමඟ ගිණුම උසස් කර ඇත ✅",
+  "snackSignedIn": "Google සමඟ පිවිසී ඇත ✅",
+  "snackSignedOut": "ඉවත් වී ඇත",
+  "snackSignedInApple": "Apple සමඟ පිවිසී ඇත ✅",
+  "snackSignedInGoogle": "Google සමඟ පිවිසී ඇත ✅",
+  "snackUpgradedApple": "Apple සමඟ ගිණුම උසස් කර ඇත ✅",
+  "snackUpgradedGoogle": "Google සමඟ ගිණුම උසස් කර ඇත ✅",
+  "historyTitle": "පෙර මෙනෙහි කිරීම්",
+  "historyOpenCta": "පෙර මෙනෙහි කිරීම්",
+  "historyEmpty": "තවම සුරකින ලද මෙනෙහි කිරීම් නැත.",
+  "historyDeleteTitle": "මෙනෙහි කිරීම මකා දමන්නද?",
+  "historyDeleteBody": "මෙය තෝරාගත් අයිතමය ස්ථිරවම ඉවත් කරයි.",
+  "deleteCta": "මකන්න",
+  "historyButton": "පෙර මෙනෙහි කිරීම්",
+  "historyEmptyTitle": "තවම මෙනෙහි කිරීම් නැත",
+  "historyEmptyBody": "මුලින්ම යමක් සාදන්න — ඔබ සුරකින අයිතම මෙහි දිස්වනු ඇත.",
+  "historyDelete": "මකන්න",
+  "footerTitle": "Wilaya, Iman සහ Sabr සමඟ",
+  "footerSubtitle": "වරකට එක් ප්‍රාර්ථනාවක්",
+  "genericErrorSnack": "යමක් වැරදුණි — කරුණාකර මඳ වේලාවකින් නැවත උත්සාහ කරන්න.",
+  "upgradeAccountCta": "ඔබගේ මෙනෙහි කිරීම් උපාංග අතර සුරකින්න – ගිණුමක් සාදන්න",
+  "deleteAccount": "ගිණුම මකා දමන්න",
+  "exportData": "මගේ දත්ත අපනයනය කරන්න",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Firebase UID අභ්‍යන්තර දර්ශනයට ඉස්තරතැවරුවට ස්තරයි.",
+    "description": "අභ්‍යන්තර Firebase UID පෙන්වීමට පෙර ලේබලය.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "පහසු වලාකුඩු 🐯\nAI ඉදිරි එක ට ටිකක් කාලයක් අවශ්‍ය...",
-  "rateDailyLimit": "ඔබ දැන් ව්‍යංජනයි ඉවත් වී ඇත.\nවැඩි ව්‍යංජනයි ඉඳුවා හෝ බරකා වෙත වැඩිවිතුර.",
-  "rateCreditsExhausted": "ඔබ ඔබේ සියලු ව්‍යංජනයි භාවිතා කර ඇත.\nවැඩිවිතුර හෝ බරකා වෙත වැඩිවිතුර ඉදිරියට යාමට.",
-  "rateGraceReflectionsExhausted": "ඔබ දැන් ව්‍යංජනයි ඉවත් වී ඇත.\nවැඩි ව්‍යංජනයි ඉඳුවා හෝ බරකා වෙත වැඩිවිතුර.",
-  "rateReflectionsExhausted": "ඔබ ඔබේ සියලු ව්‍යංජනයි භාවිතා කර ඇත.\nවැඩිවිතුර හෝ බරකා වෙත වැඩිවිතුර ඉදිරියට යාමට.",
-
-  "blessedDescription": "බරකා අතිරේක විශේෂ වලංගු කිරීම, අනාගත කාණ්ඩයි, සහ විශේෂ පඩිக ඇතුළු කරයි.",
-  "championDescription": "බරකා අතිරේක විශේෂ වලංගු කිරීම, අනාගත කාණ්ඩයි, සහ විශේෂ පඩික ඇතුළු කරයි.",
-
-  "ratePlanExhausted": "ඔබේ ව්‍යංජනයි දැන් ඉවත් වී ඇත. සැලසුම: {plan}.",
+  "rateLocalThrottle": "පොඩ්ඩක් ඉවසන්න 🐯\nඅයාරාට ඊළඟ එකට පෙර ටික වේලාවක් අවශ්‍යයි…",
+  "rateDailyLimit": "දැනට ඔබගේ මෙනෙහි කිරීම් අවසන් වී ඇත.\nතවත් මෙනෙහි කිරීම් ලබාගන්න හෝ Wilaya වෙත උසස් වන්න.",
+  "rateCreditsExhausted": "ඔබගේ සියලුම මෙනෙහි කිරීම් භාවිතා කර ඇත.\nඉදිරියට යාමට නැවත පුරවන්න හෝ Wilaya වෙත උසස් වන්න.",
+  "rateGraceCreditsExhausted": "දැනට ඔබගේ මෙනෙහි කිරීම් අවසන් වී ඇත.\nතවත් මෙනෙහි කිරීම් ලබාගන්න හෝ Wilaya වෙත උසස් වන්න.",
+  "premiumDescription": "Wilaya ප්‍රිමියම් විශේෂාංග, ඉදිරියේදී එන කාණ්ඩ සහ විශේෂ ලාංඡනයක් විවෘත කරයි.",
+  "ratePlanExhausted": "දැනට ඔබගේ මෙනෙහි කිරීම් අවසන් වී ඇත. සැලැස්ම: {plan}.",
   "@ratePlanExhausted": {
-    "description": "ඔබේ ව්‍යංජනයි ඉවත් වීමි එහෙත් හේතුව සාමාන්‍යවලින් පෙන්වයි.",
+    "description": "පරිශීලකයාගේ මෙනෙහි කිරීම් අවසන් වූ විට, නමුත් හේතුව සාමාන්‍ය වූ විට පෙන්වයි.",
     "placeholders": {
-      "plan": { "type": "String", "example": "ප්‍රමාණිත හෝ බරකා" }
+      "plan": {
+        "type": "String",
+        "example": "සම්මත හෝ Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "ඔබේ ව්‍යංජනයි සෝධනයට අසමත්: {message}",
+  "rateCheckFailed": "ඔබගේ මෙනෙහි කිරීම් පරීක්ෂා කළ නොහැකි විය: {message}",
   "@rateCheckFailed": {
-    "description": "පැමිණිම ශ්‍රිතයෙන් දෝෂ පණිවිඩයි ගැලපුවයි.",
+    "description": "Callable function එකක් දෝෂ පණිවිඩයක් ලබා දුන්න විට පෙන්වයි.",
     "placeholders": {
-      "message": { "type": "String", "example": "ජාල දෝෂයි" }
+      "message": {
+        "type": "String",
+        "example": "ජාල දෝෂය"
+      }
     }
   },
-
-  "rateCheckGenericError": "ඔබේ ව්‍යංජනයි සෝධනයෙහි දෝෂයි සිදුවිය.",
-  "aiFallbackGeneric": "අන්තර්ගතයි වරදී ගිය — කරුණාකර මොහොතකින් නැවත උත්සාහ කරන්න.",
-
-  "limitSectionTitle": "ව්‍යංජනයි",
-  "limitTodayLabel": "භාවිතයි",
-  "limitCreditsLabel": "ඉතිරි ව්‍යංජනයි: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "සැලසුම: {plan}",
+  "rateCheckGenericError": "ඔබගේ මෙනෙහි කිරීම් පරීක්ෂා කිරීමේදී යමක් වැරදුණි.",
+  "aiFallbackGeneric": "යමක් වැරදුණි — කරුණාකර මඳ වේලාවකින් නැවත උත්සාහ කරන්න.",
+  "limitSectionTitle": "මෙනෙහි කිරීම්",
+  "limitTodayLabel": "භාවිතය",
+  "limitCreditsLabel": "ඉතිරි මෙනෙහි කිරීම්: {credits}",
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
+  "limitPlanLabel": "සැලැස්ම: {plan}",
   "@limitPlanLabel": {
-    "description": "වර්තමාන ඊතල සැලසුම නම දකවයි.",
+    "description": "වත්මන් දායකත්ව සැලැස්මේ නම පෙන්වයි.",
     "placeholders": {
-      "plan": { "type": "String", "example": "ප්‍රමාණිත හෝ බරකා" }
+      "plan": {
+        "type": "String",
+        "example": "සම්මත හෝ Wilaya"
+      }
     }
   },
-  "limitLoadingLabel": "පූරණයි...",
-  "limitLoadingLabelDescription": "භාවිතයි සංඛ්‍යා අරුුද් කිරීමට ව්‍යංජනයි කාඩයි පෙන්වයි.",
-
-  "aiLimitTitle": "ව්‍යංජනයි",
-  "aiLimitSubtitle": "සෑම ප්‍රතිඵලයි 1 ව්‍යංජනයි භාවිතයි. ප්‍රමාණිත ස්ටාර්ටර් ව්‍යංජනයි ඇතුළු කරයි. බරකා ඉඩක්ෂේපයට විශේෂ කාණ්ඩයි සහ වැඩිවිතුර සක්ෂම කරයි.",
-  "aiLimitProgressLabel": "{used} / {total} ව්‍යංජනයි භාවිතයි",
+  "limitLoadingLabel": "පූරණය වෙමින්…",
+  "limitLoadingLabelDescription": "භාවිත සංඛ්‍යාලේඛන ලබාගන්නා අතරතුර මෙනෙහි කිරීමේ කාඩ්පතේ පෙන්වයි.",
+  "aiLimitTitle": "මෙනෙහි කිරීම්",
+  "aiLimitSubtitle": "සෑම පිළිතුරක්ම මෙනෙහි කිරීම 1ක් භාවිතා කරයි. Standard තුළ ආරම්භක මෙනෙහි කිරීම් ඇත. Wilaya ප්‍රිමියම් කාණ්ඩ විවෘත කරයි සහ top-up කිරීමට ඉඩ දෙයි.",
+  "aiLimitProgressLabel": "{used} / {total} මෙනෙහි කිරීම් භාවිතා කර ඇත",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "ව්‍යංජනයි",
-  "reflectionsUsageLabel": "භාවිතයි",
-  "reflectionsRemainingLabel": "ඉතිරි ව්‍යංජනයි: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "සැලසුම: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "වර්තමාන සැලසුම නම දකවයි.",
+  "creditsSectionTitle": "මෙනෙහි කිරීම්",
+  "creditsUsageLabel": "භාවිතය",
+  "creditsRemainingLabel": "ඉතිරි මෙනෙහි කිරීම්: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "ප්‍රමාණිත හෝ බරකා" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "පූරණයි...",
-  "reflectionsLoadingLabelDescription": "ව්‍යංජනයි සංඛ්‍යා අරුුද් කිරීමට පෙන්වයි.",
-
-  "reflectionsTitle": "ව්‍යංජනයි",
-  "reflectionsSubtitle": "සෑම ප්‍රතිඵලයි 1 ව්‍යංජනයි භාවිතයි. ප්‍රමාණිත ස්ටාර්ටර් ව්‍යංජනයි ඇතුළු කරයි. බරකා ඉඩක්ෂේපයට විශේෂ කාණ්ඩයි සහ වැඩිවිතුර සක්ෂම කරයි.",
-  "reflectionsProgressLabel": "{used} / {total} ව්‍යංජනයි භාවිතයි",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "සැලැස්ම: {plan}",
+  "@creditsPlanLabel": {
+    "description": "වත්මන් සැලැස්මේ නම පෙන්වයි.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "සම්මත හෝ Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "පූරණය වෙමින්…",
+  "creditsLoadingLabelDescription": "මෙනෙහි කිරීමේ සංඛ්‍යාලේඛන ලබාගන්නා අතරතුර පෙන්වයි.",
+  "creditsTitle": "මෙනෙහි කිරීම්",
+  "creditsSubtitle": "සෑම පිළිතුරක්ම මෙනෙහි කිරීම 1ක් භාවිතා කරයි. Standard තුළ ආරම්භක මෙනෙහි කිරීම් ඇත. Wilaya ප්‍රිමියම් කාණ්ඩ විවෘත කරයි සහ top-up කිරීමට ඉඩ දෙයි.",
+  "creditsProgressLabel": "{used} / {total} මෙනෙහි කිරීම් භාවිතා කර ඇත",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "ගිණුම මැකීමයි",
-  "settingsDeleteDescription": "ඔබේ ගිණුම සහ සියලු සම්බන්ධ දත්ත ස්ථිරවලින් මැකීම.",
-  "settingsDeleteButtonLabel": "ඉතා ගිණුම මැකීම",
-  "settingsDeleteDialogTitle": "ගිණුම මැකීමයි?",
-  "settingsDeleteDialogBody": "මෙම ක්‍රියාවලිය ස්ථිරයි සහ අපෙරිමාණයි.\n\nඔබේ සියලු සංවාද, ඉතිහාසයි සහ ගිණුම තොරතුරු මැකීම ඇත.",
+  "settingsDeleteTitle": "ගිණුම මකා දමන්න",
+  "settingsDeleteDescription": "ඔබගේ ගිණුම සහ සම්බන්ධ සියලු දත්ත ස්ථිරවම මකා දමන්න.",
+  "settingsDeleteButtonLabel": "මගේ ගිණුම මකා දමන්න",
+  "settingsDeleteDialogTitle": "ගිණුම මකා දමන්නද?",
+  "settingsDeleteDialogBody": "මෙම ක්‍රියාව ස්ථිර වන අතර ආපසු හැරවිය නොහැක.\n\nඔබගේ සියලුම සංවාද, ඉතිහාසය සහ ගිණුම් තොරතුරු මකා දමනු ඇත.",
   "settingsDeleteDialogCancel": "අවලංගු කරන්න",
-  "settingsDeleteDialogConfirm": "මැකීමයි",
-
-  "settingsFreeLimitUsedTitle": "ස්ටාර්ටර් ව්‍යංජනයි භාවිතයි",
-  "settingsFreeLimitUsedDescription": "මෙම උපකරණයි ස්ටාර්ටර් ව්‍යංජනයි භාවිතයි කර ඇත. බරකා වෙත වැඩිවිතුර හෝ වැඩි ව්‍යංජනයි ඉඳුවා ඉදිරියට යාමට.",
-
-  "settingsStarterReflectionsUsedTitle": "ස්ටාර්ටර් ව්‍යංජනයි භාවිතයි",
-  "settingsStarterReflectionsUsedDescription": "මෙම උපකරණයි ස්ටාර්ටර් ව්‍යංජනයි භාවිතයි කර ඇත. බරකා වෙත වැඩිවිතුර හෝ වැඩි ව්‍යංජනයි ඉඳුවා ඉදිරියට යාමට.",
-
-  "deviceBoundError": "මෙම උපකරණයි දැනටමත් එක් ඩිවයිස් ගිණුමට සම්බන්ධ කර ඇත. කරුණාකර මුල් ගිණුමෙන් ප්‍රවේශ වන්න.",
-
-  "premiumTitle": "බරකා ප්‍රකාරයි",
-  "premiumSubtitleBasic": "සම්පූර්ණ Ayara අත්භාවයි ඇතුළු කරන්න.",
-  "premiumSubtitleChampion": "ඔබ බරකා කර ඇත. වැඩි ව්‍යංජනයි අවශ්‍යද?",
-
-  "premiumCurrentPlan": "වර්තමාන සැලසුම: {plan}",
-  "premiumCreditsStatus": "ව්‍යංජනයි: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "ගිණුම දැන් ඉබ්බඩු නොවේ.",
-  "premiumSignInToPurchase": "ව්‍යංජනයි ඉඳුවා හෝ බරකා ඇතුළු කිරීමට ප්‍රවේශ වන්න.",
-
-  "premiumRestorePurchases": "ගිණුම ප්‍රතිසාධන කරන්න",
-  "premiumProcessing": "සකස් කිරීම...",
-  "premiumRestoreHintTitle": "දැනටමත් මෙම උපකරණයි හෝ එක උපකරණයි බරකා හෝ ව්‍යංජනයි ඉඳුවා ඇතද?",
-  "premiumRestoreHintBody": "ඉඳුවා දිස්ටු නොවිට ඔබේ ගිණුම ප්‍රතිසාධන කරන්න.",
-
-  "premiumBuyCredits200": "200 ව්‍යංජනයි ඉඳුවා",
-  "premiumBuyCredits400": "400 ව්‍යංජනයි ඉඳුවා",
-  "premiumBecomeChampionOneTime": "බරකා ප්‍රකාරයි වෙත වැඩිවිතුර",
-  "premiumChampionHint": "බරකා ලෙස, ඔබ අවශ්‍ය ඕනෑම සময় අතිරේක ව්‍යංජනයි වැඩිවිතුර කළ හැක.",
-
-  "premiumUpgradeCta": "වැඩිවිතුර",
-  "premiumRequiredForCategory": "මෙම කාණ්ඩයි බරකා අයට පමණයි. සර්ව ප්‍රිමියම අන්තර්ගතයි ඇතුළු කිරීමට සැකසීම්වල වැඩිවිතුර.",
-  "premiumBenefitsBasic": "බරකා ඇතුළු කිරීම ගිණුම වැඩිවිතුර, ප්‍රිමියම කාණ්ඩයි ඉඳුවා, සහ කිසිදා ඉදිරියට යාමට.",
-  "premiumBenefitsChampion": "ඔබ බරකා ප්‍රකාරයි තුල වේ. ඔබ කුඩා නම්, අතිරේක ව්‍යංජනයි එකතු කරන්න සහ බාධා නොවීම ඉදිරියට යන්න.",
-  "premiumButtonBecomeChampion": "බරකා ඇතුළු කරන්න",
-  "premiumButtonTopup1000": "1000 ව්‍යංජනයි එකතු කරන්න",
-  "premiumChampionBadge": "බරකා ක්‍රියාකරයි",
-  "premiumLoadingStore": "ගබඩාව පූරණයි...",
-
-  "blessedTitle": "බරකා ප්‍රකාරයි",
-  "blessedSubtitleGrace": "සම්පූර්ණ Ayara අත්භාවයි ඇතුළු කරන්න.",
-  "blessedSubtitleBlessed": "ඔබ බරකා කර ඇත. වැඩි ව්‍යංජනයි අවශ්‍යද?",
-
-  "blessedCurrentPlan": "වර්තමාන සැලසුම: {plan}",
-  "blessedReflectionsStatus": "ව්‍යංජනයි: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "ගිණුම දැන් ඉබ්බඩු නොවේ.",
-  "blessedProductNotAvailable": "මෙම ප්‍රවාහ ගබඩාවි දැනටමත් ඉබ්බඩු නොවේ. කරුණාකර පසුවට උත්සාහ කරන්න.",
-  "blessedPurchaseError": "ගිණුම සිත්ඩු දෝෂයි සිදුවිය. කරුණාකර නැවත උත්සාහ කරන්න.",
-  "blessedSignInToPurchase": "ව්‍යංජනයි ඉඳුවා හෝ බරකා ඇතුළු කිරීමට ප්‍රවේශ වන්න.",
-
-  "blessedRestorePurchases": "ගිණුම ප්‍රතිසාධන කරන්න",
-  "blessedProcessing": "සකස් කිරීම...",
-  "blessedRestoreHintTitle": "දැනටමත් මෙම උපකරණයි හෝ එක උපකරණයි බරකා හෝ ව්‍යංජනයි ඉඳුවා ඇතද?",
-  "blessedRestoreHintBody": "ඉඳුවා දිස්ටු නොවිට ඔබේ ගිණුම ප්‍රතිසාධන කරන්න.",
-
-  "blessedBuyReflections100": "100 ව්‍යංජනයි එකතු කරන්න",
-  "blessedBuyReflections200": "200 ව්‍යංජනයි ඉඳුවා",
-  "blessedBuyReflections400": "400 ව්‍යංජනයි ඉඳුවා",
-  "blessedBecomeBlessedOneTime": "බරකා වෙත වැඩිවිතුර",
-  "blessedTopupHint": "බරකා ලෙස, ඔබ අවශ්‍ය ඕනෑම සময් අතිරේක ව්‍යංජනයි වැඩිවිතුර කළ හැක.",
-
-  "blessedUpgradeCta": "වැඩිවිතුර",
-  "blessedRequiredForCategory": "මෙම කාණ්ඩයි බරකා අයට පමණයි. සර්ව ප්‍රිමියම අන්තර්ගතයි ඇතුළු කිරීමට සැකසීම්වල වැඩිවිතුර.",
-  "blessedFeatureLocked": "මෙම විශේෂ බිම ඉබ්බඩු කිරීමට බරකා ඇතුළු කරන්න.",
-  "lockedCategoriesHint": "කිහිපයක් කාණ්ඩයි බරකා සාමාජිකයි සඳහා වෙන්කළ. ඔබේ අරමුණු දිගඉ ඉවරයි ගිණිකිරීමට ඉඳුවා අනාවරණ කරන්න.",
-  "blessedBenefitsGrace": "බරකා ඇතුළු කිරීම ගිණුම වැඩිවිතුර, ප්‍රිමියම කාණ්ඩයි ඉඳුවා, සහ කිසිදා ඉදිරියට යාමට.",
-  "blessedBenefitsBlessed": "ඔබ බරකා ප්‍රකාරයි තුල වේ. ඔබ කුඩා නම්, අතිරේක ව්‍යංජනයි එකතු කරන්න සහ බාධා නොවීම ඉදිරියට යන්න.",
-  "blessedButtonBecomeBlessed": "බරකා ඇතුළු කරන්න",
-  "blessedButtonTopup1000": "1000 ව්‍යංජනයි එකතු කරන්න",
-  "blessedBadge": "බරකා ක්‍රියාකරයි",
-  "blessedLoadingStore": "ගබඩාව පූරණයි...",
-
-  "freePlanBlockedTitle": "ඔබ ඔබේ ස්ටාර්ටර් ව්‍යංජනයි භාවිතා කර ඇත",
-  "freePlanBlockedBody": "ඔබ ස්ටාර්ටර් ව්‍යංජනයි සහ ඔබ සීමාව ඉතා කර ඇත ප්‍රමාණිත සැලසුම තුලින්. ඉදිරියට යාමට — සහ ප්‍රිමියම කාණ්ඩයි ඇතුළු කිරීමට — බරකා වෙත වැඩිවිතුර.",
-  "freePlanBlockedCtaGoPremium": "පහතින බරකා විකල්පයි බලන්න",
-
-  "graceBlockedTitle": "ඔබ ඔබේ ස්ටාර්ටර් ව්‍යංජනයි භාවිතා කර ඇත",
-  "graceBlockedBody": "ඔබ ස්ටාර්ටර් ව්‍යංජනයි සහ ඔබ සීමාව ඉතා කර ඇත ප්‍රමාණිත සැලසුම තුලින්. ඉදිරියට යාමට — සහ ප්‍රිමියම කාණ්ඩයි ඇතුළු කිරීමට — බරකා වෙත වැඩිවිතුර.",
-  "graceBlockedCtaGoBlessed": "පහතින බරකා විකල්පයි බලන්න",
-
-  "rateGuestMustSignIn": "Ayara භාවිතයි සහ ඔබේ ව්‍යංජනයි ඉදිරියට යාමට ප්‍රවේශ වන්න.",
-
-  "guestNoCreditsTitle": "ඉමුණු කාරණයි",
-  "guestNoCreditsBody": "ඉමුණු ලෙස ඔබ පරිශීලනයි ගිණිකිරීම කළ හැක එහෙත් ව්‍යංජනයි භාවිතයි නොකළ හැක. පසුවට සැකසීම්වල ප්‍රවේශ කිරීමට සිතුවෙකුට ඉඳුවා සහ ගිණුම ඇතුළු කරන්න.",
-
-  "guestNoReflectionsTitle": "ඉමුණු කාරණයි",
-  "guestNoReflectionsBody": "ඉමුණු ලෙස ඔබ පරිශීලනයි ගිණිකිරීම කළ හැක එහෙත් ව්‍යංජනයි භාවිතයි නොකළ හැක. පසුවට සැකසීම්වල ප්‍රවේශ කිරීමට සිතුවෙකුට ඉඳුවා සහ ගිණුම ඇතුළු කරන්න.",
-
+  "settingsDeleteDialogConfirm": "මකන්න",
+  "settingsFreeLimitUsedTitle": "ආරම්භක මෙනෙහි කිරීම් භාවිතා කර ඇත",
+  "settingsFreeLimitUsedDescription": "මෙම උපාංගය සඳහා ආරම්භක මෙනෙහි කිරීම් භාවිතා කර ඇත. ඉදිරියට යාමට Wilaya වෙත උසස් වන්න හෝ තවත් මෙනෙහි කිරීම් මිලදී ගන්න.",
+  "settingsStarterCreditsUsedTitle": "ආරම්භක මෙනෙහි කිරීම් භාවිතා කර ඇත",
+  "settingsStarterCreditsUsedDescription": "මෙම උපාංගය සඳහා ආරම්භක මෙනෙහි කිරීම් භාවිතා කර ඇත. ඉදිරියට යාමට Wilaya වෙත උසස් වන්න හෝ තවත් මෙනෙහි කිරීම් මිලදී ගන්න.",
+  "deviceBoundError": "මෙම උපාංගය දැනටමත් වෙනත් ගිණුමකට සම්බන්ධ කර ඇත. කරුණාකර මුල් ගිණුමෙන් පිවිසෙන්න.",
+  "premiumTitle": "Wilaya ආකාරය",
+  "premiumSubtitleBasic": "අයාරාගේ සම්පූර්ණ අත්දැකීම විවෘත කරන්න.",
+  "premiumSubtitlePremium": "ඔබ Wilaya මත සිටී. තවත් මෙනෙහි කිරීම් අවශ්‍යද?",
+  "premiumCurrentPlan": "වත්මන් සැලැස්ම: {plan}",
+  "premiumCreditsStatus": "මෙනෙහි කිරීම්: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "දැනට මිලදී ගැනීම් ලබා ගත නොහැක.",
+  "premiumSignInToPurchase": "මෙනෙහි කිරීම් මිලදී ගැනීමට හෝ Wilaya විවෘත කිරීමට පිවිසෙන්න.",
+  "premiumRestorePurchases": "මිලදී ගැනීම් ප්‍රතිෂ්ඨාපනය කරන්න",
+  "premiumProcessing": "සැකසෙමින්…",
+  "premiumRestoreHintTitle": "මෙම උපාංගයේ හෝ වෙනත් එකක දැනටමත් Wilaya හෝ මෙනෙහි කිරීම් මිලදී ගෙන තිබේද?",
+  "premiumRestoreHintBody": "ඒවා නොපෙනේ නම් ඔබගේ මිලදී ගැනීම් ප්‍රතිෂ්ඨාපනය කරන්න.",
+  "premiumBuyCredits200": "මෙනෙහි කිරීම් 200ක් මිලදී ගන්න",
+  "premiumBuyCredits400": "මෙනෙහි කිරීම් 400ක් මිලදී ගන්න",
+  "premiumBecomePremiumOneTime": "Wilaya ආකාරයට උසස් වන්න",
+  "premiumTopupHint": "Wilaya සමඟ, ඔබට අවශ්‍ය විට අමතර මෙනෙහි කිරීම් top-up කළ හැක.",
+  "premiumUpgradeCta": "උසස් කරන්න",
+  "premiumRequiredForCategory": "මෙම කාණ්ඩය ලබා ගත හැක්කේ Wilaya භාවිතා කරන්නන්ට පමණි. සියලු ප්‍රිමියම් අන්තර්ගතය විවෘත කිරීමට සැකසුම් තුළදී උසස් වන්න.",
+  "premiumBenefitsBasic": "අමතර මෙනෙහි කිරීම්, ප්‍රිමියම් කාණ්ඩ සහ ඔබට මගපෙන්වීම අවශ්‍ය විට නතර නොවී ඉදිරියට යාම සඳහා Wilaya විවෘත කරන්න.",
+  "premiumBenefitsPremium": "ඔබ Wilaya ආකාරයේ සිටී. අඩුවෙමින් පවතී නම්, තවත් මෙනෙහි කිරීම් එකතු කර විරාමයකින් තොරව ඉදිරියට යන්න.",
+  "premiumButtonBecomePremium": "Wilaya විවෘත කරන්න",
+  "premiumButtonTopup1000": "මෙනෙහි කිරීම් 1000ක් එක් කරන්න",
+  "premiumBadge": "Wilaya සක්‍රීයයි",
+  "premiumLoadingStore": "ගබඩාව පූරණය වෙමින්…",
+  "premiumProductNotAvailable": "මෙම නිෂ්පාදනය තවම ගබඩාවේ නොමැත. කරුණාකර පසුව නැවත උත්සාහ කරන්න.",
+  "premiumPurchaseError": "මිලදී ගැනීමේදී යමක් වැරදුණි. කරුණාකර නැවත උත්සාහ කරන්න.",
+  "premiumBuyCredits100": "මෙනෙහි කිරීම් 100ක් එක් කරන්න",
+  "premiumFeatureLocked": "මෙම විශේෂාංගය භාවිතා කිරීමට Wilaya විවෘත කරන්න.",
+  "lockedCategoriesHint": "සමහර කාණ්ඩ Wilaya සාමාජිකයින් සඳහා පමණක් සුරක්ෂිතයි. ඔබගේ ගමනේ සෑම මෙනෙහි කිරීමක්ම සොයා බැලීමට ඒවා විවෘත කරන්න.",
+  "freePlanBlockedTitle": "ඔබ ඔබගේ ආරම්භක මෙනෙහි කිරීම් භාවිතා කර ඇත",
+  "freePlanBlockedBody": "ඔබ ආරම්භක මෙනෙහි කිරීම් සමඟ Standard සැලැස්මේ සිටී, සහ සීමාවට පැමිණ ඇත. ඉදිරියට යාමට — සහ ප්‍රිමියම් කාණ්ඩ විවෘත කිරීමට — Wilaya වෙත උසස් වන්න.",
+  "freePlanBlockedCtaGoPremium": "පහත ඇති Wilaya විකල්ප බලන්න",
+  "graceBlockedTitle": "ඔබ ඔබගේ ආරම්භක මෙනෙහි කිරීම් භාවිතා කර ඇත",
+  "graceBlockedBody": "ඔබ ආරම්භක මෙනෙහි කිරීම් සමඟ Standard සැලැස්මේ සිටී, සහ සීමාවට පැමිණ ඇත. ඉදිරියට යාමට — සහ ප්‍රිමියම් කාණ්ඩ විවෘත කිරීමට — Wilaya වෙත උසස් වන්න.",
+  "graceBlockedCtaGoPremium": "පහත ඇති Wilaya විකල්ප බලන්න",
+  "rateGuestMustSignIn": "අයාරා සහ ඔබගේ මෙනෙහි කිරීම් භාවිතා කිරීමට පිවිසෙන්න.",
+  "guestNoCreditsTitle": "අමුත්තන්ගේ ආකාරය",
+  "guestNoCreditsBody": "අමුත්තෙකු ලෙස ඔබට යෙදුම විමසිලිමත් විය හැකි නමුත් මෙනෙහි කිරීම් භාවිතා කළ නොහැක. පසුව සැකසුම් තුළදී පිවිසී මෙනෙහි කිරීම් සහ මිලදී ගැනීම් විවෘත කරන්න.",
   "guestDialogContinue": "ඉදිරියට යන්න",
-  "guestDialogLoginInstead": "ඒ වෙනුවට ප්‍රවේශ වන්න",
-
-  "optionalLabel": "විකල්පයි",
-
-  "accountDeleteSuccessTitle": "ගිණුම මැකීම ඇත",
-  "accountDeleteSuccessBody": "ඔබේ ගිණුම සහ සම්බන්ධ දත්ත සාර්ථකවලින් මැකීම ඇත.",
+  "guestDialogLoginInstead": "ඒ වෙනුවට පිවිසෙන්න",
+  "optionalLabel": "විකල්ප",
+  "accountDeleteSuccessTitle": "ගිණුම මකා ඇත",
+  "accountDeleteSuccessBody": "ඔබගේ ගිණුම සහ සම්බන්ධ දත්ත සාර්ථකව මකා දමා ඇත.",
   "accountDeleteSuccessClose": "වසන්න",
-  "accountDeleteErrorTitle": "ගිණුම මැකිය නොහැක",
-  "accountDeleteErrorClose": "OK",
-  "accountDeleteReauthCancelled": "Re-authentication අවලංගු කර ඇත. කරුණාකර නැවත ප්‍රවේශ කිරීම උත්සාහ කරන්න සහ මැකීම පුනිසිතින්න.",
-  "accountDeleteReauthRequired": "ගිණුම මැකීම මෑතකාල ප්‍රවේශයි අවශ්‍ය. කරුණාකර ඉවතුවන්න, නැවත ප්‍රවේශ කිරීම, සහ මැකීම පුනිසිතින්න.",
-  "settingsDeletePermanentWarning": "මෙම ක්‍රියාවලිය ස්ථිරයි සහ අපෙරිමාණයි. ඔබේ ගිණුමට සම්බන්ධ සියලු දත්ත මැකීම ඇත.",
-
-  "dailyGraceTitle": "දෛනික මාර්ගෝපදේශන",
-  "dailyGraceScriptureLabel": "දිනම පද",
-  "dailySaintLabel": "සතිපතක් විද්වතුවරු",
-  "dailyGraceReflectionLabel": "සන්ධ්‍යා ව්‍යංජනයි",
-  "dailyGraceCopiedToast": "පද පසුතැවරුවට පිටපත් කර ඇත",
-
-  "dailyScripture0Text": "ඇතැයි, ඍජුවරුවරු දිවිපිටින සහ ගිණු ගිණුවලින් පිහිටයි, පීඩිකයෙහි ඉතිරි සිටින ඉතිරිතාවයි.",
-  "dailyScripture0Ref": "කුරාණ 54:54-55",
-  "dailyScripture1Text": "සහ අපි ඔබ ගනිමු, O මුහම්මද්, තවා පිරිසිදු දෛවිකයි.",
-  "dailyScripture1Ref": "කුරාණ 21:107",
-  "dailyScripture2Text": "ඇතැයි, අල්ලාහ් ඔහුගේ දාසයි සඳහා ප්‍රමාණිත නොවේ? එහෙත් ඔවුන් ඔබව අනෙකුත් සහිත බයපාන කරයි.",
-  "dailyScripture2Ref": "කුරාණ 39:36",
-  "dailyScripture3Text": "සිටින්න, ඇතැයි ඔබ දෙයක් ඉවසිතු කිරීම සහ එය ඔබට යහපත්ය; සිටින්න, ඇතැයි ඔබ දෙයක් ප්‍රිය කිරීම සහ එය ඔබට නරකයි. සිටින්න, අල්ලාහ් දනිගනිති, සිටින්න ඔබ දනිගනිති නොකිරීම.",
-  "dailyScripture3Ref": "කුරාණ 2:216",
-  "dailyScripture4Text": "ඇතැයි, අල්ලාහ් ඉවසිතු පිරිසිඳ සිටිඳ.",
-  "dailyScripture4Ref": "කුරාණ 2:153",
-  "dailyScripture5Text": "ඉතාවලින් අල්ලාහ්ගේ සිතුවෙකු ස්මරණයි කරන්න; ඉතාවලින් ඔබව ස්මරණයි කරනු එහි. සිටින්න, කෘතඥ ඔබට සිටින්න සහ අස්ගිරුවෙන්න ඔබට සිතින්න ඉතිරි.",
-  "dailyScripture5Ref": "කුරාණ 2:152",
-  "dailyScripture6Text": "ඇතැයි, සඳහා බරපතුරු ඔබට අල්ලාහ්ගේ දෂ්ටි තුලින් සඳහා බරපතුරු ඔබට ඉතිරි තුලින්.",
-  "dailyScripture6Ref": "කුරාණ 49:13",
-  "dailyScripture7Text": "සිටින්න, ඔබේ දර්ශකයි අධිකර් කර ඇතින්න ඔබ උපාසනා නොකරනු එහි තවා පිරිසිදු සිතින්න, සිටින්න ඔබ ගුණවතුරු ඔබේ අම්මාතාස පිරිසිඳ.",
-  "dailyScripture7Ref": "කුරාණ 17:23",
-  "dailyScripture8Text": "ඇතැයි, කිරීම දුෂ්කරතාවයි ඉතිරි ස්වර්ගීයතාවයි.",
-  "dailyScripture8Ref": "කුරාණ 94:6",
-  "dailyScripture9Text": "සිටින්න, ඔහුයි ඔබේ සිතින්නට යතුරු, ඔබ කිරීමේ සිටින්නට. සිටින්න, අල්ලාහ්, ඔබ කිරීමේ සිතිනට පිහිටිවි.",
-  "dailyScripture9Ref": "කුරාණ 57:4",
-  "dailyScripture10Text": "අල්ලාහ් දුෂ්කරතාවයි සිතුවෙකු සිතිනට පිරිතැබිඳු නොකරයි වට.",
-  "dailyScripture10Ref": "කුරාණ 2:286",
-  "dailyScripture11Text": "සිටින්න, එක් දෙයක් අල්ලාහ්ගේ සිතිනට බැඳිඳු — එතුමා ඔහුට ප්‍රමාණිතයි.",
-  "dailyScripture11Ref": "කුරාණ 65:3",
-  "dailyScripture12Text": "ඉතාවලින් රහමා සිතින් න සර්ව දෙයක්.",
-  "dailyScripture12Ref": "කුරාණ 7:156",
-  "dailyScripture13Text": "සිටින්න, මෑතකාල ඉතාවලින් අල්ලාහ්ගේ නිකටයි එක්කයි ඔබ හෝමි ඉතිරි කිරීම — ඇතැයි එතුමා කිරීම. එතුමා ඉතිරි කිරීම එක් දෙයක් ඔබට ඔහු ඉතිරි කිරීමට පිරිතැබිඳු.",
-  "dailyScripture13Ref": "කුරාණ 2:186",
-  "dailyScripture14Text": "එක් දෙයක් ඍජුවලින් කිරීම, තිරිසර සිතුවෙකු හෝ සිතුවෙකු, ඉතිරි විශ්වාසයි — අපි ඉතිරි සිතුවෙකු ඉතිරි තෝරාගිණිකිරීම.",
-  "dailyScripture14Ref": "කුරාණ 16:97",
-  "dailyScripture15Text": "ඇතැයි, අල්ලාහ් අස්ගිරුවෙන්න ඉතිරි සිතුවෙකු අවස්ථාවයි සිතිනට ඉතිරි ඉතිරිතාවයි ඔවුන් අස්ගිරුවෙන්න ඔවුන් තුලින්.",
-  "dailyScripture15Ref": "කුරාණ 13:11",
-  "dailyScripture16Text": "ඉතාවලින් අස්ගිරුවෙන්න සිතින්න නොකරන්න සිතින්න අස්ගිරුවෙන්න, සිටින්න ඔබ බරපතුරු ඉතිරි විශ්වාසයි.",
-  "dailyScripture16Ref": "කුරාණ 3:139",
-  "dailyScripture17Text": "ඉතාවලින්, ඉතාවලින් ඔබェ දාසයි එක් දෙයක් තිස්ස අස්ගිරුවෙන්න, අස්ගිරුවෙන්න ඔබ අල්ලාහ්ගේ රහමා ඉතිරිතාවයි. ඇතැයි, අල්ලාහ් සිතින්න සිතින්නට දෝෂ.",
-  "dailyScripture17Ref": "කුරාණ 39:53",
-  "dailyScripture18Text": "සිටින්න, එක් දෙයක් අල්ලාහ්ගේ බයිඳු — ඔහුයි කිරීම ඔහුට ඉවතුවන්න, සිටින්න ඔහුයි ඉතිරි කිරීම ඔහුට, සිතිනට පිරිතැබිඳු.",
-  "dailyScripture18Ref": "කුරාණ 65:2-3",
-  "dailyScripture19Text": "අස්ගිරුවෙන්න ඔබ අල්ලාහ්ගේ රහමා පිරිසිඳ.",
-  "dailyScripture19Ref": "කුරාණ 12:87",
-  "dailyScripture20Text": "සිටින්න, අපි ඉතිරි කුරාණ සිතිනට ස්මරණයි ගිණිකිරීම. ඉතාවලින්, එක් දෙයක් ඔබ ස්මරණයි කිරීම ඉතිරි?",
-  "dailyScripture20Ref": "කුරාණ 54:17",
-  "dailyScripture21Text": "සිටින්න, ඔහුයි සිතුවෙකු ඔබට සිතිනට පිරිතැබිඳු සිතින්න, සිටින්න ඔහුයි ඔබට ඉතිරි කිරීම.",
-  "dailyScripture21Ref": "කුරාණ 93:7",
-  "dailyScripture22Text": "සිටින්න, ඔබේ දර්ශකයි කිරීම: ඔබට ඔබ දර්ශකයි ඔහුට ඉතිරි கිරीම කිරීම.",
-  "dailyScripture22Ref": "කුරාණ 40:60",
-  "dailyScripture23Text": "සිටින්න, අපි ඉතිරි ගුණවතුරු ඉතිරි ගුණවතුරු තුලින්.",
-  "dailyScripture23Ref": "කුරාණ 17:70",
-  "dailyScripture24Text": "සිටින්න, ඉතිරි කිරීම ඔබ ඉවසීම සිතින්න සිතිනට ඉමාමි.",
-  "dailyScripture24Ref": "කුරාණ 2:45",
-  "dailyScripture25Text": "එක් දෙයක් කිරීම ඉතිරි ගුණවතුරු කිරීම ඔබට ඔබ ඔබට ඉතිරි ගිණිකිරීම.",
-  "dailyScripture25Ref": "කුරාණ 99:7",
-  "dailyScripture26Text": "ඇතැයි, ඔබ අල්ලාහ්ගේ ඉතිරි තම ඔබට.",
-  "dailyScripture26Ref": "කුරාණ 2:214",
-  "dailyScripture27Text": "සිටින්න, එක් දෙයක් කෘතඥ — ඉතිරි කිරීම ඔහුට ඔහුට ඉතිරි තම ගුණවතුරු.",
-  "dailyScripture27Ref": "කුරාණ 31:12",
-
-  "dailyReflection0": "මෙම දිනම වසාදෙන විට, එක සිතින්නට විඩුවෙන් අල්ලාහ්ගේ දයාවයි හඳුනා ගන්න.",
-  "dailyReflection1": "ඔබේ හෘදයට ඔබ අල්ලාහ්ගේ ඉතිරි කරන්න.",
-  "dailyReflection2": "මෙම දිනමේ එක් ගුණවතුරු නම් කරන්න සහ අල්ලාහ්ට අස්ගිරුවෙන්න.",
-  "dailyReflection3": "ඔබ අල්ලාහ්ගේ අසීම සිතිනට පිරිතැබිඳුවි බවයි සිතිනට විවෙක ගනින්න.",
-  "dailyReflection4": "ඔබ මෙම දිනම පරිශීලනයි කරුණාවයි සිතිනට පිරිසිඳු විඩුවෙන් ගිණිකිරීම.",
-  "dailyReflection5": "ඔබ ඉතිරි අස්ගිරුවෙන්න නොකරන්න එහි සිතිනට අල්ලාහ්ගේ සිතිනට විශ්වාසය ගනින්න.",
-  "dailyReflection6": "දිනම සිතිනට ඉවතුවෙන විට, අල්ලාහ්ගේ ස්මරණයෙහි සිතිනට විවෙක ගනින්න.",
-  "dailyReflection7": "ඔබ මෙම දිනම ඉමාමි බර කිරීම විඩුවෙන් ගිණිකිරීම, සිතින්ට අල්ලාහ්ට ස්ථිරයි.",
-  "dailyReflection8": "එක සිතින්නට ඉවසීම සබර් ඔබ මෙම දිනම කිරීම ගිණිකිරීම.",
-  "dailyReflection9": "ඔබ මෙම දිනම ඉතිරි සිතිනට සිතිනට සමාව අල්ලාහ්ට — අල්ලාහ්ගේ දයාවයි අසීම.",
-  "dailyReflection10": "එක පුද්ගලයි ඔබ මෙම දිනම කරුණාවයි නම් කරන්න සහ ඔවුන්ට දුඅ කරන්න.",
-  "dailyReflection11": "අස්ගිරුවෙන්න සිතිනට: කුමක් ඔබ අල්ලාහ් මෙම දිනම ඉතිරි කරනු නැතිකිරීම?",
-  "dailyReflection12": "කුරාණ පද එක සිතිනට ඔබ දිසා වර්තමාන ගිණිකිරීම.",
-  "dailyReflection13": "ඔබ ඔබ මෙම දිනම භාවිතයි ගිණිකිරීම — සිතින්ට අල්ලාහ්ට ඉතිරි කරන්න.",
-  "dailyReflection14": "දිනම සිතිනට සිතிනට අසීම ඔබ ඉතිරි කරනු සිතිනට සිතිනට ඉඩක්ෂේපයි කිරීම.",
-  "dailyReflection15": "එක ක්‍රියාව ඔබ මෙම දිනම ඔබේ පවුල සිතිනට ඉතිරි ප්‍රජා සිතිනට අල්ලාහ්ගේ කිරීම නම් කරන්න.",
-  "dailyReflection16": "දිනම සිතිනට වසාදෙන විට, තවබා කරන්න — අල්ලාහ් ඔබට ඔබ ඔබ ඉතිරි අල්ලාහ්ගේ ඉතිරි කරයි.",
-  "dailyReflection17": "ඔබ මෙම දිනම අල්ලාහ් පිහිටුවීම ගිණිකිරීම.",
-  "dailyReflection18": "ඔබ මෙම දිනම ඉතිරි කරනු කුමක් ඔබ අල්ලාහ්ට ඔබ සිතිනට නිකටයි කිරීම ගිණිකිරීම.",
-  "dailyReflection19": "දිනම සිතිනට ඉවතුවෙන විට, අල්ලාහ්ට අල්ලාහ්ගේ ඉතිරි විසරුමු — ඔහුයි ඔබ ඉතිරි කරනු අස්ගිරුවෙන්න.",
-  "dailyReflection20": "එක සිතින්නට මෙම දිනම ඉතිරි ඔබ කිරීම ඉතිරි, සිතිනට ඉතිරි ගිණිකිරීම.",
-  "dailyReflection21": "ඔබ අසීම වෙකුට දුඅ කරන්න — ඔබේ ඉමාමි ඔවුන්ට ගිණුම.",
-  "dailyReflection22": "ඔබ ඉතිරි අස්ගිරුවෙන්න ගිණුම නම් කරන්න සිතිනට සිතිනට අල්ලාහ්ට.",
-  "dailyReflection23": "ඔබ මෙම දිනම ඉතිරි ගිණිකිරීම — ඔබ දිසා අල්ලාහ්ට? අනුවර්තී දිනම ඔබ ඉතිරි ගිණිකිරීම.",
-  "dailyReflection24": "දිනම සිතිනට නිහඩ වෙතින විට, අල්ලාහ්ගේ නිකටයි ස්මරණයෙහි ඉතිරි ගිණිකිරීම.",
-  "dailyReflection25": "ඔබ මෙම දිනම ශක්තිය සිතිනට සිතිනට — ඔහි ශක්තිය අල්ලාහ්ට ඉතිරි.",
-  "dailyReflection26": "එක දෙයක් ඔබ අනුවර්තී දිනම කිරීම ඔබ මෙම දිනම ඉතිරි නම් කරන්න, අල්ලාහ්ගේ සිතිනට.",
-  "dailyReflection27": "ඔබ විවෙකට ඔබ ඔබේ හෘදයයි අල්ලාහ්ට විසරුමු — ඔහුයි සිතිනට පිරිසිඳුවි.",
-
-  "dailyRoleModel0": "නබි මුහම්මද ﷺ",
-  "dailyRoleModel1": "අබු බකර අස්-සිද්ධික් (RA)",
-  "dailyRoleModel2": "උමර ඉබ්න අල්-ඛත්තාබ (RA)",
-  "dailyRoleModel3": "උතමාන ඉබ්න අෆාන (RA)",
-  "dailyRoleModel4": "අලි ඉබ්න අබි තලිබ (RA)",
-  "dailyRoleModel5": "ඛාදිජා බින්ත අල්-ඛුවයිලිඩ (RA)",
-  "dailyRoleModel6": "අයිශා බින්ත අබි බකර (RA)",
-  "dailyRoleModel7": "ෆාතිමා අස්-ජහරා (RA)",
-  "dailyRoleModel8": "බිලාල ඉබ්න රබාහ (RA)",
-  "dailyRoleModel9": "සල්මාන අල්-ෆාරිසි (RA)",
-  "dailyRoleModel10": "අබු හුරයිරා (RA)",
-  "dailyRoleModel11": "අබ්දුල්ලා ඉබ්න අබ්බास (RA)",
-  "dailyRoleModel12": "අබ්දුල්ලා ඉබ්න මසුද (RA)",
-  "dailyRoleModel13": "මුඅධ ඉබ්න ජබල (RA)",
-  "dailyRoleModel14": "මුසාබ ඉබ්න උමයර (RA)",
-  "dailyRoleModel15": "සුමයියා බින්ත ඛබාබ (RA)",
-  "dailyRoleModel16": "අම්මාර ඉබ්න යසීර (RA)",
-  "dailyRoleModel17": "උම්ම සලමා (RA)",
-  "dailyRoleModel18": "खලිද ඉබ්න අල්-වලිඩ (RA)",
-  "dailyRoleModel19": "ජයිඩ ඉබ්න තාබිත (RA)",
-  "dailyRoleModel20": "හෆසා බින්ත උමර (RA)",
-  "dailyRoleModel21": "උමර ඉබ්න අබ්ද අල්-අසිස (RH)",
-  "dailyRoleModel22": "ඉමාම අබු හනීෆා (RH)",
-  "dailyRoleModel23": "ඉමාම මලික ඉබ්න අනස (RH)",
-  "dailyRoleModel24": "ඉමාම අල්-ශාෆිඒ (RH)",
-  "dailyRoleModel25": "ඉමාම අහමද ඉබ්න හම්බල (RH)",
-  "dailyRoleModel26": "ඉමාම අල්-බුඛාරි (RH)",
-  "dailyRoleModel27": "ඉමාම මුස්ලිම (RH)",
-  "dailyRoleModel28": "ඉමාම අල්-තිර්මිධි (RH)",
-  "dailyRoleModel29": "අල්-ගසාලි (RH)",
-  "dailyRoleModel30": "ඉබ්න අල්-කයිම අල්-ජවසියා (RH)",
-  "dailyRoleModel31": "ඉබ්න තයිමියා (RH)",
-  "dailyRoleModel32": "අල්-නවාවි (RH)",
-  "dailyRoleModel33": "ඉබ්න හජර අල්-අස්කලානි (RH)",
-  "dailyRoleModel34": "ඉබ්න කතිර (RH)",
-  "dailyRoleModel35": "අල්-තබාරි (RH)",
-  "dailyRoleModel36": "සුෂ්යාන අල්-තවරි (RH)",
-  "dailyRoleModel37": "ෂখ අල්-දින අල්-රාසි (RH)",
-  "dailyRoleModel38": "ඉබ්න සිනා (RH)",
-  "dailyRoleModel39": "අල්-බිරුනි (RH)",
-  "dailyRoleModel40": "ඉබ්න රුෂඩ (RH)",
-  "dailyRoleModel41": "ඉබ්න খල්දුන (RH)",
-  "dailyRoleModel42": "ඉබ්න බතුතා (RH)",
-  "dailyRoleModel43": "නබි ඉබ්රාහිම (AS)",
-  "dailyRoleModel44": "නබි මුසා (AS)",
-  "dailyRoleModel45": "නබි ඉසා (AS)",
-  "dailyRoleModel46": "නබි යුසුෆ (AS)",
-  "dailyRoleModel47": "නබි දාවුද (AS)",
-  "dailyRoleModel48": "නබි සුලයිමාන (AS)",
-  "dailyRoleModel49": "නබි නුහ (AS)",
-  "dailyRoleModel50": "නබි යුනුස (AS)",
-  "dailyRoleModel51": "නබි අයුබ (AS)",
-  "dailyRoleModel52": "රුකයියා බින්ත මුහම්මද (RA)",
-  "dailyRoleModel53": "ජයිනබ බින්ත මුහම්මද (RA)",
-  "dailyRoleModel54": "හසන ඉබ්න අලි (RA)",
-  "dailyRoleModel55": "හුසයින ඉබ්න අලි (RA)",
-  "dailyRoleModel56": "ජෙෆර ඉබ්න අබි තලිබ (RA)",
-  "dailyRoleModel57": "අබු ධර අල්-ගිෆාරි (RA)",
-  "dailyRoleModel58": "තල්හා ඉබ්න උබයිඩුල්ලා (RA)",
-  "dailyRoleModel59": "අස්-සුබයර ඉබ්න අල්-අව්වාම (RA)",
-
-  "locationConsentLabel": "කිබ්ලා දිශාවයි සහ ඉමාමි කාල සඳහා Ayara ඔබේ ස්ථානයි භාවිතයි සඳහා සඳහන් කරන්න",
-  "locationConsentHint": "මෙම විශේෂ සඳහා භාවිතයි. ඔබේ ස්ථානයි කිසිදා පිරිසිඳු හෝ ගබඩා නොවේ.",
-
-  "askPageTitle": "Ayara අසන්න",
-  "askPageDescription": "විශ්වාස, ඉමාමි, ජීවිතයි, හෝ ඉස්ලාමීය ගිණුම ගැන කුමක් හෝ අසන්න සිතින්ට කුරාණ සහ සුන්නා මූල බැස ඇති ඉතිරි ඉතිරි.",
-  "askPageInputHint": "ඔබේ ප්‍රශ්‍නයි මෙතැන ලිපින්න…",
+  "accountDeleteErrorTitle": "ගිණුම මකා දැමිය නොහැකි විය",
+  "accountDeleteErrorClose": "හරි",
+  "accountDeleteReauthCancelled": "නැවත සත්‍යාපනය අවලංගු විය. කරුණාකර නැවත පිවිසී නැවත උත්සාහ කරන්න.",
+  "accountDeleteReauthRequired": "ගිණුම මකා දැමීමට මෑතකාලීන පිවිසුමක් අවශ්‍ය වේ. කරුණාකර ඉවත්වී නැවත පිවිසෙන්න, පසුව නැවත උත්සාහ කරන්න.",
+  "settingsDeletePermanentWarning": "මෙම ක්‍රියාව ස්ථිර වන අතර ආපසු හැරවිය නොහැක. ඔබගේ ගිණුමට සම්බන්ධ සියලු දත්ත මකා දමනු ඇත.",
+  "dailyGraceTitle": "දෛනික මගපෙන්වීම",
+  "dailyGraceScriptureLabel": "අද දවසේ ආයතය",
+  "dailyGraceSaintLabel": "සතියේ උලමා",
+  "dailyGraceReflectionLabel": "සන්ධ්‍යා මෙනෙහි කිරීම",
+  "dailyGraceCopiedToast": "ආයතය ක්ලිප්බෝඩ් වෙත පිටපත් කරන ලදී",
+  "locationConsentLabel": "Qibla දිශාව සහ සලාත් වේලාවන් සඳහා අයාරාට මගේ ස්ථානය භාවිතා කිරීමට ඉඩ දෙන්න",
+  "locationConsentHint": "මෙම විශේෂාංග සඳහා පමණක් භාවිතා කරයි. ඔබගේ ස්ථානය කිසිවිටෙක බෙදා නොගනී හෝ සුරැකෙන්නේ නැත.",
+  "askPageTitle": "අයාරාවෙන් අසන්න",
+  "askPageDescription": "ඇදහිල්ල, සලාතය, ජීවිතය, හෝ ඉස්ලාමීය ආචාර පිළිබඳ ඕනෑම දෙයක් අසන්න, සහ Qur'an සහ Ahl al-Bayt උපදේශ මූලික කරගත් මගපෙන්වීම ලබා ගන්න.",
+  "askPageInputHint": "ඔබගේ ප්‍රශ්නය මෙහි ටයිප් කරන්න…",
   "askPageSubmitCta": "අසන්න",
-  "askPageInputEmptyError": "කරුණාකර පළමුවෙන්ම ප්‍රශ්‍නයි ලිපින්න.",
-  "askResultYourQuestion": "ඔබේ ප්‍රශ්‍නයි",
-
-  "guidancePageTitle": "ඉමාමි සහ ඉතිරි",
-  "qiblaFacingMecca": "මක්කා දිසා දෙස",
-  "qiblaCompassInstruction": "ඔබ ඔබේ දුරකතනයි පුරවලින් යක්කා ස්වර්ණ කුඩු උර්ධ්වයි බුරුස දක්වා.\nඔහි දිශාවයි කිබ්ලා දිසා දෙස (මක්කා) පිහිටයි.",
-  "qiblaGpsUnavailableBody": "GPS සිතිනට දුර්බල. පිටතට පිරිසිඳු සිතිනට ස්ථිරයි කරුණාකර පුනිසිතින්න.",
+  "askPageInputEmptyError": "කරුණාකර මුලින් ප්‍රශ්නයක් ලියන්න.",
+  "askResultYourQuestion": "ඔබගේ ප්‍රශ්නය",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "මක්කා දෙසට මුහුණ දී ඇත",
+  "qiblaCompassInstruction": "රන් පාට ඉඟිය ඉහළට පෙන්වන තුරු ඔබගේ දුරකථනය හැරවන්න.\nඒ දිශාව Qibla (මක්කා) දෙස පෙන්වයි.",
+  "qiblaGpsUnavailableBody": "GPS සංඥාව දුර්වලයි. පිටතට ගොස් නැවත උත්සාහ කරන්න යන්න තට්ටු කරන්න.",
   "qiblaRetry": "නැවත උත්සාහ කරන්න",
-  "qiblaTitle": "කිබ්ලා දිශාවයි",
-  "qiblaDistanceLabel": "මක්කා දක්වා {km} කි.මි.",
+  "qiblaTitle": "Qibla දිශාව",
+  "qiblaDistanceLabel": "මක්කාට {km} km",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "ස්ථානයි අවශ්‍ය",
-  "qiblaLocationNeededBody": "ස්ථානයි ඉඩක්ෂේපයට Ayara මක්කාවි කිබ්ලා දිශාවයි ගිණිකිරීම කිරීම සඳහා අයිතම ස්ථානයි ඉඩක්ෂේපයි.",
-  "qiblaOpenSettings": "සැකසීම් විවෘත කරන්න",
-  "qiblaCompassLoading": "ඔබේ පිහිටුම සිතින්නට...",
-  "qiblaTowardMecca": "මක්කා දිසා දෙස",
-
-  "prayerTimesTitle": "ඉමාමි කාල",
-  "prayerTimesFajr": "ෆජර්",
-  "prayerTimesDhuhr": "දුහුර්",
+  "qiblaLocationNeededTitle": "ස්ථානය අවශ්‍යයි",
+  "qiblaLocationNeededBody": "ඔබ සිටින ඕනෑම තැනකින් මක්කාහි කාබාව දෙසට දිශාව ගණනය කිරීමට අයාරාට ඔබගේ ස්ථානයට ප්‍රවේශය ලබා දෙන්න.",
+  "qiblaOpenSettings": "සැකසුම් විවෘත කරන්න",
+  "qiblaCompassLoading": "ඔබගේ ස්ථානය සොයමින්…",
+  "qiblaTowardMecca": "මක්කා දෙසට",
+  "prayerTimesTitle": "සලාත් වේලාවන්",
+  "prayerTimesFajr": "ෆජ්ර්",
+  "prayerTimesDhuhr": "දුහ්ර්",
   "prayerTimesAsr": "අස්ර්",
-  "prayerTimesMaghrib": "මගරිබ්",
+  "prayerTimesMaghrib": "මග්රිබ්",
   "prayerTimesIsha": "ඉෂා",
-  "prayerTimesLocationNeededTitle": "ස්ථානයි අවශ්‍ය",
-  "prayerTimesLocationNeededBody": "ස්ථානයි ඉඩක්ෂේපයට Ayara ඉතා ඉමාමි කාල ගිණිකිරීම කිරීම සඳහා ඔබේ නගරයි.",
-  "prayerTimesNextLabel": "ඉදිරි",
-  "prayerTimesDoneLabel": "ඉවත්",
-
-  "monthlyPrayerTimesTitle": "මාසික ඉමාමි කාල",
-  "monthlyPrayerTimesViewButton": "සම්පූර්ණ මාස බලන්න",
-  "monthlyPrayerTimesNextMonth": "ඉදිරි මාස",
-  "monthlyPrayerTimesDayHeader": "දිනම",
-
-  "sharePrayerTimes": "ඉමාමි කාල පිරිසිඳු කරන්න",
-
-  "prayerNotificationsTitle": "ඉමාමි සිතුවෙකු",
-  "prayerNotificationsDescription": "සෑම ඉමාමි කාල ඉතිරි මස කුඩු සිතුවෙකු ඉතිරි කරන්න දිනම්පුරා සිතින්ට සිතිනට අවතාරයි කිරීම.",
-  "prayerNotificationsEnable": "ඉමාමි සිතුවෙකු සක්ෂම කරන්න",
-  "prayerNotificationsOpenSettings": "සිතුවෙකු සැකසීම් විවෘත කරන්න",
-  "prayerNotificationsDenied": "සිතුවෙකු අයිතම නොවේ",
-  "prayerNotificationsDeniedHint": "සැකසීම් අයිතම Ayara සඳහා ඉමාමි කාල සිතුවෙකු ඉතිරි ඔබට එක්කයි.",
-
-  "notificationsConsentLabel": "ඉමාමි කාල සිතුවෙකු සඳහන් කරන්න",
-
-  "prayerNotifTitleFajr": "🌅 ෆජර් — ඉමාමි ෆජර්",
-  "prayerNotifBodyFajr": "ඉමාමි වලින් යහපත්ම ෆජර් ඉමාමි. උතුරුවෙන්න, ඔබ ඉබ්බඩු කරන්න, සිතින්ට අල්ලාහ්ගේ පෙරට පිහිටයි.",
-
-  "prayerNotifTitleDhuhr": "☀️ දුහුර් — දුපත්වල ඉමාමි",
-  "prayerNotifBodyDhuhr": "ඔබ ඔබේ දිනම පිරිතැබිඳු සිතින්ට අල්ලාහ්ට ඔබ ගනින්න. දුහුර් කාල ඉතිරි.",
-
-  "prayerNotifTitleAsr": "🌤️ අස්ර් — ප්‍රමාණිත ඉමාමි",
-  "prayerNotifBodyAsr": "මැද ඉමාමි සිතිනට කරුණාවයි. අස්ර් කාල ඉතිරි — එහි ඔබ නොයෙදුනු.",
-
-  "prayerNotifTitleMaghrib": "🌇 මගරිබ් — ගිණු ඉමාමි",
-  "prayerNotifBodyMaghrib": "ගිණු නොවිණි. මගරිබ් ඉතිරි සිතින්ට අල්ලාහ්ට අස්ගිරුවෙන්න.",
-
-  "prayerNotifTitleIsha": "🌙 ඉෂා — රාත්‍රි ඉමාමි",
-  "prayerNotifBodyIsha": "ඔබේ දිනම අල්ලාහ්ගේ ස්මරණයෙහි දිනම පිරිතැබිඳු. හයියා අලල් ෆලාහ — සාර්ථකතාවයි දිසා දෙස.",
-
-  "outOfReflectionsBannerText": "ඔබ ඔබේ සියලු ව්‍යංජනයි භාවිතා කර ඇත",
-  "outOfReflectionsBannerCta": "වැඩි ඉතිරි",
-
-  "dhikrPageTitle": "ධිකර්",
-  "dhikrTapToCount": "ගිණිකිරීම කිරීමට ගිණුව ස්පර්ශ කරන්න",
-  "dhikrResetButton": "ස්ථිරයි",
-  "dhikrComplete": "මසා'අල්ලා",
-  "dhikrCompleteMessage": "ඔබ අල්ලාහ්ගේ 99 ස්මරණයි එක්කයි අවසර කර ඇත. ඔබේ හෘදයට ඔවුන් එක් ඉතිරි බිම ඔවුන්ට පිහිටයි.",
-
-  "disclaimerTitle": "මෙම පෙවිසිදු ඉතිරි ගැන",
-  "disclaimerBody": "Ayara ඉස්ලාමීය ව්‍යංජනයි, සිතුවෙකු, සිතින්ට අධ්‍යාත්මික අන්තර්ගතයි ඉතිරි කරන්න ඔබේ ඉතිරි සිතිනට සිතිනට ඇඥාවයි. මෙම අන්තර්ගතයි සිතිනට සාමාන්‍ය තොරතුරු සිතින්ට ඉතිරි අරමුණු සිතිනට පිරිසිඳු.\n\nAyara කුඩු ශිල්පීව ඉතිරි නොකරයි.\nමෙම පෙවිසිදු ඉතිරි ඉතිරි කුඩු ඉස්ලාමීය විද්වතුවරු, ඉමාම, මුෂ්ති, හෝ තිවිඳු ඉතිරි ගිණිකිරීම කිරීම සඳහා ඉතිරි නොකරයි. ඔබට ඉස්ලාමීය ඍජුවල ගිණුම, හලාල සහ හාරාම සිතින්ට, හෝ ඉතිරි ඉස්ලාමීය අවසරයි ගිණුම, කරුණාකර ඔබේ ප්‍රජා තුල කුඩු ඉස්ලාමීය ඉතිරි සිතින්න.\n\nAyara ඉස්ලාමීය ඍජුවල ඉතිරි නොකරයි.\nAyara ඉස්ලාමීය ඍජුවල ඉතිරි ඍජුවල (ඉස්ලාමීය කිරීම) හෝ ඉතිරි ඉස්ලාමීය අවසරයි සිතිනට ඉතිරි නොකරයි. මෙතැන කිසිදා දෙයක් ෆටවා හෝ බර ඉස්ලාමීය ඉතිරි තිබිඳු නොකළ යුතුයි.\n\nශිල්පීව ඉතිරි විවිධතාවයි.\nඉස්ලාමයි ගිණුම සම්පූර්ණ විවිධතාවයි ඉතිකතා, තිවිඳු ඉස්ලාමීය (මධහබ්), සිතින්ට කුඩු ඉතිරි ඇතුළු කරයි. මෙම පෙවිසිදු අන්තර්ගතයි සිතිනට සාමාන්‍ය දර්ශනයි ඉතිරි සිතිනට සෙවනෙ ඉතිකතා හෝ ශිල්පීවයි සිතිනට ඉතිරි නොකරයි.\n\nප්‍රජා සිතින්ට.\nමෙම පෙවිසිදු ඉතිරි කිරීම ඔබේ ඉතිරි ඉතිකතා සිතින්ට ඉතිරි කිරීම දක්වා ඔබ බර ඉස්ලාමීය ඉතිරි සිතිනට ඔබේ නිකට ඉමාම, විද්වතුවරු, සිතින්ට ඔබ දිගඉ ඉවරයි ගිණිකිරීම කිරීම දක්වා.",
-  "disclaimerClose": "ඉතා නිවැඩ්ඩුවි",
-  "disclaimerInfoTooltip": "මෙම පෙවිසිදු ඉතිරි ගැන",
-  "disclaimerSettingsSubtitle": "සාමාන්‍ය තොරතුරු අරමුණු සිතිනට පිරිසිඳු. සිතිනට සම්පූර්ණ ඉතිරි කිරීම සිතින්න.",
-  "disclaimerSectionHeader": "ඉතිරි ඉතිරි ගිණුම"
+  "prayerTimesLocationNeededTitle": "ස්ථානය අවශ්‍යයි",
+  "prayerTimesLocationNeededBody": "ඔබගේ නගරය සඳහා නිවැරදි සලාත් වේලාවන් ගණනය කිරීමට අයාරාට ඔබගේ ස්ථානයට ප්‍රවේශය ලබා දෙන්න.",
+  "prayerTimesNextLabel": "ඊළඟ",
+  "prayerTimesDoneLabel": "අවසන්",
+  "monthlyPrayerTimesTitle": "මාසික සලාත් වේලාවන්",
+  "monthlyPrayerTimesViewButton": "සම්පූර්ණ මාසය බලන්න",
+  "monthlyPrayerTimesNextMonth": "ඊළඟ මාසය",
+  "monthlyPrayerTimesDayHeader": "දිනය",
+  "sharePrayerTimes": "සලාත් වේලාවන් බෙදාගන්න",
+  "notificationsSectionTitle": "දැනුම්දීම්",
+  "notificationsSectionSubtitle": "සලාත් මතක් කිරීම්, කැලැන්ඩර් සිදුවීම් සහ තවත් දේ",
+  "dailyReflectionReminderTitle": "දෛනික මෙනෙහි කිරීම",
+  "dailyReflectionReminderDescription": "අයාරා විවෘත කර ඔබගේ ඇදහිල්ල සමඟ සම්බන්ධ වීමට මෘදු දෛනික මතක් කිරීමක්.",
+  "dailyReflectionReminderEnable": "දෛනික මතක් කිරීම සක්‍රීය කරන්න",
+  "dailyReflectionReminderTimeLabel": "මතක් කිරීමේ වේලාව",
+  "prayerNotificationsTitle": "සලාත් මතක් කිරීම්",
+  "prayerNotificationsDescription": "ඔබ දවස පුරා සම්බන්ධව සිටීමට සෑම සලාත් වේලාවකටම පෙර මෘදු මතක් කිරීමක් ලබා ගන්න.",
+  "prayerNotificationsEnable": "සලාත් මතක් කිරීම් සක්‍රීය කරන්න",
+  "prayerNotificationsOpenSettings": "දැනුම්දීම් සැකසුම් විවෘත කරන්න",
+  "prayerNotificationsDenied": "දැනුම්දීම් අක්‍රියයි",
+  "prayerNotificationsDeniedHint": "සලාත් වේලාවන් සඳහා මතක් කිරීම් ලබා ගැනීමට සැකසුම් වෙත ගොස් Ayara සඳහා දැනුම්දීම් සක්‍රීය කරන්න.",
+  "notificationsConsentLabel": "සලාත් වේලාවන් සඳහා දැනුම්දීම් ලබා දීමට ඉඩ දෙන්න",
+  "prayerNotifTitleFajr": "🌅 ෆජ්ර් — උදෑසන සලාතය",
+  "prayerNotifBodyFajr": "ෆජ්ර් යනු Ahl al-Bayt හි උදෑසන සලාතයයි. ඉමාම් අලි (AS) පැවසුවේ: ඔබගේ අතිශයින් වටිනා භාරය රකින්නාක් මෙන් ෆජ්ර් සලාතය රකින්න. නැගිට, ඔබව පවිත්‍ර කර, අල්ලාහ් ඉදිරියෙහි සිටින්න.",
+  "prayerNotifTitleDhuhr": "☀️ දුහ්ර් — දහවල් සලාතය",
+  "prayerNotifBodyDhuhr": "Ahl al-Bayt හි ඉමාම්වරු සෑම සිහිකිරීමේ මොහොතක්ම අගය කළහ. ඔබගේ දවස මඳක් නවත්තන්න, අවශ්‍ය නම් දුහ්ර් සහ අස්ර් එක්කරන්න, සහ ඔබගේ හදවත නැවත අල්ලාහ් වෙත හැරවන්න.",
+  "prayerNotifTitleAsr": "🌤️ අස්ර් — සවස සලාතය",
+  "prayerNotifBodyAsr": "සලාතය රකින්න, මන්ද එය ඔබ සහ අල්ලාහ් අතර ඇති ගිවිසුමයි. අස්ර් වේලාව පැමිණ ඇත — සිහිකිරීමකින් තොරව එය ඉක්මවා යාමට ඉඩ නොදෙන්න.",
+  "prayerNotifTitleMaghrib": "🌇 මග්රිබ් — සන්ධ්‍යා සලාතය",
+  "prayerNotifBodyMaghrib": "හිරු බැස ගොස් ඇත — Ahl al-Bayt විසින් දුආ සඳහා ශුද්ධ මොහොතක් ලෙස සලකන ලද්දකි. මග්රිබ් ඉටු කර, රාත්‍රිය ආරම්භ වීමට පෙර දුආවෙන් අල්ලාහ් වෙත ඔබගේ අත් ඔසවන්න.",
+  "prayerNotifTitleIsha": "🌙 ඉෂා — රාත්‍රී සලාතය",
+  "prayerNotifBodyIsha": "ඔබගේ දවස අල්ලාහ් සමඟ අවසන් කරන්න. ඉමාම්වරු ඉෂා පසුව සලාත් අල්-ලයිල් දිරිමත් කළහ — නමුත් පළමුව ඔබගේ ඉෂාව සම්පූර්ණ කර, දවස ඔහුගේ සිහිකිරීමෙන් අවසන් කරන්න.",
+  "outOfReflectionsBannerText": "ඔබ ඔබගේ සියලුම මෙනෙහි කිරීම් භාවිතා කර ඇත",
+  "outOfReflectionsBannerCta": "තවත් ලබාගන්න",
+  "dhikrPageTitle": "ධික්ර්",
+  "dhikrTapToCount": "ගණන් කිරීමට වටය තට්ටු කරන්න",
+  "dhikrResetButton": "නැවත සකසන්න",
+  "dhikrComplete": "මාෂා'අල්ලාහ්",
+  "dhikrCompleteMessage": "ඔබ අල්ලාහ්ව 100 වතාවක් සිහි කිරීම සම්පූර්ණ කර ඇත. ඒවා ඔබගේ හදවතට ආලෝකයක් වේවා.",
+  "disclaimerTitle": "මෙම යෙදුමේ මගපෙන්වීම ගැන",
+  "disclaimerBody": "Ayara, Qur'an සහ Ahl al-Bayt උපදේශ මූලික කරගත් ඉස්ලාමීය මෙනෙහි කිරීම්, මතක් කිරීම්, සහ ආධ්‍යාත්මික අන්තර්ගතයක් ඔබගේ පෞද්ගලික ඇදහිල්ලේ ගමනට සහය වීම සඳහා ලබා දෙයි. මෙම අන්තර්ගතය සාමාන්‍ය තොරතුරු සහ ආභාසමය අරමුණු සඳහා පමණක් සපයනු ලැබේ.\n\nAyara, සුදුසු අධ්‍යයන පිරිසට ප්‍රතිස්ථානයක් නොවේ.\nමෙම යෙදුමේ ඇති මගපෙන්වීම, සුදුසු ඉස්ලාමීය විද්වතුන්, marja', හෝ ධර්මවේදය පිළිබඳ පුහුණුව ලැබූ ගුරුවරයෙකුට ආදේශයක් නොවේ. ශියා ඉස්ලාමය තුළ, ආගමික මගපෙන්වීම Ja'fari fiqh පාසල සහ ජීවමාන Marja' (අනුකරණයේ ප්‍රභවය) අනුගමනය කිරීමේ සම්ප්‍රදාය මත පදනම් වේ — ආගමික අනුශ්‍රවණය තුළ විශ්වාසීන්ට මගපෙන්වන සුදුසු නීතිවේදියෙකි. ආගමික තීන්දු, halal හා haram, හෝ පෞද්ගලික ආගමික වගකීම් පිළිබඳ ප්‍රශ්න ඔබට තිබේ නම්, සුදුසු Marja' කෙනෙකු හෝ ඔබගේ ප්‍රජාවේ විද්වතෙකුගෙන් උපදෙස් ගන්න.\n\nමෙම යෙදුම ආගමික තීන්දු නිකුත් නොකරයි.\nAyara, fiqh හෝ පෞද්ගලික ආගමික වගකීම් පිළිබඳ බලධාරී තීරණ නොගනී. මෙහි කිසිවක් fatwa එකක් හෝ බැඳී පවතින ආගමික උපදෙස් ලෙස නොසැලකිය යුතුය.\n\nAhl al-Bayt හි කේන්ද්‍රීයත්වය.\nශියා ඉස්ලාමය තුළ, නබි මුහම්මද් ﷺ සහ ඔහුගේ පවිත්‍ර පවුල — Ahl al-Bayt — Qur'an පසු ඉස්ලාමීය සමාජයේ බලධාරී මගපෙන්වන්නන් වේ. Ahl al-Bayt හි දොළොස් ඉමාම්වරු, ඉස්ලාමීය ඉගැන්වීම් විග්‍රහ කිරීමට දේවත්වයෙන් පත් කළ අයයි. මෙම යෙදුමේ අන්තර්ගතය එම සම්ප්‍රදාය ප්‍රතිබිම්බනය කරයි සහ එය විශ්වාසවන්තව ගෞරව කිරීමට උත්සාහ කරයි.\n\nප්‍රජාමය කරුණු.\nමෙම යෙදුම, ඔබගේ දේශීය මස්ජිද්, ඉස්ලාමීය මධ්‍යස්ථානය, සහ ආගමික ප්‍රජාවේ වැදගත් භූමිකාව ගැඹුරින් ගෞරව කරමින්, ඔබගේ ඇදහිල්ල සමඟ සම්බන්ධතාව දිරිමත් කිරීමට අරමුණු කරයි. ඔබට ආසන්න සුදුසු ගුරුවරුන් සමඟ සම්බන්ධ වී ඔවුන්ගෙන් ඉගෙන ගැනීමට අපි උනන්දු කරමු.",
+  "disclaimerClose": "මට තේරුණා",
+  "disclaimerInfoTooltip": "මෙම යෙදුමේ මගපෙන්වීම ගැන",
+  "disclaimerSettingsSubtitle": "සාමාන්‍ය තොරතුරු අරමුණු සඳහා පමණි. සම්පූර්ණ ප්‍රකාශය කියවීමට තට්ටු කරන්න.",
+  "disclaimerSectionHeader": "මගපෙන්වීම පිළිබඳ ප්‍රකාශය",
+  "navHome": "මුල් පිටුව",
+  "navReflect": "මෙනෙහි කරන්න",
+  "navDuas": "දුආ",
+  "navCalendar": "දින දර්ශනය",
+  "dashboardToday": "අද",
+  "dashboardComingUp": "ඉදිරියට එන දේ",
+  "dashboardDaysUnit": "{count, plural, one {දිනය} other {දින}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "ඉක්මන් ප්‍රවේශය",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "ධික්ර්",
+  "quickActionDailyGrace": "මගපෙන්වීම",
+  "quickActionPrayerTimes": "සලාත් වේලාවන්",
+  "askAyaraTitle": "අයාරාවෙන් අසන්න",
+  "askAyaraSubtitle": "ඕනෑම ඉස්ලාමීය ප්‍රශ්නයක් අසන්න, සහ සලකා බලා, මගපෙන්වන පිළිතුරක් ලබාගන්න.",
+  "askAyaraHint": "උදා. රමදානයේ වැදගත්කම කුමක්ද?",
+  "askAyaraSubmit": "අසන්න",
+  "wisdomOfTheDayTitle": "අද දවසේ ප්‍රඥාව",
+  "calendarScreenTitle": "ඉස්ලාමීය දින දර්ශනය",
+  "calendarUpcomingOccasions": "ඉදිරියට එන අවස්ථා",
+  "calendarOccasionRemindersTitle": "අවස්ථා මතක් කිරීම්",
+  "calendarOccasionRemindersHint": "සෑම අවස්ථාවකටම පෙර සවස දැනුම්දෙයි",
+  "calendarNotifPermissionDenied": "දැනුම්දීම් සඳහා අවසර ප්‍රතික්ෂේප කර ඇත. එය ඔබගේ උපාංග සැකසුම් තුළ සක්‍රීය කරන්න.",
+  "calendarNoEvents": "ඉදිරියට එන සිදුවීම් කිසිවක් හමු නොවීය.",
+  "calendarAddToPhone": "දුරකථන දිනපතට එක් කරන්න",
+  "calendarAddedToPhone": "දිනපතට එක් කර ඇත",
+  "calendarCountdownToday": "අද",
+  "calendarCountdownTomorrow": "හෙට",
+  "calendarCountdownDays": "දින {days} කින්",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "ජන",
+  "calendarMonthFeb": "පෙබ",
+  "calendarMonthMar": "මාර්",
+  "calendarMonthApr": "අප්‍රේල්",
+  "calendarMonthMay": "මැයි",
+  "calendarMonthJun": "ජුනි",
+  "calendarMonthJul": "ජූලි",
+  "calendarMonthAug": "අගෝ",
+  "calendarMonthSep": "සැප්",
+  "calendarMonthOct": "ඔක්",
+  "calendarMonthNov": "නොවැ",
+  "calendarMonthDec": "දෙසැ",
+  "calendarSeasonMuharramEarly": "මුහර්රම් දින — කර්බලා සිහි කරන්න",
+  "calendarSeasonAshura": "අශුරා — යා හුසේන් (AS)",
+  "calendarSeasonMuharramLate": "මුහර්රම් — ශෝක සහ මෙනෙහි කිරීමේ දින",
+  "calendarSeasonArbaeen": "අර්බයින් — හුසේන්ගේ දින හතළිහ",
+  "calendarSeasonRoadToArbaeen": "අර්බයින් වෙත මාර්ගය",
+  "calendarSeasonMabath": "මබ්අත් මුබාරක් — වහී පැමිණීමේ උදය",
+  "calendarSeasonMidShaban": "ෂාබාන් මැද — ඉමාම් අල්-මහ්දි (AJ) උපන් දිනය",
+  "calendarSeasonRamadan": "රමදාන් මුබාරක් — Qur'an මාසය",
+  "calendarSeasonGhadir": "ඊද් අල්-ගදීර් මුබාරක්!",
+  "hijriMonth1": "මුහර්රම්",
+  "hijriMonth2": "සෆර්",
+  "hijriMonth3": "රබී අල්-අව්වල්",
+  "hijriMonth4": "රබී අල්-ථානි",
+  "hijriMonth5": "ජුමාදා අල්-අව්වල්",
+  "hijriMonth6": "ජුමාදා අල්-ථානි",
+  "hijriMonth7": "රජබ්",
+  "hijriMonth8": "ෂාබාන්",
+  "hijriMonth9": "රමදාන්",
+  "hijriMonth10": "ෂව්වාල්",
+  "hijriMonth11": "දු අල්-කිදා",
+  "hijriMonth12": "දු අල්-හිජ්ජා",
+  "duasScreenTitle": "දුආ සහ Ziyarat",
+  "duasSearchHint": "දුආ, ziyarat සොයන්න…",
+  "duasFilterAll": "සියල්ල",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} dua සහ ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "දුආ කිසිවක් හමු නොවීය.",
+  "duaCategoryDaily": "දෛනික",
+  "duaCategoryWeekly": "සතිපතා",
+  "duaCategoryOccasions": "අවස්ථා",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "උපත",
+  "eventTypeMartyrdom": "ශහීද් බව",
+  "eventTypeOccasion": "අවස්ථාව",
+  "duaCopyTooltip": "පරිවර්තනය පිටපත් කරන්න",
+  "duaToggleTransliteration": "Transliteration",
+  "duaToggleTranslation": "පරිවර්තනය",
+  "duaAskAiLabel": "මෙම dua විස්තර කිරීමට අයාරාවෙන් අසන්න",
+  "duaAskAiLockedLabel": "අයාරාවෙන් අසන්න (Wilaya)",
+  "duaAiLockedMessage": "Ayara විස්තර කිරීම් Wilaya සාමාජිකයින්ට ලබා ගත හැක. සැකසුම් තුළදී උසස් වන්න.",
+  "duaAiComingSoon": "\"{name}\" ගැන අයාරාවෙන් අසන්න — ඉක්මනින්!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua එක ක්ලිප්බෝඩ් වෙත පිටපත් කරන ලදී.",
+  "tasbihAllahuAkbarMeaning": "අල්ලාහ් ඉතාමත් ශ්‍රේෂ්ඨය",
+  "tasbihAlhamdulillahMeaning": "සියලු ප්‍රශංසා අල්ලාහ්ටය",
+  "tasbihSubhanallahMeaning": "අල්ලාහ්ට මහීමය වේවා",
+  "tasbihResetTooltip": "නැවත සකසන්න",
+  "tasbihCompleteTitle": "Tasbih සම්පූර්ණයි",
+  "tasbihCompleteMessage": "අල්ලාහ් ඔබගේ dhikr පිළිගන්නාවා.",
+  "tasbihTapHint": "ගණන් කිරීමට ඕනෑම තැනක තට්ටු කරන්න",
+  "tasbihatScreenTitle": "සලාත් මාර්ගෝපදේශය",
+  "tasbihatScreenSubtitle": "සලාතයේ මහිමපැවසීම්",
+  "tasbihatScreenDescription": "දෛනික සලාත් අතරතුර සහ පසුව කියවෙන මහිමපැවසීම් පිළිබඳ සම්පූර්ණ මාර්ගෝපදේශයක් — Ahl al-Bayt (a) සම්ප්‍රදාය අනුව.",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "3වන හා 4වන රකාආහ්හි කියවනු ලැබේ",
+  "tasbihatArba3Info": "ශියා fiqh අනුව, Tasbiḥāt al-Arbaʿa, Dhuhr, Asr, Maghrib සහ Isha සලාත්හි 3වන හා 4වන රකාආහ්වල Surah al-Fatiha වෙනුවට කියවනු ලැබේ. එය එක් වරක් කියවීම wājib වන අතර, තුන් වරක් කියවීම mustaḥabb වේ.",
+  "tasbihatArba3Translation": "අල්ලාහ්ට මහීමය වේවා · සියලු ප්‍රශංසා අල්ලාහ්ටය\nඅල්ලාහ් හැර වෙනත් දෙවියෙකු නැත · අල්ලාහ් ඉතාමත් ශ්‍රේෂ්ඨය",
+  "tasbihatArba3CompleteTitle": "කියවීම සම්පූර්ණයි",
+  "tasbihatArba3CompleteMessage": "ඔබගේ සලාතය පිළිගැනේවා — ආමීන්",
+  "tasbihatArba3TapHint": "සෑම කියවීමකටම පසු තට්ටු කරන්න",
+  "tasbihatZahraSubtitle": "සෑම සලාතයකටම පසු · මණි 100",
+  "tasbihatZahraOriginLabel": "මූලය",
+  "tasbihatZahraHadith": "ලේඩි ෆාතිමා අල්-සහ්රා (sa) නබිතුමා ﷺ අයදුම් කළේ සේවකයෙකු සඳහාය. එවිට එතුමා පැවසුවේ: \"එයට වඩා හොඳ දෙයක් මම ඔබට මග පෙන්වන්නම්ද? සෑම සලාතයකටම පසු Subḥānallāh 33 වරක්, Alḥamdulillāh 33 වරක්, සහ Allāhu Akbar 34 වරක් කියවන්න. එය ඔබට සේවකයෙකුට වඩා හොඳය.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, 85 වන කාණ්ඩය",
+  "tasbihatZahraOpenCounter": "Tasbīḥ ගණකය විවෘත කරන්න",
+  "tasbihatDuasTitle": "නිර්දේශිත දුආ",
+  "tasbihatDuasSubtitle": "ඔබගේ සලාතය සම්පූර්ණ වූ පසු",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "සෑම අනිවාර්ය සලාතයකටම පසු",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "සෑම අනිවාර්ය සලාතයකටම පසු Āyat al-Kursī කියවන්නා, ඔහු සහ ජන්නතය අතර ඇත්තේ මරණය පමණි. ඉමාම් අල්-බාකීර් (a) එය Qur'an හි වඩාත්ම ශ්‍රේෂ්ඨ ආයතවලින් එකක් බව පැවසුවේය.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "සෑම සලාතයකටම පසු · සියලු දුආවන් මුද්‍රා කරයි",
+  "tasbihatDuaSalawatSource": "ඉමාම් අල්-සාදික් (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "නබිතුමා ﷺ සහ ඔහුගේ පවිත්‍ර පවුල (Āl Muḥammad) මත salawāt යැවීම සෑම dua එකක්ම මුද්‍රා කිරීමට නිර්දේශිතය. ඉමාම් අල්-සාදික් (a) පැවසුවේ: \"මුහම්මද් සහ ඔහුගේ පවුල මත ṣalawāt යවන තුරු dua එකක් අත්හිටුවී පවතින බවය.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "සෑම සලාතයකටම පසු · අපේ කාලයේ ඉමාම් වෙනුවෙන්",
+  "tasbihatDuaFarajSource": "ඉමාම් අල්-හසන් අල්-අස්කරි (a) විසින් ඉගැන්වූ",
+  "tasbihatDuaFarajNote": "දොළොස්වන ඉමාම් වන ඉමාම් අල්-මහ්දි (af) නැවත පෙනී සිටීම සඳහා වූ dua එකකි. එය ඔහුගේ පියා විසින් ඉගැන්වීය. ජීවමාන ඉමාම්ට භක්තියක් වශයෙන් ශියා භක්තිකයින් විසින් සෑම සලාතයකටම පසු දෛනිකව කියවනු ලැබේ.",
+  "tasbihatDuaTasbihFatimaTitle": "ලේඩි ෆාතිමාගේ Tasbīḥ",
+  "tasbihatDuaTasbihFatimaWhen": "මග්රිබ් සහ ඉෂා පසු · විශේෂයෙන් නිර්දේශිතයි",
+  "tasbihatDuaTasbihFatimaSource": "ඉමාම් අල්-බාකීර් (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "ඉමාම් අල්-බාකීර් (a) පැවසුවේ, නින්දට පෙර ඉෂා පසු Tasbīḥ al-Zahrā කියවීම, නෆ්ල් සලාත් 1000 රකාආහ් වලට වඩා හොඳ බවය. එහි ආලෝකය අහසට නැඟේ.",
+  "tasbihFatimaGiftPre": "නබිතුමාගෙන් ලැබුණු තෑග්ගක්",
+  "tasbihFatimaGiftPost": "සෑම සලාතයකටම පසු කියවනු ලැබේ",
+  "prayerTrackerTitle": "සලාත් අනුගමනය",
+  "prayerTrackerPrayed": "සලාත් කළා",
+  "prayerTrackerDayStreak": "දින {count} අඛණ්ඩව",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "අද දවසේ සියලුම සලාත් සම්පූර්ණයි. අල්ලාහ් ඒවා පිළිගන්නාවා.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "අද සම්පූර්ණ කර ඇත",
+  "dhikrTrackerNotDoneToday": "අද කර නැත",
+  "dhikrTrackerDayStreak": "දින {count} අඛණ්ඩව",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Tasbīḥ මතක් කිරීම",
+  "dhikrReminderDescription": "ඔබගේ Tasbīḥ al-Zahrā (SA) කියවීමට මෘදු දෛනික මතක් කිරීමක්.",
+  "dhikrReminderEnable": "Tasbīḥ මතක් කිරීම සක්‍රීය කරන්න",
+  "dhikrReminderTimeLabel": "මතක් කිරීමේ වේලාව",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "දෛනික හදීස්",
+  "hadithLabelArabic": "අරාබි",
+  "hadithLabelTranslation": "පරිවර්තනය",
+  "hadithBadge": "හදීස්",
+  "hadithShare": "මෙම හදීස් බෙදාගන්න",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nAyara හරහා",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "පෙර",
+  "hadithNavNext": "ඊළඟ",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "Masumeen 14 දෙනා",
+  "imamsScreenSubtitle": "නබිතුමා, ලේඩි ෆාතිමා සහ දොළොස් ඉමාම්වරු — ඉස්ලාමයේ දෝෂ රහිත මගපෙන්වන්නෝ",
+  "imamLabelBorn": "උපත",
+  "imamLabelMartyrdom": "ශහීද් බව",
+  "imamLabelStatus": "තත්ත්වය",
+  "imamSectionBiography": "ජීවചരිතය",
+  "imamSectionFamousSaying": "ප්‍රසිද්ධ ප්‍රකාශය",
+  "imamRoleProphet": "අවසාන නබිතුමා",
+  "imamRoleInfallible": "දෝෂ රහිතයා",
+  "imamOrdinal1": "1වන ඉමාම්",
+  "imamOrdinal2": "2වන ඉමාම්",
+  "imamOrdinal3": "3වන ඉමාම්",
+  "imamOrdinal4": "4වන ඉමාම්",
+  "imamOrdinal5": "5වන ඉමාම්",
+  "imamOrdinal6": "6වන ඉමාම්",
+  "imamOrdinal7": "7වන ඉමාම්",
+  "imamOrdinal8": "8වන ඉමාම්",
+  "imamOrdinal9": "9වන ඉමාම්",
+  "imamOrdinal10": "10වන ඉමාම්",
+  "imamOrdinal11": "11වන ඉමාම්",
+  "imamOrdinal12": "12වන ඉමාම්",
+  "duaAudioScreenTitle": "Dua අසා බලන්න",
+  "duaAudioScreenSubtitle": "අසන්න dua එකක් තෝරන්න. Play හෝ pause කිරීමට tile එක තට්ටු කරන්න.",
+  "duaAudioComingSoonMessage": "මෙම dua සඳහා audio එක ඉදිරියේදී එන update එකකින් ලබා ගත හැකි වේ.",
+  "duaAudioClose": "වසන්න",
+  "duaAudioError": "Audio එක පූරණය කළ නොහැකි විය. කරුණාකර ඔබගේ සම්බන්ධතාව පරීක්ෂා කරන්න.",
+  "duaAudioMetaTransmittedBy": "ප්‍රචාරකයා",
+  "duaAudioMetaOccasion": "අවස්ථාව",
+  "duaAudioMetaDuration": "කාලය",
+  "quickActionDailyHadith": "දෛනික හදීස්",
+  "quickAction14Masumeen": "Masumeen 14",
+  "quickActionListenDuas": "අසන්න",
+  "quickActionTasbihat": "සලාත් මාර්ගෝපදේශය",
+  "pilgrimageSectionTitle": "ශුද්ධ ගමන",
+  "pilgrimageSectionSubtitle": "හජ් සහ උම්රා සඳහා සම්පූර්ණ මාර්ගෝපදේශ — මක්කාහි අල්ලාහ්ගේ ශුද්ධ ගෘහය වෙත ගමන",
+  "hajjCardTitle": "හජ්",
+  "hajjCardSubtitle": "ඉස්ලාමයේ පස්වැනි කුළුණ",
+  "hajjCardDescription": "වාර්ෂික මහා හජ් — හැකියාව ඇති සෑම මුස්ලිම්වරයෙකුටම ජීවිතයේ එක් වරක් අනිවාර්යය",
+  "hajjScreenTitle": "හජ් මාර්ගෝපදේශය",
+  "hajjScreenSubtitle": "මහා හජ් සඳහා පියවරෙන් පියවර මාර්ගෝපදේශය",
+  "umrahCardTitle": "උම්රා",
+  "umrahCardSubtitle": "කුඩා හජ්",
+  "umrahCardDescription": "වසරේ ඕනෑම වේලාවක සිදු කළ හැකි ගැඹුරු ආධ්‍යාත්මික ත්‍යාග ලැබෙන ගමනක්",
+  "umrahScreenTitle": "උම්රා මාර්ගෝපදේශය",
+  "umrahScreenSubtitle": "කුඩා හජ් සඳහා පියවරෙන් පියවර මාර්ගෝපදේශය",
+  "pilgrimageStepsTitle": "අනුෂ්ඨාන සහ පියවර",
+  "pilgrimageImportantNotesTitle": "වැදගත් සටහන්",
+  "pilgrimageDuaTitle": "මෙම පියවර සඳහා දුආ",
+  "pilgrimageJafariNoteTitle": "ජා'ෆරි ෆික්හ් සටහන",
+  "pilgrimageComplete": "✓ සම්පූර්ණයි",
+  "pilgrimageMarkDone": "සම්පූර්ණ ලෙස සලකන්න",
+  "pilgrimageProgress": "{done} {total} පියවර",
+  "pilgrimageReadTime": "~{minutes} මිනිත්තු",
+  "pilgrimageShiaNoteTitle": "ශියා හජ්කරුවන්",
+  "pilgrimageShiaNoteBody": "ශියා හජ්කරුවන් සාම්ප්‍රදායිකව මදීනා වෙතද ගොස් නබි මුහම්මද් ﷺ තුමාගේ Masjid al-Nabawi හි පිහිටි කබරිය සහ Jannat al-Baqi හි ඉමාම්වරුන්ගේ කබරිය යන්න. මෙම සංචාරයන් ගැඹුරු ආධ්‍යාත්මික වැදගත්කමක් දරන අතර, බොහෝ ශියා මුස්ලිම්වරුන්ට එය ගමනේ අභින්න කොටසක් ලෙස සැලකේ.",
+  "hajjIntro": "හජ් යනු ඉස්ලාමයේ පස්වැනි කුළුණයි. ශාරීරික හා ආර්ථික හැකියාව ඇති සෑම මුස්ලිම්වරයෙකුටම ජීවිතයේ එක් වරක් එය අනිවාර්ය වේ. එය Dhul Hijjah මාසයේ සිදු කෙරෙන අතර, නබි ඉබ්‍රාහිම් (AS), ඔහුගේ පුත් ඉස්මාඉල් (AS), සහ ලේඩි හජර්ගේ පියවර අනුගමනය කරයි. ශියා මුස්ලිම්වරුන් සඳහා, හජ් යනු මදීනාහි නබිතුමා ﷺ සහ Ahlul Bayt විරාම ස්ථාන දර්ශනය කිරීමේ ගැඹුරු ආශීර්වාදයද ඇතුළත්ය.",
+  "umrahIntro": "උම්රා යනු මක්කා වෙත සිදු කරන කුඩා හජ් වන අතර, හජ්ට වඩා වෙනස්ව, වසරේ ඕනෑම වේලාවක සිදු කළ හැක. එය අනිවාර්ය නොවුවත්, විශාල ආධ්‍යාත්මික ත්‍යාග ලබා දෙන අතර ඉතාමත් නිර්දේශිත ඉබාදතක් ලෙස සැලකේ. එය හජ් සමඟ සමහර අනුෂ්ඨාන බෙදා ගන්නා නමුත්, කෙටි වන අතර ප්‍රධාන කාර්යයන් හතරකින් සමන්විතය."
 }

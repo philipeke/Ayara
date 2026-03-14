@@ -1,585 +1,629 @@
 {
   "@@locale": "ps",
-
   "appTitle": "Ayara",
-
-  "languageSelectTitle": "خپلې ژبې وټاکئ",
-  "languageSelectSub": "تاسو کولی شئ دې وروسته په ترتیباتو کې بدل کړئ",
+  "languageSelectTitle": "خپله ژبه وټاکئ",
+  "languageSelectSub": "تاسو دا وروسته په Settings کې بدلولی شئ",
   "actionContinue": "دوام ورکړئ",
   "languageSuggestedHeader": "وړاندیز شوې",
   "languageAllHeader": "ټولې ژبې",
   "languageSuggestedBadge": "وړاندیز شوې",
-  "languageSearchHint": "لټون کړئ…",
-
-  "planGrace": "معیاري",
-  "planBlessed": "برکت",
-
-  "categoryDailyGuidance": "روزنې ورکړئ",
-  "categoryFaithTrust": "ایمان او باور",
-  "categoryPrayerReflection": "نماز تفکر",
-  "categoryHopeDifficultTimes": "صبر او امید",
-  "categoryForgiveness": "معافي وخواهي",
-  "categoryLoveCompassion": "رحمت او شفقت",
-  "categoryStrengthCourage": "ایمان او قوت",
-  "categoryGratitude": "شکرگزاری",
-  "categoryPurposeCalling": "د ژوند مقصد",
-  "categoryFamilyRelationships": "کورنۍ تعلقات",
-  "categoryPeaceAnxietyRelief": "داخلي سلام",
-  "categoryWisdomOfJesus": "حکمت انبیاء",
-  "categoryHumilityCharacter": "عاجزي او خلق",
-  "categoryOvercomingTemptation": "وسوسې پر غلبه",
-  "categoryEveningReflection": "شام ذکر",
-  "categoryCustom": "شخصي تفکر",
-  "dhikrMeaningSubhanallah": "د الله جلال",
-  "dhikrMeaningAlhamdulillah": "ټول ستاینې د الله لپاره دي",
+  "languageSearchHint": "لټون…",
+  "planBasic": "معیاري",
+  "planPremium": "Wilaya",
+  "categorySlot01": "ورځنی لارښود",
+  "categorySlot02": "ایمان او باور",
+  "categorySlot03": "د لمانځه تأمل",
+  "categorySlot04": "صبر او هیله",
+  "categorySlot05": "بښنه وغواړئ",
+  "categorySlot06": "رحمت او مهرباني",
+  "categorySlot07": "د ایمان ځواک",
+  "categorySlot08": "منندوی زړه",
+  "categorySlot09": "د ژوند موخه",
+  "categorySlot10": "د کورنۍ اړیکې",
+  "categorySlot11": "داخلي سکون",
+  "categorySlot12": "د پیغمبر حکمت",
+  "categorySlot13": "ښه اخلاق",
+  "categorySlot14": "له وسوسې سره مقابله",
+  "categorySlot15": "د ماښام ذکر",
+  "categoryCustom": "شخصي تأمل",
+  "dhikrMeaningSubhanallah": "الله پاک دی",
+  "dhikrMeaningAlhamdulillah": "ټول ثنا او ستاینه یوازې د الله لپاره ده",
   "dhikrMeaningAllahuAkbar": "الله تر ټولو لوی دی",
-  "quranVerseHeartAtRest": "بې شکه، د الله په یاد کې زړونه ارام مومي.",
-
-  "promptHint": "د اسلامي رهنمایي او تفکر لپاره کټګوري وټاکئ",
-
+  "quranVerseHeartAtRest": "بېشکه د الله په یاد سره زړونه سکون مومي.",
+  "promptHint": "د اسلامي لارښوونې او تأمل لپاره یوه کټګوري وټاکئ",
   "currentLanguage": "اوسنۍ ژبه",
   "settingsLanguage": "د ژبې ترتیبات",
   "settingsTitle": "ترتیبات",
-  "chooseLanguage": "خپلې ژبې وټاکئ",
+  "chooseLanguage": "خپله ژبه وټاکئ",
   "continueCta": "دوام ورکړئ",
-
-  "promptDailyGuidance": "یو لنډ، عملي روزنې ورکړئ چې په سني اسلامي ایمان کې ریښه لري — قرآن، حدیث، او د پیغمبر محمد ﷺ تعلیمات پر بنسټ. هر وار نوې نقطه غوره کړئ: د اسلامي اخلاقو فضیلت، سنت سے حقیقت، د پیغمبر ﷺ صحابیانو حکمت، یا د اسلامي روایت ساکت عمل. یو قرآن آیت (سورة:آیت) او ۱-۲ جملې تفکر شامل کړئ چې ټول ورځ سره وړل کیدی شي. اگر مناسب وي نو د اسلامي کیلنډر یا مهم تاریخ سره نښلول.",
-
-  "promptFaithTrust": "یو لنډ اسلامي تفکر د ایمان (ایمان) او د الله تعالیٰ پلان کې باور (توکل) په اړه. قرآن، د پیغمبر ﷺ نمونې، او صحابیانو کی ایمان کې ریښه لري. هر وار موضوع تبدیل کړئ: د نامعلومو دوران کې الله تعالیٰ ته باور، د الهی حکمت پر توکل، د امتحانات میدان صبر، یا روزمره ژوند میں خاموش استقامت. یو قرآن آیت او یو صادقانه قدم امروز شامل کړئ چې د اسلامي روحاني حکمت سے نکالا شوې وي.",
-
-  "promptPrayerReflection": "یو لنډ اسلامي نماز تفکر چې نماز، دعا، یا ذکر میں ریشہ رکھتا ہو۔ ہر بار شکل بدلیں: صبح یا شام یادگاری (اذکار)، پنج یومیہ نمازوں پر تفکر، قرآنی آیت کا غور و فکر، یا خالصانہ دعا۔ ایک قرآنی آیت اور استعمال شدہ نماز کی شکل کا نام شامل کریں۔",
-
-  "promptHopeDifficultTimes": "یو اسلامي تفکر صبر (صبر) او د مشکلات دوران امید په اړه۔ قرآن تعلیمات د آزمایشاتو، انبیاء کی استقامت، او د الله تعالیٰ رحمت د سخت لحظاتو میں سے نکالیں۔ هر وار زاویہ تبدیل کریں۔ یک قرآنی آیت اور اسلامی روایت سے ایک حوصلہ افزا نقطہ نظر شامل کریں۔",
-
-  "promptForgiveness": "د معافي (توبة) اور الله تعالیٰ کی رحمت کے بارے میں ایک دانائی سے بھری اسلامی تفکر۔ قرآن میں توبہ، الله کی رحمت، اور پیغمبر ﷺ کی معافی کی مثال سے۔ موضوع تبدیل کریں: الله تعالیٰ کی طرف واپسی، دوسروں کو معاف کرنا، تعلقات کی شفا، یا غلطیوں کے بعد الله کی رحمت میں یقین۔ یک قرآنی آیت اور ایک عملی قدم شامل کریں۔",
-
-  "promptLoveCompassion": "یو لنډ اسلامي تفکر رحمت (رحمت) اور روزمره ژوند میں شفقت په اړه۔ پیغمبر ﷺ کی مثال، احسان (کمال) کا تصور، اور خاندان، پڑوسیوں، اور کمزوروں کے لیے شفقت کی اسلامی تعلیمات سے۔ یک قرآنی آیت اور آج عملی کرنے کے لیے ایک چھوٹی شفقت شامل کریں۔",
-
-  "promptStrengthCourage": "ایمان پر مبنی طاقت اور حوصلہ کے بارے میں ایک اسلامی تفکر۔ انبیاء کی مثالوں، ابتدائی مسلم معاشرے، اور سختی میں استقلال پر کاربند ایماندار سے۔ ہر بار موضوع تبدیل کریں: ایمان سے حوصلہ، نماز میں طاقت، خوف کے وقت الله پر توکل، یا مشکل میں استقامت۔ یک قرآنی آیت اور ایک مختصر دعا یا یادگاری کی عبارت شامل کریں۔",
-
-  "promptGratitude": "شکرگزاری (شکر) د الله تعالیٰ لپاره د اسلامي تفکر۔ قرآنی تعلیم اور نبوی روایت میں ریشہ رکھیں۔ زاویہ بدلیں: مشکل میں شکرگزاری، چھوٹی نعمتوں کی قدر، دن کا آغاز الله کی حمد سے، یا روزمره ژوند میں الله کی ہدایت کی شناخت۔ یک قرآنی آیت اور ایک شکرگزاری کی عمل شامل کریں۔",
-
-  "promptPurposeCalling": "الله تعالیٰ کی عبادت اور صالح کے ساتھ زندگی گزارنے کے بارے میں ایک اسلامی تفکر۔ قرآنی تعلیمات مقصد، دوسروں کی خدمت، اور اپنی صلاحیتوں کو بھلائی کے لیے استعمال سے۔ ہر بار موضوع تبدیل کریں: خاندان اور معاشرے کی خدمت، استخارہ کے ذریعے ہدایت تلاش، نیت کے ساتھ رہنا، یا عام کام میں مطلب تلاش کرنا۔ یک قرآنی آیت اور دو فکر انگیز سوالات شامل کریں۔",
-
-  "promptFamilyRelationships": "خاندان اور تعلقات کی دانائی سے بھری اسلامی ہدایت قرآنی تعلیم اور پیغمبر ﷺ کی مثال میں ریشہ رکھتے ہوئے۔ ہر بار موضوع تبدیل کریں: خاندان میں شفقت، تنازعات میں صبر، والدین کی عزت، ایمان میں بچوں کی پرورش، یا شادی کو مضبوط کرنا۔ یک قرآنی آیت اور ایک رشتہ داری کی عمل شامل کریں۔",
-
-  "promptPeaceAnxietyRelief": "الله تعالیٰ کی یادگاری (ذکر) اور اس کی منصوبے پر توکل کے ذریعے داخلی سلام تلاش کے بارے میں ایک سکون بخش اسلامی تفکر۔ قرآنی تعلیمات دل کی سکون، نماز، اور الله کی مرضی کے سامنے سرتسلیم سے۔ ہر بار طریقہ تبدیل کریں اور یک قرآنی آیت اور اسلامی روایت سے ایک سادہ بنیادی عمل شامل کریں۔",
-
-  "promptWisdomOfJesus": "اسلام میں سکھائے گئے انبیاء کی حکمت کا ایک مختصر ٹکڑہ۔ قرآن یا حدیث سے اور اسلامی علماء نے اس تعلیم کو کیسے سمجھا ہے یہ مختصر وضاحت۔ ہر بار موضوع تبدیل کریں: خلق، صبر، عاجزی، ایمان، یا روزمره رویہ۔ ایک قرآنی آیت یا حدیث حوالہ اور ایک عملی استعمال شامل کریں۔",
-
-  "promptHumilityCharacter": "عاجزی (تواضع) اور خوب خلق (اخلاق) کے بارے میں ایک اسلامی تفکر۔ قرآنی تعلیمات، پیغمبر ﷺ کی مثال، اور اسلامی خلق کی ترقی کی روایت سے۔ موضوع تبدیل کریں: قیادت میں عاجزی، غلطیوں کو تسلیم کرنا، دوسروں کے ساتھ احترام، یا خود غور و فکر کے ذریعے روحانی نمو۔ یک قرآنی آیت اور ایک عمل شامل کریں۔",
-
-  "promptOvercomingTemptation": "وسوسے کی مزاحمت اور سیدھی راہ پر رہنے کے بارے میں ایک اسلامی تفکر۔ قرآنی ہدایت، الله تعالیٰ کی یادگاری (ذکر)، نماز (نماز)، اور اللہ تعالیٰ جنہوں نے مشکلات پر غلبہ پایا ان کی مثالوں سے۔ ہر بار زاویہ تبدیل کریں۔ یک قرآنی آیت اور اگلے ۲۴ گھنٹوں کے لیے ایک عملی حکمت عملی شامل کریں۔",
-
-  "promptEveningReflection": "شام کی یادگاری (اذکار المساء) کی روایت میں ریشہ رکھتا ہوا ایک پرسرار اسلامی شام کی تفکر۔ شکرگزاری، خود جانچ (محاسبہ)، اور آرام سے پہلے الله تعالیٰ پر توکل کی حوصلہ افزائی کریں۔ دن کے بارے میں ۳-۵ مختصر غور و فکر کے سوالات، ایک مختصر اختتامی دعا، اور یک قرآنی آیت شامل کریں۔",
-
-  "wordCount": "{count, plural, one {{count} لفظ} other {{count} الفاظ}}",
-
-  "optionsCta": "اختیارات",
-  "newCta": "نیا",
-  "actionsTitle": "تاسو کومه کومه کار کول غواړئ؟",
-  "copy": "کاپي کړئ",
-  "share": "شریک کړئ",
-  "close": "بند کړئ",
-  "copiedToast": "کلیپ بورډ ته نقل شو",
-
+  "wordCount": "{count, plural, one {{count} کلمه} other {{count} کلمې}}",
+  "optionsCta": "اختیارونه",
+  "newCta": "نوی",
+  "actionsTitle": "تاسو څه کول غواړئ؟",
+  "copy": "کاپي",
+  "share": "شریکول",
+  "close": "تړل",
+  "copiedToast": "کلیپبورډ ته کاپي شو",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "د کیټګوري برچې شاملې ای میل / شریک کولو موضوع.",
+    "description": "د ایمیل / شریکولو د موضوع کرښه چې د کټګورۍ نوم پکې وي.",
     "placeholders": {
-      "category": { "type": "String", "example": "روزنې ورکړئ" }
+      "category": {
+        "type": "String",
+        "example": "ورځنی لارښود"
+      }
     }
   },
-
-  "regenerateErrorTitle": "نوی ځواب تیار کولو سے نشکې",
-  "regenerateErrorBody": "{error}\n\nتاسو دوبارې هڅه کول غواړئ؟",
+  "regenerateErrorTitle": "نوی ځواب جوړ نه شو",
+  "regenerateErrorBody": "{error}\n\nایا غواړئ بیا هڅه وکړئ؟",
   "@regenerateErrorBody": {
-    "description": "هغه وخت ښودل کیږي چې AI ځواب دوبارہ تیار کرنا ناکام شو۔",
+    "description": "هغه مهال ښودل کېږي چې د AI ځواب بیا جوړول ناکام شي.",
     "placeholders": {
-      "error": { "type": "String", "example": "د شبکې خرابي" }
+      "error": {
+        "type": "String",
+        "example": "د شبکې تېروتنه"
+      }
     }
   },
-
-  "cancelCta": "لغو کړئ",
-  "retryCta": "دوبارە کوشش کړئ",
-
-  "authTitle": "خپل حساب جوړ کړئ",
-  "continueAsGuest": "د مهمان په توګه دوام ورکړئ",
-  "signInGoogle": "Google سے لاگ ان کریں",
-  "signInApple": "Apple سے لاگ ان کریں",
-  "signInEmail": "ای میل سے لاگ ان کریں",
-  "upgradeWithApple": "Apple سے دوام ورکړئ",
-  "mustAccept": "تاسو باید شرایط قبول کړئ او رازداري پالیسی تسلیم کړئ۔",
-  "termsLabel": "زه د خدمت شرایط قبول کوم",
-  "privacyLabel": "ما رازداری پالیسی پڑھی دی",
-  "marketingOptIn": "زه خبرونه اور پیشنہادات وړانديز کول سے موافق يم",
-  "openTerms": "خدمت کی شرائط",
-  "openPrivacy": "رازداری پالیسی",
-
-  "accountSection": "حساب",
-  "guestMode": "مهمان موډ",
-  "signedIn": "لاگ ان شوې",
-  "upgradeHint": "ډیوایسز په وسیلو تاسو تفکرونه محفوظ کړئ د حساب جوړولو سے۔",
-  "upgradeWithGoogle": "Google سے دوام ورکړئ",
-  "signOut": "لاگ آؤٹ کریں",
-
-  "snackUpgraded": "Google سے حساب اپ گریڈ شوە ✅",
-  "snackSignedIn": "Google سے لاگ ان شوە ✅",
-  "snackSignedOut": "لاگ آؤٹ شوە",
-  "snackSignedInApple": "Apple سے لاگ ان شوە ✅",
-  "snackSignedInGoogle": "Google سے لاگ ان شوە ✅",
-  "snackUpgradedApple": "Apple سے حساب اپ گریڈ شوە ✅",
-  "snackUpgradedGoogle": "Google سے حساب اپ گریڈ شوە ✅",
-
-  "historyTitle": "پخواني تفکرونه",
-  "historyOpenCta": "پخواني تفکرونه",
-  "historyEmpty": "هنوز کوئی محفوظ تفکرات نہیں۔",
-  "historyDeleteTitle": "تفکر حذف کریں؟",
-  "historyDeleteBody": "یہ منتخب شے کو مستقل طور سے ہٹا دے گا۔",
-  "deleteCta": "حذف کریں",
-
-  "historyButton": "پخواني تفکرونه",
-  "historyEmptyTitle": "هنوز تفکرات نہیں",
-  "historyEmptyBody": "پہلے کچھ تیار کریں — آپ کی محفوظ شدہ چیزیں یہاں ظاہر ہوں گی۔",
-  "historyDelete": "حذف کریں",
-
-  "footerTitle": "ایمان، صبر اور رحمت کے ساتھ۔",
-  "footerSubtitle": "ایک وقت میں ایک قدم۔",
-  "genericErrorSnack": "کچھ غلط ہوا — براہ کرم ایک لمحے میں دوبارہ کوشش کریں۔",
-
-  "upgradeAccountCta": "ڈیوایسز سے اپني تفکرات محفوظ کریں - حساب بنائیں",
-  "deleteAccount": "حساب حذف کریں",
-  "exportData": "میرا ڈیٹا نکالیں",
-
+  "cancelCta": "لغوه",
+  "retryCta": "بیا هڅه وکړئ",
+  "authTitle": "خپل اکاونټ جوړ کړئ",
+  "continueAsGuest": "د مېلمه په توګه دوام ورکړئ",
+  "signInGoogle": "له Google سره ننوځئ",
+  "signInApple": "له Apple سره ننوځئ",
+  "signInEmail": "د ایمیل له لارې ننوځئ",
+  "upgradeWithApple": "له Apple سره دوام ورکړئ",
+  "mustAccept": "تاسو باید د خدمت شرطونه ومنئ او د محرمیت تګلاره تایید کړئ.",
+  "termsLabel": "زه د خدمت شرطونه منم",
+  "privacyLabel": "ما د محرمیت تګلاره لوستې ده",
+  "marketingOptIn": "زه د خبرونو او وړاندیزونو ترلاسه کولو سره موافق یم",
+  "openTerms": "د خدمت شرطونه",
+  "openPrivacy": "د محرمیت تګلاره",
+  "accountSection": "اکاونټ",
+  "guestMode": "د مېلمه حالت",
+  "signedIn": "ننوتل شوي",
+  "upgradeHint": "د اکاونټ په جوړولو سره خپل تأملات په ټولو وسایلو کې خوندي کړئ.",
+  "upgradeWithGoogle": "له Google سره دوام ورکړئ",
+  "signOut": "وتل",
+  "snackUpgraded": "اکاونټ د Google له لارې لوړ شو ✅",
+  "snackSignedIn": "د Google له لارې ننوتل وشول ✅",
+  "snackSignedOut": "وتل وشول",
+  "snackSignedInApple": "د Apple له لارې ننوتل وشول ✅",
+  "snackSignedInGoogle": "د Google له لارې ننوتل وشول ✅",
+  "snackUpgradedApple": "اکاونټ د Apple له لارې لوړ شو ✅",
+  "snackUpgradedGoogle": "اکاونټ د Google له لارې لوړ شو ✅",
+  "historyTitle": "پخواني تأملات",
+  "historyOpenCta": "پخواني تأملات",
+  "historyEmpty": "لا تر اوسه کوم خوندي شوي تأملات نشته.",
+  "historyDeleteTitle": "تأمل پاک شي؟",
+  "historyDeleteBody": "دا به ټاکل شوی توکی د تل لپاره پاک کړي.",
+  "deleteCta": "پاکول",
+  "historyButton": "پخواني تأملات",
+  "historyEmptyTitle": "لا تر اوسه کوم تأمل نشته",
+  "historyEmptyBody": "لومړی یو څه جوړ کړئ — ستاسو خوندي شوي توکي به دلته ښکاره شي.",
+  "historyDelete": "پاکول",
+  "footerTitle": "له Wilaya، ایمان او صبر سره",
+  "footerSubtitle": "هر ځل یوه دعا",
+  "genericErrorSnack": "یو څه ناسم شول — مهرباني وکړئ لږ وروسته بیا هڅه وکړئ.",
+  "upgradeAccountCta": "خپل تأملات په ټولو وسایلو کې خوندي کړئ – اکاونټ جوړ کړئ",
+  "deleteAccount": "اکاونټ پاک کړئ",
+  "exportData": "زما معلومات راوباسئ",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Firebase UID دکھانے سے پہلے لیبل۔",
+    "description": "هغه لیبل چې د داخلي Firebase UID تر ښودلو مخکې راځي.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "آسانی سے 🐯\nAI کو اگلے سے پہلے ایک لمحہ چاہیے…",
-  "rateDailyLimit": "تاسو اوس وخت تفکرات ختم کړې دي۔\nنوی تفکرات وړانديز کړئ یا برکت ته اپ گریڈ کریں۔",
-  "rateCreditsExhausted": "تاسو ټول تفکرات استعمال کړې دي۔\nسر کې اضافې یا برکت ته اپ گریڈ کریں دوام ورکول لپاره۔",
-  "rateGraceReflectionsExhausted": "تاسو اوس وخت تفکرات ختم کړې دي۔\nنوی تفکرات وړانديز کړئ یا برکت ته اپ گریڈ کریں۔",
-  "rateReflectionsExhausted": "تاسو ټول تفکرات استعمال کړې دي۔\nسر کې اضافې یا برکت ته اپ گریڈ کریں دوام ورکول لپاره۔",
-
-  "blessedDescription": "برکت اضافي خصوصیات، مستقبل کے زمرے، اور ایک خاص بیج اضافي کریں۔",
-  "championDescription": "برکت اضافي خصوصیات، مستقبل کے زمرے، اور ایک خاص بیج اضافي کریں۔",
-
-  "ratePlanExhausted": "تاسو کې تفکرات خالي دي اوس وخت. منصوبه: {plan}.",
+  "rateLocalThrottle": "لږ ارام 🐯\nAyara ته د بل ځواب مخکې لږ وخت پکار دی…",
+  "rateDailyLimit": "ستاسو تأملات اوس لپاره ختم شوي دي.\nنور تأملات واخلئ یا Wilaya ته لوړ شئ.",
+  "rateCreditsExhausted": "تاسو خپل ټول تأملات کارولي دي.\nد دوام لپاره ټاپ-اپ وکړئ یا Wilaya ته لوړ شئ.",
+  "rateGraceCreditsExhausted": "ستاسو تأملات اوس لپاره ختم شوي دي.\nنور تأملات واخلئ یا Wilaya ته لوړ شئ.",
+  "premiumDescription": "Wilaya پریمیم ځانګړتیاوې، راتلونکې کټګورۍ او ځانګړی بېج پرانیزي.",
+  "ratePlanExhausted": "ستاسو تأملات اوس خالي دي. پلان: {plan}.",
   "@ratePlanExhausted": {
-    "description": "ہغه وخت ښودل شی چې کاروری کې تفکرات ختم شوي وو مگر وجه عام دی۔",
+    "description": "هغه مهال ښودل کېږي چې د کارونکي تأملات ختم شي او دلیل یې عمومي وي.",
     "placeholders": {
-      "plan": { "type": "String", "example": "معیاري یا برکت" }
+      "plan": {
+        "type": "String",
+        "example": "معیاري یا Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "تاسو کې تفکرات چيک کول سے نشکې: {message}",
+  "rateCheckFailed": "ستاسو تأملات ونه کتل شول: {message}",
   "@rateCheckFailed": {
-    "description": "ہغه وخت ښودل شی چې callable فنکشن خرابي پيغام بياديږي۔",
+    "description": "هغه مهال ښودل کېږي چې callable function د تېروتنې پیغام راولي.",
     "placeholders": {
-      "message": { "type": "String", "example": "شبکې خرابي" }
+      "message": {
+        "type": "String",
+        "example": "د شبکې تېروتنه"
+      }
     }
   },
-
-  "rateCheckGenericError": "تاسو کې تفکرات چيک کولو حين کومه کار غلط شوې۔",
-  "aiFallbackGeneric": "کچھ غلط ہوا — براہ کرم ایک لمحے میں دوبارہ کوشش کریں۔",
-
-  "limitSectionTitle": "تفکرات",
-  "limitTodayLabel": "استعمال",
-  "limitCreditsLabel": "باقي تفکرات: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "منصوبه: {plan}",
+  "rateCheckGenericError": "ستاسو د تأملاتو د کتلو پر مهال ستونزه رامنځته شوه.",
+  "aiFallbackGeneric": "یو څه ناسم شول — مهرباني وکړئ لږ وروسته بیا هڅه وکړئ.",
+  "limitSectionTitle": "تأملات",
+  "limitTodayLabel": "کارونه",
+  "limitCreditsLabel": "پاتې تأملات: {credits}",
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
+  "limitPlanLabel": "پلان: {plan}",
   "@limitPlanLabel": {
-    "description": "موجودہ رکنیت منصوبے کا نام ظاہر کرتا ہے۔",
+    "description": "د اوسني ګډون پلان نوم ښيي.",
     "placeholders": {
-      "plan": { "type": "String", "example": "معیاري یا برکت" }
+      "plan": {
+        "type": "String",
+        "example": "معیاري یا Wilaya"
+      }
     }
   },
-  "limitLoadingLabel": "لوډولو جاري دي…",
-  "limitLoadingLabelDescription": "تفکرات کارڈ میں ظاہر ہوتا ہے جب استعمال کی اعدادوشمار حاصل کیے جا رہے ہوں۔",
-
-  "aiLimitTitle": "تفکرات",
-  "aiLimitSubtitle": "ہر جواب 1 تفکر استعمال کرتا ہے۔ معیاري میں شروعات کی تفکرات شامل ہیں۔ برکت اضافي زمرے اور اضافے کو فعال کرتا ہے۔",
-  "aiLimitProgressLabel": "{used} / {total} تفکرات استعمال شدہ",
+  "limitLoadingLabel": "بارېږي…",
+  "limitLoadingLabelDescription": "هغه مهال ښودل کېږي چې د تأملاتو احصایې راخیستل کېږي.",
+  "aiLimitTitle": "تأملات",
+  "aiLimitSubtitle": "هر ځواب 1 تأمل کاروي. په معیاري پلان کې پیلني تأملات شامل دي. Wilaya پریمیم کټګورۍ پرانیزي او ټاپ-اپ فعالوي.",
+  "aiLimitProgressLabel": "{used} / {total} تأملات کارول شوي",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "تفکرات",
-  "reflectionsUsageLabel": "استعمال",
-  "reflectionsRemainingLabel": "باقي تفکرات: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "منصوبه: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "موجودہ منصوبے کا نام ظاہر کرتا ہے۔",
+  "creditsSectionTitle": "تأملات",
+  "creditsUsageLabel": "کارونه",
+  "creditsRemainingLabel": "پاتې تأملات: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "معیاري یا برکت" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "لوډولو جاري دي…",
-  "reflectionsLoadingLabelDescription": "تفکرات کے اعدادوشمار حاصل کیے جا رہے ہوں تو ظاہر ہوتا ہے۔",
-
-  "reflectionsTitle": "تفکرات",
-  "reflectionsSubtitle": "ہر جواب 1 تفکر استعمال کرتا ہے۔ معیاري میں شروعات کی تفکرات شامل ہیں۔ برکت اضافي زمرے اور اضافے کو فعال کرتا ہے۔",
-  "reflectionsProgressLabel": "{used} / {total} تفکرات استعمال شدہ",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "پلان: {plan}",
+  "@creditsPlanLabel": {
+    "description": "د اوسني پلان نوم ښيي.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "معیاري یا Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "بارېږي…",
+  "creditsLoadingLabelDescription": "هغه مهال ښودل کېږي چې د تأملاتو احصایې راخیستل کېږي.",
+  "creditsTitle": "تأملات",
+  "creditsSubtitle": "هر ځواب 1 تأمل کاروي. په معیاري پلان کې پیلني تأملات شامل دي. Wilaya پریمیم کټګورۍ پرانیزي او ټاپ-اپ فعالوي.",
+  "creditsProgressLabel": "{used} / {total} تأملات کارول شوي",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "حساب حذف کریں",
-  "settingsDeleteDescription": "اپنے حساب اور تمام منسلکہ ڈیٹا کو مستقل طور سے حذف کریں۔",
-  "settingsDeleteButtonLabel": "میرا حساب حذف کریں",
-  "settingsDeleteDialogTitle": "حساب حذف کریں؟",
-  "settingsDeleteDialogBody": "یہ عمل مستقل ہے اور کالعدم نہیں ہو سکتا۔\n\nتمام آپ کے گفتگو، تاریخ اور حساب کی معلومات حذف کر دی جائے گی۔",
-  "settingsDeleteDialogCancel": "منسوخ کریں",
-  "settingsDeleteDialogConfirm": "حذف کریں",
-
-  "settingsFreeLimitUsedTitle": "شروعات کی تفکرات استعمال شدہ",
-  "settingsFreeLimitUsedDescription": "اس ڈیوایس کی شروعات کی تفکرات استعمال کی جا چکی ہیں۔ برکت میں اپ گریڈ کریں یا مزید تفکرات خریدیں دوام ورکول کے لیے۔",
-
-  "settingsStarterReflectionsUsedTitle": "شروعات کی تفکرات استعمال شدہ",
-  "settingsStarterReflectionsUsedDescription": "اس ڈیوایس کی شروعات کی تفکرات استعمال کی جا چکی ہیں۔ برکت میں اپ گریڈ کریں یا مزید تفکرات خریدیں دوام ورکول کے لیے۔",
-
-  "deviceBoundError": "یہ ڈیوایس پہلے سے کسی دوسرے حساب سے منسلک ہے۔ براہ کرم اصل حساب کے ساتھ لاگ ان کریں۔",
-
-  "premiumTitle": "برکت موڈ",
-  "premiumSubtitleBasic": "مکمل Ayara تجربہ کو کھولیں۔",
-  "premiumSubtitleChampion": "تاسو برکت کې دي. مزید تفکرات چاہیے؟",
-
-  "premiumCurrentPlan": "موجودہ منصوبہ: {plan}",
-  "premiumCreditsStatus": "تفکرات: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "خریداری اب دستیاب نہیں ہے۔",
-  "premiumSignInToPurchase": "تفکرات خریدنے یا برکت کو کھولنے کے لیے لاگ ان کریں۔",
-
-  "premiumRestorePurchases": "خریداری بحال کریں",
-  "premiumProcessing": "جاری ہے…",
-  "premiumRestoreHintTitle": "کیا تم نے پہلے اس ڈیوایس یا کسی اور پر برکت یا تفکرات خریدے ہیں؟",
-  "premiumRestoreHintBody": "اگر وہ ظاہر نہ ہو رہے ہوں تو اپنی خریداری بحال کریں۔",
-
-  "premiumBuyCredits200": "200 تفکرات خریدیں",
-  "premiumBuyCredits400": "400 تفکرات خریدیں",
-  "premiumBecomeChampionOneTime": "برکت موڈ میں اپ گریڈ کریں",
-  "premiumChampionHint": "برکت کے طور پر، تاسو جب چاہیں اضافي تفکرات سے سر که سکتا ہے۔",
-
-  "premiumUpgradeCta": "اپ گریڈ کریں",
-  "premiumRequiredForCategory": "یہ زمرہ صرف برکت کے صارفین کے لیے دستیاب ہے۔ تمام پریمیم مواد کو کھولنے کے لیے ترتیبات میں اپ گریڈ کریں۔",
-  "premiumBenefitsBasic": "اضافي تفکرات حاصل کرنے، پریمیم زمرے تک رسائی حاصل کرنے، اور جب بھی ہدایت کی ضرورت ہو برکت کو کھولیں۔",
-  "premiumBenefitsChampion": "تاسو برکت موڈ میں دي. اگر تاسو کم آپ تیار ہو رہے ہیں، کچھ اضافي تفکرات شامل کریں اور بغیر کسی خطرے کے دوام رکھیں۔",
-  "premiumButtonBecomeChampion": "برکت کو کھولیں",
-  "premiumButtonTopup1000": "1000 تفکرات شامل کریں",
-  "premiumChampionBadge": "برکت فعال ہے",
-  "premiumLoadingStore": "اسٹور لوڈ ہو رہا ہے…",
-
-  "blessedTitle": "برکت موڈ",
-  "blessedSubtitleGrace": "مکمل Ayara تجربہ کو کھولیں۔",
-  "blessedSubtitleBlessed": "تاسو برکت کې دي. مزید تفکرات چاہیے؟",
-
-  "blessedCurrentPlan": "موجودہ منصوبہ: {plan}",
-  "blessedReflectionsStatus": "تفکرات: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "خریداری اب دستیاب نہیں ہے۔",
-  "blessedProductNotAvailable": "یہ مصنوعہ ابھی اسٹور میں دستیاب نہیں ہے۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
-  "blessedPurchaseError": "خریداری میں کچھ غلط ہوا۔ براہ کرم دوبارہ کوشش کریں۔",
-  "blessedSignInToPurchase": "تفکرات خریدنے یا برکت کو کھولنے کے لیے لاگ ان کریں۔",
-
-  "blessedRestorePurchases": "خریداری بحال کریں",
-  "blessedProcessing": "جاری ہے…",
-  "blessedRestoreHintTitle": "کیا تم نے پہلے اس ڈیوایس یا کسی اور پر برکت یا تفکرات خریدے ہیں؟",
-  "blessedRestoreHintBody": "اگر وہ ظاہر نہ ہو رہے ہوں تو اپنی خریداری بحال کریں۔",
-
-  "blessedBuyReflections100": "100 تفکرات شامل کریں",
-  "blessedBuyReflections200": "200 تفکرات خریدیں",
-  "blessedBuyReflections400": "400 تفکرات خریدیں",
-  "blessedBecomeBlessedOneTime": "برکت میں اپ گریڈ کریں",
-  "blessedTopupHint": "برکت کے طور پر، تاسو جب چاہیں اضافي تفکرات سے سر که سکتا ہے۔",
-
-  "blessedUpgradeCta": "اپ گریڈ کریں",
-  "blessedRequiredForCategory": "یہ زمرہ صرف برکت کے صارفین کے لیے دستیاب ہے۔ تمام پریمیم مواد کو کھولنے کے لیے ترتیبات میں اپ گریڈ کریں۔",
-  "blessedFeatureLocked": "اس خصوصیت تک رسائی کے لیے برکت کو کھولیں۔",
-  "lockedCategoriesHint": "کچھ زمرے برکت کی رکنوں کے لیے محفوظ ہیں۔ اپنے سفر میں ہر تفکر دیکھنے کے لیے انہیں کھولیں۔",
-  "blessedBenefitsGrace": "اضافي تفکرات حاصل کرنے، پریمیم زمرے تک رسائی حاصل کرنے، اور جب بھی ہدایت کی ضرورت ہو برکت کو کھولیں۔",
-  "blessedBenefitsBlessed": "تاسو برکت موڈ میں دي. اگر تاسو کم آپ تیار ہو رہے ہیں، کچھ اضافي تفکرات شامل کریں اور بغیر کسی خطرے کے دوام رکھیں۔",
-  "blessedButtonBecomeBlessed": "برکت کو کھولیں",
-  "blessedButtonTopup1000": "1000 تفکرات شامل کریں",
-  "blessedBadge": "برکت فعال ہے",
-  "blessedLoadingStore": "اسٹور لوڈ ہو رہا ہے…",
-
-  "freePlanBlockedTitle": "تاسو خپل شروعات کی تفکرات ختم کردی دي",
-  "freePlanBlockedBody": "تاسو معیاري منصوبې سره شروعات کی تفکرات شامل کے ساتھ دي، اور تاسو حد تک پہنچ ګئې دي. دوام ورکول لپاره — اور پریمیم زمرے کو کھولنے کے لیے — برکت میں اپ گریڈ کریں۔",
-  "freePlanBlockedCtaGoPremium": "ذیل میں برکت کی اختیارات دیکھیں",
-
-  "graceBlockedTitle": "تاسو خپل شروعات کی تفکرات ختم کردی دي",
-  "graceBlockedBody": "تاسو معیاري منصوبې سره شروعات کی تفکرات شامل کے ساتھ دي، اور تاسو حد تک پہنچ ګئې دي. دوام ورکول لپاره — اور پریمیم زمرے کو کھولنے کے لیے — برکت میں اپ گریڈ کریں۔",
-  "graceBlockedCtaGoBlessed": "ذیل میں برکت کی اختیارات دیکھیں",
-
-  "rateGuestMustSignIn": "Ayara استعمال کرنے اور تاسو کې تفکرات کے لیے لاگ ان کریں۔",
-
-  "guestNoCreditsTitle": "مهمان موڈ",
-  "guestNoCreditsBody": "مهمان کے طور پر تاسو ایپ کو براؤز کر سکتے ہیں، لیکن تاسو تفکرات استعمال نہیں کر سکتے۔ تفکرات استعمال کرنے اور خریداری کو کھولنے کے لیے بعد میں ترتیبات میں لاگ ان کریں۔",
-
-  "guestNoReflectionsTitle": "مهمان موڈ",
-  "guestNoReflectionsBody": "مهمان کے طور پر تاسو ایپ کو براؤز کر سکتے ہیں، لیکن تاسو تفکرات استعمال نہیں کر سکتے۔ تفکرات استعمال کرنے اور خریداری کو کھولنے کے لیے بعد میں ترتیبات میں لاگ ان کریں۔",
-
+  "settingsDeleteTitle": "اکاونټ پاک کړئ",
+  "settingsDeleteDescription": "خپل اکاونټ او ټول اړوند معلومات د تل لپاره پاک کړئ.",
+  "settingsDeleteButtonLabel": "زما اکاونټ پاک کړئ",
+  "settingsDeleteDialogTitle": "اکاونټ پاک شي؟",
+  "settingsDeleteDialogBody": "دا عمل د تل لپاره دی او بېرته نه راګرځي.\n\nستاسو ټول چټونه، تاریخچه او د اکاونټ معلومات به پاک شي.",
+  "settingsDeleteDialogCancel": "لغوه",
+  "settingsDeleteDialogConfirm": "پاکول",
+  "settingsFreeLimitUsedTitle": "پیلني تأملات کارول شوي",
+  "settingsFreeLimitUsedDescription": "د دې وسیلې لپاره پیلني تأملات کارول شوي دي. د دوام لپاره Wilaya ته لوړ شئ یا نور تأملات واخلئ.",
+  "settingsStarterCreditsUsedTitle": "پیلني تأملات کارول شوي",
+  "settingsStarterCreditsUsedDescription": "د دې وسیلې لپاره پیلني تأملات کارول شوي دي. د دوام لپاره Wilaya ته لوړ شئ یا نور تأملات واخلئ.",
+  "deviceBoundError": "دا وسیله له مخکې له بل اکاونټ سره تړلې ده. مهرباني وکړئ له اصلي اکاونټ سره ننوځئ.",
+  "premiumTitle": "Wilaya حالت",
+  "premiumSubtitleBasic": "د Ayara بشپړ تجربه پرانیزئ.",
+  "premiumSubtitlePremium": "تاسو په Wilaya کې یاست. نور تأملات ته اړتیا لرئ؟",
+  "premiumCurrentPlan": "اوسنی پلان: {plan}",
+  "premiumCreditsStatus": "تأملات: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "پېرودنې اوس مهال نشته.",
+  "premiumSignInToPurchase": "د تأملاتو د اخیستو یا Wilaya د پرانستلو لپاره ننوځئ.",
+  "premiumRestorePurchases": "پېرودنې بېرته راولئ",
+  "premiumProcessing": "بهیر روان دی…",
+  "premiumRestoreHintTitle": "ایا تاسو په دې وسیله یا بلې وسیله مخکې Wilaya یا تأملات اخیستي دي؟",
+  "premiumRestoreHintBody": "که نه ښکاري، خپلې پېرودنې بېرته راولئ.",
+  "premiumBuyCredits200": "200 تأملات واخلئ",
+  "premiumBuyCredits400": "400 تأملات واخلئ",
+  "premiumBecomePremiumOneTime": "Wilaya حالت ته لوړ شئ",
+  "premiumTopupHint": "له Wilaya سره، کله چې اړتیا وي، اضافي تأملات ټاپ-اپ کولی شئ.",
+  "premiumUpgradeCta": "لوړول",
+  "premiumRequiredForCategory": "دا کټګوري یوازې د Wilaya کاروونکو لپاره ده. د ټولو پریمیم منځپانګو د پرانستلو لپاره په Settings کې لوړ شئ.",
+  "premiumBenefitsBasic": "Wilaya پرانیزئ څو اضافي تأملات، پریمیم کټګورۍ، او هر وخت د اړتیا پر مهال دوام ومومئ.",
+  "premiumBenefitsPremium": "تاسو په Wilaya حالت کې یاست. که تأملات مو کمېږي، نور تأملات ورزیات کړئ او بې له ځنډه دوام ورکړئ.",
+  "premiumButtonBecomePremium": "Wilaya پرانیزئ",
+  "premiumButtonTopup1000": "1000 تأملات ورزیات کړئ",
+  "premiumBadge": "Wilaya فعاله ده",
+  "premiumLoadingStore": "سټور بارېږي…",
+  "premiumProductNotAvailable": "دا محصول لا تر اوسه په سټور کې نشته. مهرباني وکړئ وروسته بیا هڅه وکړئ.",
+  "premiumPurchaseError": "د پېرود پر مهال ستونزه رامنځته شوه. مهرباني وکړئ بیا هڅه وکړئ.",
+  "premiumBuyCredits100": "100 تأملات ورزیات کړئ",
+  "premiumFeatureLocked": "دې ځانګړتیا ته د لاسرسي لپاره Wilaya پرانیزئ.",
+  "lockedCategoriesHint": "ځینې کټګورۍ یوازې د Wilaya غړو لپاره ځانګړې دي. د خپل سفر د هر تأمل د سپړلو لپاره یې پرانیزئ.",
+  "freePlanBlockedTitle": "ستاسو پیلني تأملات ختم شوي دي",
+  "freePlanBlockedBody": "تاسو په معیاري پلان کې یاست او د پیلنیو تأملاتو حد ته رسېدلي یاست. د دوام لپاره — او د پریمیم کټګوریو د پرانستلو لپاره — Wilaya ته لوړ شئ.",
+  "freePlanBlockedCtaGoPremium": "لاندې د Wilaya انتخابونه وګورئ",
+  "graceBlockedTitle": "ستاسو پیلني تأملات ختم شوي دي",
+  "graceBlockedBody": "تاسو په معیاري پلان کې یاست او د پیلنیو تأملاتو حد ته رسېدلي یاست. د دوام لپاره — او د پریمیم کټګوریو د پرانستلو لپاره — Wilaya ته لوړ شئ.",
+  "graceBlockedCtaGoPremium": "لاندې د Wilaya انتخابونه وګورئ",
+  "rateGuestMustSignIn": "د Ayara او خپلو تأملاتو د کارولو لپاره ننوځئ.",
+  "guestNoCreditsTitle": "د مېلمه حالت",
+  "guestNoCreditsBody": "د مېلمه په توګه تاسو اپ لټولی شئ، خو تأملات نه شئ کارولی. وروسته په Settings کې ننوځئ څو تأملات وکاروئ او پېرودنې پرانیزئ.",
   "guestDialogContinue": "دوام ورکړئ",
-  "guestDialogLoginInstead": "بجاے اس کے لاگ ان کریں",
-
-  "optionalLabel": "اختياری",
-
-  "accountDeleteSuccessTitle": "حساب حذف شوې",
-  "accountDeleteSuccessBody": "تاسو کې حساب اور منسلکہ ڈیٹا کامیابی سے حذف ہو ګئې۔",
-  "accountDeleteSuccessClose": "بند کریں",
-  "accountDeleteErrorTitle": "حساب حذف نہیں کیا جا سکے",
-  "accountDeleteErrorClose": "ٹھیک ہے",
-  "accountDeleteReauthCancelled": "دوبارہ تصدیق منسوخ کی گئی۔ براہ کرم دوبارہ لاگ ان کریں اور حذف کرنے کی دوبارہ کوشش کریں۔",
-  "accountDeleteReauthRequired": "حساب حذف کرنے کے لیے حالیہ لاگ ان کی ضرورت ہے۔ براہ کرم لاگ آؤٹ کریں، دوبارہ لاگ ان کریں، اور حذف کرنے کی دوبارہ کوشش کریں۔",
-  "settingsDeletePermanentWarning": "یہ عمل مستقل ہے اور کالعدم نہیں ہو سکتا۔ آپ کے حساب سے منسلکہ تمام ڈیٹا حذف کر دیا جائے گا۔",
-
-  "dailyGraceTitle": "روزانہ رہنمایی",
-  "dailyGraceScriptureLabel": "آیت OF THE DAY",
-  "dailyGraceSaintLabel": "SCHOLAR OF THE WEEK",
-  "dailyGraceReflectionLabel": "EVENING REFLECTION",
-  "dailyGraceCopiedToast": "آیت کلیپ بورڈ میں نقل ہو گئی",
-
-  "dailyScripture0Text": "یقیناً نیک لوگ باغات اور نہروں میں ہوں گے، ایک طاقتور بادشاہ کے پاس اعزاز کی جگہ میں۔",
-  "dailyScripture0Ref": "قرآن 54:54-55",
-  "dailyScripture1Text": "اور ہم نے آپ کو (محمد) دنیا کے لیے صرف رحمت کے طور پر بھیجا ہے۔",
-  "dailyScripture1Ref": "قرآن 21:107",
-  "dailyScripture2Text": "کیا الله اپنے بندے کے لیے کافی نہیں ہے؟ پھر بھی وہ آپ کو اس کے علاوہ دوسروں سے ڈراتے ہیں۔",
-  "dailyScripture2Ref": "قرآن 39:36",
-  "dailyScripture3Text": "شاید تاسو چې کوم شی نه غواړئ اچھی ہے تاسو کې لپاره؛ اور شاید تاسو چې محبت کړئ کوم شی برا ہے تاسو کې لپاره. اور الله جانتا ہے، جبکہ تاسو نہ جانتے ہو۔",
-  "dailyScripture3Ref": "قرآن 2:216",
-  "dailyScripture4Text": "یقیناً الله صبر کرنے والوں کے ساتھ ہے۔",
-  "dailyScripture4Ref": "قرآن 2:153",
-  "dailyScripture5Text": "پس مجھے یاد کرو؛ میں تاسو کو یاد کروں گا۔ اور میرا شکر ادا کرو اور میرا انکار مت کرو۔",
-  "dailyScripture5Ref": "قرآن 2:152",
-  "dailyScripture6Text": "یقیناً الله کی نظر میں تاسو میں سب سے زیادہ شریف وہ ہے جو سب سے زیادہ نیک ہے۔",
-  "dailyScripture6Ref": "قرآن 49:13",
-  "dailyScripture7Text": "اور تاسو کے رب نے فیصلہ دیا ہے کہ تاسو اس کے علاوہ کسی کی عبادت مت کرو، اور اپنے والدین کے ساتھ بھلائی کریں۔",
-  "dailyScripture7Ref": "قرآن 17:23",
-  "dailyScripture8Text": "یقیناً، مشکل کے ساتھ آسانی ہے۔",
-  "dailyScripture8Ref": "قرآن 94:6",
-  "dailyScripture9Text": "اور وہ تاسو کے ساتھ ہے جہاں کہیں تاسو ہو۔ اور الله، جو تاسو کریں، وہ دیکھ رہا ہے۔",
-  "dailyScripture9Ref": "قرآن 57:4",
-  "dailyScripture10Text": "الله کسی نفس کو اس سے زیادہ بوجھ نہیں دیتا جو وہ برداشت کر سکتا ہے۔",
-  "dailyScripture10Ref": "قرآن 2:286",
-  "dailyScripture11Text": "اور جو الله پر توکل کرتے ہیں — تو وہی ان کے لیے کافی ہے۔",
-  "dailyScripture11Ref": "قرآن 65:3",
-  "dailyScripture12Text": "میری رحمت تمام چیزوں کو احاطہ کرتی ہے۔",
-  "dailyScripture12Ref": "قرآن 7:156",
-  "dailyScripture13Text": "اور جب میرے بندے تاسو سے میرے بارے میں سوال کریں — یقیناً میں قریب ہوں۔ میں جواب دیتا ہوں اس کی دعا کو جو مجھ سے دعا کرتا ہے۔",
-  "dailyScripture13Ref": "قرآن 2:186",
-  "dailyScripture14Text": "جو کوئی بھی نیکی کرے، خواہ وہ مرد ہو یا عورت، جبکہ ایماندار ہو — ہم ضرور اسے اچھی زندگی دیں گے۔",
-  "dailyScripture14Ref": "قرآن 16:97",
-  "dailyScripture15Text": "یقیناً الله کسی قوم کی حالت تبدیل نہیں کرتا جب تک وہ اپنے آپ میں تبدیلی نہ کریں۔",
-  "dailyScripture15Ref": "قرآن 13:11",
-  "dailyScripture16Text": "تو کمزوری مت کرو اور غم مت کھاؤ، اور تاسو بہتر ہوں گے اگر تاسو سچے ایماندار ہو۔",
-  "dailyScripture16Ref": "قرآن 3:139",
-  "dailyScripture17Text": "اے میرے بندوں جنہوں نے اپنے آپ کے خلاف سے کیا، الله کی رحمت سے ہتاش مت ہو۔ یقیناً الله تمام گناہوں کو معاف کرتا ہے۔",
-  "dailyScripture17Ref": "قرآن 39:53",
-  "dailyScripture18Text": "اور جو کوئی الله سے ڈرتا ہے — وہ اس کے لیے راستہ بناتا ہے، اور اسے ایسی جگہ سے رزق دیتا ہے جہاں وہ توقع نہیں رکھتا۔",
-  "dailyScripture18Ref": "قرآن 65:2-3",
-  "dailyScripture19Text": "الله کی رحمت میں ہتاش مت ہو۔",
-  "dailyScripture19Ref": "قرآن 12:87",
-  "dailyScripture20Text": "اور ہم نے یقیناً قرآن کو یادگاری کے لیے آسان بنایا ہے۔ تو کیا کوئی ہے جو توجہ دے گا؟",
-  "dailyScripture20Ref": "قرآن 54:17",
-  "dailyScripture21Text": "اور وہ تاسو کو گمراہ پایا اور تاسو کو ہدایت دی۔",
-  "dailyScripture21Ref": "قرآن 93:7",
-  "dailyScripture22Text": "اور تاسو کے رب نے کہا: مجھ سے دعا کرو؛ میں تاسو کی جواب دوں گا۔",
-  "dailyScripture22Ref": "قرآن 40:60",
-  "dailyScripture23Text": "اور ہم نے یقیناً بنی آدم کو عزت دی ہے۔",
-  "dailyScripture23Ref": "قرآن 17:70",
-  "dailyScripture24Text": "اور صبر اور نماز کے ذریعے مدد مانگو۔",
-  "dailyScripture24Ref": "قرآن 2:45",
-  "dailyScripture25Text": "جو کوئی بھی ایک ذرہ کے برابر نیکی کرے وہ اسے دیکھے گا۔",
-  "dailyScripture25Ref": "قرآن 99:7",
-  "dailyScripture26Text": "بے شک الله کی مدد قریب ہے۔",
-  "dailyScripture26Ref": "قرآن 2:214",
-  "dailyScripture27Text": "اور جو کوئی شکر کرتا ہے — اس کا شکر صرف اپنے لیے ہے۔",
-  "dailyScripture27Ref": "قرآن 31:12",
-
-  "dailyReflection0": "جیسے یہ دن بند ہوتا ہے، ایک لحظہ پر غور کریں جہاں الله کی رحمت واضح تھی۔",
-  "dailyReflection1": "الله تعالیٰ کے سامنے جو کچھ آج آپ کے دل پر تھا۔",
-  "dailyReflection2": "اس دن سے ایک برکت کا نام بتائیں اور الله کا شکر ادا کریں۔",
-  "dailyReflection3": "الله کی بے حد دیکھ بھال میں رہنے کے علم میں سکون تلاش کریں۔",
-  "dailyReflection4": "اس پر تفکر کریں جہاں تاسو آج شفقت اور رحم دکھانے کے لیے بلایا گیا۔",
-  "dailyReflection5": "جو تاسو کنٹرول نہیں کر سکتے اس کو جانے دیں اور الله تعالیٰ کی کامل منصوبے پر توکل کریں۔",
-  "dailyReflection6": "جیسے دن بند ہوتا ہے، الله کی یادگاری میں سلام پائیں۔",
-  "dailyReflection7": "اس پر غور کریں کہ تاسو نے آج نمازوں کی عزت کی، اور ہر ایک کے لیے الله کا شکر۔",
-  "dailyReflection8": "ایسے لحظے پر غور کریں جہاں صبر (صبر) نے آج آپ کی رہنمائی کی۔",
-  "dailyReflection9": "آج کی کسی بھی کمی کے لیے معافی مانگیں — الله کی رحمت بے حد ہے۔",
-  "dailyReflection10": "ایک شخص کا نام بتائیں جس کو تاسو نے آج شفقت دکھائی اور اس کے لیے دعا کریں۔",
-  "dailyReflection11": "شکر گزاری میں بیٹھیں: الله نے اس دن کیا دیا جو تاسو نے نہیں مانگا؟",
-  "dailyReflection12": "قرآن کی ایک آیت پر غور کریں جو تاسو اب ہو رہے ہیں اس سے بات کرتی ہے۔",
-  "dailyReflection13": "اس بات پر غور کریں کہ تاسو نے اپنا وقت آج کیسے استعمال کیا — اور کل کو الله کو پیش کریں۔",
-  "dailyReflection14": "جانتے ہوئے آرام کریں کہ جو مشکل آج آئی، الله تاسو کے ساتھ تھا۔",
-  "dailyReflection15": "اس بارے میں سوچیں کہ آج تاسو نے اپنے خاندار یا معاشرے کی کس طرح خدمت کی الله کے نام میں۔",
-  "dailyReflection16": "جیسے رات ہوتی ہے، توبہ کریں — الله ان لوگوں کو پسند کرتا ہے جو اس کی طرف واپس آتے ہیں۔",
-  "dailyReflection17": "الله نے اپنے دن میں خوبصورتی رکھی، چاہے کتنی بھی چھوٹی ہو، اس کی عکاسی کریں۔",
-  "dailyReflection18": "اس بارے میں سوچیں کہ تاسو نے آج کیا سیکھا اور یہ تاسو کو الله کے قریب کیسے لاتا ہے۔",
-  "dailyReflection19": "دن کی فکریں الله کے ساتھ چھوڑ دیں — وہ جو تاسو نہیں کر سکتے اسے سنبھالتا ہے۔",
-  "dailyReflection20": "اس لحظے کے بارے میں سوچیں جہاں تاسو آج بہتر انتخاب کر سکتے تھے، اور نرمی سے سیکھیں۔",
-  "dailyReflection21": "جو تکلیف میں ہیں ان کے لیے دعا کریں — آپ کی نماز انہیں ایک تحفہ ہے۔",
-  "dailyReflection22": "ایک برکت کو یاد کریں جو تاسو اکثر نظر انداز کرتے ہیں اور الله کا شکر کے لیے ایک لمحہ دیں۔",
-  "dailyReflection23": "اپنی نیتوں کے بارے میں غور کریں — کیا وہ الله کے لیے تھے؟ کل، دوبارہ شروع کریں۔",
-  "dailyReflection24": "جیسے رات خاموشی میں رہتی ہے، خاموشی میں الله کی قربت سنیں۔",
-  "dailyReflection25": "اس بارے میں سوچیں جہاں تاسو نے آج طاقت پائی — وہ طاقت الله سے ہے۔",
-  "dailyReflection26": "ایک چیز کا نام بتائیں جو تاسو کل کریں گے، الله کے نام میں، جو تاسو آج نہیں کیا۔",
-  "dailyReflection27": "جیسے تاسو آرام کے لیے تیاری کریں، اپنی روح کو الله کو سپرد کریں — وہ بہترین محافظ ہے۔",
-
-  "dailyRoleModel0": "پیغمبر محمد ﷺ",
-  "dailyRoleModel1": "ابو بکر الصدیق (رض)",
-  "dailyRoleModel2": "عمر ابن الخطاب (رض)",
-  "dailyRoleModel3": "عثمان ابن عفان (رض)",
-  "dailyRoleModel4": "علی ابن ابی طالب (رض)",
-  "dailyRoleModel5": "خدیجہ بنت خویلد (رض)",
-  "dailyRoleModel6": "عائشہ بنت ابو بکر (رض)",
-  "dailyRoleModel7": "فاطمہ الزہراء (رض)",
-  "dailyRoleModel8": "بلال ابن رباح (رض)",
-  "dailyRoleModel9": "سلمان الفارسی (رض)",
-  "dailyRoleModel10": "ابو ہریرہ (رض)",
-  "dailyRoleModel11": "عبد الله ابن عباس (رض)",
-  "dailyRoleModel12": "عبد الله ابن مسعود (رض)",
-  "dailyRoleModel13": "معاذ ابن جبل (رض)",
-  "dailyRoleModel14": "مصعب ابن عمیر (رض)",
-  "dailyRoleModel15": "سمیہ بنت خباب (رض)",
-  "dailyRoleModel16": "عمار ابن یاسر (رض)",
-  "dailyRoleModel17": "ام سلمہ (رض)",
-  "dailyRoleModel18": "خالد ابن الولید (رض)",
-  "dailyRoleModel19": "زید ابن ثابت (رض)",
-  "dailyRoleModel20": "حفصہ بنت عمر (رض)",
-  "dailyRoleModel21": "عمر ابن عبد العزیز (رح)",
-  "dailyRoleModel22": "امام ابو حنیفہ (رح)",
-  "dailyRoleModel23": "امام مالک ابن انس (رح)",
-  "dailyRoleModel24": "امام الشافعی (رح)",
-  "dailyRoleModel25": "امام احمد ابن حنبل (رح)",
-  "dailyRoleModel26": "امام البخاری (رح)",
-  "dailyRoleModel27": "امام مسلم (رح)",
-  "dailyRoleModel28": "امام الترمذی (رح)",
-  "dailyRoleModel29": "الغزالی (رح)",
-  "dailyRoleModel30": "ابن القیم الجوزیہ (رح)",
-  "dailyRoleModel31": "ابن تیمیہ (رح)",
-  "dailyRoleModel32": "النووی (رح)",
-  "dailyRoleModel33": "ابن حجر العسقلانی (رح)",
-  "dailyRoleModel34": "ابن کثیر (رح)",
-  "dailyRoleModel35": "الطبری (رح)",
-  "dailyRoleModel36": "سفیان الثوری (رح)",
-  "dailyRoleModel37": "فخر الدین الرازی (رح)",
-  "dailyRoleModel38": "ابن سینا (رح)",
-  "dailyRoleModel39": "البیرونی (رح)",
-  "dailyRoleModel40": "ابن رشد (رح)",
-  "dailyRoleModel41": "ابن خلدون (رح)",
-  "dailyRoleModel42": "ابن بطوطہ (رح)",
-  "dailyRoleModel43": "پیغمبر ابراہیم (علیہ السلام)",
-  "dailyRoleModel44": "پیغمبر موسیٰ (علیہ السلام)",
-  "dailyRoleModel45": "پیغمبر عیسیٰ (علیہ السلام)",
-  "dailyRoleModel46": "پیغمبر یوسف (علیہ السلام)",
-  "dailyRoleModel47": "پیغمبر داؤد (علیہ السلام)",
-  "dailyRoleModel48": "پیغمبر سلیمان (علیہ السلام)",
-  "dailyRoleModel49": "پیغمبر نوح (علیہ السلام)",
-  "dailyRoleModel50": "پیغمبر یونس (علیہ السلام)",
-  "dailyRoleModel51": "پیغمبر ایوب (علیہ السلام)",
-  "dailyRoleModel52": "رقیہ بنت محمد (رض)",
-  "dailyRoleModel53": "زینب بنت محمد (رض)",
-  "dailyRoleModel54": "حسن ابن علی (رض)",
-  "dailyRoleModel55": "حسین ابن علی (رض)",
-  "dailyRoleModel56": "جعفر ابن ابی طالب (رض)",
-  "dailyRoleModel57": "ابو ذر الغفاری (رض)",
-  "dailyRoleModel58": "طلحہ ابن عبیداللہ (رض)",
-  "dailyRoleModel59": "الزبیر ابن الاوام (رض)",
-
-  "locationConsentLabel": "Ayara کو قبلہ کی سمت اور نماز کے اوقات کے لیے میری جگہ استعمال کرنے دیں",
-  "locationConsentHint": "صرف ان خصوصیات کے لیے استعمال کیا جاتا ہے۔ تاسو کی جگہ کبھی شیئر یا محفوظ نہیں ہے۔",
-
-  "askPageTitle": "Ayara سے پوچھیں",
-  "askPageDescription": "ایمان، نماز، زندگی، یا اسلامی عمل کے بارے میں کچھ بھی پوچھیں اور قرآن اور سنت میں ریشہ رکھتی ہوئی ہدایت وصول کریں۔",
-  "askPageInputHint": "اپنا سوال یہاں لکھیں…",
-  "askPageSubmitCta": "پوچھیں",
-  "askPageInputEmptyError": "براہ کرم پہلے ایک سوال لکھیں۔",
-  "askResultYourQuestion": "تاسو کا سوال",
-
-  "guidancePageTitle": "نماز اور رہنمائی",
-  "qiblaFacingMecca": "مکہ کی طرف رخ کریں",
-  "qiblaCompassInstruction": "اپنے فون کو تب تک گھمائیں جب تک سونے کی سوئی اوپر کی طرف اشارہ کرے۔\nیہ سمت قبلے (مکہ) کی طرف اشارہ کرتی ہے۔",
-  "qiblaGpsUnavailableBody": "GPS سگنل کمزور ہے۔ باہر چلے جائیں اور دوبارہ کوشش کریں۔",
-  "qiblaRetry": "دوبارہ کوشش کریں",
-  "qiblaTitle": "قبلہ کی سمت",
-  "qiblaDistanceLabel": "مکہ سے {km} کلومیٹر",
+  "guestDialogLoginInstead": "پر ځای یې ننوځئ",
+  "optionalLabel": "اختیاري",
+  "accountDeleteSuccessTitle": "اکاونټ پاک شو",
+  "accountDeleteSuccessBody": "ستاسو اکاونټ او اړوند معلومات په بریالیتوب سره پاک شول.",
+  "accountDeleteSuccessClose": "تړل",
+  "accountDeleteErrorTitle": "اکاونټ پاک نه شو",
+  "accountDeleteErrorClose": "سمه ده",
+  "accountDeleteReauthCancelled": "بیا-تصدیق لغوه شو. مهرباني وکړئ بیا ننوځئ او بیا د پاکولو هڅه وکړئ.",
+  "accountDeleteReauthRequired": "د اکاونټ پاکولو لپاره تازه ننوتل ضروري دي. مهرباني وکړئ ووځئ، بیا ننوځئ او بیا هڅه وکړئ.",
+  "settingsDeletePermanentWarning": "دا عمل د تل لپاره دی او بېرته نه راګرځي. ستاسو له اکاونټ سره تړلي ټول معلومات به پاک شي.",
+  "dailyGraceTitle": "ورځنی لارښود",
+  "dailyGraceScriptureLabel": "د نن ورځې آیت",
+  "dailyGraceSaintLabel": "د اونۍ عالم",
+  "dailyGraceReflectionLabel": "د ماښام تأمل",
+  "dailyGraceCopiedToast": "آیت کلیپبورډ ته کاپي شو",
+  "locationConsentLabel": "Ayara ته اجازه ورکړئ چې زما ځای د قبله لوري او د لمانځه وختونو لپاره وکاروي",
+  "locationConsentHint": "یوازې د همدې ځانګړتیاوو لپاره کارول کېږي. ستاسو ځای نه شریکېږي او نه خوندي کېږي.",
+  "askPageTitle": "له Ayara څخه وپوښتئ",
+  "askPageDescription": "د ایمان، لمانځه، ژوند یا اسلامي عمل په اړه هر څه وپوښتئ او د قرآن او اهل البیت د ښوونو پر بنسټ لارښود ترلاسه کړئ.",
+  "askPageInputHint": "خپله پوښتنه دلته ولیکئ…",
+  "askPageSubmitCta": "پوښتنه وکړئ",
+  "askPageInputEmptyError": "مهرباني وکړئ لومړی یوه پوښتنه ولیکئ.",
+  "askResultYourQuestion": "ستاسو پوښتنه",
+  "guidancePageTitle": "قبله",
+  "qiblaFacingMecca": "د مکې پر لور",
+  "qiblaCompassInstruction": "خپل فون داسې وڅرخوئ تر څو زرینه ستنه پورته لور ته ودرېږي.\nهماغه لور قبله (مکه) ښيي.",
+  "qiblaGpsUnavailableBody": "د GPS نښه کمزورې ده. بهر ته لاړ شئ او بیا هڅه وکړئ ټک وکړئ.",
+  "qiblaRetry": "بیا هڅه وکړئ",
+  "qiblaTitle": "د قبله لوری",
+  "qiblaDistanceLabel": "{km} کیلومتره تر مکې",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "جگہ ضروری ہے",
-  "qiblaLocationNeededBody": "جہاں بھی تاسو ہو، Ayara کو مکہ میں کعبے کی سمت کا حساب لگانے کے لیے جگہ تک رسائی کی اجازت دیں۔",
-  "qiblaOpenSettings": "ترتیبات کھولیں",
-  "qiblaCompassLoading": "آپ کی جگہ تلاش کی جا رہی ہے…",
-  "qiblaTowardMecca": "مکہ کی طرف",
-
-  "prayerTimesTitle": "نماز کے اوقات",
+  "qiblaLocationNeededTitle": "ځای اړین دی",
+  "qiblaLocationNeededBody": "Ayara ته د ځای لاسرسی ورکړئ څو د نړۍ له هر ځایه تر کعبې د مکې لوری محاسبه کړي.",
+  "qiblaOpenSettings": "Settings پرانیزئ",
+  "qiblaCompassLoading": "ستاسو ځای موندل کېږي…",
+  "qiblaTowardMecca": "د مکې پر لور",
+  "prayerTimesTitle": "د لمانځه وختونه",
   "prayerTimesFajr": "فجر",
-  "prayerTimesDhuhr": "ظہر",
+  "prayerTimesDhuhr": "ظهر",
   "prayerTimesAsr": "عصر",
   "prayerTimesMaghrib": "مغرب",
   "prayerTimesIsha": "عشاء",
-  "prayerTimesLocationNeededTitle": "جگہ ضروری ہے",
-  "prayerTimesLocationNeededBody": "Ayara کو اپنے شہر کے لیے درست نماز کے اوقات کا حساب لگانے کے لیے جگہ تک رسائی کی اجازت دیں۔",
-  "prayerTimesNextLabel": "اگلا",
-  "prayerTimesDoneLabel": "مکمل",
-
-  "monthlyPrayerTimesTitle": "ماہانہ نماز کے اوقات",
-  "monthlyPrayerTimesViewButton": "مکمل ماہ دیکھیں",
-  "monthlyPrayerTimesNextMonth": "اگلا ماہ",
-  "monthlyPrayerTimesDayHeader": "دن",
-
-  "sharePrayerTimes": "نماز کے اوقات شیئر کریں",
-
-  "prayerNotificationsTitle": "نماز کی یادیں",
-  "prayerNotificationsDescription": "ہر نماز کے وقت سے پہلے ایک نرم یادگاری وصول کریں تاکہ تاسو پوری دن میں جڑے رہیں۔",
-  "prayerNotificationsEnable": "نماز کی یادوں کو فعال کریں",
-  "prayerNotificationsOpenSettings": "اطلاع ترتیبات کھولیں",
-  "prayerNotificationsDenied": "اطلاعات غیر فعال ہیں",
-  "prayerNotificationsDeniedHint": "ترتیبات میں جائیں اور نماز کے وقت کی یادیں وصول کرنے کے لیے Ayara کے لیے اطلاعات کی اجازت دیں۔",
-
-  "notificationsConsentLabel": "نماز کے اوقات کے لیے اطلاعات کی اجازت دیں",
-
-  "prayerNotifTitleFajr": "🌅 فجر — صبح کی نماز",
-  "prayerNotifBodyFajr": "سب سے بہترین نماز صبح کی نماز ہے۔ اٹھیں، پاک کریں، اور الله کے سامنے کھڑے ہوں۔",
-
-  "prayerNotifTitleDhuhr": "☀️ ظہر — دوپہر کی نماز",
-  "prayerNotifBodyDhuhr": "اپنے دن کو روکیں اور الله کی طرف واپس آئیں۔ ظہر کا وقت آ گیا۔",
-
-  "prayerNotifTitleAsr": "🌤️ عصر — دوپہر کے بعد کی نماز",
-  "prayerNotifBodyAsr": "درمیانی نماز کی حفاظت کریں۔ عصر کا وقت آ گیا — اسے نہ جانے دیں۔",
-
-  "prayerNotifTitleMaghrib": "🌇 مغرب — غروب آفتاب کی نماز",
-  "prayerNotifBodyMaghrib": "سورج ڈوب گیا۔ مغرب کی نماز پڑھیں اور الله کو اس دن کا شکر ادا کریں۔",
-
-  "prayerNotifTitleIsha": "🌙 عشاء — رات کی نماز",
-  "prayerNotifBodyIsha": "اپنے دن کو الله کی یادگاری کے ساتھ ختم کریں۔ ہیا علی الفلاح — کامیابی کے طرف آئیں۔",
-
-  "outOfReflectionsBannerText": "تاسو ټول تفکرات استعمال کردی دي",
-  "outOfReflectionsBannerCta": "مزید حاصل کریں",
-
+  "prayerTimesLocationNeededTitle": "ځای اړین دی",
+  "prayerTimesLocationNeededBody": "Ayara ته د ځای لاسرسی ورکړئ څو ستاسو د ښار لپاره د لمانځه دقیق وختونه محاسبه کړي.",
+  "prayerTimesNextLabel": "راتلونکی",
+  "prayerTimesDoneLabel": "بشپړ",
+  "monthlyPrayerTimesTitle": "میاشتني د لمانځه وختونه",
+  "monthlyPrayerTimesViewButton": "بشپړه میاشت وګورئ",
+  "monthlyPrayerTimesNextMonth": "راتلونکې میاشت",
+  "monthlyPrayerTimesDayHeader": "ورځ",
+  "sharePrayerTimes": "د لمانځه وختونه شریک کړئ",
+  "notificationsSectionTitle": "خبرتیاوې",
+  "notificationsSectionSubtitle": "د لمانځه یادونې، د کلیزې پېښې او نور",
+  "dailyReflectionReminderTitle": "ورځنی تأمل",
+  "dailyReflectionReminderDescription": "هره ورځ یوه نرمه یادونه چې Ayara پرانیزئ او له خپل ایمان سره ونښلېږئ.",
+  "dailyReflectionReminderEnable": "ورځنۍ یادونه فعاله کړئ",
+  "dailyReflectionReminderTimeLabel": "د یادونې وخت",
+  "prayerNotificationsTitle": "د لمانځه یادونې",
+  "prayerNotificationsDescription": "د هر لمانځه له وخته مخکې یوه نرمه یادونه ترلاسه کړئ څو ټوله ورځ له ایمان سره نښتي پاتې شئ.",
+  "prayerNotificationsEnable": "د لمانځه یادونې فعاله کړئ",
+  "prayerNotificationsOpenSettings": "د خبرتیاوو Settings پرانیزئ",
+  "prayerNotificationsDenied": "خبرتیاوې بندې دي",
+  "prayerNotificationsDeniedHint": "Settings ته لاړ شئ او Ayara ته خبرتیاوو اجازه ورکړئ څو د لمانځه د وخت یادونې ترلاسه کړئ.",
+  "notificationsConsentLabel": "د لمانځه وختونو لپاره خبرتیاوې اجازه کړئ",
+  "prayerNotifTitleFajr": "🌅 فجر — د سهار لمونځ",
+  "prayerNotifBodyFajr": "فجر د اهل البیت د سهار لمونځ دی. امام علي (AS) فرمایلي: د سهار لمونځ داسې وساتئ لکه څنګه چې خپله تر ټولو قیمتي امانت ساتئ. راویښ شئ، ځان پاک کړئ او د الله پر وړاندې ودرېږئ.",
+  "prayerNotifTitleDhuhr": "☀️ ظهر — د غرمي لمونځ",
+  "prayerNotifBodyDhuhr": "د اهل البیت امامانو د یاد هره شېبه ارزښتمنه بلله. خپل کار لږ ودروئ، که اړتیا وي ظهر له عصر سره یوځای کړئ، او خپل زړه بېرته الله ته متوجه کړئ.",
+  "prayerNotifTitleAsr": "🌤️ عصر — د ماسپښین لمونځ",
+  "prayerNotifBodyAsr": "لمونځ وساتئ، ځکه دا ستاسو او الله ترمنځ تړون دی. د عصر وخت راغلی — مه پرېږدئ چې بې له یاد څخه تېر شي.",
+  "prayerNotifTitleMaghrib": "🌇 مغرب — د ماښام لمونځ",
+  "prayerNotifBodyMaghrib": "لمر ولوېد — یوه شېبه چې اهل البیت یې د دعا لپاره سپېڅلې بلله. مغرب ادا کړئ او له شپې مخکې خپل لاسونه الله ته په دعا پورته کړئ.",
+  "prayerNotifTitleIsha": "🌙 عشاء — د شپې لمونځ",
+  "prayerNotifBodyIsha": "خپله ورځ د الله په ملتیا پای ته ورسوئ. امامانو د عشاء وروسته د صلات اللیل سپارښتنه کړې — خو لومړی خپله عشاء بشپړه کړئ او ورځ د هغه په یاد پای ته ورسوئ.",
+  "outOfReflectionsBannerText": "تاسو خپل ټول تأملات کارولي دي",
+  "outOfReflectionsBannerCta": "نور ترلاسه کړئ",
   "dhikrPageTitle": "ذکر",
-  "dhikrTapToCount": "گننے کے لیے دائرے کو ٹیپ کریں",
-  "dhikrResetButton": "دوبارہ سیٹ کریں",
-  "dhikrComplete": "ما شاء الله",
-  "dhikrCompleteMessage": "تاسو نے الله کے 99 یادگاری مکمل کیے۔ وہ آپ کے دل کے لیے روشنی ہوں۔",
-
-  "disclaimerTitle": "اس ایپ کی ہدایت کے بارے میں",
-  "disclaimerBody": "Ayara اسلامی تفکرات، یادگاریاں، اور روحانی مواد فراہم کرتا ہے تاکہ آپ کے ایمان کے ذاتی سفر میں معاونت کریں۔ یہ مواد عمومی معلوماتی اور متحرک مقاصد کے لیے فراہم کیا جاتا ہے۔\n\nAyara اہل علم کا متبادل نہیں ہے۔\nاس ایپ میں ہدایت ایک سیکھا ہوا اسلامی عالم، امام، مفتی، یا لاہوتی طور پر تربیہ یافتہ استاد کا متبادل نہیں ہے۔ اگر آپ کو مذہبی احکام، حلال اور حرام معاملات، یا ذاتی مذہبی ذمہ داریوں کے بارے میں سوالات ہیں تو براہ کرم اپنی برادری میں ایک اہل مذہبی اختیار سے مشورہ لیں۔\n\nیہ ایپ مذہبی احکام جاری نہیں کرتا۔\nAyara فقہ (اسلامی قانون) یا ذاتی مذہبی ذمہ داریوں کے معاملات پر حتمی فیصلے نہیں کرتا۔ یہاں کچھ بھی فتویٰ یا عملی مذہبی ہدایت کے طور پر نہیں لیا جانا چاہیے۔\n\nعالمی تشریح مختلف ہوتی ہے۔\nاسلام تقلیدوں کی امیر تنوع، فکری نظام (مذاہب)، اور عالمی آراء سے بنتا ہے۔ اس ایپ میں مواد عام نقطہ نظر کو ظاہر کرتا ہے اور ہر روایت یا اسکول کو برابر نمائندگی نہیں کر سکتا۔\n\nمعاشرہ اہم ہے۔\nیہ ایپ ایمان کی روایتوں میں آپ کی مشغولیت کو حوصلہ دینے کی کوشش کرتے ہوئے آپ کے مقامی مسجد، امام، اور مذہبی معاشرے کے اہم کردار کو گہری احترام دیتا ہے۔ ہم آپ کو اپنے قریب اہل شدہ اساتذہ سے جڑے رہنے اور سیکھنے کی ترغیب دیتے ہیں۔",
-  "disclaimerClose": "میں سمجھ گیا",
-  "disclaimerInfoTooltip": "اس ایپ کی ہدایت کے بارے میں",
-  "disclaimerSettingsSubtitle": "عمومی معلوماتی مقاصد کے لیے۔ مکمل سے متعلق پڑھنے کے لیے ٹیپ کریں۔",
-  "disclaimerSectionHeader": "ہدایت میں متعلق سے متعلق"
+  "dhikrTapToCount": "د شمېرلو لپاره په کړۍ ټک وکړئ",
+  "dhikrResetButton": "بیا صفر کول",
+  "dhikrComplete": "ماشاءالله",
+  "dhikrCompleteMessage": "تاسو د الله 100 ځله یادونه بشپړه کړې ده. دا دې ستاسو د زړه لپاره رڼا شي.",
+  "disclaimerTitle": "د دې اپ د لارښوونې په اړه",
+  "disclaimerBody": "Ayara اسلامي تأملات، یادونې او روحي منځپانګه وړاندې کوي څو ستاسو د ایمان شخصي سفر ملاتړ وکړي، او دا ټول د قرآن او اهل البیت د ښوونو پر بنسټ دي. دا منځپانګه یوازې د عمومي معلوماتو او الهام لپاره وړاندې کېږي.\n\nAyara د وړ عالمانو بدیل نه دی.\nپه دې اپ کې لارښود د پوه اسلامي عالم، مرجع، یا د دیني علومو روزل شوي ښوونکي بدیل نه دی. په شیعه اسلام کې دیني لارښود د جعفري فقهې او د ژوندي مرجع د تقلید پر بنسټ ولاړ دی — داسې وړ فقیه چې احکام یې مؤمنانو ته د ديني عمل په لاره کې لارښوونه کوي. که تاسو د ديني احکامو، حلال او حرامو، یا شخصي ديني مسؤلیتونو په اړه پوښتنې لرئ، مهرباني وکړئ له یو وړ مرجع یا ستاسو په ټولنه کې له یو عالم سره مشوره وکړئ.\n\nدا اپ دیني فتواوې نه صادروي.\nAyara د فقهې یا شخصي ديني مسؤلیتونو په اړه وروستۍ پرېکړې نه کوي. دلته هېڅ څه باید د فتوا یا الزامي ديني لارښوونې په توګه ونه ګڼل شي.\n\nد اهل البیت مرکزي ځای.\nپه شیعه اسلام کې، پیغمبر محمد ﷺ او د هغه پاک کورنۍ — اهل البیت — له قرآن وروسته د اسلامي ټولنې باوري لارښودان دي. د اهل البیت دولس امامان د اسلامي ښوونو الهي ټاکل شوي مفسرین دي. د دې اپ منځپانګه هڅه کوي چې همدې دود ته په صداقت او درناوي انعکاس ورکړي.\n\nد ټولنې ارزښت.\nدا اپ غواړي چې تاسو له خپل ایمان سره نښتي وساتي، او په عین حال کې ستاسو د ځایي جومات، اسلامي مرکز، او ديني ټولنې مهم رول ته ژوره درناوی ولري. موږ تاسو هڅوو چې له نږدې وړ ښوونکو سره اړیکه وساتئ او ترې زده کړه وکړئ.",
+  "disclaimerClose": "زه پوه شوم",
+  "disclaimerInfoTooltip": "د دې اپ د لارښوونې په اړه",
+  "disclaimerSettingsSubtitle": "یوازې د عمومي معلوماتو لپاره. د بشپړ یادښت د لوستلو لپاره ټک وکړئ.",
+  "disclaimerSectionHeader": "د لارښوونې یادښت",
+  "navHome": "کور",
+  "navReflect": "تأمل",
+  "navDuas": "دعاوې",
+  "navCalendar": "کلیزه",
+  "dashboardToday": "نن",
+  "dashboardComingUp": "راتلونکی",
+  "dashboardDaysUnit": "{count, plural, one {ورځ} other {ورځې}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "چټک لاسرسی",
+  "quickActionQibla": "قبله",
+  "quickActionDhikr": "ذکر",
+  "quickActionDailyGrace": "لارښود",
+  "quickActionPrayerTimes": "د لمانځه وختونه",
+  "askAyaraTitle": "له Ayara څخه وپوښتئ",
+  "askAyaraSubtitle": "هره اسلامي پوښتنه وکړئ او یو فکري او لارښود ځواب ترلاسه کړئ.",
+  "askAyaraHint": "لکه: د رمضان اهمیت څه دی؟",
+  "askAyaraSubmit": "پوښتنه وکړئ",
+  "wisdomOfTheDayTitle": "د نن حکمت",
+  "calendarScreenTitle": "اسلامي کلیزه",
+  "calendarUpcomingOccasions": "راتلونکې مناسبتونه",
+  "calendarOccasionRemindersTitle": "د مناسبتونو یادونې",
+  "calendarOccasionRemindersHint": "د هر مناسبت څخه یوه شپه مخکې خبر درکول کېږي",
+  "calendarNotifPermissionDenied": "د خبرتیا اجازه رد شوه. دا د خپل وسیلې په Settings کې فعاله کړئ.",
+  "calendarNoEvents": "هیڅ راتلونکې پېښه ونه موندل شوه.",
+  "calendarAddToPhone": "د تلیفون تقویم ته اضافه کړئ",
+  "calendarAddedToPhone": "تقویم ته اضافه شو",
+  "calendarCountdownToday": "نن",
+  "calendarCountdownTomorrow": "سبا",
+  "calendarCountdownDays": "په {days} ورځو کې",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "جنوري",
+  "calendarMonthFeb": "فبروري",
+  "calendarMonthMar": "مارچ",
+  "calendarMonthApr": "اپرېل",
+  "calendarMonthMay": "مې",
+  "calendarMonthJun": "جون",
+  "calendarMonthJul": "جولای",
+  "calendarMonthAug": "اګست",
+  "calendarMonthSep": "سپتمبر",
+  "calendarMonthOct": "اکتوبر",
+  "calendarMonthNov": "نومبر",
+  "calendarMonthDec": "دسمبر",
+  "calendarSeasonMuharramEarly": "د محرم ورځې — کربلا یاده کړئ",
+  "calendarSeasonAshura": "عاشورا — یا حسین (AS)",
+  "calendarSeasonMuharramLate": "محرم — د ماتم او تأمل ورځې",
+  "calendarSeasonArbaeen": "اربعین — د حسین څلوېښت ورځې",
+  "calendarSeasonRoadToArbaeen": "اربعین ته لاره",
+  "calendarSeasonMabath": "مبعث مبارک — د وحې سهار",
+  "calendarSeasonMidShaban": "منځنی شعبان — د امام المهدي (AJ) د زوکړې ورځ",
+  "calendarSeasonRamadan": "رمضان مبارک — د قرآن میاشت",
+  "calendarSeasonGhadir": "د غدیر اختر مو مبارک!",
+  "hijriMonth1": "محرم",
+  "hijriMonth2": "صفر",
+  "hijriMonth3": "ربیع الاول",
+  "hijriMonth4": "ربیع الثاني",
+  "hijriMonth5": "جمادى الاولى",
+  "hijriMonth6": "جمادى الثانية",
+  "hijriMonth7": "رجب",
+  "hijriMonth8": "شعبان",
+  "hijriMonth9": "رمضان",
+  "hijriMonth10": "شوال",
+  "hijriMonth11": "ذوالقعده",
+  "hijriMonth12": "ذوالحجه",
+  "duasScreenTitle": "دعاوې او زیارت",
+  "duasSearchHint": "دعاوې، زیارت… ولټوئ",
+  "duasFilterAll": "ټول",
+  "duasCount": "{count, plural, one {{count} دعا} other {{count} دعاوې او زیارت}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "هیڅ دعا ونه موندل شوه.",
+  "duaCategoryDaily": "ورځنی",
+  "duaCategoryWeekly": "اونیز",
+  "duaCategoryOccasions": "مناسبتونه",
+  "duaCategoryZiyarat": "زیارت",
+  "duaCategoryTasbih": "تسبیح",
+  "eventTypeBirth": "زېږېدنه",
+  "eventTypeMartyrdom": "شهادت",
+  "eventTypeOccasion": "مناسبت",
+  "duaCopyTooltip": "ژباړه کاپي کړئ",
+  "duaToggleTransliteration": "تلفظي لیکنه",
+  "duaToggleTranslation": "ژباړه",
+  "duaAskAiLabel": "له Ayara وغواړئ چې دا دعا تشریح کړي",
+  "duaAskAiLockedLabel": "له Ayara وپوښتئ (Wilaya)",
+  "duaAiLockedMessage": "د Ayara تشریحات یوازې د Wilaya غړو لپاره دي. په Settings کې لوړ شئ.",
+  "duaAiComingSoon": "له Ayara څخه د \"{name}\" په اړه وپوښتئ — ژر راځي!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "دعا کلیپبورډ ته کاپي شوه.",
+  "tasbihAllahuAkbarMeaning": "الله تر ټولو لوی دی",
+  "tasbihAlhamdulillahMeaning": "ټول ثنا یوازې د الله لپاره ده",
+  "tasbihSubhanallahMeaning": "الله پاک دی",
+  "tasbihResetTooltip": "بیا صفر کول",
+  "tasbihCompleteTitle": "تسبیح بشپړه شوه",
+  "tasbihCompleteMessage": "الله دې ستاسو ذکر قبول کړي.",
+  "tasbihTapHint": "د شمېرلو لپاره هر ځای ټک وکړئ",
+  "tasbihatScreenTitle": "د لمانځه لارښود",
+  "tasbihatScreenSubtitle": "د لمانځه تسبیحات",
+  "tasbihatScreenDescription": "د هغو تسبیحاتو بشپړ لارښود چې د ورځنیو لمونځونو پر مهال او وروسته لوستل کېږي — د اهل البیت (ع) د دود له مخې.",
+  "tasbihatArba3Title": "تسبیحات الأربعہ",
+  "tasbihatArba3Subtitle": "په درېیم او څلورم رکعت کې لوستل کېږي",
+  "tasbihatArba3Info": "په شیعه فقه کې، تسبیحات الأربعہ د ظهر، عصر، مغرب او عشاء په درېیم او څلورم رکعت کې د سورۀ فاتحې پر ځای لوستل کېږي. یو ځل یې لوستل واجب دي، او درې ځله یې لوستل مستحب دي.",
+  "tasbihatArba3Translation": "الله پاک دی · ټول ثنا د الله لپاره ده\nله الله پرته بل معبود نشته · الله تر ټولو لوی دی",
+  "tasbihatArba3CompleteTitle": "تلاوت بشپړ شو",
+  "tasbihatArba3CompleteMessage": "الله دې ستاسو لمونځ قبول کړي — آمین",
+  "tasbihatArba3TapHint": "له هر تلاوت وروسته ټک وکړئ",
+  "tasbihatZahraSubtitle": "د هر لمانځه وروسته · 100 دانې",
+  "tasbihatZahraOriginLabel": "اصل",
+  "tasbihatZahraHadith": "بي بي فاطمه الزهرا (س.ع) له پیغمبر ﷺ څخه یو خادم وغوښت. هغه وفرمایل: \"ایا زه تا ته تر دې غوره څه در و نه ښیم؟ له هر لمانځه وروسته 33 ځله سبحان الله، 33 ځله الحمد لله، او 34 ځله الله اکبر ووایه. دا ستا لپاره له خادم څخه غوره دي.\"",
+  "tasbihatZahraHadithSource": "— بحار الأنوار، ټوک 85",
+  "tasbihatZahraOpenCounter": "د تسبیح شمېرونکی پرانیزئ",
+  "tasbihatDuasTitle": "سپارښتل شوې دعاوې",
+  "tasbihatDuasSubtitle": "له خپل لمانځه وروسته",
+  "tasbihatDuaAyatKursiTitle": "آیت الکرسي",
+  "tasbihatDuaAyatKursiWhen": "له هر فرض لمانځه وروسته",
+  "tasbihatDuaAyatKursiSource": "سورۀ البقره 2:255",
+  "tasbihatDuaAyatKursiNote": "څوک چې له هر فرض لمانځه وروسته آیت الکرسي لولي، د هغه او جنت ترمنځ له مرګ پرته بل څه نه پاتې کېږي. امام الباقر (ع) فرمایلي چې دا د قرآن له تر ټولو سترو آیتونو څخه دی.",
+  "tasbihatDuaSalawatTitle": "صلوات",
+  "tasbihatDuaSalawatWhen": "له هر لمانځه وروسته · ټولې دعاوې بشپړوي",
+  "tasbihatDuaSalawatSource": "امام الصادق (ع) — الکافي",
+  "tasbihatDuaSalawatNote": "پر پیغمبر ﷺ او د هغه پر پاکې کورنۍ (آل محمد) درود ویل د هرې دعا د بشپړېدو لپاره سپارښتل شوي. امام الصادق (ع) فرمایلي: \"هره دعا تر هغې ځنډېدلې وي څو چې پر محمد او د هغه پر کورنۍ صلوات ونه ویل شي.\"",
+  "tasbihatDuaFarajTitle": "دعاء الفرج",
+  "tasbihatDuaFarajWhen": "له هر لمانځه وروسته · زموږ د زمانې امام لپاره",
+  "tasbihatDuaFarajSource": "د امام الحسن العسکري (ع) له خوا ښوول شوې",
+  "tasbihatDuaFarajNote": "د دولسم امام، امام المهدي (عج)، د ظهور لپاره یوه دعا، چې د هغه د پلار له خوا ښوول شوې وه. شیعه مؤمنان یې هره ورځ له هر لمانځه وروسته د ژوندي امام د محبت په توګه لولي.",
+  "tasbihatDuaTasbihFatimaTitle": "د بي بي فاطمې تسبیح",
+  "tasbihatDuaTasbihFatimaWhen": "له مغرب او عشاء وروسته · په ځانګړي ډول سپارښتل شوې",
+  "tasbihatDuaTasbihFatimaSource": "امام الباقر (ع) — بحار الأنوار",
+  "tasbihatDuaTasbihFatimaNote": "امام الباقر (ع) فرمایلي چې د خوب نه مخکې له عشاء وروسته د تسبیح الزهرا ویل تر 1000 رکعته نفلي لمانځه غوره دي. د دې رڼا اسمانونو ته خېژي.",
+  "tasbihFatimaGiftPre": "د پیغمبر ډالۍ",
+  "tasbihFatimaGiftPost": "له هر لمانځه وروسته لوستل کېږي",
+  "prayerTrackerTitle": "د لمانځه څارونکی",
+  "prayerTrackerPrayed": "لمونځ ادا شو",
+  "prayerTrackerDayStreak": "{count} ورځې پرله‌پسې",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "د نن ټول لمونځونه بشپړ شول. الله دې قبول کړي.",
+  "dhikrTrackerTitle": "تسبیح الزهرا",
+  "dhikrTrackerCompletedToday": "نن بشپړه شوه",
+  "dhikrTrackerNotDoneToday": "نن نه ده شوې",
+  "dhikrTrackerDayStreak": "{count} ورځې پرله‌پسې",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "د تسبیح یادونه",
+  "dhikrReminderDescription": "ستاسو د تسبیح الزهرا (س.ع) لپاره یوه نرمه ورځنۍ یادونه.",
+  "dhikrReminderEnable": "د تسبیح یادونه فعاله کړئ",
+  "dhikrReminderTimeLabel": "د یادونې وخت",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "ورځنی حدیث",
+  "hadithLabelArabic": "عربي",
+  "hadithLabelTranslation": "ژباړه",
+  "hadithBadge": "حدیث",
+  "hadithShare": "دا حدیث شریک کړئ",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nد Ayara له لارې",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "مخکینی",
+  "hadithNavNext": "راتلونکی",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "14 معصومین",
+  "imamsScreenSubtitle": "پیغمبر، بي بي فاطمه، او دولس امامان — د اسلام معصوم لارښودان",
+  "imamLabelBorn": "زېږېدنه",
+  "imamLabelMartyrdom": "شهادت",
+  "imamLabelStatus": "حالت",
+  "imamSectionBiography": "ژوندلیک",
+  "imamSectionFamousSaying": "مشهور وینا",
+  "imamRoleProphet": "وروستی پیغمبر",
+  "imamRoleInfallible": "معصوم",
+  "imamOrdinal1": "لومړی امام",
+  "imamOrdinal2": "دویم امام",
+  "imamOrdinal3": "درېیم امام",
+  "imamOrdinal4": "څلورم امام",
+  "imamOrdinal5": "پنځم امام",
+  "imamOrdinal6": "شپږم امام",
+  "imamOrdinal7": "اووم امام",
+  "imamOrdinal8": "اتم امام",
+  "imamOrdinal9": "نهم امام",
+  "imamOrdinal10": "لسم امام",
+  "imamOrdinal11": "یوولسم امام",
+  "imamOrdinal12": "دولسم امام",
+  "duaAudioScreenTitle": "دعاوې واورئ",
+  "duaAudioScreenSubtitle": "د اورېدو لپاره یوه دعا وټاکئ. د غږولو یا تمولو لپاره پر ټایل ټک وکړئ.",
+  "duaAudioComingSoonMessage": "د دې دعا غږیز بڼه به په راتلونکي نوي کولو کې موجوده وي.",
+  "duaAudioClose": "تړل",
+  "duaAudioError": "غږیز فایل بار نه شو. مهرباني وکړئ خپله اړیکه وګورئ.",
+  "duaAudioMetaTransmittedBy": "روايت کوونکی",
+  "duaAudioMetaOccasion": "مناسبت",
+  "duaAudioMetaDuration": "موده",
+  "quickActionDailyHadith": "ورځنی حدیث",
+  "quickAction14Masumeen": "14 معصومین",
+  "quickActionListenDuas": "واورئ",
+  "quickActionTasbihat": "د لمانځه لارښود",
+  "pilgrimageSectionTitle": "سپېڅلی سفر",
+  "pilgrimageSectionSubtitle": "د حج او عمرې بشپړ لارښود — په مکه کې د الله سپېڅلي کور ته سفر",
+  "hajjCardTitle": "حج",
+  "hajjCardSubtitle": "د اسلام پنځم رکن",
+  "hajjCardDescription": "ستر کلنی سفر — په ژوند کې یو ځل پر هر توانمن مسلمان فرض",
+  "hajjScreenTitle": "د حج لارښود",
+  "hajjScreenSubtitle": "د ستر سفر لپاره ګام په ګام لارښود",
+  "umrahCardTitle": "عمره",
+  "umrahCardSubtitle": "وړه حج",
+  "umrahCardDescription": "یو ژور روحي سفر چې د کال هر وخت ترسره کېدای شي",
+  "umrahScreenTitle": "د عمرې لارښود",
+  "umrahScreenSubtitle": "د وړې زیارت لپاره ګام په ګام لارښود",
+  "pilgrimageStepsTitle": "مناسک او پړاوونه",
+  "pilgrimageImportantNotesTitle": "مهمې یادونې",
+  "pilgrimageDuaTitle": "د دې پړاو لپاره دعا",
+  "pilgrimageJafariNoteTitle": "د جعفري فقه یادداشت",
+  "pilgrimageComplete": "✓ بشپړ",
+  "pilgrimageMarkDone": "د بشپړیدو په توګه نښه کړئ",
+  "pilgrimageProgress": "{done} له {total} پړاوونو",
+  "pilgrimageReadTime": "~{minutes} دقیقې",
+  "pilgrimageShiaNoteTitle": "شیعه زائرین",
+  "pilgrimageShiaNoteBody": "شیعه زائرین په دودیز ډول مدینې ته هم ځي، څو په مسجد النبوي کې د پیغمبر محمد (SAW) د روضې او په جنت البقیع کې د امامانو د قبرونو زیارت وکړي. دا لیدنې ډېر ژور معنوي ارزښت لري او د ډېرو شیعه زائرینو لپاره د سفر مهمه برخه ګڼل کېږي.",
+  "hajjIntro": "حج د اسلام پنځم رکن دی، او پر هر هغه مسلمان چې بدني او مالي توان ولري، په ژوند کې یو ځل فرض دی. دا د ذوالحجې په میاشت کې ترسره کېږي او د حضرت ابراهیم (AS)، د هغه د زوی اسماعیل (AS)، او بي بي هاجرې پر نقش قدم روانېږي. د شیعه مسلمانانو لپاره، حج په مدینه کې د پیغمبر (SAW) او اهل البیت د سپېڅلو آرامځایونو د زیارت برکت هم لري.",
+  "umrahIntro": "عمره مکې ته وړه زیارت دی او د حج برعکس، د کال هر وخت ترسره کېدای شي. که څه هم فرض نه ده، خو ډېره لویه روحي ګټه لري او یوه ډېره سپارښتل شوې عبادت ګڼل کېږي. دا له حج سره ځینې ګډ مناسک لري، خو لنډه ده او څلور اصلي اعمال لري."
 }

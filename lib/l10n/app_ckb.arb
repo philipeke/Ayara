@@ -1,585 +1,629 @@
 {
   "@@locale": "ckb",
-
-  "appTitle": "Ayara",
-
+  "appTitle": "ئایارا",
   "languageSelectTitle": "زمانی خۆت هەڵبژێرە",
-  "languageSelectSub": "دەتوانی ئەمە دواتر لە ڕێکخستنەکاندا بگۆڕیت",
+  "languageSelectSub": "دەتوانیت ئەمە دواتر لە شێوەپێدان بگۆڕیت",
   "actionContinue": "بەردەوام بە",
-  "languageSuggestedHeader": "پێشنیاز کراو",
+  "languageSuggestedHeader": "پێشنیار کراو",
   "languageAllHeader": "هەموو زمانەکان",
-  "languageSuggestedBadge": "پێشنیاز کراو",
+  "languageSuggestedBadge": "پێشنیار کراو",
   "languageSearchHint": "گەڕان…",
-
-  "planGrace": "ستاندارد",
-  "planBlessed": "بارەکە",
-
-  "categoryDailyGuidance": "ڕێنمایی ڕۆژانە",
-  "categoryFaithTrust": "ئیمان و باوەڕ",
-  "categoryPrayerReflection": "خۆڕاگری لە نوێژ",
-  "categoryHopeDifficultTimes": "سابری و هیوا",
-  "categoryForgiveness": "داواکاری لێبوردن",
-  "categoryLoveCompassion": "بێزاری و شفقەت",
-  "categoryStrengthCourage": "هێز و ئیمان",
-  "categoryGratitude": "دڵی سپاسبار",
-  "categoryPurposeCalling": "مەبەستی ژیان",
-  "categoryFamilyRelationships": "پەیوەندی مێران",
-  "categoryPeaceAnxietyRelief": "ئاشتی ناخی",
-  "categoryWisdomOfJesus": "حیکمەتی پێغەمبەران",
-  "categoryHumilityCharacter": "توانادارێتی",
-  "categoryOvercomingTemptation": "ڕەتکردنەوەی وە",
-  "categoryEveningReflection": "ذیکری ئێوار",
-  "categoryCustom": "پەیوەندیدانی کەسایەتی",
-  "dhikrMeaningSubhanallah": "پەراوەی بەرز بەرز بەرز",
-  "dhikrMeaningAlhamdulillah": "هەموو پەراوەکان بەرز بەرز بەرز",
-  "dhikrMeaningAllahuAkbar": "ئاللە بەرزترینە",
-  "quranVerseHeartAtRest": "بەراستی، لە یادکردنی ئاللە دڵەکان دەنرێن.",
-
-  "promptHint": "دەست بخە پۆ بەشێک بۆ ڕێنمایی ئیسلامی",
-
+  "planBasic": "بنچینەیی",
+  "planPremium": "ویلایە",
+  "categorySlot01": "ڕاھێنانی ڕۆژانە",
+  "categorySlot02": "ئیمان و باوەڕ",
+  "categorySlot03": "فکرکردن لە نوێژ",
+  "categorySlot04": "ساتاییت و هیوا",
+  "categorySlot05": "لێبوردن بیسە",
+  "categorySlot06": "بەزەیی و شفقەت",
+  "categorySlot07": "ئیمان و بەهێز",
+  "categorySlot08": "دڵی شکردار",
+  "categorySlot09": "مەبەستی ژیان",
+  "categorySlot10": "پێوەندی خێزان",
+  "categorySlot11": "ئاسایش و ئاڕامی",
+  "categorySlot12": "حیکمەتی پێغەمبەر",
+  "categorySlot13": "خوێنی باشتر",
+  "categorySlot14": "بەرپا کردن لە وسوسە",
+  "categorySlot15": "ذکری ئێوار",
+  "categoryCustom": "فکرکردنی تایبەت",
+  "dhikrMeaningSubhanallah": "شکۆ و شەرەفی خودایە",
+  "dhikrMeaningAlhamdulillah": "هەموو ستایش بۆ خودا",
+  "dhikrMeaningAllahuAkbar": "خودا گەورەترە",
+  "quranVerseHeartAtRest": "بانگ دان بۆ خودا دڵی آسایش دەدات.",
+  "promptHint": "زمرەیەک دوێن بۆ ڕاھێنانی ئیسلامی",
   "currentLanguage": "زمانی ئێستا",
   "settingsLanguage": "ڕێکخستنی زمان",
   "settingsTitle": "ڕێکخستنەکان",
   "chooseLanguage": "زمانی خۆت هەڵبژێرە",
   "continueCta": "بەردەوام بە",
-
-  "promptDailyGuidance": "ڕێنمایێکی ڕۆژانە کورت و کاریگەر بنووسە لە بنەمای ئیمانی سونی - بنیاتی لەسەر قورئان، حەدیث و فێرکاری پێغەمبەری محمد صلى الله عليه وسلم. هەر جاран لە کۆری جیا بڕوانە: فیرد لە ئاخلاقی ئیسلام، ڕاستیێکی لە سوننەت، حیکمەتی ساحابەی پێغەمبەر یان چالاکێکی خاموش لە تێکەڵی ئیسلام. یەک ئایەتی قورئان (سورەت:ئایەت) دا بدۆزیتەوە و خۆڕاگرێکی 1-2 خاڵی بنووسە کە بە مێژوو بگات. بەچاوی ڕۆژی ئیسلامی یان ڕۆژێکی گرنگ پەیوەند دە.",
-
-  "promptFaithTrust": "خۆڕاگری قسەیێکی ئیسلامی لە ئیمان و باوەڕ بە پلانی خودا (توکول) بنووسە. بنیاتی دا لەسەر قورئان، نموونەی پێغەمبەری محمد صلى الله عليه وسلم و ئیمانی ساحابە. هەر جاران سەبارەت بە واتا جیا: باوێری خودا لە نێو ئەنجومەرە، پشت بە حیکمەتی خودا، سابر لە تاڵی، یان ماندوبوونی خاموش لە ژیانی ڕۆژانە. یەک ئایەتی قورئان و یەک گام زۆر هێماتیدار بۆ ئەمرۆ.",
-
-  "promptPrayerReflection": "خۆڕاگری نوێژی ئیسلامی کورت لە سەر سلاتی، دوادا یان ذیکری بنووسە. فۆڕمی جیا: یاداوەری بەیان یان ئێوار (ئەذکار)، خۆڕاگری سەبارەت بە پێنج نوێژی ڕۆژ، خۆڕاگری ئایەتێکی قورئان یان ئیلتیماسێکی دڵگریان. یەک ئایەتی قورئان دا بدۆزیتەوە و شێوەی نوێژ ناونووسیت.",
-
-  "promptHopeDifficultTimes": "خۆڕاگری ئیسلامی سەبارەت بە سابری (صبر) و هیوا لە کاتی تێکەڵی بنووسە. فێرکاری قورئان سەبارەت بە تاڵی، ماندوبوونی پێغەمبەران و شفقەتی خودا لە کاتی قورستان. هەر جاران کۆری جیاتر. یەک ئایەتی قورئان و یەک لێهاتوو لە تێکەڵی ئیسلام.",
-
-  "promptForgiveness": "خۆڕاگری حیکمتیانەی ئیسلام سەبارەت بە داواکاری لێبوردن (توبە) و شفقەتی خودا بنووسە. لە فێرکاری قورئان سەبارەت بە توبە، شفقەتی خودا و نموونەی لێبوردنێکی پێغەمبەری محمد صلى الله عليه وسلم. وات جیا: گێڕانەوەی نیگەی خودا، لێبوردنی کەسانی تر، چاکبوونی پەیوەندی یان باوێری شفقەتی خودا دوای هەڵە. یەک ئایەتی قورئان و یەک گام کاریگەر.",
-
-  "promptLoveCompassion": "خۆڕاگری ئیسلامی کورت سەبارەت بە شفقەت (رحمە) و بێزاری لە ژیانی ڕۆژانە بنووسە. لە نموونەی پێغەمبەری محمد صلى الله عليه وسلم، تێگەیشتنی احسان (ئامیری باشتر) و فێرکاری ئیسلام سەبارەت بە سۆپاتی بۆ خێزان، جیران و بێدار. یەک ئایەتی قورئان و یەک کردارێکی بێزاری کورت بۆ ئەمرۆ.",
-
-  "promptStrengthCourage": "خۆڕاگری ئیسلامی سەبارەت بە هێز بە ئیمان و بیرۆ بنووسە. لە نموونەی پێغەمبەران، جێگیری مسلمانانی سەرەتایی و باوێرمەندانی کە تێکەڵدا ماند. هەر جاران سەبارەت بە وات جیا: بیرۆ بە ئیمان، هێز لە نوێژ، باوێری خودا لە کاتی تڕس، یان مانیوو لە قورستان. یەک ئایەتی قورئان و دوادی کورت یان وشەی یادبێژ.",
-
-  "promptGratitude": "خۆڕاگری ئیسلامی سەبارەت بە سپاس (شکر) بۆ خودا بنووسە. بنیاتی دا لەسەر فێرکاری قورئان و تێکەڵی پێغەمبەریێتی. کۆری جیا: سپاس لە کاتی تێکەڵی، بڕتێ دان بە یاریمەندییەکانی کورت، دەستپێکردنی ڕۆژ بە ستایشی خودا یان ناسینی ڕێنمایی خودا لە ژیانی ڕۆژانە. یەک ئایەتی قورئان و یەک چالاکیی سپاس.",
-
-  "promptPurposeCalling": "خۆڕاگری ئیسلامی سەبارەت بە مەبەستی ژیان لە پەرستنی خودا و ژیانی درێژایی بنووسە. لە فێرکاری قورئان سەبارەت بە مەبەست، خزمەتی کەسانی تر و بەکارهێنانی تالەنتی خۆ بۆ باشیی. هەر جاران سەبارەت بە وات جیا: خزمەتی خێزان و کۆمەڵگە، تێگەیشتن بە راهێنان لە ئیستیخارە، ژیان بە مەبەست یان دۆزینەوەی واتای ژیان لە کاریگەری ساده. یەک ئایەتی قورئان و دوو پرسیاری خۆڕاگریانە.",
-
-  "promptFamilyRelationships": "ڕێنمایی حیکمتیانەی ئیسلام سەبارەت بە خێزان و پەیوەندی بنیاتی لەسەر فێرکاری قورئان و نموونەی پێغەمبەری محمد صلى الله عليه وسلم. هەر جاران سەبارەت بە وات جیا: سۆپاتی لە ژیانی خێزان، سابری لە ئاختیڕانی، بڕگەی پاپۆڕان، پەروەردەی مندلان بە ئیمان یان قووتاندنی هاوسەرگیری. یەک ئایەتی قورئان و یەک چالاکیی پەیوەندیدار.",
-
-  "promptPeaceAnxietyRelief": "خۆڕاگری ئیسلامی سەلماوە سەبارەت بە دۆزینەوەی ئاشتی ناخی لە ریگای یاداوەری خودا (ذیکر) و باوێری بە پلانی بنووسە. لە فێرکاری قورئان سەبارەت بە ئاشتی دڵ، نوێژ و تێپەڕبوون بە خوایی خودا. هەر جاران شێوازی جیا و یەک ئایەتی قورئان و یەک چالاکیی ساده لە تێکەڵی ئیسلام.",
-
-  "promptWisdomOfJesus": "وتەیێکی حیکمتیانە لە پێغەمبەران وەک فێرکاری ئیسلام بنووسە. لە قورئان یان حەدیث و بریتی وردبینێ چۆن مێری ئیسلام فێرکاری تێگەیشتووە. سەبارەت بە وات جیاتر: توانادارێتی، سابری، ئێزی، ئیمان یان چالاکیی ڕۆژانە. یەک ئایەتی قورئان یان حەدیث و یەک بەکارهێنانی پراکتیکی.",
-
-  "promptHumilityCharacter": "خۆڕاگری ئیسلامی سەبارەت بە ئێزی (تواضع) و توانادارێتی باشتر (اخلاق) بنووسە. لە فێرکاری قورئان، نموونەی پێغەمبەری محمد صلى الله عليه وسلم و تێکەڵی پەروەردەی توانادارێتی ئیسلام. وات جیا: ئێزی لە سەرانجامدانی، ڕازی کردن بە هەڵەی خۆ، ڕێزدانی بە کەسانی تر یان گەشەدان لە رۆحی ئیسلام. یەک ئایەتی قورئان و یەک خولقایی بۆ پراکتیکی.",
-
-  "promptOvercomingTemptation": "خۆڕاگری ئیسلامی سەبارەت بە ڕەتکردنەوەی وە و ماندن لەسەر ڕێی ڕاست بنووسە. لە ڕێنمایی قورئان، یاداوەری خودا (ذیکر)، نوێژ (سلات) و نموونە باوێرمەندانی کە ڕەتی کردەوە. هەر جاران کۆری جیاتر. یەک ئایەتی قورئان و یەک سترجتێژی پراکتیکی بۆ 24 کاتژمێری داهاتوو.",
-
-  "promptEveningReflection": "خۆڕاگری ئیسلامی سەلماوەی ئێوار بنیاتی لەسەر تێکەڵی یاداوەری ئێوار (اذكار المساء) بنووسە. سپاس، خۆڕاگری گونجاو (محاسبة) و باوێری خودا پێش خەو هاندان. 3-5 پرسیاری خۆڕاگری کورت سەبارەت بە ڕۆژ، دوادی قسەیێکی کورت و یەک ئایەتی قورئان.",
-
   "wordCount": "{count, plural, one {{count} وشە} other {{count} وشە}}",
-
   "optionsCta": "بژاردەکان",
   "newCta": "نوێ",
-  "actionsTitle": "چی دەتەوێ بکەی؟",
+  "actionsTitle": "چی دەتەوێت بکەیت؟",
   "copy": "کۆپی",
   "share": "بەشی کردن",
   "close": "داخستن",
   "copiedToast": "کۆپی کرا بۆ تختە",
-
-  "shareSubject": "Ayara — {category}",
+  "shareSubject": "ئایارا — {category}",
   "@shareSubject": {
-    "description": "ڕیزی بابەتی ئیمەیل / بەشی کردن لە گرتنی بەشی.",
+    "description": "پۆستی کردنی ئیمێیل / بەشی کردن لە ناونیشانی زمرە.",
     "placeholders": {
-      "category": { "type": "String", "example": "ڕێنمایی ڕۆژانە" }
+      "category": {
+        "type": "String",
+        "example": "ڕاھێنانی ڕۆژانە"
+      }
     }
   },
-
-  "regenerateErrorTitle": "نەتوانی وەڵام نوێ درووست بکە",
-  "regenerateErrorBody": "{error}\n\nدەتەوێ دیسان هەولی بدەی؟",
+  "regenerateErrorTitle": "نەتوانی وەڵام نوێ دروست کەم",
+  "regenerateErrorBody": "{error}\n\nدەتەوێت دووبارە هەوڵ بدەیت؟",
   "@regenerateErrorBody": {
-    "description": "نیشاندەدات کاتێک درووستکردنی وەڵامی زیرەکی هەڵ دەچێت.",
+    "description": "تیایدا کاتێک دروستکردنی وەڵامی ئێ‌آی ناکامیت.",
     "placeholders": {
-      "error": { "type": "String", "example": "هەڵەی تۆڕ" }
+      "error": {
+        "type": "String",
+        "example": "هەڵەی تۆڕ"
+      }
     }
   },
-
-  "cancelCta": "پاشگەزبوونەوە",
-  "retryCta": "دیسان هەولی بدە",
-
-  "authTitle": "ئاکاونتی خۆت دروست بکە",
+  "cancelCta": "هەڵگرتن",
+  "retryCta": "دووبارە هەوڵ بدە",
+  "authTitle": "هەژمارت دروست کە",
   "continueAsGuest": "بەردەوام بە وەک مێوان",
-  "signInGoogle": "چونەژوورەوە بە گوگڵ",
-  "signInApple": "چونەژوورەوە بە ئاپڵ",
-  "signInEmail": "چونەژوورەوە بە ئیمەیل",
-  "upgradeWithApple": "بەردەوام بە ئاپڵ",
-  "mustAccept": "دەبێ مافی بەکارهێنان قبوڵ بکەی و سیاسەتی تایبەتی پێزان بکەی.",
-  "termsLabel": "مافی بەکارهێنان قبوڵ دەکەم",
-  "privacyLabel": "سیاسەتی تایبەتی خوێندۆتەوە",
-  "marketingOptIn": "ڕازی دەکەم هەنگاوی نوێ و پێشکەشکان وەربگرم",
-  "openTerms": "مافی بەکارهێنان",
-  "openPrivacy": "سیاسەتی تایبەتی",
-
-  "accountSection": "ئاکاونت",
-  "guestMode": "شێوەی مێوان",
-  "signedIn": "چوونەژوورەوە",
-  "upgradeHint": "خۆڕاگریەکانی خۆت پاشەکەی بخە بە دروستکردنی ئاکاونت.",
-  "upgradeWithGoogle": "بەردەوام بە گوگڵ",
-  "signOut": "چونەدەرەوە",
-
-  "snackUpgraded": "ئاکاونت بە گوگڵ بەرزکرا ✅",
-  "snackSignedIn": "بە گوگڵ چوونەژوورەوە ✅",
-  "snackSignedOut": "چوونەدەرەوە",
-  "snackSignedInApple": "بە ئاپڵ چوونەژوورەوە ✅",
-  "snackSignedInGoogle": "بە گوگڵ چوونەژوورەوە ✅",
-  "snackUpgradedApple": "ئاکاونت بە ئاپڵ بەرزکرا ✅",
-  "snackUpgradedGoogle": "ئاکاونت بە گوگڵ بەرزکرا ✅",
-
-  "historyTitle": "خۆڕاگریە پاشکۆ",
-  "historyOpenCta": "خۆڕاگریە پاشکۆ",
-  "historyEmpty": "هیچ خۆڕاگری پاشەکەی نیە.",
-  "historyDeleteTitle": "خۆڕاگری بسڕەوە؟",
-  "historyDeleteBody": "ئەمە بە هەمیشە بەشی دیاریکراو لاادا دەچێتەوە.",
-  "deleteCta": "سڕینەوە",
-
-  "historyButton": "خۆڕاگریە پاشکۆ",
-  "historyEmptyTitle": "هیچ خۆڕاگری نیە",
-  "historyEmptyBody": "یەکێ درووست بکە - بەشی پاشەکەیەکانت لێرە دروست دەبن.",
-  "historyDelete": "سڕینەوە",
-
-  "footerTitle": "بە ئیمان، سابر و رحمە.",
-  "footerSubtitle": "یەک قەدەم لە جاری.",
-  "genericErrorSnack": "تێکەڵێک ڕووی دا - تکایە هیندێک لە دواتر دیسان هەولی بدە.",
-
-  "upgradeAccountCta": "خۆڕاگریەکانی خۆت پاشەکەی بخە - ئاکاونت دروست بکە",
-  "deleteAccount": "سڕینەوەی ئاکاونت",
-  "exportData": "ھندێ دەست بەدی",
-
+  "signInGoogle": "چونە ژوورەوە بە Google",
+  "signInApple": "چونە ژوورەوە بە Apple",
+  "signInEmail": "چونە ژوورەوە بە ئیمێیل",
+  "upgradeWithApple": "بەردەوام بە Apple",
+  "mustAccept": "پێویستە شەرتەکان قبوول بکەیت و سیاسەتی پێوەندیدار بپێژنیت.",
+  "termsLabel": "شەرتەکانی خزمەتگوزاری قبوول دەکەم",
+  "privacyLabel": "سیاسەتی تێکۆشن خوێندوومەتەوە",
+  "marketingOptIn": "بە هەبوونەدا رێزی دەدەم هەڵەمەتی و پێشنیاز وەرگرتن",
+  "openTerms": "شەرتەکانی خزمەتگوزاری",
+  "openPrivacy": "سیاسەتی تێکۆشن",
+  "accountSection": "هەژمار",
+  "guestMode": "مۆدی مێوان",
+  "signedIn": "چووی ژوورەوە",
+  "upgradeHint": "بەژماردنی ئەکاونتت فیزیەکان پاسیفکەرەو بەرھەمێ",
+  "upgradeWithGoogle": "بەردەوام بە Google",
+  "signOut": "دەرچونی ژوورەوە",
+  "snackUpgraded": "هەژمار بەرزکرا بە Google ✅",
+  "snackSignedIn": "چووی ژوورەوە بە Google ✅",
+  "snackSignedOut": "دەرچوو لە ژوورەوە",
+  "snackSignedInApple": "چووی ژوورەوە بە Apple ✅",
+  "snackSignedInGoogle": "چووی ژوورەوە بە Google ✅",
+  "snackUpgradedApple": "هەژمار بەرزکرا بە Apple ✅",
+  "snackUpgradedGoogle": "هەژمار بەرزکرا بە Google ✅",
+  "historyTitle": "فکرکردنەکانی پێشتر",
+  "historyOpenCta": "فکرکردنەکانی پێشتر",
+  "historyEmpty": "هیچ فکرکردنی تێدەپەڵێودراو نیە تێگەیشتن.",
+  "historyDeleteTitle": "فکرکردنە بسڕێتەوە؟",
+  "historyDeleteBody": "ئەم تێکردەی دەستنیشانکراو بەشێوەی دەبڵاو لابیدە.",
+  "deleteCta": "بسڕێتەوە",
+  "historyButton": "فکرکردنەکانی پێشتر",
+  "historyEmptyTitle": "هیچ فکرکردنێک نیە",
+  "historyEmptyBody": "یەکەم شتێک دروست بکە — ئەو تێکردەیانەی تێدەپەڵێودراو لێرەدا دەرچن.",
+  "historyDelete": "بسڕێتەوە",
+  "footerTitle": "بە ویلایە، ئیمان و سەبر",
+  "footerSubtitle": "یەک نوێژ لە جاری",
+  "genericErrorSnack": "تێدەڕوو شت ناچار بوو — لە نۆگە تردا دووبارە هەوڵ بدەرەوە.",
+  "upgradeAccountCta": "بەژماردنی ئەکاونتت فیزیەکان پاسیفکەرەو بەرھەمێ – ھەژمار دروست کە",
+  "deleteAccount": "بسڕێتەوە هەژمار",
+  "exportData": "داتا منی هەناردەبکە",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "ناونیشانی پێش نیشاندانی UID ناوەندی Firebase.",
+    "description": "بەرچاوکراو بەرامبەر نیشاندانی Firebase UID ناوخۆیی.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "سادە تیگە 🐯\nزیرەکی پێویستی کاتی هیندێک پێش یەکێتریی بۆ…",
-  "rateDailyLimit": "خۆڕاگریەکان تێ نین تاکو بۆ ئێستا.\nخۆڕاگری زیاتر وێنە یان بەرز بکە بۆ بارەکە.",
-  "rateCreditsExhausted": "هەموو خۆڕاگریەکانی خۆت بەکارهێنایت.\nتاپ بکە یان بەرز بکە بۆ بارەکە تا بەردەوام بیت.",
-  "rateGraceReflectionsExhausted": "خۆڕاگریەکان تێ نین تاکو بۆ ئێستا.\nخۆڕاگری زیاتر وێنە یان بەرز بکە بۆ بارەکە.",
-  "rateReflectionsExhausted": "هەموو خۆڕاگریەکانی خۆت بەکارهێنایت.\nتاپ بکە یان بەرز بکە بۆ بارەکە تا بەردەوام بیت.",
-
-  "blessedDescription": "بارەکە خصوسیەتی بەرزتر، بەشەکانی تێدا، و نیشانەیێکی تایبەت فتح دەکات.",
-  "championDescription": "بارەکە خصوسیەتی بەرزتر، بەشەکانی تێدا، و نیشانەیێکی تایبەت فتح دەکات.",
-
-  "ratePlanExhausted": "خۆڕاگریەکانی خۆت بۆ ئێستا بۆش ن. پلان: {plan}.",
+  "rateLocalThrottle": "ئاسان بیت 🐯\nئایارا پێویستی بە کاتێک دەکات بۆ یەکێتریت…",
+  "rateDailyLimit": "بۆ ئێستا فکرکردنەکانت هەتاوەتاوە.\nفکرکردنی زیاتر وەرگرە یان بە ویلایە ئپگریڈ بکە.",
+  "rateCreditsExhausted": "هەموو فکرکردنەکانت بەسەر چووە.\nکۆکردنەوە یان بە ویلایە ئپگریڈ بکە بۆ بەردەوامی.",
+  "rateGraceCreditsExhausted": "بۆ ئێستا فکرکردنەکانت هەتاوەتاوە.\nفکرکردنی زیاتر وەرگرە یان بە ویلایە ئپگریڈ بکە.",
+  "premiumDescription": "ویلایە تایبەتمەندیە پریمیۆم، زمرەکانی داھاتوو، و بەج تایبەتی چالاک دەکات.",
+  "ratePlanExhausted": "فکرکردنەکانت بۆ ئێستا بەتاڵن. پلان: {plan}.",
   "@ratePlanExhausted": {
-    "description": "نیشاندەدات کاتێک خۆڕاگریەکان تێ نین بەڵام هۆکاری ئاسایی.",
+    "description": "تیایدا کاتێک فکرکردنی بەکارھێنەر هەتاوەتاوە پڕ ڕێج.",
     "placeholders": {
-      "plan": { "type": "String", "example": "ستاندارد یان بارەکە" }
+      "plan": {
+        "type": "String",
+        "example": "بنچینەیی یان ویلایە"
+      }
     }
   },
-
-  "rateCheckFailed": "نەتوانی خۆڕاگریەکان کۆنترۆل بکە: {message}",
+  "rateCheckFailed": "نەتوانی فکرکردنەکانت بپشکنی: {message}",
   "@rateCheckFailed": {
-    "description": "نیشاندەدات کاتێک تێپەڕی پێچان هەڵە پێگەیاندە.",
+    "description": "تیایدا کاتێک فەنکشنی پێوابیرکراو هەڵەیەکی نیشان دەدات.",
     "placeholders": {
-      "message": { "type": "String", "example": "هەڵەی تۆڕ" }
+      "message": {
+        "type": "String",
+        "example": "هەڵەی تۆڕ"
+      }
     }
   },
-
-  "rateCheckGenericError": "تێکەڵێک ڕووی دا کاتێک خۆڕاگریەکان کۆنترۆل دەکرا.",
-  "aiFallbackGeneric": "تێکەڵێک ڕووی دا - تکایە هیندێک لە دواتر دیسان هەولی بدە.",
-
-  "limitSectionTitle": "خۆڕاگریەکان",
-  "limitTodayLabel": "بەکاربردن",
-  "limitCreditsLabel": "خۆڕاگریەکانی ماونەکە: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "rateCheckGenericError": "تێدەڕوو شتێک ناچار بوو کاتێک فکرکردنەکانت پشکنی دەکردوا.",
+  "aiFallbackGeneric": "تێدەڕوو شت ناچار بوو — لە نۆگە تردا دووبارە هەوڵ بدەرەوە.",
+  "limitSectionTitle": "فکرکردنەکان",
+  "limitTodayLabel": "بەکارھێنان",
+  "limitCreditsLabel": "فکرکردنی بەماونده: {credits}",
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "پلان: {plan}",
   "@limitPlanLabel": {
-    "description": "ناوی پلانی پشکنینی ئێستا دەنیشاندات.",
+    "description": "ناونیشانی پلانی بەشداریی ئێستا نیشان دەدات.",
     "placeholders": {
-      "plan": { "type": "String", "example": "ستاندارد یان بارەکە" }
+      "plan": {
+        "type": "String",
+        "example": "بنچینەیی یان ویلایە"
+      }
     }
   },
-  "limitLoadingLabel": "بارکردن…",
-  "limitLoadingLabelDescription": "نیشاندەدات لە کاتی بارکردنی ئامار بەکاربردن.",
-
-  "aiLimitTitle": "خۆڕاگریەکان",
-  "aiLimitSubtitle": "هەر وەڵام یەک خۆڕاگری بەکار دەهێنێت. ستاندارد خۆڕاگریە سەرەتایی تێدایە. بارەکە بەشەکانی بەرزتر و تاپەکان فتح دەکات.",
-  "aiLimitProgressLabel": "{used} / {total} خۆڕاگری بەکارهاتوو",
+  "limitLoadingLabel": "بارکراوە…",
+  "limitLoadingLabelDescription": "تیایدا تێدەپێندەکاتیت پشکی ئامار بەکارھێنان بارکراو بن.",
+  "aiLimitTitle": "فکرکردنەکان",
+  "aiLimitSubtitle": "ھەر وەڵام 1 فکرکردن بەکار دەھێنێت. بنچینەیی فکرکردنی دەستپێ تێدەدات. ویلایە زمرەکانی پریمیۆم کردۆتەوە و کۆکردنەوە چالاک دەکات.",
+  "aiLimitProgressLabel": "{used} / {total} فکرکردنی بەکارھێنراو",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "خۆڕاگریەکان",
-  "reflectionsUsageLabel": "بەکاربردن",
-  "reflectionsRemainingLabel": "خۆڕاگریەکانی ماونەکە: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "پلان: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "ناوی پلان دەنیشاندات.",
+  "creditsSectionTitle": "فکرکردنەکان",
+  "creditsUsageLabel": "بەکارھێنان",
+  "creditsRemainingLabel": "فکرکردنی بەماونده: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "ستاندارد یان بارەکە" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "بارکردن…",
-  "reflectionsLoadingLabelDescription": "نیشاندەدات کاتێک ئامارە خۆڕاگری بارکردن دەکرێت.",
-
-  "reflectionsTitle": "خۆڕاگریەکان",
-  "reflectionsSubtitle": "هەر وەڵام یەک خۆڕاگری بەکار دەهێنێت. ستاندارد خۆڕاگریە سەرەتایی تێدایە. بارەکە بەشەکانی بەرزتر و تاپەکان فتح دەکات.",
-  "reflectionsProgressLabel": "{used} / {total} خۆڕاگری بەکارهاتوو",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "پلان: {plan}",
+  "@creditsPlanLabel": {
+    "description": "ناونیشانی پلان نیشان دەدات.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "بنچینەیی یان ویلایە"
+      }
+    }
+  },
+  "creditsLoadingLabel": "بارکراوە…",
+  "creditsLoadingLabelDescription": "تیایدا کاتێک پشکی ئامار فکرکردن بارکراو بن.",
+  "creditsTitle": "فکرکردنەکان",
+  "creditsSubtitle": "ھەر وەڵام 1 فکرکردن بەکار دەھێنێت. بنچینەیی فکرکردنی دەستپێ تێدەدات. ویلایە زمرەکانی پریمیۆم کردۆتەوە و کۆکردنەوە چالاک دەکات.",
+  "creditsProgressLabel": "{used} / {total} فکرکردنی بەکارھێنراو",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "سڕینەوەی ئاکاونت",
-  "settingsDeleteDescription": "بە هەمیشە ئاکاونتی خۆت و هەموو دەتێی پێوەندیدار سڕ.",
-  "settingsDeleteButtonLabel": "ئاکاونتی خۆم بسڕ",
-  "settingsDeleteDialogTitle": "ئاکاونت بسڕ؟",
-  "settingsDeleteDialogBody": "ئەم چالاکیە دەمی نیە و نەتوان گۆڕا.\n\nهەموو گفتوگۆ، میژوو و زانیاری ئاکاونتی خۆت دەسڕێتەوە.",
-  "settingsDeleteDialogCancel": "پاشگەزبوونەوە",
-  "settingsDeleteDialogConfirm": "سڕینەوە",
-
-  "settingsFreeLimitUsedTitle": "خۆڕاگریە سەرەتایی بەکارهاتوو",
-  "settingsFreeLimitUsedDescription": "خۆڕاگریە سەرەتایی بۆ ئەم دەستگەیە بەکارهاتووە. بەرز بکە بۆ بارەکە یان خۆڕاگری زیاتر بکڕ تا بەردەوام بیت.",
-
-  "settingsStarterReflectionsUsedTitle": "خۆڕاگریە سەرەتایی بەکارهاتوو",
-  "settingsStarterReflectionsUsedDescription": "خۆڕاگریە سەرەتایی بۆ ئەم دەستگەیە بەکارهاتووە. بەرز بکە بۆ بارەکە یان خۆڕاگری زیاتر بکڕ تا بەردەوام بیت.",
-
-  "deviceBoundError": "ئەم دەستگەیە هاوپێچ بۆ ئاکاونتی تریی نەبوی. تکایە بە ئاکاونتی سەرەتایی چوونە ژوورەوە و دیسان هەولی بدە.",
-
-  "premiumTitle": "شێوەی بارەکە",
-  "premiumSubtitleBasic": "تێکەڵی تێدایی Ayara فتح بکە.",
-  "premiumSubtitleChampion": "تۆ بارەکە ی. پێویستت بە خۆڕاگری زیاتر؟",
-
+  "settingsDeleteTitle": "بسڕێتەوە هەژمار",
+  "settingsDeleteDescription": "بەشێوەی دەبڵاو هەژمارت و هەموو داتا پەیوەندیدار بسڕێتەوە.",
+  "settingsDeleteButtonLabel": "بسڕێتەوە هەژمارم",
+  "settingsDeleteDialogTitle": "بسڕێتەوە هەژمار؟",
+  "settingsDeleteDialogBody": "ئەم کردەیە دەبڵاوە و نیکار گەڕاندنەوەی نیە.\n\nهەموو چاتەکانت، مێژووت و زانیاری هەژمارت دەبسرێتەوە.",
+  "settingsDeleteDialogCancel": "هەڵگرتن",
+  "settingsDeleteDialogConfirm": "بسڕێتەوە",
+  "settingsFreeLimitUsedTitle": "فکرکردنی دەستپێ بەکارھێنراو",
+  "settingsFreeLimitUsedDescription": "فکرکردنی دەستپێی ئەم جیهازە بەکارھێنراوە. بە ویلایە ئپگریڤ بکە یان فکرکردنی زیاتر بیکرە بۆ بەردەوامی.",
+  "settingsStarterCreditsUsedTitle": "فکرکردنی دەستپێ بەکارھێنراو",
+  "settingsStarterCreditsUsedDescription": "فکرکردنی دەستپێی ئەم جیهازە بەکارھێنراوە. بە ویلایە ئپگریڤ بکە یان فکرکردنی زیاتر بیکرە بۆ بەردەوامی.",
+  "deviceBoundError": "ئەم جیهازە بەتێکی هەژماری تری پەیوەسھ کێناوە. تکایە بە هەژماری دەستپێگی چون ژوورەوە بکە.",
+  "premiumTitle": "مۆدی ویلایە",
+  "premiumSubtitleBasic": "بە کێشی تێدەپەڵێوکردنی ئایارا بەسەر بگریت.",
+  "premiumSubtitlePremium": "تۆ لە ویلایە یت. پێویستی بە فکرکردنی زیاتر؟",
   "premiumCurrentPlan": "پلانی ئێستا: {plan}",
-  "premiumCreditsStatus": "خۆڕاگریەکان: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "کڕین ئێستا بوون نیە.",
-  "premiumSignInToPurchase": "چوونە ژوورەوە تا خۆڕاگری بکڕ یان بارەکە فتح بکە.",
-
-  "premiumRestorePurchases": "بیگـــــــریــــــــنەوەی کڕی",
-  "premiumProcessing": "پروسێس دەکرێت…",
-  "premiumRestoreHintTitle": "بارەکە یان خۆڕاگری کڕیت ئەم دەستگەیە یان دەستگەیەکی تریی؟",
-  "premiumRestoreHintBody": "کڕیەکانی خۆت بیگـــــــریــــــــنەوە ئەگەر نەدیاربێت.",
-
-  "premiumBuyCredits200": "200 خۆڕاگری بکڕ",
-  "premiumBuyCredits400": "400 خۆڕاگری بکڕ",
-  "premiumBecomeChampionOneTime": "بەرز بکە بۆ شێوەی بارەکە",
-  "premiumChampionHint": "بەمەیاندا تۆ بارەکە، دەتوانی خۆڕاگری زیاتر تاپ بکەی کاتێک پێویستت هەبێت.",
-
+  "premiumCreditsStatus": "فکرکردنەکان: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "کڕین بۆ ئێستا بەردەست نین.",
+  "premiumSignInToPurchase": "چون ژوورەوە بکە بۆ کڕینی فکرکردن یان کردۆتەوەی ویلایە.",
+  "premiumRestorePurchases": "گێڕانەوەی کڕینەکان",
+  "premiumProcessing": "پرۆسێس کراوە…",
+  "premiumRestoreHintTitle": "بۆ کجا ویلایە یان فکرکردن لە ئەم جیهازە یا جیهازێکی تردا کڕیوە؟",
+  "premiumRestoreHintBody": "گێڕانەوەی کڕینەکانت ئەگەر نیشان نەدانن.",
+  "premiumBuyCredits200": "کڕین 200 فکرکردن",
+  "premiumBuyCredits400": "کڕین 400 فکرکردن",
+  "premiumBecomePremiumOneTime": "بەرزکردن بۆ مۆدی ویلایە",
+  "premiumTopupHint": "بە ویلایە، دەتوانیت فکرکردنی زیاتر کۆ بکەنەوە ھەرچ جار پێویستت بێ.",
   "premiumUpgradeCta": "بەرزکردن",
-  "premiumRequiredForCategory": "ئەم بەشە تەنها بۆ بەکارهێنەری بارەکە. ڕێکخستنی ڕۆژنامە تا بەرزتی تێکەڵ.",
-  "premiumBenefitsBasic": "بارەکە فتح بکە تا خۆڕاگری زیاتر، بەشەکانی بەرزتر، و بەردەوام بیت کاتێک پێویستت هەبێت.",
-  "premiumBenefitsChampion": "تۆ شێوەی بارەکە یت. ئەگەر کۆتی خۆڕاگریەکانت ڕسێنت، خۆڕاگری زیاتر زیاد بکە و بەردەوام بە نابێژنەوە.",
-  "premiumButtonBecomeChampion": "بارەکە فتح بکە",
-  "premiumButtonTopup1000": "1000 خۆڕاگری زیاد بکە",
-  "premiumChampionBadge": "بارەکە چالاک",
-  "premiumLoadingStore": "بارکردنی بازاڕ…",
-
-  "blessedTitle": "شێوەی بارەکە",
-  "blessedSubtitleGrace": "تێکەڵی تێدایی Ayara فتح بکە.",
-  "blessedSubtitleBlessed": "تۆ بارەکە ی. پێویستت بە خۆڕاگری زیاتر؟",
-
-  "blessedCurrentPlan": "پلانی ئێستا: {plan}",
-  "blessedReflectionsStatus": "خۆڕاگریەکان: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "کڕین ئێستا بوون نیە.",
-  "blessedProductNotAvailable": "ئەم توسقەیە هیندێ لە بازاڕدا نیە. تکایە بعد بیسە دیسان هەولی بدە.",
-  "blessedPurchaseError": "تێکەڵێک لە کڕیدا ڕووی دا. تکایە دیسان هەولی بدە.",
-  "blessedSignInToPurchase": "چوونە ژوورەوە تا خۆڕاگری بکڕ یان بارەکە فتح بکە.",
-
-  "blessedRestorePurchases": "بیگـــــــریــــــــنەوەی کڕی",
-  "blessedProcessing": "پروسێس دەکرێت…",
-  "blessedRestoreHintTitle": "بارەکە یان خۆڕاگری کڕیت ئەم دەستگەیە یان دەستگەیەکی تریی؟",
-  "blessedRestoreHintBody": "کڕیەکانی خۆت بیگـــــــریــــــــنەوە ئەگەر نەدیاربێت.",
-
-  "blessedBuyReflections100": "100 خۆڕاگری زیاد بکە",
-  "blessedBuyReflections200": "200 خۆڕاگری بکڕ",
-  "blessedBuyReflections400": "400 خۆڕاگری بکڕ",
-  "blessedBecomeBlessedOneTime": "بەرز بکە بۆ بارەکە",
-  "blessedTopupHint": "بەمەیاندا تۆ بارەکە، دەتوانی خۆڕاگری زیاتر تاپ بکەی کاتێک پێویستت هەبێت.",
-
-  "blessedUpgradeCta": "بەرزکردن",
-  "blessedRequiredForCategory": "ئەم بەشە تەنها بۆ بەکارهێنەری بارەکە. ڕێکخستنی ڕۆژنامە تا بەرزتی تێکەڵ.",
-  "blessedFeatureLocked": "بارەکە فتح بکە تا ئەم خصوسیەتە بەکار بهێنی.",
-  "lockedCategoriesHint": "هیندێ بەشە بۆ بەکارهێنەری بارەکە. فتحیان بکە تا هەموو خۆڕاگری بۆ مایەی خۆت بدۆزیت.",
-  "blessedBenefitsGrace": "بارەکە فتح بکە تا خۆڕاگری زیاتر، بەشەکانی بەرزتر، و بەردەوام بیت کاتێک پێویستت هەبێت.",
-  "blessedBenefitsBlessed": "تۆ شێوەی بارەکە یت. ئەگەر کۆتی خۆڕاگریەکانت ڕسێنت، خۆڕاگری زیاتر زیاد بکە و بەردەوام بە نابێژنەوە.",
-  "blessedButtonBecomeBlessed": "بارەکە فتح بکە",
-  "blessedButtonTopup1000": "1000 خۆڕاگری زیاد بکە",
-  "blessedBadge": "بارەکە چالاک",
-  "blessedLoadingStore": "بارکردنی بازاڕ…",
-
-  "freePlanBlockedTitle": "خۆڕاگریە سەرەتایی تێ ن",
-  "freePlanBlockedBody": "تۆ پلانی ستاندارد و خۆڕاگریە سەرەتایی و سینوری گیاندویت. تا بەردەوام بیت - و بەشەکانی بەرزتر فتح بکە - بەرز بکە بۆ بارەکە.",
-  "freePlanBlockedCtaGoPremium": "بێیەکانی بارەکە بۆ خوارۆ بڕوانە",
-
-  "graceBlockedTitle": "خۆڕاگریە سەرەتایی تێ ن",
-  "graceBlockedBody": "تۆ پلانی ستاندارد و خۆڕاگریە سەرەتایی و سینوری گیاندویت. تا بەردەوام بیت - و بەشەکانی بەرزتر فتح بکە - بەرز بکە بۆ بارەکە.",
-  "graceBlockedCtaGoBlessed": "بێیەکانی بارەکە بۆ خوارۆ بڕوانە",
-
-  "rateGuestMustSignIn": "چوونە ژوورەوە تا Ayara و خۆڕاگریەکانی خۆت بەکار بهێنی.",
-
-  "guestNoCreditsTitle": "شێوەی مێوان",
-  "guestNoCreditsBody": "وەک مێوان دەتوانی تێکەڵ شوێن بڕوانی، بەڵام نەتوانی خۆڕاگری بەکار بهێنی. دواتر چوونە ژوورەوە لە ڕێکخستنی ڕۆژنامە تا خۆڕاگری بەکار بهێنی.",
-
-  "guestNoReflectionsTitle": "شێوەی مێوان",
-  "guestNoReflectionsBody": "وەک مێوان دەتوانی تێکەڵ شوێن بڕوانی، بەڵام نەتوانی خۆڕاگری بەکار بهێنی. دواتر چوونە ژوورەوە لە ڕێکخستنی ڕۆژنامە تا خۆڕاگری بەکار بهێنی.",
-
+  "premiumRequiredForCategory": "ئەم زمرەیە تەنیا بۆ بەکارھێنەری ویلایە بڵاو دراوە. لە شێوەپێدان بەرز بکە بۆ کردۆتەوەی هەموو ناوەڕۆکی پریمیۆم.",
+  "premiumBenefitsBasic": "کردۆتەوەی ویلایە بۆ فکرکردنی زیاتر، دەستپێگی زمرەکانی پریمیۆم، و بەردەوامی ھەرچ جار پێویستت بێ.",
+  "premiumBenefitsPremium": "تۆ لە مۆدی ویلایە یت. ئەگەر کەم بیت، فکرکردنی زیاتر زیاد بکە و بەردەوام بە بێ هیچ کڕتاویت.",
+  "premiumButtonBecomePremium": "کردۆتەوەی ویلایە",
+  "premiumButtonTopup1000": "زیادکردن 1000 فکرکردن",
+  "premiumBadge": "ویلایە چالاکە",
+  "premiumLoadingStore": "بارکردنی فرۆشتگا…",
+  "premiumProductNotAvailable": "ئەم بەرھەمە هیشتا لە فرۆشتگا بەردەست نیە. تکایە دواتر دووبارە ھەوڵ بدەرەوە.",
+  "premiumPurchaseError": "تێدەڕوو شتێک ناچار بوو لە کڕین. تکایە دووبارە ھەوڵ بدەرەوە.",
+  "premiumBuyCredits100": "زیادکردن 100 فکرکردن",
+  "premiumFeatureLocked": "کردۆتەوەی ویلایە بۆ دەستپێگی ئەم تایبەتمەندیەیە.",
+  "lockedCategoriesHint": "ھیچ زمرەیەک بۆ ئەندامانی ویلایە مەھیم دراوە. کردۆتەوەی بۆ بۆدانی ھەموو فکرکردن لە سفرتەکەت.",
+  "freePlanBlockedTitle": "فکرکردنی دەستپێیت بە سەر چووە",
+  "freePlanBlockedBody": "تۆ لە پلانی بنچینەیی یت بە فکرکردنی دەستپێ، و دەگات لە سنورەکان. بۆ بەردەوامی — و کردۆتەوەی زمرەکانی پریمیۆم — بە ویلایە ئپگریڤ بکە.",
+  "freePlanBlockedCtaGoPremium": "بیبینە بژاردەکانی ویلایە لێ خوارەوە",
+  "graceBlockedTitle": "فکرکردنی دەستپێیت بە سەر چووە",
+  "graceBlockedBody": "تۆ لە پلانی بنچینەیی یت بە فکرکردنی دەستپێ، و دەگات لە سنورەکان. بۆ بەردەوامی — و کردۆتەوەی زمرەکانی پریمیۆم — بە ویلایە ئپگریڤ بکە.",
+  "graceBlockedCtaGoPremium": "بیبینە بژاردەکانی ویلایە لێ خوارەوە",
+  "rateGuestMustSignIn": "چون ژوورەوە بکە بۆ بەکارھێنان ئایارا و فکرکردنەکانت.",
+  "guestNoCreditsTitle": "مۆدی مێوان",
+  "guestNoCreditsBody": "وەک مێوان دەتوانیت ئەپی بگەڕێت، بەڵام نیتوانیت فکرکردن بەکار بھێنیت. دواتر تێدا چون ژوورەوە بکە بۆ بەکارھێنانی فکرکردن و کردۆتەوەی کڕینەکان.",
   "guestDialogContinue": "بەردەوام بە",
-  "guestDialogLoginInstead": "چوونە ژوورەوە",
-
-  "optionalLabel": "بەتاڵ",
-
-  "accountDeleteSuccessTitle": "ئاکاونت سڕاو",
-  "accountDeleteSuccessBody": "ئاکاونتی خۆت و دەتای پێوەندیدار بە سەرکەوتویی سڕاون.",
+  "guestDialogLoginInstead": "چون ژوورەوە بکە",
+  "optionalLabel": "بژاردەیی",
+  "accountDeleteSuccessTitle": "هەژمار سڕاسڕی",
+  "accountDeleteSuccessBody": "هەژمارت و داتای پەیوەندیدارت بە سەرکەوتویی سڕاسڕی کران.",
   "accountDeleteSuccessClose": "داخستن",
-  "accountDeleteErrorTitle": "نەتوانی ئاکاونت بسڕ",
+  "accountDeleteErrorTitle": "نەتوانی هەژمار سڕبکە",
   "accountDeleteErrorClose": "باشە",
-  "accountDeleteReauthCancelled": "دووبارە ڕاستتی بوونەوە پاشگەز کرا. تکایە دیسان چوونە ژوورەوە و سابۆردن هەولی بدە.",
-  "accountDeleteReauthRequired": "سڕینەوەی ئاکاونت پێویستی چوونەژوورەوەی نێو دەکات. تکایە دەرچوون، دیسان چوونە ژوورەوە، و دیسان هەولی بدە.",
-  "settingsDeletePermanentWarning": "ئەم چالاکیە دەمی نیە و نەتوان گۆڕا. هەموو دەتایی پێوەندی ئاکاونتی خۆت دەسڕێتەوە.",
-
-  "dailyGraceTitle": "ڕێنمایی ڕۆژانە",
-  "dailyGraceScriptureLabel": "ئایەتی ڕۆژ",
-  "dailyGraceSaintLabel": "سـەلمانی هەفتە",
-  "dailyGraceReflectionLabel": "خۆڕاگری ئێوار",
+  "accountDeleteReauthCancelled": "دووبارە پشتڕاستیکردن هەڵگری کرا. تکایە دووبارە چون ژوورەوە بکە و سڕینەوە دووبارە هەوڵ بدەرەوە.",
+  "accountDeleteReauthRequired": "سڕینەوەی هەژمار پێویستی بە چونەژوورەوەی نوێت لێ دەکات. تکایە دەرچە، دووبارە چون ژوورەوە بکە، و سڕینەوە دووبارە هەوڵ بدەرەوە.",
+  "settingsDeletePermanentWarning": "ئەم کردەیە دەبڵاوە و نیکار گەڕاندنەوەی نیە. هەموو داتای پەیوەندیدار بە هەژمارت دەسڕێتەوە.",
+  "dailyGraceTitle": "ڕاھێنانی ڕۆژانە",
+  "dailyGraceScriptureLabel": "ئایەتی ڕۆژی",
+  "dailyGraceSaintLabel": "عامیلی ھەفتە",
+  "dailyGraceReflectionLabel": "فکرکردنی ئێوار",
   "dailyGraceCopiedToast": "ئایەت کۆپی کرا بۆ تختە",
-
-  "dailyScripture0Text": "بێگومان درێژنکار لە هۆڕە و بەشتە نەوس دا، لە نیشتەمان شیعزاتیانە لە پادشاهی توانادار.",
-  "dailyScripture0Ref": "قورئان 54:54-55",
-  "dailyScripture1Text": "ئێمە نێت پێت ناردیین تێکەڵ خودایە بۆ هەموو دونیایان.",
-  "dailyScripture1Ref": "قورئان 21:107",
-  "dailyScripture2Text": "ئایا خودا بۆ خزمەتکاری خۆی بسیێ نیە؟ لەڕادەی تری کەسانی وە تڕس دەداتەوێ.",
-  "dailyScripture2Ref": "قورئان 39:36",
-  "dailyScripture3Text": "لەوانەیە تۆ تێکەڵێک نفرەت کەی و بۆ خۆت باشە؛ و لەوانەیە تۆ تێکەڵێک خۆشدەویتە و بۆ خۆت خراپە. و خودا دەزانێت و تۆ نازانیت.",
-  "dailyScripture3Ref": "قورئان 2:216",
-  "dailyScripture4Text": "بێگومان خودا لەگەڵ ساپرانە.",
-  "dailyScripture4Ref": "قورئان 2:153",
-  "dailyScripture5Text": "بۆیە مندی بکە؛ من تێ بێژنرەم. و سپاسی کە و نەنکۆ.",
-  "dailyScripture5Ref": "قورئان 2:152",
-  "dailyScripture6Text": "بێگومان رێزدارترین تێدا لە نێو خودا کەسانی تێکافی ن.",
-  "dailyScripture6Ref": "قورئان 49:13",
-  "dailyScripture7Text": "و پەروەردگاری فەرمان کردووە کە پەرستش تەنها ئێمی و بۆ پاپۆڕان تێکافی.",
-  "dailyScripture7Ref": "قورئان 17:23",
-  "dailyScripture8Text": "بێگومان، لەگەڵ قورستان هێسانیت.",
-  "dailyScripture8Ref": "قورئان 94:6",
-  "dailyScripture9Text": "و ئەو لەگەڵت ئێت هەرچی دەبیت. و خودا لە هەمووەی دەکەی، بینەر.",
-  "dailyScripture9Ref": "قورئان 57:4",
-  "dailyScripture10Text": "خودا بۆ هیچ جان پێچەوانەیێک تێندەگرە تێتر.",
-  "dailyScripture10Ref": "قورئان 2:286",
-  "dailyScripture11Text": "و کێ پشت دا بە خودا - ئیتر ئەو بسیێت بۆی.",
-  "dailyScripture11Ref": "قورئان 65:3",
-  "dailyScripture12Text": "شفقەتی من بۆ هەموو تێکەڵ.",
-  "dailyScripture12Ref": "قورئان 7:156",
-  "dailyScripture13Text": "و کاتێک خزمەتکاری مندا سەبارەت بە من پرسیا - بێگومان من نێز. دوادا وەڵامیم دۆزێت کاتێک بانگ بانگی پێکرد.",
-  "dailyScripture13Ref": "قورئان 2:186",
-  "dailyScripture14Text": "کێ کاری درێژایی بکات، مێ یان مێجیی، لەدایک باوێرمەند - بێگومان ئێمی ئەم ژیانی خوێ دەبێتەوە.",
-  "dailyScripture14Ref": "قورئان 16:97",
-  "dailyScripture15Text": "بێگومان خودا حالی قۆم نەگۆڕێت ھەتا ئەوان حالی خۆیان بگۆڕن.",
-  "dailyScripture15Ref": "قورئان 13:11",
-  "dailyScripture16Text": "بۆیە نیاز مەکەی و بێزار نەبە، و تێ سەرتان کۆ ئەگەر ئێتان باوێرمەند بێن.",
-  "dailyScripture16Ref": "قورئان 3:139",
-  "dailyScripture17Text": "ای خزمەتکاری من کە خۆیان سست کردن، ئومید مەچنین لە شفقەتی خودا. بێگومان خودا هەموو کێ لێبوردی دەکات.",
-  "dailyScripture17Ref": "قورئان 39:53",
-  "dailyScripture18Text": "و کێ خودا بتڕسێت - خودا بۆ ئەم چارەی دروست دەکات، و لە چێژی کە هیچ پێچەوانە نیە.",
-  "dailyScripture18Ref": "قورئان 65:2-3",
-  "dailyScripture19Text": "ئومید مەچنین لە شفقەتی خودا.",
-  "dailyScripture19Ref": "قورئان 12:87",
-  "dailyScripture20Text": "و بێگومان ئێمی قورئان هێسان کردووە بۆ یادبێژن. ئایا هیچ میندار هەیە کە بیر لێ بکات؟",
-  "dailyScripture20Ref": "قورئان 54:17",
-  "dailyScripture21Text": "و ئەو تۆی تێکەڵ و ڕێنمایی کرد.",
-  "dailyScripture21Ref": "قورئان 93:7",
-  "dailyScripture22Text": "و پەروەردگاری دەفەرمووێت: مندی کە؛ وەڵامیت دۆزێم.",
-  "dailyScripture22Ref": "قورئان 40:60",
-  "dailyScripture23Text": "و بێگومان ئێمی مندان خوار رێزدار کردیاون.",
-  "dailyScripture23Ref": "قورئان 17:70",
-  "dailyScripture24Text": "و بە سابری و نوێژ یارمەتی بگرن.",
-  "dailyScripture24Ref": "قورئان 2:45",
-  "dailyScripture25Text": "کێ وزنی ئاتۆمێک باشی بکات - دێتیە.",
-  "dailyScripture25Ref": "قورئان 99:7",
-  "dailyScripture26Text": "بێگومان، یارمەتی خودا نێز.",
-  "dailyScripture26Ref": "قورئان 2:214",
-  "dailyScripture27Text": "و کێ سپاسی - سپاسی ئەوە تەنها بۆ خۆی.",
-  "dailyScripture27Ref": "قورئان 31:12",
-
-  "dailyReflection0": "کاتێک ئەم ڕۆژە تێ دەچێت، یەک سەبی تێدا شفقەتی خودا ڕوو بە چاو بوو.",
-  "dailyReflection1": "هەمووی کە سخت لە دڵت بوو ئێمرۆ بۆ خودا هێنە پێش.",
-  "dailyReflection2": "یەک برکەت لەم ڕۆژە ناونوسیت و سپاسی خودا.",
-  "dailyReflection3": "لە سوڕایت تێدا کە تۆ پاراستی خودا ی تێدا ی.",
-  "dailyReflection4": "خۆڕاگری سەبارەت بە جێی کە تۆ بانگهێشتی نیشتن شفقەت و سۆپاتی ئێمرۆ.",
-  "dailyReflection5": "دووری خۆت لە هەمووی کە نەتوانی کنترۆل بکەی و باوێری پلانی خودا.",
-  "dailyReflection6": "کاتێک ڕۆژ دێتە پاسان، ئاشتی مندی لە یادبێژی خودا.",
-  "dailyReflection7": "خۆڕاگری سەبارەت بە درێژایی نوێژی خۆت ئێمرۆ و سپاسی خودا بۆ هەریەک.",
-  "dailyReflection8": "خۆڕاگری سەبارەت بە سەبی کە ساپری تۆت ڕێنمایی کردیت ئێمرۆ.",
-  "dailyReflection9": "بخواہ لێبوردنی هەر لێکدانێک ئێمرۆ - شفقەتی خودا بە نهایە.",
-  "dailyReflection10": "یەک کەس ناونوسیت کە تۆ سۆپاتی دەخستی ئێمرۆ و دوادیان بۆ کە دۆزێت.",
-  "dailyReflection11": "لەگەڵ سپاسی بۆ تێ یەک شت ڕاور کە خودا ئێت دا کە نەداواتت.",
-  "dailyReflection12": "خۆڕاگری سەبارەت بە ئایەتێک لە قورئان کە بە چێی حاڵی خۆت نیشان بدات.",
-  "dailyReflection13": "خۆڕاگری سەبارەت بە چۆنێتی بەکاربردنی کاتی خۆت ئێمرۆ - و فریادا خودا فریادی ئێت.",
-  "dailyReflection14": "بە سۆڕا بە ئەوەی کە هەرچی قورستان ڕویدا ئێمرۆ، خودا لەگەڵت بوو.",
-  "dailyReflection15": "یەک شێوە تێدا بۆ خودا بۆ خێزان یان کۆمەڵگە ئێمرۆ.",
-  "dailyReflection16": "کاتێک شەو دێچێت، توبە بۆ خودا - خودا ئەوانی لێدەبورێتەوە کە گێڕا.",
-  "dailyReflection17": "خۆڕاگری سەبارەت بە جوانیی خودا لە ڕۆژی خۆت، هەتا بچووک.",
-  "dailyReflection18": "خۆڕاگری سەبارەت بە هەمووی کە فێری بووی ئێمرۆ و چۆنێتی نێزتری بووی بۆ خودا.",
-  "dailyReflection19": "شێعار لێ ئازاد ڕۆژی - خودا پاشکویی بێت کە نەتوانی بخوریت.",
-  "dailyReflection20": "یەک سەبی تێدا کە تۆ دەتوانیت باشتری هیڵێت و فێری بێت لێ بە نرم.",
-  "dailyReflection21": "دوادیی بۆ هەوێندۆی کە ڕق دێت - هانی تۆ دیاری دەست ی.",
-  "dailyReflection22": "یادبێژێ برکەتێک کە هەمیشە لاناسیت و کاتیت ڕابکشیت بۆ سپاسی خودا.",
-  "dailyReflection23": "خۆڕاگری سەبارەت بە نیەتی خۆت ئێمرۆ - بۆ خودا بوو؟ ئێتی دوبارە دەستپێ بکە.",
-  "dailyReflection24": "کاتێک شەو بێنیاز دەبێت، گوێ لە نێزبوون خودا بۆ تا.",
-  "dailyReflection25": "یەک سەبی تێدا کاتێک تۆ هێز تێتادا - هێزا خودا.",
-  "dailyReflection26": "یەک تێکەڵ ناونوسیت کە بۆ خودا بکاتەوە ئێتی کە نەکردی ئێمرۆ.",
-  "dailyReflection27": "کاتێک تۆ پێت شێعار لێ ئازاد دە، خۆت بە خودا بدە - ئەو باشترین پاراستووە.",
-
-  "dailyRoleModel0": "پێغەمبەری محمد ﷺ",
-  "dailyRoleModel1": "ئابوبەکری سیدیق (رضی الله عنه)",
-  "dailyRoleModel2": "عمری ئیبنی خەتاب (رضی الله عنه)",
-  "dailyRoleModel3": "عثمانی ئیبنی عفان (رضی الله عنه)",
-  "dailyRoleModel4": "علیی ئیبنی ئابی تالب (رضی الله عنه)",
-  "dailyRoleModel5": "خدیجە بنتی خوێلید (رضی الله عنها)",
-  "dailyRoleModel6": "عائشە بنتی ئابوبەکر (رضی الله عنها)",
-  "dailyRoleModel7": "فاتمە لزهرا (رضی الله عنها)",
-  "dailyRoleModel8": "بلالی ئیبنی رباح (رضی الله عنه)",
-  "dailyRoleModel9": "سەلمانی فارسی (رضی الله عنه)",
-  "dailyRoleModel10": "ئابوهریرە (رضی الله عنه)",
-  "dailyRoleModel11": "عبدالله ئیبنی عباس (رضی الله عنه)",
-  "dailyRoleModel12": "عبدالله ئیبنی مەسعود (رضی الله عنه)",
-  "dailyRoleModel13": "موعاذی ئیبنی جابەل (رضی الله عنه)",
-  "dailyRoleModel14": "موسابی ئیبنی عمیر (رضی الله عنه)",
-  "dailyRoleModel15": "سومایە بنتی خباب (رضی الله عنها)",
-  "dailyRoleModel16": "عماری ئیبنی یاسر (رضی الله عنه)",
-  "dailyRoleModel17": "ئەمّ سەلمە (رضی الله عنها)",
-  "dailyRoleModel18": "خالدی ئیبنی والید (رضی الله عنه)",
-  "dailyRoleModel19": "زیدی ئیبنی ثابت (رضی الله عنه)",
-  "dailyRoleModel20": "حفسە بنتی عمر (رضی الله عنها)",
-  "dailyRoleModel21": "عمری ئیبنی عبدالعزیز (رحمه الله)",
-  "dailyRoleModel22": "ئمامی ئابوحنیفە (رحمه الله)",
-  "dailyRoleModel23": "ئمامی مالکی ئیبنی ئانس (رحمه الله)",
-  "dailyRoleModel24": "ئمامی شافعی (رحمه الله)",
-  "dailyRoleModel25": "ئمامی ئحمد ئیبنی حنبەل (رحمه الله)",
-  "dailyRoleModel26": "ئمامی بخاری (رحمه الله)",
-  "dailyRoleModel27": "ئمامی موسلم (رحمه الله)",
-  "dailyRoleModel28": "ئمامی ترمزی (رحمه الله)",
-  "dailyRoleModel29": "غزالی (رحمه الله)",
-  "dailyRoleModel30": "ئیبنی قیّم الجوزیە (رحمه الله)",
-  "dailyRoleModel31": "ئیبنی تیمیە (رحمه الله)",
-  "dailyRoleModel32": "نەواوی (رحمه الله)",
-  "dailyRoleModel33": "ئیبنی حجری عسقەلانی (رحمه الله)",
-  "dailyRoleModel34": "ئیبنی کثیر (رحمه الله)",
-  "dailyRoleModel35": "طبری (رحمه الله)",
-  "dailyRoleModel36": "سفیانی ثوری (رحمه الله)",
-  "dailyRoleModel37": "فخری دینی رازی (رحمه الله)",
-  "dailyRoleModel38": "ئیبنی سینا (رحمه الله)",
-  "dailyRoleModel39": "البیرونی (رحمه الله)",
-  "dailyRoleModel40": "ئیبنی رشد (رحمه الله)",
-  "dailyRoleModel41": "ئیبنی خالدون (رحمه الله)",
-  "dailyRoleModel42": "ئیبنی بتوتە (رحمه الله)",
-  "dailyRoleModel43": "پێغەمبەری ئبراهیم (علیه السلام)",
-  "dailyRoleModel44": "پێغەمبەری موسی (علیه السلام)",
-  "dailyRoleModel45": "پێغەمبەری عیسی (علیه السلام)",
-  "dailyRoleModel46": "پێغەمبەری یوسوف (علیه السلام)",
-  "dailyRoleModel47": "پێغەمبەری داؤود (علیه السلام)",
-  "dailyRoleModel48": "پێغەمبەری سولێمان (علیه السلام)",
-  "dailyRoleModel49": "پێغەمبەری نوح (علیه السلام)",
-  "dailyRoleModel50": "پێغەمبەری یونس (علیه السلام)",
-  "dailyRoleModel51": "پێغەمبەری ئیوب (علیه السلام)",
-  "dailyRoleModel52": "رقیە بنتی محمد (رضی الله عنها)",
-  "dailyRoleModel53": "زینەب بنتی محمد (رضی الله عنها)",
-  "dailyRoleModel54": "حسنی ئیبنی علی (رضی الله عنه)",
-  "dailyRoleModel55": "حسینی ئیبنی علی (رضی الله عنه)",
-  "dailyRoleModel56": "جعفری ئیبنی ئابی تالب (رضی الله عنه)",
-  "dailyRoleModel57": "ئابودھری غفاری (رضی الله عنه)",
-  "dailyRoleModel58": "طلحە ئیبنی عبیددالە (رضی الله عنه)",
-  "dailyRoleModel59": "زبیری ئیبنی عوام (رضی الله عنه)",
-
-  "locationConsentLabel": "Ayara ڕێپێدی بدە تا جێگەی من بۆ الجاهە و کاتی نوێژ بەکار بهێنێت",
-  "locationConsentHint": "تەنها بۆ ئەم خصوسیەتە. جێگەی خۆت هیچ جار بەشیان یان پاشەکەی نیە.",
-
-  "askPageTitle": "Ayara پرسیا",
-  "askPageDescription": "هەر تێکەڵێک سەبارەت بە ئیمان، نوێژ، ژیان یان چالاکیی ئیسلام و وەڵام وەربگرە بنیاتی لەسەر قورئان و سوننەت.",
-  "askPageInputHint": "پرسیەی خۆت لێرە بنووسە…",
-  "askPageSubmitCta": "پرسیا",
-  "askPageInputEmptyError": "تکایە یەکێ پرسیە بنووسە.",
-  "askResultYourQuestion": "پرسیەی خۆت",
-
-  "guidancePageTitle": "نوێژ و ڕێنمایی",
-  "qiblaFacingMecca": "کۆتایی مەکە",
-  "qiblaCompassInstruction": "تێلەفونی خۆت تاوێر بکە ھەتا سوور سەتڵ لە سەرنمایے ئاسماندا.\nئەم الجاهە بە کاعبە (مەکە) ڕیایە.",
-  "qiblaGpsUnavailableBody": "سیگنالی GPS لاپۆل. بڕۆ دەرە و هیندێک دوبارە هەولی بدە.",
-  "qiblaRetry": "دوبارە",
-  "qiblaTitle": "الجاهەی الجاهە",
-  "qiblaDistanceLabel": "{km} کم تا مەکە",
+  "locationConsentLabel": "دەستمێژوو بدە ئایارایە تا بۆدانی قیبلە و کاتی نوێژ بەکار بھێنێت",
+  "locationConsentHint": "تەنیا بۆ ئەم تایبەتمەندیانە بەکار دەھێنرێت. بۆدانت ھرگیز بەشی یان تێدەپەڵێو نابێت.",
+  "askPageTitle": "لێپرسین ئایارا",
+  "askPageDescription": "لێپرسین ھەرشتێک دەربارەی ئیمان، نوێژ، ژیان، یان جێبەجێکردنی ئیسلام و وەڵامی ڕاھێنراو بە قورئان و فێرکردنی ئەھلبەیت وەرگرە.",
+  "askPageInputHint": "پرسیارەکانت لێرە بنووسە…",
+  "askPageSubmitCta": "لێپرسین",
+  "askPageInputEmptyError": "تکایە یەکەم سوال بنووسە.",
+  "askResultYourQuestion": "پرسیارەکەت",
+  "guidancePageTitle": "قیبلە",
+  "qiblaFacingMecca": "ڕووبەڕووی مەکە",
+  "qiblaCompassInstruction": "تێلفۆنەکە ھولتیڵەوە ھەتا ستێ زێری ئاو بۆ سەرەوە نیشان بدات.\nئەم ئاراستە قیبلە (مەکە) نیشان دەدات.",
+  "qiblaGpsUnavailableBody": "نیشانی GPS کەم دروست نیە. بڕۆ بڕتاڵا و سڕتپێی دا.",
+  "qiblaRetry": "دووبارە ھەوڵ بدە",
+  "qiblaTitle": "ئاراستەی قیبلە",
+  "qiblaDistanceLabel": "{km} کیلۆمەتر بۆ مەکە",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "جێگە پێویست",
-  "qiblaLocationNeededBody": "جێگەی دەستگەی خۆت ڕێپێ بدە تاAyara بتوانێت الجاهەی کاعبە لە مەکە بێتێکی دایڕا.",
-  "qiblaOpenSettings": "ڕێکخستنەکان کردنەوە",
-  "qiblaCompassLoading": "جێگەی خۆت تێدەدۆزێت…",
-  "qiblaTowardMecca": "نیشانە بە مەکە",
-
+  "qiblaLocationNeededTitle": "بۆدان پێویست",
+  "qiblaLocationNeededBody": "دەستمێژوو بدە دەستپێگی بۆدان بۆ ئەوەی ئایارا ئاراستەی کاعبە لە مەکە لە کوێت بیهێنێت.",
+  "qiblaOpenSettings": "کردنەوەی شێوەپێدان",
+  "qiblaCompassLoading": "دۆزینەوەی بۆدانت…",
+  "qiblaTowardMecca": "ڕوون بۆ مەکە",
   "prayerTimesTitle": "کاتی نوێژ",
-  "prayerTimesFajr": "فجر",
-  "prayerTimesDhuhr": "ظہر",
-  "prayerTimesAsr": "عصر",
+  "prayerTimesFajr": "فاجر",
+  "prayerTimesDhuhr": "دھور",
+  "prayerTimesAsr": "عەسر",
   "prayerTimesMaghrib": "مغرب",
-  "prayerTimesIsha": "عشاء",
-  "prayerTimesLocationNeededTitle": "جێگە پێویست",
-  "prayerTimesLocationNeededBody": "جێگەی دەستگەی خۆت ڕێپێ بدە تا Ayara بتوانێت کاتی نوێژی دروست بۆ شاری خۆت.",
-  "prayerTimesNextLabel": "داهاتوو",
-  "prayerTimesDoneLabel": "تێیدا",
-
+  "prayerTimesIsha": "عیشاء",
+  "prayerTimesLocationNeededTitle": "بۆدان پێویست",
+  "prayerTimesLocationNeededBody": "دەستمێژوو بدە دەستپێگی بۆدان بۆ ئەوەی ئایارا کاتی نوێژی درست بۆ شارت بیهێنێت.",
+  "prayerTimesNextLabel": "دواتر",
+  "prayerTimesDoneLabel": "تێدەپەڵێو",
   "monthlyPrayerTimesTitle": "کاتی نوێژی مانگانە",
-  "monthlyPrayerTimesViewButton": "تێکەڵی بڕوانە",
-  "monthlyPrayerTimesNextMonth": "مانگی داهاتوو",
+  "monthlyPrayerTimesViewButton": "بیبینە مانگی تێدا",
+  "monthlyPrayerTimesNextMonth": "مانگی دواتر",
   "monthlyPrayerTimesDayHeader": "ڕۆژ",
-
-  "sharePrayerTimes": "کاتی نوێژ بەشیان بکە",
-
-  "prayerNotificationsTitle": "یاددێری نوێژ",
-  "prayerNotificationsDescription": "پێش هەر کاتی نوێژ یاددێری نرمێک وەربگرە تا نێزیت خودا بمێنێت.",
-  "prayerNotificationsEnable": "یاددێری نوێژ فتح بکە",
-  "prayerNotificationsOpenSettings": "ڕێکخستنی یاددێر کردنەوە",
-  "prayerNotificationsDenied": "یاددێر ناچالاک",
-  "prayerNotificationsDeniedHint": "بڕۆ بۆ ڕێکخستن و Ayara ڕێپێ بدە تا یاددێری نوێژ وەربگریت.",
-
-  "notificationsConsentLabel": "Ayara ڕێپێ بدە بۆ یاددێری نوێژ",
-
-  "prayerNotifTitleFajr": "🌅 فجر - نوێژی بەیان",
-  "prayerNotifBodyFajr": "باشترین نوێژ نوێژی بەیان. هیسبە هاندان بۆ خودا.",
-
-  "prayerNotifTitleDhuhr": "☀️ ظہر - نوێژی نیوەڕۆ",
-  "prayerNotifBodyDhuhr": "ڕۆژی خۆت ڕەگەز و بگێڕ خودا. کاتی ظہر هاتی.",
-
-  "prayerNotifTitleAsr": "🌤️ عصر - نوێژی پاسین",
-  "prayerNotifBodyAsr": "نوێژی ناودەست پاراستە. کاتی عصر هاتی - نەڵێی بتێپەڕ.",
-
-  "prayerNotifTitleMaghrib": "🌇 مغرب - نوێژی سواڵ",
-  "prayerNotifBodyMaghrib": "خۆر دابڕی. مغرب ئیجاد بکە و سپاس خودا.",
-
-  "prayerNotifTitleIsha": "🌙 عشاء - نوێژی شەو",
-  "prayerNotifBodyIsha": "ڕۆژی خۆت تێ بکە بە یادبێژی خودا. حیا على الفلاح - بڕۆ بۆ سەرکەوتن.",
-
-  "outOfReflectionsBannerText": "هەموو خۆڕاگریەکانی خۆت بەکارهاتوو",
-  "outOfReflectionsBannerCta": "زیاتر وێنە",
-
-  "dhikrPageTitle": "ذیکر",
-  "dhikrTapToCount": "تەپ لێ بکە تا ژمارە بکەی",
-  "dhikrResetButton": "دیسان دەستپێ",
-  "dhikrComplete": "ماشاالله",
-  "dhikrCompleteMessage": "تۆ 99 یادبێژی خودا تێیدا کردوو. بێدەن نوری دڵت.",
-
-  "disclaimerTitle": "سەبارەت بە ڕێنمایی ئەم تێکەڵە",
-  "disclaimerBody": "Ayara خۆڕاگریی ئیسلامی، یاددێر و ناوەڕۆکی رۆحانی پێشکەش دەکات تا ڕێی خۆت ڕێزیدار بکات. ئەم ناوەڕۆکە بۆ مەبەستی ئاگاداری گشتی و رۆحانی.\n\nAyara سامانی شاریّ نیە.\nڕێنمایی ئەم تێکەڵە جێگری قورانیی شارپێز، ئمام، موفتی یان مامۆستای رۆحانی تێدایی نیە. ئەگەر سوال سەبارەت بە حکومی شارپێز، حەلال و حارام یان بارودۆخی شارپێز هەبێت، تکایە یارمەتی لە سوپاسێکی شارپێز لە کۆمەڵگەی خۆت بگرە.\n\nئەم تێکەڵە حکومی شارپێز ندەداتەوە.\nAyara بڕیاری سەربەخۆی سەبارەت بە تێکەڵ فیقہی یان بارودۆخی شارپێزی کەس ندەداتەوە. هیچ شتێکی لێرە نەبێ فتوی یان فەرمانی شارپێز.",
-  "disclaimerClose": "تێگەیشتم",
-  "disclaimerInfoTooltip": "سەبارەت بە ڕێنمایی ئەم تێکەڵە",
-  "disclaimerSettingsSubtitle": "بۆ مەبەستی ئاگاداری گشتی. تپ بکە بۆ خوێندنی دیسان.",
-  "disclaimerSectionHeader": "ڕێنمایی حکومی شارپێز"
+  "sharePrayerTimes": "بەشیکردنی کاتی نوێژ",
+  "notificationsSectionTitle": "ئاگاداریەکان",
+  "notificationsSectionSubtitle": "یادآوریی نوێژ، ڕووداوی مانگ و زیاتر",
+  "dailyReflectionReminderTitle": "فکرکردنی ڕۆژانە",
+  "dailyReflectionReminderDescription": "یادآوری ناڵێتەیەکی ڕۆژانە بۆ کردنەوەی ئایارا و پەیوەسدان بە ئیماندا.",
+  "dailyReflectionReminderEnable": "چالاک کردنی یادآوری ڕۆژانە",
+  "dailyReflectionReminderTimeLabel": "کاتی یادآوری",
+  "prayerNotificationsTitle": "یادآوریی نوێژ",
+  "prayerNotificationsDescription": "یادآوری ناڵێتەیە لە بەرەو کاتی ھەر نوێژ وەرگرە بۆ ئەوەی ھەتاو ڕۆژت پەیوەست بمێنیتەوە.",
+  "prayerNotificationsEnable": "چالاک کردنی یادآوریی نوێژ",
+  "prayerNotificationsOpenSettings": "کردنەوەی شێوەپێدانی ئاگاداری",
+  "prayerNotificationsDenied": "ئاگاداری ناچالاک",
+  "prayerNotificationsDeniedHint": "بچۆ شێوەپێدان و دەستمێژوو بدە ئاگاداریەکان بۆ ئایارا بۆ وەرگرتنی یادآوریی نوێژ.",
+  "notificationsConsentLabel": "دەستمێژوو بدە ئاگاداریەکان بۆ کاتی نوێژ",
+  "prayerNotifTitleFajr": "🌅 فاجر — نوێژی سپێدەی",
+  "prayerNotifBodyFajr": "فاجر نوێژی سپێدەی ئەھلبەیت هەیە. ئیمام علی (ع) فەرمێند: فاجر بپاریزە ھەروەک تێکۆشنی گرانقیمەتتت بپاریزیت. لەبەری بیزوه کە خۆت پاک بکە و لە بەرامبەر خودا ڕاستپێ.",
+  "prayerNotifTitleDhuhr": "☀️ دھور — نوێژی نیوەڕۆ",
+  "prayerNotifBodyDhuhr": "ئیمامانی ئەھلبەیت ھەر چاوێکی یادی خودا گرنگ دیوەن. نیوەڕۆیت تێگەیشت، دھور و عەسر کۆ بکە ئەگەر پێویست بێ، و دڵت بۆ خودا گێڕانەوە.",
+  "prayerNotifTitleAsr": "🌤️ عەسر — نوێژی ئەندامیای",
+  "prayerNotifBodyAsr": "نوێژ بپاریزە، چونکە پەیمانی نێوات و خودا هەیە. کاتی عەسر هاتووە — مەیتێوێ بێ یاد.",
+  "prayerNotifTitleMaghrib": "🌇 مغرب — نوێژی ئێوار",
+  "prayerNotifBodyMaghrib": "خۆر دابااچیچوو — کاتێکی ئەھلبەیت بۆی مقدس دیوە دعا. مغرب بکە و دەستت بۆ خودا بۆ دعا کردن بکێش بەرەو شەوە.",
+  "prayerNotifTitleIsha": "🌙 عیشاء — نوێژی شەو",
+  "prayerNotifBodyIsha": "ڕۆژت لە گەڕایی خودادا تێدەپەڵێو بکە. ئیمامانت سپاردنی صلاۃ اللیل دواتر عیشاء فیڕموویتاون — بەڵام یەکەم عیشاء تێدەپەڵێو بکە و ڕۆژت لە یادی هەتێژ بند بکە.",
+  "outOfReflectionsBannerText": "ھەموو فکرکردنەکانت بەسەر چووە",
+  "outOfReflectionsBannerCta": "فکرکردنی زیاتر وەرگرە",
+  "dhikrPageTitle": "ذکر",
+  "dhikrTapToCount": "سڕتپێی بدە خولە بۆ ژماردن",
+  "dhikrResetButton": "ڕیتسێت",
+  "dhikrComplete": "ما شاء الله",
+  "dhikrCompleteMessage": "تۆ 100 یادی خودا تێدەپەڵێو کردیت. بێت بۆ ڕووناکی دڵت.",
+  "disclaimerTitle": "دەربارەی ڕاھێنانی ئەم ئەپ",
+  "disclaimerBody": "ئایارا فکرکردنی ئیسلامی، یادآوری، و ناوەڕۆکی رووحانی دابین دەکات بۆ پاسیداری سفرتەی ئیماندی خۆت، ریشەدراو لە قورئان و فێرکردنی ئەھلبەیت. ئەم ناوەڕۆکە بۆ مەبەست ئاگادهری و الھام عام پێشکەش دەکرێت.\n\nئایارا جێگرەی عالم ئیسلامی ناکات.\nڕاھێنان لە ئەم ئەپ جێگرەی عالم ئیسلامی یاخود مەرجەع یاخود مامۆستا فکری ئیسلامی ناکات. ئەگەر پرسیارت لەسەر ڕێسا ئیسلامی، حلال و حرام، یاخود تاوانی ئیسلامی خودت هێ، تکایە لەسەر مەرجەع یاخود عالمێکی گهرستت ھیوا بخوازە.\n\nئەم ئەپ ڕێسا ئیسلامی ناکات.\nئایارا کاتێ نیتوانێت فیصلە بۆ ڕێسا فقیھی یاخود تاوانی ئیسلامی خودی بکات. هیچ شتێ لێرە نابێت وەک فتوا یاخود ڕێنماییی تاوتوێکی ئیسلامی لێگرێت.\n\nگرینگی ئەھلبەیت.\nلە ئیسلامی شیعە، پێغەمبەر محمد ﷺ و هیوادی پاک - ئەھلبەیت - پێنمایشی تاوتوێک ئیسلامی دواتر قورئاندن. دوازدە ئیمام ئەھلبەیت پێنمایشی تاوتوێک ئیسلامی دیاردار دەکن. ناوەڕۆکی ئەم ئەپ ئەم دراوەیە دەپاریزێت و بە دیماندی پڕ ڕێز بەجێ دەھیناو.\n\nکۆمیاری ئیسلامی.\nئەم ئەپ مەبەستی بوونی بۆ هاندان بە پەیوەسیت بە ئیمان لە ڕێز بۆ رۆلی گرینگی مسجیدت، مەرکەزی ئیسلامی، و کۆمەڵی ئیسلامی. ما بۆتانه داواکاری بمێنن پەیوەست و فێر بکن لە بۆپێن سپاس و علماڕ گەڕستانتان.",
+  "disclaimerClose": "تێدەپێژی",
+  "disclaimerInfoTooltip": "دەربارەی ڕاھێنانی ئەم ئەپ",
+  "disclaimerSettingsSubtitle": "بۆ مەبەستی ئاگادهری عامی. سڕتپێی بدە بۆ خوێندنی شمێتی تێدا.",
+  "disclaimerSectionHeader": "دیسکلیمری ڕاھێنان",
+  "navHome": "ماڵ",
+  "navReflect": "فکرکردن",
+  "navDuas": "دعا",
+  "navCalendar": "سالنامە",
+  "dashboardToday": "ئێوار",
+  "dashboardComingUp": "دواتر هاتوو",
+  "dashboardDaysUnit": "{count, plural, one {ڕۆژ} other {ڕۆژ}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "دەستپێگی خێرا",
+  "quickActionQibla": "قیبلە",
+  "quickActionDhikr": "ذکر",
+  "quickActionDailyGrace": "ڕاھێنان",
+  "quickActionPrayerTimes": "کاتی نوێژ",
+  "askAyaraTitle": "لێپرسین ئایارا",
+  "askAyaraSubtitle": "لێپرسین پرسیاری ئیسلامی و وەڵامی سۆچ‌بیل وەرگرە.",
+  "askAyaraHint": "مثال: مانای رمضان چیە؟",
+  "askAyaraSubmit": "لێپرسین",
+  "wisdomOfTheDayTitle": "حیکمەتی ڕۆژی",
+  "calendarScreenTitle": "سالنامەی ئیسلامی",
+  "calendarUpcomingOccasions": "ڕووداوی دواتر هاتوو",
+  "calendarOccasionRemindersTitle": "یادآوریی ڕووداو",
+  "calendarOccasionRemindersHint": "ئاگادار شاتوو ئێواری بەرەو ھەر ڕووداو",
+  "calendarNotifPermissionDenied": "داواکاری ئاگاداری ڕەت کرا. بیکێشی لە شێوەپێدانی جیهازت.",
+  "calendarNoEvents": "ھیچ ڕووداوی دواتری نەدۆزرایە.",
+  "calendarAddToPhone": "زیادکردن بۆ کەڵەندەری مۆبایل",
+  "calendarAddedToPhone": "زیادکراوە بۆ کەڵەندەر",
+  "calendarCountdownToday": "ئێوار",
+  "calendarCountdownTomorrow": "سبێ",
+  "calendarCountdownDays": "لە {days} ڕۆژی دواتر",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "ھ.ق",
+  "calendarMonthJan": "کانوونی دوو",
+  "calendarMonthFeb": "شباتی",
+  "calendarMonthMar": "ئازاری",
+  "calendarMonthApr": "نیسانی",
+  "calendarMonthMay": "ئایاری",
+  "calendarMonthJun": "حزیرانی",
+  "calendarMonthJul": "تموزی",
+  "calendarMonthAug": "ئابی",
+  "calendarMonthSep": "ئێلولی",
+  "calendarMonthOct": "تشرینی یەکەم",
+  "calendarMonthNov": "تشرینی دووەم",
+  "calendarMonthDec": "کانوونی یەکەم",
+  "calendarSeasonMuharramEarly": "ڕۆژانی محرم — یادی کربلا",
+  "calendarSeasonAshura": "عاشورا — یا حسین (ع)",
+  "calendarSeasonMuharramLate": "محرم — ڕۆژانی شیدا و فکرکردن",
+  "calendarSeasonArbaeen": "چل ڕۆژی حسین",
+  "calendarSeasonRoadToArbaeen": "ڕێی بۆ چل ڕۆژی",
+  "calendarSeasonMabath": "مبعث مبارک — سپێدەی کاتی پێغەمبەری",
+  "calendarSeasonMidShaban": "نیو شعبان — بری ئیمام مھدی (عج)",
+  "calendarSeasonRamadan": "رمضان مبارک — مانگی قورئان",
+  "calendarSeasonGhadir": "عید غدیر مبارک!",
+  "hijriMonth1": "محرم",
+  "hijriMonth2": "صفر",
+  "hijriMonth3": "ربیع الاول",
+  "hijriMonth4": "ربیع الثانی",
+  "hijriMonth5": "جمادی الاول",
+  "hijriMonth6": "جمادی الثانی",
+  "hijriMonth7": "رجب",
+  "hijriMonth8": "شعبان",
+  "hijriMonth9": "رمضان",
+  "hijriMonth10": "شوال",
+  "hijriMonth11": "ذالقعدة",
+  "hijriMonth12": "ذالحجة",
+  "duasScreenTitle": "دعا و زیارت",
+  "duasSearchHint": "گەڕان دعا، زیارت…",
+  "duasFilterAll": "هەموو",
+  "duasCount": "{count, plural, one {{count} دعا} other {{count} دعا و زیارت}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "هیچ دعایێ نەدۆزرایە.",
+  "duaCategoryDaily": "ڕۆژانە",
+  "duaCategoryWeekly": "ھەفتانە",
+  "duaCategoryOccasions": "ڕووداوەکان",
+  "duaCategoryZiyarat": "زیارت",
+  "duaCategoryTasbih": "تسبیح",
+  "eventTypeBirth": "بری",
+  "eventTypeMartyrdom": "شھادت",
+  "eventTypeOccasion": "ڕووداو",
+  "duaCopyTooltip": "کۆپی ترجمە",
+  "duaToggleTransliteration": "ترانسلیتریشن",
+  "duaToggleTranslation": "ترجمە",
+  "duaAskAiLabel": "لێپرسین ئایارا بۆ تێگەیشتن ئەم دعایە",
+  "duaAskAiLockedLabel": "لێپرسین ئایارا (ویلایە)",
+  "duaAiLockedMessage": "تێگەیشتنی ئایارا بۆ ئەندامانی ویلایە. بە ویلایە ئپگریڤ بکە لە شێوەپێدان.",
+  "duaAiComingSoon": "لێپرسین ئایارا دەربارەی \"{name}\" — بێتاکت!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "دعا کۆپی کرا بۆ تختە.",
+  "tasbihAllahuAkbarMeaning": "خودا گەورەترە",
+  "tasbihAlhamdulillahMeaning": "هەموو ستایش بۆ خودا",
+  "tasbihSubhanallahMeaning": "شکۆ و شەرەفی خودایە",
+  "tasbihResetTooltip": "ڕیتسێت",
+  "tasbihCompleteTitle": "تسبیح تێدەپەڵێو",
+  "tasbihCompleteMessage": "خودا ذکرت قبوول بکات.",
+  "tasbihTapHint": "سڕتپێی بدە ھەرکوێ بۆ ژماردن",
+  "tasbihatScreenTitle": "ڕاھێنی نوێژ",
+  "tasbihatScreenSubtitle": "تسبیحاتی نوێژ",
+  "tasbihatScreenDescription": "ڕاھێنی کۆمپڵیت بۆ تسبیحاتی دواتر و لە نوێژی ڕۆژانە — بە شیوەی ئەھلبەیت (ع).",
+  "tasbihatArba3Title": "تسبیحات الاربع",
+  "tasbihatArba3Subtitle": "دواتر لە ركەعەتی سێیەم و چوارەمدا",
+  "tasbihatArba3Info": "لە فقیھی شیعە، تسبیحات الاربع جێگرەی سورەتی فاتیحە لە ركەعەتی سێیەم و چوارەمی دھور، عسر، مغرب، و عیشاء دەکات. واجب دەکات (واجب) یەک جار و مستحب (مستحب) سێ جار.",
+  "tasbihatArba3Translation": "شکۆ و شەرەفی خودایە · هەموو ستایش بۆ خودا\nنیە دیتر خودا مەگر خودا · خودا گەورەترە",
+  "tasbihatArba3CompleteTitle": "خوێندن تێدەپەڵێو",
+  "tasbihatArba3CompleteMessage": "نوێژت قبوول بکار — آمین",
+  "tasbihatArba3TapHint": "سڕتپێی بدە دواتر ھەر خوێندن",
+  "tasbihatZahraSubtitle": "دواتر ھەر نوێژ · 100 دانە",
+  "tasbihatZahraOriginLabel": "سەرچاوە",
+  "tasbihatZahraHadith": "لیدی فاتیمە الزهرا (س) لێی پێغەمبەر ﷺ: \"بۆی نێیتی گێڕاندنەوەی خاوەنی تر؟ دواتر ھەر نوێژ سوبحان الله 33 جار، الحمد لله 33 جار، و الله أكبر 34 جار. ئەم باشترە بۆت لە خاوەنێک.\"",
+  "tasbihatZahraHadithSource": "— بیحار الانوار، جلد 85",
+  "tasbihatZahraOpenCounter": "کردنەوەی تسبیح ژماردن",
+  "tasbihatDuasTitle": "دعاکانی پێشنیار کراو",
+  "tasbihatDuasSubtitle": "دواتر لە تێدەپەڵێوی نوێژت",
+  "tasbihatDuaAyatKursiTitle": "آیەت الكرسی",
+  "tasbihatDuaAyatKursiWhen": "دواتر ھەر نوێژی واجب",
+  "tasbihatDuaAyatKursiSource": "سورە البقرە 2:255",
+  "tasbihatDuaAyatKursiNote": "ھەرکێ آیەت الكرسی خوێندێت دواتر ھەر نوێژی واجب، ھیچ شتێ نێوات و بەهشتت نیە مەگر مردن. ئیمام الباقر (ع) فەرمێند یاکی تێکی گرنگترین آیات لە قورئان.",
+  "tasbihatDuaSalawatTitle": "صلاۃ",
+  "tasbihatDuaSalawatWhen": "دواتر ھەر نوێژ · سێلی هەموو دعا",
+  "tasbihatDuaSalawatSource": "ئیمام الصادق (ع) — الکافی",
+  "tasbihatDuaSalawatNote": "بۆدانی صلاۃ بۆ پێغەمبەر ﷺ و خێزانی پاک (ال محمد) پێشنیار دەکار تێپەڵێوی ھەر دعایە. ئیمام الصادق (ع) فەرمێند: \"ھەر دعایە بەپێڕاکی هات تاکو صلاۃ بۆ محمد و خێزانی بیکریت.\"",
+  "tasbihatDuaFarajTitle": "دعاء الفرج",
+  "tasbihatDuaFarajWhen": "دواتر ھەر نوێژ · بۆ ئیمام کاتمان",
+  "tasbihatDuaFarajSource": "فێرکردنی ئیمام الحسن العسكری (ع)",
+  "tasbihatDuaFarajNote": "دعایی بۆ دووبارە هاتنی ئیمام المہدی (عج)، دوازدەیەم ئیمام، فێرکردنی باوی. ھەمیشە ڕۆژانە دعا دەکار شیعە مندان دواتر ھەر نوێژ وەک عمل بەندیی بۆ ئیمام زیندوو.",
+  "tasbihatDuaTasbihFatimaTitle": "تسبیح لیدی فاتیمە",
+  "tasbihatDuaTasbihFatimaWhen": "دواتر مغرب و عیشاء · تایبەت پێشنیار کراو",
+  "tasbihatDuaTasbihFatimaSource": "ئیمام الباقر (ع) — بیحار الانوار",
+  "tasbihatDuaTasbihFatimaNote": "ئیمام الباقر (ع) فەرمێند تسبیح الزهرا دواتر عیشاء بەرەو خەو باشتر 1000 ركەعت نوێژی بژاردەیی. ڕووناکی بۆ ئاسمان سەربازوو.",
+  "tasbihFatimaGiftPre": "بەخشیشی پێغەمبەر",
+  "tasbihFatimaGiftPost": "دواتر ھەر نوێژ",
+  "prayerTrackerTitle": "پتی نوێژ",
+  "prayerTrackerPrayed": "نوێژ کردیت",
+  "prayerTrackerDayStreak": "{count} ڕۆژی جۆخ",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "هەموو نوێژ ئێوار تێدەپەڵێو. خودا قبوول بکات.",
+  "dhikrTrackerTitle": "تسبیح الزهرا",
+  "dhikrTrackerCompletedToday": "ئێوار تێدەپەڵێو",
+  "dhikrTrackerNotDoneToday": "ئێوار نەکرا",
+  "dhikrTrackerDayStreak": "{count} ڕۆژی جۆخ",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "یادآوری تسبیح",
+  "dhikrReminderDescription": "یادآوری ناڵێتەیەکی ڕۆژانە بۆ خوێندنی تسبیح الزهرا (س).",
+  "dhikrReminderEnable": "چالاک کردنی یادآوری تسبیح",
+  "dhikrReminderTimeLabel": "کاتی یادآوری",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "حدیثی ڕۆژی",
+  "hadithLabelArabic": "عەرەبی",
+  "hadithLabelTranslation": "ترجمە",
+  "hadithBadge": "حدیث",
+  "hadithShare": "بەشیکردنی ئەم حدیثە",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nVia Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "پێشتر",
+  "hadithNavNext": "دواتر",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "14 معصوم",
+  "imamsScreenSubtitle": "پێغەمبەر، لیدی فاتیمە، و دوازدە ئیمام — ڕاھێنی معصوم ئیسلام",
+  "imamLabelBorn": "بری",
+  "imamLabelMartyrdom": "شھادت",
+  "imamLabelStatus": "دۆخ",
+  "imamSectionBiography": "ژیناڤۆ",
+  "imamSectionFamousSaying": "گۆتار ناسراو",
+  "imamRoleProphet": "پێغەمبەری دواتری",
+  "imamRoleInfallible": "معصوم",
+  "imamOrdinal1": "ئیمامی یەکەم",
+  "imamOrdinal2": "ئیمامی دووەم",
+  "imamOrdinal3": "ئیمامی سێیەم",
+  "imamOrdinal4": "ئیمامی چوارەم",
+  "imamOrdinal5": "ئیمامی پێنجەم",
+  "imamOrdinal6": "ئیمامی شەشەم",
+  "imamOrdinal7": "ئیمامی حەوتەم",
+  "imamOrdinal8": "ئیمامی هەشتەم",
+  "imamOrdinal9": "ئیمامی نۆیەم",
+  "imamOrdinal10": "ئیمامی دەیەم",
+  "imamOrdinal11": "ئیمامی یازدەیەم",
+  "imamOrdinal12": "ئیمامی دوازدەیەم",
+  "duaAudioScreenTitle": "بیستنی دعا",
+  "duaAudioScreenSubtitle": "هەڵبژێرە دعایەک بۆ بیستن. سڕتپێی بدە تایل بۆ چالاکی یان پاوزکردن.",
+  "duaAudioComingSoonMessage": "دەنگی ئەم دعایە لە نوێکردنی دواتریدا دابین دەبێت.",
+  "duaAudioClose": "داخستن",
+  "duaAudioError": "نەتوانی دەنگی بارکرێت. تکایە پێوەندیت بپشکنە.",
+  "duaAudioMetaTransmittedBy": "رێنمایی کراوە لەلایەن",
+  "duaAudioMetaOccasion": "ڕووداو",
+  "duaAudioMetaDuration": "درێژی",
+  "quickActionDailyHadith": "حدیثی ڕۆژی",
+  "quickAction14Masumeen": "14 معصوم",
+  "quickActionListenDuas": "بیستن",
+  "quickActionTasbihat": "ڕاھێنی نوێژ",
+  "pilgrimageSectionTitle": "سفری مقدس",
+  "pilgrimageSectionSubtitle": "ڕاھێنی کۆمپڵیت بۆ حج و عمرە — حج بۆ بیتی پاک خودا لە مەکە",
+  "hajjCardTitle": "حج",
+  "hajjCardSubtitle": "پشتی پنجەمی ئیسلام",
+  "hajjCardDescription": "حجی سالانەی گرانبار — واجب یەک جار لە تێدا ھەر مسلمی توانای لہ",
+  "hajjScreenTitle": "ڕاھێنی حج",
+  "hajjScreenSubtitle": "ڕاھێنی گاوتووگاوتی بۆ حجی گرانبار",
+  "umrahCardTitle": "عمرە",
+  "umrahCardSubtitle": "حجی کچک",
+  "umrahCardDescription": "سفرێکی رووحانی بە ھیوا کە دەتوانرێت ھەرکاتێ ئەنجام درێت",
+  "umrahScreenTitle": "ڕاھێنی عمرە",
+  "umrahScreenSubtitle": "ڕاھێنی گاوتووگاوتی بۆ حجی کچک",
+  "pilgrimageStepsTitle": "جۆبنەمال و گاوتوو",
+  "pilgrimageImportantNotesTitle": "یادداریی گرینگ",
+  "pilgrimageDuaTitle": "دعا بۆ ئەم پەیامە",
+  "pilgrimageJafariNoteTitle": "تێبینی فقهی جافەری",
+  "pilgrimageComplete": "✓ تەواو",
+  "pilgrimageMarkDone": "بە شێوەیەکی تەواو نیشانی بکە",
+  "pilgrimageProgress": "{done} لە {total} پەیامەکان",
+  "pilgrimageReadTime": "~{minutes} خولەک",
+  "pilgrimageShiaNoteTitle": "حاجیانی شیعە",
+  "pilgrimageShiaNoteBody": "حاجیانی شیعە یادی ھەتاو مدینە بزان بۆ دیدنی قبری پێغەمبەر محمد (ﷺ) لە مسجدی نبوی، و قبری ئیمامان لە جنە البقیع. ئەم دیدارانە نیفەتە رووحانی بە ھیوا و دانراو گرینگی لە سفری ھیندی شیعیان.",
+  "hajjIntro": "حج پشتی پنجەمی ئیسلام، واجب یەک جار لە تێدا ھەر مسلمی توانای جسمانی و دارایی. انجام دات لە مانگی ذالحجە، جۆیت رێی ئیبراھیم (ع)، کوری ھاجاری (ع)، و لیدی هاجار. بۆ مسلمانی شیعە، حج هەروەسا تێکەڵ دیدنی جێی دیدنی پێغەمبەر (ﷺ) و ئەھلبەیت لە مدینە.",
+  "umrahIntro": "عمرە حجی کچک بۆ مەکە و، جیاوازت حج، دەتوانرێت ھەرکاتێ سالدا انجام درێت. گرچی واجب نیە، بەڵام پاداشتی رووحانی بە ھیوا و دانراو عمل پیروەزت. شاتوە ھیندی جۆبنەمالی حج دەشاریتە لە هیندی سادە، تێکەڵ چوار جۆبنەمالی سەرەکی."
 }

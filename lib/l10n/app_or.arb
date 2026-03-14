@@ -1,585 +1,629 @@
 {
   "@@locale": "or",
-
   "appTitle": "Ayara",
-
-  "languageSelectTitle": "ଆପଣଙ୍କ ଭାଷା ବାଛନ୍ତୁ",
-  "languageSelectSub": "ଆପଣ ଏହାକୁ ପରେ ସେଟିଂସରେ ପରିବର୍ତ୍ତନ କରିପାରିବେନ",
-  "actionContinue": "ଜାରି ରଖନ୍ତୁ",
-  "languageSuggestedHeader": "ପରାମର୍ଶିତ",
+  "languageSelectTitle": "ଆପଣଙ୍କର ଭାଷା ବାଛନ୍ତୁ",
+  "languageSelectSub": "ପରେ ସେଟିଂସ୍‌ରେ ଏହାକୁ ପରିବର୍ତ୍ତନ କରିପାରିବେ",
+  "actionContinue": "ଆଗକୁ ବଢନ୍ତୁ",
+  "languageSuggestedHeader": "ସୁପାରିଶିତ",
   "languageAllHeader": "ସମସ୍ତ ଭାଷା",
-  "languageSuggestedBadge": "ପରାମର୍ଶିତ",
-  "languageSearchHint": "ଖୋଜନ୍ତୁ…",
-
-  "planGrace": "ମାନକ",
-  "planBlessed": "ବାରାକା",
-
-  "categoryDailyGuidance": "ଦୈନିକ ପଥପ୍ରଦର୍ଶନ",
-  "categoryFaithTrust": "ଈମାନ ଓ ବିଶ୍ୱାସ",
-  "categoryPrayerReflection": "ନମାଜ ଚିନ୍ତନ",
-  "categoryHopeDifficultTimes": "ଧୈର୍ଯ୍ୟ ଓ ଆଶା",
-  "categoryForgiveness": "ମାଗଣା ପାଆନ୍ତୁ",
-  "categoryLoveCompassion": "ଦୟା ଓ ସହାନୁଭୂତି",
-  "categoryStrengthCourage": "ଈମାନ ଓ ସାହସ",
-  "categoryGratitude": "କୃତଜ୍ଞ ହୃଦୟ",
-  "categoryPurposeCalling": "ଜୀବନର ଉଦ୍ଦେଶ୍ୟ",
-  "categoryFamilyRelationships": "ପରିବାରିକ ବନ୍ଧନ",
-  "categoryPeaceAnxietyRelief": "ଆନ୍ତରିକ ଶାନ୍ତି",
-  "categoryWisdomOfJesus": "ନବୀ ଜ୍ଞାନ",
-  "categoryHumilityCharacter": "ଉତ୍ତମ ଚରିତ୍ର",
-  "categoryOvercomingTemptation": "ପ୍ରଲୋଭନ ପ୍ରତିରୋଧ",
-  "categoryEveningReflection": "ସନ୍ଧ୍ୟା ଧିକ୍ର",
-  "categoryCustom": "ବ୍ୟକ୍ତିଗତ ପ୍ରତିବିମ୍ବ",
-  "dhikrMeaningSubhanallah": "ଆଲ୍ଲାହଙ୍କର ଗୌରବ",
-  "dhikrMeaningAlhamdulillah": "ସମସ୍ତ ପ୍ରଶଂସା ଆଲ୍ଲାହଙ୍କୁ",
-  "dhikrMeaningAllahuAkbar": "ଆଲ୍ଲାହ ସର୍ବୋତ୍ତମ",
-  "quranVerseHeartAtRest": "ନିଶ୍ଚୟ, ଆଲ୍ଲାହଙ୍କୁ ସ୍ମରଣ କରିବାରେ ହୃଦୟ ଶାନ୍ତି ପାଏ।",
-
-  "promptHint": "ଇସ୍ଲାମିକ ପଥପ୍ରଦର୍ଶନ ଓ ଚିନ୍ତନ ପାଇଁ ଏକ ବିଭାଗ ଟ୍ୟାପ କରନ୍ତୁ",
-
-  "currentLanguage": "ବର୍ତ୍ତମାନ ଭାଷା",
-  "settingsLanguage": "ଭାଷା ସେଟିଂସ",
-  "settingsTitle": "ସେଟିଂସ",
-  "chooseLanguage": "ଆପଣଙ୍କ ଭାଷା ବାଛନ୍ତୁ",
-  "continueCta": "ଜାରି ରଖନ୍ତୁ",
-
-  "promptDailyGuidance": "ସୁନ୍ନି ଇସ୍ଲାମିକ ବିଶ୍ୱାସରେ ଭିତ୍ତିକରାଯାଇ ଏକ ସଂକ୍ଷିପ୍ତ ଓ ବ୍ୟବହାରିକ ଦୈନିକ ଦିଶା ଲେଖନ୍ତୁ — ଯାହା ଖୋରআନ, ହଦିଥ, ଓ ନବୀ ମୁହାମ୍ମଦଙ୍କ ଶିକ୍ଷାରେ ଭିତ୍ତିକରାଯାଇ। ପ୍ରତିବାର ଏକ ନୂତନ ଦୃଷ୍ଟିଭଙ୍ଗି ବାଛନ୍ତୁ: ଇସ୍ଲାମିକ ନୈତିକତାର ଗୁଣ, ସୁନ୍ନତଙ୍କ ସତ୍ୟ, ନବୀର ସାহାବାଙ୍କ ଜ୍ଞାନ, ବା ଇସ୍ଲାମିକ ପରମ୍ପରାର ଏକ ଶାନ୍ତ ଆଚରଣ। ଏକୋଟି ଖୋରআନ ଆୟତ (ସୂରା:ଆୟତ) ଓ ୧–୨ ବାକ୍ୟ ଚିନ୍ତନ ଯୋଗ ଦେନ୍ତୁ ଯାହା ଦିନ ଜୁଡ଼ା ବହନ କରିବାକୁ। ଯଦି ଆବଶ୍ୟକ, ଇସ୍ଲାମିକ ଚାନ୍ଦ୍ର ପଞ୍ଜିକା ବା ଏକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ତାରିଖ ସହ ସଂଯୋଗ କରନ୍ତୁ।",
-
-  "promptFaithTrust": "ଈମାନ (ବିଶ୍ୱାସ) ଓ ଅଲ୍ଲାହଙ୍କ ପରିକଳ୍ପନାରେ ଭରସା (ତୱକ୍ଷଲ) ବିଷୟରେ ଏକ ସଂକ୍ଷିପ୍ତ ଇସ୍ଲାମିକ ଚିନ୍ତନ ଲେଖନ୍ତୁ। ଏହାକୁ ଖୋରআନ, ନବୀ ମୁହାମ୍ମଦଙ୍କ ଉଦାହରଣ, ଓ ସାহାବାଙ୍କ ବିଶ୍ୱାସରେ ଭିତ୍ତିକରନ୍ତୁ। ପ୍ରତିବାର ଥିମ ଭିନ୍ନ କରନ୍ତୁ: ଅନିଶ୍ଚୟତାରେ ଅଲ୍ଲାହକୁ ବିଶ୍ୱାସ କରିବା, ଦେବତାୟିକ ଜ୍ଞାନରେ ଭରସା, ପରୀକ୍ଷାରେ ଧୈର୍ୟ, ବା ଦୈନନ୍ଦିନ ଜୀବନରେ ଶାନ୍ତ ଦୃଢ଼ତା। ଏକୋଟି ଖୋରআନ ଆୟତ ଓ ଇସ୍ଲାମିକ ଆଧ୍ୟାତ୍ମିକ ଜ୍ଞାନରୁ ଆଜଙ୍କ ପାଇଁ ଏକୋଟି ସାଧୁ ପଦକ୍ଷେପ ଯୋଗ ଦେନ୍ତୁ।",
-
-  "promptPrayerReflection": "ନମାଜ (ସଲାତ), ପ୍ରାର୍ଥନା (ଦୁଆ), ବା ଧିକ୍ର (ସ୍ମରଣ) ରେ ଭିତ୍ତିକରାଯାଇ ଏକ ସଂକ୍ଷିପ୍ତ ଇସ୍ଲାମିକ ପ୍ରାର୍ଥନା ଚିନ୍ତନ ଲେଖନ୍ତୁ। ପ୍ରତିବାର ଫର୍ମ ଭିନ୍ନ କରନ୍ତୁ: ଏକ ସକାଳ ବା ସନ୍ଧ୍ୟା ସ୍ମରଣ (ଅଧକାର), ପାଞ୍ଚଟି ଦୈନିକ ନମାଜ ବିଷୟରେ ଚିନ୍ତନ, ଏକ ଖୋରआनିକ ଆୟତର ଧ୍ୟାନ, ବା ଏକ ଆନ୍তରିକ ଦୋହାଇ। ଏକୋଟି ଖୋରআନ ଆୟତ ଓ ବ୍ୟବହୃତ ପ୍ରାର୍ଥନା ଫର୍ମ ସଂକ୍ଷିପ୍ତରେ ନାମ ଦେନ୍ତୁ।",
-
-  "promptHopeDifficultTimes": "ଦୁଃସମୟରେ ଧୈର୍ୟ (ସବ୍ର) ଓ ଆଶା ବିଷୟରେ ଏକ ଇସ୍ଲାମିକ ଚିନ୍ତନ ଲେଖନ୍ତୁ। ପରୀକ୍ଷା ବିଷୟରେ ଖୋରାନିକ ଶିକ୍ଷା, ନବୀମାନଙ୍କ ଦୃଢ଼ତା, ଓ କଠିନ ମୁହୂର୍ତ୍ତରେ ଅଲ୍ଲାହଙ୍କ ଦୟାରୁ ଅଙ୍କିତ କରନ୍ତୁ। ପ୍ରତିବାର ଦୃଷ୍ଟିଭଙ୍ଗି ଭିନ୍ନ କରନ୍ତୁ। ଏକୋଟି ଖୋରআନ ଆୟତ ଓ ଇସ୍ଲାମିକ ଐତିହ୍ୟରୁ ଉତ୍ସାହ ଦେଉଥିବା ଏକ ଦୃଷ୍ଟିଭଙ୍ଗି ଯୋଗ ଦେନ୍ତୁ।",
-
-  "promptForgiveness": "ମାଗଣା ପାଆନା (ତୱବାହ) ଓ ଅଲ୍ଲାହଙ୍କ ଦୟା ବିଷୟରେ ଏକ ଜ୍ଞାନୀ ଇସ୍ଲାମିକ ଚିନ୍ତନ ଲେଖନ୍ତୁ। ଅନୁତାପ (ତୱବାହ) ଖୋରାନିକ ଶିକ୍ଷା, ଅଲ୍ଲାହଙ୍କ ଦୟା, ଓ ନବୀ ମୁହାମ୍ମଦଙ୍କ ଦୟାଳୁ ଉଦାହରଣ ଅଙ୍କିତ କରନ୍ତୁ। ଥିମ ବିଭିନ୍ନ କରନ୍ତୁ: ଅଲ୍ଲାହକୁ ଫେରିଆସିବା, ଅନ୍ୟମାନଙ୍କୁ ମାଗଣା ଦେବା, ସଂପର୍କ ସୁସ୍ଥକରଣ, ବା ଭୁଲ ଯିବା ପରେ ଅଲ୍ଲାହଙ୍କ ଦୟାରେ ବିଶ୍ୱାସ। ଏକୋଟି ଖୋରআନ ଆୟତ ଓ ଏକୋଟି ଠିକ୍ ପଦକ୍ଷେପ ଯୋଗ ଦେନ୍ତୁ।",
-
-  "promptLoveCompassion": "ଦୈନନ୍ଦିନ ଜୀବନରେ ଦୟା (ରହ୍ମତ) ଓ ସହାନୁଭୂତି ବିଷୟରେ ଏକ ସଂକ୍ଷିପ୍ତ ଇସ୍ଲାମିକ ଚିନ୍ତନ ଲେଖନ୍ତୁ। ନବୀ ମୁହାମ୍ମଦଙ୍କ ଉଦାହରଣ, ଉତ୍କର୍ଷତା (ଇହ୍ସାନ) ଧାରଣା, ଓ ପରିବାର, ପଡ଼ୋଶୀ, ଓ ଦୁର୍ବଳମାନଙ୍କ ପ୍ରତି ଇସ୍ଲାମିକ ଦୟା ଶିକ୍ଷା ଅଙ୍କିତ କରନ୍ତୁ। ଏକୋଟି ଖୋରআନ ଆୟତ ଓ ଆଜ ଅଭ୍ୟାସ କରିବାକୁ ଏକୋଟି ଛୋଟ ସହାନୁଭୂତି କାର୍ୟ ଯୋଗ ଦେନ୍ତୁ।",
-
-  "promptStrengthCourage": "ବିଶ୍ୱାସ-ଭିତ୍ତିକ ଶକ୍ତି ଓ ସାହସ ବିଷୟରେ ଏକ ଇସ୍ଲାମିକ ଚିନ୍ତନ ଲେଖନ୍ତୁ। ନବୀମାନଙ୍କ ଉଦାହରଣ, ପ୍ରାଥମିକ ମୁସ୍ଲିମ ସମ୍ପ୍ରଦାୟ, ଓ ଯେଉଁ ବିଶ୍ୱାସୀମାନେ ଦୁଃସମୟରେ ଦୃଢ଼ ରହିଲେ ତାଙ୍କ ଅଙ୍କିତ କରନ୍ତୁ। ପ୍ରତିବାର ଥିମ ଭିନ୍ନ କରନ୍ତୁ: ବିଶ୍ୱାସ ମାଧ୍ୟମେ ସାହସ, ନମାଜରେ ଶକ୍ତି, ଭୟରେ ଅଲ୍ଲାହର ବିଶ୍ୱାସ, ବା ଦୁଃଖରେ ସ୍ଥିତିସ୍ଥାପକତା। ଏକୋଟି ଖୋରআନ ଆୟତ ଓ ଏକୋଟି ସଂକ୍ଷିପ୍ତ ଦୋହାଇ ବା ସ୍ମରଣ ଫ୍ରେଜ ଯୋଗ ଦେନ୍ତୁ।",
-
-  "promptGratitude": "ଅଲ୍ଲାହଙ୍କ ପ୍ରତି ଦନ୍ୟବାଦ (ଶୁକ୍ର) ବିଷୟରେ ଏକ ଇସ୍ଲାମିକ ଚିନ୍ତନ ଲେଖନ୍ତୁ। ଏହାକୁ ଖୋରাନିକ ଶିକ୍ଷା ଓ ନବୀ ଐତିହ୍ୟରେ ଭିତ୍ତିକରନ୍ତୁ। ଦୃଷ୍ଟିଭଙ୍ଗି ଭିନ୍ନ କରନ୍ତୁ: ଦୁଃସମୟରେ ଦନ୍ୟବାଦ, ଛୋଟ ଆଶୀର୍ବାଦ ମୂଲ୍ୟ ଦେବା, ଅଲ୍ଲାହଙ୍କ ପ୍ରଶଂସା ସହ ଦିନ ଆରମ୍ଭ, ବା ଦୈନନ୍ଦିନ ଜୀବନରେ ଅଲ୍ଲାହଙ୍କ ପଥପ୍ରଦର୍ଶନ ଚିହ୍ନିବା। ଏକୋଟି ଖୋରআନ ଆୟତ ଓ ଏକୋଟି ଦନ୍ୟବାଦ ଅଭ୍ୟାସ ଯୋଗ ଦେନ୍ତୁ।",
-
-  "promptPurposeCalling": "ଅଲ୍ଲାହକୁ ଆରାଧନା ଓ ସତେଜତାରେ ଜୀବନ ଯାପନ ବିଷୟରେ ଜୀବନର ଉଦ୍ଦେଶ୍ୟ ଇସ୍ଲାମିକ ଚିନ୍ତନ ଲେଖନ୍ତୁ। ଉଦ୍ଦେଶ୍ୟ, ଅନ୍ୟମାନଙ୍କ ସେବା, ଓ ଚିନ୍ତାଶୀଳ ଉଦ୍ଦେଶ୍ୟ ଖୋରାନିକ ଶିକ୍ଷା ଅଙ୍କିତ କରନ୍ତୁ। ପ୍ରତିବାର ଥିମ ଭିନ୍ନ କରନ୍ତୁ: ପରିବାର ଓ ସମ୍ପ୍ରଦାୟକୁ ସେବା, ଇସ୍ତିଖାରା (ମଙ୍ଗଲ ନିର୍ଣ୍ଣୟ) ମାଧ୍ୟମେ ପଥପ୍ରଦର୍ଶନ, ଉଦ୍ଦେଶ୍ୟରେ ଜୀବନ ଯାପନ, ବା ସାଧାରଣ କାର୍ୟରେ ଅର୍ଥ ଖୋଜିବା। ଏକୋଟି ଖୋରআନ ଆୟତ ଓ ଦୁଇଟି ଚିନ୍ତାଶୀଳ ପ୍ରଶ୍ନ ଯୋଗ ଦେନ୍ତୁ।",
-
-  "promptFamilyRelationships": "ପରିବାର ଓ ସଂପର୍କ ବିଷୟରେ ଖୋରାନିକ ଶିକ୍ଷା ଓ ନବୀ ମୁହାମ୍ମଦଙ୍କ ଉଦାହରଣରେ ଭିତ୍ତିକରାଯାଇ ଜ୍ଞାନୀ ଇସ୍ଲାମିକ ଦିଶା ଲେଖନ୍ତୁ। ପ୍ରତିବାର ଥିମ ଭିନ୍ନ କରନ୍ତୁ: ପରିବାର ଜୀବନରେ ଦୟା, ବିବାଦରେ ଧୈର୍ୟ, ପିତାମାତାଙ୍କ ସମ୍ମାନ, ବିଶ୍ୱାସରେ ସନ୍ତାନ ପାଳନ, ବା ବିବାହ ଦୃଢକରଣ। ଏକୋଟି ଖୋରআନ ଆୟତ ଓ ଅନୁଭୂତ କରିବାକୁ ଏକୋଟି ସଂପର୍କ ଅଭ୍ୟାସ ଯୋଗ ଦେନ୍ତୁ।",
-
-  "promptPeaceAnxietyRelief": "ଅଲ୍ଲାହର ସ୍ମରଣ (ଧିକ୍ର) ଓ ତାଙ୍କ ପରିକଳ୍ପନାରେ ବିଶ୍ୱାସ ମାଧ୍ୟମେ ଆନ୍ତରିକ ଶାନ୍ତି ଖୋଜିବା ବିଷୟରେ ଏକ ସଶାନ୍ତ ଇସ୍ଲାମିକ ଚିନ୍ତନ ଲେଖନ୍ତୁ। ହୃଦୟର ଶାନ୍ତି, ନମାଜ, ଓ ଅଲ୍ଲାହଙ୍କ ଇଚ୍ଛାରେ ସମର୍ପଣ ଖୋରାନିକ ଶିକ୍ଷା ଅଙ୍କିତ କରନ୍ତୁ। ପ୍ରତିବାର ପଦ୍ଧତି ଭିନ୍ନ କରନ୍ତୁ ଓ ଏକୋଟି ଖୋରআନ ଆୟତ ଓ ଇସ୍ଲାମିକ ଐତିହ୍ୟରୁ ଏକୋଟି ସାଧାରଣ ଭିତ୍ତି ଅଭ୍ୟାସ ଯୋଗ ଦେନ୍ତୁ।",
-
-  "promptWisdomOfJesus": "ଇସ୍ଲାମରେ ଶିକ୍ଷିତ ନବୀମାନଙ୍କ ଜ୍ଞାନର ଏକ ସଂକ୍ଷିପ୍ତ ଖଣ୍ଡ ଲେଖନ୍ତୁ। ଖୋରାନୁଁ ବା ହଦିଥ ଅଙ୍କିତ କରନ୍ତୁ ଓ ଇସ୍ଲାମିକ ବିଦ୍ୱାନମାନେ ଶିକ୍ଷାକୁ କିଭାବେ ବୁଝିଛେନ ତା ସଂକ୍ଷିପ୍ତରେ ବ୍ୟାଖ୍ୟା କରନ୍ତୁ। ପ୍ରତିବାର ବିଷୟ ଭିନ୍ନ କରନ୍ତୁ: ଚରିତ୍ର, ଧୈର୍ୟ, ବିନୟ, ବିଶ୍ୱାସ, ବା ଦୈନନ୍ଦିନ ଆଚରଣ। ଏକୋଟି ଖୋରାନିକ ଆୟତ ବା ହଦିଥ ସଂଦର୍ଭ ଓ ଏକୋଟି ବ୍ୟବହାରିକ ପ୍ରୟୋଗ ଯୋଗ ଦେନ୍ତୁ।",
-
-  "promptHumilityCharacter": "ବିନୟ (ତୱାଧୁ) ଓ ଚିରନ୍ତନ ଚରିତ୍ର (ଅଖ୍ଲାକ) ବିଷୟରେ ଏକ ଇସ୍ଲାମିକ ଚିନ୍ତନ ଲେଖନ୍ତୁ। ଖୋରାନିକ ଶିକ୍ଷା, ନବୀ ମୁହାମ୍ମଦଙ୍କ ଉଦାହରଣ, ଓ ଇସ୍ଲାମିକ ଚରିତ୍ର ବିକାଶ ଐତିହ୍ୟ ଅଙ୍କିତ କରନ୍ତୁ। ଥିମ ଭିନ୍ନ କରନ୍ତୁ: ନେତୃତ୍ୱରେ ବିନୟ, ଭୁଲ ମାନିବା, ଅନ୍ୟମାନଙ୍କ ସୂଚନାପୂର୍ଣ୍ଣ ବ୍ୟବହାର, ବା ସ୍ୱ-ଚିନ୍ତନ (ମୁହାସାବା) ମାଧ୍ୟମେ ଆଧ୍ୟାତ୍ମିକ ବୃଦ୍ଧି। ଏକୋଟି ଖୋରআନ ଆୟତ ଓ ଅଭ୍ୟାସ କରିବାକୁ ଏକୋଟି ଅଭ୍ୟାସ ଯୋଗ ଦେନ୍ତୁ।",
-
-  "promptOvercomingTemptation": "ପ୍ରଲୋଭନ ପ୍ରତିରୋଧ ଓ ସଠିକ ମାର୍ଗରେ ରହିବା ବିଷୟରେ ଏକ ଇସ୍ଲାମିକ ଚିନ୍ତନ ଲେଖନ୍ତୁ। ଖୋରାନିକ ପଥପ୍ରଦର୍ଶନ, ଅଲ୍ଲାହର ସ୍ମରଣ (ଧିକ୍ର), ନମାଜ (ସଲାତ), ଓ ଯେଉଁ ବିଶ୍ୱାସୀମାନେ ସଂଘର୍ଷ ଜୟ କରିଛେନ ତାଙ୍କ ଉଦାହରଣ ଅଙ୍କିତ କରନ୍ତୁ। ପ୍ରତିବାର ଦୃଷ୍ଟିଭଙ୍ଗି ଭିନ୍ନ କରନ୍ତୁ। ଏକୋଟି ଖୋରআନ ଆୟତ ଓ ଅଗଲା ୨୪ ଘଣ୍ଟାରେ ବ୍ୟବହାରିକ ରଣନୀତି ଯୋଗ ଦେନ୍ତୁ।",
-
-  "promptEveningReflection": "ସନ୍ଧ୍ୟା ସ୍ମରଣ (ଅଧକାର ଅଲ୍-ମାସା) ଐତିହ୍ୟରେ ଭିତ୍ତିକରାଯାଇ ଏକ ଶାନ୍ତ ଇସ୍ଲାମିକ ସନ୍ଧ୍ୟା ଚିନ୍ତନ ଲେଖନ୍ତୁ। ଦନ୍ୟବାଦ, ଆତ୍ମ-ଚିନ୍ତନ (ମୁହାସାବା), ଓ ବିଶ୍ରାମର ପୂର୍ବେ ଅଲ୍ଲାହରେ ବିଶ୍ୱାସ ଉତ୍ସାହିତ କରନ୍ତୁ। ୩–୫ ସଂକ୍ଷିପ୍ତ ଚିନ୍ତନ ପ୍ରସ୍ତାବ ଦିନ ବିଷୟରେ ଓ ଏକୋଟି ସଂକ୍ଷିପ୍ତ ସମାପ୍ତି ଦୋହାଇ ଯୋଗ ଦେନ୍ତୁ, ଏବଂ ଏକୋଟି ଖୋରআନ ଆୟତ।",
-
+  "languageSuggestedBadge": "ସୁପାରିଶିତ",
+  "languageSearchHint": "ସନ୍ଧାନ…",
+  "planBasic": "ଷ୍ଟାଣ୍ଡାର୍ଡ",
+  "planPremium": "Wilaya",
+  "categorySlot01": "ଦୈନିକ ମାର୍ଗଦର୍ଶନ",
+  "categorySlot02": "ଇମାନ ଓ ଭରସା",
+  "categorySlot03": "ନମାଜ ଚିନ୍ତନ",
+  "categorySlot04": "ସବର ଓ ଆଶା",
+  "categorySlot05": "କ୍ଷମା ପ୍ରାର୍ଥନା କରନ୍ତୁ",
+  "categorySlot06": "ଦୟା ଓ କରୁଣା",
+  "categorySlot07": "ବିଶ୍ୱାସର ଶକ୍ତି",
+  "categorySlot08": "କୃତଜ୍ଞ ହୃଦୟ",
+  "categorySlot09": "ଜୀବନର ଉଦ୍ଦେଶ୍ୟ",
+  "categorySlot10": "ପରିବାରିକ ବନ୍ଧନ",
+  "categorySlot11": "ଆନ୍ତରିକ ଶାନ୍ତି",
+  "categorySlot12": "ପୟଗମ୍ବରଙ୍କ ଜ୍ଞାନ",
+  "categorySlot13": "ଭଲ ଚରିତ୍ର",
+  "categorySlot14": "ପ୍ରଲୋଭନକୁ ପ୍ରତିରୋଧ",
+  "categorySlot15": "ସନ୍ଧ୍ୟା ଜିକ୍ର",
+  "categoryCustom": "ବ୍ୟକ୍ତିଗତ ଚିନ୍ତନ",
+  "dhikrMeaningSubhanallah": "ଅଲ୍ଲାହ ପବିତ୍ର",
+  "dhikrMeaningAlhamdulillah": "ସମସ୍ତ ପ୍ରଶଂସା ଅଲ୍ଲାହଙ୍କ ପାଇଁ",
+  "dhikrMeaningAllahuAkbar": "ଅଲ୍ଲାହ ସର୍ବଶ୍ରେଷ୍ଠ",
+  "quranVerseHeartAtRest": "ନିଶ୍ଚୟ, ଅଲ୍ଲାହଙ୍କ ସ୍ମରଣରେ ହୃଦୟ ଶାନ୍ତି ପାଏ।",
+  "promptHint": "ଇସଲାମିକ ମାର୍ଗଦର୍ଶନ ଓ ଚିନ୍ତନ ପାଇଁ ଗୋଟିଏ ଶ୍ରେଣୀକୁ ଟ୍ୟାପ୍ କରନ୍ତୁ",
+  "currentLanguage": "ବର୍ତ୍ତମାନର ଭାଷା",
+  "settingsLanguage": "ଭାଷା ସେଟିଂସ୍",
+  "settingsTitle": "ସେଟିଂସ୍",
+  "chooseLanguage": "ଆପଣଙ୍କର ଭାଷା ବାଛନ୍ତୁ",
+  "continueCta": "ଆଗକୁ ବଢନ୍ତୁ",
   "wordCount": "{count, plural, one {{count} ଶବ୍ଦ} other {{count} ଶବ୍ଦ}}",
-
   "optionsCta": "ବିକଳ୍ପ",
   "newCta": "ନୂତନ",
-  "actionsTitle": "ଆପଣ କଣ କରିବାକୁ ଚାହୁଁଛନ୍ତି?",
-  "copy": "ନକଲ",
-  "share": "ଅଂଶୀଦାର",
-  "close": "ବନ୍ଦ ଏକଜାମି",
-  "copiedToast": "ଡିପ୍ସବୋର୍ଡରେ ନକଲ ଏକଜାମି",
-
+  "actionsTitle": "ଆପଣ କ’ଣ କରିବାକୁ ଚାହୁଁଛନ୍ତି?",
+  "copy": "କପି କରନ୍ତୁ",
+  "share": "ସେୟାର କରନ୍ତୁ",
+  "close": "ବନ୍ଦ କରନ୍ତୁ",
+  "copiedToast": "କ୍ଲିପବୋର୍ଡକୁ କପି କରାଗଲା",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Email / share subject line including the category label.",
+    "description": "ଶ୍ରେଣୀ ଲେବେଲ୍ ସହିତ ଇମେଲ / ସେୟାର ବିଷୟ ଲାଇନ୍।",
     "placeholders": {
-      "category": { "type": "String", "example": "Daily Guidance" }
+      "category": {
+        "type": "String",
+        "example": "ଦୈନିକ ମାର୍ଗଦର୍ଶନ"
+      }
     }
   },
-
-  "regenerateErrorTitle": "ନୂତନ ଉତ୍ତର ସୃଷ୍ଟି ଏକଜାମି ନ୍ଆସି",
-  "regenerateErrorBody": "{error}\n\nଆପଣ ପୁନରାୟ ଚେଷ୍ଟା କରିବାକୁ ଚାହୁଁଛନ୍ତି?",
+  "regenerateErrorTitle": "ନୂତନ ଉତ୍ତର ସୃଷ୍ଟି କରିହେଲା ନାହିଁ",
+  "regenerateErrorBody": "{error}\n\nଆପଣ ପୁନର୍ବାର ଚେଷ୍ଟା କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?",
   "@regenerateErrorBody": {
-    "description": "Shown when regenerating an AI answer fails.",
+    "description": "AI ଉତ୍ତର ପୁନଃ ସୃଷ୍ଟି କରିବାରେ ବିଫଳ ହେଲେ ଦେଖାଯାଏ।",
     "placeholders": {
-      "error": { "type": "String", "example": "Network error" }
+      "error": {
+        "type": "String",
+        "example": "ନେଟୱର୍କ ତ୍ରୁଟି"
+      }
     }
   },
-
-  "cancelCta": "ରଦ୍ଦ",
-  "retryCta": "ପୁନରାୟ ଚେଷ୍ଟା",
-
-  "authTitle": "ଆପଣଙ୍କ ଖାତା ତିରିକ୍ ଏକଜାମି",
-  "continueAsGuest": "ଅତିଥି ଭାବରେ ଜାରି ରଖନ୍ତୁ",
-  "signInGoogle": "Google ସହ ସାଇନ ଇନ ଏକଜାମି",
-  "signInApple": "Apple ସହ ସାଇନ ଇନ ଏକଜାମି",
-  "signInEmail": "ଇମେଲ ସହ ସାଇନ ଇନ ଏକଜାମି",
-  "upgradeWithApple": "Apple ସହ ଜାରି ରଖନ୍ତୁ",
-  "mustAccept": "ଆପଣ ସେବାର ସର୍ତ୍ତାବଳୀ ଗ୍ରହଣ କରିବେ ଏବଂ ଗୋପନୀୟତା ନୀତି ସ୍ୱୀକୃତି ଦେବେ।",
-  "termsLabel": "ମୁଁ ସେବା ସର୍ତ୍ତାବଳୀ ଗ୍ରହଣ ଏକଜାମି",
-  "privacyLabel": "ମୁଁ ଗୋପନୀୟତା ନୀତି ଯୋଡେ ଏକଜାମି",
-  "marketingOptIn": "ମୁଁ ଖବର ଓ ଅଫାର ପାଆନ୍ତୁ ଦିବାକୁ ରାଧୀ ଏକଜାମି",
-  "openTerms": "ସେବା ସର୍ତ୍ତାବଳୀ",
+  "cancelCta": "ବାତିଲ୍",
+  "retryCta": "ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ",
+  "authTitle": "ଆପଣଙ୍କର ଖାତା ସୃଷ୍ଟି କରନ୍ତୁ",
+  "continueAsGuest": "ଅତିଥି ଭାବେ ଆଗକୁ ବଢନ୍ତୁ",
+  "signInGoogle": "Google ସହିତ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ",
+  "signInApple": "Apple ସହିତ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ",
+  "signInEmail": "ଇମେଲ୍ ସହିତ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ",
+  "upgradeWithApple": "Apple ସହିତ ଆଗକୁ ବଢନ୍ତୁ",
+  "mustAccept": "ଆପଣଙ୍କୁ ସେବା ସର୍ତ୍ତଗୁଡ଼ିକ ମାନିବା ସହ ଗୋପନୀୟତା ନୀତିକୁ ସ୍ୱୀକାର କରିବାକୁ ପଡିବ।",
+  "termsLabel": "ମୁଁ ସେବା ସର୍ତ୍ତଗୁଡ଼ିକୁ ମାନୁଛି",
+  "privacyLabel": "ମୁଁ ଗୋପନୀୟତା ନୀତି ପଢ଼ିଛି",
+  "marketingOptIn": "ମୁଁ ସମାଚାର ଓ ପ୍ରସ୍ତାବ ପାଇବାକୁ ସହମତ",
+  "openTerms": "ସେବା ସର୍ତ୍ତ",
   "openPrivacy": "ଗୋପନୀୟତା ନୀତି",
-
   "accountSection": "ଖାତା",
-  "guestMode": "ଅତିଥି ମୋଡ",
-  "signedIn": "ସାଇନ ଇନ ଜାଡି",
-  "upgradeHint": "ଏକୋଟି ଖାତା ତିରିକର ମାଧ୍ୟମେ ଡିଭାଇସ ଜୁଡ଼ା ଆପଣଙ୍କ ଚିନ୍ତନ ସଂରକ୍ଷିତ ଏକଜାମି।",
-  "upgradeWithGoogle": "Google ସହ ଜାରି ରଖନ୍ତୁ",
-  "signOut": "ସାଇନ ଆଉଟ",
-
-  "snackUpgraded": "Google ସହ ଖାତା ଅପଗ୍ରେଡ ଏକଜାମି ✅",
-  "snackSignedIn": "Google ସହ ସାଇନ ଇନ ଏକଜାମି ✅",
-  "snackSignedOut": "ସାଇନ ଆଉଟ ଏକଜାମି",
-  "snackSignedInApple": "Apple ସହ ସାଇନ ଇନ ଏକଜାମି ✅",
-  "snackSignedInGoogle": "Google ସହ ସାଇନ ଇନ ଏକଜାମି ✅",
-  "snackUpgradedApple": "Apple ସହ ଖାତା ଅପଗ୍ରେଡ ଏକଜାମି ✅",
-  "snackUpgradedGoogle": "Google ସହ ଖାତା ଅପଗ୍ରେଡ ଏକଜାମି ✅",
-
-  "historyTitle": "ପୂର୍ବ ଚିନ୍ତନ",
-  "historyOpenCta": "ପୂର୍ବ ଚିନ୍ତନ",
-  "historyEmpty": "ଅଧିକାଂଶ ସଂରକ୍ଷିତ ଚିନ୍ତନ ନାଇ।",
-  "historyDeleteTitle": "ଚିନ୍ତନ ଅପସାରଣ ଏକଜାମି?",
-  "historyDeleteBody": "ଏଟା ଚୟନାଯୋଗ୍ୟ ଟୁକଡ଼ା ସ୍ଥାୟୀ ଭାବରେ ଅପସାରିତ ଏକଜାମି।",
-  "deleteCta": "ଅପସାରଣ",
-
-  "historyButton": "ପୂର୍ବ ଚିନ୍ତନ",
-  "historyEmptyTitle": "ଅଧିକାଂଶ ଚିନ୍ତନ ନାଇ",
-  "historyEmptyBody": "ପ୍ରଥମେ ଭିତ୍ତିକରାଯାଇ — ଆପଣଙ୍କ ସଂରକ୍ଷିତ ଟୁକଡ଼া ଏଠାରେ ଦେଖାଯିବା।",
-  "historyDelete": "ଅପସାରଣ",
-
-  "footerTitle": "ଈମାନ, ସବ୍ର ଓ ରହ୍ମା ସହ।",
-  "footerSubtitle": "ଏକ ସମୟରେ ଏକୋଟି ପଦକ୍ଷେପ।",
-  "genericErrorSnack": "ଭିତ୍ତିକରାଯାଇ ଭୁଲ ଜାଡି — ଅନୁଗ୍ରହ ଏକ ମୁହୂର୍ତ୍ତ ପୁନରାୟ ଚେଷ୍ଟା ଏକଜାମି।",
-
-  "upgradeAccountCta": "ଡିଭାଇସ ଜୁଡ଼ା ଆପଣଙ୍କ ଚିନ୍ତନ ସଂରକ୍ଷିତ ଏକଜାମି – ଏକୋଟି ଖାତା ତିରିକ",
-  "deleteAccount": "ଖାତା ଅପସାରଣ",
-  "exportData": "ମୋ ତଥ୍ୟ ରପ୍ତାନି",
-
+  "guestMode": "ଅତିଥି ମୋଡ୍",
+  "signedIn": "ସାଇନ୍ ଇନ୍ ହୋଇଛି",
+  "upgradeHint": "ଖାତା ସୃଷ୍ଟି କରି ଆପଣଙ୍କର ଚିନ୍ତନଗୁଡ଼ିକୁ ସମସ୍ତ ଡିଭାଇସରେ ସଂରକ୍ଷଣ କରନ୍ତୁ।",
+  "upgradeWithGoogle": "Google ସହିତ ଆଗକୁ ବଢନ୍ତୁ",
+  "signOut": "ସାଇନ୍ ଆଉଟ୍",
+  "snackUpgraded": "ଖାତା Google ସହିତ ଅପଗ୍ରେଡ୍ ହେଲା ✅",
+  "snackSignedIn": "Google ସହିତ ସାଇନ୍ ଇନ୍ ହେଲା ✅",
+  "snackSignedOut": "ସାଇନ୍ ଆଉଟ୍ ହେଲା",
+  "snackSignedInApple": "Apple ସହିତ ସାଇନ୍ ଇନ୍ ହେଲା ✅",
+  "snackSignedInGoogle": "Google ସହିତ ସାଇନ୍ ଇନ୍ ହେଲା ✅",
+  "snackUpgradedApple": "ଖାତା Apple ସହିତ ଅପଗ୍ରେଡ୍ ହେଲା ✅",
+  "snackUpgradedGoogle": "ଖାତା Google ସହିତ ଅପଗ୍ରେଡ୍ ହେଲା ✅",
+  "historyTitle": "ପୂର୍ବବର୍ତ୍ତୀ ଚିନ୍ତନଗୁଡ଼ିକ",
+  "historyOpenCta": "ପୂର୍ବବର୍ତ୍ତୀ ଚିନ୍ତନଗୁଡ଼ିକ",
+  "historyEmpty": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ସଂରକ୍ଷିତ ଚିନ୍ତନ ନାହିଁ।",
+  "historyDeleteTitle": "ଚିନ୍ତନକୁ ଡିଲିଟ୍ କରିବେ?",
+  "historyDeleteBody": "ଏହା ଚୟନିତ ଆଇଟମ୍‌କୁ ସ୍ଥାୟୀଭାବେ କାଢ଼ିଦେବ।",
+  "deleteCta": "ଡିଲିଟ୍",
+  "historyButton": "ପୂର୍ବବର୍ତ୍ତୀ ଚିନ୍ତନଗୁଡ଼ିକ",
+  "historyEmptyTitle": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଚିନ୍ତନ ନାହିଁ",
+  "historyEmptyBody": "ପ୍ରଥମେ କିଛି ସୃଷ୍ଟି କରନ୍ତୁ — ଆପଣଙ୍କର ସଂରକ୍ଷିତ ଆଇଟମ୍‌ଗୁଡ଼ିକ ଏଠାରେ ଦେଖାଯିବ।",
+  "historyDelete": "ଡିଲିଟ୍",
+  "footerTitle": "Wilaya, ଇମାନ ଓ ସବର ସହିତ",
+  "footerSubtitle": "ଗୋଟିଏ ପ୍ରାର୍ଥନା, ଗୋଟିଏ ସମୟରେ",
+  "genericErrorSnack": "କିଛି ଭୁଲ୍ ହୋଇଗଲା — ଦୟାକରି ଥୋଡ଼େ ବେଳ ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
+  "upgradeAccountCta": "ଆପଣଙ୍କର ଚିନ୍ତନଗୁଡ଼ିକୁ ସମସ୍ତ ଡିଭାଇସରେ ସଂରକ୍ଷଣ କରନ୍ତୁ – ଗୋଟିଏ ଖାତା ସୃଷ୍ଟି କରନ୍ତୁ",
+  "deleteAccount": "ଖାତା ଡିଲିଟ୍ କରନ୍ତୁ",
+  "exportData": "ମୋ ଡାଟା ଏକ୍ସପୋର୍ଟ କରନ୍ତୁ",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Label before showing the internal Firebase UID.",
+    "description": "ଆଭ୍ୟନ୍ତରୀଣ Firebase UID ଦେଖାଇବା ପୂର୍ବରୁ ଲେବେଲ୍।",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "ସହଜ ବାଘ 🐯\nAI ଅଗଲାଟି ପୂର୍ବେ ଏକୋଟି ମୁହୂର୍ତ୍ତ ଚାଇ…",
-  "rateDailyLimit": "ଆପଣ ଏଥିସମୟ ଚିନ୍ତନ ସରିଲେ।\nଅଧିକ ଚିନ୍ତନ ଖଣ୍ଡ ବା ବାରାକା ଅପଗ୍ରେଡ ଏକଜାମି।",
-  "rateCreditsExhausted": "ଆପଣ ସମସ୍ତ ଚିନ୍ତନ ବ୍ୟବହାର ଏକଜାମି।\nଟପ ଅପ ବା ବାରାକା ଅପଗ୍ରେଡ ଜାରି ରଖନ୍ତୁ।",
-  "rateGraceReflectionsExhausted": "ଆପଣ ଏଥିସମୟ ଚିନ୍ତନ ସରିଲେ।\nଅଧିକ ଚିନ୍ତନ ଖଣ୍ଡ ବା ବାରାକା ଅପଗ୍ରେଡ ଏକଜାମି।",
-  "rateReflectionsExhausted": "ଆପଣ ସମସ୍ତ ଚିନ୍ତନ ବ୍ୟବହାର ଏକଜାମି।\nଟପ ଅପ ବା ବାରାକା ଅପଗ୍ରେଡ ଜାରି ରଖନ୍ତୁ।",
-
-  "blessedDescription": "ବାରାକା ଉନ୍ନତ ବୈଶିଷ୍ଟ୍ୟ, ଭବିଷ୍ୟତ ବିଭାଗ, ଓ ଏକୋଟି ଖାସ ବ୍ୟଞ୍ଜ ଅଳାଇ ଦେୟ।",
-  "championDescription": "ବାରାକା ଉନ୍ନତ ବୈଶିଷ୍ଟ୍ୟ, ଭବିଷ୍ୟତ ବିଭାଗ, ଓ ଏକୋଟି ଖାସ ବ୍ୟଞ୍ଜ ଅଳାଇ ଦେୟ।",
-
-  "ratePlanExhausted": "ଆପଣଙ୍କ ଚିନ୍ତନ ଏଥିସମୟ ଖାଲି ଜାଡି। ଯୋଜନା: {plan}।",
+  "rateLocalThrottle": "ଧୀରେ ଚଲନ୍ତୁ 🐯\nପରବର୍ତ୍ତୀ ଉତ୍ତର ପୂର୍ବରୁ Ayara କୁ ଥୋଡ଼ା ସମୟ ଦରକାର…",
+  "rateDailyLimit": "ଏବେ ପାଇଁ ଆପଣଙ୍କର ଚିନ୍ତନଗୁଡ଼ିକ ଶେଷ ହୋଇଯାଇଛି।\nଅଧିକ ଚିନ୍ତନ ନିଅନ୍ତୁ କିମ୍ବା Wilaya କୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ।",
+  "rateCreditsExhausted": "ଆପଣ ଆପଣଙ୍କର ସମସ୍ତ ଚିନ୍ତନ ବ୍ୟବହାର କରିସାରିଛନ୍ତି।\nଜାରି ରଖିବା ପାଇଁ ଟପ୍-ଅପ୍ କରନ୍ତୁ କିମ୍ବା Wilaya କୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ।",
+  "rateGraceCreditsExhausted": "ଏବେ ପାଇଁ ଆପଣଙ୍କର ଚିନ୍ତନଗୁଡ଼ିକ ଶେଷ ହୋଇଯାଇଛି।\nଅଧିକ ଚିନ୍ତନ ନିଅନ୍ତୁ କିମ୍ବା Wilaya କୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ।",
+  "premiumDescription": "Wilaya ପ୍ରିମିୟମ ବିଶେଷତା, ଭବିଷ୍ୟତର ଶ୍ରେଣୀଗୁଡ଼ିକ ଓ ଗୋଟିଏ ବିଶେଷ ବ୍ୟାଜ୍ ଖୋଲିଦିଏ।",
+  "ratePlanExhausted": "ଆପଣଙ୍କର ଚିନ୍ତନଗୁଡ଼ିକ ଏବେ ଖାଲି ଅଛି। ଯୋଜନା: {plan}।",
   "@ratePlanExhausted": {
-    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "description": "ବ୍ୟବହାରକାରୀଙ୍କର ଚିନ୍ତନ ଶେଷ ହେଲେ ଯେତେବେଳେ କାରଣ ସାଧାରଣ ଥାଏ ସେତେବେଳେ ଦେଖାଯାଏ।",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard or Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "ଷ୍ଟାଣ୍ଡାର୍ଡ କିମ୍ବା Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "ଆପଣଙ୍କ ଚିନ୍ତନ ଯାଚାଇ ଏକଜାମି ଏକଜାମି: {message}",
+  "rateCheckFailed": "ଆପଣଙ୍କର ଚିନ୍ତନଗୁଡ଼ିକୁ ଯାଞ୍ଚ କରାଯାଇପାରିଲା ନାହିଁ: {message}",
   "@rateCheckFailed": {
-    "description": "Shown when the callable function returns an error message.",
+    "description": "ଯେତେବେଳେ callable function ଏକ ତ୍ରୁଟି ବାର୍ତ୍ତା ଫେରାଇଦିଏ ସେତେବେଳେ ଦେଖାଯାଏ।",
     "placeholders": {
-      "message": { "type": "String", "example": "Network error" }
+      "message": {
+        "type": "String",
+        "example": "ନେଟୱର୍କ ତ୍ରୁଟି"
+      }
     }
   },
-
-  "rateCheckGenericError": "ଆପଣଙ୍କ ଚିନ୍ତନ ଯାଚାଇ ଭିତ୍ତିକରାଯାଇ ଭୁଲ ଜାଡି।",
-  "aiFallbackGeneric": "ଭିତ୍ତିକରାଯାଇ ଭୁଲ ଜାଡି — ଅନୁଗ୍ରହ ଏକ ମୁହୂର୍ତ୍ତ ପୁନରାୟ ଚେଷ୍ଟା ଏକଜାମି।",
-
-  "limitSectionTitle": "ଚିନ୍ତନ",
+  "rateCheckGenericError": "ଆପଣଙ୍କର ଚିନ୍ତନଗୁଡ଼ିକୁ ଯାଞ୍ଚ କରିବା ବେଳେ କିଛି ଭୁଲ୍ ହୋଇଗଲା।",
+  "aiFallbackGeneric": "କିଛି ଭୁଲ୍ ହୋଇଗଲା — ଦୟାକରି ଥୋଡ଼େ ବେଳ ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
+  "limitSectionTitle": "ଚିନ୍ତନଗୁଡ଼ିକ",
   "limitTodayLabel": "ବ୍ୟବହାର",
-  "limitCreditsLabel": "ବଳିଦାନ ଚିନ୍ତନ: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitCreditsLabel": "ଅବଶିଷ୍ଟ ଚିନ୍ତନ: {credits}",
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "ଯୋଜନା: {plan}",
   "@limitPlanLabel": {
-    "description": "Shows the current subscription plan name.",
+    "description": "ବର୍ତ୍ତମାନର subscription plan ନାମକୁ ଦେଖାଏ।",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard or Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "ଷ୍ଟାଣ୍ଡାର୍ଡ କିମ୍ବା Wilaya"
+      }
     }
   },
-  "limitLoadingLabel": "ଧାରଣ…",
-  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
-
-  "aiLimitTitle": "ଚିନ୍ତନ",
-  "aiLimitSubtitle": "ପ୍ରତିଟି ପ୍ରତିକ୍ରିୟା ୧ ଚିନ୍ତନ ବ୍ୟବହାର ଏକଜାମି। ମାନକ ଆରମ୍ଭ ଚିନ୍ତନ ଏକଜାମି। ବାରାକା ଉନ୍ନତ ବିଭାଗ ଅଲାଇ ଦେୟ ଏବଂ ଟପ-ଅପ ସଜାଇ।",
-  "aiLimitProgressLabel": "{used} / {total} ଚିନ୍ତନ ବ୍ୟବହୃତ",
+  "limitLoadingLabel": "ଲୋଡ୍ ହେଉଛି…",
+  "limitLoadingLabelDescription": "ବ୍ୟବହାର ସଂଖ୍ୟାନ ଆଣାଯାଉଥିବା ବେଳେ reflection card ରେ ଦେଖାଯାଏ।",
+  "aiLimitTitle": "ଚିନ୍ତନଗୁଡ଼ିକ",
+  "aiLimitSubtitle": "ପ୍ରତ୍ୟେକ ଉତ୍ତର 1 ଚିନ୍ତନ ବ୍ୟବହାର କରେ। ଷ୍ଟାଣ୍ଡାର୍ଡରେ ଆରମ୍ଭିକ ଚିନ୍ତନ ଅନ୍ତର୍ଭୁକ୍ତ। Wilaya ପ୍ରିମିୟମ ଶ୍ରେଣୀଗୁଡ଼ିକୁ ଖୋଲେ ଓ ଟପ୍-ଅପ୍ ସକ୍ଷମ କରେ।",
+  "aiLimitProgressLabel": "{used} / {total} ଚିନ୍ତନ ବ୍ୟବହାର ହେଲା",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "ଚିନ୍ତନ",
-  "reflectionsUsageLabel": "ବ୍ୟବହାର",
-  "reflectionsRemainingLabel": "ବଳିଦାନ ଚିନ୍ତନ: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "ଯୋଜନା: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Shows the current plan name.",
+  "creditsSectionTitle": "ଚିନ୍ତନଗୁଡ଼ିକ",
+  "creditsUsageLabel": "ବ୍ୟବହାର",
+  "creditsRemainingLabel": "ଅବଶିଷ୍ଟ ଚିନ୍ତନ: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard or Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "ଧାରଣ…",
-  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
-
-  "reflectionsTitle": "ଚିନ୍ତନ",
-  "reflectionsSubtitle": "ପ୍ରତିଟି ପ୍ରତିକ୍ରିୟା ୧ ଚିନ୍ତନ ବ୍ୟବହାର ଏକଜାମି। ମାନକ ଆରମ୍ଭ ଚିନ୍ତନ ଏକଜାମି। ବାରାକା ଉନ୍ନତ ବିଭାଗ ଅଲାଇ ଦେୟ ଏବଂ ଟପ-ଅପ ସଜାଇ।",
-  "reflectionsProgressLabel": "{used} / {total} ଚିନ୍ତନ ବ୍ୟବହୃତ",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "ଯୋଜନା: {plan}",
+  "@creditsPlanLabel": {
+    "description": "ବର୍ତ୍ତମାନର ଯୋଜନାର ନାମକୁ ଦେଖାଏ।",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "ଷ୍ଟାଣ୍ଡାର୍ଡ କିମ୍ବା Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "ଲୋଡ୍ ହେଉଛି…",
+  "creditsLoadingLabelDescription": "ଚିନ୍ତନ ସଂଖ୍ୟାନ ଆଣାଯାଉଥିବା ବେଳେ ଦେଖାଯାଏ।",
+  "creditsTitle": "ଚିନ୍ତନଗୁଡ଼ିକ",
+  "creditsSubtitle": "ପ୍ରତ୍ୟେକ ଉତ୍ତର 1 ଚିନ୍ତନ ବ୍ୟବହାର କରେ। ଷ୍ଟାଣ୍ଡାର୍ଡରେ ଆରମ୍ଭିକ ଚିନ୍ତନ ଅନ୍ତର୍ଭୁକ୍ତ। Wilaya ପ୍ରିମିୟମ ଶ୍ରେଣୀଗୁଡ଼ିକୁ ଖୋଲେ ଓ ଟପ୍-ଅପ୍ ସକ୍ଷମ କରେ।",
+  "creditsProgressLabel": "{used} / {total} ଚିନ୍ତନ ବ୍ୟବହାର ହେଲା",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "ଖାତା ଅପସାରଣ",
-  "settingsDeleteDescription": "ଆପଣଙ୍କ ଖାତା ଏବଂ ସମସ୍ତ ସଂଯୁକ୍ତ ତଥ୍ୟ ସ୍ଥାୟୀ ଭାବରେ ଅପସାରିତ ଏକଜାମି।",
-  "settingsDeleteButtonLabel": "ମେ ଖାତା ଅପସାରଣ",
-  "settingsDeleteDialogTitle": "ଖାତା ଅପସାରଣ ଏକଜାମି?",
-  "settingsDeleteDialogBody": "ଏଟା କାର୍ଯ୍ୟ ସ୍ଥାୟୀ ଓ ପୁନ୍ରାବୃତ୍ତି ଏକଜାମି ଖାଡ଼ି।\n\nସମସ୍ତ ଆପଣଙ୍କ ଚ୍ୟାଟ, ଇତିହାସ ଓ ଖାତା ସୂଚନା ଅପସାରିତ ଏକଜାମି।",
-  "settingsDeleteDialogCancel": "ରଦ୍ଦ",
-  "settingsDeleteDialogConfirm": "ଅପସାରଣ",
-
-  "settingsFreeLimitUsedTitle": "ଆରମ୍ଭ ଚିନ୍ତନ ବ୍ୟବହାର ଏକଜାମି",
-  "settingsFreeLimitUsedDescription": "ଏଇ ଡିଭାଇସର ଆରମ୍ଭ ଚିନ୍ତନ ବ୍ୟବହୃତ ଏକଜାମି। ବାରାକା ଅପଗ୍ରେଡ ବା ଅଧିକ ଚିନ୍ତନ କୟାଇ ଜାରି ରଖନ୍ତୁ।",
-
-  "settingsStarterReflectionsUsedTitle": "ଆରମ୍ଭ ଚିନ୍ତନ ବ୍ୟବହାର ଏକଜାମି",
-  "settingsStarterReflectionsUsedDescription": "ଏଇ ଡିଭାଇସର ଆରମ୍ଭ ଚିନ୍ତନ ବ୍ୟବହୃତ ଏକଜାମି। ବାରାକା ଅପଗ୍ରେଡ ବା ଅଧିକ ଚିନ୍ତନ କୟାଇ ଜାରି ରଖନ୍ତୁ।",
-
-  "deviceBoundError": "ଏଇ ଡିଭାଇସ ଇତିମଧ୍ୟ ଅନ୍ୟ ଖାତା ସୂଚନା। ମୂଳ ଖାତା ସାଇନ ଇନ ଗରାଙ୍ଗ।",
-
-  "premiumTitle": "ବାରାକା ମୋଡ",
-  "premiumSubtitleBasic": "ସম୍ପୂର୍ଣ୍ଣ Ayara ଅଭିଜ୍ଞତା ଅଲାଇ।",
-  "premiumSubtitleChampion": "ଆପଣ ବାରାକା। ଅଧିକ ଚିନ୍ତନ ଚାହୁଁଛନ୍ତି?",
-
-  "premiumCurrentPlan": "ବର୍ତ୍ତମାନ ଯୋଜନା: {plan}",
+  "settingsDeleteTitle": "ଖାତା ଡିଲିଟ୍ କରନ୍ତୁ",
+  "settingsDeleteDescription": "ଆପଣଙ୍କର ଖାତା ଓ ସମ୍ବନ୍ଧିତ ସମସ୍ତ ତଥ୍ୟକୁ ସ୍ଥାୟୀଭାବେ ଡିଲିଟ୍ କରନ୍ତୁ।",
+  "settingsDeleteButtonLabel": "ମୋ ଖାତା ଡିଲିଟ୍ କରନ୍ତୁ",
+  "settingsDeleteDialogTitle": "ଖାତା ଡିଲିଟ୍ କରିବେ?",
+  "settingsDeleteDialogBody": "ଏହି କାର୍ଯ୍ୟ ସ୍ଥାୟୀ ଓ ପୁନଃ ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।\n\nଆପଣଙ୍କର ସମସ୍ତ ଚାଟ୍, ଇତିହାସ ଓ ଖାତା ସମ୍ବନ୍ଧିତ ତଥ୍ୟ ଡିଲିଟ୍ ହୋଇଯିବ।",
+  "settingsDeleteDialogCancel": "ବାତିଲ୍",
+  "settingsDeleteDialogConfirm": "ଡିଲିଟ୍",
+  "settingsFreeLimitUsedTitle": "ଆରମ୍ଭିକ ଚିନ୍ତନ ବ୍ୟବହାର ହୋଇସାରିଛି",
+  "settingsFreeLimitUsedDescription": "ଏହି ଡିଭାଇସ ପାଇଁ ଆରମ୍ଭିକ ଚିନ୍ତନ ବ୍ୟବହାର ହୋଇସାରିଛି। ଜାରି ରଖିବାକୁ Wilaya କୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ କିମ୍ବା ଅଧିକ ଚିନ୍ତନ କିଣନ୍ତୁ।",
+  "settingsStarterCreditsUsedTitle": "ଆରମ୍ଭିକ ଚିନ୍ତନ ବ୍ୟବହାର ହୋଇସାରିଛି",
+  "settingsStarterCreditsUsedDescription": "ଏହି ଡିଭାଇସ ପାଇଁ ଆରମ୍ଭିକ ଚିନ୍ତନ ବ୍ୟବହାର ହୋଇସାରିଛି। ଜାରି ରଖିବାକୁ Wilaya କୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ କିମ୍ବା ଅଧିକ ଚିନ୍ତନ କିଣନ୍ତୁ।",
+  "deviceBoundError": "ଏହି ଡିଭାଇସ ଆଗରୁ ଅନ୍ୟ ଗୋଟିଏ ଖାତା ସହିତ ଯୋଡ଼ାଯାଇଛି। ଦୟାକରି ମୂଳ ଖାତାରେ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ।",
+  "premiumTitle": "Wilaya ମୋଡ୍",
+  "premiumSubtitleBasic": "Ayara ର ପୂର୍ଣ୍ଣ ଅନୁଭବକୁ ଖୋଲନ୍ତୁ।",
+  "premiumSubtitlePremium": "ଆପଣ Wilaya ରେ ଅଛନ୍ତି। ଅଧିକ ଚିନ୍ତନ ଦରକାର କି?",
+  "premiumCurrentPlan": "ବର୍ତ୍ତମାନର ଯୋଜନା: {plan}",
   "premiumCreditsStatus": "ଚିନ୍ତନ: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "କ୍ରୟ ଏଥିସମୟ ଉପଲବ୍ଧ ନାଇ।",
-  "premiumSignInToPurchase": "ଚିନ୍ତନ କୟାଇ ବା ବାରାକା ଅଲାଇ ସାଇନ ଇନ ଏକଜାମି।",
-
-  "premiumRestorePurchases": "କ୍ରୟ ପୁନରୁଦ୍ଧାର",
-  "premiumProcessing": "ପ୍ରକ୍ରିୟାକରଣ…",
-  "premiumRestoreHintTitle": "ଏଇ ଡିଭାଇସ ବା ଅନ୍ୟ ଡିଭାଇସରେ ବାରାକା ବା ଚିନ୍ତନ ଇତିମଧ୍ୟ କ୍ରୟ ଏକଜାମି?",
-  "premiumRestoreHintBody": "ଯଦି ଦେଖାଯାଇନି ତାହାଲେ ଆପଣଙ୍କ କ୍ରୟ ପୁନରୁଦ୍ଧାର ଏକଜାମି।",
-
-  "premiumBuyCredits200": "୨୦୦ ଚିନ୍ତନ କୟାଇ",
-  "premiumBuyCredits400": "୪୦୦ ଚିନ୍ତନ କୟାଇ",
-  "premiumBecomeChampionOneTime": "ବାରାକା ମୋଡ ଅପଗ୍ରେଡ",
-  "premiumChampionHint": "ବାରାକା ସ୍ଥିତିରେ, ଆପଣ ଯେତେଦିନ ଚାହାଁ ଚିନ୍ତନ ଯୋଡାଇ ପାରିବେନ।",
-
-  "premiumUpgradeCta": "ଅପଗ୍ରେଡ",
-  "premiumRequiredForCategory": "ଏଇ ବିଭାଗ ଶୁଧୁ ବାରାକା ବ୍ୟବହାରକାରୀଙ୍କ ଜାତୀୟ। ସମସ୍ତ ଉନ୍ନତ ଚିନ୍ତନ ଅଲାଇ ସେଟିଂସ ଅପଗ୍ରେଡ ଏକଜାମି।",
-  "premiumBenefitsBasic": "ବାରାକା ଅଲାଇ ଅଧିକ ଚିନ୍ତନ, ଉନ୍ନତ ବିଭାଗ ଅନୁଭୂତି, ଓ ଯେକୌଣସି ସମୟ ପଥପ୍ରଦର୍ଶନ ଜାରି ଏକଜାମି।",
-  "premiumBenefitsChampion": "ଆପଣ ବାରାକା ମୋଡରେ। ଭାବୁଥୁଲେ, ଅଧିକ ଚିନ୍ତନ ଯୋଡାଇ ବିଘ୍ନ ନାଇ ଜାରି ଏକଜାମି।",
-  "premiumButtonBecomeChampion": "ବାରାକା ଅଲାଇ",
-  "premiumButtonTopup1000": "୧୦୦୦ ଚିନ୍ତନ ଯୋଡାଇ",
-  "premiumChampionBadge": "ବାରାକା ସକ୍ରିୟ",
-  "premiumLoadingStore": "ଦୋକାନ ଧାରଣ…",
-
-  "blessedTitle": "ବାରାକା ମୋଡ",
-  "blessedSubtitleGrace": "ସମ୍ପୂର୍ଣ୍ଣ Ayara ଅଭିଜ୍ଞତା ଅଲାଇ।",
-  "blessedSubtitleBlessed": "ଆପଣ ବାରାକା। ଅଧିକ ଚିନ୍ତନ ଚାହୁଁଛନ୍ତି?",
-
-  "blessedCurrentPlan": "ବର୍ତ୍ତମାନ ଯୋଜନା: {plan}",
-  "blessedReflectionsStatus": "ଚିନ୍ତନ: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "କ୍ରୟ ଏଥିସମୟ ଉପଲବ୍ଧ ନାଇ।",
-  "blessedProductNotAvailable": "ଏଇ ଦ୍ରବ୍ୟ ଏସେ ଦୋକାନରେ ଉପଲବ୍ଧ ନାଇ। ଅନୁଗ୍ରହ ପରେ ଚେଷ୍ଟା ଏକଜାମି।",
-  "blessedPurchaseError": "କ୍ରୟରେ ଭିତ୍ତିକରାଯାଇ ଭୁଲ। ଅନୁଗ୍ରହ ପୁନରାୟ ଚେଷ୍ଟା ଏକଜାମି।",
-  "blessedSignInToPurchase": "ଚିନ୍ତନ କୟାଇ ବା ବାରାକା ଅଲାଇ ସାଇନ ଇନ ଏକଜାମି।",
-
-  "blessedRestorePurchases": "କ୍ରୟ ପୁନରୁଦ୍ଧାର",
-  "blessedProcessing": "ପ୍ରକ୍ରିୟାକରଣ…",
-  "blessedRestoreHintTitle": "ଏଇ ଡିଭାଇସ ବା ଅନ୍ୟ ଡିଭାଇସରେ ବାରାକା ବା ଚିନ୍ତନ ଇତିମଧ୍ୟ କ୍ରୟ ଏକଜାମି?",
-  "blessedRestoreHintBody": "ଯଦି ଦେଖାଯାଇନି ତାହାଲେ ଆପଣଙ୍କ କ୍ରୟ ପୁନରୁଦ୍ଧାର ଏକଜାମି।",
-
-  "blessedBuyReflections100": "୧୦୦ ଚିନ୍ତନ ଯୋଡାଇ",
-  "blessedBuyReflections200": "୨୦୦ ଚିନ୍ତନ କୟାଇ",
-  "blessedBuyReflections400": "୪୦୦ ଚିନ୍ତନ କୟାଇ",
-  "blessedBecomeBlessedOneTime": "ବାରାକା ଅପଗ୍ରେଡ",
-  "blessedTopupHint": "ବାରାକା ସ୍ଥିତିରେ, ଆପଣ ଯେତେଦିନ ଚାହାଁ ଚିନ୍ତନ ଯୋଡାଇ ପାରିବେନ।",
-
-  "blessedUpgradeCta": "ଅପଗ୍ରେଡ",
-  "blessedRequiredForCategory": "ଏଇ ବିଭାଗ ଶୁଧୁ ବାରାକା ବ୍ୟବହାରକାରୀଙ୍କ ଜାତୀୟ। ସମସ୍ତ ଉନ୍ନତ ଚିନ୍ତନ ଅଲାଇ ସେଟିଂସ ଅପଗ୍ରେଡ ଏକଜାମି।",
-  "blessedFeatureLocked": "ଏଭି ବୈଶିଷ୍ଟ୍ୟ ଅଲାଇ ବାରାକା ଅଲାଇ ଏକଜାମି।",
-  "lockedCategoriesHint": "କିଛି ବିଭାଗ ବାରାକା ସଦସ୍ୟଙ୍କ ଜାତୀୟ। ଆପଣଙ୍କ ଯାତ୍ରାରେ ପ୍ରତିଟି ଚିନ୍ତନ ଅନ୍ବେଷଣ ଅଲାଇ ତେଲେ।",
-  "blessedBenefitsGrace": "ବାରାକା ଅଲାଇ ଅଧିକ ଚିନ୍ତନ, ଉନ୍ନତ ବିଭାଗ ଅନୁଭୂତି, ଓ ଯେକୌଣସି ସମୟ ପଥପ୍ରଦର୍ଶନ ଜାରି ଏକଜାମି।",
-  "blessedBenefitsBlessed": "ଆପଣ ବାରାକା ମୋଡରେ। ଭାବୁଥୁଲେ, ଅଧିକ ଚିନ୍ତନ ଯୋଡାଇ ବିଘ୍ନ ନାଇ ଜାରି ଏକଜାମି।",
-  "blessedButtonBecomeBlessed": "ବାରାକା ଅଲାଇ",
-  "blessedButtonTopup1000": "୧୦୦୦ ଚିନ୍ତନ ଯୋଡାଇ",
-  "blessedBadge": "ବାରାକା ସକ୍ରିୟ",
-  "blessedLoadingStore": "ଦୋକାନ ଧାରଣ…",
-
-  "freePlanBlockedTitle": "ଆପଣ ଆରମ୍ଭ ଚିନ୍ତନ ସରିଲେ",
-  "freePlanBlockedBody": "ଆପଣ ଆରମ୍ଭ ଚିନ୍ତନ ସହ ମାନକ ଯୋଜନା, ସୀମା ପହଂଚିଲେ। ଜାରି ରଖନ୍ତୁ — ଓ ଉନ୍ନତ ବିଭାଗ ଅଲାଇ — ବାରାକା ଅପଗ୍ରେଡ।",
-  "freePlanBlockedCtaGoPremium": "ତଳେ ବାରାକା ବିକଳ୍ପ ଦେଖନ୍ତୁ",
-
-  "graceBlockedTitle": "ଆପଣ ଆରମ୍ଭ ଚିନ୍ତନ ସରିଲେ",
-  "graceBlockedBody": "ଆପଣ ଆରମ୍ଭ ଚିନ୍ତନ ସହ ମାନକ ଯୋଜନା, ସୀମା ପହଂଚିଲେ। ଜାରି ରଖନ୍ତୁ — ଓ ଉନ୍ନତ ବିଭାଗ ଅଲାଇ — ବାରାକା ଅପଗ୍ରେଡ।",
-  "graceBlockedCtaGoBlessed": "ତଳେ ବାରାକା ବିକଳ୍ପ ଦେଖନ୍ତୁ",
-
-  "rateGuestMustSignIn": "Ayara ବ୍ୟବହାର ଚିନ୍ତନ ସାଇନ ଇନ ଏକଜାମି।",
-
-  "guestNoCreditsTitle": "ଅତିଥି ମୋଡ",
-  "guestNoCreditsBody": "ଅତିଥି ଆପଣ ଆପଲିକେଶନ ବ୍ରାଜ ପାରିବେନ, ଖାଲି ଚିନ୍ତନ ବ୍ୟବହାର। ଚିନ୍ତନ ବ୍ୟବହାର ଓ କ୍ରୟ ଅଲାଇ ସେଟିଂସ ତାରେ ସାଇନ ଏକଜାମି।",
-
-  "guestNoReflectionsTitle": "ଅତିଥି ମୋଡ",
-  "guestNoReflectionsBody": "ଅତିଥି ଆପଣ ଆପଲିକେଶନ ବ୍ରାଜ ପାରିବେନ, ଖାଲି ଚିନ୍ତନ ବ୍ୟବହାର। ଚିନ୍ତନ ବ୍ୟବହାର ଓ କ୍ରୟ ଅଲାଇ ସେଟିଂସ ତାରେ ସାଇନ ଏକଜାମି।",
-
-  "guestDialogContinue": "ଜାରି ରଖନ୍ତୁ",
-  "guestDialogLoginInstead": "ବଦଳେ ସାଇନ ଇନ",
-
-  "optionalLabel": "ବୈକଳ୍ପିକ",
-
-  "accountDeleteSuccessTitle": "ଖାତା ଅପସାରିତ",
-  "accountDeleteSuccessBody": "ଆପଣଙ୍କ ଖାତା ଏବଂ ସମସ୍ତ ସଂଯୁକ୍ତ ତଥ୍ୟ ସଫଲତାପୂର୍ଣ୍ଣ ଭାବରେ ଅପସାରିତ ଏକଜାମି।",
-  "accountDeleteSuccessClose": "ବନ୍ଦ ଏକଜାମି",
-  "accountDeleteErrorTitle": "ଖାତା ଅପସାରଣ ଏକଜାମି ଖାଡ଼ି",
-  "accountDeleteErrorClose": "ଏକଜାମି",
-  "accountDeleteReauthCancelled": "ପୁନରାୟ-ସଂପ୍ରମାଣ ରଦ୍ଦ। ଅନୁଗ୍ରହ ପୁନରାୟ ସାଇନ ଇନ ଓ ଅପସାରଣ ଚେଷ୍ଟା ଏକଜାମି।",
-  "accountDeleteReauthRequired": "ଖାତା ଅପସାରଣ ନୂତନ ସାଇନ ଇନ ଚାଇ। ଅନୁଗ୍ରହ ସାଇନ ଆଉଟ, ସାଇନ ଇନ, ଓ ଅଲେ ଚେଷ୍ଟା ଏକଜାମି।",
-  "settingsDeletePermanentWarning": "ଏଟା କାର୍ଯ୍ୟ ସ୍ଥାୟୀ ଓ ଅଘ୍ରାଣିଛ। ଆପଣଙ୍କ ଖାତା ସମସ୍ତ ତଥ୍ୟ ଅପସାରିତ ଏକଜାମି।",
-
-  "dailyGraceTitle": "ଦୈନିକ ପଥପ୍ରଦର୍ଶନ",
-  "dailyGraceScriptureLabel": "ଦିନଗତ ଆୟତ",
-  "dailyGraceSaintLabel": "ଆଳସାଇ ବିଦ୍ୱାନ",
+  "premiumPurchasesUnavailable": "କ୍ରୟ ବର୍ତ୍ତମାନ ଉପଲବ୍ଧ ନାହିଁ।",
+  "premiumSignInToPurchase": "ଚିନ୍ତନ କିଣିବା କିମ୍ବା Wilaya ଖୋଲିବା ପାଇଁ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ।",
+  "premiumRestorePurchases": "କ୍ରୟ ପୁନରୁଦ୍ଧାର କରନ୍ତୁ",
+  "premiumProcessing": "ପ୍ରକ୍ରିୟା ଚାଲିଛି…",
+  "premiumRestoreHintTitle": "ଏହି ଡିଭାଇସ କିମ୍ବା ଅନ୍ୟ ଡିଭାଇସରେ ଆଗରୁ Wilaya କିମ୍ବା ଚିନ୍ତନ କିଣିଛନ୍ତି କି?",
+  "premiumRestoreHintBody": "ଯଦି ସେଗୁଡ଼ିକ ଦେଖାଯାଉନାହିଁ, ତେବେ ଆପଣଙ୍କର କ୍ରୟଗୁଡ଼ିକୁ ପୁନରୁଦ୍ଧାର କରନ୍ତୁ।",
+  "premiumBuyCredits200": "200 ଚିନ୍ତନ କିଣନ୍ତୁ",
+  "premiumBuyCredits400": "400 ଚିନ୍ତନ କିଣନ୍ତୁ",
+  "premiumBecomePremiumOneTime": "Wilaya ମୋଡ୍ କୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ",
+  "premiumTopupHint": "Wilaya ସହିତ, ଯେତେବେଳେ ଆବଶ୍ୟକ ହେବ ଆପଣ ଅତିରିକ୍ତ ଚିନ୍ତନ ସହିତ ଟପ୍-ଅପ୍ କରିପାରିବେ।",
+  "premiumUpgradeCta": "ଅପଗ୍ରେଡ୍ କରନ୍ତୁ",
+  "premiumRequiredForCategory": "ଏହି ଶ୍ରେଣୀ କେବଳ Wilaya ବ୍ୟବହାରକାରୀମାନଙ୍କ ପାଇଁ ଉପଲବ୍ଧ। ସମସ୍ତ ପ୍ରିମିୟମ ସାମଗ୍ରୀ ଖୋଲିବା ପାଇଁ ସେଟିଂସ୍‌ରେ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ।",
+  "premiumBenefitsBasic": "ଅତିରିକ୍ତ ଚିନ୍ତନ, ପ୍ରିମିୟମ ଶ୍ରେଣୀଗୁଡ଼ିକର ଅଭିଗମ୍ୟତା ଓ ଯେତେବେଳେ ଆପଣଙ୍କୁ ମାର୍ଗଦର୍ଶନ ଦରକାର ହେବ ସେତେବେଳେ ଜାରି ରଖିବା ପାଇଁ Wilaya ଖୋଲନ୍ତୁ।",
+  "premiumBenefitsPremium": "ଆପଣ Wilaya ମୋଡ୍‌ରେ ଅଛନ୍ତି। ଯଦି ଆପଣଙ୍କର ଚିନ୍ତନ କମିଯାଉଛି, ତେବେ କିଛି ଅତିରିକ୍ତ ଚିନ୍ତନ ଯୋଡ଼ନ୍ତୁ ଓ ବିନା ବିଘ୍ନରେ ଜାରି ରଖନ୍ତୁ।",
+  "premiumButtonBecomePremium": "Wilaya ଖୋଲନ୍ତୁ",
+  "premiumButtonTopup1000": "1000 ଚିନ୍ତନ ଯୋଡ଼ନ୍ତୁ",
+  "premiumBadge": "Wilaya ସକ୍ରିୟ",
+  "premiumLoadingStore": "ଷ୍ଟୋର୍ ଲୋଡ୍ ହେଉଛି…",
+  "premiumProductNotAvailable": "ଏହି ପ୍ରୋଡକ୍ଟ ଏପର୍ଯ୍ୟନ୍ତ ଷ୍ଟୋର୍‌ରେ ଉପଲବ୍ଧ ନାହିଁ। ଦୟାକରି ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
+  "premiumPurchaseError": "କ୍ରୟ ସମୟରେ କିଛି ଭୁଲ୍ ହୋଇଗଲା। ଦୟାକରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
+  "premiumBuyCredits100": "100 ଚିନ୍ତନ ଯୋଡ଼ନ୍ତୁ",
+  "premiumFeatureLocked": "ଏହି ବିଶେଷତା ଅଭିଗମ୍ୟ କରିବାକୁ Wilaya ଖୋଲନ୍ତୁ।",
+  "lockedCategoriesHint": "କିଛି ଶ୍ରେଣୀ କେବଳ Wilaya ସଦସ୍ୟମାନଙ୍କ ପାଇଁ ରଖାଯାଇଛି। ଆପଣଙ୍କର ଯାତ୍ରାର ପ୍ରତ୍ୟେକ ଚିନ୍ତନକୁ ଅନୁସନ୍ଧାନ କରିବା ପାଇଁ ସେଗୁଡ଼ିକୁ ଖୋଲନ୍ତୁ।",
+  "freePlanBlockedTitle": "ଆପଣଙ୍କର ଆରମ୍ଭିକ ଚିନ୍ତନ ଶେଷ ହୋଇଯାଇଛି",
+  "freePlanBlockedBody": "ଆପଣ ଷ୍ଟାଣ୍ଡାର୍ଡ ଯୋଜନାରେ ଅଛନ୍ତି ଓ ଆରମ୍ଭିକ ଚିନ୍ତନର ସୀମାକୁ ପହଞ୍ଚିଯାଇଛନ୍ତି। ଜାରି ରଖିବା ପାଇଁ — ଏବଂ ପ୍ରିମିୟମ ଶ୍ରେଣୀ ଖୋଲିବା ପାଇଁ — Wilaya କୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ।",
+  "freePlanBlockedCtaGoPremium": "ନିମ୍ନରେ ଥିବା Wilaya ବିକଳ୍ପଗୁଡ଼ିକୁ ଦେଖନ୍ତୁ",
+  "graceBlockedTitle": "ଆପଣଙ୍କର ଆରମ୍ଭିକ ଚିନ୍ତନ ଶେଷ ହୋଇଯାଇଛି",
+  "graceBlockedBody": "ଆପଣ ଷ୍ଟାଣ୍ଡାର୍ଡ ଯୋଜନାରେ ଅଛନ୍ତି ଓ ଆରମ୍ଭିକ ଚିନ୍ତନର ସୀମାକୁ ପହଞ୍ଚିଯାଇଛନ୍ତି। ଜାରି ରଖିବା ପାଇଁ — ଏବଂ ପ୍ରିମିୟମ ଶ୍ରେଣୀ ଖୋଲିବା ପାଇଁ — Wilaya କୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ।",
+  "graceBlockedCtaGoPremium": "ନିମ୍ନରେ ଥିବା Wilaya ବିକଳ୍ପଗୁଡ଼ିକୁ ଦେଖନ୍ତୁ",
+  "rateGuestMustSignIn": "Ayara ଓ ଆପଣଙ୍କର ଚିନ୍ତନ ବ୍ୟବହାର କରିବା ପାଇଁ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ।",
+  "guestNoCreditsTitle": "ଅତିଥି ମୋଡ୍",
+  "guestNoCreditsBody": "ଅତିଥି ଭାବେ ଆପଣ ଆପ୍‌ଟିକୁ ବ୍ରାଉଜ୍ କରିପାରିବେ, କିନ୍ତୁ ଚିନ୍ତନ ବ୍ୟବହାର କରିପାରିବେ ନାହିଁ। ପରେ ସେଟିଂସ୍‌ରେ ଲଗ୍ ଇନ୍ କରି ଚିନ୍ତନ ବ୍ୟବହାର କରନ୍ତୁ ଓ କ୍ରୟ ବିକଳ୍ପଗୁଡ଼ିକୁ ଖୋଲନ୍ତୁ।",
+  "guestDialogContinue": "ଆଗକୁ ବଢନ୍ତୁ",
+  "guestDialogLoginInstead": "ତାହାର ବଦଳରେ ଲଗ୍ ଇନ୍ କରନ୍ତୁ",
+  "optionalLabel": "ଇଚ୍ଛାଧୀନ",
+  "accountDeleteSuccessTitle": "ଖାତା ଡିଲିଟ୍ ହୋଇଗଲା",
+  "accountDeleteSuccessBody": "ଆପଣଙ୍କର ଖାତା ଓ ସମ୍ବନ୍ଧିତ ତଥ୍ୟ ସଫଳତାର ସହିତ ଡିଲିଟ୍ ହୋଇଯାଇଛି।",
+  "accountDeleteSuccessClose": "ବନ୍ଦ କରନ୍ତୁ",
+  "accountDeleteErrorTitle": "ଖାତା ଡିଲିଟ୍ କରିହେଲା ନାହିଁ",
+  "accountDeleteErrorClose": "ଠିକ୍ ଅଛି",
+  "accountDeleteReauthCancelled": "ପୁନଃ-ପ୍ରମାଣୀକରଣ ବାତିଲ୍ ହୋଇଗଲା। ଦୟାକରି ପୁଣି ସାଇନ୍ ଇନ୍ କରି ପୁନଃ ଡିଲିଟ୍ କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ।",
+  "accountDeleteReauthRequired": "ଖାତା ଡିଲିଟ୍ କରିବା ପାଇଁ ନିକଟରେ ଲଗଇନ୍ କରିଥିବା ଆବଶ୍ୟକ। ଦୟାକରି ସାଇନ୍ ଆଉଟ୍ କରନ୍ତୁ, ପୁଣି ସାଇନ୍ ଇନ୍ କରନ୍ତୁ, ଏବଂ ପୁନଃ ଚେଷ୍ଟା କରନ୍ତୁ।",
+  "settingsDeletePermanentWarning": "ଏହି କାର୍ଯ୍ୟ ସ୍ଥାୟୀ ଓ ପୁନଃ ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ। ଆପଣଙ୍କର ଖାତା ସହ ସମ୍ବନ୍ଧିତ ସମସ୍ତ ତଥ୍ୟ ଡିଲିଟ୍ ହେବ।",
+  "dailyGraceTitle": "ଦୈନିକ ମାର୍ଗଦର୍ଶନ",
+  "dailyGraceScriptureLabel": "ଆଜିର ଆୟାତ୍",
+  "dailyGraceSaintLabel": "ସପ୍ତାହର ବିଦ୍ୱାନ",
   "dailyGraceReflectionLabel": "ସନ୍ଧ୍ୟା ଚିନ୍ତନ",
-  "dailyGraceCopiedToast": "ଆୟତ ଡିପ୍ସବୋର୍ଡରେ ନକଲ ଏକଜାମି",
-
-  "dailyScripture0Text": "ନିଶ୍ଚିତ, ନେଲିମାନେ ବାଗ ଓ ଉଦ୍ୟାନୁ, ମହାଶକ୍ତିର ରାଜା ନିକଟ ସମ୍ମାନ ଆସନରେ ଜାଡି।",
-  "dailyScripture0Ref": "ଖୋରାଏ ୫୪:୫୪-୫୫",
-  "dailyScripture1Text": "ଓ ଆମେ ଆପଣଙ୍କୁ ପାଠିଲେନି ଶୁଧୁ ବିଶ୍ବ ଜଗତକୁ ଦୟା।",
-  "dailyScripture1Ref": "ଖୋରାଏ ୨୧:୧୦୭",
-  "dailyScripture2Text": "ଅଲ୍ଲାହ ତାଙ୍କ ସେବକ ଜାତୀୟ ଯଥେଷ୍ଟ ନ? ଅଥଚ ତେଲେ ଭୟ ଜଗାୟେ ତାଙ୍କ ବ୍ୟତୀତ।",
-  "dailyScripture2Ref": "ଖୋରାଏ ୩୯:୩୬",
-  "dailyScripture3Text": "ବେଶ ଅଗୋଟିକ ତୁମେ ନାଇ ଚାହୁଁ ଓ ତୁମ ଜାତୀୟ ଭଲ; ଅଗୋଟିକ ଭାଲୋବସେ ଓ ତୁମ ଖରାବ। ଅଲ୍ଲାହ ଜାଣେ, ତୁମେ ନ।",
-  "dailyScripture3Ref": "ଖୋରାଏ ୨:୨୧୬",
-  "dailyScripture4Text": "ନିଶ୍ଚିତ, ଅଲ୍ଲାହ ଧୈର୍ଯ୍ୟୀଙ୍କ ସହ।",
-  "dailyScripture4Ref": "ଖୋରାଏ ୨:୧୫୩",
-  "dailyScripture5Text": "ତେବେ ମୋ ସ୍ମରଣ; ମୁଁ ତୁମକୁ ସ୍ମରଣ। ଓ ମୋ ଦନ୍ୟବାଦ, ଓ ମୋ ଅସ୍ଵୀକୃତ।",
-  "dailyScripture5Ref": "ଖୋରାଏ ୨:୧୫୨",
-  "dailyScripture6Text": "ନିଶ୍ଚିତ, ସବଚେୟେ ନେଲି ଅଲ୍ଲାହ ନଜରେ ସବଚେୟେ ଧାର୍ମିକ।",
-  "dailyScripture6Ref": "ଖୋରାଏ ୪୯:୧୩",
-  "dailyScripture7Text": "ଓ ଆପଣଙ୍କ ପ୍ରଭୁ ଆଦେଶ ଦେଲେନ ତୁମେ ଆରାଧନ ସେ ଅଲ୍ଲାହ ବ୍ୟତୀତ, ଓ ଆଚରଣ ଆପଣଙ୍କ ମାତାପିତାଙ୍କ।",
-  "dailyScripture7Ref": "ଖୋରାଏ ୧୭:୨୩",
-  "dailyScripture8Text": "ନିଶ୍ଚିତ, ଦୁଃଖରେ ଆଶ୍ୱାସ।",
-  "dailyScripture8Ref": "ଖୋରାଏ ୯୪:୬",
-  "dailyScripture9Text": "ଓ ତିନି ତୁମଙ୍କ ସହ ଯେତେ ସ୍ଥାନ। ଓ ଅଲ୍ଲାହ, ତୁମେ କଣ କରୋ, ଦେଖୋ।",
-  "dailyScripture9Ref": "ଖୋରାଏ ୫୭:୪",
-  "dailyScripture10Text": "ଅଲ୍ଲାହ ଆତ୍ମାକୁ ଭାର ଜାତୀୟ ଚାଲେ ନାଇ।",
-  "dailyScripture10Ref": "ଖୋରାଏ ୨:୨୮୬",
-  "dailyScripture11Text": "ଓ ଯେ ବିଶ୍ୱାସ ଅଲ୍ଲାହ — ତେଲେ ଯଥେଷ୍ଟ।",
-  "dailyScripture11Ref": "ଖୋରାଏ ୬୫:୩",
-  "dailyScripture12Text": "ମେଚୋ ଦୟା ସବାକୁ ପଂଡିଅଙ୍କ।",
-  "dailyScripture12Ref": "ଖୋରାଏ ୭:୧୫୬",
-  "dailyScripture13Text": "ଓ ମେଚୋ ସେବକ ଅଟିଛେନ ମୋତେ — ନିଶ୍ଚିତ ମୁଁ ନିକଟ। ଓ ସା଩େ ଶାନୁ ଯଦି ଅଟିବେନ ମୋତେ।",
-  "dailyScripture13Ref": "ଖୋରାଏ ୨:୧୮୬",
-  "dailyScripture14Text": "ଯେ ଧାର୍ମିକତା ଏକୋଟି, ସ୍ତ୍ରୀ ବା ପୁରୁଷ, ବିଶ୍ୱାସ ଅବସ୍ଥାରେ — ଆମେ ନିଶ୍ଚିତ ଜୀବିତ ଭଲ ଜୀବନ।",
-  "dailyScripture14Ref": "ଖୋରାଏ ୧୬:୯୭",
-  "dailyScripture15Text": "ନିଶ୍ଚିତ, ଅଲ୍ଲାହ ଅବସ୍ଥା ଅଳାଇ ଧେନି ଖଲକ ଯଦି ତେଲେ ଅଳାଇ ଚା ଜାତୀୟ।",
-  "dailyScripture15Ref": "ଖୋରାଏ ୧୩:୧୧",
-  "dailyScripture16Text": "ତେବେ ଦୁର୍ବଳ ନାହ ଓ ଦୁଃଖିତ ନାହ, ଓ ତୁମେ ଊର୍ଦ୍ଧ୍ୱ ଯଦି ତୁମେ ବିଶ୍ୱାସୀ।",
-  "dailyScripture16Ref": "ଖୋରାଏ ୩:୧୩୯",
-  "dailyScripture17Text": "ଆୟ ମେଚୋ ସେବକ ଯେ ଆତ୍ମା ଅତିଚାର, ନିଃଶ୍ୱାସ ନାହ ଅଲ୍ଲାହ ଦୟା। ନିଶ୍ଚିତ, ଅଲ୍ଲାହ ମାଗଣା ସବ।",
-  "dailyScripture17Ref": "ଖୋରାଏ ୩୯:୫୩",
-  "dailyScripture18Text": "ଓ ଯେ ଭୟ ଅଲ୍ଲାହ — ତିନି ଲଟେ ବାଟ, ଓ ଦେବେ ଯେତେ ନାଚେ।",
-  "dailyScripture18Ref": "ଖୋରାଏ ୬୫:୨-୩",
-  "dailyScripture19Text": "ହତାଶ ନାହ ଅଲ୍ଲାହ ଦୟା।",
-  "dailyScripture19Ref": "ଖୋରାଏ ୧୨:୮୭",
-  "dailyScripture20Text": "ଓ ଆମେ ନିଶ୍ଚିତ ଖୋରାଏ ସହଜ ସ୍ମରଣ। ତେବେ କେଉ ଚିନ୍ତା?",
-  "dailyScripture20Ref": "ଖୋରାଏ ୫୪:୧୭",
-  "dailyScripture21Text": "ଓ ତିନି ଖୋଜ ଲଇଛେନ ଗମା ଦେଲେନ ବାଟ।",
-  "dailyScripture21Ref": "ଖୋରାଏ ୯୩:୭",
-  "dailyScripture22Text": "ଓ ଆପଣଙ୍କ ପ୍ରଭୁ କୁହେ: ମୋକୁ ଡାଇକ; ମୁଁ ସାଏ ଦେବ।",
-  "dailyScripture22Ref": "ଖୋରାଏ ୪୦:୬୦",
-  "dailyScripture23Text": "ଓ ଆମେ ନିଶ୍ଚିତ ସମ୍ମାନିତ ଆଦମ ସନ୍ତାନ।",
-  "dailyScripture23Ref": "ଖୋରାଏ ୧୭:୭୦",
-  "dailyScripture24Text": "ଓ ଖୋଜ ଖୋଜ ଧୈର୍ଯ୍ୟ ଓ ନମାଜ।",
-  "dailyScripture24Ref": "ଖୋରାଏ ୨:୪୫",
-  "dailyScripture25Text": "ଯେ ଅଣୁ ଓଜନ ଲକ୍ଷ ଦେଖିବ।",
-  "dailyScripture25Ref": "ଖୋରାଏ ୯୯:୭",
-  "dailyScripture26Text": "ନିଶ୍ଚିତ, ଅଲ୍ଲାହ ସାହାୟ୍ୟ ନିକଟ।",
-  "dailyScripture26Ref": "ଖୋରାଏ ୨:୨୧୪",
-  "dailyScripture27Text": "ଓ ଯେ ଦନ୍ୟବାଦୀ — ତାଙ୍କ ଦନ୍ୟବାଦ ଜାତୀୟ ନିଜୋ।",
-  "dailyScripture27Ref": "ଖୋରାଏ ୩୧:୧୨",
-
-  "dailyReflection0": "ଯେମି ଦିନ ବନ୍ଦ ହୁଏ, ଆଉ ଅଲ୍ଲାହ ଦୟା ସ୍ପଷ୍ଟ।",
-  "dailyReflection1": "ଆଜ ଯାହା ଓଜନିତ, ଅଲ୍ଲାହ ଆଉ ଲଗାଇ।",
-  "dailyReflection2": "ଆଜ ଆଶୀର୍ବାଦ ନାମୋ ଓ ଅଲ୍ଲାହକୁ ଦନ୍ୟବାଦ।",
-  "dailyReflection3": "ଦିନ ବନ୍ଦ, ଅଲ୍ଲାହ ଅସୀମ ଦେଖ।",
-  "dailyReflection4": "ଆଜ ଦୟା ଓ ଦୟାଲୁତାକୁ ଚିନ୍ତ।",
-  "dailyReflection5": "ଯାହା ଧେନି ପାରେ ଛାଡି, ଅଲ୍ଲାହୀୟ।",
-  "dailyReflection6": "ଦିନ ସନ୍ଧ୍ୟାରେ ଅଲ୍ଲାହ ସ୍ମରଣ ରେ ଶାନ୍ତି।",
-  "dailyReflection7": "ନମାଜ ଆଜ ବିଷୟରେ ଓ ଅଲ୍ଲାହକୁ ଦନ୍ୟବାଦ।",
-  "dailyReflection8": "ଆଜ ଧୈର୍ଯ୍ୟ (ସବ୍ର) ଯାହା ପଥୀତୃଙ୍କୁ।",
-  "dailyReflection9": "ଆଜ ଛୋଟ ମାଗଣା — ଅଲ୍ଲାହ ଦୟା ଅସୀମ।",
-  "dailyReflection10": "ଆଜ ଦୟା ଆଫାର ଲୋକ ଓ ଦୁଆ।",
-  "dailyReflection11": "ଦନ୍ୟବାଦ: ଆଜ ଅଲ୍ଲାହ ଅଦୃଶ୍ୟରୁ।",
-  "dailyReflection12": "ଖୋରାଏ ଆୟତ ଜାତୀୟ ଆଜ।",
-  "dailyReflection13": "ଆଜ ସମୟ — ଓ ଆଗାମୀ ଅଲ୍ଲାହକୁ।",
-  "dailyReflection14": "ଆଜ ଦୁଃସମୟ, ଅଲ୍ଲାହ ସହ।",
-  "dailyReflection15": "ଆଜ ପରିବାର, ସମ୍ମୁଦାୟୋକୁ ସେବା।",
-  "dailyReflection16": "ସନ୍ଧ୍ୟାରେ ତୱବାହ — ଅଲ୍ଲାହ ଭଲୋବସେ।",
-  "dailyReflection17": "ଆଜ ଦୃଶ୍ୟରୁ ସୌନ୍ଦର୍ଯ୍ୟ।",
-  "dailyReflection18": "ଆଜ ଶେଖ ଓ ଅଲ୍ଲାହ ନିକଟ।",
-  "dailyReflection19": "ସନ୍ଧ୍ୟାରେ ଦୁଃସମୟ ଅଲ୍ଲାହୀୟ।",
-  "dailyReflection20": "ଆଜ ଯାହା ଭୁଲ ଓ ଶିଖୁ।",
-  "dailyReflection21": "ଯେଲେ ସଂଘର୍ଷ, ଦୁଆ ତାଙ୍କ।",
-  "dailyReflection22": "ଅଦଳିତ ଆଶୀର୍ବାଦ ଓ ଦନ୍ୟବାଦ।",
-  "dailyReflection23": "ଆଜ ଉଦ୍ଦେଶ୍ୟ ଓ ତାରେ ଅଳାଇ।",
-  "dailyReflection24": "ଶାନ୍ତିରେ ଅଲ୍ଲାହ ନିକଟ।",
-  "dailyReflection25": "ଆଜ ଶକ୍ତି — ଏଟା ଅଲ୍ଲାହ।",
-  "dailyReflection26": "ଆଗାମୀ ଅଲ୍ଲାହର ଜାତୀୟ ପରିକଳ୍ପନା।",
-  "dailyReflection27": "ଅଲ୍ଲାହକୁ ଭରସା — ତିନି ସର୍ବୋତ୍ତମ।",
-
-  "dailyRoleModel0": "ନବୀ ମୁହାମ୍ମଦ ﷺ",
-  "dailyRoleModel1": "ଅବୁ ବକର ଅସ୍-ସିଦ୍ଦିକ (RA)",
-  "dailyRoleModel2": "ଉମର ଇବନ ଅଲ-ଖାତ୍ତାବ (RA)",
-  "dailyRoleModel3": "ଓଥମାନ ଇବନ ଅଫାନ (RA)",
-  "dailyRoleModel4": "ଆଲୀ ଇବନ ଅବୀ ତାଲିବ (RA)",
-  "dailyRoleModel5": "ଖାଦିଜା ବିନ୍ତ ଖୁୱାଇଲିଦ (RA)",
-  "dailyRoleModel6": "ଆଇଶା ବିନ୍ତ ଅବୀ ବକର (RA)",
-  "dailyRoleModel7": "ଫାତିମା ଅଜ-ଜାହ୍ରା (RA)",
-  "dailyRoleModel8": "ବିଲାଲ ଇବନ ରାବାହ (RA)",
-  "dailyRoleModel9": "ସଲମାନ ଅଲ-ଫାରିସି (RA)",
-  "dailyRoleModel10": "ଅବୁ ହୁରାଇରା (RA)",
-  "dailyRoleModel11": "ଅବଦୁଲ୍ଲାହ ଇବନ ଅବ୍ବାସ (RA)",
-  "dailyRoleModel12": "ଅବଦୁଲ୍ଲାହ ଇବନ ମାସୁଦ (RA)",
-  "dailyRoleModel13": "ମୁଆଦ ଇବନ ଜାବାଲ (RA)",
-  "dailyRoleModel14": "ମୁସାବ ଇବନ ଉମାଇର (RA)",
-  "dailyRoleModel15": "ସୁମାୟିଆ ବିନ୍ତ ଖବ୍ବାବ (RA)",
-  "dailyRoleModel16": "ଅମ୍ମାର ଇବନ ୟାସିର (RA)",
-  "dailyRoleModel17": "ଉମ୍ମ ସଲମା (RA)",
-  "dailyRoleModel18": "ଖାଲିଦ ଇବନ ଅଲ-ୱାଲିଦ (RA)",
-  "dailyRoleModel19": "ଜୈଦ ଇବନ ଥାବିତ (RA)",
-  "dailyRoleModel20": "ହାଫସା ବିନ୍ତ ଉମର (RA)",
-  "dailyRoleModel21": "ଉମର ଇବନ ଅବଦୁଲ ଅଲ-ଅଜିଜ (RH)",
-  "dailyRoleModel22": "ଇମାମ ଅବୁ ହାନିଫା (RH)",
-  "dailyRoleModel23": "ଇମାମ ମାଲିକ ଇବନ ଅନାସ (RH)",
-  "dailyRoleModel24": "ଇମାମ ଅଲ-ଶାଫି'ଇ (RH)",
-  "dailyRoleModel25": "ଇମାମ ଅହମଦ ଇବନ ହାନବାଲ (RH)",
-  "dailyRoleModel26": "ଇମାମ ଅଲ-ବୁଖାରି (RH)",
-  "dailyRoleModel27": "ଇମାମ ମୁସଲିମ (RH)",
-  "dailyRoleModel28": "ଇମାମ ଅଲ-ତିର୍ମିଧି (RH)",
-  "dailyRoleModel29": "ଅଲ-ଘଜାଲୀ (RH)",
-  "dailyRoleModel30": "ଇବନ ଅଲ-କାୟିମ ଅଲ-ଜୋଲିୟା (RH)",
-  "dailyRoleModel31": "ଇବନ ତୈମିୟ୍ୟା (RH)",
-  "dailyRoleModel32": "ଅଲ-ନୱାୱି (RH)",
-  "dailyRoleModel33": "ଇବନ ହାଜର ଅଲ-ଅସକାଲାନୀ (RH)",
-  "dailyRoleModel34": "ଇବନ କାତୀର (RH)",
-  "dailyRoleModel35": "ଅଲ-ତାବରି (RH)",
-  "dailyRoleModel36": "ସୁଫିୟାନ ଅଲ-ଥୌରୀ (RH)",
-  "dailyRoleModel37": "ଫକର ଅଦ-ଦିନ ଅଲ-ରାଜି (RH)",
-  "dailyRoleModel38": "ଇବନ ସିନା (RH)",
-  "dailyRoleModel39": "ଅଲ-ବିରୁନୀ (RH)",
-  "dailyRoleModel40": "ଇବନ ରୁସଦ (RH)",
-  "dailyRoleModel41": "ଇବନ ଖାଲ୍ଦୁନ (RH)",
-  "dailyRoleModel42": "ଇବନ ବତୁତା (RH)",
-  "dailyRoleModel43": "ନବୀ ଇବ୍ରାହିମ (AS)",
-  "dailyRoleModel44": "ନବୀ ମୁସା (AS)",
-  "dailyRoleModel45": "ନବୀ ଈସା (AS)",
-  "dailyRoleModel46": "ନବୀ ୟୁସୁଫ (AS)",
-  "dailyRoleModel47": "ନବୀ ଦାଉଦ (AS)",
-  "dailyRoleModel48": "ନବୀ ସୁଲାଇମାନ (AS)",
-  "dailyRoleModel49": "ନବୀ ନୁହ (AS)",
-  "dailyRoleModel50": "ନବୀ ୟୁନୁସ (AS)",
-  "dailyRoleModel51": "ନବୀ ଅୟୁବ (AS)",
-  "dailyRoleModel52": "ରୁକାୟିଆ ବିନ୍ତ ମୁହାମ୍ମଦ (RA)",
-  "dailyRoleModel53": "ଜୈନାବ ବିନ୍ତ ମୁହାମ୍ମଦ (RA)",
-  "dailyRoleModel54": "ହାସାନ ଇବନ ଆଲୀ (RA)",
-  "dailyRoleModel55": "ହୁସୈନ ଇବନ ଆଲୀ (RA)",
-  "dailyRoleModel56": "ଜାଫର ଇବନ ଅବୀ ତାଲିବ (RA)",
-  "dailyRoleModel57": "ଅବୁ ଧାର ଅଲ-ଘିଫାରି (RA)",
-  "dailyRoleModel58": "ତଲହା ଇବନ ଉବାଇଦୁଲ୍ଲାହ (RA)",
-  "dailyRoleModel59": "ଅଜ-ଜୁବାଇର ଇବନ ଅଲ-ଆୱୱାମ (RA)",
-
-  "locationConsentLabel": "Ayara କୁ ମୋ ସ୍ଥିତି ବ୍ୟବହାର ଆଟିବ ଓ ନମାଜ ସମୟ",
-  "locationConsentHint": "ଶୁଧୁ ଏଇ ବୈଶିଷ୍ଟ୍ୟ। ଆପଣଙ୍କ ସ୍ଥିତି ଶେୟାର ବା ସଂରକ୍ଷିତ ନାଇ।",
-
-  "askPageTitle": "Ayara ପୁଛନ୍ତୁ",
-  "askPageDescription": "ବିଶ୍ୱାସ, ନମାଜ, ଜୀବନ, ବା ଇସ୍ଲାମିକ ଅଭ୍ୟାସ ବିଷୟରେ ଯେକୌଣସି ପୁଛନ୍ତୁ ଓ ଖୋରାଏ ଏବଂ ସୁନ୍ନାତ ମାଧ୍ୟମେ ଦିଶା।",
-  "askPageInputHint": "ଏଠାରେ ଆପଣଙ୍କ ପ୍ରଶ୍ନ ଲେଖନ୍ତୁ…",
-  "askPageSubmitCta": "ପୁଛନ୍ତୁ",
-  "askPageInputEmptyError": "ଅନୁଗ୍ରହ ପ୍ରଥମେ ଚିଠି ଲେଖନ୍ତୁ।",
-  "askResultYourQuestion": "ଆପଣଙ୍କ ପ୍ରଶ୍ନ",
-
-  "guidancePageTitle": "ନମାଜ ଓ ପଥପ୍ରଦର୍ଶନ",
-  "qiblaFacingMecca": "ମକ୍କା ଦିଶା",
-  "qiblaCompassInstruction": "ଆପଣଙ୍କ ଫୋନ ବୁଲାଉ ଯେତେ ସୁନ୍ନ ସୁଇ ଉପର।\nଏଟା ଦିଶା କିବ୍ଲା (ମକ୍କା)।",
-  "qiblaGpsUnavailableBody": "GPS ସିଗ୍ନାଲ ଦୁର୍ବଳ। ବାହାର ଯାଚନ୍ତୁ ଓ ପୁନଃଚେଷ୍ଟା ଟ୍ୟାପ।",
-  "qiblaRetry": "ପୁନଃଚେଷ୍ଟା",
-  "qiblaTitle": "କିବ୍ଲା ଦିଶା",
-  "qiblaDistanceLabel": "{km} km ମକ୍କାଟି",
+  "dailyGraceCopiedToast": "ଆୟାତ୍ କ୍ଲିପବୋର୍ଡକୁ କପି ହୋଇଗଲା",
+  "locationConsentLabel": "Qibla ଦିଗ ଓ ନମାଜ ସମୟ ପାଇଁ Ayara କୁ ମୋ ଅବସ୍ଥାନ ବ୍ୟବହାର କରିବାକୁ ଅନୁମତି ଦିଅନ୍ତୁ",
+  "locationConsentHint": "ଏହା କେବଳ ଏହି ବିଶେଷତାମାନଙ୍କ ପାଇଁ ବ୍ୟବହୃତ ହୁଏ। ଆପଣଙ୍କର ଅବସ୍ଥାନ କେବେବି ସେୟାର କିମ୍ବା ସଂରକ୍ଷଣ କରାଯାଏ ନାହିଁ।",
+  "askPageTitle": "Ayara କୁ ପଚାରନ୍ତୁ",
+  "askPageDescription": "ଇମାନ, ନମାଜ, ଜୀବନ କିମ୍ବା ଇସଲାମିକ ଅଭ୍ୟାସ ବିଷୟରେ ଯେକୌଣସି ପ୍ରଶ୍ନ ପଚାରନ୍ତୁ ଏବଂ କୁରଆନ ଓ Ahl al-Bayt ଙ୍କ ଶିକ୍ଷା ଉପରେ ଆଧାରିତ ମାର୍ଗଦର୍ଶନ ପାଆନ୍ତୁ।",
+  "askPageInputHint": "ଆପଣଙ୍କର ପ୍ରଶ୍ନ ଏଠାରେ ଟାଇପ୍ କରନ୍ତୁ…",
+  "askPageSubmitCta": "ପଚାରନ୍ତୁ",
+  "askPageInputEmptyError": "ଦୟାକରି ପ୍ରଥମେ ଗୋଟିଏ ପ୍ରଶ୍ନ ଲେଖନ୍ତୁ।",
+  "askResultYourQuestion": "ଆପଣଙ୍କର ପ୍ରଶ୍ନ",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "ମକ୍କା ଦିଗକୁ ମୁହଁ କରି",
+  "qiblaCompassInstruction": "ସୁନାର ରଙ୍ଗର ସୁଇ ଉପରକୁ ଦେଖାଉ ପର୍ଯ୍ୟନ୍ତ ଆପଣଙ୍କର ଫୋନକୁ ଘୁରାନ୍ତୁ।\nସେହି ଦିଗ Qibla (ମକ୍କା) କୁ ସୂଚିତ କରେ।",
+  "qiblaGpsUnavailableBody": "GPS ସିଗ୍ନାଲ୍ ଦୁର୍ବଳ। ବାହାରକୁ ଯାଆନ୍ତୁ ଏବଂ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ ଟ୍ୟାପ୍ କରନ୍ତୁ।",
+  "qiblaRetry": "ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ",
+  "qiblaTitle": "Qibla ଦିଗ",
+  "qiblaDistanceLabel": "ମକ୍କା ପର୍ଯ୍ୟନ୍ତ {km} କିମି",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "ସ୍ଥିତି ଆବଶ୍ୟକ",
-  "qiblaLocationNeededBody": "Ayara ଆପଣଙ୍କ କାବା ଦିଶା ଧାରଣ ସ୍ଥିତି ଆପଲୁ।",
-  "qiblaOpenSettings": "ସେଟିଂସ ଖୋଲନ୍ତୁ",
-  "qiblaCompassLoading": "ଆପଣଙ୍କ ସ୍ଥିତି ଅନୁସନ୍ଧାନ…",
-  "qiblaTowardMecca": "ମକ୍କା ଦିଶା",
-
+  "qiblaLocationNeededTitle": "ଅବସ୍ଥାନ ଆବଶ୍ୟକ",
+  "qiblaLocationNeededBody": "ଆପଣ ଯେଉଁଠାରେ ଥାଆନ୍ତୁନା କାହିଁକି, ସେଠାରୁ ମକ୍କାରେ ଥିବା କାବାର ଦିଗ ଗଣନା କରିବା ପାଇଁ Ayara କୁ ଅବସ୍ଥାନ ଅନୁମତି ଦିଅନ୍ତୁ।",
+  "qiblaOpenSettings": "ସେଟିଂସ୍ ଖୋଲନ୍ତୁ",
+  "qiblaCompassLoading": "ଆପଣଙ୍କର ଅବସ୍ଥାନ ଖୋଜାଯାଉଛି…",
+  "qiblaTowardMecca": "ମକ୍କା ଦିଗକୁ",
   "prayerTimesTitle": "ନମାଜ ସମୟ",
-  "prayerTimesFajr": "ଫଜର",
-  "prayerTimesDhuhr": "ଧୁଠର",
-  "prayerTimesAsr": "ଆସର",
-  "prayerTimesMaghrib": "ମଘରିବ",
-  "prayerTimesIsha": "ଈଶା",
-  "prayerTimesLocationNeededTitle": "ସ୍ଥିତି ଆବଶ୍ୟକ",
-  "prayerTimesLocationNeededBody": "Ayara ଆପଣଙ୍କ ସହର ନମାଜ ସମୟ ଧାରଣ ସ୍ଥିତି ଆପଲୁ।",
+  "prayerTimesFajr": "ଫଜର୍",
+  "prayerTimesDhuhr": "ଝୁହର୍",
+  "prayerTimesAsr": "ଆସର୍",
+  "prayerTimesMaghrib": "ମଗରିବ୍",
+  "prayerTimesIsha": "ଇଶା",
+  "prayerTimesLocationNeededTitle": "ଅବସ୍ଥାନ ଆବଶ୍ୟକ",
+  "prayerTimesLocationNeededBody": "ଆପଣଙ୍କ ସହର ପାଇଁ ନିଖୁଟ ନମାଜ ସମୟ ଗଣନା କରିବାକୁ Ayara କୁ ଅବସ୍ଥାନ ଅନୁମତି ଦିଅନ୍ତୁ।",
   "prayerTimesNextLabel": "ପରବର୍ତ୍ତୀ",
-  "prayerTimesDoneLabel": "ଶେଷ",
-
+  "prayerTimesDoneLabel": "ସମାପ୍ତ",
   "monthlyPrayerTimesTitle": "ମାସିକ ନମାଜ ସମୟ",
   "monthlyPrayerTimesViewButton": "ସମ୍ପୂର୍ଣ୍ଣ ମାସ ଦେଖନ୍ତୁ",
   "monthlyPrayerTimesNextMonth": "ପରବର୍ତ୍ତୀ ମାସ",
   "monthlyPrayerTimesDayHeader": "ଦିନ",
-
-  "sharePrayerTimes": "ନମାଜ ସମୟ ଅଂଶୀଦାର",
-
-  "prayerNotificationsTitle": "ନମାଜ ଚେତାବନୀ",
-  "prayerNotificationsDescription": "ପ୍ରତି ନମାଜ ସମୟ ପୂର୍ବେ ଏକ ଶାନ୍ତ ଚେତାବନୀ ଦିନ ଜୁଡ଼া ସଂଯୋଗୀତ ରଖନ୍ତୁ।",
-  "prayerNotificationsEnable": "ନମାଜ ଚେତାବନୀ ସକ୍ରିୟ",
-  "prayerNotificationsOpenSettings": "ଚେତାବନୀ ସେଟିଂସ ଖୋଲନ୍ତୁ",
-  "prayerNotificationsDenied": "ଚେତାବନୀ ଅକ୍ଷମ",
-  "prayerNotificationsDeniedHint": "ସେଟିଂସ ଯାଚନ୍ତୁ ଓ Ayara ଚେତାବନୀ ଅନୁମତି ନମାଜ ଚେତାବନୀ ପାଆନ୍ତୁ।",
-
-  "notificationsConsentLabel": "ନମାଜ ସମୟ ଚେତାବନୀ ଅନୁମତି",
-
-  "prayerNotifTitleFajr": "🌅 ଫଜର — ଭୋର ନମାଜ",
-  "prayerNotifBodyFajr": "ସର୍ବୋତ୍ତମ ନମାଜ ଭୋର ନମାଜ। ଉଠନ୍ତୁ, ପବିତ୍ର, ଓ ଅଲ୍ଲାହ ଆଡ଼।",
-
-  "prayerNotifTitleDhuhr": "☀️ ଧୁଠର — ମଧ୍ୟାହୃ ନମାଜ",
-  "prayerNotifBodyDhuhr": "ଆପଣଙ୍କ ଦିନ ରେକ ଓ ଅଲ୍ଲାହ ଫେରନ୍ତୁ। ଧୁଠର ସମୟ।",
-
-  "prayerNotifTitleAsr": "🌤️ ଆସର — ବିକାଲ ନମାଜ",
-  "prayerNotifBodyAsr": "ମଧ୍ୟ ନମାଜ ରକ୍ଷା। ଆସର ସମୟ — ଏହା ଛାଡ଼ନ୍ତୁ ନ।",
-
-  "prayerNotifTitleMaghrib": "🌇 ମଘରିବ — ସୂର୍ୟାସ୍ତ ନମାଜ",
-  "prayerNotifBodyMaghrib": "ସୂର୍ୟ ଅସ୍ତ। ମଘରିବ ଓ ଅଲ୍ଲାହକୁ ଦନ୍ୟବାଦ।",
-
-  "prayerNotifTitleIsha": "🌙 ଈଶା — ରାତି ନମାଜ",
-  "prayerNotifBodyIsha": "ଆପଣଙ୍କ ଦିନ ଅଲ୍ଲାହ ସ୍ମରଣରେ। ହାୟା 'ଆଲାଲ ଫାଲାହ — ସଫଳତାୟ।",
-
-  "outOfReflectionsBannerText": "ଆପଣ ସବୁ ଚିନ୍ତନ ବ୍ୟବହାର",
-  "outOfReflectionsBannerCta": "ଅଧିକ ଖଣ୍ଡ",
-
-  "dhikrPageTitle": "ଧିକ୍ର",
-  "dhikrTapToCount": "ଚିତ୍ର ଟ୍ୟାପ ଗିଣନ୍ତୁ",
-  "dhikrResetButton": "ପୁନଃସେଟ",
-  "dhikrComplete": "ମାଶାଆଲ୍ଲାହ",
-  "dhikrCompleteMessage": "ଆପଣ ଅଲ୍ଲାହ ୯୯ ସ୍ମରଣ ସମ୍ପୂର୍ଣ୍ଣ। ସେଇ ଆପଣଙ୍କ ହୃଦୟ ଆଲୋକ।",
-
-  "disclaimerTitle": "ଏଇ ଆପ ନିର୍ଦେଶନା ବିଷୟରେ",
-  "disclaimerBody": "Ayara ଇସ୍ଲାମିକ ଚିନ୍ତନ, ଚେତାବନୀ, ଓ ଆଧ୍ୟାତ୍ମିକ ବିଷୟବସ୍ତୁ ଆପଣଙ୍କ ବିଶ୍ୱାସ ଯାତ୍ରା ସମର୍ଥନ। ଏଟା ସାଧାରଣ ସୂଚନା ଓ ଅନୁପ୍ରେରଣା।\n\nAyara ଯୋଗ୍ୟ ଶିକ୍ଷା ବଦଳ ନ।\nଏଇ ଆପ ଗୃହେଶଠ ବ୍ୟବହାରୀ ଭୃତ୍ୟ ଇମାମ, ମୁଫତି, ବା ଧାର୍ମିକ ଶିକ୍ଷକ ନ। ଧାର୍ମିକ ନିୟମ, ଘାଲାଲ ଏବଂ ହାରାম, ବା ଆপଣଙ୍କ ଦୃଷ୍ଟିକୋଣ ବିଷୟରେ ପ୍ରଶ୍ନ, ଦୟାକରିଙ୍କ ଧାର୍ମିକ ବ୍ୟକ୍ତିତ୍ୱ ଆବେଦନ।\n\nଏଇ ଆପ ଧାର୍ମିକ ନିୟମ ନାରି।\nAyara ଫିକ୍ଷ (ଇସ୍ଲାମିକ ଆইନ) ବା ଆପଣଙ୍କ ଧାର୍ମିକ ବାଧ୍ୟବାଦ ଆଦ୍ୟିକ ବିଭାଜନ ନ। ଅଂଶ ଫତ୍ୱା ବା ବନ୍ଦିକୃତ ଧାର୍ମିକ ନିର୍ଦେଶନା ବିବେଚନା।\n\nଦୃଷ୍ଟିକୋଣ ଭିନ୍ନ।\nଇସ୍ଲାମ ଐତିହ୍ୟ, ଚିନ୍ତାକୁ ବିଦ୍ୟାଳୟ (ମଦ୍ଧ), ଓ ବିଦ୍ୱାନ ଦୃଷ୍ଟିକୋଣ ଅଳଙ୍ଘନୀ। ଏଇ ଆପ ବିଷୟବସ୍ତୁ ସାଧାରଣ ଦୃଷ୍ଟିକୋଣ ଅଧିସ୍ତ ଓ ସବୁ ଐତିହ୍ୟ ସମାନ ପ୍ରତିନିଧୃତ୍ୱ ଭୁଇ।\n\nସମ୍ମୁଦାୟ ଅଂଶ।\nଏଇ ଆପ ଆପଣଙ୍କ ଚିନ୍ତାକୁ ବିକାଶ ଓ ଜ୍ଞାନ ସିଖକୁ ଗଭୀର ସମ୍ମାନ ସଂଲଗ୍ନ ଜୀବନ୍ତ ଭୂମିକା। ଅନୁଗ୍ରହ ଶ୍ରୀଯୁକ୍ତ ଓ ଶିଖନ୍ତୁ ଯୋଗ୍ୟ ଶିକ୍ଷକ ନଜଦୀକ।",
-  "disclaimerClose": "ମୁଁ ବୁଝିଲେ",
-  "disclaimerInfoTooltip": "ଏଇ ଆପ ନିର୍ଦେଶନା ବିଷୟରେ",
-  "disclaimerSettingsSubtitle": "ସାଧାରଣ ସୂଚନା। ଟ୍ୟାପ ସମ୍ପୂର୍ଣ୍ଣ ଅସ୍ୱୀକାର।",
-  "disclaimerSectionHeader": "ନିର୍ଦେଶନା ଅସ୍ୱୀକାର"
+  "sharePrayerTimes": "ନମାଜ ସମୟ ସେୟାର କରନ୍ତୁ",
+  "notificationsSectionTitle": "ନୋଟିଫିକେସନ୍‌ଗୁଡ଼ିକ",
+  "notificationsSectionSubtitle": "ନମାଜ ସ୍ମରଣିକା, କ୍ୟାଲେଣ୍ଡର ଇଭେଣ୍ଟ୍ ଓ ଅନ୍ୟାନ୍ୟ",
+  "dailyReflectionReminderTitle": "ଦୈନିକ ଚିନ୍ତନ",
+  "dailyReflectionReminderDescription": "Ayara ଖୋଲିବା ଏବଂ ଆପଣଙ୍କ ଇମାନ ସହ ଯୋଡ଼ିତ ରହିବା ପାଇଁ ଏକ ସ୍ନିଗ୍ଧ ଦୈନିକ ସ୍ମରଣିକା।",
+  "dailyReflectionReminderEnable": "ଦୈନିକ ସ୍ମରଣିକା ସକ୍ରିୟ କରନ୍ତୁ",
+  "dailyReflectionReminderTimeLabel": "ସ୍ମରଣିକା ସମୟ",
+  "prayerNotificationsTitle": "ନମାଜ ସ୍ମରଣିକା",
+  "prayerNotificationsDescription": "ଦିନଭରି ଯୋଡ଼ାଯାଇ ରହିବା ପାଇଁ ପ୍ରତ୍ୟେକ ନମାଜ ସମୟ ପୂର୍ବରୁ ଏକ ସ୍ନିଗ୍ଧ ସ୍ମରଣିକା ପାଆନ୍ତୁ।",
+  "prayerNotificationsEnable": "ନମାଜ ସ୍ମରଣିକା ସକ୍ରିୟ କରନ୍ତୁ",
+  "prayerNotificationsOpenSettings": "ନୋଟିଫିକେସନ୍ ସେଟିଂସ୍ ଖୋଲନ୍ତୁ",
+  "prayerNotificationsDenied": "ନୋଟିଫିକେସନ୍‌ଗୁଡ଼ିକ ବନ୍ଦ ଅଛି",
+  "prayerNotificationsDeniedHint": "ନମାଜ ସମୟ ସ୍ମରଣିକା ପାଇବା ପାଇଁ ସେଟିଂସ୍‌କୁ ଯାଇ Ayara ପାଇଁ ନୋଟିଫିକେସନ୍‌କୁ ଅନୁମତି ଦିଅନ୍ତୁ।",
+  "notificationsConsentLabel": "ନମାଜ ସମୟ ପାଇଁ ନୋଟିଫିକେସନ୍‌କୁ ଅନୁମତି ଦିଅନ୍ତୁ",
+  "prayerNotifTitleFajr": "🌅 ଫଜର୍ — ପ୍ରଭାତ ନମାଜ",
+  "prayerNotifBodyFajr": "ଫଜର୍ ହେଉଛି Ahl al-Bayt ଙ୍କ ସକାଳର ନମାଜ। ଇମାମ ଅଲି (AS) କହିଥିଲେ: ଯେପରି ଆପଣ ନିଜର ସବୁଠାରୁ ମୂଲ୍ୟବାନ ଆମାନତକୁ ରକ୍ଷା କରନ୍ତି, ସେପରି ପ୍ରଭାତର ନମାଜକୁ ରକ୍ଷା କରନ୍ତୁ। ଉଠନ୍ତୁ, ନିଜକୁ ପବିତ୍ର କରନ୍ତୁ ଏବଂ ଅଲ୍ଲାହଙ୍କ ସମ୍ମୁଖରେ ଦଣ୍ଡାୟମାନ ହୁଅନ୍ତୁ।",
+  "prayerNotifTitleDhuhr": "☀️ ଝୁହର୍ — ମଧ୍ୟାହ୍ନ ନମାଜ",
+  "prayerNotifBodyDhuhr": "Ahl al-Bayt ଙ୍କ ଇମାମମାନେ ସ୍ମରଣର ପ୍ରତ୍ୟେକ ମୁହୂର୍ତ୍ତକୁ ମୂଲ୍ୟ ଦେଇଥିଲେ। ଆପଣଙ୍କର ଦିନକୁ କିଛିକ୍ଷଣ ଥାମନ୍ତୁ, ଆବଶ୍ୟକ ହେଲେ ଝୁହର୍ ସହ ଆସର୍‌କୁ ଏକତ୍ର କରନ୍ତୁ, ଏବଂ ଆପଣଙ୍କର ହୃଦୟକୁ ପୁଣି ଅଲ୍ଲାହଙ୍କ ଦିଗକୁ ଫେରାନ୍ତୁ।",
+  "prayerNotifTitleAsr": "🌤️ ଆସର୍ — ଅପରାହ୍ନ ନମାଜ",
+  "prayerNotifBodyAsr": "ନମାଜକୁ ସୁରକ୍ଷା କରନ୍ତୁ, କାରଣ ଏହା ଆପଣ ଓ ଅଲ୍ଲାହଙ୍କ ମଧ୍ୟରେ ଥିବା ଚୁକ୍ତି। ଆସର୍‌ର ସମୟ ଆସିଗଲା — ସ୍ମରଣ ବିନା ଏହାକୁ ଅତିକ୍ରମ କରିବାକୁ ଦିଅନ୍ତୁ ନାହିଁ।",
+  "prayerNotifTitleMaghrib": "🌇 ମଗରିବ୍ — ସୂର୍ଯ୍ୟାସ୍ତ ନମାଜ",
+  "prayerNotifBodyMaghrib": "ସୂର୍ଯ୍ୟ ଅସ୍ତ ହୋଇଗଲା — ଏହା ଏକ ଏମିତି ମୁହୂର୍ତ୍ତ ଯାହାକୁ Ahl al-Bayt ଦୁଆ ପାଇଁ ପବିତ୍ର ଭାବରେ ଧରିଥିଲେ। ମଗରିବ୍ ଆଦାୟ କରନ୍ତୁ ଓ ରାତି ଆରମ୍ଭ ହେବା ପୂର୍ବରୁ ଅଲ୍ଲାହଙ୍କ ନିକଟରେ ଦୁଆ ପାଇଁ ଆପଣଙ୍କର ହାତ ଉଠାନ୍ତୁ।",
+  "prayerNotifTitleIsha": "🌙 ଇଶା — ରାତ୍ରି ନମାଜ",
+  "prayerNotifBodyIsha": "ଆପଣଙ୍କର ଦିନକୁ ଅଲ୍ଲାହଙ୍କ ସଙ୍ଗରେ ସମାପ୍ତ କରନ୍ତୁ। ଇମାମମାନେ ଇଶା ପରେ Salat al-Layl କୁ ଉତ୍ସାହିତ କରିଥିଲେ — କିନ୍ତୁ ପ୍ରଥମେ, ଆପଣଙ୍କର ଇଶା ସମ୍ପୂର୍ଣ୍ଣ କରନ୍ତୁ ଓ ଦିନକୁ ତାଙ୍କ ସ୍ମରଣରେ ବନ୍ଦ କରନ୍ତୁ।",
+  "outOfReflectionsBannerText": "ଆପଣ ଆପଣଙ୍କର ସମସ୍ତ ଚିନ୍ତନ ବ୍ୟବହାର କରିସାରିଛନ୍ତି",
+  "outOfReflectionsBannerCta": "ଅଧିକ ପାଆନ୍ତୁ",
+  "dhikrPageTitle": "ଜିକ୍ର",
+  "dhikrTapToCount": "ଗଣନା କରିବାକୁ ବୃତ୍ତକୁ ଟ୍ୟାପ୍ କରନ୍ତୁ",
+  "dhikrResetButton": "ରିସେଟ୍",
+  "dhikrComplete": "ମାଶାଅଲ୍ଲାହ",
+  "dhikrCompleteMessage": "ଆପଣ ଅଲ୍ଲାହଙ୍କ 100 ଥର ସ୍ମରଣ ସମ୍ପୂର୍ଣ୍ଣ କରିଛନ୍ତି। ଏହା ଆପଣଙ୍କର ହୃଦୟ ପାଇଁ ଆଲୋକ ହେଉ।",
+  "disclaimerTitle": "ଏହି ଆପ୍‌ର ମାର୍ଗଦର୍ଶନ ବିଷୟରେ",
+  "disclaimerBody": "Ayara କୁରଆନ ଓ Ahl al-Bayt ଙ୍କ ଶିକ୍ଷା ଉପରେ ଆଧାରିତ ଇସଲାମିକ ଚିନ୍ତନ, ସ୍ମରଣିକା ଓ ଆଧ୍ୟାତ୍ମିକ ବିଷୟବସ୍ତୁ ପ୍ରଦାନ କରେ, ଯାହା ଆପଣଙ୍କର ବ୍ୟକ୍ତିଗତ ଇମାନର ଯାତ୍ରାକୁ ସମର୍ଥନ କରେ। ଏହି ବିଷୟବସ୍ତୁ କେବଳ ସାଧାରଣ ସୂଚନା ଓ ପ୍ରେରଣାଦାୟକ ଉଦ୍ଦେଶ୍ୟ ପାଇଁ ଦିଆଯାଇଛି।\n\nAyara ଯୋଗ୍ୟ ଆଲିମମାନଙ୍କ ପରିବର୍ତ୍ତ ନୁହେଁ।\nଏହି ଆପ୍‌ରେ ଥିବା ମାର୍ଗଦର୍ଶନ, ଜ୍ଞାନୀ ଇସଲାମିକ ଆଲିମ, ମର୍ଜା', କିମ୍ବା ଧର୍ମତତ୍ତ୍ୱରେ ପ୍ରଶିକ୍ଷିତ ଶିକ୍ଷକଙ୍କ ପରିବର୍ତ୍ତ ନୁହେଁ। ଶିଆ ଇସଲାମରେ ଧାର୍ମିକ ମାର୍ଗଦର୍ଶନ ଜାଫାରି ଫିକ୍‌ହ ଓ ଜୀବିତ ମର୍ଜା'ଙ୍କ ଅନୁସରଣର ପରମ୍ପରାରେ ଭିତ୍ତିକୃତ — ଯେଉଁଠାରେ ଜଣେ ଯୋଗ୍ୟ ଫକିହ୍‌ଙ୍କ ନିଷ୍ପତ୍ତି ଧାର୍ମିକ ଅଭ୍ୟାସରେ ବିଶ୍ୱାସୀମାନଙ୍କୁ ମାର୍ଗଦର୍ଶନ କରେ। ଯଦି ଆପଣଙ୍କର ଧାର୍ମିକ ନିୟମ, ହାଲାଲ-ହରାମ୍ କିମ୍ବା ବ୍ୟକ୍ତିଗତ ଧାର୍ମିକ ଦାୟିତ୍ୱ ବିଷୟରେ ପ୍ରଶ୍ନ ଅଛି, ଦୟାକରି ଯୋଗ୍ୟ ମର୍ଜା' କିମ୍ବା ଆପଣଙ୍କର ସମୁଦାୟର ଆଲିମଙ୍କୁ ପଚାରନ୍ତୁ।\n\nଏହି ଆପ୍ ଧାର୍ମିକ ଫତୱା ଜାରି କରେ ନାହିଁ।\nAyara ଫିକ୍‌ହ କିମ୍ବା ବ୍ୟକ୍ତିଗତ ଧାର୍ମିକ ଦାୟିତ୍ୱ ସମ୍ବନ୍ଧୀୟ ମାମଲାରେ ଅଧିକୃତ ନିଷ୍ପତ୍ତି ନିଏ ନାହିଁ। ଏଠାରେ କିଛିବି ଫତୱା କିମ୍ବା ବାଧ୍ୟତାମୂଳକ ଧାର୍ମିକ ନିର୍ଦ୍ଦେଶ ଭାବେ ଗ୍ରହଣ କରାଯିବା ଉଚିତ୍ ନୁହେଁ।\n\nAhl al-Bayt ଙ୍କ କେନ୍ଦ୍ରୀୟତା।\nଶିଆ ଇସଲାମରେ, ପୟଗମ୍ବର ମୁହମ୍ମଦ ﷺ ଓ ତାଙ୍କର ପବିତ୍ର ପରିବାର — Ahl al-Bayt — କୁରଆନ ପରେ ଇସଲାମିକ ସମୁଦାୟର ଅଧିକୃତ ମାର୍ଗଦର୍ଶକ। Ahl al-Bayt ଙ୍କ ବାରୋଜଣ ଇମାମ ଇସଲାମିକ ଶିକ୍ଷାର ଦୈବୀଭାବେ ନିଯୁକ୍ତ ବ୍ୟାଖ୍ୟାକାର। ଏହି ଆପ୍‌ର ବିଷୟବସ୍ତୁ ଏହି ପରମ୍ପରାକୁ ସମ୍ମାନପୂର୍ବକ ଓ ନିଷ୍ଠାର ସହିତ ପ୍ରତିଫଳିତ କରିବାକୁ ଚେଷ୍ଟା କରେ।\n\nସମୁଦାୟର ଗୁରୁତ୍ୱ।\nଏହି ଆପ୍‌ର ଉଦ୍ଦେଶ୍ୟ ହେଉଛି ଆପଣଙ୍କୁ ଇମାନ ସହିତ ଆହୁରି ଯୋଡ଼ିତ କରିବା, ସହିତେ ଆପଣଙ୍କର ସ୍ଥାନୀୟ ମସଜିଦ୍, ଇସଲାମିକ କେନ୍ଦ୍ର ଓ ଧାର୍ମିକ ସମୁଦାୟର ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଭୂମିକାକୁ ଗଭୀର ସମ୍ମାନ କରିବା। ଆମେ ଆପଣଙ୍କୁ ନିକଟସ୍ଥ ଯୋଗ୍ୟ ଶିକ୍ଷକମାନଙ୍କ ସହ ଯୋଡ଼ିତ ରହିବା ଏବଂ ସେମାନଙ୍କଠାରୁ ଶିଖିବାକୁ ଉତ୍ସାହିତ କରୁଛୁ।",
+  "disclaimerClose": "ମୁଁ ବୁଝିଲି",
+  "disclaimerInfoTooltip": "ଏହି ଆପ୍‌ର ମାର୍ଗଦର୍ଶନ ବିଷୟରେ",
+  "disclaimerSettingsSubtitle": "କେବଳ ସାଧାରଣ ସୂଚନାର ଉଦ୍ଦେଶ୍ୟରେ। ପୂର୍ଣ୍ଣ disclaimer ପଢିବାକୁ ଟ୍ୟାପ୍ କରନ୍ତୁ।",
+  "disclaimerSectionHeader": "ମାର୍ଗଦର୍ଶନ disclaimer",
+  "navHome": "ମୁଖ୍ୟପୃଷ୍ଠା",
+  "navReflect": "ଚିନ୍ତନ",
+  "navDuas": "ଦୁଆ",
+  "navCalendar": "କ୍ୟାଲେଣ୍ଡର",
+  "dashboardToday": "ଆଜି",
+  "dashboardComingUp": "ଆଗକୁ ଆସୁଛି",
+  "dashboardDaysUnit": "{count, plural, one {ଦିନ} other {ଦିନ}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "ତୁରନ୍ତ ପ୍ରବେଶ",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "ଜିକ୍ର",
+  "quickActionDailyGrace": "ମାର୍ଗଦର୍ଶନ",
+  "quickActionPrayerTimes": "ନମାଜ ସମୟ",
+  "askAyaraTitle": "Ayara କୁ ପଚାରନ୍ତୁ",
+  "askAyaraSubtitle": "ଯେକୌଣସି ଇସଲାମିକ ପ୍ରଶ୍ନ ପଚାରନ୍ତୁ ଓ ଏକ ଚିନ୍ତାଶୀଳ, ମାର୍ଗଦର୍ଶିତ ଉତ୍ତର ପାଆନ୍ତୁ।",
+  "askAyaraHint": "ଉଦା. ରମଜାନର ଗୁରୁତ୍ୱ କ’ଣ?",
+  "askAyaraSubmit": "ପଚାରନ୍ତୁ",
+  "wisdomOfTheDayTitle": "ଆଜିର ଜ୍ଞାନ",
+  "calendarScreenTitle": "ଇସଲାମିକ କ୍ୟାଲେଣ୍ଡର",
+  "calendarUpcomingOccasions": "ଆଗାମୀ ଅବସରଗୁଡ଼ିକ",
+  "calendarOccasionRemindersTitle": "ଅବସର ସ୍ମରଣିକା",
+  "calendarOccasionRemindersHint": "ପ୍ରତ୍ୟେକ ଅବସରର ପୂର୍ବଦିନ ସନ୍ଧ୍ୟାରେ ସୂଚନା ଦିଆଯିବ",
+  "calendarNotifPermissionDenied": "ନୋଟିଫିକେସନ୍ ଅନୁମତି ଅସ୍ୱୀକୃତ। ଏହାକୁ ଆପଣଙ୍କର ଡିଭାଇସ ସେଟିଂସ୍‌ରେ ସକ୍ରିୟ କରନ୍ତୁ।",
+  "calendarNoEvents": "କୌଣସି ଆଗାମୀ ଇଭେଣ୍ଟ୍ ମିଳିଲା ନାହିଁ।",
+  "calendarAddToPhone": "ଫୋନ୍ କ୍ୟାଲେଣ୍ଡରକୁ ଯୋଡନ୍ତୁ",
+  "calendarAddedToPhone": "କ୍ୟାଲେଣ୍ଡରକୁ ଯୋଡାଗଲା",
+  "calendarCountdownToday": "ଆଜି",
+  "calendarCountdownTomorrow": "ଆସନ୍ତାକାଲି",
+  "calendarCountdownDays": "{days} ଦିନ ପରେ",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "ଜାନୁ",
+  "calendarMonthFeb": "ଫେବ୍ରୁ",
+  "calendarMonthMar": "ମାର୍ଚ୍ଚ",
+  "calendarMonthApr": "ଅପ୍ରେଲ୍",
+  "calendarMonthMay": "ମେ",
+  "calendarMonthJun": "ଜୁନ୍",
+  "calendarMonthJul": "ଜୁଲାଇ",
+  "calendarMonthAug": "ଅଗଷ୍ଟ",
+  "calendarMonthSep": "ସେପ୍ଟେ",
+  "calendarMonthOct": "ଅକ୍ଟୋ",
+  "calendarMonthNov": "ନଭେ",
+  "calendarMonthDec": "ଡିସେ",
+  "calendarSeasonMuharramEarly": "ମୁହର୍ରମର ଦିନଗୁଡ଼ିକ — କର୍ବଲାକୁ ସ୍ମରଣ କରନ୍ତୁ",
+  "calendarSeasonAshura": "ଆଶୁରା — ୟା ହୁସାଇନ୍ (AS)",
+  "calendarSeasonMuharramLate": "ମୁହର୍ରମ — ଶୋକ ଓ ଚିନ୍ତନର ଦିନଗୁଡ଼ିକ",
+  "calendarSeasonArbaeen": "ଆରବାଇନ୍ — ହୁସାଇନଙ୍କ ଚାଳିଶି ଦିନ",
+  "calendarSeasonRoadToArbaeen": "ଆରବାଇନ୍‌ର ପଥ",
+  "calendarSeasonMabath": "ମାବଅଥ୍ ମୁବାରକ — ଓହୀର ପ୍ରଭାତ",
+  "calendarSeasonMidShaban": "ମଧ୍ୟ ଶାବାନ — ଇମାମ ଅଲ୍-ମାହଦି (AJ) ଙ୍କ ଜନ୍ମଦିନ",
+  "calendarSeasonRamadan": "ରମଜାନ୍ ମୁବାରକ — କୁରଆନର ମାସ",
+  "calendarSeasonGhadir": "ଇଦ୍ ଅଲ୍-ଘାଦିର୍ ମୁବାରକ!",
+  "hijriMonth1": "ମୁହର୍ରମ",
+  "hijriMonth2": "ସଫର୍",
+  "hijriMonth3": "ରବିଉଲ୍-ଆଉୱାଲ୍",
+  "hijriMonth4": "ରବିଉଲ୍-ଥାନି",
+  "hijriMonth5": "ଜୁମାଦା ଅଲ୍-ଆଉୱାଲ୍",
+  "hijriMonth6": "ଜୁମାଦା ଅଲ୍-ଥାନି",
+  "hijriMonth7": "ରଜବ୍",
+  "hijriMonth8": "ଶାବାନ୍",
+  "hijriMonth9": "ରମଜାନ୍",
+  "hijriMonth10": "ଶାୱ୍ୱାଲ୍",
+  "hijriMonth11": "ଜିଲ୍କାଦ୍",
+  "hijriMonth12": "ଜିଲ୍ହଜ୍ଜ",
+  "duasScreenTitle": "ଦୁଆ ଓ ଜିୟାରତ୍",
+  "duasSearchHint": "ଦୁଆ, ଜିୟାରତ୍ ସନ୍ଧାନ କରନ୍ତୁ…",
+  "duasFilterAll": "ସମସ୍ତ",
+  "duasCount": "{count, plural, one {{count} ଦୁଆ} other {{count} ଦୁଆ ଓ ଜିୟାରତ୍}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "କୌଣସି ଦୁଆ ମିଳିଲା ନାହିଁ।",
+  "duaCategoryDaily": "ଦୈନିକ",
+  "duaCategoryWeekly": "ସାପ୍ତାହିକ",
+  "duaCategoryOccasions": "ଅବସରଗୁଡ଼ିକ",
+  "duaCategoryZiyarat": "ଜିୟାରତ୍",
+  "duaCategoryTasbih": "ତସବିହ୍",
+  "eventTypeBirth": "ଜନ୍ମ",
+  "eventTypeMartyrdom": "ଶହାଦତ",
+  "eventTypeOccasion": "ଅବସର",
+  "duaCopyTooltip": "ଅନୁବାଦ କପି କରନ୍ତୁ",
+  "duaToggleTransliteration": "ଟ୍ରାନ୍ସଲିଟରେସନ୍",
+  "duaToggleTranslation": "ଅନୁବାଦ",
+  "duaAskAiLabel": "ଏହି ଦୁଆକୁ ବୁଝେଇବା ପାଇଁ Ayara କୁ ପଚାରନ୍ତୁ",
+  "duaAskAiLockedLabel": "Ayara କୁ ପଚାରନ୍ତୁ (Wilaya)",
+  "duaAiLockedMessage": "Ayara ବ୍ୟାଖ୍ୟାଗୁଡ଼ିକ କେବଳ Wilaya ସଦସ୍ୟମାନଙ୍କ ପାଇଁ ଉପଲବ୍ଧ। ସେଟିଂସ୍‌ରେ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ।",
+  "duaAiComingSoon": "\"{name}\" ବିଷୟରେ Ayara କୁ ପଚାରନ୍ତୁ — ଶୀଘ୍ର ଆସୁଛି!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "ଦୁଆ କ୍ଲିପବୋର୍ଡକୁ କପି ହେଲା।",
+  "tasbihAllahuAkbarMeaning": "ଅଲ୍ଲାହ ସର୍ବଶ୍ରେଷ୍ଠ",
+  "tasbihAlhamdulillahMeaning": "ସମସ୍ତ ପ୍ରଶଂସା ଅଲ୍ଲାହଙ୍କ ପାଇଁ",
+  "tasbihSubhanallahMeaning": "ଅଲ୍ଲାହ ପବିତ୍ର",
+  "tasbihResetTooltip": "ରିସେଟ୍",
+  "tasbihCompleteTitle": "ତସବିହ୍ ସମ୍ପୂର୍ଣ୍ଣ",
+  "tasbihCompleteMessage": "ଅଲ୍ଲାହ ଆପଣଙ୍କର ଜିକ୍ରକୁ ସ୍ୱୀକାର କରୁନ୍।",
+  "tasbihTapHint": "ଗଣନା କରିବାକୁ ଯେକୌଣସି ସ୍ଥାନରେ ଟ୍ୟାପ୍ କରନ୍ତୁ",
+  "tasbihatScreenTitle": "ନମାଜ ଗାଇଡ୍",
+  "tasbihatScreenSubtitle": "ନମାଜର ତସବିହ୍‌ଗୁଡ଼ିକ",
+  "tasbihatScreenDescription": "ଦୈନିକ ନମାଜ ସମୟରେ ଓ ପରେ ପଢ଼ାଯାଉଥିବା ତସବିହ୍‌ଗୁଡ଼ିକର ଗୋଟିଏ ସମ୍ପୂର୍ଣ୍ଣ ଗାଇଡ୍ — Ahl al-Bayt (a) ଙ୍କ ପରମ୍ପରା ଅନୁସାରେ।",
+  "tasbihatArba3Title": "ତସବିହାତ୍ ଅଲ୍-ଅର୍ବାଆ",
+  "tasbihatArba3Subtitle": "ତୃତୀୟ ଓ ଚତୁର୍ଥ ରକଆତ୍‌ରେ ପଢାଯାଏ",
+  "tasbihatArba3Info": "ଶିଆ ଫିକ୍‌ହ ଅନୁସାରେ, ଝୁହର୍, ଆସର୍, ମଗରିବ୍ ଓ ଇଶାର ତୃତୀୟ ଓ ଚତୁର୍ଥ ରକଆତ୍‌ରେ Tasbihat al-Arbaʿa, ସୁରାହ୍ ଅଲ୍-ଫାତିହାର ସ୍ଥାନ ନେଇଥାଏ। ଏହାକୁ ଗୋଟେଥର ପଢ଼ିବା ୱାଜିବ୍, ଏବଂ ତିନିଥର ପଢ଼ିବା ମୁସ୍ତାହାବ୍।",
+  "tasbihatArba3Translation": "ଅଲ୍ଲାହ ପବିତ୍ର · ସମସ୍ତ ପ୍ରଶଂସା ଅଲ୍ଲାହଙ୍କ ପାଇଁ\nଅଲ୍ଲାହ ଛଡ଼ା କୌଣସି ଉପାସ୍ୟ ନାହିଁ · ଅଲ୍ଲାହ ସର୍ବଶ୍ରେଷ୍ଠ",
+  "tasbihatArba3CompleteTitle": "ପାଠ ସମ୍ପୂର୍ଣ୍ଣ",
+  "tasbihatArba3CompleteMessage": "ଆପଣଙ୍କର ନମାଜ କବୁଲ୍ ହେଉ — ଆମୀନ୍",
+  "tasbihatArba3TapHint": "ପ୍ରତ୍ୟେକ ପାଠ ପରେ ଟ୍ୟାପ୍ କରନ୍ତୁ",
+  "tasbihatZahraSubtitle": "ପ୍ରତ୍ୟେକ ନମାଜ ପରେ · 100 ଦାନା",
+  "tasbihatZahraOriginLabel": "ଉତ୍ପତ୍ତି",
+  "tasbihatZahraHadith": "ବିବି ଫାତିମା ଅଲ୍-ଜାହ୍ରା (sa) ପୟଗମ୍ବର ﷺ ଙ୍କୁ ଜଣେ ସେବକ ପାଇଁ ଅନୁରୋଧ କରିଥିଲେ। ସେ କହିଥିଲେ: \"ମୁଁ କଣ ତୁମକୁ ତାହାଠୁ ଭଲ କିଛି କହିବି ନାହିଁ? ପ୍ରତ୍ୟେକ ନମାଜ ପରେ 33 ଥର ସୁଭାନଲ୍ଲାହ୍, 33 ଥର ଅଲହାମ୍ଦୁଲିଲ୍ଲାହ୍ ଓ 34 ଥର ଅଲ୍ଲାହୁ ଅକବର୍ ପଢ଼। ଏହା ତୁମ ପାଇଁ ଜଣେ ସେବକଠାରୁ ଭଲ।\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Vol. 85",
+  "tasbihatZahraOpenCounter": "ତସବିହ୍ କାଉଣ୍ଟର୍ ଖୋଲନ୍ତୁ",
+  "tasbihatDuasTitle": "ସୁପାରିଶିତ ଦୁଆଗୁଡ଼ିକ",
+  "tasbihatDuasSubtitle": "ଆପଣଙ୍କର ନମାଜ ସମ୍ପୂର୍ଣ୍ଣ କରିବା ପରେ",
+  "tasbihatDuaAyatKursiTitle": "ଆୟାତୁଲ୍ କୁର୍ସୀ",
+  "tasbihatDuaAyatKursiWhen": "ପ୍ରତ୍ୟେକ ଫର୍ଜ ନମାଜ ପରେ",
+  "tasbihatDuaAyatKursiSource": "ସୁରାହ୍ ଅଲ୍-ବାକାରା 2:255",
+  "tasbihatDuaAyatKursiNote": "ଯେଉଁ ବ୍ୟକ୍ତି ପ୍ରତ୍ୟେକ ଫର୍ଜ ନମାଜ ପରେ ଆୟାତୁଲ୍ କୁର୍ସୀ ପଢ଼େ, ତାଙ୍କ ଓ ଜନ୍ନତ୍‌ର ମଧ୍ୟରେ କେବଳ ମୃତ୍ୟୁ ଛଡ଼ା ଆଉ କିଛି ବାକି ରହେନାହିଁ। ଇମାମ ଅଲ୍-ବାକିର୍ (a) କହିଥିଲେ, ଏହା କୁରଆନର ସବୁଠାରୁ ମହାନ ଆୟାତମାନଙ୍କ ମଧ୍ୟରୁ ଗୋଟିଏ।",
+  "tasbihatDuaSalawatTitle": "ସଲାୱାତ୍",
+  "tasbihatDuaSalawatWhen": "ପ୍ରତ୍ୟେକ ନମାଜ ପରେ · ସମସ୍ତ ଦୁଆକୁ ସମ୍ପୂର୍ଣ୍ଣ କରେ",
+  "tasbihatDuaSalawatSource": "ଇମାମ ଅଲ୍-ସାଦିକ୍ (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "ପୟଗମ୍ବର ﷺ ଓ ତାଙ୍କର ପବିତ୍ର ପରିବାର (Āl Muḥammad) ଉପରେ ସଲାମ୍ ପଠାଇବା ପ୍ରତ୍ୟେକ ଦୁଆକୁ ସମ୍ପୂର୍ଣ୍ଣ କରିବା ପାଇଁ ସୁପାରିଶିତ। ଇମାମ ଅଲ୍-ସାଦିକ୍ (a) କହିଥିଲେ: \"ମୁହମ୍ମଦ ଓ ତାଙ୍କର ପରିବାର ଉପରେ ସଲାୱାତ୍ ନ ପଠାଇ ପର୍ଯ୍ୟନ୍ତ ପ୍ରତ୍ୟେକ ଦୁଆ ଅଟକି ରହିଥାଏ।\"",
+  "tasbihatDuaFarajTitle": "ଦୁଆ ଅଲ୍-ଫରଜ୍",
+  "tasbihatDuaFarajWhen": "ପ୍ରତ୍ୟେକ ନମାଜ ପରେ · ଆମ ସମୟର ଇମାମଙ୍କ ପାଇଁ",
+  "tasbihatDuaFarajSource": "ଇମାମ ଅଲ୍-ହସନ୍ ଅଲ୍-ଆସ୍କରୀ (a) ଦ୍ୱାରା ଶିଖାଯାଇଥିବା",
+  "tasbihatDuaFarajNote": "ବାରୋତମ ଇମାମ, ଇମାମ ଅଲ୍-ମାହଦୀ (af) ଙ୍କ ପୁନଃ ଆଗମନ ପାଇଁ ଏକ ଦୁଆ, ଯାହା ତାଙ୍କର ପିତା ଦ୍ୱାରା ଶିଖାଯାଇଥିଲା। ଶିଆ ମୁମିନମାନେ ଜୀବିତ ଇମାମଙ୍କ ପ୍ରତି ଭକ୍ତିର ଚିହ୍ନ ଭାବରେ ପ୍ରତ୍ୟେକ ନମାଜ ପରେ ଏହାକୁ ପ୍ରତିଦିନ ପଢ଼ନ୍ତି।",
+  "tasbihatDuaTasbihFatimaTitle": "ବିବି ଫାତିମାଙ୍କ ତସବିହ୍",
+  "tasbihatDuaTasbihFatimaWhen": "ମଗରିବ୍ ଓ ଇଶା ପରେ · ବିଶେଷ ଭାବେ ସୁପାରିଶିତ",
+  "tasbihatDuaTasbihFatimaSource": "ଇମାମ ଅଲ୍-ବାକିର୍ (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "ଇମାମ ଅଲ୍-ବାକିର୍ (a) କହିଥିଲେ, ଶୋଇବା ପୂର୍ବରୁ ଇଶା ପରେ Tasbīḥ al-Zahrā ପଢ଼ିବା 1000 ରକଆତ୍ ନଫଲ୍ ନମାଜଠାରୁ ଉତ୍ତମ। ତାହାର ଆଲୋକ ଆକାଶକୁ ଉଠିଯାଏ।",
+  "tasbihFatimaGiftPre": "ପୟଗମ୍ବରଙ୍କ ଉପହାର",
+  "tasbihFatimaGiftPost": "ପ୍ରତ୍ୟେକ ନମାଜ ପରେ ପଢ଼ାଯାଏ",
+  "prayerTrackerTitle": "ନମାଜ ଟ୍ରାକର୍",
+  "prayerTrackerPrayed": "ନମାଜ ପଢାଗଲା",
+  "prayerTrackerDayStreak": "{count} ଦିନର ସ୍ଟ୍ରିକ୍",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "ଆଜିର ସମସ୍ତ ନମାଜ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଗଲା। ଅଲ୍ଲାହ କବୁଲ୍ କରୁନ୍।",
+  "dhikrTrackerTitle": "ତସବିହ୍ ଅଲ୍-ଜାହ୍ରା",
+  "dhikrTrackerCompletedToday": "ଆଜି ସମ୍ପୂର୍ଣ୍ଣ ହେଲା",
+  "dhikrTrackerNotDoneToday": "ଆଜି କରାଯାଇନାହିଁ",
+  "dhikrTrackerDayStreak": "{count} ଦିନର ସ୍ଟ୍ରିକ୍",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "ତସବିହ୍ ସ୍ମରଣିକା",
+  "dhikrReminderDescription": "ଆପଣଙ୍କର ତସବିହ୍ ଅଲ୍-ଜାହ୍ରା (SA) ପଢିବା ପାଇଁ ଏକ କୋମଳ ଦୈନିକ ସ୍ମରଣିକା।",
+  "dhikrReminderEnable": "ତସବିହ୍ ସ୍ମରଣିକା ସକ୍ରିୟ କରନ୍ତୁ",
+  "dhikrReminderTimeLabel": "ସ୍ମରଣିକା ସମୟ",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "ଦୈନିକ ହାଦିସ୍",
+  "hadithLabelArabic": "ଆରବୀ",
+  "hadithLabelTranslation": "ଅନୁବାଦ",
+  "hadithBadge": "ହାଦିସ୍",
+  "hadithShare": "ଏହି ହାଦିସ୍‌କୁ ସେୟାର କରନ୍ତୁ",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nAyara ମାଧ୍ୟମରେ",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "ପୂର୍ବବର୍ତ୍ତୀ",
+  "hadithNavNext": "ପରବର୍ତ୍ତୀ",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "14 ମାସୁମିନ୍",
+  "imamsScreenSubtitle": "ପୟଗମ୍ବର, ବିବି ଫାତିମା, ଏବଂ ବାରୋ ଇମାମ — ଇସଲାମର ନିଷ୍ପାପ ମାର୍ଗଦର୍ଶକମାନେ",
+  "imamLabelBorn": "ଜନ୍ମ",
+  "imamLabelMartyrdom": "ଶହାଦତ",
+  "imamLabelStatus": "ସ୍ଥିତି",
+  "imamSectionBiography": "ଜୀବନୀ",
+  "imamSectionFamousSaying": "ପ୍ରସିଦ୍ଧ ଉକ୍ତି",
+  "imamRoleProphet": "ଶେଷ ପୟଗମ୍ବର",
+  "imamRoleInfallible": "ନିଷ୍ପାପ",
+  "imamOrdinal1": "ପ୍ରଥମ ଇମାମ",
+  "imamOrdinal2": "ଦ୍ୱିତୀୟ ଇମାମ",
+  "imamOrdinal3": "ତୃତୀୟ ଇମାମ",
+  "imamOrdinal4": "ଚତୁର୍ଥ ଇମାମ",
+  "imamOrdinal5": "ପଞ୍ଚମ ଇମାମ",
+  "imamOrdinal6": "ଷଷ୍ଠ ଇମାମ",
+  "imamOrdinal7": "ସପ୍ତମ ଇମାମ",
+  "imamOrdinal8": "ଅଷ୍ଟମ ଇମାମ",
+  "imamOrdinal9": "ନବମ ଇମାମ",
+  "imamOrdinal10": "ଦଶମ ଇମାମ",
+  "imamOrdinal11": "ଏକାଦଶ ଇମାମ",
+  "imamOrdinal12": "ଦ୍ୱାଦଶ ଇମାମ",
+  "duaAudioScreenTitle": "ଦୁଆ ଶୁଣନ୍ତୁ",
+  "duaAudioScreenSubtitle": "ଶୁଣିବାକୁ ଗୋଟିଏ ଦୁଆ ବାଛନ୍ତୁ। Play କିମ୍ବା pause କରିବା ପାଇଁ tile ଉପରେ ଟ୍ୟାପ୍ କରନ୍ତୁ।",
+  "duaAudioComingSoonMessage": "ଏହି ଦୁଆ ପାଇଁ ଅଡିଓ ଆସନ୍ତା ଅପଡେଟ୍‌ରେ ଉପଲବ୍ଧ ହେବ।",
+  "duaAudioClose": "ବନ୍ଦ କରନ୍ତୁ",
+  "duaAudioError": "ଅଡିଓ ଲୋଡ୍ କରାଯାଇପାରିଲା ନାହିଁ। ଦୟାକରି ଆପଣଙ୍କର ସଂଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ।",
+  "duaAudioMetaTransmittedBy": "ବର୍ଣ୍ଣନାକାରୀ",
+  "duaAudioMetaOccasion": "ଅବସର",
+  "duaAudioMetaDuration": "ଅବଧି",
+  "quickActionDailyHadith": "ଦୈନିକ ହାଦିସ୍",
+  "quickAction14Masumeen": "14 ମାସୁମିନ୍",
+  "quickActionListenDuas": "ଶୁଣନ୍ତୁ",
+  "quickActionTasbihat": "ନମାଜ ଗାଇଡ୍",
+  "pilgrimageSectionTitle": "ପବିତ୍ର ଯାତ୍ରା",
+  "pilgrimageSectionSubtitle": "ହଜ୍ ଓ ଉମରାହ୍ ପାଇଁ ସମ୍ପୂର୍ଣ୍ଣ ଗାଇଡ୍ — ମକ୍କାରେ ଥିବା ଅଲ୍ଲାହଙ୍କ ପବିତ୍ର ଘରକୁ ତୀର୍ଥଯାତ୍ରା",
+  "hajjCardTitle": "ହଜ୍",
+  "hajjCardSubtitle": "ଇସଲାମର ପଞ୍ଚମ ସ୍ତମ୍ଭ",
+  "hajjCardDescription": "ବାର୍ଷିକ ମହାନ ତୀର୍ଥଯାତ୍ରା — ପ୍ରତ୍ୟେକ ସକ୍ଷମ ମୁସଲିମ୍ ପାଇଁ ଜୀବନରେ ଗୋଟେଥର ଫର୍ଜ",
+  "hajjScreenTitle": "ହଜ୍ ଗାଇଡ୍",
+  "hajjScreenSubtitle": "ମହାନ ତୀର୍ଥଯାତ୍ରା ପାଇଁ ପଦକ୍ରମିକ ଗାଇଡ୍",
+  "umrahCardTitle": "ଉମରାହ୍",
+  "umrahCardSubtitle": "ଛୋଟ ତୀର୍ଥଯାତ୍ରା",
+  "umrahCardDescription": "ଏକ ଗଭୀର ଆଧ୍ୟାତ୍ମିକ ଯାତ୍ରା ଯାହା ବର୍ଷର ଯେକୌଣସି ସମୟରେ କରାଯାଇପାରେ",
+  "umrahScreenTitle": "ଉମରାହ୍ ଗାଇଡ୍",
+  "umrahScreenSubtitle": "ଛୋଟ ତୀର୍ଥଯାତ୍ରା ପାଇଁ ପଦକ୍ରମିକ ଗାଇଡ୍",
+  "pilgrimageStepsTitle": "ରୀତିନୀତି ଓ ପଦକ୍ଷେପ",
+  "pilgrimageImportantNotesTitle": "ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଟୀକା",
+  "pilgrimageDuaTitle": "ଏହି ପଦକ୍ଷେପ ପାଇଁ ଦୁଆ",
+  "pilgrimageJafariNoteTitle": "ଜାଫାରୀ ଫିକ୍ହ ଟୀକା",
+  "pilgrimageComplete": "✓ ସମ୍ପୂର୍ଣ୍ଣ",
+  "pilgrimageMarkDone": "ପୂର୍ଣ୍ଣ ଭାବରେ ଚିହ୍ନଟ କରନ୍ତ���",
+  "pilgrimageProgress": "{done} ମଧ୍ୟରୁ {total} ପଦକ୍ଷେପ",
+  "pilgrimageReadTime": "~{minutes} ମି���ିଟ",
+  "pilgrimageShiaNoteTitle": "ଶିଆ ତୀର୍ଥଯାତ୍ରୀମାନେ",
+  "pilgrimageShiaNoteBody": "ଶିଆ ତୀର୍ଥଯାତ୍ରୀମାନେ ପାରମ୍ପରିକ ଭାବେ ମଦିନାକୁ ମଧ୍ୟ ଯାଆନ୍ତି, ଯେଉଁଠାରେ ସେମାନେ ମସଜିଦ୍ ଅଲ୍-ନବବୀରେ ପୟଗମ୍ବର ମୁହମ୍ମଦ (SAW) ଙ୍କ ରୌଜା ଓ ଜନ୍ନତ୍ ଅଲ୍-ବାକୀରେ ଇମାମମାନଙ୍କ କବରକୁ ଜିୟାରତ୍ କରନ୍ତି। ଏହି ଭ୍ରମଣଗୁଡ଼ିକ ଗଭୀର ଆଧ୍ୟାତ୍ମିକ ଗୁରୁତ୍ୱ ବହନ କରେ ଏବଂ ଅଧିକାଂଶ ଶିଆ ଯାତ୍ରୀମାନଙ୍କ ପାଇଁ ଯାତ୍ରାର ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଅଂଶ ଭାବେ ଧରାଯାଏ।",
+  "hajjIntro": "ହଜ୍ ହେଉଛି ଇସଲାମର ପଞ୍ଚମ ସ୍ତମ୍ଭ, ଏବଂ ପ୍ରତ୍ୟେକ ଶାରୀରିକ ଓ ଆର୍ଥିକ ଭାବେ ସକ୍ଷମ ମୁସଲିମ୍ ପାଇଁ ଜୀବନରେ ଗୋଟେଥର ଫର୍ଜ। ଜିଲ୍ହଜ୍ଜ ମାସରେ କରାଯାଉଥିବା ଏହି ଯାତ୍ରା, ପୟଗମ୍ବର ଇବ୍ରାହିମ୍ (AS), ତାଙ୍କ ପୁଅ ଇସମାଇଲ୍ (AS), ଏବଂ ବିବି ହାଜରାଙ୍କ ପଦଚିହ୍ନକୁ ଅନୁସରଣ କରେ। ଶିଆ ମୁସଲିମ୍‌ମାନଙ୍କ ପାଇଁ, ହଜ୍‌ରେ ମଦିନାରେ ପୟଗମ୍ବର (SAW) ଏବଂ Ahlul Bayt ଙ୍କ ପବିତ୍ର ବିଶ୍ରାମସ୍ଥଳୀକୁ ଜିୟାରତ୍ କରିବାର ଗଭୀର ବରକତ୍ ମଧ୍ୟ ଅନ୍ତର୍ଭୁକ୍ତ।",
+  "umrahIntro": "ଉମରାହ୍ ହେଉଛି ମକ୍କାକୁ ଛୋଟ ତୀର୍ଥଯାତ୍ରା, ଏବଂ ହଜ୍‌ଠାରୁ ଭିନ୍ନ ଭାବେ, ଏହା ବର୍ଷର ଯେକୌଣସି ସମୟରେ କରାଯାଇପାରେ। ଯଦିଓ ଏହା ଫର୍ଜ ନୁହେଁ, ତଥାପି ଏହାର ଆଧ୍ୟାତ୍ମିକ ପ୍ରତିଫଳ ଅପରିମିତ ଏବଂ ଏହାକୁ ଅତ୍ୟନ୍ତ ସୁପାରିଶିତ ଇବାଦତ୍ ଭାବେ ଗଣାଯାଏ। ଏହାର କିଛି ରୀତିନୀତି ହଜ୍ ସହିତ ମିଳେ, କିନ୍ତୁ ଏହା ଛୋଟ ଏବଂ ଚାରୋଟି ମୁଖ୍ୟ ରୀତିରେ ଗଠିତ।"
 }

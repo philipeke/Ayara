@@ -31,11 +31,14 @@ const SOURCE_FILE = path.join(L10N_DIR, "app_en.arb");
 // Keys to translate + the key they should be inserted AFTER in each ARB file.
 // Add more entries here whenever you add new keys to app_en.arb.
 const KEYS_TO_TRANSLATE = [
-  { key: "categoryCustom",            insertAfter: "categoryEveningReflection" },
-  { key: "dhikrMeaningSubhanallah",   insertAfter: "categoryCustom" },
-  { key: "dhikrMeaningAlhamdulillah", insertAfter: "dhikrMeaningSubhanallah" },
-  { key: "dhikrMeaningAllahuAkbar",   insertAfter: "dhikrMeaningAlhamdulillah" },
-  { key: "quranVerseHeartAtRest",     insertAfter: "dhikrMeaningAllahuAkbar" },
+  { key: "calendarAddToPhone",         insertAfter: "calendarNoEvents" },
+  { key: "calendarAddedToPhone",       insertAfter: "calendarAddToPhone" },
+  { key: "pilgrimageDuaTitle",         insertAfter: "pilgrimageImportantNotesTitle" },
+  { key: "pilgrimageJafariNoteTitle",  insertAfter: "pilgrimageDuaTitle" },
+  { key: "pilgrimageComplete",         insertAfter: "pilgrimageJafariNoteTitle" },
+  { key: "pilgrimageMarkDone",         insertAfter: "pilgrimageComplete" },
+  { key: "pilgrimageProgress",         insertAfter: "pilgrimageMarkDone" },
+  { key: "pilgrimageReadTime",         insertAfter: "pilgrimageProgress" },
 ];
 
 const BATCH_SIZE = 30; // languages per API call
@@ -191,7 +194,7 @@ async function main() {
       .map((k) => `  "${k}": "${sourceArb[k]}"`)
       .join("\n");
 
-    const prompt = `You are a professional translator for a Muslim spiritual guidance app called Nuria.
+    const prompt = `You are a professional translator for a Muslim spiritual guidance app called Ayara.
 
 Translate the following English app strings into each of the listed languages.
 Return ONLY a JSON object in this exact format — no markdown, no explanation:

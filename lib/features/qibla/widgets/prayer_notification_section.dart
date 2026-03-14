@@ -41,19 +41,23 @@ class _PrayerNotificationSectionState
   }
 
   Future<void> _loadState() async {
-    final enabled = await _svc.isEnabled();
-    final osOk = await _svc.areNotificationsEnabled();
-    final Map<String, bool> pp = {};
-    for (final k in _prayerKeys) {
-      pp[k] = await _svc.isPrayerEnabled(k);
-    }
-    if (mounted) {
-      setState(() {
-        _enabled = enabled;
-        _osDenied = enabled && !osOk;
-        _perPrayer.addAll(pp);
-        _loading = false;
-      });
+    try {
+      final enabled = await _svc.isEnabled();
+      final osOk = await _svc.areNotificationsEnabled();
+      final Map<String, bool> pp = {};
+      for (final k in _prayerKeys) {
+        pp[k] = await _svc.isPrayerEnabled(k);
+      }
+      if (mounted) {
+        setState(() {
+          _enabled = enabled;
+          _osDenied = enabled && !osOk;
+          _perPrayer.addAll(pp);
+          _loading = false;
+        });
+      }
+    } catch (_) {
+      if (mounted) setState(() => _loading = false);
     }
   }
 
@@ -68,30 +72,23 @@ class _PrayerNotificationSectionState
   };
 
   Future<void> _enable() async {
-    final t = AppLocalizations.of(context)!; // capture before any await
+    final t = AppLocalizations.of(context);
     setState(() => _loading = true);
-    final granted = await _svc.requestPermission();
-    if (!granted) {
-      if (mounted) {
-        setState(() {
-          _osDenied = true;
-          _loading = false;
-        });
+    try {
+      final granted = await _svc.requestPermission();
+      if (!granted) {
+        if (mounted) setState(() { _osDenied = true; _loading = false; });
+        return;
       }
-      return;
-    }
-    await _svc.setEnabled(true);
-    await _svc.scheduleForPosition(
-      widget.position.latitude,
-      widget.position.longitude,
-      labels: _labels(t),
-    );
-    if (mounted) {
-      setState(() {
-        _enabled = true;
-        _osDenied = false;
-        _loading = false;
-      });
+      await _svc.setEnabled(true);
+      await _svc.scheduleForPosition(
+        widget.position.latitude,
+        widget.position.longitude,
+        labels: _labels(t),
+      );
+      if (mounted) setState(() { _enabled = true; _osDenied = false; _loading = false; });
+    } catch (_) {
+      if (mounted) setState(() => _loading = false);
     }
   }
 
@@ -102,14 +99,16 @@ class _PrayerNotificationSectionState
   }
 
   Future<void> _togglePrayer(String key, bool value) async {
-    final t = AppLocalizations.of(context)!; // capture before any await
+    final t = AppLocalizations.of(context);
     await _svc.setPrayerEnabled(key, value);
-    setState(() => _perPrayer[key] = value);
-    await _svc.scheduleForPosition(
-      widget.position.latitude,
-      widget.position.longitude,
-      labels: _labels(t),
-    );
+    if (mounted) setState(() => _perPrayer[key] = value);
+    try {
+      await _svc.scheduleForPosition(
+        widget.position.latitude,
+        widget.position.longitude,
+        labels: _labels(t),
+      );
+    } catch (_) {}
   }
 
   String _prayerName(AppLocalizations t, String key) {
@@ -125,7 +124,7 @@ class _PrayerNotificationSectionState
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     return Container(
       decoration: BoxDecoration(

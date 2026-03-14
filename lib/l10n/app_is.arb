@@ -1,585 +1,629 @@
 {
   "@@locale": "is",
-
   "appTitle": "Ayara",
-
-  "languageSelectTitle": "Veldu þitt tungumál",
-  "languageSelectSub": "Þú getur breytt þessu síðar í Stillingunum",
+  "languageSelectTitle": "Veldu tungumál",
+  "languageSelectSub": "Þú getur breytt þessu síðar í Stillingum",
   "actionContinue": "Halda áfram",
-  "languageSuggestedHeader": "Mælt með",
+  "languageSuggestedHeader": "Tillögur",
   "languageAllHeader": "Öll tungumál",
-  "languageSuggestedBadge": "Mælt með",
+  "languageSuggestedBadge": "Tillaga",
   "languageSearchHint": "Leita…",
-
-  "planGrace": "Hefðbundið",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Dagleg leiðsögn",
-  "categoryFaithTrust": "Trú og treyst",
-  "categoryPrayerReflection": "Bæn og hugleiðing",
-  "categoryHopeDifficultTimes": "Þolinmæði og von",
-  "categoryForgiveness": "Bið um fyrirgefningu",
-  "categoryLoveCompassion": "Misericordia og samúð",
-  "categoryStrengthCourage": "Trú og styrkur",
-  "categoryGratitude": "Þakklæti",
-  "categoryPurposeCalling": "Tilgangur lífsins",
-  "categoryFamilyRelationships": "Fjölskyldutengsl",
-  "categoryPeaceAnxietyRelief": "Innri friður",
-  "categoryWisdomOfJesus": "Spekking spámannsins",
-  "categoryHumilityCharacter": "Djarfleiki og góðir siðir",
-  "categoryOvercomingTemptation": "Standast freistni",
-  "categoryEveningReflection": "Kvöld Dhikr",
-  "categoryCustom": "Persónuleg Umhugsun",
+  "planBasic": "Staðlað",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Dagleg leiðsögn",
+  "categorySlot02": "Iman og traust",
+  "categorySlot03": "Íhugun um bæn",
+  "categorySlot04": "Þolinmæði og von",
+  "categorySlot05": "Leita fyrirgefningar",
+  "categorySlot06": "Miskunn og samúð",
+  "categorySlot07": "Styrkur trúarinnar",
+  "categorySlot08": "Þakklátt hjarta",
+  "categorySlot09": "Tilgangur lífsins",
+  "categorySlot10": "Fjölskyldubönd",
+  "categorySlot11": "Innri friður",
+  "categorySlot12": "Spámannleg viska",
+  "categorySlot13": "Góður karakter",
+  "categorySlot14": "Standast freistingu",
+  "categorySlot15": "Kvöld-dhikr",
+  "categoryCustom": "Persónuleg íhugun",
   "dhikrMeaningSubhanallah": "Dýrð sé Allah",
-  "dhikrMeaningAlhamdulillah": "Allar lof er Allah",
-  "dhikrMeaningAllahuAkbar": "Allah er hinn mesti",
-  "quranVerseHeartAtRest": "Sannlega, í minningu Allah finnst hjörtu hvíld.",
-
-  "promptHint": "Snertu flokk fyrir Íslamskan leiðsögn og hugleiðingu",
-
+  "dhikrMeaningAlhamdulillah": "Öll lofgjörð tilheyrir Allah",
+  "dhikrMeaningAllahuAkbar": "Allah er mestur",
+  "quranVerseHeartAtRest": "Sannarlega finna hjörtu frið í minningu Allah.",
+  "promptHint": "Pikkaðu á flokk fyrir íslamska leiðsögn og íhugun",
   "currentLanguage": "Núverandi tungumál",
   "settingsLanguage": "Tungumálastillingar",
   "settingsTitle": "Stillingar",
-  "chooseLanguage": "Veldu þitt tungumál",
+  "chooseLanguage": "Veldu tungumál",
   "continueCta": "Halda áfram",
-
-  "promptDailyGuidance": "Skrifaðu stutta, hagnýta dagleygu leiðsögn sem byggir á Sunnítískri Íslamsartrú — byggða á Kóraninu, Hadíðum og kenningum Spámanns Muhammads. Veldu nýja sjónarmiðu í hvert skipti: dyggð úr Íslamsarlegri siðmensku, sannleika úr Sunnu, speki frá fylgjendum Spámanns eða rólega iðkun úr Íslamsarkstjórn. Taktu með einn Kóraniðkabút (Sura:Áy) og 1–2 setninga hugleiðingu til að bera þig um daginn. Tengdu hugsanlega Íslamsarlegri dagatalinu eða mikilvægum dögum ef við á.",
-
-  "promptFaithTrust": "Skrifaðu stutta Íslamsarlegri hugleiðingu um Iman (trú) og treyst á áætlun Allahs (Tawakkul). Fótraðu það á Kóraninu, dæmi um Spámann Muhammad og trú Sahaba. Breyttu þemanu í hvert skipti: treyst á Allah við óvissu, treystandi deildarvinsamlegri speki, þolinmæði við prufu, eða rólegt djarflyndi í daglegum lífi. Taktu með einn Kóraniðkabút og eitt heiðarlegt skref fyrir daginn sem dregið er úr Íslamsarlegri huggunarspeki.",
-
-  "promptPrayerReflection": "Skrifaðu stutta Íslamsarlegri bænhugleiðingu sem byggir á Salah, Dua, eða Dhikr. Breyttu forminu í hvert skipti: morgun- eða kvöldarfirring (Adhkar), hugleiðing um fimm daglegir bænir, íhugun á Kóraniðkabút, eða hjartaleg bæn. Taktu með einn Kóraniðkabút og nefndu stuttlega bænaformið sem notað var.",
-
-  "promptHopeDifficultTimes": "Skrifaðu Íslamsarlegri hugleiðingu um þolinmæði (Sabr) og von á erfiðum tímum. Dregðu frá Kóranskenningum um prufu, djarflyndi spámannanna og misericordia Allahs á erfiðum stundum. Breyttu sjónarmiðunni í hvert skipti. Taktu með einn Kóraniðkabút og eitt uppörvandi sjónarhorn úr Íslamsarkstjórn.",
-
-  "promptForgiveness": "Skrifaðu gjalda Íslamsarlegri hugleiðingu um að biðja um fyrirgefningu (Tawbah) og misericordia Allahs. Dregðu frá Kóranskenningum um iðrun, samúð Allahs og fyrirgefnandi dæmi Spámanns Muhammads. Breyttu þemanu: snúning til Allahs, fyrirgefning á öðrum, endalaust samband, eða trú á misericordia Allahs eftir villur. Taktu með einn Kóraniðkabút og eitt ákveðið skref.",
-
-  "promptLoveCompassion": "Skrifaðu stutta Íslamsarlega hugleiðingu um misericordia (Rahmah) og samúð í daglegum lífi. Dregðu frá dæmi um Spámann Muhammad, hugmyndina um Ihsan (ágæti), og Íslamsarlegri kenningum um vinsemd við fjölskyldu, nágranna og viðkvæma. Taktu með einn Kóraniðkabút og einn lítinn sáranlegur athöfn til að æfa í dag.",
-
-  "promptStrengthCourage": "Skrifaðu Íslamsarlega hugleiðingu um trúarbundinn styrkleika og hugrekki. Dregðu frá dæmum um spámennina, stjórnlýðið og trúaðir sem héldust fast á trú á erfiðum tímum. Breyttu þemanu í hvert skipti: hugrekki gegn trú, styrkur gegn bæn, treyst á Allah við hræðslu, eða seiglu gegn erfiðleikum. Taktu með einn Kóraniðkabút og stutta bæn eða fasti minningarorð.",
-
-  "promptGratitude": "Skrifaðu Íslamsarlega hugleiðingu um þakklæti (Shukr) gagnvart Allah. Rótaðu það í Kóranskenningum og spámannlegri hefð. Breyttu sjónarmiðunni: þakklæti á erfiðum tímum, gleði yfir litlu blöskum, uppruni dags með lofi til Allahs, eða viðurkenning á leiðsögn Allahs í daglegum lífi. Taktu með einn Kóraniðkabút og eina þakklatusiðkun.",
-
-  "promptPurposeCalling": "Skrifaðu Íslamsarlega hugleiðingu um tilgang lífsins við dýrkun Allahs og réttrætis. Dregðu frá Kóranskenningum um tilgang, þjónustu öðrum og notkun á gjöfum fyrir gott. Breyttu þemanu: þjónusta við fjölskyldu og samfélag, leit eftir leiðsögn gegn Istikhara, að lifa með ásetningi, eða að finna þýðingu í alfaralegu verki. Taktu með einn Kóraniðkabút og tvær hugleiðandi spurningar.",
-
-  "promptFamilyRelationships": "Skrifaðu gjalda Íslamsarlega leiðsögn um fjölskyldu og tengsl sem byggir á Kóranskenningum og dæmi um Spámann Muhammad. Breyttu þemanu í hvert skipti: vinsemd í fjölskyldulífi, þolinmæði í átökum, virðing fyrir foreldrum, uppeldi barna í trú, eða styrkingu hjúskapar. Taktu með einn Kóraniðkabút og eina sambandslega æfingu til að reyna.",
-
-  "promptPeaceAnxietyRelief": "Skrifaðu róandi Íslamsarlega hugleiðingu um að finna innri frið gegn minningum á Allah (Dhikr) og treyst á hans áætlun. Dregðu frá Kóranskenningum um róa hjartans, bæn og gleðn á vilja Allahs. Breyttu aðferðinni í hvert skipti og taktu með einn Kóraniðkabút og eina einfalda jöfnun frá Íslamsarkstjórn.",
-
-  "promptWisdomOfJesus": "Skrifaðu stutta speki frá spámonnum eins og kennt er í Íslami. Dregðu frá Kóraninu eða Hadíðum og útskýrðu stuttlega hvernig Íslamsarlegir fræðimenn hafa skilið kenninguna. Breyttu efninu í hvert skipti: siðir, þolinmæði, djarfleiki, trú, eða dagleg hegðun. Taktu með Kóraniðkabút eða Hadíðtilvísun og eina hagnýta beitingu.",
-
-  "promptHumilityCharacter": "Skrifaðu Íslamsarlega hugleiðingu um djarfleika (Tawadhu) og góða siðmensku (Akhlaq). Dregðu frá Kóranskenningum, dæmi um Spámann Muhammad og hefð Íslamsarlegrar þróunar hugmynda. Breyttu þemanu: djarfleiki í stjórnun, viðurkenning á mistökum, virðing fyrir öðrum, eða andleg þroun gegn sjálfsendurskoðun. Taktu með einn Kóraniðkabút og eina vana til að æfa.",
-
-  "promptOvercomingTemptation": "Skrifaðu Íslamsarlega hugleiðingu um að standast freistni og vera á réttu slóðum. Dregðu frá Kóranlegri leiðsögn, minningum á Allah (Dhikr), bæn (Salah), og dæmum um trúaða sem sigruðu baráttu. Breyttu sjónarmiðunni í hvert skipti. Taktu með einn Kóraniðkabút og eina hagnýta stefnu fyrir næstu 24 klukkustundir.",
-
-  "promptEveningReflection": "Skrifaðu róandi Íslamsarlega kvöldarhugleiðingu sem byggir á hefðinni um kvöldarfirring (Adhkar al-Masaa'). Hvettu til þakklatuss, sjálfsendurskoðunar (Muhasabah), og trausts á Allah fyrir hvíld. Taktu með 3–5 stuttar hugleiðingarsporningar um daginn, stutta lokabæn, og einn Kóraniðkabút.",
-
   "wordCount": "{count, plural, one {{count} orð} other {{count} orð}}",
-
   "optionsCta": "Valkostir",
   "newCta": "Nýtt",
   "actionsTitle": "Hvað viltu gera?",
   "copy": "Afrita",
   "share": "Deila",
   "close": "Loka",
-  "copiedToast": "Afritað á klemmuna",
-
+  "copiedToast": "Afritað á klemmuspjald",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Email / share subject line including the category label.",
+    "description": "Efnislína tölvupósts / deilingar með heiti flokksins.",
     "placeholders": {
-      "category": { "type": "String", "example": "Dagleg leiðsögn" }
+      "category": {
+        "type": "String",
+        "example": "Dagleg leiðsögn"
+      }
     }
   },
-
-  "regenerateErrorTitle": "Gat ekki búið til nýtt svar",
+  "regenerateErrorTitle": "Ekki tókst að búa til nýtt svar",
   "regenerateErrorBody": "{error}\n\nViltu reyna aftur?",
   "@regenerateErrorBody": {
-    "description": "Shown when regenerating an AI answer fails.",
+    "description": "Sýnt þegar endurgerð AI-svars mistekst.",
     "placeholders": {
-      "error": { "type": "String", "example": "Netnetkilla" }
+      "error": {
+        "type": "String",
+        "example": "Netvilla"
+      }
     }
   },
-
   "cancelCta": "Hætta við",
   "retryCta": "Reyna aftur",
-
   "authTitle": "Búðu til reikninginn þinn",
   "continueAsGuest": "Halda áfram sem gestur",
   "signInGoogle": "Skrá inn með Google",
   "signInApple": "Skrá inn með Apple",
   "signInEmail": "Skrá inn með tölvupósti",
   "upgradeWithApple": "Halda áfram með Apple",
-  "mustAccept": "Þú verður að samþykkja Skilmálana og viðurkenna Persónuverndarstefnuna.",
-  "termsLabel": "Ég samþykki Skilmála þjónustunnar",
+  "mustAccept": "Þú verður að samþykkja þjónustuskilmálana og staðfesta persónuverndarstefnuna.",
+  "termsLabel": "Ég samþykki þjónustuskilmálana",
   "privacyLabel": "Ég hef lesið persónuverndarstefnuna",
   "marketingOptIn": "Ég samþykki að fá fréttir og tilboð",
-  "openTerms": "Skilmálar þjónustunnar",
+  "openTerms": "Þjónustuskilmálar",
   "openPrivacy": "Persónuverndarstefna",
-
   "accountSection": "Reikningur",
   "guestMode": "Gestahamur",
-  "signedIn": "Skráð(ur/in) inn",
-  "upgradeHint": "Vistaðu hugleiðingar þínar á öllum tækjum með því að búa til reikning.",
+  "signedIn": "Innskráð/ur",
+  "upgradeHint": "Vistaðu íhuganir þínar á milli tækja með því að búa til reikning.",
   "upgradeWithGoogle": "Halda áfram með Google",
   "signOut": "Skrá út",
-
   "snackUpgraded": "Reikningur uppfærður með Google ✅",
-  "snackSignedIn": "Skráð(ur/in) inn með Google ✅",
-  "snackSignedOut": "Skráð(ur/in) út",
-  "snackSignedInApple": "Skráð(ur/in) inn með Apple ✅",
-  "snackSignedInGoogle": "Skráð(ur/in) inn með Google ✅",
+  "snackSignedIn": "Skráð/ur inn með Google ✅",
+  "snackSignedOut": "Skráð/ur út",
+  "snackSignedInApple": "Skráð/ur inn með Apple ✅",
+  "snackSignedInGoogle": "Skráð/ur inn með Google ✅",
   "snackUpgradedApple": "Reikningur uppfærður með Apple ✅",
   "snackUpgradedGoogle": "Reikningur uppfærður með Google ✅",
-
-  "historyTitle": "Fyrri hugleiðingar",
-  "historyOpenCta": "Fyrri hugleiðingar",
-  "historyEmpty": "Engar vistaðar hugleiðingar ennþá.",
-  "historyDeleteTitle": "Eyða hugleiðingu?",
-  "historyDeleteBody": "Þetta mun framvegis fjarlægja valda hluti.",
+  "historyTitle": "Fyrri íhuganir",
+  "historyOpenCta": "Fyrri íhuganir",
+  "historyEmpty": "Engar vistaðar íhuganir enn.",
+  "historyDeleteTitle": "Eyða íhugun?",
+  "historyDeleteBody": "Þetta mun eyða valda atriðinu varanlega.",
   "deleteCta": "Eyða",
-
-  "historyButton": "Fyrri hugleiðingar",
-  "historyEmptyTitle": "Engar hugleiðingar ennþá",
-  "historyEmptyBody": "Búðu til eitthvað fyrst — vistaðir hlutir þínir munu birtast hér.",
+  "historyButton": "Fyrri íhuganir",
+  "historyEmptyTitle": "Engar íhuganir enn",
+  "historyEmptyBody": "Búðu til eitthvað fyrst — vistuðu atriðin þín munu birtast hér.",
   "historyDelete": "Eyða",
-
-  "footerTitle": "Með Iman, sabr og rahma.",
-  "footerSubtitle": "Eitt skref í einu.",
-  "genericErrorSnack": "Eitthvað fór úrskeiðis — prófaðu aftur eftir smá stund.",
-
-  "upgradeAccountCta": "Vistaðu hugleiðingar þínar á öllum tækjum – búðu til reikning",
+  "footerTitle": "Með Wilaya, Iman og Sabr",
+  "footerSubtitle": "Ein bæn í einu",
+  "genericErrorSnack": "Eitthvað fór úrskeiðis — vinsamlegast reyndu aftur eftir smástund.",
+  "upgradeAccountCta": "Vistaðu íhuganir þínar á milli tækja – búðu til reikning",
   "deleteAccount": "Eyða reikningi",
-  "exportData": "Flytja út gögn mín",
-
+  "exportData": "Flytja út gögnin mín",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Label before showing the internal Firebase UID.",
+    "description": "Merki áður en innra Firebase UID er sýnt.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Rólegur tígrinn 🐯\nGervigreind þarf stund áður en næst…",
-  "rateDailyLimit": "Þú ert búin/n fyrir núna.\nFáðu fleiri hugleiðingar eða uppfærðu í Barakah.",
-  "rateCreditsExhausted": "Þú hefur notað allar hugleiðingar þínar.\nEndalaust eða uppfærðu í Barakah til að halda áfram.",
-  "rateGraceReflectionsExhausted": "Þú ert búin/n fyrir núna.\nFáðu fleiri hugleiðingar eða uppfærðu í Barakah.",
-  "rateReflectionsExhausted": "Þú hefur notað allar hugleiðingar þínar.\nEndalaust eða uppfærðu í Barakah til að halda áfram.",
-
-  "blessedDescription": "Barakah opnar forplén eiginleika, framtíðarflokka og sérmerka merki.",
-  "championDescription": "Barakah opnar forplén eiginleika, framtíðarflokka og sérmerka merki.",
-
-  "ratePlanExhausted": "Hugleiðingar þínar eru tómar núna. Áætlun: {plan}.",
+  "rateLocalThrottle": "Hægar, tígrisdýr 🐯\nAyara þarf smá stund fyrir næsta…",
+  "rateDailyLimit": "Þú ert búin/n með íhuganir í bili.\nFáðu fleiri íhuganir eða uppfærðu í Wilaya.",
+  "rateCreditsExhausted": "Þú hefur notað allar íhuganirnar þínar.\nBættu við eða uppfærðu í Wilaya til að halda áfram.",
+  "rateGraceCreditsExhausted": "Þú ert búin/n með íhuganir í bili.\nFáðu fleiri íhuganir eða uppfærðu í Wilaya.",
+  "premiumDescription": "Wilaya opnar fyrir aukna eiginleika, framtíðarflokka og sérstakt merki.",
+  "ratePlanExhausted": "Íhuganir þínar eru búnar í bili. Áætlun: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "description": "Sýnt þegar íhuganir notanda eru uppurnar en ástæða er almenn.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Hefðbundið eða Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Staðlað eða Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "Gat ekki athugað hugleiðingar þínar: {message}",
+  "rateCheckFailed": "Ekki tókst að athuga íhuganir þínar: {message}",
   "@rateCheckFailed": {
-    "description": "Shown when the callable function returns an error message.",
+    "description": "Sýnt þegar callable-fall skilar villuskilaboðum.",
     "placeholders": {
-      "message": { "type": "String", "example": "Nettöl" }
+      "message": {
+        "type": "String",
+        "example": "Netvilla"
+      }
     }
   },
-
-  "rateCheckGenericError": "Eitthvað fór úrskeiðis við að athuga hugleiðingar þínar.",
-  "aiFallbackGeneric": "Eitthvað fór úrskeiðis — prófaðu aftur eftir smá stund.",
-
-  "limitSectionTitle": "Hugleiðingar",
+  "rateCheckGenericError": "Eitthvað fór úrskeiðis við að athuga íhuganirnar þínar.",
+  "aiFallbackGeneric": "Eitthvað fór úrskeiðis — vinsamlegast reyndu aftur eftir smástund.",
+  "limitSectionTitle": "Íhuganir",
   "limitTodayLabel": "Notkun",
-  "limitCreditsLabel": "Eftirstandandi hugleiðingar: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitCreditsLabel": "Íhuganir eftir: {credits}",
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "Áætlun: {plan}",
   "@limitPlanLabel": {
-    "description": "Shows the current subscription plan name.",
+    "description": "Sýnir heiti núverandi áskriftaráætlunar.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Hefðbundið eða Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Staðlað eða Wilaya"
+      }
     }
   },
   "limitLoadingLabel": "Hleð…",
-  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
-
-  "aiLimitTitle": "Hugleiðingar",
-  "aiLimitSubtitle": "Hver svar notar 1 hugleiðingu. Hefðbundið inniheldur byrjunarhugleiðingar. Barakah opnar iðnflokka og gerir endurgreiðslu kleifa.",
-  "aiLimitProgressLabel": "{used} / {total} hugleiðingar notaðar",
+  "limitLoadingLabelDescription": "Sýnt á íhugunarkorti meðan tölfræði um notkun er sótt.",
+  "aiLimitTitle": "Íhuganir",
+  "aiLimitSubtitle": "Hvert svar notar 1 íhugun. Staðlað inniheldur byrjunaríhuganir. Wilaya opnar aukaflokka og gerir kleift að bæta við fleiri.",
+  "aiLimitProgressLabel": "{used} / {total} íhuganir notaðar",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Hugleiðingar",
-  "reflectionsUsageLabel": "Notkun",
-  "reflectionsRemainingLabel": "Eftirstandandi hugleiðingar: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Áætlun: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Shows the current plan name.",
+  "creditsSectionTitle": "Íhuganir",
+  "creditsUsageLabel": "Notkun",
+  "creditsRemainingLabel": "Íhuganir eftir: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Hefðbundið eða Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Hleð…",
-  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
-
-  "reflectionsTitle": "Hugleiðingar",
-  "reflectionsSubtitle": "Hver svar notar 1 hugleiðingu. Hefðbundið inniheldur byrjunarhugleiðingar. Barakah opnar iðnflokka og gerir endurgreiðslu kleifa.",
-  "reflectionsProgressLabel": "{used} / {total} hugleiðingar notaðar",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Áætlun: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Sýnir heiti núverandi áætlunar.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Staðlað eða Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Hleð…",
+  "creditsLoadingLabelDescription": "Sýnt meðan tölfræði um íhuganir er sótt.",
+  "creditsTitle": "Íhuganir",
+  "creditsSubtitle": "Hvert svar notar 1 íhugun. Staðlað inniheldur byrjunaríhuganir. Wilaya opnar aukaflokka og gerir kleift að bæta við fleiri.",
+  "creditsProgressLabel": "{used} / {total} íhuganir notaðar",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "Eyða reikningi",
-  "settingsDeleteDescription": "Eyðaðu reikningnum þínum og öllum tengdum gögnum varanlega.",
+  "settingsDeleteDescription": "Eyða reikningnum þínum og öllum tengdum gögnum varanlega.",
   "settingsDeleteButtonLabel": "Eyða reikningnum mínum",
   "settingsDeleteDialogTitle": "Eyða reikningi?",
-  "settingsDeleteDialogBody": "Þessi aðgerð er varanleg og ekki hægt að afturkalla.\n\nAllar spjallir, saga og reikningsupplýsingar þínar verða eyðaðar.",
+  "settingsDeleteDialogBody": "Þessi aðgerð er varanleg og ekki hægt að afturkalla hana.\n\nÖllum spjöllum, ferli og reikningsupplýsingum verður eytt.",
   "settingsDeleteDialogCancel": "Hætta við",
   "settingsDeleteDialogConfirm": "Eyða",
-
-  "settingsFreeLimitUsedTitle": "Byrjunarhugleiðingar notaðar",
-  "settingsFreeLimitUsedDescription": "Byrjunarhugleiðingar fyrir þetta tæki hafa verið notaðar. Uppfærðu í Barakah eða kauptu fleiri hugleiðingar til að halda áfram.",
-
-  "settingsStarterReflectionsUsedTitle": "Byrjunarhugleiðingar notaðar",
-  "settingsStarterReflectionsUsedDescription": "Byrjunarhugleiðingar fyrir þetta tæki hafa verið notaðar. Uppfærðu í Barakah eða kauptu fleiri hugleiðingar til að halda áfram.",
-
-  "deviceBoundError": "Þetta tæki er þegar tengt öðrum reikningi. Skráðu þig inn með upprunalega reikningnum.",
-
-  "premiumTitle": "Barakah hamur",
-  "premiumSubtitleBasic": "Opnaðu fullt Ayara reynslu.",
-  "premiumSubtitleChampion": "Þú ert Barakah. Þarftu fleiri hugleiðingar?",
-
+  "settingsFreeLimitUsedTitle": "Byrjunaríhuganir notaðar",
+  "settingsFreeLimitUsedDescription": "Byrjunaríhuganir þessa tækis hafa verið notaðar. Uppfærðu í Wilaya eða keyptu fleiri íhuganir til að halda áfram.",
+  "settingsStarterCreditsUsedTitle": "Byrjunaríhuganir notaðar",
+  "settingsStarterCreditsUsedDescription": "Byrjunaríhuganir þessa tækis hafa verið notaðar. Uppfærðu í Wilaya eða keyptu fleiri íhuganir til að halda áfram.",
+  "deviceBoundError": "Þetta tæki er nú þegar tengt öðrum reikningi. Vinsamlegast skráðu þig inn með upprunalega reikningnum.",
+  "premiumTitle": "Wilaya hamur",
+  "premiumSubtitleBasic": "Opnaðu alla Ayara upplifunina.",
+  "premiumSubtitlePremium": "Þú ert í Wilaya. Vantar þig fleiri íhuganir?",
   "premiumCurrentPlan": "Núverandi áætlun: {plan}",
-  "premiumCreditsStatus": "Hugleiðingar: {remaining} / {total}",
-
+  "premiumCreditsStatus": "Íhuganir: {remaining} / {total}",
   "premiumPurchasesUnavailable": "Kaup eru ekki tiltæk núna.",
-  "premiumSignInToPurchase": "Skrá þig inn til að kaupa hugleiðingar eða opna Barakah.",
-
+  "premiumSignInToPurchase": "Skráðu þig inn til að kaupa íhuganir eða opna Wilaya.",
   "premiumRestorePurchases": "Endurheimta kaup",
-  "premiumProcessing": "Vinnsla…",
-  "premiumRestoreHintTitle": "Hefur þú þegar keypt Barakah eða hugleiðingar á þessu tæki eða öðru?",
-  "premiumRestoreHintBody": "Endurheimtaðu kaup þín ef þau birtast ekki.",
-
-  "premiumBuyCredits200": "Kauptu 200 hugleiðingar",
-  "premiumBuyCredits400": "Kauptu 400 hugleiðingar",
-  "premiumBecomeChampionOneTime": "Uppfærðu í Barakah hamur",
-  "premiumChampionHint": "Sem Barakah geturðu endurgreiðslað með aukahugleiðingum hvenær sem þú þarft.",
-
+  "premiumProcessing": "Vinn…",
+  "premiumRestoreHintTitle": "Ertu nú þegar búin/n að kaupa Wilaya eða íhuganir á þessu eða öðru tæki?",
+  "premiumRestoreHintBody": "Endurheimtu kaupin þín ef þau birtast ekki.",
+  "premiumBuyCredits200": "Kaupa 200 íhuganir",
+  "premiumBuyCredits400": "Kaupa 400 íhuganir",
+  "premiumBecomePremiumOneTime": "Uppfæra í Wilaya ham",
+  "premiumTopupHint": "Með Wilaya geturðu bætt við aukalegum íhugunum hvenær sem þú þarft.",
   "premiumUpgradeCta": "Uppfæra",
-  "premiumRequiredForCategory": "Þessi flokkur er aðeins í boði fyrir Barakah notendur. Uppfærðu í Stillingum til að opna allt iðninnihald.",
-  "premiumBenefitsBasic": "Opnaðu Barakah til að fá aukahugleiðingar, aðgang að iðnflokka, og halda áfram hvenær sem þú þarft leiðsögn.",
-  "premiumBenefitsChampion": "Þú ert í Barakah hamri. Ef þú ert með lítið, bættu nokkrum aukahugleiðingum við og haltu áfram án truflunar.",
-  "premiumButtonBecomeChampion": "Opnaðu Barakah",
-  "premiumButtonTopup1000": "Bæta við 1000 hugleiðingum",
-  "premiumChampionBadge": "Barakah virk",
-  "premiumLoadingStore": "Hleð búð…",
-
-  "blessedTitle": "Barakah hamur",
-  "blessedSubtitleGrace": "Opnaðu fullt Ayara reynslu.",
-  "blessedSubtitleBlessed": "Þú ert Barakah. Þarftu fleiri hugleiðingar?",
-
-  "blessedCurrentPlan": "Núverandi áætlun: {plan}",
-  "blessedReflectionsStatus": "Hugleiðingar: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Kaup eru ekki tiltæk núna.",
-  "blessedProductNotAvailable": "Þessi vöru er ekki tiltæk í búðinni ennþá. Prófaðu aftur síðar.",
-  "blessedPurchaseError": "Eitthvað fór úrskeiðis við kaupið. Prófaðu aftur.",
-  "blessedSignInToPurchase": "Skrá þig inn til að kaupa hugleiðingar eða opna Barakah.",
-
-  "blessedRestorePurchases": "Endurheimta kaup",
-  "blessedProcessing": "Vinnsla…",
-  "blessedRestoreHintTitle": "Hefur þú þegar keypt Barakah eða hugleiðingar á þessu tæki eða öðru?",
-  "blessedRestoreHintBody": "Endurheimtaðu kaup þín ef þau birtast ekki.",
-
-  "blessedBuyReflections100": "Bæta við 100 hugleiðingum",
-  "blessedBuyReflections200": "Kauptu 200 hugleiðingar",
-  "blessedBuyReflections400": "Kauptu 400 hugleiðingar",
-  "blessedBecomeBlessedOneTime": "Uppfærðu í Barakah",
-  "blessedTopupHint": "Sem Barakah geturðu endurgreiðslað með aukahugleiðingum hvenær sem þú þarft.",
-
-  "blessedUpgradeCta": "Uppfæra",
-  "blessedRequiredForCategory": "Þessi flokkur er aðeins í boði fyrir Barakah notendur. Uppfærðu í Stillingum til að opna allt iðninnihald.",
-  "blessedFeatureLocked": "Opnaðu Barakah til að fá aðgang að þessum eiginleika.",
-  "lockedCategoriesHint": "Sumir flokkar eru fráteknir fyrir Barakah meðlimi. Opnaðu þá til að kanna hverja hugleiðingu á þinni leið.",
-  "blessedBenefitsGrace": "Opnaðu Barakah til að fá aukahugleiðingar, aðgang að iðnflokka, og halda áfram hvenær sem þú þarft leiðsögn.",
-  "blessedBenefitsBlessed": "Þú ert í Barakah hamri. Ef þú ert með lítið, bættu nokkrum aukahugleiðingum við og haltu áfram án truflunar.",
-  "blessedButtonBecomeBlessed": "Opnaðu Barakah",
-  "blessedButtonTopup1000": "Bæta við 1000 hugleiðingum",
-  "blessedBadge": "Barakah virk",
-  "blessedLoadingStore": "Hleð búð…",
-
-  "freePlanBlockedTitle": "Þú hefur notað byrjunarhugleiðingar þínar",
-  "freePlanBlockedBody": "Þú ert á Hefðbundna áætlun með byrjunarhugleiðingum og þú hefur náð markinu. Til að halda áfram — og opna iðnflokka — uppfærðu í Barakah.",
-  "freePlanBlockedCtaGoPremium": "Sjá Barakah valkosti hér að neðan",
-
-  "graceBlockedTitle": "Þú hefur notað byrjunarhugleiðingar þínar",
-  "graceBlockedBody": "Þú ert á Hefðbundna áætlun með byrjunarhugleiðingum og þú hefur náð markinu. Til að halda áfram — og opna iðnflokka — uppfærðu í Barakah.",
-  "graceBlockedCtaGoBlessed": "Sjá Barakah valkosti hér að neðan",
-
-  "rateGuestMustSignIn": "Skrá þig inn til að nota Ayara og hugleiðingar þínar.",
-
+  "premiumRequiredForCategory": "Þessi flokkur er aðeins í boði fyrir Wilaya notendur. Uppfærðu í Stillingum til að opna allt úrvalsinnihald.",
+  "premiumBenefitsBasic": "Opnaðu Wilaya til að fá fleiri íhuganir, aðgang að aukaflokkum og halda áfram þegar þú þarft leiðsögn.",
+  "premiumBenefitsPremium": "Þú ert í Wilaya ham. Ef þú ert að verða búin/n skaltu bæta við fleiri íhugunum og halda áfram án truflana.",
+  "premiumButtonBecomePremium": "Opna Wilaya",
+  "premiumButtonTopup1000": "Bæta við 1000 íhugunum",
+  "premiumBadge": "Wilaya virkt",
+  "premiumLoadingStore": "Hleð verslun…",
+  "premiumProductNotAvailable": "Þessi vara er ekki enn í boði í versluninni. Vinsamlegast reyndu aftur síðar.",
+  "premiumPurchaseError": "Eitthvað fór úrskeiðis við kaupin. Vinsamlegast reyndu aftur.",
+  "premiumBuyCredits100": "Bæta við 100 íhugunum",
+  "premiumFeatureLocked": "Opnaðu Wilaya til að nota þennan eiginleika.",
+  "lockedCategoriesHint": "Sumir flokkar eru fráteknir fyrir Wilaya meðlimi. Opnaðu þá til að kanna allar íhuganir á ferðalaginu þínu.",
+  "freePlanBlockedTitle": "Þú hefur notað allar byrjunaríhuganirnar þínar",
+  "freePlanBlockedBody": "Þú ert á Staðlaðri áætlun með byrjunaríhugunum og hefur náð hámarkinu. Til að halda áfram — og opna aukaflokka — skaltu uppfæra í Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Sjáðu Wilaya valkostina hér að neðan",
+  "graceBlockedTitle": "Þú hefur notað allar byrjunaríhuganirnar þínar",
+  "graceBlockedBody": "Þú ert á Staðlaðri áætlun með byrjunaríhugunum og hefur náð hámarkinu. Til að halda áfram — og opna aukaflokka — skaltu uppfæra í Wilaya.",
+  "graceBlockedCtaGoPremium": "Sjáðu Wilaya valkostina hér að neðan",
+  "rateGuestMustSignIn": "Skráðu þig inn til að nota Ayara og íhuganirnar þínar.",
   "guestNoCreditsTitle": "Gestahamur",
-  "guestNoCreditsBody": "Sem gestur geturðu ábókaðu appið, en þú getur ekki notað hugleiðingar. Skrá þig inn síðar í Stillingum til að nota hugleiðingar og opna kaup.",
-
-  "guestNoReflectionsTitle": "Gestahamur",
-  "guestNoReflectionsBody": "Sem gestur geturðu ábókaðu appið, en þú getur ekki notað hugleiðingar. Skrá þig inn síðar í Stillingum til að nota hugleiðingar og opna kaup.",
-
+  "guestNoCreditsBody": "Sem gestur geturðu skoðað appið, en þú getur ekki notað íhuganir. Skráðu þig inn síðar í Stillingum til að nota íhuganir og opna kaup.",
   "guestDialogContinue": "Halda áfram",
   "guestDialogLoginInstead": "Skrá inn í staðinn",
-
   "optionalLabel": "valfrjálst",
-
-  "accountDeleteSuccessTitle": "Reikningur eyðaður",
-  "accountDeleteSuccessBody": "Reikningur þinn og tengd gögn hafa verið eyðað með góðum árangri.",
+  "accountDeleteSuccessTitle": "Reikningi eytt",
+  "accountDeleteSuccessBody": "Reikningi þínum og tengdum gögnum hefur verið eytt með góðum árangri.",
   "accountDeleteSuccessClose": "Loka",
-  "accountDeleteErrorTitle": "Gat ekki eyðað reikningi",
-  "accountDeleteErrorClose": "Já",
-  "accountDeleteReauthCancelled": "Endurauðkenningu var hætt við. Skrá þig inn aftur og reyndu aftur.",
-  "accountDeleteReauthRequired": "Eyðing reiknings krefst nýlegrar innskráningar. Skrá út, skrá inn aftur, og reyndu aftur.",
-  "settingsDeletePermanentWarning": "Þessi aðgerð er varanleg og ekki hægt að afturkalla. Öll gögn tengd reikningnum þínum verða eyðuð.",
-
+  "accountDeleteErrorTitle": "Ekki tókst að eyða reikningi",
+  "accountDeleteErrorClose": "Í lagi",
+  "accountDeleteReauthCancelled": "Endurauðkenning var hætt við. Vinsamlegast skráðu þig inn aftur og reyndu eyðinguna aftur.",
+  "accountDeleteReauthRequired": "Eyðing reiknings krefst nýlegrar innskráningar. Vinsamlegast skráðu þig út, inn aftur og reyndu svo aftur.",
+  "settingsDeletePermanentWarning": "Þessi aðgerð er varanleg og ekki hægt að afturkalla hana. Öllum gögnum sem tengjast reikningnum þínum verður eytt.",
   "dailyGraceTitle": "Dagleg leiðsögn",
-  "dailyGraceScriptureLabel": "KÓRANRÚN DAGSINS",
+  "dailyGraceScriptureLabel": "VERS DAGSINS",
   "dailyGraceSaintLabel": "FRÆÐIMAÐUR VIKUNNAR",
-  "dailyGraceReflectionLabel": "KVÖLD HUGLEIÐING",
-  "dailyGraceCopiedToast": "Rúna afritin á klemmuna",
-
-  "dailyScripture0Text": "Loflegir munu vissulega vera meðal garða og strauma, á heiðursæti hjá öflugum Konungi.",
-  "dailyScripture0Ref": "Kóran 54:54-55",
-  "dailyScripture1Text": "Og við höfum ekki sent þig, [ó Muhammad], nema sem misericordia fyrir heiminn.",
-  "dailyScripture1Ref": "Kóran 21:107",
-  "dailyScripture2Text": "Er Allah ekki nægur fyrir þjón sinn? Samt hræða þeir þig við aðra fyrir utan hann.",
-  "dailyScripture2Ref": "Kóran 39:36",
-  "dailyScripture3Text": "Kannski hatrar þú eitthvað og það er gott fyrir þig; og kannski elskar þú eitthvað og það er slæmt fyrir þig. En Allah veit meðan þú veist ekki.",
-  "dailyScripture3Ref": "Kóran 2:216",
-  "dailyScripture4Text": "Loflegir munu Allah vera með þolinmóðunum.",
-  "dailyScripture4Ref": "Kóran 2:153",
-  "dailyScripture5Text": "Svo mundu minstu minn; ég mun minnast þín. Og vertu þakkláti við mig og neita mér ekki.",
-  "dailyScripture5Ref": "Kóran 2:152",
-  "dailyScripture6Text": "Loflegir munu auðlegirstu yfir þér í augum Allahs vera þeir sem eru hræddari fyrir honum.",
-  "dailyScripture6Ref": "Kóran 49:13",
-  "dailyScripture7Text": "Og Drottinn þinn hefur ákveðið að þú dýrkaðu engan nema hann, og að þú verirt skyldug við foreldra þína.",
-  "dailyScripture7Ref": "Kóran 17:23",
-  "dailyScripture8Text": "Loflegir, með erfiðleikum kemur auðveldi.",
-  "dailyScripture8Ref": "Kóran 94:6",
-  "dailyScripture9Text": "Og hann er með þér hvar sem þú ert. Og Allah, af því sem þú gerir, er sér.",
-  "dailyScripture9Ref": "Kóran 57:4",
-  "dailyScripture10Text": "Allah leggur ekki á sál lengra en hún getur borið.",
-  "dailyScripture10Ref": "Kóran 2:286",
-  "dailyScripture11Text": "Og sá sem treystir á Allah — þá er hann nægur fyrir hann.",
-  "dailyScripture11Ref": "Kóran 65:3",
-  "dailyScripture12Text": "Misericordia mín nær öllum hlutum.",
-  "dailyScripture12Ref": "Kóran 7:156",
-  "dailyScripture13Text": "Og þegar þjónar mínir spyrja þig um mig — sannarlega ég er nálægt. Ég svarum bæninni þegar hann kallar á mig.",
-  "dailyScripture13Ref": "Kóran 2:186",
-  "dailyScripture14Text": "Sá sem gerir réttlætni, hvort sem drengur eða stúlka, á meðan hann trúir — við munum þá vissulega valda honum að lifa góðu lífi.",
-  "dailyScripture14Ref": "Kóran 16:97",
-  "dailyScripture15Text": "Loflegir, Allah mun ekki breyta aðstæðum fólks þar til þeir breyta því sem er í sjálfum sér.",
-  "dailyScripture15Ref": "Kóran 13:11",
-  "dailyScripture16Text": "Svo ekki veiklastu og ekki syrgaðu, og þú værir betri ef þú ert sannarlega trúandi.",
-  "dailyScripture16Ref": "Kóran 3:139",
-  "dailyScripture17Text": "Ó þjónar mínir sem hefur gangatruflunar á sjálfa þig, ekki vera gálaus um misericordia Allahs. Loflegir, Allah fyrirgefur allar syndir.",
-  "dailyScripture17Ref": "Kóran 39:53",
-  "dailyScripture18Text": "Og sá sem á lotningu fyrir Allah — hann mun gera fyrir hann leið út, og mun veita honum frá því hann myndar ekki.",
-  "dailyScripture18Ref": "Kóran 65:2-3",
-  "dailyScripture19Text": "Ekki tapa von um misericordia Allahs.",
-  "dailyScripture19Ref": "Kóran 12:87",
-  "dailyScripture20Text": "Og við höfum vissulega gert Kóraninn auðvelt að muna. Svo er einhver sem mun vera varkár?",
-  "dailyScripture20Ref": "Kóran 54:17",
-  "dailyScripture21Text": "Og hann fann þig týndan og leiddi þig.",
-  "dailyScripture21Ref": "Kóran 93:7",
-  "dailyScripture22Text": "Og Drottinn þinn segir: Kallið á mig; ég mun svara þér.",
-  "dailyScripture22Ref": "Kóran 40:60",
-  "dailyScripture23Text": "Og við höfum vissulega virðilegt börn Adams.",
-  "dailyScripture23Ref": "Kóran 17:70",
-  "dailyScripture24Text": "Og leit hjálp gegn þolinmæði og bæn.",
-  "dailyScripture24Ref": "Kóran 2:45",
-  "dailyScripture25Text": "Sá sem gerir atóm þyngd af góðu mun sjá það.",
-  "dailyScripture25Ref": "Kóran 99:7",
-  "dailyScripture26Text": "Óðiskuldi, hjálp Allahs er nálægt.",
-  "dailyScripture26Ref": "Kóran 2:214",
-  "dailyScripture27Text": "Og sá sem er þakklátur — þakklætis hans er aðeins fyrir hag sjálfs sín.",
-  "dailyScripture27Ref": "Kóran 31:12",
-
-  "dailyReflection0": "Þegar þessi dagur endar, íhugaðu eina stund þar sem misericordia Allahs var augljós.",
-  "dailyReflection1": "Komdu fyrir Allah hvað sem þyngdi hjartanu þínu í dag.",
-  "dailyReflection2": "Nefndu eina blöskun frá þessum degi og tjáðu þakklæti til Allahs.",
-  "dailyReflection3": "Hvílstu í þeirri vitneskju að þú ert heldur í óendanlegri umönnun Allahs.",
-  "dailyReflection4": "Hugleiddu hvar þú fandst kallandi til að sýna samúð og vinsemd í dag.",
-  "dailyReflection5": "Sleyptu því sem þú getur ekki stjórnað og treystandi á fullkomna áætlun Allahs.",
-  "dailyReflection6": "Þegar dagurinn nær þvi að ljúka, taktu róa í minningum á Allah.",
-  "dailyReflection7": "Íhugaðu hvernig þú virðaðir bænir þínar í dag og takk Allah fyrir hverja eina.",
-  "dailyReflection8": "Hugleiddu augnablik þar sem þolinmæði (Sabr) leiddi athafnir þínar í dag.",
-  "dailyReflection9": "Biðjaðu fyrirgefningu fyrir hvaða skort í dag — misericordia Allahs er endalaus.",
-  "dailyReflection10": "Nefndu einn aðila sem þú sýndir vinsemd í dag og gerðu dua fyrir hann.",
-  "dailyReflection11": "Sittu með þakklæti: hvað veitti Allah þér í dag sem þú beidst ekki um?",
-  "dailyReflection12": "Hugleiddu runu úr Kóraninu sem talar um þar sem þú ert núna.",
-  "dailyReflection13": "Íhugaðu hvernig þú notaðir tíma þinn í dag — og boðaðu morguna til Allahs.",
-  "dailyReflection14": "Hvílstu með vitandi að hvað sem erfiðleikar komu í dag var Allah með þér gegnum það.",
-  "dailyReflection15": "Hugleiddu hvernig þú þjónaðir fjölskyldu þinni eða samfélagi í dag fyrir Allah's sake.",
-  "dailyReflection16": "Þegar nóttin dregur, gerðu Tawbah — Allah elskar þá sem snúast aftur til hans.",
-  "dailyReflection17": "Hugleiddu fegurðina sem Allah setti í þinn dag, hvernig sem lítið.",
-  "dailyReflection18": "Íhugaðu hvað þú lærðir í dag og hvernig það dregur þig nær Allah.",
-  "dailyReflection19": "Látu áhyggjur dagsins hvílast hjá Allah — hann ber það sem þú getur ekki.",
-  "dailyReflection20": "Hugleiddu augnablik í dag þar sem þú hefðir getað valið betur, og lærðu af því hlæsilega.",
-  "dailyReflection21": "Gerðu dua fyrir þá sem eru í baráttu — bæn þín er gjöf fyrir þá.",
-  "dailyReflection22": "Muna sér um blöskun sem þú gleymist oft og taktu stund til að takk Allah fyrir hana.",
-  "dailyReflection23": "Hugleiddu ætlanir þínar í dag — voru þær fyrir Allah? Í morgun, byrjaðu aftur.",
-  "dailyReflection24": "Þegar kvöldin róar, hlakkaðu til nálægðar Allahs í þögninni.",
-  "dailyReflection25": "Íhugaðu hvar þú fandst styrk í dag — þessi styrkur er frá Allah.",
-  "dailyReflection26": "Nefndu eitt sem þú gerir í morgun, fyrir Allah's sake, sem þú gerðir ekki í dag.",
-  "dailyReflection27": "Þegar þú undirbýrðu þig fyrir hvíld, afsalaðu sál þinni Allah — hann er besti varðstjórinn.",
-
-  "dailyRoleModel0": "Spámaðurinn Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Spámaðurinn Ibrahim (AS)",
-  "dailyRoleModel44": "Spámaðurinn Musa (AS)",
-  "dailyRoleModel45": "Spámaðurinn Isa (AS)",
-  "dailyRoleModel46": "Spámaðurinn Yusuf (AS)",
-  "dailyRoleModel47": "Spámaðurinn Dawud (AS)",
-  "dailyRoleModel48": "Spámaðurinn Sulayman (AS)",
-  "dailyRoleModel49": "Spámaðurinn Nuh (AS)",
-  "dailyRoleModel50": "Spámaðurinn Yunus (AS)",
-  "dailyRoleModel51": "Spámaðurinn Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Leyfðu Ayara að nota staðsetningu mína fyrir Qibla stefnu og bænatíma",
-  "locationConsentHint": "Aðeins notað fyrir þessa eiginleika. Staðsetning þín er aldrei deilt eða geymd.",
-
-  "askPageTitle": "Spyrjið Ayara",
-  "askPageDescription": "Spyrjið allt um trú, bæn, líf eða Íslamsarkstjórn og fáðu leiðsögn sem byggir á Kóraninu og Sunnu.",
-  "askPageInputHint": "Sláðu inn spurningu þína hér…",
+  "dailyGraceReflectionLabel": "KVÖLDÍHUGUN",
+  "dailyGraceCopiedToast": "Vers afritað á klemmuspjald",
+  "locationConsentLabel": "Leyfa Ayara að nota staðsetningu mína fyrir qibla-stefnu og bænatíma",
+  "locationConsentHint": "Notað eingöngu fyrir þessa eiginleika. Staðsetning þín er hvorki deilt né vistuð.",
+  "askPageTitle": "Spyrðu Ayara",
+  "askPageDescription": "Spyrðu hvað sem er um trú, bæn, líf eða íslamska iðkun og fáðu leiðsögn byggða á Kóraninum og kenningum Ahl al-Bayt.",
+  "askPageInputHint": "Skrifaðu spurninguna þína hér…",
   "askPageSubmitCta": "Spyrja",
-  "askPageInputEmptyError": "Skrifaðu spurningu fyrst.",
-  "askResultYourQuestion": "Spurningu þín",
-
-  "guidancePageTitle": "Bæn og leiðsögn",
-  "qiblaFacingMecca": "Þaðan til Mekka",
-  "qiblaCompassInstruction": "Snúðu símann þínum þar til gullna nálin bendir upp.\nÞá stefnan bendir á Qibla (Mekka).",
-  "qiblaGpsUnavailableBody": "GPS merki er veikt. Farðu út og taktu til aftur.",
+  "askPageInputEmptyError": "Vinsamlegast skrifaðu spurningu fyrst.",
+  "askResultYourQuestion": "Spurningin þín",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "Snýr að Makkah",
+  "qiblaCompassInstruction": "Snúðu símanum þar til gullna nálin bendir upp.\nSú stefna bendir að qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "GPS-merkið er veikt. Farðu út og pikkaðu á Reyna aftur.",
   "qiblaRetry": "Reyna aftur",
-  "qiblaTitle": "Qibla stefna",
-  "qiblaDistanceLabel": "{km} km til Mekka",
+  "qiblaTitle": "Qibla-stefna",
+  "qiblaDistanceLabel": "{km} km til Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "Staðsetning krafist",
-  "qiblaLocationNeededBody": "Leyfðu staðsetningaraðgangi svo Ayara geti reiknað stefnuna á Kaaba í Mekka frá þar sem þú ert.",
-  "qiblaOpenSettings": "Opna stillingar",
-  "qiblaCompassLoading": "Finndu stöðu þína…",
-  "qiblaTowardMecca": "Í átt að Mekka",
-
+  "qiblaLocationNeededTitle": "Staðsetning nauðsynleg",
+  "qiblaLocationNeededBody": "Leyfðu aðgang að staðsetningu svo Ayara geti reiknað stefnu Kaaba í Makkah frá þeim stað sem þú ert á.",
+  "qiblaOpenSettings": "Opna Stillingar",
+  "qiblaCompassLoading": "Finn staðsetningu þína…",
+  "qiblaTowardMecca": "Í átt að Makkah",
   "prayerTimesTitle": "Bænatímar",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
-  "prayerTimesLocationNeededTitle": "Staðsetning krafist",
-  "prayerTimesLocationNeededBody": "Leyfðu staðsetningaraðgangi svo Ayara geti reiknað nákvæma bænatíma fyrir borg þína.",
-  "prayerTimesNextLabel": "Næst",
+  "prayerTimesLocationNeededTitle": "Staðsetning nauðsynleg",
+  "prayerTimesLocationNeededBody": "Leyfðu aðgang að staðsetningu svo Ayara geti reiknað nákvæma bænatíma fyrir borgina þína.",
+  "prayerTimesNextLabel": "Næsta",
   "prayerTimesDoneLabel": "Lokið",
-
   "monthlyPrayerTimesTitle": "Mánaðarlegir bænatímar",
-  "monthlyPrayerTimesViewButton": "Skoðaðu fullan mánuð",
-  "monthlyPrayerTimesNextMonth": "Næsti mánuð",
+  "monthlyPrayerTimesViewButton": "Skoða allan mánuðinn",
+  "monthlyPrayerTimesNextMonth": "Næsti mánuður",
   "monthlyPrayerTimesDayHeader": "Dagur",
-
   "sharePrayerTimes": "Deila bænatímum",
-
-  "prayerNotificationsTitle": "Bænatilkynningar",
-  "prayerNotificationsDescription": "Taktu þína hugleiðingu fyrir hvern bænatíma til að hjálpa þér að halda sambandi allan daginn.",
-  "prayerNotificationsEnable": "Virkja bænatilkynningar",
+  "notificationsSectionTitle": "Tilkynningar",
+  "notificationsSectionSubtitle": "Bænaáminningar, dagatalsviðburðir og fleira",
+  "dailyReflectionReminderTitle": "Dagleg íhugun",
+  "dailyReflectionReminderDescription": "Mild dagleg áminning um að opna Ayara og tengjast trú þinni.",
+  "dailyReflectionReminderEnable": "Virkja daglega áminningu",
+  "dailyReflectionReminderTimeLabel": "Tími áminningar",
+  "prayerNotificationsTitle": "Bænaáminningar",
+  "prayerNotificationsDescription": "Fáðu milda áminningu fyrir hvern bænatíma til að hjálpa þér að halda tengslum yfir daginn.",
+  "prayerNotificationsEnable": "Virkja bænaáminningar",
   "prayerNotificationsOpenSettings": "Opna tilkynningastillingar",
   "prayerNotificationsDenied": "Tilkynningar eru óvirkar",
-  "prayerNotificationsDeniedHint": "Farðu í stillingar og leyfðu tilkynningar fyrir Ayara til að fá bænatilkynningar.",
-
-  "notificationsConsentLabel": "Leyfðu tilkynningar fyrir bænatíma",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — gryning bæn",
-  "prayerNotifBodyFajr": "Bestu bænin er grynningbænin. Rístu, hreinsaðu þig og staðstu fyrir Allah.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — hádegs bæn",
-  "prayerNotifBodyDhuhr": "Slaktu daginn og snúðu þér aftur til Allahs. Dhuhr bænatími hefur komið.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — eftirhluti bæn",
-  "prayerNotifBodyAsr": "Vörðu miðjubænina. Asr tími hefur komið — ekki leyfa henni að fara.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — sólarlokunar bæn",
-  "prayerNotifBodyMaghrib": "Sólin hefur sett. Boðaðu Maghrib og vertu þakklátur til Allahs fyrir þennan dag.",
-
-  "prayerNotifTitleIsha": "🌙 Isha — kvöldar bæn",
-  "prayerNotifBodyIsha": "Endu daginn þinn með minningum á Allah. Hayya 'alal falah — komdu til sigurs.",
-
-  "outOfReflectionsBannerText": "Þú hefur notað allar hugleiðingar þínar",
-  "outOfReflectionsBannerCta": "Fáðu fleiri",
-
+  "prayerNotificationsDeniedHint": "Farðu í Stillingar og leyfðu tilkynningar fyrir Ayara til að fá áminningar um bænatíma.",
+  "notificationsConsentLabel": "Leyfa tilkynningar fyrir bænatíma",
+  "prayerNotifTitleFajr": "🌅 Fajr — Morgunbæn",
+  "prayerNotifBodyFajr": "Fajr er bæn morgna Ahl al-Bayt. Imam Ali (AS) sagði: Gættu morgunbænarinnar eins og þú gætir dýrmætasta trausts þíns. Rís upp, hreinsaðu þig og stattu frammi fyrir Allah.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Hádegisbæn",
+  "prayerNotifBodyDhuhr": "Imamar Ahl al-Bayt mátu hvert augnablik minningar. Staldraðu við yfir daginn, sameinaðu Dhuhr og Asr ef þörf krefur, og beindu hjarta þínu aftur að Allah.",
+  "prayerNotifTitleAsr": "🌤️ Asr — Síðdegisbæn",
+  "prayerNotifBodyAsr": "Gættu bænarinnar, því hún er sáttmáli milli þín og Allah. Tími Asr er kominn — láttu hann ekki líða án minningar.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Sólsetursbæn",
+  "prayerNotifBodyMaghrib": "Sólin hefur sest — stund sem Ahl al-Bayt töldu heilaga fyrir bæn og ákall. Flyttu Maghrib og lyftu höndunum til Allah í dua áður en nóttin hefst.",
+  "prayerNotifTitleIsha": "🌙 Isha — Næturbæn",
+  "prayerNotifBodyIsha": "Ljúktu deginum í návist Allah. Imamar hvöttu til Salat al-Layl eftir Isha — en fyrst skaltu ljúka Isha og loka deginum með minningu Hans.",
+  "outOfReflectionsBannerText": "Þú hefur notað allar íhuganirnar þínar",
+  "outOfReflectionsBannerCta": "Fá meira",
   "dhikrPageTitle": "Dhikr",
-  "dhikrTapToCount": "Snertu hringinn til að telja",
+  "dhikrTapToCount": "Pikkaðu á hringinn til að telja",
   "dhikrResetButton": "Endurstilla",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Þú hefur lokið 99 minningum á Allah. Mega þau vera ljós fyrir hjartanu þitt.",
-
-  "disclaimerTitle": "Um leiðsögn þessa appsins",
-  "disclaimerBody": "Ayara veitir Íslamsarlegri hugleiðingu, áminningar og andlegum efni til að styðja persónulega ferð þína um trúarbrott. Þetta innihald er boðið almennur gagnrýnendaupplýsingum og innblásnum tilgangi aðeins.\n\nAyara kemur ekki í stað fagfræðilegs náms.\nLeiðsögnin í þessu appi er ekki staðgengill fyrir þekktan Íslamsarlegri fræðimann, iman, mufti, eða fræðilega þjálfaðan kennara. Ef þú hefur spurningar um trúarlegum reglum, halal og haram málum, eða persónulegum trúarlegum skyldum, biðdu ábendingu frá hæfu trúarlegri yfirvöldum í þínu samfélagi.\n\nÞetta app gefur ekki út trúarlegir tilskipanir.\nAyara gerir ekki bindandi ákvarðanir um fiqh (Íslamsarlegt dómsmál) eða persónu trúarlegum skyldum. Ekkert hér ætti að meðhöndlast sem fatwa eða bindandi trúarlegri fyrirmæli.\n\nFræðilegar túlkanir eru mismunandi.\nÍslam nær yfir auðuga fjölbreytileika hefða, hugsunarskóla (madhabs), og fræðilegra skoðana. Innihald í þessu appi endurspeglar almennar sjónarhorn og getur ekki táð allt hefð eða skóla jafnt.\n\nSamfélag skiptir máli.\nÞetta app miðar að því að hvetja þig til að standa við hefðina um trúarbrott á meðan við virðum dýrðlegu hlutverk staðbundinna mosku þinnar, iman, og trúarlegs samfélags. Við hvetjum þig til að halda sambandi við og læra frá hæfum kennurum nálægt þér.",
+  "dhikrCompleteMessage": "Þú hefur lokið 100 minningum um Allah. Megi þær verða ljós fyrir hjarta þitt.",
+  "disclaimerTitle": "Um leiðsögn þessa apps",
+  "disclaimerBody": "Ayara veitir íslamskar íhuganir, áminningar og andlegt efni til að styðja persónulegt trúarferðalag þitt, rótgróið í Kóraninum og kenningum Ahl al-Bayt. Þetta efni er aðeins veitt í almennum upplýsingaskyni og til innblásturs.\n\nAyara kemur ekki í stað hæfrar fræðslu.\nLeiðsögnin í þessu appi kemur ekki í stað lærðs íslamsks fræðimanns, marja' eða kennara með guðfræðilega menntun. Í sjía-íslam byggist trúarleg leiðsögn á Ja'fari-skólanum í lögfræði (fiqh) og hefðinni að fylgja lifandi Marja' (fyrirmyndarheimild) — hæfum lögfræðingi sem leiðir trúaða í trúariðkun. Ef þú hefur spurningar um trúarleg úrskurði, halal og haram málefni eða persónulegar trúarlegar skyldur skaltu leita ráðgjafar hjá hæfum Marja' eða fræðimanni í samfélagi þínu.\n\nÞetta app gefur ekki út trúarlega úrskurði.\nAyara tekur ekki endanlegar ákvarðanir um málefni fiqh eða persónulegar trúarskyldur. Ekkert hér ætti að teljast fatwa eða bindandi trúarleg fyrirmæli.\n\nMiðlægt hlutverk Ahl al-Bayt.\nÍ sjía-íslam eru spámaðurinn Muhammad ﷺ og hreinsað heimili hans — Ahl al-Bayt — hinir viðurkenndu leiðsögumenn íslamska samfélagsins eftir Kóraninn. Tólf Imamar Ahl al-Bayt eru guðlega skipaðir túlkar íslamskra kenninga. Efnið í þessu appi endurspeglar þessa hefð og leitast við að heiðra hana af trúmennsku.\n\nSamfélagsmál.\nÞetta app miðar að því að hvetja þátttöku þína í trúarlífinu á sama tíma og það ber djúpa virðingu fyrir mikilvægu hlutverki staðbundinnar mosku, íslamskrar miðstöðvar og trúarsamfélags þíns. Við hvetjum þig til að halda tengslum við og læra af hæfum kennurum nálægt þér.",
   "disclaimerClose": "Ég skil",
-  "disclaimerInfoTooltip": "Um leiðsögn þessa appsins",
-  "disclaimerSettingsSubtitle": "Fyrir almenna gagnrýnendaupplýsingu eingöngu. Snertu til að lesa fulla fyrirvara.",
-  "disclaimerSectionHeader": "Leiðsögn fyrirvari"
+  "disclaimerInfoTooltip": "Um leiðsögn þessa apps",
+  "disclaimerSettingsSubtitle": "Aðeins í almennum upplýsingaskyni. Pikkaðu til að lesa allan fyrirvarann.",
+  "disclaimerSectionHeader": "Fyrirvari um leiðsögn",
+  "navHome": "Heim",
+  "navReflect": "Íhugun",
+  "navDuas": "Dua",
+  "navCalendar": "Dagatal",
+  "dashboardToday": "Í DAG",
+  "dashboardComingUp": "Framundan",
+  "dashboardDaysUnit": "{count, plural, one {dagur} other {dagar}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Flýtiaðgangur",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Leiðsögn",
+  "quickActionPrayerTimes": "Bænatímar",
+  "askAyaraTitle": "Spyrðu Ayara",
+  "askAyaraSubtitle": "Spyrðu hvaða íslömsku spurningar sem er og fáðu ígrundað, leiðandi svar.",
+  "askAyaraHint": "t.d. Hver er merking Ramadan?",
+  "askAyaraSubmit": "Spyrja",
+  "wisdomOfTheDayTitle": "Viska dagsins",
+  "calendarScreenTitle": "Íslamskt dagatal",
+  "calendarUpcomingOccasions": "Viðburðir framundan",
+  "calendarOccasionRemindersTitle": "Áminningar um viðburði",
+  "calendarOccasionRemindersHint": "Tilkynnt kvöldið fyrir hvern viðburð",
+  "calendarNotifPermissionDenied": "Tilkynningarheimild hafnað. Virkjaðu hana í stillingum tækisins.",
+  "calendarNoEvents": "Engir komandi viðburðir fundust.",
+  "calendarAddToPhone": "Bæta við síma dagatali",
+  "calendarAddedToPhone": "Bætt við dagatali",
+  "calendarCountdownToday": "Í DAG",
+  "calendarCountdownTomorrow": "Á MORGUN",
+  "calendarCountdownDays": "eftir {days} daga",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Jan",
+  "calendarMonthFeb": "Feb",
+  "calendarMonthMar": "Mar",
+  "calendarMonthApr": "Apr",
+  "calendarMonthMay": "Maí",
+  "calendarMonthJun": "Jún",
+  "calendarMonthJul": "Júl",
+  "calendarMonthAug": "Ágú",
+  "calendarMonthSep": "Sep",
+  "calendarMonthOct": "Okt",
+  "calendarMonthNov": "Nóv",
+  "calendarMonthDec": "Des",
+  "calendarSeasonMuharramEarly": "Dagar Muharram — minnast Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — dagar sorgar og íhugunar",
+  "calendarSeasonArbaeen": "Arbaeen — fjörutíu dagar Husayn",
+  "calendarSeasonRoadToArbaeen": "Leiðin til Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — dögun opinberunarinnar",
+  "calendarSeasonMidShaban": "Miður Sha'ban — afmæli Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — mánuður Kóransins",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Dua og Ziyarat",
+  "duasSearchHint": "Leita að dua, ziyarat…",
+  "duasFilterAll": "Allt",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} dua og ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Engar dua fundust.",
+  "duaCategoryDaily": "Daglegt",
+  "duaCategoryWeekly": "Vikulega",
+  "duaCategoryOccasions": "Viðburðir",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Fæðing",
+  "eventTypeMartyrdom": "Píslarvætti",
+  "eventTypeOccasion": "Viðburður",
+  "duaCopyTooltip": "Afrita þýðingu",
+  "duaToggleTransliteration": "Umritun",
+  "duaToggleTranslation": "Þýðing",
+  "duaAskAiLabel": "Biddu Ayara að útskýra þessa dua",
+  "duaAskAiLockedLabel": "Spyrja Ayara (Wilaya)",
+  "duaAiLockedMessage": "Útskýringar Ayara eru í boði fyrir Wilaya meðlimi. Uppfærðu í Stillingum.",
+  "duaAiComingSoon": "Spyrðu Ayara um „{name}“ — væntanlegt!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua afrituð á klemmuspjald.",
+  "tasbihAllahuAkbarMeaning": "Allah er mestur",
+  "tasbihAlhamdulillahMeaning": "Öll lofgjörð tilheyrir Allah",
+  "tasbihSubhanallahMeaning": "Dýrð sé Allah",
+  "tasbihResetTooltip": "Endurstilla",
+  "tasbihCompleteTitle": "Tasbih lokið",
+  "tasbihCompleteMessage": "Megi Allah taka við dhikr þinni.",
+  "tasbihTapHint": "Pikkaðu hvar sem er til að telja",
+  "tasbihatScreenTitle": "Bænaleiðarvísir",
+  "tasbihatScreenSubtitle": "LOFGJÖRÐIR BÆNARINNAR",
+  "tasbihatScreenDescription": "Heildarleiðbeiningar um lofgjörðirnar sem eru lesnar í og eftir daglegar bænir — samkvæmt hefð Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Lesið í 3. og 4. rakʿah",
+  "tasbihatArba3Info": "Í sjía-lögfræði kemur Tasbiḥāt al-Arbaʿa í stað Surah al-Fatiha í 3. og 4. rakʿah Dhuhr, Asr, Maghrib og Isha. Það er skylt (wājib) að lesa það einu sinni og mælt með (mustaḥabb) að lesa það þrisvar.",
+  "tasbihatArba3Translation": "Dýrð sé Allah · Öll lofgjörð tilheyrir Allah\nEnginn guð er nema Allah · Allah er mestur",
+  "tasbihatArba3CompleteTitle": "Yfirlestur lokið",
+  "tasbihatArba3CompleteMessage": "Megi bæn þín vera samþykkt — Āmīn",
+  "tasbihatArba3TapHint": "Pikkaðu eftir hvern lestur",
+  "tasbihatZahraSubtitle": "Eftir hverja bæn · 100 perlur",
+  "tasbihatZahraOriginLabel": "Uppruni",
+  "tasbihatZahraHadith": "Fatima al-Zahra (sa) bað spámanninn ﷺ um þjón. Hann sagði: „Á ég ekki að leiða þig að einhverju betra? Lestu Subḥānallāh 33 sinnum, Alḥamdulillāh 33 sinnum og Allāhu Akbar 34 sinnum eftir hverja bæn. Það er þér betra en þjónn.“",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, 85. bindi",
+  "tasbihatZahraOpenCounter": "Opna Tasbīḥ teljara",
+  "tasbihatDuasTitle": "MÆLTAR DUA",
+  "tasbihatDuasSubtitle": "Eftir að þú lýkur bæninni",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Eftir hverja skyldubæn",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Sá sem les Āyat al-Kursī eftir hverja skyldubæn, ekkert stendur á milli hans og paradísar nema dauðinn. Imam al-Bāqir (a) sagði að þetta væri meðal stærstu versa Kóransins.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Eftir hverja bæn · innsiglar allar dua",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Mælt er með að senda blessanir yfir spámanninn ﷺ og hreina fjölskyldu hans (Āl Muḥammad) til að innsigla hverja dua. Imam al-Ṣādiq (a) sagði: „Sérhver dua hangir ósvarað þar til þú sendir ṣalawāt yfir Muḥammad og fjölskyldu hans.“",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Eftir hverja bæn · fyrir Imam tímans okkar",
+  "tasbihatDuaFarajSource": "Kennd af Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "Dua fyrir endurkomu Imam al-Mahdī (af), tólfta Imam, kennd af föður hans. Sjía-trúaðir lesa hana daglega eftir hverja bæn sem tákn hollustu við hinn lifandi Imam.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ Fatimu",
+  "tasbihatDuaTasbihFatimaWhen": "Eftir Maghrib og Isha · sérstaklega mælt með",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) sagði að það að lesa Tasbīḥ al-Zahrā eftir Isha fyrir svefn væri betra en 1000 rakʿah af sjálfboðabæn. Ljós hennar stígur til himna.",
+  "tasbihFatimaGiftPre": "Gjöf frá spámanninum",
+  "tasbihFatimaGiftPost": "lesið eftir hverja bæn",
+  "prayerTrackerTitle": "BÆNASKRÁNING",
+  "prayerTrackerPrayed": "Beðið",
+  "prayerTrackerDayStreak": "{count} daga lota",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Allar bænir dagsins hafa verið lokið. Megi Allah taka við þeim.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Lokið í dag",
+  "dhikrTrackerNotDoneToday": "Ekki gert í dag",
+  "dhikrTrackerDayStreak": "{count} daga lota",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Tasbīḥ áminning",
+  "dhikrReminderDescription": "Mild dagleg áminning um að lesa Tasbīḥ al-Zahrā (SA).",
+  "dhikrReminderEnable": "Virkja Tasbīḥ áminningu",
+  "dhikrReminderTimeLabel": "Tími áminningar",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Dagleg hadith",
+  "hadithLabelArabic": "ARABÍSKA",
+  "hadithLabelTranslation": "ÞÝÐING",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Deila þessari hadith",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nFrá Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Fyrri",
+  "hadithNavNext": "Næsta",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "Hinir 14 Masumeen",
+  "imamsScreenSubtitle": "Spámaðurinn, Fatima og hinir tólf Imamar — hinir óskeikulu leiðsögumenn íslams",
+  "imamLabelBorn": "Fædd/ur",
+  "imamLabelMartyrdom": "Píslarvætti",
+  "imamLabelStatus": "Staða",
+  "imamSectionBiography": "ÆVISAGA",
+  "imamSectionFamousSaying": "FRÆGT ORÐTAK",
+  "imamRoleProphet": "Síðasti spámaðurinn",
+  "imamRoleInfallible": "Hinn óskeikuli",
+  "imamOrdinal1": "1. Imam",
+  "imamOrdinal2": "2. Imam",
+  "imamOrdinal3": "3. Imam",
+  "imamOrdinal4": "4. Imam",
+  "imamOrdinal5": "5. Imam",
+  "imamOrdinal6": "6. Imam",
+  "imamOrdinal7": "7. Imam",
+  "imamOrdinal8": "8. Imam",
+  "imamOrdinal9": "9. Imam",
+  "imamOrdinal10": "10. Imam",
+  "imamOrdinal11": "11. Imam",
+  "imamOrdinal12": "12. Imam",
+  "duaAudioScreenTitle": "Hlusta á dua",
+  "duaAudioScreenSubtitle": "Veldu dua til að hlusta á. Pikkaðu á flísina til að spila eða gera hlé.",
+  "duaAudioComingSoonMessage": "Hljóð fyrir þessa dua verður í boði í næstu uppfærslu.",
+  "duaAudioClose": "Loka",
+  "duaAudioError": "Ekki tókst að hlaða hljóðinu. Vinsamlegast athugaðu tenginguna þína.",
+  "duaAudioMetaTransmittedBy": "Flutt af",
+  "duaAudioMetaOccasion": "Viðburður",
+  "duaAudioMetaDuration": "Lengd",
+  "quickActionDailyHadith": "Dagleg hadith",
+  "quickAction14Masumeen": "14 Masumeen",
+  "quickActionListenDuas": "Hlusta",
+  "quickActionTasbihat": "Bænaleiðarvísir",
+  "pilgrimageSectionTitle": "Hin heilaga ferð",
+  "pilgrimageSectionSubtitle": "Heildarleiðbeiningar fyrir Hajj og Umrah — pílagrímsferðina til hins heilaga húss Allah í Mekka",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "Fimmta stoð íslams",
+  "hajjCardDescription": "Hin mikla árlega pílagrímsferð — skylda einu sinni á ævinni fyrir hvern múslima sem getur",
+  "hajjScreenTitle": "Hajj leiðarvísir",
+  "hajjScreenSubtitle": "Skref fyrir skref leiðarvísir fyrir hina miklu pílagrímsferð",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "Hin minni pílagrímsferð",
+  "umrahCardDescription": "Andleg ferð með miklum launum sem má framkvæma hvenær sem er á árinu",
+  "umrahScreenTitle": "Umrah leiðarvísir",
+  "umrahScreenSubtitle": "Skref fyrir skref leiðarvísir fyrir hina minni pílagrímsferð",
+  "pilgrimageStepsTitle": "Ritúöl og skref",
+  "pilgrimageImportantNotesTitle": "Mikilvægar athugasemdir",
+  "pilgrimageDuaTitle": "Dua fyrir þetta skref",
+  "pilgrimageJafariNoteTitle": "Ja'fari fiqh athugasemd",
+  "pilgrimageComplete": "✓ Lokið",
+  "pilgrimageMarkDone": "Merki sem lokið",
+  "pilgrimageProgress": "{done} af {total} skrefum",
+  "pilgrimageReadTime": "~{minutes} mín",
+  "pilgrimageShiaNoteTitle": "Sjía-pílagrímar",
+  "pilgrimageShiaNoteBody": "Sjía-pílagrímar ferðast einnig hefðbundið til Medina til að heimsækja gröf spámannsins Muhammad (SAW) í Masjid al-Nabawi og grafir Imamara í Jannat al-Baqi. Þessar heimsóknir hafa gríðarlega andlega þýðingu og eru taldar órjúfanlegur hluti ferðarinnar fyrir flesta sjía-múslima.",
+  "hajjIntro": "Hajj er fimmta stoð íslams og skylda einu sinni á ævinni fyrir hvern múslima sem hefur líkamlega og fjárhagslega getu. Hún er framkvæmd í mánuðinum Dhul Hijjah og rekur spor spámannsins Ibrahim (AS), sonar hans Ismail (AS) og Hajar. Fyrir sjía-múslima felur Hajj einnig í sér hina djúpu blessun að heimsækja hvíldarstaði spámannsins (SAW) og Ahlul Bayt í Medina.",
+  "umrahIntro": "Umrah er hin minni pílagrímsferð til Mekka og, ólíkt Hajj, má framkvæma hana hvenær sem er á árinu. Þó hún sé ekki skylda ber hún með sér mikinn andlegan ávinning og er talin mjög mælt með sem tilbeiðsluverk. Hún deilir nokkrum ritúölum með Hajj en er styttri og samanstendur af fjórum meginathöfnum."
 }

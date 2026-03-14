@@ -1,585 +1,629 @@
 {
   "@@locale": "zh_HK",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "選擇你的語言",
-  "languageSelectSub": "你稍後可以在設定中更改",
+  "languageSelectSub": "你可以稍後在設定中更改",
   "actionContinue": "繼續",
-  "languageSuggestedHeader": "推薦",
+  "languageSuggestedHeader": "建議",
   "languageAllHeader": "所有語言",
-  "languageSuggestedBadge": "推薦",
+  "languageSuggestedBadge": "建議",
   "languageSearchHint": "搜尋…",
-
-  "planGrace": "標準",
-  "planBlessed": "巴拉卡",
-
-  "categoryDailyGuidance": "每日指引",
-  "categoryFaithTrust": "信仰與信賴",
-  "categoryPrayerReflection": "禮拜反思",
-  "categoryHopeDifficultTimes": "忍耐與希望",
-  "categoryForgiveness": "尋求寬恕",
-  "categoryLoveCompassion": "慈悲與同情",
-  "categoryStrengthCourage": "信仰力量",
-  "categoryGratitude": "感恩的心",
-  "categoryPurposeCalling": "人生目的",
-  "categoryFamilyRelationships": "家庭紐帶",
-  "categoryPeaceAnxietyRelief": "內心平靜",
-  "categoryWisdomOfJesus": "先知智慧",
-  "categoryHumilityCharacter": "良好品格",
-  "categoryOvercomingTemptation": "抗拒誘惑",
-  "categoryEveningReflection": "晚間贊念",
-  "categoryCustom": "個人反思",
-  "dhikrMeaningSubhanallah": "榮耀歸於真主",
-  "dhikrMeaningAlhamdulillah": "所有讚美都歸於真主",
-  "dhikrMeaningAllahuAkbar": "真主是偉大的",
-  "quranVerseHeartAtRest": "確實，在對真主的懷念中，心靈得以安息。",
-
-  "promptHint": "點擊一個類別以獲得伊斯蘭指引與反思",
-
+  "planBasic": "標準",
+  "planPremium": "Wilaya",
+  "categorySlot01": "每日指引",
+  "categorySlot02": "信仰與信賴",
+  "categorySlot03": "禮拜省思",
+  "categorySlot04": "忍耐與希望",
+  "categorySlot05": "祈求寬恕",
+  "categorySlot06": "慈憫與憐憫",
+  "categorySlot07": "信仰力量",
+  "categorySlot08": "感恩之心",
+  "categorySlot09": "人生目的",
+  "categorySlot10": "家庭聯繫",
+  "categorySlot11": "內心平靜",
+  "categorySlot12": "先知的智慧",
+  "categorySlot13": "良好品格",
+  "categorySlot14": "抗拒誘惑",
+  "categorySlot15": "晚間 Dhikr",
+  "categoryCustom": "個人省思",
+  "dhikrMeaningSubhanallah": "讚頌真主超絕萬物",
+  "dhikrMeaningAlhamdulillah": "一切讚頌全歸真主",
+  "dhikrMeaningAllahuAkbar": "真主至大",
+  "quranVerseHeartAtRest": "的確，心靈唯因記念真主而得安寧。",
+  "promptHint": "點選一個分類以獲得伊斯蘭指引與省思",
   "currentLanguage": "目前語言",
   "settingsLanguage": "語言設定",
   "settingsTitle": "設定",
   "chooseLanguage": "選擇你的語言",
   "continueCta": "繼續",
-
-  "promptDailyGuidance": "撰寫一篇簡短且實用的每日指引，根植於遜尼派伊斯蘭信仰——以《古蘭經》、聖訓和先知穆罕默德的教導為基礎。每次選擇一個新的角度：伊斯蘭倫理中的美德、聖訓的真理、先知的門徒的智慧，或伊斯蘭傳統中的靜思做法。包括一節《古蘭經》經文（蘇拉：阿亞）和一到兩句反思，以貫穿全日。如果相關，可選擇將其與伊斯蘭日曆或重要日期聯繫。",
-
-  "promptFaithTrust": "撰寫一篇簡短的伊斯蘭反思，探討伊瑪目（信仰）和對真主計畫的信賴（託靠）。以《古蘭經》、先知穆罕默德的榜樣和聖門弟子的信仰為基礎。每次變化主題：在不確定中信任真主、依賴神聖智慧、在試煉中的耐心，或日常生活中的靜默堅毅。包括一節《古蘭經》經文和一個從伊斯蘭精神智慧中汲取的今日實踐步驟。",
-
-  "promptPrayerReflection": "撰寫一篇簡短的伊斯蘭祈禱反思，根植於禮拜、杜阿或贊念。每次變化形式：晨間或夜間紀念（阿茲卡爾）、對五功禮拜的反思、對《古蘭經》經文的思想，或是誠摯的祈求。包括一節《古蘭經》經文並簡要說明所使用的祈禱形式。",
-
-  "promptHopeDifficultTimes": "撰寫一篇伊斯蘭反思，探討在困難時期的忍耐（薩卜爾）和希望。引用《古蘭經》關於試煉的教導、先知們的堅毅和真主在困難時刻的仁慈。每次變化角度。包括一節《古蘭經》經文和一個來自伊斯蘭傳統的鼓勵視角。",
-
-  "promptForgiveness": "撰寫一篇關於尋求寬恕（討白）和真主仁慈的智慧性伊斯蘭反思。引用《古蘭經》關於悔悟的教導、真主的同情心和先知穆罕默德寬容的榜樣。變化主題：回轉真主、寬恕他人、修復關係，或相信真主在錯誤後的仁慈。包括一節《古蘭經》經文和一個具體的步驟。",
-
-  "promptLoveCompassion": "撰寫一篇簡短的伊斯蘭反思，探討日常生活中的慈悲（拉赫瑪）和同情心。引用先知穆罕默德的榜樣、卓越的概念（伊赫桑）和伊斯蘭對家人、鄰居和弱勢群體的仁慈教導。包括一節《古蘭經》經文和今日可實踐的一項小慈悲行為。",
-
-  "promptStrengthCourage": "撰寫一篇關於信仰型力量和勇氣的伊斯蘭反思。引用先知們的例子、早期穆斯林社群和在困難中堅定信徒的故事。每次變化主題：通過信仰的勇氣、祈禱中的力量、在恐懼中信任真主，或在困難中的韌性。包括一節《古蘭經》經文和一句簡短的祈求或紀念詞。",
-
-  "promptGratitude": "撰寫一篇關於感謝真主（舒庫爾）的伊斯蘭反思。根植於《古蘭經》教導和先知傳統。變化角度：在困難中感恩、欣賞小祝福、以真主讚美開始新一天，或認識真主在日常生活中的引導。包括一節《古蘭經》經文和一項感恩實踐。",
-
-  "promptPurposeCalling": "撰寫一篇關於在侍奉真主和正義生活中的人生目的的伊斯蘭反思。引用《古蘭經》關於目的的教導、服侍他人和為善而使用天賦。每次變化主題：服侍家庭和社區、通過伊斯蒂哈拉尋求引導、帶著意向生活，或在普通工作中找到意義。包括一節《古蘭經》經文和兩個反思性問題。",
-
-  "promptFamilyRelationships": "撰寫根植於《古蘭經》教導和先知穆罕默德榜樣的明智伊斯蘭家庭與關係指引。每次變化主題：家庭生活中的仁慈、衝突中的耐心、尊重父母、在信仰中養育子女，或加強婚姻。包括一節《古蘭經》經文和一項可嘗試的關係實踐。",
-
-  "promptPeaceAnxietyRelief": "撰寫一篇平靜的伊斯蘭反思，探討通過對真主的紀念（贊念）和信賴其計畫來找到內心平靜。引用《古蘭經》關於心靈寧靜、祈禱和對真主意願的交付教導。每次變化方法並包括一節《古蘭經》經文和一項源自伊斯蘭傳統的簡單扎根實踐。",
-
-  "promptWisdomOfJesus": "撰寫一篇來自伊斯蘭中所教導的先知們的短篇智慧。引用《古蘭經》或聖訓，並簡要解釋伊斯蘭學者如何理解該教導。每次變化主題：品格、耐心、謙遜、信仰或日常行為。包括《古蘭經》經文或聖訓參考，以及一項實踐應用。",
-
-  "promptHumilityCharacter": "撰寫一篇關於謙遜（他瓦德胡）和良好品格（阿克拉克）的伊斯蘭反思。引用《古蘭經》教導、先知穆罕默德的榜樣和伊斯蘭品格發展的傳統。變化主題：領導中的謙遜、承認過錯、尊重對待他人，或通過自我反思靈性成長。包括一節《古蘭經》經文和一項要養成的習慣。",
-
-  "promptOvercomingTemptation": "撰寫一篇關於抗拒誘惑和踏上正道的伊斯蘭反思。引用《古蘭經》指導、對真主的紀念（贊念）、禮拜（禮法）和戰勝困境的信徒的例子。每次變化角度。包括一節《古蘭經》經文和接下來24小時內的一項實踐策略。",
-
-  "promptEveningReflection": "撰寫一篇根植於夜間紀念傳統（阿茲卡爾·艾勒·瑪薩）的寧靜伊斯蘭夜間反思。鼓勵感恩、自我反思（慕哈薩巴）和在休息前對真主的信賴。包括3到5項關於一天的簡短反思提示、簡短的結尾祈求和一節《古蘭經》經文。",
-
-  "wordCount": "{count, plural, one {{count}字} other {{count}字}}",
-
+  "wordCount": "{count, plural, one {{count} 個字} other {{count} 個字}}",
   "optionsCta": "選項",
-  "newCta": "新的",
-  "actionsTitle": "你想做什麼？",
+  "newCta": "新增",
+  "actionsTitle": "你想做甚麼？",
   "copy": "複製",
   "share": "分享",
   "close": "關閉",
-  "copiedToast": "已複製到剪貼板",
-
+  "copiedToast": "已複製到剪貼簿",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "包括類別標籤的電子郵件/分享主題行。",
+    "description": "包含分類標籤的電郵／分享主題。",
     "placeholders": {
-      "category": { "type": "String", "example": "每日指引" }
+      "category": {
+        "type": "String",
+        "example": "每日指引"
+      }
     }
   },
-
-  "regenerateErrorTitle": "無法生成新的回覆",
+  "regenerateErrorTitle": "無法產生新的回覆",
   "regenerateErrorBody": "{error}\n\n你想再試一次嗎？",
   "@regenerateErrorBody": {
-    "description": "當重新生成AI答案失敗時顯示。",
+    "description": "重新產生 AI 回答失敗時顯示。",
     "placeholders": {
-      "error": { "type": "String", "example": "網絡錯誤" }
+      "error": {
+        "type": "String",
+        "example": "網絡錯誤"
+      }
     }
   },
-
   "cancelCta": "取消",
   "retryCta": "再試一次",
-
   "authTitle": "建立你的帳戶",
-  "continueAsGuest": "以訪客身份繼續",
-  "signInGoogle": "使用Google登入",
-  "signInApple": "使用Apple登入",
+  "continueAsGuest": "以訪客身分繼續",
+  "signInGoogle": "使用 Google 登入",
+  "signInApple": "使用 Apple 登入",
   "signInEmail": "使用電郵登入",
-  "upgradeWithApple": "使用Apple繼續",
-  "mustAccept": "你必須接受《服務條款》並認可《隱私政策》。",
-  "termsLabel": "我接受《服務條款》",
-  "privacyLabel": "我已閱讀《隱私政策》",
-  "marketingOptIn": "我同意接收新聞和優惠",
+  "upgradeWithApple": "使用 Apple 繼續",
+  "mustAccept": "你必須接受服務條款並確認私隱政策。",
+  "termsLabel": "我接受服務條款",
+  "privacyLabel": "我已閱讀私隱政策",
+  "marketingOptIn": "我同意接收新聞及優惠",
   "openTerms": "服務條款",
-  "openPrivacy": "隱私政策",
-
+  "openPrivacy": "私隱政策",
   "accountSection": "帳戶",
   "guestMode": "訪客模式",
   "signedIn": "已登入",
-  "upgradeHint": "通過建立帳戶在設備間保存你的反思。",
-  "upgradeWithGoogle": "使用Google繼續",
+  "upgradeHint": "建立帳戶後，可在不同裝置之間儲存你的省思。",
+  "upgradeWithGoogle": "使用 Google 繼續",
   "signOut": "登出",
-
-  "snackUpgraded": "帳戶已升級至Google ✅",
-  "snackSignedIn": "已使用Google登入 ✅",
+  "snackUpgraded": "已使用 Google 升級帳戶 ✅",
+  "snackSignedIn": "已使用 Google 登入 ✅",
   "snackSignedOut": "已登出",
-  "snackSignedInApple": "已使用Apple登入 ✅",
-  "snackSignedInGoogle": "已使用Google登入 ✅",
-  "snackUpgradedApple": "帳戶已升級至Apple ✅",
-  "snackUpgradedGoogle": "帳戶已升級至Google ✅",
-
-  "historyTitle": "之前的反思",
-  "historyOpenCta": "之前的反思",
-  "historyEmpty": "尚無已保存的反思。",
-  "historyDeleteTitle": "刪除反思？",
-  "historyDeleteBody": "這將永久移除選定的項目。",
+  "snackSignedInApple": "已使用 Apple 登入 ✅",
+  "snackSignedInGoogle": "已使用 Google 登入 ✅",
+  "snackUpgradedApple": "已使用 Apple 升級帳戶 ✅",
+  "snackUpgradedGoogle": "已使用 Google 升級帳戶 ✅",
+  "historyTitle": "過往省思",
+  "historyOpenCta": "過往省思",
+  "historyEmpty": "尚未有已儲存的省思。",
+  "historyDeleteTitle": "刪除此省思？",
+  "historyDeleteBody": "這將永久移除所選項目。",
   "deleteCta": "刪除",
-
-  "historyButton": "之前的反思",
-  "historyEmptyTitle": "尚無反思",
-  "historyEmptyBody": "先生成一些內容——你保存的項目將出現在此。",
+  "historyButton": "過往省思",
+  "historyEmptyTitle": "尚未有省思",
+  "historyEmptyBody": "先產生一些內容——你已儲存的項目會顯示在這裡。",
   "historyDelete": "刪除",
-
-  "footerTitle": "帶著信仰、忍耐和仁慈。",
-  "footerSubtitle": "一步一步地。",
-  "genericErrorSnack": "出錯了——請稍後再試。",
-
-  "upgradeAccountCta": "在設備間保存你的反思——建立帳戶",
+  "footerTitle": "與 Wilaya、Iman 和 Sabr 同行",
+  "footerSubtitle": "一次一個祈禱",
+  "genericErrorSnack": "發生了一點問題——請稍後再試。",
+  "upgradeAccountCta": "在不同裝置儲存你的省思－建立帳戶",
   "deleteAccount": "刪除帳戶",
-  "exportData": "匯出我的數據",
-
+  "exportData": "匯出我的資料",
   "userUidLabel": "UID：{uid}",
   "@userUidLabel": {
-    "description": "顯示內部Firebase UID之前的標籤。",
+    "description": "顯示內部 Firebase UID 前的標籤。",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "別急 🐯\nAI需要一些時間才能進行下一個…",
-  "rateDailyLimit": "你現在已用盡反思。\n獲取更多反思或升級至巴拉卡。",
-  "rateCreditsExhausted": "你已使用了所有反思。\n充值或升級至巴拉卡以繼續。",
-  "rateGraceReflectionsExhausted": "你現在已用盡反思。\n獲取更多反思或升級至巴拉卡。",
-  "rateReflectionsExhausted": "你已使用了所有反思。\n充值或升級至巴拉卡以繼續。",
-
-  "blessedDescription": "巴拉卡解鎖高級功能、未來的類別和特殊徽章。",
-  "championDescription": "巴拉卡解鎖高級功能、未來的類別和特殊徽章。",
-
-  "ratePlanExhausted": "你的反思現在是空的。計劃：{plan}。",
+  "rateLocalThrottle": "慢慢來 🐯\nAyara 需要一點時間才可以進行下一次…",
+  "rateDailyLimit": "你目前的省思次數已用完。\n獲取更多省思或升級至 Wilaya。",
+  "rateCreditsExhausted": "你已用完所有省思次數。\n加購或升級至 Wilaya 以繼續使用。",
+  "rateGraceCreditsExhausted": "你目前的省思次數已用完。\n獲取更多省思或升級至 Wilaya。",
+  "premiumDescription": "Wilaya 可解鎖高級功能、未來分類及特別徽章。",
+  "ratePlanExhausted": "你目前已沒有省思次數。方案：{plan}。",
   "@ratePlanExhausted": {
-    "description": "當用戶的反思已耗盡但原因是一般性時顯示。",
+    "description": "當使用者的省思次數已耗盡，但原因較一般時顯示。",
     "placeholders": {
-      "plan": { "type": "String", "example": "標準或巴拉卡" }
+      "plan": {
+        "type": "String",
+        "example": "標準 或 Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "無法檢查你的反思：{message}",
+  "rateCheckFailed": "無法檢查你的省思次數：{message}",
   "@rateCheckFailed": {
-    "description": "當可調用函數返回錯誤消息時顯示。",
+    "description": "當 callable function 回傳錯誤訊息時顯示。",
     "placeholders": {
-      "message": { "type": "String", "example": "網絡錯誤" }
+      "message": {
+        "type": "String",
+        "example": "網絡錯誤"
+      }
     }
   },
-
-  "rateCheckGenericError": "檢查你的反思時出錯。",
-  "aiFallbackGeneric": "出錯了——請稍後再試。",
-
-  "limitSectionTitle": "反思",
+  "rateCheckGenericError": "檢查你的省思次數時發生錯誤。",
+  "aiFallbackGeneric": "發生了一點問題——請稍後再試。",
+  "limitSectionTitle": "省思次數",
   "limitTodayLabel": "使用情況",
-  "limitCreditsLabel": "剩餘反思：{credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "計劃：{plan}",
-  "@limitPlanLabel": {
-    "description": "顯示當前訂閱計劃名稱。",
+  "limitCreditsLabel": "剩餘省思次數：{credits}",
+  "@limitCreditsLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "標準或巴拉卡" }
+      "credits": {}
+    }
+  },
+  "limitPlanLabel": "方案：{plan}",
+  "@limitPlanLabel": {
+    "description": "顯示目前訂閱方案名稱。",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "標準 或 Wilaya"
+      }
     }
   },
   "limitLoadingLabel": "載入中…",
-  "limitLoadingLabelDescription": "在反思卡片載入使用統計時顯示。",
-
-  "aiLimitTitle": "反思",
-  "aiLimitSubtitle": "每個回覆使用1個反思。標準包括入門反思。巴拉卡解鎖高級類別並啟用充值。",
-  "aiLimitProgressLabel": "{used} / {total}個反思已使用",
+  "limitLoadingLabelDescription": "在取得使用統計資料期間於省思卡片中顯示。",
+  "aiLimitTitle": "省思次數",
+  "aiLimitSubtitle": "每次回覆會使用 1 次省思。標準方案包含起始省思次數。Wilaya 可解鎖高級分類並支援加購。",
+  "aiLimitProgressLabel": "已使用 {used} / {total} 次省思",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "反思",
-  "reflectionsUsageLabel": "使用情況",
-  "reflectionsRemainingLabel": "剩餘反思：{reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "計劃：{plan}",
-  "@reflectionsPlanLabel": {
-    "description": "顯示當前計劃名稱。",
+  "creditsSectionTitle": "省思次數",
+  "creditsUsageLabel": "使用情況",
+  "creditsRemainingLabel": "剩餘省思次數：{reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "標準或巴拉卡" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "載入中…",
-  "reflectionsLoadingLabelDescription": "在反思統計載入時顯示。",
-
-  "reflectionsTitle": "反思",
-  "reflectionsSubtitle": "每個回覆使用1個反思。標準包括入門反思。巴拉卡解鎖高級類別並啟用充值。",
-  "reflectionsProgressLabel": "{used} / {total}個反思已使用",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "方案：{plan}",
+  "@creditsPlanLabel": {
+    "description": "顯示目前方案名稱。",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "標準 或 Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "載入中…",
+  "creditsLoadingLabelDescription": "在取得省思統計資料期間顯示。",
+  "creditsTitle": "省思次數",
+  "creditsSubtitle": "每次回覆會使用 1 次省思。標準方案包含起始省思次數。Wilaya 可解鎖高級分類並支援加購。",
+  "creditsProgressLabel": "已使用 {used} / {total} 次省思",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "刪除帳戶",
-  "settingsDeleteDescription": "永久刪除你的帳戶和所有相關數據。",
+  "settingsDeleteDescription": "永久刪除你的帳戶及所有相關資料。",
   "settingsDeleteButtonLabel": "刪除我的帳戶",
   "settingsDeleteDialogTitle": "刪除帳戶？",
-  "settingsDeleteDialogBody": "此操作是永久性的，無法撤銷。\n\n你的所有聊天、歷史和帳戶信息將被刪除。",
+  "settingsDeleteDialogBody": "此操作屬永久性且無法復原。\n\n你的所有對話、歷史記錄及帳戶資料都會被刪除。",
   "settingsDeleteDialogCancel": "取消",
   "settingsDeleteDialogConfirm": "刪除",
-
-  "settingsFreeLimitUsedTitle": "入門反思已使用",
-  "settingsFreeLimitUsedDescription": "此設備的入門反思已使用完。升級至巴拉卡或購買更多反思以繼續。",
-
-  "settingsStarterReflectionsUsedTitle": "入門反思已使用",
-  "settingsStarterReflectionsUsedDescription": "此設備的入門反思已使用完。升級至巴拉卡或購買更多反思以繼續。",
-
-  "deviceBoundError": "此設備已連結到另一個帳戶。請使用原始帳戶登入。",
-
-  "premiumTitle": "巴拉卡模式",
-  "premiumSubtitleBasic": "解鎖完整的Ayara體驗。",
-  "premiumSubtitleChampion": "你是巴拉卡。需要更多反思？",
-
-  "premiumCurrentPlan": "當前計劃：{plan}",
-  "premiumCreditsStatus": "反思：{remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "現在購買不可用。",
-  "premiumSignInToPurchase": "登入以購買反思或解鎖巴拉卡。",
-
-  "premiumRestorePurchases": "恢復購買",
+  "settingsFreeLimitUsedTitle": "起始省思次數已用完",
+  "settingsFreeLimitUsedDescription": "此裝置的起始省思次數已用完。升級至 Wilaya 或購買更多省思次數以繼續使用。",
+  "settingsStarterCreditsUsedTitle": "起始省思次數已用完",
+  "settingsStarterCreditsUsedDescription": "此裝置的起始省思次數已用完。升級至 Wilaya 或購買更多省思次數以繼續使用。",
+  "deviceBoundError": "此裝置已連結至另一個帳戶。請使用原本的帳戶登入。",
+  "premiumTitle": "Wilaya 模式",
+  "premiumSubtitleBasic": "解鎖完整的 Ayara 體驗。",
+  "premiumSubtitlePremium": "你正在使用 Wilaya。需要更多省思次數嗎？",
+  "premiumCurrentPlan": "目前方案：{plan}",
+  "premiumCreditsStatus": "省思次數：{remaining} / {total}",
+  "premiumPurchasesUnavailable": "目前無法購買。",
+  "premiumSignInToPurchase": "登入以購買省思次數或解鎖 Wilaya。",
+  "premiumRestorePurchases": "恢復購買項目",
   "premiumProcessing": "處理中…",
-  "premiumRestoreHintTitle": "已在此設備或另一台設備上購買巴拉卡或反思？",
-  "premiumRestoreHintBody": "如果購買未顯示，請恢復你的購買。",
-
-  "premiumBuyCredits200": "購買200個反思",
-  "premiumBuyCredits400": "購買400個反思",
-  "premiumBecomeChampionOneTime": "升級至巴拉卡模式",
-  "premiumChampionHint": "作為巴拉卡，你可以根據需要隨時充值額外反思。",
-
+  "premiumRestoreHintTitle": "你是否已在此裝置或其他裝置購買 Wilaya 或省思次數？",
+  "premiumRestoreHintBody": "如果未顯示，請恢復你的購買項目。",
+  "premiumBuyCredits200": "購買 200 次省思",
+  "premiumBuyCredits400": "購買 400 次省思",
+  "premiumBecomePremiumOneTime": "升級至 Wilaya 模式",
+  "premiumTopupHint": "使用 Wilaya，你可以在需要時隨時加購額外省思次數。",
   "premiumUpgradeCta": "升級",
-  "premiumRequiredForCategory": "此類別僅供巴拉卡用戶使用。在設定中升級以解鎖所有高級內容。",
-  "premiumBenefitsBasic": "升級至巴拉卡以獲得額外反思、訪問高級類別，並在需要指引時繼續使用。",
-  "premiumBenefitsChampion": "你處於巴拉卡模式。如果反思不足，添加一些額外反思並繼續使用而無中斷。",
-  "premiumButtonBecomeChampion": "解鎖巴拉卡",
-  "premiumButtonTopup1000": "添加1000個反思",
-  "premiumChampionBadge": "巴拉卡活躍",
-  "premiumLoadingStore": "載入商店…",
-
-  "blessedTitle": "巴拉卡模式",
-  "blessedSubtitleGrace": "解鎖完整的Ayara體驗。",
-  "blessedSubtitleBlessed": "你是巴拉卡。需要更多反思？",
-
-  "blessedCurrentPlan": "當前計劃：{plan}",
-  "blessedReflectionsStatus": "反思：{remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "現在購買不可用。",
-  "blessedProductNotAvailable": "此產品在商店中尚不可用。請稍後再試。",
-  "blessedPurchaseError": "購買過程中出錯。請再試一次。",
-  "blessedSignInToPurchase": "登入以購買反思或解鎖巴拉卡。",
-
-  "blessedRestorePurchases": "恢復購買",
-  "blessedProcessing": "處理中…",
-  "blessedRestoreHintTitle": "已在此設備或另一台設備上購買巴拉卡或反思？",
-  "blessedRestoreHintBody": "如果購買未顯示，請恢復你的購買。",
-
-  "blessedBuyReflections100": "添加100個反思",
-  "blessedBuyReflections200": "購買200個反思",
-  "blessedBuyReflections400": "購買400個反思",
-  "blessedBecomeBlessedOneTime": "升級至巴拉卡",
-  "blessedTopupHint": "作為巴拉卡，你可以根據需要隨時充值額外反思。",
-
-  "blessedUpgradeCta": "升級",
-  "blessedRequiredForCategory": "此類別僅供巴拉卡用戶使用。在設定中升級以解鎖所有高級內容。",
-  "blessedFeatureLocked": "解鎖巴拉卡以訪問此功能。",
-  "lockedCategoriesHint": "某些類別保留給巴拉卡成員。解鎖它們以在你的靈性之旅中探索每個反思。",
-  "blessedBenefitsGrace": "升級至巴拉卡以獲得額外反思、訪問高級類別，並在需要指引時繼續使用。",
-  "blessedBenefitsBlessed": "你處於巴拉卡模式。如果反思不足，添加一些額外反思並繼續使用而無中斷。",
-  "blessedButtonBecomeBlessed": "解鎖巴拉卡",
-  "blessedButtonTopup1000": "添加1000個反思",
-  "blessedBadge": "巴拉卡活躍",
-  "blessedLoadingStore": "載入商店…",
-
-  "freePlanBlockedTitle": "你已用盡入門反思",
-  "freePlanBlockedBody": "你處於標準計劃，有入門反思，已達到限制。要繼續——並解鎖高級類別——升級至巴拉卡。",
-  "freePlanBlockedCtaGoPremium": "查看下面的巴拉卡選項",
-
-  "graceBlockedTitle": "你已用盡入門反思",
-  "graceBlockedBody": "你處於標準計劃，有入門反思，已達到限制。要繼續——並解鎖高級類別——升級至巴拉卡。",
-  "graceBlockedCtaGoBlessed": "查看下面的巴拉卡選項",
-
-  "rateGuestMustSignIn": "登入以使用Ayara和你的反思。",
-
+  "premiumRequiredForCategory": "此分類僅供 Wilaya 用戶使用。請在設定中升級以解鎖所有高級內容。",
+  "premiumBenefitsBasic": "解鎖 Wilaya，以獲得更多省思次數、使用高級分類，並在你需要指引時隨時繼續。",
+  "premiumBenefitsPremium": "你正使用 Wilaya 模式。如果快要用完，可加購額外省思次數，無間斷繼續使用。",
+  "premiumButtonBecomePremium": "解鎖 Wilaya",
+  "premiumButtonTopup1000": "新增 1000 次省思",
+  "premiumBadge": "Wilaya 已啟用",
+  "premiumLoadingStore": "正在載入商店…",
+  "premiumProductNotAvailable": "此產品尚未在商店上架。請稍後再試。",
+  "premiumPurchaseError": "購買時發生錯誤。請再試一次。",
+  "premiumBuyCredits100": "新增 100 次省思",
+  "premiumFeatureLocked": "解鎖 Wilaya 以使用此功能。",
+  "lockedCategoriesHint": "部分分類只供 Wilaya 會員使用。解鎖後即可在你的旅程中探索每一項省思。",
+  "freePlanBlockedTitle": "你已用完起始省思次數",
+  "freePlanBlockedBody": "你目前使用的是標準方案，並附有起始省思次數，而你已達到上限。若要繼續使用——並解鎖高級分類——請升級至 Wilaya。",
+  "freePlanBlockedCtaGoPremium": "查看下方的 Wilaya 選項",
+  "graceBlockedTitle": "你已用完起始省思次數",
+  "graceBlockedBody": "你目前使用的是標準方案，並附有起始省思次數，而你已達到上限。若要繼續使用——並解鎖高級分類——請升級至 Wilaya。",
+  "graceBlockedCtaGoPremium": "查看下方的 Wilaya 選項",
+  "rateGuestMustSignIn": "請登入以使用 Ayara 及你的省思次數。",
   "guestNoCreditsTitle": "訪客模式",
-  "guestNoCreditsBody": "作為訪客，你可以瀏覽應用，但無法使用反思。稍後在設定中登入以使用反思和解鎖購買。",
-
-  "guestNoReflectionsTitle": "訪客模式",
-  "guestNoReflectionsBody": "作為訪客，你可以瀏覽應用，但無法使用反思。稍後在設定中登入以使用反思和解鎖購買。",
-
+  "guestNoCreditsBody": "作為訪客，你可以瀏覽應用程式，但不能使用省思次數。稍後可在設定中登入，以使用省思次數並解鎖購買功能。",
   "guestDialogContinue": "繼續",
   "guestDialogLoginInstead": "改為登入",
-
-  "optionalLabel": "可選的",
-
+  "optionalLabel": "可選",
   "accountDeleteSuccessTitle": "帳戶已刪除",
-  "accountDeleteSuccessBody": "你的帳戶和相關數據已成功刪除。",
+  "accountDeleteSuccessBody": "你的帳戶及相關資料已成功刪除。",
   "accountDeleteSuccessClose": "關閉",
   "accountDeleteErrorTitle": "無法刪除帳戶",
   "accountDeleteErrorClose": "確定",
-  "accountDeleteReauthCancelled": "重新認證已取消。請再次登入並重試刪除。",
-  "accountDeleteReauthRequired": "帳戶刪除需要最近的登入。請登出、再次登入並重試。",
-  "settingsDeletePermanentWarning": "此操作是永久性的，無法撤銷。與你的帳戶關聯的所有數據都將被刪除。",
-
+  "accountDeleteReauthCancelled": "重新驗證已取消。請重新登入後再試刪除。",
+  "accountDeleteReauthRequired": "刪除帳戶需要最近一次登入。請先登出，再重新登入後重試。",
+  "settingsDeletePermanentWarning": "此操作屬永久性且無法復原。與你帳戶相關的所有資料都將被刪除。",
   "dailyGraceTitle": "每日指引",
-  "dailyGraceScriptureLabel": "每日經文",
+  "dailyGraceScriptureLabel": "今日經文",
   "dailyGraceSaintLabel": "本週學者",
-  "dailyGraceReflectionLabel": "夜間反思",
-  "dailyGraceCopiedToast": "經文已複製到剪貼板",
-
-  "dailyScripture0Text": "信道的人，定在許多花園和溪流旁邊。",
-  "dailyScripture0Ref": "《古蘭經》54:54-55",
-  "dailyScripture1Text": "我只是派遣你為普慈世人。",
-  "dailyScripture1Ref": "《古蘭經》21:107",
-  "dailyScripture2Text": "真主對於他的僕人，豈不夠嗎？",
-  "dailyScripture2Ref": "《古蘭經》39:36",
-  "dailyScripture3Text": "你們厭惡一件事，但它對於你們是有益的；你們喜愛一件事，但它對於你們是有害的。真主是全知的，你們是不知道的。",
-  "dailyScripture3Ref": "《古蘭經》2:216",
-  "dailyScripture4Text": "真主確實與堅忍的人同在。",
-  "dailyScripture4Ref": "《古蘭經》2:153",
-  "dailyScripture5Text": "所以你們應當記念我，我就紀念你們；應當感謝我，你們不要忘恩負義。",
-  "dailyScripture5Ref": "《古蘭經》2:152",
-  "dailyScripture6Text": "真主看來，你們中最尊貴者，就是你們中最敬畏者。",
-  "dailyScripture6Ref": "《古蘭經》49:13",
-  "dailyScripture7Text": "你的主已命令你，不要崇拜真主以外的任何東西，並要孝敬父母。",
-  "dailyScripture7Ref": "《古蘭經》17:23",
-  "dailyScripture8Text": "確實，與困難相伴的是容易。",
-  "dailyScripture8Ref": "《古蘭經》94:6",
-  "dailyScripture9Text": "你們無論在什麼地方，他都與你們同在；你們的行為，真主是能看見的。",
-  "dailyScripture9Ref": "《古蘭經》57:4",
-  "dailyScripture10Text": "真主不讓任何人負擔超過他能力的責任。",
-  "dailyScripture10Ref": "《古蘭經》2:286",
-  "dailyScripture11Text": "誰仰賴真主，真主確已使誰滿足。",
-  "dailyScripture11Ref": "《古蘭經》65:3",
-  "dailyScripture12Text": "我的仁慈是普遍的，包括一切。",
-  "dailyScripture12Ref": "《古蘭經》7:156",
-  "dailyScripture13Text": "我的僕人們詢問你關於我，我確實接近。凡是祈求者祈求我，我就應允。",
-  "dailyScripture13Ref": "《古蘭經》2:186",
-  "dailyScripture14Text": "無論是男性或女性，誰若為信道者而行善，我必使他生活在美好之中。",
-  "dailyScripture14Ref": "《古蘭經》16:97",
-  "dailyScripture15Text": "真主不改變一個民族的情狀，除非他們改變他們自身。",
-  "dailyScripture15Ref": "《古蘭經》13:11",
-  "dailyScripture16Text": "所以不要懈怠，不要絕望，如果你們是信道者，你們必然勝利。",
-  "dailyScripture16Ref": "《古蘭經》3:139",
-  "dailyScripture17Text": "我的背叛主人的僕人們啊，不要絕望真主的仁慈。真主確實赦免一切罪過。",
-  "dailyScripture17Ref": "《古蘭經》39:53",
-  "dailyScripture18Text": "敬畏真主的人，真主必為他開闢出路，並從他所未想之處賜給他給養。",
-  "dailyScripture18Ref": "《古蘭經》65:2-3",
-  "dailyScripture19Text": "不要失去對真主仁慈的希望。",
-  "dailyScripture19Ref": "《古蘭經》12:87",
-  "dailyScripture20Text": "我確實使《古蘭經》易於銘記。那麼有人願意警惕嗎？",
-  "dailyScripture20Ref": "《古蘭經》54:17",
-  "dailyScripture21Text": "他發現你迷茫而引導你。",
-  "dailyScripture21Ref": "《古蘭經》93:7",
-  "dailyScripture22Text": "你的主說：你們呼求我，我就應允你們。",
-  "dailyScripture22Ref": "《古蘭經》40:60",
-  "dailyScripture23Text": "我確實尊重了亞當的子孫。",
-  "dailyScripture23Ref": "《古蘭經》17:70",
-  "dailyScripture24Text": "你們應當借助於忍耐和禮拜來尋求真主的幫助。",
-  "dailyScripture24Ref": "《古蘭經》2:45",
-  "dailyScripture25Text": "誰做一個塵埃的重量那樣的善事，就會看到它。",
-  "dailyScripture25Ref": "《古蘭經》99:7",
-  "dailyScripture26Text": "真主的幫助確實是近的。",
-  "dailyScripture26Ref": "《古蘭經》2:214",
-  "dailyScripture27Text": "誰報恩，他不過是為自己報恩。",
-  "dailyScripture27Ref": "《古蘭經》31:12",
-
-  "dailyReflection0": "當這一天結束時，思考真主的仁慈在何處顯然。",
-  "dailyReflection1": "把今天壓在你心上的一切帶到真主面前。",
-  "dailyReflection2": "說出今天的一項祝福並向真主表示感謝。",
-  "dailyReflection3": "安息於真主的無限關懷知識中。",
-  "dailyReflection4": "反思你今天感到被召喚表現同情和善良的地方。",
-  "dailyReflection5": "放開你無法控制的東西，並信任真主的完美計劃。",
-  "dailyReflection6": "當白天來臨時，在對真主的紀念中獲得平靜。",
-  "dailyReflection7": "考慮你今天是如何尊重你的禮拜的，並為每一次感謝真主。",
-  "dailyReflection8": "反思今天耐心（薩卜爾）指導你行為的時刻。",
-  "dailyReflection9": "為今天的任何缺點求寬恕——真主的仁慈是無邊的。",
-  "dailyReflection10": "提名今天你表現善良的一個人，並為他們做祈禱。",
-  "dailyReflection11": "坐在感恩中：今天真主提供了什麼你沒有要求的？",
-  "dailyReflection12": "反思《古蘭經》中的一節經文，它談及你目前所處的位置。",
-  "dailyReflection13": "考慮你今天如何使用時間——並將明天獻給真主。",
-  "dailyReflection14": "安息，知道無論今天的困難如何，真主都與你同在。",
-  "dailyReflection15": "思考你今天為真主的緣故服侍家人或社區的一種方式。",
-  "dailyReflection16": "當夜幕降臨時，進行悔悟——真主喜愛那些回轉他的人。",
-  "dailyReflection17": "反思真主在你的一天中放置的美麗，無論多麼微小。",
-  "dailyReflection18": "考慮你今天學到了什麼，以及它如何讓你更接近真主。",
-  "dailyReflection19": "讓這一天的擔憂與真主一起休息——他承載你無法承載的東西。",
-  "dailyReflection20": "思考今天你本可以選擇更好的一個時刻，並溫和地從中學習。",
-  "dailyReflection21": "為那些在奮鬥的人做祈禱——你的祈禱是給他們的禮物。",
-  "dailyReflection22": "回想你常常忽視的一項祝福，花時間感謝真主。",
-  "dailyReflection23": "反思你今天的意圖——他們是為了真主嗎？明天重新開始。",
-  "dailyReflection24": "當夜晚安靜時，傾聽真主在寂靜中的親近。",
-  "dailyReflection25": "反思你今天發現力量的地方——那力量來自真主。",
-  "dailyReflection26": "說出明天你將為真主的緣故做而今天沒有做的一件事。",
-  "dailyReflection27": "當你準備休息時，將你的靈魂交托給真主——他是最好的守護者。",
-
-  "dailyRoleModel0": "先知穆罕默德 ﷺ",
-  "dailyRoleModel1": "艾布·貝克爾·阿斯·西迪克（願主喜悅他）",
-  "dailyRoleModel2": "歐麥爾·伊本·罕塔卜（願主喜悅他）",
-  "dailyRoleModel3": "奧斯曼·伊本·阿凡（願主喜悅他）",
-  "dailyRoleModel4": "阿里·伊本·阿比·塔利卜（願主喜悅他）",
-  "dailyRoleModel5": "哈迪賈·賓特·胡瓦萊德（願主喜悅她）",
-  "dailyRoleModel6": "阿伊莎·賓特·阿比·貝克爾（願主喜悅她）",
-  "dailyRoleModel7": "法蒂瑪·阿茲·紮赫拉（願主喜悅她）",
-  "dailyRoleModel8": "比拉爾·伊本·拉巴（願主喜悅他）",
-  "dailyRoleModel9": "薩爾曼·阿爾·法裡西（願主喜悅他）",
-  "dailyRoleModel10": "艾布·胡賴拉（願主喜悅他）",
-  "dailyRoleModel11": "阿卜杜拉·伊本·阿巴斯（願主喜悅他）",
-  "dailyRoleModel12": "阿卜杜拉·伊本·馬蘇德（願主喜悅他）",
-  "dailyRoleModel13": "穆阿茲·伊本·賈貝爾（願主喜悅他）",
-  "dailyRoleModel14": "穆薩卜·伊本·烏邁爾（願主喜悅他）",
-  "dailyRoleModel15": "蘇邁亞·賓特·胡巴卜（願主喜悅她）",
-  "dailyRoleModel16": "阿瑪爾·伊本·亞西爾（願主喜悅他）",
-  "dailyRoleModel17": "烏姆·薩拉瑪（願主喜悅她）",
-  "dailyRoleModel18": "哈立德·伊本·瓦利德（願主喜悅他）",
-  "dailyRoleModel19": "扎伊德·伊本·薩比特（願主喜悅他）",
-  "dailyRoleModel20": "哈夫莎·賓特·歐麥爾（願主喜悅她）",
-  "dailyRoleModel21": "歐麥爾·伊本·阿卜杜爾·阿齊茲（願主憐憫他）",
-  "dailyRoleModel22": "伊瑪目·艾布·哈尼法（願主憐憫他）",
-  "dailyRoleModel23": "伊瑪目·馬利克·伊本·阿納斯（願主憐憫他）",
-  "dailyRoleModel24": "伊瑪目·沙斐儀（願主憐憫他）",
-  "dailyRoleModel25": "伊瑪目·艾哈邁德·伊本·罕貝爾（願主憐憫他）",
-  "dailyRoleModel26": "伊瑪目·布哈里（願主憐憫他）",
-  "dailyRoleModel27": "伊瑪目·穆斯林（願主憐憫他）",
-  "dailyRoleModel28": "伊瑪目·提爾米茲（願主憐憫他）",
-  "dailyRoleModel29": "阿爾·加扎利（願主憐憫他）",
-  "dailyRoleModel30": "伊本·蓋伊姆·阿爾-朱茲伊亞（願主憐憫他）",
-  "dailyRoleModel31": "伊本·泰米亞（願主憐憫他）",
-  "dailyRoleModel32": "納瓦威（願主憐憫他）",
-  "dailyRoleModel33": "伊本·哈賈爾·阿爾-阿斯卡拉尼（願主憐憫他）",
-  "dailyRoleModel34": "伊本·凱西爾（願主憐憫他）",
-  "dailyRoleModel35": "阿爾-塔巴里（願主憐憫他）",
-  "dailyRoleModel36": "蘇夫揚·阿爾-索裡（願主憐憫他）",
-  "dailyRoleModel37": "法赫爾·丁·阿爾-拉茲（願主憐憫他）",
-  "dailyRoleModel38": "伊本·西納（願主憐憫他）",
-  "dailyRoleModel39": "阿爾-比魯尼（願主憐憫他）",
-  "dailyRoleModel40": "伊本·魯什德（願主憐憫他）",
-  "dailyRoleModel41": "伊本·卡敦（願主憐憫他）",
-  "dailyRoleModel42": "伊本·巴圖塔（願主憐憫他）",
-  "dailyRoleModel43": "先知易卜拉欣（願主保佑他）",
-  "dailyRoleModel44": "先知穆薩（願主保佑他）",
-  "dailyRoleModel45": "先知爾撒（願主保佑他）",
-  "dailyRoleModel46": "先知優素福（願主保佑他）",
-  "dailyRoleModel47": "先知大衛（願主保佑他）",
-  "dailyRoleModel48": "先知所羅門（願主保佑他）",
-  "dailyRoleModel49": "先知努哈（願主保佑他）",
-  "dailyRoleModel50": "先知優努斯（願主保佑他）",
-  "dailyRoleModel51": "先知艾尤卜（願主保佑他）",
-  "dailyRoleModel52": "魯蓋亞·賓特·穆罕默德（願主喜悅她）",
-  "dailyRoleModel53": "宰納卜·賓特·穆罕默德（願主喜悅她）",
-  "dailyRoleModel54": "哈桑·伊本·阿里（願主喜悅他）",
-  "dailyRoleModel55": "侯賽因·伊本·阿里（願主喜悅他）",
-  "dailyRoleModel56": "賈法爾·伊本·阿比·塔利卜（願主喜悅他）",
-  "dailyRoleModel57": "艾布·達爾·阿爾-吉法里（願主喜悅他）",
-  "dailyRoleModel58": "塔爾哈·伊本·烏貝德胡拉（願主喜悅他）",
-  "dailyRoleModel59": "阿茲-祖貝爾·伊本·阿爾-阿瓦姆（願主喜悅他）",
-
-  "locationConsentLabel": "允許Ayara使用我的位置以確定朝向麥加的方向和禮拜時間",
-  "locationConsentHint": "僅用於這些功能。你的位置永遠不會被分享或存儲。",
-
+  "dailyGraceReflectionLabel": "晚間省思",
+  "dailyGraceCopiedToast": "已將經文複製到剪貼簿",
+  "locationConsentLabel": "允許 Ayara 使用我的位置以提供朝拜方向及禮拜時間",
+  "locationConsentHint": "只用於這些功能。你的位置不會被分享或儲存。",
   "askPageTitle": "問 Ayara",
-  "askPageDescription": "詢問有關信仰、祈禱、生活或伊斯蘭實踐的任何問題，並獲得根植於《古蘭經》和聖訓的指引。",
+  "askPageDescription": "就信仰、禮拜、人生或伊斯蘭實踐提出任何問題，並獲得根植於《古蘭經》與 Ahl al-Bayt 教導的指引。",
   "askPageInputHint": "在此輸入你的問題…",
   "askPageSubmitCta": "提問",
-  "askPageInputEmptyError": "請先寫一個問題。",
+  "askPageInputEmptyError": "請先輸入一條問題。",
   "askResultYourQuestion": "你的問題",
-
-  "guidancePageTitle": "祈禱與指引",
+  "guidancePageTitle": "Qibla",
   "qiblaFacingMecca": "面向麥加",
-  "qiblaCompassInstruction": "轉動你的手機，直到金色指針指向上方。\n那個方向指向朝向麥加的方向。",
-  "qiblaGpsUnavailableBody": "GPS信號微弱。移到戶外並點擊重試。",
+  "qiblaCompassInstruction": "旋轉你的手機，直到金色指針向上。\n該方向就是朝拜方向（麥加）。",
+  "qiblaGpsUnavailableBody": "GPS 訊號較弱。請移步到室外並點按「重試」。",
   "qiblaRetry": "重試",
-  "qiblaTitle": "朝向麥加的方向",
-  "qiblaDistanceLabel": "{km}公里到麥加",
+  "qiblaTitle": "朝拜方向",
+  "qiblaDistanceLabel": "距離麥加 {km} 公里",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "需要位置",
-  "qiblaLocationNeededBody": "允許位置訪問，以便Ayara可以計算從你所在位置到麥加卡巴的方向。",
-  "qiblaOpenSettings": "打開設定",
-  "qiblaCompassLoading": "正在查找你的位置…",
+  "qiblaLocationNeededTitle": "需要位置資訊",
+  "qiblaLocationNeededBody": "請允許定位，讓 Ayara 能夠從你所在位置計算麥加天房的方向。",
+  "qiblaOpenSettings": "開啟設定",
+  "qiblaCompassLoading": "正在尋找你的位置…",
   "qiblaTowardMecca": "朝向麥加",
-
   "prayerTimesTitle": "禮拜時間",
   "prayerTimesFajr": "晨禮",
-  "prayerTimesDhuhr": "正午禮",
-  "prayerTimesAsr": "午後禮",
-  "prayerTimesMaghrib": "日落禮",
-  "prayerTimesIsha": "夜間禮",
-  "prayerTimesLocationNeededTitle": "需要位置",
-  "prayerTimesLocationNeededBody": "允許位置訪問，以便Ayara可以計算你所在城市的準確禮拜時間。",
+  "prayerTimesDhuhr": "晌禮",
+  "prayerTimesAsr": "晡禮",
+  "prayerTimesMaghrib": "昏禮",
+  "prayerTimesIsha": "宵禮",
+  "prayerTimesLocationNeededTitle": "需要位置資訊",
+  "prayerTimesLocationNeededBody": "請允許定位，讓 Ayara 為你的城市計算準確的禮拜時間。",
   "prayerTimesNextLabel": "下一個",
   "prayerTimesDoneLabel": "完成",
-
   "monthlyPrayerTimesTitle": "每月禮拜時間",
-  "monthlyPrayerTimesViewButton": "查看完整月份",
+  "monthlyPrayerTimesViewButton": "查看整個月份",
   "monthlyPrayerTimesNextMonth": "下個月",
   "monthlyPrayerTimesDayHeader": "日",
-
   "sharePrayerTimes": "分享禮拜時間",
-
+  "notificationsSectionTitle": "通知",
+  "notificationsSectionSubtitle": "禮拜提醒、日曆事件及更多",
+  "dailyReflectionReminderTitle": "每日省思",
+  "dailyReflectionReminderDescription": "每天一個溫和提醒，打開 Ayara 並與你的信仰重新連結。",
+  "dailyReflectionReminderEnable": "啟用每日提醒",
+  "dailyReflectionReminderTimeLabel": "提醒時間",
   "prayerNotificationsTitle": "禮拜提醒",
-  "prayerNotificationsDescription": "在每個禮拜時間之前收到溫和提醒，幫助你在整天保持與信仰的聯繫。",
+  "prayerNotificationsDescription": "在每次禮拜時間前接收溫和提醒，幫助你整天保持與信仰的連結。",
   "prayerNotificationsEnable": "啟用禮拜提醒",
-  "prayerNotificationsOpenSettings": "打開通知設定",
-  "prayerNotificationsDenied": "通知已禁用",
-  "prayerNotificationsDeniedHint": "進入設定並允許Ayara的通知以接收禮拜時間提醒。",
-
+  "prayerNotificationsOpenSettings": "開啟通知設定",
+  "prayerNotificationsDenied": "通知已被停用",
+  "prayerNotificationsDeniedHint": "前往設定，允許 Ayara 發送通知，以接收禮拜時間提醒。",
   "notificationsConsentLabel": "允許禮拜時間通知",
-
-  "prayerNotifTitleFajr": "🌅 晨禮——黎明祈禱",
-  "prayerNotifBodyFajr": "最好的祈禱是黎明祈禱。起床、潔淨自己並站在真主面前。",
-
-  "prayerNotifTitleDhuhr": "☀️ 正午禮——正午祈禱",
-  "prayerNotifBodyDhuhr": "暫停你的一天，回到真主面前。正午禮時間已到。",
-
-  "prayerNotifTitleAsr": "🌤️ 午後禮——午後祈禱",
-  "prayerNotifBodyAsr": "守護中間的祈禱。午後禮時間已到——不要讓它溜走。",
-
-  "prayerNotifTitleMaghrib": "🌇 日落禮——日落祈禱",
-  "prayerNotifBodyMaghrib": "太陽已落下。獻上日落禮並向真主感謝這一天。",
-
-  "prayerNotifTitleIsha": "🌙 夜間禮——夜間祈禱",
-  "prayerNotifBodyIsha": "以對真主的紀念結束你的一天。海亞·阿拉·法拉赫——走向成功。",
-
-  "outOfReflectionsBannerText": "你已使用了所有反思",
+  "prayerNotifTitleFajr": "🌅 Fajr — 黎明禮拜",
+  "prayerNotifBodyFajr": "晨禮是 Ahl al-Bayt 清晨的禮拜。伊瑪目阿里（AS）曾說：守護晨禮，如同守護你最珍貴的託付。起來吧，潔淨自己，然後站立在真主面前。",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — 正午禮拜",
+  "prayerNotifBodyDhuhr": "Ahl al-Bayt 的眾伊瑪目珍視每一刻對真主的記念。暫停你的一天，如有需要可將晌禮與晡禮合併，並讓你的心回歸真主。",
+  "prayerNotifTitleAsr": "🌤️ Asr — 下午禮拜",
+  "prayerNotifBodyAsr": "守護禮拜，因為它是真主與你之間的盟約。晡禮時間已到——不要讓它在沒有記念中流逝。",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — 日落禮拜",
+  "prayerNotifBodyMaghrib": "太陽已落下——Ahl al-Bayt 視之為祈求的神聖時刻。完成昏禮，並在夜晚開始前向真主舉手祈禱。",
+  "prayerNotifTitleIsha": "🌙 Isha — 夜間禮拜",
+  "prayerNotifBodyIsha": "在真主的陪伴中結束你的一天。眾伊瑪目鼓勵在宵禮後進行夜間禮拜（Salat al-Layl）——但首先，先完成你的宵禮，並以對祂的記念結束這一天。",
+  "outOfReflectionsBannerText": "你已用完所有省思次數",
   "outOfReflectionsBannerCta": "獲取更多",
-
-  "dhikrPageTitle": "贊念",
-  "dhikrTapToCount": "點擊圓圈計數",
-  "dhikrResetButton": "重置",
-  "dhikrComplete": "馬沙·真主",
-  "dhikrCompleteMessage": "你已完成99次對真主的紀念。願它們成為你心靈的光芒。",
-
-  "disclaimerTitle": "關於此應用的指引",
-  "disclaimerBody": "Ayara提供伊斯蘭反思、提醒和精神內容，以支持你個人的信仰旅程。本內容僅出於一般信息和靈感目的提供。\n\nAyara不代替合格的學問。\n本應用中的指引不是代替有學問的伊斯蘭學者、伊瑪目、穆夫提或神學訓練教師。如果你對宗教裁決、清真和非法事項或個人宗教義務有疑問，請在你的社區中尋求合格宗教權威的建議。\n\n此應用不發布宗教裁決。\nAyara不對伊斯蘭教法（伊斯蘭法律）或個人宗教義務事項進行權威決定。本應用中的任何內容都不應被視為伊斯蘭教法裁決或具有約束力的宗教指示。\n\n學者解釋各不相同。\n伊斯蘭包含豐富多樣的傳統、思想流派（馬茲哈卜）和學術觀點。本應用中的內容反映一般觀點，可能不會平等代表每一種傳統或學派。\n\n社區很重要。\n此應用旨在鼓勵你對信仰傳統的參與，同時深深尊重你當地清真寺、伊瑪目和宗教社區的重要角色。我們鼓勵你與你附近的合格教師保持聯繫並向他們學習。",
-  "disclaimerClose": "我理解",
-  "disclaimerInfoTooltip": "關於此應用的指引",
-  "disclaimerSettingsSubtitle": "僅供一般信息之用。點擊以閱讀完整免責聲明。",
-  "disclaimerSectionHeader": "指引免責聲明"
+  "dhikrPageTitle": "Dhikr",
+  "dhikrTapToCount": "點按圓圈以計數",
+  "dhikrResetButton": "重設",
+  "dhikrComplete": "Masha'Allah",
+  "dhikrCompleteMessage": "你已完成 100 次對真主的記念。願這成為你心中的光。",
+  "disclaimerTitle": "關於本應用的指引",
+  "disclaimerBody": "Ayara 提供伊斯蘭省思、提醒和靈性內容，以支持你個人的信仰旅程，內容根植於《古蘭經》及 Ahl al-Bayt 的教導。這些內容僅供一般資訊及啟發用途。\n\nAyara 不能取代具資格的學者。\n本應用中的指引不能取代有學識的伊斯蘭學者、marja' 或受過神學訓練的老師。在什葉派伊斯蘭中，宗教指引根植於 Ja'fari 法學學派（fiqh），以及追隨在世 Marja'（效法來源）的傳統——即具資格的法學家，其裁決用以指引信徒的宗教實踐。如果你對宗教裁決、清真與非法事項，或個人宗教義務有疑問，請向具資格的 Marja' 或你社群中的學者請教。\n\n本應用不作宗教裁決。\nAyara 不會對 fiqh 問題或個人宗教義務作出權威判定。這裡的任何內容都不應被視為 fatwa 或具約束力的宗教指示。\n\nAhl al-Bayt 的核心地位。\n在什葉派伊斯蘭中，先知 Muhammad ﷺ 及其潔淨的家族——Ahl al-Bayt——是《古蘭經》之後伊斯蘭社群的權威引導者。Ahl al-Bayt 的十二位伊瑪目是由真主指定的伊斯蘭教義詮釋者。本應用的內容反映了這一傳統，並努力忠實地尊崇它。\n\n社群的重要性。\n本應用旨在鼓勵你更深入地接近信仰，同時深切尊重你本地清真寺、伊斯蘭中心及宗教社群的重要角色。我們鼓勵你與附近具資格的老師保持聯繫並向他們學習。",
+  "disclaimerClose": "我明白了",
+  "disclaimerInfoTooltip": "關於本應用的指引",
+  "disclaimerSettingsSubtitle": "僅供一般資訊用途。點按以閱讀完整免責聲明。",
+  "disclaimerSectionHeader": "指引免責聲明",
+  "navHome": "首頁",
+  "navReflect": "省思",
+  "navDuas": "Dua",
+  "navCalendar": "日曆",
+  "dashboardToday": "今天",
+  "dashboardComingUp": "即將到來",
+  "dashboardDaysUnit": "{count, plural, one {天} other {天}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "快速存取",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "指引",
+  "quickActionPrayerTimes": "禮拜時間",
+  "askAyaraTitle": "問 Ayara",
+  "askAyaraSubtitle": "提出任何伊斯蘭問題，並獲得深思熟慮、具指引性的答案。",
+  "askAyaraHint": "例如：齋戒月有甚麼意義？",
+  "askAyaraSubmit": "提問",
+  "wisdomOfTheDayTitle": "今日箴言",
+  "calendarScreenTitle": "伊斯蘭日曆",
+  "calendarUpcomingOccasions": "即將到來的節日與日子",
+  "calendarOccasionRemindersTitle": "節日提醒",
+  "calendarOccasionRemindersHint": "每個節日前一晚收到通知",
+  "calendarNotifPermissionDenied": "通知權限被拒絕。請在裝置設定中啟用。",
+  "calendarNoEvents": "未找到即將到來的事件。",
+  "calendarAddToPhone": "添加到手機日曆",
+  "calendarAddedToPhone": "已添加到日曆",
+  "calendarCountdownToday": "今天",
+  "calendarCountdownTomorrow": "明天",
+  "calendarCountdownDays": "{days} 天後",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "1月",
+  "calendarMonthFeb": "2月",
+  "calendarMonthMar": "3月",
+  "calendarMonthApr": "4月",
+  "calendarMonthMay": "5月",
+  "calendarMonthJun": "6月",
+  "calendarMonthJul": "7月",
+  "calendarMonthAug": "8月",
+  "calendarMonthSep": "9月",
+  "calendarMonthOct": "10月",
+  "calendarMonthNov": "11月",
+  "calendarMonthDec": "12月",
+  "calendarSeasonMuharramEarly": "穆哈蘭月的日子——記念卡爾巴拉",
+  "calendarSeasonAshura": "阿舒拉——Ya Husayn（AS）",
+  "calendarSeasonMuharramLate": "穆哈蘭——哀悼與省思的日子",
+  "calendarSeasonArbaeen": "阿爾巴因——侯賽因的四十日",
+  "calendarSeasonRoadToArbaeen": "前往阿爾巴因之路",
+  "calendarSeasonMabath": "Mab'ath Mubarak——啟示的黎明",
+  "calendarSeasonMidShaban": "沙爾邦月中——伊瑪目馬赫迪（AJ）誕辰",
+  "calendarSeasonRamadan": "齋戒月吉慶——《古蘭經》之月",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "穆哈蘭月",
+  "hijriMonth2": "薩法爾月",
+  "hijriMonth3": "賴比爾·敖外魯月",
+  "hijriMonth4": "賴比爾·薩尼月",
+  "hijriMonth5": "主馬達·敖外魯月",
+  "hijriMonth6": "主馬達·薩尼月",
+  "hijriMonth7": "賴哲卜月",
+  "hijriMonth8": "沙爾邦月",
+  "hijriMonth9": "齋戒月",
+  "hijriMonth10": "閃瓦魯月",
+  "hijriMonth11": "杜爾蓋爾德月",
+  "hijriMonth12": "杜爾黑哲月",
+  "duasScreenTitle": "Dua 與 Ziyarat",
+  "duasSearchHint": "搜尋 dua、ziyarat…",
+  "duasFilterAll": "全部",
+  "duasCount": "{count, plural, one {{count} 篇 dua} other {{count} 篇 dua 與 ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "找不到 dua。",
+  "duaCategoryDaily": "每日",
+  "duaCategoryWeekly": "每週",
+  "duaCategoryOccasions": "節日場合",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "誕辰",
+  "eventTypeMartyrdom": "殉難",
+  "eventTypeOccasion": "節日",
+  "duaCopyTooltip": "複製翻譯",
+  "duaToggleTransliteration": "音譯",
+  "duaToggleTranslation": "翻譯",
+  "duaAskAiLabel": "請 Ayara 解釋這篇 dua",
+  "duaAskAiLockedLabel": "問 Ayara（Wilaya）",
+  "duaAiLockedMessage": "Ayara 的解釋功能只提供給 Wilaya 會員。請在設定中升級。",
+  "duaAiComingSoon": "向 Ayara 詢問「{name}」——即將推出！",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua 已複製到剪貼簿。",
+  "tasbihAllahuAkbarMeaning": "真主至大",
+  "tasbihAlhamdulillahMeaning": "一切讚頌全歸真主",
+  "tasbihSubhanallahMeaning": "讚頌真主超絕萬物",
+  "tasbihResetTooltip": "重設",
+  "tasbihCompleteTitle": "Tasbih 已完成",
+  "tasbihCompleteMessage": "願真主接受你的 dhikr。",
+  "tasbihTapHint": "點按任何位置以計數",
+  "tasbihatScreenTitle": "禮拜指南",
+  "tasbihatScreenSubtitle": "禮拜中的讚頌",
+  "tasbihatScreenDescription": "完整指南，介紹在每日禮拜中及禮拜後誦讀的讚頌——依據 Ahl al-Bayt（a）的傳統。",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "在第 3 與第 4 拜功中誦讀",
+  "tasbihatArba3Info": "在什葉派法學中，Tasbiḥāt al-Arbaʿa 在晌禮、晡禮、昏禮及宵禮的第 3 與第 4 拜功中取代 Surah al-Fatiha。誦讀一次屬必行（wājib），誦讀三次則屬可嘉（mustaḥabb）。",
+  "tasbihatArba3Translation": "讚頌真主超絕萬物 · 一切讚頌全歸真主\n除真主外，絕無應受崇拜者 · 真主至大",
+  "tasbihatArba3CompleteTitle": "誦讀完成",
+  "tasbihatArba3CompleteMessage": "願你的禮拜獲得接納——Āmīn",
+  "tasbihatArba3TapHint": "每次誦讀後點按",
+  "tasbihatZahraSubtitle": "每次禮拜後 · 100 顆珠子",
+  "tasbihatZahraOriginLabel": "來源",
+  "tasbihatZahraHadith": "法蒂瑪·宰赫拉女士（sa）曾向先知 ﷺ 要求一名僕人。先知說：「我是否不告訴你一件比那更好的事？在每次禮拜後念 Subḥānallāh 33 次、Alḥamdulillāh 33 次、Allāhu Akbar 34 次。這對你比僕人更好。」",
+  "tasbihatZahraHadithSource": "—《Biḥār al-Anwār》，第 85 卷",
+  "tasbihatZahraOpenCounter": "開啟 Tasbīḥ 計數器",
+  "tasbihatDuasTitle": "推薦的 DUĀS",
+  "tasbihatDuasSubtitle": "在你完成禮拜之後",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "每次主命禮拜之後",
+  "tasbihatDuaAyatKursiSource": "《黃牛章》2:255",
+  "tasbihatDuaAyatKursiNote": "凡在每次主命禮拜後誦讀 Āyat al-Kursī 的人，除死亡之外，沒有任何事能阻隔他進入樂園。伊瑪目巴基爾（a）說，這是《古蘭經》中最偉大的經文之一。",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "每次禮拜後 · 為一切 dua 畫上句號",
+  "tasbihatDuaSalawatSource": "伊瑪目薩迪格（a）—《Al-Kāfī》",
+  "tasbihatDuaSalawatNote": "在先知 ﷺ 及其潔淨的家族（Āl Muḥammad）上送上祝福，被推薦作為每篇 dua 的結尾。伊瑪目薩迪格（a）說：「任何 dua 都會停留不前，直到你向穆罕默德及其家人送上 ṣalawāt。」",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "每次禮拜後 · 為我們這時代的伊瑪目",
+  "tasbihatDuaFarajSource": "由伊瑪目 Hasan al-ʿAskarī（a）所教導",
+  "tasbihatDuaFarajNote": "這是一篇為第十二位伊瑪目 Mahdī（af）再臨而誦的 dua，由其父親傳授。什葉派信眾每日在每次禮拜後誦讀，以表達對在世伊瑪目的忠誠與敬愛。",
+  "tasbihatDuaTasbihFatimaTitle": "法蒂瑪女士的 Tasbīḥ",
+  "tasbihatDuaTasbihFatimaWhen": "昏禮及宵禮後 · 特別推薦",
+  "tasbihatDuaTasbihFatimaSource": "伊瑪目巴基爾（a）—《Biḥār al-Anwār》",
+  "tasbihatDuaTasbihFatimaNote": "伊瑪目巴基爾（a）說，在宵禮後、睡前誦讀 Tasbīḥ al-Zahrā，勝過 1000 拜自願禮拜。它的光會升向諸天。",
+  "tasbihFatimaGiftPre": "來自先知的禮物",
+  "tasbihFatimaGiftPost": "在每次禮拜後誦讀",
+  "prayerTrackerTitle": "禮拜追蹤",
+  "prayerTrackerPrayed": "已禮拜",
+  "prayerTrackerDayStreak": "已連續 {count} 天",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "今天所有禮拜已完成。願真主接受。",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "今天已完成",
+  "dhikrTrackerNotDoneToday": "今天尚未完成",
+  "dhikrTrackerDayStreak": "已連續 {count} 天",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Tasbīḥ 提醒",
+  "dhikrReminderDescription": "每日溫和提醒你誦讀 Tasbīḥ al-Zahrā（SA）。",
+  "dhikrReminderEnable": "啟用 Tasbīḥ 提醒",
+  "dhikrReminderTimeLabel": "提醒時間",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "每日 Hadith",
+  "hadithLabelArabic": "阿拉伯文",
+  "hadithLabelTranslation": "翻譯",
+  "hadithBadge": "HADITH",
+  "hadithShare": "分享這則 Hadith",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\n來自 Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "上一則",
+  "hadithNavNext": "下一則",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "14 位 Masumeen",
+  "imamsScreenSubtitle": "先知、法蒂瑪女士，以及十二位伊瑪目——伊斯蘭中無誤的引導者",
+  "imamLabelBorn": "誕生",
+  "imamLabelMartyrdom": "殉難",
+  "imamLabelStatus": "身分",
+  "imamSectionBiography": "生平",
+  "imamSectionFamousSaying": "名言",
+  "imamRoleProphet": "最後的先知",
+  "imamRoleInfallible": "無誤者",
+  "imamOrdinal1": "第一位伊瑪目",
+  "imamOrdinal2": "第二位伊瑪目",
+  "imamOrdinal3": "第三位伊瑪目",
+  "imamOrdinal4": "第四位伊瑪目",
+  "imamOrdinal5": "第五位伊瑪目",
+  "imamOrdinal6": "第六位伊瑪目",
+  "imamOrdinal7": "第七位伊瑪目",
+  "imamOrdinal8": "第八位伊瑪目",
+  "imamOrdinal9": "第九位伊瑪目",
+  "imamOrdinal10": "第十位伊瑪目",
+  "imamOrdinal11": "第十一位伊瑪目",
+  "imamOrdinal12": "第十二位伊瑪目",
+  "duaAudioScreenTitle": "收聽 Dua",
+  "duaAudioScreenSubtitle": "選擇一篇 dua 來收聽。點按卡片即可播放或暫停。",
+  "duaAudioComingSoonMessage": "此 dua 的音頻將在日後更新中提供。",
+  "duaAudioClose": "關閉",
+  "duaAudioError": "無法載入音頻。請檢查你的連線。",
+  "duaAudioMetaTransmittedBy": "傳述者",
+  "duaAudioMetaOccasion": "場合",
+  "duaAudioMetaDuration": "時長",
+  "quickActionDailyHadith": "每日 Hadith",
+  "quickAction14Masumeen": "14 位 Masumeen",
+  "quickActionListenDuas": "收聽",
+  "quickActionTasbihat": "禮拜指南",
+  "pilgrimageSectionTitle": "神聖旅程",
+  "pilgrimageSectionSubtitle": "完整的 Hajj 與 Umrah 指南——前往麥加真主天房的朝覲之旅",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "伊斯蘭的第五大支柱",
+  "hajjCardDescription": "一年一度的偉大朝覲——對每位有能力的穆斯林而言，一生至少一次的主命",
+  "hajjScreenTitle": "Hajj 指南",
+  "hajjScreenSubtitle": "偉大朝覲的逐步指南",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "小朝覲",
+  "umrahCardDescription": "一段可在一年任何時間進行、極具回報的靈性旅程",
+  "umrahScreenTitle": "Umrah 指南",
+  "umrahScreenSubtitle": "小朝覲的逐步指南",
+  "pilgrimageStepsTitle": "儀式與步驟",
+  "pilgrimageImportantNotesTitle": "重要事項",
+  "pilgrimageDuaTitle": "此步驟的祈禱",
+  "pilgrimageJafariNoteTitle": "賈法里法學註解",
+  "pilgrimageComplete": "✓ 完成",
+  "pilgrimageMarkDone": "標記為完成",
+  "pilgrimageProgress": "{done} / {total} 步驟",
+  "pilgrimageReadTime": "~{minutes} 分鐘",
+  "pilgrimageShiaNoteTitle": "什葉派朝覲者",
+  "pilgrimageShiaNoteBody": "什葉派朝覲者通常也會前往麥地那，探訪位於先知清真寺（Masjid al-Nabawi）的先知 Muhammad ﷺ 墳墓，以及位於 Jannat al-Baqi 的伊瑪目陵墓。這些探訪具有極其重要的靈性意義，對大多數什葉派穆斯林而言，是朝覲旅程不可分割的一部分。",
+  "hajjIntro": "Hajj 是伊斯蘭的第五大支柱，對每位在身體和經濟上都有能力的穆斯林而言，一生至少一次是主命。它在都爾黑哲月進行，並追隨先知 Ibrahim（AS）、其子 Ismail（AS）以及 Hajar 女士的腳步。對什葉派穆斯林而言，Hajj 還包含前往麥地那拜訪先知 ﷺ 與 Ahlul Bayt 安息之地的深厚祝福。",
+  "umrahIntro": "Umrah 是前往麥加的小朝覲，不同於 Hajj，它可在一年任何時間進行。雖然不是主命，但它帶來巨大的靈性回賜，並被視為非常值得鼓勵的崇拜行為。它與 Hajj 共通若干儀式，但更為簡短，由四個主要儀式組成。"
 }

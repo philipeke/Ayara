@@ -1,8 +1,6 @@
 {
   "@@locale": "de_AT",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "Wähle deine Sprache",
   "languageSelectSub": "Du kannst dies später in den Einstellungen ändern",
   "actionContinue": "Weiter",
@@ -10,71 +8,35 @@
   "languageAllHeader": "Alle Sprachen",
   "languageSuggestedBadge": "Empfohlen",
   "languageSearchHint": "Suchen…",
-
-  "planGrace": "Standard",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Tägliche Anleitung",
-  "categoryFaithTrust": "Glaube & Vertrauen",
-  "categoryPrayerReflection": "Gebetsbetrachtung",
-  "categoryHopeDifficultTimes": "Geduld & Hoffnung",
-  "categoryForgiveness": "Um Vergebung bitten",
-  "categoryLoveCompassion": "Barmherzigkeit & Mitgefühl",
-  "categoryStrengthCourage": "Glaubensstärke",
-  "categoryGratitude": "Dankbares Herz",
-  "categoryPurposeCalling": "Lebensaufgabe",
-  "categoryFamilyRelationships": "Familienbande",
-  "categoryPeaceAnxietyRelief": "Innerer Frieden",
-  "categoryWisdomOfJesus": "Prophetische Weisheit",
-  "categoryHumilityCharacter": "Guter Charakter",
-  "categoryOvercomingTemptation": "Versuchung widerstehen",
-  "categoryEveningReflection": "Abend-Dhikr",
-  "categoryCustom": "Persönliche Reflexion",
-  "dhikrMeaningSubhanallah": "Ehre sei Allah",
-  "dhikrMeaningAlhamdulillah": "Alle Lobpreis gebührt Allah",
+  "planBasic": "Standard",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Tägliche Führung",
+  "categorySlot02": "Glaube & Vertrauen",
+  "categorySlot03": "Gebet-Betrachtung",
+  "categorySlot04": "Geduld & Hoffnung",
+  "categorySlot05": "Um Vergebung bitten",
+  "categorySlot06": "Barmherzigkeit & Mitgefühl",
+  "categorySlot07": "Glaube & Stärke",
+  "categorySlot08": "Dankbares Herz",
+  "categorySlot09": "Lebenszweck",
+  "categorySlot10": "Familienbande",
+  "categorySlot11": "Innerer Frieden",
+  "categorySlot12": "Prophetische Weisheit",
+  "categorySlot13": "Guter Charakter",
+  "categorySlot14": "Versuchung widerstehen",
+  "categorySlot15": "Abend-Dhikr",
+  "categoryCustom": "Persönliche Betrachtung",
+  "dhikrMeaningSubhanallah": "Gepriesen sei Allah",
+  "dhikrMeaningAlhamdulillah": "Alles Lob gebührt Allah",
   "dhikrMeaningAllahuAkbar": "Allah ist der Größte",
   "quranVerseHeartAtRest": "Wahrlich, in der Erinnerung an Allah finden die Herzen Ruhe.",
-
-  "promptHint": "Tippe auf eine Kategorie für islamische Anleitung und Betrachtung",
-
+  "promptHint": "Tippe auf eine Kategorie für islamische Führung und Betrachtung",
   "currentLanguage": "Aktuelle Sprache",
   "settingsLanguage": "Spracheinstellungen",
   "settingsTitle": "Einstellungen",
   "chooseLanguage": "Wähle deine Sprache",
   "continueCta": "Weiter",
-
-  "promptDailyGuidance": "Schreibe eine kurze, praktische tägliche Anleitung, die im sunnitisch-islamischen Glauben verwurzelt ist und auf dem Quran, der Hadith und den Lehren des Propheten Muhammad basiert. Wähle jedes Mal einen neuen Blickwinkel: eine Tugend aus der islamischen Ethik, eine Wahrheit aus der Sunnah, Weisheit von den Gefährten des Propheten oder eine stille Praktik aus der islamischen Tradition. Füge einen Quran-Vers ein (Sure:Vers) und eine Betrachtung von 1–2 Sätzen hinzu, die man durch den Tag mitnehmen kann. Verbinde es optional mit dem islamischen Kalender oder einem wichtigen Datum, falls relevant.",
-
-  "promptFaithTrust": "Schreibe eine kurze islamische Betrachtung über Iman (Glaube) und Vertrauen in Allahs Plan (Tawakkul). Begründe es im Quran, im Beispiel des Propheten Muhammad und im Glauben der Sahaba. Variiere das Thema jedes Mal: Vertrauen zu Allah in der Unsicherheit, Verlassen auf göttliche Weisheit, Geduld in Prüfungen oder stille Ausdauer im Alltag. Füge einen Quran-Vers und einen ehrlichen Schritt für heute ein, der aus islamischer spiritueller Weisheit abgeleitet ist.",
-
-  "promptPrayerReflection": "Schreibe eine kurze islamische Gebetsbetrachtung, die in Salah, Dua oder Dhikr verwurzelt ist. Variiere die Form jedes Mal: eine Morgen- oder Abenderinnerung (Adhkar), Betrachtung der fünf täglichen Gebete, Kontemplation eines Quran-Verses oder ein inniges Gebet. Füge einen Quran-Vers ein und benenne kurz die verwendete Gebetsform.",
-
-  "promptHopeDifficultTimes": "Schreibe eine islamische Betrachtung über Geduld (Sabr) und Hoffnung in schwierigen Zeiten. Schöpfe aus Quran-Lehren über Prüfungen, der Ausdauer der Propheten und der Barmherzigkeit Allahs in schwierigen Momenten. Variiere den Blickwinkel jedes Mal. Füge einen Quran-Vers und eine ermutigende Perspektive aus der islamischen Tradition hinzu.",
-
-  "promptForgiveness": "Schreibe eine weise islamische Betrachtung über die Bitte um Vergebung (Tawbah) und Allahs Barmherzigkeit. Schöpfe aus Quran-Lehren über Buße, Allahs Mitgefühl und dem verzeihenden Beispiel des Propheten Muhammad. Variiere das Thema: Rückkehr zu Allah, anderen vergeben, Heilung von Beziehungen oder Glaube an Allahs Barmherzigkeit nach Fehlern. Füge einen Quran-Vers und einen konkreten Schritt ein.",
-
-  "promptLoveCompassion": "Schreibe eine kurze islamische Betrachtung über Barmherzigkeit (Rahmah) und Mitgefühl im Alltag. Schöpfe aus dem Beispiel des Propheten Muhammad, dem Konzept von Ihsan (Vortrefflichkeit) und islamischen Lehren über Güte gegenüber Familie, Nachbarn und Bedürftigen. Füge einen Quran-Vers und eine kleine Tat des Mitgefühls ein, die man heute üben kann.",
-
-  "promptStrengthCourage": "Schreibe eine islamische Betrachtung über glaubensgestützte Stärke und Mut. Schöpfe aus Beispielen der Propheten, der frühen muslimischen Gemeinschaft und Gläubigen, die in schwierigen Zeiten standhaft blieben. Variiere das Thema jedes Mal: Mut durch Glaube, Stärke im Gebet, Vertrauen zu Allah in der Angst oder Widerstandsfähigkeit in Schwierigkeiten. Füge einen Quran-Vers und ein kurzes Gebet oder einen Merkvers ein.",
-
-  "promptGratitude": "Schreibe eine islamische Betrachtung über Dankbarkeit (Shukr) gegenüber Allah. Begründe sie in Quran-Lehren und prophetischer Tradition. Variiere den Blickwinkel: Dankbarkeit in Schwierigkeiten, kleine Segnungen wertschätzen, den Tag mit Lobpreis Allahs beginnen oder Allahs Führung im Alltag erkennen. Füge einen Quran-Vers und eine Dankbarkeitspraktik ein.",
-
-  "promptPurposeCalling": "Schreibe eine islamische Betrachtung über den Lebenszweck als Anbetung Allahs und rechtsschaffenes Leben. Schöpfe aus Quran-Lehren über Zweck, Dienst an anderen und die Nutzung der eigenen Gaben zum Guten. Variiere das Thema jedes Mal: Familie und Gemeinschaft dienen, Leitung durch Istikhara suchen, mit Absicht leben oder Sinn in alltäglicher Arbeit finden. Füge einen Quran-Vers und zwei nachdenklich stimmende Fragen ein.",
-
-  "promptFamilyRelationships": "Schreibe weise islamische Anleitung zu Familie und Beziehungen, die in Quran-Lehren und dem Beispiel des Propheten Muhammad verwurzelt ist. Variiere das Thema jedes Mal: Güte im Familienleben, Geduld in Konflikten, Ehre gegenüber den Eltern, Erziehung der Kinder im Glauben oder Stärkung der Ehe. Füge einen Quran-Vers und eine Beziehungspraktik ein, die man ausprobieren kann.",
-
-  "promptPeaceAnxietyRelief": "Schreibe eine beruhigende islamische Betrachtung über die Suche nach innerem Frieden durch Allahs Gedenken (Dhikr) und Vertrauen in Seinen Plan. Schöpfe aus Quran-Lehren über Herzensruhe, Gebet und Hingabe an Allahs Willen. Variiere den Ansatz jedes Mal und füge einen Quran-Vers und eine einfache Erdungspraktik aus der islamischen Tradition ein.",
-
-  "promptWisdomOfJesus": "Schreibe ein kurzes Stück Weisheit von den Propheten, wie sie im Islam gelehrt werden. Schöpfe aus dem Quran oder der Hadith und erkläre kurz, wie islamische Gelehrte die Lehre verstanden haben. Variiere das Thema jedes Mal: Charakter, Geduld, Demut, Glaube oder alltägliches Verhalten. Füge einen Quran-Vers oder eine Hadith-Referenz und eine praktische Anwendung ein.",
-
-  "promptHumilityCharacter": "Schreibe eine islamische Betrachtung über Demut (Tawadhu) und guten Charakter (Akhlaq). Schöpfe aus Quran-Lehren, dem Beispiel des Propheten Muhammad und der Tradition der islamischen Charakterentwicklung. Variiere das Thema: Demut in der Führung, Fehler zugeben, andere mit Respekt behandeln oder spirituelles Wachstum durch Selbstreflexion. Füge einen Quran-Vers und eine Gewohnheit zum Üben ein.",
-
-  "promptOvercomingTemptation": "Schreibe eine islamische Betrachtung über das Widerstehen von Versuchung und das Verbleiben auf dem geraden Weg. Schöpfe aus Quran-Anleitung, Allahs Gedenken (Dhikr), Gebet (Salah) und Beispielen von Gläubigen, die Kämpfe überwunden haben. Variiere den Blickwinkel jedes Mal. Füge einen Quran-Vers und eine praktische Strategie für die nächsten 24 Stunden ein.",
-
-  "promptEveningReflection": "Schreibe eine friedliche islamische Abendbetrachtung, die in der Tradition des Abendgedenkens (Adhkar al-Masaa') verwurzelt ist. Ermutige Dankbarkeit, Selbstreflexion (Muhasabah) und Vertrauen zu Allah vor der Ruhe. Füge 3–5 kurze Reflexionsfragen zum Tag ein, ein kurzes Abschlussgebet und einen Quran-Vers.",
-
   "wordCount": "{count, plural, one {{count} Wort} other {{count} Wörter}}",
-
   "optionsCta": "Optionen",
   "newCta": "Neu",
   "actionsTitle": "Was möchtest du tun?",
@@ -82,47 +44,47 @@
   "share": "Teilen",
   "close": "Schließen",
   "copiedToast": "In die Zwischenablage kopiert",
-
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Betreffzeile für E-Mail/Freigabe mit Kategoriebezeichnung.",
+    "description": "Email / share subject line including the category label.",
     "placeholders": {
-      "category": { "type": "String", "example": "Tägliche Anleitung" }
+      "category": {
+        "type": "String",
+        "example": "Tägliche Führung"
+      }
     }
   },
-
   "regenerateErrorTitle": "Konnte keine neue Antwort generieren",
   "regenerateErrorBody": "{error}\n\nMöchtest du es erneut versuchen?",
   "@regenerateErrorBody": {
-    "description": "Wird angezeigt, wenn die Regenerierung einer KI-Antwort fehlschlägt.",
+    "description": "Shown when regenerating an AI answer fails.",
     "placeholders": {
-      "error": { "type": "String", "example": "Netzwerkfehler" }
+      "error": {
+        "type": "String",
+        "example": "Netzwerkfehler"
+      }
     }
   },
-
   "cancelCta": "Abbrechen",
   "retryCta": "Erneut versuchen",
-
   "authTitle": "Erstelle dein Konto",
   "continueAsGuest": "Als Gast fortfahren",
   "signInGoogle": "Mit Google anmelden",
   "signInApple": "Mit Apple anmelden",
   "signInEmail": "Mit E-Mail anmelden",
   "upgradeWithApple": "Mit Apple fortfahren",
-  "mustAccept": "Du musst den Bedingungen zustimmen und die Datenschutzrichtlinie akzeptieren.",
+  "mustAccept": "Du musst den Nutzungsbedingungen zustimmen und die Datenschutzrichtlinie anerkennen.",
   "termsLabel": "Ich akzeptiere die Nutzungsbedingungen",
   "privacyLabel": "Ich habe die Datenschutzrichtlinie gelesen",
   "marketingOptIn": "Ich stimme zu, Nachrichten und Angebote zu erhalten",
   "openTerms": "Nutzungsbedingungen",
   "openPrivacy": "Datenschutzrichtlinie",
-
   "accountSection": "Konto",
   "guestMode": "Gastmodus",
   "signedIn": "Angemeldet",
-  "upgradeHint": "Speichere deine Betrachtungen auf allen Geräten, indem du ein Konto erstellst.",
+  "upgradeHint": "Speichere deine Betrachtungen auf mehreren Geräten, indem du ein Konto erstellst.",
   "upgradeWithGoogle": "Mit Google fortfahren",
   "signOut": "Abmelden",
-
   "snackUpgraded": "Konto mit Google aktualisiert ✅",
   "snackSignedIn": "Mit Google angemeldet ✅",
   "snackSignedOut": "Abgemeldet",
@@ -130,79 +92,81 @@
   "snackSignedInGoogle": "Mit Google angemeldet ✅",
   "snackUpgradedApple": "Konto mit Apple aktualisiert ✅",
   "snackUpgradedGoogle": "Konto mit Google aktualisiert ✅",
-
   "historyTitle": "Frühere Betrachtungen",
   "historyOpenCta": "Frühere Betrachtungen",
   "historyEmpty": "Noch keine gespeicherten Betrachtungen.",
   "historyDeleteTitle": "Betrachtung löschen?",
   "historyDeleteBody": "Dies wird das ausgewählte Element dauerhaft entfernen.",
   "deleteCta": "Löschen",
-
   "historyButton": "Frühere Betrachtungen",
   "historyEmptyTitle": "Noch keine Betrachtungen",
-  "historyEmptyBody": "Generiere zunächst etwas – deine gespeicherten Elemente werden hier angezeigt.",
+  "historyEmptyBody": "Generiere zuerst etwas — deine gespeicherten Elemente werden hier angezeigt.",
   "historyDelete": "Löschen",
-
-  "footerTitle": "Mit Iman, Sabr und Rahma.",
-  "footerSubtitle": "Ein Schritt nach dem anderen.",
-  "genericErrorSnack": "Etwas ist schief gelaufen – versuche es in einem Moment erneut.",
-
-  "upgradeAccountCta": "Speichere deine Betrachtungen auf allen Geräten – erstelle ein Konto",
+  "footerTitle": "Mit Wilaya, Iman und Sabr",
+  "footerSubtitle": "Ein Gebet nach dem anderen",
+  "genericErrorSnack": "Etwas ist schiefgelaufen — bitte versuche es in einem Moment erneut.",
+  "upgradeAccountCta": "Speichere deine Betrachtungen auf mehreren Geräten – erstelle ein Konto",
   "deleteAccount": "Konto löschen",
   "exportData": "Meine Daten exportieren",
-
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Bezeichnung vor der Anzeige der internen Firebase UID.",
+    "description": "Label before showing the internal Firebase UID.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Einfach mal Ruhe bewahren 🐯\nDie KI braucht einen Moment bis zur nächsten…",
-  "rateDailyLimit": "Deine Betrachtungen sind jetzt erschöpft.\nHole mehr Betrachtungen oder upgrade zu Barakah.",
-  "rateCreditsExhausted": "Du hast alle deine Betrachtungen verbraucht.\nAufstocken oder zu Barakah upgraden, um fortzufahren.",
-  "rateGraceReflectionsExhausted": "Deine Betrachtungen sind jetzt erschöpft.\nHole mehr Betrachtungen oder upgrade zu Barakah.",
-  "rateReflectionsExhausted": "Du hast alle deine Betrachtungen verbraucht.\nAufstocken oder zu Barakah upgraden, um fortzufahren.",
-
-  "blessedDescription": "Barakah schaltet Premium-Funktionen, zukünftige Kategorien und einen speziellen Badge frei.",
-  "championDescription": "Barakah schaltet Premium-Funktionen, zukünftige Kategorien und einen speziellen Badge frei.",
-
-  "ratePlanExhausted": "Deine Betrachtungen sind jetzt leer. Plan: {plan}.",
+  "rateLocalThrottle": "Ganz ruhig 🐯\nAyara braucht einen Moment vor dem nächsten…",
+  "rateDailyLimit": "Du hast deine Betrachtungen für jetzt aufgebraucht.\nHole dir mehr Betrachtungen oder aktualisiere auf Wilaya.",
+  "rateCreditsExhausted": "Du hast alle deine Betrachtungen verbraucht.\nAufladung oder Aktualisierung auf Wilaya zum Fortfahren.",
+  "rateGraceCreditsExhausted": "Du hast deine Betrachtungen für jetzt aufgebraucht.\nHole dir mehr Betrachtungen oder aktualisiere auf Wilaya.",
+  "premiumDescription": "Wilaya schaltet Premium-Funktionen, zukünftige Kategorien und ein spezielles Badge frei.",
+  "ratePlanExhausted": "Deine Betrachtungen sind im Moment leer. Plan: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Wird angezeigt, wenn die Betrachtungen des Benutzers erschöpft sind, aber der Grund allgemein ist.",
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard oder Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard oder Wilaya"
+      }
     }
   },
-
   "rateCheckFailed": "Konnte deine Betrachtungen nicht überprüfen: {message}",
   "@rateCheckFailed": {
-    "description": "Wird angezeigt, wenn die aufrufbare Funktion eine Fehlermeldung zurückgibt.",
+    "description": "Shown when the callable function returns an error message.",
     "placeholders": {
-      "message": { "type": "String", "example": "Netzwerkfehler" }
+      "message": {
+        "type": "String",
+        "example": "Netzwerkfehler"
+      }
     }
   },
-
-  "rateCheckGenericError": "Beim Überprüfen deiner Betrachtungen ist etwas schief gelaufen.",
-  "aiFallbackGeneric": "Etwas ist schief gelaufen – versuche es in einem Moment erneut.",
-
+  "rateCheckGenericError": "Etwas ist beim Überprüfen deiner Betrachtungen schiefgelaufen.",
+  "aiFallbackGeneric": "Etwas ist schiefgelaufen — bitte versuche es in einem Moment erneut.",
   "limitSectionTitle": "Betrachtungen",
   "limitTodayLabel": "Nutzung",
   "limitCreditsLabel": "Verbleibende Betrachtungen: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "Plan: {plan}",
   "@limitPlanLabel": {
-    "description": "Zeigt den Namen des aktuellen Abonnementplans.",
+    "description": "Shows the current subscription plan name.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard oder Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard oder Wilaya"
+      }
     }
   },
   "limitLoadingLabel": "Wird geladen…",
-  "limitLoadingLabelDescription": "Wird in der Betrachtungskarte angezeigt, während Nutzungsstatistiken abgerufen werden.",
-
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
   "aiLimitTitle": "Betrachtungen",
-  "aiLimitSubtitle": "Jede Antwort verwendet 1 Betrachtung. Standard enthält Starter-Betrachtungen. Barakah schaltet Premium-Kategorien frei und ermöglicht Aufstockungen.",
+  "aiLimitSubtitle": "Jede Antwort verbraucht 1 Betrachtung. Standard enthält Starter-Betrachtungen. Wilaya schaltet Premium-Kategorien frei und ermöglicht Aufladungen.",
   "aiLimitProgressLabel": "{used} / {total} Betrachtungen verwendet",
   "@aiLimitProgressLabel": {
     "placeholders": {
@@ -210,321 +174,127 @@
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Betrachtungen",
-  "reflectionsUsageLabel": "Nutzung",
-  "reflectionsRemainingLabel": "Verbleibende Betrachtungen: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Plan: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Zeigt den Namen des aktuellen Plans.",
+  "creditsSectionTitle": "Betrachtungen",
+  "creditsUsageLabel": "Nutzung",
+  "creditsRemainingLabel": "Verbleibende Betrachtungen: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard oder Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Wird geladen…",
-  "reflectionsLoadingLabelDescription": "Wird angezeigt, während Betrachtungsstatistiken abgerufen werden.",
-
-  "reflectionsTitle": "Betrachtungen",
-  "reflectionsSubtitle": "Jede Antwort verwendet 1 Betrachtung. Standard enthält Starter-Betrachtungen. Barakah schaltet Premium-Kategorien frei und ermöglicht Aufstockungen.",
-  "reflectionsProgressLabel": "{used} / {total} Betrachtungen verwendet",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Plan: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standard oder Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Wird geladen…",
+  "creditsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+  "creditsTitle": "Betrachtungen",
+  "creditsSubtitle": "Jede Antwort verbraucht 1 Betrachtung. Standard enthält Starter-Betrachtungen. Wilaya schaltet Premium-Kategorien frei und ermöglicht Aufladungen.",
+  "creditsProgressLabel": "{used} / {total} Betrachtungen verwendet",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "Konto löschen",
-  "settingsDeleteDescription": "Lösche dein Konto und alle damit verbundenen Daten dauerhaft.",
+  "settingsDeleteDescription": "Lösche dein Konto und alle zugehörigen Daten dauerhaft.",
   "settingsDeleteButtonLabel": "Mein Konto löschen",
   "settingsDeleteDialogTitle": "Konto löschen?",
-  "settingsDeleteDialogBody": "Diese Aktion ist dauerhaft und kann nicht rückgängig gemacht werden.\n\nAlle deine Chats, Verlauf und Kontoinformationen werden gelöscht.",
+  "settingsDeleteDialogBody": "Diese Aktion ist endgültig und kann nicht rückgängig gemacht werden.\n\nAlle deine Chats, Verlauf und Kontoinformationen werden gelöscht.",
   "settingsDeleteDialogCancel": "Abbrechen",
   "settingsDeleteDialogConfirm": "Löschen",
-
   "settingsFreeLimitUsedTitle": "Starter-Betrachtungen verwendet",
-  "settingsFreeLimitUsedDescription": "Die Starter-Betrachtungen für dieses Gerät wurden verwendet. Upgrade zu Barakah oder kaufe mehr Betrachtungen, um fortzufahren.",
-
-  "settingsStarterReflectionsUsedTitle": "Starter-Betrachtungen verwendet",
-  "settingsStarterReflectionsUsedDescription": "Die Starter-Betrachtungen für dieses Gerät wurden verwendet. Upgrade zu Barakah oder kaufe mehr Betrachtungen, um fortzufahren.",
-
-  "deviceBoundError": "Dieses Gerät ist bereits mit einem anderen Konto verbunden. Bitte melde dich mit dem ursprünglichen Konto an.",
-
-  "premiumTitle": "Barakah-Modus",
-  "premiumSubtitleBasic": "Entsperre die volle Ayara-Erfahrung.",
-  "premiumSubtitleChampion": "Du bist Barakah. Brauchst du mehr Betrachtungen?",
-
+  "settingsFreeLimitUsedDescription": "Die Starter-Betrachtungen für dieses Gerät wurden verwendet. Aktualisiere auf Wilaya oder kaufe mehr Betrachtungen, um fortzufahren.",
+  "settingsStarterCreditsUsedTitle": "Starter-Betrachtungen verwendet",
+  "settingsStarterCreditsUsedDescription": "Die Starter-Betrachtungen für dieses Gerät wurden verwendet. Aktualisiere auf Wilaya oder kaufe mehr Betrachtungen, um fortzufahren.",
+  "deviceBoundError": "Dieses Gerät ist bereits mit einem anderen Konto verknüpft. Bitte melde dich mit dem ursprünglichen Konto an.",
+  "premiumTitle": "Wilaya-Modus",
+  "premiumSubtitleBasic": "Entsperre das vollständige Ayara-Erlebnis.",
+  "premiumSubtitlePremium": "Du bist im Wilaya-Modus. Brauchst du mehr Betrachtungen?",
   "premiumCurrentPlan": "Aktueller Plan: {plan}",
   "premiumCreditsStatus": "Betrachtungen: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "Käufe sind gerade nicht verfügbar.",
-  "premiumSignInToPurchase": "Melde dich an, um Betrachtungen zu kaufen oder Barakah freizuschalten.",
-
+  "premiumPurchasesUnavailable": "Käufe sind im Moment nicht verfügbar.",
+  "premiumSignInToPurchase": "Melde dich an, um Betrachtungen zu kaufen oder Wilaya freizuschalten.",
   "premiumRestorePurchases": "Käufe wiederherstellen",
   "premiumProcessing": "Wird verarbeitet…",
-  "premiumRestoreHintTitle": "Hast du bereits Barakah oder Betrachtungen auf diesem oder einem anderen Gerät gekauft?",
-  "premiumRestoreHintBody": "Stelle deine Käufe wieder her, wenn sie nicht angezeigt werden.",
-
-  "premiumBuyCredits200": "Kaufe 200 Betrachtungen",
-  "premiumBuyCredits400": "Kaufe 400 Betrachtungen",
-  "premiumBecomeChampionOneTime": "Upgrade zu Barakah-Modus",
-  "premiumChampionHint": "Als Barakah kannst du jederzeit mit zusätzlichen Betrachtungen auffüllen.",
-
-  "premiumUpgradeCta": "Upgraden",
-  "premiumRequiredForCategory": "Diese Kategorie ist nur für Barakah-Benutzer verfügbar. Upgrade in den Einstellungen, um auf all Premium-Inhalte zuzugreifen.",
-  "premiumBenefitsBasic": "Upgrade zu Barakah, um zusätzliche Betrachtungen freizuschalten, auf Premium-Kategorien zuzugreifen und jederzeit Anleitung zu erhalten.",
-  "premiumBenefitsChampion": "Du bist im Barakah-Modus. Wenn du wenig wirst, füge zusätzliche Betrachtungen hinzu und fahre ohne Unterbrechungen fort.",
-  "premiumButtonBecomeChampion": "Barakah freischalten",
-  "premiumButtonTopup1000": "Füge 1000 Betrachtungen hinzu",
-  "premiumChampionBadge": "Barakah aktiv",
+  "premiumRestoreHintTitle": "Hast du Wilaya oder Betrachtungen bereits auf diesem oder einem anderen Gerät gekauft?",
+  "premiumRestoreHintBody": "Stelle deine Käufe wieder her, falls sie nicht angezeigt werden.",
+  "premiumBuyCredits200": "200 Betrachtungen kaufen",
+  "premiumBuyCredits400": "400 Betrachtungen kaufen",
+  "premiumBecomePremiumOneTime": "Auf Wilaya-Modus aktualisieren",
+  "premiumTopupHint": "Mit Wilaya kannst du dich jederzeit mit zusätzlichen Betrachtungen auffüllen.",
+  "premiumUpgradeCta": "Aktualisieren",
+  "premiumRequiredForCategory": "Diese Kategorie ist nur für Wilaya-Benutzer verfügbar. Aktualisiere in den Einstellungen, um auf alle Premium-Inhalte zuzugreifen.",
+  "premiumBenefitsBasic": "Schalte Wilaya frei, um zusätzliche Betrachtungen zu erhalten, auf Premium-Kategorien zuzugreifen und jederzeit Führung zu erhalten.",
+  "premiumBenefitsPremium": "Du bist im Wilaya-Modus. Falls die Betrachtungen niedrig sind, füge zusätzliche hinzu und fahre ohne Unterbrechungen fort.",
+  "premiumButtonBecomePremium": "Schalte Wilaya frei",
+  "premiumButtonTopup1000": "1000 Betrachtungen hinzufügen",
+  "premiumBadge": "Wilaya aktiv",
   "premiumLoadingStore": "Store wird geladen…",
-
-  "blessedTitle": "Barakah-Modus",
-  "blessedSubtitleGrace": "Entsperre die volle Ayara-Erfahrung.",
-  "blessedSubtitleBlessed": "Du bist Barakah. Brauchst du mehr Betrachtungen?",
-
-  "blessedCurrentPlan": "Aktueller Plan: {plan}",
-  "blessedReflectionsStatus": "Betrachtungen: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Käufe sind gerade nicht verfügbar.",
-  "blessedProductNotAvailable": "Dieses Produkt ist noch nicht im Store verfügbar. Versuche es später erneut.",
-  "blessedPurchaseError": "Mit dem Kauf ist etwas schief gelaufen. Bitte versuche erneut.",
-  "blessedSignInToPurchase": "Melde dich an, um Betrachtungen zu kaufen oder Barakah freizuschalten.",
-
-  "blessedRestorePurchases": "Käufe wiederherstellen",
-  "blessedProcessing": "Wird verarbeitet…",
-  "blessedRestoreHintTitle": "Hast du bereits Barakah oder Betrachtungen auf diesem oder einem anderen Gerät gekauft?",
-  "blessedRestoreHintBody": "Stelle deine Käufe wieder her, wenn sie nicht angezeigt werden.",
-
-  "blessedBuyReflections100": "Füge 100 Betrachtungen hinzu",
-  "blessedBuyReflections200": "Kaufe 200 Betrachtungen",
-  "blessedBuyReflections400": "Kaufe 400 Betrachtungen",
-  "blessedBecomeBlessedOneTime": "Upgrade zu Barakah",
-  "blessedTopupHint": "Als Barakah kannst du jederzeit mit zusätzlichen Betrachtungen auffüllen.",
-
-  "blessedUpgradeCta": "Upgraden",
-  "blessedRequiredForCategory": "Diese Kategorie ist nur für Barakah-Benutzer verfügbar. Upgrade in den Einstellungen, um auf all Premium-Inhalte zuzugreifen.",
-  "blessedFeatureLocked": "Schalte Barakah frei, um auf diese Funktion zuzugreifen.",
-  "lockedCategoriesHint": "Einige Kategorien sind Barakah-Mitgliedern vorbehalten. Schalte sie frei, um jede Betrachtung auf deinem Weg zu erkunden.",
-  "blessedBenefitsGrace": "Upgrade zu Barakah, um zusätzliche Betrachtungen freizuschalten, auf Premium-Kategorien zuzugreifen und jederzeit Anleitung zu erhalten.",
-  "blessedBenefitsBlessed": "Du bist im Barakah-Modus. Wenn du wenig wirst, füge zusätzliche Betrachtungen hinzu und fahre ohne Unterbrechungen fort.",
-  "blessedButtonBecomeBlessed": "Barakah freischalten",
-  "blessedButtonTopup1000": "Füge 1000 Betrachtungen hinzu",
-  "blessedBadge": "Barakah aktiv",
-  "blessedLoadingStore": "Store wird geladen…",
-
+  "premiumProductNotAvailable": "Dieses Produkt ist im Store noch nicht verfügbar. Bitte versuche es später erneut.",
+  "premiumPurchaseError": "Etwas ist beim Kauf schiefgelaufen. Bitte versuche es erneut.",
+  "premiumBuyCredits100": "100 Betrachtungen hinzufügen",
+  "premiumFeatureLocked": "Schalte Wilaya frei, um auf diese Funktion zuzugreifen.",
+  "lockedCategoriesHint": "Einige Kategorien sind für Wilaya-Mitglieder reserviert. Schalte sie frei, um jede Betrachtung auf deiner Reise zu erkunden.",
   "freePlanBlockedTitle": "Du hast deine Starter-Betrachtungen aufgebraucht",
-  "freePlanBlockedBody": "Du bist im Standard-Plan mit Starter-Betrachtungen und hast die Grenze erreicht. Um fortzufahren und Premium-Kategorien freizuschalten, upgrade zu Barakah.",
-  "freePlanBlockedCtaGoPremium": "Siehe Barakah-Optionen unten",
-
+  "freePlanBlockedBody": "Du bist im Standard-Plan mit Starter-Betrachtungen und hast die Grenze erreicht. Um fortzufahren – und Premium-Kategorien freizuschalten – aktualisiere auf Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Siehe Wilaya-Optionen unten",
   "graceBlockedTitle": "Du hast deine Starter-Betrachtungen aufgebraucht",
-  "graceBlockedBody": "Du bist im Standard-Plan mit Starter-Betrachtungen und hast die Grenze erreicht. Um fortzufahren und Premium-Kategorien freizuschalten, upgrade zu Barakah.",
-  "graceBlockedCtaGoBlessed": "Siehe Barakah-Optionen unten",
-
-  "rateGuestMustSignIn": "Melde dich an, um Ayara zu nutzen und deine Betrachtungen zu verwenden.",
-
+  "graceBlockedBody": "Du bist im Standard-Plan mit Starter-Betrachtungen und hast die Grenze erreicht. Um fortzufahren – und Premium-Kategorien freizuschalten – aktualisiere auf Wilaya.",
+  "graceBlockedCtaGoPremium": "Siehe Wilaya-Optionen unten",
+  "rateGuestMustSignIn": "Melde dich an, um Ayara und deine Betrachtungen zu nutzen.",
   "guestNoCreditsTitle": "Gastmodus",
-  "guestNoCreditsBody": "Als Gast kannst du die App durchsuchen, aber du kannst Betrachtungen nicht verwenden. Melde dich später in den Einstellungen an, um Betrachtungen zu verwenden und Käufe freizuschalten.",
-
-  "guestNoReflectionsTitle": "Gastmodus",
-  "guestNoReflectionsBody": "Als Gast kannst du die App durchsuchen, aber du kannst Betrachtungen nicht verwenden. Melde dich später in den Einstellungen an, um Betrachtungen zu verwenden und Käufe freizuschalten.",
-
+  "guestNoCreditsBody": "Als Gast kannst du die App durchsuchen, aber keine Betrachtungen nutzen. Melde dich später in den Einstellungen an, um Betrachtungen zu nutzen und Käufe freizuschalten.",
   "guestDialogContinue": "Fortfahren",
   "guestDialogLoginInstead": "Stattdessen anmelden",
-
   "optionalLabel": "optional",
-
   "accountDeleteSuccessTitle": "Konto gelöscht",
-  "accountDeleteSuccessBody": "Dein Konto und die damit verbundenen Daten wurden erfolgreich gelöscht.",
+  "accountDeleteSuccessBody": "Dein Konto und die zugehörigen Daten wurden erfolgreich gelöscht.",
   "accountDeleteSuccessClose": "Schließen",
   "accountDeleteErrorTitle": "Konto konnte nicht gelöscht werden",
   "accountDeleteErrorClose": "OK",
-  "accountDeleteReauthCancelled": "Die Authentifizierung wurde abgebrochen. Bitte melde dich erneut an und versuche das Löschen erneut.",
-  "accountDeleteReauthRequired": "Das Löschen des Kontos erfordert eine kürzliche Anmeldung. Melde dich ab, melde dich erneut an und versuche das Löschen erneut.",
-  "settingsDeletePermanentWarning": "Diese Aktion ist dauerhaft und kann nicht rückgängig gemacht werden. Alle mit deinem Konto verbundenen Daten werden gelöscht.",
-
-  "dailyGraceTitle": "Tägliche Anleitung",
+  "accountDeleteReauthCancelled": "Erneute Authentifizierung wurde abgebrochen. Bitte melde dich erneut an und versuche das Löschen erneut.",
+  "accountDeleteReauthRequired": "Das Löschen des Kontos erfordert eine kürzliche Anmeldung. Bitte melde dich ab, melde dich erneut an und versuche das Löschen erneut.",
+  "settingsDeletePermanentWarning": "Diese Aktion ist endgültig und kann nicht rückgängig gemacht werden. Alle Daten, die mit deinem Konto verbunden sind, werden gelöscht.",
+  "dailyGraceTitle": "Tägliche Führung",
   "dailyGraceScriptureLabel": "VERS DES TAGES",
   "dailyGraceSaintLabel": "GELEHRTER DER WOCHE",
-  "dailyGraceReflectionLabel": "ABENDBETRACHTUNG",
+  "dailyGraceReflectionLabel": "ABEND-BETRACHTUNG",
   "dailyGraceCopiedToast": "Vers in die Zwischenablage kopiert",
-
-  "dailyScripture0Text": "Wahrlich, die Rechtschaffenen werden in Gärten und Flüssen sein, auf einem Ehrenplatz bei einem mächtigen König.",
-  "dailyScripture0Ref": "Quran 54:54-55",
-  "dailyScripture1Text": "Und wir haben dich nicht entsandt, außer als Barmherzigkeit für die Welten.",
-  "dailyScripture1Ref": "Quran 21:107",
-  "dailyScripture2Text": "Ist Allah nicht ausreichend für seinen Diener? Doch sie schrecken dich vor anderen außer ihm ab.",
-  "dailyScripture2Ref": "Quran 39:36",
-  "dailyScripture3Text": "Vielleicht hasst du etwas, und es ist gut für dich; und vielleicht liebst du etwas, und es ist schlecht für dich. Und Allah weiß, während ihr nicht wisst.",
-  "dailyScripture3Ref": "Quran 2:216",
-  "dailyScripture4Text": "Wahrlich, Allah ist mit den Geduldigen.",
-  "dailyScripture4Ref": "Quran 2:153",
-  "dailyScripture5Text": "So denke an Mich, ich werde an dich denken. Und sei dankbar mir gegenüber und leugne mich nicht.",
-  "dailyScripture5Ref": "Quran 2:152",
-  "dailyScripture6Text": "Wahrlich, die Noblesten von euch in Allahs Augen sind die Rechtschaffensten von euch.",
-  "dailyScripture6Ref": "Quran 49:13",
-  "dailyScripture7Text": "Und dein Herr hat bestimmt, dass du keinen außer Ihm verehrst und dich deinen Eltern gegenüber pflichtbewusst verhältst.",
-  "dailyScripture7Ref": "Quran 17:23",
-  "dailyScripture8Text": "Wahrlich, mit Schwierigkeit kommt Erleichterung.",
-  "dailyScripture8Ref": "Quran 94:6",
-  "dailyScripture9Text": "Und Er ist bei dir, wo immer du bist. Und Allah sieht, was du tust.",
-  "dailyScripture9Ref": "Quran 57:4",
-  "dailyScripture10Text": "Allah bürdet einer Seele keine Last auf, die über ihre Kraft hinausgeht.",
-  "dailyScripture10Ref": "Quran 2:286",
-  "dailyScripture11Text": "Und wer auf Allah vertraut – dann ist Er für ihn ausreichend.",
-  "dailyScripture11Ref": "Quran 65:3",
-  "dailyScripture12Text": "Meine Barmherzigkeit umfasst alle Dinge.",
-  "dailyScripture12Ref": "Quran 7:156",
-  "dailyScripture13Text": "Und wenn meine Diener dich nach mir fragen – fürwahr, ich bin nah. Ich antworte dem Bittflehenden, wenn er mich ruft.",
-  "dailyScripture13Ref": "Quran 2:186",
-  "dailyScripture14Text": "Wer Rechtschaffenheit wirkt, ob männlich oder weiblich, während er gläubig ist – wir werden ihn wahrlich in einem guten Leben leben lassen.",
-  "dailyScripture14Ref": "Quran 16:97",
-  "dailyScripture15Text": "Wahrlich, Allah ändert nicht den Zustand eines Volkes, bis sie das ändern, das in ihnen ist.",
-  "dailyScripture15Ref": "Quran 13:11",
-  "dailyScripture16Text": "Schwäche dich nicht ab und betrübe dich nicht, und du wirst überlegen sein, wenn du wahre Gläubige bist.",
-  "dailyScripture16Ref": "Quran 3:139",
-  "dailyScripture17Text": "O meine Diener, die ihr gegen euch selbst Unrecht begangen habt, verzweifelt nicht an der Barmherzigkeit Allahs. Wahrlich, Allah vergibt alle Sünden.",
-  "dailyScripture17Ref": "Quran 39:53",
-  "dailyScripture18Text": "Und wer Allah fürchtet – Er wird für ihn einen Weg herausmachen und ihm von dort versorgen, wo er nicht erwartet.",
-  "dailyScripture18Ref": "Quran 65:2-3",
-  "dailyScripture19Text": "Verliere nicht die Hoffnung in Allahs Barmherzigkeit.",
-  "dailyScripture19Ref": "Quran 12:87",
-  "dailyScripture20Text": "Und wir haben wahrlich den Quran leicht zu erinnern gemacht. Gibt es denn jemanden, der sich erinnern wird?",
-  "dailyScripture20Ref": "Quran 54:17",
-  "dailyScripture21Text": "Und Er fand dich verloren und führte dich.",
-  "dailyScripture21Ref": "Quran 93:7",
-  "dailyScripture22Text": "Und dein Herr sagt: Rufe mich an; ich werde dir antworten.",
-  "dailyScripture22Ref": "Quran 40:60",
-  "dailyScripture23Text": "Und wir haben wahrlich die Kinder Adams geehrt.",
-  "dailyScripture23Ref": "Quran 17:70",
-  "dailyScripture24Text": "Und suche Hilfe durch Geduld und Gebet.",
-  "dailyScripture24Ref": "Quran 2:45",
-  "dailyScripture25Text": "Wer etwas Gutes im Gewicht eines Atoms tut, wird es sehen.",
-  "dailyScripture25Ref": "Quran 99:7",
-  "dailyScripture26Text": "Unbestreitbar, die Hilfe Allahs ist nah.",
-  "dailyScripture26Ref": "Quran 2:214",
-  "dailyScripture27Text": "Und wer dankbar ist – seine Dankbarkeit ist nur zu seinem eigenen Vorteil.",
-  "dailyScripture27Ref": "Quran 31:12",
-
-  "dailyReflection0": "Während dieser Tag zu Ende geht, bedenke einen Moment, in dem Allahs Barmherzigkeit offensichtlich war.",
-  "dailyReflection1": "Bringe vor Allah, was dein Herz heute beschwert hat.",
-  "dailyReflection2": "Nenne eine Segnung von diesem Tag und drücke Dankbarkeit gegenüber Allah aus.",
-  "dailyReflection3": "Ruhe in dem Wissen, dass du in Allahs unendlicher Fürsorge gehalten wirst.",
-  "dailyReflection4": "Bedenke, wo du dazu aufgefordert wurdest, heute Mitgefühl und Güte zu zeigen.",
-  "dailyReflection5": "Lass los, was du nicht kontrollieren kannst, und vertraue in Allahs perfekten Plan.",
-  "dailyReflection6": "Während der Tag zu Ende geht, empfange Frieden im Gedenken an Allah.",
-  "dailyReflection7": "Bedenke, wie du deine Gebete heute geehrt hast, und danke Allah für jedes einzelne.",
-  "dailyReflection8": "Betrachtung über einen Moment, in dem Geduld (Sabr) deine Handlungen heute leitete.",
-  "dailyReflection9": "Bitte um Vergebung für jede Unzulänglichkeit heute – Allahs Barmherzigkeit ist grenzenlos.",
-  "dailyReflection10": "Nenne eine Person, dem du heute Güte gezeigt hast, und mache Dua für sie.",
-  "dailyReflection11": "Sitze mit Dankbarkeit: Was hat Allah dir heute gegeben, das du nicht gefordert hast?",
-  "dailyReflection12": "Betrachtung über einen Vers aus dem Quran, der zu deiner jetzigen Situation spricht.",
-  "dailyReflection13": "Bedenke, wie du deine Zeit heute genutzt hast – und gib morgen Allah.",
-  "dailyReflection14": "Ruhe wissend, dass welche Schwierigkeit heute kam, Allah war bei dir durch sie hindurch.",
-  "dailyReflection15": "Denke an eine Möglichkeit, wie du deine Familie oder Gemeinschaft heute um Allahs willen bedient hast.",
-  "dailyReflection16": "Während die Nacht fällt, mache Tawbah – Allah liebt diejenigen, die zu ihm zurückkehren.",
-  "dailyReflection17": "Betrachtung über die Schönheit, die Allah in deinen Tag gelegt hat, so klein auch.",
-  "dailyReflection18": "Bedenke, was du heute gelernt hast und wie es dich Allah näher bringt.",
-  "dailyReflection19": "Lass die Sorgen des Tages mit Allah ruhen – Er trägt, was du nicht kannst.",
-  "dailyReflection20": "Denke an einen Moment heute, in dem du besser hättest wählen können, und lerne sanft daraus.",
-  "dailyReflection21": "Mache Dua für diejenigen, die kämpfen – dein Gebet ist ein Geschenk für sie.",
-  "dailyReflection22": "Rufe dir eine Segnung in Erinnerung, die du oft übersehst, und nimm dir einen Moment, um Allah dafür zu danken.",
-  "dailyReflection23": "Betrachtung über deine Absichten heute – waren sie für Allah? Morgen fange wieder an.",
-  "dailyReflection24": "Während die Nacht ruhig wird, lausche auf Allahs Nähe in der Stille.",
-  "dailyReflection25": "Bedenke, wo du heute Stärke gefunden hast – diese Stärke kommt von Allah.",
-  "dailyReflection26": "Nenne eine Sache, die du morgen tun wirst, um Allahs willen, die du heute nicht getan hast.",
-  "dailyReflection27": "Während du dich zur Ruhe vorbereitest, befiehl deine Seele Allah – Er ist der beste Hüter.",
-
-  "dailyRoleModel0": "Prophet Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Prophet Ibrahim (AS)",
-  "dailyRoleModel44": "Prophet Musa (AS)",
-  "dailyRoleModel45": "Prophet Isa (AS)",
-  "dailyRoleModel46": "Prophet Yusuf (AS)",
-  "dailyRoleModel47": "Prophet Dawud (AS)",
-  "dailyRoleModel48": "Prophet Sulayman (AS)",
-  "dailyRoleModel49": "Prophet Nuh (AS)",
-  "dailyRoleModel50": "Prophet Yunus (AS)",
-  "dailyRoleModel51": "Prophet Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Erlaube Ayara, meinen Standort für Qibla-Richtung und Gebetszeiten zu nutzen",
-  "locationConsentHint": "Wird nur für diese Funktionen verwendet. Dein Standort wird nie geteilt oder gespeichert.",
-
-  "askPageTitle": "Frage Ayara",
-  "askPageDescription": "Stelle Ayara Fragen zum Glauben, Gebet, Leben oder islamischer Praxis und erhalte Anleitung, die im Quran und der Sunnah verwurzelt ist.",
+  "locationConsentLabel": "Erlaube Ayara, meinen Standort für Qibla-Richtung und Gebetszeiten zu verwenden",
+  "locationConsentHint": "Wird nur für diese Funktionen verwendet. Dein Standort wird niemals freigegeben oder gespeichert.",
+  "askPageTitle": "Frag Ayara",
+  "askPageDescription": "Stelle eine Frage zu Glauben, Gebet, Leben oder islamischer Praxis und erhalte Führung, die in dem Quran und den Lehren des Ahl al-Bayt verwurzelt ist.",
   "askPageInputHint": "Tippe deine Frage hier ein…",
   "askPageSubmitCta": "Fragen",
   "askPageInputEmptyError": "Bitte schreibe zuerst eine Frage.",
   "askResultYourQuestion": "Deine Frage",
-
-  "guidancePageTitle": "Gebet & Anleitung",
-  "qiblaFacingMecca": "Makkah zugewandt",
-  "qiblaCompassInstruction": "Drehe dein Telefon, bis die goldene Nadel nach oben zeigt.\nDiese Richtung zeigt zur Qibla (Makkah).",
-  "qiblaGpsUnavailableBody": "GPS-Signal ist schwach. Gehe nach draußen und tippe Wiederholen.",
-  "qiblaRetry": "Wiederholen",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "In Richtung Makkah",
+  "qiblaCompassInstruction": "Drehe dein Telefon, bis die goldene Nadel nach oben zeigt.\nDiese Richtung zeigt auf die Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "GPS-Signal ist schwach. Gehe nach draußen und tippe Erneut versuchen.",
+  "qiblaRetry": "Erneut versuchen",
   "qiblaTitle": "Qibla-Richtung",
   "qiblaDistanceLabel": "{km} km bis Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
   "qiblaLocationNeededTitle": "Standort erforderlich",
-  "qiblaLocationNeededBody": "Erlaube Standortzugriff, damit Ayara die Richtung der Kaaba in Makkah von wo immer du bist berechnen kann.",
+  "qiblaLocationNeededBody": "Erlaube Standortzugriff, damit Ayara die Richtung der Kaaba in Makkah von dort aus, wo du bist, berechnen kann.",
   "qiblaOpenSettings": "Einstellungen öffnen",
-  "qiblaCompassLoading": "Finde deine Position…",
+  "qiblaCompassLoading": "Deine Position wird ermittelt…",
   "qiblaTowardMecca": "In Richtung Makkah",
-
   "prayerTimesTitle": "Gebetszeiten",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
@@ -533,53 +303,327 @@
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Standort erforderlich",
   "prayerTimesLocationNeededBody": "Erlaube Standortzugriff, damit Ayara genaue Gebetszeiten für deine Stadt berechnen kann.",
-  "prayerTimesNextLabel": "Nächstes",
+  "prayerTimesNextLabel": "Nächster",
   "prayerTimesDoneLabel": "Fertig",
-
   "monthlyPrayerTimesTitle": "Monatliche Gebetszeiten",
   "monthlyPrayerTimesViewButton": "Ganzen Monat anzeigen",
   "monthlyPrayerTimesNextMonth": "Nächster Monat",
   "monthlyPrayerTimesDayHeader": "Tag",
-
   "sharePrayerTimes": "Gebetszeiten teilen",
-
+  "notificationsSectionTitle": "Benachrichtigungen",
+  "notificationsSectionSubtitle": "Gebetserinnerungen, Kalenderereignisse und mehr",
+  "dailyReflectionReminderTitle": "Tägliche Betrachtung",
+  "dailyReflectionReminderDescription": "Eine sanfte tägliche Erinnerung, um Ayara zu öffnen und dich mit deinem Glauben zu verbinden.",
+  "dailyReflectionReminderEnable": "Tägliche Erinnerung aktivieren",
+  "dailyReflectionReminderTimeLabel": "Erinnerungszeit",
   "prayerNotificationsTitle": "Gebetserinnerungen",
-  "prayerNotificationsDescription": "Erhalte eine sanfte Erinnerung vor jeder Gebetszeit, um dich den ganzen Tag über mit Allah verbunden zu halten.",
+  "prayerNotificationsDescription": "Erhalte eine sanfte Erinnerung vor jeder Gebetszeit, um dich während des Tages verbunden zu halten.",
   "prayerNotificationsEnable": "Gebetserinnerungen aktivieren",
   "prayerNotificationsOpenSettings": "Benachrichtigungseinstellungen öffnen",
   "prayerNotificationsDenied": "Benachrichtigungen sind deaktiviert",
-  "prayerNotificationsDeniedHint": "Gehe zu Einstellungen und erlaube Benachrichtigungen für Ayara, um Gebetserinnerungen zu erhalten.",
-
+  "prayerNotificationsDeniedHint": "Gehe zu den Einstellungen und erlaube Benachrichtigungen für Ayara, um Gebetszeitenerinnerungen zu erhalten.",
   "notificationsConsentLabel": "Benachrichtigungen für Gebetszeiten erlauben",
-
-  "prayerNotifTitleFajr": "🌅 Fajr – Morgengebet",
-  "prayerNotifBodyFajr": "Das beste aller Gebete ist das Morgengebet. Erhebe dich, reinige dich und stelle dich vor Allah.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr – Mittagsgebet",
-  "prayerNotifBodyDhuhr": "Unterbreche deinen Tag und kehre zu Allah zurück. Die Zeit für Dhuhr ist gekommen.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr – Nachmittagsgebet",
-  "prayerNotifBodyAsr": "Hüte das mittlere Gebet. Die Asr-Zeit ist gekommen – lass sie nicht vorbeigehen.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib – Sonnenuntergangsgebet",
-  "prayerNotifBodyMaghrib": "Die Sonne ist untergegangen. Biete Maghrib an und sei Allah für diesen Tag dankbar.",
-
-  "prayerNotifTitleIsha": "🌙 Isha – Nachtgebet",
-  "prayerNotifBodyIsha": "Beende deinen Tag mit Allahs Gedenken. Hayya 'alal falah – komm zum Erfolg.",
-
+  "prayerNotifTitleFajr": "🌅 Fajr — Morgengebet",
+  "prayerNotifBodyFajr": "Fajr ist das Gebet der Morgen des Ahl al-Bayt. Imam Ali (AS) sagte: Schütze das Morgengebet wie dein kostbarstes Gut. Stehe auf, reinige dich und stehe vor Allah.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Mittagsgebet",
+  "prayerNotifBodyDhuhr": "Die Imame des Ahl al-Bayt schätzten jeden Moment der Erinnerung. Unterbreche deinen Tag, vereinige Dhuhr mit Asr, falls nötig, und richte dein Herz zurück auf Allah.",
+  "prayerNotifTitleAsr": "🌤️ Asr — Nachmittagsgebet",
+  "prayerNotifBodyAsr": "Schütze das Gebet, denn es ist der Bund zwischen dir und Allah. Die Zeit für Asr ist gekommen — lass sie nicht ohne Erinnerung vorbeiziehen.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Sonnenuntergangsgebet",
+  "prayerNotifBodyMaghrib": "Die Sonne ist untergegangen — ein Moment, den der Ahl al-Bayt für die Bittgebet als heilig erachtete. Verrichte Maghrib und öffne deine Hände zu Allah in Dua, bevor die Nacht beginnt.",
+  "prayerNotifTitleIsha": "🌙 Isha — Nachtgebet",
+  "prayerNotifBodyIsha": "Beende deinen Tag in der Gesellschaft Allahs. Die Imame ermutigten Salat al-Layl nach Isha — aber zuerst, vollende dein Isha und schließe den Tag mit Seiner Erinnerung.",
   "outOfReflectionsBannerText": "Du hast alle deine Betrachtungen verbraucht",
-  "outOfReflectionsBannerCta": "Mehr holen",
-
+  "outOfReflectionsBannerCta": "Mehr bekommen",
   "dhikrPageTitle": "Dhikr",
   "dhikrTapToCount": "Tippe auf den Kreis zum Zählen",
   "dhikrResetButton": "Zurücksetzen",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Du hast 99 Gedenken an Allah abgeschlossen. Mögen sie ein Licht für dein Herz sein.",
-
-  "disclaimerTitle": "Über die Anleitung dieser App",
-  "disclaimerBody": "Ayara bietet islamische Betrachtungen, Erinnerungen und geistliche Inhalte zur Unterstützung deiner persönlichen Glaubensreise. Diese Inhalte werden nur zu allgemeinen Informations- und Inspirationszwecken angeboten.\n\nAyara ersetzt keine qualifizierte Gelehrsamkeit.\nDie Anleitung in dieser App ist kein Ersatz für einen gelehrten islamischen Gelehrten, Imam, Mufti oder theologisch ausgebildeten Lehrer. Wenn du Fragen zu religiösen Urteilen, Halal- und Haramangelegenheiten oder persönlichen religiösen Pflichten hast, suche Rat bei einer qualifizierten religiösen Autorität in deiner Gemeinschaft.\n\nDiese App erteilt keine religiösen Urteile.\nAyara erteilt keine authoritative Bestimmungen zu Fragen der Fiqh (islamische Rechtsprechung) oder persönliche religiöse Pflichten. Nichts hier sollte als Fatwa oder verbindliche religiöse Anweisung behandelt werden.\n\nGelehrte Interpretationen variieren.\nDer Islam umfasst eine reiche Vielfalt von Traditionen, Denkschulen (Madhabs) und gelehrten Meinungen. Inhalte in dieser App spiegeln allgemeine Perspektiven wider und repräsentieren möglicherweise nicht jede Tradition oder Schule gleichermaßen.\n\nGemeinschaft ist wichtig.\nDiese App zielt darauf ab, dein Engagement mit Glaubenstraditionen zu fördern und gleichzeitig die wesentliche Rolle deiner örtlichen Moschee, deines Imam und deiner religiösen Gemeinschaft tiefgreifend zu respektieren. Wir ermutigen dich, mit qualifizierten Lehrern in deiner Nähe verbunden zu bleiben und von ihnen zu lernen.",
+  "dhikrCompleteMessage": "Du hast 100 Erinnerungen an Allah vervollständigt. Möge sie ein Licht für dein Herz sein.",
+  "disclaimerTitle": "Über die Führung dieser App",
+  "disclaimerBody": "Ayara bietet islamische Betrachtungen, Erinnerungen und spirituelle Inhalte, um deine persönliche Glaubensreise zu unterstützen, verwurzelt im Quran und den Lehren des Ahl al-Bayt. Dieser Inhalt wird nur zu allgemeinen Informations- und Inspirationszwecken angeboten.\n\nAyara ersetzt nicht qualifizierte Gelehrsamkeit.\nDie Führung in dieser App ist kein Ersatz für einen gelehrten islamischen Gelehrten, Marja' oder theologisch ausgebildeten Lehrer. Im schiitischen Islam ist die religiöse Führung in der Ja'fari-Schule der Rechtswissenschaft (Fiqh) und der Tradition des Folgverhältnisses zu einem lebenden Marja' (Quelle der Nachahmung) — einem qualifizierten Juristen, dessen Urteile Gläubige in der religiösen Praxis leiten — verwurzelt. Wenn du Fragen zu religiösen Urteilen, Halal- und Haram-Angelegenheiten oder persönlichen religiösen Pflichten hast, wende dich bitte an einen qualifizierten Marja' oder einen Gelehrten in deiner Gemeinde.\n\nDiese App gibt keine religiösen Urteile ab.\nAyara macht keine verbindlichen Bestimmungen in Fiqh- oder persönlichen religiösen Pflichten. Nichts hier sollte als Fatwa oder bindende religiöse Anweisung behandelt werden.\n\nDie Zentralität des Ahl al-Bayt.\nIm schiitischen Islam sind der Prophet Muhammad ﷺ und sein gereinigtes Haus — der Ahl al-Bayt — die maßgeblichen Führer der islamischen Gemeinde nach dem Quran. Die zwölf Imame des Ahl al-Bayt sind die göttlich bestellten Ausleger der islamischen Lehre. Der Inhalt dieser App spiegelt diese Tradition wider und versucht, sie treu zu ehren.\n\nGemeindeangelegenheiten.\nDiese App versucht, dein Engagement mit dem Glauben zu fördern, während sie die wichtige Rolle deiner lokalen Moschee, des islamischen Zentrums und der religiösen Gemeinde zutiefst respektiert. Wir ermutigen dich, mit qualifizierten Lehrern in deiner Nähe verbunden zu bleiben und von ihnen zu lernen.",
   "disclaimerClose": "Ich verstehe",
-  "disclaimerInfoTooltip": "Über die Anleitung dieser App",
-  "disclaimerSettingsSubtitle": "Nur zu allgemeinen Informationszwecken. Tippe, um den vollständigen Disclaimer zu lesen.",
-  "disclaimerSectionHeader": "Anleitung-Disclaimer"
+  "disclaimerInfoTooltip": "Über die Führung dieser App",
+  "disclaimerSettingsSubtitle": "Nur für allgemeine Informationszwecke. Tippe zum Lesen des vollständigen Haftungsausschlusses.",
+  "disclaimerSectionHeader": "Haftungsausschluss für Führung",
+  "navHome": "Startseite",
+  "navReflect": "Betrachtung",
+  "navDuas": "Duas",
+  "navCalendar": "Kalender",
+  "dashboardToday": "HEUTE",
+  "dashboardComingUp": "Kommt bald",
+  "dashboardDaysUnit": "{count, plural, one {Tag} other {Tage}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Schnellzugriff",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Führung",
+  "quickActionPrayerTimes": "Gebetszeiten",
+  "askAyaraTitle": "Frag Ayara",
+  "askAyaraSubtitle": "Stelle eine islamische Frage und erhalte eine durchdachte, geführte Antwort.",
+  "askAyaraHint": "z.B. Was ist die Bedeutung des Ramadan?",
+  "askAyaraSubmit": "Fragen",
+  "wisdomOfTheDayTitle": "Weisheit des Tages",
+  "calendarScreenTitle": "Islamischer Kalender",
+  "calendarUpcomingOccasions": "Bevorstehende Ereignisse",
+  "calendarOccasionRemindersTitle": "Ereigniserinnerungen",
+  "calendarOccasionRemindersHint": "Benachrichtigungen am Abend vor jedem Ereignis",
+  "calendarNotifPermissionDenied": "Benachrichtigungsberechtigung verweigert. Aktiviere sie in den Geräteeinstellungen.",
+  "calendarNoEvents": "Keine anstehenden Ereignisse gefunden.",
+  "calendarAddToPhone": "In den Telefon-Kalender hinzufügen",
+  "calendarAddedToPhone": "In den Kalender hinzugefügt",
+  "calendarCountdownToday": "HEUTE",
+  "calendarCountdownTomorrow": "MORGEN",
+  "calendarCountdownDays": "in {days} Tagen",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Jan",
+  "calendarMonthFeb": "Feb",
+  "calendarMonthMar": "Mär",
+  "calendarMonthApr": "Apr",
+  "calendarMonthMay": "Mai",
+  "calendarMonthJun": "Jun",
+  "calendarMonthJul": "Jul",
+  "calendarMonthAug": "Aug",
+  "calendarMonthSep": "Sep",
+  "calendarMonthOct": "Okt",
+  "calendarMonthNov": "Nov",
+  "calendarMonthDec": "Dez",
+  "calendarSeasonMuharramEarly": "Tage von Muharram — denke an Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — Tage der Trauer und Betrachtung",
+  "calendarSeasonArbaeen": "Arbaeen — vierzig Tage des Husayn",
+  "calendarSeasonRoadToArbaeen": "Der Weg zu Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — die Morgenröte der Offenbarung",
+  "calendarSeasonMidShaban": "Mitte Sha'ban — Geburtstag von Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — der Monat des Quran",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Duas & Ziyarat",
+  "duasSearchHint": "Suche Duas, Ziyarat…",
+  "duasFilterAll": "Alles",
+  "duasCount": "{count, plural, one {{count} Dua} other {{count} Duas & Ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Keine Duas gefunden.",
+  "duaCategoryDaily": "Täglich",
+  "duaCategoryWeekly": "Wöchentlich",
+  "duaCategoryOccasions": "Ereignisse",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Geburt",
+  "eventTypeMartyrdom": "Martyrium",
+  "eventTypeOccasion": "Ereignis",
+  "duaCopyTooltip": "Übersetzung kopieren",
+  "duaToggleTransliteration": "Transliteration",
+  "duaToggleTranslation": "Übersetzung",
+  "duaAskAiLabel": "Frag Ayara, um diese Dua zu erklären",
+  "duaAskAiLockedLabel": "Frag Ayara (Wilaya)",
+  "duaAiLockedMessage": "Ayara-Erklärungen sind für Wilaya-Mitglieder verfügbar. Aktualisiere in den Einstellungen.",
+  "duaAiComingSoon": "Frag Ayara nach \"{name}\" — kommt bald!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua in die Zwischenablage kopiert.",
+  "tasbihAllahuAkbarMeaning": "Allah ist der Größte",
+  "tasbihAlhamdulillahMeaning": "Alles Lob gebührt Allah",
+  "tasbihSubhanallahMeaning": "Gepriesen sei Allah",
+  "tasbihResetTooltip": "Zurücksetzen",
+  "tasbihCompleteTitle": "Tasbih fertig",
+  "tasbihCompleteMessage": "Möge Allah deinen Dhikr annehmen.",
+  "tasbihTapHint": "Tippe überall zum Zählen",
+  "tasbihatScreenTitle": "Gebetsführer",
+  "tasbihatScreenSubtitle": "DIE GEBETSVERHERRLICHUNGEN",
+  "tasbihatScreenDescription": "Ein vollständiger Leitfaden zu den Verherrlichungen, die während und nach den Tagesgebeten rezitiert werden — nach der Tradition des Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Rezitiert während der 3. & 4. Rakʿah",
+  "tasbihatArba3Info": "In der schiitischen Rechtswissenschaft ersetzt die Tasbiḥāt al-Arbaʿa in der 3. und 4. Rakʿah von Dhuhr, Asr, Maghrib und Isha die Surah al-Fatiha. Es ist obligatorisch (wājib), es einmal zu rezitieren, und empfohlen (mustaḥabb), es dreimal zu rezitieren.",
+  "tasbihatArba3Translation": "Gepriesen sei Allah · Alles Lob gebührt Allah\nEs gibt keinen Gott außer Allah · Allah ist der Größte",
+  "tasbihatArba3CompleteTitle": "Rezitation vollständig",
+  "tasbihatArba3CompleteMessage": "Möge dein Gebet angenommen werden — Āmīn",
+  "tasbihatArba3TapHint": "Tippe nach jeder Rezitation",
+  "tasbihatZahraSubtitle": "Nach jedem Gebet · 100 Perlen",
+  "tasbihatZahraOriginLabel": "Ursprung",
+  "tasbihatZahraHadith": "Frau Fatima al-Zahra (sa) bat den Propheten ﷺ um einen Diener. Er sagte: \"Soll ich dich nicht zu etwas Besserem führen? Rezitiere Subḥānallāh 33 mal, Alḥamdulillāh 33 mal und Allāhu Akbar 34 mal nach jedem Gebet. Das ist besser für dich als ein Diener.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Vol. 85",
+  "tasbihatZahraOpenCounter": "Tasbīḥ-Zähler öffnen",
+  "tasbihatDuasTitle": "EMPFOHLENE DUAS",
+  "tasbihatDuasSubtitle": "Nach Abschluss deines Gebets",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Nach jedem Pflichtgebet",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Wer Āyat al-Kursī nach jedem Pflichtgebet rezitiert, steht nichts zwischen ihm und dem Paradies außer dem Tod. Imam al-Bāqir (a) sagte, es ist unter den größten Versen im Quran.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Nach jedem Gebet · versiegelt alle Bitten",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Das Senden von Salutationen auf den Propheten ﷺ und seine gereinigte Familie (Āl Muḥammad) wird empfohlen, um jede Dua zu versiegeln. Imam al-Ṣādiq (a) sagte: \"Jede Dua ist suspendiert, bis du ṣalawāt auf Muḥammad und seine Familie sendest.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Nach jedem Gebet · für den Imam unserer Zeit",
+  "tasbihatDuaFarajSource": "Gelehrt von Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "Eine Dua für das Wiedererscheinen von Imam al-Mahdī (af), dem zwölften Imam, gelehrt von seinem Vater. Täglich von den schiitischen Gläubigen nach jedem Gebet als Akt der Hingabe an den lebenden Imam rezitiert.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ der Lady Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "Nach Maghrib & Isha · besonders empfohlen",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) sagte, dass das Rezitieren von Tasbīḥ al-Zahrā nach Isha vor dem Schlafengehen besser ist als 1000 Rakʿah optionalen Gebets. Sein Licht steigt zu den Himmeln auf.",
+  "tasbihFatimaGiftPre": "Ein Geschenk des Propheten",
+  "tasbihFatimaGiftPost": "rezitiert nach jedem Gebet",
+  "prayerTrackerTitle": "GEBETS-TRACKER",
+  "prayerTrackerPrayed": "Gebetet",
+  "prayerTrackerDayStreak": "{count} Tage Erfolgsserie",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Alle Gebete heute vollständig. Möge Allah annehmen.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Heute abgeschlossen",
+  "dhikrTrackerNotDoneToday": "Heute nicht gemacht",
+  "dhikrTrackerDayStreak": "{count} Tage Erfolgsserie",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Tasbīḥ-Erinnerung",
+  "dhikrReminderDescription": "Eine sanfte tägliche Erinnerung, um dein Tasbīḥ al-Zahrā (SA) zu rezitieren.",
+  "dhikrReminderEnable": "Tasbīḥ-Erinnerung aktivieren",
+  "dhikrReminderTimeLabel": "Erinnerungszeit",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Tägliches Hadith",
+  "hadithLabelArabic": "ARABISCH",
+  "hadithLabelTranslation": "ÜBERSETZUNG",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Dieses Hadith teilen",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nVia Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Vorherig",
+  "hadithNavNext": "Nächster",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "Die 14 Masumeen",
+  "imamsScreenSubtitle": "Der Prophet, Lady Fatima und die Zwölf Imame — die unfehlbaren Führer des Islam",
+  "imamLabelBorn": "Geboren",
+  "imamLabelMartyrdom": "Martyrium",
+  "imamLabelStatus": "Status",
+  "imamSectionBiography": "BIOGRAFIE",
+  "imamSectionFamousSaying": "BERÜHMTER AUSSPRUCH",
+  "imamRoleProphet": "Der letzte Prophet",
+  "imamRoleInfallible": "Der Unfehlbare",
+  "imamOrdinal1": "1. Imam",
+  "imamOrdinal2": "2. Imam",
+  "imamOrdinal3": "3. Imam",
+  "imamOrdinal4": "4. Imam",
+  "imamOrdinal5": "5. Imam",
+  "imamOrdinal6": "6. Imam",
+  "imamOrdinal7": "7. Imam",
+  "imamOrdinal8": "8. Imam",
+  "imamOrdinal9": "9. Imam",
+  "imamOrdinal10": "10. Imam",
+  "imamOrdinal11": "11. Imam",
+  "imamOrdinal12": "12. Imam",
+  "duaAudioScreenTitle": "Duas anhören",
+  "duaAudioScreenSubtitle": "Wähle eine Dua zum Anhören. Tippe auf die Kachel, um zu spielen oder zu pausieren.",
+  "duaAudioComingSoonMessage": "Audio für diese Dua ist in einer kommenden Aktualisierung verfügbar.",
+  "duaAudioClose": "Schließen",
+  "duaAudioError": "Audio konnte nicht geladen werden. Bitte überprüfe deine Verbindung.",
+  "duaAudioMetaTransmittedBy": "Übertragen von",
+  "duaAudioMetaOccasion": "Ereignis",
+  "duaAudioMetaDuration": "Dauer",
+  "quickActionDailyHadith": "Tägliches Hadith",
+  "quickAction14Masumeen": "14 Masumeen",
+  "quickActionListenDuas": "Anhören",
+  "quickActionTasbihat": "Gebetsführer",
+  "pilgrimageSectionTitle": "Die heilige Reise",
+  "pilgrimageSectionSubtitle": "Vollständige Führungen zu Hajj & Umrah — die Pilgerfahrt zum Heiligen Haus Allahs in Makkah",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "Die fünfte Säule des Islam",
+  "hajjCardDescription": "Die große jährliche Pilgerfahrt — obligatorisch einmal im Leben für jeden fähigen Muslim",
+  "hajjScreenTitle": "Hajj-Führer",
+  "hajjScreenSubtitle": "Schritt-für-Schritt-Anleitung zur großen Pilgerfahrt",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "Die kleinere Pilgerfahrt",
+  "umrahCardDescription": "Eine tiefgreifend lohnende spirituelle Reise, die jederzeit im Jahr durchgeführt werden kann",
+  "umrahScreenTitle": "Umrah-Führer",
+  "umrahScreenSubtitle": "Schritt-für-Schritt-Anleitung zur kleineren Pilgerfahrt",
+  "pilgrimageStepsTitle": "Rituale & Schritte",
+  "pilgrimageImportantNotesTitle": "Wichtige Hinweise",
+  "pilgrimageDuaTitle": "Dua für diesen Schritt",
+  "pilgrimageJafariNoteTitle": "Ja'fari Fiqh Hinweis",
+  "pilgrimageComplete": "✓ Abgeschlossen",
+  "pilgrimageMarkDone": "Als abgeschlossen markieren",
+  "pilgrimageProgress": "{done} von {total} Schritten",
+  "pilgrimageReadTime": "~{minutes} min",
+  "pilgrimageShiaNoteTitle": "Schiitische Pilger",
+  "pilgrimageShiaNoteBody": "Schiitische Pilger reisen traditionell auch nach Medina, um das Grab des Propheten Muhammad (SAW) in der Masjid al-Nabawi zu besuchen, und die Gräber der Imame in Jannat al-Baqi. Diese Besuche haben enorme spirituelle Bedeutung und werden von den meisten schiitischen Muslimen als integraler Bestandteil der Reise betrachtet.",
+  "hajjIntro": "Hajj ist die fünfte Säule des Islam und obligatorisch einmal im Leben für jeden Muslim, der körperlich und finanziell dazu in der Lage ist. Sie wird im Monat Dhul Hijjah durchgeführt und folgt den Fußstapfen des Propheten Ibrahim (AS), seines Sohnes Ismail (AS) und der Lady Hajar. Für schiitische Muslime umfasst Hajj auch den tiefgreifenden Segen, die Ruhestätten des Propheten (SAW) und der Ahlul Bayt in Medina zu besuchen.",
+  "umrahIntro": "Umrah ist die kleinere Pilgerfahrt nach Makkah und kann, im Gegensatz zu Hajj, jederzeit im Jahr durchgeführt werden. Obwohl nicht obligatorisch, trägt sie enorme spirituelle Belohnung und wird als sehr empfohlener Akt der Anbetung angesehen. Sie teilt mehrere Rituale mit Hajj, ist aber kürzer und besteht aus vier Hauptriten."
 }

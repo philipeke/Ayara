@@ -1,5 +1,6 @@
 // lib/features/chat/presentation/widgets/result_app_bar.dart
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:ayara/l10n/app_localizations.dart';
 import 'package:ayara/core/config/theme.dart';
 
@@ -26,7 +27,7 @@ class ResultAppBar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     // ✅ Ayara brand rule:
     // Result badge ALWAYS uses brand gold (same as category icons)
@@ -88,7 +89,7 @@ class ResultAppBar extends StatelessWidget implements PreferredSizeWidget {
                           category,
                           maxLines: 1,
                           softWrap: false,
-                          style: TextStyle(
+                          style: GoogleFonts.raleway(
                             color: categoryColor,
                             fontWeight: FontWeight.w700,
                             letterSpacing: 0.1,
@@ -110,7 +111,7 @@ class ResultAppBar extends StatelessWidget implements PreferredSizeWidget {
             children: [
               Text(
                 t.wordCount(wordCount),
-                style: TextStyle(
+                style: GoogleFonts.raleway(
                   color: Colors.white70,
                   fontSize: wordFont,
                   fontWeight: FontWeight.w700,

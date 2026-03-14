@@ -1,9 +1,14 @@
 // lib/features/chat/presentation/screens/category_screen.dart
-import 'package:flutter/foundation.dart';
+import 'dart:math' as math;
+
+import 'package:flutter/foundation.dart' show kDebugMode;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_animate/flutter_animate.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 
+import 'package:ayara/core/services/content_repository.dart';
 import 'package:ayara/features/chat/services/chat_service.dart';
 import 'package:ayara/features/chat/presentation/utils/route_fade.dart';
 import 'package:ayara/features/chat/presentation/screens/result_screen.dart';
@@ -22,7 +27,7 @@ import 'package:ayara/features/limit/usage_service.dart';
 import 'package:ayara/features/limit/usage_refresh_service.dart';
 
 import 'package:ayara/core/config/theme.dart';
-import 'package:ayara/core/utils/app_error.dart';
+import 'package:ayara/core/services/sound_service.dart';
 import 'package:ayara/core/utils/error_ui.dart';
 
 import 'package:ayara/features/qibla/ask_result_screen.dart';
@@ -53,7 +58,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
   // Ask state
   final TextEditingController _askController = TextEditingController();
   final FocusNode _askFocusNode = FocusNode();
-  bool _askLoading = false;
   String? _askError;
 
   @override
@@ -64,6 +68,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
       UsageRefreshService.instance.silentPeekOncePerSession();
+      ContentRepository.instance.warmPrompts().ignore();
     });
   }
 
@@ -89,29 +94,17 @@ class _CategoryScreenState extends State<CategoryScreen> {
       setState(() => _askError = t.askPageInputEmptyError);
       return;
     }
-    setState(() { _askError = null; _askLoading = true; });
+    setState(() => _askError = null);
     _askFocusNode.unfocus();
-    try {
-      final response = await ChatService.sendPrompt(question, context: context);
-      if (!mounted) return;
-      await Navigator.of(context).push(MaterialPageRoute(
-        builder: (_) => AskResultScreen(question: question, response: response),
-      ));
-    } catch (e, st) {
-      if (!mounted) return;
-      final msg = e.toString().contains('Exception: ')
-          ? e.toString().split('Exception: ').last
-          : e.toString();
-      const known = {
-        'local_rate_limited', 'remote_rate_limited', 'appcheck_throttled',
-        'ai_unauthenticated', 'ai_rate_limited', 'ai_timeout',
-        'ai_unavailable', 'ai_misconfigured', 'ai_error',
-        'request_in_flight', 'credits_exhausted', 'guest_not_allowed',
-      };
-      if (!known.contains(msg)) showAppErrorSnack(context, e, stackTrace: st);
-    } finally {
-      if (mounted) setState(() => _askLoading = false);
-    }
+    SoundService.instance.playAskAyara();
+    await Navigator.of(context).push(
+      PageRouteBuilder<void>(
+        transitionDuration: const Duration(milliseconds: 400),
+        pageBuilder: (_, __, ___) => _AskLoadingScreen(question: question),
+        transitionsBuilder: (_, anim, __, child) =>
+            FadeTransition(opacity: anim, child: child),
+      ),
+    );
   }
 
   void _onUsageChanged() {
@@ -147,98 +140,23 @@ class _CategoryScreenState extends State<CategoryScreen> {
     String normalizedId,
   ) async {
     if (_loading) return;
+    setState(() => _loading = true);
 
-    setState(() {
-      _loading = true;
-      _busyCategoryId = normalizedId;
-    });
-
-    try {
-      final text = await ChatService.generateForCategory(context, normalizedId);
-      if (!mounted) return;
-
-      setState(() {
-        _loading = false;
-        _busyCategoryId = null;
-      });
-
-      await Navigator.of(context).push(
-        fadeRoute(
-          ResultScreen(
-            category: item.title,
-            response: text,
-            onRegenerate: () async {
-              if (_loading) {
-                throw Exception('regenerate_in_progress');
-              }
-
-              setState(() {
-                _loading = true;
-                _busyCategoryId = normalizedId;
-              });
-
-              try {
-                final regenerated =
-                    await ChatService.generateForCategory(context, normalizedId);
-                return regenerated;
-              } catch (e, st) {
-                if (_looksLikeAppCheckRateLimit(e as Object)) {
-                  _setAppCheckCooldown(const Duration(seconds: 30));
-                }
-                rethrow;
-              } finally {
-                if (mounted) {
-                  setState(() {
-                    _loading = false;
-                    _busyCategoryId = null;
-                  });
-                }
-              }
-            },
-          ),
+    await Navigator.of(context).push(
+      PageRouteBuilder<void>(
+        transitionDuration: const Duration(milliseconds: 400),
+        pageBuilder: (_, __, ___) => _CategoryLoadingScreen(
+          category: item,
+          normalizedId: normalizedId,
+          onCooldown: _setAppCheckCooldown,
+          onLooksLikeRateLimit: _looksLikeAppCheckRateLimit,
         ),
-      );
-    } catch (e, st) {
-      if (!mounted) return;
+        transitionsBuilder: (_, anim, __, child) =>
+            FadeTransition(opacity: anim, child: child),
+      ),
+    );
 
-      if (_looksLikeAppCheckRateLimit(e as Object)) {
-        if (!kDebugMode) _setAppCheckCooldown(const Duration(seconds: 30));
-        final t = AppLocalizations.of(context)!;
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            duration: const Duration(seconds: 6),
-            content: Text(
-              kDebugMode
-                  ? 'App Check rejected. Register the token from startup logs in Firebase Console → App Check → Manage debug tokens.'
-                  : t.rateCheckGenericError,
-            ),
-          ),
-        );
-        return;
-      }
-
-      final appErr = AppError.from(e as Object, st);
-      if (appErr.shouldBeSilent) {
-        appErr.debugLog('CategoryScreen silent');
-        // Do NOT navigate away — the snackbar shown by _checkRemoteLimit or
-        // _consumeOneReflectionOrThrow already tells the user what happened.
-        // Silently pushing /settings was confusing reviewers and users.
-        return;
-      }
-
-      showAppErrorSnack(
-        context,
-        e as Object,
-        stackTrace: st,
-      );
-    } finally {
-      if (mounted && _loading) {
-        setState(() {
-          _loading = false;
-          _busyCategoryId = null;
-        });
-      }
-    }
+    if (mounted) setState(() => _loading = false);
   }
 
   Future<void> _onTap(CategoryActionItem item) async {
@@ -688,7 +606,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                     pageController: _pageController,
                     askController: _askController,
                     focusNode: _askFocusNode,
-                    loading: _askLoading,
                     error: _askError,
                     onSubmit: _submitQuestion,
                     onErrorClear: () => setState(() => _askError = null),
@@ -703,13 +620,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
             bottom: MediaQuery.of(context).padding.bottom + 170,
             child: IgnorePointer(
               child: _SwipeHint(pageController: _pageController, direction: _SwipeDirection.right),
-            ),
-          ),
-          Positioned(
-            left: 6,
-            bottom: MediaQuery.of(context).padding.bottom + 170,
-            child: IgnorePointer(
-              child: _SwipeHint(pageController: _pageController, direction: _SwipeDirection.left),
             ),
           ),
           // Page indicator dots
@@ -731,7 +641,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
 // Swipe hint direction
 // ─────────────────────────────────────────────────────────────────────────────
 
-enum _SwipeDirection { left, right }
+enum _SwipeDirection { right }
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Animated swipe hint arrows
@@ -873,7 +783,6 @@ class _AskMeditationPage extends StatelessWidget {
   final PageController pageController;
   final TextEditingController askController;
   final FocusNode focusNode;
-  final bool loading;
   final String? error;
   final VoidCallback onSubmit;
   final VoidCallback onErrorClear;
@@ -882,7 +791,6 @@ class _AskMeditationPage extends StatelessWidget {
     required this.pageController,
     required this.askController,
     required this.focusNode,
-    required this.loading,
     required this.error,
     required this.onSubmit,
     required this.onErrorClear,
@@ -893,11 +801,80 @@ class _AskMeditationPage extends StatelessWidget {
     final t = AppLocalizations.of(context)!;
     final theme = Theme.of(context);
 
-    return SingleChildScrollView(
-      padding: const EdgeInsets.fromLTRB(20, 48, 20, 80),
+    return SafeArea(
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          // Fixed top bar: badge + reflections (same position as home screen)
+          AnimatedBuilder(
+            animation: UsageService.instance,
+            builder: (context, _) {
+              final snap = UsageService.instance.current;
+              final isPremium = (snap?.plan ?? 'basic') == 'premium';
+              final remaining = snap?.creditsRemaining;
+              final label = remaining == null
+                  ? t.creditsRemainingLabel('—')
+                  : t.creditsRemainingLabel(remaining);
+              return Container(
+                width: double.infinity,
+                height: 56,
+                padding: const EdgeInsets.symmetric(horizontal: 12),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const SizedBox(height: 8),
+                    if (isPremium) ...[
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 10, vertical: 5),
+                        decoration: BoxDecoration(
+                          color: AppColors.gold.withValues(alpha: 0.18),
+                          borderRadius: BorderRadius.circular(14),
+                          border: Border.all(
+                              color: AppColors.gold.withValues(alpha: 0.55)),
+                        ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const Icon(Icons.star_rounded,
+                                size: 14, color: AppColors.goldBright),
+                            const SizedBox(width: 5),
+                            Text(
+                              t.planPremium,
+                              style: const TextStyle(
+                                color: AppColors.goldBright,
+                                fontWeight: FontWeight.w800,
+                                fontSize: 11.5,
+                                height: 1.0,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(height: 6),
+                    ],
+                    Text(
+                      label,
+                      style: theme.textTheme.titleMedium?.copyWith(
+                        color: AppColors.crimsonLight,
+                        fontSize: 13,
+                        fontWeight: FontWeight.w700,
+                        letterSpacing: 0.25,
+                        height: 1.0,
+                      ),
+                    ),
+                  ],
+                ),
+              );
+            },
+          ),
+          // Scrollable content
+          Expanded(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.fromLTRB(20, 20, 20, 80),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
           // Section title
           Text(
             t.askAyaraTitle,
@@ -968,7 +945,7 @@ class _AskMeditationPage extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: FilledButton(
-              onPressed: loading ? null : onSubmit,
+              onPressed: onSubmit,
               style: FilledButton.styleFrom(
                 backgroundColor: AppColors.islamic,
                 foregroundColor: Colors.white,
@@ -977,22 +954,13 @@ class _AskMeditationPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(14),
                 ),
               ),
-              child: loading
-                  ? const SizedBox(
-                      width: 20,
-                      height: 20,
-                      child: CircularProgressIndicator(
-                        strokeWidth: 2,
-                        color: Colors.white,
-                      ),
-                    )
-                  : Text(
-                      t.askAyaraSubmit,
-                      style: const TextStyle(
-                        fontWeight: FontWeight.w700,
-                        fontSize: 15,
-                      ),
-                    ),
+              child: Text(
+                t.askAyaraSubmit,
+                style: const TextStyle(
+                  fontWeight: FontWeight.w700,
+                  fontSize: 15,
+                ),
+              ),
             ),
           ),
 
@@ -1000,8 +968,103 @@ class _AskMeditationPage extends StatelessWidget {
 
           // Spiritual animation
           const _SpiritualAnimation(),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
+    );
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Shimmer dots — animating dots with "Seeking an answer" text
+// ─────────────────────────────────────────────────────────────────────────────
+
+class _ShimmerDots extends StatefulWidget {
+  const _ShimmerDots();
+
+  @override
+  State<_ShimmerDots> createState() => _ShimmerDotsState();
+}
+
+class _ShimmerDotsState extends State<_ShimmerDots>
+    with TickerProviderStateMixin {
+  late List<AnimationController> _dotCtrllers;
+
+  @override
+  void initState() {
+    super.initState();
+    _dotCtrllers = List.generate(
+      3,
+      (i) => AnimationController(
+        vsync: this,
+        duration: const Duration(milliseconds: 600),
+      )
+        ..addStatusListener((status) {
+          if (status == AnimationStatus.completed) {
+            Future.delayed(const Duration(milliseconds: 200), () {
+              if (mounted) _dotCtrllers[i].reverse();
+            });
+          } else if (status == AnimationStatus.dismissed && mounted) {
+            Future.delayed(Duration(milliseconds: (100 * i).toInt()), () {
+              if (mounted) _dotCtrllers[i].forward();
+            });
+          }
+        }),
+    );
+    _dotCtrllers[0].forward();
+  }
+
+  @override
+  void dispose() {
+    for (final ctrl in _dotCtrllers) {
+      ctrl.dispose();
+    }
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Text(
+          'Seeking an answer',
+          style: TextStyle(
+            color: Colors.white.withValues(alpha: 0.70),
+            fontSize: 13,
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+        const SizedBox(height: 12),
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: List.generate(3, (i) {
+            return AnimatedBuilder(
+              animation: _dotCtrllers[i],
+              builder: (_, child) => Opacity(
+                opacity: _dotCtrllers[i].value,
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 4),
+                  child: Container(
+                    width: 8,
+                    height: 8,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: AppColors.gold.withValues(
+                        alpha: 0.6 + (_dotCtrllers[i].value * 0.4),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            );
+          }),
+        ),
+      ],
     );
   }
 }
@@ -1194,3 +1257,523 @@ class _SpiritualAnimationState extends State<_SpiritualAnimation>
   }
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// Ask Ayara loading screen
+// ─────────────────────────────────────────────────────────────────────────────
+
+class _AskLoadingScreen extends StatefulWidget {
+  final String question;
+  const _AskLoadingScreen({required this.question});
+
+  @override
+  State<_AskLoadingScreen> createState() => _AskLoadingScreenState();
+}
+
+class _AskLoadingScreenState extends State<_AskLoadingScreen>
+    with TickerProviderStateMixin {
+  late final AnimationController _rotateCtrl = AnimationController(
+    vsync: this,
+    duration: const Duration(seconds: 6),
+  )..repeat();
+
+  late final AnimationController _pulseCtrl = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 1800),
+  )..repeat();
+
+  late final Animation<double> _pulse1 = CurvedAnimation(
+    parent: _pulseCtrl,
+    curve: Curves.easeOut,
+  );
+
+  late final Animation<double> _pulse2 = CurvedAnimation(
+    parent: _pulseCtrl,
+    curve: const Interval(0.35, 1.0, curve: Curves.easeOut),
+  );
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _run());
+  }
+
+  @override
+  void dispose() {
+    _rotateCtrl.dispose();
+    _pulseCtrl.dispose();
+    super.dispose();
+  }
+
+  Future<void> _run() async {
+    try {
+      final response =
+          await ChatService.sendPrompt(widget.question, context: context);
+      if (!mounted) return;
+      await Navigator.of(context).pushReplacement(
+        PageRouteBuilder<void>(
+          transitionDuration: const Duration(milliseconds: 500),
+          pageBuilder: (ctx, a1, a2) => AskResultScreen(
+            question: widget.question,
+            response: response,
+          ),
+          transitionsBuilder: (ctx, anim, a2, child) =>
+              FadeTransition(opacity: anim, child: child),
+        ),
+      );
+    } catch (e, st) {
+      if (!mounted) return;
+      Navigator.of(context).pop();
+      final msg = e.toString().contains('Exception: ')
+          ? e.toString().split('Exception: ').last
+          : e.toString();
+      const known = {
+        'local_rate_limited', 'remote_rate_limited', 'appcheck_throttled',
+        'ai_unauthenticated', 'ai_rate_limited', 'ai_timeout',
+        'ai_unavailable', 'ai_misconfigured', 'ai_error',
+        'request_in_flight', 'credits_exhausted', 'guest_not_allowed',
+      };
+      if (!known.contains(msg)) showAppErrorSnack(context, e, stackTrace: st);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final preview = widget.question.length > 100
+        ? '${widget.question.substring(0, 100).trimRight()}…'
+        : widget.question;
+
+    return Scaffold(
+      backgroundColor: AppColors.deepNavy,
+      body: Stack(
+        children: [
+          const Positioned.fill(
+            child: DecoratedBox(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [AppColors.navy, AppColors.deepNavy, AppColors.navyDeep],
+                  stops: [0.0, 0.5, 1.0],
+                ),
+              ),
+            ),
+          ),
+          Positioned.fill(
+            child: IgnorePointer(
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  gradient: RadialGradient(
+                    radius: 0.65,
+                    colors: [
+                      AppColors.gold.withValues(alpha: 0.10),
+                      Colors.transparent,
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 40),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  SizedBox(
+                    width: 160,
+                    height: 160,
+                    child: Stack(
+                      alignment: Alignment.center,
+                      children: [
+                        AnimatedBuilder(
+                          animation: _pulse1,
+                          builder: (_, __) => Opacity(
+                            opacity: (1.0 - _pulse1.value).clamp(0.0, 1.0),
+                            child: SizedBox(
+                              width: 60 + 100 * _pulse1.value,
+                              height: 60 + 100 * _pulse1.value,
+                              child: DecoratedBox(
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  border: Border.all(
+                                    color: AppColors.gold.withValues(alpha: 0.45),
+                                    width: 1.5,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        AnimatedBuilder(
+                          animation: _pulse2,
+                          builder: (_, __) => Opacity(
+                            opacity: (1.0 - _pulse2.value).clamp(0.0, 1.0),
+                            child: SizedBox(
+                              width: 60 + 100 * _pulse2.value,
+                              height: 60 + 100 * _pulse2.value,
+                              child: DecoratedBox(
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  border: Border.all(
+                                    color: AppColors.islamic.withValues(alpha: 0.35),
+                                    width: 1.0,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        Container(
+                          width: 72,
+                          height: 72,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: AppColors.gold.withValues(alpha: 0.08),
+                            border: Border.all(
+                              color: AppColors.gold.withValues(alpha: 0.40),
+                              width: 1.5,
+                            ),
+                            boxShadow: [
+                              BoxShadow(
+                                color: AppColors.gold.withValues(alpha: 0.20),
+                                blurRadius: 24,
+                                spreadRadius: 4,
+                              ),
+                            ],
+                          ),
+                        ),
+                        AnimatedBuilder(
+                          animation: _rotateCtrl,
+                          builder: (_, child) => Transform.rotate(
+                            angle: _rotateCtrl.value * 2 * math.pi,
+                            child: child,
+                          ),
+                          child: const Icon(
+                            Icons.auto_awesome_rounded,
+                            color: AppColors.goldBright,
+                            size: 30,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: 32),
+                  Text(
+                    preview,
+                    textAlign: TextAlign.center,
+                    maxLines: 3,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      color: Colors.white.withValues(alpha: 0.55),
+                      fontSize: 14,
+                      fontStyle: FontStyle.italic,
+                      height: 1.55,
+                    ),
+                  ).animate().fadeIn(duration: 500.ms),
+                  const SizedBox(height: 28),
+                  const _AskShimmerDots()
+                      .animate()
+                      .fadeIn(duration: 400.ms, delay: 200.ms),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    ).animate().fadeIn(duration: 300.ms);
+  }
+}
+
+class _AskShimmerDots extends StatefulWidget {
+  const _AskShimmerDots();
+
+  @override
+  State<_AskShimmerDots> createState() => _AskShimmerDotsState();
+}
+
+class _AskShimmerDotsState extends State<_AskShimmerDots>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _ctrl = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 1200),
+  )..repeat();
+
+  @override
+  void dispose() {
+    _ctrl.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Text(
+          'Seeking an answer',
+          style: TextStyle(
+            color: Colors.white.withValues(alpha: 0.50),
+            fontSize: 13,
+            fontStyle: FontStyle.italic,
+            letterSpacing: 0.2,
+          ),
+        ),
+        const SizedBox(width: 2),
+        AnimatedBuilder(
+          animation: _ctrl,
+          builder: (_, __) {
+            final v = _ctrl.value;
+            return Row(
+              mainAxisSize: MainAxisSize.min,
+              children: List.generate(3, (i) {
+                final threshold = i / 3.0;
+                final opacity = v >= threshold
+                    ? ((v - threshold) * 3).clamp(0.0, 1.0)
+                    : 0.15;
+                return Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 1.5),
+                  child: Opacity(
+                    opacity: opacity,
+                    child: Text(
+                      '.',
+                      style: TextStyle(
+                        color: AppColors.gold,
+                        fontSize: 18,
+                        height: 0.9,
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                  ),
+                );
+              }),
+            );
+          },
+        ),
+      ],
+    );
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Loading screen — full-screen animation while generating category response
+// ─────────────────────────────────────────────────────────────────────────────
+
+class _CategoryLoadingScreen extends StatefulWidget {
+  final CategoryActionItem category;
+  final String normalizedId;
+  final Function(Duration) onCooldown;
+  final Function(Object) onLooksLikeRateLimit;
+
+  const _CategoryLoadingScreen({
+    required this.category,
+    required this.normalizedId,
+    required this.onCooldown,
+    required this.onLooksLikeRateLimit,
+  });
+
+  @override
+  State<_CategoryLoadingScreen> createState() => _CategoryLoadingScreenState();
+}
+
+class _CategoryLoadingScreenState extends State<_CategoryLoadingScreen>
+    with TickerProviderStateMixin {
+  late AnimationController _ringCtrl1, _ringCtrl2, _starCtrl;
+  late Animation<double> _ring1Scale, _ring2Scale, _starRotate;
+
+  @override
+  void initState() {
+    super.initState();
+    _ringCtrl1 = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 2000),
+    )..repeat();
+    _ringCtrl2 = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 2600),
+    )..repeat();
+    _starCtrl = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 3000),
+    )..repeat();
+
+    _ring1Scale = Tween<double>(begin: 1.0, end: 1.8).animate(
+      CurvedAnimation(parent: _ringCtrl1, curve: Curves.easeOut),
+    );
+    _ring2Scale = Tween<double>(begin: 1.0, end: 1.6).animate(
+      CurvedAnimation(parent: _ringCtrl2, curve: Curves.easeOut),
+    );
+    _starRotate = Tween<double>(begin: 0, end: 2 * math.pi).animate(
+      CurvedAnimation(parent: _starCtrl, curve: Curves.linear),
+    );
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => _run());
+  }
+
+  @override
+  void dispose() {
+    _ringCtrl1.dispose();
+    _ringCtrl2.dispose();
+    _starCtrl.dispose();
+    super.dispose();
+  }
+
+  Future<void> _run() async {
+    const known = {
+      'credits_exhausted',
+      'local_rate_limited',
+      'too many attempts',
+      'appcheck',
+    };
+
+    try {
+      final text = await ChatService.generateForCategory(context, widget.normalizedId);
+      if (!mounted) return;
+      Navigator.of(context).pushReplacement(
+        fadeRoute(
+          ResultScreen(
+            category: widget.category.title,
+            response: text,
+            onRegenerate: () async {
+              final regenerated =
+                  await ChatService.generateForCategory(context, widget.normalizedId);
+              return regenerated;
+            },
+          ),
+        ),
+      );
+    } catch (e, st) {
+      if (!mounted) return;
+
+      final errStr = e.toString().toLowerCase();
+      final isKnown = known.any((k) => errStr.contains(k));
+
+      if (widget.onLooksLikeRateLimit(e as Object)) {
+        widget.onCooldown(const Duration(seconds: 30));
+        if (!kDebugMode) {
+          Navigator.of(context).pop();
+          return;
+        }
+      }
+
+      if (isKnown) {
+        Navigator.of(context).pop();
+        return;
+      }
+
+      Navigator.of(context).pop();
+      showAppErrorSnack(context, e, stackTrace: st);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: AppColors.deepNavy,
+      body: Stack(
+        children: [
+          const Positioned.fill(
+            child: DecoratedBox(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [
+                    AppColors.navy,
+                    AppColors.deepNavy,
+                    AppColors.navyDeep,
+                  ],
+                  stops: [0.0, 0.50, 1.0],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                // Pulsing rings
+                SizedBox(
+                  width: 240,
+                  height: 240,
+                  child: Stack(
+                    alignment: Alignment.center,
+                    children: [
+                      AnimatedBuilder(
+                        animation: _ring1Scale,
+                        builder: (_, __) => Opacity(
+                          opacity: (1.0 - _ringCtrl1.value).clamp(0.0, 1.0),
+                          child: Container(
+                            width: 180 * _ring1Scale.value,
+                            height: 180 * _ring1Scale.value,
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              border: Border.all(
+                                color: AppColors.gold.withValues(alpha: 0.6),
+                                width: 2,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                      AnimatedBuilder(
+                        animation: _ring2Scale,
+                        builder: (_, __) => Opacity(
+                          opacity: (1.0 - _ringCtrl2.value).clamp(0.0, 1.0),
+                          child: Container(
+                            width: 140 * _ring2Scale.value,
+                            height: 140 * _ring2Scale.value,
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              border: Border.all(
+                                color: AppColors.gold.withValues(alpha: 0.4),
+                                width: 1.5,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                      // Rotating star
+                      AnimatedBuilder(
+                        animation: _starRotate,
+                        builder: (_, __) => Transform.rotate(
+                          angle: _starRotate.value,
+                          child: Text(
+                            '✨',
+                            style: TextStyle(
+                              fontSize: 56,
+                              shadows: [
+                                Shadow(
+                                  color: AppColors.gold.withValues(alpha: 0.4),
+                                  blurRadius: 12,
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 40),
+                // Category name
+                Text(
+                  widget.category.title,
+                  textAlign: TextAlign.center,
+                  style: GoogleFonts.cinzel(
+                    color: AppColors.gold,
+                    fontSize: 20,
+                    fontWeight: FontWeight.w700,
+                    letterSpacing: 0.5,
+                  ),
+                ),
+                const SizedBox(height: 20),
+                // Shimmer dots
+                _ShimmerDots(),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}

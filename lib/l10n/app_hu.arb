@@ -1,80 +1,42 @@
 {
   "@@locale": "hu",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "Válassz nyelvet",
-  "languageSelectSub": "Később megváltoztathatod a Beállításokban",
+  "languageSelectSub": "Ezt később a Beállításokban módosíthatod",
   "actionContinue": "Folytatás",
   "languageSuggestedHeader": "Javasolt",
-  "languageAllHeader": "Az összes nyelv",
+  "languageAllHeader": "Összes nyelv",
   "languageSuggestedBadge": "Javasolt",
   "languageSearchHint": "Keresés…",
-
-  "planGrace": "Standard",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Napi Útmutatás",
-  "categoryFaithTrust": "Hit & Bizalom",
-  "categoryPrayerReflection": "Imádság Elmélkedés",
-  "categoryHopeDifficultTimes": "Türelem Remény",
-  "categoryForgiveness": "Kérj Megbocsátást",
-  "categoryLoveCompassion": "Irgalom Mittel",
-  "categoryStrengthCourage": "Hit Erő",
-  "categoryGratitude": "Hálás Szív",
-  "categoryPurposeCalling": "Élet Célja",
-  "categoryFamilyRelationships": "Család Kapcsolatok",
-  "categoryPeaceAnxietyRelief": "Belső Béke",
-  "categoryWisdomOfJesus": "Próféta Bölcsesség",
-  "categoryHumilityCharacter": "Jó Karakter",
-  "categoryOvercomingTemptation": "Ellenállj a Kísértésnek",
-  "categoryEveningReflection": "Esti Dhikr",
-  "categoryCustom": "Személyes Elmélkedés",
+  "planBasic": "Alap",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Napi útmutatás",
+  "categorySlot02": "Iman és bizalom",
+  "categorySlot03": "Ima-elmélkedés",
+  "categorySlot04": "Türelem és remény",
+  "categorySlot05": "Bocsánatkérés",
+  "categorySlot06": "Irgalom és együttérzés",
+  "categorySlot07": "Hit és erő",
+  "categorySlot08": "Hálás szív",
+  "categorySlot09": "Az élet célja",
+  "categorySlot10": "Családi kötelékek",
+  "categorySlot11": "Belső béke",
+  "categorySlot12": "Prófétai bölcsesség",
+  "categorySlot13": "Jó jellem",
+  "categorySlot14": "Kísértés ellenállása",
+  "categorySlot15": "Esti Dhikr",
+  "categoryCustom": "Személyes elmélkedés",
   "dhikrMeaningSubhanallah": "Dicsőség Allahnak",
-  "dhikrMeaningAlhamdulillah": "Minden dicséret Allahé",
-  "dhikrMeaningAllahuAkbar": "Allah a Legnagyobb",
-  "quranVerseHeartAtRest": "Valóban, Allah emlékezésében a szívek nyugalmat találnak.",
-
-  "promptHint": "Érintsd meg a kategóriákat az iszlám útmutatásért és elmélkedésért",
-
+  "dhikrMeaningAlhamdulillah": "Minden dicsőség Allahé",
+  "dhikrMeaningAllahuAkbar": "Allah a legnagyobb",
+  "quranVerseHeartAtRest": "Bizony, Allah emlékezetében nyugalmat lel a szív.",
+  "promptHint": "Érintj meg egy kategóriát iszlám útmutatásért és elmélkedésért",
   "currentLanguage": "Jelenlegi nyelv",
   "settingsLanguage": "Nyelvbeállítások",
   "settingsTitle": "Beállítások",
-  "chooseLanguage": "Válaszd ki a nyelvedet",
+  "chooseLanguage": "Válassz nyelvet",
   "continueCta": "Folytatás",
-
-  "promptDailyGuidance": "Írj rövid, gyakorlati napi útmutatást, amely a szunnita iszlám hitre alapul — a Koránban, a hagyományokban és a Próféta Muhammadról szóló tanításokra alapozva. Válassz friss nézőpontot minden alkalommal: egy erényt az iszlám etikából, egy igazságot a Szunnából, bölcsességet a Próféta Társaiból vagy csendes gyakorlatot az iszlám hagyományból. Tartalmazz egy Korán versét [Szúra:Áya] és egy 1–2 mondatos elmélkedést, amit az egész nap magaddal vihetsz. Opcionálisan kösd össze az iszlám naptárral vagy egy fontos dátummal, ha releváns.",
-
-  "promptFaithTrust": "Írj rövid iszlám elmélkedést az Imanról (hit) és az Allah tervében való bizalomról (Tawakkul). Alapozd a Koránra, a Próféta Muhammad példájára és a Szahaba hitére. Váltogasd a témákat minden alkalommal: Allah megbízhatóságában való bizalom bizonytalanságban, az isteni bölcsességre való támaszkodás, türelem a próbatételekben vagy csendes kitartás a mindennapi életben. Tartalmazz egy Korán versét és egy őszinte lépést a mai napra, amely az iszlám szellemi bölcsességből merít.",
-
-  "promptPrayerReflection": "Írj rövid iszlám imádság-elmélkedést az Salátra, a Duára vagy a Dhikrre alapozva. Váltogasd az formákat minden alkalommal: reggeli vagy esti emlékezés [Adzkár], az öt napi imádság elmélkedése, egy Korán vers meditációja vagy szívből fakadó fohász. Tartalmazz egy Korán versét és röviden nevezd meg az alkalmazott imádság formáját.",
-
-  "promptHopeDifficultTimes": "Írj iszlám elmélkedést a türelemről [Sabr] és a reménységről a szenvedés alatt. Merítsd az Koránnak a próbatételekről szóló tanításaiból, a Próféták kitartásából és Allah irgalmából a nehéz pillanatokban. Váltogasd a szögeket minden alkalommal. Tartalmazz egy Korán versét és egy bátorító perspektívát az iszlám hagyományból.",
-
-  "promptForgiveness": "Írj bölcs iszlám elmélkedést a megbocsátás kérésérôl [Tawbah] és Allah irgalmáról. Merítsd a Korán tanításaiból a temetésről, Allah könyörületességérôl és a Próféta Muhammad megbocsájtó példájáról. Váltogasd a témákat: vissza Allah felé fordulás, mások megbocsájtása, kapcsolatok gyógyítása vagy Allah irgalmában való hit a hibák után. Tartalmazz egy Korán versét és egy konkrét lépést.",
-
-  "promptLoveCompassion": "Írj rövid iszlám elmélkedést az irgalomról [Rahmah] és az összeérzésről a mindennapi életben. Merítsd a Próféta Muhammad példájából, az Ihsan [kiválóság] koncepciójából és az iszlám tanításaiból a szeretetről a család, szomszédok és a sebezhetők felé. Tartalmazz egy Korán versét és egy kis összeérzési cselekedetet a mai napra.",
-
-  "promptStrengthCourage": "Írj iszlám elmélkedést a hit által adott erőről és bátorságról. Merítsd a Próféták példáiból, a korai muzulmán közösségből és azon hívők életéből, akik a nehézségek alatt is kitartottak. Váltogasd a témákat minden alkalommal: bátorság a hiton keresztül, erő az imádságban, bizalom Allah felé a félelem alatt vagy kitartás a nehézségekben. Tartalmazz egy Korán versét és egy rövid fohászt vagy meditációs szót.",
-
-  "promptGratitude": "Írj iszlám elmélkedést az Allah felé való hálára [Shukr]. Alapozd a Korán tanításaira és a próféta hagyományra. Váltogasd a szögeket: hálatartás a szenvedésben, apró áldások értékelése, a nap kezdése Allah dicsőítésével vagy az Allah útmutatásának felismerése a mindennapi életben. Tartalmazz egy Korán versét és egy hálatartási gyakorlatot.",
-
-  "promptPurposeCalling": "Írj iszlám elmélkedést az élet céljáról Allah imádásában és az erkölcsös életben. Merítsd a Korán tanításaiból a céllal kapcsolatban, mások szolgálatáról és tehetségeid jóra fordításáról. Váltogasd a témákat minden alkalommal: család és közösség szolgálata, útmutatás keresése az Istikhara által, tudatos élet vagy értelmet találni a szokványos munkában. Tartalmazz egy Korán versét és két elmélkedési kérdést.",
-
-  "promptFamilyRelationships": "Írj bölcs iszlám útmutatást a családról és kapcsolatokról, amely a Korán tanítására és a Próféta Muhammad példájára alapul. Váltogasd a témákat minden alkalommal: kedvesség a családban, türelem a konfliktusok alatt, szülők tisztelete, gyermekek nevelése a hitben vagy házassági kapcsolatok erősítése. Tartalmazz egy Korán versét és egy kapcsolati gyakorlatot a kipróbáláshoz.",
-
-  "promptPeaceAnxietyRelief": "Írj nyugodt iszlám elmélkedést a belső béke megtalálásáról Allah megemlékzésén keresztül [Dhikr] és az Ő tervében való bizalmon keresztül. Merítsd a Korán tanításaiból a szív békességéről, az imádságról és Allah akaratához való behódolásról. Váltogasd a megközelítéseket minden alkalommal és tartalmazz egy Korán versét valamint egy egyszerű gyakorlatot az iszlám hagyományból.",
-
-  "promptWisdomOfJesus": "Írj rövid bölcsességet a Próféták tanításaiból az iszlámban. Merítsd a Koránból vagy a Hadithből és röviden magyarázd meg, hogyan értelmezték az iszlám tudósok a tanítást. Váltogasd a témákat minden alkalommal: karakter, türelem, alázat, hit vagy mindennapi viselkedés. Tartalmazz egy Korán versét vagy Hadith hivatkozást és egy gyakorlati alkalmazást.",
-
-  "promptHumilityCharacter": "Írj iszlám elmélkedést az alázatról [Tawadhu] és a jó karakterről [Akhlaq]. Merítsd a Korán tanításaiból, a Próféta Muhammad példájából és az iszlám karakter fejlesztésének hagyományából. Váltogasd a témákat: alázat a vezetésben, hibák elismerése, mások tiszteletbeli kezelése vagy szellemi növekedés az önsmeréletezésen keresztül. Tartalmazz egy Korán versét és egy gyakorlat a kipróbáláshoz.",
-
-  "promptOvercomingTemptation": "Írj iszlám elmélkedést a kísértésnek való ellenállásról és az egyenes úton maradásról. Merítsd a Korán útmutatásából, Allah megemlékzésérôl [Dhikr], az imádságról [Salah] és azon hívők példáiból, akik legyőzték küzdelmeiket. Váltogasd a szögeket minden alkalommal. Tartalmazz egy Korán versét és egy gyakorlati stratégiát a következő 24 órára.",
-
-  "promptEveningReflection": "Írj békés iszlám esti elmélkedést az esti megemlékzés hagyományára alapozva [Adzkár al-Masaa]. Ösztönözd a hálára, az önsmeréletésre [Muhasabah] és az Allah felé való bizalomra az alvás előtt. Tartalmazz 3–5 rövid elmélkedési kérdést a napról, egy rövid záró fohászt és egy Korán versét.",
-
   "wordCount": "{count, plural, one {{count} szó} other {{count} szó}}",
-
   "optionsCta": "Lehetőségek",
   "newCta": "Új",
   "actionsTitle": "Mit szeretnél tenni?",
@@ -82,504 +44,586 @@
   "share": "Megosztás",
   "close": "Bezárás",
   "copiedToast": "Vágólapra másolva",
-
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Email / share subject line including the category label.",
+    "description": "E-mail / megosztás tárgysora a kategória nevével.",
     "placeholders": {
-      "category": { "type": "String", "example": "Daily Guidance" }
+      "category": {
+        "type": "String",
+        "example": "Napi útmutatás"
+      }
     }
   },
-
-  "regenerateErrorTitle": "Nem sikerült új válasz generálni",
-  "regenerateErrorBody": "{error}\n\nMég egyszer próbálod?",
+  "regenerateErrorTitle": "Nem sikerült új választ generálni",
+  "regenerateErrorBody": "{error}\n\nSzeretnéd újra próbálni?",
   "@regenerateErrorBody": {
-    "description": "Shown when regenerating an AI answer fails.",
+    "description": "Megjelenik, ha a mesterséges intelligencia válaszának újragenerálása sikertelen.",
     "placeholders": {
-      "error": { "type": "String", "example": "Network error" }
+      "error": {
+        "type": "String",
+        "example": "Hálózati hiba"
+      }
     }
   },
-
   "cancelCta": "Mégse",
-  "retryCta": "Újra próbáld",
-
-  "authTitle": "Hozd létre a fiókod",
+  "retryCta": "Újra próbálom",
+  "authTitle": "Hozd létre a fiókodat",
   "continueAsGuest": "Folytatás vendégként",
   "signInGoogle": "Bejelentkezés Google-lal",
-  "signInApple": "Bejelentkezés Apple-lal",
-  "signInEmail": "Bejelentkezés e-mailből",
-  "upgradeWithApple": "Folytatás Apple-lal",
-  "mustAccept": "El kell fogadnod a Feltételeket és tudomásul kell venned az Adatvédelmi Nyilatkozatot.",
-  "termsLabel": "Elfogadom a Felhasználási Feltételeket",
-  "privacyLabel": "Elolvastam az Adatvédelmi Nyilatkozatot",
-  "marketingOptIn": "Beleegyezem hírlevél és ajánlatok fogadásához",
-  "openTerms": "Felhasználási Feltételek",
-  "openPrivacy": "Adatvédelmi Nyilatkozat",
-
+  "signInApple": "Bejelentkezés Apple-lel",
+  "signInEmail": "Bejelentkezés e-maillel",
+  "upgradeWithApple": "Folytatás Apple-lel",
+  "mustAccept": "El kell fogadnod a Feltételeket és tudomásul kell venned az Adatvédelmi irányelveket.",
+  "termsLabel": "Elfogadom a Szolgáltatási feltételeket",
+  "privacyLabel": "Elolvastam az Adatvédelmi irányelveket",
+  "marketingOptIn": "Hozzájárulok hírek és ajánlatok fogadásához",
+  "openTerms": "Szolgáltatási feltételek",
+  "openPrivacy": "Adatvédelmi irányelvek",
   "accountSection": "Fiók",
   "guestMode": "Vendég mód",
   "signedIn": "Bejelentkezve",
-  "upgradeHint": "Mentsd meg elmélkedéseidet az eszközök között — hozz létre fiókot.",
+  "upgradeHint": "Mentsd el elmélkedéseidet eszközök között egy fiók létrehozásával.",
   "upgradeWithGoogle": "Folytatás Google-lal",
   "signOut": "Kijelentkezés",
-
   "snackUpgraded": "Fiók frissítve Google-lal ✅",
   "snackSignedIn": "Bejelentkezve Google-lal ✅",
   "snackSignedOut": "Kijelentkezve",
-  "snackSignedInApple": "Bejelentkezve Apple-lal ✅",
+  "snackSignedInApple": "Bejelentkezve Apple-lel ✅",
   "snackSignedInGoogle": "Bejelentkezve Google-lal ✅",
-  "snackUpgradedApple": "Fiók frissítve Apple-lal ✅",
+  "snackUpgradedApple": "Fiók frissítve Apple-lel ✅",
   "snackUpgradedGoogle": "Fiók frissítve Google-lal ✅",
-
   "historyTitle": "Korábbi elmélkedések",
   "historyOpenCta": "Korábbi elmélkedések",
-  "historyEmpty": "Még nincs mentett elmélkedés.",
-  "historyDeleteTitle": "Elmélkedés törlése?",
+  "historyEmpty": "Még nincsenek mentett elmélkedések.",
+  "historyDeleteTitle": "Törlöd az elmélkedést?",
   "historyDeleteBody": "Ez véglegesen eltávolítja a kiválasztott elemet.",
   "deleteCta": "Törlés",
-
-  "historyButton": "Korábbi Elmélkedések",
+  "historyButton": "Korábbi elmélkedések",
   "historyEmptyTitle": "Még nincsenek elmélkedések",
-  "historyEmptyBody": "Először generálj valamit — a mentett elemei itt fognak megjelenni.",
+  "historyEmptyBody": "Először generálj valamit — a mentett elemek itt fognak megjelenni.",
   "historyDelete": "Törlés",
-
-  "footerTitle": "Az Iman, a Sabr és a Rahmah jegyében.",
-  "footerSubtitle": "Egy lépés egy időben.",
-  "genericErrorSnack": "Valami hiba történt — próbáld újra egy pillanat múlva.",
-
-  "upgradeAccountCta": "Mentsd meg elmélkedéseidet az eszközök között – hozz létre fiókot",
+  "footerTitle": "Wilayával, Imannal és Sabrral",
+  "footerSubtitle": "Egy imával egyszerre",
+  "genericErrorSnack": "Valami hiba történt — kérlek, próbáld újra egy pillanat múlva.",
+  "upgradeAccountCta": "Mentsd el elmélkedéseidet eszközök között – hozz létre egy fiókot",
   "deleteAccount": "Fiók törlése",
-  "exportData": "Az adataim exportálása",
-
+  "exportData": "Adataim exportálása",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Label before showing the internal Firebase UID.",
+    "description": "Felirat a belső Firebase UID megjelenítése előtt.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Ó, nem rohanj! 🐯\nAz AI-nak egy pillanatra szüksége van a következőhöz…",
-  "rateDailyLimit": "Egyelőre nincs több elmélkedésed.\nKapj több elmélkedést vagy frissíts Barakah-ra.",
-  "rateCreditsExhausted": "Az összes elmélkedésedet felhasználtad.\nTöltsd fel vagy frissíts Barakah-ra a folytatáshoz.",
-  "rateGraceReflectionsExhausted": "Egyelőre nincs több elmélkedésed.\nKapj több elmélkedést vagy frissíts Barakah-ra.",
-  "rateReflectionsExhausted": "Az összes elmélkedésedet felhasználtad.\nTöltsd fel vagy frissíts Barakah-ra a folytatáshoz.",
-
-  "blessedDescription": "A Barakah feloldja a prémium funkciókat, jövőbeli kategóriákat és egy speciális jelvényt.",
-  "championDescription": "A Barakah feloldja a prémium funkciókat, jövőbeli kategóriákat és egy speciális jelvényt.",
-
-  "ratePlanExhausted": "Az elmélkedéseid egyelőre üresek. Csomag: {plan}.",
+  "rateLocalThrottle": "Lassan a testtel 🐯\nAz Ayarának szüksége van egy kis időre a következő előtt…",
+  "rateDailyLimit": "Elfogytak az elmélkedéseid mára.\nSzerezz több elmélkedést, vagy frissíts Wilayára.",
+  "rateCreditsExhausted": "Felhasználtad az összes elmélkedésedet.\nTölts fel, vagy frissíts Wilayára a folytatáshoz.",
+  "rateGraceCreditsExhausted": "Elfogytak az elmélkedéseid mára.\nSzerezz több elmélkedést, vagy frissíts Wilayára.",
+  "premiumDescription": "A Wilaya prémium funkciókat, jövőbeli kategóriákat és egy különleges jelvényt old fel.",
+  "ratePlanExhausted": "Az elmélkedéseid jelenleg kifogytak. Csomag: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "description": "Megjelenik, ha a felhasználó elmélkedései kifogytak, de az ok általános.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard or Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Alap vagy Wilaya"
+      }
     }
   },
-
   "rateCheckFailed": "Nem sikerült ellenőrizni az elmélkedéseidet: {message}",
   "@rateCheckFailed": {
-    "description": "Shown when the callable function returns an error message.",
+    "description": "Megjelenik, ha a hívható függvény hibaüzenetet ad vissza.",
     "placeholders": {
-      "message": { "type": "String", "example": "Network error" }
+      "message": {
+        "type": "String",
+        "example": "Hálózati hiba"
+      }
     }
   },
-
-  "rateCheckGenericError": "Valami hiba történt az elmélkedéseid ellenőrzésekor.",
-  "aiFallbackGeneric": "Valami hiba történt — próbáld újra egy pillanat múlva.",
-
+  "rateCheckGenericError": "Valami hiba történt az elmélkedések ellenőrzése közben.",
+  "aiFallbackGeneric": "Valami hiba történt — kérlek, próbáld újra egy pillanat múlva.",
   "limitSectionTitle": "Elmélkedések",
   "limitTodayLabel": "Használat",
-  "limitCreditsLabel": "Hátralévő elmélkedések: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "limitCreditsLabel": "Fennmaradó elmélkedések: {credits}",
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "Csomag: {plan}",
   "@limitPlanLabel": {
-    "description": "Shows the current subscription plan name.",
+    "description": "Megjeleníti a jelenlegi előfizetési csomag nevét.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard or Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Alap vagy Wilaya"
+      }
     }
   },
   "limitLoadingLabel": "Betöltés…",
-  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
-
+  "limitLoadingLabelDescription": "Az elmélkedések kártyán jelenik meg, miközben a használati adatok betöltődnek.",
   "aiLimitTitle": "Elmélkedések",
-  "aiLimitSubtitle": "Minden válasz 1 elmélkedést használ. A Standard alapcsomag tartalmaz induló elmélkedéseket. A Barakah feloldja a prémium kategóriákat és lehetővé teszi a feltöltéseket.",
-  "aiLimitProgressLabel": "{used} / {total} elmélkedés használt",
+  "aiLimitSubtitle": "Minden válasz 1 elmélkedést használ. Az Alap csomag kezdő elmélkedéseket tartalmaz. A Wilaya prémium kategóriákat old fel és lehetővé teszi a feltöltést.",
+  "aiLimitProgressLabel": "{used} / {total} elmélkedés felhasználva",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Elmélkedések",
-  "reflectionsUsageLabel": "Használat",
-  "reflectionsRemainingLabel": "Hátralévő elmélkedések: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Csomag: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Shows the current plan name.",
+  "creditsSectionTitle": "Elmélkedések",
+  "creditsUsageLabel": "Használat",
+  "creditsRemainingLabel": "Fennmaradó elmélkedések: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard or Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Betöltés…",
-  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
-
-  "reflectionsTitle": "Elmélkedések",
-  "reflectionsSubtitle": "Minden válasz 1 elmélkedést használ. A Standard alapcsomag tartalmaz induló elmélkedéseket. A Barakah feloldja a prémium kategóriákat és lehetővé teszi a feltöltéseket.",
-  "reflectionsProgressLabel": "{used} / {total} elmélkedés használt",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Csomag: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Megjeleníti a jelenlegi csomag nevét.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Alap vagy Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Betöltés…",
+  "creditsLoadingLabelDescription": "Megjelenik, miközben az elmélkedési adatok betöltődnek.",
+  "creditsTitle": "Elmélkedések",
+  "creditsSubtitle": "Minden válasz 1 elmélkedést használ. Az Alap csomag kezdő elmélkedéseket tartalmaz. A Wilaya prémium kategóriákat old fel és lehetővé teszi a feltöltést.",
+  "creditsProgressLabel": "{used} / {total} elmélkedés felhasználva",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "Fiók törlése",
-  "settingsDeleteDescription": "Véglegesen töröld a fiókodat és az összes kapcsolódó adatot.",
-  "settingsDeleteButtonLabel": "A fiókom törlése",
-  "settingsDeleteDialogTitle": "Töröljük a fiókot?",
-  "settingsDeleteDialogBody": "Ez a lépés véglegesen nem vonható vissza.\n\nAz összes chatod, előzményed és fiókinformációd törölve lesz.",
+  "settingsDeleteDescription": "Véglegesen törli a fiókodat és az összes kapcsolódó adatot.",
+  "settingsDeleteButtonLabel": "Fiókom törlése",
+  "settingsDeleteDialogTitle": "Törlöd a fiókot?",
+  "settingsDeleteDialogBody": "Ez a művelet végleges és nem vonható vissza.\n\nAz összes csevegésed, előzményed és fiókadatod törlődik.",
   "settingsDeleteDialogCancel": "Mégse",
   "settingsDeleteDialogConfirm": "Törlés",
-
-  "settingsFreeLimitUsedTitle": "Alapcsomag elmélkedések felhasználva",
-  "settingsFreeLimitUsedDescription": "Az eszköz alapcsomag elmélkedései felhasználva vannak. Frissíts Barakah-ra vagy vegyél több elmélkedést a folytatáshoz.",
-
-  "settingsStarterReflectionsUsedTitle": "Induló elmélkedések felhasználva",
-  "settingsStarterReflectionsUsedDescription": "Az eszköz induló elmélkedései felhasználva vannak. Frissíts Barakah-ra vagy vegyél több elmélkedést a folytatáshoz.",
-
-  "deviceBoundError": "Ez az eszköz már egy másik fiókhoz van kötve. Jelentkezz be az eredeti fiókkal.",
-
-  "premiumTitle": "Barakah mód",
-  "premiumSubtitleBasic": "Nyisd fel a teljes Ayara élményt.",
-  "premiumSubtitleChampion": "Te vagy a Barakah. Szükséged van több elmélkedésre?",
-
+  "settingsFreeLimitUsedTitle": "Kezdő elmélkedések felhasználva",
+  "settingsFreeLimitUsedDescription": "Ezen az eszközön a kezdő elmélkedések felhasználásra kerültek. Frissíts Wilayára, vagy vásárolj több elmélkedést a folytatáshoz.",
+  "settingsStarterCreditsUsedTitle": "Kezdő elmélkedések felhasználva",
+  "settingsStarterCreditsUsedDescription": "Ezen az eszközön a kezdő elmélkedések felhasználásra kerültek. Frissíts Wilayára, vagy vásárolj több elmélkedést a folytatáshoz.",
+  "deviceBoundError": "Ez az eszköz már egy másik fiókhoz van kapcsolva. Kérlek, jelentkezz be az eredeti fiókkal.",
+  "premiumTitle": "Wilaya mód",
+  "premiumSubtitleBasic": "Fedezd fel a teljes Ayara élményt.",
+  "premiumSubtitlePremium": "Wilaya csomagod van. Több elmélkedésre van szükséged?",
   "premiumCurrentPlan": "Jelenlegi csomag: {plan}",
   "premiumCreditsStatus": "Elmélkedések: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "A vásárlások jelenleg nem érhetőek el.",
-  "premiumSignInToPurchase": "Jelentkezz be elmélkedések vásárlásához vagy a Barakah feloldásához.",
-
+  "premiumPurchasesUnavailable": "A vásárlások jelenleg nem elérhetők.",
+  "premiumSignInToPurchase": "Jelentkezz be elmélkedések vásárlásához vagy a Wilaya feloldásához.",
   "premiumRestorePurchases": "Vásárlások visszaállítása",
   "premiumProcessing": "Feldolgozás…",
-  "premiumRestoreHintTitle": "Már vásároltál Barakah-t vagy elmélkedéseket ezen az eszközön vagy másikin?",
+  "premiumRestoreHintTitle": "Már vásároltál Wilayát vagy elmélkedéseket ezen vagy egy másik eszközön?",
   "premiumRestoreHintBody": "Állítsd vissza a vásárlásaidat, ha nem jelennek meg.",
-
   "premiumBuyCredits200": "200 elmélkedés vásárlása",
   "premiumBuyCredits400": "400 elmélkedés vásárlása",
-  "premiumBecomeChampionOneTime": "Frissíts Barakah módra",
-  "premiumChampionHint": "Barakah felhasználóként bármikor feltölthetsz további elmélkedéseket.",
-
+  "premiumBecomePremiumOneTime": "Frissítés Wilaya módra",
+  "premiumTopupHint": "A Wilayával szükség esetén bármikor feltöltheted a további elmélkedéseket.",
   "premiumUpgradeCta": "Frissítés",
-  "premiumRequiredForCategory": "Ez a kategória csak Barakah felhasználóknak érhető el. Frissíts a Beállításokban az összes prémium tartalom feloldásához.",
-  "premiumBenefitsBasic": "Nyisd fel a Barakah-t, hogy több elmélkedéseket kapj, prémium kategóriákat érj el és bármikor folytathass útmutatás nélkül.",
-  "premiumBenefitsChampion": "Barakah módban vagy. Ha elfogynak az elmélkedéseid, vegyél fel néhányat és folytasd az unteruption nélkül.",
-  "premiumButtonBecomeChampion": "Nyisd fel a Barakah-t",
+  "premiumRequiredForCategory": "Ez a kategória csak Wilaya felhasználók számára érhető el. A prémium tartalom feloldásához frissíts a Beállításokban.",
+  "premiumBenefitsBasic": "Nyisd fel a Wilayát extra elmélkedésekért, prémium kategóriákhoz való hozzáférésért, és folytathatod, amikor útmutatásra van szükséged.",
+  "premiumBenefitsPremium": "Wilaya módban vagy. Ha kevés van, adj hozzá extra elmélkedéseket és folytasd megszakítás nélkül.",
+  "premiumButtonBecomePremium": "Wilaya feloldása",
   "premiumButtonTopup1000": "1000 elmélkedés hozzáadása",
-  "premiumChampionBadge": "Barakah aktív",
-  "premiumLoadingStore": "Áruház betöltése…",
-
-  "blessedTitle": "Barakah mód",
-  "blessedSubtitleGrace": "Nyisd fel a teljes Ayara élményt.",
-  "blessedSubtitleBlessed": "Te vagy a Barakah. Szükséged van több elmélkedésre?",
-
-  "blessedCurrentPlan": "Jelenlegi csomag: {plan}",
-  "blessedReflectionsStatus": "Elmélkedések: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "A vásárlások jelenleg nem érhetőek el.",
-  "blessedProductNotAvailable": "Ez a termék még nem érhető el az áruházban. Próbáld újra később.",
-  "blessedPurchaseError": "Valami hiba történt a vásárlásnál. Próbáld újra.",
-  "blessedSignInToPurchase": "Jelentkezz be elmélkedések vásárlásához vagy a Barakah feloldásához.",
-
-  "blessedRestorePurchases": "Vásárlások visszaállítása",
-  "blessedProcessing": "Feldolgozás…",
-  "blessedRestoreHintTitle": "Már vásároltál Barakah-t vagy elmélkedéseket ezen az eszközön vagy másikin?",
-  "blessedRestoreHintBody": "Állítsd vissza a vásárlásaidat, ha nem jelennek meg.",
-
-  "blessedBuyReflections100": "100 elmélkedés hozzáadása",
-  "blessedBuyReflections200": "200 elmélkedés vásárlása",
-  "blessedBuyReflections400": "400 elmélkedés vásárlása",
-  "blessedBecomeBlessedOneTime": "Frissíts Barakah-ra",
-  "blessedTopupHint": "Barakah felhasználóként bármikor feltölthetsz további elmélkedéseket.",
-
-  "blessedUpgradeCta": "Frissítés",
-  "blessedRequiredForCategory": "Ez a kategória csak Barakah felhasználóknak érhető el. Frissíts a Beállításokban az összes prémium tartalom feloldásához.",
-  "blessedFeatureLocked": "Nyisd fel a Barakah-t a funkció eléréséhez.",
-  "lockedCategoriesHint": "Néhány kategória Barakah tagoknak van fenntartva. Nyisd fel őket az elmélkedési utazás minden aspektusának felfedezéséhez.",
-  "blessedBenefitsGrace": "Nyisd fel a Barakah-t, hogy több elmélkedéseket kapj, prémium kategóriákat érj el és bármikor folytathass útmutatás nélkül.",
-  "blessedBenefitsBlessed": "Barakah módban vagy. Ha elfogynak az elmélkedéseid, vegyél fel néhányat és folytasd az unteruption nélkül.",
-  "blessedButtonBecomeBlessed": "Nyisd fel a Barakah-t",
-  "blessedButtonTopup1000": "1000 elmélkedés hozzáadása",
-  "blessedBadge": "Barakah aktív",
-  "blessedLoadingStore": "Áruház betöltése…",
-
-  "freePlanBlockedTitle": "Felhasználtad az induló elmélkedéseidet",
-  "freePlanBlockedBody": "Te a Standard csomagon vagy induló elmélkedésekkel, és elérted a limitet. A folytatáshoz — és a prémium kategóriák feloldásához — frissíts Barakah-ra.",
-  "freePlanBlockedCtaGoPremium": "Nézd meg a Barakah lehetőségeket alább",
-
-  "graceBlockedTitle": "Felhasználtad az induló elmélkedéseidet",
-  "graceBlockedBody": "Te a Standard csomagon vagy induló elmélkedésekkel, és elérted a limitet. A folytatáshoz — és a prémium kategóriák feloldásához — frissíts Barakah-ra.",
-  "graceBlockedCtaGoBlessed": "Nézd meg a Barakah lehetőségeket alább",
-
-  "rateGuestMustSignIn": "Jelentkezz be a Ayara használatához és az elmélkedéseidhez.",
-
+  "premiumBadge": "Wilaya aktív",
+  "premiumLoadingStore": "Bolt betöltése…",
+  "premiumProductNotAvailable": "Ez a termék még nem érhető el a boltban. Kérlek, próbáld újra később.",
+  "premiumPurchaseError": "Valami hiba történt a vásárlás során. Kérlek, próbáld újra.",
+  "premiumBuyCredits100": "100 elmélkedés hozzáadása",
+  "premiumFeatureLocked": "Nyisd fel a Wilayát ennek a funkciónak az eléréséhez.",
+  "lockedCategoriesHint": "Néhány kategória Wilaya tagok számára van fenntartva. Oldozd fel őket, hogy minden elmélkedést felfedezz az utadon.",
+  "freePlanBlockedTitle": "Felhasználtad a kezdő elmélkedéseidet",
+  "freePlanBlockedBody": "Alap csomagban vagy kezdő elmélkedésekkel, és elérted a korlátot. A folytatáshoz — és a prémium kategóriák feloldásához — frissíts Wilayára.",
+  "freePlanBlockedCtaGoPremium": "Lásd a Wilaya lehetőségeket alább",
+  "graceBlockedTitle": "Felhasználtad a kezdő elmélkedéseidet",
+  "graceBlockedBody": "Alap csomagban vagy kezdő elmélkedésekkel, és elérted a korlátot. A folytatáshoz — és a prémium kategóriák feloldásához — frissíts Wilayára.",
+  "graceBlockedCtaGoPremium": "Lásd a Wilaya lehetőségeket alább",
+  "rateGuestMustSignIn": "Jelentkezz be az Ayara és az elmélkedések használatához.",
   "guestNoCreditsTitle": "Vendég mód",
-  "guestNoCreditsBody": "Vendégként böngészheghetsz az alkalmazáson, de nem használhatod az elmélkedéseket. Jelentkezz be később a Beállításokban az elmélkedések használatához és a vásárlások feloldásához.",
-
-  "guestNoReflectionsTitle": "Vendég mód",
-  "guestNoReflectionsBody": "Vendégként böngészheghetsz az alkalmazáson, de nem használhatod az elmélkedéseket. Jelentkezz be később a Beállításokban az elmélkedések használatához és a vásárlások feloldásához.",
-
+  "guestNoCreditsBody": "Vendégként böngészhetsz az alkalmazásban, de nem használhatsz elmélkedéseket. Jelentkezz be később a Beállításokban az elmélkedések használatához és a vásárlások feloldásához.",
   "guestDialogContinue": "Folytatás",
-  "guestDialogLoginInstead": "Bejelentkezés helyette",
-
+  "guestDialogLoginInstead": "Inkább bejelentkezés",
   "optionalLabel": "opcionális",
-
   "accountDeleteSuccessTitle": "Fiók törölve",
-  "accountDeleteSuccessBody": "A fiókodat és kapcsolódó adataid sikeresen törölve lettek.",
+  "accountDeleteSuccessBody": "A fiókod és a kapcsolódó adatok sikeresen törölve lettek.",
   "accountDeleteSuccessClose": "Bezárás",
-  "accountDeleteErrorTitle": "Nem sikerült a fiók törlése",
+  "accountDeleteErrorTitle": "Nem sikerült törölni a fiókot",
   "accountDeleteErrorClose": "OK",
-  "accountDeleteReauthCancelled": "Az újrahitelesítés meg lett szakítva. Jelentkezz be újra és próbáld újra a törlést.",
-  "accountDeleteReauthRequired": "A fiók törlése közelmúltbeli bejelentkezést igényel. Jelentkezz ki, jelentkezz be újra és próbáld újra a törlést.",
-  "settingsDeletePermanentWarning": "Ez a lépés véglegesen nem vonható vissza. A fiókodhoz kapcsolódó összes adat törölve lesz.",
-
-  "dailyGraceTitle": "Napi Útmutatás",
-  "dailyGraceScriptureLabel": "NAP VERSE",
-  "dailyGraceSaintLabel": "HETI TUDÓS",
+  "accountDeleteReauthCancelled": "Az újbóli hitelesítés megszakadt. Kérlek, jelentkezz be újra, és próbáld meg a törlést.",
+  "accountDeleteReauthRequired": "A fiók törléséhez közeli bejelentkezés szükséges. Kérlek, jelentkezz ki, jelentkezz be újra, és próbáld meg a törlést.",
+  "settingsDeletePermanentWarning": "Ez a művelet végleges és nem vonható vissza. A fiókodhoz tartozó összes adat törlődik.",
+  "dailyGraceTitle": "Napi útmutatás",
+  "dailyGraceScriptureLabel": "A NAP VERSE",
+  "dailyGraceSaintLabel": "A HÉT TUDÓSA",
   "dailyGraceReflectionLabel": "ESTI ELMÉLKEDÉS",
-  "dailyGraceCopiedToast": "Vers másolva a vágólapra",
-
-  "dailyScripture0Text": "Valóban, az igaz hitűek kertek és folyók között lesznek, egy tisztelendő helyen egy hatalmas Király mellett.",
-  "dailyScripture0Ref": "Korán 54:54-55",
-  "dailyScripture1Text": "És nem küldtünk Téged, ó Muhammad, hanem csak az összes világ könyörgéseként.",
-  "dailyScripture1Ref": "Korán 21:107",
-  "dailyScripture2Text": "Nem elég-e Allah szolgájának Allah? Pedig megfélemlítenek Téged másokkal Rajta kívül.",
-  "dailyScripture2Ref": "Korán 39:36",
-  "dailyScripture3Text": "Talán egy dolgot utálsz és az jó számodra; és talán egy dolgot szeretsz és az rossz számodra. Allah pedig tudja, míg ti nem tudjátok.",
-  "dailyScripture3Ref": "Korán 2:216",
-  "dailyScripture4Text": "Valóban, Allah a türelmeseknek van.",
-  "dailyScripture4Ref": "Korán 2:153",
-  "dailyScripture5Text": "Emlékezz Rám; én is megemlékezem Rólad. Légy hálás Nekem és ne tagadj meg Engem.",
-  "dailyScripture5Ref": "Korán 2:152",
-  "dailyScripture6Text": "Valóban, a legnemesebb közületek Allah előtt az, aki a legjámbor.",
-  "dailyScripture6Ref": "Korán 49:13",
-  "dailyScripture7Text": "Az Urad elrendelte, hogy csak Őt imádjátok és hogy jambor legyetek szüleitek iránt.",
-  "dailyScripture7Ref": "Korán 17:23",
-  "dailyScripture8Text": "Valóban, a nehézség mellett könnyedség van.",
-  "dailyScripture8Ref": "Korán 94:6",
-  "dailyScripture9Text": "Ő veletek van, ahol is legyetek. Allah pedig azoknak, amit tesztek, Látó.",
-  "dailyScripture9Ref": "Korán 57:4",
-  "dailyScripture10Text": "Allah nem terhel meg egy lélekre többet, mint amire képes.",
-  "dailyScripture10Ref": "Korán 2:286",
-  "dailyScripture11Text": "Aki Allah-ban bízik — biztos, hogy Ő elég neki.",
-  "dailyScripture11Ref": "Korán 65:3",
-  "dailyScripture12Text": "Az Én irgalmam minden dolgot felölel.",
-  "dailyScripture12Ref": "Korán 7:156",
-  "dailyScripture13Text": "Ha az Én szolgáim megkérdeznek Téged Rólam — valóban, én közel vagyok. Meghallgatom az imádkozó fohászát, amikor hívogat Engem.",
-  "dailyScripture13Ref": "Korán 2:186",
-  "dailyScripture14Text": "Aki jót tesz — legyen nő vagy férfi — és hívő — mi biztos, hogy jó életre sorsozzuk.",
-  "dailyScripture14Ref": "Korán 16:97",
-  "dailyScripture15Text": "Valóban, Allah nem változtatja meg egy nép állapotát, amíg nem változtatnak meg azt, ami bennük van.",
-  "dailyScripture15Ref": "Korán 13:11",
-  "dailyScripture16Text": "Ne gyengülj meg és ne szomorkodj, ti pedig felül leszel, ha igaz hívők vagytok.",
-  "dailyScripture16Ref": "Korán 3:139",
-  "dailyScripture17Text": "Ó az én szolgáim, akik magatokat megsértettétek, ne remegj az Allah irgalmától. Valóban, Allah megbocsát minden bűnnek.",
-  "dailyScripture17Ref": "Korán 39:53",
-  "dailyScripture18Text": "Aki Allah-tól fél — Ő számára teremtett egy kimenetet és majd ellátja azt, ahonnan nem várja.",
-  "dailyScripture18Ref": "Korán 65:2-3",
-  "dailyScripture19Text": "Ne veszítsd el az Allah irgalmában való reményt.",
-  "dailyScripture19Ref": "Korán 12:87",
-  "dailyScripture20Text": "Valóban, a Koránt könnyűvé tettük az emlékezetre. Van-e, aki gondolkodó?",
-  "dailyScripture20Ref": "Korán 54:17",
-  "dailyScripture21Text": "Ő téged eltévelyedettnek talált és a helyes útra vezetett.",
-  "dailyScripture21Ref": "Korán 93:7",
-  "dailyScripture22Text": "Az Urad azt mondja: Hívj Engem; én meghallgatom Téged.",
-  "dailyScripture22Ref": "Korán 40:60",
-  "dailyScripture23Text": "Valóban, az Ádám gyermekeit megtiszteltük.",
-  "dailyScripture23Ref": "Korán 17:70",
-  "dailyScripture24Text": "Kérj segítséget türelmesen és imádsággal.",
-  "dailyScripture24Ref": "Korán 2:45",
-  "dailyScripture25Text": "Aki egy atom súlyát jót tesz, meglátja azt.",
-  "dailyScripture25Ref": "Korán 99:7",
-  "dailyScripture26Text": "Kétségtelen, Allah segítsége közel van.",
-  "dailyScripture26Ref": "Korán 2:214",
-  "dailyScripture27Text": "Aki pedig hálás — a hála csak saját javára van.",
-  "dailyScripture27Ref": "Korán 31:12",
-
-  "dailyReflection0": "Ahogy lezárul a nap, gondolj végig egy olyan pillanatra, ahol Allah irgalma nyilvánvaló volt.",
-  "dailyReflection1": "Hozhass Allah elé mindazt, ami súlyosan nehéz volt a szívedre e nap.",
-  "dailyReflection2": "Nevezz meg egy áldást ebből a napból és fejezd ki hálát Allah felé.",
-  "dailyReflection3": "Pihenj abban a tudatban, hogy Allah végtelen gondja alatt vagy.",
-  "dailyReflection4": "Gondolkodj azon, hol érezted az érzékenységet mutatni és kedvességet tanúsítani a nap során.",
-  "dailyReflection5": "Engedj el azt, ami fölött nincs kontrollja, és bízz az Allah tökéletes tervében.",
-  "dailyReflection6": "Ahogy a nap befejeződik, kapj békét az Allah megemlékzésében.",
-  "dailyReflection7": "Gondolkodj azon, hogyan tisztelted az imádságaidat a nap során, és köszönd meg Allah mindenkét egy-egy imádságért.",
-  "dailyReflection8": "Gondolkodj egy olyan pillanaton, ahol a türelem [Sabr] irányította a napod során az intézkedéseit.",
-  "dailyReflection9": "Kérj bocsánatot e napi hiányosságaidért — Allah irgalma végtelen.",
-  "dailyReflection10": "Nevezz meg egy embert, akinek kedvességet mutattál e nap során, és imádkozz értük.",
-  "dailyReflection11": "Ülj le a hálával: mit adott Allah e nap során, amit nem kértél?",
-  "dailyReflection12": "Gondolkodj egy olyan Korán verzen, amely arra beszél, ahol most vagy.",
-  "dailyReflection13": "Gondolkodj azon, hogyan használtad az idődet e nap során — és ajánld fel holnapot Allah-nak.",
-  "dailyReflection14": "Pihenj abban, hogy bármilyen nehézség jött e nap során, Allah veletek volt.",
-  "dailyReflection15": "Gondolkodj azon, hogyan szolgáltad az családodat vagy közösségedet e nap során Allah kedvéért.",
-  "dailyReflection16": "Ahogy az éj esedik, tedd a Tawbah-t — Allah szereti azokat, akik felé fordulnak.",
-  "dailyReflection17": "Gondolkodj a szépségen, amelyet Allah helyezett napodba, bármilyen kicsi is.",
-  "dailyReflection18": "Gondolkodj azon, mit tanultál e nap során és hogyan közelít meg Allah felé.",
-  "dailyReflection19": "Engedd el a nap aggodalmait Allah-nak — Ő hordozza azt, ami nem tudod.",
-  "dailyReflection20": "Gondolkodj egy olyan pillanaton, ahol jobb döntést hozhattál volna, és tanulj belőle nyíltan.",
-  "dailyReflection21": "Imádkozz azokért, akik küzdenek — az imádságod ajándék nekik.",
-  "dailyReflection22": "Idézz fel egy áldást, amelyet gyakran figyelmen kívül hagysz és szánj időt Allah megköszönésére.",
-  "dailyReflection23": "Gondolkodj az intenciódban e nap során — Allah kedvéért voltak? Holnap kezdj újra.",
-  "dailyReflection24": "Ahogy a nap halkít, figyelj Allah közelsége az csendben.",
-  "dailyReflection25": "Gondolkodj azon, ahol találtál erőt e nap során — az erő Allah-ból jön.",
-  "dailyReflection26": "Nevezz meg egy dolgot, amelyet holnap tennél Allah kedvéért, amit e nap nem tettel.",
-  "dailyReflection27": "Ahogy az éjszaka felkészülsz a pihenésre, ajánld meg lelkedet Allah-nak — Ő a legjobb védelmező.",
-
-  "dailyRoleModel0": "Próféta Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Próféta Ibrahim (AS)",
-  "dailyRoleModel44": "Próféta Musa (AS)",
-  "dailyRoleModel45": "Próféta Isa (AS)",
-  "dailyRoleModel46": "Próféta Yusuf (AS)",
-  "dailyRoleModel47": "Próféta Dawud (AS)",
-  "dailyRoleModel48": "Próféta Sulayman (AS)",
-  "dailyRoleModel49": "Próféta Nuh (AS)",
-  "dailyRoleModel50": "Próféta Yunus (AS)",
-  "dailyRoleModel51": "Próféta Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Engedélyezd a Nuriának a helyzetem használatát a Qibla irány és imaidő számára",
-  "locationConsentHint": "Csak ezekhez a funkciókhoz használatos. A helyzeted sohasem kerül megosztásra vagy tárolásra.",
-
-  "askPageTitle": "Kérdezd meg a Nuriát",
-  "askPageDescription": "Kérdezz meg bármit a hitről, imádságról, életről vagy iszlám gyakorlatról és kapj útmutatást, amely a Koránban és a Szunnában alapul.",
-  "askPageInputHint": "Írd be a kérdésedet…",
-  "askPageSubmitCta": "Kérdés",
-  "askPageInputEmptyError": "Kérlek írj be egy kérdést.",
+  "dailyGraceCopiedToast": "Vers a vágólapra másolva",
+  "locationConsentLabel": "Az Ayara használhassa a helyzetemet a Qibla irányhoz és az imaidőkhöz",
+  "locationConsentHint": "Csak ezekhez a funkciókhoz használva. A helyzeted soha nem kerül megosztásra vagy tárolásra.",
+  "askPageTitle": "Kérdezd Ayarát",
+  "askPageDescription": "Kérdezz bármit a hitről, imáról, életről vagy iszlám gyakorlatról, és kapj útmutatást a Koránban és az Ahl al-Bayt tanításaiban gyökerezve.",
+  "askPageInputHint": "Írd ide a kérdésedet…",
+  "askPageSubmitCta": "Kérdezés",
+  "askPageInputEmptyError": "Kérlek, először írj egy kérdést.",
   "askResultYourQuestion": "A te kérdésed",
-
-  "guidancePageTitle": "Imádság és Útmutatás",
-  "qiblaFacingMecca": "Makkah felé fordulva",
-  "qiblaCompassInstruction": "Fordítsd el a telefond, amíg az arany tű felfelé mutat.\nEz az irány a Qiblára mutat [Makkah].",
-  "qiblaGpsUnavailableBody": "A GPS jel gyenge. Menj ki és érintsd meg az Újrapróbálkozást.",
-  "qiblaRetry": "Újrapróbálkozás",
-  "qiblaTitle": "Qibla Irány",
-  "qiblaDistanceLabel": "{km} km a Makká-ig",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "Mekka felé nézve",
+  "qiblaCompassInstruction": "Forgasd a telefonod, amíg az arany tű felfelé mutat.\nEz az irány mutat a Qibla (Mekka) felé.",
+  "qiblaGpsUnavailableBody": "A GPS jel gyenge. Menj ki a szabadba, és érintsd meg az Újra gombot.",
+  "qiblaRetry": "Újra",
+  "qiblaTitle": "Qibla irány",
+  "qiblaDistanceLabel": "{km} km Mekkától",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "Helyzet szükséges",
-  "qiblaLocationNeededBody": "Engedélyezd a helyzet hozzáférést úgy, hogy a Ayara kiszámíthatja a Kaaba irányát a Makká-ban, ahol is vagy.",
+  "qiblaLocationNeededTitle": "Helymeghatározás szükséges",
+  "qiblaLocationNeededBody": "Engedélyezd a helymeghatározást, hogy az Ayara ki tudja számítani a Kába irányát Mekkában bárhonnan, ahol vagy.",
   "qiblaOpenSettings": "Beállítások megnyitása",
-  "qiblaCompassLoading": "A helyzet keresése…",
-  "qiblaTowardMecca": "Makkah felé",
-
+  "qiblaCompassLoading": "Pozíció meghatározása…",
+  "qiblaTowardMecca": "Mekka felé",
   "prayerTimesTitle": "Imaidők",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
-  "prayerTimesLocationNeededTitle": "Helyzet szükséges",
-  "prayerTimesLocationNeededBody": "Engedélyezd a helyzet hozzáférést úgy, hogy a Ayara pontos imaidőket számíthasson ki a városodra.",
+  "prayerTimesLocationNeededTitle": "Helymeghatározás szükséges",
+  "prayerTimesLocationNeededBody": "Engedélyezd a helymeghatározást, hogy az Ayara pontos imaidőket tudjon kiszámítani a városodhoz.",
   "prayerTimesNextLabel": "Következő",
   "prayerTimesDoneLabel": "Kész",
-
-  "monthlyPrayerTimesTitle": "Havi Imaidők",
+  "monthlyPrayerTimesTitle": "Havi imaidők",
   "monthlyPrayerTimesViewButton": "Teljes hónap megtekintése",
   "monthlyPrayerTimesNextMonth": "Következő hónap",
   "monthlyPrayerTimesDayHeader": "Nap",
-
   "sharePrayerTimes": "Imaidők megosztása",
-
-  "prayerNotificationsTitle": "Imádság Emlékeztetők",
-  "prayerNotificationsDescription": "Kapj egy kedves emlékeztetőt minden imaidő előtt, hogy maradj összekapcsolva az egész nap.",
-  "prayerNotificationsEnable": "Imádság emlékeztetők engedélyezése",
+  "notificationsSectionTitle": "Értesítések",
+  "notificationsSectionSubtitle": "Ima emlékeztetők, naptári események és egyebek",
+  "dailyReflectionReminderTitle": "Napi elmélkedés",
+  "dailyReflectionReminderDescription": "Egy szelíd napi emlékeztető, hogy nyisd meg az Ayarát és kapcsolódj a hited felé.",
+  "dailyReflectionReminderEnable": "Napi emlékeztető engedélyezése",
+  "dailyReflectionReminderTimeLabel": "Emlékeztető ideje",
+  "prayerNotificationsTitle": "Ima emlékeztetők",
+  "prayerNotificationsDescription": "Kapj szelíd emlékeztetőt minden ima előtt, hogy egész nap kapcsolatban maradj.",
+  "prayerNotificationsEnable": "Ima emlékeztetők engedélyezése",
   "prayerNotificationsOpenSettings": "Értesítési beállítások megnyitása",
-  "prayerNotificationsDenied": "Az értesítések letiltva vannak",
-  "prayerNotificationsDeniedHint": "Menj a Beállításokhoz és engedélyezz értesítéseket a Ayara számára az imaidő emlékeztetők fogadásához.",
-
-  "notificationsConsentLabel": "Engedélyezd az értesítéseket az imaidőkről",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — Hajnali Imádság",
-  "prayerNotifBodyFajr": "Az imádságok közül a legjobb a hajnali imádság. Ébredj, tisztítsd meg magad és állj Allah előtt.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Délutáni Imádság",
-  "prayerNotifBodyDhuhr": "Szünet a napodban és vissza Allah felé. A Dhuhr imaidő megérkezett.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — Délutáni Imádság",
-  "prayerNotifBodyAsr": "Őrizd meg a középső imádságot. Az Asr ideje jött — ne hagyd elmenni.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — Naplemte Imádság",
-  "prayerNotifBodyMaghrib": "A nap elmerült. Végezd el a Maghrib imádságot és légy hálás Allah-nak ezért a napért.",
-
-  "prayerNotifTitleIsha": "🌙 Isha — Éjszakai Imádság",
-  "prayerNotifBodyIsha": "Végezd a napot Allah megemlékzésével. Hayya 'alal falah — jöjj a sikerhez.",
-
-  "outOfReflectionsBannerText": "Az összes elmélkedésedet felhasználtad",
-  "outOfReflectionsBannerCta": "Kapj többet",
-
+  "prayerNotificationsDenied": "Az értesítések le vannak tiltva",
+  "prayerNotificationsDeniedHint": "Menj a Beállításokba, és engedélyezd az értesítéseket az Ayarának az imaidő emlékeztetők fogadásához.",
+  "notificationsConsentLabel": "Értesítések engedélyezése az imaidőkhöz",
+  "prayerNotifTitleFajr": "🌅 Fajr — Hajnali ima",
+  "prayerNotifBodyFajr": "A Fajr az Ahl al-Bayt reggeleinek imája. Imam Ali (AS) mondta: Őrizd a hajnali imát, ahogy a legértékesebb bizalmad őrzöd. Kelj fel, tisztulj meg, és állj Allah elé.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Déli ima",
+  "prayerNotifBodyDhuhr": "Az Ahl al-Bayt Imámjai minden emlékezés pillanatát becsülték. Szakítsd meg a napodat, szükség esetén kombináld a Dhuhrt az Asrral, és adj vissza szívedet Allahnak.",
+  "prayerNotifTitleAsr": "🌤️ Asr — Délutáni ima",
+  "prayerNotifBodyAsr": "Őrizd az imát, mert ez a szövetség közted és Allah között. Elérkezett az Asr ideje — ne hagyd elmúlni emlékezés nélkül.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Naplementei ima",
+  "prayerNotifBodyMaghrib": "Leáldozott a nap — egy pillanat, amelyet az Ahl al-Bayt szentnek tartott a könyörgésre. Végezd el a Maghribot és nyisd ki kezedet Allahnak duában, mielőtt az éjszaka kezdődik.",
+  "prayerNotifTitleIsha": "🌙 Isha — Éjszakai ima",
+  "prayerNotifBodyIsha": "Zárd a napodat Allah társaságában. Az Imámok bátorították a Salat al-Laylt az Isha után — de először fejezd be az Ishat, és zárd a napot az Ő emlékezetével.",
+  "outOfReflectionsBannerText": "Felhasználtad az összes elmélkedésedet",
+  "outOfReflectionsBannerCta": "Szerezz többet",
   "dhikrPageTitle": "Dhikr",
-  "dhikrTapToCount": "Érintsd meg a kört a számláláshoz",
-  "dhikrResetButton": "Újra kezdés",
+  "dhikrTapToCount": "Érintsd meg a kört a számoláshoz",
+  "dhikrResetButton": "Visszaállítás",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Teljesítetted 99 Allah megemlékzésit. Legyen az szív világossága.",
-
+  "dhikrCompleteMessage": "Elvégezted Allah 100 emlékezését. Legyen ez fény a szívednek.",
   "disclaimerTitle": "Az alkalmazás útmutatásáról",
-  "disclaimerBody": "A Ayara iszlám elmélkedéseket, emlékeztetőket és szellemi tartalmat nyújt, amely támogatja a hit személyes utazásodat. Ez a tartalom általános tájékoztatási és inspirációs célokra szól.\n\nA Ayara nem helyettesíti a képzett tudósokat.\nAz alkalmazás útmutatása nem helyettesítője egy tanult iszlám tudósnak, imámnak, muftinek vagy teológiailag képzett tanárnak. Ha kérdéseid vannak az iszlám jogszabályokkal, halál és haram dolgokkal vagy személyes vallási kötelezettségekkel kapcsolatban, kérj tanácsot egy képzett vallási szervezettől közösségedben.\n\nEz az alkalmazás nem ad vallási ítéleteket.\nA Ayara nem ad mérvadó meghatározásokat az iszlám jogtudományban [fiqh] vagy személyes vallási kötelezettségekről. Semmi itt nem behandlása fatwaként vagy kötelező vallási utasításként.\n\nA tudósi értelmezések eltérőek.\nAz iszlám gazdag sokféleségét magában foglalja tradíciókat, gondolkodási iskolákat [madhabs] és tudósi véleményeket. Az alkalmazásban szereplő tartalom általános perspektívák tükrözésben van, és nem lehet képvisel minden tradíciót egyenlően.\n\nA közösség számít.\nEz az alkalmazás célja az, hogy ösztönözzük a vallási tradíciók bevonódás tisztelettel, míg mélyen tiszteletben tartom a helyi mecset, imam és vallási közösség döntő szerepét. Ösztönözzük, hogy maradj összekapcsolódva és tanulj tanár képzett tanárokból közelebb.",
+  "disclaimerBody": "Az Ayara iszlám elmélkedéseket, emlékeztetőket és spirituális tartalmakat nyújt személyes hited útjának támogatásához, a Koránban és az Ahl al-Bayt tanításaiban gyökerezve. Ez a tartalom kizárólag általános tájékoztatási és inspirációs célokra készült.\n\nAz Ayara nem helyettesíti a képzett tudósokat.\nAz alkalmazásban található útmutatás nem helyettesíti a tanult iszlám tudóst, marja't vagy teológiailag képzett tanárt. A síita iszlámban a vallási útmutatás a dzsafari jogtudományi iskolán (fiqh) és egy élő Marja' (utánzás forrása) követésének hagyományán alapul — egy képzett jogász, akinek döntései irányítják a hívőket a vallási gyakorlatban. Ha kérdéseid vannak vallási döntésekkel, halal és haram kérdésekkel, vagy személyes vallási kötelezettségekkel kapcsolatban, kérlek, kérj tanácsot egy képzett Marja'tól vagy egy tudóstól a közösségedben.\n\nEz az alkalmazás nem ad ki vallási döntéseket.\nAz Ayara nem tesz tekintélyes megállapításokat a fiqh vagy a személyes vallási kötelezettségek kérdéseiben. Semmi sem kezelendő fatwaként vagy kötelező érvényű vallási utasításként.\n\nAz Ahl al-Bayt központi szerepe.\nA síita iszlámban Mohamed Próféta ﷺ és megtisztított háznépe — az Ahl al-Bayt — az iszlám közösség tekintélyes vezetői a Korán után. Az Ahl al-Bayt tizenkét Imámja az iszlám tanítás istenileg kijelölt értelmezői. Az alkalmazás tartalma ezt a hagyományt tükrözi és igyekszik azt hűen tisztelni.\n\nA közösség számít.\nEz az alkalmazás arra törekszik, hogy ösztönözze a hittel való kapcsolatodat, miközben mélyen tiszteli a helyi mecset, iszlám központ és vallási közösség létfontosságú szerepét. Bátorítunk, hogy maradj kapcsolatban és tanulj a közeledben lévő képzett tanároktól.",
   "disclaimerClose": "Értem",
   "disclaimerInfoTooltip": "Az alkalmazás útmutatásáról",
-  "disclaimerSettingsSubtitle": "Csak általános tájékoztatási célokra. Érintsd meg a teljes jogi nyilatkozat olvasásához.",
-  "disclaimerSectionHeader": "Útmutatás jogi nyilatkozat"
+  "disclaimerSettingsSubtitle": "Kizárólag általános tájékoztatási célokra. Érintsd meg a teljes jogi nyilatkozat olvasásához.",
+  "disclaimerSectionHeader": "Útmutatási nyilatkozat",
+  "navHome": "Főoldal",
+  "navReflect": "Elmélkedés",
+  "navDuas": "Duák",
+  "navCalendar": "Naptár",
+  "dashboardToday": "MA",
+  "dashboardComingUp": "Közelgő",
+  "dashboardDaysUnit": "{count, plural, one {nap} other {nap}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Gyors hozzáférés",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Útmutatás",
+  "quickActionPrayerTimes": "Imaidők",
+  "askAyaraTitle": "Kérdezd Ayarát",
+  "askAyaraSubtitle": "Tegyél fel bármilyen iszlám kérdést, és kapj átgondolt, irányított választ.",
+  "askAyaraHint": "pl. Mi a Ramadán jelentősége?",
+  "askAyaraSubmit": "Kérdezés",
+  "wisdomOfTheDayTitle": "A nap bölcsessége",
+  "calendarScreenTitle": "Iszlám naptár",
+  "calendarUpcomingOccasions": "Közelgő alkalmak",
+  "calendarOccasionRemindersTitle": "Alkalom emlékeztetők",
+  "calendarOccasionRemindersHint": "Értesítés az egyes alkalmak előestéjén",
+  "calendarNotifPermissionDenied": "Értesítési engedély megtagadva. Engedélyezd az eszköz beállításaiban.",
+  "calendarNoEvents": "Nem találhatók közelgő események.",
+  "calendarAddToPhone": "Hozzáadás a telefon naptárához",
+  "calendarAddedToPhone": "Hozzáadva a naptárhoz",
+  "calendarCountdownToday": "MA",
+  "calendarCountdownTomorrow": "HOLNAP",
+  "calendarCountdownDays": "{days} nap múlva",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Jan",
+  "calendarMonthFeb": "Feb",
+  "calendarMonthMar": "Már",
+  "calendarMonthApr": "Ápr",
+  "calendarMonthMay": "Máj",
+  "calendarMonthJun": "Jún",
+  "calendarMonthJul": "Júl",
+  "calendarMonthAug": "Aug",
+  "calendarMonthSep": "Szep",
+  "calendarMonthOct": "Okt",
+  "calendarMonthNov": "Nov",
+  "calendarMonthDec": "Dec",
+  "calendarSeasonMuharramEarly": "Muharram napjai — emlékezzünk Karbalára",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — a gyász és elmélkedés napjai",
+  "calendarSeasonArbaeen": "Arbaeen — Husayn negyven napja",
+  "calendarSeasonRoadToArbaeen": "Az út Arbaeen felé",
+  "calendarSeasonMabath": "Mab'ath Mubarak — a kinyilatkoztatás hajnala",
+  "calendarSeasonMidShaban": "Sha'ban közepe — Imam al-Mahdi (AJ) születésnapja",
+  "calendarSeasonRamadan": "Ramadan Mubarak — a Korán hónapja",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Duák és Ziyarat",
+  "duasSearchHint": "Keresés duák, ziyarat…",
+  "duasFilterAll": "Mind",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} dua és ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Nem találhatók duák.",
+  "duaCategoryDaily": "Napi",
+  "duaCategoryWeekly": "Heti",
+  "duaCategoryOccasions": "Alkalmak",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Születés",
+  "eventTypeMartyrdom": "Vértanúság",
+  "eventTypeOccasion": "Alkalom",
+  "duaCopyTooltip": "Fordítás másolása",
+  "duaToggleTransliteration": "Átírás",
+  "duaToggleTranslation": "Fordítás",
+  "duaAskAiLabel": "Kérj magyarázatot Ayarától erről a duáról",
+  "duaAskAiLockedLabel": "Kérdezd Ayarát (Wilaya)",
+  "duaAiLockedMessage": "Az Ayara magyarázatok Wilaya tagok számára érhetők el. Frissíts a Beállításokban.",
+  "duaAiComingSoon": "Kérdezd Ayarát a következőről: \"{name}\" — hamarosan!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua a vágólapra másolva.",
+  "tasbihAllahuAkbarMeaning": "Allah a legnagyobb",
+  "tasbihAlhamdulillahMeaning": "Minden dicsőség Allahé",
+  "tasbihSubhanallahMeaning": "Dicsőség Allahnak",
+  "tasbihResetTooltip": "Visszaállítás",
+  "tasbihCompleteTitle": "Tasbih befejezve",
+  "tasbihCompleteMessage": "Fogadja el Allah a dhikredet.",
+  "tasbihTapHint": "Érintsd meg bárhol a számoláshoz",
+  "tasbihatScreenTitle": "Ima útmutató",
+  "tasbihatScreenSubtitle": "AZ IMA DICSŐÍTÉSEI",
+  "tasbihatScreenDescription": "Teljes útmutató a napi imák alatt és után mondott dicsőítésekhez — az Ahl al-Bayt (a) hagyományát követve.",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "A 3. és 4. rakʿahban mondva",
+  "tasbihatArba3Info": "A síita jogtudomány szerint a Tasbiḥāt al-Arbaʿa helyettesíti az al-Fatiha szúrát a Dhuhr, Asr, Maghrib és Isha 3. és 4. rakʿahjában. Egyszer mondása kötelező (wājib), háromszori mondása pedig ajánlott (mustaḥabb).",
+  "tasbihatArba3Translation": "Dicsőség Allahnak · Minden dicsőség Allahé\nNincs más isten csak Allah · Allah a legnagyobb",
+  "tasbihatArba3CompleteTitle": "Recitáció befejezve",
+  "tasbihatArba3CompleteMessage": "Fogadtassék el az imád — Āmīn",
+  "tasbihatArba3TapHint": "Érintsd meg minden recitáció után",
+  "tasbihatZahraSubtitle": "Minden ima után · 100 gyöngy",
+  "tasbihatZahraOriginLabel": "Eredet",
+  "tasbihatZahraHadith": "Fatima al-Zahra (sa) úrnő egy szolgát kért a Prófétától ﷺ. Ő azt mondta: \"Nem mutatok neked valami jobbat? Mondj Subḥānallāht 33-szor, Alḥamdulillāht 33-szor és Allāhu Akbart 34-szer minden ima után. Ez jobb neked egy szolgánál.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, 85. kötet",
+  "tasbihatZahraOpenCounter": "Tasbīḥ számláló megnyitása",
+  "tasbihatDuasTitle": "AJÁNLOTT DUÁK",
+  "tasbihatDuasSubtitle": "Az ima befejezése után",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Minden kötelező ima után",
+  "tasbihatDuaAyatKursiSource": "Al-Baqarah szúra 2:255",
+  "tasbihatDuaAyatKursiNote": "Aki minden kötelező ima után mondja az Āyat al-Kursīt, semmi sem áll közte és a paradicsom között, csak a halál. Imam al-Bāqir (a) azt mondta, ez a Korán egyik legnagyobb verse.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Minden ima után · minden könyörgést lezár",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "A Próféta ﷺ és megtisztított családja (Āl Muḥammad) üdvözlése ajánlott minden dua lezárásához. Imam al-Ṣādiq (a) mondta: \"Minden dua felfüggesztett, amíg nem küldesz ṣalawāt Muḥammadra és családjára.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Minden ima után · korunk Imámjáért",
+  "tasbihatDuaFarajSource": "Imam al-Ḥasan al-ʿAskarī (a) tanítása",
+  "tasbihatDuaFarajNote": "Egy dua Imam al-Mahdī (af), a tizenkettedik Imám megjelenéséért, amelyet édesapja tanított. A síita hívők naponta mondják minden ima után a jelenlevő Imám iránt érzett odaadás jeleként.",
+  "tasbihatDuaTasbihFatimaTitle": "Lady Fāṭima Tasbīḥja",
+  "tasbihatDuaTasbihFatimaWhen": "Maghrib és Isha után · különösen ajánlott",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) mondta, hogy a Tasbīḥ al-Zahrā mondása Isha után alvás előtt jobb, mint 1000 rakʿah önkéntes ima. Fénye felszáll az égbe.",
+  "tasbihFatimaGiftPre": "A Próféta ajándéka",
+  "tasbihFatimaGiftPost": "minden ima után mondva",
+  "prayerTrackerTitle": "IMA KÖVETŐ",
+  "prayerTrackerPrayed": "Imádkoztam",
+  "prayerTrackerDayStreak": "{count} napos sorozat",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Minden ima elvégezve ma. Fogadja el Allah.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Ma elvégezve",
+  "dhikrTrackerNotDoneToday": "Ma még nem elvégezve",
+  "dhikrTrackerDayStreak": "{count} napos sorozat",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Tasbīḥ emlékeztető",
+  "dhikrReminderDescription": "Egy szelíd napi emlékeztető a Tasbīḥ al-Zahrā (SA) mondásához.",
+  "dhikrReminderEnable": "Tasbīḥ emlékeztető engedélyezése",
+  "dhikrReminderTimeLabel": "Emlékeztető ideje",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Napi Hadith",
+  "hadithLabelArabic": "ARAB",
+  "hadithLabelTranslation": "FORDÍTÁS",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Hadith megosztása",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nAyara közvetítésével",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Előző",
+  "hadithNavNext": "Következő",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "A 14 Maszúm",
+  "imamsScreenSubtitle": "A Próféta, Fatima úrnő és a Tizenkét Imám — az iszlám tévedhetetlen vezetői",
+  "imamLabelBorn": "Született",
+  "imamLabelMartyrdom": "Vértanúság",
+  "imamLabelStatus": "Státusz",
+  "imamSectionBiography": "ÉLETRAJZ",
+  "imamSectionFamousSaying": "HÍRNEVES MONDÁS",
+  "imamRoleProphet": "Az utolsó Próféta",
+  "imamRoleInfallible": "A tévedhetetlen",
+  "imamOrdinal1": "1. Imám",
+  "imamOrdinal2": "2. Imám",
+  "imamOrdinal3": "3. Imám",
+  "imamOrdinal4": "4. Imám",
+  "imamOrdinal5": "5. Imám",
+  "imamOrdinal6": "6. Imám",
+  "imamOrdinal7": "7. Imám",
+  "imamOrdinal8": "8. Imám",
+  "imamOrdinal9": "9. Imám",
+  "imamOrdinal10": "10. Imám",
+  "imamOrdinal11": "11. Imám",
+  "imamOrdinal12": "12. Imám",
+  "duaAudioScreenTitle": "Duák hallgatása",
+  "duaAudioScreenSubtitle": "Válassz egy duát a hallgatáshoz. Érintsd meg a csempét a lejátszáshoz vagy szüneteltetéshez.",
+  "duaAudioComingSoonMessage": "Ennek a duának a hanganyaga egy következő frissítésben lesz elérhető.",
+  "duaAudioClose": "Bezárás",
+  "duaAudioError": "Nem sikerült betölteni a hanganyagot. Kérlek, ellenőrizd a kapcsolatot.",
+  "duaAudioMetaTransmittedBy": "Közvetítette",
+  "duaAudioMetaOccasion": "Alkalom",
+  "duaAudioMetaDuration": "Időtartam",
+  "quickActionDailyHadith": "Napi Hadith",
+  "quickAction14Masumeen": "14 Maszúm",
+  "quickActionListenDuas": "Hallgatás",
+  "quickActionTasbihat": "Ima útmutató",
+  "pilgrimageSectionTitle": "A szent zarándoklat",
+  "pilgrimageSectionSubtitle": "Teljes útmutatók a Hajjhoz és Umrahhoz — a zarándoklat Allah Szent Házához Mekkában",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "Az iszlám ötödik pillére",
+  "hajjCardDescription": "A nagy éves zarándoklat — minden képes muszlim számára egyszer kötelező az életben",
+  "hajjScreenTitle": "Hajj útmutató",
+  "hajjScreenSubtitle": "Lépésről lépésre útmutató a nagy zarándoklathoz",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "A kisebb zarándoklat",
+  "umrahCardDescription": "Egy mélyen jutalmazó spirituális utazás, amely az év bármely szakában elvégezhető",
+  "umrahScreenTitle": "Umrah útmutató",
+  "umrahScreenSubtitle": "Lépésről lépésre útmutató a kisebb zarándoklathoz",
+  "pilgrimageStepsTitle": "Szertartások és lépések",
+  "pilgrimageImportantNotesTitle": "Fontos megjegyzések",
+  "pilgrimageDuaTitle": "Dua ehhez a lépéshez",
+  "pilgrimageJafariNoteTitle": "Ja'fari fiqh megjegyzés",
+  "pilgrimageComplete": "✓ Kész",
+  "pilgrimageMarkDone": "Jelöld meg befejezettnek",
+  "pilgrimageProgress": "{done} a {total} lépésből",
+  "pilgrimageReadTime": "~{minutes} perc",
+  "pilgrimageShiaNoteTitle": "Síita zarándokok",
+  "pilgrimageShiaNoteBody": "A síita zarándokok hagyományosan Medinába is utaznak, hogy meglátogassák Mohamed Próféta (SAW) sírját a Masjid al-Nabawinál, és az Imámok sírjait a Jannat al-Baqinál. Ezek a látogatások hatalmas spirituális jelentőséggel bírnak és a legtöbb síita muszlim számára az utazás szerves részének tekintendők.",
+  "hajjIntro": "A Hajj az iszlám ötödik pillére, amely egyszer kötelező minden fizikailag és anyagilag képes muszlim számára az életben. A Dhul Hijjah hónapban elvégezve, Ibrahim próféta (AS), fia Ismail (AS) és Hajar úrnő nyomdokait követi. A síita muszlimok számára a Hajj magában foglalja a Próféta (SAW) és az Ahlul Bayt medinai nyughelyeinek meglátogatásának mélységes áldását is.",
+  "umrahIntro": "Az Umrah a kisebb zarándoklat Mekkába, és a Hajjtól eltérően az év bármely szakában elvégezhető. Bár nem kötelező, hatalmas spirituális jutalommal jár és rendkívül ajánlott imádati cselekedetnek tekintendő. Több szertartást oszt meg a Hajjal, de rövidebb, és négy fő rituáléból áll."
 }

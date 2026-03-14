@@ -16,6 +16,7 @@ import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 
 import 'core/config/env.dart';
 import 'core/config/theme.dart';
+import 'core/services/content_repository.dart';
 import 'core/services/locale_service.dart';
 import 'package:ayara/l10n/app_localizations.dart';
 import 'package:ayara/core/services/sound_service.dart';
@@ -250,6 +251,8 @@ class _AyaraAppState extends State<AyaraApp> {
       final chosen = LocaleService.toLocale(tag!);
       _locale = _coerceToSupportedLocale(chosen);
 
+      ContentRepository.instance.setLocale(_locale!.languageCode);
+
       FirebaseAuth.instance
           .setLanguageCode(_locale!.languageCode)
           .catchError((_) {});
@@ -274,6 +277,8 @@ class _AyaraAppState extends State<AyaraApp> {
     final supported = _coerceToSupportedLocale(locale);
 
     await LocaleService.setSavedLocaleCode(LocaleService.toTag(supported));
+
+    ContentRepository.instance.setLocale(supported.languageCode);
 
     try {
       await FirebaseAuth.instance.setLanguageCode(supported.languageCode);

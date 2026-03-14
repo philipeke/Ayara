@@ -1,12 +1,17 @@
 // lib/features/duas/dua_detail_screen.dart
 
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/core/services/sound_service.dart';
+import 'package:ayara/features/chat/services/chat_service.dart';
 import 'package:ayara/features/limit/usage_service.dart';
+import 'package:ayara/features/qibla/ask_result_screen.dart';
 import 'package:ayara/l10n/app_localizations.dart';
 import 'dua_model.dart';
 
@@ -40,6 +45,7 @@ class _DuaReaderScreen extends StatefulWidget {
 class _DuaReaderScreenState extends State<_DuaReaderScreen> {
   bool _showTransliteration = true;
   bool _showTranslation = true;
+  bool _aiLoading = false;
 
   @override
   Widget build(BuildContext context) {
@@ -198,13 +204,21 @@ class _DuaReaderScreenState extends State<_DuaReaderScreen> {
           return SizedBox(
             width: double.infinity,
             child: OutlinedButton.icon(
-              onPressed: () => _askAi(context, t, dua, isPremium),
-              icon: Icon(
-                Icons.auto_awesome_rounded,
-                size: 18,
-                color:
-                    isPremium ? AppColors.goldBright : AppColors.textMuted,
-              ),
+              onPressed: _aiLoading ? null : () => _askAi(context, t, dua, isPremium),
+              icon: _aiLoading
+                  ? SizedBox(
+                      width: 16,
+                      height: 16,
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2,
+                        color: isPremium ? AppColors.goldBright : AppColors.textMuted,
+                      ),
+                    )
+                  : Icon(
+                      Icons.auto_awesome_rounded,
+                      size: 18,
+                      color: isPremium ? AppColors.goldBright : AppColors.textMuted,
+                    ),
               label: Text(
                 isPremium ? t.duaAskAiLabel : t.duaAskAiLockedLabel,
               ),
@@ -233,18 +247,52 @@ class _DuaReaderScreenState extends State<_DuaReaderScreen> {
     );
   }
 
-  void _askAi(BuildContext context, AppLocalizations t, DuaEntry dua,
-      bool isPremium) {
+  Future<void> _askAi(BuildContext ctx, AppLocalizations t, DuaEntry dua,
+      bool isPremium) async {
     if (!isPremium) {
-      ScaffoldMessenger.of(context).showSnackBar(
+      ScaffoldMessenger.of(ctx).showSnackBar(
         SnackBar(content: Text(t.duaAiLockedMessage)),
       );
       return;
     }
-    // TODO: integrate with ChatService — pass dua context as a pre-filled prompt
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text(t.duaAiComingSoon(dua.nameEn))),
+    if (_aiLoading) return;
+
+    final translationSnippet = dua.sections
+        .take(3)
+        .map((s) {
+          final title = s.sectionTitle != null ? '[${s.sectionTitle}]\n' : '';
+          return '$title${s.translation.trim()}';
+        })
+        .join('\n\n')
+        .trim();
+
+    final prompt =
+        'Explain this supplication from the Twelver Shia Islamic tradition:\n\n'
+        'Name: ${dua.nameEn} (${dua.nameAr})\n'
+        'Transmitted by: ${dua.taughtBy}\n'
+        'When recited: ${dua.recommendedTime}\n\n'
+        'Translation:\n$translationSnippet\n\n'
+        'Explain its spiritual significance, the virtue or state of heart it cultivates, '
+        "and what the believer should hold in their heart while reciting it — "
+        "drawing from the Qur'an and the teachings of the Ahl al-Bayt (peace be upon them).";
+
+    SoundService.instance.playAskAyara();
+    setState(() => _aiLoading = true);
+    await Navigator.of(ctx).push(
+      PageRouteBuilder<void>(
+        opaque: false,
+        transitionDuration: const Duration(milliseconds: 400),
+        pageBuilder: (_, __, ___) => _DuaAiLoadingScreen(
+          duaName: dua.nameEn,
+          duaNameAr: dua.nameAr,
+          prompt: prompt,
+          accentColor: _accentFor(dua.category),
+        ),
+        transitionsBuilder: (_, anim, __, child) =>
+            FadeTransition(opacity: anim, child: child),
+      ),
     );
+    if (mounted) setState(() => _aiLoading = false);
   }
 
   void _copyAll(BuildContext context, AppLocalizations t, DuaEntry dua) {
@@ -797,4 +845,321 @@ class _TasbihPhase {
     required this.transliteration,
     required this.count,
   });
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// AI loading screen — shown while Ayara is consulting the teachings
+// ─────────────────────────────────────────────────────────────────────────────
+
+class _DuaAiLoadingScreen extends StatefulWidget {
+  final String duaName;
+  final String duaNameAr;
+  final String prompt;
+  final Color accentColor;
+
+  const _DuaAiLoadingScreen({
+    required this.duaName,
+    required this.duaNameAr,
+    required this.prompt,
+    required this.accentColor,
+  });
+
+  @override
+  State<_DuaAiLoadingScreen> createState() => _DuaAiLoadingScreenState();
+}
+
+class _DuaAiLoadingScreenState extends State<_DuaAiLoadingScreen>
+    with TickerProviderStateMixin {
+  late final AnimationController _rotateCtrl = AnimationController(
+    vsync: this,
+    duration: const Duration(seconds: 6),
+  )..repeat();
+
+  late final AnimationController _pulseCtrl = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 1800),
+  )..repeat();
+
+  late final Animation<double> _pulse1 = CurvedAnimation(
+    parent: _pulseCtrl,
+    curve: Curves.easeOut,
+  );
+
+  late final Animation<double> _pulse2 = CurvedAnimation(
+    parent: _pulseCtrl,
+    curve: const Interval(0.35, 1.0, curve: Curves.easeOut),
+  );
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _run());
+  }
+
+  @override
+  void dispose() {
+    _rotateCtrl.dispose();
+    _pulseCtrl.dispose();
+    super.dispose();
+  }
+
+  Future<void> _run() async {
+    try {
+      final response =
+          await ChatService.sendPrompt(widget.prompt, context: context);
+      if (!mounted) return;
+      await Navigator.of(context).pushReplacement(
+        PageRouteBuilder<void>(
+          transitionDuration: const Duration(milliseconds: 500),
+          pageBuilder: (_, __, ___) => AskResultScreen(
+            question: '${widget.duaName}  •  ${widget.duaNameAr}',
+            response: response,
+          ),
+          transitionsBuilder: (_, anim, __, child) =>
+              FadeTransition(opacity: anim, child: child),
+        ),
+      );
+    } catch (_) {
+      if (!mounted) return;
+      Navigator.of(context).pop();
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(AppLocalizations.of(context).genericErrorSnack),
+        ),
+      );
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: AppColors.deepNavy,
+      body: Stack(
+        children: [
+          // Background gradient
+          const Positioned.fill(
+            child: DecoratedBox(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [AppColors.navy, AppColors.deepNavy, AppColors.navyDeep],
+                  stops: [0.0, 0.5, 1.0],
+                ),
+              ),
+            ),
+          ),
+
+          // Ambient gold glow
+          Positioned.fill(
+            child: IgnorePointer(
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  gradient: RadialGradient(
+                    radius: 0.65,
+                    colors: [
+                      AppColors.gold.withValues(alpha: 0.10),
+                      Colors.transparent,
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ),
+
+          // Center content
+          Center(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // Pulsing rings + rotating star
+                SizedBox(
+                  width: 160,
+                  height: 160,
+                  child: Stack(
+                    alignment: Alignment.center,
+                    children: [
+                      // Outer pulse ring 1
+                      AnimatedBuilder(
+                        animation: _pulse1,
+                        builder: (_, __) => Opacity(
+                          opacity: (1.0 - _pulse1.value).clamp(0.0, 1.0),
+                          child: SizedBox(
+                            width: 60 + 100 * _pulse1.value,
+                            height: 60 + 100 * _pulse1.value,
+                            child: DecoratedBox(
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(
+                                  color: AppColors.gold.withValues(alpha: 0.45),
+                                  width: 1.5,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                      // Outer pulse ring 2 (offset phase)
+                      AnimatedBuilder(
+                        animation: _pulse2,
+                        builder: (_, __) => Opacity(
+                          opacity: (1.0 - _pulse2.value).clamp(0.0, 1.0),
+                          child: SizedBox(
+                            width: 60 + 100 * _pulse2.value,
+                            height: 60 + 100 * _pulse2.value,
+                            child: DecoratedBox(
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(
+                                  color: widget.accentColor.withValues(alpha: 0.35),
+                                  width: 1.0,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                      // Inner glow circle
+                      Container(
+                        width: 72,
+                        height: 72,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: AppColors.gold.withValues(alpha: 0.08),
+                          border: Border.all(
+                            color: AppColors.gold.withValues(alpha: 0.40),
+                            width: 1.5,
+                          ),
+                          boxShadow: [
+                            BoxShadow(
+                              color: AppColors.gold.withValues(alpha: 0.20),
+                              blurRadius: 24,
+                              spreadRadius: 4,
+                            ),
+                          ],
+                        ),
+                      ),
+                      // Rotating star
+                      AnimatedBuilder(
+                        animation: _rotateCtrl,
+                        builder: (_, child) => Transform.rotate(
+                          angle: _rotateCtrl.value * 2 * math.pi,
+                          child: child,
+                        ),
+                        child: const Icon(
+                          Icons.auto_awesome_rounded,
+                          color: AppColors.goldBright,
+                          size: 30,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+
+                const SizedBox(height: 36),
+
+                // Dua name
+                Text(
+                  widget.duaNameAr,
+                  textDirection: TextDirection.rtl,
+                  style: const TextStyle(
+                    color: AppColors.gold,
+                    fontSize: 22,
+                    fontFamily: 'Arial',
+                    height: 1.5,
+                    letterSpacing: 0.3,
+                  ),
+                ).animate().fadeIn(duration: 500.ms),
+
+                const SizedBox(height: 8),
+
+                Text(
+                  widget.duaName,
+                  style: GoogleFonts.cinzel(
+                    color: Colors.white.withValues(alpha: 0.55),
+                    fontSize: 13,
+                    fontWeight: FontWeight.w600,
+                    letterSpacing: 0.8,
+                  ),
+                ).animate().fadeIn(duration: 500.ms, delay: 100.ms),
+
+                const SizedBox(height: 32),
+
+                // Loading label with shimmer dots
+                _ShimmerDots().animate().fadeIn(duration: 400.ms, delay: 200.ms),
+              ],
+            ),
+          ),
+        ],
+      ),
+    ).animate().fadeIn(duration: 300.ms);
+  }
+}
+
+class _ShimmerDots extends StatefulWidget {
+  @override
+  State<_ShimmerDots> createState() => _ShimmerDotsState();
+}
+
+class _ShimmerDotsState extends State<_ShimmerDots>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _ctrl = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 1200),
+  )..repeat();
+
+  @override
+  void dispose() {
+    _ctrl.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Text(
+          'Consulting the teachings',
+          style: TextStyle(
+            color: Colors.white.withValues(alpha: 0.50),
+            fontSize: 13,
+            fontStyle: FontStyle.italic,
+            letterSpacing: 0.2,
+          ),
+        ),
+        const SizedBox(width: 2),
+        AnimatedBuilder(
+          animation: _ctrl,
+          builder: (_, __) {
+            final v = _ctrl.value;
+            return Row(
+              mainAxisSize: MainAxisSize.min,
+              children: List.generate(3, (i) {
+                final threshold = i / 3.0;
+                final opacity = v >= threshold
+                    ? ((v - threshold) * 3).clamp(0.0, 1.0)
+                    : 0.15;
+                return Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 1.5),
+                  child: Opacity(
+                    opacity: opacity,
+                    child: Text(
+                      '.',
+                      style: TextStyle(
+                        color: AppColors.gold,
+                        fontSize: 18,
+                        height: 0.9,
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                  ),
+                );
+              }),
+            );
+          },
+        ),
+      ],
+    );
+  }
 }

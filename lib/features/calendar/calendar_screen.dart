@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
+import 'package:add_2_calendar/add_2_calendar.dart';
 import 'package:ayara/core/config/theme.dart';
 import 'package:ayara/features/home/home_shell.dart';
 import 'package:ayara/features/calendar/calendar_service.dart';
@@ -69,12 +70,25 @@ class _CalendarScreenState extends State<CalendarScreen> {
   bool _notificationsEnabled = false;
   bool _notifBusy = false;
   late List<ResolvedShiaEvent> _events;
+  final ScrollController _scrollController = ScrollController();
 
   @override
   void initState() {
     super.initState();
     _events = CalendarService.upcomingEvents(withinDays: 365);
     _loadNotifPref();
+    // Always start at the top when screen is (re)created
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (_scrollController.hasClients) {
+        _scrollController.jumpTo(0);
+      }
+    });
+  }
+
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
   }
 
   Future<void> _loadNotifPref() async {
@@ -109,6 +123,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
     return Scaffold(
       backgroundColor: AppColors.deepNavy,
       body: CustomScrollView(
+        controller: _scrollController,
         slivers: [
           _buildAppBar(context, t),
           SliverToBoxAdapter(child: _buildHijriHeader(context, t)),
@@ -463,7 +478,7 @@ class _EventTile extends StatelessWidget {
       context: context,
       isScrollControlled: true,
       backgroundColor: Colors.transparent,
-      builder: (_) => _EventDetailSheet(resolved: resolved, event: resolved.event),
+      builder: (_) => EventDetailSheet(resolved: resolved, event: resolved.event),
     );
   }
 }
@@ -500,15 +515,37 @@ class _CountdownBadge extends StatelessWidget {
 
 // ─────────────────────────────────────────────────────────────────────────────
 
-class _EventDetailSheet extends StatelessWidget {
+class EventDetailSheet extends StatefulWidget {
   final ResolvedShiaEvent resolved;
   final ShiaEvent event;
 
-  const _EventDetailSheet({required this.resolved, required this.event});
+  const EventDetailSheet({super.key, required this.resolved, required this.event});
+
+  @override
+  State<EventDetailSheet> createState() => _EventDetailSheetState();
+}
+
+class _EventDetailSheetState extends State<EventDetailSheet> {
+  bool _added = false;
+
+  void _addToCalendar() {
+    final date = widget.resolved.gregorianDate;
+    final calEvent = Event(
+      title: widget.event.nameEn,
+      description: widget.event.description,
+      startDate: DateTime(date.year, date.month, date.day),
+      endDate: DateTime(date.year, date.month, date.day),
+      allDay: true,
+    );
+    Add2Calendar.addEvent2Cal(calEvent);
+    setState(() => _added = true);
+  }
 
   @override
   Widget build(BuildContext context) {
     final t = AppLocalizations.of(context);
+    final event = widget.event;
+    final resolved = widget.resolved;
     final isMartyrdom = event.type == ShiaEventType.martyrdom;
     final isBirth     = event.type == ShiaEventType.birth;
 
@@ -608,6 +645,29 @@ class _EventDetailSheet extends StatelessWidget {
                       color: AppColors.textDim,
                       height: 1.65,
                     ),
+              ),
+              const SizedBox(height: 24),
+              SizedBox(
+                width: double.infinity,
+                child: OutlinedButton.icon(
+                  onPressed: _added ? null : _addToCalendar,
+                  icon: Icon(
+                    _added ? Icons.check_circle_rounded : Icons.calendar_month_rounded,
+                    size: 18,
+                  ),
+                  label: Text(_added ? t.calendarAddedToPhone : t.calendarAddToPhone),
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: _added ? AppColors.emeraldBright : accent,
+                    side: BorderSide(
+                      color: (_added ? AppColors.emeraldBright : accent)
+                          .withValues(alpha: 0.5),
+                    ),
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(14),
+                    ),
+                  ),
+                ),
               ),
             ],
           ),

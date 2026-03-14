@@ -1,80 +1,42 @@
 {
   "@@locale": "sv",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "Välj ditt språk",
   "languageSelectSub": "Du kan ändra detta senare i Inställningar",
   "actionContinue": "Fortsätt",
-  "languageSuggestedHeader": "Rekommenderat",
+  "languageSuggestedHeader": "Rekommenderad",
   "languageAllHeader": "Alla språk",
-  "languageSuggestedBadge": "Rekommenderat",
+  "languageSuggestedBadge": "Rekommenderad",
   "languageSearchHint": "Sök…",
-
-  "planGrace": "Standard",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Daglig vägledning",
-  "categoryFaithTrust": "Iman & Tillit",
-  "categoryPrayerReflection": "Bönereflektion",
-  "categoryHopeDifficultTimes": "Tålamod & Hopp",
-  "categoryForgiveness": "Sök Förlåtelse",
-  "categoryLoveCompassion": "Barmhärtighet & Medkänsla",
-  "categoryStrengthCourage": "Tro & Styrka",
-  "categoryGratitude": "Tacksamt hjärta",
-  "categoryPurposeCalling": "Livets syfte",
-  "categoryFamilyRelationships": "Familjeband",
-  "categoryPeaceAnxietyRelief": "Inre fred",
-  "categoryWisdomOfJesus": "Profeternas visdom",
-  "categoryHumilityCharacter": "Gott karaktär",
-  "categoryOvercomingTemptation": "Motstå frestelse",
-  "categoryEveningReflection": "Aftonens dhikr",
-  "categoryCustom": "Personlig Reflektion",
-  "dhikrMeaningSubhanallah": "Ära vara Allah",
-  "dhikrMeaningAlhamdulillah": "All beröm tillhör Allah",
-  "dhikrMeaningAllahuAkbar": "Allah är den Största",
-  "quranVerseHeartAtRest": "Sannerligen, i minnet av Allah finner hjärtan vila.",
-
+  "planBasic": "Standard",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Daglig vägledning",
+  "categorySlot02": "Tro & tillit",
+  "categorySlot03": "Bönereflektion",
+  "categorySlot04": "Tålamod & hopp",
+  "categorySlot05": "Söka förlåtelse",
+  "categorySlot06": "Barmhärtighet & medkänsla",
+  "categorySlot07": "Tro & styrka",
+  "categorySlot08": "Tacksamt hjärta",
+  "categorySlot09": "Livets syfte",
+  "categorySlot10": "Familjeband",
+  "categorySlot11": "Inre fred",
+  "categorySlot12": "Profetisk visdom",
+  "categorySlot13": "God karaktär",
+  "categorySlot14": "Motstå frestelse",
+  "categorySlot15": "Kvällsdhikr",
+  "categoryCustom": "Personlig reflektion",
+  "dhikrMeaningSubhanallah": "Ära vare Allah",
+  "dhikrMeaningAlhamdulillah": "All ära tillhör Allah",
+  "dhikrMeaningAllahuAkbar": "Allah är den största",
+  "quranVerseHeartAtRest": "Sannerligen, i Allahs påminnelse finner hjärten ro.",
   "promptHint": "Tryck på en kategori för islamisk vägledning och reflektion",
-
-  "currentLanguage": "Nuvarande språk",
+  "currentLanguage": "Aktuellt språk",
   "settingsLanguage": "Språkinställningar",
   "settingsTitle": "Inställningar",
   "chooseLanguage": "Välj ditt språk",
   "continueCta": "Fortsätt",
-
-  "promptDailyGuidance": "Skriv en kort, praktisk daglig vägledning rotad i sunnistisk islamisk tro — grundad i Koranen, Hadith och profeten Muhammads läror. Välj en ny vinkel varje gång: en dygd från islamisk etik, en sanning från Sunna, visdom från Profetens följeslagare, eller en tyst övning från islamisk tradition. Inkludera en Koranvers (Sura:Vers) och en 1–2 menings reflektion att bära med dig genom dagen. Anslut gärna den till den islamiska kalendern eller ett viktigt datum om det är relevant.",
-
-  "promptFaithTrust": "Skriv en kort islamisk reflektion om Iman (tro) och tillit till Allahs plan (Tawakkul). Förankra den i Koranen, profeten Muhammads exempel och Sahaba-följeslagarnas tro. Variera temat varje gång: att lita på Allah under osäkerhet, att förlita sig på gudomlig visdom, tålamod i prövningar, eller tyst uthållighet i vardagen. Inkludera en Koranvers och ett ärligt steg för idag från islamisk andlig visdom.",
-
-  "promptPrayerReflection": "Skriv en kort islamisk bönereflektion rotad i Salah, Dua eller Dhikr. Variera formen varje gång: en morgon- eller aftonpåminnelse (Adhkar), reflektion över de fem dagliga bönen, kontemplation av en Koranvers, eller en hjärtfelt bön. Inkludera en Koranvers och nämn kort böneformen som användes.",
-
-  "promptHopeDifficultTimes": "Skriv en islamisk reflektion om tålamod (Sabr) och hopp under svårigheter. Dra från Koranska läror om prövningar, profeternas uthållighet och Allahs barmhärtighet i svåra stunder. Variera vinkeln varje gång. Inkludera en Koranvers och ett uppmuntrande perspektiv från islamisk tradition.",
-
-  "promptForgiveness": "Skriv en vis islamisk reflektion om att söka förlåtelse (Tawbah) och Allahs barmhärtighet. Dra från Koranska läror om omvändelse, Allahs medkänsla och profeten Muhammads förlåtande exempel. Variera temat: att återvända till Allah, att förlåta andra, läka relationer, eller tro på Allahs barmhärtighet efter misstag. Inkludera en Koranvers och ett konkret steg.",
-
-  "promptLoveCompassion": "Skriv en kort islamisk reflektion om barmhärtighet (Rahmah) och medkänsla i vardagen. Dra från profeten Muhammads exempel, konceptet Ihsan (förträfflighet) och islamiska läror om vänlighet mot familj, grannar och sårbara. Inkludera en Koranvers och en liten aktning av medkänsla att öva idag.",
-
-  "promptStrengthCourage": "Skriv en islamisk reflektion om trosbaserad styrka och mod. Dra från exemplen på profeter, den tidiga muslimska gemenskapen och troende som förblev fasta under svårigheter. Variera temat varje gång: mod genom tro, styrka i bön, tillit till Allah under rädsla, eller motståndskraft i svårighet. Inkludera en Koranvers och en kort böneformulering eller påminnelsefras.",
-
-  "promptGratitude": "Skriv en islamisk reflektion om tacksamhet (Shukr) gentemot Allah. Förankra den i Koransk läring och profetisk tradition. Variera vinkeln: tacksamhet i svårighet, uppskattning av små välsignelser, att börja dagen med lovord till Allah, eller att känna igen Allahs vägledning i dagligt liv. Inkludera en Koranvers och en tacksamhetspraxis.",
-
-  "promptPurposeCalling": "Skriv en islamisk reflektion om livets syfte i att tjäna Allah och leva rättfärdigt. Dra från Koranska läror om syfte, tjänande av andra och användning av sina gåvor för gott. Variera temat varje gång: att tjäna familj och samhälle, att söka vägledning genom Istikhara, att leva med avsikt, eller att finna mening i vanligt arbete. Inkludera en Koranvers och två reflekterande frågor.",
-
-  "promptFamilyRelationships": "Skriv vis islamisk vägledning om familj och relationer rotad i Koransk läring och profeten Muhammads exempel. Variera temat varje gång: vänlighet i familjelivet, tålamod i konflikt, att hedra föräldrar, att uppfostra barn i tron, eller att stärka äktenskapet. Inkludera en Koranvers och en relationell praxis att försöka.",
-
-  "promptPeaceAnxietyRelief": "Skriv en lugnande islamisk reflektion om att finna inre fred genom Allahs påminnelse (Dhikr) och tillit till Hans plan. Dra från Koranska läror om hjärtats lugn, bön och övergifvelse till Allahs vilja. Variera tillvägagångssättet varje gång och inkludera en Koranvers och en enkel jordningsövning från islamisk tradition.",
-
-  "promptWisdomOfJesus": "Skriv en kort visdomstext från profeter så som läras i Islam. Dra från Koranen eller Hadith och förklara kort hur islamiska lärde män har förstått läran. Variera ämnet varje gång: karaktär, tålamod, ödmjukhet, tro eller dagligt leverne. Inkludera en Koranvers eller Hadith-referens och en praktisk tillämpning.",
-
-  "promptHumilityCharacter": "Skriv en islamisk reflektion om ödmjukhet (Tawadhu) och gott karaktär (Akhlaq). Dra från Koranska läror, profeten Muhammads exempel och traditionen för islamisk karakterutveckling. Variera temat: ödmjukhet i ledarskap, att erkänna misstag, att behandla andra med respekt, eller att växa andligt genom självreflektion. Inkludera en Koranvers och en vana att öva.",
-
-  "promptOvercomingTemptation": "Skriv en islamisk reflektion om att motstå frestelse och stanna på den rätta vägen. Dra från Koransk vägledning, Allahs påminnelse (Dhikr), bön (Salah) och exempel på troende som övervann kamp. Variera vinkeln varje gång. Inkludera en Koranvers och en praktisk strategi för de nästa 24 timmarna.",
-
-  "promptEveningReflection": "Skriv en fredlig islamisk aftonreflektion rotad i traditionen för aftonpåminnelse (Adhkar al-Masaa'). Uppmuntra tacksamhet, självreflektion (Muhasabah) och tillit till Allah före vila. Inkludera 3–5 korta reflektionsfrågor om dagen, en kort avslutande böneformulering och en Koranvers.",
-
   "wordCount": "{count, plural, one {{count} ord} other {{count} ord}}",
-
   "optionsCta": "Alternativ",
   "newCta": "Ny",
   "actionsTitle": "Vad vill du göra?",
@@ -82,47 +44,47 @@
   "share": "Dela",
   "close": "Stäng",
   "copiedToast": "Kopierad till urklipp",
-
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Email / share subject line including the category label.",
+    "description": "E-post / delningsämnesrad inklusive kategorietikett.",
     "placeholders": {
-      "category": { "type": "String", "example": "Daglig vägledning" }
+      "category": {
+        "type": "String",
+        "example": "Daglig vägledning"
+      }
     }
   },
-
   "regenerateErrorTitle": "Kunde inte generera ett nytt svar",
   "regenerateErrorBody": "{error}\n\nVill du försöka igen?",
   "@regenerateErrorBody": {
-    "description": "Shown when regenerating an AI answer fails.",
+    "description": "Visas när omgenereringen av ett AI-svar misslyckas.",
     "placeholders": {
-      "error": { "type": "String", "example": "Nätverksfel" }
+      "error": {
+        "type": "String",
+        "example": "Nätverksfel"
+      }
     }
   },
-
   "cancelCta": "Avbryt",
   "retryCta": "Försök igen",
-
   "authTitle": "Skapa ditt konto",
   "continueAsGuest": "Fortsätt som gäst",
   "signInGoogle": "Logga in med Google",
   "signInApple": "Logga in med Apple",
   "signInEmail": "Logga in med e-post",
   "upgradeWithApple": "Fortsätt med Apple",
-  "mustAccept": "Du måste acceptera villkoren och bekräfta integritetspolicyn.",
+  "mustAccept": "Du måste acceptera villkoren och godkänna sekretesspolicyn.",
   "termsLabel": "Jag accepterar användarvillkoren",
-  "privacyLabel": "Jag har läst integritetspolicyn",
-  "marketingOptIn": "Jag samtycker till att få nyheter och erbjudanden",
+  "privacyLabel": "Jag har läst sekretesspolicyn",
+  "marketingOptIn": "Jag samtycker till att motta nyheter och erbjudanden",
   "openTerms": "Användarvillkor",
-  "openPrivacy": "Integritetspolicy",
-
+  "openPrivacy": "Sekretesspolicy",
   "accountSection": "Konto",
   "guestMode": "Gästläge",
   "signedIn": "Inloggad",
   "upgradeHint": "Spara dina reflektioner på flera enheter genom att skapa ett konto.",
   "upgradeWithGoogle": "Fortsätt med Google",
   "signOut": "Logga ut",
-
   "snackUpgraded": "Konto uppgraderat med Google ✅",
   "snackSignedIn": "Inloggad med Google ✅",
   "snackSignedOut": "Utloggad",
@@ -130,401 +92,209 @@
   "snackSignedInGoogle": "Inloggad med Google ✅",
   "snackUpgradedApple": "Konto uppgraderat med Apple ✅",
   "snackUpgradedGoogle": "Konto uppgraderat med Google ✅",
-
   "historyTitle": "Tidigare reflektioner",
   "historyOpenCta": "Tidigare reflektioner",
-  "historyEmpty": "Inga sparade reflektioner ännu.",
-  "historyDeleteTitle": "Ta bort reflektion?",
-  "historyDeleteBody": "Detta tar permanent bort det valda objektet.",
-  "deleteCta": "Ta bort",
-
+  "historyEmpty": "Inga sparade reflektioner än.",
+  "historyDeleteTitle": "Radera reflektion?",
+  "historyDeleteBody": "Detta raderar permanentligen det valda objektet.",
+  "deleteCta": "Radera",
   "historyButton": "Tidigare reflektioner",
-  "historyEmptyTitle": "Inga reflektioner ännu",
+  "historyEmptyTitle": "Inga reflektioner än",
   "historyEmptyBody": "Generera något först — dina sparade objekt visas här.",
-  "historyDelete": "Ta bort",
-
-  "footerTitle": "Med Iman, sabr och rahma.",
-  "footerSubtitle": "Ett steg i taget.",
+  "historyDelete": "Radera",
+  "footerTitle": "Med Wilaya, Iman och Sabr",
+  "footerSubtitle": "En bön i taget",
   "genericErrorSnack": "Något gick fel — försök igen om en stund.",
-
   "upgradeAccountCta": "Spara dina reflektioner på flera enheter – skapa ett konto",
-  "deleteAccount": "Ta bort konto",
+  "deleteAccount": "Radera konto",
   "exportData": "Exportera mina data",
-
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Label before showing the internal Firebase UID.",
+    "description": "Etikett före Firebase UID.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Lugn ned 🐯\nAI behöver en stund innan nästa…",
-  "rateDailyLimit": "Du är slut på reflektioner just nu.\nFå fler reflektioner eller uppgradera till Barakah.",
-  "rateCreditsExhausted": "Du har använt alla dina reflektioner.\nFylla på eller uppgradera till Barakah för att fortsätta.",
-  "rateGraceReflectionsExhausted": "Du är slut på reflektioner just nu.\nFå fler reflektioner eller uppgradera till Barakah.",
-  "rateReflectionsExhausted": "Du har använt alla dina reflektioner.\nFylla på eller uppgradera till Barakah för att fortsätta.",
-
-  "blessedDescription": "Barakah låser upp premiumfunktioner, framtida kategorier och ett speciellt märke.",
-  "championDescription": "Barakah låser upp premiumfunktioner, framtida kategorier och ett speciellt märke.",
-
+  "rateLocalThrottle": "Det är gott själv 🐯\nAyara behöver en stund innan nästa…",
+  "rateDailyLimit": "Du är slut på reflektioner för nu.\nFå fler reflektioner eller uppgradera till Wilaya.",
+  "rateCreditsExhausted": "Du har använt alla dina reflektioner.\nFyll på eller uppgradera till Wilaya för att fortsätta.",
+  "rateGraceCreditsExhausted": "Du är slut på reflektioner för nu.\nFå fler reflektioner eller uppgradera till Wilaya.",
+  "premiumDescription": "Wilaya låser upp premiumfunktioner, framtida kategorier och en speciell badge.",
   "ratePlanExhausted": "Dina reflektioner är tomma just nu. Plan: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "description": "Visas när användarens reflektioner är slut men anledningen är generisk.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard eller Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard eller Wilaya"
+      }
     }
   },
-
   "rateCheckFailed": "Kunde inte kontrollera dina reflektioner: {message}",
   "@rateCheckFailed": {
-    "description": "Shown when the callable function returns an error message.",
+    "description": "Visas när funktionen returnerar ett felmeddelande.",
     "placeholders": {
-      "message": { "type": "String", "example": "Nätverksfel" }
+      "message": {
+        "type": "String",
+        "example": "Nätverksfel"
+      }
     }
   },
-
-  "rateCheckGenericError": "Något gick fel vid kontroll av dina reflektioner.",
+  "rateCheckGenericError": "Något gick fel när dina reflektioner kontrollerades.",
   "aiFallbackGeneric": "Något gick fel — försök igen om en stund.",
-
   "limitSectionTitle": "Reflektioner",
   "limitTodayLabel": "Användning",
   "limitCreditsLabel": "Återstående reflektioner: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "Plan: {plan}",
   "@limitPlanLabel": {
-    "description": "Shows the current subscription plan name.",
+    "description": "Visar det aktuella prenumerationsplannamnet.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard eller Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard eller Wilaya"
+      }
     }
   },
   "limitLoadingLabel": "Läser in…",
-  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
-
+  "limitLoadingLabelDescription": "Visas i reflektionskort medan användningsstatistik hämtas.",
   "aiLimitTitle": "Reflektioner",
-  "aiLimitSubtitle": "Varje svar använder 1 reflektion. Standard inkluderar startreflektioner. Barakah låser upp premiumkategorier och aktiverar påfyllning.",
-  "aiLimitProgressLabel": "{used} / {total} reflektioner använd",
+  "aiLimitSubtitle": "Varje svar använder 1 reflektion. Standard inkluderar startreflektioner. Wilaya låser upp premiumkategorier och möjliggör påfyllning.",
+  "aiLimitProgressLabel": "{used} / {total} reflektioner använt",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Reflektioner",
-  "reflectionsUsageLabel": "Användning",
-  "reflectionsRemainingLabel": "Återstående reflektioner: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Plan: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Shows the current plan name.",
+  "creditsSectionTitle": "Reflektioner",
+  "creditsUsageLabel": "Användning",
+  "creditsRemainingLabel": "Återstående reflektioner: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard eller Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Läser in…",
-  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
-
-  "reflectionsTitle": "Reflektioner",
-  "reflectionsSubtitle": "Varje svar använder 1 reflektion. Standard inkluderar startreflektioner. Barakah låser upp premiumkategorier och aktiverar påfyllning.",
-  "reflectionsProgressLabel": "{used} / {total} reflektioner använd",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Plan: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Visar det aktuella plannamnet.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standard eller Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Läser in…",
+  "creditsLoadingLabelDescription": "Visas medan reflektionsstatistik hämtas.",
+  "creditsTitle": "Reflektioner",
+  "creditsSubtitle": "Varje svar använder 1 reflektion. Standard inkluderar startreflektioner. Wilaya låser upp premiumkategorier och möjliggör påfyllning.",
+  "creditsProgressLabel": "{used} / {total} reflektioner använt",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "Ta bort konto",
-  "settingsDeleteDescription": "Ta permanent bort ditt konto och all tillhörande data.",
-  "settingsDeleteButtonLabel": "Ta bort mitt konto",
-  "settingsDeleteDialogTitle": "Ta bort konto?",
-  "settingsDeleteDialogBody": "Detta är permanent och kan inte ångras.\n\nAlla dina chattar, historik och kontoinformation kommer att raderas.",
+  "settingsDeleteTitle": "Radera konto",
+  "settingsDeleteDescription": "Radera ditt konto och all tillhörande data permanent.",
+  "settingsDeleteButtonLabel": "Radera mitt konto",
+  "settingsDeleteDialogTitle": "Radera konto?",
+  "settingsDeleteDialogBody": "Denna åtgärd är permanent och kan inte ångras.\n\nAlla dina chattes, historik och kontoinformation raderas.",
   "settingsDeleteDialogCancel": "Avbryt",
-  "settingsDeleteDialogConfirm": "Ta bort",
-
-  "settingsFreeLimitUsedTitle": "Startreflektioner använd",
-  "settingsFreeLimitUsedDescription": "Startreflektionerna för denna enhet har använts. Uppgradera till Barakah eller köp fler reflektioner för att fortsätta.",
-
-  "settingsStarterReflectionsUsedTitle": "Startreflektioner använd",
-  "settingsStarterReflectionsUsedDescription": "Startreflektionerna för denna enhet har använts. Uppgradera till Barakah eller köp fler reflektioner för att fortsätta.",
-
-  "deviceBoundError": "Denna enhet är redan länkad till ett annat konto. Logga in med originalkontot.",
-
-  "premiumTitle": "Barakah-läge",
-  "premiumSubtitleBasic": "Lås upp hela Ayara-upplevelsen.",
-  "premiumSubtitleChampion": "Du är Barakah. Behöver du fler reflektioner?",
-
-  "premiumCurrentPlan": "Nuvarande plan: {plan}",
+  "settingsDeleteDialogConfirm": "Radera",
+  "settingsFreeLimitUsedTitle": "Startreflektioner använt",
+  "settingsFreeLimitUsedDescription": "Startreflektionerna för denna enhet har använts. Uppgradera till Wilaya eller köp fler reflektioner för att fortsätta.",
+  "settingsStarterCreditsUsedTitle": "Startreflektioner använt",
+  "settingsStarterCreditsUsedDescription": "Startreflektionerna för denna enhet har använts. Uppgradera till Wilaya eller köp fler reflektioner för att fortsätta.",
+  "deviceBoundError": "Denna enhet är redan länkad till ett annat konto. Logga in med det ursprungliga kontot.",
+  "premiumTitle": "Wilaya-läge",
+  "premiumSubtitleBasic": "Lås upp Ayara-upplevelsen fullt ut.",
+  "premiumSubtitlePremium": "Du är på Wilaya. Behöver du fler reflektioner?",
+  "premiumCurrentPlan": "Aktuell plan: {plan}",
   "premiumCreditsStatus": "Reflektioner: {remaining} / {total}",
-
   "premiumPurchasesUnavailable": "Köp är inte tillgängliga just nu.",
-  "premiumSignInToPurchase": "Logga in för att köpa reflektioner eller låsa upp Barakah.",
-
+  "premiumSignInToPurchase": "Logga in för att köpa reflektioner eller låsa upp Wilaya.",
   "premiumRestorePurchases": "Återställ köp",
   "premiumProcessing": "Bearbetar…",
-  "premiumRestoreHintTitle": "Redan köpt Barakah eller reflektioner på denna eller annan enhet?",
+  "premiumRestoreHintTitle": "Redan köpt Wilaya eller reflektioner på denna enhet eller en annan?",
   "premiumRestoreHintBody": "Återställ dina köp om de inte visas.",
-
   "premiumBuyCredits200": "Köp 200 reflektioner",
   "premiumBuyCredits400": "Köp 400 reflektioner",
-  "premiumBecomeChampionOneTime": "Uppgradera till Barakah-läge",
-  "premiumChampionHint": "Som Barakah kan du fylla på med extra reflektioner närhelst du behöver.",
-
+  "premiumBecomePremiumOneTime": "Uppgradera till Wilaya-läge",
+  "premiumTopupHint": "Med Wilaya kan du fylla på med extra reflektioner närhelst du behöver.",
   "premiumUpgradeCta": "Uppgradera",
-  "premiumRequiredForCategory": "Denna kategori är endast tillgänglig för Barakah-användare. Uppgradera i Inställningar för att låsa upp allt premiuminnehål.",
-  "premiumBenefitsBasic": "Lås upp Barakah för att få extra reflektioner, tillgång till premiumkategorier och fortsätt närhelst du behöver vägledning.",
-  "premiumBenefitsChampion": "Du är i Barakah-läge. Om du börjar få slut, lägg till några extra reflektioner och fortsätt utan avbrott.",
-  "premiumButtonBecomeChampion": "Lås upp Barakah",
+  "premiumRequiredForCategory": "Denna kategori är endast tillgänglig för Wilaya-användare. Uppgradera i Inställningar för att låsa upp allt premiuminnehål.",
+  "premiumBenefitsBasic": "Lås upp Wilaya för att få extra reflektioner, få tillgång till premiumkategorier och fortsätta närhelst du behöver vägledning.",
+  "premiumBenefitsPremium": "Du är i Wilaya-läge. Om du börjar få slut, lägg till extra reflektioner och fortsätt utan avbrott.",
+  "premiumButtonBecomePremium": "Lås upp Wilaya",
   "premiumButtonTopup1000": "Lägg till 1000 reflektioner",
-  "premiumChampionBadge": "Barakah aktiv",
+  "premiumBadge": "Wilaya aktiv",
   "premiumLoadingStore": "Läser in butik…",
-
-  "blessedTitle": "Barakah-läge",
-  "blessedSubtitleGrace": "Lås upp hela Ayara-upplevelsen.",
-  "blessedSubtitleBlessed": "Du är Barakah. Behöver du fler reflektioner?",
-
-  "blessedCurrentPlan": "Nuvarande plan: {plan}",
-  "blessedReflectionsStatus": "Reflektioner: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Köp är inte tillgängliga just nu.",
-  "blessedProductNotAvailable": "Denna produkt är inte tillgänglig i butiken ännu. Försök igen senare.",
-  "blessedPurchaseError": "Något gick fel med köpet. Försök igen.",
-  "blessedSignInToPurchase": "Logga in för att köpa reflektioner eller låsa upp Barakah.",
-
-  "blessedRestorePurchases": "Återställ köp",
-  "blessedProcessing": "Bearbetar…",
-  "blessedRestoreHintTitle": "Redan köpt Barakah eller reflektioner på denna eller annan enhet?",
-  "blessedRestoreHintBody": "Återställ dina köp om de inte visas.",
-
-  "blessedBuyReflections100": "Lägg till 100 reflektioner",
-  "blessedBuyReflections200": "Köp 200 reflektioner",
-  "blessedBuyReflections400": "Köp 400 reflektioner",
-  "blessedBecomeBlessedOneTime": "Uppgradera till Barakah",
-  "blessedTopupHint": "Som Barakah kan du fylla på med extra reflektioner närhelst du behöver.",
-
-  "blessedUpgradeCta": "Uppgradera",
-  "blessedRequiredForCategory": "Denna kategori är endast tillgänglig för Barakah-användare. Uppgradera i Inställningar för att låsa upp allt premiuminnehål.",
-  "blessedFeatureLocked": "Lås upp Barakah för att få tillgång till denna funktion.",
-  "lockedCategoriesHint": "Vissa kategorier är reserverade för Barakah-medlemmar. Lås upp dem för att utforska varje reflektion på din resa.",
-  "blessedBenefitsGrace": "Lås upp Barakah för att få extra reflektioner, tillgång till premiumkategorier och fortsätt närhelst du behöver vägledning.",
-  "blessedBenefitsBlessed": "Du är i Barakah-läge. Om du börjar få slut, lägg till några extra reflektioner och fortsätt utan avbrott.",
-  "blessedButtonBecomeBlessed": "Lås upp Barakah",
-  "blessedButtonTopup1000": "Lägg till 1000 reflektioner",
-  "blessedBadge": "Barakah aktiv",
-  "blessedLoadingStore": "Läser in butik…",
-
-  "freePlanBlockedTitle": "Du har använt dina startreflektioner",
-  "freePlanBlockedBody": "Du är på Standard-planen med startreflektioner och du har nått gränsen. För att fortsätta — och låsa upp premiumkategorier — uppgradera till Barakah.",
-  "freePlanBlockedCtaGoPremium": "Se Barakah-alternativ nedan",
-
-  "graceBlockedTitle": "Du har använt dina startreflektioner",
-  "graceBlockedBody": "Du är på Standard-planen med startreflektioner och du har nått gränsen. För att fortsätta — och låsa upp premiumkategorier — uppgradera till Barakah.",
-  "graceBlockedCtaGoBlessed": "Se Barakah-alternativ nedan",
-
+  "premiumProductNotAvailable": "Denna produkt är inte tillgänglig i butiken än. Försök igen senare.",
+  "premiumPurchaseError": "Något gick fel med köpet. Försök igen.",
+  "premiumBuyCredits100": "Lägg till 100 reflektioner",
+  "premiumFeatureLocked": "Lås upp Wilaya för att få tillgång till denna funktion.",
+  "lockedCategoriesHint": "Vissa kategorier är reserverade för Wilaya-medlemmar. Lås upp dem för att utforska varje reflektion på din resa.",
+  "freePlanBlockedTitle": "Du har använt upp dina startreflektioner",
+  "freePlanBlockedBody": "Du är på Standard-planen med startreflektioner och du har nått gränsen. För att fortsätta — och låsa upp premiumkategorier — uppgradera till Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Se Wilaya-alternativ nedan",
+  "graceBlockedTitle": "Du har använt upp dina startreflektioner",
+  "graceBlockedBody": "Du är på Standard-planen med startreflektioner och du har nått gränsen. För att fortsätta — och låsa upp premiumkategorier — uppgradera till Wilaya.",
+  "graceBlockedCtaGoPremium": "Se Wilaya-alternativ nedan",
   "rateGuestMustSignIn": "Logga in för att använda Ayara och dina reflektioner.",
-
   "guestNoCreditsTitle": "Gästläge",
   "guestNoCreditsBody": "Som gäst kan du bläddra i appen, men du kan inte använda reflektioner. Logga in senare i Inställningar för att använda reflektioner och låsa upp köp.",
-
-  "guestNoReflectionsTitle": "Gästläge",
-  "guestNoReflectionsBody": "Som gäst kan du bläddra i appen, men du kan inte använda reflektioner. Logga in senare i Inställningar för att använda reflektioner och låsa upp köp.",
-
   "guestDialogContinue": "Fortsätt",
   "guestDialogLoginInstead": "Logga in istället",
-
   "optionalLabel": "valfritt",
-
-  "accountDeleteSuccessTitle": "Konto raderat",
+  "accountDeleteSuccessTitle": "Konto borttaget",
   "accountDeleteSuccessBody": "Ditt konto och tillhörande data har raderats framgångsrikt.",
   "accountDeleteSuccessClose": "Stäng",
   "accountDeleteErrorTitle": "Kunde inte radera konto",
   "accountDeleteErrorClose": "OK",
   "accountDeleteReauthCancelled": "Omautentisering avbröts. Logga in igen och försök radera igen.",
-  "accountDeleteReauthRequired": "Kontoradering kräver en nylig inloggning. Logga ut, logga in igen och försök radera igen.",
-  "settingsDeletePermanentWarning": "Detta är permanent och kan inte ångras. All data som är kopplad till ditt konto kommer att raderas.",
-
+  "accountDeleteReauthRequired": "Kontoborttagning kräver en nyligen genomförd inloggning. Logga ut, logga in igen och försök igen.",
+  "settingsDeletePermanentWarning": "Denna åtgärd är permanent och kan inte ångras. All data kopplad till ditt konto raderas.",
   "dailyGraceTitle": "Daglig vägledning",
   "dailyGraceScriptureLabel": "DAGENS VERS",
-  "dailyGraceSaintLabel": "DENNA VECKAS LÄRARE",
-  "dailyGraceReflectionLabel": "AFTONREFLEKTION",
+  "dailyGraceSaintLabel": "DENNA VECKAS LÄRD",
+  "dailyGraceReflectionLabel": "KVÄLLSREFLEKTION",
   "dailyGraceCopiedToast": "Vers kopierad till urklipp",
-
-  "dailyScripture0Text": "Säkerligen kommer de rättfärdiga att vara bland trädgårdar och bäckar, på en hedersplats hos en Mäktig Kung.",
-  "dailyScripture0Ref": "Koranen 54:54-55",
-  "dailyScripture1Text": "Och Vi har inte sänt dig, o Muhammad, utan som en barmhärtighet för världarna.",
-  "dailyScripture1Ref": "Koranen 21:107",
-  "dailyScripture2Text": "Är inte Allah tillräcklig för sin tjänare? Ändå försöker de skrämma dig med andra vid sidan av Honom.",
-  "dailyScripture2Ref": "Koranen 39:36",
-  "dailyScripture3Text": "Kanske hatar du något som är gott för dig; och kanske älskar du något som är dåligt för dig. Och Allah vet, medan du inte vet.",
-  "dailyScripture3Ref": "Koranen 2:216",
-  "dailyScripture4Text": "Säkerligen är Allah med de tåliga.",
-  "dailyScripture4Ref": "Koranen 2:153",
-  "dailyScripture5Text": "Så kom ihåg Mig; Jag kommer att komma ihåg dig. Och var tacksam mot Mig och förneka Mig inte.",
-  "dailyScripture5Ref": "Koranen 2:152",
-  "dailyScripture6Text": "Säkerligen är den mest hedersvärd bland er vid Allahs ansikte den mest rättfärdig bland er.",
-  "dailyScripture6Ref": "Koranen 49:13",
-  "dailyScripture7Text": "Och din Herre har förordnat att du inte tillber något annat än Honom, och att du är vänlig mot dina föräldrar.",
-  "dailyScripture7Ref": "Koranen 17:23",
-  "dailyScripture8Text": "Säkerligen, tillsammans med svårighet kommer lätthet.",
-  "dailyScripture8Ref": "Koranen 94:6",
-  "dailyScripture9Text": "Och Han är med er överallt. Och Allah ser vad ni gör.",
-  "dailyScripture9Ref": "Koranen 57:4",
-  "dailyScripture10Text": "Allah lägger inte en börda på en själ större än vad den kan bära.",
-  "dailyScripture10Ref": "Koranen 2:286",
-  "dailyScripture11Text": "Och den som litar på Allah — då är Han tillräcklig för honom.",
-  "dailyScripture11Ref": "Koranen 65:3",
-  "dailyScripture12Text": "Min barmhärtighet omfattar alla ting.",
-  "dailyScripture12Ref": "Koranen 7:156",
-  "dailyScripture13Text": "Och när Mina tjänare frågar dig om Mig — säkerligen är Jag nära. Jag svarar bönen till den som ber till Mig.",
-  "dailyScripture13Ref": "Koranen 2:186",
-  "dailyScripture14Text": "Den som gör rättighet, huruvida man eller kvinna, medan man är en troende — Vi kommer säkerligen få honom att leva ett bra liv.",
-  "dailyScripture14Ref": "Koranen 16:97",
-  "dailyScripture15Text": "Säkerligen kommer Allah inte att förändra villkoren för ett folk tills de förändrar det inom sig själva.",
-  "dailyScripture15Ref": "Koranen 13:11",
-  "dailyScripture16Text": "Så försväga dig inte och sörja inte, och du kommer att vara överlägsen om du är en sann troende.",
-  "dailyScripture16Ref": "Koranen 3:139",
-  "dailyScripture17Text": "O Mina tjänare som har gjort övergrepp mot er själva, despair inte över Allahs barmhärtighet. Säkerligen förlåter Allah alla synder.",
-  "dailyScripture17Ref": "Koranen 39:53",
-  "dailyScripture18Text": "Och den som frukterar Allah — Han kommer att göra en väg ut för honom, och kommer att försörja honom från där han inte förväntar sig.",
-  "dailyScripture18Ref": "Koranen 65:2-3",
-  "dailyScripture19Text": "Förlora inte hoppet om Allahs barmhärtighet.",
-  "dailyScripture19Ref": "Koranen 12:87",
-  "dailyScripture20Text": "Och Vi har säkerligen gjort Koranen lätt att komma ihåg. Finns det då någon som kommer att ta råd?",
-  "dailyScripture20Ref": "Koranen 54:17",
-  "dailyScripture21Text": "Och Han fann dig vilse och vägled dig.",
-  "dailyScripture21Ref": "Koranen 93:7",
-  "dailyScripture22Text": "Och din Herre säger: Ropa till Mig; Jag kommer att svara dig.",
-  "dailyScripture22Ref": "Koranen 40:60",
-  "dailyScripture23Text": "Och Vi har säkerligen hedrat Adamses barn.",
-  "dailyScripture23Ref": "Koranen 17:70",
-  "dailyScripture24Text": "Och söka hjälp genom tålamod och bön.",
-  "dailyScripture24Ref": "Koranen 2:45",
-  "dailyScripture25Text": "Den som gör ett atoms vikt gott kommer att se det.",
-  "dailyScripture25Ref": "Koranen 99:7",
-  "dailyScripture26Text": "Otvetydigt är Allahs hjälp nära.",
-  "dailyScripture26Ref": "Koranen 2:214",
-  "dailyScripture27Text": "Och den som är tacksam — hans tacksamhet är endast till förmån för sig själv.",
-  "dailyScripture27Ref": "Koranen 31:12",
-
-  "dailyReflection0": "När denna dag sluts, betrakta ett ögonblick där Allahs barmhärtighet var uppenbar.",
-  "dailyReflection1": "Låt vad som väger på ditt hjärta idag framför Allah.",
-  "dailyReflection2": "Namnge en välsignelse från denna dag och uttryck tacksamhet till Allah.",
-  "dailyReflection3": "Vila i kunskapen om att du hålls i Allahs oändliga vård.",
-  "dailyReflection4": "Reflektera över var du blev kallad att visa medkänsla och vänlighet idag.",
-  "dailyReflection5": "Släpp vad du inte kan kontrollera och lita på Allahs perfekta plan.",
-  "dailyReflection6": "Medan dagen närmar sitt slut, mottar fred i Allahs påminnelse.",
-  "dailyReflection7": "Betrakta hur du hedrade dina böner idag och tacka Allah för var och en.",
-  "dailyReflection8": "Reflektera över ett ögonblick där tålamod (Sabr) ledde dina handlingar idag.",
-  "dailyReflection9": "Be om förlåtelse för någon brist idag — Allahs barmhärtighet är gränslös.",
-  "dailyReflection10": "Namnge en person du visade vänlighet till idag och gör dua för dem.",
-  "dailyReflection11": "Sitta med tacksamhet: vad försåg Allah dig med idag som du inte bad om?",
-  "dailyReflection12": "Reflektera över en vers från Koranen som talar till var du är nu.",
-  "dailyReflection13": "Betrakta hur du använde din tid idag — och erbjud imorgen till Allah.",
-  "dailyReflection14": "Vila och vet att oavsett vilken svårighet som kom idag, var Allah med dig genom den.",
-  "dailyReflection15": "Tänk på ett sätt du tjänade din familj eller ditt samhälle idag för Allahs skull.",
-  "dailyReflection16": "När natten faller, gör Tawbah — Allah älskar dem som återvänder till Honom.",
-  "dailyReflection17": "Reflektera över skönheten som Allah placerade i din dag, hur liten som helst.",
-  "dailyReflection18": "Betrakta vad du lärde dig idag och hur det närmar dig Allah.",
-  "dailyReflection19": "Låt dagens bekymmer vila hos Allah — Han bär vad du inte kan.",
-  "dailyReflection20": "Tänk på ett ögonblick idag då du kunde ha valt bättre och lär dig av det försiktigt.",
-  "dailyReflection21": "Gör dua för dem som kämpar — din bön är en gåva till dem.",
-  "dailyReflection22": "Återkalla en välsignelse som du ofta förbiser och ta en stund för att tacka Allah för den.",
-  "dailyReflection23": "Reflektera över dina avsikter idag — var de för Allah? Börja om imorgen.",
-  "dailyReflection24": "Medan natten stillas, lyssna på Allahs närhet i stillheten.",
-  "dailyReflection25": "Betrakta var du fann styrka idag — den styrkan är från Allah.",
-  "dailyReflection26": "Namnge något du kommer att göra imorgen, för Allahs skull, som du inte gjorde idag.",
-  "dailyReflection27": "Medan du förbereder dig för vila, anförtro din själ till Allah — Han är den bäste av väktare.",
-
-  "dailyRoleModel0": "Profeten Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Profeten Ibrahim (AS)",
-  "dailyRoleModel44": "Profeten Musa (AS)",
-  "dailyRoleModel45": "Profeten Isa (AS)",
-  "dailyRoleModel46": "Profeten Yusuf (AS)",
-  "dailyRoleModel47": "Profeten Dawud (AS)",
-  "dailyRoleModel48": "Profeten Sulayman (AS)",
-  "dailyRoleModel49": "Profeten Nuh (AS)",
-  "dailyRoleModel50": "Profeten Yunus (AS)",
-  "dailyRoleModel51": "Profeten Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
   "locationConsentLabel": "Tillåt Ayara att använda min plats för Qibla-riktning och bönetider",
   "locationConsentHint": "Används endast för dessa funktioner. Din plats delas aldrig eller lagras.",
-
   "askPageTitle": "Fråga Ayara",
-  "askPageDescription": "Fråga något om tro, bön, liv eller islamisk praxis och få vägledning rotad i Koranen och Sunna.",
+  "askPageDescription": "Fråga något om tro, bön, liv eller islamisk praktik och få vägledning rotad i Koranen och lärornas från Ahl al-Bayt.",
   "askPageInputHint": "Skriv din fråga här…",
   "askPageSubmitCta": "Fråga",
   "askPageInputEmptyError": "Skriv en fråga först.",
   "askResultYourQuestion": "Din fråga",
-
-  "guidancePageTitle": "Bön & Vägledning",
-  "qiblaFacingMecca": "Mot Makkah",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "Vetter mot Makkah",
   "qiblaCompassInstruction": "Rotera din telefon tills den gyllene nålen pekar uppåt.\nDen riktningen pekar mot Qibla (Makkah).",
-  "qiblaGpsUnavailableBody": "GPS-signalen är svag. Gå ut och tryck på Försök igen.",
+  "qiblaGpsUnavailableBody": "GPS-signalen är svag. Gå utomhus och tryck på Försök igen.",
   "qiblaRetry": "Försök igen",
   "qiblaTitle": "Qibla-riktning",
   "qiblaDistanceLabel": "{km} km till Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
   "qiblaLocationNeededTitle": "Plats krävs",
   "qiblaLocationNeededBody": "Tillåt platsåtkomst så att Ayara kan beräkna riktningen till Kaaba i Makkah från var du än är.",
-  "qiblaOpenSettings": "Öppna Inställningar",
-  "qiblaCompassLoading": "Söker din position…",
+  "qiblaOpenSettings": "Öppna inställningar",
+  "qiblaCompassLoading": "Hittar din position…",
   "qiblaTowardMecca": "Mot Makkah",
-
   "prayerTimesTitle": "Bönetider",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
@@ -532,54 +302,328 @@
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Plats krävs",
-  "prayerTimesLocationNeededBody": "Tillåt platsåtkomst så att Ayara kan beräkna korrekta bönetider för din stad.",
+  "prayerTimesLocationNeededBody": "Tillåt platsåtkomst så att Ayara kan beräkna exakta bönetider för din stad.",
   "prayerTimesNextLabel": "Nästa",
-  "prayerTimesDoneLabel": "Klar",
-
+  "prayerTimesDoneLabel": "Klart",
   "monthlyPrayerTimesTitle": "Månatliga bönetider",
   "monthlyPrayerTimesViewButton": "Visa hela månaden",
   "monthlyPrayerTimesNextMonth": "Nästa månad",
   "monthlyPrayerTimesDayHeader": "Dag",
-
   "sharePrayerTimes": "Dela bönetider",
-
-  "prayerNotificationsTitle": "Bönevarningar",
-  "prayerNotificationsDescription": "Få en vänlig påminnelse innan varje bönetid för att hjälpa dig att förbli ansluten under hela dagen.",
-  "prayerNotificationsEnable": "Aktivera bönevarningar",
+  "notificationsSectionTitle": "Aviseringar",
+  "notificationsSectionSubtitle": "Bönemeddelanden, kalenderhändelser & mer",
+  "dailyReflectionReminderTitle": "Daglig reflektion",
+  "dailyReflectionReminderDescription": "En skonsam daglig påminnelse om att öppna Ayara och ansluta till din tro.",
+  "dailyReflectionReminderEnable": "Aktivera daglig påminnelse",
+  "dailyReflectionReminderTimeLabel": "Påminnelsetid",
+  "prayerNotificationsTitle": "Bönemeddelanden",
+  "prayerNotificationsDescription": "Få en skonsam påminnelse innan varje bönetid för att hjälpa dig att förbli ansluten under dagen.",
+  "prayerNotificationsEnable": "Aktivera bönemeddelanden",
   "prayerNotificationsOpenSettings": "Öppna aviseringsinställningar",
   "prayerNotificationsDenied": "Aviseringar är inaktiverade",
-  "prayerNotificationsDeniedHint": "Gå till Inställningar och tillåt aviseringar för Ayara för att få bönetidsvarningar.",
-
+  "prayerNotificationsDeniedHint": "Gå till Inställningar och tillåt aviseringar för Ayara för att ta emot bönemeddelanden.",
   "notificationsConsentLabel": "Tillåt aviseringar för bönetider",
-
   "prayerNotifTitleFajr": "🌅 Fajr — Gryningsbönen",
-  "prayerNotifBodyFajr": "De bästa bönerna är gryningsbönen. Väck upp, rensa dig själv och stå inför Allah.",
-
+  "prayerNotifBodyFajr": "Fajr är Ahl al-Bayts bönemorgon. Imam Ali (AS) sa: Vårda gryningsbönen som du skyddar din mest värdefulla sak. Stå upp, rena dig själv och stå inför Allah.",
   "prayerNotifTitleDhuhr": "☀️ Dhuhr — Middagsbönen",
-  "prayerNotifBodyDhuhr": "Pausa din dag och återvänd till Allah. Dhuhr-bönetid har kommit.",
-
+  "prayerNotifBodyDhuhr": "Imamerna från Ahl al-Bayt värderade varje stund av påminnelse. Pausa din dag, kombinera Dhuhr med Asr om det behövs, och återvänd ditt hjärta till Allah.",
   "prayerNotifTitleAsr": "🌤️ Asr — Eftermiddagsbönen",
-  "prayerNotifBodyAsr": "Skydda mitten-bönen. Asr-tid har kommit — låt den inte passera.",
-
+  "prayerNotifBodyAsr": "Vårda bönen, ty den är förbundet mellan dig och Allah. Asr-tiden är här — låt den inte gå förbi utan påminnelse.",
   "prayerNotifTitleMaghrib": "🌇 Maghrib — Solnedgångsbönen",
-  "prayerNotifBodyMaghrib": "Solen har gått ned. Ofra Maghrib och var tacksam till Allah för denna dag.",
-
+  "prayerNotifBodyMaghrib": "Solen har gått ned — en stund som Ahl al-Bayt höll heligt för bön. Ofra Maghrib och öppna dina händer för Allah i dua innan natten börjar.",
   "prayerNotifTitleIsha": "🌙 Isha — Nattbönen",
-  "prayerNotifBodyIsha": "Avsluta din dag med Allahs påminnelse. Hayya alal falah — kom till framgång.",
-
+  "prayerNotifBodyIsha": "Avsluta din dag i sällskap med Allah. Imamerna uppmuntrade Salat al-Layl efter Isha — men först, slutför din Isha och avsluta dagen med Hans påminnelse.",
   "outOfReflectionsBannerText": "Du har använt alla dina reflektioner",
   "outOfReflectionsBannerCta": "Få fler",
-
   "dhikrPageTitle": "Dhikr",
   "dhikrTapToCount": "Tryck på cirkeln för att räkna",
   "dhikrResetButton": "Återställ",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Du har fullbordat 99 påminnelser av Allah. Må de vara ett ljus för ditt hjärta.",
-
+  "dhikrCompleteMessage": "Du har slutfört 100 påminnelser till Allah. Må de vara ett ljus för ditt hjärta.",
   "disclaimerTitle": "Om denna apps vägledning",
-  "disclaimerBody": "Ayara tillhandahåller islamiska reflektioner, påminnelser och andligt innehål för att stödja din personliga troresa. Detta innehål erbjuds endast för allmän informations- och inspirationssyfte.\n\nAyara ersätter inte kvalificerad lärdom.\nVägledningen i denna app är inte en ersättning för en lärd islamisk lärd, imam, mufti eller theologiskt utbildad lärare. Om du har frågor om religiösa domar, halal och haram-frågor eller personliga religiösa skyldigheter, vänligen söka råd från en kvalificerad religiös auktoritet i ditt samhälle.\n\nDenna app utfärdar ingen religiös dom.\nAyara gör ingen auktoritativ bestämning i fiqh-frågor (islamisk juridik) eller personliga religiösa skyldigheter. Ingenting här ska behandlas som en fatwa eller bindande religiös instruktion.\n\nVetenskapliga tolkningar varierar.\nIslam omfattar en rik mångfald av traditioner, tankelinjer (madhabs) och lärd opinion. Innehållet i denna app återspeglar allmänna perspektiv och kan inte representera varje tradition eller skola lika.\n\nGemenskapen är viktig.\nDenna app syftar till att uppmuntra ditt engagemang med glaubens traditioner samtidigt man respekterar den vitala rollen för din lokala moské, imam och religiösa gemenskap. Vi uppmuntrar dig att förbli ansluten till och lära av kvalificerade lärare nära dig.",
+  "disclaimerBody": "Ayara tillhandahåller islamiska reflektioner, påminnelser och andligt innehål för att stödja din personliga trosresa, rotad i Koranen och lärordan från Ahl al-Bayt. Detta innehål erbjuds endast för allmänna informations- och inspirationsändamål.\n\nAyara ersätter inte kvalificerad lärdhet.\nVägledningen i denna app är inte ett substitut för en lärd islamisk lärd, marja', eller teologiskt utbildad lärare. I shiaislam är religiös vägledning rotad i Ja'fari-skolan för juridik (fiqh) och traditionen att följa en levande Marja' (emuleringskälla) — en kvalificerad jurist vars domar vägleder troende i religiös praktik. Om du har frågor om religiösa domar, halal och haram-frågor, eller personliga religiösa skyldigheter, ber vi dig att söka råd från en kvalificerad Marja' eller en lärd i din gemenskap.\n\nDenna app utfärdar inte religiösa domar.\nAyara gör inga auktoritativa bestämmelser om fiqh-frågor eller personliga religiösa skyldigheter. Ingenting här bör behandlas som en fatwa eller bindande religiös instruktion.\n\nAhl al-Bayts centralitet.\nI shiaislam är Profeten Muhammad ﷺ och hans rengjorda hushål — Ahl al-Bayt — de auktoritativa ledarna för Islams gemenskap efter Koranen. De tolv Imamerna från Ahl al-Bayt är de gudomligt utsedda tolkarna av islamisk lärdhet. Innehåll i denna app återspeglar denna tradition och strävar efter att hedra den troget.\n\nGemenskap är viktigt.\nDenna app syftar till att uppmuntra ditt engagemang med tron samtidigt som det djupt respekterar den vitala rollen för din lokala moské, islamiska centrum och religiösa gemenskap. Vi uppmuntrar dig att förbli ansluten till och lära av kvalificerade lärare nära dig.",
   "disclaimerClose": "Jag förstår",
   "disclaimerInfoTooltip": "Om denna apps vägledning",
-  "disclaimerSettingsSubtitle": "Endast för allmän informationssyfte. Tryck för att läsa hela friskrivningen.",
-  "disclaimerSectionHeader": "Vägledningsfriskrivning"
+  "disclaimerSettingsSubtitle": "Endast för allmän information. Tryck för att läsa hela ansvarsfriskrivningen.",
+  "disclaimerSectionHeader": "Vägledningsansvarsfriskrivning",
+  "navHome": "Hem",
+  "navReflect": "Reflektera",
+  "navDuas": "Duas",
+  "navCalendar": "Kalender",
+  "dashboardToday": "IDAG",
+  "dashboardComingUp": "Kommer snart",
+  "dashboardDaysUnit": "{count, plural, one {dag} other {dagar}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Snabbåtkomst",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Vägledning",
+  "quickActionPrayerTimes": "Bönetider",
+  "askAyaraTitle": "Fråga Ayara",
+  "askAyaraSubtitle": "Ställ en islamisk fråga och få ett genomtänkt, vägledd svar.",
+  "askAyaraHint": "t.ex. Vad är betydelsen av Ramadan?",
+  "askAyaraSubmit": "Fråga",
+  "wisdomOfTheDayTitle": "Dagens visdom",
+  "calendarScreenTitle": "Islamisk kalender",
+  "calendarUpcomingOccasions": "Kommande tillfällen",
+  "calendarOccasionRemindersTitle": "Påminnelser för tillfällen",
+  "calendarOccasionRemindersHint": "Underrättad kvällen före varje tillfälle",
+  "calendarNotifPermissionDenied": "Aviseringsbehörighet nekad. Aktivera den i dina enhetsinställningar.",
+  "calendarNoEvents": "Inga kommande evenemang hittades.",
+  "calendarAddToPhone": "Lägg till i telefonens kalender",
+  "calendarAddedToPhone": "Tillagd i kalendern",
+  "calendarCountdownToday": "IDAG",
+  "calendarCountdownTomorrow": "IMORGON",
+  "calendarCountdownDays": "om {days} dagar",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Jan",
+  "calendarMonthFeb": "Feb",
+  "calendarMonthMar": "Mar",
+  "calendarMonthApr": "Apr",
+  "calendarMonthMay": "Maj",
+  "calendarMonthJun": "Jun",
+  "calendarMonthJul": "Jul",
+  "calendarMonthAug": "Aug",
+  "calendarMonthSep": "Sep",
+  "calendarMonthOct": "Okt",
+  "calendarMonthNov": "Nov",
+  "calendarMonthDec": "Dec",
+  "calendarSeasonMuharramEarly": "Muharrams dagar — kom ihåg Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — dagar av sorg och reflektion",
+  "calendarSeasonArbaeen": "Arbaeen — fyrtio dagar av Husayn",
+  "calendarSeasonRoadToArbaeen": "Vägen till Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — uppenbaringens gryning",
+  "calendarSeasonMidShaban": "Sha'bans mitt — Imam al-Mahdi's (AJ) födelsedag",
+  "calendarSeasonRamadan": "Ramadan Mubarak — Koranens månad",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Duas & Ziyarat",
+  "duasSearchHint": "Sök duas, ziyarat…",
+  "duasFilterAll": "Alla",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} duas & ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Inga duas hittades.",
+  "duaCategoryDaily": "Dagligt",
+  "duaCategoryWeekly": "Veckovis",
+  "duaCategoryOccasions": "Tillfällen",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Födelsedag",
+  "eventTypeMartyrdom": "Martyrium",
+  "eventTypeOccasion": "Tillfälle",
+  "duaCopyTooltip": "Kopiera översättning",
+  "duaToggleTransliteration": "Translitterering",
+  "duaToggleTranslation": "Översättning",
+  "duaAskAiLabel": "Fråga Ayara att förklara denna dua",
+  "duaAskAiLockedLabel": "Fråga Ayara (Wilaya)",
+  "duaAiLockedMessage": "Ayara-förklaringar är tillgängliga för Wilaya-medlemmar. Uppgradera i Inställningar.",
+  "duaAiComingSoon": "Fråga Ayara om \"{name}\" — kommer snart!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua kopierad till urklipp.",
+  "tasbihAllahuAkbarMeaning": "Allah är den största",
+  "tasbihAlhamdulillahMeaning": "All ära tillhör Allah",
+  "tasbihSubhanallahMeaning": "Ära vare Allah",
+  "tasbihResetTooltip": "Återställ",
+  "tasbihCompleteTitle": "Tasbih slutfört",
+  "tasbihCompleteMessage": "Må Allah acceptera din dhikr.",
+  "tasbihTapHint": "Tryck var som helst för att räkna",
+  "tasbihatScreenTitle": "Bönevägledning",
+  "tasbihatScreenSubtitle": "BÖNEÄRAN",
+  "tasbihatScreenDescription": "En komplett vägledning till äran som reciteras under och efter de dagliga bönerna — enligt Ahl al-Bayts (a) tradition.",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Reciterad under den 3:e och 4:e rakʿah",
+  "tasbihatArba3Info": "I shia-juridik ersätter Tasbiḥāt al-Arbaʿa Surah al-Fatiha i den 3:e och 4:e rakʿah av Dhuhr, Asr, Maghrib och Isha. Det är obligatoriskt (wājib) att reciteras en gång och rekommenderas (mustaḥabb) att reciteras tre gånger.",
+  "tasbihatArba3Translation": "Ära vare Allah · All ära tillhör Allah\nDet finns ingen gud utom Allah · Allah är den största",
+  "tasbihatArba3CompleteTitle": "Recitation slutförd",
+  "tasbihatArba3CompleteMessage": "Må din bön accepteras — Āmīn",
+  "tasbihatArba3TapHint": "Tryck efter varje recitation",
+  "tasbihatZahraSubtitle": "Efter varje bön · 100 pärlor",
+  "tasbihatZahraOriginLabel": "Ursprung",
+  "tasbihatZahraHadith": "Fru Fatima al-Zahra (sa) bad Profeten ﷺ om en tjänare. Han sa: \"Ska jag inte vägleda dig till något bättre? Reciterar Subḥānallāh 33 gånger, Alḥamdulillāh 33 gånger och Allāhu Akbar 34 gånger efter varje bön. Det är bättre för dig än en tjänare.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Vol. 85",
+  "tasbihatZahraOpenCounter": "Öppna Tasbīḥ-räknare",
+  "tasbihatDuasTitle": "REKOMMENDERAD DUAS",
+  "tasbihatDuasSubtitle": "Efter att du slutfört din bön",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Efter varje obligatorisk bön",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Den som reciterar Āyat al-Kursī efter varje obligatorisk bön, ingenting står mellan honom och paradiset utom döden. Imam al-Bāqir (a) sa att det är bland de största verserna i Koranen.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Efter varje bön · förseglar alla böner",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Att sända hälsningar till Profeten ﷺ och hans rengjorda familj (Āl Muḥammad) rekommenderas för att försegla varje dua. Imam al-Ṣādiq (a) sa: \"Någon dua är upphängd tills du sänder ṣalawāt på Muḥammad och hans familj.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Efter varje bön · för Imamens av vår tid",
+  "tasbihatDuaFarajSource": "Undervisad av Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "En dua för Imam al-Mahdīs (af) återkomst, den tolfte Imamen, undervisad av hans far. Reciterad dagligen av Shia-troende efter varje bön som en handling av devotion till den levande Imamen.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ för Fru Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "Efter Maghrib & Isha · särskilt rekommenderad",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) sa att recitation av Tasbīḥ al-Zahrā efter Isha före sömn är bättre än 1000 rakʿahs av valfri bön. Dess ljus stiger till himlen.",
+  "tasbihFatimaGiftPre": "En gåva från Profeten",
+  "tasbihFatimaGiftPost": "reciterad efter varje bön",
+  "prayerTrackerTitle": "BÖNEÖVERVAKNING",
+  "prayerTrackerPrayed": "Bad",
+  "prayerTrackerDayStreak": "{count} dagars serie",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Alla böner slutförda idag. Må Allah acceptera.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Slutförd idag",
+  "dhikrTrackerNotDoneToday": "Inte gjord idag",
+  "dhikrTrackerDayStreak": "{count} dagars serie",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Tasbīḥ-påminnelse",
+  "dhikrReminderDescription": "En skonsam daglig påminnelse om att reciterar din Tasbīḥ al-Zahrā (SA).",
+  "dhikrReminderEnable": "Aktivera Tasbīḥ-påminnelse",
+  "dhikrReminderTimeLabel": "Påminnelsetid",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Daglig hadith",
+  "hadithLabelArabic": "ARABISK",
+  "hadithLabelTranslation": "ÖVERSÄTTNING",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Dela denna hadith",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nVia Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Föregående",
+  "hadithNavNext": "Nästa",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "De 14 Masumeen",
+  "imamsScreenSubtitle": "Profeten, Fru Fatima och de tolv Imamerna — Islams felösa ledare",
+  "imamLabelBorn": "Född",
+  "imamLabelMartyrdom": "Martyrium",
+  "imamLabelStatus": "Status",
+  "imamSectionBiography": "BIOGRAFI",
+  "imamSectionFamoussaying": "BERÖMT CITAT",
+  "imamRoleProphet": "Den sista Profeten",
+  "imamRoleInfallible": "Den felöse",
+  "imamOrdinal1": "1:e Imamen",
+  "imamOrdinal2": "2:e Imamen",
+  "imamOrdinal3": "3:e Imamen",
+  "imamOrdinal4": "4:e Imamen",
+  "imamOrdinal5": "5:e Imamen",
+  "imamOrdinal6": "6:e Imamen",
+  "imamOrdinal7": "7:e Imamen",
+  "imamOrdinal8": "8:e Imamen",
+  "imamOrdinal9": "9:e Imamen",
+  "imamOrdinal10": "10:e Imamen",
+  "imamOrdinal11": "11:e Imamen",
+  "imamOrdinal12": "12:e Imamen",
+  "duaAudioScreenTitle": "Lyssna på Duas",
+  "duaAudioScreenSubtitle": "Välj en dua att lyssna på. Tryck på panelen för att spela eller pausa.",
+  "duaAudioComingSoonMessage": "Ljud för denna dua blir tillgänglig i en kommande uppdatering.",
+  "duaAudioClose": "Stäng",
+  "duaAudioError": "Kunde inte ladda ljud. Kontrollera din anslutning.",
+  "duaAudioMetaTransmittedBy": "Överförd av",
+  "duaAudioMetaOccasion": "Tillfälle",
+  "duaAudioMetaDuration": "Varaktighet",
+  "quickActionDailyHadith": "Daglig hadith",
+  "quickAction14Masumeen": "14 Masumeen",
+  "quickActionListenDuas": "Lyssna",
+  "quickActionTasbihat": "Bönevägledning",
+  "pilgrimageSectionTitle": "Den heliga resan",
+  "pilgrimageSectionSubtitle": "Kompletta guider till Hajj & Umrah — pilgrimage till Allahs heliga hus i Mecca",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "Islams femte pelare",
+  "hajjCardDescription": "Den stora årliga pilgrimage — obligatorisk en gång i livet för varje kapabel muslim",
+  "hajjScreenTitle": "Hajj-vägledning",
+  "hajjScreenSubtitle": "Steg-för-steg-vägledning till den stora pilgrimage",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "Den mindre pilgrimage",
+  "umrahCardDescription": "En djupt givande andlig resa som kan genomföras när som helst under året",
+  "umrahScreenTitle": "Umrah-vägledning",
+  "umrahScreenSubtitle": "Steg-för-steg-vägledning till den mindre pilgrimage",
+  "pilgrimageStepsTitle": "Ritualer & steg",
+  "pilgrimageImportantNotesTitle": "Viktiga anteckningar",
+  "pilgrimageDuaTitle": "Dua för detta steg",
+  "pilgrimageJafariNoteTitle": "Ja'fari Fiqh-not",
+  "pilgrimageComplete": "✓ Komplett",
+  "pilgrimageMarkDone": "Markera som slutförd",
+  "pilgrimageProgress": "{done} av {total} steg",
+  "pilgrimageReadTime": "~{minutes} min",
+  "pilgrimageShiaNoteTitle": "Shia-pilgrimer",
+  "pilgrimageShiaNoteBody": "Shia-pilgrimer reser traditionellt också till Medina för att besöka Profeten Muhammads (SAW) grav på Masjid al-Nabawi och Imamernas gravar på Jannat al-Baqi. Dessa besök har enormt andlig betydelse och anses vara en integral del av resan för de flesta shiamuslimer.",
+  "hajjIntro": "Hajj är islams femte pelare, obligatorisk en gång i livet för varje muslim som är fysiskt och ekonomiskt kapabel. Genomförd i månaden Dhu al-Hijja, spårar den stegen från Profet Ibrahim (AS), hans son Ismael (AS) och Fru Hajar. För shiamuslimer inkluderar Hajj också välsignelsen att besöka vilostället för Profeten (SAW) och Ahlul Bayt i Medina.",
+  "umrahIntro": "Umrah är den mindre pilgrimage till Mecca och kan, till skillnad från Hajj, genomföras när som helst på året. Även om det inte är obligatoriskt, bär det enorm andlig belöning och anses vara en mycket rekommenderad akthandling. Det delar flera ritualer med Hajj men är kortare, bestående av fyra huvudritualer."
 }

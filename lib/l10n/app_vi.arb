@@ -1,585 +1,629 @@
 {
   "@@locale": "vi",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "Chọn ngôn ngữ của bạn",
-  "languageSelectSub": "Bạn có thể thay đổi điều này sau trong Cài đặt",
+  "languageSelectSub": "Bạn có thể thay đổi sau trong phần Cài đặt",
   "actionContinue": "Tiếp tục",
-  "languageSuggestedHeader": "Được đề xuất",
-  "languageAllHeader": "Tất cả các ngôn ngữ",
-  "languageSuggestedBadge": "Được đề xuất",
+  "languageSuggestedHeader": "Đề xuất",
+  "languageAllHeader": "Tất cả ngôn ngữ",
+  "languageSuggestedBadge": "Đề xuất",
   "languageSearchHint": "Tìm kiếm…",
-
-  "planGrace": "Tiêu chuẩn",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Hướng dẫn hàng ngày",
-  "categoryFaithTrust": "Iman & Niềm tin",
-  "categoryPrayerReflection": "Suy tư Cầu nguyện",
-  "categoryHopeDifficultTimes": "Kiên nhẫn & Hy vọng",
-  "categoryForgiveness": "Xin tha thứ",
-  "categoryLoveCompassion": "Từ bi & Lòng thương",
-  "categoryStrengthCourage": "Sức mạnh Đức tin",
-  "categoryGratitude": "Lòng biết ơn",
-  "categoryPurposeCalling": "Mục đích sống",
-  "categoryFamilyRelationships": "Gia đình & Mối quan hệ",
-  "categoryPeaceAnxietyRelief": "Yên bình tâm hồn",
-  "categoryWisdomOfJesus": "Khôn ngoan của các Tiên tri",
-  "categoryHumilityCharacter": "Khiêm tốn & Nhân cách",
-  "categoryOvercomingTemptation": "Chống lại cám dỗ",
-  "categoryEveningReflection": "Dhikr Buổi tối",
+  "planBasic": "Tiêu chuẩn",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Hướng dẫn hằng ngày",
+  "categorySlot02": "Đức tin và sự tín thác",
+  "categorySlot03": "Suy ngẫm về lời nguyện",
+  "categorySlot04": "Kiên nhẫn và hy vọng",
+  "categorySlot05": "Cầu xin sự tha thứ",
+  "categorySlot06": "Lòng thương xót và trắc ẩn",
+  "categorySlot07": "Sức mạnh đức tin",
+  "categorySlot08": "Trái tim biết ơn",
+  "categorySlot09": "Mục đích sống",
+  "categorySlot10": "Tình thân gia đình",
+  "categorySlot11": "Bình an nội tâm",
+  "categorySlot12": "Sự minh triết của Nhà Tiên tri",
+  "categorySlot13": "Phẩm hạnh tốt đẹp",
+  "categorySlot14": "Kháng cự cám dỗ",
+  "categorySlot15": "Dhikr buổi tối",
   "categoryCustom": "Suy ngẫm cá nhân",
   "dhikrMeaningSubhanallah": "Vinh quang thuộc về Allah",
-  "dhikrMeaningAlhamdulillah": "Tất cả lời khen ngợi đều thuộc về Allah",
-  "dhikrMeaningAllahuAkbar": "Allah là Vĩ Đại nhất",
-  "quranVerseHeartAtRest": "Quả thật, trong việc nhớ đến Allah, những trái tim tìm thấy sự bình yên.",
-
-  "promptHint": "Chạm vào một danh mục để nhận hướng dẫn và suy tư theo Islam",
-
+  "dhikrMeaningAlhamdulillah": "Mọi lời ca ngợi đều thuộc về Allah",
+  "dhikrMeaningAllahuAkbar": "Allah là Đấng Vĩ đại nhất",
+  "quranVerseHeartAtRest": "Quả thật, chỉ trong sự tưởng nhớ Allah mà trái tim được an yên.",
+  "promptHint": "Chạm vào một danh mục để nhận hướng dẫn và suy ngẫm Hồi giáo",
   "currentLanguage": "Ngôn ngữ hiện tại",
   "settingsLanguage": "Cài đặt ngôn ngữ",
   "settingsTitle": "Cài đặt",
   "chooseLanguage": "Chọn ngôn ngữ của bạn",
   "continueCta": "Tiếp tục",
-
-  "promptDailyGuidance": "Viết một hướng dẫn hàng ngày ngắn gọn, thực tế dựa trên đức tin Islam Sunni — lấy cơ sở từ Quran, Hadith và những lời dạy của Tiên tri Muhammad. Chọn một góc nhìn mới mẻ mỗi lần: một đức tính từ đạo đức Islam, một sự thật từ Sunnah, khôn ngoan từ những Bạn tùy tùng của Tiên tri, hoặc một thực hành yên tĩnh từ truyền thống Islam. Bao gồm một câu Quran (Surah:Ayah) và một suy tư 1–2 câu để mang theo suốt ngày. Tuỳ chọn kết nối nó với lịch Islam hoặc một ngày quan trọng nếu có liên quan.",
-
-  "promptFaithTrust": "Viết một suy tư Islam ngắn gọn về Iman (đức tin) và niềm tin vào kế hoạch của Allah (Tawakkul). Lấy cơ sở từ Quran, ví dụ của Tiên tri Muhammad và đức tin của Sahaba. Thay đổi chủ đề mỗi lần: tin tưởng Allah khi không chắc chắn, dựa vào trí tuệ thiêng liêng, kiên nhẫn trong thử thách, hoặc sự kiên trì yên tĩnh trong cuộc sống hàng ngày. Bao gồm một câu Quran và một bước thực tế cho hôm nay được lấy từ khôn ngoan tâm linh Islam.",
-
-  "promptPrayerReflection": "Viết một suy tư cầu nguyện Islam ngắn gọn dựa trên Salah, Dua, hoặc Dhikr. Thay đổi hình thức mỗi lần: một lời nhắc nhở sáng sớm hoặc buổi tối (Adhkar), suy tư về năm công việc hàng ngày, chiêm nghiệm một câu Quran, hoặc một lời cầu xin chân thành. Bao gồm một câu Quran và nêu tên hình thức cầu nguyện được sử dụng.",
-
-  "promptHopeDifficultTimes": "Viết một suy tư Islam về kiên nhẫn (Sabr) và hy vọng trong gian khó. Rút từ những lời dạy Quran về thử thách, sự kiên trì của các Tiên tri, và lòng thương của Allah trong những lúc khó khăn. Thay đổi góc nhìn mỗi lần. Bao gồm một câu Quran và một quan điểm khích lệ từ truyền thống Islam.",
-
-  "promptForgiveness": "Viết một suy tư Islam sáng suốt về xin tha thứ (Tawbah) và lòng thương của Allah. Rút từ những lời dạy Quran về tái sinh, lòng từ bi của Allah, và ví dụ tha thứ của Tiên tri Muhammad. Thay đổi chủ đề: quay trở lại Allah, tha thứ cho người khác, chữa lành mối quan hệ, hoặc tin tưởng vào lòng thương của Allah sau những sai lầm. Bao gồm một câu Quran và một bước thực tế cụ thể.",
-
-  "promptLoveCompassion": "Viết một suy tư Islam ngắn gọn về lòng thương (Rahmah) và sự từ bi trong cuộc sống hàng ngày. Rút từ ví dụ của Tiên tri Muhammad, khái niệm Ihsan (sự ưu tú), và những lời dạy Islam về tốt bụng với gia đình, hàng xóm, và những người dễ bị tổn thương. Bao gồm một câu Quran và một hành động tốt bụng nhỏ để thực hành hôm nay.",
-
-  "promptStrengthCourage": "Viết một suy tư Islam về sức mạnh và can đảm dựa trên đức tin. Rút từ những ví dụ của các Tiên tri, cộng đồng Hồi giáo sơ khai, và những tín đồ vẫn kiên định trong gian khó. Thay đổi chủ đề mỗi lần: can đảm thông qua đức tin, sức mạnh trong cầu nguyện, niềm tin vào Allah khi sợ hãi, hoặc khả năng phục hồi trong khó khăn. Bao gồm một câu Quran và một lời cầu xin ngắn hoặc cụm từ nhắc nhở.",
-
-  "promptGratitude": "Viết một suy tư Islam về lòng biết ơn (Shukr) đối với Allah. Lấy cơ sở từ lời dạy Quran và truyền thống tiên tri. Thay đổi góc nhìn: lòng biết ơn trong gian khó, trân trọng những phước lành nhỏ, bắt đầu ngày bằng cách ca tụng Allah, hoặc nhận ra sự hướng dẫn của Allah trong cuộc sống hàng ngày. Bao gồm một câu Quran và một thực hành biết ơn.",
-
-  "promptPurposeCalling": "Viết một suy tư Islam về mục đích sống trong việc thờ phụng Allah và sống công chính. Rút từ những lời dạy Quran về mục đích, phục vụ người khác, và sử dụng tài năng của người ta để làm điều tốt. Thay đổi chủ đề mỗi lần: phục vụ gia đình và cộng đồng, tìm kiếm sự hướng dẫn thông qua Istikhara, sống với ý định, hoặc tìm thấy ý nghĩa trong công việc thông thường. Bao gồm một câu Quran và hai câu hỏi suy tư.",
-
-  "promptFamilyRelationships": "Viết hướng dẫn Islam sáng suốt về gia đình và mối quan hệ dựa trên lời dạy Quran và ví dụ của Tiên tri Muhammad. Thay đổi chủ đề mỗi lần: tốt bụng trong gia đình, kiên nhẫn trong xung đột, tôn trọng cha mẹ, nuôi dạy con em theo đức tin, hoặc làm mạnh thêm hôn nhân. Bao gồm một câu Quran và một thực hành mối quan hệ để thử.",
-
-  "promptPeaceAnxietyRelief": "Viết một suy tư Islam bình yên về tìm kiếm yên bình tâm hồn thông qua nhắc nhở Allah (Dhikr) và niềm tin vào kế hoạch của Ngài. Rút từ những lời dạy Quran về bình yên của trái tim, cầu nguyện, và đầu phục vào ý chí của Allah. Thay đổi cách tiếp cận mỗi lần và bao gồm một câu Quran và một thực hành cơ bản từ truyền thống Islam.",
-
-  "promptWisdomOfJesus": "Viết một đoạn khôn ngoan từ các Tiên tri như được dạy trong Islam. Rút từ Quran hoặc Hadith và giải thích ngắn gọn cách những học giả Islam đã hiểu lời dạy này. Thay đổi chủ đề mỗi lần: tính cách, kiên nhẫn, khiêm tốn, đức tin, hoặc hành động hàng ngày. Bao gồm tham chiếu Quran hoặc Hadith và một ứng dụng thực tế.",
-
-  "promptHumilityCharacter": "Viết một suy tư Islam về khiêm tốn (Tawadhu) và nhân cách tốt (Akhlaq). Rút từ những lời dạy Quran, ví dụ của Tiên tri Muhammad, và truyền thống phát triển nhân cách Islam. Thay đổi chủ đề: khiêm tốn trong lãnh đạo, thừa nhận sai lầm, đối xử tôn trọng với người khác, hoặc phát triển tâm linh thông qua tự suy ngẫm. Bao gồm một câu Quran và một thói quen để thực hành.",
-
-  "promptOvercomingTemptation": "Viết một suy tư Islam về chống lại cám dỗ và ở trên con đường chính. Rút từ sự hướng dẫn Quran, nhắc nhở Allah (Dhikr), cầu nguyện (Salah), và những ví dụ về những tín đồ đã vượt qua rắc rối. Thay đổi góc nhìn mỗi lần. Bao gồm một câu Quran và một chiến lược thực tế cho 24 giờ tới.",
-
-  "promptEveningReflection": "Viết một suy tư Islam buổi tối yên bình dựa trên truyền thống nhắc nhở buổi tối (Adhkar al-Masaa'). Khuyến khích lòng biết ơn, tự suy ngẫm (Muhasabah), và niềm tin vào Allah trước khi nghỉ ngơi. Bao gồm 3–5 câu hỏi suy tư ngắn về ngày, một lời cầu xin ngắn, và một câu Quran.",
-
   "wordCount": "{count, plural, one {{count} từ} other {{count} từ}}",
-
-  "optionsCta": "Tuỳ chọn",
+  "optionsCta": "Tùy chọn",
   "newCta": "Mới",
   "actionsTitle": "Bạn muốn làm gì?",
   "copy": "Sao chép",
   "share": "Chia sẻ",
   "close": "Đóng",
-  "copiedToast": "Đã sao chép vào clipboard",
-
+  "copiedToast": "Đã sao chép vào khay nhớ tạm",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Email / share subject line including the category label.",
+    "description": "Dòng tiêu đề email / chia sẻ bao gồm nhãn danh mục.",
     "placeholders": {
-      "category": { "type": "String", "example": "Hướng dẫn hàng ngày" }
+      "category": {
+        "type": "String",
+        "example": "Hướng dẫn hằng ngày"
+      }
     }
   },
-
-  "regenerateErrorTitle": "Không thể tạo câu trả lời mới",
+  "regenerateErrorTitle": "Không thể tạo phản hồi mới",
   "regenerateErrorBody": "{error}\n\nBạn có muốn thử lại không?",
   "@regenerateErrorBody": {
-    "description": "Shown when regenerating an AI answer fails.",
+    "description": "Hiển thị khi việc tạo lại câu trả lời AI thất bại.",
     "placeholders": {
-      "error": { "type": "String", "example": "Lỗi mạng" }
+      "error": {
+        "type": "String",
+        "example": "Lỗi mạng"
+      }
     }
   },
-
   "cancelCta": "Hủy",
   "retryCta": "Thử lại",
-
   "authTitle": "Tạo tài khoản của bạn",
-  "continueAsGuest": "Tiếp tục dưới dạng khách",
+  "continueAsGuest": "Tiếp tục với tư cách khách",
   "signInGoogle": "Đăng nhập bằng Google",
   "signInApple": "Đăng nhập bằng Apple",
   "signInEmail": "Đăng nhập bằng Email",
-  "upgradeWithApple": "Tiếp tục bằng Apple",
-  "mustAccept": "Bạn phải chấp nhận Điều khoản và xác nhận Chính sách bảo mật.",
-  "termsLabel": "Tôi chấp nhận Điều khoản Dịch vụ",
-  "privacyLabel": "Tôi đã đọc Chính sách bảo mật",
+  "upgradeWithApple": "Tiếp tục với Apple",
+  "mustAccept": "Bạn phải chấp nhận Điều khoản dịch vụ và xác nhận Chính sách quyền riêng tư.",
+  "termsLabel": "Tôi chấp nhận Điều khoản dịch vụ",
+  "privacyLabel": "Tôi đã đọc Chính sách quyền riêng tư",
   "marketingOptIn": "Tôi đồng ý nhận tin tức và ưu đãi",
-  "openTerms": "Điều khoản Dịch vụ",
-  "openPrivacy": "Chính sách bảo mật",
-
+  "openTerms": "Điều khoản dịch vụ",
+  "openPrivacy": "Chính sách quyền riêng tư",
   "accountSection": "Tài khoản",
   "guestMode": "Chế độ khách",
   "signedIn": "Đã đăng nhập",
-  "upgradeHint": "Lưu suy tư của bạn trên các thiết bị bằng cách tạo tài khoản.",
-  "upgradeWithGoogle": "Tiếp tục bằng Google",
+  "upgradeHint": "Lưu các suy ngẫm của bạn trên nhiều thiết bị bằng cách tạo tài khoản.",
+  "upgradeWithGoogle": "Tiếp tục với Google",
   "signOut": "Đăng xuất",
-
-  "snackUpgraded": "Tài khoản được nâng cấp bằng Google ✅",
+  "snackUpgraded": "Tài khoản đã được nâng cấp bằng Google ✅",
   "snackSignedIn": "Đã đăng nhập bằng Google ✅",
   "snackSignedOut": "Đã đăng xuất",
   "snackSignedInApple": "Đã đăng nhập bằng Apple ✅",
   "snackSignedInGoogle": "Đã đăng nhập bằng Google ✅",
-  "snackUpgradedApple": "Tài khoản được nâng cấp bằng Apple ✅",
-  "snackUpgradedGoogle": "Tài khoản được nâng cấp bằng Google ✅",
-
-  "historyTitle": "Suy tư trước đó",
-  "historyOpenCta": "Suy tư trước đó",
-  "historyEmpty": "Chưa có suy tư được lưu.",
-  "historyDeleteTitle": "Xóa suy tư?",
-  "historyDeleteBody": "Điều này sẽ xóa vĩnh viễn mục đã chọn.",
+  "snackUpgradedApple": "Tài khoản đã được nâng cấp bằng Apple ✅",
+  "snackUpgradedGoogle": "Tài khoản đã được nâng cấp bằng Google ✅",
+  "historyTitle": "Các suy ngẫm trước đây",
+  "historyOpenCta": "Các suy ngẫm trước đây",
+  "historyEmpty": "Chưa có suy ngẫm nào được lưu.",
+  "historyDeleteTitle": "Xóa suy ngẫm này?",
+  "historyDeleteBody": "Việc này sẽ xóa vĩnh viễn mục đã chọn.",
   "deleteCta": "Xóa",
-
-  "historyButton": "Suy tư trước đó",
-  "historyEmptyTitle": "Chưa có suy tư",
-  "historyEmptyBody": "Tạo một cái gì đó trước — các mục được lưu sẽ xuất hiện ở đây.",
+  "historyButton": "Các suy ngẫm trước đây",
+  "historyEmptyTitle": "Chưa có suy ngẫm nào",
+  "historyEmptyBody": "Hãy tạo nội dung trước — các mục đã lưu của bạn sẽ xuất hiện ở đây.",
   "historyDelete": "Xóa",
-
-  "footerTitle": "Với Iman, sabr và rahma.",
-  "footerSubtitle": "Từng bước một.",
-  "genericErrorSnack": "Điều gì đó đã sai — vui lòng thử lại trong chốc lát.",
-
-  "upgradeAccountCta": "Lưu suy tư của bạn trên các thiết bị – tạo tài khoản",
+  "footerTitle": "Với Wilaya, Iman và Sabr",
+  "footerSubtitle": "Từng lời nguyện một",
+  "genericErrorSnack": "Đã xảy ra lỗi — vui lòng thử lại sau ít phút.",
+  "upgradeAccountCta": "Lưu các suy ngẫm của bạn trên nhiều thiết bị – tạo tài khoản",
   "deleteAccount": "Xóa tài khoản",
   "exportData": "Xuất dữ liệu của tôi",
-
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Label before showing the internal Firebase UID.",
+    "description": "Nhãn hiển thị trước UID nội bộ của Firebase.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Nhẹ nhàng 🐯\nAI cần một lúc trước cái tiếp theo…",
-  "rateDailyLimit": "Bạn hết suy tư cho bây giờ.\nNhận thêm suy tư hoặc nâng cấp lên Barakah.",
-  "rateCreditsExhausted": "Bạn đã sử dụng hết tất cả suy tư của mình.\nBổ sung hoặc nâng cấp lên Barakah để tiếp tục.",
-  "rateGraceReflectionsExhausted": "Bạn hết suy tư cho bây giờ.\nNhận thêm suy tư hoặc nâng cấp lên Barakah.",
-  "rateReflectionsExhausted": "Bạn đã sử dụng hết tất cả suy tư của mình.\nBổ sung hoặc nâng cấp lên Barakah để tiếp tục.",
-
-  "blessedDescription": "Barakah mở khóa các tính năng cao cấp, các danh mục trong tương lai, và một huy hiệu đặc biệt.",
-  "championDescription": "Barakah mở khóa các tính năng cao cấp, các danh mục trong tương lai, và một huy hiệu đặc biệt.",
-
-  "ratePlanExhausted": "Suy tư của bạn trống rỗng ngay bây giờ. Kế hoạch: {plan}.",
+  "rateLocalThrottle": "Chậm lại nào 🐯\nAyara cần một chút thời gian trước lần tiếp theo…",
+  "rateDailyLimit": "Hiện tại bạn đã hết lượt suy ngẫm.\nHãy nhận thêm lượt hoặc nâng cấp lên Wilaya.",
+  "rateCreditsExhausted": "Bạn đã dùng hết tất cả lượt suy ngẫm.\nNạp thêm hoặc nâng cấp lên Wilaya để tiếp tục.",
+  "rateGraceCreditsExhausted": "Hiện tại bạn đã hết lượt suy ngẫm.\nHãy nhận thêm lượt hoặc nâng cấp lên Wilaya.",
+  "premiumDescription": "Wilaya mở khóa các tính năng cao cấp, danh mục trong tương lai và một huy hiệu đặc biệt.",
+  "ratePlanExhausted": "Hiện tại lượt suy ngẫm của bạn đã hết. Gói: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "description": "Hiển thị khi lượt suy ngẫm của người dùng đã hết nhưng lý do mang tính chung chung.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Tiêu chuẩn hoặc Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Tiêu chuẩn hoặc Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "Không thể kiểm tra suy tư của bạn: {message}",
+  "rateCheckFailed": "Không thể kiểm tra lượt suy ngẫm của bạn: {message}",
   "@rateCheckFailed": {
-    "description": "Shown when the callable function returns an error message.",
+    "description": "Hiển thị khi hàm callable trả về thông báo lỗi.",
     "placeholders": {
-      "message": { "type": "String", "example": "Lỗi mạng" }
+      "message": {
+        "type": "String",
+        "example": "Lỗi mạng"
+      }
     }
   },
-
-  "rateCheckGenericError": "Điều gì đó đã sai khi kiểm tra suy tư của bạn.",
-  "aiFallbackGeneric": "Điều gì đó đã sai — vui lòng thử lại trong chốc lát.",
-
-  "limitSectionTitle": "Suy tư",
-  "limitTodayLabel": "Cách sử dụng",
-  "limitCreditsLabel": "Suy tư còn lại: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "Kế hoạch: {plan}",
-  "@limitPlanLabel": {
-    "description": "Shows the current subscription plan name.",
+  "rateCheckGenericError": "Đã xảy ra lỗi khi kiểm tra lượt suy ngẫm của bạn.",
+  "aiFallbackGeneric": "Đã xảy ra lỗi — vui lòng thử lại sau ít phút.",
+  "limitSectionTitle": "Lượt suy ngẫm",
+  "limitTodayLabel": "Mức sử dụng",
+  "limitCreditsLabel": "Lượt suy ngẫm còn lại: {credits}",
+  "@limitCreditsLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Tiêu chuẩn hoặc Barakah" }
+      "credits": {}
+    }
+  },
+  "limitPlanLabel": "Gói: {plan}",
+  "@limitPlanLabel": {
+    "description": "Hiển thị tên gói đăng ký hiện tại.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Tiêu chuẩn hoặc Wilaya"
+      }
     }
   },
   "limitLoadingLabel": "Đang tải…",
-  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
-
-  "aiLimitTitle": "Suy tư",
-  "aiLimitSubtitle": "Mỗi câu trả lời sử dụng 1 suy tư. Tiêu chuẩn bao gồm suy tư khởi động. Barakah mở khóa các danh mục cao cấp và cho phép bổ sung.",
-  "aiLimitProgressLabel": "{used} / {total} suy tư đã sử dụng",
+  "limitLoadingLabelDescription": "Hiển thị trong thẻ lượt suy ngẫm khi đang tải thống kê sử dụng.",
+  "aiLimitTitle": "Lượt suy ngẫm",
+  "aiLimitSubtitle": "Mỗi phản hồi sử dụng 1 lượt suy ngẫm. Gói Tiêu chuẩn bao gồm lượt khởi đầu. Wilaya mở khóa danh mục cao cấp và cho phép nạp thêm.",
+  "aiLimitProgressLabel": "Đã dùng {used} / {total} lượt suy ngẫm",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Suy tư",
-  "reflectionsUsageLabel": "Cách sử dụng",
-  "reflectionsRemainingLabel": "Suy tư còn lại: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Kế hoạch: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Shows the current plan name.",
+  "creditsSectionTitle": "Lượt suy ngẫm",
+  "creditsUsageLabel": "Mức sử dụng",
+  "creditsRemainingLabel": "Lượt suy ngẫm còn lại: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Tiêu chuẩn hoặc Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Đang tải…",
-  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
-
-  "reflectionsTitle": "Suy tư",
-  "reflectionsSubtitle": "Mỗi câu trả lời sử dụng 1 suy tư. Tiêu chuẩn bao gồm suy tư khởi động. Barakah mở khóa các danh mục cao cấp và cho phép bổ sung.",
-  "reflectionsProgressLabel": "{used} / {total} suy tư đã sử dụng",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Gói: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Hiển thị tên gói hiện tại.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Tiêu chuẩn hoặc Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Đang tải…",
+  "creditsLoadingLabelDescription": "Hiển thị khi đang tải thống kê lượt suy ngẫm.",
+  "creditsTitle": "Lượt suy ngẫm",
+  "creditsSubtitle": "Mỗi phản hồi sử dụng 1 lượt suy ngẫm. Gói Tiêu chuẩn bao gồm lượt khởi đầu. Wilaya mở khóa danh mục cao cấp và cho phép nạp thêm.",
+  "creditsProgressLabel": "Đã dùng {used} / {total} lượt suy ngẫm",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "Xóa tài khoản",
-  "settingsDeleteDescription": "Xóa vĩnh viễn tài khoản và tất cả dữ liệu liên quan của bạn.",
+  "settingsDeleteDescription": "Xóa vĩnh viễn tài khoản của bạn và toàn bộ dữ liệu liên quan.",
   "settingsDeleteButtonLabel": "Xóa tài khoản của tôi",
   "settingsDeleteDialogTitle": "Xóa tài khoản?",
-  "settingsDeleteDialogBody": "Hành động này là vĩnh viễn và không thể hoàn tác.\n\nTất cả cuộc trò chuyện, lịch sử và thông tin tài khoản của bạn sẽ bị xóa.",
+  "settingsDeleteDialogBody": "Hành động này là vĩnh viễn và không thể hoàn tác.\n\nToàn bộ cuộc trò chuyện, lịch sử và thông tin tài khoản của bạn sẽ bị xóa.",
   "settingsDeleteDialogCancel": "Hủy",
   "settingsDeleteDialogConfirm": "Xóa",
-
-  "settingsFreeLimitUsedTitle": "Suy tư khởi động đã sử dụng",
-  "settingsFreeLimitUsedDescription": "Suy tư khởi động cho thiết bị này đã được sử dụng. Nâng cấp lên Barakah hoặc mua thêm suy tư để tiếp tục.",
-
-  "settingsStarterReflectionsUsedTitle": "Suy tư khởi động đã sử dụng",
-  "settingsStarterReflectionsUsedDescription": "Suy tư khởi động cho thiết bị này đã được sử dụng. Nâng cấp lên Barakah hoặc mua thêm suy tư để tiếp tục.",
-
-  "deviceBoundError": "Thiết bị này đã được liên kết với tài khoản khác. Vui lòng đăng nhập bằng tài khoản gốc.",
-
-  "premiumTitle": "Chế độ Barakah",
-  "premiumSubtitleBasic": "Mở khóa trải nghiệm Ayara đầy đủ.",
-  "premiumSubtitleChampion": "Bạn là Barakah. Cần thêm suy tư?",
-
-  "premiumCurrentPlan": "Kế hoạch hiện tại: {plan}",
-  "premiumCreditsStatus": "Suy tư: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "Mua hàng hiện không khả dụng.",
-  "premiumSignInToPurchase": "Đăng nhập để mua suy tư hoặc mở khóa Barakah.",
-
-  "premiumRestorePurchases": "Khôi phục các giao dịch mua",
+  "settingsFreeLimitUsedTitle": "Đã dùng hết lượt suy ngẫm khởi đầu",
+  "settingsFreeLimitUsedDescription": "Lượt suy ngẫm khởi đầu cho thiết bị này đã được sử dụng. Nâng cấp lên Wilaya hoặc mua thêm lượt để tiếp tục.",
+  "settingsStarterCreditsUsedTitle": "Đã dùng hết lượt suy ngẫm khởi đầu",
+  "settingsStarterCreditsUsedDescription": "Lượt suy ngẫm khởi đầu cho thiết bị này đã được sử dụng. Nâng cấp lên Wilaya hoặc mua thêm lượt để tiếp tục.",
+  "deviceBoundError": "Thiết bị này đã được liên kết với một tài khoản khác. Vui lòng đăng nhập bằng tài khoản gốc.",
+  "premiumTitle": "Chế độ Wilaya",
+  "premiumSubtitleBasic": "Mở khóa trải nghiệm Ayara trọn vẹn.",
+  "premiumSubtitlePremium": "Bạn đang ở gói Wilaya. Cần thêm lượt suy ngẫm?",
+  "premiumCurrentPlan": "Gói hiện tại: {plan}",
+  "premiumCreditsStatus": "Lượt suy ngẫm: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "Hiện không thể mua hàng.",
+  "premiumSignInToPurchase": "Đăng nhập để mua lượt suy ngẫm hoặc mở khóa Wilaya.",
+  "premiumRestorePurchases": "Khôi phục giao dịch mua",
   "premiumProcessing": "Đang xử lý…",
-  "premiumRestoreHintTitle": "Đã mua Barakah hoặc suy tư trên thiết bị này hoặc thiết bị khác?",
-  "premiumRestoreHintBody": "Khôi phục các giao dịch mua của bạn nếu chúng không xuất hiện.",
-
-  "premiumBuyCredits200": "Mua 200 suy tư",
-  "premiumBuyCredits400": "Mua 400 suy tư",
-  "premiumBecomeChampionOneTime": "Nâng cấp lên chế độ Barakah",
-  "premiumChampionHint": "Là Barakah, bạn có thể bổ sung thêm suy tư bất cứ khi nào cần.",
-
+  "premiumRestoreHintTitle": "Bạn đã mua Wilaya hoặc lượt suy ngẫm trên thiết bị này hoặc thiết bị khác chưa?",
+  "premiumRestoreHintBody": "Khôi phục giao dịch mua nếu chúng chưa hiển thị.",
+  "premiumBuyCredits200": "Mua 200 lượt suy ngẫm",
+  "premiumBuyCredits400": "Mua 400 lượt suy ngẫm",
+  "premiumBecomePremiumOneTime": "Nâng cấp lên chế độ Wilaya",
+  "premiumTopupHint": "Với Wilaya, bạn có thể nạp thêm lượt suy ngẫm bất cứ khi nào cần.",
   "premiumUpgradeCta": "Nâng cấp",
-  "premiumRequiredForCategory": "Danh mục này chỉ dành cho người dùng Barakah. Nâng cấp trong Cài đặt để mở khóa tất cả nội dung cao cấp.",
-  "premiumBenefitsBasic": "Mở khóa Barakah để nhận thêm suy tư, truy cập các danh mục cao cấp, và tiếp tục bất cứ khi nào bạn cần hướng dẫn.",
-  "premiumBenefitsChampion": "Bạn ở chế độ Barakah. Nếu suy tư của bạn sắp hết, hãy thêm suy tư bổ sung và tiếp tục mà không bị gián đoạn.",
-  "premiumButtonBecomeChampion": "Mở khóa Barakah",
-  "premiumButtonTopup1000": "Thêm 1000 suy tư",
-  "premiumChampionBadge": "Barakah hoạt động",
+  "premiumRequiredForCategory": "Danh mục này chỉ dành cho người dùng Wilaya. Nâng cấp trong phần Cài đặt để mở khóa toàn bộ nội dung cao cấp.",
+  "premiumBenefitsBasic": "Mở khóa Wilaya để nhận thêm lượt suy ngẫm, truy cập danh mục cao cấp và tiếp tục bất cứ khi nào bạn cần sự hướng dẫn.",
+  "premiumBenefitsPremium": "Bạn đang ở chế độ Wilaya. Nếu sắp hết lượt, hãy thêm lượt suy ngẫm để tiếp tục không gián đoạn.",
+  "premiumButtonBecomePremium": "Mở khóa Wilaya",
+  "premiumButtonTopup1000": "Thêm 1000 lượt suy ngẫm",
+  "premiumBadge": "Wilaya đang hoạt động",
   "premiumLoadingStore": "Đang tải cửa hàng…",
-
-  "blessedTitle": "Chế độ Barakah",
-  "blessedSubtitleGrace": "Mở khóa trải nghiệm Ayara đầy đủ.",
-  "blessedSubtitleBlessed": "Bạn là Barakah. Cần thêm suy tư?",
-
-  "blessedCurrentPlan": "Kế hoạch hiện tại: {plan}",
-  "blessedReflectionsStatus": "Suy tư: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Mua hàng hiện không khả dụng.",
-  "blessedProductNotAvailable": "Sản phẩm này chưa có trong cửa hàng. Vui lòng thử lại sau.",
-  "blessedPurchaseError": "Điều gì đó đã sai với giao dịch mua. Vui lòng thử lại.",
-  "blessedSignInToPurchase": "Đăng nhập để mua suy tư hoặc mở khóa Barakah.",
-
-  "blessedRestorePurchases": "Khôi phục các giao dịch mua",
-  "blessedProcessing": "Đang xử lý…",
-  "blessedRestoreHintTitle": "Đã mua Barakah hoặc suy tư trên thiết bị này hoặc thiết bị khác?",
-  "blessedRestoreHintBody": "Khôi phục các giao dịch mua của bạn nếu chúng không xuất hiện.",
-
-  "blessedBuyReflections100": "Thêm 100 suy tư",
-  "blessedBuyReflections200": "Mua 200 suy tư",
-  "blessedBuyReflections400": "Mua 400 suy tư",
-  "blessedBecomeBlessedOneTime": "Nâng cấp lên Barakah",
-  "blessedTopupHint": "Là Barakah, bạn có thể bổ sung thêm suy tư bất cứ khi nào cần.",
-
-  "blessedUpgradeCta": "Nâng cấp",
-  "blessedRequiredForCategory": "Danh mục này chỉ dành cho người dùng Barakah. Nâng cấp trong Cài đặt để mở khóa tất cả nội dung cao cấp.",
-  "blessedFeatureLocked": "Mở khóa Barakah để truy cập tính năng này.",
-  "lockedCategoriesHint": "Một số danh mục dành riêng cho thành viên Barakah. Mở khóa chúng để khám phá mọi suy tư trên hành trình của bạn.",
-  "blessedBenefitsGrace": "Mở khóa Barakah để nhận thêm suy tư, truy cập các danh mục cao cấp, và tiếp tục bất cứ khi nào bạn cần hướng dẫn.",
-  "blessedBenefitsBlessed": "Bạn ở chế độ Barakah. Nếu suy tư của bạn sắp hết, hãy thêm suy tư bổ sung và tiếp tục mà không bị gián đoạn.",
-  "blessedButtonBecomeBlessed": "Mở khóa Barakah",
-  "blessedButtonTopup1000": "Thêm 1000 suy tư",
-  "blessedBadge": "Barakah hoạt động",
-  "blessedLoadingStore": "Đang tải cửa hàng…",
-
-  "freePlanBlockedTitle": "Bạn đã sử dụng hết suy tư khởi động",
-  "freePlanBlockedBody": "Bạn ở kế hoạch Tiêu chuẩn với suy tư khởi động, và bạn đã đạt đến giới hạn. Để tiếp tục — và mở khóa các danh mục cao cấp — nâng cấp lên Barakah.",
-  "freePlanBlockedCtaGoPremium": "Xem các tuỳ chọn Barakah dưới đây",
-
-  "graceBlockedTitle": "Bạn đã sử dụng hết suy tư khởi động",
-  "graceBlockedBody": "Bạn ở kế hoạch Tiêu chuẩn với suy tư khởi động, và bạn đã đạt đến giới hạn. Để tiếp tục — và mở khóa các danh mục cao cấp — nâng cấp lên Barakah.",
-  "graceBlockedCtaGoBlessed": "Xem các tuỳ chọn Barakah dưới đây",
-
-  "rateGuestMustSignIn": "Đăng nhập để sử dụng Ayara và suy tư của bạn.",
-
+  "premiumProductNotAvailable": "Sản phẩm này hiện chưa có trong cửa hàng. Vui lòng thử lại sau.",
+  "premiumPurchaseError": "Đã xảy ra lỗi khi mua hàng. Vui lòng thử lại.",
+  "premiumBuyCredits100": "Thêm 100 lượt suy ngẫm",
+  "premiumFeatureLocked": "Mở khóa Wilaya để sử dụng tính năng này.",
+  "lockedCategoriesHint": "Một số danh mục chỉ dành cho thành viên Wilaya. Hãy mở khóa để khám phá mọi suy ngẫm trên hành trình của bạn.",
+  "freePlanBlockedTitle": "Bạn đã dùng hết lượt suy ngẫm khởi đầu",
+  "freePlanBlockedBody": "Bạn đang dùng gói Tiêu chuẩn với lượt suy ngẫm khởi đầu và đã đạt giới hạn. Để tiếp tục — và mở khóa các danh mục cao cấp — hãy nâng cấp lên Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Xem các tùy chọn Wilaya bên dưới",
+  "graceBlockedTitle": "Bạn đã dùng hết lượt suy ngẫm khởi đầu",
+  "graceBlockedBody": "Bạn đang dùng gói Tiêu chuẩn với lượt suy ngẫm khởi đầu và đã đạt giới hạn. Để tiếp tục — và mở khóa các danh mục cao cấp — hãy nâng cấp lên Wilaya.",
+  "graceBlockedCtaGoPremium": "Xem các tùy chọn Wilaya bên dưới",
+  "rateGuestMustSignIn": "Đăng nhập để sử dụng Ayara và lượt suy ngẫm của bạn.",
   "guestNoCreditsTitle": "Chế độ khách",
-  "guestNoCreditsBody": "Là khách, bạn có thể duyệt qua ứng dụng, nhưng bạn không thể sử dụng suy tư. Đăng nhập sau trong Cài đặt để sử dụng suy tư và mở khóa mua hàng.",
-
-  "guestNoReflectionsTitle": "Chế độ khách",
-  "guestNoReflectionsBody": "Là khách, bạn có thể duyệt qua ứng dụng, nhưng bạn không thể sử dụng suy tư. Đăng nhập sau trong Cài đặt để sử dụng suy tư và mở khóa mua hàng.",
-
+  "guestNoCreditsBody": "Khi ở chế độ khách, bạn có thể duyệt ứng dụng nhưng không thể sử dụng lượt suy ngẫm. Hãy đăng nhập sau trong phần Cài đặt để sử dụng lượt suy ngẫm và mở khóa các giao dịch mua.",
   "guestDialogContinue": "Tiếp tục",
   "guestDialogLoginInstead": "Đăng nhập thay thế",
-
-  "optionalLabel": "tuỳ chọn",
-
-  "accountDeleteSuccessTitle": "Tài khoản đã xóa",
+  "optionalLabel": "tùy chọn",
+  "accountDeleteSuccessTitle": "Đã xóa tài khoản",
   "accountDeleteSuccessBody": "Tài khoản và dữ liệu liên quan của bạn đã được xóa thành công.",
   "accountDeleteSuccessClose": "Đóng",
   "accountDeleteErrorTitle": "Không thể xóa tài khoản",
   "accountDeleteErrorClose": "OK",
-  "accountDeleteReauthCancelled": "Xác thực lại đã bị hủy. Vui lòng đăng nhập lại và thử xóa lại.",
-  "accountDeleteReauthRequired": "Xóa tài khoản yêu cầu đăng nhập gần đây. Vui lòng đăng xuất, đăng nhập lại, và thử xóa lại.",
-  "settingsDeletePermanentWarning": "Hành động này là vĩnh viễn và không thể hoàn tác. Tất cả dữ liệu liên quan tới tài khoản của bạn sẽ bị xóa.",
-
-  "dailyGraceTitle": "Hướng dẫn hàng ngày",
-  "dailyGraceScriptureLabel": "CÂUTRÍCH DẪN CỦA NGÀY",
-  "dailyGraceSaintLabel": "BẬCNHÂN VĂN TUẦN NÀY",
-  "dailyGraceReflectionLabel": "SUY TƯ BUỔI TỐI",
-  "dailyGraceCopiedToast": "Câu được sao chép vào clipboard",
-
-  "dailyScripture0Text": "Quả thật, những người công chính sẽ ở giữa những khu vườn và sông, tại một chỗ ngồi danh dự gần một vị Vua toàn năng.",
-  "dailyScripture0Ref": "Quran 54:54-55",
-  "dailyScripture1Text": "Và chúng Tôi đã không gửi anh (Muhammad), ngoài ra, như một lòng thương xót cho những thế giới.",
-  "dailyScripture1Ref": "Quran 21:107",
-  "dailyScripture2Text": "Allah có không đủ cho đầy tớ của Ngài không? Tuy nhiên chúng lại sợ hãi bạn bằng những người khác ngoài Ngài.",
-  "dailyScripture2Ref": "Quran 39:36",
-  "dailyScripture3Text": "Có lẽ anh ghét thứ gì đó và nó tốt cho anh; và có lẽ anh yêu thích thứ gì đó và nó xấu cho anh. Và Allah biết, còn anh không biết.",
-  "dailyScripture3Ref": "Quran 2:216",
-  "dailyScripture4Text": "Quả thật, Allah ở cùng với những kẻ kiên nhẫn.",
-  "dailyScripture4Ref": "Quran 2:153",
-  "dailyScripture5Text": "Vì vậy hãy nhớ tới Tôi; Tôi sẽ nhớ tới anh. Và hãy biết ơn Tôi và đừng phủ nhận Tôi.",
-  "dailyScripture5Ref": "Quran 2:152",
-  "dailyScripture6Text": "Quả thật, những người tôn trọng nhất của anh trong lối nhìn của Allah là những người phẩm hạnh nhất của anh.",
-  "dailyScripture6Ref": "Quran 49:13",
-  "dailyScripture7Text": "Và Chúa của anh đã sắc lệnh rằng anh thờ phụng không ai ngoài Ngài, và rằng anh phải hiếu thảo với cha mẹ anh.",
-  "dailyScripture7Ref": "Quran 17:23",
-  "dailyScripture8Text": "Quả thật, cùng với khó khăn đi kèm với sự nhẹ nhàng.",
-  "dailyScripture8Ref": "Quran 94:6",
-  "dailyScripture9Text": "Và Ngài cùng với anh bất cứ nơi nào anh ở. Và Allah, những gì anh làm, là Chứng kiến.",
-  "dailyScripture9Ref": "Quran 57:4",
-  "dailyScripture10Text": "Allah không gánh nặng một linh hồn vượt quá những gì nó có thể chịu được.",
-  "dailyScripture10Ref": "Quran 2:286",
-  "dailyScripture11Text": "Và bất cứ ai tin tưởng vào Allah — thì Ngài là đủ cho anh ta.",
-  "dailyScripture11Ref": "Quran 65:3",
-  "dailyScripture12Text": "Lòng thương của Tôi bao trùm tất cả mọi thứ.",
-  "dailyScripture12Ref": "Quran 7:156",
-  "dailyScripture13Text": "Và khi những đầy tớ của Tôi hỏi anh về Tôi — quả thật Tôi gần gũi. Tôi phản hồi lời cầu xin của kẻ khi anh gọi Tôi.",
-  "dailyScripture13Ref": "Quran 2:186",
-  "dailyScripture14Text": "Bất cứ ai làm việc công chính, dù nam hay nữ, trong khi là tín đồ — chúng Tôi sẽ chắc chắn làm cho anh ta sống một cuộc sống tốt đẹp.",
-  "dailyScripture14Ref": "Quran 16:97",
-  "dailyScripture15Text": "Quả thật, Allah sẽ không thay đổi tình trạng của một dân tộc cho đến khi họ thay đổi những gì trong chính mình.",
-  "dailyScripture15Ref": "Quran 13:11",
-  "dailyScripture16Text": "Vì vậy đừng yếu đuối và đừng buồn, và anh sẽ vượt trội nếu anh là những tín đồ thật.",
-  "dailyScripture16Ref": "Quran 3:139",
-  "dailyScripture17Text": "Hỡi những đầy tớ của Tôi đã phạm tội chống lại chính mình, đừng tuyệt vọng với lòng thương của Allah. Quả thật, Allah tha thứ tất cả những tội lỗi.",
-  "dailyScripture17Ref": "Quran 39:53",
-  "dailyScripture18Text": "Và bất cứ ai sợ Allah — Ngài sẽ tạo ra một cách thoát cho anh ta, và sẽ cung cấp cho anh ta từ nơi anh ta không mong đợi.",
-  "dailyScripture18Ref": "Quran 65:2-3",
-  "dailyScripture19Text": "Đừng mất hy vọng trong lòng thương của Allah.",
-  "dailyScripture19Ref": "Quran 12:87",
-  "dailyScripture20Text": "Và chúng Tôi chắc chắn đã làm cho Quran dễ nhớ. Vì vậy có ai sẽ có tâm trí không?",
-  "dailyScripture20Ref": "Quran 54:17",
-  "dailyScripture21Text": "Và Ngài đã tìm thấy anh lạc lối và hướng dẫn anh.",
-  "dailyScripture21Ref": "Quran 93:7",
-  "dailyScripture22Text": "Và Chúa của anh nói: Hãy kêu gọi Tôi; Tôi sẽ phản hồi anh.",
-  "dailyScripture22Ref": "Quran 40:60",
-  "dailyScripture23Text": "Và chúng Tôi chắc chắn đã tôn vinh con em của Adam.",
-  "dailyScripture23Ref": "Quran 17:70",
-  "dailyScripture24Text": "Và tìm kiếm sự giúp đỡ qua sự kiên nhẫn và cầu nguyện.",
-  "dailyScripture24Ref": "Quran 2:45",
-  "dailyScripture25Text": "Ai làm một trọng lượng nguyên tử tốt sẽ thấy nó.",
-  "dailyScripture25Ref": "Quran 99:7",
-  "dailyScripture26Text": "Không thể phủ nhận, sự giúp đỡ của Allah là gần.",
-  "dailyScripture26Ref": "Quran 2:214",
-  "dailyScripture27Text": "Và ai là lòng biết ơn — thì lòng biết ơn của anh ta chỉ là vì lợi ích của chính anh ta.",
-  "dailyScripture27Ref": "Quran 31:12",
-
-  "dailyReflection0": "Khi ngày này kết thúc, hãy xem xét một khoảnh khắc nơi lòng thương của Allah được bày tỏ.",
-  "dailyReflection1": "Mang trước Allah bất cứ điều gì khiến tâm của bạn nặng nề hôm nay.",
-  "dailyReflection2": "Gọi tên một phước lành từ ngày hôm nay và bày tỏ lòng biết ơn Allah.",
-  "dailyReflection3": "Hãy an nghỉ với kiến thức rằng bạn được nắm giữ trong sự chăm sóc vô hạn của Allah.",
-  "dailyReflection4": "Hãy suy ngẫm về nơi bạn cảm thấy được gọi để thể hiện lòng từ bi và tốt bụng hôm nay.",
-  "dailyReflection5": "Hãy buông bỏ những gì bạn không thể kiểm soát và tin tưởng vào kế hoạch hoàn hảo của Allah.",
-  "dailyReflection6": "Khi ngày sắp đóng lại, hãy nhận yên bình trong việc nhắc nhở Allah.",
-  "dailyReflection7": "Hãy xem xét cách bạn tôn trọng các cầu nguyện hôm nay, và cảm ơn Allah cho mỗi cái.",
-  "dailyReflection8": "Hãy suy ngẫm về một khoảnh khắc nơi kiên nhẫn (Sabr) hướng dẫn hành động của bạn hôm nay.",
-  "dailyReflection9": "Xin tha thứ cho bất kỳ sự thiếu sót nào hôm nay — lòng thương của Allah là vô tận.",
-  "dailyReflection10": "Gọi tên một người bạn thể hiện tốt bụng với hôm nay và làm dua cho họ.",
-  "dailyReflection11": "Hãy ngồi với lòng biết ơn: Allah đã cung cấp gì hôm nay mà bạn không yêu cầu?",
-  "dailyReflection12": "Hãy suy ngẫm về một câu từ Quran nói về nơi bạn đang ở ngay bây giờ.",
-  "dailyReflection13": "Hãy xem xét cách bạn sử dụng thời gian hôm nay — và trao ngày mai cho Allah.",
-  "dailyReflection14": "Hãy an nghỉ biết rằng bất kỳ khó khăn nào xảy ra hôm nay, Allah đã ở cùng bạn.",
-  "dailyReflection15": "Hãy nghĩ về một cách bạn phục vụ gia đình hoặc cộng đồng hôm nay vì Allah.",
-  "dailyReflection16": "Khi đêm xuống, hãy làm Tawbah — Allah yêu những người quay trở lại Ngài.",
-  "dailyReflection17": "Hãy suy ngẫm về vẻ đẹp Allah đặt trong ngày của bạn, dù nhỏ bé.",
-  "dailyReflection18": "Hãy xem xét những gì bạn học hôm nay và cách nó khiến bạn gần gũi với Allah hơn.",
-  "dailyReflection19": "Hãy để những lo lắng của ngày đó an nghỉ cùng Allah — Ngài mang những gì bạn không thể.",
-  "dailyReflection20": "Hãy nghĩ về một khoảnh khắc hôm nay nơi bạn có thể đã chọn tốt hơn, và học hỏi từ nó một cách nhẹ nhàng.",
-  "dailyReflection21": "Làm dua cho những người đang gặp khó khăn — lời cầu xin của bạn là một món quà cho họ.",
-  "dailyReflection22": "Hãy gọi lại một phước lành mà bạn thường bỏ qua và dành một chút thời gian để cảm ơn Allah.",
-  "dailyReflection23": "Hãy suy ngẫm về ý định của bạn hôm nay — chúng có dành cho Allah không? Ngày mai, hãy bắt đầu lại.",
-  "dailyReflection24": "Khi đêm yên tĩnh, hãy lắng nghe để cảm nhận sự gần gũi của Allah trong sự yên lặng.",
-  "dailyReflection25": "Hãy xem xét nơi bạn tìm thấy sức mạnh hôm nay — sức mạnh đó đến từ Allah.",
-  "dailyReflection26": "Gọi tên một điều bạn sẽ làm ngày mai, vì Allah, mà bạn không làm hôm nay.",
-  "dailyReflection27": "Khi bạn chuẩn bị để nghỉ ngơi, hãy giao phó linh hồn của bạn cho Allah — Ngài là bậc thủ lĩnh tốt nhất.",
-
-  "dailyRoleModel0": "Tiên tri Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Tiên tri Ibrahim (AS)",
-  "dailyRoleModel44": "Tiên tri Musa (AS)",
-  "dailyRoleModel45": "Tiên tri Isa (AS)",
-  "dailyRoleModel46": "Tiên tri Yusuf (AS)",
-  "dailyRoleModel47": "Tiên tri Dawud (AS)",
-  "dailyRoleModel48": "Tiên tri Sulayman (AS)",
-  "dailyRoleModel49": "Tiên tri Nuh (AS)",
-  "dailyRoleModel50": "Tiên tri Yunus (AS)",
-  "dailyRoleModel51": "Tiên tri Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Cho phép Ayara sử dụng vị trí của tôi cho hướng Qibla và thời gian cầu nguyện",
-  "locationConsentHint": "Chỉ được sử dụng cho các tính năng này. Vị trí của bạn không bao giờ được chia sẻ hoặc lưu trữ.",
-
+  "accountDeleteReauthCancelled": "Việc xác thực lại đã bị hủy. Vui lòng đăng nhập lại và thử xóa lần nữa.",
+  "accountDeleteReauthRequired": "Việc xóa tài khoản yêu cầu đăng nhập gần đây. Vui lòng đăng xuất, đăng nhập lại rồi thử lại.",
+  "settingsDeletePermanentWarning": "Hành động này là vĩnh viễn và không thể hoàn tác. Tất cả dữ liệu liên quan đến tài khoản của bạn sẽ bị xóa.",
+  "dailyGraceTitle": "Hướng dẫn hằng ngày",
+  "dailyGraceScriptureLabel": "CÂU KINH TRONG NGÀY",
+  "dailyGraceSaintLabel": "HỌC GIẢ TRONG TUẦN",
+  "dailyGraceReflectionLabel": "SUY NGẪM BUỔI TỐI",
+  "dailyGraceCopiedToast": "Đã sao chép câu kinh vào khay nhớ tạm",
+  "locationConsentLabel": "Cho phép Ayara sử dụng vị trí của tôi để xác định hướng Qibla và thời gian cầu nguyện",
+  "locationConsentHint": "Chỉ dùng cho các tính năng này. Vị trí của bạn không bao giờ được chia sẻ hay lưu trữ.",
   "askPageTitle": "Hỏi Ayara",
-  "askPageDescription": "Hỏi bất cứ điều gì về đức tin, cầu nguyện, cuộc sống, hoặc thực hành Islam và nhận hướng dẫn dựa trên Quran và Sunnah.",
-  "askPageInputHint": "Gõ câu hỏi của bạn ở đây…",
+  "askPageDescription": "Hỏi bất cứ điều gì về đức tin, lời nguyện, cuộc sống hoặc thực hành Hồi giáo và nhận hướng dẫn dựa trên Kinh Qur'an và giáo huấn của Ahl al-Bayt.",
+  "askPageInputHint": "Nhập câu hỏi của bạn tại đây…",
   "askPageSubmitCta": "Hỏi",
   "askPageInputEmptyError": "Vui lòng viết một câu hỏi trước.",
   "askResultYourQuestion": "Câu hỏi của bạn",
-
-  "guidancePageTitle": "Cầu nguyện & Hướng dẫn",
-  "qiblaFacingMecca": "Hướng tới Makkah",
-  "qiblaCompassInstruction": "Xoay điện thoại của bạn cho đến khi kim vàng chỉ hướng lên trên.\nHướng đó chỉ tới Qibla (Makkah).",
-  "qiblaGpsUnavailableBody": "Tín hiệu GPS yếu. Di chuyển ra ngoài trời và nhấn Thử lại.",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "Hướng về Makkah",
+  "qiblaCompassInstruction": "Xoay điện thoại cho đến khi kim vàng chỉ thẳng lên trên.\nHướng đó là hướng Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Tín hiệu GPS yếu. Hãy ra ngoài trời và chạm vào Thử lại.",
   "qiblaRetry": "Thử lại",
   "qiblaTitle": "Hướng Qibla",
-  "qiblaDistanceLabel": "{km} km tới Makkah",
+  "qiblaDistanceLabel": "{km} km đến Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
   "qiblaLocationNeededTitle": "Cần vị trí",
-  "qiblaLocationNeededBody": "Cho phép truy cập vị trí để Ayara có thể tính toán hướng của Kaaba ở Makkah từ nơi bạn ở.",
+  "qiblaLocationNeededBody": "Cho phép truy cập vị trí để Ayara có thể tính hướng đến Kaaba ở Makkah từ nơi bạn đang đứng.",
   "qiblaOpenSettings": "Mở Cài đặt",
-  "qiblaCompassLoading": "Đang tìm vị trí của bạn…",
-  "qiblaTowardMecca": "Hướng tới Makkah",
-
-  "prayerTimesTitle": "Thời gian Cầu nguyện",
+  "qiblaCompassLoading": "Đang xác định vị trí của bạn…",
+  "qiblaTowardMecca": "Về phía Makkah",
+  "prayerTimesTitle": "Giờ cầu nguyện",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Cần vị trí",
-  "prayerTimesLocationNeededBody": "Cho phép truy cập vị trí để Ayara có thể tính toán thời gian cầu nguyện chính xác cho thành phố của bạn.",
+  "prayerTimesLocationNeededBody": "Cho phép truy cập vị trí để Ayara có thể tính chính xác giờ cầu nguyện cho thành phố của bạn.",
   "prayerTimesNextLabel": "Tiếp theo",
   "prayerTimesDoneLabel": "Xong",
-
-  "monthlyPrayerTimesTitle": "Thời gian Cầu nguyện Hàng tháng",
-  "monthlyPrayerTimesViewButton": "Xem Toàn bộ Tháng",
-  "monthlyPrayerTimesNextMonth": "Tháng tới",
+  "monthlyPrayerTimesTitle": "Giờ cầu nguyện theo tháng",
+  "monthlyPrayerTimesViewButton": "Xem cả tháng",
+  "monthlyPrayerTimesNextMonth": "Tháng sau",
   "monthlyPrayerTimesDayHeader": "Ngày",
-
-  "sharePrayerTimes": "Chia sẻ thời gian cầu nguyện",
-
-  "prayerNotificationsTitle": "Nhắc nhở Cầu nguyện",
-  "prayerNotificationsDescription": "Nhận một lời nhắc nhở nhẹ nhàng trước mỗi thời gian cầu nguyện để giúp bạn kết nối suốt cả ngày.",
-  "prayerNotificationsEnable": "Bật nhắc nhở cầu nguyện",
+  "sharePrayerTimes": "Chia sẻ giờ cầu nguyện",
+  "notificationsSectionTitle": "Thông báo",
+  "notificationsSectionSubtitle": "Nhắc giờ cầu nguyện, sự kiện lịch và hơn thế nữa",
+  "dailyReflectionReminderTitle": "Suy ngẫm hằng ngày",
+  "dailyReflectionReminderDescription": "Một lời nhắc nhẹ nhàng hằng ngày để mở Ayara và kết nối với đức tin của bạn.",
+  "dailyReflectionReminderEnable": "Bật lời nhắc hằng ngày",
+  "dailyReflectionReminderTimeLabel": "Thời gian nhắc",
+  "prayerNotificationsTitle": "Nhắc giờ cầu nguyện",
+  "prayerNotificationsDescription": "Nhận lời nhắc nhẹ nhàng trước mỗi giờ cầu nguyện để giúp bạn luôn gắn kết suốt cả ngày.",
+  "prayerNotificationsEnable": "Bật nhắc giờ cầu nguyện",
   "prayerNotificationsOpenSettings": "Mở cài đặt thông báo",
-  "prayerNotificationsDenied": "Thông báo bị vô hiệu hóa",
-  "prayerNotificationsDeniedHint": "Đi tới Cài đặt và cho phép thông báo cho Ayara để nhận nhắc nhở thời gian cầu nguyện.",
-
-  "notificationsConsentLabel": "Cho phép thông báo cho thời gian cầu nguyện",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — Cầu nguyện Bình minh",
-  "prayerNotifBodyFajr": "Cầu nguyện tốt nhất là cầu nguyện bình minh. Thức dậy, tẩy uế bản thân, và đứng trước Allah.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Cầu nguyện Giữa trưa",
-  "prayerNotifBodyDhuhr": "Tạm dừng ngày của bạn và quay trở lại Allah. Thời gian cầu nguyện Dhuhr đã tới.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — Cầu nguyện Chiều tối",
-  "prayerNotifBodyAsr": "Bảo vệ cầu nguyện ở giữa. Thời gian Asr đã đến — đừng để nó qua đi.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — Cầu nguyện Hoàng hôn",
-  "prayerNotifBodyMaghrib": "Mặt trời đã lặn. Thực hiện Maghrib và cảm ơn Allah cho ngày hôm nay.",
-
-  "prayerNotifTitleIsha": "🌙 Isha — Cầu nguyện Đêm",
-  "prayerNotifBodyIsha": "Kết thúc ngày của bạn với việc nhắc nhở Allah. Hayya 'alal falah — hãy đến thành công.",
-
-  "outOfReflectionsBannerText": "Bạn đã sử dụng hết tất cả suy tư của mình",
+  "prayerNotificationsDenied": "Thông báo đã bị tắt",
+  "prayerNotificationsDeniedHint": "Vào phần Cài đặt và cho phép thông báo cho Ayara để nhận nhắc giờ cầu nguyện.",
+  "notificationsConsentLabel": "Cho phép thông báo về giờ cầu nguyện",
+  "prayerNotifTitleFajr": "🌅 Fajr — Lời nguyện bình minh",
+  "prayerNotifBodyFajr": "Fajr là lời nguyện của buổi sớm theo truyền thống Ahl al-Bayt. Imam Ali (AS) nói: Hãy gìn giữ lời nguyện bình minh như bạn gìn giữ điều quý giá nhất được giao phó cho mình. Hãy thức dậy, thanh tẩy bản thân và đứng trước Allah.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Lời nguyện giữa trưa",
+  "prayerNotifBodyDhuhr": "Các Imam của Ahl al-Bayt quý trọng từng khoảnh khắc tưởng nhớ. Hãy tạm dừng ngày của bạn, kết hợp Dhuhr với Asr nếu cần, và hướng trái tim trở lại với Allah.",
+  "prayerNotifTitleAsr": "🌤️ Asr — Lời nguyện buổi chiều",
+  "prayerNotifBodyAsr": "Hãy gìn giữ lời nguyện, bởi đó là giao ước giữa bạn và Allah. Giờ Asr đã đến — đừng để nó trôi qua mà không có sự tưởng nhớ.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Lời nguyện lúc hoàng hôn",
+  "prayerNotifBodyMaghrib": "Mặt trời đã lặn — khoảnh khắc mà Ahl al-Bayt xem là thiêng liêng cho lời cầu xin. Hãy dâng Maghrib và giơ tay cầu nguyện với Allah trước khi đêm xuống.",
+  "prayerNotifTitleIsha": "🌙 Isha — Lời nguyện ban đêm",
+  "prayerNotifBodyIsha": "Hãy kết thúc ngày của bạn trong sự hiện diện của Allah. Các Imam khuyến khích Salat al-Layl sau Isha — nhưng trước tiên, hãy hoàn thành Isha và khép lại ngày bằng sự tưởng nhớ Ngài.",
+  "outOfReflectionsBannerText": "Bạn đã dùng hết tất cả lượt suy ngẫm",
   "outOfReflectionsBannerCta": "Nhận thêm",
-
   "dhikrPageTitle": "Dhikr",
-  "dhikrTapToCount": "Chạm vòng tròn để đếm",
+  "dhikrTapToCount": "Chạm vào vòng tròn để đếm",
   "dhikrResetButton": "Đặt lại",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Bạn đã hoàn thành 99 lần nhắc nhở Allah. Có thể chúng là ánh sáng cho trái tim bạn.",
-
-  "disclaimerTitle": "Về hướng dẫn của ứng dụng này",
-  "disclaimerBody": "Ayara cung cấp các suy tư Islam, lời nhắc nhở, và nội dung tâm linh để hỗ trợ hành trình đức tin cá nhân của bạn. Nội dung này được cung cấp chỉ cho mục đích thông tin chung và truyền cảm hứng.\n\nAyara không thay thế học vấn xứng đáng.\nHướng dẫn trong ứng dụng này không phải là sự thay thế cho một học giả Islam, imam, mufti, hoặc giáo viên được đào tạo về thần học có trình độ. Nếu bạn có câu hỏi về các chỉ dẫn tôn giáo, những gì haram và halal, hoặc các nghĩa vụ tôn giáo cá nhân, vui lòng tìm kiếm lời khuyên từ một tổ chức tôn giáo có trình độ trong cộng đồng của bạn.\n\nỨng dụng này không ra quyết định tôn giáo.\nAyara không đưa ra quyết định có tính chuẩn mực về các vấn đề fiqh (luật học Islam) hoặc các nghĩa vụ tôn giáo cá nhân. Không có gì ở đây nên được coi là một fatwa hoặc hướng dẫn tôn giáo có ràng buộc.\n\nCác cách hiểu của học giả khác nhau.\nIslam bao gồm một sự đa dạng phong phú các truyền thống, trường phái tư tưởng (madhabs), và ý kiến của học giả. Nội dung trong ứng dụng này phản ánh các quan điểm chung và có thể không đại diện cho mọi truyền thống hoặc trường học một cách bằng nhau.\n\nCộng đồng quan trọng.\nỨng dụng này nhằm mục đích khuyến khích sự tham gia của bạn với các truyền thống tín ngưỡng trong khi tôn trọng sâu sắc vai trò quan trọng của nhà thờ Hồi giáo địa phương, imam, và cộng đồng tôn giáo của bạn. Chúng tôi khuyến khích bạn ở lại kết nối với và học hỏi từ các giáo viên đủ tiêu chuẩn gần bạn.",
-  "disclaimerClose": "Tôi hiểu rồi",
-  "disclaimerInfoTooltip": "Về hướng dẫn của ứng dụng này",
-  "disclaimerSettingsSubtitle": "Chỉ cho mục đích thông tin chung. Chạm để đọc tuyên bố từ chối trách nhiệm đầy đủ.",
-  "disclaimerSectionHeader": "Tuyên bố từ chối hướng dẫn"
+  "dhikrCompleteMessage": "Bạn đã hoàn thành 100 lần tưởng nhớ Allah. Cầu mong đó là ánh sáng cho trái tim bạn.",
+  "disclaimerTitle": "Về phần hướng dẫn trong ứng dụng này",
+  "disclaimerBody": "Ayara cung cấp những suy ngẫm Hồi giáo, lời nhắc và nội dung tâm linh nhằm hỗ trợ hành trình đức tin cá nhân của bạn, bắt nguồn từ Qur'an và giáo huấn của Ahl al-Bayt. Nội dung này chỉ được cung cấp cho mục đích thông tin và truyền cảm hứng chung.\n\nAyara không thay thế học giả có chuyên môn.\nPhần hướng dẫn trong ứng dụng này không thay thế cho một học giả Hồi giáo uyên bác, marja', hay người thầy được đào tạo thần học. Trong Hồi giáo Shia, sự hướng dẫn tôn giáo bắt nguồn từ trường phái luật Ja'fari (fiqh) và truyền thống theo một Marja' đang sống (nguồn mô phỏng) — một học giả luật đủ năng lực với các phán quyết hướng dẫn tín đồ trong thực hành tôn giáo. Nếu bạn có câu hỏi về các phán quyết tôn giáo, vấn đề halal và haram, hoặc nghĩa vụ tôn giáo cá nhân, xin hãy tìm lời khuyên từ một Marja' đủ năng lực hoặc học giả trong cộng đồng của bạn.\n\nỨng dụng này không đưa ra phán quyết tôn giáo.\nAyara không đưa ra những kết luận có thẩm quyền về các vấn đề fiqh hoặc nghĩa vụ tôn giáo cá nhân. Không nội dung nào ở đây nên được xem là fatwa hay chỉ dẫn tôn giáo mang tính ràng buộc.\n\nTính trung tâm của Ahl al-Bayt.\nTrong Hồi giáo Shia, Nhà Tiên tri Muhammad ﷺ và gia quyến tinh sạch của ngài — Ahl al-Bayt — là những người hướng dẫn có thẩm quyền của cộng đồng Hồi giáo sau Qur'an. Mười hai Imam của Ahl al-Bayt là những người diễn giải giáo huấn Hồi giáo do Allah chỉ định. Nội dung trong ứng dụng này phản ánh truyền thống đó và cố gắng tôn vinh nó một cách trung thành.\n\nVai trò của cộng đồng.\nỨng dụng này nhằm khuyến khích bạn gắn bó với đức tin, đồng thời tôn trọng sâu sắc vai trò thiết yếu của nhà thờ Hồi giáo địa phương, trung tâm Hồi giáo và cộng đồng tôn giáo của bạn. Chúng tôi khuyến khích bạn duy trì kết nối và học hỏi từ những giáo viên đủ năng lực ở gần bạn.",
+  "disclaimerClose": "Tôi hiểu",
+  "disclaimerInfoTooltip": "Về phần hướng dẫn trong ứng dụng này",
+  "disclaimerSettingsSubtitle": "Chỉ dành cho mục đích thông tin chung. Chạm để đọc toàn bộ tuyên bố miễn trừ.",
+  "disclaimerSectionHeader": "Tuyên bố miễn trừ về hướng dẫn",
+  "navHome": "Trang chủ",
+  "navReflect": "Suy ngẫm",
+  "navDuas": "Dua",
+  "navCalendar": "Lịch",
+  "dashboardToday": "HÔM NAY",
+  "dashboardComingUp": "Sắp tới",
+  "dashboardDaysUnit": "{count, plural, one {ngày} other {ngày}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Truy cập nhanh",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Hướng dẫn",
+  "quickActionPrayerTimes": "Giờ cầu nguyện",
+  "askAyaraTitle": "Hỏi Ayara",
+  "askAyaraSubtitle": "Hãy đặt bất kỳ câu hỏi Hồi giáo nào và nhận một câu trả lời chu đáo, đầy định hướng.",
+  "askAyaraHint": "ví dụ: Ý nghĩa của Ramadan là gì?",
+  "askAyaraSubmit": "Hỏi",
+  "wisdomOfTheDayTitle": "Lời minh triết trong ngày",
+  "calendarScreenTitle": "Lịch Hồi giáo",
+  "calendarUpcomingOccasions": "Các dịp sắp tới",
+  "calendarOccasionRemindersTitle": "Nhắc nhở các dịp đặc biệt",
+  "calendarOccasionRemindersHint": "Thông báo vào tối hôm trước mỗi dịp",
+  "calendarNotifPermissionDenied": "Quyền thông báo bị từ chối. Hãy bật trong cài đặt thiết bị của bạn.",
+  "calendarNoEvents": "Không tìm thấy sự kiện sắp tới nào.",
+  "calendarAddToPhone": "Thêm vào Lịch Điện Thoại",
+  "calendarAddedToPhone": "Đã thêm vào Lịch",
+  "calendarCountdownToday": "HÔM NAY",
+  "calendarCountdownTomorrow": "NGÀY MAI",
+  "calendarCountdownDays": "sau {days} ngày",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Th1",
+  "calendarMonthFeb": "Th2",
+  "calendarMonthMar": "Th3",
+  "calendarMonthApr": "Th4",
+  "calendarMonthMay": "Th5",
+  "calendarMonthJun": "Th6",
+  "calendarMonthJul": "Th7",
+  "calendarMonthAug": "Th8",
+  "calendarMonthSep": "Th9",
+  "calendarMonthOct": "Th10",
+  "calendarMonthNov": "Th11",
+  "calendarMonthDec": "Th12",
+  "calendarSeasonMuharramEarly": "Những ngày đầu Muharram — hãy nhớ Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — những ngày tang thương và suy ngẫm",
+  "calendarSeasonArbaeen": "Arbaeen — bốn mươi ngày của Husayn",
+  "calendarSeasonRoadToArbaeen": "Con đường đến Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — bình minh của mặc khải",
+  "calendarSeasonMidShaban": "Giữa Sha'ban — ngày sinh của Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — tháng của Qur'an",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Dua & Ziyarat",
+  "duasSearchHint": "Tìm dua, ziyarat…",
+  "duasFilterAll": "Tất cả",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} dua & ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Không tìm thấy dua nào.",
+  "duaCategoryDaily": "Hằng ngày",
+  "duaCategoryWeekly": "Hằng tuần",
+  "duaCategoryOccasions": "Các dịp",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Sinh",
+  "eventTypeMartyrdom": "Tử đạo",
+  "eventTypeOccasion": "Dịp",
+  "duaCopyTooltip": "Sao chép bản dịch",
+  "duaToggleTransliteration": "Phiên âm",
+  "duaToggleTranslation": "Bản dịch",
+  "duaAskAiLabel": "Yêu cầu Ayara giải thích dua này",
+  "duaAskAiLockedLabel": "Hỏi Ayara (Wilaya)",
+  "duaAiLockedMessage": "Phần giải thích của Ayara chỉ dành cho thành viên Wilaya. Hãy nâng cấp trong phần Cài đặt.",
+  "duaAiComingSoon": "Hỏi Ayara về \"{name}\" — sắp ra mắt!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Đã sao chép dua vào khay nhớ tạm.",
+  "tasbihAllahuAkbarMeaning": "Allah là Đấng Vĩ đại nhất",
+  "tasbihAlhamdulillahMeaning": "Mọi lời ca ngợi đều thuộc về Allah",
+  "tasbihSubhanallahMeaning": "Vinh quang thuộc về Allah",
+  "tasbihResetTooltip": "Đặt lại",
+  "tasbihCompleteTitle": "Hoàn thành Tasbih",
+  "tasbihCompleteMessage": "Cầu mong Allah chấp nhận dhikr của bạn.",
+  "tasbihTapHint": "Chạm vào bất cứ đâu để đếm",
+  "tasbihatScreenTitle": "Hướng dẫn cầu nguyện",
+  "tasbihatScreenSubtitle": "NHỮNG LỜI TÔN VINH TRONG CẦU NGUYỆN",
+  "tasbihatScreenDescription": "Hướng dẫn đầy đủ về những lời tôn vinh được đọc trong và sau các buổi cầu nguyện hằng ngày — theo truyền thống của Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Được đọc trong rakʿah thứ 3 và thứ 4",
+  "tasbihatArba3Info": "Trong luật học Shia, Tasbiḥāt al-Arbaʿa thay thế Surah al-Fatiha ở rakʿah thứ 3 và thứ 4 của Dhuhr, Asr, Maghrib và Isha. Bắt buộc (wājib) phải đọc một lần, và được khuyến nghị (mustaḥabb) đọc ba lần.",
+  "tasbihatArba3Translation": "Vinh quang thuộc về Allah · Mọi lời ca ngợi thuộc về Allah\nKhông có thần linh nào ngoài Allah · Allah là Đấng Vĩ đại nhất",
+  "tasbihatArba3CompleteTitle": "Hoàn tất việc tụng đọc",
+  "tasbihatArba3CompleteMessage": "Cầu mong lời nguyện của bạn được chấp nhận — Āmīn",
+  "tasbihatArba3TapHint": "Chạm sau mỗi lần tụng đọc",
+  "tasbihatZahraSubtitle": "Sau mỗi lần cầu nguyện · 100 hạt",
+  "tasbihatZahraOriginLabel": "Nguồn gốc",
+  "tasbihatZahraHadith": "Phu nhân Fatima al-Zahra (sa) đã xin Nhà Tiên tri ﷺ một người hầu. Ngài nói: \"Ta sẽ chỉ cho con điều gì tốt hơn thế chăng? Hãy đọc Subḥānallāh 33 lần, Alḥamdulillāh 33 lần, và Allāhu Akbar 34 lần sau mỗi lần cầu nguyện. Điều đó tốt hơn cho con so với một người hầu.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Tập 85",
+  "tasbihatZahraOpenCounter": "Mở bộ đếm Tasbīḥ",
+  "tasbihatDuasTitle": "DUA ĐƯỢC KHUYẾN NGHỊ",
+  "tasbihatDuasSubtitle": "Sau khi hoàn thành lời nguyện của bạn",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Sau mỗi lời nguyện bắt buộc",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Ai đọc Āyat al-Kursī sau mỗi lời nguyện bắt buộc, không có gì ngăn cách họ với thiên đàng ngoài cái chết. Imam al-Bāqir (a) nói đây là một trong những câu kinh vĩ đại nhất trong Qur'an.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Sau mỗi lời nguyện · hoàn tất mọi dua",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Việc gửi lời chúc phúc lên Nhà Tiên tri ﷺ và gia quyến thanh sạch của ngài (Āl Muḥammad) được khuyến nghị để kết thúc mọi dua. Imam al-Ṣādiq (a) nói: \"Mọi dua đều bị treo lại cho đến khi bạn gửi ṣalawāt đến Muhammad và gia đình của ngài.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Sau mỗi lời nguyện · dành cho Imam của thời đại chúng ta",
+  "tasbihatDuaFarajSource": "Được dạy bởi Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "Một dua cầu cho sự tái xuất hiện của Imam al-Mahdī (af), Imam thứ mười hai, được dạy bởi cha của ngài. Được tín đồ Shia đọc hằng ngày sau mỗi lời nguyện như một hành động tận hiến đối với Imam đang sống.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ của Phu nhân Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "Sau Maghrib và Isha · đặc biệt được khuyến nghị",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) nói rằng đọc Tasbīḥ al-Zahrā sau Isha trước khi ngủ tốt hơn 1000 rakʿah cầu nguyện tự nguyện. Ánh sáng của nó bay lên trời cao.",
+  "tasbihFatimaGiftPre": "Món quà từ Nhà Tiên tri",
+  "tasbihFatimaGiftPost": "được đọc sau mỗi lần cầu nguyện",
+  "prayerTrackerTitle": "THEO DÕI CẦU NGUYỆN",
+  "prayerTrackerPrayed": "Đã cầu nguyện",
+  "prayerTrackerDayStreak": "chuỗi {count} ngày",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Tất cả lời nguyện hôm nay đã hoàn thành. Cầu mong Allah chấp nhận.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Đã hoàn thành hôm nay",
+  "dhikrTrackerNotDoneToday": "Chưa thực hiện hôm nay",
+  "dhikrTrackerDayStreak": "chuỗi {count} ngày",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Nhắc Tasbīḥ",
+  "dhikrReminderDescription": "Một lời nhắc nhẹ nhàng hằng ngày để đọc Tasbīḥ al-Zahrā (SA).",
+  "dhikrReminderEnable": "Bật nhắc Tasbīḥ",
+  "dhikrReminderTimeLabel": "Thời gian nhắc",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Hadith hằng ngày",
+  "hadithLabelArabic": "TIẾNG Ả RẬP",
+  "hadithLabelTranslation": "BẢN DỊCH",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Chia sẻ Hadith này",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nQua Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Trước",
+  "hadithNavNext": "Sau",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "14 Masumeen",
+  "imamsScreenSubtitle": "Nhà Tiên tri, Phu nhân Fatima, và Mười Hai Imam — những người hướng dẫn không sai lầm của Hồi giáo",
+  "imamLabelBorn": "Sinh",
+  "imamLabelMartyrdom": "Tử đạo",
+  "imamLabelStatus": "Trạng thái",
+  "imamSectionBiography": "TIỂU SỬ",
+  "imamSectionFamousSaying": "CÂU NÓI NỔI TIẾNG",
+  "imamRoleProphet": "Nhà Tiên tri Cuối cùng",
+  "imamRoleInfallible": "Đấng không sai lầm",
+  "imamOrdinal1": "Imam thứ 1",
+  "imamOrdinal2": "Imam thứ 2",
+  "imamOrdinal3": "Imam thứ 3",
+  "imamOrdinal4": "Imam thứ 4",
+  "imamOrdinal5": "Imam thứ 5",
+  "imamOrdinal6": "Imam thứ 6",
+  "imamOrdinal7": "Imam thứ 7",
+  "imamOrdinal8": "Imam thứ 8",
+  "imamOrdinal9": "Imam thứ 9",
+  "imamOrdinal10": "Imam thứ 10",
+  "imamOrdinal11": "Imam thứ 11",
+  "imamOrdinal12": "Imam thứ 12",
+  "duaAudioScreenTitle": "Nghe Dua",
+  "duaAudioScreenSubtitle": "Chọn một dua để nghe. Chạm vào ô để phát hoặc tạm dừng.",
+  "duaAudioComingSoonMessage": "Âm thanh cho dua này sẽ có trong bản cập nhật sắp tới.",
+  "duaAudioClose": "Đóng",
+  "duaAudioError": "Không thể tải âm thanh. Vui lòng kiểm tra kết nối của bạn.",
+  "duaAudioMetaTransmittedBy": "Được truyền lại bởi",
+  "duaAudioMetaOccasion": "Dịp",
+  "duaAudioMetaDuration": "Thời lượng",
+  "quickActionDailyHadith": "Hadith hằng ngày",
+  "quickAction14Masumeen": "14 Masumeen",
+  "quickActionListenDuas": "Nghe",
+  "quickActionTasbihat": "Hướng dẫn cầu nguyện",
+  "pilgrimageSectionTitle": "Hành trình Thiêng liêng",
+  "pilgrimageSectionSubtitle": "Hướng dẫn đầy đủ về Hajj và Umrah — cuộc hành hương đến Ngôi Nhà Thiêng liêng của Allah tại Mecca",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "Trụ cột thứ năm của Hồi giáo",
+  "hajjCardDescription": "Cuộc hành hương lớn hằng năm — bắt buộc một lần trong đời đối với mỗi người Hồi giáo có đủ khả năng",
+  "hajjScreenTitle": "Hướng dẫn Hajj",
+  "hajjScreenSubtitle": "Hướng dẫn từng bước cho cuộc đại hành hương",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "Cuộc hành hương nhỏ",
+  "umrahCardDescription": "Một hành trình tâm linh đầy phần thưởng có thể thực hiện vào bất kỳ thời điểm nào trong năm",
+  "umrahScreenTitle": "Hướng dẫn Umrah",
+  "umrahScreenSubtitle": "Hướng dẫn từng bước cho cuộc hành hương nhỏ",
+  "pilgrimageStepsTitle": "Nghi lễ & Các bước",
+  "pilgrimageImportantNotesTitle": "Lưu ý quan trọng",
+  "pilgrimageDuaTitle": "Dua cho bước này",
+  "pilgrimageJafariNoteTitle": "Ghi chú Fiqh Ja'fari",
+  "pilgrimageComplete": "✓ Hoàn thành",
+  "pilgrimageMarkDone": "Đánh dấu là hoàn thành",
+  "pilgrimageProgress": "{done} trong {total} bước",
+  "pilgrimageReadTime": "~{minutes} phút",
+  "pilgrimageShiaNoteTitle": "Người hành hương Shia",
+  "pilgrimageShiaNoteBody": "Theo truyền thống, người hành hương Shia cũng đến Medina để viếng mộ Nhà Tiên tri Muhammad ﷺ tại Masjid al-Nabawi, và mộ các Imam tại Jannat al-Baqi. Những chuyến viếng thăm này mang ý nghĩa tâm linh to lớn và được xem là phần không thể thiếu của hành trình đối với đa số người Hồi giáo Shia.",
+  "hajjIntro": "Hajj là trụ cột thứ năm của Hồi giáo, bắt buộc một lần trong đời đối với mỗi người Hồi giáo đủ khả năng về thể chất và tài chính. Hajj được thực hiện vào tháng Dhul Hijjah và đi theo dấu chân của Nhà Tiên tri Ibrahim (AS), con trai ngài Ismail (AS), và Phu nhân Hajar. Đối với người Hồi giáo Shia, Hajj còn bao gồm ân phúc sâu sắc của việc viếng thăm nơi an nghỉ của Nhà Tiên tri ﷺ và Ahlul Bayt ở Medina.",
+  "umrahIntro": "Umrah là cuộc hành hương nhỏ đến Mecca và, không giống như Hajj, có thể được thực hiện vào bất kỳ thời điểm nào trong năm. Mặc dù không bắt buộc, nó mang lại phần thưởng tâm linh lớn lao và được xem là hành động thờ phượng rất được khuyến khích. Nó chia sẻ một số nghi lễ với Hajj nhưng ngắn hơn, gồm bốn nghi thức chính."
 }

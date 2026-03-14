@@ -43,6 +43,49 @@ service cloud.firestore {
     // ── Everything else ─────────────────────────────────────────────────────
     // device_bindings, device_starters, usage_idempotency, iap_transactions
     // are written exclusively by Cloud Functions (admin SDK bypasses rules).
+    // ── Religious content (read-only, no auth required) ─────────────────
+    // Populated by the seed script (Admin SDK). Client writes are blocked.
+    match /content_hadiths/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /content_imams/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /content_duas/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /content_scriptures/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /content_role_models/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /content_reflections/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /content_wisdom/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /content_hajj_steps/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /content_umrah_steps/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /content_prompts/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
     match /{document=**} {
       allow read, write: if false;
     }

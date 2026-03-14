@@ -295,76 +295,103 @@ class _GeoStarPainter extends CustomPainter {
     final cy = size.height / 2;
     final maxR = size.width / 2;
 
-    // ── 12-pointed star: three interlaced equilateral triangles ──────────────
-    // This is a sacred Shia geometric symbol representing the 12 Imams,
-    // prominently featured in the architecture of shrines in Najaf and Karbala.
+    canvas.save();
+    canvas.translate(cx, cy);
+    canvas.rotate(angle);
+    canvas.translate(-cx, -cy);
+
+    // ── Traditional Islamic 12-pointed star ───────────────────────────────────
+    // 12 outer points at radius R (every 30°) and 12 inner vertices at radius r
+    // (at 15° offset between each outer point). This is the star pattern found
+    // on the domes of Imam Ali shrine (Najaf) and Imam Hussein shrine (Karbala).
     //
-    // Outer ring: three large triangles (full radius)
-    // Middle ring: three medium triangles (75%)
-    // Inner ring: three small triangles (45%)
-    // Centre circle accent
+    // Layered: outer star → middle star → inner star → rosette circles
 
-    final rings = [
-      (maxR * 1.00, 0.14, 1.4),
-      (maxR * 0.75, 0.09, 1.1),
-      (maxR * 0.46, 0.07, 0.9),
-    ];
+    _drawTwelvePointedStar(
+      canvas,
+      Offset(cx, cy),
+      outerR: maxR * 1.00,
+      innerR: maxR * 0.50,
+      opacity: 0.38,
+      strokeWidth: 1.8,
+    );
 
-    for (final (r, opacity, sw) in rings) {
-      final paint = Paint()
-        ..style = PaintingStyle.stroke
-        ..strokeWidth = sw
-        ..color = AppColors.gold.withValues(alpha: opacity);
+    _drawTwelvePointedStar(
+      canvas,
+      Offset(cx, cy),
+      outerR: maxR * 0.65,
+      innerR: maxR * 0.32,
+      opacity: 0.28,
+      strokeWidth: 1.4,
+    );
 
-      // Three equilateral triangles at 0°, 120°, 240° offset
-      for (int t = 0; t < 3; t++) {
-        final offset = angle + (t * 2 * pi / 3);
-        canvas.drawPath(_trianglePath(cx, cy, r, offset), paint);
-      }
+    _drawTwelvePointedStar(
+      canvas,
+      Offset(cx, cy),
+      outerR: maxR * 0.38,
+      innerR: maxR * 0.19,
+      opacity: 0.22,
+      strokeWidth: 1.1,
+    );
+
+    // Decorative concentric circles (rosette bands)
+    for (final (r, op, sw) in [
+      (maxR * 0.98, 0.18, 0.7),
+      (maxR * 0.76, 0.14, 0.6),
+      (maxR * 0.55, 0.12, 0.5),
+      (maxR * 0.20, 0.24, 0.9),
+    ]) {
+      canvas.drawCircle(
+        Offset(cx, cy),
+        r,
+        Paint()
+          ..color = AppColors.gold.withValues(alpha: op)
+          ..style = PaintingStyle.stroke
+          ..strokeWidth = sw,
+      );
     }
-
-    // Outer circle
-    canvas.drawCircle(
-      Offset(cx, cy),
-      maxR * 0.98,
-      Paint()
-        ..color = AppColors.gold.withValues(alpha: 0.06)
-        ..style = PaintingStyle.stroke
-        ..strokeWidth = 0.6,
-    );
-
-    // Inner circle
-    canvas.drawCircle(
-      Offset(cx, cy),
-      maxR * 0.10,
-      Paint()
-        ..color = AppColors.gold.withValues(alpha: 0.18)
-        ..style = PaintingStyle.stroke
-        ..strokeWidth = 0.8,
-    );
 
     // Centre dot
     canvas.drawCircle(
       Offset(cx, cy),
-      maxR * 0.025,
+      maxR * 0.028,
       Paint()
-        ..color = AppColors.gold.withValues(alpha: 0.20)
+        ..color = AppColors.gold.withValues(alpha: 0.45)
         ..style = PaintingStyle.fill,
     );
+
+    canvas.restore();
   }
 
-  /// Equilateral triangle centred at (cx, cy) with circumradius [r],
-  /// rotated by [rotation] radians.
-  Path _trianglePath(double cx, double cy, double r, double rotation) {
+  /// Draws a single 12-pointed star polygon centred at [centre].
+  /// [outerR] is the tip radius; [innerR] is the valley radius.
+  void _drawTwelvePointedStar(
+    Canvas canvas,
+    Offset centre, {
+    required double outerR,
+    required double innerR,
+    required double opacity,
+    required double strokeWidth,
+  }) {
     final path = Path();
-    for (int i = 0; i < 3; i++) {
-      final a = rotation + (i * 2 * pi / 3) - pi / 2;
-      final x = cx + r * cos(a);
-      final y = cy + r * sin(a);
+    const points = 12;
+    for (int i = 0; i < points * 2; i++) {
+      // Alternate between outer (tip) and inner (valley) vertices
+      final r = i.isEven ? outerR : innerR;
+      final a = (i * pi / points) - pi / 2; // start pointing straight up
+      final x = centre.dx + r * cos(a);
+      final y = centre.dy + r * sin(a);
       i == 0 ? path.moveTo(x, y) : path.lineTo(x, y);
     }
     path.close();
-    return path;
+
+    canvas.drawPath(
+      path,
+      Paint()
+        ..color = AppColors.gold.withValues(alpha: opacity)
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = strokeWidth,
+    );
   }
 
   @override
@@ -376,58 +403,100 @@ class _GeoStarPainter extends CustomPainter {
 // ─────────────────────────────────────────────────────────────────────────────
 
 class LogoSection extends StatelessWidget {
-  const LogoSection({super.key});
+  final Widget? middleContent;
+  const LogoSection({super.key, this.middleContent});
 
   @override
   Widget build(BuildContext context) {
     final w = MediaQuery.of(context).size.width;
     final logoWidth = w * 0.85;
     final starSize = w * 0.80;
+    final glowSize = logoWidth * 1.2;
 
     return Padding(
       padding: const EdgeInsets.fromLTRB(0, 32, 0, 24),
       child: Column(
         children: [
-          // Rotating 12-pointed star as standalone decorative element above logo
+          // Rotating 12-pointed star above logo
           Opacity(
-            opacity: 0.55,
+            opacity: 0.80,
             child: GeoStarWidget(size: starSize * 0.55),
           ),
-          const SizedBox(height: 16),
+          if (middleContent != null) ...[
+            const SizedBox(height: 24),
+            middleContent!,
+            const SizedBox(height: 24),
+          ] else
+            const SizedBox(height: 16),
 
-          // Logo image — lighter & cropped, fully separate from the star
-          Stack(
-            alignment: Alignment.center,
-            children: [
-              // Subtle gold glow behind logo only
-              SizedBox(
-                width: logoWidth * 0.7,
-                height: logoWidth * 0.35,
-                child: DecoratedBox(
-                  decoration: BoxDecoration(
-                    gradient: RadialGradient(
-                      colors: [
-                        AppColors.gold.withValues(alpha: 0.08),
-                        Colors.transparent,
-                      ],
+          // Logo with multi-layer glow + edge-fade blending.
+          // Extra vertical padding (72px top, 24px bottom) so the radial glow
+          // has room to breathe without hitting a hard-clipped edge.
+          SizedBox(
+            width: glowSize,
+            height: glowSize * 0.65 + 96,
+            child: Stack(
+              clipBehavior: Clip.none,
+              alignment: Alignment.center,
+              children: [
+                // Outer diffuse gold aura — sized larger than the logo so the
+                // gradient fades to zero well before the container edge.
+                Positioned.fill(
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      gradient: RadialGradient(
+                        center: Alignment.center,
+                        radius: 0.60,
+                        colors: [
+                          AppColors.gold.withValues(alpha: 0.20),
+                          AppColors.gold.withValues(alpha: 0.07),
+                          Colors.transparent,
+                        ],
+                        stops: const [0.0, 0.40, 1.0],
+                      ),
                     ),
                   ),
                 ),
-              ),
-              ClipRect(
-                child: Align(
-                  alignment: Alignment.bottomCenter,
-                  heightFactor: 0.82,
-                  child: Opacity(
-                    opacity: 0.88,
-                    child: Image.asset(
-                      'assets/logo.png',
-                      width: logoWidth,
+
+                // Inner bright halo (tighter, more intense)
+                SizedBox(
+                  width: glowSize * 0.6,
+                  height: glowSize * 0.40,
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      gradient: RadialGradient(
+                        colors: [
+                          AppColors.gold.withValues(alpha: 0.25),
+                          Colors.transparent,
+                        ],
+                        stops: const [0.0, 1.0],
+                      ),
                     ),
                   ),
                 ),
-              ),
-            ],
+
+                // Logo — faded at edges via ShaderMask so it dissolves into background
+                ShaderMask(
+                  shaderCallback: (bounds) => const RadialGradient(
+                    center: Alignment.center,
+                    radius: 0.72,
+                    colors: [Colors.white, Colors.white, Colors.transparent],
+                    stops: [0.0, 0.55, 1.0],
+                  ).createShader(bounds),
+                  blendMode: BlendMode.dstIn,
+                  child: ClipRect(
+                    child: Align(
+                      alignment: Alignment.bottomCenter,
+                      heightFactor: 0.82,
+                      child: Image.asset(
+                        'assets/logo.png',
+                        width: logoWidth,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ],
       ),

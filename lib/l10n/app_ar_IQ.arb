@@ -1,80 +1,42 @@
 {
   "@@locale": "ar_IQ",
-
-  "appTitle": "Ayara",
-
+  "appTitle": "أيارا",
   "languageSelectTitle": "اختر لغتك",
-  "languageSelectSub": "يمكنك تغيير هذا لاحقاً في الإعدادات",
+  "languageSelectSub": "يمكنك تغيير هذا لاحقًا من الإعدادات",
   "actionContinue": "متابعة",
   "languageSuggestedHeader": "مقترحة",
-  "languageAllHeader": "جميع اللغات",
+  "languageAllHeader": "كل اللغات",
   "languageSuggestedBadge": "مقترحة",
-  "languageSearchHint": "ابحث…",
-
-  "planGrace": "المعيارية",
-  "planBlessed": "البركة",
-
-  "categoryDailyGuidance": "التوجيه اليومي",
-  "categoryFaithTrust": "الإيمان والتوكل",
-  "categoryPrayerReflection": "تأملات الصلاة",
-  "categoryHopeDifficultTimes": "الصبر والأمل",
-  "categoryForgiveness": "طلب المغفرة",
-  "categoryLoveCompassion": "الرحمة والعطف",
-  "categoryStrengthCourage": "قوة الإيمان",
-  "categoryGratitude": "قلب شاكر",
-  "categoryPurposeCalling": "غاية الحياة",
-  "categoryFamilyRelationships": "رابطة الأسرة",
-  "categoryPeaceAnxietyRelief": "السلام الداخلي",
-  "categoryWisdomOfJesus": "حكمة الأنبياء",
-  "categoryHumilityCharacter": "الأخلاق الحميدة",
-  "categoryOvercomingTemptation": "مقاومة الفتنة",
-  "categoryEveningReflection": "أذكار المساء",
+  "languageSearchHint": "بحث…",
+  "planBasic": "القياسية",
+  "planPremium": "الولاية",
+  "categorySlot01": "إرشاد يومي",
+  "categorySlot02": "الإيمان والثقة",
+  "categorySlot03": "تأمل في الصلاة",
+  "categorySlot04": "الصبر والرجاء",
+  "categorySlot05": "اطلب المغفرة",
+  "categorySlot06": "الرحمة والشفقة",
+  "categorySlot07": "قوة الإيمان",
+  "categorySlot08": "قلب شاكر",
+  "categorySlot09": "غاية الحياة",
+  "categorySlot10": "صلة الرحم",
+  "categorySlot11": "السلام الداخلي",
+  "categorySlot12": "حكمة النبي",
+  "categorySlot13": "حسن الخلق",
+  "categorySlot14": "مقاومة الإغراء",
+  "categorySlot15": "ذكر المساء",
   "categoryCustom": "تأمل شخصي",
   "dhikrMeaningSubhanallah": "سبحان الله",
   "dhikrMeaningAlhamdulillah": "الحمد لله",
   "dhikrMeaningAllahuAkbar": "الله أكبر",
-  "quranVerseHeartAtRest": "إنما في ذكر الله تطمئن القلوب.",
-
-  "promptHint": "انقر على فئة لتلقي التوجيه الإسلامي والتأمل",
-
+  "quranVerseHeartAtRest": "ألا بذكر الله تطمئن القلوب.",
+  "promptHint": "اضغط على فئة للحصول على إرشاد وتأمل إسلامي",
   "currentLanguage": "اللغة الحالية",
   "settingsLanguage": "إعدادات اللغة",
   "settingsTitle": "الإعدادات",
   "chooseLanguage": "اختر لغتك",
   "continueCta": "متابعة",
-
-  "promptDailyGuidance": "اكتب توجيهاً يومياً قصيراً عملياً متجذراً في الإيمان الإسلامي السني — مستند إلى القرآن الكريم والسنة النبوية وتعاليم رسول الله محمد ﷺ. اختر زاوية جديدة في كل مرة: فضيلة من الأخلاق الإسلامية، حقيقة من السنة، حكمة من صحابة رسول الله ﷺ، أو ممارسة هادئة من التراث الإسلامي. أدرج آية قرآنية واحدة (السورة:الآية) وتأملاً من جملة إلى جملتين يحمله المرء طوال اليوم. يمكنك ربطه بالتقويم الإسلامي أو تاريخ مهم إذا كان مناسباً.",
-
-  "promptFaithTrust": "اكتب تأملاً إسلامياً قصيراً عن الإيمان والتوكل على الله سبحانه وتعالى. اجعله متجذراً في القرآن الكريم وأسوة رسول الله ﷺ وإيمان الصحابة الكرام. غيّر الموضوع في كل مرة: التوكل على الله في وقت الغموض، الاعتماد على الحكمة الإلهية، الصبر في المحن، أو المثابرة الهادئة في الحياة اليومية. أدرج آية قرآنية واحدة وخطوة صادقة واحدة لهذا اليوم مستقاة من الحكمة الروحية الإسلامية.",
-
-  "promptPrayerReflection": "اكتب تأملاً إسلامياً قصيراً متجذراً في الصلاة أو الدعاء أو الذكر. غيّر الشكل في كل مرة: ذكر صباحي أو مسائي، تأمل في الصلوات الخمس، تدبر آية قرآنية، أو دعاء من القلب. أدرج آية قرآنية واحدة واذكر نوع الصلاة أو الذكر المستخدم بإيجاز.",
-
-  "promptHopeDifficultTimes": "اكتب تأملاً إسلامياً عن الصبر والأمل في وقت الشدة. استمد من تعاليم القرآن الكريم عن الابتلاءات، وصبر الأنبياء، ورحمة الله في اللحظات الصعبة. غيّر الزاوية في كل مرة. أدرج آية قرآنية واحدة ومنظوراً مشجعاً واحداً من التراث الإسلامي.",
-
-  "promptForgiveness": "اكتب تأملاً إسلامياً حكيماً عن طلب المغفرة والتوبة ورحمة الله. استمد من تعاليم القرآن الكريم عن الندم، رحمة الله، وأسوة رسول الله ﷺ الرحيمة. غيّر الموضوع: العودة إلى الله، التسامح مع الآخرين، شفاء العلاقات، أو الإيمان برحمة الله بعد الخطايا. أدرج آية قرآنية واحدة وخطوة عملية واحدة.",
-
-  "promptLoveCompassion": "اكتب تأملاً إسلامياً قصيراً عن الرحمة والعطف في الحياة اليومية. استمد من أسوة رسول الله ﷺ، مفهوم الإحسان، وتعاليم الإسلام عن الرفق بالأهل والجيران والضعفاء. أدرج آية قرآنية واحدة وعملاً صغيراً واحداً من الرحمة تمارسه اليوم.",
-
-  "promptStrengthCourage": "اكتب تأملاً إسلامياً عن القوة المستمدة من الإيمان والشجاعة. استمد من قصص الأنبياء والمجتمع الإسلامي الأول والمؤمنين الذين ثبتوا في الشدة. غيّر الموضوع: الشجاعة من خلال الإيمان، القوة في الصلاة، التوكل على الله في وقت الخوف، أو المرونة في الصعوبة. أدرج آية قرآنية واحدة ودعاء قصير أو كلمة ذكر.",
-
-  "promptGratitude": "اكتب تأملاً إسلامياً عن الشكر والحمد لله. اجعله متجذراً في تعاليم القرآن الكريم والسنة النبوية. غيّر الزاوية: الشكر في الشدة، تقدير النعم الصغيرة، البدء باليوم بحمد الله، أو إدراك هداية الله في الحياة اليومية. أدرج آية قرآنية واحدة وممارسة شكر واحدة.",
-
-  "promptPurposeCalling": "اكتب تأملاً إسلامياً عن غاية الحياة في عبادة الله والحياة بصلاح. استمد من تعاليم القرآن الكريم عن الغرض والخدمة والعمل بالخير. غيّر الموضوع: خدمة الأسرة والمجتمع، طلب الهداية من خلال الاستخارة، العيش بنية صافية، أو إيجاد المعنى في العمل اليومي. أدرج آية قرآنية واحدة وسؤالين تأملياً.",
-
-  "promptFamilyRelationships": "اكتب توجيهاً إسلامياً حكيماً عن الأسرة والعلاقات متجذراً في القرآن الكريم وأسوة رسول الله ﷺ. غيّر الموضوع في كل مرة: الرفق في الحياة الأسرية، الصبر في الخلاف، بر الوالدين، تربية الأطفال في الإيمان، أو تقوية الزواج. أدرج آية قرآنية واحدة وممارسة واحدة في العلاقات.",
-
-  "promptPeaceAnxietyRelief": "اكتب تأملاً إسلامياً مهدئاً عن إيجاد السلام الداخلي من خلال ذكر الله والتوكل على حكمته. استمد من تعاليم القرآن الكريم عن اطمئنان القلب والصلاة والاستسلام لمشيئة الله. غيّر المنهج في كل مرة وأدرج آية قرآنية واحدة وممارسة واحدة بسيطة من التراث الإسلامي.",
-
-  "promptWisdomOfJesus": "اكتب قطعة حكمة من الأنبياء كما يعلمها الإسلام. استمد من القرآن الكريم أو السنة واشرح بإيجاز كيف فهم العلماء المسلمون هذا التعليم. غيّر الموضوع: الأخلاق، الصبر، التواضع، الإيمان، أو السلوك اليومي. أدرج آية قرآنية أو حديثاً شريفاً وتطبيقاً عملياً واحداً.",
-
-  "promptHumilityCharacter": "اكتب تأملاً إسلامياً عن التواضع والأخلاق الحميدة. استمد من تعاليم القرآن الكريم وأسوة رسول الله ﷺ وتراث تطوير الأخلاق الإسلامي. غيّر الموضوع: التواضع في القيادة، الاعتراف بالأخطاء، معاملة الآخرين بالاحترام، أو النمو الروحي من خلال المحاسبة. أدرج آية قرآنية واحدة وعادة واحدة لممارستها.",
-
-  "promptOvercomingTemptation": "اكتب تأملاً إسلامياً عن مقاومة الفتنة والثبات على الصراط المستقيم. استمد من هداية القرآن الكريم وذكر الله والصلاة وقصص المؤمنين الذين تغلبوا على التحديات. غيّر الزاوية في كل مرة. أدرج آية قرآنية واحدة واستراتيجية عملية واحدة لمدة الـ 24 ساعة القادمة.",
-
-  "promptEveningReflection": "اكتب تأملاً إسلامياً هادئاً للمساء متجذراً في تراث أذكار المساء. شجع على الشكر والمحاسبة والتوكل على الله قبل النوم. أدرج 3 إلى 5 نقاط تأملية قصيرة عن اليوم، دعاء ختامي قصير، وآية قرآنية واحدة.",
-
-  "wordCount": "{count, plural, one {{count} كلمة} other {{count} كلمة}}",
-
+  "wordCount": "{count, plural, one {{count} كلمة} other {{count} كلمات}}",
   "optionsCta": "الخيارات",
   "newCta": "جديد",
   "actionsTitle": "ماذا تود أن تفعل؟",
@@ -82,449 +44,257 @@
   "share": "مشاركة",
   "close": "إغلاق",
   "copiedToast": "تم النسخ إلى الحافظة",
-
-  "shareSubject": "Ayara — {category}",
+  "shareSubject": "أيارا — {category}",
   "@shareSubject": {
-    "description": "سطر الموضوع في البريد الإلكتروني أو المشاركة يتضمن الفئة.",
+    "description": "سطر موضوع البريد / المشاركة متضمّنًا اسم الفئة.",
     "placeholders": {
-      "category": { "type": "String", "example": "التوجيه اليومي" }
+      "category": {
+        "type": "String",
+        "example": "إرشاد يومي"
+      }
     }
   },
-
-  "regenerateErrorTitle": "تعذر إنشاء رد جديد",
+  "regenerateErrorTitle": "تعذّر إنشاء رد جديد",
   "regenerateErrorBody": "{error}\n\nهل تريد المحاولة مرة أخرى؟",
   "@regenerateErrorBody": {
-    "description": "يظهر عند فشل إعادة إنشاء إجابة ذكية.",
+    "description": "يُعرض عند فشل إعادة إنشاء إجابة الذكاء الاصطناعي.",
     "placeholders": {
-      "error": { "type": "String", "example": "خطأ في الشبكة" }
+      "error": {
+        "type": "String",
+        "example": "خطأ في الشبكة"
+      }
     }
   },
-
   "cancelCta": "إلغاء",
-  "retryCta": "إعادة المحاولة",
-
+  "retryCta": "حاول مرة أخرى",
   "authTitle": "أنشئ حسابك",
   "continueAsGuest": "المتابعة كضيف",
-  "signInGoogle": "تسجيل الدخول عبر جوجل",
-  "signInApple": "تسجيل الدخول عبر أبل",
-  "signInEmail": "تسجيل الدخول عبر البريد الإلكتروني",
-  "upgradeWithApple": "المتابعة عبر أبل",
-  "mustAccept": "يجب عليك قبول الشروط والإقرار بسياسة الخصوصية.",
+  "signInGoogle": "تسجيل الدخول باستخدام Google",
+  "signInApple": "تسجيل الدخول باستخدام Apple",
+  "signInEmail": "تسجيل الدخول بالبريد الإلكتروني",
+  "upgradeWithApple": "المتابعة باستخدام Apple",
+  "mustAccept": "يجب أن توافق على الشروط وتقرّ بسياسة الخصوصية.",
   "termsLabel": "أوافق على شروط الخدمة",
   "privacyLabel": "لقد قرأت سياسة الخصوصية",
   "marketingOptIn": "أوافق على تلقي الأخبار والعروض",
   "openTerms": "شروط الخدمة",
   "openPrivacy": "سياسة الخصوصية",
-
   "accountSection": "الحساب",
   "guestMode": "وضع الضيف",
-  "signedIn": "مسجل الدخول",
-  "upgradeHint": "احفظ تأملاتك عبر الأجهزة بإنشاء حساب.",
-  "upgradeWithGoogle": "المتابعة عبر جوجل",
+  "signedIn": "تم تسجيل الدخول",
+  "upgradeHint": "احفظ تأملاتك عبر الأجهزة من خلال إنشاء حساب.",
+  "upgradeWithGoogle": "المتابعة باستخدام Google",
   "signOut": "تسجيل الخروج",
-
-  "snackUpgraded": "تم ترقية الحساب عبر جوجل ✅",
-  "snackSignedIn": "تم تسجيل الدخول عبر جوجل ✅",
+  "snackUpgraded": "تمت ترقية الحساب باستخدام Google ✅",
+  "snackSignedIn": "تم تسجيل الدخول باستخدام Google ✅",
   "snackSignedOut": "تم تسجيل الخروج",
-  "snackSignedInApple": "تم تسجيل الدخول عبر أبل ✅",
-  "snackSignedInGoogle": "تم تسجيل الدخول عبر جوجل ✅",
-  "snackUpgradedApple": "تم ترقية الحساب عبر أبل ✅",
-  "snackUpgradedGoogle": "تم ترقية الحساب عبر جوجل ✅",
-
+  "snackSignedInApple": "تم تسجيل الدخول باستخدام Apple ✅",
+  "snackSignedInGoogle": "تم تسجيل الدخول باستخدام Google ✅",
+  "snackUpgradedApple": "تمت ترقية الحساب باستخدام Apple ✅",
+  "snackUpgradedGoogle": "تمت ترقية الحساب باستخدام Google ✅",
   "historyTitle": "التأملات السابقة",
   "historyOpenCta": "التأملات السابقة",
   "historyEmpty": "لا توجد تأملات محفوظة بعد.",
   "historyDeleteTitle": "حذف التأمل؟",
-  "historyDeleteBody": "سيؤدي هذا إلى إزالة العنصر المحدد بشكل دائم.",
+  "historyDeleteBody": "سيؤدي هذا إلى إزالة العنصر المحدد نهائيًا.",
   "deleteCta": "حذف",
-
   "historyButton": "التأملات السابقة",
   "historyEmptyTitle": "لا توجد تأملات بعد",
-  "historyEmptyBody": "أنشئ تأملاً أولاً — ستظهر عناصرك المحفوظة هنا.",
+  "historyEmptyBody": "أنشئ شيئًا أولًا — ستظهر العناصر المحفوظة هنا.",
   "historyDelete": "حذف",
-
-  "footerTitle": "بالإيمان والصبر والرحمة.",
-  "footerSubtitle": "خطوة في كل مرة.",
-  "genericErrorSnack": "حدث خطأ ما — يرجى المحاولة مجدداً في لحظة.",
-
-  "upgradeAccountCta": "احفظ تأملاتك عبر الأجهزة — أنشئ حساباً",
+  "footerTitle": "مع الولاية والإيمان والصبر",
+  "footerSubtitle": "دعاء واحد في كل مرة",
+  "genericErrorSnack": "حدث خطأ ما — يُرجى المحاولة مرة أخرى بعد قليل.",
+  "upgradeAccountCta": "احفظ تأملاتك عبر الأجهزة – أنشئ حسابًا",
   "deleteAccount": "حذف الحساب",
-  "exportData": "تصدير بيانات",
-
-  "userUidLabel": "معرّف: {uid}",
+  "exportData": "تصدير بياناتي",
+  "userUidLabel": "المعرّف: {uid}",
   "@userUidLabel": {
-    "description": "التسمية قبل عرض معرّف Firebase الداخلي.",
+    "description": "تسمية قبل عرض معرّف Firebase الداخلي.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "خذ وقتك 🐯\nالذكاء الاصطناعي يحتاج لحظة قبل الرد التالي…",
-  "rateDailyLimit": "انتهت تأملاتك في الوقت الراهن.\nاحصل على المزيد من التأملات أو ارق إلى البركة.",
-  "rateCreditsExhausted": "استنفذت جميع تأملاتك.\nأعد الشحن أو ارق إلى البركة للمتابعة.",
-  "rateGraceReflectionsExhausted": "انتهت تأملاتك في الوقت الراهن.\nاحصل على المزيد من التأملات أو ارق إلى البركة.",
-  "rateReflectionsExhausted": "استنفذت جميع تأملاتك.\nأعد الشحن أو ارق إلى البركة للمتابعة.",
-
-  "blessedDescription": "البركة تفتح المميزات المتقدمة والفئات المستقبلية وشارة خاصة.",
-  "championDescription": "البركة تفتح المميزات المتقدمة والفئات المستقبلية وشارة خاصة.",
-
+  "rateLocalThrottle": "تمهّل قليلًا 🐯\nأيارا يحتاج لحظة قبل التالية…",
+  "rateDailyLimit": "لقد نفدت تأملاتك حاليًا.\nاحصل على المزيد من التأملات أو قم بالترقية إلى الولاية.",
+  "rateCreditsExhausted": "لقد استخدمت كل تأملاتك.\nاشحن المزيد أو قم بالترقية إلى الولاية للمتابعة.",
+  "rateGraceCreditsExhausted": "لقد نفدت تأملاتك حاليًا.\nاحصل على المزيد من التأملات أو قم بالترقية إلى الولاية.",
+  "premiumDescription": "الولاية تفتح الميزات المميزة والفئات المستقبلية وشارة خاصة.",
   "ratePlanExhausted": "تأملاتك فارغة الآن. الخطة: {plan}.",
   "@ratePlanExhausted": {
-    "description": "يظهر عند استنفاد تأملات المستخدم لكن السبب عام.",
+    "description": "يُعرض عندما تنفد تأملات المستخدم لكن السبب عام.",
     "placeholders": {
-      "plan": { "type": "String", "example": "المعيارية أو البركة" }
+      "plan": {
+        "type": "String",
+        "example": "القياسية أو الولاية"
+      }
     }
   },
-
-  "rateCheckFailed": "تعذر التحقق من تأملاتك: {message}",
+  "rateCheckFailed": "تعذّر التحقق من تأملاتك: {message}",
   "@rateCheckFailed": {
-    "description": "يظهر عند إرجاع الدالة رسالة خطأ.",
+    "description": "يُعرض عندما تُرجع الدالة القابلة للاستدعاء رسالة خطأ.",
     "placeholders": {
-      "message": { "type": "String", "example": "خطأ في الشبكة" }
+      "message": {
+        "type": "String",
+        "example": "خطأ في الشبكة"
+      }
     }
   },
-
-  "rateCheckGenericError": "حدث خطأ ما أثناء التحقق من تأملاتك.",
-  "aiFallbackGeneric": "حدث خطأ ما — يرجى المحاولة مجدداً في لحظة.",
-
+  "rateCheckGenericError": "حدث خطأ أثناء التحقق من تأملاتك.",
+  "aiFallbackGeneric": "حدث خطأ ما — يُرجى المحاولة مرة أخرى بعد قليل.",
   "limitSectionTitle": "التأملات",
   "limitTodayLabel": "الاستخدام",
   "limitCreditsLabel": "التأملات المتبقية: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "الخطة: {plan}",
-  "@limitPlanLabel": {
-    "description": "يظهر اسم خطة الاشتراك الحالية.",
+  "@limitCreditsLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "المعيارية أو البركة" }
+      "credits": {}
     }
   },
-  "limitLoadingLabel": "جاري التحميل…",
-  "limitLoadingLabelDescription": "يظهر في بطاقة التأملات أثناء جلب إحصائيات الاستخدام.",
-
+  "limitPlanLabel": "الخطة: {plan}",
+  "@limitPlanLabel": {
+    "description": "يعرض اسم خطة الاشتراك الحالية.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "القياسية أو الولاية"
+      }
+    }
+  },
+  "limitLoadingLabel": "جارٍ التحميل…",
+  "limitLoadingLabelDescription": "يُعرض في بطاقة التأملات أثناء جلب إحصاءات الاستخدام.",
   "aiLimitTitle": "التأملات",
-  "aiLimitSubtitle": "كل رد يستخدم تأملاً واحداً. المعيارية تتضمن تأملات البدء. البركة تفتح الفئات المتقدمة وتمكّن إعادة الشحن.",
-  "aiLimitProgressLabel": "{used} / {total} تأملات مستخدمة",
+  "aiLimitSubtitle": "كل رد يستهلك تأملًا واحدًا. تتضمن الخطة القياسية تأملات ابتدائية. تفتح الولاية الفئات المميزة وتمكّن من الشحن الإضافي.",
+  "aiLimitProgressLabel": "{used} / {total} من التأملات المستخدمة",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "التأملات",
-  "reflectionsUsageLabel": "الاستخدام",
-  "reflectionsRemainingLabel": "التأملات المتبقية: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "الخطة: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "يظهر اسم الخطة الحالية.",
+  "creditsSectionTitle": "التأملات",
+  "creditsUsageLabel": "الاستخدام",
+  "creditsRemainingLabel": "التأملات المتبقية: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "المعيارية أو البركة" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "جاري التحميل…",
-  "reflectionsLoadingLabelDescription": "يظهر أثناء جلب إحصائيات التأملات.",
-
-  "reflectionsTitle": "التأملات",
-  "reflectionsSubtitle": "كل رد يستخدم تأملاً واحداً. المعيارية تتضمن تأملات البدء. البركة تفتح الفئات المتقدمة وتمكّن إعادة الشحن.",
-  "reflectionsProgressLabel": "{used} / {total} تأملات مستخدمة",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "الخطة: {plan}",
+  "@creditsPlanLabel": {
+    "description": "يعرض اسم الخطة الحالية.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "القياسية أو الولاية"
+      }
+    }
+  },
+  "creditsLoadingLabel": "جارٍ التحميل…",
+  "creditsLoadingLabelDescription": "يُعرض أثناء جلب إحصاءات التأملات.",
+  "creditsTitle": "التأملات",
+  "creditsSubtitle": "كل رد يستهلك تأملًا واحدًا. تتضمن الخطة القياسية تأملات ابتدائية. تفتح الولاية الفئات المميزة وتمكّن من الشحن الإضافي.",
+  "creditsProgressLabel": "{used} / {total} من التأملات المستخدمة",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "حذف الحساب",
-  "settingsDeleteDescription": "احذف حسابك وجميع البيانات المرتبطة به بشكل دائم.",
+  "settingsDeleteDescription": "احذف حسابك وجميع البيانات المرتبطة به نهائيًا.",
   "settingsDeleteButtonLabel": "احذف حسابي",
   "settingsDeleteDialogTitle": "حذف الحساب؟",
-  "settingsDeleteDialogBody": "هذا الإجراء دائم ولا يمكن التراجع عنه.\n\nسيتم حذف جميع محادثاتك والسجل وبيانات الحساب.",
+  "settingsDeleteDialogBody": "هذا الإجراء نهائي ولا يمكن التراجع عنه.\n\nسيتم حذف جميع محادثاتك وسجلك ومعلومات حسابك.",
   "settingsDeleteDialogCancel": "إلغاء",
   "settingsDeleteDialogConfirm": "حذف",
-
-  "settingsFreeLimitUsedTitle": "انتهت التأملات البدء",
-  "settingsFreeLimitUsedDescription": "انتهت تأملات البدء لهذا الجهاز. ارق إلى البركة أو اشتر المزيد من التأملات للمتابعة.",
-
-  "settingsStarterReflectionsUsedTitle": "انتهت التأملات البدء",
-  "settingsStarterReflectionsUsedDescription": "انتهت تأملات البدء لهذا الجهاز. ارق إلى البركة أو اشتر المزيد من التأملات للمتابعة.",
-
-  "deviceBoundError": "هذا الجهاز مرتبط بالفعل بحساب آخر. يرجى تسجيل الدخول بالحساب الأصلي.",
-
-  "premiumTitle": "وضع البركة",
-  "premiumSubtitleBasic": "افتح تجربة Ayara الكاملة.",
-  "premiumSubtitleChampion": "أنت في وضع البركة. تحتاج إلى المزيد من التأملات؟",
-
+  "settingsFreeLimitUsedTitle": "تم استخدام التأملات الابتدائية",
+  "settingsFreeLimitUsedDescription": "تم استخدام التأملات الابتدائية لهذا الجهاز. قم بالترقية إلى الولاية أو اشترِ المزيد من التأملات للمتابعة.",
+  "settingsStarterCreditsUsedTitle": "تم استخدام التأملات الابتدائية",
+  "settingsStarterCreditsUsedDescription": "تم استخدام التأملات الابتدائية لهذا الجهاز. قم بالترقية إلى الولاية أو اشترِ المزيد من التأملات للمتابعة.",
+  "deviceBoundError": "هذا الجهاز مرتبط بالفعل بحساب آخر. يُرجى تسجيل الدخول بالحساب الأصلي.",
+  "premiumTitle": "وضع الولاية",
+  "premiumSubtitleBasic": "افتح تجربة أيارا الكاملة.",
+  "premiumSubtitlePremium": "أنت على الولاية. هل تحتاج إلى مزيد من التأملات؟",
   "premiumCurrentPlan": "الخطة الحالية: {plan}",
   "premiumCreditsStatus": "التأملات: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "المشتريات غير متاحة في الوقت الراهن.",
-  "premiumSignInToPurchase": "سجل الدخول لشراء تأملات أو فتح البركة.",
-
+  "premiumPurchasesUnavailable": "عمليات الشراء غير متاحة الآن.",
+  "premiumSignInToPurchase": "سجّل الدخول لشراء التأملات أو فتح الولاية.",
   "premiumRestorePurchases": "استعادة المشتريات",
-  "premiumProcessing": "جاري المعالجة…",
-  "premiumRestoreHintTitle": "هل اشتريت البركة أو تأملات على هذا الجهاز أو جهاز آخر؟",
+  "premiumProcessing": "جارٍ المعالجة…",
+  "premiumRestoreHintTitle": "هل سبق أن اشتريت الولاية أو التأملات على هذا الجهاز أو جهاز آخر؟",
   "premiumRestoreHintBody": "استعد مشترياتك إذا لم تكن ظاهرة.",
-
-  "premiumBuyCredits200": "اشتر 200 تأمل",
-  "premiumBuyCredits400": "اشتر 400 تأمل",
-  "premiumBecomeChampionOneTime": "ارق إلى وضع البركة",
-  "premiumChampionHint": "في وضع البركة، يمكنك إعادة الشحن بتأملات إضافية عندما تحتاج.",
-
+  "premiumBuyCredits200": "شراء 200 تأمل",
+  "premiumBuyCredits400": "شراء 400 تأمل",
+  "premiumBecomePremiumOneTime": "الترقية إلى وضع الولاية",
+  "premiumTopupHint": "مع الولاية، يمكنك شحن تأملات إضافية متى احتجت.",
   "premiumUpgradeCta": "ترقية",
-  "premiumRequiredForCategory": "هذه الفئة متاحة فقط لمستخدمي البركة. ارق في الإعدادات لفتح جميع المحتوى المتقدم.",
-  "premiumBenefitsBasic": "افتح البركة للحصول على تأملات إضافية والوصول إلى فئات متقدمة والمتابعة عندما تحتاج للتوجيه.",
-  "premiumBenefitsChampion": "أنت في وضع البركة. إذا كانت التأملات قليلة، أضف المزيد وتابع بدون انقطاع.",
-  "premiumButtonBecomeChampion": "افتح البركة",
-  "premiumButtonTopup1000": "أضف 1000 تأمل",
-  "premiumChampionBadge": "البركة نشطة",
-  "premiumLoadingStore": "جاري تحميل المتجر…",
-
-  "blessedTitle": "وضع البركة",
-  "blessedSubtitleGrace": "افتح تجربة Ayara الكاملة.",
-  "blessedSubtitleBlessed": "أنت في وضع البركة. تحتاج إلى المزيد من التأملات؟",
-
-  "blessedCurrentPlan": "الخطة الحالية: {plan}",
-  "blessedReflectionsStatus": "التأملات: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "المشتريات غير متاحة في الوقت الراهن.",
-  "blessedProductNotAvailable": "هذا المنتج غير متاح في المتجر حالياً. يرجى المحاولة لاحقاً.",
-  "blessedPurchaseError": "حدث خطأ مع الشراء. يرجى المحاولة مجدداً.",
-  "blessedSignInToPurchase": "سجل الدخول لشراء تأملات أو فتح البركة.",
-
-  "blessedRestorePurchases": "استعادة المشتريات",
-  "blessedProcessing": "جاري المعالجة…",
-  "blessedRestoreHintTitle": "هل اشتريت البركة أو تأملات على هذا الجهاز أو جهاز آخر؟",
-  "blessedRestoreHintBody": "استعد مشترياتك إذا لم تكن ظاهرة.",
-
-  "blessedBuyReflections100": "أضف 100 تأمل",
-  "blessedBuyReflections200": "اشتر 200 تأمل",
-  "blessedBuyReflections400": "اشتر 400 تأمل",
-  "blessedBecomeBlessedOneTime": "ارق إلى البركة",
-  "blessedTopupHint": "في وضع البركة، يمكنك إعادة الشحن بتأملات إضافية عندما تحتاج.",
-
-  "blessedUpgradeCta": "ترقية",
-  "blessedRequiredForCategory": "هذه الفئة متاحة فقط لمستخدمي البركة. ارق في الإعدادات لفتح جميع المحتوى المتقدم.",
-  "blessedFeatureLocked": "افتح البركة للوصول إلى هذه المميزة.",
-  "lockedCategoriesHint": "بعض الفئات محفوظة لأعضاء البركة. افتحها لاستكشاف كل تأمل في رحلتك.",
-  "blessedBenefitsGrace": "افتح البركة للحصول على تأملات إضافية والوصول إلى فئات متقدمة والمتابعة عندما تحتاج للتوجيه.",
-  "blessedBenefitsBlessed": "أنت في وضع البركة. إذا كانت التأملات قليلة، أضف المزيد وتابع بدون انقطاع.",
-  "blessedButtonBecomeBlessed": "افتح البركة",
-  "blessedButtonTopup1000": "أضف 1000 تأمل",
-  "blessedBadge": "البركة نشطة",
-  "blessedLoadingStore": "جاري تحميل المتجر…",
-
-  "freePlanBlockedTitle": "انتهت تأملات البدء",
-  "freePlanBlockedBody": "أنت على الخطة المعيارية مع تأملات البدء وقد بلغت الحد. للمتابعة وفتح الفئات المتقدمة — ارق إلى البركة.",
-  "freePlanBlockedCtaGoPremium": "اعرض خيارات البركة أدناه",
-
-  "graceBlockedTitle": "انتهت تأملات البدء",
-  "graceBlockedBody": "أنت على الخطة المعيارية مع تأملات البدء وقد بلغت الحد. للمتابعة وفتح الفئات المتقدمة — ارق إلى البركة.",
-  "graceBlockedCtaGoBlessed": "اعرض خيارات البركة أدناه",
-
-  "rateGuestMustSignIn": "سجل الدخول لاستخدام Ayara والتأملات.",
-
+  "premiumRequiredForCategory": "هذه الفئة متاحة فقط لمستخدمي الولاية. قم بالترقية من الإعدادات لفتح كل المحتوى المميز.",
+  "premiumBenefitsBasic": "افتح الولاية لتحصل على تأملات إضافية، والوصول إلى الفئات المميزة، والمتابعة كلما احتجت إلى الإرشاد.",
+  "premiumBenefitsPremium": "أنت في وضع الولاية. إذا بدأت التأملات بالنفاد، أضف المزيد وتابع من دون انقطاع.",
+  "premiumButtonBecomePremium": "فتح الولاية",
+  "premiumButtonTopup1000": "إضافة 1000 تأمل",
+  "premiumBadge": "الولاية مفعّلة",
+  "premiumLoadingStore": "جارٍ تحميل المتجر…",
+  "premiumProductNotAvailable": "هذا المنتج غير متاح في المتجر بعد. يُرجى المحاولة لاحقًا.",
+  "premiumPurchaseError": "حدث خطأ أثناء الشراء. يُرجى المحاولة مرة أخرى.",
+  "premiumBuyCredits100": "إضافة 100 تأمل",
+  "premiumFeatureLocked": "افتح الولاية للوصول إلى هذه الميزة.",
+  "lockedCategoriesHint": "بعض الفئات مخصصة لأعضاء الولاية. افتحها لاستكشاف كل تأمل في رحلتك.",
+  "freePlanBlockedTitle": "لقد استخدمت التأملات الابتدائية كلها",
+  "freePlanBlockedBody": "أنت على الخطة القياسية مع تأملات ابتدائية، وقد وصلت إلى الحد الأقصى. للمتابعة — ولفتح الفئات المميزة — قم بالترقية إلى الولاية.",
+  "freePlanBlockedCtaGoPremium": "اطّلع على خيارات الولاية أدناه",
+  "graceBlockedTitle": "لقد استخدمت التأملات الابتدائية كلها",
+  "graceBlockedBody": "أنت على الخطة القياسية مع تأملات ابتدائية، وقد وصلت إلى الحد الأقصى. للمتابعة — ولفتح الفئات المميزة — قم بالترقية إلى الولاية.",
+  "graceBlockedCtaGoPremium": "اطّلع على خيارات الولاية أدناه",
+  "rateGuestMustSignIn": "سجّل الدخول لاستخدام أيارا وتأملاتك.",
   "guestNoCreditsTitle": "وضع الضيف",
-  "guestNoCreditsBody": "كضيف يمكنك تصفح التطبيق، لكن لا يمكنك استخدام التأملات. سجل الدخول لاحقاً في الإعدادات لاستخدام التأملات وفتح المشتريات.",
-
-  "guestNoReflectionsTitle": "وضع الضيف",
-  "guestNoReflectionsBody": "كضيف يمكنك تصفح التطبيق، لكن لا يمكنك استخدام التأملات. سجل الدخول لاحقاً في الإعدادات لاستخدام التأملات وفتح المشتريات.",
-
+  "guestNoCreditsBody": "بصفتك ضيفًا يمكنك تصفح التطبيق، لكن لا يمكنك استخدام التأملات. سجّل الدخول لاحقًا من الإعدادات لاستخدام التأملات وفتح المشتريات.",
   "guestDialogContinue": "متابعة",
-  "guestDialogLoginInstead": "سجل الدخول بدلاً من ذلك",
-
+  "guestDialogLoginInstead": "تسجيل الدخول بدلًا من ذلك",
   "optionalLabel": "اختياري",
-
   "accountDeleteSuccessTitle": "تم حذف الحساب",
   "accountDeleteSuccessBody": "تم حذف حسابك والبيانات المرتبطة به بنجاح.",
   "accountDeleteSuccessClose": "إغلاق",
-  "accountDeleteErrorTitle": "تعذر حذف الحساب",
-  "accountDeleteErrorClose": "موافق",
-  "accountDeleteReauthCancelled": "تم إلغاء إعادة التحقق. يرجى تسجيل الدخول مجدداً والمحاولة مرة أخرى.",
-  "accountDeleteReauthRequired": "حذف الحساب يتطلب تسجيل دخول حديث. يرجى تسجيل الخروج والدخول مجدداً والمحاولة.",
-  "settingsDeletePermanentWarning": "هذا الإجراء دائم ولا يمكن التراجع عنه. سيتم حذف جميع البيانات المرتبطة بحسابك.",
-
-  "dailyGraceTitle": "التوجيه اليومي",
+  "accountDeleteErrorTitle": "تعذّر حذف الحساب",
+  "accountDeleteErrorClose": "حسنًا",
+  "accountDeleteReauthCancelled": "تم إلغاء إعادة المصادقة. يُرجى تسجيل الدخول مرة أخرى ثم إعادة محاولة الحذف.",
+  "accountDeleteReauthRequired": "يتطلب حذف الحساب تسجيل دخول حديثًا. يُرجى تسجيل الخروج ثم تسجيل الدخول مجددًا وإعادة المحاولة.",
+  "settingsDeletePermanentWarning": "هذا الإجراء نهائي ولا يمكن التراجع عنه. سيتم حذف كل البيانات المرتبطة بحسابك.",
+  "dailyGraceTitle": "إرشاد يومي",
   "dailyGraceScriptureLabel": "آية اليوم",
-  "dailyGraceSaintLabel": "العالم للأسبوع",
+  "dailyGraceSaintLabel": "عالِم الأسبوع",
   "dailyGraceReflectionLabel": "تأمل المساء",
   "dailyGraceCopiedToast": "تم نسخ الآية إلى الحافظة",
-
-  "dailyScripture0Text": "إن الذين آمنوا وعملوا الصالحات سيكون لهم جنات تجري من تحتها الأنهار",
-  "dailyScripture0Ref": "القرآن الكريم 54:55",
-  "dailyScripture1Text": "وما أرسلناك إلا رحمة للعالمين",
-  "dailyScripture1Ref": "القرآن الكريم 21:107",
-  "dailyScripture2Text": "أليس الله بكاف عبده ويخوفونك بالذين من دونه",
-  "dailyScripture2Ref": "القرآن الكريم 39:36",
-  "dailyScripture3Text": "عسى أن تكرهوا شيئاً وهو خير لكم وعسى أن تحبوا شيئاً وهو شر لكم والله يعلم وأنتم لا تعلمون",
-  "dailyScripture3Ref": "القرآن الكريم 2:216",
-  "dailyScripture4Text": "إن الله مع الصابرين",
-  "dailyScripture4Ref": "القرآن الكريم 2:153",
-  "dailyScripture5Text": "فاذكروني أذكركم واشكروا لي ولا تكفرون",
-  "dailyScripture5Ref": "القرآن الكريم 2:152",
-  "dailyScripture6Text": "إن أكرمكم عند الله أتقاكم",
-  "dailyScripture6Ref": "القرآن الكريم 49:13",
-  "dailyScripture7Text": "وقضى ربك ألا تعبدوا إلا إياه وبالوالدين إحساناً",
-  "dailyScripture7Ref": "القرآن الكريم 17:23",
-  "dailyScripture8Text": "فإن مع العسر يسراً",
-  "dailyScripture8Ref": "القرآن الكريم 94:5-6",
-  "dailyScripture9Text": "وهو معكم أينما كنتم والله بما تعملون بصير",
-  "dailyScripture9Ref": "القرآن الكريم 57:4",
-  "dailyScripture10Text": "لا يكلف الله نفساً إلا وسعها",
-  "dailyScripture10Ref": "القرآن الكريم 2:286",
-  "dailyScripture11Text": "ومن يتوكل على الله فهو حسبه",
-  "dailyScripture11Ref": "القرآن الكريم 65:3",
-  "dailyScripture12Text": "رحمتي وسعت كل شيء",
-  "dailyScripture12Ref": "القرآن الكريم 7:156",
-  "dailyScripture13Text": "وإذا سألك عبادي عني فإني قريب أجيب دعوة الداع إذا دعان",
-  "dailyScripture13Ref": "القرآن الكريم 2:186",
-  "dailyScripture14Text": "من عمل صالحاً من ذكر أو أنثى وهو مؤمن فلنحيينه حياة طيبة",
-  "dailyScripture14Ref": "القرآن الكريم 16:97",
-  "dailyScripture15Text": "إن الله لا يغير ما بقوم حتى يغيروا ما بأنفسهم",
-  "dailyScripture15Ref": "القرآن الكريم 13:11",
-  "dailyScripture16Text": "فلا تهنوا وتحزنوا وأنتم الأعلون إن كنتم مؤمنين",
-  "dailyScripture16Ref": "القرآن الكريم 3:139",
-  "dailyScripture17Text": "قل يا عبادي الذين أسرفوا على أنفسهم لا تقنطوا من رحمة الله إن الله يغفر الذنوب جميعاً",
-  "dailyScripture17Ref": "القرآن الكريم 39:53",
-  "dailyScripture18Text": "ومن يتق الله يجعل له مخرجاً ويرزقه من حيث لا يحتسب",
-  "dailyScripture18Ref": "القرآن الكريم 65:2-3",
-  "dailyScripture19Text": "لا تيأسوا من رحمة الله",
-  "dailyScripture19Ref": "القرآن الكريم 12:87",
-  "dailyScripture20Text": "ولقد يسرنا القرآن للذكر فهل من مدكر",
-  "dailyScripture20Ref": "القرآن الكريم 54:17",
-  "dailyScripture21Text": "ووجدك ضالاً فهدى",
-  "dailyScripture21Ref": "القرآن الكريم 93:7",
-  "dailyScripture22Text": "وقال ربكم ادعوني أستجب لكم",
-  "dailyScripture22Ref": "القرآن الكريم 40:60",
-  "dailyScripture23Text": "ولقد كرمنا بني آدم",
-  "dailyScripture23Ref": "القرآن الكريم 17:70",
-  "dailyScripture24Text": "واستعينوا بالصبر والصلاة",
-  "dailyScripture24Ref": "القرآن الكريم 2:45",
-  "dailyScripture25Text": "فمن يعمل مثقال ذرة خيراً يره",
-  "dailyScripture25Ref": "القرآن الكريم 99:7",
-  "dailyScripture26Text": "بلى إن نصر الله قريب",
-  "dailyScripture26Ref": "القرآن الكريم 2:214",
-  "dailyScripture27Text": "ومن شكر فإنما يشكر لنفسه",
-  "dailyScripture27Ref": "القرآن الكريم 31:12",
-
-  "dailyReflection0": "مع إطباق هذا اليوم، فكّر في لحظة أظهرت فيها رحمة الله.",
-  "dailyReflection1": "اعرض على الله كل ما أثقل قلبك اليوم.",
-  "dailyReflection2": "اذكر نعمة واحدة من هذا اليوم وعبّر شكرك لله.",
-  "dailyReflection3": "استقر في معرفة أنك محفوظ برعاية الله اللامحدودة.",
-  "dailyReflection4": "تأمل في اللحظات التي دعاك فيها الإحساس بالرحمة واللطف.",
-  "dailyReflection5": "أطلق سراح ما لا تستطيع السيطرة عليه وثق في حكمة الله.",
-  "dailyReflection6": "مع اقتراب الليل، استقبل السلام في ذكر الله.",
-  "dailyReflection7": "تأمل في احترامك لصلواتك اليوم واشكر الله على كل صلاة.",
-  "dailyReflection8": "فكّر في لحظة وجهك فيها الصبر اليوم.",
-  "dailyReflection9": "اطلب المغفرة عن أي تقصير في هذا اليوم — رحمة الله لا نهاية لها.",
-  "dailyReflection10": "اذكر شخصاً واحداً أظهرت له لطفاً وادع له.",
-  "dailyReflection11": "اجلس مع الامتنان: ماذا وفر الله لك اليوم دون أن تطلبه؟",
-  "dailyReflection12": "تأمل في آية من القرآن الكريم تتحدث عن حالك الحالية.",
-  "dailyReflection13": "فكّر في كيفية استخدام وقتك اليوم — وسلّم غداً لله.",
-  "dailyReflection14": "استقر مرتاحاً بأن أي شدة اليوم، كان الله معك فيها.",
-  "dailyReflection15": "فكّر في طريقة واحدة خدمت بها أسرتك أو مجتمعك من أجل الله.",
-  "dailyReflection16": "مع انجلاء الليل، توب إلى الله — إنه يحب من يعود إليه.",
-  "dailyReflection17": "تأمل في الجمال الذي وضعه الله في يومك، مهما كان صغيراً.",
-  "dailyReflection18": "فكّر في ما تعلمته اليوم وكيف يقربك من الله.",
-  "dailyReflection19": "دع قلق اليوم يستقر مع الله — إنه يحمل ما لا تستطيع.",
-  "dailyReflection20": "تذكر لحظة استطعت أن تختار الأفضل فيها، وتعلم منها برفق.",
-  "dailyReflection21": "ادع لمن يعانون — دعاؤك هدية لهم.",
-  "dailyReflection22": "استحضر نعمة تتجاهلها غالباً واستغرق لحظة شاكراً الله عليها.",
-  "dailyReflection23": "تأمل في نياتك اليوم — هل كانت من أجل الله؟ ابدأ مجدداً غداً.",
-  "dailyReflection24": "مع هدوء الليل، استمع لقرب الله في السكون.",
-  "dailyReflection25": "فكّر في مكان وجدت فيه قوة اليوم — تلك القوة من الله.",
-  "dailyReflection26": "اذكر شيئاً ستفعله غداً من أجل الله لم تفعله اليوم.",
-  "dailyReflection27": "وأنت تستعد للراحة، استودع روحك الله — إنه خير الحافظين.",
-
-  "dailyRoleModel0": "محمد ﷺ",
-  "dailyRoleModel1": "أبو بكر الصديق رضي الله عنه",
-  "dailyRoleModel2": "عمر بن الخطاب رضي الله عنه",
-  "dailyRoleModel3": "عثمان بن عفان رضي الله عنه",
-  "dailyRoleModel4": "علي بن أبي طالب رضي الله عنه",
-  "dailyRoleModel5": "خديجة بنت خويلد رضي الله عنها",
-  "dailyRoleModel6": "عائشة بنت أبي بكر رضي الله عنها",
-  "dailyRoleModel7": "فاطمة الزهراء رضي الله عنها",
-  "dailyRoleModel8": "بلال بن رباح رضي الله عنه",
-  "dailyRoleModel9": "سلمان الفارسي رضي الله عنه",
-  "dailyRoleModel10": "أبو هريرة رضي الله عنه",
-  "dailyRoleModel11": "عبدالله بن عباس رضي الله عنه",
-  "dailyRoleModel12": "عبدالله بن مسعود رضي الله عنه",
-  "dailyRoleModel13": "معاذ بن جبل رضي الله عنه",
-  "dailyRoleModel14": "مصعب بن عمير رضي الله عنه",
-  "dailyRoleModel15": "سمية بنت خباب رضي الله عنها",
-  "dailyRoleModel16": "عمار بن ياسر رضي الله عنه",
-  "dailyRoleModel17": "أم سلمة رضي الله عنها",
-  "dailyRoleModel18": "خالد بن الوليد رضي الله عنه",
-  "dailyRoleModel19": "زيد بن ثابت رضي الله عنه",
-  "dailyRoleModel20": "حفصة بنت عمر رضي الله عنها",
-  "dailyRoleModel21": "عمر بن عبد العزيز رحمه الله",
-  "dailyRoleModel22": "الإمام أبو حنيفة رحمه الله",
-  "dailyRoleModel23": "الإمام مالك بن أنس رحمه الله",
-  "dailyRoleModel24": "الإمام الشافعي رحمه الله",
-  "dailyRoleModel25": "الإمام أحمد بن حنبل رحمه الله",
-  "dailyRoleModel26": "الإمام البخاري رحمه الله",
-  "dailyRoleModel27": "الإمام مسلم رحمه الله",
-  "dailyRoleModel28": "الإمام الترمذي رحمه الله",
-  "dailyRoleModel29": "الإمام الغزالي رحمه الله",
-  "dailyRoleModel30": "ابن القيم الجوزية رحمه الله",
-  "dailyRoleModel31": "ابن تيمية رحمه الله",
-  "dailyRoleModel32": "الإمام النووي رحمه الله",
-  "dailyRoleModel33": "ابن حجر العسقلاني رحمه الله",
-  "dailyRoleModel34": "ابن كثير رحمه الله",
-  "dailyRoleModel35": "الطبري رحمه الله",
-  "dailyRoleModel36": "سفيان الثوري رحمه الله",
-  "dailyRoleModel37": "فخر الدين الرازي رحمه الله",
-  "dailyRoleModel38": "ابن سينا رحمه الله",
-  "dailyRoleModel39": "البيروني رحمه الله",
-  "dailyRoleModel40": "ابن رشد رحمه الله",
-  "dailyRoleModel41": "ابن خلدون رحمه الله",
-  "dailyRoleModel42": "ابن بطوطة رحمه الله",
-  "dailyRoleModel43": "إبراهيم عليه السلام",
-  "dailyRoleModel44": "موسى عليه السلام",
-  "dailyRoleModel45": "عيسى عليه السلام",
-  "dailyRoleModel46": "يوسف عليه السلام",
-  "dailyRoleModel47": "داود عليه السلام",
-  "dailyRoleModel48": "سليمان عليه السلام",
-  "dailyRoleModel49": "نوح عليه السلام",
-  "dailyRoleModel50": "يونس عليه السلام",
-  "dailyRoleModel51": "أيوب عليه السلام",
-  "dailyRoleModel52": "رقية بنت محمد رضي الله عنها",
-  "dailyRoleModel53": "زينب بنت محمد رضي الله عنها",
-  "dailyRoleModel54": "الحسن بن علي رضي الله عنه",
-  "dailyRoleModel55": "الحسين بن علي رضي الله عنه",
-  "dailyRoleModel56": "جعفر بن أبي طالب رضي الله عنه",
-  "dailyRoleModel57": "أبو ذر الغفاري رضي الله عنه",
-  "dailyRoleModel58": "طلحة بن عبيدالله رضي الله عنه",
-  "dailyRoleModel59": "الزبير بن العوام رضي الله عنه",
-
-  "locationConsentLabel": "السماح لـ Ayara باستخدام موقعي لاتجاه القبلة وأوقات الصلاة",
-  "locationConsentHint": "يُستخدم فقط لهذه المميزات. موقعك لا يُشارك أو يُحفظ.",
-
-  "askPageTitle": "اسأل Ayara",
-  "askPageDescription": "اسأل عن الإيمان أو الصلاة أو الحياة أو الممارسات الإسلامية واستقبل التوجيه المستند إلى القرآن والسنة.",
+  "locationConsentLabel": "السماح لأيارا باستخدام موقعي لاتجاه القبلة وأوقات الصلاة",
+  "locationConsentHint": "يُستخدم فقط لهاتين الميزتين. لن يتم أبدًا مشاركة موقعك أو تخزينه.",
+  "askPageTitle": "اسأل أيارا",
+  "askPageDescription": "اسأل أي شيء عن الإيمان أو الصلاة أو الحياة أو الممارسة الإسلامية، واحصل على إرشاد مستند إلى القرآن وتعاليم أهل البيت.",
   "askPageInputHint": "اكتب سؤالك هنا…",
   "askPageSubmitCta": "اسأل",
-  "askPageInputEmptyError": "يرجى كتابة سؤال أولاً.",
+  "askPageInputEmptyError": "يرجى كتابة سؤال أولًا.",
   "askResultYourQuestion": "سؤالك",
-
-  "guidancePageTitle": "الصلاة والتوجيه",
-  "qiblaFacingMecca": "متجه نحو مكة",
-  "qiblaCompassInstruction": "دوّر هاتفك حتى تشير الإبرة الذهبية للأعلى.\nذلك الاتجاه يشير نحو القبلة في مكة المكرمة.",
-  "qiblaGpsUnavailableBody": "إشارة تحديد الموقع ضعيفة. انتقل للخارج واضغط إعادة محاولة.",
-  "qiblaRetry": "إعادة محاولة",
+  "guidancePageTitle": "القبلة",
+  "qiblaFacingMecca": "باتجاه مكة",
+  "qiblaCompassInstruction": "أدر هاتفك حتى تشير الإبرة الذهبية إلى الأعلى.\nذلك الاتجاه يشير إلى القبلة (مكة).",
+  "qiblaGpsUnavailableBody": "إشارة GPS ضعيفة. انتقل إلى مكان مفتوح واضغط إعادة المحاولة.",
+  "qiblaRetry": "إعادة المحاولة",
   "qiblaTitle": "اتجاه القبلة",
   "qiblaDistanceLabel": "{km} كم إلى مكة",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
   "qiblaLocationNeededTitle": "الموقع مطلوب",
-  "qiblaLocationNeededBody": "السماح بالوصول للموقع حتى تستطيع Ayara حساب اتجاه الكعبة الشريفة في مكة من موقعك.",
-  "qiblaOpenSettings": "افتح الإعدادات",
-  "qiblaCompassLoading": "جاري البحث عن موقعك…",
+  "qiblaLocationNeededBody": "اسمح بالوصول إلى الموقع لكي يتمكن أيارا من حساب اتجاه الكعبة في مكة من أي مكان تكون فيه.",
+  "qiblaOpenSettings": "فتح الإعدادات",
+  "qiblaCompassLoading": "جارٍ تحديد موقعك…",
   "qiblaTowardMecca": "نحو مكة",
-
   "prayerTimesTitle": "أوقات الصلاة",
   "prayerTimesFajr": "الفجر",
   "prayerTimesDhuhr": "الظهر",
@@ -532,54 +302,328 @@
   "prayerTimesMaghrib": "المغرب",
   "prayerTimesIsha": "العشاء",
   "prayerTimesLocationNeededTitle": "الموقع مطلوب",
-  "prayerTimesLocationNeededBody": "السماح بالوصول للموقع حتى تستطيع Ayara حساب أوقات الصلاة الدقيقة لمدينتك.",
-  "prayerTimesNextLabel": "التالية",
-  "prayerTimesDoneLabel": "انتهت",
-
+  "prayerTimesLocationNeededBody": "اسمح بالوصول إلى الموقع لكي يتمكن أيارا من حساب أوقات الصلاة الدقيقة لمدينتك.",
+  "prayerTimesNextLabel": "التالي",
+  "prayerTimesDoneLabel": "تم",
   "monthlyPrayerTimesTitle": "أوقات الصلاة الشهرية",
-  "monthlyPrayerTimesViewButton": "عرض الشهر كاملاً",
-  "monthlyPrayerTimesNextMonth": "الشهر القادم",
+  "monthlyPrayerTimesViewButton": "عرض الشهر كاملًا",
+  "monthlyPrayerTimesNextMonth": "الشهر التالي",
   "monthlyPrayerTimesDayHeader": "اليوم",
-
-  "sharePrayerTimes": "شارك أوقات الصلاة",
-
+  "sharePrayerTimes": "مشاركة أوقات الصلاة",
+  "notificationsSectionTitle": "الإشعارات",
+  "notificationsSectionSubtitle": "تذكيرات الصلاة وفعاليات التقويم والمزيد",
+  "dailyReflectionReminderTitle": "تأمل يومي",
+  "dailyReflectionReminderDescription": "تذكير يومي لطيف لفتح أيارا والتواصل مع إيمانك.",
+  "dailyReflectionReminderEnable": "تفعيل التذكير اليومي",
+  "dailyReflectionReminderTimeLabel": "وقت التذكير",
   "prayerNotificationsTitle": "تذكيرات الصلاة",
-  "prayerNotificationsDescription": "استقبل تذكيراً لطيفاً قبل كل صلاة لتبقى متصلاً مع الله طوال اليوم.",
-  "prayerNotificationsEnable": "فعّل تذكيرات الصلاة",
-  "prayerNotificationsOpenSettings": "افتح إعدادات الإخطارات",
-  "prayerNotificationsDenied": "الإخطارات معطلة",
-  "prayerNotificationsDeniedHint": "اذهب للإعدادات وسمح بالإخطارات لـ Ayara لاستقبال تذكيرات أوقات الصلاة.",
-
-  "notificationsConsentLabel": "السماح بالإخطارات لأوقات الصلاة",
-
-  "prayerNotifTitleFajr": "🌅 الفجر",
-  "prayerNotifBodyFajr": "أفضل الصلوات صلاة الفجر. استيقظ وتطهر وقف بين يدي الله.",
-
-  "prayerNotifTitleDhuhr": "☀️ الظهر",
-  "prayerNotifBodyDhuhr": "توقف عن يومك وعد إلى الله. حان وقت صلاة الظهر.",
-
-  "prayerNotifTitleAsr": "🌤️ العصر",
-  "prayerNotifBodyAsr": "احرس الصلاة الوسطى. حان وقت العصر — لا تدعه يمضي.",
-
-  "prayerNotifTitleMaghrib": "🌇 المغرب",
-  "prayerNotifBodyMaghrib": "غابت الشمس. صلِّ المغرب واشكر الله على هذا اليوم.",
-
-  "prayerNotifTitleIsha": "🌙 العشاء",
-  "prayerNotifBodyIsha": "أنهِ يومك بذكر الله. هيا إلى الفلاح.",
-
-  "outOfReflectionsBannerText": "استنفذت جميع تأملاتك",
+  "prayerNotificationsDescription": "استلم تذكيرًا لطيفًا قبل كل وقت صلاة ليساعدك على البقاء متصلًا طوال اليوم.",
+  "prayerNotificationsEnable": "تفعيل تذكيرات الصلاة",
+  "prayerNotificationsOpenSettings": "فتح إعدادات الإشعارات",
+  "prayerNotificationsDenied": "الإشعارات معطلة",
+  "prayerNotificationsDeniedHint": "اذهب إلى الإعدادات واسمح بالإشعارات لتطبيق أيارا لتلقي تذكيرات أوقات الصلاة.",
+  "notificationsConsentLabel": "السماح بالإشعارات لأوقات الصلاة",
+  "prayerNotifTitleFajr": "🌅 الفجر — صلاة الفجر",
+  "prayerNotifBodyFajr": "الفجر صلاة صباحات أهل البيت. قال الإمام علي (ع): احفظ صلاة الفجر كما تحفظ أعز أماناتك. انهض، وتطهّر، وقف بين يدي الله.",
+  "prayerNotifTitleDhuhr": "☀️ الظهر — صلاة منتصف النهار",
+  "prayerNotifBodyDhuhr": "كان أئمة أهل البيت يقدّرون كل لحظة من الذكر. توقّف في يومك، واجمع الظهر مع العصر إن احتجت، وأعد قلبك إلى الله.",
+  "prayerNotifTitleAsr": "🌤️ العصر — صلاة العصر",
+  "prayerNotifBodyAsr": "حافظ على الصلاة، فهي العهد بينك وبين الله. لقد دخل وقت العصر — فلا تدعه يمر دون ذكر.",
+  "prayerNotifTitleMaghrib": "🌇 المغرب — صلاة الغروب",
+  "prayerNotifBodyMaghrib": "غربت الشمس — وهي لحظة كان أهل البيت يقدّسونها للدعاء. أدِّ صلاة المغرب وارفع يديك إلى الله بالدعاء قبل أن يبدأ الليل.",
+  "prayerNotifTitleIsha": "🌙 العشاء — صلاة الليل",
+  "prayerNotifBodyIsha": "اختم يومك في معية الله. شجّع الأئمة على صلاة الليل بعد العشاء — لكن أولًا، أتمّ صلاة العشاء واختم يومك بذكره.",
+  "outOfReflectionsBannerText": "لقد استخدمت كل تأملاتك",
   "outOfReflectionsBannerCta": "احصل على المزيد",
-
   "dhikrPageTitle": "الذكر",
-  "dhikrTapToCount": "انقر على الدائرة للعد",
+  "dhikrTapToCount": "اضغط على الدائرة للعد",
   "dhikrResetButton": "إعادة تعيين",
   "dhikrComplete": "ما شاء الله",
-  "dhikrCompleteMessage": "أكملت 99 ذكراً من أذكار الله. أن تكون نوراً لقلبك.",
-
-  "disclaimerTitle": "عن التوجيه في التطبيق",
-  "disclaimerBody": "توفر Ayara تأملات إسلامية وتذكيرات ومحتوى روحي لدعم رحلتك الشخصية في الإيمان. يقدم هذا المحتوى لأغراض إعلامية وروحية عامة فقط.\n\nلا تحل Ayara محل التعليم الإسلامي المتخصص.\nالتوجيه في هذا التطبيق ليس بديلاً عن عالم إسلامي متخصص أو إمام أو مفتٍ أو معلم مدرب لاهوتياً. إذا كان لديك أسئلة عن الأحكام الإسلامية أو مسائل الحلال والحرام أو واجباتك الدينية الشخصية، يرجى طلب النصح من سلطة دينية متخصصة في مجتمعك.\n\nلا تصدر Ayara أحكاماً دينية.\nلا تتخذ Ayara تحديدات معتمدة في مسائل الفقه الإسلامي أو الواجبات الدينية الشخصية. لا ينبغي أن يعامل أي محتوى هنا كفتوى أو تعليمات دينية ملزمة.\n\nالتفسيرات الفقهية تختلف.\nيشمل الإسلام ثراءً متنوعاً من التقاليد ومدارس الفكر والآراء الفقهية. المحتوى في هذا التطبيق يعكس منظورات عامة وقد لا يمثل كل تقليد أو مدرسة بالتساوي.\n\nالمجتمع مهم.\nيهدف التطبيق إلى تشجيع انخراطك مع تقاليد الإيمان مع احترام عميق للدور الحيوي للمسجد المحلي والإمام والمجتمع الديني. نشجعك على البقاء متصلاً بالمعلمين المتخصصين القريبين منك.",
+  "dhikrCompleteMessage": "لقد أكملت 100 ذكر لله. نسأل الله أن تكون نورًا لقلبك.",
+  "disclaimerTitle": "حول الإرشاد في هذا التطبيق",
+  "disclaimerBody": "يوفّر أيارا تأملات إسلامية وتذكيرات ومحتوى روحيًا لدعم رحلتك الإيمانية الشخصية، مستندًا إلى القرآن وتعاليم أهل البيت. يُقدَّم هذا المحتوى لأغراض عامة إعلامية وإلهامية فقط.\n\nأيارا لا يغني عن أهل الاختصاص.\nالإرشاد في هذا التطبيق ليس بديلًا عن العالِم الإسلامي المؤهّل أو المرجع أو المعلّم المتخصص في العقيدة. في الإسلام الشيعي، تستند الهداية الدينية إلى المدرسة الجعفرية في الفقه وإلى تقليد اتباع المرجع الحي — وهو الفقيه المؤهّل الذي ترشد أحكامه المؤمنين في الممارسة الدينية. إذا كانت لديك أسئلة حول الأحكام الشرعية أو مسائل الحلال والحرام أو الواجبات الدينية الشخصية، فيُرجى طلب المشورة من مرجع مؤهّل أو عالم في مجتمعك.\n\nهذا التطبيق لا يصدر أحكامًا شرعية.\nأيارا لا يتخذ قرارات ملزمة في مسائل الفقه أو الواجبات الدينية الشخصية. ولا ينبغي التعامل مع أي شيء هنا على أنه فتوى أو توجيه ديني ملزم.\n\nمركزية أهل البيت.\nفي الإسلام الشيعي، يُعدّ النبي محمد ﷺ وأهل بيته المطهّرون — أهل البيت — الأدلاء المعصومين للأمة الإسلامية بعد القرآن. والأئمة الاثنا عشر من أهل البيت هم المفسرون المعيّنون إلهيًا للتعاليم الإسلامية. يعكس المحتوى في هذا التطبيق هذا التقليد ويسعى إلى تكريمه بأمانة.\n\nشؤون المجتمع.\nيهدف هذا التطبيق إلى تشجيع ارتباطك بالإيمان مع احترام عميق للدور الحيوي الذي تؤديه مساجدك المحلية ومراكزك الإسلامية ومجتمعك الديني. ونشجّعك على البقاء متصلًا والتعلّم من المعلّمين المؤهلين القريبين منك.",
   "disclaimerClose": "أفهم",
-  "disclaimerInfoTooltip": "عن التوجيه في التطبيق",
-  "disclaimerSettingsSubtitle": "لأغراض إعلامية عامة فقط. انقر لقراءة التنصل الكامل.",
-  "disclaimerSectionHeader": "تنصل التوجيه"
+  "disclaimerInfoTooltip": "حول الإرشاد في هذا التطبيق",
+  "disclaimerSettingsSubtitle": "لأغراض معلوماتية عامة فقط. اضغط لقراءة إخلاء المسؤولية الكامل.",
+  "disclaimerSectionHeader": "إخلاء مسؤولية الإرشاد",
+  "navHome": "الرئيسية",
+  "navReflect": "تأمل",
+  "navDuas": "الأدعية",
+  "navCalendar": "التقويم",
+  "dashboardToday": "اليوم",
+  "dashboardComingUp": "قريبًا",
+  "dashboardDaysUnit": "{count, plural, one {يوم} other {أيام}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "وصول سريع",
+  "quickActionQibla": "القبلة",
+  "quickActionDhikr": "الذكر",
+  "quickActionDailyGrace": "الإرشاد",
+  "quickActionPrayerTimes": "أوقات الصلاة",
+  "askAyaraTitle": "اسأل أيارا",
+  "askAyaraSubtitle": "اسأل أي سؤال إسلامي واحصل على إجابة متأملة وموجّهة.",
+  "askAyaraHint": "مثال: ما أهمية شهر رمضان؟",
+  "askAyaraSubmit": "اسأل",
+  "wisdomOfTheDayTitle": "حكمة اليوم",
+  "calendarScreenTitle": "التقويم الإسلامي",
+  "calendarUpcomingOccasions": "المناسبات القادمة",
+  "calendarOccasionRemindersTitle": "تذكيرات المناسبات",
+  "calendarOccasionRemindersHint": "سيتم الإشعار مساء اليوم السابق لكل مناسبة",
+  "calendarNotifPermissionDenied": "تم رفض إذن الإشعارات. فعّله من إعدادات جهازك.",
+  "calendarNoEvents": "لم يتم العثور على مناسبات قادمة.",
+  "calendarAddToPhone": "أضف إلى تقويم الهاتف",
+  "calendarAddedToPhone": "تمت الإضافة إلى التقويم",
+  "calendarCountdownToday": "اليوم",
+  "calendarCountdownTomorrow": "غدًا",
+  "calendarCountdownDays": "بعد {days} أيام",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "هـ",
+  "calendarMonthJan": "ينا",
+  "calendarMonthFeb": "فبر",
+  "calendarMonthMar": "مار",
+  "calendarMonthApr": "أبر",
+  "calendarMonthMay": "ماي",
+  "calendarMonthJun": "يون",
+  "calendarMonthJul": "يول",
+  "calendarMonthAug": "أغس",
+  "calendarMonthSep": "سبت",
+  "calendarMonthOct": "أكت",
+  "calendarMonthNov": "نوف",
+  "calendarMonthDec": "ديس",
+  "calendarSeasonMuharramEarly": "أيام محرّم — تذكّر كربلاء",
+  "calendarSeasonAshura": "عاشوراء — يا حسين (ع)",
+  "calendarSeasonMuharramLate": "محرّم — أيام الحزن والتأمل",
+  "calendarSeasonArbaeen": "الأربعين — أربعون يومًا من الحسين",
+  "calendarSeasonRoadToArbaeen": "الطريق إلى الأربعين",
+  "calendarSeasonMabath": "مبعث مبارك — فجر الوحي",
+  "calendarSeasonMidShaban": "منتصف شعبان — ميلاد الإمام المهدي (عج)",
+  "calendarSeasonRamadan": "رمضان مبارك — شهر القرآن",
+  "calendarSeasonGhadir": "عيد الغدير مبارك!",
+  "hijriMonth1": "محرّم",
+  "hijriMonth2": "صفر",
+  "hijriMonth3": "ربيع الأول",
+  "hijriMonth4": "ربيع الآخر",
+  "hijriMonth5": "جمادى الأولى",
+  "hijriMonth6": "جمادى الآخرة",
+  "hijriMonth7": "رجب",
+  "hijriMonth8": "شعبان",
+  "hijriMonth9": "رمضان",
+  "hijriMonth10": "شوّال",
+  "hijriMonth11": "ذو القعدة",
+  "hijriMonth12": "ذو الحجة",
+  "duasScreenTitle": "الأدعية والزيارات",
+  "duasSearchHint": "ابحث في الأدعية والزيارات…",
+  "duasFilterAll": "الكل",
+  "duasCount": "{count, plural, one {{count} دعاء} other {{count} أدعية وزيارات}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "لم يتم العثور على أدعية.",
+  "duaCategoryDaily": "يومي",
+  "duaCategoryWeekly": "أسبوعي",
+  "duaCategoryOccasions": "المناسبات",
+  "duaCategoryZiyarat": "الزيارات",
+  "duaCategoryTasbih": "التسبيح",
+  "eventTypeBirth": "الولادة",
+  "eventTypeMartyrdom": "الاستشهاد",
+  "eventTypeOccasion": "مناسبة",
+  "duaCopyTooltip": "نسخ الترجمة",
+  "duaToggleTransliteration": "اللفظ",
+  "duaToggleTranslation": "الترجمة",
+  "duaAskAiLabel": "اطلب من أيارا شرح هذا الدعاء",
+  "duaAskAiLockedLabel": "اسأل أيارا (الولاية)",
+  "duaAiLockedMessage": "شروحات أيارا متاحة لأعضاء الولاية. قم بالترقية من الإعدادات.",
+  "duaAiComingSoon": "اسأل أيارا عن \"{name}\" — قريبًا!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "تم نسخ الدعاء إلى الحافظة.",
+  "tasbihAllahuAkbarMeaning": "الله أكبر",
+  "tasbihAlhamdulillahMeaning": "الحمد لله",
+  "tasbihSubhanallahMeaning": "سبحان الله",
+  "tasbihResetTooltip": "إعادة تعيين",
+  "tasbihCompleteTitle": "اكتمل التسبيح",
+  "tasbihCompleteMessage": "تقبّل الله ذكرك.",
+  "tasbihTapHint": "اضغط في أي مكان للعد",
+  "tasbihatScreenTitle": "دليل الصلاة",
+  "tasbihatScreenSubtitle": "تسبيحات الصلاة",
+  "tasbihatScreenDescription": "دليل كامل للتسبيحات التي تُتلى أثناء الصلوات اليومية وبعدها — وفقًا لتقليد أهل البيت (ع).",
+  "tasbihatArba3Title": "التسبيحات الأربع",
+  "tasbihatArba3Subtitle": "تُتلى في الركعة الثالثة والرابعة",
+  "tasbihatArba3Info": "في الفقه الشيعي، تقوم التسبيحات الأربع مقام سورة الفاتحة في الركعة الثالثة والرابعة من الظهر والعصر والمغرب والعشاء. ويجب (واجب) قراءتها مرة واحدة، ويُستحب (مستحب) قراءتها ثلاث مرات.",
+  "tasbihatArba3Translation": "سبحان الله · الحمد لله\nلا إله إلا الله · الله أكبر",
+  "tasbihatArba3CompleteTitle": "اكتملت التلاوة",
+  "tasbihatArba3CompleteMessage": "تُقبّلت صلاتك بإذن الله — آمين",
+  "tasbihatArba3TapHint": "اضغط بعد كل تلاوة",
+  "tasbihatZahraSubtitle": "بعد كل صلاة · 100 حبّة",
+  "tasbihatZahraOriginLabel": "الأصل",
+  "tasbihatZahraHadith": "طلبت السيدة فاطمة الزهراء (ع) من النبي ﷺ خادمًا، فقال: «أفلا أدلك على ما هو خير لك من خادم؟ تسبحين الله 33 مرة، وتحمدين الله 33 مرة، وتكبرين الله 34 مرة بعد كل صلاة. ذلك خير لك من خادم».",
+  "tasbihatZahraHadithSource": "— بحار الأنوار، ج 85",
+  "tasbihatZahraOpenCounter": "افتح عدّاد التسبيح",
+  "tasbihatDuasTitle": "أدعية مستحبة",
+  "tasbihatDuasSubtitle": "بعد إتمام صلاتك",
+  "tasbihatDuaAyatKursiTitle": "آية الكرسي",
+  "tasbihatDuaAyatKursiWhen": "بعد كل صلاة واجبة",
+  "tasbihatDuaAyatKursiSource": "سورة البقرة 2:255",
+  "tasbihatDuaAyatKursiNote": "من قرأ آية الكرسي بعد كل صلاة واجبة، لم يحل بينه وبين الجنة إلا الموت. وقال الإمام الباقر (ع) إنها من أعظم آيات القرآن.",
+  "tasbihatDuaSalawatTitle": "صلوات",
+  "tasbihatDuaSalawatWhen": "بعد كل صلاة · تختم جميع الأدعية",
+  "tasbihatDuaSalawatSource": "الإمام الصادق (ع) — الكافي",
+  "tasbihatDuaSalawatNote": "يُستحب إرسال الصلاة على النبي ﷺ وآله الطاهرين (آل محمد) لختم كل دعاء. قال الإمام الصادق (ع): «كل دعاء محجوب حتى يُصلّى على محمد وآل محمد».",
+  "tasbihatDuaFarajTitle": "دعاء الفرج",
+  "tasbihatDuaFarajWhen": "بعد كل صلاة · لإمام زماننا",
+  "tasbihatDuaFarajSource": "علّمه الإمام الحسن العسكري (ع)",
+  "tasbihatDuaFarajNote": "دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، علّمه والده. يقرأه الشيعة يوميًا بعد كل صلاة تعبيرًا عن الولاء للإمام الحي.",
+  "tasbihatDuaTasbihFatimaTitle": "تسبيح السيدة فاطمة",
+  "tasbihatDuaTasbihFatimaWhen": "بعد المغرب والعشاء · مستحب بشكل خاص",
+  "tasbihatDuaTasbihFatimaSource": "الإمام الباقر (ع) — بحار الأنوار",
+  "tasbihatDuaTasbihFatimaNote": "قال الإمام الباقر (ع) إن قراءة تسبيح الزهراء بعد العشاء قبل النوم خير من ألف ركعة من النوافل. ونوره يصعد إلى السماء.",
+  "tasbihFatimaGiftPre": "هدية من النبي",
+  "tasbihFatimaGiftPost": "تُقرأ بعد كل صلاة",
+  "prayerTrackerTitle": "متتبع الصلاة",
+  "prayerTrackerPrayed": "تمت الصلاة",
+  "prayerTrackerDayStreak": "سلسلة {count} يوم",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "اكتملت جميع صلوات اليوم. تقبّل الله.",
+  "dhikrTrackerTitle": "تسبيح الزهراء",
+  "dhikrTrackerCompletedToday": "أُنجز اليوم",
+  "dhikrTrackerNotDoneToday": "لم يُنجز اليوم",
+  "dhikrTrackerDayStreak": "سلسلة {count} يوم",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "تذكير التسبيح",
+  "dhikrReminderDescription": "تذكير يومي لطيف لقراءة تسبيح الزهراء (ع).",
+  "dhikrReminderEnable": "تفعيل تذكير التسبيح",
+  "dhikrReminderTimeLabel": "وقت التذكير",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "حديث اليوم",
+  "hadithLabelArabic": "العربية",
+  "hadithLabelTranslation": "الترجمة",
+  "hadithBadge": "حديث",
+  "hadithShare": "مشاركة هذا الحديث",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nعبر أيارا",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "السابق",
+  "hadithNavNext": "التالي",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "المعصومون الأربعة عشر",
+  "imamsScreenSubtitle": "النبي والسيدة فاطمة والأئمة الاثنا عشر — الأدلاء المعصومون في الإسلام",
+  "imamLabelBorn": "الولادة",
+  "imamLabelMartyrdom": "الاستشهاد",
+  "imamLabelStatus": "الصفة",
+  "imamSectionBiography": "السيرة",
+  "imamSectionFamousSaying": "قول مشهور",
+  "imamRoleProphet": "خاتم الأنبياء",
+  "imamRoleInfallible": "المعصوم",
+  "imamOrdinal1": "الإمام الأول",
+  "imamOrdinal2": "الإمام الثاني",
+  "imamOrdinal3": "الإمام الثالث",
+  "imamOrdinal4": "الإمام الرابع",
+  "imamOrdinal5": "الإمام الخامس",
+  "imamOrdinal6": "الإمام السادس",
+  "imamOrdinal7": "الإمام السابع",
+  "imamOrdinal8": "الإمام الثامن",
+  "imamOrdinal9": "الإمام التاسع",
+  "imamOrdinal10": "الإمام العاشر",
+  "imamOrdinal11": "الإمام الحادي عشر",
+  "imamOrdinal12": "الإمام الثاني عشر",
+  "duaAudioScreenTitle": "استمع إلى الأدعية",
+  "duaAudioScreenSubtitle": "اختر دعاءً للاستماع إليه. اضغط على البطاقة للتشغيل أو الإيقاف المؤقت.",
+  "duaAudioComingSoonMessage": "سيكون الصوت لهذا الدعاء متاحًا في تحديث قادم.",
+  "duaAudioClose": "إغلاق",
+  "duaAudioError": "تعذّر تحميل الصوت. يُرجى التحقق من اتصالك.",
+  "duaAudioMetaTransmittedBy": "نقله",
+  "duaAudioMetaOccasion": "المناسبة",
+  "duaAudioMetaDuration": "المدة",
+  "quickActionDailyHadith": "حديث اليوم",
+  "quickAction14Masumeen": "المعصومون 14",
+  "quickActionListenDuas": "استماع",
+  "quickActionTasbihat": "دليل الصلاة",
+  "pilgrimageSectionTitle": "الرحلة المقدسة",
+  "pilgrimageSectionSubtitle": "أدلة كاملة للحج والعمرة — إلى بيت الله الحرام في مكة",
+  "hajjCardTitle": "الحج",
+  "hajjCardSubtitle": "الركن الخامس من الإسلام",
+  "hajjCardDescription": "الحج السنوي العظيم — فريضة مرة في العمر على كل مسلم قادر",
+  "hajjScreenTitle": "دليل الحج",
+  "hajjScreenSubtitle": "دليل خطوة بخطوة للحج الأكبر",
+  "umrahCardTitle": "العمرة",
+  "umrahCardSubtitle": "الحج الأصغر",
+  "umrahCardDescription": "رحلة روحية عظيمة الأجر يمكن أداؤها في أي وقت من السنة",
+  "umrahScreenTitle": "دليل العمرة",
+  "umrahScreenSubtitle": "دليل خطوة بخطوة للعمرة",
+  "pilgrimageStepsTitle": "المناسك والخطوات",
+  "pilgrimageImportantNotesTitle": "ملاحظات مهمة",
+  "pilgrimageDuaTitle": "دعاء لهذه الخطوة",
+  "pilgrimageJafariNoteTitle": "ملاحظة فقهية جعفرية",
+  "pilgrimageComplete": "✓ مكتمل",
+  "pilgrimageMarkDone": "حدد كمنجز",
+  "pilgrimageProgress": "{done} من {total} خطوات",
+  "pilgrimageReadTime": "~{minutes} دقيقة",
+  "pilgrimageShiaNoteTitle": "الحجاج الشيعة",
+  "pilgrimageShiaNoteBody": "يجري الحجاج الشيعة عادة أيضًا إلى المدينة المنورة لزيارة قبر النبي محمد (ص) في المسجد النبوي، وقبور الأئمة في جنة البقيع. وتحمل هذه الزيارات أهمية روحية عظيمة، وتُعد جزءًا أساسيًا من الرحلة عند معظم الشيعة.",
+  "hajjIntro": "الحج هو الركن الخامس من الإسلام، وهو واجب مرة في العمر على كل مسلم قادر بدنيًا وماليًا. ويؤدّى في شهر ذي الحجة، مستذكرًا خطى النبي إبراهيم (ع) وابنه إسماعيل (ع) والسيدة هاجر. وبالنسبة للمسلمين الشيعة، يشمل الحج أيضًا البركة العظيمة في زيارة مراقد النبي (ص) وأهل البيت في المدينة.",
+  "umrahIntro": "العمرة هي الحج الأصغر إلى مكة، وعلى خلاف الحج يمكن أداؤها في أي وقت من السنة. ورغم أنها ليست واجبة، فإن لها أجرًا روحيًا عظيمًا وتُعد من العبادات المستحبة جدًا. وتشترك مع الحج في عدة مناسك، لكنها أقصر وتتكوّن من أربعة أعمال رئيسية."
 }

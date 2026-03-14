@@ -24,7 +24,10 @@
       "Read(//c/Users/phiek/dev/ayara-site/css/**)",
       "Read(//c/Users/phiek/dev/ayara-site/**)",
       "Bash(python3 scripts/rename_arb_keys.py)",
-      "Bash(xargs grep:*)"
+      "Bash(xargs grep:*)",
+      "WebFetch(domain:duas.org)",
+      "Bash(curl -s \"https://duas.org/ahad.htm\")",
+      "Bash(curl -s \"https://duas.org/azbala.htm\")"
     ]
   }
 }

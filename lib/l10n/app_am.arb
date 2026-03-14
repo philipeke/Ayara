@@ -1,585 +1,629 @@
 {
   "@@locale": "am",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "ቋንቋዎን ይምረጡ",
   "languageSelectSub": "ይህን በኋላ በቅንብሮች ውስጥ መቀየር ይችላሉ",
   "actionContinue": "ቀጥል",
-  "languageSuggestedHeader": "የሚጠቆሙ",
+  "languageSuggestedHeader": "የተጠቆመ",
   "languageAllHeader": "ሁሉም ቋንቋዎች",
-  "languageSuggestedBadge": "የሚጠቆም",
+  "languageSuggestedBadge": "የተጠቆመ",
   "languageSearchHint": "ፈልግ…",
-
-  "planGrace": "መደበኛ",
-  "planBlessed": "በረካ",
-
-  "categoryDailyGuidance": "ዕለታዊ መምሪያ",
-  "categoryFaithTrust": "ኢማን እና ተወኩል",
-  "categoryPrayerReflection": "የሶላት ሐሳብ",
-  "categoryHopeDifficultTimes": "ሰበርና ተስፋ",
-  "categoryForgiveness": "ተውበት ፈልግ",
-  "categoryLoveCompassion": "ርኅሩኅነትና ቸርነት",
-  "categoryStrengthCourage": "የኢማን ጥንካሬ",
-  "categoryGratitude": "አመስጋኝ ልብ",
-  "categoryPurposeCalling": "የሕይወት ዓላማ",
-  "categoryFamilyRelationships": "የቤተሰብ ትስስር",
-  "categoryPeaceAnxietyRelief": "የልብ ሰላም",
-  "categoryWisdomOfJesus": "የነቢያት ጥበብ",
-  "categoryHumilityCharacter": "መልካም ባህርይ",
-  "categoryOvercomingTemptation": "ፈተናን ተቋቋም",
-  "categoryEveningReflection": "የምሽት ዝክር",
-  "categoryCustom": "የግል እንቅስቃሴ",
-  "dhikrMeaningSubhanallah": "እግዚአብሔር ይቅርታ",
-  "dhikrMeaningAlhamdulillah": "ሁሉም እንደ እግዚአብሔር ነው",
-  "dhikrMeaningAllahuAkbar": "አላህ ይታወቃል",
-  "quranVerseHeartAtRest": "እውነት እንደ እግዚአብሔር ይወዳድር ልቦናዎች ይረዳሉ።",
-
-  "promptHint": "ለእስላማዊ መምሪያና ሐሳብ ምድብ ይምረጡ",
-
+  "planBasic": "መደበኛ",
+  "planPremium": "Wilaya",
+  "categorySlot01": "የዕለት መመሪያ",
+  "categorySlot02": "ኢማን እና እምነት",
+  "categorySlot03": "የሶላት ምልከታ",
+  "categorySlot04": "ትዕግሥት እና ተስፋ",
+  "categorySlot05": "ይቅርታን ፈልግ",
+  "categorySlot06": "ምሕረት እና ርኅራኄ",
+  "categorySlot07": "የእምነት ብርታት",
+  "categorySlot08": "አመስጋኝ ልብ",
+  "categorySlot09": "የሕይወት ዓላማ",
+  "categorySlot10": "የቤተሰብ ትስስር",
+  "categorySlot11": "የውስጥ ሰላም",
+  "categorySlot12": "የነቢዩ ጥበብ",
+  "categorySlot13": "መልካም ጠባይ",
+  "categorySlot14": "ፈተናን ተቋቋም",
+  "categorySlot15": "የምሽት ዝክር",
+  "categoryCustom": "የግል ምልከታ",
+  "dhikrMeaningSubhanallah": "ለአላህ ክብር ይሁን",
+  "dhikrMeaningAlhamdulillah": "ምስጋና ሁሉ ለአላህ ነው",
+  "dhikrMeaningAllahuAkbar": "አላህ ታላቁ ነው",
+  "quranVerseHeartAtRest": "እውነት በአላህ ማስታወስ ውስጥ ልቦች ዕረፍትን ያገኛሉ።",
+  "promptHint": "ለእስልማዊ መመሪያ እና ምልከታ አንድ ምድብ ይንኩ",
   "currentLanguage": "አሁን ያለው ቋንቋ",
   "settingsLanguage": "የቋንቋ ቅንብሮች",
   "settingsTitle": "ቅንብሮች",
   "chooseLanguage": "ቋንቋዎን ይምረጡ",
   "continueCta": "ቀጥል",
-
-  "promptDailyGuidance": "በሱኒ እስላማዊ እምነት ላይ የተመሠረተ አጭርና ተግባራዊ ዕለታዊ መምሪያ ጻፍ — በቁርኣን፣ ሐዲስ እና በነቢዩ ሙሐመድ ﷺ ትምህርቶች ላይ ተመርኩዞ። በእያንዳንዱ ጊዜ አዲስ አቅጣጫ ምረጥ፡ ከእስላማዊ ሥነ ምግባር አንድ በጎ ባህርይ፣ ከሱና አንድ እውነት፣ ከነቢዩ ﷺ ሐዋርያት ጥበብ፣ ወይም ከእስላማዊ ወግ አንድ ዝምተኛ ልምምድ። አንድ የቁርኣን አንቀጽ (ሱራ:አያ) እና ዛሬ ወደ ቀኑ ለማስቀጠል የሚያስችል አጭር ሐሳብ ያካትቱ። እንደ አስፈላጊነቱ ከእስላማዊ ቀን አቆጣጠር ወይም ከሚያስፈልግ ቀን ጋር ያዛምዱ።",
-
-  "promptFaithTrust": "በኢማን እና በአላህ ዕቅድ ላይ ባለ ተወኩል ላይ አጭር እስላማዊ ሐሳብ ጻፍ። በቁርኣን፣ በነቢዩ ሙሐመድ ﷺ ምሳሌ እና በሷሃቦቹ እምነት ላይ ተመርኩዝ። በእያንዳንዱ ጊዜ ልዩ ርዕስ ምረጥ፡ በጥርጣሬ ወቅት አላህን ማመን፣ ለመለኮታዊ ጥበብ መገዛት፣ በፈተና ወቅት ትዕግሥት፣ ወይም በዕለት ተዕለት ሕይወት ዝምተኛ ጽናት። አንድ የቁርኣን አንቀጽ እና ዛሬ ለመሄድ አንድ ቀናዒ ርምጃ ያካትቱ።",
-
-  "promptPrayerReflection": "በሶላት፣ ዱዓ ወይም ዝክር ላይ ተመሠርቶ አጭር እስላማዊ የጸሎት ሐሳብ ጻፍ። በእያንዳንዱ ጊዜ ቅርጹን ለዉጥ፡ የጠዋት ወይም የምሽት አዝካር፣ ያምስቱ ሶላቶች ሐሳብ፣ የቁርኣን አንቀጽ ማሰላሰል፣ ወይም ከልብ የሚወጣ ዱዓ። አንድ የቁርኣን አንቀጽ አካትት እና ጥቅም ላይ የዋለውን የጸሎት ዓይነት በአጭሩ ጥቀስ።",
-
-  "promptHopeDifficultTimes": "በፈተና ወቅት ስለ ትዕግሥት (ሰበር) እና ተስፋ እስላማዊ ሐሳብ ጻፍ። ስለ ፈተና ከቁርኣን ትምህርቶች፣ ከነቢያት ጽናት እና ከአሰቸጋሪ ወቅቶች ላይ ካለው የአላህ ምሕረት ይሳሉ። በእያንዳንዱ ጊዜ አቅጣጫውን ለዉጥ። አንድ የቁርኣን አንቀጽ እና ከእስላማዊ ወግ አንድ ተስፋ ሰጪ ሐሳብ አካትት።",
-
-  "promptForgiveness": "ስለ ተውበትና ስለ አላህ ምሕረት ጥበበኛ እስላማዊ ሐሳብ ጻፍ። ስለ ንስሐ ከቁርኣን ትምህርቶች፣ ስለ አላህ ቸርነት እና ነቢዩ ሙሐመድ ﷺ ይቅር ከሚሉ ምሳሌዎች ይሳሉ። ርዕሱን ለዉጥ፡ ወደ አላህ መመለስ፣ ሌሎችን ይቅር ማለት፣ ግንኙነቶችን ማዳን፣ ወይም ስህተት ከሠሩ በኋላ ለአላህ ምሕረት ማመን። አንድ የቁርኣን አንቀጽ እና አንድ ቀናዒ ርምጃ አካትት።",
-
-  "promptLoveCompassion": "በዕለት ተዕለት ሕይወት ውስጥ ስለ ርኅሩኅነት (ረህማ) እና ቸርነት አጭር እስላማዊ ሐሳብ ጻፍ። ከነቢዩ ሙሐመድ ﷺ ምሳሌ፣ ከኢሕሳን ጽንሰ ሐሳብ እና ለቤተሰብ፣ ለጎረቤቶች እና ለተቸጋሪዎች ስለ ቸርነት ከእስላማዊ ትምህርቶች ይሳሉ። አንድ የቁርኣን አንቀጽ እና ዛሬ ለመተግበር አንድ ትናንሽ የቸርነት ተግባር አካትት።",
-
-  "promptStrengthCourage": "ስለ በእምነት ላይ የተመሠረተ ጥንካሬና ድፍረት እስላማዊ ሐሳብ ጻፍ። ከነቢያት ምሳሌዎች፣ ከቀድሞ ሙስሊሞች ማህበረሰብ እና በፈተና ጸንተው ከቆዩ አማኞች ይሳሉ። ርዕሱን ለዉጥ፡ በእምነት ምክንያት ያለ ድፍረት፣ በሶላት ያለ ጥንካሬ፣ በፍርሃት ወቅት አላህን ማመን፣ ወይም በችግር ጊዜ ጽናት። አንድ የቁርኣን አንቀጽ እና አጭር ዱዓ ወይም ዝክር ሐረግ አካትት።",
-
-  "promptGratitude": "ለአላህ ስለ ምስጋና (ሽኩር) እስላማዊ ሐሳብ ጻፍ። ከቁርኣን ትምህርት እና ነቢያዊ ወግ ላይ ተመርኩዝ። አቅጣጫውን ለዉጥ፡ በፈተና ወቅት ምስጋና፣ ትናንሽ ናቸው የሚባሉ በረከቶችን ማድነቅ፣ ቀኑን በአላህ ምስጋና መጀመር፣ ወይም ዕለት ተዕለት ሕይወት ላይ የአላህን ሥጦታ ማወቅ። አንድ የቁርኣን አንቀጽ እና አንድ የምስጋና ልምምድ አካትት።",
-
-  "promptPurposeCalling": "ስለ አላህን ስለ ማምለክ እና ቀናዒ ሕይወት ስለ መምራት ዓላማ እስላማዊ ሐሳብ ጻፍ። ስለ ዓላማ ከቁርኣን ትምህርቶች፣ ሌሎችን ስለ ማገልገል እና ሥጦታዎቻቸውን ለበጎ ስለ መጠቀም ይሳሉ። ርዕሱን ለዉጥ፡ ቤተሰብና ማህበረሰብ ማገልገል፣ ኢስቲኻራ በኩል መምሪያ መፈለግ፣ ዓላማ ይዞ መኖር፣ ወይም በተራ ሥራ ትርጉም ማግኘት። አንድ የቁርኣን አንቀጽ እና ሁለት ሐሳብ የሚቀሰቅሱ ጥያቄዎች አካትት።",
-
-  "promptFamilyRelationships": "ከቁርኣን ትምህርት እና ከነቢዩ ሙሐመድ ﷺ ምሳሌ ላይ ተመርኩዞ ስለ ቤተሰብና ስለ ግንኙነቶች ጥበበኛ እስላማዊ መምሪያ ጻፍ። ርዕሱን ለዉጥ፡ በቤተሰብ ሕይወት ቸርነት፣ ግጭት ሲኖር ትዕግሥት፣ ወላጆችን ማክበር፣ ልጆችን በእምነት ማሳደግ፣ ወይም ጋብቻን ማጠናከር። አንድ የቁርኣን አንቀጽ እና አንድ ለመሞከር የሚሆን ግንኙነታዊ ልምምድ አካትት።",
-
-  "promptPeaceAnxietyRelief": "ዝክርን እና በአላህ ዕቅድ ላይ ባለ ተወኩልን ስለ ማዕከሉ ያደረገ አጥጋቢ እስላማዊ ሐሳብ ጻፍ። ስለ ልብ ሰላም ከቁርኣን ትምህርቶች፣ ሶላት እና ለአላህ ፈቃድ መገዛት ይሳሉ። ዘዴውን ለዉጥ እናም አንድ የቁርኣን አንቀጽ እና ከእስላማዊ ወግ አንድ ቀላል ማረጋጊያ ልምምድ አካትት።",
-
-  "promptWisdomOfJesus": "በእስልምና እንደሚያስተምሩት ከነቢያት ጥበብ አጭር ሐሳብ ጻፍ። ከቁርኣን ወይም ሐዲስ ይሳሉ እና እስላማዊ ሊቃውንት ትምህርቱን እንዴት እንደተረዱ አጭሩን አብራራ። ርዕሱን ለዉጥ፡ ባህርይ፣ ትዕግሥት፣ ትህትና፣ እምነት ወይም ዕለት ተዕለት ሥነ ምግባር። የቁርኣን አንቀጽ ወይም ሐዲስ ማጣቀሻ እና አንድ ተግባራዊ አተገባበር አካትት።",
-
-  "promptHumilityCharacter": "ስለ ትህትና (ተዋዱዕ) እና ስለ መልካም ባህርይ (አኽላቅ) እስላማዊ ሐሳብ ጻፍ። ከቁርኣን ትምህርቶች፣ ከነቢዩ ሙሐመድ ﷺ ምሳሌ እና ከእስላማዊ ባህርይ ማዳበሪያ ወግ ይሳሉ። ርዕሱን ለዉጥ፡ በአመራር ትህትና፣ ስህተት ማመን፣ ሌሎችን ፈቅዶ ማክበር፣ ወይም በራስ ነጸብራቅ በኩል መንፈሳዊ እድገት። አንድ የቁርኣን አንቀጽ እና ለመተግበር አንድ ልምምድ አካትት።",
-
-  "promptOvercomingTemptation": "ፈተናን ስለ መቋቋምና ቀጥተኛ ጎዳና ላይ ስለ መቆም እስላማዊ ሐሳብ ጻፍ። ከቁርኣን መምሪያ፣ ዝክር፣ ሶላት እና ትግሎቻቸውን ካሸነፉ አማኞች ምሳሌዎች ይሳሉ። አቅጣጫውን ለዉጥ። አንድ የቁርኣን አንቀጽ እና ቀጣዮቹ 24 ሰዓቶች ለሚሆን አንድ ተግባራዊ ዘዴ አካትት።",
-
-  "promptEveningReflection": "ከምሽት ዝክር ወግ (አዝካሩ ልምሳ) ላይ ተመሠርቶ ሰላምታ ያለ እስላማዊ የምሽት ሐሳብ ጻፍ። ሙሐሳባ (ራስን መፈተሽ)፣ ምስጋና እና ከዕረፍት በፊት አላህን ማመን አበረታታ። ስለ ቀኑ 3–5 አጭር የሐሳብ ጥያቄዎች፣ አጭር ማጠቃለያ ዱዓ እና አንድ የቁርኣን አንቀጽ አካትት።",
-
   "wordCount": "{count, plural, one {{count} ቃል} other {{count} ቃላት}}",
-
   "optionsCta": "አማራጮች",
   "newCta": "አዲስ",
   "actionsTitle": "ምን ማድረግ ይፈልጋሉ?",
-  "copy": "ቅዳ",
+  "copy": "ገልብጥ",
   "share": "አጋራ",
   "close": "ዝጋ",
-  "copiedToast": "ወደ ቅንጥብ ሰሌዳ ተቀድቷል",
-
+  "copiedToast": "ወደ ክሊፕቦርድ ተገልብጧል",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Email / share subject line including the category label.",
+    "description": "የኢሜይል / ማጋራት ርዕስ መስመር የምድቡን ስም የሚያካትት።",
     "placeholders": {
-      "category": { "type": "String", "example": "ዕለታዊ መምሪያ" }
+      "category": {
+        "type": "String",
+        "example": "የዕለት መመሪያ"
+      }
     }
   },
-
-  "regenerateErrorTitle": "አዲስ ምላሽ ማዘጋጀት አልተቻለም",
-  "regenerateErrorBody": "{error}\n\nዳግም ለመሞከር ይፈልጋሉ?",
+  "regenerateErrorTitle": "አዲስ ምላሽ ማመንጨት አልተቻለም",
+  "regenerateErrorBody": "{error}\n\nእንደገና ለመሞከር ይፈልጋሉ?",
   "@regenerateErrorBody": {
-    "description": "Shown when regenerating an AI answer fails.",
+    "description": "የAI መልስን እንደገና ማመንጨት ሲከሽፍ የሚታይ።",
     "placeholders": {
-      "error": { "type": "String", "example": "የኔትወርክ ስህተት" }
+      "error": {
+        "type": "String",
+        "example": "የኔትወርክ ስህተት"
+      }
     }
   },
-
   "cancelCta": "ሰርዝ",
-  "retryCta": "ዳግም ሞክር",
-
-  "authTitle": "መለያ ይፍጠሩ",
-  "continueAsGuest": "እንደ እንግዳ ቀጥሉ",
-  "signInGoogle": "በ Google ይግቡ",
-  "signInApple": "በ Apple ይግቡ",
-  "signInEmail": "በ Email ይግቡ",
-  "upgradeWithApple": "በ Apple ቀጥሉ",
-  "mustAccept": "ሁኔታዎቹን መቀበል እና የግላዊነት ፖሊሲን ማረጋገጥ ያስፈልጋል።",
-  "termsLabel": "የአገልግሎት ሁኔታዎቹን ተቀበልኩ",
-  "privacyLabel": "የግላዊነት ፖሊሲን አነበብኩ",
-  "marketingOptIn": "ዜናዎችና ቅናሾች ለመቀበል እስማማለሁ",
-  "openTerms": "የአገልግሎት ሁኔታዎች",
+  "retryCta": "እንደገና ሞክር",
+  "authTitle": "መለያዎን ይፍጠሩ",
+  "continueAsGuest": "እንደ እንግዳ ቀጥል",
+  "signInGoogle": "በGoogle ግባ",
+  "signInApple": "በApple ግባ",
+  "signInEmail": "በኢሜይል ግባ",
+  "upgradeWithApple": "በApple ቀጥል",
+  "mustAccept": "የአገልግሎት ውሎችን መቀበል እና የግላዊነት ፖሊሲን መረዳት አለብዎት።",
+  "termsLabel": "የአገልግሎት ውሎቹን እቀበላለሁ",
+  "privacyLabel": "የግላዊነት ፖሊሲውን አንብቤዋለሁ",
+  "marketingOptIn": "ዜናና ቅናሾች ለመቀበል እስማማለሁ",
+  "openTerms": "የአገልግሎት ውሎች",
   "openPrivacy": "የግላዊነት ፖሊሲ",
-
   "accountSection": "መለያ",
-  "guestMode": "የእንግዳ ሁነታ",
-  "signedIn": "ተገብቷል",
-  "upgradeHint": "ሐሳቦችዎን በሁሉም መሣሪያዎች ለማስቀምጥ መለያ ይፍጠሩ።",
-  "upgradeWithGoogle": "በ Google ቀጥሉ",
+  "guestMode": "የእንግዳ ሁኔታ",
+  "signedIn": "ገብተዋል",
+  "upgradeHint": "መለያ በመፍጠር ምልከታዎችዎን በተለያዩ መሣሪያዎች ላይ ያስቀምጡ።",
+  "upgradeWithGoogle": "በGoogle ቀጥል",
   "signOut": "ውጣ",
-
-  "snackUpgraded": "መለያ በ Google ታድሷል ✅",
-  "snackSignedIn": "በ Google ተገብቷል ✅",
-  "snackSignedOut": "ወጥቷል",
-  "snackSignedInApple": "በ Apple ተገብቷል ✅",
-  "snackSignedInGoogle": "በ Google ተገብቷል ✅",
-  "snackUpgradedApple": "መለያ በ Apple ታድሷል ✅",
-  "snackUpgradedGoogle": "መለያ በ Google ታድሷል ✅",
-
-  "historyTitle": "ቀደምት ሐሳቦች",
-  "historyOpenCta": "ቀደምት ሐሳቦች",
-  "historyEmpty": "ምንም የተቀመጡ ሐሳቦች የሉም።",
-  "historyDeleteTitle": "ሐሳቡ ይሰረዝ?",
-  "historyDeleteBody": "ይህ የተመረጠውን ንጥል ሙሉ በሙሉ ያስወግዳል።",
+  "snackUpgraded": "መለያው በGoogle ተሻሽሏል ✅",
+  "snackSignedIn": "በGoogle ገብተዋል ✅",
+  "snackSignedOut": "ወጥተዋል",
+  "snackSignedInApple": "በApple ገብተዋል ✅",
+  "snackSignedInGoogle": "በGoogle ገብተዋል ✅",
+  "snackUpgradedApple": "መለያው በApple ተሻሽሏል ✅",
+  "snackUpgradedGoogle": "መለያው በGoogle ተሻሽሏል ✅",
+  "historyTitle": "ያለፉ ምልከታዎች",
+  "historyOpenCta": "ያለፉ ምልከታዎች",
+  "historyEmpty": "እስካሁን የተቀመጡ ምልከታዎች የሉም።",
+  "historyDeleteTitle": "ምልከታው ይሰረዝ?",
+  "historyDeleteBody": "ይህ የተመረጠውን ንጥል በቋሚነት ያስወግዳል።",
   "deleteCta": "ሰርዝ",
-
-  "historyButton": "ቀደምት ሐሳቦች",
-  "historyEmptyTitle": "እስካሁን ምንም ሐሳቦች የሉም",
-  "historyEmptyBody": "መጀመሪያ ይፍጠሩ — የተቀመጡ ንጥሎች እዚህ ይታያሉ።",
+  "historyButton": "ያለፉ ምልከታዎች",
+  "historyEmptyTitle": "እስካሁን ምልከታ የለም",
+  "historyEmptyBody": "መጀመሪያ አንድ ነገር ያመንጩ — የተቀመጡ ንጥሎችዎ እዚህ ይታያሉ።",
   "historyDelete": "ሰርዝ",
-
-  "footerTitle": "በኢማን፣ ሰበር እና ረህማ።",
-  "footerSubtitle": "አንድ ርምጃ በአንድ ጊዜ።",
-  "genericErrorSnack": "ችግር ተፈጥሯል — ከጥቂት ቆይታ በኋላ ዳግም ይሞክሩ።",
-
-  "upgradeAccountCta": "ሐሳቦችዎን በሁሉም መሣሪያዎች ያስቀምጡ — መለያ ይፍጠሩ",
-  "deleteAccount": "መለያ ሰርዝ",
-  "exportData": "ውሂቤን ወዳ ውጪ ላክ",
-
+  "footerTitle": "በWilaya፣ ኢማን እና ሰብር",
+  "footerSubtitle": "አንድ ጸሎት በአንድ ጊዜ",
+  "genericErrorSnack": "አንድ ችግር ተፈጥሯል — እባክዎ ከትንሽ ጊዜ በኋላ ደግመው ይሞክሩ።",
+  "upgradeAccountCta": "ምልከታዎችዎን በተለያዩ መሣሪያዎች ላይ ያስቀምጡ – መለያ ይፍጠሩ",
+  "deleteAccount": "መለያን ሰርዝ",
+  "exportData": "ውሂቤን ወደ ውጭ አውጣ",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Label before showing the internal Firebase UID.",
+    "description": "የውስጥ Firebase UID ከመታየቱ በፊት የሚታይ መለያ።",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "ትንሽ ይጠብቁ 🐯\nAI ቀጣዩ ሐሳብ ከመምጣቱ በፊት ጊዜ ያስፈልገዋል…",
-  "rateDailyLimit": "ለአሁን ሐሳቦችዎ አልቀዋል።\nተጨማሪ ሐሳቦች ያግኙ ወይም ወደ በረካ ይሻሻሉ።",
-  "rateCreditsExhausted": "ሁሉም ሐሳቦችዎ አልቀዋል።\nለቀጣይ ሐሳቦች ይጨምሩ ወይም ወደ በረካ ይሻሻሉ።",
-  "rateGraceReflectionsExhausted": "ለአሁን ሐሳቦችዎ አልቀዋል።\nተጨማሪ ሐሳቦች ያግኙ ወይም ወደ በረካ ይሻሻሉ።",
-  "rateReflectionsExhausted": "ሁሉም ሐሳቦችዎ አልቀዋል።\nለቀጣይ ሐሳቦች ይጨምሩ ወይም ወደ በረካ ይሻሻሉ።",
-
-  "blessedDescription": "በረካ ፕሪሚየም ባህሪያትን፣ ወደፊት የሚመጡ ምድቦችን እና ልዩ ሻምፒዮን ምልክት ይከፍታል።",
-  "championDescription": "በረካ ፕሪሚየም ባህሪያትን፣ ወደፊት የሚመጡ ምድቦችን እና ልዩ ሻምፒዮን ምልክት ይከፍታል።",
-
-  "ratePlanExhausted": "ሐሳቦችዎ አሁን ባዶ ናቸው። ፕላን: {plan}።",
+  "rateLocalThrottle": "ቀስ ብለህ 🐯\nAyara ከሚቀጥለው በፊት አንድ ትንሽ ጊዜ ይፈልጋል…",
+  "rateDailyLimit": "ለአሁን ምልከታዎችዎ አልቀዋል።\nተጨማሪ ምልከታዎች ያግኙ ወይም ወደ Wilaya ያሻሽሉ።",
+  "rateCreditsExhausted": "ሁሉንም ምልከታዎችዎን ተጠቅመዋል።\nለመቀጠል ክሬዲት ይጨምሩ ወይም ወደ Wilaya ያሻሽሉ።",
+  "rateGraceCreditsExhausted": "ለአሁን ምልከታዎችዎ አልቀዋል።\nተጨማሪ ምልከታዎች ያግኙ ወይም ወደ Wilaya ያሻሽሉ።",
+  "premiumDescription": "Wilaya ፕሪሚየም ባህሪያትን፣ ወደፊት የሚመጡ ምድቦችን እና ልዩ ምልክትን ይከፍታል።",
+  "ratePlanExhausted": "ምልከታዎችዎ አሁን ባዶ ናቸው። እቅድ፦ {plan}.",
   "@ratePlanExhausted": {
-    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "description": "የተጠቃሚው ምልከታ ሲያልቅ ነገር ግን ምክንያቱ አጠቃላይ ሲሆን የሚታይ።",
     "placeholders": {
-      "plan": { "type": "String", "example": "መደበኛ ወይም በረካ" }
+      "plan": {
+        "type": "String",
+        "example": "መደበኛ ወይም Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "ሐሳቦችዎን ማረጋገጥ አልተቻለም: {message}",
+  "rateCheckFailed": "ምልከታዎችዎን ማረጋገጥ አልተቻለም፦ {message}",
   "@rateCheckFailed": {
-    "description": "Shown when the callable function returns an error message.",
+    "description": "callable function የስህተት መልዕክት ሲመልስ የሚታይ።",
     "placeholders": {
-      "message": { "type": "String", "example": "የኔትወርክ ስህተት" }
+      "message": {
+        "type": "String",
+        "example": "የኔትወርክ ስህተት"
+      }
     }
   },
-
-  "rateCheckGenericError": "ሐሳቦችዎን በሚፈትሹበት ጊዜ ችግር ተፈጥሯል።",
-  "aiFallbackGeneric": "ችግር ተፈጥሯል — ከጥቂት ቆይታ በኋላ ዳግም ይሞክሩ።",
-
-  "limitSectionTitle": "ሐሳቦች",
+  "rateCheckGenericError": "ምልከታዎችዎን ሲያረጋግጥ አንድ ችግር ተፈጥሯል።",
+  "aiFallbackGeneric": "አንድ ችግር ተፈጥሯል — እባክዎ ከትንሽ ጊዜ በኋላ ደግመው ይሞክሩ።",
+  "limitSectionTitle": "ምልከታዎች",
   "limitTodayLabel": "አጠቃቀም",
-  "limitCreditsLabel": "ቀሪ ሐሳቦች: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "ፕላን: {plan}",
-  "@limitPlanLabel": {
-    "description": "Shows the current subscription plan name.",
+  "limitCreditsLabel": "የቀሩ ምልከታዎች፦ {credits}",
+  "@limitCreditsLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "መደበኛ ወይም በረካ" }
+      "credits": {}
+    }
+  },
+  "limitPlanLabel": "እቅድ፦ {plan}",
+  "@limitPlanLabel": {
+    "description": "የአሁኑን የመመዝገቢያ እቅድ ስም ያሳያል።",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "መደበኛ ወይም Wilaya"
+      }
     }
   },
   "limitLoadingLabel": "በመጫን ላይ…",
-  "limitLoadingLabelDescription": "የአጠቃቀም ስታቲስቲክስ በሚጫኑበት ጊዜ በሐሳቦች ካርድ ላይ ይታያል።",
-
-  "aiLimitTitle": "ሐሳቦች",
-  "aiLimitSubtitle": "እያንዳንዱ ምላሽ 1 ሐሳብ ይጠቀማል። መደበኛ ፕላን መጀመሪያ ሐሳቦችን ያካትታል። በረካ ፕሪሚየም ምድቦችን ይከፍታል እና ተጨማሪ ሐሳቦችን ለማስጨመር ያስችላል።",
-  "aiLimitProgressLabel": "{used} / {total} ሐሳቦች ጥቅም ላይ ውለዋል",
+  "limitLoadingLabelDescription": "የአጠቃቀም መረጃ ሲወሰድ በምልከታ ካርድ ላይ የሚታይ።",
+  "aiLimitTitle": "ምልከታዎች",
+  "aiLimitSubtitle": "እያንዳንዱ ምላሽ 1 ምልከታ ይጠቀማል። መደበኛ ጀማሪ ምልከታዎችን ያካትታል። Wilaya ፕሪሚየም ምድቦችን ይከፍታል እና ተጨማሪ መጨመርን ያስችላል።",
+  "aiLimitProgressLabel": "{used} / {total} ምልከታዎች ተጠቅመዋል",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "ሐሳቦች",
-  "reflectionsUsageLabel": "አጠቃቀም",
-  "reflectionsRemainingLabel": "ቀሪ ሐሳቦች: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "ፕላን: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Shows the current plan name.",
+  "creditsSectionTitle": "ምልከታዎች",
+  "creditsUsageLabel": "አጠቃቀም",
+  "creditsRemainingLabel": "የቀሩ ምልከታዎች፦ {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "መደበኛ ወይም በረካ" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "በመጫን ላይ…",
-  "reflectionsLoadingLabelDescription": "የሐሳቦች ስታቲስቲክስ በሚጫኑበት ጊዜ ይታያል።",
-
-  "reflectionsTitle": "ሐሳቦች",
-  "reflectionsSubtitle": "እያንዳንዱ ምላሽ 1 ሐሳብ ይጠቀማል። መደበኛ ፕላን መጀመሪያ ሐሳቦችን ያካትታል። በረካ ፕሪሚየም ምድቦችን ይከፍታል እና ተጨማሪ ሐሳቦችን ለማስጨመር ያስችላል።",
-  "reflectionsProgressLabel": "{used} / {total} ሐሳቦች ጥቅም ላይ ውለዋል",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "እቅድ፦ {plan}",
+  "@creditsPlanLabel": {
+    "description": "የአሁኑን እቅድ ስም ያሳያል።",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "መደበኛ ወይም Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "በመጫን ላይ…",
+  "creditsLoadingLabelDescription": "የምልከታ መረጃ ሲጫን የሚታይ።",
+  "creditsTitle": "ምልከታዎች",
+  "creditsSubtitle": "እያንዳንዱ ምላሽ 1 ምልከታ ይጠቀማል። መደበኛ ጀማሪ ምልከታዎችን ያካትታል። Wilaya ፕሪሚየም ምድቦችን ይከፍታል እና ተጨማሪ መጨመርን ያስችላል።",
+  "creditsProgressLabel": "{used} / {total} ምልከታዎች ተጠቅመዋል",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "መለያ ሰርዝ",
-  "settingsDeleteDescription": "መለያዎን እና ሁሉም ተዛማጅ ውሂብ ሙሉ በሙሉ ሰርዝ።",
+  "settingsDeleteDescription": "መለያዎን እና ሁሉንም ተያያዥ ውሂብ በቋሚነት ያጥፉ።",
   "settingsDeleteButtonLabel": "መለያዬን ሰርዝ",
   "settingsDeleteDialogTitle": "መለያ ይሰረዝ?",
-  "settingsDeleteDialogBody": "ይህ ተግባር ቋሚ ነው እና ሊቀለበስ አይችልም።\n\nሁሉም ውይይቶችዎ፣ ታሪክዎ እና የመለያ መረጃዎ ይሰረዛሉ።",
+  "settingsDeleteDialogBody": "ይህ እርምጃ ቋሚ ነው እና መመለስ አይቻልም።\n\nሁሉም ውይይቶችዎ፣ ታሪክዎ እና የመለያ መረጃዎ ይሰረዛሉ።",
   "settingsDeleteDialogCancel": "ሰርዝ",
   "settingsDeleteDialogConfirm": "ሰርዝ",
-
-  "settingsFreeLimitUsedTitle": "የጀማሪ ሐሳቦች ጥቅም ላይ ዋሉ",
-  "settingsFreeLimitUsedDescription": "ለዚህ መሣሪያ ያሉ የጀማሪ ሐሳቦች ጥቅም ላይ ዋሉ። ለቀጣይ ወደ በረካ ያሻሽሉ ወይም ተጨማሪ ሐሳቦች ይግዙ።",
-
-  "settingsStarterReflectionsUsedTitle": "የጀማሪ ሐሳቦች ጥቅም ላይ ዋሉ",
-  "settingsStarterReflectionsUsedDescription": "ለዚህ መሣሪያ ያሉ የጀማሪ ሐሳቦች ጥቅም ላይ ዋሉ። ለቀጣይ ወደ በረካ ያሻሽሉ ወይም ተጨማሪ ሐሳቦች ይግዙ።",
-
-  "deviceBoundError": "ይህ መሣሪያ ቀድሞ ከሌላ መለያ ጋር ተያይዟል። እባክዎ ዋናውን መለያ ይጠቀሙ።",
-
-  "premiumTitle": "የበረካ ሁነታ",
-  "premiumSubtitleBasic": "ሙሉ የ Ayara ተሞክሮ ይክፈቱ።",
-  "premiumSubtitleChampion": "በረካ ናችሁ። ተጨማሪ ሐሳቦች ያስፈልጋሉ?",
-
-  "premiumCurrentPlan": "አሁን ያለ ፕላን: {plan}",
-  "premiumCreditsStatus": "ሐሳቦች: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "ግዢዎች አሁን አይቻሉም።",
-  "premiumSignInToPurchase": "ሐሳቦች ለመግዛት ወይም በረካን ለመክፈት ይግቡ።",
-
+  "settingsFreeLimitUsedTitle": "የጀማሪ ምልከታዎች ተጠቅመዋል",
+  "settingsFreeLimitUsedDescription": "ለዚህ መሣሪያ ያሉ የጀማሪ ምልከታዎች ተጠቅመዋል። ለመቀጠል ወደ Wilaya ያሻሽሉ ወይም ተጨማሪ ምልከታዎችን ይግዙ።",
+  "settingsStarterCreditsUsedTitle": "የጀማሪ ምልከታዎች ተጠቅመዋል",
+  "settingsStarterCreditsUsedDescription": "ለዚህ መሣሪያ ያሉ የጀማሪ ምልከታዎች ተጠቅመዋል። ለመቀጠል ወደ Wilaya ያሻሽሉ ወይም ተጨማሪ ምልከታዎችን ይግዙ።",
+  "deviceBoundError": "ይህ መሣሪያ ከሌላ መለያ ጋር አስቀድሞ ተያይዟል። እባክዎ በመጀመሪያው መለያ ይግቡ።",
+  "premiumTitle": "የWilaya ሁኔታ",
+  "premiumSubtitleBasic": "ሙሉውን የAyara ተሞክሮ ይክፈቱ።",
+  "premiumSubtitlePremium": "በWilaya ላይ ነዎት። ተጨማሪ ምልከታዎች ይፈልጋሉ?",
+  "premiumCurrentPlan": "አሁን ያለው እቅድ፦ {plan}",
+  "premiumCreditsStatus": "ምልከታዎች፦ {remaining} / {total}",
+  "premiumPurchasesUnavailable": "ግዢዎች አሁን አይገኙም።",
+  "premiumSignInToPurchase": "ምልከታዎችን ለመግዛት ወይም Wilaya ለመክፈት ይግቡ።",
   "premiumRestorePurchases": "ግዢዎችን መልስ",
   "premiumProcessing": "በሂደት ላይ…",
-  "premiumRestoreHintTitle": "ቀደም ሲል በረካ ወይም ሐሳቦች በዚህ ወይም ሌላ መሣሪያ ላይ ገዝተዋል?",
+  "premiumRestoreHintTitle": "Wilaya ወይም ምልከታዎችን በዚህ ወይም በሌላ መሣሪያ ላይ አስቀድሞ ገዝተዋል?",
   "premiumRestoreHintBody": "ካልታዩ ግዢዎችዎን ይመልሱ።",
-
-  "premiumBuyCredits200": "200 ሐሳቦች ይግዙ",
-  "premiumBuyCredits400": "400 ሐሳቦች ይግዙ",
-  "premiumBecomeChampionOneTime": "ወደ የበረካ ሁነታ ያሻሽሉ",
-  "premiumChampionHint": "እንደ በረካ፣ ሲፈልጉ ተጨማሪ ሐሳቦችን ማከል ይችላሉ።",
-
-  "premiumUpgradeCta": "ያሻሽሉ",
-  "premiumRequiredForCategory": "ይህ ምድብ ለበረካ ተጠቃሚዎች ብቻ ነው። ሁሉንም ፕሪሚየም ይዘቶች ለመክፈት በቅንብሮች ያሻሽሉ።",
-  "premiumBenefitsBasic": "ተጨማሪ ሐሳቦችን ለማግኘት፣ ፕሪሚየም ምድቦችን ለመክፈት እና ሲፈልጉ ለቀጣይ በረካን ይክፈቱ።",
-  "premiumBenefitsChampion": "በበረካ ሁነታ ነህ። ሐሳቦች እየቀነሱ ከሆነ ተጨማሪ አክልና ያለ ምንም እክል ቀጥል።",
-  "premiumButtonBecomeChampion": "በረካን ክፈት",
-  "premiumButtonTopup1000": "1000 ሐሳቦች ጨምር",
-  "premiumChampionBadge": "በረካ ንቁ ነው",
-  "premiumLoadingStore": "ሱቅ በመጫን ላይ…",
-
-  "blessedTitle": "የበረካ ሁነታ",
-  "blessedSubtitleGrace": "ሙሉ የ Ayara ተሞክሮ ይክፈቱ።",
-  "blessedSubtitleBlessed": "በረካ ናችሁ። ተጨማሪ ሐሳቦች ያስፈልጋሉ?",
-
-  "blessedCurrentPlan": "አሁን ያለ ፕላን: {plan}",
-  "blessedReflectionsStatus": "ሐሳቦች: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "ግዢዎች አሁን አይቻሉም።",
-  "blessedProductNotAvailable": "ይህ ምርት አሁን በሱቅ ውስጥ አይገኝም። ትንሽ ቆይተው ዳግም ይሞክሩ።",
-  "blessedPurchaseError": "ሲገዙ ችግር ተፈጥሯል። ዳግም ይሞክሩ።",
-  "blessedSignInToPurchase": "ሐሳቦች ለመግዛት ወይም በረካን ለመክፈት ይግቡ።",
-
-  "blessedRestorePurchases": "ግዢዎችን መልስ",
-  "blessedProcessing": "በሂደት ላይ…",
-  "blessedRestoreHintTitle": "ቀደም ሲል በረካ ወይም ሐሳቦች በዚህ ወይም ሌላ መሣሪያ ላይ ገዝተዋል?",
-  "blessedRestoreHintBody": "ካልታዩ ግዢዎችዎን ይመልሱ።",
-
-  "blessedBuyReflections100": "100 ሐሳቦች ጨምር",
-  "blessedBuyReflections200": "200 ሐሳቦች ይግዙ",
-  "blessedBuyReflections400": "400 ሐሳቦች ይግዙ",
-  "blessedBecomeBlessedOneTime": "ወደ በረካ ያሻሽሉ",
-  "blessedTopupHint": "እንደ በረካ፣ ሲፈልጉ ተጨማሪ ሐሳቦችን ማከል ይችላሉ።",
-
-  "blessedUpgradeCta": "ያሻሽሉ",
-  "blessedRequiredForCategory": "ይህ ምድብ ለበረካ ተጠቃሚዎች ብቻ ነው። ሁሉንም ፕሪሚየም ይዘቶች ለመክፈት በቅንብሮች ያሻሽሉ።",
-  "blessedFeatureLocked": "ይህን ባህሪ ለመጠቀም በረካን ክፈት።",
-  "lockedCategoriesHint": "አንዳንድ ምድቦች ለበረካ አባላት ብቻ ናቸው። በጉዞዎ ሁሉንም ሐሳቦች ለማሰስ ይክፈቷቸው።",
-  "blessedBenefitsGrace": "ተጨማሪ ሐሳቦችን ለማግኘት፣ ፕሪሚየም ምድቦችን ለመክፈት እና ሲፈልጉ ለቀጣይ በረካን ይክፈቱ።",
-  "blessedBenefitsBlessed": "በበረካ ሁነታ ነህ። ሐሳቦች እየቀነሱ ከሆነ ተጨማሪ አክልና ያለ ምንም እክል ቀጥል።",
-  "blessedButtonBecomeBlessed": "በረካን ክፈት",
-  "blessedButtonTopup1000": "1000 ሐሳቦች ጨምር",
-  "blessedBadge": "በረካ ንቁ ነው",
-  "blessedLoadingStore": "ሱቅ በመጫን ላይ…",
-
-  "freePlanBlockedTitle": "የጀማሪ ሐሳቦችዎ አልቀዋል",
-  "freePlanBlockedBody": "በመደበኛ ፕላን ላይ ያሉ ሲሆን የጀማሪ ሐሳቦቹ ላይ ደርሰዋል። ለቀጣይ — እና ፕሪሚየም ምድቦችን ለመክፈት — ወደ በረካ ያሻሽሉ።",
-  "freePlanBlockedCtaGoPremium": "ከዚህ በታች ያሉ የበረካ አማራጮችን ይመልከቱ",
-
-  "graceBlockedTitle": "የጀማሪ ሐሳቦችዎ አልቀዋል",
-  "graceBlockedBody": "በመደበኛ ፕላን ላይ ያሉ ሲሆን የጀማሪ ሐሳቦቹ ላይ ደርሰዋል። ለቀጣይ — እና ፕሪሚየም ምድቦችን ለመክፈት — ወደ በረካ ያሻሽሉ።",
-  "graceBlockedCtaGoBlessed": "ከዚህ በታች ያሉ የበረካ አማራጮችን ይመልከቱ",
-
-  "rateGuestMustSignIn": "Ayaraን እና ሐሳቦችዎን ለመጠቀም ይግቡ።",
-
-  "guestNoCreditsTitle": "የእንግዳ ሁነታ",
-  "guestNoCreditsBody": "እንደ እንግዳ መተግበሪያውን ማሰስ ይችላሉ፣ ግን ሐሳቦችን መጠቀም አይችሉም። ሐሳቦችን ለመጠቀም እና ግዢዎችን ለመክፈት በቅንብሮች ውስጥ ይግቡ።",
-
-  "guestNoReflectionsTitle": "የእንግዳ ሁነታ",
-  "guestNoReflectionsBody": "እንደ እንግዳ መተግበሪያውን ማሰስ ይችላሉ፣ ግን ሐሳቦችን መጠቀም አይችሉም። ሐሳቦችን ለመጠቀም እና ግዢዎችን ለመክፈት በቅንብሮች ውስጥ ይግቡ።",
-
-  "guestDialogContinue": "ቀጥሉ",
-  "guestDialogLoginInstead": "ይልቁኑ ይግቡ",
-
+  "premiumBuyCredits200": "200 ምልከታዎች ይግዙ",
+  "premiumBuyCredits400": "400 ምልከታዎች ይግዙ",
+  "premiumBecomePremiumOneTime": "ወደ Wilaya ሁኔታ ያሻሽሉ",
+  "premiumTopupHint": "በWilaya ከፈለጉት ጊዜ ተጨማሪ ምልከታዎችን መጨመር ይችላሉ።",
+  "premiumUpgradeCta": "አሻሽል",
+  "premiumRequiredForCategory": "ይህ ምድብ ለWilaya ተጠቃሚዎች ብቻ ይገኛል። ሁሉንም ፕሪሚየም ይዘት ለመክፈት በቅንብሮች ውስጥ ያሻሽሉ።",
+  "premiumBenefitsBasic": "ተጨማሪ ምልከታዎችን ለማግኘት፣ ፕሪሚየም ምድቦችን ለመድረስ እና መመሪያ ሲፈልጉ ለመቀጠል Wilaya ይክፈቱ።",
+  "premiumBenefitsPremium": "በWilaya ሁኔታ ውስጥ ነዎት። እየቀነሱ ከሆነ፣ ተጨማሪ ምልከታዎችን ያክሉ እና ያለ መቋረጥ ይቀጥሉ።",
+  "premiumButtonBecomePremium": "Wilayaን ክፈት",
+  "premiumButtonTopup1000": "1000 ምልከታዎች ጨምር",
+  "premiumBadge": "Wilaya ንቁ ነው",
+  "premiumLoadingStore": "መደብሩ በመጫን ላይ…",
+  "premiumProductNotAvailable": "ይህ ምርት ገና በመደብሩ ውስጥ አይገኝም። እባክዎ በኋላ ደግመው ይሞክሩ።",
+  "premiumPurchaseError": "በግዢው ሂደት አንድ ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።",
+  "premiumBuyCredits100": "100 ምልከታዎች ጨምር",
+  "premiumFeatureLocked": "ይህን ባህሪ ለመጠቀም Wilayaን ይክፈቱ።",
+  "lockedCategoriesHint": "አንዳንድ ምድቦች ለWilaya አባላት ብቻ የተያዙ ናቸው። በጉዞዎ ላይ ያሉ ሁሉንም ምልከታዎች ለማሰስ እነሱን ይክፈቱ።",
+  "freePlanBlockedTitle": "የጀማሪ ምልከታዎችዎን በሙሉ ተጠቅመዋል",
+  "freePlanBlockedBody": "በመደበኛ እቅድ ላይ በጀማሪ ምልከታዎች ነዎት፣ እና ወሰኑን ደርሰዋል። ለመቀጠል — እና ፕሪሚየም ምድቦችን ለመክፈት — ወደ Wilaya ያሻሽሉ።",
+  "freePlanBlockedCtaGoPremium": "ከታች ያሉትን የWilaya አማራጮች ይመልከቱ",
+  "graceBlockedTitle": "የጀማሪ ምልከታዎችዎን በሙሉ ተጠቅመዋል",
+  "graceBlockedBody": "በመደበኛ እቅድ ላይ በጀማሪ ምልከታዎች ነዎት፣ እና ወሰኑን ደርሰዋል። ለመቀጠል — እና ፕሪሚየም ምድቦችን ለመክፈት — ወደ Wilaya ያሻሽሉ።",
+  "graceBlockedCtaGoPremium": "ከታች ያሉትን የWilaya አማራጮች ይመልከቱ",
+  "rateGuestMustSignIn": "Ayaraን እና ምልከታዎችዎን ለመጠቀም ይግቡ።",
+  "guestNoCreditsTitle": "የእንግዳ ሁኔታ",
+  "guestNoCreditsBody": "እንደ እንግዳ መተግበሪያውን ማሰስ ይችላሉ፣ ግን ምልከታዎችን መጠቀም አይችሉም። ምልከታዎችን ለመጠቀም እና ግዢዎችን ለመክፈት በኋላ በቅንብሮች ውስጥ ይግቡ።",
+  "guestDialogContinue": "ቀጥል",
+  "guestDialogLoginInstead": "በምትኩ ግባ",
   "optionalLabel": "አማራጭ",
-
-  "accountDeleteSuccessTitle": "መለያ ተሰርዟል",
-  "accountDeleteSuccessBody": "መለያዎ እና ተዛማጅ ውሂቦ በሙሉ በተሳካ ሁኔታ ተሰርዘዋል።",
+  "accountDeleteSuccessTitle": "መለያው ተሰርዟል",
+  "accountDeleteSuccessBody": "መለያዎ እና ተያያዥ ውሂቦች በተሳካ ሁኔታ ተሰርዘዋል።",
   "accountDeleteSuccessClose": "ዝጋ",
-  "accountDeleteErrorTitle": "መለያ መሰረዝ አልተቻለም",
+  "accountDeleteErrorTitle": "መለያውን መሰረዝ አልተቻለም",
   "accountDeleteErrorClose": "እሺ",
-  "accountDeleteReauthCancelled": "ዳግም ማረጋገጥ ተሰርዟል። እባክዎ ዳግም ይግቡ እና መሰረዙን ዳግም ይሞክሩ።",
-  "accountDeleteReauthRequired": "መለያ መሰረዝ ቅርብ ጊዜ ያለ ግቤት ይጠይቃል። እባክዎ ውጥተው ዳግም ይግቡ እና ይሞክሩ።",
-  "settingsDeletePermanentWarning": "ይህ ተግባር ቋሚ ነው እና ሊቀለበስ አይችልም። ከመለያዎ ጋር ሁሉም ውሂቦ ይሰረዛሉ።",
-
-  "dailyGraceTitle": "ዕለታዊ መምሪያ",
-  "dailyGraceScriptureLabel": "የዕለቱ አንቀጽ",
-  "dailyGraceSaintLabel": "የሳምንቱ ሊቅ",
-  "dailyGraceReflectionLabel": "የምሽት ሐሳብ",
-  "dailyGraceCopiedToast": "አንቀጽ ወደ ቅንጥብ ሰሌዳ ተቀድቷል",
-
-  "dailyScripture0Text": "በእርግጥ ጻድቃን ገነቶች እና ወንዞች መካከል፣ ቸር ንጉሥ ዘንድ ባለ ክብር መቀመጫ ላይ ናቸው።",
-  "dailyScripture0Ref": "ቁርኣን 54:54-55",
-  "dailyScripture1Text": "ለዓለማት ምሕረት አድርጎ እንጂ [ሙሐመድ ሆይ] አልላክናህም።",
-  "dailyScripture1Ref": "ቁርኣን 21:107",
-  "dailyScripture2Text": "አላህ ለባሪያው አያሻልምን? ነገር ግን ከእርሱ ሌላ ባሉ (ጣዖቶች) ያስፈራሩሃል።",
-  "dailyScripture2Ref": "ቁርኣን 39:36",
-  "dailyScripture3Text": "ምናልባት አንድ ነገርን ትጠላ ይሆናል፣ ለአንተ ደግ ነው፤ ምናልባትም አንድ ነገርን ትወድ ይሆናል፣ ለአንተ ክፉ ነው። አላህ ያውቃል፣ እናንተ ግን አታውቁም።",
-  "dailyScripture3Ref": "ቁርኣን 2:216",
-  "dailyScripture4Text": "በእርግጥ አላህ ከታጋሾቹ ጋር ነው።",
-  "dailyScripture4Ref": "ቁርኣን 2:153",
-  "dailyScripture5Text": "እኔን ዝከሩ፤ እኔም እናንተን እዘክራለሁ። ለእኔ አመስግኑ፣ አትክዱኝም።",
-  "dailyScripture5Ref": "ቁርኣን 2:152",
-  "dailyScripture6Text": "እናንተ አላህ ዘንድ ክቡር የሆናችሁ ሁሉ፣ ካላቸው ፈሪሃ (ተቅዋ) በዝቶ ያለ ነው።",
-  "dailyScripture6Ref": "ቁርኣን 49:13",
-  "dailyScripture7Text": "ጌታህም ከርሱ ሌላ ምንም እንዳታምልኩ፣ ለወላጆቻችሁም ደግ እንድትሆኑ ወሰነ።",
-  "dailyScripture7Ref": "ቁርኣን 17:23",
-  "dailyScripture8Text": "ከችግር ጋር ቀላልነት አለ።",
-  "dailyScripture8Ref": "ቁርኣን 94:6",
-  "dailyScripture9Text": "የት ብትሆኑ እርሱ ከናንተ ጋር ነው። አላህም የምትሠሩትን ሁሉ ይመለከታል።",
-  "dailyScripture9Ref": "ቁርኣን 57:4",
-  "dailyScripture10Text": "አላህ ነፍስን ከሚቻላት በላይ አያዝዝም።",
-  "dailyScripture10Ref": "ቁርኣን 2:286",
-  "dailyScripture11Text": "አላህን የሚያምን ሁሉ — እርሱ ለሱ ይበቃዋል።",
-  "dailyScripture11Ref": "ቁርኣን 65:3",
-  "dailyScripture12Text": "ምሕረቴ ሁሉን ነገር ያካትታል።",
-  "dailyScripture12Ref": "ቁርኣን 7:156",
-  "dailyScripture13Text": "ባሮቼ ስለ እኔ ቢጠይቁህ — እኔ ቅርብ ነኝ። ዱዓ ሲያደርሱኝ ለጸሎተኛ ምላሽ እሰጣለሁ።",
-  "dailyScripture13Ref": "ቁርኣን 2:186",
-  "dailyScripture14Text": "ወንድ ሆኖ ወይም ሴት ሆኖ አማኝ ሆኖ ሳለ መልካም የሠራ ሁሉ — ጥሩ ሕይወት እንዲኖር አደርጋለሁ።",
-  "dailyScripture14Ref": "ቁርኣን 16:97",
-  "dailyScripture15Text": "አላህ ሕዝቦች ራሳቸውን እስካልቀየሩ ሁኔታቸውን አይቀይርም።",
-  "dailyScripture15Ref": "ቁርኣን 13:11",
-  "dailyScripture16Text": "አትዳከሙ፣ አትዘኑ፣ እናንተ ወድቅ እምነተኞች ከሆናችሁ ከሁሉ ትበልጣላችሁ።",
-  "dailyScripture16Ref": "ቁርኣን 3:139",
-  "dailyScripture17Text": "ነፍሶቻቸውን ያሳሱ ባሮቼ ሆይ፣ ከአላህ ምሕረት አትስፈሩ። አላህ ኃጢአቶችን ሁሉ ይምራል።",
-  "dailyScripture17Ref": "ቁርኣን 39:53",
-  "dailyScripture18Text": "አላህን የሚፈራ ሁሉ — ከሱ መውጫ ይሠራለታል፣ ካልጠበቀው ቦታ ይሰጠዋል።",
-  "dailyScripture18Ref": "ቁርኣን 65:2-3",
-  "dailyScripture19Text": "ከአላህ ምሕረት ተስፋ አትቁረጡ።",
-  "dailyScripture19Ref": "ቁርኣን 12:87",
-  "dailyScripture20Text": "ቁርኣንን ለማስታወስ ቀላል አደረግነው። ሊያስብ የሚፈልግ አለ?",
-  "dailyScripture20Ref": "ቁርኣን 54:17",
-  "dailyScripture21Text": "ጠፍቶ አገኘህ፣ መምሪያም ሰጠህ።",
-  "dailyScripture21Ref": "ቁርኣን 93:7",
-  "dailyScripture22Text": "ጌታህም አለ፡ ዱዓ አድርጉልኝ፤ ምላሽ እሰጣችኋለሁ።",
-  "dailyScripture22Ref": "ቁርኣን 40:60",
-  "dailyScripture23Text": "የአደምን ልጆች ክቡር አደረግናቸው።",
-  "dailyScripture23Ref": "ቁርኣን 17:70",
-  "dailyScripture24Text": "በትዕግሥትና ሶላት ምሕረት ፈልጉ።",
-  "dailyScripture24Ref": "ቁርኣን 2:45",
-  "dailyScripture25Text": "የቅምጥ ሚዛን (ዘርሬ ያህል) ጥሩ ሥራ የሠራ ሁሉ ያየዋል።",
-  "dailyScripture25Ref": "ቁርኣን 99:7",
-  "dailyScripture26Text": "ሳይጠራጠሩ የአላህ ርዳታ ቅርብ ነው።",
-  "dailyScripture26Ref": "ቁርኣን 2:214",
-  "dailyScripture27Text": "ያመሰገነ ሁሉ ምስጋናው ለራሱ ጥቅም ብቻ ነው።",
-  "dailyScripture27Ref": "ቁርኣን 31:12",
-
-  "dailyReflection0": "ይህ ቀን ሲዘጋ፣ የአላህ ምሕረት ግልጽ የሆነበትን አንድ ቅጽበት ሐሳብ ስጡ።",
-  "dailyReflection1": "ዛሬ ልባችሁ ያዘነበትን ሁሉ ወደ አላህ አቅርቡ።",
-  "dailyReflection2": "ከዛሬ አንድ በረከት ይሰይሙ እና ለአላህ ምስጋና ያቅርቡ።",
-  "dailyReflection3": "አላህ ያልተገደበ እንክብካቤ ውስጥ እንዳለዎ አውቀው ያርፉ።",
-  "dailyReflection4": "ዛሬ ርኅሩኅነትና ቸርነት ለማሳየት ፈተናን ያስተውሉ።",
-  "dailyReflection5": "መቆጣጠር የማትችሉትን ትቱ እና ፍጹም በሆነ የአላህ ዕቅድ ላይ ትምኑ።",
-  "dailyReflection6": "ቀኑ ሲዘጋ፣ ዝክር ውስጥ ሰላምን ተቀበሉ።",
-  "dailyReflection7": "ዛሬ ሶላቶቻችሁን እንዴት ያከበራችሁ ሐሳብ ስጡ፣ ለእያንዳንዱ አላህን አመስግኑ።",
-  "dailyReflection8": "ዛሬ ትዕግሥት (ሰበር) ድርጊቶቻቸሁን የመራበት ቅጽበት ሐሳብ ስጡ።",
-  "dailyReflection9": "ለዛሬ ማናቸውም ጉድለት ምሕረት ጠይቁ — የአላህ ምሕረት ወሰን የለውም።",
-  "dailyReflection10": "ዛሬ ቸርነት ያሳዩዋቸውን አንድ ሰው ይሰይሙ እና ዱዓ ያድርጉላቸው።",
-  "dailyReflection11": "ምስጋናን ያስቡ፡ አላህ ዛሬ ሳትጠይቁ ምን ሰጠዎ?",
-  "dailyReflection12": "አሁን ካለህበት ቦታ ጋር የሚናገር የቁርኣን አንቀጽ ሐሳብ ስጡ።",
-  "dailyReflection13": "ዛሬ ጊዜዎን እንዴት ተጠቀሙ ሐሳብ ስጡ — ነገን ወደ አላህ አቅርቡ።",
-  "dailyReflection14": "ዛሬ ምንም ችግር ቢመጣ፣ አላህ ከናንተ ጋር ነበር — አውቃችሁ ያርፉ።",
-  "dailyReflection15": "ዛሬ ለቤተሰብዎ ወይም ማህበረሰብዎ ለአላህ ሲሉ ያደረጉትን አንድ ነገር ሐሳብ ስጡ።",
-  "dailyReflection16": "ሌሊቱ ሲወርድ ተውበት ያድርጉ — አላህ ወደ እርሱ የሚመለሱን ይወዳቸዋል።",
-  "dailyReflection17": "አላህ ዛሬ ባስቀመጠው ውበት ሐሳብ ስጡ፣ ምንም ያህል ትንሽ ቢሆን።",
-  "dailyReflection18": "ዛሬ የተማሩትን እና ወደ አላህ የሚቀርቡበትን ሐሳብ ስጡ።",
-  "dailyReflection19": "የዛሬ ሐሳቦቻችሁን ወደ አላህ ተዉ — መሸከም የሚሳናችሁን ይሸከምልዎ።",
-  "dailyReflection20": "ዛሬ የተሻለ ልትሆን ይቻልህ የነበረ ቅጽበት ሐሳብ ስጡ፣ ቀስ ብሎ ተማሩ።",
-  "dailyReflection21": "ለሚቸገሩ ዱዓ ያድርጉ — ጸሎትዎ ለእነርሱ ስጦታ ነው።",
-  "dailyReflection22": "ብዙ ጊዜ የምትዘነጓትን አንድ በረካ ሐሳብ ስጡ፣ ለርሱ አላህን አመስግኑ።",
-  "dailyReflection23": "ዛሬ ዓላማዎቻቸሁን ሐሳብ ስጡ — ለአላህ ነበሩ? ነገ ዳግም ጀምሩ።",
-  "dailyReflection24": "ሌሊቱ ሲጸጥ፣ ጸጥታ ውስጥ ለሚሰሙ የአላህ ቅርበት ያዳምጡ።",
-  "dailyReflection25": "ዛሬ ጥንካሬ ያገኙበትን ቦታ ሐሳብ ስጡ — ያ ጥንካሬ ከአላህ ነው።",
-  "dailyReflection26": "ዛሬ ያላደረጉት አንድ ነገር ሰይሙ — ነገ ለአላህ ሲሉ ያድርጉት።",
-  "dailyReflection27": "ሲያርፉ ነፍሶቻቸሁን ወደ አላህ አደራ ስጡ — እርሱ ምርጡ ጠባቂ ነው።",
-
-  "dailyRoleModel0": "ነቢዩ ሙሐመድ ﷺ",
-  "dailyRoleModel1": "አቡ በክር አስ-ሲዲቅ (RA)",
-  "dailyRoleModel2": "ዑመር ኢብን አል-ኸጣብ (RA)",
-  "dailyRoleModel3": "ዑስማን ኢብን አፋን (RA)",
-  "dailyRoleModel4": "ዓሊ ኢብን አቢ ጣሊብ (RA)",
-  "dailyRoleModel5": "ኸዲጃ ቢንት ኹወይሊድ (RA)",
-  "dailyRoleModel6": "ዓኢሻ ቢንት አቢ በክር (RA)",
-  "dailyRoleModel7": "ፋጢማ አዝ-ዘህራ (RA)",
-  "dailyRoleModel8": "ቢላል ኢብን ረባህ (RA)",
-  "dailyRoleModel9": "ሰልማን አል-ፋሪሲ (RA)",
-  "dailyRoleModel10": "አቡ ሁረይራ (RA)",
-  "dailyRoleModel11": "አብዱላህ ኢብን አባስ (RA)",
-  "dailyRoleModel12": "አብዱላህ ኢብን መስዑድ (RA)",
-  "dailyRoleModel13": "ሙዓዝ ኢብን ጀበል (RA)",
-  "dailyRoleModel14": "ሙስዓብ ኢብን ዑሜይር (RA)",
-  "dailyRoleModel15": "ሱሜይያ ቢንት ኸባብ (RA)",
-  "dailyRoleModel16": "ዓማር ኢብን ያሲር (RA)",
-  "dailyRoleModel17": "ኡም ሰለማ (RA)",
-  "dailyRoleModel18": "ኻሊድ ኢብን አል-ወሊድ (RA)",
-  "dailyRoleModel19": "ዘይድ ኢብን ሣቢት (RA)",
-  "dailyRoleModel20": "ሐፍሳ ቢንት ዑመር (RA)",
-  "dailyRoleModel21": "ዑመር ኢብን አብዱ ልዓዚዝ (RH)",
-  "dailyRoleModel22": "ኢማም አቡ ሐኒፋ (RH)",
-  "dailyRoleModel23": "ኢማም ማሊክ ኢብን አነስ (RH)",
-  "dailyRoleModel24": "ኢማም አሽ-ሻፊዒ (RH)",
-  "dailyRoleModel25": "ኢማም አህመድ ኢብን ሐንበል (RH)",
-  "dailyRoleModel26": "ኢማም አል-ቡኻሪ (RH)",
-  "dailyRoleModel27": "ኢማም ሙስሊም (RH)",
-  "dailyRoleModel28": "ኢማም አት-ቲርሚዚ (RH)",
-  "dailyRoleModel29": "አል-ጋዛሊ (RH)",
-  "dailyRoleModel30": "ኢብን አል-ቀዪም አል-ጀውዚይያ (RH)",
-  "dailyRoleModel31": "ኢብን ተይሚይያ (RH)",
-  "dailyRoleModel32": "አን-ነወዊ (RH)",
-  "dailyRoleModel33": "ኢብን ሐጀር አል-ዓስቀላኒ (RH)",
-  "dailyRoleModel34": "ኢብን ከሢር (RH)",
-  "dailyRoleModel35": "አት-ጠበሪ (RH)",
-  "dailyRoleModel36": "ሱፍያን አሥ-ሠውሪ (RH)",
-  "dailyRoleModel37": "ፈኽር አድ-ዲን አር-ራዚ (RH)",
-  "dailyRoleModel38": "ኢብን ሲና (RH)",
-  "dailyRoleModel39": "አል-ቢሩኒ (RH)",
-  "dailyRoleModel40": "ኢብን ሩሽድ (RH)",
-  "dailyRoleModel41": "ኢብን ኸልዱን (RH)",
-  "dailyRoleModel42": "ኢብን በጡጣ (RH)",
-  "dailyRoleModel43": "ነቢዩ ኢብራሂም (AS)",
-  "dailyRoleModel44": "ነቢዩ ሙሳ (AS)",
-  "dailyRoleModel45": "ነቢዩ ዒሳ (AS)",
-  "dailyRoleModel46": "ነቢዩ ዩሱፍ (AS)",
-  "dailyRoleModel47": "ነቢዩ ዳውድ (AS)",
-  "dailyRoleModel48": "ነቢዩ ሱለይማን (AS)",
-  "dailyRoleModel49": "ነቢዩ ኑህ (AS)",
-  "dailyRoleModel50": "ነቢዩ ዩኑስ (AS)",
-  "dailyRoleModel51": "ነቢዩ አዩብ (AS)",
-  "dailyRoleModel52": "ሩቀይያ ቢንት ሙሐመድ (RA)",
-  "dailyRoleModel53": "ዘይነብ ቢንት ሙሐመድ (RA)",
-  "dailyRoleModel54": "ሐሰን ኢብን ዓሊ (RA)",
-  "dailyRoleModel55": "ሑሴን ኢብን ዓሊ (RA)",
-  "dailyRoleModel56": "ጃዕፈር ኢብን አቢ ጣሊብ (RA)",
-  "dailyRoleModel57": "አቡ ዘር አል-ጊፋሪ (RA)",
-  "dailyRoleModel58": "ጠልሐ ኢብን ዑበይዱሏህ (RA)",
-  "dailyRoleModel59": "አዝ-ዙበይር ኢብን አል-ዓዋም (RA)",
-
-  "locationConsentLabel": "Ayara ቂብላ አቅጣጫና የሶላት ጊዜ ለማሳየት ቦታዬን እንዲጠቀም ፍቀድ",
-  "locationConsentHint": "ለእነዚህ ባህሪያት ብቻ ይጠቅማል። ቦታዎ ፈጽሞ አይጋራም ወይም አይቀመጥም።",
-
+  "accountDeleteReauthCancelled": "እንደገና ማረጋገጥ ተሰርዟል። እባክዎ እንደገና ይግቡ እና መሰረዙን ደግመው ይሞክሩ።",
+  "accountDeleteReauthRequired": "መለያ መሰረዝ ቅርብ ጊዜ የተደረገ መግቢያ ይፈልጋል። እባክዎ ይውጡ፣ እንደገና ይግቡ እና እንደገና ይሞክሩ።",
+  "settingsDeletePermanentWarning": "ይህ እርምጃ ቋሚ ነው እና መመለስ አይቻልም። ከመለያዎ ጋር የተያያዙ ሁሉም ውሂቦች ይሰረዛሉ።",
+  "dailyGraceTitle": "የዕለት መመሪያ",
+  "dailyGraceScriptureLabel": "የቀኑ አያ",
+  "dailyGraceSaintLabel": "የሳምንቱ ዓሊም",
+  "dailyGraceReflectionLabel": "የምሽት ምልከታ",
+  "dailyGraceCopiedToast": "አያው ወደ ክሊፕቦርድ ተገልብጧል",
+  "locationConsentLabel": "Ayara ለቂብላ አቅጣጫ እና የሶላት ሰዓቶች አካባቢዬን እንዲጠቀም ፍቀድ",
+  "locationConsentHint": "ለእነዚህ ባህሪያት ብቻ ይጠቀማል። አካባቢዎ አይጋራም እና አይቀመጥም።",
   "askPageTitle": "Ayaraን ጠይቅ",
-  "askPageDescription": "ስለ እምነት፣ ሶላት፣ ሕይወት ወይም እስላማዊ ልምምድ ምንም ይጠይቁ — ከቁርኣን እና ሱና ላይ ተመሠርቶ መምሪያ ያግኙ።",
+  "askPageDescription": "ስለ እምነት፣ ሶላት፣ ሕይወት ወይም እስልማዊ አሠራር ማንኛውንም ጥያቄ ጠይቅ እና ከቁርአንና ከAhl al-Bayt ትምህርቶች የተመሠረተ መመሪያ ተቀበል።",
   "askPageInputHint": "ጥያቄዎን እዚህ ይጻፉ…",
   "askPageSubmitCta": "ጠይቅ",
   "askPageInputEmptyError": "እባክዎ መጀመሪያ ጥያቄ ይጻፉ።",
   "askResultYourQuestion": "ጥያቄዎ",
-
-  "guidancePageTitle": "祈りና መምሪያ",
-  "qiblaFacingMecca": "ስፍራችሁ ስለ መካ",
-  "qiblaCompassInstruction": "ስልክዎን ያሽከርክሩ ወርቃማ መርፌው ወደ ላይ እስከ ትጠቅምት።\nዚህ አቅጣጫ ወደ ቂብላ (መካ) ያመሳሳል።",
-  "qiblaGpsUnavailableBody": "የGPS ምልክት ድካሙ ነው። ወደ ክፍት ቦታ ወጡ እና ምጥጥን 터치ይጫኑ።",
-  "qiblaRetry": "ምጥጥን",
-  "qiblaTitle": "አቅጣጫ ቂብላ",
-  "qiblaDistanceLabel": "{km} ኪሎሜትር ከመካ",
+  "guidancePageTitle": "ቂብላ",
+  "qiblaFacingMecca": "ወደ መካ የተቃኘ",
+  "qiblaCompassInstruction": "የወርቅ መርፌው ወደ ላይ እስኪያመለክት ድረስ ስልክዎን ያዙሩ።\nያ አቅጣጫ ወደ ቂብላ (መካ) ይወስዳል።",
+  "qiblaGpsUnavailableBody": "የGPS ምልክት ደካማ ነው። ወደ ውጭ ይሂዱ እና እንደገና ሞክር ይንኩ።",
+  "qiblaRetry": "እንደገና ሞክር",
+  "qiblaTitle": "የቂብላ አቅጣጫ",
+  "qiblaDistanceLabel": "{km} ኪ.ሜ ወደ መካ",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "ቦታ ያስፈልጋል",
-  "qiblaLocationNeededBody": "Ayara ከያንዳንዱ የምትገኙበት ቦታ ያለውን ስፍራ ወደ ቄዓ በመካ ለማስላት ቦታ መግባት ይፈቅዱ።",
+  "qiblaLocationNeededTitle": "አካባቢ ያስፈልጋል",
+  "qiblaLocationNeededBody": "Ayara ከየትኛውም ቦታ ወደ መካ ያለውን የካዕባ አቅጣጫ ለማስላት የአካባቢ ፍቃድ ይስጡ።",
   "qiblaOpenSettings": "ቅንብሮችን ክፈት",
-  "qiblaCompassLoading": "ስፍራዎን ነበር…",
+  "qiblaCompassLoading": "አቀማመጥዎን በመፈለግ ላይ…",
   "qiblaTowardMecca": "ወደ መካ",
-
-  "prayerTimesTitle": "ጊዜ ሰላም",
-  "prayerTimesFajr": "ፋጅር",
-  "prayerTimesDhuhr": "ዱሀር",
-  "prayerTimesAsr": "ዓስር",
+  "prayerTimesTitle": "የሶላት ሰዓቶች",
+  "prayerTimesFajr": "ፈጅር",
+  "prayerTimesDhuhr": "ዙህር",
+  "prayerTimesAsr": "አስር",
   "prayerTimesMaghrib": "መግሪብ",
-  "prayerTimesIsha": "ኢሻ",
-  "prayerTimesLocationNeededTitle": "ቦታ ያስፈልጋል",
-  "prayerTimesLocationNeededBody": "Ayara ከእንደሥቲትህ ከተማ ትክክለኛ ጊዜ ሰላም ለማስላት ቦታ መግባት ይፈቅዱ።",
+  "prayerTimesIsha": "ዒሻ",
+  "prayerTimesLocationNeededTitle": "አካባቢ ያስፈልጋል",
+  "prayerTimesLocationNeededBody": "Ayara ለከተማዎ ትክክለኛ የሶላት ሰዓቶችን ለማስላት የአካባቢ ፍቃድ ይስጡ።",
   "prayerTimesNextLabel": "ቀጣይ",
-  "prayerTimesDoneLabel": "ተሳትፏል",
-
-  "monthlyPrayerTimesTitle": "ወርሃዊ ጊዜ ሰላም",
-  "monthlyPrayerTimesViewButton": "ሙሉ ወር ይመልከቱ",
-  "monthlyPrayerTimesNextMonth": "ቀጣይ ወር",
+  "prayerTimesDoneLabel": "ተጠናቋል",
+  "monthlyPrayerTimesTitle": "ወርሃዊ የሶላት ሰዓቶች",
+  "monthlyPrayerTimesViewButton": "ሙሉ ወሩን ተመልከት",
+  "monthlyPrayerTimesNextMonth": "ቀጣዩ ወር",
   "monthlyPrayerTimesDayHeader": "ቀን",
-
-  "sharePrayerTimes": "ጊዜ ሰላም ያጋሩ",
-
-  "prayerNotificationsTitle": "ማስታወሻ ሰላም",
-  "prayerNotificationsDescription": "በእያንዳንዱ ጊዜ ሰላም በፊት ደግ መታወሻ ይቀበሉ ጽንፈዊ ቀን ላይ ተገናኝተው ይቆዩ።",
-  "prayerNotificationsEnable": "ማስታወሻ ሰላም ያስቅድሙ",
-  "prayerNotificationsOpenSettings": "ማስታወሻ ቅንብሮችን ክፈት",
-  "prayerNotificationsDenied": "ማስታወሻዎች ናቸው",
-  "prayerNotificationsDeniedHint": "ቅንብሮች ይሂዱ እና Ayara ለሰላም ጊዜ ማስታወሻ ያስቅድሙ።",
-
-  "notificationsConsentLabel": "ለሰላም ጊዜ ማስታወሻ ይፈቅዱ",
-
-  "prayerNotifTitleFajr": "🌅 ፋጅር — ብርሃን ሰላም",
-  "prayerNotifBodyFajr": "ምርጡ ሰላም ብርሃን ሰላም ነው። ተነሳሉ፣ ራስዎን ተጸድዘሉ፣ እና ከአላህ በፊት ቀመጡ።",
-
-  "prayerNotifTitleDhuhr": "☀️ ዱሀር — ቀትር ሰላም",
-  "prayerNotifBodyDhuhr": "ሥራዎን ወቁ እና ወደ አላህ ተመለሱ። ዱሀር ሰላም ጊዜ ደርሰዋል።",
-
-  "prayerNotifTitleAsr": "🌤️ ዓስር — ከሰዓት ሰላም",
-  "prayerNotifBodyAsr": "መካከለኛ ሰላም ይጠብቁ። ዓስር ሰላም ጊዜ ደርሰዋል — አትፈልጉት።",
-
-  "prayerNotifTitleMaghrib": "🌇 መግሪብ — ጸሐይ ሰላም",
-  "prayerNotifBodyMaghrib": "ጸሐይ ወደ ታች ወርደች። መግሪብ ይግባቁ እና አላህን ለዚህ ቀን እናመስግናላት።",
-
-  "prayerNotifTitleIsha": "🌙 ኢሻ — ሌሊት ሰላም",
-  "prayerNotifBodyIsha": "ቀንዎን ከአላህ ትውስታ ጋር ያበቁ። ሐይያ ዓላ አል-ፋላህ — ወደ ሳካ ሂዱ።",
-
-  "outOfReflectionsBannerText": "ሁሉ የራስ ማወቅ ጥቅም ወስደሃል",
-  "outOfReflectionsBannerCta": "ተጨማሪ ያግኙ",
-
-  "dhikrPageTitle": "ድክር",
-  "dhikrTapToCount": "ለቁጥር ክብ ተንካኩ",
-  "dhikrResetButton": "ዳግም ያስጀምሩ",
-  "dhikrComplete": "ማሻ አላህ",
-  "dhikrCompleteMessage": "የአላህን 99 ትውስታ ሙሉ ነሽጋል። ይህ ለልባዎ ብርሃን ሆን ይቅር።",
-
-  "disclaimerTitle": "ስለ ይህ መተግበሪያ መምሪያ",
-  "disclaimerBody": "Ayara ወደ አምነት ትምክህት እንበር በፅንፈት ጠበቅ ወሳይ፣ አስታወሳ፣ እና ሪህ ይዘት ይሰጥ ነበር። ይህ ይዘት አጠቃላይ መረጃ እና ተስፋ ማበር ለመጠቀም ብቻ ነው።\n\nAyara የሚዳጅ ሚና አይወጣም።\nበዚህ መተግበሪያ ውስጥ ያለው መምሪያ ከተማር ኢስላም ምሁር፣ �イმዓም፣ ሙፍቲ፣ ወይም ለታሪካዊ ሥልጠና ወረስ ምትክ አይደለም። ስለ ሪህ ሒጋም፣ ሃላል እና ሃራም ጉዳዮች፣ ወይም የግል ሪህ ግዴታዎች ጥያቄ ካለዎት በእርስዎ ሕብረተሰብ ውስጥ ከአስተውሏ ሪህ ኃላፊ መልስ ይጠይቁ።\n\nይህ መተግበሪያ ሪህ ሒጋም አይሰጥም።\nAyara በ fiqh ሠራት ወይም የግል ሪህ ግዴታ ላይ ስልጠና የሚያገለግል አይደለም። እዚህ ሩብ ምንም ፋትዋ ወይም ይግባኑ ሪህ ትምክህት ሊቆጠር አይገባም።\n\nየምሁር ግንዛቤ ተለያይ።\nእስላም የበበላ የአስተሳሰብ ሥጀጁ፣ አስተሳሰብ ትምህርት ቤታት (madhabs)፣ እና የምሁር አስተያየት ይከብቅ። በዚህ መተግበሪያ ውስጥ ያለው ይዘት አጠቃላይ አይሰዎታዊ እና ሁሉ ትምህርት ቤቶችን በእኩልነት ሊወክል አይችልም።\n\nሕብረተሰቡ አስፈላጊ።\nይህ መተግበሪያ ከኢስላም ትምህርትድ እንበር አመጋገብ ተበረታቸው ሪህ ህብረተሰብ ጠረጴዛ የወዛበ ሚና ተከቢበት ያተሳሰበ። በእርስዎ አቅራቢ መስጊድ፣ ኢምዓም፣ እና ሪህ ህብረተሰብ ተገናኝታዎ ልንመሩ መታወስ ይሤድ።",
-  "disclaimerClose": "ተረዳሁ",
-  "disclaimerInfoTooltip": "ስለ ይህ መተግበሪያ መምሪያ",
-  "disclaimerSettingsSubtitle": "አጠቃላይ መረጃ ለመጠቀም ብቻ። ሙሉ ታሪክ ለማንበብ ተንካኩ።",
-  "disclaimerSectionHeader": "መምሪያ ታሪክ"
+  "sharePrayerTimes": "የሶላት ሰዓቶችን አጋራ",
+  "notificationsSectionTitle": "ማሳወቂያዎች",
+  "notificationsSectionSubtitle": "የሶላት አስታዋሾች፣ የቀን መቁጠሪያ ክስተቶች እና ሌሎችም",
+  "dailyReflectionReminderTitle": "የዕለት ምልከታ",
+  "dailyReflectionReminderDescription": "Ayaraን ለመክፈት እና ከእምነትዎ ጋር ለመገናኘት ለስላሳ የዕለት አስታዋሽ።",
+  "dailyReflectionReminderEnable": "የዕለት አስታዋሽን አንቃ",
+  "dailyReflectionReminderTimeLabel": "የአስታዋሽ ሰዓት",
+  "prayerNotificationsTitle": "የሶላት አስታዋሾች",
+  "prayerNotificationsDescription": "ቀኑን ሙሉ እንዲገናኙ ከእያንዳንዱ የሶላት ሰዓት በፊት ለስላሳ አስታዋሽ ይቀበሉ።",
+  "prayerNotificationsEnable": "የሶላት አስታዋሾችን አንቃ",
+  "prayerNotificationsOpenSettings": "የማሳወቂያ ቅንብሮችን ክፈት",
+  "prayerNotificationsDenied": "ማሳወቂያዎች ተሰናክለዋል",
+  "prayerNotificationsDeniedHint": "ወደ ቅንብሮች ሂዱ እና የሶላት ሰዓት አስታዋሾችን ለመቀበል ለAyara ማሳወቂያዎችን ይፍቀዱ።",
+  "notificationsConsentLabel": "ለሶላት ሰዓቶች ማሳወቂያዎችን ፍቀድ",
+  "prayerNotifTitleFajr": "🌅 ፈጅር — የንጋት ሶላት",
+  "prayerNotifBodyFajr": "ፈጅር የAhl al-Bayt የጠዋት ሶላት ነው። ኢማም አሊ (AS) እንዲህ አሉ፦ የንጋት ሶላትን እንደ እጅግ ውድ አደራህ ጠብቀው። ተነሳ፣ ንጹሕ ሁን፣ ከአላህ ፊት ቁም።",
+  "prayerNotifTitleDhuhr": "☀️ ዙህር — የቀትር ሶላት",
+  "prayerNotifBodyDhuhr": "የAhl al-Bayt ኢማሞች እያንዳንዱን የዝክር ጊዜ ይከብሩ ነበር። ቀንዎን ለአፍታ አቁሙ፣ ካስፈለገ ዙህርን ከአስር ጋር ያዋህዱ፣ ልብዎንም ወደ አላህ ይመልሱ።",
+  "prayerNotifTitleAsr": "🌤️ አስር — የከሰዓት በኋላ ሶላት",
+  "prayerNotifBodyAsr": "ሶላቱን ጠብቁ፣ ምክንያቱም እሱ በእናንተና በአላህ መካከል ያለ ቃል ኪዳን ነው። የአስር ሰዓት ደርሷል — ያለ ዝክር እንዳያልፍ።",
+  "prayerNotifTitleMaghrib": "🌇 መግሪብ — የፀሐይ መጥለቂያ ሶላት",
+  "prayerNotifBodyMaghrib": "ፀሐይ ጠልቃለች — Ahl al-Bayt ለዱዓ የተቀደሰ ብለው ያዩት ጊዜ። መግሪብን ስገድ እና ሌሊቱ ከመጀመሩ በፊት እጆችህን ወደ አላህ በዱዓ አንሳ።",
+  "prayerNotifTitleIsha": "🌙 ዒሻ — የሌሊት ሶላት",
+  "prayerNotifBodyIsha": "ቀንዎን በአላህ ጓደኝነት ያጠናቁ። ኢማሞቹ ከዒሻ በኋላ ሶላት አል-ሌይልን አበረታቱ — ነገር ግን በፊት ዒሻዎን ያጠናቁ እና ቀኑን በእርሱ ዝክር ይዝጉ።",
+  "outOfReflectionsBannerText": "ሁሉንም ምልከታዎችዎን ተጠቅመዋል",
+  "outOfReflectionsBannerCta": "ተጨማሪ አግኝ",
+  "dhikrPageTitle": "ዝክር",
+  "dhikrTapToCount": "ለመቁጠር ክብን ይንኩ",
+  "dhikrResetButton": "ዳግም አስጀምር",
+  "dhikrComplete": "ማሻአላህ",
+  "dhikrCompleteMessage": "100 የአላህ ዝክሮችን አጠናቀዋል። ለልብዎ ብርሃን ይሁኑልዎ።",
+  "disclaimerTitle": "ስለዚህ መተግበሪያ መመሪያ",
+  "disclaimerBody": "Ayara በቁርአን እና በAhl al-Bayt ትምህርቶች ላይ የተመሠረተ የእስልምና ምልከታዎችን፣ አስታዋሾችን እና መንፈሳዊ ይዘትን ለግል የእምነት ጉዞዎ ድጋፍ ያቀርባል። ይህ ይዘት ለአጠቃላይ መረጃና መነሳሳት ዓላማ ብቻ ይቀርባል።\n\nAyara ብቃት ያለውን የእውቀት መምህር አይተካም።\nበዚህ መተግበሪያ ያለው መመሪያ የተማረ የእስልምና ምሁር፣ ማርጃዕ ወይም በሥነ መለኮት የሰለጠነ መምህር ምትክ አይደለም። በሺዓ እስልምና ውስጥ የሃይማኖት መመሪያ በጃዕፋሪ የፍትሕ ትምህርት ቤት (ፊቅህ) እና ሕያው ማርጃዕን (የተከታይነት ምንጭ) የመከተል ባህል ላይ የተመሠረተ ነው — ይህም በሃይማኖታዊ አሠራር ላይ አማኞችን የሚመራ ብቃት ያለው የሕግ ባለሙያ ነው። ስለ ሃይማኖታዊ ውሳኔዎች፣ ሐላልና ሐራም ጉዳዮች ወይም ስለ ግል ሃይማኖታዊ ግዴታዎች ጥያቄ ካለዎት፣ እባክዎ ብቃት ያለውን ማርጃዕ ወይም በማህበረሰብዎ ውስጥ ያለ ምሁር ያነጋግሩ።\n\nይህ መተግበሪያ ሃይማኖታዊ ውሳኔዎችን አይሰጥም።\nAyara በፊቅህ ወይም በግል ሃይማኖታዊ ግዴታዎች ላይ የሥልጣን ውሳኔ አያደርግም። እዚህ ያለ ምንም ነገር እንደ ፈትዋ ወይም እንደ አስገዳጅ ሃይማኖታዊ መመሪያ ሊቆጠር አይገባም።\n\nየAhl al-Bayt ማዕከላዊነት።\nበሺዓ እስልምና ውስጥ ነቢዩ ሙሐመድ ﷺ እና ንጹሐን ቤተሰቦቻቸው — Ahl al-Bayt — ከቁርአን በኋላ የእስልምና ማህበረሰብ ሥልጣናዊ መሪዎች ናቸው። የAhl al-Bayt አሥራ ሁለቱ ኢማሞች በእግዚአብሔር የተሾሙ የእስልምና ትምህርት ተርጓሚዎች ናቸው። በዚህ መተግበሪያ ውስጥ ያለው ይዘት ይህን ባህል ያንጸባርቃል እና በታማኝነት ለማክበር ይሞክራል።\n\nየማህበረሰብ ጉዳዮች።\nይህ መተግበሪያ ከእምነትዎ ጋር ያለዎትን ተሳትፎ ለማበረታታት ይፈልጋል፣ በተመሳሳይ ጊዜ የአካባቢዎን መስጊድ፣ የእስልምና ማዕከል እና የሃይማኖት ማህበረሰብ ጠቃሚ ሚና በእጅጉ ያከብራል። በአቅራቢያዎ ካሉ ብቃት ያላቸው መምህራን ጋር ተገናኝተው እንዲቆዩ እና እንዲማሩ እናበረታታዎታለን።",
+  "disclaimerClose": "ገብቶኛል",
+  "disclaimerInfoTooltip": "ስለዚህ መተግበሪያ መመሪያ",
+  "disclaimerSettingsSubtitle": "ለአጠቃላይ መረጃ ዓላማ ብቻ። ሙሉ ማስጠንቀቂያውን ለማንበብ ይንኩ።",
+  "disclaimerSectionHeader": "የመመሪያ ማስጠንቀቂያ",
+  "navHome": "መነሻ",
+  "navReflect": "አስብ",
+  "navDuas": "ዱዓዎች",
+  "navCalendar": "የቀን መቁጠሪያ",
+  "dashboardToday": "ዛሬ",
+  "dashboardComingUp": "የሚቀጥለው",
+  "dashboardDaysUnit": "{count, plural, one {ቀን} other {ቀናት}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "ፈጣን መዳረሻ",
+  "quickActionQibla": "ቂብላ",
+  "quickActionDhikr": "ዝክር",
+  "quickActionDailyGrace": "መመሪያ",
+  "quickActionPrayerTimes": "የሶላት ሰዓቶች",
+  "askAyaraTitle": "Ayaraን ጠይቅ",
+  "askAyaraSubtitle": "ማንኛውንም እስልማዊ ጥያቄ ጠይቅ እና አስተዋይ እና የሚመራ ምላሽ ተቀበል።",
+  "askAyaraHint": "ለምሳሌ፦ የረመዳን አስፈላጊነት ምንድነው?",
+  "askAyaraSubmit": "ጠይቅ",
+  "wisdomOfTheDayTitle": "የቀኑ ጥበብ",
+  "calendarScreenTitle": "እስልማዊ የቀን መቁጠሪያ",
+  "calendarUpcomingOccasions": "የሚመጡ አጋጣሚዎች",
+  "calendarOccasionRemindersTitle": "የአጋጣሚ አስታዋሾች",
+  "calendarOccasionRemindersHint": "ከእያንዳንዱ አጋጣሚ በፊት ባለው ምሽት ይታወቃሉ",
+  "calendarNotifPermissionDenied": "የማሳወቂያ ፍቃድ ተከልክሏል። በመሣሪያዎ ቅንብሮች ውስጥ ያንቁት።",
+  "calendarNoEvents": "ምንም የሚመጡ ክስተቶች አልተገኙም።",
+  "calendarAddToPhone": "ወደ ስልክ ካሌንደር ያክሉ",
+  "calendarAddedToPhone": "ወደ ካሌንደር ተጨምሯል",
+  "calendarCountdownToday": "ዛሬ",
+  "calendarCountdownTomorrow": "ነገ",
+  "calendarCountdownDays": "በ{days} ቀናት ውስጥ",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "ጃን",
+  "calendarMonthFeb": "ፌብ",
+  "calendarMonthMar": "ማር",
+  "calendarMonthApr": "ኤፕ",
+  "calendarMonthMay": "ሜይ",
+  "calendarMonthJun": "ጁን",
+  "calendarMonthJul": "ጁላ",
+  "calendarMonthAug": "ኦገ",
+  "calendarMonthSep": "ሴፕ",
+  "calendarMonthOct": "ኦክ",
+  "calendarMonthNov": "ኖቬ",
+  "calendarMonthDec": "ዲሴ",
+  "calendarSeasonMuharramEarly": "የሙሐረም ቀናት — ከርበላን አስታውስ",
+  "calendarSeasonAshura": "አሹራ — ያ ሑሰይን (AS)",
+  "calendarSeasonMuharramLate": "ሙሐረም — የሐዘን እና ምልከታ ቀናት",
+  "calendarSeasonArbaeen": "አርባኢን — የሑሰይን አርባ ቀናት",
+  "calendarSeasonRoadToArbaeen": "ወደ አርባኢን የሚወስደው መንገድ",
+  "calendarSeasonMabath": "መብዓት ሙባረክ — የወህይ ንጋት",
+  "calendarSeasonMidShaban": "የሻዕባን መካከል — የኢማም አል-መህዲ (AJ) የልደት ቀን",
+  "calendarSeasonRamadan": "ረመዳን ሙባረክ — የቁርአን ወር",
+  "calendarSeasonGhadir": "ዒድ አል-ገዲር ሙባረክ!",
+  "hijriMonth1": "ሙሐረም",
+  "hijriMonth2": "ሰፈር",
+  "hijriMonth3": "ረቢዕ አል-አወል",
+  "hijriMonth4": "ረቢዕ አል-ታኒ",
+  "hijriMonth5": "ጁማዳ አል-አወል",
+  "hijriMonth6": "ጁማዳ አል-ታኒ",
+  "hijriMonth7": "ረጀብ",
+  "hijriMonth8": "ሻዕባን",
+  "hijriMonth9": "ረመዳን",
+  "hijriMonth10": "ሸዋል",
+  "hijriMonth11": "ዙል ቂዳ",
+  "hijriMonth12": "ዙል ሂጃ",
+  "duasScreenTitle": "ዱዓዎች እና ዚያራት",
+  "duasSearchHint": "ዱዓዎችን፣ ዚያራትን ፈልግ…",
+  "duasFilterAll": "ሁሉም",
+  "duasCount": "{count, plural, one {{count} ዱዓ} other {{count} ዱዓዎች እና ዚያራት}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "ምንም ዱዓዎች አልተገኙም።",
+  "duaCategoryDaily": "ዕለታዊ",
+  "duaCategoryWeekly": "ሳምንታዊ",
+  "duaCategoryOccasions": "አጋጣሚዎች",
+  "duaCategoryZiyarat": "ዚያራት",
+  "duaCategoryTasbih": "ተስቢሕ",
+  "eventTypeBirth": "ልደት",
+  "eventTypeMartyrdom": "ሰማዕትነት",
+  "eventTypeOccasion": "አጋጣሚ",
+  "duaCopyTooltip": "ትርጉም ገልብጥ",
+  "duaToggleTransliteration": "የድምፅ ጽሑፍ",
+  "duaToggleTranslation": "ትርጉም",
+  "duaAskAiLabel": "Ayara ይህን ዱዓ እንዲያብራራ ጠይቅ",
+  "duaAskAiLockedLabel": "Ayaraን ጠይቅ (Wilaya)",
+  "duaAiLockedMessage": "የAyara ማብራሪያዎች ለWilaya አባላት ብቻ ይገኛሉ። በቅንብሮች ውስጥ ያሻሽሉ።",
+  "duaAiComingSoon": "Ayaraን ስለ \"{name}\" ጠይቅ — በቅርቡ ይመጣል!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "ዱዓ ወደ ቅንጥብ ሰሌዳ ተቀድቷል።",
+  "tasbihAllahuAkbarMeaning": "አላህ ከሁሉ በላይ ታላቅ ነው",
+  "tasbihAlhamdulillahMeaning": "ሁሉም ምስጋና ለአላህ ነው",
+  "tasbihSubhanallahMeaning": "ክብር ለአላህ ይሁን",
+  "tasbihResetTooltip": "ዳግም አስጀምር",
+  "tasbihCompleteTitle": "ተስቢሕ ተጠናቋል",
+  "tasbihCompleteMessage": "አላህ ዝክርህን ይቀበል።",
+  "tasbihTapHint": "ለመቁጠር በማንኛውም ቦታ ይንኩ",
+  "tasbihatScreenTitle": "የሶላት መመሪያ",
+  "tasbihatScreenSubtitle": "የሶላት ምስጋናዎች",
+  "tasbihatScreenDescription": "በየቀኑ ሶላት ጊዜና ከሶላት በኋላ የሚነበቡ ምስጋናዎችን የሚያብራራ ሙሉ መመሪያ — የአህል አል-በይት (ዐ) ባህልን በመከተል።",
+  "tasbihatArba3Title": "ተስቢሓት አል-አርባዓ",
+  "tasbihatArba3Subtitle": "በ3ኛና 4ኛ ረከዓ የሚነበብ",
+  "tasbihatArba3Info": "በሺዓ ፍቅህ መሠረት ተስቢሓት አል-አርባዓ በዙህር፣ አስር፣ መግሪብ እና ኢሻ ሶላት 3ኛና 4ኛ ረከዓ ውስጥ ሱረቱል ፋቲሓን ይተካል። አንድ ጊዜ ማንበቡ ግዴታ (ዋጅብ) ሲሆን ሶስት ጊዜ ማንበቡ የሚመከር (ሙስተሐብ) ነው።",
+  "tasbihatArba3Translation": "ክብር ለአላህ ይሁን · ምስጋና ሁሉ ለአላህ ነው\nከአላህ በቀር አምላክ የለም · አላህ ከሁሉ በላይ ታላቅ ነው",
+  "tasbihatArba3CompleteTitle": "ንባቡ ተጠናቋል",
+  "tasbihatArba3CompleteMessage": "ሶላትህ ተቀባይነት ያግኝ — አሚን",
+  "tasbihatArba3TapHint": "ከእያንዳንዱ ንባብ በኋላ ይንኩ",
+  "tasbihatZahraSubtitle": "ከእያንዳንዱ ሶላት በኋላ · 100 ፍሬዎች",
+  "tasbihatZahraOriginLabel": "ምንጭ",
+  "tasbihatZahraHadith": "ሰይዲቲ ፋጢማ አል-ዛህራ (ሰ.ዐ) ነቢዩን ﷺ አገልጋይ ጠየቀች። እርሱም፦ \"ከዚህ የተሻለ ነገር ልመራሽ አልሆንምን? ከእያንዳንዱ ሶላት በኋላ ሱብሓንአላህ 33 ጊዜ፣ አልሐምዱሊላህ 33 ጊዜ፣ አላሁ አክበር 34 ጊዜ አንብቢ። ይህ ከአገልጋይ ይልቅ ይሻልሻል።\" አለ።",
+  "tasbihatZahraHadithSource": "— ቢሓር አል-አንዋር፣ ቅጽ 85",
+  "tasbihatZahraOpenCounter": "የተስቢሕ መቁጠሪያ ክፈት",
+  "tasbihatDuasTitle": "የሚመከሩ ዱዓዎች",
+  "tasbihatDuasSubtitle": "ሶላትህን ከጨረስክ በኋላ",
+  "tasbihatDuaAyatKursiTitle": "አያቱል ኩርሲ",
+  "tasbihatDuaAyatKursiWhen": "ከእያንዳንዱ ግዴታ ሶላት በኋላ",
+  "tasbihatDuaAyatKursiSource": "ሱረቱል በቀራ 2:255",
+  "tasbihatDuaAyatKursiNote": "ከእያንዳንዱ ግዴታ ሶላት በኋላ አያቱል ኩርሲን የሚያነብ፣ ከጀነት የሚለየው ከሞት በቀር ምንም የለም። ኢማም አል-ባቂር (ዐ) ይህ በቁርአን ውስጥ ካሉ እጅግ ታላላቅ አንቀጾች መካከል ነው ብለዋል።",
+  "tasbihatDuaSalawatTitle": "ሰላዋት",
+  "tasbihatDuaSalawatWhen": "ከእያንዳንዱ ሶላት በኋላ · ሁሉንም ዱዓዎች ያሳርፋል",
+  "tasbihatDuaSalawatSource": "ኢማም አል-ሳዲቅ (ዐ) — አል-ካፊ",
+  "tasbihatDuaSalawatNote": "በነቢዩ ﷺ እና በንጹህ ቤተሰባቸው (አል ሙሐመድ) ላይ ሰላምና በረከት መላክ እያንዳንዱን ዱዓ ለማሳረፍ ይመከራል። ኢማም አል-ሳዲቅ (ዐ)፦ \"በሙሐመድና በቤተሰባቸው ላይ ሰላዋት እስክትልክ ድረስ ማንኛውም ዱዓ ተቆልፎ ይቆያል።\" ብለዋል።",
+  "tasbihatDuaFarajTitle": "ዱዓኡል ፈረጅ",
+  "tasbihatDuaFarajWhen": "ከእያንዳንዱ ሶላት በኋላ · ለዘመናችን ኢማም",
+  "tasbihatDuaFarajSource": "በኢማም አል-ሐሰን አል-አስከሪ (ዐ) የተማረ",
+  "tasbihatDuaFarajNote": "ለ12ኛው ኢማም ኢማም አል-መህዲ (ዐፈ) ዳግም መገለጥ የሚደረግ ዱዓ ነው፣ በአባቱ የተማረ። ሕያው ኢማሙን ለመውደድና ለመታዘዝ ምልክት ሆኖ በታማኝ ሺዓዎች ከእያንዳንዱ ሶላት በኋላ በየቀኑ ይነበባል።",
+  "tasbihatDuaTasbihFatimaTitle": "የሰይዲቲ ፋጢማ ተስቢሕ",
+  "tasbihatDuaTasbihFatimaWhen": "ከመግሪብ እና ኢሻ በኋላ · በተለይ የሚመከር",
+  "tasbihatDuaTasbihFatimaSource": "ኢማም አል-ባቂር (ዐ) — ቢሓር አል-አንዋር",
+  "tasbihatDuaTasbihFatimaNote": "ኢማም አል-ባቂር (ዐ) እንደተናገሩት፣ ከኢሻ በኋላ ከመተኛት በፊት ተስቢሕ አል-ዛህራን ማንበብ ከ1000 ረከዓ ነፍል ሶላት ይበልጣል። ብርሃኑም ወደ ሰማያት ይወጣል።",
+  "tasbihFatimaGiftPre": "ከነቢዩ የተሰጠ ስጦታ",
+  "tasbihFatimaGiftPost": "ከእያንዳንዱ ሶላት በኋላ የሚነበብ",
+  "prayerTrackerTitle": "የሶላት መከታተያ",
+  "prayerTrackerPrayed": "ተሰግዷል",
+  "prayerTrackerDayStreak": "{count} ቀን ተከታታይ",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "የዛሬ ሶላቶች ሁሉ ተጠናቀዋል። አላህ ይቀበል።",
+  "dhikrTrackerTitle": "ተስቢሕ አል-ዛህራ",
+  "dhikrTrackerCompletedToday": "ዛሬ ተጠናቋል",
+  "dhikrTrackerNotDoneToday": "ዛሬ አልተደረገም",
+  "dhikrTrackerDayStreak": "{count} ቀን ተከታታይ",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "የተስቢሕ አስታዋሽ",
+  "dhikrReminderDescription": "ተስቢሕ አል-ዛህራ (ሰ.ዐ) እንድታነብ የሚያስታውስ ለስላሳ የዕለት ተዕለት አስታዋሽ።",
+  "dhikrReminderEnable": "የተስቢሕ አስታዋሽን አንቃ",
+  "dhikrReminderTimeLabel": "የአስታዋሽ ሰዓት",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "የዕለቱ ሐዲስ",
+  "hadithLabelArabic": "ዐረብኛ",
+  "hadithLabelTranslation": "ትርጉም",
+  "hadithBadge": "ሐዲስ",
+  "hadithShare": "ይህን ሐዲስ አጋራ",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nበAyara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "ቀዳሚ",
+  "hadithNavNext": "ቀጣይ",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "14ቱ ማዕሱሚን",
+  "imamsScreenSubtitle": "ነቢዩ፣ ሰይዲቲ ፋጢማ እና አስራ ሁለቱ ኢማሞች — የእስልምና የስህተት ነፃ መሪዎች",
+  "imamLabelBorn": "የተወለደበት",
+  "imamLabelMartyrdom": "ሸሂድነት",
+  "imamLabelStatus": "ሁኔታ",
+  "imamSectionBiography": "የሕይወት ታሪክ",
+  "imamSectionFamousSaying": "የታወቀ ንግግር",
+  "imamRoleProphet": "የመጨረሻው ነቢይ",
+  "imamRoleInfallible": "ከስህተት የጸዳ",
+  "imamOrdinal1": "1ኛ ኢማም",
+  "imamOrdinal2": "2ኛ ኢማም",
+  "imamOrdinal3": "3ኛ ኢማም",
+  "imamOrdinal4": "4ኛ ኢማም",
+  "imamOrdinal5": "5ኛ ኢማም",
+  "imamOrdinal6": "6ኛ ኢማም",
+  "imamOrdinal7": "7ኛ ኢማም",
+  "imamOrdinal8": "8ኛ ኢማም",
+  "imamOrdinal9": "9ኛ ኢማም",
+  "imamOrdinal10": "10ኛ ኢማም",
+  "imamOrdinal11": "11ኛ ኢማም",
+  "imamOrdinal12": "12ኛ ኢማም",
+  "duaAudioScreenTitle": "ዱዓዎችን አዳምጥ",
+  "duaAudioScreenSubtitle": "ለማዳመጥ አንድ ዱዓ ምረጥ። ለመጫወት ወይም ለማቆም ካርዱን ንካ።",
+  "duaAudioComingSoonMessage": "የዚህ ዱዓ ድምፅ በሚቀጥለው ማሻሻያ ውስጥ ይገኛል።",
+  "duaAudioClose": "ዝጋ",
+  "duaAudioError": "ድምፁን መጫን አልተቻለም። እባክህ ግንኙነትህን አረጋግጥ።",
+  "duaAudioMetaTransmittedBy": "ያስተላለፈው",
+  "duaAudioMetaOccasion": "አጋጣሚ",
+  "duaAudioMetaDuration": "ቆይታ",
+  "quickActionDailyHadith": "የዕለቱ ሐዲስ",
+  "quickAction14Masumeen": "14ቱ ማዕሱሚን",
+  "quickActionListenDuas": "አዳምጥ",
+  "quickActionTasbihat": "የሶላት መመሪያ",
+  "pilgrimageSectionTitle": "ቅዱሱ ጉዞ",
+  "pilgrimageSectionSubtitle": "ለሐጅ እና ዑምራ ሙሉ መመሪያዎች — ወደ መካ ያለው የአላህ ቅዱስ ቤት ሐጅ",
+  "hajjCardTitle": "ሐጅ",
+  "hajjCardSubtitle": "የእስልምና አምስተኛው ምሰሶ",
+  "hajjCardDescription": "ታላቁ ዓመታዊ ሐጅ — ለእያንዳንዱ ችሎታ ላለው ሙስሊም በሕይወት አንድ ጊዜ ግዴታ ነው",
+  "hajjScreenTitle": "የሐጅ መመሪያ",
+  "hajjScreenSubtitle": "ለታላቁ ሐጅ ደረጃ በደረጃ መመሪያ",
+  "umrahCardTitle": "ዑምራ",
+  "umrahCardSubtitle": "ትንሹ ሐጅ",
+  "umrahCardDescription": "በዓመቱ ማንኛውም ጊዜ ሊደረግ የሚችል እጅግ ፍሬያማ መንፈሳዊ ጉዞ",
+  "umrahScreenTitle": "የዑምራ መመሪያ",
+  "umrahScreenSubtitle": "ለትንሹ ሐጅ ደረጃ በደረጃ መመሪያ",
+  "pilgrimageStepsTitle": "ሥርዓቶች እና ደረጃዎች",
+  "pilgrimageImportantNotesTitle": "አስፈላጊ ማስታወሻዎች",
+  "pilgrimageDuaTitle": "የዚህ ደረጃ ዱአ",
+  "pilgrimageJafariNoteTitle": "የጃ'ፋሪ ፊቅህ አስታውስ",
+  "pilgrimageComplete": "✓ ተጠናቀቀ",
+  "pilgrimageMarkDone": "እንደ ተጠናቀቀ ይምረጡ",
+  "pilgrimageProgress": "{done} ከ {total} ደረጃዎች",
+  "pilgrimageReadTime": "~{minutes} ደቂቀ ጊዜ",
+  "pilgrimageShiaNoteTitle": "ሺዓ ሐጃጆች",
+  "pilgrimageShiaNoteBody": "ሺዓ ሐጃጆች በተለምዶ ወደ መዲና በመጓዝ በመስጂድ አል-ነበዊ ያለውን የነቢዩ ሙሐመድ (ሰዐወ) መቃብር እና በጀናት አል-በቂዕ ያሉትን የኢማሞች መቃብሮች ይጎበኛሉ። እነዚህ ጉብኝቶች እጅግ ታላቅ መንፈሳዊ ክብደት አላቸው እና ለአብዛኞቹ ሺዓ ሙስሊሞች የጉዞው ዋና ክፍል ተደርገው ይቆጠራሉ።",
+  "hajjIntro": "ሐጅ የእስልምና አምስተኛው ምሰሶ ሲሆን፣ ለእያንዳንዱ በአካልና በገንዘብ የሚችል ሙስሊም በሕይወቱ አንድ ጊዜ ግዴታ ነው። በዙል-ሒጃ ወር ውስጥ የሚደረግ ሲሆን የነቢዩ ኢብራሂም (ዐ)፣ የልጁ ኢስማኢል (ዐ) እና የሰይዲቲ ሐጀር ፈለግ ይከተላል። ለሺዓ ሙስሊሞች ሐጅ በመዲና ያሉትን የነቢዩ (ሰዐወ) እና የአህሉል በይት መዓረፊያ ቦታዎች የመጎብኘት ታላቅ በረከትንም ያካትታል።",
+  "umrahIntro": "ዑምራ ወደ መካ የሚደረግ ትንሹ ሐጅ ሲሆን፣ ከሐጅ በተለየ መልኩ በዓመቱ ማንኛውም ጊዜ ሊደረግ ይችላል። ግዴታ ባይሆንም ታላቅ መንፈሳዊ ምንዳ አለው እና በጣም የሚመከር የአምልኮ ተግባር ነው። ከሐጅ ጋር ብዙ ሥርዓቶችን ይጋራል፣ ግን አጭር ሲሆን አራት ዋና ሥርዓቶችን ያካትታል።"
 }

@@ -1,586 +1,629 @@
 {
   "@@locale": "lb",
-
   "appTitle": "Ayara",
-
-  "languageSelectTitle": "Wählt Är Sprooch",
-  "languageSelectSub": "Dir kënnt dëst méi spéit an den Astellungen änneren",
-  "actionContinue": "Weidergoen",
-  "languageSuggestedHeader": "Recommandéiert",
+  "languageSelectTitle": "Wiel Är Sproach",
+  "languageSelectSub": "Dir kënnt dat méi spéit an den Astellungen änneren",
+  "actionContinue": "Weidermaachen",
+  "languageSuggestedHeader": "Proposéiert",
   "languageAllHeader": "All Sproochen",
-  "languageSuggestedBadge": "Recommandéiert",
+  "languageSuggestedBadge": "Proposéiert",
   "languageSearchHint": "Sichen…",
-
-  "planGrace": "Standard",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Täglech Léitung",
-  "categoryFaithTrust": "Iman & Vertrauen",
-  "categoryPrayerReflection": "Gebetsbetrachtung",
-  "categoryHopeDifficultTimes": "Geduld a Hoffnung",
-  "categoryForgiveness": "Vergebung sichen",
-  "categoryLoveCompassion": "Barmhäerzegkeet",
-  "categoryStrengthCourage": "GlaabensStäerkt",
-  "categoryGratitude": "Dankberes Häerz",
-  "categoryPurposeCalling": "Sënn an Ziel",
-  "categoryFamilyRelationships": "Familiebande",
-  "categoryPeaceAnxietyRelief": "Innefer Fridden",
-  "categoryWisdomOfJesus": "Weisheit der Propheten",
-  "categoryHumilityCharacter": "Gutt Charakter",
-  "categoryOvercomingTemptation": "Versuchung widderstan",
-  "categoryEveningReflection": "Owend Dhikr",
+  "planBasic": "Standard",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Deeglech Orientéierung",
+  "categorySlot02": "Iman & Vertrauen",
+  "categorySlot03": "Gebet Reflexioun",
+  "categorySlot04": "Gedold Hoffnung",
+  "categorySlot05": "Verzeiung sichen",
+  "categorySlot06": "Barmherzegkeet Mitleid",
+  "categorySlot07": "Glawe Kraaft",
+  "categorySlot08": "Dankbar Häerz",
+  "categorySlot09": "Sënn vum Liewen",
+  "categorySlot10": "Familljegebundenheeten",
+  "categorySlot11": "Bannenzfridden",
+  "categorySlot12": "Prophet Wäisheit",
+  "categorySlot13": "Gutt Charakter",
+  "categorySlot14": "Versuechung widerstoen",
+  "categorySlot15": "Owend Dhikr",
   "categoryCustom": "Perséinlech Reflexioun",
-  "dhikrMeaningSubhanallah": "Éischt Allah",
-  "dhikrMeaningAlhamdulillah": "All Praise gehéiert Allah",
-  "dhikrMeaningAllahuAkbar": "Allah ass de Gréissten",
-  "quranVerseHeartAtRest": "Wourecht, an der Erënnerung un Allah fannen d'Häerzer Rou.",
-
-  "promptHint": "Tippt eng Kategorie fir islamisch Léitung a Betrachtung",
-
-  "currentLanguage": "Aktuell Sprooch",
-  "settingsLanguage": "Sproochastallungen",
+  "dhikrMeaningSubhanallah": "Geréischt se Allah",
+  "dhikrMeaningAlhamdulillah": "All Pries gehéiert Allah",
+  "dhikrMeaningAllahuAkbar": "Allah ass dat Gréissten",
+  "quranVerseHeartAtRest": "Wahrlich, an der Gedéngknis vun Allah fannen d'Häerzer Rou.",
+  "promptHint": "Tipt op eng Kategorie fir islamésch Orientéierung a Reflexioun",
+  "currentLanguage": "Aktuell Sproach",
+  "settingsLanguage": "Sprooch Astellungen",
   "settingsTitle": "Astellungen",
-  "chooseLanguage": "Wählt Är Sprooch",
-  "continueCta": "Weidergoen",
-
-  "promptDailyGuidance": "Schreift eng kuerz, praktesch täglech Léitung op Basis vum sunnitichesch islamesche Glaaben — verankaert am Quran, an der Sunna a de Léirendiktatorer vum Prophet Muhammad. Wählt all Kéier eng frësch Perspektiv: eng Tugend aus der islamescher Ethik, eng Wourecht aus der Sunna, d'Weisheit vun de Sahaba oder eng roueg Praktik aus der islamescher Traditioun. Berechent een Quran-Vers (Surah:Ayah) an eng 1–2 Sätz Betrachtung fir duerch de Dag ze droen. Verbëndt et optional mat dem islamesche Kalenner oder engem wichtegem Datum wann relevant.",
-
-  "promptFaithTrust": "Schreift eng kuerz islamsch Betrachtung iwwer Iman (Glawen) a Vertrauen an Allah seng Plang (Tawakkul). Verankaert se am Quran, am Beispill vum Prophet Muhammad a dem Glawen vun de Sahaba. Variéiert d'Thema all Kéier: Vertrauen an Allah an der Onsécherhäit, Verächtnis op gëttlech Weisheit, Geduld an Prouwen oder roueg Duerchhaaldung am Alldaagsliewen. Berechent een Quran-Vers an een ehrlechen Schreeft fir haut, gezunn aus islamescher geeschtlecher Weisheit.",
-
-  "promptPrayerReflection": "Schreift eng kuerz islamsch Gebetsbetrachtung op Basis vun Salah, Dua oder Dhikr. Variéiert d'Form all Kéier: eng Moies- oder Owend Erënnerung (Adhkar), Betrachtung iwwer déi fënnef täglech Gebete, Kontemplatioun vun engem Quran-Vers oder eng herzhaft Betalung. Berechent een Quran-Vers an benannt kuerz d'Gebetsform déi benotzet gëtt.",
-
-  "promptHopeDifficultTimes": "Schreift eng islamsch Betrachtung iwwer Geduld (Sabr) a Hoffnung während Hardship. Zitt aus Quran-Léirendiktaten iwwer Prouwen, d'Duerchhaaldung vun de Propheten a d'Barmhäerzegkeet vun Allah an schwéiregem Momenter. Variéiert d'Perspektiv all Kéier. Berechent een Quran-Vers an eng ermuddegend Perspektiv aus islamescher Traditioun.",
-
-  "promptForgiveness": "Schreift eng weiß islamsch Betrachtung iwwer d'Sëcherung vun Vergebung (Tawbah) a d'Barmhäerzegkeet vun Allah. Zitt aus Quran-Léirendiktaten iwwer Reou, d'Barmhäerzegkeet vun Allah a dat vergéibend Beispill vum Prophet Muhammad. Variéiert d'Thema: Zréckka zu Allah, aner Verzéiung, Haulung vu Relatiounen oder Glawen un Allah Barmhäerzegkeet no Feeler. Berechent een Quran-Vers an ee konkreete Schreeft.",
-
-  "promptLoveCompassion": "Schreift eng kuerz islamsch Betrachtung iwwer Barmhäerzegkeet (Rahmah) a Barmhäerzegkeet am Alldaagsliewen. Zitt aus dem Beispill vum Prophet Muhammad, dem Konzept vun Ihsan (Exzellenz) a islameschen Léirendiktaten iwwer Léibheit zu Famill, Noperen a Vulnerabel. Berechent een Quran-Vers an ee klenge Akkt vu Barmhäerzegkeet fir haut ze praktizéieren.",
-
-  "promptStrengthCourage": "Schreift eng islamsch Betrachtung iwwer Glaabens-baséiert Stäerkt a Mutt. Zitt aus Beispiller vun de Propheten, der frëcher muslimesch Gemeinschaft a Gléibeger déi firm bleiben an Hardship. Variéiert d'Thema all Kéier: Mutt duerch Glawen, Stäerkt am Gebet, Vertrauen an Allah während Furecht oder Widderstandsfäegkeet an Schwieregkeeten. Berechent een Quran-Vers a kuerz Betalung oder Sätz vun Erënnerung.",
-
-  "promptGratitude": "Schreift eng islamsch Betrachtung iwwer Dankbarkeet (Shukr) envers Allah. Verankaert se an Quran-Léirendiktaten a prophetescher Traditioun. Variéiert d'Perspektiv: Dankbarkeet an Hardship, Appréciatioun vu klengen Ségnungen, Ufank vum Dag mat Präis vun Allah oder Erkanntnëss vun Allah Léitung am Alldaagsliewen. Berechent een Quran-Vers a eng Dankbarkeetspraxis.",
-
-  "promptPurposeCalling": "Schreift eng islamsch Betrachtung iwwer Liewen Sënn an d'Akuur vun Allah a rechtschaf Liewensweisen. Zitt aus Quran-Léirendiktaten iwwer Sënn, Déngscht fir Aner a d'Benotzung vun engem Gabe fir Gout. Variéiert d'Thema all Kéier: Déngscht fir Famill a Gemeinschaft, d'Siche vu Léitung duerch Istikhara, Liewensmë mat Absicht oder d'Beméie vu Sënn an normalem Aarbecht. Berechent een Quran-Vers a zwee Reflexiounsfragen.",
-
-  "promptFamilyRelationships": "Schreift weiß islamsch Orientéierung op Famill a Relatiounen verankaert an Quran-Léirendiktaten a dem Beispill vum Prophet Muhammad. Variéiert d'Thema all Kéier: Léibheit am Familielliewen, Geduld an Konflikt, Eierung vun Elteren, Erziehung vu Kanner an Glawen oder Stäerkung vun Ehe. Berechent een Quran-Vers a eng Relatiounspraxis fir ze probéieren.",
-
-  "promptPeaceAnxietyRelief": "Schreift eng berouegend islamsch Betrachtung iwwer d'Sich vun Inneferem Fridden duerch Erënnerung un Allah (Dhikr) a Vertrauen an Hiseng Plang. Zitt aus Quran-Léirendiktaten iwwer Tranquillité vum Häerz, Gebet a Resignatioun un Allah Wëllen. Variéiert d'Approche all Kéier a berechent een Quran-Vers a eng einfach Praktik aus islamescher Traditioun.",
-
-  "promptWisdomOfJesus": "Schreift eng kuerz Stéck Weisheit vun de Propheten wéi am Islam geliert. Zitt aus dem Quran oder Hadith a soll kuerz erkläeren wéi islamesch Géléiert d'Léirendiktation verstinn hunn. Variéiert d'Thema all Kéier: Charakter, Geduld, Demut, Glawen oder Alldaagsleeft. Berechent eng Quran-Vers oder Hadith Referenz a eng praktesch Applikatioun.",
-
-  "promptHumilityCharacter": "Schreift eng islamsch Betrachtung iwwer Demut (Tawadhu) a gutt Charakter (Akhlaq). Zitt aus Quran-Léirendiktaten, dem Beispill vum Prophet Muhammad a der Traditioun vum Entwécklung vum islamesche Charakter. Variéiert d'Thema: Demut an Füehrung, Feeler zougestoen, Aner mat Respekt behandelen oder geeschtlech Wuesstem duerch Selbst-Reflexioun. Berechent een Quran-Vers a eng Gewunnheet fir ze praktizéieren.",
-
-  "promptOvercomingTemptation": "Schreift eng islamsch Betrachtung iwwer d'Widderstand vun Versuchung a Blibben op der richteger Strooss. Zitt aus Quran-Wegleedung, Erënnerung un Allah (Dhikr), Gebet (Salah) a Beispiller vu Gléibeger déi Kämpf iwwerwaannen hunn. Variéiert d'Perspektiv all Kéier. Berechent een Quran-Vers a eng praktesch Strategie fir déi nächst 24 Stonnen.",
-
-  "promptEveningReflection": "Schreift eng friedlech islamsch Owend Betrachtung verankaert an der Traditioun vun Owend Erënnerung (Adhkar al-Masaa'). Ermuddegt Dankbarkeet, Selbst-Reflexioun (Muhasabah) a Vertrauen an Allah virum Runn. Berechent 3–5 kuerz Reflexiounsfragen iwwer de Dag, eng kuerz Schliissung Betalung a een Quran-Vers.",
-
+  "chooseLanguage": "Wiel Är Sproach",
+  "continueCta": "Weidermaachen",
   "wordCount": "{count, plural, one {{count} Wuert} other {{count} Wierder}}",
-
   "optionsCta": "Optiounen",
-  "newCta": "Neit",
+  "newCta": "Nei",
   "actionsTitle": "Wat wëllt Dir maachen?",
   "copy": "Kopéieren",
   "share": "Deelen",
   "close": "Zoumaachen",
-  "copiedToast": "An d'Pufferzwëschespäicherer kopéiert",
-
+  "copiedToast": "An d'Zwëschenaflage kopéiert",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
-      "category": { "type": "String", "example": "Täglech Léitung" }
+      "category": {
+        "type": "String",
+        "example": "Deeglech Orientéierung"
+      }
     }
   },
-
-  "regenerateErrorTitle": "Konnt keng nei Äntwert generéieren",
-  "regenerateErrorBody": "{error}\n\nWëllt Dir erëm probéieren?",
+  "regenerateErrorTitle": "Konnt net nei äntweren",
+  "regenerateErrorBody": "{error}\n\nWëllt Dir et nach eng Kéier probéieren?",
   "@regenerateErrorBody": {
     "description": "Shown when regenerating an AI answer fails.",
     "placeholders": {
-      "error": { "type": "String", "example": "Netzwierksfeeler" }
+      "error": {
+        "type": "String",
+        "example": "Netzwerkfeeler"
+      }
     }
   },
-
   "cancelCta": "Ofbriechen",
   "retryCta": "Erëm probéieren",
-
-  "authTitle": "Erstellt Är Konto",
-  "continueAsGuest": "Als Gast weidergoen",
-  "signInGoogle": "Mellt Iech mat Google un",
-  "signInApple": "Mellt Iech mat Apple un",
-  "signInEmail": "Mellt Iech mat E-Mail un",
-  "upgradeWithApple": "Continuéiert mat Apple",
-  "mustAccept": "Dir musst de Bedéngungen akzeptéieren a de Dateschutzrichtlinn unerkéennen.",
-  "termsLabel": "Ech akzeptéieren d'Bedéngungen vun de Service",
-  "privacyLabel": "Ech hunn d'Dateschutzrichtlinn gelies",
-  "marketingOptIn": "Ech sinn d'accord Nouvellen a Ueboten z'entgéckelen",
-  "openTerms": "Bedéngungen vun de Service",
-  "openPrivacy": "Dateschutzrichtlinn",
-
-  "accountSection": "Konto",
-  "guestMode": "Gaschtmodus",
-  "signedIn": "Umgemellt",
-  "upgradeHint": "Spuert Är Betrachtungen op Apparater duerch d'Erstelle vun engem Konto.",
-  "upgradeWithGoogle": "Continuéiert mat Google",
-  "signOut": "Ausloggen",
-
-  "snackUpgraded": "Konto mat Google iergadeet ✅",
-  "snackSignedIn": "Mat Google umgemellt ✅",
-  "snackSignedOut": "Ausgelogt",
-  "snackSignedInApple": "Mat Apple umgemellt ✅",
-  "snackSignedInGoogle": "Mat Google umgemellt ✅",
-  "snackUpgradedApple": "Konto mat Apple iergadeet ✅",
-  "snackUpgradedGoogle": "Konto mat Google iergadeet ✅",
-
-  "historyTitle": "Vireg Betrachtungen",
-  "historyOpenCta": "Vireg Betrachtungen",
-  "historyEmpty": "Nach keng gespäicherte Betrachtungen.",
-  "historyDeleteTitle": "Betrachtung läschen?",
-  "historyDeleteBody": "Dëst wäert de ausgewählte Punkt permanent enthiernen.",
+  "authTitle": "Erstellt Är Kont",
+  "continueAsGuest": "As Gast weidermaachen",
+  "signInGoogle": "Mat Google ukomm",
+  "signInApple": "Mat Apple ukomm",
+  "signInEmail": "Mat E-Mail ukomm",
+  "upgradeWithApple": "Mat Apple weidermaachen",
+  "mustAccept": "Dir musst den Bedingte zoustëmmen a d'Dateschutzdeklaratioun anerkenne.",
+  "termsLabel": "Ech akzeptéieren d'Bedingte vum Service",
+  "privacyLabel": "Ech hunn d'Dateschutzdeklaratioun gelies",
+  "marketingOptIn": "Ech stimme Bréck a Agebote ze",
+  "openTerms": "Bedingte vum Service",
+  "openPrivacy": "Dateschutzdeklaratioun",
+  "accountSection": "Kont",
+  "guestMode": "Gast Modus",
+  "signedIn": "Ukomm",
+  "upgradeHint": "Speichert Är Reflexiounen op Geräter, andeems Dir e Kont erstellt.",
+  "upgradeWithGoogle": "Mat Google weidermaachen",
+  "signOut": "Ofmellen",
+  "snackUpgraded": "Kont mat Google upgradéiert ✅",
+  "snackSignedIn": "Mat Google ukomm ✅",
+  "snackSignedOut": "Ofgemellt",
+  "snackSignedInApple": "Mat Apple ukomm ✅",
+  "snackSignedInGoogle": "Mat Google ukomm ✅",
+  "snackUpgradedApple": "Kont mat Apple upgradéiert ✅",
+  "snackUpgradedGoogle": "Kont mat Google upgradéiert ✅",
+  "historyTitle": "Fréier Reflexiounen",
+  "historyOpenCta": "Fréier Reflexiounen",
+  "historyEmpty": "Nog keng Reflexiounen gespäichert.",
+  "historyDeleteTitle": "Reflexioun läschen?",
+  "historyDeleteBody": "Dëst wäert d'Artikel permanent läschen.",
   "deleteCta": "Läschen",
-
-  "historyButton": "Vireg Betrachtungen",
-  "historyEmptyTitle": "Nach keng Betrachtungen",
-  "historyEmptyBody": "Generéiert sometheng ërscht — Är gespäicherte Elementer erschéngen hei.",
+  "historyButton": "Fréier Reflexiounen",
+  "historyEmptyTitle": "Nach keng Reflexiounen",
+  "historyEmptyBody": "Generéiert eppes fir d'éischt — Är gespäichert Artikelen erschéngen hei.",
   "historyDelete": "Läschen",
-
-  "footerTitle": "Mat Iman, Sabr a Rahma.",
-  "footerSubtitle": "Ee Schreeft nom aneren.",
-  "genericErrorSnack": "Eppes ass schuefgaangen — probéiert w.e.g. an engem Moment erëm.",
-
-  "upgradeAccountCta": "Spuert Är Betrachtungen op Apparater – erstellt e Konto",
-  "deleteAccount": "Konto läschen",
-  "exportData": "Meng Donnéeë exportéieren",
-
+  "footerTitle": "Mat Wilaya, Iman a Sabr",
+  "footerSubtitle": "Ee Gebet op eng Kéier",
+  "genericErrorSnack": "Eppes ass schif gelaf — probéiert w.e.g. spéider nees.",
+  "upgradeAccountCta": "Speichert Är Reflexiounen op Geräter – erstellt e Kont",
+  "deleteAccount": "Kont läschen",
+  "exportData": "Meng Donnéeën exportéieren",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
     "description": "Label before showing the internal Firebase UID.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Einfach Tiger 🐯\nAI brauch e Moment virum nächsten…",
-  "rateDailyLimit": "Dir sidd fir elo eraus.",
-  "rateCreditsExhausted": "Dir hutt all Är Betrachtungen benotzert.\nFëllt op oder iergadeet zu Barakah.",
-  "rateGraceReflectionsExhausted": "Dir sidd fir elo eraus.",
-  "rateReflectionsExhausted": "Dir hutt all Är Betrachtungen benotzert.\nFëllt op oder iergadeet zu Barakah.",
-
-  "blessedDescription": "Barakah entspaart Premiumfunktionen, Kategorien an eng speziell Abzeechnen.",
-  "championDescription": "Barakah entspaart Premiumfunktionen, Kategorien an eng speziell Abzeechnen.",
-
-  "ratePlanExhausted": "Är Betrachtungen sinn elo eidel. Plang: {plan}.",
+  "rateLocalThrottle": "Roueg 🐯\nAyara brauch ee Moment virun déi nächst…",
+  "rateDailyLimit": "Dir hutt fir d'Moment keng Reflexiounen méi.\nKreit méi Reflexiounen oder upgrade op Wilaya.",
+  "rateCreditsExhausted": "Dir hutt all Är Reflexiounen benotzt.\nFëllt op oder upgrade op Wilaya fir weidermaachen.",
+  "rateGraceCreditsExhausted": "Dir hutt fir d'Moment keng Reflexiounen méi.\nKreit méi Reflexiounen oder upgrade op Wilaya.",
+  "premiumDescription": "Wilaya entspärt Premium Funktiounen, zukünftig Kategorien a e spezial Badge.",
+  "ratePlanExhausted": "Är Reflexiounen sinn elo eidel. Plang: {plan}.",
   "@ratePlanExhausted": {
     "description": "Shown when the user's reflections are exhausted but the reason is generic.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard oder Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard oder Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "Konnt net Är Betrachtungen iwwerpréiwen: {message}",
+  "rateCheckFailed": "Konnt Är Reflexiounen net kontrolléieren: {message}",
   "@rateCheckFailed": {
     "description": "Shown when the callable function returns an error message.",
     "placeholders": {
-      "message": { "type": "String", "example": "Netzwierksfeeler" }
+      "message": {
+        "type": "String",
+        "example": "Netzwerkfeeler"
+      }
     }
   },
-
-  "rateCheckGenericError": "Eppes ass schuefgaangen beim Iwwerpréive vun Ären Betrachtungen.",
-  "aiFallbackGeneric": "Eppes ass schuefgaangen — probéiert w.e.g. an engem Moment erëm.",
-
-  "limitSectionTitle": "Betrachtungen",
-  "limitTodayLabel": "Benotzung",
-  "limitCreditsLabel": "Reenbleiwen Betrachtungen: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "rateCheckGenericError": "Eppes ass scheif gelaf beim Kontrolléieren Ärer Reflexiounen.",
+  "aiFallbackGeneric": "Eppes ass schif gelaf — probéiert w.e.g. spéider nees.",
+  "limitSectionTitle": "Reflexiounen",
+  "limitTodayLabel": "Benotzt",
+  "limitCreditsLabel": "Verbleiwen Reflexiounen: {credits}",
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "Plang: {plan}",
   "@limitPlanLabel": {
     "description": "Shows the current subscription plan name.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard oder Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standard oder Wilaya"
+      }
     }
   },
-  "limitLoadingLabel": "Luet…",
+  "limitLoadingLabel": "Lued…",
   "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
-
-  "aiLimitTitle": "Betrachtungen",
-  "aiLimitSubtitle": "All Äntwert notzt 1 Betrachtung. Standard enthält Starter Betrachtungen. Barakah ent Sperrung Premiumkategorien a leist Opfëllunge.",
-  "aiLimitProgressLabel": "{used} / {total} Betrachtungen notzt",
+  "aiLimitTitle": "Reflexiounen",
+  "aiLimitSubtitle": "All Äntwert benotzt 1 Reflexioun. Standard enthält Starter Reflexiounen. Wilaya entspärt Premium Kategorien a erm Opfëllen.",
+  "aiLimitProgressLabel": "{used} / {total} Reflexiounen benotzt",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Betrachtungen",
-  "reflectionsUsageLabel": "Benotzung",
-  "reflectionsRemainingLabel": "Reenbleiwen Betrachtungen: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Plang: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Shows the current plan name.",
+  "creditsSectionTitle": "Reflexiounen",
+  "creditsUsageLabel": "Benotzt",
+  "creditsRemainingLabel": "Verbleiwen Reflexiounen: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard oder Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Luet…",
-  "reflectionsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
-
-  "reflectionsTitle": "Betrachtungen",
-  "reflectionsSubtitle": "All Äntwert notzt 1 Betrachtung. Standard enthält Starter Betrachtungen. Barakah ent Sperrung Premiumkategorien a leist Opfëllunge.",
-  "reflectionsProgressLabel": "{used} / {total} Betrachtungen notzt",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Plang: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standard oder Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Lued…",
+  "creditsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+  "creditsTitle": "Reflexiounen",
+  "creditsSubtitle": "All Äntwert benotzt 1 Reflexioun. Standard enthält Starter Reflexiounen. Wilaya entspärt Premium Kategorien a erm Opfëllen.",
+  "creditsProgressLabel": "{used} / {total} Reflexiounen benotzt",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "Konto läschen",
-  "settingsDeleteDescription": "Läscht permanent Är Konto a all Donnéeë déi derbäi sinn.",
-  "settingsDeleteButtonLabel": "Mäin Konto läschen",
-  "settingsDeleteDialogTitle": "Konto läschen?",
-  "settingsDeleteDialogBody": "Dëse Verkéier ass permanent a kann net réckgängeg gemaach gin.\n\nAll Ären Chats, Verlaf a Kontoinformatiounen ginn geläscht.",
+  "settingsDeleteTitle": "Kont läschen",
+  "settingsDeleteDescription": "Läscht Äre Kont a all assoziéiert Donnéeën permanent.",
+  "settingsDeleteButtonLabel": "Läscht menge Kont",
+  "settingsDeleteDialogTitle": "Kont läschen?",
+  "settingsDeleteDialogBody": "Dës Aktioun ass permanent a kann net rückgängeg gemaach ginn.\n\nAll Är Chats, Geschicht a Konti Informatiounen gi geläscht.",
   "settingsDeleteDialogCancel": "Ofbriechen",
   "settingsDeleteDialogConfirm": "Läschen",
-
-  "settingsFreeLimitUsedTitle": "Starter Betrachtungen notzt",
-  "settingsFreeLimitUsedDescription": "D'Starter Betrachtungen fir dësen Apparat goufen notzt. Iergadeet zu Barakah oder kaaft méi Betrachtungen fir weiderzomaachen.",
-
-  "settingsStarterReflectionsUsedTitle": "Starter Betrachtungen notzt",
-  "settingsStarterReflectionsUsedDescription": "D'Starter Betrachtungen fir dësen Apparat goufen notzt. Iergadeet zu Barakah oder kaaft méi Betrachtungen fir weiderzomaachen.",
-
-  "deviceBoundError": "Dësen Apparat ass schonn mat engem anere Konto verlinkt. Mellt Iech w.e.g. mat dem urspréngleche Konto un.",
-
-  "premiumTitle": "Barakah Modus",
-  "premiumSubtitleBasic": "Entspaart d'Komplett Ayara Erfarung.",
-  "premiumSubtitleChampion": "Dir sidd Barakah. Braucht Dir méi Betrachtungen?",
-
-  "premiumCurrentPlan": "Aktuellt Plang: {plan}",
-  "premiumCreditsStatus": "Betrachtungen: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "Käif sinn elo net disponibel.",
-  "premiumSignInToPurchase": "Mellt Iech un fir Betrachtungen ze kafen oder Barakah fräizuschalten.",
-
-  "premiumRestorePurchases": "Käif restauréieren",
-  "premiumProcessing": "Verarbeetung…",
-  "premiumRestoreHintTitle": "Hutt Dir schonn Barakah oder Betrachtungen op dësem oder engem anere Apparat kaaft?",
-  "premiumRestoreHintBody": "Restauréiert Är Käif wann se net uweisen.",
-
-  "premiumBuyCredits200": "Kaaft 200 Betrachtungen",
-  "premiumBuyCredits400": "Kaaft 400 Betrachtungen",
-  "premiumBecomeChampionOneTime": "Iergadeet zu Barakah Modus",
-  "premiumChampionHint": "As Barakah, kënnt Dir all Kéier mat extra Betrachtungen opfëllen.",
-
-  "premiumUpgradeCta": "Iergadeet",
-  "premiumRequiredForCategory": "Dës Kategorie ass nëmme fir Barakah Benotzer disponibel. Iergadeet an de Asstellungen fir all Premiumcontent fräizuschalten.",
-  "premiumBenefitsBasic": "Entspaart Barakah fir extra Betrachtungen ze kréien, Premiumkategorien ze zoumaachen a jidderzeit Wegleedung ze kréien.",
-  "premiumBenefitsChampion": "Dir sidd am Barakah Modus. Wann Dir niddereg sidd, fügt e puer extra Betrachtungen un an continuéiert ouni Ënnerbriecher.",
-  "premiumButtonBecomeChampion": "Fräischalt Barakah",
-  "premiumButtonTopup1000": "Fügt 1000 Betrachtungen un",
-  "premiumChampionBadge": "Barakah aktiv",
-  "premiumLoadingStore": "Luet Geschäft…",
-
-  "blessedTitle": "Barakah Modus",
-  "blessedSubtitleGrace": "Entspaart d'Komplett Ayara Erfarung.",
-  "blessedSubtitleBlessed": "Dir sidd Barakah. Braucht Dir méi Betrachtungen?",
-
-  "blessedCurrentPlan": "Aktuellt Plang: {plan}",
-  "blessedReflectionsStatus": "Betrachtungen: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Käif sinn elo net disponibel.",
-  "blessedProductNotAvailable": "Dëse Produit ass am Geschäft nach net disponibel. Probéiert w.e.g. méi spéit erëm.",
-  "blessedPurchaseError": "Eppes ass schuefgaangen mam Kaaf. Probéiert w.e.g. erëm.",
-  "blessedSignInToPurchase": "Mellt Iech un fir Betrachtungen ze kafen oder Barakah fräizuschalten.",
-
-  "blessedRestorePurchases": "Käif restauréieren",
-  "blessedProcessing": "Verarbeetung…",
-  "blessedRestoreHintTitle": "Hutt Dir schonn Barakah oder Betrachtungen op dësem oder engem anere Apparat kaaft?",
-  "blessedRestoreHintBody": "Restauréiert Är Käif wann se net uweisen.",
-
-  "blessedBuyReflections100": "Fügt 100 Betrachtungen un",
-  "blessedBuyReflections200": "Kaaft 200 Betrachtungen",
-  "blessedBuyReflections400": "Kaaft 400 Betrachtungen",
-  "blessedBecomeBlessedOneTime": "Iergadeet zu Barakah",
-  "blessedTopupHint": "As Barakah, kënnt Dir all Kéier mat extra Betrachtungen opfëllen.",
-
-  "blessedUpgradeCta": "Iergadeet",
-  "blessedRequiredForCategory": "Dës Kategorie ass nëmme fir Barakah Benotzer disponibel. Iergadeet an de Asstellungen fir all Premiumcontent fräizuschalten.",
-  "blessedFeatureLocked": "Fräischalt Barakah fir op dës Funktioun zozoumaachen.",
-  "lockedCategoriesHint": "E puer Kategorien sinn fir Barakah Membren reservéiert. Fräischalt se fir all Betrachtunge vun Ärer Rees ze untersuchen.",
-  "blessedBenefitsGrace": "Entspaart Barakah fir extra Betrachtungen ze kréien, Premiumkategorien ze zoumaachen a jidderzeit Wegleedung ze kréien.",
-  "blessedBenefitsBlessed": "Dir sidd am Barakah Modus. Wann Dir niddereg sidd, fügt e puer extra Betrachtungen un an continuéiert ouni Ënnerbriecher.",
-  "blessedButtonBecomeBlessed": "Fräischalt Barakah",
-  "blessedButtonTopup1000": "Fügt 1000 Betrachtungen un",
-  "blessedBadge": "Barakah aktiv",
-  "blessedLoadingStore": "Luet Geschäft…",
-
-  "freePlanBlockedTitle": "Dir hutt Är Starter Betrachtungen notzt",
-  "freePlanBlockedBody": "Dir sidd am Standard Plang mat Starter Betrachtungen a sidd a d'Grenzwiert komm. Fir weiderzomaachen — a Premiumkategorien fräizuschalten — iergadeet zu Barakah.",
-  "freePlanBlockedCtaGoPremium": "Lukt op Barakah Optiounen hei ënnen",
-
-  "graceBlockedTitle": "Dir hutt Är Starter Betrachtungen notzt",
-  "graceBlockedBody": "Dir sidd am Standard Plang mat Starter Betrachtungen a sidd a d'Grenzwiert komm. Fir weiderzomaachen — a Premiumkategorien fräizuschalten — iergadeet zu Barakah.",
-  "graceBlockedCtaGoBlessed": "Lukt op Barakah Optiounen hei ënnen",
-
-  "rateGuestMustSignIn": "Mellt Iech un fir Ayara ze benotzten a Är Betrachtungen.",
-
-  "guestNoCreditsTitle": "Gaschtmodus",
-  "guestNoCreditsBody": "As Gast kënnt Dir d'App browsne, mä Dir kënnt keng Betrachtungen benotzten. Mellt Iech spéier an den Asstellungen un fir Betrachtungen ze benotzten an Käif fräizuschalten.",
-
-  "guestNoReflectionsTitle": "Gaschtmodus",
-  "guestNoReflectionsBody": "As Gast kënnt Dir d'App browsne, mä Dir kënnt keng Betrachtungen benotzten. Mellt Iech spéier an den Asstellungen un fir Betrachtungen ze benotzten an Käif fräizuschalten.",
-
-  "guestDialogContinue": "Weidergoen",
-  "guestDialogLoginInstead": "Statt Anmeldung",
-
+  "settingsFreeLimitUsedTitle": "Starter Reflexiounen benotzt",
+  "settingsFreeLimitUsedDescription": "D'Starter Reflexiounen fir dëst Gerät sinn benotzt. Upgrade op Wilaya oder kaaf méi Reflexiounen.",
+  "settingsStarterCreditsUsedTitle": "Starter Reflexiounen benotzt",
+  "settingsStarterCreditsUsedDescription": "D'Starter Reflexiounen fir dëst Gerät sinn benotzt. Upgrade op Wilaya oder kaaf méi Reflexiounen.",
+  "deviceBoundError": "Dëst Gerät ass scho mat engem aneren Kont verbonnen. W.e.g. mellt Iech mat dem Original Kont un.",
+  "premiumTitle": "Wilaya Modus",
+  "premiumSubtitleBasic": "Entspärt d'komplett Ayara Erfahrung.",
+  "premiumSubtitlePremium": "Dir sidd op Wilaya. Braucht méi Reflexiounen?",
+  "premiumCurrentPlan": "Aktuell Plang: {plan}",
+  "premiumCreditsStatus": "Reflexiounen: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "Kafen sinn elo net verfügbar.",
+  "premiumSignInToPurchase": "Mellt Iech un fir Reflexiounen ze kafen oder Wilaya ze entspären.",
+  "premiumRestorePurchases": "Kafen restauréieren",
+  "premiumProcessing": "Verarbeeden…",
+  "premiumRestoreHintTitle": "Hutt Dir schonn Wilaya oder Reflexiounen op dësem oder engem aneren Gerät kaaft?",
+  "premiumRestoreHintBody": "Restauréiert Är Kafen wann si net erschéngen.",
+  "premiumBuyCredits200": "200 Reflexiounen kafen",
+  "premiumBuyCredits400": "400 Reflexiounen kafen",
+  "premiumBecomePremiumOneTime": "Upgrade op Wilaya Modus",
+  "premiumTopupHint": "Mat Wilaya kënnt Dir jidderz mat zousätzlechen Reflexiounen opfëllen.",
+  "premiumUpgradeCta": "Upgrade",
+  "premiumRequiredForCategory": "Dës Kategorie ass nëmme fir Wilaya Benotzer. Upgrade an Astellungen fir all Premium Inhalter ze entspären.",
+  "premiumBenefitsBasic": "Entspärt Wilaya fir zousätzlech Reflexiounen, Accès op Premium Kategorien, a weidermaachen wann Dir Orientéierung braucht.",
+  "premiumBenefitsPremium": "Dir sidd am Wilaya Modus. Wann Dir manner hutt, fügt e puer zousätzlech Reflexiounen derbäi a maacht weider ouni Ënnerbroch.",
+  "premiumButtonBecomePremium": "Entspärt Wilaya",
+  "premiumButtonTopup1000": "Fügt 1000 Reflexiounen derbäi",
+  "premiumBadge": "Wilaya aktiv",
+  "premiumLoadingStore": "Magasin gëtt gelued…",
+  "premiumProductNotAvailable": "Dëst Produkt ass am Magasin nach net verfügbar. W.e.g. probéiert spéider nees.",
+  "premiumPurchaseError": "Eppes ass bei der Kaaf scheif gelaf. W.e.g. probéiert nees.",
+  "premiumBuyCredits100": "100 Reflexiounen derbäi",
+  "premiumFeatureLocked": "Entspärt Wilaya fir op dës Funktioun zouzegräifen.",
+  "lockedCategoriesHint": "E puer Kategorien sinn fir Wilaya Memberen reservéiert. Entspärt se fir all Reflexioun op Ärer Reese z'erfuerschen.",
+  "freePlanBlockedTitle": "Dir hutt Är Starter Reflexiounen opgebraucht",
+  "freePlanBlockedBody": "Dir sidd op de Standard Plang mat Starter Reflexiounen, a Dir hutt d'Limit erriicht. Fir weidermaachen — a Premium Kategorien ze entspären — upgrade op Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Kuckt Wilaya Optiounen hei ënnen",
+  "graceBlockedTitle": "Dir hutt Är Starter Reflexiounen opgebraucht",
+  "graceBlockedBody": "Dir sidd op de Standard Plang mat Starter Reflexiounen, a Dir hutt d'Limit erriicht. Fir weidermaachen — a Premium Kategorien ze entspären — upgrade op Wilaya.",
+  "graceBlockedCtaGoPremium": "Kuckt Wilaya Optiounen hei ënnen",
+  "rateGuestMustSignIn": "Meldt Iech un fir Ayara ze benotzen a Är Reflexiounen.",
+  "guestNoCreditsTitle": "Gast Modus",
+  "guestNoCreditsBody": "As Gast kënnt Dir d'App brauchen, awer Dir kënnt Reflexiounen net benotzen. Meldt Iech méi spéit an Astellungen un fir Reflexiounen ze benotzen a Kafen ze entspären.",
+  "guestDialogContinue": "Weidermaachen",
+  "guestDialogLoginInstead": "Stéck drun mellen",
   "optionalLabel": "optional",
-
-  "accountDeleteSuccessTitle": "Konto geläscht",
-  "accountDeleteSuccessBody": "Är Konto a all Donnéeë goufen erfoulegräich geläscht.",
+  "accountDeleteSuccessTitle": "Kont geläscht",
+  "accountDeleteSuccessBody": "Är Kont a assoziéiert Donnéeën sinn erfolgräich geläscht.",
   "accountDeleteSuccessClose": "Zoumaachen",
-  "accountDeleteErrorTitle": "Konnt Konto net läschen",
+  "accountDeleteErrorTitle": "Konnt Kont net läschen",
   "accountDeleteErrorClose": "OK",
-  "accountDeleteReauthCancelled": "D'Neimodementioun goufe ofbruecht. Mellt Iech w.e.g. erëm un an probéiert d'Läschung erëm.",
-  "accountDeleteReauthRequired": "D'Kontolösching erfuerdert eng rezent Anmeldung. Mellt Iech w.e.g. out, mellt Iech erëm un an probéiert d'Läschung erëm.",
-  "settingsDeletePermanentWarning": "Dëse Verkéier ass permanent a kann net réckgängeg gemaach gin. All mat Ärem Konto verbonne Donnéeë ginn geläscht.",
-
-  "dailyGraceTitle": "Täglech Léitung",
+  "accountDeleteReauthCancelled": "Reautentifizéierung gouf ofbrach. W.e.g. meldt Iech erëm un a probéiert d'Läschung nees.",
+  "accountDeleteReauthRequired": "D'Läschung vum Kont erfuerdert eng rezent Ukomm. W.e.g. meldet Iech of, meldet Iech erëm un, a probéiert d'Läschung nees.",
+  "settingsDeletePermanentWarning": "Dës Aktioun ass permanent a kann net rückgängeg gemaach ginn. All Donnéeën assoziéiert mat Ärem Kont gi geläscht.",
+  "dailyGraceTitle": "Deeglech Orientéierung",
   "dailyGraceScriptureLabel": "VERS VUM DAG",
-  "dailyGraceSaintLabel": "GELIERT VUN DER WOCH",
-  "dailyGraceReflectionLabel": "OWEND BETRACHTUNG",
-  "dailyGraceCopiedToast": "Vers kopéiert an d'Pufferzwëschespäicherer",
-
-  "dailyScripture0Text": "D'Rechtschafen sinn tatsächlech ënner Gäert a Flëss, um Sëtz vun Ére bei engem Mächtegen Kinnek.",
-  "dailyScripture0Ref": "Quran 54:54-55",
-  "dailyScripture1Text": "A Mir hunn Iech, Muhammad, net geschéckt ausser als Barmhäerzegkeet fir d'Welten.",
-  "dailyScripture1Ref": "Quran 21:107",
-  "dailyScripture2Text": "Ass Allah net genee fir Hiseng Sklawe? Trotz hunn se Iech mat Aner ausser Hiseng Géigener.",
-  "dailyScripture2Ref": "Quran 39:36",
-  "dailyScripture3Text": "Vläicht hassent Dir eppes a et ass gutt fir Iech; a vläicht léift Dir eppes a et ass schlecht fir Iech. A Allah weess, während Dir net weess.",
-  "dailyScripture3Ref": "Quran 2:216",
-  "dailyScripture4Text": "Nëmme Allah ass mat de gedëldefen.",
-  "dailyScripture4Ref": "Quran 2:153",
-  "dailyScripture5Text": "Also denkt u mech; Ech denken u Iech. A sidd mir dankbar a léckent mech net of.",
-  "dailyScripture5Ref": "Quran 2:152",
-  "dailyScripture6Text": "Sëcherlech ass deen Edelsten vun Iech an de Sight vun Allah deen Réchtschaffen vun Iech.",
-  "dailyScripture6Ref": "Quran 49:13",
-  "dailyScripture7Text": "A Äre Hier Huere verfügt hunn, datt Dir Neem aner als Hiseng déngt, a datt Dir zu Ären Elteren déift sidd.",
-  "dailyScripture7Ref": "Quran 17:23",
-  "dailyScripture8Text": "Sëcherlech, mat Hardship kënnt Ease.",
-  "dailyScripture8Ref": "Quran 94:6",
-  "dailyScripture9Text": "A Hie ass mat Iech wou Iech sidd. A Allah, vun dat Dir deet, ass Seeing.",
-  "dailyScripture9Ref": "Quran 57:4",
-  "dailyScripture10Text": "Allah beléischt eng Seel net iwwer deem, wat si droe kann.",
-  "dailyScripture10Ref": "Quran 2:286",
-  "dailyScripture11Text": "A wer vertraut op Allah — dann ass Hien genee fir Hiseng.",
-  "dailyScripture11Ref": "Quran 65:3",
-  "dailyScripture12Text": "Meng Barmhäerzegkeet umfaasst all Saachen.",
-  "dailyScripture12Ref": "Quran 7:156",
-  "dailyScripture13Text": "A wann Meng Diener Iech iwwer mech froen — sëcherlech Ech sinn nues. Ech beäntwert deem Bieder wann hie op mech eruft.",
-  "dailyScripture13Ref": "Quran 2:186",
-  "dailyScripture14Text": "Wuer ëndram Rechtschaffenheet deet, ob männlech oder weiblech, wärend e Gléibeger — Mir wieren genee hiseng gëtt e gutt Liewen ze liewen.",
-  "dailyScripture14Ref": "Quran 16:97",
-  "dailyScripture15Text": "Sëcherlech wäert Allah net de Conditioun vun engem Vollek änneren bis si änneren wat an sech selwer ass.",
-  "dailyScripture15Ref": "Quran 13:11",
-  "dailyScripture16Text": "Also schwächt net a trauert net, a Dir wiert d'Uewerhand hunn wann Dir richteg Gléibeger sidd.",
-  "dailyScripture16Ref": "Quran 3:139",
-  "dailyScripture17Text": "O Meng Diener déi géint sech selwer iwwert goufen, verzweifelt net vun der Barmhäerzegkeet vun Allah. Sëcherlech Allah vergëttet all Sënnen.",
-  "dailyScripture17Ref": "Quran 39:53",
-  "dailyScripture18Text": "A wer fearcht Allah — Hien gëtt eng Wegleedung maachen, a wäert hie vu wou hie erwartet net versuergéieren.",
-  "dailyScripture18Ref": "Quran 65:2-3",
-  "dailyScripture19Text": "Verléieren net d'Hoffnung an der Barmhäerzegkeet vun Allah.",
-  "dailyScripture19Ref": "Quran 12:87",
-  "dailyScripture20Text": "A Mir hunn den Quran sëcherlech einfach ze remembrieren gemaach. Also ass et een deen achtsam wäert gin?",
-  "dailyScripture20Ref": "Quran 54:17",
-  "dailyScripture21Text": "A Hie huet Iech verléiert a guidéiert Iech.",
-  "dailyScripture21Ref": "Quran 93:7",
-  "dailyScripture22Text": "A Äre Hier seet: Rueft u mech; Ech beäntwert Iech.",
-  "dailyScripture22Ref": "Quran 40:60",
-  "dailyScripture23Text": "A Mir hunn d'Kanner vun Adam sëcherlech gehäert.",
-  "dailyScripture23Ref": "Quran 17:70",
-  "dailyScripture24Text": "A sicht Hëllef duerch Geduld a Gebet.",
-  "dailyScripture24Ref": "Quran 2:45",
-  "dailyScripture25Text": "Wuer e Atom Gewiicht vu Gutt deet wäert et kucken.",
-  "dailyScripture25Ref": "Quran 99:7",
-  "dailyScripture26Text": "Onn fragilech, d'Hëllef vun Allah ass nues.",
-  "dailyScripture26Ref": "Quran 2:214",
-  "dailyScripture27Text": "A wer ass dankbar — seng Dankbarkeet ass nëmme fir de Benefit vun sech selwer.",
-  "dailyScripture27Ref": "Quran 31:12",
-
-  "dailyReflection0": "As dësen Dag zoumaacht, consideréiert ee Moment wou Allah Barmhäerzegkeet evident war.",
-  "dailyReflection1": "Bréngt virum Allah wat op Ärem Häerz schwéier war haut.",
-  "dailyReflection2": "Nennt eng Benediung vun dësem Dag a dréckt Dankbarkeet zu Allah aus.",
-  "dailyReflection3": "Ruet an der Wëssen, datt Dir an Allah Onendlech Suerge geholl gin.",
-  "dailyReflection4": "Reflect op wou Dir ruff gin hutt Barmhäerzegkeet a Léibheet ze weisen haut.",
-  "dailyReflection5": "Loosst goen wat Dir net kontrolléieren kënnt a vertraut op Allah perfekt Plang.",
-  "dailyReflection6": "As de Dag am Damper geet, empfangt Fridden an Erënnerung un Allah.",
-  "dailyReflection7": "Consideréiert wéi Dir Är Gebete gehäert haut, a remierkt Allah fir all ee.",
-  "dailyReflection8": "Reflect op e Moment wou Geduld Sabr Är Handlunge guidéiert haut.",
-  "dailyReflection9": "Freet Vergebung fir all Mangel haut — Allah Barmhäerzegkeet ass onbegrenzt.",
-  "dailyReflection10": "Nennt eng Persoun Dir Léibheet ze hunn haut an maacht Dua fir se.",
-  "dailyReflection11": "Sëtzt mat Dankbarkeet: wat huet Allah versuergt haut datt Dir net freet hutt?",
-  "dailyReflection12": "Reflect op e Vers vum Quran deen zu deene sprechen wou Dir sidd elo.",
-  "dailyReflection13": "Consideréiert wéi Dir Är Zäit benotzter haut — a schénkt muer zu Allah.",
-  "dailyReflection14": "Ruet ze wëssen datt wou Hardship komm haut, Allah war mat Iech duerch et.",
-  "dailyReflection15": "Denkt vun eenem Wee Dir Är Famill oder Gemeinschaft déngt haut fir Allah Sak.",
-  "dailyReflection16": "As Nuecht fällt, maacht Tawbah — Allah léift déi déi zréck zu Hiseng dreihen.",
-  "dailyReflection17": "Reflect op d'Schéinhäit Allah gesat an Ärem Dag, egal wéi kleng.",
-  "dailyReflection18": "Consideréiert wat Dir geléiert haut a wéi et Iech méi nues zu Allah zitt.",
-  "dailyReflection19": "Loosst de Dag Suerge mat Allah runen — Hien dréit wat Dir net kann.",
-  "dailyReflection20": "Denkt vun eem Moment haut wou Dir hätt besser wählen kënnt, a geléiert vun et genéierelech.",
-  "dailyReflection21": "Maacht Dua fir déi déi kämpfen — Är Gebet ass e Verschenk zu se.",
-  "dailyReflection22": "Erennert Iech eng Benediung Dir dacks iwwersinn a stellt e Moment Dankbarkeet zu Allah.",
-  "dailyReflection23": "Reflect op Är Avsichten haut — waren se fir Allah? Muer, fänkt erëm un.",
-  "dailyReflection24": "As d'Nuecht roueg, lauschtert fir Allah Nueheit an der Stëllung.",
-  "dailyReflection25": "Consideréiert wou Dir Stäerkt haut hutt — datt Stäerkt ass vun Allah.",
-  "dailyReflection26": "Nennt eng Saach Dir morgen déngt, fir Allah Sak, datt Dir net haut gehat.",
-  "dailyReflection27": "As Dir sich fir Runn virbereiden, confiéiert Är Seel zu Allah — Hie ass de Bescht vun Gardener.",
-
-  "dailyRoleModel0": "Prophet Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Prophet Ibrahim (AS)",
-  "dailyRoleModel44": "Prophet Musa (AS)",
-  "dailyRoleModel45": "Prophet Isa (AS)",
-  "dailyRoleModel46": "Prophet Yusuf (AS)",
-  "dailyRoleModel47": "Prophet Dawud (AS)",
-  "dailyRoleModel48": "Prophet Sulayman (AS)",
-  "dailyRoleModel49": "Prophet Nuh (AS)",
-  "dailyRoleModel50": "Prophet Yunus (AS)",
-  "dailyRoleModel51": "Prophet Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Erlab Ayara meng Positioun fir Qibla Richtung a Gebetzäiten ze benotzten",
-  "locationConsentHint": "Benotzert nëmme fir dës Funktiounen. Är Positioun gëtt ni gedeelt oder gespäichert.",
-
-  "askPageTitle": "Freet Ayara",
-  "askPageDescription": "Freet wat ëmmer iwwer Glawen, Gebet, Liewen oder islamesch Praxis a kritt Wegleedung verankaert am Quran a Sunna.",
+  "dailyGraceSaintLabel": "GELIEERT VUN DER WOCH",
+  "dailyGraceReflectionLabel": "OWEND REFLEXIOUN",
+  "dailyGraceCopiedToast": "Vers an d'Zwëschenaflage kopéiert",
+  "locationConsentLabel": "Erlaaft Ayara meng Plaz fir Qibla Richtung a Gebetszeiten ze benotzen",
+  "locationConsentHint": "Nëmme fir dës Funktiounen benotzt. Är Plaz gëtt ni gedeelt oder gespäichert.",
+  "askPageTitle": "Fragt Ayara",
+  "askPageDescription": "Fragt eppes iwwer Glawe, Gebet, Liewen oder islamésch Praktik a kritt Orientéierung aus dem Koran a de Léren vum Ahl al-Bayt.",
   "askPageInputHint": "Schreift Är Fro hei…",
-  "askPageSubmitCta": "Freet",
-  "askPageInputEmptyError": "Schreift w.e.g. ërscht eng Fro.",
+  "askPageSubmitCta": "Froen",
+  "askPageInputEmptyError": "W.e.g. schreift éischt eng Fro.",
   "askResultYourQuestion": "Är Fro",
-
-  "guidancePageTitle": "Gebet & Wegleedung",
-  "qiblaFacingMecca": "Facing Makkah",
-  "qiblaCompassInstruction": "Dreht Är Telefon bis d'Gold Nadel no uewen weist.\nDatt Richtung weist zu Qibla Makkah.",
-  "qiblaGpsUnavailableBody": "GPS Signal ass schwaach. Beweegt op fräi Fräi a tippt Retry.",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "Riichtung Makkah",
+  "qiblaCompassInstruction": "Dreht Äre Telefon, bis d'golden Nol riicht geet.\nDës Richtung weist op d'Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "GPS Signal ass schwach. Gitt erauszegoën a tipt Erëm probéieren.",
   "qiblaRetry": "Erëm probéieren",
   "qiblaTitle": "Qibla Richtung",
-  "qiblaDistanceLabel": "{km} km zu Makkah",
+  "qiblaDistanceLabel": "{km} km bis Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "Positioun erfuerdert",
-  "qiblaLocationNeededBody": "Erlab Positioun Zougang sou Ayara kann d'Richtung vun Kaaba an Makkah berechent vun wa Dir sidd.",
-  "qiblaOpenSettings": "Open Astellungen",
-  "qiblaCompassLoading": "Sichen Är Positioun…",
-  "qiblaTowardMecca": "Toward Makkah",
-
-  "prayerTimesTitle": "Gebetzäiten",
+  "qiblaLocationNeededTitle": "Plaz erfuerdert",
+  "qiblaLocationNeededBody": "Erlaaft Plaaz Accès sou kann Ayara d'Richtung vun der Kaaba a Makkah vun wou Dir sidd ausrechnen.",
+  "qiblaOpenSettings": "Astellungen opmaachen",
+  "qiblaCompassLoading": "Är Positioun gëtt gesicht…",
+  "qiblaTowardMecca": "Riichtung Makkah",
+  "prayerTimesTitle": "Gebetszeiten",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
-  "prayerTimesLocationNeededTitle": "Positioun erfuerdert",
-  "prayerTimesLocationNeededBody": "Erlab Positioun Zougang sou Ayara kann accurat Gebetzäiten fir Är Stad berechent.",
+  "prayerTimesLocationNeededTitle": "Plaz erfuerdert",
+  "prayerTimesLocationNeededBody": "Erlaaft Plaaz Accès sou kann Ayara d'exakt Gebetszeiten fir Är Stad ausrechnen.",
   "prayerTimesNextLabel": "Nächst",
   "prayerTimesDoneLabel": "Fäerdeg",
-
-  "monthlyPrayerTimesTitle": "Monthly Gebetzäiten",
-  "monthlyPrayerTimesViewButton": "View Full Monat",
-  "monthlyPrayerTimesNextMonth": "Nächst Monat",
+  "monthlyPrayerTimesTitle": "Monatslech Gebetszeiten",
+  "monthlyPrayerTimesViewButton": "Ganz Méint kucken",
+  "monthlyPrayerTimesNextMonth": "Nächst Méint",
   "monthlyPrayerTimesDayHeader": "Dag",
-
-  "sharePrayerTimes": "Deelt Gebetzäiten",
-
-  "prayerNotificationsTitle": "Gebetserënerungen",
-  "prayerNotificationsDescription": "Kritt eng genéierelech Erënnerung virum all Gebetzäit fir Dir ze hëllefen duerch de Dag verbonne ze bleiwen.",
-  "prayerNotificationsEnable": "Enable Gebetserënerungen",
-  "prayerNotificationsOpenSettings": "Open Notifikatioun Astellungen",
-  "prayerNotificationsDenied": "Notifikatiounen sinn deaktivéiert",
-  "prayerNotificationsDeniedHint": "Gitt zu Astellungen a erlab Notifikatiounen fir Ayara fir Gebetzäit Erënerungen ze kréien.",
-
-  "notificationsConsentLabel": "Erlab Notifikatiounen fir Gebetzäiten",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — Morngot",
-  "prayerNotifBodyFajr": "D'Bescht vu Gebeter ass d'Morn Gebet. Erhéizt, reinent Iech selwer, a steet virum Allah.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Mëttags Gebet",
-  "prayerNotifBodyDhuhr": "Paupt Äre Dag a kéiert zréck zu Allah. Dhuhr Gebetzäit ass komm.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — Nomëttes Gebet",
-  "prayerNotifBodyAsr": "Guard d'Mëtt Gebet. Asr Zäit ass komm — loosst et net passeren.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — Sonnerot Gebet",
-  "prayerNotifBodyMaghrib": "D'Sonn ass ënnergaangen. Bitt Maghrib a sidd dankbar zu Allah fir dësen Dag.",
-
+  "sharePrayerTimes": "Gebetszeiten deelen",
+  "notificationsSectionTitle": "Mëtteilungen",
+  "notificationsSectionSubtitle": "Gebet Amannungen, Kalender Evenementer & méi",
+  "dailyReflectionReminderTitle": "Deeglech Reflexioun",
+  "dailyReflectionReminderDescription": "Eng déifter deeglech Aamnéierung fir Ayara z'opmaachen a mat Ärem Glawe ze verbandelen.",
+  "dailyReflectionReminderEnable": "Aamnéierung aktivéieren",
+  "dailyReflectionReminderTimeLabel": "Aamnéierung Zäit",
+  "prayerNotificationsTitle": "Gebet Aamnéierungen",
+  "prayerNotificationsDescription": "Kritt eng déifter Aamnéierung vir all Gebetszeit fir Iech hëllefen d'Dag iwwer verbonnen ze bleiwen.",
+  "prayerNotificationsEnable": "Gebet Aamnéierungen aktivéieren",
+  "prayerNotificationsOpenSettings": "Mëtteilungs Astellungen opmaachen",
+  "prayerNotificationsDenied": "Mëtteilungen sinn deaktivéiert",
+  "prayerNotificationsDeniedHint": "Gitt zu Astellungen a erlaaft Mëtteilungen fir Ayara fir Gebetszeit Aamnéierungen ze kréien.",
+  "notificationsConsentLabel": "Erlaaft Mëtteilungen fir Gebetszeiten",
+  "prayerNotifTitleFajr": "🌅 Fajr — Dämmerung Gebet",
+  "prayerNotifBodyFajr": "Fajr ass d'Gebet vun den Ahl al-Bayt Moien. Imam Ali (AS) hat gesot: Bewacht d'Dämmerung Gebet wéi Dir Är präziös Saach bewacht. Steet op, reinegt Iech, a steet virum Allah.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Mëttedag Gebet",
+  "prayerNotifBodyDhuhr": "D'Imame vun den Ahl al-Bayt hunn all Moment vun der Gedéngknis geschätzt. Pauséiert Äre Dag, kombinéiert Dhuhr mat Asr wann néideg, a gitt Ärt Häerz zréck op Allah.",
+  "prayerNotifTitleAsr": "🌤️ Asr — Nomëttedag Gebet",
+  "prayerNotifBodyAsr": "Bewacht d'Gebet, mä et ass de Pakt tëschent Iech a Allah. Asr Zäit ass komm — laasst et net virbeigoen ouni Gedéngknis.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Sonneënnergank Gebet",
+  "prayerNotifBodyMaghrib": "D'Sonn ass ënnergaang — ee Moment dee d'Ahl al-Bayt als helleng beholl hunn. Bitt Maghrib a maach Är Hänn op fir Allah an Dua virun d'Nuecht ufänkt.",
   "prayerNotifTitleIsha": "🌙 Isha — Nuecht Gebet",
-  "prayerNotifBodyIsha": "Endet Äre Dag mat Erënnerung un Allah. Hayya 'alal falah — komm zu Succès.",
-
-  "outOfReflectionsBannerText": "Dir hutt all Är Betrachtungen notzt",
-  "outOfReflectionsBannerCta": "Kritt méi",
-
+  "prayerNotifBodyIsha": "Endet Äre Dag mat der Gesellschaft vum Allah. D'Imame hu Salat al-Layl no Isha encouragéiert — awer éischt, fäerdeg Äer Isha a schleeft de Dag mat seng Gedéngknis.",
+  "outOfReflectionsBannerText": "Dir hutt all Är Reflexiounen benotzt",
+  "outOfReflectionsBannerCta": "Kreit méi",
   "dhikrPageTitle": "Dhikr",
-  "dhikrTapToCount": "Tipt de Krees fir ze zéilen",
-  "dhikrResetButton": "Reset",
+  "dhikrTapToCount": "Tipt de Krees fir ze zielen",
+  "dhikrResetButton": "Zerécksetzen",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Dir hutt 99 Erënerungen vun Allah komplettéiert. Gi se e Léicht fir Är Häerz.",
-
-  "disclaimerTitle": "Iwwer dës App Wegleedung",
-  "disclaimerBody": "Ayara bitt islamsch Betrachtungen, Erënerungen an geeschtlech Inhalt fir Är perséinlech Rees vum Glawen ze stëtzen. Dësen Inhalt gëtt fir allgemeng informativ an inspireert Zwecker ugebuede.\n\nAyara ersetzt net qualifizéiert Scholdeurschaft.\nD'Wegleedung an dëser App ass net eng Vervanschaf fir e geléiert islamesche Géléiert, Imam, Mufti oder theologesch trainéiert Léirendikter. Wann Dir Froen iwwer relijiéis Raeglungen hutt, Halal a Haram Saachen oder perséinlech relijiéis Obligatiounen, freet w.e.g. eng qualifizéiert relijiéis Autoritéit an Ärer Gemeinschaft.",
-
-  "disclaimerClose": "Ech verstänn",
-  "disclaimerInfoTooltip": "Iwwer dës App Wegleedung",
-  "disclaimerSettingsSubtitle": "Fir allgemeng informativ Zwecker nëmme. Tippt fir déi voll Disclaim ze liesen.",
-  "disclaimerSectionHeader": "Wegleedung Disclaim"
+  "dhikrCompleteMessage": "Dir hutt 100 Gedénknisse vum Allah fäerdeg gemaach. Mir sinn hoffnungsvoll si sinn e Liicht fir Ärt Häerz.",
+  "disclaimerTitle": "Iwwert dës App seng Orientéierung",
+  "disclaimerBody": "Ayara bitt islamésch Reflexiounen, Aamnéierungen, a spirituell Inhalter fir Är perséinlech Reese vum Glawe ënnerstiffer, baskéiert op dem Koran a de Léren vun den Ahl al-Bayt. Dëse Contenu gëtt fir allgemeng Informatiouns- a Inspiratiouns Zwecker ageboten.\n\nAyara ersetzt net qualifizéiert Gelieertschaft.\nD'Orientéierung an dëser App ersetzt net ee gelierdie Islamésch Gelieerte, Marja', oder theologesch trainéierten Enseignant. Am Shia Islam ass d'religjéis Orientéierung baskéiert op der Ja'fari Schoul vun der Rechtswëssenschaften (Fiqh) a der Traditioun vun engem liewendege Marja' (Quell vun der Emulatioun) ze verfollegen — ee qualifizéierten Jurist deem seng Rueilangen d'Gitriber an der religjéiser Praktik guidéieren. Wann Dir Froen iwwer religjéis Rulingar, Halal a Haram Situatiounen, oder perséinlech religjéis Obligatiounen hutt, freet w.e.g. ee qualifizéierten Marja' oder Gelieerte an Ärer Gemeinschaft.\n\nDiese App promet net religjéis Rulingar.\nAyara mécht net autoritativ Bestimmungen iwwer Fiqh Sujete oder perséinlech religjéis Obligatiounen. Näischt hei soll als Fatwah oder bindend religjéis Instruktsioun geholl gin.\n\nD'Zentralitéit vum Ahl al-Bayt.\nAm Shia Islam sinn de Prophet Muhammad ﷺ a seng reinegte Huushal — den Ahl al-Bayt — d'autoritativ Guidees vun der Islamésche Gemeinschaft no dem Koran. D'zwoulf Imame vum Ahl al-Bayt sinn d'divinn ernannt Interpreten vun der Islaméscher Léier. Contenu an dëser App reflektéiert dës Traditioun a sicht se trëw ze eeren.\n\nGemeinschaft Saachen.\nDiese App zielt Ärt Engagéiert mat dem Glawe ermuedegen, während déift de vital Roll vum Ärem lokalen Moschee, Islamésche Zentrum, a religjéizer Gemeinschaft respektéiert gëtt. Mir encouragéieren Iech verbonnen ze bleiwen mat a vun qualifizéierten Enseignanten an Ärer Nues ze léieren.",
+  "disclaimerClose": "Ech verstinn",
+  "disclaimerInfoTooltip": "Iwwert dës App seng Orientéierung",
+  "disclaimerSettingsSubtitle": "Fir allgemeng Informatiouns Zwecker. Tipt fir de komplette Disclaimer ze liesen.",
+  "disclaimerSectionHeader": "Orientéierung Disclaimer",
+  "navHome": "Heemecht",
+  "navReflect": "Reflektéieren",
+  "navDuas": "Duas",
+  "navCalendar": "Kalender",
+  "dashboardToday": "HAUT",
+  "dashboardComingUp": "Kommt an",
+  "dashboardDaysUnit": "{count, plural, one {Dag} other {Deeg}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Schnell Accès",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Orientéierung",
+  "quickActionPrayerTimes": "Gebetszeiten",
+  "askAyaraTitle": "Fragt Ayara",
+  "askAyaraSubtitle": "Fragt jidder islamésch Fro a kritt eng duerch Gedanken ginn, guided Äntwert.",
+  "askAyaraHint": "z.B. Wat ass d'Bedeitung vun Ramadan?",
+  "askAyaraSubmit": "Froen",
+  "wisdomOfTheDayTitle": "Wäisheit vum Dag",
+  "calendarScreenTitle": "Islamésche Kalender",
+  "calendarUpcomingOccasions": "Komm Ocasiounen",
+  "calendarOccasionRemindersTitle": "Ocasioun Aamnéierungen",
+  "calendarOccasionRemindersHint": "Mëtteilleeft de Owend vir all Ocasioun",
+  "calendarNotifPermissionDenied": "Mëtteilungs Erlabnis refuséiert. Aktivéiert et an Äre Geräte Astellungen.",
+  "calendarNoEvents": "Keng komm Eventer fonnt.",
+  "calendarAddToPhone": "Zousätz zu Telefonkalender",
+  "calendarAddedToPhone": "Zu Kalender derbäigesat",
+  "calendarCountdownToday": "HAUT",
+  "calendarCountdownTomorrow": "MUER",
+  "calendarCountdownDays": "an {days} Deeg",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Jan",
+  "calendarMonthFeb": "Feb",
+  "calendarMonthMar": "Mär",
+  "calendarMonthApr": "Apr",
+  "calendarMonthMay": "Mei",
+  "calendarMonthJun": "Jun",
+  "calendarMonthJul": "Jul",
+  "calendarMonthAug": "Aug",
+  "calendarMonthSep": "Sep",
+  "calendarMonthOct": "Okt",
+  "calendarMonthNov": "Nov",
+  "calendarMonthDec": "Dez",
+  "calendarSeasonMuharramEarly": "Deeg vum Muharram — memorialiseiert Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — Deeg vum Trauer a Reflexioun",
+  "calendarSeasonArbaeen": "Arbaeen — vérzeg Deeg vum Husayn",
+  "calendarSeasonRoadToArbaeen": "D'Strooss zu Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — d'Dämmerung vun der Revelatioun",
+  "calendarSeasonMidShaban": "Mid-Sha'ban — Gebuertsdag vun Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — de Méint vum Koran",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Duas & Ziyarat",
+  "duasSearchHint": "Sicht Duas, Ziyarat…",
+  "duasFilterAll": "All",
+  "duasCount": "{count, plural, one {{count} Dua} other {{count} Duas & Ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Keng Duas fonnt.",
+  "duaCategoryDaily": "Deeglech",
+  "duaCategoryWeekly": "Wöchentlech",
+  "duaCategoryOccasions": "Ocasiounen",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Gebiert",
+  "eventTypeMartyrdom": "Märtérertum",
+  "eventTypeOccasion": "Ocasioun",
+  "duaCopyTooltip": "Kopéiert Iwwersetzung",
+  "duaToggleTransliteration": "Translitéieratioun",
+  "duaToggleTranslation": "Iwwersetzung",
+  "duaAskAiLabel": "Fragt Ayara dës Dua z'erklären",
+  "duaAskAiLockedLabel": "Fragt Ayara (Wilaya)",
+  "duaAiLockedMessage": "Ayara Erklärungen sinn fir Wilaya Memberen verfügbar. Upgrade an Astellungen.",
+  "duaAiComingSoon": "Fragt Ayara iwwer \"{name}\" — kommt schi bàld!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua an d'Zwëschenaflage kopéiert.",
+  "tasbihAllahuAkbarMeaning": "Allah ass dat Gréissten",
+  "tasbihAlhamdulillahMeaning": "All Pries gehéiert Allah",
+  "tasbihSubhanallahMeaning": "Geréischt se Allah",
+  "tasbihResetTooltip": "Zerécksetzen",
+  "tasbihCompleteTitle": "Tasbih Fäerdeg",
+  "tasbihCompleteMessage": "Mir hoffen Allah akzeptéiert Ären Dhikr.",
+  "tasbihTapHint": "Tipt iwwerall fir ze zielen",
+  "tasbihatScreenTitle": "Gebet Guide",
+  "tasbihatScreenSubtitle": "D'GEBET GLORIFEKATIOUEN",
+  "tasbihatScreenDescription": "Eng komplett Guide zu den Glorifikatiounen erzielt während a no den deegleche Gebeter — verfollegt d'Traditioun vum Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Erzielt während de 3. & 4. Rakʿah",
+  "tasbihatArba3Info": "An Shia Rechtswëssenschaften ersetzt d'Tasbiḥāt al-Arbaʿa Surah al-Fatiha an der 3. a 4. Rakʿah vun Dhuhr, Asr, Maghrib, a Isha. Et ass obligatoresch (Wājib) et eng Kéier z'erziele, a recommandéiert (Mustaḥabb) et dräi Kéier z'erziele.",
+  "tasbihatArba3Translation": "Geréischt se Allah · All Pries ass fir Allah\nEt gëtt keen Gott ausser Allah · Allah ass dat Gréissten",
+  "tasbihatArba3CompleteTitle": "Erzielung Fäerdeg",
+  "tasbihatArba3CompleteMessage": "Mir hoffen Äert Gebet gëtt akzeptéiert — Āmīn",
+  "tasbihatArba3TapHint": "Tipt no all Erzielung",
+  "tasbihatZahraSubtitle": "No all Gebeter · 100 Perlen",
+  "tasbihatZahraOriginLabel": "Urspronk",
+  "tasbihatZahraHadith": "Lady Fatima al-Zahra (sa) hat de Prophet ﷺ fir ee Servant gebat. Hien hat gesot: \"Soll ech Iech net ze eppes Besserem guide? Erzielt Subḥānallāh 33 Kéier, Alḥamdulillāh 33 Kéier, a Allāhu Akbar 34 Kéier no all Gebeter. Dat ass besser fir Iech wéi ee Servant.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Bd. 85",
+  "tasbihatZahraOpenCounter": "Opmaachen Tasbīḥ Counter",
+  "tasbihatDuasTitle": "RECOMMANDÉIERT DUĀS",
+  "tasbihatDuasSubtitle": "No dem Fäerdegstellen Äres Gebets",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "No all obligatoresch Gebeter",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Wiem-een Āyat al-Kursī no all obligatoresch Gebeter erzielt, näischt steet tëschent him a Paradäis ausser de Doud. Imam al-Bāqir (a) hat gesot et ass ënner den gréisste Versa am Koran.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "No all Gebeter · Versiglelt all Duās",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Entsenden vun Salatuatiounen op den Prophet ﷺ a seng reinegte Famill (Āl Muḥammad) gëtt recommandéiert fir all Dua z'versiglelt. Imam al-Ṣādiq (a) hat gesot: \"Jidder Dua suspendeiert bis Dir ṣalawāt op Muḥammad a seng Famill sendt.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "No all Gebeter · fir den Imam vun eiser Zäit",
+  "tasbihatDuaFarajSource": "Léiert vum Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "Eng Dua fir d'Reërnäischten vum Imam al-Mahdī (af), den zwoulf Imam, léiert vum sengem Papp. Erzielt deeglech vun den Shia fideles no all Gebeter als Act vun der Déichweet zum liewendege Imam.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ vun Lady Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "No Maghrib & Isha · besonnesch recommandéiert",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) hat gesot datt Tasbīḥ al-Zahrā no Isha virun dem Schlof z'erziele besser ass wéi 1000 Rakʿahs vum Optiounal Gebeter. Seng Liicht steit zu den Himmlë.",
+  "tasbihFatimaGiftPre": "E Gëfft vum Prophet",
+  "tasbihFatimaGiftPost": "erzielt no all Gebeter",
+  "prayerTrackerTitle": "GEBETER TRACKER",
+  "prayerTrackerPrayed": "Gebatt",
+  "prayerTrackerDayStreak": "{count} Dag Streak",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "All Gebeter fäerdeg haut. Mir hoffen Allah akzeptéiert.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Haut fäerdeg gemaach",
+  "dhikrTrackerNotDoneToday": "Haut net gemaach",
+  "dhikrTrackerDayStreak": "{count} Dag Streak",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Tasbīḥ Aamnéierung",
+  "dhikrReminderDescription": "Eng déifter deeglech Aamnéierung fir Är Tasbīḥ al-Zahrā (SA) z'erziele.",
+  "dhikrReminderEnable": "Tasbīḥ Aamnéierung aktivéieren",
+  "dhikrReminderTimeLabel": "Aamnéierung Zäit",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Deeglech Hadith",
+  "hadithLabelArabic": "ARABÉSCH",
+  "hadithLabelTranslation": "IWWERSETZUNG",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Deelt dëse Hadith",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nVia Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Vireg",
+  "hadithNavNext": "Nächst",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "D'14 Masumeen",
+  "imamsScreenSubtitle": "De Prophet, Lady Fatima, a d'Zwoulf Imame — d'infallible Guidees vum Islam",
+  "imamLabelBorn": "Gebuer",
+  "imamLabelMartyrdom": "Märtérertum",
+  "imamLabelStatus": "Status",
+  "imamSectionBiography": "BIOGRAFIE",
+  "imamSectionFamoussaying": "BERÜHMTER SPROCH",
+  "imamRoleProphet": "De Final Prophet",
+  "imamRoleInfallible": "Den Infallible",
+  "imamOrdinal1": "1. Imam",
+  "imamOrdinal2": "2. Imam",
+  "imamOrdinal3": "3. Imam",
+  "imamOrdinal4": "4. Imam",
+  "imamOrdinal5": "5. Imam",
+  "imamOrdinal6": "6. Imam",
+  "imamOrdinal7": "7. Imam",
+  "imamOrdinal8": "8. Imam",
+  "imamOrdinal9": "9. Imam",
+  "imamOrdinal10": "10. Imam",
+  "imamOrdinal11": "11. Imam",
+  "imamOrdinal12": "12. Imam",
+  "duaAudioScreenTitle": "Lauschtert Duas",
+  "duaAudioScreenSubtitle": "Wielt eng Dua aus fir z'héieren. Tipt d'Plack fir z'spillen oder z'pauséieren.",
+  "duaAudioComingSoonMessage": "Audio fir dës Dua gëtt an engem komm Update verfügbar.",
+  "duaAudioClose": "Zoumaachen",
+  "duaAudioError": "Konnt Audio net lauden. W.e.g. kontrolléiert Äre Verbindung.",
+  "duaAudioMetaTransmittedBy": "Transmittéiert vun",
+  "duaAudioMetaOccasion": "Ocasioun",
+  "duaAudioMetaDuration": "Dauer",
+  "quickActionDailyHadith": "Deeglech Hadith",
+  "quickAction14Masumeen": "14 Masumeen",
+  "quickActionListenDuas": "Lauschteren",
+  "quickActionTasbihat": "Gebet Guide",
+  "pilgrimageSectionTitle": "D'Hellecht Reese",
+  "pilgrimageSectionSubtitle": "Komplett Guideen zu Hajj & Umrah — d'Pilgerfahrt zu der Hellecht Haus vum Allah am Makkah",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "Den Fënneften Pillar vum Islam",
+  "hajjCardDescription": "D'gréisst Jore Pilgerfahrt — obligatoresch mol am Liewen fir all fäheg Muslim",
+  "hajjScreenTitle": "Hajj Guide",
+  "hajjScreenSubtitle": "Schrëtt-fir-Schrëtt Guide zu der gréisster Pilgerfahrt",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "D'Manner Pilgerfahrt",
+  "umrahCardDescription": "Eng profond Belounender spirituell Reese déi jidderz am Joer gemaach ka ginn",
+  "umrahScreenTitle": "Umrah Guide",
+  "umrahScreenSubtitle": "Schrëtt-fir-Schrëtt Guide zu der manner Pilgerfahrt",
+  "pilgrimageStepsTitle": "Ritualer & Schrëtt",
+  "pilgrimageImportantNotesTitle": "Wichteg Suerkanounen",
+  "pilgrimageDuaTitle": "Dua fir dësen Schrëtt",
+  "pilgrimageJafariNoteTitle": "Ja'fari Fiqh Bemierkung",
+  "pilgrimageComplete": "✓ Fäerdeg",
+  "pilgrimageMarkDone": "Als komplett markéieren",
+  "pilgrimageProgress": "{done} vun {total} Schrëtt",
+  "pilgrimageReadTime": "~{minutes} Minutten",
+  "pilgrimageShiaNoteTitle": "Shia Pilger",
+  "pilgrimageShiaNoteBody": "Shia Pilger reesen tradizionell och zu Medina fir d'Graab vum Prophet Muhammad (SAW) bei Masjid al-Nabawi ze besichen, an d'Gräwer vun den Imame bei Jannat al-Baqi. Dës Visite hunn enorm spirituell Bedeitung a ginn als en integral Deel vun der Reese fir déiert Shia Muslime gesinn.",
+  "hajjIntro": "Hajj ass de fënneften Pillar vum Islam, obligatoresch mol am Liewen fir all Muslim dee physesch a finanziell fäheg ass. Gemaach am Méint vum Dhul Hijjah, verfollegt et d'Schrëtt vum Prophet Ibrahim (AS), seng Bréck Ismail (AS), a Lady Hajar. Fir Shia Muslime, Hajj hunn och d'profond Séign vun der Visite vun den Reschting Plaatzen vum Prophet (SAW) a den Ahlul Bayt zu Medina.",
+  "umrahIntro": "Umrah ass d'manner Pilgerfahrt zu Makkah a, andersch wéi Hajj, ka jidderz am Joer gemaach ginn. Wärend net obligatoresch, huet et enorm spirituell Belounong a gëtt als eng héich recommandéiert Act vun der Andacht gesinn. Et deelt e puer Ritualer mat Hajj awer ass kuerzer, besteet aus véier Haaptritualier."
 }

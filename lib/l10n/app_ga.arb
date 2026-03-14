@@ -1,585 +1,629 @@
 {
   "@@locale": "ga",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "Roghnaigh do theanga",
-  "languageSelectSub": "Is féidir leat é seo a athrú níos déanaí i Socruithe",
+  "languageSelectSub": "Is féidir leat é seo a athrú níos déanaí sna Socruithe",
   "actionContinue": "Lean ar aghaidh",
   "languageSuggestedHeader": "Molta",
   "languageAllHeader": "Gach teanga",
   "languageSuggestedBadge": "Molta",
   "languageSearchHint": "Cuardaigh…",
-
-  "planGrace": "Caighdeánach",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Treorú Laethúil",
-  "categoryFaithTrust": "Creideamh & Muinín",
-  "categoryPrayerReflection": "Machnamh Paidir",
-  "categoryHopeDifficultTimes": "Foighne Dóchas",
-  "categoryForgiveness": "Lorg Maithiúnais",
-  "categoryLoveCompassion": "Trócare Imirt",
-  "categoryStrengthCourage": "Neart Creideamh",
-  "categoryGratitude": "Croí Buíoch",
-  "categoryPurposeCalling": "Cuspóir an Tsaoil",
-  "categoryFamilyRelationships": "Baint Teaghlaigh",
-  "categoryPeaceAnxietyRelief": "Síocháin Inmheánach",
-  "categoryWisdomOfJesus": "Eagna an Phróiféid",
-  "categoryHumilityCharacter": "Carachtar Maith",
-  "categoryOvercomingTemptation": "Freastal ar Bhréag-Ghealladh",
-  "categoryEveningReflection": "Dhikr na Tráthnóna",
+  "planBasic": "Caighdeánach",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Treoir Laethúil",
+  "categorySlot02": "Iman agus Iontaobhas",
+  "categorySlot03": "Machnamh ar an bPaidir",
+  "categorySlot04": "Foighne agus Dóchas",
+  "categorySlot05": "Iarr Maithiúnas",
+  "categorySlot06": "Trócaire agus Comhbhá",
+  "categorySlot07": "Neart an Chreidimh",
+  "categorySlot08": "Croí Buíoch",
+  "categorySlot09": "Cuspóir na Beatha",
+  "categorySlot10": "Ceangail Teaghlaigh",
+  "categorySlot11": "Síocháin Istigh",
+  "categorySlot12": "Eagna an Fháidh",
+  "categorySlot13": "Dea-charachtar",
+  "categorySlot14": "Cuir i gcoinne an Chatha",
+  "categorySlot15": "Dhikr na Tráthnóna",
   "categoryCustom": "Machnamh Pearsanta",
   "dhikrMeaningSubhanallah": "Glóir do Allah",
-  "dhikrMeaningAlhamdulillah": "Is é Allah an t-aon a bhfuil moladh air",
-  "dhikrMeaningAllahuAkbar": "Is é Allah an tUasal",
-  "quranVerseHeartAtRest": "Go deimhin, i gcuimhne ar Allah, faigheann croíthe suaimhneas.",
-
-  "promptHint": "Tap ar chatagóir le haghaidh treorúchán agus machnamh Ioslamach",
-
-  "currentLanguage": "Teanga atá in úsáid",
+  "dhikrMeaningAlhamdulillah": "Is le Allah gach moladh",
+  "dhikrMeaningAllahuAkbar": "Is é Allah is Mó",
+  "quranVerseHeartAtRest": "Go deimhin, i gcuimhne Allah a fhaigheann croíthe suaimhneas.",
+  "promptHint": "Tapáil catagóir le haghaidh treorach agus machnaimh Ioslamaigh",
+  "currentLanguage": "Teanga reatha",
   "settingsLanguage": "Socruithe teanga",
   "settingsTitle": "Socruithe",
   "chooseLanguage": "Roghnaigh do theanga",
   "continueCta": "Lean ar aghaidh",
-
-  "promptDailyGuidance": "Scríobh treorú laethúil gairid, praiticiúil bunaithe ar chreideamh Ioslamach Sunna — bhunaithe ar an Quran, Hadith, agus teagasc an Phróiféid Muhammad. Roghnaigh uillinn nua gach uair: bua ó dhleacht Ioslamach, fírinne ó Sunnah, eagna ó Chomhpháirtithe an Phróiféid, nó cleachtas ciúin ó thraidisiún Ioslamach. Áirithigh verse amháin ón Quran (Surah:Ayah) agus machnaimh 1–2 frása le foluain tríd an lá. I gcoinnibh, ceangail é don bhféilire Ioslamach nó dáta tábhachtach más ábhartha.",
-
-  "promptFaithTrust": "Scríobh machnamh gairid Ioslamach ar Iman (creideamh) agus muinín i bplean Allah (Tawakkul). Bunaithe air in an Quran, sampla an Phróiféid Muhammad, agus creideamh na Sahaba. Athraigh an téama gach uair: muinín in Allah i linn dhubhairí, foluain ar eagna dhíaga, foighne i trialacha, nó foluain dhocht i saol gach lá. Áirithigh verse amháin ó Quran agus céim dhíreach amháin don lá seo bunaithe ar eagna spioradálta Ioslamach.",
-
-  "promptPrayerReflection": "Scríobh machnamh gairid Ioslamach ar pháidir bunaithe ar Salah, Dua, nó Dhikr. Athraigh an fhoirm gach uair: cuimhneachán maidin nó tráthnóna (Adhkar), machnamh ar na cúig phaidir laethúil, smaoineamh ar verse ó Quran, nó achainí ó chroí. Áirithigh verse amháin ó Quran agus ainmnigh go gairid an fhoirm pháidir atá úsáidte.",
-
-  "promptHopeDifficultTimes": "Scríobh machnamh Ioslamach ar fhoighne (Sabr) agus dóchas i linn dhubhairí. Tarraing ó theagasc Quran ar thrialacha, foluain na bProiféidí, agus trócare Allah i nóiméid dhubhairí. Athraigh an uillinn gach uair. Áirithigh verse amháin ó Quran agus peirspictíocht dhraíochta amháin ó thraidisiún Ioslamach.",
-
-  "promptForgiveness": "Scríobh machnamh glic Ioslamach ar lorg maithiúnais (Tawbah) agus trócare Allah. Tarraing ó theagasc Quran ar athpheacadh, trócare Allah, agus sampla maithiúnach an Phróiféid Muhammad. Athraigh an téama: casadh ar ais go dtí Allah, maithiúnas a dhéanamh ar dhream eile, leigheas ar dhréachta, nó creidiúint i dtrócare Allah tar éis botúin. Áirithigh verse amháin ó Quran agus céim dhíreach amháin.",
-
-  "promptLoveCompassion": "Scríobh machnamh gairid Ioslamach ar thrócare (Rahmah) agus imirt i saol gach lá. Tarraing ó shampla an Phróiféid Muhammad, an choincheap Ihsan (barrmhéid), agus teagasc Ioslamach ar dhanda do theaghlaigh, comharsana, agus an daoine leochaileach. Áirithigh verse amháin ó Quran agus gníomh gairid imirt le praiticiúil inniu.",
-
-  "promptStrengthCourage": "Scríobh machnamh Ioslamach ar neart agus misneach bunaithe ar chreideamh. Tarraing ó shamplaí na bProiféidí, an phobail Ioslamach tosaigh, agus creidiúna a bhí daingean i linn dhubhairí. Athraigh an téama gach uair: misneach tríd chreideamh, neart i bpáidir, muinín in Allah i linn eagla, nó foluain i ndoichiallacht. Áirithigh verse amháin ó Quran agus achainí gairid nó frása cuimhnithe.",
-
-  "promptGratitude": "Scríobh machnamh Ioslamach ar bhuíochas (Shukr) don Allah. Bunaithe air i teagasc Quran agus traidisiún phróiféideach. Athraigh an uillinn: buíochas i linn dhubhairí, feasacht ar bheannachtaí beaga, tosú an lá le moladh Allah, nó aithint ar threorú Allah i saol gach lá. Áirithigh verse amháin ó Quran agus cleachtas buíochais amháin.",
-
-  "promptPurposeCalling": "Scríobh machnamh Ioslamach ar chuspóir an tsaoil i dtaobh adhartha Allah agus saol fíréanta. Tarraing ó theagasc Quran ar chuspóir, gníomhacht do dhream eile, agus úsáid a bhaint as do dhánta le haghaidh maitheasa. Athraigh an téama gach uair: freastail ar theaghlaigh agus phobail, treoir a lorg tríd Istikhara, saol le rún, nó ciall a fháil i ngnó gach lá. Áirithigh verse amháin ó Quran agus dhá cheist machnamh.",
-
-  "promptFamilyRelationships": "Scríobh treorúchán glic Ioslamach ar theaghlaigh agus dhréachta bunaithe ar theagasc Quran agus sampla an Phróiféid Muhammad. Athraigh an téama gach uair: dana i saol teaghlaigh, foighne i gconspóid, onóir do thuismitheoirí, tosú leanaí i gcreideamh, nó neartú na bpósadh. Áirithigh verse amháin ó Quran agus cleachtas dhréachta le triail.",
-
-  "promptPeaceAnxietyRelief": "Scríobh machnamh Ioslamach foscánach ar fháil síochána inmheánaigh tríd chuimhnithe ar Allah (Dhikr) agus muinín i bplean Allah. Tarraing ó theagasc Quran ar fhéinchosúlacht an chroí, páidir, agus géilleadh do thoil Allah. Athraigh an cur chuige gach uair agus áirithigh verse amháin ó Quran agus cleachtas simplí amháin ó thraidisiún Ioslamach.",
-
-  "promptWisdomOfJesus": "Scríobh píosa gairid eagna ó na Proiféidí mar a theagasc Islam. Tarraing ó Quran nó Hadith agus mínigh go gairid conas a thuig scoláirí Ioslamach an teagasc. Athraigh an t-ábhar gach uair: carachtar, foighne, umhlaíocht, creideamh, nó iompú gach lá. Áirithigh verse ó Quran nó reference Hadith agus feidhmíocht praiticiúil amháin.",
-
-  "promptHumilityCharacter": "Scríobh machnamh Ioslamach ar umhlaíocht (Tawadhu) agus carachtar maith (Akhlaq). Tarraing ó theagasc Quran, sampla an Phróiféid Muhammad, agus traidisiún forbairt charachtar Ioslamach. Athraigh an téama: umhlaíocht i bhfóchair, admháil earráidí, iompú daoine ar spéis, nó fáil ar spiorad tríd féin-machnamh. Áirithigh verse amháin ó Quran agus nós amháin le praiticiúil.",
-
-  "promptOvercomingTemptation": "Scríobh machnamh Ioslamach ar fhreastal ar bhréag-ghealladh agus fanacht ar an gcosán díreach. Tarraing ó threorúchán Quran, cuimhnithe ar Allah (Dhikr), páidir (Salah), agus samplaí creidiúna a bhí róchuid i ndiaidh striapachas. Athraigh an uillinn gach uair. Áirithigh verse amháin ó Quran agus straitéis praiticiúil amháin i gcomhair an 24 uair an chéad.",
-
-  "promptEveningReflection": "Scríobh machnamh Ioslamach siamsa bunaithe ar thraidisiún cuimhnithe tráthnóna (Adhkar al-Masaa'). Spreag buíochas, féin-machnamh (Muhasabah), agus muinín in Allah roimh chodladh. Áirithigh 3–5 spreagadh machnamh ghairid faoin lá, achainí bhige ar deireadh, agus verse amháin ó Quran.",
-
-  "wordCount": "{count, plural, one {{count} focal} other {{count} focail}}",
-
+  "wordCount": "{count, plural, one {{count} focal} other {{count} focal}}",
   "optionsCta": "Roghanna",
   "newCta": "Nua",
-  "actionsTitle": "Cad is mian leat a dhéanamh?",
+  "actionsTitle": "Cad ba mhaith leat a dhéanamh?",
   "copy": "Cóipeáil",
-  "share": "Roinnt",
+  "share": "Comhroinn",
   "close": "Dún",
-  "copiedToast": "Cóipeáilte chuig an bhfritháireamh",
-
+  "copiedToast": "Cóipeáilte chuig an ngearrthaisce",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Líne ábhair ríomhphost / roinnte lena n-áirítear an lipéad catagóir.",
+    "description": "Líne ábhair ríomhphoist / comhroinnte ina bhfuil lipéad na catagóire.",
     "placeholders": {
-      "category": { "type": "String", "example": "Treorú Laethúil" }
+      "category": {
+        "type": "String",
+        "example": "Treoir Laethúil"
+      }
     }
   },
-
   "regenerateErrorTitle": "Níorbh fhéidir freagra nua a ghiniúint",
-  "regenerateErrorBody": "{error}\n\nAr theastaigh ó thú triail a bhaint eile?",
+  "regenerateErrorBody": "{error}\n\nAr mhaith leat triail eile a bhaint as?",
   "@regenerateErrorBody": {
-    "description": "Taispeántar nuair a bhíonn theip ar athghiniúint freagra AI.",
+    "description": "Taispeántar é nuair a theipeann ar athghiniúint freagra AI.",
     "placeholders": {
-      "error": { "type": "String", "example": "Earráid líonra" }
+      "error": {
+        "type": "String",
+        "example": "Earráid líonra"
+      }
     }
   },
-
   "cancelCta": "Cealaigh",
-  "retryCta": "Triail eile",
-
+  "retryCta": "Bain triail eile as",
   "authTitle": "Cruthaigh do chuntas",
   "continueAsGuest": "Lean ar aghaidh mar aoi",
   "signInGoogle": "Sínigh isteach le Google",
   "signInApple": "Sínigh isteach le Apple",
-  "signInEmail": "Sínigh isteach le Ríomhphost",
+  "signInEmail": "Sínigh isteach le ríomhphost",
   "upgradeWithApple": "Lean ar aghaidh le Apple",
-  "mustAccept": "Ní mór duit na Téarmaí a ghlacadh agus Polasaí an Phríobháideachais a thuiscint.",
+  "mustAccept": "Ní mór duit glacadh leis na Téarmaí agus admháil a thabhairt don Pholasaí Príobháideachais.",
   "termsLabel": "Glacaim leis na Téarmaí Seirbhíse",
-  "privacyLabel": "Léigh mé an Polasaí Príobháideachais",
-  "marketingOptIn": "Aontaím go bhfaighinn nuachta agus oibleagáidí",
+  "privacyLabel": "Tá an Polasaí Príobháideachais léite agam",
+  "marketingOptIn": "Aontaím nuacht agus tairiscintí a fháil",
   "openTerms": "Téarmaí Seirbhíse",
   "openPrivacy": "Polasaí Príobháideachais",
-
   "accountSection": "Cuntas",
   "guestMode": "Mód aoi",
-  "signedIn": "Sínigh isteach",
-  "upgradeHint": "Slabhaigh do mhachnaimh ar fhithisithe tríd chuntas a chruthú.",
+  "signedIn": "Sínithe isteach",
+  "upgradeHint": "Sábháil do mhachnaimh ar fud gléasanna trí chuntas a chruthú.",
   "upgradeWithGoogle": "Lean ar aghaidh le Google",
   "signOut": "Sínigh amach",
-
-  "snackUpgraded": "Cuntas uasghrádaithe le Google ✅",
-  "snackSignedIn": "Sínigh isteach le Google ✅",
-  "snackSignedOut": "Sínigh amach",
-  "snackSignedInApple": "Sínigh isteach le Apple ✅",
-  "snackSignedInGoogle": "Sínigh isteach le Google ✅",
-  "snackUpgradedApple": "Cuntas uasghrádaithe le Apple ✅",
-  "snackUpgradedGoogle": "Cuntas uasghrádaithe le Google ✅",
-
-  "historyTitle": "Machnaimh roimhe",
-  "historyOpenCta": "Machnaimh roimhe",
-  "historyEmpty": "Gan machnaimh shábhála fós.",
-  "historyDeleteTitle": "Scrios machnamh?",
-  "historyDeleteBody": "Beidh sé sin ábalta geal a bhaint go buan.",
+  "snackUpgraded": "Uasghrádaíodh an cuntas le Google ✅",
+  "snackSignedIn": "Sínithe isteach le Google ✅",
+  "snackSignedOut": "Sínithe amach",
+  "snackSignedInApple": "Sínithe isteach le Apple ✅",
+  "snackSignedInGoogle": "Sínithe isteach le Google ✅",
+  "snackUpgradedApple": "Uasghrádaíodh an cuntas le Apple ✅",
+  "snackUpgradedGoogle": "Uasghrádaíodh an cuntas le Google ✅",
+  "historyTitle": "Machnaimh roimhe seo",
+  "historyOpenCta": "Machnaimh roimhe seo",
+  "historyEmpty": "Níl aon mhachnaimh sábháilte fós.",
+  "historyDeleteTitle": "Scrios an machnamh?",
+  "historyDeleteBody": "Bainfidh sé seo an mhír roghnaithe go buan.",
   "deleteCta": "Scrios",
-
-  "historyButton": "Machnaimh Roimhe",
-  "historyEmptyTitle": "Gan machnaimh fós",
-  "historyEmptyBody": "Giniúint rudaí ar dtús — beidh do thúsa shábhála i láthair anseo.",
+  "historyButton": "Machnaimh Roimhe Seo",
+  "historyEmptyTitle": "Níl aon mhachnaimh fós",
+  "historyEmptyBody": "Gin rud éigin ar dtús — beidh do chuid míreanna sábháilte le feiceáil anseo.",
   "historyDelete": "Scrios",
-
-  "footerTitle": "Le Iman, Sabr agus Rahma.",
-  "footerSubtitle": "Céim amháin ag an am.",
-  "genericErrorSnack": "Rud éicint cearr — déan iarracht arís i nóiméad.",
-
-  "upgradeAccountCta": "Slabhaigh do mhachnaimh ar fhithisithe – cruthú cuntas",
+  "footerTitle": "Le Wilaya, Iman agus Sabr",
+  "footerSubtitle": "Paidir amháin ag an am",
+  "genericErrorSnack": "Chuaigh rud éigin mícheart — bain triail eile as i gceann tamaill.",
+  "upgradeAccountCta": "Sábháil do mhachnaimh ar fud gléasanna – cruthaigh cuntas",
   "deleteAccount": "Scrios cuntas",
-  "exportData": "Dóibirt mo shonraí",
-
+  "exportData": "Easpórtáil mo chuid sonraí",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Lipéad roimh thaispeáint an UID inmheánach Firebase.",
+    "description": "Lipéad roimh an Firebase UID inmheánach a thaispeáint.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Éasca a thíogar 🐯\nAI a bhaint nóiméad roimh an chéad cheann eile…",
-  "rateDailyLimit": "Tá tú as machnaimh ar an nóiméad.\nFaigh tuilleadh machnamh nó uasghrádaigh go Barakah.",
-  "rateCreditsExhausted": "Úsáid tú do mhachnaimh ar fad.\nAthéaraigh nó uasghrádaigh go Barakah chun lean ar aghaidh.",
-  "rateGraceReflectionsExhausted": "Tá tú as machnaimh ar an nóiméad.\nFaigh tuilleadh machnamh nó uasghrádaigh go Barakah.",
-  "rateReflectionsExhausted": "Úsáid tú do mhachnaimh ar fad.\nAthéaraigh nó uasghrádaigh go Barakah chun lean ar aghaidh.",
-
-  "blessedDescription": "Osclaíonn Barakah gné speisialta, catagóirí premium, agus bionsúa speisialta.",
-  "championDescription": "Osclaíonn Barakah gné speisialta, catagóirí premium, agus bionsúa speisialta.",
-
-  "ratePlanExhausted": "Tá do mhachnaimh folamh ar an nóiméad. Plean: {plan}.",
+  "rateLocalThrottle": "Go réidh 🐯\nTeastaíonn nóiméad ó Ayara roimh an gcéad cheann eile…",
+  "rateDailyLimit": "Tá tú as machnaimh faoi láthair.\nFaigh tuilleadh machnaimh nó uasghrádaigh go Wilaya.",
+  "rateCreditsExhausted": "D'úsáid tú do chuid machnaimh go léir.\nCuir leis nó uasghrádaigh go Wilaya chun leanúint ar aghaidh.",
+  "rateGraceCreditsExhausted": "Tá tú as machnaimh faoi láthair.\nFaigh tuilleadh machnaimh nó uasghrádaigh go Wilaya.",
+  "premiumDescription": "Díghlasálann Wilaya gnéithe préimhe, catagóirí amach anseo, agus suaitheantas speisialta.",
+  "ratePlanExhausted": "Tá do chuid machnaimh folamh faoi láthair. Plean: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Taispeántar nuair atá machnaimh an úsáideora follain ach an chúis ghinearálta.",
+    "description": "Taispeántar é nuair atá machnaimh an úsáideora ídithe ach go bhfuil an chúis ghinearálta.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Caighdeánach nó Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Caighdeánach nó Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "Níorbh fhéidir do mhachnaimh a sheiceáil: {message}",
+  "rateCheckFailed": "Níorbh fhéidir do chuid machnaimh a sheiceáil: {message}",
   "@rateCheckFailed": {
-    "description": "Taispeántar nuair a thugann an fheidhm inghairmithe teachtaireacht earráide.",
+    "description": "Taispeántar é nuair a fhilleann an fheidhm ar theachtaireacht earráide.",
     "placeholders": {
-      "message": { "type": "String", "example": "Earráid líonra" }
+      "message": {
+        "type": "String",
+        "example": "Earráid líonra"
+      }
     }
   },
-
-  "rateCheckGenericError": "Rud éicint cearr agus tú ag seiceáil do mhachnaimh.",
-  "aiFallbackGeneric": "Rud éicint cearr — déan iarracht arís i nóiméad.",
-
+  "rateCheckGenericError": "Chuaigh rud éigin mícheart agus do chuid machnaimh á seiceáil.",
+  "aiFallbackGeneric": "Chuaigh rud éigin mícheart — bain triail eile as i gceann tamaill.",
   "limitSectionTitle": "Machnaimh",
   "limitTodayLabel": "Úsáid",
-  "limitCreditsLabel": "Fágtha machnaimh: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "Plean: {plan}",
-  "@limitPlanLabel": {
-    "description": "Taispeáint ainm an phlean síntiús atá i láthair.",
+  "limitCreditsLabel": "Machnaimh fágtha: {credits}",
+  "@limitCreditsLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Caighdeánach nó Barakah" }
+      "credits": {}
     }
   },
-  "limitLoadingLabel": "Ag lódáil…",
-  "limitLoadingLabelDescription": "Taispeántar i gcárta machnamh agus staitisticí úsáide á fhíorú.",
-
+  "limitPlanLabel": "Plean: {plan}",
+  "@limitPlanLabel": {
+    "description": "Taispeánann ainm an phlean síntiúis reatha.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Caighdeánach nó Wilaya"
+      }
+    }
+  },
+  "limitLoadingLabel": "Á lódáil…",
+  "limitLoadingLabelDescription": "Taispeántar sa chárta machnaimh agus staitisticí úsáide á bhfáil.",
   "aiLimitTitle": "Machnaimh",
-  "aiLimitSubtitle": "Úsáideann gach freagra 1 machnamh. Áirítear tosúchán machnamh i gCaighdeánach. Osclaíonn Barakah catagóirí premium agus cumasaíonn athéaraigh.",
-  "aiLimitProgressLabel": "{used} / {total} machnaimh úsáidte",
+  "aiLimitSubtitle": "Úsáideann gach freagra 1 machnamh. Cuimsíonn an plean Caighdeánach machnaimh tosaigh. Díghlasálann Wilaya catagóirí préimhe agus cumasaíonn sé breis-líonadh.",
+  "aiLimitProgressLabel": "{used} / {total} machnamh úsáidte",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Machnaimh",
-  "reflectionsUsageLabel": "Úsáid",
-  "reflectionsRemainingLabel": "Fágtha machnaimh: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Plean: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Taispeáint ainm an phlean.",
+  "creditsSectionTitle": "Machnaimh",
+  "creditsUsageLabel": "Úsáid",
+  "creditsRemainingLabel": "Machnaimh fágtha: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Caighdeánach nó Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Ag lódáil…",
-  "reflectionsLoadingLabelDescription": "Taispeántar agus staitisticí machnamh á fhíorú.",
-
-  "reflectionsTitle": "Machnaimh",
-  "reflectionsSubtitle": "Úsáideann gach freagra 1 machnamh. Áirítear tosúchán machnamh i gCaighdeánach. Osclaíonn Barakah catagóirí premium agus cumasaíonn athéaraigh.",
-  "reflectionsProgressLabel": "{used} / {total} machnaimh úsáidte",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Plean: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Taispeánann ainm an phlean reatha.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Caighdeánach nó Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Á lódáil…",
+  "creditsLoadingLabelDescription": "Taispeántar agus staitisticí machnaimh á bhfáil.",
+  "creditsTitle": "Machnaimh",
+  "creditsSubtitle": "Úsáideann gach freagra 1 machnamh. Cuimsíonn an plean Caighdeánach machnaimh tosaigh. Díghlasálann Wilaya catagóirí préimhe agus cumasaíonn sé breis-líonadh.",
+  "creditsProgressLabel": "{used} / {total} machnamh úsáidte",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "Scrios cuntas",
-  "settingsDeleteDescription": "Scrios do chuntas go buan agus an sonraí a bhaineann leis ar fad.",
+  "settingsDeleteDescription": "Scrios do chuntas agus na sonraí bainteacha go léir go buan.",
   "settingsDeleteButtonLabel": "Scrios mo chuntas",
-  "settingsDeleteDialogTitle": "Scrios cuntas?",
-  "settingsDeleteDialogBody": "Tá an gníomh seo buan agus ní féidir a bhaint.\n\nBeidh do chuid cainte ar fad, stór agus faisnéis chuntas a scriosadh.",
+  "settingsDeleteDialogTitle": "Scrios an cuntas?",
+  "settingsDeleteDialogBody": "Tá an gníomh seo buan agus ní féidir é a chealú.\n\nScriosfar do chuid comhráite, stair agus eolas cuntais go léir.",
   "settingsDeleteDialogCancel": "Cealaigh",
   "settingsDeleteDialogConfirm": "Scrios",
-
-  "settingsFreeLimitUsedTitle": "Tosúchán machnamh úsáidte",
-  "settingsFreeLimitUsedDescription": "Úsáidte an tosúchán machnamh don ghréine seo. Uasghrádaigh go Barakah nó ceannaigh tuilleadh machnamh chun lean ar aghaidh.",
-
-  "settingsStarterReflectionsUsedTitle": "Tosúchán machnamh úsáidte",
-  "settingsStarterReflectionsUsedDescription": "Úsáidte an tosúchán machnamh don ghréine seo. Uasghrádaigh go Barakah nó ceannaigh tuilleadh machnamh chun lean ar aghaidh.",
-
-  "deviceBoundError": "Tá an ghréine seo nasc a bhí ag cuntas eile cheana féin. Sínigh isteach le do chuntas bunaidh le do thoil.",
-
-  "premiumTitle": "Mód Barakah",
-  "premiumSubtitleBasic": "Oscail an fhíordheis iomlán Ayara.",
-  "premiumSubtitleChampion": "Tá tú Barakah. Ar fhág tú machnaimh?",
-
-  "premiumCurrentPlan": "Plean atá i láthair: {plan}",
+  "settingsFreeLimitUsedTitle": "Machnaimh tosaigh úsáidte",
+  "settingsFreeLimitUsedDescription": "Úsáideadh na machnaimh tosaigh don ghléas seo. Uasghrádaigh go Wilaya nó ceannaigh tuilleadh machnaimh chun leanúint ar aghaidh.",
+  "settingsStarterCreditsUsedTitle": "Machnaimh tosaigh úsáidte",
+  "settingsStarterCreditsUsedDescription": "Úsáideadh na machnaimh tosaigh don ghléas seo. Uasghrádaigh go Wilaya nó ceannaigh tuilleadh machnaimh chun leanúint ar aghaidh.",
+  "deviceBoundError": "Tá an gléas seo nasctha le cuntas eile cheana féin. Sínigh isteach leis an gcuntas bunaidh, le do thoil.",
+  "premiumTitle": "Mód Wilaya",
+  "premiumSubtitleBasic": "Díghlasáil an t-eispéireas iomlán Ayara.",
+  "premiumSubtitlePremium": "Tá tú ar Wilaya. An bhfuil tuilleadh machnaimh uait?",
+  "premiumCurrentPlan": "Plean reatha: {plan}",
   "premiumCreditsStatus": "Machnaimh: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "Níl ceannacha ar fáil ar an nóiméad.",
-  "premiumSignInToPurchase": "Sínigh isteach chun machnaimh a cheannach nó Barakah a oscailt.",
-
-  "premiumRestorePurchases": "Athchóir ceannacha",
-  "premiumProcessing": "Ag próiseáil…",
-  "premiumRestoreHintTitle": "An gceannach tú cheana féin Barakah nó machnaimh ar an ghréine seo nó ar ghréine eile?",
-  "premiumRestoreHintBody": "Athchóir do chuid ceannacha mura bhfuil siad ag taispeáint.",
-
+  "premiumPurchasesUnavailable": "Níl ceannacháin ar fáil faoi láthair.",
+  "premiumSignInToPurchase": "Sínigh isteach chun machnaimh a cheannach nó Wilaya a dhíghlasáil.",
+  "premiumRestorePurchases": "Athchóirigh ceannacháin",
+  "premiumProcessing": "Á phróiseáil…",
+  "premiumRestoreHintTitle": "Ar cheannaigh tú Wilaya nó machnaimh cheana ar an ngléas seo nó ar ghléas eile?",
+  "premiumRestoreHintBody": "Athchóirigh do cheannacháin mura bhfuil siad le feiceáil.",
   "premiumBuyCredits200": "Ceannaigh 200 machnamh",
   "premiumBuyCredits400": "Ceannaigh 400 machnamh",
-  "premiumBecomeChampionOneTime": "Uasghrádaigh go mód Barakah",
-  "premiumChampionHint": "Mar Barakah, is féidir leat athéaraigh le machnaimh breise a chur suas nuair is gá.",
-
+  "premiumBecomePremiumOneTime": "Uasghrádaigh go mód Wilaya",
+  "premiumTopupHint": "Le Wilaya, is féidir leat breis machnaimh a chur leis aon uair a theastaíonn siad uait.",
   "premiumUpgradeCta": "Uasghrádaigh",
-  "premiumRequiredForCategory": "Níl an chatagóir seo ar fáil ach do úsáideoirí Barakah. Uasghrádaigh i Socruithe chun gach ábhar premium a oscailt.",
-  "premiumBenefitsBasic": "Oscail Barakah chun machnaimh breise a fháil, rochtain ar chatagóirí premium, agus leanúint ar aghaidh nuair is gá treorúchán.",
-  "premiumBenefitsChampion": "Tá tú i mód Barakah. Má tá tú íseal, cuir machnaimh breise leis agus lean ar aghaidh gan stopadh.",
-  "premiumButtonBecomeChampion": "Oscail Barakah",
+  "premiumRequiredForCategory": "Níl an chatagóir seo ar fáil ach d'úsáideoirí Wilaya. Uasghrádaigh sna Socruithe chun gach ábhar préimhe a dhíghlasáil.",
+  "premiumBenefitsBasic": "Díghlasáil Wilaya chun tuilleadh machnaimh a fháil, rochtain ar chatagóirí préimhe, agus leanúint ar aghaidh aon uair a theastaíonn treoir uait.",
+  "premiumBenefitsPremium": "Tá tú i mód Wilaya. Má tá tú ag éirí íseal, cuir roinnt machnaimh breise leis agus lean ar aghaidh gan bhriseadh.",
+  "premiumButtonBecomePremium": "Díghlasáil Wilaya",
   "premiumButtonTopup1000": "Cuir 1000 machnamh leis",
-  "premiumChampionBadge": "Barakah gníomhach",
-  "premiumLoadingStore": "Siopa ag lódáil…",
-
-  "blessedTitle": "Mód Barakah",
-  "blessedSubtitleGrace": "Oscail an fhíordheis iomlán Ayara.",
-  "blessedSubtitleBlessed": "Tá tú Barakah. Ar fhág tú machnaimh?",
-
-  "blessedCurrentPlan": "Plean atá i láthair: {plan}",
-  "blessedReflectionsStatus": "Machnaimh: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Níl ceannacha ar fáil ar an nóiméad.",
-  "blessedProductNotAvailable": "Níl an táirge seo ar fáil sa siopa fós. Déan iarracht arís níos déanaí.",
-  "blessedPurchaseError": "Rud éicint cearr le linn ceannach. Déan iarracht arís.",
-  "blessedSignInToPurchase": "Sínigh isteach chun machnaimh a cheannach nó Barakah a oscailt.",
-
-  "blessedRestorePurchases": "Athchóir ceannacha",
-  "blessedProcessing": "Ag próiseáil…",
-  "blessedRestoreHintTitle": "An gceannach tú cheana féin Barakah nó machnaimh ar an ghréine seo nó ar ghréine eile?",
-  "blessedRestoreHintBody": "Athchóir do chuid ceannacha mura bhfuil siad ag taispeáint.",
-
-  "blessedBuyReflections100": "Cuir 100 machnamh leis",
-  "blessedBuyReflections200": "Ceannaigh 200 machnamh",
-  "blessedBuyReflections400": "Ceannaigh 400 machnamh",
-  "blessedBecomeBlessedOneTime": "Uasghrádaigh go Barakah",
-  "blessedTopupHint": "Mar Barakah, is féidir leat athéaraigh le machnaimh breise a chur suas nuair is gá.",
-
-  "blessedUpgradeCta": "Uasghrádaigh",
-  "blessedRequiredForCategory": "Níl an chatagóir seo ar fáil ach do úsáideoirí Barakah. Uasghrádaigh i Socruithe chun gach ábhar premium a oscailt.",
-  "blessedFeatureLocked": "Oscail Barakah chun rochtain ar an ghné seo.",
-  "lockedCategoriesHint": "Tá roinnt catagóirí ar chúl do bhaill Barakah. Oscail iad chun gach machnamh ar do thuras a fhiosrú.",
-  "blessedBenefitsGrace": "Oscail Barakah chun machnaimh breise a fháil, rochtain ar chatagóirí premium, agus leanúint ar aghaidh nuair is gá treorúchán.",
-  "blessedBenefitsBlessed": "Tá tú i mód Barakah. Má tá tú íseal, cuir machnaimh breise leis agus lean ar aghaidh gan stopadh.",
-  "blessedButtonBecomeBlessed": "Oscail Barakah",
-  "blessedButtonTopup1000": "Cuir 1000 machnamh leis",
-  "blessedBadge": "Barakah gníomhach",
-  "blessedLoadingStore": "Siopa ag lódáil…",
-
-  "freePlanBlockedTitle": "Úsáid tú do machnaimh tosúcháin",
-  "freePlanBlockedBody": "Tá tú ar phlean Caighdeánach le machnaimh tosúcháin, agus tá an teorainn bainte amach. Chun lean ar aghaidh — agus catagóirí premium a oscailt — uasghrádaigh go Barakah.",
-  "freePlanBlockedCtaGoPremium": "Féach ar roghanna Barakah thíos",
-
-  "graceBlockedTitle": "Úsáid tú do machnaimh tosúcháin",
-  "graceBlockedBody": "Tá tú ar phlean Caighdeánach le machnaimh tosúcháin, agus tá an teorainn bainte amach. Chun lean ar aghaidh — agus catagóirí premium a oscailt — uasghrádaigh go Barakah.",
-  "graceBlockedCtaGoBlessed": "Féach ar roghanna Barakah thíos",
-
-  "rateGuestMustSignIn": "Sínigh isteach chun Ayara agus do mhachnaimh a úsáid.",
-
+  "premiumBadge": "Wilaya gníomhach",
+  "premiumLoadingStore": "Siopa á lódáil…",
+  "premiumProductNotAvailable": "Níl an táirge seo ar fáil sa siopa fós. Bain triail eile as níos déanaí.",
+  "premiumPurchaseError": "Chuaigh rud éigin mícheart leis an gceannachán. Bain triail eile as.",
+  "premiumBuyCredits100": "Cuir 100 machnamh leis",
+  "premiumFeatureLocked": "Díghlasáil Wilaya chun an ghné seo a rochtain.",
+  "lockedCategoriesHint": "Tá roinnt catagóirí curtha in áirithe do bhaill Wilaya. Díghlasáil iad chun gach machnamh ar do thuras a iniúchadh.",
+  "freePlanBlockedTitle": "D'úsáid tú do chuid machnaimh tosaigh go léir",
+  "freePlanBlockedBody": "Tá tú ar an bplean Caighdeánach le machnaimh tosaigh, agus tá an teorainn sroichte agat. Chun leanúint ar aghaidh — agus catagóirí préimhe a dhíghlasáil — uasghrádaigh go Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Féach ar roghanna Wilaya thíos",
+  "graceBlockedTitle": "D'úsáid tú do chuid machnaimh tosaigh go léir",
+  "graceBlockedBody": "Tá tú ar an bplean Caighdeánach le machnaimh tosaigh, agus tá an teorainn sroichte agat. Chun leanúint ar aghaidh — agus catagóirí préimhe a dhíghlasáil — uasghrádaigh go Wilaya.",
+  "graceBlockedCtaGoPremium": "Féach ar roghanna Wilaya thíos",
+  "rateGuestMustSignIn": "Sínigh isteach chun Ayara agus do chuid machnaimh a úsáid.",
   "guestNoCreditsTitle": "Mód aoi",
-  "guestNoCreditsBody": "Mar aoi is féidir leat an app a bhrabhsáil, ach ní féidir leat machnaimh a úsáid. Logáil isteach níos déanaí i Socruithe chun machnaimh a úsáid agus ceannacha a oscailt.",
-
-  "guestNoReflectionsTitle": "Mód aoi",
-  "guestNoReflectionsBody": "Mar aoi is féidir leat an app a bhrabhsáil, ach ní féidir leat machnaimh a úsáid. Logáil isteach níos déanaí i Socruithe chun machnaimh a úsáid agus ceannacha a oscailt.",
-
+  "guestNoCreditsBody": "Mar aoi is féidir leat brabhsáil tríd an aip, ach ní féidir leat machnaimh a úsáid. Logáil isteach níos déanaí sna Socruithe chun machnaimh a úsáid agus ceannacháin a dhíghlasáil.",
   "guestDialogContinue": "Lean ar aghaidh",
   "guestDialogLoginInstead": "Logáil isteach ina ionad",
-
   "optionalLabel": "roghnach",
-
-  "accountDeleteSuccessTitle": "Cuntas scriosadh",
-  "accountDeleteSuccessBody": "Bhí do chuntas agus sonraí a bhaineann leis scriosadh go rathúil.",
+  "accountDeleteSuccessTitle": "Scriosadh an cuntas",
+  "accountDeleteSuccessBody": "Scriosadh do chuntas agus na sonraí bainteacha go rathúil.",
   "accountDeleteSuccessClose": "Dún",
-  "accountDeleteErrorTitle": "Níorbh fhéidir cuntas a scriosadh",
+  "accountDeleteErrorTitle": "Níorbh fhéidir an cuntas a scriosadh",
   "accountDeleteErrorClose": "OK",
-  "accountDeleteReauthCancelled": "Cealaíodh an t-athfhíordheimhniú. Sínigh isteach arís agus déan iarracht ar bhaint.",
-  "accountDeleteReauthRequired": "Éilíonn scriosadh cuntas logáil isteach nuair atá sé ann. Sínigh amach, sínigh isteach arís, agus déan iarracht ar bhaint.",
-  "settingsDeletePermanentWarning": "Tá an gníomh seo buan agus ní féidir a bhaint. Scriosadh gach sonraí ar bith a bhaineann le do chuntas.",
-
-  "dailyGraceTitle": "Treorú Laethúil",
-  "dailyGraceScriptureLabel": "VERSE AN LAE",
-  "dailyGraceSaintLabel": "SCOLÁIRE NA SEACHTAINE",
+  "accountDeleteReauthCancelled": "Cealaíodh an fíordheimhniú arís. Sínigh isteach arís agus déan iarracht an scriosadh arís.",
+  "accountDeleteReauthRequired": "Éilíonn scriosadh an chuntais logáil isteach le déanaí. Sínigh amach, sínigh isteach arís, agus bain triail eile as.",
+  "settingsDeletePermanentWarning": "Tá an gníomh seo buan agus ní féidir é a chealú. Scriosfar na sonraí go léir a bhaineann le do chuntas.",
+  "dailyGraceTitle": "Treoir Laethúil",
+  "dailyGraceScriptureLabel": "RANN AN LAE",
+  "dailyGraceSaintLabel": "AN SAOI SEACHTAINE",
   "dailyGraceReflectionLabel": "MACHNAMH NA TRÁTHNÓNA",
-  "dailyGraceCopiedToast": "Verse cóipeáilte chuig an bhfritháireamh",
-
-  "dailyScripture0Text": "Go cinnte, beidh na ceart i measc garraí agus abhainne, i suíochán onóir in aice le Rí Cumhachtach.",
-  "dailyScripture0Ref": "Quran 54:54-55",
-  "dailyScripture1Text": "Agus níor sheol muid thú, a Muhammad, ach mar thrócare don domhan ar fad.",
-  "dailyScripture1Ref": "Quran 21:107",
-  "dailyScripture2Text": "Nach leor Allah don fhreastalaí a bhí aige? Ach bagraíonn siad ort le daoine eile ina ionad.",
-  "dailyScripture2Ref": "Quran 39:36",
-  "dailyScripture3Text": "B'fhéidir go bhfuil ainneoin ar rud agus go maith duit; agus b'fhéidir go ngráinigh tú ar rud agus go dona duit. Agus tá a fhios ag Allah, cé nach bhfuil a fhios agat.",
-  "dailyScripture3Ref": "Quran 2:216",
-  "dailyScripture4Text": "Go cinnte, tá Allah leis an bhfoighne.",
-  "dailyScripture4Ref": "Quran 2:153",
-  "dailyScripture5Text": "Mar sin cuimhnigh orm; cuimhneochad thú. Agus bí buíoch dom agus ná dhiúltaigh.",
-  "dailyScripture5Ref": "Quran 2:152",
-  "dailyScripture6Text": "Go cinnte, is iad an ceannaire ar fad i radharc Allah an ceannaire is fíréanta ar fad.",
-  "dailyScripture6Ref": "Quran 49:13",
-  "dailyScripture7Text": "Agus ordaíodh do Thiarna go ní ní dhéanfaidh tú ach air a aonar, agus go raibh oilean do thuismitheoirí.",
-  "dailyScripture7Ref": "Quran 17:23",
-  "dailyScripture8Text": "Go cinnte, le dian tagann éase.",
-  "dailyScripture8Ref": "Quran 94:6",
-  "dailyScripture9Text": "Agus tá sé in éineacht leat áit ar bith go bhfuil tú. Agus tá Allah, de do ghnímh, ag faire.",
-  "dailyScripture9Ref": "Quran 57:4",
-  "dailyScripture10Text": "Ní thugann Allah ualaigh ar anam rud ar bith níos mó ná gur féidir léi a iompar.",
-  "dailyScripture10Ref": "Quran 2:286",
-  "dailyScripture11Text": "Agus cé a bhraitheann ar Allah — ansin is leor dó.",
-  "dailyScripture11Ref": "Quran 65:3",
-  "dailyScripture12Text": "Is mo mo thrócare gach rud.",
-  "dailyScripture12Ref": "Quran 7:156",
-  "dailyScripture13Text": "Agus nuair a bhí mo fhreastalaithe i gceist duit fúm — go cinnte tá mé gar. Freagraím don duine atá ag guí nuair a ghlaogann sé orm.",
-  "dailyScripture13Ref": "Quran 2:186",
-  "dailyScripture14Text": "Cé ar bith a dhéanann fíréantacht, is fearr nó baineann, agus nuair a bhíonn sé ina chreidheamh — dhéanfaimid cinnte a bhí air saol maith.",
-  "dailyScripture14Ref": "Quran 16:97",
-  "dailyScripture15Text": "Go cinnte, ní bhogfaidh Allah staid na daoine go dtí go n-athrófaidh siad an rud atá iontu féin.",
-  "dailyScripture15Ref": "Quran 13:11",
-  "dailyScripture16Text": "Mar sin ná bí lag agus ná bheith i ngrá, agus beidh tú níos fearr má bhítear i bhfírinne creidheamh.",
-  "dailyScripture16Ref": "Quran 3:139",
-  "dailyScripture17Text": "A mo fhreastalaithe go ndearna cam ar bhur féin, ná bíodh dóchúlacht ar thrócare Allah. Go cinnte, mhaithíonn Allah gach peaca.",
-  "dailyScripture17Ref": "Quran 39:53",
-  "dailyScripture18Text": "Agus cé a bhfuil faitíos ar Allah — dhéanfaidh sé fealáint air dó, agus soláthar air ó áit nach bhfuil súil aici.",
-  "dailyScripture18Ref": "Quran 65:2-3",
-  "dailyScripture19Text": "Ná chaill dóchas i dtrócare Allah.",
-  "dailyScripture19Ref": "Quran 12:87",
-  "dailyScripture20Text": "Agus go cinnte, dhéan muid an Quran éasca a chur in iúl. Mar sin an bhfuil aon duine ann a bheidh aire tugtha?",
-  "dailyScripture20Ref": "Quran 54:17",
-  "dailyScripture21Text": "Agus bhí tú ar chealg agus thug sé treoir duit.",
-  "dailyScripture21Ref": "Quran 93:7",
-  "dailyScripture22Text": "Agus a Thiarna a deir: Glaoch orm; freagróidh mé thú.",
-  "dailyScripture22Ref": "Quran 40:60",
-  "dailyScripture23Text": "Agus go cinnte, bhí onóir ar muid clann Adam.",
-  "dailyScripture23Ref": "Quran 17:70",
-  "dailyScripture24Text": "Agus iarraidh cabhrú tríd fhoighne agus páidir.",
-  "dailyScripture24Ref": "Quran 2:45",
-  "dailyScripture25Text": "Cé ar bith a dhéanann paireachas adamh, feichfidh sé.",
-  "dailyScripture25Ref": "Quran 99:7",
-  "dailyScripture26Text": "Go neamhdhíoghaltach, tá cabhrú Allah gar.",
-  "dailyScripture26Ref": "Quran 2:214",
-  "dailyScripture27Text": "Agus cé a bhíonn buíoch — níl a bhúiochas ach don bhaidhe a bhí aige féin.",
-  "dailyScripture27Ref": "Quran 31:12",
-
-  "dailyReflection0": "De réir mar a dhúnann an lá seo, smaoinigh ar nóiméad amháin i raibh trócare Allah soiléir.",
-  "dailyReflection1": "Tabhair os comhair Allah, cibé rud a bhí trom ar do chroí inniu.",
-  "dailyReflection2": "Ainmnigh beanacht amháin ó inniu agus cuir in iúl buíochas do Allah.",
-  "dailyReflection3": "Suaimhnigh i bhfios go bhfuil tú á fholuain i ngeilleadh gan iomlán Allah.",
-  "dailyReflection4": "Machnamh ar áit ar bhraith tú ar ghlaoch chun imirt agus dana a thaispeáint inniu.",
-  "dailyReflection5": "Fág an rud ar féidir leat a rialú agus muinín in phlean foirfe Allah.",
-  "dailyReflection6": "De réir mar a thagann an lá, faigh síocháin i gcuimhnithe ar Allah.",
-  "dailyReflection7": "Machnamh ar an gcaoi ar raibh tú ag onóru do phaidreachas inniu, agus buíochas do Allah ar gach ceann.",
-  "dailyReflection8": "Machnamh ar nóiméad inar threorigh foighne do ghníomhartha inniu.",
-  "dailyReflection9": "Iarraidh maitheamh ar aon ghearánach inniu — tá trócare Allah gan teorainn.",
-  "dailyReflection10": "Ainmnigh duine amháin ar thaispeáin tú dana dó inniu agus déan dua ar a son.",
-  "dailyReflection11": "Suí le buíochas: cad a bhí soláthartha ag Allah inniu ar nach niarr tú?",
-  "dailyReflection12": "Machnamh ar verse ó Quran a labhairt ar an áit ina bhfuil tú ag an nóiméad.",
-  "dailyReflection13": "Machnamh ar an tslí ar úsáid tú do am inniu — agus tabhair amárach do Allah.",
-  "dailyReflection14": "Suaimhnigh agus a fhios agat go raibh Allah leat tríd aon dian a tháinig inniu.",
-  "dailyReflection15": "Smaoinigh ar bhealach amháin ar dhíol tú don teaghlaigh nó pobail inniu ar son Allah.",
-  "dailyReflection16": "De réir mar a thagann an oíche, déan Tawbah — gráinn Allah daoine ar a dtugann ar ais dó.",
-  "dailyReflection17": "Machnamh ar áilleacht Allah a bhí curtha i do lá, geal beag.",
-  "dailyReflection18": "Machnamh ar an rud ar fhog tú inniu agus conas atá sé a thabhairt níos gaire do Allah.",
-  "dailyReflection19": "Fág imní an lae ar fos le Allah — iompraíonn sé an rud ar féidir leat a iompar.",
-  "dailyReflection20": "Smaoinigh ar nóiméad inniu nuair ar bhraith tú b'fhéidir gur bhí rogha níos fearr agat, agus foghlaim as go bog.",
-  "dailyReflection21": "Déan dua ar chluichí daoine ar bhfuil ag cogarnail — atá do phaidreachas i ndan dó.",
-  "dailyReflection22": "Cuimhnigh ar bheannacht ar a mbím ag fágáil ar leataobh agus glacadh de am buíochas do Allah ar a son.",
-  "dailyReflection23": "Machnamh ar do bhéim inniu — ar bhraith siad ar Allah? Amárach, tús arís.",
-  "dailyReflection24": "De réir mar a thabhairt an oíche síocháin, éisteacht do ghaire Allah i dtost.",
-  "dailyReflection25": "Machnamh ar an áit ar fhág tú neart inniu — tá an neart sin ó Allah.",
-  "dailyReflection26": "Ainmnigh rud amháin a dhéanfaidh tú amárach, ar son Allah, ar nach ndearna tú inniu.",
-  "dailyReflection27": "De réir mar a bhí tú ag rólí ar fhuaimneach, tabhair do anam do Allah — is é an ceannaire is fearr dó.",
-
-  "dailyRoleModel0": "An Próiféid Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "An Próiféid Ibrahim (AS)",
-  "dailyRoleModel44": "An Próiféid Musa (AS)",
-  "dailyRoleModel45": "An Próiféid Isa (AS)",
-  "dailyRoleModel46": "An Próiféid Yusuf (AS)",
-  "dailyRoleModel47": "An Próiféid Dawud (AS)",
-  "dailyRoleModel48": "An Próiféid Sulayman (AS)",
-  "dailyRoleModel49": "An Próiféid Nuh (AS)",
-  "dailyRoleModel50": "An Próiféid Yunus (AS)",
-  "dailyRoleModel51": "An Próiféid Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Ceadaigh do Ayara mo láthair a úsáid do threo Qibla agus am paidreachas",
-  "locationConsentHint": "Úsáidte ach do na gnéithe seo. Níor roinn do láthair ná stóirithe.",
-
-  "askPageTitle": "Fiafraigh Ayara",
-  "askPageDescription": "Fiafraigh aon rud faoi chreideamh, páidir, saol, nó cleachtas Ioslamach agus faigh treorúchán bunaithe ar an Quran agus Sunnah.",
-  "askPageInputHint": "Scríobh do cheist anseo…",
+  "dailyGraceCopiedToast": "Cóipeáladh an rann chuig an ngearrthaisce",
+  "locationConsentLabel": "Ceadaigh do Ayara mo shuíomh a úsáid le haghaidh treo Qibla agus amanna paidir",
+  "locationConsentHint": "Úsáidtear é seo do na gnéithe seo amháin. Ní roinntear ná ní stóráiltear do shuíomh riamh.",
+  "askPageTitle": "Cuir ceist ar Ayara",
+  "askPageDescription": "Cuir aon cheist faoi chreideamh, paidir, an saol nó cleachtas Ioslamach agus faigh treoir bunaithe ar an gQur'an agus ar theagasc Ahl al-Bayt.",
+  "askPageInputHint": "Clóscríobh do cheist anseo…",
   "askPageSubmitCta": "Fiafraigh",
-  "askPageInputEmptyError": "Scríobh ceist ar dtús.",
+  "askPageInputEmptyError": "Scríobh ceist ar dtús, le do thoil.",
   "askResultYourQuestion": "Do cheist",
-
-  "guidancePageTitle": "Páidir & Treorúchán",
-  "qiblaFacingMecca": "Aghaidh ar Makkah",
-  "qiblaCompassInstruction": "Rothlaigh do ghuthán go dtí an snáthaide ór ag pointeáil suas.\nAr an treo sin a pointeáilte go dtí an Qibla (Makkah).",
-  "qiblaGpsUnavailableBody": "Tá comhartha GPS lag. Bog amach agus Tap Retry.",
-  "qiblaRetry": "Triail eile",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "Ag tabhairt aghaidh ar Makkah",
+  "qiblaCompassInstruction": "Cas do ghuthán go dtí go mbeidh an tsnáthaid órga ag pointeáil suas.\nPointeálann an treo sin chuig an Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Tá an comhartha GPS lag. Téigh amach agus tapáil Bain triail eile as.",
+  "qiblaRetry": "Bain triail eile as",
   "qiblaTitle": "Treo an Qibla",
   "qiblaDistanceLabel": "{km} km go Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "Láthair riachtanach",
-  "qiblaLocationNeededBody": "Ceadaigh rochtain láthair ionas gur féidir le Ayara treo na Kaaba i Makkah a ríomh ó áit ar bith go bhfuil tú.",
+  "qiblaLocationNeededTitle": "Tá suíomh ag teastáil",
+  "qiblaLocationNeededBody": "Ceadaigh rochtain suímh ionas gur féidir le Ayara treo na Kaaba i Makkah a ríomh ó cibé áit ina bhfuil tú.",
   "qiblaOpenSettings": "Oscail Socruithe",
-  "qiblaCompassLoading": "Do láthair a fháil…",
+  "qiblaCompassLoading": "Do shuíomh á aimsiú…",
   "qiblaTowardMecca": "I dtreo Makkah",
-
-  "prayerTimesTitle": "Am Paidreachas",
+  "prayerTimesTitle": "Amanna Paidir",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
-  "prayerTimesLocationNeededTitle": "Láthair riachtanach",
-  "prayerTimesLocationNeededBody": "Ceadaigh rochtain láthair ionas gur féidir le Ayara am paidreachas cruinn a ríomh ar do chathair.",
+  "prayerTimesLocationNeededTitle": "Tá suíomh ag teastáil",
+  "prayerTimesLocationNeededBody": "Ceadaigh rochtain suímh ionas gur féidir le Ayara amanna paidir cruinne a ríomh do do chathair.",
   "prayerTimesNextLabel": "Ar Aghaidh",
   "prayerTimesDoneLabel": "Déanta",
-
-  "monthlyPrayerTimesTitle": "Am Paidreachas Míosúil",
-  "monthlyPrayerTimesViewButton": "Féach ar an Bhliain Iomlán",
-  "monthlyPrayerTimesNextMonth": "An chéad mhí eile",
+  "monthlyPrayerTimesTitle": "Amanna Paidir Míosúla",
+  "monthlyPrayerTimesViewButton": "Féach ar an Mí Iomlán",
+  "monthlyPrayerTimesNextMonth": "An mhí seo chugainn",
   "monthlyPrayerTimesDayHeader": "Lá",
-
-  "sharePrayerTimes": "Roinnt am paidreachas",
-
-  "prayerNotificationsTitle": "Spreagadh Paidreachas",
-  "prayerNotificationsDescription": "Faigh spreagadh bog roimh gach am paidreachas chun cabhrú leat ceangal a dhéanamh ar fad an lae.",
-  "prayerNotificationsEnable": "Cumasaigh spreagadh paidreachas",
-  "prayerNotificationsOpenSettings": "Oscail socruithe fógra",
-  "prayerNotificationsDenied": "Fógra díchumasaithe",
-  "prayerNotificationsDeniedHint": "Téigh ar Socruithe agus ceadaigh fógra do Ayara chun spreagadh am paidreachas a fháil.",
-
-  "notificationsConsentLabel": "Ceadaigh fógra ar am paidreachas",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — Páidir an Bhrealach",
-  "prayerNotifBodyFajr": "Is an páidir is fearr an páidir maidin. Éirigh, glan tú féin, agus seas os comhair Allah.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Páidir Meánaí",
-  "prayerNotifBodyDhuhr": "Stad do lá agus fill ar Allah. Tá am páidir Dhuhr tagtha.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — Páidir Tráthnóna",
-  "prayerNotifBodyAsr": "Caomhnaigh an páidir dhom. Tá am Asr tagtha — ná fág go dtéann sé thairis.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — Páidir Foluain",
-  "prayerNotifBodyMaghrib": "Tá an ghealach imithe. Tábhair Maghrib agus bí buíoch do Allah ar an lá seo.",
-
-  "prayerNotifTitleIsha": "🌙 Isha — Páidir na Hoíche",
-  "prayerNotifBodyIsha": "Críochnaigh do lá le cuimhnithe ar Allah. Hayya 'alal falah — tiomáint ar rathúlacht.",
-
-  "outOfReflectionsBannerText": "Úsáid tú do mhachnaimh ar fad",
-  "outOfReflectionsBannerCta": "Faigh tuilleadh",
-
+  "sharePrayerTimes": "Comhroinn amanna paidir",
+  "notificationsSectionTitle": "Fógraí",
+  "notificationsSectionSubtitle": "Meabhrúcháin paidir, imeachtaí féilire agus níos mó",
+  "dailyReflectionReminderTitle": "Machnamh Laethúil",
+  "dailyReflectionReminderDescription": "Meabhrúchán mín laethúil chun Ayara a oscailt agus nascadh le do chreideamh.",
+  "dailyReflectionReminderEnable": "Cumasaigh meabhrúchán laethúil",
+  "dailyReflectionReminderTimeLabel": "Am meabhrúcháin",
+  "prayerNotificationsTitle": "Meabhrúcháin Paidir",
+  "prayerNotificationsDescription": "Faigh meabhrúchán mín roimh gach am paidir chun cabhrú leat fanacht ceangailte i rith an lae.",
+  "prayerNotificationsEnable": "Cumasaigh meabhrúcháin paidir",
+  "prayerNotificationsOpenSettings": "Oscail socruithe fógraí",
+  "prayerNotificationsDenied": "Tá fógraí díchumasaithe",
+  "prayerNotificationsDeniedHint": "Téigh go Socruithe agus ceadaigh fógraí do Ayara chun meabhrúcháin amanna paidir a fháil.",
+  "notificationsConsentLabel": "Ceadaigh fógraí d'amanna paidir",
+  "prayerNotifTitleFajr": "🌅 Fajr — Paidir an Lae",
+  "prayerNotifBodyFajr": "Is í Fajr paidir maidine Ahl al-Bayt. Dúirt Imam Ali (AS): Caomhnaigh paidir an lae mar a chaomhnaíonn tú do mhuinín is luachmhaire. Éirigh, glan tú féin, agus seas os comhair Allah.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Paidir an Mheánlae",
+  "prayerNotifBodyDhuhr": "Bhí meas ag Imamaí Ahl al-Bayt ar gach nóiméad cuimhneacháin. Cuir sos ar do lá, comhcheangail Dhuhr le Asr más gá, agus tabhair do chroí ar ais chuig Allah.",
+  "prayerNotifTitleAsr": "🌤️ Asr — Paidir an Tráthnóna",
+  "prayerNotifBodyAsr": "Caomhnaigh an phaidir, mar is í an conradh idir tú féin agus Allah í. Tá am Asr tagtha — ná lig dó imeacht gan cuimhneachán.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Paidir Luí na Gréine",
+  "prayerNotifBodyMaghrib": "Tá an ghrian imithe faoi — nóiméad a mheas Ahl al-Bayt mar nóiméad naofa d'urnaí. Déan Maghrib agus ardaigh do lámha chuig Allah i dua sula dtosaíonn an oíche.",
+  "prayerNotifTitleIsha": "🌙 Isha — Paidir na hOíche",
+  "prayerNotifBodyIsha": "Críochnaigh do lá i gcuideachta Allah. Mhol na hImamaí Salat al-Layl i ndiaidh Isha — ach ar dtús, críochnaigh d'Isha agus dún an lá lena chuimhne.",
+  "outOfReflectionsBannerText": "D'úsáid tú do chuid machnaimh go léir",
+  "outOfReflectionsBannerCta": "Faigh níos mó",
   "dhikrPageTitle": "Dhikr",
-  "dhikrTapToCount": "Tap an ciorcal chun a chomhaireamh",
+  "dhikrTapToCount": "Tapáil an ciorcal chun comhaireamh",
   "dhikrResetButton": "Athshocraigh",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Tú a chomhlíon 99 cuimhnithe ar Allah. Is dóigh leo a bheith ina soilse do do chroí.",
-
-  "disclaimerTitle": "Faoi threorúchán an app seo",
-  "disclaimerBody": "Cuireadh Ayara machnamh spioradálta, cuimhneacháin, agus ábhar spioradálta ar fáil chun tacaíonn le do thuras pearsanta de chreideamh. Tugtar an ábhar seo ar fáil ar bhonn gréine don gur spéis agus spreagadh a thug go ginearálta.\n\nNíl Ayara ionad do scoláraigí faoi réir.\nNíl an treorúchán san app seo ina ionad ar scoláire Ioslamach foghlamtha, imam, mufti, nó múinteoir oilte go teanga. Má tá ceist agat ar bhreacadh reiligiúnda, halal agus haram nithe, nó oibleagáidí pearsanta reiligiúnda, iarraidh chomhairle ó údarás reiligiúnda fhualang i do cheantar.\n\nNí dhéanann an app seo breacadh reiligiúnda.\nNíl Ayara ag déanamh breacadh údarásach ar nithe fiqh (reiligiúnda dlí Ioslamach) nó oibleagáidí reiligiúnda pearsanta. Níor chóir aon rud anseo a bhí mar bhreacadh nó treorúchán reiligiúnda ceangailte.\n\nAthrann léirmhínithe scoláraigí.\nI Islam cuimsigh saibhreas domhain de thraidisiúin, scoilanna smaointíochta (madhabs), agus tuairimí scoláraigí. Léiríonn ábhar san app peirspictíochta ginearálta agus b'fhéidir nach ionadaíoch gach traidisiún nó scoil go coibhéiseach.\n\nTá pobal thábhachtach.\nDhéanann an app seo spreagadh ar do ghníomhacht le creidimh thraidisiúin agus fhormalacht go fior do thábhachtach an chomharsanachta d'ionad orálach, imam, agus pobail reiligiúnda. Spreagann muid thú ar a bheith ceangailte agus foghlaim ó múinteoirí fualang in aice leat.",
+  "dhikrCompleteMessage": "Tá 100 cuimhne Allah curtha i gcrích agat. Go raibh siad ina solas do do chroí.",
+  "disclaimerTitle": "Maidir le treoir na haipe seo",
+  "disclaimerBody": "Cuireann Ayara machnaimh Ioslamacha, meabhrúcháin agus ábhar spioradálta ar fáil chun tacú le do thuras pearsanta creidimh, fréamhaithe sa Qur'an agus i dteagasc Ahl al-Bayt. Cuirtear an t-ábhar seo ar fáil chun críocha ginearálta faisnéise agus inspioráide amháin.\n\nNí ghlacann Ayara áit scoláireachta cáilithe.\nNí hionann an treoir san aip seo agus scoláire Ioslamach, marja', nó múinteoir oilte go diagachta. I Shi'a Islam, tá treoir reiligiúnach fréamhaithe sa scoil Ja'fari dlí-eolaíochta (fiqh) agus sa traidisiún maidir le Marja' beo (foinse aithrise) a leanúint — giúróir cáilithe a threoraíonn a bhreithiúnais creidmhigh i gcleachtas reiligiúnach. Má tá ceisteanna agat faoi rialuithe reiligiúnacha, cúrsaí halal agus haram, nó dualgais phearsanta reiligiúnacha, iarr comhairle ó Marja' cáilithe nó ó scoláire i do phobal.\n\nNí eisíonn an aip seo rialuithe reiligiúnacha.\nNí dhéanann Ayara cinntí údarásacha ar ábhair fiqh ná ar dualgais phearsanta reiligiúnacha. Níor cheart aon rud anseo a mheas mar fatwa ná mar threoir reiligiúnach cheangailteach.\n\nLárnacht Ahl al-Bayt.\nI Shi'a Islam, is iad an Fáidh Muhammad ﷺ agus a theaghlach íon — Ahl al-Bayt — treoraithe údarásacha an phobail Ioslamaigh i ndiaidh an Qur'an. Is iad dhá Imam déag Ahl al-Bayt na léirmhínitheoirí diaga ceaptha ar theagasc Ioslamach. Léiríonn ábhar na haipe seo an traidisiún sin agus déanann sé iarracht onóir dílis a thabhairt dó.\n\nTábhacht an phobail.\nTá sé mar aidhm ag an aip seo do rannpháirtíocht sa chreideamh a spreagadh agus meas domhain a léiriú ar ról ríthábhachtach do mhosc áitiúil, d'ionad Ioslamach agus do phobal reiligiúnach. Molaimid duit fanacht i dteagmháil le múinteoirí cáilithe atá gar duit agus foghlaim uathu.",
   "disclaimerClose": "Tuigim",
-  "disclaimerInfoTooltip": "Faoi threorúchán an app seo",
-  "disclaimerSettingsSubtitle": "Do chuspóirí gréine eolais. Tap chun an t-achoimre iomlán a léamh.",
-  "disclaimerSectionHeader": "Achoimre treorúcháin"
+  "disclaimerInfoTooltip": "Maidir le treoir na haipe seo",
+  "disclaimerSettingsSubtitle": "Do chuspóirí faisnéise ginearálta amháin. Tapáil chun an séanadh iomlán a léamh.",
+  "disclaimerSectionHeader": "Séanadh treorach",
+  "navHome": "Baile",
+  "navReflect": "Machnamh",
+  "navDuas": "Duas",
+  "navCalendar": "Féilire",
+  "dashboardToday": "INNIU",
+  "dashboardComingUp": "Ag teacht suas",
+  "dashboardDaysUnit": "{count, plural, one {lá} other {laethanta}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Rochtain Thapa",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Treoir",
+  "quickActionPrayerTimes": "Amanna Paidir",
+  "askAyaraTitle": "Cuir ceist ar Ayara",
+  "askAyaraSubtitle": "Cuir aon cheist Ioslamach agus faigh freagra machnamhach treorach.",
+  "askAyaraHint": "m.sh. Cad é tábhacht Ramadan?",
+  "askAyaraSubmit": "Fiafraigh",
+  "wisdomOfTheDayTitle": "Eagna an Lae",
+  "calendarScreenTitle": "Féilire Ioslamach",
+  "calendarUpcomingOccasions": "Ócáidí atá le teacht",
+  "calendarOccasionRemindersTitle": "Meabhrúcháin Ócáide",
+  "calendarOccasionRemindersHint": "Cuirfear ar an eolas tú an oíche roimh gach ócáid",
+  "calendarNotifPermissionDenied": "Diúltaíodh cead fógraí. Cumasaigh é i socruithe do ghléis.",
+  "calendarNoEvents": "Níor aimsíodh aon imeachtaí atá le teacht.",
+  "calendarAddToPhone": "Cuir le Calendár gutháin",
+  "calendarAddedToPhone": "Curtha leis an gCalandar",
+  "calendarCountdownToday": "INNIU",
+  "calendarCountdownTomorrow": "AMÁRACH",
+  "calendarCountdownDays": "i gceann {days} lá",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Ean",
+  "calendarMonthFeb": "Fea",
+  "calendarMonthMar": "Már",
+  "calendarMonthApr": "Aib",
+  "calendarMonthMay": "Bea",
+  "calendarMonthJun": "Mei",
+  "calendarMonthJul": "Iúil",
+  "calendarMonthAug": "Lún",
+  "calendarMonthSep": "MF",
+  "calendarMonthOct": "DF",
+  "calendarMonthNov": "Samh",
+  "calendarMonthDec": "Noll",
+  "calendarSeasonMuharramEarly": "Laethanta Muharram — cuimhnigh ar Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — laethanta caoineadh agus machnaimh",
+  "calendarSeasonArbaeen": "Arbaeen — daichead lá Husayn",
+  "calendarSeasonRoadToArbaeen": "An bóthar go hArbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — breacadh an nochtaithe",
+  "calendarSeasonMidShaban": "Lár Sha'ban — breithlá Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — mí an Qur'an",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Duas & Ziyarat",
+  "duasSearchHint": "Cuardaigh duas, ziyarat…",
+  "duasFilterAll": "Uile",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} duas & ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Níor aimsíodh aon duas.",
+  "duaCategoryDaily": "Laethúil",
+  "duaCategoryWeekly": "Seachtainiúil",
+  "duaCategoryOccasions": "Ócáidí",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Breith",
+  "eventTypeMartyrdom": "Martyrdom",
+  "eventTypeOccasion": "Ócáid",
+  "duaCopyTooltip": "Cóipeáil an t-aistriúchán",
+  "duaToggleTransliteration": "Traslitriú",
+  "duaToggleTranslation": "Aistriúchán",
+  "duaAskAiLabel": "Iarr ar Ayara an dua seo a mhíniú",
+  "duaAskAiLockedLabel": "Iarr ar Ayara (Wilaya)",
+  "duaAiLockedMessage": "Tá míniúcháin Ayara ar fáil do bhaill Wilaya amháin. Uasghrádaigh sna Socruithe.",
+  "duaAiComingSoon": "Cuir ceist ar Ayara faoi \"{name}\" — ag teacht go luath!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Cóipeáladh an dua chuig an ngearrthaisce.",
+  "tasbihAllahuAkbarMeaning": "Is é Allah is Mó",
+  "tasbihAlhamdulillahMeaning": "Is le Allah gach moladh",
+  "tasbihSubhanallahMeaning": "Glóir do Allah",
+  "tasbihResetTooltip": "Athshocraigh",
+  "tasbihCompleteTitle": "Tasbih Críochnaithe",
+  "tasbihCompleteMessage": "Go nglacfadh Allah le do dhikr.",
+  "tasbihTapHint": "Tapáil áit ar bith chun comhaireamh",
+  "tasbihatScreenTitle": "Treoir Paidir",
+  "tasbihatScreenSubtitle": "GLÓRTHAÍ NA PAIDRE",
+  "tasbihatScreenDescription": "Treoir iomlán ar na glórthaí a deirtear le linn agus i ndiaidh na bpaidreacha laethúla — de réir thraidisiún Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Aithristear sa 3ú & 4ú rakʿah",
+  "tasbihatArba3Info": "I ndlí-eolaíocht Shi'a, tagann Tasbiḥāt al-Arbaʿa in áit Surah al-Fatiha sa 3ú agus 4ú rakʿah de Dhuhr, Asr, Maghrib, agus Isha. Tá sé éigeantach (wājib) é a aithris uair amháin, agus moltar (mustaḥabb) é a aithris trí huaire.",
+  "tasbihatArba3Translation": "Glóir do Allah · Is le Allah gach moladh\nNíl dia ar bith ach Allah · Is é Allah is Mó",
+  "tasbihatArba3CompleteTitle": "Aithris Críochnaithe",
+  "tasbihatArba3CompleteMessage": "Go nglacfaí le do phaidir — Āmīn",
+  "tasbihatArba3TapHint": "Tapáil tar éis gach aithrise",
+  "tasbihatZahraSubtitle": "Tar éis gach paidir · 100 coirnín",
+  "tasbihatZahraOriginLabel": "Bunús",
+  "tasbihatZahraHadith": "D'iarr Bantiarna Fatima al-Zahra (sa) ar an bhFáidh ﷺ seirbhíseach. Dúirt sé: \"Nach dtreoróinn thú chuig rud éigin níos fearr? Aithris Subḥānallāh 33 uair, Alḥamdulillāh 33 uair, agus Allāhu Akbar 34 uair tar éis gach paidir. Is fearr sin duit ná seirbhíseach.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Iml. 85",
+  "tasbihatZahraOpenCounter": "Oscail an Cuntar Tasbīḥ",
+  "tasbihatDuasTitle": "DUĀS MOLTA",
+  "tasbihatDuasSubtitle": "Tar éis do phaidir a chríochnú",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Tar éis gach paidir éigeantaí",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Duine ar bith a aithríonn Āyat al-Kursī tar éis gach paidir éigeantaí, ní sheasann tada idir é agus an pharáidís ach an bás. Dúirt Imam al-Bāqir (a) go bhfuil sé ar cheann de na véarsaí is mó sa Qur'an.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Tar éis gach paidir · séalaíonn sé gach dua",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Moltar beannachtaí a chur ar an bhFáidh ﷺ agus ar a theaghlach íon (Āl Muḥammad) chun gach dua a shéalú. Dúirt Imam al-Ṣādiq (a): \"Tá gach dua ar fionraí go dtí go gcuireann tú ṣalawāt ar Muḥammad agus ar a theaghlach.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Tar éis gach paidir · do Imam ár linne",
+  "tasbihatDuaFarajSource": "Múinte ag Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "Dua d'aththeacht Imam al-Mahdī (af), an dara hImam déag, múinte ag a athair. Aithrítear é go laethúil ag dílisigh Shi'a i ndiaidh gach paidir mar ghníomh dílseachta don Imam beo.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ Bantiarna Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "Tar éis Maghrib & Isha · moltar go háirithe",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Dúirt Imam al-Bāqir (a) go bhfuil aithris Tasbīḥ al-Zahrā tar éis Isha roimh chodladh níos fearr ná 1000 rakʿah de phaidir roghnach. Éiríonn a sholas suas chuig na flaithis.",
+  "tasbihFatimaGiftPre": "Bronntanas ón bhFáidh",
+  "tasbihFatimaGiftPost": "aithristear tar éis gach paidir",
+  "prayerTrackerTitle": "LORGÚ PAIDIR",
+  "prayerTrackerPrayed": "Guíodh",
+  "prayerTrackerDayStreak": "sraith {count} lá",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Tá gach paidir críochnaithe inniu. Go nglacfadh Allah leis.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Críochnaithe inniu",
+  "dhikrTrackerNotDoneToday": "Ní dhearnadh inniu",
+  "dhikrTrackerDayStreak": "sraith {count} lá",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Meabhrúchán Tasbīḥ",
+  "dhikrReminderDescription": "Meabhrúchán mín laethúil chun do Tasbīḥ al-Zahrā (SA) a aithris.",
+  "dhikrReminderEnable": "Cumasaigh meabhrúchán Tasbīḥ",
+  "dhikrReminderTimeLabel": "Am meabhrúcháin",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Hadith an Lae",
+  "hadithLabelArabic": "ARAIBIS",
+  "hadithLabelTranslation": "AISTRIÚCHÁN",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Comhroinn an Hadith Seo",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nTrí Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Roimhe",
+  "hadithNavNext": "Ar Aghaidh",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "Na 14 Masumeen",
+  "imamsScreenSubtitle": "An Fáidh, Bantiarna Fatima, agus an Dáréag Imam — treoraithe doshamhlacha an Ioslaim",
+  "imamLabelBorn": "Rugadh",
+  "imamLabelMartyrdom": "Mairtíreacht",
+  "imamLabelStatus": "Stádas",
+  "imamSectionBiography": "BEATHAISNÉIS",
+  "imamSectionFamousSaying": "ABAIRTE CHLÚITEACH",
+  "imamRoleProphet": "An Fáidh Deireanach",
+  "imamRoleInfallible": "An Doshmálach",
+  "imamOrdinal1": "1ú Imam",
+  "imamOrdinal2": "2ú Imam",
+  "imamOrdinal3": "3ú Imam",
+  "imamOrdinal4": "4ú Imam",
+  "imamOrdinal5": "5ú Imam",
+  "imamOrdinal6": "6ú Imam",
+  "imamOrdinal7": "7ú Imam",
+  "imamOrdinal8": "8ú Imam",
+  "imamOrdinal9": "9ú Imam",
+  "imamOrdinal10": "10ú Imam",
+  "imamOrdinal11": "11ú Imam",
+  "imamOrdinal12": "12ú Imam",
+  "duaAudioScreenTitle": "Éist le Duas",
+  "duaAudioScreenSubtitle": "Roghnaigh dua le héisteacht leis. Tapáil an tíl chun seinm nó sos a chur air.",
+  "duaAudioComingSoonMessage": "Beidh fuaim don dua seo ar fáil i nuashonrú atá le teacht.",
+  "duaAudioClose": "Dún",
+  "duaAudioError": "Níorbh fhéidir an fuaim a luchtú. Seiceáil do nasc, le do thoil.",
+  "duaAudioMetaTransmittedBy": "Tarchurtha ag",
+  "duaAudioMetaOccasion": "Ócáid",
+  "duaAudioMetaDuration": "Fad",
+  "quickActionDailyHadith": "Hadith an Lae",
+  "quickAction14Masumeen": "14 Masumeen",
+  "quickActionListenDuas": "Éist",
+  "quickActionTasbihat": "Treoir Paidir",
+  "pilgrimageSectionTitle": "An Turas Naofa",
+  "pilgrimageSectionSubtitle": "Treoracha iomlána ar Hajj & Umrah — an oilithreacht chuig Teach Naofa Allah i Mecca",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "An Cúigiú Colún den Ioslam",
+  "hajjCardDescription": "An oilithreacht mhór bhliantúil — éigeantach uair amháin sa saol do gach Moslamach atá in ann",
+  "hajjScreenTitle": "Treoir Hajj",
+  "hajjScreenSubtitle": "Treoir céim ar chéim don oilithreacht mhór",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "An Oilithreacht Bheag",
+  "umrahCardDescription": "Turas spioradálta fíorluachmhar is féidir a dhéanamh ag aon am den bhliain",
+  "umrahScreenTitle": "Treoir Umrah",
+  "umrahScreenSubtitle": "Treoir céim ar chéim don oilithreacht bheag",
+  "pilgrimageStepsTitle": "Deasghnátha & Céimeanna",
+  "pilgrimageImportantNotesTitle": "Nótaí Tábhachtacha",
+  "pilgrimageDuaTitle": "Dua don chéim seo",
+  "pilgrimageJafariNoteTitle": "Nóta Fiqh Ja'fari",
+  "pilgrimageComplete": "✓ Críochnaithe",
+  "pilgrimageMarkDone": "Marcáil mar críochnaithe",
+  "pilgrimageProgress": "{done} de {total} céimeanna",
+  "pilgrimageReadTime": "~{minutes} min",
+  "pilgrimageShiaNoteTitle": "Oilithrigh Shi'a",
+  "pilgrimageShiaNoteBody": "Go traidisiúnta téann oilithrigh Shi'a go Medina freisin chun cuairt a thabhairt ar uaigh an Fháidh Muhammad (SAW) i Masjid al-Nabawi, agus ar uaigheanna na nImam i Jannat al-Baqi. Tá tábhacht spioradálta ollmhór ag baint leis na cuairteanna seo agus meastar gur cuid lárnach den turas iad do fhormhór na Moslamach Shi'a.",
+  "hajjIntro": "Is é Hajj an cúigiú colún den Ioslam, éigeantach uair amháin sa saol do gach Moslamach atá in ann go fisiciúil agus go hairgeadais. Déantar é i mí Dhul Hijjah, agus leanann sé cosáin an Fháidh Ibrahim (AS), a mhic Ismail (AS), agus Bantiarna Hajar. Do Mhoslamaigh Shi'a, cuimsíonn Hajj freisin an bheannacht dhomhain a bhaineann le cuairt a thabhairt ar áiteanna sosa an Fháidh (SAW) agus Ahlul Bayt i Medina.",
+  "umrahIntro": "Is í Umrah an oilithreacht bheag go Mecca agus, murab ionann agus Hajj, is féidir í a dhéanamh ag aon am den bhliain. Cé nach bhfuil sí éigeantach, tá luach saothair spioradálta ollmhór ag baint léi agus meastar gur gníomh adhrtha an-mholta í. Roinneann sí roinnt deasghnátha le Hajj ach tá sí níos giorra, agus tá ceithre phríomhghné inti."
 }

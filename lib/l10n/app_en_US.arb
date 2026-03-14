@@ -1,8 +1,6 @@
 {
   "@@locale": "en_US",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "Choose your language",
   "languageSelectSub": "You can change this later in Settings",
   "actionContinue": "Continue",
@@ -10,10 +8,8 @@
   "languageAllHeader": "All languages",
   "languageSuggestedBadge": "Suggested",
   "languageSearchHint": "Search…",
-
   "planBasic": "Standard",
   "planPremium": "Wilaya",
-
   "categorySlot01": "Daily Guidance",
   "categorySlot02": "Iman & Trust",
   "categorySlot03": "Prayer Reflection",
@@ -30,52 +26,17 @@
   "categorySlot14": "Resist Temptation",
   "categorySlot15": "Evening Dhikr",
   "categoryCustom": "Personal Reflection",
-
   "dhikrMeaningSubhanallah": "Glory be to Allah",
   "dhikrMeaningAlhamdulillah": "All praise is due to Allah",
   "dhikrMeaningAllahuAkbar": "Allah is the Greatest",
   "quranVerseHeartAtRest": "Verily, in the remembrance of Allah do hearts find rest.",
-
   "promptHint": "Tap a category for Islamic guidance and reflection",
-
   "currentLanguage": "Current language",
   "settingsLanguage": "Language settings",
   "settingsTitle": "Settings",
   "chooseLanguage": "Choose your language",
   "continueCta": "Continue",
-
-  "promptSlot01": "Write a short, practical daily guidance rooted in Shia Islamic faith — grounded in the Quran and the teachings of the Prophet Muhammad and the Ahl al-Bayt. Choose a fresh angle each time: a virtue from Islamic ethics, wisdom from one of the twelve Imams, a teaching from Nahj al-Balagha, or a quiet practice from the Shia tradition. Include one Quran verse (Surah:Ayah) and a 1-2 sentence reflection to carry through the day. Optionally connect it to the Islamic calendar or an important date if relevant.",
-
-  "promptSlot02": "Write a short Islamic reflection on Iman (faith) and trust in Allah's plan (Tawakkul). Root it in the Quran, the example of Prophet Muhammad ﷺ, and the steadfast faith modelled by the Ahl al-Bayt and the example of the Imams. Vary the theme each time: trusting Allah during uncertainty, relying on divine wisdom, patience in trials, or quiet perseverance in everyday life as demonstrated by Imam Ali (AS) and the Imams of the Ahl al-Bayt. Include one Quran verse and one honest step for today drawn from Shia Islamic spiritual wisdom.",
-
-  "promptSlot03": "Write a short Islamic prayer reflection rooted in Salah, Dua, or Dhikr within the Shia tradition. Vary the form each time: a supplication from Mafatih al-Jinan or the duas of the Imams, reflection on the five daily prayers as observed in three prayer times (combining Dhuhr with Asr, and Maghrib with Isha), the spiritual virtues of Salat al-Layl (the recommended night prayer beloved by the Ahl al-Bayt), the significance of praying on a turbah (prayer stone from sacred earth), the importance of Qunut in prayer, or a heartfelt dua from the tradition of Imam Zayn al-Abidin's Sahifa al-Sajjadiyya. Include one Quran verse and briefly name the prayer form or supplication source used.",
-
-  "promptSlot04": "Write an Islamic reflection on patience (Sabr) and hope during hardship. Draw from Quranic teachings about trials, the perseverance of the Prophets, and the mercy of Allah in difficult moments. Vary the angle each time. Include one Quran verse and one encouraging perspective from Islamic tradition.",
-
-  "promptSlot05": "Write a wise Islamic reflection about seeking forgiveness (Tawbah) and Allah's mercy. Draw from Quranic teachings on repentance, Allah's compassion, and the forgiving example of Prophet Muhammad ﷺ. Vary the theme: turning back to Allah, forgiving others, healing relationships, or believing in Allah's mercy after mistakes. Include one Quran verse and one concrete step.",
-
-  "promptSlot06": "Write a short Islamic reflection on mercy (Rahmah) and compassion in everyday life. Draw from the example of Prophet Muhammad ﷺ, the concept of Ihsan (excellence), and Islamic teachings on kindness to family, neighbors, and the vulnerable. Include one Quran verse and one small act of compassion to practice today.",
-
-  "promptSlot07": "Write an Islamic reflection on faith-based strength and courage. Draw from the supreme example of Imam Hussain ibn Ali (AS) at Karbala — the eternal model of standing firm against injustice, sacrificing everything for truth, and never surrendering to oppression — and from the broader example of the Ahl al-Bayt who remained steadfast through immense trials. Vary the theme each time: courage through faith, strength in prayer, trust in Allah during fear, or resilience in the face of injustice. Include one Quran verse and a short supplication or phrase of remembrance from the Shia tradition.",
-
-  "promptSlot08": "Write an Islamic reflection on gratitude (Shukr) toward Allah. Root it in Quranic teaching and prophetic tradition. Vary the angle: gratitude in hardship, appreciating small blessings, beginning the day with praise of Allah, or recognizing Allah's guidance in daily life. Include one Quran verse and one gratitude practice.",
-
-  "promptSlot09": "Write an Islamic reflection on life's purpose in worshipping Allah and living righteously. Draw from Quranic teachings about purpose, serving others, and using one's gifts for good. Vary the theme each time: serving family and community, seeking guidance through Istikhara, living with intention, or finding meaning in ordinary work. Include one Quran verse and two reflective questions.",
-
-  "promptSlot10": "Write wise Islamic guidance on family and relationships rooted in Quranic teaching and the example of Prophet Muhammad ﷺ. Vary the theme each time: kindness in family life, patience in conflict, honoring parents, raising children in faith, or strengthening marriage. Include one Quran verse and one relational practice to try.",
-
-  "promptSlot11": "Write a calming Islamic reflection about finding inner peace through remembrance of Allah (Dhikr) and trust in His plan. Draw from Quranic teachings about tranquility of the heart, prayer, and surrender to Allah's will. Vary the approach each time and include one Quran verse and one simple grounding practice from Islamic tradition.",
-
-  "promptSlot12": "Write a short piece of wisdom from the Prophet Muhammad ﷺ and the Imams of the Ahl al-Bayt as taught in Shia Islam. Draw from the Quran, Hadith, the sayings of Imam Ali (AS) in Nahj al-Balagha, and the teachings of Imam Ja'far al-Sadiq (AS) — the great scholar of the Ahl al-Bayt whose knowledge illuminated the ummah. Vary the topic each time: character, patience, humility, faith, justice, or daily conduct. Include a Quranic verse, a hadith, or a saying from one of the twelve Imams, and one practical application.",
-
-  "promptSlot13": "Write an Islamic reflection on humility (Tawadhu) and good character (Akhlaq). Draw from Quranic teachings, the example of Prophet Muhammad ﷺ, and the tradition of Islamic character development. Vary the theme: humility in leadership, admitting mistakes, treating others with respect, or growing spiritually through self-reflection. Include one Quran verse and one habit to practice.",
-
-  "promptSlot14": "Write an Islamic reflection on resisting temptation and staying on the straight path. Draw from Quranic guidance, remembrance of Allah (Dhikr), prayer (Salah), and examples of believers who overcame struggles. Vary the angle each time. Include one Quran verse and one practical strategy for the next 24 hours.",
-
-  "promptSlot15": "Write a peaceful Islamic evening reflection rooted in the Shia tradition of evening supplication. Draw from the treasures of Mafatih al-Jinan, the Munajat al-Shabaniyya (the intimate whispered prayer of the month of Sha'ban beloved by the Imams), and the evening duas transmitted from the Imams of the Ahl al-Bayt. Encourage gratitude, Muhasabah (self-accounting) as recommended by the Imams, and trust in Allah before rest. Include 3–5 short reflection prompts about the day, a brief closing supplication drawn from the tradition of the Ahl al-Bayt, and one Quran verse.",
-
   "wordCount": "{count, plural, one {{count} word} other {{count} words}}",
-
   "optionsCta": "Options",
   "newCta": "New",
   "actionsTitle": "What would you like to do?",
@@ -83,27 +44,29 @@
   "share": "Share",
   "close": "Close",
   "copiedToast": "Copied to clipboard",
-
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
     "description": "Email / share subject line including the category label.",
     "placeholders": {
-      "category": { "type": "String", "example": "Daily Guidance" }
+      "category": {
+        "type": "String",
+        "example": "Daily Guidance"
+      }
     }
   },
-
   "regenerateErrorTitle": "Couldn't generate a new reply",
   "regenerateErrorBody": "{error}\n\nDo you want to try again?",
   "@regenerateErrorBody": {
     "description": "Shown when regenerating an AI answer fails.",
     "placeholders": {
-      "error": { "type": "String", "example": "Network error" }
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
     }
   },
-
   "cancelCta": "Cancel",
   "retryCta": "Try again",
-
   "authTitle": "Create your account",
   "continueAsGuest": "Continue as guest",
   "signInGoogle": "Sign in with Google",
@@ -116,14 +79,12 @@
   "marketingOptIn": "I agree to receive news and offers",
   "openTerms": "Terms of Service",
   "openPrivacy": "Privacy Policy",
-
   "accountSection": "Account",
   "guestMode": "Guest mode",
   "signedIn": "Signed in",
   "upgradeHint": "Save your reflections across devices by creating an account.",
   "upgradeWithGoogle": "Continue with Google",
   "signOut": "Sign out",
-
   "snackUpgraded": "Account upgraded with Google ✅",
   "snackSignedIn": "Signed in with Google ✅",
   "snackSignedOut": "Signed out",
@@ -131,75 +92,79 @@
   "snackSignedInGoogle": "Signed in with Google ✅",
   "snackUpgradedApple": "Account upgraded with Apple ✅",
   "snackUpgradedGoogle": "Account upgraded with Google ✅",
-
   "historyTitle": "Previous reflections",
   "historyOpenCta": "Previous reflections",
   "historyEmpty": "No saved reflections yet.",
   "historyDeleteTitle": "Delete reflection?",
   "historyDeleteBody": "This will permanently remove the selected item.",
   "deleteCta": "Delete",
-
   "historyButton": "Previous Reflections",
   "historyEmptyTitle": "No reflections yet",
   "historyEmptyBody": "Generate something first — your saved items will appear here.",
   "historyDelete": "Delete",
-
   "footerTitle": "With Wilaya, Iman and Sabr",
   "footerSubtitle": "One prayer at a time",
   "genericErrorSnack": "Something went wrong — please try again in a moment.",
-
   "upgradeAccountCta": "Save your reflections across devices – create an account",
   "deleteAccount": "Delete account",
   "exportData": "Export my data",
-
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
     "description": "Label before showing the internal Firebase UID.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Easy tiger 🐯\nAI needs a moment before the next one…",
+  "rateLocalThrottle": "Easy tiger 🐯\nAyara needs a moment before the next one…",
   "rateDailyLimit": "You're out of reflections for now.\nGet more reflections or upgrade to Wilaya.",
   "rateCreditsExhausted": "You've used all your reflections.\nTop up or upgrade to Wilaya to continue.",
   "rateGraceCreditsExhausted": "You're out of reflections for now.\nGet more reflections or upgrade to Wilaya.",
-
   "premiumDescription": "Wilaya unlocks premium features, future categories, and a special badge.",
-
   "ratePlanExhausted": "Your reflections are empty right now. Plan: {plan}.",
   "@ratePlanExhausted": {
     "description": "Shown when the user's reflections are exhausted but the reason is generic.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard or Wilaya" }
+      "plan": {
+        "type": "String",
+        "example": "Standard or Wilaya"
+      }
     }
   },
-
   "rateCheckFailed": "Couldn't check your reflections: {message}",
   "@rateCheckFailed": {
     "description": "Shown when the callable function returns an error message.",
     "placeholders": {
-      "message": { "type": "String", "example": "Network error" }
+      "message": {
+        "type": "String",
+        "example": "Network error"
+      }
     }
   },
-
   "rateCheckGenericError": "Something went wrong while checking your reflections.",
   "aiFallbackGeneric": "Something went wrong — please try again in a moment.",
-
   "limitSectionTitle": "Reflections",
   "limitTodayLabel": "Usage",
   "limitCreditsLabel": "Remaining reflections: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
+  "@limitCreditsLabel": {
+    "placeholders": {
+      "credits": {}
+    }
+  },
   "limitPlanLabel": "Plan: {plan}",
   "@limitPlanLabel": {
     "description": "Shows the current subscription plan name.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard or Wilaya" }
+      "plan": {
+        "type": "String",
+        "example": "Standard or Wilaya"
+      }
     }
   },
   "limitLoadingLabel": "Loading…",
   "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
-
   "aiLimitTitle": "Reflections",
   "aiLimitSubtitle": "Each response uses 1 reflection. Standard includes starter reflections. Wilaya unlocks premium categories and enables top-ups.",
   "aiLimitProgressLabel": "{used} / {total} reflections used",
@@ -209,23 +174,26 @@
       "total": {}
     }
   },
-
   "creditsSectionTitle": "Reflections",
   "creditsUsageLabel": "Usage",
   "creditsRemainingLabel": "Remaining reflections: {reflections}",
-  "@creditsRemainingLabel": { "placeholders": { "reflections": {} } },
-
+  "@creditsRemainingLabel": {
+    "placeholders": {
+      "reflections": {}
+    }
+  },
   "creditsPlanLabel": "Plan: {plan}",
   "@creditsPlanLabel": {
     "description": "Shows the current plan name.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standard or Wilaya" }
+      "plan": {
+        "type": "String",
+        "example": "Standard or Wilaya"
+      }
     }
   },
-
   "creditsLoadingLabel": "Loading…",
   "creditsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
-
   "creditsTitle": "Reflections",
   "creditsSubtitle": "Each response uses 1 reflection. Standard includes starter reflections. Wilaya unlocks premium categories and enables top-ups.",
   "creditsProgressLabel": "{used} / {total} reflections used",
@@ -235,7 +203,6 @@
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "Delete account",
   "settingsDeleteDescription": "Permanently delete your account and all associated data.",
   "settingsDeleteButtonLabel": "Delete my account",
@@ -243,35 +210,26 @@
   "settingsDeleteDialogBody": "This action is permanent and cannot be undone.\n\nAll your chats, history and account information will be deleted.",
   "settingsDeleteDialogCancel": "Cancel",
   "settingsDeleteDialogConfirm": "Delete",
-
   "settingsFreeLimitUsedTitle": "Starter reflections used",
   "settingsFreeLimitUsedDescription": "The starter reflections for this device have been used. Upgrade to Wilaya or buy more reflections to continue.",
-
   "settingsStarterCreditsUsedTitle": "Starter reflections used",
   "settingsStarterCreditsUsedDescription": "The starter reflections for this device have been used. Upgrade to Wilaya or buy more reflections to continue.",
-
   "deviceBoundError": "This device is already linked to another account. Please sign in with the original account.",
-
   "premiumTitle": "Wilaya mode",
   "premiumSubtitleBasic": "Unlock the full Ayara experience.",
   "premiumSubtitlePremium": "You're on Wilaya. Need more reflections?",
-
   "premiumCurrentPlan": "Current plan: {plan}",
   "premiumCreditsStatus": "Reflections: {remaining} / {total}",
-
   "premiumPurchasesUnavailable": "Purchases are not available right now.",
   "premiumSignInToPurchase": "Sign in to buy reflections or unlock Wilaya.",
-
   "premiumRestorePurchases": "Restore purchases",
   "premiumProcessing": "Processing…",
   "premiumRestoreHintTitle": "Already purchased Wilaya or reflections on this device or another one?",
   "premiumRestoreHintBody": "Restore your purchases if they're not showing up.",
-
   "premiumBuyCredits200": "Buy 200 reflections",
   "premiumBuyCredits400": "Buy 400 reflections",
   "premiumBecomePremiumOneTime": "Upgrade to Wilaya mode",
   "premiumTopupHint": "With Wilaya, you can top up with extra reflections whenever you need.",
-
   "premiumUpgradeCta": "Upgrade",
   "premiumRequiredForCategory": "This category is only available for Wilaya users. Upgrade in Settings to unlock all premium content.",
   "premiumBenefitsBasic": "Unlock Wilaya to get extra reflections, access premium categories, and continue whenever you need guidance.",
@@ -280,33 +238,23 @@
   "premiumButtonTopup1000": "Add 1000 reflections",
   "premiumBadge": "Wilaya active",
   "premiumLoadingStore": "Loading store…",
-
   "premiumProductNotAvailable": "This product isn't available in the store yet. Please try again later.",
   "premiumPurchaseError": "Something went wrong with the purchase. Please try again.",
-
   "premiumBuyCredits100": "Add 100 reflections",
-
   "premiumFeatureLocked": "Unlock Wilaya to access this feature.",
   "lockedCategoriesHint": "Some categories are reserved for Wilaya members. Unlock them to explore every reflection on your journey.",
-
   "freePlanBlockedTitle": "You've used up your starter reflections",
   "freePlanBlockedBody": "You're on the Standard plan with starter reflections, and you've reached the limit. To continue — and unlock premium categories — upgrade to Wilaya.",
   "freePlanBlockedCtaGoPremium": "See Wilaya options below",
-
   "graceBlockedTitle": "You've used up your starter reflections",
   "graceBlockedBody": "You're on the Standard plan with starter reflections, and you've reached the limit. To continue — and unlock premium categories — upgrade to Wilaya.",
   "graceBlockedCtaGoPremium": "See Wilaya options below",
-
   "rateGuestMustSignIn": "Sign in to use Ayara and your reflections.",
-
   "guestNoCreditsTitle": "Guest mode",
   "guestNoCreditsBody": "As a guest you can browse the app, but you can't use reflections. Log in later in Settings to use reflections and unlock purchases.",
-
   "guestDialogContinue": "Continue",
   "guestDialogLoginInstead": "Log in instead",
-
   "optionalLabel": "optional",
-
   "accountDeleteSuccessTitle": "Account deleted",
   "accountDeleteSuccessBody": "Your account and associated data have been deleted successfully.",
   "accountDeleteSuccessClose": "Close",
@@ -315,171 +263,20 @@
   "accountDeleteReauthCancelled": "Re-authentication was cancelled. Please sign in again and retry deletion.",
   "accountDeleteReauthRequired": "Account deletion requires a recent login. Please sign out, sign in again, and retry.",
   "settingsDeletePermanentWarning": "This action is permanent and cannot be undone. All data associated with your account will be deleted.",
-
   "dailyGraceTitle": "Daily Guidance",
   "dailyGraceScriptureLabel": "VERSE OF THE DAY",
   "dailyGraceSaintLabel": "SCHOLAR OF THE WEEK",
   "dailyGraceReflectionLabel": "EVENING REFLECTION",
   "dailyGraceCopiedToast": "Verse copied to clipboard",
-
-  "dailyScripture0Text": "Indeed, the righteous will be among gardens and rivers, in a seat of honor near a Mighty King.",
-  "dailyScripture0Ref": "Quran 54:54-55",
-  "dailyScripture1Text": "And We have not sent you, [O Muhammad], except as a mercy to the worlds.",
-  "dailyScripture1Ref": "Quran 21:107",
-  "dailyScripture2Text": "Is not Allah sufficient for His servant? Yet they frighten you with others besides Him.",
-  "dailyScripture2Ref": "Quran 39:36",
-  "dailyScripture3Text": "Perhaps you hate something and it is good for you; and perhaps you love something and it is bad for you. And Allah knows, while you know not.",
-  "dailyScripture3Ref": "Quran 2:216",
-  "dailyScripture4Text": "Indeed, Allah is with the patient ones.",
-  "dailyScripture4Ref": "Quran 2:153",
-  "dailyScripture5Text": "So remember Me; I will remember you. And be grateful to Me and do not deny Me.",
-  "dailyScripture5Ref": "Quran 2:152",
-  "dailyScripture6Text": "Indeed, the most noble of you in the sight of Allah is the most righteous of you.",
-  "dailyScripture6Ref": "Quran 49:13",
-  "dailyScripture7Text": "And your Lord has decreed that you worship none but Him, and that you be dutiful to your parents.",
-  "dailyScripture7Ref": "Quran 17:23",
-  "dailyScripture8Text": "Verily, with hardship comes ease.",
-  "dailyScripture8Ref": "Quran 94:6",
-  "dailyScripture9Text": "And He is with you wherever you are. And Allah, of what you do, is Seeing.",
-  "dailyScripture9Ref": "Quran 57:4",
-  "dailyScripture10Text": "Allah does not burden a soul beyond that it can bear.",
-  "dailyScripture10Ref": "Quran 2:286",
-  "dailyScripture11Text": "And whoever relies upon Allah — then He is sufficient for him.",
-  "dailyScripture11Ref": "Quran 65:3",
-  "dailyScripture12Text": "My mercy encompasses all things.",
-  "dailyScripture12Ref": "Quran 7:156",
-  "dailyScripture13Text": "And when My servants ask you about Me — indeed I am near. I respond to the supplicant when he calls upon Me.",
-  "dailyScripture13Ref": "Quran 2:186",
-  "dailyScripture14Text": "Whoever does righteousness, whether male or female, while being a believer — We will surely cause him to live a good life.",
-  "dailyScripture14Ref": "Quran 16:97",
-  "dailyScripture15Text": "Indeed, Allah will not change the condition of a people until they change what is in themselves.",
-  "dailyScripture15Ref": "Quran 13:11",
-  "dailyScripture16Text": "So do not weaken and do not grieve, and you will be superior if you are true believers.",
-  "dailyScripture16Ref": "Quran 3:139",
-  "dailyScripture17Text": "O My servants who have transgressed against themselves, do not despair of the mercy of Allah. Indeed, Allah forgives all sins.",
-  "dailyScripture17Ref": "Quran 39:53",
-  "dailyScripture18Text": "And whoever fears Allah — He will make for him a way out, and will provide for him from where he does not expect.",
-  "dailyScripture18Ref": "Quran 65:2-3",
-  "dailyScripture19Text": "Do not lose hope in the mercy of Allah.",
-  "dailyScripture19Ref": "Quran 12:87",
-  "dailyScripture20Text": "And We have certainly made the Quran easy to remember. So is there anyone who will be mindful?",
-  "dailyScripture20Ref": "Quran 54:17",
-  "dailyScripture21Text": "And He found you lost and guided you.",
-  "dailyScripture21Ref": "Quran 93:7",
-  "dailyScripture22Text": "And your Lord says: Call upon Me; I will respond to you.",
-  "dailyScripture22Ref": "Quran 40:60",
-  "dailyScripture23Text": "And We have certainly honored the children of Adam.",
-  "dailyScripture23Ref": "Quran 17:70",
-  "dailyScripture24Text": "And seek help through patience and prayer.",
-  "dailyScripture24Ref": "Quran 2:45",
-  "dailyScripture25Text": "Whoever does an atom's weight of good will see it.",
-  "dailyScripture25Ref": "Quran 99:7",
-  "dailyScripture26Text": "Unquestionably, the help of Allah is near.",
-  "dailyScripture26Ref": "Quran 2:214",
-  "dailyScripture27Text": "And whoever is grateful — his gratitude is only for the benefit of himself.",
-  "dailyScripture27Ref": "Quran 31:12",
-
-  "dailyReflection0": "As this day closes, consider one moment where Allah's mercy was evident.",
-  "dailyReflection1": "Bring before Allah whatever weighed on your heart today.",
-  "dailyReflection2": "Name one blessing from this day and express gratitude to Allah.",
-  "dailyReflection3": "Rest in the knowledge that you are held in Allah's infinite care.",
-  "dailyReflection4": "Reflect on where you felt called to show compassion and kindness today.",
-  "dailyReflection5": "Let go of what you cannot control and trust in Allah's perfect plan.",
-  "dailyReflection6": "As the day draws to a close, receive peace in remembrance of Allah.",
-  "dailyReflection7": "Consider how you honored your prayers today, and thank Allah for each one.",
-  "dailyReflection8": "Reflect on a moment where patience (Sabr) guided your actions today.",
-  "dailyReflection9": "Ask forgiveness for any shortcoming today — Allah's mercy is boundless.",
-  "dailyReflection10": "Name one person you showed kindness to today and make dua for them.",
-  "dailyReflection11": "Sit with gratitude: what did Allah provide today that you did not ask for?",
-  "dailyReflection12": "Reflect on a verse from the Quran that speaks to where you are right now.",
-  "dailyReflection13": "Consider how you used your time today — and offer tomorrow to Allah.",
-  "dailyReflection14": "Rest knowing that whatever hardship came today, Allah was with you through it.",
-  "dailyReflection15": "Think of one way you served your family or community today for Allah's sake.",
-  "dailyReflection16": "As night falls, make Tawbah — Allah loves those who turn back to Him.",
-  "dailyReflection17": "Reflect on the beauty Allah placed in your day, however small.",
-  "dailyReflection18": "Consider what you learned today and how it draws you closer to Allah.",
-  "dailyReflection19": "Let the day's worries rest with Allah — He carries what you cannot.",
-  "dailyReflection20": "Think of a moment today where you could have chosen better, and learn from it gently.",
-  "dailyReflection21": "Make dua for those who are struggling — your prayer is a gift to them.",
-  "dailyReflection22": "Recall a blessing you often overlook and take a moment to thank Allah for it.",
-  "dailyReflection23": "Reflect on your intentions today — were they for Allah? Tomorrow, begin again.",
-  "dailyReflection24": "As the night quiets, listen for Allah's nearness in the stillness.",
-  "dailyReflection25": "Consider where you found strength today — that strength is from Allah.",
-  "dailyReflection26": "Name one thing you will do tomorrow, for Allah's sake, that you did not do today.",
-  "dailyReflection27": "As you prepare for rest, entrust your soul to Allah — He is the best of guardians.",
-
-  "dailyRoleModel0": "Prophet Muhammad ﷺ — Seal of the Prophets, whose household (Ahl al-Bayt) are a light and mercy for all of creation",
-  "dailyRoleModel1": "Imam Ali ibn Abi Talib (AS) — First Imam, Commander of the Faithful, gate of the city of the Prophet's knowledge, author of Nahj al-Balagha",
-  "dailyRoleModel2": "Imam Hasan ibn Ali (AS) — Second Imam, grandson of the Prophet ﷺ, leader of the youth of Paradise",
-  "dailyRoleModel3": "Imam Hussain ibn Ali (AS) — Third Imam, Master of Martyrs, whose stand at Karbala is the eternal emblem of justice over oppression",
-  "dailyRoleModel4": "Imam Ali ibn Hussain Zayn al-Abidin (AS) — Fourth Imam, the Adornment of the Worshippers, author of al-Sahifa al-Sajjadiyya",
-  "dailyRoleModel5": "Imam Muhammad al-Baqir (AS) — Fifth Imam, Splitter of Knowledge, who opened the doors of Shia jurisprudence and theology",
-  "dailyRoleModel6": "Imam Ja'far al-Sadiq (AS) — Sixth Imam, the great teacher of the Ahl al-Bayt school, whose students shaped Islamic science and law",
-  "dailyRoleModel7": "Imam Musa al-Kadhim (AS) — Seventh Imam, the Patient One, who endured long imprisonment with unwavering faith",
-  "dailyRoleModel8": "Imam Ali al-Ridha (AS) — Eighth Imam, the Scholar of the Ahl al-Bayt, whose shrine in Mashhad is a place of pilgrimage and blessing",
-  "dailyRoleModel9": "Imam Muhammad al-Jawad (AS) — Ninth Imam, the Generous One, who demonstrated divine wisdom from the youngest age",
-  "dailyRoleModel10": "Imam Ali al-Hadi (AS) — Tenth Imam, who preserved the faith of his community under severe Abbasid pressure",
-  "dailyRoleModel11": "Imam Hasan al-Askari (AS) — Eleventh Imam, who guided the community from Samarra and prepared the way for the occultation",
-  "dailyRoleModel12": "Imam Muhammad al-Mahdi (AJ) — Twelfth Imam, the Awaited Saviour, the Living Proof of Allah on earth, may Allah hasten his reappearance",
-  "dailyRoleModel13": "Lady Khadijah bint Khuwaylid (SA) — first wife of the Prophet ﷺ, first believer, who supported the mission of Islam with her wealth and her soul",
-  "dailyRoleModel14": "Lady Fatimah az-Zahra (SA) — daughter of the Prophet ﷺ, wife of Imam Ali (AS), mother of the Imams, the Lady of Light, the best of women of all the worlds",
-  "dailyRoleModel15": "Lady Zainab bint Ali (SA) — granddaughter of the Prophet ﷺ, hero of Karbala, who carried the message of Imam Hussain (AS) to the world after his martyrdom",
-  "dailyRoleModel16": "Lady Maryam (AS) — mother of Prophet Isa (AS), chosen and purified above all women, a model of devotion and purity in the Quran",
-  "dailyRoleModel17": "Lady Asiya (AS) — wife of Pharaoh, who chose faith over the throne of the world, praised in the Quran as a model for all believers",
-  "dailyRoleModel18": "Lady Ruqayyah bint Hussain (AS) — young daughter of Imam Hussain (AS), who endured the tragedy of Karbala as a child and is beloved by the faithful",
-  "dailyRoleModel19": "Salman al-Farisi (RA) — beloved companion of the Prophet ﷺ, the first Persian Muslim, deeply close to the Ahl al-Bayt, of whom the Prophet said: Salman is from us, the Ahl al-Bayt",
-  "dailyRoleModel20": "Abu Dharr al-Ghifari (RA) — companion of the Prophet ﷺ who stood firmly with Imam Ali (AS), champion of the poor and oppressed, model of uncompromising truthfulness",
-  "dailyRoleModel21": "Ammar ibn Yasir (RA) — companion of the Prophet ﷺ, son of the first martyrs of Islam, who fought and was martyred alongside Imam Ali (AS) at the Battle of Siffin",
-  "dailyRoleModel22": "Maytham al-Tammar (RA) — loyal companion of Imam Ali (AS), who endured martyrdom rather than renounce his love for the Ahl al-Bayt",
-  "dailyRoleModel23": "Hujr ibn Adi al-Kindi (RA) — devoted companion of Imam Ali (AS), martyred by Muawiyah for refusing to curse the Commander of the Faithful",
-  "dailyRoleModel24": "Mukhtar al-Thaqafi (RA) — who rose to avenge the martyrs of Karbala and brought justice to the killers of Imam Hussain (AS)",
-  "dailyRoleModel25": "Abbas ibn Ali (AS) — standard-bearer at Karbala, brother and loyal protector of Imam Hussain (AS), whose devotion is a model of selfless love",
-  "dailyRoleModel26": "Ali al-Akbar ibn Hussain (AS) — firstborn son of Imam Hussain (AS), who resembled the Prophet ﷺ most closely and was martyred at Karbala in the prime of youth",
-  "dailyRoleModel27": "Ali al-Asghar (AS) — the infant son of Imam Hussain (AS), the youngest martyr of Karbala, whose innocent blood cries out against injustice",
-  "dailyRoleModel28": "Hurr ibn Yazid al-Riyahi (RA) — the commander who blocked Imam Hussain (AS) yet repented on the morning of Ashura and died defending the Imam, a model of true Tawbah",
-  "dailyRoleModel29": "Bilal ibn Rabah (RA) — the first muezzin of Islam, a freed slave whose faith overcame all oppression, beloved by the Prophet ﷺ and the Ahl al-Bayt",
-  "dailyRoleModel30": "Sumayya bint Khabbab (RA) — first martyr of Islam, mother of Ammar ibn Yasir, who gave her life for the truth of La ilaha illallah",
-  "dailyRoleModel31": "Jafar ibn Abi Talib (RA) — cousin of the Prophet ﷺ and brother of Imam Ali (AS), Dhul-Janahayn, who was martyred at the Battle of Mu'tah",
-  "dailyRoleModel32": "Zayd ibn Ali ibn Hussain (RA) — grandson of Imam Hussain (AS) and great scholar who rose against Umayyad tyranny and was martyred, revered by Shia Muslims",
-  "dailyRoleModel33": "Prophet Ibrahim (AS) — Friend of Allah, father of the Prophets, who smashed idols and submitted to Allah even when commanded to sacrifice his son",
-  "dailyRoleModel34": "Prophet Musa (AS) — Kalimullah, who led his people from Pharaoh's oppression to freedom through steadfast faith and divine guidance",
-  "dailyRoleModel35": "Prophet Isa (AS) — Spirit of Allah, born of Lady Maryam (AS), who healed the sick and raised the dead by Allah's permission",
-  "dailyRoleModel36": "Prophet Yusuf (AS) — whose patience through betrayal, slavery, and imprisonment is one of the most beautiful stories in the Quran",
-  "dailyRoleModel37": "Prophet Dawud (AS) — given the Zabur, who combined the roles of prophet and just ruler, and whose Psalms of praise echo through creation",
-  "dailyRoleModel38": "Prophet Sulayman (AS) — who was granted dominion over wind, jinn, and creation, yet remained humble and grateful before Allah",
-  "dailyRoleModel39": "Prophet Nuh (AS) — who called his people to Allah for 950 years with patience and perseverance in the face of total rejection",
-  "dailyRoleModel40": "Prophet Yunus (AS) — who turned to Allah in the depths of darkness with the words: There is no god but You, glory be to You; I was indeed of the wrongdoers",
-  "dailyRoleModel41": "Prophet Ayub (AS) — the supreme model of Sabr, who endured immense suffering without complaint and was restored by Allah's boundless mercy",
-  "dailyRoleModel42": "Shaykh al-Mufid (RA) — the great Shia theologian of Baghdad, who systematised Imami theology and defended Shia doctrine with brilliant scholarship",
-  "dailyRoleModel43": "Allamah al-Hilli (RA) — the foremost Shia jurist and theologian of his age, who strengthened Shia jurisprudence and engaged the great intellectual debates of his time",
-  "dailyRoleModel44": "Sheikh al-Tusi (RA) — Shaykh al-Ta'ifa, the foundational Shia scholar whose works in fiqh, hadith, and theology remain authoritative to this day",
-  "dailyRoleModel45": "Shahid al-Awwal — Muhammad ibn Makki al-Amili (RA), the First Martyr of Shia jurisprudence, whose al-Lum'ah al-Dimashqiyyah remains a cornerstone of Shia fiqh",
-  "dailyRoleModel46": "Allamah Tabataba'i (RA) — the great 20th century Shia philosopher and author of al-Mizan, the monumental Quranic exegesis of the modern era",
-  "dailyRoleModel47": "Imam Khomeini (RA) — reviver of Shia political thought in the modern age, who led the Islamic Revolution and championed the authority of the Quran and the Ahl al-Bayt",
-  "dailyRoleModel48": "Shahid Mutahhari (RA) — 20th century Shia scholar and martyr, whose writings on Islamic philosophy, ethics, and society continue to guide millions",
-  "dailyRoleModel49": "Sayyid Muhammad Baqir al-Sadr (RA) — visionary Shia scholar and martyr, whose works in Islamic economics and philosophy broke new intellectual ground",
-  "dailyRoleModel50": "Umm Salamah (RA) — noble wife of the Prophet ﷺ, deeply devoted to the Ahl al-Bayt, who narrated many hadith and was a pillar of wisdom in the early community",
-  "dailyRoleModel51": "Abdullah ibn Abbas (RA) — cousin of the Prophet ﷺ, ocean of knowledge in Quranic exegesis, who remained close to Imam Ali (AS)",
-  "dailyRoleModel52": "Muadh ibn Jabal (RA) — companion of the Prophet ﷺ renowned for his knowledge of halal and haram, and his deep devotion to learning",
-  "dailyRoleModel53": "Musab ibn Umayr (RA) — the first ambassador of Islam, who sacrificed wealth and family for the truth of the faith",
-  "dailyRoleModel54": "Umar ibn Abd al-Aziz (RH) — Umayyad caliph who sought to restore justice, lifted the cursing of Imam Ali (AS) from the pulpits, and is remembered for his piety",
-  "dailyRoleModel55": "Fakhr al-Din al-Razi (RH) — great Islamic scholar and Quranic exegete whose Mafatih al-Ghayb engaged deeply with theology and philosophy",
-  "dailyRoleModel56": "Ibn Sina — Abu Ali al-Husayn ibn Sina (RH), the great Islamic philosopher and physician of Persian heritage whose Canon of Medicine shaped world science",
-  "dailyRoleModel57": "Al-Biruni (RH) — the brilliant polymath of the Islamic Golden Age, a Persian scholar who advanced mathematics, astronomy, and the study of cultures",
-  "dailyRoleModel58": "Ibn Khaldun (RH) — the great North African Islamic historian and social thinker, founder of the philosophy of history and sociology",
-  "dailyRoleModel59": "Lady Nafisa bint al-Hasan (SA) — great-granddaughter of Imam Hasan (AS), renowned for her knowledge, piety, and intercession, deeply revered in the Shia tradition",
-
   "locationConsentLabel": "Allow Ayara to use my location for Qibla direction and prayer times",
   "locationConsentHint": "Used only for these features. Your location is never shared or stored.",
-
   "askPageTitle": "Ask Ayara",
   "askPageDescription": "Ask anything about faith, prayer, life, or Islamic practice and receive guidance rooted in the Quran and the teachings of the Ahl al-Bayt.",
   "askPageInputHint": "Type your question here…",
   "askPageSubmitCta": "Ask",
   "askPageInputEmptyError": "Please write a question first.",
   "askResultYourQuestion": "Your question",
-
-  "guidancePageTitle": "Prayer & Guidance",
+  "guidancePageTitle": "Qibla",
   "qiblaFacingMecca": "Facing Makkah",
   "qiblaCompassInstruction": "Rotate your phone until the gold needle points upward.\nThat direction points to the Qibla (Makkah).",
   "qiblaGpsUnavailableBody": "GPS signal is weak. Move outdoors and tap Retry.",
@@ -487,14 +284,17 @@
   "qiblaTitle": "Qibla Direction",
   "qiblaDistanceLabel": "{km} km to Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
   "qiblaLocationNeededTitle": "Location required",
   "qiblaLocationNeededBody": "Allow location access so Ayara can calculate the direction of the Kaaba in Makkah from wherever you are.",
   "qiblaOpenSettings": "Open Settings",
   "qiblaCompassLoading": "Finding your position…",
   "qiblaTowardMecca": "Toward Makkah",
-
   "prayerTimesTitle": "Prayer Times",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
@@ -505,52 +305,325 @@
   "prayerTimesLocationNeededBody": "Allow location access so Ayara can calculate accurate prayer times for your city.",
   "prayerTimesNextLabel": "Next",
   "prayerTimesDoneLabel": "Done",
-
   "monthlyPrayerTimesTitle": "Monthly Prayer Times",
   "monthlyPrayerTimesViewButton": "View Full Month",
   "monthlyPrayerTimesNextMonth": "Next month",
   "monthlyPrayerTimesDayHeader": "Day",
-
   "sharePrayerTimes": "Share prayer times",
-
+  "notificationsSectionTitle": "Notifications",
+  "notificationsSectionSubtitle": "Prayer reminders, calendar events & more",
+  "dailyReflectionReminderTitle": "Daily Reflection",
+  "dailyReflectionReminderDescription": "A gentle daily reminder to open Ayara and connect with your faith.",
+  "dailyReflectionReminderEnable": "Enable daily reminder",
+  "dailyReflectionReminderTimeLabel": "Reminder time",
   "prayerNotificationsTitle": "Prayer Reminders",
   "prayerNotificationsDescription": "Receive a gentle reminder before each prayer time to help you stay connected throughout the day.",
   "prayerNotificationsEnable": "Enable prayer reminders",
   "prayerNotificationsOpenSettings": "Open notification settings",
   "prayerNotificationsDenied": "Notifications are disabled",
   "prayerNotificationsDeniedHint": "Go to Settings and allow notifications for Ayara to receive prayer time reminders.",
-
   "notificationsConsentLabel": "Allow notifications for prayer times",
-
   "prayerNotifTitleFajr": "🌅 Fajr — Dawn Prayer",
   "prayerNotifBodyFajr": "Fajr is the prayer of the Ahl al-Bayt's mornings. Imam Ali (AS) said: Guard the dawn prayer as you guard your most precious trust. Rise, purify yourself, and stand before Allah.",
-
   "prayerNotifTitleDhuhr": "☀️ Dhuhr — Midday Prayer",
   "prayerNotifBodyDhuhr": "The Imams of the Ahl al-Bayt prized every moment of remembrance. Pause your day, combine Dhuhr with Asr if needed, and return your heart to Allah.",
-
   "prayerNotifTitleAsr": "🌤️ Asr — Afternoon Prayer",
   "prayerNotifBodyAsr": "Guard the prayer, for it is the covenant between you and Allah. Asr time has come — do not let it pass without remembrance.",
-
   "prayerNotifTitleMaghrib": "🌇 Maghrib — Sunset Prayer",
   "prayerNotifBodyMaghrib": "The sun has set — a moment the Ahl al-Bayt held sacred for supplication. Offer Maghrib and open your hands to Allah in dua before the night begins.",
-
   "prayerNotifTitleIsha": "🌙 Isha — Night Prayer",
   "prayerNotifBodyIsha": "End your day in the company of Allah. The Imams encouraged Salat al-Layl after Isha — but first, complete your Isha and close the day with His remembrance.",
-
   "outOfReflectionsBannerText": "You've used all your reflections",
   "outOfReflectionsBannerCta": "Get more",
-
   "dhikrPageTitle": "Dhikr",
   "dhikrTapToCount": "Tap the circle to count",
   "dhikrResetButton": "Reset",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "You have completed 99 remembrances of Allah. May they be a light for your heart.",
-
+  "dhikrCompleteMessage": "You have completed 100 remembrances of Allah. May they be a light for your heart.",
   "disclaimerTitle": "About this app's guidance",
   "disclaimerBody": "Ayara provides Islamic reflections, reminders, and spiritual content to support your personal journey of faith, rooted in the Quran and the teachings of the Ahl al-Bayt. This content is offered for general informational and inspirational purposes only.\n\nAyara does not replace qualified scholarship.\nThe guidance in this app is not a substitute for a learned Islamic scholar, marja', or theologically trained teacher. In Shia Islam, religious guidance is rooted in the Ja'fari school of jurisprudence (fiqh) and the tradition of following a living Marja' (source of emulation) — a qualified jurist whose rulings guide believers in religious practice. If you have questions about religious rulings, halal and haram matters, or personal religious obligations, please seek advice from a qualified Marja' or a scholar in your community.\n\nThis app does not issue religious rulings.\nAyara does not make authoritative determinations on matters of fiqh or personal religious obligations. Nothing here should be treated as a fatwa or binding religious instruction.\n\nThe centrality of the Ahl al-Bayt.\nIn Shia Islam, the Prophet Muhammad ﷺ and his purified household — the Ahl al-Bayt — are the authoritative guides of the Islamic community after the Quran. The twelve Imams of the Ahl al-Bayt are the divinely appointed interpreters of Islamic teaching. Content in this app reflects this tradition and seeks to honour it faithfully.\n\nCommunity matters.\nThis app aims to encourage your engagement with faith while deeply respecting the vital role of your local mosque, Islamic centre, and religious community. We encourage you to stay connected with and learn from qualified teachers near you.",
   "disclaimerClose": "I understand",
   "disclaimerInfoTooltip": "About this app's guidance",
   "disclaimerSettingsSubtitle": "For general informational purposes only. Tap to read the full disclaimer.",
-  "disclaimerSectionHeader": "Guidance disclaimer"
+  "disclaimerSectionHeader": "Guidance disclaimer",
+  "navHome": "Home",
+  "navReflect": "Reflect",
+  "navDuas": "Duas",
+  "navCalendar": "Calendar",
+  "dashboardToday": "TODAY",
+  "dashboardComingUp": "Coming up",
+  "dashboardDaysUnit": "{count, plural, one {day} other {days}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Quick Access",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Guidance",
+  "quickActionPrayerTimes": "Prayer Times",
+  "askAyaraTitle": "Ask Ayara",
+  "askAyaraSubtitle": "Ask any Islamic question and receive a thoughtful, guided answer.",
+  "askAyaraHint": "e.g. What is the significance of Ramadan?",
+  "askAyaraSubmit": "Ask",
+  "wisdomOfTheDayTitle": "Wisdom of the Day",
+  "calendarScreenTitle": "Islamic Calendar",
+  "calendarUpcomingOccasions": "Upcoming Occasions",
+  "calendarOccasionRemindersTitle": "Occasion Reminders",
+  "calendarOccasionRemindersHint": "Notified the evening before each occasion",
+  "calendarNotifPermissionDenied": "Notification permission denied. Enable it in your device settings.",
+  "calendarNoEvents": "No upcoming events found.",
+  "calendarAddToPhone": "Add to Phone Calendar",
+  "calendarAddedToPhone": "Added to Calendar",
+  "calendarCountdownToday": "TODAY",
+  "calendarCountdownTomorrow": "TOMORROW",
+  "calendarCountdownDays": "in {days} days",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Jan",
+  "calendarMonthFeb": "Feb",
+  "calendarMonthMar": "Mar",
+  "calendarMonthApr": "Apr",
+  "calendarMonthMay": "May",
+  "calendarMonthJun": "Jun",
+  "calendarMonthJul": "Jul",
+  "calendarMonthAug": "Aug",
+  "calendarMonthSep": "Sep",
+  "calendarMonthOct": "Oct",
+  "calendarMonthNov": "Nov",
+  "calendarMonthDec": "Dec",
+  "calendarSeasonMuharramEarly": "Days of Muharram — remember Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — days of mourning and reflection",
+  "calendarSeasonArbaeen": "Arbaeen — forty days of Husayn",
+  "calendarSeasonRoadToArbaeen": "The road to Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — the dawn of revelation",
+  "calendarSeasonMidShaban": "Mid-Sha'ban — birthday of Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — the month of the Quran",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Duas & Ziyarat",
+  "duasSearchHint": "Search duas, ziyarat…",
+  "duasFilterAll": "All",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} duas & ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "No duas found.",
+  "duaCategoryDaily": "Daily",
+  "duaCategoryWeekly": "Weekly",
+  "duaCategoryOccasions": "Occasions",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Birth",
+  "eventTypeMartyrdom": "Martyrdom",
+  "eventTypeOccasion": "Occasion",
+  "duaCopyTooltip": "Copy translation",
+  "duaToggleTransliteration": "Transliteration",
+  "duaToggleTranslation": "Translation",
+  "duaAskAiLabel": "Ask Ayara to explain this dua",
+  "duaAskAiLockedLabel": "Ask Ayara (Wilaya)",
+  "duaAiLockedMessage": "Ayara explanations are available for Wilaya members. Upgrade in Settings.",
+  "duaAiComingSoon": "Ask Ayara about \"{name}\" — coming soon!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua copied to clipboard.", 
+  "tasbihAllahuAkbarMeaning": "Allah is the Greatest",
+  "tasbihAlhamdulillahMeaning": "All praise belongs to Allah",
+  "tasbihSubhanallahMeaning": "Glory be to Allah",
+  "tasbihResetTooltip": "Reset",
+  "tasbihCompleteTitle": "Tasbih Complete",
+  "tasbihCompleteMessage": "May Allah accept your dhikr.",
+  "tasbihTapHint": "Tap anywhere to count",
+  "tasbihatScreenTitle": "Prayer Guide",
+  "tasbihatScreenSubtitle": "THE PRAYER GLORIFICATIONS",
+  "tasbihatScreenDescription": "A complete guide to the glorifications recited during and after the daily prayers — following the tradition of the Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Recited during the 3rd & 4th rakʿah",
+  "tasbihatArba3Info": "In Shia jurisprudence, the Tasbiḥāt al-Arbaʿa replaces Surah al-Fatiha in the 3rd and 4th rakʿah of Dhuhr, Asr, Maghrib, and Isha. It is obligatory (wājib) to recite it once, and recommended (mustaḥabb) to recite it three times.",
+  "tasbihatArba3Translation": "Glory be to Allah · All praise is for Allah\nThere is no god but Allah · Allah is the Greatest",
+  "tasbihatArba3CompleteTitle": "Recitation Complete",
+  "tasbihatArba3CompleteMessage": "May your prayer be accepted — Āmīn",
+  "tasbihatArba3TapHint": "Tap after each recitation",
+  "tasbihatZahraSubtitle": "After every prayer · 100 beads",
+  "tasbihatZahraOriginLabel": "Origin",
+  "tasbihatZahraHadith": "Lady Fatima al-Zahra (sa) asked the Prophet ﷺ for a servant. He said: \"Shall I not guide you to something better? Recite Subḥānallāh 33 times, Alḥamdulillāh 33 times, and Allāhu Akbar 34 times after every prayer. That is better for you than a servant.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Vol. 85",
+  "tasbihatZahraOpenCounter": "Open Tasbīḥ Counter",
+  "tasbihatDuasTitle": "RECOMMENDED DUĀS",
+  "tasbihatDuasSubtitle": "After completing your prayer",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "After every obligatory prayer",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Whoever recites Āyat al-Kursī after every obligatory prayer, nothing stands between him and paradise except death. Imam al-Bāqir (a) said it is among the greatest verses in the Quran.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "After every prayer · seals all supplications",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Sending salutations upon the Prophet ﷺ and his purified family (Āl Muḥammad) is recommended to seal every dua. Imam al-Ṣādiq (a) said: \"Any dua is suspended until you send ṣalawāt upon Muḥammad and his family.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "After every prayer · for the Imam of our time",
+  "tasbihatDuaFarajSource": "Taught by Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. Recited daily by the Shia faithful after every prayer as an act of devotion to the living Imam.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ of Lady Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "After Maghrib & Isha · especially recommended",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) said that reciting Tasbīḥ al-Zahrā after Isha before sleeping is better than 1000 rakʿahs of optional prayer. Its light ascends to the heavens.",
+  "tasbihFatimaGiftPre": "A gift from the Prophet",
+  "tasbihFatimaGiftPost": "recited after every prayer",
+  "prayerTrackerTitle": "PRAYER TRACKER",
+  "prayerTrackerPrayed": "Prayed",
+  "prayerTrackerDayStreak": "{count} day streak",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "All prayers completed today. May Allah accept.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Completed today",
+  "dhikrTrackerNotDoneToday": "Not done today",
+  "dhikrTrackerDayStreak": "{count} day streak",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Tasbīḥ Reminder",
+  "dhikrReminderDescription": "A gentle daily reminder to recite your Tasbīḥ al-Zahrā (SA).",
+  "dhikrReminderEnable": "Enable Tasbīḥ reminder",
+  "dhikrReminderTimeLabel": "Reminder time",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Daily Hadith",
+  "hadithLabelArabic": "ARABIC",
+  "hadithLabelTranslation": "TRANSLATION",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Share This Hadith",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nVia Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Previous",
+  "hadithNavNext": "Next",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "The 14 Masumeen",
+  "imamsScreenSubtitle": "The Prophet, Lady Fatima, and the Twelve Imams — the infallible guides of Islam",
+  "imamLabelBorn": "Born",
+  "imamLabelMartyrdom": "Martyrdom",
+  "imamLabelStatus": "Status",
+  "imamSectionBiography": "BIOGRAPHY",
+  "imamSectionFamousSaying": "FAMOUS SAYING",
+  "imamRoleProphet": "The Final Prophet",
+  "imamRoleInfallible": "The Infallible",
+  "imamOrdinal1": "1st Imam",
+  "imamOrdinal2": "2nd Imam",
+  "imamOrdinal3": "3rd Imam",
+  "imamOrdinal4": "4th Imam",
+  "imamOrdinal5": "5th Imam",
+  "imamOrdinal6": "6th Imam",
+  "imamOrdinal7": "7th Imam",
+  "imamOrdinal8": "8th Imam",
+  "imamOrdinal9": "9th Imam",
+  "imamOrdinal10": "10th Imam",
+  "imamOrdinal11": "11th Imam",
+  "imamOrdinal12": "12th Imam",
+  "duaAudioScreenTitle": "Listen to Duas",
+  "duaAudioScreenSubtitle": "Select a dua to listen. Tap the tile to play or pause.",
+  "duaAudioComingSoonMessage": "Audio for this dua will be available in an upcoming update.",
+  "duaAudioClose": "Close",
+  "duaAudioError": "Could not load audio. Please check your connection.",
+  "duaAudioMetaTransmittedBy": "Transmitted by",
+  "duaAudioMetaOccasion": "Occasion",
+  "duaAudioMetaDuration": "Duration",
+  "quickActionDailyHadith": "Daily Hadith",
+  "quickAction14Masumeen": "14 Masumeen",
+  "quickActionListenDuas": "Listen",
+  "quickActionTasbihat": "Prayer Guide",
+  "pilgrimageSectionTitle": "The Sacred Journey",
+  "pilgrimageSectionSubtitle": "Complete guides to Hajj & Umrah — the pilgrimage to the Holy House of Allah in Mecca",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "The Fifth Pillar of Islam",
+  "hajjCardDescription": "The grand annual pilgrimage — obligatory once in a lifetime for every able Muslim",
+  "hajjScreenTitle": "Hajj Guide",
+  "hajjScreenSubtitle": "Step-by-step guide to the grand pilgrimage",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "The Lesser Pilgrimage",
+  "umrahCardDescription": "A deeply rewarding spiritual journey that can be performed at any time of year",
+  "umrahScreenTitle": "Umrah Guide",
+  "umrahScreenSubtitle": "Step-by-step guide to the lesser pilgrimage",
+  "pilgrimageStepsTitle": "Rituals & Steps",
+  "pilgrimageImportantNotesTitle": "Important Notes",
+  "pilgrimageDuaTitle": "Dua for this step",
+  "pilgrimageJafariNoteTitle": "Ja'fari Fiqh Note",
+  "pilgrimageComplete": "✓ Complete",
+  "pilgrimageMarkDone": "Mark as complete",
+  "pilgrimageProgress": "{done} of {total} steps",
+  "pilgrimageReadTime": "~{minutes} min",
+  "pilgrimageShiaNoteTitle": "Shia Pilgrims",
+  "pilgrimageShiaNoteBody": "Shia pilgrims traditionally also travel to Medina to visit the tomb of the Prophet Muhammad (SAW) at Masjid al-Nabawi, and the graves of the Imams at Jannat al-Baqi. These visits carry immense spiritual significance and are considered an integral part of the journey for most Shia Muslims.",
+  "hajjIntro": "Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.",
+  "umrahIntro": "Umrah is the lesser pilgrimage to Mecca and, unlike Hajj, can be performed at any time of the year. While not obligatory, it carries immense spiritual reward and is considered a highly recommended act of worship. It shares several rituals with Hajj but is shorter, consisting of four main rites."
 }
-

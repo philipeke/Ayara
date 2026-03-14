@@ -1,585 +1,629 @@
 {
   "@@locale": "sw",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "Chagua lugha yako",
   "languageSelectSub": "Unaweza kubadilisha hii baadaye katika Mipangilio",
   "actionContinue": "Endelea",
-  "languageSuggestedHeader": "Iliyopendekezwa",
+  "languageSuggestedHeader": "Inayopendekezwa",
   "languageAllHeader": "Lugha zote",
-  "languageSuggestedBadge": "Iliyopendekezwa",
+  "languageSuggestedBadge": "Inayopendekezwa",
   "languageSearchHint": "Tafuta…",
-
-  "planGrace": "Kawaida",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Mwongozo wa Kila Siku",
-  "categoryFaithTrust": "Imani na Tawakali",
-  "categoryPrayerReflection": "Tafakari ya Sala",
-  "categoryHopeDifficultTimes": "Subira na Matumaini",
-  "categoryForgiveness": "Tafuta Msamaha",
-  "categoryLoveCompassion": "Rahmah na Huruma",
-  "categoryStrengthCourage": "Imani na Nguvu",
-  "categoryGratitude": "Moyo wa Shukrani",
-  "categoryPurposeCalling": "Lengo la Maisha",
-  "categoryFamilyRelationships": "Uhusiano wa Familia",
-  "categoryPeaceAnxietyRelief": "Amani ya Ndani",
-  "categoryWisdomOfJesus": "Hikma ya Manabii",
-  "categoryHumilityCharacter": "Adabu Nzuri",
-  "categoryOvercomingTemptation": "Kupinga Matamanio",
-  "categoryEveningReflection": "Dhikri ya Jioni",
-  "categoryCustom": "Kutafakari K binafsi",
-  "dhikrMeaningSubhanallah": "Utukufu ni wa Allah",
-  "dhikrMeaningAlhamdulillah": "Sifa zote ni za Allah",
-  "dhikrMeaningAllahuAkbar": "Allah ni Mkubwa",
-  "quranVerseHeartAtRest": "Hakika, katika kukumbuka Allah, mioyo hupata pumziko.",
-
+  "planBasic": "Kawaida",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Mwongozo wa Kila Siku",
+  "categorySlot02": "Imani & Tiwala",
+  "categorySlot03": "Tafsiri ya Sala",
+  "categorySlot04": "Subira Tumaini",
+  "categorySlot05": "Tafuta Maghfirah",
+  "categorySlot06": "Rehema Huruma",
+  "categorySlot07": "Imani Nguvu",
+  "categorySlot08": "Moyo Wa Shukrani",
+  "categorySlot09": "Matokeo ya Maisha",
+  "categorySlot10": "Mahusiano ya Familia",
+  "categorySlot11": "Amani ya Ndani",
+  "categorySlot12": "Hikima ya Nabii",
+  "categorySlot13": "Tabia Nzuri",
+  "categorySlot14": "Kasimama Majaribu",
+  "categorySlot15": "Dhikr ya Jioni",
+  "categoryCustom": "Tafakari Binafsi",
+  "dhikrMeaningSubhanallah": "Subhanallah - Utukufu kwa Allah",
+  "dhikrMeaningAlhamdulillah": "Alhamdulillah - Sifa zote ni kwa Allah",
+  "dhikrMeaningAllahuAkbar": "Allahu Akbar - Allah ni Mkubwa Zaidi",
+  "quranVerseHeartAtRest": "Hakika, katika dhikri Allah ndipo mioyo inayotulia.",
   "promptHint": "Gusa kategoria kwa mwongozo wa Kiislamu na tafakari",
-
   "currentLanguage": "Lugha ya sasa",
   "settingsLanguage": "Mipangilio ya lugha",
   "settingsTitle": "Mipangilio",
   "chooseLanguage": "Chagua lugha yako",
   "continueCta": "Endelea",
-
-  "promptDailyGuidance": "Andika mwongozo wa kila siku wa haraka unaozingatiwa katika imani ya Kiislamu ya Sunni - unaozingatiwa katika Quraan, Hadith, na mafundisho ya Profeta Muhammad. Chagua angle mpya kila wakati: faida kutoka kwa akhlaq ya Kiislamu, ukweli kutoka kwa Sunnah, hikma kutoka kwa Sahabah wa Profeta, au kaida ya kimya kutoka kwa jadi ya Kiislamu. Jumuisha ayat moja ya Quraan (Surah:Ayah) na tafakari ya sentensi 1-2 ili kubeba sehemu ya siku. Kwa karama unaweza kuiunganisha na kalenda ya Kiislamu au tarehe mahimu ikiwa inakamatiana.",
-
-  "promptFaithTrust": "Andika tafakari ya Kiislamu fupi juu ya Imani na tawakali kwenye mpango wa Allah. Izingatie katika Quraan, mfano wa Profeta Muhammad, na imani ya Sahaba. Badilisha mada kila wakati: tawakali kwa Allah wakati wa kutokuwa na mwongozo, kutegemea hikma ya kimungu, subira katika mafichuko, au uvumilivu wa kimya katika maisha ya kila siku. Jumuisha ayat moja ya Quraan na hatua moja ya kuamini sana kwa leo inayotoka kwa hikma ya roho ya Kiislamu.",
-
-  "promptPrayerReflection": "Andika tafakari ya sala ya Kiislamu fupi inayozingatiwa katika Sala, Dua, au Dhikr. Badilisha fomu kila wakati: ukumbusho wa asubuhi au jioni (Adhkar), tafakari juu ya sala tano za kila siku, kutafakari ayat ya Quraan, au dua yenye moyo. Jumuisha ayat moja ya Quraan na jina fomu ya sala iliyotumiwa.",
-
-  "promptHopeDifficultTimes": "Andika tafakari ya Kiislamu juu ya subira (Sabr) na matumaini wakati wa mafichuko. Chota kutoka kwa mafundisho ya Quraan juu ya mafichuko, uvumilivu wa Manabii, na rehema ya Allah katika nyakati za ngumu. Badilisha mtazamo kila wakati. Jumuisha ayat moja ya Quraan na mtazamo mmoja wa kukamatiana kutoka kwa jadi ya Kiislamu.",
-
-  "promptForgiveness": "Andika tafakari ya Kiislamu nzuri juu ya kutafuta msamaha (Tawbah) na rehema ya Allah. Chota kutoka kwa mafundisho ya Quraan juu ya toba, huruma ya Allah, na mfano wa msamaha wa Profeta Muhammad. Badilisha mada: kugeuka kwenye Allah, kusamehe wengine, kupokonya mahusiano, au kuamini rehema ya Allah baada ya makosa. Jumuisha ayat moja ya Quraan na hatua moja ya kutekeleza.",
-
-  "promptLoveCompassion": "Andika tafakari ya Kiislamu fupi juu ya rahmah (rehema) na huruma katika maisha ya kila siku. Chota kutoka kwa mfano wa Profeta Muhammad, dhana ya Ihsan (heri), na mafundisho ya Kiislamu juu ya wema kwa familia, majibu, na wanavyohitaji. Jumuisha ayat moja ya Quraan na kitendo kimoja cha huruma ili kutekeleza leo.",
-
-  "promptStrengthCourage": "Andika tafakari ya Kiislamu juu ya nguvu zenye msingi wa imani na ujasiri. Chota kutoka kwa mifano ya Manabii, jamii ya Waislamu ya mapema, na watu wanaoamini waliyobaki imara katika mafichuko. Badilisha mada kila wakati: ujasiri kwa njia ya imani, nguvu katika sala, tawakali kwa Allah wakati wa hofu, au uvumilivu katika manadhimiko. Jumuisha ayat moja ya Quraan na dua fupi au maneno ya ukumbusho.",
-
-  "promptGratitude": "Andika tafakari ya Kiislamu juu ya shukrani (Shukr) kwa Allah. Izingatie katika mafundisho ya Quraan na jadi ya manabii. Badilisha mtazamo: shukrani katika mafichuko, kuthamini baraka ndogo, kuanza siku yenye sifa kwa Allah, au kutambua mwongozo wa Allah katika maisha ya kila siku. Jumuisha ayat moja ya Quraan na kaida moja ya shukrani.",
-
-  "promptPurposeCalling": "Andika tafakari ya Kiislamu juu ya lengo la maisha katika kumwabudu Allah na kuishi kwa haya. Chota kutoka kwa mafundisho ya Quraan juu ya lengo, kumhidimia wengine, na kutumia vipaji vyako kwa wema. Badilisha mada kila wakati: kumhidimia familia na jamii, kutafuta mwongozo kwa njia ya Istikhara, kuishi kwa maka, au kupata maana katika kazi ya kawaida. Jumuisha ayat moja ya Quraan na maswali mawili ya tafakari.",
-
-  "promptFamilyRelationships": "Andika mwongozo wa Kiislamu nzuri juu ya familia na mahusiano unaozingatiwa katika mafundisho ya Quraan na mfano wa Profeta Muhammad. Badilisha mada kila wakati: wema katika maisha ya familia, subira katika migogoro, kuheshima wazazi, kulea watoto katika imani, au kuimarisha ndoa. Jumuisha ayat moja ya Quraan na kaida moja ya mahusiano ili kujaribu.",
-
-  "promptPeaceAnxietyRelief": "Andika tafakari ya Kiislamu yenye utulivu juu ya kupata amani ya ndani kwa njia ya ukumbusho wa Allah (Dhikr) na tawakali katika mpango wake. Chota kutoka kwa mafundisho ya Quraan juu ya utulivu wa moyo, sala, na kuamini mpango wa Allah. Badilisha njia kila wakati na jumuisha ayat moja ya Quraan na kaida moja rahisi kutoka kwa jadi ya Kiislamu.",
-
-  "promptWisdomOfJesus": "Andika kipande cha haraka cha hikma kutoka kwa Manabii kama inavyofundishwa katika Uislamu. Chota kutoka kwa Quraan au Hadith na kueleza kwa ufupi jinsi waandishi wa Kiislamu wanavyoelewa mafundisho. Badilisha mada kila wakati: tabia, subira, unyonyekevu, imani, au tabia ya kila siku. Jumuisha ayat ya Quraan au kumbusho la Hadith na matumizi moja ya mtu binafsi.",
-
-  "promptHumilityCharacter": "Andika tafakari ya Kiislamu juu ya unyonyekevu (Tawadhu) na tabia nzuri (Akhlaq). Chota kutoka kwa mafundisho ya Quraan, mfano wa Profeta Muhammad, na jadi ya uendelezaji wa tabia ya Kiislamu. Badilisha mada: unyonyekevu katika viongozi, kukukubali makosa, kumtibu wengine kwa heshima, au kukua roho kwa njia ya kutathmini binafsi. Jumuisha ayat moja ya Quraan na kaida moja ili kutekeleza.",
-
-  "promptOvercomingTemptation": "Andika tafakari ya Kiislamu juu ya kupinga matamanio na kubaki njia ya moja kwa moja. Chota kutoka kwa mwongozo wa Quraan, ukumbusho wa Allah (Dhikr), sala (Salah), na mifano ya watu wanaoamini waliopigania ngumu. Badilisha mtazamo kila wakati. Jumuisha ayat moja ya Quraan na mkakati mmoja wa kutekeleza kwa saa 24 zijazo.",
-
-  "promptEveningReflection": "Andika tafakari ya Kiislamu ya jioni yenye amani inayozingatiwa katika jadi ya ukumbusho wa jioni (Adhkar al-Masaa'). Jikaze shukrani, kutathmini binafsi (Muhasabah), na tawakali kwenye Allah kabla ya kupumzika. Jumuisha maswali 3-5 mafupi ya tafakari kuhusu siku, dua fupi ya kumalizia, na ayat moja ya Quraan.",
-
   "wordCount": "{count, plural, one {{count} neno} other {{count} maneno}}",
-
-  "optionsCta": "Michaguo",
+  "optionsCta": "Chaguzi",
   "newCta": "Mpya",
-  "actionsTitle": "Ungetaka kufanya nini?",
+  "actionsTitle": "Unataka kufanya nini?",
   "copy": "Nakili",
   "share": "Sambaza",
   "close": "Funga",
-  "copiedToast": "Kinakiliwa kwenye ubao",
-
+  "copiedToast": "Kunakamatwa katika clipboard",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Mstari wa karatasi/sambaza ikiwamo lebo la kategoria.",
+    "description": "Email / share subject line including the category label.",
     "placeholders": {
-      "category": { "type": "String", "example": "Mwongozo wa Kila Siku" }
+      "category": {
+        "type": "String",
+        "example": "Mwongozo wa Kila Siku"
+      }
     }
   },
-
   "regenerateErrorTitle": "Haikuweza kutengeneza jibu jipya",
-  "regenerateErrorBody": "{error}\n\nUngependa kujaribu tena?",
+  "regenerateErrorBody": "{error}\n\nUnataka kujaribu tena?",
   "@regenerateErrorBody": {
-    "description": "Inaonyeshwa wakati kutengeneza jibu la AI linashindwa.",
+    "description": "Shown when regenerating an AI answer fails.",
     "placeholders": {
-      "error": { "type": "String", "example": "Hitilafu ya mtandao" }
+      "error": {
+        "type": "String",
+        "example": "Kosa la mtandao"
+      }
     }
   },
-
   "cancelCta": "Ghairi",
   "retryCta": "Jaribu tena",
-
   "authTitle": "Tengeneza akaunti yako",
   "continueAsGuest": "Endelea kama mgeni",
   "signInGoogle": "Ingia kwa Google",
   "signInApple": "Ingia kwa Apple",
   "signInEmail": "Ingia kwa Barua pepe",
   "upgradeWithApple": "Endelea kwa Apple",
-  "mustAccept": "Lazima ukubali Masharti na kutambua Sera ya Faragha.",
+  "mustAccept": "Lazima ukubali Masharti na Kusikilizana na Sera ya Faragha.",
   "termsLabel": "Nakubali Masharti ya Huduma",
-  "privacyLabel": "Nimeona Sera ya Faragha",
-  "marketingOptIn": "Nao kubali kupokea habari na maalum",
+  "privacyLabel": "Nimebaini Sera ya Faragha",
+  "marketingOptIn": "Nakubali kupokea habari na ofa",
   "openTerms": "Masharti ya Huduma",
   "openPrivacy": "Sera ya Faragha",
-
   "accountSection": "Akaunti",
-  "guestMode": "Muundo wa mgeni",
+  "guestMode": "Njia ya mgeni",
   "signedIn": "Umeingia",
-  "upgradeHint": "Hifadhi tafakari zako katika vifaa vikali kwa kutengeneza akaunti.",
+  "upgradeHint": "Hifadhi tafakari zako katika vifaa vya tofauti kwa kutengeneza akaunti.",
   "upgradeWithGoogle": "Endelea kwa Google",
   "signOut": "Toka nje",
-
   "snackUpgraded": "Akaunti iliboreshwa kwa Google ✅",
   "snackSignedIn": "Umeingia kwa Google ✅",
-  "snackSignedOut": "Umeingia nje",
+  "snackSignedOut": "Umetoka nje",
   "snackSignedInApple": "Umeingia kwa Apple ✅",
   "snackSignedInGoogle": "Umeingia kwa Google ✅",
   "snackUpgradedApple": "Akaunti iliboreshwa kwa Apple ✅",
   "snackUpgradedGoogle": "Akaunti iliboreshwa kwa Google ✅",
-
-  "historyTitle": "Tafakari za awali",
-  "historyOpenCta": "Tafakari za awali",
-  "historyEmpty": "Hamna tafakari zilizohifadhiwa nasi.",
+  "historyTitle": "Tafakari Zilizopita",
+  "historyOpenCta": "Tafakari Zilizopita",
+  "historyEmpty": "Hakuna tafakari zilizohifadhiwa bado.",
   "historyDeleteTitle": "Futa tafakari?",
-  "historyDeleteBody": "Hii itaondoa kabisa kitu kilichochaguliwa.",
+  "historyDeleteBody": "Hii itaondoa kabisa kipengele kilichochaguliwa.",
   "deleteCta": "Futa",
-
-  "historyButton": "Tafakari za Awali",
-  "historyEmptyTitle": "Hamna tafakari nasi",
-  "historyEmptyBody": "Tengeneza kitu kwanza — vitu vyako vilivyohifadhiwa vitaonekana hapa.",
+  "historyButton": "Tafakari Zilizopita",
+  "historyEmptyTitle": "Hakuna tafakari bado",
+  "historyEmptyBody": "Tengeneza kitu kwanza — mambo yako yaliyohifadhiwa yatakuja hapa.",
   "historyDelete": "Futa",
-
-  "footerTitle": "Kwa Imani, Subira na Rahmah.",
-  "footerSubtitle": "Hatua moja kwa wakati.",
-  "genericErrorSnack": "Kitu fulani kilijaribu — tafadhali jaribu tena baada ya dakika.",
-
-  "upgradeAccountCta": "Hifadhi tafakari zako katika vifaa vya aina — tengeneza akaunti",
+  "footerTitle": "Pamoja na Wilaya, Imani na Sabri",
+  "footerSubtitle": "Sala moja kwa wakati mmoja",
+  "genericErrorSnack": "Kitu kimefeli — tafadhali jaribu tena baada ya dakika.",
+  "upgradeAccountCta": "Hifadhi tafakari zako katika vifaa vya tofauti – tengeneza akaunti",
   "deleteAccount": "Futa akaunti",
-  "exportData": "Hamisha data yangu",
-
+  "exportData": "Sabiti data yangu",
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Lebo kabla ya kuonyesha UID ya ndani ya Firebase.",
+    "description": "Label before showing the internal Firebase UID.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Pole pole 🐯\nAI inahitaji dakika kabla ya ijayo…",
-  "rateDailyLimit": "Haujakamata tafakari kwa sasa.\nPata tafakari zaidi au boreshwa hadi Barakah.",
-  "rateCreditsExhausted": "Umekamata tafakari zako zote.\nJaza au boreshwa hadi Barakah ili kuendelea.",
-  "rateGraceReflectionsExhausted": "Haujakamata tafakari kwa sasa.\nPata tafakari zaidi au boreshwa hadi Barakah.",
-  "rateReflectionsExhausted": "Umekamata tafakari zako zote.\nJaza au boreshwa hadi Barakah ili kuendelea.",
-
-  "blessedDescription": "Barakah inabukiza sifa za kawaida, kategoria za siku zijazo, na sifa maalum.",
-  "championDescription": "Barakah inabukiza sifa za kawaida, kategoria za siku zijazo, na sifa maalum.",
-
-  "ratePlanExhausted": "Tafakari zako hazijaazimwa sasa. Mpango: {plan}.",
+  "rateLocalThrottle": "Pole pole 🐯\nAyara inahitaji muda kabla ya inayofuata…",
+  "rateDailyLimit": "Umechelewa kwa tafakari kwa sasa.\nPata tafakari zaidi au boreshwa kuwa Wilaya.",
+  "rateCreditsExhausted": "Umetumia tafakari zako zote.\nJaza tena au boreshwa kuwa Wilaya ili kuendelea.",
+  "rateGraceCreditsExhausted": "Umechelewa kwa tafakari kwa sasa.\nPata tafakari zaidi au boreshwa kuwa Wilaya.",
+  "premiumDescription": "Wilaya inafungua sifa za ziada, kategoria za baadaye, na badge ya pekee.",
+  "ratePlanExhausted": "Tafakari zako zina kazi sasa. Mpango: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Inaonyeshwa wakati tafakari za mtumiaji zinakamata lakini sababu ni jumla.",
+    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Kawaida au Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Kawaida au Wilaya"
+      }
     }
   },
-
   "rateCheckFailed": "Haikuweza kuangalia tafakari zako: {message}",
   "@rateCheckFailed": {
-    "description": "Inaonyeshwa wakati kazi inayoita inarudisha ujumbe wa hitilafu.",
+    "description": "Shown when the callable function returns an error message.",
     "placeholders": {
-      "message": { "type": "String", "example": "Hitilafu ya mtandao" }
+      "message": {
+        "type": "String",
+        "example": "Kosa la mtandao"
+      }
     }
   },
-
-  "rateCheckGenericError": "Kitu fulani kilijaribu wakati wa kuangalia tafakari zako.",
-  "aiFallbackGeneric": "Kitu fulani kilijaribu — tafadhali jaribu tena baada ya dakika.",
-
+  "rateCheckGenericError": "Kitu kimefeli wakati wa kuangalia tafakari zako.",
+  "aiFallbackGeneric": "Kitu kimefeli — tafadhali jaribu tena baada ya dakika.",
   "limitSectionTitle": "Tafakari",
   "limitTodayLabel": "Matumizi",
   "limitCreditsLabel": "Tafakari iliyobaki: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "Mpango: {plan}",
-  "@limitPlanLabel": {
-    "description": "Inaonyesha jina la mpango wa sasa wa usajili.",
+  "@limitCreditsLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Kawaida au Barakah" }
+      "credits": {}
     }
   },
-  "limitLoadingLabel": "Inapakia…",
-  "limitLoadingLabelDescription": "Inaonyeshwa kwenye kadi ya tafakari wakati takwimu za matumizi zinakokotolewa.",
-
+  "limitPlanLabel": "Mpango: {plan}",
+  "@limitPlanLabel": {
+    "description": "Shows the current subscription plan name.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Kawaida au Wilaya"
+      }
+    }
+  },
+  "limitLoadingLabel": "Inapakua…",
+  "limitLoadingLabelDescription": "Shown in reflections card while usage stats are being fetched.",
   "aiLimitTitle": "Tafakari",
-  "aiLimitSubtitle": "Kila jibu linatumia tafakari 1. Kawaida inajumuisha tafakari za kuanza. Barakah inabukiza kategoria za kawaida na kuwezesha jaza zaidi.",
-  "aiLimitProgressLabel": "{used} / {total} tafakari zinatumika",
+  "aiLimitSubtitle": "Kila jibu linatumia tafakari 1. Kawaida inajumuisha tafakari za kuanza. Wilaya inafungua kategoria za ziada na kuwezesha kujaza upya.",
+  "aiLimitProgressLabel": "{used} / {total} tafakari zilizotumika",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Tafakari",
-  "reflectionsUsageLabel": "Matumizi",
-  "reflectionsRemainingLabel": "Tafakari iliyobaki: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Mpango: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Inaonyesha jina la mpango.",
+  "creditsSectionTitle": "Tafakari",
+  "creditsUsageLabel": "Matumizi",
+  "creditsRemainingLabel": "Tafakari iliyobaki: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Kawaida au Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Inapakia…",
-  "reflectionsLoadingLabelDescription": "Inaonyeshwa wakati takwimu za tafakari zinakokotolewa.",
-
-  "reflectionsTitle": "Tafakari",
-  "reflectionsSubtitle": "Kila jibu linatumia tafakari 1. Kawaida inajumuisha tafakari za kuanza. Barakah inabukiza kategoria za kawaida na kuwezesha jaza zaidi.",
-  "reflectionsProgressLabel": "{used} / {total} tafakari zinatumika",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Mpango: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Shows the current plan name.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Kawaida au Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Inapakua…",
+  "creditsLoadingLabelDescription": "Shown while reflection stats are being fetched.",
+  "creditsTitle": "Tafakari",
+  "creditsSubtitle": "Kila jibu linatumia tafakari 1. Kawaida inajumuisha tafakari za kuanza. Wilaya inafungua kategoria za ziada na kuwezesha kujaza upya.",
+  "creditsProgressLabel": "{used} / {total} tafakari zilizotumika",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
   "settingsDeleteTitle": "Futa akaunti",
   "settingsDeleteDescription": "Futa akaunti yako kabisa na data yote inayohusiana.",
   "settingsDeleteButtonLabel": "Futa akaunti yangu",
   "settingsDeleteDialogTitle": "Futa akaunti?",
-  "settingsDeleteDialogBody": "Kitendo hiki ni kawaida na haiwezi kurekebishwa.\n\nAdili yako, historia na maelezo ya akaunti yote yatafutwa.",
+  "settingsDeleteDialogBody": "Hatua hii ni milele wala haina kurudi nyuma.\n\nMazungumzo yako yote, historia na taarifa za akaunti itafutwa.",
   "settingsDeleteDialogCancel": "Ghairi",
   "settingsDeleteDialogConfirm": "Futa",
-
   "settingsFreeLimitUsedTitle": "Tafakari za kuanza zilizotumika",
-  "settingsFreeLimitUsedDescription": "Tafakari za kuanza kwa kifaa hiki zimekamata. Boreshwa hadi Barakah au nunua tafakari zaidi ili kuendelea.",
-
-  "settingsStarterReflectionsUsedTitle": "Tafakari za kuanza zilizotumika",
-  "settingsStarterReflectionsUsedDescription": "Tafakari za kuanza kwa kifaa hiki zimekamata. Boreshwa hadi Barakah au nunua tafakari zaidi ili kuendelea.",
-
-  "deviceBoundError": "Kifaa hiki tayari kimeunganishwa na akaunti nyingine. Tafadhali ingia kwa akaunti ya mwanzo.",
-
-  "premiumTitle": "Muundo wa Barakah",
-  "premiumSubtitleBasic": "Fungua uzoefu kamili wa Ayara.",
-  "premiumSubtitleChampion": "Uko katika Barakah. Unahitaji tafakari zaidi?",
-
+  "settingsFreeLimitUsedDescription": "Tafakari za kuanza kwa kifaa hiki zimechelewa. Boreshwa kuwa Wilaya au nunua tafakari zaidi ili kuendelea.",
+  "settingsStarterCreditsUsedTitle": "Tafakari za kuanza zilizotumika",
+  "settingsStarterCreditsUsedDescription": "Tafakari za kuanza kwa kifaa hiki zimechelewa. Boreshwa kuwa Wilaya au nunua tafakari zaidi ili kuendelea.",
+  "deviceBoundError": "Kifaa hiki kimeunganishwa tayari na akaunti nyingine. Tafadhali ingia kwa akaunti ya asili.",
+  "premiumTitle": "Njia ya Wilaya",
+  "premiumSubtitleBasic": "Fungua Ayara kamili.",
+  "premiumSubtitlePremium": "Uko kwenye Wilaya. Je, unahitaji tafakari zaidi?",
   "premiumCurrentPlan": "Mpango wa sasa: {plan}",
   "premiumCreditsStatus": "Tafakari: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "Ununuzi haupatikani sasa.",
-  "premiumSignInToPurchase": "Ingia ili kunua tafakari au kufungua Barakah.",
-
-  "premiumRestorePurchases": "Rejesha ununuzi",
-  "premiumProcessing": "Inaprosesa…",
-  "premiumRestoreHintTitle": "Tayari ulinunua Barakah au tafakari kwa kifaa hiki au kingine?",
-  "premiumRestoreHintBody": "Rejesha ununuzi wako ikiwa hawaonekani.",
-
+  "premiumPurchasesUnavailable": "Ununuzi sio available sasa.",
+  "premiumSignInToPurchase": "Ingia ili kununua tafakari au kufungua Wilaya.",
+  "premiumRestorePurchases": "Rejeza ununuzi",
+  "premiumProcessing": "Inaendelea…",
+  "premiumRestoreHintTitle": "Tayari ukanunua Wilaya au tafakari kwenye kifaa hiki au nyingine?",
+  "premiumRestoreHintBody": "Rejeza ununuzi wako kama havionyeshi.",
   "premiumBuyCredits200": "Nunua tafakari 200",
   "premiumBuyCredits400": "Nunua tafakari 400",
-  "premiumBecomeChampionOneTime": "Boreshwa hadi muundo wa Barakah",
-  "premiumChampionHint": "Kama Barakah, unaweza kujaza na tafakari zaidi kwa wakati wowote unahohitaji.",
-
+  "premiumBecomePremiumOneTime": "Boreshwa kuwa Wilaya",
+  "premiumTopupHint": "Pamoja na Wilaya, unaweza kujaza tafakari zaidi kila wakati unapohitaji.",
   "premiumUpgradeCta": "Boreshwa",
-  "premiumRequiredForCategory": "Kategoria hii inapatikana tu kwa watumiaji wa Barakah. Boreshwa katika Mipangilio ili kufungua yaliyohifadhiwa.",
-  "premiumBenefitsBasic": "Fungua Barakah kupata tafakari zaidi, kufikia kategoria za kawaida, na kuendelea kila wakati unahohitaji mwongozo.",
-  "premiumBenefitsChampion": "Uko katika muundo wa Barakah. Ikiwa umepungua, ongeza tafakari zaidi na endelea bila kusimama.",
-  "premiumButtonBecomeChampion": "Fungua Barakah",
+  "premiumRequiredForCategory": "Kategoria hii inapatikana tu kwa watumiaji wa Wilaya. Boreshwa katika Mipangilio kufungua msimu mzuri kamili.",
+  "premiumBenefitsBasic": "Fungua Wilaya kupata tafakari zaidi, fikiri kategoria za ziada, na endelea kila wakati unahitaji mwongozo.",
+  "premiumBenefitsPremium": "Uko katika Wilaya. Kama unapotaka tafakari, ongeza zingine na endelea bila kukatizwa.",
+  "premiumButtonBecomePremium": "Fungua Wilaya",
   "premiumButtonTopup1000": "Ongeza tafakari 1000",
-  "premiumChampionBadge": "Barakah inafanya kazi",
-  "premiumLoadingStore": "Inapakia duka…",
-
-  "blessedTitle": "Muundo wa Barakah",
-  "blessedSubtitleGrace": "Fungua uzoefu kamili wa Ayara.",
-  "blessedSubtitleBlessed": "Uko katika Barakah. Unahitaji tafakari zaidi?",
-
-  "blessedCurrentPlan": "Mpango wa sasa: {plan}",
-  "blessedReflectionsStatus": "Tafakari: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Ununuzi haupatikani sasa.",
-  "blessedProductNotAvailable": "Bidhaa hii haipatikani katika duka nasi. Tafadhali jaribu tena baadaye.",
-  "blessedPurchaseError": "Kitu fulani kilijaribu na ununuzi. Tafadhali jaribu tena.",
-  "blessedSignInToPurchase": "Ingia ili kunua tafakari au kufungua Barakah.",
-
-  "blessedRestorePurchases": "Rejesha ununuzi",
-  "blessedProcessing": "Inaprosesa…",
-  "blessedRestoreHintTitle": "Tayari ulinunua Barakah au tafakari kwa kifaa hiki au kingine?",
-  "blessedRestoreHintBody": "Rejesha ununuzi wako ikiwa hawaonekani.",
-
-  "blessedBuyReflections100": "Ongeza tafakari 100",
-  "blessedBuyReflections200": "Nunua tafakari 200",
-  "blessedBuyReflections400": "Nunua tafakari 400",
-  "blessedBecomeBlessedOneTime": "Boreshwa hadi Barakah",
-  "blessedTopupHint": "Kama Barakah, unaweza kujaza na tafakari zaidi kwa wakati wowote unahohitaji.",
-
-  "blessedUpgradeCta": "Boreshwa",
-  "blessedRequiredForCategory": "Kategoria hii inapatikana tu kwa watumiaji wa Barakah. Boreshwa katika Mipangilio ili kufungua yaliyohifadhiwa.",
-  "blessedFeatureLocked": "Fungua Barakah kufikia sifa hii.",
-  "lockedCategoriesHint": "Baadhi ya kategoria zimehifadhiwa kwa wanachama wa Barakah. Fungua ili kuchunguza kila tafakari katika safari yako.",
-  "blessedBenefitsGrace": "Fungua Barakah kupata tafakari zaidi, kufikia kategoria za kawaida, na kuendelea kila wakati unahohitaji mwongozo.",
-  "blessedBenefitsBlessed": "Uko katika muundo wa Barakah. Ikiwa umepungua, ongeza tafakari zaidi na endelea bila kusimama.",
-  "blessedButtonBecomeBlessed": "Fungua Barakah",
-  "blessedButtonTopup1000": "Ongeza tafakari 1000",
-  "blessedBadge": "Barakah inafanya kazi",
-  "blessedLoadingStore": "Inapakia duka…",
-
-  "freePlanBlockedTitle": "Umeishia tafakari za kuanza",
-  "freePlanBlockedBody": "Uko katika mpango wa Kawaida yenye tafakari za kuanza, na umefika kikomo. Ili kuendelea — na kufungua kategoria za kawaida — boreshwa hadi Barakah.",
-  "freePlanBlockedCtaGoPremium": "Angalia michaguo ya Barakah chini",
-
-  "graceBlockedTitle": "Umeishia tafakari za kuanza",
-  "graceBlockedBody": "Uko katika mpango wa Kawaida yenye tafakari za kuanza, na umefika kikomo. Ili kuendelea — na kufungua kategoria za kawaida — boreshwa hadi Barakah.",
-  "graceBlockedCtaGoBlessed": "Angalia michaguo ya Barakah chini",
-
+  "premiumBadge": "Wilaya inashughuli",
+  "premiumLoadingStore": "Inapakua hifadhi…",
+  "premiumProductNotAvailable": "Bidhaa hii sio available katika hifadhi bado. Tafadhali jaribu tena baadaye.",
+  "premiumPurchaseError": "Kitu kimefeli na ununuzi. Tafadhali jaribu tena.",
+  "premiumBuyCredits100": "Ongeza tafakari 100",
+  "premiumFeatureLocked": "Fungua Wilaya ili kufikiri sifa hii.",
+  "lockedCategoriesHint": "Baadhi ya kategoria zimerezekerwa kwa wanachama wa Wilaya. Funguza ili kutafakari kila sehemu katika safari yako.",
+  "freePlanBlockedTitle": "Umechelewa kwa tafakari za kuanza",
+  "freePlanBlockedBody": "Uko kwenye mpango wa Kawaida na tafakari za kuanza, na umefika kiwango. Ili kuendelea — na kufungua kategoria za ziada — boreshwa kuwa Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Angalia chaguzi za Wilaya chini",
+  "graceBlockedTitle": "Umechelewa kwa tafakari za kuanza",
+  "graceBlockedBody": "Uko kwenye mpango wa Kawaida na tafakari za kuanza, na umefika kiwango. Ili kuendelea — na kufungua kategoria za ziada — boreshwa kuwa Wilaya.",
+  "graceBlockedCtaGoPremium": "Angalia chaguzi za Wilaya chini",
   "rateGuestMustSignIn": "Ingia ili kutumia Ayara na tafakari zako.",
-
-  "guestNoCreditsTitle": "Muundo wa mgeni",
-  "guestNoCreditsBody": "Kama mgeni unaweza kuchunguza programu, lakini hauwezi kutumia tafakari. Ingia baadaye katika Mipangilio ili kutumia tafakari na kufungua ununuzi.",
-
-  "guestNoReflectionsTitle": "Muundo wa mgeni",
-  "guestNoReflectionsBody": "Kama mgeni unaweza kuchunguza programu, lakini hauwezi kutumia tafakari. Ingia baadaye katika Mipangilio ili kutumia tafakari na kufungua ununuzi.",
-
+  "guestNoCreditsTitle": "Njia ya mgeni",
+  "guestNoCreditsBody": "Kama mgeni unaweza kupitia programu, lakini huwezi kutumia tafakari. Ingia baadaye katika Mipangilio ili kutumia tafakari na kufungua ununuzi.",
   "guestDialogContinue": "Endelea",
-  "guestDialogLoginInstead": "Ingia badala",
-
-  "optionalLabel": "hiari",
-
-  "accountDeleteSuccessTitle": "Akaunti iliyafutwa",
-  "accountDeleteSuccessBody": "Akaunti yako na data inayohusiana iliyafutwa kwa mafanikio.",
+  "guestDialogLoginInstead": "Ingia badala yake",
+  "optionalLabel": "ikhtiyari",
+  "accountDeleteSuccessTitle": "Akaunti ifutwa",
+  "accountDeleteSuccessBody": "Akaunti yako na data inayohusiana imefutwa kwa mafanikio.",
   "accountDeleteSuccessClose": "Funga",
   "accountDeleteErrorTitle": "Haikuweza kufuta akaunti",
-  "accountDeleteErrorClose": "Sawa",
-  "accountDeleteReauthCancelled": "Uthibitishaji upya ulighairika. Tafadhali ingia tena na jaribu kufuta.",
-  "accountDeleteReauthRequired": "Kufuta akaunti kunakuita kuingia sehemu. Tafadhali toka nje, ingia tena, na jaribu kufuta.",
-  "settingsDeletePermanentWarning": "Kitendo hiki ni kawaida na haiwezi kurekebishwa. Data yote inayohusiana na akaunti yako itafutwa.",
-
+  "accountDeleteErrorClose": "SAWA",
+  "accountDeleteReauthCancelled": "Uthibiti upya ulibatilishwa. Tafadhali ingia tena na jaribu kufuta tena.",
+  "accountDeleteReauthRequired": "Kufuta akaunti kunahitaji kuingia kamakaribuni. Tafadhali toka nje, ingia tena, na jaribu kufuta tena.",
+  "settingsDeletePermanentWarning": "Hatua hii ni milele wala haina kurudi nyuma. Data yote inayohusiana na akaunti yako itafutwa.",
   "dailyGraceTitle": "Mwongozo wa Kila Siku",
-  "dailyGraceScriptureLabel": "AYAT YA SIKU",
-  "dailyGraceSaintLabel": "MWANALIMU WA WIKI",
+  "dailyGraceScriptureLabel": "AYATI YA SIKU",
+  "dailyGraceSaintLabel": "MWALIMU WA WIKI",
   "dailyGraceReflectionLabel": "TAFAKARI YA JIONI",
-  "dailyGraceCopiedToast": "Ayat kinakiliwa kwenye ubao",
-
-  "dailyScripture0Text": "Hakika wenye haki watakuwa katika bustani na mito, katika kiti cha heshima karibu na Mfalme Qadiri.",
-  "dailyScripture0Ref": "Quraan 54:54-55",
-  "dailyScripture1Text": "Na hatukutuma wewe ila kama rehema kwa ulimwengu.",
-  "dailyScripture1Ref": "Quraan 21:107",
-  "dailyScripture2Text": "Yalipi Allah haitoshi kwa mtumishi wake? Lakini wanakukaka kwa wengine bila naye.",
-  "dailyScripture2Ref": "Quraan 39:36",
-  "dailyScripture3Text": "Labda unachukia kitu na kilo nzuri kwako; na labda unayapenda kitu na kilo mbaya kwako. Na Allah anajua, na wewe hujui.",
-  "dailyScripture3Ref": "Quraan 2:216",
-  "dailyScripture4Text": "Hakika Allah ana wasubira.",
-  "dailyScripture4Ref": "Quraan 2:153",
-  "dailyScripture5Text": "Kwa hiyo nikumbuke mimi; nikumbuke ninyi. Na shukrani kwangu, wala msikane.",
-  "dailyScripture5Ref": "Quraan 2:152",
-  "dailyScripture6Text": "Hakika wenye heshima zaidi kwa Allah ndio wenye takwa zaidi kwenu.",
-  "dailyScripture6Ref": "Quraan 49:13",
-  "dailyScripture7Text": "Na Rabb yako amefanya amri kwamba msijadini ila yeye tu, na kwamba mtambue wazazi.",
-  "dailyScripture7Ref": "Quraan 17:23",
-  "dailyScripture8Text": "Hakika na kupigania kumo rahisi.",
-  "dailyScripture8Ref": "Quraan 94:6",
-  "dailyScripture9Text": "Na yeye ana ninyi popote munavyokuwa. Na Allah, waliochukua, anauona.",
-  "dailyScripture9Ref": "Quraan 57:4",
-  "dailyScripture10Text": "Allah haimtakaki nafsi ila kile inachoweza.",
-  "dailyScripture10Ref": "Quraan 2:286",
-  "dailyScripture11Text": "Na yeyote anayetegemea Allah — basi yeye anamsumbua.",
-  "dailyScripture11Ref": "Quraan 65:3",
-  "dailyScripture12Text": "Rehema yangu inatanisha mambo yote.",
-  "dailyScripture12Ref": "Quraan 7:156",
-  "dailyScripture13Text": "Na mtumishi wangu wakikuuliza kuhusu mimi — hakika mimi ni karibu. Najibu malombo ya mungu yeye akaniita.",
-  "dailyScripture13Ref": "Quraan 2:186",
-  "dailyScripture14Text": "Yeyote anatenda sawa, iyoakwe mwanamume au mwanamke, na mwamini — hakika tutamfanya kuishi maisha mazuri.",
-  "dailyScripture14Ref": "Quraan 16:97",
-  "dailyScripture15Text": "Hakika Allah hatakabadili hali ya watu hata waitabadili wenyewe waliomo ndani yao.",
-  "dailyScripture15Ref": "Quraan 13:11",
-  "dailyScripture16Text": "Kwa hiyo wala msiwe na wazimu, na msisikitike, na mtakuwa mkuu kama mmuamini wenye imani.",
-  "dailyScripture16Ref": "Quraan 3:139",
-  "dailyScripture17Text": "Ay mtumishi wangu waliotenda madhalimu juu ya nafsi zao, msichafuke kutoka rehema ya Allah. Hakika Allah anasamehe dhanbi zote.",
-  "dailyScripture17Ref": "Quraan 39:53",
-  "dailyScripture18Text": "Na yeyote anayekataa Allah — atamfanya njia ya kutoka, na atamtaji kutoka mahali hajatarajia.",
-  "dailyScripture18Ref": "Quraan 65:2-3",
-  "dailyScripture19Text": "Wala msiwe na matamaini katika rehema ya Allah.",
-  "dailyScripture19Ref": "Quraan 12:87",
-  "dailyScripture20Text": "Na hakika tumerahisisha Quraan kwa kumkumbuka. Kwa hiyo je, kuna mtu atakayekumbuka?",
-  "dailyScripture20Ref": "Quraan 54:17",
-  "dailyScripture21Text": "Na akakupata wewe bila mwongozo, akakuongoza.",
-  "dailyScripture21Ref": "Quraan 93:7",
-  "dailyScripture22Text": "Na Rabb yako akasema: Nitaliza mimi; nitajikubali ninyi.",
-  "dailyScripture22Ref": "Quraan 40:60",
-  "dailyScripture23Text": "Na hakika tumekamatia watoto wa Adamu.",
-  "dailyScripture23Ref": "Quraan 17:70",
-  "dailyScripture24Text": "Na tafuta msaada kwa njia ya subira na sala.",
-  "dailyScripture24Ref": "Quraan 2:45",
-  "dailyScripture25Text": "Yeyote anatenda uzani wa atomi ya wema atakayaona.",
-  "dailyScripture25Ref": "Quraan 99:7",
-  "dailyScripture26Text": "Bila swali, msaada wa Allah una karibu.",
-  "dailyScripture26Ref": "Quraan 2:214",
-  "dailyScripture27Text": "Na yeyote anaye shukri — shukri yake ni tu kwa faida ya binafsi yake.",
-  "dailyScripture27Ref": "Quraan 31:12",
-
-  "dailyReflection0": "Wakati siku hii inapoishia, fikiria dakika moja ambapo rehema ya Allah ilionekana.",
-  "dailyReflection1": "Leta kwa Allah yote iliyokusumbua moyo wako leo.",
-  "dailyReflection2": "Jina baraka moja kutoka siku hii na shukria Allah.",
-  "dailyReflection3": "Pumzika katika ujuzi kwamba unafanywa katika kuzindua isimu wa Allah.",
-  "dailyReflection4": "Fikiria mahali alipokupa kuitwa kuonyesha huruma na wema leo.",
-  "dailyReflection5": "Wacha yalicho hayuwezi kuzalisha na tawakali katika mpango kamili wa Allah.",
-  "dailyReflection6": "Saa siku inapokaribia kumalizia, pokea amani katika ukumbusho wa Allah.",
-  "dailyReflection7": "Fikiria jinsi ulivoheshimu sala zako leo, na shukria Allah kwa kila moja.",
-  "dailyReflection8": "Fikiria dakika iliyokuongeza subira leo kwa njia yako.",
-  "dailyReflection9": "Omba msamaha kwa kila upungufu leo — rehema ya Allah haina kikomo.",
-  "dailyReflection10": "Jina mtu mmoja ukamuonyesha wema leo na fanya dua kwa ajili yake.",
-  "dailyReflection11": "Kusimama na shukrani: Allah alitoa nini leo ambalo haukuomba?",
-  "dailyReflection12": "Fikiria ayat kutoka kwa Quraan inayozungumza mahali unapokuwa.",
-  "dailyReflection13": "Fikiria jinsi ulivotumia muda wako leo — na kutoa kesho kwa Allah.",
-  "dailyReflection14": "Pumzika kwa ujuzi kwamba hadharani mahali kupigania leo, Allah alikuwa nawe.",
-  "dailyReflection15": "Fikiria njia moja ulivosaidii familia au jamii yako leo kwa ajili ya Allah.",
-  "dailyReflection16": "Saa giza likakuja, fanya Tawbah — Allah anapenda walio shugulikataka kwenye yeye.",
-  "dailyReflection17": "Fikiria uzuri Allah alioacha katika siku yako, kama ilivyokuwa ndogo.",
-  "dailyReflection18": "Fikiria unachojifunza leo na jinsi inavyokukaribia zaidi kwa Allah.",
-  "dailyReflection19": "Wacha burudani za siku iweze na Allah — yeye hubeba unacho hawezi.",
-  "dailyReflection20": "Fikiria wakati leo ulipotaka kuchagua nzuri, na jifunze kutoka kwa upole.",
-  "dailyReflection21": "Fanya dua kwa wenye janga — dua yako ni zawadi kwa ajili yao.",
-  "dailyReflection22": "Kumbuka baraka unayozipuuza mara kwa mara na chukua wakati ili shukria Allah.",
-  "dailyReflection23": "Fikiria maka yako leo — ilikuwa kwa Allah? Kesho, anza tena.",
-  "dailyReflection24": "Saa giza linalonyamaza, sikiliza karibu kwa Allah katika kunyamaa.",
-  "dailyReflection25": "Fikiria mahali ulipokuta nguvu leo — hiyo nguvu inatoka Allah.",
-  "dailyReflection26": "Jina kitu moja kutafanya kesho, kwa ajili ya Allah, ambalo haujafanya leo.",
-  "dailyReflection27": "Saa unajiandaa kupumzika, tia roho yako na Allah — yeye ni mlinzi bora.",
-
-  "dailyRoleModel0": "Profeta Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Profeta Ibrahim (AS)",
-  "dailyRoleModel44": "Profeta Musa (AS)",
-  "dailyRoleModel45": "Profeta Isa (AS)",
-  "dailyRoleModel46": "Profeta Yusuf (AS)",
-  "dailyRoleModel47": "Profeta Dawud (AS)",
-  "dailyRoleModel48": "Profeta Sulayman (AS)",
-  "dailyRoleModel49": "Profeta Nuh (AS)",
-  "dailyRoleModel50": "Profeta Yunus (AS)",
-  "dailyRoleModel51": "Profeta Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Ruhusu Ayara itumie mahali yangu kwa mwongozo wa Qibla na muda wa sala",
-  "locationConsentHint": "Inatumika tu kwa sifa hizi. Mahali yako haulizwi au kuhifadhiwa.",
-
+  "dailyGraceCopiedToast": "Ayati kunakamata katika clipboard",
+  "locationConsentLabel": "Ruhusu Ayara kutumia mahali pangu kwa mwongozo wa Qibla na saa za sala",
+  "locationConsentHint": "Hutumika tu kwa sifa hizi. Mahali pako haujakamatwa wala kukamaishwa.",
   "askPageTitle": "Uliza Ayara",
-  "askPageDescription": "Uliza kitu chochote kuhusu imani, sala, maisha, au kaida ya Kiislamu na pokea mwongozo unaozingatiwa katika Quraan na Sunnah.",
+  "askPageDescription": "Uliza chochote kuhusu imani, sala, maisha, au mazoezi ya Kiislamu na upokee mwongozo unaomaanisha Quranic na malimu ya Ahl al-Bayt.",
   "askPageInputHint": "Andika swali lako hapa…",
   "askPageSubmitCta": "Uliza",
   "askPageInputEmptyError": "Tafadhali andika swali kwanza.",
   "askResultYourQuestion": "Swali lako",
-
-  "guidancePageTitle": "Sala na Mwongozo",
-  "qiblaFacingMecca": "Inakabali Makkah",
-  "qiblaCompassInstruction": "Zungushia simu yako hadi sindano ya dhahabu iishie juu.\nMwelekeo huo unaelekea Qibla (Makkah).",
-  "qiblaGpsUnavailableBody": "Ishara ya GPS haina nguvu. Toka nje na gusi Jaribu tena.",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "Kumkabili Makkah",
+  "qiblaCompassInstruction": "Zunguka simu yako hadi sindano ya dhahabu ielewe juu.\nMwelekeo huo unashangilia Qibla (Makkah).",
+  "qiblaGpsUnavailableBody": "Wimbi la GPS ni dhaifu. Nenda nje na gusa Jaribu tena.",
   "qiblaRetry": "Jaribu tena",
-  "qiblaTitle": "Mwongozo wa Qibla",
-  "qiblaDistanceLabel": "{km} km hadi Makkah",
+  "qiblaTitle": "Mwelekeo wa Qibla",
+  "qiblaDistanceLabel": "{km} km kwa Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "Mahali inahitajika",
-  "qiblaLocationNeededBody": "Ruhusu kufikia mahali ili Ayara ihesabu mwongozo wa Kaaba katika Makkah kutoka popote unapo.",
+  "qiblaLocationNeededTitle": "Mahali palipoanikwa",
+  "qiblaLocationNeededBody": "Ruhusu kufahamiana mahali ili Ayara iweze kuhesabu mwelekeo wa Kaaba katika Makkah kutoka mahali utakapo.",
   "qiblaOpenSettings": "Fungua Mipangilio",
-  "qiblaCompassLoading": "Inatuafuta mahali…",
+  "qiblaCompassLoading": "Kutafuta mahali pako…",
   "qiblaTowardMecca": "Kuelekea Makkah",
-
-  "prayerTimesTitle": "Muda wa Sala",
+  "prayerTimesTitle": "Saa za Sala",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
-  "prayerTimesLocationNeededTitle": "Mahali inahitajika",
-  "prayerTimesLocationNeededBody": "Ruhusu kufikia mahali ili Ayara ihesabu muda wa sala sahihi kwa jiji lako.",
-  "prayerTimesNextLabel": "Ijayo",
-  "prayerTimesDoneLabel": "Kumalizia",
-
-  "monthlyPrayerTimesTitle": "Muda wa Sala wa Kila Mwezi",
-  "monthlyPrayerTimesViewButton": "Tazama Mwezi Kamili",
+  "prayerTimesLocationNeededTitle": "Mahali palipoanikwa",
+  "prayerTimesLocationNeededBody": "Ruhusu kufahamiana mahali ili Ayara iweze kuhesabu saa za sala kamili kwa jiji lako.",
+  "prayerTimesNextLabel": "Inayofuata",
+  "prayerTimesDoneLabel": "Imefanywa",
+  "monthlyPrayerTimesTitle": "Saa za Sala za Kila Mwezi",
+  "monthlyPrayerTimesViewButton": "Angalia Mwezi Kamili",
   "monthlyPrayerTimesNextMonth": "Mwezi ujao",
   "monthlyPrayerTimesDayHeader": "Siku",
-
-  "sharePrayerTimes": "Sambaza muda wa sala",
-
-  "prayerNotificationsTitle": "Tadhimari za Sala",
-  "prayerNotificationsDescription": "Pokea tadhimari yenye upole kabla ya kila muda wa sala ili kusisitiza unaunganishwa sehemu ya siku.",
-  "prayerNotificationsEnable": "Wezesha tadhimari za sala",
-  "prayerNotificationsOpenSettings": "Fungua mipangilio ya tadhimari",
-  "prayerNotificationsDenied": "Tadhimari zimezimwa",
-  "prayerNotificationsDeniedHint": "Jeni Mipangilio na ruhusu tadhimari kwa Ayara ili kupokea tadhimari za muda wa sala.",
-
-  "notificationsConsentLabel": "Ruhusu tadhimari kwa muda wa sala",
-
+  "sharePrayerTimes": "Sambaza saa za sala",
+  "notificationsSectionTitle": "Notifikasi",
+  "notificationsSectionSubtitle": "Kumbukumbu za sala, matukio ya kalenda & zaidi",
+  "dailyReflectionReminderTitle": "Tafakari ya Kila Siku",
+  "dailyReflectionReminderDescription": "Kumbukumbu nyingi ya kila siku ili kufungua Ayara na kuunganisha na imani yako.",
+  "dailyReflectionReminderEnable": "Wezesha kumbukumbu ya kila siku",
+  "dailyReflectionReminderTimeLabel": "Wakati wa kumbukumbu",
+  "prayerNotificationsTitle": "Kumbukumbu za Sala",
+  "prayerNotificationsDescription": "Pokea kumbukumbu nyinzi kabla ya kila wakati wa sala kusaidia kukamatia katika mlangoni siku nzima.",
+  "prayerNotificationsEnable": "Wezesha kumbukumbu za sala",
+  "prayerNotificationsOpenSettings": "Fungua mipangilio ya notifikasi",
+  "prayerNotificationsDenied": "Notifikasi zimekatakatwa",
+  "prayerNotificationsDeniedHint": "Nenda kwa Mipangilio na ruhusu notifikasi kwa Ayara ili kupokea kumbukumbu za saa za sala.",
+  "notificationsConsentLabel": "Ruhusu notifikasi kwa saa za sala",
   "prayerNotifTitleFajr": "🌅 Fajr — Sala ya Alfajiri",
-  "prayerNotifBodyFajr": "Bora zaidi ya sala ni sala ya alfajiri. Inuka, takasasa, na simama mbele ya Allah.",
-
-  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Sala ya Adhuhuri",
-  "prayerNotifBodyDhuhr": "Simamia siku yako na kurudi kwa Allah. Muda wa Dhuhr umefika.",
-
-  "prayerNotifTitleAsr": "🌤️ Asr — Sala ya Jioni",
-  "prayerNotifBodyAsr": "Yalinda sal katikati. Muda wa Asr umekuja — usiiache ikaenda.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — Sala ya Jua Kuruka",
-  "prayerNotifBodyMaghrib": "Jua limeruka. Kuza Maghrib na shukria Allah kwa siku hii.",
-
+  "prayerNotifBodyFajr": "Fajr ndio sala ya asubuhi ya Ahl al-Bayt. Imam Ali (AS) alisema: Linga sala ya Fajr kama unavalinga mali yako muhimu zaidi. Inuka, takakasa, na simama mbele ya Allah.",
+  "prayerNotifTitleDhuhr": "☀️ Dhuhr — Sala ya Mchana",
+  "prayerNotifBodyDhuhr": "Maimamu wa Ahl al-Bayt walikamatia kila muda wa dhikri. Simamia siku yako, jumuisha Dhuhr na Asr kama inahitaji, na rejeza moyo wako kwa Allah.",
+  "prayerNotifTitleAsr": "🌤️ Asr — Sala ya Ajamiako",
+  "prayerNotifBodyAsr": "Linga sala, kwa sababu ni muafaka kati yako na Allah. Wakati wa Asr umefika — usiiache kupita bila dhikri.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Sala ya Alasiri",
+  "prayerNotifBodyMaghrib": "Jua lilongemeleza — muda ambao Ahl al-Bayt walitunza kwa ajili ya dua. Toa Maghrib na fungua mikono yako kwa Allah katika dua kabla ya usiku kuanza.",
   "prayerNotifTitleIsha": "🌙 Isha — Sala ya Usiku",
-  "prayerNotifBodyIsha": "Malizia siku yako na ukumbusho wa Allah. Hayya 'alal falah — kuja kwa mafanikio.",
-
-  "outOfReflectionsBannerText": "Umekamata tafakari zako zote",
+  "prayerNotifBodyIsha": "Malishe siku yako kwenye rafiki wa Allah. Maimamu walipendekeza Salat al-Layl baada ya Isha — lakini kwanza, timiza Isha yako na funga siku na dhikri yake.",
+  "outOfReflectionsBannerText": "Umechelewa kwa tafakari zako",
   "outOfReflectionsBannerCta": "Pata zaidi",
-
   "dhikrPageTitle": "Dhikr",
   "dhikrTapToCount": "Gusa duara ili kuhesabu",
-  "dhikrResetButton": "Rejesha",
+  "dhikrResetButton": "Tengeneza tena",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Umekamata 99 ukumbusho wa Allah. Wacha ziwe nuru kwa moyo wako.",
-
+  "dhikrCompleteMessage": "Umekamilisha dhikri 100 za Allah. Wahe ni nuru kwa moyo wako.",
   "disclaimerTitle": "Kuhusu mwongozo wa programu hii",
-  "disclaimerBody": "Ayara inatoa tafakari za Kiislamu, tadhimari, na maudhui ya roho kumwetea safari yako ya imani. Maudhui haya yametolewa kwa kawaida ya habari na lengo la kuumiza tu.\n\nAyara haibadilishi ujuzi.\nMwongozo katika programu hii sio hadhi kwa alima ya Kiislamu iliyojifunza, imam, mufti, au mwalimu aliyefunzwa kwa kibibliya. Ikiwa una maswali kuhusu amri ya kidini, mswada na haram, au wajibu wa dini ya kibinafsi, tafadhali tafuta ushauri kutoka kwa mamlaka ya kidini iliyojifunza katika jamii yako.\n\nProgramu hii haitoi amri za kidini.\nAyara haitoi uamuzi wa mamlaka juu ya mswada (fiqh ya Kiislamu) au wajibu wa kidini wa kibinafsi. Kitu chochote hapa kisistukiwe kama fatwa au maagizo ya kidini yenye kuzingatia.\n\nUtambuzi wa kibibliya hutofautiana.\nUislamu una nganda tajiriba ya jadi, maadhimisho ya mafundisho (madhabs), na maoni ya kibibliya. Maudhui katika programu hii yanakumbuka mtazamo wa jumla na haiwezi kuwakilisha kila jadi au shule kwa usawa.\n\nJamii inasuluhisha.\nProgramu hii inalenga kukamatiana na unganisho lako na jadi ya imani huku ikiheshimu kabisa jukumu muhimu la msikiti wako wa mitaa, imam, na jamii yako ya kidini. Tunahimiza ubu kuwa unaunganishwa na kujifunza kutoka kwa wanafunzi iliyojifunza karibu na wewe.",
-  "disclaimerClose": "Naelewa",
+  "disclaimerBody": "Ayara inatoa tafakari za Kiislamu, kumbukumbu, na msimu wa roho kusaidia safari yako binafsi ya imani, unaomaanisha Quran na malimu wa Ahl al-Bayt. Msimu huu unatokea kwa madhumuni ya jumla ya taarifa na moyo tu.\n\nAyara haichangani mwalimu wa tayo.\nMwongozo katika programu hii si mbadala kwa mwalimu wa Kiislamu anayejua, marja', au mwalimu anayejua kiteolojia. Kama una maswali kuhusu sheria za dini, halal na haram, au jukumu lako la dini, tafadhali tafuta ushauri kutoka kwa Marja' anayejua au mwalimu katika jamii yako.\n\nProgramu hii haina kutoa sheria za dini.\nAyara haitaweza kufanya uamuzi wa kisheria juu ya maswali ya fiqh au jukumu lako la dini. Hakuna kinachobidi kutibiwa kama fatwa au amri ya dini ya kuwazima.\n\nNjia muhimu ya Ahl al-Bayt.\nKatika Kiislamu cha Shia, Nabii Muhammad ﷺ na nyumba yake safi — Ahl al-Bayt — ndio wamuongozaji wenye mamlaka wa jamii ya Kiislamu baada ya Quranic. Imam kumi na mbili wa Ahl al-Bayt ni waonzaji wa kiurangu wa malimu ya Kiislamu. Msimu katika programu hii inakumbuka tarikamu hii na inataka kuheshimiana kwa sola.\n\nMaswali ya jamii.\nProgramu hii inalenga kuwashawisha kuunganisha na imani wakati inaheshimia sana jukumu la muhimu la msikiti wako mahali, kituo cha Kiislamu, na jamii ya dini. Tunashawishi kukamatia na kujifunza kutoka kwa waalimu anayejua karibu nako.",
+  "disclaimerClose": "Ninaelewa",
   "disclaimerInfoTooltip": "Kuhusu mwongozo wa programu hii",
-  "disclaimerSettingsSubtitle": "Kwa kawaida ya ujuzi tu. Gusa kusoma maoni kamili.",
-  "disclaimerSectionHeader": "Maoni ya mwongozo"
+  "disclaimerSettingsSubtitle": "Kwa madhumuni ya jumla ya taarifa tu. Gusa ili kusoma kanusani kamili.",
+  "disclaimerSectionHeader": "Kanusani ya mwongozo",
+  "navHome": "Nyumba",
+  "navReflect": "Tafakari",
+  "navDuas": "Dua",
+  "navCalendar": "Kalenda",
+  "dashboardToday": "LEO",
+  "dashboardComingUp": "Inakuja",
+  "dashboardDaysUnit": "{count, plural, one {siku} other {siku}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Kufikia Haraka",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Mwongozo",
+  "quickActionPrayerTimes": "Saa za Sala",
+  "askAyaraTitle": "Uliza Ayara",
+  "askAyaraSubtitle": "Uliza swali lolote la Kiislamu na pokea jibu linajua.",
+  "askAyaraHint": "k.m. Ni maana gani ya Ramadan?",
+  "askAyaraSubmit": "Uliza",
+  "wisdomOfTheDayTitle": "Hikima ya Siku",
+  "calendarScreenTitle": "Kalenda ya Kiislamu",
+  "calendarUpcomingOccasions": "Matukio Inayokuja",
+  "calendarOccasionRemindersTitle": "Kumbukumbu za Matukio",
+  "calendarOccasionRemindersHint": "Notifikasyon jioni kabla ya kila matukio",
+  "calendarNotifPermissionDenied": "Ruhusa ya notifikasi imetupiliwa. Wezesha katika mipangilio ya kifaa chako.",
+  "calendarNoEvents": "Hakuna matukio yajulikana.",
+  "calendarAddToPhone": "Ongeza kwenye Kalenda ya Simu",
+  "calendarAddedToPhone": "Imeongezwa kwenye Kalenda",
+  "calendarCountdownToday": "LEO",
+  "calendarCountdownTomorrow": "KESHO",
+  "calendarCountdownDays": "katika siku {days}",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Jan",
+  "calendarMonthFeb": "Feb",
+  "calendarMonthMar": "Mar",
+  "calendarMonthApr": "Apr",
+  "calendarMonthMay": "May",
+  "calendarMonthJun": "Jun",
+  "calendarMonthJul": "Jul",
+  "calendarMonthAug": "Aug",
+  "calendarMonthSep": "Sep",
+  "calendarMonthOct": "Oct",
+  "calendarMonthNov": "Nov",
+  "calendarMonthDec": "Dec",
+  "calendarSeasonMuharramEarly": "Siku za Muharram — kumbuka Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — siku za matanga na tafakari",
+  "calendarSeasonArbaeen": "Arbaeen — saa arubaini za Husayn",
+  "calendarSeasonRoadToArbaeen": "Njia kwa Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — alfajiri ya uhaibaji",
+  "calendarSeasonMidShaban": "Nusu ya Sha'ban — siku ya Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — mwezi wa Quranic",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Dua & Ziyarat",
+  "duasSearchHint": "Tafuta dua, ziyarat…",
+  "duasFilterAll": "Yote",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} dua & ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Hakuna dua iliyopatikana.",
+  "duaCategoryDaily": "Kila Siku",
+  "duaCategoryWeekly": "Kila Wiki",
+  "duaCategoryOccasions": "Matukio",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Kuzaliwa",
+  "eventTypeMartyrdom": "Shahada",
+  "eventTypeOccasion": "Matukio",
+  "duaCopyTooltip": "Nakili tafsiri",
+  "duaToggleTransliteration": "Kizamili",
+  "duaToggleTranslation": "Tafsiri",
+  "duaAskAiLabel": "Uliza Ayara kueleza dua hii",
+  "duaAskAiLockedLabel": "Uliza Ayara (Wilaya)",
+  "duaAiLockedMessage": "Uelezaji wa Ayara inapatikana kwa wanachama wa Wilaya. Boreshwa katika Mipangilio.",
+  "duaAiComingSoon": "Uliza Ayara kuhusu \"{name}\" — inakuja kamakaribuni!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua kunakamata katika clipboard.",
+  "tasbihAllahuAkbarMeaning": "Allah ni Mkubwa Zaidi",
+  "tasbihAlhamdulillahMeaning": "Sifa zote ni kwa Allah",
+  "tasbihSubhanallahMeaning": "Subhanallah - Utukufu kwa Allah",
+  "tasbihResetTooltip": "Tengeneza tena",
+  "tasbihCompleteTitle": "Tasbih Imefanywa",
+  "tasbihCompleteMessage": "Allah akamata dhikri yako.",
+  "tasbihTapHint": "Gusa mahali popote ili kuhesabu",
+  "tasbihatScreenTitle": "Mwongozo wa Sala",
+  "tasbihatScreenSubtitle": "UTAFAKARI WA SALA",
+  "tasbihatScreenDescription": "Mwongozo kamili wa utafakari unaojiwa wakati wa sala na baada ya sala za kila siku — kwa mujibu wa tarikamu ya Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Jinazwa wakati wa rakʿah 3 & 4",
+  "tasbihatArba3Info": "Katika fiqh ya Shia, Tasbiḥāt al-Arbaʿa inabadili Surah al-Fatiha katika rakʿah 3 na 4 ya Dhuhr, Asr, Maghrib, na Isha. Ni wajib kuzinawa mara moja, na mashauri kuzinawa mara tatu.",
+  "tasbihatArba3Translation": "Subhanallah · Alhamdulillah\nLa ilaha illallah · Allahu Akbar",
+  "tasbihatArba3CompleteTitle": "Mzumzumaji Imefanywa",
+  "tasbihatArba3CompleteMessage": "Sala yako ikamata — Āmīn",
+  "tasbihatArba3TapHint": "Gusa baada ya kila mzumzumaji",
+  "tasbihatZahraSubtitle": "Baada ya kila sala · majibu 100",
+  "tasbihatZahraOriginLabel": "Chanzo",
+  "tasbihatZahraHadith": "Bibi Fatima al-Zahra (sa) aliuliza Nabii ﷺ kwa mtumishi. Akasema: \"Je, si nakuagilia kitu kizuri zaidi? Zunza Subḥānallāh mara 33, Alḥamdulillāh mara 33, na Allāhu Akbar mara 34 baada ya kila sala. Hilo ni nzuri kwa ajili yako kuliko mtumishi.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Vol. 85",
+  "tasbihatZahraOpenCounter": "Fungua Tasbīḥ Saini",
+  "tasbihatDuasTitle": "DUA MASHAURI",
+  "tasbihatDuasSubtitle": "Baada ya kumalizia sala yako",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Baada ya kila sala ya wajib",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Yeyote asiyezunza Āyat al-Kursī baada ya kila sala ya wajib, hakuna kitu kimpigania pembeni na paradiso isipokuwa kifo. Imam al-Bāqir (a) alisema ni miongeza makubwa zaidi katika Quranic.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Baada ya kila sala · muafaka mahitaji yote",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Kumtuma salaamu kwa Nabii ﷺ na nyumba yake safi (Āl Muḥammad) mashauri kulipania kila dua. Imam al-Ṣādiq (a) alisema: \"Dua yoyote imesimama hadi kumtuma ṣalawāt kwa Muḥammad na nyumba yake.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Baada ya kila sala · kwa Imam wa wakati wetu",
+  "tasbihatDuaFarajSource": "Msoma na Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "Dua kwa kuonekana tena kwa Imam al-Mahdī (af), Imam wa kumi na mbili. Zinazwa kila siku na Shia maadhimishwa baada ya kila sala kama matendo ya utii kwa Imam anayebaki.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ ya Bibi Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "Baada ya Maghrib & Isha · kupendekeza sana",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) alisema kukunza Tasbīḥ al-Zahrā baada ya Isha kabla ya kulala ni nzuri kuliko rakʿahs 1000 za sala ya ikhtiyari. Nuru yake inakwea mbinguni.",
+  "tasbihFatimaGiftPre": "Zawadi kutoka kwa Nabii",
+  "tasbihFatimaGiftPost": "kunazwa baada ya kila sala",
+  "prayerTrackerTitle": "SAINI YA SALA",
+  "prayerTrackerPrayed": "Alisala",
+  "prayerTrackerDayStreak": "{count} siku mlipuko",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Sala zote zimefanywa leo. Allah akamata.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Imefanywa leo",
+  "dhikrTrackerNotDoneToday": "Haijafanywa leo",
+  "dhikrTrackerDayStreak": "{count} siku mlipuko",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Kumbukumbu ya Tasbīḥ",
+  "dhikrReminderDescription": "Kumbukumbu nyinzi ya kila siku kunazwa Tasbīḥ al-Zahrā (SA).",
+  "dhikrReminderEnable": "Wezesha kumbukumbu ya Tasbīḥ",
+  "dhikrReminderTimeLabel": "Wakati wa kumbukumbu",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Hadith ya Kila Siku",
+  "hadithLabelArabic": "KIARABIA",
+  "hadithLabelTranslation": "TAFSIRI",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Sambaza Hadith Hii",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nKupitia Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Iliyotangulia",
+  "hadithNavNext": "Inayofuata",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "Masumeen 14 Umma",
+  "imamsScreenSubtitle": "Nabii, Bibi Fatima, na Imam Kumi na Mbili — wamuongozaji wenye makosa wa Kiislamu",
+  "imamLabelBorn": "Kuzaliwa",
+  "imamLabelMartyrdom": "Shahada",
+  "imamLabelStatus": "Hali",
+  "imamSectionBiography": "WAZALI",
+  "imamSectionFamousSaying": "KAULI MAARUFU",
+  "imamRoleProphet": "Nabii wa Mwisho",
+  "imamRoleInfallible": "Wenye Makosa",
+  "imamOrdinal1": "Imam 1",
+  "imamOrdinal2": "Imam 2",
+  "imamOrdinal3": "Imam 3",
+  "imamOrdinal4": "Imam 4",
+  "imamOrdinal5": "Imam 5",
+  "imamOrdinal6": "Imam 6",
+  "imamOrdinal7": "Imam 7",
+  "imamOrdinal8": "Imam 8",
+  "imamOrdinal9": "Imam 9",
+  "imamOrdinal10": "Imam 10",
+  "imamOrdinal11": "Imam 11",
+  "imamOrdinal12": "Imam 12",
+  "duaAudioScreenTitle": "Sikiliza Dua",
+  "duaAudioScreenSubtitle": "Chagua dua ili kusikiliza. Gusa tile ili kucheza au kumwachia.",
+  "duaAudioComingSoonMessage": "Sauti kwa dua hii itakuwa available katika sasisho linalokuja.",
+  "duaAudioClose": "Funga",
+  "duaAudioError": "Haikuweza kupakua sauti. Tafadhali angalia muunganisho wako.",
+  "duaAudioMetaTransmittedBy": "Kusomwa na",
+  "duaAudioMetaOccasion": "Matukio",
+  "duaAudioMetaDuration": "Muda",
+  "quickActionDailyHadith": "Hadith ya Kila Siku",
+  "quickAction14Masumeen": "Masumeen 14",
+  "quickActionListenDuas": "Sikiliza",
+  "quickActionTasbihat": "Mwongozo wa Sala",
+  "pilgrimageSectionTitle": "Safari ya Takaburi",
+  "pilgrimageSectionSubtitle": "Mwongozo kamili kwa Hajj & Umrah — ziyara kwa Nyumba Takatifu ya Allah katika Makkah",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "Nguzo ya Kiislamu",
+  "hajjCardDescription": "Ziyara kubwa ya kila mwaka — wajib mara moja kwa maisha ya kila Mwanamislamu anayeweza",
+  "hajjScreenTitle": "Mwongozo wa Hajj",
+  "hajjScreenSubtitle": "Mwongozo wa hatua kwa hatua kwa ziyara kubwa",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "Ziyara ya Ndogo",
+  "umrahCardDescription": "Safari ya roho yenye zawadi ambayo inaweza kufanywa kwa wakati wowote wa mwaka",
+  "umrahScreenTitle": "Mwongozo wa Umrah",
+  "umrahScreenSubtitle": "Mwongozo wa hatua kwa hatua kwa ziyara ya ndogo",
+  "pilgrimageStepsTitle": "Masharti & Hatua",
+  "pilgrimageImportantNotesTitle": "Kumbuka Muhimu",
+  "pilgrimageDuaTitle": "Dua kwa hatua hii",
+  "pilgrimageJafariNoteTitle": "Kumbukumbu ya Fiqh Ja'fari",
+  "pilgrimageComplete": "✓ Kamili",
+  "pilgrimageMarkDone": "Tia kama imekamilika",
+  "pilgrimageProgress": "{done} kati ya {total} hatua",
+  "pilgrimageReadTime": "~{minutes} min",
+  "pilgrimageShiaNoteTitle": "Waziyara wa Shia",
+  "pilgrimageShiaNoteBody": "Waziyara wa Shia kawaida pia husafiri kwa Medina kupokea kaburi la Nabii Muhammad (SAW) katika Masjid al-Nabawi, na makaburi ya Imam katika Jannat al-Baqi. Ziyara hizi zina umuhimu wa roho wa juu na zinavyopatikana sehemu muhimu ya safari kwa Wanaislamu wengi wa Shia.",
+  "hajjIntro": "Hajj ndio nguzo ya Kiislamu, wajib mara moja kwa maisha ya Mwanamislamu yeyote anayeweza kimwili na kwa pesa. Inaushughulikiwa katika mwezi wa Dhul Hijjah, inasambaza hatua za Nabii Ibrahim (AS), mwanawe Ismail (AS), na Bibi Hajar. Kwa Waislamu wa Shia, Hajj pia inajumuisha mahimu ya ziyara makaburi ya Nabii (SAW) na Ahlul Bayt katika Medina.",
+  "umrahIntro": "Umrah ndio ziyara ya ndogo kwa Makkah na, tofauti na Hajj, inaweza kufanywa kwa wakati wowote wa mwaka. Ingawa si wajib, inabeba zawadi ya roho ya juu na inavyopatikana hatua ya ibada inayopendekezwa sana. Inakamatia masharti kadhaa na Hajj lakini ni mfupi, inajumuisha sharti nne kuu."
 }

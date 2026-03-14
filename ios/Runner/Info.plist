@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
-		<key>FIRAAppCheckDebugToken</key>
-		<string>94E3D549-0494-451E-A1B0-C8B06FA8B7DD</string>
 		<key>CADisableMinimumFrameDurationOnPhone</key>
 		<true/>
 		<key>CFBundleDevelopmentRegion</key>
@@ -24,12 +22,27 @@
 		<string>$(FLUTTER_BUILD_NAME)</string>
 		<key>CFBundleSignature</key>
 		<string>????</string>
+		<key>CFBundleURLTypes</key>
+		<array>
+			<dict>
+				<key>CFBundleTypeRole</key>
+				<string>Editor</string>
+				<key>CFBundleURLSchemes</key>
+				<array>
+					<string>com.googleusercontent.apps.306439961185-idmu6o17nueqfbqbrogv6vdmk6ldvg4a</string>
+				</array>
+			</dict>
+		</array>
 		<key>CFBundleVersion</key>
 		<string>$(FLUTTER_BUILD_NUMBER)</string>
 		<key>NSLocationWhenInUseUsageDescription</key>
 		<string>Ayara uses your location to show the Qibla direction and calculate prayer times for your city.</string>
 		<key>NSMotionUsageDescription</key>
 		<string>Ayara uses device motion to animate the Qibla compass so it always points toward Mecca.</string>
+		<key>NSCalendarsUsageDescription</key>
+		<string>Ayara would like to add Islamic occasions to your calendar.</string>
+		<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
+		<string>Ayara would like to add Islamic occasions to your calendar.</string>
 		<key>ITSAppUsesNonExemptEncryption</key>
 		<false/>
 		<key>LSRequiresIPhoneOS</key>

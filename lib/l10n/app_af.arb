@@ -1,8 +1,6 @@
 {
   "@@locale": "af",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "Kies jou taal",
   "languageSelectSub": "Jy kan dit later in Instellings verander",
   "actionContinue": "Gaan voort",
@@ -10,199 +8,165 @@
   "languageAllHeader": "Alle tale",
   "languageSuggestedBadge": "Voorgestel",
   "languageSearchHint": "Soek…",
-
-  "planGrace": "Standaard",
-  "planBlessed": "Barakah",
-
-  "categoryDailyGuidance": "Daaglikse Leiding",
-  "categoryFaithTrust": "Imaan & Vertroue",
-  "categoryPrayerReflection": "Gebedsbesinning",
-  "categoryHopeDifficultTimes": "Geduld en Hoop",
-  "categoryForgiveness": "Soek Vergifnis",
-  "categoryLoveCompassion": "Genade en Medelye",
-  "categoryStrengthCourage": "Geloof en Krag",
-  "categoryGratitude": "Dankbare Hart",
-  "categoryPurposeCalling": "Lewensdoel",
-  "categoryFamilyRelationships": "Familiebande",
-  "categoryPeaceAnxietyRelief": "Innerlike Vrede",
-  "categoryWisdomOfJesus": "Profetiese Wysheid",
-  "categoryHumilityCharacter": "Goeie Karakter",
-  "categoryOvercomingTemptation": "Weerstaan Versoeking",
-  "categoryEveningReflection": "Aand-Dhikr",
-  "categoryCustom": "Persoonlike Refleksie",
-  "dhikrMeaningSubhanallah": "Glorie aan Allah",
-  "dhikrMeaningAlhamdulillah": "Alle lof is aan Allah",
+  "planBasic": "Standaard",
+  "planPremium": "Wilaya",
+  "categorySlot01": "Daaglikse Leiding",
+  "categorySlot02": "Iman & Vertroue",
+  "categorySlot03": "Gebedsbesinning",
+  "categorySlot04": "Geduld & Hoop",
+  "categorySlot05": "Soek Vergifnis",
+  "categorySlot06": "Genade & Deernis",
+  "categorySlot07": "Krag van Geloof",
+  "categorySlot08": "Dankbare Hart",
+  "categorySlot09": "Lewensdoel",
+  "categorySlot10": "Familiebande",
+  "categorySlot11": "Innerlike Vrede",
+  "categorySlot12": "Wysheid van die Profeet",
+  "categorySlot13": "Goeie Karakter",
+  "categorySlot14": "Weerstaan Versoeking",
+  "categorySlot15": "Aand-Dhikr",
+  "categoryCustom": "Persoonlike Besinning",
+  "dhikrMeaningSubhanallah": "Heerlikheid aan Allah",
+  "dhikrMeaningAlhamdulillah": "Alle lof kom Allah toe",
   "dhikrMeaningAllahuAkbar": "Allah is die Grootste",
-  "quranVerseHeartAtRest": "Waarlik, in die herinnering aan Allah vind harte rus.",
-
-  "promptHint": "Tik op 'n kategorie vir Islamitiese leiding en besinning",
-
+  "quranVerseHeartAtRest": "Waarlik, in die gedenking van Allah vind harte rus.",
+  "promptHint": "Tik op ’n kategorie vir Islamitiese leiding en besinning",
   "currentLanguage": "Huidige taal",
   "settingsLanguage": "Taalinstellings",
   "settingsTitle": "Instellings",
   "chooseLanguage": "Kies jou taal",
   "continueCta": "Gaan voort",
-
-  "promptDailyGuidance": "Skryf kort, praktiese daaglikse leiding gegrond in die Sunni-Islamitiese geloof — gewortel in die Koran, Hadith en die leerstellinge van die Profeet Muhammad. Kies elke keer 'n vars invalshoek: 'n deug uit Islamitiese etiek, 'n waarheid uit die Sunnah, wysheid van die Metgeselle van die Profeet, of 'n stille praktyk uit die Islamitiese tradisie. Sluit een Koranvers (Surah:Ayah) en 'n 1–2 sinne besinning in om deur die dag te dra. Verbind dit opsioneel aan die Islamitiese kalender of 'n belangrike datum indien toepaslik.",
-
-  "promptFaithTrust": "Skryf 'n kort Islamitiese besinning oor Imaan (geloof) en vertroue in Allah se plan (Tawakkul). Grond dit in die Koran, die voorbeeld van die Profeet Muhammad, en die geloof van die Sahaba. Varieer die tema elke keer: vertrou op Allah tydens onsekerheid, staatmaak op goddelike wysheid, geduld in beproewings, of stille volharding in die alledaagse lewe. Sluit een Koranvers en een eerlike stap vir vandag in, geput uit Islamitiese geestelike wysheid.",
-
-  "promptPrayerReflection": "Skryf 'n kort Islamitiese gebedsbesinning gegrond in Salah, Dua of Dhikr. Varieer die vorm elke keer: 'n oggend- of aandherinnering (Adhkar), besinning oor die vyf daaglikse gebede, oordenking van 'n Koranvers, of 'n hartlike smeekgebed. Sluit een Koranvers in en noem kortliks die gebedsvorm wat gebruik is.",
-
-  "promptHopeDifficultTimes": "Skryf 'n Islamitiese besinning oor geduld (Sabr) en hoop tydens swaarkry. Put uit Koran-leerstellinge oor beproewings, die volharding van die Profete, en Allah se genade in moeilike oomblikke. Varieer die invalshoek elke keer. Sluit een Koranvers en een bemoedigende perspektief uit die Islamitiese tradisie in.",
-
-  "promptForgiveness": "Skryf 'n wyse Islamitiese besinning oor die soeke na vergifnis (Tawbah) en Allah se genade. Put uit Koran-leerstellinge oor berou, Allah se medelye, en die vergewensgesinde voorbeeld van die Profeet Muhammad. Varieer die tema: terugkeer na Allah, ander vergewe, verhoudings heel, of glo in Allah se genade na foute. Sluit een Koranvers en een konkrete stap in.",
-
-  "promptLoveCompassion": "Skryf 'n kort Islamitiese besinning oor genade (Rahmah) en medelye in die alledaagse lewe. Put uit die voorbeeld van die Profeet Muhammad, die konsep van Ihsan (uitnemendheid), en Islamitiese leerstellinge oor vriendelikheid teenoor familie, bure en die kwesbare. Sluit een Koranvers en een klein daad van medelye om vandag te beoefen in.",
-
-  "promptStrengthCourage": "Skryf 'n Islamitiese besinning oor geloofsgegronde krag en moed. Put uit voorbeelde van die Profete, die vroeë Moslemgemeenskap, en gelowiges wat standvastig gebly het in swaarkry. Varieer die tema elke keer: moed deur geloof, krag in gebed, vertroue op Allah tydens vrees, of veerkragtigheid in moeilikheid. Sluit een Koranvers en 'n kort smeekgebed of frase van herinnering in.",
-
-  "promptGratitude": "Skryf 'n Islamitiese besinning oor dankbaarheid (Shukr) teenoor Allah. Grond dit in Koran-leerstellinge en profetiese tradisie. Varieer die invalshoek: dankbaarheid in swaarkry, waardering vir klein seëninge, die dag begin met lof aan Allah, of Allah se leiding in die daaglikse lewe erken. Sluit een Koranvers en een dankbaarheidspraktyk in.",
-
-  "promptPurposeCalling": "Skryf 'n Islamitiese besinning oor die doel van die lewe in die aanbidding van Allah en regverdige lewensvoering. Put uit Koran-leerstellinge oor doel, diens aan ander, en die gebruik van 'n mens se gawes vir die goeie. Varieer die tema elke keer: diens aan familie en gemeenskap, leiding soek deur Istikhara, doelgerig leef, of betekenis vind in gewone werk. Sluit een Koranvers en twee besinningsvrae in.",
-
-  "promptFamilyRelationships": "Skryf wyse Islamitiese leiding oor familie en verhoudings, gegrond in Koran-leerstellinge en die voorbeeld van die Profeet Muhammad. Varieer die tema elke keer: vriendelikheid in gesinslewe, geduld in konflik, ouers eer, kinders grootmaak in die geloof, of die huwelik versterk. Sluit een Koranvers en een verhoudingspraktyk om te probeer in.",
-
-  "promptPeaceAnxietyRelief": "Skryf 'n kalmerende Islamitiese besinning oor die vind van innerlike vrede deur herinnering aan Allah (Dhikr) en vertroue in Sy plan. Put uit Koran-leerstellinge oor die kalmte van die hart, gebed, en oorgawe aan Allah se wil. Varieer die benadering elke keer en sluit een Koranvers en een eenvoudige aardings-praktyk uit die Islamitiese tradisie in.",
-
-  "promptWisdomOfJesus": "Skryf 'n kort stuk wysheid van die Profete soos geleer in Islam. Put uit die Koran of Hadith en verduidelik kortliks hoe Islamitiese geleerdes die lering verstaan het. Varieer die onderwerp elke keer: karakter, geduld, nederigheid, geloof, of daaglikse gedrag. Sluit 'n Koranvers of Hadith-verwysing en een praktiese toepassing in.",
-
-  "promptHumilityCharacter": "Skryf 'n Islamitiese besinning oor nederigheid (Tawadhu) en goeie karakter (Akhlaq). Put uit Koran-leerstellinge, die voorbeeld van die Profeet Muhammad, en die tradisie van Islamitiese karakterontwikkeling. Varieer die tema: nederigheid in leierskap, foute erken, ander met respek behandel, of geestelik groei deur selfbesinning. Sluit een Koranvers en een gewoonte om te beoefen in.",
-
-  "promptOvercomingTemptation": "Skryf 'n Islamitiese besinning oor die weerstaan van versoeking en die bly op die reguit pad. Put uit Koran-leiding, herinnering aan Allah (Dhikr), gebed (Salah), en voorbeelde van gelowiges wat stryd oorkom het. Varieer die invalshoek elke keer. Sluit een Koranvers en een praktiese strategie vir die volgende 24 uur in.",
-
-  "promptEveningReflection": "Skryf 'n vredeliewende Islamitiese aandbesinning gegrond in die tradisie van aandherinnering (Adhkar al-Masaa'). Moedig dankbaarheid, selfbesinning (Muhasabah), en vertroue in Allah voor rus aan. Sluit 3–5 kort besinningsvrae oor die dag, 'n kort sluitende smeekgebed, en een Koranvers in.",
-
   "wordCount": "{count, plural, one {{count} woord} other {{count} woorde}}",
-
   "optionsCta": "Opsies",
   "newCta": "Nuut",
   "actionsTitle": "Wat wil jy doen?",
   "copy": "Kopieer",
   "share": "Deel",
-  "close": "Sluit",
-  "copiedToast": "Na klembord gekopieer",
-
+  "close": "Maak toe",
+  "copiedToast": "Na knipbord gekopieer",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "Email / share subject line including the category label.",
+    "description": "E-pos / deel-onderwerp wat die kategorienaam insluit.",
     "placeholders": {
-      "category": { "type": "String", "example": "Daaglikse Leiding" }
+      "category": {
+        "type": "String",
+        "example": "Daaglikse Leiding"
+      }
     }
   },
-
-  "regenerateErrorTitle": "Kon nie 'n nuwe antwoord genereer nie",
+  "regenerateErrorTitle": "Kon nie ’n nuwe antwoord genereer nie",
   "regenerateErrorBody": "{error}\n\nWil jy weer probeer?",
   "@regenerateErrorBody": {
-    "description": "Shown when regenerating an AI answer fails.",
+    "description": "Wys wanneer die hergenerering van ’n AI-antwoord misluk.",
     "placeholders": {
-      "error": { "type": "String", "example": "Netwerkfout" }
+      "error": {
+        "type": "String",
+        "example": "Netwerkfout"
+      }
     }
   },
-
   "cancelCta": "Kanselleer",
   "retryCta": "Probeer weer",
-
   "authTitle": "Skep jou rekening",
   "continueAsGuest": "Gaan voort as gas",
   "signInGoogle": "Meld aan met Google",
   "signInApple": "Meld aan met Apple",
-  "signInEmail": "Meld aan met e-pos",
+  "signInEmail": "Meld aan met E-pos",
   "upgradeWithApple": "Gaan voort met Apple",
-  "mustAccept": "Jy moet die Gebruiksvoorwaardes aanvaar en die Privaatheidsbeleid erken.",
-  "termsLabel": "Ek aanvaar die Gebruiksvoorwaardes",
+  "mustAccept": "Jy moet die Diensvoorwaardes aanvaar en die Privaatheidsbeleid erken.",
+  "termsLabel": "Ek aanvaar die Diensvoorwaardes",
   "privacyLabel": "Ek het die Privaatheidsbeleid gelees",
   "marketingOptIn": "Ek stem in om nuus en aanbiedinge te ontvang",
-  "openTerms": "Gebruiksvoorwaardes",
+  "openTerms": "Diensvoorwaardes",
   "openPrivacy": "Privaatheidsbeleid",
-
   "accountSection": "Rekening",
   "guestMode": "Gasmodus",
   "signedIn": "Aangemeld",
-  "upgradeHint": "Stoor jou besinnings oor toestelle heen deur 'n rekening te skep.",
+  "upgradeHint": "Stoor jou besinnings oor verskillende toestelle deur ’n rekening te skep.",
   "upgradeWithGoogle": "Gaan voort met Google",
   "signOut": "Meld af",
-
-  "snackUpgraded": "Rekening opgegradeer met Google ✅",
-  "snackSignedIn": "Aangemeld met Google ✅",
+  "snackUpgraded": "Rekening met Google opgegradeer ✅",
+  "snackSignedIn": "Met Google aangemeld ✅",
   "snackSignedOut": "Afgemeld",
-  "snackSignedInApple": "Aangemeld met Apple ✅",
-  "snackSignedInGoogle": "Aangemeld met Google ✅",
-  "snackUpgradedApple": "Rekening opgegradeer met Apple ✅",
-  "snackUpgradedGoogle": "Rekening opgegradeer met Google ✅",
-
+  "snackSignedInApple": "Met Apple aangemeld ✅",
+  "snackSignedInGoogle": "Met Google aangemeld ✅",
+  "snackUpgradedApple": "Rekening met Apple opgegradeer ✅",
+  "snackUpgradedGoogle": "Rekening met Google opgegradeer ✅",
   "historyTitle": "Vorige besinnings",
   "historyOpenCta": "Vorige besinnings",
-  "historyEmpty": "Geen gestoorde besinnings nog nie.",
-  "historyDeleteTitle": "Besinning uitvee?",
-  "historyDeleteBody": "Dit sal die geselekteerde item permanent verwyder.",
-  "deleteCta": "Uitvee",
-
+  "historyEmpty": "Nog geen gestoorde besinnings nie.",
+  "historyDeleteTitle": "Skrap besinning?",
+  "historyDeleteBody": "Dit sal die gekose item permanent verwyder.",
+  "deleteCta": "Skrap",
   "historyButton": "Vorige Besinnings",
   "historyEmptyTitle": "Nog geen besinnings nie",
   "historyEmptyBody": "Genereer eers iets — jou gestoorde items sal hier verskyn.",
-  "historyDelete": "Uitvee",
-
-  "footerTitle": "Met Imaan, sabr en rahma.",
-  "footerSubtitle": "Een stap op 'n slag.",
-  "genericErrorSnack": "Iets het verkeerd gegaan — probeer asseblief oor 'n oomblik weer.",
-
-  "upgradeAccountCta": "Stoor jou besinnings oor toestelle heen — skep 'n rekening",
-  "deleteAccount": "Verwyder rekening",
+  "historyDelete": "Skrap",
+  "footerTitle": "Met Wilaya, Iman en Sabr",
+  "footerSubtitle": "Een gebed op ’n slag",
+  "genericErrorSnack": "Iets het verkeerd geloop — probeer asseblief weer oor ’n oomblik.",
+  "upgradeAccountCta": "Stoor jou besinnings oor verskillende toestelle – skep ’n rekening",
+  "deleteAccount": "Skrap rekening",
   "exportData": "Voer my data uit",
-
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "Label before showing the internal Firebase UID.",
+    "description": "Etiket voordat die interne Firebase UID gewys word.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "Rustig, my vriend 🐯\nDie KI benodig 'n oomblik voor die volgende een…",
-  "rateDailyLimit": "Jou besinnings is vir nou op.\nKry meer besinnings of opgradeer na Barakah.",
-  "rateCreditsExhausted": "Jy het al jou besinnings gebruik.\nLaai op of opgradeer na Barakah om voort te gaan.",
-  "rateGraceReflectionsExhausted": "Jou besinnings is vir nou op.\nKry meer besinnings of opgradeer na Barakah.",
-  "rateReflectionsExhausted": "Jy het al jou besinnings gebruik.\nLaai op of opgradeer na Barakah om voort te gaan.",
-
-  "blessedDescription": "Barakah ontsluit premium funksies, toekomstige kategorieë, en 'n spesiale kenteken.",
-  "championDescription": "Barakah ontsluit premium funksies, toekomstige kategorieë, en 'n spesiale kenteken.",
-
-  "ratePlanExhausted": "Jou besinnings is tans leeg. Plan: {plan}.",
+  "rateLocalThrottle": "Rustig nou 🐯\nAyara het ’n oomblik nodig voor die volgende een…",
+  "rateDailyLimit": "Jy is vir nou uit besinnings.\nKry meer besinnings of gradeer op na Wilaya.",
+  "rateCreditsExhausted": "Jy het al jou besinnings gebruik.\nVul aan of gradeer op na Wilaya om voort te gaan.",
+  "rateGraceCreditsExhausted": "Jy is vir nou uit besinnings.\nKry meer besinnings of gradeer op na Wilaya.",
+  "premiumDescription": "Wilaya ontsluit premium-funksies, toekomstige kategorieë en ’n spesiale kenteken.",
+  "ratePlanExhausted": "Jou besinnings is tans op. Plan: {plan}.",
   "@ratePlanExhausted": {
-    "description": "Shown when the user's reflections are exhausted but the reason is generic.",
+    "description": "Wys wanneer die gebruiker se besinnings op is maar die rede algemeen is.",
     "placeholders": {
-      "plan": { "type": "String", "example": "Standaard of Barakah" }
+      "plan": {
+        "type": "String",
+        "example": "Standaard of Wilaya"
+      }
     }
   },
-
   "rateCheckFailed": "Kon nie jou besinnings nagaan nie: {message}",
   "@rateCheckFailed": {
-    "description": "Shown when the callable function returns an error message.",
+    "description": "Wys wanneer die callable-funksie ’n foutboodskap teruggee.",
     "placeholders": {
-      "message": { "type": "String", "example": "Netwerkfout" }
+      "message": {
+        "type": "String",
+        "example": "Netwerkfout"
+      }
     }
   },
-
-  "rateCheckGenericError": "Iets het verkeerd gegaan terwyl jou besinnings nagegaan is.",
-  "aiFallbackGeneric": "Iets het verkeerd gegaan — probeer asseblief oor 'n oomblik weer.",
-
+  "rateCheckGenericError": "Iets het verkeerd geloop terwyl jou besinnings nagegaan is.",
+  "aiFallbackGeneric": "Iets het verkeerd geloop — probeer asseblief weer oor ’n oomblik.",
   "limitSectionTitle": "Besinnings",
   "limitTodayLabel": "Gebruik",
   "limitCreditsLabel": "Oorblywende besinnings: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "Plan: {plan}",
-  "@limitPlanLabel": {
-    "description": "Shows the current subscription plan name.",
+  "@limitCreditsLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Standaard of Barakah" }
+      "credits": {}
     }
   },
-  "limitLoadingLabel": "Laai tans…",
-  "limitLoadingLabelDescription": "Vertoon in besinningskaart terwyl gebruikstatistieke gehaal word.",
-
+  "limitPlanLabel": "Plan: {plan}",
+  "@limitPlanLabel": {
+    "description": "Wys die huidige intekenplan se naam.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standaard of Wilaya"
+      }
+    }
+  },
+  "limitLoadingLabel": "Laai…",
+  "limitLoadingLabelDescription": "Wys in die besinningskaart terwyl gebruiksdata verkry word.",
   "aiLimitTitle": "Besinnings",
-  "aiLimitSubtitle": "Elke antwoord gebruik 1 besinning. Standaard sluit aanvangsbesinnings in. Barakah ontsluit premium kategorieë en maak aanvullings moontlik.",
+  "aiLimitSubtitle": "Elke antwoord gebruik 1 besinning. Standaard sluit beginner-besinnings in. Wilaya ontsluit premium-kategorieë en maak opvullings moontlik.",
   "aiLimitProgressLabel": "{used} / {total} besinnings gebruik",
   "@aiLimitProgressLabel": {
     "placeholders": {
@@ -210,376 +174,456 @@
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "Besinnings",
-  "reflectionsUsageLabel": "Gebruik",
-  "reflectionsRemainingLabel": "Oorblywende besinnings: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "Plan: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "Shows the current plan name.",
+  "creditsSectionTitle": "Besinnings",
+  "creditsUsageLabel": "Gebruik",
+  "creditsRemainingLabel": "Oorblywende besinnings: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "Standaard of Barakah" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "Laai tans…",
-  "reflectionsLoadingLabelDescription": "Vertoon terwyl besinningsstatistieke gehaal word.",
-
-  "reflectionsTitle": "Besinnings",
-  "reflectionsSubtitle": "Elke antwoord gebruik 1 besinning. Standaard sluit aanvangsbesinnings in. Barakah ontsluit premium kategorieë en maak aanvullings moontlik.",
-  "reflectionsProgressLabel": "{used} / {total} besinnings gebruik",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "Plan: {plan}",
+  "@creditsPlanLabel": {
+    "description": "Wys die huidige plan se naam.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Standaard of Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "Laai…",
+  "creditsLoadingLabelDescription": "Wys terwyl besinningsdata verkry word.",
+  "creditsTitle": "Besinnings",
+  "creditsSubtitle": "Elke antwoord gebruik 1 besinning. Standaard sluit beginner-besinnings in. Wilaya ontsluit premium-kategorieë en maak opvullings moontlik.",
+  "creditsProgressLabel": "{used} / {total} besinnings gebruik",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "Verwyder rekening",
-  "settingsDeleteDescription": "Verwyder jou rekening en alle geassosieerde data permanent.",
-  "settingsDeleteButtonLabel": "Verwyder my rekening",
-  "settingsDeleteDialogTitle": "Rekening verwyder?",
-  "settingsDeleteDialogBody": "Hierdie aksie is permanent en kan nie ongedaan gemaak word nie.\n\nAl jou gesprekke, geskiedenis en rekeninginligting sal uitgevee word.",
+  "settingsDeleteTitle": "Skrap rekening",
+  "settingsDeleteDescription": "Skrap jou rekening en alle verwante data permanent.",
+  "settingsDeleteButtonLabel": "Skrap my rekening",
+  "settingsDeleteDialogTitle": "Skrap rekening?",
+  "settingsDeleteDialogBody": "Hierdie handeling is permanent en kan nie ongedaan gemaak word nie.\n\nAl jou kletse, geskiedenis en rekeninginligting sal geskrap word.",
   "settingsDeleteDialogCancel": "Kanselleer",
-  "settingsDeleteDialogConfirm": "Uitvee",
-
-  "settingsFreeLimitUsedTitle": "Aanvangsbesinnings gebruik",
-  "settingsFreeLimitUsedDescription": "Die aanvangsbesinnings vir hierdie toestel is gebruik. Opgradeer na Barakah of koop meer besinnings om voort te gaan.",
-
-  "settingsStarterReflectionsUsedTitle": "Aanvangsbesinnings gebruik",
-  "settingsStarterReflectionsUsedDescription": "Die aanvangsbesinnings vir hierdie toestel is gebruik. Opgradeer na Barakah of koop meer besinnings om voort te gaan.",
-
-  "deviceBoundError": "Hierdie toestel is reeds aan 'n ander rekening gekoppel. Meld asseblief aan met die oorspronklike rekening.",
-
-  "premiumTitle": "Barakah-modus",
-  "premiumSubtitleBasic": "Ontsluit die volledige Ayara-ervaring.",
-  "premiumSubtitleChampion": "Jy is Barakah. Het jy meer besinnings nodig?",
-
+  "settingsDeleteDialogConfirm": "Skrap",
+  "settingsFreeLimitUsedTitle": "Beginner-besinnings gebruik",
+  "settingsFreeLimitUsedDescription": "Die beginner-besinnings vir hierdie toestel is gebruik. Gradeer op na Wilaya of koop meer besinnings om voort te gaan.",
+  "settingsStarterCreditsUsedTitle": "Beginner-besinnings gebruik",
+  "settingsStarterCreditsUsedDescription": "Die beginner-besinnings vir hierdie toestel is gebruik. Gradeer op na Wilaya of koop meer besinnings om voort te gaan.",
+  "deviceBoundError": "Hierdie toestel is reeds aan ’n ander rekening gekoppel. Meld asseblief aan met die oorspronklike rekening.",
+  "premiumTitle": "Wilaya-modus",
+  "premiumSubtitleBasic": "Ontsluit die volle Ayara-ervaring.",
+  "premiumSubtitlePremium": "Jy is op Wilaya. Het jy meer besinnings nodig?",
   "premiumCurrentPlan": "Huidige plan: {plan}",
   "premiumCreditsStatus": "Besinnings: {remaining} / {total}",
-
   "premiumPurchasesUnavailable": "Aankope is tans nie beskikbaar nie.",
-  "premiumSignInToPurchase": "Meld aan om besinnings te koop of Barakah te ontsluit.",
-
+  "premiumSignInToPurchase": "Meld aan om besinnings te koop of Wilaya te ontsluit.",
   "premiumRestorePurchases": "Herstel aankope",
   "premiumProcessing": "Verwerk…",
-  "premiumRestoreHintTitle": "Het jy reeds Barakah of besinnings op hierdie of 'n ander toestel gekoop?",
-  "premiumRestoreHintBody": "Herstel jou aankope as dit nie vertoon word nie.",
-
+  "premiumRestoreHintTitle": "Het jy reeds Wilaya of besinnings op hierdie of ’n ander toestel gekoop?",
+  "premiumRestoreHintBody": "Herstel jou aankope as dit nie wys nie.",
   "premiumBuyCredits200": "Koop 200 besinnings",
   "premiumBuyCredits400": "Koop 400 besinnings",
-  "premiumBecomeChampionOneTime": "Opgradeer na Barakah-modus",
-  "premiumChampionHint": "As Barakah kan jy enige tyd aanvul met ekstra besinnings.",
-
-  "premiumUpgradeCta": "Opgradeer",
-  "premiumRequiredForCategory": "Hierdie kategorie is slegs beskikbaar vir Barakah-gebruikers. Opgradeer in Instellings om alle premium inhoud te ontsluit.",
-  "premiumBenefitsBasic": "Ontsluit Barakah om ekstra besinnings te kry, toegang tot premium kategorieë te verkry, en voort te gaan wanneer jy leiding nodig het.",
-  "premiumBenefitsChampion": "Jy is in Barakah-modus. As jy min het, voeg ekstra besinnings by en gaan sonder onderbrekings voort.",
-  "premiumButtonBecomeChampion": "Ontsluit Barakah",
+  "premiumBecomePremiumOneTime": "Gradeer op na Wilaya-modus",
+  "premiumTopupHint": "Met Wilaya kan jy enige tyd ekstra besinnings byvoeg wanneer jy dit nodig het.",
+  "premiumUpgradeCta": "Gradeer op",
+  "premiumRequiredForCategory": "Hierdie kategorie is slegs vir Wilaya-gebruikers beskikbaar. Gradeer in Instellings op om alle premium-inhoud te ontsluit.",
+  "premiumBenefitsBasic": "Ontsluit Wilaya om ekstra besinnings te kry, toegang tot premium-kategorieë te hê en voort te gaan wanneer jy leiding nodig het.",
+  "premiumBenefitsPremium": "Jy is in Wilaya-modus. As jy min raak, voeg ekstra besinnings by en gaan sonder onderbreking voort.",
+  "premiumButtonBecomePremium": "Ontsluit Wilaya",
   "premiumButtonTopup1000": "Voeg 1000 besinnings by",
-  "premiumChampionBadge": "Barakah aktief",
+  "premiumBadge": "Wilaya aktief",
   "premiumLoadingStore": "Laai winkel…",
-
-  "blessedTitle": "Barakah-modus",
-  "blessedSubtitleGrace": "Ontsluit die volledige Ayara-ervaring.",
-  "blessedSubtitleBlessed": "Jy is Barakah. Het jy meer besinnings nodig?",
-
-  "blessedCurrentPlan": "Huidige plan: {plan}",
-  "blessedReflectionsStatus": "Besinnings: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "Aankope is tans nie beskikbaar nie.",
-  "blessedProductNotAvailable": "Hierdie produk is nog nie in die winkel beskikbaar nie. Probeer asseblief later weer.",
-  "blessedPurchaseError": "Iets het met die aankoop verkeerd gegaan. Probeer asseblief weer.",
-  "blessedSignInToPurchase": "Meld aan om besinnings te koop of Barakah te ontsluit.",
-
-  "blessedRestorePurchases": "Herstel aankope",
-  "blessedProcessing": "Verwerk…",
-  "blessedRestoreHintTitle": "Het jy reeds Barakah of besinnings op hierdie of 'n ander toestel gekoop?",
-  "blessedRestoreHintBody": "Herstel jou aankope as dit nie vertoon word nie.",
-
-  "blessedBuyReflections100": "Voeg 100 besinnings by",
-  "blessedBuyReflections200": "Koop 200 besinnings",
-  "blessedBuyReflections400": "Koop 400 besinnings",
-  "blessedBecomeBlessedOneTime": "Opgradeer na Barakah",
-  "blessedTopupHint": "As Barakah kan jy enige tyd aanvul met ekstra besinnings.",
-
-  "blessedUpgradeCta": "Opgradeer",
-  "blessedRequiredForCategory": "Hierdie kategorie is slegs beskikbaar vir Barakah-gebruikers. Opgradeer in Instellings om alle premium inhoud te ontsluit.",
-  "blessedFeatureLocked": "Ontsluit Barakah om toegang tot hierdie funksie te kry.",
-  "lockedCategoriesHint": "Sommige kategorieë is gereserveer vir Barakah-lede. Ontsluit hulle om elke besinning op jou geestelike reis te verken.",
-  "blessedBenefitsGrace": "Ontsluit Barakah om ekstra besinnings te kry, toegang tot premium kategorieë te verkry, en voort te gaan wanneer jy leiding nodig het.",
-  "blessedBenefitsBlessed": "Jy is in Barakah-modus. As jy min het, voeg ekstra besinnings by en gaan sonder onderbrekings voort.",
-  "blessedButtonBecomeBlessed": "Ontsluit Barakah",
-  "blessedButtonTopup1000": "Voeg 1000 besinnings by",
-  "blessedBadge": "Barakah aktief",
-  "blessedLoadingStore": "Laai winkel…",
-
-  "freePlanBlockedTitle": "Jy het jou aanvangsbesinnings opgebruik",
-  "freePlanBlockedBody": "Jy is op die Standaard-plan met aanvangsbesinnings, en jy het die limiet bereik. Om voort te gaan — en premium kategorieë te ontsluit — opgradeer na Barakah.",
-  "freePlanBlockedCtaGoPremium": "Sien Barakah-opsies hieronder",
-
-  "graceBlockedTitle": "Jy het jou aanvangsbesinnings opgebruik",
-  "graceBlockedBody": "Jy is op die Standaard-plan met aanvangsbesinnings, en jy het die limiet bereik. Om voort te gaan — en premium kategorieë te ontsluit — opgradeer na Barakah.",
-  "graceBlockedCtaGoBlessed": "Sien Barakah-opsies hieronder",
-
+  "premiumProductNotAvailable": "Hierdie produk is nog nie in die winkel beskikbaar nie. Probeer asseblief later weer.",
+  "premiumPurchaseError": "Iets het met die aankoop verkeerd geloop. Probeer asseblief weer.",
+  "premiumBuyCredits100": "Voeg 100 besinnings by",
+  "premiumFeatureLocked": "Ontsluit Wilaya om toegang tot hierdie funksie te kry.",
+  "lockedCategoriesHint": "Sommige kategorieë is vir Wilaya-lede gereserveer. Ontsluit hulle om elke besinning op jou reis te verken.",
+  "freePlanBlockedTitle": "Jy het jou beginner-besinnings opgebruik",
+  "freePlanBlockedBody": "Jy is op die Standaard-plan met beginner-besinnings, en jy het die limiet bereik. Om voort te gaan — en premium-kategorieë te ontsluit — gradeer op na Wilaya.",
+  "freePlanBlockedCtaGoPremium": "Sien Wilaya-opsies hieronder",
+  "graceBlockedTitle": "Jy het jou beginner-besinnings opgebruik",
+  "graceBlockedBody": "Jy is op die Standaard-plan met beginner-besinnings, en jy het die limiet bereik. Om voort te gaan — en premium-kategorieë te ontsluit — gradeer op na Wilaya.",
+  "graceBlockedCtaGoPremium": "Sien Wilaya-opsies hieronder",
   "rateGuestMustSignIn": "Meld aan om Ayara en jou besinnings te gebruik.",
-
   "guestNoCreditsTitle": "Gasmodus",
-  "guestNoCreditsBody": "As gas kan jy die program blaai, maar jy kan nie besinnings gebruik nie. Meld later in Instellings aan om besinnings te gebruik en aankope te ontsluit.",
-
-  "guestNoReflectionsTitle": "Gasmodus",
-  "guestNoReflectionsBody": "As gas kan jy die program blaai, maar jy kan nie besinnings gebruik nie. Meld later in Instellings aan om besinnings te gebruik en aankope te ontsluit.",
-
+  "guestNoCreditsBody": "As gas kan jy deur die app blaai, maar jy kan nie besinnings gebruik nie. Meld later in Instellings aan om besinnings te gebruik en aankope te ontsluit.",
   "guestDialogContinue": "Gaan voort",
   "guestDialogLoginInstead": "Meld eerder aan",
-
   "optionalLabel": "opsioneel",
-
-  "accountDeleteSuccessTitle": "Rekening verwyder",
-  "accountDeleteSuccessBody": "Jou rekening en geassosieerde data is suksesvol uitgevee.",
-  "accountDeleteSuccessClose": "Sluit",
-  "accountDeleteErrorTitle": "Kon nie rekening verwyder nie",
+  "accountDeleteSuccessTitle": "Rekening geskrap",
+  "accountDeleteSuccessBody": "Jou rekening en verwante data is suksesvol geskrap.",
+  "accountDeleteSuccessClose": "Maak toe",
+  "accountDeleteErrorTitle": "Kon nie rekening skrap nie",
   "accountDeleteErrorClose": "OK",
-  "accountDeleteReauthCancelled": "Herverifikasie is gekanselleer. Meld asseblief weer aan en herhaal die verwydering.",
-  "accountDeleteReauthRequired": "Rekeningverwydering vereis 'n onlangse aanmelding. Meld asseblief af, meld weer aan, en herhaal.",
-  "settingsDeletePermanentWarning": "Hierdie aksie is permanent en kan nie ongedaan gemaak word nie. Alle data wat met jou rekening geassosieer word, sal uitgevee word.",
-
+  "accountDeleteReauthCancelled": "Herverifikasie is gekanselleer. Meld asseblief weer aan en probeer die skrapping weer.",
+  "accountDeleteReauthRequired": "Rekeningskrapping vereis ’n onlangse aanmelding. Meld asseblief af, meld weer aan en probeer weer.",
+  "settingsDeletePermanentWarning": "Hierdie handeling is permanent en kan nie ongedaan gemaak word nie. Alle data wat met jou rekening geassosieer word, sal geskrap word.",
   "dailyGraceTitle": "Daaglikse Leiding",
   "dailyGraceScriptureLabel": "VERS VAN DIE DAG",
   "dailyGraceSaintLabel": "GELEERDE VAN DIE WEEK",
   "dailyGraceReflectionLabel": "AANDBESINNING",
-  "dailyGraceCopiedToast": "Vers na klembord gekopieer",
-
-  "dailyScripture0Text": "Waarlik, die regverdiges sal wees tussen tuine en riviere, op 'n eervolle plek naby 'n Magtige Koning.",
-  "dailyScripture0Ref": "Koran 54:54-55",
-  "dailyScripture1Text": "En Ons het jou nie gestuur nie, [O Muhammad], behalwe as 'n genade vir die wêrelde.",
-  "dailyScripture1Ref": "Koran 21:107",
-  "dailyScripture2Text": "Is Allah nie genoeg vir Sy dienaar nie? Tog vrees hulle jou met ander buiten Hom.",
-  "dailyScripture2Ref": "Koran 39:36",
-  "dailyScripture3Text": "Miskien haat jy iets en dit is goed vir jou; en miskien hou jy van iets en dit is sleg vir jou. En Allah weet, terwyl julle nie weet nie.",
-  "dailyScripture3Ref": "Koran 2:216",
-  "dailyScripture4Text": "Waarlik, Allah is met die geduldiges.",
-  "dailyScripture4Ref": "Koran 2:153",
-  "dailyScripture5Text": "Gedenk My dus; Ek sal julle gedenk. En wees dankbaar aan My en ontken My nie.",
-  "dailyScripture5Ref": "Koran 2:152",
-  "dailyScripture6Text": "Waarlik, die edelste van julle in die oë van Allah is die mees regverdige van julle.",
-  "dailyScripture6Ref": "Koran 49:13",
-  "dailyScripture7Text": "En jou Heer het bepaal dat julle niemand anders aanbid nie as Hom, en dat julle goed is teenoor julle ouers.",
-  "dailyScripture7Ref": "Koran 17:23",
-  "dailyScripture8Text": "Waarlik, saam met moeilikheid kom gemak.",
-  "dailyScripture8Ref": "Koran 94:6",
-  "dailyScripture9Text": "En Hy is met julle waar julle ook al is. En Allah sien wat julle doen.",
-  "dailyScripture9Ref": "Koran 57:4",
-  "dailyScripture10Text": "Allah belas nie 'n siel bo sy vermoë nie.",
-  "dailyScripture10Ref": "Koran 2:286",
-  "dailyScripture11Text": "En wie op Allah staatmaak — dan is Hy voldoende vir hom.",
-  "dailyScripture11Ref": "Koran 65:3",
-  "dailyScripture12Text": "My genade omvat alle dinge.",
-  "dailyScripture12Ref": "Koran 7:156",
-  "dailyScripture13Text": "En wanneer My dienare jou oor My vra — waarlik, Ek is naby. Ek antwoord die biddende wanneer hy My aanroep.",
-  "dailyScripture13Ref": "Koran 2:186",
-  "dailyScripture14Text": "Wie reg doen, hetsy man of vrou, terwyl hy 'n gelowige is — Ons sal hom beslis 'n goeie lewe laat lewe.",
-  "dailyScripture14Ref": "Koran 16:97",
-  "dailyScripture15Text": "Waarlik, Allah sal die toestand van 'n volk nie verander nie totdat hulle verander wat in hulleself is.",
-  "dailyScripture15Ref": "Koran 13:11",
-  "dailyScripture16Text": "Moenie verswak nie en moenie treur nie, en julle sal die oorhand hê as julle ware gelowiges is.",
-  "dailyScripture16Ref": "Koran 3:139",
-  "dailyScripture17Text": "O My dienare wat teen hulleself oortree het, wanhoop nie aan die genade van Allah nie. Waarlik, Allah vergewe alle sondes.",
-  "dailyScripture17Ref": "Koran 39:53",
-  "dailyScripture18Text": "En wie Allah vrees — Hy sal vir hom 'n uitweg maak, en sal hom voorsien van waar hy nie verwag nie.",
-  "dailyScripture18Ref": "Koran 65:2-3",
-  "dailyScripture19Text": "Moet nie wanhoop aan die genade van Allah nie.",
-  "dailyScripture19Ref": "Koran 12:87",
-  "dailyScripture20Text": "En Ons het die Koran beslis maklik gemaak om te onthou. Is daar iemand wat bedagsaam sal wees?",
-  "dailyScripture20Ref": "Koran 54:17",
-  "dailyScripture21Text": "En Hy het jou verdwaald gevind en gelei.",
-  "dailyScripture21Ref": "Koran 93:7",
-  "dailyScripture22Text": "En jou Heer sê: Roep My aan; Ek sal julle antwoord.",
-  "dailyScripture22Ref": "Koran 40:60",
-  "dailyScripture23Text": "En Ons het beslis die kinders van Adam vereer.",
-  "dailyScripture23Ref": "Koran 17:70",
-  "dailyScripture24Text": "En soek hulp deur geduld en gebed.",
-  "dailyScripture24Ref": "Koran 2:45",
-  "dailyScripture25Text": "Wie 'n atoom se gewig van goed doen, sal dit sien.",
-  "dailyScripture25Ref": "Koran 99:7",
-  "dailyScripture26Text": "Waarlik, die hulp van Allah is naby.",
-  "dailyScripture26Ref": "Koran 2:214",
-  "dailyScripture27Text": "En wie dankbaar is — sy dankbaarheid is slegs tot sy eie voordeel.",
-  "dailyScripture27Ref": "Koran 31:12",
-
-  "dailyReflection0": "Terwyl hierdie dag sluit, dink aan 'n oomblik waar Allah se genade duidelik was.",
-  "dailyReflection1": "Bring voor Allah enigiets wat vandag op jou hart geweeg het.",
-  "dailyReflection2": "Noem een seëning van hierdie dag en druk dankbaarheid aan Allah uit.",
-  "dailyReflection3": "Rus in die wete dat jy in Allah se oneindige sorg gehou word.",
-  "dailyReflection4": "Besin oor waar jy vandag geroep gevoel het om medelye en vriendelikheid te toon.",
-  "dailyReflection5": "Laat gaan wat jy nie kan beheer nie en vertrou in Allah se volmaakte plan.",
-  "dailyReflection6": "Terwyl die dag eindig, ontvang vrede in die herinnering aan Allah.",
-  "dailyReflection7": "Oorweeg hoe jy vandag jou gebede geëer het, en dank Allah vir elkeen.",
-  "dailyReflection8": "Besin oor 'n oomblik waar geduld (Sabr) vandag jou optrede gelei het.",
-  "dailyReflection9": "Vra vergifnis vir enige tekortkominge vandag — Allah se genade is grensloos.",
-  "dailyReflection10": "Noem een persoon aan wie jy vandag vriendelikheid bewys het en maak dua vir hulle.",
-  "dailyReflection11": "Sit met dankbaarheid: wat het Allah vandag verskaf wat jy nie gevra het nie?",
-  "dailyReflection12": "Besin oor 'n vers uit die Koran wat spreek tot waar jy tans is.",
-  "dailyReflection13": "Oorweeg hoe jy vandag jou tyd gebruik het — en offer môre aan Allah op.",
-  "dailyReflection14": "Rus met die wete dat, watter swaarkry ook al vandag gekom het, Allah by jou was.",
-  "dailyReflection15": "Dink aan een manier waarop jy vandag jou familie of gemeenskap gedien het vir Allah se wil.",
-  "dailyReflection16": "Terwyl die nag aanbreek, maak Tawbah — Allah lief diegene wat na Hom terugkeer.",
-  "dailyReflection17": "Besin oor die skoonheid wat Allah in jou dag geplaas het, hoe klein ook al.",
-  "dailyReflection18": "Oorweeg wat jy vandag geleer het en hoe dit jou nader aan Allah bring.",
-  "dailyReflection19": "Laat die dag se bekommernisse by Allah rus — Hy dra wat jy nie kan nie.",
-  "dailyReflection20": "Dink aan 'n oomblik vandag waar jy beter kon gekies het, en leer saggies daarvan.",
-  "dailyReflection21": "Maak dua vir diegene wat sukkel — jou gebed is 'n geskenk vir hulle.",
-  "dailyReflection22": "Onthou 'n seëning wat jy dikwels miskyk en neem 'n oomblik om Allah daarvoor te dank.",
-  "dailyReflection23": "Besin oor jou bedoelings vandag — was dit vir Allah? Môre, begin weer.",
-  "dailyReflection24": "Terwyl die nag stil word, luister na Allah se nabyheid in die stilte.",
-  "dailyReflection25": "Oorweeg waar jy vandag krag gevind het — daardie krag is van Allah.",
-  "dailyReflection26": "Noem een ding wat jy môre, vir Allah se wil, sal doen wat jy vandag nie gedoen het nie.",
-  "dailyReflection27": "Terwyl jy vir rus voorberei, toevertrou jou siel aan Allah — Hy is die beste bewaarder.",
-
-  "dailyRoleModel0": "Profeet Muhammad ﷺ",
-  "dailyRoleModel1": "Abu Bakr as-Siddiq (RA)",
-  "dailyRoleModel2": "Umar ibn al-Khattab (RA)",
-  "dailyRoleModel3": "Uthman ibn Affan (RA)",
-  "dailyRoleModel4": "Ali ibn Abi Talib (RA)",
-  "dailyRoleModel5": "Khadijah bint Khuwaylid (RA)",
-  "dailyRoleModel6": "Aisha bint Abi Bakr (RA)",
-  "dailyRoleModel7": "Fatimah az-Zahra (RA)",
-  "dailyRoleModel8": "Bilal ibn Rabah (RA)",
-  "dailyRoleModel9": "Salman al-Farisi (RA)",
-  "dailyRoleModel10": "Abu Hurairah (RA)",
-  "dailyRoleModel11": "Abdullah ibn Abbas (RA)",
-  "dailyRoleModel12": "Abdullah ibn Masud (RA)",
-  "dailyRoleModel13": "Muadh ibn Jabal (RA)",
-  "dailyRoleModel14": "Musab ibn Umayr (RA)",
-  "dailyRoleModel15": "Sumayya bint Khabbab (RA)",
-  "dailyRoleModel16": "Ammar ibn Yasir (RA)",
-  "dailyRoleModel17": "Umm Salamah (RA)",
-  "dailyRoleModel18": "Khalid ibn al-Walid (RA)",
-  "dailyRoleModel19": "Zayd ibn Thabit (RA)",
-  "dailyRoleModel20": "Hafsah bint Umar (RA)",
-  "dailyRoleModel21": "Umar ibn Abd al-Aziz (RH)",
-  "dailyRoleModel22": "Imam Abu Hanifa (RH)",
-  "dailyRoleModel23": "Imam Malik ibn Anas (RH)",
-  "dailyRoleModel24": "Imam Ja'far al-Sadiq (AS)",
-  "dailyRoleModel25": "Imam Ahmad ibn Hanbal (RH)",
-  "dailyRoleModel26": "Imam al-Bukhari (RH)",
-  "dailyRoleModel27": "Imam Muslim (RH)",
-  "dailyRoleModel28": "Imam al-Tirmidhi (RH)",
-  "dailyRoleModel29": "Al-Ghazali (RH)",
-  "dailyRoleModel30": "Ibn al-Qayyim al-Jawziyya (RH)",
-  "dailyRoleModel31": "Ibn Taymiyya (RH)",
-  "dailyRoleModel32": "Al-Nawawi (RH)",
-  "dailyRoleModel33": "Ibn Hajar al-Asqalani (RH)",
-  "dailyRoleModel34": "Ibn Kathir (RH)",
-  "dailyRoleModel35": "Al-Tabari (RH)",
-  "dailyRoleModel36": "Sufyan al-Thawri (RH)",
-  "dailyRoleModel37": "Fakhr al-Din al-Razi (RH)",
-  "dailyRoleModel38": "Ibn Sina (RH)",
-  "dailyRoleModel39": "Al-Biruni (RH)",
-  "dailyRoleModel40": "Ibn Rushd (RH)",
-  "dailyRoleModel41": "Ibn Khaldun (RH)",
-  "dailyRoleModel42": "Ibn Battuta (RH)",
-  "dailyRoleModel43": "Profeet Ibrahim (AS)",
-  "dailyRoleModel44": "Profeet Musa (AS)",
-  "dailyRoleModel45": "Profeet Isa (AS)",
-  "dailyRoleModel46": "Profeet Yusuf (AS)",
-  "dailyRoleModel47": "Profeet Dawud (AS)",
-  "dailyRoleModel48": "Profeet Sulayman (AS)",
-  "dailyRoleModel49": "Profeet Nuh (AS)",
-  "dailyRoleModel50": "Profeet Yunus (AS)",
-  "dailyRoleModel51": "Profeet Ayub (AS)",
-  "dailyRoleModel52": "Ruqayyah bint Muhammad (RA)",
-  "dailyRoleModel53": "Zainab bint Muhammad (RA)",
-  "dailyRoleModel54": "Hassan ibn Ali (RA)",
-  "dailyRoleModel55": "Hussain ibn Ali (RA)",
-  "dailyRoleModel56": "Jafar ibn Abi Talib (RA)",
-  "dailyRoleModel57": "Abu Dharr al-Ghifari (RA)",
-  "dailyRoleModel58": "Talha ibn Ubaydullah (RA)",
-  "dailyRoleModel59": "Az-Zubayr ibn al-Awwam (RA)",
-
-  "locationConsentLabel": "Laat Ayara toe om my ligging te gebruik vir Qibla-rigting en gebedsye",
-  "locationConsentHint": "Slegs gebruik vir hierdie funksies. Jou ligging word nooit gedeel of gestoor nie.",
-
+  "dailyGraceCopiedToast": "Vers na knipbord gekopieer",
+  "locationConsentLabel": "Laat Ayara toe om my ligging vir Qibla-rigting en gebedstye te gebruik",
+  "locationConsentHint": "Slegs vir hierdie funksies gebruik. Jou ligging word nooit gedeel of gestoor nie.",
   "askPageTitle": "Vra Ayara",
-  "askPageDescription": "Vra enigiets oor geloof, gebed, lewe of Islamitiese praktyk en ontvang leiding gegrond in die Koran en Sunnah.",
+  "askPageDescription": "Vra enigiets oor geloof, gebed, lewe of Islamitiese praktyk en ontvang leiding wat in die Koran en die leringe van die Ahl al-Bayt gegrond is.",
   "askPageInputHint": "Tik jou vraag hier…",
   "askPageSubmitCta": "Vra",
-  "askPageInputEmptyError": "Skryf asseblief eers 'n vraag.",
+  "askPageInputEmptyError": "Skryf asseblief eers ’n vraag.",
   "askResultYourQuestion": "Jou vraag",
-
-  "guidancePageTitle": "Gebed en Leiding",
-  "qiblaFacingMecca": "Na Makkah toe",
+  "guidancePageTitle": "Qibla",
+  "qiblaFacingMecca": "Gerig na Makkah",
   "qiblaCompassInstruction": "Draai jou foon totdat die goue naald opwaarts wys.\nDaardie rigting wys na die Qibla (Makkah).",
-  "qiblaGpsUnavailableBody": "GPS-sein is swak. Beweeg buitenshuis en tik Herprobeer.",
-  "qiblaRetry": "Herprobeer",
+  "qiblaGpsUnavailableBody": "GPS-sein is swak. Beweeg buitentoe en tik Probeer weer.",
+  "qiblaRetry": "Probeer weer",
   "qiblaTitle": "Qibla-rigting",
   "qiblaDistanceLabel": "{km} km na Makkah",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
   "qiblaLocationNeededTitle": "Ligging benodig",
-  "qiblaLocationNeededBody": "Laat liggingstoegang toe sodat Ayara die rigting van die Kaäba in Makkah vanaf jou huidige plek kan bereken.",
+  "qiblaLocationNeededBody": "Laat liggingtoegang toe sodat Ayara die rigting van die Kaaba in Makkah kan bereken van waar jy ook al is.",
   "qiblaOpenSettings": "Maak Instellings oop",
-  "qiblaCompassLoading": "Soek jou posisie…",
-  "qiblaTowardMecca": "Na Makkah toe",
-
-  "prayerTimesTitle": "Gebedsye",
+  "qiblaCompassLoading": "Vind jou posisie…",
+  "qiblaTowardMecca": "Na Makkah",
+  "prayerTimesTitle": "Gebedstye",
   "prayerTimesFajr": "Fajr",
   "prayerTimesDhuhr": "Dhuhr",
   "prayerTimesAsr": "Asr",
   "prayerTimesMaghrib": "Maghrib",
   "prayerTimesIsha": "Isha",
   "prayerTimesLocationNeededTitle": "Ligging benodig",
-  "prayerTimesLocationNeededBody": "Laat liggingstoegang toe sodat Ayara akkurate gebedsye vir jou stad kan bereken.",
+  "prayerTimesLocationNeededBody": "Laat liggingtoegang toe sodat Ayara akkurate gebedstye vir jou stad kan bereken.",
   "prayerTimesNextLabel": "Volgende",
   "prayerTimesDoneLabel": "Klaar",
-
-  "monthlyPrayerTimesTitle": "Maandelikse Gebedsye",
-  "monthlyPrayerTimesViewButton": "Sien Volle Maand",
+  "monthlyPrayerTimesTitle": "Maandelikse Gebedstye",
+  "monthlyPrayerTimesViewButton": "Bekyk Volle Maand",
   "monthlyPrayerTimesNextMonth": "Volgende maand",
   "monthlyPrayerTimesDayHeader": "Dag",
-
-  "sharePrayerTimes": "Deel gebedsye",
-
-  "prayerNotificationsTitle": "Gebedherinneringe",
-  "prayerNotificationsDescription": "Ontvang 'n sagte herinnering voor elke gebedstyd om jou dwarsdeur die dag verbind te hou.",
-  "prayerNotificationsEnable": "Aktiveer gebedherinneringe",
+  "sharePrayerTimes": "Deel gebedstye",
+  "notificationsSectionTitle": "Kennisgewings",
+  "notificationsSectionSubtitle": "Gebedsherinnerings, kalendergebeurtenisse en meer",
+  "dailyReflectionReminderTitle": "Daaglikse Besinning",
+  "dailyReflectionReminderDescription": "’n Sagte daaglikse herinnering om Ayara oop te maak en met jou geloof te verbind.",
+  "dailyReflectionReminderEnable": "Aktiveer daaglikse herinnering",
+  "dailyReflectionReminderTimeLabel": "Herinneringstyd",
+  "prayerNotificationsTitle": "Gebedsherinnerings",
+  "prayerNotificationsDescription": "Ontvang ’n sagte herinnering voor elke gebedstyd om jou deur die dag verbind te hou.",
+  "prayerNotificationsEnable": "Aktiveer gebedsherinnerings",
   "prayerNotificationsOpenSettings": "Maak kennisgewinginstellings oop",
   "prayerNotificationsDenied": "Kennisgewings is gedeaktiveer",
-  "prayerNotificationsDeniedHint": "Gaan na Instellings en laat kennisgewings vir Ayara toe om gebedstydherinneringe te ontvang.",
-
-  "notificationsConsentLabel": "Laat kennisgewings toe vir gebedsye",
-
-  "prayerNotifTitleFajr": "🌅 Fajr — Dageraadgebed",
-  "prayerNotifBodyFajr": "Die beste van gebede is die dageraadgebed. Staan op, reinig jouself, en staan voor Allah.",
-
+  "prayerNotificationsDeniedHint": "Gaan na Instellings en laat kennisgewings vir Ayara toe om gebedstydherinnerings te ontvang.",
+  "notificationsConsentLabel": "Laat kennisgewings vir gebedstye toe",
+  "prayerNotifTitleFajr": "🌅 Fajr — Oggendgebed",
+  "prayerNotifBodyFajr": "Fajr is die gebed van die Ahl al-Bayt se oggende. Imam Ali (AS) het gesê: Bewaak die dagbreekgebed soos jy jou kosbaarste trust bewaak. Staan op, reinig jouself en staan voor Allah.",
   "prayerNotifTitleDhuhr": "☀️ Dhuhr — Middaggebed",
-  "prayerNotifBodyDhuhr": "Onderbreek jou dag en keer terug na Allah. Dhuhr-gebedstyd het gekom.",
-
+  "prayerNotifBodyDhuhr": "Die Imams van die Ahl al-Bayt het elke oomblik van herinnering gekoester. Onderbreek jou dag, kombineer Dhuhr met Asr indien nodig, en bring jou hart terug na Allah.",
   "prayerNotifTitleAsr": "🌤️ Asr — Namiddaggebed",
-  "prayerNotifBodyAsr": "Bewaar die middelste gebed. Asr-tyd het gekom — laat dit nie verbygaan nie.",
-
-  "prayerNotifTitleMaghrib": "🌇 Maghrib — Sonsondergangsgebed",
-  "prayerNotifBodyMaghrib": "Die son het ondergegaan. Verrig Maghrib en wees dankbaar aan Allah vir hierdie dag.",
-
+  "prayerNotifBodyAsr": "Bewaak die gebed, want dit is die verbond tussen jou en Allah. Asr-tyd het aangebreek — moenie dit sonder herinnering laat verbygaan nie.",
+  "prayerNotifTitleMaghrib": "🌇 Maghrib — Sonondergebed",
+  "prayerNotifBodyMaghrib": "Die son het ondergegaan — ’n oomblik wat die Ahl al-Bayt heilig geag het vir smeking. Verrig Maghrib en hef jou hande tot Allah in dua voordat die nag begin.",
   "prayerNotifTitleIsha": "🌙 Isha — Naggebed",
-  "prayerNotifBodyIsha": "Eindig jou dag met die herinnering aan Allah. Hayya 'alal falah — kom na sukses.",
-
+  "prayerNotifBodyIsha": "Sluit jou dag af in die geselskap van Allah. Die Imams het Salat al-Layl ná Isha aangemoedig — maar voltooi eers jou Isha en sluit die dag af met Sy gedenking.",
   "outOfReflectionsBannerText": "Jy het al jou besinnings gebruik",
   "outOfReflectionsBannerCta": "Kry meer",
-
   "dhikrPageTitle": "Dhikr",
-  "dhikrTapToCount": "Tik op die sirkel om te tel",
+  "dhikrTapToCount": "Tik die sirkel om te tel",
   "dhikrResetButton": "Herstel",
   "dhikrComplete": "Masha'Allah",
-  "dhikrCompleteMessage": "Jy het 99 herinneringe van Allah voltooi. Mag hulle 'n lig vir jou hart wees.",
-
-  "disclaimerTitle": "Oor hierdie program se leiding",
-  "disclaimerBody": "Ayara bied Islamitiese besinnings, herinneringe en geestelike inhoud om jou persoonlike geloofsreis te ondersteun. Hierdie inhoud word slegs vir algemene inligting- en inspirasiedoeleindes aangebied.\n\nAyara vervang nie gekwalifiseerde geleerdes nie.\nDie leiding in hierdie program is nie 'n plaasvervanger vir 'n geleerde Islamitiese geleerde, imam, mufti of teologies opgeleide onderwyser nie. As jy vrae het oor godsdienstige uitsprake, halaal en haraam-sake, of persoonlike godsdienstige verpligtinge, soek asseblief advies by 'n gekwalifiseerde godsdienstige gesag in jou gemeenskap.\n\nHierdie program reik nie godsdienstige uitsprake uit nie.\nAyara maak nie gesaghebbende bepalings oor fiqh (Islamitiese jurisprudensie) of persoonlike godsdienstige verpligtinge nie. Niks hier moet as 'n fatwa of bindende godsdienstige instruksie beskou word nie.\n\nGeleerdes se vertolkings verskil.\nIslam omvat 'n ryk verskeidenheid tradisies, denkrigtings (madhabs) en geleerdes se opinies. Inhoud in hierdie program weerspieël algemene perspektiewe en verteenwoordig moontlik nie elke tradisie of skool ewe volledig nie.\n\nGemeenskap is belangrik.\nHierdie program poog om jou betrokkenheid by geloofsoorlewing aan te moedig, terwyl dit die noodsaaklike rol van jou plaaslike moskee, imam en godsdienstige gemeenskap diep respekteer. Ons moedig jou aan om verbind te bly met en te leer van gekwalifiseerde onderwysers naby jou.",
+  "dhikrCompleteMessage": "Jy het 100 gedenkings van Allah voltooi. Mag dit ’n lig vir jou hart wees.",
+  "disclaimerTitle": "Oor hierdie toepassing se leiding",
+  "disclaimerBody": "Ayara bied Islamitiese besinnings, herinnerings en geestelike inhoud om jou persoonlike geloofsreis te ondersteun, gegrond in die Koran en die leringe van die Ahl al-Bayt. Hierdie inhoud word slegs vir algemene inligtings- en inspirasiedoeleindes aangebied.\n\nAyara vervang nie gekwalifiseerde geleerdheid nie.\nDie leiding in hierdie toepassing is nie ’n plaasvervanger vir ’n geleerde Islamitiese geleerde, marja', of teologies opgeleide onderwyser nie. In Sjia-Islam is godsdienstige leiding gegrond in die Ja'fari-regskool (fiqh) en die tradisie om ’n lewende Marja' (bron van navolging) te volg — ’n gekwalifiseerde regsgeleerde wie se uitsprake gelowiges in hul godsdienstige praktyk lei. As jy vrae het oor godsdienstige uitsprake, halal- en haram-sake, of persoonlike godsdienstige verpligtinge, raadpleeg asseblief ’n gekwalifiseerde Marja' of ’n geleerde in jou gemeenskap.\n\nHierdie toepassing reik nie godsdienstige uitsprake uit nie.\nAyara maak nie gesaghebbende bepalings oor sake van fiqh of persoonlike godsdienstige verpligtinge nie. Niks hier moet as ’n fatwa of bindende godsdienstige instruksie beskou word nie.\n\nDie sentraliteit van die Ahl al-Bayt.\nIn Sjia-Islam is die Profeet Muhammad ﷺ en sy gesuiwerde huisgesin — die Ahl al-Bayt — die gesaghebbende gidse van die Islamitiese gemeenskap ná die Koran. Die twaalf Imams van die Ahl al-Bayt is die goddelik aangewese vertolkers van Islamitiese leer. Inhoud in hierdie toepassing weerspieël hierdie tradisie en poog om dit getrou te eer.\n\nGemeenskapsake.\nHierdie toepassing beoog om jou betrokkenheid by geloof aan te moedig terwyl dit die belangrike rol van jou plaaslike moskee, Islamitiese sentrum en godsdienstige gemeenskap diep respekteer. Ons moedig jou aan om verbind te bly met en te leer van gekwalifiseerde onderwysers naby jou.",
   "disclaimerClose": "Ek verstaan",
-  "disclaimerInfoTooltip": "Oor hierdie program se leiding",
+  "disclaimerInfoTooltip": "Oor hierdie toepassing se leiding",
   "disclaimerSettingsSubtitle": "Slegs vir algemene inligtingsdoeleindes. Tik om die volledige vrywaring te lees.",
-  "disclaimerSectionHeader": "Leidingvrywaring"
+  "disclaimerSectionHeader": "Leidingsvrywaring",
+  "navHome": "Tuis",
+  "navReflect": "Besin",
+  "navDuas": "Duas",
+  "navCalendar": "Kalender",
+  "dashboardToday": "VANDAG",
+  "dashboardComingUp": "Kom binnekort",
+  "dashboardDaysUnit": "{count, plural, one {dag} other {dae}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "Vinnige Toegang",
+  "quickActionQibla": "Qibla",
+  "quickActionDhikr": "Dhikr",
+  "quickActionDailyGrace": "Leiding",
+  "quickActionPrayerTimes": "Gebedstye",
+  "askAyaraTitle": "Vra Ayara",
+  "askAyaraSubtitle": "Vra enige Islamitiese vraag en ontvang ’n deurdagte, begeleide antwoord.",
+  "askAyaraHint": "bv. Wat is die betekenis van Ramadan?",
+  "askAyaraSubmit": "Vra",
+  "wisdomOfTheDayTitle": "Wysheid van die Dag",
+  "calendarScreenTitle": "Islamitiese Kalender",
+  "calendarUpcomingOccasions": "Komende Geleenthede",
+  "calendarOccasionRemindersTitle": "Geleentheidsherinnerings",
+  "calendarOccasionRemindersHint": "Jy word die aand voor elke geleentheid in kennis gestel",
+  "calendarNotifPermissionDenied": "Kennisgewingtoestemming geweier. Aktiveer dit in jou toestelinstellings.",
+  "calendarNoEvents": "Geen komende geleenthede gevind nie.",
+  "calendarAddToPhone": "Voeg by Telefoon Kalender",
+  "calendarAddedToPhone": "By Kalender gevoeg",
+  "calendarCountdownToday": "VANDAG",
+  "calendarCountdownTomorrow": "MÔRE",
+  "calendarCountdownDays": "oor {days} dae",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "Jan",
+  "calendarMonthFeb": "Feb",
+  "calendarMonthMar": "Mrt",
+  "calendarMonthApr": "Apr",
+  "calendarMonthMay": "Mei",
+  "calendarMonthJun": "Jun",
+  "calendarMonthJul": "Jul",
+  "calendarMonthAug": "Aug",
+  "calendarMonthSep": "Sep",
+  "calendarMonthOct": "Okt",
+  "calendarMonthNov": "Nov",
+  "calendarMonthDec": "Des",
+  "calendarSeasonMuharramEarly": "Dae van Muharram — onthou Karbala",
+  "calendarSeasonAshura": "Ashura — Ya Husayn (AS)",
+  "calendarSeasonMuharramLate": "Muharram — dae van rou en besinning",
+  "calendarSeasonArbaeen": "Arbaeen — veertig dae van Husayn",
+  "calendarSeasonRoadToArbaeen": "Die pad na Arbaeen",
+  "calendarSeasonMabath": "Mab'ath Mubarak — die dageraad van openbaring",
+  "calendarSeasonMidShaban": "Middel-Sha'ban — verjaarsdag van Imam al-Mahdi (AJ)",
+  "calendarSeasonRamadan": "Ramadan Mubarak — die maand van die Koran",
+  "calendarSeasonGhadir": "Eid al-Ghadir Mubarak!",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi' al-Awwal",
+  "hijriMonth4": "Rabi' al-Thani",
+  "hijriMonth5": "Jumada al-Awwal",
+  "hijriMonth6": "Jumada al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Sha'ban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhu al-Qi'da",
+  "hijriMonth12": "Dhu al-Hijja",
+  "duasScreenTitle": "Duas & Ziyarat",
+  "duasSearchHint": "Soek duas, ziyarat…",
+  "duasFilterAll": "Alles",
+  "duasCount": "{count, plural, one {{count} dua} other {{count} duas & ziyarat}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "Geen duas gevind nie.",
+  "duaCategoryDaily": "Daagliks",
+  "duaCategoryWeekly": "Weekliks",
+  "duaCategoryOccasions": "Geleenthede",
+  "duaCategoryZiyarat": "Ziyarat",
+  "duaCategoryTasbih": "Tasbih",
+  "eventTypeBirth": "Geboorte",
+  "eventTypeMartyrdom": "Martelaarskap",
+  "eventTypeOccasion": "Geleentheid",
+  "duaCopyTooltip": "Kopieer vertaling",
+  "duaToggleTransliteration": "Transliterasie",
+  "duaToggleTranslation": "Vertaling",
+  "duaAskAiLabel": "Vra Ayara om hierdie dua te verduidelik",
+  "duaAskAiLockedLabel": "Vra Ayara (Wilaya)",
+  "duaAiLockedMessage": "Ayara-verduidelikings is beskikbaar vir Wilaya-lede. Gradeer op in Instellings.",
+  "duaAiComingSoon": "Vra Ayara oor \"{name}\" — binnekort beskikbaar!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "Dua na knipbord gekopieer.",
+  "tasbihAllahuAkbarMeaning": "Allah is die Grootste",
+  "tasbihAlhamdulillahMeaning": "Alle lof behoort aan Allah",
+  "tasbihSubhanallahMeaning": "Heerlikheid aan Allah",
+  "tasbihResetTooltip": "Herstel",
+  "tasbihCompleteTitle": "Tasbih Voltooi",
+  "tasbihCompleteMessage": "Mag Allah jou dhikr aanvaar.",
+  "tasbihTapHint": "Tik enige plek om te tel",
+  "tasbihatScreenTitle": "Gebedsgids",
+  "tasbihatScreenSubtitle": "DIE GEBEDSVERHEERLIKINGS",
+  "tasbihatScreenDescription": "’n Volledige gids tot die verheerlikings wat tydens en ná die daaglikse gebede gelees word — volgens die tradisie van die Ahl al-Bayt (a).",
+  "tasbihatArba3Title": "TASBIḤĀT AL-ARBAʿA",
+  "tasbihatArba3Subtitle": "Voorgedra tydens die 3de & 4de rakʿah",
+  "tasbihatArba3Info": "In Sjia-jurisprudensie vervang die Tasbiḥāt al-Arbaʿa Surah al-Fatiha in die 3de en 4de rakʿah van Dhuhr, Asr, Maghrib en Isha. Dit is verpligtend (wājib) om dit een keer te reciteer, en aanbeveel (mustaḥabb) om dit drie keer te reciteer.",
+  "tasbihatArba3Translation": "Heerlikheid aan Allah · Alle lof is vir Allah\nDaar is geen god behalwe Allah nie · Allah is die Grootste",
+  "tasbihatArba3CompleteTitle": "Voordrag Voltooi",
+  "tasbihatArba3CompleteMessage": "Mag jou gebed aanvaar word — Āmīn",
+  "tasbihatArba3TapHint": "Tik na elke voordrag",
+  "tasbihatZahraSubtitle": "Na elke gebed · 100 krale",
+  "tasbihatZahraOriginLabel": "Oorsprong",
+  "tasbihatZahraHadith": "Lady Fatima al-Zahra (sa) het die Profeet ﷺ vir ’n dienaar gevra. Hy het gesê: \"Sal ek jou nie na iets beter lei nie? Sê Subḥānallāh 33 keer, Alḥamdulillāh 33 keer, en Allāhu Akbar 34 keer ná elke gebed. Dit is beter vir jou as ’n dienaar.\"",
+  "tasbihatZahraHadithSource": "— Bihar al-Anwār, Deel 85",
+  "tasbihatZahraOpenCounter": "Maak Tasbīḥ-teller oop",
+  "tasbihatDuasTitle": "AANBEVOLE DUĀS",
+  "tasbihatDuasSubtitle": "Nadat jy jou gebed voltooi het",
+  "tasbihatDuaAyatKursiTitle": "Āyat al-Kursī",
+  "tasbihatDuaAyatKursiWhen": "Na elke verpligte gebed",
+  "tasbihatDuaAyatKursiSource": "Surah al-Baqarah 2:255",
+  "tasbihatDuaAyatKursiNote": "Wie Āyat al-Kursī ná elke verpligte gebed reciteer, het niks tussen hom en die Paradys nie behalwe die dood. Imam al-Bāqir (a) het gesê dit is onder die grootste verse in die Koran.",
+  "tasbihatDuaSalawatTitle": "Ṣalawāt",
+  "tasbihatDuaSalawatWhen": "Na elke gebed · verseël alle smekinge",
+  "tasbihatDuaSalawatSource": "Imam al-Ṣādiq (a) — Al-Kāfī",
+  "tasbihatDuaSalawatNote": "Dit word aanbeveel om seënbedes oor die Profeet ﷺ en sy gesuiwerde familie (Āl Muḥammad) te stuur om elke dua af te sluit. Imam al-Ṣādiq (a) het gesê: \"Enige dua word opgehou totdat jy ṣalawāt oor Muḥammad en sy familie stuur.\"",
+  "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
+  "tasbihatDuaFarajWhen": "Na elke gebed · vir die Imam van ons tyd",
+  "tasbihatDuaFarajSource": "Geleer deur Imam al-Ḥasan al-ʿAskarī (a)",
+  "tasbihatDuaFarajNote": "’n Dua vir die wederkoms van Imam al-Mahdī (af), die twaalfde Imam, soos deur sy vader geleer. Dit word daagliks deur die gelowige Sjia ná elke gebed gereciteer as ’n daad van toewyding aan die lewende Imam.",
+  "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ van Lady Fāṭima",
+  "tasbihatDuaTasbihFatimaWhen": "Na Maghrib & Isha · veral aanbeveel",
+  "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
+  "tasbihatDuaTasbihFatimaNote": "Imam al-Bāqir (a) het gesê dat die voordrag van Tasbīḥ al-Zahrā ná Isha voor slaap beter is as 1000 rakʿahs van vrywillige gebed. Die lig daarvan styg op na die hemele.",
+  "tasbihFatimaGiftPre": "’n Geskenk van die Profeet",
+  "tasbihFatimaGiftPost": "ná elke gebed gereciteer",
+  "prayerTrackerTitle": "GEBEDSNASPOORDER",
+  "prayerTrackerPrayed": "Gebid",
+  "prayerTrackerDayStreak": "{count} dae in ’n ry",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "Alle gebede vir vandag is voltooi. Mag Allah dit aanvaar.",
+  "dhikrTrackerTitle": "TASBĪḤ AL-ZAHRĀ",
+  "dhikrTrackerCompletedToday": "Vandag voltooi",
+  "dhikrTrackerNotDoneToday": "Nie vandag gedoen nie",
+  "dhikrTrackerDayStreak": "{count} dae in ’n ry",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "Tasbīḥ-herinnering",
+  "dhikrReminderDescription": "’n Sagte daaglikse herinnering om jou Tasbīḥ al-Zahrā (SA) te reciteer.",
+  "dhikrReminderEnable": "Aktiveer Tasbīḥ-herinnering",
+  "dhikrReminderTimeLabel": "Herinneringstyd",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "Daaglikse Hadith",
+  "hadithLabelArabic": "ARABIES",
+  "hadithLabelTranslation": "VERTALING",
+  "hadithBadge": "HADITH",
+  "hadithShare": "Deel Hierdie Hadith",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nVia Ayara",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "Vorige",
+  "hadithNavNext": "Volgende",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "Die 14 Masumeen",
+  "imamsScreenSubtitle": "Die Profeet, Lady Fatima en die Twaalf Imams — die onfeilbare gidse van Islam",
+  "imamLabelBorn": "Gebore",
+  "imamLabelMartyrdom": "Martelaarskap",
+  "imamLabelStatus": "Status",
+  "imamSectionBiography": "BIOGRAFIE",
+  "imamSectionFamousSaying": "BEKENDE UITSPRAAK",
+  "imamRoleProphet": "Die Laaste Profeet",
+  "imamRoleInfallible": "Die Onfeilbare",
+  "imamOrdinal1": "1ste Imam",
+  "imamOrdinal2": "2de Imam",
+  "imamOrdinal3": "3de Imam",
+  "imamOrdinal4": "4de Imam",
+  "imamOrdinal5": "5de Imam",
+  "imamOrdinal6": "6de Imam",
+  "imamOrdinal7": "7de Imam",
+  "imamOrdinal8": "8ste Imam",
+  "imamOrdinal9": "9de Imam",
+  "imamOrdinal10": "10de Imam",
+  "imamOrdinal11": "11de Imam",
+  "imamOrdinal12": "12de Imam",
+  "duaAudioScreenTitle": "Luister na Duas",
+  "duaAudioScreenSubtitle": "Kies ’n dua om na te luister. Tik op die teël om te speel of te onderbreek.",
+  "duaAudioComingSoonMessage": "Oudio vir hierdie dua sal in ’n komende opdatering beskikbaar wees.",
+  "duaAudioClose": "Maak toe",
+  "duaAudioError": "Kon nie oudio laai nie. Gaan asseblief jou verbinding na.",
+  "duaAudioMetaTransmittedBy": "Oorgelewer deur",
+  "duaAudioMetaOccasion": "Geleentheid",
+  "duaAudioMetaDuration": "Duur",
+  "quickActionDailyHadith": "Daaglikse Hadith",
+  "quickAction14Masumeen": "14 Masumeen",
+  "quickActionListenDuas": "Luister",
+  "quickActionTasbihat": "Gebedsgids",
+  "pilgrimageSectionTitle": "Die Heilige Reis",
+  "pilgrimageSectionSubtitle": "Volledige gidse tot Hajj & Umrah — die pelgrimstog na die Heilige Huis van Allah in Mekka",
+  "hajjCardTitle": "Hajj",
+  "hajjCardSubtitle": "Die Vyfde Pilaar van Islam",
+  "hajjCardDescription": "Die groot jaarlikse pelgrimstog — een keer in ’n leeftyd verpligtend vir elke bekwame Moslem",
+  "hajjScreenTitle": "Hajj-gids",
+  "hajjScreenSubtitle": "Stap-vir-stap gids tot die groot pelgrimstog",
+  "umrahCardTitle": "Umrah",
+  "umrahCardSubtitle": "Die Klein Pelgrimstog",
+  "umrahCardDescription": "’n Diep lonende geestelike reis wat enige tyd van die jaar onderneem kan word",
+  "umrahScreenTitle": "Umrah-gids",
+  "umrahScreenSubtitle": "Stap-vir-stap gids tot die klein pelgrimstog",
+  "pilgrimageStepsTitle": "Rituele & Stappe",
+  "pilgrimageImportantNotesTitle": "Belangrike Aantekeninge",
+  "pilgrimageDuaTitle": "Dua vir hierdie stap",
+  "pilgrimageJafariNoteTitle": "Ja'fari Fiqh Nota",
+  "pilgrimageComplete": "✓ Voltooid",
+  "pilgrimageMarkDone": "Merk as voltooi",
+  "pilgrimageProgress": "{done} van {total} stappe",
+  "pilgrimageReadTime": "~{minutes} min",
+  "pilgrimageShiaNoteTitle": "Sjia-pelgrims",
+  "pilgrimageShiaNoteBody": "Sjia-pelgrims reis tradisioneel ook na Medina om die graf van die Profeet Muhammad (SAW) by Masjid al-Nabawi te besoek, asook die grafte van die Imams by Jannat al-Baqi. Hierdie besoeke dra groot geestelike betekenis en word vir die meeste Sjia-Moslems as ’n integrale deel van die reis beskou.",
+  "hajjIntro": "Hajj is die vyfde pilaar van Islam, een keer in ’n leeftyd verpligtend vir elke Moslem wat fisies en finansieel daartoe in staat is. Dit word in die maand van Dhul Hijjah verrig en volg die voetspore van Profeet Ibrahim (AS), sy seun Ismail (AS), en Lady Hajar. Vir Sjia-Moslems sluit Hajj ook die diep seën in om die rusplekke van die Profeet (SAW) en die Ahlul Bayt in Medina te besoek.",
+  "umrahIntro": "Umrah is die kleiner pelgrimstog na Mekka en kan, anders as Hajj, enige tyd van die jaar verrig word. Hoewel dit nie verpligtend is nie, dra dit groot geestelike beloning en word dit as ’n sterk aanbevole daad van aanbidding beskou. Dit deel verskeie rituele met Hajj, maar is korter en bestaan uit vier hoofrites."
 }

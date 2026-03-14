@@ -1,585 +1,629 @@
 {
   "@@locale": "gu",
-
   "appTitle": "Ayara",
-
   "languageSelectTitle": "તમારી ભાષા પસંદ કરો",
-  "languageSelectSub": "તમે આને પછીથી સેટિંગ્સમાં બદલી શકો છો",
+  "languageSelectSub": "આને પછીથી સેટિંગ્સમાં બદલી શકશો",
   "actionContinue": "આગળ વધો",
-  "languageSuggestedHeader": "સુझાવવામાં આવેલ",
+  "languageSuggestedHeader": "સૂચવેલ",
   "languageAllHeader": "બધી ભાષાઓ",
-  "languageSuggestedBadge": "સુझાવવામાં આવેલ",
+  "languageSuggestedBadge": "સૂચવેલ",
   "languageSearchHint": "શોધો…",
-
-  "planGrace": "સ્ટાન્ડર્ડ",
-  "planBlessed": "બરકાહ",
-
-  "categoryDailyGuidance": "દૈનિક માર્ગદર્શન",
-  "categoryFaithTrust": "ઈમાન અને વિશ્વાસ",
-  "categoryPrayerReflection": "નમાજ પર મનન",
-  "categoryHopeDifficultTimes": "સબ્ર અને આશા",
-  "categoryForgiveness": "ક્ષમા માંગવી",
-  "categoryLoveCompassion": "દયા અને કરુણા",
-  "categoryStrengthCourage": "ઈમાનથી શક્તિ",
-  "categoryGratitude": "કૃતજ્ઞતા",
-  "categoryPurposeCalling": "જીવનનો ઉદ્દેશ્ય",
-  "categoryFamilyRelationships": "પરિવાર અને સંબંધો",
-  "categoryPeaceAnxietyRelief": "આંતરિક શાંતિ",
-  "categoryWisdomOfJesus": "પયગંબરોની જ્ઞાન",
-  "categoryHumilityCharacter": "સારા ગુણો",
-  "categoryOvercomingTemptation": "આજ્ઞાધીન રહેવું",
-  "categoryEveningReflection": "સાંજે જિક્ર",
-  "categoryCustom": "વ્યક્તિગત પ્રતિબિંબ",
-  "dhikrMeaningSubhanallah": "અલ્લાહની મહિમા",
-  "dhikrMeaningAlhamdulillah": "બધા વખાણ અલ્લાહને છે",
-  "dhikrMeaningAllahuAkbar": "અલ્લાહ મહાન છે",
-  "quranVerseHeartAtRest": "ખરેખર, અલ્લાહની યાદમાં હૃદયોને શાંતિ મળે છે.",
-
-  "promptHint": "ઈસ્લામિક માર્ગદર્શન અને મનન માટે કોઈ શ્રેણી પર ટ્યાપ કરો",
-
+  "planBasic": "સ્ટાન્ડર્ડ",
+  "planPremium": "Wilaya",
+  "categorySlot01": "દૈનિક માર્ગદર્શન",
+  "categorySlot02": "ઈમાન અને વિશ્વાસ",
+  "categorySlot03": "નમાઝ પર મનન",
+  "categorySlot04": "સબર અને આશા",
+  "categorySlot05": "માફી માગો",
+  "categorySlot06": "રહેમ અને કરુણા",
+  "categorySlot07": "ઈમાનની શક્તિ",
+  "categorySlot08": "કૃતજ્ઞ હૃદય",
+  "categorySlot09": "જીવનનો હેતુ",
+  "categorySlot10": "કુટુંબના બંધન",
+  "categorySlot11": "આંતરિક શાંતિ",
+  "categorySlot12": "પયગંબરની હિકમત",
+  "categorySlot13": "સારો સ્વભાવ",
+  "categorySlot14": "લાલચનો વિરોધ કરો",
+  "categorySlot15": "સાંજનો ઝિક્ર",
+  "categoryCustom": "વ્યક્તિગત મનન",
+  "dhikrMeaningSubhanallah": "અલ્લાહ પવિત્ર છે",
+  "dhikrMeaningAlhamdulillah": "બધી પ્રશંસા અલ્લાહ માટે છે",
+  "dhikrMeaningAllahuAkbar": "અલ્લાહ સર્વાથી મહાન છે",
+  "quranVerseHeartAtRest": "નિશ્ચયે, અલ્લાહના સ્મરણમાં દિલોને શાંતિ મળે છે.",
+  "promptHint": "ઇસ્લામી માર્ગદર્શન અને મનન માટે કોઈ કેટેગરી પર ટૅપ કરો",
   "currentLanguage": "વર્તમાન ભાષા",
   "settingsLanguage": "ભાષા સેટિંગ્સ",
   "settingsTitle": "સેટિંગ્સ",
   "chooseLanguage": "તમારી ભાષા પસંદ કરો",
   "continueCta": "આગળ વધો",
-
-  "promptDailyGuidance": "સુન્ની ઈસ્લામિક વિશ્વાસમાં આધારિત ટૂંકુ, વ્યાવહારિક દૈનિક માર્ગદર્શન લખો, જે કુરાન, હદીસ અને પયગંબર મુહમ્મદ ﷺ ની શિક્ષાણો પર આધારિત હોય. દર વખતે એક તાજો દૃષ્ટિકોણ પસંદ કરો: ઈસ્લામિક નૈતિકતાનું એક ગુણ, સુન્નાતનું એક સત્ય, પયગંબરના સાથીઓની જ્ઞાન, અથવા ઈસ્લામિક પરંપરાનું એક શાંત અભ્યાસ. એક કુરાન શ્લોક (સુરહ:આયહ) અને 1-2 વાક્યનો મનન શામેલ કરો જે આખો દિવસ સાથે રહે. જો પ્રાસંગિક હોય તો તેને ઈસ્લામિક કેલેન્ડર અથવા એક મહત્વપૂર્ણ તારીખ સાથે જોડો.",
-
-  "promptFaithTrust": "ઈમાન (ઈમાન) અને અલ્લાહની યોજનામાં વિશ્વાસ (તવક્કુલ) પર એક ટૂંકો ઈસ્લામિક મનન લખો. તેને કુરાન, પયગંબર મુહમ્મદ ﷺ ના ઉદાહરણ અને સહાબાના વિશ્વાસમાં મૂળ આપો. દર વખતે થીમ બદલો: અનિશ્ચિતતામાં અલ્લાહ પર વિશ્વાસ, દૈવી જ્ઞાનમાં આધાર, પરીક્ષણમાં ધૈર્ય, અથવા રોજિંદા જીવનમાં શાંત દૃઢતા. એક કુરાન શ્લોક અને આજ માટે ઈસ્લામિક આધ્યાત્મિક જ્ઞાનમાંથી દોન એક સત્ય પગલું શામેલ કરો.",
-
-  "promptPrayerReflection": "સલાહ, દુઆ અથવા જિક્રમાં આધારિત એક ટૂંકો ઈસ્લામિક પ્રાર્થના મનન લખો. દર વખતે ફોર્મ બદલો: સવાર અથવા સાંજનું યાદ (અધકાર), પાંચ દૈનિક નમાજો પર પ્રતિબિંબ, કુરાનીક શ્લોકનું ધ્યાન, અથવા એક આત્મપ્રેરણ વિનંતી. એક કુરાન શ્લોક અને સંક્ષિપ્તમાં વપરાતી પ્રાર્થના ફોર્મનું નામ આપો.",
-
-  "promptHopeDifficultTimes": "મુશ્કેલ સમયમાં ધૈર્ય (સબ્ર) અને આશા પર એક ઈસ્લામિક મનન લખો. કુરાનીક શિક્ષણો, પયગંબરોની સહનશીલતા અને મુશ્કેલ ક્ષણોમાં અલ્લાહની દયા માંથી દોન લો. દર વખતે કોણ બદલો. એક કુરાન શ્લોક અને ઈસ્લામિક પરંપરાનો એક પ્રોત્સાહી દૃષ્ટિકોણ શામેલ કરો.",
-
-  "promptForgiveness": "ક્ષમા (તવબાહ) માંગવા અને અલ્લાહની દયા વિશે એક જ્ઞાનવંત ઈસ્લામિક મનન લખો. તવબાહ પર કુરાનીક શિક્ષણો, અલ્લાહની સહાનુભૂતિ અને પયગંબર મુહમ્મદ ﷺ ના ક્ષમાશીલ ઉદાહરણમાંથી દોન લો. થીમ બદલો: અલ્લાહ તરફ ફરવું, અન્યોને ક્ષમા કરવું, સંબંધો સાજવું, અથવા ભૂલ પછી અલ્લાહની દયાવર વિશ્વાસ. એક કુરાન શ્લોક અને એક ઠોસ પગલું શામેલ કરો.",
-
-  "promptLoveCompassion": "રોજિંદા જીવનમાં દયા (રહમાહ) અને કરુણા પર એક ટૂંકો ઈસ્લામિક મનન લખો. પયગંબર મુહમ્મદ ﷺ ના ઉદાહરણ, ઇહસાન (શ્રેષ્ઠતા) ની કલ્પના અને પરિવાર, પડોશીઓ અને કમજોર લોકો પ્રતિ કૃપાની ઈસ્લામિક શિક્ષણોમાંથી દોન લો. એક કુરાન શ્લોક અને આજ અભ્યાસ કરવાની એક નાની કરુણા શામેલ કરો.",
-
-  "promptStrengthCourage": "વિશ્વાસ પર આધારિત શક્તિ અને સાહસ પર એક ઈસ્લામિક મનન લખો. પયગંબરોના ઉદાહરણો, શરૂઆતી મુસ્લિમ સમુદાય અને વિશ્વાસ કેટલા અંશે દોન લો જેઓ મુશ્કેલીમાં દૃઢ રહ્યા. દર વખતે થીમ બદલો: વિશ્વાસ દ્વારા સાહસ, પ્રાર્થનામાં શક્તિ, ભય દરમિયાન અલ્લાહમાં વિશ્વાસ, અથવા મુશ્કેલીમાં સહનશીલતા. એક કુરાન શ્લોક અને એક ટૂંકી વિનંતી અથવા જિક્ર શામેલ કરો.",
-
-  "promptGratitude": "અલ્લાહ પ્રતિ કૃતજ્ઞતા (શુક્ર) પર એક ઈસ્લામિક મનન લખો. તેને કુરાનીક શિક્ષણ અને પયગંબરનું પરંપરા પર મૂળ આપો. કોણ બદલો: મુશ્કેલીમાં કૃતજ્ઞતા, નાની આશીર્વાદોની પ્રશંસા, અલ્લાહની સ્તુતિ સાથે દિવસ શરૂ કરવું, અથવા રોજિંદા જીવનમાં અલ્લાહની માર્ગદર્શન ઓળખવું. એક કુરાન શ્લોક અને એક કૃતજ્ઞતા પ્રથા શામેલ કરો.",
-
-  "promptPurposeCalling": "અલ્લાહની પૂજા અને ધર્મતાથી જીવવા વિશે જીવનના ઉદ્દેશ્ય પર એક ઈસ્લામિક મનન લખો. ઉદ્દેશ્ય, અન્યોની સેવા અને સારાથી પોતાના ભેટો વપરાવવા સંબંધે કુરાનીક શિક્ષણોમાંથી દોન લો. દર વખતે થીમ બદલો: પરિવાર અને સમુદાયની સેવા, ઇસ્તિખારા દ્વારા માર્ગદર્શન શોધવું, ઉદ્દેશ્ય સાથે જીવવું, અથવા સાધારણ કામમાં અર્થ શોધવું. એક કુરાન શ્લોક અને બે પ્રતિબિંબક પ્રશ્નો શામેલ કરો.",
-
-  "promptFamilyRelationships": "કુરાનીક શિક્ષણ અને પયગંબર મુહમ્મદ ﷺ ના ઉદાહરણમાં આધારિત પરિવાર અને સંબંધો પર જ્ઞાનવંત ઈસ્લામિક માર્ગદર્શન લખો. દર વખતે થીમ બદલો: પરિવાર જીવનમાં દયા, તણાવમાં ધૈર્ય, પિતામાતાનું સન્માન, વિશ્વાસમાં બાળકો પાળવું, અથવા લગ્ન મજબુત કરવું. એક કુરાન શ્લોક અને એક સંબંધક પ્રથા પ્રયાસ કરવા માટે શામેલ કરો.",
-
-  "promptPeaceAnxietyRelief": "અલ્લાહની યાદ (જિક્ર) અને તેની યોજનામાં વિશ્વાસ દ્વારા આંતરિક શાંતિ શોધવા વિશે એક શાંતિમય ઈસ્લામિક મનન લખો. હૃદયની શાંતિ, પ્રાર્થના અને અલ્લાહની ઇચ્છાને સરેન્ડર કરવા વિશે કુરાનીક શિક્ષણોમાંથી દોન લો. દર વખતે પદ્ધતિ બદલો અને એક કુરાન શ્લોક અને ઈસ્લામિક પરંપરાનો એક સરળ ભૂમિકા પ્રથા શામેલ કરો.",
-
-  "promptWisdomOfJesus": "ઈસ્લામમાં શીખવેલ પયગંબરોમાંથી જ્ઞાનનું એક ટૂંકો ટુકડો લખો. કુરાન અથવા હદીસમાંથી દોન લો અને સংક્ષિપ્તમાં ઈસ્લામિક વિદ્વાનોએ શિક્ષણને કેવી રીતે સમજ્યા છે તે સમજાવો. દર વખતે વિષય બદલો: સુલુક, ધૈર્ય, નમ્રતા, વિશ્વાસ, અથવા રોજિંદા આચરણ. એક કુરાનીક શ્લોક અથવા હદીસ સંદર્ભ અને એક વ્યાવહારિક ઉપયોગ શામેલ કરો.",
-
-  "promptHumilityCharacter": "નમ્રતા (તવાધુ) અને સારા આચરણ (અખલાક) પર એક ઈસ્લામિક મનન લખો. કુરાનીક શિક્ષણો, પયગંબર મુહમ્મદ ﷺ ના ઉદાહરણ અને ઈસ્લામિક આચરણ વિકાસના પરંપરાથી દોન લો. થીમ બદલો: નેતૃત્વમાં નમ્રતા, ભૂલો સ્વીકારવું, અન્યોને આદર સાથે વર્તવું, અથવા આત્મ-પ્રતિબિંબ દ્વારા આધ્યાત્મિક રીતે વધવું. એક કુરાન શ્લોક અને એક અભ્યાસ કરવાની આદત શામેલ કરો.",
-
-  "promptOvercomingTemptation": "લોભમુક્તિ અને સીધા માર્ગમાં રહેવા પર એક ઈસ્લામિક મનન લખો. કુરાનીક માર્ગદર્શન, અલ્લાહની યાદ (જિક્ર), પ્રાર્થના (સલાહ) અને મુશ્કેલીઓ પર જીત મેળવીને માર્ગ પર રહેવાનું બતાવતા મોમિનોના ઉદાહરણોમાંથી દોન લો. દર વખતે કોણ બદલો. એક કુરાન શ્લોક અને આગામી 24 કલાક માટે એક વ્યાવહારિક પ્રોધોગ શામેલ કરો.",
-
-  "promptEveningReflection": "સાંજે યાદ (અધકાર અલ-મસા) ની પરંપરામાં આધારિત એક શાંતિમય ઈસ્લામિક સાંજનું મનન લખો. કૃતજ્ઞતા, આત્મ-પ્રતિબિંબ (મુહાસાબાહ) અને વિશ્રામ પહેલા અલ્લાહમાં વિશ્વાસને પ્રોત્સાહિત કરો. 3-5 ટૂંકી પ્રતિબિંબક વિનંતીઓ દિવસ વિશે, એક ટૂંકી સમાપ્તિ વિનંતી અને એક કુરાન શ્લોક શામેલ કરો.",
-
   "wordCount": "{count, plural, one {{count} શબ્દ} other {{count} શબ્દો}}",
-
   "optionsCta": "વિકલ્પો",
   "newCta": "નવું",
-  "actionsTitle": "તમે શું કરવા માંગો છો?",
-  "copy": "નકલ કરો",
+  "actionsTitle": "તમે શું કરવું ઇચ્છો છો?",
+  "copy": "કોપી કરો",
   "share": "શેર કરો",
   "close": "બંધ કરો",
-  "copiedToast": "ક્લિપબોર્ડમાં નકલ થયું",
-
+  "copiedToast": "ક્લિપબોર્ડમાં કોપી થયું",
   "shareSubject": "Ayara — {category}",
   "@shareSubject": {
-    "description": "ધોરણ લેબલ સમાવતી ઈમેલ / શેર વિષય લાઈન.",
+    "description": "ઇમેલ / શેર વિષય પંક્તિ જેમાં કેટેગરી લેબલ સામેલ છે.",
     "placeholders": {
-      "category": { "type": "String", "example": "દૈનિક માર્ગદર્શન" }
+      "category": {
+        "type": "String",
+        "example": "દૈનિક માર્ગદર્શન"
+      }
     }
   },
-
-  "regenerateErrorTitle": "નવો જવાબ બનાવી શક્યું નહીં",
-  "regenerateErrorBody": "{error}\n\nક્યા તમે ફરી પ્રયાસ કરવા માંગો છો?",
+  "regenerateErrorTitle": "નવો જવાબ તૈયાર કરી શકાયો નથી",
+  "regenerateErrorBody": "{error}\n\nશું તમે ફરી પ્રયાસ કરવા માંગો છો?",
   "@regenerateErrorBody": {
-    "description": "AI જવાબ પુનર્જીવિત કરવામાં નિષ્ફલતા દર્શાય છે.",
+    "description": "AI જવાબ ફરી બનાવવામાં નિષ્ફળ જાય ત્યારે બતાવવામાં આવે છે.",
     "placeholders": {
-      "error": { "type": "String", "example": "નેટવર્ક ભૂલ" }
+      "error": {
+        "type": "String",
+        "example": "નેટવર્ક ભૂલ"
+      }
     }
   },
-
   "cancelCta": "રદ કરો",
   "retryCta": "ફરી પ્રયાસ કરો",
-
-  "authTitle": "તમારું ખાતું બનાવો",
-  "continueAsGuest": "મહેમાન તરીકે આગળ વધો",
-  "signInGoogle": "Google સાથે સાઈન ઇન કરો",
-  "signInApple": "Apple સાથે સાઈન ઇન કરો",
-  "signInEmail": "ઈમેલ સાથે સાઈન ઇન કરો",
+  "authTitle": "તમારું અકાઉન્ટ બનાવો",
+  "continueAsGuest": "મેહમાન તરીકે આગળ વધો",
+  "signInGoogle": "Google સાથે સાઇન ઇન કરો",
+  "signInApple": "Apple સાથે સાઇન ઇન કરો",
+  "signInEmail": "ઇમેલથી સાઇન ઇન કરો",
   "upgradeWithApple": "Apple સાથે આગળ વધો",
-  "mustAccept": "તમે આ શર્તો સ્વીકાર કરવી જ જોઈએ અને ગોપનીયતા નીતી સ્વીકાર કરવી જોઈએ.",
-  "termsLabel": "હું સેવાની શર્તોને સ્વીકાર કરું છું",
-  "privacyLabel": "મેં ગોપનીયતા નીતી વાંચી છે",
-  "marketingOptIn": "હું સમાચાર અને ઓફર પ્રાપ્ત કરવા માટે સંમત છું",
-  "openTerms": "સેવાની શર્તો",
+  "mustAccept": "તમારે નિયમો સ્વીકારવા અને ગોપનીયતા નીતિની જાણકારી માન્ય કરવી જરૂરી છે.",
+  "termsLabel": "હું સેવા શરતો સ્વીકારું છું",
+  "privacyLabel": "મેં ગોપનીયતા નીતિ વાંચી છે",
+  "marketingOptIn": "હું સમાચાર અને ઑફરો મેળવવા સંમત છું",
+  "openTerms": "સેવા શરતો",
   "openPrivacy": "ગોપનીયતા નીતિ",
-
-  "accountSection": "ખાતું",
-  "guestMode": "મહેમાન મોડ",
-  "signedIn": "સાઈન ઇન કર્યું",
-  "upgradeHint": "ખાતું બનાવીને સાધનો મોટાભાગે મંત્રણા બચાવો.",
+  "accountSection": "અકાઉન્ટ",
+  "guestMode": "મેહમાન સ્થિતિ",
+  "signedIn": "સાઇન ઇન થયેલ",
+  "upgradeHint": "અકાઉન્ટ બનાવીને તમારી મનનોવિચાર તમામ ઉપકરણોમાં સાચવો.",
   "upgradeWithGoogle": "Google સાથે આગળ વધો",
-  "signOut": "સાઈન આઉટ કરો",
-
-  "snackUpgraded": "ખાતું Google સાથે અપગ્રેડ કર્યું ✅",
-  "snackSignedIn": "Google સાથે સાઈન ઇન કર્યું ✅",
-  "snackSignedOut": "સાઈન આઉટ થયું",
-  "snackSignedInApple": "Apple સાથે સાઈન ઇન કર્યું ✅",
-  "snackSignedInGoogle": "Google સાથે સાઈન ઇન કર્યું ✅",
-  "snackUpgradedApple": "ખાતું Apple સાથે અપગ્રેડ કર્યું ✅",
-  "snackUpgradedGoogle": "ખાતું Google સાથે અપગ્રેડ કર્યું ✅",
-
-  "historyTitle": "પૂર્વેક મનન",
-  "historyOpenCta": "પૂર્વેક મનન",
-  "historyEmpty": "હજી કોઈ સાચવેલ મનન નથી.",
-  "historyDeleteTitle": "મનન મુક્ત કરવું?",
-  "historyDeleteBody": "આ પસંદ કરેલ આઇટમને સ્થાયી રીતે દૂર કરશે.",
-  "deleteCta": "મુક્ત કરો",
-
-  "historyButton": "પૂર્વેક મનન",
-  "historyEmptyTitle": "હજી મનન નથી",
-  "historyEmptyBody": "પહેલાં કંઈક તૈયાર કરો — તમારા સાચવેલ આઇટમો અહીં દેખાશે.",
-  "historyDelete": "મુક્ત કરો",
-
-  "footerTitle": "ઈમાન, સબ્ર અને રહમાહ સાથે.",
-  "footerSubtitle": "એક તે એક પગલું.",
-  "genericErrorSnack": "કંઈક ખોટું થયું — કૃપયા એક ક્ષણમાં ફરી પ્રયાસ કરો.",
-
-  "upgradeAccountCta": "તમારા મનનો સાધનો મોટાભાગે બચાવો – ખાતું બનાવો",
-  "deleteAccount": "ખાતું મુક્ત કરો",
+  "signOut": "સાઇન આઉટ કરો",
+  "snackUpgraded": "Google સાથે અકાઉન્ટ અપગ્રેડ થયું ✅",
+  "snackSignedIn": "Google સાથે સાઇન ઇન થયું ✅",
+  "snackSignedOut": "સાઇન આઉટ થયું",
+  "snackSignedInApple": "Apple સાથે સાઇન ઇન થયું ✅",
+  "snackSignedInGoogle": "Google સાથે સાઇન ઇન થયું ✅",
+  "snackUpgradedApple": "Apple સાથે અકાઉન્ટ અપગ્રેડ થયું ✅",
+  "snackUpgradedGoogle": "Google સાથે અકાઉન્ટ અપગ્રેડ થયું ✅",
+  "historyTitle": "પાછલા મનનોવિચાર",
+  "historyOpenCta": "પાછલા મનનોવિચાર",
+  "historyEmpty": "હજુ સુધી કોઈ સાચવેલ મનનોવિચાર નથી.",
+  "historyDeleteTitle": "મનનોવિચાર કાઢી નાખવો?",
+  "historyDeleteBody": "આ પસંદ કરેલી વસ્તુને કાયમ માટે દૂર કરશે.",
+  "deleteCta": "કાઢી નાખો",
+  "historyButton": "પાછલા મનનોવિચાર",
+  "historyEmptyTitle": "હજુ સુધી કોઈ મનનોવિચાર નથી",
+  "historyEmptyBody": "પહેલા કંઈક બનાવો — તમારી સાચવેલી વસ્તુઓ અહીં દેખાશે.",
+  "historyDelete": "કાઢી નાખો",
+  "footerTitle": "Wilaya, ઈમાન અને સબર સાથે",
+  "footerSubtitle": "એક સમયે એક દુઆ",
+  "genericErrorSnack": "કંઈક ખોટું થયું — કૃપા કરીને થોડા સમય પછી ફરી પ્રયાસ કરો.",
+  "upgradeAccountCta": "તમારા મનનોવિચાર તમામ ઉપકરણોમાં સાચવો – અકાઉન્ટ બનાવો",
+  "deleteAccount": "અકાઉન્ટ કાઢી નાખો",
   "exportData": "મારો ડેટા નિકાસ કરો",
-
   "userUidLabel": "UID: {uid}",
   "@userUidLabel": {
-    "description": "આંતરિક Firebase UID દર્શાવતાનો લેબલ.",
+    "description": "આંતરિક Firebase UID બતાવવા પહેલાંનું લેબલ.",
     "placeholders": {
-      "uid": { "type": "String", "example": "abc123" }
+      "uid": {
+        "type": "String",
+        "example": "abc123"
+      }
     }
   },
-
-  "rateLocalThrottle": "હલકો બાઘ 🐯\nAI ને આગલાની આગળ એક ક્ષણ જોઈએ છે…",
-  "rateDailyLimit": "તમે અત્યારે મંત્રણા ખતમ કર્યા છે.\nવધુ મનન મેળવો અથવા બરકાહમાં અપગ્રેડ કરો.",
-  "rateCreditsExhausted": "તમે તમારા બધા મનન ખર્ચ કર્યા છે.\nચાલુ રાખવા માટે ટોપ અપ અથવા બરકાહમાં અપગ્રેડ કરો.",
-  "rateGraceReflectionsExhausted": "તમે અત્યારે મંત્રણા ખતમ કર્યા છે.\nવધુ મનન મેળવો અથવા બરકાહમાં અપગ્રેડ કરો.",
-  "rateReflectionsExhausted": "તમે તમારા બધા મનન ખર્ચ કર્યા છે.\nચાલુ રાખવા માટે ટોપ અપ અથવા બરકાહમાં અપગ્રેડ કરો.",
-
-  "blessedDescription": "બરકાહ પ્રીમિયમ તક, ભવિષ્ય ધોરણી અને વિશેષ બેજ મુક્ત કરે છે.",
-  "championDescription": "બરકાહ પ્રીમિયમ તક, ભવિષ્ય ધોરણી અને વિશેષ બેજ મુક્ત કરે છે.",
-
-  "ratePlanExhausted": "તમારા મનન અત્યારે ખાલી છે. યોજના: {plan}.",
+  "rateLocalThrottle": "ધીમે ધીમે 🐯\nઆગામી જવાબ પહેલાં Ayara ને થોડો સમય જોઈએ…",
+  "rateDailyLimit": "હાલ માટે તમારા મનનોવિચાર ખૂટી ગયા છે.\nવધુ મનનોવિચાર મેળવો અથવા Wilaya માં અપગ્રેડ કરો.",
+  "rateCreditsExhausted": "તમે તમારા બધા મનનોવિચાર ઉપયોગ કરી લીધા છે.\nઆગળ વધવા માટે વધુ ઉમેરો અથવા Wilaya માં અપગ્રેડ કરો.",
+  "rateGraceCreditsExhausted": "હાલ માટે તમારા મનનોવિચાર ખૂટી ગયા છે.\nવધુ મનનોવિચાર મેળવો અથવા Wilaya માં અપગ્રેડ કરો.",
+  "premiumDescription": "Wilaya પ્રીમિયમ સુવિધાઓ, ભવિષ્યની કેટેગરીઓ અને ખાસ બેજ અનલોક કરે છે.",
+  "ratePlanExhausted": "હાલમાં તમારા મનનોવિચાર સમાપ્ત છે. પ્લાન: {plan}.",
   "@ratePlanExhausted": {
-    "description": "જ્યારે મનનો ખતમ થાય તો દર્શાય, તે કારણ સામાન્ય છે.",
+    "description": "વપરાશકર્તાના મનનોવિચાર સમાપ્ત થયા હોય પણ કારણ સામાન્ય હોય ત્યારે બતાવવામાં આવે છે.",
     "placeholders": {
-      "plan": { "type": "String", "example": "સ્ટાન્ડર્ડ અથવા બરકાહ" }
+      "plan": {
+        "type": "String",
+        "example": "સ્ટાન્ડર્ડ અથવા Wilaya"
+      }
     }
   },
-
-  "rateCheckFailed": "તમારા મનનો તપાસ કરી શક્યા નથી: {message}",
+  "rateCheckFailed": "તમારા મનનોવિચાર ચકાસી શકાયા નથી: {message}",
   "@rateCheckFailed": {
-    "description": "જો કોલેબલ ફંક્શન ભૂલ સંદેશ આપે તો દર્શાય.",
+    "description": "કૉલ કરી શકાય તેવી ફંક્શન ભૂલ સંદેશ આપે ત્યારે બતાવવામાં આવે છે.",
     "placeholders": {
-      "message": { "type": "String", "example": "નેટવર્ક ભૂલ" }
+      "message": {
+        "type": "String",
+        "example": "નેટવર્ક ભૂલ"
+      }
     }
   },
-
-  "rateCheckGenericError": "તમારા મનનો તપાસ કરતી વખતે કંઈક ખોટું થયું.",
-  "aiFallbackGeneric": "કંઈક ખોટું થયું — કૃપયા એક ક્ષણમાં ફરી પ્રયાસ કરો.",
-
-  "limitSectionTitle": "મનન",
+  "rateCheckGenericError": "તમારા મનનોવિચાર ચકાસતી વખતે કંઈક ખોટું થયું.",
+  "aiFallbackGeneric": "કંઈક ખોટું થયું — કૃપા કરીને થોડા સમય પછી ફરી પ્રયાસ કરો.",
+  "limitSectionTitle": "મનનોવિચાર",
   "limitTodayLabel": "વપરાશ",
-  "limitCreditsLabel": "બાકી મનન: {credits}",
-  "@limitCreditsLabel": { "placeholders": { "credits": {} } },
-  "limitPlanLabel": "યોજના: {plan}",
-  "@limitPlanLabel": {
-    "description": "વર્તમાન સબ્સક્રિપ્શન યોજનાનું નામ બતાવે છે.",
+  "limitCreditsLabel": "બાકી મનનોવિચાર: {credits}",
+  "@limitCreditsLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "સ્ટાન્ડર્ડ અથવા બરકાહ" }
+      "credits": {}
     }
   },
-  "limitLoadingLabel": "લોડિંગ…",
-  "limitLoadingLabelDescription": "જ્યારે વપરાશ આંકડાઓ લાવવાનો હોય ત્યારે મનન કાર્ડમાં દર્શાય.",
-
-  "aiLimitTitle": "મનન",
-  "aiLimitSubtitle": "પ્રત્યેક પ્રતિક્રિયા 1 મનન વપરે છે. સ્ટાન્ડર્ડમાં શરૂઆતી મનન છે. બરકાહ પ્રીમિયમ ધોરણી ખોલે છે અને ટોપ-અપ સક્ષમ કરે છે.",
-  "aiLimitProgressLabel": "{used} / {total} મનન વપરાયું",
+  "limitPlanLabel": "પ્લાન: {plan}",
+  "@limitPlanLabel": {
+    "description": "વર્તમાન સબ્સ્ક્રિપ્શન પ્લાનનું નામ બતાવે છે.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "સ્ટાન્ડર્ડ અથવા Wilaya"
+      }
+    }
+  },
+  "limitLoadingLabel": "લોડ થઈ રહ્યું છે…",
+  "limitLoadingLabelDescription": "વપરાશના આંકડા મેળવતી વખતે મનનોવિચાર કાર્ડમાં બતાવવામાં આવે છે.",
+  "aiLimitTitle": "મનનોવિચાર",
+  "aiLimitSubtitle": "દરેક જવાબ 1 મનનોવિચાર વાપરે છે. સ્ટાન્ડર્ડમાં પ્રારંભિક મનનોવિચાર સામેલ છે. Wilaya પ્રીમિયમ કેટેગરીઓ અનલોક કરે છે અને ટોપ-અપ સક્રિય કરે છે.",
+  "aiLimitProgressLabel": "{used} / {total} મનનોવિચાર ઉપયોગમાં લેવાયા",
   "@aiLimitProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "reflectionsSectionTitle": "મનન",
-  "reflectionsUsageLabel": "વપરાશ",
-  "reflectionsRemainingLabel": "બાકી મનન: {reflections}",
-  "@reflectionsRemainingLabel": { "placeholders": { "reflections": {} } },
-
-  "reflectionsPlanLabel": "યોજના: {plan}",
-  "@reflectionsPlanLabel": {
-    "description": "વર્તમાન યોજનાનું નામ બતાવે છે.",
+  "creditsSectionTitle": "મનનોવિચાર",
+  "creditsUsageLabel": "વપરાશ",
+  "creditsRemainingLabel": "બાકી મનનોવિચાર: {reflections}",
+  "@creditsRemainingLabel": {
     "placeholders": {
-      "plan": { "type": "String", "example": "સ્ટાન્ડર્ડ અથવા બરકાહ" }
+      "reflections": {}
     }
   },
-
-  "reflectionsLoadingLabel": "લોડિંગ…",
-  "reflectionsLoadingLabelDescription": "જ્યારે મનન આંકડાઓ લાવવાનો હોય ત્યારે દર્શાય.",
-
-  "reflectionsTitle": "મનન",
-  "reflectionsSubtitle": "પ્રત્યેક પ્રતિક્રિયા 1 મનન વપરે છે. સ્ટાન્ડર્ડમાં શરૂઆતી મનન છે. બરકાહ પ્રીમિયમ ધોરણી ખોલે છે અને ટોપ-અપ સક્ષમ કરે છે.",
-  "reflectionsProgressLabel": "{used} / {total} મનન વપરાયું",
-  "@reflectionsProgressLabel": {
+  "creditsPlanLabel": "પ્લાન: {plan}",
+  "@creditsPlanLabel": {
+    "description": "વર્તમાન પ્લાનનું નામ બતાવે છે.",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "સ્ટાન્ડર્ડ અથવા Wilaya"
+      }
+    }
+  },
+  "creditsLoadingLabel": "લોડ થઈ રહ્યું છે…",
+  "creditsLoadingLabelDescription": "મનનોવિચારના આંકડા મેળવતી વખતે બતાવવામાં આવે છે.",
+  "creditsTitle": "મનનોવિચાર",
+  "creditsSubtitle": "દરેક જવાબ 1 મનનોવિચાર વાપરે છે. સ્ટાન્ડર્ડમાં પ્રારંભિક મનનોવિચાર સામેલ છે. Wilaya પ્રીમિયમ કેટેગરીઓ અનલોક કરે છે અને ટોપ-અપ સક્રિય કરે છે.",
+  "creditsProgressLabel": "{used} / {total} મનનોવિચાર ઉપયોગમાં લેવાયા",
+  "@creditsProgressLabel": {
     "placeholders": {
       "used": {},
       "total": {}
     }
   },
-
-  "settingsDeleteTitle": "ખાતું મુક્ત કરો",
-  "settingsDeleteDescription": "તમારું ખાતું અને તમામ સંલગ્ન ડેટા સ્થાયી રીતે મુક્ત કરો.",
-  "settingsDeleteButtonLabel": "મારું ખાતું મુક્ત કરો",
-  "settingsDeleteDialogTitle": "ખાતું મુક્ત કરું?",
-  "settingsDeleteDialogBody": "આ ક્રિયા સ્થાયી છે અને તેને પાછું ફેરવી શકાતું નથી.\n\nતમારી તમામ ચેટ, ઈતિહાસ અને ખાતા માહિતી મુક્ત કરવામાં આવશે.",
+  "settingsDeleteTitle": "અકાઉન્ટ કાઢી નાખો",
+  "settingsDeleteDescription": "તમારું અકાઉન્ટ અને સંબંધિત તમામ ડેટા કાયમ માટે કાઢી નાખો.",
+  "settingsDeleteButtonLabel": "મારું અકાઉન્ટ કાઢી નાખો",
+  "settingsDeleteDialogTitle": "અકાઉન્ટ કાઢી નાખવું?",
+  "settingsDeleteDialogBody": "આ ક્રિયા કાયમી છે અને પાછી ફેરવી શકાતી નથી.\n\nતમારી બધી ચેટ્સ, ઇતિહાસ અને અકાઉન્ટ માહિતી કાઢી નાખવામાં આવશે.",
   "settingsDeleteDialogCancel": "રદ કરો",
-  "settingsDeleteDialogConfirm": "મુક્ત કરો",
-
-  "settingsFreeLimitUsedTitle": "શરૂઆતી મનન વપરાયું",
-  "settingsFreeLimitUsedDescription": "આ ઉપકરણ માટે શરૂઆતી મનન વપરાયું છે. આગળ વધવા માટે બરકાહમાં અપગ્રેડ કરો અથવા વધુ મનન ખરીદો.",
-
-  "settingsStarterReflectionsUsedTitle": "શરૂઆતી મનન વપરાયું",
-  "settingsStarterReflectionsUsedDescription": "આ ઉપકરણ માટે શરૂઆતી મનન વપરાયું છે. આગળ વધવા માટે બરકાહમાં અપગ્રેડ કરો અથવા વધુ મનન ખરીદો.",
-
-  "deviceBoundError": "આ ઉપકરણ પહેલાથી બીજા ખાતા સાથે લિંક છે. કૃપયા મૂળ ખાતા સાથે સાઈન ઇન કરો.",
-
-  "premiumTitle": "બરકાહ મોડ",
-  "premiumSubtitleBasic": "Ayara ની સંપૂર્ણ અનુભવ અનલોક કરો.",
-  "premiumSubtitleChampion": "તમે બરકાહ છો. વધુ મનન જોઈએ?",
-
-  "premiumCurrentPlan": "વર્તમાન યોજના: {plan}",
-  "premiumCreditsStatus": "મનન: {remaining} / {total}",
-
-  "premiumPurchasesUnavailable": "ખરીદ અત્યારે ઉપલબ્ધ નથી.",
-  "premiumSignInToPurchase": "મનન ખરીદવા અથવા બરકાહ અનલોક કરવા માટે સાઈન ઇન કરો.",
-
-  "premiumRestorePurchases": "ખરીદ પુનર્સ્થાપિત કરો",
-  "premiumProcessing": "પ્રક્રિયા કરી રહ્યા છીએ…",
-  "premiumRestoreHintTitle": "શું તમે પહેલાથી આ ઉપકરણ અથવા અન્ય પર બરકાહ અથવા મનન ખરીદ્યું છે?",
-  "premiumRestoreHintBody": "જો તમારી ખરીદ દર્શાયા નથી તો તેને પુનર્સ્થાપિત કરો.",
-
-  "premiumBuyCredits200": "200 મનન ખરીદો",
-  "premiumBuyCredits400": "400 મનન ખરીદો",
-  "premiumBecomeChampionOneTime": "બરકાહ મોડમાં અપગ્રેડ કરો",
-  "premiumChampionHint": "બરકાહ તરીકે, તમે જરૂરત અનુસાર વધુ મનન ટોપ અપ કરી શકો છો.",
-
+  "settingsDeleteDialogConfirm": "કાઢી નાખો",
+  "settingsFreeLimitUsedTitle": "પ્રારંભિક મનનોવિચાર ઉપયોગમાં લેવાયા",
+  "settingsFreeLimitUsedDescription": "આ ઉપકરણ માટેના પ્રારંભિક મનનોવિચાર વપરાઈ ગયા છે. આગળ વધવા માટે Wilaya માં અપગ્રેડ કરો અથવા વધુ મનનોવિચાર ખરીદો.",
+  "settingsStarterCreditsUsedTitle": "પ્રારંભિક મનનોવિચાર ઉપયોગમાં લેવાયા",
+  "settingsStarterCreditsUsedDescription": "આ ઉપકરણ માટેના પ્રારંભિક મનનોવિચાર વપરાઈ ગયા છે. આગળ વધવા માટે Wilaya માં અપગ્રેડ કરો અથવા વધુ મનનોવિચાર ખરીદો.",
+  "deviceBoundError": "આ ઉપકરણ પહેલેથી જ બીજા અકાઉન્ટ સાથે જોડાયેલું છે. કૃપા કરીને મૂળ અકાઉન્ટથી સાઇન ઇન કરો.",
+  "premiumTitle": "Wilaya સ્થિતિ",
+  "premiumSubtitleBasic": "Ayara નો સંપૂર્ણ અનુભવ અનલોક કરો.",
+  "premiumSubtitlePremium": "તમે હવે Wilaya પર છો. વધુ મનનોવિચાર જોઈએ છે?",
+  "premiumCurrentPlan": "વર્તમાન પ્લાન: {plan}",
+  "premiumCreditsStatus": "મનનોવિચાર: {remaining} / {total}",
+  "premiumPurchasesUnavailable": "ખરીદી હાલમાં ઉપલબ્ધ નથી.",
+  "premiumSignInToPurchase": "મનનોવિચાર ખરીદવા અથવા Wilaya અનલોક કરવા માટે સાઇન ઇન કરો.",
+  "premiumRestorePurchases": "ખરીદીઓ પુનઃસ્થાપિત કરો",
+  "premiumProcessing": "પ્રક્રિયા થઈ રહી છે…",
+  "premiumRestoreHintTitle": "આ ઉપકરણ પર અથવા બીજા ઉપકરણ પર તમે પહેલેથી જ Wilaya અથવા મનનોવિચાર ખરીદ્યા છે?",
+  "premiumRestoreHintBody": "જો દેખાતા ન હોય તો તમારી ખરીદીઓ પુનઃસ્થાપિત કરો.",
+  "premiumBuyCredits200": "200 મનનોવિચાર ખરીદો",
+  "premiumBuyCredits400": "400 મનનોવિચાર ખરીદો",
+  "premiumBecomePremiumOneTime": "Wilaya સ્થિતિમાં અપગ્રેડ કરો",
+  "premiumTopupHint": "Wilaya સાથે, જ્યારે જરૂર પડે ત્યારે વધારાના મનનોવિચાર ઉમેરી શકો છો.",
   "premiumUpgradeCta": "અપગ્રેડ કરો",
-  "premiumRequiredForCategory": "આ ધોરણી માત્ર બરકાહ વપરાશકર્તાઓ માટે ઉપલબ્ધ છે. બધી પ્રીમિયમ સામગ્રી અનલોક કરવા માટે સેટિંગમાં અપગ્રેડ કરો.",
-  "premiumBenefitsBasic": "બરકાહને અનલોક કરીને વધુ મનન મેળવો, પ્રીમિયમ ધોરણી ધરાવો અને જ્યારે તમને માર્ગદર્શન જોઈ છે ત્યારે આગળ વધો.",
-  "premiumBenefitsChampion": "તમે બરકાહ મોડમાં છો. જો તમે ઓછા ચલી રહ્યા છો, તો કેટલાક વધુ મનન ઉમેરો અને વિનાધ્યાન આગળ વધો.",
-  "premiumButtonBecomeChampion": "બરકાહ અનલોક કરો",
-  "premiumButtonTopup1000": "1000 મનન ઉમેરો",
-  "premiumChampionBadge": "બરકાહ સક્રિય",
-  "premiumLoadingStore": "સ્ટોર લોડ કરી રહ્યા છીએ…",
-
-  "blessedTitle": "બરકાહ મોડ",
-  "blessedSubtitleGrace": "Ayara ની સંપૂર્ણ અનુભવ અનલોક કરો.",
-  "blessedSubtitleBlessed": "તમે બરકાહ છો. વધુ મનન જોઈએ?",
-
-  "blessedCurrentPlan": "વર્તમાન યોજના: {plan}",
-  "blessedReflectionsStatus": "મનન: {remaining} / {total}",
-
-  "blessedPurchasesUnavailable": "ખરીદ અત્યારે ઉપલબ્ધ નથી.",
-  "blessedProductNotAvailable": "આ ઉત્પાદન હજી સ્ટોરમાં ઉપલબ્ધ નથી. કૃપયા પછીથી ફરી પ્રયાસ કરો.",
-  "blessedPurchaseError": "ખરીદમાં કંઈક ખોટું થયું. કૃપયા ફરી પ્રયાસ કરો.",
-  "blessedSignInToPurchase": "મનન ખરીદવા અથવા બરકાહ અનલોક કરવા માટે સાઈન ઇન કરો.",
-
-  "blessedRestorePurchases": "ખરીદ પુનર્સ્થાપિત કરો",
-  "blessedProcessing": "પ્રક્રિયા કરી રહ્યા છીએ…",
-  "blessedRestoreHintTitle": "શું તમે પહેલાથી આ ઉપકરણ અથવા અન્ય પર બરકાહ અથવા મનન ખરીદ્યું છે?",
-  "blessedRestoreHintBody": "જો તમારી ખરીદ દર્શાયા નથી તો તેને પુનર્સ્થાપિત કરો.",
-
-  "blessedBuyReflections100": "100 મનન ઉમેરો",
-  "blessedBuyReflections200": "200 મનન ખરીદો",
-  "blessedBuyReflections400": "400 મનન ખરીદો",
-  "blessedBecomeBlessedOneTime": "બરકાહમાં અપગ્રેડ કરો",
-  "blessedTopupHint": "બરકાહ તરીકે, તમે જરૂરત અનુસાર વધુ મનન ટોપ અપ કરી શકો છો.",
-
-  "blessedUpgradeCta": "અપગ્રેડ કરો",
-  "blessedRequiredForCategory": "આ ધોરણી માત્ર બરકાહ વપરાશકર્તાઓ માટે ઉપલબ્ધ છે. બધી પ્રીમિયમ સામગ્રી અનલોક કરવા માટે સેટિંગમાં અપગ્રેડ કરો.",
-  "blessedFeatureLocked": "આ તક ધરાવવા માટે બરકાહ અનલોક કરો.",
-  "lockedCategoriesHint": "કેટલીક ધોરણી બરકાહ સભ્યો માટે આરક્ષિત છે. તમારી યાત્રામાં દરેક મનન અન્વેષણ કરવા માટે તેમને અનલોક કરો.",
-  "blessedBenefitsGrace": "બરકાહને અનલોક કરીને વધુ મનન મેળવો, પ્રીમિયમ ધોરણી ધરાવો અને જ્યારે તમને માર્ગદર્શન જોઈ છે ત્યારે આગળ વધો.",
-  "blessedBenefitsBlessed": "તમે બરકાહ મોડમાં છો. જો તમે ઓછા ચલી રહ્યા છો, તો કેટલાક વધુ મનન ઉમેરો અને વિનાધ્યાન આગળ વધો.",
-  "blessedButtonBecomeBlessed": "બરકાહ અનલોક કરો",
-  "blessedButtonTopup1000": "1000 મનન ઉમેરો",
-  "blessedBadge": "બરકાહ સક્રિય",
-  "blessedLoadingStore": "સ્ટોર લોડ કરી રહ્યા છીએ…",
-
-  "freePlanBlockedTitle": "તમે શરૂઆતી મનન ખતમ કર્યા છે",
-  "freePlanBlockedBody": "તમે સ્ટાન્ડર્ડ યોજનામાં છો શરૂઆતી મનન સાથે અને તમે મર્યાદા પહોંચ્યા છે. આગળ વધવા માટે અને પ્રીમિયમ ધોરણી અનલોક કરવા માટે બરકાહમાં અપગ્રેડ કરો.",
-  "freePlanBlockedCtaGoPremium": "નીચે બરકાહ વિકલ્પો જુઓ",
-
-  "graceBlockedTitle": "તમે શરૂઆતી મનન ખતમ કર્યા છે",
-  "graceBlockedBody": "તમે સ્ટાન્ડર્ડ યોજનામાં છો શરૂઆતી મનન સાથે અને તમે મર્યાદા પહોંચ્યા છે. આગળ વધવા માટે અને પ્રીમિયમ ધોરણી અનલોક કરવા માટે બરકાહમાં અપગ્રેડ કરો.",
-  "graceBlockedCtaGoBlessed": "નીચે બરકાહ વિકલ્પો જુઓ",
-
-  "rateGuestMustSignIn": "Ayara વપરાવવા માટે અને તમારા મનનો માટે સાઈન ઇન કરો.",
-
-  "guestNoCreditsTitle": "મહેમાન મોડ",
-  "guestNoCreditsBody": "મહેમાન તરીકે તમે એપ્લીકેશન બ્રાઉઝ કરી શકો છો, પણ તમે મનન વપરાવી શકતા નથી. સેટિંગમાં પછીથી લૉગ ઇન કરીને મનન વપરાવો અને ખરીદ અનલોક કરો.",
-
-  "guestNoReflectionsTitle": "મહેમાન મોડ",
-  "guestNoReflectionsBody": "મહેમાન તરીકે તમે એપ્લીકેશન બ્રાઉઝ કરી શકો છો, પણ તમે મનન વપરાવી શકતા નથી. સેટિંગમાં પછીથી લૉગ ઇન કરીને મનન વપરાવો અને ખરીદ અનલોક કરો.",
-
+  "premiumRequiredForCategory": "આ કેટેગરી માત્ર Wilaya વપરાશકર્તાઓ માટે ઉપલબ્ધ છે. બધી પ્રીમિયમ સામગ્રી અનલોક કરવા સેટિંગ્સમાં અપગ્રેડ કરો.",
+  "premiumBenefitsBasic": "વધારાના મનનોવિચાર, પ્રીમિયમ કેટેગરીઓમાં પ્રવેશ અને જ્યારે માર્ગદર્શન જોઈએ ત્યારે આગળ વધવા માટે Wilaya અનલોક કરો.",
+  "premiumBenefitsPremium": "તમે Wilaya સ્થિતિમાં છો. જો મનનોવિચાર ઓછા પડી રહ્યા હોય, તો વધુ ઉમેરો અને અવરોધ વગર આગળ વધો.",
+  "premiumButtonBecomePremium": "Wilaya અનલોક કરો",
+  "premiumButtonTopup1000": "1000 મનનોવિચાર ઉમેરો",
+  "premiumBadge": "Wilaya સક્રિય",
+  "premiumLoadingStore": "સ્ટોર લોડ થઈ રહ્યું છે…",
+  "premiumProductNotAvailable": "આ ઉત્પાદન હજી સ્ટોરમાં ઉપલબ્ધ નથી. કૃપા કરીને પછી ફરી પ્રયાસ કરો.",
+  "premiumPurchaseError": "ખરીદી દરમિયાન કંઈક ખોટું થયું. કૃપા કરીને ફરી પ્રયાસ કરો.",
+  "premiumBuyCredits100": "100 મનનોવિચાર ઉમેરો",
+  "premiumFeatureLocked": "આ સુવિધા મેળવવા માટે Wilaya અનલોક કરો.",
+  "lockedCategoriesHint": "કેટલીક કેટેગરીઓ માત્ર Wilaya સભ્યો માટે અનામત છે. તમારી યાત્રામાં દરેક મનનોવિચાર શોધવા માટે તેમને અનલોક કરો.",
+  "freePlanBlockedTitle": "તમારા પ્રારંભિક મનનોવિચાર પૂર્ણ થઈ ગયા છે",
+  "freePlanBlockedBody": "તમે સ્ટાન્ડર્ડ પ્લાન પર પ્રારંભિક મનનોવિચાર સાથે છો અને મર્યાદા સુધી પહોંચી ગયા છો. આગળ વધવા અને પ્રીમિયમ કેટેગરીઓ અનલોક કરવા માટે — Wilaya માં અપગ્રેડ કરો.",
+  "freePlanBlockedCtaGoPremium": "નીચેના Wilaya વિકલ્પો જુઓ",
+  "graceBlockedTitle": "તમારા પ્રારંભિક મનનોવિચાર પૂર્ણ થઈ ગયા છે",
+  "graceBlockedBody": "તમે સ્ટાન્ડર્ડ પ્લાન પર પ્રારંભિક મનનોવિચાર સાથે છો અને મર્યાદા સુધી પહોંચી ગયા છો. આગળ વધવા અને પ્રીમિયમ કેટેગરીઓ અનલોક કરવા માટે — Wilaya માં અપગ્રેડ કરો.",
+  "graceBlockedCtaGoPremium": "નીચેના Wilaya વિકલ્પો જુઓ",
+  "rateGuestMustSignIn": "Ayara અને તમારા મનનોવિચારનો ઉપયોગ કરવા સાઇન ઇન કરો.",
+  "guestNoCreditsTitle": "મેહમાન સ્થિતિ",
+  "guestNoCreditsBody": "મેહમાન તરીકે તમે એપ જોઈ શકો છો, પરંતુ મનનોવિચારનો ઉપયોગ કરી શકતા નથી. મનનોવિચાર અને ખરીદી અનલોક કરવા માટે પછીથી સેટિંગ્સમાં લોગ ઇન કરો.",
   "guestDialogContinue": "આગળ વધો",
-  "guestDialogLoginInstead": "તેની જગ્યાએ લૉગ ઇન કરો",
-
+  "guestDialogLoginInstead": "તેના બદલે લોગ ઇન કરો",
   "optionalLabel": "વૈકલ્પિક",
-
-  "accountDeleteSuccessTitle": "ખાતું મુક્ત થયું",
-  "accountDeleteSuccessBody": "તમારું ખાતું અને સંલગ્ન ડેટા સફળતાપૂર્વક મુક્ત કર્યું.",
+  "accountDeleteSuccessTitle": "અકાઉન્ટ કાઢી નાખ્યું",
+  "accountDeleteSuccessBody": "તમારું અકાઉન્ટ અને સંબંધિત ડેટા સફળતાપૂર્વક કાઢી નાખવામાં આવ્યા છે.",
   "accountDeleteSuccessClose": "બંધ કરો",
-  "accountDeleteErrorTitle": "ખાતું મુક્ત કરી શક્યું નહીં",
+  "accountDeleteErrorTitle": "અકાઉન્ટ કાઢી શકાઈ નથી",
   "accountDeleteErrorClose": "ઠીક છે",
-  "accountDeleteReauthCancelled": "પુનઃ-સત્યાપન રદ કર્યું. કૃપયા ફરી સાઈન ઇન કરો અને મુક્તિ ફરી પ્રયાસ કરો.",
-  "accountDeleteReauthRequired": "ખાતું મુક્તિ તાજેતર લૉગઇન જરૂર છે. કૃપયા સાઈન આઉટ કરો, ફરી સાઈન ઇન કરો અને મુક્તિ ફરી પ્રયાસ કરો.",
-  "settingsDeletePermanentWarning": "આ ક્રિયા સ્થાયી છે અને તેને પાછું ફેરવી શકાતું નથી. તમારા ખાતા સાથે સંલગ્ન તમામ ડેટા મુક્ત કર્યું જશે.",
-
+  "accountDeleteReauthCancelled": "ફરીથી પ્રમાણીકરણ રદ થયું. કૃપા કરીને ફરી સાઇન ઇન કરો અને ડિલીટ ફરી પ્રયાસ કરો.",
+  "accountDeleteReauthRequired": "અકાઉન્ટ ડિલીટ કરવા માટે તાજેતરની લૉગિન જરૂરી છે. કૃપા કરીને સાઇન આઉટ કરો, ફરી સાઇન ઇન કરો અને ફરી પ્રયાસ કરો.",
+  "settingsDeletePermanentWarning": "આ ક્રિયા કાયમી છે અને પાછી ફેરવી શકાતી નથી. તમારા અકાઉન્ટ સાથે જોડાયેલ તમામ ડેટા કાઢી નાખવામાં આવશે.",
   "dailyGraceTitle": "દૈનિક માર્ગદર્શન",
-  "dailyGraceScriptureLabel": "દિવસનું શ્લોક",
-  "dailyGraceSaintLabel": "અઠવાડિયાનો વિદ્વાન",
-  "dailyGraceReflectionLabel": "સાંજનું મનન",
-  "dailyGraceCopiedToast": "શ્લોક ક્લિપબોર્ડમાં નકલ થયું",
-
-  "dailyScripture0Text": "નિશ્ચિત રીતે, પરમપરોપકારી જન્નતો અને નદીઓમાં હશે, સંમાননીય સ્થળે એક શક્તિશાળી રાજાના પાસે.",
-  "dailyScripture0Ref": "કુરાન 54:54-55",
-  "dailyScripture1Text": "અને આપણે તમને, હે મુહમ્મદ, પ્રેરણા આપી છે માત્ર દુનિયાની રહમતના સાથે.",
-  "dailyScripture1Ref": "કુરાન 21:107",
-  "dailyScripture2Text": "શું અલ્લાહ તેના સેવક માટે પર્યાપ્ત નથી? તોપણ તેઓ તમને તેમની જોગે ડરાવે છે.",
-  "dailyScripture2Ref": "કુરાન 39:36",
-  "dailyScripture3Text": "શક્ય છે તમે કંઈક મદ કરો અને તે તમારા માટે સારું છે; અને શક્ય છે તમે કંઈક પ્રેમ કરો અને તે તમારા માટે ખરાબ છે. અને અલ્લાહ જાણે છે, જ્યારે તમે જાણતા નથી.",
-  "dailyScripture3Ref": "કુરાન 2:216",
-  "dailyScripture4Text": "નિશ્ચિત રીતે, અલ્લાહ ધૈર્યવંતોના સાથે છે.",
-  "dailyScripture4Ref": "કુરાન 2:153",
-  "dailyScripture5Text": "તેથી મને યાદ કરો; હું તમને યાદ કરીશ. અને મનો આભાર કરો અને મને નકારશો નહીં.",
-  "dailyScripture5Ref": "કુરાન 2:152",
-  "dailyScripture6Text": "નિશ્ચિત રીતે, તમાંના સૌથી શ્રેષ્ઠ અલ્લાહ ના નજરમાં સૌથી વધુ ધર્મી છે.",
-  "dailyScripture6Ref": "કુરાન 49:13",
-  "dailyScripture7Text": "અને તમારા રબ્બે આદેશ આપ્યો છે કે તમે તેમ સિવાય કોઈની પૂજા કરશો નહીં, અને તમે પોતાના પિતામાતાને દોષનો બોજ આપશો નહીં.",
-  "dailyScripture7Ref": "કુરાન 17:23",
-  "dailyScripture8Text": "ખરાબીથી સાથે સગાઈ આવે છે.",
-  "dailyScripture8Ref": "કુરાન 94:6",
-  "dailyScripture9Text": "અને તે તમારા સાથે તમે જ્યાં છો સેને. અને અલ્લાહ, જે તમે કરો છો, તે જોવી રહ્યા છે.",
-  "dailyScripture9Ref": "કુરાન 57:4",
-  "dailyScripture10Text": "અલ્લાહ કોઈ આત્માને તેમના ક્ષમતા કરતાં વધુ ભાર આપતા નથી.",
-  "dailyScripture10Ref": "કુરાન 2:286",
-  "dailyScripture11Text": "અને જે અલ્લાહ પર આધાર કરે તો તે તમારા માટે પર્યાપ્ત છે.",
-  "dailyScripture11Ref": "કુરાન 65:3",
-  "dailyScripture12Text": "મારી રહમતો બધી વસ્તુને સમાવે છે.",
-  "dailyScripture12Ref": "કુરાન 7:156",
-  "dailyScripture13Text": "અને જ્યારે મારા સેવકો તમને મારા વિશે પૂછે તો નિશ્ચિતપણે હું આશે છું. હું જવાબ આપું છું તે જે મને ডાકે છે.",
-  "dailyScripture13Ref": "કુરાન 2:186",
-  "dailyScripture14Text": "જે કોઈ ધર્મતા કરે છે, માણસ કે સ્ત્રી, વિશ્વાસીતા સાથે, આપણે તેને નિશ્ચિતપણે સારા જીવનમાં રહેવા દઈશું.",
-  "dailyScripture14Ref": "કુરાન 16:97",
-  "dailyScripture15Text": "નિશ્ચિતપણે, અલ્લાહ લોકોની આવસ્થા બદલશે નહીં જ્યાં સુધી તેઓ તેમનામાં જે છે તે બદલે નહીં.",
-  "dailyScripture15Ref": "કુરાન 13:11",
-  "dailyScripture16Text": "તેથી નબળું પડશો નહીં અને દુખી બનશો નહીં, અને તમે શ્રેષ્ઠ હશો જો તમે ખરેખર વિશ્વાસીઓ છો.",
-  "dailyScripture16Ref": "કુરાન 3:139",
-  "dailyScripture17Text": "હે મારા સેવકો જેઓ અપને વિરુદ્ધ અત્યાચાર કર્યા છો, અલ્લાહ ની રહમતમાં નિરાશ બનશો નહીં. નિશ્ચિતપણે, અલ્લાહ બધા પાપો માફ કરે છે.",
-  "dailyScripture17Ref": "કુરાન 39:53",
-  "dailyScripture18Text": "અને જે અલ્લાહને ભય કરે તો તે તેને માર્ગ આપશે, અને તેને તે જગ્યાથી આપશે જ્યાં તે આશા કરતો નથી.",
-  "dailyScripture18Ref": "કુરાન 65:2-3",
-  "dailyScripture19Text": "અલ્લાહની રહમતમાં આશા હારશો નહીં.",
-  "dailyScripture19Ref": "કુરાન 12:87",
-  "dailyScripture20Text": "અને આપણે નિશ્ચિતપણે કુરાનને યાદ રાખવા માટે સહજ બનાધર્યું છે. તો શું કોઈ સાવધ રહશે?",
-  "dailyScripture20Ref": "કુરાન 54:17",
-  "dailyScripture21Text": "અને તે તમને અલાધીન પાયું અને તમને માર્ગ આપ્યો.",
-  "dailyScripture21Ref": "કુરાન 93:7",
-  "dailyScripture22Text": "અને તમારા રબ્બે કહે છે: મને ડાકો; હું તમને જવાબ આપીશ.",
-  "dailyScripture22Ref": "કુરાન 40:60",
-  "dailyScripture23Text": "અને આપણે નિશ્ચિતપણે આદમના બાળકોને સન્માન આપ્યું છે.",
-  "dailyScripture23Ref": "કુરાન 17:70",
-  "dailyScripture24Text": "અને ધૈર્ય અને પ્રાર્થના દ્વારા મદદ લો.",
-  "dailyScripture24Ref": "કુરાન 2:45",
-  "dailyScripture25Text": "જે કોઈ એક અણુનો વજન સારું કરશે તો તે તે જશે.",
-  "dailyScripture25Ref": "કુરાન 99:7",
-  "dailyScripture26Text": "નિશ્ચિતપણે, અલ્લાહ ની મદદ નજીક છે.",
-  "dailyScripture26Ref": "કુરાન 2:214",
-  "dailyScripture27Text": "અને જે કોઈ કૃતજ્ઞ છે તો તેની કૃતજ્ઞતા માત્ર તેની પોતાનાની લાભ માટે છે.",
-  "dailyScripture27Ref": "કુરાન 31:12",
-
-  "dailyReflection0": "જ્યારે આ દિવસ બંધ થાય તો એક ક્ષણ પર વિચાર કરો જ્યાં અલ્લાહની રહમત સ્પષ્ટ હતી.",
-  "dailyReflection1": "જે કંઈ આજ તમારા હૃદયને દબાયું તે અલ્લાહ ના આગળ લાવો.",
-  "dailyReflection2": "આ દિવસમાંથી એક આશીર્વાદ નામ આપો અને અલ્લાહ ના પ્રતિ કૃતજ્ઞતા વ્યક્ત કરો.",
-  "dailyReflection3": "અલ્લાહ ની અનંત સંભાળમાં રહેવાના જ્ઞાનમાં શાંતિ મેળવો.",
-  "dailyReflection4": "જ્યાં તમે આજ દયા અને કૃપા દર્શાવવા માટે બોલાયો ત્યાં પર વિચાર કરો.",
-  "dailyReflection5": "તમે નિયંત્રણ કરી શકતા નથી તે છોડી દો અને અલ્લાહ ની પૂર્ણ યોજનામાં વિશ્વાસ કરો.",
-  "dailyReflection6": "જ્યારે દિવસ સમાપ્ત થાય, અલ્લાહ ની યાદમાં શાંતિ મેળવો.",
-  "dailyReflection7": "આજ તમે તમારી પ્રાર્થનાને કેવી રીતે સન્માનિત કર્યું તેના પર વિચાર કરો, અને દરેક માટે અલ્લાહને આભાર આપો.",
-  "dailyReflection8": "એક ક્ષણ પર વિચાર કરો જ્યાં ધૈર્ય (સબ્ર) આજે તમારી ક્રિયાઓને માર્ગ આપ્યો.",
-  "dailyReflection9": "આજ કોઈ અપૂર્ણતા માટે ક્ષમા માંગો—અલ્લાહ ની રહમત અસીમ છે.",
-  "dailyReflection10": "એક વ્યક્તિ નામ આપો તમે આજ દયા બતાધર્યો અને તેમના માટે દુઆ કરો.",
-  "dailyReflection11": "કૃતજ્ઞતા સાથે બેસો: અલ્લાહ આજ તમને શું આપ્યું જે તમે માંગ્યું નહીં?",
-  "dailyReflection12": "કુરાનમાંથી એક શ્લોક પર વિચાર કરો જે તમે જ્યાં છો તે સાથે વાત કરે છે.",
-  "dailyReflection13": "તમે આજ તમારો સમય કેવી રીતે વપરાધર્યો તે પર વિચાર કરો—અને આવતા દિવસને અલ્લાહ ને આપો.",
-  "dailyReflection14": "જાણીને વિશ્રામ લો કે જે કોઈ મુશ્કેલી આજ આવી તે અલ્લાહ તેની સાથે તમારી સાથે હતો.",
-  "dailyReflection15": "તમે આજ તમારા પરિવાર અથવા સમુદાય ને અલ્લાહ ના વતી શેવી રીતે સેવા આપી તે વિચાર કરો.",
-  "dailyReflection16": "જ્યારે રાત્રિ આવે, તવબાહ કરો—અલ્લાહ તે ભાલ કરે છે જેઓ તેમ તરફ ફરે છે.",
-  "dailyReflection17": "અલ્લાહ તમારા દિવસમાં મૂકેલી સુંદરતા પર વિચાર કરો, ભલે તે નાનું હોય.",
-  "dailyReflection18": "તમે આજ શું શીખ્યા તે પર વિચાર કરો અને તે તમને અલ્લાહ ની નજીક કેવી રીતે દોરે છે.",
-  "dailyReflection19": "દિવસના ચિંતા અલ્લાહ ને બાકી છોડો—તે રાખે છે જે તમે કરી શકતા નથી.",
-  "dailyReflection20": "એક ક્ષણ વિચાર કરો આજ જ્યાં તમે વધુ સારું બદલી શક્યા અને તે જીમ્મે શીખો.",
-  "dailyReflection21": "જેઓ સંઘર્ષ કર્યા છે તેમના માટે દુઆ કરો—તમારી પ્રાર્થના તેમને ભેટ છે.",
-  "dailyReflection22": "એક આશીર્વાદ યાદ કરો તમે વારંવાર છોડી દો છો અને અલ્લાહ ને તેના માટે આભાર આપો.",
-  "dailyReflection23": "તમારા અરાધના આજ પર વિચાર કરો—શું તેઓ અલ્લાહ માટે હતા? આવતે, શરૂઆત કરો.",
-  "dailyReflection24": "જ્યારે રાત શાંત થાય, અલ્લાહ ની નજીકતા સાંભળવાનો પ્રયાસ કરો નીરવતામાં.",
-  "dailyReflection25": "તમે આજ જ્યાં શક્તિ પાધર્યો તે પર વિચાર કરો—તે શક્તિ અલ્લાહ તરફથી છે.",
-  "dailyReflection26": "એક વસ્તુ નામ આપો તમે આવતે કરશો, અલ્લાહ ના વતી, જે તમે આજ કર્યું નહીં.",
-  "dailyReflection27": "જ્યારે તમે વિશ્રામ માટે તૈયારી કરો, તમારા આત્માને અલ્લાહ ને સોપો—તે સંરક્ષકોમાં શ્રેષ્ઠ છે.",
-
-  "dailyRoleModel0": "પયગંબર મુહમ્મદ ﷺ",
-  "dailyRoleModel1": "અબુ બક્ર અસ-સિદ્દીક (રા)",
-  "dailyRoleModel2": "ઉમર ઇબ્ન અલ-ખત્તાબ (રા)",
-  "dailyRoleModel3": "ઉથમાન ઇબ્ન અફ્ફાન (રા)",
-  "dailyRoleModel4": "અલી ઇબ્ન અબી તાલિબ (રા)",
-  "dailyRoleModel5": "ખાદીજાહ બિન્ત ખુવાયલીદ (રા)",
-  "dailyRoleModel6": "આઈશાહ બિન્ત અબી બક્ર (રા)",
-  "dailyRoleModel7": "ફાતિમાહ અજ-ઝાહરા (રા)",
-  "dailyRoleModel8": "બિલાલ ઇબ્ન રાબાહ (રા)",
-  "dailyRoleModel9": "સલમાન અલ-ફારસી (રા)",
-  "dailyRoleModel10": "અબુ હુરૈરાહ (રા)",
-  "dailyRoleModel11": "અબ્દુલ્લાહ ઇબ્ન અબ્બાસ (રા)",
-  "dailyRoleModel12": "અબ્દુલ્લાહ ઇબ્ન મસ્ઉદ (રા)",
-  "dailyRoleModel13": "મુઆધ ઇબ્ન જાબલ (રા)",
-  "dailyRoleModel14": "મુસાબ ઇબ્ન ઉમૈર (રા)",
-  "dailyRoleModel15": "સુમાય્યાહ બિન્ત ખબ્બાબ (રા)",
-  "dailyRoleModel16": "અમ્માર ઇબ્ન યાસીર (રા)",
-  "dailyRoleModel17": "ઉમ્મ સલમાહ (રા)",
-  "dailyRoleModel18": "ખાલીદ ઇબ્ન અલ-વાલીદ (રા)",
-  "dailyRoleModel19": "ઝૈદ ઇબ્ન થાબીત (રા)",
-  "dailyRoleModel20": "હફસાહ બિન્ત ઉમર (રા)",
-  "dailyRoleModel21": "ઉમર ઇબ્ન અબ્દ અલ-અઝીઝ (રહ)",
-  "dailyRoleModel22": "ઈમામ અબુ હનીફાહ (રહ)",
-  "dailyRoleModel23": "ઈમામ માલીક ઇબ્ન અનાસ (રહ)",
-  "dailyRoleModel24": "ઈમામ અલ-શાફિઈ (રહ)",
-  "dailyRoleModel25": "ઈમામ અહમદ ઇબ્ન હમ્બલ (રહ)",
-  "dailyRoleModel26": "ઈમામ અલ-બુખારી (રહ)",
-  "dailyRoleModel27": "ઈમામ મુસ્લિમ (રહ)",
-  "dailyRoleModel28": "ઈમામ અલ-તિર્મીધી (રહ)",
-  "dailyRoleModel29": "અલ-ગઝાલી (રહ)",
-  "dailyRoleModel30": "ઈબ્ન અલ-કય્યિમ અલ-જાવઝીય્યાહ (રહ)",
-  "dailyRoleModel31": "ઈબ્ન તૈમીય્યાહ (રહ)",
-  "dailyRoleModel32": "અલ-નવાવી (રહ)",
-  "dailyRoleModel33": "ઈબ્ન હજર અલ-અસકાલાની (રહ)",
-  "dailyRoleModel34": "ઈબ્ન કાથીર (રહ)",
-  "dailyRoleModel35": "અલ-તાબારી (રહ)",
-  "dailyRoleModel36": "સુફ્યાન અલ-થાવરી (રહ)",
-  "dailyRoleModel37": "ફખર અલ-દીન અલ-રાઝી (રહ)",
-  "dailyRoleModel38": "ઈબ્ન સીનાહ (રહ)",
-  "dailyRoleModel39": "અલ-બીરુની (રહ)",
-  "dailyRoleModel40": "ઈબ્ન રુશદ (રહ)",
-  "dailyRoleModel41": "ઈબ્ન ખલ્દુન (રહ)",
-  "dailyRoleModel42": "ઈબ્ન બત્તુતાહ (રહ)",
-  "dailyRoleModel43": "પયગંબર ઈબ્રાહીમ (આ)",
-  "dailyRoleModel44": "પયગંબર મુસાહ (આ)",
-  "dailyRoleModel45": "પયગંબર ઈસાહ (આ)",
-  "dailyRoleModel46": "પયગંબર યુસુફ (આ)",
-  "dailyRoleModel47": "પયગંબર દાઉદ (આ)",
-  "dailyRoleModel48": "પયગંબર સુલૈમાન (આ)",
-  "dailyRoleModel49": "પયગંબર નુહ (આ)",
-  "dailyRoleModel50": "પયગંબર યુનુસ (આ)",
-  "dailyRoleModel51": "પયગંબર આયુબ (આ)",
-  "dailyRoleModel52": "રુક્યાય્યાહ બિન્ત મુહમ્મદ (રા)",
-  "dailyRoleModel53": "ઝૈનાબ બિન્ત મુહમ્મદ (રા)",
-  "dailyRoleModel54": "હસન ઇબ્ન અલી (રા)",
-  "dailyRoleModel55": "હુસૈન ઇબ્ન અલી (રા)",
-  "dailyRoleModel56": "જાફર ઇબ્ન અબી તાલિબ (રા)",
-  "dailyRoleModel57": "અબુ ધરર અલ-ગિફારી (રા)",
-  "dailyRoleModel58": "તલહાહ ઇબ્ન ઉબૈદુલ્લાહ (રા)",
-  "dailyRoleModel59": "અજ-જુબૈર ઇબ્ન અલ-અવ્વામ (રા)",
-
-  "locationConsentLabel": "Ayara ને કીબલાહ દિશા અને નમાજની વખતો માટે મારો સ્થાન વપરાવવા દો",
-  "locationConsentHint": "માત્ર આ તક માટે વપરાય છે. તમારો સ્થાન ક્યારેય શેર કરવામાં આવતો નથી અથવા સંગ્રહ્યો નથી.",
-
+  "dailyGraceScriptureLabel": "આજની આયત",
+  "dailyGraceSaintLabel": "આ અઠવાડિયાના આલિમ",
+  "dailyGraceReflectionLabel": "સાંજનો મનનોવિચાર",
+  "dailyGraceCopiedToast": "આયત ક્લિપબોર્ડમાં કોપી થઈ",
+  "locationConsentLabel": "Qibla દિશા અને નમાઝ સમય માટે Ayara ને મારું સ્થાન વાપરવાની મંજૂરી આપો",
+  "locationConsentHint": "માત્ર આ સુવિધાઓ માટે જ વપરાય છે. તમારું સ્થાન ક્યારેય શેર કે સંગ્રહિત કરવામાં આવતું નથી.",
   "askPageTitle": "Ayara ને પૂછો",
-  "askPageDescription": "વિશ્વાસ, પ્રાર્થના, જીવન અથવા ઈસ્લામિક અભ્યાસ વિશે કુંઈ પણ પૂછો અને કુરાન અને સુન્નાહમાં આધારિત માર્ગદર્શન મેળવો.",
-  "askPageInputHint": "અહીં તમારો પ્રશ્ન લખો…",
+  "askPageDescription": "ઈમાન, નમાઝ, જીવન અથવા ઈસ્લામી અમલ વિશે કંઈ પણ પૂછો અને કુરઆન તથા અહલ અલ-બૈતની શિક્ષાઓ પર આધારિત માર્ગદર્શન મેળવો.",
+  "askPageInputHint": "તમારો પ્રશ્ન અહીં લખો…",
   "askPageSubmitCta": "પૂછો",
-  "askPageInputEmptyError": "કૃપયા પહેલાં એક પ્રશ્ન લખો.",
+  "askPageInputEmptyError": "કૃપા કરીને પહેલાં પ્રશ્ન લખો.",
   "askResultYourQuestion": "તમારો પ્રશ્ન",
-
-  "guidancePageTitle": "પ્રાર્થના અને માર્ગદર્શન",
-  "qiblaFacingMecca": "મક્કાનું મુખ",
-  "qiblaCompassInstruction": "તમારો ફોન ફેરવો જ્યાં સુધી સોનાનો સોય ઉપર તરફ ન હોય.\nતે દિશા કીબલાહ (મક્કાહ) તરફ દર્શાવે છે.",
-  "qiblaGpsUnavailableBody": "GPS સંકેત નબળો છે. બહાર ગયો અને ફરી કોશિશ કરો.",
-  "qiblaRetry": "ફરી કોશિશ કરો",
-  "qiblaTitle": "કીબલાહ દિશા",
-  "qiblaDistanceLabel": "મક્કાહ સુધી {km} કિમી",
+  "guidancePageTitle": "કિબલા",
+  "qiblaFacingMecca": "મક્કા તરફ",
+  "qiblaCompassInstruction": "સોનેરી સૂઈ ઉપર દિશામાં આવે ત્યાં સુધી તમારો ફોન ફેરવો.\nએ દિશા કિબલા (મક્કા) તરફ સૂચવે છે.",
+  "qiblaGpsUnavailableBody": "GPS સિગ્નલ નબળું છે. બહાર જાઓ અને ફરી પ્રયાસ કરો પર ટૅપ કરો.",
+  "qiblaRetry": "ફરી પ્રયાસ કરો",
+  "qiblaTitle": "કિબલાની દિશા",
+  "qiblaDistanceLabel": "મક્કા સુધી {km} કિ.મી.",
   "@qiblaDistanceLabel": {
-    "placeholders": { "km": { "type": "String" } }
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
   },
-  "qiblaLocationNeededTitle": "સ્થાન જરૂર છે",
-  "qiblaLocationNeededBody": "Ayara તમે જ્યાં છો તે જગ્યાથી કાબાનો દિશા ગણતરી કરવાની અનુમતિ આપો.",
+  "qiblaLocationNeededTitle": "સ્થાન જરૂરી છે",
+  "qiblaLocationNeededBody": "Ayara તમે જ્યાં હો ત્યાંથી મક્કામાં કાબાની દિશા ગણતરી કરી શકે તે માટે સ્થાનની મંજૂરી આપો.",
   "qiblaOpenSettings": "સેટિંગ્સ ખોલો",
-  "qiblaCompassLoading": "તમારો સ્થાન શોધી રહ્યા છીએ…",
-  "qiblaTowardMecca": "મક્કાહ તરફ",
-
-  "prayerTimesTitle": "નમાજની વખતો",
+  "qiblaCompassLoading": "તમારી સ્થિતિ શોધાઈ રહી છે…",
+  "qiblaTowardMecca": "મક્કા તરફ",
+  "prayerTimesTitle": "નમાઝના સમય",
   "prayerTimesFajr": "ફજર",
-  "prayerTimesDhuhr": "ધુહર",
+  "prayerTimesDhuhr": "ઝુહ્ર",
   "prayerTimesAsr": "અસર",
-  "prayerTimesMaghrib": "મઘરિબ",
-  "prayerTimesIsha": "ઈશાહ",
-  "prayerTimesLocationNeededTitle": "સ્થાન જરૂર છે",
-  "prayerTimesLocationNeededBody": "Ayara તમારા શહેરમાં સચોટ નમાજની વખતો ગણતરી કરવા માટે સ્થાન ધરાવવાની અનુમતિ આપો.",
-  "prayerTimesNextLabel": "આગલું",
-  "prayerTimesDoneLabel": "સમાપ્ત",
-
-  "monthlyPrayerTimesTitle": "માસિક નમાજની વખતો",
-  "monthlyPrayerTimesViewButton": "સંપૂર્ણ મહીના જુઓ",
-  "monthlyPrayerTimesNextMonth": "આવતો મહીનો",
+  "prayerTimesMaghrib": "મગરિબ",
+  "prayerTimesIsha": "ઈશા",
+  "prayerTimesLocationNeededTitle": "સ્થાન જરૂરી છે",
+  "prayerTimesLocationNeededBody": "Ayara તમારા શહેર માટે ચોક્કસ નમાઝ સમય ગણવી શકે તે માટે સ્થાનની મંજૂરી આપો.",
+  "prayerTimesNextLabel": "આગામી",
+  "prayerTimesDoneLabel": "પૂર્ણ",
+  "monthlyPrayerTimesTitle": "માસિક નમાઝ સમય",
+  "monthlyPrayerTimesViewButton": "આખો મહિનો જુઓ",
+  "monthlyPrayerTimesNextMonth": "આગળનો મહિનો",
   "monthlyPrayerTimesDayHeader": "દિવસ",
-
-  "sharePrayerTimes": "નમાજની વખતો શેર કરો",
-
-  "prayerNotificationsTitle": "નમાજની આગાહી",
-  "prayerNotificationsDescription": "દરેક નમાજ સમયે તમને સૌમ્ય આગાહી મેળવો જે તમને આખો દિવસ જોડાયેલ રાખવા સાહાય્ય કરે.",
-  "prayerNotificationsEnable": "નમાજની આગાહી સક્ષમ કરો",
-  "prayerNotificationsOpenSettings": "આગાહી સેટિંગ્સ ખોલો",
-  "prayerNotificationsDenied": "આગાહીઓ નિષ્ક્રિય છે",
-  "prayerNotificationsDeniedHint": "સેટિંગ્સમાં જાઓ અને Ayara માટે આગાહીઓ સક્ષમ કરીને નમાજ સમય આગાહીઓ મેળવો.",
-
-  "notificationsConsentLabel": "નમાજ સમયો માટે આગાહીઓની અનુમતિ આપો",
-
-  "prayerNotifTitleFajr": "🌅 ફજર—ભોર નમાજ",
-  "prayerNotifBodyFajr": "સૌથી સારી પ્રાર્થના ભોર નમાજ છે. ઉઠો, અપને શુદ્ધ કરો અને અલ્લાહ ના સામે ઊભા રહો.",
-
-  "prayerNotifTitleDhuhr": "☀️ ધુહર—મધ્યાહ્ન નમાજ",
-  "prayerNotifBodyDhuhr": "તમારો દિવસ થોભો અને અલ્લાહ તરફ ફરો. ધુહર નમાજ સમય આવી ગયો.",
-
-  "prayerNotifTitleAsr": "🌤️ અસર—બપોર નમાજ",
-  "prayerNotifBodyAsr": "મધ્ય નમાજ રક્ષણ કરો. અસર સમય આવી ગયો—તે પસાર કરશો નહીં.",
-
-  "prayerNotifTitleMaghrib": "🌇 મઘરિબ—સાંજે નમાજ",
-  "prayerNotifBodyMaghrib": "સૂર્ય ડૂબી ગયો. મઘરિબ આપો અને આ દિવસ માટે અલ્લાહ ને આભાર આપો.",
-
-  "prayerNotifTitleIsha": "🌙 ઈશાહ—રાત્રી નમાજ",
-  "prayerNotifBodyIsha": "અલ્લાહ ની યાદ સાથે તમારો દિવસ સમાપ્ત કરો. હય્યા આલાલ ફલાહ—સાફલ્ય તરફ આવો.",
-
-  "outOfReflectionsBannerText": "તમે તમારા બધા મનન વપરી દીધા",
+  "sharePrayerTimes": "નમાઝ સમય શેર કરો",
+  "notificationsSectionTitle": "સૂચનાઓ",
+  "notificationsSectionSubtitle": "નમાઝ રીમાઇન્ડર, કેલેન્ડર ઇવેન્ટ્સ અને વધુ",
+  "dailyReflectionReminderTitle": "દૈનિક મનનોવિચાર",
+  "dailyReflectionReminderDescription": "Ayara ખોલવા અને તમારા ઈમાન સાથે જોડાવા માટે નમ્ર દૈનિક રીમાઇન્ડર.",
+  "dailyReflectionReminderEnable": "દૈનિક રીમાઇન્ડર સક્રિય કરો",
+  "dailyReflectionReminderTimeLabel": "રીમાઇન્ડરનો સમય",
+  "prayerNotificationsTitle": "નમાઝ રીમાઇન્ડર",
+  "prayerNotificationsDescription": "દરેક નમાઝ પહેલાં નમ્ર રીમાઇન્ડર મેળવો જેથી તમે આખો દિવસ જોડાયેલા રહો.",
+  "prayerNotificationsEnable": "નમાઝ રીમાઇન્ડર સક્રિય કરો",
+  "prayerNotificationsOpenSettings": "સૂચના સેટિંગ્સ ખોલો",
+  "prayerNotificationsDenied": "સૂચનાઓ બંધ છે",
+  "prayerNotificationsDeniedHint": "નમાઝ સમયની સૂચનાઓ મેળવવા માટે સેટિંગ્સમાં જઈ Ayara માટે સૂચનાઓ મંજૂર કરો.",
+  "notificationsConsentLabel": "નમાઝ સમય માટે સૂચનાઓ મંજૂર કરો",
+  "prayerNotifTitleFajr": "🌅 ફજર — વહેલી સવારની નમાઝ",
+  "prayerNotifBodyFajr": "ફજર અહલ અલ-બૈતની સવારની નમાઝ છે. ઈમામ અલી (અ) એ કહ્યું: સવારની નમાઝનું રક્ષણ તું પોતાની સૌથી કિંમતી અમાનત જેવું કર. ઊઠ, પોતાને પવિત્ર કર અને અલ્લાહ સમક્ષ ઉભો રહેજે.",
+  "prayerNotifTitleDhuhr": "☀️ ઝુહ્ર — બપોરની નમાઝ",
+  "prayerNotifBodyDhuhr": "અહલ અલ-બૈતના ઈમામો ઝિક્રના દરેક ક્ષણને મૂલ્યવાન માનતા. તમારો દિવસ થોડીવાર રોકો, જરૂર હોય તો ઝુહ્ર અને અસરને એક કરો અને તમારું દિલ ફરી અલ્લાહ તરફ વાળો.",
+  "prayerNotifTitleAsr": "🌤️ અસર — બપોર પછીની નમાઝ",
+  "prayerNotifBodyAsr": "નમાઝનું રક્ષણ કર, કેમ કે તે તારા અને અલ્લાહ વચ્ચેનો અહદ છે. અસરનો સમય આવી ગયો છે — તેને સ્મરણ વિના પસાર થવા ન દે.",
+  "prayerNotifTitleMaghrib": "🌇 મગરિબ — સૂર્યાસ્તની નમાઝ",
+  "prayerNotifBodyMaghrib": "સૂર્ય અસ્ત થયો — આ એક એવો ક્ષણ છે જેને અહલ અલ-બૈત દુઆ માટે પવિત્ર માનતા. મગરિબની નમાઝ અદા કર અને રાત શરૂ થાય તે પહેલાં અલ્લાહ સમક્ષ દુઆ માટે હાથ ઉઠાવ.",
+  "prayerNotifTitleIsha": "🌙 ઈશા — રાત્રિની નમાઝ",
+  "prayerNotifBodyIsha": "તમારો દિવસ અલ્લાહની નજીકતા સાથે પૂર્ણ કરો. ઈમામોએ ઈશા પછી સલાત અલ-લૈલ માટે પ્રોત્સાહિત કર્યું — પણ પહેલાં તમારી ઈશા પૂર્ણ કરો અને દિવસને તેના સ્મરણથી સમાપ્ત કરો.",
+  "outOfReflectionsBannerText": "તમે તમારા બધા મનનોવિચાર વાપરી લીધા છે",
   "outOfReflectionsBannerCta": "વધુ મેળવો",
-
-  "dhikrPageTitle": "જિક્ર",
-  "dhikrTapToCount": "ગણતરી કરવા માટે વર્તુળમાં ટ્યાપ કરો",
-  "dhikrResetButton": "ફરી સેટ કરો",
-  "dhikrComplete": "માશાલ્લાહ",
-  "dhikrCompleteMessage": "તમે અલ્લાહનું 99 યાદ સમાપ્ત કર્યું. તેઓ તમારા હૃદય માટે એક પ્રકાશ હોમ.",
-
-  "disclaimerTitle": "આ એપ્લીકેશનનું માર્ગદર્શન વિશે",
-  "disclaimerBody": "Ayara ઈસ્લામિક મનન, આગાહી અને આધ્યાત્મિક સામગ્રી આપે છે તમારી વ્યક્તિગત વિશ્વાસ યાત્રાને સમર્થન કરવા માટે. આ સામગ્રી સામાન્ય માહિતીપૂર્ણ અને પ્રેરણાદાયક હેતુ માટે જ આપવામાં આવે છે.\n\nAyara શિક્ષાવેતાના સ્થાનમાં નથી.\nઆ એપ્લીકેશનમાં માર્ગદર્શન શીખેલ ઈસ્લામિક વિદ્વાન, ઈમામ, મુફતી અથવા ધર્મશાસ્ત્રીય રીતે તાલીમપ્રાપ્ત શિક્ષક માટે અવેજ નથી. જો તમને ધર્મીય પુરસ્કાર, હલાલ અને હારામ બાબત અથવા વ્યક્તિગત ધર્મીય દાયિત્વો વિશે પ્રશ્નો છે, તો કૃપયા તમારા સમુદાયમાં શીખેલ ધર્મીય સત્તાધીશની સલાહ લો.\n\nઆ એપ્લીકેશન ધર્મીય ફેતવા આપતું નથી.\nAyara ફીકાહ (ઈસ્લામિક કાનૂન) અથવા વ્યક્તિગત ધર્મીય દાયિત્વો પર સત્તાધીશ નિર્ણય આપતું નથી. અહીં કંઈ પણ ફતવા અથવા બંધનકર્તા ધર્મીય આદેશ તરીકે ગણવો ન જોઈએ.\n\nવિદ્વતાપૂર્ણ અર્થઘટન અલગ અલગ છે.\nઈસ્લામ ધર્મીય પરંપરા, તર્ક શાળાઓ (મધહબ) અને શીખેલ અર્થોની સમૃદ્ધ વૈવિધ્ય સમાવે છે. આ એપ્લીકેશનમાં સામગ્રી સામાન્ય દૃષ્ટિકોણ પ્રતિબિંબિત કરે છે અને દરેક પરંપરા અથવા શાળાને સમાન રીતે પ્રતિનિધિત્વ કરી શકે નહીં.\n\nસમુદાય મહત્વપૂર્ણ છે.\nઆ એપ્લીકેશન તમારા વિશ્વાસ પરંપરા સાથે જોડાણને પ્રોત્સાહિત કરવાનો લક્ષ્ય રાખે છે જ્યારે તમારાં સ્થાનીય મસ્જિદ, ઈમામ અને ધર્મીય સમુદાયનું મહત્વપૂર્ણ ભૂમિકા ઊંડા રીતે સન્માન કરે છે. આપણે તમને તમારી આસપાસ શીખેલ શિક્ષકોને સાથે જોડાણ રાખવા અને શીખવા માટે પ્રોત્સાહિત કરીએ છીએ.",
-  "disclaimerClose": "હું સમજી ગયો",
-  "disclaimerInfoTooltip": "આ એપ્લીકેશનનું માર્ગદર્શન વિશે",
-  "disclaimerSettingsSubtitle": "સામાન્ય માહિતીપૂર્ણ હેતુ માટે. સંપૂર્ણ ને ફતવા માટે ટ્યાપ કરો.",
-  "disclaimerSectionHeader": "માર્ગદર્શન નિષ્ક્રિયતા"
+  "dhikrPageTitle": "ઝિક્ર",
+  "dhikrTapToCount": "ગણવા માટે વર્તુળ પર ટૅપ કરો",
+  "dhikrResetButton": "રીસેટ કરો",
+  "dhikrComplete": "માશા'અલ્લાહ",
+  "dhikrCompleteMessage": "તમે અલ્લાહના 100 સ્મરણ પૂર્ણ કર્યા. તે તમારા દિલ માટે નૂર બને.",
+  "disclaimerTitle": "આ એપના માર્ગદર્શન વિશે",
+  "disclaimerBody": "Ayara કુરઆન અને અહલ અલ-બૈતની શિક્ષાઓમાં મૂળ ધરાવતું ઇસ્લામી મનન, યાદ અપાવો અને આધ્યાત્મિક સામગ્રી પ્રદાન કરે છે, જેથી તમારી વ્યક્તિગત ઈમાનની યાત્રામાં સહાય મળે. આ સામગ્રી માત્ર સામાન્ય માહિતી અને પ્રેરણાત્મક હેતુઓ માટે આપવામાં આવે છે.\n\nAyara લાયક ઇસ્લામી વિદ્વત્તાનો વિકલ્પ નથી.\nઆ એપમાં આપવામાં આવતું માર્ગદર્શન લાયક ઇસ્લામી વિદ્વાન, મરજા' અથવા ધર્મશાસ્ત્રીય રીતે પ્રશિક્ષિત શિક્ષકનો વિકલ્પ નથી. શિયા ઇસ્લામમાં, ધાર્મિક માર્ગદર્શન જાફરી ફિક્હ પરંપરા અને જીવંત મરજા' (અનુકરણનો સ્ત્રોત)નું અનુસરણ કરવાની પરંપરામાં આધારિત છે — એક લાયક ફકીહ, જેના નિર્ણયો વિશ્વાસીઓને ધાર્મિક જીવનમાં માર્ગદર્શન આપે છે. જો તમને ધાર્મિક હુકમો, હલાલ-હરામના મુદ્દાઓ અથવા વ્યક્તિગત ધાર્મિક ફરજો અંગે પ્રશ્નો હોય, તો કૃપા કરીને કોઈ લાયક મરજા' અથવા તમારા સમાજના વિદ્વાનનો સંપર્ક કરો.\n\nઆ એપ ધાર્મિક હુકમો જારી કરતી નથી.\nAyara ફિક્હ અથવા વ્યક્તિગત ધાર્મિક ફરજો સંબંધિત બાબતોમાં અધિકૃત નિર્ણય આપતું નથી. અહીંની કોઈ વસ્તુને ફતવો અથવા બાધ્ય ધાર્મિક માર્ગદર્શન તરીકે ન માનવી જોઈએ.\n\nઅહલ અલ-બૈતનું કેન્દ્રસ્થાન.\nશિયા ઇસ્લામમાં, પયગંબર મુહંમદ ﷺ અને તેમનું પવિત્ર કુટુંબ — અહલ અલ-બૈત — કુરઆન પછી ઇસ્લામી સમુદાયના અધિકૃત માર્ગદર્શક છે. અહલ અલ-બૈતના બાર ઈમામો ઇસ્લામી શિક્ષણના દિવ્ય નિયુક્ત વ્યાખ્યાકાર છે. આ એપનું સામગ્રી આ પરંપરાને પ્રતિબિંબિત કરે છે અને તેને નિષ્ઠાપૂર્વક સન્માન આપવા પ્રયત્ન કરે છે.\n\nસમુદાય સંબંધિત બાબતો.\nઆ એપ તમારા ઈમાન સાથેના જોડાણને પ્રોત્સાહિત કરવાનો પ્રયત્ન કરે છે, સાથે સાથે તમારી સ્થાનિક મસ્જિદ, ઇસ્લામી કેન્દ્ર અને ધાર્મિક સમુદાયની અગત્યની ભૂમિકાનો ઊંડો સન્માન પણ રાખે છે. અમે તમને નજીકના લાયક શિક્ષકો સાથે જોડાયેલા રહેવા અને તેમની પાસેથી શીખવા પ્રોત્સાહિત કરીએ છીએ.",
+  "disclaimerClose": "હું સમજું છું",
+  "disclaimerInfoTooltip": "આ એપના માર્ગદર્શન વિશે",
+  "disclaimerSettingsSubtitle": "માત્ર સામાન્ય માહિતી માટે. સંપૂર્ણ અસ્પષ્ટીકરણ વાંચવા માટે ટૅપ કરો.",
+  "disclaimerSectionHeader": "માર્ગદર્શન સંબંધિત અસ્પષ્ટીકરણ",
+  "navHome": "હોમ",
+  "navReflect": "મનન",
+  "navDuas": "દુઆઓ",
+  "navCalendar": "કેલેન્ડર",
+  "dashboardToday": "આજે",
+  "dashboardComingUp": "આગળ આવનાર",
+  "dashboardDaysUnit": "{count, plural, one {દિવસ} other {દિવસો}}",
+  "@dashboardDaysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardQuickAccess": "ઝડપી પ્રવેશ",
+  "quickActionQibla": "કિબલા",
+  "quickActionDhikr": "ઝિક્ર",
+  "quickActionDailyGrace": "માર્ગદર્શન",
+  "quickActionPrayerTimes": "નમાઝના સમય",
+  "askAyaraTitle": "Ayara ને પૂછો",
+  "askAyaraSubtitle": "કોઈ પણ ઇસ્લામી પ્રશ્ન પૂછો અને વિચારસભર, માર્ગદર્શિત જવાબ મેળવો.",
+  "askAyaraHint": "દા.ત. રમઝાનનું મહત્વ શું છે?",
+  "askAyaraSubmit": "પૂછો",
+  "wisdomOfTheDayTitle": "આજની હિકમત",
+  "calendarScreenTitle": "ઇસ્લામી કેલેન્ડર",
+  "calendarUpcomingOccasions": "આવનારી પ્રસંગો",
+  "calendarOccasionRemindersTitle": "પ્રસંગ રીમાઇન્ડર્સ",
+  "calendarOccasionRemindersHint": "દરેક પ્રસંગના પહેલાના સાંજે સૂચના મોકલાશે",
+  "calendarNotifPermissionDenied": "સૂચના પરવાનગી નકારવામાં આવી. કૃપા કરીને તેને તમારા ઉપકરણની સેટિંગ્સમાં સક્રિય કરો.",
+  "calendarNoEvents": "કોઈ આવનારા પ્રસંગો મળ્યા નથી.",
+  "calendarAddToPhone": "ફોન કેલેન્ડરમાં ઉમેરો",
+  "calendarAddedToPhone": "કેલેન્ડરમાં ઉમેરાયું",
+  "calendarCountdownToday": "આજે",
+  "calendarCountdownTomorrow": "કાલે",
+  "calendarCountdownDays": "{days} દિવસમાં",
+  "@calendarCountdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarAH": "AH",
+  "calendarMonthJan": "જાન્યુ.",
+  "calendarMonthFeb": "ફેબ્રુ.",
+  "calendarMonthMar": "માર્ચ",
+  "calendarMonthApr": "એપ્રિલ",
+  "calendarMonthMay": "મે",
+  "calendarMonthJun": "જૂન",
+  "calendarMonthJul": "જુલાઈ",
+  "calendarMonthAug": "ઓગસ્ટ",
+  "calendarMonthSep": "સપ્ટે.",
+  "calendarMonthOct": "ઓક્ટો.",
+  "calendarMonthNov": "નવે.",
+  "calendarMonthDec": "ડિસે.",
+  "calendarSeasonMuharramEarly": "મુહર્રમના દિવસો — કરબલાને યાદ કરો",
+  "calendarSeasonAshura": "આશૂરા — યા હુસૈન (અ)",
+  "calendarSeasonMuharramLate": "મુહર્રમ — શોક અને મનનના દિવસો",
+  "calendarSeasonArbaeen": "અરબઈન — હુસૈનના ચાલીસ દિવસ",
+  "calendarSeasonRoadToArbaeen": "અરબઈન તરફનો રસ્તો",
+  "calendarSeasonMabath": "માબઅથ મુબારક — વહીની ભોર",
+  "calendarSeasonMidShaban": "શાબાનની મધ્ય રાત — ઈમામ અલ-મહદી (અજ) નો જન્મદિવસ",
+  "calendarSeasonRamadan": "રમઝાન મુબારક — કુરઆનનો મહિનો",
+  "calendarSeasonGhadir": "ઇદ અલ-ગદીર મુબારક!",
+  "hijriMonth1": "મુહર્રમ",
+  "hijriMonth2": "સફર",
+  "hijriMonth3": "રબી અલ-અવ્વલ",
+  "hijriMonth4": "રબી અલ-થાની",
+  "hijriMonth5": "જુમાદા અલ-અવ્વલ",
+  "hijriMonth6": "જુમાદા અલ-થાની",
+  "hijriMonth7": "રજબ",
+  "hijriMonth8": "શાબાન",
+  "hijriMonth9": "રમઝાન",
+  "hijriMonth10": "શવ્વાલ",
+  "hijriMonth11": "ઝુલ કિ'દા",
+  "hijriMonth12": "ઝુલ હિજ્જા",
+  "duasScreenTitle": "દુઆઓ અને ઝિયારત",
+  "duasSearchHint": "દુઆ, ઝિયારત શોધો…",
+  "duasFilterAll": "બધું",
+  "duasCount": "{count, plural, one {{count} દુઆ} other {{count} દુઆઓ અને ઝિયારત}}",
+  "@duasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duasEmpty": "કોઈ દુઆ મળી નથી.",
+  "duaCategoryDaily": "દૈનિક",
+  "duaCategoryWeekly": "સાપ્તાહિક",
+  "duaCategoryOccasions": "પ્રસંગો",
+  "duaCategoryZiyarat": "ઝિયારત",
+  "duaCategoryTasbih": "તસ્બીહ",
+  "eventTypeBirth": "જન્મ",
+  "eventTypeMartyrdom": "શહાદત",
+  "eventTypeOccasion": "પ્રસંગ",
+  "duaCopyTooltip": "અનુવાદ કૉપી કરો",
+  "duaToggleTransliteration": "ઉચ્ચારરૂપ",
+  "duaToggleTranslation": "અનુવાદ",
+  "duaAskAiLabel": "આ દુઆ સમજાવવા Ayara ને પૂછો",
+  "duaAskAiLockedLabel": "Ayara ને પૂછો (Wilaya)",
+  "duaAiLockedMessage": "Ayara ની સમજણીઓ માત્ર Wilaya સભ્યો માટે ઉપલબ્ધ છે. સેટિંગ્સમાં અપગ્રેડ કરો.",
+  "duaAiComingSoon": "\"{name}\" વિશે Ayara ને પૂછો — જલ્દી આવી રહ્યું છે!",
+  "@duaAiComingSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "duaCopiedToast": "દુઆ ક્લિપબોર્ડમાં કોપી થઈ.",
+  "tasbihAllahuAkbarMeaning": "અલ્લાહ સર્વાથી મહાન છે",
+  "tasbihAlhamdulillahMeaning": "બધી પ્રશંસા અલ્લાહ માટે છે",
+  "tasbihSubhanallahMeaning": "અલ્લાહ પવિત્ર છે",
+  "tasbihResetTooltip": "રીસેટ કરો",
+  "tasbihCompleteTitle": "તસ્બીહ પૂર્ણ થયું",
+  "tasbihCompleteMessage": "અલ્લાહ તમારો ઝિક્ર સ્વીકારી લે.",
+  "tasbihTapHint": "ગણવા માટે ક્યાંય પણ ટૅપ કરો",
+  "tasbihatScreenTitle": "નમાઝ માર્ગદર્શિકા",
+  "tasbihatScreenSubtitle": "નમાઝના તસ્બીહાત",
+  "tasbihatScreenDescription": "દૈનિક નમાઝ દરમિયાન અને પછી વાંચાતા તસ્બીહોના સંપૂર્ણ માર્ગદર્શન — અહલ અલ-બૈત (અ) ની પરંપરા અનુસાર.",
+  "tasbihatArba3Title": "તસ્બીહાત અલ-અર્બઆ",
+  "tasbihatArba3Subtitle": "ત્રીજી અને ચોથી રકઅતમાં વાંચાય છે",
+  "tasbihatArba3Info": "શિયા ફિક્હમાં, તસ્બીહાત અલ-અર્બઆ ઝુહ્ર, અસર, મગરિબ અને ઈશાની ત્રીજી અને ચોથી રકઅતમાં સુરહ ફાતિહાની જગ્યાએ વાંચાય છે. તેને એક વખત વાંચવું વાજિબ છે અને ત્રણ વખત વાંચવું મુસ્તહબ છે.",
+  "tasbihatArba3Translation": "અલ્લાહ પવિત્ર છે · બધી પ્રશંસા અલ્લાહ માટે છે\nઅલ્લાહ સિવાય કોઈ ઈલાહ નથી · અલ્લાહ સર્વાથી મહાન છે",
+  "tasbihatArba3CompleteTitle": "પાઠ પૂર્ણ થયો",
+  "tasbihatArba3CompleteMessage": "અલ્લાહ તમારી નમાઝ સ્વીકાર કરે — આમીન",
+  "tasbihatArba3TapHint": "દરેક પાઠ પછી ટૅપ કરો",
+  "tasbihatZahraSubtitle": "દરેક નમાઝ પછી · 100 દાણા",
+  "tasbihatZahraOriginLabel": "ઉદ્ભવ",
+  "tasbihatZahraHadith": "હઝરત ફાતિમા અલ-ઝહરા (સ.અ.) એ નબી ﷺ પાસે એક સેવક માગ્યો. તેમણે કહ્યું: \"શું હું તને એથી સારું ન કહું? દરેક નમાઝ પછી 33 વખત સુભાનલ્લાહ, 33 વખત અલહમ્દુલિલ્લાહ અને 34 વખત અલ્લાહુ અકબર કહેજે. આ તારા માટે સેવક કરતાં વધુ સારું છે.\"",
+  "tasbihatZahraHadithSource": "— બિહાર અલ-અનવાર, જિલ્દ 85",
+  "tasbihatZahraOpenCounter": "તસ્બીહ કાઉન્ટર ખોલો",
+  "tasbihatDuasTitle": "ભલામણ કરેલી દુઆઓ",
+  "tasbihatDuasSubtitle": "નમાઝ પૂર્ણ કર્યા પછી",
+  "tasbihatDuaAyatKursiTitle": "આયતુલ કુરસી",
+  "tasbihatDuaAyatKursiWhen": "દરેક ફરજીયાત નમાઝ પછી",
+  "tasbihatDuaAyatKursiSource": "સૂરા અલ-બકરા 2:255",
+  "tasbihatDuaAyatKursiNote": "જે કોઈ દરેક ફરજીયાત નમાઝ પછી આયતુલ કુરસી વાંચે, તેના અને જન્નત વચ્ચે મૃત્યુ સિવાય કંઈ જ રહેતું નથી. ઈમામ બાકિર (અ) એ કહ્યું કે આ કુરઆનની સૌથી મહાન આયતોમાંથી એક છે.",
+  "tasbihatDuaSalawatTitle": "સલાવાત",
+  "tasbihatDuaSalawatWhen": "દરેક નમાઝ પછી · દરેક દુઆને પૂર્ણતા આપે છે",
+  "tasbihatDuaSalawatSource": "ઈમામ અલ-સાદિક (અ) — અલ-કાફી",
+  "tasbihatDuaSalawatNote": "પયગંબર ﷺ અને તેમના પવિત્ર કુટુંબ (આલે મુહંમદ) પર સલાવાત મોકલવી દરેક દુઆને પૂર્ણ કરવા માટે ભલામણ કરાયેલી છે. ઈમામ અલ-સાદિક (અ) એ કહ્યું: \"મુહંમદ અને તેમના કુટુંબ પર સલાવાત મોકલ્યા વગર કોઈ દુઆ સ્વીકાર માટે ઊંચી નથી ઉઠતી.\"",
+  "tasbihatDuaFarajTitle": "દુઆ અલ-ફરજ",
+  "tasbihatDuaFarajWhen": "દરેક નમાઝ પછી · આપણા સમયના ઈમામ માટે",
+  "tasbihatDuaFarajSource": "ઈમામ હસન અલ-અસ્કરી (અ) દ્વારા શીખવાયેલી",
+  "tasbihatDuaFarajNote": "બારમા ઈમામ, ઈમામ અલ-મહદી (અ.ફ.) ના પ્રગટ થવા માટેની આ દુઆ તેમના પિતા દ્વારા શીખવવામાં આવી. શિયા વિશ્વાસીઓ તેને દરરોજ દરેક નમાઝ પછી જીવતા ઈમામ પ્રત્યેની ભક્તિ તરીકે વાંચે છે.",
+  "tasbihatDuaTasbihFatimaTitle": "હઝરત ફાતિમાની તસ્બીહ",
+  "tasbihatDuaTasbihFatimaWhen": "મગરિબ અને ઈશા પછી · ખાસ ભલામણ કરાયેલી",
+  "tasbihatDuaTasbihFatimaSource": "ઈમામ અલ-બાકિર (અ) — બિહાર અલ-અનવાર",
+  "tasbihatDuaTasbihFatimaNote": "ઈમામ અલ-બાકિર (અ) એ કહ્યું કે ઈશા પછી ઊંઘતા પહેલાં તસ્બીહ અલ-ઝહરા વાંચવી 1000 નફલ રકઅતોથી પણ શ્રેષ્ઠ છે. તેનું નૂર આકાશ સુધી પહોંચે છે.",
+  "tasbihFatimaGiftPre": "નબી તરફથી ભેટ",
+  "tasbihFatimaGiftPost": "દરેક નમાઝ પછી વાંચાય છે",
+  "prayerTrackerTitle": "નમાઝ ટ્રૅકર",
+  "prayerTrackerPrayed": "અદા થઈ",
+  "prayerTrackerDayStreak": "{count} દિવસની સતત શ્રેણી",
+  "@prayerTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerTrackerAllComplete": "આજની બધી નમાઝો પૂર્ણ થઈ. અલ્લાહ સ્વીકાર કરે.",
+  "dhikrTrackerTitle": "તસ્બીહ અલ-ઝહરા",
+  "dhikrTrackerCompletedToday": "આજે પૂર્ણ થયું",
+  "dhikrTrackerNotDoneToday": "આજે થયું નથી",
+  "dhikrTrackerDayStreak": "{count} દિવસની સતત શ્રેણી",
+  "@dhikrTrackerDayStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhikrReminderTitle": "તસ્બીહ રીમાઇન્ડર",
+  "dhikrReminderDescription": "તમારી તસ્બીહ અલ-ઝહરા (સ.અ.) વાંચવા માટે નમ્ર દૈનિક યાદ અપાવવું.",
+  "dhikrReminderEnable": "તસ્બીહ રીમાઇન્ડર સક્રિય કરો",
+  "dhikrReminderTimeLabel": "રીમાઇન્ડરનો સમય",
+  "prayerTrackerProgress": "{done} / {total}",
+  "@prayerTrackerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hadithScreenTitle": "દૈનિક હદીસ",
+  "hadithLabelArabic": "અરબી",
+  "hadithLabelTranslation": "અનુવાદ",
+  "hadithBadge": "હદીસ",
+  "hadithShare": "આ હદીસ શેર કરો",
+  "hadithShareText": "\"{text}\"\n\n— {imam}\n{source}\n\nAyara દ્વારા",
+  "@hadithShareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "imam": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "hadithNavPrevious": "પહેલાની",
+  "hadithNavNext": "આગામી",
+  "hadithCounter": "{current} / {total}",
+  "@hadithCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imamsScreenTitle": "14 માસૂમીન",
+  "imamsScreenSubtitle": "પયગંબર, હઝરત ફાતિમા અને બાર ઈમામ — ઇસ્લામના નિર્દોષ માર્ગદર્શકો",
+  "imamLabelBorn": "જન્મ",
+  "imamLabelMartyrdom": "શહાદત",
+  "imamLabelStatus": "સ્થાન",
+  "imamSectionBiography": "જીવનચરિત્ર",
+  "imamSectionFamousSaying": "પ્રખ્યાત વાક્ય",
+  "imamRoleProphet": "છેલ્લા પયગંબર",
+  "imamRoleInfallible": "માસૂમ",
+  "imamOrdinal1": "1લા ઈમામ",
+  "imamOrdinal2": "2રા ઈમામ",
+  "imamOrdinal3": "3રા ઈમામ",
+  "imamOrdinal4": "4થા ઈમામ",
+  "imamOrdinal5": "5મા ઈમામ",
+  "imamOrdinal6": "6ઠ્ઠા ઈમામ",
+  "imamOrdinal7": "7મા ઈમામ",
+  "imamOrdinal8": "8મા ઈમામ",
+  "imamOrdinal9": "9મા ઈમામ",
+  "imamOrdinal10": "10મા ઈમામ",
+  "imamOrdinal11": "11મા ઈમામ",
+  "imamOrdinal12": "12મા ઈમામ",
+  "duaAudioScreenTitle": "દુઆઓ સાંભળો",
+  "duaAudioScreenSubtitle": "સાંભળવા માટે એક દુઆ પસંદ કરો. વગાડવા અથવા રોકવા માટે ટાઇલ પર ટૅપ કરો.",
+  "duaAudioComingSoonMessage": "આ દુઆ માટેનું ઓડિયો આગામી અપડેટમાં ઉપલબ્ધ થશે.",
+  "duaAudioClose": "બંધ કરો",
+  "duaAudioError": "ઓડિયો લોડ થઈ શક્યું નથી. કૃપા કરીને તમારું કનેક્શન તપાસો.",
+  "duaAudioMetaTransmittedBy": "વર્ણન કરનાર",
+  "duaAudioMetaOccasion": "પ્રસંગ",
+  "duaAudioMetaDuration": "સમયગાળો",
+  "quickActionDailyHadith": "દૈનિક હદીસ",
+  "quickAction14Masumeen": "14 માસૂમીન",
+  "quickActionListenDuas": "સાંભળો",
+  "quickActionTasbihat": "નમાઝ માર્ગદર્શિકા",
+  "pilgrimageSectionTitle": "પવિત્ર યાત્રા",
+  "pilgrimageSectionSubtitle": "હજ અને ઉમરાહ માટે સંપૂર્ણ માર્ગદર્શિકા — મક્કામાં અલ્લાહના પવિત્ર ઘર તરફની યાત્રા",
+  "hajjCardTitle": "હજ",
+  "hajjCardSubtitle": "ઇસ્લામનો પાંચમો સ્તંભ",
+  "hajjCardDescription": "મહાન વાર્ષિક યાત્રા — દરેક સક્ષમ મુસ્લિમ માટે જીવનમાં એક વાર ફરજિયાત",
+  "hajjScreenTitle": "હજ માર્ગદર્શિકા",
+  "hajjScreenSubtitle": "મહાન યાત્રા માટે પગલું-દર-પગલું માર્ગદર્શન",
+  "umrahCardTitle": "ઉમરાહ",
+  "umrahCardSubtitle": "નાની યાત્રા",
+  "umrahCardDescription": "વર્ષના કોઈપણ સમયે કરી શકાય તેવી ઊંડો આધ્યાત્મિક પુરસ્કાર આપતી યાત્રા",
+  "umrahScreenTitle": "ઉમરાહ માર્ગદર્શિકા",
+  "umrahScreenSubtitle": "નાની યાત્રા માટે પગલું-દર-પગલું માર્ગદર્શન",
+  "pilgrimageStepsTitle": "વિધિઓ અને પગલાં",
+  "pilgrimageImportantNotesTitle": "મહત્વપૂર્ણ નોંધો",
+  "pilgrimageDuaTitle": "આ પગલાં માટે દુઆ",
+  "pilgrimageJafariNoteTitle": "જાફરી ફિક્હ નોંધ",
+  "pilgrimageComplete": "✓ પૂર્ણ",
+  "pilgrimageMarkDone": "પૂર્ણ તરીકે માર્ક કરો",
+  "pilgrimageProgress": "{done} માંથી {total} પગલાં",
+  "pilgrimageReadTime": "~{minutes} મિનિટ",
+  "pilgrimageShiaNoteTitle": "શિયા યાત્રાળુઓ",
+  "pilgrimageShiaNoteBody": "શિયા યાત્રાળુઓ પરંપરાગત રીતે મદીનામાં મસ્જિદ અલ-નબવી ખાતે પયગંબર મુહંમદ (સ) ની કબર અને જન્નતુલ બકીમાં ઈમામોની કબરોની પણ મુલાકાત લે છે. આ મુલાકાતો ખૂબ આધ્યાત્મિક મહત્વ ધરાવે છે અને મોટાભાગના શિયા મુસ્લિમો માટે યાત્રાનો અગત્યનો ભાગ માનવામાં આવે છે.",
+  "hajjIntro": "હજ ઇસ્લામનો પાંચમો સ્તંભ છે અને જે મુસ્લિમ શારીરિક અને આર્થિક રીતે સક્ષમ હોય તેના માટે જીવનમાં એક વાર ફરજિયાત છે. તે ઝુલ હિજ્જાના મહિને થાય છે અને પયગંબર ઇબ્રાહિમ (અ), તેમના પુત્ર ઇસ્માઇલ (અ) અને હઝરત હાજરાના પગલાંનું અનુસરણ કરે છે. શિયા મુસ્લિમો માટે હજમાં મદીનામાં પયગંબર (સ) અને અહલુલ બૈતના આરામસ્થાનોની મુલાકાત લેવાનું મહાન આધ્યાત્મિક સૌભાગ્ય પણ સામેલ છે.",
+  "umrahIntro": "ઉમરાહ મક્કાની નાની યાત્રા છે અને હજથી વિપરીત વર્ષના કોઈપણ સમયે કરી શકાય છે. ભલે તે ફરજિયાત નથી, પરંતુ તેમાં બહુ મોટું આધ્યાત્મિક પુરસ્કાર છે અને ખૂબ ભલામણ કરાયેલ ઈબાદત માનવામાં આવે છે. તેમાં હજ જેવી કેટલીક રીતો છે, પરંતુ તે વધુ ટૂંકી છે અને ચાર મુખ્ય વિધિઓથી બનેલી છે."
 }
