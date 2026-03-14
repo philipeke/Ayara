@@ -9,7 +9,22 @@ class CategoryFooter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
+    final screenHeight = MediaQuery.of(context).size.height;
+
+    // Scale down aggressively on small screens so the category grid stays visible.
+    final bool isXS = screenHeight < 640;
+    final bool isSmall = screenHeight < 720;
+
+    final double titleFont = isXS ? 22.0 : (isSmall ? 26.0 : 36.0);
+    final double subtitleFont = isXS ? 12.0 : (isSmall ? 13.0 : 16.0);
+    final double iconSize = isXS ? 18.0 : (isSmall ? 20.0 : 26.0);
+    final EdgeInsets contentPadding = isXS
+        ? const EdgeInsets.fromLTRB(20, 4, 20, 6)
+        : isSmall
+            ? const EdgeInsets.fromLTRB(20, 6, 20, 10)
+            : const EdgeInsets.fromLTRB(20, 10, 20, 18);
+    final double gapBetween = isXS ? 4.0 : (isSmall ? 6.0 : 10.0);
 
     return Stack(
       clipBehavior: Clip.none,
@@ -39,7 +54,7 @@ class CategoryFooter extends StatelessWidget {
 
         // Content
         Padding(
-          padding: const EdgeInsets.fromLTRB(20, 10, 20, 18),
+          padding: contentPadding,
           child: Column(
             children: [
               Text(
@@ -49,11 +64,11 @@ class CategoryFooter extends StatelessWidget {
                   color: AppColors.islamic,
                   fontWeight: FontWeight.w800,
                   letterSpacing: -0.9,
-                  fontSize: 36,
+                  fontSize: titleFont,
                   height: 1.1,
                 ),
               ),
-              const SizedBox(height: 10),
+              SizedBox(height: gapBetween),
               Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
@@ -63,7 +78,7 @@ class CategoryFooter extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: theme.textTheme.bodyMedium?.copyWith(
                       color: AppColors.textSecondary,
-                      fontSize: 16,
+                      fontSize: subtitleFont,
                       height: 1.65,
                       fontWeight: FontWeight.w400,
                     ),
@@ -76,7 +91,7 @@ class CategoryFooter extends StatelessWidget {
                         child: Icon(
                           Icons.nightlight_round,
                           color: AppColors.gold,
-                          size: 26,
+                          size: iconSize,
                         ),
                       ),
                     ),

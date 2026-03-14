@@ -224,14 +224,14 @@ const List<_DuaAudioEntry> _duaAudioLibrary = [
     id: 'tawassul',
     nameEn: 'Dua Tawassul',
     nameAr: 'دعاء التوسل',
-    imam: 'Transmitted through the Ahlul Bayt',
+    imam: 'Transmitted through the Ahl al-Bayt',
     occasion: 'For intercession',
     duration: '~15 min',
     audioUrl: 'https://mp3.duas.org/Misc%20Duas/2_Tawassul.mp3',
     accent: AppColors.gold,
     section: _DuaSection.anytime,
     description:
-        'A supplication seeking intercession through the Prophet (SAW) and the 14 Masumeen. Recited when seeking closeness to Allah through the blessed intermediaries of the Ahlul Bayt.',
+        'A supplication seeking intercession through the Prophet (SAW) and the Fourteen Infallibles. Recited when seeking closeness to Allah through the blessed intermediaries of the Ahl al-Bayt.',
   ),
   _DuaAudioEntry(
     id: 'ahd',
@@ -738,7 +738,7 @@ class _DuaTile extends StatelessWidget {
             GestureDetector(
               onTap: onInfo,
               child: Padding(
-                padding: const EdgeInsets.only(left: 8),
+                padding: const EdgeInsetsDirectional.only(start: 8),
                 child: Icon(
                   Icons.info_outline_rounded,
                   color: entry.accent.withValues(alpha: 0.5),

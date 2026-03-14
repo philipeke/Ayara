@@ -607,7 +607,7 @@ class AppLocalizationsAm extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'የቀኑ አያ';
 
   @override
-  String get dailyGraceSaintLabel => 'የሳምንቱ ዓሊም';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'የምሽት ምልከታ';
@@ -1238,7 +1238,7 @@ class AppLocalizationsAm extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'ለ12ኛው ኢማም ኢማም አል-መህዲ (ዐፈ) ዳግም መገለጥ የሚደረግ ዱዓ ነው፣ በአባቱ የተማረ። ሕያው ኢማሙን ለመውደድና ለመታዘዝ ምልክት ሆኖ በታማኝ ሺዓዎች ከእያንዳንዱ ሶላት በኋላ በየቀኑ ይነበባል።';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'የሰይዲቲ ፋጢማ ተስቢሕ';
@@ -1337,11 +1337,11 @@ class AppLocalizationsAm extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14ቱ ማዕሱሚን';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'ነቢዩ፣ ሰይዲቲ ፋጢማ እና አስራ ሁለቱ ኢማሞች — የእስልምና የስህተት ነፃ መሪዎች';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'የተወለደበት';
@@ -1429,7 +1429,7 @@ class AppLocalizationsAm extends AppLocalizations {
   String get quickActionDailyHadith => 'የዕለቱ ሐዲስ';
 
   @override
-  String get quickAction14Masumeen => '14ቱ ማዕሱሚን';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'አዳምጥ';
@@ -1509,13 +1509,35 @@ class AppLocalizationsAm extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'ሺዓ ሐጃጆች በተለምዶ ወደ መዲና በመጓዝ በመስጂድ አል-ነበዊ ያለውን የነቢዩ ሙሐመድ (ሰዐወ) መቃብር እና በጀናት አል-በቂዕ ያሉትን የኢማሞች መቃብሮች ይጎበኛሉ። እነዚህ ጉብኝቶች እጅግ ታላቅ መንፈሳዊ ክብደት አላቸው እና ለአብዛኞቹ ሺዓ ሙስሊሞች የጉዞው ዋና ክፍል ተደርገው ይቆጠራሉ።';
+      'ብዙ ሺዓ ሐጃጆች ወደ መዲና በመጓዝ በመስጂድ አል-ነበዊ ውስጥ ለነቢዩ ሙሐመድ (SAW) ዝያራት እና በጀናት አል-ባቂዕ ያሉትን መቃብሮች ይጎበኛሉ። እነዚህ ጉብኝቶች ጥልቅ መንፈሳዊ ክብር አላቸው፣ ግን በራሳቸው የሐጅ ሥርዓቶች አይደሉም።';
 
   @override
   String get hajjIntro =>
-      'ሐጅ የእስልምና አምስተኛው ምሰሶ ሲሆን፣ ለእያንዳንዱ በአካልና በገንዘብ የሚችል ሙስሊም በሕይወቱ አንድ ጊዜ ግዴታ ነው። በዙል-ሒጃ ወር ውስጥ የሚደረግ ሲሆን የነቢዩ ኢብራሂም (ዐ)፣ የልጁ ኢስማኢል (ዐ) እና የሰይዲቲ ሐጀር ፈለግ ይከተላል። ለሺዓ ሙስሊሞች ሐጅ በመዲና ያሉትን የነቢዩ (ሰዐወ) እና የአህሉል በይት መዓረፊያ ቦታዎች የመጎብኘት ታላቅ በረከትንም ያካትታል።';
+      'ሐጅ የእስልምና አምስተኛው ምሰሶ ሲሆን በአካልና በገንዘብ የሚችል ሁሉ ሙስሊም በሕይወቱ አንድ ጊዜ ማድረግ የሚገባው ግዴታ ነው። ዛሬ ለአብዛኞቹ ዐሥራ ሁለተኛ ኢማሚ ሺዓ ሐጃጆች ይህ ማለት Hajj al-Tamattu\' ሲሆን በDhul Hijjah ወር ውስጥ በነቢዩ Ibrahim (AS)፣ ልጁ Ismail (AS) እና Lady Hajar ፈለግ ላይ ይፈጸማል። ይህ መመሪያ የሥርዓቶቹን Ja\'fari አቀራረብ ይከተላል፣ በመዲና ያለው ዝያራት ግን ከሐጅ በፊት ወይም በኋላ በጣም የሚከበር መንፈሳዊ ጉዞ ሆኖ ይቀራል።';
 
   @override
   String get umrahIntro =>
       'ዑምራ ወደ መካ የሚደረግ ትንሹ ሐጅ ሲሆን፣ ከሐጅ በተለየ መልኩ በዓመቱ ማንኛውም ጊዜ ሊደረግ ይችላል። ግዴታ ባይሆንም ታላቅ መንፈሳዊ ምንዳ አለው እና በጣም የሚመከር የአምልኮ ተግባር ነው። ከሐጅ ጋር ብዙ ሥርዓቶችን ይጋራል፣ ግን አጭር ሲሆን አራት ዋና ሥርዓቶችን ያካትታል።';
+
+  @override
+  String get voiceInputTitle => 'የድምፅ ግቤት';
+
+  @override
+  String get voiceInputMicTitle => 'ማይክሮፕን';
+
+  @override
+  String get voiceInputMicSubtitle => 'እባኮትን ወደ አያራ ጠይቁ በመነሳት ይናገሩ።';
+
+  @override
+  String get voiceInputMicDenied => 'የማይክሮፕን መዳረሻ ተከርክሏል።';
+
+  @override
+  String get voiceInputSpeak => 'በመነሳት ይናገሩ';
+
+  @override
+  String get voiceInputListening => 'እንደሚሰማ…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'የድምፅ ግቤት ለማድረግ የማይክሮፕን መዳረሻ ያስፈልጋል።';
 }

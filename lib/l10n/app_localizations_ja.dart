@@ -603,7 +603,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get dailyGraceScriptureLabel => '今日の聖句';
 
   @override
-  String get dailyGraceSaintLabel => '今週の学者';
+  String get dailyGraceSaintLabel => '今週の聖者';
 
   @override
   String get dailyGraceReflectionLabel => '夜の内省';
@@ -1230,7 +1230,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      '第12代イマームであるイマーム・アル＝マフディー（af）の再臨を願うドゥアーで、父から教えられたものです。シーア派信徒は、現存するイマームへの献身として、毎礼拝の後に日々これを唱えます。';
+      'イマーム・アル＝マフディ（アフ）の再出現のためのドゥアで、彼の父によって教えられました。多くのシーア派ムスリムが祈りの後に生きているイマームへの献身の行為としてよく唱えます。';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'ファーティマのタスビーフ';
@@ -1330,10 +1330,11 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14人のマスウミーン';
+  String get imamsScreenTitle => '十四人の無謬者';
 
   @override
-  String get imamsScreenSubtitle => '預言者、ファーティマ、そして十二イマーム — イスラームの無謬の導き手たち';
+  String get imamsScreenSubtitle =>
+      '預言者、ファーティマ女史、そして十二人のイマーム — 十二イマーム派イスラムにおける浄化された無謬の導き手';
 
   @override
   String get imamLabelBorn => '誕生';
@@ -1421,7 +1422,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get quickActionDailyHadith => '今日のハディース';
 
   @override
-  String get quickAction14Masumeen => '14人のマスウミーン';
+  String get quickAction14Masumeen => '十四人の無謬者';
 
   @override
   String get quickActionListenDuas => '聴く';
@@ -1498,13 +1499,34 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'シーア派巡礼者は伝統的に、メディナにも赴き、マスジド・アン＝ナバウィーにある預言者ムハンマド（SAW）の墓、そしてジャンナトゥル・バキーにあるイマームたちの墓を訪れます。これらの訪問は非常に大きな霊的意義を持ち、多くのシーア派ムスリムにとって旅の不可欠な一部と見なされています。';
+      '多くのシーア派巡礼者は、マスジド・アル＝ナバウィで預言者ムハンマド（SAW）のズヤラートのためにメディナに旅行し、ジャナト・アル＝バキの墓を訪れます。これらの訪問は深い精神的意義を持っていますが、ハッジの儀式そのものではありません。';
 
   @override
   String get hajjIntro =>
-      'ハッジはイスラームの第五の柱であり、身体的・経済的に可能なすべてのムスリムに一生に一度義務づけられています。ズル・ヒッジャ月に行われ、預言者イブラーヒーム（AS）、その息子イスマーイール（AS）、そしてハージャル夫人の足跡をたどるものです。シーア派ムスリムにとって、ハッジにはメディナにある預言者（SAW）とアフルル・バイトの安息の地を訪れるという深い祝福も含まれます。';
+      'ハッジはイスラムの五本柱の一つであり、身体的および経済的に可能なすべてのムスリムにとって一生に一度の義務です。今日のほとんどの十二イマーム派巡礼者にとって、これはイブラヒム（AS）、彼の息子イスマイル（AS）、およびハジャール女史の足跡を辿るドゥル・ヒッジャ月に行われるハッジ・アル＝タマットゥ\'を意味します。このガイドは、儀式のジャファリの枠組みに従い、メディナでのズヤラートはハッジの前または後の深く大切にされる旅として残ります。';
 
   @override
   String get umrahIntro =>
       'ウムラはメッカへの小巡礼であり、ハッジとは異なり、一年中いつでも行うことができます。義務ではありませんが、非常に大きな霊的報いがあり、強く推奨される崇拝行為とされています。ハッジといくつかの儀礼を共有していますが、より短く、四つの主要な儀礼から成ります。';
+
+  @override
+  String get voiceInputTitle => '音声入力';
+
+  @override
+  String get voiceInputMicTitle => 'マイク';
+
+  @override
+  String get voiceInputMicSubtitle => '入力をタイプする代わりにAyaraに話しかけてください。';
+
+  @override
+  String get voiceInputMicDenied => 'マイクへのアクセスが拒否されました。';
+
+  @override
+  String get voiceInputSpeak => '話す';
+
+  @override
+  String get voiceInputListening => '聞いています…';
+
+  @override
+  String get voiceInputPermissionDenied => '音声入力にはマイクへのアクセスが必要です。';
 }

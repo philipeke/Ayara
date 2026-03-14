@@ -629,7 +629,7 @@ class AppLocalizationsBg extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'СТИХ НА ДЕНЯ';
 
   @override
-  String get dailyGraceSaintLabel => 'УЧЕН НА СЕДМИЦАТА';
+  String get dailyGraceSaintLabel => 'ФИГУРА НА СЕДМИЦАТА';
 
   @override
   String get dailyGraceReflectionLabel => 'ВЕЧЕРЕН РАЗМИСЪЛ';
@@ -1271,7 +1271,7 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Дуа за повторната поява на Имам ал-Махди (af), дванадесетия Имам, преподадена от неговия баща. Рецитира се ежедневно от шиитските вярващи след всяка молитва като израз на преданост към живия Имам.';
+      'Дуа за повторната поява на Имам ал-Махди (аф), дванадесетия Имам, научена от неговия баща. Често се чете от много шиитски мюсюлмани след молитва като акт на преданост към живия Имам.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Тасбихът на госпожа Фатима';
@@ -1373,11 +1373,11 @@ class AppLocalizationsBg extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14-те Масумеен';
+  String get imamsScreenTitle => 'Четиринадесетте Непогрешими';
 
   @override
   String get imamsScreenSubtitle =>
-      'Пророкът, госпожа Фатима и дванадесетте Имами — безгрешните водачи на исляма';
+      'Пророкът, госпожа Фатима и Дванадесетте Имами — пречистените и непогрешими водачи в дванадесетия шиитски ислям';
 
   @override
   String get imamLabelBorn => 'Роден';
@@ -1467,7 +1467,7 @@ class AppLocalizationsBg extends AppLocalizations {
   String get quickActionDailyHadith => 'Ежедневен хадис';
 
   @override
-  String get quickAction14Masumeen => '14 Масумеен';
+  String get quickAction14Masumeen => 'Четиринадесет Непогрешими';
 
   @override
   String get quickActionListenDuas => 'Слушай';
@@ -1549,13 +1549,36 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Шиитските поклонници традиционно пътуват и до Медина, за да посетят гроба на Пророка Мухаммад (SAW) в Масджид ал-Набауи и гробовете на Имамите в Джаннат ал-Баки. Тези посещения носят огромно духовно значение и се считат за неразделна част от пътуването за повечето шиитски мюсюлмани.';
+      'Много шиитски поклонници също пътуват до Медина за зиарат на Пророка Мохамед (САВ) в Масджид ал-Набави и гробовете в Джаннат ал-Баки. Тези посещения носят дълбоко духовно значение, въпреки че сами по себе си не са ритуали на Хадж.';
 
   @override
   String get hajjIntro =>
-      'Хадж е петият стълб на исляма, задължителен веднъж в живота за всеки мюсюлманин, който е физически и финансово способен. Извършва се през месец Зул-Хиджа и проследява стъпките на Пророк Ибрахим (AS), неговия син Исмаил (AS) и госпожа Хаджар. За шиитските мюсюлмани Хадж включва и дълбоката благословия да посетят местата на покой на Пророка (SAW) и Ахлул Байт в Медина.';
+      'Хадж е петият стълб на исляма, задължителен веднъж в живота за всеки мюсюлманин, който е физически и финансово способен. За повечето дванадесет шиитски поклонници днес, това означава Хадж ал-Таматту\', извършван през месеца Дул Хиджах в стъпките на Пророк Ибрахим (АС), неговия син Исмаил (АС) и госпожа Хаджар. Този наръчник следва Джафари схемата на ритуалите, докато зиарат в Медина остава дълбоко ценено пътуване преди или след Хадж.';
 
   @override
   String get umrahIntro =>
       'Умра е малкото поклонение до Мека и, за разлика от Хадж, може да се извърши по всяко време на годината. Макар да не е задължителна, тя носи огромна духовна награда и се счита за силно препоръчителен акт на поклонение. Тя споделя няколко ритуала с Хадж, но е по-кратка и се състои от четири основни обреда.';
+
+  @override
+  String get voiceInputTitle => 'Гласов вход';
+
+  @override
+  String get voiceInputMicTitle => 'Микрофон';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Говорете вашия вход, за да попитате Ayara вместо да пишете.';
+
+  @override
+  String get voiceInputMicDenied => 'Достъпът до микрофона беше отказан.';
+
+  @override
+  String get voiceInputSpeak => 'Говорете вместо';
+
+  @override
+  String get voiceInputListening => 'Слушам…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Достъпът до микрофона е необходим за гласов вход.';
 }

@@ -628,7 +628,7 @@ class AppLocalizationsIs extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERS DAGSINS';
 
   @override
-  String get dailyGraceSaintLabel => 'FRÆÐIMAÐUR VIKUNNAR';
+  String get dailyGraceSaintLabel => 'FIGURE VIKUNNAR';
 
   @override
   String get dailyGraceReflectionLabel => 'KVÖLDÍHUGUN';
@@ -1267,7 +1267,7 @@ class AppLocalizationsIs extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua fyrir endurkomu Imam al-Mahdī (af), tólfta Imam, kennd af föður hans. Sjía-trúaðir lesa hana daglega eftir hverja bæn sem tákn hollustu við hinn lifandi Imam.';
+      'Dua fyrir endurkomu Imams al-Mahdī (af), þann tólfta Imam, kennd af föður hans. Hún er oft lesin af mörgum Shia múslimum eftir bænir sem trúarlegur gjörningur til lifandi Imams.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ Fatimu';
@@ -1369,11 +1369,11 @@ class AppLocalizationsIs extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Hinir 14 Masumeen';
+  String get imamsScreenTitle => 'Fjórtán Ósveigjanlegir';
 
   @override
   String get imamsScreenSubtitle =>
-      'Spámaðurinn, Fatima og hinir tólf Imamar — hinir óskeikulu leiðsögumenn íslams';
+      'Spámaðurinn, Lady Fatima, og Tólftu Imamir — hreinu og ósveigjanlegu leiðbeinandinn í Tólfta Shia Islam';
 
   @override
   String get imamLabelBorn => 'Fædd/ur';
@@ -1463,7 +1463,7 @@ class AppLocalizationsIs extends AppLocalizations {
   String get quickActionDailyHadith => 'Dagleg hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fjórtán Ósveigjanlegir';
 
   @override
   String get quickActionListenDuas => 'Hlusta';
@@ -1545,13 +1545,36 @@ class AppLocalizationsIs extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Sjía-pílagrímar ferðast einnig hefðbundið til Medina til að heimsækja gröf spámannsins Muhammad (SAW) í Masjid al-Nabawi og grafir Imamara í Jannat al-Baqi. Þessar heimsóknir hafa gríðarlega andlega þýðingu og eru taldar órjúfanlegur hluti ferðarinnar fyrir flesta sjía-múslima.';
+      'Margir Shia pílagrímar ferðast einnig til Medina til ziyarat Spámannsins Muhammad (SAW) í Masjid al-Nabawi og grafirnar í Jannat al-Baqi. Þessar heimsóknir bera djúp andleg merking, þó þær séu ekki sjálfar helgisiðir Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj er fimmta stoð íslams og skylda einu sinni á ævinni fyrir hvern múslima sem hefur líkamlega og fjárhagslega getu. Hún er framkvæmd í mánuðinum Dhul Hijjah og rekur spor spámannsins Ibrahim (AS), sonar hans Ismail (AS) og Hajar. Fyrir sjía-múslima felur Hajj einnig í sér hina djúpu blessun að heimsækja hvíldarstaði spámannsins (SAW) og Ahlul Bayt í Medina.';
+      'Hajj er fimmti súlka Islam, skylda einu sinni á lífsleiðinni fyrir hvern múslim sem er líkamlega og fjárhagslega fær. Fyrir flesta Tólfta Shia pílagríma í dag, þýðir þetta Hajj al-Tamattu\', framkvæmt í mánuðinum Dhul Hijjah í fótspor Spámannsins Ibrahim (AS), sonar hans Ismail (AS), og Lady Hajar. Þessi leiðarvísir fylgir Ja\'fari skýringu á helgisiðunum, meðan ziyarat í Medina er áfram dýrmæt ferð fyrir eða eftir Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah er hin minni pílagrímsferð til Mekka og, ólíkt Hajj, má framkvæma hana hvenær sem er á árinu. Þó hún sé ekki skylda ber hún með sér mikinn andlegan ávinning og er talin mjög mælt með sem tilbeiðsluverk. Hún deilir nokkrum ritúölum með Hajj en er styttri og samanstendur af fjórum meginathöfnum.';
+
+  @override
+  String get voiceInputTitle => 'Röðuinntak';
+
+  @override
+  String get voiceInputMicTitle => 'Hljóðnemi';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Talaðu innsláttinn þinn til að spyrja Ayara í stað þess að skrifa.';
+
+  @override
+  String get voiceInputMicDenied => 'Aðgangur að hljóðnema var hafnað.';
+
+  @override
+  String get voiceInputSpeak => 'Talaðu í staðinn';
+
+  @override
+  String get voiceInputListening => 'Hlusta…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Aðgangur að hljóðnema er nauðsynlegur fyrir röðuinntak.';
 }

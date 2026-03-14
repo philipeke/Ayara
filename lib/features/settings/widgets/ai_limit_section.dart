@@ -11,7 +11,7 @@ class AiLimitSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     final theme = Theme.of(context);
 
     return AnimatedBuilder(

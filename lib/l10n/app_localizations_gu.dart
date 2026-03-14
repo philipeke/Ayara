@@ -628,7 +628,7 @@ class AppLocalizationsGu extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'આજની આયત';
 
   @override
-  String get dailyGraceSaintLabel => 'આ અઠવાડિયાના આલિમ';
+  String get dailyGraceSaintLabel => 'આઠવાડિયાનો પાત્ર';
 
   @override
   String get dailyGraceReflectionLabel => 'સાંજનો મનનોવિચાર';
@@ -1266,7 +1266,7 @@ class AppLocalizationsGu extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'બારમા ઈમામ, ઈમામ અલ-મહદી (અ.ફ.) ના પ્રગટ થવા માટેની આ દુઆ તેમના પિતા દ્વારા શીખવવામાં આવી. શિયા વિશ્વાસીઓ તેને દરરોજ દરેક નમાઝ પછી જીવતા ઈમામ પ્રત્યેની ભક્તિ તરીકે વાંચે છે.';
+      'ઇમામ અલ-મહદી (અફ) ના પુનરાગમન માટેની એક દુઆ, જે તેમના પિતા દ્વારા શીખવવામાં આવી છે. આ દુઆ ઘણી શિયા મુસ્લિમો દ્વારા પ્રાર્થના પછી જીવંત ઇમામ પ્રત્યેની ભક્તિ તરીકે વારંવાર વાંચવામાં આવે છે.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'હઝરત ફાતિમાની તસ્બીહ';
@@ -1368,11 +1368,11 @@ class AppLocalizationsGu extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 માસૂમીન';
+  String get imamsScreenTitle => 'ચૌદ અસ્મા';
 
   @override
   String get imamsScreenSubtitle =>
-      'પયગંબર, હઝરત ફાતિમા અને બાર ઈમામ — ઇસ્લામના નિર્દોષ માર્ગદર્શકો';
+      'નબી, લેડી ફાતિમા, અને બાર ઇમામો — બાર શિયા ઇસ્લામમાં શુદ્ધ અને અખલાકી માર્ગદર્શકો';
 
   @override
   String get imamLabelBorn => 'જન્મ';
@@ -1462,7 +1462,7 @@ class AppLocalizationsGu extends AppLocalizations {
   String get quickActionDailyHadith => 'દૈનિક હદીસ';
 
   @override
-  String get quickAction14Masumeen => '14 માસૂમીન';
+  String get quickAction14Masumeen => 'ચૌદ અસ્મા';
 
   @override
   String get quickActionListenDuas => 'સાંભળો';
@@ -1543,13 +1543,37 @@ class AppLocalizationsGu extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'શિયા યાત્રાળુઓ પરંપરાગત રીતે મદીનામાં મસ્જિદ અલ-નબવી ખાતે પયગંબર મુહંમદ (સ) ની કબર અને જન્નતુલ બકીમાં ઈમામોની કબરોની પણ મુલાકાત લે છે. આ મુલાકાતો ખૂબ આધ્યાત્મિક મહત્વ ધરાવે છે અને મોટાભાગના શિયા મુસ્લિમો માટે યાત્રાનો અગત્યનો ભાગ માનવામાં આવે છે.';
+      'ઘણાં શિયા યાત્રિકો નબી મુહમ્મદ (સઆવ) ના મસ્જિદ અલ-નબawi અને જન્નત અલ-બાકી ખાતેના સમાધિઓ માટે ziyarat કરવા મેડિનામાં પણ મુસાફરી કરે છે. આ મુલાકાતો ઊંડા આધ્યાત્મિક મહત્વ ધરાવે છે, જો કે તે હજ્જના વિધિઓ નથી.';
 
   @override
   String get hajjIntro =>
-      'હજ ઇસ્લામનો પાંચમો સ્તંભ છે અને જે મુસ્લિમ શારીરિક અને આર્થિક રીતે સક્ષમ હોય તેના માટે જીવનમાં એક વાર ફરજિયાત છે. તે ઝુલ હિજ્જાના મહિને થાય છે અને પયગંબર ઇબ્રાહિમ (અ), તેમના પુત્ર ઇસ્માઇલ (અ) અને હઝરત હાજરાના પગલાંનું અનુસરણ કરે છે. શિયા મુસ્લિમો માટે હજમાં મદીનામાં પયગંબર (સ) અને અહલુલ બૈતના આરામસ્થાનોની મુલાકાત લેવાનું મહાન આધ્યાત્મિક સૌભાગ્ય પણ સામેલ છે.';
+      'હજ્જ ઇસ્લામનો પાંચમો સ્તંભ છે, જે દરેક મુસ્લિમ માટે જીવનમાં એકવાર ફરજિયાત છે, જે શારીરિક અને આર્થિક રીતે સક્ષમ છે. આજના મોટા ભાગના બાર શિયા યાત્રિકો માટે, આનો અર્થ છે હજ્જ અલ-તામત્તુ\', જે ધુલ હિજ્જાહના મહિને નબી ઇબ્રાહિમ (એએસ), તેમના પુત્ર ઇસ્માઇલ (એએસ), અને લેડી હાજરના પગલાંઓમાં કરવામાં આવે છે. આ માર્ગદર્શિકા વિધિઓના જાફરી આઉટલાઇનને અનુસરે છે, જ્યારે મેડિનામાં ziyarat હજ્જ પહેલા અથવા પછીની એક ખૂબ જ cherished યાત્રા રહે છે.';
 
   @override
   String get umrahIntro =>
       'ઉમરાહ મક્કાની નાની યાત્રા છે અને હજથી વિપરીત વર્ષના કોઈપણ સમયે કરી શકાય છે. ભલે તે ફરજિયાત નથી, પરંતુ તેમાં બહુ મોટું આધ્યાત્મિક પુરસ્કાર છે અને ખૂબ ભલામણ કરાયેલ ઈબાદત માનવામાં આવે છે. તેમાં હજ જેવી કેટલીક રીતો છે, પરંતુ તે વધુ ટૂંકી છે અને ચાર મુખ્ય વિધિઓથી બનેલી છે.';
+
+  @override
+  String get voiceInputTitle => 'વોઇસ ઇનપુટ';
+
+  @override
+  String get voiceInputMicTitle => 'માઇક્રોફોન';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'ટાઇપ કરવા બદલે Ask Ayara ને તમારા ઇનપુટ માટે બોલો.';
+
+  @override
+  String get voiceInputMicDenied =>
+      'માઇક્રોફોનની ઍક્સેસ નકારી દેવામાં આવી હતી.';
+
+  @override
+  String get voiceInputSpeak => 'બોલો બદલે';
+
+  @override
+  String get voiceInputListening => 'સુણવું…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'વોઇસ ઇનપુટ માટે માઇક્રોફોનની ઍક્સેસ જરૂરી છે.';
 }

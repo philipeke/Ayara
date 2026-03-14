@@ -629,7 +629,7 @@ class AppLocalizationsMn extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'ӨДРИЙН АЯЛЛАГАА';
 
   @override
-  String get dailyGraceSaintLabel => 'ДОЛОО ХОНОГ СУРГААЧ';
+  String get dailyGraceSaintLabel => 'ДОЛООНЫ ЗУРАГ';
 
   @override
   String get dailyGraceReflectionLabel => 'ОРЛОО СЭТГЭЛГЭЭ';
@@ -1270,7 +1270,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Дуа Imam al-Mahdī (af) ирээдүйд хорноо, арван хоёр Imam та сургасан. Шия дүүнээр өдөр бүр залбирлаа дараа та та живаг Imam дурсамж үйлдэл хэлэнэ.';
+      'Имам ал-Махдийг (аф) дахин гарч ирэхийн тулд хийдэг дуудлага, аав нь зааж өгсөн. Энэ нь олон Шиа мусульмануудын залбиралд, амьд Имамд зориулан залбирах үйлдэл болгон залбирдаг.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Lady Fāṭima-ийн Tasbīḥ';
@@ -1372,11 +1372,11 @@ class AppLocalizationsMn extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'Нарийн 14 Имам';
 
   @override
   String get imamsScreenSubtitle =>
-      'Пророф, Lady Fatima, ба 12 Imam — исламын баимтлах сургаач';
+      'Пайгамбар, Лэйди Фатима, болон 12 Имам — 12-р Шиа Исламд ариун, алдаагүй удирдагчид';
 
   @override
   String get imamLabelBorn => 'Төрөлтүүнд';
@@ -1466,7 +1466,7 @@ class AppLocalizationsMn extends AppLocalizations {
   String get quickActionDailyHadith => 'Өдөр тутмын Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Нарийн 14 Имам';
 
   @override
   String get quickActionListenDuas => 'Сонсох';
@@ -1546,13 +1546,36 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia паломник уламжлал нь мөнийн Медина-д явж Пророф Мухаммад (SAW) алтанцрагыг Masjid al-Nabawi-д, ба Imam-уудын оршуулгыг Jannat al-Baqi-д үзэх. Эдгээр үзэлтүүд асар их сүнс ерөнхий болох ба ихэнх Shia Мусульмана-ийн хувьд интегратив санал байдаг.';
+      'Олон Шиа зочид Мадина руу Пайгамбар Мухаммед (SAW)-ийн зиарат хийхийн тулд Масжид ал-Набави болон Жаннат ал-Бакид оршдог булшнууд руу явдаг. Эдгээр зочлолууд гүн гүнзгий сүнслэг ач холбогдолтой боловч Хажжийн ёс заншил биш юм.';
 
   @override
   String get hajjIntro =>
-      'Hajj нь исламын тав дүүгийн тос, амжилт эв нэгдлийн сагаа аль нэг удаа амьдар идэвхтэй Мусульмана. Dhul Hijjah сарт гүйцэтгэхүүл, энэ нь Пророф Ibrahim (AS), түүний үнэ Ismail (AS), Lady Hajar-ийн хөл харцаа давтан сайл. Shia Мусульмана-ийн хувьд, Hajj мөнийн мэдэгдэл сүнс байрлалд ирээдүйг оруулалтаа Пророф (SAW) ба Ahlul Bayt-д Медина-д.';
+      'Хажж бол Исламын тав дахь тулгуур, бие махбодийн болон санхүүгийн хувьд чадавхитай бүх мусульмануудад амьдралынхаа туршид нэг удаа заавал хийх ёстой. Олон 12-р Шиа зочид өнөөдөр Хажж ал-Тамату\' хийдэг, энэ нь Дул Хижжа сард Пайгамбар Ибрахим (АС), түүний хүү Исмаил (АС), болон Лэйди Хажарын мөрөөр явдаг. Энэ гарын авлага нь Жа\'фари ёс заншлын дагуу ёслолуудыг дагаж, Мадина дахь зиарат нь Хажжийн өмнө эсвэл дараа гүн гүнзгий хайртай аялал хэвээр байна.';
 
   @override
   String get umrahIntro =>
       'Umrah нь цөмийн паломничество Меккаас ба, Hajj-аас ялгаатай, жилийн ямар цаг гүйцэтгэж болно. Гэхдээ задуур биш, энэ нь асар их сүнс инжид ба рекомендатив сүнс байдаг. Энэ нь Hajj-ийн хэдэн обрядыг хуваалцах гэхдээ богино, дөрөв гол обрядууд төүндүүлэх.';
+
+  @override
+  String get voiceInputTitle => 'Дууны оруулга';
+
+  @override
+  String get voiceInputMicTitle => 'Микрофон';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Тайлангаа бичихийн оронд Ask Ayara-д ярь.';
+
+  @override
+  String get voiceInputMicDenied => 'Микрофоны нэвтрэлт татгалзсан.';
+
+  @override
+  String get voiceInputSpeak => 'Ярих';
+
+  @override
+  String get voiceInputListening => 'Сонсож байна…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Дууны оруулгад микрофоны нэвтрэлт шаардлагатай.';
 }

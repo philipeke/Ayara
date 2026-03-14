@@ -629,7 +629,7 @@ class AppLocalizationsSq extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'AJETI I DITËS';
 
   @override
-  String get dailyGraceSaintLabel => 'DIJETARI I JAVËS';
+  String get dailyGraceSaintLabel => 'FIGURA E JAVIT';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLEKTIMI I MBRËMJES';
@@ -1269,7 +1269,7 @@ class AppLocalizationsSq extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Një dua për shfaqjen e Imam al-Mahdit (af), Imamit të dymbëdhjetë, e mësuar nga babai i tij. Recytohet çdo ditë nga besimtarët shiitë pas çdo namazi si akt përkushtimi ndaj Imamit të gjallë.';
+      'Një dua për ripërsëritjen e Imam al-Mahdī (af), Imam i dytëmbëdhjetë, e mësuar nga babai i tij. Ajo shpesh recitohet nga shumë myslimanë Shia pas namazit si një akt devotshmërie ndaj Imamit të gjallë.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ i Zonjës Fāṭima';
@@ -1371,11 +1371,11 @@ class AppLocalizationsSq extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Ma\'sumeen';
+  String get imamsScreenTitle => 'Katërmbëdhjetë të Paprekshëm';
 
   @override
   String get imamsScreenSubtitle =>
-      'Profeti, Zonja Fatima dhe Dymbëdhjetë Imamët — udhëheqësit e pagabueshëm të islamit';
+      'Profeti, Zonja Fatime, dhe Dymbëdhjetë Imamët — udhëheqësit e pastruar dhe të paprekshëm në Islamin Shia të Dymbëdhjetëve';
 
   @override
   String get imamLabelBorn => 'Lindur';
@@ -1465,7 +1465,7 @@ class AppLocalizationsSq extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadithi i ditës';
 
   @override
-  String get quickAction14Masumeen => '14 Ma\'sumeen';
+  String get quickAction14Masumeen => 'Katërmbëdhjetë të Paprekshëm';
 
   @override
   String get quickActionListenDuas => 'Dëgjo';
@@ -1547,13 +1547,36 @@ class AppLocalizationsSq extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Pelegrinët shiitë tradicionalisht udhëtojnë gjithashtu në Medinë për të vizituar varrin e Profetit Muhamed ﷺ në Masjid al-Nabawi dhe varret e Imamëve në Jannat al-Baqi. Këto vizita mbartin rëndësi të jashtëzakonshme shpirtërore dhe konsiderohen pjesë thelbësore e udhëtimit për shumicën e myslimanëve shiitë.';
+      'Shumë pelegrinë Shia gjithashtu udhëtojnë në Medinë për ziyarat e Profetit Muhammad (SAW) në Masjid al-Nabawi dhe varret në Jannat al-Baqi. Këto vizita kanë një rëndësi të thellë shpirtërore, megjithëse ato vetë nuk janë rite të Haxhit.';
 
   @override
   String get hajjIntro =>
-      'Haxhi është shtylla e pestë e Islamit, i detyrueshëm një herë në jetë për çdo mysliman që është fizikisht dhe financiarisht i aftë. Kryhet në muajin Dhul Hijjah dhe ndjek gjurmët e Profetit Ibrahim (AS), djalit të tij Ismail (AS) dhe Zonjës Haxher. Për myslimanët shiitë, Haxhi përfshin gjithashtu bekimin e thellë të vizitës së vendeve të prehjes së Profetit ﷺ dhe Ahlul Bayt në Medinë.';
+      'Haxhi është shtylla e pestë e Islamit, e detyrueshme një herë në jetë për çdo mysliman që është fizikisht dhe financiarisht në gjendje. Për shumicën e pelegrinëve Shia të Dymbëdhjetëve sot, kjo do të thotë Haxhi al-Tamattu\', i kryer në muajin Dhul Hijjah në gjurmët e Profetit Ibrahim (AS), djalit të tij Ismail (AS), dhe Zonjës Hajar. Ky udhëzues ndjek skemën Ja\'fari të riteve, ndërsa ziyarat në Medinë mbetet një udhëtim i dashur para ose pas Haxhit.';
 
   @override
   String get umrahIntro =>
       'Umra është pelegrinazhi i vogël në Mekë dhe, ndryshe nga Haxhi, mund të kryhet në çdo kohë të vitit. Megjithëse nuk është e detyrueshme, ajo mbart shpërblim të madh shpirtëror dhe konsiderohet një akt adhurimi shumë i rekomanduar. Ajo ndan disa rite me Haxhin, por është më e shkurtër dhe përbëhet nga katër rite kryesore.';
+
+  @override
+  String get voiceInputTitle => 'Input me Zë';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Flisni inputin tuaj për Ask Ayara në vend të shkruarit.';
+
+  @override
+  String get voiceInputMicDenied => 'Qasja në mikrofon u refuzua.';
+
+  @override
+  String get voiceInputSpeak => 'Flisni në vend';
+
+  @override
+  String get voiceInputListening => 'Dëgjoj…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Qasja në mikrofon është e nevojshme për inputin me zë.';
 }

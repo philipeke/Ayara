@@ -158,7 +158,7 @@ class _LanguageSectionState extends State<LanguageSection> {
 
     HapticFeedback.selectionClick();
 
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     final ordered = _orderedTagsAlphabetical();
     final suggestedLower = _suggestedTag?.toLowerCase();
@@ -190,7 +190,7 @@ class _LanguageSectionState extends State<LanguageSection> {
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     final theme = Theme.of(context);
 
     final (flag, label) = _flagAndLabelFromTag(_selectedTag);
@@ -471,7 +471,7 @@ class _LanguagePickerSheetState extends State<_LanguagePickerSheet> {
                       Expanded(
                         child: Builder(
                           builder: (context) {
-                            final t = AppLocalizations.of(context)!;
+                            final t = AppLocalizations.of(context);
                             return TextField(
                               controller: _searchCtrl,
                               style: const TextStyle(color: Colors.white),

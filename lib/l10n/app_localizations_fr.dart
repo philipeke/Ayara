@@ -631,7 +631,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERSET DU JOUR';
 
   @override
-  String get dailyGraceSaintLabel => 'SAVANT DE LA SEMAINE';
+  String get dailyGraceSaintLabel => 'FIGURE DE LA SEMAINE';
 
   @override
   String get dailyGraceReflectionLabel => 'RÉFLEXION DU SOIR';
@@ -1273,7 +1273,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Un dua pour la réapparition de l\'Imam al-Mahdī (af), enseigné par son père. Récité quotidiennement par les fidèles chiites comme un acte de dévotion.';
+      'Une dua pour la réapparition de l\'Imam al-Mahdī (af), le douzième Imam, enseignée par son père. Elle est souvent récitée par de nombreux musulmans chiites après la prière comme un acte de dévotion envers l\'Imam vivant.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de Dame Fāṭima';
@@ -1374,11 +1374,11 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Les 14 Masumeen';
+  String get imamsScreenTitle => 'Les Quatorze Infaillibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'Le Prophète, Dame Fatima et les douze Imams — les guides infaillibles';
+      'Le Prophète, Lady Fatima et les Douze Imams — les guides purifiés et infaillibles dans l\'islam chiite duodécimain';
 
   @override
   String get imamLabelBorn => 'Naissance';
@@ -1468,7 +1468,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith du Jour';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Quatorze Infaillibles';
 
   @override
   String get quickActionListenDuas => 'Écouter';
@@ -1548,15 +1548,38 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Les pèlerins chiites ont pour tradition de se rendre à Médine pour visiter le Prophète (SAW) à Masjid al-Nabawi et les Imams au Jannat al-Baqi. Ces visites ont une immense importance spirituelle.';
+      'De nombreux pèlerins chiites se rendent également à Médine pour le ziyarat du Prophète Muhammad (SAW) à la Mosquée du Prophète et aux tombes de Jannat al-Baqi. Ces visites ont une profonde signification spirituelle, bien qu\'elles ne soient pas en elles-mêmes des rites du Hajj.';
 
   @override
   String get hajjIntro =>
-      'Le Hajj est obligatoire une fois dans la vie pour tout musulman capable. Il retrace les pas du Prophète Ibrahim (AS) et de sa famille. Pour les Chiites, il inclut aussi la bénédiction de visiter Médine.';
+      'Le Hajj est le cinquième pilier de l\'islam, obligatoire une fois dans la vie pour chaque musulman qui est physiquement et financièrement capable. Pour la plupart des pèlerins chiites duodécimains aujourd\'hui, cela signifie le Hajj al-Tamattu\', effectué au mois de Dhul Hijjah sur les traces du Prophète Ibrahim (AS), de son fils Ismail (AS) et de Lady Hajar. Ce guide suit le schéma ja\'fari des rites, tandis que le ziyarat à Médine reste un voyage profondément chéri avant ou après le Hajj.';
 
   @override
   String get umrahIntro =>
       'L\'Umrah est le petit pèlerinage. Bien que non obligatoire, il porte une immense récompense spirituelle. Il partage plusieurs rituels avec le Hajj mais est plus court.';
+
+  @override
+  String get voiceInputTitle => 'Entrée vocale';
+
+  @override
+  String get voiceInputMicTitle => 'Microphone';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Parlez votre demande à Ask Ayara au lieu de taper.';
+
+  @override
+  String get voiceInputMicDenied => 'L\'accès au microphone a été refusé.';
+
+  @override
+  String get voiceInputSpeak => 'Parler à la place';
+
+  @override
+  String get voiceInputListening => 'Écoute…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'L\'accès au microphone est requis pour l\'entrée vocale.';
 }
 
 /// The translations for French, as used in Belgium (`fr_BE`).
@@ -2185,7 +2208,7 @@ class AppLocalizationsFrBe extends AppLocalizationsFr {
   String get dailyGraceScriptureLabel => 'VERSET DU JOUR';
 
   @override
-  String get dailyGraceSaintLabel => 'SAVANT DE LA SEMAINE';
+  String get dailyGraceSaintLabel => 'FIGURE DE LA SEMAINE';
 
   @override
   String get dailyGraceReflectionLabel => 'RÉFLEXION DU SOIR';
@@ -2826,7 +2849,7 @@ class AppLocalizationsFrBe extends AppLocalizationsFr {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Un dua pour la réapparition de l\'Imam al-Mahdī (af).';
+      'Une dua pour la réapparition de l\'Imam al-Mahdī (af), le douzième Imam, enseignée par son père. Elle est souvent récitée par de nombreux musulmans chiites après la prière comme un acte de dévotion envers l\'Imam vivant.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de Dame Fāṭima';
@@ -2927,11 +2950,11 @@ class AppLocalizationsFrBe extends AppLocalizationsFr {
   }
 
   @override
-  String get imamsScreenTitle => 'Les 14 Masumeen';
+  String get imamsScreenTitle => 'Les Quatorze Infaillibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'Le Prophète, Dame Fatima et les douze Imams';
+      'Le Prophète, Lady Fatima et les Douze Imams — les guides purifiés et infaillibles dans l\'Islam chiite du Douzième';
 
   @override
   String get imamLabelBorn => 'Naissance';
@@ -3020,7 +3043,7 @@ class AppLocalizationsFrBe extends AppLocalizationsFr {
   String get quickActionDailyHadith => 'Hadith du Jour';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Quatorze Infaillibles';
 
   @override
   String get quickActionListenDuas => 'Écouter';
@@ -3098,15 +3121,38 @@ class AppLocalizationsFrBe extends AppLocalizationsFr {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Il est de tradition de visiter Médine pour saluer le Prophète (SAW) et les Imams au Jannat al-Baqi.';
+      'De nombreux pèlerins chiites se rendent également à Médine pour le ziyarat du Prophète Muhammad (SAW) à la Mosquée du Prophète et aux tombes de Jannat al-Baqi. Ces visites ont une profonde signification spirituelle, bien qu\'elles ne soient pas en elles-mêmes des rites de Hajj.';
 
   @override
   String get hajjIntro =>
-      'Le Hajj est obligatoire une fois dans la vie pour tout musulman capable. Il retrace les pas du Prophète Ibrahim (AS).';
+      'Le Hajj est le cinquième pilier de l\'Islam, obligatoire une fois dans la vie pour chaque musulman qui est physiquement et financièrement capable. Pour la plupart des pèlerins chiites du Douzième aujourd\'hui, cela signifie Hajj al-Tamattu\', effectué au mois de Dhul Hijjah sur les traces du Prophète Ibrahim (AS), de son fils Ismaïl (AS) et de Lady Hajar. Ce guide suit le schéma ja\'fari des rites, tandis que le ziyarat à Médine reste un voyage profondément chéri avant ou après le Hajj.';
 
   @override
   String get umrahIntro =>
       'L\'Umrah est le petit pèlerinage. Bien que non obligatoire, il est hautement recommandé.';
+
+  @override
+  String get voiceInputTitle => 'Entrée vocale';
+
+  @override
+  String get voiceInputMicTitle => 'Microphone';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Parlez votre demande à Ask Ayara au lieu de taper.';
+
+  @override
+  String get voiceInputMicDenied => 'L\'accès au microphone a été refusé.';
+
+  @override
+  String get voiceInputSpeak => 'Parler à la place';
+
+  @override
+  String get voiceInputListening => 'Écoute…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'L\'accès au microphone est requis pour l\'entrée vocale.';
 }
 
 /// The translations for French, as used in Canada (`fr_CA`).
@@ -3736,7 +3782,7 @@ class AppLocalizationsFrCa extends AppLocalizationsFr {
   String get dailyGraceScriptureLabel => 'VERSET DU JOUR';
 
   @override
-  String get dailyGraceSaintLabel => 'SAVANT DE LA SEMAINE';
+  String get dailyGraceSaintLabel => 'FIGURE DE LA SEMAINE';
 
   @override
   String get dailyGraceReflectionLabel => 'RÉFLEXION DU SOIR';
@@ -4378,7 +4424,7 @@ class AppLocalizationsFrCa extends AppLocalizationsFr {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Un dua pour la réapparition de l\'Imam al-Mahdī (af), enseigné par son père. Récité quotidiennement par les fidèles chiites comme un acte de dévotion.';
+      'Une dua pour la réapparition de l\'Imam al-Mahdī (af), le douzième Imam, enseignée par son père. Elle est souvent récitée par de nombreux musulmans chiites après la prière comme un acte de dévotion envers l\'Imam vivant.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de Dame Fāṭima';
@@ -4479,11 +4525,11 @@ class AppLocalizationsFrCa extends AppLocalizationsFr {
   }
 
   @override
-  String get imamsScreenTitle => 'Les 14 Masumeen';
+  String get imamsScreenTitle => 'Les Quatorze Infaillibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'Le Prophète, Dame Fatima et les douze Imams — les guides infaillibles';
+      'Le Prophète, Lady Fatima et les Douze Imams — les guides purifiés et infaillibles dans l\'islam chiite duodécimain';
 
   @override
   String get imamLabelBorn => 'Naissance';
@@ -4573,7 +4619,7 @@ class AppLocalizationsFrCa extends AppLocalizationsFr {
   String get quickActionDailyHadith => 'Hadith du Jour';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Quatorze Infaillibles';
 
   @override
   String get quickActionListenDuas => 'Écouter';
@@ -4653,15 +4699,38 @@ class AppLocalizationsFrCa extends AppLocalizationsFr {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Les pèlerins chiites ont pour tradition de se rendre à Médine pour visiter le Prophète (SAW) à Masjid al-Nabawi et les Imams au Jannat al-Baqi. Ces visites ont une immense importance spirituelle.';
+      'De nombreux pèlerins chiites se rendent également à Médine pour le ziyarat du Prophète Muhammad (SAW) à la Mosquée du Prophète et aux tombes de Jannat al-Baqi. Ces visites ont une profonde signification spirituelle, bien qu\'elles ne soient pas en elles-mêmes des rites de Hajj.';
 
   @override
   String get hajjIntro =>
-      'Le Hajj est obligatoire une fois dans la vie pour tout musulman capable. Il retrace les pas du Prophète Ibrahim (AS) et de sa famille. Pour les Chiites, il inclut aussi la bénédiction de visiter Médine.';
+      'Le Hajj est le cinquième pilier de l\'islam, obligatoire une fois dans la vie pour chaque musulman qui est physiquement et financièrement capable. Pour la plupart des pèlerins chiites duodécimains aujourd\'hui, cela signifie le Hajj al-Tamattu\', effectué au mois de Dhul Hijjah sur les traces du Prophète Ibrahim (AS), de son fils Ismail (AS) et de Lady Hajar. Ce guide suit le schéma ja\'fari des rites, tandis que le ziyarat à Médine reste un voyage profondément chéri avant ou après le Hajj.';
 
   @override
   String get umrahIntro =>
       'L\'Umrah est le petit pèlerinage. Bien que non obligatoire, il porte une immense récompense spirituelle. Il partage plusieurs rituels avec le Hajj mais est plus court.';
+
+  @override
+  String get voiceInputTitle => 'Entrée vocale';
+
+  @override
+  String get voiceInputMicTitle => 'Microphone';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Parlez votre saisie à Ask Ayara au lieu de taper.';
+
+  @override
+  String get voiceInputMicDenied => 'L\'accès au microphone a été refusé.';
+
+  @override
+  String get voiceInputSpeak => 'Parler à la place';
+
+  @override
+  String get voiceInputListening => 'Écoute…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'L\'accès au microphone est requis pour l\'entrée vocale.';
 }
 
 /// The translations for French, as used in Switzerland (`fr_CH`).
@@ -5291,7 +5360,7 @@ class AppLocalizationsFrCh extends AppLocalizationsFr {
   String get dailyGraceScriptureLabel => 'VERSET DU JOUR';
 
   @override
-  String get dailyGraceSaintLabel => 'SAVANT DE LA SEMAINE';
+  String get dailyGraceSaintLabel => 'FIGURE DE LA SEMAINE';
 
   @override
   String get dailyGraceReflectionLabel => 'RÉFLEXION DU SOIR';
@@ -5931,7 +6000,7 @@ class AppLocalizationsFrCh extends AppLocalizationsFr {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Un dua pour la réapparition de l\'Imam al-Mahdī (af).';
+      'Une dua pour la réapparition de l\'Imam al-Mahdī (af), le douzième Imam, enseignée par son père. Elle est souvent récitée par de nombreux musulmans chiites après la prière comme un acte de dévotion envers l\'Imam vivant.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de Dame Fāṭima';
@@ -6032,11 +6101,11 @@ class AppLocalizationsFrCh extends AppLocalizationsFr {
   }
 
   @override
-  String get imamsScreenTitle => 'Les 14 Masumeen';
+  String get imamsScreenTitle => 'Les Quatorze Infaillibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'Le Prophète, Dame Fatima et les douze Imams';
+      'Le Prophète, Lady Fatima et les Douze Imams — les guides purifiés et infaillibles dans l\'Islam chiite du Douzième';
 
   @override
   String get imamLabelBorn => 'Naissance';
@@ -6125,7 +6194,7 @@ class AppLocalizationsFrCh extends AppLocalizationsFr {
   String get quickActionDailyHadith => 'Hadith du Jour';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Quatorze Infaillibles';
 
   @override
   String get quickActionListenDuas => 'Écouter';
@@ -6203,13 +6272,36 @@ class AppLocalizationsFrCh extends AppLocalizationsFr {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Il est de tradition de visiter Médine pour saluer le Prophète (SAW) et les Imams au Jannat al-Baqi.';
+      'De nombreux pèlerins chiites se rendent également à Médine pour le ziyarat du Prophète Muhammad (SAW) à la Mosquée du Prophète et aux tombes de Jannat al-Baqi. Ces visites ont une profonde signification spirituelle, bien qu\'elles ne soient pas en elles-mêmes des rites de Hajj.';
 
   @override
   String get hajjIntro =>
-      'Le Hajj est obligatoire une fois dans la vie pour tout musulman capable. Il retrace les pas du Prophète Ibrahim (AS).';
+      'Le Hajj est le cinquième pilier de l\'Islam, obligatoire une fois dans la vie pour chaque musulman qui est physiquement et financièrement capable. Pour la plupart des pèlerins chiites du Douzième aujourd\'hui, cela signifie Hajj al-Tamattu\', effectué au mois de Dhul Hijjah sur les traces du Prophète Ibrahim (AS), de son fils Ismail (AS) et de Lady Hajar. Ce guide suit le schéma ja\'fari des rites, tandis que le ziyarat à Médine reste un voyage profondément chéri avant ou après le Hajj.';
 
   @override
   String get umrahIntro =>
       'L\'Umrah est le petit pèlerinage. Bien que non obligatoire, il est hautement recommandé.';
+
+  @override
+  String get voiceInputTitle => 'Saisie vocale';
+
+  @override
+  String get voiceInputMicTitle => 'Microphone';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Parlez votre saisie à Ask Ayara au lieu de taper.';
+
+  @override
+  String get voiceInputMicDenied => 'L\'accès au microphone a été refusé.';
+
+  @override
+  String get voiceInputSpeak => 'Parler à la place';
+
+  @override
+  String get voiceInputListening => 'Écoute…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'L\'accès au microphone est requis pour la saisie vocale.';
 }

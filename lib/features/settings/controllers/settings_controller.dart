@@ -96,7 +96,7 @@ class SettingsController {
 
   /// 🔹 Uppgradera guest → "riktigt" konto via Google (Android).
   Future<void> upgradeWithGoogle(BuildContext context) async {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     if (!_isAndroid) {
       _snack(context, 'Google sign-in is only available on Android.');
@@ -111,7 +111,9 @@ class SettingsController {
       // This action is intended for upgrading a guest OR signing in after sign-out.
       final wasGuestBefore = _auth.currentUser?.isAnonymous == true;
 
-      await _googleSignIn.signOut().catchError((_) {});
+      try {
+        await _googleSignIn.signOut();
+      } catch (_) {}
       final acc = await _googleSignIn.signIn();
       if (acc == null) return;
 
@@ -160,7 +162,7 @@ class SettingsController {
   ///
   /// ✅ FIX: include authorizationCode as accessToken when building Firebase OAuth credential.
   Future<void> upgradeWithApple(BuildContext context) async {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     if (!_isIos) {
       _snack(context, 'Sign in with Apple is only available on iPhone/iPad.');
@@ -193,7 +195,7 @@ class SettingsController {
         '🍎 SignInWithAppleAuthorizationException: ${e.code} ${e.message}\n$st',
       );
       if (e.code == AuthorizationErrorCode.canceled) return;
-      _snack(context, e.message ?? e.code.toString());
+      _snack(context, e.message);
     } on FirebaseAuthException catch (e, st) {
       _log('🔥 FirebaseAuthException (Apple): ${e.code} ${e.message}\n$st');
       _snack(context, '${e.code}: ${e.message ?? ''}'.trim());
@@ -305,7 +307,7 @@ class SettingsController {
 
   /// 🔹 Sign out + nolla lokalt usage-snapshot.
   Future<void> signOut(BuildContext context) async {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     if (_authInFlight) return;
 

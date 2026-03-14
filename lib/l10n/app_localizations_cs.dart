@@ -630,7 +630,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERŠ DNE';
 
   @override
-  String get dailyGraceSaintLabel => 'UČENEC TÝDNE';
+  String get dailyGraceSaintLabel => 'OSOBA TÝDNE';
 
   @override
   String get dailyGraceReflectionLabel => 'VEČERNÍ ROZJÍMÁNÍ';
@@ -1270,7 +1270,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Du\'á za znovuobjevení imáma al-Mahdího (af), dvanáctého imáma, kterou naučil jeho otec. Šíitští věřící ji recitují denně po každé modlitbě jako projev oddanosti živému Imámovi.';
+      'Dua za zjevení Imáma al-Mahdího (af), dvanáctého Imáma, kterou mu předal jeho otec. Často ji recitují mnozí ší\'ité po modlitbě jako projev oddanosti živému Imámovi.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbíh paní Fátimy';
@@ -1372,11 +1372,11 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Ma\'súmín';
+  String get imamsScreenTitle => 'Čtrnáct neomylných';
 
   @override
   String get imamsScreenSubtitle =>
-      'Prorok, paní Fátima a dvanáct imámů — neomylní vůdci islámu';
+      'Prorok, paní Fatima a dvanáct Imámů — očištění a neomylní vůdci v dvanácti ší\'itském islámu';
 
   @override
   String get imamLabelBorn => 'Narozen';
@@ -1466,7 +1466,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get quickActionDailyHadith => 'Denní hadís';
 
   @override
-  String get quickAction14Masumeen => '14 Ma\'súmín';
+  String get quickAction14Masumeen => 'Čtrnáct neomylných';
 
   @override
   String get quickActionListenDuas => 'Poslech';
@@ -1546,13 +1546,36 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Šíitští poutníci tradičně cestují také do Medíny, aby navštívili hrob proroka Muhammada (SAW) v mešitě al-Nabawí a hroby imámů v Džannat al-Baqí. Tyto návštěvy mají nesmírný duchovní význam a pro většinu šíitských muslimů jsou považovány za nedílnou součást cesty.';
+      'Mnozí ší\'itští poutníci také cestují do Medíny na ziyarat Proroka Muhammada (SAW) v Masjid al-Nabawi a na hroby v Jannat al-Baqi. Tyto návštěvy mají hluboký duchovní význam, i když samy o sobě nejsou obřady Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hadždž je pátým pilířem islámu a je povinný jednou za život pro každého muslima, který je fyzicky i finančně schopen. Koná se v měsíci Dhu al-Hidždža a připomíná kroky proroka Ibráhíma (AS), jeho syna Ismá\'íla (AS) a paní Hádžar. Pro šíitské muslimy zahrnuje hadždž také hluboké požehnání návštěvy míst odpočinku Proroka (SAW) a Ahlul Bayt v Medíně.';
+      'Hajj je pátým pilířem islámu, povinný jednou za život pro každého muslima, který je fyzicky a finančně schopen. Pro většinu dnešních dvanácti ší\'itských poutníků to znamená Hajj al-Tamattu\', vykonávaný v měsíci Dhul Hijjah v stopách Proroka Ibrahíma (AS), jeho syna Ismá\'ila (AS) a paní Hádžar. Tento průvodce následuje džá\'fárský rámec obřadů, zatímco ziyarat v Medíně zůstává hluboce ceněnou cestou před nebo po Hajj.';
 
   @override
   String get umrahIntro =>
       'Umra je menší pouť do Mekky a na rozdíl od hadždže ji lze vykonat kdykoli během roku. Ačkoli není povinná, přináší nesmírnou duchovní odměnu a je považována za velmi doporučený akt uctívání. Sdílí několik rituálů s hadždžem, ale je kratší a skládá se ze čtyř hlavních obřadů.';
+
+  @override
+  String get voiceInputTitle => 'Hlasový vstup';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Mluvte svůj vstup k Ask Ayara místo psaní.';
+
+  @override
+  String get voiceInputMicDenied => 'Přístup k mikrofonu byl odepřen.';
+
+  @override
+  String get voiceInputSpeak => 'Mluvte místo toho';
+
+  @override
+  String get voiceInputListening => 'Poslouchám…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Přístup k mikrofonu je nutný pro hlasový vstup.';
 }

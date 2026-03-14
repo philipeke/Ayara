@@ -14,7 +14,7 @@ class RestorePurchasesSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     return AnimatedBuilder(
       animation: PurchaseController.instance,

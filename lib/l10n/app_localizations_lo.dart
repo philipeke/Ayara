@@ -625,7 +625,7 @@ class AppLocalizationsLo extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'ອາຍະຮ໌ປະຈໍາວັນ';
 
   @override
-  String get dailyGraceSaintLabel => 'ນັກວິຊາການປະຈໍາອາທິດ';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'ການໄຕ່ຕອງຕອນແລງ';
@@ -1263,7 +1263,7 @@ class AppLocalizationsLo extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'dua ເພື່ອຂໍໃຫ້ Imam al-Mahdī (af), Imam ອົງທີ 12, ປາກົດຕົວອີກຄັ້ງ, ຊຶ່ງຖືກສອນໂດຍບິດາຂອງທ່ານ. ຖືກອ່ານທຸກມື້ໂດຍຜູ້ສັດທາຊີອະຫຼັງຈາກການລະໝາດແຕ່ລະຄັ້ງ ເພື່ອເປັນການອຸທິດຕົນແກ່ Imam ຜູ້ມີຊີວິດຢູ່.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ ຂອງທ່ານນາງ Fāṭima';
@@ -1365,11 +1365,11 @@ class AppLocalizationsLo extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'ນະບີ, ທ່ານນາງ Fatima, ແລະ 12 ອິມາມ — ຜູ້ນໍາທີ່ບໍ່ຜິດພາດແຫ່ງອິສລາມ';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'ເກີດ';
@@ -1459,7 +1459,7 @@ class AppLocalizationsLo extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith ປະຈໍາວັນ';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'ຟັງ';
@@ -1539,13 +1539,35 @@ class AppLocalizationsLo extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'ຜູ້ຈາລິກ Shia ຕາມປະເພນີຈະເດີນທາງໄປ Medina ເພື່ອຢ້ຽມຢາມຫຼຸມຝັງສົບຂອງທ່ານນະບີ Muhammad ﷺ ທີ່ Masjid al-Nabawi ແລະ ຫຼຸມຝັງສົບຂອງອິມາມທີ່ Jannat al-Baqi ອີກດ້ວຍ. ການເຂົ້າຢ້ຽມຢາມເຫຼົ່ານີ້ມີຄວາມສໍາຄັນດ້ານຈິດວິນຍານຢ່າງສູງ ແລະ ຖືກມອງວ່າເປັນສ່ວນສໍາຄັນຂອງການເດີນທາງສໍາລັບຊາວມຸດສະລິມ Shia ສ່ວນໃຫຍ່.';
+      'ຜູ້ແສວງບຸນຊີອະຫຼາຍຄົນຍັງເດີນທາງໄປເມືອງມະດີນາເພື່ອເຮັດຊີຢາຣັດຕໍ່ສາດສະດາມູຮຳມັດ (SAW) ທີ່ Masjid al-Nabawi ແລະໄປເຢັ້ຍຢາມຫຼຸມຝັງສົບທີ່ Jannat al-Baqi. ການເຂົ້າຢ້ຽມເຫຼົ່ານີ້ມີຄວາມໝາຍທາງຈິດວິນຍານຢ່າງເລິກຊຶ້ງ ແຕ່ບໍ່ແມ່ນພິທີຂອງຮັຈໂດຍຕົງ.';
 
   @override
   String get hajjIntro =>
-      'Hajj ແມ່ນເສົາຫຼັກຂໍ້ທີ 5 ຂອງອິສລາມ ເຊິ່ງບັງຄັບຫນຶ່ງຄັ້ງໃນຊີວິດສໍາລັບຊາວມຸດສະລິມທຸກຄົນທີ່ມີຄວາມສາມາດທາງກາຍ ແລະ ການເງິນ. ມັນຖືກປະຕິບັດໃນເດືອນ Dhul Hijjah ແລະ ຍ້ອນຕາມຮອຍທ່ານນະບີ Ibrahim (AS), ບຸດຂອງທ່ານ Ismail (AS), ແລະ ທ່ານນາງ Hajar. ສໍາລັບຊາວມຸດສະລິມ Shia, Hajj ຍັງລວມເຖິງພອນອັນເລິກເຊິ່ງໃນການເຂົ້າຢ້ຽມຢາມສະຖານທີ່ພັກສຸດທ້າຍຂອງທ່ານນະບີ ﷺ ແລະ Ahlul Bayt ທີ່ Medina.';
+      'ຮັຈແມ່ນເສົາຫຼັກທີຫ້າຂອງອິດສະລາມ ແລະເປັນຂໍ້ບັງຄັບຄັ້ງໜຶ່ງໃນຊີວິດສໍາລັບມຸດສະລິມທຸກຄົນທີ່ມີຄວາມສາມາດທັງດ້ານຮ່າງກາຍແລະການເງິນ. ສໍາລັບຜູແສວງບຸນຊີອະສາຍສິບສອງອິມາມສ່ວນໃຫຍ່ໃນປັດຈຸບັນ ນີ້ໝາຍເຖິງ Hajj al-Tamattu\' ທີ່ຖືກປະກອບໃນເດືອນ Dhul Hijjah ຕາມຮອຍຂອງສາດສະດາ Ibrahim (AS), ລູກຊາຍຂອງທ່ານ Ismail (AS) ແລະ Lady Hajar. ຄູ່ມືນີ້ຕິດຕາມໂຄງຮ່າງ Ja\'fari ຂອງພິທີຕ່າງໆ ໃນຂະນະທີ່ຊີຢາຣັດໃນມະດີນາຍັງຄົງເປັນການເດີນທາງທາງຈິດວິນຍານທີ່ຖືກຮັກແພງຢ່າງຫຼາຍກ່ອນຫຼືຫຼັງຮັຈ.';
 
   @override
   String get umrahIntro =>
       'Umrah ແມ່ນການຈາລິກນ້ອຍໄປຫາ Mecca ແລະ ບໍ່ເໝືອນກັບ Hajj, ມັນສາມາດປະຕິບັດໄດ້ໃນຊ່ວງເວລາໃດກໍໄດ້ຂອງປີ. ເຖິງແມ່ນວ່າບໍ່ບັງຄັບ, ມັນມີຜົນຕອບແທນທາງຈິດວິນຍານຢ່າງຫຼວງຫຼາຍ ແລະ ຖືກມອງວ່າເປັນການເຄົາລົບທີ່ແນະນໍາຢ່າງສູງ. ມັນແບ່ງປັນບາງພິທີກໍາກັບ Hajj ແຕ່ສັ້ນກວ່າ ແລະ ປະກອບດ້ວຍ 4 ພິທີກໍາຫຼັກ.';
+
+  @override
+  String get voiceInputTitle => 'ການໃສ່ສຽງ';
+
+  @override
+  String get voiceInputMicTitle => 'ມິກແລະ';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'ເວົ້າສິ່ງທີ່ຈະຖາມ Ayara ທົ່ວໄປແທນການພິມ.';
+
+  @override
+  String get voiceInputMicDenied => 'ການເຂອງມິກແລະຖືກປະຕິເສດ.';
+
+  @override
+  String get voiceInputSpeak => 'ເວົ້າແທນ';
+
+  @override
+  String get voiceInputListening => 'ກຳລັງຟັງ…';
+
+  @override
+  String get voiceInputPermissionDenied => 'ການເຂອງມິກແລະຈະຕ້ອງໃສ່ສຽງ.';
 }

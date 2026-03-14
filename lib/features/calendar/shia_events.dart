@@ -1,6 +1,6 @@
 // lib/features/calendar/shia_events.dart
 //
-// Complete Shia Islamic event calendar — all 14 Masumeen birth/martyrdom dates
+// Complete Shia Islamic event calendar — all Fourteen Infallibles birth/martyrdom dates
 // plus major occasions, ordered by Hijri month.
 
 import 'shia_event_model.dart';
@@ -177,14 +177,15 @@ const List<ShiaEvent> kShiaEvents = [
 
   ShiaEvent(
     id: 'martyrdom_fatima',
-    nameEn: 'Martyrdom of Lady Fatima Zahra (SA)',
-    nameAr: 'شهادة السيدة فاطمة الزهراء',
+    nameEn: 'Fatimiyyah — Lady Fatima al-Zahra (SA)',
+    nameAr: 'الفاطمية',
     personEn: 'Lady Fatima al-Zahra (SA)',
-    type: ShiaEventType.martyrdom,
+    type: ShiaEventType.occasion,
     hijriMonth: 6, hijriDay: 3,
     description:
-        'The martyrdom of Lady Fatima al-Zahra (SA), daughter of the Holy Prophet and mother of the Imams, '
-        '75–95 days after her father\'s passing, 11 AH. The Lady of Light.',
+        'Many Twelver Shia communities mark Fatimiyyah in more than one period because reports differ '
+        'between 75 and 95 days after the Prophet\'s passing. This date reflects the later commemoration '
+        'widely observed in Jumada al-Thani.',
     isHighImportance: true,
   ),
 

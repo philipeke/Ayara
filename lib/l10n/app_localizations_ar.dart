@@ -617,7 +617,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'آية اليوم';
 
   @override
-  String get dailyGraceSaintLabel => 'عالِم الأسبوع';
+  String get dailyGraceSaintLabel => 'شخصية الأسبوع';
 
   @override
   String get dailyGraceReflectionLabel => 'تأمل المساء';
@@ -1251,7 +1251,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، علّمه والده. يقرأه الشيعة يوميًا بعد كل صلاة تعبيرًا عن الولاء للإمام الحي.';
+      'دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، الذي علمه والده. وغالبًا ما يُتلى من قبل العديد من المسلمين الشيعة بعد الصلاة كعمل من أعمال العبادة للإمام الحي.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'تسبيح السيدة فاطمة';
@@ -1352,11 +1352,11 @@ class AppLocalizationsAr extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'المعصومون الأربعة عشر';
+  String get imamsScreenTitle => 'الأئمة المعصومون الأربعة عشر';
 
   @override
   String get imamsScreenSubtitle =>
-      'النبي والسيدة فاطمة والأئمة الاثنا عشر — الأدلاء المعصومون في الإسلام';
+      'النبي، السيدة فاطمة، والأئمة الاثنا عشر — المرشدون المطهرون والمعصومون في الإسلام الشيعي الاثني عشري';
 
   @override
   String get imamLabelBorn => 'الولادة';
@@ -1445,7 +1445,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get quickActionDailyHadith => 'حديث اليوم';
 
   @override
-  String get quickAction14Masumeen => 'المعصومون 14';
+  String get quickAction14Masumeen => 'الأئمة المعصومون الأربعة عشر';
 
   @override
   String get quickActionListenDuas => 'استماع';
@@ -1525,15 +1525,38 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'يجري الحجاج الشيعة عادة أيضًا إلى المدينة المنورة لزيارة قبر النبي محمد (ص) في المسجد النبوي، وقبور الأئمة في جنة البقيع. وتحمل هذه الزيارات أهمية روحية عظيمة، وتُعد جزءًا أساسيًا من الرحلة عند معظم الشيعة.';
+      'يسافر العديد من الحجاج الشيعة أيضًا إلى المدينة لزيارة النبي محمد (صلى الله عليه وآله) في مسجد النبي والقبور في جنات البقيع. تحمل هذه الزيارات دلالات روحية عميقة، على الرغم من أنها ليست مناسك الحج بحد ذاتها.';
 
   @override
   String get hajjIntro =>
-      'الحج هو الركن الخامس من الإسلام، وهو واجب مرة في العمر على كل مسلم قادر بدنيًا وماليًا. ويؤدّى في شهر ذي الحجة، مستذكرًا خطى النبي إبراهيم (ع) وابنه إسماعيل (ع) والسيدة هاجر. وبالنسبة للمسلمين الشيعة، يشمل الحج أيضًا البركة العظيمة في زيارة مراقد النبي (ص) وأهل البيت في المدينة.';
+      'الحج هو الركن الخامس من أركان الإسلام، وهو واجب مرة واحدة في العمر لكل مسلم قادر جسديًا وماليًا. بالنسبة لمعظم الحجاج الشيعة الاثني عشر اليوم، يعني ذلك حج التمتع، الذي يُؤدى في شهر ذي الحجة على خطى النبي إبراهيم (عليه السلام)، وابنه إسماعيل (عليه السلام)، والسيدة هاجر. يتبع هذا الدليل الخطوط العريضة الجعفرية للمناسك، بينما تبقى الزيارة في المدينة رحلة محبوبة بعمق قبل أو بعد الحج.';
 
   @override
   String get umrahIntro =>
       'العمرة هي الحج الأصغر إلى مكة، وعلى خلاف الحج يمكن أداؤها في أي وقت من السنة. ورغم أنها ليست واجبة، فإن لها أجرًا روحيًا عظيمًا وتُعد من العبادات المستحبة جدًا. وتشترك مع الحج في عدة مناسك، لكنها أقصر وتتكوّن من أربعة أعمال رئيسية.';
+
+  @override
+  String get voiceInputTitle => 'إدخال صوتي';
+
+  @override
+  String get voiceInputMicTitle => 'ميكروفون';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'تحدث بإدخالك إلى Ask Ayara بدلاً من الكتابة.';
+
+  @override
+  String get voiceInputMicDenied => 'تم رفض الوصول إلى الميكروفون.';
+
+  @override
+  String get voiceInputSpeak => 'تحدث بدلاً من ذلك';
+
+  @override
+  String get voiceInputListening => 'استماع…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'يتطلب إدخال الصوت الوصول إلى الميكروفون.';
 }
 
 /// The translations for Arabic, as used in the United Arab Emirates (`ar_AE`).
@@ -2151,7 +2174,7 @@ class AppLocalizationsArAe extends AppLocalizationsAr {
   String get dailyGraceScriptureLabel => 'آية اليوم';
 
   @override
-  String get dailyGraceSaintLabel => 'عالِم الأسبوع';
+  String get dailyGraceSaintLabel => 'شخصية الأسبوع';
 
   @override
   String get dailyGraceReflectionLabel => 'تأمل المساء';
@@ -2784,7 +2807,7 @@ class AppLocalizationsArAe extends AppLocalizationsAr {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'هو دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، وقد علّمه أبوه. ويقرأه الشيعة المؤمنون يومياً بعد كل صلاة تعبيراً عن الولاء للإمام الحي.';
+      'دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، الذي علمه له والده. وغالبًا ما يُتلى من قبل العديد من المسلمين الشيعة بعد الصلاة كعمل من أعمال devotion للإمام الحي.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'تسبيح السيدة فاطمة';
@@ -2886,11 +2909,11 @@ class AppLocalizationsArAe extends AppLocalizationsAr {
   }
 
   @override
-  String get imamsScreenTitle => 'المعصومون الأربعة عشر';
+  String get imamsScreenTitle => 'الأئمة المعصومون الأربعة عشر';
 
   @override
   String get imamsScreenSubtitle =>
-      'النبي، والسيدة فاطمة، والأئمة الاثنا عشر — الهداة المعصومون في الإسلام';
+      'النبي، السيدة فاطمة، والأئمة الاثنا عشر — المرشدون المطهرون والمعصومون في الإسلام الشيعي الاثني عشري';
 
   @override
   String get imamLabelBorn => 'الميلاد';
@@ -2979,7 +3002,7 @@ class AppLocalizationsArAe extends AppLocalizationsAr {
   String get quickActionDailyHadith => 'حديث اليوم';
 
   @override
-  String get quickAction14Masumeen => 'المعصومون الأربعة عشر';
+  String get quickAction14Masumeen => 'الأئمة المعصومون الأربعة عشر';
 
   @override
   String get quickActionListenDuas => 'استماع';
@@ -3059,15 +3082,38 @@ class AppLocalizationsArAe extends AppLocalizationsAr {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'يجري العرف لدى الحجاج الشيعة أيضاً على السفر إلى المدينة المنورة لزيارة قبر النبي محمد ﷺ في المسجد النبوي، وقبور الأئمة في جنة البقيع. وتحمل هذه الزيارات دلالة روحية عظيمة، وتُعد جزءاً أصيلاً من الرحلة لدى معظم المسلمين الشيعة.';
+      'يسافر العديد من الحجاج الشيعة أيضًا إلى المدينة لزيارة النبي محمد (ص) في مسجد النبي والقبور في جنات البقيع. تحمل هذه الزيارات دلالات روحية عميقة، على الرغم من أنها ليست شعائر الحج بحد ذاتها.';
 
   @override
   String get hajjIntro =>
-      'الحج هو الركن الخامس من أركان الإسلام، وهو واجب مرة واحدة في العمر على كل مسلم قادر بدنياً ومالياً. ويؤدّى في شهر ذي الحجة، مستعيداً خطى النبي إبراهيم (ع) وابنه إسماعيل (ع) والسيدة هاجر. وبالنسبة للمسلمين الشيعة، يشمل الحج أيضاً بركة عظيمة تتمثل في زيارة مراقد النبي ﷺ وأهل البيت في المدينة المنورة.';
+      'الحج هو الركن الخامس من أركان الإسلام، وهو واجب مرة واحدة في العمر لكل مسلم قادر جسديًا وماليًا. بالنسبة لمعظم الحجاج الشيعة الاثني عشر اليوم، يعني ذلك حج التمتع، الذي يُؤدى في شهر ذي الحجة على خطى النبي إبراهيم (ع)، وابنه إسماعيل (ع)، والسيدة هاجر. يتبع هذا الدليل الخطوط العريضة الجعفرية للشعائر، بينما تبقى الزيارة في المدينة رحلة محبوبة بعمق قبل أو بعد الحج.';
 
   @override
   String get umrahIntro =>
       'العمرة هي الحج الأصغر إلى مكة، وعلى خلاف الحج يمكن أداؤها في أي وقت من السنة. ومع أنها ليست واجبة، فإن لها أجراً روحياً عظيماً، وتُعد عبادة مستحبة جداً. وهي تشترك مع الحج في عدد من المناسك، لكنها أقصر، وتتكوّن من أربعة أعمال رئيسية.';
+
+  @override
+  String get voiceInputTitle => 'إدخال صوتي';
+
+  @override
+  String get voiceInputMicTitle => 'ميكروفون';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'تحدث بإدخالك إلى Ask Ayara بدلاً من الكتابة.';
+
+  @override
+  String get voiceInputMicDenied => 'تم رفض الوصول إلى الميكروفون.';
+
+  @override
+  String get voiceInputSpeak => 'تحدث بدلاً من ذلك';
+
+  @override
+  String get voiceInputListening => 'جاري الاستماع…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'يتطلب إدخال الصوت الوصول إلى الميكروفون.';
 }
 
 /// The translations for Arabic, as used in Egypt (`ar_EG`).
@@ -3684,7 +3730,7 @@ class AppLocalizationsArEg extends AppLocalizationsAr {
   String get dailyGraceScriptureLabel => 'آية اليوم';
 
   @override
-  String get dailyGraceSaintLabel => 'عالِم الأسبوع';
+  String get dailyGraceSaintLabel => 'شخصية الأسبوع';
 
   @override
   String get dailyGraceReflectionLabel => 'تأمل المساء';
@@ -4317,7 +4363,7 @@ class AppLocalizationsArEg extends AppLocalizationsAr {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'هو دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، وقد علّمه أبوه. ويقرأه الشيعة المؤمنون يومياً بعد كل صلاة تعبيراً عن الولاء للإمام الحي.';
+      'دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، الذي علمه والده. وغالبًا ما يُتلى من قبل العديد من المسلمين الشيعة بعد الصلاة كعمل من أعمال العبادة للإمام الحي.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'تسبيح السيدة فاطمة';
@@ -4419,11 +4465,11 @@ class AppLocalizationsArEg extends AppLocalizationsAr {
   }
 
   @override
-  String get imamsScreenTitle => 'المعصومون الأربعة عشر';
+  String get imamsScreenTitle => 'الأئمة المعصومون الأربعة عشر';
 
   @override
   String get imamsScreenSubtitle =>
-      'النبي، والسيدة فاطمة، والأئمة الاثنا عشر — الهداة المعصومون في الإسلام';
+      'النبي، السيدة فاطمة، والأئمة الاثنا عشر — المرشدون المطهرون والمعصومون في الإسلام الشيعي الاثني عشري';
 
   @override
   String get imamLabelBorn => 'الميلاد';
@@ -4512,7 +4558,7 @@ class AppLocalizationsArEg extends AppLocalizationsAr {
   String get quickActionDailyHadith => 'حديث اليوم';
 
   @override
-  String get quickAction14Masumeen => 'المعصومون الأربعة عشر';
+  String get quickAction14Masumeen => 'الأئمة المعصومون الأربعة عشر';
 
   @override
   String get quickActionListenDuas => 'استماع';
@@ -4592,15 +4638,38 @@ class AppLocalizationsArEg extends AppLocalizationsAr {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'يجري العرف لدى الحجاج الشيعة أيضاً على السفر إلى المدينة المنورة لزيارة قبر النبي محمد ﷺ في المسجد النبوي، وقبور الأئمة في جنة البقيع. وتحمل هذه الزيارات دلالة روحية عظيمة، وتُعد جزءاً أصيلاً من الرحلة لدى معظم المسلمين الشيعة.';
+      'يسافر العديد من الحجاج الشيعة أيضًا إلى المدينة لزيارة النبي محمد (صلى الله عليه وآله) في مسجد النبي وقبور جنة البقيع. تحمل هذه الزيارات دلالات روحية عميقة، على الرغم من أنها ليست شعائر الحج بحد ذاتها.';
 
   @override
   String get hajjIntro =>
-      'الحج هو الركن الخامس من أركان الإسلام، وهو واجب مرة واحدة في العمر على كل مسلم قادر بدنياً ومالياً. ويؤدّى في شهر ذي الحجة، مستعيداً خطى النبي إبراهيم (ع) وابنه إسماعيل (ع) والسيدة هاجر. وبالنسبة للمسلمين الشيعة، يشمل الحج أيضاً بركة عظيمة تتمثل في زيارة مراقد النبي ﷺ وأهل البيت في المدينة المنورة.';
+      'الحج هو الركن الخامس من أركان الإسلام، وهو واجب مرة واحدة في العمر لكل مسلم قادر جسديًا وماليًا. بالنسبة لمعظم الحجاج الشيعة الاثني عشر اليوم، يعني ذلك حج التمتع، الذي يُؤدى في شهر ذي الحجة على خطى النبي إبراهيم (عليه السلام)، وابنه إسماعيل (عليه السلام)، والسيدة هاجر. يتبع هذا الدليل الخطوط العريضة الجعفرية للشعائر، بينما تبقى الزيارة في المدينة رحلة محبوبة بعمق قبل أو بعد الحج.';
 
   @override
   String get umrahIntro =>
       'العمرة هي الحج الأصغر إلى مكة، وعلى خلاف الحج يمكن أداؤها في أي وقت من السنة. ومع أنها ليست واجبة، فإن لها أجراً روحياً عظيماً، وتُعد عبادة مستحبة جداً. وهي تشترك مع الحج في عدد من المناسك، لكنها أقصر، وتتكوّن من أربعة أعمال رئيسية.';
+
+  @override
+  String get voiceInputTitle => 'إدخال صوتي';
+
+  @override
+  String get voiceInputMicTitle => 'ميكروفون';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'تحدث بإدخالك إلى Ask Ayara بدلاً من الكتابة.';
+
+  @override
+  String get voiceInputMicDenied => 'تم رفض الوصول إلى الميكروفون.';
+
+  @override
+  String get voiceInputSpeak => 'تحدث بدلاً من ذلك';
+
+  @override
+  String get voiceInputListening => 'جاري الاستماع…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'يتطلب إدخال الصوت الوصول إلى الميكروفون.';
 }
 
 /// The translations for Arabic, as used in Iraq (`ar_IQ`).
@@ -5217,7 +5286,7 @@ class AppLocalizationsArIq extends AppLocalizationsAr {
   String get dailyGraceScriptureLabel => 'آية اليوم';
 
   @override
-  String get dailyGraceSaintLabel => 'عالِم الأسبوع';
+  String get dailyGraceSaintLabel => 'شخصية الأسبوع';
 
   @override
   String get dailyGraceReflectionLabel => 'تأمل المساء';
@@ -5851,7 +5920,7 @@ class AppLocalizationsArIq extends AppLocalizationsAr {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، علّمه والده. يقرأه الشيعة يوميًا بعد كل صلاة تعبيرًا عن الولاء للإمام الحي.';
+      'دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، الذي علمه والده. وغالبًا ما يُتلى من قبل العديد من المسلمين الشيعة بعد الصلاة كعمل من أعمال العبادة للإمام الحي.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'تسبيح السيدة فاطمة';
@@ -5952,11 +6021,11 @@ class AppLocalizationsArIq extends AppLocalizationsAr {
   }
 
   @override
-  String get imamsScreenTitle => 'المعصومون الأربعة عشر';
+  String get imamsScreenTitle => 'الأئمة الأربعة عشر';
 
   @override
   String get imamsScreenSubtitle =>
-      'النبي والسيدة فاطمة والأئمة الاثنا عشر — الأدلاء المعصومون في الإسلام';
+      'النبي، السيدة فاطمة، والأئمة الاثنا عشر — المرشدون المطهرون والمعصومون في الإسلام الشيعي الاثني عشري';
 
   @override
   String get imamLabelBorn => 'الولادة';
@@ -6045,7 +6114,7 @@ class AppLocalizationsArIq extends AppLocalizationsAr {
   String get quickActionDailyHadith => 'حديث اليوم';
 
   @override
-  String get quickAction14Masumeen => 'المعصومون 14';
+  String get quickAction14Masumeen => 'الأئمة الأربعة عشر';
 
   @override
   String get quickActionListenDuas => 'استماع';
@@ -6125,15 +6194,38 @@ class AppLocalizationsArIq extends AppLocalizationsAr {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'يجري الحجاج الشيعة عادة أيضًا إلى المدينة المنورة لزيارة قبر النبي محمد (ص) في المسجد النبوي، وقبور الأئمة في جنة البقيع. وتحمل هذه الزيارات أهمية روحية عظيمة، وتُعد جزءًا أساسيًا من الرحلة عند معظم الشيعة.';
+      'يسافر العديد من الحجاج الشيعة أيضًا إلى المدينة لزيارة النبي محمد (ص) في مسجد النبي وزيارة القبور في جنات البقيع. تحمل هذه الزيارات دلالات روحية عميقة، على الرغم من أنها ليست مناسك الحج بحد ذاتها.';
 
   @override
   String get hajjIntro =>
-      'الحج هو الركن الخامس من الإسلام، وهو واجب مرة في العمر على كل مسلم قادر بدنيًا وماليًا. ويؤدّى في شهر ذي الحجة، مستذكرًا خطى النبي إبراهيم (ع) وابنه إسماعيل (ع) والسيدة هاجر. وبالنسبة للمسلمين الشيعة، يشمل الحج أيضًا البركة العظيمة في زيارة مراقد النبي (ص) وأهل البيت في المدينة.';
+      'الحج هو الركن الخامس من أركان الإسلام، وهو واجب مرة واحدة في العمر لكل مسلم قادر جسديًا وماليًا. بالنسبة لمعظم الحجاج الشيعة الاثني عشر اليوم، يعني ذلك حج التمتع، الذي يُؤدى في شهر ذي الحجة على خطى النبي إبراهيم (ع)، وابنه إسماعيل (ع)، والسيدة هاجر. يتبع هذا الدليل الخطوط العريضة الجعفرية للمناسك، بينما تبقى الزيارة في المدينة رحلة محبوبة بعمق قبل أو بعد الحج.';
 
   @override
   String get umrahIntro =>
       'العمرة هي الحج الأصغر إلى مكة، وعلى خلاف الحج يمكن أداؤها في أي وقت من السنة. ورغم أنها ليست واجبة، فإن لها أجرًا روحيًا عظيمًا وتُعد من العبادات المستحبة جدًا. وتشترك مع الحج في عدة مناسك، لكنها أقصر وتتكوّن من أربعة أعمال رئيسية.';
+
+  @override
+  String get voiceInputTitle => 'إدخال صوتي';
+
+  @override
+  String get voiceInputMicTitle => 'ميكروفون';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'تحدث بإدخالك إلى Ask Ayara بدلاً من الكتابة.';
+
+  @override
+  String get voiceInputMicDenied => 'تم رفض الوصول إلى الميكروفون.';
+
+  @override
+  String get voiceInputSpeak => 'تحدث بدلاً من ذلك';
+
+  @override
+  String get voiceInputListening => 'استماع…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'الوصول إلى الميكروفون مطلوب لإدخال الصوت.';
 }
 
 /// The translations for Arabic, as used in Morocco (`ar_MA`).
@@ -6746,7 +6838,7 @@ class AppLocalizationsArMa extends AppLocalizationsAr {
   String get dailyGraceScriptureLabel => 'آية اليوم';
 
   @override
-  String get dailyGraceSaintLabel => 'عالِم الأسبوع';
+  String get dailyGraceSaintLabel => 'شخصية الأسبوع';
 
   @override
   String get dailyGraceReflectionLabel => 'تأمل المساء';
@@ -7379,7 +7471,7 @@ class AppLocalizationsArMa extends AppLocalizationsAr {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، وقد علّمه والده. يقرأه الشيعة يومياً بعد كل صلاة تعبيراً عن الولاء للإمام الحي.';
+      'دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، الذي علمه والده. يُتلى هذا الدعاء غالبًا من قبل العديد من المسلمين الشيعة بعد الصلاة كعمل من أعمال العبادة للإمام الحي.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'تسبيح السيدة فاطمة';
@@ -7481,11 +7573,11 @@ class AppLocalizationsArMa extends AppLocalizationsAr {
   }
 
   @override
-  String get imamsScreenTitle => 'المعصومون الأربعة عشر';
+  String get imamsScreenTitle => 'الأئمة الأربعة عشر';
 
   @override
   String get imamsScreenSubtitle =>
-      'النبي، السيدة فاطمة، والأئمة الاثنا عشر — الهداة المعصومون في الإسلام';
+      'النبي، السيدة فاطمة، والأئمة الاثنا عشر — المرشدون المطهرون والمعصومون في الإسلام الشيعي الاثني عشري';
 
   @override
   String get imamLabelBorn => 'الولادة';
@@ -7574,7 +7666,7 @@ class AppLocalizationsArMa extends AppLocalizationsAr {
   String get quickActionDailyHadith => 'حديث اليوم';
 
   @override
-  String get quickAction14Masumeen => 'المعصومون الأربعة عشر';
+  String get quickAction14Masumeen => 'الأئمة الأربعة عشر';
 
   @override
   String get quickActionListenDuas => 'استمع';
@@ -7654,15 +7746,38 @@ class AppLocalizationsArMa extends AppLocalizationsAr {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'الحجاج الشيعة كيمشيو كذلك تقليدياً إلى المدينة لزيارة قبر النبي محمد ﷺ في المسجد النبوي، وقبور الأئمة في جنة البقيع. هاد الزيارات عندها قيمة روحية كبيرة وتُعتبر جزءاً أساسياً من الرحلة عند أغلب الشيعة.';
+      'يسافر العديد من الحجاج الشيعة أيضًا إلى المدينة لزيارة النبي محمد (ص) في مسجد النبي والقبور في جنات البقيع. تحمل هذه الزيارات دلالات روحية عميقة، على الرغم من أنها ليست مناسك الحج بحد ذاتها.';
 
   @override
   String get hajjIntro =>
-      'الحج هو الركن الخامس من الإسلام، واجب مرة واحدة في العمر على كل مسلم قادر بدنياً ومالياً. كيتأدى فشهر ذي الحجة، وكيسترجع خطى النبي إبراهيم (ع)، وابنه إسماعيل (ع)، والسيدة هاجر. وبالنسبة للشيعة، الحج كيتضمن كذلك بركة زيارة مراقد النبي ﷺ وأهل البيت فالمدينة.';
+      'الحج هو الركن الخامس من أركان الإسلام، وهو واجب مرة واحدة في العمر لكل مسلم قادر جسديًا وماليًا. بالنسبة لمعظم الحجاج الشيعة الاثني عشر اليوم، يعني ذلك حج التمتع، الذي يُؤدى في شهر ذي الحجة على خطى النبي إبراهيم (ع)، وابنه إسماعيل (ع)، والسيدة هاجر. يتبع هذا الدليل الخطوط العريضة الجعفرية للمناسك، بينما تبقى الزيارة في المدينة رحلة محبوبة بعمق قبل أو بعد الحج.';
 
   @override
   String get umrahIntro =>
       'العمرة هي الحج الأصغر إلى مكة، وخلافاً للحج، يمكن أداؤها في أي وقت من السنة. ورغم أنها غير واجبة، فهي ذات أجر روحي عظيم وتُعتبر عبادة مستحبة جداً. فيها عدة مناسك مشتركة مع الحج لكنها أقصر، وتتكوّن من أربع شعائر رئيسية.';
+
+  @override
+  String get voiceInputTitle => 'إدخال صوتي';
+
+  @override
+  String get voiceInputMicTitle => 'ميكروفون';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'تحدث بإدخالك إلى Ask Ayara بدلاً من الكتابة.';
+
+  @override
+  String get voiceInputMicDenied => 'تم رفض الوصول إلى الميكروفون.';
+
+  @override
+  String get voiceInputSpeak => 'تحدث بدلاً من ذلك';
+
+  @override
+  String get voiceInputListening => 'جاري الاستماع…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'يتطلب إدخال الصوت الوصول إلى الميكروفون.';
 }
 
 /// The translations for Arabic, as used in Saudi Arabia (`ar_SA`).
@@ -8281,7 +8396,7 @@ class AppLocalizationsArSa extends AppLocalizationsAr {
   String get dailyGraceScriptureLabel => 'آية اليوم';
 
   @override
-  String get dailyGraceSaintLabel => 'عالِم الأسبوع';
+  String get dailyGraceSaintLabel => 'شخصية الأسبوع';
 
   @override
   String get dailyGraceReflectionLabel => 'تأمل المساء';
@@ -8914,7 +9029,7 @@ class AppLocalizationsArSa extends AppLocalizationsAr {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'هو دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، وقد علّمه أبوه. ويقرأه الشيعة المؤمنون يومياً بعد كل صلاة تعبيراً عن الولاء للإمام الحي.';
+      'دعاء لظهور الإمام المهدي (عج)، الإمام الثاني عشر، الذي علمه والده. وغالبًا ما يُتلى من قبل العديد من المسلمين الشيعة بعد الصلاة كعمل من أعمال devotion للإمام الحي.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'تسبيح السيدة فاطمة';
@@ -9016,11 +9131,11 @@ class AppLocalizationsArSa extends AppLocalizationsAr {
   }
 
   @override
-  String get imamsScreenTitle => 'المعصومون الأربعة عشر';
+  String get imamsScreenTitle => 'الأئمة المعصومون الأربعة عشر';
 
   @override
   String get imamsScreenSubtitle =>
-      'النبي، والسيدة فاطمة، والأئمة الاثنا عشر — الهداة المعصومون في الإسلام';
+      'النبي، السيدة فاطمة، والأئمة الاثنا عشر — المرشدون المطهرون والمعصومون في الإسلام الشيعي الاثني عشري';
 
   @override
   String get imamLabelBorn => 'الميلاد';
@@ -9109,7 +9224,7 @@ class AppLocalizationsArSa extends AppLocalizationsAr {
   String get quickActionDailyHadith => 'حديث اليوم';
 
   @override
-  String get quickAction14Masumeen => 'المعصومون الأربعة عشر';
+  String get quickAction14Masumeen => 'الأئمة المعصومون الأربعة عشر';
 
   @override
   String get quickActionListenDuas => 'استماع';
@@ -9189,13 +9304,36 @@ class AppLocalizationsArSa extends AppLocalizationsAr {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'يجري العرف لدى الحجاج الشيعة أيضاً على السفر إلى المدينة المنورة لزيارة قبر النبي محمد ﷺ في المسجد النبوي، وقبور الأئمة في جنة البقيع. وتحمل هذه الزيارات دلالة روحية عظيمة، وتُعد جزءاً أصيلاً من الرحلة لدى معظم المسلمين الشيعة.';
+      'يسافر العديد من الحجاج الشيعة أيضًا إلى المدينة لزيارة النبي محمد (صلى الله عليه وآله) في مسجد النبي والقبور في جنات البقيع. تحمل هذه الزيارات دلالات روحية عميقة، على الرغم من أنها ليست مناسك الحج بحد ذاتها.';
 
   @override
   String get hajjIntro =>
-      'الحج هو الركن الخامس من أركان الإسلام، وهو واجب مرة واحدة في العمر على كل مسلم قادر بدنياً ومالياً. ويؤدّى في شهر ذي الحجة، مستعيداً خطى النبي إبراهيم (ع) وابنه إسماعيل (ع) والسيدة هاجر. وبالنسبة للمسلمين الشيعة، يشمل الحج أيضاً بركة عظيمة تتمثل في زيارة مراقد النبي ﷺ وأهل البيت في المدينة المنورة.';
+      'الحج هو الركن الخامس من أركان الإسلام، واجب مرة واحدة في العمر على كل مسلم ��ادر جسديًا وماليًا. بالنسبة لمعظم الحجاج الشيعة الاثني عشر اليوم، يعني ذلك حج التمتع، الذي يُؤدى في شهر ذي الحجة على خطى النبي إبراهيم (عليه السلام)، وابنه إسماعيل (عليه السلام)، والسيدة هاجر. يتبع هذا الدليل الخطوط العريضة الجعفرية للمناسك، بينما تبقى الزيارة في المدينة رحلة محبوبة بعمق قبل أو بعد الحج.';
 
   @override
   String get umrahIntro =>
       'العمرة هي الحج الأصغر إلى مكة، وعلى خلاف الحج يمكن أداؤها في أي وقت من السنة. ومع أنها ليست واجبة، فإن لها أجراً روحياً عظيماً، وتُعد عبادة مستحبة جداً. وهي تشترك مع الحج في عدد من المناسك، لكنها أقصر، وتتكوّن من أربعة أعمال رئيسية.';
+
+  @override
+  String get voiceInputTitle => 'إدخال صوتي';
+
+  @override
+  String get voiceInputMicTitle => 'ميكروفون';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'تحدث بإدخالك إلى Ask Ayara بدلاً من الكتابة.';
+
+  @override
+  String get voiceInputMicDenied => 'تم رفض الوصول إلى الميكروفون.';
+
+  @override
+  String get voiceInputSpeak => 'تحدث بدلاً من ذلك';
+
+  @override
+  String get voiceInputListening => 'استماع…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'يتطلب إدخال الصوت الوصول إلى الميكروفون.';
 }

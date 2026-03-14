@@ -626,7 +626,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERSE OF THE DAY';
 
   @override
-  String get dailyGraceSaintLabel => 'SCHOLAR OF THE WEEK';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'EVENING REFLECTION';
@@ -1268,7 +1268,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. Recited daily by the Shia faithful after every prayer as an act of devotion to the living Imam.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ of Lady Fāṭima';
@@ -1370,11 +1370,11 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'The 14 Masumeen';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'The Prophet, Lady Fatima, and the Twelve Imams — the infallible guides of Islam';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Born';
@@ -1464,7 +1464,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get quickActionDailyHadith => 'Daily Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Listen';
@@ -1545,15 +1545,38 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia pilgrims traditionally also travel to Medina to visit the tomb of the Prophet Muhammad (SAW) at Masjid al-Nabawi, and the graves of the Imams at Jannat al-Baqi. These visits carry immense spiritual significance and are considered an integral part of the journey for most Shia Muslims.';
+      'Many Shia pilgrims also travel to Medina for ziyarat of the Prophet Muhammad (SAW) at Masjid al-Nabawi and the graves at Jannat al-Baqi. These visits carry deep spiritual significance, though they are not themselves rites of Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.';
+      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. For most Twelver Shia pilgrims today, this means Hajj al-Tamattu\', performed in the month of Dhul Hijjah in the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. This guide follows the Ja\'fari outline of the rites, while ziyarat in Medina remains a deeply cherished journey before or after Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah is the lesser pilgrimage to Mecca and, unlike Hajj, can be performed at any time of the year. While not obligatory, it carries immense spiritual reward and is considered a highly recommended act of worship. It shares several rituals with Hajj but is shorter, consisting of four main rites.';
+
+  @override
+  String get voiceInputTitle => 'Voice Input';
+
+  @override
+  String get voiceInputMicTitle => 'Microphone';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Speak your input to Ask Ayara instead of typing.';
+
+  @override
+  String get voiceInputMicDenied => 'Microphone access was denied.';
+
+  @override
+  String get voiceInputSpeak => 'Speak instead';
+
+  @override
+  String get voiceInputListening => 'Listening…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Microphone access is required for voice input.';
 }
 
 /// The translations for English, as used in Australia (`en_AU`).
@@ -2178,7 +2201,7 @@ class AppLocalizationsEnAu extends AppLocalizationsEn {
   String get dailyGraceScriptureLabel => 'VERSE OF THE DAY';
 
   @override
-  String get dailyGraceSaintLabel => 'SCHOLAR OF THE WEEK';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'EVENING REFLECTION';
@@ -2820,7 +2843,7 @@ class AppLocalizationsEnAu extends AppLocalizationsEn {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. Recited daily by the Shia faithful after every prayer as an act of devotion to the living Imam.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ of Lady Fāṭima';
@@ -2922,11 +2945,11 @@ class AppLocalizationsEnAu extends AppLocalizationsEn {
   }
 
   @override
-  String get imamsScreenTitle => 'The 14 Masumeen';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'The Prophet, Lady Fatima, and the Twelve Imams — the infallible guides of Islam';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Born';
@@ -3016,7 +3039,7 @@ class AppLocalizationsEnAu extends AppLocalizationsEn {
   String get quickActionDailyHadith => 'Daily Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Listen';
@@ -3097,11 +3120,11 @@ class AppLocalizationsEnAu extends AppLocalizationsEn {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia pilgrims traditionally also travel to Medina to visit the tomb of the Prophet Muhammad (SAW) at Masjid al-Nabawi, and the graves of the Imams at Jannat al-Baqi. These visits carry immense spiritual significance and are considered an integral part of the journey for most Shia Muslims.';
+      'Many Shia pilgrims also travel to Medina for ziyarat of the Prophet Muhammad (SAW) at Masjid al-Nabawi and the graves at Jannat al-Baqi. These visits carry deep spiritual significance, though they are not themselves rites of Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.';
+      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. For most Twelver Shia pilgrims today, this means Hajj al-Tamattu\', performed in the month of Dhul Hijjah in the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. This guide follows the Ja\'fari outline of the rites, while ziyarat in Medina remains a deeply cherished journey before or after Hajj.';
 
   @override
   String get umrahIntro =>
@@ -3730,7 +3753,7 @@ class AppLocalizationsEnCa extends AppLocalizationsEn {
   String get dailyGraceScriptureLabel => 'VERSE OF THE DAY';
 
   @override
-  String get dailyGraceSaintLabel => 'SCHOLAR OF THE WEEK';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'EVENING REFLECTION';
@@ -4372,7 +4395,7 @@ class AppLocalizationsEnCa extends AppLocalizationsEn {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. Recited daily by the Shia faithful after every prayer as an act of devotion to the living Imam.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ of Lady Fāṭima';
@@ -4474,11 +4497,11 @@ class AppLocalizationsEnCa extends AppLocalizationsEn {
   }
 
   @override
-  String get imamsScreenTitle => 'The 14 Masumeen';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'The Prophet, Lady Fatima, and the Twelve Imams — the infallible guides of Islam';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Born';
@@ -4568,7 +4591,7 @@ class AppLocalizationsEnCa extends AppLocalizationsEn {
   String get quickActionDailyHadith => 'Daily Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Listen';
@@ -4649,11 +4672,11 @@ class AppLocalizationsEnCa extends AppLocalizationsEn {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia pilgrims traditionally also travel to Medina to visit the tomb of the Prophet Muhammad (SAW) at Masjid al-Nabawi, and the graves of the Imams at Jannat al-Baqi. These visits carry immense spiritual significance and are considered an integral part of the journey for most Shia Muslims.';
+      'Many Shia pilgrims also travel to Medina for ziyarat of the Prophet Muhammad (SAW) at Masjid al-Nabawi and the graves at Jannat al-Baqi. These visits carry deep spiritual significance, though they are not themselves rites of Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.';
+      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. For most Twelver Shia pilgrims today, this means Hajj al-Tamattu\', performed in the month of Dhul Hijjah in the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. This guide follows the Ja\'fari outline of the rites, while ziyarat in Medina remains a deeply cherished journey before or after Hajj.';
 
   @override
   String get umrahIntro =>
@@ -5282,7 +5305,7 @@ class AppLocalizationsEnGb extends AppLocalizationsEn {
   String get dailyGraceScriptureLabel => 'VERSE OF THE DAY';
 
   @override
-  String get dailyGraceSaintLabel => 'SCHOLAR OF THE WEEK';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'EVENING REFLECTION';
@@ -5924,7 +5947,7 @@ class AppLocalizationsEnGb extends AppLocalizationsEn {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. Recited daily by the Shia faithful after every prayer as an act of devotion to the living Imam.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ of Lady Fāṭima';
@@ -6026,11 +6049,11 @@ class AppLocalizationsEnGb extends AppLocalizationsEn {
   }
 
   @override
-  String get imamsScreenTitle => 'The 14 Masumeen';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'The Prophet, Lady Fatima, and the Twelve Imams — the infallible guides of Islam';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Born';
@@ -6120,7 +6143,7 @@ class AppLocalizationsEnGb extends AppLocalizationsEn {
   String get quickActionDailyHadith => 'Daily Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Listen';
@@ -6201,11 +6224,11 @@ class AppLocalizationsEnGb extends AppLocalizationsEn {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia pilgrims traditionally also travel to Medina to visit the tomb of the Prophet Muhammad (SAW) at Masjid al-Nabawi, and the graves of the Imams at Jannat al-Baqi. These visits carry immense spiritual significance and are considered an integral part of the journey for most Shia Muslims.';
+      'Many Shia pilgrims also travel to Medina for ziyarat of the Prophet Muhammad (SAW) at Masjid al-Nabawi and the graves at Jannat al-Baqi. These visits carry deep spiritual significance, though they are not themselves rites of Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.';
+      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. For most Twelver Shia pilgrims today, this means Hajj al-Tamattu\', performed in the month of Dhul Hijjah in the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. This guide follows the Ja\'fari outline of the rites, while ziyarat in Medina remains a deeply cherished journey before or after Hajj.';
 
   @override
   String get umrahIntro =>
@@ -6834,7 +6857,7 @@ class AppLocalizationsEnIe extends AppLocalizationsEn {
   String get dailyGraceScriptureLabel => 'VERSE OF THE DAY';
 
   @override
-  String get dailyGraceSaintLabel => 'SCHOLAR OF THE WEEK';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'EVENING REFLECTION';
@@ -7476,7 +7499,7 @@ class AppLocalizationsEnIe extends AppLocalizationsEn {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. Recited daily by the Shia faithful after every prayer as an act of devotion to the living Imam.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ of Lady Fāṭima';
@@ -7578,11 +7601,11 @@ class AppLocalizationsEnIe extends AppLocalizationsEn {
   }
 
   @override
-  String get imamsScreenTitle => 'The 14 Masumeen';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'The Prophet, Lady Fatima, and the Twelve Imams — the infallible guides of Islam';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Born';
@@ -7672,7 +7695,7 @@ class AppLocalizationsEnIe extends AppLocalizationsEn {
   String get quickActionDailyHadith => 'Daily Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Listen';
@@ -7753,11 +7776,11 @@ class AppLocalizationsEnIe extends AppLocalizationsEn {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia pilgrims traditionally also travel to Medina to visit the tomb of the Prophet Muhammad (SAW) at Masjid al-Nabawi, and the graves of the Imams at Jannat al-Baqi. These visits carry immense spiritual significance and are considered an integral part of the journey for most Shia Muslims.';
+      'Many Shia pilgrims also travel to Medina for ziyarat of the Prophet Muhammad (SAW) at Masjid al-Nabawi and the graves at Jannat al-Baqi. These visits carry deep spiritual significance, though they are not themselves rites of Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.';
+      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. For most Twelver Shia pilgrims today, this means Hajj al-Tamattu\', performed in the month of Dhul Hijjah in the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. This guide follows the Ja\'fari outline of the rites, while ziyarat in Medina remains a deeply cherished journey before or after Hajj.';
 
   @override
   String get umrahIntro =>
@@ -8386,7 +8409,7 @@ class AppLocalizationsEnNz extends AppLocalizationsEn {
   String get dailyGraceScriptureLabel => 'VERSE OF THE DAY';
 
   @override
-  String get dailyGraceSaintLabel => 'SCHOLAR OF THE WEEK';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'EVENING REFLECTION';
@@ -9028,7 +9051,7 @@ class AppLocalizationsEnNz extends AppLocalizationsEn {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. Recited daily by the Shia faithful after every prayer as an act of devotion to the living Imam.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ of Lady Fāṭima';
@@ -9130,11 +9153,11 @@ class AppLocalizationsEnNz extends AppLocalizationsEn {
   }
 
   @override
-  String get imamsScreenTitle => 'The 14 Masumeen';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'The Prophet, Lady Fatima, and the Twelve Imams — the infallible guides of Islam';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Born';
@@ -9224,7 +9247,7 @@ class AppLocalizationsEnNz extends AppLocalizationsEn {
   String get quickActionDailyHadith => 'Daily Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Listen';
@@ -9305,11 +9328,11 @@ class AppLocalizationsEnNz extends AppLocalizationsEn {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia pilgrims traditionally also travel to Medina to visit the tomb of the Prophet Muhammad (SAW) at Masjid al-Nabawi, and the graves of the Imams at Jannat al-Baqi. These visits carry immense spiritual significance and are considered an integral part of the journey for most Shia Muslims.';
+      'Many Shia pilgrims also travel to Medina for ziyarat of the Prophet Muhammad (SAW) at Masjid al-Nabawi and the graves at Jannat al-Baqi. These visits carry deep spiritual significance, though they are not themselves rites of Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.';
+      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. For most Twelver Shia pilgrims today, this means Hajj al-Tamattu\', performed in the month of Dhul Hijjah in the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. This guide follows the Ja\'fari outline of the rites, while ziyarat in Medina remains a deeply cherished journey before or after Hajj.';
 
   @override
   String get umrahIntro =>
@@ -9938,7 +9961,7 @@ class AppLocalizationsEnSg extends AppLocalizationsEn {
   String get dailyGraceScriptureLabel => 'VERSE OF THE DAY';
 
   @override
-  String get dailyGraceSaintLabel => 'SCHOLAR OF THE WEEK';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'EVENING REFLECTION';
@@ -10580,7 +10603,7 @@ class AppLocalizationsEnSg extends AppLocalizationsEn {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. Recited daily by the Shia faithful after every prayer as an act of devotion to the living Imam.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ of Lady Fāṭima';
@@ -10682,11 +10705,11 @@ class AppLocalizationsEnSg extends AppLocalizationsEn {
   }
 
   @override
-  String get imamsScreenTitle => 'The 14 Masumeen';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'The Prophet, Lady Fatima, and the Twelve Imams — the infallible guides of Islam';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Born';
@@ -10776,7 +10799,7 @@ class AppLocalizationsEnSg extends AppLocalizationsEn {
   String get quickActionDailyHadith => 'Daily Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Listen';
@@ -10857,11 +10880,11 @@ class AppLocalizationsEnSg extends AppLocalizationsEn {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia pilgrims traditionally also travel to Medina to visit the tomb of the Prophet Muhammad (SAW) at Masjid al-Nabawi, and the graves of the Imams at Jannat al-Baqi. These visits carry immense spiritual significance and are considered an integral part of the journey for most Shia Muslims.';
+      'Many Shia pilgrims also travel to Medina for ziyarat of the Prophet Muhammad (SAW) at Masjid al-Nabawi and the graves at Jannat al-Baqi. These visits carry deep spiritual significance, though they are not themselves rites of Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.';
+      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. For most Twelver Shia pilgrims today, this means Hajj al-Tamattu\', performed in the month of Dhul Hijjah in the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. This guide follows the Ja\'fari outline of the rites, while ziyarat in Medina remains a deeply cherished journey before or after Hajj.';
 
   @override
   String get umrahIntro =>
@@ -11490,7 +11513,7 @@ class AppLocalizationsEnUs extends AppLocalizationsEn {
   String get dailyGraceScriptureLabel => 'VERSE OF THE DAY';
 
   @override
-  String get dailyGraceSaintLabel => 'SCHOLAR OF THE WEEK';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'EVENING REFLECTION';
@@ -12132,7 +12155,7 @@ class AppLocalizationsEnUs extends AppLocalizationsEn {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. Recited daily by the Shia faithful after every prayer as an act of devotion to the living Imam.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ of Lady Fāṭima';
@@ -12234,11 +12257,11 @@ class AppLocalizationsEnUs extends AppLocalizationsEn {
   }
 
   @override
-  String get imamsScreenTitle => 'The 14 Masumeen';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'The Prophet, Lady Fatima, and the Twelve Imams — the infallible guides of Islam';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Born';
@@ -12328,7 +12351,7 @@ class AppLocalizationsEnUs extends AppLocalizationsEn {
   String get quickActionDailyHadith => 'Daily Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Listen';
@@ -12409,11 +12432,11 @@ class AppLocalizationsEnUs extends AppLocalizationsEn {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia pilgrims traditionally also travel to Medina to visit the tomb of the Prophet Muhammad (SAW) at Masjid al-Nabawi, and the graves of the Imams at Jannat al-Baqi. These visits carry immense spiritual significance and are considered an integral part of the journey for most Shia Muslims.';
+      'Many Shia pilgrims also travel to Medina for ziyarat of the Prophet Muhammad (SAW) at Masjid al-Nabawi and the graves at Jannat al-Baqi. These visits carry deep spiritual significance, though they are not themselves rites of Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.';
+      'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. For most Twelver Shia pilgrims today, this means Hajj al-Tamattu\', performed in the month of Dhul Hijjah in the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. This guide follows the Ja\'fari outline of the rites, while ziyarat in Medina remains a deeply cherished journey before or after Hajj.';
 
   @override
   String get umrahIntro =>

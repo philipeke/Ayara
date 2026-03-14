@@ -131,7 +131,7 @@ class _UmrahGuideScreenState extends State<UmrahGuideScreen> {
                   actions: [
                     if (total > 0)
                       Padding(
-                        padding: const EdgeInsets.only(right: 14),
+                        padding: const EdgeInsetsDirectional.only(end: 14),
                         child: _ProgressChip(done: done, total: total),
                       ),
                   ],

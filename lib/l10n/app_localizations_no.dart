@@ -625,7 +625,7 @@ class AppLocalizationsNo extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'DAGENS VERS';
 
   @override
-  String get dailyGraceSaintLabel => 'UKENS LÆRD';
+  String get dailyGraceSaintLabel => 'UKENS FIGUR';
 
   @override
   String get dailyGraceReflectionLabel => 'KVELDSREFLEKSJON';
@@ -1263,7 +1263,7 @@ class AppLocalizationsNo extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'En dua for Imam al-Mahdīs (af) gjenkomst, den tolvte Imam, lært av hans far. Resiteres daglig av sjia-troende etter hver bønn som et uttrykk for hengivenhet til den levende Imam.';
+      'En dua for gjenoppståelsen av Imam al-Mahdī (af), den tolvte imamen, undervist av hans far. Den blir ofte resitert av mange shia-muslimer etter bønn som en handling av hengivenhet til den levende imamen.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Lady Fāṭimas Tasbīḥ';
@@ -1365,11 +1365,11 @@ class AppLocalizationsNo extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'De 14 Masumeen';
+  String get imamsScreenTitle => 'De Fjorten Ufeilbarlige';
 
   @override
   String get imamsScreenSubtitle =>
-      'Profeten, Lady Fatima og de tolv Imamene — islams ufeilbarlige veiledere';
+      'Profeten, Lady Fatima, og de Tolv Imamene — de rensede og ufeilbarlige veiledere i tolvte shia-islam';
 
   @override
   String get imamLabelBorn => 'Født';
@@ -1458,7 +1458,7 @@ class AppLocalizationsNo extends AppLocalizations {
   String get quickActionDailyHadith => 'Dagens hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fjorten Ufeilbarlige';
 
   @override
   String get quickActionListenDuas => 'Lytt';
@@ -1540,13 +1540,36 @@ class AppLocalizationsNo extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Sjia-pilegrimer reiser tradisjonelt også til Medina for å besøke Profeten Muhammads (SAW) grav i Masjid al-Nabawi og imamenes graver ved Jannat al-Baqi. Disse besøkene har enorm åndelig betydning og regnes som en integrert del av reisen for de fleste sjia-muslimer.';
+      'Mange shia-pilgrimer reiser også til Medina for ziyarat av Profeten Muhammad (SAW) ved Masjid al-Nabawi og gravene ved Jannat al-Baqi. Disse besøkene har dyp åndelig betydning, selv om de ikke i seg selv er riter av Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj er islams femte søyle, obligatorisk én gang i livet for enhver muslim som er fysisk og økonomisk i stand. Utført i måneden Dhul Hijjah, følger den i fotsporene til Profeten Ibrahim (AS), hans sønn Ismail (AS) og Lady Hajar. For sjia-muslimer inkluderer Hajj også den dype velsignelsen av å besøke hvileplassene til Profeten (SAW) og Ahlul Bayt i Medina.';
+      'Hajj er den femte søylen i islam, obligatorisk én gang i livet for hver muslim som er fysisk og økonomisk i stand. For de fleste tolvte shia-pilgrimer i dag betyr dette Hajj al-Tamattu\', utført i måneden Dhul Hijjah i fotsporene til Profeten Ibrahim (AS), hans sønn Ismail (AS), og Lady Hajar. Denne guiden følger Ja\'fari-oversikten over ritene, mens ziyarat i Medina forblir en dypt kjær reise før eller etter Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah er den mindre pilegrimsreisen til Mekka og kan, i motsetning til Hajj, gjennomføres når som helst på året. Selv om den ikke er obligatorisk, gir den enorm åndelig belønning og regnes som en høyt anbefalt tilbedelseshandling. Den deler flere ritualer med Hajj, men er kortere og består av fire hovedriter.';
+
+  @override
+  String get voiceInputTitle => 'Talende inndata';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Snakk din inndata til Ask Ayara i stedet for å skrive.';
+
+  @override
+  String get voiceInputMicDenied => 'Mikrofontilgang ble nektet.';
+
+  @override
+  String get voiceInputSpeak => 'Snakk i stedet';
+
+  @override
+  String get voiceInputListening => 'Lytter…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Mikrofontilgang er nødvendig for talende inndata.';
 }

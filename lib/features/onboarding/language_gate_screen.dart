@@ -364,7 +364,7 @@ class _LanguageGateScreenState extends State<LanguageGateScreen> {
   }
 
   Widget _searchBox() {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
       decoration: BoxDecoration(
@@ -466,7 +466,7 @@ class _LanguageGateScreenState extends State<LanguageGateScreen> {
               if (suggested) ...[
                 const SizedBox(width: 10),
                 _suggestedBadge(
-                  AppLocalizations.of(context)!.languageSuggestedBadge,
+                  AppLocalizations.of(context).languageSuggestedBadge,
                 ),
               ],
             ],
@@ -479,7 +479,7 @@ class _LanguageGateScreenState extends State<LanguageGateScreen> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     final suggested = _suggestedTag;
 

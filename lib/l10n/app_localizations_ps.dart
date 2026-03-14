@@ -626,7 +626,7 @@ class AppLocalizationsPs extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'د نن ورځې آیت';
 
   @override
-  String get dailyGraceSaintLabel => 'د اونۍ عالم';
+  String get dailyGraceSaintLabel => 'شخصیت هفته';
 
   @override
   String get dailyGraceReflectionLabel => 'د ماښام تأمل';
@@ -1265,7 +1265,7 @@ class AppLocalizationsPs extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'د دولسم امام، امام المهدي (عج)، د ظهور لپاره یوه دعا، چې د هغه د پلار له خوا ښوول شوې وه. شیعه مؤمنان یې هره ورځ له هر لمانځه وروسته د ژوندي امام د محبت په توګه لولي.';
+      'دعای ظهور امام مهدی (عج)، دوازدهمین امام، که توسط پدرش آموزش داده شده است. این دعا معمولاً توسط بسیاری از مسلمانان شیعه پس از نماز به عنوان عملی از محبت به امام زنده خوانده می‌شود.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'د بي بي فاطمې تسبیح';
@@ -1366,11 +1366,11 @@ class AppLocalizationsPs extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 معصومین';
+  String get imamsScreenTitle => 'چهارده معصوم';
 
   @override
   String get imamsScreenSubtitle =>
-      'پیغمبر، بي بي فاطمه، او دولس امامان — د اسلام معصوم لارښودان';
+      'پیامبر، حضرت فاطمه و دوازده امام — راهنمایان پاک و معصوم در اسلام شیعه دوازده‌امامی';
 
   @override
   String get imamLabelBorn => 'زېږېدنه';
@@ -1460,7 +1460,7 @@ class AppLocalizationsPs extends AppLocalizations {
   String get quickActionDailyHadith => 'ورځنی حدیث';
 
   @override
-  String get quickAction14Masumeen => '14 معصومین';
+  String get quickAction14Masumeen => 'چهارده معصوم';
 
   @override
   String get quickActionListenDuas => 'واورئ';
@@ -1540,13 +1540,36 @@ class AppLocalizationsPs extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'شیعه زائرین په دودیز ډول مدینې ته هم ځي، څو په مسجد النبوي کې د پیغمبر محمد (SAW) د روضې او په جنت البقیع کې د امامانو د قبرونو زیارت وکړي. دا لیدنې ډېر ژور معنوي ارزښت لري او د ډېرو شیعه زائرینو لپاره د سفر مهمه برخه ګڼل کېږي.';
+      'بسیاری از زائران شیعه همچنین برای زیارت پیامبر محمد (ص) به مدینه سفر می‌کنند تا در مسجد النبی و قبور در جنت البقیع زیارت کنند. این بازدیدها دارای اهمیت معنوی عمیقی هستند، هرچند خودشان مناسک حج نیستند.';
 
   @override
   String get hajjIntro =>
-      'حج د اسلام پنځم رکن دی، او پر هر هغه مسلمان چې بدني او مالي توان ولري، په ژوند کې یو ځل فرض دی. دا د ذوالحجې په میاشت کې ترسره کېږي او د حضرت ابراهیم (AS)، د هغه د زوی اسماعیل (AS)، او بي بي هاجرې پر نقش قدم روانېږي. د شیعه مسلمانانو لپاره، حج په مدینه کې د پیغمبر (SAW) او اهل البیت د سپېڅلو آرامځایونو د زیارت برکت هم لري.';
+      'حج پنجمین رکن اسلام است که برای هر مسلمانی که از نظر جسمی و مالی قادر باشد، یک بار در زندگی واجب است. برای بیشتر زائران شیعه دوازده‌امامی امروز، این به معنای حج تمتع است که در ماه ذوالحجه در پیروی از پیامبر ابراهیم (ع)، پسرش اسماعیل (ع) و حضرت هاجر انجام می‌شود. این راهنما به شیوه جعفری مناسک را دنبال می‌کند، در حالی که زیارت در مدینه همچنان سفری بسیار عزیز قبل یا بعد از حج باقی می‌ماند.';
 
   @override
   String get umrahIntro =>
       'عمره مکې ته وړه زیارت دی او د حج برعکس، د کال هر وخت ترسره کېدای شي. که څه هم فرض نه ده، خو ډېره لویه روحي ګټه لري او یوه ډېره سپارښتل شوې عبادت ګڼل کېږي. دا له حج سره ځینې ګډ مناسک لري، خو لنډه ده او څلور اصلي اعمال لري.';
+
+  @override
+  String get voiceInputTitle => 'د غږ داخلول';
+
+  @override
+  String get voiceInputMicTitle => 'میکروفون';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'د ټایپ کولو پر ځای خپل داخلول د Ask Ayara سره ووایاست.';
+
+  @override
+  String get voiceInputMicDenied => 'د میکروفون لاسرسی رد شو.';
+
+  @override
+  String get voiceInputSpeak => 'پر ځای یې ووایاست';
+
+  @override
+  String get voiceInputListening => 'اوریدل…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'د غږ داخلولو لپاره د میکروفون لاسرسی اړین دی.';
 }

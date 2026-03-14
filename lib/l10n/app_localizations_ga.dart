@@ -630,7 +630,7 @@ class AppLocalizationsGa extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'RANN AN LAE';
 
   @override
-  String get dailyGraceSaintLabel => 'AN SAOI SEACHTAINE';
+  String get dailyGraceSaintLabel => 'NKE NKE N\'ỤBỌCHỊ';
 
   @override
   String get dailyGraceReflectionLabel => 'MACHNAMH NA TRÁTHNÓNA';
@@ -1270,7 +1270,7 @@ class AppLocalizationsGa extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua d\'aththeacht Imam al-Mahdī (af), an dara hImam déag, múinte ag a athair. Aithrítear é go laethúil ag dílisigh Shi\'a i ndiaidh gach paidir mar ghníomh dílseachta don Imam beo.';
+      'A dua maka ịlaghachi nke Imam al-Mahdī (af), Imam nke iri na abụọ, nke nna ya kọwara. A na-ejikarị ya eme ihe site n\'aka ọtụtụ Ndị Shia Muslim mgbe ha na-ekpe ekpere dịka omume nke nkwanye ugwu nye Imam dị ndụ.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ Bantiarna Fāṭima';
@@ -1372,11 +1372,11 @@ class AppLocalizationsGa extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Na 14 Masumeen';
+  String get imamsScreenTitle => 'Ndị Ime Anwansi Iri na Anọ';
 
   @override
   String get imamsScreenSubtitle =>
-      'An Fáidh, Bantiarna Fatima, agus an Dáréag Imam — treoraithe doshamhlacha an Ioslaim';
+      'Ndị Nsọ, Nwanyi Fatima, na Ndị Imam Iri na Abụọ — ndị ndu dị ọcha na ndị na-adịghị mmehie na Islam Shia nke Iri na Abụọ';
 
   @override
   String get imamLabelBorn => 'Rugadh';
@@ -1466,7 +1466,7 @@ class AppLocalizationsGa extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith an Lae';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Ndị Ime Anwansi Iri na Anọ';
 
   @override
   String get quickActionListenDuas => 'Éist';
@@ -1547,13 +1547,36 @@ class AppLocalizationsGa extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Go traidisiúnta téann oilithrigh Shi\'a go Medina freisin chun cuairt a thabhairt ar uaigh an Fháidh Muhammad (SAW) i Masjid al-Nabawi, agus ar uaigheanna na nImam i Jannat al-Baqi. Tá tábhacht spioradálta ollmhór ag baint leis na cuairteanna seo agus meastar gur cuid lárnach den turas iad do fhormhór na Moslamach Shi\'a.';
+      'Ọtụtụ ndị njem Shia na-ejegharịkwa na Medina maka ziyarat nke Onye Nsọ Muhammad (SAW) na Masjid al-Nabawi na ọgba ụka dị na Jannat al-Baqi. Njem ndị a nwere nnukwu ihe dị nsọ, n\'agbanyeghị na ha abụghị rites nke Hajj.';
 
   @override
   String get hajjIntro =>
-      'Is é Hajj an cúigiú colún den Ioslam, éigeantach uair amháin sa saol do gach Moslamach atá in ann go fisiciúil agus go hairgeadais. Déantar é i mí Dhul Hijjah, agus leanann sé cosáin an Fháidh Ibrahim (AS), a mhic Ismail (AS), agus Bantiarna Hajar. Do Mhoslamaigh Shi\'a, cuimsíonn Hajj freisin an bheannacht dhomhain a bhaineann le cuairt a thabhairt ar áiteanna sosa an Fháidh (SAW) agus Ahlul Bayt i Medina.';
+      'Hajj bụ ụkpụrụ ise nke Islam, nke a na-achọ ka emee otu ugboro n’ime ndụ maka onye ọ bụla Muslim nke nwere ike ime ya n’ahụ na ego. Maka ọtụtụ ndị njem Shia Iri na Abụọ taa, nke a pụtara Hajj al-Tamattu\', nke a na-eme n’ime ọnwa Dhul Hijjah n’ụzọ nke Onye Nsọ Ibrahim (AS), nwa ya Ismail (AS), na Nwanyi Hajar. Ndu a na-eso usoro Ja\'fari nke rites, ebe ziyarat na Medina ka bụ njem a na-akwanyere ugwu nke ukwuu tupu ma ọ bụ mgbe Hajj.';
 
   @override
   String get umrahIntro =>
       'Is í Umrah an oilithreacht bheag go Mecca agus, murab ionann agus Hajj, is féidir í a dhéanamh ag aon am den bhliain. Cé nach bhfuil sí éigeantach, tá luach saothair spioradálta ollmhór ag baint léi agus meastar gur gníomh adhrtha an-mholta í. Roinneann sí roinnt deasghnátha le Hajj ach tá sí níos giorra, agus tá ceithre phríomhghné inti.';
+
+  @override
+  String get voiceInputTitle => 'Ionchur Gutha';
+
+  @override
+  String get voiceInputMicTitle => 'Mic';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Labhair do ionchur le Ask Ayara seachas ag scríobh.';
+
+  @override
+  String get voiceInputMicDenied => 'Diúltaíodh rochtain ar an mic.';
+
+  @override
+  String get voiceInputSpeak => 'Labhair in ionad';
+
+  @override
+  String get voiceInputListening => 'Ag éisteacht…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Teastaíonn rochtain ar an mic le haghaidh ionchur gutha.';
 }

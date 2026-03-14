@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const hajjIntro = "Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.";
+const hajjIntro = "Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. For most Twelver Shia pilgrims today, this means Hajj al-Tamattu', performed in the month of Dhul Hijjah in the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. This guide follows the Ja'fari outline of the rites, while ziyarat in Medina remains a deeply cherished journey before or after Hajj.";
 
 const umrahIntro = "Umrah is the lesser pilgrimage to Mecca and, unlike Hajj, can be performed at any time of the year. While not obligatory, it carries immense spiritual reward and is considered a highly recommended act of worship. It shares several rituals with Hajj but is shorter, consisting of four main rites.";
 

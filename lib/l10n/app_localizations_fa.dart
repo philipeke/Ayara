@@ -626,7 +626,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'آیه روز';
 
   @override
-  String get dailyGraceSaintLabel => 'عالم هفته';
+  String get dailyGraceSaintLabel => 'شخصیت هفته';
 
   @override
   String get dailyGraceReflectionLabel => 'تأمل شبانه';
@@ -1259,7 +1259,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'دعایی برای ظهور امام زمان (عج)، دوازدهمین امام ما. این دعا ابراز وفاداری به امام زنده است.';
+      'دعایی برای ظهور امام مهدی (عج)، دوازدهمین امام، که توسط پدرش آموزش داده شده است. این دعا معمولاً توسط بسیاری از مسلمانان شیعه پس از نماز به عنوان عملی از محبت به امام زنده خوانده می‌شود.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'تسبیح حضرت زهرا (س)';
@@ -1360,11 +1360,11 @@ class AppLocalizationsFa extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '۱۴ معصوم (ع)';
+  String get imamsScreenTitle => 'چهارده معصوم';
 
   @override
   String get imamsScreenSubtitle =>
-      'پیامبر اکرم (ص)، حضرت زهرا (س) و دوازده امام؛ هادیان معصوم اسلام';
+      'پیامبر، بانوی فاطمه و دوازده امام — راهنمایان پاک و معصوم در اسلام شیعه دوازده‌امامی';
 
   @override
   String get imamLabelBorn => 'ولادت';
@@ -1453,7 +1453,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get quickActionDailyHadith => 'حدیث روز';
 
   @override
-  String get quickAction14Masumeen => '۱۴ معصوم';
+  String get quickAction14Masumeen => 'چهارده معصوم';
 
   @override
   String get quickActionListenDuas => 'شنیدن';
@@ -1533,13 +1533,36 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'زائران شیعه به‌صورت سنتی به مدینه نیز مشرف می‌شوند تا مرقد مطهر پیامبر (ص) در مسجدالنبی و قبور ائمه بقیع را زیارت کنند. این زیارت‌ها دارای اهمیت معنوی بسیار بالایی هستند.';
+      'بسیاری از زائران شیعه همچنین به مدینه سفر می‌کنند تا زیارت پیامبر محمد (ص) در مسجد النبی و قبور در جنت البقیع را انجام دهند. این بازدیدها از اهمیت روحانی عمیقی برخوردار است، هرچند خودشان مناسک حج نیستند.';
 
   @override
   String get hajjIntro =>
-      'حج پنجمین رکن اسلام است که بر هر مسلمانی که توانایی مالی و بدنی داشته باشد، یک‌بار در عمر واجب می‌شود. این مناسک در ماه ذی‌الحجه انجام شده و یادآور گام‌های حضرت ابراهیم (ع)، اسماعیل (ع) و حضرت هاجر است. برای شیعیان، حج با برکت زیارت پیامبر (ص) و اهل‌بیت (ع) در مدینه کامل می‌شود.';
+      'حج پنجمین رکن اسلام است که برای هر مسلمانی که از نظر جسمی و مالی قادر باشد، یک بار در زندگی واجب است. برای بیشتر زائران شیعه دوازده‌امامی امروز، این به معنای حج تمتع است که در ماه ذی‌الحجه و در پیروی از پیامبر ابراهیم (ع)، پسرش اسماعیل (ع) و بانوی هاجر انجام می‌شود. این راهنما به شیوه‌ی جعفری مناسک را دنبال می‌کند، در حالی که زیارت در مدینه همچنان سفری بسیار عزیز قبل یا بعد از حج باقی می‌ماند.';
 
   @override
   String get umrahIntro =>
       'عمره زیارت خانه خداست که برخلاف حج، در هر زمانی از سال قابل انجام است. اگرچه واجب نیست، اما دارای پاداش معنوی فراوان است. عمره شامل چهار رکن اصلی می‌باشد.';
+
+  @override
+  String get voiceInputTitle => 'ورودی صوتی';
+
+  @override
+  String get voiceInputMicTitle => 'میکروفن';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'به جای تایپ، ورودی خود را به آیارا بگویید.';
+
+  @override
+  String get voiceInputMicDenied => 'دسترسی به میکروفن رد شد.';
+
+  @override
+  String get voiceInputSpeak => 'به جای آن صحبت کنید';
+
+  @override
+  String get voiceInputListening => 'در حال گوش دادن…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'دسترسی به میکروفن برای ورودی صوتی ضروری است.';
 }

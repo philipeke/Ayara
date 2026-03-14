@@ -625,7 +625,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'ข้อคัมภีร์ของวัน';
 
   @override
-  String get dailyGraceSaintLabel => 'นักวิชาการของสัปดาห์';
+  String get dailyGraceSaintLabel => 'บุคคลแห่งสัปดาห์';
 
   @override
   String get dailyGraceReflectionLabel => 'การทำสมาธิเย็น';
@@ -1264,7 +1264,7 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'dua สำหรับการปรากฏตัวของ Imam al-Mahdī (af) อิมามคนที่สิบสอง สอนโดยพ่อของเขา ทำซ้ำทุกวันโดยผู้ติดตาม Shia หลังสวดทุกครั้งเป็นการกระทำของศรัทธาต่ออิมามที่มีชีวิต';
+      'ดุอาสำหรับการปรากฏตัวอีกครั้งของอิมามอัล-มะห์ดี (อาฟ) อิมามลำดับที่สิบสอง ซึ่งได้รับการสอนโดยบิดาของท่าน มักถูกอ่านโดยชาวชีอะห์หลายคนหลังการละหมาดเป็นการแสดงความเคารพต่ออิมามที่มีชีวิต';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ ของ Lady Fāṭima';
@@ -1366,11 +1366,11 @@ class AppLocalizationsTh extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'อิมามทั้งสิบสี่';
 
   @override
   String get imamsScreenSubtitle =>
-      'ศาสดา สตรี Fatima และ อิมามสิบสอง — ผู้นำที่บริสุทธิ์ของศาสนาอิสลาม';
+      'ศาสดา, ท่านฟาติมะห์, และอิมามทั้งสิบสอง — ผู้ชี้นำที่บริสุทธิ์และไม่ผิดพลาดในศาสนาอิสลามชีอะห์ลำดับที่สิบสอง';
 
   @override
   String get imamLabelBorn => 'เกิด';
@@ -1460,7 +1460,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith รายวัน';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'อิมามทั้งสิบสี่';
 
   @override
   String get quickActionListenDuas => 'ฟัง';
@@ -1542,13 +1542,36 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'ผู้บุกเบิก Shia โดยทั่วไปยังเดินทางไปยัง Medina เพื่อไปเยี่ยม Masjid al-Nabawi ของศาสดา Muhammad (SAW) และอสรพิสัยของอิมามที่ Jannat al-Baqi การเยี่ยมเหล่านี้มีความสำคัญจิตวิญญาณมหาศาล และถือว่าเป็นส่วนสำคัญของการเดินทางสำหรับ Shia Muslims ส่วนใหญ่';
+      'ชาวชีอะห์หลายคนยังเดินทางไปยังมาดีนาเพื่อเยี่ยมชมศาสดามูฮัมหมัด (ซ.ล.) ที่มัสยิดอัล-นาบาวีและหลุมศพที่ญันนาตอัล-บากี ซึ่งการเยี่ยมชมเหล่านี้มีความหมายทางจิตวิญญาณลึกซึ้ง แม้ว่าจะไม่ใช่พิธีกรรมของฮัจญ์';
 
   @override
   String get hajjIntro =>
-      'หัจญ์เป็นเสาที่ห้าของศาสนาอิสลาม บังคับใจเมื่อครั้งหนึ่งในชีวิตสำหรับมุสลิมทุกคนที่สามารถทางกายภาพและการเงิน ทำในเดือนฎุลฮิจจะห์ มันติดตามรอยเท้าของศาสดา Ibrahim (AS) ลูกชายของเขา Ismail (AS) และสตรี Hajar สำหรับมุสลิม Shia หัจญ์ยังรวมถึงพรของการไปเยี่ยมสถานที่พักผ่อนของศาสดา (SAW) และ Ahlul Bayt ใน Medina';
+      'ฮัจญ์เป็นเสาหลักที่ห้าของอิสลาม ซึ่งเป็นข้อบังคับที่ต้องทำเพียงครั้งเดียวในชีวิตสำหรับชาวมุสลิมทุกคนที่มีความสามารถทั้งทางร่างกายและการเงิน สำหรับชาวชีอะห์ลำดับที่สิบสองส่วนใหญ่ในปัจจุบัน หมายถึงฮัจญ์อัล-ทามัตตู\' ซึ่งทำในเดือนดุลฮิจญะห์ ตามรอยศาสดาอิบราฮิม (อ.ซ.), บุตรของท่านอิสมาอิล (อ.ซ.) และท่านฮาจาร์ นำเสนอแนวทางตามพิธีกรรมของญาฟารี ในขณะที่การเยี่ยมชมในมาดีนายังคงเป็นการเดินทางที่มีคุณค่าทางจิตวิญญาณก่อนหรือหลังฮัจญ์';
 
   @override
   String get umrahIntro =>
       'Umrah คือการแสดงการหลงใจที่เล็กน้อยไปยัง Mecca และเมื่อไม่เหมือน Hajj สามารถทำได้ตลอดปี แม้ว่าจะไม่บังคับใจแต่มันมีรางวัลจิตวิญญาณมหาศาล และถือว่าเป็นการกระทำการสนับสนุนที่มีประสิทธิผล มันแบ่งปันพิธีกรรมหลายอย่างกับหัจญ์ แต่สั้นลง ประกอบด้วยสี่พิธีกรรมหลัก';
+
+  @override
+  String get voiceInputTitle => 'การป้อนเสียง';
+
+  @override
+  String get voiceInputMicTitle => 'ไมโครโฟน';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'พูดสิ่งที่คุณต้องการถาม Ayara แทนการพิมพ์';
+
+  @override
+  String get voiceInputMicDenied => 'การเข้าถึงไมโครโฟนถูกปฏิเสธ';
+
+  @override
+  String get voiceInputSpeak => 'พูดแทน';
+
+  @override
+  String get voiceInputListening => 'กำลังฟัง…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'ต้องการการเข้าถึงไมโครโฟนสำหรับการป้อนเสียง';
 }

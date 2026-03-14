@@ -630,7 +630,7 @@ class AppLocalizationsEl extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'ΣΤΙΧΟΣ ΤΗΣ ΗΜΕΡΑΣ';
 
   @override
-  String get dailyGraceSaintLabel => 'ΜΕΛΕΤΗΤΗΣ ΤΗΣ ΕΒΔΟΜΑΔΑΣ';
+  String get dailyGraceSaintLabel => 'ΠΡΟΣΩΠΟ ΤΗΣ ΕΒΔΟΜΑΔΑΣ';
 
   @override
   String get dailyGraceReflectionLabel => 'ΒΡΑΔΙΝΗ ΣΚΕΨΗ';
@@ -1278,7 +1278,7 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Μια δέηση για την επανεμφάνιση του Imam al-Mahdī (af), του δωδέκατου Imam, που διδάχθηκε από τον πατέρα του. Απαγγέλλεται καθημερινά από τους Σία πιστούς μετά από κάθε προσευχή ως ένα έργο αφοσίωσης στον ζώντα Imam.';
+      'Μια dua για την επανεμφάνιση του Ιμάμ αλ-Μαχντί (αφ), του δωδέκατου Ιμάμ, που διδάχθηκε από τον πατέρα του. Συχνά απαγγέλλεται από πολλούς Σιίτες Μουσουλμάνους μετά την προσευχή ως πράξη αφοσίωσης στον ζωντανό Ιμάμ.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ της Κυρίας Fāṭima';
@@ -1380,11 +1380,11 @@ class AppLocalizationsEl extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Οι 14 Masumeen';
+  String get imamsScreenTitle => 'Οι Δεκατέσσερις Αλάθητοι';
 
   @override
   String get imamsScreenSubtitle =>
-      'Ο Προφήτης, η Κυρία Fatima και οι Δώδεκα Imams — οι άξεπτες οδηγοί του Ισλάμ';
+      'Ο Προφήτης, η Κυρία Φατιμά και οι Δώδεκα Ιμάμ — οι καθαροί και αλάθητοι καθοδηγητές στον Δωδεκαθεϊσμό';
 
   @override
   String get imamLabelBorn => 'Γεννημένος';
@@ -1474,7 +1474,7 @@ class AppLocalizationsEl extends AppLocalizations {
   String get quickActionDailyHadith => 'Καθημερινό Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Δεκατέσσερις Αλάθητοι';
 
   @override
   String get quickActionListenDuas => 'Ακούστε';
@@ -1556,13 +1556,36 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Οι Σία προσκυνητές παραδοσιακά ταξιδεύουν επίσης στη Μεδίνα για να επισκεφθούν το μαυσολείο του Προφήτη Muhammad (SAW) στο Masjid al-Nabawi, και τους τάφους των Imams στο Jannat al-Baqi. Αυτές οι επισκέψεις φέρουν τεράστια πνευματική σημασία και θεωρούνται ένα αναπόσπαστο μέρος του ταξιδιού για τους περισσότερους Σία Μουσουλμάνους.';
+      'Πολλοί Σιίτες προσκυνητές ταξιδεύουν επίσης στη Μεδίνα για ziyarat του Προφήτη Μωάμεθ (ΣΑW) στο Τζαμί αλ-Ναμπάουι και τους τάφους στο Τζαννάτ αλ-Μπακί. Αυτές οι επισκέψεις έχουν βαθιά πνευματική σημασία, αν και δεν είναι οι ίδιοι οι τελετουργικοί του Χατζ.';
 
   @override
   String get hajjIntro =>
-      'Το Hajj είναι ο πέμπτος στύλος του Ισλάμ, υποχρεωτικό μία φορά στη ζωή για κάθε Μουσουλμάνο που είναι σωματικά και χρηματικά ικανός. Πραγματοποιούμενο κατά το μήνα Dhul Hijjah, ξαναζει τα βήματα του Προφήτη Ibrahim (AS), του γιού του Ismail (AS) και της Κυρίας Hajar. Για τους Σία Μουσουλμάνους, το Hajj περιλαμβάνει επίσης την βαθιά ευλογία της επίσκεψης στα τελευταία σημεία αναπαύσεως του Προφήτη (SAW) και του Ahlul Bayt στη Μεδίνα.';
+      'Ο Χατζ είναι ο πέμπτος πυλώνας του Ισλάμ, υποχρεωτικός μία φορά στη ζωή για κάθε Μουσουλμάνο που είναι σωματικά και οικονομικά ικανός. Για τους περισσότερους Σιίτες προσκυνητές σήμερα, αυτό σημαίνει Χατζ αλ-Ταματτού\', που πραγματοποιείται τον μήνα Δουλ Χιτζάχ, στα βήματα του Προφήτη Ιμπραχίμ (ΑΣ), του γιου του Ισμαήλ (ΑΣ) και της Κυρίας Χάτζαρ. Αυτός ο οδηγός ακολουθεί το σχέδιο των τελετουργιών σύμφωνα με τις διδασκαλίες του Τζαφάρι, ενώ η ziyarat στη Μεδίνα παραμένει ένα βαθιά αγαπημένο ταξίδι πριν ή μετά τον Χατζ.';
 
   @override
   String get umrahIntro =>
       'Το Umrah είναι η μικρή προσκύνηση στη Μέκκα και, σε αντίθεση με το Hajj, μπορεί να πραγματοποιηθεί ανά πάσα ώρα του χρόνου. Ενώ δεν είναι υποχρεωτικό, έχει τεράστια πνευματική ανταmoιβή και θεωρείται μια ιδιαίτερα συνιστώμενη πράξη λατρείας. Μοιράζεται αρκετές τελετές με το Hajj αλλά είναι μικρότερη, αποτελούμενη από τέσσερα κύρια τελετουργήματα.';
+
+  @override
+  String get voiceInputTitle => 'Φωνητική Είσοδος';
+
+  @override
+  String get voiceInputMicTitle => 'Μικρόφωνο';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Μίλησε την είσοδό σου για να ρωτήσεις τον Ayara αντί να πληκτρολογήσεις.';
+
+  @override
+  String get voiceInputMicDenied => 'Η πρόσβαση στο μικρόφωνο απορρίφθηκε.';
+
+  @override
+  String get voiceInputSpeak => 'Μίλησε αντί';
+
+  @override
+  String get voiceInputListening => 'Ακούω…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Η πρόσβαση στο μικρόφωνο είναι απαραίτητη για τη φωνητική είσοδο.';
 }

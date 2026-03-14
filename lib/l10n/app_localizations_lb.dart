@@ -629,7 +629,7 @@ class AppLocalizationsLb extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERS VUM DAG';
 
   @override
-  String get dailyGraceSaintLabel => 'GELIEERT VUN DER WOCH';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'OWEND REFLEXIOUN';
@@ -1273,7 +1273,7 @@ class AppLocalizationsLb extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Eng Dua fir d\'Reërnäischten vum Imam al-Mahdī (af), den zwoulf Imam, léiert vum sengem Papp. Erzielt deeglech vun den Shia fideles no all Gebeter als Act vun der Déichweet zum liewendege Imam.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ vun Lady Fāṭima';
@@ -1375,11 +1375,11 @@ class AppLocalizationsLb extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'D\'14 Masumeen';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'De Prophet, Lady Fatima, a d\'Zwoulf Imame — d\'infallible Guidees vum Islam';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Gebuer';
@@ -1469,7 +1469,7 @@ class AppLocalizationsLb extends AppLocalizations {
   String get quickActionDailyHadith => 'Deeglech Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Lauschteren';
@@ -1551,13 +1551,36 @@ class AppLocalizationsLb extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia Pilger reesen tradizionell och zu Medina fir d\'Graab vum Prophet Muhammad (SAW) bei Masjid al-Nabawi ze besichen, an d\'Gräwer vun den Imame bei Jannat al-Baqi. Dës Visite hunn enorm spirituell Bedeitung a ginn als en integral Deel vun der Reese fir déiert Shia Muslime gesinn.';
+      'Vill schiitesch Pilger reesen och op Medina fir d\'Ziyarat vum Prophet Muhammad (SAW) an der Masjid al-Nabawi an d\'Griewer zu Jannat al-Baqi ze besichen. Dës Visitten hunn eng déif spirituell Bedeitung, och wann se u sech keng Riten vum Hajj sinn.';
 
   @override
   String get hajjIntro =>
-      'Hajj ass de fënneften Pillar vum Islam, obligatoresch mol am Liewen fir all Muslim dee physesch a finanziell fäheg ass. Gemaach am Méint vum Dhul Hijjah, verfollegt et d\'Schrëtt vum Prophet Ibrahim (AS), seng Bréck Ismail (AS), a Lady Hajar. Fir Shia Muslime, Hajj hunn och d\'profond Séign vun der Visite vun den Reschting Plaatzen vum Prophet (SAW) a den Ahlul Bayt zu Medina.';
+      'De Hajj ass déi fënneft Sail vum Islam a fir all Muslim, dee kierperlech a finanziell dozou fäeg ass, eemol am Liewen verflichtend. Fir déi meescht zwielefer-schiitesch Pilger heescht dat haut Hajj al-Tamattu\', deen am Mount Dhul Hijjah an de Schrëtt vum Prophet Ibrahim (AS), sengem Jong Ismail (AS) an der Lady Hajar gemaach gëtt. Dëse Guide follegt dem Ja\'fari Verlaf vun de Riten, wärend d\'Ziyarat zu Medina virun oder nom Hajj eng déif geschätzte spirituell Rees bleift.';
 
   @override
   String get umrahIntro =>
       'Umrah ass d\'manner Pilgerfahrt zu Makkah a, andersch wéi Hajj, ka jidderz am Joer gemaach ginn. Wärend net obligatoresch, huet et enorm spirituell Belounong a gëtt als eng héich recommandéiert Act vun der Andacht gesinn. Et deelt e puer Ritualer mat Hajj awer ass kuerzer, besteet aus véier Haaptritualier.';
+
+  @override
+  String get voiceInputTitle => 'Stëmmeneingabe';
+
+  @override
+  String get voiceInputMicTitle => 'Mikro';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Sprecht Är Äntwert un Ask Ayara amplaz ze tippen.';
+
+  @override
+  String get voiceInputMicDenied => 'Zougang zum Mikro gouf refuséiert.';
+
+  @override
+  String get voiceInputSpeak => 'Sprecht amplaz';
+
+  @override
+  String get voiceInputListening => 'Lauschteren…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Zougang zum Mikro ass néideg fir Stëmmeneingabe.';
 }

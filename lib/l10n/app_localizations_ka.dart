@@ -628,7 +628,7 @@ class AppLocalizationsKa extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'დღის აიათი';
 
   @override
-  String get dailyGraceSaintLabel => 'კვირის სწავლული';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'საღამოს რეფლექსია';
@@ -1270,7 +1270,7 @@ class AppLocalizationsKa extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'დუა იმამ ალ-მაჰდის (ა.ჯ) გამოჩენისთვის. შიიტები მას ყოველი ლოცვის შემდეგ კითხულობენ, როგორც ცოცხალი იმამისადმი ერთგულების გამოხატვას.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'ფატიმას თასბიჰი';
@@ -1372,11 +1372,11 @@ class AppLocalizationsKa extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 მასუმი';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'წინასწარმეტყველი, ლედი ფატიმა და თორმეტი იმამი — ისლამის უცოდველი წინამძღოლები';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'დაიბადა';
@@ -1464,7 +1464,7 @@ class AppLocalizationsKa extends AppLocalizations {
   String get quickActionDailyHadith => 'დღის ჰადისი';
 
   @override
-  String get quickAction14Masumeen => '14 მასუმი';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'მოსმენა';
@@ -1543,13 +1543,36 @@ class AppLocalizationsKa extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'შიიტი მომლოცველები ტრადიციულად მედინაშიც მიდიან წინასწარმეტყველის ﷺ და იმამების საფლავების მოსალოცად ჯანათ ალ-ბაყიში. ეს ვიზიტები მოგზაურობის განუყოფელი ნაწილია.';
+      'ბევრი შიიტი მომლოცველი ასევე მიემგზავრება მედინაში, რათა Masjid al-Nabawi-ში მოილოცოს წინასწარმეტყველი მუჰამედი (SAW) და ეწვიოს Jannat al-Baqi-ში მდებარე საფლავებს. ამ ვიზიტებს ღრმა სულიერი მნიშვნელობა აქვს, თუმცა თავად ჰაჯის რიტუალებს არ ეკუთვნის.';
 
   @override
   String get hajjIntro =>
-      'ჰაჯი ისლამის მეხუთე ბურჯია, სავალდებულოა ყველა ფიზიკურად და ფინანსურად ძლიერი მუსლიმანისთვის. სრულდება ზულ-ჰიჯას თვეში და იმეორებს წინასწარმეტყველი იბრაჰიმის (ა), ისმაილისა (ა) და ლედი ჰაჯარის ნაბიჯებს.';
+      'ჰაჯი ისლამის მეხუთე სვეტია და სიცოცხლეში ერთხელ სავალდებულოა ყოველი მუსლიმისთვის, ვინც ფიზიკურად და ფინანსურად შეძლებს მის შესრულებას. დღეს თორმეტიმამელი შიიტი მომლოცველების უმეტესობისთვის ეს ნიშნავს Hajj al-Tamattu\'-ს, რომელიც Dhul Hijjah-ის თვეში სრულდება წინასწარმეტყველი Ibrahim-ის (AS), მისი ძის Ismail-ის (AS) და Lady Hajar-ის კვალდაკვალ. ეს გზამკვლევი რიტუალების Ja\'fari ხაზის მიხედვით არის შედგენილი, ხოლო მედინაში ზიარათი ჰაჯამდე ან ჰაჯის შემდეგაც რჩება ღრმად დაფასებულ სულიერ მოგზაურობად.';
 
   @override
   String get umrahIntro =>
       'უმრა არის მცირე პილიგრიმობა მექაში და, ჰაჯისგან განსხვავებით, მისი შესრულება ნებისმიერ დროსაა შესაძლებელი. მას დიდი სულიერი ჯილდო მოაქვს.';
+
+  @override
+  String get voiceInputTitle => 'ხმის შესატყვისი';
+
+  @override
+  String get voiceInputMicTitle => 'მიკროფონი';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'თქვენი შესატყვისი თქვით Ask Ayara-ის ნაცვლად.';
+
+  @override
+  String get voiceInputMicDenied => 'მიკროფონის წვდომა უარყოფილია.';
+
+  @override
+  String get voiceInputSpeak => 'თქვით ნაცვლად';
+
+  @override
+  String get voiceInputListening => 'მოსმენა…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'ხმის შესატყვისისთვის მიკროფონის წვდომა აუცილებელია.';
 }

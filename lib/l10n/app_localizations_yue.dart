@@ -590,7 +590,7 @@ class AppLocalizationsYue extends AppLocalizations {
   String get dailyGraceScriptureLabel => '今日經文';
 
   @override
-  String get dailyGraceSaintLabel => '本週學者';
+  String get dailyGraceSaintLabel => '本週聖者';
 
   @override
   String get dailyGraceReflectionLabel => '晚間反思';
@@ -1207,7 +1207,7 @@ class AppLocalizationsYue extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      '為伊瑪目·馬赫迪(願真主加速他嘅降臨)再現祈禱，由他嘅父親教導。什葉信眾喺每個禮拜後每日背誦作為對現存伊瑪目嘅虔誠行為。';
+      '這是一個為伊瑪目馬赫迪（af）重現的祈禱，這是第十二位伊瑪目的父親所教導的。許多什葉派穆斯林在禱告後經常誦讀，以表達對活著的伊瑪目的虔誠。';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => '法蒂瑪嘅讚頌詞';
@@ -1305,10 +1305,10 @@ class AppLocalizationsYue extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 位無罪者';
+  String get imamsScreenTitle => '十四位無誤者';
 
   @override
-  String get imamsScreenSubtitle => '先知、法蒂瑪同十二位伊瑪目 — 伊斯蘭嘅無罪指引者';
+  String get imamsScreenSubtitle => '先知、法蒂瑪女士和十二位伊瑪目——在十二伊瑪派伊斯蘭中純潔無誤的指導者';
 
   @override
   String get imamLabelBorn => '誕生';
@@ -1395,7 +1395,7 @@ class AppLocalizationsYue extends AppLocalizations {
   String get quickActionDailyHadith => '日常聖訓';
 
   @override
-  String get quickAction14Masumeen => '14 位無罪者';
+  String get quickAction14Masumeen => '十四位無誤者';
 
   @override
   String get quickActionListenDuas => '聽';
@@ -1472,13 +1472,34 @@ class AppLocalizationsYue extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      '什葉朝聖者傳統上還會前往麥地那訪問先知穆罕默德(願真主祝福他)喺聖寺嘅陵墓同聖親族伊瑪目嘅陵墓喺天堂公墓。呢啲訪問具有深遠嘅精神意義，對大多數什葉穆斯林而言被認為係旅途不可或缺嘅一部分。';
+      '許多什葉派朝聖者也會前往麥地那，參觀先知穆罕默德（SAW）在納巴維清真寺的聖地和在巴基花園的墳墓。這些訪問具有深刻的靈性意義，儘管它們本身並不是朝覲的儀式。';
 
   @override
   String get hajjIntro =>
-      '朝覲係伊斯蘭五功第五，對每個身體同經濟能力嘅穆斯林而言終身一次係義務。喺都爾海吉月進行，佢追蹤先知易卜拉欣(願真主祝福他)、他嘅兒子易司馬儀(願真主祝福他)同夏甲女士嘅足跡。對什葉穆斯林，朝覲亦包括訪問先知(願真主祝福他)同聖親族喺麥地那嘅安息之地呢個深刻嘅祝福。';
+      '朝覲是伊斯蘭的第五根柱子，對每位身體和經濟上能夠的穆斯林來說，終生必須履行一次。對於今天大多數十二伊瑪派的朝聖者來說，這意味著在杜爾希賈月進行的朝覲（Hajj al-Tamattu\'），沿著先知易卜拉欣（AS）、他的兒子伊斯馬伊爾（AS）和哈賈爾女士的足跡。這個指南遵循賈法里（Ja\'fari）儀式的框架，而在麥地那的朝聖仍然是一段深受珍視的旅程，無論是在朝覲之前還是之後。';
 
   @override
   String get umrahIntro =>
       '副朝係小朝覲麥加，同朝覲唔同，可喺全年任何時候進行。雖然唔係義務，但佢具有巨大精神獎賞，被認為係高度推薦嘅拜功行為。佢與朝覲分享幾個儀式但更短，包括四個主要儀式。';
+
+  @override
+  String get voiceInputTitle => '語音輸入';
+
+  @override
+  String get voiceInputMicTitle => '麥克風';
+
+  @override
+  String get voiceInputMicSubtitle => '用語音向 Ask Ayara 提問，而不是打字。';
+
+  @override
+  String get voiceInputMicDenied => '麥克風訪問被拒絕。';
+
+  @override
+  String get voiceInputSpeak => '改用語音';
+
+  @override
+  String get voiceInputListening => '正在聆聽…';
+
+  @override
+  String get voiceInputPermissionDenied => '語音輸入需要麥克風訪問權限。';
 }

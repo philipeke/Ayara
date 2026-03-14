@@ -629,7 +629,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERSO DEL DÍA';
 
   @override
-  String get dailyGraceSaintLabel => 'ERUDITO DE LA SEMANA';
+  String get dailyGraceSaintLabel => 'FIGURA DE LA SEMANA';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLEXIÓN VESPERTINA';
@@ -1276,7 +1276,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. Recitada diariamente por los fieles Shia después de cada oración como acto de devoción al Imam viviente.';
+      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. A menudo es recitada por muchos musulmanes chiítas después de la oración como un acto de devoción al Imam vivo.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de la Señora Fāṭima';
@@ -1378,11 +1378,11 @@ class AppLocalizationsEs extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Los 14 Masumeen';
+  String get imamsScreenTitle => 'Los Catorce Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'El Profeta, la Señora Fátima, y los Doce Imames — los guías infalibles del Islam';
+      'El Profeta, la Señora Fátima y los Doce Imames — los guías purificados e infalibles en el Islam chiíta duodecimano';
 
   @override
   String get imamLabelBorn => 'Nacido';
@@ -1472,7 +1472,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith diario';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Catorce Infallibles';
 
   @override
   String get quickActionListenDuas => 'Escuchar';
@@ -1553,15 +1553,38 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Los peregrinos Shia tradicionalmente también viajan a Medina para visitar la tumba del Profeta Muhammad (SAW) en la Masjid al-Nabawi, y las tumbas de los Imames en Jannat al-Baqi. Estas visitas tienen un significado espiritual inmenso y se consideran una parte integral del viaje para la mayoría de los musulmanes Shia.';
+      'Muchos peregrinos chiítas también viajan a Medina para la ziyarat del Profeta Muhammad (SAW) en la Masjid al-Nabawi y las tumbas en Jannat al-Baqi. Estas visitas tienen un profundo significado espiritual, aunque no son en sí mismas ritos de Hajj.';
 
   @override
   String get hajjIntro =>
-      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para cada musulmán que sea física y financieramente capaz. Realizado en el mes de Dhul Hijjah, recorre los pasos del Profeta Ibrahim (AS), su hijo Ismael (AS), y la Señora Hajar. Para los musulmanes Shia, el Hajj también incluye la bendición profunda de visitar los lugares de descanso del Profeta (SAW) y Ahlul Bayt en Medina.';
+      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para todo musulmán que sea física y financieramente capaz. Para la mayoría de los peregrinos chiítas duodecimanos hoy en día, esto significa Hajj al-Tamattu\', realizado en el mes de Dhul Hijjah siguiendo los pasos del Profeta Ibrahim (AS), su hijo Ismail (AS) y la Señora Hajar. Esta guía sigue el esquema jafari de los ritos, mientras que la ziyarat en Medina sigue siendo un viaje profundamente apreciado antes o después del Hajj.';
 
   @override
   String get umrahIntro =>
       'La Umrah es la peregrinación menor a La Meca y, a diferencia del Hajj, se puede realizar en cualquier época del año. Aunque no es obligatoria, tiene una recompensa espiritual inmensa y se considera un acto de adoración altamente recomendado. Comparte varios rituales con el Hajj pero es más corta, consistiendo en cuatro ritos principales.';
+
+  @override
+  String get voiceInputTitle => 'Entrada de voz';
+
+  @override
+  String get voiceInputMicTitle => 'Micrófono';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Habla tu entrada para Ask Ayara en lugar de escribir.';
+
+  @override
+  String get voiceInputMicDenied => 'Se denegó el acceso al micrófono.';
+
+  @override
+  String get voiceInputSpeak => 'Hablar en su lugar';
+
+  @override
+  String get voiceInputListening => 'Escuchando…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Se requiere acceso al micrófono para la entrada de voz.';
 }
 
 /// The translations for Spanish Castilian, as used in Latin America and the Caribbean (`es_419`).
@@ -2189,7 +2212,7 @@ class AppLocalizationsEs419 extends AppLocalizationsEs {
   String get dailyGraceScriptureLabel => 'VERSO DEL DÍA';
 
   @override
-  String get dailyGraceSaintLabel => 'ERUDITO DE LA SEMANA';
+  String get dailyGraceSaintLabel => 'FIGURA DE LA SEMANA';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLEXIÓN VESPERTINA';
@@ -2836,7 +2859,7 @@ class AppLocalizationsEs419 extends AppLocalizationsEs {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. Recitada diariamente por los fieles Shia después de cada oración como acto de devoción al Imam viviente.';
+      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. A menudo es recitada por muchos musulmanes chiitas después de la oración como un acto de devoción al Imam vivo.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de la Señora Fāṭima';
@@ -2938,11 +2961,11 @@ class AppLocalizationsEs419 extends AppLocalizationsEs {
   }
 
   @override
-  String get imamsScreenTitle => 'Los 14 Masumeen';
+  String get imamsScreenTitle => 'Los Catorce Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'El Profeta, la Señora Fátima, y los Doce Imames — los guías infalibles del Islam';
+      'El Profeta, la Señora Fátima y los Doce Imames — los guías purificados e infalibles en el Islam chiita duodecimano';
 
   @override
   String get imamLabelBorn => 'Nacido';
@@ -3032,7 +3055,7 @@ class AppLocalizationsEs419 extends AppLocalizationsEs {
   String get quickActionDailyHadith => 'Hadith diario';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Catorce Infallibles';
 
   @override
   String get quickActionListenDuas => 'Escuchar';
@@ -3113,15 +3136,38 @@ class AppLocalizationsEs419 extends AppLocalizationsEs {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Los peregrinos Shia tradicionalmente también viajan a Medina para visitar la tumba del Profeta Muhammad (SAW) en la Masjid al-Nabawi, y las tumbas de los Imames en Jannat al-Baqi. Estas visitas tienen un significado espiritual inmenso y se consideran una parte integral del viaje para la mayoría de los musulmanes Shia.';
+      'Muchos peregrinos chiitas también viajan a Medina para la ziyarat del Profeta Muhammad (SAW) en la Masjid al-Nabawi y las tumbas en Jannat al-Baqi. Estas visitas tienen un profundo significado espiritual, aunque no son en sí mismas ritos de Hajj.';
 
   @override
   String get hajjIntro =>
-      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para cada musulmán que sea física y financieramente capaz. Realizado en el mes de Dhul Hijjah, recorre los pasos del Profeta Ibrahim (AS), su hijo Ismael (AS), y la Señora Hajar. Para los musulmanes Shia, el Hajj también incluye la bendición profunda de visitar los lugares de descanso del Profeta (SAW) y Ahlul Bayt en Medina.';
+      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para todo musulmán que sea física y financieramente capaz. Para la mayoría de los peregrinos chiitas duodecimanos hoy en día, esto significa Hajj al-Tamattu\', realizado en el mes de Dhul Hijjah siguiendo los pasos del Profeta Ibrahim (AS), su hijo Ismail (AS) y la Señora Hajar. Esta guía sigue el esquema jafari de los ritos, mientras que la ziyarat en Medina sigue siendo un viaje profundamente apreciado antes o después del Hajj.';
 
   @override
   String get umrahIntro =>
       'La Umrah es la peregrinación menor a La Meca y, a diferencia del Hajj, se puede realizar en cualquier época del año. Aunque no es obligatoria, tiene una recompensa espiritual inmensa y se considera un acto de adoración altamente recomendado. Comparte varios rituales con el Hajj pero es más corta, consistiendo en cuatro ritos principales.';
+
+  @override
+  String get voiceInputTitle => 'Entrada de voz';
+
+  @override
+  String get voiceInputMicTitle => 'Micrófono';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Habla tu entrada a Ask Ayara en lugar de escribir.';
+
+  @override
+  String get voiceInputMicDenied => 'Se denegó el acceso al micrófono.';
+
+  @override
+  String get voiceInputSpeak => 'Hablar en su lugar';
+
+  @override
+  String get voiceInputListening => 'Escuchando…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Se requiere acceso al micrófono para la entrada de voz.';
 }
 
 /// The translations for Spanish Castilian, as used in Argentina (`es_AR`).
@@ -3749,7 +3795,7 @@ class AppLocalizationsEsAr extends AppLocalizationsEs {
   String get dailyGraceScriptureLabel => 'VERSO DEL DÍA';
 
   @override
-  String get dailyGraceSaintLabel => 'ERUDITO DE LA SEMANA';
+  String get dailyGraceSaintLabel => 'FIGURA DE LA SEMANA';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLEXIÓN VESPERTINA';
@@ -4396,7 +4442,7 @@ class AppLocalizationsEsAr extends AppLocalizationsEs {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. Recitada diariamente por los fieles Shia después de cada oración como acto de devoción al Imam viviente.';
+      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. A menudo es recitada por muchos musulmanes chiítas después de la oración como un acto de devoción hacia el Imam vivo.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de la Señora Fāṭima';
@@ -4498,11 +4544,11 @@ class AppLocalizationsEsAr extends AppLocalizationsEs {
   }
 
   @override
-  String get imamsScreenTitle => 'Los 14 Masumeen';
+  String get imamsScreenTitle => 'Los Catorce Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'El Profeta, la Señora Fátima, y los Doce Imames — los guías infalibles del Islam';
+      'El Profeta, la Señora Fátima y los Doce Imames — los guías purificados e infalibles en el Islam chiíta duodecimano';
 
   @override
   String get imamLabelBorn => 'Nacido';
@@ -4592,7 +4638,7 @@ class AppLocalizationsEsAr extends AppLocalizationsEs {
   String get quickActionDailyHadith => 'Hadith diario';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Catorce Infallibles';
 
   @override
   String get quickActionListenDuas => 'Escuchar';
@@ -4673,15 +4719,38 @@ class AppLocalizationsEsAr extends AppLocalizationsEs {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Los peregrinos Shia tradicionalmente también viajan a Medina para visitar la tumba del Profeta Muhammad (SAW) en la Masjid al-Nabawi, y las tumbas de los Imames en Jannat al-Baqi. Estas visitas tienen un significado espiritual inmenso y se consideran una parte integral del viaje para la mayoría de los musulmanes Shia.';
+      'Muchos peregrinos chiítas también viajan a Medina para la ziyarat del Profeta Muhammad (SAW) en la Masjid al-Nabawi y las tumbas en Jannat al-Baqi. Estas visitas tienen un profundo significado espiritual, aunque no son en sí mismas ritos de Hajj.';
 
   @override
   String get hajjIntro =>
-      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para cada musulmán que sea física y financieramente capaz. Realizado en el mes de Dhul Hijjah, recorre los pasos del Profeta Ibrahim (AS), su hijo Ismael (AS), y la Señora Hajar. Para los musulmanes Shia, el Hajj también incluye la bendición profunda de visitar los lugares de descanso del Profeta (SAW) y Ahlul Bayt en Medina.';
+      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para todo musulmán que sea física y financieramente capaz. Para la mayoría de los peregrinos chiítas duodecimanos hoy en día, esto significa Hajj al-Tamattu\', realizado en el mes de Dhul Hijjah siguiendo los pasos del Profeta Ibrahim (AS), su hijo Ismail (AS) y la Señora Hajar. Esta guía sigue el esquema ja\'fari de los ritos, mientras que la ziyarat en Medina sigue siendo un viaje profundamente apreciado antes o después del Hajj.';
 
   @override
   String get umrahIntro =>
       'La Umrah es la peregrinación menor a La Meca y, a diferencia del Hajj, se puede realizar en cualquier época del año. Aunque no es obligatoria, tiene una recompensa espiritual inmensa y se considera un acto de adoración altamente recomendado. Comparte varios rituales con el Hajj pero es más corta, consistiendo en cuatro ritos principales.';
+
+  @override
+  String get voiceInputTitle => 'Entrada de voz';
+
+  @override
+  String get voiceInputMicTitle => 'Micrófono';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Habla tu entrada para Ask Ayara en lugar de escribir.';
+
+  @override
+  String get voiceInputMicDenied => 'Se denegó el acceso al micrófono.';
+
+  @override
+  String get voiceInputSpeak => 'Hablar en su lugar';
+
+  @override
+  String get voiceInputListening => 'Escuchando…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Se requiere acceso al micrófono para la entrada de voz.';
 }
 
 /// The translations for Spanish Castilian, as used in Chile (`es_CL`).
@@ -5309,7 +5378,7 @@ class AppLocalizationsEsCl extends AppLocalizationsEs {
   String get dailyGraceScriptureLabel => 'VERSO DEL DÍA';
 
   @override
-  String get dailyGraceSaintLabel => 'ERUDITO DE LA SEMANA';
+  String get dailyGraceSaintLabel => 'FIGURA DE LA SEMANA';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLEXIÓN VESPERTINA';
@@ -5956,7 +6025,7 @@ class AppLocalizationsEsCl extends AppLocalizationsEs {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. Recitada diariamente por los fieles Shia después de cada oración como acto de devoción al Imam viviente.';
+      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. A menudo es recitada por muchos musulmanes chiítas después de la oración como un acto de devoción al Imam vivo.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de la Señora Fāṭima';
@@ -6058,11 +6127,11 @@ class AppLocalizationsEsCl extends AppLocalizationsEs {
   }
 
   @override
-  String get imamsScreenTitle => 'Los 14 Masumeen';
+  String get imamsScreenTitle => 'Los Catorce Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'El Profeta, la Señora Fátima, y los Doce Imames — los guías infalibles del Islam';
+      'El Profeta, la Señora Fátima y los Doce Imames — los guías purificados e infalibles en el Islam chiíta duodecimano';
 
   @override
   String get imamLabelBorn => 'Nacido';
@@ -6152,7 +6221,7 @@ class AppLocalizationsEsCl extends AppLocalizationsEs {
   String get quickActionDailyHadith => 'Hadith diario';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Catorce Infallibles';
 
   @override
   String get quickActionListenDuas => 'Escuchar';
@@ -6233,15 +6302,38 @@ class AppLocalizationsEsCl extends AppLocalizationsEs {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Los peregrinos Shia tradicionalmente también viajan a Medina para visitar la tumba del Profeta Muhammad (SAW) en la Masjid al-Nabawi, y las tumbas de los Imames en Jannat al-Baqi. Estas visitas tienen un significado espiritual inmenso y se consideran una parte integral del viaje para la mayoría de los musulmanes Shia.';
+      'Muchos peregrinos chiítas también viajan a Medina para la ziyarat del Profeta Muhammad (SAW) en la Masjid al-Nabawi y las tumbas en Jannat al-Baqi. Estas visitas tienen un profundo significado espiritual, aunque no son en sí mismas ritos de Hajj.';
 
   @override
   String get hajjIntro =>
-      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para cada musulmán que sea física y financieramente capaz. Realizado en el mes de Dhul Hijjah, recorre los pasos del Profeta Ibrahim (AS), su hijo Ismael (AS), y la Señora Hajar. Para los musulmanes Shia, el Hajj también incluye la bendición profunda de visitar los lugares de descanso del Profeta (SAW) y Ahlul Bayt en Medina.';
+      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para todo musulmán que sea física y financieramente capaz. Para la mayoría de los peregrinos chiítas duodecimanos hoy en día, esto significa Hajj al-Tamattu\', realizado en el mes de Dhul Hijjah siguiendo los pasos del Profeta Ibrahim (AS), su hijo Ismail (AS) y la Señora Hajar. Esta guía sigue el esquema jafari de los ritos, mientras que la ziyarat en Medina sigue siendo un viaje profundamente apreciado antes o después del Hajj.';
 
   @override
   String get umrahIntro =>
       'La Umrah es la peregrinación menor a La Meca y, a diferencia del Hajj, se puede realizar en cualquier época del año. Aunque no es obligatoria, tiene una recompensa espiritual inmensa y se considera un acto de adoración altamente recomendado. Comparte varios rituales con el Hajj pero es más corta, consistiendo en cuatro ritos principales.';
+
+  @override
+  String get voiceInputTitle => 'Entrada de voz';
+
+  @override
+  String get voiceInputMicTitle => 'Micrófono';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Habla tu entrada a Ask Ayara en lugar de escribir.';
+
+  @override
+  String get voiceInputMicDenied => 'Se denegó el acceso al micrófono.';
+
+  @override
+  String get voiceInputSpeak => 'Hablar en su lugar';
+
+  @override
+  String get voiceInputListening => 'Escuchando…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Se requiere acceso al micrófono para la entrada de voz.';
 }
 
 /// The translations for Spanish Castilian, as used in Colombia (`es_CO`).
@@ -6869,7 +6961,7 @@ class AppLocalizationsEsCo extends AppLocalizationsEs {
   String get dailyGraceScriptureLabel => 'VERSO DEL DÍA';
 
   @override
-  String get dailyGraceSaintLabel => 'ERUDITO DE LA SEMANA';
+  String get dailyGraceSaintLabel => 'FIGURA DE LA SEMANA';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLEXIÓN VESPERTINA';
@@ -7516,7 +7608,7 @@ class AppLocalizationsEsCo extends AppLocalizationsEs {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. Recitada diariamente por los fieles Shia después de cada oración como acto de devoción al Imam viviente.';
+      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. A menudo es recitada por muchos musulmanes chiitas después de la oración como un acto de devoción al Imam vivo.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de la Señora Fāṭima';
@@ -7618,11 +7710,11 @@ class AppLocalizationsEsCo extends AppLocalizationsEs {
   }
 
   @override
-  String get imamsScreenTitle => 'Los 14 Masumeen';
+  String get imamsScreenTitle => 'Los Catorce Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'El Profeta, la Señora Fátima, y los Doce Imames — los guías infalibles del Islam';
+      'El Profeta, la Señora Fátima y los Doce Imames — los guías purificados e infalibles en el Islam chiita duodecimano';
 
   @override
   String get imamLabelBorn => 'Nacido';
@@ -7712,7 +7804,7 @@ class AppLocalizationsEsCo extends AppLocalizationsEs {
   String get quickActionDailyHadith => 'Hadith diario';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Catorce Infallibles';
 
   @override
   String get quickActionListenDuas => 'Escuchar';
@@ -7793,15 +7885,38 @@ class AppLocalizationsEsCo extends AppLocalizationsEs {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Los peregrinos Shia tradicionalmente también viajan a Medina para visitar la tumba del Profeta Muhammad (SAW) en la Masjid al-Nabawi, y las tumbas de los Imames en Jannat al-Baqi. Estas visitas tienen un significado espiritual inmenso y se consideran una parte integral del viaje para la mayoría de los musulmanes Shia.';
+      'Muchos peregrinos chiitas también viajan a Medina para la ziyarat del Profeta Muhammad (SAW) en la Masjid al-Nabawi y las tumbas en Jannat al-Baqi. Estas visitas tienen un profundo significado espiritual, aunque no son en sí mismas ritos de Hajj.';
 
   @override
   String get hajjIntro =>
-      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para cada musulmán que sea física y financieramente capaz. Realizado en el mes de Dhul Hijjah, recorre los pasos del Profeta Ibrahim (AS), su hijo Ismael (AS), y la Señora Hajar. Para los musulmanes Shia, el Hajj también incluye la bendición profunda de visitar los lugares de descanso del Profeta (SAW) y Ahlul Bayt en Medina.';
+      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para todo musulmán que sea física y financieramente capaz. Para la mayoría de los peregrinos chiitas duodecimanos hoy en día, esto significa Hajj al-Tamattu\', realizado en el mes de Dhul Hijjah siguiendo los pasos del Profeta Ibrahim (AS), su hijo Ismail (AS) y la Señora Hajar. Esta guía sigue el esquema jafari de los ritos, mientras que la ziyarat en Medina sigue siendo un viaje profundamente apreciado antes o después del Hajj.';
 
   @override
   String get umrahIntro =>
       'La Umrah es la peregrinación menor a La Meca y, a diferencia del Hajj, se puede realizar en cualquier época del año. Aunque no es obligatoria, tiene una recompensa espiritual inmensa y se considera un acto de adoración altamente recomendado. Comparte varios rituales con el Hajj pero es más corta, consistiendo en cuatro ritos principales.';
+
+  @override
+  String get voiceInputTitle => 'Entrada de voz';
+
+  @override
+  String get voiceInputMicTitle => 'Micrófono';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Habla tu entrada a Ask Ayara en lugar de escribir.';
+
+  @override
+  String get voiceInputMicDenied => 'Se denegó el acceso al micrófono.';
+
+  @override
+  String get voiceInputSpeak => 'Hablar en su lugar';
+
+  @override
+  String get voiceInputListening => 'Escuchando…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Se requiere acceso al micrófono para la entrada de voz.';
 }
 
 /// The translations for Spanish Castilian, as used in Spain (`es_ES`).
@@ -8429,7 +8544,7 @@ class AppLocalizationsEsEs extends AppLocalizationsEs {
   String get dailyGraceScriptureLabel => 'VERSO DEL DÍA';
 
   @override
-  String get dailyGraceSaintLabel => 'ERUDITO DE LA SEMANA';
+  String get dailyGraceSaintLabel => 'FIGURA DE LA SEMANA';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLEXIÓN VESPERTINA';
@@ -9076,7 +9191,7 @@ class AppLocalizationsEsEs extends AppLocalizationsEs {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. Recitada diariamente por los fieles Shia después de cada oración como acto de devoción al Imam viviente.';
+      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. A menudo es recitada por muchos musulmanes chiitas después de la oración como un acto de devoción al Imam vivo.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de la Señora Fāṭima';
@@ -9178,11 +9293,11 @@ class AppLocalizationsEsEs extends AppLocalizationsEs {
   }
 
   @override
-  String get imamsScreenTitle => 'Los 14 Masumeen';
+  String get imamsScreenTitle => 'Los Catorce Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'El Profeta, la Señora Fátima, y los Doce Imames — los guías infalibles del Islam';
+      'El Profeta, la Señora Fátima y los Doce Imames — los guías purificados e infalibles en el Islam chiita duodecimano';
 
   @override
   String get imamLabelBorn => 'Nacido';
@@ -9272,7 +9387,7 @@ class AppLocalizationsEsEs extends AppLocalizationsEs {
   String get quickActionDailyHadith => 'Hadith diario';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Catorce Infallibles';
 
   @override
   String get quickActionListenDuas => 'Escuchar';
@@ -9353,15 +9468,38 @@ class AppLocalizationsEsEs extends AppLocalizationsEs {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Los peregrinos Shia tradicionalmente también viajan a Medina para visitar la tumba del Profeta Muhammad (SAW) en la Masjid al-Nabawi, y las tumbas de los Imames en Jannat al-Baqi. Estas visitas tienen un significado espiritual inmenso y se consideran una parte integral del viaje para la mayoría de los musulmanes Shia.';
+      'Muchos peregrinos chiitas también viajan a Medina para la ziyarat del Profeta Muhammad (SAW) en la Masjid al-Nabawi y las tumbas en Jannat al-Baqi. Estas visitas tienen un profundo significado espiritual, aunque no son en sí mismas ritos de Hajj.';
 
   @override
   String get hajjIntro =>
-      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para cada musulmán que sea física y financieramente capaz. Realizado en el mes de Dhul Hijjah, recorre los pasos del Profeta Ibrahim (AS), su hijo Ismael (AS), y la Señora Hajar. Para los musulmanes Shia, el Hajj también incluye la bendición profunda de visitar los lugares de descanso del Profeta (SAW) y Ahlul Bayt en Medina.';
+      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para todo musulmán que sea física y financieramente capaz. Para la mayoría de los peregrinos chiitas duodecimanos hoy en día, esto significa Hajj al-Tamattu\', realizado en el mes de Dhul Hijjah siguiendo los pasos del Profeta Ibrahim (AS), su hijo Ismail (AS) y la Señora Hajar. Esta guía sigue el esquema jafari de los ritos, mientras que la ziyarat en Medina sigue siendo un viaje profundamente apreciado antes o después del Hajj.';
 
   @override
   String get umrahIntro =>
       'La Umrah es la peregrinación menor a La Meca y, a diferencia del Hajj, se puede realizar en cualquier época del año. Aunque no es obligatoria, tiene una recompensa espiritual inmensa y se considera un acto de adoración altamente recomendado. Comparte varios rituales con el Hajj pero es más corta, consistiendo en cuatro ritos principales.';
+
+  @override
+  String get voiceInputTitle => 'Entrada de voz';
+
+  @override
+  String get voiceInputMicTitle => 'Micrófono';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Habla tu entrada a Ask Ayara en lugar de escribir.';
+
+  @override
+  String get voiceInputMicDenied => 'Se denegó el acceso al micrófono.';
+
+  @override
+  String get voiceInputSpeak => 'Hablar en su lugar';
+
+  @override
+  String get voiceInputListening => 'Escuchando…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Se requiere acceso al micrófono para la entrada de voz.';
 }
 
 /// The translations for Spanish Castilian, as used in Mexico (`es_MX`).
@@ -9989,7 +10127,7 @@ class AppLocalizationsEsMx extends AppLocalizationsEs {
   String get dailyGraceScriptureLabel => 'VERSO DEL DÍA';
 
   @override
-  String get dailyGraceSaintLabel => 'ERUDITO DE LA SEMANA';
+  String get dailyGraceSaintLabel => 'FIGURA DE LA SEMANA';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLEXIÓN VESPERTINA';
@@ -10636,7 +10774,7 @@ class AppLocalizationsEsMx extends AppLocalizationsEs {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. Recitada diariamente por los fieles Shia después de cada oración como acto de devoción al Imam viviente.';
+      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. A menudo es recitada por muchos musulmanes chiitas después de la oración como un acto de devoción al Imam vivo.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de la Señora Fāṭima';
@@ -10738,11 +10876,11 @@ class AppLocalizationsEsMx extends AppLocalizationsEs {
   }
 
   @override
-  String get imamsScreenTitle => 'Los 14 Masumeen';
+  String get imamsScreenTitle => 'Los Catorce Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'El Profeta, la Señora Fátima, y los Doce Imames — los guías infalibles del Islam';
+      'El Profeta, la Señora Fátima y los Doce Imames — los guías purificados e infalibles en el Islam chiita duodecimano';
 
   @override
   String get imamLabelBorn => 'Nacido';
@@ -10832,7 +10970,7 @@ class AppLocalizationsEsMx extends AppLocalizationsEs {
   String get quickActionDailyHadith => 'Hadith diario';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Catorce Infallibles';
 
   @override
   String get quickActionListenDuas => 'Escuchar';
@@ -10913,15 +11051,38 @@ class AppLocalizationsEsMx extends AppLocalizationsEs {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Los peregrinos Shia tradicionalmente también viajan a Medina para visitar la tumba del Profeta Muhammad (SAW) en la Masjid al-Nabawi, y las tumbas de los Imames en Jannat al-Baqi. Estas visitas tienen un significado espiritual inmenso y se consideran una parte integral del viaje para la mayoría de los musulmanes Shia.';
+      'Muchos peregrinos chiitas también viajan a Medina para la ziyarat del Profeta Muhammad (SAW) en la Masjid al-Nabawi y las tumbas en Jannat al-Baqi. Estas visitas tienen un profundo significado espiritual, aunque no son en sí mismas ritos de Hajj.';
 
   @override
   String get hajjIntro =>
-      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para cada musulmán que sea física y financieramente capaz. Realizado en el mes de Dhul Hijjah, recorre los pasos del Profeta Ibrahim (AS), su hijo Ismael (AS), y la Señora Hajar. Para los musulmanes Shia, el Hajj también incluye la bendición profunda de visitar los lugares de descanso del Profeta (SAW) y Ahlul Bayt en Medina.';
+      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para todo musulmán que sea física y financieramente capaz. Para la mayoría de los peregrinos chiitas duodecimanos hoy en día, esto significa Hajj al-Tamattu\', realizado en el mes de Dhul Hijjah siguiendo los pasos del Profeta Ibrahim (AS), su hijo Ismail (AS) y la Señora Hajar. Esta guía sigue el esquema jafari de los ritos, mientras que la ziyarat en Medina sigue siendo un viaje profundamente apreciado antes o después del Hajj.';
 
   @override
   String get umrahIntro =>
       'La Umrah es la peregrinación menor a La Meca y, a diferencia del Hajj, se puede realizar en cualquier época del año. Aunque no es obligatoria, tiene una recompensa espiritual inmensa y se considera un acto de adoración altamente recomendado. Comparte varios rituales con el Hajj pero es más corta, consistiendo en cuatro ritos principales.';
+
+  @override
+  String get voiceInputTitle => 'Entrada de voz';
+
+  @override
+  String get voiceInputMicTitle => 'Micrófono';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Habla tu entrada para Ask Ayara en lugar de escribir.';
+
+  @override
+  String get voiceInputMicDenied => 'Se denegó el acceso al micrófono.';
+
+  @override
+  String get voiceInputSpeak => 'Hablar en su lugar';
+
+  @override
+  String get voiceInputListening => 'Escuchando…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Se requiere acceso al micrófono para la entrada de voz.';
 }
 
 /// The translations for Spanish Castilian, as used in the United States (`es_US`).
@@ -11549,7 +11710,7 @@ class AppLocalizationsEsUs extends AppLocalizationsEs {
   String get dailyGraceScriptureLabel => 'VERSO DEL DÍA';
 
   @override
-  String get dailyGraceSaintLabel => 'ERUDITO DE LA SEMANA';
+  String get dailyGraceSaintLabel => 'FIGURA DE LA SEMANA';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLEXIÓN VESPERTINA';
@@ -12196,7 +12357,7 @@ class AppLocalizationsEsUs extends AppLocalizationsEs {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. Recitada diariamente por los fieles Shia después de cada oración como acto de devoción al Imam viviente.';
+      'Una dua por la reaparición del Imam al-Mahdī (af), el duodécimo Imam, enseñada por su padre. A menudo es recitada por muchos musulmanes chiitas después de la oración como un acto de devoción al Imam vivo.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de la Señora Fāṭima';
@@ -12298,11 +12459,11 @@ class AppLocalizationsEsUs extends AppLocalizationsEs {
   }
 
   @override
-  String get imamsScreenTitle => 'Los 14 Masumeen';
+  String get imamsScreenTitle => 'Los Catorce Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'El Profeta, la Señora Fátima, y los Doce Imames — los guías infalibles del Islam';
+      'El Profeta, la Señora Fátima y los Doce Imames — los guías purificados e infalibles en el Islam chiita duodecimano';
 
   @override
   String get imamLabelBorn => 'Nacido';
@@ -12392,7 +12553,7 @@ class AppLocalizationsEsUs extends AppLocalizationsEs {
   String get quickActionDailyHadith => 'Hadith diario';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Catorce Infallibles';
 
   @override
   String get quickActionListenDuas => 'Escuchar';
@@ -12473,13 +12634,36 @@ class AppLocalizationsEsUs extends AppLocalizationsEs {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Los peregrinos Shia tradicionalmente también viajan a Medina para visitar la tumba del Profeta Muhammad (SAW) en la Masjid al-Nabawi, y las tumbas de los Imames en Jannat al-Baqi. Estas visitas tienen un significado espiritual inmenso y se consideran una parte integral del viaje para la mayoría de los musulmanes Shia.';
+      'Muchos peregrinos chiitas también viajan a Medina para la ziyarat del Profeta Muhammad (SAW) en la Masjid al-Nabawi y las tumbas en Jannat al-Baqi. Estas visitas tienen un profundo significado espiritual, aunque no son en sí mismas ritos de Hajj.';
 
   @override
   String get hajjIntro =>
-      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para cada musulmán que sea física y financieramente capaz. Realizado en el mes de Dhul Hijjah, recorre los pasos del Profeta Ibrahim (AS), su hijo Ismael (AS), y la Señora Hajar. Para los musulmanes Shia, el Hajj también incluye la bendición profunda de visitar los lugares de descanso del Profeta (SAW) y Ahlul Bayt en Medina.';
+      'El Hajj es el quinto pilar del Islam, obligatorio una vez en la vida para todo musulmán que sea física y financieramente capaz. Para la mayoría de los peregrinos chiitas duodecimanos hoy en día, esto significa Hajj al-Tamattu\', realizado en el mes de Dhul Hijjah siguiendo los pasos del Profeta Ibrahim (AS), su hijo Ismail (AS) y la Señora Hajar. Esta guía sigue el esquema jafari de los ritos, mientras que la ziyarat en Medina sigue siendo un viaje profundamente apreciado antes o después del Hajj.';
 
   @override
   String get umrahIntro =>
       'La Umrah es la peregrinación menor a La Meca y, a diferencia del Hajj, se puede realizar en cualquier época del año. Aunque no es obligatoria, tiene una recompensa espiritual inmensa y se considera un acto de adoración altamente recomendado. Comparte varios rituales con el Hajj pero es más corta, consistiendo en cuatro ritos principales.';
+
+  @override
+  String get voiceInputTitle => 'Entrada de voz';
+
+  @override
+  String get voiceInputMicTitle => 'Micrófono';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Habla tu entrada para Ask Ayara en lugar de escribir.';
+
+  @override
+  String get voiceInputMicDenied => 'Se denegó el acceso al micrófono.';
+
+  @override
+  String get voiceInputSpeak => 'Hablar en su lugar';
+
+  @override
+  String get voiceInputListening => 'Escuchando…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Se requiere acceso al micrófono para la entrada de voz.';
 }

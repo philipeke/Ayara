@@ -625,7 +625,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'PÄIVÄN JAKEE';
 
   @override
-  String get dailyGraceSaintLabel => 'VIIKON OPPINUT';
+  String get dailyGraceSaintLabel => 'VIIKKO KUVASTA';
 
   @override
   String get dailyGraceReflectionLabel => 'ILTAPOHDINTA';
@@ -1266,7 +1266,7 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua Imam al-Mahdin (af), kahdennentoista imaamin, uudelleen ilmestymiselle, jonka hänen isänsä opetti. Shiialaiset lausuvat sen päivittäin jokaisen rukouksen jälkeen omistautumisen tekona elävälle Imaamille.';
+      'Dua Imam al-Mahdīn (af) uudelleen ilmestymiseksi, opettanut hänen isänsä. Sitä rukoillaan usein monien shialaismuslimien toimesta rukouksen jälkeen, osoituksena omistautumisesta elävälle Imamille.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Lady Fāṭiman Tasbīḥ';
@@ -1368,11 +1368,11 @@ class AppLocalizationsFi extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeenia';
+  String get imamsScreenTitle => 'Neljätoista virheetöntä';
 
   @override
   String get imamsScreenSubtitle =>
-      'Profeetta, Lady Fatima ja kaksitoista imaamia — islamin erehtymättömät oppaat';
+      'Profeetta, Lady Fatima ja kaksitoista Imamia — puhdistetut ja virheettömät oppaat kaksitoista shialaisuudessa';
 
   @override
   String get imamLabelBorn => 'Syntynyt';
@@ -1462,7 +1462,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get quickActionDailyHadith => 'Päivän hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeenia';
+  String get quickAction14Masumeen => 'Neljätoista virheetöntä';
 
   @override
   String get quickActionListenDuas => 'Kuuntele';
@@ -1544,13 +1544,36 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shiialaiset pyhiinvaeltajat matkustavat perinteisesti myös Medinaan vieraillakseen profeetta Muhammadin (SAW) haudalla Masjid al-Nabawissa ja imaamien haudoilla Jannat al-Baqissa. Näillä vierailuilla on valtava hengellinen merkitys, ja useimmat shiamuslimit pitävät niitä matkan olennaisena osana.';
+      'Monet shialaiset pyhiinvaeltajat matkustavat myös Medinaan Profeetta Muhammad (SAW) ziyaratille Masjid al-Nabawissa ja haudoille Jannat al-Baqissa. Nämä vierailut kantavat syvää hengellistä merkitystä, vaikka ne eivät itsessään ole Hajj-rituaaleja.';
 
   @override
   String get hajjIntro =>
-      'Hajj on islamin viides pylväs ja pakollinen kerran elämässä jokaiselle muslimille, joka on fyysisesti ja taloudellisesti kykenevä. Se suoritetaan Dhul Hijjah -kuussa ja seuraa profeetta Ibrahimin (AS), hänen poikansa Ismailin (AS) ja Lady Hajarin jalanjälkiä. Shiialaisille muslimeille Hajj sisältää myös syvän siunauksen vierailla Profeetan (SAW) ja Ahlul Baytin leposijoilla Medinassa.';
+      'Hajj on islamin viides pylväs, pakollinen kerran elämässä jokaiselle muslimille, joka on fyysisesti ja taloudellisesti kykenevä. Useimmille kaksitoista shialaisille pyhiinvaeltajille tänään tämä tarkoittaa Hajj al-Tamattu\' -matkaa, joka suoritetaan Dhul Hijjah -kuussa Profeetta Ibrahimin (AS), hänen poikansa Ismailin (AS) ja Lady Hajarin jalanjäljissä. Tämä opas seuraa Ja\'fari-rituaalien kaavaa, kun taas ziyarat Medinassa pysyy syvästi rakastettuna matkana ennen tai jälkeen Hajj\'in.';
 
   @override
   String get umrahIntro =>
       'Umrah on pienempi pyhiinvaellus Mekkaan, ja toisin kuin Hajj, sen voi suorittaa mihin aikaan vuodesta tahansa. Vaikka se ei ole pakollinen, sillä on valtava hengellinen palkinto ja sitä pidetään erittäin suositeltuna palvonnan tekona. Se jakaa useita rituaaleja Hajjin kanssa, mutta on lyhyempi ja koostuu neljästä pääriitistä.';
+
+  @override
+  String get voiceInputTitle => 'Äänisyöttö';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofoni';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Puhu syötteesi Ask Ayara -toimintoon sen sijaan, että kirjoittaisit.';
+
+  @override
+  String get voiceInputMicDenied => 'Mikrofonin käyttöoikeus evättiin.';
+
+  @override
+  String get voiceInputSpeak => 'Puhu sen sijaan';
+
+  @override
+  String get voiceInputListening => 'Kuuntelee…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Mikrofonin käyttöoikeus on tarpeen äänisyöttöä varten.';
 }

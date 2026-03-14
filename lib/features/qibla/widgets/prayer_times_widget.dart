@@ -225,7 +225,7 @@ class _PrayerRow extends StatelessWidget {
           // Status badge
           if (isNext)
             Container(
-              margin: const EdgeInsets.only(right: 10),
+              margin: const EdgeInsetsDirectional.only(end: 10),
               padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
               decoration: BoxDecoration(
                 color: AppColors.gold.withValues(alpha: 0.18),

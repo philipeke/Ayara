@@ -143,7 +143,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     final user = FirebaseAuth.instance.currentUser;
     final bool isGuest = (user == null) || user.isAnonymous;

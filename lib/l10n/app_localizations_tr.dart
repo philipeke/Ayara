@@ -632,7 +632,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'GÜNÜN AYETİ';
 
   @override
-  String get dailyGraceSaintLabel => 'HAFTANIN ALIMI';
+  String get dailyGraceSaintLabel => 'HAFTANIN ŞEKİLİ';
 
   @override
   String get dailyGraceReflectionLabel => 'AKŞAM MEDİTASYONU';
@@ -1273,7 +1273,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'İmam Mehdi\'nin (af) yeniden ortaya çıkması için İmam el-Hasan el-Askeri (a) tarafından öğretilen bir dua. Şia sadakaları tarafından her namazdan sonra canlı İmama olan bağlılık olarak günlük okunan bir duadır.';
+      'İmam Mehdi\'nin (a.f) zuhuruna dair bir dua, on ikinci İmam, babası tarafından öğretilmiştir. Bu dua, birçok Şii Müslüman tarafından ibadet niyetiyle namazdan sonra okunur.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Fatıma Hanım\'ın Tesbih';
@@ -1375,11 +1375,11 @@ class AppLocalizationsTr extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Ma\'sumeen';
+  String get imamsScreenTitle => 'On Dört Masum';
 
   @override
   String get imamsScreenSubtitle =>
-      'Peygamber, Fatıma Hanım ve On İki İmam — İslam\'ın masum rehberleri';
+      'Peygamber, Hz. Fatıma ve On İki İmam — On İki İmam Şii İslamında arınmış ve masum rehberler';
 
   @override
   String get imamLabelBorn => 'Doğdu';
@@ -1469,7 +1469,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get quickActionDailyHadith => 'Günlük Hadis';
 
   @override
-  String get quickAction14Masumeen => '14 Ma\'sumeen';
+  String get quickAction14Masumeen => 'On Dört Masum';
 
   @override
   String get quickActionListenDuas => 'Dinle';
@@ -1549,13 +1549,36 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Şia hacıları geleneksel olarak Medine\'ye Peygamber Muhammed\'in (ﷺ) Mescid-i Nebevi\'deki kabrini ve İmamların Cennat-ı Bakî\'deki kabirlerini ziyaret etmek için de seyahat ederler. Bu ziyaretler büyük manevi öneme sahiptir ve çoğu Şia Müslümanı için yolculuğun ayrılmaz bir parçası olarak kabul edilir.';
+      'Birçok Şii hacı, Peygamber Muhammed\'in (SAV) Medine\'deki ziyareti için Mescid-i Nebevi\'ye ve Cennetül Bakî\'deki mezarlara da seyahat eder. Bu ziyaretler derin bir manevi anlam taşır, ancak kendileri Hac ritüelleri değildir.';
 
   @override
   String get hajjIntro =>
-      'Hac, İslam\'ın beşinci sütünüdür ve fiziksel ve finansal olarak muktedir olan her müslüman için hayatında bir kez farz tır. Zilhicce ayında gerçekleştirilen hac, Peygamber İbrahim (AS), oğlu İsmail (AS) ve Hanım Hâcer\'in adımlarını yeniden izler. Şia Müslümanları için hac, Peygamber\'i (ﷺ) ve Ehl-i Beyt\'i Medine\'de ziyaret etmenin mübarek kutsunsalını da içerir.';
+      'Hac, İslam\'ın beşinci şartıdır; fiziksel ve mali olarak imkanı olan her Müslüman için hayatında bir kez farzdır. Bugün çoğu On İki İmam Şii hacısı için bu, Hz. İbrahim (a.s), oğlu İsmail (a.s) ve Hz. Hacer\'in izinde, Zul-Hicce ayında yapılan Hac-ı Temettü\'dür. Bu rehber, ritüellerin Caferi çerçevesini takip ederken, Medine\'deki ziyaret Hac\'dan önce veya sonra derin bir şekilde değer verilen bir yolculuk olarak kalır.';
 
   @override
   String get umrahIntro =>
       'Umre, Mekke\'ye yapılan küçük hac tur ve Hac\'ın aksine yılın herhangi bir zamanında yapılabilir. Zorunlu olmasa da, muazzam manevi ödülü taşır ve çok tavsiye edilen ibadetin bir şeklidir. Hac ile bazı ritüelleri paylaşır ancak daha kısadır ve dört ana ayin içerir.';
+
+  @override
+  String get voiceInputTitle => 'Ses Girişi';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Yazmak yerine Ayara\'ya sesli olarak sor.';
+
+  @override
+  String get voiceInputMicDenied => 'Mikrofon erişimi reddedildi.';
+
+  @override
+  String get voiceInputSpeak => 'Bunun yerine konuş';
+
+  @override
+  String get voiceInputListening => 'Dinliyor…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Ses girişi için mikrofon erişimi gereklidir.';
 }

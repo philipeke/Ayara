@@ -633,7 +633,7 @@ class AppLocalizationsTe extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'రోజుకు సంబంధిత శ్లోకం';
 
   @override
-  String get dailyGraceSaintLabel => 'వారానికి సంబంధిత విద్వాంసుడు';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'సాయంకాల ప్రతిబింబన';
@@ -1277,7 +1277,7 @@ class AppLocalizationsTe extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'ఇమామ్ అల్-మహదీ (af), పన్నెండవ ఇమామ్ యొక్క పునరుద్ధరణ కోసం ఒక దుఆ, అతని తండ్రి చేసారు. ఇమామ్ యొక్క జీవంత ఇమామ్‌కు భక్తి చర్య నిర్వహించడానికి శియా విశ్వస్తులచే ప్రతిటి ప్రార్థన తరువాత దైనికంగా పుస్తకం చేయబడుతుంది.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'లేడీ ఫాటిమా యొక్క తస్బీహ్';
@@ -1379,11 +1379,11 @@ class AppLocalizationsTe extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 ముసుమీన్';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'ప్రవక్త, లేడీ ఫాటిమా, మరియు పన్నెండు ఇమామ్‌లు — ఇస్లాము యొక్క నిర్దోష గైడ్లు';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'జన్మ';
@@ -1473,7 +1473,7 @@ class AppLocalizationsTe extends AppLocalizations {
   String get quickActionDailyHadith => 'రోజుకు సంబంధిత హదీథ్';
 
   @override
-  String get quickAction14Masumeen => '14 ముసుమీన్';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'వినండి';
@@ -1553,13 +1553,36 @@ class AppLocalizationsTe extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'శియా తీర్థయాత్రులు సాంప్రదాయికంగా మదీనాకు ప్రవక్త ముహమ్మద్ (SAW) యొక్క సమాధి జానత్ అల్-బాకీ, మరియు ఇమామ్‌ల సమాధిలను సందర్శించడానికి ప్రయాణం చేస్తారు. ఈ సందర్శనలు విస్తారమైన ఆధ్యాత్మిక ప్రాధాన్యతను కలిగి ఉంటాయి మరియు చాలా శియా ముస్లిమ్‌ల కోసం యాత్ర యొక్క సమగ్ర భాగం గా పరిగణించబడతాయి.';
+      'చాలా మంది షియా యాత్రికులు మదీనాకు కూడా ప్రయాణించి Masjid al-Nabawi లో ప్రవక్త ముహమ్మద్ (SAW) వారికి జియారత్ చేస్తారు మరియు Jannat al-Baqi లోని సమాధులను సందర్శిస్తారు. ఈ సందర్శనలకు లోతైన ఆధ్యాత్మిక ప్రాధాన్యం ఉంది, అయితే అవి స్వతహాగా హజ్ కర్మల్లో భాగం కావు.';
 
   @override
   String get hajjIntro =>
-      'హజ్ ఇస్లాము యొక్క ఐదవ స్తంభం, ప్రతిటి సక్షమ ముస్లిమ్ కోసం జీవితకాలంలో ఒక్కసారి అవసరమైనది. ధూల్ హిజ్జా నెలలో ఆచరించినది, ఇది ప్రవక్త ఇబ్రాహీమ్ (AS), అతని కుమారుడు ఇస్మాఇల్ (AS), మరియు లేడీ హాజర్ కు చేసిన ఫుట్‌స్టెప్‌లను ఇచ్చిస్తుంది. శియా ముస్లిమ్‌ల కోసం, హజ్ మదీనలో ప్రవక్త (SAW) మరియు అహ్ల్ అల్-బైట్ యొక్క విశ్రామ సమాధిలను సందర్శించడం యొక్క గভీర ఆశీర్వాదం కూడా కలిగి ఉంటుంది.';
+      'హజ్ ఇస్లాం యొక్క ఐదవ స్తంభం. శారీరకంగా మరియు ఆర్థికంగా సామర్థ్యం ఉన్న ప్రతి ముస్లింకు జీవితంలో ఒక్కసారి ఇది తప్పనిసరి. ఈ రోజుల్లో ఎక్కువమంది ట్వెల్వర్ షియా యాత్రికులకు ఇది Hajj al-Tamattu\' ను సూచిస్తుంది; ఇది Dhul Hijjah నెలలో ప్రవక్త Ibrahim (AS), ఆయన కుమారుడు Ismail (AS), మరియు Lady Hajar అడుగుజాడల్లో నిర్వహించబడుతుంది. ఈ మార్గదర్శిని కర్మల Ja\'fari రూపరేఖను అనుసరిస్తుంది; మదీనాలో జియారత్ మాత్రం హజ్‌కు ముందు లేదా తరువాత ఎంతో ప్రీతిపాత్రమైన ఆధ్యాత్మిక యాత్రగానే ఉంటుంది.';
 
   @override
   String get umrahIntro =>
       'ఉమరా చిన్న తీర్థయాత్ర మక్కాకు మరియు, హజ్ కాకుండా, సంవత్సరం యొక్క ఏ సమయానికైనా ఆచరించవచ్చు. తప్పనిసరి లేనప్పటికీ, ఇది విస్తారమైన ఆధ్యాత్మిక ఇష్టపూర్వకమైన మరియు పూజక చర్య యొక్క ఉચ్చ సూచించిన చర్య. ఇది హజ్‌తో అనేక కర్మకాండాలను భాగస్వామ్యం చేస్తుంది కానీ తక్కువ, నాలుగు ముఖ్య కర్మకాండాలను కలిగి ఉంటుంది.';
+
+  @override
+  String get voiceInputTitle => 'శబ్ద ఇన్‌పుట్';
+
+  @override
+  String get voiceInputMicTitle => 'మైక్రోఫోన్';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'టైప్ చేయడం కంటే Ask Ayara కు మీ ఇన్‌పుట్‌ను మాట్లాడండి.';
+
+  @override
+  String get voiceInputMicDenied => 'మైక్రోఫోన్ యాక్సెస్ నిరాకరించబడింది.';
+
+  @override
+  String get voiceInputSpeak => 'మాట్లాడండి';
+
+  @override
+  String get voiceInputListening => 'వింటున్నాం…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'శబ్ద ఇన్‌పుట్ కోసం మైక్రోఫోన్ యాక్సెస్ అవసరం.';
 }

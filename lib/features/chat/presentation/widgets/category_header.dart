@@ -56,7 +56,7 @@ class _CategoryHeaderState extends State<CategoryHeader>
   // ── showTitle: false — simple flat nav bar ──────────────────────────────────
 
   Widget _buildNavBar(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     final theme = Theme.of(context);
     final w = MediaQuery.of(context).size.width;
     final isXS = w < 340;

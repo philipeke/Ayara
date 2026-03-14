@@ -628,7 +628,7 @@ class AppLocalizationsNe extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'आजको आयत';
 
   @override
-  String get dailyGraceSaintLabel => 'हप्ताको विद्वान';
+  String get dailyGraceSaintLabel => 'सप्ताहको व्यक्तित्व';
 
   @override
   String get dailyGraceReflectionLabel => 'साँझको चिन्तन';
@@ -1266,7 +1266,7 @@ class AppLocalizationsNe extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'बारौँ इमाम, इमाम अल-महदी (अ.फ.), को पुनःप्रकटताका लागि दुआ, जुन उहाँका पिताले सिकाउनुभएको थियो। शिया विश्वासीहरूले जीवित इमामप्रतिको भक्तिका रूपमा हरेक नमाजपछि यसलाई दैनिक पढ्छन्।';
+      'इमाम अल-महदी (अफ) को पुनः प्रकट हुनेको लागि एक दुआ, जो बारहौं इमाम हुन्, उनका पिता द्वारा सिखाइएको। यो प्रायः धेरै शिया मुसलमानहरूले प्रार्थना पछि जीवित इमामप्रति भक्ति प्रदर्शनको रूपमा उच्चारण गर्छन्।';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'हजरत फातिमाको तसबिह';
@@ -1368,11 +1368,11 @@ class AppLocalizationsNe extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '१४ मासूमीन';
+  String get imamsScreenTitle => 'चौध जना निर्दोष';
 
   @override
   String get imamsScreenSubtitle =>
-      'पैगम्बर, हजरत फातिमा, र बाह्र इमाम — इस्लामका निष्पाप मार्गदर्शकहरू';
+      'नबि, महिला फातिमा, र बारह इमामहरू — बारह शिया इस्लाममा शुद्ध र निर्दोष मार्गदर्शकहरू';
 
   @override
   String get imamLabelBorn => 'जन्म';
@@ -1462,7 +1462,7 @@ class AppLocalizationsNe extends AppLocalizations {
   String get quickActionDailyHadith => 'दैनिक हदीस';
 
   @override
-  String get quickAction14Masumeen => '१४ मासूमीन';
+  String get quickAction14Masumeen => 'चौध जना निर्दोष';
 
   @override
   String get quickActionListenDuas => 'सुन्नुहोस्';
@@ -1542,13 +1542,36 @@ class AppLocalizationsNe extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'शिया तीर्थयात्रीहरू परम्परागत रूपमा मदिनामा पनि जान्छन्, जहाँ उनीहरूले मस्जिद अल-नबवीमा पैगम्बर मुहम्मद (SAW) को रौजाको, र जन्नत अल-बक़ीमा इमामहरूको कब्रको ज़ियारत गर्छन्। यी यात्राहरू अत्यन्तै आध्यात्मिक महत्वका हुन्छन् र धेरै शिया यात्रुहरूका लागि यात्राको अभिन्न भाग मानिन्छन्।';
+      'धेरै शिया तीर्थयात्रीहरूले पनि नबि मुहम्मद (सअ) को जियारतको लागि मदीना यात्रा गर्छन्, मस्जिद अल-नबावी र जन्नत अल-बाकीमा रहेका कब्रहरूको। यी भ्रमणहरू गहिरो आध्यात्मिक महत्त्व राख्छन्, यद्यपि ती हजको अनुष्ठान होइनन्।';
 
   @override
   String get hajjIntro =>
-      'हज इस्लामको पाँचौँ स्तम्भ हो, र शारीरिक तथा आर्थिक रूपमा सक्षम प्रत्येक मुसलमानका लागि जीवनमा एकपटक अनिवार्य छ। धुल-हिज्जा महिनामा गरिने यो यात्रा पैगम्बर इब्राहिम (AS), उहाँका छोरा इस्माइल (AS), र हजरत हाजराको पदचिन्ह पछ्याउँछ। शिया मुसलमानहरूका लागि, हजमा मदिनामा पैगम्बर (SAW) र अहलुल बैतका पवित्र विश्रामस्थलहरूको ज़ियारत गर्ने महान् बरकत पनि समावेश हुन्छ।';
+      'हज इस्लामको पाँचौं स्तम्भ हो, जुन प्रत्येक मुसलमानका लागि जीवनमा एकपटक शारीरिक र आर्थिक रूपमा सक्षम हुँदा अनिवार्य छ। आजको अधिकांश बारह शिया तीर्थयात्रीहरूको लागि, यसले इमाम इब्राहीम (अस), उनका छोरा इस्माइल (अस), र महिला हाजरको पाइला पछ्याउँदै धुल हिज्जामा गरिएको हज अल-तमत्तु\' लाई जनाउँछ। यो मार्गदर्शक जाफरी अनुष्ठानको रूपरेखा अनुसरण गर्दछ, जबकि मदीना स्थित जियारत हज अघि वा पछि गहिरो प्रिय यात्रा रहन्छ।';
 
   @override
   String get umrahIntro =>
       'उमराह मक्कातर्फको सानो तीर्थयात्रा हो, र हजभन्दा फरक रूपमा यो वर्षको कुनै पनि समयमा गर्न सकिन्छ। यद्यपि यो अनिवार्य होइन, यसमा अत्यन्त ठूलो आध्यात्मिक प्रतिफल छ र यसलाई अत्यधिक सिफारिस गरिएको इबादत मानिन्छ। यसमा हजसँग साझा गरिएका केही कर्मकाण्डहरू छन्, तर यो छोटो हुन्छ र चार मुख्य कृत्यहरूबाट बनेको हुन्छ।';
+
+  @override
+  String get voiceInputTitle => 'स्वर इनपुट';
+
+  @override
+  String get voiceInputMicTitle => 'माइक्रोफोन';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'टाइप गर्नको सट्टा Ayara लाई सोध्नका लागि आफ्नो इनपुट बोल्नुहोस्।';
+
+  @override
+  String get voiceInputMicDenied => 'माइक्रोफोन पहुँच अस्वीकृत गरियो।';
+
+  @override
+  String get voiceInputSpeak => 'बोल्नुहोस्';
+
+  @override
+  String get voiceInputListening => 'सुन्दै…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'स्वर इनपुटका लागि माइक्रोफोन पहुँच आवश्यक छ।';
 }

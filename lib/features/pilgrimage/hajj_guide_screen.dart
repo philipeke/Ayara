@@ -153,7 +153,7 @@ class _HajjGuideScreenState extends State<HajjGuideScreen> {
                   actions: [
                     if (total > 0)
                       Padding(
-                        padding: const EdgeInsets.only(right: 14),
+                        padding: const EdgeInsetsDirectional.only(end: 14),
                         child: _ProgressChip(done: done, total: total),
                       ),
                   ],

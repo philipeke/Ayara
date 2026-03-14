@@ -632,7 +632,7 @@ class AppLocalizationsNy extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'AYAH YA TSIKU';
 
   @override
-  String get dailyGraceSaintLabel => 'WOPHUNZIRA WA SABATA';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'KUGANIZIRA KWA MADZULO';
@@ -1281,7 +1281,7 @@ class AppLocalizationsNy extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua yopempha kubweranso kwa Imam al-Mahdī (af), Imam wa khumi ndi awiri, yophunzitsidwa ndi bambo ake. Imawerengedwa tsiku lililonse ndi a Shia pambuyo pa pemphero lililonse monga chizindikiro cha kudzipereka kwa Imam wamoyo.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ ya Lady Fāṭima';
@@ -1384,11 +1384,11 @@ class AppLocalizationsNy extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Ma Masumeen 14';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'Mneneri, Lady Fatima, ndi Ma Imam Khumi ndi Awiri — atsogoleri osalakwa a Chisilamu';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Anabadwa';
@@ -1478,7 +1478,7 @@ class AppLocalizationsNy extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith ya Tsiku';
 
   @override
-  String get quickAction14Masumeen => 'Masumeen 14';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Mverani';
@@ -1560,13 +1560,36 @@ class AppLocalizationsNy extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Aulendo a Shia mwachizolowezi amapita ku Medina kuti akayendere manda a Mneneri Muhammad ﷺ ku Masjid al-Nabawi, komanso manda a Ma Imam ku Jannat al-Baqi. Maulendo amenewa ali ndi tanthauzo lalikulu lauimu ndipo amaonedwa ngati gawo lofunika kwambiri pa ulendo kwa a Shia ambiri.';
+      'Aziyenda ambiri a Shia amapita ku Madina kukachita ziyara kwa Mneneri Muhammad (SAW) ku Masjid al-Nabawi ndiponso kukaona manda a ku Jannat al-Baqi. Maulendo amenewa ali ndi tanthauzo lalikulu lauzimu, ngakhale kuti si miyambo ya Hajj yokha.';
 
   @override
   String get hajjIntro =>
-      'Hajj ndi mzati wachisanu wa Chisilamu, wovomerezeka kamodzi pa moyo kwa Msilamu aliyense amene ali ndi mphamvu m\'thupi komanso pa ndalama. Umachitika mu mwezi wa Dhul Hijjah, ndipo umatsatira mapazi a Mneneri Ibrahim (AS), mwana wake Ismail (AS), ndi Lady Hajar. Kwa a Shia, Hajj imaphatikizanso dalitso lalikulu loyendera malo opumulirako a Mneneri ﷺ ndi Ahlul Bayt ku Medina.';
+      'Hajj ndi mzati wachisanu wa Chisilamu, ndipo ndi udindo umene Msilamu aliyense wokhoza m\'thupi ndi m\'ndalama ayenera kuchita kamodzi pa moyo wake. Kwa ambiri mwa oyenda a Shia a Twelver masiku ano, izi zikutanthauza Hajj al-Tamattu\', yomwe imachitika m’mwezi wa Dhul Hijjah potsatira mapazi a Mneneri Ibrahim (AS), mwana wake Ismail (AS), ndi Lady Hajar. Kalozerayu akutsatira dongosolo la Ja\'fari la miyambo ya Hajj, pamene ziyara ya ku Madina imakhalabe ulendo wauzimu wofunika kwambiri musanapite kapena mutachita Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah ndi ulendo wamng\'ono wopita ku Mecca ndipo, mosiyana ndi Hajj, ungachitidwe nthawi iliyonse ya chaka. Ngakhale siwovomerezeka, uli ndi mphotho zazikulu zauzimu ndipo umaonedwa ngati ibadah yolimbikitsidwa kwambiri. Umagawana miyambo ingapo ndi Hajj koma ndi wachidule, wokhala ndi miyambo inayi ikuluikulu.';
+
+  @override
+  String get voiceInputTitle => 'Maonekedwe a Mawu';
+
+  @override
+  String get voiceInputMicTitle => 'Makutu';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Lankhulani zomwe mukufuna ku Ask Ayara m\'malo mwa kulemba.';
+
+  @override
+  String get voiceInputMicDenied => 'Kufikira kwa makutu kwakanidwa.';
+
+  @override
+  String get voiceInputSpeak => 'Lankhulani m\'malo';
+
+  @override
+  String get voiceInputListening => 'Kulankhula…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Kufikira kwa makutu ndikofunikira kuti mupeze mawu.';
 }

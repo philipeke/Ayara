@@ -35,7 +35,7 @@ const List<_Hadith> _kHadiths = [
     arabic:
         'إِنِّي تَارِكٌ فِيكُمُ الثَّقَلَيْنِ: كِتَابَ اللهِ وَعِتْرَتِي أَهْلَ بَيْتِي',
     english:
-        'I am leaving among you two weighty things: the Book of Allah and my Ahlul Bayt. They will never separate until they meet me at the Pond of Kawthar.',
+        'I am leaving among you two weighty things: the Book of Allah and my Ahl al-Bayt. They will never separate until they meet me at the Pond of Kawthar.',
     source: 'Hadith al-Thaqalayn',
     imam: 'Prophet Muhammad (SAW)',
     imamAr: 'النبي محمد ﷺ',
@@ -233,7 +233,7 @@ const List<_Hadith> _kHadiths = [
     arabic:
         'جَعَلَ اللهُ الإِيمَانَ تَطْهِيراً مِنَ الشِّرْكِ وَالصَّلاةَ تَنْزِيهاً عَنِ الكِبْرِ',
     english:
-        'Allah has made faith a purification from polytheism, prayer a purification from pride, and zakat a purification of the soul and wealth.',
+        'Allah has made faith a purification from polytheism, and prayer a cleansing from arrogance.',
     source: 'Khutbat Fadak',
     imam: 'Lady Fatima Zahra (SA)',
     imamAr: 'السيدة فاطمة الزهراء ع',
@@ -305,7 +305,7 @@ const List<_Hadith> _kHadiths = [
     arabic:
         'قِيمَةُ كُلِّ امْرِئٍ مَا يُحْسِنُهُ',
     english:
-        'The worth of every person lies in what he does well. Invest in what you master and offer it to the world.',
+        'A person\'s worth lies in what he does well.',
     source: 'Nahj al-Balagha',
     imam: 'Imam Ali ibn Abi Talib (AS)',
     imamAr: 'الإمام علي بن أبي طالب ع',
@@ -323,7 +323,7 @@ const List<_Hadith> _kHadiths = [
     arabic:
         'إِنَّ أَحَبَّكُمْ إِلَى اللهِ أَحْسَنُكُمْ أَخْلاقاً',
     english:
-        'The most beloved of you to Allah is the one with the finest character — gentle in speech, patient in trials, and generous in giving.',
+        'The most beloved of you to Allah is the one with the best character.',
     source: 'Bihar al-Anwar',
     imam: 'Prophet Muhammad (SAW)',
     imamAr: 'النبي محمد ﷺ',

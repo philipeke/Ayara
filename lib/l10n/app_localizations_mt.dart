@@ -630,7 +630,7 @@ class AppLocalizationsMt extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERS TAL-JUM';
 
   @override
-  String get dailyGraceSaintLabel => 'GĦAREF TAL-ĠIMGĦA';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'RIFLESSJONI TAL-GĦAXIJA';
@@ -1275,7 +1275,7 @@ class AppLocalizationsMt extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua għall-apparizzjoni mill-ġdid tal-Imam al-Mahdī (af), it-tnax-il Imam, mgħallma minn missieru. Recitatata kuljum mill-fidili Shi\'a wara kull talba bħala att ta\' devozzjoni lejn l-Imam ħajj.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ tas-Sida Fāṭima';
@@ -1377,11 +1377,11 @@ class AppLocalizationsMt extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'L-14 Masumeen';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'Il-Profeta, is-Sida Fatima, u t-Tnax-il Imam — il-gwidi infallibli tal-Islam';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Imwieled';
@@ -1471,7 +1471,7 @@ class AppLocalizationsMt extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith ta\' Kuljum';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Isma\'';
@@ -1551,13 +1551,36 @@ class AppLocalizationsMt extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Il-pellegrini Shi\'a tradizzjonalment imorru wkoll Medina biex iżuru l-qabar tal-Profeta Muhammad (SAW) fil-Masjid al-Nabawi, u l-oqbra tal-Imami fil-Jannat al-Baqi. Dawn iż-żjarat jġorru sinifikat spiritwali immens u huma kkunsidrati parti integrali tal-vjaġġ għall-biċċa l-kbira tal-Misilmin Shi\'a.';
+      'Ħafna pellegrini Xiti wkoll jivvjaġġaw lejn Medina għal ziyarat tal-Profeta Muhammad (SAW) fil-Masjid al-Nabawi u għall-oqbra f\'Jannat al-Baqi. Dawn iż-żjarat għandhom sinifikat spiritwali profond, għalkemm fihom infushom mhumiex riti tal-Ħaġġ.';
 
   @override
   String get hajjIntro =>
-      'Il-Hajj huwa l-ħames pilastru tal-Islam, obbligatorju darba f\'ħajja għal kull Muslim li jkun kapaċi fiżikament u finanzjarjament. Imwettaq fix-xahar ta\' Dhul Hijjah, jerġa\' jibda fuq il-passi tal-Profeta Ibrahim (AS), ibnu Ismail (AS), u s-Sida Hajar. Għall-Misilmin Shi\'a, il-Hajj jinkludi wkoll il-grazzja profonda taż-żjara tal-postijiet tal-mistrieħ tal-Profeta (SAW) u l-Ahlul Bayt f\'Medina.';
+      'Il-Ħaġġ huwa l-ħames pilastru tal-Iżlam, obbligatorju darba fil-ħajja għal kull Musulman li huwa fiżikament u finanzjarjament kapaċi. Għall-biċċa l-kbira tal-pellegrini Xiti Twelver illum, dan ifisser Hajj al-Tamattu\', li jsir fix-xahar ta\' Dhul Hijjah fuq il-passi tal-Profeta Ibrahim (AS), ibnu Ismail (AS), u Lady Hajar. Din il-gwida ssegwi l-qafas Ja\'fari tar-riti, filwaqt li ż-ziyara f\'Medina tibqa\' vjaġġ spiritwali għażiż ħafna qabel jew wara l-Ħaġġ.';
 
   @override
   String get umrahIntro =>
       'L-Umrah hija l-pellegrinaġġ iżgħar lejn Makkah u, b\'differenza mill-Hajj, tista\' titwettaq fi kwalunkwe żmien tas-sena. Għalkemm mhix obbligatorja, ġġib premju spiritwali immens u hija kkunsidrata att ta\' qima rakkomandat ħafna. Taqsam diversi riti mal-Hajj iżda hija iqsar, u tikkonsisti f\'erba\' riti prinċipali.';
+
+  @override
+  String get voiceInputTitle => 'Input bil-Vuċi';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofonu';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Ikkellem il-input tiegħek biex Staqsi lil Ayara minflok it-tipa.';
+
+  @override
+  String get voiceInputMicDenied => 'Aċċess għall-mikrofonu ġie miċħud.';
+
+  @override
+  String get voiceInputSpeak => 'Ikkellem minflok';
+
+  @override
+  String get voiceInputListening => 'Qiegħed nisimgħek…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Aċċess għall-mikrofonu huwa meħtieġ għall-input bil-vuċi.';
 }

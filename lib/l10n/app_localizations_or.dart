@@ -629,7 +629,7 @@ class AppLocalizationsOr extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'ଆଜିର ଆୟାତ୍';
 
   @override
-  String get dailyGraceSaintLabel => 'ସପ୍ତାହର ବିଦ୍ୱାନ';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'ସନ୍ଧ୍ୟା ଚିନ୍ତନ';
@@ -1268,7 +1268,7 @@ class AppLocalizationsOr extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'ବାରୋତମ ଇମାମ, ଇମାମ ଅଲ୍-ମାହଦୀ (af) ଙ୍କ ପୁନଃ ଆଗମନ ପାଇଁ ଏକ ଦୁଆ, ଯାହା ତାଙ୍କର ପିତା ଦ୍ୱାରା ଶିଖାଯାଇଥିଲା। ଶିଆ ମୁମିନମାନେ ଜୀବିତ ଇମାମଙ୍କ ପ୍ରତି ଭକ୍ତିର ଚିହ୍ନ ଭାବରେ ପ୍ରତ୍ୟେକ ନମାଜ ପରେ ଏହାକୁ ପ୍ରତିଦିନ ପଢ଼ନ୍ତି।';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'ବିବି ଫାତିମାଙ୍କ ତସବିହ୍';
@@ -1370,11 +1370,11 @@ class AppLocalizationsOr extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 ମାସୁମିନ୍';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'ପୟଗମ୍ବର, ବିବି ଫାତିମା, ଏବଂ ବାରୋ ଇମାମ — ଇସଲାମର ନିଷ୍ପାପ ମାର୍ଗଦର୍ଶକମାନେ';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'ଜନ୍ମ';
@@ -1464,7 +1464,7 @@ class AppLocalizationsOr extends AppLocalizations {
   String get quickActionDailyHadith => 'ଦୈନିକ ହାଦିସ୍';
 
   @override
-  String get quickAction14Masumeen => '14 ମାସୁମିନ୍';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'ଶୁଣନ୍ତୁ';
@@ -1544,13 +1544,36 @@ class AppLocalizationsOr extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'ଶିଆ ତୀର୍ଥଯାତ୍ରୀମାନେ ପାରମ୍ପରିକ ଭାବେ ମଦିନାକୁ ମଧ୍ୟ ଯାଆନ୍ତି, ଯେଉଁଠାରେ ସେମାନେ ମସଜିଦ୍ ଅଲ୍-ନବବୀରେ ପୟଗମ୍ବର ମୁହମ୍ମଦ (SAW) ଙ୍କ ରୌଜା ଓ ଜନ୍ନତ୍ ଅଲ୍-ବାକୀରେ ଇମାମମାନଙ୍କ କବରକୁ ଜିୟାରତ୍ କରନ୍ତି। ଏହି ଭ୍ରମଣଗୁଡ଼ିକ ଗଭୀର ଆଧ୍ୟାତ୍ମିକ ଗୁରୁତ୍ୱ ବହନ କରେ ଏବଂ ଅଧିକାଂଶ ଶିଆ ଯାତ୍ରୀମାନଙ୍କ ପାଇଁ ଯାତ୍ରାର ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଅଂଶ ଭାବେ ଧରାଯାଏ।';
+      'ଅନେକ ଶିଆ ଯାତ୍ରୀ ମେଦିନାକୁ ମଧ୍ୟ ଯାଆନ୍ତି, ଯାହାଦ୍ୱାରା Masjid al-Nabawi ରେ ପୟଗମ୍ବର ମୁହମ୍ମଦ (SAW)ଙ୍କ ଜିଆରତ କରିପାରନ୍ତି ଏବଂ Jannat al-Baqi ରେ ଥିବା ସମାଧିଗୁଡ଼ିକୁ ଦର୍ଶନ କରନ୍ତି। ଏହି ଭ୍ରମଣଗୁଡ଼ିକର ଗଭୀର ଆଧ୍ୟାତ୍ମିକ ମହତ୍ତ୍ୱ ଅଛି, ଯଦିଓ ସେଗୁଡ଼ିକ ସ୍ୱୟଂ ହଜ୍ଜର କୌଣସି ରୀତି ନୁହେଁ।';
 
   @override
   String get hajjIntro =>
-      'ହଜ୍ ହେଉଛି ଇସଲାମର ପଞ୍ଚମ ସ୍ତମ୍ଭ, ଏବଂ ପ୍ରତ୍ୟେକ ଶାରୀରିକ ଓ ଆର୍ଥିକ ଭାବେ ସକ୍ଷମ ମୁସଲିମ୍ ପାଇଁ ଜୀବନରେ ଗୋଟେଥର ଫର୍ଜ। ଜିଲ୍ହଜ୍ଜ ମାସରେ କରାଯାଉଥିବା ଏହି ଯାତ୍ରା, ପୟଗମ୍ବର ଇବ୍ରାହିମ୍ (AS), ତାଙ୍କ ପୁଅ ଇସମାଇଲ୍ (AS), ଏବଂ ବିବି ହାଜରାଙ୍କ ପଦଚିହ୍ନକୁ ଅନୁସରଣ କରେ। ଶିଆ ମୁସଲିମ୍‌ମାନଙ୍କ ପାଇଁ, ହଜ୍‌ରେ ମଦିନାରେ ପୟଗମ୍ବର (SAW) ଏବଂ Ahlul Bayt ଙ୍କ ପବିତ୍ର ବିଶ୍ରାମସ୍ଥଳୀକୁ ଜିୟାରତ୍ କରିବାର ଗଭୀର ବରକତ୍ ମଧ୍ୟ ଅନ୍ତର୍ଭୁକ୍ତ।';
+      'ହଜ୍ଜ ଇସ୍ଲାମର ପଞ୍ଚମ ସ୍ତମ୍ଭ, ଏବଂ ଯେଉଁ ପ୍ରତ୍ୟେକ ମୁସଲିମ ଶାରୀରିକ ଓ ଆର୍ଥିକ ଭାବେ ସକ୍ଷମ, ସେହିଁଠାରେ ଜୀବନରେ ଗୋଟେଥର କରିବା ଆବଶ୍ୟକ। ଆଜିର ଅଧିକାଂଶ ଦ୍ୱାଦଶୀ ଶିଆ ଯାତ୍ରୀଙ୍କ ପାଇଁ ଏହାର ଅର୍ଥ ହେଉଛି Hajj al-Tamattu\', ଯାହା Dhul Hijjah ମାସରେ ପୟଗମ୍ବର Ibrahim (AS), ତାଙ୍କ ପୁତ୍ର Ismail (AS) ଏବଂ Lady Hajarଙ୍କ ପଦଚିହ୍ନ ଅନୁସରଣ କରି କରାଯାଏ। ଏହି ଗାଇଡ୍ ରୀତିଗୁଡ଼ିକର Ja\'fari ରୂପରେଖାକୁ ଅନୁସରଣ କରେ, ଯେଉଁବେଳେ ମେଦିନାରେ ଜିଆରତ ହଜ୍ଜର ପୂର୍ବରୁ କିମ୍ବା ପରେ ଗଭୀର ଭାବେ ପ୍ରିୟ ଆଧ୍ୟାତ୍ମିକ ଯାତ୍ରା ଭାବେ ରହିଥାଏ।';
 
   @override
   String get umrahIntro =>
       'ଉମରାହ୍ ହେଉଛି ମକ୍କାକୁ ଛୋଟ ତୀର୍ଥଯାତ୍ରା, ଏବଂ ହଜ୍‌ଠାରୁ ଭିନ୍ନ ଭାବେ, ଏହା ବର୍ଷର ଯେକୌଣସି ସମୟରେ କରାଯାଇପାରେ। ଯଦିଓ ଏହା ଫର୍ଜ ନୁହେଁ, ତଥାପି ଏହାର ଆଧ୍ୟାତ୍ମିକ ପ୍ରତିଫଳ ଅପରିମିତ ଏବଂ ଏହାକୁ ଅତ୍ୟନ୍ତ ସୁପାରିଶିତ ଇବାଦତ୍ ଭାବେ ଗଣାଯାଏ। ଏହାର କିଛି ରୀତିନୀତି ହଜ୍ ସହିତ ମିଳେ, କିନ୍ତୁ ଏହା ଛୋଟ ଏବଂ ଚାରୋଟି ମୁଖ୍ୟ ରୀତିରେ ଗଠିତ।';
+
+  @override
+  String get voiceInputTitle => 'ଶବ୍ଦ ଇନପୁଟ';
+
+  @override
+  String get voiceInputMicTitle => 'ମାଇକ୍';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'ଲେଖିବାର ବଦଳରେ Ask Ayara କୁ ଆପଣଙ୍କର ଇନପୁଟ୍ କୁ କହନ୍ତୁ।';
+
+  @override
+  String get voiceInputMicDenied => 'ମାଇକ୍ ପ୍ରବେଶ ଅସ୍ୱୀକୃତ ହେଲା।';
+
+  @override
+  String get voiceInputSpeak => 'ବୋଲନ୍ତୁ';
+
+  @override
+  String get voiceInputListening => 'ଶୁଣୁଛି…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'ଶବ୍ଦ ଇନପୁଟ୍ ପାଇଁ ମାଇକ୍ ପ୍ରବେଶ ଆବଶ୍ୟକ।';
 }

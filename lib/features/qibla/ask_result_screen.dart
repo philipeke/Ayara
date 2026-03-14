@@ -121,10 +121,10 @@ class _AskResultScreenState extends State<AskResultScreen> {
                       SizedBox(width: gap * 0.6),
                       Expanded(
                         child: Align(
-                          alignment: Alignment.centerLeft,
+                          alignment: AlignmentDirectional.centerStart,
                           child: FittedBox(
                             fit: BoxFit.scaleDown,
-                            alignment: Alignment.centerLeft,
+                            alignment: AlignmentDirectional.centerStart,
                             child: Text(
                               t.askResultYourQuestion,
                               maxLines: 1,

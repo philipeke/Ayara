@@ -625,7 +625,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERŠ DŇA';
 
   @override
-  String get dailyGraceSaintLabel => 'UČENEC TÝŽDŇA';
+  String get dailyGraceSaintLabel => 'OSOBA TÝŽDŇA';
 
   @override
   String get dailyGraceReflectionLabel => 'VEČERNÁ REFLEXIA';
@@ -1264,7 +1264,7 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua za znovuobjavenie Imáma al-Mahdího (af), dvanásteho Imáma, učená jeho otcom. Recitovaná denne Šiitskymi veriacimi po každej modlitbe ako prejavy úcty k živému Imámovi.';
+      'Dua za opätovný príchod Imáma al-Mahdīho (af), dvanásteho Imáma, ktorú ho naučil jeho otec. Často ju recitujú mnohí šiítski moslimovia po modlitbe ako prejav oddanosti žijúcemu Imámovi.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ pani Fāṭima';
@@ -1366,11 +1366,11 @@ class AppLocalizationsSk extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'Štrnásti neomylní';
 
   @override
   String get imamsScreenSubtitle =>
-      'Prorok, pani Fatima a dvanásť Imámov — neomylní vodcovia islamu';
+      'Prorok, pani Fatima a dvanásť Imámov — očistení a neomylní vodcovia v dvanásťimámovskom šiizme';
 
   @override
   String get imamLabelBorn => 'Narodený';
@@ -1460,7 +1460,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get quickActionDailyHadith => 'Denný hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Štrnásti neomylní';
 
   @override
   String get quickActionListenDuas => 'Počúvajte';
@@ -1540,13 +1540,36 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Šiitskí pútnici tradične cestujú aj do Mediny na návštevu hrobu Proroka Muhammad (SAW) v Masjid al-Nabawi a hrobov Imámov v Jannat al-Baqi. Tieto návštevy majú obrovský duchovný significance a považujú sa za neoddeliteľnú časť cesty pre väčšinu šiitskych muslimov.';
+      'Mnohí šiítski pútnici tiež cestujú do Mediny na ziyarat Proroka Muhammada (SAW) v Masjid al-Nabawi a na hroby v Jannat al-Baqi. Tieto návštevy majú hlboký duchovný význam, aj keď samy o sebe nie sú rituálmi Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hadždž je piaty pilier islamu, povinný raz v živote pre každého muslima, ktorý je fyzicky a finančne schopný. Vykonaný v mesiaci Dhul Hijjah, sleduje kroky Proroka Ibrahíma (AS), jeho syna Ismaila (AS) a pani Hajar. Pre šiitskych muslimov Hadždž zahŕňa aj hlbokého požehnania návštevy miesta odpočinku Proroka (SAW) a Ahlul Bayt v Medine.';
+      'Hajj je piatym pilierom islamu, povinný raz za život pre každého moslima, ktorý je fyzicky a finančne schopný. Pre väčšinu dnešných dvanásťimámovských pútnikov to znamená Hajj al-Tamattu\', vykonávaný v mesiaci Dhul Hijjah v stopách proroka Ibrahima (AS), jeho syna Ismaila (AS) a pani Hajar. Tento sprievodca nasleduje Ja\'fariho osnovu rituálov, zatiaľ čo ziyarat v Medine zostáva hlboko cenenou cestou pred alebo po Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah je menšia pouť do Mekky a na rozdiel od Hadždža môže byť vykonaná kedykoľvek v priebehu roka. Hoci nie je povinná, nesie obrovskú duchovnú награду a považuje sa za vysoko odporúčané činu zbožnosti. Delí si niekoľko rituálov s Hadždžom, ale je kratšia, pozostávajúc zo štyroch hlavných obradov.';
+
+  @override
+  String get voiceInputTitle => 'Hlasový vstup';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofón';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Povedzte svoj vstup Ask Ayara namiesto písania.';
+
+  @override
+  String get voiceInputMicDenied => 'Prístup k mikrofónu bol zamietnutý.';
+
+  @override
+  String get voiceInputSpeak => 'Hovorte namiesto';
+
+  @override
+  String get voiceInputListening => 'Počúvam…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Prístup k mikrofónu je potrebný pre hlasový vstup.';
 }

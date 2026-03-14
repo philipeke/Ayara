@@ -626,7 +626,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'आज का छंद';
 
   @override
-  String get dailyGraceSaintLabel => 'सप्ताह का विद्वान';
+  String get dailyGraceSaintLabel => 'सप्ताह का व्यक्तित्व';
 
   @override
   String get dailyGraceReflectionLabel => 'शाम का चिंतन';
@@ -1266,7 +1266,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'इमाम अल-महदी (अफ) के पुनः प्रकट होने के लिए एक दुआ, उनके पिता द्वारा सिखाई गई। शिया विश्वासियों द्वारा हर नमाज़ के बाद दैनिक रूप से पढ़ी जाती है जीवंत इमाम के प्रति भक्ति के कार्य के रूप में।';
+      'इमाम अल-महदी (अफ) की पुनः प्रकट होने के लिए एक दुआ, जो उनके पिता द्वारा सिखाई गई थी। इसे अक्सर कई शिया मुसलमान प्रार्थना के बाद जीवित इमाम के प्रति श्रद्धा के कार्य के रूप में पढ़ते हैं।';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'लेडी फातिमा की तस्बीह';
@@ -1368,11 +1368,11 @@ class AppLocalizationsHi extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 मासुमीन';
+  String get imamsScreenTitle => 'चौदह मासूम';
 
   @override
   String get imamsScreenSubtitle =>
-      'पैगंबर, लेडी फातिमा, और बारह इमाम — इस्लाम के अचूक मार्गदर्शक';
+      'नबी, बेगम फातिमा, और बारह इमाम — बारह शिया इस्लाम में शुद्ध और मासूम मार्गदर्शक';
 
   @override
   String get imamLabelBorn => 'जन्म';
@@ -1462,7 +1462,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get quickActionDailyHadith => 'दैनिक हदीस';
 
   @override
-  String get quickAction14Masumeen => '14 मासुमीन';
+  String get quickAction14Masumeen => 'चौदह मासूम';
 
   @override
   String get quickActionListenDuas => 'सुनें';
@@ -1544,13 +1544,36 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'शिया तीर्थयात्री परंपरागत रूप से मदीना की यात्रा भी करते हैं पैगंबर मुहम्मद (सॉ) की कब्र को मस्जिद अल-नबावी में देखने के लिए, और जन्नत अल-बकी में इमामों की कब्रों को। ये दौरे अत्यंत आध्यात्मिक महत्व रखते हैं और अधिकांश शिया मुसलमानों के लिए यात्रा का एक अभिन्न हिस्सा माने जाते हैं।';
+      'कई शिया तीर्थयात्री नबी मुहम्मद (सअव) की ज़ियारत के लिए मस्जिद अल-नबवी और जन्नत अल-बाकी में कब्रों के लिए मदीना भी यात्रा करते हैं। ये दौरे गहरे आध्यात्मिक महत्व रखते हैं, हालाँकि ये खुद हज के अनुष्ठान नहीं हैं।';
 
   @override
   String get hajjIntro =>
-      'हज इस्लाम का पाँचवाँ स्तंभ है, हर मुसलमान के लिए जीवन में एक बार अनिवार्य जो शारीरिक और आर्थिक रूप से सक्षम है। धु अल-हिज्जा महीने में किया जाता है, यह पैगंबर इब्राहिम (अस), उनके बेटे इस्माईल (अस), और लेडी हाजर के पदचिन्हों को फिर से बनाता है। शिया मुसलमानों के लिए, हज में पैगंबर (सॉ) और अहलुल बैत के आराम स्थलों का दौरा करने का गहरा आशीर्वाद भी शामिल है मदीना में।';
+      'हज इस्लाम का पाँचवाँ स्तंभ है, जो हर मुसलमान के लिए जीवन में एक बार शारीरिक और वित्तीय रूप से सक्षम होने पर अनिवार्य है। आज के अधिकांश बारह शिया तीर्थयात्रियों के लिए, इसका अर्थ है हज अल-तमत्तु\', जो इमाम इब्राहीम (अस), उनके पुत्र इस्माइल (अस), और बेगम हाजर के पदचिन्हों पर धुल हिज्जा के महीने में किया जाता है। यह मार्गदर्शिका अनुष्ठानों के जाफरी रूपरेखा का पालन करती है, जबकि मदीना में ज़ियारत हज से पहले या बाद में एक गहराई से प्रिय यात्रा बनी रहती है।';
 
   @override
   String get umrahIntro =>
       'उमरह मक्का की छोटी तीर्थ यात्रा है और, हज के विपरीत, साल के किसी भी समय की जा सकती है। जबकि अनिवार्य नहीं है, यह अत्यंत आध्यात्मिक पुरस्कार रखती है और इसे पूजा का एक अत्यधिक अनुशंसित कार्य माना जाता है। यह हज के साथ कई अनुष्ठान साझा करती है लेकिन छोटी है, चार मुख्य अनुष्ठानों से युक्त।';
+
+  @override
+  String get voiceInputTitle => 'वॉयस इनपुट';
+
+  @override
+  String get voiceInputMicTitle => 'माइक्रोफोन';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'टाइप करने के बजाय आयारा से पूछने के लिए बोलें।';
+
+  @override
+  String get voiceInputMicDenied => 'माइक्रोफोन एक्सेस अस्वीकृत किया गया।';
+
+  @override
+  String get voiceInputSpeak => 'बोलें';
+
+  @override
+  String get voiceInputListening => 'सुन रहे हैं…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'वॉयस इनपुट के लिए माइक्रोफोन एक्सेस आवश्यक है।';
 }

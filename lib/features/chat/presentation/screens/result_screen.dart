@@ -44,7 +44,7 @@ class _ResultScreenState extends State<ResultScreen> {
 
   /// 📋 Kopiera text
   Future<void> _onCopy() async {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     await HapticFeedback.selectionClick();
     await Clipboard.setData(ClipboardData(text: _text));
     if (!mounted) return;
@@ -55,7 +55,7 @@ class _ResultScreenState extends State<ResultScreen> {
 
   /// 📨 Dela text
   Future<void> _onShare() async {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     await HapticFeedback.selectionClick();
     if (_text.trim().isEmpty) return;
     final subject = t.shareSubject(widget.category); // ex: "Ayara — Daily Guidance"
@@ -64,7 +64,7 @@ class _ResultScreenState extends State<ResultScreen> {
 
   /// 🔁 Generera nytt svar (för bottenknappen)
   Future<void> _onRegenerate() async {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     if (widget.onRegenerate == null || _loading) return;
     setState(() => _loading = true);
 

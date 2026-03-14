@@ -110,7 +110,7 @@ class _MonthlyPrayerScreenState extends State<MonthlyPrayerScreen> {
       ),
     );
 
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     // Which page is currently shown (rounded)
     final currentPage = ((_pageController.hasClients
@@ -287,7 +287,7 @@ class _MonthPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     final monthLabel = DateFormat('MMMM y').format(DateTime(year, month));
 
     return LayoutBuilder(

@@ -81,10 +81,10 @@ class ResultAppBar extends StatelessWidget implements PreferredSizeWidget {
                   SizedBox(width: gap * 0.6),
                   Expanded(
                     child: Align(
-                      alignment: Alignment.centerLeft,
+                      alignment: AlignmentDirectional.centerStart,
                       child: FittedBox(
                         fit: BoxFit.scaleDown,
-                        alignment: Alignment.centerLeft,
+                        alignment: AlignmentDirectional.centerStart,
                         child: Text(
                           category,
                           maxLines: 1,

@@ -629,7 +629,7 @@ class AppLocalizationsSt extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'TEMANA EA LETSATSI';
 
   @override
-  String get dailyGraceSaintLabel => 'SETSEBI SA BEKE';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'HO NAGANA HA MANTSIBOEA';
@@ -1277,7 +1277,7 @@ class AppLocalizationsSt extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua ea ho kopa ponahalo hape ha Imam al-Mahdī (af), Imam oa leshome le metso e \'meli, e rutiloeng ke ntat\'ae. E recitoa letsatsi le letsatsi ke ba tšepahalang ba Shia ka mor’a thapelo e ’ngoe le e ’ngoe e le pontšo ea boinehelo ho Imam ea phelang.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ ea Mofumahali Fāṭima';
@@ -1380,11 +1380,11 @@ class AppLocalizationsSt extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Ba Masumeen ba 14';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'Moprofeta, Mofumahali Fatima, le Ma-Imam a Leshome le Metso e Mebeli — baetapele ba sa foseng ba Boislamo';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'O hlahetse';
@@ -1474,7 +1474,7 @@ class AppLocalizationsSt extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith ea Letsatsi';
 
   @override
-  String get quickAction14Masumeen => 'Masumeen ba 14';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Mamela';
@@ -1556,13 +1556,36 @@ class AppLocalizationsSt extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Bahajjaji ba Shia ka moetlo ba boela ba etela Medina ho etela lebitla la Moprofeta Muhammad ﷺ Masjid al-Nabawi, le mabitla a Ma-Imam Jannat al-Baqi. Maeto ana a na le bohlokoa bo boholo ba moea \'me a nkoa e le karolo ea bohlokoa ea leeto bakeng sa ba bangata ba Shia.';
+      'Baeti ba bangata ba Shia ba boela ba etela Medina bakeng sa ziyarat ea Moprofeta Muhammad (SAW) Masjid al-Nabawi le mabitla a Jannat al-Baqi. Maeto ana a na le bohlokoa bo tebileng ba semoea, leha e se mekgwa ea Hajj ka boona.';
 
   @override
   String get hajjIntro =>
-      'Hajj ke pilara ea bohlano ea Boislamo, e tlamang hanngoe bophelong bakeng sa Momosleme e mong le e mong ea nang le bokhoni ba \'mele le lichelete. E etsoa khoeling ea Dhul Hijjah \'me e latela mehato ea Moprofeta Ibrahim (AS), mora oa hae Ismail (AS), le Mofumahali Hajar. Bakeng sa Mamoseleme a Shia, Hajj e boela e kenyelletsa tlhohonolofatso e tebileng ea ho etela libaka tsa phomolo tsa Moprofeta ﷺ le Ahlul Bayt Medina.';
+      'Hajj ke pilara ea bohlano ea Islam, e tlamang hang bophelong bakeng sa Moislamo e mong le e mong ea nang le matla a \'mele le a lichelete. Kajeno, bakeng sa boholo ba baeti ba Twelver Shia, sena se bolela Hajj al-Tamattu\', e etsoang khoeling ea Dhul Hijjah mehatong ea Moprofeta Ibrahim (AS), mora oa hae Ismail (AS), le Lady Hajar. Tataiso ena e latela moralo oa Ja\'fari oa mekhoa ena, ha ziyarat ea Medina e ntse e le leeto la semoea le ratoang haholo pele kapa ka mor\'a Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah ke leeto le lenyenyane la ho ea Mecca \'me, ho fapana le Hajj, le ka etsoa neng kapa neng ka selemo. Leha le sa tlamahale, le na le moputso o moholo oa moea \'me le nkoa e le ketso ea borapeli e khothaletsoang haholo. Le arolelana mekhoa e meng le Hajj empa le le khuts\'oane, le entsoe ka liketso tse \'nè tse kholo.';
+
+  @override
+  String get voiceInputTitle => 'Ts\'ebetso ea Lentswe';
+
+  @override
+  String get voiceInputMicTitle => 'Mokhanni';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Bua ts\'ebetso ea hau ho Ask Ayara eseng ho ngola.';
+
+  @override
+  String get voiceInputMicDenied => 'Tšebeletso ea mokhanni e ile ea hanngoa.';
+
+  @override
+  String get voiceInputSpeak => 'Bua ho fapana';
+
+  @override
+  String get voiceInputListening => 'U mamela…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Tšebeletso ea mokhanni e hlokahala bakeng sa ts\'ebetso ea lentswe.';
 }

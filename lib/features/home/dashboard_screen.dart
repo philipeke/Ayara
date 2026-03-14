@@ -214,9 +214,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   'premium';
           if (!isPremium) return const SizedBox.shrink();
           return Padding(
-            padding: const EdgeInsets.only(left: 12),
+            padding: const EdgeInsetsDirectional.only(start: 12),
             child: Align(
-              alignment: Alignment.centerLeft,
+              alignment: AlignmentDirectional.centerStart,
               child: Container(
                 padding:
                     const EdgeInsets.symmetric(horizontal: 9, vertical: 5),
@@ -890,7 +890,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
           ),
           const SizedBox(height: 10),
           Align(
-            alignment: Alignment.centerRight,
+            alignment: AlignmentDirectional.centerEnd,
             child: Text(
               '— ${wisdom.source}',
               style: Theme.of(context).textTheme.labelSmall?.copyWith(
@@ -1552,7 +1552,7 @@ class _PrayerSummaryCardState extends State<_PrayerSummaryCard> {
                       children: List.generate(5, (i) {
                         final isDone = _checked[_keys[i]] ?? false;
                         return Padding(
-                          padding: EdgeInsets.only(right: i < 4 ? 8 : 0),
+                          padding: EdgeInsetsDirectional.only(end: i < 4 ? 8 : 0),
                           child: Column(
                             children: [
                               Text(_emojis[i],

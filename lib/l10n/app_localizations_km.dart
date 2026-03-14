@@ -617,7 +617,7 @@ class AppLocalizationsKm extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'សូត្រថ្ងៃ';
 
   @override
-  String get dailyGraceSaintLabel => 'ចិត្តបុគ្គលមាសនេះ';
+  String get dailyGraceSaintLabel => 'រូបភាពនៃសប្តាហ៍';
 
   @override
   String get dailyGraceReflectionLabel => 'ការឆ្លឹងលើល្ងាច';
@@ -1236,7 +1236,7 @@ class AppLocalizationsKm extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'dua សម្រាប់ ដើមគង់ Imam al-Mahdī (af) ១២ Imam។ ដែល ដោយ Shia Muslim បន្ទាប់រៀងរាល់ដែន អាជ្ញាណ Imam។';
+      'ការអធិស្ឋានសម្រាប់ការបង្ហាញឡើងវិញនៃអ៊ីម៉ាមអាល់-ម៉ាហ្ដី (អហ) អ៊ីម៉ាមទី ១២ ដែលបានបង្រៀនដោយឪពុករបស់គាត់។ វាត្រូវបានអានដោយជាច្រើនស៊ីអ៊ីស្លាមក្រោយពីការអធិស្ឋានជាការបង្ហាញនៃការគោរពដល់អ៊ីម៉ាមដែលនៅរស់។';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ Lady Fāṭima';
@@ -1337,11 +1337,11 @@ class AppLocalizationsKm extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '១៤ Masumeen';
+  String get imamsScreenTitle => 'អ៊ីម៉ាមទាំង ១៤';
 
   @override
   String get imamsScreenSubtitle =>
-      'លោកបង្ហាញ Lady Fatima និង ១២ Imam — ក្រុម Islam';
+      'នគរដ្រេក, អ្នកស្រីហ្វាតីមា និងអ៊ីម៉ាម ១២ — មគ្គុទេសក៍ដែលបានសំអាតនិងមិនមានកំហុសក្នុងអ៊ីស្លាមស៊ីអ៊ីស្លាម';
 
   @override
   String get imamLabelBorn => 'កើត';
@@ -1430,7 +1430,7 @@ class AppLocalizationsKm extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith ប្រចាំថ្ងៃ';
 
   @override
-  String get quickAction14Masumeen => '១៤ Masumeen';
+  String get quickAction14Masumeen => 'អ៊ីម៉ាមទាំង ១៤';
 
   @override
   String get quickActionListenDuas => 'ស្តាប់';
@@ -1510,13 +1510,36 @@ class AppLocalizationsKm extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia ដើមដ្រើង ក៏ ដេក រៀង Medina ដើម្បីលេង tomb លោកបង្ហាញ Muhammad (SAW) នៅ Masjid al-Nabawi និង graves Imam នៅ Jannat al-Baqi។ លេង ទាំងនេះ កាន់កាប់ រឹង វិសាលភាព និង ដូច ដូច ដើមដ្រើង សម្រាប់ ច្រើន Shia Muslim។';
+      'អ្នកបរិច្ចាគស៊ីអ៊ីស្លាមជាច្រើនក៏ធ្វើដំណើរទៅកាន់ម៉ាឌីណាដើម្បីចូលរួមក្នុងការទស្សនាអ្នកនាងម៉ូហ្ស៉ា (សាអវ) នៅម៉ាស៊ីតអាល់-ណាបាវី និងកន្លែងសពនៅចាន់ណាតអាល់-បាគី។ ការទស្សនានេះមានសារៈសំខាន់ផ្លូវចិត្តយ៉ាងជ្រាលជ្រៅ ទោះបីជាវាមិនមែនជាពិធីនៃហ៉ាជក៏ដោយ។';
 
   @override
   String get hajjIntro =>
-      'Hajj គឺ ខ្នើង ៥ Islam ដូច រាល់ Muslim ស្វាមី។ ក្នុង ខែ Dhul Hijjah វា កើង ក្រឡេក លោកបង្ហាញ Ibrahim (AS) ក្រឡេក Ismail (AS) និង Lady Hajar។ សម្រាប់ Shia Muslim Hajj ក៏ រាប់ ក្នុង វិសាលភាព ដូច លេង ផ្ទះ លោកបង្ហាញ (SAW) និង Ahlul Bayt ក្នុង Medina។';
+      'ហ៉ាជគឺជាគ្រឹះទី ៥ នៃអ៊ីស្លាម ដែលត្រូវបានកំណត់មួយដងក្នុងជីវិតសម្រាប់មូស្លីមរាល់គ្នាដែលអាចធ្វើបានទាំងផ្លូវកាយនិងហិរញ្ញវត្ថុ។ សម្រាប់អ្នកបរិច្ចាគស៊ីអ៊ីស្លាមទាំង ១២ នៅថ្ងៃនេះ វាមានន័យថា ហ៉ាជអាល់-តាម៉ាត់, ដែលត្រូវបានអនុវត្តនៅក្នុងខែឌុលហិជ្ជា ក្នុងជំហានរបស់នគរដ្រេក (អអស), កូនប្រុសរបស់គាត់ អ៊ីស្ម៉ាអែល (អអស) និងអ្នកស្រីហ្សាហ្សារ។ មគ្គុទេសក៍នេះអនុវត្តតាមរចនាសម្ព័ន្ធជាដំណាក់កាលនៃពិធីសាសនា ខណៈពេលដែលការទស្សនានៅម៉ាឌីណានៅតែជាដំណើរដ៏មានតម្លៃមួយមុនឬក្រោយហ៉ាជ។';
 
   @override
   String get umrahIntro =>
       'Umrah គឺ ដើមដ្រើង ខ្ចាស់ ដល់ Mecca និង មិនដូច Hajj អាច ក្នុង ឆ្នាំ។ ខណៈ មិនដូច វា កាន់កាប់ រឹង វិសាលភាព និង ដូច ឯកា ឧបករណ៍។ វា ចែក ឥសលាម ច្រើន ក្នុង Hajj ប៉ុន្តែ ខ្ចាស់។';
+
+  @override
+  String get voiceInputTitle => 'ការបញ្ចូលសំឡេង';
+
+  @override
+  String get voiceInputMicTitle => 'មីក្រូហ្វូន';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'និយាយអំពីការបញ្ចូលរបស់អ្នកដើម្បីសួរ Ask Ayara ជំនួសការបញ្ចូលតួអក្សរ។';
+
+  @override
+  String get voiceInputMicDenied => 'ការចូលដំណើរការមីក្រូហ្វូនត្រូវបានបដិសេធ។';
+
+  @override
+  String get voiceInputSpeak => 'និយាយជំនួស';
+
+  @override
+  String get voiceInputListening => 'កំពុងស្តាប់…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'ការចូលដំណើរការមីក្រូហ្វូនត្រូវការសម្រាប់ការបញ្ចូលសំឡេង។';
 }

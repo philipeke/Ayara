@@ -619,7 +619,7 @@ class AppLocalizationsHa extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'AYAR JIYA';
 
   @override
-  String get dailyGraceSaintLabel => 'MALAMI NA JUMA\'A';
+  String get dailyGraceSaintLabel => 'FIGURE NA MAKON';
 
   @override
   String get dailyGraceReflectionLabel => 'TUNANI NA JIYA';
@@ -1254,7 +1254,7 @@ class AppLocalizationsHa extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua domin fito na Imam al-Mahdī (af), Imam na gida, da aka koyi daga ubansa. Karanta jiya da Shia tare baje sallah a matsayin abubuwan da aiki zuwa Imam mai aiki.';
+      'Dua don dawowar Imam al-Mahdī (af), Imam na goma sha biyu, wanda mahaifinsa ya koya. Ana yawan karanta shi daga mutane da yawa daga cikin Musulmin Shia bayan sallah a matsayin aikin sadaukarwa ga Imam mai rai.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ na Malariya Fāṭima';
@@ -1356,11 +1356,11 @@ class AppLocalizationsHa extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'Masumai Goma Sha Hudu';
 
   @override
   String get imamsScreenSubtitle =>
-      'Annabi, Malariya Fatima, da Imam Gida - jagora mai makama ta Islami';
+      'Annabi, Hajiya Fatima, da Masumai Goma Sha Daya — jagororin tsarkakakku da marasa kuskure a cikin addinin Shia na Goma Sha Daya';
 
   @override
   String get imamLabelBorn => 'Haihuwa';
@@ -1449,7 +1449,7 @@ class AppLocalizationsHa extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith na Jiya';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Masumai Goma Sha Hudu';
 
   @override
   String get quickActionListenDuas => 'Saji';
@@ -1529,13 +1529,36 @@ class AppLocalizationsHa extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Hajji Shia ba kusan ya waje zuwa Medina domin ziyara grave Annabi Muhammad (SAW) a Masjid al-Nabawi, da grave na Imam a Jannat al-Baqi. Waɗannan ziyara suna da mahimma da tunani, da aka yi ɓatun aiki domin Shia Musulmi.';
+      'Yawancin masu aikin hajji na Shia suna kuma tafiya zuwa Medina don ziyara ga Annabi Muhammad (SAW) a Masjid al-Nabawi da kaburburan a Jannat al-Baqi. Wadannan ziyara suna da mahimmancin ruhaniya mai zurfi, duk da cewa ba su ne ka\'idojin Hajj ba.';
 
   @override
   String get hajjIntro =>
-      'Hajji shine pillar na biyar na Islami, dole ne sau ɗaya a ranar rayuwa domin kowane Musulmi wanda ya iya. An yi shi a watan Dhu al-Hijja, ya maidare taki ta Annabi Ibrahim (AS), ɗa Ismail (AS), da Malariya Hajar. Domin Shia Musulmi, Hajji ya kawo ziyara grave Annabi (SAW) da Ahlul Bayt a Medina.';
+      'Hajj shine ginshiƙi na biyar na Musulunci, wajibi sau ɗaya a rayuwa ga kowanne Musulmi wanda ke da lafiya da kuma kudi. Ga yawancin masu aikin hajji na Shia na Goma Sha Daya a yau, wannan yana nufin Hajj al-Tamattu\', wanda aka yi a cikin watan Dhul Hijjah a cikin tafarkin Annabi Ibrahim (AS), ɗansa Ismail (AS), da Hajiya Hajar. Wannan jagorar tana biye da tsarin Ja\'fari na ka\'idojin, yayin da ziyara a Medina ke kasancewa tafiya mai daraja kafin ko bayan Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah shine karama hajji zuwa Makka da, ba kamar Hajji ba, za a iya yi a kowane lokaci na shekara. Ba dole ba, amma tana da gida tunani da aka ramse. Ita share wasu abubuwan aiki tare da Hajji amma ta karama, tana da mataki hudu na mabambayi.';
+
+  @override
+  String get voiceInputTitle => 'Shigar Murya';
+
+  @override
+  String get voiceInputMicTitle => 'Makirufo';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Yi magana da shigar da ku zuwa Ask Ayara maimakon rubutu.';
+
+  @override
+  String get voiceInputMicDenied => 'An ki amincewa da samun makirufo.';
+
+  @override
+  String get voiceInputSpeak => 'Yi magana maimakon';
+
+  @override
+  String get voiceInputListening => 'Ana sauraro…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Ana bukatar samun makirufo don shigar murya.';
 }

@@ -631,7 +631,7 @@ class AppLocalizationsBn extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'আজকের আয়াত';
 
   @override
-  String get dailyGraceSaintLabel => 'সপ্তাহের আলেম';
+  String get dailyGraceSaintLabel => 'সপ্তাহের ব্যক্তিত্ব';
 
   @override
   String get dailyGraceReflectionLabel => 'সন্ধ্যার চিন্তন';
@@ -1271,7 +1271,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'দ্বাদশ ইমাম, ইমাম আল-মাহদী (আ.ফ.)-এর আবির্ভাবের জন্য একটি দোয়া, যা তাঁর পিতা শিখিয়েছিলেন। জীবিত ইমামের প্রতি নিষ্ঠার নিদর্শন হিসেবে শিয়ারা প্রতিদিন প্রতিটি নামাজের পর এটি পাঠ করে।';
+      'এটি ইমাম আল-মাহদী (আফ), দ্বাদশ ইমামের পুনরাবির্ভাবের জন্য একটি দোয়া, যা তাঁর পিতার দ্বারা শেখানো হয়েছে। এটি অনেক শিয়া মুসলমানের দ্বারা প্রার্থনার পর জীবিত ইমামের প্রতি ভক্তির কাজ হিসেবে প্রায়ই পাঠ করা হয়।';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'হযরত ফাতিমার তাসবিহ';
@@ -1373,11 +1373,11 @@ class AppLocalizationsBn extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '১৪ জন মাসুম';
+  String get imamsScreenTitle => 'চৌদ্দ ইনফালিবলস';
 
   @override
   String get imamsScreenSubtitle =>
-      'নবী, হযরত ফাতিমা, এবং বারোজন ইমাম — ইসলামের নিষ্পাপ পথপ্রদর্শক';
+      'নবী, লেডি ফাতিমা, এবং বারো ইমাম — দ্বাদশ শিয়া ইসলামে পরিশুদ্ধ এবং ইনফালিবল গাইডস';
 
   @override
   String get imamLabelBorn => 'জন্ম';
@@ -1467,7 +1467,7 @@ class AppLocalizationsBn extends AppLocalizations {
   String get quickActionDailyHadith => 'দৈনিক হাদিস';
 
   @override
-  String get quickAction14Masumeen => '১৪ মাসুম';
+  String get quickAction14Masumeen => 'চৌদ্দ ইনফালিবলস';
 
   @override
   String get quickActionListenDuas => 'শুনুন';
@@ -1547,13 +1547,37 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'শিয়া হাজীগণ সাধারণত মদিনাতেও যান, যেখানে তারা মসজিদে নববিতে নবী মুহাম্মদ (সা.)-এর কবর এবং জান্নাতুল বাকীতে ইমামদের কবর জিয়ারত করেন। এই সফরগুলোর গভীর আধ্যাত্মিক তাৎপর্য আছে এবং অধিকাংশ শিয়া মুসলিমের জন্য এটি যাত্রার অবিচ্ছেদ্য অংশ হিসেবে বিবেচিত হয়।';
+      'অনেক শিয়া তীর্থযাত্রীও নবী মুহাম্মদ (সা) এর জন্য মদিনায় যিয়ারতের উদ্দেশ্যে মসজিদ আল-নববী এবং জান্নাত আল-বাকির কবরগুলোতে ভ্রমণ করেন। এই সফরগুলো গভীর আধ্যাত্মিক গুরুত্ব বহন করে, যদিও এগুলো হজের রীতি নয়।';
 
   @override
   String get hajjIntro =>
-      'হজ ইসলামের পঞ্চম স্তম্ভ, এবং শারীরিক ও আর্থিকভাবে সামর্থ্যবান প্রত্যেক মুসলিমের জন্য জীবনে একবার ফরজ। জিলহজ মাসে আদায়কৃত এই ইবাদত নবী ইবরাহিম (আ.), তাঁর পুত্র ইসমাঈল (আ.), এবং হযরত হাজারের পদাঙ্ক অনুসরণ করে। শিয়া মুসলিমদের জন্য, হজের অন্তর্ভুক্ত হলো মদিনায় নবী (সা.) এবং আহলুল বায়তের বিশ্রামস্থলসমূহ জিয়ারতের গভীর বরকত।';
+      'হজ ইসলাম ধর্মের পঞ্চম স্তম্ভ, যা শারীরিক এবং আর্থিকভাবে সক্ষম প্রতিটি মুসলমানের জন্য জীবনে একবার বাধ্যতামূলক। আজকের অধিকাংশ দ্বাদশ শিয়া তীর্থযাত্রীর জন্য, এর মানে হলো হজ আল-তামাত্তু\', যা ধুল হিজ্জাহ মাসে নবী ইব্রাহিম (আস), তাঁর পুত্র ইসমাইল (আস), এবং লেডি হাজরের পদাঙ্ক অনুসরণ করে পালন করা হয়। এই গাইডটি রীতির জাফারি রূপরেখা অনুসরণ করে, যখন মদিনায় যিয়ারত হজের আগে বা পরে একটি গভীরভাবে প্রিয় যাত্রা হিসেবে রয়ে যায়।';
 
   @override
   String get umrahIntro =>
       'উমরাহ হলো মক্কায় ছোট তীর্থযাত্রা এবং হজের মতো নয়, এটি বছরের যেকোনো সময় আদায় করা যায়। যদিও এটি ফরজ নয়, এর আধ্যাত্মিক সওয়াব অপরিসীম, এবং এটি অত্যন্ত সুপারিশকৃত ইবাদত হিসেবে বিবেচিত হয়। এতে হজের সঙ্গে কয়েকটি আমল এক হলেও এটি ছোট, এবং চারটি প্রধান রীতিতে গঠিত।';
+
+  @override
+  String get voiceInputTitle => 'ভয়েস ইনপুট';
+
+  @override
+  String get voiceInputMicTitle => 'মাইক্রোফোন';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'টাইপ করার পরিবর্তে Ask Ayara-কে আপনার ইনপুট বলুন।';
+
+  @override
+  String get voiceInputMicDenied =>
+      'মাইক্রোফোনের অ্যাক্সেস অস্বীকার করা হয়েছে।';
+
+  @override
+  String get voiceInputSpeak => 'বলা শুরু করুন';
+
+  @override
+  String get voiceInputListening => 'শুনছি…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'ভয়েস ইনপুটের জন্য মাইক্রোফোনের অ্যাক্সেস প্রয়োজন।';
 }

@@ -265,7 +265,7 @@
   "settingsDeletePermanentWarning": "This action is permanent and cannot be undone. All data associated with your account will be deleted.",
   "dailyGraceTitle": "Daily Guidance",
   "dailyGraceScriptureLabel": "VERSE OF THE DAY",
-  "dailyGraceSaintLabel": "SCHOLAR OF THE WEEK",
+  "dailyGraceSaintLabel": "FIGURE OF THE WEEK",
   "dailyGraceReflectionLabel": "EVENING REFLECTION",
   "dailyGraceCopiedToast": "Verse copied to clipboard",
   "locationConsentLabel": "Allow Ayara to use my location for Qibla direction and prayer times",
@@ -493,7 +493,7 @@
   "tasbihatDuaFarajTitle": "Duʿā al-Faraj",
   "tasbihatDuaFarajWhen": "After every prayer · for the Imam of our time",
   "tasbihatDuaFarajSource": "Taught by Imam al-Ḥasan al-ʿAskarī (a)",
-  "tasbihatDuaFarajNote": "A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. Recited daily by the Shia faithful after every prayer as an act of devotion to the living Imam.",
+  "tasbihatDuaFarajNote": "A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.",
   "tasbihatDuaTasbihFatimaTitle": "Tasbīḥ of Lady Fāṭima",
   "tasbihatDuaTasbihFatimaWhen": "After Maghrib & Isha · especially recommended",
   "tasbihatDuaTasbihFatimaSource": "Imam al-Bāqir (a) — Biḥār al-Anwār",
@@ -569,8 +569,8 @@
       }
     }
   },
-  "imamsScreenTitle": "The 14 Masumeen",
-  "imamsScreenSubtitle": "The Prophet, Lady Fatima, and the Twelve Imams — the infallible guides of Islam",
+  "imamsScreenTitle": "The Fourteen Infallibles",
+  "imamsScreenSubtitle": "The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam",
   "imamLabelBorn": "Born",
   "imamLabelMartyrdom": "Martyrdom",
   "imamLabelStatus": "Status",
@@ -599,7 +599,7 @@
   "duaAudioMetaOccasion": "Occasion",
   "duaAudioMetaDuration": "Duration",
   "quickActionDailyHadith": "Daily Hadith",
-  "quickAction14Masumeen": "14 Masumeen",
+  "quickAction14Masumeen": "Fourteen Infallibles",
   "quickActionListenDuas": "Listen",
   "quickActionTasbihat": "Prayer Guide",
   "pilgrimageSectionTitle": "The Sacred Journey",
@@ -634,7 +634,14 @@
     }
   },
   "pilgrimageShiaNoteTitle": "Shia Pilgrims",
-  "pilgrimageShiaNoteBody": "Shia pilgrims traditionally also travel to Medina to visit the tomb of the Prophet Muhammad (SAW) at Masjid al-Nabawi, and the graves of the Imams at Jannat al-Baqi. These visits carry immense spiritual significance and are considered an integral part of the journey for most Shia Muslims.",
-  "hajjIntro": "Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.",
-  "umrahIntro": "Umrah is the lesser pilgrimage to Mecca and, unlike Hajj, can be performed at any time of the year. While not obligatory, it carries immense spiritual reward and is considered a highly recommended act of worship. It shares several rituals with Hajj but is shorter, consisting of four main rites."
+  "pilgrimageShiaNoteBody": "Many Shia pilgrims also travel to Medina for ziyarat of the Prophet Muhammad (SAW) at Masjid al-Nabawi and the graves at Jannat al-Baqi. These visits carry deep spiritual significance, though they are not themselves rites of Hajj.",
+  "hajjIntro": "Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. For most Twelver Shia pilgrims today, this means Hajj al-Tamattu', performed in the month of Dhul Hijjah in the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. This guide follows the Ja'fari outline of the rites, while ziyarat in Medina remains a deeply cherished journey before or after Hajj.",
+  "umrahIntro": "Umrah is the lesser pilgrimage to Mecca and, unlike Hajj, can be performed at any time of the year. While not obligatory, it carries immense spiritual reward and is considered a highly recommended act of worship. It shares several rituals with Hajj but is shorter, consisting of four main rites.",
+  "voiceInputTitle": "Voice Input",
+  "voiceInputMicTitle": "Microphone",
+  "voiceInputMicSubtitle": "Speak your input to Ask Ayara instead of typing.",
+  "voiceInputMicDenied": "Microphone access was denied.",
+  "voiceInputSpeak": "Speak instead",
+  "voiceInputListening": "Listening\u2026",
+  "voiceInputPermissionDenied": "Microphone access is required for voice input."
 }

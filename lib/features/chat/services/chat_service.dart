@@ -226,7 +226,7 @@ LANGUAGE LOCK (critical):
     String categoryId,
   ) async {
     return _withInFlightGuard(() async {
-      final t = AppLocalizations.of(context)!;
+      final t = AppLocalizations.of(context);
 
       // 🛑 If App Check is throttling, don't keep trying.
       if (_isInAppCheckCooldown()) {
@@ -309,7 +309,7 @@ LANGUAGE LOCK (critical):
     String? langCode, // kept for future use if needed
   }) async {
     return _withInFlightGuard(() async {
-      final t = AppLocalizations.of(context)!;
+      final t = AppLocalizations.of(context);
 
       if (_isInAppCheckCooldown()) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -366,7 +366,7 @@ LANGUAGE LOCK (critical):
 
   static bool _canSendPromptLocally(BuildContext context) {
     final now = DateTime.now();
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     if (_lastPromptAt != null && now.difference(_lastPromptAt!) < _cooldown) {
       _burstCount += 1;
@@ -386,7 +386,7 @@ LANGUAGE LOCK (critical):
   }
 
   static Future<bool> _checkRemoteLimit(BuildContext context) async {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     final user = FirebaseAuth.instance.currentUser;
     if (user == null) {
@@ -415,7 +415,7 @@ LANGUAGE LOCK (critical):
   }
 
   static Future<void> _consumeOneReflectionOrThrow(BuildContext context) async {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     try {
       await UsageConsumeService.instance.consumeOnePrompt(
@@ -437,7 +437,7 @@ LANGUAGE LOCK (critical):
       if (kDebugMode) debugPrint('[reflections] consume failed reason=$reason');
 
       // If App Check is throttling here, also apply local cooldown.
-      if (reason == 'appcheck_throttled' || _looksLikeAppCheckRateLimit(e as Object)) {
+      if (reason == 'appcheck_throttled' || _looksLikeAppCheckRateLimit(e)) {
         _noteAppCheckStrike(error: e);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
@@ -559,7 +559,7 @@ LANGUAGE LOCK (critical):
     } catch (e, st) {
       if (kDebugMode) debugPrint('AI callable error: $e\n$st');
 
-      if (_looksLikeAppCheckRateLimit(e as Object)) {
+      if (_looksLikeAppCheckRateLimit(e)) {
         _noteAppCheckStrike(error: e);
         throw Exception('appcheck_throttled');
       }
@@ -572,13 +572,8 @@ LANGUAGE LOCK (critical):
   // 🔹 UI helper (fallback message)
   // ---------------------------------------------------------------------------
 
-  static String _fallback(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
-    return t.aiFallbackGeneric;
-  }
-
   static String mapAiErrorToUserMessage(BuildContext context, String reason) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     switch (reason) {
       case 'appcheck_throttled':

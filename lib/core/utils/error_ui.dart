@@ -10,7 +10,7 @@ void showAppErrorSnack(
   StackTrace? stackTrace,
   String? fallbackMessage,
 }) {
-  final t = AppLocalizations.of(context)!;
+  final t = AppLocalizations.of(context);
   final appErr = AppError.from(error, stackTrace);
 
   // Silent errors are intentional UX (already messaged elsewhere).

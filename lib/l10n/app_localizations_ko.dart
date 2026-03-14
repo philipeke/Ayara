@@ -601,7 +601,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get dailyGraceScriptureLabel => '오늘의 구절';
 
   @override
-  String get dailyGraceSaintLabel => '이주의 학자';
+  String get dailyGraceSaintLabel => '이번 주의 인물';
 
   @override
   String get dailyGraceReflectionLabel => '저녁 명상';
@@ -1227,7 +1227,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      '이맘 알-마흐디(af), 12번째 이맘의 재출현을 위한 두아로서 그의 아버지가 가르쳤습니다. 시아 신도들이 모든 기도 후 살아있는 이맘에 대한 헌신의 행위로 매일 낭송합니다.';
+      '임마눌 알마흐디(af)의 재림을 위한 두아로, 그의 아버지에 의해 가르쳐졌습니다. 많은 시아 무슬림들이 기도 후에 살아있는 임마에 대한 헌신의 행위로 자주 암송합니다.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => '파티마 숙녀의 타스비흐';
@@ -1326,10 +1326,11 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14명의 마수민';
+  String get imamsScreenTitle => '14명의 무오류자';
 
   @override
-  String get imamsScreenSubtitle => '선지자, 파티마 숙녀 및 12명의 이맘 — 이슬람의 무오류 지도자';
+  String get imamsScreenSubtitle =>
+      '예언자, 파티마 여사, 그리고 12명의 임마 — 12이맘 시아 이슬람에서 정화되고 무오류한 안내자들';
 
   @override
   String get imamLabelBorn => '출생';
@@ -1417,7 +1418,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get quickActionDailyHadith => '일일 하디스';
 
   @override
-  String get quickAction14Masumeen => '14명의 마수민';
+  String get quickAction14Masumeen => '14명의 무오류자';
 
   @override
   String get quickActionListenDuas => '듣기';
@@ -1495,13 +1496,34 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      '시아 순례자들은 전통적으로 마스지드 알-나바위에서 선지자 무함마드(SAW)의 무덤을 방문하기 위해 메디나로도 여행하고, 자나 알-바키에서 이맘들의 무덤을 방문합니다. 이러한 방문은 엄청난 영적 중요성을 지니며 대부분의 시아 무슬림들에게 여정의 필수 부분으로 간주됩니다.';
+      '많은 시아 순례자들은 또한 마스지드 알나바위에서 예언자 무함마드(SAW)의 지야라트를 위해 메디나로 여행하며, 잔나트 알바키의 무덤을 방문합니다. 이러한 방문은 깊은 영적 의미를 지니고 있지만, 하즈의 의식은 아닙니다.';
 
   @override
   String get hajjIntro =>
-      '하즈는 이슬람의 다섯 번째 기둥이며, 신체적으로나 재정적으로 능력이 있는 모든 무슬림을 위해 평생에 한 번 의무적입니다. 둘 히자의 달에 수행되는 이것은 선지자 이브라힘(AS), 그의 아들 이스마일(AS) 및 숙녀 하자르의 발자국을 따릅니다. 시아 무슬림의 경우 하즈는 메디나에서 선지자(SAW)와 아흘 울-바이트의 안식처를 방문하는 깊은 축복도 포함합니다.';
+      '하즈는 이슬람의 다섯 번째 기둥으로, 신체적으로나 재정적으로 가능한 모든 무슬림에게 평생에 한 번 의무입니다. 오늘날 대부분의 12이맘 시아 순례자들에게 이는 이브라힘(AS) 예언자, 그의 아들 이스마일(AS), 그리고 하자르 여사의 발자취를 따라 두흘 히자르 월에 수행되는 하즈 알타마투를 의미합니다. 이 가이드는 의식의 자파리 개요를 따르며, 메디나에서의 지야라트는 하즈 전후에 깊이 소중히 여겨지는 여정으로 남아 있습니다.';
 
   @override
   String get umrahIntro =>
       '움라는 메카로의 소한 순례이며, 하즈와 달리 연중 언제든지 수행할 수 있습니다. 의무적이지는 않지만 엄청난 영적 보상을 받으며 매우 권장되는 경배 행위로 간주됩니다. 그것은 하즈와 몇 가지 의식을 공유하지만 더 짧으며 4가지 주요 의식으로 구성됩니다.';
+
+  @override
+  String get voiceInputTitle => '음성 입력';
+
+  @override
+  String get voiceInputMicTitle => '마이크';
+
+  @override
+  String get voiceInputMicSubtitle => '타이핑 대신 Ayara에게 음성으로 입력하세요.';
+
+  @override
+  String get voiceInputMicDenied => '마이크 접근이 거부되었습니다.';
+
+  @override
+  String get voiceInputSpeak => '대신 말하기';
+
+  @override
+  String get voiceInputListening => '듣는 중…';
+
+  @override
+  String get voiceInputPermissionDenied => '음성 입력을 위해 마이크 접근이 필요합니다.';
 }

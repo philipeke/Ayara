@@ -632,7 +632,7 @@ class AppLocalizationsHy extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'ՕՐՎԱ ԱՅԱԹԸ';
 
   @override
-  String get dailyGraceSaintLabel => 'ՇԱԲԱԹՎԱ ԳԻՏՈՒՆԸ';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'ԵՐԵԿՈՅԱՆ ԽՈՐՀՐԴԱԾՈՒԹՅՈՒՆ';
@@ -1275,7 +1275,7 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Դուա Իմամ ալ-Մահդիի (af)՝ տասներկուերորդ Իմամի հայտնության համար, որը սովորեցրել է նրա հայրը։ Շիա հավատացյալները դա ամեն օր ասում են յուրաքանչյուր աղոթքից հետո՝ որպես նվիրվածության արտահայտություն կենդանի Իմամին։';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Տիկին Ֆաթիմայի թասբիհը';
@@ -1377,11 +1377,11 @@ class AppLocalizationsHy extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Մասումիններ';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'Մարգարեն, Տիկին Ֆաթիման և Տասներկու Իմամները — Իսլամի անսխալական առաջնորդները';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Ծնվել է';
@@ -1471,7 +1471,7 @@ class AppLocalizationsHy extends AppLocalizations {
   String get quickActionDailyHadith => 'Օրվա հադիս';
 
   @override
-  String get quickAction14Masumeen => '14 Մասումիններ';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'Լսել';
@@ -1553,13 +1553,36 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Շիա ուխտավորները ավանդաբար ուղևորվում են նաև Մեդինա՝ այցելելու Մարգարե Մուհամմադի (SAW) շիրիմը Մասջիդ ալ-Նաբավիում և Իմամների շիրիմները Ջաննաթ ալ-Բաքիում։ Այս այցելությունները մեծ հոգևոր նշանակություն ունեն և համարվում են ճանապարհորդության անբաժանելի մասը շիա մուսուլմանների մեծամասնության համար։';
+      'Շատ շիա ուխտավորներ նույնպես մեկնում են Մեդինա՝ Masjid al-Nabawi-ում Մարգարե Մուհամմադի (SAW) զիյարաթի և Jannat al-Baqi-ի գերեզմանների այցելության համար։ Այս այցելությունները մեծ հոգևոր նշանակություն ունեն, թեև ինքնին Հաջի ծեսեր չեն։';
 
   @override
   String get hajjIntro =>
-      'Հաջը Իսլամի հինգերորդ սյունն է, որը կյանքի ընթացքում մեկ անգամ պարտադիր է յուրաքանչյուր այն մուսուլմանի համար, ով ֆիզիկապես և ֆինանսապես ունակ է։ Այն կատարվում է Զուլ-Հիջջա ամսին և վերապրում է Մարգարե Իբրահիմի (AS), նրա որդի Իսմայիլի (AS) և Տիկին Հաջարի քայլերը։ Շիա մուսուլմանների համար Հաջը նաև ներառում է Մեդինայում Մարգարեի (SAW) և Ահլուլ-Բայթի հանգստավայրերը այցելելու խոր օրհնությունը։';
+      'Հաջը իսլամի հինգերորդ սյունն է և կյանքում մեկ անգամ պարտադիր է յուրաքանչյուր մուսուլմանի համար, ով ֆիզիկապես և ֆինանսապես կարող է այն կատարել։ Այսօր Տասներկուական շիա ուխտավորների մեծամասնության համար դա նշանակում է Hajj al-Tamattu\', որը կատարվում է Dhul Hijjah ամսին՝ Մարգարե Ibrahim (AS), նրա որդի Ismail (AS) և Lady Hajar-ի հետքերով։ Այս ուղեցույցը հետևում է ծեսերի Ja\'fari ուրվագծին, մինչդեռ Մեդինայում զիյարաթը մնում է խորապես սիրված հոգևոր ճանապարհորդություն Հաջից առաջ կամ հետո։';
 
   @override
   String get umrahIntro =>
       'Ումրան փոքր ուխտագնացությունն է դեպի Մեքքա և, ի տարբերություն Հաջի, կարող է կատարվել տարվա ցանկացած ժամանակ։ Թեև այն պարտադիր չէ, սակայն ունի մեծ հոգևոր պարգև և համարվում է բարձրորեն խորհուրդ տրվող عبادաթ։ Այն կիսում է մի շարք ծեսեր Հաջի հետ, բայց ավելի կարճ է՝ բաղկացած լինելով չորս հիմնական արարողություններից։';
+
+  @override
+  String get voiceInputTitle => 'Ականջակալով մուտք';
+
+  @override
+  String get voiceInputMicTitle => 'Միկրոֆոն';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Խոսեք ձեր մուտքը Ask Ayara-ի համար, փոխարենը գրելու:';
+
+  @override
+  String get voiceInputMicDenied => 'Միկրոֆոնի մուտքը մերժվել է:';
+
+  @override
+  String get voiceInputSpeak => 'Խոսեք փոխարենը';
+
+  @override
+  String get voiceInputListening => 'Լսում…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Միկրոֆոնի մուտքը անհրաժեշտ է ձայնային մուտքի համար:';
 }

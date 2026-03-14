@@ -81,7 +81,7 @@ const TARGET_LANGS = [
   'nl','no','ny','or','pa','pl','ps','pt','ro','rw','si','sk','sl','so',
   'sq','sr','st','sv','sw','ta','te','th','ti','tl','tr','uk','ur','uz',
   'vi','yo','yue','zh','zu',
-].filter(l => !UNSUPPORTED_LANGS.has(l));
+];
 
 function googleLang(locale) {
   return LANG_MAP[locale] || locale;
@@ -288,11 +288,15 @@ async function translateCollection(colDef) {
     // Translate all texts for this language in one batch
     const texts = pending.map(p => p.text);
     let translated;
-    try {
-      translated = await translateAll(texts, lang);
-    } catch (err) {
-      console.error(`  ${lang}: ❌ API error — ${err.message}`);
-      continue;
+    if (UNSUPPORTED_LANGS.has(lang)) {
+      translated = [...texts];
+    } else {
+      try {
+        translated = await translateAll(texts, lang);
+      } catch (err) {
+        console.error(`  ${lang}: ❌ API error — ${err.message}`);
+        continue;
+      }
     }
 
     // Group updates by document
@@ -345,7 +349,8 @@ async function translateCollection(colDef) {
     }
 
     totalTranslated += pending.length;
-    console.log(`  ${lang}: translated ${pending.length} fields`);
+    const suffix = UNSUPPORTED_LANGS.has(lang) ? ' (English fallback)' : '';
+    console.log(`  ${lang}: translated ${pending.length} fields${suffix}`);
     await sleep(200); // be polite to the API
   }
 

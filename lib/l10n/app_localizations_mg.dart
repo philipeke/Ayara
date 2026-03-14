@@ -635,7 +635,7 @@ class AppLocalizationsMg extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'RESAKA EV\'ANDROANY';
 
   @override
-  String get dailyGraceSaintLabel => 'MPANAHY AMIN\'NY HERINANDRO';
+  String get dailyGraceSaintLabel => 'ILAY NY HERIN\'NY WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'FISAINJARANA HARIVA';
@@ -1282,7 +1282,7 @@ class AppLocalizationsMg extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua ho an\'ny fiodiodian\'Imam al-Mahdī (af), Imam roaximpela, ampianarina Imam al-Ḥasan. Soloinanao isan\'andro Shia avy am-boalohany aorian\'ny soloinanao ho toy ny toy fanity amin\'ny Imam miveloma.';
+      'Dua ho an\'ny fiverenan\'i Imam al-Mahdī (af), ny Imam faha-12, nampianarin\'ny rainy. Matetika izy io no atao amin\'ny fivavahana ataon\'ny Shia maro aorian\'ny vavaka ho fanehoam-pitiavana amin\'ny Imam velona.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ Lady Fāṭima';
@@ -1384,11 +1384,11 @@ class AppLocalizationsMg extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Ny Masumeen 14';
+  String get imamsScreenTitle => 'Ny Efatra Ambin\'ny Folo Tsy Mivadika';
 
   @override
   String get imamsScreenSubtitle =>
-      'Mpaminany, Lady Fatima, ary Imama Roapolo — Mpitantrika fa dinahoana ny Islam';
+      'Ny Mpaminany, Ramatoa Fatima, ary ny Imam Twelve — ny mpitarika madio sy tsy mivadika ao amin\'ny Islam Shia Twelver';
 
   @override
   String get imamLabelBorn => 'Teraka';
@@ -1478,7 +1478,7 @@ class AppLocalizationsMg extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith Isan\'andro';
 
   @override
-  String get quickAction14Masumeen => 'Masumeen 14';
+  String get quickAction14Masumeen => 'Efatra Ambin\'ny Folo Tsy Mivadika';
 
   @override
   String get quickActionListenDuas => 'Mandoahao';
@@ -1560,13 +1560,36 @@ class AppLocalizationsMg extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Ny fimandihanana Shia dia miveloma any amin\'ny Medina mba hitsarangim-pahita ny vavahadin\'ny Mpaminany Muhammad (SAW) amin\'ny Masjid al-Nabawi, ary ny fasan\'ny Imama amin\'ny Jannat al-Baqi. Ity fikelikeli ity dia toeran\'ny mitera-panahy ataon\'ny Silamo Shia.';
+      'Marobe ny mpivahiny Shia no mandeha any Medina ho an\'ny ziyarat an\'ny Mpaminany Muhammad (SAW) ao amin\'ny Masjid al-Nabawi sy ny fasana ao Jannat al-Baqi. Ireo fitsidihana ireo dia mitondra lanjany ara-panahy lalina, na dia tsy rites Hajj aza.';
 
   @override
   String get hajjIntro =>
-      'Hajj dia Pillar fahasoloinanao Islam, ilaina indray mandeha ho an\'ny Silamo afaka. Tanteraina amin\'ny volana Dhul Hijjah, soloin\'ny hahazo fitsingerina Imam Ibrahim (AS), Ismail (AS), ary Lady Hajar. Ho an\'ny Silamo Shia, Hajj koa dia manakiana fitsaran-panahy fitsarangim-pahita amin\'ny fasan\'ny Mpaminany (SAW) ary Ahlul Bayt amin\'ny Medina.';
+      'Ny Hajj dia ny andry fahadimy amin\'ny Islam, voatery atao indray mandeha amin\'ny fiainana ho an\'ny Musulman rehetra izay afaka ara-batana sy ara-bola. Ho an\'ny mpivahiny Shia Twelver ankehitriny, midika izany fa Hajj al-Tamattu\', atao amin\'ny volana Dhul Hijjah amin\'ny dian\'ny Mpaminany Ibrahim (AS), ny zanany Ismail (AS), ary Ramatoa Hajar. Ity torolalana ity dia manaraka ny rafitra Ja\'fari amin\'ny rites, raha mbola mijanona ho dia sarobidy ny ziyarat any Medina alohan\'ny na aorian\'ny Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah dia fimandihanana kely ho any Mecca ary, tsy moka ny Hajj, afaka tanteraina amin\'ny fotoana amin\'ny taona. Izay tsy ilaina, izay maniraka fitera-panahy ary soso-kevitra indrindra finoana. Io dia mizara raka-zaraka amin\'ny Hajj fa kely kokoa, manana dingana fahat-efatra.';
+
+  @override
+  String get voiceInputTitle => 'Fampidirana Feo';
+
+  @override
+  String get voiceInputMicTitle => 'Mikro';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Mitenena ny fidiranao amin\'ny Ask Ayara fa tsy manoratra.';
+
+  @override
+  String get voiceInputMicDenied => 'Nohamafisina ny fidirana amin\'ny mikro.';
+
+  @override
+  String get voiceInputSpeak => 'Mitenena fa tsy manoratra';
+
+  @override
+  String get voiceInputListening => 'Mihaino…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Ilaina ny fidirana amin\'ny mikro ho an\'ny fampidirana feo.';
 }

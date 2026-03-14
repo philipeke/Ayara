@@ -632,7 +632,7 @@ class AppLocalizationsKy extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'КҮНДҮН АЯТЫ';
 
   @override
-  String get dailyGraceSaintLabel => 'АПТАНЫН ААЛЫМЫ';
+  String get dailyGraceSaintLabel => 'АПТЫРЫЛГАН АЙ';
 
   @override
   String get dailyGraceReflectionLabel => 'КЕЧКИ ОЙ ЖҮГҮРТҮҮ';
@@ -1272,7 +1272,7 @@ class AppLocalizationsKy extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Он экинчи Имам — Имам ал-Махдинин (а.с.) кайтып келиши үчүн кылынуучу дуба, аны атасы үйрөткөн. Шиа мусулмандары аны тирүү Имамга болгон берилгендиктин белгиси катары ар бир намаздан кийин күн сайын окушат.';
+      'Имам ал-Маҳдии (аф) — ондузунчу Имамдын кайра пайда болушу үчүн дуга. Бул дуга көпчүлүк Шиит мусулмандары тарабынан намаздан кийин, тирүү Имамга болгон берилгендик катары окулат.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Фатима айымдын тасбихи';
@@ -1374,11 +1374,11 @@ class AppLocalizationsKy extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Масум';
+  String get imamsScreenTitle => 'Төртүнчү Имамдар';
 
   @override
   String get imamsScreenSubtitle =>
-      'Пайгамбар, Фатима айым жана он эки Имам — Исламдын күнөөсүз жол башчылары';
+      'Пайгамбар, Фатима эне жана Он эки Имам — Твитер Шиит Исламындагы тазаланган жана катасыз жетекчилер';
 
   @override
   String get imamLabelBorn => 'Туулган';
@@ -1467,7 +1467,7 @@ class AppLocalizationsKy extends AppLocalizations {
   String get quickActionDailyHadith => 'Күндөлүк хадис';
 
   @override
-  String get quickAction14Masumeen => '14 Масум';
+  String get quickAction14Masumeen => 'Төртүнчү Имамдар';
 
   @override
   String get quickActionListenDuas => 'Угуу';
@@ -1547,13 +1547,36 @@ class AppLocalizationsKy extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Шиа ажылары салт боюнча Мединага да барып, Масжид ан-Набавидеги Пайгамбар Мухаммаддын ﷺ мүрзөсүн жана Жаннат ал-Бакидеги Имамдардын мүрзөлөрүн зиярат кылышат. Бул зияраттар терең руханий мааниге ээ жана көпчүлүк шиа мусулмандары үчүн сапардын ажырагыс бөлүгү болуп саналат.';
+      'Көптөгөн Шиит зыяратчылары Пайгамбар Мухаммаддын (САВ) зыярат кылуу үчүн Мединага, Масжид ал-Набави жана Жаннат ал-Бақи зыяраттарына барышат. Бул зыяраттар терең руханий мааниге ээ, бирок алар Хаждын ритуалдары эмес.';
 
   @override
   String get hajjIntro =>
-      'Хаж — Исламдын бешинчи түркүгү, ден соолугу жана каражаты жеткен ар бир мусулманга өмүрүндө бир жолу парз. Ал Зул-Хижжа айында аткарылып, Ибрахим пайгамбардын (а.с.), анын уулу Исмаилдин (а.с.) жана Хажар энениӊ изи менен жүрүүнү билдирет. Шиа мусулмандары үчүн Хажга Мединадагы Пайгамбардын ﷺ жана Аһлул-Байттын жайларын зиярат кылуу сыяктуу чоң береке да кирет.';
+      'Хаж Исламдын бешинчи стубу болуп саналат, ар бир физикалык жана финансылык мүмкүнчүлүгү бар мусулмандар үчүн бир жолу милдеттүү. Бүгүнкү күндө көпчүлүк Твитер Шиит зыяратчылары үчүн бул Хаж ал-Тамату\' болуп саналат, ал Дул Хиджжа айында Пайгамбар Ибрахим (АС), анын уулу Исмаил (АС) жана Хажар эне менен бирге аткарылат. Бул жетекчилик Жафарий ритуалдарынын схемасына ылайык, ал эми Мединадагы зыярат Хаждан мурда же кийин терең баалуу саякат болуп саналат.';
 
   @override
   String get umrahIntro =>
       'Умра — Меккеге жасалчу кичи ажылык жана Хаждан айырмаланып, аны жылдын каалаган убагында аткарууга болот. Милдеттүү болбосо да, руханий сообу абдан чоң жана ибадаттын өтө сунушталган түрү болуп саналат. Умра Хаждагы айрым каадаларды бөлүшөт, бирок ал кыскараак жана төрт негизги амалдан турат.';
+
+  @override
+  String get voiceInputTitle => 'Үн киргизүү';
+
+  @override
+  String get voiceInputMicTitle => 'Микрофон';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Текст жазуунун ордуна, Ask Ayara\'га үнүңүздү айтыңыз.';
+
+  @override
+  String get voiceInputMicDenied => 'Микрофонго кирүү четтетилди.';
+
+  @override
+  String get voiceInputSpeak => 'Айтыңыз';
+
+  @override
+  String get voiceInputListening => 'Угууда…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Үн киргизүү үчүн микрофонго кирүү талап кылынат.';
 }

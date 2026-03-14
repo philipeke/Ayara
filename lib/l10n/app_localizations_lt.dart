@@ -630,7 +630,7 @@ class AppLocalizationsLt extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'DIENOS EILUTĖ';
 
   @override
-  String get dailyGraceSaintLabel => 'SAVAITĖS MOKSLININKAS';
+  String get dailyGraceSaintLabel => 'SAVAITĖS FIGŪRA';
 
   @override
   String get dailyGraceReflectionLabel => 'VAKARO APMĄSTYMAS';
@@ -1271,7 +1271,7 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Du‘a dėl Imamo al-Mahdī (af), dvyliktojo Imamo, sugrįžimo, kurios mokė jo tėvas. Šiitų tikintieji ją recituoja kasdien po kiekvienos maldos kaip atsidavimo gyvajam Imamui veiksmą.';
+      'Dua dėl Imamo al-Mahdī (af), dvyliktojo Imamo, pasirodymo, mokyta jo tėvo. Dažnai ją skaito daugelis šiitų musulmonų po maldos kaip atsidavimo aktą gyvajam Imamui.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Ledi Fāṭimos Tasbīḥ';
@@ -1373,11 +1373,11 @@ class AppLocalizationsLt extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'Keturiolika Neapsirikusių';
 
   @override
   String get imamsScreenSubtitle =>
-      'Pranašas, Ledi Fatima ir dvylika imamų — neklystantys islamo vedliai';
+      'Pranašas, ponia Fatima ir dvylika Imamų — išgryninti ir neapsirikę vadovai dvyliktojo šiitų islamo tradicijoje';
 
   @override
   String get imamLabelBorn => 'Gimė';
@@ -1466,7 +1466,7 @@ class AppLocalizationsLt extends AppLocalizations {
   String get quickActionDailyHadith => 'Kasdienis hadisas';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Keturiolika Neapsirikusių';
 
   @override
   String get quickActionListenDuas => 'Klausytis';
@@ -1548,13 +1548,36 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Šiitų piligrimai tradiciškai taip pat vyksta į Mediną aplankyti Pranašo Muhammado (SAW) kapo Masjid al-Nabawi ir imamų kapų Jannat al-Baqi. Šie apsilankymai turi didžiulę dvasinę reikšmę ir daugumai šiitų musulmonų laikomi neatsiejama kelionės dalimi.';
+      'Daugelis šiitų piligrimų taip pat keliauja į Mediną, kad aplankytų Pranašą Muhammadą (SAW) al-Nabawi mečetėje ir kapus Jannat al-Baqi. Šie vizitai turi gilią dvasinę reikšmę, nors patys nėra Hajj ritualai.';
 
   @override
   String get hajjIntro =>
-      'Hajj yra penktasis islamo ramstis, privalomas kartą gyvenime kiekvienam musulmonui, kuris yra fiziškai ir finansiškai pajėgus. Atliekamas Dhul Hijjah mėnesį, jis seka Pranašo Ibrahimo (AS), jo sūnaus Ismailo (AS) ir Ledi Hajar pėdomis. Šiitų musulmonams Hajj taip pat apima didžiulę palaimą aplankyti Pranašo (SAW) ir Ahlul Bayt poilsio vietas Medinoje.';
+      'Hajj yra penktasis islamo stulpas, privalomas vieną kartą gyvenime kiekvienam musulmonui, kuris fiziškai ir finansiškai gali. Daugumai dvyliktojo šiitų piligrimų šiandien tai reiškia Hajj al-Tamattu\', atliekamą Dhul Hijjah mėnesį, sekant Pranašo Ibrahim (AS), jo sūnaus Ismail (AS) ir ponios Hajar pėdomis. Šis gidas seka Ja\'fari ritualų aprašymą, o ziyarat Medinoje išlieka giliai branginama kelionė prieš arba po Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah yra mažoji piligrimystė į Meką ir, skirtingai nei Hajj, gali būti atliekama bet kuriuo metų laiku. Nors ji nėra privaloma, ji neša didžiulį dvasinį atlygį ir laikoma labai rekomenduojamu garbinimo veiksmu. Ji dalijasi keliomis apeigomis su Hajj, tačiau yra trumpesnė ir susideda iš keturių pagrindinių ritualų.';
+
+  @override
+  String get voiceInputTitle => 'Balso įvestis';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofonas';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Kalbėkite savo įvestį, kad paklaustumėte Ayara, o ne rašykite.';
+
+  @override
+  String get voiceInputMicDenied => 'Mikrofono prieiga buvo atmesta.';
+
+  @override
+  String get voiceInputSpeak => 'Kalbėti vietoj';
+
+  @override
+  String get voiceInputListening => 'Klausau…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Mikrofono prieiga yra būtina balso įvestiai.';
 }

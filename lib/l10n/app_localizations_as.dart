@@ -631,7 +631,7 @@ class AppLocalizationsAs extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'আজিৰ আয়াত';
 
   @override
-  String get dailyGraceSaintLabel => 'সপ্তাহৰ আলেম';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'সন্ধিয়াৰ চিন্তন';
@@ -1271,7 +1271,7 @@ class AppLocalizationsAs extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'দ্বাদশ ইমাম, ইমাম আল-মাহদী (আ.জ.)-ৰ আবিৰ্ভাৱৰ বাবে এটা দোৱা, যি তেওঁৰ পিতৃয়ে শিকাইছিল। জীৱিত ইমামৰ প্ৰতি নিষ্ঠাৰ নিদৰ্শন হিচাপে শিয়াসকলে প্ৰতিদিনে প্ৰতিটো নামাজৰ পিছত এইটো পঢ়ে।';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'বিবি ফাতিমাৰ তাছবীহ';
@@ -1373,11 +1373,11 @@ class AppLocalizationsAs extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '১৪ জন মাসুম';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'নবী, বিবি ফাতিমা, আৰু বাৰোজন ইমাম — ইছলামৰ নিষ্পাপ পথপ্ৰদৰ্শক';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'জন্ম';
@@ -1467,7 +1467,7 @@ class AppLocalizationsAs extends AppLocalizations {
   String get quickActionDailyHadith => 'দৈনিক হাদীছ';
 
   @override
-  String get quickAction14Masumeen => '১৪ জন মাসুম';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'শুনক';
@@ -1547,13 +1547,36 @@ class AppLocalizationsAs extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'শিয়া হজ্জযাত্ৰীসকলে সাধাৰণতে মদিনালৈও যায়, য’ত তেওঁলোকে মছজিদে নবৱীত নবী মুহাম্মদ (ছা.বা.)-ৰ কবর, আৰু জান্নাতুল বাকীত ইমামসকলৰ কবর জিয়াৰত কৰে। এই ভ্ৰমণসমূহৰ গভীৰ আধ্যাত্মিক তাৎপৰ্য্য আছে আৰু বেছিভাগ শিয়া মুছলিমৰ বাবে যাত্ৰাৰ অবিচ্ছেদ্য অংশ হিচাপে গণ্য হয়।';
+      'বহুতো শিয়া হাজীয়ে মদিনালৈ গৈ Masjid al-Nabawi ত নবী মুহাম্মদ (SAW)-ৰ জিয়াৰত কৰে আৰু Jannat al-Baqi ত থকা কবরসমূহ দৰ্শন কৰে। এই ভ্ৰমণসমূহৰ গভীৰ আধ্যাত্মিক তাৎপৰ্য আছে, যদিও এইবোৰ নিজে হজ্জৰ আনুষ্ঠানিক কৰ্ম নহয়।';
 
   @override
   String get hajjIntro =>
-      'হজ্জ ইছলামৰ পঞ্চম স্তম্ভ, আৰু শাৰীৰিক আৰু আৰ্থিকভাৱে সামৰ্থ্য থকা প্ৰতিজন মুছলিমৰ বাবে জীৱনত এবাৰ ফৰজ। জিলহজ্জ মাহত আদায় কৰা এই ইবাদতে নবী ইব্ৰাহীম (আ.), তেওঁৰ পুত্ৰ ইছমাঈল (আ.), আৰু বিবি হাজাৰৰ পদাংক অনুসৰণ কৰে। শিয়া মুছলিমসকলৰ বাবে, হজ্জৰ অন্তৰ্গত হৈছে মদিনাত নবী (ছা.বা.) আৰু আহলুল বায়তৰ বিশ্ৰামস্থল ভ্ৰমণ কৰাৰ গভীৰ বৰকত।';
+      'হজ্জ ইছলামৰ পঞ্চম স্তম্ভ, আৰু শাৰীৰিক আৰু আৰ্থিকভাৱে সক্ষম প্ৰতিজন মুসলিমৰ ওপৰত জীৱনত এবাৰ ফৰজ। আজি অধিকাংশ দ্বাদশী শিয়া হাজীৰ ক্ষেত্ৰত ইয়াৰ অৰ্থ হৈছে Hajj al-Tamattu\', যি Dhul Hijjah মাহত নবী Ibrahim (AS), তেওঁৰ পুত্র Ismail (AS) আৰু Lady Hajar ৰ পদচিহ্ন অনুসৰি পালন কৰা হয়। এই গাইডত আমলসমূহৰ Ja\'fari ৰূপৰেখা অনুসৰণ কৰা হৈছে, আৰু মদিনাৰ জিয়াৰত হজ্জৰ আগতে বা পিছতে অত্যন্ত স্নেহভৰা আধ্যাত্মিক যাত্ৰা হিচাপে থাকি যায়।';
 
   @override
   String get umrahIntro =>
       'উমৰাহ হৈছে মক্কালৈ সৰু তীৰ্থযাত্ৰা আৰু হজ্জৰ দৰে নহয়, বছৰৰ যিকোনো সময়ত ইয়াক আদায় কৰিব পাৰি। যদিও ফৰজ নহয়, ইয়াৰ আধ্যাত্মিক ছৱাব অপাৰ, আৰু ইয়াক অতি পৰামৰ্শিত ইবাদত হিচাপে গণ্য কৰা হয়। ইয়াত হজ্জৰ সৈতে কেইবাটাও ৰীতি-নীতি একে, কিন্তু এইটো সৰু আৰু চাৰিটা মুখ্য আমলৰে গঠিত।';
+
+  @override
+  String get voiceInputTitle => 'ভয়েস ইনপুট';
+
+  @override
+  String get voiceInputMicTitle => 'মাইক';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'লিখাৰ পৰিৱৰ্তে Ask Ayara লৈ আপোনাৰ ইনপুট কোৱা।';
+
+  @override
+  String get voiceInputMicDenied => 'মাইক ব্যৱহাৰৰ অনুমতি প্ৰদান কৰা হোৱা নাই।';
+
+  @override
+  String get voiceInputSpeak => 'পৰিসৰে কোৱা';
+
+  @override
+  String get voiceInputListening => 'শুনি আছে…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'ভয়েস ইনপুটৰ বাবে মাইক ব্যৱহাৰৰ অনুমতি প্ৰয়োজন।';
 }

@@ -634,7 +634,7 @@ class AppLocalizationsCeb extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'BERSIKULO SA ADLAW';
 
   @override
-  String get dailyGraceSaintLabel => 'ISKOLAR SA SEMANA';
+  String get dailyGraceSaintLabel => 'FIGURA SA SEMANA';
 
   @override
   String get dailyGraceReflectionLabel => 'PANGGABII NGA PAMALANDONG';
@@ -1282,7 +1282,7 @@ class AppLocalizationsCeb extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Usa ka dua alang sa pagpakita pag-usab ni Imam al-Mahdī (af), ang ikanapulog-duha nga Imam, nga gitudlo sa iyang amahan. Gi-recite adlaw-adlaw sa Shia nga matinumanon human sa matag pag-ampo isip buhat sa debosyon ngadto sa buhing Imam.';
+      'Usa ka dua para sa pagbalik ni Imam al-Mahdī (af), ang ikaduha nga Imam, nga gitudlo sa iyang amahan. Kanunay kini nga ginabasa sa daghang mga Shia Muslim human sa pag-ampo isip usa ka buhat sa pagkamapainubsanon sa buhi nga Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ ni Lady Fāṭima';
@@ -1384,11 +1384,11 @@ class AppLocalizationsCeb extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Ang 14 ka Masumeen';
+  String get imamsScreenTitle => 'Ang Katorse nga Walay Sayop';
 
   @override
   String get imamsScreenSubtitle =>
-      'Ang Propeta, si Lady Fatima, ug ang Dose ka mga Imam — ang walay sayop nga mga giya sa Islam';
+      'Ang Propeta, Lady Fatima, ug ang Dose ka Imam — ang mga hinlo ug walay sayop nga mga giya sa Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Natawo';
@@ -1478,7 +1478,7 @@ class AppLocalizationsCeb extends AppLocalizations {
   String get quickActionDailyHadith => 'Adlaw-adlaw nga Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Katorse nga Walay Sayop';
 
   @override
   String get quickActionListenDuas => 'Paminaw';
@@ -1560,13 +1560,36 @@ class AppLocalizationsCeb extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Ang mga Shia nga pilgrim sa tradisyonal nga paagi moadto usab sa Medina aron bisitahon ang lubnganan ni Propeta Muhammad (SAW) sa Masjid al-Nabawi, ug ang mga lubnganan sa mga Imam sa Jannat al-Baqi. Kini nga mga pagbisita adunay dako nga espiritwal nga kahinungdanon ug giisip nga mahinungdanong bahin sa panaw alang sa kadaghanan sa mga Shia Muslim.';
+      'Daghang mga Shia nga pilgrim ang nagbiyahe usab sa Medina para sa ziyarat sa Propeta Muhammad (SAW) sa Masjid al-Nabawi ug sa mga lubnganan sa Jannat al-Baqi. Ang mga pagbisita niini nagdala og lalom nga espiritwal nga kahulugan, bisan pa man nga dili kini mga ritwal sa Hajj.';
 
   @override
   String get hajjIntro =>
-      'Ang Hajj mao ang ikalimang haligi sa Islam, obligado kausa sa kinabuhi alang sa matag Muslim nga pisikal ug pinansyal nga makahimo. Gihimo sa bulan sa Dhul Hijjah, gisubay niini ang mga tunob ni Propeta Ibrahim (AS), sa iyang anak nga si Ismail (AS), ug ni Lady Hajar. Alang sa mga Shia Muslim, ang Hajj naglakip usab sa lawom nga panalangin sa pagbisita sa mga pahulayan ni Propeta (SAW) ug sa Ahlul Bayt sa Medina.';
+      'Ang Hajj mao ang ikalimang haligi sa Islam, nga obligadong buhaton usa ka beses sa kinabuhi alang sa matag Muslim nga pisikal ug pinansyal nga makahimo. Para sa kadaghanan sa mga Twelver Shia nga pilgrim karon, kini nagpasabot sa Hajj al-Tamattu\', nga gihimo sa bulan sa Dhul Hijjah sa mga lakang ni Propeta Ibrahim (AS), sa iyang anak nga si Ismail (AS), ug Lady Hajar. Ang giya nga kini nagsunod sa Ja\'fari nga balangkas sa mga ritwal, samtang ang ziyarat sa Medina nagpabilin nga usa ka hinigugma nga pagbiyahe sa wala pa o human sa Hajj.';
 
   @override
   String get umrahIntro =>
       'Ang Umrah mao ang mas gagmay nga pilgrimage ngadto sa Mecca ug, dili sama sa Hajj, mahimong buhaton sa bisan unsang panahon sa tuig. Bisan dili obligado, kini adunay dako kaayong espiritwal nga ganti ug giisip nga usa ka girekomendang buhat sa pagsimba. Nagpaambit kini og pipila ka mga ritwal uban sa Hajj apan mas mubo, ug naglangkob sa upat ka punoan nga mga ritwal.';
+
+  @override
+  String get voiceInputTitle => 'Tingog nga Input';
+
+  @override
+  String get voiceInputMicTitle => 'Mikropono';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Isulti ang imong input sa Ask Ayara imbis nga magtype.';
+
+  @override
+  String get voiceInputMicDenied => 'Gidili ang pag-access sa mikropono.';
+
+  @override
+  String get voiceInputSpeak => 'Isulti imbis';
+
+  @override
+  String get voiceInputListening => 'Naminaw…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Gikinahanglan ang pag-access sa mikropono para sa voice input.';
 }

@@ -255,7 +255,7 @@ class _AyaraAppState extends State<AyaraApp> {
 
       FirebaseAuth.instance
           .setLanguageCode(_locale!.languageCode)
-          .catchError((_) {});
+          .catchError((_) => null);
     }
   }
 
@@ -316,7 +316,7 @@ class _AyaraAppState extends State<AyaraApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      onGenerateTitle: (ctx) => AppLocalizations.of(ctx)?.appTitle ?? 'Ayara',
+      onGenerateTitle: (ctx) => AppLocalizations.of(ctx).appTitle,
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light(),
       locale: _locale,

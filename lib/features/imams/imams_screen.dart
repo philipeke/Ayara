@@ -61,7 +61,7 @@ const List<_ImamProfile> _kMasumeen = [
     biography:
         'The final messenger of Allah, sent as a mercy to all of creation. Born in Mecca into the noble tribe of Quraysh, he received the first revelation at age 40. Over 23 years he conveyed the Quran, established the Islamic community, and demonstrated through his Sunnah the complete way of life. His declaration at Ghadir Khumm of Imam Ali\'s succession is a cornerstone of Shia belief.',
     famousQuote:
-        'I am leaving among you two weighty things: the Book of Allah and my Ahlul Bayt. They shall not separate until they meet me at the Pond.',
+        'I am leaving among you two weighty things: the Book of Allah and my Ahl al-Bayt. They shall not separate until they meet me at the Pond of Kawthar.',
     famousQuoteAr:
         'إِنِّي تَارِكٌ فِيكُمُ الثَّقَلَيْنِ: كِتَابَ اللهِ وَعِتْرَتِي أَهْلَ بَيْتِي',
     famousQuoteSource: 'Hadith al-Thaqalayn',
@@ -78,9 +78,9 @@ const List<_ImamProfile> _kMasumeen = [
     birthplace: 'Mecca, Arabia',
     burialPlace: 'Madinah — exact location unknown',
     biography:
-        'The beloved daughter of Prophet Muhammad (SAW) and Sayyida Khadijah (SA), wife of Imam Ali (AS), and mother of Imams Hasan and Husayn (AS). She is one of the 14 Masumeen and holds the highest station among women in Islam. Her Fadak Sermon is a landmark defense of divine justice and Imamate. She passed away shortly after her father, her grief unending.',
+        'The beloved daughter of Prophet Muhammad (SAW) and Sayyida Khadijah (SA), wife of Imam Ali (AS), and mother of Imams Hasan and Husayn (AS). She is among the Fourteen Infallibles and holds the highest station among women in Islam. Her Fadak Sermon is a landmark defense of divine justice and Imamate. She passed away shortly after her father.',
     famousQuote:
-        'Allah has made faith a purification from polytheism, prayer a purification from pride, and zakat a purification of the soul.',
+        'Allah has made faith a purification from polytheism, and prayer a cleansing from arrogance.',
     famousQuoteAr:
         'جَعَلَ اللهُ الإِيمَانَ تَطْهِيراً مِنَ الشِّرْكِ وَالصَّلاةَ تَنْزِيهاً عَنِ الكِبْرِ',
     famousQuoteSource: 'Khutbat Fadak',
@@ -116,7 +116,7 @@ const List<_ImamProfile> _kMasumeen = [
     birthplace: 'Madinah al-Munawwarah',
     burialPlace: 'Baqi\' Cemetery, Madinah',
     biography:
-        'The second Imam and elder grandson of the Prophet, praised in many hadiths alongside Imam Husayn as the leaders of the youth of Paradise. Renowned for his immense generosity and forbearance, he signed a peace treaty with Muawiyah to preserve Islam and protect the Muslim community. He was martyred by poison arranged by Muawiyah, dying in Madinah.',
+        'The second Imam and elder grandson of the Prophet, praised in many hadiths alongside Imam Husayn as the leaders of the youth of Paradise. Renowned for his immense generosity and forbearance, he signed a peace treaty with Muawiyah to preserve Islam and protect the Muslim community. According to well-known Shia reports, he was martyred by poison in Madinah.',
     famousQuote:
         'Whoever places his trust in the excellence of Allah\'s choice will not wish to be in any state other than the one Allah has chosen for him.',
     famousQuoteAr:
@@ -154,7 +154,7 @@ const List<_ImamProfile> _kMasumeen = [
     birthplace: 'Madinah al-Munawwarah',
     burialPlace: 'Baqi\' Cemetery, Madinah',
     biography:
-        'The fourth Imam, sole surviving son of Imam Husayn after Karbala. He preserved the message of Karbala through his sermons after being taken captive to Damascus. His spiritual legacy is the Sahifa al-Sajjadiyya, a book of sublime supplications often called "the Psalms of the Ahlul Bayt." He was known for his extraordinary depth of worship and compassion for the poor.',
+        'The fourth Imam, sole surviving son of Imam Husayn after Karbala. He preserved the message of Karbala through his sermons after being taken captive to Damascus. His spiritual legacy is the Sahifa al-Sajjadiyya, a book of sublime supplications often called "the Psalms of Islam." He was known for his extraordinary depth of worship and compassion for the poor.',
     famousQuote:
         'Worship Allah as though you see Him; for even if you cannot see Him, He surely sees you.',
     famousQuoteAr:
@@ -192,7 +192,7 @@ const List<_ImamProfile> _kMasumeen = [
     birthplace: 'Madinah al-Munawwarah',
     burialPlace: 'Baqi\' Cemetery, Madinah',
     biography:
-        'The sixth Imam and one of the most prolific teachers in Islamic history, with over 4,000 students including Abu Hanifa and Malik ibn Anas. He codified Shia jurisprudence (Fiqh al-Ja\'fari) and made immense contributions to philosophy, chemistry, astronomy, and theology. The Ja\'fari school of Islamic law is named after him. He was martyred by poison under the Abbasid caliph al-Mansur.',
+        'The sixth Imam and one of the central teachers of the Ahl al-Bayt school. His circle of learning in Madinah deeply shaped Ja\'fari jurisprudence and influenced later discussions in theology, ethics, and the intellectual sciences. The Ja\'fari school of Islamic law is named after him. He was martyred by poison under the Abbasid caliph al-Mansur.',
     famousQuote:
         'Guard your tongue as you guard your gold and silver, for many have been destroyed by a careless word.',
     famousQuoteAr:

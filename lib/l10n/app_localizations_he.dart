@@ -614,7 +614,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'פסוק היום';
 
   @override
-  String get dailyGraceSaintLabel => 'חוכם השבוע';
+  String get dailyGraceSaintLabel => 'דמות השבוע';
 
   @override
   String get dailyGraceReflectionLabel => 'הרהור ערבי';
@@ -1249,7 +1249,7 @@ class AppLocalizationsHe extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'דועא להופעתו של האימאם אל-מהדי (עג\'ל אללה פרג\'ה), האימאם השנים-עשר, שלמדה אביו. נאמרת מדי יום על ידי השיעים הנאמנים לאחר כל תפילה כמעשה של מסירות לאימאם החי.';
+      'דואָא להופעתו של אימאם אל-מהדי (עף), האימאם השנים עשר, שנלמד על ידי אביו. זה נאמר לעיתים קרובות על ידי רבים מהמוסלמים השיעים לאחר תפילה כהבעת מסירות לאימאם החי.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'תסביח הגברת פאטמה';
@@ -1349,11 +1349,11 @@ class AppLocalizationsHe extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 המעצומין';
+  String get imamsScreenTitle => 'הארבעה עשר חסינים';
 
   @override
   String get imamsScreenSubtitle =>
-      'הנביא, הגברת פאטמה ושנים-עשר האימאמים — המנחים חסרי הפגם של האסלאם';
+      'הנביא, הגברת פאטימה, ושנים עשר האימאמים — המדריכים המוחלטים והחסינים באסלאם השיעי של השנים עשר';
 
   @override
   String get imamLabelBorn => 'נולד';
@@ -1442,7 +1442,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get quickActionDailyHadith => 'חדית\' יומי';
 
   @override
-  String get quickAction14Masumeen => '14 מעצומין';
+  String get quickAction14Masumeen => 'ארבעה עשר חסינים';
 
   @override
   String get quickActionListenDuas => 'האזן';
@@ -1522,13 +1522,35 @@ class AppLocalizationsHe extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'עולי רגל שיעים נוסעים מסורתית גם למדינה לבקר את קבר הנביא מוחמד (שלום עליו) במסגד אל-נבוי, ואת קברי האימאמים בג\'נאת אל-בקיע. ביקורים אלה נושאים משמעות רוחנית עצומה ונחשבים לחלק בלתי נפרד מהמסע עבור רוב המוסלמים השיעים.';
+      'רבים מהעולים השיעים גם נוסעים למדינה כדי לבקר את הנביא מוחמד (סע) במסגד הנביא ואת הקברים בגן אל-בקי. ביקורים אלו נושאים משמעות רוחנית עמוקה, אם כי הם לא עצמם טקסי חאג\'.';
 
   @override
   String get hajjIntro =>
-      'החג\' הוא הפיל החמישי של האסלאם, חובה פעם אחת בחיים לכל מוסלמי מסוגל פיזית וכלכלית. מתבצע בחודש ד\'ו אל-חיג\'ה, הוא הולך בעקבות הנביא אברהים (עליו השלום), בנו ישמעאל (עליו השלום) והגברת הג\'ר. עבור מוסלמים שיעים, החג\' כולל גם את הברכה העמוקה של ביקור מנוחות הנביא (שלום עליו) ואהל אל-בית במדינה.';
+      'חאג\' הוא העמוד החמישי של האסלאם, חובה פעם אחת בחיים לכל מוסלמי שיכול פיזית וכלכלית. עבור רוב העולים השיעים של השנים עשר היום, זה אומר חאג\' אל-תמאתו\', הנערך בחודש דול חיג\'jah בעקבות הנביא אברהים (עף), בנו ישמעאל (עף), והגברת הג\'ר. מדריך זה עוקב אחרי המתווה הג\'עפרי של הטקסים, בעוד שזיארת במדינה נשארת מסע יקר ערך לפני או אחרי חאג\'.';
 
   @override
   String get umrahIntro =>
       'העומרה היא עלייה לרגל הקטנה למכה, ובניגוד לחג\', ניתן לבצעה בכל עת של השנה. אמנם אינה חובה, אך היא נושאת שכר רוחני עצום ונחשבת למעשה עבודת אל מומלץ מאוד. היא חולקת מספר פולחנות עם החג\' אך קצרה יותר, ומורכבת מארבעה פולחנות עיקריים.';
+
+  @override
+  String get voiceInputTitle => 'קלט קולי';
+
+  @override
+  String get voiceInputMicTitle => 'מיקרופון';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'דבר את הקלט שלך כדי לשאול את Ayara במקום להקליד.';
+
+  @override
+  String get voiceInputMicDenied => 'גישה למיקרופון נדחתה.';
+
+  @override
+  String get voiceInputSpeak => 'דבר במקום';
+
+  @override
+  String get voiceInputListening => 'שומע…';
+
+  @override
+  String get voiceInputPermissionDenied => 'גישה למיקרופון נדרשת לקלט קולי.';
 }

@@ -18,7 +18,7 @@ Future<void> showActionsSheet({
     backgroundColor: Colors.transparent,
     barrierColor: Colors.black.withValues(alpha: 0.35),
     builder: (ctx) {
-      final t = AppLocalizations.of(ctx)!;
+      final t = AppLocalizations.of(ctx);
       final theme = Theme.of(ctx);
 
       final bottomInset = MediaQuery.of(ctx).viewPadding.bottom;
@@ -124,8 +124,7 @@ class _AyaraActionButton extends StatelessWidget {
     required this.icon,
     required this.label,
     required this.onPressed,
-    this.filled = false,
-  });
+  }) : filled = false;
 
   const _AyaraActionButton.filled({
     required this.icon,

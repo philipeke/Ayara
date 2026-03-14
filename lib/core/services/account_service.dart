@@ -17,8 +17,9 @@ class AccountDeleteException implements Exception {
 
   @override
   String toString() {
-    if (details != null && details!.isNotEmpty) {
-      return 'AccountDeleteException($code): $details';
+    final detailsText = details;
+    if (detailsText != null && detailsText.isNotEmpty) {
+      return 'AccountDeleteException($code): $detailsText';
     }
     return 'AccountDeleteException($code)';
   }
@@ -58,7 +59,7 @@ class AccountService {
 
     // 3) Safety sign out
     try {
-      await _googleSignIn.signOut().catchError((_) {});
+      await _googleSignIn.signOut();
     } catch (_) {}
     try {
       await _auth.signOut();
@@ -192,7 +193,7 @@ class AccountService {
   /// Google reauth via fresh Google tokens.
   Future<void> _reauthGoogle(User user) async {
     try {
-      await _googleSignIn.signOut().catchError((_) {});
+      await _googleSignIn.signOut();
       final acc = await _googleSignIn.signIn();
       if (acc == null) {
         throw AccountDeleteException('reauth_cancelled');

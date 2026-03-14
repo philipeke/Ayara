@@ -635,7 +635,7 @@ class AppLocalizationsCa extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERSICLE DEL DIA';
 
   @override
-  String get dailyGraceSaintLabel => 'ERUDIT DE LA SETMANA';
+  String get dailyGraceSaintLabel => 'FIGURA DE LA SETMANA';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLEXIÓ DEL VESPRE';
@@ -1280,7 +1280,7 @@ class AppLocalizationsCa extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Una du‘a per a la reaparició de l’Imam al-Mahdī (af), el dotzè Imam, ensenyada pel seu pare. Els xiïtes la reciten diàriament després de cada pregària com a acte de devoció envers l’Imam viu.';
+      'Una dua per la reaparició de l\'Imam al-Mahdī (af), el dotzè Imam, ensenyada pel seu pare. Sovint és recitada per molts musulmans xiïtes després de la pregària com un acte de devoció cap a l\'Imam vivent.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ de la senyora Fāṭima';
@@ -1382,11 +1382,11 @@ class AppLocalizationsCa extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Els 14 Masumeen';
+  String get imamsScreenTitle => 'Els Catorze Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'El Profeta, la senyora Fàtima i els dotze imams — els guies infal·libles de l’islam';
+      'El Profeta, la Senyora Fatima, i els Dotze Imams — els guies purificats i infal·libles en l\'Islam xiïta dels Dotze Imams';
 
   @override
   String get imamLabelBorn => 'Naixement';
@@ -1476,7 +1476,7 @@ class AppLocalizationsCa extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadit diari';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Catorze Infallibles';
 
   @override
   String get quickActionListenDuas => 'Escolta';
@@ -1556,13 +1556,36 @@ class AppLocalizationsCa extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Els pelegrins xiïtes tradicionalment també viatgen a Medina per visitar la tomba del profeta Muhàmmad (SAW) a la mesquita del Profeta, i les tombes dels imams a Jannat al-Baqi. Aquestes visites tenen una importància espiritual immensa i es consideren una part integral del viatge per a la majoria dels musulmans xiïtes.';
+      'Molts pelegrins xiïtes també viatgen a Medina per a la ziyarat del Profeta Muhammad (SAW) a la Masjid al-Nabawi i les tombes a Jannat al-Baqi. Aquestes visites porten un profund significat espiritual, tot i que no són elles mateixes rites de Hajj.';
 
   @override
   String get hajjIntro =>
-      'L’Hajj és el cinquè pilar de l’islam, obligatori una vegada a la vida per a tot musulmà que tingui capacitat física i econòmica. Es duu a terme durant el mes de Dhu l-Hijja i ressegueix les petjades del profeta Ibrahim (AS), del seu fill Ismail (AS) i de la senyora Hajar. Per als musulmans xiïtes, l’Hajj també inclou la profunda benedicció de visitar els llocs de repòs del Profeta (SAW) i de l’Ahlul Bayt a Medina.';
+      'El Hajj és el cinquè pilar de l\'Islam, obligatori una vegada a la vida per a cada musulmà que sigui física i econòmicament capaç. Per a la majoria dels pelegrins xiïtes dels Dotze Imams d\'avui, això significa Hajj al-Tamattu\', realitzat al mes de Dhul Hijjah seguint les petjades del Profeta Ibrahim (AS), el seu fill Ismail (AS), i la Senyora Hajar. Aquesta guia segueix l\'esquema Ja\'fari dels rites, mentre que la ziyarat a Medina continua sent un viatge profundament apreciat abans o després del Hajj.';
 
   @override
   String get umrahIntro =>
       'La Umra és el pelegrinatge menor a la Meca i, a diferència de l’Hajj, es pot fer en qualsevol època de l’any. Tot i que no és obligatòria, comporta una recompensa espiritual immensa i es considera un acte d’adoració molt recomanat. Comparteix diversos ritus amb l’Hajj, però és més breu i consta de quatre ritus principals.';
+
+  @override
+  String get voiceInputTitle => 'Entrada de veu';
+
+  @override
+  String get voiceInputMicTitle => 'Micròfon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Parla la teva entrada a Ask Ayara en comptes d\'escriure.';
+
+  @override
+  String get voiceInputMicDenied => 'S\'ha denegat l\'accés al micròfon.';
+
+  @override
+  String get voiceInputSpeak => 'Parla en comptes';
+
+  @override
+  String get voiceInputListening => 'Escoltant…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'L\'accés al micròfon és necessari per a l\'entrada de veu.';
 }

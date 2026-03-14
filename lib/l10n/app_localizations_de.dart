@@ -634,7 +634,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERS DES TAGES';
 
   @override
-  String get dailyGraceSaintLabel => 'GELEHRTER DER WOCHE';
+  String get dailyGraceSaintLabel => 'FIGUR DER WOCHE';
 
   @override
   String get dailyGraceReflectionLabel => 'ABEND-BETRACHTUNG';
@@ -1278,7 +1278,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Eine Dua für das Wiedererscheinen von Imam al-Mahdī (af), dem zwölften Imam, gelehrt von seinem Vater. Täglich von den schiitischen Gläubigen nach jedem Gebet als Akt der Hingabe an den lebenden Imam rezitiert.';
+      'Ein Dua für das Wiedererscheinen von Imam al-Mahdī (af), dem zwölften Imam, gelehrt von seinem Vater. Es wird oft von vielen schiitischen Muslimen nach dem Gebet als Akt der Hingabe an den lebenden Imam rezitiert.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ der Lady Fāṭima';
@@ -1380,11 +1380,11 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Die 14 Masumeen';
+  String get imamsScreenTitle => 'Die Vierzehn Unfehlbaren';
 
   @override
   String get imamsScreenSubtitle =>
-      'Der Prophet, Lady Fatima und die Zwölf Imame — die unfehlbaren Führer des Islam';
+      'Der Prophet, Lady Fatima und die zwölf Imame — die reinen und unfehlbaren Führer im Zwölfer-Schia-Islam';
 
   @override
   String get imamLabelBorn => 'Geboren';
@@ -1474,7 +1474,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get quickActionDailyHadith => 'Tägliches Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Vierzehn Unfehlbare';
 
   @override
   String get quickActionListenDuas => 'Anhören';
@@ -1556,15 +1556,39 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Schiitische Pilger reisen traditionell auch nach Medina, um das Grab des Propheten Muhammad (SAW) in der Masjid al-Nabawi zu besuchen, und die Gräber der Imame in Jannat al-Baqi. Diese Besuche haben enorme spirituelle Bedeutung und werden von den meisten schiitischen Muslimen als integraler Bestandteil der Reise betrachtet.';
+      'Viele schiitische Pilger reisen auch nach Medina zur Ziyarat des Propheten Muhammad (SAW) in der Masjid al-Nabawi und zu den Gräbern in Jannat al-Baqi. Diese Besuche haben eine tiefe spirituelle Bedeutung, obwohl sie selbst keine Riten des Hajj sind.';
 
   @override
   String get hajjIntro =>
-      'Hajj ist die fünfte Säule des Islam und obligatorisch einmal im Leben für jeden Muslim, der körperlich und finanziell dazu in der Lage ist. Sie wird im Monat Dhul Hijjah durchgeführt und folgt den Fußstapfen des Propheten Ibrahim (AS), seines Sohnes Ismail (AS) und der Lady Hajar. Für schiitische Muslime umfasst Hajj auch den tiefgreifenden Segen, die Ruhestätten des Propheten (SAW) und der Ahlul Bayt in Medina zu besuchen.';
+      'Hajj ist die fünfte Säule des Islam, die einmal im Leben für jeden Muslim, der körperlich und finanziell dazu in der Lage ist, verpflichtend ist. Für die meisten schiitischen Pilger heute bedeutet dies Hajj al-Tamattu\', der im Monat Dhul Hijjah in den Fußstapfen von Prophet Ibrahim (AS), seinem Sohn Ismail (AS) und Lady Hajar durchgeführt wird. Dieser Leitfaden folgt dem ja\'fari Schema der Riten, während die Ziyarat in Medina eine tief geschätzte Reise vor oder nach dem Hajj bleibt.';
 
   @override
   String get umrahIntro =>
       'Umrah ist die kleinere Pilgerfahrt nach Makkah und kann, im Gegensatz zu Hajj, jederzeit im Jahr durchgeführt werden. Obwohl nicht obligatorisch, trägt sie enorme spirituelle Belohnung und wird als sehr empfohlener Akt der Anbetung angesehen. Sie teilt mehrere Rituale mit Hajj, ist aber kürzer und besteht aus vier Hauptriten.';
+
+  @override
+  String get voiceInputTitle => 'Sprachsteuerung';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Sprich deine Eingabe zu Ask Ayara, anstatt zu tippen.';
+
+  @override
+  String get voiceInputMicDenied =>
+      'Zugriff auf das Mikrofon wurde verweigert.';
+
+  @override
+  String get voiceInputSpeak => 'Stattdessen sprechen';
+
+  @override
+  String get voiceInputListening => 'Höre zu…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Zugriff auf das Mikrofon ist für die Sprachsteuerung erforderlich.';
 }
 
 /// The translations for German, as used in Austria (`de_AT`).
@@ -2197,7 +2221,7 @@ class AppLocalizationsDeAt extends AppLocalizationsDe {
   String get dailyGraceScriptureLabel => 'VERS DES TAGES';
 
   @override
-  String get dailyGraceSaintLabel => 'GELEHRTER DER WOCHE';
+  String get dailyGraceSaintLabel => 'FIGUR DER WOCHE';
 
   @override
   String get dailyGraceReflectionLabel => 'ABEND-BETRACHTUNG';
@@ -2841,7 +2865,7 @@ class AppLocalizationsDeAt extends AppLocalizationsDe {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Eine Dua für das Wiedererscheinen von Imam al-Mahdī (af), dem zwölften Imam, gelehrt von seinem Vater. Täglich von den schiitischen Gläubigen nach jedem Gebet als Akt der Hingabe an den lebenden Imam rezitiert.';
+      'Ein Dua für das Wiedererscheinen von Imam al-Mahdī (af), dem zwölften Imam, gelehrt von seinem Vater. Es wird oft von vielen Schiiten nach dem Gebet als Akt der Hingabe an den lebenden Imam rezitiert.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ der Lady Fāṭima';
@@ -2943,11 +2967,11 @@ class AppLocalizationsDeAt extends AppLocalizationsDe {
   }
 
   @override
-  String get imamsScreenTitle => 'Die 14 Masumeen';
+  String get imamsScreenTitle => 'Die Vierzehn Unfehlbaren';
 
   @override
   String get imamsScreenSubtitle =>
-      'Der Prophet, Lady Fatima und die Zwölf Imame — die unfehlbaren Führer des Islam';
+      'Der Prophet, Lady Fatima und die zwölf Imame – die reinen und unfehlbaren Führer im Zwölfer-Schiismus';
 
   @override
   String get imamLabelBorn => 'Geboren';
@@ -3037,7 +3061,7 @@ class AppLocalizationsDeAt extends AppLocalizationsDe {
   String get quickActionDailyHadith => 'Tägliches Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Vierzehn Unfehlbare';
 
   @override
   String get quickActionListenDuas => 'Anhören';
@@ -3119,15 +3143,39 @@ class AppLocalizationsDeAt extends AppLocalizationsDe {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Schiitische Pilger reisen traditionell auch nach Medina, um das Grab des Propheten Muhammad (SAW) in der Masjid al-Nabawi zu besuchen, und die Gräber der Imame in Jannat al-Baqi. Diese Besuche haben enorme spirituelle Bedeutung und werden von den meisten schiitischen Muslimen als integraler Bestandteil der Reise betrachtet.';
+      'Viele schiitische Pilger reisen auch nach Medina für die Ziyarat des Propheten Muhammad (SAW) in der Masjid al-Nabawi und die Gräber in Jannat al-Baqi. Diese Besuche haben eine tiefe spirituelle Bedeutung, obwohl sie selbst keine Riten des Hajj sind.';
 
   @override
   String get hajjIntro =>
-      'Hajj ist die fünfte Säule des Islam und obligatorisch einmal im Leben für jeden Muslim, der körperlich und finanziell dazu in der Lage ist. Sie wird im Monat Dhul Hijjah durchgeführt und folgt den Fußstapfen des Propheten Ibrahim (AS), seines Sohnes Ismail (AS) und der Lady Hajar. Für schiitische Muslime umfasst Hajj auch den tiefgreifenden Segen, die Ruhestätten des Propheten (SAW) und der Ahlul Bayt in Medina zu besuchen.';
+      'Der Hajj ist die fünfte Säule des Islam, die für jeden Muslim, der körperlich und finanziell dazu in der Lage ist, einmal im Leben verpflichtend ist. Für die meisten schiitischen Pilger heute bedeutet dies Hajj al-Tamattu\', der im Monat Dhul Hijjah in den Fußstapfen von Prophet Ibrahim (AS), seinem Sohn Ismail (AS) und Lady Hajar vollzogen wird. Dieser Leitfaden folgt dem ja\'fariischen Rahmen der Riten, während die Ziyarat in Medina eine tief geschätzte Reise vor oder nach dem Hajj bleibt.';
 
   @override
   String get umrahIntro =>
       'Umrah ist die kleinere Pilgerfahrt nach Makkah und kann, im Gegensatz zu Hajj, jederzeit im Jahr durchgeführt werden. Obwohl nicht obligatorisch, trägt sie enorme spirituelle Belohnung und wird als sehr empfohlener Akt der Anbetung angesehen. Sie teilt mehrere Rituale mit Hajj, ist aber kürzer und besteht aus vier Hauptriten.';
+
+  @override
+  String get voiceInputTitle => 'Sprachsteuerung';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Sprich deine Eingabe zu Ask Ayara statt zu tippen.';
+
+  @override
+  String get voiceInputMicDenied =>
+      'Zugriff auf das Mikrofon wurde verweigert.';
+
+  @override
+  String get voiceInputSpeak => 'Stattdessen sprechen';
+
+  @override
+  String get voiceInputListening => 'Höre zu…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Zugriff auf das Mikrofon ist für die Sprachsteuerung erforderlich.';
 }
 
 /// The translations for German, as used in Switzerland (`de_CH`).
@@ -3760,7 +3808,7 @@ class AppLocalizationsDeCh extends AppLocalizationsDe {
   String get dailyGraceScriptureLabel => 'VERS DES TAGES';
 
   @override
-  String get dailyGraceSaintLabel => 'GELEHRTER DER WOCHE';
+  String get dailyGraceSaintLabel => 'FIGUR DER WOCHE';
 
   @override
   String get dailyGraceReflectionLabel => 'ABEND-BETRACHTUNG';
@@ -4404,7 +4452,7 @@ class AppLocalizationsDeCh extends AppLocalizationsDe {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Eine Dua für das Wiedererscheinen von Imam al-Mahdī (af), dem zwölften Imam, gelehrt von seinem Vater. Täglich von den schiitischen Gläubigen nach jedem Gebet als Akt der Hingabe an den lebenden Imam rezitiert.';
+      'Ein Dua für das Wiedererscheinen von Imam al-Mahdī (af), dem zwölften Imam, gelehrt von seinem Vater. Es wird oft von vielen Schiiten nach dem Gebet als Akt der Hingabe an den lebenden Imam rezitiert.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ der Lady Fāṭima';
@@ -4506,11 +4554,11 @@ class AppLocalizationsDeCh extends AppLocalizationsDe {
   }
 
   @override
-  String get imamsScreenTitle => 'Die 14 Masumeen';
+  String get imamsScreenTitle => 'Die Vierzehn Unfehlbaren';
 
   @override
   String get imamsScreenSubtitle =>
-      'Der Prophet, Lady Fatima und die Zwölf Imame — die unfehlbaren Führer des Islam';
+      'Der Prophet, Lady Fatima und die zwölf Imame — die reinen und unfehlbaren Führer im Zwölfer-Schiismus';
 
   @override
   String get imamLabelBorn => 'Geboren';
@@ -4600,7 +4648,7 @@ class AppLocalizationsDeCh extends AppLocalizationsDe {
   String get quickActionDailyHadith => 'Tägliches Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Vierzehn Unfehlbare';
 
   @override
   String get quickActionListenDuas => 'Anhören';
@@ -4682,13 +4730,37 @@ class AppLocalizationsDeCh extends AppLocalizationsDe {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Schiitische Pilger reisen traditionell auch nach Medina, um das Grab des Propheten Muhammad (SAW) in der Masjid al-Nabawi zu besuchen, und die Gräber der Imame in Jannat al-Baqi. Diese Besuche haben enorme spirituelle Bedeutung und werden von den meisten schiitischen Muslimen als integraler Bestandteil der Reise betrachtet.';
+      'Viele schiitische Pilger reisen auch nach Medina für die Ziyarat des Propheten Muhammad (SAW) in der Masjid al-Nabawi und die Gräber in Jannat al-Baqi. Diese Besuche haben eine tiefe spirituelle Bedeutung, obwohl sie selbst keine Riten des Hajj sind.';
 
   @override
   String get hajjIntro =>
-      'Hajj ist die fünfte Säule des Islam und obligatorisch einmal im Leben für jeden Muslim, der körperlich und finanziell dazu in der Lage ist. Sie wird im Monat Dhul Hijjah durchgeführt und folgt den Fußstapfen des Propheten Ibrahim (AS), seines Sohnes Ismail (AS) und der Lady Hajar. Für schiitische Muslime umfasst Hajj auch den tiefgreifenden Segen, die Ruhestätten des Propheten (SAW) und der Ahlul Bayt in Medina zu besuchen.';
+      'Hajj ist die fünfte Säule des Islam, die einmal im Leben für jeden Muslim, der körperlich und finanziell dazu in der Lage ist, verpflichtend ist. Für die meisten schiitischen Pilger heute bedeutet dies Hajj al-Tamattu\', der im Monat Dhul Hijjah in den Fußstapfen von Prophet Ibrahim (AS), seinem Sohn Ismail (AS) und Lady Hajar durchgeführt wird. Dieser Leitfaden folgt dem ja\'fariischen Rahmen der Riten, während die Ziyarat in Medina eine tief geschätzte Reise vor oder nach dem Hajj bleibt.';
 
   @override
   String get umrahIntro =>
       'Umrah ist die kleinere Pilgerfahrt nach Makkah und kann, im Gegensatz zu Hajj, jederzeit im Jahr durchgeführt werden. Obwohl nicht obligatorisch, trägt sie enorme spirituelle Belohnung und wird als sehr empfohlener Akt der Anbetung angesehen. Sie teilt mehrere Rituale mit Hajj, ist aber kürzer und besteht aus vier Hauptriten.';
+
+  @override
+  String get voiceInputTitle => 'Sprachsteuerung';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Sprich deine Eingabe zu Ask Ayara statt zu tippen.';
+
+  @override
+  String get voiceInputMicDenied =>
+      'Zugriff auf das Mikrofon wurde verweigert.';
+
+  @override
+  String get voiceInputSpeak => 'Stattdessen sprechen';
+
+  @override
+  String get voiceInputListening => 'Höre zu…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Zugriff auf das Mikrofon ist für die Sprachsteuerung erforderlich.';
 }

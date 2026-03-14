@@ -623,7 +623,7 @@ class AppLocalizationsJv extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'AYAT SABEN DINA';
 
   @override
-  String get dailyGraceSaintLabel => 'ULAMA SABEN MINGGU';
+  String get dailyGraceSaintLabel => 'FIGUR WIKU';
 
   @override
   String get dailyGraceReflectionLabel => 'RENUNGAN SORE';
@@ -1264,7 +1264,7 @@ class AppLocalizationsJv extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua kanggo kemunculan Imam al-Mahdi (af), Imam duabelas, sing diajarake saka bapaknya. Diucapake saben dina menyang Syiah setia sawise solat minangka ibadah menyang Imam hidup.';
+      'Dua kanggo munculé Imam al-Mahdī (af), Imam kaping rolas, sing diajari déning bapaké. Iki asring diwaca déning akèh Muslim Shia sawise shalat minangka tumindak devosi marang Imam sing urip.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbih Lady Fatima';
@@ -1366,11 +1366,11 @@ class AppLocalizationsJv extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'Empat Belas Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'Nabi, Lady Fatima, lan Rong Belas Imam — pamandu sing isip saka Islam';
+      'Nabi, Lady Fatima, lan Dua Belas Imam — pituduh sing suci lan infallible ing Islam Shia Twelver';
 
   @override
   String get imamLabelBorn => 'Lahir';
@@ -1459,7 +1459,7 @@ class AppLocalizationsJv extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith Saben Dina';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Empat Belas Infallibles';
 
   @override
   String get quickActionListenDuas => 'Ngrungokake';
@@ -1541,13 +1541,36 @@ class AppLocalizationsJv extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Jamaah Syiah secara tradisional juga berziarah ke Medina untuk mengunjungi makam Nabi Muhammad (SAW) di Masjid al-Nabawi, dan makam para Imam di Jannat al-Baqi. Kunjungan ini memiliki makna spiritual yang luar biasa dan dianggap bagian integral dari perjalanan bagi sebagian besar Muslim Syiah.';
+      'Akeh peziarah Shia uga lelungan menyang Medina kanggo ziyarat Nabi Muhammad (SAW) ing Masjid al-Nabawi lan kuburan ing Jannat al-Baqi. Kunjungan iki nduweni makna spiritual sing jero, sanajan ora dadi ritus Hajj dhewe.';
 
   @override
   String get hajjIntro =>
-      'Hajj adalah pilar kelima Islam, wajib sekali dalam hidup kanggo saben Muslim yang mampu secara fisik dan finansial. Dilakukan dalam bulan Dhu al-Hijjah, mengulangi jejak Nabi Ibrahim (AS), putranya Ismail (AS), dan Lady Hajar. Kanggo Muslim Syiah, Hajj juga mencakup berkah profound mengunjungi makam Nabi (SAW) dan Ahlul Bayt di Medina.';
+      'Hajj iku pilar kaping lima saka Islam, wajib dilakoni sakali sajrone urip kanggo saben Muslim sing fisik lan finansial bisa. Kanggo akèh peziarah Shia Twelver saiki, iki ateges Hajj al-Tamattu\', sing dilakoni ing sasi Dhul Hijjah ing jejak Nabi Ibrahim (AS), putrane Ismail (AS), lan Lady Hajar. Pandhuan iki ngetutake garis besar Ja\'fari saka ritus, nalika ziyarat ing Medina tetep dadi perjalanan sing banget dihargai sadurunge utawa sawise Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah adalah ziarah kecil ke Mekkah dan, tidak seperti Hajj, dapat dilakukan kapan saja dalam tahun itu. Meskipun tidak wajib, memiliki pahala spiritual yang besar dan dianggap tindakan ibadah yang sangat disarankan. Berbagi beberapa ritual dengan Hajj tetapi lebih pendek, terdiri dari empat ritual utama.';
+
+  @override
+  String get voiceInputTitle => 'Input Suara';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Ngomongake inputmu kanggo Ask Ayara tinimbang ngetik.';
+
+  @override
+  String get voiceInputMicDenied => 'Akses mikrofon ditolak.';
+
+  @override
+  String get voiceInputSpeak => 'Ngomongake gantine';
+
+  @override
+  String get voiceInputListening => 'Ngrungokake…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Akses mikrofon dibutuhake kanggo input suara.';
 }

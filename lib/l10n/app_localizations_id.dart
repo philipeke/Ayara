@@ -627,7 +627,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'AYAT HARI INI';
 
   @override
-  String get dailyGraceSaintLabel => 'ULAMA MINGGU INI';
+  String get dailyGraceSaintLabel => 'FIGUR MINGGU INI';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLEKSI MALAM';
@@ -1270,7 +1270,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Sebuah doa untuk kemunculan kembali Imam al-Mahdī (af), Imam kedua belas, yang diajarkan oleh ayahnya. Dibaca setiap hari oleh kaum Syiah setelah setiap salat sebagai bentuk pengabdian kepada Imam yang hidup.';
+      'Sebuah doa untuk kemunculan kembali Imam al-Mahdī (af), Imam kedua belas, yang diajarkan oleh ayahnya. Doa ini sering dibaca oleh banyak Muslim Syiah setelah shalat sebagai bentuk pengabdian kepada Imam yang hidup.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ Sayidah Fāṭima';
@@ -1372,11 +1372,11 @@ class AppLocalizationsId extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Maksum';
+  String get imamsScreenTitle => 'Empat Belas Ma\'sum';
 
   @override
   String get imamsScreenSubtitle =>
-      'Nabi, Sayidah Fatima, dan Dua Belas Imam — para pembimbing Islam yang maksum';
+      'Nabi, Sayyidah Fatimah, dan Dua Belas Imam — para pembimbing yang suci dan maksum dalam Islam Syiah Dua Belas';
 
   @override
   String get imamLabelBorn => 'Lahir';
@@ -1466,7 +1466,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadis Harian';
 
   @override
-  String get quickAction14Masumeen => '14 Maksum';
+  String get quickAction14Masumeen => 'Empat Belas Ma\'sum';
 
   @override
   String get quickActionListenDuas => 'Dengarkan';
@@ -1548,13 +1548,36 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Jemaah Syiah secara tradisional juga melakukan perjalanan ke Madinah untuk mengunjungi makam Nabi Muhammad (SAW) di Masjid al-Nabawi, dan makam para Imam di Jannat al-Baqi. Kunjungan-kunjungan ini memiliki makna spiritual yang sangat besar dan dianggap sebagai bagian integral dari perjalanan bagi kebanyakan Muslim Syiah.';
+      'Banyak peziarah Syiah juga melakukan perjalanan ke Madinah untuk ziyarat Nabi Muhammad (SAW) di Masjid al-Nabawi dan makam di Jannat al-Baqi. Kunjungan ini memiliki makna spiritual yang dalam, meskipun bukan merupakan ritus Haji itu sendiri.';
 
   @override
   String get hajjIntro =>
-      'Haji adalah rukun Islam kelima, wajib sekali seumur hidup bagi setiap Muslim yang mampu secara fisik dan finansial. Dilaksanakan pada bulan Dzulhijjah, ia menelusuri jejak Nabi Ibrahim (AS), putranya Ismail (AS), dan Sayidah Hajar. Bagi Muslim Syiah, Haji juga mencakup keberkahan mendalam dengan mengunjungi tempat peristirahatan Nabi (SAW) dan Ahlul Bayt di Madinah.';
+      'Haji adalah rukun Islam yang kelima, wajib dilakukan sekali seumur hidup bagi setiap Muslim yang mampu secara fisik dan finansial. Bagi sebagian besar peziarah Syiah Dua Belas saat ini, ini berarti Haji al-Tamattu\', yang dilaksanakan pada bulan Dhul Hijjah mengikuti jejak Nabi Ibrahim (AS), putranya Ismail (AS), dan Sayyidah Hajar. Panduan ini mengikuti garis besar ritus Ja\'fari, sementara ziyarat di Madinah tetap menjadi perjalanan yang sangat dihargai sebelum atau setelah Haji.';
 
   @override
   String get umrahIntro =>
       'Umrah adalah ziarah kecil ke Mekkah dan, tidak seperti Haji, dapat dilakukan kapan saja sepanjang tahun. Meskipun tidak wajib, ia membawa pahala spiritual yang sangat besar dan dianggap sebagai ibadah yang sangat dianjurkan. Ia berbagi beberapa ritual dengan Haji tetapi lebih singkat, terdiri dari empat ritual utama.';
+
+  @override
+  String get voiceInputTitle => 'Input Suara';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Ucapkan input Anda untuk Ask Ayara alih-alih mengetik.';
+
+  @override
+  String get voiceInputMicDenied => 'Akses mikrofon ditolak.';
+
+  @override
+  String get voiceInputSpeak => 'Ucapkan sebagai ganti';
+
+  @override
+  String get voiceInputListening => 'Mendengarkan…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Akses mikrofon diperlukan untuk input suara.';
 }

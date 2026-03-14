@@ -1,4 +1,74 @@
 {
+  "en_AU": [
+    "voiceInputTitle",
+    "voiceInputMicTitle",
+    "voiceInputMicSubtitle",
+    "voiceInputMicDenied",
+    "voiceInputSpeak",
+    "voiceInputListening",
+    "voiceInputPermissionDenied"
+  ],
+
+  "en_CA": [
+    "voiceInputTitle",
+    "voiceInputMicTitle",
+    "voiceInputMicSubtitle",
+    "voiceInputMicDenied",
+    "voiceInputSpeak",
+    "voiceInputListening",
+    "voiceInputPermissionDenied"
+  ],
+
+  "en_GB": [
+    "voiceInputTitle",
+    "voiceInputMicTitle",
+    "voiceInputMicSubtitle",
+    "voiceInputMicDenied",
+    "voiceInputSpeak",
+    "voiceInputListening",
+    "voiceInputPermissionDenied"
+  ],
+
+  "en_IE": [
+    "voiceInputTitle",
+    "voiceInputMicTitle",
+    "voiceInputMicSubtitle",
+    "voiceInputMicDenied",
+    "voiceInputSpeak",
+    "voiceInputListening",
+    "voiceInputPermissionDenied"
+  ],
+
+  "en_NZ": [
+    "voiceInputTitle",
+    "voiceInputMicTitle",
+    "voiceInputMicSubtitle",
+    "voiceInputMicDenied",
+    "voiceInputSpeak",
+    "voiceInputListening",
+    "voiceInputPermissionDenied"
+  ],
+
+  "en_SG": [
+    "voiceInputTitle",
+    "voiceInputMicTitle",
+    "voiceInputMicSubtitle",
+    "voiceInputMicDenied",
+    "voiceInputSpeak",
+    "voiceInputListening",
+    "voiceInputPermissionDenied"
+  ],
+
+  "en_US": [
+    "voiceInputTitle",
+    "voiceInputMicTitle",
+    "voiceInputMicSubtitle",
+    "voiceInputMicDenied",
+    "voiceInputSpeak",
+    "voiceInputListening",
+    "voiceInputPermissionDenied"
+  ],
+
   "ko": [
     "imamSectionFamousSaying"
   ],

@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:speech_to_text/speech_to_text.dart';
 
 
 import 'package:ayara/core/services/content_repository.dart';
@@ -60,6 +61,10 @@ class _CategoryScreenState extends State<CategoryScreen> {
   final FocusNode _askFocusNode = FocusNode();
   String? _askError;
 
+  // Voice input state
+  final SpeechToText _speech = SpeechToText();
+  bool _isListening = false;
+
   @override
   void initState() {
     super.initState();
@@ -80,6 +85,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
 
   @override
   void dispose() {
+    _speech.cancel();
     _pageController.dispose();
     _askController.dispose();
     _askFocusNode.dispose();
@@ -87,7 +93,62 @@ class _CategoryScreenState extends State<CategoryScreen> {
     super.dispose();
   }
 
+  Future<void> _toggleVoiceInput() async {
+    if (_isListening) {
+      await _speech.stop();
+      if (mounted) setState(() => _isListening = false);
+      return;
+    }
+
+    // Capture context-sensitive objects before any async gap
+    final messenger = ScaffoldMessenger.of(context);
+    final permDeniedMsg = AppLocalizations.of(context).voiceInputPermissionDenied;
+    _askFocusNode.unfocus();
+
+    // Initialize and request mic permission on first use — never prompts at screen load
+    if (!_speech.isAvailable) {
+      final available = await _speech.initialize(
+        onError: (_) {
+          if (mounted) setState(() => _isListening = false);
+        },
+        onStatus: (status) {
+          if ((status == 'done' || status == 'notListening') && mounted) {
+            setState(() => _isListening = false);
+          }
+        },
+      );
+      if (!available) {
+        if (mounted) {
+          messenger.showSnackBar(
+            SnackBar(content: Text(permDeniedMsg)),
+          );
+        }
+        return;
+      }
+    }
+
+    await HapticFeedback.mediumImpact();
+    if (mounted) setState(() => _isListening = true);
+
+    await _speech.listen(
+      onResult: (result) {
+        if (!mounted) return;
+        _askController.text = result.recognizedWords;
+        _askController.selection = TextSelection.fromPosition(
+          TextPosition(offset: _askController.text.length),
+        );
+        if (_askError != null) setState(() => _askError = null);
+      },
+      pauseFor: const Duration(seconds: 4),
+      listenOptions: SpeechListenOptions(partialResults: true, cancelOnError: true),
+    );
+  }
+
   Future<void> _submitQuestion() async {
+    if (_isListening) {
+      await _speech.stop();
+      if (mounted) setState(() => _isListening = false);
+    }
     final question = _askController.text.trim();
     final t = AppLocalizations.of(context);
     if (question.isEmpty) {
@@ -164,7 +225,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
     HapticFeedback.selectionClick();
 
     if (_isInAppCheckCooldown()) {
-      final t = AppLocalizations.of(context)!;
+      final t = AppLocalizations.of(context);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(t.rateCheckGenericError)),
       );
@@ -182,7 +243,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
 
     final locked = _isPremiumCategory(normalizedId) && !isPremium;
     if (locked) {
-      final t = AppLocalizations.of(context)!;
+      final t = AppLocalizations.of(context);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(t.premiumRequiredForCategory)),
       );
@@ -194,7 +255,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
 
   void _showLockedDialog(BuildContext context) {
     HapticFeedback.selectionClick();
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     showDialog<void>(
       context: context,
       barrierColor: Colors.black.withValues(alpha: 0.60),
@@ -294,7 +355,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
   }
 
   void _openHistorySheet() {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     showModalBottomSheet(
       context: context,
@@ -357,6 +418,11 @@ class _CategoryScreenState extends State<CategoryScreen> {
       backgroundColor: AppColors.deepNavy,
       body: Stack(
         children: [
+          // Solid base — ensures old/software-render GPUs have a fully opaque
+          // background before the gradient layer is composited on top.
+          const Positioned.fill(
+            child: ColoredBox(color: AppColors.deepNavy),
+          ),
           // Dark navy diagonal gradient
           const Positioned.fill(
             child: DecoratedBox(
@@ -463,7 +529,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                             final plan = usage.plan.toLowerCase();
                             if (plan == 'premium') return const SizedBox.shrink();
                             if (usage.creditsRemaining > 0) return const SizedBox.shrink();
-                            final t = AppLocalizations.of(context)!;
+                            final t = AppLocalizations.of(context);
                             return Padding(
                               padding: const EdgeInsets.fromLTRB(16, 0, 16, 6),
                               child: Material(
@@ -555,7 +621,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                           child: Center(
                             child: Builder(
                               builder: (context) {
-                                final t = AppLocalizations.of(context)!;
+                                final t = AppLocalizations.of(context);
                                 return OutlinedButton.icon(
                                   icon: const Icon(Icons.history, size: 20),
                                   onPressed: _openHistorySheet,
@@ -609,6 +675,8 @@ class _CategoryScreenState extends State<CategoryScreen> {
                     error: _askError,
                     onSubmit: _submitQuestion,
                     onErrorClear: () => setState(() => _askError = null),
+                    isListening: _isListening,
+                    onVoiceToggle: _toggleVoiceInput,
                   ),
                 ),
               ],
@@ -786,6 +854,8 @@ class _AskMeditationPage extends StatelessWidget {
   final String? error;
   final VoidCallback onSubmit;
   final VoidCallback onErrorClear;
+  final bool isListening;
+  final VoidCallback onVoiceToggle;
 
   const _AskMeditationPage({
     required this.pageController,
@@ -794,11 +864,13 @@ class _AskMeditationPage extends StatelessWidget {
     required this.error,
     required this.onSubmit,
     required this.onErrorClear,
+    required this.isListening,
+    required this.onVoiceToggle,
   });
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     final theme = Theme.of(context);
 
     return SafeArea(
@@ -964,7 +1036,12 @@ class _AskMeditationPage extends StatelessWidget {
             ),
           ),
 
-          const SizedBox(height: 36),
+          const SizedBox(height: 10),
+
+          // Voice input button
+          _VoiceMicButton(isListening: isListening, onTap: onVoiceToggle),
+
+          const SizedBox(height: 28),
 
           // Spiritual animation
           const _SpiritualAnimation(),
@@ -1647,7 +1724,7 @@ class _CategoryLoadingScreenState extends State<_CategoryLoadingScreen>
       final errStr = e.toString().toLowerCase();
       final isKnown = known.any((k) => errStr.contains(k));
 
-      if (widget.onLooksLikeRateLimit(e as Object)) {
+      if (widget.onLooksLikeRateLimit(e)) {
         widget.onCooldown(const Duration(seconds: 30));
         if (!kDebugMode) {
           Navigator.of(context).pop();
@@ -1773,6 +1850,113 @@ class _CategoryLoadingScreenState extends State<_CategoryLoadingScreen>
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Voice mic button — tap once to start, tap again (or auto-silence after 4 s)
+// to stop. Pulses while listening.
+// ─────────────────────────────────────────────────────────────────────────────
+
+class _VoiceMicButton extends StatefulWidget {
+  final bool isListening;
+  final VoidCallback onTap;
+
+  const _VoiceMicButton({required this.isListening, required this.onTap});
+
+  @override
+  State<_VoiceMicButton> createState() => _VoiceMicButtonState();
+}
+
+class _VoiceMicButtonState extends State<_VoiceMicButton>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _pulse = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 850),
+  );
+
+  @override
+  void didUpdateWidget(_VoiceMicButton old) {
+    super.didUpdateWidget(old);
+    if (widget.isListening) {
+      if (!_pulse.isAnimating) _pulse.repeat(reverse: true);
+    } else {
+      _pulse.stop();
+      _pulse.reset();
+    }
+  }
+
+  @override
+  void dispose() {
+    _pulse.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final color = widget.isListening ? AppColors.crimsonLight : AppColors.islamic;
+
+    return GestureDetector(
+      onTap: widget.onTap,
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 220),
+        width: double.infinity,
+        padding: const EdgeInsets.symmetric(vertical: 13),
+        decoration: BoxDecoration(
+          color: widget.isListening
+              ? AppColors.crimsonLight.withValues(alpha: 0.08)
+              : Colors.transparent,
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(
+            color: widget.isListening
+                ? AppColors.crimsonLight.withValues(alpha: 0.50)
+                : AppColors.islamic.withValues(alpha: 0.35),
+            width: 1.2,
+          ),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            AnimatedBuilder(
+              animation: _pulse,
+              builder: (_, child) => Opacity(
+                opacity: widget.isListening ? 0.5 + 0.5 * _pulse.value : 1.0,
+                child: child,
+              ),
+              child: AnimatedSwitcher(
+                duration: const Duration(milliseconds: 220),
+                child: Icon(
+                  widget.isListening
+                      ? Icons.stop_circle_rounded
+                      : Icons.mic_rounded,
+                  key: ValueKey(widget.isListening),
+                  color: color,
+                  size: 20,
+                ),
+              ),
+            ),
+            const SizedBox(width: 8),
+            AnimatedSwitcher(
+              duration: const Duration(milliseconds: 220),
+              child: Builder(
+                key: ValueKey(widget.isListening),
+                builder: (context) {
+                  final t = AppLocalizations.of(context);
+                  return Text(
+                    widget.isListening ? t.voiceInputListening : t.voiceInputSpeak,
+                    style: TextStyle(
+                      color: color,
+                      fontWeight: FontWeight.w600,
+                      fontSize: 15,
+                    ),
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

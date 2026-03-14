@@ -35,7 +35,7 @@ class _AuthGateScreenState extends State<AuthGateScreen> {
 
   late final AuthGateController _controller;
 
-  AppLocalizations get t => AppLocalizations.of(context)!;
+  AppLocalizations get t => AppLocalizations.of(context);
 
   bool get _isIos => !kIsWeb && Platform.isIOS;
   bool get _isAndroid => !kIsWeb && Platform.isAndroid;

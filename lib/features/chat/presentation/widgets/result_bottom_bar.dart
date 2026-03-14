@@ -25,7 +25,7 @@ class _ResultBottomBarState extends State<ResultBottomBar> {
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     final isRegenAvailable = widget.onRegenerate != null;
 
     // Liten, kontrollerad marginal ovanför navbar/home-indicator

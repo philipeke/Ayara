@@ -629,7 +629,7 @@ class AppLocalizationsKu extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'ئایەتی ڕۆژ';
 
   @override
-  String get dailyGraceSaintLabel => 'زانای هەفتە';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'ئەندێشەی ئێوارانە';
@@ -1268,7 +1268,7 @@ class AppLocalizationsKu extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'دوعایەک بۆ دەرکەوتنی ئیمام مەهدی (عج)، دوازدەیەم ئیمام، فێرکراوی باوکی. ڕۆژانە لەلایەن مومینانی شیعەدا دوای هەر نوێژێک دەخوێنرێتەوە وەک کارێکی دینی بۆ ئیمامی زیندوو.';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'تەسبیحی سیدەتنا فاطیمە';
@@ -1370,11 +1370,11 @@ class AppLocalizationsKu extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '١٤ مەعسووم';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
   String get imamsScreenSubtitle =>
-      'پێغەمبەر، سیدەتنا فاطیمە، و دوازدە ئیمام — ڕێبەرانی بێ گوناهی ئیسلام';
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'لەدایکبوون';
@@ -1464,7 +1464,7 @@ class AppLocalizationsKu extends AppLocalizations {
   String get quickActionDailyHadith => 'حەدیثی ڕۆژ';
 
   @override
-  String get quickAction14Masumeen => '١٤ مەعسووم';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'گوێبگرە';
@@ -1546,13 +1546,37 @@ class AppLocalizationsKu extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'حاجیانی شیعە بە نەریتی ئەوەشیان دەچنە مەدینە بۆ سەردانی مزگەوتی نەبەوی و گۆڕی پێغەمبەر محەممەد (ص)، و گۆڕەکانی ئیمامەکان لە جەننەتی بەقیعدا. ئەم سەردانانە گرینگیەکی ڕووحانیی زۆری هەیە و بۆ زۆربەی موسولمانانی شیعە بەشێکی گرینگی گەشتەکەن.';
+      'Gelek heciyên Şîa jî diçin Medîneyê bo ziyareta Pêxember Muhammed (SAW) li Masjid al-Nabawi û serdana gorên li Jannat al-Baqi. Van serdanan wateyeke giredayî ya giyanî heye, lê ew bi xwe ayînên Hecê nînin.';
 
   @override
   String get hajjIntro =>
-      'حەج پێنجەمین ستونی ئیسلامە، واجبە یەک جار لە ژیاندا بۆ هەر موسولمانێک کە بە جەستە و دارایی توانادارە. لە مانگی ذوالحیججەدا ئەنجام دەدرێت، شوێن پێی پێغەمبەر ئیبراهیم (ع)، کوڕی ئیسماعیل (ع)، و سیدەتنا هاجەر دەگرێتەوە. بۆ موسولمانانی شیعە، حەج هەروەها بەرکەتی قوڵی سەردانکردنی شوێنی ئیستراحەتی پێغەمبەر (ص) و ئەهلی بەیت لە مەدینەش تێدایە.';
+      'Hec pêncemîn bingehê Îslamê ye û carekê di jiyanê de ji bo her misilmanê ku ji aliyê laşî û aborî ve karibe pêk bîne farz e. Ji bo piraniya heciyên Şîa yên Duwanzdeh-Îmamî îro, ev tê wateya Hajj al-Tamattu\', ku di meha Dhul Hijjah de li şopa Pêxember Ibrahim (AS), kurê wî Ismail (AS) û Lady Hajar tê pêk anîn. Ev rêber li gorî rêza Ja\'fari ya ayînan hatiye amade kirin, dema ku ziyareta Medîneyê berî an piştî Hecê jî rêwîtiyek giyanî ya gelek hêja dimîne.';
 
   @override
   String get umrahIntro =>
       'عومرە گەشتی بچووکە بۆ مەکە و، بەپێچەوانەی حەج، دەتوانرێت لە هەر کاتێکی ساڵدا ئەنجام بدرێت. هەرچەندە واجب نییە، بەڵام قازانچی ڕووحانیی بەرزی هەیە و وەک کارێکی ئیبادەتی بەرزتاوازداو دادەنرێت. چەند ئایینێک لەگەڵ حەج هاوبەشی هەیە بەڵام کورتترە، چوار ئایینی سەرەکیی تێدایە.';
+
+  @override
+  String get voiceInputTitle => 'Têketina bi deng';
+
+  @override
+  String get voiceInputMicTitle => 'Mîkrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Li şûna nivîsandinê, têketina xwe ji Ask Ayara re bi deng bibêje.';
+
+  @override
+  String get voiceInputMicDenied =>
+      'Destûra gihîştina mîkrofonê hate red kirin.';
+
+  @override
+  String get voiceInputSpeak => 'Bi deng bibêje';
+
+  @override
+  String get voiceInputListening => 'Guhdarî dike…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Ji bo têketina bi deng, destûra mîkrofonê pêwîst e.';
 }

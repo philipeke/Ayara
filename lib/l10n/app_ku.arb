@@ -265,7 +265,7 @@
   "settingsDeletePermanentWarning": "ئەم کارە بەردەوامە و ناتوانرێت بیگەڕێنیتەوە. هەموو داتای پەیوەندیدار بە ئەکاونتەکەت دەسڕێتەوە.",
   "dailyGraceTitle": "ڕێنمایی ڕۆژانە",
   "dailyGraceScriptureLabel": "ئایەتی ڕۆژ",
-  "dailyGraceSaintLabel": "زانای هەفتە",
+  "dailyGraceSaintLabel": "FIGURE OF THE WEEK",
   "dailyGraceReflectionLabel": "ئەندێشەی ئێوارانە",
   "dailyGraceCopiedToast": "ئایەت لە کلیپبۆردەوە کۆپی کرا",
   "locationConsentLabel": "ڕێگە بدە بە ئایارا کە شوێنەکەم بەکاربهێنێت بۆ ئاراستەی قیبلە و کاتەکانی نوێژ",
@@ -493,7 +493,7 @@
   "tasbihatDuaFarajTitle": "دوعای فەرەج",
   "tasbihatDuaFarajWhen": "دوای هەر نوێژێک · بۆ ئیمامی زەمانەکەمان",
   "tasbihatDuaFarajSource": "فێرکراوی لەلایەن ئیمام ئەلحەسەن ئەلعەسکەری (ع)",
-  "tasbihatDuaFarajNote": "دوعایەک بۆ دەرکەوتنی ئیمام مەهدی (عج)، دوازدەیەم ئیمام، فێرکراوی باوکی. ڕۆژانە لەلایەن مومینانی شیعەدا دوای هەر نوێژێک دەخوێنرێتەوە وەک کارێکی دینی بۆ ئیمامی زیندوو.",
+  "tasbihatDuaFarajNote": "A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.",
   "tasbihatDuaTasbihFatimaTitle": "تەسبیحی سیدەتنا فاطیمە",
   "tasbihatDuaTasbihFatimaWhen": "دوای نوێژی ئێوارە و عیشا · بە تایبەتی پێشنیارکراو",
   "tasbihatDuaTasbihFatimaSource": "ئیمام ئەلباقیر (ع) — بیحار ئەلئەنوار",
@@ -569,8 +569,8 @@
       }
     }
   },
-  "imamsScreenTitle": "١٤ مەعسووم",
-  "imamsScreenSubtitle": "پێغەمبەر، سیدەتنا فاطیمە، و دوازدە ئیمام — ڕێبەرانی بێ گوناهی ئیسلام",
+  "imamsScreenTitle": "The Fourteen Infallibles",
+  "imamsScreenSubtitle": "The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam",
   "imamLabelBorn": "لەدایکبوون",
   "imamLabelMartyrdom": "شەهادەت",
   "imamLabelStatus": "دۆخ",
@@ -599,7 +599,7 @@
   "duaAudioMetaOccasion": "ئۆکازیۆن",
   "duaAudioMetaDuration": "ماوە",
   "quickActionDailyHadith": "حەدیثی ڕۆژ",
-  "quickAction14Masumeen": "١٤ مەعسووم",
+  "quickAction14Masumeen": "Fourteen Infallibles",
   "quickActionListenDuas": "گوێبگرە",
   "quickActionTasbihat": "ڕێنمایی نوێژ",
   "pilgrimageSectionTitle": "گەشتی پیرۆز",
@@ -621,9 +621,27 @@
   "pilgrimageComplete": "✓ Tamam",
   "pilgrimageMarkDone": "Wekî qedandî nîşan bidin",
   "pilgrimageProgress": "{done} ji {total} gavan",
+  "@pilgrimageProgress": {
+    "placeholders": {
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
   "pilgrimageReadTime": "~{minutes} deqîqe",
+  "@pilgrimageReadTime": {
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
   "pilgrimageShiaNoteTitle": "حاجیانی شیعە",
-  "pilgrimageShiaNoteBody": "حاجیانی شیعە بە نەریتی ئەوەشیان دەچنە مەدینە بۆ سەردانی مزگەوتی نەبەوی و گۆڕی پێغەمبەر محەممەد (ص)، و گۆڕەکانی ئیمامەکان لە جەننەتی بەقیعدا. ئەم سەردانانە گرینگیەکی ڕووحانیی زۆری هەیە و بۆ زۆربەی موسولمانانی شیعە بەشێکی گرینگی گەشتەکەن.",
-  "hajjIntro": "حەج پێنجەمین ستونی ئیسلامە، واجبە یەک جار لە ژیاندا بۆ هەر موسولمانێک کە بە جەستە و دارایی توانادارە. لە مانگی ذوالحیججەدا ئەنجام دەدرێت، شوێن پێی پێغەمبەر ئیبراهیم (ع)، کوڕی ئیسماعیل (ع)، و سیدەتنا هاجەر دەگرێتەوە. بۆ موسولمانانی شیعە، حەج هەروەها بەرکەتی قوڵی سەردانکردنی شوێنی ئیستراحەتی پێغەمبەر (ص) و ئەهلی بەیت لە مەدینەش تێدایە.",
-  "umrahIntro": "عومرە گەشتی بچووکە بۆ مەکە و، بەپێچەوانەی حەج، دەتوانرێت لە هەر کاتێکی ساڵدا ئەنجام بدرێت. هەرچەندە واجب نییە، بەڵام قازانچی ڕووحانیی بەرزی هەیە و وەک کارێکی ئیبادەتی بەرزتاوازداو دادەنرێت. چەند ئایینێک لەگەڵ حەج هاوبەشی هەیە بەڵام کورتترە، چوار ئایینی سەرەکیی تێدایە."
+  "pilgrimageShiaNoteBody": "Gelek heciyên Şîa jî diçin Medîneyê bo ziyareta Pêxember Muhammed (SAW) li Masjid al-Nabawi û serdana gorên li Jannat al-Baqi. Van serdanan wateyeke giredayî ya giyanî heye, lê ew bi xwe ayînên Hecê nînin.",
+  "hajjIntro": "Hec pêncemîn bingehê Îslamê ye û carekê di jiyanê de ji bo her misilmanê ku ji aliyê laşî û aborî ve karibe pêk bîne farz e. Ji bo piraniya heciyên Şîa yên Duwanzdeh-Îmamî îro, ev tê wateya Hajj al-Tamattu', ku di meha Dhul Hijjah de li şopa Pêxember Ibrahim (AS), kurê wî Ismail (AS) û Lady Hajar tê pêk anîn. Ev rêber li gorî rêza Ja'fari ya ayînan hatiye amade kirin, dema ku ziyareta Medîneyê berî an piştî Hecê jî rêwîtiyek giyanî ya gelek hêja dimîne.",
+  "umrahIntro": "عومرە گەشتی بچووکە بۆ مەکە و، بەپێچەوانەی حەج، دەتوانرێت لە هەر کاتێکی ساڵدا ئەنجام بدرێت. هەرچەندە واجب نییە، بەڵام قازانچی ڕووحانیی بەرزی هەیە و وەک کارێکی ئیبادەتی بەرزتاوازداو دادەنرێت. چەند ئایینێک لەگەڵ حەج هاوبەشی هەیە بەڵام کورتترە، چوار ئایینی سەرەکیی تێدایە.",
+  "voiceInputTitle": "Têketina bi deng",
+  "voiceInputMicTitle": "Mîkrofon",
+  "voiceInputMicSubtitle": "Li şûna nivîsandinê, têketina xwe ji Ask Ayara re bi deng bibêje.",
+  "voiceInputMicDenied": "Destûra gihîştina mîkrofonê hate red kirin.",
+  "voiceInputSpeak": "Bi deng bibêje",
+  "voiceInputListening": "Guhdarî dike…",
+  "voiceInputPermissionDenied": "Ji bo têketina bi deng, destûra mîkrofonê pêwîst e."
 }

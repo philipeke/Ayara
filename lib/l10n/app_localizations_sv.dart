@@ -624,7 +624,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'DAGENS VERS';
 
   @override
-  String get dailyGraceSaintLabel => 'DENNA VECKAS LÄRD';
+  String get dailyGraceSaintLabel => 'VECKANS FIGUR';
 
   @override
   String get dailyGraceReflectionLabel => 'KVÄLLSREFLEKTION';
@@ -1263,7 +1263,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'En dua för Imam al-Mahdīs (af) återkomst, den tolfte Imamen, undervisad av hans far. Reciterad dagligen av Shia-troende efter varje bön som en handling av devotion till den levande Imamen.';
+      'En dua för återkomsten av Imam al-Mahdī (af), den tolfte imamen, undervisad av hans far. Den reciteras ofta av många shiamuslimer efter bön som en handling av hängivenhet till den levande imamen.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ för Fru Fāṭima';
@@ -1365,11 +1365,11 @@ class AppLocalizationsSv extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'De 14 Masumeen';
+  String get imamsScreenTitle => 'De Fjorton Ofelbara';
 
   @override
   String get imamsScreenSubtitle =>
-      'Profeten, Fru Fatima och de tolv Imamerna — Islams felösa ledare';
+      'Profeten, Lady Fatima och de Tolfte Imamerna — de renade och ofelbara vägledarna inom Tolfte Shia Islam';
 
   @override
   String get imamLabelBorn => 'Född';
@@ -1459,7 +1459,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get quickActionDailyHadith => 'Daglig hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Fjorton Ofelbara';
 
   @override
   String get quickActionListenDuas => 'Lyssna';
@@ -1541,13 +1541,36 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia-pilgrimer reser traditionellt också till Medina för att besöka Profeten Muhammads (SAW) grav på Masjid al-Nabawi och Imamernas gravar på Jannat al-Baqi. Dessa besök har enormt andlig betydelse och anses vara en integral del av resan för de flesta shiamuslimer.';
+      'Många shiapilgrimer reser också till Medina för ziyarat av Profeten Muhammad (SAW) vid Masjid al-Nabawi och gravarna vid Jannat al-Baqi. Dessa besök bär djup andlig betydelse, även om de inte själva är riter av Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj är islams femte pelare, obligatorisk en gång i livet för varje muslim som är fysiskt och ekonomiskt kapabel. Genomförd i månaden Dhu al-Hijja, spårar den stegen från Profet Ibrahim (AS), hans son Ismael (AS) och Fru Hajar. För shiamuslimer inkluderar Hajj också välsignelsen att besöka vilostället för Profeten (SAW) och Ahlul Bayt i Medina.';
+      'Hajj är den femte pelaren av Islam, obligatorisk en gång i livet för varje muslim som är fysiskt och ekonomiskt kapabel. För de flesta Tolfte shiapilgrimer idag innebär detta Hajj al-Tamattu\', utförd i månaden Dhul Hijjah i fotspåren av Profeten Ibrahim (AS), hans son Ismail (AS) och Lady Hajar. Denna guide följer Ja\'fari-ramverket för riterna, medan ziyarat i Medina förblir en djupt älskad resa före eller efter Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah är den mindre pilgrimage till Mecca och kan, till skillnad från Hajj, genomföras när som helst på året. Även om det inte är obligatoriskt, bär det enorm andlig belöning och anses vara en mycket rekommenderad akthandling. Det delar flera ritualer med Hajj men är kortare, bestående av fyra huvudritualer.';
+
+  @override
+  String get voiceInputTitle => 'Röstinmatning';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Tala din inmatning till Ask Ayara istället för att skriva.';
+
+  @override
+  String get voiceInputMicDenied => 'Mikrofonåtkomst nekades.';
+
+  @override
+  String get voiceInputSpeak => 'Tala istället';
+
+  @override
+  String get voiceInputListening => 'Lyssnar…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Mikrofonåtkomst krävs för röstinmatning.';
 }

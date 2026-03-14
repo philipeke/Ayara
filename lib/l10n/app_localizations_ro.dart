@@ -627,7 +627,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERSUL ZILEI';
 
   @override
-  String get dailyGraceSaintLabel => 'CĂRTURAR AL SĂPTĂMÂNII';
+  String get dailyGraceSaintLabel => 'FIGURA SĂPTĂMÂNII';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLECȚIE SEARA';
@@ -1269,7 +1269,7 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'O dua pentru reapariția Imamului al-Mahdī (af), al doisprezecelea Imam, predat de tatăl lui. Recitat zilnic de credincioșii Shia după fiecare rugăciune ca act de devoțiune pentru Imamul viu.';
+      'O dua pentru reapariția Imamului al-Mahdī (af), al doisprezecelea Imam, învățată de tatăl său. Este adesea recitată de mulți musulmani șiiți după rugăciune ca un act de devoțiune față de Imamului viu.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ al Doamnei Fāṭima';
@@ -1371,11 +1371,11 @@ class AppLocalizationsRo extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'Cei Paisprezece Infallibili';
 
   @override
   String get imamsScreenSubtitle =>
-      'Profetul, Lady Fatima și cei Doisprezece Imami — ghizii infailibli ai Islamului';
+      'Profetul, Doamna Fatima și Cei Doisprezece Imami — călăuzitorii purificați și infailibili în Islamul șiiților de Twelver';
 
   @override
   String get imamLabelBorn => 'Născut';
@@ -1465,7 +1465,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith Zilei';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Cei Paisprezece Infallibili';
 
   @override
   String get quickActionListenDuas => 'Ascultă';
@@ -1545,13 +1545,36 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Pelerinii Shia se deplasează în mod tradițional și la Medina pentru a vizita mormântul Profetului Muhammad (SAW) la Masjid al-Nabawi și mormintele Imamilor la Jannat al-Baqi. Aceste vizite au o semnificație spirituală enormă și sunt considerate o parte integrantă a călătoriei pentru majoritatea musulmanilor Shia.';
+      'Mulți pelerini șiiți călătoresc de asemenea la Medina pentru ziyaratul Profetului Muhammad (SAW) la Masjid al-Nabawi și la mormintele din Jannat al-Baqi. Aceste vizite au o semnificație spirituală profundă, deși nu sunt ele însele rite de Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj este al cincilea stâlp al Islamului, obligatoriu o dată în viață pentru fiecare musulman care este fiziologic și financiar capabil. Efectuat în luna Dhul Hijjah, retrasează pașii Profetului Ibrahim (AS), fiul său Ismail (AS) și Lady Hajar. Pentru musulmanii Shia, Hajj include și binecuvântarea profundă de a vizita locurile de odihnă ale Profetului (SAW) și Ahlul Bayt în Medina.';
+      'Hajj este al cincilea pilon al Islamului, obligatoriu o dată în viață pentru fiecare musulman care este fizic și financiar capabil. Pentru cei mai mulți pelerini șiiți de Twelver de astăzi, aceasta înseamnă Hajj al-Tamattu\', efectuat în luna Dhul Hijjah pe urmele Profetului Ibrahim (AS), fiul său Ismail (AS) și Doamna Hajar. Acest ghid urmează conturul Ja\'fari al riturilor, în timp ce ziyaratul în Medina rămâne o călătorie profund prețuită înainte sau după Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah este pelerinajul minor la Mecca și, spre deosebire de Hajj, poate fi efectuat oricând din an. Deși nu este obligatoriu, poartă o recompensă spirituală enormă și este considerat un act de cult foarte recomandat. Împărtășește mai ritualuri cu Hajj dar este mai scurt, constând din patru ritualuri principale.';
+
+  @override
+  String get voiceInputTitle => 'Introducere vocală';
+
+  @override
+  String get voiceInputMicTitle => 'Microfon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Vorbește-ți inputul pentru a întreba Ayara în loc să scrii.';
+
+  @override
+  String get voiceInputMicDenied => 'Accesul la microfon a fost refuzat.';
+
+  @override
+  String get voiceInputSpeak => 'Vorbește în loc';
+
+  @override
+  String get voiceInputListening => 'Ascultând…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Accesul la microfon este necesar pentru introducerea vocală.';
 }

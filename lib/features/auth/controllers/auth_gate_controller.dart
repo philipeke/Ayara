@@ -154,7 +154,9 @@ class AuthGateController {
 
     try {
       final g = GoogleSignIn(scopes: const ['email']);
-      await g.signOut().catchError((_) {});
+      try {
+        await g.signOut();
+      } catch (_) {}
 
       final acc = await g.signIn();
       if (acc == null) return false;

@@ -16,7 +16,7 @@ class DeleteAccountButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     return SizedBox(
       width: double.infinity,
@@ -40,7 +40,7 @@ class DeleteAccountButton extends StatelessWidget {
   }
 
   void _showConfirmDialog(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     showDialog(
       context: context,
@@ -68,7 +68,7 @@ class DeleteAccountButton extends StatelessWidget {
   }
 
   Future<void> _performDelete(BuildContext context) async {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     final navigator = Navigator.of(context);
 
     // Loader
@@ -139,7 +139,7 @@ class DeleteAccountButton extends StatelessWidget {
   }
 
   Future<void> _deleteAuthUserWithReauthIfNeeded(BuildContext context) async {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     final auth = FirebaseAuth.instance;
     final user = auth.currentUser;
@@ -160,7 +160,9 @@ class DeleteAccountButton extends StatelessWidget {
     // 🤖 Android: Google reauth
     if (Platform.isAndroid && hasGoogle) {
       final g = GoogleSignIn(scopes: const ['email']);
-      await g.signOut().catchError((_) {});
+      try {
+        await g.signOut();
+      } catch (_) {}
       final acc = await g.signIn();
 
       if (acc == null) {

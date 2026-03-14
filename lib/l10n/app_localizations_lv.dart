@@ -627,7 +627,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'DIENAS PANTI';
 
   @override
-  String get dailyGraceSaintLabel => 'NEDĒĻAS ZINĀTNIEKS';
+  String get dailyGraceSaintLabel => 'NEDĒĻAS SVĒTĪBA';
 
   @override
   String get dailyGraceReflectionLabel => 'VAKARA PĀRDOMAS';
@@ -1268,7 +1268,7 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Duas par Imāma al-Mahdī (af), divpadsmitā Imāma atdzimsanu, kas mācīta no viņa tēva. Šia tiek recitēta katru dienu no šia ticīgajiem pēc katras lūgšanas kā devocion akts dzīvajam Imāmam.';
+      'Lūgšana par Imāma al-Mahdī (af) atkārtotu parādīšanos, divpadsmitā Imāma, ko mācījis viņa tēvs. To bieži lūdz daudzi šīītu musulmaņi pēc lūgšanas kā veltījumu dzīvajam Imāmam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Dāmas Fāṭima Tasbīḥ';
@@ -1370,11 +1370,11 @@ class AppLocalizationsLv extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'Četrpadsmit neapgāžamie';
 
   @override
   String get imamsScreenSubtitle =>
-      'Pravietis, Dāma Fātima un divpadsmit imāmi — islāma neapklaidi vadītāji';
+      'Pravietis, lēdija Fatima un divpadsmit Imāmi — attīrītie un neapgāžamie ceļveži divpadsmitā šīītu islāma tradīcijā';
 
   @override
   String get imamLabelBorn => 'Dzimis';
@@ -1464,7 +1464,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get quickActionDailyHadith => 'Dienas Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Četrpadsmit neapgāžamie';
 
   @override
   String get quickActionListenDuas => 'Klausīties';
@@ -1546,13 +1546,36 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Šia piligrimi tradicionāli arī ceļo uz Medīnu, lai apmeklētu Pravieša Muhamada (SAW) kapa Masjid al-Nabawi un Imāmu kapu Jannat al-Baqi. Šie apmeklējumi ir ļoti nozīmīgi garīgi un tiek uzskatīti par neatņemamu daļu no ceļojuma lielākajiem šia musulmaņiem.';
+      'Daudzi šīītu svētceļnieki arī ceļo uz Medīnu, lai apmeklētu pravieti Muhamedu (SAW) Masjid al-Nabawi un kapus Jannat al-Baqi. Šie apmeklējumi ir dziļi garīgi nozīmīgi, lai gan tie paši nav Hajj rituāli.';
 
   @override
   String get hajjIntro =>
-      'Hajjs ir islāma piektais stabs, obligāts vienreiz dzīvē katram musulmaņam, kurš ir fiziskā un finansiālā ziņā spējīgs. Veikts Dhul Hijja mēnesī, tas atveido Pravieša Ibrāhīma (AS), viņa dēla Ismāīla (AS) un Dāmas Hajar smagus soli. Šia musulmaņiem Hajjs ietver arī Pravieša (SAW) un Ahlul Bayt mīļo vietu apmeklēšanu Medīnā.';
+      'Hajj ir piektā islāma pīlārs, kas ir obligāts vienu reizi mūžā katram musulmanim, kurš fiziski un finansiāli spēj. Lielākajai daļai divpadsmitā šīītu svētceļnieku šodien tas nozīmē Hajj al-Tamattu\', kas tiek veikts Dhul Hijjah mēnesī pravieša Ibrahīma (AS), viņa dēla Ismaīla (AS) un lēdijas Hajar pēdās. Šis ceļvedis seko Džafāri rituālu shēmai, kamēr ziyarat Medīnā paliek dziļi mīlēts ceļojums pirms vai pēc Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah ir mazā piligrimāžu uz Mekku un, atskaitot Hajju, var tikt veikta jebkurā gadalaika. Lai arī ne obligāta, tā rada ļoti nozīmīgu garīgu atlīdzību un tiek uzskatīta par ļoti ieteicamu dievbijības aktu. Tā ir arī dažas rituālus ar Hajju, taču ir īsāka, kas sastāv no četriem galvenajiem rituāliem.';
+
+  @override
+  String get voiceInputTitle => 'Balss ievade';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofons';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Runājiet savu ievadi, lai uzdotu Ayara, nevis rakstītu.';
+
+  @override
+  String get voiceInputMicDenied => 'Mikrofona piekļuve tika atteikta.';
+
+  @override
+  String get voiceInputSpeak => 'Runāt vietā';
+
+  @override
+  String get voiceInputListening => 'Klausos…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Mikrofona piekļuve ir nepieciešama balss ievadei.';
 }

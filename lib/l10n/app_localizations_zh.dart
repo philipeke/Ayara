@@ -594,7 +594,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get dailyGraceScriptureLabel => '今日經文';
 
   @override
-  String get dailyGraceSaintLabel => '本週學者';
+  String get dailyGraceSaintLabel => '本周人物';
 
   @override
   String get dailyGraceReflectionLabel => '夜間沉思';
@@ -1213,7 +1213,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      '這是為第十二伊瑪目馬赫迪（af）的顯現而誦讀的杜阿，由其父親所傳授。什葉派穆民每日在每次禮拜後誦讀，以表達對在世伊瑪目的忠誠。';
+      '这是为伊玛目马赫迪（af）复现而祈求的祷告，伊玛目马赫迪是第十二位伊玛目，由他的父亲传授。许多什叶派穆斯林在祷告后常常诵念，以表达对活着的伊玛目的虔诚。';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => '法蒂瑪夫人的讚詞';
@@ -1311,10 +1311,10 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '十四聖賢';
+  String get imamsScreenTitle => '十四位无误者';
 
   @override
-  String get imamsScreenSubtitle => '先知、法蒂瑪夫人以及十二位伊瑪目——伊斯蘭中無過的引導者';
+  String get imamsScreenSubtitle => '先知、法蒂玛女士和十二位伊玛目——在十二伊玛目什叶派伊斯兰教中，纯洁且无误的引导者';
 
   @override
   String get imamLabelBorn => '出生';
@@ -1401,7 +1401,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get quickActionDailyHadith => '每日聖訓';
 
   @override
-  String get quickAction14Masumeen => '十四聖賢';
+  String get quickAction14Masumeen => '十四位无误者';
 
   @override
   String get quickActionListenDuas => '聆聽';
@@ -1478,15 +1478,36 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      '什葉派朝聖者傳統上也會前往麥地那，拜訪位於先知清真寺內的先知穆罕默德（SAW）陵墓，以及位於天園公墓中的伊瑪目陵墓。這些拜訪具有極其深遠的精神意義，對大多數什葉派朝聖者而言，是整個旅程不可或缺的一部分。';
+      '许多什叶派朝圣者还会前往麦地那，朝圣先知穆罕默德（SAW）在纳巴维清真寺的 ziyarat，以及在贾纳特·巴基的墓地。这些访问具有深刻的精神意义，尽管它们本身并不是朝觐的仪式。';
 
   @override
   String get hajjIntro =>
-      '朝覲是伊斯蘭的第五項功修，對每一位在身體和經濟上有能力的穆斯林來說，一生中至少一次為主命。它在都·希哲月進行，重走先知易卜拉欣（AS）、其子伊斯瑪儀（AS）與哈哲爾夫人的足跡。對什葉派穆斯林而言，朝覲也包含前往麥地那拜訪先知（SAW）和聖裔安息之地這一深厚的恩惠。';
+      '朝觐是伊斯兰教的第五根柱子，对于每个身体和经济条件允许的穆斯林来说，终生只需履行一次。对于大多数今天的十二伊玛目什叶派朝圣者来说，这意味着在杜尔·希贾月进行的朝觐（Hajj al-Tamattu\'），追随先知易卜拉欣（AS）、他的儿子伊斯梅尔（AS）和哈贾尔女士的脚步。本指南遵循贾法里仪式的框架，而在麦地那的 ziyarat 则是朝觐前后深受珍视的旅程。';
 
   @override
   String get umrahIntro =>
       '副朝是前往麥加的小朝覲，與朝覲不同，它可以在一年中的任何時候進行。儘管它不是主命，但它具有極大的精神回賜，並被視為一項高度被鼓勵的敬拜行為。它與朝覲共享若干儀式，但時間更短，僅由四個主要儀式組成。';
+
+  @override
+  String get voiceInputTitle => '语音输入';
+
+  @override
+  String get voiceInputMicTitle => '麦克风';
+
+  @override
+  String get voiceInputMicSubtitle => '请说出您的输入以向 Ask Ayara 提问，而不是输入文字。';
+
+  @override
+  String get voiceInputMicDenied => '麦克风访问被拒绝。';
+
+  @override
+  String get voiceInputSpeak => '改为说话';
+
+  @override
+  String get voiceInputListening => '正在听取…';
+
+  @override
+  String get voiceInputPermissionDenied => '语音输入需要麦克风访问权限。';
 }
 
 /// The translations for Chinese, as used in China (`zh_CN`).
@@ -2079,7 +2100,7 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String get dailyGraceScriptureLabel => '今日经文';
 
   @override
-  String get dailyGraceSaintLabel => '本周学者';
+  String get dailyGraceSaintLabel => '本周人物';
 
   @override
   String get dailyGraceReflectionLabel => '夜间沉思';
@@ -2698,7 +2719,7 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
 
   @override
   String get tasbihatDuaFarajNote =>
-      '这是为第十二伊玛目马赫迪（af）的显现而诵读的杜阿，由其父亲所传授。什叶派信士每日在每次礼拜后诵读，以表达对在世伊玛目的忠诚。';
+      '这是为伊玛目马赫迪（af）——第十二位伊玛目的重现而祈求的祷告，由他的父亲传授。许多什叶派穆斯林在祷告后常常诵念，以表达对活着的伊玛目的虔诚。';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => '法蒂玛夫人的赞词';
@@ -2796,10 +2817,10 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   }
 
   @override
-  String get imamsScreenTitle => '十四圣贤';
+  String get imamsScreenTitle => '十四位无误者';
 
   @override
-  String get imamsScreenSubtitle => '先知、法蒂玛夫人以及十二位伊玛目——伊斯兰中无过的引导者';
+  String get imamsScreenSubtitle => '先知、法蒂玛女士和十二位伊玛目——在十二伊玛目什叶派伊斯兰教中纯洁且无误的引导者';
 
   @override
   String get imamLabelBorn => '出生';
@@ -2886,7 +2907,7 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String get quickActionDailyHadith => '每日圣训';
 
   @override
-  String get quickAction14Masumeen => '十四圣贤';
+  String get quickAction14Masumeen => '十四位无误者';
 
   @override
   String get quickActionListenDuas => '聆听';
@@ -2963,15 +2984,36 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      '什叶派朝圣者传统上也会前往麦地那，拜访位于先知清真寺内的先知穆罕默德（SAW）陵墓，以及位于天园公墓中的伊玛目陵墓。这些拜访具有极其深远的精神意义，对大多数什叶派朝圣者而言，是整个旅程不可或缺的一部分。';
+      '许多什叶派朝圣者还会前往麦地那，朝拜先知穆罕默德（SAW）在纳巴维清真寺的遗址以及在贾纳特·巴基的墓地。这些访问具有深刻的精神意义，尽管它们本身并不是朝觐的仪式。';
 
   @override
   String get hajjIntro =>
-      '朝觐是伊斯兰的第五项功修，对每一位在身体和经济上有能力的穆斯林来说，一生中至少一次为主命。它在都·希哲月进行，重走先知易卜拉欣（AS）、其子伊斯玛仪（AS）与哈哲尔夫人的足迹。对什叶派穆斯林而言，朝觐也包含前往麦地那拜访先知（SAW）和圣裔安息之地这一深厚的恩惠。';
+      '朝觐是伊斯兰教的第五大支柱，对于每个身体和经济条件允许的穆斯林来说，终生只需履行一次。对于大多数今天的十二伊玛目什叶派朝圣者来说，这意味着在杜尔·希贾月进行的朝觐（Hajj al-Tamattu\'），追随先知易卜拉欣（AS）、他的儿子伊斯梅尔（AS）和哈贾尔女士的足迹。本指南遵循贾法里教义的仪式，而在麦地那的朝拜则是朝觐前后深受珍视的旅程。';
 
   @override
   String get umrahIntro =>
       '副朝是前往麦加的小朝觐，与朝觐不同，它可以在一年中的任何时间进行。尽管它不是主命，但它具有极大的精神回赐，并被视为一项高度被鼓励的敬拜行为。它与朝觐共享若干仪式，但时间更短，仅由四个主要仪式组成。';
+
+  @override
+  String get voiceInputTitle => '语音输入';
+
+  @override
+  String get voiceInputMicTitle => '麦克风';
+
+  @override
+  String get voiceInputMicSubtitle => '请说出您的输入以向 Ask Ayara 提问，而不是输入文字。';
+
+  @override
+  String get voiceInputMicDenied => '麦克风访问被拒绝。';
+
+  @override
+  String get voiceInputSpeak => '改为说话';
+
+  @override
+  String get voiceInputListening => '正在听取…';
+
+  @override
+  String get voiceInputPermissionDenied => '语音输入需要麦克风访问权限。';
 }
 
 /// The translations for Chinese, as used in Hong Kong (`zh_HK`).
@@ -3563,7 +3605,7 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get dailyGraceScriptureLabel => '今日經文';
 
   @override
-  String get dailyGraceSaintLabel => '本週學者';
+  String get dailyGraceSaintLabel => '本週聖人';
 
   @override
   String get dailyGraceReflectionLabel => '晚間省思';
@@ -4180,7 +4222,7 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
 
   @override
   String get tasbihatDuaFarajNote =>
-      '這是一篇為第十二位伊瑪目 Mahdī（af）再臨而誦的 dua，由其父親傳授。什葉派信眾每日在每次禮拜後誦讀，以表達對在世伊瑪目的忠誠與敬愛。';
+      '這是一個為伊瑪目馬赫迪（af）重現而祈求的祈禱，這是第十二位伊瑪目的父親所教導的。許多什葉派穆斯林在祈禱後經常誦念，以表達對活著的伊瑪目的虔誠。';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => '法蒂瑪女士的 Tasbīḥ';
@@ -4278,10 +4320,10 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   }
 
   @override
-  String get imamsScreenTitle => '14 位 Masumeen';
+  String get imamsScreenTitle => '十四位無誤者';
 
   @override
-  String get imamsScreenSubtitle => '先知、法蒂瑪女士，以及十二位伊瑪目——伊斯蘭中無誤的引導者';
+  String get imamsScreenSubtitle => '先知、法蒂瑪女士和十二位伊瑪目——在十二伊瑪派伊斯蘭中純潔且無誤的指導者';
 
   @override
   String get imamLabelBorn => '誕生';
@@ -4368,7 +4410,7 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get quickActionDailyHadith => '每日 Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 位 Masumeen';
+  String get quickAction14Masumeen => '十四位無誤者';
 
   @override
   String get quickActionListenDuas => '收聽';
@@ -4445,15 +4487,36 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      '什葉派朝覲者通常也會前往麥地那，探訪位於先知清真寺（Masjid al-Nabawi）的先知 Muhammad ﷺ 墳墓，以及位於 Jannat al-Baqi 的伊瑪目陵墓。這些探訪具有極其重要的靈性意義，對大多數什葉派穆斯林而言，是朝覲旅程不可分割的一部分。';
+      '許多什葉派朝聖者也會前往麥地那，參拜先知穆罕默德（SAW）在納巴維清真寺的聖地及在詹納特·巴基的墳墓。這些訪問具有深刻的靈性意義，儘管它們本身並不是朝覲的儀式。';
 
   @override
   String get hajjIntro =>
-      'Hajj 是伊斯蘭的第五大支柱，對每位在身體和經濟上都有能力的穆斯林而言，一生至少一次是主命。它在都爾黑哲月進行，並追隨先知 Ibrahim（AS）、其子 Ismail（AS）以及 Hajar 女士的腳步。對什葉派穆斯林而言，Hajj 還包含前往麥地那拜訪先知 ﷺ 與 Ahlul Bayt 安息之地的深厚祝福。';
+      '朝覲是伊斯蘭的第五根柱子，對每位身體和經濟上能夠的穆斯林來說，終生必須履行一次。對於今天大多數十二伊瑪派的朝聖者來說，這意味著在杜爾·希賈月進行的朝覲（Hajj al-Tamattu\'），追隨先知易卜拉欣（AS）、他的兒子伊斯馬伊爾（AS）和哈賈女士的腳步。本指南遵循賈法里派的儀式大綱，而在麥地那的朝聖仍然是一段深受珍視的旅程，無論是在朝覲之前還是之後。';
 
   @override
   String get umrahIntro =>
       'Umrah 是前往麥加的小朝覲，不同於 Hajj，它可在一年任何時間進行。雖然不是主命，但它帶來巨大的靈性回賜，並被視為非常值得鼓勵的崇拜行為。它與 Hajj 共通若干儀式，但更為簡短，由四個主要儀式組成。';
+
+  @override
+  String get voiceInputTitle => '語音輸入';
+
+  @override
+  String get voiceInputMicTitle => '麥克風';
+
+  @override
+  String get voiceInputMicSubtitle => '用語音向 Ask Ayara 提問，而不是打字。';
+
+  @override
+  String get voiceInputMicDenied => '麥克風訪問被拒絕。';
+
+  @override
+  String get voiceInputSpeak => '改為說話';
+
+  @override
+  String get voiceInputListening => '正在聆聽…';
+
+  @override
+  String get voiceInputPermissionDenied => '語音輸入需要麥克風訪問權限。';
 }
 
 /// The translations for Chinese, as used in Singapore (`zh_SG`).
@@ -5044,7 +5107,7 @@ class AppLocalizationsZhSg extends AppLocalizationsZh {
   String get dailyGraceScriptureLabel => '今日经文';
 
   @override
-  String get dailyGraceSaintLabel => '本周学者';
+  String get dailyGraceSaintLabel => '本周人物';
 
   @override
   String get dailyGraceReflectionLabel => '晚间反思';
@@ -5661,7 +5724,7 @@ class AppLocalizationsZhSg extends AppLocalizationsZh {
 
   @override
   String get tasbihatDuaFarajNote =>
-      '一个为伊玛目马赫迪（祝其早日再现）重新出现而祈祷的祈祷，由他的父亲教导。什叶派信徒在每次礼拜后每天诵读，作为对现世伊玛目的虔诚行为。';
+      '这是为伊玛目马赫迪（af）重现而祈求的dua，伊玛目马赫迪是第十二位伊玛目，由他的父亲传授。许多什叶派穆斯林在祷告后常常诵念，以表达对活着的伊玛目的虔诚。';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => '法蒂玛夫人的赞颂';
@@ -5759,10 +5822,10 @@ class AppLocalizationsZhSg extends AppLocalizationsZh {
   }
 
   @override
-  String get imamsScreenTitle => '14 位无罪者';
+  String get imamsScreenTitle => '十四位无误者';
 
   @override
-  String get imamsScreenSubtitle => '先知、法蒂玛夫人和十二位伊玛目——伊斯兰的无罪引导者';
+  String get imamsScreenSubtitle => '先知、法蒂玛女士和十二位伊玛目——在十二伊玛目什叶派伊斯兰中纯洁且无误的引导者';
 
   @override
   String get imamLabelBorn => '诞生';
@@ -5849,7 +5912,7 @@ class AppLocalizationsZhSg extends AppLocalizationsZh {
   String get quickActionDailyHadith => '每日圣训';
 
   @override
-  String get quickAction14Masumeen => '14 位无罪者';
+  String get quickAction14Masumeen => '十四位无误者';
 
   @override
   String get quickActionListenDuas => '聆听';
@@ -5926,15 +5989,36 @@ class AppLocalizationsZhSg extends AppLocalizationsZh {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      '什叶派朝圣者传统上也前往麦地那拜访先知穆罕默德（祝其平安）在先知清真寺的陵墓，以及伊玛目们在天堂墓地的陵墓。这些访问具有巨大的精神意义，被认为是大多数什叶派穆斯林朝圣之旅的不可分割的一部分。';
+      '许多什叶派朝圣者还会前往麦地那，朝拜先知穆罕默德（SAW）在纳巴维清真寺的 ziyarat 以及在巴基花园的墓地。这些访问具有深刻的精神意义，尽管它们本身并不是朝觐的仪式。';
 
   @override
   String get hajjIntro =>
-      '朝觐是伊斯兰的第五根支柱，对每位身体和经济条件允许的穆斯林来说，一生中必须进行一次。在都勒黑及月进行，它追溯了先知易卜拉欣（祝其平安）、他的儿子伊斯玛仪（祝其平安）和哈杰尔夫人的足迹。对什叶派穆斯林来说，朝觐还包括在麦地那拜访先知（祝其平安）和家族领袖安息之地的深刻祝福。';
+      '朝觐是伊斯兰的第五大支柱，对于每个身体和经济条件允许的穆斯林来说，终生只需履行一次。对于大多数今天的十二伊玛目什叶派朝圣者来说，这意味着在杜尔希贾月进行的朝觐（Hajj al-Tamattu\'），追随先知易卜拉欣（AS）、他的儿子伊斯梅尔（AS）和哈贾尔女士的脚步。本指南遵循贾法里教义的仪式，而在麦地那的 ziyarat 则是朝觐前后深受珍视的旅程。';
 
   @override
   String get umrahIntro =>
       '副朝是到麦加的小朝觐，与朝觐不同，可在一年中任何时间进行。虽然不是义务，但它承载着巨大的精神回报，被认为是一种备受推荐的礼拜行为。它与朝觐分享几个仪式，但更短，包括四个主要仪式。';
+
+  @override
+  String get voiceInputTitle => '语音输入';
+
+  @override
+  String get voiceInputMicTitle => '麦克风';
+
+  @override
+  String get voiceInputMicSubtitle => '请说出您的输入以向 Ask Ayara 提问，而不是输入。';
+
+  @override
+  String get voiceInputMicDenied => '麦克风访问被拒绝。';
+
+  @override
+  String get voiceInputSpeak => '改为说话';
+
+  @override
+  String get voiceInputListening => '正在听取…';
+
+  @override
+  String get voiceInputPermissionDenied => '语音输入需要麦克风访问权限。';
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
@@ -6523,7 +6607,7 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get dailyGraceScriptureLabel => '本日經文';
 
   @override
-  String get dailyGraceSaintLabel => '本週學者';
+  String get dailyGraceSaintLabel => '本週人物';
 
   @override
   String get dailyGraceReflectionLabel => '晚間反思';
@@ -7140,7 +7224,7 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get tasbihatDuaFarajNote =>
-      '為伊瑪目·馬赫迪（af）（第十二位伊瑪目）的重新出現而做的祈禱，由他的父親傳授。什葉派信徒每天都在每次祈禱後誦讀，作為對活伊瑪目的虔誠行為。';
+      '這是一個為伊瑪目馬赫迪（af）重現而祈求的祈禱，這是第十二位伊瑪目的父親所教導的。許多什葉派穆斯林在禱告後經常誦念，以表達對活著的伊瑪目的虔誠。';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => '法蒂瑪夫人的念誦';
@@ -7238,10 +7322,10 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   }
 
   @override
-  String get imamsScreenTitle => '14 位馬蘇明';
+  String get imamsScreenTitle => '十四位無誤者';
 
   @override
-  String get imamsScreenSubtitle => '先知、法蒂瑪夫人和十二位伊瑪目 — 伊斯蘭的無誤指南';
+  String get imamsScreenSubtitle => '先知、法蒂瑪女士和十二位伊瑪目——在十二伊瑪目什葉派伊斯蘭中，純潔且無誤的引導者';
 
   @override
   String get imamLabelBorn => '出生';
@@ -7328,7 +7412,7 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get quickActionDailyHadith => '每日聖訓';
 
   @override
-  String get quickAction14Masumeen => '14 位馬蘇明';
+  String get quickAction14Masumeen => '十四位無誤者';
 
   @override
   String get quickActionListenDuas => '聆聽';
@@ -7405,13 +7489,34 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      '什葉派朝聖者傳統上也前往麥地那拜訪先知穆罕默德（SAW）在聖寺的陵墓，以及在天堂墓地的伊瑪目們的墓地。這些訪問具有巨大的精神意義，對大多數什葉派穆斯林來說被認為是旅程的重要組成部分。';
+      '許多什葉派朝聖者也會前往麥地那，參拜先知穆罕默德（SAW）在納巴維清真寺的聖地及在詹納特·阿爾·巴基的墳墓。這些訪問具有深刻的靈性意義，儘管它們本身並不是朝覲的儀式。';
 
   @override
   String get hajjIntro =>
-      '麥加朝覲是伊斯蘭的第五支柱，每個身體和經濟上有能力的穆斯林一生中必須進行一次。在都勒海傑月進行，它重新追蹤了先知易卜拉罕（AS）、他的兒子伊斯瑪儀（AS）和哈哲爾夫人的足跡。對於什葉派穆斯林來說，麥加朝覲也包括參觀先知（SAW）和 Ahlul Bayt 在麥地那安息地的深刻祝福。';
+      '朝覲是伊斯蘭的第五根柱子，對每位身體和經濟上能夠的穆斯林來說，終生必須履行一次。對於今天大多數十二伊瑪派的朝聖者來說，這意味著在杜爾·希賈月進行的朝覲（Hajj al-Tamattu\'），追隨先知易卜拉欣（AS）、他的兒子伊斯馬伊爾（AS）和哈賈女士的腳步。本指南遵循賈法里（Ja\'fari）儀式的框架，而在麥地那的朝聖則仍然是一段深受珍視的旅程，無論是在朝覲之前或之後。';
 
   @override
   String get umrahIntro =>
       '副朝是對麥加的小朝覲，與麥加朝覲不同，可在全年任何時間進行。雖然不是必須的，但它具有巨大的精神獎勵，被認為是一項高度推薦的崇拜行為。它與麥加朝覲分享幾個儀式，但時間較短，包括四個主要儀式。';
+
+  @override
+  String get voiceInputTitle => '語音輸入';
+
+  @override
+  String get voiceInputMicTitle => '麥克風';
+
+  @override
+  String get voiceInputMicSubtitle => '請用語音向 Ask Ayara 提問，而不是打字。';
+
+  @override
+  String get voiceInputMicDenied => '麥克風存取被拒絕。';
+
+  @override
+  String get voiceInputSpeak => '改用語音';
+
+  @override
+  String get voiceInputListening => '正在聆聽…';
+
+  @override
+  String get voiceInputPermissionDenied => '語音輸入需要麥克風存取權限。';
 }

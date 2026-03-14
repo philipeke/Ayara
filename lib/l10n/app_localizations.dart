@@ -1393,7 +1393,7 @@ abstract class AppLocalizations {
   /// No description provided for @dailyGraceSaintLabel.
   ///
   /// In en, this message translates to:
-  /// **'SCHOLAR OF THE WEEK'**
+  /// **'FIGURE OF THE WEEK'**
   String get dailyGraceSaintLabel;
 
   /// No description provided for @dailyGraceReflectionLabel.
@@ -2545,7 +2545,7 @@ abstract class AppLocalizations {
   /// No description provided for @tasbihatDuaFarajNote.
   ///
   /// In en, this message translates to:
-  /// **'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. Recited daily by the Shia faithful after every prayer as an act of devotion to the living Imam.'**
+  /// **'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.'**
   String get tasbihatDuaFarajNote;
 
   /// No description provided for @tasbihatDuaTasbihFatimaTitle.
@@ -2719,13 +2719,13 @@ abstract class AppLocalizations {
   /// No description provided for @imamsScreenTitle.
   ///
   /// In en, this message translates to:
-  /// **'The 14 Masumeen'**
+  /// **'The Fourteen Infallibles'**
   String get imamsScreenTitle;
 
   /// No description provided for @imamsScreenSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'The Prophet, Lady Fatima, and the Twelve Imams — the infallible guides of Islam'**
+  /// **'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam'**
   String get imamsScreenSubtitle;
 
   /// No description provided for @imamLabelBorn.
@@ -2899,7 +2899,7 @@ abstract class AppLocalizations {
   /// No description provided for @quickAction14Masumeen.
   ///
   /// In en, this message translates to:
-  /// **'14 Masumeen'**
+  /// **'Fourteen Infallibles'**
   String get quickAction14Masumeen;
 
   /// No description provided for @quickActionListenDuas.
@@ -3043,13 +3043,13 @@ abstract class AppLocalizations {
   /// No description provided for @pilgrimageShiaNoteBody.
   ///
   /// In en, this message translates to:
-  /// **'Shia pilgrims traditionally also travel to Medina to visit the tomb of the Prophet Muhammad (SAW) at Masjid al-Nabawi, and the graves of the Imams at Jannat al-Baqi. These visits carry immense spiritual significance and are considered an integral part of the journey for most Shia Muslims.'**
+  /// **'Many Shia pilgrims also travel to Medina for ziyarat of the Prophet Muhammad (SAW) at Masjid al-Nabawi and the graves at Jannat al-Baqi. These visits carry deep spiritual significance, though they are not themselves rites of Hajj.'**
   String get pilgrimageShiaNoteBody;
 
   /// No description provided for @hajjIntro.
   ///
   /// In en, this message translates to:
-  /// **'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it retraces the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. For Shia Muslims, Hajj also includes the profound blessing of visiting the resting places of the Prophet (SAW) and the Ahlul Bayt in Medina.'**
+  /// **'Hajj is the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is physically and financially able. For most Twelver Shia pilgrims today, this means Hajj al-Tamattu\', performed in the month of Dhul Hijjah in the footsteps of Prophet Ibrahim (AS), his son Ismail (AS), and Lady Hajar. This guide follows the Ja\'fari outline of the rites, while ziyarat in Medina remains a deeply cherished journey before or after Hajj.'**
   String get hajjIntro;
 
   /// No description provided for @umrahIntro.
@@ -3057,6 +3057,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Umrah is the lesser pilgrimage to Mecca and, unlike Hajj, can be performed at any time of the year. While not obligatory, it carries immense spiritual reward and is considered a highly recommended act of worship. It shares several rituals with Hajj but is shorter, consisting of four main rites.'**
   String get umrahIntro;
+
+  /// No description provided for @voiceInputTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Voice Input'**
+  String get voiceInputTitle;
+
+  /// No description provided for @voiceInputMicTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Microphone'**
+  String get voiceInputMicTitle;
+
+  /// No description provided for @voiceInputMicSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Speak your input to Ask Ayara instead of typing.'**
+  String get voiceInputMicSubtitle;
+
+  /// No description provided for @voiceInputMicDenied.
+  ///
+  /// In en, this message translates to:
+  /// **'Microphone access was denied.'**
+  String get voiceInputMicDenied;
+
+  /// No description provided for @voiceInputSpeak.
+  ///
+  /// In en, this message translates to:
+  /// **'Speak instead'**
+  String get voiceInputSpeak;
+
+  /// No description provided for @voiceInputListening.
+  ///
+  /// In en, this message translates to:
+  /// **'Listening…'**
+  String get voiceInputListening;
+
+  /// No description provided for @voiceInputPermissionDenied.
+  ///
+  /// In en, this message translates to:
+  /// **'Microphone access is required for voice input.'**
+  String get voiceInputPermissionDenied;
 }
 
 class _AppLocalizationsDelegate

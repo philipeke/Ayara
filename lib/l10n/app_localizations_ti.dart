@@ -605,7 +605,7 @@ class AppLocalizationsTi extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'መዓልታዊ ቁርአን';
 
   @override
-  String get dailyGraceSaintLabel => 'ሳሙን ሳብ';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'ምሸት ምስተውዓል';
@@ -1228,7 +1228,7 @@ class AppLocalizationsTi extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'ዱዓ ኢማም ሺ-ማሂዲ (af) ምመጹእ ለ መዐወልት። ሕብረተሰብ ዕምሪ ሙሂሚ ሙሙር ኣለዎ ሓደ ሓደ ስእለት ህ\'ሌ।';
+      'A dua for the reappearance of Imam al-Mahdī (af), the twelfth Imam, taught by his father. It is often recited by many Shia Muslims after prayer as an act of devotion to the living Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'ታስቢህ ሎ ፋጥሚ';
@@ -1326,10 +1326,11 @@ class AppLocalizationsTi extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 ማሱሙን';
+  String get imamsScreenTitle => 'The Fourteen Infallibles';
 
   @override
-  String get imamsScreenSubtitle => 'ነቢይ ሎ ፋጥሚ ወ 12 ኢማማት — ኢስላም ይክብር ምምሕዳር';
+  String get imamsScreenSubtitle =>
+      'The Prophet, Lady Fatima, and the Twelve Imams — the purified and infallible guides in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'ወለደ';
@@ -1416,7 +1417,7 @@ class AppLocalizationsTi extends AppLocalizations {
   String get quickActionDailyHadith => 'መዓልታዊ ሃዲስ';
 
   @override
-  String get quickAction14Masumeen => '14 ማሱሙን';
+  String get quickAction14Masumeen => 'Fourteen Infallibles';
 
   @override
   String get quickActionListenDuas => 'ሃወኸ';
@@ -1494,13 +1495,36 @@ class AppLocalizationsTi extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'ሽያ ወገናት ታሕሊል ምዲና ንነቢይ ሙሐመድ (SAW) ደንበራ ተወኩ ቤተ ንቢዩ ወ ኢማማት ቤተ ሓንጃ ዘይተወኩ። ዚሕ ዎደታት ሰላም ቀዱስ\'ዮም ከምኡ ውን ሽያ ሙሃመዴን ገጠር ግብር\'ዮም።';
+      'ብዙሓት ሺዓ ሓጃጃት ናብ መዲና እውን ይጉዕዙ፣ ኣብ Masjid al-Nabawi ንነቢይ ሙሓመድ (SAW) ዚያራ ንምግባር እና ኣብ Jannat al-Baqi ዘለዉ መቓብር ንምብጻሕ። እዚ ምብጻሓት ዓሚቕ መንፈሳዊ ኣገዳሲነት ኣለዎም፣ ግን ባዕሎም ሥርዓታት ሐጅ ኣይኮኑን።';
 
   @override
   String get hajjIntro =>
-      'ሓጀ ኢስላም 5ኛ ምሩግ\'ዩ ወ ሓደ ሓደ ብ-ሕሉም ን ብልጽግናኢ ሙሃመድ ተወላዲ\'ዩ። ዱ ሉ-ሂጃ ወርሕ ግበር ነቢይ ኢብራሂም (AS)፣ ሆ ወለዱ ኢስሙዐል (AS) ከምኡ ውን ሎ ሓጃር ሦስተ። ሽያ ሙሃመድ ለ ሓጀ ነቢይ (SAW) ከምኡ ውን ወወ ወገንታ ቤተ ዋገን ማካ ወጺኡ ሊ।';
+      'ሐጅ ሓምሻይ ዓምዲ እስልምና እዩ፣ ኣካላዊን ገንዘባዊን ብቕዓት ዘለዎ ኩሉ ሙስሊም ኣብ ሕይወቱ ሓንሳብ ክፍጽሞ ዝግባእ ግዴታ እዩ። ንብዙሓት ናይ 12-ኢማም ሺዓ ሓጃጃት ሎሚ፣ እዚ ማለት Hajj al-Tamattu\' እዩ፣ ኣብ ወርሒ Dhul Hijjah ብኣሰር ነቢይ Ibrahim (AS), ወዱ Ismail (AS) እና Lady Hajar ዝፍጸም። እዚ መምርሒ ንሥርዓታት Ja\'fari መስመር ይኽተል፣ ዚያራት ኣብ መዲና ግን ቅድሚ ወይ ድሕሪ ሐጅ ዝፈተወ መንፈሳዊ ጉዕዞ እዩ ዝቕጽል።';
 
   @override
   String get umrahIntro =>
       'ዑመሪ ማካ ትንሳዓ ወገን\'ዩ ወ ሓጀ ዘይመልካዕ ዓመት ሕየ ምስ ክወግዶ। ሙሉእ ኢዩ ግዙ ሕሩይ ምስቅምምዕ ሓደ ሓደ ሕብረተሰብ።';
+
+  @override
+  String get voiceInputTitle => 'Voice Input';
+
+  @override
+  String get voiceInputMicTitle => 'Microphone';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Speak your input to Ask Ayara instead of typing.';
+
+  @override
+  String get voiceInputMicDenied => 'Microphone access was denied.';
+
+  @override
+  String get voiceInputSpeak => 'Speak instead';
+
+  @override
+  String get voiceInputListening => 'Listening…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Microphone access is required for voice input.';
 }

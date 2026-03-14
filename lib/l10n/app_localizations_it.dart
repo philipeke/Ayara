@@ -629,7 +629,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERSETTO DEL GIORNO';
 
   @override
-  String get dailyGraceSaintLabel => 'SAGGIO DELLA SETTIMANA';
+  String get dailyGraceSaintLabel => 'FIGURA DELLA SETTIMANA';
 
   @override
   String get dailyGraceReflectionLabel => 'RIFLESSIONE SERALE';
@@ -1272,7 +1272,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Una dua per la riapparizione dell\'Imam al-Mahdī (af), il dodicesimo Imam, insegnata da suo padre. Recitata quotidianamente dai fedeli sciiti dopo ogni preghiera come atto di devozione verso l\'Imam vivente.';
+      'Una dua per la riapparizione dell\'Imam al-Mahdī (af), il dodicesimo Imam, insegnata da suo padre. Viene spesso recitata da molti musulmani sciiti dopo la preghiera come atto di devozione all\'Imam vivente.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ di Lady Fāṭima';
@@ -1374,11 +1374,11 @@ class AppLocalizationsIt extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'I 14 Masumeen';
+  String get imamsScreenTitle => 'I Quattordici Infallibili';
 
   @override
   String get imamsScreenSubtitle =>
-      'Il Profeta, Lady Fatima e i Dodici Imam — le guide infallibili dell\'Islam';
+      'Il Profeta, Lady Fatima e i Dodici Imams — le guide purificate e infallibili nello Sciismo dei Dodici';
 
   @override
   String get imamLabelBorn => 'Nascita';
@@ -1468,7 +1468,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith Quotidiano';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Quattordici Infallibili';
 
   @override
   String get quickActionListenDuas => 'Ascolta';
@@ -1549,13 +1549,36 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'I pellegrini sciiti tradizionalmente si recano anche a Medina per visitare la tomba del Profeta Muhammad (SAW) alla Masjid al-Nabawi e le tombe degli Imam al Jannat al-Baqi. Queste visite hanno un immenso significato spirituale e sono considerate parte integrante del viaggio per la maggior parte dei musulmani sciiti.';
+      'Molti pellegrini sciiti viaggiano anche a Medina per la ziyarat del Profeta Muhammad (SAW) presso la Masjid al-Nabawi e le tombe a Jannat al-Baqi. Queste visite portano un profondo significato spirituale, anche se non sono di per sé riti del Hajj.';
 
   @override
   String get hajjIntro =>
-      'L\'Hajj è il quinto pilastro dell\'Islam, obbligatorio una volta nella vita per ogni musulmano fisicamente e finanziariamente capace. Compiuto nel mese di Dhul Hijjah, ripercorre i passi del Profeta Ibrahim (AS), di suo figlio Ismail (AS) e di Lady Hajar. Per i musulmani sciiti, l\'Hajj include anche la profonda benedizione di visitare i luoghi di riposo del Profeta (SAW) e della Ahlul Bayt a Medina.';
+      'Il Hajj è il quinto pilastro dell\'Islam, obbligatorio una volta nella vita per ogni musulmano che sia fisicamente e finanziariamente in grado. Per la maggior parte dei pellegrini sciiti dei Dodici oggi, questo significa Hajj al-Tamattu\', eseguito nel mese di Dhul Hijjah seguendo le orme del Profeta Ibrahim (AS), di suo figlio Ismail (AS) e della Lady Hajar. Questa guida segue il quadro giuridico ja\'fari dei riti, mentre la ziyarat a Medina rimane un viaggio profondamente caro prima o dopo il Hajj.';
 
   @override
   String get umrahIntro =>
       'L\'Umrah è il pellegrinaggio minore alla Mecca e, a differenza dell\'Hajj, può essere eseguito in qualsiasi momento dell\'anno. Pur non essendo obbligatorio, porta un\'immensa ricompensa spirituale ed è considerato un atto di culto altamente raccomandato. Condivide diversi rituali con l\'Hajj ma è più breve, consistendo in quattro riti principali.';
+
+  @override
+  String get voiceInputTitle => 'Input Vocale';
+
+  @override
+  String get voiceInputMicTitle => 'Microfono';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Parla il tuo input per chiedere ad Ayara invece di digitare.';
+
+  @override
+  String get voiceInputMicDenied => 'Accesso al microfono negato.';
+
+  @override
+  String get voiceInputSpeak => 'Parla invece';
+
+  @override
+  String get voiceInputListening => 'Ascoltando…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'L\'accesso al microfono è necessario per l\'input vocale.';
 }

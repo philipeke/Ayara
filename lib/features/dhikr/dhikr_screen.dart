@@ -102,7 +102,7 @@ class _DhikrScreenState extends State<DhikrScreen>
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
 
     return Scaffold(
       backgroundColor: AppColors.deepNavy,
@@ -267,12 +267,21 @@ class _DhikrScreenState extends State<DhikrScreen>
     final progress = _count / _targets[_phraseIndex];
     final totalCompleted = _targets.take(_phraseIndex).fold(0, (a, b) => a + b) + _count;
 
+    final screenHeight = MediaQuery.of(context).size.height;
+    final bool isSmall = screenHeight < 680;
+
+    final double arabicFont = isSmall ? 30.0 : 38.0;
+    final double gap1 = isSmall ? 16.0 : 28.0; // above arabic
+    final double gap2 = isSmall ? 20.0 : 36.0; // above counter
+    final double gap3 = isSmall ? 16.0 : 28.0; // below counter
+    final double gap4 = isSmall ? 12.0 : 20.0; // above reset
+
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         // ── Phase dots ──────────────────────────────────────────────────────
         _PhaseDots(current: _phraseIndex, total: _phrases.length),
-        const SizedBox(height: 28),
+        SizedBox(height: gap1),
 
         // ── Arabic ──────────────────────────────────────────────────────────
         Padding(
@@ -282,7 +291,7 @@ class _DhikrScreenState extends State<DhikrScreen>
             textAlign: TextAlign.center,
             textDirection: TextDirection.rtl,
             style: GoogleFonts.amiri(
-              fontSize: 38,
+              fontSize: arabicFont,
               fontWeight: FontWeight.w700,
               color: Colors.white,
               height: 1.55,
@@ -307,7 +316,7 @@ class _DhikrScreenState extends State<DhikrScreen>
             fontSize: 13,
           ),
         ),
-        const SizedBox(height: 36),
+        SizedBox(height: gap2),
 
         // ── Circular counter button ──────────────────────────────────────────
         ScaleTransition(
@@ -322,7 +331,7 @@ class _DhikrScreenState extends State<DhikrScreen>
             ),
           ),
         ),
-        const SizedBox(height: 28),
+        SizedBox(height: gap3),
 
         // ── Total progress ───────────────────────────────────────────────────
         Text(
@@ -343,7 +352,7 @@ class _DhikrScreenState extends State<DhikrScreen>
             letterSpacing: 0.5,
           ),
         ),
-        const SizedBox(height: 20),
+        SizedBox(height: gap4),
 
         // ── Reset ───────────────────────────────────────────────────────────
         TextButton(

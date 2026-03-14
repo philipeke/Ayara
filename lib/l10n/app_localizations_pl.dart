@@ -632,7 +632,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'WERSET DNIA';
 
   @override
-  String get dailyGraceSaintLabel => 'UCZONY TYGODNIA';
+  String get dailyGraceSaintLabel => 'FIGURA TYGODNIA';
 
   @override
   String get dailyGraceReflectionLabel => 'WIECZORNA REFLEKSJA';
@@ -1279,7 +1279,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua o ponowne pojawienie się Imama al-Mahdiego (af), dwunastego Imama, nauczona przez jego ojca. Recytowana codziennie przez szyickich wiernych po każdej modlitwie jako akt oddania żyjącemu Imamowi.';
+      'Dua za ponowne pojawienie się Imama al-Mahdī (af), dwunastego Imama, nauczona przez jego ojca. Często recytowana przez wielu szyickich muzułmanów po modlitwie jako akt oddania żyjącemu Imamowi.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ Pani Fāṭimy';
@@ -1381,11 +1381,11 @@ class AppLocalizationsPl extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Ma\'sumeen';
+  String get imamsScreenTitle => 'Czternastu Niewinnych';
 
   @override
   String get imamsScreenSubtitle =>
-      'Prorok, Pani Fatima i Dwunastu Imamów — nieomylni przewodnicy islamu';
+      'Prorok, Pani Fatima i Dwunastu Imamów — oczyszczeni i niewinni przewodnicy w szyickim islamie dwunastkowym';
 
   @override
   String get imamLabelBorn => 'Urodzony';
@@ -1475,7 +1475,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get quickActionDailyHadith => 'Codzienny hadis';
 
   @override
-  String get quickAction14Masumeen => '14 Ma\'sumeen';
+  String get quickAction14Masumeen => 'Czternastu Niewinnych';
 
   @override
   String get quickActionListenDuas => 'Słuchaj';
@@ -1557,13 +1557,36 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Szyiccy pielgrzymi tradycyjnie udają się także do Medyny, aby odwiedzić grób Proroka Muhammada ﷺ w Masjid al-Nabawi oraz groby Imamów w Jannat al-Baqi. Te odwiedziny mają ogromne znaczenie duchowe i są uważane za integralną część podróży dla większości szyickich muzułmanów.';
+      'Wielu szyickich pielgrzymów podróżuje również do Medyny, aby odwiedzić Proroka Muhammada (SAW) w Masjid al-Nabawi oraz groby w Jannat al-Baqi. Te wizyty mają głębokie znaczenie duchowe, chociaż same w sobie nie są rytuałami Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hadżdż jest piątym filarem islamu, obowiązkowym raz w życiu dla każdego muzułmanina, który jest fizycznie i finansowo zdolny. Odbywa się w miesiącu Dhul Hijjah i śledzi ślady Proroka Ibrahima (AS), jego syna Ismaila (AS) i Pani Hajar. Dla szyickich muzułmanów Hadżdż obejmuje także głębokie błogosławieństwo odwiedzenia miejsc spoczynku Proroka ﷺ i Ahlul Bayt w Medynie.';
+      'Hajj jest piątą kolumną islamu, obowiązkowy raz w życiu dla każdego muzułmanina, który jest fizycznie i finansowo zdolny. Dla większości szyickich pielgrzymów dwunastkowych oznacza to Hajj al-Tamattu\', wykonywany w miesiącu Dhul Hijjah, w ślad za Prorokiem Ibrahimem (AS), jego synem Ismailem (AS) i Panią Hajar. Ten przewodnik podąża za ja\'faryjskim zarysem rytuałów, podczas gdy ziyarat w Medynie pozostaje głęboko cenioną podróżą przed lub po Hajj.';
 
   @override
   String get umrahIntro =>
       'Umra jest mniejszą pielgrzymką do Mekki i, w przeciwieństwie do Hadżdżu, może być odbyta o każdej porze roku. Choć nie jest obowiązkowa, niesie ogromną nagrodę duchową i jest uznawana za wysoce zalecany akt czci. Dzieli kilka rytuałów z Hadżdżem, ale jest krótsza i składa się z czterech głównych obrzędów.';
+
+  @override
+  String get voiceInputTitle => 'Wprowadzenie głosowe';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Mów swoje zapytanie do Ask Ayara zamiast pisać.';
+
+  @override
+  String get voiceInputMicDenied => 'Dostęp do mikrofonu został odrzucony.';
+
+  @override
+  String get voiceInputSpeak => 'Mów zamiast';
+
+  @override
+  String get voiceInputListening => 'Słucham…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Dostęp do mikrofonu jest wymagany do wprowadzenia głosowego.';
 }

@@ -629,7 +629,7 @@ class AppLocalizationsSr extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'AJET DANA';
 
   @override
-  String get dailyGraceSaintLabel => 'UČENJAK NEDELJE';
+  String get dailyGraceSaintLabel => 'LIČNOST NEDJELJE';
 
   @override
   String get dailyGraceReflectionLabel => 'VEČERNJE RAZMIŠLJANJE';
@@ -1271,7 +1271,7 @@ class AppLocalizationsSr extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dova za ponovno pojavljivanje Imama al-Mahdija (af), dvanaestog Imama, koju je podučavao njegov otac. Šiitski vernici je svakodnevno uče nakon svakog namaza kao čin odanosti živom Imamu.';
+      'Dua za ponovni dolazak Imama al-Mahdīja (af), dvanaestog Imama, koju je podučio njegov otac. Često je izgovaraju mnogi šiitski muslimani nakon molitve kao čin odanosti živom Imamu.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbih hazreti Fatime';
@@ -1373,11 +1373,11 @@ class AppLocalizationsSr extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumina';
+  String get imamsScreenTitle => 'Četrnaest nepogrešivih';
 
   @override
   String get imamsScreenSubtitle =>
-      'Poslanik, hazreti Fatima i dvanaest Imama — bezgrešni vodiči islama';
+      'Poslanik, gospođa Fatima i dvanaest Imama — pročišćeni i nepogrešivi vođe u dvanaestoj šiitskoj islamu';
 
   @override
   String get imamLabelBorn => 'Rođen';
@@ -1467,7 +1467,7 @@ class AppLocalizationsSr extends AppLocalizations {
   String get quickActionDailyHadith => 'Dnevni hadis';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Četrnaest nepogrešivih';
 
   @override
   String get quickActionListenDuas => 'Slušaj';
@@ -1547,13 +1547,36 @@ class AppLocalizationsSr extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Šiitski hodočasnici tradicionalno putuju i u Medinu kako bi posetili mezar Poslanika Muhammeda (SAW) u Mesdžid an-Nebeviju, kao i grobove Imama u Dženet al-Bekiju. Ove posete nose ogroman duhovni značaj i za većinu šiitskih vernika predstavljaju sastavni deo putovanja.';
+      'Mnogi šiitski hodočasnici takođe putuju u Medinu radi ziyarat Poslanika Muhammeda (SAW) u Masjid al-Nabawi i grobova u Džennetu al-Baqi. Ove posete imaju duboko duhovno značenje, iako same po sebi nisu obredi Hadža.';
 
   @override
   String get hajjIntro =>
-      'Hadž je peti stub islama, obavezan jednom u životu za svakog muslimana koji je fizički i finansijski sposoban. Obavlja se u mesecu Zul-Hidždže i prati stope Poslanika Ibrahima (AS), njegovog sina Ismaila (AS) i hazreti Hadžere. Za šiitske muslimane, hadž uključuje i duboku blagodat posete mestima počinka Poslanika (SAW) i Ahlul Bayta u Medini.';
+      'Hadž je peti stub Islama, obavezan jednom u životu za svakog muslimana koji je fizički i finansijski sposoban. Za većinu dvanaestih šiitskih hodočasnika danas, to znači Hadž al-Tamattu\', koji se obavlja u mesecu Džul-Hidždžu u stopama Poslanika Ibrahima (AS), njegovog sina Ismaila (AS) i gospođe Hajar. Ovaj vodič prati Džafari okvir obreda, dok je ziyarat u Medini duboko cenjeno putovanje pre ili posle Hadža.';
 
   @override
   String get umrahIntro =>
       'Umra je malo hodočašće u Meku i, za razliku od hadža, može se obaviti u bilo koje doba godine. Iako nije obavezna, nosi ogromnu duhovnu nagradu i smatra se vrlo preporučenim ibadetom. Deli nekoliko obreda sa hadžom, ali je kraća i sastoji se od četiri glavna čina.';
+
+  @override
+  String get voiceInputTitle => 'Glasovni unos';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Govori svoj unos da bi pitao Ayara umesto da kucaš.';
+
+  @override
+  String get voiceInputMicDenied => 'Pristup mikrofonu je odbijen.';
+
+  @override
+  String get voiceInputSpeak => 'Govori umesto';
+
+  @override
+  String get voiceInputListening => 'Slušam…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Pristup mikrofonu je neophodan za glasovni unos.';
 }

@@ -16,7 +16,7 @@ class FreePlanBlockedNotice extends StatelessWidget {
       return const SizedBox.shrink();
     }
 
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     final theme = Theme.of(context);
 
     return Column(

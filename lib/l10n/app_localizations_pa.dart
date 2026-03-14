@@ -626,7 +626,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'آج کی آیت';
 
   @override
-  String get dailyGraceSaintLabel => 'اس ہفتے کے عالم';
+  String get dailyGraceSaintLabel => 'ਹਫ਼ਤੇ ਦਾ ਸ਼ਖ਼ਸ';
 
   @override
   String get dailyGraceReflectionLabel => 'شام کی عکاسی';
@@ -1266,7 +1266,7 @@ class AppLocalizationsPa extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'امام المہدی (ع)، بارہویں امام کی ظہور کے لیے ایک دعا، ان کے والد نے سکھائی۔ روزانہ شیعہ مومنین ہر نماز کے بعد زندہ امام کے فریضے کے طور پر پڑھتے ہیں۔';
+      'ਇਮਾਮ ਅਲ-ਮਹਦੀ (ਅਫ) ਦੇ ਦੁਬਾਰਾ ਪ੍ਰਗਟ ਹੋਣ ਲਈ ਇੱਕ ਦੁਆ, ਜੋ ਉਨ੍ਹਾਂ ਦੇ ਪਿਤਾ ਦੁਆਰਾ ਸਿਖਾਈ ਗਈ ਸੀ। ਇਹ ਬਹੁਤ ਸਾਰੇ ਸ਼ੀਆ ਮੁਸਲਮਾਨਾਂ ਦੁਆਰਾ ਨਮਾਜ਼ ਦੇ ਬਾਅਦ ਇਮਾਮ ਦੇ ਜੀਵੰਤ ਹੋਣ ਦੇ ਪ੍ਰਤੀ ਭਗਤੀ ਦੇ ਤੌਰ \'ਤੇ ਪੜ੍ਹੀ ਜਾਂਦੀ ਹੈ।';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'بی بی فاطمہ کی تسبیح';
@@ -1366,11 +1366,11 @@ class AppLocalizationsPa extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 معصومین';
+  String get imamsScreenTitle => 'ਚੌਦਾਂ ਮਾਸੂਮ';
 
   @override
   String get imamsScreenSubtitle =>
-      'نبی، بی بی فاطمہ، اور بارہ اماموں — اسلام کی معصوم رہنمائی';
+      'ਨਬੀ, ਬੀਬੀ ਫਾਤਿਮਾ, ਅਤੇ ਬਾਰਾਂ ਇਮਾਮ — ਚੌਦਾਂ ਮਾਸੂਮਾਂ ਦੇ ਜੀਵਨ, ਗਿਆਨ, ਅਤੇ ਵਿਰਾਸਤ ਤੋਂ ਸਿੱਖਣ ਵਾਲੇ ਪਵਿੱਤਰ ਅਤੇ ਗ਼ਲਤੀ ਰਹਿਤ ਮਾਰਗਦਰਸ਼ਕ।';
 
   @override
   String get imamLabelBorn => 'پیدائش';
@@ -1460,7 +1460,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get quickActionDailyHadith => 'روزانہ حدیث';
 
   @override
-  String get quickAction14Masumeen => '14 معصومین';
+  String get quickAction14Masumeen => 'ਚੌਦਾਂ ਮਾਸੂਮ';
 
   @override
   String get quickActionListenDuas => 'سنیں';
@@ -1540,13 +1540,35 @@ class AppLocalizationsPa extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'شیعہ زائرین روایتی طور پر مدینے کا بھی سفر کرتے ہیں تاکہ نبی محمد (ص) کی قبر مسجد النبوی میں دیکھ سکیں، اور اماموں کی قبریں جنۃ البقیع میں۔ یہ زیارتیں بہت زیادہ روحانی اہمیت رکھتی ہیں اور اکثر شیعہ مسلمانوں کے لیے سفر کا ایک لازمی حصہ سمجھی جاتی ہیں۔';
+      'ਬਹੁਤ ਸਾਰੇ ਸ਼ੀਆ ਯਾਤਰੀ ਮਦੀਨਾ ਵਿੱਚ ਨਬੀ ਮੁਹੰਮਦ (ਸਾ) ਦੇ ਜ਼ਿਆਰਤ ਲਈ ਮਸਜਿਦ ਅਲ-ਨਬਵੀ ਅਤੇ ਜਨਨਤ ਅਲ-ਬਾਕ�� ਵਿੱਚ ਕਬਰਾਂ ਲਈ ਵੀ ਯਾਤਰਾ ਕਰਦੇ ਹਨ। ਇਹ ਦੌਰੇ ਗਹਿਰੇ ਆਤਮਿਕ ਮਹੱਤਵ ਰੱਖਦੇ ਹਨ, ਹਾਲਾਂਕਿ ਇਹ ਖੁਦ ਹਜ ਦੇ ਰਸਮਾਂ ਨਹੀਂ ਹਨ।';
 
   @override
   String get hajjIntro =>
-      'حج اسلام کا پانچواں ستون ہے، ہر مسلمان کے لیے جو جسمانی اور مالی لحاظ سے قابل ہو، ایک بار واجب ہے۔ ذوالحجہ کے مہینے میں کیا جاتا ہے، یہ نبی ابراہیم (ع)، ان کے بیٹے اسماعیل (ع)، اور بی بی ہاجرہ کے قدموں پر چلتا ہے۔ شیعہ مسلمانوں کے لیے، حج میں مدینے میں نبی (ص) اور اہل البیت کی آرام کی جگہوں کی زیارت کا شامل ہے۔';
+      'ਹਜ ਇਸਲਾਮ ਦਾ ਪੰਜਵਾਂ ਖੰਭ ਹੈ, ਜੋ ਹਰ ਮੁਸਲਮਾਨ ਲਈ ਇੱਕ ਵਾਰੀ ਜੀਵਨ ਵਿੱਚ ਲਾਜ਼ਮੀ ਹੈ, ਜੇ ਉਹ ਸ਼ਾਰੀਰੀਕ ਅਤੇ ਆਰਥਿਕ ਤੌਰ \'ਤੇ ਸਮਰੱਥ ਹੈ। ਅੱਜ ਦੇ ਬਹੁਤ ਸਾਰੇ ਚੌਦਾਂ ਮਾਸੂਮਾਂ ਦੇ ਸ਼ੀਆ ਯਾਤਰੀਆਂ ਲਈ, ਇਸਦਾ ਮਤਲਬ ਹੈ ਹਜ ਅਲ-ਤਮੱਤੁ\', ਜੋ ਧੁਲ ਹਿਜਜ ਦੇ ਮਹੀਨੇ ਵਿੱਚ ਨਬੀ ਇਬਰਾਹੀਮ (ਅਸ), ਉਨ੍ਹਾਂ ਦੇ ਪੁੱਤਰ ਇਸਮਾਈਲ (ਅਸ), ਅਤੇ ਬੀਬੀ ਹਾਜਰ ਦੇ ਪਦਚਿੰਹਾਂ \'ਤੇ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਇਹ ਗਾਈਡ ਜਾਫ਼ਰੀ ਰਸਮਾਂ ਦੇ ਢਾਂਚੇ ਨੂੰ ਫੋਲੋ ਕਰਦੀ ਹੈ, ਜਦਕਿ ਮਦੀਨਾ ਵਿੱਚ ਜ਼ਿਆਰਤ ਹਜ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂ ਬਾਅਦ ਇੱਕ ਗਹਿਰੇ ਪਿਆਰੇ ਯਾਤਰਾ ਰਹਿੰਦੀ ਹੈ।';
 
   @override
   String get umrahIntro =>
       'عمرہ مکہ میں چھوٹی زیارت ہے اور، حج کے برعکس، سال کے کسی بھی وقت کی جا سکتی ہے۔ اگرچہ لازمی نہیں، لیکن یہ بہت روحانی انعام رکھتی ہے اور عبادت کا ایک بہت سفارش شدہ عمل سمجھی جاتی ہے۔ یہ حج کی کچھ رسومات شیئر کرتی ہے لیکن کم ہے، چار اہم رسومات پر مشتمل ہے۔';
+
+  @override
+  String get voiceInputTitle => 'ਆਵਾਜ਼ ਇਨਪੁਟ';
+
+  @override
+  String get voiceInputMicTitle => 'ਮਾਈਕ';
+
+  @override
+  String get voiceInputMicSubtitle => 'ਟਾਈਪ ਕਰਨ ਦੀ ਬਜਾਏ ਆਵਾਜ਼ ਨਾਲ ਆਉਟਪੁਟ ਦਿਓ।';
+
+  @override
+  String get voiceInputMicDenied => 'ਮਾਈਕਰੋਫੋਨ ਦੀ ਪਹੁੰਚ ਇਨਕਾਰ ਕੀਤੀ ਗਈ ਸੀ।';
+
+  @override
+  String get voiceInputSpeak => 'ਬੋਲੋ';
+
+  @override
+  String get voiceInputListening => 'ਸੁਣ ਰਹੇ ਹਾਂ…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'ਆਵਾਜ਼ ਇਨਪੁਟ ਲਈ ਮਾਈਕਰੋਫੋਨ ਦੀ ਪਹੁੰਚ ਜਰੂਰੀ ਹੈ।';
 }

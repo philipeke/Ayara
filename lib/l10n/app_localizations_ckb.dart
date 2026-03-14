@@ -627,7 +627,7 @@ class AppLocalizationsCkb extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'ئایەتی ڕۆژی';
 
   @override
-  String get dailyGraceSaintLabel => 'عامیلی ھەفتە';
+  String get dailyGraceSaintLabel => 'شەوەی هەفتە';
 
   @override
   String get dailyGraceReflectionLabel => 'فکرکردنی ئێوار';
@@ -1261,7 +1261,7 @@ class AppLocalizationsCkb extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'دعایی بۆ دووبارە هاتنی ئیمام المہدی (عج)، دوازدەیەم ئیمام، فێرکردنی باوی. ھەمیشە ڕۆژانە دعا دەکار شیعە مندان دواتر ھەر نوێژ وەک عمل بەندیی بۆ ئیمام زیندوو.';
+      'دعا بۆ بەرزبوونی ئەمام مەهدی (عف)، ئەمامە دوازدەیە، کە لە لایەن باوکەیەوە فێرکراوە. زۆر شیاکان ئەم دعاە بە شێوەیەکی پەیوەندیدار پاش نەمەزەکان دەخوانن بۆ پەیوەندیدانی بەرز بەرەو ئەمامە زنده‌کان.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'تسبیح لیدی فاتیمە';
@@ -1363,11 +1363,11 @@ class AppLocalizationsCkb extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 معصوم';
+  String get imamsScreenTitle => 'چواردە پەیامبەرانی بێ هەڵە';
 
   @override
   String get imamsScreenSubtitle =>
-      'پێغەمبەر، لیدی فاتیمە، و دوازدە ئیمام — ڕاھێنی معصوم ئیسلام';
+      'پەیامبەر، خانم فاطمە، و دوازدە ئەمام — رێنمایانی پاک و بێ هەڵە لە ئیسلامی شیا دوازدەیە';
 
   @override
   String get imamLabelBorn => 'بری';
@@ -1456,7 +1456,7 @@ class AppLocalizationsCkb extends AppLocalizations {
   String get quickActionDailyHadith => 'حدیثی ڕۆژی';
 
   @override
-  String get quickAction14Masumeen => '14 معصوم';
+  String get quickAction14Masumeen => 'چواردە پەیامبەرانی بێ هەڵە';
 
   @override
   String get quickActionListenDuas => 'بیستن';
@@ -1536,13 +1536,36 @@ class AppLocalizationsCkb extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'حاجیانی شیعە یادی ھەتاو مدینە بزان بۆ دیدنی قبری پێغەمبەر محمد (ﷺ) لە مسجدی نبوی، و قبری ئیمامان لە جنە البقیع. ئەم دیدارانە نیفەتە رووحانی بە ھیوا و دانراو گرینگی لە سفری ھیندی شیعیان.';
+      'زۆر شیاکان بەرەو مەدینە بۆ زیارتەی پەیامبەر محمد (ص) لە مەسجد النبوی و قەبڕەکان لە جەنەتی الباقی دەچن. ئەم سەردانیە بەرزە بەرزەیەکی روحانی هەیە، هەرچەندە ئەم سەردانیە خۆی ڕووداوەکانی حەجج نییە.';
 
   @override
   String get hajjIntro =>
-      'حج پشتی پنجەمی ئیسلام، واجب یەک جار لە تێدا ھەر مسلمی توانای جسمانی و دارایی. انجام دات لە مانگی ذالحجە، جۆیت رێی ئیبراھیم (ع)، کوری ھاجاری (ع)، و لیدی هاجار. بۆ مسلمانی شیعە، حج هەروەسا تێکەڵ دیدنی جێی دیدنی پێغەمبەر (ﷺ) و ئەھلبەیت لە مدینە.';
+      'حەجج پەنجەمین سوتەی ئیسلامە، کە بەرزە بەرزەیە بەرەو پەیوەندیدانی هەموو مسلمانی کە توانای فیزیکی و دارایی هەیە. بۆ زۆر شیاکان لە ئیشکراوی دوازدەیە، ئەمە بەرزە بەرزەیە بەرەو حەجج التمتع، کە لە مانگی ذوالحجە لە پەیامبەر ئیبراهیم (ع) و پەسرەکەی ئیسماعیل (ع) و خانم هاجرەوە پەیوەندیدانی دەکرێت. ئەم رێنمایە شێوەی جاڤارییەکانی ڕووداوەکان پەیوەندیدانی دەکات، هەرچەندە زیارت لە مەدینە بەرزە بەرزەیەکی خۆشەویستە پێش یان پاش حەجج.';
 
   @override
   String get umrahIntro =>
       'عمرە حجی کچک بۆ مەکە و، جیاوازت حج، دەتوانرێت ھەرکاتێ سالدا انجام درێت. گرچی واجب نیە، بەڵام پاداشتی رووحانی بە ھیوا و دانراو عمل پیروەزت. شاتوە ھیندی جۆبنەمالی حج دەشاریتە لە هیندی سادە، تێکەڵ چوار جۆبنەمالی سەرەکی.';
+
+  @override
+  String get voiceInputTitle => 'بەکارهێنانی دەنگ';
+
+  @override
+  String get voiceInputMicTitle => 'میکروفۆن';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'بە شێوەیەکی دەنگی پەیوەندیت بەرەو ئایاڕا بکەوە بە شێوەی نووسین.';
+
+  @override
+  String get voiceInputMicDenied => 'بەکارهێنانی میکروفۆن ڕەدەدرا.';
+
+  @override
+  String get voiceInputSpeak => 'بە شێوەیەکی دەنگی قسە بکە';
+
+  @override
+  String get voiceInputListening => 'گوشکردن…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'بەکارهێنانی میکروفۆن بۆ بەکارهێنانی دەنگ پێویستە.';
 }

@@ -630,7 +630,7 @@ class AppLocalizationsSo extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'AAYADDA MAANTA';
 
   @override
-  String get dailyGraceSaintLabel => 'CAALINKA TODDOBAADKA';
+  String get dailyGraceSaintLabel => 'SHAKHSIGA TODDOBAADKA';
 
   @override
   String get dailyGraceReflectionLabel => 'MILICSIGA FIIDKII';
@@ -1274,7 +1274,7 @@ class AppLocalizationsSo extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua loogu baryayo soo muuqashada Imam al-Mahdī (af), Imaamka 12aad, oo uu baray aabbihii. Waxaa maalin kasta akhriya Shiicada ka dib salaad kasta oo calaamad u ah jacaylka Imaamka nool.';
+      'Dua loogu talagalay soo noqoshada Imam al-Mahdī (af), Imamkii labaatanaad, oo uu baray aabihiis. Badanaa waxaa akhriya dad badan oo Shia Muslimiin ah kadib salaadda sida camal u ah iimaanka Imam-ka nool.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥda Marwo Fāṭima';
@@ -1376,11 +1376,11 @@ class AppLocalizationsSo extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14ka Masuumiin';
+  String get imamsScreenTitle => 'Afarta Toban ee aan Qaldamin';
 
   @override
   String get imamsScreenSubtitle =>
-      'Nabiga, Marwo Faaduma, iyo Laba-iyo-tobanka Imam — hanuuniyeyaasha aan gefka lahayn ee Islaamka';
+      'Nabiga, Marwo Fatima, iyo Tobanka Imam — hogaamiyeyaasha nadiifka ah ee aan qaldamin ee diinta Shia Toban.';
 
   @override
   String get imamLabelBorn => 'Dhashay';
@@ -1470,7 +1470,7 @@ class AppLocalizationsSo extends AppLocalizations {
   String get quickActionDailyHadith => 'Xadiiska Maanta';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Afarta Toban ee aan Qaldamin';
 
   @override
   String get quickActionListenDuas => 'Dhagayso';
@@ -1552,13 +1552,36 @@ class AppLocalizationsSo extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Xujeyda Shiicada waxay dhaqan ahaan sidoo kale u safraan Medina si ay u booqdaan qabriga Nabiga Muhammad (SAW) ee Masjid al-Nabawi, iyo qabuuraha Imamyada ee Jannat al-Baqi. Booqashooyinkaas waxay leeyihiin qiime ruuxi ah oo aad u weyn, waxaana xujey badan oo Shiico ah u arkaan qayb muhiim ah oo safarka ka mid ah.';
+      'Booqdayaasha Shia badan ayaa sidoo kale u safra magaalada Madiina si ay u booqdaan Nabiga Muhammad (SAW) ee Masjid al-Nabawi iyo qabriga Jannat al-Baqi. Booqashadani waxay leedahay macne ruuxi ah oo qoto dheer, in kastoo aysan ahayn xafladaha Xajka.';
 
   @override
   String get hajjIntro =>
-      'Hajj waa tiirka shanaad ee Islaamka, waana waajib hal mar nolosha Muslim kasta oo awood ahaan iyo dhaqaale ahaan kara. Waxaa la gudanayaa bisha Dhul Hijjah, waxaana lagu raacayaa raadkii Nabi Ibrahim (AS), wiilkiisii Ismail (AS), iyo Marwo Hajar. Muslimiinta Shiicada ah, Hajj sidoo kale wuxuu leeyahay nimcada qotada dheer ee booqashada meelaha ay ku nastaan Nabiga (SAW) iyo Ahlul Bayt ee Medina.';
+      'Xajku waa tiirarka shanaad ee Islaamka, waajib ah hal mar nolosha qof kasta oo Muslim ah oo awood u leh jidh ahaan iyo dhaqaale ahaan. Badanaa booqdayaasha Shia Toban maanta, tani waxay ka dhigan tahay Xajka al-Tamattu\', oo la sameeyo bisha Dhul Hijjah iyada oo la raacayo raadadka Nabiga Ibrahim (AS), wiilkiisa Ismail (AS), iyo Marwo Hajar. Hagahan wuxuu raacayaa qaabka Ja\'fari ee xafladaha, halka booqashada Madiina ay tahay safar qoto dheer oo la jecel yahay ka hor ama ka dib Xajka.';
 
   @override
   String get umrahIntro =>
       'Umrah waa socdaalka yar ee loo aado Mecca, waxayna kaga duwan tahay Hajj in la samayn karo wakhti kasta oo sanadka ah. Inkastoo aanay waajib ahayn, haddana waxay leedahay ajar ruuxi ah oo aad u weyn, waxaana loo arkaa cibaado aad loo jecel yahay. Waxay la wadaagtaa Hajj dhowr camal, balse way ka gaaban tahay, waxayna ka kooban tahay afar tiir oo waaweyn.';
+
+  @override
+  String get voiceInputTitle => 'Codka Gelinta';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofoon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Hadalkaga ku qor si aad u weydiiso Ayara halkii aad ka qori lahayd.';
+
+  @override
+  String get voiceInputMicDenied => 'Gelitaanka mikrofoonka waa la diiday.';
+
+  @override
+  String get voiceInputSpeak => 'Hadalku halkii';
+
+  @override
+  String get voiceInputListening => 'Dhageysiga…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Gelitaanka mikrofoonka ayaa loo baahan yahay si loo isticmaalo codka gelinta.';
 }

@@ -632,7 +632,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'KUNNING OYATI';
 
   @override
-  String get dailyGraceSaintLabel => 'HAFTA ALIMI';
+  String get dailyGraceSaintLabel => 'HAFTANING FIGURI';
 
   @override
   String get dailyGraceReflectionLabel => 'KECHKI TAFAKKUR';
@@ -1274,7 +1274,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Imam al-Mahdi (af) ning, o\'n ikkinchi Imam, qaytishi uchun dua, uning otasi tomonidan o\'rgatilgan. Shia mumincilari tomonidan har bir namazdan keyin jadvallashtirilgan Imam uchun muharriratlik harakati sifatida kundalik o\'qiladi.';
+      'Imom al-Mahdī (af) ning qaytishi uchun dua, o\'z otasi tomonidan o\'rgatilgan. Bu dua ko\'plab shia musulmonlari tomonidan ibodat sifatida namozdan keyin o\'qiladi.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Xonumning Tasbīḥi Fāṭima';
@@ -1376,11 +1376,11 @@ class AppLocalizationsUz extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'O\'n to\'rt Ma\'sum';
 
   @override
   String get imamsScreenSubtitle =>
-      'Payg\'ambar, Xonuma Fatima va O\'n ikki Imamlar — Islomning ishikdor rahbarlari';
+      'Payg\'ambar, Sayyida Fatima va O\'n ikki Imom — tozalangan va xato qilmasdan yo\'l ko\'rsatuvchilar Twelver Shia Islomida';
 
   @override
   String get imamLabelBorn => 'Tug\'ilgan';
@@ -1470,7 +1470,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get quickActionDailyHadith => 'Kunlik Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'O\'n to\'rt Ma\'sum';
 
   @override
   String get quickActionListenDuas => 'Tingla';
@@ -1550,13 +1550,36 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia koinchilar an\'anaviy ravishda Payg\'ambar Muhammad (SAW) qabri Masjid al-Nabavida va Imamlar kabrlarida Jannat al-Baqi\'da ziyaratini amalga oshirish uchun Madinaga sayohat qiladilar. Bu ziyaratlar katta ruhiy ahamiyatga ega va aksariyat Shia musulmonlar uchun yo\'lning ajralmas qismidir.';
+      'Ko\'plab shia ziyoratchilari ham Payg\'ambar Muhammad (SAW) ning Masjid al-Nabawi da ziyorat qilish uchun Madinaga sayohat qilishadi va Jannat al-Baqida qabrlarni ziyorat qilishadi. Bu tashriflar chuqur ruhiy ahamiyatga ega, garchi ular Hajjning o\'zlari bo\'lmasa ham.';
 
   @override
   String get hajjIntro =>
-      'Hajj Islomning beshinchi ustuni bo\'lib, har bir shartli va moliyaviy qobiliy musulmon uchun umri davomida bir marta majburiy. Dhu al-Hijja oyida amalga oshiriladi, u Payg\'ambar Ibrohim (AS), uning o\'g\'li Ismail (AS) va Xonuma Hojarga oylar iz bo\'ylab boradi. Shia musulmonlar uchun Hajj Madinada Payg\'ambar (SAW) va Ahl al-Bayt to\'xtash joylarini ziyaratqilish muboroklarini ham o\'z ichiga oladi.';
+      'Hajj Islomning beshinchi ustuni bo\'lib, har bir musulmon uchun jismonan va moliyaviy jihatdan qodir bo\'lsa, bir marta bajarilishi shart. Bugungi kunda ko\'plab Twelver shia ziyoratchilari uchun bu Hajj al-Tamattu\' demakdir, bu esa Dhul Hijjah oyida Payg\'ambar Ibrohim (AS), uning o\'g\'li Ismoil (AS) va Sayyida Hojar izidan bajariladi. Ushbu qo\'llanma Ja\'fari marosimlari asosida tuzilgan, Madinada ziyorat esa Hajjdan oldin yoki keyin chuqur qadrlanadigan safar bo\'lib qoladi.';
 
   @override
   String get umrahIntro =>
       'Umrah Makkaga kichik ko\'rgan bo\'lib, Hajjdan farqli o\'laroq yil davomida istalgan vaqtda qilinishi mumkin. U majburiy bo\'lmasligi bilan, u katta ruhiy mukofot o\'z ichiga oladi va yoqtiring ibadat harakati hisoblanadi. U Hajj bilan bir nechta rituallari baham ko\'radiy lekin qisqaroq bo\'lib, to\'rtta asosiy riyaddan iborat.';
+
+  @override
+  String get voiceInputTitle => 'Ovozli Kirish';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Yozish o\'rniga Ayara\'ga so\'zlab murojaat qiling.';
+
+  @override
+  String get voiceInputMicDenied => 'Mikrofon kirishiga ruxsat berilmadi.';
+
+  @override
+  String get voiceInputSpeak => 'So\'zlab aytish';
+
+  @override
+  String get voiceInputListening => 'Eshtayotgan…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Ovozli kirish uchun mikrofon kirishiga ehtiyoj bor.';
 }

@@ -628,7 +628,7 @@ class AppLocalizationsSl extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERZ DNEVA';
 
   @override
-  String get dailyGraceSaintLabel => 'UČENJAK TEDNA';
+  String get dailyGraceSaintLabel => 'FIGURA TEDNA TEDNA';
 
   @override
   String get dailyGraceReflectionLabel => 'VEČERNI RAZMISLEK';
@@ -1266,7 +1266,7 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua za ponovno pojavo Imama al-Mahdīja (af), dvanajstega Imama, ki ga je pouči njegov oče. Recitirana dnevno od strani šiitskih vernih po vsaki moliti kot dejanje pobožnosti do živega Imama.';
+      'Dua za ponovni dolazak Imama al-Mahdī (af), dvanaestog Imama, koju je podučio njegov otac. Često je izgovaraju mnogi šiitski muslimani nakon molitve kao čin odanosti živom Imamu.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ Gospe Fāṭima';
@@ -1368,11 +1368,11 @@ class AppLocalizationsSl extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'Četrnaest neomrznutih';
 
   @override
   String get imamsScreenSubtitle =>
-      'Prerok, Gospa Fatima in dvanajst imamov — nezmotljive vodnike islama';
+      'Poslanik, gospođa Fatima i Dvanaest Imama — pročišćeni i neomrznuti vođe u dvanaestoj šiitskoj islamu';
 
   @override
   String get imamLabelBorn => 'Rojen';
@@ -1462,7 +1462,7 @@ class AppLocalizationsSl extends AppLocalizations {
   String get quickActionDailyHadith => 'Dnevni hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Četrnaest neomrznutih';
 
   @override
   String get quickActionListenDuas => 'Poslušaj';
@@ -1543,13 +1543,36 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Šiitski popotniki tradicionalno tudi potujejo v Medino, da obiščejo grobnico Preroka Muhammada (SAW) v Masjid al-Nabawi in grobove imamov v Jannat al-Baqi. Ti obisk imajo ogromno duhovno pomen in veljajo za sestavni del potovanja za večino šiitskih muslimanov.';
+      'Mnogi šiitski hodočasnici takođe putuju u Medinu radi ziyarat Poslanika Muhammeda (SAW) u Masjid al-Nabawi i grobova u Džennetu al-Baqi. Ove posete nose duboko duhovno značenje, iako same po sebi nisu obredi Hadža.';
 
   @override
   String get hajjIntro =>
-      'Hadž je peti steber islama, obvezen enkrat v življenju za vsakega muslimana, ki je fizično in finančno zmožen. Opravljen v mesecu Dhul Hijji, ponovno sledi korake Preroka Ibrahima (AS), njegovega sina Ismaila (AS) in Gospe Hadžar. Za šiitske muslimane vključuje Hadž tudi blagoslov obiska počivališč Preroka (SAW) in Ahlul Bayta v Medini.';
+      'Hadž je peti stub Islama, obavezan jednom u životu za svakog muslimana koji je fizički i finansijski sposoban. Za većinu dvanaestih šiitskih hodočasnika danas, to znači Hadž al-Tamattu\', koji se obavlja u mesecu Dhul Hijjah u stopama Poslanika Ibrahima (AS), njegovog sina Ismaila (AS) i gospođe Hajar. Ovaj vodič prati Džafari okvir obreda, dok ziyarat u Medini ostaje duboko cenjeno putovanje pre ili posle Hadža.';
 
   @override
   String get umrahIntro =>
       'Omerah je manjše romanje v Meko in, za razliko od Hadža, se lahko opravlja kadarkoli v letu. Čeprav ni obvezna, nosi ogromno duhovno nagrado in velja za zelo priporočljivo dejanje vdanosti. Deli več oberedov s Hadžom, a je krajša in je sestavljena iz štirih glavnih objedov.';
+
+  @override
+  String get voiceInputTitle => 'Glasovni vnos';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Povejte svoj vnos Ask Ayara namesto tipkanja.';
+
+  @override
+  String get voiceInputMicDenied => 'Dostop do mikrofona je bil zavrnjen.';
+
+  @override
+  String get voiceInputSpeak => 'Govori namesto';
+
+  @override
+  String get voiceInputListening => 'Poslušam…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Dostop do mikrofona je potreben za glasovni vnos.';
 }

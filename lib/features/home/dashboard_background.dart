@@ -142,10 +142,16 @@ class StarfieldWidget extends StatefulWidget {
 
 class _StarfieldWidgetState extends State<StarfieldWidget>
     with SingleTickerProviderStateMixin {
+  // One-second looping controller used purely as a frame ticker.
   late final AnimationController _ctrl = AnimationController(
     vsync: this,
-    duration: const Duration(seconds: 120),
+    duration: const Duration(seconds: 1),
   )..repeat();
+
+  // Monotonically increasing elapsed seconds — never resets, so the sine-based
+  // twinkle never jumps discontinuously at a loop boundary.
+  double _elapsed = 0;
+  double _prevValue = 0;
 
   late final List<_Star> _stars;
 
@@ -174,10 +180,21 @@ class _StarfieldWidgetState extends State<StarfieldWidget>
         color: color,
       );
     });
+    _ctrl.addListener(_onTick);
+  }
+
+  void _onTick() {
+    final v = _ctrl.value;
+    // When the controller loops, v wraps from ~1.0 back to ~0.0 (negative delta).
+    // Add 1.0 in that case to keep the accumulation smooth.
+    final delta = v >= _prevValue ? v - _prevValue : 1.0 - _prevValue + v;
+    _elapsed += delta;
+    _prevValue = v;
   }
 
   @override
   void dispose() {
+    _ctrl.removeListener(_onTick);
     _ctrl.dispose();
     super.dispose();
   }
@@ -189,7 +206,7 @@ class _StarfieldWidgetState extends State<StarfieldWidget>
         animation: _ctrl,
         builder: (_, child) => CustomPaint(
           painter: _StarfieldPainter(
-            time: _ctrl.value * 120.0,
+            time: _elapsed,
             stars: _stars,
           ),
           size: Size.infinite,

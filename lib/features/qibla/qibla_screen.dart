@@ -447,7 +447,7 @@ class _FeatureLock extends StatelessWidget {
 
         if (isPremium) return child;
 
-        final t = AppLocalizations.of(context)!;
+        final t = AppLocalizations.of(context);
 
         return Stack(
           children: [

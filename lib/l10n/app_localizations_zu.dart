@@ -629,7 +629,7 @@ class AppLocalizationsZu extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'AYATHI YENSUKU';
 
   @override
-  String get dailyGraceSaintLabel => 'UZAZI YESHUMI LELI';
+  String get dailyGraceSaintLabel => 'ISITHOMBE SESONTO';
 
   @override
   String get dailyGraceReflectionLabel => 'ISIKALI YESIKUSENI';
@@ -1274,7 +1274,7 @@ class AppLocalizationsZu extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Idua yokubuya kwe-Imam al-Mahdī (af), u-Imam oweshumi nalambili, oqondiswe nguBaba wakhe. Izingiswa yensuku nje abalifuthe be-Shia emva kokukhuleka ngayinye njengomsebenzi wokukholo ku-Imam ophilayo.';
+      'Umkhuleko wokubuyiselwa kuka-Imam al-Mahdī (af), u-Imam wesithathu, ofundiswe uyise. Uvame ukufundwa ngamaShia amaningi ngemva kokukhuleka njengesenzo sokuzinikela ku-Imam ophilayo.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ weNtombazane Fāṭima';
@@ -1376,11 +1376,11 @@ class AppLocalizationsZu extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Abantu Abangama-14 Abasebenza';
+  String get imamsScreenTitle => 'Abangcwele Abane';
 
   @override
   String get imamsScreenSubtitle =>
-      'UmProfethe, uNtombazane Fatima, kanye nabamakugoba abayi-12 — abaqondisi abalinganiselwe bolwelaphezulu';
+      'UProfethi, uNkosikazi uFatima, kanye noMawlana Abashumi - abaholi abahlanzekile nabangaphumeleli ku-Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Izalwa';
@@ -1470,7 +1470,7 @@ class AppLocalizationsZu extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith Yensuku';
 
   @override
-  String get quickAction14Masumeen => 'Abantu Abangama-14';
+  String get quickAction14Masumeen => 'Abangcwele Abane';
 
   @override
   String get quickActionListenDuas => 'Lalela';
@@ -1552,13 +1552,36 @@ class AppLocalizationsZu extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Abahambi be-Shia ngokuvamile nawo baya kuMedina ukuvakasha um-thapelo weProfethe Muhammad (SAW) ku-Masjid al-Nabawi, kanye nemikhiwa yamakugoba ezinhlanganini ekunanele nokuzikhumbula nokukhumbula okubalulekile nokuthwala okushwele. Okubalulekile kulamuntu abani-Shia.';
+      'Abahambi abaningi beShia baphinde bahambe baye eMedina ukuze bavakashele uProfethi uMuhammad (SAW) eMasjid al-Nabawi nasezindlini eJannat al-Baqi. Lezi zivakashi zinegugu elijulile lokomoya, nakuba zingezona izinkonzo zeHajj.';
 
   @override
   String get hajjIntro =>
-      'I-Hajj i-sithako sesine solwelaphezulu, isifunelo okukodwa ebungwaneni kumuntu onolwazi kanye nayo-muski. Okwenziwe enyangeni ye-Dhul Hijjah, okulandelela kwenyawo yeProfethe Ibrahim (AS), umfo naye Ismail (AS), kanye neNtombazane Hajar. Kulamuntu be-Shia, i-Hajj nawo ihlanganisa okukudumela okukude nokuvakasha iindawo zokutsela zeProfethe (SAW) namalunga e-Ahlul Bayt kuMedina.';
+      'IHajj iyisigaba sesihlanu se-Islam, esibophezela kube yinto eyodwa empilweni yomMuslim ngamunye okwazi ngokomzimba nangokwezimali. Kubahambi abaningi beShia beTwelver namuhla, lokhu kusho iHajj al-Tamattu\', eyenziwa ngenyanga yeDhul Hijjah ezinyathelweni zikaProfethi u-Ibrahim (AS), indodana yakhe uIsmail (AS), kanye noNkosikazi uHajar. Le mhlahlandlela ilandela umgomo weJa\'fari wezinkonzo, kanti i-ziyarat eMedina ihlala iyihambo eyigugu ngaphambi noma ngemuva kweHajj.';
 
   @override
   String get umrahIntro =>
       'I-Umrah iyuhambo oluncane lokuthwala kuMakkah futhi, ngaphandle kwe-Hajj, ingakwazi okuqaliswa nange ikuphi isikhathi senqobo. Ngenkathi akusekho isifunelo, ibazifo okungeziwe okukudumele futhi okuthwele isandla solwelaphezulu. Ibahlukanisa imiqulu embalwa ne-Hajj kodwa kunqoba, ibazifo ezine eziyinhloko.';
+
+  @override
+  String get voiceInputTitle => 'Ukufaka Ngomsindo';
+
+  @override
+  String get voiceInputMicTitle => 'Imakrofoni';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Khuluma ukufaka kwakho ku-Ask Ayara esikhundleni sokubhala.';
+
+  @override
+  String get voiceInputMicDenied => 'Ukufinyelela imakrofoni kwavinjwa.';
+
+  @override
+  String get voiceInputSpeak => 'Khuluma esikhundleni';
+
+  @override
+  String get voiceInputListening => 'Listening…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Ukufinyelela imakrofoni kuyadingeka ukuze kufakwe ngomsindo.';
 }

@@ -631,7 +631,7 @@ class AppLocalizationsFil extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERSE NG ARAW';
 
   @override
-  String get dailyGraceSaintLabel => 'ISKOLAR NG LINGGO';
+  String get dailyGraceSaintLabel => 'FIGURA NG LINGGO';
 
   @override
   String get dailyGraceReflectionLabel => 'GABI NA PAG-ISIP';
@@ -1282,7 +1282,7 @@ class AppLocalizationsFil extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Isang dua para sa muling paglilitaw ng Imam al-Mahdī (af), ang ikalabindalawang Imam, itinuro ng kanyang ama. Sinasalin araw-araw ng Shia faithful pagkatapos ng bawat panalangin bilang isang gawain ng dedikasyon sa nabubuhay na Imam.';
+      'Isang dua para sa muling paglitaw ni Imam al-Mahdī (af), ang ikalabindalawang Imam, na itinuro ng kanyang ama. Madalas itong binibigkas ng maraming Shia Muslim pagkatapos ng dasal bilang isang gawa ng debosyon sa buhay na Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ ng Lady Fāṭima';
@@ -1384,11 +1384,11 @@ class AppLocalizationsFil extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Ang 14 Masumeen';
+  String get imamsScreenTitle => 'Ang Labindalawang Walang Kamalian';
 
   @override
   String get imamsScreenSubtitle =>
-      'Ang Propeta, Lady Fatima, at ang Labindalawang Imam — ang mga walang kapintasang gabay ng Islam';
+      'Ang Propeta, Ginang Fatima, at ang Labindalawang Imam — ang mga nilinis at walang kamalian na gabay sa Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Ipinanganak';
@@ -1478,7 +1478,7 @@ class AppLocalizationsFil extends AppLocalizations {
   String get quickActionDailyHadith => 'Pang-araw-araw na Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Labindalawang Walang Kamalian';
 
   @override
   String get quickActionListenDuas => 'Makinig';
@@ -1560,13 +1560,36 @@ class AppLocalizationsFil extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Ang mga pilgrim ng Shia ay tradisyonal na pumupunta din sa Medina upang bisitahin ang libingan ng Propeta Muhammad (SAW) sa Masjid al-Nabawi, at ang mga libingan ng mga Imam sa Jannat al-Baqi. Ang mga bisitang ito ay may malaking espiritual na kahulugan at itinuturing na isang integral na bahagi ng paglalakbay para sa karamihan ng mga Muslim ng Shia.';
+      'Maraming Shia na naglalakbay ang pumupunta rin sa Medina para sa ziyarat ng Propeta Muhammad (SAW) sa Masjid al-Nabawi at ang mga libingan sa Jannat al-Baqi. Ang mga pagbisitang ito ay may malalim na espiritwal na kahulugan, kahit na hindi sila mga ritwal ng Hajj.';
 
   @override
   String get hajjIntro =>
-      'Ang Hajj ay ang ikalimang haligi ng Islam, obligatory sa isang beses sa buhay para sa bawat Muslim na may kakayahang pisikal at pinansiyal. Isinagawa sa buwan ng Dhul Hijjah, ito ay sumusunod sa mga yapak ng Propeta Ibrahim (AS), ang kanyang anak na si Ismail (AS), at Lady Hajar. Para sa mga Muslim ng Shia, ang Hajj ay nagsasama rin ng malalim na pagpapagana ng pagbisita sa mga lugar ng pahinga ng Propeta (SAW) at ng Ahlul Bayt sa Medina.';
+      'Ang Hajj ay ang ikalimang haligi ng Islam, na obligadong isagawa isang beses sa buhay para sa bawat Muslim na pisikal at pinansyal na kayang gawin ito. Para sa karamihan ng mga Shia na naglalakbay ngayon, ito ay nangangahulugang Hajj al-Tamattu\', na isinasagawa sa buwan ng Dhul Hijjah sa mga yapak ni Propeta Ibrahim (AS), ang kanyang anak na si Ismail (AS), at Ginang Hajar. Ang gabay na ito ay sumusunod sa balangkas ng mga ritwal ng Ja\'fari, habang ang ziyarat sa Medina ay nananatiling isang labis na pinahahalagahang paglalakbay bago o pagkatapos ng Hajj.';
 
   @override
   String get umrahIntro =>
       'Ang Umrah ay ang mas maliit na pilgrimage sa Mecca at, hindi katulad ng Hajj, ay maaaring isagawa sa anumang oras ng taon. Habang hindi obligatory, ito ay may malaking espiritual na gantimpala at itinuturing na isang lubhang inirerekomendang gawain ng pagsisimba. Ito ay nagbabahagi ng maraming ritwal sa Hajj ngunit ay mas maikli, na binubuo ng apat na pangunahing ritwal.';
+
+  @override
+  String get voiceInputTitle => 'Boses na Input';
+
+  @override
+  String get voiceInputMicTitle => 'Mikropono';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Sabihin ang iyong input sa Ask Ayara sa halip na mag-type.';
+
+  @override
+  String get voiceInputMicDenied => 'Tinanggihan ang access sa mikropono.';
+
+  @override
+  String get voiceInputSpeak => 'Magsalita na lang';
+
+  @override
+  String get voiceInputListening => 'Nakikinig…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Kailangan ang access sa mikropono para sa boses na input.';
 }

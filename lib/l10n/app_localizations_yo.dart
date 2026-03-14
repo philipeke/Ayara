@@ -624,7 +624,7 @@ class AppLocalizationsYo extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'ÀRÌN ỌJỌ́';
 
   @override
-  String get dailyGraceSaintLabel => 'ÈKÓ ỌṢẸ́';
+  String get dailyGraceSaintLabel => 'ẸNI TÓ WÀ LỌ́WỌ́ Ọ̀SẸ̀';
 
   @override
   String get dailyGraceReflectionLabel => 'ÌRÒYÌN ÀALẸ̀';
@@ -1260,7 +1260,7 @@ class AppLocalizationsYo extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Àdúrà f\'ọ́ ìpadàníìdára Imam al-Mahdī (af), Imam mẹ́rìndínlógún, kúkú nípa bàbá rẹ. A gbé ọjọ́ kọ̀ọ̀kan nípa àwọn ọ̀ràn Shia lẹ́yìn àdúrà kọ̀ọ̀kan gẹ́gẹ́ iṣẹ́ ìfẹ́ sí Imam tí ó wà.';
+      'Dua kan fun ìpadà wá ti Imam al-Mahdī (af), Imam kẹtàlá, tí baba rẹ kọ́. A máa ń ka a lẹ́yìn àdúrà gẹ́gẹ́ bí ìṣe ìbáṣepọ̀ pẹ̀lú Imam tó wà láàyè.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ ti Lady Fāṭima';
@@ -1362,11 +1362,11 @@ class AppLocalizationsYo extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Àwọn Masumeen 14';
+  String get imamsScreenTitle => 'Àwọn Mímọ́ Mẹ́tàlá';
 
   @override
   String get imamsScreenSubtitle =>
-      'Prophet, Lady Fatima, àti Àwọn Imam Mẹ́rìndínlógún — àwọn olùtọ́sọ́ tí ó ní òòfin ti Islam';
+      'Àwọn Wòlíì, Iya Fatima, àti Àwọn Imam Mẹ́tàlá — àwọn olùkó tó mọ́ àti tó péye nínú Ẹ̀sìn Shia Mẹ́tàlá';
 
   @override
   String get imamLabelBorn => 'Ìbí';
@@ -1455,7 +1455,7 @@ class AppLocalizationsYo extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith Ọjọ́';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Àwọn Mímọ́ Mẹ́tàlá';
 
   @override
   String get quickActionListenDuas => 'Tẹ́';
@@ -1536,13 +1536,35 @@ class AppLocalizationsYo extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Àwọn ìrìnajò Shia a loò nípa Medina láti kó ilé isinmi Prophet Muhammad (SAW) ní Masjid al-Nabawi, àti ìbòòrọ̀ àwọn Imam ní Jannat al-Baqi. Àwọn yèn ní ìtumọ̀ àìmọ̀ tó pọ̀ àti a gbẹ́ gẹ́ ìpín tí a dúro púpọ̀ fún àwọn ọ̀ràn Shia.';
+      'Ọ̀pọ̀ àwọn pèlerin Shia tún ń lọ sí Medina fún ziyarat ti Wòlíì Muhammad (SAW) ní Masjid al-Nabawi àti àwọn ibè ní Jannat al-Baqi. Àwọn ìbẹ̀wò yìí ní ìtàn àtàwọn ẹ̀sìn tó jinlẹ̀, bí ó tilẹ̀ jẹ́ pé wọn kì í ṣe àwọn àṣà Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj jẹ́ ìtó ìbátan ti Islam, ìyẹ̀n ní àkókò ọmọ̀ Muslim tí ó ní agbára àti àwọn owó. A gbé nínú ọ̀ṣù Dhul Hijjah, ó tẹ́ ẹkọ́ ti Prophet Ibrahim (AS), ọmọ rẹ Ismail (AS), àti Lady Hajar. Fún àwọn ọ̀ràn Shia, Hajj tún gba ibadandun èyin ìrìnajò sí ibòòrọ̀ ti Prophet (SAW) àti Ahlul Bayt ní Medina.';
+      'Hajj ni ìpìlẹ̀ karùn-ún ti Islam, tó jẹ́ dandan lẹ́kan nínú ayé fún gbogbo Musulumi tó ní agbára ara àti owó. Fún ọ̀pọ̀ àwọn pèlerin Shia Mẹ́tàlá lónìí, èyí túmọ̀ sí Hajj al-Tamattu\', tí a ṣe ní oṣù Dhul Hijjah ní ẹsẹ̀ Wòlíì Ibrahim (AS), ọmọ rẹ Ismail (AS), àti Iya Hajar. Itọsọna yìí tẹ̀lé àtẹ̀jáde Ja\'fari ti àwọn àṣà, nígbà tí ziyarat ní Medina jẹ́ ìrìn àjò tó ní ìtàn àtàwọn ẹ̀sìn tó péye ṣáájú tàbí lẹ́yìn Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah jẹ́ ìrìnajò kékeré sí Mecca àti, ìkoko Hajj, lè ṣe ní àkókò ìgbà yòó ẹ̀ kan. Tíkìí ó jẹ́ ìyẹ̀n, ó gba àwọn gajere tó pọ̀ àti a gba. Ó dà pẹ̀lú Hajj ní ìpín díẹ̀ ṣùgbọ́n ó kú túmo, tí ó ní àwọn èrù ìmọ̀ mérin.';
+
+  @override
+  String get voiceInputTitle => 'Ibi Gbọ́rọ̀';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofóònù';
+
+  @override
+  String get voiceInputMicSubtitle => 'Sọ ìbáṣepọ rẹ sí Ask Ayara dipo kikọ.';
+
+  @override
+  String get voiceInputMicDenied => 'A kọ́ ìwọle mikrofóònù.';
+
+  @override
+  String get voiceInputSpeak => 'Sọ dipo';
+
+  @override
+  String get voiceInputListening => 'Ń gbọ́…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Ìwọle mikrofóònù jẹ́ dandan fún ìbáṣepọ gbórọ̀.';
 }

@@ -630,7 +630,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'AYAT HARI INI';
 
   @override
-  String get dailyGraceSaintLabel => 'ULAMA MINGGU INI';
+  String get dailyGraceSaintLabel => 'FIGURE OF THE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'RENUNGAN PETANG';
@@ -1272,7 +1272,7 @@ class AppLocalizationsMy extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Doa untuk kemunculan semula Imam al-Mahdī (af), Imam yang kedua belas, yang diajarkan oleh ayahandanya. Dibaca setiap hari oleh umat Syiah selepas setiap solat sebagai tanda pengabdian kepada Imam yang hidup.';
+      'Dua untuk kemunculan Imam al-Mahdī (af), Imam kedua belas, yang diajarkan oleh ayahnya. Ia sering dibaca oleh banyak Muslim Syiah setelah solat sebagai tindakan pengabdian kepada Imam yang hidup.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbih Sayyidah Fāṭimah';
@@ -1374,11 +1374,11 @@ class AppLocalizationsMy extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'Empat Belas Ma\'sum';
 
   @override
   String get imamsScreenSubtitle =>
-      'Nabi, Sayyidah Fatimah, dan Dua Belas Imam — pembimbing Islam yang maksum';
+      'Nabi, Lady Fatima, dan Dua Belas Imam — panduan yang suci dan maksum dalam Islam Syiah Dua Belas';
 
   @override
   String get imamLabelBorn => 'Lahir';
@@ -1468,7 +1468,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadis Harian';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Empat Belas Ma\'sum';
 
   @override
   String get quickActionListenDuas => 'Dengar';
@@ -1549,13 +1549,36 @@ class AppLocalizationsMy extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Jemaah Syiah secara tradisi juga akan pergi ke Madinah untuk menziarahi makam Nabi Muhammad ﷺ di Masjid al-Nabawi, dan makam para Imam di Jannat al-Baqi. Ziarah ini mempunyai makna rohani yang sangat besar dan dianggap sebagai bahagian penting dalam perjalanan bagi kebanyakan Muslim Syiah.';
+      'Banyak peziarah Syiah juga melakukan perjalanan ke Madinah untuk ziyarat Nabi Muhammad (SAW) di Masjid al-Nabawi dan makam di Jannat al-Baqi. Kunjungan ini memiliki makna spiritual yang mendalam, meskipun mereka bukanlah ritus Haji itu sendiri.';
 
   @override
   String get hajjIntro =>
-      'Haji ialah rukun Islam kelima, wajib sekali seumur hidup bagi setiap Muslim yang mampu dari segi fizikal dan kewangan. Ia dilakukan pada bulan Zulhijjah dan menelusuri jejak Nabi Ibrahim (AS), puteranya Ismail (AS), dan Sayyidah Hajar. Bagi Muslim Syiah, Haji juga merangkumi keberkatan besar menziarahi tempat persemadian Nabi ﷺ dan Ahlul Bayt di Madinah.';
+      'Haji adalah rukun Islam yang kelima, wajib dilakukan sekali seumur hidup bagi setiap Muslim yang mampu secara fizikal dan kewangan. Bagi kebanyakan peziarah Syiah Dua Belas hari ini, ini bermakna Haji al-Tamattu\', yang dilakukan pada bulan Dhul Hijjah mengikuti jejak Nabi Ibrahim (AS), anaknya Ismail (AS), dan Lady Hajar. Panduan ini mengikuti garis besar Ja\'fari bagi ritus, sementara ziyarat di Madinah tetap menjadi perjalanan yang sangat dihargai sebelum atau selepas Haji.';
 
   @override
   String get umrahIntro =>
       'Umrah ialah ziarah kecil ke Mekah dan, tidak seperti Haji, ia boleh dilakukan pada bila-bila masa sepanjang tahun. Walaupun tidak wajib, ia membawa ganjaran rohani yang besar dan dianggap sebagai ibadah yang sangat digalakkan. Ia berkongsi beberapa ritual dengan Haji tetapi lebih singkat, terdiri daripada empat amalan utama.';
+
+  @override
+  String get voiceInputTitle => 'အသံထွက်';
+
+  @override
+  String get voiceInputMicTitle => 'မိုက်ခရိုဖုန်း';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'ရိုက်ထည့်ရန်အစား Ask Ayara သို့ အသံပြောပါ။';
+
+  @override
+  String get voiceInputMicDenied => 'မိုက်ခရိုဖုန်းဝင်ခွင့်ကို ပယ်ဖျက်ခဲ့သည်။';
+
+  @override
+  String get voiceInputSpeak => 'အသံပြောပါ';
+
+  @override
+  String get voiceInputListening => 'နားထောင်နေသည်…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'အသံထွက်အတွက် မိုက်ခရိုဖုန်းဝင်ခွင့်လိုအပ်သည်။';
 }

@@ -4,7 +4,7 @@
  *
  * Seeds Firestore with all religious content:
  *   - content_hadiths   (35 hadiths)
- *   - content_imams     (14 Masumeen profiles)
+ *   - content_imams     (Fourteen Infallibles profiles)
  *   - content_duas      (9 duas with sections)
  *
  * Usage (from repo root):
@@ -44,7 +44,7 @@ const hadiths = [
     order: 1,
     arabic: 'إِنِّي تَارِكٌ فِيكُمُ الثَّقَلَيْنِ: كِتَابَ اللهِ وَعِتْرَتِي أَهْلَ بَيْتِي',
     translations: {
-      en: 'I am leaving among you two weighty things: the Book of Allah and my Ahlul Bayt. They will never separate until they meet me at the Pond of Kawthar.',
+      en: 'I am leaving among you two weighty things: the Book of Allah and my Ahl al-Bayt. They will never separate until they meet me at the Pond of Kawthar.',
     },
     source: 'Hadith al-Thaqalayn',
     imam: 'Prophet Muhammad (SAW)',
@@ -286,7 +286,7 @@ const hadiths = [
     order: 23,
     arabic: 'جَعَلَ اللهُ الإِيمَانَ تَطْهِيراً مِنَ الشِّرْكِ وَالصَّلاةَ تَنْزِيهاً عَنِ الكِبْرِ',
     translations: {
-      en: 'Allah has made faith a purification from polytheism, prayer a purification from pride, and zakat a purification of the soul and wealth.',
+      en: 'Allah has made faith a purification from polytheism, and prayer a cleansing from arrogance.',
     },
     source: 'Khutbat Fadak',
     imam: 'Lady Fatima Zahra (SA)',
@@ -374,7 +374,7 @@ const hadiths = [
     order: 31,
     arabic: 'قِيمَةُ كُلِّ امْرِئٍ مَا يُحْسِنُهُ',
     translations: {
-      en: 'The worth of every person lies in what he does well. Invest in what you master and offer it to the world.',
+      en: 'A person\'s worth lies in what he does well.',
     },
     source: 'Nahj al-Balagha',
     imam: 'Imam Ali ibn Abi Talib (AS)',
@@ -396,7 +396,7 @@ const hadiths = [
     order: 33,
     arabic: 'إِنَّ أَحَبَّكُمْ إِلَى اللهِ أَحْسَنُكُمْ أَخْلاقاً',
     translations: {
-      en: 'The most beloved of you to Allah is the one with the finest character — gentle in speech, patient in trials, and generous in giving.',
+      en: 'The most beloved of you to Allah is the one with the best character.',
     },
     source: 'Bihar al-Anwar',
     imam: 'Prophet Muhammad (SAW)',
@@ -458,7 +458,7 @@ const imams = [
         biography:
           "The final messenger of Allah, sent as a mercy to all of creation. Born in Mecca into the noble tribe of Quraysh, he received the first revelation at age 40. Over 23 years he conveyed the Quran, established the Islamic community, and demonstrated through his Sunnah the complete way of life. His declaration at Ghadir Khumm of Imam Ali's succession is a cornerstone of Shia belief.",
         famousQuote:
-          'I am leaving among you two weighty things: the Book of Allah and my Ahlul Bayt. They shall not separate until they meet me at the Pond.',
+          'I am leaving among you two weighty things: the Book of Allah and my Ahl al-Bayt. They shall not separate until they meet me at the Pond of Kawthar.',
       },
     },
     famousQuoteAr: 'إِنِّي تَارِكٌ فِيكُمُ الثَّقَلَيْنِ: كِتَابَ اللهِ وَعِتْرَتِي أَهْلَ بَيْتِي',
@@ -479,9 +479,9 @@ const imams = [
     translations: {
       en: {
         biography:
-          'The beloved daughter of Prophet Muhammad (SAW) and Sayyida Khadijah (SA), wife of Imam Ali (AS), and mother of Imams Hasan and Husayn (AS). She is one of the 14 Masumeen and holds the highest station among women in Islam. Her Fadak Sermon is a landmark defense of divine justice and Imamate. She passed away shortly after her father, her grief unending.',
+          'The beloved daughter of Prophet Muhammad (SAW) and Sayyida Khadijah (SA), wife of Imam Ali (AS), and mother of Imams Hasan and Husayn (AS). She is among the Fourteen Infallibles and holds the highest station among women in Islam. Her Fadak Sermon is a landmark defense of divine justice and Imamate. She passed away shortly after her father.',
         famousQuote:
-          'Allah has made faith a purification from polytheism, prayer a purification from pride, and zakat a purification of the soul.',
+          'Allah has made faith a purification from polytheism, and prayer a cleansing from arrogance.',
       },
     },
     famousQuoteAr: 'جَعَلَ اللهُ الإِيمَانَ تَطْهِيراً مِنَ الشِّرْكِ وَالصَّلاةَ تَنْزِيهاً عَنِ الكِبْرِ',
@@ -524,7 +524,7 @@ const imams = [
     translations: {
       en: {
         biography:
-          'The second Imam and elder grandson of the Prophet, praised in many hadiths alongside Imam Husayn as the leaders of the youth of Paradise. Renowned for his immense generosity and forbearance, he signed a peace treaty with Muawiyah to preserve Islam and protect the Muslim community. He was martyred by poison arranged by Muawiyah, dying in Madinah.',
+          'The second Imam and elder grandson of the Prophet, praised in many hadiths alongside Imam Husayn as the leaders of the youth of Paradise. Renowned for his immense generosity and forbearance, he signed a peace treaty with Muawiyah to preserve Islam and protect the Muslim community. According to well-known Shia reports, he was martyred by poison in Madinah.',
         famousQuote:
           "Whoever places his trust in the excellence of Allah's choice will not wish to be in any state other than the one Allah has chosen for him.",
       },
@@ -570,7 +570,7 @@ const imams = [
     translations: {
       en: {
         biography:
-          "The fourth Imam, sole surviving son of Imam Husayn after Karbala. He preserved the message of Karbala through his sermons after being taken captive to Damascus. His spiritual legacy is the Sahifa al-Sajjadiyya, a book of sublime supplications often called \"the Psalms of the Ahlul Bayt.\" He was known for his extraordinary depth of worship and compassion for the poor.",
+          "The fourth Imam, sole surviving son of Imam Husayn after Karbala. He preserved the message of Karbala through his sermons after being taken captive to Damascus. His spiritual legacy is the Sahifa al-Sajjadiyya, a book of sublime supplications often called \"the Psalms of Islam.\" He was known for his extraordinary depth of worship and compassion for the poor.",
         famousQuote: 'Worship Allah as though you see Him; for even if you cannot see Him, He surely sees you.',
       },
     },
@@ -615,7 +615,7 @@ const imams = [
     translations: {
       en: {
         biography:
-          "The sixth Imam and one of the most prolific teachers in Islamic history, with over 4,000 students including Abu Hanifa and Malik ibn Anas. He codified Shia jurisprudence (Fiqh al-Ja'fari) and made immense contributions to philosophy, chemistry, astronomy, and theology. The Ja'fari school of Islamic law is named after him. He was martyred by poison under the Abbasid caliph al-Mansur.",
+          "The sixth Imam and a central teacher of the Ja'fari school whose circle of learning shaped Islamic law, theology, ethics, and the intellectual sciences. The Ja'fari school of Islamic law is named after him. He was martyred by poison under the Abbasid caliph al-Mansur.",
         famousQuote: 'Guard your tongue as you guard your gold and silver, for many have been destroyed by a careless word.',
       },
     },
@@ -787,7 +787,7 @@ const duas = [
         arabic: '',
         transliteration: '',
         translation:
-          'The Holy Prophet (SAW) taught this dhikr to his beloved daughter Fatima al-Zahra (SA) when she asked for a servant to ease her household burdens. He told her: "This tasbih is better for you than a servant, better than the world and all that is in it." Imam al-Sadiq (AS) said that reciting it before sleep is more beloved to him than a thousand rak\'at of prayer. Begin with Allāhu Akbar (34 times), then Alḥamdulillāh (33 times), then Subḥānallāh (33 times). This is the order established by Imam al-Baqir (AS) and confirmed by all Shia scholars.',
+          'The Holy Prophet (SAW) taught this dhikr to his beloved daughter Fatima al-Zahra (SA) when she asked for a servant to ease her household burdens. He told her: "This tasbih is better for you than a servant." Imam al-Sadiq (AS) said that reciting it before sleep is more beloved to him than a thousand rak\'at of prayer. The well-known order in Twelver Shia practice is Allāhu Akbar (34 times), then Alḥamdulillāh (33 times), then Subḥānallāh (33 times).',
       },
     ],
   },
@@ -907,8 +907,8 @@ const duas = [
     nameAr: 'دعاء التوسل',
     category: 'occasions',
     recommendedTime: 'When seeking help, in times of difficulty or need',
-    taughtBy: 'Transmitted through the tradition of the Ahlul Bayt (AS)',
-    shortDesc: 'Seeking intercession through the Prophet (SAW) and all 14 Masumeen',
+    taughtBy: 'Transmitted through the tradition of the Ahl al-Bayt (AS)',
+    shortDesc: 'Seeking intercession through the Prophet (SAW) and the Fourteen Infallibles',
     hasAiExplain: true,
     isTasbih: false,
     sections: [
@@ -1249,15 +1249,15 @@ const roleModels = [
   { id: 'rm_44', order: 44, text: "Sheikh al-Tusi (RA) — Shaykh al-Ta'ifa, the foundational Shia scholar whose works in fiqh, hadith, and theology remain authoritative to this day" },
   { id: 'rm_45', order: 45, text: "Shahid al-Awwal — Muhammad ibn Makki al-Amili (RA), the First Martyr of Shia jurisprudence, whose al-Lum'ah al-Dimashqiyyah remains a cornerstone of Shia fiqh" },
   { id: 'rm_46', order: 46, text: "Allamah Tabataba'i (RA) — the great 20th century Shia philosopher and author of al-Mizan, the monumental Quranic exegesis of the modern era" },
-  { id: 'rm_47', order: 47, text: 'Imam Khomeini (RA) — reviver of Shia political thought in the modern age, who led the Islamic Revolution and championed the authority of the Quran and the Ahl al-Bayt' },
+  { id: 'rm_47', order: 47, text: 'Shaykh al-Kulayni (RA) — the great Shia hadith scholar who compiled al-Kafi and preserved the transmitted wisdom of the Ahl al-Bayt' },
   { id: 'rm_48', order: 48, text: 'Shahid Mutahhari (RA) — 20th century Shia scholar and martyr, whose writings on Islamic philosophy, ethics, and society continue to guide millions' },
   { id: 'rm_49', order: 49, text: 'Sayyid Muhammad Baqir al-Sadr (RA) — visionary Shia scholar and martyr, whose works in Islamic economics and philosophy broke new intellectual ground' },
   { id: 'rm_50', order: 50, text: 'Umm Salamah (RA) — noble wife of the Prophet ﷺ, deeply devoted to the Ahl al-Bayt, who narrated many hadith and was a pillar of wisdom in the early community' },
   { id: 'rm_51', order: 51, text: 'Abdullah ibn Abbas (RA) — cousin of the Prophet ﷺ, ocean of knowledge in Quranic exegesis, who remained close to Imam Ali (AS)' },
   { id: 'rm_52', order: 52, text: 'Muadh ibn Jabal (RA) — companion of the Prophet ﷺ renowned for his knowledge of halal and haram, and his deep devotion to learning' },
   { id: 'rm_53', order: 53, text: 'Musab ibn Umayr (RA) — the first ambassador of Islam, who sacrificed wealth and family for the truth of the faith' },
-  { id: 'rm_54', order: 54, text: "Umar ibn Abd al-Aziz (RH) — Umayyad caliph who sought to restore justice, lifted the cursing of Imam Ali (AS) from the pulpits, and is remembered for his piety" },
-  { id: 'rm_55', order: 55, text: 'Fakhr al-Din al-Razi (RH) — great Islamic scholar and Quranic exegete whose Mafatih al-Ghayb engaged deeply with theology and philosophy' },
+  { id: 'rm_54', order: 54, text: 'Sayyid Ibn Tawus (RA) — the great Shia scholar of devotion, ziyarat, and prayer whose works nourished centuries of worship' },
+  { id: 'rm_55', order: 55, text: 'Mulla Sadra (RA) — the major Shia philosopher whose synthesis of reason, scripture, and spiritual insight shaped later Islamic thought' },
   { id: 'rm_56', order: 56, text: 'Ibn Sina — Abu Ali al-Husayn ibn Sina (RH), the great Islamic philosopher and physician of Persian heritage whose Canon of Medicine shaped world science' },
   { id: 'rm_57', order: 57, text: 'Al-Biruni (RH) — the brilliant polymath of the Islamic Golden Age, a Persian scholar who advanced mathematics, astronomy, and the study of cultures' },
   { id: 'rm_58', order: 58, text: 'Ibn Khaldun (RH) — the great North African Islamic historian and social thinker, founder of the philosophy of history and sociology' },
@@ -1368,16 +1368,16 @@ const hajjSteps = [
     }},
   },
   {
-    id: 'hajj_02', order: 2, type: 'hajj', arabic: 'طواف القدوم',
-    location: 'Masjid al-Haram, Mecca', dayLabel: 'Day 1 — 8th Dhul Hijjah', readTimeMin: 3,
+    id: 'hajj_02', order: 2, type: 'hajj', arabic: 'الطواف وصلاة الطواف',
+    location: 'Masjid al-Haram, Mecca', dayLabel: 'Meccan rites — timing varies', readTimeMin: 3,
     duaArabic: 'بِسْمِ اللهِ وَاللهُ أَكْبَرُ، اللَّهُمَّ إِيمَاناً بِكَ وَتَصْدِيقاً بِكِتَابِكَ',
     duaTransliteration: 'Bismillah wallahu akbar, Allahumma imanan bika wa tasdiqan bikitabik',
     translations: { en: {
-      title: 'Arrival Tawaf (Tawaf al-Qudum)',
-      body: 'Upon arriving in Mecca, pilgrims perform Tawaf al-Qudum — seven counter-clockwise circuits around the Kaaba, beginning and ending at the Black Stone (Hajr al-Aswad). Each circuit is a profound act of devotion, symbolising the eternal revolving of creation around the divine. After Tawaf, two units of prayer are offered behind Maqam Ibrahim.',
+      title: 'Tawaf and Prayer',
+      body: 'During the Meccan rites of Hajj, pilgrims perform the obligatory tawaf and its two-rak\'ah prayer in ritual purity. In Ja\'fari fiqh, the major tawafs of Hajj are Tawaf al-Hajj and Tawaf al-Nisa; follow your marja\' and group guide for their timing.',
       duaTranslation: 'In the name of Allah, and Allah is the Greatest. O Allah, with faith in You and affirming the truth of Your Book.',
-      warningsText: 'Begin Tawaf at the Black Stone — align yourself with it or the green line marker on the floor\nWalk counter-clockwise with the Ka\'ba on your left at all times\nTwo rak\'at prayer at Maqam Ibrahim after Tawaf is wajib',
-      shiaNote: "In the Ja'fari school, Tawaf al-Qudum is recommended (mustahab) but not obligatory upon arrival. The Tawaf must consist of exactly 7 complete circuits. Wudu is obligatory for Tawaf. If uncertain about your circuit count, assume the lower number and complete accordingly.",
+      warningsText: 'Begin Tawaf at the Black Stone — align yourself with it or the green line marker on the floor\nWalk counter-clockwise with the Ka\'ba on your left at all times\nTwo rak\'at prayer follows every obligatory tawaf in ritual purity',
+      shiaNote: "In Ja'fari fiqh, the obligatory Meccan tawafs of Hajj are Tawaf al-Hajj and Tawaf al-Nisa. Their exact timing can vary within the Hajj schedule, so follow your marja' and the guidance of your trusted caravan leaders.",
     }},
   },
   {
@@ -1473,16 +1473,16 @@ const hajjSteps = [
     }},
   },
   {
-    id: 'hajj_11', order: 11, type: 'hajj', arabic: 'طواف الوداع',
-    location: 'Masjid al-Haram, Mecca', dayLabel: 'Final Day — Before Departure', readTimeMin: 3,
+    id: 'hajj_11', order: 11, type: 'hajj', arabic: 'طواف النساء',
+    location: 'Masjid al-Haram, Mecca', dayLabel: 'Meccan rites — timing varies', readTimeMin: 3,
     duaArabic: 'اللَّهُمَّ هَذَا بَيْتُكَ عَظَّمْتَهُ وَشَرَّفْتَهُ وَكَرَّمْتَهُ',
     duaTransliteration: "Allahumma hadha baytuka 'azzamtahu wa sharraftahu wa karamtahu",
     translations: { en: {
-      title: 'Farewell Tawaf (Tawaf al-Wada)',
-      body: 'Before leaving Mecca, pilgrims perform Tawaf al-Wada — seven final circuits around the Kaaba as a farewell to the Sacred House of Allah. It is a deeply emotional moment, as pilgrims bid farewell to the holiest place on earth, praying that Allah accepts their Hajj and that they are granted the blessing of return.',
+      title: 'Tawaf al-Nisa',
+      body: 'In Ja\'fari fiqh, Tawaf al-Nisa and its two-rak\'ah prayer are required before marital intimacy becomes lawful again after Hajj. Its timing within the Meccan rites can vary according to a pilgrim\'s marja\' and travel arrangements.',
       duaTranslation: 'O Allah, this is Your House — You have made it great, noble, and honourable.',
-      warningsText: 'Tawaf al-Wada is wajib before departing Mecca — it should be among the final acts before leaving the city\nIt is disliked (makruh) to shop or spend extended time in markets after Tawaf al-Wada\nWomen in menses: the Shia and Sunni rulings on this differ — see the Shia note',
-      shiaNote: "In the Ja'fari school, women in menses are NOT excused from Tawaf al-Wada, unlike in some Sunni schools. They must wait until they become pure and then perform it, even if this delays departure. If this is genuinely impossible due to confirmed travel departure, they must consult their marja' for a ruling specific to their situation.",
+      warningsText: 'Tawaf al-Nisa is a required rite in Ja\'fari fiqh and should not be confused with the Sunni Farewell Tawaf\nIts two-rak\'ah prayer follows the tawaf, as with other obligatory tawafs\nWomen in menses must follow the ruling of their marja\' if this rite is delayed by purity concerns or travel hardship',
+      shiaNote: "This is one of the clearest differences between Ja'fari and Sunni pilgrimage guides. A Shia pilgrim should not replace Tawaf al-Nisa with Tawaf al-Wada; consult your marja' on timing, especially when group logistics are tight.",
     }},
   },
 ];
@@ -1512,7 +1512,7 @@ const umrahSteps = [
     duaTransliteration: 'Bismillah wallahu akbar, Allahumma imanan bik',
     translations: { en: {
       title: 'Tawaf',
-      body: 'Pilgrims circumambulate the Kaaba seven times in a counter-clockwise direction, beginning at the Black Stone. Men are encouraged to walk briskly (Ramal) during the first three circuits. Two units of prayer are offered after completion at Maqam Ibrahim. Tawaf is considered one of the most beloved acts of worship — each circuit is a declaration of tawhid.',
+      body: 'Pilgrims circumambulate the Kaaba seven times in a counter-clockwise direction, beginning at the Black Stone. Two units of prayer are offered after completion at Maqam Ibrahim. Tawaf is among the essential rites of Umrah in Ja\'fari fiqh, and each circuit is a declaration of tawhid.',
       duaTranslation: 'In the name of Allah, and Allah is the Greatest. O Allah, with faith in You.',
       warningsText: "Start at the Black Stone or its alignment — a green overhead light marks the starting line\nMaintain counter-clockwise direction with the Ka'ba always on your left\nTwo rak'at prayer at Maqam Ibrahim after Tawaf is wajib",
       shiaNote: "Tawaf for Umrah is wajib and follows the same rules as Tawaf in Hajj. Wudu is obligatory. Women in menses cannot perform Tawaf and must wait until they are pure. If the area around Maqam Ibrahim is extremely crowded, the prayer may be performed anywhere in the Masjid al-Haram facing the Maqam direction.",
@@ -1536,9 +1536,9 @@ const umrahSteps = [
     location: "Mecca (after Sa'i)", readTimeMin: 2,
     translations: { en: {
       title: 'Halq or Taqsir',
-      body: 'The final rite of Umrah is the cutting of hair: men either shave their heads completely (Halq) or trim a portion (Taqsir), while women trim a small portion. This completes the Umrah and releases the pilgrim from Ihram. The act signifies spiritual renewal and marks the successful completion of the journey.',
-      warningsText: "For Umrah al-Tamattu' (performed as part of Hajj), choose Taqsir over Halq — preserve the full shaving for Mina after Hajj rituals\nWomen must do Taqsir only — cutting a finger-length portion from the hair is sufficient\nAfter Taqsir, you are fully released from Ihram and all its prohibitions",
-      shiaNote: "In the Ja'fari school, Taqsir (trimming) is specifically preferred for Umrah al-Tamattu' — not Halq. This is based on an explicit hadith from Imam al-Sadiq (AS) who stated that the full Halq should be reserved for after the Hajj rites in Mina. Performing Halq during Umrah al-Tamattu' is considered a violation that requires expiation.",
+      body: 'After Sa\'i, the pilgrim trims or shaves the hair according to the type of Umrah being performed. This ends Ihram for Umrah al-Tamattu\'. In Umrah al-Mufradah, consult your marja\' because Tawaf al-Nisa and its prayer still remain before the rites are fully completed.',
+      warningsText: "For Umrah al-Tamattu' (performed as part of Hajj), choose Taqsir over Halq — preserve the full shaving for Mina after Hajj rituals\nWomen must do Taqsir only — cutting a finger-length portion from the hair is sufficient\nFor Umrah al-Mufradah, ask your marja' about the remaining Tawaf al-Nisa before treating the rites as fully complete",
+      shiaNote: "In the Ja'fari school, Taqsir (trimming) is specifically preferred for Umrah al-Tamattu' — not Halq. For Umrah al-Mufradah, Tawaf al-Nisa and its prayer remain after this step before marital intimacy becomes lawful.",
     }},
   },
 ];
@@ -1582,7 +1582,7 @@ async function main() {
     console.log('\n✨ All done! Collections seeded successfully.\n');
     console.log('   Collections created:');
     console.log('   • content_hadiths       — 35 hadiths');
-    console.log('   • content_imams         — 14 Masumeen profiles');
+    console.log('   • content_imams         — Fourteen Infallibles profiles');
     console.log('   • content_duas          —  9 duas with sections');
     console.log('   • content_scriptures    — 28 Quran ayahs (daily rotation)');
     console.log('   • content_role_models   — 60 role models (weekly rotation)');

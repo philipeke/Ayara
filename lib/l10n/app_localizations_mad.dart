@@ -614,7 +614,7 @@ class AppLocalizationsMad extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'ÄYAT AL-YOM';
 
   @override
-  String get dailyGraceSaintLabel => 'AL-ÄLÏM DIYÄL AL-ĀSBUʿ';
+  String get dailyGraceSaintLabel => 'FIGUR KANG PEKAL';
 
   @override
   String get dailyGraceReflectionLabel => 'TAFÄKKUR AL-MASÄ';
@@ -1248,7 +1248,7 @@ class AppLocalizationsMad extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Duä Diyäl Zuhûr Imäm Al-Mahdï (ʿAF), Imäm Ath-Thänï ʿAšar, ʿAllamuh Äbuh. Tqäl Kul Yom Min Ŧärf Al-Šïʿa Bʿda Kul Salät Ki ʿäbädä Lia Al-Imäm Al-Ḥayy.';
+      'Sebuah dua kanggo munculna Imam al-Mahdī (af), Imam kaping wolulas, sing diajari dening bapake. Iki asring diwaca dening akeh umat Islam Shia sawise shalat minangka tindakan pengabdian marang Imam sing urip.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbïḥ Sïyyida Fäṭïma';
@@ -1350,11 +1350,11 @@ class AppLocalizationsMad extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Al-Arbaʿata ʿAšar Masûmïn';
+  String get imamsScreenTitle => 'Empat Belas Ma\'sum';
 
   @override
   String get imamsScreenSubtitle =>
-      'An-Nabi, Sïyyida Fäṭïma, wa Al-Ithnä ʿAšar Imäm - Al-Qäda Al-Haqqanïyïn';
+      'Nabi, Nyai Fatima, lan Dua Belas Imam — pemandu sing suci lan ma\'sum ing Islam Shia Twelver';
 
   @override
   String get imamLabelBorn => 'Ä-Mawlid';
@@ -1443,7 +1443,7 @@ class AppLocalizationsMad extends AppLocalizations {
   String get quickActionDailyHadith => 'Ḥadïth Al-Yom';
 
   @override
-  String get quickAction14Masumeen => '14 Masûmïn';
+  String get quickAction14Masumeen => 'Empat Belas Ma\'sum';
 
   @override
   String get quickActionListenDuas => 'Astämʿ';
@@ -1524,13 +1524,36 @@ class AppLocalizationsMad extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Al-Ḥäğğ Al-Šïʿa ʿädatän Yusäfirûn Äyḍä Ila Al-Madïna Baš Yzûrû Qabr An-Nabi Muhammad (ﷺ) F Masğid An-Nabawi, wa Qubûr Al-Aimma F Jännat Al-Baqïʿ. Hadï Az-Zïärat ʿanduhä Ḥamiyyä Rûḥäniya ʿaẓïma wa Tʿtäbar Juzʾ Assasi Mn Al-Rḥäla Lia ʿumûm Al-Šïʿa.';
+      'Akeh peziarah Shia uga lelungan menyang Medina kanggo ziyarat Nabi Muhammad (SAW) ing Masjid al-Nabawi lan kuburan ing Jannat al-Baqi. Kunjungan iki nggawa makna spiritual sing jero, sanajan ora dadi ritual Hajj dhewe.';
 
   @override
   String get hajjIntro =>
-      'Al-Hajj Huwwa Al-Rukan Al-Khämis Diyäl Al-Isläm, Wäğib Marra Wäḥda F Al-ʿUmr Lia Kul Muslim Qädir Šarʿän wa Mäliyän. Tädä F Šahr Dhu Al-Ḥijja, wa Fïh Nqäfï ʿala Khutwät Nabiy Ibrahim (ʿAS), Abnih Ismäʿïl (ʿAS), wa Sïyyida Häğar. Lia Al-Šïʿa, Al-Hajj Äyḍä Fïh Zïärat Qubûr An-Nabi (ﷺ) wa Ähl Al-Bayt F Al-Madïna.';
+      'Hajj iku pilar kalima Islam, wajib sepisan sajrone urip kanggo saben Muslim sing fisik lan finansial bisa. Kanggo mayoritas peziarah Shia Twelver saiki, iki ateges Hajj al-Tamattu\', sing dilakoni ing sasi Dhul Hijjah ing jejak Nabi Ibrahim (AS), putrane Ismail (AS), lan Nyai Hajar. Pandhuan iki ngetutake garis besar Ja\'fari saka ritual, nalika ziyarat ing Medina tetep dadi perjalanan sing banget dihargai sadurunge utawa sawise Hajj.';
 
   @override
   String get umrahIntro =>
       'Al-ʿUmra Hiya Al-Hajj Al-Ṣäġïr Ila Makka wa Bkhilâf Al-Hajj, Tqädär Täql Äy Waqt Diyäl Al-Sänä. Mä Wäğiba Walakin Fïh Ṭäb Rûḥani ʿaẓïm wa Tʿtäbar ʿäbädä Mustäḥabba Jdä. Tšärik Bʿd Al-Mänäsik B Al-Hajj Walakin Aqṣär, Fïh Arbaʿat Rükün Assasia.';
+
+  @override
+  String get voiceInputTitle => 'Input Suara';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Bicara inputmu kanggo Ask Ayara tinimbang ngetik.';
+
+  @override
+  String get voiceInputMicDenied => 'Akses mikrofon ditolak.';
+
+  @override
+  String get voiceInputSpeak => 'Bicara gantos';
+
+  @override
+  String get voiceInputListening => 'Ngrungok…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Akses mikrofon dibutuhaké kanggo input suara.';
 }

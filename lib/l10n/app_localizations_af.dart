@@ -627,7 +627,7 @@ class AppLocalizationsAf extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VERS VAN DIE DAG';
 
   @override
-  String get dailyGraceSaintLabel => 'GELEERDE VAN DIE WEEK';
+  String get dailyGraceSaintLabel => 'FIGUUR VAN DIE WEEK';
 
   @override
   String get dailyGraceReflectionLabel => 'AANDBESINNING';
@@ -1268,7 +1268,7 @@ class AppLocalizationsAf extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      '’n Dua vir die wederkoms van Imam al-Mahdī (af), die twaalfde Imam, soos deur sy vader geleer. Dit word daagliks deur die gelowige Sjia ná elke gebed gereciteer as ’n daad van toewyding aan die lewende Imam.';
+      '‘n dua vir die herverskyning van Imam al-Mahdī (af), die twaalfde Imam, geleer deur sy vader. Dit word dikwels deur baie Shia Moslems na gebed opgesê as \'n daad van toewyding aan die lewende Imam.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ van Lady Fāṭima';
@@ -1370,11 +1370,11 @@ class AppLocalizationsAf extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Die 14 Masumeen';
+  String get imamsScreenTitle => 'Die Veertien Onfeilbares';
 
   @override
   String get imamsScreenSubtitle =>
-      'Die Profeet, Lady Fatima en die Twaalf Imams — die onfeilbare gidse van Islam';
+      'Die Profeet, Mevrou Fatima, en die Twaalf Imams — die gezuiverde en onfeilbare gidse in Twelver Shia Islam';
 
   @override
   String get imamLabelBorn => 'Gebore';
@@ -1464,7 +1464,7 @@ class AppLocalizationsAf extends AppLocalizations {
   String get quickActionDailyHadith => 'Daaglikse Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Veertien Onfeilbares';
 
   @override
   String get quickActionListenDuas => 'Luister';
@@ -1546,13 +1546,36 @@ class AppLocalizationsAf extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Sjia-pelgrims reis tradisioneel ook na Medina om die graf van die Profeet Muhammad (SAW) by Masjid al-Nabawi te besoek, asook die grafte van die Imams by Jannat al-Baqi. Hierdie besoeke dra groot geestelike betekenis en word vir die meeste Sjia-Moslems as ’n integrale deel van die reis beskou.';
+      'Baie Shia pelgrims reis ook na Medina vir ziyarat van die Profeet Muhammad (SAW) by Masjid al-Nabawi en die grafte by Jannat al-Baqi. Hierdie besoeke het diep geestelike betekenis, alhoewel hulle nie self rituele van Hajj is nie.';
 
   @override
   String get hajjIntro =>
-      'Hajj is die vyfde pilaar van Islam, een keer in ’n leeftyd verpligtend vir elke Moslem wat fisies en finansieel daartoe in staat is. Dit word in die maand van Dhul Hijjah verrig en volg die voetspore van Profeet Ibrahim (AS), sy seun Ismail (AS), en Lady Hajar. Vir Sjia-Moslems sluit Hajj ook die diep seën in om die rusplekke van die Profeet (SAW) en die Ahlul Bayt in Medina te besoek.';
+      'Hajj is die vyfde pilaar van Islam, verpligtend een keer in \'n leeftyd vir elke Moslem wat fisies en finansieel in staat is. Vir die meeste Twelver Shia pelgrims vandag beteken dit Hajj al-Tamattu\', uitgevoer in die maand van Dhul Hijjah in die voetspore van Profet Ibrahim (AS), sy seun Ismail (AS), en Mevrou Hajar. Hierdie gids volg die Ja\'fari uiteensetting van die rituele, terwyl ziyarat in Medina \'n diep gekoesterde reis bly voor of na Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah is die kleiner pelgrimstog na Mekka en kan, anders as Hajj, enige tyd van die jaar verrig word. Hoewel dit nie verpligtend is nie, dra dit groot geestelike beloning en word dit as ’n sterk aanbevole daad van aanbidding beskou. Dit deel verskeie rituele met Hajj, maar is korter en bestaan uit vier hoofrites.';
+
+  @override
+  String get voiceInputTitle => 'Stem Invoer';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofoon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Praat jou insette om Ask Ayara te vra in plaas van om te tik.';
+
+  @override
+  String get voiceInputMicDenied => 'Mikrofoon toegang is geweier.';
+
+  @override
+  String get voiceInputSpeak => 'Praat eerder';
+
+  @override
+  String get voiceInputListening => 'Luister…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Mikrofoon toegang is nodig vir stem invoer.';
 }

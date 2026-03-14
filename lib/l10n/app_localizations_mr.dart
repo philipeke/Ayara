@@ -626,7 +626,7 @@ class AppLocalizationsMr extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'आजचा आयत';
 
   @override
-  String get dailyGraceSaintLabel => 'या आठवड्याचे विद्वान';
+  String get dailyGraceSaintLabel => 'सप्ताहाचा व्यक्तिमत्व';
 
   @override
   String get dailyGraceReflectionLabel => 'संध्याकाळचे चिंतन';
@@ -1262,7 +1262,7 @@ class AppLocalizationsMr extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'बाराव्या इमाम इमाम अल-महदी (अ.फ.) यांच्या पुनरागमनासाठीची दुआ, जी त्यांच्या वडिलांनी शिकवली. जिवंत इमामप्रती भक्ती म्हणून शिया समुदाय ती प्रत्येक नमाजनंतर रोज वाचतो.';
+      'इमाम अल-महदी (अफ) यांच्या पुनःप्रकट होण्यासाठी एक दुआ, ज्याला त्यांच्या वडिलांनी शिकवले. हे अनेक शिया मुसलमानांनी प्रार्थनेनंतर इमामच्या प्रति भक्ती म्हणून उच्चारले जाते.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'बीबी फातिमाची तसबिह';
@@ -1364,11 +1364,11 @@ class AppLocalizationsMr extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 मासूमीन';
+  String get imamsScreenTitle => 'चौदा इन्फालिबल';
 
   @override
   String get imamsScreenSubtitle =>
-      'पैगंबर, बीबी फातिमा आणि बारा इमाम — इस्लामचे निष्पाप मार्गदर्शक';
+      'पैगंबर, लेडी फातिमा, आणि बाराही इमाम — बाराही शिया इस्लाममध्ये शुद्ध आणि इन्फालिबल मार्गदर्शक';
 
   @override
   String get imamLabelBorn => 'जन्म';
@@ -1458,7 +1458,7 @@ class AppLocalizationsMr extends AppLocalizations {
   String get quickActionDailyHadith => 'दैनिक हदीस';
 
   @override
-  String get quickAction14Masumeen => '14 मासूमीन';
+  String get quickAction14Masumeen => 'चौदा इन्फालिबल';
 
   @override
   String get quickActionListenDuas => 'ऐका';
@@ -1540,13 +1540,36 @@ class AppLocalizationsMr extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'शिया यात्रेकरू पारंपरिकरीत्या मदिनेलाही जातात, जेथे ते मस्जिद अल-नबवीतील पैगंबर मुहम्मद (SAW) यांच्या रौज्याला आणि जन्नत अल-बक़ीतील इमामांच्या कबरींना ज़ियारत करतात. या भेटींना अत्यंत आध्यात्मिक महत्त्व आहे आणि बहुतेक शिया यात्रेकरूंकरिता त्या प्रवासाचा अविभाज्य भाग मानल्या जातात.';
+      'अनेक शिया तीर्थयात्री पैगंबर मुहम्मद (सअव) यांच्या जियारतसाठी मदीना येथे मस्जिद अल-नबावी आणि जन्नत अल-बाकी येथील कब्रांवर जातात. या भेटींचा आध्यात्मिक महत्त्व आहे, तरीही त्या हजच्या विधी नाहीत.';
 
   @override
   String get hajjIntro =>
-      'हज हा इस्लामचा पाचवा स्तंभ आहे, आणि शारीरिक व आर्थिकदृष्ट्या सक्षम असलेल्या प्रत्येक मुस्लिमासाठी आयुष्यात एकदा बंधनकारक आहे. धुल हिज्जा महिन्यात केला जाणारा हा प्रवास पैगंबर इब्राहीम (AS), त्यांचे पुत्र इस्माईल (AS) आणि बीबी हाजरा यांच्या पावलांवर चालतो. शिया मुस्लिमांसाठी, हजमध्ये मदिनेत पैगंबर (SAW) आणि अहलुल बैत यांच्या पवित्र विश्रांतीस्थळांना भेट देण्याचेही महान भाग्य असते.';
+      'हज इस्लामचा पाचवा स्तंभ आहे, जो प्रत्येक शिया मुसलमानासाठी एकदा जीवनात शारीरिक आणि आर्थिकदृष्ट्या सक्षम असणे अनिवार्य आहे. आजच्या बहुतेक बाराही शिया तीर्थयात्र्यांसाठी, याचा अर्थ हज अल-तमत्तु\' आहे, जो इमाम इब्राहीम (अस), त्यांच्या पुत्र इस्माईल (अस), आणि लेडी हाजर यांच्या पावलावर चालत धुल हिज्जा महिन्यात केला जातो. हा मार्गदर्शक जाफरी विधींचा अनुसरण करतो, तर मदीना येथील जियारत हजच्या आधी किंवा नंतर एक अत्यंत प्रिय यात्रा राहते.';
 
   @override
   String get umrahIntro =>
       'उमराह ही मक्केची लहान यात्रा आहे आणि हजपेक्षा भिन्नरीत्या ती वर्षातील कोणत्याही वेळी करता येते. जरी ती बंधनकारक नसली तरी तिचे आध्यात्मिक फळ अत्यंत महान आहे आणि ती अत्यंत शिफारस केलेली इबादत मानली जाते. तिच्यात हजसारखे काही विधी आहेत, परंतु ती अधिक लहान असून चार मुख्य कृतींनी बनलेली आहे.';
+
+  @override
+  String get voiceInputTitle => 'आवाज इनपुट';
+
+  @override
+  String get voiceInputMicTitle => 'मायक्रोफोन';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'टायपिंग करण्याऐवजी आयारा विचारण्यासाठी तुमचा आवाज वापरा.';
+
+  @override
+  String get voiceInputMicDenied => 'मायक्रोफोन प्रवेश नाकारला गेला.';
+
+  @override
+  String get voiceInputSpeak => 'त्याऐवजी बोला';
+
+  @override
+  String get voiceInputListening => 'ऐकत आहे…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'आवाज इनपुटसाठी मायक्रोफोन प्रवेश आवश्यक आहे.';
 }

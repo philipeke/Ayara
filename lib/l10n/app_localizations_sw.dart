@@ -627,7 +627,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'AYATI YA SIKU';
 
   @override
-  String get dailyGraceSaintLabel => 'MWALIMU WA WIKI';
+  String get dailyGraceSaintLabel => 'SHERIA YA WIKI';
 
   @override
   String get dailyGraceReflectionLabel => 'TAFAKARI YA JIONI';
@@ -1266,7 +1266,7 @@ class AppLocalizationsSw extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua kwa kuonekana tena kwa Imam al-Mahdī (af), Imam wa kumi na mbili. Zinazwa kila siku na Shia maadhimishwa baada ya kila sala kama matendo ya utii kwa Imam anayebaki.';
+      'Dua kwa ajili ya kuonekana tena kwa Imam al-Mahdī (af), Imam wa kumi na mbili, alifundishwa na baba yake. Mara nyingi inasomwa na Waislamu wengi wa Shia baada ya sala kama kitendo cha ibada kwa Imam aliye hai.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ ya Bibi Fāṭima';
@@ -1368,11 +1368,11 @@ class AppLocalizationsSw extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Masumeen 14 Umma';
+  String get imamsScreenTitle => 'Maimam Kumi na Nne Wasio Makosa';
 
   @override
   String get imamsScreenSubtitle =>
-      'Nabii, Bibi Fatima, na Imam Kumi na Mbili — wamuongozaji wenye makosa wa Kiislamu';
+      'Mtume, Bibi Fatima, na Maimam Kumi na Mbili — viongozi safi na wasio makosa katika Uislamu wa Shia wa Kumi na Mbili';
 
   @override
   String get imamLabelBorn => 'Kuzaliwa';
@@ -1462,7 +1462,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith ya Kila Siku';
 
   @override
-  String get quickAction14Masumeen => 'Masumeen 14';
+  String get quickAction14Masumeen => 'Maimam Kumi na Nne Wasio Makosa';
 
   @override
   String get quickActionListenDuas => 'Sikiliza';
@@ -1544,13 +1544,36 @@ class AppLocalizationsSw extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Waziyara wa Shia kawaida pia husafiri kwa Medina kupokea kaburi la Nabii Muhammad (SAW) katika Masjid al-Nabawi, na makaburi ya Imam katika Jannat al-Baqi. Ziyara hizi zina umuhimu wa roho wa juu na zinavyopatikana sehemu muhimu ya safari kwa Wanaislamu wengi wa Shia.';
+      'Wahujaji wengi wa Shia pia husafiri kwenda Medina kwa ajili ya ziyarat ya Mtume Muhammad (SAW) katika Masjid al-Nabawi na makaburi katika Jannat al-Baqi. Ziara hizi zina maana kubwa ya kiroho, ingawa si ibada za Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj ndio nguzo ya Kiislamu, wajib mara moja kwa maisha ya Mwanamislamu yeyote anayeweza kimwili na kwa pesa. Inaushughulikiwa katika mwezi wa Dhul Hijjah, inasambaza hatua za Nabii Ibrahim (AS), mwanawe Ismail (AS), na Bibi Hajar. Kwa Waislamu wa Shia, Hajj pia inajumuisha mahimu ya ziyara makaburi ya Nabii (SAW) na Ahlul Bayt katika Medina.';
+      'Hajj ni nguzo ya tano ya Uislamu, inayohitajika mara moja katika maisha kwa kila Muislamu ambaye ana uwezo wa kimwili na kifedha. Kwa wahujaji wengi wa Shia wa Kumi na Mbili leo, hii inamaanisha Hajj al-Tamattu\', inayofanyika katika mwezi wa Dhul Hijjah kwa kufuata nyayo za Mtume Ibrahim (AS), mwanawe Ismail (AS), na Bibi Hajar. Mwongozo huu unafuata muundo wa Ja\'fari wa ibada, wakati ziyarat katika Medina inabaki kuwa safari ya kiroho inayothaminiwa kabla au baada ya Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah ndio ziyara ya ndogo kwa Makkah na, tofauti na Hajj, inaweza kufanywa kwa wakati wowote wa mwaka. Ingawa si wajib, inabeba zawadi ya roho ya juu na inavyopatikana hatua ya ibada inayopendekezwa sana. Inakamatia masharti kadhaa na Hajj lakini ni mfupi, inajumuisha sharti nne kuu.';
+
+  @override
+  String get voiceInputTitle => 'Sauti ya Kuingiza';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofoni';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Zungumza ili kuuliza Ayara badala ya kuandika.';
+
+  @override
+  String get voiceInputMicDenied => 'Upatikanaji wa mikrofoni umekataliwa.';
+
+  @override
+  String get voiceInputSpeak => 'Zungumza badala';
+
+  @override
+  String get voiceInputListening => 'Sikiliza…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Upatikanaji wa mikrofoni unahitajika kwa ajili ya kuingiza sauti.';
 }

@@ -22,8 +22,6 @@ class _ResultTextBoxState extends State<ResultTextBox>
   bool _typing = false;
   bool _skipTyping = false;
 
-  Future<void>? _typingFuture;
-
   late final AnimationController _dots;
   late final Animation<double> _dotAnim;
 
@@ -74,7 +72,7 @@ class _ResultTextBoxState extends State<ResultTextBox>
     // Starta ny animation efter 1 frame
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _skipTyping = false;
-      _typingFuture = _animateText(fullText);
+      _animateText(fullText);
     });
   }
 

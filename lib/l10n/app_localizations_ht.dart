@@ -624,7 +624,7 @@ class AppLocalizationsHt extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'VÈSÈ JOU A';
 
   @override
-  String get dailyGraceSaintLabel => 'SAVAN SEMÈN NAN';
+  String get dailyGraceSaintLabel => 'FIGURE DE LA SEMAINE';
 
   @override
   String get dailyGraceReflectionLabel => 'REFLEKSYON ASWÈ';
@@ -1262,7 +1262,7 @@ class AppLocalizationsHt extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Yon dua pou reaparisyon Imam al-Mahdī (af), douzyèm Imam nan, papa li te anseye. Chiit fidèl yo resite li chak jou apre chak lapriyè kòm yon zak devosyon anvè Imam vivan an.';
+      'Yon dua pou reaparans Imam al-Mahdī (af), douzyèm Imam, ki te anseye pa papa li. Li souvan li pa anpil Mizilman Shia apre lapriyè kòm yon aksyon devosyon pou Imam vivan an.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ Sayyida Fāṭima';
@@ -1364,11 +1364,11 @@ class AppLocalizationsHt extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen yo';
+  String get imamsScreenTitle => 'Katorz Enfaibl';
 
   @override
   String get imamsScreenSubtitle =>
-      'Pwofèt la, Sayyida Fatima, ak Douz Imam yo — gid enfayib Islam yo';
+      'Pwofèt la, Madan Fatima, ak Douz Imam yo — gid ki pwepare ak enfaibl nan Islam Shia Twelver';
 
   @override
   String get imamLabelBorn => 'Fèt';
@@ -1458,7 +1458,7 @@ class AppLocalizationsHt extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith Chak Jou';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Katorz Enfaibl';
 
   @override
   String get quickActionListenDuas => 'Koute';
@@ -1538,13 +1538,36 @@ class AppLocalizationsHt extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Pèleren chiit yo tradisyonèlman vwayaje tou Medin pou vizite tonm Pwofèt Muhammad (SAW) nan Masjid al-Nabawi, ansanm ak tonm Imam yo nan Jannat al-Baqi. Vizit sa yo gen yon gwo enpòtans espirityèl e yo konsidere kòm yon pati entegral nan vwayaj la pou pifò Mizilman chiit yo.';
+      'Anpil Mizilman Shia ki fè pelerinaj tou vwayaje nan Medina pou ziyarat Pwofèt Muhammad (SAW) nan Masjid al-Nabawi ak tonb yo nan Jannat al-Baqi. Vizit sa yo pote gwo siyifikasyon espirityèl, byenke yo pa tèt yo rituèl Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj se senkyèm pilye Islam la, obligatwa yon fwa nan lavi pou chak Mizilman ki gen kapasite fizik ak finansye. Li fèt pandan mwa Dhul Hijjah, epi li suiv tras Pwofèt Ibrahim (AS), pitit gason li Ismail (AS), ak Sayyida Hajar. Pou Mizilman chiit yo, Hajj gen ladan tou gwo benediksyon vizite kote Pwofèt la (SAW) ak Ahlul Bayt yo repoze nan Medin.';
+      'Hajj se senkyèm pilè Islam, obligatwa yon fwa nan lavi pou chak Mizilman ki fizikman ak finansyèman kapab. Pou pifò pelerin Shia Twelver jodi a, sa vle di Hajj al-Tamattu\', ki fèt nan mwa Dhul Hijjah nan tras Pwofèt Ibrahim (AS), pitit li Ismail (AS), ak Madan Hajar. Gid sa a swiv plan Ja\'fari a pou rituèl yo, pandan ziyarat nan Medina rete yon vwayaj ki cheri anpil anvan oswa apre Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah se ti pelerinaj pou Mekka a epi, kontrèman ak Hajj, li ka fèt nenpòt moman nan ane a. Menm si li pa obligatwa, li pote gwo rekonpans espirityèl e yo konsidere l kòm yon zak adorasyon ki anpil rekòmande. Li pataje plizyè rit ak Hajj men li pi kout, li gen kat rit prensipal.';
+
+  @override
+  String get voiceInputTitle => 'Antre Vwa';
+
+  @override
+  String get voiceInputMicTitle => 'Mikwofòn';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Pale antre ou pou mande Ayara olye de tape.';
+
+  @override
+  String get voiceInputMicDenied => 'Aksè mikwofòn te refize.';
+
+  @override
+  String get voiceInputSpeak => 'Pale olye';
+
+  @override
+  String get voiceInputListening => 'Ap koute…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Aksè mikwofòn nesesè pou antre vwa.';
 }

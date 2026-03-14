@@ -629,7 +629,7 @@ class AppLocalizationsRw extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'UMURONGO W’UYU MUNSI';
 
   @override
-  String get dailyGraceSaintLabel => 'UMUHANGA W’IKI CYUMWERU';
+  String get dailyGraceSaintLabel => 'UMWANDAGU W\'ICYUMWERU';
 
   @override
   String get dailyGraceReflectionLabel => 'GUTEKEREZA KWA NIMUGOROBA';
@@ -1274,7 +1274,7 @@ class AppLocalizationsRw extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua isabira kugaruka kwa Imam al-Mahdī (af), Imam wa 12, yigishijwe na se. Isomwa buri munsi n’abemera b’Abashiya nyuma ya buri sengesho nk’ikimenyetso cyo gukunda Imam uriho.';
+      'Dua yo gusubira kugaragara kwa Imam al-Mahdī (af), Imam wa cumi, yigishijwe na se. Akenshi irasomwa n\'abakirisitu benshi ba Shia nyuma yo gusenga nk\'ikimenyetso cy\'ukwemera ku Imam uriho.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ ya Lady Fāṭima';
@@ -1376,11 +1376,11 @@ class AppLocalizationsRw extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Abamasumune 14';
+  String get imamsScreenTitle => 'Abakiza B\'Imana 14';
 
   @override
   String get imamsScreenSubtitle =>
-      'Intumwa, Lady Fatima, n’Imam Cumi na Babiri — abayobozi batunganye ba Islam';
+      'Intumwa, Nyina Fatima, n\'Abimamu 12 — abayobozi b\'ibihamya n\'abakiza mu idini ya Shia ya Twelver';
 
   @override
   String get imamLabelBorn => 'Yavutse';
@@ -1470,7 +1470,7 @@ class AppLocalizationsRw extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith y’uyu munsi';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Abakiza B\'Imana 14';
 
   @override
   String get quickActionListenDuas => 'Umva';
@@ -1552,13 +1552,36 @@ class AppLocalizationsRw extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Abagenzi ba Shia basanzwe bajya no i Medina gusura igituro cy’Intumwa Muhammad (SAW) kiri muri Masjid al-Nabawi, ndetse n’imva z’Abimam muri Jannat al-Baqi. Izi ngendo zifite agaciro gakomeye k’umwuka kandi ku benshi mu bagenzi ba Shia zifatwa nk’igice cy’ingenzi cy’urugendo.';
+      'Abakirisitu benshi ba Shia kandi bajya i Medina ku ziyarat y\'Intumwa Muhammad (SAW) ku Masjid al-Nabawi n\'imva ziri Jannat al-Baqi. Izi ngendo zifite agaciro kanini mu buryo bw\'umutima, nubwo ubwazo atari imihango ya Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj ni inkingi ya gatanu ya Islam, kandi itegetswe rimwe mu buzima ku Muslim wese ushoboye ku mubiri no ku buryo bw’amikoro. Ikorwa mu kwezi kwa Dhul Hijjah, ikurikira ibirenge bya Intumwa Ibrahim (AS), umuhungu we Ismail (AS), na Lady Hajar. Ku Bashiya, Hajj inajyana n’umugisha ukomeye wo gusura aho Intumwa (SAW) na Ahlul Bayt baruhukiye i Medina.';
+      'Hajj ni inkingi ya gatanu y\'idini ya Islam, ikaba itegeko rimwe mu buzima ku Musilimu wese ushoboye mu buryo bw\'umubiri n\'ubukungu. Ku bakirisitu benshi ba Shia ba Twelver uyu munsi, ibi bisobanuye Hajj al-Tamattu\', ikorwa mu kwezi kwa Dhul Hijjah mu nzira z\'Intumwa Ibrahim (AS), umuhungu we Ismail (AS), na Nyina Hajar. Uyu muyoboro ukurikiza imiterere ya Ja\'fari y\'imihango, mu gihe ziyarat i Medina ikomeza kuba urugendo rw\'ingenzi cyane mbere cyangwa nyuma ya Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah ni urugendo ruto rutagatifu rugana i Mecca kandi, bitandukanye na Hajj, rushobora gukorwa igihe icyo ari cyo cyose mu mwaka. Nubwo rutari itegeko, rufite ibihembo byinshi by’umwuka kandi rufatwa nk’igikorwa cyo kuramya cyiza cyane. Rusangiye imihango imwe na Hajj, ariko ni rugufi kandi rugizwe n’intambwe enye z’ingenzi.';
+
+  @override
+  String get voiceInputTitle => 'Gutanga Ijwi';
+
+  @override
+  String get voiceInputMicTitle => 'Mikoro';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Vuga ibyo ushaka kubaza Ayara aho kwandika.';
+
+  @override
+  String get voiceInputMicDenied => 'Kugera ku mikoro byaranzwe.';
+
+  @override
+  String get voiceInputSpeak => 'Vuga aho';
+
+  @override
+  String get voiceInputListening => 'Kumva…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Kugera ku mikoro birakenewe kugirango utange ijwi.';
 }

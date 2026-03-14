@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:speech_to_text/speech_to_text.dart';
 
 import 'package:ayara/core/config/theme.dart';
 import 'package:ayara/l10n/app_localizations.dart';
@@ -151,6 +152,11 @@ class _NotificationsSheetState extends State<_NotificationsSheet> {
   int _dhikrMinute = 0;
   bool _loading = true;
 
+  // Voice input / microphone
+  final SpeechToText _speech = SpeechToText();
+  bool _micGranted = false;
+  bool _micDenied = false;
+
   final Map<String, bool> _perPrayer = {
     'fajr': true,
     'dhuhr': true,
@@ -182,6 +188,13 @@ class _NotificationsSheetState extends State<_NotificationsSheet> {
       for (final k in _prayerKeys) {
         pp[k] = await _prayerSvc.isPrayerEnabled(k);
       }
+      // Check actual OS mic permission state. On iOS/Android, if the user
+      // has already decided (granted or denied), this returns immediately
+      // without showing any dialog.
+      final micGranted = await _speech.initialize(
+        onError: (_) {},
+        onStatus: (_) {},
+      );
       if (mounted) {
         setState(() {
           _prayerEnabled = prayerOn;
@@ -196,6 +209,7 @@ class _NotificationsSheetState extends State<_NotificationsSheet> {
           _dhikrHour = dhHour;
           _dhikrMinute = dhMinute;
           _perPrayer.addAll(pp);
+          _micGranted = micGranted;
           _loading = false;
         });
       }
@@ -319,6 +333,21 @@ class _NotificationsSheetState extends State<_NotificationsSheet> {
   Future<void> _disableDhikr() async {
     await _dhikrSvc.setEnabled(false);
     if (mounted) setState(() => _dhikrEnabled = false);
+  }
+
+  Future<void> _requestMic() async {
+    setState(() => _loading = true);
+    final available = await _speech.initialize(
+      onError: (_) {},
+      onStatus: (_) {},
+    );
+    if (mounted) {
+      setState(() {
+        _micGranted = available;
+        _micDenied = !available;
+        _loading = false;
+      });
+    }
   }
 
   Future<void> _pickDhikrTime() async {
@@ -710,6 +739,70 @@ class _NotificationsSheetState extends State<_NotificationsSheet> {
                                 color: Colors.white.withValues(alpha: 0.35)),
                           ],
                         ),
+                      ),
+                    ),
+                  ],
+                ],
+              ),
+            ),
+            const SizedBox(height: 20),
+
+            // ── Voice Input ─────────────────────────────────────────────────
+            _SectionHeader(t.voiceInputTitle.toUpperCase()),
+            const SizedBox(height: 8),
+            _SheetCard(
+              child: Column(
+                children: [
+                  _ToggleRow(
+                    emoji: '🎙️',
+                    title: t.voiceInputMicTitle,
+                    subtitle: t.voiceInputMicSubtitle,
+                    value: _micGranted,
+                    onChanged: (v) =>
+                        v ? _requestMic() : Geolocator.openAppSettings(),
+                  ),
+
+                  if (_micDenied) ...[
+                    _Divider(),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(14, 10, 14, 10),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Icon(Icons.warning_amber_rounded,
+                              color: Colors.orange.withValues(alpha: 0.85),
+                              size: 15),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  t.voiceInputMicDenied,
+                                  style: TextStyle(
+                                    color:
+                                        Colors.orange.withValues(alpha: 0.85),
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                                const SizedBox(height: 3),
+                                GestureDetector(
+                                  onTap: () => Geolocator.openAppSettings(),
+                                  child: Text(
+                                    t.prayerNotificationsOpenSettings,
+                                    style: TextStyle(
+                                      color: AppColors.gold,
+                                      fontSize: 12,
+                                      decoration: TextDecoration.underline,
+                                      decorationColor: AppColors.gold,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ],

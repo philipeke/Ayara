@@ -626,7 +626,7 @@ class AppLocalizationsAz extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'GÜNÜN AYƏSİ';
 
   @override
-  String get dailyGraceSaintLabel => 'HƏFTƏNİN ALİMİ';
+  String get dailyGraceSaintLabel => 'HƏFTƏNİN ŞƏKİLİ';
 
   @override
   String get dailyGraceReflectionLabel => 'AXŞAM DÜŞÜNCƏSİ';
@@ -1267,7 +1267,7 @@ class AppLocalizationsAz extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'On ikinci imam İmam Mehdinin (ə.f) zühuru üçün olan bir duadır, atası tərəfindən öyrədilmişdir. Şiələr bunu hər namazdan sonra diri İmama bağlılıq nişanəsi kimi gündəlik oxuyurlar.';
+      'İmam əl-Mahdinin (ə) zühuru üçün dua, on ikinci İmam, atasının öyrətdiyi. Bu dua, bir çox Şiə müsəlmanları tərəfindən ibadət olaraq namazdan sonra oxunur.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Həzrət Fatimənin təsbihi';
@@ -1368,11 +1368,11 @@ class AppLocalizationsAz extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Məsum';
+  String get imamsScreenTitle => 'On Dörd Məsum';
 
   @override
   String get imamsScreenSubtitle =>
-      'Peyğəmbər, Həzrət Fatimə və on iki imam — İslamın məsum rəhbərləri';
+      'Peyğəmbər, Həzrət Fatimə və On İki İmam — On İki İmam Şiə İslamında pak və səhvsiz rəhbərlər';
 
   @override
   String get imamLabelBorn => 'Doğum';
@@ -1462,7 +1462,7 @@ class AppLocalizationsAz extends AppLocalizations {
   String get quickActionDailyHadith => 'Gündəlik hədis';
 
   @override
-  String get quickAction14Masumeen => '14 Məsum';
+  String get quickAction14Masumeen => 'On Dörd Məsum';
 
   @override
   String get quickActionListenDuas => 'Dinlə';
@@ -1542,13 +1542,36 @@ class AppLocalizationsAz extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Şiə zəvvarlar ənənəvi olaraq Mədinəyə də gedərək Məscidün-Nəbidə Peyğəmbər Məhəmmədin (s) qəbrini və Cənnətül-Bəqidə imamların məzarlarını ziyarət edirlər. Bu ziyarətlər böyük mənəvi əhəmiyyət daşıyır və əksər şiələr üçün səfərin ayrılmaz hissəsi sayılır.';
+      'Bir çox Şiə zəvvarları, Peyğəmbər Məhəmmədin (SAV) ziyarəti üçün Mədinəyə, Məsjid əl-Nəbəvi və Cənnət əl-Baqi\'deki məzarları ziyarət etmək üçün səyahət edirlər. Bu ziyarətlər dərin ruhsal əhəmiyyət daşıyır, lakin özləri Həcc mərasimləri deyildir.';
 
   @override
   String get hajjIntro =>
-      'Həcc İslamın beşinci rüknüdür və fiziki və maliyyə cəhətdən gücü çatan hər bir müsəlman üçün ömründə bir dəfə vacibdir. Zilhiccə ayında yerinə yetirilir və İbrahim peyğəmbərin (ə), oğlu İsmayılın (ə) və Həzrət Hacərin izlərini təqib edir. Şiə müsəlmanlar üçün Həcc, Mədinədə Peyğəmbərin (s) və Əhli-Beytin məzarlarını ziyarət etmək nemətini də ehtiva edir.';
+      'Həcc, İslamın beşinci sütunudur, hər bir müsəlmanın fiziki və maliyyə cəhətdən imkanlı olduğu bir dəfə həyata keçirməsi vacibdir. Bu gün əksər On İki İmam Şiə zəvvarları üçün bu, İmam İbrahim (ə), oğlu İsmail (ə) və Həzrət Həcər\'in izində, Zul-Hiccə ayının Həcc al-Tamattu\' mərasimini yerinə yetirmək deməkdir. Bu bələdçi, mərasimlərin Cəfəri çərçivəsini izləyir, Mədinədəki ziyarət isə Həccdan əvvəl və ya sonra dərin bir şəkildə sevilən bir səyahət olaraq qalır.';
 
   @override
   String get umrahIntro =>
       'Ümrə Məkkəyə edilən kiçik ziyarətdir və Həcdən fərqli olaraq ilin istənilən vaxtında yerinə yetirilə bilər. Vacib olmasa da, böyük mənəvi savab daşıyır və çox tövsiyə olunan ibadət sayılır. Həcc ilə bir neçə ayini ortaqdır, lakin daha qısadır və dörd əsas mərasimdən ibarətdir.';
+
+  @override
+  String get voiceInputTitle => 'Səsli Giriş';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Yazmaq əvəzinə Ayara\'ya səsli sual verin.';
+
+  @override
+  String get voiceInputMicDenied => 'Mikrofon girişinə icazə verilmədi.';
+
+  @override
+  String get voiceInputSpeak => 'Sözlə';
+
+  @override
+  String get voiceInputListening => 'Dinləyir…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Səsli giriş üçün mikrofon icazəsi tələb olunur.';
 }

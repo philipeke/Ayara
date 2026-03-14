@@ -39,6 +39,10 @@
 		<string>Ayara uses your location to show the Qibla direction and calculate prayer times for your city.</string>
 		<key>NSMotionUsageDescription</key>
 		<string>Ayara uses device motion to animate the Qibla compass so it always points toward Mecca.</string>
+		<key>NSMicrophoneUsageDescription</key>
+		<string>Ayara uses your microphone so you can speak your question to Ask Ayara instead of typing.</string>
+		<key>NSSpeechRecognitionUsageDescription</key>
+		<string>Ayara uses speech recognition to convert your spoken question to text.</string>
 		<key>NSCalendarsUsageDescription</key>
 		<string>Ayara would like to add Islamic occasions to your calendar.</string>
 		<key>NSCalendarsWriteOnlyAccessUsageDescription</key>

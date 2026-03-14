@@ -627,7 +627,7 @@ class AppLocalizationsUr extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'آج کی آیت';
 
   @override
-  String get dailyGraceSaintLabel => 'اہل علم';
+  String get dailyGraceSaintLabel => 'ہفتے کی شخصیت';
 
   @override
   String get dailyGraceReflectionLabel => 'شام کی عکاسی';
@@ -1265,7 +1265,7 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'امام المہدی (علیہ السلام) کی ظہور کے لیے دعا، ان کے والد نے سکھائی۔ شیعہ اعتقادمندوں کی طرف سے ہر نماز کے بعد روزانہ پڑھی جاتی ہے زندہ امام کے لیے عقیدت کے طور پر۔';
+      'امام المہدی (عج) کی دوبارہ ظہور کے لیے ایک دعا، جو ان کے والد نے سکھائی۔ یہ دعا اکثر بہت سے شیعہ مسلمانوں کی طرف سے نماز کے بعد امام کی محبت میں پڑھی جاتی ہے۔';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'سیدہ فاطمہ کی تسبیح';
@@ -1366,11 +1366,11 @@ class AppLocalizationsUr extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 معصومین';
+  String get imamsScreenTitle => 'چودہ معصومین';
 
   @override
   String get imamsScreenSubtitle =>
-      'نبی، سیدہ فاطمہ، اور بارہ اماموں — اسلام کے معصوم رہنما';
+      'نبی، بی بی فاطمہ، اور بارہ امام — بارہ امامی شیعہ اسلام میں پاک اور معصوم رہنما';
 
   @override
   String get imamLabelBorn => 'پیدائش';
@@ -1460,7 +1460,7 @@ class AppLocalizationsUr extends AppLocalizations {
   String get quickActionDailyHadith => 'روزمرہ حدیث';
 
   @override
-  String get quickAction14Masumeen => '14 معصومین';
+  String get quickAction14Masumeen => 'چودہ معصومین';
 
   @override
   String get quickActionListenDuas => 'سنیں';
@@ -1540,13 +1540,36 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'شیعہ زائرین روایتی طور پر مدینے میں نبی محمد صلی اللہ علیہ و آلہ وسلم کے مقام کو مسجد النبوی میں اور جنۃ البقیع میں اماموں کی قبریں زیارت کرنے کے لیے جاتے ہیں۔ یہ دورے بہت بڑی روحانی اہمیت کے ساتھ رکھتے ہیں اور زیادہ تر شیعہ مسلمانوں کے لیے سفر کا ایک لازمی حصہ سمجھے جاتے ہیں۔';
+      'بہت سے شیعہ زائرین بھی مدینہ میں نبی محمد (ص) کی زیارت کے لیے مسجد نبوی اور جنت البقیع میں قبروں کی زیارت کے لیے سفر کرتے ہیں۔ یہ دورے روحانی لحاظ سے بہت اہمیت رکھتے ہیں، حالانکہ یہ خود حج کے مناسک نہیں ہیں۔';
 
   @override
   String get hajjIntro =>
-      'حج اسلام کا پانچواں ستون ہے، ہر مسلمان کے لیے جو جسمانی اور مالیاتی طور پر قابل ہو زندگی میں ایک بار لازمی ہے۔ ذوالحجہ کے مہینے میں ادا کیا جاتا ہے، یہ نبی ابراہیم (علیہ السلام)، ان کے بیٹے اسماعیل (علیہ السلام)، اور حضرت ہاجرہ کی روایت کو دوبارہ کرتا ہے۔ شیعہ مسلمانوں کے لیے، حج میں مدینہ میں نبی صلی اللہ علیہ و آلہ وسلم اور اہل البیت کی آرام کی جگہوں کی زیارت کی برکت بھی شامل ہے۔';
+      'حج اسلام کا پانچواں رکن ہے، جو ہر مسلمان پر زندگی میں ایک بار فرض ہے، بشرطیکہ وہ جسمانی اور مالی طور پر اس کی استطاعت رکھتا ہو۔ آج کے زیادہ تر بارہ امامی شیعہ زائرین کے لیے، اس کا مطلب حج التمتع ہے، جو ماہ ذوالحجہ میں نبی ابراہیم (ع) کے نقش قدم پر، ان کے بیٹے اسماعیل (ع) اور بی بی ہاجرہ کے ساتھ ادا کیا جاتا ہے۔ یہ رہنما مناسک کے جعفری خاکے کی پیروی کرتا ہے، جبکہ مدینہ میں زیارت حج سے پہلے یا بعد میں ایک بہت عزیز سفر رہتا ہے۔';
 
   @override
   String get umrahIntro =>
       'عمرہ مکہ کا چھوٹا حج ہے اور حج کے برعکس سال کے کسی بھی وقت کیا جا سکتا ہے۔ اگرچہ لازمی نہیں ہے، لیکن یہ بہت بڑے روحانی انعام اور سفارش کردہ عمل کے طور پر سمجھا جاتا ہے۔ یہ حج کے ساتھ کئی رسومات کا اشتراک کرتا ہے لیکن مختصر ہے، چار اہم رسومات پر مشتمل ہے۔';
+
+  @override
+  String get voiceInputTitle => 'آواز کی ان پٹ';
+
+  @override
+  String get voiceInputMicTitle => 'مائیکروفون';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'ٹائپ کرنے کے بجائے Ask Ayara کو اپنی آواز میں بتائیں۔';
+
+  @override
+  String get voiceInputMicDenied => 'مائیکروفون تک رسائی کی اجازت نہیں دی گئی۔';
+
+  @override
+  String get voiceInputSpeak => 'اس کے بجائے بولیں';
+
+  @override
+  String get voiceInputListening => 'سن رہے ہیں…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'آواز کی ان پٹ کے لیے مائیکروفون تک رسائی ضروری ہے۔';
 }

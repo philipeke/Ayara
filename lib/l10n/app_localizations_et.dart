@@ -627,7 +627,7 @@ class AppLocalizationsEt extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'PÄEVA VÄRSUS';
 
   @override
-  String get dailyGraceSaintLabel => 'NÄDALA TEADLANE';
+  String get dailyGraceSaintLabel => 'NÄDALAKUJUTIS';
 
   @override
   String get dailyGraceReflectionLabel => 'ÕHTUNE PEEGELDUS';
@@ -1263,7 +1263,7 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Palve Imam al-Mahdī (af) ilmumiseks, kaksteist imaami, õpetanud tema isa. Retsiteeritud igapäevalt Shia uskujate poolt pärast iga palvet kui pühendus elava imaamile.';
+      'Dua Imam al-Mahdī (af) taasilmumise jaoks, kaheteistkümnes Imam, õpetatud tema isa poolt. Seda loetakse sageli paljude šiiitide seas pärast palvet, kui akti pühendumiseks elavale Imamile.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Pühä Fāṭima Tasbīḥ';
@@ -1365,11 +1365,11 @@ class AppLocalizationsEt extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeeni';
+  String get imamsScreenTitle => 'Neliteist Tõrgeteta';
 
   @override
   String get imamsScreenSubtitle =>
-      'Prófeet, pühä Fatima ja kaksteist imaami — islami puutumatud juhid';
+      'Prohvet, proua Fatima ja Kaksteist Imamit — puhastatud ja tõrgeteta juhid kaheteistkümnendas šiiitlikus islami suunas';
 
   @override
   String get imamLabelBorn => 'Sündinud';
@@ -1459,7 +1459,7 @@ class AppLocalizationsEt extends AppLocalizations {
   String get quickActionDailyHadith => 'Päeva hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeeni';
+  String get quickAction14Masumeen => 'Neliteist Tõrgeteta';
 
   @override
   String get quickActionListenDuas => 'Kuula';
@@ -1541,13 +1541,36 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Shia palverännikud reisivad tavaliselt ka Medinasse, et külastada Profeetist Muhammadi (SAW) hauakamberit Masjid al-Nabawi juures ja imaamide haude Jannat al-Baqi juures. Nendel külastusel on suur vaimne tähtsus ja neid peetakse enamiku Shia moslemite jaoks lahutamatuks osaks teekonnast.';
+      'Paljud šiiitlikud palverändurid reisivad ka Medinasse Prohvet Muhammad (SAW) ziyarat\'iks Masjid al-Nabawis ja haudadele Jannat al-Baqis. Need külastused omavad sügavat vaimset tähendust, kuigi need ei ole ise Hajj\'i rituaalid.';
 
   @override
   String get hajjIntro =>
-      'Hajj on islami viies sammas, kohustuslik üks kord eluajal igale füüsiliselt ja finantsiliselt kasvavale moslemile. Dhu al-Hijja kuul tehtud, jälgib see profeetsi Ibrahimi (AS), tema poeg Ismaili (AS) ja pühä Hajari jalgjälgi. Shia moslemitele on hajj ka sügava kummarduse saamine Mekka profeetsi ja Ahlul Baytit kuuluvate hingede külastamisel.';
+      'Hajj on islami viies sammas, kohustuslik üks kord elus igaühele, kes on füüsiliselt ja rahaliselt võimeline. Enamiku kaheteistkümnenda šiiitliku palveränduri jaoks tähendab see Hajj al-Tamattu\', mis toimub Dhul Hijjah kuul Prohvet Ibrahim (AS), tema poja Ismaili (AS) ja proua Hajara jälgedes. See juhend järgib Ja\'fari rituaalide ülesehitust, samas kui ziyarat Medinas jääb sügavalt hinnatud teekonnaks enne või pärast Hajj\'i.';
 
   @override
   String get umrahIntro =>
       'Umrah on väiksem palverännak Mekkah ja erinevalt hajjist saab seda teha aastaringselt. Kuigi see ei ole kohustuslik, kannab see suurt vaimset tasu ja peetakse väga soovituslikuks jumalikus teenuseks. See jagab mitmeid rituaale hajjiga, kuid on lühem, koosnevad neljast peamisest riitusest';
+
+  @override
+  String get voiceInputTitle => 'Häälsisend';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Räägi oma sisend Ask Ayara asemel, et mitte kirjutada.';
+
+  @override
+  String get voiceInputMicDenied => 'Mikrofoni juurdepääs on keelatud.';
+
+  @override
+  String get voiceInputSpeak => 'Räägi asemel';
+
+  @override
+  String get voiceInputListening => 'Kuulan…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Mikrofoni juurdepääs on vajalik häälsisendi jaoks.';
 }

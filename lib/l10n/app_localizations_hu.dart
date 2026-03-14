@@ -629,7 +629,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'A NAP VERSE';
 
   @override
-  String get dailyGraceSaintLabel => 'A HÉT TUDÓSA';
+  String get dailyGraceSaintLabel => 'A HÉT FIGURÁJA';
 
   @override
   String get dailyGraceReflectionLabel => 'ESTI ELMÉLKEDÉS';
@@ -1270,7 +1270,7 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Egy dua Imam al-Mahdī (af), a tizenkettedik Imám megjelenéséért, amelyet édesapja tanított. A síita hívők naponta mondják minden ima után a jelenlevő Imám iránt érzett odaadás jeleként.';
+      'Egy dua az al-Mahdī imám (af) megjelenéséért, a tizenkettedik imám, akit az apja tanított. Ezt gyakran mondják el sok síita muszlim imádság után, mint a élő imám iránti odaadás kifejezését.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Lady Fāṭima Tasbīḥja';
@@ -1372,11 +1372,11 @@ class AppLocalizationsHu extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'A 14 Maszúm';
+  String get imamsScreenTitle => 'A Tizennégy Tévedhetetlen';
 
   @override
   String get imamsScreenSubtitle =>
-      'A Próféta, Fatima úrnő és a Tizenkét Imám — az iszlám tévedhetetlen vezetői';
+      'A Próféta, Fatima asszony és a Tizenkét Imám — a tisztított és tévedhetetlen vezetők a tizenkét imám síita iszlámban';
 
   @override
   String get imamLabelBorn => 'Született';
@@ -1466,7 +1466,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get quickActionDailyHadith => 'Napi Hadith';
 
   @override
-  String get quickAction14Masumeen => '14 Maszúm';
+  String get quickAction14Masumeen => 'Tizennégy Tévedhetetlen';
 
   @override
   String get quickActionListenDuas => 'Hallgatás';
@@ -1548,13 +1548,36 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'A síita zarándokok hagyományosan Medinába is utaznak, hogy meglátogassák Mohamed Próféta (SAW) sírját a Masjid al-Nabawinál, és az Imámok sírjait a Jannat al-Baqinál. Ezek a látogatások hatalmas spirituális jelentőséggel bírnak és a legtöbb síita muszlim számára az utazás szerves részének tekintendők.';
+      'Sok síita zarándok Medinába is utazik, hogy meglátogassa Muhammad prófétát (SAW) a Masjid al-Nabawi-nál és a Jannat al-Baqi sírjánál. Ezek a látogatások mély spirituális jelentőséggel bírnak, bár maguk nem a Hajj szertartásai.';
 
   @override
   String get hajjIntro =>
-      'A Hajj az iszlám ötödik pillére, amely egyszer kötelező minden fizikailag és anyagilag képes muszlim számára az életben. A Dhul Hijjah hónapban elvégezve, Ibrahim próféta (AS), fia Ismail (AS) és Hajar úrnő nyomdokait követi. A síita muszlimok számára a Hajj magában foglalja a Próféta (SAW) és az Ahlul Bayt medinai nyughelyeinek meglátogatásának mélységes áldását is.';
+      'A Hajj az iszlám ötödik pillére, amely kötelező egyszer az életben minden muszlim számára, aki fizikailag és anyagilag képes rá. A legtöbb tizenkét imám síita zarándok számára ez a Hajj al-Tamattu\', amelyet Dhul Hijjah hónapjában végeznek Ibrahim próféta (AS), fia Ismail (AS) és Hajar asszony nyomdokain. Ez az útmutató a Ja\'fari szertartásrend szerint követi a rítusokat, míg a medinai ziyarat mélyen megbecsült utazás marad a Hajj előtt vagy után.';
 
   @override
   String get umrahIntro =>
       'Az Umrah a kisebb zarándoklat Mekkába, és a Hajjtól eltérően az év bármely szakában elvégezhető. Bár nem kötelező, hatalmas spirituális jutalommal jár és rendkívül ajánlott imádati cselekedetnek tekintendő. Több szertartást oszt meg a Hajjal, de rövidebb, és négy fő rituáléból áll.';
+
+  @override
+  String get voiceInputTitle => 'Hangbevitel';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Beszélj a kérdésedről az Ask Ayara segítségével írás helyett.';
+
+  @override
+  String get voiceInputMicDenied => 'A mikrofonhoz való hozzáférés megtagadva.';
+
+  @override
+  String get voiceInputSpeak => 'Beszélj helyette';
+
+  @override
+  String get voiceInputListening => 'Hallgatás…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'A mikrofonhoz való hozzáférés szükséges a hangbevitelhez.';
 }

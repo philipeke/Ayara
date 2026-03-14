@@ -621,7 +621,7 @@ class AppLocalizationsIg extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'AMA AMA ỤBỌCHI';
 
   @override
-  String get dailyGraceSaintLabel => 'ỌKÀMMỤMỤ IZU A';
+  String get dailyGraceSaintLabel => 'ỌRỌ ỌJỌ́';
 
   @override
   String get dailyGraceReflectionLabel => 'NTỤLE MGBEDE';
@@ -1258,7 +1258,7 @@ class AppLocalizationsIg extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dua maka pụta ọzọ nke Imam al-Mahdī (af), Imam nke iri na abụọ, nke nna ya kụziri. Ndị kwere ekwe Shia na-agụ ya kwa ụbọchị mgbe ekpere ọ bụla gasịrị dịka ngosipụta nke ịhụnanya nye Imam dị ndụ.';
+      'Dua fun ìfarahàn Imam al-Mahdī (af), Imam kẹtàlá, tí baba rẹ kọ́. A máa ń ka a nígbà púpọ̀ lára àwọn Musulumi Shia lẹ́yìn àdúrà gẹ́gẹ́ bí ìṣe ìbáṣepọ̀ pẹ̀lú Imam tó wà láàyè.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ nke Lady Fāṭima';
@@ -1360,11 +1360,11 @@ class AppLocalizationsIg extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => 'Masumeen 14';
+  String get imamsScreenTitle => 'Àwọn Mímọ́ Mẹ́tàlá';
 
   @override
   String get imamsScreenSubtitle =>
-      'Onyeamụma, Lady Fatima, na Imam iri na abụọ — ndị nduzi Islam na-adịghị emehie';
+      'Ẹnìyàn àlùfáà, Iya Fatima, àti Àwọn Imams Mẹ́tàlá — àwọn olùkó tó mọ́tò àti tó péye nínú Islam Shia Twelver';
 
   @override
   String get imamLabelBorn => 'A mụrụ';
@@ -1453,7 +1453,7 @@ class AppLocalizationsIg extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith Kwa Ụbọchị';
 
   @override
-  String get quickAction14Masumeen => 'Masumeen 14';
+  String get quickAction14Masumeen => 'Àwọn Mímọ́ Mẹ́tàlá';
 
   @override
   String get quickActionListenDuas => 'Gee ntị';
@@ -1533,13 +1533,36 @@ class AppLocalizationsIg extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Ndị njem Shia na-emekarịkwa njem gaa Medina ileta ili Onyeamụma Muhammad (SAW) na Masjid al-Nabawi, na ili ndị Imam dị na Jannat al-Baqi. Nleta ndị a nwere nnukwu mkpa ime mmụọ ma a na-ewere ha dịka akụkụ dị mkpa nke njem ahụ nye ọtụtụ ndị Muslim Shia.';
+      'Ọ̀pọ̀ àwọn pèlerin Shia tún ń lọ sí Medina fún ziyarat ti Ẹnìyàn àlùfáà Muhammad (SAW) ní Masjid al-Nabawi àti àwọn ibè ní Jannat al-Baqi. Àwọn ìbẹ̀wò wọ̀nyí ní ìtàn àkúnya jinlẹ̀, bó tilẹ̀ jẹ́ pé wọn kì í ṣe àwọn àṣà Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj bụ ogidi nke ise nke Islam, iwu otu ugboro n’ime ndụ maka Muslim ọ bụla nwere ike ime ya n’ahụ na n’ego. A na-eme ya n’ọnwa Dhul Hijjah, ọ na-agbaso nzọụkwụ Onyeamụma Ibrahim (AS), nwa ya nwoke Ismail (AS), na Lady Hajar. Maka ndị Muslim Shia, Hajj gụnyekwara nnukwu ngọzi nke ileta ebe Onyeamụma (SAW) na Ahlul Bayt zuru ike na Medina.';
+      'Hajj ni ìpìlẹ̀ karùn-ún ti Islam, tó jẹ́ dandan lẹ́kan nínú ìgbésẹ̀ ayé fún gbogbo Musulumi tó ní agbára àti owó. Fún ọ̀pọ̀ àwọn pèlerin Shia Twelver lónìí, èyí túmọ̀ sí Hajj al-Tamattu\', tí a ṣe ní oṣù Dhul Hijjah ní ẹsẹ̀ Ẹnìyàn àlùfáà Ibrahim (AS), ọmọ rẹ Ismail (AS), àti Iya Hajar. Itọsọna yìí tẹ̀lé àtẹ̀jáde Ja\'fari ti àwọn àṣà, nígbà tí ziyarat ní Medina jẹ́ ìrìn àjò tó ní ìtàn àkúnya jinlẹ̀ kí tàbí lẹ́yìn Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah bụ njem nsọ nta gaa Mecca, ma n’adịghị ka Hajj, a pụrụ ime ya n’oge ọ bụla n’afọ. Ọ bụ ezie na ọ bụghị iwu, ọ na-eweta nnukwu ụgwọ ọrụ ime mmụọ ma a na-ewere ya dị ka ọrụ ofufe a na-akwado nke ukwuu. Ọ na-ekekọrịta ọtụtụ emume ya na Hajj mana ọ dị mkpụmkpụ, ebe ọ nwere emume isi anọ.';
+
+  @override
+  String get voiceInputTitle => 'Nkwupụta Okwu';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Kwuo ihe ị chọrọ ka ị jụọ Ayara kama ide.';
+
+  @override
+  String get voiceInputMicDenied => 'Enweghị ikike iji mikrofon.';
+
+  @override
+  String get voiceInputSpeak => 'Kwuo kama';
+
+  @override
+  String get voiceInputListening => 'Na-ege ntị…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Ikwesịrị ikike mikrofon maka nkwupụta okwu.';
 }

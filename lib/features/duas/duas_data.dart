@@ -36,10 +36,10 @@ const List<DuaEntry> kDuaLibrary = [
         translation:
             'The Holy Prophet (SAW) taught this dhikr to his beloved daughter '
             'Fatima al-Zahra (SA) when she asked for a servant to ease her household burdens. '
-            'He told her: "This tasbih is better for you than a servant, better than the world and all that is in it." '
+            'He told her: "This tasbih is better for you than a servant." '
             'Imam al-Sadiq (AS) said that reciting it before sleep is more beloved to him than a thousand rak\'at of prayer. '
             'Begin with Allāhu Akbar (34 times), then Alḥamdulillāh (33 times), then Subḥānallāh (33 times). '
-            'This is the order established by Imam al-Baqir (AS) and confirmed by all Shia scholars.',
+            'This is the well-known order in Twelver Shia practice.',
       ),
     ],
   ),
@@ -241,8 +241,8 @@ const List<DuaEntry> kDuaLibrary = [
     nameAr: 'دعاء التوسل',
     category: DuaCategory.occasions,
     recommendedTime: 'When seeking help, in times of difficulty or need',
-    taughtBy: 'Transmitted through the tradition of the Ahlul Bayt (AS)',
-    shortDesc: 'Seeking intercession through the Prophet (SAW) and all 14 Masumeen',
+    taughtBy: 'Transmitted through the tradition of the Ahl al-Bayt (AS)',
+    shortDesc: 'Seeking intercession through the Prophet (SAW) and the Fourteen Infallibles',
     sections: [
       DuaSection(
         sectionTitle: 'Opening Salutation',

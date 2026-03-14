@@ -628,7 +628,7 @@ class AppLocalizationsBs extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'AJET DANA';
 
   @override
-  String get dailyGraceSaintLabel => 'UČENJAK SEDMICE';
+  String get dailyGraceSaintLabel => 'LIČNOST NEDJELJE';
 
   @override
   String get dailyGraceReflectionLabel => 'VEČERNJE RAZMIŠLJANJE';
@@ -1267,7 +1267,7 @@ class AppLocalizationsBs extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Dova za ponovno pojavljivanje Imama al-Mahdija (af), dvanaestog imama, koju je podučio njegov otac. Šiitski vjernici je svakodnevno uče nakon svakog namaza kao čin odanosti živom Imamu.';
+      'Dua za ponovni dolazak Imama al-Mahdīja (af), dvanaestog Imama, koju je podučio njegov otac. Često je izgovaraju mnogi šiitski muslimani nakon namaza kao čin odanosti živom Imamu.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tesbih hazreti Fatime';
@@ -1369,11 +1369,11 @@ class AppLocalizationsBs extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumina';
+  String get imamsScreenTitle => 'Četrnaest nepogrešivih';
 
   @override
   String get imamsScreenSubtitle =>
-      'Poslanik, hazreti Fatima i dvanaest imama — bezgrešni vodiči islama';
+      'Poslanik, gospođa Fatima i dvanaest Imama — pročišćeni i nepogrešivi vođe u dvanaestoj šiitskoj islamu';
 
   @override
   String get imamLabelBorn => 'Rođen';
@@ -1463,7 +1463,7 @@ class AppLocalizationsBs extends AppLocalizations {
   String get quickActionDailyHadith => 'Dnevni hadis';
 
   @override
-  String get quickAction14Masumeen => '14 Masumina';
+  String get quickAction14Masumeen => 'Četrnaest nepogrešivih';
 
   @override
   String get quickActionListenDuas => 'Slušaj';
@@ -1543,13 +1543,36 @@ class AppLocalizationsBs extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Šiitski hodočasnici tradicionalno putuju i u Medinu kako bi posjetili mezar Poslanika Muhammeda (SAW) u Mesdžid al-Nebeviju, kao i mezare imama u Džennet al-Bekiju. Ove posjete imaju ogroman duhovni značaj i smatraju se sastavnim dijelom putovanja za većinu šiitskih muslimana.';
+      'Mnogi šiitski hodočasnici također putuju u Medinu radi ziyarat Poslanika Muhammeda (SAW) u Masjid al-Nabawi i grobova u Džennetu al-Baqi. Ove posjete imaju duboko duhovno značenje, iako same po sebi nisu obredi Hadža.';
 
   @override
   String get hajjIntro =>
-      'Hadž je peti stub islama, obavezan jednom u životu za svakog muslimana koji je fizički i finansijski sposoban. Obavlja se u mjesecu Zul-Hidždže i slijedi stope poslanika Ibrahima (AS), njegovog sina Ismaila (AS) i hazreti Hadžere. Za šiitske muslimane, hadž uključuje i duboki blagoslov posjete mjestima počinka Poslanika (SAW) i Ehli-bejta u Medini.';
+      'Hadž je peti stub Islama, obavezan jednom u životu za svakog muslimana koji je fizički i finansijski sposoban. Za većinu dvanaestih šiitskih hodočasnika danas, to znači Hadž al-Tamattu\', koji se obavlja u mjesecu Zul-Hidždže u stopama Poslanika Ibrahima (AS), njegovog sina Ismaila (AS) i gospođe Hajar. Ovaj vodič prati Džafari okvir obreda, dok ziyarat u Medini ostaje duboko cijenjeno putovanje prije ili nakon Hadža.';
 
   @override
   String get umrahIntro =>
       'Umra je malo hodočašće u Meku i, za razliku od hadža, može se obaviti u bilo koje doba godine. Iako nije obavezna, nosi ogromnu duhovnu nagradu i smatra se veoma preporučenim ibadetom. Dijeli nekoliko obreda s hadžom, ali je kraća i sastoji se od četiri glavna obreda.';
+
+  @override
+  String get voiceInputTitle => 'Glasovni unos';
+
+  @override
+  String get voiceInputMicTitle => 'Mikrofon';
+
+  @override
+  String get voiceInputMicSubtitle =>
+      'Govori svoj unos da pitaš Ayara umjesto da kucaš.';
+
+  @override
+  String get voiceInputMicDenied => 'Pristup mikrofonu je odbijen.';
+
+  @override
+  String get voiceInputSpeak => 'Govori umjesto';
+
+  @override
+  String get voiceInputListening => 'Slušam…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Pristup mikrofonu je potreban za glasovni unos.';
 }

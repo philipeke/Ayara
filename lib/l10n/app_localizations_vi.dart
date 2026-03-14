@@ -626,7 +626,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get dailyGraceScriptureLabel => 'CÂU KINH TRONG NGÀY';
 
   @override
-  String get dailyGraceSaintLabel => 'HỌC GIẢ TRONG TUẦN';
+  String get dailyGraceSaintLabel => 'NHÂN VẬT CỦA TUẦN';
 
   @override
   String get dailyGraceReflectionLabel => 'SUY NGẪM BUỔI TỐI';
@@ -1268,7 +1268,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get tasbihatDuaFarajNote =>
-      'Một dua cầu cho sự tái xuất hiện của Imam al-Mahdī (af), Imam thứ mười hai, được dạy bởi cha của ngài. Được tín đồ Shia đọc hằng ngày sau mỗi lời nguyện như một hành động tận hiến đối với Imam đang sống.';
+      'Một dua cho sự tái xuất của Imam al-Mahdī (af), Imam thứ mười hai, được dạy bởi cha của Ngài. Nó thường được nhiều tín đồ Shia đọc sau khi cầu nguyện như một hành động tôn thờ đối với Imam đang sống.';
 
   @override
   String get tasbihatDuaTasbihFatimaTitle => 'Tasbīḥ của Phu nhân Fāṭima';
@@ -1370,11 +1370,11 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get imamsScreenTitle => '14 Masumeen';
+  String get imamsScreenTitle => 'Mười Bốn Vị Bất Xác';
 
   @override
   String get imamsScreenSubtitle =>
-      'Nhà Tiên tri, Phu nhân Fatima, và Mười Hai Imam — những người hướng dẫn không sai lầm của Hồi giáo';
+      'Đức Phật, Bà Fatima, và Mười Hai Imam — những người hướng dẫn tinh khiết và bất xác trong Hồi giáo Shia Twelver';
 
   @override
   String get imamLabelBorn => 'Sinh';
@@ -1464,7 +1464,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get quickActionDailyHadith => 'Hadith hằng ngày';
 
   @override
-  String get quickAction14Masumeen => '14 Masumeen';
+  String get quickAction14Masumeen => 'Mười Bốn Vị Bất Xác';
 
   @override
   String get quickActionListenDuas => 'Nghe';
@@ -1546,13 +1546,35 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get pilgrimageShiaNoteBody =>
-      'Theo truyền thống, người hành hương Shia cũng đến Medina để viếng mộ Nhà Tiên tri Muhammad ﷺ tại Masjid al-Nabawi, và mộ các Imam tại Jannat al-Baqi. Những chuyến viếng thăm này mang ý nghĩa tâm linh to lớn và được xem là phần không thể thiếu của hành trình đối với đa số người Hồi giáo Shia.';
+      'Nhiều tín đồ Shia cũng đi hành hương đến Medina để ziyarat Đức Phật Muhammad (SAW) tại Masjid al-Nabawi và các ngôi mộ tại Jannat al-Baqi. Những chuyến thăm này mang ý nghĩa tâm linh sâu sắc, mặc dù chúng không phải là nghi lễ của Hajj.';
 
   @override
   String get hajjIntro =>
-      'Hajj là trụ cột thứ năm của Hồi giáo, bắt buộc một lần trong đời đối với mỗi người Hồi giáo đủ khả năng về thể chất và tài chính. Hajj được thực hiện vào tháng Dhul Hijjah và đi theo dấu chân của Nhà Tiên tri Ibrahim (AS), con trai ngài Ismail (AS), và Phu nhân Hajar. Đối với người Hồi giáo Shia, Hajj còn bao gồm ân phúc sâu sắc của việc viếng thăm nơi an nghỉ của Nhà Tiên tri ﷺ và Ahlul Bayt ở Medina.';
+      'Hajj là trụ cột thứ năm của Hồi giáo, bắt buộc một lần trong đời đối với mỗi tín đồ Hồi giáo có khả năng về thể chất và tài chính. Đối với hầu hết các tín đồ Shia Twelver ngày nay, điều này có nghĩa là Hajj al-Tamattu\', được thực hiện trong tháng Dhul Hijjah theo dấu chân của Đức Phật Ibrahim (AS), con trai Ngài là Ismail (AS), và Bà Hajar. Hướng dẫn này theo dõi các nghi lễ theo phác thảo của Ja\'fari, trong khi ziyarat ở Medina vẫn là một hành trình được yêu quý sâu sắc trước hoặc sau Hajj.';
 
   @override
   String get umrahIntro =>
       'Umrah là cuộc hành hương nhỏ đến Mecca và, không giống như Hajj, có thể được thực hiện vào bất kỳ thời điểm nào trong năm. Mặc dù không bắt buộc, nó mang lại phần thưởng tâm linh lớn lao và được xem là hành động thờ phượng rất được khuyến khích. Nó chia sẻ một số nghi lễ với Hajj nhưng ngắn hơn, gồm bốn nghi thức chính.';
+
+  @override
+  String get voiceInputTitle => 'Nhập bằng giọng nói';
+
+  @override
+  String get voiceInputMicTitle => 'Microphone';
+
+  @override
+  String get voiceInputMicSubtitle => 'Nói để hỏi Ayara thay vì gõ.';
+
+  @override
+  String get voiceInputMicDenied => 'Quyền truy cập microphone đã bị từ chối.';
+
+  @override
+  String get voiceInputSpeak => 'Nói thay thế';
+
+  @override
+  String get voiceInputListening => 'Đang lắng nghe…';
+
+  @override
+  String get voiceInputPermissionDenied =>
+      'Cần quyền truy cập microphone để nhập bằng giọng nói.';
 }
