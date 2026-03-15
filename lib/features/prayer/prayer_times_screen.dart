@@ -6,6 +6,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/core/widgets/feature_lock_overlay.dart';
 import 'package:ayara/core/services/prayer_data_notifier.dart';
 import 'package:ayara/l10n/app_localizations.dart';
 import 'package:ayara/features/qibla/widgets/prayer_times_widget.dart';
@@ -265,7 +266,7 @@ class _PrayerTimesScreenState extends State<PrayerTimesScreen> {
                             (UsageService.instance.current?.plan ?? 'basic') ==
                                 'premium';
                         if (!isPremium) {
-                          return _FeatureLock(
+                          return FeatureLockOverlay(
                             child: _LockedPrayerList(t: t),
                           );
                         }
@@ -322,6 +323,7 @@ class _LockedPrayerList extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // ── Prayer times list ───────────────────────────────────────────────
         Row(
           children: [
             const Icon(Icons.access_time_rounded,
@@ -376,13 +378,23 @@ class _LockedPrayerList extends StatelessWidget {
                       style: const TextStyle(fontSize: 15),
                     ),
                     const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        prayerNames[i],
+                        style: TextStyle(
+                          color: Colors.white.withValues(alpha: 0.85),
+                          fontSize: 14,
+                          fontWeight: FontWeight.w500,
+                          letterSpacing: 0.2,
+                        ),
+                      ),
+                    ),
+                    // Placeholder time dash
                     Text(
-                      prayerNames[i],
+                      '——:——',
                       style: TextStyle(
-                        color: Colors.white.withValues(alpha: 0.85),
+                        color: Colors.white.withValues(alpha: 0.25),
                         fontSize: 14,
-                        fontWeight: FontWeight.w500,
-                        letterSpacing: 0.2,
                       ),
                     ),
                   ],
@@ -391,83 +403,117 @@ class _LockedPrayerList extends StatelessWidget {
             }),
           ),
         ),
-      ],
-    );
-  }
-}
+        const SizedBox(height: 12),
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Premium gate overlay
-// ─────────────────────────────────────────────────────────────────────────────
-
-class _FeatureLock extends StatelessWidget {
-  final Widget child;
-  const _FeatureLock({required this.child});
-
-  @override
-  Widget build(BuildContext context) {
-    return AnimatedBuilder(
-      animation: UsageService.instance,
-      builder: (context, _) {
-        final usage = UsageService.instance.current;
-        final isPremium = (usage?.plan ?? 'basic') == 'premium';
-        if (isPremium) return child;
-
-        final t = AppLocalizations.of(context);
-        return Stack(
-          children: [
-            ColorFiltered(
-              colorFilter: const ColorFilter.matrix([
-                0.2126, 0.7152, 0.0722, 0, 0,
-                0.2126, 0.7152, 0.0722, 0, 0,
-                0.2126, 0.7152, 0.0722, 0, 0,
-                0,      0,      0,      0.45, 0,
-              ]),
-              child: IgnorePointer(child: child),
+        // ── View full month button placeholder ──────────────────────────────
+        Center(
+          child: OutlinedButton.icon(
+            icon: const Icon(Icons.calendar_month_rounded, size: 16),
+            label: Text(t.monthlyPrayerTimesViewButton),
+            onPressed: null, // disabled — greyed-out under the lock overlay
+            style: OutlinedButton.styleFrom(
+              foregroundColor: AppColors.gold,
+              side: BorderSide(color: AppColors.gold.withValues(alpha: 0.50)),
+              backgroundColor: AppColors.gold.withValues(alpha: 0.07),
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(14),
+              ),
+              textStyle: const TextStyle(
+                fontWeight: FontWeight.w600,
+                fontSize: 13,
+                letterSpacing: 0.2,
+              ),
             ),
-            Positioned.fill(
-              child: GestureDetector(
-                behavior: HitTestBehavior.opaque,
-                onTap: () {
-                  HapticFeedback.selectionClick();
-                  Navigator.pushNamed(context, '/settings');
-                },
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Container(
-                        padding: const EdgeInsets.all(10),
-                        decoration: BoxDecoration(
-                          color: Colors.black.withValues(alpha: 0.38),
-                          shape: BoxShape.circle,
-                          border: Border.all(
-                            color: Colors.white.withValues(alpha: 0.22),
-                          ),
-                        ),
-                        child: const Icon(
-                          Icons.lock_rounded,
-                          color: Colors.white,
-                          size: 22,
-                        ),
-                      ),
-                      const SizedBox(height: 10),
-                      Text(
-                        t.premiumFeatureLocked,
+          ),
+        ),
+        const SizedBox(height: 16),
+
+        // ── Prayer notifications placeholder ────────────────────────────────
+        Container(
+          decoration: BoxDecoration(
+            color: Colors.white.withValues(alpha: 0.04),
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(
+              color: AppColors.gold.withValues(alpha: 0.22),
+            ),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(18, 16, 12, 0),
+                child: Row(
+                  children: [
+                    const Icon(Icons.notifications_rounded,
+                        color: AppColors.gold, size: 18),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        t.prayerNotificationsTitle.toUpperCase(),
                         style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 13,
-                          fontWeight: FontWeight.w600,
+                          color: AppColors.gold,
+                          fontSize: 11,
+                          fontWeight: FontWeight.w700,
+                          letterSpacing: 1.4,
                         ),
                       ),
-                    ],
+                    ),
+                    // Decorative disabled switch
+                    Switch(
+                      value: false,
+                      onChanged: null,
+                      inactiveThumbColor:
+                          Colors.white.withValues(alpha: 0.35),
+                      inactiveTrackColor:
+                          Colors.white.withValues(alpha: 0.10),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(18, 10, 18, 16),
+                child: Text(
+                  t.prayerNotificationsDescription,
+                  style: TextStyle(
+                    color: Colors.white.withValues(alpha: 0.60),
+                    fontSize: 13,
+                    height: 1.5,
                   ),
                 ),
               ),
-            ),
-          ],
-        );
-      },
+              Padding(
+                padding: const EdgeInsets.fromLTRB(18, 0, 18, 16),
+                child: SizedBox(
+                  width: double.infinity,
+                  child: FilledButton.icon(
+                    icon: const Icon(
+                        Icons.notifications_active_rounded,
+                        size: 18),
+                    label: Text(t.prayerNotificationsEnable),
+                    onPressed: null, // disabled — under lock overlay
+                    style: FilledButton.styleFrom(
+                      disabledBackgroundColor:
+                          AppColors.gold.withValues(alpha: 0.60),
+                      disabledForegroundColor: AppColors.islamicDeep,
+                      textStyle: const TextStyle(
+                        fontWeight: FontWeight.w700,
+                        fontSize: 14,
+                      ),
+                      padding:
+                          const EdgeInsets.symmetric(vertical: 13),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ],
     );
   }
 }

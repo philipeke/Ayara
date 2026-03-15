@@ -44,6 +44,11 @@ class SettingsController {
     messenger.showSnackBar(SnackBar(content: Text(msg)));
   }
 
+  void _snackIfMounted(BuildContext context, String msg) {
+    if (!context.mounted) return;
+    _snack(context, msg);
+  }
+
   void _log(String msg) {
     if (kDebugMode) debugPrint('⚙️ Settings: $msg');
   }
@@ -142,6 +147,7 @@ class SettingsController {
       // ✅ Immediately refresh plan/credits after auth (silent)
       await _refreshUsageAfterAuth();
 
+      if (!context.mounted) return;
       if (wasGuestBefore && didUpgradeFromGuest) {
         _snack(context, t.snackUpgradedGoogle);
       } else {
@@ -149,7 +155,7 @@ class SettingsController {
       }
     } catch (e, st) {
       _log('upgradeWithGoogle error: $e\n$st');
-      _snack(context, e.toString());
+      _snackIfMounted(context, e.toString());
     } finally {
       _authInFlight = false;
     }
@@ -185,6 +191,7 @@ class SettingsController {
       // ✅ Immediately refresh plan/credits after auth (silent)
       await _refreshUsageAfterAuth();
 
+      if (!context.mounted) return;
       if (wasGuestBefore && didUpgradeFromGuest) {
         _snack(context, t.snackUpgradedApple);
       } else {
@@ -195,13 +202,17 @@ class SettingsController {
         '🍎 SignInWithAppleAuthorizationException: ${e.code} ${e.message}\n$st',
       );
       if (e.code == AuthorizationErrorCode.canceled) return;
-      _snack(context, e.message);
+      final message = e.message.trim();
+      _snackIfMounted(
+        context,
+        message.isNotEmpty ? message : 'Apple sign-in failed.',
+      );
     } on FirebaseAuthException catch (e, st) {
       _log('🔥 FirebaseAuthException (Apple): ${e.code} ${e.message}\n$st');
-      _snack(context, '${e.code}: ${e.message ?? ''}'.trim());
+      _snackIfMounted(context, '${e.code}: ${e.message ?? ''}'.trim());
     } catch (e, st) {
       _log('🔥 upgradeWithApple unknown error: $e\n$st');
-      _snack(context, e.toString());
+      _snackIfMounted(context, e.toString());
     } finally {
       _authInFlight = false;
     }
@@ -337,11 +348,12 @@ class SettingsController {
       // shows the correct guest state (not stale data from the previous account).
       await _refreshUsageAfterAuth();
 
+      if (!context.mounted) return;
       _snack(context, t.snackSignedOut);
       _log('signOut done (now anonymous)');
     } catch (e, st) {
       _log('signOut error: $e\n$st');
-      _snack(context, e.toString());
+      _snackIfMounted(context, e.toString());
     } finally {
       _authInFlight = false;
     }
@@ -374,8 +386,10 @@ class SettingsController {
       });
 
       UsageRefreshService.instance.resetSessionGuard();
+      if (!context.mounted) return;
       _snack(context, 'Premium (test) activated for this account.');
     } catch (e) {
+      if (!context.mounted) return;
       _snack(context, 'Failed to activate Premium (test): $e');
     }
   }

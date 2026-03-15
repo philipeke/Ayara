@@ -6,6 +6,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:audioplayers/audioplayers.dart';
 
 import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/core/widgets/feature_lock_overlay.dart';
 import 'package:ayara/l10n/app_localizations.dart';
 import 'package:ayara/features/limit/usage_service.dart';
 
@@ -487,7 +488,7 @@ class _DuaAudioScreenState extends State<DuaAudioScreen> {
 
                 // ── Library list ──────────────────────────────────────────
                 Expanded(
-                  child: _FeatureLock(
+                  child: FeatureLockOverlay(
                     child: _buildLibraryList(context),
                   ),
                 ),
@@ -1214,123 +1215,6 @@ class _MetaRow extends StatelessWidget {
           ),
         ),
       ],
-    );
-  }
-}
-
-// ─────────────────────────────────────────────────────────────────────────────
-// Premium gate overlay
-// ─────────────────────────────────────────────────────────────────────────────
-
-class _FeatureLock extends StatelessWidget {
-  final Widget child;
-  const _FeatureLock({required this.child});
-
-  @override
-  Widget build(BuildContext context) {
-    return AnimatedBuilder(
-      animation: UsageService.instance,
-      builder: (context, _) {
-        final isPremium =
-            (UsageService.instance.current?.plan ?? 'basic') == 'premium';
-
-        if (isPremium) return child;
-
-        final t = AppLocalizations.of(context);
-
-        return Stack(
-          children: [
-            // Greyed-out, non-interactive content
-            ColorFiltered(
-              colorFilter: const ColorFilter.matrix([
-                0.2126, 0.7152, 0.0722, 0, 0,
-                0.2126, 0.7152, 0.0722, 0, 0,
-                0.2126, 0.7152, 0.0722, 0, 0,
-                0,      0,      0,      0.45, 0,
-              ]),
-              child: IgnorePointer(child: child),
-            ),
-            // Lock overlay
-            Positioned.fill(
-              child: GestureDetector(
-                behavior: HitTestBehavior.opaque,
-                onTap: () {
-                  HapticFeedback.selectionClick();
-                  Navigator.pushNamed(context, '/settings');
-                },
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Container(
-                        padding: const EdgeInsets.all(10),
-                        decoration: BoxDecoration(
-                          color: Colors.black.withValues(alpha: 0.38),
-                          shape: BoxShape.circle,
-                          border: Border.all(
-                            color: Colors.white.withValues(alpha: 0.22),
-                          ),
-                        ),
-                        child: const Icon(
-                          Icons.lock_rounded,
-                          color: Colors.white,
-                          size: 22,
-                        ),
-                      ),
-                      const SizedBox(height: 10),
-                      Text(
-                        t.premiumFeatureLocked,
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          color: Colors.white.withValues(alpha: 0.92),
-                          fontWeight: FontWeight.w600,
-                          fontSize: 13,
-                          height: 1.3,
-                          shadows: [
-                            Shadow(
-                              color: Colors.black.withValues(alpha: 0.65),
-                              blurRadius: 8,
-                            ),
-                          ],
-                        ),
-                      ),
-                      const SizedBox(height: 12),
-                      Container(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 20, vertical: 9),
-                        decoration: BoxDecoration(
-                          color: AppColors.gold.withValues(alpha: 0.15),
-                          borderRadius: BorderRadius.circular(22),
-                          border: Border.all(
-                            color: AppColors.gold.withValues(alpha: 0.70),
-                            width: 1.2,
-                          ),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black.withValues(alpha: 0.30),
-                              blurRadius: 10,
-                              offset: const Offset(0, 3),
-                            ),
-                          ],
-                        ),
-                        child: Text(
-                          t.premiumButtonBecomePremium,
-                          style: const TextStyle(
-                            color: AppColors.gold,
-                            fontWeight: FontWeight.w700,
-                            fontSize: 13,
-                            letterSpacing: 0.3,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-          ],
-        );
-      },
     );
   }
 }

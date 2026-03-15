@@ -85,6 +85,7 @@ class DeleteAccountButton extends StatelessWidget {
           .call(<String, dynamic>{});
 
       // 2) Delete Firebase Auth user (reauth if needed)
+      if (!context.mounted) return;
       await _deleteAuthUserWithReauthIfNeeded(context);
 
       if (!context.mounted) return;

@@ -6,6 +6,7 @@ import 'dart:math';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:crypto/crypto.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/foundation.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
@@ -48,6 +49,10 @@ class AuthGateController {
     FirebaseFirestore? firestore,
   })  : _auth = auth ?? FirebaseAuth.instance,
         _firestore = firestore ?? FirebaseFirestore.instance;
+
+  void _debugLog(String message) {
+    if (kDebugMode) debugPrint(message);
+  }
 
   Future<AuthBootstrapResult?> loadExistingUserAndConsent() async {
     final user = _auth.currentUser;
@@ -185,36 +190,29 @@ class AuthGateController {
     _authInFlight = true;
 
     try {
-      // ignore: avoid_print
-      print('🍎 Apple sign-in start | platform=${Platform.operatingSystem}');
+      _debugLog('🍎 Apple sign-in start | platform=${Platform.operatingSystem}');
 
       if (Platform.isIOS) {
         final okNative = await _tryFirebaseNativeAppleProvider();
-        // ignore: avoid_print
-        print('🍎 Apple native result: $okNative');
+        _debugLog('🍎 Apple native result: $okNative');
         if (okNative) return true;
       }
 
-      // ignore: avoid_print
-      print('🍎 Apple falling back to plugin flow');
+      _debugLog('🍎 Apple falling back to plugin flow');
       final okPlugin = await _signInWithApplePlugin();
-      // ignore: avoid_print
-      print('🍎 Apple plugin result: $okPlugin');
+      _debugLog('🍎 Apple plugin result: $okPlugin');
       return okPlugin;
     } on SignInWithAppleAuthorizationException catch (e, st) {
-      // ignore: avoid_print
-      print('🔥 Apple plugin exception: code=${e.code} msg=${e.message}\n$st');
+      _debugLog('🔥 Apple plugin exception: code=${e.code} msg=${e.message}\n$st');
       if (e.code == AuthorizationErrorCode.canceled) return false;
       rethrow;
     } on FirebaseAuthException catch (e, st) {
-      // ignore: avoid_print
-      print(
+      _debugLog(
         '🔥 FirebaseAuthException (Apple): code=${e.code} message=${e.message}\n$st',
       );
       rethrow;
     } catch (e, st) {
-      // ignore: avoid_print
-      print('🔥 Apple sign-in unknown error: $e\n$st');
+      _debugLog('🔥 Apple sign-in unknown error: $e\n$st');
       rethrow;
     } finally {
       _authInFlight = false;
@@ -231,33 +229,28 @@ class AuthGateController {
     final current = _auth.currentUser;
 
     try {
-      // ignore: avoid_print
-      print(
+      _debugLog(
         '🍎 [native] start | currentUser=${current?.uid} anon=${current?.isAnonymous}',
       );
 
       if (_disableAnonymousLinkForDebug) {
         final res = await _auth.signInWithProvider(provider);
-        // ignore: avoid_print
-        print('🍎 [native] signInWithProvider OK uid=${res.user?.uid}');
+        _debugLog('🍎 [native] signInWithProvider OK uid=${res.user?.uid}');
         return res.user != null;
       }
 
       if (current != null && current.isAnonymous) {
         try {
           final linkRes = await current.linkWithProvider(provider);
-          // ignore: avoid_print
-          print('🍎 [native] linkWithProvider OK uid=${linkRes.user?.uid}');
+          _debugLog('🍎 [native] linkWithProvider OK uid=${linkRes.user?.uid}');
           return linkRes.user != null;
         } on FirebaseAuthException catch (e, st) {
-          // ignore: avoid_print
-          print(
+          _debugLog(
             '🔥 [native] linkWithProvider FAILED code=${e.code} msg=${e.message}\n$st',
           );
 
           final res = await _auth.signInWithProvider(provider);
-          // ignore: avoid_print
-          print(
+          _debugLog(
             '🍎 [native] fallback signInWithProvider OK uid=${res.user?.uid}',
           );
           return res.user != null;
@@ -265,18 +258,15 @@ class AuthGateController {
       }
 
       final res = await _auth.signInWithProvider(provider);
-      // ignore: avoid_print
-      print('🍎 [native] signInWithProvider OK uid=${res.user?.uid}');
+      _debugLog('🍎 [native] signInWithProvider OK uid=${res.user?.uid}');
       return res.user != null;
     } on FirebaseAuthException catch (e, st) {
-      // ignore: avoid_print
-      print(
+      _debugLog(
         '🔥 [native] FirebaseAuthException code=${e.code} msg=${e.message}\n$st',
       );
       return false; // allow plugin fallback
     } catch (e, st) {
-      // ignore: avoid_print
-      print('🔥 [native] unknown error: $e\n$st');
+      _debugLog('🔥 [native] unknown error: $e\n$st');
       return false; // allow plugin fallback
     }
   }
@@ -286,8 +276,7 @@ class AuthGateController {
     final rawNonce = _generateNonce();
     final nonce = _sha256OfString(rawNonce);
 
-    // ignore: avoid_print
-    print('🍎 Using sign_in_with_apple plugin flow');
+    _debugLog('🍎 Using sign_in_with_apple plugin flow');
 
     // ✅ IMPORTANT: On iOS we MUST NOT pass webAuthenticationOptions at all.
     // (Not even "null") — some setups/versions behave weirdly.
@@ -324,8 +313,7 @@ class AuthGateController {
     final authCode = appleCred.authorizationCode;
     if (authCode.isEmpty) {
       // Fail fast här – annars får du random "Invalid OAuth response..." senare.
-      // ignore: avoid_print
-      print('❌ Apple authorizationCode missing/empty');
+      _debugLog('❌ Apple authorizationCode missing/empty');
       throw Exception('Missing authorizationCode from Apple.');
     }
 
@@ -356,8 +344,7 @@ class AuthGateController {
             e.code == 'provider-already-linked') {
           await _auth.signInWithCredential(cred);
         } else {
-          // ignore: avoid_print
-          print(
+          _debugLog(
             '🔥 linkWithCredential failed: code=${e.code} message=${e.message}',
           );
           rethrow;
@@ -368,8 +355,7 @@ class AuthGateController {
         final res = await _auth.signInWithCredential(cred);
         if (res.user == null) throw Exception('Sign-in failed.');
       } on FirebaseAuthException catch (e) {
-        // ignore: avoid_print
-        print(
+        _debugLog(
           '🔥 signInWithCredential failed: code=${e.code} message=${e.message}',
         );
         rethrow;
@@ -409,13 +395,11 @@ class AuthGateController {
       final iss = jsonMap is Map ? jsonMap['iss'] : null;
       final nonce = jsonMap is Map ? jsonMap['nonce'] : null;
 
-      // ignore: avoid_print
-      print(
+      _debugLog(
         '🍎 Apple idToken claims: aud=$aud iss=$iss nonce=${nonce != null ? '(present)' : '(missing)'}',
       );
     } catch (e) {
-      // ignore: avoid_print
-      print('🍎 Could not decode apple identityToken claims: $e');
+      _debugLog('🍎 Could not decode apple identityToken claims: $e');
     }
   }
 }

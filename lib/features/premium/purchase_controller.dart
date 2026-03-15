@@ -16,23 +16,15 @@ import 'premium_service.dart';
 /// - Currency: Reflections (UI), stored as credits in backend payloads
 class PremiumProducts {
   /// 100 reflections top-up (unlocked after Premium)
-  ///
-  /// TODO: replace with your real Ayara product id.
   static const String reflections100 = 'ayara_reflections_100';
 
   /// 200 reflections top-up (unlocked after Premium)
-  ///
-  /// TODO: replace with your real Ayara product id.
   static const String reflections200 = 'ayara_reflections_200';
 
   /// 400 reflections top-up (unlocked after Premium)
-  ///
-  /// TODO: replace with your real Ayara product id.
   static const String reflections400 = 'ayara_reflections_400';
 
   /// Premium one-time upgrade (entitlement + bonus reflections)
-  ///
-  /// TODO: replace with your real Ayara product id.
   static const String premium = 'com.oakdev.ayara.premium';
 
   static const Set<String> all = {
@@ -171,6 +163,7 @@ class PurchaseController extends ChangeNotifier {
     if (_didInit) return;
 
     _setLoading(true);
+    var initSucceeded = false;
 
     try {
       final available = await _iap.isAvailable();
@@ -221,16 +214,17 @@ class PurchaseController extends ChangeNotifier {
           'Some product IDs were not found by StoreKit/Play: ${response.notFoundIDs}.',
         );
       }
+      initSucceeded = true;
     } catch (e, st) {
       _logErr('init() failed: $e');
       if (kDebugMode) _logErr('$st');
     } finally {
-      _didInit = true;
+      _didInit = initSucceeded;
       _stopWatchdog();
       _setLoading(false);
       if (kDebugMode) {
         _log(
-          'IAP DEBUG: init done. available=$_available products=${_products.length}',
+          'IAP DEBUG: init done. available=$_available products=${_products.length} didInit=$_didInit',
         );
       }
     }

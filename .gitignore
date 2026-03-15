@@ -103,7 +103,6 @@ generated_plugin_registrant.dart
 /ios/.generated/
 
 /ios/Runner.xcworkspace/
-/ios/Runner/Runner.entitlements
 
 # Flutter engine artifacts
 /ios/Flutter/App.framework

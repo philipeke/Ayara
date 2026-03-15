@@ -158,7 +158,8 @@ class _ResultScreenState extends State<ResultScreen> {
         onBack: () async {
           await HapticFeedback.lightImpact();
           await Future.delayed(const Duration(milliseconds: 100));
-          if (mounted) Navigator.of(context).pop();
+          if (!context.mounted) return;
+          Navigator.of(context).pop();
         },
         onCopy: _onCopy,
         onShare: _onShare,

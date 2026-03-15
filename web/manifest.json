@@ -1,11 +1,11 @@
 {
-    "name": "ayara_app",
-    "short_name": "ayara_app",
+    "name": "Ayara",
+    "short_name": "Ayara",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Ayara project.",
+    "background_color": "#040A06",
+    "theme_color": "#040A06",
+    "description": "Ayara is a Shia Islamic guidance app for daily reflection, duas, and wisdom inspired by the Quran and the teachings of the Ahl al-Bayt.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

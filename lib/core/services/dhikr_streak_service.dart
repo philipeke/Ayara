@@ -27,7 +27,10 @@ class DhikrStreakService extends ChangeNotifier {
     if (lastDate == null) return 0;
     // If the user missed more than one day, the streak is broken — show 0
     // so the dashboard reflects reality rather than the stale stored value.
-    final diff = DateTime.parse(_today).difference(DateTime.parse(lastDate)).inDays;
+    // Compare as strings first (cheap); only parse dates when they differ.
+    final today = _today;
+    if (lastDate == today) return p.getInt(_prefStreak) ?? 0;
+    final diff = DateTime.parse(today).difference(DateTime.parse(lastDate)).inDays;
     if (diff > 1) return 0;
     return p.getInt(_prefStreak) ?? 0;
   }

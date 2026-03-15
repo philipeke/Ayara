@@ -147,7 +147,8 @@ class _CategoryScreenState extends State<CategoryScreen> {
   Future<void> _submitQuestion() async {
     if (_isListening) {
       await _speech.stop();
-      if (mounted) setState(() => _isListening = false);
+      if (!mounted) return;
+      setState(() => _isListening = false);
     }
     final question = _askController.text.trim();
     final t = AppLocalizations.of(context);

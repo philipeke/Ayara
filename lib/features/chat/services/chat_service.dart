@@ -87,6 +87,13 @@ class ChatService {
     }
   }
 
+  static void _showSnackBar(BuildContext context, String message) {
+    if (!context.mounted) return;
+    final messenger = ScaffoldMessenger.maybeOf(context);
+    if (messenger == null) return;
+    messenger.showSnackBar(SnackBar(content: Text(message)));
+  }
+
   // ---------------------------------------------------------------------------
   // 🔹 Language helpers (strict language enforcement)
   // ---------------------------------------------------------------------------
@@ -261,7 +268,7 @@ LANGUAGE LOCK (critical):
       }
 
       // 3️⃣ Pre-check (NO consume here)
-      final ok = await _checkRemoteLimit(context);
+      final ok = _checkRemoteLimit(context);
       if (!ok) throw Exception('remote_rate_limited');
 
       // 4️⃣ Compose prompt + call AI
@@ -284,6 +291,7 @@ LANGUAGE LOCK (critical):
       // ✅ AI first
       final rawText = await _callAiCallable(messages, localeTag);
       final text = _stripWrappingQuotes(rawText);
+      if (!context.mounted) throw Exception('context_unmounted');
 
       // ✅ Consume exactly ONCE after AI success
       await _consumeOneReflectionOrThrow(context);
@@ -328,7 +336,7 @@ LANGUAGE LOCK (critical):
       }
 
       // 2️⃣ Pre-check (NO consume here)
-      final ok = await _checkRemoteLimit(context);
+      final ok = _checkRemoteLimit(context);
       if (!ok) throw Exception('remote_rate_limited');
 
       final rawLocale = PromptLibrary.langOf(context);
@@ -342,6 +350,7 @@ LANGUAGE LOCK (critical):
       // ✅ AI first
       final rawText = await _callAiCallable(messages, localeTag);
       final text = _stripWrappingQuotes(rawText);
+      if (!context.mounted) throw Exception('context_unmounted');
 
       // ✅ Consume exactly ONCE after AI success
       await _consumeOneReflectionOrThrow(context);
@@ -372,9 +381,7 @@ LANGUAGE LOCK (critical):
       _burstCount += 1;
 
       if (_burstCount >= _burstLimit) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(t.rateLocalThrottle)),
-        );
+        _showSnackBar(context, t.rateLocalThrottle);
         return false;
       }
     } else {
@@ -385,23 +392,19 @@ LANGUAGE LOCK (critical):
     return true;
   }
 
-  static Future<bool> _checkRemoteLimit(BuildContext context) async {
+  static bool _checkRemoteLimit(BuildContext context) {
     final t = AppLocalizations.of(context);
 
     final user = FirebaseAuth.instance.currentUser;
     if (user == null) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(t.rateGuestMustSignIn)),
-      );
+      _showSnackBar(context, t.rateGuestMustSignIn);
       return false;
     }
     final current = UsageService.instance.current;
     final remaining = current?.creditsRemaining; // backend model still uses credits*
 
     if (remaining != null && remaining <= 0) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(t.rateCreditsExhausted)),
-      );
+      _showSnackBar(context, t.rateCreditsExhausted);
       return false;
     }
 
@@ -436,16 +439,14 @@ LANGUAGE LOCK (critical):
 
       if (kDebugMode) debugPrint('[reflections] consume failed reason=$reason');
 
+      if (!context.mounted) {
+        throw Exception(reason);
+      }
+
       // If App Check is throttling here, also apply local cooldown.
       if (reason == 'appcheck_throttled' || _looksLikeAppCheckRateLimit(e)) {
         _noteAppCheckStrike(error: e);
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(
-              t.rateCheckGenericError,
-            ),
-          ),
-        );
+        _showSnackBar(context, t.rateCheckGenericError);
         throw Exception('appcheck_throttled');
       }
 
@@ -467,9 +468,7 @@ LANGUAGE LOCK (critical):
           message = t.rateCheckGenericError;
       }
 
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(message)),
-      );
+      _showSnackBar(context, message);
 
       throw Exception(reason);
     }

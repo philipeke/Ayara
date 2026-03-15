@@ -5,6 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:geolocator/geolocator.dart';
 
 import 'package:ayara/core/config/theme.dart';
+import 'package:ayara/core/widgets/feature_lock_overlay.dart';
 import 'package:ayara/l10n/app_localizations.dart';
 
 import 'package:ayara/features/qibla/widgets/qibla_compass_widget.dart';
@@ -287,7 +288,7 @@ class _QiblaScreenState extends State<QiblaScreen> {
                                 'premium';
                         if (!isPremium) {
                           // Real dead compass — no sensors, frozen, greyed out
-                          return _FeatureLock(
+                          return FeatureLockOverlay(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
@@ -399,7 +400,7 @@ class _QiblaScreenState extends State<QiblaScreen> {
                       if (!isPremium) {
                         return Padding(
                           padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
-                          child: _FeatureLock(
+                          child: FeatureLockOverlay(
                             child: _InfoCardPlaceholder(),
                           ),
                         );
@@ -417,7 +418,7 @@ class _QiblaScreenState extends State<QiblaScreen> {
                 SliverToBoxAdapter(
                   child: Padding(
                     padding: const EdgeInsets.fromLTRB(0, 28, 0, 40),
-                    child: _FeatureLock(child: TasbihFatimaWidget()),
+                    child: FeatureLockOverlay(child: TasbihFatimaWidget()),
                   ),
                 ),
               ],
@@ -430,127 +431,7 @@ class _QiblaScreenState extends State<QiblaScreen> {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Premium gate overlay — greys out child and shows a lock when not Barakah
-// ─────────────────────────────────────────────────────────────────────────────
-
-class _FeatureLock extends StatelessWidget {
-  final Widget child;
-  const _FeatureLock({required this.child});
-
-  @override
-  Widget build(BuildContext context) {
-    return AnimatedBuilder(
-      animation: UsageService.instance,
-      builder: (context, _) {
-        final usage = UsageService.instance.current;
-        final isPremium = (usage?.plan ?? 'basic') == 'premium';
-
-        if (isPremium) return child;
-
-        final t = AppLocalizations.of(context);
-
-        return Stack(
-          children: [
-            // Greyed-out, non-interactive content — grayscale + 45% opacity
-            // via color matrix (avoids BlendMode.saturation leaking to parent layer)
-            ColorFiltered(
-              colorFilter: const ColorFilter.matrix([
-                // Luminance grayscale rows (ITU-R BT.709)
-                0.2126, 0.7152, 0.0722, 0, 0,
-                0.2126, 0.7152, 0.0722, 0, 0,
-                0.2126, 0.7152, 0.0722, 0, 0,
-                // Alpha row — scale to 45% opacity
-                0,      0,      0,      0.45, 0,
-              ]),
-              child: IgnorePointer(child: child),
-            ),
-            // Lock overlay — no dark box, just centered icon + text on top
-            Positioned.fill(
-              child: GestureDetector(
-                behavior: HitTestBehavior.opaque,
-                onTap: () {
-                  HapticFeedback.selectionClick();
-                  Navigator.pushNamed(context, '/settings');
-                },
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Container(
-                        padding: const EdgeInsets.all(10),
-                        decoration: BoxDecoration(
-                          color: Colors.black.withValues(alpha: 0.38),
-                          shape: BoxShape.circle,
-                          border: Border.all(
-                            color: Colors.white.withValues(alpha: 0.22),
-                          ),
-                        ),
-                        child: const Icon(
-                          Icons.lock_rounded,
-                          color: Colors.white,
-                          size: 22,
-                        ),
-                      ),
-                      const SizedBox(height: 10),
-                      Text(
-                        t.premiumFeatureLocked,
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          color: Colors.white.withValues(alpha: 0.92),
-                          fontWeight: FontWeight.w600,
-                          fontSize: 13,
-                          height: 1.3,
-                          shadows: [
-                            Shadow(
-                              color: Colors.black.withValues(alpha: 0.65),
-                              blurRadius: 8,
-                            ),
-                          ],
-                        ),
-                      ),
-                      const SizedBox(height: 12),
-                      Container(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 20, vertical: 9),
-                        decoration: BoxDecoration(
-                          color: AppColors.gold.withValues(alpha: 0.15),
-                          borderRadius: BorderRadius.circular(22),
-                          border: Border.all(
-                            color: AppColors.gold.withValues(alpha: 0.70),
-                            width: 1.2,
-                          ),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black.withValues(alpha: 0.30),
-                              blurRadius: 10,
-                              offset: const Offset(0, 3),
-                            ),
-                          ],
-                        ),
-                        child: Text(
-                          t.premiumButtonBecomePremium,
-                          style: const TextStyle(
-                            color: AppColors.gold,
-                            fontWeight: FontWeight.w700,
-                            fontSize: 13,
-                            letterSpacing: 0.3,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-          ],
-        );
-      },
-    );
-  }
-}
-
-// ─────────────────────────────────────────────────────────────────────────────
-// Static placeholder for the info card — used as the child of _FeatureLock
+// Static placeholder for the info card — used as the child of FeatureLockOverlay
 // so standard users see a greyed/locked version of the two tiles.
 // ─────────────────────────────────────────────────────────────────────────────
 
